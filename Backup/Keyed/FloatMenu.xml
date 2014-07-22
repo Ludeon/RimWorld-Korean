@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CallOnRadio>연락 {0}</CallOnRadio>
+
+	<CannotUseSolarFlare>작업 불가 (흑점 폭발)</CannotUseSolarFlare>
+
+	<CannotUseNoPower>작업 불가 (전력 없음)</CannotUseNoPower>
+
+	<CannotUseNoPath>작업 불가 (길 없음)</CannotUseNoPath>
+  <CannotUseReserved>작업 불가 (예약됨)</CannotUseReserved>
+  <CannotUseFull>작업 불가 (꽉 참)</CannotUseFull>
+	
+
+  <FireAt>{0}에게 사격</FireAt>
+
+  <OutOfRange>사정거리 초과</OutOfRange>
+
+  <CannotHitTarget>목표물을 맞출 수 없음</CannotHitTarget>
+
+  <CannotFight>{0}과(와) 싸울 수 없음</CannotFight>
+
+  <OrderManThing>Man {0}</OrderManThing>
+
+
+  
+  
+    <MeleeAttack>{0}을(를) 근접 공격</MeleeAttack>
+
+   <MeleeAttackToDeath>{0}을(를) 죽을때까지 근접 공격</MeleeAttackToDeath>
+
+   <NoPath>길 없음</NoPath>
+
+
+	<ForbiddenLower>금지됨</ForbiddenLower>
+
+	<SociallyImproperLower>사회적으로 부정적임</SociallyImproperLower>
+
+	<BurningLower>불타고 있음</BurningLower>
+
+	<NoEmptyPlaceLower>저장할 공간이 없습니다.</NoEmptyPlaceLower>
+
+	<AlreadyFilledLower>이미 충분합니다.</AlreadyFilledLower>
+
+	<MissingMaterials>재료가 필요합니다.</MissingMaterials>
+	
+	
+  <CannotGoNoPath>이동 불가(길 없음)</CannotGoNoPath>
+
+  <GoHere>여기로 이동</GoHere>
+  
+  <Arrest>{0}을(를) 체포</Arrest>
+
+  <CannotArrest>체포할 수 없음</CannotArrest>
+
+  <Capture>{0}을(를) 포획</Capture>
+
+  <CannotCapture>포획할 수 없음</CannotCapture>
+
+  <Rescue>{0}을(를) 구조</Rescue>
+
+  <CannotRescue>구조할 수 없음</CannotRescue>
+
+  <NoPrisonerBed>포로(죄수)용 침대가 없음</NoPrisonerBed>
+
+  <NoNonPrisonerBed>시민용 침대가 없음</NoNonPrisonerBed>
+
+  <Reserved>누군가에게 예약되어 있음.</Reserved>
+
+  <ReservedBy>{0}에게 예약됨</ReservedBy>
+
+  <IsReservedBy>{0}은(는) {1}에게 예약되어 있음.</IsReservedBy>
+
+
+  <Equip>{0} 장착</Equip>
+
+  <CannotEquip>{0} 장착불가</CannotEquip>
+
+  <Wear>{0} 착용</Wear>
+  <CannotWear>{0} 착용불가</CannotWear>
+  
+  <Strip>{0} 장비 벗김</Strip>
+  <CannotStrip>{0} 벗길 수 없음</CannotStrip>
+
+  <Deposit>{0}을(를) {1}에 보관</Deposit>
+
+  <CannotDeposit>{0}을(를) {1}에 보관 불가</CannotDeposit>
+
+
+  <Drop>{0} 버리기</Drop>
+
+  <!-- Specific thing interactions -->
+  <EnterCryptosleepPod>동면장치에 들어감</EnterCryptosleepPod>
+
+
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
+
+  <CannotGenericWork>{1}을(를)  {0}할 수 없습니다.</CannotGenericWork>
+
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+
+  <CannotGenericAlreadyAm>이미 {1}을(를) {0}하고 있습니다.</CannotGenericAlreadyAm>
+
+  <CannotPrioritizeIsNotA>우선시할 수 없음 ({0} 은(는) {1}이 아님)</CannotPrioritizeIsNotA>
+
+  <CannotPrioritizeResearch>우선시할 수 없음 (연구는 장기간 업무)</CannotPrioritizeResearch>
+
+  <CannotPrioritizeForbidden>우선시할 수 없음 ({0} 은(는) 금지됨)</CannotPrioritizeForbidden>
+
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
+
+
+<PrioritizeGeneric>{1}-{0}을(를) 우선적으로 처리</PrioritizeGeneric>
+  
+</LanguageData>
