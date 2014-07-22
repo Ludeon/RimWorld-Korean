@@ -2,111 +2,81 @@
 <LanguageData>
   
   <DesignatorCancel>취소</DesignatorCancel>
+  <DesignatorCancelDesc>건설, 채광, 운반, 수확 등 모든 명령들을 취소할 수 있습니다.</DesignatorCancelDesc>
 
-  <DesignatorCancelDesc>모든 명령들을 취소 할 수 있습니다. (채광,벌목,건설 등등..)</DesignatorCancelDesc>
+  <DesignatorCutPlants>제초</DesignatorCutPlants>
+  <DesignatorCutPlantsDesc>표시된 식물이 다시 자라지 못하도록 제초 작업을 합니다. 작업 도중에 식자재를 수확 할 수도 있습니다.</DesignatorCutPlantsDesc>
 
-  <DesignatorCutPlants>뿌리뽑기</DesignatorCutPlants>
-
-  <DesignatorCutPlantsDesc>뿌리까지 제거해버립니다. 완전 성장한 작물에 사용하게 될 경우 수확되며, 뿌리까지 제거됩니다.</DesignatorCutPlantsDesc>
-
-  <DesignatorDeconstruct>판매</DesignatorDeconstruct>
-
-  <DesignatorDeconstructDesc>건축물을 해체하고 소량의 자원을 회수합니다.</DesignatorDeconstructDesc>
+  <DesignatorDeconstruct>해체</DesignatorDeconstruct>
+  <DesignatorDeconstructDesc>제작 하거나 건설된 대상을 해체하고, 회수한 자원을 재사용합니다.</DesignatorDeconstructDesc>
 
   <DesignatorHarvestFood>수확</DesignatorHarvestFood>
-
-  <DesignatorHarvestFoodDesc>열매 또는 섭취가능한 부분만 채취하고 식물자체는 유지됩니다.</DesignatorHarvestFoodDesc>
+  <DesignatorHarvestFoodDesc>수확이 가능한 식물에 표시를 남깁니다. 식물에서 곡식이나 열매를 수확하게 되며, 식물 자체는 남아있습니다.</DesignatorHarvestFoodDesc>
 
   <DesignatorHarvestWood>벌목</DesignatorHarvestWood>
-
-  <DesignatorHarvestWoodDesc>설명드려야 하나요..ㅠㅠ</DesignatorHarvestWoodDesc>
+  <DesignatorHarvestWoodDesc>벌목할 수 있는 나무에 표시를 남깁니다.</DesignatorHarvestWoodDesc>
 
   <DesignatorHaulThings>운반</DesignatorHaulThings>
-
-  <DesignatorHaulThingsDesc>돌덩어리 등을 처리장으로 설정된 지역으로 운반합니다. 음식이나 시체 등 항상 운반되는 것들은 운반할 필요 없습니다.</DesignatorHaulThingsDesc>
-
-  <NothingToHaulHere>이곳에 운반할수 없습니다.</NothingToHaulHere>
-
-  <MustHaulHaulables>돌덩어리처럼 자동으로 운반되지 않는 것들을 지정할 수 있습니다.</MustHaulHaulables>
+  <DesignatorHaulThingsDesc>돌덩어리나 다른 아이템에 표시를 남겨 처리 지역으로 옮기도록 지시합니다.</DesignatorHaulThingsDesc>
+  <NothingToHaulHere>이 곳에 운반할 수 없습니다.</NothingToHaulHere>
+  <MustHaulHaulables>돌덩어리 처럼 자동적으로 운반하지 않는 것들만 지정할 수 있습니다.</MustHaulHaulables>
 
   <DesignatorHunt>사냥</DesignatorHunt>
+  <DesignatorHuntDesc>동물에 표시를 남겨, 사냥 하도록 지시합니다.</DesignatorHuntDesc>
 
-  <DesignatorHuntDesc>동물들을 범위지정으로 편리하게 사냥합니다.</DesignatorHuntDesc>
-
-  <DesignatorMine>채광</DesignatorMine>
-
-  <DesignatorMineDesc>채광할 지역을 선택합니다.</DesignatorMineDesc>
+  <DesignatorMine>채굴</DesignatorMine>
+  <DesignatorMineDesc>암석 지대를 지정 하여 채굴합니다.</DesignatorMineDesc>
 
   <DesignatorPlan>계획</DesignatorPlan>
-
-  <DesignatorPlanDesc>계획 구역을 지정합니다. 앞으로 확장계획을 실행 하는데 도움이 됩니다.</DesignatorPlanDesc>
+  <DesignatorPlanDesc>지시할 공간을 미리 계획해둡니다. 정착지 주민들과 상호 작용이 일어나지 않으며, 공간 구상을 하거나 건설을 할 때 도움이 됩니다.</DesignatorPlanDesc>
 
   <DesignatorPlanRemove>계획 취소</DesignatorPlanRemove>
+  <DesignatorPlanRemoveDesc>계획해 두었던 공간을 지워버립니다.</DesignatorPlanRemoveDesc>
 
-  <DesignatorPlanRemoveDesc>지정한 계획을 취소합니다.</DesignatorPlanRemoveDesc>
+  <DesignatorHomeRegionAdd>주거 구역 설정</DesignatorHomeRegionAdd>
+  <DesignatorHomeRegionAddDesc>정착지 주민들은 주거 구역의 범위 안에서 스스로 건물을 수리하고, 바닥을 청소하고, 화재를 진압합니다.</DesignatorHomeRegionAddDesc>
 
-  <DesignatorHomeRegionAdd>홈 지역 추가</DesignatorHomeRegionAdd>
+  <DesignatorHomeRegionRemove>주거 구역 취소</DesignatorHomeRegionRemove>
+  <DesignatorHomeRegionRemoveDesc>주거 구역을 취소합니다. 정착지 주민들은 주거 구역이 아닌 공간에서 스스로 청소, 수리, 소방 활동을 하지 않습니다.</DesignatorHomeRegionRemoveDesc>
 
-  <DesignatorHomeRegionAddDesc>시민들이 바닥청소 및 화재진압을 하게 되는 구역을 설정합니다.</DesignatorHomeRegionAddDesc>
+  <DesignatorRegionNoRoofAdd>지붕없는 구역 설정</DesignatorRegionNoRoofAdd>
+  <DesignatorRegionNoRoofAddDesc>자동적으로 지붕이 생성되지 않도록 지붕 없는 구역을 설정합니다. 기존에 설치된 지붕이 있을 때는 정착지 주민들이 직접 해체할 것입니다.</DesignatorRegionNoRoofAddDesc>
 
-  <DesignatorHomeRegionRemove>홈 지역 제거</DesignatorHomeRegionRemove>
+  <DesignatorRegionNoRoofRemove>지붕없는 구역 취소</DesignatorRegionNoRoofRemove>
+  <DesignatorRegionNoRoofRemoveDesc>지붕없는 구역을 취소합니다. 지붕이 다시 생성될 수 있으며, 한번 철거한 지붕은 지붕없는 구역을 취소 했다 하더라도 자동적으로 덮어지지 않습니다.</DesignatorRegionNoRoofRemoveDesc>
 
-  <DesignatorHomeRegionRemoveDesc>홈 지역을 제거합니다. 기존 홈 지역이 가지는 추가적인 행동양식 역시 제거됩니다.</DesignatorHomeRegionRemoveDesc>
+  <DesignatorGrowingZoneDesc>정착지 주민들이 식물을 재배할 수 있는 구역을 지정합니다. \n이 도구를 활용하여 재배 구역을 확장할 수 있습니다.</DesignatorGrowingZoneDesc>
 
-  <DesignatorRegionNoRoofAdd>지붕 없는 지역 생성</DesignatorRegionNoRoofAdd>
+  <DesignatorZoneCreateStorageResourcesDesc>정착지 주민들이 여러가지를 저장할 수 있는 저장 구역을 지정합니다.\n이 도구를 활용하여 저장 공간을 확장할 수 있습니다.</DesignatorZoneCreateStorageResourcesDesc>
 
-  <DesignatorRegionNoRoofAddDesc>지붕을 제거합니다. 햇빛을 받을 수 있지만 비도 맞습니다.(합선 위험)</DesignatorRegionNoRoofAddDesc>
-
-  <DesignatorRegionNoRoofRemove>지붕 없는 지역 취소</DesignatorRegionNoRoofRemove>
-
-  <DesignatorRegionNoRoofRemoveDesc>지붕 제거 지역을 취소합니다.(Walker:벽을 한칸 부셨다가 다시 지어야 합니다.)</DesignatorRegionNoRoofRemoveDesc>
-
-  <DesignatorGrowingZoneDesc>식물을 성장시키는 지역을 만듭니다.</DesignatorGrowingZoneDesc>
-
-  <DesignatorZoneCreateStorageResourcesDesc>저장소를 만들어 자원을 비축할수있습니다.\n저장소는 확장이 가능합니다.</DesignatorZoneCreateStorageResourcesDesc>
-
-  <DesignatorZoneCreateStorageDumpingDesc>처리장 구역을 지정합니다. 처리장 역시 확장이 가능합니다.</DesignatorZoneCreateStorageDumpingDesc>
+  <DesignatorZoneCreateStorageDumpingDesc>폐기물을 쌓아둘 수 있는 처리 구역을 지정합니다.\n이 도구를 활용하여 처리 구역을 확장할 수 있습니다.</DesignatorZoneCreateStorageDumpingDesc>
 
 
-  <DesignatorZoneDelete>지역 삭제</DesignatorZoneDelete>
-
-  <DesignatorZoneDeleteDesc>저장소,처리장,제배구역 등을 취소할수있습니다.</DesignatorZoneDeleteDesc>
+  <DesignatorZoneDelete>구역 삭제</DesignatorZoneDelete>
+  <DesignatorZoneDeleteDesc>저장 구역이나 재배 구역과 같이, 설정된 구역을 삭제합니다.</DesignatorZoneDeleteDesc>
   
   
   
   <!-- placement of blueprints -->
-
-  <TooCloseToMapEdge>맵의 가장자리와 너무 가깝습니다.</TooCloseToMapEdge>
-
-  <OutOfBounds>범위를 벗어남</OutOfBounds>
-
-  <CannotPlaceInUndiscovered>발견되지 않은 지역에 배치 할 수 없습니다.</CannotPlaceInUndiscovered>
-
-  <InteractionSpotBlocked>상호작용 지점이 차단되어 있습니다.</InteractionSpotBlocked>
-
-  <InteractionSpotWillBeBlocked>상호작용 위치가 차단됩니다.</InteractionSpotWillBeBlocked>
-
-  <WouldBlockInteractionSpot>{0}이(가) {1}의 상호작용 지점을 자단할 것입니다.</WouldBlockInteractionSpot>
-
-  <TerrainIsAlready>여기 지형은 이미 {0}.</TerrainIsAlready>
-
-  <IdenticalThingExists>동일한 행동이 이미 지정되었습니다.</IdenticalThingExists>
-
-  <IdenticalBlueprintExists>동일한 건설예약이 존재합니다.</IdenticalBlueprintExists>
-
-  <TerrainCannotSupport>이곳 지형에 지원할수 없습니다.</TerrainCannotSupport>
-
-  <SpaceAlreadyOccupied>공간이 이미 점유 되었습니다.</SpaceAlreadyOccupied>
+  <TooCloseToMapEdge>맵의 가장 자리와 너무 가깝습니다.</TooCloseToMapEdge>
+  <OutOfBounds>범위를 벗어났습니다.</OutOfBounds>
+  <CannotPlaceInUndiscovered>탐색하지 않은 공간에 배치할 수 없습니다.</CannotPlaceInUndiscovered>
+  <InteractionSpotBlocked>상호작용 위치가 차단 되었습니다.</InteractionSpotBlocked>
+  <InteractionSpotWillBeBlocked>상호작용 위치가 차단될 것입니다.</InteractionSpotWillBeBlocked>
+  <WouldBlockInteractionSpot>{1}에 의해 차단됩니다. ({0})</WouldBlockInteractionSpot>
+  <TerrainIsAlready>이 곳은 이미 {0}입니다.</TerrainIsAlready>
+  <IdenticalThingExists>해당 위치에 명령한 계획과 동일한 것이 존재합니다.</IdenticalThingExists>
+  <IdenticalBlueprintExists>해당 위치에 명령한 계획과 동일한 계획이 예약되어 있습니다.</IdenticalBlueprintExists>
+  <TerrainCannotSupport>이 지형에서 할 수 없습니다.</TerrainCannotSupport>
+  <SpaceAlreadyOccupied>공간을 이미 사용중입니다.</SpaceAlreadyOccupied>
 
   <!-- placement of zones -->
-
-  <ExpandOrCreateZone>확장 {0} 또는\n새로 만듦 {1}</ExpandOrCreateZone>
-
-  <CreateNewZone>새로 만듦 {0}</CreateNewZone>
+  <ExpandOrCreateZone>{0}의 구역을 확장하거나 \n 새로운 {1} 생성</ExpandOrCreateZone>
+  <CreateNewZone>새로운 {0} 생성</CreateNewZone>
   
   
   <!-- desc helpers -->
-  <TransmitsPower>동력 전달</TransmitsPower>
+  <TransmitsPower>송전</TransmitsPower>
 
 
 </LanguageData>

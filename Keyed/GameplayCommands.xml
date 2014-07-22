@@ -1,87 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <LanguageData>
 
-	<CommandForbiddenDesc>금지 - 시민이 대상과 상호 작용하지 않습니다. </CommandForbiddenDesc>
-	<CommandNotForbiddenDesc>허가 - 시민이 대상과 상호 작용합니다.</CommandNotForbiddenDesc>
+	<CommandForbiddenDesc>금지 - 주민들과 상호 작용을 금지합니다.</CommandForbiddenDesc>
+	<CommandNotForbiddenDesc>허가 - 주민들과 상호 작용을 허가합니다.</CommandNotForbiddenDesc>
 
-  <CommandTogglePowerDesc>전원을 전환합니다.</CommandTogglePowerDesc>
-  <CommandTogglePowerLabel>전력 전환</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>전원을 제어합니다.</CommandTogglePowerDesc>
+  <CommandTogglePowerLabel>전원</CommandTogglePowerLabel>
 
-  <CommandGatherSpotToggleLabel>수집 지점</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>활성화 - 시민들은 대상 주위에서 수집합니다.</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>비활성 - 시민들이 대상 주위에서 수집하지 않습니다.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleLabel>집합 지점</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleDescActive>활성 - 주민들이 집합 지점으로 모입니다.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>비활성 - 주민들이 집합 지점으로 모이지 않습니다.</CommandGatherSpotToggleDescInactive>
   
   
   
-  <CommandDraftLabel>징집 설정</CommandDraftLabel>
+  <CommandDraftLabel>징병</CommandDraftLabel>
+  <CommandUndraftLabel>해제</CommandUndraftLabel>
+  <CommandToggleDraftDesc>징병 상태를 설정할 수 있습니다. 징병된 주민들은 전투에 임하게 되며 스스로 일을 하거나 음식을 섭취하거나 휴식하지 않습니다.</CommandToggleDraftDesc>
+  <IsIncapped>행동 불능 상태가 되었습니다: {0}</IsIncapped>
 
-  <CommandUndraftLabel>징집 해제</CommandUndraftLabel>
-
-  <CommandToggleDraftDesc>징집명령을 내리거나 해제합니다.\n\n징집 설정 주민들은 싸움에 관한 명령들을 수행할테지만 일하거나 먹거나 쉴 수 없습니다.</CommandToggleDraftDesc>
-
-  <IsIncapped>{0}은(는) 무력화되었습니다.</IsIncapped>
-
+  
   <CommandCancelConstructionLabel>취소</CommandCancelConstructionLabel>
+  <CommandCancelConstructionDesc>작업을 취소합니다.</CommandCancelConstructionDesc>
 
-  <CommandCancelConstructionDesc>이 건설예정 취소</CommandCancelConstructionDesc>
-
-  <CommandBedSetForPrisonersLabel>주민 전용</CommandBedSetForPrisonersLabel>
-
-  <CommandBedSetForPrisonersDesc>방안의 모든 침대를 죄수용으로 설정</CommandBedSetForPrisonersDesc>
-
-  <CommandBedSetForPrisonersFailOutdoors>야외의 침대는 죄수용으로 설정할 수 없습니다.</CommandBedSetForPrisonersFailOutdoors>
-
-  <CommandBedSetForColonistsLabel>죄수 전용</CommandBedSetForColonistsLabel>
-
-  <CommandBedSetForColonistsDesc>방안의 모든 침대를 주민용으로 설정</CommandBedSetForColonistsDesc>
-
-  <TurningOnPrisonerBedWarning>감옥 모드 활성화는 전체 방에 영향을 줍니다 (포로나 죄수들과 주민들은 같은 곳에서 잠을 잘 수 없기에).\n\n이 주민들은 자신들 침대의 소유권을 잃을 것입니다.</TurningOnPrisonerBedWarning>
-
-  <TurningOffPrisonerBedWarning>감옥 모드 비활성화는 전체 방에 영향을 줍니다 (포로나 죄수들과 주민들은 같은 곳에서 잠을 잘 수 없기에).\n\n이 주민들은 자신들 침대의 소유권을 잃을 것입니다.</TurningOffPrisonerBedWarning>
-
-  <AreYouSure>정말로 하시겠습니까?</AreYouSure>
+  
+  <CommandBedSetForPrisonersLabel>수감자 전용으로 변경</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>방 안에 존재하는 모든 침대를 수감자 전용으로 변경합니다</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>야외에 배치된 침대는 수감자 전용으로 사용할 수 없습니다.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>주민 전용으로 변경</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>방 안에 존재하는 모든 침대를 주민 전용으로 변경합니다.</CommandBedSetForColonistsDesc>
+  <TurningOnPrisonerBedWarning>주민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 수감자 전용 침대가 있는 방은 감옥으로 사용됩니다.\n\n 해당 주민들은 사용하던 침대의 소유권을 잃게 됩니다:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>주민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 주민 전용 침대가 있는 방은 감옥으로 사용 되지 않습니다.\n\n 해당 수감자들은 사용하던 침대의 소유권을 잃게 됩니다:</TurningOffPrisonerBedWarning>
+  <AreYouSure>정말 실행 하시겠습니까?</AreYouSure>
 
   
   
-  <CommandDetonateDesc>폭발 카운트다운 시작.</CommandDetonateDesc>
+  <CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
+  <CommandDetonateLabel>폭파</CommandDetonateLabel>
 
-  <CommandDetonateLabel>폭발</CommandDetonateLabel>
+  <CommandRenameZoneDesc>구역의 이름을 변경합니다.</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>이름 변경</CommandRenameZoneLabel>
 
-
-  <CommandRenameZoneDesc>구역 이름 재설정.</CommandRenameZoneDesc>
-
-  <CommandRenameZoneLabel>이름 재설정</CommandRenameZoneLabel>
-
-  <CommandHideZoneDesc>이 구역 숨기기/보기</CommandHideZoneDesc>
-
+  <CommandHideZoneDesc>구역을 맵에서 숨기거나 표시합니다.</CommandHideZoneDesc>
   <CommandHideZoneLabel>숨기기</CommandHideZoneLabel>
-
   <CommandUnhideZoneLabel>보기</CommandUnhideZoneLabel>
 
-  <CommandDeleteZoneDesc>이 구역 삭제.</CommandDeleteZoneDesc>
-
-  <CommandDeleteZoneLabel>삭제</CommandDeleteZoneLabel>
-
+  <CommandDeleteZoneDesc>해당 구역을 제거합니다.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneLabel>제거</CommandDeleteZoneLabel>
+  
+  
   <!-- Artillery -->
-  <CommandSetForceAttackTarget>강제 타겟 설정</CommandSetForceAttackTarget>
-  <CommandSetForceAttackTargetDesc>이 터렛이 공격 가능한 동안 지속적으로 공격을 할 대상을 설정합니다.</CommandSetForceAttackTargetDesc>
-  <CommandStopForceAttack>강제 공격 멈춤</CommandStopForceAttack>
-  <CommandStopForceAttackDesc>강제 공격을 멈추고 터렛이 자동적으로 대상을 공격하게 합니다.</CommandStopForceAttackDesc>
-  <CommandStopAttackFailNotForceAttacking>현재 강제 공격중이 아닙니다.</CommandStopAttackFailNotForceAttacking>
-  <MessageTargetBeyondMaximumRange>대상이 사정거리 밖에 있습니다.</MessageTargetBeyondMaximumRange>
-  <MessageTargetBelowMinimumRange>대상이 최소 사정거리보다 가까운 곳에 있습니다.</MessageTargetBelowMinimumRange>
+  <CommandSetForceAttackTarget>강제 사격 지점 설정</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>사격 지점을 강제로 설정하여 터렛이 계속 공격할 수 있도록 합니다.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>강제 사격 지점 삭제</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>강제 사격 지점을 삭제하여 터렛이 자율적으로 공격할 수 있도록 합니다.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>강제 사격 상태가 아닙니다.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>대상이 너무 멀리 있습니다.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>대상이 너무 가까이 있습니다.</MessageTargetBelowMinimumRange>
   
   
   <!-- Ship computer core -->
-  <CommandShipLaunch>우주선 발진</CommandShipLaunch>
-  <CommandShipLaunchDesc>현재 설정으로 우주선의 발사 시퀸스를 시작합니다.</CommandShipLaunchDesc>
-  <CommandShipLaunchReport>발사 기록 확인</CommandShipLaunchReport>
-  <CommandShipLaunchReportDesc>우주선의 발사 능력에 대해 준비된 기록을 보여줍니다.</CommandShipLaunchReportDesc>
+  <CommandShipLaunch>우주선 발사</CommandShipLaunch>
+  <CommandShipLaunchDesc>설정된 순서대로 우주선 발사를 실행합니다.</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>절차 보고서 확인</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>우주선을 발사할 수 있는지 절차를 확인합니다.</CommandShipLaunchReportDesc>
 
 
   <!-- Pod -->
-  <CommandPodEject>수면중인 시민 꺼냄</CommandPodEject>
-  <CommandPodEjectDesc>동면장치에 잠들어있는 시민을 깨워서 밖으로 내보냅니다.</CommandPodEjectDesc>
-  <CommandPodEjectFailEmpty>아무도 없습니다.</CommandPodEjectFailEmpty>  
-  
+  <CommandPodEject>동면중인 주민 깨우기</CommandPodEject>
+  <CommandPodEjectDesc>동면장치에서 자고있는 주민을 깨우고 밖으로 데려옵니다.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>아무도 탑승하지 않았습니다.</CommandPodEjectFailEmpty>
+
 </LanguageData>

@@ -1,54 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <Audiovisuals>소리 설정</Audiovisuals>
 
-  <Audiovisuals>시청각 옵션</Audiovisuals>
+  <GameVolume>게임 볼륨</GameVolume>
 
-  <GameVolume>게임 음성</GameVolume>
+  <MusicVolume>음악 볼륨</MusicVolume>
 
-  <MusicVolume>배경 음악</MusicVolume>
+  <GraphicsQuality>그래픽 품질</GraphicsQuality>
+  <GraphicsQualityNormal>Normal</GraphicsQualityNormal>
+    <GraphicsQualityGreat>Great</GraphicsQualityGreat>
 
-  <GraphicsQuality>그레픽 퀄리티</GraphicsQuality>
-  <GraphicsQualityNormal>노멀l</GraphicsQualityNormal>
-    <GraphicsQualityGreat>그레이트</GraphicsQualityGreat>
-
-  <EdgeScreenScroll>커서 화면 고정</EdgeScreenScroll>
+  <EdgeScreenScroll>창화면 커서고정</EdgeScreenScroll>
   
-
-  <CustomCursor>사용자 정의 커서</CustomCursor>
+  <CustomCursor>Custom Cursor</CustomCursor>
 
   <ChooseLanguage>언어 선택</ChooseLanguage>
 
-  <AdaptiveTutor>도움말 알람창</AdaptiveTutor>
+  <AdaptiveTutor>도움말 안내</AdaptiveTutor>
 
-  <ResetAdaptiveTutor>도움말 출력 초기화</ResetAdaptiveTutor>
+  <ResetAdaptiveTutor>도움말 안내 이력 초기화</ResetAdaptiveTutor>
 
-  <AdaptiveTutorIsReset>도움말이 처음부터 출력되어 게임의 적응력을 높여줄것입니다.</AdaptiveTutorIsReset>
+  <AdaptiveTutorIsReset>도움말 안내가 초기화 되었습니다. </AdaptiveTutorIsReset>
 
   <RunInBackground>백그라운드에서 실행</RunInBackground>
 
-  <DevelopmentMode>개발자 모드</DevelopmentMode>
+  <DevelopmentMode>개발자 도구</DevelopmentMode>
 
-  <LogDeepProfileData>프로필 데이터 기록</LogDeepProfileData>
+  <LogDeepProfileData>프로필 세부정보 log남김</LogDeepProfileData>
   
-  <NamesYouWantToSee>게임 케릭터들의 라스트 네임으로 넣고싶은부분이 있으면 하단에 입력하세요.</NamesYouWantToSee>
+  <NamesYouWantToSee>인게임에서 나타나는 캐릭터의 Last name 또는 게임캐릭터의 성장 배경으로 적용하고 싶은 것을 적으세요.</NamesYouWantToSee>
 
   <Resolution>해상도</Resolution>
-  <Fullscreen>전체 화면</Fullscreen>
-  <CurrentRes>현재 해상도 {0}</CurrentRes>
+  <Fullscreen>전체화면</Fullscreen>
+  <CurrentRes>현재 해상도:{0}</CurrentRes>
   <ChooseResolution>해상도 선택</ChooseResolution>
 
-  <OpenSaveGameDataFolder>저장폴더 열기</OpenSaveGameDataFolder>
-
-  <Privacy>프라이버시</Privacy>
+  <OpenSaveGameDataFolder>진행사항이 저장된 폴더 열기</OpenSaveGameDataFolder>
   
-  <UserName>유저 이름</UserName>
+  <Privacy>개인정보 처리방침</Privacy>
   
-  <ChooseHistoryUploadPref>플레이데이터 전송설정</ChooseHistoryUploadPref>
+  <UserName>사용자 이름</UserName>
   
-  <CurrentHistoryUploadPref>현재 설정 : {0}</CurrentHistoryUploadPref>
+  <ChooseHistoryUploadPref>게임 이용 정보 수집설정</ChooseHistoryUploadPref>
   
-  <AboutHistoryUpload>유저의 게임 플레이 데이터는 개발자의 밸런싱 작업에 도움이 됩니다. 동의해주시면 당신의 정보가 게임상의 {0}일마다(그리고 게임 종료 등 특별한 케이스마다) 림월드 서버로 전송된 후 분석될 것입니다. 업로드되는 게임 플레이 데이터는 통계와 게임과 관련된 히스토리 레코드뿐입니다. 유저 네임 외의 개인 정보는 일체 전송되지 않으며, 이는 완전한 익명성을 보장합니다.</AboutHistoryUpload>
-
+  <CurrentHistoryUploadPref>현재 선택:{0}</CurrentHistoryUploadPref>
+  
+  <AboutHistoryUpload> 유저들의 게임 이용 정보는 게임 개발에 도움이 됩니다. 만약 동의 하신다면, 인게임 시간으로 {0} 일마다  (또는 게임 종료 같이 특별한 경우) 게임 이용 정보가 RimWorld 서버로 전송되어 분석됩니다. 전송되는 정보는 게임을 이용하면서 발생되는 진행정보와 통계자료뿐이며 본 게임의 환경설정에 지정된 사용자 이름 이외의 개인정보는 수집되지 않습니다. 따라서 완벽하게 익명으로 전송됩니다. </AboutHistoryUpload>
   
 </LanguageData>
