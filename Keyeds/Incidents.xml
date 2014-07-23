@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <AnimalInsanitySingle> {0}의 머리에 문제가 있는지, 사람들에게 공격적으로 덤벼듭니다.</AnimalInsanitySingle>
+  <AnimalInsanityMultiple> 초자연적인 충격파가 대지를 훑었습니다. 당신의 정착지 주민들은 괜찮지만... 주변의 여러 {0}의 머리속에 영향이 있었는지 정신이 나간 것 같아 보입니다.</AnimalInsanityMultiple>
+
+  <CropBlight>기이한 병충해가 농작물에 피해를 입혔습니다. </CropBlight>
+
+  <EclipseIncident>이 행성의 위성중 하나가 태양을 가리게 되면서, 일식이 시작됩니다.</EclipseIncident>
+
+  <MiracleHeal>({0})기적에 가까운 회복을 경험 했습니다!</MiracleHeal>
+
+  
+  <!-- Enemy raids -->
+  <EnemyRaidWalkIn> {1}지역에서 온 적대적인 '{0}'집단이 주변에 나타났습니다.</EnemyRaidWalkIn>
+  <EnemyRaidEdgeDrop>{1}지역에서 온 적대적인 '{0}'집단이 드랍포트를 타고 주변에 나타났습니다.</EnemyRaidEdgeDrop>
+  <EnemyRaidCenterDrop>{1}지역에서 온 적대적인 '{0}'집단의 드랍포트가 정착지에 떨어졌습니다!</EnemyRaidCenterDrop>
+  <EnemyRaidStageThenAttack>저들은 재정비를 하고 공격해 올 것입니다. 방어를 고려하거나 저들보다 먼저 공격하세요!</EnemyRaidStageThenAttack>
+  <EnemyRaidImmediateAttack>즉시 돌격해 올 것으로 보입니다.</EnemyRaidImmediateAttack>
+  <EnemyRaidBesiege> 보아하니, 정착지를 포위 하려는 것 같습니다.</EnemyRaidBesiege>
+
+
+  <!-- Friendly raids -->
+  <FriendlyRaidWalkIn>{1}지역에서 온 우호적인 '{1}'집단이 주변에 나타났습니다.</FriendlyRaidWalkIn>
+  <FriendlyRaidEdgeDrop>{1}지역에서 온 우호적인 '{0}'집단이 궤도에 나타났습니다</FriendlyRaidEdgeDrop>
+  <FriendlyRaidCenterDrop>{1}지역에서 온 우호적인 '{0}'집단이 정착지의 궤도상에 나타납니다!</FriendlyRaidCenterDrop>
+  <FriendlyRaidStageThenAttack>이들은 정착지 주민들을 돕기 이전에 먼저 준비를 해야합니다.</FriendlyRaidStageThenAttack>
+  <FriendlyRaidImmediateAttack>정착지 주민들을 돕기위해 즉시 이동합니다.</FriendlyRaidImmediateAttack>
+  <FriendlyRaidBesiege>보아하니, 포위 전술로 정착지 주민들을 도우려는 것 같습니다.</FriendlyRaidBesiege>
+
+  <RefugeePodCrash>정착지 주민들이 주변에 탈출용 드랍포트가 강하게 충돌하는 것을 감지 했습니다.\n\n만약 누군가 충돌에서 살아 남았다면, 매우 심각하게 부상 당했을 겁니다.</RefugeePodCrash>
+
+  <CargoPodCrash>정착지 주민들이 주변에 다수의 화물포트가 추락한 것을 감지 했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을겁니다.</CargoPodCrash>
+
+  <AnElectricalConduit>전선</AnElectricalConduit>
+  <AWallsPowerConduit>벽에 매설된 전선</AWallsPowerConduit>
+  <ShortCircuit>{0}의 결함으로 누전이 발생했습니다.\n\n  {1} Wd 의 예비 전력이 모두 방전 되었습니다.</ShortCircuit>
+  <ShortCircuitWasLarge>저장 되어 있던 전기로 인해 상당한 규모의 폭발이 발생 되었습니다.</ShortCircuitWasLarge>
+  <ShortCircuitWasHuge>폭발이 정말 크고... 아름다워요...</ShortCircuitWasHuge>
+
+  <LetterSolarFlare>흑점 폭발이 발생 하였습니다.\n\n모든 전기장치의 정상적인 작동에 영향을 끼치게 되며, 하루 정도 지나면 잠잠해 질 것으로 예상됩니다.</LetterSolarFlare>
+
+  <TraderArrival>{0}의 이름으로 잘 알려져 있는 {1}의 우주 무역선이 근처를 지나가고 있습니다.</TraderArrival>
+
+  <SingleTravelerPassing>{1}지역에서 온 주민이 마을을 지나가고 있습니다.HECAP {2}, {0}입니다.</SingleTravelerPassing>
+  <GroupTravelersPassing>{0}지역의 탐험객들이 지나가고 있습니다.</GroupTravelersPassing>
+
+  <SingleVisitorArrives>{1}지역에서 온 주민이 정착지를 방문합니다. \n\nHECAP {2}, {0}입니다.</SingleVisitorArrives>
+  <GroupVisitorsArrive>{0}지역에서 온 집단이 정착지를 방문합니다.</GroupVisitorsArrive>
+  <VisitorsLeaving>{0}지역에서 온 방문객들이 떠납니다.</VisitorsLeaving>
+
+  <WandererJoin>직업이 {0}인 NAME씨가 정착지에 찾아와 합류합니다.HECAP {1} 입니다</WandererJoin>
+  
+  
+  <!-- Crashed ship part-->
+  <SpaceshipPartCrash>주변에 고대 우주선의 커다란 잔해가 떨어졌습니다.\n\n,우주선에 탑재된 인공지능의 초능력이 정착지 주민들에게 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것이 느껴지고 있습니다. 최대한 빨리 잔해물을 파괴하세요.</SpaceshipPartCrash>
+  <MessageAnimalInsanityPulse>고대의 건축물에서 초자연적인 파동이 발산되자, 주변의 동물들이 미쳐 날뛰고 있습니다.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>추락한 우주선의 잔해로부터 초자연적인 파동이 발산되면서, 주민{0}의 정신에 영향을 주어 미쳐 날뛰고 있습니다.</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>{0}일 전에 깨어남</AwokeDaysAgo>
+  <PsychicDroneLevel>초자연적인 소음단계: {0}</PsychicDroneLevel>
+  <PsychicDroneLevelLow>낮음</PsychicDroneLevelLow>
+  <PsychicDroneLevelMedium>중간</PsychicDroneLevelMedium>
+  <PsychicDroneLevelHigh>높음</PsychicDroneLevelHigh>
+  <PsychicDroneLevelExtreme>심각</PsychicDroneLevelExtreme>
+  <LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 초자연적인 소리가 강하게 울려 퍼지고 있습니다. 광역의 모든 인간들이 불안해 하며, 겁에 질리고, 피해 망상을 하기 시작합니다.</LetterPsychicDroneLevelIncreased>
+  
+  <!-- Agent revealed -->
+  <LetterAgentRevealed>{0}의 정체가 {1}지역의 스파이로 밝혀 지면서 탈출을 시도합니다.</LetterAgentRevealed>
+  
+  <!-- Distant psychic drone -->
+  <LetterIncidentPsychicDrone>머리에 못질하는 듯한 두통이 느껴지고 있습니다!\n\n어딘가 멀리 떨어진 곳에 증오를 발산하는 수단이 작동되면서 광역 전체에 초자연적인 소리가 강하게 울려 퍼집니다. 며칠동안 모두의 기분이 조금 더 나빠질 것입니다.</LetterIncidentPsychicDrone>
+  
+</LanguageData>

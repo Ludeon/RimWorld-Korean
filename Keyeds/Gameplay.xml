@@ -4,7 +4,7 @@
   <!-- Various -->
   <WorkLeft>작업중</WorkLeft>
   <Contents>내용</Contents>
-  <ContainedResources>Contained resources</ContainedResources>
+  <ContainedResources>포함된 자원</ContainedResources>
   <ForPrisonerUse>수감자가 사용중</ForPrisonerUse>
   <ForColonistUse>주민이 사용중</ForColonistUse>
   <Owner>소유자</Owner>
@@ -13,7 +13,7 @@
   <DeadTime>사망한지 {0}</DeadTime>
   <WalkSpeed>이동속도 {0}</WalkSpeed>
   <DyingLower>빈사상태</DyingLower>
-  <PawnEffectiveness>Effectiveness</PawnEffectiveness>
+  <PawnEffectiveness>유효성</PawnEffectiveness>
   <FilthOnFeet>발에 묻은 이물질:</FilthOnFeet>
   <NotEnoughStoredLower>보유량이 충분하지 않습니다</NotEnoughStoredLower>
   <NothingLower>없음</NothingLower>
@@ -25,73 +25,73 @@
   
   
   <!-- Job reports -->
-	<ReportHaulingTo>Hauling {0} to {1}.</ReportHaulingTo>
-	<ReportHauling>Hauling {0}.</ReportHauling>
+	<ReportHaulingTo>{1}의 위치로 운반중 :{0}</ReportHaulingTo>
+	<ReportHauling>운반중: {0}</ReportHauling>
 
 	<!-- Shooting report -->
-  <WeaponMissRadius>Weapon miss radius</WeaponMissRadius>
-	<ShootReportSkill>Skill</ShootReportSkill>
-	<ShootReportWeapon>Weapon</ShootReportWeapon>
-	<Darkness>Darkness</Darkness>
-	<TargetProne>Target prone</TargetProne>
-	<TargetSize>Target size</TargetSize>
-	<Weather>Weather</Weather>
-	<ShootingCover>Cover</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0} stops {1}</CoverThingBlocksPercentOfShots>
-	<NoCoverLower>no cover</NoCoverLower>
+  <WeaponMissRadius>오차 범위</WeaponMissRadius>
+	<ShootReportSkill>능력</ShootReportSkill>
+	<ShootReportWeapon>무기</ShootReportWeapon>
+	<Darkness>어두움</Darkness>
+	<TargetProne>대상의 성향</TargetProne>
+	<TargetSize>대상의 크기</TargetSize>
+	<Weather>날씨</Weather>
+	<ShootingCover>보조</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0}으로 부터 대상을 정지 시켰습니다: {1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>보조 없음</NoCoverLower>
 	
 	
 	<!-- Status levels -->
   <Mood>기분</Mood>
-  <MoodTip>기분은 sustained by fulfilling physical and psychological needs.\n\nIf someone's mood gets too low, they may suffer a mental break.</MoodTip>
-  <Food>Food</Food>
-  <FoodTip>Food is how satisfied someone is with their meals.\n\nFood resets when someone eats. After a while, it will begin falling until they eat again. At zero food, a person will take starvation damage.</FoodTip>
-  <Rest>Rest</Rest>
-  <RestTip>Rest is how much quality relaxation and sleep a person gets.\n\nIt rises to a maximum when someone sleeps in a bed. Outside of bed, it falls over time.</RestTip>
-  <Environment>Environment</Environment>
-  <EnvironmentTip>Environment reflects how pleasing a person finds their surroundings.\n\nEnvironment is high when people are in spacious rooms with beautiful decorations. It is poor when their surroundings are ugly.</EnvironmentTip>
-  <Openness>Openness</Openness>
+  <MoodTip>기분은 감정과 신체적 요구 조건에 따라 유지 됩니다.\n\n만약 누군가 기분이 매우 안좋을 경우, 멘탈붕괴에 빠지게 될 수 있습니다.</MoodTip>
+  <Food>포만감</Food>
+  <FoodTip>포만감은 무엇을 먹고 얼마나 만족했는지 보여줍니다. \n\n다음 식사 전 까지 포만감은 서서히 감소 되며, 0%가 되면 굶주린 상태에 빠져 건강에 영향을 줍니다.</FoodTip>
+  <Rest>휴식</Rest>
+  <RestTip>휴식은 얼마나 양질의 휴식을 취했는지 보여줍니다.\n\n 수면을 한 경우 휴식이 최대치가 되며, 침대를 벗어난 이후 서서히 감소됩니다.</RestTip>
+  <Environment>환경</Environment>
+  <EnvironmentTip>환경은 주변에 주어진 환경에 대한 평가를 나타냅니다. 아름답게 꾸며진 넓은 방에 있으면 환경 수치가 증가합니다. 반대로 주변이 지저분한 곳에 있으면 환경 수치는 감소합니다.</EnvironmentTip>
+  <Openness>개방성</Openness>
 
   
   <!-- Thoughts -->
-  <ThoughtExpiresIn>Expires in: {0}</ThoughtExpiresIn>
-  <ThoughtStartsExpiringIn>Starts expiring in: {0}</ThoughtStartsExpiringIn>
-  <ThoughtFinishesExpiringIn>Finishes expiring in: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>Mental break threshold</MentalBreakThreshold>
+  <ThoughtExpiresIn>만료됨: {0}</ThoughtExpiresIn>
+  <ThoughtStartsExpiringIn>만료 예정: {0}</ThoughtStartsExpiringIn>
+  <ThoughtFinishesExpiringIn>완료 예정: {0}</ThoughtFinishesExpiringIn>
+  <MentalBreakThreshold>멘탈붕괴 한계점</MentalBreakThreshold>
 
 
 
   <!--Effectiveness-->
-  <EffectivenessFull>Full</EffectivenessFull>
-  <EffectivenessReduced>Reduced</EffectivenessReduced>
-  <EffectivenessImpaired>Impaired</EffectivenessImpaired>
-  <EffectivenessIncapacitated>Incapacitated</EffectivenessIncapacitated>
+  <EffectivenessFull>활성화</EffectivenessFull>
+  <EffectivenessReduced>감소됨</EffectivenessReduced>
+  <EffectivenessImpaired>손상됨</EffectivenessImpaired>
+  <EffectivenessIncapacitated>행동 불능</EffectivenessIncapacitated>
 
 
   <!-- Pawn info readout -->
-  <Health>Health</Health>
-  <PawnMainDescWithFactionGendered>{0} {1} of {2}</PawnMainDescWithFactionGendered>
+  <Health>체력</Health>
+  <PawnMainDescWithFactionGendered>{2}의 {0} {1}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-  <PawnMainDescWithFactionGenderless>{0} of {1}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescWithFactionGenderless>{1}의 {0} </PawnMainDescWithFactionGenderless>
   <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
-  <Faction>Faction</Faction>
-  <Equipped>Equipped</Equipped>
-  <EquippedNothing>Nothing</EquippedNothing>
-  <Incapacitated>Incapacitated</Incapacitated>
-  <InRestraints>In restraints (slowed)</InRestraints>
-  <Carrying>Carrying</Carrying>
-  <SanityDazedWander>Broken: Dazed and wandering</SanityDazedWander>
-  <SanityGiveUpExit>Broken: Given up and leaving</SanityGiveUpExit>
-  <SanityPanicFlee>Broken: Fleeing in panic</SanityPanicFlee>
-  <SanityPsychotic>Broken: Psychotic rampage</SanityPsychotic>
+  <Faction>지역</Faction>
+  <Equipped>무장</Equipped>
+  <EquippedNothing>비무장</EquippedNothing>
+  <Incapacitated>행동 불능</Incapacitated>
+  <InRestraints>감금됨 (둔화)</InRestraints>
+  <Carrying>운반중</Carrying>
+  <SanityDazedWander>Broken: 멍하게 방황함</SanityDazedWander>
+  <SanityGiveUpExit>Broken: 포기하고 떠남</SanityGiveUpExit>
+  <SanityPanicFlee>Broken: 공황 상태에 빠짐</SanityPanicFlee>
+  <SanityPsychotic>Broken: 미쳐 날뜀</SanityPsychotic>
 
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again.</SelectNextInSquareTip>
-  <DefInfoTip>View information about this object.</DefInfoTip>
+  <SelectNextInSquareTip>같은 영역에 있는 다른 대상을 선택합니다.\n\n단축키: {0}\n\n선택한 대상을 천천히 클릭하는 방법도 있습니다.</SelectNextInSquareTip>
+  <DefInfoTip>이 것에 대한 정보를 볼 수 있습니다.</DefInfoTip>
   
   <!-- ITab titles -->
-  <TabBills>가공</TabBills>
+  <TabBills>작업</TabBills>
   <TabGrowing>재배</TabGrowing>
   <TabCharacter>인물</TabCharacter>
   <TabNeeds>욕구</TabNeeds>
@@ -101,7 +101,7 @@
   <TabStorage>보관</TabStorage>
 
 	<!-- ITabs -->
-	<AddBill>Add bill</AddBill>
+	<AddBill>작업 추가</AddBill>
 	<RecipeRequiresSkills>해당 제조법은 능력이 {0} 이상의 주민이 다룰 수 있습니다. 정착지 주민중에서 아무도 능력이 되지 않으므로 제조할 수 없습니다.</RecipeRequiresSkills>
 	<BillConfig>설정</BillConfig>
 	<SuspendedCaps>중지</SuspendedCaps>
@@ -208,16 +208,16 @@
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>발사 준비를 할 수 없습니다</ShipReportCannotLaunch>
   <ShipReportCanLaunch>발사 준비 완료</ShipReportCanLaunch>
-  <ShipReportMissingPart>중요한 구성 요소가 누락되었습니다</ShipReportMissingPart>
-  <ShipReportNoFullPods>동면장치 중에서 빈칸이 있습니다</ShipReportNoFullPods>
+  <ShipReportMissingPart>중요한 구성 요소가 누락 되었습니다</ShipReportMissingPart>
+  <ShipReportNoFullPods>동면장치 중에 빈칸이 있습니다</ShipReportNoFullPods>
 
   
   
   <!-- Game over -->
-  <GameOverEveryoneDead>주민들이 모두 죽거나 정착지를 떠났습니다.\n\n어쩌면 폐혀가 된 이곳을 다른 사람이 찾게 될 수 도 있겠네요.</GameOverEveryoneDead>
-  <GameOverShipLaunched>우주선을 발사하였습니다!You've launched the ship! 우주선에 탑승한 주민:\n\n{0}\n정착지에 남겨진 주민:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might deposit you on a better planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for a better epoch.\n\nYou'll find out when you wake up.</GameOverShipLaunched>
-  <GameOverKeepPlaying>Keep playing</GameOverKeepPlaying>
-  <GameOverMainMenu>Main menu</GameOverMainMenu>
+  <GameOverEveryoneDead>주민들이 모두 죽거나 정착지를 떠났습니다.\n\n어쩌면 폐허가 된 이곳을 다른 사람이 찾게 될 수 도 있겠네요.</GameOverEveryoneDead>
+  <GameOverShipLaunched>우주선을 발사 하였습니다! 우주선에 탑승한 주민:\n\n{0}\n정착지에 남겨진 주민:\n\n{1}\n우주선에 탑재된 인공지능이 여러분을 안전한 곳으로 인도할 것입니다. 정착지 생활을 했던 이곳 보다 나은 행성일 수 있고, 다른 별을 향하여 여러 세기를 걸쳐 여행할 수 있으며, 더 나은 세상을 기다길 결정하고 소행성의 얼음 속에서 몇 천년동안 숨어있을 수도 있습니다.\n\n자세한 사항은 잠에서 깨어나신 다음에 확인해보세요.</GameOverShipLaunched>
+  <GameOverKeepPlaying>이어하기</GameOverKeepPlaying>
+  <GameOverMainMenu>초기화면</GameOverMainMenu>
   
   
 </LanguageData>
