@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<!-- ==================== Bases ========================== -->
+
+	<ThingDef Name="BaseEquipment" Abstract="True">
+		<eType>Equipment</eType>
+		<equipmentType>Secondary</equipmentType>
+		<label>Equipment lacks label</label>
+		<thingClass>Equipment</thingClass>
+		<category>Item</category>
+		<useStandardHealth>true</useStandardHealth>
+		<selectable>true</selectable>
+		<maxHealth>100</maxHealth>
+		<altitudeLayer>Item</altitudeLayer>
+		<description>Equipment lacks desc.</description>
+		<weaponTags>
+			<li>Grenade</li>
+		</weaponTags>
+		<comps>
+			<li><compClass>CompForbiddable</compClass></li>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<storeCategories>
+			<li>Weapons</li>
+		</storeCategories>
+		<tickerType>Never</tickerType>
+    <verb>
+      <category>Nonnative</category>
+    </verb>
+  </ThingDef>
+
+
+	<ThingDef Name="BaseGrenade" Abstract="True">
+		<category>Projectile</category>
+		<altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>Projectile</label>
+		<tickerType>Normal</tickerType>
+		<useStandardHealth>False</useStandardHealth>
+		<neverMultiSelect>True</neverMultiSelect>
+		<baseMaterialType>Transparent</baseMaterialType>
+		<projectile>
+			<speed>12</speed>
+			<flyOverhead>false</flyOverhead>
+    </projectile>
+	</ThingDef>
+
+
+
+	<!-- ==================== Frag grenade ========================== -->
+
+	<ThingDef ParentName="BaseGrenade">
+		<defName>Proj_GrenadeFrag</defName>
+		<label>Frag grenade</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<texturePath>Things/Projectile/Grenade</texturePath>
+		<projectile>
+			<explosionRadius >1.9</explosionRadius >
+			<damageDef>Bomb</damageDef>
+			<explosionDelay>100</explosionDelay>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseEquipment">
+		<defName>Weapon_GrenadeFrag</defName>
+		<equipmentType>Primary</equipmentType>
+		<label>Frag grenades</label>
+		<description>Old-school fragmentation grenades.</description>
+		<texturePath>Things/Item/Equipment/Grenades</texturePath>
+		<soundInteract>InteractGrenade</soundInteract>
+		<basePrice>200</basePrice>
+		<techLevel>Midworld</techLevel>
+		<verb>
+      <verbClass>Verb_LaunchProjectile</verbClass>
+      <canMiss>true</canMiss>
+      <hasStandardCommand>true</hasStandardCommand>
+			<label>Frag grenades</label>
+			<description>Thrown explosive.</description>
+			<range>12.9</range>
+      <forcedMissRadius>1.0</forcedMissRadius>
+      <warmupTicks>108</warmupTicks>
+			<cooldownTicks>160</cooldownTicks>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<fireSound>ThrowGrenade</fireSound>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>true</canTargetBuildings>
+				<worldObjectTargetsMustBeAutoAttackable>true</worldObjectTargetsMustBeAutoAttackable>
+			</targetParams>
+			<projectileDef>Proj_GrenadeFrag</projectileDef>
+		</verb>
+	</ThingDef>
+
+
+
+	<!-- ==================== Molotov cocktail ========================== -->
+
+	<ThingDef ParentName="BaseGrenade">
+		<defName>Proj_GrenadeMolotov</defName>
+		<label>Molotov cocktail</label>
+		<texturePath>Things/Projectile/Molotov</texturePath>
+		<projectile>
+			<explosionRadius >1.1</explosionRadius >
+      <damageDef>Flame</damageDef>
+      <postExplosionSpawnThingDef>Puddle_Fuel</postExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseEquipment">
+		<defName>Weapon_GrenadeMolotov</defName>
+		<equipmentType>Primary</equipmentType>
+		<label>Molotov cocktails</label>
+		<description>Glass bottles filled with flammable liquid, with a burning cloth in the neck. A favorite weapon of hooligans and desperate warriors from rim to rim.</description>
+		<texturePath>Things/Item/Equipment/Molotov</texturePath>
+		<soundInteract>InteractMolotovCocktail</soundInteract>
+		<basePrice>100</basePrice>
+		<techLevel>Midworld</techLevel>
+		<verb>
+      <verbClass>Verb_LaunchProjectile</verbClass>
+      <canMiss>true</canMiss>
+      <hasStandardCommand>true</hasStandardCommand>
+			<label>Molotov cocktails</label>
+			<description>Thrown explosive.</description>
+			<range>12.9</range>
+      <forcedMissRadius>2.9</forcedMissRadius>
+      <warmupTicks>108</warmupTicks>
+			<cooldownTicks>160</cooldownTicks>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<fireSound>ThrowMolotovCocktail</fireSound>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>true</canTargetBuildings>
+				<worldObjectTargetsMustBeAutoAttackable>true</worldObjectTargetsMustBeAutoAttackable>		
+			</targetParams>
+			<projectileDef>Proj_GrenadeMolotov</projectileDef>
+		</verb>
+	</ThingDef>
+
+</ThingDefs>

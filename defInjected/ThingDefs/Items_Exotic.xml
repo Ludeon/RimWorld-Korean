@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+
+
+  <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingResource</thingClass>
+    <label>Unspecified resource</label>
+    <category>Item</category>
+    <eType>Item</eType>
+    <resourceCountPriority>Middle</resourceCountPriority>
+    <useStandardHealth>true</useStandardHealth>
+    <maxHealth>100</maxHealth>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <tradersCarry>true</tradersCarry>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+    <beauty>Ugly</beauty>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+
+
+
+  <!--=============== AI persona core ====================-->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AIPersonaCore</defName>
+    <label>AI persona core</label>
+    <description>A hyper-advanced computer core that houses a superhumanoid artificial intelligence. In its isolated state the core is dormant. Installed in a proper support structure, however, it can become a mind of frightening power.</description>
+    <texturePath>Things/Item/AIPersonaCore</texturePath>
+    <resourceCountPriority>Middle</resourceCountPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <basePrice>4000</basePrice>
+    <useStandardHealth>true</useStandardHealth>
+    <maxHealth>100</maxHealth>
+    <storeCategories>
+      <li>Items</li>
+    </storeCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+  </ThingDef>
+
+
+
+
+
+</GameData>

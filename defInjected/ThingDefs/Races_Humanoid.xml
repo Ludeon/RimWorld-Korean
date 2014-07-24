@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BasePawn" Abstract="True">
+    <eType>Pawn </eType>
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useStandardHealth>false</useStandardHealth>
+    <flammability>1.0</flammability>
+    <hasTooltip>true</hasTooltip>
+    <soundBulletHit>BulletImpactFlesh</soundBulletHit>
+    <inspectorTabs>
+      <li>ITab_Pawn_Thoughts</li>
+      <li>ITab_Pawn_Needs</li>
+      <li>ITab_Pawn_Prisoner</li>
+      <li>ITab_Pawn_Gear</li>
+      <li>ITab_Pawn_Character</li>
+    </inspectorTabs>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+
+
+  <!-- ============================ Human ========================== -->
+  
+  <ThingDef ParentName="BasePawn">
+    <defName>Human</defName>
+    <label>Human</label>
+    <description>A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.</description>
+    <maxHealth>100</maxHealth>
+    <sunShadowInfo>
+      <baseWidth>0.4</baseWidth>
+      <baseHeight>0.4</baseHeight>
+      <tallness>0.8</tallness>
+    </sunShadowInfo>
+    <race>
+      <thinkTree>Humanoid</thinkTree>
+      <humanoid>true</humanoid>
+      <walkSpeed>1.0</walkSpeed>
+      <isFlesh>true</isFlesh>
+      <meleeDamage>10</meleeDamage>
+      <nameCategory>HumanStandard</nameCategory>
+      <hasStory>true</hasStory>
+      <minFoodQuality>Raw</minFoodQuality>
+      <hungerThreshold>30</hungerThreshold>
+      <bodySize>1</bodySize>
+      <diet>Omnivorous</diet>
+      <soundWounded>Pawn_Human_Wounded</soundWounded>
+      <soundDeath>Pawn_Human_Death</soundDeath>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+
+</ThingDefs>

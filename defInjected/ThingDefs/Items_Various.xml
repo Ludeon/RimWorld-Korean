@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefinitions>
+
+
+
+	<ThingDef>
+		<defName>DoorKey</defName>
+		<eType>Item</eType>
+		<label>Door key</label>
+		<thingClass>ThingWithComponents</thingClass>
+		<category>Item</category>
+		<texturePath>Things/Item/DoorKey</texturePath>
+		<altitudeLayer>Waist</altitudeLayer>
+		<useStandardHealth>true</useStandardHealth>
+		<maxHealth>30</maxHealth>
+		<destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+		</comps>
+		<selectable>true</selectable>
+		<description>Doors will open for someone carrying this key.</description>
+	</ThingDef>
+
+
+	<ThingDef>
+		<defName>Puddle_Fuel</defName>
+		<eType>Puddle</eType>
+		<label>Fuel puddle</label>
+		<thingClass>LiquidFuel</thingClass>
+		<category>Item</category>
+		<texturePath>Things/Item/LiquidFuel</texturePath>
+		<baseMaterialType>Transparent</baseMaterialType>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<flammability>4.0</flammability>
+		<useStandardHealth>true</useStandardHealth>
+		<maxHealth>150</maxHealth>
+		<tickerType>Normal</tickerType>
+		<description>Burns on the ground.</description>
+	</ThingDef>
+
+
+	<ThingDef>
+		<defName>OilCan</defName>
+		<eType>Item</eType>
+		<label>Oil Can</label>
+		<thingClass>ThingWithComponents</thingClass>
+		<category>Item</category>
+		<texturePath>Things/Item/CanOil</texturePath>
+		<altitudeLayer>Waist</altitudeLayer>
+		<flammability>4.0</flammability>
+		<useStandardHealth>true</useStandardHealth>
+		<maxHealth>100</maxHealth>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li>
+				<compClass>CompExplosive</compClass>
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+			</li>
+		</comps>
+		<selectable>true</selectable>
+		<description>Explodes when damaged.</description>
+		<fillPercent>0.5</fillPercent>
+		<isAutoAttackableWorldObject>true</isAutoAttackableWorldObject>
+		<soundBulletHit>BulletImpactMetal</soundBulletHit>
+	</ThingDef>
+
+
+	<ThingDef>
+		<defName>PressurizedCanister</defName>
+		<eType>Item</eType>
+		<label>Pressurized Canister</label>
+		<thingClass>Jetter</thingClass>
+		<category>Item</category>
+		<texturePath>Things/Item/CanPressurized</texturePath>
+		<altitudeLayer>Waist</altitudeLayer>
+		<flammability>4.0</flammability>
+		<maxHealth>100</maxHealth>
+		<tickerType>Normal</tickerType>
+		<selectable>true</selectable>
+		<description>Jets and explodes when damaged.</description>
+		<fillPercent>0.5</fillPercent>
+		<isAutoAttackableWorldObject>true</isAutoAttackableWorldObject>
+		<soundBulletHit>BulletImpactMetal</soundBulletHit>
+	</ThingDef>
+
+
+	<ThingDef>
+		<defName>ElectricalBox</defName>
+		<eType>Item</eType>
+		<label>Electrical Box</label>
+		<thingClass>ThingWithComponents</thingClass>
+		<category>Item</category>
+		<texturePath>Things/Item/CanOil</texturePath>
+		<altitudeLayer>Waist</altitudeLayer>
+		<comps>
+			<li>
+				<compClass>CompExplosive</compClass>
+				<explosiveRadius>1.9</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+			</li>
+		</comps>
+		<maxHealth>100</maxHealth>
+		<selectable>true</selectable>
+		<flammability>4.0</flammability>
+		<beauty>Ugly</beauty>
+		<tickerType>Normal</tickerType>
+		<description>Explodes and ignites the surrounding area when damaged.</description>
+		<isAutoAttackableWorldObject>true</isAutoAttackableWorldObject>
+		<soundBulletHit>BulletImpactMetal</soundBulletHit>
+	</ThingDef>
+
+
+	<ThingDef>
+		<defName>DropPodIncoming</defName>
+		<eType>ItemSkyFalling</eType>
+		<label>Drop pod (incoming)</label>
+		<thingClass>DropPodIncoming</thingClass>
+		<category>Ethereal</category>
+		<tickerType>Normal</tickerType>
+		<texturePath>Things/Special/DropPod</texturePath>
+		<overdraw>true</overdraw>
+		<altitudeLayer>MetaOverlays</altitudeLayer>
+		<useStandardHealth>false</useStandardHealth>
+		<baseMaterialType>CutoutFlying</baseMaterialType>
+	</ThingDef>
+
+
+	<ThingDef>
+		<defName>DropPod</defName>
+		<label>Drop pod</label>
+		<category>Item</category>
+		<eType>DropPod</eType>
+		<thingClass>DropPod</thingClass>
+		<tickerType>Normal</tickerType>
+		<texturePath>Things/Special/DropPod</texturePath>
+		<overdraw>true</overdraw>
+		<altitudeLayer>BuildingTall</altitudeLayer>
+		<useStandardHealth>true</useStandardHealth>
+		<maxHealth>500</maxHealth>
+		<selectable>true</selectable>
+		<sunShadowInfo>
+			<baseWidth>0.8</baseWidth>
+			<baseHeight>0.8</baseHeight>
+			<tallness>0.6</tallness>
+		</sunShadowInfo>
+	</ThingDef>
+
+
+
+	<ThingDef>
+		<defName>Fire</defName>
+		<eType>Fire</eType>
+		<label>Fire</label>
+		<thingClass>Fire</thingClass>
+		<category>Attachment</category>
+		<tickerType>Normal</tickerType>
+		<textureFolderPath>Things/Special/Fire</textureFolderPath>
+		<baseMaterialType>MotePostLight</baseMaterialType>
+		<altitudeLayer>PawnState</altitudeLayer>
+		<useStandardHealth>false</useStandardHealth>
+		<beauty>Horrifying</beauty>
+	</ThingDef>
+
+
+
+	<ThingDef>
+		<defName>Spark</defName>
+		<label>Spark</label>
+		<thingClass>Spark</thingClass>
+		<texturePath>Things/Projectile/Spark</texturePath>
+		<category>Projectile</category>
+		<eType>Projectile</eType>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<baseMaterialType>Transparent</baseMaterialType>
+		<useStandardHealth>false</useStandardHealth>
+		<neverMultiSelect>true</neverMultiSelect>
+		<projectile>
+			<speed>1.5</speed>
+		</projectile>
+	</ThingDef>
+
+
+
+</ThingDefinitions>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+	<ThingDef Name="BaseWeaponNeolithic" Abstract="True">
+		<category>Item</category>
+		<eType>Equipment</eType>
+		<thingClass>Equipment</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<isGun>True</isGun>
+		<pathCost>10</pathCost>
+		<useStandardHealth>True</useStandardHealth>
+		<selectable>True</selectable>
+		<maxHealth>100</maxHealth>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Neolithic</techLevel>
+		<weaponTags>
+			<li>Neolithic</li>
+		</weaponTags>
+		<storeCategories>
+			<li>Weapons</li>
+		</storeCategories>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+		</comps>
+		<verb>
+      <category>Nonnative</category>
+			<verbClass>Verb_Shoot</verbClass>
+			<cooldownTicks>40</cooldownTicks>
+			<label>VerbGun</label>
+			<hasStandardCommand>true</hasStandardCommand>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>true</canTargetBuildings>
+				<worldObjectTargetsMustBeAutoAttackable>true</worldObjectTargetsMustBeAutoAttackable>
+			</targetParams>
+			<canMiss>true</canMiss>
+		</verb>
+	</ThingDef>
+
+
+
+	<ThingDef Name="BaseProjectileNeolithic" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>Arrow</label>
+		<useStandardHealth>False</useStandardHealth>
+		<neverMultiSelect>True</neverMultiSelect>
+		<baseMaterialType>Transparent</baseMaterialType>
+	</ThingDef>
+
+
+	<!-- ========================== SPECIFICS ============================== -->
+
+
+
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>Arrow_Short</defName>
+		<label>Shortbow arrow</label>
+		<texturePath>Things/Projectile/Arrow_Small</texturePath>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+			<DamageAmountBase>10</DamageAmountBase>
+			<Speed>44</Speed>
+		</projectile>
+	</ThingDef>
+		<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>Bow_Short</defName>
+		<label>Short bow</label>
+		<description>A simple short bow, made with skill, but using only the most primitive technologies.</description>
+		<texturePath>Things/Item/Equipment/BowShort</texturePath>
+		<soundInteract>BowSmall</soundInteract>
+		<tradersCarry>True</tradersCarry>
+		<basePrice>60</basePrice>
+		<verb>
+			<projectileDef>Arrow_Short</projectileDef>
+      <accuracyTouch>0.89</accuracyTouch>
+      <accuracyShort>0.64</accuracyShort>
+      <accuracyMedium>0.41</accuracyMedium>
+      <accuracyLong>0.22</accuracyLong>
+			<warmupTicks>170</warmupTicks>
+			<range>31</range>
+			<fireSound>BowSmall</fireSound>
+		</verb>
+	</ThingDef>
+
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>Pilum_Thrown</defName>
+    <label>Pilum (thrown)</label>
+    <texturePath>Things/Projectile/Pilum</texturePath>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <DamageAmountBase>30</DamageAmountBase>
+      <Speed>26</Speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>Pila</defName>
+    <label>Pila</label>
+    <description>A bundle of pila, non-reusable throwing spears.</description>
+    <texturePath>Things/Item/Equipment/Pilum</texturePath>
+    <soundInteract>Interact_BeatFire</soundInteract>
+    <tradersCarry>True</tradersCarry>
+    <basePrice>90</basePrice>
+    <verb>
+      <projectileDef>Pilum_Thrown</projectileDef>
+      <accuracyTouch>0.91</accuracyTouch>
+      <accuracyShort>0.71</accuracyShort>
+      <accuracyMedium>0.50</accuracyMedium>
+      <accuracyLong>0.32</accuracyLong>
+      <warmupTicks>260</warmupTicks>
+      <cooldownTicks>270</cooldownTicks>
+      <range>24</range>
+      <fireSound>Interact_BeatFire</fireSound>
+    </verb>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>Arrow_Great</defName>
+		<label>Greatbow arrow</label>
+		<texturePath>Things/Projectile/Arrow_Small</texturePath>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+			<DamageAmountBase>15</DamageAmountBase>
+			<Speed>49</Speed>
+		</projectile>
+	</ThingDef>
+		<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>Bow_Great</defName>
+		<label>Great bow</label>
+		<description>A powerful greatbow. Fires a heavy arrow long distances.</description>
+		<texturePath>Things/Item/Equipment/BowGreat</texturePath>
+		<soundInteract>BowLarge</soundInteract>
+		<tradersCarry>True</tradersCarry>
+		<basePrice>180</basePrice>
+		<verb>
+			<projectileDef>Arrow_Great</projectileDef>
+      <accuracyTouch>0.93</accuracyTouch>
+      <accuracyShort>0.77</accuracyShort>
+      <accuracyMedium>0.59</accuracyMedium>
+      <accuracyLong>0.42</accuracyLong>
+			<warmupTicks>220</warmupTicks>
+			<range>34</range>
+			<fireSound>BowGreat</fireSound>
+		</verb>
+	</ThingDef>
+
+
+
+
+    
+  
+  
+  
+  
+  
+  
+  
+
+
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>ThrownStone</defName>
+		<label>Thrown stone</label>
+		<texturePath>Things/Projectile/Stone</texturePath>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+			<DamageAmountBase>6</DamageAmountBase>
+			<Speed>26</Speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>HandfulOfStones</defName>
+		<label>Handful of stones</label>
+		<description>A handful of stones picked up off the floor. Not as good as a gun or even a bow, but these can still knock your teeth out when thrown in anger.</description>
+		<texturePath>Things/Item/Equipment/Default</texturePath>
+		<soundInteract>BowLarge</soundInteract>
+		<tradersCarry>False</tradersCarry>
+		<basePrice>1</basePrice>
+		<destroyOnDrop>True</destroyOnDrop>
+		<menuHidden>True</menuHidden>
+		<weaponTags>
+			<li>Neolithic</li>
+		</weaponTags>
+		<verb>
+			<projectileDef>ThrownStone</projectileDef>
+      <accuracyTouch>0.89</accuracyTouch>
+      <accuracyShort>0.64</accuracyShort>
+      <accuracyMedium>0.41</accuracyMedium>
+      <accuracyLong>0.22</accuracyLong>
+			<warmupTicks>150</warmupTicks>
+			<range>15</range>
+			<fireSound>Interact_BeatFire</fireSound>
+		</verb>
+	</ThingDef>
+
+
+
+</ThingDefs>
+
+

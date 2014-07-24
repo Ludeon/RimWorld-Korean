@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+
+	<ThingDef Name="BuildingBase" Abstract="True">
+		<category>Building</category>
+		<soundBulletHit>BulletImpactMetal</soundBulletHit>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<surfaceNeeded>Light</surfaceNeeded>
+		<constructionEffect>ConstructMetal</constructionEffect>
+		<repairEffect>Repair</repairEffect>
+	</ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SunLamp</defName>
+    <eType>BuildingComplex</eType>
+    <label>Sun lamp</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <texturePath>Things/Building/Production/LampSun</texturePath>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <maxHealth>50</maxHealth>
+    <flammability>1.0</flammability>
+    <selectable>true</selectable>
+    <description>Lights an area brightly enough to grow crops.</description>
+    <size>(1,1)</size>
+    <workToBuild>330</workToBuild>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>20</count>
+      </li>
+    </costList>
+    <soundBulletHit>BulletImpactMetal</soundBulletHit>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li>
+        <compClass>CompGlower</compClass>
+        <overlightRadius>7.0</overlightRadius>
+        <glowRadius>14</glowRadius>
+        <glowColor>(370,370,370,0)</glowColor>
+      </li>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <soundPowerOn>PowerOnSmall</soundPowerOn>
+        <soundPowerOff>PowerOffSmall</soundPowerOff>
+        <basePowerConsumption>600</basePowerConsumption>
+      </li>
+    </comps>
+    <!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+    <specialDisplayRadius>5.8</specialDisplayRadius>
+    <designationCategory>Misc</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.2</basewidth>
+      <baseHeight>0.2</baseHeight>
+      <tallness>0.4</tallness>
+      <offset>(0,0,-0.1)</offset>
+    </sunShadowInfo>
+    <rotatable>false</rotatable>
+    <designationHotKey>U</designationHotKey>
+  </ThingDef>
+
+  
+  
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OrbitalTradeBeacon</defName>
+    <eType>BuildingComplex</eType>
+    <label>Orbital trade beacon</label>
+    <thingClass>Building_OrbitalTradeBeacon</thingClass>
+    <texturePath>Things/Building/DropBeacon</texturePath>
+    <altitudeLayer>Waist</altitudeLayer>
+    <maxHealth>75</maxHealth>
+    <description>Required for orbital trading. You can only sell goods that are near an orbital trade beacon and not under a roof. Orbital traders will also drop goods near this.</description>
+    <size>(1,1)</size>
+    <workToBuild>1300</workToBuild>
+    <flammability>1.0</flammability>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <specialDisplayRadius>7.9</specialDisplayRadius>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>60</count>
+      </li>
+    </costList>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>1</count>
+      </li>
+    </filthLeavings>
+    <overdraw>false</overdraw>
+    <pathCost>30</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <sunShadowInfo>
+      <basewidth>0.3</basewidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.6</tallness>
+    </sunShadowInfo>
+    <rotatable>false</rotatable>
+    <placementRestricters>
+      <li>PlacementRestricter_NotUnderRoof</li>
+    </placementRestricters>
+    <designationHotKey>O</designationHotKey>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ResearchBench</defName>
+    <eType>Building_ResearchBench</eType>
+    <label>Research bench</label>
+    <thingClass>Building_ResearchBench</thingClass>
+    <texturePath>Things/Building/ResearchBench</texturePath>
+    <altitudeLayer>Waist</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <maxHealth>250</maxHealth>
+    <flammability>1.0</flammability>
+    <description>Researchers work here to discover new things.</description>
+    <size>(2,5)</size>
+    <workToBuild>900</workToBuild>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>30</count>
+      </li>
+    </costList>
+    <overdraw>true</overdraw>
+    <fillPercent>0.4</fillPercent>
+    <killedLeavings>
+      <li>
+        <thingDef>ChunkSlag</thingDef>
+        <count>4</count>
+      </li>
+    </killedLeavings>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>2</count>
+      </li>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <interactionSquareOffset>(2,0,0)</interactionSquareOffset>
+    <hasInteractionSquare>true</hasInteractionSquare>
+    <surfaceNeeded>Heavy</surfaceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <itemSurface>true</itemSurface>
+    <designationHotKey>N</designationHotKey>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BuildingBase">
+		<defName>CommsConsole</defName>
+		<eType>Building_CommsConsole</eType>
+		<label>Comms console</label>
+		<thingClass>Building_CommsConsole</thingClass>
+		<texturePath>Things/Building/CommsConsole</texturePath>
+		<overdraw>true</overdraw>
+		<altitudeLayer>BuildingTall</altitudeLayer>
+		<passability>Impassable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<maxHealth>250</maxHealth>
+		<flammability>1.0</flammability>
+		<description>Communicate with nearby ships here for negotiation and trade.</description>
+		<size>(3,2)</size>
+		<workToBuild>1350</workToBuild>
+		<costList>
+			<li>
+				<thingDef>Metal</thingDef>
+				<count>120</count>
+			</li>
+		</costList>
+		<interactionSquareOffset>(0,0,2)</interactionSquareOffset>
+		<hasInteractionSquare>true</hasInteractionSquare>
+		<killedLeavings>
+			<li>
+				<thingDef>ChunkSlag</thingDef>
+				<count>3</count>
+			</li>
+		</killedLeavings>
+		<filthLeavings>
+			<li>
+				<thingDef>SlagRubble</thingDef>
+				<count>2</count>
+			</li>
+		</filthLeavings>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<surfaceNeeded>Heavy</surfaceNeeded>
+		<designationCategory>Misc</designationCategory>
+		<comps>
+			<li>
+				<compClass>CompPowerTrader</compClass>
+				<startElectricalFires>true</startElectricalFires>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+		</comps>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Grave</defName>
+		<eType>BuildingInert</eType>
+		<label>Grave</label>
+		<thingClass>Building_Grave</thingClass>
+		<texturePath>Things/Building/GraveEmpty</texturePath>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<overdraw>true</overdraw>
+		<useStandardHealth>false</useStandardHealth>
+		<description>Place the dead in graves to give them a decent final resting place.</description>
+		<size>(1,2)</size>
+		<workToBuild>650</workToBuild>
+		<passability>Standable</passability>
+    <building>
+      <fixedStorageSettings>
+        <allowances>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </allowances>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <allowances>
+          <categories>
+            <li>CorpsesHumanoid</li>
+          </categories>
+          <specialFiltersToAllow>
+            <li>AllowBuried</li>
+          </specialFiltersToAllow>
+        </allowances>
+      </defaultStorageSettings>
+    </building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<surfaceNeeded>Diggable</surfaceNeeded>
+		<designationCategory>Misc</designationCategory>
+		<constructionEffect>ConstructDig</constructionEffect>
+		<itemSurface>true</itemSurface>
+	</ThingDef>
+
+
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>FertilizerPump</defName>
+    <eType>BuildingComplex</eType>
+    <label>Fertilizer pump</label>
+    <thingClass>Building_FertilizerPump</thingClass>
+    <texturePath>Things/Building/FertilizerPump</texturePath>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <overdraw>false</overdraw>
+    <maxHealth>50</maxHealth>
+    <description>Slowly expands a field of growable soil around itself.</description>
+    <size>(1,1)</size>
+    <workToBuild>1000</workToBuild>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>50</count>
+      </li>
+    </costList>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>2</count>
+      </li>
+    </filthLeavings>
+    <pathCost>30</pathCost>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+    </comps>
+    <researchPrerequisite>FertilizerPump</researchPrerequisite>
+    <sunShadowInfo>
+      <baseWidth>0.3</baseWidth>
+      <baseHeight>0.3</baseHeight>
+      <tallness>0.5</tallness>
+    </sunShadowInfo>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+  </ThingDef>
+
+
+
+</Buildings>

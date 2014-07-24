@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundBulletHit>BulletImpactMetal</soundBulletHit>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <surfaceNeeded>Light</surfaceNeeded>
+    <constructionEffect>ConstructMetal</constructionEffect>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+
+
+  <!-- Beam -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ship_Beam</defName>
+    <label>Ship structural beam</label>
+    <thingClass>Building</thingClass>
+    <graphicPath>Things/Building/Ship/ShipBeam</graphicPath>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <overdraw>true</overdraw>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <maxHealth>400</maxHealth>
+    <flammability>1.0</flammability>
+    <tickerType>Normal</tickerType>
+    <description>A structural beam around which a ship can be constructed.</description>
+    <size>(1,5)</size>
+    <workToBuild>8000</workToBuild>
+    <designationCategory>Ship</designationCategory>
+    <building>
+      <shipPart>true</shipPart>
+      <transmitsPower>true</transmitsPower>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>800</count>
+      </li>
+    </costList>
+    <killedLeavings>
+      <li>
+        <thingDef>ChunkSlag</thingDef>
+        <count>3</count>
+      </li>
+    </killedLeavings>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>3</count>
+      </li>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <surfaceNeeded>Heavy</surfaceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+  </ThingDef>
+
+
+
+
+
+
+
+  <!-- Cryptosleep pod -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ship_CryptosleepPod</defName>
+    <label>Ship cryptosleep pod</label>
+    <thingClass>Building_ShipCryptosleepPod</thingClass>
+    <graphicPath>Things/Building/Ship/ShipCryptosleepPod</graphicPath>
+    <researchPrerequisite>ShipCryptosleep</researchPrerequisite>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <overdraw>true</overdraw>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <maxHealth>200</maxHealth>
+    <flammability>1.0</flammability>
+    <tickerType>Normal</tickerType>
+    <description>A cryptosleep pod hardened against the dangers of space. Capable of maintaining a person in cryptosleep for centuries in a space environment and surviving atmospheric re-entry.</description>
+    <size>(1,2)</size>
+    <workToBuild>8000</workToBuild>
+    <designationCategory>Ship</designationCategory>
+    <hasInteractionSquare>true</hasInteractionSquare>
+    <interactionSquareOffset>(1,0,0)</interactionSquareOffset>
+    <placementRestricters>
+      <li>PlacementRestricter_HeadOnShipBeam</li>
+    </placementRestricters>
+    <building>
+      <shipPart>true</shipPart>
+      <transmitsPower>true</transmitsPower>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>750</count>
+      </li>
+    </costList>
+    <killedLeavings>
+      <li>
+        <thingDef>ChunkSlag</thingDef>
+        <count>1</count>
+      </li>
+    </killedLeavings>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>3</count>
+      </li>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <surfaceNeeded>Heavy</surfaceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+  </ThingDef>
+
+
+  <!-- Computer core -->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ship_ComputerCore</defName>
+    <label>Ship computer core</label>
+    <thingClass>Building_ShipComputerCore</thingClass>
+    <graphicPath>Things/Building/Ship/ShipComputerCore</graphicPath>
+    <researchPrerequisite>ShipComputerCore</researchPrerequisite>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <overdraw>true</overdraw>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <maxHealth>150</maxHealth>
+    <flammability>1.0</flammability>
+    <tickerType>Normal</tickerType>
+    <description>A computer core capable of housing a superhumanoid AI who can guide a ship through any challenge.</description>
+    <size>(1,1)</size>
+    <workToBuild>16000</workToBuild>
+    <designationCategory>Ship</designationCategory>
+    <building>
+      <shipPart>true</shipPart>
+      <transmitsPower>true</transmitsPower>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <costList>
+      <li>
+        <thingDef>AIPersonaCore</thingDef>
+        <count>1</count>
+      </li>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>800</count>
+      </li>
+    </costList>
+    <killedLeavings>
+      <li>
+        <thingDef>ChunkSlag</thingDef>
+        <count>1</count>
+      </li>
+    </killedLeavings>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>3</count>
+      </li>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <surfaceNeeded>Heavy</surfaceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+  </ThingDef>
+
+  
+  
+  
+  <!-- Reactor -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ship_Reactor</defName>
+    <label>Ship reactor</label>
+    <thingClass>Building</thingClass>
+    <graphicPath>Things/Building/Ship/ShipReactor</graphicPath>
+    <researchPrerequisite>ShipReactor</researchPrerequisite>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <overdraw>true</overdraw>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <maxHealth>500</maxHealth>
+    <flammability>1.0</flammability>
+    <tickerType>Normal</tickerType>
+    <description>Powers a ship on its journey through space.</description>
+    <size>(5,5)</size>
+    <workToBuild>50000</workToBuild>
+    <designationCategory>Ship</designationCategory>
+    <building>
+      <shipPart>true</shipPart>
+      <transmitsPower>true</transmitsPower>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>2500</count>
+      </li>
+    </costList>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>-1000</basePowerConsumption>
+      </li>
+    </comps>
+    <killedLeavings>
+      <li>
+        <thingDef>ChunkSlag</thingDef>
+        <count>12</count>
+      </li>
+    </killedLeavings>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>3</count>
+      </li>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <surfaceNeeded>Heavy</surfaceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+  </ThingDef>
+
+
+  <!-- Engine -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Ship_Engine</defName>
+    <label>Ship engine</label>
+    <thingClass>Building</thingClass>
+    <graphicPath>Things/Building/Ship/ShipEngine</graphicPath>
+    <researchPrerequisite>ShipEngine</researchPrerequisite>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <overdraw>true</overdraw>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <maxHealth>400</maxHealth>
+    <flammability>1.0</flammability>
+    <tickerType>Normal</tickerType>
+    <description>An antimatter-powered engine capable of launching a ship into orbit and on interstellar trajectories.</description>
+    <size>(2,3)</size>
+    <workToBuild>40000</workToBuild>
+    <designationCategory>Ship</designationCategory>
+    <building>
+      <shipPart>true</shipPart>
+      <transmitsPower>true</transmitsPower>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <costList>
+      <li>
+        <thingDef>Metal</thingDef>
+        <count>1200</count>
+      </li>
+    </costList>
+    <killedLeavings>
+      <li>
+        <thingDef>ChunkSlag</thingDef>
+        <count>2</count>
+      </li>
+    </killedLeavings>
+    <filthLeavings>
+      <li>
+        <thingDef>SlagRubble</thingDef>
+        <count>3</count>
+      </li>
+    </filthLeavings>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <surfaceNeeded>Heavy</surfaceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+  </ThingDef>
+
+
+
+
+</GameData>

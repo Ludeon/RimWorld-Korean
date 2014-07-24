@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+	<ThingDef Name="BaseFilth" Abstract="True">
+		<label>Unspecified filth</label>
+		<thingClass>Filth</thingClass>
+    <eType>Filth</eType>
+		<category>Filth</category>
+		<altitudeLayer>Filth</altitudeLayer>
+		<useStandardHealth>false</useStandardHealth>
+		<drawerType>MapMeshOnly</drawerType>
+		<baseMaterialType>Transparent</baseMaterialType>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="BaseFilth">
+	<defName>FilthBlood</defName>
+	<label>Blood</label>
+	<textureFolderPath>Things/Filth/Blood</textureFolderPath>
+		<filth>
+			<cleaningWorkToReduceThickness>150</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+		</filth>
+</ThingDef>
+
+<ThingDef ParentName="BaseFilth">
+	<defName>FilthDirt</defName>
+	<label>Dirt</label>
+	<textureFolderPath>Things/Filth/Dirt</textureFolderPath>
+	<beauty>UglyTiny</beauty>
+	<filth>
+		<cleaningWorkToReduceThickness>75</cleaningWorkToReduceThickness>
+		<terrainSourced>true</terrainSourced>
+		<canFilthAttach>true</canFilthAttach>
+	</filth>
+</ThingDef>
+
+<ThingDef ParentName="BaseFilth">
+	<defName>FilthSand</defName>
+	<label>Sand</label>
+	<textureFolderPath>Things/Filth/Sand</textureFolderPath>
+	<beauty>UglyTiny</beauty>
+	<filth>
+		<cleaningWorkToReduceThickness>75</cleaningWorkToReduceThickness>
+		<terrainSourced>true</terrainSourced>
+		<canFilthAttach>true</canFilthAttach>
+	</filth>
+</ThingDef>
+
+<ThingDef ParentName="BaseFilth">
+	<defName>RockRubble</defName>
+	<label>Rock rubble</label>
+	<textureFolderPath>Things/Filth/RubbleRock</textureFolderPath>
+	<beauty>Ugly</beauty>
+	<filth>
+		<cleaningWorkToReduceThickness>75</cleaningWorkToReduceThickness>
+	</filth>
+</ThingDef>
+
+<ThingDef ParentName="BaseFilth">
+	<defName>SlagRubble</defName>
+	<label>Slag rubble</label>
+	<textureFolderPath>Things/Filth/RubbleSlag</textureFolderPath>
+	<beauty>Ugly</beauty>
+	<filth>
+		<cleaningWorkToReduceThickness>75</cleaningWorkToReduceThickness>
+	</filth>
+</ThingDef>
+
+<ThingDef ParentName="BaseFilth">
+	<label>Scattered sandbags</label>
+	<defName>SandbagRubble</defName>
+	<textureFolderPath>Things/Filth/RubbleSandbags</textureFolderPath>
+	<beauty>Ugly</beauty>
+	<filth>
+		<cleaningWorkToReduceThickness>75</cleaningWorkToReduceThickness>
+	</filth>
+</ThingDef>
+
+</ThingDefs>
