@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Various -->
@@ -7,6 +7,7 @@
   <ContainedResources>포함된 자원</ContainedResources>
   <ForPrisonerUse>수감자가 사용중</ForPrisonerUse>
   <ForColonistUse>주민이 사용중</ForColonistUse>
+  <MedicalBed>의료</MedicalBed>
   <Owner>소유자</Owner>
   <Nobody>주인 없음</Nobody>
   <Unowned>알 수 없음</Unowned>
@@ -17,6 +18,9 @@
   <FilthOnFeet>발에 묻은 이물질:</FilthOnFeet>
   <NotEnoughStoredLower>보유량이 충분하지 않습니다</NotEnoughStoredLower>
   <NothingLower>없음</NothingLower>
+  <Adapted>개조됨</Adapted>
+  <Headshot>헤드샷</Headshot>
+  <FreshMissingBodyPart>신선함</FreshMissingBodyPart>
 
   <!-- Turrets -->
   <GunInstalled>장착됨</GunInstalled>
@@ -85,6 +89,20 @@
   <SanityPanicFlee>Broken: 공황 상태에 빠짐</SanityPanicFlee>
   <SanityPsychotic>Broken: 미쳐 날뜀</SanityPsychotic>
 
+  <!-- Body and activities condition -->
+  <None>없음</None>
+  <VeryPoor>매우 나쁨</VeryPoor>
+  <Poor>나쁨</Poor>
+  <Weakened>쇠약한</Weakened>
+  <GoodCondition>좋음</GoodCondition>
+  <SeriouslyImpaired>심각하게 손상</SeriouslyImpaired>
+  <Impaired>장애인</Impaired>
+  <SlightlyImpaired>약간 손상</SlightlyImpaired>
+  <NoPain>없음</NoPain>
+  <LittlePain>작은</LittlePain>
+  <MediumPain>중간</MediumPain>
+  <SeverePain>심한</SeverePain>
+  <ExtremePain>극심한</ExtremePain>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>같은 영역에 있는 다른 대상을 선택합니다.\n\n단축키: {0}\n\n선택한 대상을 천천히 클릭하는 방법도 있습니다.</SelectNextInSquareTip>
@@ -94,11 +112,11 @@
   <TabBills>작업</TabBills>
   <TabGrowing>재배</TabGrowing>
   <TabCharacter>인물</TabCharacter>
-  <TabNeeds>욕구</TabNeeds>
   <TabPrisoner>수감자</TabPrisoner>
   <TabGear>장비</TabGear>
   <TabThoughts>기분</TabThoughts>
   <TabStorage>보관</TabStorage>
+  <TabHealth>상태</TabHealth>
 
 	<!-- ITabs -->
 	<AddBill>작업 추가</AddBill>
@@ -108,6 +126,8 @@
 	<PlantVerb>식물</PlantVerb>
 	<RecruitmentDifficulty>설득 난이도</RecruitmentDifficulty>
 	<PrisonerGetsFood>음식 제공</PrisonerGetsFood>
+	<DoctorsCare>의사 진료</DoctorsCare>
+	<PrisonerGetsMedicine>의약품 제공</PrisonerGetsMedicine>
 	<ShouldTryToRecruit>포섭 시도</ShouldTryToRecruit>
 	<PrisonerNoInteraction>상호 작용 없음</PrisonerNoInteraction>
 	<PrisonerFriendlyChat>다정한 대화</PrisonerFriendlyChat>
@@ -116,18 +136,33 @@
 	<PrisonerExecution>처형</PrisonerExecution>
 	<Equipment>장비</Equipment>
 	<Apparel>의류</Apparel>
-	<Inventory>재고</Inventory>
+	<Inventory>소지품</Inventory>
 	<ThingInfo>정보</ThingInfo>
 	<DropThing>내려놓기</DropThing>
-	<TotalModifiers>해결사</TotalModifiers>
+	<TotalModifiers>전체 수정</TotalModifiers>
 	<DamageAbsorption>피해 흡수</DamageAbsorption>
 	<MoveSpeed>이동 속도</MoveSpeed>
+	<Efficiency>효율</Efficiency>
+	<MissingBodyPart>없어진</MissingBodyPart>
+	<DestroyedBodyPart>파괴</DestroyedBodyPart>
+	<ShatteredBodyPart>부서진</ShatteredBodyPart>
+	<Healthy>건강</Healthy>
+	<InPain>아픔</InPain>
+	<PainLevel>고통</PainLevel>
+	<Dead>죽음</Dead>
+	<Unconscious>의식없는</Unconscious>
+	<PainShock>쇼크</PainShock>
+	<NoInjuries>(부상자 없음)</NoInjuries>
+	<WholeBody>전신</WholeBody>
+	<RenameColonist>주민 이름 변경</RenameColonist>
+	<DataProcessing>데이터 처리</DataProcessing>
+	<Communication>통신</Communication>
 
 	<!-- like 'Blood of John' -->
 	<OfLower>의</OfLower>
 
 	<!-- Power readout -->
-	<PowerNotConnected>전기가 연결 되지 않았습니다.</PowerNotConnected>
+	<PowerNotConnected>전기가 연결되지 않았습니다.</PowerNotConnected>
 	<PowerConnectedRate>예비 전력: {0}W</PowerConnectedRate>
 	<PowerConnectedStored>충전 전력: {0}Wd</PowerConnectedStored>
   <PowerNeeded>소비 전력</PowerNeeded>
@@ -154,13 +189,14 @@
   <StoragePriorityCritical>가장 중요</StoragePriorityCritical>
 
   <!-- Meal -->
-  <TimeToSpoil>소비기한 {0}</TimeToSpoil>
+  <TimeToSpoil>유통기한 {0}</TimeToSpoil>
   <Ingredients>원료</Ingredients>
 
   <!-- Plants -->
   <PercentGrowth>{0}% 정도 자람</PercentGrowth>
   <Growing>성장중</Growing>
   <NotGrowingNow>성장이 멈춤 (필요 조건: {0}).</NotGrowingNow>
+  <NotGrowingNowNight>성장이 멈춤 (야간).</NotGrowingNowNight>
   <FullyGrownIn>{0} 이후 완전히 성장</FullyGrownIn>
   <ReadyToHarvest>수확할 수 있습니다.</ReadyToHarvest>
   <Mature>성숙</Mature>
@@ -214,8 +250,8 @@
   
   
   <!-- Game over -->
-  <GameOverEveryoneDead>주민들이 모두 죽거나 정착지를 떠났습니다.\n\n어쩌면 폐허가 된 이곳을 다른 사람이 찾게 될 수 도 있겠네요.</GameOverEveryoneDead>
-  <GameOverShipLaunched>우주선을 발사 하였습니다! 우주선에 탑승한 주민:\n\n{0}\n정착지에 남겨진 주민:\n\n{1}\n우주선에 탑재된 인공지능이 여러분을 안전한 곳으로 인도할 것입니다. 정착지 생활을 했던 이곳 보다 나은 행성일 수 있고, 다른 별을 향하여 여러 세기를 걸쳐 여행할 수 있으며, 더 나은 세상을 기다길 결정하고 소행성의 얼음 속에서 몇 천년동안 숨어있을 수도 있습니다.\n\n자세한 사항은 잠에서 깨어나신 다음에 확인해보세요.</GameOverShipLaunched>
+  <GameOverEveryoneDead>주민들이 모두 죽거나 정착지를 떠났습니다.\n\n어쩌면 폐허가 된 이곳을 다른 사람이 찾게 될 수도 있겠네요.</GameOverEveryoneDead>
+  <GameOverShipLaunched>우주선을 발사하였습니다! 우주선에 탑승한 주민:\n\n{0}\n정착지에 남겨진 주민:\n\n{1}\n우주선에 탑재된 인공지능이 여러분을 안전한 곳으로 인도할 것입니다. 정착지 생활을 했던 이곳 보다 나은 행성일 수 있고, 다른 별을 향하여 여러 세기를 걸쳐 여행할 수 있으며, 더 나은 세상을 기다길 결정하고 소행성의 얼음 속에서 몇 천년동안 숨어있을 수도 있습니다.\n\n자세한 사항은 잠에서 깨어나신 다음에 확인해보세요.</GameOverShipLaunched>
   <GameOverKeepPlaying>이어하기</GameOverKeepPlaying>
   <GameOverMainMenu>초기화면</GameOverMainMenu>
   
