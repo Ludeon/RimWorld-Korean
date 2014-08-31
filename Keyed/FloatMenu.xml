@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 
   
-	<CallOnRadio>Call {0}</CallOnRadio>
+	<CallOnRadio>연락: {0}</CallOnRadio>
 	<CannotUseSolarFlare>사용할 수 없습니다. (흑점 폭발)</CannotUseSolarFlare>
 	<CannotUseNoPower>사용할 수 없습니다. (전원 차단)</CannotUseNoPower>
 	<CannotUseNoPath>사용할 수 없습니다. (경로 없음)</CannotUseNoPath>
@@ -16,7 +16,7 @@
   <CannotHitTarget>대상을 맞출 수 없음</CannotHitTarget>
   <CannotFight>대상과 싸울 수 없음: {0}</CannotFight>
 
-  <OrderManThing>사람 {0}</OrderManThing>
+  <OrderManThing>조작: {0}</OrderManThing>
   
   <MeleeAttack>근접 공격: {0}</MeleeAttack>
   <MeleeAttackToDeath>대상이 죽을 때 까지 근접 공격: {0}</MeleeAttackToDeath>
@@ -24,6 +24,7 @@
 
 	<ForbiddenLower>금지됨</ForbiddenLower>
 	<SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
+  <PrisonerRoomLower>prisoner room</PrisonerRoomLower>
 	<BurningLower>불타고 있음</BurningLower>
 	<NoEmptyPlaceLower>저장할 수 있는 빈공간이 없습니다.</NoEmptyPlaceLower>
 	<AlreadyFilledLower>이미 꽉 차 있습니다.</AlreadyFilledLower>
@@ -62,6 +63,10 @@
   <CannotDeposit>{1}에 보관할 수 없습니다. ({0})</CannotDeposit>
 
   <Drop>버리기: {0}</Drop>
+  
+  <UseMedicalBed>완전히 치료될 때까지 휴식</UseMedicalBed>
+  <NotInjured>부상 없음</NotInjured>
+  <SomeoneElseSleeping>사용중</SomeoneElseSleeping>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepPod>동면장치에 탑승</EnterCryptosleepPod>
