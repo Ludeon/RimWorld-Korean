@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <DesignatorCancel>취소</DesignatorCancel>
-  <DesignatorCancelDesc>건설, 채광, 운반, 수확 등 모든 명령들을 취소할 수 있습니다.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>건설, 채굴, 운반, 수확 등 모든 명령들을 취소할 수 있습니다.</DesignatorCancelDesc>
 
   <DesignatorCutPlants>제초</DesignatorCutPlants>
-  <DesignatorCutPlantsDesc>표시된 식물이 다시 자라지 못하도록 제초 작업을 합니다. 작업 도중에 식자재를 수확 할 수도 있습니다.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>표시된 식물이 다시 자라지 못하도록 제초 작업을 합니다. 작업 도중에 식재료를 수확할 수도 있습니다.</DesignatorCutPlantsDesc>
 
   <DesignatorDeconstruct>해체</DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>제작 하거나 건설된 대상을 해체하고, 회수한 자원을 재사용합니다.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>제작하거나 건설된 대상을 해체하고, 회수한 자원을 재사용합니다.</DesignatorDeconstructDesc>
 
   <DesignatorHarvestFood>수확</DesignatorHarvestFood>
   <DesignatorHarvestFoodDesc>수확이 가능한 식물에 표시를 남깁니다. 식물에서 곡식이나 열매를 수확하게 되며, 식물 자체는 남아있습니다.</DesignatorHarvestFoodDesc>
@@ -17,15 +17,15 @@
   <DesignatorHarvestWoodDesc>벌목할 수 있는 나무에 표시를 남깁니다.</DesignatorHarvestWoodDesc>
 
   <DesignatorHaulThings>운반</DesignatorHaulThings>
-  <DesignatorHaulThingsDesc>돌덩어리나 다른 아이템에 표시를 남겨 처리 지역으로 옮기도록 지시합니다.</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>바위 덩어리나 슬래그 덩어리 등에 표시를 남겨 처리 지역으로 옮기도록 지시합니다.</DesignatorHaulThingsDesc>
   <NothingToHaulHere>이 곳에 운반할 수 없습니다.</NothingToHaulHere>
-  <MustHaulHaulables>돌덩어리 처럼 자동적으로 운반하지 않는 것들만 지정할 수 있습니다.</MustHaulHaulables>
+  <MustHaulHaulables>바위 덩어리처럼 자동적으로 운반하지 않는 것들만 지정할 수 있습니다.</MustHaulHaulables>
 
   <DesignatorHunt>사냥</DesignatorHunt>
-  <DesignatorHuntDesc>동물에 표시를 남겨, 사냥 하도록 지시합니다.</DesignatorHuntDesc>
+  <DesignatorHuntDesc>동물에 표시를 남겨 사냥 하도록 지시합니다.</DesignatorHuntDesc>
 
   <DesignatorMine>채굴</DesignatorMine>
-  <DesignatorMineDesc>암석 지대를 지정 하여 채굴합니다.</DesignatorMineDesc>
+  <DesignatorMineDesc>암석 지대를 지정하여 채굴합니다.</DesignatorMineDesc>
 
   <DesignatorPlan>계획</DesignatorPlan>
   <DesignatorPlanDesc>지시할 공간을 미리 계획해둡니다. 정착지 주민들과 상호 작용이 일어나지 않으며, 공간 구상을 하거나 건설을 할 때 도움이 됩니다.</DesignatorPlanDesc>
@@ -39,11 +39,11 @@
   <DesignatorHomeRegionRemove>주거 구역 취소</DesignatorHomeRegionRemove>
   <DesignatorHomeRegionRemoveDesc>주거 구역을 취소합니다. 정착지 주민들은 주거 구역이 아닌 공간에서 스스로 청소, 수리, 소방 활동을 하지 않습니다.</DesignatorHomeRegionRemoveDesc>
 
-  <DesignatorRegionNoRoofAdd>지붕없는 구역 설정</DesignatorRegionNoRoofAdd>
+  <DesignatorRegionNoRoofAdd>지붕 없는 구역 설정</DesignatorRegionNoRoofAdd>
   <DesignatorRegionNoRoofAddDesc>자동적으로 지붕이 생성되지 않도록 지붕 없는 구역을 설정합니다. 기존에 설치된 지붕이 있을 때는 정착지 주민들이 직접 해체할 것입니다.</DesignatorRegionNoRoofAddDesc>
 
-  <DesignatorRegionNoRoofRemove>지붕없는 구역 취소</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>지붕없는 구역을 취소합니다. 지붕이 다시 생성될 수 있으며, 한번 철거한 지붕은 지붕없는 구역을 취소 했다 하더라도 자동적으로 덮어지지 않습니다.</DesignatorRegionNoRoofRemoveDesc>
+  <DesignatorRegionNoRoofRemove>지붕 없는 구역 취소</DesignatorRegionNoRoofRemove>
+  <DesignatorRegionNoRoofRemoveDesc>지붕 없는 구역을 취소합니다. 지붕이 다시 생성될 수 있으며, 한번 철거한 지붕은 지붕 없는 구역을 취소했다 하더라도 자동적으로 덮어지지 않습니다.</DesignatorRegionNoRoofRemoveDesc>
 
   <DesignatorGrowingZoneDesc>정착지 주민들이 식물을 재배할 수 있는 구역을 지정합니다. \n이 도구를 활용하여 재배 구역을 확장할 수 있습니다.</DesignatorGrowingZoneDesc>
 
@@ -55,6 +55,8 @@
   <DesignatorZoneDelete>구역 삭제</DesignatorZoneDelete>
   <DesignatorZoneDeleteDesc>저장 구역이나 재배 구역과 같이, 설정된 구역을 삭제합니다.</DesignatorZoneDeleteDesc>
   
+  <DesignatorClaim>주장</DesignatorClaim>
+  <DesignatorClaimDesc>고대 유적을 포함해서, 식민지에 대한 중립적인 구조와 포위한 베이스의 포기를 주장합니다.</DesignatorClaimDesc>
   
   
   <!-- placement of blueprints -->
