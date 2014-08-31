@@ -16,7 +16,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 Rimworld korea cafe :
 http://cafe.naver.com/indiss
 
-Alpha3(413): Enoz, 고로쿠마, PlayGirl, DaDen, Walker
+Alpha 3 (413) : Enoz, 고로쿠마, PlayGirl, DaDen, Walker
 
 
 Alpha 4 (466) 1차 : Walker
