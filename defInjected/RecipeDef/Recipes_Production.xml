@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	<MakeStoneBlocks.label>벽돌 제작</MakeStoneBlocks.label>
-	<MakeStoneBlocks.description>돌덩어리를 벽돌로 가공합니다.</MakeStoneBlocks.description>
-	<MakeStoneBlocks.jobString>석재 가공중</MakeStoneBlocks.jobString>
-  <!--
-	<MakeWoodPlanks_Hand.label>목판 제작</MakeWoodPlanks_Hand.label>
-	<MakeWoodPlanks_Hand.description>목재 10개를 손으로 가공하여 25개의 목판 제조합니다. 시간이 좀 걸립니다.</MakeWoodPlanks_Hand.description>
-	<MakeWoodPlanks_Hand.jobString>목재 가공중</MakeWoodPlanks_Hand.jobString>
+	<MakeStoneBlocks.description>바위 덩어리를 벽돌로 만듭니다.</MakeStoneBlocks.description>
+	<MakeStoneBlocks.jobString>돌 절단중.</MakeStoneBlocks.jobString>
 	
-	<MakeWoodPlanks_Electric.label>목판 제작</MakeWoodPlanks_Electric.label>
-	<MakeWoodPlanks_Electric.description>목재 10개를 기계로 가공하여 25개의 목판을 제조합니다.</MakeWoodPlanks_Electric.description>
-	<MakeWoodPlanks_Electric.jobString>Производит доски.</MakeWoodPlanks_Electric.jobString>
- -->	
-	<ExtractMetalFromSlag.label>정련 작업</ExtractMetalFromSlag.label>
-	<ExtractMetalFromSlag.description> 슬래그 덩어리에서 강력한 전자석과 열처리를 통해 사용 가능한 금속을 추출합니다.</ExtractMetalFromSlag.description>
-	<ExtractMetalFromSlag.jobString>금속 추출중</ExtractMetalFromSlag.jobString>
+	<!--
+	<MakeWoodPlanks_Hand.label>널빤지 제조 (수작업)</MakeWoodPlanks_Hand.label>
+	<MakeWoodPlanks_Hand.description>통나무 10개를 손으로 작업하여 25개의 널빤지로 만듭니다. 시간이 좀 걸립니다.</MakeWoodPlanks_Hand.description>
+	<MakeWoodPlanks_Hand.jobString>널빤지 제조중</MakeWoodPlanks_Hand.jobString>
+	
+	<MakeWoodPlanks_Electric.label>널빤지 제조 (기계작업)</MakeWoodPlanks_Electric.label>
+	<MakeWoodPlanks_Electric.description>통나무 10개를 기계로 작업하여 25개의 널빤지로 만듭니다.</MakeWoodPlanks_Electric.description>
+	<MakeWoodPlanks_Electric.jobString>널빤지 제조중.</MakeWoodPlanks_Electric.jobString>
+	-->
+	
+	<ExtractMetalFromSlag.label>제련 작업</ExtractMetalFromSlag.label>
+	<ExtractMetalFromSlag.description>슬래그 덩어리에서 강력한 전자석과 열처리를 통해 사용 가능한 금속을 추출합니다.</ExtractMetalFromSlag.description>
+	<ExtractMetalFromSlag.jobString>금속 용해중.</ExtractMetalFromSlag.jobString>
 
 	
 </LanguageData>

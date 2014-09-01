@@ -1,102 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-  <!--========= General ============-->
-
+	
 	<Goto.reportString>선택 지점으로 이동중</Goto.reportString>
-
+	
 	<Wait.reportString>대기중</Wait.reportString>
-
+	
 	<AttackStatic.reportString>TargetA 사격중</AttackStatic.reportString>
-
+	
     <AttackMelee.reportString>TargetA 공격중</AttackMelee.reportString>
-  
+	
 	<UseVerbOnThing.reportString>verb 사용중</UseVerbOnThing.reportString>
-
+	
 	<Equip.reportString>TargetA 장착 준비중</Equip.reportString>
-
-  <!--============= Misc ============-->
-
-    <Wear.reportString>TargetA 착용 준비중</Wear.reportString>
-
-    <Strip.reportString>TargetA 무장 해제중</Strip.reportString>
+	
+    <!--============= Misc ============-->
   
+	<Wear.reportString>TargetA 착용 준비중</Wear.reportString>
+  
+	<Strip.reportString>TargetA 무장 해제중</Strip.reportString>
+	
 	<Hunt.reportString>TargetA 사냥중</Hunt.reportString>
-
-    <ManThing.reportString>기계 조작중</ManThing.reportString>
-
-    <EnterLongsleepPod.reportString>동면장치로 이동중</EnterLongsleepPod.reportString>
-
+	
+	<ManThing.reportString>기계 조작중</ManThing.reportString>
+	
+	<EnterCryptosleepPod.reportString>동면장치로 이동중</EnterCryptosleepPod.reportString>
+	
+    <!--============ Fire ============-->
   
-  <!--============ Fire ============-->
-
 	<Ignite.reportString>TargetA 점화중</Ignite.reportString>
-
+	
 	<BeatFire.reportString>화재 진압중</BeatFire.reportString>
-
+	
 	<ExtinguishSelf.reportString>자연적으로 불이 꺼지는중</ExtinguishSelf.reportString>
-
-
-  <!--============ Need satisfaction ============-->
-
+	
+    <!--============ Need satisfaction ============-->
+  
 	<EatFood.reportString>TargetA 섭취중</EatFood.reportString>
-
+	
 	<Sleep.reportString>취침중</Sleep.reportString>
-
-  <!--============= Item hauling ===============-->
-
+	
+    <!--============= Item hauling ===============-->
+	
 	<HaulToCell.reportString>바닥으로 TargetA 운반중</HaulToCell.reportString>
-
+	
 	<HaulToContainer.reportString>TargetA 운반중</HaulToContainer.reportString>
-
-  <!--============= Pawn hauling ===============-->
-
+	
+    <!--============= Pawn hauling ===============-->
+	
 	<Rescue.reportString>TargetA 구조중</Rescue.reportString>
-
+	
 	<Capture.reportString>TargetA 포획중</Capture.reportString>
-
+	
 	<Arrest.reportString>TargetA 체포중</Arrest.reportString>
-
+	
 	<EscortPrisonerToBed.reportString>TargetA 이송중</EscortPrisonerToBed.reportString>
-
+	
 	<TakeWoundedPrisonerToBed.reportString>부상 당한 TargetA 이송중</TakeWoundedPrisonerToBed.reportString>
-
-  <Kidnap.reportString>TargetA 납치중</Kidnap.reportString>
-    
+	
+	<Kidnap.reportString>TargetA 납치중</Kidnap.reportString>
+	
+	
+	
+	
 	<DeliverFood.reportString>대상에게 TargetA 전달중: TargetB</DeliverFood.reportString>
-
+	
 	<FeedPatient.reportString>대상에게 TargetA 먹여주는 중: TargetB.</FeedPatient.reportString>
-
+	
+	<HealPatient.reportString>TargetA 치료중</HealPatient.reportString>
+	
 	<PlaceNoCostFrame.reportString>TargetA 건설중</PlaceNoCostFrame.reportString>
-
+	
 	<DoBill.reportString>TargetA 작업중</DoBill.reportString>
-
+	
 	<Clean.reportString>TargetA 청소중</Clean.reportString>
-
+	
 	<Research.reportString>연구중</Research.reportString>
-
+	
 	<UseCommsConsole.reportString>통신 콘솔 사용중.</UseCommsConsole.reportString>
-
+	
 	<Mine.reportString>TargetA 채굴중</Mine.reportString>
-
+	
 	<Repair.reportString>TargetA 수리중</Repair.reportString>
-
+	
 	<FinishFrame.reportString>TargetA 건설중</FinishFrame.reportString>
-
-	<Sow.reportString>TargetA 경작중</Sow.reportString>
-
+	
+	<Sow.reportString>TargetA 재배중</Sow.reportString>
+	
 	<Harvest.reportString>TargetA 수확중</Harvest.reportString>
-
+	
 	<CutPlant.reportString>TargetA 제초중</CutPlant.reportString>
-
+	
 	<Deconstruct.reportString>TargetA 해체중</Deconstruct.reportString>
-
+	
 	<PrisonerFriendlyChat.reportString>해당 수감자와 대화중: TargetA</PrisonerFriendlyChat.reportString>
-
+	
 	<PrisonerBeatingMild.reportString>대상을 구타중: TargetA</PrisonerBeatingMild.reportString>
-
+	
 	<PrisonerBeatingVicious.reportString>대상을 잔인하게 구타중: TargetA</PrisonerBeatingVicious.reportString>
-
+	
 	<PrisonerExecution.reportString>TargetA 처형 준비중</PrisonerExecution.reportString>
-
+	
+	
 </LanguageData>

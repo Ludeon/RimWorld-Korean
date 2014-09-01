@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<AteRawFood.label>생식 섭취</AteRawFood.label>
+	<AteRawFood.description>생식을 먹어야만 했습니다. 이걸 요리할 수는 없을까요? 아니면 적어도 영양반죽이라도?</AteRawFood.description>
+	
+	<AteNutrientPasteMeal.label>합성 식량 섭취</AteNutrientPasteMeal.label>
+	<AteNutrientPasteMeal.description>합성 식량을 먹어야만 했습니다. 살기 위해서 먹는다지만, 아무도 그 찐득찐득한 것을 삼키고 싶어 하지는 않습니다.</AteNutrientPasteMeal.description>
+	
+	<AteFineMeal.label>괜찮은 식사 섭취</AteFineMeal.label>
+	<AteFineMeal.description>정말로 맛있고 괜찮은 식사를 했습니다. 음, 맛있어!</AteFineMeal.description>
+	
+	<AteLavishMeal.label>호화로운 식사</AteLavishMeal.label>
+	<AteLavishMeal.description>호화로운 식사를 하게 되어 내 몸과 영혼까지 훌륭함과 행복감을 느낍니다!</AteLavishMeal.description>
+	
+  <!-- =========== Cannibalism ===============-->
+	<AteHumanoidMeatDirect.label>생 인육 섭취</AteHumanoidMeatDirect.label>
+	<AteHumanoidMeatDirect.description>짐승처럼 다른 사람을, 그것도 생으로 먹었습니다. 이것은 악몽이야!</AteHumanoidMeatDirect.description>
+	
+	<AteHumanoidMeatAsIngredient.label>인육 가공품 섭취</AteHumanoidMeatAsIngredient.label>
+	<AteHumanoidMeatAsIngredient.description>인육으로 만든 음식을 먹었습니다. 아, 끔찍합니다!</AteHumanoidMeatAsIngredient.description>
+	
+	
+	<AteHumanoidMeatDirectCannibal.label>생 인육 섭취</AteHumanoidMeatDirectCannibal.label>
+	<AteHumanoidMeatDirectCannibal.description>짐승처럼 다른 사람을 생으로 먹었습니다. 멋지군요!</AteHumanoidMeatDirectCannibal.description>
+	
+	<AteHumanoidMeatAsIngredientCannibal.label>인육 가공품 섭쥐</AteHumanoidMeatAsIngredientCannibal.label>
+	<AteHumanoidMeatAsIngredientCannibal.description>인육으로 만든 음식을 먹었습니다. 기분이 좋습니다. 누에콩 몇 개와 좋은 키안티(포도주)가 있었으면...</AteHumanoidMeatAsIngredientCannibal.description>
+	
+	
+	<ButcheredHumanoidCorpse.label>인간 도살</ButcheredHumanoidCorpse.label>
+	<ButcheredHumanoidCorpse.description>아, 짐승처럼 인간을 도살하고 말았습니다.</ButcheredHumanoidCorpse.description>
+	
+	
+	<AteWithoutTable.label>바닥에서 식사</AteWithoutTable.label>
+	<AteWithoutTable.description>바닥에서 밥을 먹어야만 했습니다. 식탁을 구할 순 없는 건가요?</AteWithoutTable.description>
+
+  <!-- Combat -->
+	
+	<ObservedLayingCorpse.label>시체 목격</ObservedLayingCorpse.label>
+	<ObservedLayingCorpse.description>아, 이런! 땅 위에 놓여 있는 시체를 보고야 말았습니다.</ObservedLayingCorpse.description>
+	
+	<ObservedLayingRottingCorpse.label>썩은 시체 목격</ObservedLayingRottingCorpse.label>
+	<ObservedLayingRottingCorpse.description>땅 위에서 썩어가는 시체를 보았습니다. 역겹고 불쾌하네요.</ObservedLayingRottingCorpse.description>
+
+	<WitnessedDeathAlly.label>아군 죽음 목격</WitnessedDeathAlly.label>
+	<WitnessedDeathAlly.description>아군의 죽음을 목격했습니다. 조금 전까지만 하더라도 살아 있었는데, 이제는 죽어 있네요.</WitnessedDeathAlly.description>
+	
+	<WitnessedDeathStranger.label>타인 죽음 목격</WitnessedDeathStranger.label>
+	<WitnessedDeathStranger.description>타인의 죽음을 목격했습니다. 조금 전까지만 하더라도 살아 있었는데, 이제는 죽어 있네요.</WitnessedDeathStranger.description>
+	
+	<WitnessedDeathStrangerBloodlust.label>타인 죽음 목격</WitnessedDeathStrangerBloodlust.label>
+	<WitnessedDeathStrangerBloodlust.description>나는 누군가의 죽음을 보았습니다! 강렬하네요!</WitnessedDeathStrangerBloodlust.description>
+	
+	<KilledHumanoidBloodlust.label>살인</KilledHumanoidBloodlust.label>
+	<KilledHumanoidBloodlust.description>내가 누군가를 죽였습니다! 정말 짜릿하네요!</KilledHumanoidBloodlust.description>
+	
+	<BattleWounded.label>부상</BattleWounded.label>
+	<BattleWounded.description>싸움에서 상처가 생겨 피를 흘렸습니다!!</BattleWounded.description>
+	
+	<!--
+	<ObservedGibbetCageEmpty.label>비어있는 교수대 목격</ObservedGibbetCageEmpty.label>
+	<ObservedGibbetCageEmpty.description>교수대가 너무 잔인해 보입니다.</ObservedGibbetCageEmpty.description>
+
+	<ObservedGibbetCageFullStranger.label>교수대 낮선 시체 목격</ObservedGibbetCageFullStranger.label>
+	<ObservedGibbetCageFullStranger.description>교수대에서 낮선 사람을 보았고 상당히 잔인하다는 느낌을 받았습니다.</ObservedGibbetCageFullStranger.description>
+
+	<ObservedGibbetCageFullColonist.label>교수대 주민 목격</ObservedGibbetCageFullColonist.label>
+	<ObservedGibbetCageFullColonist.description>몇일전 혹은 어제까지만 해도 같이 살던 나의 친구 또는 동료가 교수대에서 목격되었습니다. 이곳은 무서운 곳이라는 공포에 휩싸입니다.</ObservedGibbetCageFullColonist.description>
+	-->
+
+	<NewColonyOptimism.label>새로운 정착지 낙관론</NewColonyOptimism.label>
+	<NewColonyOptimism.description>저는 새로운 정착지를 얻은 것에 대해 기쁘게 생각합니다.</NewColonyOptimism.description>
+	
+	<NewColonyHope.label>새로운 정착지 희망</NewColonyHope.label>
+	<NewColonyHope.description>저는 새로운 정착지 생활에 익숙해져 가고는 있지만 계속 흥미로운 생활이라고 느껴지고 이 생활이 지속되길 바랍니다.</NewColonyHope.description>
+
+	<SleptOutside.label>야외 수면</SleptOutside.label>
+	<SleptOutside.description>저는 외부로부터 아무런 보호도 없이 잠을 잤습니다.</SleptOutside.description>
+	
+	<SleptOnGround.label>바닥 수면</SleptOnGround.label>
+	<SleptOnGround.description>저는 동물처럼 바닥에서 잠을 잤습니다.</SleptOnGround.description>
+
+	
+	<KnowPrisonerBeaten.label>죄수 구타 사건</KnowPrisonerBeaten.label>
+	<KnowPrisonerBeaten.description>죄수를 구타한 것에 대해서 공포감을 느낍니다.</KnowPrisonerBeaten.description>
+	
+	<KnowPrisonerSold.label>죄수 판매 사건</KnowPrisonerSold.label>
+	<KnowPrisonerSold.description>죄수를 노예처럼 판매한 것에 대해서 부정적인 생각을 하고있습니다.</KnowPrisonerSold.description>
+	
+	<KnowPrisonerExecuted.label>죄수 처형 사건</KnowPrisonerExecuted.label>
+	<KnowPrisonerExecuted.description>죄수를 처형하여 시민들이 공포감을 느낍니다.</KnowPrisonerExecuted.description>
+	
+	<JustImprisoned.label>감옥 수감</JustImprisoned.label>
+	<JustImprisoned.description>방금 막 감옥에 수감되엇습니다. 마음을 다잡고 이 일을 받아들이려고 노력하고 있습니다.</JustImprisoned.description>
+	
+	<PrisonerFriendlyChat.label>죄수 설득</PrisonerFriendlyChat.label>
+	<PrisonerFriendlyChat.description>죄수들에게 현재 정착지의 좋은면에 대해서 대화하였습니다. 기분이 좋아집니다.</PrisonerFriendlyChat.description>
+	
+	<PrisonerBeatenMild.label>죄수 폭행</PrisonerBeatenMild.label>
+	<PrisonerBeatenMild.description>죄수에게 폭력을 행사하여 기분이 좋지 않습니다.</PrisonerBeatenMild.description>
+	
+	<PrisonerBeatenVicious.label>죄수 심한 폭행</PrisonerBeatenVicious.label>
+	<PrisonerBeatenVicious.description>죄수를 잔인하게 폭행하여 기분이 좋지 않습니다.</PrisonerBeatenVicious.description>
+	
+	<SocialTalk.label>사회적인 대화</SocialTalk.label>
+	<SocialTalk.description>대화를 나눈 것을 좋아합니다.</SocialTalk.description>
+
+</LanguageData>
+

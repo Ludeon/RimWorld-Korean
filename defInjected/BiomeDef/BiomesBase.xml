@@ -1,8 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+	
+  <!-- ======== Unlandable biomes ==========-->
+  
+	<Ocean.label>바다</Ocean.label>
+	<Ocean.description>당신에게는 좋지 않지만, 물고기에게는 좋은 바다입니다.</Ocean.description>
+	
+	<IceSheet.label>빙상</IceSheet.label>
+	<IceSheet.description>이곳은 지표면은 그 두께가 몇 킬로미터까지 될 수 있는 빙상으로 덮여 있습니다. 토양이나 바위가 없기 때문에 식물이 자라지 않습니다. 이곳에서 볼 수 있는 유일한 동물은 어딘가로 이동하고 있거나 길을 잃은 것들뿐입니다.</IceSheet.description>	
+	
 
-    <XericShrubland.label>관목지대</XericShrubland.label>
-    <XericShrubland.description>생명체가 아주 없진 않은 건조한 사막. 미국 서부 혹은 호주 서부의 21세기초 모습과 비슷하다.</XericShrubland.description>
-  
-  
+  <!-- ======== Landable biomes ==========-->	
+
+	<AridShrubland.label>건조관목림</AridShrubland.label>
+	<AridShrubland.description>건조한 지역이지만 사막이 될 정도는 아닙니다. 잔디와 덤불로 덮여 있는 평원은 흩어져 있는 작은 숲으로 바뀝니다. 식물들은 튼튼하며 적당한 수의 동물들이 살고 있습니다.</AridShrubland.description>
+	
+	
+	<TemperateForest.label>온대림</TemperateForest.label>
+	<TemperateForest.description>비옥한 토양과 함께 낙엽수림이 주를 이루고 있는 살기 좋은 생물군계입니다. 많은 특별한 동물들이 나무 주변과 평원을 돌아다닙니다.</TemperateForest.description>
+	
+	
+	<Desert.label>사막</Desert.label>
+	<Desert.description>생명체가 살기 어려울 정도로 매우 건조하고 더운 지역입니다.</Desert.description>
+	
+	
+
+  <!-- ======== Landable biomes (not implemented) ==========-->
+	
+	<TropicalRainforest.label>열대우림</TropicalRainforest.label>
+	<TropicalRainforest.description>짙고 습한 정글입니다. 짙게 우거진 정글과 공격적인 야생 동물이 건설과 생존을 어렵게 합니다.</TropicalRainforest.description>
+	
+	<Tundra.label>툰드라</Tundra.label>
+	<Tundra.description>대부분이 얼어 붙은 이 땅에서는 나무와 식물이 거의 자라지 않습니다. 이곳에는 무리지어 다니는 작은 초식 동물들과 그들을 사냥하는 포식자가 살고 있습니다.</Tundra.description>
+	
+	<BorealForest.label>아한대림</BorealForest.label>
+	<BorealForest.description>북방의 침엽수림 지대입니다. 가혹한 겨울 날씨에도 불구하고 아한대림에는 크고 작은 다양한 동물들이 살고 있습니다.</BorealForest.description>
+	
+	
+	
+	
 </LanguageData>

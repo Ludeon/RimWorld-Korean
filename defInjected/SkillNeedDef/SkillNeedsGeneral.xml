@@ -1,55 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-  <!-- Cooking -->
-        <CookTime.description>조리 속도 {0}%</CookTime.description>
-
-
-  <!-- Production - butchery (flesh)-->
-        <ButcheryFleshTime.description>도축 속도 {0}%</ButcheryFleshTime.description>
-        <ButcheryFleshEfficiency.description>도축 효율 {0}%</ButcheryFleshEfficiency.description>
-
-  <!-- Production - butchery (mechanoid)-->
-        <ButcheryMechanoidTime.description>메카노이드 분해 속도 {0}%</ButcheryMechanoidTime.description>
-	      <ButcheryMechanoidEfficiency.description>메카노이드 분해 효율 {0}%</ButcheryMechanoidEfficiency.description>
-  
-   
-  
-  
-  <!-- Production - stonecutting -->
-        <StonecuttingTime.description>석재 가공 속도 {0}% </StonecuttingTime.description>
-        <StonecuttingEfficiency.description>석재 가공 효율 {0}%</StonecuttingEfficiency.description>
-
-  <!-- Production - slag extraction -->
-       	<SlagExtractTime.description>슬래그 정련 속도 {0}%</SlagExtractTime.description>
-	      <SlagExtractEfficiency.description>슬래그 정련 효율 {0}%</SlagExtractEfficiency.description>
-
-
-
-
-
-
-  <!-- Other -->
-
-
-        <MiningSpeed.description>채굴 속도 {0}%</MiningSpeed.description>
-
-        <ResearchSpeed.description>연구 속도 {0}%</ResearchSpeed.description>
-
-        <ConstructionSpeed.description>수리, 건설 및 제작 속도 {0}%</ConstructionSpeed.description>
-
-        <SowingHarvestingSpeed.description>식물 재배 및 수확 속도 {0}%</SowingHarvestingSpeed.description>
-
-        <SocialImpact.description>사회적 상호작용이 기분에 {0}% 영향</SocialImpact.description>
-  
-        <GiftImpact.description>선물 증정시 친선관계에 {0}% 영향</GiftImpact.description>
 	
-        <RecruitChance.description>수감자 설득 확률 {0}%</RecruitChance.description>
+	<CookTime.description>요리 속도 {0}%</CookTime.description>
 	
-        <TradePriceImprovement.description>무역시 거래 효율 증가 {0}% </TradePriceImprovement.description>
-       
-        <ShootingAccuracy.description>사격시 기본적으로 한칸당 빗 나갈 확률 증가 {0}%</ShootingAccuracy.description>
-
-        <MeleeHitChance.description>격투시 기본적으로 타격할 확률 {0}%</MeleeHitChance.description>
- 
+	<ButcheryFleshTime.description>도살 속도 {0}%</ButcheryFleshTime.description>
+	<ButcheryFleshEfficiency.description>도살 효율 {0}%</ButcheryFleshEfficiency.description>
+	
+	<ButcheryMechanoidTime.description>메카노이드 분해 속도 {0}%</ButcheryMechanoidTime.description>
+	<ButcheryMechanoidEfficiency.description>메카노이드 분해 효율 {0}%</ButcheryMechanoidEfficiency.description>
+	
+	<StonecuttingTime.description>돌 절단 속도 {0}% </StonecuttingTime.description>
+	<StonecuttingEfficiency.description>돌 절단 효율 {0}%</StonecuttingEfficiency.description>
+	
+	<SlagExtractTime.description>슬래그 제련 속도 {0}%</SlagExtractTime.description>
+	<SlagExtractEfficiency.description>슬래그 제련 효율 {0}%</SlagExtractEfficiency.description>
+	
+	<BaseHealingQuality.description>기본 치료 효율 증가 {0}%</BaseHealingQuality.description>
+	<HealingSpeed.description>치료 속도 {0}%</HealingSpeed.description>
+	
+	<MiningSpeed.description>채굴 속도 {0}%</MiningSpeed.description>
+	<ResearchSpeed.description>연구 속도 {0}%</ResearchSpeed.description>
+	
+	<ConstructionSpeed.description>수리, 건설 및 제작 속도 {0}%</ConstructionSpeed.description>
+	<SowingHarvestingSpeed.description>식물 재배 및 수확 속도 {0}%</SowingHarvestingSpeed.description>
+	
+	<SocialImpact.description>사회적 상호작용이 기분에 {0}% 영향</SocialImpact.description>
+	<GiftImpact.description>선물 증정시 친선관계에 {0}% 영향</GiftImpact.description>
+	
+	<RecruitChance.description>수감자 설득 확률 {0}%</RecruitChance.description>
+	<TradePriceImprovement.description>무역시 거래 효율 증가 {0}% </TradePriceImprovement.description>
+	
+	<ShootingAccuracy.description>사격시 기본적으로 한 칸당 빗나갈 확률 증가 {0}%</ShootingAccuracy.description>
+	<MeleeHitChance.description>격투시 기본적으로 타격할 확률 {0}%</MeleeHitChance.description>
+	
+	
+	
 </LanguageData>
