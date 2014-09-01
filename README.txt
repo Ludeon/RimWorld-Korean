@@ -13,7 +13,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 [Translators]
 
 
-Rimworld korea cafe :
+Rimworld korea community cafe :
 http://cafe.naver.com/indiss
 
 Alpha 3 (413) : Enoz, 고로쿠마, PlayGirl, DaDen, Walker
