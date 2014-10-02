@@ -6,7 +6,6 @@
 
 
 
-
   <AlertNeedStockpile>저장 공간이 부족합니다.</AlertNeedStockpile>
   <AlertNeedStockpileDesc>정착지 주민들은 어딘가에 아이템을 저장할 수 있는 공간이 필요합니다. 저장 지역을 지정해 주세요. '구상'메뉴의 '구역' 카테고리에서 왼쪽 아래에 있습니다.</AlertNeedStockpileDesc>
 
@@ -103,5 +102,13 @@
   <ColonistNeedsTreatment>치료가 필요한 주민이 있습니다.</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>주민을 치료해야 합니다. 상처 때문에 죽거나 영구적인 장애가 발생합니다.\n\n{0}\n의료 침대로 이송하여 치료하세요.\n\n(먼저 침대를 선택하여 의료 침대로 전환하고, 상처입은 주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)</ColonistNeedsTreatmentDesc>
 
+  <ColonistsAwaitingMedicalOperation>{0} 주민이 수술을 기다리고 있습니다.</ColonistsAwaitingMedicalOperation>
+  <ColonistsAwaitingMedicalOperationDesc>이 주민은 수술을 기다리고 있습니다.:\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 의사가 사용할 수 있도록 합니다. </ColonistsAwaitingMedicalOperationDesc>
+
+  <PawnsWithLifeThreateningDisease>심각한 질병</PawnsWithLifeThreateningDisease>
+  <PawnsWithLifeThreateningDiseaseDesc>이 주민은 심각한 질병으로 인해 사망의 위험이 있습니다.:\n\n{0}\n많은 의사들이 관심을 가지고 보살피게 합니다.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>이 주민은 심각한 질병으로 인해 사망의 위험이 있습니다.:\n\n{0}\n가능하다면, 절단을 하거나 주민의 생명 유지를 위해 감염된 사지를 교체하는 것이 좋습니다.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+
+  <!--<AlertAbsentMinded>{0} is lost in thought</AlertAbsentMinded>-->
 
 </LanguageData>
