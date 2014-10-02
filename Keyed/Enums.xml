@@ -26,18 +26,25 @@
   <Always>허용</Always>
   <Never>금지</Never>
   
-  <!-- pawn activity -->
-  <Consciousness>의식</Consciousness>
-  <Sight>시력</Sight>
-  <Hearing>청력</Hearing>
-  <Moving>이동</Moving>
-  <Working>작업</Working>
-  <Talking>이야기</Talking>
-  <Eating>식사</Eating>
-  <Breathing>호흡</Breathing>
-  <BloodFiltration>혈액여과</BloodFiltration>
-  <BloodPumping>혈액순환</BloodPumping>
-  <Metabolism>신진대사</Metabolism>
+  <!-- Price types -->
+  <PriceTypeVeryCheap>매우 저렴한</PriceTypeVeryCheap>
+  <PriceTypeCheap>저렴한</PriceTypeCheap>
+  <PriceTypeNormal>보통의</PriceTypeNormal>
+  <PriceTypeExpensive>비싼</PriceTypeExpensive>
+  <PriceTypeExorbitant>과도하게 비싼</PriceTypeExorbitant>
 
-
+  <!-- stat category -->
+  <StatCategory_General>일반</StatCategory_General>
+  <StatCategory_GeneralNonPawn>일반</StatCategory_GeneralNonPawn>
+  <StatCategory_Armor>갑옷</StatCategory_Armor>
+  <StatCategory_PawnPrimary>기본</StatCategory_PawnPrimary>
+  <StatCategory_PawnWork>작업</StatCategory_PawnWork>
+  <StatCategory_PawnCombat>전투</StatCategory_PawnCombat>
+  <StatCategory_PawnSocial>사회</StatCategory_PawnSocial>
+  <StatCategory_PawnMisc>기타</StatCategory_PawnMisc>
+  <StatCategory_Building>건축</StatCategory_Building>
+  
+  <EquippedStatOffsets>오프셋이 장착된 경우</EquippedStatOffsets>
+  <StuffOfEquipmentStatModifiers>장비가 만들어졌을때 수식어</StuffOfEquipmentStatModifiers>
+  
 </LanguageData>
