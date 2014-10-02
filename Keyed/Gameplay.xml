@@ -14,13 +14,18 @@
   <DeadTime>사망한지 {0}</DeadTime>
   <WalkSpeed>이동속도 {0}</WalkSpeed>
   <DyingLower>빈사상태</DyingLower>
-  <PawnEffectiveness>유효성</PawnEffectiveness>
-  <FilthOnFeet>발에 묻은 이물질:</FilthOnFeet>
-  <NotEnoughStoredLower>보유량이 충분하지 않습니다</NotEnoughStoredLower>
-  <NothingLower>없음</NothingLower>
-  <Adapted>개조됨</Adapted>
-  <Headshot>헤드샷</Headshot>
-  <FreshMissingBodyPart>신선함</FreshMissingBodyPart>
+  <FilthOnFeet>더러운 발:</FilthOnFeet>
+  <NotEnoughStoredLower>충분하게 저장되지 않은</NotEnoughStoredLower>
+  <NothingLower>아무것도 없는</NothingLower>
+  <Adapted>적합한</Adapted>
+  <Headshot>헤드 샷</Headshot>
+  <FreshMissingBodyPart>신선한</FreshMissingBodyPart>
+  <UntreatedLower>치료를 받지 않은</UntreatedLower>
+  <DevelopedImmunityLower>면역력이 생긴</DevelopedImmunityLower>
+  <InjuryRequiresTreatment>치료가 필요한</InjuryRequiresTreatment>
+  <NextTreatmentAfter>{0} 일 후에 다음 치료</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>면역력에 대한 진척</ImmunityDevelopmentProgress>
 
   <!-- Turrets -->
   <GunInstalled>장착됨</GunInstalled>
@@ -31,7 +36,9 @@
   <!-- Job reports -->
 	<ReportHaulingTo>{1}의 위치로 운반중 :{0}</ReportHaulingTo>
 	<ReportHauling>운반중: {0}</ReportHauling>
-
+  <ReportSleeping>자는중</ReportSleeping>
+  <ReportResting>휴식중</ReportResting>
+  
 	<!-- Shooting report -->
   <WeaponMissRadius>오차 범위</WeaponMissRadius>
 	<ShootReportSkill>능력</ShootReportSkill>
@@ -63,15 +70,8 @@
   <ThoughtFinishesExpiringIn>완료 예정: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>멘탈붕괴 한계점</MentalBreakThreshold>
 
-
-
-  <!--Effectiveness-->
-  <EffectivenessFull>활성화</EffectivenessFull>
-  <EffectivenessReduced>감소됨</EffectivenessReduced>
-  <EffectivenessImpaired>손상됨</EffectivenessImpaired>
-  <EffectivenessIncapacitated>행동 불능</EffectivenessIncapacitated>
-
-
+ 
+ 
   <!-- Pawn info readout -->
   <Health>체력</Health>
   <PawnMainDescWithFactionGendered>{2}의 {0} {1}</PawnMainDescWithFactionGendered>
@@ -95,6 +95,7 @@
   <Poor>나쁨</Poor>
   <Weakened>쇠약한</Weakened>
   <GoodCondition>좋음</GoodCondition>
+  <Enhanced>향상된</Enhanced>
   <SeriouslyImpaired>심각하게 손상</SeriouslyImpaired>
   <Impaired>장애인</Impaired>
   <SlightlyImpaired>약간 손상</SlightlyImpaired>
@@ -108,6 +109,7 @@
   <SelectNextInSquareTip>같은 영역에 있는 다른 대상을 선택합니다.\n\n단축키: {0}\n\n선택한 대상을 천천히 클릭하는 방법도 있습니다.</SelectNextInSquareTip>
   <DefInfoTip>이 것에 대한 정보를 볼 수 있습니다.</DefInfoTip>
   
+  
   <!-- ITab titles -->
   <TabBills>작업</TabBills>
   <TabGrowing>재배</TabGrowing>
@@ -117,6 +119,10 @@
   <TabThoughts>기분</TabThoughts>
   <TabStorage>보관</TabStorage>
   <TabHealth>상태</TabHealth>
+  <TabRace>레이스</TabRace>
+  <TabBasics>기본 사항</TabBasics>
+  <TabStats>통계</TabStats>
+
 
 	<!-- ITabs -->
 	<AddBill>작업 추가</AddBill>
@@ -141,30 +147,40 @@
 	<DropThing>내려놓기</DropThing>
 	<TotalModifiers>전체 수정</TotalModifiers>
 	<DamageAbsorption>피해 흡수</DamageAbsorption>
+     <DamageDeflection>피해 굴절</DamageDeflection>
 	<MoveSpeed>이동 속도</MoveSpeed>
 	<Efficiency>효율</Efficiency>
 	<MissingBodyPart>없어진</MissingBodyPart>
 	<DestroyedBodyPart>파괴</DestroyedBodyPart>
 	<ShatteredBodyPart>부서진</ShatteredBodyPart>
+     <RemovedBodyPart>제거된</RemovedBodyPart>
 	<Healthy>건강</Healthy>
 	<InPain>아픔</InPain>
 	<PainLevel>고통</PainLevel>
 	<Dead>죽음</Dead>
 	<Unconscious>의식없는</Unconscious>
 	<PainShock>쇼크</PainShock>
+	<Injured>Injured</Injured>
 	<NoInjuries>(부상자 없음)</NoInjuries>
 	<WholeBody>전신</WholeBody>
 	<RenameColonist>주민 이름 변경</RenameColonist>
 	<DataProcessing>데이터 처리</DataProcessing>
 	<Communication>통신</Communication>
+	<AffectsLower>영향</AffectsLower>
+	<BleedingRate>출혈 속도</BleedingRate>
+	<HealthOverview>개요</HealthOverview>
+	<MedicalOperationsShort>운영 ({0})</MedicalOperationsShort>
+	<MedicalOperationsMechanoidsShort>수정 ({0})</MedicalOperationsMechanoidsShort>
+	<MedicalOperations>의료 작업</MedicalOperations>
+	<Amputate>절단</Amputate>
+	<Harvest>수확</Harvest>
 
 	<!-- like 'Blood of John' -->
 	<OfLower>의</OfLower>
 
 	<!-- Power readout -->
 	<PowerNotConnected>전기가 연결되지 않았습니다.</PowerNotConnected>
-	<PowerConnectedRate>예비 전력: {0}W</PowerConnectedRate>
-	<PowerConnectedStored>충전 전력: {0}Wd</PowerConnectedStored>
+  <PowerConnectedRateStored>연결 속도/저장: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>소비 전력</PowerNeeded>
   <PowerOutput>전기 출력</PowerOutput>
   <PowerBatteryStored>충전량</PowerBatteryStored>
@@ -200,6 +216,7 @@
   <FullyGrownIn>{0} 이후 완전히 성장</FullyGrownIn>
   <ReadyToHarvest>수확할 수 있습니다.</ReadyToHarvest>
   <Mature>성숙</Mature>
+  <SeedLabel>{0} seed</SeedLabel>
   
   <!-- Zones -->
   <Zone>구역</Zone>
@@ -218,7 +235,7 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>지정한 구역들을 표시하거나 숨깁니다.</ZoneVisibilityToggleButton>
   <AutoHomeRegionToggleButton>새로운 구조물 주변에 자동으로 거주 구역을 설정합니다.</AutoHomeRegionToggleButton>
-
+  <CategorizedResourceReadoutToggleButton>리소스 읽기로 분류 모드를 전환합니다.</CategorizedResourceReadoutToggleButton>
 
   <!-- Fire -->
   <Fire>화재</Fire>
@@ -230,13 +247,17 @@
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>광역 전체가 특수한 영향을 받고 있습니다.</MapConditionsTip>
 
-  
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>당신은 이 건물에서 사용 할 수 있는 재료가 없습니다.</NoStuffsToBuildWith>
+
   
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>우주선 연장 구조물에 윗 부분이 마주 닿게 배치해야 합니다.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>호퍼를 필요로 하는 무언가의 옆에 배치해야 합니다.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>간헐천 위에만 배치해야 합니다.</MustPlaceOnSteamGeyser>
+  
+  
   
   <!-- Cryptosleep pod -->
   <PodContains>탑승객</PodContains>
@@ -247,6 +268,9 @@
   <ShipReportMissingPart>중요한 구성 요소가 누락 되었습니다</ShipReportMissingPart>
   <ShipReportNoFullPods>동면장치 중에 빈칸이 있습니다</ShipReportNoFullPods>
 
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>neurotrainer를 사용하여 배웁니다. {0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0} used {1} neurotrainer to go from level {2} to level {3}.</NeurotrainerUsed>
   
   
   <!-- Game over -->
