@@ -12,13 +12,13 @@
   <Credits>제작자</Credits>
   <QuitToMainMenu>초기화면으로 나가기</QuitToMainMenu>
   <QuitToOS>종료</QuitToOS>
-  <FictionPrimer>Fiction primer</FictionPrimer>
-  <LudeonBlog>Ludeon blog</LudeonBlog>
-  <Forums>Forums</Forums>
-  <OfficialWiki>Official wiki</OfficialWiki>
-  <TynansTwitter>Tynan's twitter</TynansTwitter>
-  <TynansDesignBook>Tynan's design book</TynansDesignBook>
-  <HelpTranslate>Help translate RimWorld</HelpTranslate>
+  <FictionPrimer>소설 프라이머</FictionPrimer>
+  <LudeonBlog>Ludeon 블로그</LudeonBlog>
+  <Forums>포럼</Forums>
+  <OfficialWiki>공식 위키</OfficialWiki>
+  <TynansTwitter>Tynan의 트위터</TynansTwitter>
+  <TynansDesignBook>Tynan의 디자인 북</TynansDesignBook>
+  <HelpTranslate>림월드 번역에 도움을 준 지원자 : Enoz, 고로쿠마, PlayGirl, DaDen, Walker, DDCCDD, 듀플러, 토끼티모, 인서대, 쿨쿨냠냠(http://cafe.naver.com/indiss)</HelpTranslate>
 
   <!--=========== Create/review world ================-->
   <ReviewWorld>월드 검토</ReviewWorld>
@@ -79,6 +79,7 @@
   <WorldRenderModeRainfall>강수량</WorldRenderModeRainfall>
   <WorldRenderModeBiomes>생물군계</WorldRenderModeBiomes>
   <BiomeNotImplemented>생물군계는 생성되지 않았습니다.</BiomeNotImplemented>
+  <BaseAlreadyThere>{0} 이미 그곳에 기반을 가지고 있습니다.</BaseAlreadyThere>
   <Biome>생물군계</Biome>
   <Terrain>지형</Terrain>
   <Elevation>고도</Elevation>
@@ -89,7 +90,7 @@
   <HasCoast1>동부 해안</HasCoast1>
   <HasCoast2>남부 해안</HasCoast2>
   <HasCoast3>서부 해안</HasCoast3>
-
+  <FactionBase>팩션 기반</FactionBase>
 
 
   <!--=========== Character chooser ==========-->
@@ -103,12 +104,14 @@
   <IncapableOf>결격 사항</IncapableOf>
   <Traits>특징</Traits>
   <TraitsDoNothing>'특징'은 아직 제대로 구현되지 않았으며 이후 버전에서 수정될 예정이므로 지금은 재미로만 읽어주시길 바랍니다.</TraitsDoNothing>
+  <PermanentMoodEffect>영구적인 기분 영향</PermanentMoodEffect>
   <Skills>능력</Skills>
   <NoneLower>해당사항 없음</NoneLower>
   <Adulthood>성년기</Adulthood>
   <Childhood>유년기</Childhood>
   <Male>남성,</Male>
   <Female>여성,</Female>
+  <Pain>통증</Pain>
   
   
   <!--=========== Misc ==========-->
