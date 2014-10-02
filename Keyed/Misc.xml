@@ -22,14 +22,23 @@
 	<MeatLabel>{0}의 고기</MeatLabel>
   <MeatDesc>{0}의 생고기.</MeatDesc>
 
+  <LeatherLabel>{0} 가죽</LeatherLabel>
+  <LeatherDesc>{0}의 피부로 만든 가죽 입니다.</LeatherDesc>
+
 	<CorpseLabel>{0}의 시체</CorpseLabel>
 	<CorpseDesc>{0}의 시체.</CorpseDesc>
+  <DeadLabel>{0} (죽은)</DeadLabel>
 
-
+  
 	<BlueprintLabelExtra> (계획중)</BlueprintLabelExtra>
   <FrameLabelExtra> (건설중)</FrameLabelExtra>
   
-  
+    <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+
+  <VariousLabel>(다양한)</VariousLabel>
+
   <!-- History events -->
   <ColonistDied>주민 사망</ColonistDied>
   
