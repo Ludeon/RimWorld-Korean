@@ -60,10 +60,12 @@
   
   
   <!-- placement of blueprints -->
+  <UnchosenStuff>선택되지 않은 재료 입니다.</UnchosenStuff>
   <TooCloseToMapEdge>맵의 가장 자리와 너무 가깝습니다.</TooCloseToMapEdge>
   <OutOfBounds>범위를 벗어났습니다.</OutOfBounds>
   <CannotPlaceInUndiscovered>탐색하지 않은 공간에 배치할 수 없습니다.</CannotPlaceInUndiscovered>
   <InteractionSpotBlocked>상호작용 위치가 차단 되었습니다.</InteractionSpotBlocked>
+  <InteractionSpotOutOfBounds>상호작용을 할 수 있는 지역이 벗어났습니다.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>상호작용 위치가 차단될 것입니다.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{1}에 의해 차단됩니다. ({0})</WouldBlockInteractionSpot>
   <TerrainIsAlready>이 곳은 이미 {0}입니다.</TerrainIsAlready>
@@ -72,6 +74,8 @@
   <TerrainCannotSupport>이 지형에서 할 수 없습니다.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>공간을 이미 사용중입니다.</SpaceAlreadyOccupied>
 
+  
+  
   <!-- placement of zones -->
   <ExpandOrCreateZone>{0}의 구역을 확장하거나 \n 새로운 {1} 생성</ExpandOrCreateZone>
   <CreateNewZone>새로운 {0} 생성</CreateNewZone>
