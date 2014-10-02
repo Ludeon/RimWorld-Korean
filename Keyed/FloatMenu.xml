@@ -24,7 +24,7 @@
 
 	<ForbiddenLower>금지됨</ForbiddenLower>
 	<SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
-  <PrisonerRoomLower>prisoner room</PrisonerRoomLower>
+  <PrisonerRoomLower>죄수의 방</PrisonerRoomLower>
 	<BurningLower>불타고 있음</BurningLower>
 	<NoEmptyPlaceLower>저장할 수 있는 빈공간이 없습니다.</NoEmptyPlaceLower>
 	<AlreadyFilledLower>이미 꽉 차 있습니다.</AlreadyFilledLower>
@@ -49,8 +49,10 @@
   <ReservedBy>해당 대상에게 예약됨: {0}.</ReservedBy>
   <IsReservedBy>{1}씨에게 예약되어 있습니다. ({0})</IsReservedBy>
 
+  <NoManipulationSkill>불가능</NoManipulationSkill>
 
   <Equip>착용: {0}</Equip>
+  <EquipWarningBrawler>(싸움을 하는 사람은 불행합니다.)</EquipWarningBrawler>
   <CannotEquip>착용할 수 없습니다. ({0})</CannotEquip>
   
   <Wear>착용: {0}</Wear>
