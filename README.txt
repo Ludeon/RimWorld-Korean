@@ -24,3 +24,5 @@ Alpha 5 (492) 2차 : GLONAX
 Alpha 6 (532) 1차 : DDCCDD
 Alpha 6 (532) 2차 : 토끼티모(ToTee)
 Alpha 6 (532) 3차 : 인서대, 쿨쿨냠냠
+
+Alpha 7 (581) 1차 : 토끼티모(ToTee)
