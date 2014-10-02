@@ -74,13 +74,15 @@
   <RecipeCannotHaveTargetCount>(이 제조법대로 얼마나 만들 수 있는가 알지 못하기 때문에 작업을 예약할 수 없습니다.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>허용된 재료</PermittedIngredients>
   <MinimumSkills>최소 요구 능력:</MinimumSkills>
+  <BillRequires>필요하다. {0} {1}</BillRequires>
+  <UsableIngredients>사용 할 수 있는 재료</UsableIngredients>
   <DoXTimes>설정한 횟수까지 작업</DoXTimes>
-  <DoUntilYouHaveX>목표 수량까지 계속작업</DoUntilYouHaveX>
+  <DoUntilYouHaveX>목표 수량까지 계속 작업</DoUntilYouHaveX>
   <DoForever>계속 작업</DoForever>
   <BillRepeatTargetCountShort>{0} 개를 유지</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>바닥에 내려놓기</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>저장소로 옮기기</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>가까운 저장소로 가지고 가다</BillStoreMode_NearestStockpileAnyPriority>
+  <BillStoreMode_NearestStockpileAnyPriority>가까운 저장소로 가지고 가기</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Def Card -->
   <Type>유형</Type>
@@ -114,17 +116,45 @@
   <MinFoodQuality>음식의 최소 품질</MinFoodQuality>
   <Diet>식성</Diet>
   <RecruitDifficulty>설득 난이도</RecruitDifficulty>
-  <BasePrice>기준 가격</BasePrice>
-  <Covers>Covers</Covers>
+  <baseMarketValue>기본 가격</baseMarketValue>
+  <Covers>보호</Covers>
+  <NaturalArmorCovers>타고난 갑옷 보호</NaturalArmorCovers>
+  <BodyPartEfficiency>신체의 효율성</BodyPartEfficiency>
   
   <!-- Trade -->
+  <DragToTrade>트레이드로 끌기</DragToTrade>
+  <BuyPriceDesc>구매하기 위해 가격을 지불 합니다.</BuyPriceDesc>
+  <SellPriceDesc>당신은 이 가격에 물건을 팝니다.</SellPriceDesc>
+  <PriceTypeDesc>이 아이템의 가격 {0}.</PriceTypeDesc>
+  <ColonyCount>많은 아이템에 대해서 거래 할 준비가 되어 있습니다.\n\n그들이 궤도에 들어왔을때, 야외에 있거나 무역 송수신기 근처에서만 아이템을 판매 할 수 있습니다. </ColonyCount>
+  <TraderCount>How many of this item the trader has to trade.</TraderCount>
+  <AcceptButton>수락</AcceptButton>
+  <ResetButton>초기화</ResetButton>
+  <CancelButton>취소</CancelButton>
   <YourTradeableSilver>거래에 사용 가능한 은: {0}</YourTradeableSilver>
 	<YourTradeableSilverTip>은을 이용하여 거래를 하려면 야외에 무역좌표 송수신기를 설치하고, 송수신기의 범위 안에서 거래에 사용될 은덩어리나 아이템들을 두어야 합니다.</YourTradeableSilverTip>
-
+  <TraderHasNoMore>상인은 더이상 가지고 있지 않습니다.</TraderHasNoMore>
+  <ColonyHasNoMore>더이상 판매 할 수 없습니다.</ColonyHasNoMore>
+  <TraderWillNotTrade>상인이 이 아이템을 거래하려고 하지 않습니다.</TraderWillNotTrade>
+  
   <!-- Comms -->
   <SocialSkillIs>사교 능력: {0}</SocialSkillIs>
 
-  <!--Other-->
+  <!-- Stats report -->
+  <StatsReport_BaseValue>기본 값</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>관련 특성</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>관련 장비</StatsReport_RelevantGear>
+  <StatsReport_Material>재료</StatsReport_Material>
+  <StatsReport_CharacterQuality>캐릭터 특성</StatsReport_CharacterQuality>
+  <StatsReport_Skills>스킬 요소</StatsReport_Skills>
+  <StatsReport_OtherStats>기타 통계 요소</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>건강 요소</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} 중요성</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>곡선 후 처리</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>최종 값</StatsReport_FinalValue>
+  
+  
+  <!--Research-->
   <ResearchFinished>연구 완료: {0}</ResearchFinished>
   <ResearchScreen>연구 화면</ResearchScreen>
   
