@@ -1,54 +1,64 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+	
+	<Cut.label>잘려죽음</Cut.label>		
+	<Cut.deathMessage>잘려 죽었습니다: {0}</Cut.deathMessage>
 	
 	<Crush.label>으스러짐</Crush.label>
 	<Crush.deathMessage>으스러져 죽었습니다: {0}</Crush.deathMessage>
 	
+	<Blunt.label>살해당함</Blunt.label>	
+	<Blunt.deathMessage>살해당했습니다: {0}</Blunt.deathMessage>
+	
 	<Stab.label>찔림</Stab.label>	
 	<Stab.deathMessage>찔려 죽었습니다: {0}</Stab.deathMessage>
 	
-	<Blunt.label>살해당함</Blunt.label>	
-	<Blunt.deathMessage>살해당했습니다: {0}</Blunt.deathMessage>
-
 	<Bullet.label>총살됨</Bullet.label>	
 	<Bullet.deathMessage>총살되었습니다: {0}</Bullet.deathMessage>
-
+	
 	<Arrow.label>화살맞음</Arrow.label>	
 	<Arrow.deathMessage>화살에 맞아 죽었습니다: {0}</Arrow.deathMessage>
-
+	
 	<Scratch.label>찢김</Scratch.label>	
 	<Scratch.deathMessage>찢겨 죽었습니다: {0}</Scratch.deathMessage>
-
+	
 	<Bite.label>물림</Bite.label>		
 	<Bite.deathMessage>물려 죽었습니다: {0}</Bite.deathMessage>
-
+	
 	<Bomb.label>폭사함</Bomb.label>		
 	<Bomb.deathMessage>폭사했습니다: {0}</Bomb.deathMessage>
-
+	
 	<Flame.label>불탐</Flame.label>		
 	<Flame.deathMessage>불에 타 죽었습니다 : {0}</Flame.deathMessage>
-
+	
+	<SurgicalCut.label>외과수술</SurgicalCut.label>
+	<SurgicalCut.deathMessage>수술 중 사망하였습니다 : {0}.</SurgicalCut.deathMessage>
+	
 	<Stun.label>기절함</Stun.label>		
 	<Stun.deathMessage>기절한 채 죽었습니다: {0}</Stun.deathMessage>
 	
-	<EMP.label>EMP</EMP.label>		
+	<EMP.label>EMP</EMP.label>
 	<EMP.deathMessage>EMP에 죽었습니다: {0}</EMP.deathMessage>
-
+	
 	<Bleeding.label>과다출혈</Bleeding.label>			
 	<Bleeding.deathMessage>과다출혈로 죽었습니다: {0}</Bleeding.deathMessage>
-
+	
 	<Suffocation.label>질식함</Suffocation.label>			
-    <Suffocation.deathMessage>질식해 죽었습니다: {0}</Suffocation.deathMessage>
+	<Suffocation.deathMessage>질식해 죽었습니다: {0}</Suffocation.deathMessage>
 	
 	<Starvation.label>굶어죽음</Starvation.label>			
 	<Starvation.deathMessage>굶어 죽었습니다: {0}</Starvation.deathMessage>
-
-	<Cut.label>잘려죽음</Cut.label>		
-	<Cut.deathMessage>잘려 죽었습니다: {0}</Cut.deathMessage>
-
+	
+  <!-- Healing local injury -->
 	<HealLocalInjury.label>현지의 부상을 치유</HealLocalInjury.label>	
+	
+  <!-- Healing global injury -->
 	<HealGlobalInjury.label>전지역의 부상을 치유</HealGlobalInjury.label>		
-	<RestoringBodyPart.label>신체 부분을 복원</RestoringBodyPart.label>		
+	
+  <!-- Restoring body part -->
+	<RestoringBodyPart.label>신체 복원</RestoringBodyPart.label>
+	
+  <!-- misc -->
 	<Breakdown.label>고장남</Breakdown.label>		
 	<Mining.label>제작함</Mining.label>		
 	<Rotting.label>부패함</Rotting.label>		

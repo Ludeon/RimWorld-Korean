@@ -1,56 +1,54 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<!--=============== Currency ====================-->
 
 	<Silver.label>은</Silver.label>
-	<Silver.description>가지고 있는다고 해서 딱히 쓸데는 없지만, 무역할 때 화폐로 사용됩니다.</Silver.description>
+	<Silver.description>이 금속은 주로 상품 통화로 사용됩니다. 또한 매력적인 장식을 만드는 데 사용될 수있습니다.</Silver.description>
 	
 	<Gold.label>금</Gold.label>
 	<Gold.description>대부분의 사람들에게 가장 매혹적인 금속으로, 인간의 끝없는 욕심으로 인해 사라져가고 있습니다. 이 부드러운 금속은 그 자체로도 사용을 할 수 있지만, 눈에 띄게 아름답고 매우 적습니다.</Gold.description>	
-
+	
 	<Metal.label>금속</Metal.label>
 	<Metal.description>구조물을 지을 수 있습니다.</Metal.description>
 	
 	<Plasteel.label>플라스틸</Plasteel.label>
 	<Plasteel.description>고급 스페이서 첨단 구조 재료. 플라스틸은 독특한 분자 구조로 인해 매우 강합니다.</Plasteel.description>	
 	
-	<Uranium.label>우라늄</Uranium.label>
-	<Uranium.description>원자로에 사용되는 자원입니다.</Uranium.description>		
-	
-	
 	<StoneBlocks.label>벽돌</StoneBlocks.label>
-	<StoneBlocks.description>구조물을 지을 수 있습니다.</StoneBlocks.description>
+	<StoneBlocks.description>단단한 돌 블록. 매우 강력하고 오래 지속, 대부분 간단한 구조물 건설에 유용합니다.</StoneBlocks.description>
+	<StoneBlocks.stuffProps.nameAsStuff>돌</StoneBlocks.stuffProps.nameAsStuff>
 	
 	<WoodLog.label>통나무</WoodLog.label>
-	<WoodLog.description>구조물을 지을 수 있습니다.</WoodLog.description>
+	<WoodLog.description>우거진 식물 또는 나무에서 구할 수 있으며 건물 구조, 무기, 심지어 간단한 보철에 유용합니다. 목재의 원료는 핀치 무기로 사용될 수있습니다.</WoodLog.description>
+	
+	<Uranium.label>우라늄</Uranium.label>
+	<Uranium.description>원자로에 사용되는 자원입니다.</Uranium.description>		
 	
 	<!--
 	<WoodPlank.label>널빤지</WoodPlank.label>
 	<WoodPlank.description>구조물을 지을 수 있습니다.</WoodPlank.description>
 	-->
 	
-
-    <!--=============== Pure stuffs: Fabric, leather, etc  ====================-->	
-
+	<!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
 	
 	<Cloth.label>옷감</Cloth.label>
 	<Cloth.description>유기 섬유로 짠 옷감</Cloth.description>
-
+	
 	<Synthread.label>신드레드</Synthread.label>
 	<Synthread.description>오리지날 옷감을 만들기 위해 설계된 스페이서 하이테크 합성 섬유. 그것은 부드럽고, 강하고, 빛이나며 충분히 절연됩니다.</Synthread.description>	
 	
 	<DevilstrandCloth.label>데빌스트랜드</DevilstrandCloth.label>
 	<DevilstrandCloth.description>아주 강한 원단은 데빌스트랜드 버섯에서 직접 추출하여 만듭니다.</DevilstrandCloth.description>	
-
+	
 	<Hyperweave.label>하이퍼위브</Hyperweave.label>
 	<Hyperweave.description>시트로 짠 첨단 나노 섬유. 다소 무거운 편이지만, 놀라울만큼 파괴가 어렵습니다.</Hyperweave.description>
-
-
-   <!--=============== Raw foods ====================-->
-
+	
+	
+	<!--=============== Raw foods ====================-->
 	
 	<RawPotatoes.label>감자</RawPotatoes.label>
-	<RawPotatoes.description>감자</RawPotatoes.description>
+	<RawPotatoes.description>감자.</RawPotatoes.description>
 	
 	<RawBerries.label>딸기</RawBerries.label>
 	<RawBerries.description>생으로 먹어도 맛있는 여러 종류의 딸기들입니다.</RawBerries.description>
@@ -59,14 +57,18 @@
 	<RawAgave.description>용설란의 열매입니다.</RawAgave.description>
 	
 	
-    <!--=============== Special ====================-->
-	
+    <!--=============== Manufactured ====================-->
 	
 	<Medicine.label>약</Medicine.label>
-    <Medicine.description>상처를 치료하기 위해서 사용합니다.</Medicine.description>	
+	<Medicine.description>상처를 치료하기 위해서 사용합니다.</Medicine.description>
 	
 	<Shells.label>포탄</Shells.label>
-    <Shells.description>대포에서 발사됩니다.</Shells.description>
+	<Shells.description>대포에서 발사됩니다.</Shells.description>
 	
+	<!--
+	<Missiles.label>미사일</Missiles.label>
+	<Missiles.description>미사일 런처에서 발사됩니다.</Missiles.description>
+	-->
 
+	
 </LanguageData>

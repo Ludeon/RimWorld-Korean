@@ -41,7 +41,7 @@
   
 	<!-- Shooting report -->
   <WeaponMissRadius>오차 범위</WeaponMissRadius>
-	<ShootReportSkill>능력</ShootReportSkill>
+	<ShootReportShooterAbility>능력</ShootReportShooterAbility>
 	<ShootReportWeapon>무기</ShootReportWeapon>
 	<Darkness>어두움</Darkness>
 	<TargetProne>대상의 성향</TargetProne>
@@ -70,8 +70,17 @@
   <ThoughtFinishesExpiringIn>완료 예정: {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>멘탈붕괴 한계점</MentalBreakThreshold>
 
- 
- 
+
+
+  <!--Effectiveness-->
+<!--
+  <EffectivenessFull>활성화</EffectivenessFull>
+  <EffectivenessReduced>감소됨</EffectivenessReduced>
+  <EffectivenessImpaired>손상됨</EffectivenessImpaired>
+  <EffectivenessIncapacitated>행동 불능</EffectivenessIncapacitated>
+-->
+
+
   <!-- Pawn info readout -->
   <Health>체력</Health>
   <PawnMainDescWithFactionGendered>{2}의 {0} {1}</PawnMainDescWithFactionGendered>
@@ -88,7 +97,7 @@
   <SanityGiveUpExit>Broken: 포기하고 떠남</SanityGiveUpExit>
   <SanityPanicFlee>Broken: 공황 상태에 빠짐</SanityPanicFlee>
   <SanityPsychotic>Broken: 미쳐 날뜀</SanityPsychotic>
-
+  
   <!-- Body and activities condition -->
   <None>없음</None>
   <VeryPoor>매우 나쁨</VeryPoor>
@@ -124,7 +133,7 @@
   <TabStats>통계</TabStats>
 
 
-	<!-- ITabs -->
+  <!-- ITabs -->
 	<AddBill>작업 추가</AddBill>
 	<RecipeRequiresSkills>해당 제조법은 능력이 {0} 이상의 주민이 다룰 수 있습니다. 정착지 주민중에서 아무도 능력이 되지 않으므로 제조할 수 없습니다.</RecipeRequiresSkills>
 	<BillConfig>설정</BillConfig>
@@ -147,13 +156,13 @@
 	<DropThing>내려놓기</DropThing>
 	<TotalModifiers>전체 수정</TotalModifiers>
 	<DamageAbsorption>피해 흡수</DamageAbsorption>
-     <DamageDeflection>피해 굴절</DamageDeflection>
+	<DamageDeflection>피해 굴절</DamageDeflection>
 	<MoveSpeed>이동 속도</MoveSpeed>
 	<Efficiency>효율</Efficiency>
 	<MissingBodyPart>없어진</MissingBodyPart>
 	<DestroyedBodyPart>파괴</DestroyedBodyPart>
 	<ShatteredBodyPart>부서진</ShatteredBodyPart>
-     <RemovedBodyPart>제거된</RemovedBodyPart>
+  <RemovedBodyPart>제거됨</RemovedBodyPart>
 	<Healthy>건강</Healthy>
 	<InPain>아픔</InPain>
 	<PainLevel>고통</PainLevel>
@@ -185,7 +194,7 @@
   <PowerOutput>전기 출력</PowerOutput>
   <PowerBatteryStored>충전량</PowerBatteryStored>
   <PowerBatteryEfficiency>충전 효율</PowerBatteryEfficiency>
-  
+
   
 	<!--Rotting-->
 	<RotStateFresh>신선함</RotStateFresh>
@@ -250,15 +259,14 @@
   <!-- Building placement -->
   <NoStuffsToBuildWith>당신은 이 건물에서 사용 할 수 있는 재료가 없습니다.</NoStuffsToBuildWith>
 
-  
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>우주선 연장 구조물에 윗 부분이 마주 닿게 배치해야 합니다.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>호퍼를 필요로 하는 무언가의 옆에 배치해야 합니다.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>간헐천 위에만 배치해야 합니다.</MustPlaceOnSteamGeyser>
-  
-  
-  
+
+
+
   <!-- Cryptosleep pod -->
   <PodContains>탑승객</PodContains>
 
@@ -269,8 +277,8 @@
   <ShipReportNoFullPods>동면장치 중에 빈칸이 있습니다</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  <UseNeurotrainer>neurotrainer를 사용하여 배웁니다. {0}</UseNeurotrainer>
-  <NeurotrainerUsed>{0} used {1} neurotrainer to go from level {2} to level {3}.</NeurotrainerUsed>
+  <UseNeurotrainer>뉴로트레이너를 사용하여 배웁니다. {0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0}이 {1} 뉴로트레이너를 사용하여 레벨이 증가합니다. : {2} -> {3}</NeurotrainerUsed>
   
   
   <!-- Game over -->

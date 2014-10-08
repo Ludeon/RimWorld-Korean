@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-  
 	<!--============================== Beds ==============================-->
-  
   
 	<SleepingSpot.label>수면구역</SleepingSpot.label>
 	<SleepingSpot.description>바닥에 수면구역을 지정합니다. 편안하지 않기 때문에 휴식 효율이 70%밖에 되지 않습니다.</SleepingSpot.description>
@@ -14,27 +12,24 @@
 	<RoyalBed.label>로열 침대</RoyalBed.label>
 	<RoyalBed.description>누구에게나 넉넉한 공간을 제공하는, 호화로운 침대입니다.</RoyalBed.description>
 	
-	<HospitalBed.label>병원 침대</HospitalBed.label>
-	<HospitalBed.description>부상당한 사람을 위한 특별한 침대로, 성공적으로 회복할 가능성을 높여줍니다.</HospitalBed.description>
+	<HospitalBed.label>hospital bed</HospitalBed.label>
+	<HospitalBed.description>A bed specially designed for injured people. Improves chance of successful medical work.</HospitalBed.description>
 
-	
 	<!--======================= Basic domestic furniture ==============================-->
 
-	
 	<Stool.label>의자</Stool.label>
 	<Stool.description>앉을 수 있는 의자입니다.</Stool.description>
 	
+	<!-- Table base -->
 	
-  <!-- Table base -->
+	<TableShort.label>작은 식탁</TableShort.label>
+	<TableShort.description>식탁에서 식사를 하려면 의자가 식탁 방향에 맞게 배치되어야 합니다.</TableShort.description>
 	
-	
-	<TableShort.label>짧은 식탁</TableShort.label>
-	
-	<TableLong.label>긴 식탁</TableLong.label>
+	<TableLong.label>큰 식탁</TableLong.label>
+	<TableLong.description>식탁에서 식사를 하려면 의자가 식탁 방향에 맞게 배치되어야 합니다.</TableLong.description>
 	
 	
 	<!-- ======================== Lighting ======================= -->
-	
 	
 	<StandingLamp.label>스탠딩 램프</StandingLamp.label>
 	<StandingLamp.description>주변을 밝게 비춰주는 일반적인 전등입니다.</StandingLamp.description>
@@ -48,12 +43,9 @@
 	<StandingLamp_Blue.label>스탠딩 램프 (파랑)</StandingLamp_Blue.label>
 	<StandingLamp_Blue.description>주변을 밝게 비춰주는 파란색 전등입니다.</StandingLamp_Blue.description>
 	
-	
 	<!--============================== Storage ==============================-->
-	
 	
 	<EquipmentRack.label>무기고</EquipmentRack.label>
 	<EquipmentRack.description>착용할 수 있는 무기들을 보관합니다.</EquipmentRack.description>
-
 	
 </LanguageData>
