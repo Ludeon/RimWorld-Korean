@@ -1,53 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 	
-	<Cut.label>잘려죽음</Cut.label>		
-	<Cut.deathMessage>잘려 죽었습니다: {0}</Cut.deathMessage>
+	<Cut.label>잘림</Cut.label>
+	<Cut.deathMessage>{0}이(가) 잘려 죽었습니다.</Cut.deathMessage>
 	
 	<Crush.label>으스러짐</Crush.label>
-	<Crush.deathMessage>으스러져 죽었습니다: {0}</Crush.deathMessage>
+	<Crush.deathMessage>{0}이(가) 으스러져 죽었습니다.</Crush.deathMessage>
 	
-	<Blunt.label>살해당함</Blunt.label>	
-	<Blunt.deathMessage>살해당했습니다: {0}</Blunt.deathMessage>
+	<Blunt.label>맞음</Blunt.label>
+	<Blunt.deathMessage>{0}이(가) 맞아 죽었습니다.</Blunt.deathMessage>
 	
 	<Stab.label>찔림</Stab.label>	
-	<Stab.deathMessage>찔려 죽었습니다: {0}</Stab.deathMessage>
+	<Stab.deathMessage>{0}이(가) 찔려 죽었습니다.</Stab.deathMessage>
 	
-	<Bullet.label>총살됨</Bullet.label>	
-	<Bullet.deathMessage>총살되었습니다: {0}</Bullet.deathMessage>
+	<Bullet.label>총상</Bullet.label>
+	<Bullet.deathMessage>{0}이(가) 총에 맞아 죽었습니다.</Bullet.deathMessage>
 	
-	<Arrow.label>화살맞음</Arrow.label>	
-	<Arrow.deathMessage>화살에 맞아 죽었습니다: {0}</Arrow.deathMessage>
+	<Arrow.label>화살</Arrow.label>
+	<Arrow.deathMessage>{0}이(가) 화살에 맞아 죽었습니다.</Arrow.deathMessage>
 	
 	<Scratch.label>찢김</Scratch.label>	
-	<Scratch.deathMessage>찢겨 죽었습니다: {0}</Scratch.deathMessage>
+	<Scratch.deathMessage>{0}이(가) 찢겨 죽었습니다.</Scratch.deathMessage>
 	
 	<Bite.label>물림</Bite.label>		
-	<Bite.deathMessage>물려 죽었습니다: {0}</Bite.deathMessage>
+	<Bite.deathMessage>{0}이(가) 물려 죽었습니다.</Bite.deathMessage>
 	
-	<Bomb.label>폭사함</Bomb.label>		
-	<Bomb.deathMessage>폭사했습니다: {0}</Bomb.deathMessage>
+	<Bomb.label>폭발</Bomb.label>
+	<Bomb.deathMessage>{0}이(가) 폭사했습니다.</Bomb.deathMessage>
 	
-	<Flame.label>불탐</Flame.label>		
-	<Flame.deathMessage>불에 타 죽었습니다 : {0}</Flame.deathMessage>
+	<Flame.label>화염</Flame.label>
+	<Flame.deathMessage>{0}이(가) 불에 타 죽었습니다.</Flame.deathMessage>
 	
-	<SurgicalCut.label>외과수술</SurgicalCut.label>
-	<SurgicalCut.deathMessage>수술 중 사망하였습니다 : {0}.</SurgicalCut.deathMessage>
+	<SurgicalCut.label>외과적 손상</SurgicalCut.label>
+	<SurgicalCut.deathMessage>{0}이(가) 수술 중 사망하였습니다.</SurgicalCut.deathMessage>
+
+	<Frostbite.label>동상</Frostbite.label>
+	<Frostbite.deathMessage>{0}이(가) 동상에 무릎 꿇었습니다.</Frostbite.deathMessage>
 	
 	<Stun.label>기절함</Stun.label>		
-	<Stun.deathMessage>기절한 채 죽었습니다: {0}</Stun.deathMessage>
+	<Stun.deathMessage>{0}이(가) 기절하여 죽었습니다.</Stun.deathMessage>
 	
 	<EMP.label>EMP</EMP.label>
-	<EMP.deathMessage>EMP에 죽었습니다: {0}</EMP.deathMessage>
+	<EMP.deathMessage>{0}이(가) EMP에 죽었습니다.</EMP.deathMessage>
 	
 	<Bleeding.label>과다출혈</Bleeding.label>			
-	<Bleeding.deathMessage>과다출혈로 죽었습니다: {0}</Bleeding.deathMessage>
+	<Bleeding.deathMessage>{0}이(가) 과다출혈로 죽었습니다.</Bleeding.deathMessage>
 	
 	<Suffocation.label>질식함</Suffocation.label>			
-	<Suffocation.deathMessage>질식해 죽었습니다: {0}</Suffocation.deathMessage>
+	<Suffocation.deathMessage>{0}이(가) 질식해 죽었습니다.</Suffocation.deathMessage>
 	
-	<Starvation.label>굶어죽음</Starvation.label>			
-	<Starvation.deathMessage>굶어 죽었습니다: {0}</Starvation.deathMessage>
+	<Starvation.label>굶어죽음</Starvation.label>
+	<Starvation.deathMessage>{0}이(가) 굶어 죽었습니다.</Starvation.deathMessage>
+
+	<Hypothermia.label>저체온증</Hypothermia.label>
+	<Hypothermia.deathMessage>{0}이(가) 저체온증에 무릎 꿇었습니다.</Hypothermia.deathMessage>
 	
   <!-- Healing local injury -->
 	<HealLocalInjury.label>현지의 부상을 치유</HealLocalInjury.label>	
@@ -59,10 +66,10 @@
 	<RestoringBodyPart.label>신체 복원</RestoringBodyPart.label>
 	
   <!-- misc -->
-	<Breakdown.label>고장남</Breakdown.label>		
-	<Mining.label>제작함</Mining.label>		
-	<Rotting.label>부패함</Rotting.label>		
-	<Extinguish.label>불을끔</Extinguish.label>			
+	<Breakdown.label>망가짐</Breakdown.label>
+	<Mining.label>채굴중</Mining.label>
+	<Rotting.label>부패중</Rotting.label>
+	<Extinguish.label>화재 진압중</Extinguish.label>
 	
 	
 </LanguageData>

@@ -1,131 +1,159 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
 <LanguageData>
 
 
+	<Confirm>확인</Confirm>
+	<GoBack>뒤로</GoBack>
+	<OK>확인</OK>
 
-  <Confirm>승인</Confirm>
-  <GoBack>뒤로</GoBack>
-  <OK>확인</OK>
+	<!-- Save/load -->
+	<SaveGameButton>저장</SaveGameButton>
+	<OverwriteButton>덮어쓰기</OverwriteButton>
+	<LoadGameButton>불러오기</LoadGameButton>
+	<ConfirmDelete>정말 {0} 파일을 삭제하시겠습니까?</ConfirmDelete>
+	<DeleteThisSavegame>저장된 게임을 삭제합니다.</DeleteThisSavegame>
+	<SavedAs>진행 사항이 {0} 파일에 저장되었습니다.</SavedAs>
+	<NeedAName>저장될 파일의 이름을 입력해 주세요.</NeedAName>
+	<LoadingLongEvent>불러오는 중...</LoadingLongEvent>
 
-  <!-- Save/load -->
-  <SaveGameButton>저장</SaveGameButton>
-  <OverwriteButton>덮어쓰기</OverwriteButton>
-  <LoadGameButton>불러오기</LoadGameButton>
-  <ConfirmDelete>정말 {0} 파일을 삭제하시겠습니까?</ConfirmDelete>
-  <DeleteThisSavegame>저장된 게임을 삭제합니다.</DeleteThisSavegame>
-  <SavedAs>진행 사항이 {0} 파일에 저장되었습니다.</SavedAs>
-  <NeedAName>저장될 파일의 이름을 입력해 주세요.</NeedAName>
-  <LoadingLongEvent>불러오는 중...</LoadingLongEvent>
-  <!-- Colony naming-->
-  <NameColonyMessage>모두가 알다시피 당신은 이런 돌 덩어리에서 오래 머물고 싶지 않습니다. 하지만 어찌 됐건 정착지의 이름을 정하자는 {0}의 제안이 들어왔습니다.\n\n무엇으로 부르면 좋을까요?</NameColonyMessage>
-  <ColonyGainsName>이제부터 정착지는 {0}의 이름으로 알려집니다.</ColonyGainsName>
-  <ColonyNameIsInvalid>이름이 유효하지 않습니다.</ColonyNameIsInvalid>
-  <!-- Zone naming -->
-  <ZoneGainsName>그 공간의 이름은 이제 {0}입니다.</ZoneGainsName>
-  <ZoneNameIsInvalid>이름이 유효하지 않습니다.</ZoneNameIsInvalid>
-  <!-- Pawn naming -->
-  <PawnGainsName>그 주민의 별명은 이제 {0}입니다.</PawnGainsName>
-  <!-- Save game incompatible warning -->
-  <SaveGameIncompatibleWarningText>버전이 일치하지 않음: 해당 맵은 {0}버전에서 생성되었으며 현재 {1}버전을 사용중입니다.\n\n해당 파일을 불러오게 될 경우 호환성에 문제가 발생 할 수 있습니다.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>호환성이 맞지 않아 저장할 수 없습니다.</SaveGameIncompatibleWarningTitle>
-  <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>변경한 해상도가 정상적으로 표시 되고 있습니까?\n\n{0}초 후에 이전 해상도로 되돌아 갑니다.</ConfirmResolutionChange>
-  <ResolutionKeep>변경한 설정 유지</ResolutionKeep>
-  <ResolutionRevert>되돌리기</ResolutionRevert>
-  <!-- Overview -->
-  <OverviewOf>{0} 보고서</OverviewOf>
-  <!-- Research -->
-  <Research>연구</Research>
-  <Researched>연구됨</Researched>
-  <Unresearched>연구되지 않음</Unresearched>
-  <Finished>연구 완료</Finished>
-  <InProgress>연구중</InProgress>
-  <ResearchMenuWithoutBench>연구 작업대를 건설하기 전까지 정착지 주민들은 연구 활동을 할 수 없습니다. 그러나 연구 목록들을 미리 보고 연구를 예약하는 것은 가능합니다.</ResearchMenuWithoutBench>
-  <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>경고: 당신은 얼어붙은 환경에 착륙하게 될 것이며, 생존하기 매우 힘들것입니다. 만약 당신이 극도로 어려운 도전을 하고 싶지 않다면 다른 지역 또는 날짜를 선택하세요.</MapTemperatureDangerWarning>
+	<!-- Colony naming-->
+	<NameColonyMessage>모두가 알다시피 당신은 이런 돌 덩어리에서 오래 머물고 싶지 않습니다. 하지만 어찌 됐건 정착지의 이름을 정하자는 {0}의 제안이 들어왔습니다.\n\n무엇으로 부르면
+		좋을까요?
+	</NameColonyMessage>
 
-  <MapSizePerformanceWarning>경고:맵의 규모가 넓어질수록 게임의 품질이 저하될 것입니다.\n\n터무니 없는 크기는 아직 검증되지 않았으며 대부분 잘 진행되지 않을 것입니다.</MapSizePerformanceWarning>
-  <MapSize>맵의 규모</MapSize>
-  <MapSizeDesc>{0}x{0} ({1}칸)</MapSizeDesc>
-  <MapSizeSmall>소형</MapSizeSmall>
-  <MapSizeMedium>중형</MapSizeMedium>
-  <MapSizeLarge>대형</MapSizeLarge>
-  <MapSizeExtreme>터무니 없음</MapSizeExtreme>
-  <!-- Bill config -->
-  <Suspended>일시 정지</Suspended>
-  <NotSuspended>작업 진행중</NotSuspended>
-  <SuspendedAllCaps>일시 정지</SuspendedAllCaps>
-  <RepeatCount>{0}번 반복</RepeatCount>
-  <Forever>계속</Forever>
-  <IngredientSearchRadius>재료 탐색 범위</IngredientSearchRadius>
-  <TargetCount>{0}개까지 반복 작업</TargetCount>
-  <Infinite>무한</Infinite>
-  <RecipeCannotHaveTargetCount>(이 제조법은 여러 혹은 예측 불가능한 결과로 인해 목표 작업 수를 지정할 수 없습니다.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>허용된 재료</PermittedIngredients>
-  <MinimumSkills>최소 요구 능력:</MinimumSkills>
-  <BillRequires>{0} {1} 필요</BillRequires>
-  <BillRequiresMayVary>(요구량은 금, 은과 같은 비표준 요구량을 지닌 재료에 대해서는 바뀔 수 있습니다.)</BillRequiresMayVary>
-  <UsableIngredients>사용 할 수 있는 재료</UsableIngredients>
-  <DoXTimes>설정한 횟수까지 작업</DoXTimes>
-  <DoUntilYouHaveX>목표 수량까지 계속작업</DoUntilYouHaveX>
-  <DoForever>계속 작업</DoForever>
-  <BillRepeatTargetCountShort>{0}개 유지</BillRepeatTargetCountShort>
-  <BillStoreMode_DropOnFloor>바닥에 내려놓기</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>저장소로 옮기기</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>가까운 저장소로 가지고 가기</BillStoreMode_NearestStockpileAnyPriority>
-  <!-- Def Card -->
-  <Damage>피해량</Damage>
-  <Accuracy>정확도</Accuracy>
-  <BurstShotCount>연발 횟수</BurstShotCount>
-  <WarmupTime>조준 시간</WarmupTime>
-  <CooldownTime>대기 시간</CooldownTime>
-  <BurstShotFireRate>발사 속도</BurstShotFireRate>
-  <Range>사거리</Range>
-  <GrowsWild>야생에서 자람</GrowsWild>
-  <Harvestable>수확 가능</Harvestable>
-  <LimitedLifespan>수명 짧음</LimitedLifespan>
-  <GrowingTime>성장에 필요한 기간</GrowingTime>
-  <Days>일</Days>
-  <FertilityRequirement>토질 조건</FertilityRequirement>
-  <LightRequirement>조명 조건</LightRequirement>
-  <Attributes>속성</Attributes>
-  <LifeSpan>수명</LifeSpan>
-  <Nutrition>영양가</Nutrition>
-  <FoodQuality>음식의 품질</FoodQuality>
-  <WalkSpeedProperty>이동 속도</WalkSpeedProperty>
-  <MeleeDamage>근접 피해량</MeleeDamage>
-  <MeatAmount>고기의 양</MeatAmount>
-  <MinFoodQuality>음식의 최소 품질</MinFoodQuality>
-  <Diet>식성</Diet>
-  <RecruitDifficulty>설득 난이도</RecruitDifficulty>
-  <MarketValue>시장 가격</MarketValue>
-  <Covers>보호</Covers>
-  <BodyPartEfficiency>신체의 효율성</BodyPartEfficiency>
-  <!-- Trade -->
-  <DragToTrade>드래그해서 거래</DragToTrade>
-  <BuyPriceDesc>구매하기 위해 지불해야 할 가격.</BuyPriceDesc>
-  <SellPriceDesc>판매하여 받는 대금.</SellPriceDesc>
-  <PriceTypeDesc>이 아이템에 대해서 이 가격은 {0}.</PriceTypeDesc>
-  <ColonyCount>정착지가 지닌 거래 가능한 수량.\n\n판매하기 위해서는 아이템이 실외에 있어야 하며 궤도 송신기 근처에 있어야 합니다.</ColonyCount>
-  <TraderCount>상인이 지닌 수량.</TraderCount>
-  <AcceptButton>수락</AcceptButton>
-  <ResetButton>초기화</ResetButton>
-  <CancelButton>취소</CancelButton>
-  <YourTradeableSilver>거래에 사용 가능한 은: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>은을 이용하여 거래를 하려면 야외에 궤도 송신기를 설치하고, 송신기의 범위 안에서 거래에 사용될 은이나 아이템들을 두어야 합니다.</YourTradeableSilverTip>
-  <TraderHasNoMore>상인이 더 가지고 있지 않습니다.</TraderHasNoMore>
-  <ColonyHasNoMore>더 판매할 수 없습니다.</ColonyHasNoMore>
-  <TraderWillNotTrade>상인이 이 아이템을 거래하려 하지 않습니다.</TraderWillNotTrade>
-  <!-- Comms -->
-  <SocialSkillIs>사교 능력: {0}</SocialSkillIs>
-  <!--Research-->
-  <ResearchFinished>연구 완료: {0}</ResearchFinished>
-  <ResearchScreen>연구 화면</ResearchScreen>
-  <!--HistoryUpload-->
-  <HistoryUploadMessage>유저들의 게임 이용 정보는 게임 개발에 도움이 됩니다. 만약 동의 하신다면, 인게임 시간으로 {0} 일마다 (또는 게임 종료 같이 특별한 경우) 게임 이용 정보가 RimWorld 서버로 전송되어 분석됩니다. 전송되는 정보는 게임을 이용하면서 발생되는 진행정보와 통계자료뿐이며 본 게임의 환경설정에 지정된 사용자 이름 이외의 개인정보는 수집되지 않습니다. 따라서 완벽하게 익명으로 전송됩니다</HistoryUploadMessage>
-  <HistoryUploadMessagePlayerName>정보가 익명으로 처리가 된다고 하더라도, 사용자 이름에 실명을 적으실 수 있습니다.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>이용 정보 전송 허용</HistoryUploadYes>
-  <HistoryUploadNo>이용 정보 전송 금지</HistoryUploadNo>
-  <HistoryUploadYesOnce>이번만 전송</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>나중에</HistoryUploadNoOnce>
+	<ColonyGainsName>이제부터 정착지는 {0}의 이름으로 알려집니다.</ColonyGainsName>
+	<ColonyNameIsInvalid>이름이 유효하지 않습니다.</ColonyNameIsInvalid>
+
+	<!-- Zone naming -->
+	<ZoneGainsName>그 공간의 이름은 이제 {0}입니다.</ZoneGainsName>
+	<ZoneNameIsInvalid>이름이 유효하지 않습니다.</ZoneNameIsInvalid>
+
+	<!-- Pawn naming -->
+	<PawnGainsName>그 주민의 별명은 이제 {0}입니다.</PawnGainsName>
+
+	<!-- Save game incompatible warning -->
+	<SaveGameIncompatibleWarningText>버전이 일치하지 않음: 해당 맵은 {0}버전에서 생성되었으며 현재 {1}버전을 사용중입니다.\n\n해당 파일을 불러오게 될 경우 호환성에 문제가 발생
+		할 수 있습니다.
+	</SaveGameIncompatibleWarningText>
+	<SaveGameIncompatibleWarningTitle>호환성이 맞지 않아 저장할 수 없습니다.</SaveGameIncompatibleWarningTitle>
+
+	<!-- Resolution change dialog -->
+	<ConfirmResolutionChange>변경한 해상도가 정상적으로 표시 되고 있습니까?\n\n{0}초 후에 이전 해상도로 되돌아 갑니다.</ConfirmResolutionChange>
+	<ResolutionKeep>변경한 설정 유지</ResolutionKeep>
+	<ResolutionRevert>되돌리기</ResolutionRevert>
+
+	<!-- Overview -->
+	<OverviewOf>{0} 보고서</OverviewOf>
+
+	<!-- Research -->
+	<Research>연구</Research>
+	<Researched>연구됨</Researched>
+	<Unresearched>연구되지 않음</Unresearched>
+	<Finished>연구 완료</Finished>
+	<InProgress>연구중</InProgress>
+	<ResearchMenuWithoutBench>연구 작업대를 건설하기 전까지 정착지 주민들은 연구 활동을 할 수 없습니다. 그러나 연구 목록들을 미리 보고 연구를 예약하는 것은 가능합니다.
+	</ResearchMenuWithoutBench>
+
+	<!-- Advanced game start options -->
+	<MapTemperatureDangerWarning>경고: 당신은 얼어붙은 환경에 착륙하게 될 것이며, 생존하기 매우 힘들것입니다. 만약 당신이 극도로 어려운 도전을 하고 싶지 않다면 다른 지역 또는 날짜를
+		선택하세요.
+	</MapTemperatureDangerWarning>
+
+	<MapSizePerformanceWarning>경고:맵의 규모가 넓어질수록 게임의 품질이 저하될 것입니다.\n\n터무니 없는 크기는 아직 검증되지 않았으며 대부분 잘 진행되지 않을 것입니다.
+	</MapSizePerformanceWarning>
+	<MapSize>맵의 규모</MapSize>
+	<MapSizeDesc>{0}x{0} ({1}칸)</MapSizeDesc>
+	<MapSizeSmall>소형</MapSizeSmall>
+	<MapSizeMedium>중형</MapSizeMedium>
+	<MapSizeLarge>대형</MapSizeLarge>
+	<MapSizeExtreme>터무니 없음</MapSizeExtreme>
+
+	<!-- Bill config -->
+	<Suspended>일시 정지</Suspended>
+	<NotSuspended>작업 진행중</NotSuspended>
+	<SuspendedAllCaps>일시 정지</SuspendedAllCaps>
+	<RepeatCount>{0}번 반복</RepeatCount>
+	<Forever>계속</Forever>
+	<IngredientSearchRadius>재료 탐색 범위</IngredientSearchRadius>
+	<TargetCount>{0}개까지 반복 작업</TargetCount>
+	<Infinite>무한</Infinite>
+	<RecipeCannotHaveTargetCount>(이 제조법은 여러 혹은 예측 불가능한 결과로 인해 목표 작업 수를 지정할 수 없습니다.)</RecipeCannotHaveTargetCount>
+	<PermittedIngredients>허용된 재료</PermittedIngredients>
+	<MinimumSkills>최소 요구 능력:</MinimumSkills>
+	<BillRequires>{0} {1} 필요</BillRequires>
+	<BillRequiresMayVary>(요구량은 금, 은과 같은 비표준 요구량을 지닌 재료에 대해서는 바뀔 수 있습니다.)</BillRequiresMayVary>
+	<UsableIngredients>사용 할 수 있는 재료</UsableIngredients>
+	<DoXTimes>설정한 횟수까지 작업</DoXTimes>
+	<DoUntilYouHaveX>목표 수량까지 계속작업</DoUntilYouHaveX>
+	<DoForever>계속 작업</DoForever>
+	<BillRepeatTargetCountShort>{0}개 유지</BillRepeatTargetCountShort>
+	<BillStoreMode_DropOnFloor>바닥에 내려놓기</BillStoreMode_DropOnFloor>
+	<BillStoreMode_BestStockpile>저장소로 옮기기</BillStoreMode_BestStockpile>
+	<BillStoreMode_NearestStockpileAnyPriority>가까운 저장소로 가지고 가기</BillStoreMode_NearestStockpileAnyPriority>
+
+	<!-- Def Card -->
+	<Damage>피해량</Damage>
+	<Accuracy>정확도</Accuracy>
+	<BurstShotCount>연발 횟수</BurstShotCount>
+	<WarmupTime>조준 시간</WarmupTime>
+	<CooldownTime>대기 시간</CooldownTime>
+	<BurstShotFireRate>발사 속도</BurstShotFireRate>
+	<Range>사거리</Range>
+	<GrowsWild>야생에서 자람</GrowsWild>
+	<Harvestable>수확 가능</Harvestable>
+	<LimitedLifespan>수명 짧음</LimitedLifespan>
+	<GrowingTime>성장에 필요한 기간</GrowingTime>
+	<Days>일</Days>
+	<FertilityRequirement>토질 조건</FertilityRequirement>
+	<LightRequirement>조명 조건</LightRequirement>
+	<Attributes>속성</Attributes>
+	<LifeSpan>수명</LifeSpan>
+	<Nutrition>영양가</Nutrition>
+	<FoodQuality>음식의 품질</FoodQuality>
+	<WalkSpeedProperty>이동 속도</WalkSpeedProperty>
+	<MeleeDamage>근접 피해량</MeleeDamage>
+	<MeatAmount>고기의 양</MeatAmount>
+	<MinFoodQuality>음식의 최소 품질</MinFoodQuality>
+	<Diet>식성</Diet>
+	<RecruitDifficulty>설득 난이도</RecruitDifficulty>
+	<MarketValue>시장 가격</MarketValue>
+	<Covers>보호</Covers>
+	<BodyPartEfficiency>신체 효율성</BodyPartEfficiency>
+
+	<!-- Trade -->
+	<DragToTrade>드래그해서 거래</DragToTrade>
+	<BuyPriceDesc>구매하기 위해 지불해야 할 가격</BuyPriceDesc>
+	<SellPriceDesc>판매하여 받는 대금</SellPriceDesc>
+	<PriceTypeDesc>해당 아이템에 대해서 이 가격은 {0}.</PriceTypeDesc>
+	<ColonyCount>정착지가 지닌 거래 가능한 수량.\n\n판매하기 위해서는 아이템이 실외에 있어야 하며 궤도 수신기 근처에 있어야 합니다.</ColonyCount>
+	<TraderCount>상인이 지닌 수량</TraderCount>
+	<AcceptButton>수락</AcceptButton>
+	<ResetButton>초기화</ResetButton>
+	<CancelButton>취소</CancelButton>
+	<YourTradeableSilver>거래에 사용 가능한 은: {0}</YourTradeableSilver>
+	<YourTradeableSilverTip>은을 이용하여 거래를 하려면 야외에 궤도 송신기를 설치하고, 수신기의 범위 안에서 거래에 사용될 은이나 아이템들을 두어야 합니다.
+	</YourTradeableSilverTip>
+	<TraderHasNoMore>상인이 더 가지고 있지 않습니다.</TraderHasNoMore>
+	<ColonyHasNoMore>더 판매할 수 없습니다.</ColonyHasNoMore>
+	<TraderWillNotTrade>상인이 이 아이템을 거래하려 하지 않습니다.</TraderWillNotTrade>
+
+	<!-- Comms -->
+	<SocialSkillIs>사교 능력: {0}</SocialSkillIs>
+
+	<!--Research-->
+	<ResearchFinished>연구 완료: {0}</ResearchFinished>
+	<ResearchScreen>연구 화면</ResearchScreen>
+
+	<!--HistoryUpload-->
+	<HistoryUploadMessage>유저들의 게임 이용 정보는 게임 개발에 도움이 됩니다. 만약 동의 하신다면, 인게임 시간으로 {0} 일마다 (또는 게임 종료 같이 특별한 경우) 게임 이용 정보가
+		RimWorld 서버로 전송되어 분석됩니다. 전송되는 정보는 게임을 이용하면서 발생되는 진행정보와 통계자료뿐이며 본 게임의 환경설정에 지정된 사용자 이름 이외의 개인정보는 수집되지 않습니다. 따라서
+		완벽하게 익명으로 전송됩니다
+	</HistoryUploadMessage>
+	<HistoryUploadMessagePlayerName>정보가 익명으로 처리가 된다고 하더라도, 사용자 이름에 실명을 적으실 수 있습니다.</HistoryUploadMessagePlayerName>
+
+	<HistoryUploadYes>이용 정보 전송 허용</HistoryUploadYes>
+	<HistoryUploadNo>이용 정보 전송 금지</HistoryUploadNo>
+	<HistoryUploadYesOnce>이번만 전송</HistoryUploadYesOnce>
+	<HistoryUploadNoOnce>나중에</HistoryUploadNoOnce>
 </LanguageData>

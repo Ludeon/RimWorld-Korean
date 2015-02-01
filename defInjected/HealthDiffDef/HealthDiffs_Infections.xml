@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 	
 	<WoundInfection.label>감염</WoundInfection.label>
@@ -26,7 +27,7 @@
 	<Flu.label>독감</Flu.label>
 	<rep>
 		<path>Flu.disease.severityStages[0].label</path>
-		<trans>가벼움</trans>
+		<trans>가벼움(잠복)</trans>
 	</rep>
 	<rep>
 		<path>Flu.disease.severityStages[1].label</path>
@@ -96,7 +97,7 @@
 	<SleepingSickness.label>수면병</SleepingSickness.label>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[0].label</path>
-		<trans>가벼움</trans>
+		<trans>가벼움(잠복)</trans>
 	</rep>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[1].label</path>

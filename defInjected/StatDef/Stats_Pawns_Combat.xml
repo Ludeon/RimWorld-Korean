@@ -1,19 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 	
-	<MeleeHitChance.label>근접 공격</MeleeHitChance.label>
-	<MeleeHitChance.description>타겟을 공격하기 위한 가장 기초적인 공격 방법입니다.</MeleeHitChance.description>	
-	
-	<MeleeHitChanceFactor.label>근접 공격 요인</MeleeHitChanceFactor.label>
-	<MeleeHitChanceFactor.description>- 값은 정밀도를 떨어뜨리면, + 값은 정밀도를 높입니다.</MeleeHitChanceFactor.description>		
+	<MeleeHitChance.label>근접 공격 확률</MeleeHitChance.label>
+	<MeleeHitChance.description>근접전에서 대상을 타격할 수 있는 기본 확률입니다.</MeleeHitChance.description>
 	
 	<ShootingAccuracy.label>사격 정확도</ShootingAccuracy.label>
-	<ShootingAccuracy.description>슈팅 거리만큼 목표물을 놓치지 않게 해줍니다.</ShootingAccuracy.description>	
+	<ShootingAccuracy.description>한 칸당 적을 맞출 수 있는 확률입니다.</ShootingAccuracy.description>
 	
-	<AimingDelayFactor.label>조준 딜레이 요인</AimingDelayFactor.label>
-	<AimingDelayFactor.description>조준을 하고 슈팅하기까지의 지연 시간을 보여줍니다.</AimingDelayFactor.description>		
+	<AimingDelayFactor.label>조준 지연도</AimingDelayFactor.label>
+	<AimingDelayFactor.description>조준을 시작하고 얼마 뒤에 발사할 수 있는지에 대한 값입니다.</AimingDelayFactor.description>
 	
-	<HitChanceFactor.label>타격 기회 요인</HitChanceFactor.label>
-	<HitChanceFactor.description>- 값은 정밀도를 떨어뜨리면, + 값은 정밀도를 높입니다.</HitChanceFactor.description>			
+	<MeleeHitChanceFactor.label>근접 공격 확률 인수</MeleeHitChanceFactor.label>
+	<MeleeHitChanceFactor.description>음수값은 정확도를 낮추고, 양수값은 높입니다.</MeleeHitChanceFactor.description>
 	
 </LanguageData>

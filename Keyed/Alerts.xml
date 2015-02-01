@@ -1,79 +1,148 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
 <LanguageData>
-  <ClickToJumpToProblem>문제가 발생한 곳으로 화면 이동</ClickToJumpToProblem>
-  <AlertNeedStockpile>저장구역 필요</AlertNeedStockpile>
-  <AlertNeedStockpileDesc>정착지 주민들은 어딘가에 아이템을 저장할 수 있는 공간이 필요합니다. 저장구역을 지정해 주세요. 좌측 하단 메뉴의 구역 카테고리에서 찾을 수 있습니다.</AlertNeedStockpileDesc>
-  <AlertUnforbidStartingResources>자원 상호작용 설정</AlertUnforbidStartingResources>
-  <AlertUnforbidStartingResourcesDesc>처음 주어진 자원들은 기본적으로 상호작용이 금지되어 있습니다.\n\n 정착지 주민들이 활용하기 위해선 해당 자원들을 선택하고 화면 하단의 상호작용 버튼을 눌러 허용해야 합니다.</AlertUnforbidStartingResourcesDesc>
-  <AlertEquipStartingWeapons>무기 장착</AlertEquipStartingWeapons>
-  <AlertEquipStartingWeaponsDesc>정착지 주민들이 기본적인 무기를 가지고 도착했습니다. 주민들을 각각 선택하고 원하는 무기를 우클릭하여 장착하세요!</AlertEquipStartingWeaponsDesc>
-  <NeedSawmill>제재소 필요</NeedSawmill>
-  <NeedSawmillDesc>통나무를 다용도 목재로 가공해기 위해선 제재소가 필요합니다.\n\n수작업 제재소 또는 전기 제재소를 건설하세요.</NeedSawmillDesc>
-  <MentalBreakSoon>정신이상 조짐</MentalBreakSoon>
-  <MentalBreakSoonDesc>다음 주민들이 정신을 가다듬는 것에 한계를 느끼고 있습니다.\n\n{0}\n나쁜 일이 발생되기 전에 요구사항이나 기분을 확인하고 주민들을 진정시키세요</MentalBreakSoonDesc>
-  <MentalBreakImminent>정신이상 임박</MentalBreakImminent>
-  <MentalBreakImminentDesc>다음 주민들은 정신이 언제든지 붕괴되어도 이상하지 않을 정도의 치명적인 스트레스를 겪고 있습니다.\n\n{0}</MentalBreakImminentDesc>
-  <ColonistNeedsRescue>구조가 필요한 주민</ColonistNeedsRescue>
-  <ColonistsNeedRescue>구조가 필요한 주민들</ColonistsNeedRescue>
-  <ColonistsNeedRescueDesc>다음 주민들이 행동 불능 상태가 되었습니다.\n\n{0}\n\n구조를 하기 위해선 다른 주민을 선택하고 행동 불능 상태가 된 주민을 우클릭하여 구조를 선택하세요.</ColonistsNeedRescueDesc>
-  <BuildARoom>방 건설</BuildARoom>
-  <BuildARoomDesc>방은 벽과 문으로 구분됩니다.\n\n좌측 하단 메뉴의 건물 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 건설 예약을 해두면 정착지 주민들의 우선순위에 따라서 그들이 제작할 것입니다.</BuildARoomDesc>
-  <NeedGrowingZone>재배구역 필요</NeedGrowingZone>
-  <NeedGrowingZoneDesc>재배구역이 설정되어 있지 않습니다.\n\n좌측 하단 메뉴의 구역 설정 카테고리에서 재배구역을 선택하고 흙 위에 위치를 지정해 주세요.</NeedGrowingZoneDesc>
-  <NeedDefenses>방어시설이 필요</NeedDefenses>
-  <NeedDefensesDesc>이 곳에 정착한지 시간이 좀 흘렀고 분명히 누군가에게 위치가 알려졌을 겁니다. 우주 해적들이 나타날 수도 있으니 방어를 준비해야 합니다.\n\n터렛을 만들어 보는 건 어떨까요?</NeedDefensesDesc>
-  <NeedDoctor>의사 필요</NeedDoctor>
-  <NeedDoctorDesc>다음 주민들이 의료적인 조치를 필요로 하지만, 주민 중에서 의료를 담당할 사람이 없습니다.\n\n{0}\n건강한 주민에게 간호 업무를 맡기세요. 계속 방치될 경우, 상처가 제대로 아물지 않고 영원히 남을 수 있습니다.</NeedDoctorDesc>
-  <NeedMiner>광부 필요</NeedMiner>
-  <NeedMinerDesc>돌을 채굴하도록 지시 했지만 주민 중에서 채굴 역할을 맡은 사람이 없습니다.\n\n주민을 채굴 역할에 배치하세요.</NeedMinerDesc>
-  <NeedWarden>간수 필요</NeedWarden>
-  <NeedWardenDesc>수감자가 있으면 주민 중 누군가는 간수 역할을 해야합니다.\n\n주민을 간수 역할에 배치하세요.</NeedWardenDesc>
-  <LowFood>식재료 부족</LowFood>
-  <LowFoodDesc>저장구역에 쌓아둔 식량이 영양소 가치 {0}만큼밖에 남지 않았습니다.\n\n식량은 재배하거나, 구매하거나, 찾거나, 죽여서 얻을 수 있습니다.</LowFoodDesc>
-  <NeedColonistBeds>주민 침대 필요</NeedColonistBeds>
-  <NeedColonistBedsDesc>지역에 배치된 주민 전용 침대의 수보다 더 많은 인원의 주민들이 정착지에서 거주 하고 있기 때문에 누군가는 잘 공간이 없습니다.\n\n침대를 더 만들어 놓거나 수감자 전용 침대를 주민 전용 침대로 전환하세요.\n\n만약 침대를 만들 수 있는 재료가 없다면 수면구역을 만들어 주세요. 추가적인 비용이 들지 않으며 즉시 배치됩니다.</NeedColonistBedsDesc>
-  <HunterLacksWeapon>사냥꾼 무기 없음</HunterLacksWeapon>
-  <HunterLacksWeaponDesc>주민 중 한 명은 사냥꾼으로 지정되어 있지만 무기가 없습니다. 주민들에게 무기를 쥐어주기전에는 사냥을 하지 않을 것입니다.\n\n부상을 줄이기 위해 장거리 무기를 지급하는 것이 좋습니다.</HunterLacksWeaponDesc>
-  <Starvation>굶주림</Starvation>
-  <StarvationDesc>다음 주민들이 굶주렸습니다.\n\n{0}\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 징병상태를 해제했는지 확인해주세요.</StarvationDesc>
-  <Exhaustion>탈진</Exhaustion>
-  <ExhaustionDesc>다음 주민들이 탈진하여 휴식이 필요합니다.\n\n{0}\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 징병상태를 해제했는지 확인해주세요.</ExhaustionDesc>
-  <NeedFoodHopper>호퍼가 필요합니다.</NeedFoodHopper>
-  <NeedFoodHopperDesc>영양반죽 배급기 옆에 호퍼가 없습니다.\n\n영양반죽 배급기는 호퍼에서 조리되지 않은 음식을 받아야 작동이이 가능합니다.\n\n호퍼를 배급기 옆에 건설하세요.</NeedFoodHopperDesc>
-  <BuildingNeedsPower>건물에 전기 필요</BuildingNeedsPower>
-  <BuildingsNeedPower>건물들에 전기 필요</BuildingsNeedPower>
-  <BuildingsNeedPowerDesc>다음 건물이나 장비에서 전기를 필요로 하고 있습니다.\n\n{0}\n발전기나 배터리에 연결하여 전기를 공급받을 수 있도록 해주세요.</BuildingsNeedPowerDesc>
-  <AndMore>그리고</AndMore>
-  <NeedMealSource>조리기구가 필요</NeedMealSource>
-  <NeedMealSourceDesc>음식을 생산할 수 있는 방법이 없습니다.\n\n영양반죽 배급기 또는 조리용 레인지를 건설하세요.\n\n(수감자가 머무는 공간에 지을 수 없으며 만약에 지으셨을 경우, 주민들이 사용할 수 없습니다.)</NeedMealSourceDesc>
-  <NeedHomeRegion>주거지역 설정</NeedHomeRegion>
-  <NeedHomeRegionDesc>정착지 주민들이 스스로 청소하고, 수리하고, 소방활동을 할 수 있도록 주거지역을 설정 하셔야 합니다.\n\n좌측 하단 메뉴의 구역 설정에서 주거지역을 설정하실 수 있습니다.</NeedHomeRegionDesc>
-  <NeedBatteries>배터리 필요</NeedBatteries>
-  <NeedBatteriesDesc>태양광 발전기는 있는데 배터리를 아직 만드시지 않으셨네요. 이렇게 되면 해가 질 때 마다 전기를 쓸 수 없을 겁니다. 배터리를 한두 개 정도 제작하셔서 밤에도 전기를 사용하는 것이 어떨까요?</NeedBatteriesDesc>
-  <NoTradingCapacity>무역능력 결여</NoTradingCapacity>
-  <NoTradingCapacityDesc>지나가는 선박들과 거래할 방법이 없습니다.\n\n통신 콘솔을 건설하세요.</NoTradingCapacityDesc>
-  <BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 장비</BrawlerHasRangedWeapon>
-  <BrawlerHasRangedWeaponDesc>당신의 주민 중 한 명이 싸움꾼 특성을 가지고 있지만 원거리 무기를 장비하고 있습니다. 이는 싸움꾼을 매우 불행하게 만들 것입니다..</BrawlerHasRangedWeaponDesc>
-  <NeedResearchProject>연구를 진행할 수 있습니다.</NeedResearchProject>
-  <NeedResearchProjectDesc>연구 메뉴에서 연구할 항목을 지정해 주세요.</NeedResearchProjectDesc>
-  <NeedDump>처리구역 필요</NeedDump>
-  <NeedDumpDesc>당신이 표시한 {0}의 처리를 맡을 공간이 없습니다.\n\n구역 설정에서 처리구역을 지정하세요.</NeedDumpDesc>
-  <NeedGrave>무덤 필요</NeedGrave>
-  <NeedGraveDesc>시체가 바닥에서 뒹굴고 있지만 주민들은 어디로 옮겨야 할 지 모르고 있습니다. 무덤을 만들거나 처리구역에서 허용할 폐기물에 시체를 지정해주세요.</NeedGraveDesc>
-  <ColonistsIdle>{0}명의 주민이 대기중</ColonistsIdle>
-  <ColonistsIdleDesc>다음 주민들이 할 일이 없어 주변을 방황하고 있습니다.\n\n{0}\n무언가 생산적인 일을 찾아주어야 할 것입니다.</ColonistsIdleDesc>
-  <HaltedConstructions>{0}개의 건설에 필요한 자원 부족</HaltedConstructions>
-  <HaltedConstructionsDesc>다음 건설들에 필요한 자원이 부족합니다.\n\n{0}\n작업을 계속 진행할 수 있도록 필요한 자원을 보충해야 합니다.</HaltedConstructionsDesc>
-  <TableNeedsChairs>식탁은 의자 필요</TableNeedsChairs>
-  <TableNeedsChairsDesc>의자가 없는 식탁이 있습니다. 식탁은 사람들이 앉지 못하면 쓸모가 없습니다.</TableNeedsChairsDesc>
-  <ColonistNeedsTreatment>치료가 필요한 주민</ColonistNeedsTreatment>
-  <ColonistNeedsTreatmentDesc>다음 주민들을 치료해야 합니다. 그렇지 않으면 상처때문에 죽거나 영구적인 장애가 발생할 수 있습니다.\n\n{0}\n의료 침대로 이송하여 치료하세요.\n\n(먼저 침대를 선택하여 의료 침대로 전환하고, 상처입은 주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)</ColonistNeedsTreatmentDesc>
-  <AlertHypothermia>저체온증</AlertHypothermia>
-  <AlertHypothermiaDesc>다음 주민들은 저체온증으로 인해 고통받고 있습니다.\n\n{0}\n계절에 맞는 옷을 만들어 입거나 따듯한 곳으로 이동해야합니다.</AlertHypothermiaDesc>
-  <ColonistsAwaitingMedicalOperation>{0}명의 주민들 수술 대기중</ColonistsAwaitingMedicalOperation>
-  <ColonistsAwaitingMedicalOperationDesc>다음 주민들은 수술을 기다리고 있습니다.\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 대기중인 의사가 있도록 하세요.</ColonistsAwaitingMedicalOperationDesc>
-  <PawnsWithLifeThreateningDisease>심각한 질병</PawnsWithLifeThreateningDisease>
-  <PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하세요.</PawnsWithLifeThreateningDiseaseDesc>
-  <PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나 감염된 부위를 교체하는 것이 좋습니다.</PawnsWithLifeThreateningDiseaseAmputationDesc>
-  <!--<AlertAbsentMinded>{0} is lost in thought</AlertAbsentMinded>-->
+	<ClickToJumpToProblem>문제가 발생한 곳으로 화면 이동</ClickToJumpToProblem>
+
+	<AlertNeedStockpile>저장구역 필요</AlertNeedStockpile>
+	<AlertNeedStockpileDesc>정착지 주민들은 어딘가에 아이템을 저장할 수 있는 공간이 필요합니다. 저장구역을 지정해 주세요. 좌측 하단 메뉴의 구역 카테고리에서 찾을 수 있습니다.
+	</AlertNeedStockpileDesc>
+
+	<AlertUnforbidStartingResources>자원 상호작용 설정</AlertUnforbidStartingResources>
+	<AlertUnforbidStartingResourcesDesc>처음 주어진 자원들은 기본적으로 상호작용이 금지되어 있습니다.\n\n 정착지 주민들이 활용하기 위해선 해당 자원들을 선택하고 화면 하단의
+		상호작용 버튼을 눌러 허용해야 합니다.
+	</AlertUnforbidStartingResourcesDesc>
+
+	<AlertEquipStartingWeapons>무기 장착</AlertEquipStartingWeapons>
+	<AlertEquipStartingWeaponsDesc>정착지 주민들이 기본적인 무기를 가지고 도착했습니다. 주민들을 각각 선택하고 원하는 무기를 우클릭하여 장착하세요!
+	</AlertEquipStartingWeaponsDesc>
+
+	<NeedSawmill>제재소 필요</NeedSawmill>
+	<NeedSawmillDesc>통나무를 다용도 목재로 가공해기 위해선 제재소가 필요합니다.\n\n수작업 제재소 또는 전기 제재소를 건설하세요.</NeedSawmillDesc>
+
+	<MentalBreakSoon>정신이상 조짐</MentalBreakSoon>
+	<MentalBreakSoonDesc>다음 주민들이 정신을 가다듬는 것에 한계를 느끼고 있습니다.\n\n{0}\n나쁜 일이 발생되기 전에 요구사항이나 기분을 확인하고 주민들을 진정시키세요
+	</MentalBreakSoonDesc>
+
+	<MentalBreakImminent>정신이상 임박</MentalBreakImminent>
+	<MentalBreakImminentDesc>다음 주민들은 정신이 언제든지 붕괴되어도 이상하지 않을 정도의 치명적인 스트레스를 겪고 있습니다.\n\n{0}</MentalBreakImminentDesc>
+
+	<ColonistNeedsRescue>구조가 필요한 주민</ColonistNeedsRescue>
+	<ColonistsNeedRescue>구조가 필요한 주민들</ColonistsNeedRescue>
+	<ColonistsNeedRescueDesc>다음 주민들이 행동 불능 상태가 되었습니다.\n\n{0}\n\n구조를 하기 위해선 다른 주민을 선택하고 행동 불능 상태가 된 주민을 우클릭하여 구조를 선택하세요.
+	</ColonistsNeedRescueDesc>
+
+	<BuildARoom>방 건설</BuildARoom>
+	<BuildARoomDesc>방은 벽과 문으로 구분됩니다.\n\n좌측 하단 메뉴의 건물 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 건설 예약을 해두면 정착지 주민들의 우선순위에 따라서 그들이
+		제작할 것입니다.
+	</BuildARoomDesc>
+
+	<NeedGrowingZone>재배구역 필요</NeedGrowingZone>
+	<NeedGrowingZoneDesc>재배구역이 설정되어 있지 않습니다.\n\n좌측 하단 메뉴의 구역 설정 카테고리에서 재배구역을 선택하고 흙 위에 위치를 지정해 주세요.
+	</NeedGrowingZoneDesc>
+
+	<NeedDefenses>방어시설 필요</NeedDefenses>
+	<NeedDefensesDesc>이 곳에 정착한지 시간이 좀 흘렀고 분명히 누군가에게 위치가 알려졌을 겁니다. 우주 해적들이 나타날 수도 있으니 방어를 준비해야 합니다.\n\n터렛을 만들어 보는 건 어떨까요?
+	</NeedDefensesDesc>
+
+	<NeedDoctor>의사 필요</NeedDoctor>
+	<NeedDoctorDesc>다음 주민들이 의료적인 조치를 필요로 하지만, 주민 중에서 의료를 담당할 사람이 없습니다.\n\n{0}\n건강한 주민에게 간호 업무를 맡기세요. 계속 방치될 경우, 상처가 제대로
+		아물지 않고 영원히 남을 수 있습니다.
+	</NeedDoctorDesc>
+
+	<NeedMiner>광부 필요</NeedMiner>
+	<NeedMinerDesc>돌을 채굴하도록 지시 했지만 주민 중에서 채굴 역할을 맡은 사람이 없습니다.\n\n주민을 채굴 역할에 배치하세요.</NeedMinerDesc>
+
+	<NeedWarden>간수 필요</NeedWarden>
+	<NeedWardenDesc>수감자가 있으면 주민 중 누군가는 간수 역할을 해야합니다.\n\n주민을 간수 역할에 배치하세요.</NeedWardenDesc>
+
+	<LowFood>식재료 부족</LowFood>
+	<LowFoodDesc>저장구역에 쌓아둔 식량이 영양소 가치 {0}만큼밖에 남지 않았습니다.\n\n식량은 재배하거나, 구매하거나, 찾거나, 죽여서 얻을 수 있습니다.</LowFoodDesc>
+
+	<NeedColonistBeds>주민 침대 필요</NeedColonistBeds>
+	<NeedColonistBedsDesc>지역에 배치된 주민 전용 침대의 수보다 더 많은 인원의 주민들이 정착지에서 거주 하고 있기 때문에 누군가는 잘 공간이 없습니다.\n\n침대를 더 만들어 놓거나 수감자
+		전용 침대를 주민 전용 침대로 전환하세요.\n\n만약 침대를 만들 수 있는 재료가 없다면 수면구역을 만들어 주세요. 추가적인 비용이 들지 않으며 즉시 배치됩니다.
+	</NeedColonistBedsDesc>
+
+	<HunterLacksWeapon>사냥꾼 무기 없음</HunterLacksWeapon>
+	<HunterLacksWeaponDesc>주민 중 한 명은 사냥꾼으로 지정되어 있지만 무기가 없습니다. 주민들에게 무기를 쥐어주기전에는 사냥을 하지 않을 것입니다.\n\n부상을 줄이기 위해 장거리 무기를
+		지급하는 것이 좋습니다.
+	</HunterLacksWeaponDesc>
+
+	<Starvation>굶주림</Starvation>
+	<StarvationDesc>다음 주민들이 굶주렸습니다.\n\n{0}\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 징병상태를 해제했는지 확인해주세요.
+	</StarvationDesc>
+
+	<Exhaustion>탈진</Exhaustion>
+	<ExhaustionDesc>다음 주민들이 탈진하여 휴식이 필요합니다.\n\n{0}\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 징병상태를 해제했는지 확인해주세요.
+	</ExhaustionDesc>
+
+	<NeedFoodHopper>호퍼가 필요합니다.</NeedFoodHopper>
+	<NeedFoodHopperDesc>영양반죽 배급기 옆에 호퍼가 없습니다.\n\n영양반죽 배급기는 호퍼에서 조리되지 않은 음식을 받아야 작동이이 가능합니다.\n\n호퍼를 배급기 옆에 건설하세요.
+	</NeedFoodHopperDesc>
+
+	<BuildingNeedsPower>건물에 전기 필요</BuildingNeedsPower>
+	<BuildingsNeedPower>건물에 전기 필요</BuildingsNeedPower>
+	<BuildingsNeedPowerDesc>다음 건물이나 장비에서 전기를 필요로 하고 있습니다.\n\n{0}\n발전기나 배터리에 연결하여 전기를 공급받을 수 있도록 해주세요.
+	</BuildingsNeedPowerDesc>
+
+	<AndMore>,</AndMore>
+
+	<NeedMealSource>조리기구가 필요</NeedMealSource>
+	<NeedMealSourceDesc>음식을 생산할 수 있는 방법이 없습니다.\n\n영양반죽 배급기 또는 조리용 레인지를 건설하세요.\n\n(수감자가 머무는 공간에 지을 수 없으며 만약에 지으셨을 경우,
+		주민들이 사용할 수 없습니다.)
+	</NeedMealSourceDesc>
+
+	<NeedHomeRegion>주거지역 설정</NeedHomeRegion>
+	<NeedHomeRegionDesc>정착지 주민들이 스스로 청소하고, 수리하고, 소방활동을 할 수 있도록 주거지역을 설정 하셔야 합니다.\n\n좌측 하단 메뉴의 구역 설정에서 주거지역을 설정하실 수 있습니다.
+	</NeedHomeRegionDesc>
+
+	<NeedBatteries>배터리 필요</NeedBatteries>
+	<NeedBatteriesDesc>태양광 발전기는 있는데 배터리를 아직 만드시지 않으셨네요. 이렇게 되면 해가 질 때 마다 전기를 쓸 수 없을 겁니다. 배터리를 한두 개 정도 제작하셔서 밤에도 전기를 사용하는
+		것이 어떨까요?
+	</NeedBatteriesDesc>
+
+	<NoTradingCapacity>무역능력 없음</NoTradingCapacity>
+	<NoTradingCapacityDesc>지나가는 선박들과 거래할 방법이 없습니다.\n\n통신 콘솔을 건설하세요.</NoTradingCapacityDesc>
+
+	<BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 장비</BrawlerHasRangedWeapon>
+	<BrawlerHasRangedWeaponDesc>당신의 주민 중 한 명이 싸움꾼 특성을 가지고 있지만 원거리 무기를 장비하고 있습니다. 이는 싸움꾼을 매우 불행하게 만들 것입니다..
+	</BrawlerHasRangedWeaponDesc>
+
+	<NeedResearchProject>연구 진행 가능</NeedResearchProject>
+	<NeedResearchProjectDesc>연구 메뉴에서 연구할 항목을 지정해 주세요.</NeedResearchProjectDesc>
+
+	<NeedDump>처리구역 필요</NeedDump>
+	<NeedDumpDesc>당신이 표시한 {0}의 처리를 맡을 공간이 없습니다.\n\n구역 설정에서 처리구역을 지정하세요.</NeedDumpDesc>
+
+	<NeedGrave>무덤 필요</NeedGrave>
+	<NeedGraveDesc>시체가 바닥에서 뒹굴고 있지만 주민들은 어디로 옮겨야 할 지 모르고 있습니다. 무덤을 만들거나 처리구역에서 허용할 폐기물에 시체를 지정해주세요.</NeedGraveDesc>
+
+	<ColonistsIdle>{0}명의 주민이 대기중</ColonistsIdle>
+	<ColonistsIdleDesc>다음 주민들이 할 일이 없어 주변을 방황하고 있습니다.\n\n{0}\n무언가 생산적인 일을 찾아주어야 할 것입니다.</ColonistsIdleDesc>
+
+	<HaltedConstructions>{0}개의 건설에 필요한 자원 부족</HaltedConstructions>
+	<HaltedConstructionsDesc>다음 건설들에 필요한 자원이 부족합니다.\n\n{0}\n작업을 계속 진행할 수 있도록 필요한 자원을 보충해야 합니다.</HaltedConstructionsDesc>
+
+	<TableNeedsChairs>식탁에 의자 필요</TableNeedsChairs>
+	<TableNeedsChairsDesc>의자가 없는 식탁이 있습니다. 식탁은 사람들이 앉지 못하면 쓸모가 없습니다.</TableNeedsChairsDesc>
+
+	<ColonistNeedsTreatment>치료가 필요한 주민</ColonistNeedsTreatment>
+	<ColonistNeedsTreatmentDesc>다음 주민들을 치료해야 합니다. 그렇지 않으면 상처때문에 죽거나 영구적인 장애가 발생할 수 있습니다.\n\n{0}\n의료 침대로 이송하여
+		치료하세요.\n\n(먼저 침대를 선택하여 의료 침대로 전환하고, 상처입은 주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)
+	</ColonistNeedsTreatmentDesc>
+
+	<AlertHypothermia>저체온증</AlertHypothermia>
+	<AlertHypothermiaDesc>다음 주민들은 저체온증으로 인해 고통받고 있습니다.\n\n{0}\n계절에 맞는 옷을 만들어 입거나 따듯한 곳으로 이동해야합니다.</AlertHypothermiaDesc>
+
+	<ColonistsAwaitingMedicalOperation>{0}명의 주민들 수술 대기중</ColonistsAwaitingMedicalOperation>
+	<ColonistsAwaitingMedicalOperationDesc>다음 주민들은 수술을 기다리고 있습니다.\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 대기중인 의사가 있도록 하세요.
+	</ColonistsAwaitingMedicalOperationDesc>
+
+	<PawnsWithLifeThreateningDisease>심각한 질병</PawnsWithLifeThreateningDisease>
+	<PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하세요.
+	</PawnsWithLifeThreateningDiseaseDesc>
+
+	<PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나
+		감염된 부위를 교체하는 것이 좋습니다.
+	</PawnsWithLifeThreateningDiseaseAmputationDesc>
 </LanguageData>

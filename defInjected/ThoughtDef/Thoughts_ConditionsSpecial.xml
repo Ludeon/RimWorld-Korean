@@ -1,41 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
-	
-	<Imprisoned.label>포로 대우</Imprisoned.label>
-	<Imprisoned.description>난 갖혀있는게 싫어.</Imprisoned.description>
-	
-	<SharedBedroom.label>침실 공유</SharedBedroom.label>
-	<SharedBedroom.description>다른 사람들과 방을 공유하는건 귀찮아. 나만의 방을 원해.</SharedBedroom.description>
-	
-	<ColonistLeftUnburied.label>시체 방치</ColonistLeftUnburied.label>
-	<ColonistLeftUnburied.description>우리 중 한명은 사망했고, 우린 그들을 열려있는 공간에 뒀어. 아무도 그런식으로 남아있고 싶어하지 않을거야. 그 사람들은 묻힐 자격이 있어.</ColonistLeftUnburied.description>
 
-	<HappyNude.label>행복한 알몸</HappyNude.label>
-	<HappyNude.description>와우! 난 알몸이야! 이것을 너무 사랑해! 구속된 환경에서 벗어나 자유가 된 기분이야!</HappyNude.description>
-	
-	<Naked.label>알몸</Naked.label>
-	<Naked.description>나 아직 벗고있어. 이런 망신살이가 있나...</Naked.description>
-	
-	<MasochistLittlePain.label>약간의 통증</MasochistLittlePain.label>
-	<MasochistLittlePain.description>윽... 헤헤헿... 이것에 익숙해질 수 있어요.</MasochistLittlePain.description>
-	
-	<MasochistMediumPain.label>적당한 통증</MasochistMediumPain.label>
-	<MasochistMediumPain.description>우으... 이건 좀 아파. 하지만 이 고통을 사랑해요! 좀 더... 좀 더!</MasochistMediumPain.description>
-	
-	<MasochistSeverePain.label>극심한 통증</MasochistSeverePain.label>
-	<MasochistSeverePain.description>아야... 뭔가 망가진것 같지만 엄청난 희열이 느껴져!</MasochistSeverePain.description>
-	
-	<MasochistInShock.label>엄청난 통증</MasochistInShock.label>
-	<MasochistInShock.description>아아... 나 설마... 천국에 온거야? 하핳</MasochistInShock.description>
-	
-	<ProsthophileHappy.label>인공 신체를 가진</ProsthophileHappy.label>
-	<ProsthophileHappy.description>난 현대 기술의 산물이야! 모든 것을 더 잘할 수 있어!</ProsthophileHappy.description>
-	
-	<ProsthophobeUnhappy.label>인공 신체를 가진</ProsthophobeUnhappy.label>
-	<ProsthophobeUnhappy.description>그들이 혐오스러운 기술로 날 바꿨어... 나에게 선택권을 줬더라면...</ProsthophobeUnhappy.description>
-	
-	<BrawlerUnhappy.label>싸움꾼이 원거리 무기를 지닌</BrawlerUnhappy.label>
-	<BrawlerUnhappy.description>악!!!! 난 멀리서 쏘는건 싫어. 직접 때리고 싶다고!!!</BrawlerUnhappy.description>	
+	<rep>
+		<path>Imprisoned.stages[0].label</path>
+		<trans>갇힘</trans>
+	</rep>
+	<rep>
+		<path>Imprisoned.stages[0].description</path>
+		<trans>난 갇혀있는 게 싫어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>SharedBedroom.stages[0].label</path>
+		<trans>침실 공유</trans>
+	</rep>
+	<rep>
+		<path>SharedBedroom.stages[0].description</path>
+		<trans>다른 사람들과 방을 같이 쓰는 건 거슬려. 나만의 사생활을 원해.</trans>
+	</rep>
+
+
+	<rep>
+		<path>ColonistLeftUnburied.stages[0].label</path>
+		<trans>시체 방치</trans>
+	</rep>
+	<rep>
+		<path>ColonistLeftUnburied.stages[0].description</path>
+		<trans>우리 죽은 동료를 그냥 밖에 내버려 두고 있어. 아무도 이런 식으로 대접받아선 안돼. 사람들은 정당한 장례를 받아 마땅하다고.</trans>
+	</rep>
+
+
+	<rep>
+		<path>HappyNude.stages[0].label</path>
+		<trans>행복하게 벌거벗음</trans>
+	</rep>
+	<rep>
+		<path>HappyNude.stages[0].description</path>
+		<trans>알몸이야! 너무 좋아! 자유가 된 기분이야. 내 주변과 교감하고 있어!</trans>
+	</rep>
+
+
+	<rep>
+		<path>Naked.stages[0].label</path>
+		<trans>벌거벗음</trans>
+	</rep>
+	<rep>
+		<path>Naked.stages[0].description</path>
+		<trans>옷을 못 입었어. 이런 망신이 있나...</trans>
+	</rep>
+
+
+	<rep>
+		<path>MasochistPain.stages[0].label</path>
+		<trans>약간의 고통</trans>
+	</rep>
+	<rep>
+		<path>MasochistPain.stages[0].description</path>
+		<trans>아... 헤헤헤... 이거에 익숙해질 수도 있겠어!</trans>
+	</rep>
+	<rep>
+		<path>MasochistPain.stages[1].label</path>
+		<trans>적당한 통증</trans>
+	</rep>
+	<rep>
+		<path>MasochistPain.stages[1].description</path>
+		<trans>으... 이거 아픈데. 그렇지만 좋아! 좀 더...!</trans>
+	</rep>
+	<rep>
+		<path>MasochistPain.stages[2].label</path>
+		<trans>극심한 통증을 겪는 중</trans>
+	</rep>
+	<rep>
+		<path>MasochistPain.stages[2].description</path>
+		<trans>아야... 아마 뭔가 부러진 것 같아... 이 얼마나 강렬한 경험이람!</trans>
+	</rep>
+	<rep>
+		<path>MasochistPain.stages[3].label</path>
+		<trans>엄청난 통증으로 인한 쇼크</trans>
+	</rep>
+	<rep>
+		<path>MasochistPain.stages[3].description</path>
+		<trans>아아아... 여기가 천국인가?</trans>
+	</rep>
+
+
+	<rep>
+		<path>ProsthophileHappy.stages[0].label</path>
+		<trans>인공 신체를 지님</trans>
+	</rep>
+	<rep>
+		<path>ProsthophileHappy.stages[0].description</path>
+		<trans>난 현대 기술의 산물이야! 뭐든지 더 잘 할 수 있어!</trans>
+	</rep>
+
+
+	<rep>
+		<path>ProsthophobeUnhappy.stages[0].label</path>
+		<trans>인공 신체를 지님</trans>
+	</rep>
+	<rep>
+		<path>ProsthophobeUnhappy.stages[0].description</path>
+		<trans>날 기술적인 돌연변이로 만들었어... 내게 선택지가 있었다면...</trans>
+	</rep>
+
+
+	<rep>
+		<path>BrawlerUnhappy.stages[0].label</path>
+		<trans>싸움꾼이 원거리 무기를 지님</trans>
+	</rep>
+	<rep>
+		<path>BrawlerUnhappy.stages[0].description</path>
+		<trans>멀리서 쏴대는건 싫어. 가까이 가서 직접 때리고 싶다고!</trans>
+	</rep>
 
 	
 </LanguageData>

@@ -1,17 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 
-	<MoodOffsetSanguine.label>낙관적</MoodOffsetSanguine.label>
-	<MoodOffsetSanguine.description>낙관적 특성으로 인해 자연적인 보너스를 가집니다.</MoodOffsetSanguine.description>
+	<rep>
+		<path>MoodOffsetSanguine.stages[0].label</path>
+		<trans>낙관적</trans>
+	</rep>
+	<rep>
+		<path>MoodOffsetSanguine.stages[0].description</path>
+		<trans>낙관적 특징에서 오는 보너스</trans>
+	</rep>
 
-	<MoodOffsetOptimist.label>낙천주의</MoodOffsetOptimist.label>
-	<MoodOffsetOptimist.description>낙천주의자 특성으로 인해 자연적인 보너스를 가집니다.</MoodOffsetOptimist.description>
+	<rep>
+		<path>MoodOffsetOptimist.stages[0].label</path>
+		<trans>낙천적</trans>
+	</rep>
+	<rep>
+		<path>MoodOffsetOptimist.stages[0].description</path>
+		<trans>낙천적 특징에서 오는 보너스</trans>
+	</rep>
 
-	<MoodOffsetPessimist.label>염세주의</MoodOffsetPessimist.label>
-	<MoodOffsetPessimist.description>염세주의 특성으로 인해 자연적인 보너스를 가집니다.</MoodOffsetPessimist.description>
+	<rep>
+		<path>MoodOffsetPessimist.stages[0].label</path>
+		<trans>비관적</trans>
+	</rep>
+	<rep>
+		<path>MoodOffsetPessimist.stages[0].description</path>
+		<trans>비관적 특징에서 오는 보너스</trans>
+	</rep>
 
-	<MoodOffsetDepressive.label>우울증</MoodOffsetDepressive.label>
-	<MoodOffsetDepressive.description>우울증 특성으로 인해 자연적인 핸디캡을 가집니다.</MoodOffsetDepressive.description>
-	
+	<rep>
+		<path>MoodOffsetDepressive.stages[0].label</path>
+		<trans>우울</trans>
+	</rep>
+	<rep>
+		<path>MoodOffsetDepressive.stages[0].description</path>
+		<trans>우울 특징에서 오는 보너스</trans>
+	</rep>
 
 </LanguageData>

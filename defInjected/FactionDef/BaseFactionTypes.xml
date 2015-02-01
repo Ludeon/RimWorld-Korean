@@ -1,30 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 
-	<Colony.label>정착지 주민</Colony.label>
-	<Colony.description>정착지의 주민입니다.</Colony.description>
-	<Colony.pawnsPlural>정착지 주민들</Colony.pawnsPlural>
+	<Colony.label>정착지</Colony.label>
+	<Colony.description>당신의 공동체입니다.</Colony.description>
+	<Colony.pawnsPlural>정착지 거주민들</Colony.pawnsPlural>
 	
 	<Spacer.label>우주 여행자</Spacer.label>
 	<Spacer.description>머나먼 우주에서 온 여행자입니다.</Spacer.description>
 	<Spacer.pawnsPlural>우주 여행자들</Spacer.pawnsPlural>
+
+	<SpacerHostile.label>우주 여행자</SpacerHostile.label>
+	<SpacerHostile.description>머나먼 우주에서 온 여행자입니다.</SpacerHostile.description>
+	<SpacerHostile.pawnsPlural>우주 여행자들</SpacerHostile.pawnsPlural>
 	
 	<Outlander.label>외지인</Outlander.label>
-	<Outlander.description>소규모의 마을을 이루며 살아가는 생존자들입니다. \n\n수십 년 동안 이곳에서 살아 왔고  시간이 흐르면서 점차 대부분의 기술력을 상실했지만 간단한 기계 장비나 도구, 화약을 사용하는 무기들를 활용하여 스스로를 보호합니다. \n\n그들은 나약하지 않으며 무역과 신뢰, 생존에 대한 실용적인 문제를 걱정하고 있습니다.</Outlander.description>
+	<Outlander.description>소규모의 마을을 이루며 살아가는 생존자들입니다.
+		\n\n이 곳에서 수십 년 동안 이곳에서 살아왔습니다. 시간이 흐르면서 이들을 이 세계에 데려온 대부분의 기술을 상실했고 간단한 기계 도구나 건물을 이용해 살아가며 총과 같은 화약무기를 사용하여 스스로를 방어합니다.
+		\n\n그다지 적대적이지도 않고 약하지도 않은 이 외지인들은 무역, 신뢰, 생존과 같은 일반적인 문제에 대해 신경씁니다.</Outlander.description>
 	<Outlander.pawnsPlural>외지인들</Outlander.pawnsPlural>
 	
 	<Pirate.label>우주 해적</Pirate.label>
-	<Pirate.description>도적질을 일삼는 집단입니다. \n\n우주 해적은 정착 생활을 하지 않고 무역도 거의 하지 않습니다. 일반적으로, 광역에 존재하는 여러 집단을 습격하거나 약탈하여 삶의 질을 높입니다. 주로 활용되는 기술력은 최근에 약탈한 것에 따라 달라집니다. \n\n일반적으로 화약을 사용하는 무기들을 다루지만 운이 좋은 몇명은 에너지를 사용하는 고급 무기를 다루기도 하며, 일부는 근거리에서 사람을 공격할 수 있습니다.</Pirate.description>
+	<Pirate.description>도적 집단입니다.
+		\n\n우주 해적들은 재배하지도, 건설하지도 않으며 아주 가끔만 거래합니다. 주로 더 생산적인 무리를 습격하고 강탈해서 수익을 얻습니다.
+		\n\n이들의 기술 수준은 최근 훔치는데 성공한 사람들의 기술에 의존합니다. 주로 총과 같은 화약무기를 소지하지만, 더 운 좋은 사람들은 에너지 무기와 같은 발전된 무기를 지녔을 수도 있고, 다른 몇몇은 그저 사람들을 근거리에서 찌르는 걸 좋아합니다.
+	</Pirate.description>
 	<Pirate.pawnsPlural>우주 해적들</Pirate.pawnsPlural>
 	
-	<Tribe.label>원주민</Tribe.label>
-	<Tribe.description>이 곳에서 아주 오랫동안 살아온 사람들입니다. 선대로부터 몇 천년 전 이곳에 떨어졌을 수 있고 천재지변에 의해 문명과 기술력을 잃어버린 사람들 일 수도 있습니다.\n\n어찌 됐건, 원주민들은 대부분 원시적인 도구와 무기를 사용하는 유목민입니다. \n\n일부 원주민들은 다른 생존자들보다 공격적일 수 있지만 여러분과 같이 낮선 외지인에게도 많은 원주민들이 무역과 협력에 개방적입니다. 하지만 사회 환경이나 사용하는 언어의 차이로 인해 긴밀한 협력이나 포섭을 하긴 매우 어려울 것 입니다.\n\n분명히 기술력이 뒤떨어짐에 불구하고 원주민들은 위협적인 존재가 될 수 있으며, \n재래적 기술력을 활용하는 소중한 친구가 될 수도 있습니다.</Tribe.description>
-	<Tribe.pawnsPlural>원주민들</Tribe.pawnsPlural>
+	<Tribe.label>부족</Tribe.label>
+	<Tribe.description>
+		여기 아주 오랜 시간동안 살아온 사람들입니다. 이들의 조상은 수천년 전 이 곳에 불시착했을 수 있습니다. 또는 문명화된 사회를 파괴한 재앙을 살아남은 것일 수도 있습니다. 어떤 경우든, 부족들은 대부분 유목민들이며 오직 원시적인 도구와 무기만을 사용합니다.
+		\n\n몇몇 부족들은 다른 부족들보다 더 적대적입니다. 다른 대부분은 당신과 같은 이방인들에게도 무역과 동맹에 있어 열려있습니다. 밀접한 협력이나 포섭은 사회적, 언어적 차이로 인해 어려울 수 있습니다.
+		\n\n이들의 기술적 약점에도 불구하고 저수준 기술을 이용한 전쟁기술, 부족민들의 수, 그들의 용기는 부족민들을 위험한 적이나 소중한 친구로 만듭니다.
+	</Tribe.description>
+	<Tribe.pawnsPlural>부족민들</Tribe.pawnsPlural>
 	
-	<Mechanoid.label>메카노이드 하이브</Mechanoid.label>
-	<Mechanoid.description>자가증식하는 고대 기계들의 중심지입니다.</Mechanoid.description>
+	<Mechanoid.label>메카노이드 군락</Mechanoid.label>
+	<Mechanoid.description>자가증식하는 고대 기계들의 군락입니다.</Mechanoid.description>
 	<Mechanoid.pawnsPlural>메카노이드</Mechanoid.pawnsPlural>
-	<Mechanoid.fixedName>메카노이드 하이브</Mechanoid.fixedName>
+	<Mechanoid.fixedName>메카노이드 군락</Mechanoid.fixedName>
 	
 	
 	

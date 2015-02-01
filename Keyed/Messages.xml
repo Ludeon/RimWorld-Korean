@@ -1,39 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
 <LanguageData>
-  <MessageSiegersAssaulting>농성하던 {1}에서 온 {0} 집단이 정착지를 공격하기 시작합니다.</MessageSiegersAssaulting>
-  <MessageRaidersBeginningAssault>{1}에서 온 {0} 집단이 공격하기 시작합니다.</MessageRaidersBeginningAssault>
-  <MessageRaidersDetectedEarlyAssault>{1}에서 온 {0} 집단이 당신을 발견하고 먼저 공격을 시작합니다.</MessageRaidersDetectedEarlyAssault>
-  <MessageRaidersKidnapping>{1}에서 온 {0} 집단이 납치할 수 있는 사람들을 데리고 떠나기로 했습니다.</MessageRaidersKidnapping>
-  <MessageRaidersLeaving>{1}에서 온 {0} 집단이 떠나고 있습니다.</MessageRaidersLeaving>
-  <MessageRaidersGivenUpLeaving>{1}에서 온 {0} 집단이 공격을 포기하고 퇴각하기 시작합니다.</MessageRaidersGivenUpLeaving>
-  <MessageRaidersSatisfiedLeaving>{1} 에서 온 {0} 집단이 입힌 손해에 만족하고 퇴각하기 시작합니다.</MessageRaidersSatisfiedLeaving>
-  <MessageFightersFleeing>{1}에서 온 {0} 집단이 도망치기 시작합니다.</MessageFightersFleeing>
-  <MessageFriendlyFightersLeaving>{1}에서 온 우호적인 {0} 집단이 떠나고 있습니다.</MessageFriendlyFightersLeaving>
-  <MessageSeasonBegun>{0}의 시작입니다.</MessageSeasonBegun>
-  <MessageShipHasLeftCommsRange>{0}의 우주선이 통신 범위에서 벗어났습니다.</MessageShipHasLeftCommsRange>
-  <MessageNeedBeaconToTradeWithShip>무역 송신기가 있어야 거래를 할 수 있습니다.</MessageNeedBeaconToTradeWithShip>
-  <MessageBillComplete>계획 완료: {0}</MessageBillComplete>
-  <MessageFullyHealed>{0}의 치료가 완료되었습니다.</MessageFullyHealed>
-  <MessagePrisonerIsEscaping>수감자 {0}이(가) 도망치고 있습니다.</MessagePrisonerIsEscaping>
-  <MessageRecruitSuccess>{0}의 {1}에 대한 포섭은 성공적이었습니다. (설득확률 {2})</MessageRecruitSuccess>
-  <MessageRecruitFail>{0}의 {1}에 대한 포섭은 실패했습니다. (설득확률 {2})</MessageRecruitFail>
-  <MessageRecruitFailBecauseLoyalty>{0}의 {1}에 대한 포섭은 실패했습니다.(수감자 충성도 미달)</MessageRecruitFailBecauseLoyalty>
-  <MessagePoorlyTreated>{0}이(가) {1}에게서 형편없는 치료를 받았습니다. (충분한 치료 확률 {2}).</MessagePoorlyTreated>
-  <MessageWellTreated>{0}이(가) {1}에게서 충분한 치료를 받았습니다. (충분한 치료 확률 {2}).</MessageWellTreated>
-  <MessageTraderCannotAfford>상인이 요금을 지불할 수 없습니다.</MessageTraderCannotAfford>
-  <MessageColonyCannotAfford>정착지가 요금을 지불할 수 없습니다.</MessageColonyCannotAfford>
-  <MessageColonyNotEnoughSilver>거래를 하기 위한 충분한 은이 준비되지 않았습니다.</MessageColonyNotEnoughSilver>
-  <MessageTraderNotEnoughSilver>상인이 거래를 하기 위해 필요한 은이 충분하지 않습니다.</MessageTraderNotEnoughSilver>
-  <MessageCriticalAlert>중대한 경고: {0}</MessageCriticalAlert>
-  <MessageMustDesignateHarvestable>충분히 자라 수확가능한 농작물을 지정해야 합니다.</MessageMustDesignateHarvestable>
-  <MessageMustDesignateHarvestableWood>충분히 성장한 나무를 지정해야 벌목을 할 수 있습니다.</MessageMustDesignateHarvestableWood>
-  <MessageMustDesignatePlants>식물을 지정해야 합니다.</MessageMustDesignatePlants>
-  <MessageMustDesignateHaulable>운반할 수 있는 아이템을 지정해야 합니다.</MessageMustDesignateHaulable>
-  <MessageMustDesignateMineable>채광 가능한 광석을 지정해야합니다.</MessageMustDesignateMineable>
-  <MessageMustDesignateHuntable>사냥 가능한 동물을 지정해야합니다.</MessageMustDesignateHuntable>
-  <MessageMustDesignateClaimable>버려진 인공 구조물을 지정해야 합니다.</MessageMustDesignateClaimable>
-  <MessageMustDesignateSmoothableFloor>거친 돌바닥을 지정해야 합니다.</MessageMustDesignateSmoothableFloor>
-  <MessageNoMedicalBeds>이용이 가능한 의료 침대가 없습니다.</MessageNoMedicalBeds>
-  <PawnDiedBecauseOf>{1}에 의해 {0}이 사망하였습니다.</PawnDiedBecauseOf>
-  <MessageNoLongerDowned>{0}은 이제 걸을 수 있습니다.</MessageNoLongerDowned>
+	<MessageSiegersAssaulting>{1}에서 온 농성하던 {0} 집단이 정착지를 공격하기 시작합니다.</MessageSiegersAssaulting>
+	<MessageRaidersBeginningAssault>{1}에서 온 {0} 집단이 공격하기 시작합니다.</MessageRaidersBeginningAssault>
+	<MessageRaidersDetectedEarlyAssault>{1}에서 온 {0} 집단이 당신을 발견하고 먼저 공격을 시작합니다.</MessageRaidersDetectedEarlyAssault>
+	<MessageRaidersKidnapping>{1}에서 온 {0} 집단이 납치할 수 있는 사람들을 데리고 떠나기로 했습니다.</MessageRaidersKidnapping>
+	<MessageRaidersLeaving>{1}에서 온 {0} 집단이 떠나고 있습니다.</MessageRaidersLeaving>
+	<MessageRaidersGivenUpLeaving>{1}에서 온 {0} 집단이 공격을 포기하고 퇴각하기 시작합니다.</MessageRaidersGivenUpLeaving>
+	<MessageRaidersSatisfiedLeaving>{1} 에서 온 {0} 집단이 입힌 손해에 만족하고 퇴각하기 시작합니다.</MessageRaidersSatisfiedLeaving>
+	<MessageFightersFleeing>{1}에서 온 {0} 집단이 도망치기 시작합니다.</MessageFightersFleeing>
+	<MessageFriendlyFightersLeaving>{1}에서 온 우호적인 {0} 집단이 떠나고 있습니다.</MessageFriendlyFightersLeaving>
+	<MessageSeasonBegun>{0}의 시작입니다.</MessageSeasonBegun>
+	<MessageShipHasLeftCommsRange>{0}의 우주선이 통신 범위에서 벗어났습니다.</MessageShipHasLeftCommsRange>
+	<MessageNeedBeaconToTradeWithShip>무역 송신기가 있어야 거래를 할 수 있습니다.</MessageNeedBeaconToTradeWithShip>
+	<MessageBillComplete>계획 완료: {0}</MessageBillComplete>
+	<MessageFullyHealed>{0}의 치료가 완료되었습니다.</MessageFullyHealed>
+	<MessagePrisonerIsEscaping>수감자 {0}이(가) 도망치고 있습니다.</MessagePrisonerIsEscaping>
+	<MessageRecruitSuccess>{0}의 {1}에 대한 포섭은 성공적이었습니다. (설득확률 {2})</MessageRecruitSuccess>
+	<MessageRecruitFail>{0}의 {1}에 대한 포섭은 실패했습니다. (설득확률 {2})</MessageRecruitFail>
+	<MessageRecruitFailBecauseLoyalty>{0}의 {1}에 대한 포섭은 실패했습니다.(수감자 충성도 미달)</MessageRecruitFailBecauseLoyalty>
+	<MessagePoorlyTreated>{0}이(가) {1}에게서 형편없는 치료를 받았습니다. (충분한 치료 확률 {2}).</MessagePoorlyTreated>
+	<MessageWellTreated>{0}이(가) {1}에게서 충분한 치료를 받았습니다. (충분한 치료 확률 {2}).</MessageWellTreated>
+	<MessageTraderCannotAfford>상인이 요금을 지불할 수 없습니다.</MessageTraderCannotAfford>
+	<MessageColonyCannotAfford>정착지가 요금을 지불할 수 없습니다.</MessageColonyCannotAfford>
+	<MessageColonyNotEnoughSilver>거래를 하기 위한 충분한 은이 준비되지 않았습니다.</MessageColonyNotEnoughSilver>
+	<MessageTraderNotEnoughSilver>상인이 거래를 하기 위해 필요한 은이 충분하지 않습니다.</MessageTraderNotEnoughSilver>
+	<MessageCriticalAlert>중대한 경고: {0}</MessageCriticalAlert>
+	<MessageMustDesignateHarvestable>충분히 자라 수확가능한 농작물을 지정해야 합니다.</MessageMustDesignateHarvestable>
+	<MessageMustDesignateHarvestableWood>충분히 성장한 나무를 지정해야 벌목을 할 수 있습니다.</MessageMustDesignateHarvestableWood>
+	<MessageMustDesignatePlants>식물을 지정해야 합니다.</MessageMustDesignatePlants>
+	<MessageMustDesignateHaulable>운반할 수 있는 아이템을 지정해야 합니다.</MessageMustDesignateHaulable>
+	<MessageMustDesignateMineable>채광 가능한 광석을 지정해야합니다.</MessageMustDesignateMineable>
+	<MessageMustDesignateHuntable>사냥 가능한 동물을 지정해야합니다.</MessageMustDesignateHuntable>
+	<MessageMustDesignateClaimable>버려진 인공 구조물을 지정해야 합니다.</MessageMustDesignateClaimable>
+	<MessageMustDesignateSmoothableFloor>거친 돌바닥을 지정해야 합니다.</MessageMustDesignateSmoothableFloor>
+	<MessageNoMedicalBeds>이용이 가능한 의료 침대가 없습니다.</MessageNoMedicalBeds>
+	<PawnDiedBecauseOf>{1}에 의해 {0}이 사망하였습니다.</PawnDiedBecauseOf>
+	<MessageNoLongerDowned>{0}은 이제 걸을 수 있습니다.</MessageNoLongerDowned>
 </LanguageData>
