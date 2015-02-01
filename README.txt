@@ -27,3 +27,5 @@ Alpha 6 (532) 3차 : 인서대, 쿨쿨냠냠
 
 Alpha 7 (581) 1차 : 토끼티모(ToTee)
 Alpha 7 (581) 2차 : DDCCDD
+
+Hello world!
