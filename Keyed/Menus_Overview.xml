@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-
   <!-- Tab titles -->
   <WorkTab>작업</WorkTab>
-  <FactionsTab>지역</FactionsTab>
+  <FactionsTab>세력</FactionsTab>
   <StatisticsTab>통계 자료</StatisticsTab>
   <HistoryTab>기록</HistoryTab>
   <WorldTab>월드</WorldTab>
@@ -13,30 +11,24 @@
   <ManualPriorities>중요성 수동조절</ManualPriorities>
   <HigherPriority>높은 중요성</HigherPriority>
   <LowerPriority>낮은 중요성</LowerPriority>
-  <RelevantSkills>해당 능력: {0}\n작업 능률: {1} / {2}</RelevantSkills>
+  <RelevantSkills>관련 능력: {0}\n관련 능력들의 평균값: {1} / {2}</RelevantSkills>
   <ClickToJumpTo>클릭하여 이동:</ClickToJumpTo>
   <CannotDoThisWork>\n이런 종류의 작업은 해당 주민이 할 수 없습니다.</CannotDoThisWork>
   <NoneBrackets>해당사항 없음</NoneBrackets>
-
-  
   <!-- Factions tab -->
   <Hostile>적대적 관계</Hostile>
-  <HostileTo>{0} 지역과 적대적 관계</HostileTo>
-  <CurrentGoodwill>해당 지역과 플레이어의 친선관계</CurrentGoodwill>
-
-  
+  <HostileTo>{0} 세력과 적대적 관계</HostileTo>
+  <CurrentGoodwill>해당 세력과 친선관계</CurrentGoodwill>
   <!-- Statistics tab -->
-  <Storyteller>Storyteller</Storyteller>
+  <Storyteller>스토리텔러</Storyteller>
   <ColonyWealthTotal>정착지 재산</ColonyWealthTotal>
   <ColonyWealthItems>정착지 재산 (아이템)</ColonyWealthItems>
-  <ColonyWealthBuildings>정착지 재산 (건설 및 제작)</ColonyWealthBuildings>
+  <ColonyWealthBuildings>정착지 재산 (건물)</ColonyWealthBuildings>
   <NumThreatBigs>주요 위협</NumThreatBigs>
   <NumEnemyRaids>적의 습격</NumEnemyRaids>
   <DamageTaken>받은 피해량</DamageTaken>
   <ColonistsKilled>죽은 주민</ColonistsKilled>
   <ColonistsLaunched>우주로 날아간 주민</ColonistsLaunched>
-
-
   <!-- History tab -->
   <SelectGraph>그래프 선택</SelectGraph>
   <Last30Days>지난 30일간</Last30Days>
@@ -46,6 +38,5 @@
   <Day>일</Day>
   <Value>값</Value>
   <External>외부</External>
-  
   
 </LanguageData>

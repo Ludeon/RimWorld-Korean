@@ -1,34 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <JumpToLocation>해당 위치로 화면이동</JumpToLocation>
 
-  <RelationsBrokenDown>{0}지역과 친선관계가 틀어졌습니다. 저들은 이제 당신을 적으로 간주합니다.</RelationsBrokenDown>
-  <RelationsWarmed>{0}지역과 친선관계가 회복되었습니다. 더이상 당신을 적으로 간주하지 않습니다.</RelationsWarmed>
-
-  <RelationsBrokenCapture>{1}지역 주민{0}씨를 포획하였기 때문에, {1}지역은 당신을 적으로 간주합니다.</RelationsBrokenCapture>
-
-  <ColonyGoodwill>지역 친선도</ColonyGoodwill>
+  <FirstSummerWarning>여름이 시작되었습니다! 그러나 곧 겨울이 올 것입니다.\n\n당신의 작물들은 겨울의 추위속에서는 자라지 않을 것입니다. 그러니 겨울이 오기 전에 충분한 양의 음식과 작물들을 보관하십시오.\n\n음식물들이 부패하는것을 방지하기 위해서 출입 가능한 냉동고를 건설할 수 있습니다.\n\n또한 파카를 만들거나 구입하거나 훔치십시오. 그렇지 않으면 겨울에 밖으로 나가서 동사할 수 있습니다.</FirstSummerWarning>
+  <RelationsBrokenDown>{0} 세력과의 우호관계가 틀어졌습니다. 저들은 이제 당신을 적으로 간주합니다.</RelationsBrokenDown>
+  <RelationsWarmed>{0} 세력과의 우호관계가 회복되었습니다. 이제 당신을 적으로 간주하지 않습니다.</RelationsWarmed>
+  <RelationsBrokenCapture>{1} 주민 {0}의 구속으로 인하여, {1} 세력은 당신을 적으로 간주합니다.</RelationsBrokenCapture>
+  <ColonyGoodwill>정착지 우호도</ColonyGoodwill>
   <Neutral>중립</Neutral>
-
-  <ShortCircuitRain>빗물이 스며들어 누전 화재가 발생했습니다! ({0}) </ShortCircuitRain>
-  <AreaRevealed>새로운 공간이 들어났습니다.</AreaRevealed>
-
-  <RoofCollapsed>주변에 지지할 수 있는 것들과 너무 멀리 떨어져 있어서 천장이 붕괴되었습니다!</RoofCollapsed>
+  <ShortCircuitRain>{0}에 빗물이 스며들어 누전 화재가 발생했습니다.</ShortCircuitRain>
+  <AreaRevealed>새로운 공간이 드러났습니다.</AreaRevealed>
+  <RoofCollapsed>주변의 지지할 수 있는 것들과 너무 멀리 떨어져 있어서 천장이 붕괴되었습니다.</RoofCollapsed>
   <TheseThingsCrushed>파손된 목록:</TheseThingsCrushed>
   <NothingCrushed>해당사항 없음</NothingCrushed>
-  
-  <MentalBreakRampage>({0})멘탈이 붕괴되어 미쳐 날뛰고 있습니다.</MentalBreakRampage>
-  <MentalBreakDaze>({0})멘탈이 터져서 정착지 생활을 포기하고 지역을 떠납니다.</MentalBreakDaze>
-  <MentalBreakLeave>({0})생각하는 것을 그만두고 멍하니 방황합니다.</MentalBreakLeave>
-
-  <RecruitSuccess>주민 {0}씨가 성공적으로 수감자 {1}씨를 포섭하였습니다. (설득확률 {2})</RecruitSuccess>
-  <RecruitFail>주민 {0}씨가 수감자 {1}씨를 포섭 하는데 실패했습니다. (설득확률 {2})</RecruitFail>
-  
-  <Birthday>{0}의 생일입니다! {1} 나이를 먹습니다. {2}</Birthday>
-  <BirthdayWithInjuries>{0}의 생일입니다! {1} 나이를 먹습니다. {2}.\n\n불행하게도, {0} 은(는) 노화로 인해 다음의 질병을 가지고 있습니다.:\n{3}</BirthdayWithInjuries>
-  
-  <NewDisease>{0}은 아픕니다. ({1}). {0}이 적절한 치료를 받으며 신속히 나아지기 위해서 침대에서 지내고 있는지 확인하세요.</NewDisease>
-  <NewPartDisease>{0}은 {1} 감염되었습니다. {0}이 적절한 치료를 받으며 신속히 나아지기 위해서 침대에서 지내고 있는지 확인하세요.</NewPartDisease>
-  
+  <MentalBreakRampage>{0}의 정신이 붕괴되어 미쳐 날뛰고 있습니다.</MentalBreakRampage>
+  <MentalBreakDaze>{0}의 정신이 붕괴되어 멍하니 방황합니다.</MentalBreakDaze>
+  <MentalBreakLeave>{0}의 정신이 붕괴되어 정착지 생활을 포기하고 정착지를 떠나고 있습니다.</MentalBreakLeave>
+  <MentalBreakRecoveryRampage>{0}의 광란은 이제 끝났습니다.</MentalBreakRecoveryRampage>
+  <MentalBreakRecoveryDaze>{0}은 더 이상 혼란스러워 하지 않습니다.</MentalBreakRecoveryDaze>
+  <MentalBreakRecoveryLeave>{0}의 마음이 바뀌어 식민지로 다시 되돌아 오고 있습니다.</MentalBreakRecoveryLeave>
+  <RecruitSuccess>{0}의 {1}에 대한 포섭은 성공적이었습니다. (설득확률 {2})</RecruitSuccess>
+  <RecruitFail>{0}의 {1}에 대한 포섭은 실패했습니다. (설득확률 {2})</RecruitFail>
+  <Birthday>오늘은 {0}의 생일입니다! {1} {2}살이 되었습니다.</Birthday>
+  <BirthdayWithInjuries>오늘은 {0}의 생일입니다! {1} {2}살이 되었습니다.\n\n불행하게도, {0}의 노화로 인해 다음의 질병을 지니게 됩니다.\n{3}</BirthdayWithInjuries>
+  <NewDisease>{1}의 원인으로 인해 {0}은(는) 아픕니다. {0}이(가) 적절한 치료를 받는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewDisease>
+  <NewPartDisease>{0}의 {1} 부위가 감염되었습니다. {0}이(가) 적절한 치료를 받는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewPartDisease>
 </LanguageData>
