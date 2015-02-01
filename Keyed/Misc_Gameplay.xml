@@ -25,7 +25,7 @@
 	<InjuryRequiresTreatment>치료 필요</InjuryRequiresTreatment>
 	<NextTreatmentAfter>다음 치료 {0}일 후</NextTreatmentAfter>
 	<MissingMedicalBillIngredient>{0} 없음</MissingMedicalBillIngredient>
-	<ImmunityDevelopmentProgress>항체 생성중</ImmunityDevelopmentProgress>
+	<ImmunityDevelopmentProgress>항체 생성 중</ImmunityDevelopmentProgress>
 	<Race>종류</Race>
 	<Description>설명</Description>
 	<Equipment>장비</Equipment>
@@ -46,9 +46,9 @@
 	<MinimumRange>최소 사거리</MinimumRange>
 	<CanFireIn>발사 가능</CanFireIn>
 	<!-- Job reports -->
-	<ReportHaulingTo>{0}에서 {1}로 운반중.</ReportHaulingTo>
-	<ReportHauling>{0} 운반중.</ReportHauling>
-	<ReportSleeping>수면중.</ReportSleeping>
+	<ReportHaulingTo>{0}에서 {1}로 운반 중.</ReportHaulingTo>
+	<ReportHauling>{0} 운반 중.</ReportHauling>
+	<ReportSleeping>수면 중.</ReportSleeping>
 	<ReportResting>쉬는 중.</ReportResting>
 	<!-- Shooting report -->
 	<WeaponMissRadius>무기 빗나감 범위</WeaponMissRadius>
@@ -66,14 +66,17 @@
 	<RecipeMakeJobString>{0} 만드는 중.</RecipeMakeJobString>
 	<!-- Status levels -->
 	<Mood>기분</Mood>
-	<MoodTip>기분은 신체적, 정신적인 요구를 충족하여 유지됩니다.\n\n만약 누군가의 기분이 너무 좋지 않다면, 그들은 정신이상을 겪게 될수도 있습니다.</MoodTip>
+	<MoodTip>기분은 신체적, 정신적인 요구를 충족하여 유지됩니다.
+		\n\n만약 누군가의 기분이 너무 좋지 않다면 정신이상을 겪게 될수도 있습니다.</MoodTip>
 	<Food>음식</Food>
 	<FoodTip>음식은 최근에 소비한 영양분의 양입니다. 음식 섭취를 하지 않았을 경우 기아로 인해 지속적인 피해를 입을 것입니다.</FoodTip>
 	<Rest>휴식</Rest>
-	<RestTip>사람이 얼마나 안정된 휴식과 수면을 취했는가를 나타냅니다.\n\n누군가가 침대에서 잘 때에는 빠르게 피로가 감소하지만, 침대 밖에 있을 때에는 시간이 지남에 따라 피로도가 증가합니다.
+	<RestTip>사람이 얼마나 안정된 휴식과 수면을 취했는가를 나타냅니다.
+		누군가가 침대에서 잘 때에는 빠르게 피로가 감소하지만, 침대 밖에 있을 때에는 시간이 지남에 따라 피로도가 증가합니다.
 	</RestTip>
 	<Environment>환경</Environment>
-	<EnvironmentTip>환경은 주변이 얼마나 그사람을 기쁘게하는가를 나타냅니다. \n\n환경은 아름다운 장식과 넓은 방에 있을 경우 매우 높습니다. 주변 환경이 좋지 않다면 그 반대입니다.
+	<EnvironmentTip>환경은 주변이 얼마나 그사람을 기쁘게하는가를 나타냅니다.
+		환경은 아름다운 장식과 넓은 방에 있을 경우 매우 높아집니다. 주변 환경이 좋지 않다면 그 반대입니다.
 	</EnvironmentTip>
 	<Openness>개방 상태</Openness>
 
@@ -101,7 +104,9 @@
 	<SanityPsychotic>정신이상: 정신병적 광란</SanityPsychotic>
 
 	<!-- Inspector general stuff -->
-	<SelectNextInSquareTip>같은 일을 반복해서 수행합니다.\n\n바로가기 키: {0}\n\n당신은 사각형을 클릭하여 천천히 같은 반복된 작업을 수행할 수 있습니다.
+	<SelectNextInSquareTip>같은 칸에 있는 다음 물건을 선택합니다.
+		\n\n바로가기 키: {0}
+		\n\n한 사각형을 천천히 여러 번 눌러도 같은 작업을 할 수 있습니다.
 	</SelectNextInSquareTip>
 	<DefInfoTip>이 개체에 대한 정보 보기</DefInfoTip>
 	<!-- like 'Blood of John' -->
@@ -154,12 +159,12 @@
 	<Mature>성숙</Mature>
 	<SeedLabel>{0} 씨앗</SeedLabel>
 	<OutdoorGrowingPeriod>성장 기간: {0}</OutdoorGrowingPeriod>
-	<NoGrowingPeriod>불가</NoGrowingPeriod>
+	<NoGrowingPeriod>불가능</NoGrowingPeriod>
 	<GrowYearRound>연중 계속</GrowYearRound>
 	<CannotGrowTooCold>너무 추워 성장할 수 없습니다.</CannotGrowTooCold>
 	<!-- Zones -->
 	<Zone>지역</Zone>
-	<GrowingZone>재배 지역</GrowingZone>
+	<GrowingZone>재배지역</GrowingZone>
 	<Stockpile>저장공간</Stockpile>
 	<DumpingStockpile>처리장</DumpingStockpile>
 	<Priority>우선순위</Priority>

@@ -34,13 +34,13 @@
 	<RefugeePodCrash>정착지 주민들이 주변에 탈출용 낙하기가 강하게 충돌하는 것을 감지 했습니다.\n\n만약 누군가 충돌에서 살아 남았다면, 매우 심각하게 부상 당했을 겁니다.
 	</RefugeePodCrash>
 
-	<CargoPodCrash>정착지 주민들이 주변에 다수의 화물 낙하기가 추락한 것을 감지 했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을 겁니다.</CargoPodCrash>
+	<CargoPodCrash>정착지 주민들이 주변에 다수의 화물 낙하기가 추락한 것을 감지했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을 겁니다.</CargoPodCrash>
 
 	<AnElectricalConduit>전선</AnElectricalConduit>
 
 	<AWallsPowerConduit>벽에 매설된 전선</AWallsPowerConduit>
 
-	<ShortCircuit>{0}의 결함으로 누전이 발생했습니다.\n\n연결되어있던 모든 배터리가 지녔던 {1} Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
+	<ShortCircuit>{0}의 결함으로 누전이 발생했습니다.\n\n연결되어있던 모든 축전지가 지녔던 {1} Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
 
 	<ShortCircuitWasLarge>저장되어 있던 전기로 인해 상당한 규모의 폭발이 발생했습니다.</ShortCircuitWasLarge>
 
@@ -70,8 +70,9 @@
 
 
 	<!-- Crashed ship part-->
-	<SpaceshipPartCrash>주변에 고대 우주선의 커다란 잔해가 떨어졌습니다.\n\n정착지 주민들은 그 잔해가 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것을 느낄 수 있습니다. 이건 우주선에
-		탑재된 AI의 정신발산능력이 분명하고, 이 인공지능은 친근하지 않습니다.\n\n최대한 빨리 파괴하십시오.
+	<SpaceshipPartCrash>주변에 고대 우주선의 커다란 잔해가 떨어졌습니다.
+		\n\n정착지 주민들은 그 잔해가 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것을 느낄 수 있습니다. 이건 우주선에 탑재된 AI의 정신발산능력이 분명하고, 이 인공지능은 친근하지 않습니다.
+		\n\n최대한 빨리 파괴하십시오.
 	</SpaceshipPartCrash>
 
 	<MessageAnimalInsanityPulse>고대 우주선이 정신적 파동을 발산하여 주변 동물들을 미쳐 날뛰게 만들었습니다.</MessageAnimalInsanityPulse>
@@ -94,8 +95,8 @@
 	<LetterAgentRevealed>{0}의 정체가 {1}의 스파이로 밝혀졌으며, 지금 탈출을 시도합니다.</LetterAgentRevealed>
 
 	<!-- Distant psychic drone -->
-	<LetterIncidentPsychicDrone>거주지 모든 {0} 머리에 못질하는 듯한 두통이 느껴지고 있습니다!\n\n멀리 떨어진 증오의 엔진이 작동하기 시작했고, 특정 성별에만 영향을 미치는 주파수의
-		정신적 소음이 며칠 동안 몇몇 사람들의 기분을 좀 나쁘게 할 것입니다.
+	<LetterIncidentPsychicDrone>거주지 모든 {0} 머리에 못질하는 듯한 두통이 느껴지고 있습니다!
+		\n\n멀리 떨어진 증오의 엔진이 작동하기 시작함과 동시에, 특정 성별에만 영향을 미치는 주파수의 정신적 소음이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
 	</LetterIncidentPsychicDrone>
 
 	<!-- Beavers -->

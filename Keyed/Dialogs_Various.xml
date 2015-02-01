@@ -60,7 +60,7 @@
 		선택하세요.
 	</MapTemperatureDangerWarning>
 
-	<MapSizePerformanceWarning>경고:맵의 규모가 넓어질수록 게임의 품질이 저하될 것입니다.\n\n터무니 없는 크기는 아직 검증되지 않았으며 대부분 잘 진행되지 않을 것입니다.
+	<MapSizePerformanceWarning>경고: 맵의 규모가 넓어질수록 게임의 품질이 저하될 것입니다.\n\n터무니 없는 크기는 아직 검증되지 않았으며 대부분 잘 진행되지 않을 것입니다.
 	</MapSizePerformanceWarning>
 	<MapSize>맵의 규모</MapSize>
 	<MapSizeDesc>{0}x{0} ({1}칸)</MapSizeDesc>
@@ -68,6 +68,8 @@
 	<MapSizeMedium>중형</MapSizeMedium>
 	<MapSizeLarge>대형</MapSizeLarge>
 	<MapSizeExtreme>터무니 없음</MapSizeExtreme>
+	<MapStartMonth>착륙하는 날짜:</MapStartMonth>
+	<MapStartMonthDefault>자동</MapStartMonthDefault>
 
 	<!-- Bill config -->
 	<Suspended>일시 정지</Suspended>
@@ -92,7 +94,7 @@
 	<BillStoreMode_BestStockpile>저장소로 옮기기</BillStoreMode_BestStockpile>
 	<BillStoreMode_NearestStockpileAnyPriority>가까운 저장소로 가지고 가기</BillStoreMode_NearestStockpileAnyPriority>
 
-	<!-- Def Card -->
+	<!-- Info Card -->
 	<Damage>피해량</Damage>
 	<Accuracy>정확도</Accuracy>
 	<BurstShotCount>연발 횟수</BurstShotCount>
