@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Various -->
+  <WorkLeft>남은 작업 수</WorkLeft>
+  <Contents>내용물</Contents>
+  <ContainedResources>포함된 자원</ContainedResources>
+  <ForPrisonerUse>죄수용</ForPrisonerUse>
+  <ForColonistUse>주민용</ForColonistUse>
+  <MedicalBed>의료용</MedicalBed>
+  <Owner>주인</Owner>
+  <Nobody>아무도 </Nobody>
+  <Unowned>주인 없음</Unowned>
+  <DeadTime>죽음 {0}</DeadTime>
+  <WalkSpeed>걷는 속도 {0}</WalkSpeed>
+  <DyingLower>죽어가고 있음</DyingLower>
+  <FilthOnFeet>발에 있는 오물:</FilthOnFeet>
+  <NotEnoughStoredLower>충분히 저장되지 않음</NotEnoughStoredLower>
+  <NothingLower>아무것도 아님</NothingLower>
+  <Adapted>적응</Adapted>
+  <Headshot>머리 명중!</Headshot>
+  <FreshMissingBodyPart>방금</FreshMissingBodyPart>
+  <UntreatedLower>치료</UntreatedLower>
+  <DevelopedImmunityLower>면역됨</DevelopedImmunityLower>
+  <InjuryRequiresTreatment>치료 필요</InjuryRequiresTreatment>
+  <NextTreatmentAfter>다음 치료 {0}일 후</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>안됨 {0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>면역이 진행중</ImmunityDevelopmentProgress>
+  <Race>종류</Race>
+  <Description>설명</Description>
+  <Equipment>장비</Equipment>
+  <Apparel>의복</Apparel>
+  <Inventory>재고</Inventory>
+  <ThingInfo>정보</ThingInfo>
+  <DropThing>떨어뜨리기</DropThing>
+  <RenameColonist>주민이름 개명</RenameColonist>
+  <UnknownLower>알려지지 않음</UnknownLower>
+  <!-- Snow -->
+  <SnowNone>눈이 없음</SnowNone>
+  <SnowDusting>눈 (약간)</SnowDusting>
+  <SnowThin>눈 (얇음)</SnowThin>
+  <SnowMedium>눈 (쌓임)</SnowMedium>
+  <SnowThick>눈 (두껍게 쌓임)</SnowThick>
+  <!-- Turrets -->
+  <GunInstalled>장착</GunInstalled>
+  <MinimumRange>최소 사거리</MinimumRange>
+  <CanFireIn>발사 가능</CanFireIn>
+  <!-- Job reports -->
+  <ReportHaulingTo>{0}에서 {1}로 운반중.</ReportHaulingTo>
+  <ReportHauling>{0} 운반중.</ReportHauling>
+  <ReportSleeping>수면중.</ReportSleeping>
+  <ReportResting>쉬는중.</ReportResting>
+  <!-- Shooting report -->
+  <WeaponMissRadius>무기 반경에서 놓침.</WeaponMissRadius>
+  <ShootReportShooterAbility>사수</ShootReportShooterAbility>
+  <ShootReportWeapon>무기</ShootReportWeapon>
+  <Darkness>어두움</Darkness>
+  <TargetProne>대상 웅크림</TargetProne>
+  <TargetSize>대상 크기</TargetSize>
+  <Weather>날씨</Weather>
+  <ShootingCover>엄폐</ShootingCover>
+  <CoverThingBlocksPercentOfShots>{0} 이 {1}만큼 방어</CoverThingBlocksPercentOfShots>
+  <NoCoverLower>엄폐하지 않음</NoCoverLower>
+  <!-- Generated recipes -->
+  <RecipeMake>{0} 만들기</RecipeMake>
+  <RecipeMakeJobString>{0} 만드는 중.</RecipeMakeJobString>
+  <!-- Status levels -->
+  <Mood>기분</Mood>
+  <MoodTip>기분은 신체적, 정신적인 요구를 충족하여 유지됩니다.\n\n만약 누군가의 기분이 너무 좋지 않다면, 그들은 정신이상을 겪게 될수도 있습니다.</MoodTip>
+
+  <Food>음식</Food>
+  <FoodTip>음식은 최근에 소비한 영양분의 양입니다. 음식 섭취를 하지 않았을 경우 기아로 인해 지속적인 피해를 입을 것입니다.</FoodTip>
+
+  <Rest>휴식</Rest>
+  <RestTip>사람이 얼마나 안정된 휴식과 수면을 취했는가를 나타냅니다.\n\n누군가가 침대에서 잘 때에는 빠르게 피로가 감소하지만, 침대 밖에 있을 때에는 시간이 지남에 따라 피로도가 증가합니다.</RestTip>
+
+  <Environment>환경</Environment>
+  <EnvironmentTip>환경은 주변이 얼마나 그사람을 기쁘게하는가를 나타냅니다. \n\n환경은 아름다운 장식과 넓은 방에 있을 경우 매우 높습니다. 주변 환경이 좋지 않다면 그 반대입니다.</EnvironmentTip>
+
+  <Openness>개방 상태</Openness>
+  <!-- Thoughts -->
+  <ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
+  <ThoughtStartsExpiringIn>{0} 후에 만료 시작</ThoughtStartsExpiringIn>
+  <ThoughtFinishesExpiringIn>에 만료 마감: {0}</ThoughtFinishesExpiringIn>
+  <MentalBreakThreshold>정신이상 임계값</MentalBreakThreshold>
+  <!-- Pawn info readout -->
+  <Health>체력</Health>
+  <PawnMainDescWithFactionGendered>{2} 의 {0} {1}</PawnMainDescWithFactionGendered>
+  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+  <PawnMainDescWithFactionGenderless>{1} 의 {0}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
+  <Faction>세력</Faction>
+  <Equipped>장착</Equipped>
+  <EquippedNothing>아무것도</EquippedNothing>
+  <Incapacitated>무력화됨</Incapacitated>
+  <InRestraints>구속됨 (느려짐)</InRestraints>
+  <Carrying>운반중</Carrying>
+  <SanityDazedWander>정신이상: 혼란스러워하며 방황하는 중</SanityDazedWander>
+  <SanityGiveUpExit>정신이상: 포기하고 떠나는 중</SanityGiveUpExit>
+  <SanityPanicFlee>정신이상: 공황상태에 빠져 도망치는 중</SanityPanicFlee>
+  <SanityPsychotic>정신이상: 정신병적 광란</SanityPsychotic>
+  <!-- Inspector general stuff -->
+  <SelectNextInSquareTip>같은 일을 반복해서 수행합니다.\n\n바로가기 키: {0}\n\n당신은 사각형을 클릭하여 천천히 같은 반복된 작업을 수행할 수 있습니다.</SelectNextInSquareTip>
+  <DefInfoTip>이 개체에 대한 정보 보기</DefInfoTip>
+  <!-- like 'Blood of John' -->
+  <OfLower>: </OfLower>
+  <!-- Power readout -->
+  <PowerNotConnected>전원이 연결되지 않음</PowerNotConnected>
+  <PowerConnectedRateStored>송전 용량/저장 용량: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerNeeded>필요 전력량</PowerNeeded>
+  <PowerOutput>전력 출력량</PowerOutput>
+  <PowerBatteryStored>저장됨</PowerBatteryStored>
+  <PowerBatteryEfficiency>전력 효율</PowerBatteryEfficiency>
+  <!-- Temperature control -->
+  <TargetTemperature>대상 온도</TargetTemperature>
+  <PowerConsumptionMode>현재 전력 사용량</PowerConsumptionMode>
+  <PowerConsumptionHigh>높음</PowerConsumptionHigh>
+  <PowerConsumptionLow>낮음</PowerConsumptionLow>
+  <!-- Temperature readout -->
+  <Indoors>실내</Indoors>
+  <Outdoors>실외</Outdoors>
+  <!--Rotting-->
+  <RotStateFresh>신선함</RotStateFresh>
+  <RotStateRotting>썩는 중</RotStateRotting>
+  <RotStateDessicated>백골화</RotStateDessicated>
+  <!-- Shooting tooltip -->
+  <ShotBy>{0}의 사격</ShotBy>
+  <CannotHit>목표를 공격할 수 없습니다.</CannotHit>
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>저장하지 않음</StoragePriorityUnstored>
+  <StoragePriorityLow>낮음</StoragePriorityLow>
+  <StoragePriorityNormal>보통</StoragePriorityNormal>
+  <StoragePriorityPreferred>선호</StoragePriorityPreferred>
+  <StoragePriorityImportant>중요</StoragePriorityImportant>
+  <StoragePriorityCritical>매우 중요</StoragePriorityCritical>
+  <!-- Rotting -->
+  <CurrentlyFrozen>냉동 (부패하지 않음)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>냉장 ({0}일간 보관 가능)</CurrentlyRefrigerated>
+  <NotRefrigerated>냉장되지 않음 ({0}일간 보관 가능)</NotRefrigerated>
+  <OverADecade>매우 긴 시간</OverADecade>
+  <!-- Meal -->
+  <Ingredients>성분</Ingredients>
+  <!-- Plants -->
+  <PercentGrowth>{0}% 성장함</PercentGrowth>
+  <Growing>성장중</Growing>
+  <NotGrowingNow>지금은 성장하지 않음 ({0}할 필요가 있습니다.)</NotGrowingNow>
+  <NotGrowingNowResting>지금은 성장하지 않습니다. (휴식 중)</NotGrowingNowResting>
+  <FullyGrownIn>{0}일 후 완전히 성장함.</FullyGrownIn>
+  <OutOfIdealTemperatureRange>이상적인 온도 범위에서 벗어남 (정상 속도의 {0}%만큼 성장)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>이상적인 온도 범위에서 벗어남 (성장하지 않음)</OutOfIdealTemperatureRangeNotGrowing>
+  <ReadyToHarvest>수확 가능.</ReadyToHarvest>
+  <Mature>성숙함.</Mature>
+  <SeedLabel>{0} 씨앗</SeedLabel>
+  <OutdoorGrowingPeriod>성장 기간: {0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>불가</NoGrowingPeriod>
+  <GrowYearRound>연중 계속</GrowYearRound>
+  <CannotGrowTooCold>너무 추워 성장할 수 없습니다.</CannotGrowTooCold>
+  <!-- Zones -->
+  <Zone>지역</Zone>
+  <GrowingZone>재배 지역</GrowingZone>
+  <Stockpile>저장공간</Stockpile>
+  <DumpingStockpile>처리장</DumpingStockpile>
+  <Priority>우선순위</Priority>
+  <ClearAll>모두 제거</ClearAll>
+  <!-- Mouseover indicator -->
+  <Undiscovered>발견되지 않움</Undiscovered>
+  <!-- Buttons -->
+  <ZoneVisibilityToggleButton>구역의 가시성여부.</ZoneVisibilityToggleButton>
+  <AutoHomeRegionToggleButton>자동적으로 새로 건설한 지역 주변을 홈지역으로 추가하게 합니다.</AutoHomeRegionToggleButton>
+  <CategorizedResourceReadoutToggleButton>자원을 분류한 판독 모드</CategorizedResourceReadoutToggleButton>
+  <!-- Fire -->
+  <Fire>화재</Fire>
+  <FireOn>{0}에 화재</FireOn>
+  <Burning>타는 중</Burning>
+  <FireSizeLower>화재 크기 {0}</FireSizeLower>
+  <!-- Map conditions (eclipse, solar flare, etc )-->
+  <MapConditionsTip>특별한 효과가 지금 이 지역에 영향을 끼치고 있습니다.</MapConditionsTip>
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>건설하기에 필요한 재료들이 충분하지 않습니다.</NoStuffsToBuildWith>
+  <!-- Building placement restricters -->
+  <MustPlaceUnroofed>지붕 아래에 배치 할 수 없습니다.</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>우주선 지지부에 머리를 맞대고 있어야 합니다.</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>호퍼가 필요한 무언가의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>증기 간혈천에 직접 배치되어야합니다.</MustPlaceOnSteamGeyser>
+  <MustPlaceCoolerWithFreeSpaces>히터와 쿨러의 두 면이 모두 밖으로 노출되어야 합니다.</MustPlaceCoolerWithFreeSpaces>
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>바람길이 막힘</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>지붕에 의해 차단</WindTurbine_WindPathIsBlockedByRoof>
+  <!-- Cryptosleep casket -->
+  <CasketContains>포함</CasketContains>
+  <CasketUnknownContents>알려지지않음</CasketUnknownContents>
+  <CasketWarning>경고!\n\nNAME 은 당신의 마지막으로 남은 주민입니다! 만약 주민을 동면기 안으로 넣는다면 당신은 더이상 이 식민지를 플레이 할 수 없습니다. 정말 계속 진행하시겠습니까?</CasketWarning>
+  <!-- Ship launch report -->
+  <ShipReportCannotLaunch>발사할 수 없습니다.</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>발사 준비 완료.</ShipReportCanLaunch>
+  <ShipReportMissingPart>중요한 구성요소 누락</ShipReportMissingPart>
+  <ShipReportNoFullPods>비어있는 동면기</ShipReportNoFullPods>
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>{0}을 배우기 위해 신경훈련기 사용</UseNeurotrainer>
+  <NeurotrainerUsed>{0}이 {1} 신경훈련기를 사용하여 기술 등급이 {2}에서 {3}으로 상승.</NeurotrainerUsed>
+  <!-- Minification -->
+  <Installed>설치</Installed>
+  <NotInstalled>설치되지 않음</NotInstalled>
+  <!-- Art -->
+  <Title>제목</Title>
+  <Untitled>제목 없음</Untitled>
+  <!-- Unfinished thing -->
+  <UnfinishedItem>미완성 {0}</UnfinishedItem>
+  <UnfinishedItemWithStuff>미완성 {0} {1}</UnfinishedItemWithStuff>
+  <!-- Quality -->
+  <Quality>품질</Quality>
+  <QualityDescription>얼마나 이 물건이 잘만들어졌는가를 나타냅니다.</QualityDescription>
+  <QualityIs>품질: {0}</QualityIs>
+  <!-- Game over -->
+  <GameOverEveryoneDead>모든 주민이 죽거나 떠났습니다. 이 여정은 끝났습니다.\n\n아마도 다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠군요.</GameOverEveryoneDead>
+  <GameOverShipLaunched>우주선을 발사하였습니다! 다음 주민들이 탈출했습니다.\n\n{0}\n다음 주민들은 남아 습니다.\n\n{1}\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 누군가가 여기에 새로운 글리터 월드를 건설할 때 까지 몇 세기동안 소행성의 얼음 아래서 기다리기로 할 수도 있구요.\n\n당신이 일어나면 알게 되겠죠.</GameOverShipLaunched>
+  <GameOverKeepPlaying>계속 플레이하기</GameOverKeepPlaying>
+  <GameOverMainMenu>메인 메뉴</GameOverMainMenu>
+</LanguageData>
