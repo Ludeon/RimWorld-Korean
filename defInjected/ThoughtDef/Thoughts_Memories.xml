@@ -1,115 +1,336 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
 <LanguageData>
 
-	<AteRawFood.label>생식 섭취</AteRawFood.label>
-	<AteRawFood.description>생식을 먹어야만 했어. 이걸 요리할 수는 없어? 적어도 영양반죽이라도 말이야...</AteRawFood.description>
-	
-	<AteNutrientPasteMeal.label>합성 식량 섭취</AteNutrientPasteMeal.label>
-	<AteNutrientPasteMeal.description>합성 식량을 먹고있어. 살기 위해서 먹는다지만, 아무도 그 찐득찐득한 것을 삼키고 싶어 하지는 않을거야.</AteNutrientPasteMeal.description>
-	
-	<AteFineMeal.label>괜찮은 식사 섭취</AteFineMeal.label>
-	<AteFineMeal.description>정말로 맛좋은 식사를 했어. 냠!</AteFineMeal.description>
-	
-	<AteLavishMeal.label>호화로운 식사</AteLavishMeal.label>
-	<AteLavishMeal.description>정말 엄청난 식사를 했어! 내 몸과 영혼까지 훌륭함과 행복감을 느껴!</AteLavishMeal.description>
+	<rep>
+		<path>AteRawFood.stages[0].label</path>
+		<trans>생식</trans>
+	</rep>
+	<rep>
+		<path>AteRawFood.stages[0].description</path>
+		<trans>날것을 그냥 먹어야 했어. 요리할 순 없는거야? 아니면 최소한 영양반죽이라도?</trans>
+	</rep>
+
+
+	<rep>
+		<path>AteNutrientPasteMeal.stages[0].label</path>
+		<trans>영양반죽 섭취</trans>
+	</rep>
+	<rep>
+		<path>AteNutrientPasteMeal.stages[0].description</path>
+		<trans>영양반죽을 먹어야 했어. 살기 위해서 먹어야 한다는 건 알아. 그치만 아무도 이 찐득찐득한걸 삼키고 싶진 않을꺼라고.</trans>
+	</rep>
+
+
+	<rep>
+		<path>AteFineMeal.stages[0].label</path>
+		<trans>괜찮은 식사 섭취</trans>
+	</rep>
+	<rep>
+		<path>AteFineMeal.stages[0].description</path>
+		<trans>정말 맛있는 식사를 했어. 냠!</trans>
+	</rep>
+
+
+	<rep>
+		<path>AteLavishMeal.stages[0].label</path>
+		<trans>호화로운 식사 섭취</trans>
+	</rep>
+	<rep>
+		<path>AteLavishMeal.stages[0].description</path>
+		<trans>그 식사는 정말 엄청났어. 내 몸뿐만 아니라 영혼까지 배가 부른 느낌이야.</trans>
+	</rep>
 	
   <!-- =========== Cannibalism ===============-->
-	<AteHumanoidMeatDirect.label>생 인육 섭취</AteHumanoidMeatDirect.label>
-	<AteHumanoidMeatDirect.description>짐승처럼 다른 사람을, 그것도 생으로 먹었어. 이것은 악몽인듯!</AteHumanoidMeatDirect.description>
-	
-	<AteHumanoidMeatAsIngredient.label>인육 가공품 섭취</AteHumanoidMeatAsIngredient.label>
-	<AteHumanoidMeatAsIngredient.description>인육으로 만든 음식을 먹었어. 아... 끔찍해!</AteHumanoidMeatAsIngredient.description>
-	
-	
-	<AteHumanoidMeatDirectCannibal.label>생 인육 섭취</AteHumanoidMeatDirectCannibal.label>
-	<AteHumanoidMeatDirectCannibal.description>짐승처럼 다른 사람을 생으로 먹었어요. 너무... 즙이 맛있네요!</AteHumanoidMeatDirectCannibal.description>
-	
-	<AteHumanoidMeatAsIngredientCannibal.label>인육 가공품 섭쥐</AteHumanoidMeatAsIngredientCannibal.label>
-	<AteHumanoidMeatAsIngredientCannibal.description>인육으로 만든 음식을 먹어서 기분이 좋아. 누에콩 몇 개와 좋은 포도주가 있었으면...</AteHumanoidMeatAsIngredientCannibal.description>
-	
-	
-	<ButcheredHumanoidCorpse.label>인간 도살</ButcheredHumanoidCorpse.label>
-	<ButcheredHumanoidCorpse.description>난 짐승처럼 인간을 도살했지.</ButcheredHumanoidCorpse.description>
-	
-	
-	<AteWithoutTable.label>바닥에서 식사</AteWithoutTable.label>
-	<AteWithoutTable.description>바닥에서 밥을 먹어야만 했어. 식탁을 구할 순 없는거야?</AteWithoutTable.description>
+
+	<rep>
+		<path>AteHumanoidMeatDirect.stages[0].label</path>
+		<trans>인육 섭취</trans>
+	</rep>
+	<rep>
+		<path>AteHumanoidMeatDirect.stages[0].description</path>
+		<trans>다른 사람을... 먹었어. 짐승처럼 생으로. 이건 악몽이야.</trans>
+	</rep>
+
+
+	<rep>
+		<path>AteHumanoidMeatAsIngredient.stages[0].label</path>
+		<trans>인육 가공품 섭취</trans>
+	</rep>
+	<rep>
+		<path>AteHumanoidMeatAsIngredient.stages[0].description</path>
+		<trans>다른 사람으로... 이루어진 식사를 했어. 정말 끔찍해.</trans>
+	</rep>
+
+
+	<rep>
+		<path>AteHumanoidMeatDirectCannibal.stages[0].label</path>
+		<trans>인육 섭취</trans>
+	</rep>
+	<rep>
+		<path>AteHumanoidMeatDirectCannibal.stages[0].description</path>
+		<trans>다른 사람을... 먹었어. 짐승처럼 생으로. 그건 정말... 육즙이 촉촉했어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>AteHumanoidMeatAsIngredientCannibal.stages[0].label</path>
+		<trans>인육 가공품 섭취</trans>
+	</rep>
+	<rep>
+		<path>AteHumanoidMeatAsIngredientCannibal.stages[0].description</path>
+		<trans>다른 사람으로 이루어진 식사를 했어. 정말 즐거워. 약간의 삶은 콩과 좋은 와인만 있었다면...</trans>
+	</rep>
+
+
+	<rep>
+		<path>ButcheredHumanoidCorpse.stages[0].label</path>
+		<trans>인간 도축</trans>
+	</rep>
+	<rep>
+		<path>ButcheredHumanoidCorpse.stages[0].description</path>
+		<trans>짐승처럼 인간을 도축했어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>AteWithoutTable.stages[0].label</path>
+		<trans>바닥에서 식사</trans>
+	</rep>
+	<rep>
+		<path>AteWithoutTable.stages[0].description</path>
+		<trans>밥을 바닥에서 먹어야 했어. 식탁을 구할 순 없는거야?</trans>
+	</rep>
 
   <!-- Combat -->
-	
-	<ObservedLayingCorpse.label>시체 목격</ObservedLayingCorpse.label>
-	<ObservedLayingCorpse.description>아, 이런! 땅 위에 놓여 있는 시체를 보고야 말았어.</ObservedLayingCorpse.description>
-	
-	<ObservedLayingRottingCorpse.label>썩은 시체 목격</ObservedLayingRottingCorpse.label>
-	<ObservedLayingRottingCorpse.description>땅 위에서 썩어가는 시체를 보았어. 역겹고 불쾌해.</ObservedLayingRottingCorpse.description>
 
-	<WitnessedDeathAlly.label>아군 죽음 목격</WitnessedDeathAlly.label>
-	<WitnessedDeathAlly.description>아군의 죽음을 목격했어. 조금 전까지만 하더라도 살아 있었는데, 이제는 죽어 있네.</WitnessedDeathAlly.description>
-	
-	<WitnessedDeathStranger.label>타인 죽음 목격</WitnessedDeathStranger.label>
-	<WitnessedDeathStranger.description>타인의 죽음을 목격했어. 조금 전까지만 하더라도 살아 있었는데, 이제는 죽어 있네.</WitnessedDeathStranger.description>
-	
-	<WitnessedDeathStrangerBloodlust.label>타인 죽음 목격</WitnessedDeathStrangerBloodlust.label>
-	<WitnessedDeathStrangerBloodlust.description>누군가의 죽음을 보았어! 강렬하다!</WitnessedDeathStrangerBloodlust.description>
-	
-	<KilledHumanoidBloodlust.label>살인</KilledHumanoidBloodlust.label>
-	<KilledHumanoidBloodlust.description>내가 누군가를 죽였어! 정말 짜릿해!</KilledHumanoidBloodlust.description>
-	
-	<BattleWounded.label>부상</BattleWounded.label>
-	<BattleWounded.description>이건 내 피야! 싸움을 하다가 다쳤어!</BattleWounded.description>
-	
-	<!--
-	<ObservedGibbetCageEmpty.label>비어있는 교수대 목격</ObservedGibbetCageEmpty.label>
-	<ObservedGibbetCageEmpty.description>교수대가 너무 잔인해 보여.</ObservedGibbetCageEmpty.description>
+	<rep>
+		<path>ObservedLayingCorpse.stages[0].label</path>
+		<trans>시체 목격</trans>
+	</rep>
+	<rep>
+		<path>ObservedLayingCorpse.stages[0].description</path>
+		<trans>땅 위에 놓여있는 시체를 봤어.</trans>
+	</rep>
 
-	<ObservedGibbetCageFullStranger.label>교수대 낮선 시체 목격</ObservedGibbetCageFullStranger.label>
-	<ObservedGibbetCageFullStranger.description>교수대에서 낮선 사람을 보았고 상당히 잔인하다는 느낌을 받았어.</ObservedGibbetCageFullStranger.description>
 
-	<ObservedGibbetCageFullColonist.label>교수대 주민 목격</ObservedGibbetCageFullColonist.label>
-	<ObservedGibbetCageFullColonist.description>몇일전 혹은 어제까지만 해도 같이 살던 나의 친구 또는 동료가 교수대에서 서있어. 이곳은 무서운 곳이라고 느껴져..</ObservedGibbetCageFullColonist.description>
-	-->
+	<rep>
+		<path>ObservedLayingRottingCorpse.stages[0].label</path>
+		<trans>썩어가는 시체 목격</trans>
+	</rep>
+	<rep>
+		<path>ObservedLayingRottingCorpse.stages[0].description</path>
+		<trans>땅 위에 놓여있는 시체가 썩어가는 광경을 봤어. 역겨워.</trans>
+	</rep>
 
-	<NewColonyOptimism.label>새로운 정착지 낙관론</NewColonyOptimism.label>
-	<NewColonyOptimism.description>우린 이곳에 도착했어. 힘든 상황이지만, 새로운 식민지를 만들 생각을 하니 기뻐.</NewColonyOptimism.description>
-	
-	<NewColonyHope.label>새로운 정착지 희망</NewColonyHope.label>
-	<NewColonyHope.description>익숙해졌지만, 여전히 생활은 흥미로워. 계속 이대로만 지속되었으면...</NewColonyHope.description>
 
-	<SleptOutside.label>야외 수면</SleptOutside.label>
-	<SleptOutside.description>바깥에서 아무런 보호도 없이 잠을 자야했어.</SleptOutside.description>
-	
-	<SleptOnGround.label>바닥 수면</SleptOnGround.label>
-	<SleptOnGround.description>동물처럼 바닥에서 잠을 잤어.</SleptOnGround.description>
+	<rep>
+		<path>WitnessedDeathAlly.stages[0].label</path>
+		<trans>아군의 죽음 목격</trans>
+	</rep>
+	<rep>
+		<path>WitnessedDeathAlly.stages[0].description</path>
+		<trans>우리 사람들 중 한 명이 죽는 걸 봤어. 방금까지만 하더라도 살아있었는데, 이제 죽었어.</trans>
+	</rep>
 
-	
-	<KnowPrisonerBeaten.label>포로 구타 사건</KnowPrisonerBeaten.label>
-	<KnowPrisonerBeaten.description>그들이 포로를 구타했어.</KnowPrisonerBeaten.description>
-	
-	<KnowPrisonerSold.label>포로 판매 사건</KnowPrisonerSold.label>
-	<KnowPrisonerSold.description>식민지에서 포로를 노예로 판매했어. 난 조금 걱정이 된다.</KnowPrisonerSold.description>
-	
-	<KnowPrisonerExecuted.label>포로 처형 사건</KnowPrisonerExecuted.label>
-	<KnowPrisonerExecuted.description>포로를 냉혹하게 처형했어. 오늘따라 식민지가 더 나빠보여.</KnowPrisonerExecuted.description>
-	
-	<JustImprisoned.label>감옥 수감</JustImprisoned.label>
-	<JustImprisoned.description>난 그냥 감옥에 던져졌어. 협상을 하여 좀 더 내 자신을 함께 유지하고 지켜야 해.</JustImprisoned.description>
-	
-	<PrisonerFriendlyChat.label>죄수 설득</PrisonerFriendlyChat.label>
-	<PrisonerFriendlyChat.description>감시원과 식민지에 대해서 얘기를 했어. 이 곳은 좋은 곳 같은데...</PrisonerFriendlyChat.description>
-	
-	<PrisonerBeatenMild.label>죄수 폭행</PrisonerBeatenMild.label>
-	<PrisonerBeatenMild.description>감시원이 그냥 날 막 때려. 빌어먹을... 어디가 부러지진 않았지만 엄청 아파.</PrisonerBeatenMild.description>
-	
-	<PrisonerBeatenVicious.label>죄수 심한 폭행</PrisonerBeatenVicious.label>
-	<PrisonerBeatenVicious.description>감시원이 미친듯이 때렸어. 나는 이 곳에서 죽을 수도...</PrisonerBeatenVicious.description>
-	
-	<SocialTalk.label>사회적인 대화</SocialTalk.label>
-	<SocialTalk.description>누군가와 좋은 대화를 했어.</SocialTalk.description>
-	
-	<AbrasiveTalk.label>불쾌한 대화</AbrasiveTalk.label>
-	<AbrasiveTalk.description>누군가가 나에게 무례해게 행동했어. 최악으론, 난 그게 인간이라고 생각하지 않아. </AbrasiveTalk.description>	
-	
-	<GreenThumbHappy.label>씨앗을 뿌린</GreenThumbHappy.label>
-	<GreenThumbHappy.description>세계는 무엇보다도 더 많은 식물을 필요로 한다고!</GreenThumbHappy.description>	
+
+	<rep>
+		<path>WitnessedDeathStranger.stages[0].label</path>
+		<trans>타인의 죽음 목격</trans>
+	</rep>
+	<rep>
+		<path>WitnessedDeathStranger.stages[0].description</path>
+		<trans>타인의 죽음을 목격했어. 방금까지만 하더라도 살아있었는데, 이제 죽었어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>WitnessedDeathStrangerBloodlust.stages[0].label</path>
+		<trans>타인의 죽음 목격</trans>
+	</rep>
+	<rep>
+		<path>WitnessedDeathStrangerBloodlust.stages[0].description</path>
+		<trans>방금 누가 죽는걸 봤어! 대단한데!</trans>
+	</rep>
+
+
+	<rep>
+		<path>KilledHumanoidBloodlust.stages[0].label</path>
+		<trans>누군가를 죽임</trans>
+	</rep>
+	<rep>
+		<path>KilledHumanoidBloodlust.stages[0].description</path>
+		<trans>내 손으로 사람을 죽였어! 정말 짜릿한데!</trans>
+	</rep>
+
+
+	<rep>
+		<path>BattleWounded.stages[0].label</path>
+		<trans>부상당함</trans>
+	</rep>
+	<rep>
+		<path>BattleWounded.stages[0].description</path>
+		<trans>이건... 내 피잖아! 싸우다가 다쳤어!</trans>
+	</rep>
+
+
+	<rep>
+		<path>NewColonyOptimism.stages[0].label</path>
+		<trans>새로운 정착지에 대한 기대</trans>
+	</rep>
+	<rep>
+		<path>NewColonyOptimism.stages[0].description</path>
+		<trans>방금 착륙했어. 힘든 상황이지만, 새로운 정착지를 만들 생각을 하니 기대돼.</trans>
+	</rep>
+
+
+	<rep>
+		<path>NewColonyHope.stages[0].label</path>
+		<trans>새로운 정착지에 대한 희망</trans>
+	</rep>
+	<rep>
+		<path>NewColonyHope.stages[0].description</path>
+		<trans>이제 좀 익숙해졌지만, 여전히 신나고 새로운 상황이야. 이대로만 지냈으면...</trans>
+	</rep>
+
+
+	<rep>
+		<path>SleptOutside.stages[0].label</path>
+		<trans>밖에서 잠</trans>
+	</rep>
+	<rep>
+		<path>SleptOutside.stages[0].description</path>
+		<trans>야외에서 아무런 보호도 없이 잠을 자야 했어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>SleptOnGround.stages[0].label</path>
+		<trans>바닥에서 잠</trans>
+	</rep>
+	<rep>
+		<path>SleptOnGround.stages[0].description</path>
+		<trans>짐승처럼 바닥에서 자야 했어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>SleptInCold.stages[0].label</path>
+		<trans>추운 곳에서 잠</trans>
+	</rep>
+	<rep>
+		<path>SleptInCold.stages[0].description</path>
+		<trans>추운 곳에서 자야 했어. 히터 좀 만들어줘.</trans>
+	</rep>
+
+
+	<rep>
+		<path>SleptInHeat.stages[0].label</path>
+		<trans>더운 곳에서 잠</trans>
+	</rep>
+	<rep>
+		<path>SleptInHeat.stages[0].description</path>
+		<trans>더운 곳에서 자야 했어. 에어컨 하나 놓으면 안돼?</trans>
+	</rep>
+
+
+	<rep>
+		<path>KnowPrisonerSold.stages[0].label</path>
+		<trans>수감자가 팔림</trans>
+	</rep>
+	<rep>
+		<path>KnowPrisonerSold.stages[0].description</path>
+		<trans>정착지에서 수감자를 노예로 팔아버렸어. 좀 걱정되는데.</trans>
+	</rep>
+
+
+	<rep>
+		<path>KnowPrisonerExecuted.stages[0].label</path>
+		<trans>수감자가 처형됨</trans>
+	</rep>
+	<rep>
+		<path>KnowPrisonerExecuted.stages[0].description</path>
+		<trans>수감자가 냉혹하게 죽임을 당했어. 이 정착지는 날이 갈수록 더 악하게 보여.</trans>
+	</rep>
+
+
+	<rep>
+		<path>KnowPrisonerOrganHarvested.stages[0].label</path>
+		<trans>수감자의 장기가 적출됨</trans>
+	</rep>
+	<rep>
+		<path>KnowPrisonerOrganHarvested.stages[0].description</path>
+		<trans>정착지에서 수감자의 몸 일부를 적출했어. 선택지가 없는 누군가의 몸을 해체한다니 끔찍해.</trans>
+	</rep>
+
+
+	<rep>
+		<path>MePrisonerOrganHarvested.stages[0].label</path>
+		<trans>장기가 적출됨</trans>
+	</rep>
+	<rep>
+		<path>MePrisonerOrganHarvested.stages[0].description</path>
+		<trans>내 장기를 떼 갔어! 내 몸을 무슨 오래된 기계마냥 해체하고 있단 말이야!</trans>
+	</rep>
+
+
+	<rep>
+		<path>WasImprisoned.stages[0].label</path>
+		<trans>수감된 적이 있음</trans>
+	</rep>
+	<rep>
+		<path>WasImprisoned.stages[0].description</path>
+		<trans>정착지에서 날 우리에 갇힌 동물처럼 감옥에 넣은 적이 있어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>PrisonerFriendlyChat.stages[0].label</path>
+		<trans>간수에 의해 설득당함</trans>
+	</rep>
+	<rep>
+		<path>PrisonerFriendlyChat.stages[0].description</path>
+		<trans>간수와 난 이 정착지에 대해서 얘기를 나눴어. 괜찮은 곳 처럼 들리는데...</trans>
+	</rep>
+
+
+	<rep>
+		<path>SocialTalk.stages[0].label</path>
+		<trans>대화를 나눔</trans>
+	</rep>
+	<rep>
+		<path>SocialTalk.stages[0].description</path>
+		<trans>누군가와 좋은 대화를 나눴어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>AbrasiveTalk.stages[0].label</path>
+		<trans>불쾌한 대화를 나눔</trans>
+	</rep>
+	<rep>
+		<path>AbrasiveTalk.stages[0].description</path>
+		<trans>누군가 내게 무례하게 대했어. 가장 나쁜건, 그 인간은 그걸 깨닫지도 못한 것 같다는 거야...</trans>
+	</rep>
+
+
+	<rep>
+		<path>GreenThumbHappy.stages[0].label</path>
+		<trans>씨앗을 심음</trans>
+	</rep>
+	<rep>
+		<path>GreenThumbHappy.stages[0].description</path>
+		<trans>세계가 필요로 하는 건 더 많은 나무다 이거지!</trans>
+	</rep>
+
+
+	<rep>
+		<path>Catharsis.stages[0].label</path>
+		<trans>카타르시스</trans>
+	</rep>
+	<rep>
+		<path>Catharsis.stages[0].description</path>
+		<trans>무슨 일이... 그건 내가 아니었어. 난 더 잘할 수 있어.</trans>
+	</rep>
 
 </LanguageData>

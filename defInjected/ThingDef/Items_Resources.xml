@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 
 	<!--=============== Currency ====================-->
@@ -7,7 +8,8 @@
 	<Silver.description>이 금속은 주로 상품 통화로 사용됩니다. 또한 매력적인 장식을 만드는 데 사용될 수있습니다.</Silver.description>
 	
 	<Gold.label>금</Gold.label>
-	<Gold.description>대부분의 사람들에게 가장 매혹적인 금속으로, 인간의 끝없는 욕심으로 인해 사라져가고 있습니다. 이 부드러운 금속은 그 자체로도 사용을 할 수 있지만, 눈에 띄게 아름답고 매우 적습니다.</Gold.description>	
+	<Gold.description>대부분의 사람들에게 가장 매혹적인 금속으로, 인간의 끝없는 욕심으로 인해 사라져가고 있습니다. 이 부드러운 금속은 그 자체로도 사용을 할 수 있지만, 눈에 띄게 아름답고 매우 적습니다.</Gold.description>
+	<Gold.stuffProps.stuffAdjective>금</Gold.stuffProps.stuffAdjective>
 	
 	<Steel.label>강철</Steel.label>
 	<Steel.description>철과 탄소로 이루어진 합금으로 구조물, 도구, 무기 제작에 사용됩니다.</Steel.description>
@@ -16,7 +18,8 @@
 	<Plasteel.description>고급 우주문명 첨단 구조 재료입니다. 플라스틸은 독특한 분자 구조로 인해 매우 강합니다.</Plasteel.description>	
 	
 	<WoodLog.label>통나무</WoodLog.label>
-	<WoodLog.description>우거진 식물 또는 나무에서 구할 수 있으며 건물 구조, 무기, 심지어 간단한 보철에 유용합니다. 또한 급한 상황에서 무기로 사용될 수 있습니다.</WoodLog.description>
+	<WoodLog.description>나무에서 구할 수 있으며 건물 구조, 무기, 심지어 간단한 보철에 유용합니다. 또한 급한 상황에서 무기로 사용될 수 있습니다.</WoodLog.description>
+	<WoodLog.stuffProps.stuffAdjective>나무</WoodLog.stuffProps.stuffAdjective>
 	
 	<Uranium.label>우라늄</Uranium.label>
 	<Uranium.description>원자로에 사용되는 자원입니다.</Uranium.description>		
@@ -31,13 +34,13 @@
 	<Cloth.label>옷감</Cloth.label>
 	<Cloth.description>유기 섬유로 짠 옷감입니다.</Cloth.description>
 	
-	<Synthread.label>신스레드</Synthread.label>
+	<Synthread.label>합성타래</Synthread.label>
 	<Synthread.description>우주문명의 합성 섬유로, 주로 옷을 만드는데 쓰입니다. 부드럽고, 가볍고, 강하며 보온력이 뛰어납니다.</Synthread.description>	
 	
-	<DevilstrandCloth.label>데빌스트랜드</DevilstrandCloth.label>
-	<DevilstrandCloth.description>실크를 만드는 데빌스트랜드 버섯에서 직접 추출하는 매우 강한 옷감입니다.</DevilstrandCloth.description>	
+	<DevilstrandCloth.label>악마가닥</DevilstrandCloth.label>
+	<DevilstrandCloth.description>실크를 만드는 악마가닥 버섯에서 직접 추출하는 매우 강한 옷감입니다.</DevilstrandCloth.description>
 	
-	<Hyperweave.label>하이퍼위브</Hyperweave.label>
+	<Hyperweave.label>초매듭 옷감</Hyperweave.label>
 	<Hyperweave.description>한 장으로 짜여진 최첨단 나노섬유입니다. 약간 무거운 감이 있지만 놀라울 정도로 튼튼합니다. 이 섬유의 제조법은 가장 발달된 글리터월드에서만 알려져 있습니다.</Hyperweave.description>
 	
 	
@@ -56,14 +59,14 @@
     <!--=============== Manufactured ====================-->
 	
 
-	<HerbalMedicine.label>한방 약품</HerbalMedicine.label>
-	<HerbalMedicine.description>여러 허브들의 혼합물로, 주로 제리기움으로 이루어져 있습니다. 일반 공장제 약품들보다 약효가 떨어집니다.</HerbalMedicine.description>
+	<HerbalMedicine.label>약초 추출물</HerbalMedicine.label>
+	<HerbalMedicine.description>여러 허브들의 혼합물로, 혈기초가 주 성분입니다. 일반 공장제 약품들보다 약효가 떨어집니다.</HerbalMedicine.description>
 
 	<Medicine.label>약</Medicine.label>
 	<Medicine.description>상처를 치료하기 위해서 사용합니다.</Medicine.description>
 
 	<GlitterworldMedicine.label>글리터월드 약</GlitterworldMedicine.label>
-	<GlitterworldMedicine.description>첨단 글리터월드에서 생산된 고급 약품입니다.</GlitterworldMedicine.description>
+	<GlitterworldMedicine.description>첨단 번화계에서 생산된 고급 약품입니다.</GlitterworldMedicine.description>
 	
 	<Shells.label>포탄</Shells.label>
 	<Shells.description>대포에서 발사됩니다.</Shells.description>

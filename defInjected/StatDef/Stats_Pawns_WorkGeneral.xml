@@ -1,20 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 	
-	<WorkSpeedGlobal.label>일하는 속도</WorkSpeedGlobal.label>
-	<WorkSpeedGlobal.description>어떤 사람의 작업 속도를 보여줍니다.</WorkSpeedGlobal.description>	
-	
+	<WorkSpeedGlobal.label>전역 작업 속도</WorkSpeedGlobal.label>
+	<WorkSpeedGlobal.description>대상의 모든 작업 속도에 대한 계수입니다.</WorkSpeedGlobal.description>
+
 	<MiningSpeed.label>채굴 속도</MiningSpeed.label>
-	<MiningSpeed.description>어떤 사람의 채광 속도를 보여줍니다.</MiningSpeed.description>		
+	<MiningSpeed.description>대상의 채굴 속도에 대한 계수입니다.</MiningSpeed.description>
+
+	<SmoothingSpeed.label>바닥 닦는 속도</SmoothingSpeed.label>
+	<SmoothingSpeed.description>대상이 거친 돌바닥을 얼마나 빠르게 부드럽게 하는지에 대한 계수입니다.</SmoothingSpeed.description>
 	
 	<ResearchSpeed.label>연구 속도</ResearchSpeed.label>
-	<ResearchSpeed.description>어떤 사람의 연구 속도를 보여줍니다.</ResearchSpeed.description>	
+	<ResearchSpeed.description>대상의 연구 속도에 대한 계수입니다.</ResearchSpeed.description>
 	
 	<ConstructionSpeed.label>건설 속도</ConstructionSpeed.label>
-	<ConstructionSpeed.description>어떤 사람의 건설 속도를 보여줍니다.</ConstructionSpeed.description>		
+	<ConstructionSpeed.description>대상이 얼마나 빠르게 짓고 수리하는지에 대한 계수입니다.</ConstructionSpeed.description>
 	
 	<PlantWorkSpeed.label>재배 속도</PlantWorkSpeed.label>
-	<PlantWorkSpeed.description>어떤 사람의 재배 속도를 보여줍니다.</PlantWorkSpeed.description>			
+	<PlantWorkSpeed.description>대상의 재배 속도에 대한 계수입니다.</PlantWorkSpeed.description>
+
+	<SculptingSpeed.label>조각 속도</SculptingSpeed.label>
+	<SculptingSpeed.description>대상의 조각 속도에 대한 계수입니다. 예술 능력은 속도에 영향을 주지 않으며, 오직 완성품의 품질에만 영향을 끼칩니다.</SculptingSpeed.description>
 	
 	
 	

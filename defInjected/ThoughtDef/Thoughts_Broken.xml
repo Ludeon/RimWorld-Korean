@@ -1,13 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 
-	<CurrentlyBrokenPsychotic.label>정신병적 생각</CurrentlyBrokenPsychotic.label>
-	<CurrentlyBrokenPsychotic.description>죽여야 해!</CurrentlyBrokenPsychotic.description>
+	<rep>
+		<path>CurrentlyBrokenPsychotic.stages[0].label</path>
+		<trans>정신병적인 생각</trans>
+	</rep>
+	<rep>
+		<path>CurrentlyBrokenPsychotic.stages[0].description</path>
+		<trans>죽여야 해!</trans>
+	</rep>
 
-	<CurrentlyBrokenSad.label>슬픔으로 무너짐</CurrentlyBrokenSad.label>
-	<CurrentlyBrokenSad.description>그냥, 모든게 너무 많아.</CurrentlyBrokenSad.description>
+	<rep>
+		<path>CurrentlyBrokenSad.stages[0].label</path>
+		<trans>슬픔으로 무너짐</trans>
+	</rep>
+	<rep>
+		<path>CurrentlyBrokenSad.stages[0].description</path>
+		<trans>그냥, 모든게 너무 많아.</trans>
+	</rep>
 
-	<CurrentlyBrokenPanicFlee.label>공황</CurrentlyBrokenPanicFlee.label>
-	<CurrentlyBrokenPanicFlee.description>여기서 나가야 해!</CurrentlyBrokenPanicFlee.description>
+	<rep>
+		<path>CurrentlyBrokenPanicFlee.stages[0].label</path>
+		<trans>공황</trans>
+	</rep>
+	<rep>
+		<path>CurrentlyBrokenPanicFlee.stages[0].description</path>
+		<trans>여기서 나가야 해!</trans>
+	</rep>
 
 </LanguageData>

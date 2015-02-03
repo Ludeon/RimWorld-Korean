@@ -1,145 +1,124 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
-  
-  
-	<Nudist.label>나체주의자</Nudist.label>
-	<Nudist.description>NAME 은(는) 알몸이 되어 느낄 수 있는 자유를 즐깁니다. HECAP 옷을 입을 수 있지만, 옷을 입지 않는 편이 더 행복할 것입니다.</Nudist.description>
 
-	<Bloodlust.label>피에 굶주림</Bloodlust.label>
-	<Bloodlust.description>NAME 은(는) 사람을 해치는 것에 흥분하며, 피나 죽음의 광경에 신경쓰지 않습니다.</Bloodlust.description>	
+	<rep>
+		<path>Nudist.degreeDatas[0].label</path>
+		<trans>나체주의자</trans>
+	</rep>
+	<rep>
+		<path>Nudist.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 알몸이 되어 느낄 수 있는 자유를 즐깁니다. HE 옷을 입을 수 있지만, 옷을 입지 않는 편이 더 행복할 것입니다.</trans>
+	</rep>
 
-	<Psychopath.label>사이코패스</Psychopath.label>
-	<Psychopath.description>NAME 은(는) 공감능력이 없습니다. 누군가가 매장되고 투옥되거나 노예로 팔려도 신경도 안쓸뿐더러 아무런 영향을 주지도 않습니다. 또한, 사교활동으로 오는 기분 향상을 느끼지 못합니다.</Psychopath.description>
-	
-	<Cannibal.label>식인</Cannibal.label>
-	<Cannibal.description>NAME 은(는) 인육을 먹는 것이 끔찍하고 잘못되었다고 배웠습니다. 그러나 한 때, 아주 오래 전에, 그것을 시도했고... HE 그게 좋았습니다.</Cannibal.description>
+	<rep>
+		<path>Bloodlust.degreeDatas[0].label</path>
+		<trans>피에 굶주림</trans>
+	</rep>
+	<rep>
+		<path>Bloodlust.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 사람을 해치는 일에 흥분하며, 피나 죽음의 광경에 신경쓰지 않습니다.</trans>
+	</rep>
 
-	<Abrasive.label>거친 입담</Abrasive.label>
-	<Abrasive.description>NAME 은(는) 항상 자신의 마음 속을 그대로 말합니다. 특히 자신의 마음을 괴롭히는 걸요. 이는 사람들을 불쾌하게 하곤 합니다.</Abrasive.description>
+	<rep>
+		<path>Psychopath.degreeDatas[0].label</path>
+		<trans>사이코패스</trans>
+	</rep>
+	<rep>
+		<path>Psychopath.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 공감능력이 없습니다. 누군가가 매장되고 투옥되거나 노예로 팔려도 신경도 안쓸뿐더러 아무런 영향을 주지도 않습니다. 또한, 사교활동으로 오는 기분
+			향상을 느끼지 못합니다.</trans>
+	</rep>
 
-	<TriggerHappy.label>난사광</TriggerHappy.label>
-	<TriggerHappy.description>빵! 빵! 빵! NAME 은(는) 끔찍하게 총을 못쏘지만, 상관하지 않습니다, 총은 훌륭하니까요!</TriggerHappy.description>
+	<rep>
+		<path>Cannibal.degreeDatas[0].label</path>
+		<trans>식인</trans>
+	</rep>
+	<rep>
+		<path>Cannibal.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 인육을 먹는 것이 끔찍하고 잘못되었다고 배웠습니다. 그러나 한 때, 아주 오래 전에, 그걸 시도했고... HE 그게 좋았습니다.</trans>
+	</rep>
 
-	<CarefulShooter.label>신중한 사수</CarefulShooter.label>
-	<CarefulShooter.description>NAME 은(는) 꽤 잘 쏘는 대신 자신의 목표에 집중하는데 더 많은 시간을 필요로 합니다.</CarefulShooter.description>	
+	<rep>
+		<path>Abrasive.degreeDatas[0].label</path>
+		<trans>거친 입담</trans>
+	</rep>
+	<rep>
+		<path>Abrasive.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 항상 자신의 마음 속을 그대로 말합니다. 특히 자신의 마음을 괴롭히는 걸요. 이는 사람들을 불쾌하게 하곤 합니다.</trans>
+	</rep>
 	
-	<TooSmart.label>너무 똑똑함</TooSmart.label>
-	<TooSmart.description>NAME 은(는) 자신 스스로에게 있어 매우 똑똑합니다. HE 누구보다 빠르게 모든 것을 학습하지만, 매우 괴짜스러울 수 있습니다.</TooSmart.description>		
+	<rep>
+		<path>TriggerHappy.degreeDatas[0].label</path>
+		<trans>난사광</trans>
+	</rep>
+	<rep>
+		<path>TriggerHappy.degreeDatas[0].description</path>
+		<trans>빵! 빵! 빵! NAME 은(는) 끔찍하게 총을 못쏘지만, 상관하지 않습니다, 총은 훌륭하니까요!</trans>
+	</rep>
 	
-	<Brawler.label>싸움꾼</Brawler.label>
-	<Brawler.description>NAME 은(는) 가까이서 싸우기를 좋아합니다. HE 근접 전투에서는 정확도가 대폭 증가하지만, 원거리 무기를 다루도록 한 경우엔 기분이 매우 좋지 않을 것입니다.</Brawler.description>	
+	<rep>
+		<path>CarefulShooter.degreeDatas[0].label</path>
+		<trans>신중한 사수</trans>
+	</rep>
+	<rep>
+		<path>CarefulShooter.degreeDatas[0].description</path>
+		<trans>NAME 의 사격 실력은 훌륭하지만, 자신의 목표에 집중하는데 더 많은 시간을 필요로 합니다.</trans>
+	</rep>
 	
-	<Masochist.label>마조히스트</Masochist.label>
-	<Masochist.description>NAME 은(는) 다치는 것에 흥미로운 무언가를 느낍니다. 그가 왜 그런지는 알 수 없습니다.</Masochist.description>		
+	<rep>
+		<path>TooSmart.degreeDatas[0].label</path>
+		<trans>너무 똑똑함</trans>
+	</rep>
+	<rep>
+		<path>TooSmart.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 자기 스스로에게 있어 매우 똑똑합니다. HE 누구보다 빠르게 모든 것을 학습하지만, 매우 괴짜스러울 수 있습니다.</trans>
+	</rep>
 	
+	<rep>
+		<path>Brawler.degreeDatas[0].label</path>
+		<trans>싸움꾼</trans>
+	</rep>
+	<rep>
+		<path>Brawler.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 가까이서 싸우기를 좋아합니다. HE 근접 전투에서는 정확도가 대폭 증가하지만, 원거리 무기를 다루도록 한 경우엔 기분이 매우 좋지 않을 것입니다.</trans>
+	</rep>
+	
+	<rep>
+		<path>Masochist.degreeDatas[0].label</path>
+		<trans>마조히스트</trans>
+	</rep>
+	<rep>
+		<path>Masochist.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 다치는 것에 흥미로운 무언가를 느낍니다. 그가 왜 그런지는 알 수 없습니다.</trans>
+	</rep>
+	
+	<rep>
+		<path>Prosthophile.degreeDatas[0].label</path>
+		<trans>개조광</trans>
+	</rep>
+	<rep>
+		<path>Prosthophile.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 미약한 인체에 한계를 느낍니다. HE 종종 인공 몸으로 개조되는 꿈을 꿉니다.</trans>
+	</rep>
+	
+	<rep>
+		<path>Prosthophobe.degreeDatas[0].label</path>
+		<trans>개조혐오</trans>
+	</rep>
+	<rep>
+		<path>Prosthophobe.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 인체는 이유가 있기에 제한되어 있다고 믿습니다. 그에게 인공 신체는 비윤리적입니다.</trans>
+	</rep>
+	
+	<rep>
+		<path>GreenThumb.degreeDatas[0].label</path>
+		<trans>원예체질</trans>
+	</rep>
+	<rep>
+		<path>GreenThumb.degreeDatas[0].description</path>
+		<trans>NAME 은(는) 원예에 열정이 있습니다. 그가 식물을 관리하면 기분에 보너스를 받습니다.</trans>
+	</rep>
 
-  <rep>
-    <path>Abrasive.degreeDatas[0].label</path>
-    <trans>거친 입담</trans>
-  </rep>
-  <rep>
-    <path>Abrasive.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 항상 자신의 마음 속을 그대로 말합니다. 특히 자신의 마음을 괴롭히는 걸요. 이는 사람들을 불쾌하게 하곤 합니다.</trans>
-  </rep>
-	
-  <rep>
-    <path>TriggerHappy.degreeDatas[0].label</path>
-    <trans>난사광</trans>
-  </rep>
-  <rep>
-    <path>TriggerHappy.degreeDatas[0].description</path>
-    <trans>빵! 빵! 빵! NAME 은(는) 끔찍하게 총을 못쏘지만, 상관하지 않습니다, 총은 훌륭하니까요!</trans>
-  </rep>
-	
-  <rep>
-    <path>CarefulShooter.degreeDatas[0].label</path>
-    <trans>신중한 사수</trans>
-  </rep>
-  <rep>
-    <path>CarefulShooter.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 꽤 잘 쏘는 대신 자신의 목표에 집중하는데 더 많은 시간을 필요로 합니다.</trans>
-  </rep>
-	
-  <rep>
-    <path>TooSmart.degreeDatas[0].label</path>
-    <trans>너무 똑똑함</trans>
-  </rep>
-  <rep>
-    <path>TooSmart.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 자신 스스로에게 있어 매우 똑똑합니다. HE 누구보다 빠르게 모든 것을 학습하지만, 매우 괴짜스러울 수 있습니다.</trans>
-  </rep>
-	
-  <rep>
-    <path>Brawler.degreeDatas[0].label</path>
-    <trans>싸움꾼</trans>
-  </rep>
-  <rep>
-    <path>Brawler.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 가까이서 싸우기를 좋아합니다. HE 근접 전투에서는 정확도가 대폭 증가하지만, 원거리 무기를 다루도록 한 경우엔 기분이 매우 좋지 않을 것입니다.</trans>
-  </rep>
-	
-  <rep>
-    <path>Masochist.degreeDatas[0].label</path>
-    <trans>마조히스트</trans>
-  </rep>
-  <rep>
-    <path>Masochist.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 다치는 것에 흥미로운 무언가를 느낍니다. 그가 왜 그런지는 알 수 없습니다.</trans>
-  </rep>
-	
-  <rep>
-    <path>Prosthophile.degreeDatas[0].label</path>
-    <trans>개조광</trans>
-  </rep>
-  <rep>
-    <path>Prosthophile.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 미약한 인체에 한계를 느낍니다. HE 종종 인공 몸으로 만들어지는 꿈을 꿉니다.</trans>
-  </rep>
-	
-  <rep>
-    <path>Prosthophobe.degreeDatas[0].label</path>
-    <trans>개조혐오</trans>
-  </rep>
-  <rep>
-    <path>Prosthophobe.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 인체는 이유가 있기에 제한되어 있다고 믿습니다. 그에게 인공 신체는 비 윤리적입니다.</trans>
-  </rep>
-	
-  <rep>
-    <path>GreenThumb.degreeDatas[0].label</path>
-    <trans>원예체질</trans>
-  </rep>
-  <rep>
-    <path>GreenThumb.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 원예에 열정이 있습니다. 그가 식물을 관리하면 기분에 보너스를 받습니다.</trans>
-  </rep>
-	
-  <!--
-  <rep>
-    <path>AbsentMinded.degreeDatas[0].label</path>
-    <trans>건망증이 심한</trans>
-  </rep>
-  <rep>
-    <path>AbsentMinded.degreeDatas[0].description</path>
-    <trans>NAME 은(는) 당장 하고 있는 일에 초점을 맞추고 있습니다. 그가 뭔가를 끝내려고 할때, 다른 것을 시키면 방랑을 하다가 잊을 가능성이 있습니다.</trans>
-  </rep>
-  -->
-	
-	<Prosthophile.label>개조광</Prosthophile.label>
-	<Prosthophile.description>NAME 은(는) 미약한 인체에 한계를 느낍니다. HE 종종 인공 몸으로 만들어지는 꿈을 꿉니다.</Prosthophile.description>			
-	
-	<Prosthophobe.label>개조혐오</Prosthophobe.label>
-	<Prosthophobe.description>NAME 은(는) 인체는 이유가 있기에 제한되어 있다고 믿습니다. 그에게 인공 신체는 비 윤리적입니다.</Prosthophobe.description>			
-	
-	<GreenThumb.label>원예체질</GreenThumb.label>
-	<GreenThumb.description>NAME 은(는) 원예에 열정이 있습니다. 그가 식물을 관리하면 기분에 보너스를 받습니다.</GreenThumb.description>			
-	
-  <!--
 
- 	<AbsentMinded.label>건망증이 심한</AbsentMinded.label>
-	<AbsentMinded.description>NAME 은(는) 당장 하고 있는 일에 초점을 맞추고 있습니다. 그가 뭔가를 끝내려고 할때, 다른 것을 시키면 방랑을 하다가 잊을 가능성이 있습니다..</AbsentMinded.description>		 
-  
-  -->  
-	
-  
 </LanguageData>

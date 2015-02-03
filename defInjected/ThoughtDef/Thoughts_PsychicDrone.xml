@@ -1,21 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
-	
-  <!-- Psychic drone -->
-	<PsychicDroneLow.label>정신 공격 (약함)</PsychicDroneLow.label>
-    <PsychicDroneLow.description>가벼운 속삭임이 들려온다. 나에게 뭐라고 속삭이고 있다. 일부만 알아들을 수 있지만 나는 이 소리가 싫다.</PsychicDroneLow.description>
 
-	<PsychicDroneMedium.label>정신 공격 (중간)</PsychicDroneMedium.label>
-    <PsychicDroneMedium.description>누군가가 항상 곁에 있는 것 같다. 보이지 않을 뿐이다. 목소리가 바뀌지만, 내용은 변하지 않는다. 고통스럽다. 제발 그만해!</PsychicDroneMedium.description>
-	
-	<PsychicDroneHigh.label>정신 공격 (강함)</PsychicDroneHigh.label>
-    <PsychicDroneHigh.description>목소리가 견딜 수 없을 정도로 크다. 참기가 너무 힘들다. 목소리를 멈추게 하려고 소리쳐보지만, 대답은 없고 목소리는 나를 계속 괴롭힌다.</PsychicDroneHigh.description>
-	
-	<PsychicDroneExtreme.label>정신 공격 (극심함)</PsychicDroneExtreme.label>
-    <PsychicDroneExtreme.description>심장이 쿵쾅거리고 몸에서 열이 난다. 내가 생각할 수 있는 건 고통과 괴로움뿐이다. 그들은 내 악몽이야...악몽이야...악몽이야...</PsychicDroneExtreme.description>
-	
-	
-	
-	
-	
+	<rep>
+		<path>PsychicDrone.stages[0].label</path>
+		<trans>정신 공격(약함)</trans>
+	</rep>
+	<rep>
+		<path>PsychicDrone.stages[0].description</path>
+		<trans>이건 마치 내 마음을 할퀴는 것 같아. 어떤 목소리가 속삭이고 있어. 몇 단어만 알아들을 수 있지만 이거 정말 싫다.</trans>
+	</rep>
+	<rep>
+		<path>PsychicDrone.stages[1].label</path>
+		<trans>정신 공격(중간)</trans>
+	</rep>
+	<rep>
+		<path>PsychicDrone.stages[1].description</path>
+		<trans>누군가가 계속 시야 밖의 옆에서 내게 말을 거는 느낌이야. 목소리는 바뀌지만 그 내용은 변하지 않아. 난 사람들을 해쳐야 해. 이걸 떨쳐줘!</trans>
+	</rep>
+	<rep>
+		<path>PsychicDrone.stages[2].label</path>
+		<trans>정신 공격(강함)</trans>
+	</rep>
+	<rep>
+		<path>PsychicDrone.stages[2].description</path>
+		<trans>이 목소리는 견딜 수 없을 정도로 시끄러워. 집중하기 너무 힘들다. 난 그 목소리에게 대답도 해보고, 큰 소리도 쳐봤지만... 저건 계속 소리만 지른다고!</trans>
+	</rep>
+	<rep>
+		<path>PsychicDrone.stages[3].label</path>
+		<trans>정신 공격(극심함)</trans>
+	</rep>
+	<rep>
+		<path>PsychicDrone.stages[3].description</path>
+		<trans>심장이 쿵쾅거리고 식은 땀이 나. 내가 생각할 수 있는건 다치고, 다치게 하고, 고통을 겪고, 그리고 내 주변의 이 모든 적들... 그들은 내 악몽이야. 내 악몽이야. 내 악몽이야...</trans>
+	</rep>
+
 </LanguageData>
