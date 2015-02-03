@@ -15,15 +15,15 @@
 	<WalkSpeed>보행속도 {0}</WalkSpeed>
 	<DyingLower>죽어가고 있음</DyingLower>
 	<FilthOnFeet>발에 있는 오물: </FilthOnFeet>
-	<NotEnoughStoredLower>충분히 저장되지 않음</NotEnoughStoredLower>
+	<NotEnoughStoredLower>재고가 충분치 않음</NotEnoughStoredLower>
 	<NothingLower>아무것도</NothingLower>
-	<Adapted>적응</Adapted>
+	<Adapted>적응함</Adapted>
 	<Headshot>머리 명중!</Headshot>
 	<FreshMissingBodyPart>방금</FreshMissingBodyPart>
-	<UntreatedLower>치료</UntreatedLower>
+	<UntreatedLower>치료받지 않음</UntreatedLower>
 	<DevelopedImmunityLower>항체 완성</DevelopedImmunityLower>
 	<InjuryRequiresTreatment>치료 필요</InjuryRequiresTreatment>
-	<NextTreatmentAfter>다음 치료 {0}일 후</NextTreatmentAfter>
+	<NextTreatmentAfter>다음 치료 {0} 후</NextTreatmentAfter>
 	<MissingMedicalBillIngredient>{0} 없음</MissingMedicalBillIngredient>
 	<ImmunityDevelopmentProgress>항체 생성 중</ImmunityDevelopmentProgress>
 	<Race>종류</Race>
@@ -71,8 +71,7 @@
 	<Food>음식</Food>
 	<FoodTip>음식은 최근에 소비한 영양분의 양입니다. 음식 섭취를 하지 않았을 경우 기아로 인해 지속적인 피해를 입을 것입니다.</FoodTip>
 	<Rest>휴식</Rest>
-	<RestTip>사람이 얼마나 안정된 휴식과 수면을 취했는가를 나타냅니다.
-		누군가가 침대에서 잘 때에는 빠르게 피로가 감소하지만, 침대 밖에 있을 때에는 시간이 지남에 따라 피로도가 증가합니다.
+	<RestTip>사람이 얼마나 안정된 휴식과 수면을 취했는가를 나타냅니다. 누군가가 침대에서 잘 때에는 빠르게 피로가 감소하지만, 침대 밖에 있을 때에는 시간이 지남에 따라 피로도가 증가합니다.
 	</RestTip>
 	<Environment>환경</Environment>
 	<EnvironmentTip>환경은 주변이 얼마나 그사람을 기쁘게하는가를 나타냅니다.
@@ -142,8 +141,8 @@
 	<StoragePriorityCritical>매우 중요</StoragePriorityCritical>
 	<!-- Rotting -->
 	<CurrentlyFrozen>냉동 (부패하지 않음)</CurrentlyFrozen>
-	<CurrentlyRefrigerated>냉장 ({0}일간 보관 가능)</CurrentlyRefrigerated>
-	<NotRefrigerated>냉장되지 않음 ({0}일간 보관 가능)</NotRefrigerated>
+	<CurrentlyRefrigerated>냉장 ({0}간 보관 가능)</CurrentlyRefrigerated>
+	<NotRefrigerated>냉장되지 않음 ({0}간 보관 가능)</NotRefrigerated>
 	<OverADecade>매우 긴 시간</OverADecade>
 	<!-- Meal -->
 	<Ingredients>성분</Ingredients>
@@ -152,7 +151,7 @@
 	<Growing>성장중</Growing>
 	<NotGrowingNow>지금은 성장하지 않음 (&quot;{0}&quot;상태여야 합니다.)</NotGrowingNow>
 	<NotGrowingNowResting>지금은 성장하지 않음 (휴식 중)</NotGrowingNowResting>
-	<FullyGrownIn>{0}일 후 완전히 성장</FullyGrownIn>
+	<FullyGrownIn>{0} 후 완전히 성장</FullyGrownIn>
 	<OutOfIdealTemperatureRange>이상적인 온도 범위에서 벗어남 (정상 속도의 {0}%만큼 성장)</OutOfIdealTemperatureRange>
 	<OutOfIdealTemperatureRangeNotGrowing>이상적인 온도 범위에서 벗어남 (성장하지 않음)</OutOfIdealTemperatureRangeNotGrowing>
 	<ReadyToHarvest>수확 가능</ReadyToHarvest>
@@ -202,7 +201,8 @@
 	<!-- Cryptosleep casket -->
 	<CasketContains>포함</CasketContains>
 	<CasketUnknownContents>알려지지않음</CasketUnknownContents>
-	<CasketWarning>경고!\n\nNAME 은 당신의 마지막으로 남은 주민입니다! 만약 주민을 동면기 안으로 넣는다면 당신은 더이상 이 식민지를 플레이 할 수 없습니다. 정말 계속 진행하시겠습니까?
+	<CasketWarning>경고!
+		\n\nNAME 은 당신의 마지막으로 남은 주민입니다! 만약 주민을 동면기 안으로 넣는다면 당신은 더이상 이 식민지를 플레이 할 수 없습니다. 정말 계속 진행하시겠습니까?
 	</CasketWarning>
 	<!-- Ship launch report -->
 	<ShipReportCannotLaunch>발사할 수 없습니다.</ShipReportCannotLaunch>
@@ -227,15 +227,16 @@
 
 	<!-- Quality -->
 	<Quality>품질</Quality>
-	<QualityDescription>얼마나 이 물건이 잘만들어졌는가를 나타냅니다.</QualityDescription>
+	<QualityDescription>이 물건이 얼마나 잘 만들어졌는가를 나타냅니다.</QualityDescription>
 	<QualityIs>품질: {0}</QualityIs>
 
 	<!-- Game over -->
 	<GameOverEveryoneDead>모든 주민이 죽거나 떠났습니다. 이 여정은 끝났습니다.\n\n아마도 다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠군요.
 	</GameOverEveryoneDead>
-	<GameOverShipLaunched>우주선을 발사하였습니다! 다음 주민들이 탈출했습니다.\n\n{0}\n다음 주민들은 남았습니다.\n\n{1}\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할
-		것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 누군가가 여기에 새로운 글리터 월드를 건설할 때 까지 몇
-		세기동안 소행성의 얼음 아래서 기다리기로 할 수도 있구요.\n\n당신이 일어나면 알게 되겠죠.
+	<GameOverShipLaunched>우주선을 발사하였습니다! 다음 주민들이 탈출했습니다.
+		\n\n{0}\n다음 주민들은 남았습니다.
+		\n\n{1}\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 누군가가 여기에 새로운 글리터 월드를 건설할 때 까지 몇 세기동안 소행성의 얼음 아래서 기다리기로 할 수도 있구요.
+		\n\n당신이 일어나면 알게 되겠죠.
 	</GameOverShipLaunched>
 	<GameOverKeepPlaying>계속 진행하기</GameOverKeepPlaying>
 	<GameOverMainMenu>메인 메뉴</GameOverMainMenu>
