@@ -9,7 +9,7 @@
 
 	<AlertUnforbidStartingResources>자원 상호작용 설정</AlertUnforbidStartingResources>
 	<AlertUnforbidStartingResourcesDesc>처음 주어진 자원들은 기본적으로 상호작용이 금지되어 있습니다.
-		\n\n 정착지 주민들이 활용하기 위해선 해당 자원들을 선택하고 화면 하단의 상호작용 버튼을 눌러 허용해야 합니다.
+		\n\n정착지 주민들이 활용하기 위해선 해당 자원들을 선택하고 화면 하단의 상호작용 버튼을 눌러 허용해야 합니다.
 	</AlertUnforbidStartingResourcesDesc>
 
 	<AlertEquipStartingWeapons>무기 장착</AlertEquipStartingWeapons>
@@ -38,8 +38,7 @@
 	</ColonistsNeedRescueDesc>
 
 	<BuildARoom>방 건설</BuildARoom>
-	<BuildARoomDesc>방은 벽과 문으로 구분됩니다.\n\n좌측 하단 메뉴의 건물 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 건설 예약을 해두면 정착지 주민들의 우선순위에 따라서 그들이
-		제작할 것입니다.
+	<BuildARoomDesc>방은 벽과 문으로 구분됩니다.\n\n좌측 하단 메뉴의 건물 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 건설 예약을 해두면 정착지 주민들의 우선순위에 따라서 그들이 제작할 것입니다.
 	</BuildARoomDesc>
 
 	<NeedGrowingZone>재배구역 필요</NeedGrowingZone>
@@ -136,22 +135,25 @@
 	<TableNeedsChairsDesc>의자가 없는 식탁이 있습니다. 식탁은 사람들이 앉지 못하면 쓸모가 없습니다.</TableNeedsChairsDesc>
 
 	<ColonistNeedsTreatment>치료가 필요한 주민</ColonistNeedsTreatment>
-	<ColonistNeedsTreatmentDesc>다음 주민들을 치료해야 합니다. 그렇지 않으면 상처때문에 죽거나 영구적인 장애가 발생할 수 있습니다.\n\n{0}\n의료 침대로 이송하여
-		치료하십시오.\n\n(먼저 침대를 선택하여 의료 침대로 전환하고, 상처입은 주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)
+	<ColonistNeedsTreatmentDesc>다음 주민들을 치료해야 합니다. 그렇지 않으면 상처때문에 죽거나 영구적인 장애가 발생할 수 있습니다.\n\n{0}\n의료 침대로 이송하여 치료하십시오.
+		\n\n(먼저 침대를 선택하여 의료 침대로 전환하고, 상처입은 주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)
 	</ColonistNeedsTreatmentDesc>
 
 	<AlertHypothermia>저체온증</AlertHypothermia>
-	<AlertHypothermiaDesc>다음 주민들은 저체온증으로 인해 고통받고 있습니다.\n\n{0}\n계절에 맞는 옷을 만들어 입거나 따듯한 곳으로 이동해야합니다.</AlertHypothermiaDesc>
+	<AlertHypothermiaDesc>다음 주민들은 저체온증으로 인해 고통받고 있습니다.
+		\n\n{0}\n계절에 맞는 옷을 만들어 입거나 따듯한 곳으로 이동해야합니다.</AlertHypothermiaDesc>
 
 	<ColonistsAwaitingMedicalOperation>{0}명의 주민들 수술 대기중</ColonistsAwaitingMedicalOperation>
-	<ColonistsAwaitingMedicalOperationDesc>다음 주민들은 수술을 기다리고 있습니다.\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 대기중인 의사가 있도록 하십시오.
+	<ColonistsAwaitingMedicalOperationDesc>다음 주민들은 수술을 기다리고 있습니다.
+		\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 대기중인 의사가 있도록 하십시오.
 	</ColonistsAwaitingMedicalOperationDesc>
 
 	<PawnsWithLifeThreateningDisease>심각한 질병</PawnsWithLifeThreateningDisease>
-	<PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하십시오.
+	<PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.
+		\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하십시오.
 	</PawnsWithLifeThreateningDiseaseDesc>
 
-	<PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나
-		감염된 부위를 교체하는 것이 좋습니다.
+	<PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.
+		\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나 감염된 부위를 교체하는 것이 좋습니다.
 	</PawnsWithLifeThreateningDiseaseAmputationDesc>
 </LanguageData>
