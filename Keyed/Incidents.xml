@@ -3,8 +3,7 @@
 <LanguageData>
 
 	<AnimalInsanitySingle>근처 {0}의 머리에 문제가 생겼는지, 보이는 모든 것들을 공격하기 시작합니다.</AnimalInsanitySingle>
-	<AnimalInsanityMultiple>어떤 정신적인 종류의 충격파가 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만… 주변 여러 {0}의 머리속에 영향이 있었는지 정신이 나간 것 같아
-		보입니다.
+	<AnimalInsanityMultiple>어떤 정신적인 종류의 충격파가 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만… 주변 여러 {0}의 머리속에 영향이 있었는지 정신이 나간 것 같아 보입니다.
 	</AnimalInsanityMultiple>
 
 	<CropBlight>기이한 병충해가 농작물에 피해를 입혔습니다.</CropBlight>
@@ -31,7 +30,8 @@
 	<FriendlyRaidImmediateAttack>이들은 정착지 주민들을 돕기위해 즉시 이동하고 있습니다.</FriendlyRaidImmediateAttack>
 	<FriendlyRaidBesiege>보아하니, 공성 전술로 정착지 주민들을 도우려는 것 같습니다.</FriendlyRaidBesiege>
 
-	<RefugeePodCrash>정착지 주민들이 주변에 탈출용 낙하기가 강하게 충돌하는 것을 감지 했습니다.\n\n만약 누군가 충돌에서 살아 남았다면, 매우 심각하게 부상 당했을 겁니다.
+	<RefugeePodCrash>정착지 주민들이 주변에 탈출용 낙하기가 강하게 충돌하는 것을 감지 했습니다.
+		\n\n만약 누군가 충돌에서 살아 남았다면, 매우 심각하게 부상 당했을 겁니다.
 	</RefugeePodCrash>
 
 	<CargoPodCrash>정착지 주민들이 주변에 다수의 화물 낙하기가 추락한 것을 감지했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을 겁니다.</CargoPodCrash>
@@ -40,13 +40,15 @@
 
 	<AWallsPowerConduit>벽에 매설된 전선</AWallsPowerConduit>
 
-	<ShortCircuit>{0}의 결함으로 누전이 발생했습니다.\n\n연결되어있던 모든 축전지가 지녔던 {1} Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
+	<ShortCircuit>{0}의 결함으로 누전이 발생했습니다.
+		\n\n연결되어있던 모든 축전지가 지녔던 {1} Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
 
 	<ShortCircuitWasLarge>저장되어 있던 전기로 인해 상당한 규모의 폭발이 발생했습니다.</ShortCircuitWasLarge>
 
 	<ShortCircuitWasHuge>폭발이 정말 크고... 아름다워요...</ShortCircuitWasHuge>
 
-	<LetterSolarFlare>흑점 폭발이 시작됐습니다.\n\n강한 방사선이 모든 전기장치의 작동을 막습니다. 하루 정도 지나면 잠잠해 질 것으로 예상됩니다.</LetterSolarFlare>
+	<LetterSolarFlare>흑점 폭발이 시작됐습니다.
+		\n\n강한 방사선이 모든 전기장치의 작동을 막습니다. 하루 정도 지나면 잠잠해 질 것으로 예상됩니다.</LetterSolarFlare>
 
 	<LetterHeatWave>이례적인 폭염이 시작되었습니다. 열사병에 주의하십시오.</LetterHeatWave>
 	<HeatWaveOver>폭염이 끝났습니다.</HeatWaveOver>
@@ -71,7 +73,7 @@
 
 	<!-- Crashed ship part-->
 	<SpaceshipPartCrash>주변에 고대 우주선의 커다란 잔해가 떨어졌습니다.
-		\n\n정착지 주민들은 그 잔해가 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것을 느낄 수 있습니다. 이건 우주선에 탑재된 AI의 정신발산능력이 분명하고, 이 인공지능은 친근하지 않습니다.
+		\n\n정착지 주민들은 그 잔해가 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것을 느낄 수 있습니다. 이건 우주선에 탑재된 AI의 정신발산능력이 분명하고, 이 인공지능은 우호적이지 않습니다.
 		\n\n최대한 빨리 파괴하십시오.
 	</SpaceshipPartCrash>
 

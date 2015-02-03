@@ -18,8 +18,8 @@
 	<LoadingLongEvent>불러오는 중...</LoadingLongEvent>
 
 	<!-- Colony naming-->
-	<NameColonyMessage>모두가 알다시피 당신은 이런 돌 덩어리에서 오래 머물고 싶지 않습니다. 하지만 어찌 됐건 정착지의 이름을 정하자는 {0}의 제안이 들어왔습니다.\n\n무엇으로 부르면
-		좋을까요?
+	<NameColonyMessage>모두가 알다시피 당신은 이런 돌 덩어리에서 오래 머물고 싶지 않습니다. 하지만 어찌 됐건 정착지의 이름을 정하자는 {0}의 제안이 들어왔습니다.
+		\n\n무엇으로 부르면 좋을까요?
 	</NameColonyMessage>
 
 	<ColonyGainsName>이제부터 정착지는 {0}의 이름으로 알려집니다.</ColonyGainsName>
@@ -33,13 +33,14 @@
 	<PawnGainsName>그 주민의 별명은 이제 {0}입니다.</PawnGainsName>
 
 	<!-- Save game incompatible warning -->
-	<SaveGameIncompatibleWarningText>버전이 일치하지 않음: 해당 맵은 {0}버전에서 생성되었으며 현재 {1}버전을 사용중입니다.\n\n해당 파일을 불러오게 될 경우 호환성에 문제가 발생
-		할 수 있습니다.
+	<SaveGameIncompatibleWarningText>버전이 일치하지 않음: 해당 맵은 {0}버전에서 생성되었으며 현재 {1}버전을 사용중입니다.
+		\n\n해당 파일을 불러오게 될 경우 호환성에 문제가 발생 할 수 있습니다.
 	</SaveGameIncompatibleWarningText>
 	<SaveGameIncompatibleWarningTitle>호환성이 맞지 않아 저장할 수 없습니다.</SaveGameIncompatibleWarningTitle>
 
 	<!-- Resolution change dialog -->
-	<ConfirmResolutionChange>변경한 해상도가 정상적으로 표시 되고 있습니까?\n\n{0}초 후에 이전 해상도로 되돌아 갑니다.</ConfirmResolutionChange>
+	<ConfirmResolutionChange>변경한 해상도가 정상적으로 표시 되고 있습니까?
+		\n\n{0}초 후에 이전 해상도로 되돌아 갑니다.</ConfirmResolutionChange>
 	<ResolutionKeep>변경한 설정 유지</ResolutionKeep>
 	<ResolutionRevert>되돌리기</ResolutionRevert>
 
@@ -56,10 +57,11 @@
 	</ResearchMenuWithoutBench>
 
 	<!-- Advanced game start options -->
-	<MapTemperatureDangerWarning>경고: 당신은 얼어붙은 환경에 착륙하게 될 것이며, 생존하기 매우 힘들것입니다. 만약 당신이 극도로 어려운 도전을 하고 싶지 않다면 다른 지역 또는 날짜를 선택하십시오.
+	<MapTemperatureDangerWarning>경고: 당신은 얼어붙은 환경에 착륙하게 될 것이며, 생존하기 매우 힘들것입니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 날짜를 선택하십시오.
 	</MapTemperatureDangerWarning>
 
-	<MapSizePerformanceWarning>경고: 맵의 규모가 넓어질수록 게임의 품질이 저하될 것입니다.\n\n터무니 없는 크기는 아직 검증되지 않았으며 대부분 잘 진행되지 않을 것입니다.
+	<MapSizePerformanceWarning>경고: 맵의 규모가 넓어질수록 게임의 품질이 저하될 것입니다.
+		\n\n터무니 없는 크기는 아직 검증되지 않았으며 대부분 잘 진행되지 않을 것입니다.
 	</MapSizePerformanceWarning>
 	<MapSize>맵의 규모</MapSize>
 	<MapSizeDesc>{0}x{0} ({1}칸)</MapSizeDesc>
@@ -127,7 +129,7 @@
 	<BuyPriceDesc>구매하기 위해 지불해야 할 가격</BuyPriceDesc>
 	<SellPriceDesc>판매하여 받는 대금</SellPriceDesc>
 	<PriceTypeDesc>해당 아이템에 대해서 이 가격은 {0}.</PriceTypeDesc>
-	<ColonyCount>정착지가 지닌 거래 가능한 수량.4
+	<ColonyCount>정착지가 지닌 거래 가능한 수량.
 		\n\n판매하기 위해서는 아이템이 실외에 있어야 하며 궤도 송신기 근처에 있어야 합니다.</ColonyCount>
 	<TraderCount>상인이 지닌 수량</TraderCount>
 	<AcceptButton>수락</AcceptButton>
@@ -148,9 +150,7 @@
 	<ResearchScreen>연구 화면</ResearchScreen>
 
 	<!--HistoryUpload-->
-	<HistoryUploadMessage>유저들의 게임 이용 정보는 게임 개발에 도움이 됩니다. 만약 동의 하신다면, 인게임 시간으로 {0} 일마다 (또는 게임 종료 같이 특별한 경우) 게임 이용 정보가
-		RimWorld 서버로 전송되어 분석됩니다. 전송되는 정보는 게임을 이용하면서 발생되는 진행정보와 통계자료뿐이며 본 게임의 환경설정에 지정된 사용자 이름 이외의 개인정보는 수집되지 않습니다. 따라서
-		완벽하게 익명으로 전송됩니다
+	<HistoryUploadMessage>유저들의 게임 이용 정보는 게임 개발에 도움이 됩니다. 만약 동의하신다면, 인게임 시간으로 {0} 일마다 (또는 게임 종료 같이 특별한 경우) 게임 이용 정보가 RimWorld 서버로 전송되어 분석됩니다. 전송되는 정보는 게임을 이용하면서 발생되는 진행정보와 통계자료뿐이며 본 게임의 환경설정에 지정된 사용자 이름 이외의 개인정보는 수집되지 않습니다. 따라서 완벽하게 익명으로 전송됩니다
 	</HistoryUploadMessage>
 	<HistoryUploadMessagePlayerName>정보가 익명으로 처리가 된다고 하더라도, 사용자 이름에 실명을 적으실 수 있습니다.</HistoryUploadMessagePlayerName>
 
