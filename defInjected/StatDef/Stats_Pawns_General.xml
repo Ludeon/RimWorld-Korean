@@ -22,5 +22,8 @@
 
 	<ComfyTemperatureMax.label>최대 적응 온도</ComfyTemperatureMax.label>
 	<ComfyTemperatureMax.description>이 온도보다 덥다면 대상의 기분이 나빠집니다. 더 뜨거워지면 결국 열사병으로 죽을 것입니다.</ComfyTemperatureMax.description>
+
+	<ImmunityGainSpeed.label>항체 생성 속도</ImmunityGainSpeed.label>
+	<ImmunityGainSpeed.description>질병이 발생했을 때 항체가 생성되는 속도를 나타냅니다. 만약 이 값이 너무 낮다면 항체가 생성되기 전에 죽을 수 있습니다.</ImmunityGainSpeed.description>
 	
 </LanguageData>

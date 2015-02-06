@@ -2,8 +2,8 @@
 <!--suppress ALL -->
 <LanguageData>
 
-	<AnimalInsanitySingle>근처 {0}의 머리에 문제가 생겼는지, 보이는 모든 것들을 공격하기 시작합니다.</AnimalInsanitySingle>
-	<AnimalInsanityMultiple>어떤 정신적인 종류의 충격파가 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만… 주변 여러 {0}의 머리속에 영향이 있었는지 정신이 나간 것 같아 보입니다.
+	<AnimalInsanitySingle>근처에 있는 {0}의 정신에 문제가 생겼는지 보이는 모든 것들을 공격하기 시작했습니다.</AnimalInsanitySingle>
+	<AnimalInsanityMultiple>어떤 정신적인 충격파가 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미친 것 같습니다..
 	</AnimalInsanityMultiple>
 
 	<CropBlight>기이한 병충해가 농작물에 피해를 입혔습니다.</CropBlight>
@@ -58,17 +58,17 @@
 
 	<TraderArrival>무역선이 근처를 지나갑니다.\n\n{0}의 이름으로 알려진 {1}입니다.</TraderArrival>
 
-	<SingleTravelerPassing>{1}에서 온 사람이 마을을 지나가고 있습니다. HE {2}, {0}입니다.</SingleTravelerPassing>
+	<SingleTravelerPassing>{1}에서 온 사람이 마을을 지나가고 있습니다. HIS 이름은 {2}이며 {0}입니다.</SingleTravelerPassing>
 
 	<GroupTravelersPassing>{0}의 여행객들이 지나가고 있습니다.</GroupTravelersPassing>
 
-	<SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHE {2}, {0}입니다.</SingleVisitorArrives>
+	<SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며 {0}입니다.</SingleVisitorArrives>
 
 	<GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다.</GroupVisitorsArrive>
 
 	<VisitorsLeaving>{0}에서 온 방문객들이 떠나고 있습니다.</VisitorsLeaving>
 
-	<WandererJoin>정착지에 직업이 {0}인 NAME의 합류 소식이 들려옵니다. HE {1} 입니다</WandererJoin>
+	<WandererJoin>정착지에 합류하는 사람이 있습니다. HIS 이름은 {1}이며 {0}입니다.</WandererJoin>
 
 
 	<!-- Crashed ship part-->
@@ -76,21 +76,16 @@
 		\n\n정착지 주민들은 그 잔해가 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것을 느낄 수 있습니다. 이건 우주선에 탑재된 AI의 정신발산능력이 분명하고, 이 인공지능은 우호적이지 않습니다.
 		\n\n최대한 빨리 파괴하십시오.
 	</SpaceshipPartCrash>
-
 	<MessageAnimalInsanityPulse>고대 우주선이 정신적 파동을 발산하여 주변 동물들을 미쳐 날뛰게 만들었습니다.</MessageAnimalInsanityPulse>
 	<LetterShipPartDroveColonistInsane>추락한 우주선의 잔해가 집중된 정신적 파동을 발산하여 {0}의 정신에 문제가 생겼습니다.
 	</LetterShipPartDroveColonistInsane>
-
 	<AwokeDaysAgo>{0}일 전에 깨어남</AwokeDaysAgo>
-
 	<PsychicDroneLevel>정신적 소음 단계: {0}</PsychicDroneLevel>
 	<PsychicDroneLevelLow>낮음</PsychicDroneLevelLow>
 	<PsychicDroneLevelMedium>중간</PsychicDroneLevelMedium>
 	<PsychicDroneLevelHigh>높음</PsychicDroneLevelHigh>
 	<PsychicDroneLevelExtreme>심각</PsychicDroneLevelExtreme>
-
-	<LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 정신적인 소음이 더욱 강하게 울려 퍼지고 있습니다. 이 지역의 모든 인간들은 이제 더 불안해 하며, 겁에 질리고, 더 심한
-		피해 망상을 하기 시작합니다.
+	<LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 정신적인 소음이 더욱 강하게 울려 퍼지고 있습니다. 이제 이 지역의 모든 인간들은 더 불안해 하고, 겁에 질리며, 심화된 피해 망상을 하기 시작합니다.
 	</LetterPsychicDroneLevelIncreased>
 
 	<!-- Agent revealed -->
