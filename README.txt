@@ -32,3 +32,5 @@ Alpha 7 (581) 2차 : DDCCDD
 
 Alpha 8 1차 : 인서대
 Alpha 8 2차 : Latta
+
+Alpha 9 : Latta

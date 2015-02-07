@@ -11,7 +11,7 @@
 	<Owner>주인</Owner>
 	<Nobody>아무도</Nobody>
 	<Unowned>주인 없음</Unowned>
-	<DeadTime>{0}에 죽음</DeadTime>
+	<DeadTime>{0} 전에 죽음</DeadTime>
 	<WalkSpeed>보행속도 {0}</WalkSpeed>
 	<DyingLower>죽어가는 중</DyingLower>
 	<FilthOnFeet>발에 있는 오물: </FilthOnFeet>
@@ -54,7 +54,7 @@
 	<ShellNotLoaded>탄약 없음</ShellNotLoaded>
 
 	<!-- Job reports -->
-	<ReportHaulingTo>{0}에서 {1}(으)로 운반 중.</ReportHaulingTo>
+	<ReportHaulingTo>{0}을(를) {1}(으)로 운반 중.</ReportHaulingTo>
 	<ReportHauling>{0} 운반 중.</ReportHauling>
 	<ReportSleeping>수면 중.</ReportSleeping>
 	<ReportResting>쉬는 중.</ReportResting>
@@ -179,6 +179,7 @@
 	<OutdoorGrowingPeriod>성장 기간: {0}</OutdoorGrowingPeriod>
 	<NoGrowingPeriod>불가능</NoGrowingPeriod>
 	<GrowYearRound>연중 계속</GrowYearRound>
+	<GrowSeasonHereNow>현재 재배 가능한 계절입니다.</GrowSeasonHereNow>
 	<CannotGrowTooCold>너무 추워 성장할 수 없습니다.</CannotGrowTooCold>
 
 	<!-- Zones -->
