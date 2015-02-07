@@ -11,6 +11,7 @@
 
 	<!-- Gameplay -->
 	<EdgeScreenScroll>마우스 가장자리 화면이동</EdgeScreenScroll>
+	<PauseOnLoad>불러오기 후 일시정지</PauseOnLoad>
 	<CustomCursor>맞춤 커서</CustomCursor>
 	<KeyboardConfig>키보드 구성</KeyboardConfig>
 	<ChooseLanguage>언어 선택</ChooseLanguage>
@@ -23,12 +24,14 @@
 	<OpenSaveGameDataFolder>진행사항이 저장된 폴더 열기</OpenSaveGameDataFolder>
 	<NamesYouWantToSee>게임 내에서 등장하게 만들고 싶은 캐릭터의 성 또는 성장 배경을 적으십시오.</NamesYouWantToSee>
 	<ChangeStoryteller>이야기꾼 선택</ChangeStoryteller>
+	<AutosaveInterval>자동저장 간격</AutosaveInterval>
 
 	<!-- Resolution -->
 	<Resolution>해상도</Resolution>
 	<Fullscreen>전체화면</Fullscreen>
 	<CurrentRes>현재 해상도: {0}</CurrentRes>
 	<ChooseResolution>해상도 선택</ChooseResolution>
+
 	<!-- Privacy-->
 	<Privacy>개인정보 처리방침</Privacy>
 	<UserName>사용자 이름</UserName>

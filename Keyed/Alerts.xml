@@ -1,34 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
-	<ClickToJumpToProblem>문제가 발생한 곳으로 화면 이동</ClickToJumpToProblem>
+	<ClickToJumpToProblem>클릭하여 문제가 발생한 곳으로 화면 이동</ClickToJumpToProblem>
 
-	<AlertNeedStockpile>저장구역 필요</AlertNeedStockpile>
-	<AlertNeedStockpileDesc>정착지 주민들은 어딘가에 아이템을 저장할 수 있는 공간이 필요합니다. 저장구역을 지정해 주십시오. 좌측 하단 메뉴의 구역 카테고리에서 찾을 수 있습니다.
-	</AlertNeedStockpileDesc>
-
-	<AlertUnforbidStartingResources>자원 상호작용 설정</AlertUnforbidStartingResources>
-	<AlertUnforbidStartingResourcesDesc>처음 주어진 자원들은 기본적으로 상호작용이 금지되어 있습니다.
-		\n\n정착지 주민들이 활용하기 위해선 해당 자원들을 선택하고 화면 하단의 상호작용 버튼을 눌러 허용해야 합니다.
-	</AlertUnforbidStartingResourcesDesc>
-
-	<AlertEquipStartingWeapons>무기 장착</AlertEquipStartingWeapons>
-	<AlertEquipStartingWeaponsDesc>정착지 주민들이 기본적인 무기를 가지고 도착했습니다. 주민들을 각각 선택하고 원하는 무기를 우클릭하여 장착하십시오!
-	</AlertEquipStartingWeaponsDesc>
-
-	<NeedSawmill>제재소 필요</NeedSawmill>
-	<NeedSawmillDesc>통나무를 다용도 목재로 가공해기 위해선 제재소가 필요합니다.
-		\n\n수작업 제재소 또는 전기 제재소를 건설하십시오.</NeedSawmillDesc>
-
-	<MentalBreakSoon>정신이상 조짐</MentalBreakSoon>
-	<MentalBreakSoonDesc>다음 주민들이 정신을 가다듬는 것에 한계를 느끼고 있습니다.
+	<MentalBreakSoon>기분이 좋지 않음</MentalBreakSoon>
+	<MentalBreakSoonDesc>다음 주민들의 기분이 좋지 않으며 부분적인 정신이상이 발생할 수 있습니다.
 		\n\n{0}
 		\n나쁜 일이 발생되기 전에 요구사항이나 기분을 확인하고 주민들을 진정시키십시오.
 	</MentalBreakSoonDesc>
 
-	<MentalBreakImminent>정신이상 임박</MentalBreakImminent>
-	<MentalBreakImminentDesc>다음 주민들은 정신이 언제든지 붕괴되어도 이상하지 않을 정도의 치명적인 스트레스를 겪고 있습니다.
-		\n\n{0}</MentalBreakImminentDesc>
+	<MentalBreakImminent>기분이 매우 좋지 않음</MentalBreakImminent>
+	<MentalBreakImminentDesc>다음 주민들은 치명적인 스트레스를 겪고 있으며 완전하고 잠재적으로 폭력적인 정신이상이 발생할 수 있습니다.
+		\n\n{0}
+		\n나쁜 일이 발생되기 전에 요구사항이나 기분을 확인하고 주민들을 진정시키십시오.
+	</MentalBreakImminentDesc>
 
 	<ColonistNeedsRescue>구조가 필요한 주민</ColonistNeedsRescue>
 	<ColonistsNeedRescue>구조가 필요한 주민들</ColonistsNeedRescue>
@@ -40,10 +25,6 @@
 	<BuildARoom>방 건설</BuildARoom>
 	<BuildARoomDesc>방은 벽과 문으로 구분됩니다.\n\n좌측 하단 메뉴의 건물 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 건설 예약을 해두면 정착지 주민들의 우선순위에 따라서 그들이 제작할 것입니다.
 	</BuildARoomDesc>
-
-	<NeedGrowingZone>재배구역 필요</NeedGrowingZone>
-	<NeedGrowingZoneDesc>재배구역이 설정되어 있지 않습니다.\n\n좌측 하단 메뉴의 구역 설정 카테고리에서 재배구역을 선택하고 흙 위에 위치를 지정해 주십시오.
-	</NeedGrowingZoneDesc>
 
 	<NeedDefenses>방어시설 필요</NeedDefenses>
 	<NeedDefensesDesc>이 곳에 정착한지 시간이 좀 흘렀고 분명히 누군가에겐 위치가 알려졌을 겁니다. 우주 해적들이 나타날 수도 있으니 방어를 준비해야 합니다.
@@ -75,15 +56,21 @@
 	</HunterLacksWeaponDesc>
 
 	<Starvation>굶주림</Starvation>
-	<StarvationDesc>다음 주민들이 굶주렸습니다.\n\n{0}\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 징병상태를 해제했는지 확인해주십시오.
+	<StarvationDesc>다음 주민들이 굶주리고 있습니다.
+		\n\n{0}
+		\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 징병상태를 해제했는지 확인해주십시오.
 	</StarvationDesc>
 
 	<Exhaustion>탈진</Exhaustion>
-	<ExhaustionDesc>다음 주민들이 탈진하여 휴식이 필요합니다.\n\n{0}\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 징병상태를 해제했는지 확인해주십시오.
+	<ExhaustionDesc>다음 주민들이 탈진하여 휴식이 필요합니다.
+		\n\n{0}
+		\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 징병상태를 해제했는지 확인해주십시오.
 	</ExhaustionDesc>
 
 	<NeedFoodHopper>깔대기가 필요합니다.</NeedFoodHopper>
-	<NeedFoodHopperDesc>영양반죽 배급기 옆에 깔대기가 없습니다.\n\n영양반죽 배급기는 깔대기에서 조리되지 않은 음식을 받아야 작동이이 가능합니다.\n\n깔대기를 배급기 옆에 건설하십시오.
+	<NeedFoodHopperDesc>영양반죽 배급기 옆에 깔대기가 없습니다.
+		\n\n영양반죽 배급기는 깔대기에서 조리되지 않은 음식을 받아야 작동이이 가능합니다.
+		\n\n깔대기를 배급기 옆에 건설하십시오.
 	</NeedFoodHopperDesc>
 
 	<BuildingNeedsPower>건물에 전기 필요</BuildingNeedsPower>
@@ -102,7 +89,8 @@
 	</NeedMealSourceDesc>
 
 	<NeedHomeRegion>주거지역 설정</NeedHomeRegion>
-	<NeedHomeRegionDesc>정착지 주민들이 스스로 청소하고, 수리하고, 소방활동을 할 수 있도록 주거지역을 설정해야 합니다.\n\n좌측 하단 메뉴의 구역 설정에서 주거지역을 설정하실 수 있습니다.
+	<NeedHomeRegionDesc>정착지 주민들이 스스로 청소하고, 수리하고, 소방활동을 할 수 있도록 주거지역을 설정해야 합니다.
+		\n\n좌측 하단 메뉴의 구역 설정에서 주거지역을 설정할 수 있습니다.
 	</NeedHomeRegionDesc>
 
 	<NeedBatteries>축전지 필요</NeedBatteries>
@@ -115,6 +103,10 @@
 	<BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 장비</BrawlerHasRangedWeapon>
 	<BrawlerHasRangedWeaponDesc>당신의 주민 중 한 명이 싸움꾼 특성을 가지고 있지만 원거리 무기를 장비하고 있습니다. 이는 싸움꾼을 매우 불행하게 만들 것입니다.
 	</BrawlerHasRangedWeaponDesc>
+
+	<ShieldUserHasRangedWeapon>보호막을 장착한 주민이 원거리 무기 장비</ShieldUserHasRangedWeapon>
+	<ShieldUserHasRangedWeaponDesc>당신의 주민 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 그 주민은 근접거리 이내의 적을 제외한 대상에게 원거리 사격을 할 수 없을 것입니다.
+	</ShieldUserHasRangedWeaponDesc>
 
 	<NeedResearchProject>연구 진행 가능</NeedResearchProject>
 	<NeedResearchProjectDesc>연구 메뉴에서 연구할 항목을 지정해 주십시오.</NeedResearchProjectDesc>
@@ -131,9 +123,6 @@
 	<HaltedConstructions>{0}개의 건설에 필요한 자원 부족</HaltedConstructions>
 	<HaltedConstructionsDesc>다음 건설들에 필요한 자원이 부족합니다.\n\n{0}\n작업을 계속 진행할 수 있도록 필요한 자원을 보충해야 합니다.</HaltedConstructionsDesc>
 
-	<TableNeedsChairs>식탁에 의자 필요</TableNeedsChairs>
-	<TableNeedsChairsDesc>의자가 없는 식탁이 있습니다. 식탁은 사람들이 앉지 못하면 쓸모가 없습니다.</TableNeedsChairsDesc>
-
 	<ColonistNeedsTreatment>치료가 필요한 주민</ColonistNeedsTreatment>
 	<ColonistNeedsTreatmentDesc>다음 주민들을 치료해야 합니다. 그렇지 않으면 상처때문에 죽거나 영구적인 장애가 발생할 수 있습니다.
 		\n\n{0}\n의료 침대로 이송하여 치료하십시오.
@@ -149,11 +138,13 @@
 		\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 대기중인 의사가 있도록 하십시오.
 	</ColonistsAwaitingMedicalOperationDesc>
 
+	<FireInHomeRegion>화재!</FireInHomeRegion>
+	<FireInHomeRegionDesc>주거구역 내에 화재가 발생했습니다.</FireInHomeRegionDesc>
+
 	<PawnsWithLifeThreateningDisease>심각한 질병</PawnsWithLifeThreateningDisease>
 	<PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.
 		\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하십시오.
 	</PawnsWithLifeThreateningDiseaseDesc>
-
 	<PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.
 		\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나 감염된 부위를 교체하는 것이 좋습니다.
 	</PawnsWithLifeThreateningDiseaseAmputationDesc>

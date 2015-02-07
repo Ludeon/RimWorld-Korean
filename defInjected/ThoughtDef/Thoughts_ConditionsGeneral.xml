@@ -3,6 +3,40 @@
 <LanguageData>
 
 	<rep>
+		<path>LowExpectations.stages[0].label</path>
+		<trans>낮은 기대감</trans>
+	</rep>
+	<rep>
+		<path>LowExpectations.stages[0].description</path>
+		<trans>여기 꽤 가난한데... 이런 곳에선 편안함을 기대하면 안되겠지.</trans>
+	</rep>
+	<rep>
+		<path>LowExpectations.stages[1].label</path>
+		<trans>매우 낮은 기대감</trans>
+	</rep>
+	<rep>
+		<path>LowExpectations.stages[1].description</path>
+		<trans>여긴 완전 빈곤 그 자체야. 생존을 위해선 마음을 단단히 먹는게 좋겠어.</trans>
+	</rep>
+
+	<rep>
+		<path>HighExpectations.stages[0].label</path>
+		<trans>높은 기대감</trans>
+	</rep>
+	<rep>
+		<path>HighExpectations.stages[0].description</path>
+		<trans>여긴 꽤 잘 하고 있어. 내가 잘 대접 받았으면 좋겠는걸.</trans>
+	</rep>
+	<rep>
+		<path>HighExpectations.stages[1].label</path>
+		<trans>매우 높은 기대감</trans>
+	</rep>
+	<rep>
+		<path>HighExpectations.stages[1].description</path>
+		<trans>여긴 완전한 부유함 그 자체야. 내가 뭔가 금지당할 어떠한 이유도 없어.</trans>
+	</rep>
+
+	<rep>
 		<path>Hungry.stages[0].label</path>
 		<trans>배고픔</trans>
 	</rep>
@@ -160,6 +194,24 @@
 		<path>CabinFever.stages[1].description</path>
 		<trans>꼭 쥐가 된 것 마냥 너무 오래 있었어. 빨리 밖으로 좀 나가야 해!</trans>
 	</rep>
+
+	<rep>
+		<path>ApparelDamaged.stages[0].label</path>
+		<trans>옷이 해어짐</trans>
+	</rep>
+	<rep>
+		<path>ApparelDamaged.stages[0].description</path>
+		<trans>내 옷들 상태가 별로 좋지 않아. 뭔가 더 적합한 걸 입을 수 없을까?</trans>
+	</rep>
+	<rep>
+		<path>ApparelDamaged.stages[1].label</path>
+		<trans>옷이 누더기가 됨</trans>
+	</rep>
+	<rep>
+		<path>ApparelDamaged.stages[1].description</path>
+		<trans>난 쓰레기같은 누더기를 입고 있어. 뭔가 더 적합한 걸 입을 수 없을까?</trans>
+	</rep>
+
 
 
 	<rep>

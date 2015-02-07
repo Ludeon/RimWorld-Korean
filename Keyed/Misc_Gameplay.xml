@@ -11,9 +11,9 @@
 	<Owner>주인</Owner>
 	<Nobody>아무도</Nobody>
 	<Unowned>주인 없음</Unowned>
-	<DeadTime>{0}에 죽음</DeadTime>
+	<DeadTime>{0} 전에 죽음</DeadTime>
 	<WalkSpeed>보행속도 {0}</WalkSpeed>
-	<DyingLower>죽어가고 있음</DyingLower>
+	<DyingLower>죽어가는 중</DyingLower>
 	<FilthOnFeet>발에 있는 오물: </FilthOnFeet>
 	<NotEnoughStoredLower>재고가 충분치 않음</NotEnoughStoredLower>
 	<NothingLower>아무것도</NothingLower>
@@ -21,7 +21,7 @@
 	<Headshot>머리 명중!</Headshot>
 	<FreshMissingBodyPart>방금</FreshMissingBodyPart>
 	<UntreatedLower>치료받지 않음</UntreatedLower>
-	<DevelopedImmunityLower>항체 완성</DevelopedImmunityLower>
+	<DevelopedImmunityLower>항체 생성됨</DevelopedImmunityLower>
 	<InjuryRequiresTreatment>치료 필요</InjuryRequiresTreatment>
 	<NextTreatmentAfter>다음 치료 {0} 후</NextTreatmentAfter>
 	<MissingMedicalBillIngredient>{0} 없음</MissingMedicalBillIngredient>
@@ -35,21 +35,30 @@
 	<DropThing>떨어뜨리기</DropThing>
 	<RenameColonist>개명</RenameColonist>
 	<UnknownLower>알려지지 않음</UnknownLower>
+	<On>켜기</On>
+	<Off>끄기</Off>
+	<PowerSwitch_Power>전원</PowerSwitch_Power>
+
 	<!-- Snow -->
 	<SnowNone>눈 없음</SnowNone>
 	<SnowDusting>눈 (약간)</SnowDusting>
 	<SnowThin>눈 (얇음)</SnowThin>
 	<SnowMedium>눈 (쌓임)</SnowMedium>
 	<SnowThick>눈 (두껍게 쌓임)</SnowThick>
+
 	<!-- Turrets -->
 	<GunInstalled>장착</GunInstalled>
 	<MinimumRange>최소 사거리</MinimumRange>
 	<CanFireIn>발사 가능</CanFireIn>
+	<ShellLoaded>탄약 장전됨</ShellLoaded>
+	<ShellNotLoaded>탄약 없음</ShellNotLoaded>
+
 	<!-- Job reports -->
-	<ReportHaulingTo>{0}에서 {1}로 운반 중.</ReportHaulingTo>
+	<ReportHaulingTo>{0}을(를) {1}(으)로 운반 중.</ReportHaulingTo>
 	<ReportHauling>{0} 운반 중.</ReportHauling>
 	<ReportSleeping>수면 중.</ReportSleeping>
 	<ReportResting>쉬는 중.</ReportResting>
+
 	<!-- Shooting report -->
 	<WeaponMissRadius>무기 빗나감 범위</WeaponMissRadius>
 	<ShootReportShooterAbility>사수</ShootReportShooterAbility>
@@ -61,9 +70,11 @@
 	<ShootingCover>엄폐</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0}이(가) {1}만큼 방어</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>엄폐하지 않음</NoCoverLower>
+
 	<!-- Generated recipes -->
 	<RecipeMake>{0} 만들기</RecipeMake>
 	<RecipeMakeJobString>{0} 만드는 중.</RecipeMakeJobString>
+
 	<!-- Status levels -->
 	<Mood>기분</Mood>
 	<MoodTip>기분은 신체적, 정신적인 요구를 충족하여 유지됩니다.
@@ -83,7 +94,8 @@
 	<ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
 	<ThoughtStartsExpiringIn>{0} 후에 만료 시작</ThoughtStartsExpiringIn>
 	<ThoughtFinishesExpiringIn>에 만료 마감: {0}</ThoughtFinishesExpiringIn>
-	<MentalBreakThreshold>정신이상 임계값</MentalBreakThreshold>
+	<MentalBreakThresholdHard>완벽한 정신이상 임계값</MentalBreakThresholdHard>
+	<MentalBreakThresholdSoft>부분적 정신이상 임계값</MentalBreakThresholdSoft>
 
 	<!-- Pawn info readout -->
 	<Health>체력</Health>
@@ -95,12 +107,8 @@
 	<Equipped>장착</Equipped>
 	<EquippedNothing>아무것도</EquippedNothing>
 	<Incapacitated>무력화됨</Incapacitated>
-	<InRestraints>구속됨 (느려짐)</InRestraints>
-	<Carrying>운반중</Carrying>
-	<SanityDazedWander>정신이상: 혼란스러워하며 방황하는 중</SanityDazedWander>
-	<SanityGiveUpExit>정신이상: 포기하고 떠나는 중</SanityGiveUpExit>
-	<SanityPanicFlee>정신이상: 공황상태에 빠져 도망치는 중</SanityPanicFlee>
-	<SanityPsychotic>정신이상: 정신병적 광란</SanityPsychotic>
+	<InRestraints>구속됨(느려짐)</InRestraints>
+	<Carrying>운반 중</Carrying>
 
 	<!-- Inspector general stuff -->
 	<SelectNextInSquareTip>같은 칸에 있는 다음 물건을 선택합니다.
@@ -108,8 +116,10 @@
 		\n\n한 사각형을 천천히 여러 번 눌러도 같은 작업을 할 수 있습니다.
 	</SelectNextInSquareTip>
 	<DefInfoTip>이 개체에 대한 정보 보기</DefInfoTip>
+
 	<!-- like 'Blood of John' -->
 	<OfLower>:</OfLower>
+
 	<!-- Power readout -->
 	<PowerNotConnected>전원이 연결되지 않음</PowerNotConnected>
 	<PowerConnectedRateStored>송전 용량/저장 용량: {0} W / {1} Wd</PowerConnectedRateStored>
@@ -117,21 +127,27 @@
 	<PowerOutput>전력 출력량</PowerOutput>
 	<PowerBatteryStored>저장됨</PowerBatteryStored>
 	<PowerBatteryEfficiency>전력 효율</PowerBatteryEfficiency>
+
 	<!-- Temperature control -->
 	<TargetTemperature>대상 온도</TargetTemperature>
 	<PowerConsumptionMode>현재 전력 사용량</PowerConsumptionMode>
 	<PowerConsumptionHigh>높음</PowerConsumptionHigh>
 	<PowerConsumptionLow>낮음</PowerConsumptionLow>
+
 	<!-- Temperature readout -->
 	<Indoors>실내</Indoors>
+	<IndoorsUnroofed>지붕 없음</IndoorsUnroofed>
 	<Outdoors>실외</Outdoors>
+
 	<!--Rotting-->
 	<RotStateFresh>신선함</RotStateFresh>
 	<RotStateRotting>썩는 중</RotStateRotting>
 	<RotStateDessicated>백골화</RotStateDessicated>
+
 	<!-- Shooting tooltip -->
 	<ShotBy>{0}의 사격</ShotBy>
 	<CannotHit>목표를 공격할 수 없습니다.</CannotHit>
+
 	<!-- Storage priority labels -->
 	<StoragePriorityUnstored>저장하지 않음</StoragePriorityUnstored>
 	<StoragePriorityLow>낮음</StoragePriorityLow>
@@ -139,16 +155,19 @@
 	<StoragePriorityPreferred>선호</StoragePriorityPreferred>
 	<StoragePriorityImportant>중요</StoragePriorityImportant>
 	<StoragePriorityCritical>매우 중요</StoragePriorityCritical>
+
 	<!-- Rotting -->
 	<CurrentlyFrozen>냉동 (부패하지 않음)</CurrentlyFrozen>
 	<CurrentlyRefrigerated>냉장 ({0}간 보관 가능)</CurrentlyRefrigerated>
 	<NotRefrigerated>냉장되지 않음 ({0}간 보관 가능)</NotRefrigerated>
 	<OverADecade>매우 긴 시간</OverADecade>
+
 	<!-- Meal -->
 	<Ingredients>성분</Ingredients>
+
 	<!-- Plants -->
 	<PercentGrowth>{0}% 성장함</PercentGrowth>
-	<Growing>성장중</Growing>
+	<Growing>성장 중</Growing>
 	<NotGrowingNow>지금은 성장하지 않음 (&quot;{0}&quot;상태여야 합니다.)</NotGrowingNow>
 	<NotGrowingNowResting>지금은 성장하지 않음 (휴식 중)</NotGrowingNowResting>
 	<FullyGrownIn>{0} 후 완전히 성장</FullyGrownIn>
@@ -160,7 +179,9 @@
 	<OutdoorGrowingPeriod>성장 기간: {0}</OutdoorGrowingPeriod>
 	<NoGrowingPeriod>불가능</NoGrowingPeriod>
 	<GrowYearRound>연중 계속</GrowYearRound>
+	<GrowSeasonHereNow>현재 재배 가능한 계절입니다.</GrowSeasonHereNow>
 	<CannotGrowTooCold>너무 추워 성장할 수 없습니다.</CannotGrowTooCold>
+
 	<!-- Zones -->
 	<Zone>지역</Zone>
 	<GrowingZone>재배지역</GrowingZone>
@@ -168,17 +189,22 @@
 	<DumpingStockpile>처리구역</DumpingStockpile>
 	<Priority>우선순위</Priority>
 	<ClearAll>모두 제거</ClearAll>
+
 	<!-- Mouseover indicator -->
 	<Undiscovered>발견되지 않움</Undiscovered>
+
 	<!-- Buttons -->
 	<ZoneVisibilityToggleButton>구역을 보이거나 숨깁니다.</ZoneVisibilityToggleButton>
+	<ShowBeautyToggleButton>아름다움 표시를 보이거나 숨깁니다.
+		\n\n마우스가 가리키는 지점에 서 있는 캐릭터가 주변이 얼마나 아름답다고 느낄 지 보여줍니다.
+	</ShowBeautyToggleButton>
 	<AutoHomeRegionToggleButton>자동적으로 새로 건설한 지역 주변을 거주지역으로 추가하게 합니다.</AutoHomeRegionToggleButton>
 	<CategorizedResourceReadoutToggleButton>자원 개요를 여러 분류로 묶어 보여줍니다.</CategorizedResourceReadoutToggleButton>
-	<!-- Fire -->
 
+	<!-- Fire -->
 	<Fire>화재</Fire>
 	<FireOn>{0}에 화재</FireOn>
-	<Burning>타는 중</Burning>
+	<Burning>불타는 중</Burning>
 	<FireSizeLower>화염 크기 {0}</FireSizeLower>
 
 	<!-- Map conditions (eclipse, solar flare, etc )-->
@@ -195,7 +221,7 @@
 	<MustPlaceCoolerWithFreeSpaces>히터와 쿨러의 두 면이 모두 밖으로 노출되어야 합니다.</MustPlaceCoolerWithFreeSpaces>
 
 	<!-- Wind Turbine -->
-	<WindTurbine_WindPathIsBlockedBy>바람길이 막힘</WindTurbine_WindPathIsBlockedBy>
+	<WindTurbine_WindPathIsBlockedBy>바람길이 막힘: </WindTurbine_WindPathIsBlockedBy>
 	<WindTurbine_WindPathIsBlockedByRoof>지붕에 의해 막힘</WindTurbine_WindPathIsBlockedByRoof>
 
 	<!-- Cryptosleep casket -->
@@ -204,11 +230,13 @@
 	<CasketWarning>경고!
 		\n\nNAME 은 당신의 마지막으로 남은 주민입니다! 만약 주민을 동면기 안으로 넣는다면 당신은 더이상 이 식민지를 플레이 할 수 없습니다. 정말 계속 진행하시겠습니까?
 	</CasketWarning>
+
 	<!-- Ship launch report -->
 	<ShipReportCannotLaunch>발사할 수 없습니다.</ShipReportCannotLaunch>
 	<ShipReportCanLaunch>발사 준비 완료.</ShipReportCanLaunch>
 	<ShipReportMissingPart>중요한 구성요소 누락</ShipReportMissingPart>
 	<ShipReportNoFullPods>비어있는 동면기</ShipReportNoFullPods>
+
 	<!-- Neurotrainer -->
 	<UseNeurotrainer>{0}을 배우기 위해 신경훈련기 사용</UseNeurotrainer>
 	<NeurotrainerUsed>{0}이 {1} 신경훈련기를 사용하여 기술 등급이 {2}에서 {3}으로 상승했습니다.</NeurotrainerUsed>
@@ -229,6 +257,15 @@
 	<Quality>품질</Quality>
 	<QualityDescription>이 물건이 얼마나 잘 만들어졌는가를 나타냅니다.</QualityDescription>
 	<QualityIs>품질: {0}</QualityIs>
+
+	<!-- Mood descriptions -->
+	<Mood_Broken>정신이상</Mood_Broken>
+	<Mood_AboutToBreak>정신이상 직전</Mood_AboutToBreak>
+	<Mood_OnEdge>안절부절</Mood_OnEdge>
+	<Mood_Stressed>스트레스</Mood_Stressed>
+	<Mood_Neutral>일반적</Mood_Neutral>
+	<Mood_Content>만족</Mood_Content>
+	<Mood_Happy>기쁨</Mood_Happy>
 
 	<!-- Game over -->
 	<GameOverEveryoneDead>모든 주민이 죽거나 떠났습니다. 이 여정은 끝났습니다.\n\n아마도 다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠군요.

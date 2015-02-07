@@ -3,25 +3,35 @@
 <LanguageData>
 	<CommandForbiddenDesc>금지 - 주민들과의 상호작용을 금지합니다.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>허가 - 주민들과의 상호작용을 허가합니다.</CommandNotForbiddenDesc>
+
 	<!-- Power -->
 	<CommandTogglePowerLabel>전원 설정</CommandTogglePowerLabel>
 	<CommandTogglePowerDesc>전원을 켜고 끕니다.</CommandTogglePowerDesc>
+
+	<CommandDesignateTogglePowerLabel>전원 설정 예약</CommandDesignateTogglePowerLabel>
+	<CommandDesignateTogglePowerDesc>전원을 켜고 끄도록 예약합니다. 거주민이 와서 스위치를 조작할 것입니다.</CommandDesignateTogglePowerDesc>
+
 	<CommandTryReconnectLabel>재연결</CommandTryReconnectLabel>
 	<CommandTryReconnectDesc>연결 반경의 다른 전원망에 연결합니다. 전원이 공급되지 않는 망에 연결되어 있을 때, 근처에 다른 공급되는 망이 있을 경우 유용합니다.
 	</CommandTryReconnectDesc>
+
 	<CommandGatherSpotToggleLabel>집합 지점</CommandGatherSpotToggleLabel>
 	<CommandGatherSpotToggleDescActive>활성 - 주민들이 집합 지점으로 모입니다.</CommandGatherSpotToggleDescActive>
 	<CommandGatherSpotToggleDescInactive>비활성 - 주민들이 집합 지점으로 모이지 않습니다.</CommandGatherSpotToggleDescInactive>
+
 	<!-- Drafting -->
 	<CommandDraftLabel>징병</CommandDraftLabel>
 	<CommandUndraftLabel>해제</CommandUndraftLabel>
 	<CommandToggleDraftDesc>징병 상태를 설정할 수 있습니다. 징병된 주민들은 전투에 임하게 되며 스스로 일을 하거나 음식을 섭취하거나 휴식하지 않습니다.
 	</CommandToggleDraftDesc>
-	<IsIncapped>{0}이(가) 행동 불능 상태가 되었습니다.</IsIncapped>
+	<IsIncapped>{0}은(는) 행동 불능 상태입니다.</IsIncapped>
+
 	<CommandCancelConstructionLabel>취소</CommandCancelConstructionLabel>
-	<CommandCancelConstructionDesc>작업을 취소합니다.</CommandCancelConstructionDesc>
+	<CommandCancelConstructionDesc>건설을 취소합니다.</CommandCancelConstructionDesc>
+
 	<CommandGetOutOfBedLabel>침대 밖으로 나가기</CommandGetOutOfBedLabel>
 	<CommandGetOutOfBedDesc>현재 침대에서 나갑니다.</CommandGetOutOfBedDesc>
+
 	<CommandBedSetOwnerLabel>소유자 설정</CommandBedSetOwnerLabel>
 	<CommandBedSetOwnerDesc>특정 주민에게 침대를 할당합니다.</CommandBedSetOwnerDesc>
 	<BedAssign>할당</BedAssign>
@@ -41,15 +51,20 @@
 		\n\n아래 수감자들은 사용하던 침대의 소유권을 잃게 됩니다.
 	</TurningOffPrisonerBedWarning>
 	<AreYouSure>정말 실행하시겠습니까?</AreYouSure>
+
 	<CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
 	<CommandDetonateLabel>폭파</CommandDetonateLabel>
+
 	<CommandRenameZoneDesc>구역의 이름을 변경합니다.</CommandRenameZoneDesc>
 	<CommandRenameZoneLabel>이름 변경</CommandRenameZoneLabel>
+
 	<CommandHideZoneDesc>구역을 맵에서 숨기거나 표시합니다.</CommandHideZoneDesc>
 	<CommandHideZoneLabel>숨기기</CommandHideZoneLabel>
-	<CommandUnhideZoneLabel>보이기</CommandUnhideZoneLabel>
+		<CommandUnhideZoneLabel>보이기</CommandUnhideZoneLabel>
+
 	<CommandDeleteZoneDesc>해당 구역을 제거합니다.</CommandDeleteZoneDesc>
 	<CommandDeleteZoneLabel>제거</CommandDeleteZoneLabel>
+
 	<!-- Artillery -->
 	<CommandSetForceAttackTarget>강제 사격 지점 설정</CommandSetForceAttackTarget>
 	<CommandSetForceAttackTargetDesc>사격 지점을 강제로 설정하여 터렛이 계속 공격할 수 있도록 합니다.</CommandSetForceAttackTargetDesc>
@@ -58,25 +73,35 @@
 	<CommandStopAttackFailNotForceAttacking>강제 사격 상태가 아닙니다.</CommandStopAttackFailNotForceAttacking>
 	<MessageTargetBeyondMaximumRange>대상이 너무 멀리 있습니다.</MessageTargetBeyondMaximumRange>
 	<MessageTargetBelowMinimumRange>대상이 너무 가까이 있습니다.</MessageTargetBelowMinimumRange>
+
 	<!-- Ship computer core -->
 	<CommandShipLaunch>우주선 발사</CommandShipLaunch>
 	<CommandShipLaunchDesc>설정된 순서대로 우주선 발사 절차를 실행합니다.</CommandShipLaunchDesc>
 	<CommandShipLaunchReport>절차 보고서 확인</CommandShipLaunchReport>
 	<CommandShipLaunchReportDesc>우주선을 발사할 수 있는지 절차를 확인합니다.</CommandShipLaunchReportDesc>
+
 	<!-- Pod -->
 	<CommandPodEject>동면중인 주민 깨우기</CommandPodEject>
 	<CommandPodEjectDesc>동면장치에서 자고 있는 주민을 깨우고 밖으로 데려옵니다.</CommandPodEjectDesc>
 	<CommandPodEjectFailEmpty>아무도 탑승하지 않았습니다.</CommandPodEjectFailEmpty>
+
 	<!-- Door -->
 	<CommandToggleDoorLock>잠금 설정</CommandToggleDoorLock>
 	<CommandToggleDoorLockDesc>문을 잠그거나 잠금을 해제합니다. 잠긴 문은 누구에게도 열리지 않습니다.</CommandToggleDoorLockDesc>
+
+	<!-- Art -->
+	<CommandInstall>설치</CommandInstall>
+	<CommandInstallDesc>이 아이템은 현재 포장되어 운반되거나 보관할 수 있습니다. 이 명령으로 특정 위치에 설치하여 주민들이 사용하거나 관람할 수 있도록 합니다.
+	</CommandInstallDesc>
+
 	<!-- Temperature control -->
 	<CommandResetTemp>초기화</CommandResetTemp>
 	<CommandResetTempDesc>해당 방의 설정된 온도를 초기화합니다.</CommandResetTempDesc>
 	<CommandRaiseTempDesc>설정된 온도를 증가시킵니다.</CommandRaiseTempDesc>
 	<CommandLowerTempDesc>설정된 온도를 감소시킵니다.</CommandLowerTempDesc>
-	<!-- Art -->
-	<CommandInstall>설치</CommandInstall>
-	<CommandInstallDesc>이 아이템은 현재 포장되어 운반되거나 보관할 수 있습니다. 이 명령으로 특정 위치에 설치하여 주민들이 사용하거나 관람할 수 있도록 합니다.
-	</CommandInstallDesc>
+
+	<!-- Trade beacon -->
+	<CommandMakeBeaconStockpileDesc>이 송신기의 범위만큼 정확히 저장구역을 설정합니다.</CommandMakeBeaconStockpileDesc>
+	<CommandMakeBeaconStockpileLabel>저장구역 생성</CommandMakeBeaconStockpileLabel>
+
 </LanguageData>

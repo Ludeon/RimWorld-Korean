@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
-	<JumpToLocation>해당 위치로 화면이동</JumpToLocation>
+	<JumpToLocation>클릭하여 해당 위치로 화면이동</JumpToLocation>
 
-	<FirstSummerWarning>여름이 시작되었습니다! 그러나 곧 겨울이 올 것입니다.
-		\n\n\작물들은 겨울의 추위 속에서는 자라지 않습니다. 그러니 겨울이 오기 전에 충분한 양의 음식과 작물들을 보관하십시오.
+	<FirstSummerWarning>여름이 시작되었습니다! 그러나 겨울이 오고 있습니다.
+		\n\n작물들은 겨울의 추위 속에서는 자라지 않습니다. 그러니 겨울이 오기 전에 몇 달은 버티기에 충분한 양의 음식과 작물들을 보관하십시오.
 		\n\n음식물이 부패하는것을 방지하기 위해서 출입 가능한 냉동고를 건설할 수 있습니다.
 		\n\n또한 파카를 만들거나 구입하거나 훔치십시오. 그렇지 않으면 겨울에 밖으로 나가서 동사할 수 있습니다.
 	</FirstSummerWarning>
@@ -25,19 +25,22 @@
 	<TheseThingsCrushed>파손된 목록:</TheseThingsCrushed>
 	<NothingCrushed>해당사항 없음</NothingCrushed>
 
-	<MentalBreakRampage>{0}의 정신이 붕괴되어 미쳐 날뛰고 있습니다.</MentalBreakRampage>
-	<MentalBreakDaze>{0}의 정신이 붕괴되어 멍하니 방황하고 있습니다.</MentalBreakDaze>
-	<MentalBreakLeave>{0}의 정신이 붕괴되어 정착지 생활을 포기하고 정착지를 떠나고 있습니다.</MentalBreakLeave>
-	<MentalBreakRecoveryRampage>{0}의 광란은 이제 끝났습니다.</MentalBreakRecoveryRampage>
-	<MentalBreakRecoveryDaze>{0}은 더 이상 혼란스러워 하지 않습니다.</MentalBreakRecoveryDaze>
-	<MentalBreakRecoveryLeave>{0}의 마음이 바뀌어 식민지로 다시 되돌아 오고 있습니다.</MentalBreakRecoveryLeave>
-	<RecruitSuccess>{0}의 {1}에 대한 포섭은 성공적이었습니다. (설득확률 {2})</RecruitSuccess>
-	<RecruitFail>{0}의 {1}에 대한 포섭은 실패했습니다. (설득확률 {2})</RecruitFail>
-	<Birthday>오늘은 {0}의 생일입니다! {1} {2}살이 되었습니다.</Birthday>
-	<BirthdayWithInjuries>오늘은 {0}의 생일입니다! {1} {2}살이 되었습니다.
-		\n\n불행하게도, {0}의 노화로 인해 다음의 질병을 지니게 됩니다.
-		\n{3}
-	</BirthdayWithInjuries>
-	<NewDisease>{0}은(는) {1}로 인해 아픕니다. {0}이(가) 적절한 치료를 받는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewDisease>
-	<NewPartDisease>{0}의 {1}이(가) 감염되었습니다. {0}이(가) 적절한 치료를 받는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewPartDisease>
+	<RecruitSuccess>{1}에 대한 {0}의 포섭은 성공적이었습니다. (포섭 확률 {2})</RecruitSuccess>
+	<RecruitFail>{1}에 {0}의 대한 포섭은 실패했습니다. (포섭 확률 {2})</RecruitFail>
+
+	<BirthdayChronological>오늘은 {0}의 시간적 생일입니다! {1} {2}살이 되었습니다.
+		\n\n사람들은 동면중일 때 나이를 먹지 않기 때문에 시간적 생일은 생물학적 생일과 떨어져 있습니다. 생물학적으로 {0}의 나이는 {3}살입니다.
+	</BirthdayChronological>
+	<BirthdayBiologicalAgeInjuries>오늘은 {0}의 생물학적 생일로, 이제 {1}살입니다.
+		\n\n불행하게도, {0}의 몸은 노화로 인해 다음의 질병을 지니게 되었습니다.
+		\n{2}
+	</BirthdayBiologicalAgeInjuries>
+
+	<NewDisease>{0}은(는) {1}로 인해 아픕니다. 그가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewDisease>
+	<NewPartDisease>{0}의 {1}이(가) 감염되었습니다. 그가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewPartDisease>
+
+	<AncientShrineWarning>{0}이 고대의 구조물에 가까이 갈수록 불길한 느낌이 그를 휘어잡습니다. HE 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 담고 있을 것 같다고 느낍니다.</AncientShrineWarning>
+
+	<StruckMineable>{0}을 발견했습니다!</StruckMineable>
+
 </LanguageData>

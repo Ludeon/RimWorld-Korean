@@ -22,16 +22,11 @@
 	<WoodLog.stuffProps.stuffAdjective>나무</WoodLog.stuffProps.stuffAdjective>
 	
 	<Uranium.label>우라늄</Uranium.label>
-	<Uranium.description>원자로에 사용되는 자원입니다.</Uranium.description>		
-	
-	<!--
-	<WoodPlank.label>널빤지</WoodPlank.label>
-	<WoodPlank.description>구조물을 지을 수 있습니다.</WoodPlank.description>
-	-->
+	<Uranium.description>원자로에 사용되는 자원입니다.</Uranium.description>
 	
 	<!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
 	
-	<Cloth.label>옷감</Cloth.label>
+	<Cloth.label>천</Cloth.label>
 	<Cloth.description>유기 섬유로 짠 옷감입니다.</Cloth.description>
 	
 	<Synthread.label>합성타래</Synthread.label>
@@ -40,11 +35,17 @@
 	<DevilstrandCloth.label>악마가닥</DevilstrandCloth.label>
 	<DevilstrandCloth.description>실크를 만드는 악마가닥 버섯에서 직접 추출하는 매우 강한 옷감입니다.</DevilstrandCloth.description>
 	
-	<Hyperweave.label>초매듭 옷감</Hyperweave.label>
+	<Hyperweave.label>초매듭 천</Hyperweave.label>
 	<Hyperweave.description>한 장으로 짜여진 최첨단 나노섬유입니다. 약간 무거운 감이 있지만 놀라울 정도로 튼튼합니다. 이 섬유의 제조법은 가장 발달된 글리터월드에서만 알려져 있습니다.</Hyperweave.description>
 	
 	
 	<!--=============== Raw foods ====================-->
+
+	<RawCorn.label>옥수수</RawCorn.label>
+	<RawCorn.description>생옥수수입니다. 익히지 않았지만 먹기에 좋습니다.</RawCorn.description>
+
+	<RawRice.label>쌀</RawRice.label>
+	<RawRice.description>생쌀입니다.</RawRice.description>
 	
 	<RawPotatoes.label>감자</RawPotatoes.label>
 	<RawPotatoes.description>생감자입니다.</RawPotatoes.description>
@@ -54,6 +55,9 @@
 	
 	<RawAgave.label>용설란</RawAgave.label>	
 	<RawAgave.description>용설란의 열매입니다.</RawAgave.description>
+
+	<RawHops.label>홉</RawHops.label>
+	<RawHops.description>익히지 않은 홉입니다. 먹기에 끔찍하고 영양분도 충분하지 않지만 맥주를 만들 때 필요합니다.</RawHops.description>
 	
 	
     <!--=============== Manufactured ====================-->
@@ -65,16 +69,11 @@
 	<Medicine.label>약</Medicine.label>
 	<Medicine.description>상처를 치료하기 위해서 사용합니다.</Medicine.description>
 
-	<GlitterworldMedicine.label>글리터월드 약</GlitterworldMedicine.label>
+	<GlitterworldMedicine.label>번화계 약</GlitterworldMedicine.label>
 	<GlitterworldMedicine.description>첨단 번화계에서 생산된 고급 약품입니다.</GlitterworldMedicine.description>
 	
-	<Shells.label>포탄</Shells.label>
-	<Shells.description>대포에서 발사됩니다.</Shells.description>
-	
-	<!--
-	<Missiles.label>미사일</Missiles.label>
-	<Missiles.description>미사일 런처에서 발사됩니다.</Missiles.description>
-	-->
+	<ArtilleryShell.label>포탄</ArtilleryShell.label>
+	<ArtilleryShell.description>대포에서 발사됩니다.</ArtilleryShell.description>
 
 	
 </LanguageData>

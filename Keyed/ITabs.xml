@@ -14,19 +14,21 @@
 	<TabRace>종류</TabRace>
 	<TabBasics>기본</TabBasics>
 	<TabStats>통계</TabStats>
+	<TabArt>예술</TabArt>
 
 	<!-- Bills tab  -->
 	<AddBill>계획서 추가</AddBill>
 	<RecipeRequiresSkills>{0}의 요구사항은 아래와 같습니다. 어떠한 주민도 이 기술을 가지고 있지 않기 때문에 누구도 이를 하지 못합니다.</RecipeRequiresSkills>
 	<BillConfig>설정</BillConfig>
 	<SuspendedCaps>일시 중지</SuspendedCaps>
+	<BoundWorkerIs>작업자: {0}</BoundWorkerIs>
 	<PlantVerb>심기</PlantVerb>
 
-	<!-- Prisoner tab -->
+	<!-- Guest/Prisoner tab -->
 	<RecruitmentDifficulty>포섭 난이도</RecruitmentDifficulty>
-	<PrisonerGetsFood>음식 제공</PrisonerGetsFood>
+	<GetsFood>음식 제공</GetsFood>
 	<DoctorsCare>의사 진료</DoctorsCare>
-	<PrisonerGetsMedicine>약품 제공</PrisonerGetsMedicine>
+	<GetsMedicine>약품 제공</GetsMedicine>
 	<ShouldTryToRecruit>포섭 시도</ShouldTryToRecruit>
 	<PrisonerNoInteraction>상호작용 없음</PrisonerNoInteraction>
 	<PrisonerFriendlyChat>다정한 대화</PrisonerFriendlyChat>
@@ -44,7 +46,6 @@
 	<InPain>고통스러움</InPain>
 	<PainLevel>고통</PainLevel>
 	<Dead>죽음</Dead>
-	<!-- 의식 : 잃음 -->
 	<Unconscious>잃음</Unconscious>
 	<PainShock>쇼크</PainShock>
 	<Injured>부상</Injured>
@@ -59,12 +60,12 @@
 	<MedicalOperationsMechanoidsShort>개조 ({0})</MedicalOperationsMechanoidsShort>
 	<MedicalOperations>의료 작업</MedicalOperations>
 	<Amputate>절단</Amputate>
-	<Harvest>장기 수확</Harvest>
+	<Harvest>장기 적출</Harvest>
 
 	<!-- Medical - Body and activities condition -->
 	<None>없음</None>
-	<VeryPoor>매우 좋지 않음</VeryPoor>
-	<Poor>좋지 않음</Poor>
+	<VeryPoor>매우 나쁨</VeryPoor>
+	<Poor>나쁨</Poor>
 	<Weakened>약화됨</Weakened>
 	<GoodCondition>좋음</GoodCondition>
 	<Enhanced>강화됨</Enhanced>

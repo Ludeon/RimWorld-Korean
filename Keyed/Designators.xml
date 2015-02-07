@@ -74,7 +74,7 @@
 	<DesignatorClaimDesc>고대 유적이나 버려진 공성 기지와 같은 중립 구조물을 정착지 소유로 점거합니다. 점거한 구조물은 수리될 수 있고 거주민들이 관리할 것입니다.
 	</DesignatorClaimDesc>
 
-	<!-- placement of blueprints -->
+	<!-- Failure messages -->
 	<UnchosenStuff>선택되지 않은 재료</UnchosenStuff>
 	<TooCloseToMapEdge>맵의 가장자리와 너무 가깝습니다.</TooCloseToMapEdge>
 	<OutOfBounds>범위를 벗어났습니다.</OutOfBounds>
@@ -86,11 +86,14 @@
 	<TerrainIsAlready>이 곳은 이미 {0}입니다.</TerrainIsAlready>
 	<IdenticalThingExists>해당 위치에 이미 동일한 것이 존재합니다.</IdenticalThingExists>
 	<IdenticalBlueprintExists>해당 위치에 이미 동일한 청사진이 존재합니다.</IdenticalBlueprintExists>
-	<TerrainCannotSupport>지형이 지지할 수 없습니다.</TerrainCannotSupport>
+	<TerrainCannotSupport>지형이 받칠 수 없습니다.</TerrainCannotSupport>
 	<SpaceAlreadyOccupied>공간이 이미 사용중입니다.</SpaceAlreadyOccupied>
+
 	<!-- placement of zones -->
 	<ExpandOrCreateZone>{0}의 구역을 확장\n또는 새로운 {1} 생성</ExpandOrCreateZone>
 	<CreateNewZone>새로운 {0} 생성</CreateNewZone>
+
 	<!-- desc helpers -->
 	<TransmitsPower>송전 가능</TransmitsPower>
+
 </LanguageData>

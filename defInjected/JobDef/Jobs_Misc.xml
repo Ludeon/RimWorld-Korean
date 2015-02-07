@@ -7,6 +7,8 @@
 	<SeekSafeTemperature.reportString>안전한 온도를 찾는 중.</SeekSafeTemperature.reportString>
 	
 	<Wait.reportString>대기 중.</Wait.reportString>
+
+	<WaitCombat.reportString>대상 탐색 중.</WaitCombat.reportString>
 	
 	<AttackStatic.reportString>TargetA에 사격 중.</AttackStatic.reportString>
 	
@@ -24,13 +26,17 @@
 	
 	<Hunt.reportString>TargetA 사냥 중.</Hunt.reportString>
 	
-	<ManThing.reportString>기계 조작 중.</ManThing.reportString>
+	<ManTurret.reportString>포탑 조작 중.</ManTurret.reportString>
 	
 	<EnterCryptosleepCasket.reportString>동면장치로 이동 중.</EnterCryptosleepCasket.reportString>
 	
 	<UseNeurotrainer.reportString>신경훈련기 사용 중.</UseNeurotrainer.reportString>
 
 	<ClearSnow.reportString>눈 치우는 중.</ClearSnow.reportString>
+
+	<Vomit.reportString>구토 중.</Vomit.reportString>
+
+	<TogglePower.reportString>전원을 켜거나 끄는 중.</TogglePower.reportString>
 	
     <!--============ Fire ============-->
   
@@ -42,7 +48,7 @@
 	
     <!--============ Need satisfaction ============-->
   
-	<EatFood.reportString>TargetA 섭취 중.</EatFood.reportString>
+	<Ingest.reportString>TargetA 섭취 중.</Ingest.reportString>
 	
 	<LayDown.reportString>내려놓는 중.</LayDown.reportString>
 	
@@ -77,7 +83,7 @@
 	
 	<FeedPatient.reportString>TargetB에게 TargetA 먹여주는 중.</FeedPatient.reportString>
 	
-	<HealPatient.reportString>TargetA 치료 중.</HealPatient.reportString>
+	<TreatPatient.reportString>TargetA 치료 중.</TreatPatient.reportString>
 	
 	<PlaceNoCostFrame.reportString>TargetA 건설 중.</PlaceNoCostFrame.reportString>
 	

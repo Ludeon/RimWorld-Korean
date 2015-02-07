@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
+
+	<LetterDay>일</LetterDay>
+	<LetterHour>시</LetterHour>
+	<LetterMinute>분</LetterMinute>
+	<LetterSecond>초</LetterSecond>
+
 	<DaysLower>일</DaysLower>
 	<SecondsLower>초</SecondsLower>
 
@@ -8,4 +14,9 @@
 	<SeasonSummer>여름</SeasonSummer>
 	<SeasonFall>가을</SeasonFall>
 	<SeasonWinter>겨울</SeasonWinter>
+
+	<Born>생년월일: {0} {1} {2}</Born>
+	<AgeChronological>시간적 나이: {0}</AgeChronological>
+	<AgeBiological>생물학적 나이: {0}년 {1}개월 {2}일</AgeBiological>
+
 </LanguageData>
