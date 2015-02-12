@@ -4,15 +4,15 @@
 
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[0]</path>
-		<trans>image->[pawn_nameFull]이(가) [thing_labelIndefinite]을(를) [circumstance_phrase] 만들고 있습니다. [extra_sentence]</trans>
+		<trans>image->[circumstance_phrase] [thing_labelIndefinite]을(를) 만들고 있는 [pawn_nameFull]의 모습이 보입니다. [extra_sentence]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[1]</path>
-		<trans>image->[pawn_nameFull]이(가) 그의 작품 [item]을 [circumstance_phrase] 완성하고 있습니다. [extra_sentence]</trans>
+		<trans>image->[circumstance_phrase] 그의 작품 [item]의 완성을 눈 앞에 둔 [pawn_nameFull]의 모습이 보입니다. [extra_sentence]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[2]</path>
-		<trans>image->[pawn_nameFull]이(가) 그의 작품 [item]을 [circumstance_phrase] 작업하고 있습니다. [extra_sentence]</trans>
+		<trans>image->[circumstance_phrase] 그의 작품 [item]의 작업을 계속 하는 [pawn_nameFull]의 모습이 보입니다. [extra_sentence]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[3]</path>
@@ -28,7 +28,7 @@
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[6]</path>
-		<trans>extra_sentence->[thing_labelDefinite]의 품질은 '[thing_quality]'으로 보입니다.</trans>
+		<trans>extra_sentence->[thing_labelDefinite]의 품질은 '[thing_quality]'인 것으로 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[7]</path>
@@ -38,19 +38,19 @@
 
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[0]</path>
-		<trans>image->[pawn_nameFull]이(가) [circumstance_phrase] [thing_label]을(를) 마주쳤습니다. [extra_sentence]</trans>
+		<trans>image->[circumstance_phrase] [thing_label]의 광맥을 마주친 [pawn_nameFull]의 모습이 보입니다. [extra_sentence]</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[1]</path>
-		<trans>circumstance_phrase->채굴 중에</trans>
+		<trans>circumstance_phrase->채굴 중</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[2]</path>
-		<trans>extra_sentence->[pawn_nameShortDefinite]이(가) 그의 눈썹을 닦고 있습니다.</trans>
+		<trans>extra_sentence->그는 눈썹을 닦고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[3]</path>
-		<trans>extra_sentence->[pawn_nameShortDefinite]은(는) 기쁨에 젖어 허공으로 뛰고 있습니다.</trans>
+		<trans>extra_sentence->그는 기쁨에 젖어 허공으로 뛰고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[4]</path>
@@ -63,23 +63,23 @@
 
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[0]</path>
-		<trans>image->[victim_nameFull]이(가) [killer_nameFull]의 [circumstance_phrase] 살해당하고 있습니다.</trans>
+		<trans>image->[circumstance_phrase] [killer_nameFull]에게 살해당하는 [victim_nameFull]의 모습이 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[1]</path>
-		<trans>image->[killer_nameFull]이(가) [circumstance_phrase] [victim_nameFull]을(를) 살해하고 있습니다. [circumstance_phrase].</trans>
+		<trans>image->[circumstance_phrase] [victim_nameFull]을(를) 살해하는 [killer_nameFull]의 모습이 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[2]</path>
-		<trans>image->[killer_nameFull]이(가) [circumstance_phrase] [victim_nameFull]의 목숨을 앗아가고 있습니다. [circumstance_phrase].</trans>
+		<trans>image->[circumstance_phrase] [victim_nameFull]의 목숨을 앗아가는 [killer_nameFull]의 모습이 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[3]</path>
-		<trans>image->[killer_nameFull]이(가) [circumstance_phrase] [victim_nameFull]을(를) 잔혹하게 죽이고 있습니다. [circumstance_phrase].</trans>
+		<trans>image->[circumstance_phrase] [victim_nameFull]을(를) 잔혹하게 죽이고 있는 [killer_nameFull]의 모습이 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[4]</path>
-		<trans>image->[victim_nameFull]이(가) [circumstance_phrase] 죽어가고 있습니다.</trans>
+		<trans>image->[victim_nameFull]의 모습이 보입니다. [circumstance_phrase], 그는 죽어가고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[5]</path>
