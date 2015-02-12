@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[0]</path>
+		<trans>image->[pawn_nameFull]이(가) [thing_labelIndefinite]을(를) [circumstance_phrase] 만들고 있습니다. [extra_sentence]</trans>
+	</rep>
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[1]</path>
+		<trans>image->[pawn_nameFull]이(가) 그의 작품 [item]을 [circumstance_phrase] 완성하고 있습니다. [extra_sentence]</trans>
+	</rep>
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[2]</path>
+		<trans>image->[pawn_nameFull]이(가) 그의 작품 [item]을 [circumstance_phrase] 작업하고 있습니다. [extra_sentence]</trans>
+	</rep>
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[3]</path>
+		<trans>circumstance_phrase->완벽한 집중력으로</trans>
+	</rep>
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[4]</path>
+		<trans>circumstance_phrase->그의 표정에 피어난 만족감과 함께</trans>
+	</rep>
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->그의 작업대에서</trans>
+	</rep>
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[6]</path>
+		<trans>extra_sentence->[thing_labelDefinite]의 품질은 '[thing_quality]'으로 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>CraftedArt.rulePack.rulesStrings[7]</path>
+		<trans>extra_sentence->[pawn_nameShortDefinite]이(가) [thing_labelDefinite]에 붙인 제목, [thing_title]이(가) 아래에 적혀 있습니다.</trans>
+	</rep>
+
+
+	<rep>
+		<path>StruckMineable.rulePack.rulesStrings[0]</path>
+		<trans>image->[pawn_nameFull]이(가) [circumstance_phrase] [thing_label]을(를) 마주쳤습니다. [extra_sentence]</trans>
+	</rep>
+	<rep>
+		<path>StruckMineable.rulePack.rulesStrings[1]</path>
+		<trans>circumstance_phrase->채굴 중에</trans>
+	</rep>
+	<rep>
+		<path>StruckMineable.rulePack.rulesStrings[2]</path>
+		<trans>extra_sentence->[pawn_nameShortDefinite]이(가) 그의 눈썹을 닦고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>StruckMineable.rulePack.rulesStrings[3]</path>
+		<trans>extra_sentence->[pawn_nameShortDefinite]은(는) 기쁨에 젖어 허공으로 뛰고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>StruckMineable.rulePack.rulesStrings[4]</path>
+		<trans>extra_sentence->한 무리의 구경꾼이 [pawn_nameShortDefinite]의 주위에 모여 있습니다.</trans>
+	</rep>
+  
+
+  <!-- Special -->
+
+
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[0]</path>
+		<trans>image->[victim_nameFull]이(가) [killer_nameFull]의 [circumstance_phrase] 살해당하고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[1]</path>
+		<trans>image->[killer_nameFull]이(가) [circumstance_phrase] [victim_nameFull]을(를) 살해하고 있습니다. [circumstance_phrase].</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[2]</path>
+		<trans>image->[killer_nameFull]이(가) [circumstance_phrase] [victim_nameFull]의 목숨을 앗아가고 있습니다. [circumstance_phrase].</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[3]</path>
+		<trans>image->[killer_nameFull]이(가) [circumstance_phrase] [victim_nameFull]을(를) 잔혹하게 죽이고 있습니다. [circumstance_phrase].</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[4]</path>
+		<trans>image->[victim_nameFull]이(가) [circumstance_phrase] 죽어가고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->싸늘한 눈길 속에서</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->효율적이면서도 냉혹하게</trans>
+	</rep>
+
+
+
+</LanguageData>
