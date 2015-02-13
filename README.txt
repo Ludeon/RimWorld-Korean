@@ -3,6 +3,7 @@
 ===============
 
 Mods/Core/Strings 폴더를 *반드시* Mods/Core/Languages/Korean에 있는 Strings 폴더로 바꿔주셔야 완전한 번역을 보실 수 있습니다.
+자세한 설명: https://github.com/Ludeon/RimWorld-Korean/wiki
 
 ===============
 
@@ -24,4 +25,4 @@ Alpha 7 : 토끼티모(ToTee), DDCCDD
 Alpha 8 : 인서대, Latta
 Alpha 9 : Latta
 
-자세한 설명서, 또는 한국어 번역본의 최신 패치를 먼저 받으시려면 카페를 방문해 주세요.
+한국어 번역본의 최신 패치를 먼저 받으시려면 카페를 방문해 주세요.
