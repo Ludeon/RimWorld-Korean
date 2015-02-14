@@ -10,35 +10,6 @@
 
 
 	<rep>
-		<path>NamerFactionPirate.rulePack.rulesRaw[0].path</path>
-		<trans>NameBanks/Nouns_BadassAnimals</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionPirate.rulePack.rulesRaw[1].path</path>
-		<trans>NameBanks/Adjectives_Badass</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionPirate.rulePack.rulesRaw[2].path</path>
-		<trans>NameBanks/Nouns_BadassPersons</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionPirate.rulePack.rulesRaw[3].path</path>
-		<trans>NameBanks/Nouns_Concepts_Badass_KoKR</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionPirate.rulePack.rulesRaw[4].path</path>
-		<trans>NameBanks/Nouns_GroupNames</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionPirate.rulePack.rulesRaw[5].path</path>
-		<trans>NameBanks/Nouns_TerrainFeatures</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionPirate.rulePack.rulesRaw[6].path</path>
-		<trans>NameBanks/ColorsBadass</trans>
-	</rep>
-
-	<rep>
 		<path>NamerFactionPirate.rulePack.rulesStrings[0]</path>
 		<trans>name->[badassanimal]들</trans>
 	</rep>
@@ -98,7 +69,6 @@
 		<path>NamerFactionPirate.rulePack.rulesStrings[14]</path>
 		<trans>name->[badassadjective] [badassperson]들</trans>
 	</rep>
-
 	<rep>
 		<path>NamerFactionPirate.rulePack.rulesStrings[17]</path>
 		<trans>name->[badassconcept] [groupname]</trans>
@@ -106,6 +76,11 @@
 	<rep>
 		<path>NamerFactionPirate.rulePack.rulesStrings[18]</path>
 		<trans>name->[badassanimal]의 [terrainfeature]</trans>
+	</rep>
+
+	<rep>
+		<path>NamerFactionPirate.rulePack.rulesRaw[3].path</path>
+		<trans>NameBanks/Nouns_Concepts_Badass_KoKR</trans>
 	</rep>
 
 
@@ -118,26 +93,6 @@
 
 
 
-	<rep>
-		<path>NamerFactionOutlander.rulePack.rulesRaw[0].path</path>
-		<trans>NameBanks/Nouns_Concepts_Positive</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionOutlander.rulePack.rulesRaw[1].path</path>
-		<trans>NameBanks/Nouns_Communities</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionOutlander.rulePack.rulesRaw[2].path</path>
-		<trans>NameBanks/Nouns_TerrainFeatures</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionOutlander.rulePack.rulesRaw[3].pathList[0]</path>
-		<trans>NameBanks/Nouns_People_Outlanders</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionOutlander.rulePack.rulesRaw[3].pathList[1]</path>
-		<trans>NameBanks/Nouns_People_Family</trans>
-	</rep>
 
 	<rep>
 		<path>NamerFactionOutlander.rulePack.rulesStrings[0]</path>
@@ -158,20 +113,11 @@
 
 
 
-	<rep>
-		<path>NamerFactionTribal.rulePack.rulesRaw[0].path</path>
-		<trans>NameBanks/TribalWords</trans>
-	</rep>
-	<rep>
-		<path>NamerFactionTribal.rulePack.rulesRaw[1].path</path>
-		<trans>NameBanks/Nouns_TerrainFeatures</trans>
-	</rep>
 
 	<rep>
 		<path>NamerFactionTribal.rulePack.rulesStrings[3]</path>
 		<trans>name->[animal]의 [tribalword]</trans>
 	</rep>
-
 	<rep>
 		<path>NamerFactionTribal.rulePack.rulesStrings[5]</path>
 		<trans>name->[terrainfeature]의 [tribalword]</trans>

@@ -4,7 +4,86 @@
 
 	<rep>
 		<path>GlobalCircumstances.rulePack.rulesStrings[0]</path>
-		<trans>circumstance_phrase->[date]</trans>
+		<trans>circumstance_group->[date_phrase]에 [circumstance_phrase]</trans>
+	</rep>
+	<rep>
+		<path>GlobalCircumstances.rulePack.rulesStrings[2]</path>
+		<trans>date_phrase->[date]</trans>
+	</rep>
+
+
+
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[0]</path>
+		<trans>quantity_adjphrase->한 무리의</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[1]</path>
+		<trans>quantity_adjphrase->몇 마리의</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[2]</path>
+		<trans>quantity_adjphrase->여러</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[3]</path>
+		<trans>quantity_adjphrase->두</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[4]</path>
+		<trans>quantity_adjphrase->세</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[5]</path>
+		<trans>quantity_adjphrase->네</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[6]</path>
+		<trans>quantity_adjphrase->다섯</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[7]</path>
+		<trans>quantity_adjphrase->여섯</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[8]</path>
+		<trans>quantity_adjphrase->셀 수 없이 많은</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[9]</path>
+		<trans>quantity_adjphrase->어마어마하게 많은</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[10]</path>
+		<trans>game->포커</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[11]</path>
+		<trans>game->체스</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[12]</path>
+		<trans>game->카드놀이</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[13]</path>
+		<trans>game->장기</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[14]</path>
+		<trans>game->주사위</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[15]</path>
+		<trans>game->다트</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[16]</path>
+		<trans>game->원카드</trans>
+	</rep>
+	<rep>
+		<path>GlobalUtility.rulePack.rulesStrings[17]</path>
+		<trans>game->젠가</trans>
 	</rep>
 
 </LanguageData>
