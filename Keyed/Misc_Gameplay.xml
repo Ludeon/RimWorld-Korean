@@ -39,6 +39,11 @@
 	<Off>끄기</Off>
 	<PowerSwitch_Power>전원</PowerSwitch_Power>
 
+	<!-- Control -->
+	<CannotOrderNonControlled>조종할 수 없는 대상에 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
+	<IsIncapableOfViolence>{0}은(는) 폭력 행위를 할 수 없습니다.</IsIncapableOfViolence>
+	<IsNotDrafted>{0}은(는) 징집되지 않았습니다.</IsNotDrafted>
+
 	<!-- Snow -->
 	<SnowNone>눈 없음</SnowNone>
 	<SnowDusting>눈 (약간)</SnowDusting>
@@ -184,7 +189,7 @@
 
 	<!-- Zones -->
 	<Zone>지역</Zone>
-	<GrowingZone>재배지역</GrowingZone>
+	<GrowingZone>재배구역</GrowingZone>
 	<Stockpile>저장구역</Stockpile>
 	<DumpingStockpile>처리구역</DumpingStockpile>
 	<Priority>우선순위</Priority>

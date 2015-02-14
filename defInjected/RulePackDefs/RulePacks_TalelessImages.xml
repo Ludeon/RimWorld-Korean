@@ -4,47 +4,6 @@
 
 
 	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[0].path</path>
-		<trans>NameBanks/Nouns_Apparel</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[1].pathList[0]</path>
-		<trans>NameBanks/Adjectives_Badass</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[1].pathList[1]</path>
-		<trans>NameBanks/Adjectives_Angsty</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[2].pathList[0]</path>
-		<trans>NameBanks/Nouns_Concepts_Badass</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[2].pathList[1]</path>
-		<trans>NameBanks/Nouns_Concepts_Positive</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[2].pathList[2]</path>
-		<trans>NameBanks/Nouns_Concepts_Angsty</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[3].path</path>
-		<trans>NameBanks/Nouns_Communities</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[4].path</path>
-		<trans>NameBanks/Nouns_TerrainFeatures</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[5].pathList[0]</path>
-		<trans>NameBanks/Nouns_People_Outlanders</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesRaw[5].pathList[1]</path>
-		<trans>NameBanks/Nouns_People_Family</trans>
-	</rep>
-
-	<rep>
 		<path>TalelessImages.rulePack.rulesStrings[0]</path>
 		<trans>image->여러 [outlander]들에게 둘러싸여 있는 한 [outlander]의 모습이 보입니다. [part2]</trans>
 	</rep>
@@ -80,123 +39,47 @@
 		<path>TalelessImages.rulePack.rulesStrings[8]</path>
 		<trans>image->[subject_desc] [apparel]을(를) 입은 [animal] 한 마리의 모습이 보입니다. [part2]</trans>
 	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[9]</path>
-		<trans>part2->[extra_sentence] [extra_sentence]</trans>
-	</rep>
+
 	<rep>
 		<path>TalelessImages.rulePack.rulesStrings[10]</path>
-		<trans>extra_sentence->이 그림의 테두리는 [quantity_adjphrase] [animal]들로 이루어져 있습니다.</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[11]</path>
-		<trans>extra_sentence->이 그림은 마치 [concept]을(를) 표현하는 것 같습니다.</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[12]</path>
-		<trans>extra_sentence->뒤쪽 배경에 [community]의 모습이 보입니다.</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[13]</path>
-		<trans>extra_sentence->저 뒤쪽엔 [terrainfeature]의 모습이 보입니다.</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[14]</path>
-		<trans>extra_sentence->[terrainfeature]이(가) 그림의 하단부를 차지하고 있습니다.</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[15]</path>
-		<trans>extra_sentence->한 쪽 가장자리에 앉아있는 어떤 [outlander]의 모습이 보입니다.</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[16]</path>
-		<trans>extra_sentence->전체적인 구성은 [composition].</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[17]</path>
 		<trans>subject_desc->하늘을 날아가는</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[18]</path>
+		<path>TalelessImages.rulePack.rulesStrings[11]</path>
 		<trans>subject_desc->하늘 한 가운데서 멈춰 있는</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[19]</path>
+		<path>TalelessImages.rulePack.rulesStrings[12]</path>
 		<trans>subject_desc->땅에 서있는</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[20]</path>
+		<path>TalelessImages.rulePack.rulesStrings[13]</path>
 		<trans>subject_desc->왼쪽으로 움직이는</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[21]</path>
+		<path>TalelessImages.rulePack.rulesStrings[14]</path>
 		<trans>subject_desc->오른쪽으로 움직이는</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[22]</path>
+		<path>TalelessImages.rulePack.rulesStrings[15]</path>
 		<trans>subject_desc->탁상 위에 앉아있는</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[23]</path>
+		<path>TalelessImages.rulePack.rulesStrings[16]</path>
 		<trans>subject_desc->유리를 통해 보이는 듯 한</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[24]</path>
+		<path>TalelessImages.rulePack.rulesStrings[17]</path>
 		<trans>subject_desc->실루엣으로 표현된</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[25]</path>
+		<path>TalelessImages.rulePack.rulesStrings[18]</path>
 		<trans>subject_desc->[apparel]을(를) 입은 [animal]을(를) 타고 있는</trans>
 	</rep>
 	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[26]</path>
+		<path>TalelessImages.rulePack.rulesStrings[19]</path>
 		<trans>subject_desc->[adjective] 것으로 보이는</trans>
 	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[27]</path>
-		<trans>composition->삼각형입니다</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[28]</path>
-		<trans>composition->사각형입니다</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[29]</path>
-		<trans>composition->정사각형입니다</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[30]</path>
-		<trans>composition->균형이 맞지 않습니다</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[31]</path>
-		<trans>composition->균형이 잘 맞습니다</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[32]</path>
-		<trans>composition->매우 동적입니다</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[33]</path>
-		<trans>composition->매우 정적입니다</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[34]</path>
-		<trans>game->포커</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[35]</path>
-		<trans>game->체스</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[36]</path>
-		<trans>game->카드놀이</trans>
-	</rep>
-	<rep>
-		<path>TalelessImages.rulePack.rulesStrings[37]</path>
-		<trans>game->림월드</trans>
-	</rep>
-
 
 
 
