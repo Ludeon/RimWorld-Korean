@@ -9,7 +9,7 @@
 	<ForColonistUse>주민용</ForColonistUse>
 	<MedicalBed>의료용</MedicalBed>
 	<Owner>주인</Owner>
-	<Nobody>아무도</Nobody>
+	<Nobody>아무도 없음</Nobody>
 	<Unowned>주인 없음</Unowned>
 	<DeadTime>{0} 전에 죽음</DeadTime>
 	<WalkSpeed>보행속도 {0}</WalkSpeed>
@@ -221,7 +221,7 @@
 	<!-- Building placement restricters -->
 	<MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
 	<MustPlaceHeadOnShipBeam>우주선 지지부에 머리를 맞대고 있어야 합니다.</MustPlaceHeadOnShipBeam>
-	<MustPlaceNextToHopperAccepter>호퍼가 필요한 무언가의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
+	<MustPlaceNextToHopperAccepter>깔대기가 필요한 무언가의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
 	<MustPlaceOnSteamGeyser>증기 간혈천에 직접 배치되어야합니다.</MustPlaceOnSteamGeyser>
 	<MustPlaceCoolerWithFreeSpaces>배기구와 냉방기 두 면이 모두 밖으로 노출되어야 합니다.</MustPlaceCoolerWithFreeSpaces>
 
@@ -233,7 +233,7 @@
 	<CasketContains>포함</CasketContains>
 	<CasketUnknownContents>알려지지않음</CasketUnknownContents>
 	<CasketWarning>경고!
-		\n\nNAME 은 당신의 마지막으로 남은 주민입니다! 만약 주민을 동면기 안으로 넣는다면 당신은 더이상 이 식민지를 플레이 할 수 없습니다. 정말 계속 진행하시겠습니까?
+		\n\nNAME은 당신의 마지막으로 남은 주민입니다! 만약 주민을 동면기 안으로 넣는다면 당신은 더이상 이 식민지를 플레이 할 수 없습니다. 정말 계속 진행하시겠습니까?
 	</CasketWarning>
 
 	<!-- Ship launch report -->
@@ -273,12 +273,13 @@
 	<Mood_Happy>기쁨</Mood_Happy>
 
 	<!-- Game over -->
-	<GameOverEveryoneDead>모든 주민이 죽거나 떠났습니다. 이 여정은 끝났습니다.\n\n아마도 다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠군요.
+	<GameOverEveryoneDead>모든 주민이 죽거나 떠났습니다. 이 여정은 끝났습니다.
+		\n\n다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠습니다.
 	</GameOverEveryoneDead>
 	<GameOverShipLaunched>우주선을 발사하였습니다! 다음 주민들이 탈출했습니다.
-		\n\n{0}\n다음 주민들은 남았습니다.
-		\n\n{1}\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 누군가가 여기에 새로운 글리터 월드를 건설할 때 까지 몇 세기동안 소행성의 얼음 아래서 기다리기로 할 수도 있구요.
-		\n\n당신이 일어나면 알게 되겠죠.
+		\n{0}\n\n다음 주민들은 남았습니다.
+		\n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 누군가가 여기에 새로운 번화계를 건설할 때 까지 엄청난 시간을 소행성의 얼음 아래서 기다리기로 결정할지도 모르겠습니다.
+		\n\n잠에서 깨어나면 알 수 있을지도.
 	</GameOverShipLaunched>
 	<GameOverKeepPlaying>계속 진행하기</GameOverKeepPlaying>
 	<GameOverMainMenu>메인 메뉴</GameOverMainMenu>
