@@ -19,7 +19,7 @@
 
 	<!-- Colony naming-->
 	<NameColonyMessage>모두가 알다시피 당신은 이런 돌 덩어리에서 오래 머물고 싶지 않습니다. 하지만 어찌 됐건 정착지의 이름을 정하자는 {0}의 제안이 들어왔습니다.
-		\n\n무엇으로 부르면 좋을까요?
+		\n\n이 곳을 어떻게 부르면 좋을까요?
 	</NameColonyMessage>
 	<ColonyGainsName>이제부터 정착지는 {0}의 이름으로 알려집니다.</ColonyGainsName>
 	<ColonyNameIsInvalid>이름이 유효하지 않습니다.</ColonyNameIsInvalid>
@@ -59,7 +59,7 @@
 	</ResearchMenuWithoutBench>
 
 	<!-- Advanced game start options -->
-	<MapTemperatureDangerWarning>경고: 당신은 얼어붙은 환경에 착륙하게 될 것이며, 생존하기 매우 힘들것입니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 날짜를 선택하십시오.
+	<MapTemperatureDangerWarning>경고: 당신은 얼어붙은 환경에 착륙하게 될 것이며 생존하기 매우 힘들 것입니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 날짜를 선택하십시오.
 	</MapTemperatureDangerWarning>
 	<MapSizePerformanceWarning>경고: 지도의 규모가 넓어질수록 게임의 품질이 저하될 것입니다.
 		\n\n터무니 없는 크기는 아직 검증되지 않았으며 대부분 잘 진행되지 않을 것입니다.
@@ -113,7 +113,7 @@
 	<Harvestable>수확 가능</Harvestable>
 	<LimitedLifespan>수명 짧음</LimitedLifespan>
 	<GrowingTime>성장에 필요한 기간</GrowingTime>
-	<GrowingTimeDesc>식물은 오직 낮에만, 빛이 충분할 때 자랍니다. 이 항목은 식물이 자라는 데 시간이 얼마나 걸리는 지 보여주며, 실제 자라는 시간은 보통 이 두 배입니다. 적정 온도를 벗어나는 환경도 자라는 시간을 늘립니다.</GrowingTimeDesc>
+	<GrowingTimeDesc>식물은 오직 낮에만, 빛이 충분할 때 자랍니다. 이 항목은 식물이 자라는 데만 시간이 얼마나 걸리는 지 보여주며, 실제 자라는 시간은 보통 이 두 배입니다. 적정 온도를 벗어나는 환경도 자라는 시간을 늘립니다.</GrowingTimeDesc>
 	<Days>일</Days>
 	<FertilityRequirement>토질 조건</FertilityRequirement>
 	<LightRequirement>조명 조건</LightRequirement>
@@ -137,7 +137,7 @@
 	<SellPriceDesc>판매하여 받는 대금</SellPriceDesc>
 	<PriceTypeDesc>해당 아이템에 대해서 이 가격은 {0}.</PriceTypeDesc>
 	<ColonyCount>정착지가 지닌 거래 가능한 수량.
-		\n\n판매하기 위해서는 아이템이 실외에 있어야 하며 궤도 송신기 근처에 있어야 합니다.</ColonyCount>
+		\n\n판매하기 위해서는 물건이 궤도 송신기 근처에 있어야 합니다.</ColonyCount>
 	<TraderCount>상인이 지닌 수량</TraderCount>
 	<AcceptButton>수락</AcceptButton>
 	<ResetButton>초기화</ResetButton>
