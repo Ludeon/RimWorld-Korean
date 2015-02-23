@@ -46,9 +46,9 @@
 	<!--=========== Mods screen ==========-->
 	<GetMods>모드 찾아보기(웹페이지)</GetMods>
 	<OpenModsDataFolder>모드 폴더 열기</OpenModsDataFolder>
-	<ConfirmDisableCoreMod>정말 core mod를 해제하시겠습니까?
-		\ncore mod의 기능을 수행할 수 있는 모드로 교체하지 않는 이상, 게임이 정상적으로 작동하지 않게됩니다.
-		\n\n참고로, 다른 모드에서 같은 defName을 사용할 경우, core mod의 defs 경로에 덮어쓰기가 이루어지게 됩니다.
+	<ConfirmDisableCoreMod>정말 Core Mod를 해제하시겠습니까?
+		\nCore Mod의 기능을 수행할 수 있는 모드로 교체하지 않는 이상, 게임이 정상적으로 작동하지 않습니다.
+		\n\n참고로, 다른 모드에서 같은 defName을 사용할 경우, Core Mod의 defs 경로에 덮어쓰기가 이루어지게 됩니다.
 	</ConfirmDisableCoreMod>
 	<Author>저작자</Author>
 
@@ -57,7 +57,7 @@
 	<HowStorytellersWork>이야기꾼의 인공지능에 따라서 습격, 외부 자원 불시착이나 동물의 공격과 같은 이벤트가 발생됩니다.
 		\n\n선택한 사항에 따라서 정착지의 이야기가 달라지게 될 것입니다.
 	</HowStorytellersWork>
-	<MustChooseChallengeScale>도전할 난이도를 선택합니다.</MustChooseChallengeScale>
+	<MustChooseChallengeScale>도전할 난이도를 선택해야 합니다.</MustChooseChallengeScale>
 	<ChallengeScale>도전 난이도</ChallengeScale>
 	<ChallengeScaleTip>이야기꾼이 위협을 설정할 때, 그 크기가 도전 난이도의 {0}만큼의 규모를 가집니다.</ChallengeScaleTip>
 	<ChallengeScale_BuilderMode>건축 모드</ChallengeScale_BuilderMode>
@@ -70,7 +70,7 @@
 	<!--=========== Landing site select =========-->
 	<SelectLandingSite>착륙 지점 선택</SelectLandingSite>
 	<SelectSite>위치 선택</SelectSite>
-	<MustSelectLandingSite>착륙 지점을 선택합니다.</MustSelectLandingSite>
+	<MustSelectLandingSite>착륙 지점을 선택해야 합니다.</MustSelectLandingSite>
 	<CannotLandBiome>이 생물군계에 착륙할 수 없습니다: {0}</CannotLandBiome>
 	<WorldRenderMode>모드</WorldRenderMode>
 	<WorldRenderModeFull>전체</WorldRenderModeFull>
@@ -98,8 +98,8 @@
 
 	<!--=========== Character chooser ==========-->
 	<CreateCharacters>캐릭터 생성</CreateCharacters>
-	<FirstNameDesc>캐릭터의 이름입니다.\n\n
-		특정한 메뉴에서만 보여집니다.</FirstNameDesc>
+	<FirstNameDesc>캐릭터의 이름입니다.
+		\n\n특정한 메뉴에서만 보여집니다.</FirstNameDesc>
 	<ShortIdentifierDesc>캐릭터의 별명이며 게임 속에서 항상 표시됩니다.
 		\n\n이름 또는 성과 동일하게 적을 수 있으며, 새로운 닉네임을 부여해도 됩니다.
 	</ShortIdentifierDesc>

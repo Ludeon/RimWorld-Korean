@@ -88,6 +88,6 @@
 	<CannotPrioritizeResearch>우선시 할 수 없음 (연구 활동은 장기 작업)</CannotPrioritizeResearch>
 	<CannotPrioritizeForbidden>우선시 할 수 없음 ({0}의 상호작용이 금지됨.)</CannotPrioritizeForbidden>
 
-	<!-- 예시: 먼저 (목적어) (동사). 먼저 벽 수리, 먼저 밥 운반 -->
-	<PrioritizeGeneric>먼저 {1} {0}</PrioritizeGeneric>
+	<!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
+	<PrioritizeGeneric>먼저 {0}: {1}</PrioritizeGeneric>
 </LanguageData>
