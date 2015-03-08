@@ -23,11 +23,12 @@
 	</ColonistsNeedRescueDesc>
 
 	<BuildARoom>방 건설</BuildARoom>
-	<BuildARoomDesc>방은 벽과 문으로 구분됩니다.\n\n좌측 하단 메뉴의 건물 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 건설 예약을 해두면 정착지 주민들의 우선순위에 따라서 그들이 제작할 것입니다.
+	<BuildARoomDesc>방은 벽과 문으로 구분됩니다.
+		\n\n좌측 하단 메뉴의 건물 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 건설 예약을 해두면 정착지 주민들의 우선순위에 따라서 그들이 제작할 것입니다.
 	</BuildARoomDesc>
 
 	<NeedDefenses>방어시설 필요</NeedDefenses>
-	<NeedDefensesDesc>이 곳에 정착한지 시간이 좀 흘렀고 분명히 누군가에겐 위치가 알려졌을 겁니다. 우주 해적들이 나타날 수도 있으니 방어를 준비해야 합니다.
+	<NeedDefensesDesc>여기 정착하고 시간이 꽤 흘렀으니 분명 누군가에게 위치가 알려졌을 가능성이 높습니다. 우주 해적들이 나타날 수도 있으니 방어를 준비해야 합니다.
 		\n\n포탑을 만드는 것이 좋겠습니다.
 	</NeedDefensesDesc>
 
@@ -58,18 +59,18 @@
 	<Starvation>굶주림</Starvation>
 	<StarvationDesc>다음 주민들이 굶주리고 있습니다.
 		\n\n{0}
-		\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 징병상태를 해제했는지 확인해주십시오.
+		\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 소집상태를 해제했는지 확인해주십시오.
 	</StarvationDesc>
 
 	<Exhaustion>탈진</Exhaustion>
 	<ExhaustionDesc>다음 주민들이 탈진하여 휴식이 필요합니다.
 		\n\n{0}
-		\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 징병상태를 해제했는지 확인해주십시오.
+		\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 소집상태를 해제했는지 확인해주십시오.
 	</ExhaustionDesc>
 
 	<NeedFoodHopper>깔대기가 필요합니다.</NeedFoodHopper>
 	<NeedFoodHopperDesc>영양반죽 배급기 옆에 깔대기가 없습니다.
-		\n\n영양반죽 배급기는 깔대기에서 조리되지 않은 음식을 받아야 작동이이 가능합니다.
+		\n\n영양반죽 배급기는 깔대기에서 조리되지 않은 음식을 받아야 작동이 가능합니다.
 		\n\n깔대기를 배급기 옆에 건설하십시오.
 	</NeedFoodHopperDesc>
 
@@ -94,18 +95,18 @@
 	</NeedHomeRegionDesc>
 
 	<NeedBatteries>축전지 필요</NeedBatteries>
-	<NeedBatteriesDesc>태양광 발전기는 있는데 축전지가 없습니다. 이렇게 되면 해가 진 후에 전기를 사용할 수 없습니다. 축전지를 한두 개 정도 제작하여 밤에도 전기를 사용하는 게 좋겠습니다.
+	<NeedBatteriesDesc>태양광 발전기가 있지만 축전지가 없습니다. 이런 경우 해가 진 후에 전기를 사용할 수 없습니다. 축전지를 한두 개 정도 제작하여 밤에도 전기를 사용할 수 있도록 하는게 좋습니다.
 	</NeedBatteriesDesc>
 
 	<NoTradingCapacity>무역능력 없음</NoTradingCapacity>
 	<NoTradingCapacityDesc>지나가는 선박들과 거래할 방법이 없습니다.\n\n통신 제어반을 건설하십시오.</NoTradingCapacityDesc>
 
 	<BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 장비</BrawlerHasRangedWeapon>
-	<BrawlerHasRangedWeaponDesc>당신의 주민 중 한 명이 싸움꾼 특성을 가지고 있지만 원거리 무기를 장비하고 있습니다. 이는 싸움꾼을 매우 불행하게 만들 것입니다.
+	<BrawlerHasRangedWeaponDesc>주민 중 한 명이 싸움꾼 특성을 가지고 있지만 원거리 무기를 장비하고 있습니다. 이는 싸움꾼을 매우 불행하게 만들 것입니다.
 	</BrawlerHasRangedWeaponDesc>
 
 	<ShieldUserHasRangedWeapon>보호막을 장착한 주민이 원거리 무기 장비</ShieldUserHasRangedWeapon>
-	<ShieldUserHasRangedWeaponDesc>당신의 주민 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 그 주민은 근접거리 이내의 적을 제외한 대상에게 원거리 사격을 할 수 없을 것입니다.
+	<ShieldUserHasRangedWeaponDesc>주민 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 그 주민은 근접거리 이내의 적을 제외한 대상에게 원거리 사격을 할 수 없을 것입니다.
 	</ShieldUserHasRangedWeaponDesc>
 
 	<NeedResearchProject>연구 진행 가능</NeedResearchProject>
