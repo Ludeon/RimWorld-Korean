@@ -41,8 +41,8 @@
 
 	<!-- Control -->
 	<CannotOrderNonControlled>조종할 수 없는 대상에 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
-	<IsIncapableOfViolence>{0}은(는) 폭력 행위를 할 수 없습니다.</IsIncapableOfViolence>
-	<IsNotDrafted>{0}은(는) 소집되지 않았습니다.</IsNotDrafted>
+	<IsIncapableOfViolence>{0}(은)는 폭력 행위를 할 수 없습니다.</IsIncapableOfViolence>
+	<IsNotDrafted>{0}(은)는 소집되지 않았습니다.</IsNotDrafted>
 
 	<!-- Snow -->
 	<SnowNone>눈 없음</SnowNone>
@@ -59,7 +59,7 @@
 	<ShellNotLoaded>탄약 없음</ShellNotLoaded>
 
 	<!-- Job reports -->
-	<ReportHaulingTo>{0}을(를) {1}(으)로 운반 중.</ReportHaulingTo>
+	<ReportHaulingTo>{0}(을)를 {1}(으)로 운반 중.</ReportHaulingTo>
 	<ReportHauling>{0} 운반 중.</ReportHauling>
 	<ReportSleeping>수면 중.</ReportSleeping>
 	<ReportResting>쉬는 중.</ReportResting>
@@ -73,7 +73,7 @@
 	<TargetSize>대상 크기</TargetSize>
 	<Weather>날씨</Weather>
 	<ShootingCover>엄폐</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0}이(가) {1}만큼 방어</CoverThingBlocksPercentOfShots>
+	<CoverThingBlocksPercentOfShots>{0}(이)가 {1}만큼 방어</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>엄폐하지 않음</NoCoverLower>
 
 	<!-- Generated recipes -->
@@ -104,9 +104,9 @@
 
 	<!-- Pawn info readout -->
 	<Health>체력</Health>
-	<PawnMainDescWithFactionGendered>{2} 의 {0} {1}</PawnMainDescWithFactionGendered>
+	<PawnMainDescWithFactionGendered>{2}의 {0} {1}</PawnMainDescWithFactionGendered>
 	<PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-	<PawnMainDescWithFactionGenderless>{1} 의 {0}</PawnMainDescWithFactionGenderless>
+	<PawnMainDescWithFactionGenderless>{1}의 {0}</PawnMainDescWithFactionGenderless>
 	<PawnMainDescGenderless>{0}</PawnMainDescGenderless>
 	<Faction>세력</Faction>
 	<Equipped>장착</Equipped>
@@ -273,7 +273,7 @@
 	<Mood_Happy>기쁨</Mood_Happy>
 
 	<!-- Game over -->
-	<GameOverEveryoneDead>모든 주민이 죽거나 떠났습니다. 이 여정은 끝났습니다.
+	<GameOverEveryoneDead>모든 사람이 죽거나 떠났습니다. 이 여정은 끝났습니다.
 		\n\n다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠습니다.
 	</GameOverEveryoneDead>
 	<GameOverShipLaunched>우주선을 발사하였습니다! 다음 주민들이 탈출했습니다.

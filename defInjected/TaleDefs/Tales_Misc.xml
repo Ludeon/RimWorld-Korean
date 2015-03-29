@@ -4,7 +4,7 @@
 
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[0]</path>
-		<trans>image->[circumstance_group] [thing_labelIndefinite]을(를) 제작하고 있는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] [thing_labelIndefinite](을)를 제작하고 있는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[1]</path>
@@ -16,7 +16,7 @@
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[3]</path>
-		<trans>image->[circumstance_group] 그의 작품 [thing_labelIndefinite]을(를) 만드는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] 그의 작품 [thing_labelIndefinite](을)를 만드는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[4]</path>
@@ -88,15 +88,15 @@
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[21]</path>
-		<trans>title_sentence->그 작품에 붙여진 이름 '[thing_title]'이(가) 그림 밑에 적혀있습니다.</trans>
+		<trans>title_sentence->그 작품에 붙여진 이름 '[thing_title]'(이)가 그림 밑에 적혀있습니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[22]</path>
-		<trans>title_sentence->그 작품에 붙여진 이름 '[thing_title]'이(가) 새겨져 있습니다.</trans>
+		<trans>title_sentence->그 작품에 붙여진 이름 '[thing_title]'(이)가 새겨져 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[23]</path>
-		<trans>title_sentence->배경에 흐릿하게 그 작품의 이름인 '[thing_title]'이(가) 보입니다.</trans>
+		<trans>title_sentence->배경에 흐릿하게 그 작품의 이름인 '[thing_title]'(이)가 보입니다.</trans>
 	</rep>
 
 
@@ -164,7 +164,7 @@
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[1]</path>
-		<trans>image->[circumstance_group] [victim_nameFull]을(를) 살해하는 [killer_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 살해하는 [killer_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[2]</path>
@@ -172,11 +172,11 @@
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[3]</path>
-		<trans>image->[circumstance_group] [victim_nameFull]을(를) 잔혹하게 죽이고 있는 [killer_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 잔혹하게 죽이고 있는 [killer_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[4]</path>
-		<trans>image->[circumstance_group] 사람을 죽이는 [killer_nameFull]의 모습이 보입니다. 그의 앞에는 [victim_nameFull]이(가) 누워있습니다. [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] 사람을 죽이는 [killer_nameFull]의 모습이 보입니다. 그의 앞에는 [victim_nameFull](이)가 누워있습니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[5]</path>
@@ -219,7 +219,7 @@
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[14]</path>
-		<trans>desc_sentence->한 [outlander]이(가) 멀리서 숨죽여 지켜보고 있습니다.</trans>
+		<trans>desc_sentence->한 [outlander](이)가 멀리서 숨죽여 지켜보고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[15]</path>
@@ -235,19 +235,19 @@
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[18]</path>
-		<trans>desc_sentence->[killer_nameShortDefinite]은(는) 만족한 듯 보입니다.</trans>
+		<trans>desc_sentence->[killer_nameShortDefinite](은)는 만족한 듯 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[19]</path>
-		<trans>desc_sentence->[killer_nameShortDefinite]은(는) 사람을 죽인 것에 대해 회의적으로 보입니다.</trans>
+		<trans>desc_sentence->[killer_nameShortDefinite](은)는 사람을 죽인 것에 대해 회의적으로 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[20]</path>
-		<trans>desc_sentence->[killer_nameShortDefinite]은(는) 이 상황을 좋아하는 것 같습니다.</trans>
+		<trans>desc_sentence->[killer_nameShortDefinite](은)는 이 상황을 좋아하는 것 같습니다.</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[21]</path>
-		<trans>desc_sentence->[killer_nameShortDefinite]은(는) 환희에 찬 것 같습니다.</trans>
+		<trans>desc_sentence->[killer_nameShortDefinite](은)는 환희에 찬 것 같습니다.</trans>
 	</rep>
 
 
