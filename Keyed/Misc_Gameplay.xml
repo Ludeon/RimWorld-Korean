@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
+
 	<!-- Various -->
 	<WorkLeft>남은 작업 수</WorkLeft>
 	<Contents>내용물</Contents>
@@ -25,7 +26,7 @@
 	<InjuryRequiresTreatment>치료 필요</InjuryRequiresTreatment>
 	<NextTreatmentAfter>다음 치료 {0} 후</NextTreatmentAfter>
 	<MissingMedicalBillIngredient>{0} 없음</MissingMedicalBillIngredient>
-	<ImmunityDevelopmentProgress>항체 생성 중</ImmunityDevelopmentProgress>
+	<Immunity>항체</Immunity>
 	<Race>종류</Race>
 	<Description>설명</Description>
 	<Equipment>장비</Equipment>
@@ -38,6 +39,8 @@
 	<On>켜기</On>
 	<Off>끄기</Off>
 	<PowerSwitch_Power>전원</PowerSwitch_Power>
+	<AreaLower>구역</AreaLower>
+	<FunTolerances>재미 내성</FunTolerances>
 
 	<!-- Control -->
 	<CannotOrderNonControlled>조종할 수 없는 대상에 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
@@ -79,21 +82,6 @@
 	<!-- Generated recipes -->
 	<RecipeMake>{0} 만들기</RecipeMake>
 	<RecipeMakeJobString>{0} 만드는 중.</RecipeMakeJobString>
-
-	<!-- Status levels -->
-	<Mood>기분</Mood>
-	<MoodTip>기분은 신체적, 정신적인 요구를 충족하여 유지됩니다.
-		\n\n만약 누군가의 기분이 너무 좋지 않다면 정신이상을 겪게 될수도 있습니다.</MoodTip>
-	<Food>음식</Food>
-	<FoodTip>음식은 최근에 소비한 열량의 양입니다. 음식 섭취를 하지 않았을 경우 굶주림으로 인해 지속적인 피해를 입을 것입니다.</FoodTip>
-	<Rest>휴식</Rest>
-	<RestTip>사람이 얼마나 안정된 휴식과 수면을 취했는가를 나타냅니다. 누군가가 침대에서 잘 때에는 빠르게 피로가 감소하지만, 침대 밖에 있을 때에는 시간이 지남에 따라 피로도가 증가합니다.
-	</RestTip>
-	<Environment>환경</Environment>
-	<EnvironmentTip>환경은 주변이 얼마나 그사람을 기쁘게하는가를 나타냅니다.
-		환경은 아름다운 장식과 넓은 방에 있을 경우 매우 높아집니다. 주변 환경이 좋지 않다면 그 반대입니다.
-	</EnvironmentTip>
-	<Openness>개방 상태</Openness>
 
 	<!-- Thoughts -->
 	<ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
@@ -171,11 +159,11 @@
 	<Ingredients>성분</Ingredients>
 
 	<!-- Plants -->
-	<PercentGrowth>{0}% 성장함</PercentGrowth>
-	<Growing>성장 중</Growing>
-	<NotGrowingNow>지금은 성장하지 않음 (&quot;{0}&quot;상태여야 합니다.)</NotGrowingNow>
-	<NotGrowingNowResting>지금은 성장하지 않음 (휴식 중)</NotGrowingNowResting>
+	<PercentGrowth>{0} 성장함</PercentGrowth>
+	<GrowthRate>성장 속도</GrowthRate>
 	<FullyGrownIn>{0} 후 완전히 성장</FullyGrownIn>
+	<PlantNeedsLightLevel>빛 필요</PlantNeedsLightLevel>
+	<PlantResting>휴식 중</PlantResting>
 	<OutOfIdealTemperatureRange>이상적인 온도 범위에서 벗어남 (정상 속도의 {0}%만큼 성장)</OutOfIdealTemperatureRange>
 	<OutOfIdealTemperatureRangeNotGrowing>이상적인 온도 범위에서 벗어남 (성장하지 않음)</OutOfIdealTemperatureRangeNotGrowing>
 	<ReadyToHarvest>수확 가능</ReadyToHarvest>
@@ -283,4 +271,14 @@
 	</GameOverShipLaunched>
 	<GameOverKeepPlaying>계속 진행하기</GameOverKeepPlaying>
 	<GameOverMainMenu>메인 메뉴</GameOverMainMenu>
+
+	<!-- Generic lifespan -->
+	<LifespanExpiry>소멸:</LifespanExpiry>
+
+	<!-- JobDriver reports -->
+	<WatchingSunrise>일출을 보는 중</WatchingSunrise>
+	<CloudWatching>구름을 보는 중</CloudWatching>
+	<WatchingSunset>일몰을 보는 중</WatchingSunset>
+	<Stargazing>별을 구경하는 중</Stargazing>
+
 </LanguageData>

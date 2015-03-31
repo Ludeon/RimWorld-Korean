@@ -8,15 +8,15 @@
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[1]</path>
-		<trans>image->[circumstance_group] 그의 작품 [thing_labelIndefinite]의 완성을 눈 앞에 둔 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] [pawn_possessive] 작품 [thing_labelIndefinite]의 완성을 눈 앞에 둔 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[2]</path>
-		<trans>image->[circumstance_group] 그의 작품 [thing_labelIndefinite]의 작업을 계속 하는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] [pawn_possessive] 작품 [thing_labelIndefinite]의 작업을 계속 하는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[3]</path>
-		<trans>image->[circumstance_group] 그의 작품 [thing_labelIndefinite](을)를 만드는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] [pawn_possessive] 작품 [thing_labelIndefinite](을)를 만드는 [pawn_nameFull]의 모습이 보입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[4]</path>
@@ -24,11 +24,11 @@
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[5]</path>
-		<trans>circumstance_phrase->그의 표정에 피어난 만족감과 함께</trans>
+		<trans>circumstance_phrase->[pawn_possessive] 표정에 피어난 만족감과 함께</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[6]</path>
-		<trans>circumstance_phrase->그의 작업대에서</trans>
+		<trans>circumstance_phrase->[pawn_possessive] 작업대에서</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[7]</path>
@@ -40,19 +40,19 @@
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[9]</path>
-		<trans>desc_sentence->그는 작업을 하며 생긴 상처들로 덮여있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 작업을 하며 생긴 상처들로 덮여있습니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[10]</path>
-		<trans>desc_sentence->그는 땀으로 덮여있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 땀으로 덮여있습니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[11]</path>
-		<trans>desc_sentence->그의 작업환경은 매우 정돈되어있고, 모든 도구가 제자리에 놓여 있습니다.</trans>
+		<trans>desc_sentence->[pawn_possessive] 작업환경은 매우 정돈되어있고, 모든 도구가 제자리에 놓여 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[12]</path>
-		<trans>desc_sentence->그의 모습은 과장되어있어 실제보다 더 강력해 보입니다.</trans>
+		<trans>desc_sentence->[pawn_possessive] 모습은 과장되어있어 실제보다 더 강력해 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[13]</path>
@@ -64,11 +64,11 @@
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[15]</path>
-		<trans>desc_sentence->그의 모습은 배경으로 녹아들어 [pawn_nameShortDefinite]의 새로운 창작물을 강조하고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_possessive] 모습은 배경으로 녹아들어 [pawn_nameShortDefinite]의 새로운 창작물을 강조하고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[16]</path>
-		<trans>desc_sentence->한 무리의 구경꾼이 그의 주위를 둘러싸고 있습니다.</trans>
+		<trans>desc_sentence->한 무리의 구경꾼이 [pawn_possessive] 주위를 둘러싸고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>CraftedArt.rulePack.rulesStrings[17]</path>
@@ -127,31 +127,31 @@
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[6]</path>
-		<trans>desc_sentence->그는 눈썹을 닦고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 눈썹을 닦고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[7]</path>
-		<trans>desc_sentence->그는 기쁨에 젖어 허공으로 뛰고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 기쁨에 젖어 허공으로 뛰고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[8]</path>
-		<trans>desc_sentence->그는 친구와 손뼉을 맞추고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 친구와 손뼉을 맞추고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[9]</path>
-		<trans>desc_sentence->그는 기쁨으로 소리를 지르고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 기쁨으로 소리를 지르고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[10]</path>
-		<trans>desc_sentence->그는 통제할 수 없이 웃고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 통제할 수 없이 웃고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[11]</path>
-		<trans>desc_sentence->그는 땀과 먼지로 덮여있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 땀과 먼지로 덮여있습니다.</trans>
 	</rep>
 	<rep>
 		<path>StruckMineable.rulePack.rulesStrings[12]</path>
-		<trans>desc_sentence->그는 땀과 먼지로 덮여있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 땀과 먼지로 덮여있습니다.</trans>
 	</rep>
   
 
@@ -176,7 +176,7 @@
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[4]</path>
-		<trans>image->[circumstance_group] 사람을 죽이는 [killer_nameFull]의 모습이 보입니다. 그의 앞에는 [victim_nameFull](이)가 누워있습니다. [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] 사람을 죽이는 [killer_nameFull]의 모습이 보입니다. [pawn_possessive] 앞에는 [victim_nameFull](이)가 누워있습니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>KilledBy.rulePack.rulesStrings[5]</path>

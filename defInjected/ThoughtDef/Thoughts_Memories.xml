@@ -53,51 +53,51 @@
   <!-- =========== Cannibalism ===============-->
 
 	<rep>
-		<path>AteHumanoidMeatDirect.stages[0].label</path>
+		<path>AteHumanlikeMeatDirect.stages[0].label</path>
 		<trans>인육 섭취</trans>
 	</rep>
 	<rep>
-		<path>AteHumanoidMeatDirect.stages[0].description</path>
+		<path>AteHumanlikeMeatDirect.stages[0].description</path>
 		<trans>다른 사람을... 먹었어. 짐승처럼 생으로. 이건 악몽이야.</trans>
 	</rep>
 
 
 	<rep>
-		<path>AteHumanoidMeatAsIngredient.stages[0].label</path>
+		<path>AteHumanlikeMeatAsIngredient.stages[0].label</path>
 		<trans>인육 가공품 섭취</trans>
 	</rep>
 	<rep>
-		<path>AteHumanoidMeatAsIngredient.stages[0].description</path>
+		<path>AteHumanlikeMeatAsIngredient.stages[0].description</path>
 		<trans>음식을 먹었어. 재료는... 다른 사람. 정말 끔찍해.</trans>
 	</rep>
 
 
 	<rep>
-		<path>AteHumanoidMeatDirectCannibal.stages[0].label</path>
+		<path>AteHumanlikeMeatDirectCannibal.stages[0].label</path>
 		<trans>인육 섭취</trans>
 	</rep>
 	<rep>
-		<path>AteHumanoidMeatDirectCannibal.stages[0].description</path>
+		<path>AteHumanlikeMeatDirectCannibal.stages[0].description</path>
 		<trans>다른 사람을... 먹었어. 짐승처럼 생으로. 정말... 육즙이 촉촉했어.</trans>
 	</rep>
 
 
 	<rep>
-		<path>AteHumanoidMeatAsIngredientCannibal.stages[0].label</path>
+		<path>AteHumanlikeMeatAsIngredientCannibal.stages[0].label</path>
 		<trans>인육 가공품 섭취</trans>
 	</rep>
 	<rep>
-		<path>AteHumanoidMeatAsIngredientCannibal.stages[0].description</path>
+		<path>AteHumanlikeMeatAsIngredientCannibal.stages[0].description</path>
 		<trans>다른 사람으로 만든 음식을 먹었어. 정말 즐거워. 약간의 삶은 콩과 좋은 와인만 있었다면...</trans>
 	</rep>
 
 
 	<rep>
-		<path>ButcheredHumanoidCorpse.stages[0].label</path>
+		<path>ButcheredHumanlikeCorpse.stages[0].label</path>
 		<trans>인간 도축</trans>
 	</rep>
 	<rep>
-		<path>ButcheredHumanoidCorpse.stages[0].description</path>
+		<path>ButcheredHumanlikeCorpse.stages[0].description</path>
 		<trans>짐승처럼 인간을 도축했어.</trans>
 	</rep>
 
@@ -164,11 +164,11 @@
 
 
 	<rep>
-		<path>KilledHumanoidBloodlust.stages[0].label</path>
+		<path>KilledHumanlikeBloodlust.stages[0].label</path>
 		<trans>누군가를 죽임</trans>
 	</rep>
 	<rep>
-		<path>KilledHumanoidBloodlust.stages[0].description</path>
+		<path>KilledHumanlikeBloodlust.stages[0].description</path>
 		<trans>내 손으로 사람을 죽였어! 정말 짜릿한데!</trans>
 	</rep>
 
@@ -309,7 +309,7 @@
 	</rep>
 	<rep>
 		<path>SocialTalk.stages[0].description</path>
-		<trans>누군가와 좋은 대화를 나눴어.</trans>
+		<trans>누군가와 좋은 대화를 나눴었어.</trans>
 	</rep>
 
 
@@ -319,7 +319,7 @@
 	</rep>
 	<rep>
 		<path>AbrasiveTalk.stages[0].description</path>
-		<trans>누군가 내게 무례하게 대했어. 가장 나쁜건, 그 인간은 그걸 깨닫지도 못한 것 같다는 거야...</trans>
+		<trans>누군가 내게 무례하게 대했어.</trans>
 	</rep>
 
 

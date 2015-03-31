@@ -3,6 +3,7 @@
 <LanguageData>
 	<JumpToLocation>클릭하여 해당 위치로 화면이동</JumpToLocation>
 
+	<LetterLabelFirstSummerWarning>여름</LetterLabelFirstSummerWarning>
 	<FirstSummerWarning>여름이 시작되었습니다! 그러나 겨울이 오고 있습니다.
 		\n\n작물은 겨울의 추위 속에서는 자라지 않습니다. 그러니 겨울이 오기 전에 몇 달은 버티기에 충분한 양의 음식과 작물들을 보관하십시오.
 		\n\n음식물이 부패하는것을 방지하기 위해서 출입 가능한 냉동고를 건설할 수 있습니다.
@@ -19,16 +20,19 @@
 
 	<ShortCircuitRain>{0}에 빗물이 스며들어 누전 화재가 발생했습니다.</ShortCircuitRain>
 
+	<LetterLabelAreaRevealed>공간 발견</LetterLabelAreaRevealed>
 	<AreaRevealed>새로운 공간이 드러났습니다.</AreaRevealed>
 	<AreaRevealedWithMechanoids>새로운 공간이 드러났습니다. 적대적인 고대 메카노이드가 함께 발견되었습니다.</AreaRevealedWithMechanoids>
 
 	<RoofCollapsed>지붕이 주변의 지지할 수 있는 것들과 너무 멀리 떨어져 있어서 붕괴되었습니다.</RoofCollapsed>
 	<TheseThingsCrushed>파손된 목록:</TheseThingsCrushed>
-	<NothingCrushed>해당사항 없음</NothingCrushed>
+	<NothingCrushed>아무것도 파괴되지 않았습니다.</NothingCrushed>
+	<LetterLabelRoofCollapsed>지붕 붕괴</LetterLabelRoofCollapsed>
 
 	<RecruitSuccess>{1}에 대한 {0}의 포섭은 성공적이었습니다. (포섭 확률 {2})</RecruitSuccess>
 	<RecruitFail>{1}에 {0}의 대한 포섭은 실패했습니다. (포섭 확률 {2})</RecruitFail>
 
+	<LetterLabelBirthday>생일</LetterLabelBirthday>
 	<BirthdayChronological>오늘은 {0}의 시간적 생일입니다! {1} {2}살이 되었습니다.
 		\n\n사람들은 동면중일 때 나이를 먹지 않기 때문에 시간적 생일은 생물학적 생일과 떨어져 있습니다. 생물학적으로 {0}의 나이는 {3}살입니다.
 	</BirthdayChronological>
@@ -37,11 +41,19 @@
 		\n{2}
 	</BirthdayBiologicalAgeInjuries>
 
+	<LetterLabelNewDisease>질병</LetterLabelNewDisease>
 	<NewDisease>{0}(은)는 {1}로 인해 아픕니다. 그가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하십시오.</NewDisease>
 	<NewPartDisease>{0}의 {1}(이)가 감염되었습니다. 그가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하십시오.</NewPartDisease>
 
-	<AncientShrineWarning>{0}(이)가 고대의 구조물에 가까이 갈수록 불길한 느낌이 그를 휘어잡습니다. 그는 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 지니고 있을 것 같다고 생각합니다.</AncientShrineWarning>
+	<LetterLabelAncientShrineWarning>고대</LetterLabelAncientShrineWarning>
+	<AncientShrineWarning>{0}(이)가 고대의 구조물에 가까이 갈수록 불길한 느낌이 HIM 휘어잡습니다. HE 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 지니고 있을 것 같다고 생각합니다.</AncientShrineWarning>
 
 	<StruckMineable>{0}(을)를 발견했습니다!</StruckMineable>
+
+	<!-- Generalized letter labels -->
+	<LetterLabelRelationsChangeGood>우호도</LetterLabelRelationsChangeGood>
+	<LetterLabelRelationsChangeBad>적대적</LetterLabelRelationsChangeBad>
+	<LetterLabelShortCircuit>지지직...</LetterLabelShortCircuit>
+	<LetterLabelMentalBreakdown>정신이상</LetterLabelMentalBreakdown>
 
 </LanguageData>

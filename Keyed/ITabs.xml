@@ -8,7 +8,7 @@
 	<TabPrisoner>죄수</TabPrisoner>
 	<TabGuest>방문객</TabGuest>
 	<TabGear>장비</TabGear>
-	<TabThoughts>사고</TabThoughts>
+	<TabNeeds>욕구</TabNeeds>
 	<TabStorage>보관</TabStorage>
 	<TabHealth>건강</TabHealth>
 	<TabRace>종류</TabRace>
@@ -19,7 +19,8 @@
 	<!-- Bills tab  -->
 	<AddBill>계획서 추가</AddBill>
 	<RecipeRequiresSkills>{0}의 요구사항은 아래와 같습니다. 어떠한 주민도 이 기술을 가지고 있지 않기 때문에 누구도 이를 하지 못합니다.</RecipeRequiresSkills>
-	<BillConfig>설정</BillConfig>
+	<DotDotDot>...</DotDotDot>
+	<MinimumSkill>최소 기술</MinimumSkill>
 	<SuspendedCaps>일시 중지</SuspendedCaps>
 	<BoundWorkerIs>작업자: {0}</BoundWorkerIs>
 	<PlantVerb>심기</PlantVerb>
@@ -32,6 +33,7 @@
 	<ShouldTryToRecruit>포섭 시도</ShouldTryToRecruit>
 	<PrisonerNoInteraction>상호작용 없음</PrisonerNoInteraction>
 	<PrisonerFriendlyChat>다정한 대화</PrisonerFriendlyChat>
+	<PrisonerAttemptRecruit>포섭 시도</PrisonerAttemptRecruit>
 	<PrisonerRelease>석방</PrisonerRelease>
 	<PrisonerExecution>처형</PrisonerExecution>
 

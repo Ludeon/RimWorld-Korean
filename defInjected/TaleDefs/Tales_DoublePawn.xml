@@ -44,7 +44,7 @@
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[10]</path>
-		<trans>desc_sentence->그의 눈은 [prisoner_nameShortDefinite]의 눈을 우월감에 젖은 채 바라보고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_possessive] 눈은 [prisoner_nameShortDefinite]의 눈을 우월감에 젖은 채 바라보고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[11]</path>
@@ -60,27 +60,27 @@
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[14]</path>
-		<trans>desc_sentence->그는 [prisoner_nameShortDefinite](을)를 내려치며 제압하고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite](을)를 내려치며 제압하고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[15]</path>
-		<trans>desc_sentence->그는 [prisoner_nameShortDefinite]의 귀를 비틀고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 귀를 비틀고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[16]</path>
-		<trans>desc_sentence->그는 [prisoner_nameShortDefinite]의 팔을 뒤로 꺾어 구속하고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 팔을 뒤로 꺾어 구속하고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[17]</path>
-		<trans>desc_sentence->그는 [prisoner_nameShortDefinite]의 얼굴에 침을 뱉고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 얼굴에 침을 뱉고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[18]</path>
-		<trans>desc_sentence->그는 [prisoner_nameShortDefinite]의 눈물을 보며 웃고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 눈물을 보며 웃고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[19]</path>
-		<trans>desc_sentence->그는 별 이유 없이 [prisoner_nameShortDefinite]의 몸을 발로 차고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 별 이유 없이 [prisoner_nameShortDefinite]의 몸을 발로 차고 있습니다.</trans>
 	</rep>
 
 
@@ -95,7 +95,7 @@
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[2]</path>
-		<trans>image->[circumstance_group] [joiner_nameFull]의 모습이 보입니다. 그는 [recruiter_nameFull]에게 설득당하고 있습니다. [desc_sentence_group]</trans>
+		<trans>image->[circumstance_group] [joiner_nameFull]의 모습이 보입니다. [pawn_pronoun] [recruiter_nameFull]에게 설득당하고 있습니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[3]</path>
@@ -159,7 +159,7 @@
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[4]</path>
-		<trans>desc_sentence->그는 놀라울 정도로 수술에 집중한 것으로 보입니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 놀라울 정도로 수술에 집중한 것으로 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[5]</path>

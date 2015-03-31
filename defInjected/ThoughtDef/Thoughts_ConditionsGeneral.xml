@@ -4,167 +4,35 @@
 
 	<rep>
 		<path>LowExpectations.stages[0].label</path>
-		<trans>낮은 기대감</trans>
+		<trans>보통의 기대감</trans>
 	</rep>
 	<rep>
 		<path>LowExpectations.stages[0].description</path>
-		<trans>가진 게 별로 없어. 이런 곳에선 편안함을 기대하면 안되겠지.</trans>
+		<trans>여긴 부유하진 않아. 내 좋을 대로 할 수는 없겠지.</trans>
 	</rep>
 	<rep>
 		<path>LowExpectations.stages[1].label</path>
-		<trans>매우 낮은 기대감</trans>
+		<trans>낮은 기대감</trans>
 	</rep>
 	<rep>
 		<path>LowExpectations.stages[1].description</path>
-		<trans>여긴 완전 빈곤 그 자체야. 생존을 위해선 마음을 단단히 먹는게 좋겠어.</trans>
-	</rep>
-
-	<rep>
-		<path>HighExpectations.stages[0].label</path>
-		<trans>높은 기대감</trans>
+		<trans>사치를 부릴 만큼의 재산이 없어. 마음을 단단히 먹는게 좋겠어.</trans>
 	</rep>
 	<rep>
-		<path>HighExpectations.stages[0].description</path>
-		<trans>이 정착지는 뭔가 많이 가지고 있어. 내가 잘 대접 받았으면 좋겠는걸.</trans>
+		<path>LowExpectations.stages[2].label</path>
+		<trans>매우 낮은 기대감</trans>
 	</rep>
 	<rep>
-		<path>HighExpectations.stages[1].label</path>
-		<trans>매우 높은 기대감</trans>
+		<path>LowExpectations.stages[2].description</path>
+		<trans>여긴 완전 빈곤 그 자체야. 마음을 단단히 먹는게 좋겠어.</trans>
 	</rep>
 	<rep>
-		<path>HighExpectations.stages[1].description</path>
-		<trans>여긴 완전한 부유함 그 자체야. 내가 원하는걸 하지 못할 어떠한 이유도 없어.</trans>
-	</rep>
-
-	<rep>
-		<path>Hungry.stages[0].label</path>
-		<trans>배고픔</trans>
+		<path>LowExpectations.stages[3].label</path>
+		<trans>극도로 낮은 기대감</trans>
 	</rep>
 	<rep>
-		<path>Hungry.stages[0].description</path>
-		<trans>몇 시간동안 아무것도 먹지 못했어.</trans>
-	</rep>
-	<rep>
-		<path>Hungry.stages[1].label</path>
-		<trans>엄청난 배고픔</trans>
-	</rep>
-	<rep>
-		<path>Hungry.stages[1].description</path>
-		<trans>배고픔이 고통이 되어가고 있어. 음식이 필요해. 아니면 금방 굶어 죽을거야.</trans>
-	</rep>
-	<rep>
-		<path>Hungry.stages[2].label</path>
-		<trans>굶주림</trans>
-	</rep>
-	<rep>
-		<path>Hungry.stages[2].description</path>
-		<trans>그냥 아무거나, 먹을 수 있는 거라면 아무거나 좋아. 내 몸이 죽어가는 걸 느낄 수 있어. 아파...</trans>
-	</rep>
-
-
-	<rep>
-		<path>Tired.stages[0].label</path>
-		<trans>피곤함</trans>
-	</rep>
-	<rep>
-		<path>Tired.stages[0].description</path>
-		<trans>한 동안 잠을 못 잤어.</trans>
-	</rep>
-	<rep>
-		<path>Tired.stages[1].label</path>
-		<trans>매우 피곤함</trans>
-	</rep>
-	<rep>
-		<path>Tired.stages[1].description</path>
-		<trans>너무 피곤해. 그냥 누워서 몇 분 동안만이라도 쉬고 싶어.</trans>
-	</rep>
-	<rep>
-		<path>Tired.stages[2].label</path>
-		<trans>탈진함</trans>
-	</rep>
-	<rep>
-		<path>Tired.stages[2].description</path>
-		<trans>너무 지쳐서 서 있기도 힘들어. 눈꺼풀이 너무 무거워. 나좀 자게 해줘...</trans>
-	</rep>
-
-
-	<rep>
-		<path>EnvironmentUgly.stages[0].label</path>
-		<trans>불쾌한 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentUgly.stages[0].description</path>
-		<trans>여긴 있기 좋은 곳이 아니야.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentUgly.stages[1].label</path>
-		<trans>매우 불쾌한 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentUgly.stages[1].description</path>
-		<trans>여긴 정말 불쾌해. 있고 싶지 않아.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentUgly.stages[2].label</path>
-		<trans>끔찍한 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentUgly.stages[2].description</path>
-		<trans>여기선 도저희 버틸 수가 없어. 날 내보내 줘...</trans>
-	</rep>
-
-
-	<rep>
-		<path>EnvironmentPretty.stages[0].label</path>
-		<trans>쾌적한 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentPretty.stages[0].description</path>
-		<trans>여기 괜찮은데.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentPretty.stages[1].label</path>
-		<trans>아주 쾌적한 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentPretty.stages[1].description</path>
-		<trans>여기 정말 좋아. 아름다워.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentPretty.stages[2].label</path>
-		<trans>아름다운 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentPretty.stages[2].description</path>
-		<trans>여긴 정말 아름다워. 내 기분을 좋게 만들고 삶을 사랑하게 해.</trans>
-	</rep>
-
-
-	<rep>
-		<path>EnvironmentCramped.stages[0].label</path>
-		<trans>비좁은 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCramped.stages[0].description</path>
-		<trans>여긴 정말 좁아. 숨 쉴 공간도 없는 것 같다고.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCramped.stages[1].label</path>
-		<trans>매우 비좁은 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCramped.stages[1].description</path>
-		<trans>폐소공포증을 느낄 지경이야. 작은 우리에 갇힌 쥐처럼 움직일 공간조차 없어.</trans>
-	</rep>
-
-
-	<rep>
-		<path>EnvironmentSpaciousInterior.stages[0].label</path>
-		<trans>넓은 환경</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentSpaciousInterior.stages[0].description</path>
-		<trans>여기 방은 정말 넓은데?</trans>
+		<path>LowExpectations.stages[3].description</path>
+		<trans>여기선 야생에서 겨우 내 몸을 지킬 수 있을 정도야. 생존을 위해서라도 스스로 단련하는게 좋겠어.</trans>
 	</rep>
 
 
@@ -197,15 +65,15 @@
 
 	<rep>
 		<path>ApparelDamaged.stages[0].label</path>
-		<trans>옷이 해어짐</trans>
+		<trans>손상된 복장</trans>
 	</rep>
 	<rep>
 		<path>ApparelDamaged.stages[0].description</path>
-		<trans>내 옷들 상태가 별로 좋지 않아. 뭔가 더 적합한 걸 입을 수 없을까?</trans>
+		<trans>내 복장 상태가 별로 좋지 않아. 뭔가 더 적합한 걸 입을 수 없을까?</trans>
 	</rep>
 	<rep>
 		<path>ApparelDamaged.stages[1].label</path>
-		<trans>옷이 누더기가 됨</trans>
+		<trans>누더기가 된 복장</trans>
 	</rep>
 	<rep>
 		<path>ApparelDamaged.stages[1].description</path>
