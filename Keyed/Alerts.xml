@@ -121,13 +121,16 @@
 	<ColonistsIdle>{0}명의 주민이 대기중</ColonistsIdle>
 	<ColonistsIdleDesc>다음 주민들이 할 일이 없어 주변을 방황하고 있습니다.\n\n{0}\n무언가 생산적인 일을 찾아주어야 할 것입니다.</ColonistsIdleDesc>
 
+	<MedicalBedLacksHeadspace>의료용 침대 접근 불가</MedicalBedLacksHeadspace>
+	<MedicalBedLacksHeadspaceDesc>의사가 환자를 치료하려면 환자의 머리 옆 공간이 비어있어야 합니다.</MedicalBedLacksHeadspaceDesc>
+
 	<HaltedConstructions>{0}개의 건설에 필요한 자원 부족</HaltedConstructions>
-	<HaltedConstructionsDesc>다음 건설들에 필요한 자원이 부족합니다.\n\n{0}\n작업을 계속 진행할 수 있도록 필요한 자원을 보충해야 합니다.</HaltedConstructionsDesc>
+	<HaltedConstructionsDesc>다음 건물들에 필요한 자원이 부족합니다.\n\n{0}\n작업을 계속 진행할 수 있도록 필요한 자원을 보충해야 합니다.</HaltedConstructionsDesc>
 
 	<ColonistNeedsTreatment>치료가 필요한 주민</ColonistNeedsTreatment>
 	<ColonistNeedsTreatmentDesc>다음 주민들을 치료해야 합니다. 그렇지 않으면 상처때문에 죽거나 영구적인 장애가 발생할 수 있습니다.
-		\n\n{0}\n의료 침대로 이송하여 치료하십시오.
-		\n\n(먼저 침대를 선택하여 의료 침대로 전환하고, 상처입은 주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)
+		\n\n{0}\n의료용 침대로 이송하여 치료하십시오.
+		\n\n(먼저 침대를 선택하여 의료용 침대로 전환하고, 상처입은 주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)
 	</ColonistNeedsTreatmentDesc>
 
 	<AlertHypothermia>저체온증</AlertHypothermia>
@@ -149,4 +152,8 @@
 	<PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.
 		\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나 감염된 부위를 교체하는 것이 좋습니다.
 	</PawnsWithLifeThreateningDiseaseAmputationDesc>
+
+	<BilliardsNeedsSpace>당구대 공간 필요</BilliardsNeedsSpace>
+	<BilliardsNeedsSpaceDesc>당구대 중 하나가 장애물 바로 옆에 놓여있어 거주민들이 사용할 수 없습니다.
+		\n\n당구대는 주변 모든 방향으로 열린 공간이 필요합니다.</BilliardsNeedsSpaceDesc>
 </LanguageData>

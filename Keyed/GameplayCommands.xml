@@ -24,7 +24,7 @@
 	<CommandUndraftLabel>해제</CommandUndraftLabel>
 	<CommandToggleDraftDesc>소집 상태를 설정할 수 있습니다. 소집된 주민들은 전투에 임하게 되며 스스로 일을 하거나 음식을 섭취하거나 휴식하지 않습니다.
 	</CommandToggleDraftDesc>
-	<IsIncapped>{0}은(는) 행동 불능 상태입니다.</IsIncapped>
+	<IsIncapped>{0}(은)는 행동 불능 상태입니다.</IsIncapped>
 
 	<CommandCancelConstructionLabel>취소</CommandCancelConstructionLabel>
 	<CommandCancelConstructionDesc>건설을 취소합니다.</CommandCancelConstructionDesc>
@@ -103,5 +103,9 @@
 	<!-- Trade beacon -->
 	<CommandMakeBeaconStockpileDesc>이 송신기의 범위만큼 정확히 저장구역을 설정합니다.</CommandMakeBeaconStockpileDesc>
 	<CommandMakeBeaconStockpileLabel>저장구역 생성</CommandMakeBeaconStockpileLabel>
+
+	<!-- Sun lamp -->
+	<CommandSunLampMakeGrowingZoneDesc>이 조명의 범위만큼 정확히 재배구역을 설정합니다.</CommandSunLampMakeGrowingZoneDesc>
+	<CommandSunLampMakeGrowingZoneLabel>재배구역 생성</CommandSunLampMakeGrowingZoneLabel>
 
 </LanguageData>

@@ -14,7 +14,9 @@
 	<MessageFightersFleeing>{1}에서 온 {0}이 도망치기 시작합니다.</MessageFightersFleeing>
 	<MessageFriendlyFightersLeaving>{1}에서 온 우호적인 {0}이 떠나고 있습니다.</MessageFriendlyFightersLeaving>
 
-	<MessageWornApparelDeterioratedAway>{1}이(가) 입은 {0}의 내구도가 다 해서 아무것도 남지 않았습니다.</MessageWornApparelDeterioratedAway>
+	<MessageVisitorsTakingWounded>{1}에서 온 {0}이 다친 사람을 데려가고 있습니다.</MessageVisitorsTakingWounded>
+
+	<MessageWornApparelDeterioratedAway>{1}(이)가 입은 {0}의 내구도가 다 해서 아무것도 남지 않았습니다.</MessageWornApparelDeterioratedAway>
 
 	<MessageSeasonBegun>{0}의 시작입니다.</MessageSeasonBegun>
 
@@ -26,21 +28,23 @@
 
 	<MessageFullyHealed>{0}의 치료가 완료되었습니다.</MessageFullyHealed>
 
-	<MessagePrisonerIsEscaping>수감자 {0}이(가) 도망치고 있습니다.</MessagePrisonerIsEscaping>
+	<MessagePrisonerIsEscaping>수감자 {0}(이)가 도망치고 있습니다.</MessagePrisonerIsEscaping>
 
-	<MessageOutOfNearbyShellsFor>근처에 {0}이(가) 사용 가능한 포탄이 없습니다.</MessageOutOfNearbyShellsFor>
+	<MessageOutOfNearbyShellsFor>근처에 {0}(이)가 사용 가능한 포탄이 없습니다.</MessageOutOfNearbyShellsFor>
 
+	<MessageAnimalsGoPsychoHunted>경고: {0}(은)는 공격을 받으면 반격할 것입니다.</MessageAnimalsGoPsychoHunted>
+
+
+	<LetterLabelMessageRecruitSuccess>포섭</LetterLabelMessageRecruitSuccess>
 	<MessageRecruitSuccess>{0}의 {1}에 대한 포섭은 성공적이었습니다. (설득확률 {2})</MessageRecruitSuccess>
 	<MessageRecruitFail>{0}의 {1}에 대한 포섭은 실패했습니다. (설득확률 {2})</MessageRecruitFail>
-	<MessageRecruitFailBecauseLoyalty>{0}의 {1}에 대한 포섭은 실패했습니다.(수감자 충성도 미달)</MessageRecruitFailBecauseLoyalty>
+	<MessageRecruitFailBecauseLoyalty>{0}의 {1}에 대한 포섭은 실패했습니다.(수감자 기분 미달)</MessageRecruitFailBecauseLoyalty>
 
-	<MessagePoorlyTreated>{0}이(가) {1}에게서 형편없는 치료를 받았습니다. (충분한 치료 확률 {2}).</MessagePoorlyTreated>
-	<MessageWellTreated>{0}이(가) {1}에게서 충분한 치료를 받았습니다. (충분한 치료 확률 {2}).</MessageWellTreated>
+	<MessagePoorlyTreated>{0}(이)가 {1}에게서 형편없는 치료를 받았습니다. (충분한 치료 확률 {2}).</MessagePoorlyTreated>
+	<MessageWellTreated>{0}(이)가 {1}에게서 충분한 치료를 받았습니다. (충분한 치료 확률 {2}).</MessageWellTreated>
 
-	<MessageTraderCannotAfford>상인이 요금을 지불할 수 없습니다.</MessageTraderCannotAfford>
 	<MessageColonyCannotAfford>정착지가 요금을 지불할 수 없습니다.</MessageColonyCannotAfford>
 	<MessageColonyNotEnoughSilver>거래를 하기 위한 충분한 은이 준비되지 않았습니다.</MessageColonyNotEnoughSilver>
-	<MessageTraderNotEnoughSilver>상인이 거래를 하기 위해 필요한 은이 충분하지 않습니다.</MessageTraderNotEnoughSilver>
 
 	<MessageCriticalAlert>중대한 경고: {0}</MessageCriticalAlert>
 
@@ -53,13 +57,17 @@
 	<MessageMustDesignateClaimable>버려진 인공 구조물을 지정해야 합니다.</MessageMustDesignateClaimable>
 	<MessageMustDesignateSmoothableFloor>거친 돌바닥을 지정해야 합니다.</MessageMustDesignateSmoothableFloor>
 
+	<MessageRefusedArrest>{0}(이)가 구속을 저항했습니다!</MessageRefusedArrest>
+
 	<MessageNoMedicalBeds>이용이 가능한 의료 침대가 없습니다.</MessageNoMedicalBeds>
 
-	<PawnDiedBecauseOf>{1}에 의해 {0}이(가) 사망하였습니다.</PawnDiedBecauseOf>
+	<PawnDiedBecauseOf>{1}에 의해 {0}(이)가 사망하였습니다.</PawnDiedBecauseOf>
 
-	<MessageNoLongerDowned>{0}은(는) 이제 걸을 수 있습니다.</MessageNoLongerDowned>
+	<MessageNoLongerDowned>{0}(은)는 이제 다시 걸을 수 있습니다.</MessageNoLongerDowned>
 
-	<MessageMedicalOperationFailureCatastrophic>{0}이(가) {1}을(를) 수술하다가 처참하게 실패했습니다.</MessageMedicalOperationFailureCatastrophic>
-	<MessageMedicalOperationFailureMinor>{0}이(가) {1}을(를) 수술하다가 약간 실수했습니다.</MessageMedicalOperationFailureMinor>
+	<MessageInvoluntarySleep>{0}(이)가 엄청난 피로로 인해 기절했습니다.</MessageInvoluntarySleep>
+
+	<MessageMedicalOperationFailureCatastrophic>{0}(이)가 {1}(을)를 수술하다가 처참하게 실패했습니다.</MessageMedicalOperationFailureCatastrophic>
+	<MessageMedicalOperationFailureMinor>{0}(이)가 {1}(을)를 수술하다가 약간 실수했습니다.</MessageMedicalOperationFailureMinor>
 
 </LanguageData>

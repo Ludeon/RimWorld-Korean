@@ -8,7 +8,10 @@
 	<DesignatorCutPlantsDesc>표시된 식물이 다시 자라지 못하도록 제초 작업을 합니다. 작업 도중에 식재료를 수확할 수도 있습니다.</DesignatorCutPlantsDesc>
 
 	<DesignatorDeconstruct>해체</DesignatorDeconstruct>
-	<DesignatorDeconstructDesc>건설한 대상을 해체하고, 회수한 자원을 재사용합니다.</DesignatorDeconstructDesc>
+	<DesignatorDeconstructDesc>이 물건을 해체하고 자원의 일부를 회수합니다.</DesignatorDeconstructDesc>
+
+	<DesignatorUninstall>포장</DesignatorUninstall>
+	<DesignatorUninstallDesc>이 물건을 포장하여 옮기거나, 팔거나, 다른 곳에 설치할 수 있도록 만듭니다.</DesignatorUninstallDesc>
 
 	<DesignatorHarvest>수확</DesignatorHarvest>
 	<DesignatorHarvestDesc>수확이 가능한 식물에 표시를 남깁니다. 식물에서 식량이나 다른 자원을 수확합니다.</DesignatorHarvestDesc>
@@ -73,7 +76,7 @@
 	<InteractionSpotBlocked>상호작용 위치가 {0}에 의해 막혔습니다.</InteractionSpotBlocked>
 	<InteractionSpotOutOfBounds>상호작용 위치가 지역을 벗어났습니다.</InteractionSpotOutOfBounds>
 	<InteractionSpotWillBeBlocked>상호작용 위치가 {0}에 의해 막힐 것입니다.</InteractionSpotWillBeBlocked>
-	<WouldBlockInteractionSpot>{1}의 상호작용 위치를 {0}이(가) 막을 것입니다.</WouldBlockInteractionSpot>
+	<WouldBlockInteractionSpot>{1}의 상호작용 위치를 {0}(이)가 막을 것입니다.</WouldBlockInteractionSpot>
 	<TerrainIsAlready>이 곳은 이미 {0}입니다.</TerrainIsAlready>
 	<TerrainBeingSmoothed>그 땅은 이미 닦도록 지정되었습니다.</TerrainBeingSmoothed>
 	<IdenticalThingExists>해당 위치에 이미 동일한 것이 존재합니다.</IdenticalThingExists>

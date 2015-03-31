@@ -2,27 +2,35 @@
 <!--suppress ALL -->
 <LanguageData>
 
+	<LetterLabelAnimalInsanitySingle>동물 광란</LetterLabelAnimalInsanitySingle>
 	<AnimalInsanitySingle>근처에 있는 {0}의 정신에 문제가 생겼는지 보이는 모든 것들을 공격하기 시작했습니다.</AnimalInsanitySingle>
-	<AnimalInsanityMultiple>어떤 정신적인 충격파가 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미친 것 같습니다.
+	<LetterLabelAnimalInsanityMultiple>동물 떼 광란!</LetterLabelAnimalInsanityMultiple>
+	<AnimalInsanityMultiple>어떤 정신적인 충격파가 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미쳤습니다.
 	</AnimalInsanityMultiple>
 
+	<LetterLabelCropBlight>병충해</LetterLabelCropBlight>
 	<CropBlight>기이한 병충해가 농작물에 피해를 입혔습니다.</CropBlight>
 
-	<EclipseIncident>이 행성의 위성 중 하나가 태양을 가렸습니다. 일식이 시작되었습니다.</EclipseIncident>
+	<LetterLabelEclipseIncident>일식</LetterLabelEclipseIncident>
+	<EclipseIncident>이 행성의 위성 중 하나가 태양을 가렸습니다. 일식이 시작됩니다.</EclipseIncident>
 
-	<!--<MiracleHeal>({0})기적에 가까운 회복을 경험 했습니다!</MiracleHeal>-->
+	<LetterLabelMiracleHeal>기적</LetterLabelMiracleHeal>
+	<MiracleHeal>{0}(이)가 기적에 가까운 회복을 경험했습니다!</MiracleHeal>
 
 
 	<!-- Enemy raids -->
+	<LetterLabelEnemyRaid>습격</LetterLabelEnemyRaid>
+	<LetterLabelSiege>공성</LetterLabelSiege>
 	<EnemyRaidWalkIn>{1}에서 온 {0} 집단이 근처에 도착했습니다.</EnemyRaidWalkIn>
 	<EnemyRaidEdgeDrop>{1}에서 온 {0} 집단이 낙하기를 타고 근처에 도착했습니다.</EnemyRaidEdgeDrop>
 	<EnemyRaidCenterDrop>{1}에서 온 {0} 집단이 정착지 바로 위에 착륙했습니다!</EnemyRaidCenterDrop>
 	<EnemyRaidStageThenAttack>저들은 정비를 하고 공격해 올 것입니다. 방어를 준비하거나 먼저 공격하십시오.</EnemyRaidStageThenAttack>
 	<EnemyRaidImmediateAttack>저들은 바로 공격을 시작하고 있습니다.</EnemyRaidImmediateAttack>
-	<EnemyRaidBesiege>보아하니 정착지에 공성 공격을 가하려는 것 같습니다.</EnemyRaidBesiege>
+	<EnemyRaidBesiege>보아하니 정착지에 공성 공격을 가하려는 것 같습니다. 저들은 먼저 접근하지 않을 것이며, 계속해서 박격포로 포격을 할 것입니다. 먼저 다가가서 공격하십시오.</EnemyRaidBesiege>
 
 
 	<!-- Friendly raids -->
+	<LetterLabelFriendlyRaid>아군</LetterLabelFriendlyRaid>
 	<FriendlyRaidWalkIn>{1}에서 온 우호적인 {0} 집단이 근처에 도착했습니다.</FriendlyRaidWalkIn>
 	<FriendlyRaidEdgeDrop>{1}에서 온 우호적인 {0} 집단이 궤도에서 근처에 낙하했습니다.</FriendlyRaidEdgeDrop>
 	<FriendlyRaidCenterDrop>{1}에서 온 우호적인 {0} 집단이 정착지의 바로 위에 착륙했습니다!</FriendlyRaidCenterDrop>
@@ -30,15 +38,15 @@
 	<FriendlyRaidImmediateAttack>이들은 정착지 주민들을 돕기위해 즉시 이동하고 있습니다.</FriendlyRaidImmediateAttack>
 	<FriendlyRaidBesiege>보아하니 공성 전술로 정착지 주민들을 도우려는 것 같습니다.</FriendlyRaidBesiege>
 
+	<LetterLabelRefugeePodCrash>탈출용 낙하기</LetterLabelRefugeePodCrash>
 	<RefugeePodCrash>주변에 탈출용 낙하기가 빠르게 추락하는 걸 발견했습니다.
 		\n\n만약 누군가 저 추락에서 살아남았다면 매우 심각하게 다쳤을 것입니다.
 	</RefugeePodCrash>
 
+	<LetterLabelCargoPodCrash>화물 낙하기</LetterLabelCargoPodCrash>
 	<CargoPodCrash>주변에 다수의 화물 낙하기가 추락하는 걸 발견했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을지도 모릅니다.</CargoPodCrash>
 
 	<AnElectricalConduit>전선</AnElectricalConduit>
-
-	<AWallsPowerConduit>벽에 매설된 전선</AWallsPowerConduit>
 
 	<ShortCircuit>{0}의 결함으로 누전이 발생했습니다.
 		\n\n연결되어있던 모든 축전지가 지녔던 {1} Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
@@ -47,13 +55,16 @@
 
 	<ShortCircuitWasHuge>폭발이 정말 크고 아름답습니다.</ShortCircuitWasHuge>
 
+	<LetterLabelSolarFlare>흑점 폭발</LetterLabelSolarFlare>
 	<LetterSolarFlare>흑점 폭발이 시작됐습니다.
 		\n\n강한 방사선이 모든 전기장치의 작동을 막습니다. 하루 정도 지나면 잠잠해 질 것으로 예상됩니다.</LetterSolarFlare>
 
 	<LetterHeatWave>이례적인 폭염이 시작되었습니다. 열사병에 주의하십시오.</LetterHeatWave>
+	<LetterLabelHeatWave>폭염</LetterLabelHeatWave>
 	<HeatWaveOver>폭염이 끝났습니다.</HeatWaveOver>
 
 	<LetterColdSnap>이례적인 한파가 시작되었습니다. 저체온증과 작물들이 죽어가는것을 조심하십시오.</LetterColdSnap>
+	<LetterLabelColdSnap>한파</LetterLabelColdSnap>
 	<ColdSnapOver>한파가 끝났습니다.</ColdSnapOver>
 
 	<TraderArrival>무역선이 근처를 지나갑니다.\n\n{0}의 이름으로 알려진 {1}입니다.</TraderArrival>
@@ -62,12 +73,14 @@
 
 	<GroupTravelersPassing>{0}의 여행객들이 지나가고 있습니다.</GroupTravelersPassing>
 
+	<LetterLabelSingleVisitorArrives>방문객</LetterLabelSingleVisitorArrives>
 	<SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며 {0}입니다.</SingleVisitorArrives>
-
+	<LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
 	<GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다.</GroupVisitorsArrive>
 
-	<VisitorsLeaving>{0}에서 온 방문객들이 떠나고 있습니다.</VisitorsLeaving>
+	<VisitorsLeaving>{0}에서 온 방문자자이 떠나고 있습니다.</VisitorsLeaving>
 
+	<LetterLabelWandererJoin>나그네 합류</LetterLabelWandererJoin>
 	<WandererJoin>정착지에 합류하는 사람이 있습니다. HIS 이름은 NAME이며 {0}, {1}입니다.</WandererJoin>
 
 
@@ -85,18 +98,22 @@
 	<PsychicDroneLevelMedium>중간</PsychicDroneLevelMedium>
 	<PsychicDroneLevelHigh>높음</PsychicDroneLevelHigh>
 	<PsychicDroneLevelExtreme>심각</PsychicDroneLevelExtreme>
+	<LetterLabelPsychicDroneLevelIncreased>소음 심화</LetterLabelPsychicDroneLevelIncreased>
 	<LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 정신적인 소음이 더욱 강하게 울려 퍼지고 있습니다. 이제 이 지역의 모든 인간들은 더 불안해 하고, 겁에 질리며, 심화된 피해 망상을 하기 시작합니다.
 	</LetterPsychicDroneLevelIncreased>
 
 	<!-- Agent revealed -->
-	<LetterAgentRevealed>{0}의 정체가 {1}의 스파이로 밝혀졌으며, 지금 탈출을 시도합니다.</LetterAgentRevealed>
+	<LetterLabelAgentRevealed>첩자</LetterLabelAgentRevealed>
+	<LetterAgentRevealed>{0}의 정체가 {1}의 첩자로 밝혀졌으며, 지금 탈출을 시도합니다.</LetterAgentRevealed>
 
 	<!-- Distant psychic drone -->
+	<LetterLabelPsychicDrone>정신적 소음</LetterLabelPsychicDrone>
 	<LetterIncidentPsychicDrone>거주지 모든 {0} 머리에 못질하는 듯한 두통이 느껴지고 있습니다!
 		\n\n멀리 떨어진 증오의 엔진이 작동하기 시작함과 동시에, 특정 성별에만 영향을 미치는 주파수의 정신적 소음이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
 	</LetterIncidentPsychicDrone>
 
 	<!-- Beavers -->
+	<LetterLabelBeaversArrived>비버 떼!</LetterLabelBeaversArrived>
 	<BeaversArrived>배고픈 알파비버 무리가 도착했습니다.
 		\n\n이 지역에 존재하는 마지막 나무까지 먹어 치우기전에 모든 알파비버를 사살하십시오.</BeaversArrived>
 
