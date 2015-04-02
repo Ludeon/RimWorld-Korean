@@ -1,11 +1,13 @@
-﻿RimWorld 한국어 번역
+﻿RimWorld-Korean
 ===============
+
+림월드 한국어 번역
 
 See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
 
 
-번역한 사람들<br>
+Translators<br>
 Alpha 3 : Enoz, 고로쿠마, PlayGirl, DaDen, Walker<br>
 Alpha 4 : Walker, DDCCDD, Walker<br>
 Alpha 5 : 듀플러, GLONAX<br>
