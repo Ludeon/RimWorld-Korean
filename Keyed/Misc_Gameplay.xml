@@ -41,6 +41,7 @@
 	<PowerSwitch_Power>전원</PowerSwitch_Power>
 	<AreaLower>구역</AreaLower>
 	<FunTolerances>재미 내성</FunTolerances>
+	<BrokenLetterLabel>무너짐</BrokenLetterLabel>
 
 	<!-- Control -->
 	<CannotOrderNonControlled>조종할 수 없는 대상에 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
@@ -91,7 +92,7 @@
 	<MentalBreakThresholdSoft>부분적 정신이상 임계값</MentalBreakThresholdSoft>
 
 	<!-- Pawn info readout -->
-	<Health>체력</Health>
+	<hitPoints>체력</hitPoints>
 	<PawnMainDescWithFactionGendered>{2}의 {0} {1}</PawnMainDescWithFactionGendered>
 	<PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
 	<PawnMainDescWithFactionGenderless>{1}의 {0}</PawnMainDescWithFactionGenderless>
@@ -183,6 +184,11 @@
 	<Priority>우선순위</Priority>
 	<ClearAll>모두 제거</ClearAll>
 
+	<!-- ThingFilter -->
+	<HitPoints>내구도 {0}</HitPoints>
+	<AnyQuality>모든 품질</AnyQuality>
+	<OnlyQuality>오직 {0}만</OnlyQuality>
+
 	<!-- Mouseover indicator -->
 	<Undiscovered>발견되지 않움</Undiscovered>
 
@@ -212,6 +218,7 @@
 	<MustPlaceNextToHopperAccepter>깔대기가 필요한 무언가의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
 	<MustPlaceOnSteamGeyser>증기 간혈천에 직접 배치되어야합니다.</MustPlaceOnSteamGeyser>
 	<MustPlaceCoolerWithFreeSpaces>배기구와 냉방기 두 면이 모두 밖으로 노출되어야 합니다.</MustPlaceCoolerWithFreeSpaces>
+	<MustPlaceVentWithFreeSpaces>공기가 통할 수 있도록 양 면이 모두 노출되어야 합니다.</MustPlaceVentWithFreeSpaces>
 
 	<!-- Wind Turbine -->
 	<WindTurbine_WindPathIsBlockedBy>바람길이 막힘: </WindTurbine_WindPathIsBlockedBy>
