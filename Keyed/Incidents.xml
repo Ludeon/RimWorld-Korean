@@ -5,7 +5,7 @@
 	<LetterLabelAnimalInsanitySingle>동물 광란</LetterLabelAnimalInsanitySingle>
 	<AnimalInsanitySingle>근처에 있는 {0}의 정신에 문제가 생겼는지 보이는 모든 것들을 공격하기 시작했습니다.</AnimalInsanitySingle>
 	<LetterLabelAnimalInsanityMultiple>동물 떼 광란!</LetterLabelAnimalInsanityMultiple>
-	<AnimalInsanityMultiple>어떤 정신적인 충격파가 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미쳤습니다.
+	<AnimalInsanityMultiple>정신파동이 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미쳤습니다.
 	</AnimalInsanityMultiple>
 
 	<LetterLabelCropBlight>병충해</LetterLabelCropBlight>
@@ -78,7 +78,7 @@
 	<LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
 	<GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다.</GroupVisitorsArrive>
 
-	<VisitorsLeaving>{0}에서 온 방문자자이 떠나고 있습니다.</VisitorsLeaving>
+	<VisitorsLeaving>{0}에서 온 방문자들이 떠나고 있습니다.</VisitorsLeaving>
 
 	<LetterLabelWandererJoin>나그네 합류</LetterLabelWandererJoin>
 	<WandererJoin>정착지에 합류하는 사람이 있습니다. HIS 이름은 NAME이며 {0}, {1}입니다.</WandererJoin>
@@ -89,17 +89,17 @@
 		\n\n정착지 주민들은 그 잔해가 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것을 느낄 수 있습니다. 이건 우주선에 탑재된 AI의 정신 발산 능력이 분명하고, 이 인공지능은 우호적이지 않습니다.
 		\n\n최대한 빨리 파괴하십시오.
 	</SpaceshipPartCrash>
-	<MessageAnimalInsanityPulse>고대 우주선이 정신적 파동을 발산하여 주변 동물들을 미쳐 날뛰게 만들었습니다.</MessageAnimalInsanityPulse>
-	<LetterShipPartDroveColonistInsane>추락한 우주선의 잔해가 집중된 정신적 파동을 발산하여 {0}의 정신에 문제가 생겼습니다.
+	<MessageAnimalInsanityPulse>고대 우주선이 정신파동을 발산하여 주변 동물들을 미쳐 날뛰게 만들었습니다.</MessageAnimalInsanityPulse>
+	<LetterShipPartDroveColonistInsane>추락한 우주선의 잔해가 한 곳으로 집중된 정신파동을 발산하여 {0}의 정신에 문제가 생겼습니다.
 	</LetterShipPartDroveColonistInsane>
 	<AwokeDaysAgo>{0}일 전에 깨어남</AwokeDaysAgo>
-	<PsychicDroneLevel>정신적 소음 단계: {0}</PsychicDroneLevel>
+	<PsychicDroneLevel>정신파동 단계: {0}</PsychicDroneLevel>
 	<PsychicDroneLevelLow>낮음</PsychicDroneLevelLow>
 	<PsychicDroneLevelMedium>중간</PsychicDroneLevelMedium>
 	<PsychicDroneLevelHigh>높음</PsychicDroneLevelHigh>
 	<PsychicDroneLevelExtreme>심각</PsychicDroneLevelExtreme>
 	<LetterLabelPsychicDroneLevelIncreased>소음 심화</LetterLabelPsychicDroneLevelIncreased>
-	<LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 정신적인 소음이 더욱 강하게 울려 퍼지고 있습니다. 이제 이 지역의 모든 인간들은 더 불안해 하고, 겁에 질리며, 심화된 피해 망상을 하기 시작합니다.
+	<LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 정신파동이 더욱 강하게 퍼지고 있습니다. 이제 이 지역의 모든 인간들은 더 불안해 하고, 겁에 질리며, 심화된 피해 망상을 하기 시작합니다.
 	</LetterPsychicDroneLevelIncreased>
 
 	<!-- Agent revealed -->
@@ -107,9 +107,9 @@
 	<LetterAgentRevealed>{0}의 정체가 {1}의 첩자로 밝혀졌으며, 지금 탈출을 시도합니다.</LetterAgentRevealed>
 
 	<!-- Distant psychic drone -->
-	<LetterLabelPsychicDrone>정신적 소음</LetterLabelPsychicDrone>
+	<LetterLabelPsychicDrone>정신파동</LetterLabelPsychicDrone>
 	<LetterIncidentPsychicDrone>거주지 모든 {0} 머리에 못질하는 듯한 두통이 느껴지고 있습니다!
-		\n\n멀리 떨어진 증오의 엔진이 작동하기 시작함과 동시에, 특정 성별에만 영향을 미치는 주파수의 정신적 소음이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
+		\n\n멀리 떨어진 증오의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
 	</LetterIncidentPsychicDrone>
 
 	<!-- Beavers -->
