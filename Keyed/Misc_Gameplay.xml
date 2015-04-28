@@ -197,8 +197,8 @@
 	<ShowBeautyToggleButton>아름다움 표시를 보이거나 숨깁니다.
 		\n\n마우스가 가리키는 지점에 서 있는 캐릭터가 주변이 얼마나 아름답다고 느낄 지 보여줍니다.
 	</ShowBeautyToggleButton>
-	<AutoHomeRegionToggleButton>자동적으로 새로 건설한 지역 주변을 거주지역으로 추가하게 합니다.</AutoHomeRegionToggleButton>
-	<CategorizedResourceReadoutToggleButton>자원 개요를 여러 분류로 묶어 보여줍니다.</CategorizedResourceReadoutToggleButton>
+	<AutoHomeRegionToggleButton>새로 건설한 지역 주변을 자동으로 거주지역에 추가하합니다.</AutoHomeRegionToggleButton>
+	<CategorizedResourceReadoutToggleButton>자원 개요를 분류별로 묶어 보여줍니다.</CategorizedResourceReadoutToggleButton>
 
 	<!-- Fire -->
 	<Fire>화재</Fire>
@@ -207,16 +207,16 @@
 	<FireSizeLower>화염 크기 {0}</FireSizeLower>
 
 	<!-- Map conditions (eclipse, solar flare, etc )-->
-	<MapConditionsTip>특별한 효과가 지금 이 지역에 영향을 끼치고 있습니다.</MapConditionsTip>
+	<MapConditionsTip>특별한 현상이 이 지역에 영향을 끼치고 있습니다.</MapConditionsTip>
 
 	<!-- Building placement -->
-	<NoStuffsToBuildWith>건설하기에 필요한 재료들이 충분하지 않습니다.</NoStuffsToBuildWith>
+	<NoStuffsToBuildWith>건설에 필요한 재료가 충분하지 않습니다.</NoStuffsToBuildWith>
 
 	<!-- Building placement restricters -->
 	<MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
 	<MustPlaceHeadOnShipBeam>우주선 지지부에 머리를 맞대고 있어야 합니다.</MustPlaceHeadOnShipBeam>
-	<MustPlaceNextToHopperAccepter>깔대기가 필요한 무언가의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
-	<MustPlaceOnSteamGeyser>증기 간혈천에 직접 배치되어야합니다.</MustPlaceOnSteamGeyser>
+	<MustPlaceNextToHopperAccepter>깔대기가 필요한 건물의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
+	<MustPlaceOnSteamGeyser>증기 간혈천 위에 배치되어야합니다.</MustPlaceOnSteamGeyser>
 	<MustPlaceCoolerWithFreeSpaces>배기구와 냉방기 두 면이 모두 밖으로 노출되어야 합니다.</MustPlaceCoolerWithFreeSpaces>
 	<MustPlaceVentWithFreeSpaces>공기가 통할 수 있도록 양 면이 모두 노출되어야 합니다.</MustPlaceVentWithFreeSpaces>
 	<MustPlaceAdjacentStandable>모든 면에 서있을 수 있는 공간이 필요합니다.</MustPlaceAdjacentStandable>
@@ -227,16 +227,16 @@
 
 	<!-- Cryptosleep casket -->
 	<CasketContains>포함</CasketContains>
-	<CasketUnknownContents>알려지지않음</CasketUnknownContents>
+	<CasketUnknownContents>알 수 없음</CasketUnknownContents>
 	<CasketWarning>경고!
-		\n\nNAME은 당신의 마지막으로 남은 주민입니다! 만약 주민을 동면기 안으로 넣는다면 당신은 더이상 이 식민지를 플레이 할 수 없습니다. 정말 계속 진행하시겠습니까?
+		\n\nNAME(은)는 정착지의 마지막 거주민입니다! 만약 그 거주민이 동면장치에 들어간다면 더 이상 플레이 할 수 없습니다. 정말 진행하시겠습니까?
 	</CasketWarning>
 
 	<!-- Ship launch report -->
 	<ShipReportCannotLaunch>발사할 수 없습니다.</ShipReportCannotLaunch>
 	<ShipReportCanLaunch>발사 준비 완료.</ShipReportCanLaunch>
 	<ShipReportMissingPart>중요한 구성요소 누락</ShipReportMissingPart>
-	<ShipReportNoFullPods>비어있는 동면기</ShipReportNoFullPods>
+	<ShipReportNoFullPods>빈 동면장치</ShipReportNoFullPods>
 
 	<!-- Neurotrainer -->
 	<UseNeurotrainer>{0}을 배우기 위해 신경훈련기 사용</UseNeurotrainer>
@@ -269,7 +269,7 @@
 	<Mood_Happy>기쁨</Mood_Happy>
 
 	<!-- Game over -->
-	<GameOverEveryoneDead>모든 사람이 죽거나 떠났습니다. 이 여정은 끝났습니다.
+	<GameOverEveryoneDead>모든 거주민이 죽거나 떠났습니다. 이 여정은 끝났습니다.
 		\n\n다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠습니다.
 	</GameOverEveryoneDead>
 	<GameOverShipLaunched>우주선을 발사하였습니다! 다음 주민들이 탈출했습니다.
