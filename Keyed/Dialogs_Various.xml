@@ -16,6 +16,10 @@
 	<SavedAs>진행 사항이 {0} 파일에 저장되었습니다.</SavedAs>
 	<NeedAName>저장될 파일의 이름을 입력해 주세요.</NeedAName>
 	<LoadingLongEvent>불러오는 중...</LoadingLongEvent>
+	<SaveIsFromDifferentGameVersion>현재 버전은 {0}이지만 이 파일은 다른 판인 {1}에서 생성되었습니다.\n\n이 파일을 불러오려는 시도는 대부분 실패할 것입니다.</SaveIsFromDifferentGameVersion>
+	<SaveIsFromDifferentGameBuild>현재 버전은 {0}이지만 이 파일은 다른 패치인 버전 {1}에서 생성되었습니다.\n\n이 파일을 불러오려는 시도는 성공할 것입니다.</SaveIsFromDifferentGameBuild>
+	<SaveIsFromThisGameBuild>이 파일은 현재 버전에서 생성된 파일입니다. 별 문제는 없을 것입니다.</SaveIsFromThisGameBuild>
+	<SaveIsUnknownFormat>저장된 파일의 형식을 읽을 수 없으며 거의 확실하게 작동하지 않을 것입니다.</SaveIsUnknownFormat>
 
 	<!-- Colony naming-->
 	<NameColonyMessage>모두가 알다시피 당신은 이런 돌 덩어리에서 오래 머물고 싶지 않습니다. 하지만 어찌 됐건 정착지의 이름을 정하자는 {0}의 제안이 들어왔습니다.
@@ -33,12 +37,13 @@
 
 	<!-- Save game incompatible warning -->
 	<VersionMismatch>버전 불일치</VersionMismatch>
-	<SaveGameIncompatibleWarningText>버전이 일치하지 않음: 이 지도는 {0}버전에서 생성되었으며 현재 {1}버전을 사용중입니다.
-		\n\n해당 파일을 불러오게 될 경우 호환성에 문제가 발생할 수 있습니다.
+	<SaveGameIncompatibleWarningText>이 지도는 버전 {0}에서 생성되었습니다.\n현재 버전은 {1}입니다.\n\n해당 지도를 불러오게 될 경우 호환성에 문제가 발생할 수 있습니다.
 	</SaveGameIncompatibleWarningText>
-	<WorldFileVersionMismatch>버전이 일치하지 않음: 이 세계는 {0}버전에서 생성되었으며 현재 {1}버전을 사용중입니다.
-		\n\n해당 파일을 불러오게 될 경우 호환성에 문제가 발생할 수 있습니다. 새로운 세계를 생성하는 편이 좋습니다.
+	<WorldFileVersionMismatch>이 세계는 버전 {0}에서 생성되었습니다.\n현재 버전은 {1}입니다.\n\n해당 세계를 불러오게 될 경우 호환성에 문제가 발생할 수 있습니다. 새로운 세계를 생성하는 편이 좋습니다.
 	</WorldFileVersionMismatch>
+	<ModsMismatchWarningTitle>모드 불일치</ModsMismatchWarningTitle>
+	<ModsMismatchWarningText>이 지도는 현재 작동중인 모드와 다른 모드를 사용합니다. 불러오려는 시도는 모드에 따라 성공할 수도, 실패할 수도 있습니다.
+	\n\n해당 지도의 모드 목록(순서대로):\n\n{0}\n\n현재 사용중인 모드 목록:\n\n{1}</ModsMismatchWarningText>
 
 	<!-- Resolution change dialog -->
 	<ConfirmResolutionChange>변경한 해상도가 정상적으로 표시되고 있습니까?
@@ -106,9 +111,10 @@
 	<Damage>피해량</Damage>
 	<Accuracy>정확도</Accuracy>
 	<BurstShotCount>연발 횟수</BurstShotCount>
-	<WarmupTime>조준 시간</WarmupTime>
-	<CooldownTime>대기 시간</CooldownTime>
-	<BurstShotFireRate>발사 속도</BurstShotFireRate>
+	<WarmupTime>조준시간</WarmupTime>
+	<WarmupTime>근접 조준시간</WarmupTime>
+	<CooldownTime>대기시간</CooldownTime>
+	<BurstShotFireRate>발사속도</BurstShotFireRate>
 	<Range>사거리</Range>
 	<GrowsWild>야생에서 자람</GrowsWild>
 	<Harvestable>수확 가능</Harvestable>

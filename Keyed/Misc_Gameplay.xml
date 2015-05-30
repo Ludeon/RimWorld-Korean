@@ -39,7 +39,6 @@
 	<On>켜기</On>
 	<Off>끄기</Off>
 	<PowerSwitch_Power>전원</PowerSwitch_Power>
-	<AreaLower>구역</AreaLower>
 	<JoyTolerances>재미 내성</JoyTolerances>
 	<BrokenLetterLabel>무너짐</BrokenLetterLabel>
 
@@ -67,6 +66,14 @@
 	<ReportHauling>{0} 운반 중.</ReportHauling>
 	<ReportSleeping>수면 중.</ReportSleeping>
 	<ReportResting>쉬는 중.</ReportResting>
+	<WatchingSunrise>일출을 보는 중</WatchingSunrise>
+	<CloudWatching>구름을 보는 중</CloudWatching>
+	<WatchingSunset>일몰을 보는 중</WatchingSunset>
+	<Stargazing>별을 구경하는 중</Stargazing>
+	<WatchingEclipse>일식을 구경하는 중</WatchingEclipse>
+	<DeliveringFood>{0}에게 음식 운반 중.</DeliveringFood>
+	<UsingVerb>{1}에 {0} 사용 중.</UsingVerb>
+	<AreaLower>구역</AreaLower>
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>무기 빗나감 범위</WeaponMissRadius>
@@ -183,6 +190,7 @@
 	<DumpingStockpile>처리구역</DumpingStockpile>
 	<Priority>우선순위</Priority>
 	<ClearAll>모두 제거</ClearAll>
+	<AllowAll>모두 허용</AllowAll>
 
 	<!-- ThingFilter -->
 	<HitPoints>내구도 {0}</HitPoints>
@@ -283,11 +291,9 @@
 	<!-- Generic lifespan -->
 	<LifespanExpiry>소멸:</LifespanExpiry>
 
-	<!-- JobDriver reports -->
-	<WatchingSunrise>일출을 보는 중</WatchingSunrise>
-	<CloudWatching>구름을 보는 중</CloudWatching>
-	<WatchingSunset>일몰을 보는 중</WatchingSunset>
-	<Stargazing>별을 구경하는 중</Stargazing>
-	<WatchingEclipse>일식을 구경하는 중</WatchingEclipse>
+	<!-- Traps -->
+	<TrapArmed>장전됨</TrapArmed>
+	<TrapNotArmed>장전되지 않음</TrapNotArmed>
+	<TrapRearmingCost>재장전 비용: {0}</TrapRearmingCost>
 
 </LanguageData>

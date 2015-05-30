@@ -68,6 +68,15 @@
 	<DesignatorClaim>점거</DesignatorClaim>
 	<DesignatorClaimDesc>고대 유적이나 버려진 공성 기지와 같은 중립 구조물을 정착지 소유로 점거합니다. 점거한 구조물은 거주민들이 관리와 수리를 맡습니다.</DesignatorClaimDesc>
 
+	<DesignatorRemoveFloor>바닥 제거</DesignatorRemoveFloor>
+	<DesignatorRemoveFloorDesc>바닥을 제거해 아래의 지형이 드러나게 합니다.</DesignatorRemoveFloorDesc>
+
+	<DesignatorStrip>벗기기</DesignatorStrip>
+	<DesignatorStripDesc>시체와 부상자에게서 의류를 벗겨냅니다.</DesignatorStripDesc>
+
+	<DesignatorRearmTrap>함정 재장전</DesignatorRearmTrap>
+	<DesignatorRearmTrapDesc>작동했던 함정을 재장전해 다시 사용할 수 있도록 합니다.</DesignatorRearmTrapDesc>
+
 	<!-- Failure messages -->
 	<UnchosenStuff>선택되지 않은 재료</UnchosenStuff>
 	<TooCloseToMapEdge>맵의 가장자리와 너무 가깝습니다.</TooCloseToMapEdge>
@@ -78,11 +87,12 @@
 	<InteractionSpotWillBeBlocked>상호작용 위치가 {0}에 의해 막힐 것입니다.</InteractionSpotWillBeBlocked>
 	<WouldBlockInteractionSpot>{1}의 상호작용 위치를 {0}(이)가 막을 것입니다.</WouldBlockInteractionSpot>
 	<TerrainIsAlready>이 곳은 이미 {0}입니다.</TerrainIsAlready>
-	<TerrainBeingSmoothed>그 땅은 이미 닦도록 지정되었습니다.</TerrainBeingSmoothed>
+	<TerrainBeingSmoothed>이미 그 작업이 지정되었습니다.</TerrainBeingSmoothed>
 	<IdenticalThingExists>해당 위치에 이미 동일한 것이 존재합니다.</IdenticalThingExists>
 	<IdenticalBlueprintExists>해당 위치에 이미 동일한 청사진이 존재합니다.</IdenticalBlueprintExists>
 	<TerrainCannotSupport>지형이 받칠 수 없습니다.</TerrainCannotSupport>
 	<SpaceAlreadyOccupied>해당 위치가 이미 사용 중입니다.</SpaceAlreadyOccupied>
+	<TerrainMustBeRemovable>제거 가능한 바닥을 선택해야 합니다.</TerrainMustBeRemovable>
 
 	<!-- placement of zones -->
 	<ExpandOrCreateZone>{0}의 구역을 확장\n또는 새로운 {1} 생성</ExpandOrCreateZone>
