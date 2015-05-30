@@ -9,8 +9,10 @@
 	<GotoSafeTemperature.reportString>안전한 온도를 찾는 중.</GotoSafeTemperature.reportString>
 
 	<GotoWander.reportString>떠도는 중.</GotoWander.reportString>
-	
+
 	<Wait.reportString>대기 중.</Wait.reportString>
+
+	<WaitDowned.reportString>기절.</WaitDowned.reportString>
 
 	<WaitSafeTemperature.reportString>안전한 온도를 찾는 중.</WaitSafeTemperature.reportString>
 
@@ -22,17 +24,15 @@
 	
     <AttackMelee.reportString>TargetA 공격 중.</AttackMelee.reportString>
 	
-	<UseVerbOnThing.reportString>verb 사용 중.</UseVerbOnThing.reportString>
-	
 	<Equip.reportString>TargetA 장착 준비 중.</Equip.reportString>
-	
-    <!--============= Misc ============-->
+
+	<TakeInventory.reportString>TargetA 소지품에 넣는 중.</TakeInventory.reportString>
   
 	<Wear.reportString>TargetA 착용 중.</Wear.reportString>
   
 	<Strip.reportString>TargetA 벗기는 중.</Strip.reportString>
-	
-	<Hunt.reportString>TargetA 사냥 중.</Hunt.reportString>
+
+	<RearmTrap.reportString>덫 재장전 중.</RearmTrap.reportString>
 	
 	<ManTurret.reportString>포탑 조작 중.</ManTurret.reportString>
 	
@@ -61,71 +61,6 @@
 	<Ingest.reportString>TargetA 섭취 중.</Ingest.reportString>
 	
 	<LayDown.reportString>내려놓는 중.</LayDown.reportString>
-	
-    <!--============= Item hauling ===============-->
-	
-	<HaulToCell.reportString>TargetA 운반 중,</HaulToCell.reportString>
-	
-	<HaulToContainer.reportString>TargetA 운반 중,</HaulToContainer.reportString>
-	
-    <!--============= Pawn hauling ===============-->
-	
-	<Rescue.reportString>TargetA 구조 중.</Rescue.reportString>
-
-	<CarryToCryptosleepCasket.reportString>TargetA 동면장치로 이송 중.</CarryToCryptosleepCasket.reportString>
-	
-	<Capture.reportString>TargetA 포획 중.</Capture.reportString>
-	
-	<Arrest.reportString>TargetA 체포 중.</Arrest.reportString>
-
-	<ReleasePrisoner.reportString>TargetA 석방 중.</ReleasePrisoner.reportString>
-	
-	<EscortPrisonerToBed.reportString>TargetA 이송 중.</EscortPrisonerToBed.reportString>
-	
-	<TakeWoundedPrisonerToBed.reportString>부상당한 TargetA 이송 중.</TakeWoundedPrisonerToBed.reportString>
-	
-	<TakeToBedToOperate.reportString>침대로 TargetA 이송 중.</TakeToBedToOperate.reportString>
-	
-	<Kidnap.reportString>TargetA 납치 중.</Kidnap.reportString>
-	
-	
-	
-	
-	<DeliverFood.reportString>TargetB에게 TargetA 전달 중.</DeliverFood.reportString>
-	
-	<FeedPatient.reportString>TargetB에게 TargetA 먹여주는 중.</FeedPatient.reportString>
-	
-	<TreatPatient.reportString>TargetA 치료 중.</TreatPatient.reportString>
-	
-	<PlaceNoCostFrame.reportString>TargetA 건설 중.</PlaceNoCostFrame.reportString>
-	
-	<DoBill.reportString>TargetA 작업 중.</DoBill.reportString>
-	
-	<Clean.reportString>TargetA 청소 중.</Clean.reportString>
-	
-	<Research.reportString>연구 중.</Research.reportString>
-	
-	<UseCommsConsole.reportString>통신 콘솔 사용 중.</UseCommsConsole.reportString>
-	
-	<Mine.reportString>TargetA 채광 중.</Mine.reportString>
-
-	<SmoothFloor.reportString>바닥을 부드럽게 하는 중.</SmoothFloor.reportString>
-	
-	<Repair.reportString>TargetA 수리 중.</Repair.reportString>
-	
-	<FinishFrame.reportString>TargetA 건설 중.</FinishFrame.reportString>
-	
-	<Sow.reportString>TargetA 재배 중.</Sow.reportString>
-	
-	<Harvest.reportString>TargetA 수확 중.</Harvest.reportString>
-	
-	<CutPlant.reportString>TargetA 제초 중.</CutPlant.reportString>
-	
-	<Deconstruct.reportString>TargetA 해체 중.</Deconstruct.reportString>
-	
-	<PrisonerFriendlyChat.reportString>수감자 TargetA와(과) 대화 중.</PrisonerFriendlyChat.reportString>
-	
-	<PrisonerExecution.reportString>TargetA 처형 준비 중.</PrisonerExecution.reportString>
 	
 	
 </LanguageData>
