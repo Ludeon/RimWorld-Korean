@@ -12,13 +12,13 @@
 
 	<!-- Minor breaks-->
 
-	<DazedWander.label>멍하게 방황 중</DazedWander.label>
+	<DazedWander.label>방황</DazedWander.label>
 	<DazedWander.beginLetterLabel>방황</DazedWander.beginLetterLabel>
 	<DazedWander.beginLetter>{0}의 마음이 무너져 내려서 멍하니 주위를 떠돌고 있습니다.</DazedWander.beginLetter>
 	<DazedWander.recoveryMessage>{0}(이)가 정신을 차려서 더는 방황하지 않습니다.</DazedWander.recoveryMessage>
 	<DazedWander.inspectLine>무너짐: 멍하게 방황 중</DazedWander.inspectLine>
 
-	<BingingAlcohol.label>폭음 중</BingingAlcohol.label>
+	<BingingAlcohol.label>폭음</BingingAlcohol.label>
 	<BingingAlcohol.beginLetterLabel>폭음</BingingAlcohol.beginLetterLabel>
 	<BingingAlcohol.beginLetter>{0}(이)가 술을 탐식하고 있습니다.</BingingAlcohol.beginLetter>
 	<BingingAlcohol.recoveryMessage>{0}(이)가 더는 술을 탐식하지 않습니다.</BingingAlcohol.recoveryMessage>
@@ -26,13 +26,19 @@
 
 	<!-- Special breaks-->
 
-	<PanicFlee.label>겁에 질려 달아나는 중</PanicFlee.label>
+	<PanicFlee.label>도망</PanicFlee.label>
 	<PanicFlee.beginLetterLabel>도망</PanicFlee.beginLetterLabel>
 	<PanicFlee.beginLetter>{0}(이)가 겁에 질려 달아나고 있습니다.</PanicFlee.beginLetter>
 	<PanicFlee.recoveryMessage>{0}(이)가 더는 달아나지 않습니다.</PanicFlee.recoveryMessage>
 	<PanicFlee.inspectLine>무너짐: 겁에 질려 달아나는 중</PanicFlee.inspectLine>
 
-	<GiveUpExit.label>포기하고 떠나는 중</GiveUpExit.label>
+	<Manhunter.label>인간 사냥</Manhunter.label>
+	<Manhunter.beginLetterLabel>인간 사냥</Manhunter.beginLetterLabel>
+	<Manhunter.beginLetter>{0}(이)가 보이는 모든 인간을 사냥하기 시작합니다!</Manhunter.beginLetter>
+	<Manhunter.recoveryMessage>{0}의 광란이 끝을 고했습니다.</Manhunter.recoveryMessage>
+	<Manhunter.inspectLine>무너짐: 인간 사냥</Manhunter.inspectLine>
+
+	<GiveUpExit.label>포기</GiveUpExit.label>
 	<GiveUpExit.beginLetterLabel>포기</GiveUpExit.beginLetterLabel>
 	<GiveUpExit.beginLetter>{0}(이)가 모든 걸 포기하고 정착지를 떠나고 있습니다.</GiveUpExit.beginLetter>
 	<GiveUpExit.recoveryMessage>{0}의 마음이 바뀌어 정착지로 돌아오고 있습니다.</GiveUpExit.recoveryMessage>

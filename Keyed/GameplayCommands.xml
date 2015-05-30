@@ -52,18 +52,27 @@
 	</TurningOffPrisonerBedWarning>
 	<AreYouSure>정말 실행하시겠습니까?</AreYouSure>
 
-	<CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
 	<CommandDetonateLabel>폭파</CommandDetonateLabel>
+	<CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
 
-	<CommandRenameZoneDesc>구역의 이름을 변경합니다.</CommandRenameZoneDesc>
 	<CommandRenameZoneLabel>이름 변경</CommandRenameZoneLabel>
+	<CommandRenameZoneDesc>이 구역의 이름을 변경합니다.</CommandRenameZoneDesc>
 
-	<CommandHideZoneDesc>구역을 맵에서 숨기거나 표시합니다.</CommandHideZoneDesc>
 	<CommandHideZoneLabel>숨기기</CommandHideZoneLabel>
-		<CommandUnhideZoneLabel>보이기</CommandUnhideZoneLabel>
+	<CommandUnhideZoneLabel>보이기</CommandUnhideZoneLabel>
+	<CommandHideZoneDesc>이 구역을 지도에서 숨기거나 표시합니다.</CommandHideZoneDesc>
 
-	<CommandDeleteZoneDesc>해당 구역을 제거합니다.</CommandDeleteZoneDesc>
 	<CommandDeleteZoneLabel>제거</CommandDeleteZoneLabel>
+	<CommandDeleteZoneDesc>이 구역을 제거합니다.</CommandDeleteZoneDesc>
+
+	<CommandCopyZoneSettingsLabel>설정 복사</CommandCopyZoneSettingsLabel>
+	<CommandCopyZoneSettingsDesc>다른 구역에 적용할 수 있도록 이 구역의 설정을 복사합니다.</CommandCopyZoneSettingsDesc>
+
+	<CommandPasteZoneSettingsLabel>설정 붙여넣기</CommandPasteZoneSettingsLabel>
+	<CommandPasteZoneSettingsDesc>이 구역의 설정을 복사한 설정으로 덮어씁니다.</CommandPasteZoneSettingsDesc>
+
+	<CommandAllowSow>재배 허용</CommandAllowSow>
+	<CommandAllowSowDesc>비활성화된 경우 거주민들은 이 구역에 식물을 심지 않습니다. 수확은 가능합니다.</CommandAllowSowDesc>
 
 	<!-- Artillery -->
 	<CommandSetForceAttackTarget>강제 사격 지점 설정</CommandSetForceAttackTarget>
@@ -86,13 +95,14 @@
 	<CommandPodEjectFailEmpty>아무도 탑승하지 않았습니다.</CommandPodEjectFailEmpty>
 
 	<!-- Door -->
-	<CommandToggleDoorLock>잠금 설정</CommandToggleDoorLock>
-	<CommandToggleDoorLockDesc>문을 잠그거나 잠금을 해제합니다. 잠긴 문은 누구에게도 열리지 않습니다.</CommandToggleDoorLockDesc>
+	<CommandToggleDoorForbid>상호작용 설정</CommandToggleDoorForbid>
+	<CommandToggleDoorForbidDesc>문의 상호작용이 금지된 경우 거주민들은 이 문을 통해 이동하지 않습니다. 외부 세력은 영향을 받지 않습니다.</CommandToggleDoorForbidDesc>
+	<CommandToggleDoorHoldOpen>열어두기</CommandToggleDoorHoldOpen>
+	<CommandToggleDoorHoldOpenDesc>활성화된 경우 거주민들은 이 문을 닫지 않습니다. 전원이 켜진 자동문일 경우 바로 열립니다.</CommandToggleDoorHoldOpenDesc>
 
 	<!-- Art -->
 	<CommandInstall>설치</CommandInstall>
-	<CommandInstallDesc>이 아이템은 현재 포장되어 운반되거나 보관할 수 있습니다. 이 명령으로 특정 위치에 설치하여 주민들이 사용하거나 관람할 수 있도록 합니다.
-	</CommandInstallDesc>
+	<CommandInstallDesc>이 물건은 현재 포장되어 운반되거나 보관할 수 있습니다. 이 명령으로 물건을 특정 위치에 설치할 수 있습니다.</CommandInstallDesc>
 
 	<!-- Temperature control -->
 	<CommandResetTemp>초기화</CommandResetTemp>
