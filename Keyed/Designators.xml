@@ -77,6 +77,12 @@
 	<DesignatorRearmTrap>함정 재장전</DesignatorRearmTrap>
 	<DesignatorRearmTrapDesc>작동했던 함정을 재장전해 다시 사용할 수 있도록 합니다.</DesignatorRearmTrapDesc>
 
+	<DesignatorExpandAreaAllowed>허가구역 확장</DesignatorExpandAreaAllowed>
+	<DesignatorExpandAreaAllowedDesc>허가구역을 확장합니다.\n\n허가구역은 각 거주민들을 등록할 수 있는 구역입니다. 등록된 거주민들은 해당 구역 밖에서 일을 하거나 욕구를 채우지 않습니다.</DesignatorExpandAreaAllowedDesc>
+	<DesignatorClearAreaAllowed>허가구역 취소</DesignatorClearAreaAllowed>
+	<DesignatorClearAreaAllowedDesc>선택된 칸을 허가구역에서 제거합니다.\n\n허가구역은 각 거주민들을 등록할 수 있는 구역입니다. 등록된 거주민들은 해당 구역 밖에서 일을 하거나 욕구를 채우지 않습니다.</DesignatorClearAreaAllowedDesc>
+	<ManageAreaAlloweds>허가구역 관리...</ManageAreaAlloweds>
+
 	<!-- Failure messages -->
 	<UnchosenStuff>선택되지 않은 재료</UnchosenStuff>
 	<TooCloseToMapEdge>맵의 가장자리와 너무 가깝습니다.</TooCloseToMapEdge>
@@ -90,15 +96,15 @@
 	<TerrainBeingSmoothed>이미 그 작업이 지정되었습니다.</TerrainBeingSmoothed>
 	<IdenticalThingExists>해당 위치에 이미 동일한 것이 존재합니다.</IdenticalThingExists>
 	<IdenticalBlueprintExists>해당 위치에 이미 동일한 청사진이 존재합니다.</IdenticalBlueprintExists>
-	<TerrainCannotSupport>지형이 받칠 수 없습니다.</TerrainCannotSupport>
+	<TerrainCannotSupport>지형이 해당 건물을 지지할 수 없습니다.</TerrainCannotSupport>
 	<SpaceAlreadyOccupied>해당 위치가 이미 사용 중입니다.</SpaceAlreadyOccupied>
 	<TerrainMustBeRemovable>제거 가능한 바닥을 선택해야 합니다.</TerrainMustBeRemovable>
 
-	<!-- placement of zones -->
+	<!-- Mouse attachments -->
 	<ExpandOrCreateZone>{0}의 구역을 확장\n또는 새로운 {1} 생성</ExpandOrCreateZone>
 	<CreateNewZone>새로운 {0} 생성</CreateNewZone>
 
-	<!-- desc helpers -->
+	<!-- Desc helpers -->
 	<TransmitsPower>송전 가능</TransmitsPower>
 
 </LanguageData>
