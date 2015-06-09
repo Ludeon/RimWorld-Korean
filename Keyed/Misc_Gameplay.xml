@@ -45,6 +45,7 @@
 	<AreaDefaultLabel>구역 {0}</AreaDefaultLabel>
 	<NoAreaAllowed>제한 없음</NoAreaAllowed>
 	<NewArea>새 구역</NewArea>
+	<InvertArea>구역 반전</InvertArea>
 
 	<!-- Control -->
 	<CannotOrderNonControlled>조종할 수 없는 대상에 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
@@ -206,10 +207,10 @@
 
 	<!-- Buttons -->
 	<ZoneVisibilityToggleButton>구역을 보이거나 숨깁니다.</ZoneVisibilityToggleButton>
-	<ShowBeautyToggleButton>아름다움 표시를 보이거나 숨깁니다.
-		\n\n마우스가 가리키는 지점에 서 있는 캐릭터가 주변이 얼마나 아름답다고 느낄 지 보여줍니다.
+	<ShowBeautyToggleButton>아름다움 수치를 보이거나 숨깁니다.
+		\n\n마우스 커서가 가리키는 지점의 아름다움 수치를 확인할 수 있습니다.
 	</ShowBeautyToggleButton>
-	<AutoHomeRegionToggleButton>새로 건설한 지역 주변을 자동으로 거주지역에 추가하합니다.</AutoHomeRegionToggleButton>
+	<AutoHomeAreaToggleButton>새로 건설한 건물 주변에 자동으로 주거구역을 확장합니다.</AutoHomeAreaToggleButton>
 	<CategorizedResourceReadoutToggleButton>자원 개요를 분류별로 묶어 보여줍니다.</CategorizedResourceReadoutToggleButton>
 
 	<!-- Fire -->
