@@ -59,15 +59,15 @@
 	<WandererJoin>정착지에 합류하는 사람이 있습니다. HIS 이름은 NAME이며 {0}, {1}입니다.</WandererJoin>
 
 	<LetterLabelManhunterPackArrived>인간 사냥꾼</LetterLabelManhunterPackArrived>
-	<ManhunterPackArrived>인간을 사냥하는 {0} 무리가 도착했습니다. 이 주위를 돌아다니면서 눈에 띄는 인간을 사냥할 것입니다.\n\n이들은 문을 통과할 수 없으므로 벽 뒤에 숨으면 안전합니다.
-	\n\n며칠칠지나면 이 지역을 떠날 것입니다.</ManhunterPackArrived>
+	<ManhunterPackArrived>인간을 사냥하는 {0} 무리가 도착했습니다. 이 주위를 돌아다니면서 눈에 띄는 인간을 사냥할 것입니다. 이들은 문을 통과할 수 없으므로 벽 뒤에 숨으면 안전합니다. 또한 비활성화 상태의 포탑은 공격하지 않으니 포탑을 아끼려면 지금 전원을 끄세요.
+		\n며칠이 지나면 이 지역을 떠날 것입니다.</ManhunterPackArrived>
 
 
 	<!-- Crashed ship part-->
 	<LetterLabelSpaceshipPartCrash>고대 우주선</LetterLabelSpaceshipPartCrash>
 	<SpaceshipPartCrash>주변에 고대 우주선의 커다란 잔해가 떨어졌습니다.
 		\n\n정착지 주민들은 그 잔해가 말할 수 없는 과격한 행동을 하도록 유도 하고 있는 것을 느낄 수 있습니다. 이건 우주선에 탑재된 AI의 정신 발산 능력이 분명하고, 이 인공지능은 우호적이지 않습니다.
-		\n\n최대한 빨리 파괴하십시오.
+		\n\n최대한 빨리 파괴하세요.
 	</SpaceshipPartCrash>
 	<MessageAnimalInsanityPulse>고대 우주선이 정신파동을 방출해 주변 동물들을 날뛰게 만들었습니다.</MessageAnimalInsanityPulse>
 	<LetterShipPartDroveColonistInsane>추락한 우주선의 잔해가 정신파동을 한 곳으로 집중적으로 방출해 그 곳에 있던 {0}의 정신에 문제가 생겼습니다.
@@ -100,11 +100,11 @@
 	<!-- Beavers -->
 	<LetterLabelBeaversArrived>비버 떼!</LetterLabelBeaversArrived>
 	<BeaversArrived>배고픈 알파비버 무리가 도착했습니다.
-		\n\n이 지역에 존재하는 마지막 나무까지 먹어 치우기전에 모든 알파비버를 사살하십시오.</BeaversArrived>
+		\n\n이 지역에 존재하는 마지막 나무까지 먹어 치우기전에 모든 알파비버를 사살하세요.</BeaversArrived>
 
 	<!-- Refugee chased -->
 	<RefugeeChasedInitial>{0}의 이름으로 알려진 {1}(이)가 근처에서 당신을 호출했습니다. HE {3}에서 온 {2}들에게 쫓기고 있습니다!
-		\n\nHE 보호를 간청하며 정착지에 합류할 의사를 밝혔습니다. 생물학적으로 그는 {4}살입니다.\n\n조심하십시오. 만약 이 자를 받아들일 경우 HIM 쫓던 {2}들과 싸워야 할 것입니다.</RefugeeChasedInitial>
+		\n\nHE 보호를 간청하며 정착지에 합류할 의사를 밝혔습니다. 생물학적으로 그는 {4}살입니다.\n\n조심하세요. 만약 이 자를 받아들일 경우 HIM 쫓던 {2}들과 싸워야 할 것입니다.</RefugeeChasedInitial>
 	<RefugeeChasedInitial_Accept>보호 제공</RefugeeChasedInitial_Accept>
 	<RefugeeChasedInitial_Reject>호출 무시</RefugeeChasedInitial_Reject>
 	<RefugeeChasedRejected>당신이 통신을 종료하기 전에, 겁에 질린 {0}의 비명소리가 스피커를 통해 들렸습니다.</RefugeeChasedRejected>

@@ -254,31 +254,31 @@
 
 
 	<rep>
-		<path>KnowPrisonerExecuted.stages[0].label</path>
-		<trans>수감자가 처형됨</trans>
+		<path>KnowGuestExecuted.stages[0].label</path>
+		<trans>누군가 처형됨</trans>
 	</rep>
 	<rep>
-		<path>KnowPrisonerExecuted.stages[0].description</path>
-		<trans>수감자가 냉혹하게 처형을 당했어. 이 정착지가 날이 갈수록 더 악해지는걸까.</trans>
-	</rep>
-
-
-	<rep>
-		<path>KnowPrisonerOrganHarvested.stages[0].label</path>
-		<trans>수감자의 장기가 적출됨</trans>
-	</rep>
-	<rep>
-		<path>KnowPrisonerOrganHarvested.stages[0].description</path>
-		<trans>정착지에서 수감자의 몸 일부를 적출했어. 선택지가 없는 누군가의 몸을 해체한다니 끔찍해.</trans>
+		<path>KnowGuestExecuted.stages[0].description</path>
+		<trans>누군가 냉혹하게 처형을 당했어. 이 정착지가 날이 갈수록 더 악해지는걸까.</trans>
 	</rep>
 
 
 	<rep>
-		<path>MePrisonerOrganHarvested.stages[0].label</path>
-		<trans>장기가 적출됨</trans>
+		<path>KnowGuestOrganHarvested.stages[0].label</path>
+		<trans>누군가의 장기가 적출됨</trans>
 	</rep>
 	<rep>
-		<path>MePrisonerOrganHarvested.stages[0].description</path>
+		<path>KnowGuestOrganHarvested.stages[0].description</path>
+		<trans>정착지에서 누군가의 몸 일부를 적출했어. 선택지가 없는 누군가의 몸을 해체한다니 끔찍해.</trans>
+	</rep>
+
+
+	<rep>
+		<path>MyOrganHarvested.stages[0].label</path>
+		<trans>내 장기가 적출됨</trans>
+	</rep>
+	<rep>
+		<path>MyOrganHarvested.stages[0].description</path>
 		<trans>내 장기를 떼 갔어! 내 몸을 무슨 오래된 기계처럼 해체하고 있단 말이야!</trans>
 	</rep>
 

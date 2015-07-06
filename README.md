@@ -16,6 +16,7 @@ Alpha 7 : 토끼티모(ToTee), DDCCDD<br>
 Alpha 8 : 인서대, Latta<br>
 Alpha 9 : Latta<br>
 Alpha 10: Latta<br>
+Alpha 11: Latta<br>
 
 
 RimWorld Korea community cafe : http://cafe.naver.com/indiss

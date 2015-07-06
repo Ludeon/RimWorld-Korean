@@ -15,7 +15,7 @@
 	<ColonistsNeedRescue>구조가 필요한 거주민들</ColonistsNeedRescue>
 	<ColonistsNeedRescueDesc>다음 거주민들이 행동 불능 상태가 되었습니다.
 		\n\n{0}
-		\n\n구조를 하기 위해선 다른 거주민을 선택하고 행동 불능 상태가 된 거주민을 우클릭하여 구조를 선택하십시오.
+		\n\n구조를 하기 위해선 다른 거주민을 선택하고 행동 불능 상태가 된 거주민을 우클릭하여 구조를 선택하세요.
 	</ColonistsNeedRescueDesc>
 
 	<BuildARoom>방 건설</BuildARoom>
@@ -30,21 +30,21 @@
 
 	<NeedDoctor>의사 필요</NeedDoctor>
 	<NeedDoctorDesc>다음 거주민들이 치료를 필요로 하지만 담당하는 사람이 없습니다.
-		\n\n{0}\n건강한 거주민에게 간호 업무를 맡기십시오. 계속 방치될 경우, 상처가 제대로 아물지 않고 영원히 남을 수 있습니다.
+		\n\n{0}\n건강한 거주민에게 간호 업무를 맡기세요. 계속 방치될 경우, 상처가 제대로 아물지 않고 영원히 남을 수 있습니다.
 	</NeedDoctorDesc>
 
 	<NeedMiner>광부 필요</NeedMiner>
-	<NeedMinerDesc>돌을 채광하도록 지시 했지만 주민 중에서 채광 역할을 맡은 사람이 없습니다.\n\n거주민을 채광 역할에 배치하십시오.</NeedMinerDesc>
+	<NeedMinerDesc>돌을 채광하도록 지시 했지만 주민 중에서 채광 역할을 맡은 사람이 없습니다.\n\n거주민을 채광 역할에 배치하세요.</NeedMinerDesc>
 
 	<NeedWarden>간수 필요</NeedWarden>
-	<NeedWardenDesc>수감자가 있으면 거주민 중 누군가는 간수 역할을 해야합니다.\n\n거주민을 간수 역할에 배치하십시오.</NeedWardenDesc>
+	<NeedWardenDesc>수감자가 있으면 거주민 중 누군가는 간수 역할을 해야합니다.\n\n거주민을 간수 역할에 배치하세요.</NeedWardenDesc>
 
 	<LowFood>식재료 부족</LowFood>
 	<LowFoodDesc>저장구역에 쌓아둔 식량이 {0}개밖에 남지 않았습니다.\n\n식량은 재배하거나, 구매하거나, 찾거나, 죽여서 얻을 수 있습니다.</LowFoodDesc>
 
 	<NeedColonistBeds>거주민 침대 필요</NeedColonistBeds>
 	<NeedColonistBedsDesc>지역에 배치된 거주민 전용 침대의 수보다 더 많은 인원의 주민들이 정착지에서 거주하고 있기 때문에 누군가는 잘 공간이 없습니다.
-		\n\n침대를 더 만들거나 수감자 전용 침대를 거주민 전용 침대로 전환하십시오.\n\n만약 침대를 만들 수 있는 재료가 없다면 수면구역을 만드십시오. 추가적인 비용이 들지 않으며 즉시 배치됩니다.
+		\n\n침대를 더 만들거나 수감자 전용 침대를 거주민 전용 침대로 전환하세요.\n\n만약 침대를 만들 수 있는 재료가 없다면 수면구역을 만드세요. 추가적인 비용이 들지 않으며 즉시 배치됩니다.
 	</NeedColonistBedsDesc>
 
 	<HunterLacksWeapon>사냥꾼 무기 없음</HunterLacksWeapon>
@@ -55,33 +55,33 @@
 	<Starvation>굶주림</Starvation>
 	<StarvationDesc>다음 거주민들이 굶주리고 있습니다.
 		\n\n{0}
-		\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 소집상태를 해제했는지 확인해주십시오.
+		\n영양반죽 배급기와 같은 조리기구와, 그에 사용할 식자재가 필요합니다. 또한, 소집상태를 해제했는지 확인해주세요.
 	</StarvationDesc>
 
 	<Exhaustion>탈진</Exhaustion>
 	<ExhaustionDesc>다음 거주민들이 탈진하여 휴식이 필요합니다.
 		\n\n{0}
-		\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 소집상태를 해제했는지 확인해주십시오.
+		\n휴식을 위해서 주민들이 사용할 수 있는 침대가 필요합니다. 또한, 소집상태를 해제했는지 확인해주세요.
 	</ExhaustionDesc>
 
 	<NeedFoodHopper>깔대기가 필요합니다.</NeedFoodHopper>
 	<NeedFoodHopperDesc>영양반죽 배급기 옆에 깔대기가 없습니다.
 		\n\n영양반죽 배급기는 깔대기에서 조리되지 않은 음식을 받아야 작동이 가능합니다.
-		\n\n깔대기를 배급기 옆에 건설하십시오.
+		\n\n깔대기를 배급기 옆에 건설하세요.
 	</NeedFoodHopperDesc>
 
 	<BuildingNeedsPower>건물에 전기 필요</BuildingNeedsPower>
 	<BuildingsNeedPower>건물에 전기 필요</BuildingsNeedPower>
 	<BuildingsNeedPowerDesc>다음 건물이나 장비에서 전기를 필요로 하고 있습니다.
 		\n\n{0}
-		\n발전기나 축전지에 연결하여 전기를 공급받을 수 있도록 해주십시오.
+		\n발전기나 축전지에 연결하여 전기를 공급받을 수 있도록 해주세요.
 	</BuildingsNeedPowerDesc>
 
 	<AndMore>,</AndMore>
 
 	<NeedMealSource>조리기구 필요</NeedMealSource>
 	<NeedMealSourceDesc>음식을 생산할 수 있는 방법이 없습니다.
-		\n\n영양반죽 배급기 또는 조리용 스토브를 건설하십시오.
+		\n\n영양반죽 배급기 또는 조리용 스토브를 건설하세요.
 		\n\n(감옥에 건설할 경우 거주민들이 사용할 수 없습니다.)
 	</NeedMealSourceDesc>
 
@@ -95,24 +95,24 @@
 	</NeedBatteriesDesc>
 
 	<NoTradingCapacity>무역능력 없음</NoTradingCapacity>
-	<NoTradingCapacityDesc>지나가는 선박들과 거래할 방법이 없습니다.\n\n통신 제어반을 건설하십시오.</NoTradingCapacityDesc>
+	<NoTradingCapacityDesc>지나가는 선박들과 거래할 방법이 없습니다.\n\n통신 제어반을 건설하세요.</NoTradingCapacityDesc>
 
 	<BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 장비</BrawlerHasRangedWeapon>
 	<BrawlerHasRangedWeaponDesc>거주민 중 한 명이 싸움꾼 특성을 가지고 있지만 원거리 무기를 장비하고 있습니다. 이는 싸움꾼을 매우 불행하게 만들 것입니다.
 	</BrawlerHasRangedWeaponDesc>
 
 	<ShieldUserHasRangedWeapon>보호막을 장착한 거주민이 원거리 무기 장비</ShieldUserHasRangedWeapon>
-	<ShieldUserHasRangedWeaponDesc>거주민 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 그 거주민은 근접거리 이내의 적을 제외한 대상에게 원거리 사격을 할 수 없을 것입니다.
+	<ShieldUserHasRangedWeaponDesc>거주민 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 보호막은 원거리 무기의 사용을 막습니다.\n\n그 거주민은 바로 옆에 근접한 적을 제외한 대상에게 사격을 할 수 없을 것입니다.
 	</ShieldUserHasRangedWeaponDesc>
 
 	<NeedResearchProject>연구 진행 가능</NeedResearchProject>
-	<NeedResearchProjectDesc>연구 메뉴에서 연구할 항목을 지정해 주십시오.</NeedResearchProjectDesc>
+	<NeedResearchProjectDesc>연구 메뉴에서 연구할 항목을 지정해 주세요.</NeedResearchProjectDesc>
 
 	<NeedDump>처리구역 필요</NeedDump>
-	<NeedDumpDesc>당신이 표시한 {0}의 처리를 맡을 공간이 없습니다.\n\n구역 설정에서 처리구역을 지정하십시오.</NeedDumpDesc>
+	<NeedDumpDesc>당신이 표시한 {0}의 처리를 맡을 공간이 없습니다.\n\n구역 설정에서 처리구역을 지정하세요.</NeedDumpDesc>
 
 	<NeedGrave>무덤 필요</NeedGrave>
-	<NeedGraveDesc>시체가 바닥에서 뒹굴고 있지만 거주민들이 옮길 곳이 없습니다. 무덤을 만들거나 처리구역에서 허용할 폐기물에 시체를 지정해주십시오.</NeedGraveDesc>
+	<NeedGraveDesc>시체가 바닥에서 뒹굴고 있지만 거주민들이 옮길 곳이 없습니다. 무덤을 만들거나 처리구역에서 허용할 폐기물에 시체를 지정해주세요.</NeedGraveDesc>
 
 	<ColonistsIdle>{0}명의 거주민이 대기중</ColonistsIdle>
 	<ColonistsIdleDesc>다음 거주민들이 할 일이 없어 주변을 방황하고 있습니다.\n\n{0}\n무언가 생산적인 일을 찾아주어야 할 것입니다.</ColonistsIdleDesc>
@@ -122,7 +122,7 @@
 !-->
 	<ColonistNeedsTreatment>치료가 필요한 거주민</ColonistNeedsTreatment>
 	<ColonistNeedsTreatmentDesc>다음 거주민들이 치료를 받아야 합니다. 그렇지 않으면 상처때문에 죽거나 영구적인 장애가 발생할 수 있습니다.
-		\n\n{0}\n의료용 침대로 이송하여 치료하십시오.
+		\n\n{0}\n의료용 침대로 이송하여 치료하세요.
 		\n\n(먼저 침대를 선택하여 의료용 침대로 전환하고, 상처입은 거주민을 선택한 다음, 의료 침대를 마우스 오른쪽 버튼으로 클릭합니다.)
 	</ColonistNeedsTreatmentDesc>
 
@@ -132,7 +132,7 @@
 
 	<ColonistsAwaitingMedicalOperation>{0}명 수술 대기중</ColonistsAwaitingMedicalOperation>
 	<ColonistsAwaitingMedicalOperationDesc>다음 거주민들은 수술을 기다리고 있습니다.
-		\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 활동하는 의사가 있도록 하십시오.
+		\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 활동하는 의사가 있도록 하세요.
 	</ColonistsAwaitingMedicalOperationDesc>
 
 	<FireInHomeArea>화재!</FireInHomeArea>
@@ -140,7 +140,7 @@
 
 	<PawnsWithLifeThreateningDisease>심각한 질병</PawnsWithLifeThreateningDisease>
 	<PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.
-		\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하십시오.
+		\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하세요.
 	</PawnsWithLifeThreateningDiseaseDesc>
 	<PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 인해 사망의 위험이 있습니다.
 		\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나 감염된 부위를 교체하는 것이 좋습니다.
@@ -149,4 +149,8 @@
 	<BilliardsNeedsSpace>당구대 공간 필요</BilliardsNeedsSpace>
 	<BilliardsNeedsSpaceDesc>당구대 중 하나가 장애물 바로 옆에 놓여있어 거주민들이 사용할 수 없습니다.
 		\n\n당구대는 주변 모든 방향으로 열린 공간이 필요합니다.</BilliardsNeedsSpaceDesc>
+
+	<HunterHasShieldAndRangedWeapon>보호막을 장착한 사냥꾼이 원거리 무기 장비</HunterHasShieldAndRangedWeapon>
+	<HunterHasShieldAndRangedWeaponDesc>사냥꾼 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 보호막은 원거리 무기의 사용을 막습니다.\n\n해당 사냥꾼은 보호막을 벗기 전까지 사냥하지 못할 것입니다.</HunterHasShieldAndRangedWeaponDesc>
+
 </LanguageData>

@@ -19,7 +19,6 @@
 	<NotEnoughStoredLower>재고가 충분치 않음</NotEnoughStoredLower>
 	<NothingLower>아무것도</NothingLower>
 	<Adapted>적응함</Adapted>
-	<Headshot>머리 명중!</Headshot>
 	<FreshMissingBodyPart>방금</FreshMissingBodyPart>
 	<UntreatedLower>치료받지 않음</UntreatedLower>
 	<DevelopedImmunityLower>항체 생성됨</DevelopedImmunityLower>
@@ -42,6 +41,14 @@
 	<PowerSwitch_Power>전원</PowerSwitch_Power>
 	<JoyTolerances>재미 내성</JoyTolerances>
 	<BrokenLetterLabel>무너짐</BrokenLetterLabel>
+
+	<!--TextMotes-->
+	<Headshot>헤드샷</Headshot>
+	<TextMoteTreatedPoorly>어설픈 치료\n확률 {0}</TextMoteTreatedPoorly>
+	<TextMoteTreatedWell>훌륭한 치료\n확률 {0}</TextMoteTreatedWell>
+
+
+	<!-- Areas -->
 	<AreaDefaultLabel>구역 {0}</AreaDefaultLabel>
 	<NoAreaAllowed>제한 없음</NoAreaAllowed>
 	<NewArea>새 구역</NewArea>
