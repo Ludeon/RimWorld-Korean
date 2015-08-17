@@ -14,9 +14,7 @@ Alpha 5 : 듀플러, GLONAX<br>
 Alpha 6 : DDCCDD, 토끼티모(ToTee), 인서대, 쿨쿨냠냠<br>
 Alpha 7 : 토끼티모(ToTee), DDCCDD<br>
 Alpha 8 : 인서대, Latta<br>
-Alpha 9 : Latta<br>
-Alpha 10: Latta<br>
-Alpha 11: Latta<br>
+Alpha 9 - 12 : Latta<br>
 
 
 RimWorld Korea community cafe : http://cafe.naver.com/indiss

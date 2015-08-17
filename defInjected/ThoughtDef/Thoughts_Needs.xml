@@ -8,7 +8,7 @@
 	</rep>
 	<rep>
 		<path>Hungry.stages[0].description</path>
-		<trans>몇 시간동안 아무것도 먹지 못했어.</trans>
+		<trans>몇 시간동안 아무것도 못 먹었어.</trans>
 	</rep>
 	<rep>
 		<path>Hungry.stages[1].label</path>
@@ -16,7 +16,7 @@
 	</rep>
 	<rep>
 		<path>Hungry.stages[1].description</path>
-		<trans>배고픔이 고통이 되어가고 있어. 음식이 필요해. 아니면 금방 굶어 죽을거야.</trans>
+		<trans>배고프다 못해 이제 아파. 먹을게 필요해. 아니면 이제 굶어 죽을거야.</trans>
 	</rep>
 	<rep>
 		<path>Hungry.stages[2].label</path>
@@ -24,7 +24,7 @@
 	</rep>
 	<rep>
 		<path>Hungry.stages[2].description</path>
-		<trans>그냥 아무거나, 먹을 수 있는 거라면 아무거나 좋아. 내 몸이 죽어가는 걸 느낄 수 있어. 아파...</trans>
+		<trans>그냥 아무거나, 먹을 수 있는 거면 아무거나 좋아. 내가 죽어가는 걸 느낄 수 있어. 아파...</trans>
 	</rep>
 
 
@@ -34,7 +34,7 @@
 	</rep>
 	<rep>
 		<path>Tired.stages[0].description</path>
-		<trans>한 동안 잠을 못 잤어.</trans>
+		<trans>잠을 꽤 못 잤어.</trans>
 	</rep>
 	<rep>
 		<path>Tired.stages[1].label</path>
@@ -42,7 +42,7 @@
 	</rep>
 	<rep>
 		<path>Tired.stages[1].description</path>
-		<trans>너무 피곤해. 그냥 누워서 몇 분 동안만이라도 쉬고 싶어.</trans>
+		<trans>너무 피곤해. 그냥 누워서 몇 분만 쉬고 싶어.</trans>
 	</rep>
 	<rep>
 		<path>Tired.stages[2].label</path>
@@ -53,14 +53,13 @@
 		<trans>너무 지쳐서 서 있기도 힘들어. 눈꺼풀이 너무 무거워. 나좀 자게 해줘...</trans>
 	</rep>
 
-
 	<rep>
 		<path>JoyLevel.stages[0].label</path>
 		<trans>심각한 재미 결핍</trans>
 	</rep>
 	<rep>
 		<path>JoyLevel.stages[0].description</path>
-		<trans>뭔가 진정 즐겁게 느낄만한 일을 한지 너무 오래됐어.</trans>
+		<trans>요즘 즐거운 일이 하나도 없었어.</trans>
 	</rep>
 	<rep>
 		<path>JoyLevel.stages[1].label</path>
@@ -68,7 +67,7 @@
 	</rep>
 	<rep>
 		<path>JoyLevel.stages[1].description</path>
-		<trans>쉬거나 놀지를 못했어.</trans>
+		<trans>쉬지도 놀지도 못했어.</trans>
 	</rep>
 	<rep>
 		<path>JoyLevel.stages[2].label</path>
@@ -98,39 +97,39 @@
 
 	<rep>
 		<path>ComfortLevel.stages[0].label</path>
-		<trans>불편</trans>
+		<trans>불편함</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[0].description</path>
-		<trans>최근에 불편했던 적이 있어. 빨리 뭔가 부드럽고 앉기 좋은 물건을 구해야 해.</trans>
+		<trans>되게 불편해. 부드럽고 앉기 좋은 물건을 구해야겠어.</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[1].label</path>
-		<trans>편안</trans>
+		<trans>편안함</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[1].description</path>
-		<trans>최근에 편안했던 적이 있어.</trans>
+		<trans>편하네.</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[2].label</path>
-		<trans>매우 편안</trans>
+		<trans>매우 편안함</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[2].description</path>
-		<trans>최근에 매우 편안했던 적이 있어.</trans>
+		<trans>많이 편하네.</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[3].label</path>
-		<trans>극도의 편안</trans>
+		<trans>최고로 편안함</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[3].description</path>
-		<trans>최근에 엄청나게 편안했던 적이 있어. 여긴 정말 푹신한걸!</trans>
+		<trans>정말 푹신푹신 하다니까!</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[4].label</path>
-		<trans>사치스러울 정도의 편안</trans>
+		<trans>사치스러울 정도로 편안함</trans>
 	</rep>
 	<rep>
 		<path>ComfortLevel.stages[4].description</path>
@@ -144,7 +143,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentUgly.stages[0].description</path>
-		<trans>여긴 있기 좋은 곳이 아니야.</trans>
+		<trans>있기 좋은 곳이 아니야.</trans>
 	</rep>
 	<rep>
 		<path>EnvironmentUgly.stages[1].label</path>
@@ -152,7 +151,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentUgly.stages[1].description</path>
-		<trans>여긴 정말 불쾌해. 있고 싶지 않아.</trans>
+		<trans>정말 불쾌한 곳이야. 나가고 싶어.</trans>
 	</rep>
 	<rep>
 		<path>EnvironmentUgly.stages[2].label</path>
@@ -160,7 +159,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentUgly.stages[2].description</path>
-		<trans>여기선 도저희 버틸 수가 없어. 날 내보내 줘...</trans>
+		<trans>참을 수가 없어. 날 내보내 줘!</trans>
 	</rep>
 
 
@@ -170,7 +169,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentPretty.stages[0].description</path>
-		<trans>여기 괜찮은데.</trans>
+		<trans>괜찮은데.</trans>
 	</rep>
 	<rep>
 		<path>EnvironmentPretty.stages[1].label</path>
@@ -178,7 +177,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentPretty.stages[1].description</path>
-		<trans>여기 정말 좋아. 아름다워.</trans>
+		<trans>끝내주는 곳이야. 아름다울 지경인데.</trans>
 	</rep>
 	<rep>
 		<path>EnvironmentPretty.stages[2].label</path>
@@ -186,7 +185,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentPretty.stages[2].description</path>
-		<trans>여긴 정말 아름다워. 내 기분을 좋게 만들고 삶을 사랑하게 해.</trans>
+		<trans>정말 아름다워. 내 삶을 사랑해도 되겠어.</trans>
 	</rep>
 
 
@@ -196,7 +195,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentCramped.stages[0].description</path>
-		<trans>여긴 정말 좁아. 숨 쉴 공간도 없는 것 같다고.</trans>
+		<trans>정말 좁은 곳이야. 숨 쉴 공간도 없어.</trans>
 	</rep>
 	<rep>
 		<path>EnvironmentCramped.stages[1].label</path>
@@ -204,7 +203,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentCramped.stages[1].description</path>
-		<trans>폐소공포증을 느낄 지경이야. 작은 우리에 갇힌 쥐처럼 움직일 공간조차 없어.</trans>
+		<trans>두려움을 느낄 지경이야. 움직일 수도 없어. 우리에 갇힌 동물같아.</trans>
 	</rep>
 
 
@@ -214,7 +213,7 @@
 	</rep>
 	<rep>
 		<path>EnvironmentSpaciousInterior.stages[0].description</path>
-		<trans>여기 방은 정말 넓은데?</trans>
+		<trans>실내가 엄청 넓네!</trans>
 	</rep>
 
 </LanguageData>

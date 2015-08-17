@@ -1,23 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--suppress ALL -->
 <LanguageData>
-  
+
 	<SunLamp.label>태양등</SunLamp.label>
 	<SunLamp.description>작물이 충분히 자랄 수 있도록 주변을 밝게 비춰줍니다.</SunLamp.description>
-	
+
 	<OrbitalTradeBeacon.label>무역 송신기</OrbitalTradeBeacon.label>
 	<OrbitalTradeBeacon.description>궤도의 상인과 거래를 할 때 사용됩니다. 해당 범위 안에 물건이 존재할 때 판매 가능하며, 상인이 물건을 보낼 때도 이 송신기 주위로 보냅니다.</OrbitalTradeBeacon.description>
-	
+
 	<CommsConsole.label>통신 제어반</CommsConsole.label>
 	<CommsConsole.description>다른 진영과의 협상 및 상인과의 무역을 위해 필요한 시설입니다.</CommsConsole.description>
-	
+
+<!-- Facilities -->
+
+    <MultiAnalyzer.label>복합 분석기</MultiAnalyzer.label>
+    <MultiAnalyzer.description>연구 속도에 도움을 줍니다. 연구대 근처에 배치되어야 합니다. 하나의 작업대에 하나의 분석기만 연결될 수 있습니다.</MultiAnalyzer.description>
+
+    <VitalsMonitor.label>환자 모니터</VitalsMonitor.label>
+    <VitalsMonitor.description>치료의 품질이 올라갑니다. 병원 침대 근처에 배치되어야 합니다. 하나의 침대에 하나의 모니터만 연결될 수 있습니다.</VitalsMonitor.description>
+
+    <ToolCabinet.label>도구 수납장</ToolCabinet.label>
+    <ToolCabinet.description>작업 속도에 도움을 줍니다. 작업대 근처에 배치되어야 합니다. 하나의 작업대에 두 개의 수납장만 연결될 수 있습니다.</ToolCabinet.description>
+
 	<Grave.label>무덤</Grave.label>
-	<Grave.description>죽은 자들을 무덤 속에 넣어 최후의 안식처를 선사하세요.</Grave.description>
+	<Grave.description>죽은 사람을 무덤 속에 넣어 최후의 안식처를 선사하세요.</Grave.description>
+
+	<Sarcophagus.label>석관</Sarcophagus.label>
+	<Sarcophagus.description>명예로운 죽음을 맞이한 사람을 위해 만들어진, 장식된 관입니다.</Sarcophagus.description>
 
 	<CryptosleepCasket.label>동면장치</CryptosleepCasket.label>
 	<CryptosleepCasket.description>수 년간 내부의 사람을 그대로 보존하기 위한 자가발전형 동면장치입니다.</CryptosleepCasket.description>
 
 	<AncientCryptosleepCasket.label>고대 동면장치</AncientCryptosleepCasket.label>
-	<AncientCryptosleepCasket.description>이 동면장치는 오랜 시간동안 이 곳에 있던 것 같습니다. 여기에 뭐가 들어 있을까요?</AncientCryptosleepCasket.description>
-	
+	<AncientCryptosleepCasket.description>이 동면장치는 오랜 시간 이곳에 있던 것 같습니다. 여기에 뭐가 들어 있을까요?</AncientCryptosleepCasket.description>
+
 </LanguageData>

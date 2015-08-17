@@ -9,7 +9,7 @@
 	</rep>
 	<rep>
 		<path>SpeedOffset.degreeDatas[0].description</path>
-		<trans>NAME(은)는 어디를 가든 항상 그룹에서 뒤떨어집니다.</trans>
+		<trans>NAME(은)는 어디를 가든 항상 무리에서 뒤쳐집니다.</trans>
 	</rep>
 	<rep>
 		<path>SpeedOffset.degreeDatas[1].label</path>
@@ -17,11 +17,11 @@
 	</rep>
 	<rep>
 		<path>SpeedOffset.degreeDatas[1].description</path>
-		<trans>NAME(은)는 어디던지 가는 것을 좋아하며, 대부분의 사람들보다 빠르게 앞장섭니다.</trans>
+		<trans>NAME(은)는 어디던 이동하는 걸 좋아하며, 대부분의 사람들보다 빠르게 앞장섭니다.</trans>
 	</rep>
 	<rep>
 		<path>SpeedOffset.degreeDatas[2].label</path>
-		<trans>조깅</trans>
+		<trans>달리기</trans>
 	</rep>
 	<rep>
 		<path>SpeedOffset.degreeDatas[2].description</path>
@@ -35,7 +35,7 @@
 	</rep>
 	<rep>
 		<path>DrugDesire.degreeDatas[0].description</path>
-		<trans>NAME(은)는 화학적인 즐거움에 강하게 매료되었습니다. HE 훨씬 더 많은 양의 약물을 섭취하며 자주 폭음하곤 합니다.</trans>
+		<trans>NAME(은)는 혼합물이 제공하는 즐거움에 강하게 매료되었습니다. 술과 같은 약물을 훨씬 자주 소비하며 폭음하기 쉽습니다.</trans>
 	</rep>
 	<rep>
 		<path>DrugDesire.degreeDatas[1].label</path>
@@ -43,7 +43,7 @@
 	</rep>
 	<rep>
 		<path>DrugDesire.degreeDatas[1].description</path>
-		<trans>NAME(은)는 화학적인 즐거움에 흥미를 가지고 있습니다. HE 더 많은 양의 약물을 섭취하며 자주 폭음하곤 합니다.</trans>
+		<trans>NAME(은)는 혼합물이 제공하는 즐거움에 흥미를 가지고 있습니다. 술과 같은 약물을 자주 소비하며 폭음하기 쉽습니다.</trans>
 	</rep>
 	<rep>
 		<path>DrugDesire.degreeDatas[2].label</path>
@@ -51,7 +51,7 @@
 	</rep>
 	<rep>
 		<path>DrugDesire.degreeDatas[2].description</path>
-		<trans>NAME(은)는 화학물질을 이용해 즐거움을 얻는 행위를 혐오하며 술과 마약을 피합니다.</trans>
+		<trans>NAME(은)는 혼합물에서 즐거움을 얻는다는 생각 자체를 혐오합니다. 술이나 약물을 피합니다.</trans>
 	</rep>
 
 
@@ -87,15 +87,15 @@
 		<path>NaturalMood.degreeDatas[3].description</path>
 		<trans>NAME(은)는 언제나 불행합니다. HE 모든 것이 잘 돌아가도 기분이 좋지 않습니다.</trans>
 	</rep>
-	
-	
+
+
 	<rep>
 		<path>Nerves.degreeDatas[0].label</path>
 		<trans>철의 의지</trans>
 	</rep>
 	<rep>
 		<path>Nerves.degreeDatas[0].description</path>
-		<trans>NAME의 의지는 마치 강철과 같습니다. 다른 사람들이 먼저 주저앉을 때, HE 모든 것을 이겨내고 나아갑니다.</trans>
+		<trans>NAME의 의지는 마치 강철과 같습니다. 다른 사람들이 먼저 주저앉을 때에도 HE 모든 것을 이겨내고 나아갑니다.</trans>
 	</rep>
 	<rep>
 		<path>Nerves.degreeDatas[1].label</path>
@@ -103,7 +103,7 @@
 	</rep>
 	<rep>
 		<path>Nerves.degreeDatas[1].description</path>
-		<trans>NAME(은)는 다른 사람들이 힘든 스트레스로 인해 무너지더라도 잘 버팁니다.</trans>
+		<trans>NAME(은)는 다른 사람들이 심각한 스트레스로 인해 무너지더라도 잘 버텨내곤 합니다.</trans>
 	</rep>
 	<rep>
 		<path>Nerves.degreeDatas[2].label</path>
@@ -111,15 +111,15 @@
 	</rep>
 	<rep>
 		<path>Nerves.degreeDatas[2].description</path>
-		<trans>NAME(은)는 압박을 받았을 때 다른 사람들보다 빠르게 정신에 금이 가는 경향이 있습니다.</trans>
+		<trans>NAME(은)는 압박을 받았을 때 다른 사람들보다 빠르게 무너지는 경향이 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Nerves.degreeDatas[3].label</path>
-		<trans>변덕스러움</trans>
+		<trans>불안정</trans>
 	</rep>
 	<rep>
 		<path>Nerves.degreeDatas[3].description</path>
-		<trans>NAME의 변덕스러움은 힘든 상황에서 HECAP가 제일 먼저 무너지게 만듭니다.</trans>
+		<trans>NAME의 신경은 언제나 곤두서있습니다. HE 힘든 상황에서 제일 먼저 무너지는 사람 중 한 명입니다.</trans>
 	</rep>
 
 
@@ -129,7 +129,7 @@
 	</rep>
 	<rep>
 		<path>Neurotic.degreeDatas[0].description</path>
-		<trans>NAME(은)는 정돈된 것들을 좋아합니다. HE 일을 마치기 위해 더 열심히 일하겠지만, 불안감은 HIM 앞설 것입니다.</trans>
+		<trans>NAME(은)는 모든 일을 완료해야 마음이 편해집니다. 따라서 더 열심히 일하겠지만, 불안감은 HIM 앞설 것입니다.</trans>
 	</rep>
 	<rep>
 		<path>Neurotic.degreeDatas[1].label</path>
@@ -137,7 +137,7 @@
 	</rep>
 	<rep>
 		<path>Neurotic.degreeDatas[1].description</path>
-		<trans>NAME(은)는 끝내야 하는 모든 것에 불안해 합니다. HE 업무를 달성하기 위해 온 힘을 쏟아 일하겠지만, 불안감은 쉽게 HIM 앞지를 것입니다.</trans>
+		<trans>NAME(은)는 HECAP가 끝내지 못한 모든 일들을 생각하면서 불안하다고 느낍니다. 따라서 모두 완료하기 위해 엄청나게 열심히 일하겠지만, 불안감은 HIM 앞설 것입니다.</trans>
 	</rep>
 
 
@@ -147,7 +147,7 @@
 	</rep>
 	<rep>
 		<path>Industriousness.degreeDatas[0].description</path>
-		<trans>NAME(은)는 일에 잘 집중하고, 보통 사람보다 훨씬 더 빠르게 작업을 끝마칩니다.</trans>
+		<trans>NAME(은)는 다른 사람들보다 일에 잘 집중하고, 훨씬 더 빠르게 작업을 끝마칩니다.</trans>
 	</rep>
 	<rep>
 		<path>Industriousness.degreeDatas[1].label</path>
@@ -163,7 +163,7 @@
 	</rep>
 	<rep>
 		<path>Industriousness.degreeDatas[2].description</path>
-		<trans>NAME(은)는 조금 게으릅니다.</trans>
+		<trans>NAME(은)는 좀 게으릅니다.</trans>
 	</rep>
 	<rep>
 		<path>Industriousness.degreeDatas[3].label</path>
@@ -171,7 +171,7 @@
 	</rep>
 	<rep>
 		<path>Industriousness.degreeDatas[3].description</path>
-		<trans>NAME(은)는 가만히 있는 것을 사랑하며 생산적인 일을 싫어합니다. HE 모든 작업을 천천히 하고 느리게 움직입니다.</trans>
+		<trans>NAME(은)는 가만히 있는 것을 사랑하며 생산적인 일을 싫어합니다. HE 모든 작업을 천천히 하고 움직임도 느립니다.</trans>
 	</rep>
 
 
@@ -181,7 +181,7 @@
 	</rep>
 	<rep>
 		<path>PsychicSensitivity.degreeDatas[0].description</path>
-		<trans>NAME의 정신은 소리굽쇠와 같습니다. HE 정신현상에 매우 민감하게 반응합니다.</trans>
+		<trans>NAME의 정신을 비유하자면 소리굽쇠라고 할 수 있습니다. HE 정신현상에 매우 민감하게 공명합니다.</trans>
 	</rep>
 	<rep>
 		<path>PsychicSensitivity.degreeDatas[1].label</path>
@@ -205,9 +205,9 @@
 	</rep>
 	<rep>
 		<path>PsychicSensitivity.degreeDatas[3].description</path>
-		<trans>NAME의 마음은 모두와 다른 정신파에서 움직입니다. 따라서 정신현상에 영향을 받지 않습니다.</trans>
+		<trans>NAME의 마음은 평범한 사람들과 완전히 다른 정신파에서 움직입니다. 따라서 정신현상에 영향을 받지 않습니다.</trans>
 	</rep>
-	
+
 	<rep>
 		<path>TemperaturePreference.degreeDatas[0].label</path>
 		<trans>추위 사랑</trans>

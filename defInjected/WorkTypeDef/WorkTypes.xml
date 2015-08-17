@@ -3,10 +3,10 @@
 <LanguageData>
 
 	<Research.labelShort>연구</Research.labelShort>
-	<Research.pawnLabel>연구원</Research.pawnLabel>
+	<Research.pawnLabel>연구자</Research.pawnLabel>
 	<Research.gerundLabel>연구</Research.gerundLabel>
 	<Research.verb>연구</Research.verb>
-	<Research.description>연구원들은 연구 과제가 등록된 경우 연구를 실행합니다.</Research.description>
+	<Research.description>연구자들은 연구 과제가 등록된 경우 연구를 실행합니다.</Research.description>
 
 	<Cleaning.labelShort>청소</Cleaning.labelShort>
 	<Cleaning.pawnLabel>청소부</Cleaning.pawnLabel>
@@ -84,17 +84,23 @@
 	<Cooking.pawnLabel>요리사</Cooking.pawnLabel>
 	<Cooking.gerundLabel>조리</Cooking.gerundLabel>
 	<Cooking.verb>조리</Cooking.verb>
-	<Cooking.description>요리사들은 영양반죽 배급기를 채우고 식사를 준비합니다.</Cooking.description>
+	<Cooking.description>요리사들은 음식을 준비합니다.</Cooking.description>
+
+	<Handling.labelShort>조련</Handling.labelShort>
+	<Handling.pawnLabel>조련사</Handling.pawnLabel>
+	<Handling.gerundLabel>조련</Handling.gerundLabel>
+	<Handling.verb>조련</Handling.verb>
+	<Handling.description>조련사들은 동물을 길들이고, 돌보고, 동물성 자원을 채집하고, 도축합니다.</Handling.description>
 
 	<Warden.labelShort>간수</Warden.labelShort>
 	<Warden.pawnLabel>간수</Warden.pawnLabel>
-	<Warden.gerundLabel>죄수관리</Warden.gerundLabel>
+	<Warden.gerundLabel>관리</Warden.gerundLabel>
 	<Warden.verb>관리</Warden.verb>
-	<Warden.description>간수들은 수감자들에게 말을 건네고, 포섭을 시도하며 처형도 합니다. 필요한 경우 음식도 가져다 줍니다.</Warden.description>
+	<Warden.description>간수들은 수감자들을 관리하고 먹이며, 말을 걸고 포섭합니다.</Warden.description>
 
-	<Flicker.labelShort>조작</Flicker.labelShort>
+	<Flicker.labelShort>전원</Flicker.labelShort>
 	<Flicker.pawnLabel>관리자</Flicker.pawnLabel>
-	<Flicker.gerundLabel>조작</Flicker.gerundLabel>
+	<Flicker.gerundLabel>전원</Flicker.gerundLabel>
 	<Flicker.verb>조작</Flicker.verb>
 	<Flicker.description>관리자들은 스위치를 조작합니다. 예를 들어, 포탑의 전원을 꺼야 할 경우 관리자가 스위치를 조작해야 합니다.</Flicker.description>
 
@@ -117,4 +123,3 @@
 	<Firefighter.description>소방관들은 정착지 내에서 불을 끕니다.</Firefighter.description>
 
 </LanguageData>
-

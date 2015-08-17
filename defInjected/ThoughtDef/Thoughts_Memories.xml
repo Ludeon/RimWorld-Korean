@@ -8,7 +8,7 @@
 	</rep>
 	<rep>
 		<path>SleepDisturbed.stages[0].description</path>
-		<trans>내 방에서 움직이는 사람들 때문에 잠을 제대로 못 잤어.</trans>
+		<trans>주위에서 움직이는 사람들 때문에 잠을 제대로 못 잤어. 나만의 침실이 있으면 괜찮아지겠지?.</trans>
 	</rep>
 
 	<rep>
@@ -27,7 +27,7 @@
 	</rep>
 	<rep>
 		<path>AteNutrientPasteMeal.stages[0].description</path>
-		<trans>영양반죽을 먹어야 했어. 살기 위해서 먹어야 한다는 건 알아. 그치만 아무도 이 찐득찐득한걸 삼키고 싶진 않을꺼라고.</trans>
+		<trans>영양반죽을 먹어야 했어. 살기 위해선 먹어야 한다지만... 대체 누가 이런걸 먹고 싶어한담.</trans>
 	</rep>
 
 
@@ -37,7 +37,7 @@
 	</rep>
 	<rep>
 		<path>AteFineMeal.stages[0].description</path>
-		<trans>정말 맛있는 식사를 했어. 냠!</trans>
+		<trans>정말 맛있게 먹었어. 음!</trans>
 	</rep>
 
 
@@ -47,9 +47,9 @@
 	</rep>
 	<rep>
 		<path>AteLavishMeal.stages[0].description</path>
-		<trans>그 식사는 정말 엄청났어. 내 몸뿐만 아니라 영혼까지 배가 부른 느낌이야.</trans>
+		<trans>정말 엄청난 음식이었어. 몸뿐만 아니라 영혼까지 배가 부른 느낌이야.</trans>
 	</rep>
-	
+
   <!-- =========== Cannibalism ===============-->
 
 	<rep>
@@ -68,7 +68,7 @@
 	</rep>
 	<rep>
 		<path>AteHumanlikeMeatAsIngredient.stages[0].description</path>
-		<trans>음식을 먹었어. 재료는... 다른 사람. 정말 끔찍해.</trans>
+		<trans>음식을 먹었어. 재료는 다른... 사람. 정말 끔찍해.</trans>
 	</rep>
 
 
@@ -88,7 +88,7 @@
 	</rep>
 	<rep>
 		<path>AteHumanlikeMeatAsIngredientCannibal.stages[0].description</path>
-		<trans>다른 사람으로 만든 음식을 먹었어. 정말 즐거워. 약간의 삶은 콩과 좋은 와인만 있었다면...</trans>
+		<trans>다른 사람으로 만든 음식을 먹었어. 정말 즐거워. 약간의 사이드 메뉴와 좋은 와인만 있었다면...</trans>
 	</rep>
 
 
@@ -98,7 +98,7 @@
 	</rep>
 	<rep>
 		<path>ButcheredHumanlikeCorpse.stages[0].description</path>
-		<trans>짐승처럼 인간을 도축했어.</trans>
+		<trans>내가 같은 인간을 도축했다니.</trans>
 	</rep>
 
 
@@ -169,7 +169,7 @@
 	</rep>
 	<rep>
 		<path>KilledHumanlikeBloodlust.stages[0].description</path>
-		<trans>내 손으로 사람을 죽였어! 정말 짜릿한데!</trans>
+		<trans>내 손으로 사람을 죽였어! 끝내주는데!</trans>
 	</rep>
 
 
@@ -179,7 +179,7 @@
 	</rep>
 	<rep>
 		<path>BattleWounded.stages[0].description</path>
-		<trans>이건... 내 피잖아! 싸우다가 다쳤어!</trans>
+		<trans>이건... 내 피잖아... 싸우다가 다쳤어!</trans>
 	</rep>
 
 
@@ -199,7 +199,7 @@
 	</rep>
 	<rep>
 		<path>NewColonyHope.stages[0].description</path>
-		<trans>이제 좀 익숙해졌지만, 여전히 신나고 새로운 상황이야. 이대로만 지냈으면...</trans>
+		<trans>이제 좀 익숙해졌지만, 여전히 새롭고 신나. 이대로만 지냈으면...</trans>
 	</rep>
 
 
@@ -209,7 +209,7 @@
 	</rep>
 	<rep>
 		<path>SleptOutside.stages[0].description</path>
-		<trans>야외에서 아무런 보호도 없이 잠을 자야 했어.</trans>
+		<trans>야외에서 아무것도 없이 잠을 자야 했어.</trans>
 	</rep>
 
 
@@ -219,7 +219,7 @@
 	</rep>
 	<rep>
 		<path>SleptOnGround.stages[0].description</path>
-		<trans>짐승처럼 바닥에서 자야 했어.</trans>
+		<trans>바닥에서 자야 한다니, 내가 동물이야?</trans>
 	</rep>
 
 
@@ -229,7 +229,7 @@
 	</rep>
 	<rep>
 		<path>SleptInCold.stages[0].description</path>
-		<trans>추운 곳에서 자야 했어. 난로 좀 만들어줘.</trans>
+		<trans>자다가 추워서 고생했어. 난로가 필요해.</trans>
 	</rep>
 
 
@@ -239,7 +239,7 @@
 	</rep>
 	<rep>
 		<path>SleptInHeat.stages[0].description</path>
-		<trans>더운 곳에서 자야 했어. 에어컨 하나 놓으면 안 돼?</trans>
+		<trans>자다가 더워서 깼어. 에어컨 하나 놓으면 안되나?</trans>
 	</rep>
 
 
@@ -255,21 +255,73 @@
 
 	<rep>
 		<path>KnowGuestExecuted.stages[0].label</path>
-		<trans>누군가 처형됨</trans>
+		<trans>죄수나 손님이 처형됨</trans>
 	</rep>
 	<rep>
 		<path>KnowGuestExecuted.stages[0].description</path>
+		<trans>누군가 처형당했어.</trans>
+	</rep>
+	<rep>
+		<path>KnowGuestExecuted.stages[1].label</path>
+		<trans>죄수나 손님이 처형됨</trans>
+	</rep>
+	<rep>
+		<path>KnowGuestExecuted.stages[1].description</path>
 		<trans>누군가 냉혹하게 처형을 당했어. 이 정착지가 날이 갈수록 더 악해지는걸까.</trans>
+	</rep>
+	<rep>
+		<path>KnowGuestExecuted.stages[2].label</path>
+		<trans>죄수나 손님의 장기가 적출되어 사망함</trans>
+	</rep>
+	<rep>
+		<path>KnowGuestExecuted.stages[2].description</path>
+		<trans>정착지에서 누군가의 장기를 적출해버려서 그 사람이 죽었어. 이건 끔찍해.</trans>
+	</rep>
+
+
+	<rep>
+		<path>KnowColonistExecuted.stages[0].label</path>
+		<trans>거주민이 처형됨</trans>
+	</rep>
+	<rep>
+		<path>KnowColonistExecuted.stages[0].description</path>
+		<trans>동료가 처형당했어.</trans>
+	</rep>
+	<rep>
+		<path>KnowColonistExecuted.stages[1].label</path>
+		<trans>거주민이 처형됨</trans>
+	</rep>
+	<rep>
+		<path>KnowColonistExecuted.stages[1].description</path>
+		<trans>동료가 냉혹하게 처형을 당했어. 이 정착지가 날이 갈수록 더 악해지는걸까.</trans>
+	</rep>
+	<rep>
+		<path>KnowColonistExecuted.stages[2].label</path>
+		<trans>거주민의 장기가 적출되어 사망함</trans>
+	</rep>
+	<rep>
+		<path>KnowColonistExecuted.stages[2].description</path>
+		<trans>정착지에서 동료의 장기를 적출해버려서 그 사람이 죽었어. 이건 끔찍해.</trans>
 	</rep>
 
 
 	<rep>
 		<path>KnowGuestOrganHarvested.stages[0].label</path>
-		<trans>누군가의 장기가 적출됨</trans>
+		<trans>죄수나 손님의 장기가 적출됨</trans>
 	</rep>
 	<rep>
 		<path>KnowGuestOrganHarvested.stages[0].description</path>
-		<trans>정착지에서 누군가의 몸 일부를 적출했어. 선택지가 없는 누군가의 몸을 해체한다니 끔찍해.</trans>
+		<trans>정착지에서 누군가의 몸 일부를 적출했어. 선택지가 없는 사람의 몸을 해체한다니 끔찍해.</trans>
+	</rep>
+
+
+	<rep>
+		<path>KnowColonistOrganHarvested.stages[0].label</path>
+		<trans>거주민의 장기가 적출됨</trans>
+	</rep>
+	<rep>
+		<path>KnowColonistOrganHarvested.stages[0].description</path>
+		<trans>정착지에서 동료의 몸 일부를 적출했어. 선택지가 없는 사람의 몸을 해체한다니 끔찍해.</trans>
 	</rep>
 
 
@@ -279,7 +331,7 @@
 	</rep>
 	<rep>
 		<path>MyOrganHarvested.stages[0].description</path>
-		<trans>내 장기를 떼 갔어! 내 몸을 무슨 오래된 기계처럼 해체하고 있단 말이야!</trans>
+		<trans>내 장기를 떼어 갔어! 난 기계가 아니란 말이야!</trans>
 	</rep>
 
 
@@ -289,7 +341,7 @@
 	</rep>
 	<rep>
 		<path>WasImprisoned.stages[0].description</path>
-		<trans>정착지에서 날 우리에 갇힌 동물처럼 감옥에 가둔 적이 있어.</trans>
+		<trans>우리에 갇힌 동물처럼 감옥에 갇힌 적이 있어.</trans>
 	</rep>
 
 
@@ -299,7 +351,7 @@
 	</rep>
 	<rep>
 		<path>PrisonerFriendlyChat.stages[0].description</path>
-		<trans>간수와 난 이 정착지에 대해서 얘기를 나눴어. 괜찮은 곳처럼 들리기도 하고...</trans>
+		<trans>간수와 이 정착지에 대해서 얘기를 나눴어. 괜찮은 곳처럼 들리기도 하고...</trans>
 	</rep>
 
 
@@ -309,7 +361,7 @@
 	</rep>
 	<rep>
 		<path>SocialTalk.stages[0].description</path>
-		<trans>누군가와 좋은 대화를 나눴었어.</trans>
+		<trans>좋은 대화를 나눴었어.</trans>
 	</rep>
 
 
@@ -319,7 +371,7 @@
 	</rep>
 	<rep>
 		<path>AbrasiveTalk.stages[0].description</path>
-		<trans>누군가 내게 무례하게 대했어.</trans>
+		<trans>무례하게 대해졌어.</trans>
 	</rep>
 
 
@@ -329,7 +381,7 @@
 	</rep>
 	<rep>
 		<path>GreenThumbHappy.stages[0].description</path>
-		<trans>세계가 필요로 하는 건 더 많은 나무다 이거지!</trans>
+		<trans>이 세계가 필요로 하는 건 더 많은 초록색이다 이거지!</trans>
 	</rep>
 
 
@@ -339,7 +391,27 @@
 	</rep>
 	<rep>
 		<path>Catharsis.stages[0].description</path>
-		<trans>방금 무슨 일이... 그건 내가 아니었어. 난 더 잘할 수 있단 말야.</trans>
+		<trans>방금 무슨... 아냐, 그건 내가 아니었어. 난 더 잘할 수 있단 말야.</trans>
+	</rep>
+
+
+	<rep>
+		<path>Nuzzled.stages[0].label</path>
+		<trans>애교 받음</trans>
+	</rep>
+	<rep>
+		<path>Nuzzled.stages[0].description</path>
+		<trans>귀여운 동물이 나한테 애교를 부리고 갔어.</trans>
+	</rep>
+
+
+	<rep>
+		<path>SomeoneBuriedInSarcophagus.stages[0].label</path>
+		<trans>누군가 석관에 매장됨</trans>
+	</rep>
+	<rep>
+		<path>SomeoneBuriedInSarcophagus.stages[0].description</path>
+		<trans>정착지에서 사망자를 장식된 석관에 묻어줬어. 그의 영혼이 안식을 청하길.</trans>
 	</rep>
 
 </LanguageData>

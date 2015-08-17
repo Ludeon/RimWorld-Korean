@@ -1,99 +1,257 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!--suppress ALL -->
 <LanguageData>
 
-	<rep>
-		<path>MasochistPain.stages[0].label</path>
-		<trans>약간의 고통</trans>
-	</rep>
-	<rep>
-		<path>MasochistPain.stages[0].description</path>
-		<trans>아... 헤헤헤... 이거에 익숙해질 수도 있겠어!</trans>
-	</rep>
-	<rep>
-		<path>MasochistPain.stages[1].label</path>
-		<trans>적당한 통증</trans>
-	</rep>
-	<rep>
-		<path>MasochistPain.stages[1].description</path>
-		<trans>으... 이거 아픈데. 그렇지만 좋아! 좀 더...!</trans>
-	</rep>
-	<rep>
-		<path>MasochistPain.stages[2].label</path>
-		<trans>극심한 통증을 겪는 중</trans>
-	</rep>
-	<rep>
-		<path>MasochistPain.stages[2].description</path>
-		<trans>아야... 아마 뭔가 부러진 것 같아... 이 얼마나 강렬한 경험이람!</trans>
-	</rep>
-	<rep>
-		<path>MasochistPain.stages[3].label</path>
-		<trans>엄청난 통증으로 인한 쇼크</trans>
-	</rep>
-	<rep>
-		<path>MasochistPain.stages[3].description</path>
-		<trans>아아아... 여기가 천국인가?</trans>
-	</rep>
+    <rep>
+        <path>MasochistPain.stages[0].label</path>
+        <trans>약간의 고통</trans>
+    </rep>
+    <rep>
+        <path>MasochistPain.stages[0].description</path>
+        <trans>아야... 헤헤헤... 이거에 익숙해질 수도 있겠어!</trans>
+    </rep>
+    <rep>
+        <path>MasochistPain.stages[1].label</path>
+        <trans>고통</trans>
+    </rep>
+    <rep>
+        <path>MasochistPain.stages[1].description</path>
+        <trans>아파... 그렇지만 좋아! 끝나지 마...!</trans>
+    </rep>
+    <rep>
+        <path>MasochistPain.stages[2].label</path>
+        <trans>극심한 고통</trans>
+    </rep>
+    <rep>
+        <path>MasochistPain.stages[2].description</path>
+        <trans>아윽... 부러지는 소리를 들은 것 같은데... 이 얼마나 강렬한 경험이람!</trans>
+    </rep>
+    <rep>
+        <path>MasochistPain.stages[3].label</path>
+        <trans>고통으로 인한 쇼크</trans>
+    </rep>
+    <rep>
+        <path>MasochistPain.stages[3].description</path>
+        <trans>아아아아... 여기가 천국인가?</trans>
+    </rep>
+
+    <rep>
+        <path>ProsthophileNoProsthetic.stages[0].label</path>
+        <trans>인공신체가 없음</trans>
+    </rep>
+    <rep>
+        <path>ProsthophileNoProsthetic.stages[0].description</path>
+        <trans>인간의 신체는 너무나 약해. 인공 신체를 하나 가지면 좋겠어,</trans>
+    </rep>
 
 
-	<rep>
-		<path>ProsthophileNoProsthetic.stages[0].label</path>
-		<trans>인공신체가 없음</trans>
-	</rep>
-	<rep>
-		<path>ProsthophileNoProsthetic.stages[0].description</path>
-		<trans>살점은 너무나 약해. 뭔가 인공신체를 하나 가지면 좋겠어,</trans>
-	</rep>
+
+    <rep>
+        <path>ProsthophileHappy.stages[0].label</path>
+        <trans>인공 신체를 지님</trans>
+    </rep>
+    <rep>
+        <path>ProsthophileHappy.stages[0].description</path>
+        <trans>현대 기술의 산물이 여기 있다! 난 뭐든지 더 잘 할 수 있어!</trans>
+    </rep>
 
 
-	<rep>
-		<path>ProsthophileHappy.stages[0].label</path>
-		<trans>인공 신체를 지님</trans>
-	</rep>
-	<rep>
-		<path>ProsthophileHappy.stages[0].description</path>
-		<trans>난 현대 기술의 산물이야! 뭐든지 더 잘 할 수 있어!</trans>
-	</rep>
+
+    <rep>
+        <path>ProsthophobeUnhappy.stages[0].label</path>
+        <trans>인공 신체를 지님</trans>
+    </rep>
+    <rep>
+        <path>ProsthophobeUnhappy.stages[0].description</path>
+        <trans>날 기술의 괴물로 만들었어... 내게 선택지가 있었다면...</trans>
+    </rep>
 
 
-	<rep>
-		<path>ProsthophobeUnhappy.stages[0].label</path>
-		<trans>인공 신체를 지님</trans>
-	</rep>
-	<rep>
-		<path>ProsthophobeUnhappy.stages[0].description</path>
-		<trans>날 기술적인 돌연변이로 만들었어... 내게 선택지가 있었다면...</trans>
-	</rep>
+
+    <rep>
+        <path>BrawlerUnhappy.stages[0].label</path>
+        <trans>싸움꾼이 원거리 무기 사용 중</trans>
+    </rep>
+    <rep>
+        <path>BrawlerUnhappy.stages[0].description</path>
+        <trans>멀리서 쏴대는건 싫어. 가까이 가서 직접 때리겠어!</trans>
+    </rep>
 
 
-	<rep>
-		<path>BrawlerUnhappy.stages[0].label</path>
-		<trans>싸움꾼이 원거리 무기를 지님</trans>
-	</rep>
-	<rep>
-		<path>BrawlerUnhappy.stages[0].description</path>
-		<trans>멀리서 쏴대는건 싫어. 가까이 가서 직접 때리고 싶다고!</trans>
-	</rep>
+
+    <rep>
+        <path>ClothedNudist.stages[0].label</path>
+        <trans>옷을 입음</trans>
+    </rep>
+    <rep>
+        <path>ClothedNudist.stages[0].description</path>
+        <trans>나체주의자로서 옷을 입다니. 견딜 수야 있지만 어딘지 구속당하는 느낌이야.</trans>
+    </rep>
 
 
-	<rep>
-		<path>ClothedNudist.stages[0].label</path>
-		<trans>옷을 입음</trans>
-	</rep>
-	<rep>
-		<path>ClothedNudist.stages[0].description</path>
-		<trans>난 나체가 좋단 말이야. 견딜 수 없는 건 아니야. 그렇지만 어딘지 구속된 느낌이야.</trans>
-	</rep>
+
+    <rep>
+        <path>HappyNude.stages[0].label</path>
+        <trans>행복하게 벌거벗음</trans>
+    </rep>
+    <rep>
+        <path>HappyNude.stages[0].description</path>
+        <trans>내가 알몸이라니! 너무 좋아! 구속받지 않고 자연과 교감하는 이 기분!</trans>
+    </rep>
+
+    <rep>
+        <path>NightOwlDuringTheDay.stages[0].label</path>
+        <trans>낮</trans>
+    </rep>
+    <rep>
+        <path>NightOwlDuringTheDay.stages[0].description</path>
+        <trans>낮에 일하고 싶지 않아.</trans>
+    </rep>
+
+    <rep>
+        <path>NightOwlDuringTheNight.stages[0].label</path>
+        <trans>밤</trans>
+    </rep>
+    <rep>
+        <path>NightOwlDuringTheNight.stages[0].description</path>
+        <trans>역시 밤이 훨씬 편해.</trans>
+    </rep>
 
 
-	<rep>
-		<path>HappyNude.stages[0].label</path>
-		<trans>행복하게 벌거벗음</trans>
-	</rep>
-	<rep>
-		<path>HappyNude.stages[0].description</path>
-		<trans>알몸이야! 너무 좋아! 자유가 된 기분이야. 내 주변과 교감하고 있어!</trans>
-	</rep>
 
-	
+    <rep>
+        <path>Greedy.stages[0].label</path>
+        <trans>인상적인 침실을 원함</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[0].description</path>
+        <trans>지금 당장 내가 쓸 만할 정도로 인상적인 침실을 원해.</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[1].label</path>
+        <trans>인상적인 침실을 원함</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[1].description</path>
+        <trans>내 방은 완전 처참해! 난 인상적인 침실을 원한다고.</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[2].label</path>
+        <trans>인상적인 침실을 원함</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[2].description</path>
+        <trans>내 방은 전혀 좋지 않아. 난 인상적인 침실을 원한다고.</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[3].label</path>
+        <trans>인상적인 침실을 원함</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[3].description</path>
+        <trans>내 방은 좋지 않아. 난 인상적인 침실을 원한다고.</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[4].label</path>
+        <trans>인상적인 침실을 원함</trans>
+    </rep>
+    <rep>
+        <path>Greedy.stages[4].description</path>
+        <trans>내 방은 충분히 좋지 않아. 난 인상적인 침실을 원한다고.</trans>
+    </rep>
+
+
+
+    <rep>
+        <path>Jealous.stages[0].label</path>
+        <trans>질투</trans>
+    </rep>
+    <rep>
+        <path>Jealous.stages[0].description</path>
+        <trans>나도 다른 사람들처럼 좋은 방을 갖고 싶어.</trans>
+    </rep>
+
+
+
+    <rep>
+        <path>Ascetic.stages[0].label</path>
+        <trans>끔찍한 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[0].description</path>
+        <trans>내가 딱 원하는 정도의 방이야. 간단하고, 겸손하고.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[1].label</path>
+        <trans>인상적인 침실을 원함</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[1].description</path>
+        <trans>내가 딱 원하는 정도의 방이야. 간단하고, 겸손하고.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[2].label</path>
+        <trans>인상적인 침실을 원함</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[2].description</path>
+        <trans>방이 검소한게 내 취향이야.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[5].label</path>
+        <trans>조금 인상적인 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[5].description</path>
+        <trans>나한테 화려한 방은 필요없어.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[6].label</path>
+        <trans>인상적인 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[6].description</path>
+        <trans>나한테 화려한 방은 필요없어.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[7].label</path>
+        <trans>매우 인상적인 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[7].description</path>
+        <trans>나한테 화려한 방은 필요없어.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[8].label</path>
+        <trans>엄청나게 인상적인 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[8].description</path>
+        <trans>나한테 화려한 방은 필요없어.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[9].label</path>
+        <trans>믿을 수 없을 정도로 인상적인 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[9].description</path>
+        <trans>나한테 화려한 방은 필요없어.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[10].label</path>
+        <trans>불가사의할 정도로 인상적인 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[10].description</path>
+        <trans>나한테 화려한 방은 필요없어.</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[11].label</path>
+        <trans>천상의 침실</trans>
+    </rep>
+    <rep>
+        <path>Ascetic.stages[11].description</path>
+        <trans>나한테 화려한 방은 필요없어.</trans>
+    </rep>
+
 </LanguageData>

@@ -1,155 +1,173 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
 
-	<rep>
-		<path>LowExpectations.stages[0].label</path>
-		<trans>보통의 기대감</trans>
-	</rep>
-	<rep>
-		<path>LowExpectations.stages[0].description</path>
-		<trans>이 곳의 재산이 많지는 않아. 내 좋을 대로 할 수는 없겠지.</trans>
-	</rep>
-	<rep>
-		<path>LowExpectations.stages[1].label</path>
-		<trans>낮은 기대감</trans>
-	</rep>
-	<rep>
-		<path>LowExpectations.stages[1].description</path>
-		<trans>사치를 부릴 만큼의 재산이 없어. 마음을 단단히 먹는게 좋겠어.</trans>
-	</rep>
-	<rep>
-		<path>LowExpectations.stages[2].label</path>
-		<trans>매우 낮은 기대감</trans>
-	</rep>
-	<rep>
-		<path>LowExpectations.stages[2].description</path>
-		<trans>여긴 완전 빈곤 그 자체야. 마음을 단단히 먹는게 좋겠어.</trans>
-	</rep>
-	<rep>
-		<path>LowExpectations.stages[3].label</path>
-		<trans>극도로 낮은 기대감</trans>
-	</rep>
-	<rep>
-		<path>LowExpectations.stages[3].description</path>
-		<trans>여기선 야생에서 겨우 내 몸을 지킬 수 있을 정도야. 생존을 위해서라도 스스로 단련하는게 좋겠어.</trans>
-	</rep>
+    <rep>
+        <path>LowExpectations.stages[0].label</path>
+        <trans>보통의 기대감</trans>
+    </rep>
+    <rep>
+        <path>LowExpectations.stages[0].description</path>
+        <trans>우리 재산이 많은 편은 아니야. 나 좋을 대로 할 수는 없겠지.</trans>
+    </rep>
+    <rep>
+        <path>LowExpectations.stages[1].label</path>
+        <trans>낮은 기대감</trans>
+    </rep>
+    <rep>
+        <path>LowExpectations.stages[1].description</path>
+        <trans>사치를 부릴 만큼의 재산이 없어. 마음을 단단히 먹는게 좋겠어.</trans>
+    </rep>
+    <rep>
+        <path>LowExpectations.stages[2].label</path>
+        <trans>매우 낮은 기대감</trans>
+    </rep>
+    <rep>
+        <path>LowExpectations.stages[2].description</path>
+        <trans>우리 생활은 완전 빈곤함 그 자체야. 마음을 단단히 먹는게 좋겠어.</trans>
+    </rep>
+    <rep>
+        <path>LowExpectations.stages[3].label</path>
+        <trans>극도로 낮은 기대감</trans>
+    </rep>
+    <rep>
+        <path>LowExpectations.stages[3].description</path>
+        <trans>여기선 야생에서 겨우 내 몸을 지킬 수 있을 정도야. 생존을 위해서라도 스스로 단련하는게 좋겠어.</trans>
+    </rep>
 
+    <rep>
+        <path>EnvironmentDark.stages[0].label</path>
+        <trans>어둠 속</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentDark.stages[0].description</path>
+        <trans>어두운 곳에 충분히 있었어. 빛을 보고 싶어.</trans>
+    </rep>
 
-	<rep>
-		<path>EnvironmentDark.stages[0].label</path>
-		<trans>어둠 속</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentDark.stages[0].description</path>
-		<trans>어두운 곳에 있을 만큼 있었어. 빛을 보고 싶어.</trans>
-	</rep>
+    <rep>
+        <path>CabinFever.stages[0].label</path>
+        <trans>폐소공포증 (가벼움)</trans>
+    </rep>
+    <rep>
+        <path>CabinFever.stages[0].description</path>
+        <trans>실내에만 며칠씩 있었어. 밖으로 나가야 해.</trans>
+    </rep>
+    <rep>
+        <path>CabinFever.stages[1].label</path>
+        <trans>폐소공포증 (심각)</trans>
+    </rep>
+    <rep>
+        <path>CabinFever.stages[1].description</path>
+        <trans>안에만 너무 오래 있었어. 빨리 밖으로 나가고 싶어!</trans>
+    </rep>
 
+    <rep>
+        <path>ApparelDamaged.stages[0].label</path>
+        <trans>손상된 복장</trans>
+    </rep>
+    <rep>
+        <path>ApparelDamaged.stages[0].description</path>
+        <trans>내 복장 상태가 별로 좋지 않아. 뭔가 더 깨끗한걸 입고 싶어.</trans>
+    </rep>
+    <rep>
+        <path>ApparelDamaged.stages[1].label</path>
+        <trans>누더기가 된 복장</trans>
+    </rep>
+    <rep>
+        <path>ApparelDamaged.stages[1].description</path>
+        <trans>쓰레기같은 누더기를 입고 있어. 뭔가 더 깨끗한걸 입고 싶어.</trans>
+    </rep>
 
-	<rep>
-		<path>CabinFever.stages[0].label</path>
-		<trans>폐소공포증 (가벼움)</trans>
-	</rep>
-	<rep>
-		<path>CabinFever.stages[0].description</path>
-		<trans>실내에 며칠씩이나 있었어. 밖으로 나가야 해.</trans>
-	</rep>
-	<rep>
-		<path>CabinFever.stages[1].label</path>
-		<trans>폐소공포증 (심각)</trans>
-	</rep>
-	<rep>
-		<path>CabinFever.stages[1].description</path>
-		<trans>실내에만 너무 오래 있었어. 빨리 밖으로 나가고 싶어!</trans>
-	</rep>
+    <rep>
+        <path>Sick.stages[0].label</path>
+        <trans>아픔</trans>
+    </rep>
+    <rep>
+        <path>Sick.stages[0].description</path>
+        <trans>아파서 기분이 별로야.</trans>
+    </rep>
 
-	<rep>
-		<path>ApparelDamaged.stages[0].label</path>
-		<trans>손상된 복장</trans>
-	</rep>
-	<rep>
-		<path>ApparelDamaged.stages[0].description</path>
-		<trans>내 복장 상태가 별로 좋지 않아. 뭔가 더 적합한 걸 입을 수 없을까?</trans>
-	</rep>
-	<rep>
-		<path>ApparelDamaged.stages[1].label</path>
-		<trans>누더기가 된 복장</trans>
-	</rep>
-	<rep>
-		<path>ApparelDamaged.stages[1].description</path>
-		<trans>쓰레기같은 누더기를 입고 있어. 뭔가 더 적합한 걸 입을 수 없을까?</trans>
-	</rep>
+    <rep>
+        <path>EnvironmentCold.stages[0].label</path>
+        <trans>추움</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentCold.stages[0].description</path>
+        <trans>불편하게 추워.</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentCold.stages[1].label</path>
+        <trans>매우 추움</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentCold.stages[1].description</path>
+        <trans>너무 추워. 몸을 따듯하게 할 수가 없어.</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentCold.stages[2].label</path>
+        <trans>얼어붙음</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentCold.stages[2].description</path>
+        <trans>이가 떨려서 말도 못하겠어. 발가락에도 감각이 없어. 몸을 따듯하게 해야 해.</trans>
+    </rep>
 
+    <rep>
+        <path>EnvironmentHot.stages[0].label</path>
+        <trans>더움</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentHot.stages[0].description</path>
+        <trans>땀 나서 축축해.</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentHot.stages[1].label</path>
+        <trans>매우 더움</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentHot.stages[1].description</path>
+        <trans>머리가 다 뜨겁네.</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentHot.stages[2].label</path>
+        <trans>극도로 더움</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentHot.stages[2].description</path>
+        <trans>여긴 완전 찜통이야! 기절할 것 같네!</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentHot.stages[3].label</path>
+        <trans>불에 타는 듯이 더움</trans>
+    </rep>
+    <rep>
+        <path>EnvironmentHot.stages[3].description</path>
+        <trans>몸이 불탄다! 익어버린다고!</trans>
+    </rep>
 
+    <rep>
+        <path>Crowded.stages[0].label</path>
+        <trans>약간 북적임</trans>
+    </rep>
+    <rep>
+        <path>Crowded.stages[0].description</path>
+        <trans>사람이 좀 많은거 아니야?</trans>
+    </rep>
+    <rep>
+        <path>Crowded.stages[1].label</path>
+        <trans>북적임</trans>
+    </rep>
+    <rep>
+        <path>Crowded.stages[1].description</path>
+        <trans>좀 좁은데. 내 자리가 더 넓으면 좋겠어.</trans>
+    </rep>
+    <rep>
+        <path>Crowded.stages[2].label</path>
+        <trans>미어터짐</trans>
+    </rep>
+    <rep>
+        <path>Crowded.stages[2].description</path>
+        <trans>숨도 못 쉬겠네! 자리가 더 필요해.</trans>
+    </rep>
 
-	<rep>
-		<path>Sick.stages[0].label</path>
-		<trans>아픔</trans>
-	</rep>
-	<rep>
-		<path>Sick.stages[0].description</path>
-		<trans>아파서 기분이 좋지 않아.</trans>
-	</rep>
-
-
-	<rep>
-		<path>EnvironmentCold.stages[0].label</path>
-		<trans>추움</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCold.stages[0].description</path>
-		<trans>불편할 정도로 추워.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCold.stages[1].label</path>
-		<trans>매우 추움</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCold.stages[1].description</path>
-		<trans>정말 추워. 몸을 따듯하게 유지할 수가 없어.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCold.stages[2].label</path>
-		<trans>얼어붙음</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentCold.stages[2].description</path>
-		<trans>이가 너무 떨려서 말도 하기 힘들어. 발가락엔 감각이 없어. 몸을 따듯하게 해야 해.</trans>
-	</rep>
-
-
-	<rep>
-		<path>EnvironmentHot.stages[0].label</path>
-		<trans>더움</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentHot.stages[0].description</path>
-		<trans>불편하게 더워. 땀이 난다고.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentHot.stages[1].label</path>
-		<trans>매우 더움</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentHot.stages[1].description</path>
-		<trans>나 과열됐어.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentHot.stages[2].label</path>
-		<trans>극도로 더움</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentHot.stages[2].description</path>
-		<trans>오븐 안에 들어온 것 같아! 내가 얼마나 더 버틸지 모르겠어.</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentHot.stages[3].label</path>
-		<trans>불에 타는 듯이 더움</trans>
-	</rep>
-	<rep>
-		<path>EnvironmentHot.stages[3].description</path>
-		<trans>내 몸이 타오르고 있어. 이 열기때문에 익어버릴지도 몰라!</trans>
-	</rep>
-
-	
 </LanguageData>

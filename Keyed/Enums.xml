@@ -1,77 +1,90 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
-	<!-- glow -->
-	<Dark>어두움</Dark>
-	<Lit>약간 어두움</Lit>
-	<LitBrightly>밝음</LitBrightly>
+<!-- glow -->
+    <Dark>어두움</Dark>
+    <Lit>약간 어두움</Lit>
+    <LitBrightly>밝음</LitBrightly>
 
-	<!-- diet type -->
-	<NeverEats>먹지 않음</NeverEats>
-	<Omnivorous>잡식</Omnivorous>
-	<Herbivorous>초식</Herbivorous>
-	<Carnivorous>육식</Carnivorous>
-	<Dendrovorous>목식</Dendrovorous>
+<!-- diet type -->
+    <NeverEats>먹지 않음</NeverEats>
+    <Omnivorous>잡식</Omnivorous>
+    <Herbivorous>초식</Herbivorous>
+    <Carnivorous>육식</Carnivorous>
+    <Dendrovorous>목식</Dendrovorous>
 
-	<!-- history upload pref -->
-	<Unspecified>결정하지 않음</Unspecified>
-	<Always>허용</Always>
-	<Never>금지</Never>
+<!-- history upload pref -->
+    <Unspecified>결정하지 않음</Unspecified>
+    <Always>허용</Always>
+    <Never>금지</Never>
 
-	<!-- Price types -->
-	<PriceTypeVeryCheap>매우 저렴함</PriceTypeVeryCheap>
-	<PriceTypeCheap>저렴함</PriceTypeCheap>
-	<PriceTypeNormal>일반적임</PriceTypeNormal>
-	<PriceTypeExpensive>비쌈</PriceTypeExpensive>
-	<PriceTypeExorbitant>과도하게 비쌈</PriceTypeExorbitant>
+<!-- Price types -->
+    <PriceTypeVeryCheap>매우 저렴함</PriceTypeVeryCheap>
+    <PriceTypeCheap>저렴함</PriceTypeCheap>
+    <PriceTypeNormal>일반적임</PriceTypeNormal>
+    <PriceTypeExpensive>비쌈</PriceTypeExpensive>
+    <PriceTypeExorbitant>과도하게 비쌈</PriceTypeExorbitant>
 
-	<!-- Quality category -->
-	<QualityCategory_Awful>끔찍</QualityCategory_Awful>
-	<QualityCategory_Shoddy>조잡</QualityCategory_Shoddy>
-	<QualityCategory_Poor>빈약</QualityCategory_Poor>
-	<QualityCategory_Normal>평범</QualityCategory_Normal>
-	<QualityCategory_Good>좋음</QualityCategory_Good>
-	<QualityCategory_Superior>우수</QualityCategory_Superior>
-	<QualityCategory_Excellent>수작</QualityCategory_Excellent>
-	<QualityCategory_Masterwork>걸작</QualityCategory_Masterwork>
-	<QualityCategory_Legendary>전설적</QualityCategory_Legendary>
+<!-- Quality category -->
+    <QualityCategory_Awful>끔찍</QualityCategory_Awful>
+    <QualityCategory_Shoddy>조잡</QualityCategory_Shoddy>
+    <QualityCategory_Poor>빈약</QualityCategory_Poor>
+    <QualityCategory_Normal>평범</QualityCategory_Normal>
+    <QualityCategory_Good>좋음</QualityCategory_Good>
+    <QualityCategory_Superior>우수</QualityCategory_Superior>
+    <QualityCategory_Excellent>수작</QualityCategory_Excellent>
+    <QualityCategory_Masterwork>걸작</QualityCategory_Masterwork>
+    <QualityCategory_Legendary>전설적</QualityCategory_Legendary>
 
-	<QualityCategoryShort_Awful>끔찍</QualityCategoryShort_Awful>
-	<QualityCategoryShort_Shoddy>조잡</QualityCategoryShort_Shoddy>
-	<QualityCategoryShort_Poor>빈약</QualityCategoryShort_Poor>
-	<QualityCategoryShort_Normal>평범</QualityCategoryShort_Normal>
-	<QualityCategoryShort_Good>좋음</QualityCategoryShort_Good>
-	<QualityCategoryShort_Superior>우수</QualityCategoryShort_Superior>
-	<QualityCategoryShort_Excellent>수작</QualityCategoryShort_Excellent>
-	<QualityCategoryShort_Masterwork>걸작</QualityCategoryShort_Masterwork>
-	<QualityCategoryShort_Legendary>전설</QualityCategoryShort_Legendary>
+    <QualityCategoryShort_Awful>끔찍</QualityCategoryShort_Awful>
+    <QualityCategoryShort_Shoddy>조잡</QualityCategoryShort_Shoddy>
+    <QualityCategoryShort_Poor>빈약</QualityCategoryShort_Poor>
+    <QualityCategoryShort_Normal>평범</QualityCategoryShort_Normal>
+    <QualityCategoryShort_Good>좋음</QualityCategoryShort_Good>
+    <QualityCategoryShort_Superior>우수</QualityCategoryShort_Superior>
+    <QualityCategoryShort_Excellent>수작</QualityCategoryShort_Excellent>
+    <QualityCategoryShort_Masterwork>걸작</QualityCategoryShort_Masterwork>
+    <QualityCategoryShort_Legendary>전설</QualityCategoryShort_Legendary>
 
-	<!-- Hunger -->
-	<HungerLevel_Starving>굶주림</HungerLevel_Starving>
-	<HungerLevel_UrgentlyHungry>매우 배고픔</HungerLevel_UrgentlyHungry>
-	<HungerLevel_Hungry>배고픔</HungerLevel_Hungry>
-	<HungerLevel_Fed>배부름</HungerLevel_Fed>
+<!-- Hunger -->
+    <HungerLevel_Starving>굶주림</HungerLevel_Starving>
+    <HungerLevel_UrgentlyHungry>매우 배고픔</HungerLevel_UrgentlyHungry>
+    <HungerLevel_Hungry>배고픔</HungerLevel_Hungry>
+    <HungerLevel_Fed>배부름</HungerLevel_Fed>
 
-	<!-- -Fatigue -->
-	<HungerLevel_Exhausted>탈진</HungerLevel_Exhausted>
-	<HungerLevel_VeryTired>매우 지침</HungerLevel_VeryTired>
-	<HungerLevel_Tired>지침</HungerLevel_Tired>
-	<HungerLevel_Rested>휴식함</HungerLevel_Rested>
+<!-- -Fatigue -->
+    <HungerLevel_Exhausted>탈진</HungerLevel_Exhausted>
+    <HungerLevel_VeryTired>매우 지침</HungerLevel_VeryTired>
+    <HungerLevel_Tired>지침</HungerLevel_Tired>
+    <HungerLevel_Rested>휴식함</HungerLevel_Rested>
 
-	<!-- Hilliness -->
-	<Hilliness_Flat>평지</Hilliness_Flat>
-	<Hilliness_SmallHills>소형 언덕</Hilliness_SmallHills>
-	<Hilliness_LargeHills>대형 언덕</Hilliness_LargeHills>
-	<Hilliness_Mountainous>산지</Hilliness_Mountainous>
+<!-- Hilliness -->
+    <Hilliness_Flat>평지</Hilliness_Flat>
+    <Hilliness_SmallHills>소형 언덕</Hilliness_SmallHills>
+    <Hilliness_LargeHills>대형 언덕</Hilliness_LargeHills>
+    <Hilliness_Mountainous>산지</Hilliness_Mountainous>
 
-	<!-- Steam workshop interaction -->
-	<WorkshopInteractStage_CreatingItem>생성 중</WorkshopInteractStage_CreatingItem>
-	<WorkshopInteractStage_SubmittingItem>등록 중</WorkshopInteractStage_SubmittingItem>
-	<EItemUpdateStatus_k_EItemUpdateStatusInvalid>올바르지 않음</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
-	<EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>설정 정보 준비 중</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
-	<EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>콘텐츠 파일 준비 중</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
-	<EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>콘텐츠 업로드 중</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
-	<EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>미리보기 파일 업로드 중</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
-	<EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>변경점 등록 중</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+<!-- Steam workshop interaction -->
+    <WorkshopInteractStage_CreatingItem>생성 중</WorkshopInteractStage_CreatingItem>
+    <WorkshopInteractStage_SubmittingItem>등록 중</WorkshopInteractStage_SubmittingItem>
+    <EItemUpdateStatus_k_EItemUpdateStatusInvalid>올바르지 않음</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+    <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>설정 정보 준비 중</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+    <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>콘텐츠 파일 준비 중</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+    <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>콘텐츠 업로드 중</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+    <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>미리보기 파일 업로드 중</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+    <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>변경점 등록 중</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+
+<!-- Trainable intelligence -->
+    <TrainableIntelligence_None>없음</TrainableIntelligence_None>
+    <TrainableIntelligence_Simple>기초적</TrainableIntelligence_Simple>
+    <TrainableIntelligence_Intermediate>보통</TrainableIntelligence_Intermediate>
+    <TrainableIntelligence_Advanced>발달</TrainableIntelligence_Advanced>
+
+<!-- Medical care category -->
+    <MedicalCareCategory_NoCare>치료 없음</MedicalCareCategory_NoCare>
+    <MedicalCareCategory_NoMeds>치료만, 약품 없음</MedicalCareCategory_NoMeds>
+    <MedicalCareCategory_HerbalOrWorse>생약 이하</MedicalCareCategory_HerbalOrWorse>
+    <MedicalCareCategory_NormalOrWorse>보통 약 이하</MedicalCareCategory_NormalOrWorse>
+    <MedicalCareCategory_Best>최고 수준</MedicalCareCategory_Best>
 
 </LanguageData>
