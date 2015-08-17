@@ -1,97 +1,102 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
 
-	<CallOnRadio>{0} 연락</CallOnRadio>
-	<CAnnotUseReason>사용할 수 없음({0})</CAnnotUseReason>
-	<CannotUseSolarFlare>사용할 수 없음 (흑점 폭발)</CannotUseSolarFlare>
-	<CannotUseNoPower>사용할 수 없음 (전원 차단)</CannotUseNoPower>
-	<CannotUseNoPath>사용할 수 없음 (경로 없음)</CannotUseNoPath>
-	<CannotUseReserved>사용할 수 없음 (예약됨)</CannotUseReserved>
-	<CannotUseFull>사용할 수 없음 (꽉 참)</CannotUseFull>
+    <CallOnRadio>{0} 연락</CallOnRadio>
+    <CAnnotUseReason>사용할 수 없음({0})</CAnnotUseReason>
+    <CannotUseSolarFlare>사용할 수 없음 (흑점 폭발)</CannotUseSolarFlare>
+    <CannotUseNoPower>사용할 수 없음 (전원 차단)</CannotUseNoPower>
+    <CannotUseNoPath>사용할 수 없음 (경로 없음)</CannotUseNoPath>
+    <CannotUseReserved>사용할 수 없음 (예약됨)</CannotUseReserved>
+    <CannotUseFull>사용할 수 없음 (꽉 참)</CannotUseFull>
 
-	<FireAt>{0}에게 사격</FireAt>
+    <FireAt>{0}에게 사격</FireAt>
 
-	<OutOfRange>범위를 벗어남</OutOfRange>
-	<CannotHitTarget>대상을 맞출 수 없음</CannotHitTarget>
-	<CannotFight>{0}(은)는 싸울 수 없음</CannotFight>
+    <OutOfRange>범위를 벗어남</OutOfRange>
+    <CannotHitTarget>대상을 맞출 수 없음</CannotHitTarget>
+    <CannotFight>{0}(은)는 싸울 수 없음</CannotFight>
 
-	<OrderManThing>{0} 조작</OrderManThing>
+    <OrderManThing>{0} 조작</OrderManThing>
 
-	<MeleeAttack>{0} 근접 공격</MeleeAttack>
-	<MeleeAttackToDeath>{0}(이)가 죽을 때 까지 근접 공격</MeleeAttackToDeath>
-	<NoPath>경로 없음</NoPath>
+    <MeleeAttack>{0} 근접 공격</MeleeAttack>
+    <MeleeAttackToDeath>{0}(이)가 죽을 때 까지 근접 공격</MeleeAttackToDeath>
+    <NoPath>경로 없음</NoPath>
 
-	<ForbiddenLower>금지됨</ForbiddenLower>
-	<SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
-	<PrisonerRoomLower>감옥</PrisonerRoomLower>
-	<BurningLower>불타는 중</BurningLower>
-	<NoEmptyPlaceLower>저장할 수 있는 빈 공간이 없음</NoEmptyPlaceLower>
-	<AlreadyFilledLower>이미 꽉 차 있음</AlreadyFilledLower>
-	<MissingMaterials>재료가 필요함</MissingMaterials>
-	<MissingSkill>기술이 너무 낮음</MissingSkill>
+    <ForbiddenLower>금지됨</ForbiddenLower>
+    <SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
+    <PrisonerRoomLower>감옥</PrisonerRoomLower>
+    <BurningLower>불타는 중</BurningLower>
+    <NoEmptyPlaceLower>저장할 수 있는 빈 공간이 없음</NoEmptyPlaceLower>
+    <AlreadyFilledLower>이미 꽉 차 있음</AlreadyFilledLower>
+    <MissingMaterials>재료가 필요함</MissingMaterials>
+    <MissingSkill>기술이 너무 낮음</MissingSkill>
+    <NoEmptyGraveLower>적절한 설정의 빈 무덤이 없음</NoEmptyGraveLower>
+    <AnimalInteractedTooRecently>최근에 이 동물과 상호작용함</AnimalInteractedTooRecently>
+    <NoUsableFood>사용 가능한 식량 없음</NoUsableFood>
+    <!--<AnimalsSkillTooLow>Animals skill too low</AnimalsSkillTooLow>-->
 
-	<ConsumeThing>{0} 섭취</ConsumeThing>
+    <ConsumeThing>{0} 섭취</ConsumeThing>
+  	<Teetotaler>금욕</Teetotaler>
 
-	<CannotGoNoPath>갈 수 없음 (경로 없음)</CannotGoNoPath>
-	<GoHere>여기로 이동</GoHere>
+    <CannotGoNoPath>갈 수 없음 (경로 없음)</CannotGoNoPath>
+    <GoHere>여기로 이동</GoHere>
 
-	<Arrest>{0} 체포</Arrest>
-	<TryToArrest>{0} 체포 시도</TryToArrest>
-	<CannotArrest>체포할 수 없음</CannotArrest>
+    <Arrest>{0} 체포</Arrest>
+    <TryToArrest>{0} 체포 시도</TryToArrest>
+    <CannotArrest>체포할 수 없음</CannotArrest>
 
-	<Capture>{0} 포획</Capture>
-	<CannotCapture>포획할 수 없음</CannotCapture>
+    <Capture>{0} 포획</Capture>
+    <CannotCapture>포획할 수 없음</CannotCapture>
 
-	<Rescue>{0} 구조</Rescue>
-	<CannotRescue>구조할 수 없음</CannotRescue>
+    <Rescue>{0} 구조</Rescue>
+    <CannotRescue>구조할 수 없음</CannotRescue>
 
-	<CarryToCryptosleepCasket>{0}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
-	<CannotCarryToCryptosleepCasket>동면장치로 운반 할 수 없음</CannotCarryToCryptosleepCasket>
+    <CarryToCryptosleepCasket>{0}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
+    <CannotCarryToCryptosleepCasket>동면장치로 운반 할 수 없음</CannotCarryToCryptosleepCasket>
 
-	<NoCryptosleeCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleeCasket>
-	<NoPrisonerBed>접근이 가능하고 예약되지 않았으며 폐쇄된 수감자용 침대가 없습니다.</NoPrisonerBed>
-	<NoNonPrisonerBed>접근이 가능하고 예약되지 않은 주민용 침대가 없습니다.</NoNonPrisonerBed>
-	<Reserved>누군가에게 예약되어 있습니다.</Reserved>
-	<ReservedBy>{0}(이)가 예약함</ReservedBy>
-	<IsReservedBy>{0}(은)는 {1}에게 예약되어 있습니다.</IsReservedBy>
+    <NoCryptosleeCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleeCasket>
+    <NoPrisonerBed>접근이 가능하고 예약되지 않았으며 폐쇄된 수감자용 침대가 없습니다.</NoPrisonerBed>
+    <NoNonPrisonerBed>접근이 가능하고 예약되지 않은 주민용 침대가 없습니다.</NoNonPrisonerBed>
+    <Reserved>누군가에게 예약되어 있습니다.</Reserved>
+    <ReservedBy>{0}(이)가 예약함</ReservedBy>
+    <IsReservedBy>{0}(은)는 {1}에게 예약되어 있습니다.</IsReservedBy>
 
-	<Incapable>불가능</Incapable>
-	<IncapableOfCapacity>{0} 불가능</IncapableOfCapacity>
+    <Incapable>불가능</Incapable>
+    <IncapableOfCapacity>{0} 불가능</IncapableOfCapacity>
 
-	<Equip>{0} 착용</Equip>
-	<EquipWarningBrawler>(싸움꾼이 좋아하지 않을 것입니다)</EquipWarningBrawler>
-	<CannotEquip>{0}(을)를 착용할 수 없습니다.</CannotEquip>
+    <Equip>{0} 착용</Equip>
+    <EquipWarningBrawler>(싸움꾼이 좋아하지 않을 것입니다)</EquipWarningBrawler>
+    <CannotEquip>{0}(을)를 착용할 수 없습니다.</CannotEquip>
 
-	<ForceWear>{0} 착용 지정</ForceWear>
-	<CannotWear>{0}(을)를 입을 수 없습니다.</CannotWear>
+    <ForceWear>{0} 착용 지정</ForceWear>
+    <CannotWear>{0}(을)를 입을 수 없습니다.</CannotWear>
 
-	<Strip>{0} 벗기기</Strip>
-	<CannotStrip>{0}(을)를 벗길 수 없습니다.</CannotStrip>
+    <Strip>{0} 벗기기</Strip>
+    <CannotStrip>{0}(을)를 벗길 수 없습니다.</CannotStrip>
 
-	<Deposit>{0}(을)를 {1}에 보관</Deposit>
-	<CannotDeposit>{0}(을)를 {1}에 보관할 수 없습니다.</CannotDeposit>
+    <Deposit>{0}(을)를 {1}에 보관</Deposit>
+    <CannotDeposit>{0}(을)를 {1}에 보관할 수 없습니다.</CannotDeposit>
 
-	<Drop>{0} 버리기</Drop>
+    <Drop>{0} 버리기</Drop>
 
-	<UseMedicalBed>완전히 치료될 때까지 휴식</UseMedicalBed>
-	<NotInjured>부상 없음</NotInjured>
-	<SomeoneElseSleeping>사용 중</SomeoneElseSleeping>
+    <UseMedicalBed>완전히 치료될 때까지 휴식</UseMedicalBed>
+    <NotInjured>부상 없음</NotInjured>
+    <SomeoneElseSleeping>사용 중</SomeoneElseSleeping>
 
-	<!-- Specific thing interactions -->
-	<EnterCryptosleepCasket>동면장치에 탑승</EnterCryptosleepCasket>
-	<OpenCryptosleepCasket>동면장치 열기</OpenCryptosleepCasket>
+<!-- Specific thing interactions -->
+    <EnterCryptosleepCasket>동면장치에 탑승</EnterCryptosleepCasket>
+    <OpenCryptosleepCasket>동면장치 열기</OpenCryptosleepCasket>
 
-	<!-- 예시: (목적어)(을)를 (동사)할 수 없습니다. 벽을 수리할 수 없습니다. 밥을 운반할 수 없습니다. -->
-	<CannotGenericWork>{1}(을)를 {0}할 수 없습니다.</CannotGenericWork>
+<!-- 예시: (목적어)(을)를 (동사)할 수 없습니다. 벽을 수리할 수 없습니다. 밥을 운반할 수 없습니다. -->
+    <CannotGenericWork>{1}(을)를 {0}할 수 없습니다.</CannotGenericWork>
 
-	<!-- 예시: 이미 (목적어)(을)를 (동사)하고 있습니다. / 우선시 할 수 없음((목적어)(은)는 (1)(이)가 아님) -->
-	<CannotMissingHealthActivities>우선시 할 수 없음 ({0} 불가능)</CannotMissingHealthActivities>
-	<CannotGenericAlreadyAm>이미 {1}(을)를 {0}하고 있습니다.</CannotGenericAlreadyAm>
-	<CannotPrioritizeIsNotA>우선시 할 수 없음 ({0}(은)는 {1}(이)가 아님)</CannotPrioritizeIsNotA>
-	<CannotPrioritizeResearch>연구를 우선시 할 수 없음 (장기 프로젝트)</CannotPrioritizeResearch>
-	<CannotPrioritizeForbidden>우선시 할 수 없음 ({0}의 상호작용이 금지됨.)</CannotPrioritizeForbidden>
+<!-- 예시: 이미 (목적어)(을)를 (동사)하고 있습니다. / 우선시 할 수 없음((목적어)(은)는 (1)(이)가 아님) -->
+    <CannotMissingHealthActivities>우선시 할 수 없음 ({0} 불가능)</CannotMissingHealthActivities>
+    <CannotGenericAlreadyAm>이미 {1}(을)를 {0}하고 있습니다.</CannotGenericAlreadyAm>
+    <CannotPrioritizeIsNotA>우선시 할 수 없음 ({0}(은)는 {1}(이)가 아님)</CannotPrioritizeIsNotA>
+    <CannotPrioritizeResearch>연구를 우선시 할 수 없음 (장기 프로젝트)</CannotPrioritizeResearch>
+    <CannotPrioritizeForbidden>우선시 할 수 없음 ({0}의 상호작용이 금지됨.)</CannotPrioritizeForbidden>
 
-	<!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
-	<PrioritizeGeneric>먼저 {0}: {1}</PrioritizeGeneric>
+<!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
+    <PrioritizeGeneric>먼저 {0}: {1}</PrioritizeGeneric>
 </LanguageData>

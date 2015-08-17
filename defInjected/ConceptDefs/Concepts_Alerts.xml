@@ -5,25 +5,19 @@
 	<Forbidding.label>상호작용 허용</Forbidding.label>
 	<rep>
 		<path>Forbidding.helpTexts[0]</path>
-		<trans>거주민들은 상호작용을 금지한 물건은 만지지 않습니다.
-			\n\n금지된 아이템은 작은 X 표시가 붙습니다. 금지된 아이템을 선택하고 하단의 단추를 통해 상호작용을 허용하세요.
-		</trans>
+		<trans>거주민들은 상호작용을 금지한 물건은 만지지 않습니다.\n\n금지된 아이템은 작은 X 표시가 붙습니다. 금지된 아이템을 선택하고 하단의 단추를 통해 상호작용을 허용하세요.</trans>
 	</rep>
 
 	<Stockpiles.label>저장구역 지정</Stockpiles.label>
 	<rep>
 		<path>Stockpiles.helpTexts[0]</path>
-		<trans>거주민들은 아이템을 보관할 어딘가가 필요합니다. 저장구역을 지정하여 보관하세요.
-			\n\n좌측 하단의 구상 메뉴에서 찾을 수 있습니다.
-		</trans>
+		<trans>거주민들이 물건을 보관할 장소가 필요합니다. 저장구역을 지정하여 보관하세요.\n\n좌측 하단의 구상 메뉴에서 찾을 수 있습니다.</trans>
 	</rep>
 
 	<GrowingFood.label>재배구역 지정</GrowingFood.label>
 	<rep>
 		<path>GrowingFood.helpTexts[0]</path>
-		<trans>식물을 재배하려면 구상 메뉴에서 재배구역을 지정하세요.
-			\n\n오직 비옥한 땅에만 지정할 수 있습니다.
-		</trans>
+		<trans>식물을 재배하려면 구상 메뉴에서 재배구역을 지정하세요.\n\n오직 비옥한 땅에만 지정할 수 있습니다.</trans>
 	</rep>
 
 	<!-- Timed concepts -->
@@ -31,9 +25,7 @@
 	<EquippingWeapons.label>무기 장착</EquippingWeapons.label>
 	<rep>
 		<path>EquippingWeapons.helpTexts[0]</path>
-		<trans>주민이 무기를 장착하게 하려면 그 주민을 선택하고 무기에 오른쪽 클릭하세요.
-			\n\n시작지점에 무기들이 있습니다.
-		</trans>
+		<trans>거주민이 무기를 장착하게 하려면 거주민을 선택한 상태로 무기에 오른쪽 클릭을 하세요.\n\n시작 지점에 무기들이 있습니다.</trans>
 	</rep>
 
 	<CameraZoom.label>시야를 확대하는 법</CameraZoom.label>
@@ -43,13 +35,10 @@
 		</trans>
 	</rep>
 
-	<WorkOverview.label>작업설정 변경</WorkOverview.label>
+	<WorkTab.label>작업설정 변경</WorkTab.label>
 	<rep>
-		<path>WorkOverview.helpTexts[0]</path>
-		<trans>우측 하단 개요에서 각 주민들이 할 일을 지정할 수 있습니다.
-			\n\n주민들은 언제나 가장 높은 중요도의 일을 먼저 할 것이며, 지정되지 않은 일은 하지 않습니다.
-			\n\n만약 아무도 어떤 일을 하도록 지정하지 않았으면 그 일은 영원히 완료되지 않을 것입니다.
-		</trans>
+		<path>WorkTab.helpTexts[0]</path>
+		<trans>좌측 하단 "작업" 단추를 눌러 각 주민들이 할 일을 지정할 수 있습니다.\n\n주민들은 언제나 가장 높은 중요도의 일을 먼저 할 것이며, 지정되지 않은 일은 하지 않습니다.\n\n만약 어떤 종류의 작업에 아무도 지정하지 않았으면, 그와 관련된 일은 아무도 하지 않습니다.</trans>
 	</rep>
 
 	<TimeControls.label>시간 조절</TimeControls.label>
@@ -61,17 +50,14 @@
 	<InfoCard.label>상세정보 열기</InfoCard.label>
 	<rep>
 		<path>InfoCard.helpTexts[0]</path>
-		<trans>상세정보는 어떤 아이템, 사람, 건물에 대한 상대한 정보를 알려줍니다,
-			\n\n사람이나 아이템을 선택하고 좌측 하단의 'i'를 누르세요.
+		<trans>상세정보는 어떤 아이템, 사람, 건물에 대한 상대한 정보를 알려줍니다,\n\n사람이나 아이템을 선택하고 좌측 하단의 'i'를 누르세요.
 		</trans>
 	</rep>
 
 	<SpacePause.label>일시정지 하는 법</SpacePause.label>
 	<rep>
 		<path>SpacePause.helpTexts[0]</path>
-		<trans>스페이스 바를 눌러 게임을 멈추거나 재개할 수 있습니다.
-		\n\n멈춘 상태에서 명령을 내릴 수 있습니다.
-		\n\n상황이 악화되면, 스페이스를 누르는 걸 기억하세요.</trans>
+		<trans>스페이스 바를 눌러 게임을 멈추거나 재개할 수 있습니다.\n\n멈춘 상태에서 명령을 내릴 수 있습니다.\n\n상황이 악화되면, 스페이스를 누르는 걸 기억하세요.</trans>
 	</rep>
 
 	<StorageTab.label>저장 설정에 대하여</StorageTab.label>
@@ -89,11 +75,10 @@
 	<HomeArea.label>거주구역에 대하여</HomeArea.label>
 	<rep>
 		<path>HomeArea.helpTexts[0]</path>
-		<trans>거주구역은 거주민들에게 청소하고 불을 꺼야 할 곳을 알려줍니다.
-			\n\n구상 메뉴의 거주구역에서 지정하세요.</trans>
+		<trans>거주구역은 거주민들에게 청소하고 불을 꺼야 할 곳을 알려줍니다.\n\n구상 메뉴의 거주구역에서 지정하세요.</trans>
 	</rep>
 
-	<RightClickClearLetter.label>우클릭으로 빠르게 편지 삭제</RightClickClearLetter.label>
+	<RightClickClearLetter.label>빠르게 편지 삭제</RightClickClearLetter.label>
 	<rep>
 		<path>RightClickClearLetter.helpTexts[0]</path>
 		<trans>수신된 편지는 오른쪽 클릭으로 빠르게 지울 수 있습니다.</trans>
@@ -117,7 +102,7 @@
 	<PrisonerTab.label>죄수 설정에 대하여</PrisonerTab.label>
 	<rep>
 		<path>PrisonerTab.helpTexts[0]</path>
-		<trans>죄수의 &quot;죄수&quot; 항목을 눌러 어떻게 관리해야 할지 설정할 수 있습니다.
+		<trans>죄수의 "죄수" 항목을 눌러 어떻게 관리해야 할지 설정할 수 있습니다.
 			\n\n죄수들을 관리하려면 간수로 지정된 거주민이 필요합니다.</trans>
 	</rep>
 
@@ -130,8 +115,7 @@
 	<HistoryTab.label>기록 보기</HistoryTab.label>
 	<rep>
 		<path>HistoryTab.helpTexts[0]</path>
-		<trans>개요 창에서 기록을 선택하여 정착지의 행운과 불행의 기록을 볼 수 있습니다.</trans>
+		<trans>하단 "기록" 단추를 눌러 정착지의 행운과 불행의 기록을 볼 수 있습니다.</trans>
 	</rep>
-
 
 </LanguageData>
