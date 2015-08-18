@@ -3,12 +3,12 @@
 <LanguageData>
 
     <CallOnRadio>{0} 연락</CallOnRadio>
-    <CAnnotUseReason>사용할 수 없음({0})</CAnnotUseReason>
-    <CannotUseSolarFlare>사용할 수 없음 (흑점 폭발)</CannotUseSolarFlare>
-    <CannotUseNoPower>사용할 수 없음 (전원 차단)</CannotUseNoPower>
-    <CannotUseNoPath>사용할 수 없음 (경로 없음)</CannotUseNoPath>
-    <CannotUseReserved>사용할 수 없음 (예약됨)</CannotUseReserved>
-    <CannotUseFull>사용할 수 없음 (꽉 참)</CannotUseFull>
+    <CAnnotUseReason>사용 불가({0})</CAnnotUseReason>
+    <CannotUseSolarFlare>사용 불가 (흑점 폭발)</CannotUseSolarFlare>
+    <CannotUseNoPower>사용 불가 (전원 차단)</CannotUseNoPower>
+    <CannotUseNoPath>사용 불가 (경로 없음)</CannotUseNoPath>
+    <CannotUseReserved>사용 불가 (예약됨)</CannotUseReserved>
+    <CannotUseFull>사용 불가 (가득 참)</CannotUseFull>
 
     <FireAt>{0}에게 사격</FireAt>
 
@@ -26,14 +26,14 @@
     <SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
     <PrisonerRoomLower>감옥</PrisonerRoomLower>
     <BurningLower>불타는 중</BurningLower>
-    <NoEmptyPlaceLower>저장할 수 있는 빈 공간이 없음</NoEmptyPlaceLower>
+    <NoEmptyPlaceLower>빈 저장공간이 없음</NoEmptyPlaceLower>
     <AlreadyFilledLower>이미 꽉 차 있음</AlreadyFilledLower>
     <MissingMaterials>재료가 필요함</MissingMaterials>
     <MissingSkill>기술이 너무 낮음</MissingSkill>
     <NoEmptyGraveLower>적절한 설정의 빈 무덤이 없음</NoEmptyGraveLower>
-    <AnimalInteractedTooRecently>최근에 이 동물과 상호작용함</AnimalInteractedTooRecently>
-    <NoUsableFood>사용 가능한 식량 없음</NoUsableFood>
-    <!--<AnimalsSkillTooLow>Animals skill too low</AnimalsSkillTooLow>-->
+    <AnimalInteractedTooRecently>최근에 상호작용함</AnimalInteractedTooRecently>
+    <NoUsableFood>먹이 없음</NoUsableFood>
+    <AnimalsSkillTooLow>조련 기술 낮음</AnimalsSkillTooLow>
 
     <ConsumeThing>{0} 섭취</ConsumeThing>
   	<Teetotaler>금욕</Teetotaler>
@@ -43,23 +43,23 @@
 
     <Arrest>{0} 체포</Arrest>
     <TryToArrest>{0} 체포 시도</TryToArrest>
-    <CannotArrest>체포할 수 없음</CannotArrest>
+    <CannotArrest>체포 불가</CannotArrest>
 
     <Capture>{0} 포획</Capture>
-    <CannotCapture>포획할 수 없음</CannotCapture>
+    <CannotCapture>포획 불가</CannotCapture>
 
     <Rescue>{0} 구조</Rescue>
-    <CannotRescue>구조할 수 없음</CannotRescue>
+    <CannotRescue>구조 불가</CannotRescue>
 
     <CarryToCryptosleepCasket>{0}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
-    <CannotCarryToCryptosleepCasket>동면장치로 운반 할 수 없음</CannotCarryToCryptosleepCasket>
+    <CannotCarryToCryptosleepCasket>동면장치로 운반 불가</CannotCarryToCryptosleepCasket>
 
     <NoCryptosleeCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleeCasket>
     <NoPrisonerBed>접근이 가능하고 예약되지 않았으며 폐쇄된 수감자용 침대가 없습니다.</NoPrisonerBed>
     <NoNonPrisonerBed>접근이 가능하고 예약되지 않은 주민용 침대가 없습니다.</NoNonPrisonerBed>
     <Reserved>누군가에게 예약되어 있습니다.</Reserved>
     <ReservedBy>{0}(이)가 예약함</ReservedBy>
-    <IsReservedBy>{0}(은)는 {1}에게 예약되어 있습니다.</IsReservedBy>
+    <IsReservedBy>{0}(은)는 {1}에게 예약됨</IsReservedBy>
 
     <Incapable>불가능</Incapable>
     <IncapableOfCapacity>{0} 불가능</IncapableOfCapacity>
@@ -87,16 +87,16 @@
     <EnterCryptosleepCasket>동면장치에 탑승</EnterCryptosleepCasket>
     <OpenCryptosleepCasket>동면장치 열기</OpenCryptosleepCasket>
 
-<!-- 예시: (목적어)(을)를 (동사)할 수 없습니다. 벽을 수리할 수 없습니다. 밥을 운반할 수 없습니다. -->
-    <CannotGenericWork>{1}(을)를 {0}할 수 없습니다.</CannotGenericWork>
+    <CannotGenericWork>{1} {0} 불가</CannotGenericWork>
 
 <!-- 예시: 이미 (목적어)(을)를 (동사)하고 있습니다. / 우선시 할 수 없음((목적어)(은)는 (1)(이)가 아님) -->
-    <CannotMissingHealthActivities>우선시 할 수 없음 ({0} 불가능)</CannotMissingHealthActivities>
-    <CannotGenericAlreadyAm>이미 {1}(을)를 {0}하고 있습니다.</CannotGenericAlreadyAm>
-    <CannotPrioritizeIsNotA>우선시 할 수 없음 ({0}(은)는 {1}(이)가 아님)</CannotPrioritizeIsNotA>
-    <CannotPrioritizeResearch>연구를 우선시 할 수 없음 (장기 프로젝트)</CannotPrioritizeResearch>
-    <CannotPrioritizeForbidden>우선시 할 수 없음 ({0}의 상호작용이 금지됨.)</CannotPrioritizeForbidden>
+    <CannotMissingHealthActivities>우선시 불가 ({0} 불가능)</CannotMissingHealthActivities>
+    <CannotGenericAlreadyAm>이미 {1}(을)를 {0} 중</CannotGenericAlreadyAm>
+    <CannotPrioritizeIsNotA>우선시 불가 ({1}(이)가 아님)</CannotPrioritizeIsNotA>
+    <CannotPrioritizeResearch>연구는 우선시 불가 (장기 프로젝트)</CannotPrioritizeResearch>
+    <CannotPrioritizeForbidden>우선시 불가 ({0}의 상호작용이 금지됨)</CannotPrioritizeForbidden>
 
 <!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
     <PrioritizeGeneric>먼저 {0}: {1}</PrioritizeGeneric>
+
 </LanguageData>

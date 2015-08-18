@@ -174,10 +174,10 @@
 
 <!-- Shooting tooltip -->
     <ShotBy>{0}의 사격</ShotBy>
-    <CannotHit>목표를 공격할 수 없습니다.</CannotHit>
+    <CannotHit>공격 불가능</CannotHit>
 
 <!-- Storage priority labels -->
-    <StoragePriorityUnstored>저장하지 않음</StoragePriorityUnstored>
+    <StoragePriorityUnstored>비활성화</StoragePriorityUnstored>
     <StoragePriorityLow>낮음</StoragePriorityLow>
     <StoragePriorityNormal>보통</StoragePriorityNormal>
     <StoragePriorityPreferred>선호</StoragePriorityPreferred>
@@ -199,8 +199,8 @@
     <FullyGrownIn>{0} 후 완전히 성장</FullyGrownIn>
     <PlantNeedsLightLevel>빛 필요</PlantNeedsLightLevel>
     <PlantResting>휴식 중</PlantResting>
-    <OutOfIdealTemperatureRange>이상적인 온도 범위에서 벗어남 (정상 속도의 {0}%만큼 성장)</OutOfIdealTemperatureRange>
-    <OutOfIdealTemperatureRangeNotGrowing>이상적인 온도 범위에서 벗어남 (성장하지 않음)</OutOfIdealTemperatureRangeNotGrowing>
+    <OutOfIdealTemperatureRange>이상적인 온도에서 벗어남 (정상 속도의 {0}%만큼 성장)</OutOfIdealTemperatureRange>
+    <OutOfIdealTemperatureRangeNotGrowing>이상적인 온도에서 벗어남 (성장하지 않음)</OutOfIdealTemperatureRangeNotGrowing>
     <ReadyToHarvest>수확 가능</ReadyToHarvest>
     <Mature>성숙</Mature>
     <SeedLabel>{0} 씨앗</SeedLabel>
