@@ -51,29 +51,25 @@
     <ResolutionKeep>변경한 설정 유지</ResolutionKeep>
     <ResolutionRevert>되돌리기</ResolutionRevert>
 
-<!-- Overview -->
-    <OverviewOf>{0} 보고서</OverviewOf>
-
 <!-- Research -->
     <Research>연구</Research>
     <Researched>연구됨</Researched>
     <Unresearched>연구되지 않음</Unresearched>
     <Finished>연구 완료</Finished>
     <InProgress>연구중</InProgress>
-    <ResearchMenuWithoutBench>연구대를 건설하기 전까지 정착지 주민들은 연구 활동을 할 수 없습니다. 그러나 연구 목록들을 미리 보고 연구를 예약하는 것은 가능합니다.
-    </ResearchMenuWithoutBench>
+    <ResearchMenuWithoutBench>연구대를 건설하기 전까지 거주민들은 연구 활동을 할 수 없습니다. 그러나 연구 목록을 보고 다음 연구를 예약하는 것은 가능합니다.</ResearchMenuWithoutBench>
 
 <!-- Advanced game start options -->
-    <MapTemperatureDangerWarning>경고: 당신은 얼어붙은 환경에 착륙하게 될 것이며 생존하기 매우 힘들 것입니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 날짜를 선택하세요.
+    <MapTemperatureDangerWarning>경고: 얼어붙은 환경에 착륙하게 될 것이며 생존하기 매우 힘들 수 있습니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 날짜를 선택하세요.
     </MapTemperatureDangerWarning>
-    <MapSizePerformanceWarning>경고: 지도의 규모가 넓어질수록 게임의 품질이 저하될 것입니다. \n\n터무니 없는 크기는 아직 검증되지 않았으며 게임이 잘 진행되지 않을 수 있습니다.
+    <MapSizePerformanceWarning>경고: 지도의 규모가 넓어질수록 게임의 품질이 저하될 것입니다. \n\n초대형 크기는 아직 검증되지 않았으며 게임이 잘 진행되지 않을 수 있습니다.
     </MapSizePerformanceWarning>
     <MapSize>지도의 규모</MapSize>
     <MapSizeDesc>{0}x{0} ({1}칸)</MapSizeDesc>
     <MapSizeSmall>소형</MapSizeSmall>
     <MapSizeMedium>중형</MapSizeMedium>
     <MapSizeLarge>대형</MapSizeLarge>
-    <MapSizeExtreme>터무니 없음</MapSizeExtreme>
+    <MapSizeExtreme>초대형</MapSizeExtreme>
     <MapStartMonth>착륙하는 날짜:</MapStartMonth>
     <MapStartMonthDefault>자동</MapStartMonthDefault>
 
