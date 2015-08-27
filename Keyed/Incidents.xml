@@ -5,7 +5,7 @@
     <LetterLabelAnimalInsanitySingle>동물 광란</LetterLabelAnimalInsanitySingle>
     <AnimalInsanitySingle>근처에 있는 {0}의 정신에 문제가 생겼는지 보이는 모든 것들을 공격하기 시작했습니다.</AnimalInsanitySingle>
     <LetterLabelAnimalInsanityMultiple>동물 떼 광란!</LetterLabelAnimalInsanityMultiple>
-    <AnimalInsanityMultiple>정신파동이 주위를 쓸고 지나갔습니다. 당신의 정착지 주민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미쳤습니다.
+    <AnimalInsanityMultiple>정신파동이 주위를 쓸고 지나갔습니다. 당신의 정착지 정착민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미쳤습니다.
     </AnimalInsanityMultiple>
 
     <LetterLabelCropBlight>병충해</LetterLabelCropBlight>
@@ -25,11 +25,10 @@
     <FriendlyRaidCenterDrop>{1}에서 온 우호적인 {0} 집단이 정착지의 바로 위에 착륙했습니다!</FriendlyRaidCenterDrop>
 
     <LetterLabelRefugeePodCrash>탈출용 낙하기</LetterLabelRefugeePodCrash>
-    <RefugeePodCrash>주변에 탈출용 낙하기가 빠르게 추락하는 걸 발견했습니다. \n\n만약 누군가 저 추락에서 살아남았다면 매우 심각하게 다쳤을 것입니다.
-    </RefugeePodCrash>
+    <RefugeePodCrash>주변에 탈출용 낙하기가 빠르게 추락하는 걸 목격했습니다. \n\n만약 누군가 저 추락에서 살아남았다면 심각한 부상을 입었을 것입니다.</RefugeePodCrash>
 
     <LetterLabelCargoPodCrash>화물 낙하기</LetterLabelCargoPodCrash>
-    <CargoPodCrash>주변에 다수의 화물 낙하기가 추락하는 걸 발견했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을지도 모릅니다.</CargoPodCrash>
+    <CargoPodCrash>주변에 다수의 화물 낙하기가 추락하는 걸 목격했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을지도 모릅니다.</CargoPodCrash>
 
     <AnElectricalConduit>전선</AnElectricalConduit>
 
@@ -39,14 +38,14 @@
 
     <ShortCircuitWasHuge>폭발이 정말 크고 아름답습니다.</ShortCircuitWasHuge>
 
-    <TraderArrival>무역선이 근처를 지나갑니다.\n\n{0}의 이름으로 알려진 {1}입니다.</TraderArrival>
+    <TraderArrival>{1} "{0}"이 궤도에 진입했습니다.</TraderArrival>
 
-    <SingleTravelerPassing>{1}에서 온 사람이 마을을 지나가고 있습니다. HIS 이름은 {2}이며 {0}입니다.</SingleTravelerPassing>
+    <SingleTravelerPassing>{1}에서 온 사람이 정착지 근처를 지나가고 있습니다. HIS 이름은 {2}이며, {0}입니다.</SingleTravelerPassing>
 
     <GroupTravelersPassing>{0}의 여행객들이 지나가고 있습니다.</GroupTravelersPassing>
 
     <LetterLabelSingleVisitorArrives>방문객</LetterLabelSingleVisitorArrives>
-    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며 {0}입니다.</SingleVisitorArrives>
+    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며, {0}입니다.</SingleVisitorArrives>
     <LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
     <GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다.</GroupVisitorsArrive>
 
@@ -56,7 +55,7 @@
     <WandererJoin>정착지에 합류하는 사람이 있습니다. HIS 이름은 NAME이며 {0}, {1}입니다.</WandererJoin>
 
     <LetterLabelManhunterPackArrived>인간 사냥꾼</LetterLabelManhunterPackArrived>
-    <ManhunterPackArrived>인간을 사냥하는 {0} 무리가 도착했습니다. 이 주위를 돌아다니면서 눈에 띄는 인간을 사냥할 것입니다. 이들은 문을 통과할 수 없으므로 벽 뒤에 숨으면 안전합니다. 또한 비활성화 상태의 포탑은 공격하지 않으니 포탑을 아끼려면 지금 전원을 끄세요. \n며칠이 지나면 이 지역을 떠날 것입니다.</ManhunterPackArrived>
+    <ManhunterPackArrived>인간을 사냥하는 {0} 무리가 도착했습니다. 이 지역을 돌아다니면서 눈에 띄는 모든 인간을 사냥할 것입니다. 이들은 문을 통과할 수 없으므로 벽 뒤에 숨으면 안전합니다. 또한 비활성화 상태의 포탑은 공격하지 않으니 포탑을 아끼려면 지금 전원을 끄세요. \n며칠이 지나면 이 지역을 떠날 것입니다.</ManhunterPackArrived>
 
 <!-- Crashed ship part-->
     <MessageAnimalInsanityPulse>고대 우주선이 정신파동을 방출해 주변 동물들을 날뛰게 만들었습니다.</MessageAnimalInsanityPulse>
@@ -78,11 +77,11 @@
 
 <!-- Distant psychic drone -->
     <LetterLabelPsychicDrone>정신파동</LetterLabelPsychicDrone>
-    <LetterIncidentPsychicDrone>거주지 모든 {0} 머리에 못질하는 듯한 두통이 느껴지고 있습니다! \n\n멀리 떨어진 증오의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
+    <LetterIncidentPsychicDrone>정착지 모든 {0} 머리에 못질하는 듯한 두통이 느껴지고 있습니다! \n\n멀리 떨어진 증오의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
     </LetterIncidentPsychicDrone>
 
     <LetterLabelPsychicSoothe>정신파동</LetterLabelPsychicSoothe>
-    <LetterIncidentPsychicSoothe>거주지 모든 {0}들이 만족감으로 미소짓고 있습니다! \n\n멀리 떨어진 기쁨의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 좋게 할 것입니다.
+    <LetterIncidentPsychicSoothe>주거지 모든 {0}들이 만족감으로 미소짓고 있습니다! \n\n멀리 떨어진 기쁨의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 좋게 할 것입니다.
     </LetterIncidentPsychicSoothe>
 
 <!-- Beavers -->
@@ -99,7 +98,7 @@
     <LetterLabelAnimalSelfTame>{0}의 복종</LetterLabelAnimalSelfTame>
     <LetterAnimalSelfTame>{0}(이)가 길들여졌습니다.</LetterAnimalSelfTame>
     <LetterAnimalSelfTameAndNameNumerical>{0}(이)가 길들여졌습니다. {1}번으로 분류됩니다.</LetterAnimalSelfTameAndNameNumerical>
-    <LetterAnimalSelfTameAndName>{0}(이)가 길들여졌습니다. 거주민들이 {1}(이)라는 이름을 붙여줬습니다.</LetterAnimalSelfTameAndName>
+    <LetterAnimalSelfTameAndName>{0}(이)가 길들여졌습니다. 정착민들이 {1}(이)라는 이름을 붙여줬습니다.</LetterAnimalSelfTameAndName>
 
 <!-- Farm animals wander in -->
     <LetterLabelFarmAnimalsWanderIn>{0} 무리 합류</LetterLabelFarmAnimalsWanderIn>

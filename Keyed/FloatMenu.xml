@@ -22,7 +22,7 @@
     <MeleeAttackToDeath>{0}(이)가 죽을 때 까지 근접 공격</MeleeAttackToDeath>
     <NoPath>경로 없음</NoPath>
 
-    <ForbiddenLower>금지됨</ForbiddenLower>
+    <ForbiddenLower>상호작용 금지됨</ForbiddenLower>
     <SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
     <PrisonerRoomLower>감옥</PrisonerRoomLower>
     <BurningLower>불타는 중</BurningLower>
@@ -33,7 +33,7 @@
     <NoEmptyGraveLower>적절한 설정의 빈 무덤이 없음</NoEmptyGraveLower>
     <AnimalInteractedTooRecently>최근에 상호작용함</AnimalInteractedTooRecently>
     <NoUsableFood>먹이 없음</NoUsableFood>
-    <AnimalsSkillTooLow>조련 기술 낮음</AnimalsSkillTooLow>
+    <AnimalsSkillTooLow>조련기술 낮음</AnimalsSkillTooLow>
 
     <ConsumeThing>{0} 섭취</ConsumeThing>
   	<Teetotaler>금욕</Teetotaler>
@@ -56,8 +56,8 @@
 
     <NoCryptosleeCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleeCasket>
     <NoPrisonerBed>접근이 가능하고 예약되지 않았으며 폐쇄된 수감자용 침대가 없습니다.</NoPrisonerBed>
-    <NoNonPrisonerBed>접근이 가능하고 예약되지 않은 주민용 침대가 없습니다.</NoNonPrisonerBed>
-    <Reserved>누군가에게 예약되어 있습니다.</Reserved>
+    <NoNonPrisonerBed>접근이 가능하고 예약되지 않은 정착민용 침대가 없습니다.</NoNonPrisonerBed>
+    <Reserved>누군가에게 예약됨</Reserved>
     <ReservedBy>{0}(이)가 예약함</ReservedBy>
     <IsReservedBy>{0}(은)는 {1}에게 예약됨</IsReservedBy>
 
@@ -65,14 +65,14 @@
     <IncapableOfCapacity>{0} 불가능</IncapableOfCapacity>
 
     <Equip>{0} 착용</Equip>
-    <EquipWarningBrawler>(싸움꾼이 좋아하지 않을 것입니다)</EquipWarningBrawler>
-    <CannotEquip>{0}(을)를 착용할 수 없습니다.</CannotEquip>
+    <EquipWarningBrawler>(싸움꾼이 싫어함)</EquipWarningBrawler>
+    <CannotEquip>{0} 착용 불가</CannotEquip>
 
     <ForceWear>{0} 착용 지정</ForceWear>
-    <CannotWear>{0}(을)를 입을 수 없습니다.</CannotWear>
+    <CannotWear>{0} 착용 불가</CannotWear>
 
     <Strip>{0} 벗기기</Strip>
-    <CannotStrip>{0}(을)를 벗길 수 없습니다.</CannotStrip>
+    <CannotStrip>{0} 벗기기 불가</CannotStrip>
 
     <Deposit>{0}(을)를 {1}에 보관</Deposit>
     <CannotDeposit>{0}(을)를 {1}에 보관할 수 없습니다.</CannotDeposit>
@@ -93,7 +93,7 @@
     <CannotMissingHealthActivities>우선시 불가 ({0} 불가능)</CannotMissingHealthActivities>
     <CannotGenericAlreadyAm>이미 {1}(을)를 {0} 중</CannotGenericAlreadyAm>
     <CannotPrioritizeIsNotA>우선시 불가 ({1}(이)가 아님)</CannotPrioritizeIsNotA>
-    <CannotPrioritizeResearch>연구는 우선시 불가 (장기 프로젝트)</CannotPrioritizeResearch>
+    <CannotPrioritizeResearch>연구 우선시 불가 (장기 프로젝트)</CannotPrioritizeResearch>
     <CannotPrioritizeForbidden>우선시 불가 ({0}의 상호작용이 금지됨)</CannotPrioritizeForbidden>
 
 <!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
