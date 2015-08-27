@@ -61,13 +61,12 @@
 	<UploadAlreadyInProgress>이미 올리는 중입니다.</UploadAlreadyInProgress>
 	<WorkshopSubmissionFailed>창작마당에 올리지 못했습니다.\n\n사유: {0}</WorkshopSubmissionFailed>
 	<YouAgreeToSteamWorkshopLegal>이 모드를 올림과 함께 스팀 창작마당 서비스 약관에 동의한 것으로 간주됩니다. 여기를 클릭해 더 알아보세요.</YouAgreeToSteamWorkshopLegal>
-	<WorkshopUploadSucceeded>Successfully uploaded {0}.</WorkshopUploadSucceeded>
-	<DownloadingMod>Downloading {0}</DownloadingMod>
+	<WorkshopUploadSucceeded>{0}(을)를 성공적으로 업로드 했습니다.</WorkshopUploadSucceeded>
+	<DownloadingMod>{0} 다운로드 중</DownloadingMod>
 
 	<!--=========== Storyteller chooser ==========-->
 	<ChooseAIStoryteller>이야기꾼의 인공지능 선택</ChooseAIStoryteller>
-	<HowStorytellersWork>이야기꾼의 인공지능에 따라서 습격, 외부 자원 불시착이나 동물의 공격과 같은 이벤트가 발생합니다.
-		\n\n선택한 사항에 따라서 정착지의 이야기가 달라지게 될 것입니다.
+	<HowStorytellersWork>이야기꾼의 인공지능에 따라서 습격, 외부 자원 불시착이나 동물의 공격과 같은 이벤트가 발생합니다.\n\n선택한 사항에 따라서 정착지의 이야기가 달라지게 될 것입니다.
 	</HowStorytellersWork>
 	<MustChooseChallengeScale>도전할 난이도 설정을 선택해야 합니다.</MustChooseChallengeScale>
 	<Difficulty>난이도</Difficulty>
@@ -104,13 +103,9 @@
 
 	<!--=========== Character chooser ==========-->
 	<CreateCharacters>캐릭터 생성</CreateCharacters>
-	<FirstNameDesc>캐릭터의 이름입니다.
-		\n\n특정한 메뉴에서만 보여집니다.</FirstNameDesc>
-	<ShortIdentifierDesc>캐릭터의 별명이며 게임 속에서 항상 표시됩니다.
-		\n\n이름 또는 성과 동일하게 적을 수 있으며, 새로운 닉네임을 부여해도 됩니다.
-	</ShortIdentifierDesc>
-	<LastNameDesc>캐릭터의 성입니다.
-		\n\n특정한 메뉴에서만 보여집니다.</LastNameDesc>
+	<FirstNameDesc>캐릭터의 이름입니다.\n\n특정한 메뉴에서만 보여집니다.</FirstNameDesc>
+	<ShortIdentifierDesc>캐릭터의 별명이며 게임 속에서 항상 표시됩니다.\n\n이름 또는 성과 동일하게 적을 수 있으며, 새로운 닉네임을 부여해도 됩니다.</ShortIdentifierDesc>
+	<LastNameDesc>캐릭터의 성입니다.\n\n특정한 메뉴에서만 보여집니다.</LastNameDesc>
 	<Randomize>자동</Randomize>
 	<AgeIndicator>나이 {0}</AgeIndicator>
 	<Backstory>성장 환경</Backstory>
