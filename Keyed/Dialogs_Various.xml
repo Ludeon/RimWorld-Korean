@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LanguageData>
+
+    <Confirm>확인</Confirm>
+    <GoBack>뒤로</GoBack>
+    <OK>확인</OK>
+
+<!-- Recovered from errors caused by mods -->
+    <RecoveredFromErrorsDialogTitle>호환 불가 또는 손상된 모드로 인한 오류에서 복구됨</RecoveredFromErrorsDialogTitle>
+    <RecoveredFromErrorsText>활성화된 모드 중 일부가 오류를 일으키고 있는 것 같습니다.\n\n서로와 호환이 되지 않거나, 다른 버전의 림월드를 위한 모드거나, 어쩌면 손상된 모드일수도 있습니다.\n\n모든 모드가 비활성화되었으며, 모드 설정에서 다시 활성화할 수 있습니다.</RecoveredFromErrorsText>
+
+<!-- Save/load -->
+    <SaveGameButton>저장</SaveGameButton>
+    <OverwriteButton>덮어쓰기</OverwriteButton>
+    <LoadGameButton>불러오기</LoadGameButton>
+    <ConfirmDelete>정말 {0} 파일을 삭제하시겠습니까?</ConfirmDelete>
+    <DeleteThisSavegame>저장된 게임을 삭제합니다.</DeleteThisSavegame>
+    <SavedAs>진행 사항이 {0} 파일에 저장되었습니다.</SavedAs>
+    <NeedAName>저장될 파일의 이름을 입력해 주세요.</NeedAName>
+    <LoadingLongEvent>불러오는 중...</LoadingLongEvent>
+    <SaveIsFromDifferentGameVersion>현재 버전은 {0}이지만 이 파일은 다른 버전인 {1}에서 생성되었습니다.\n\n불러오기가 실패할 수 있습니다.</SaveIsFromDifferentGameVersion>
+    <SaveIsFromDifferentGameBuild>현재 버전은 {0}이지만 이 파일은 다른 패치인 버전 {1}에서 생성되었습니다.\n\n불러오기에 문제가 생길 수 있습니다.</SaveIsFromDifferentGameBuild>
+    <SaveIsFromThisGameBuild>이 파일은 현재 버전에서 생성된 파일입니다. 별 문제는 없을 것입니다.</SaveIsFromThisGameBuild>
+    <SaveIsUnknownFormat>저장된 파일의 형식을 읽을 수 없습니다. 불러오기가 실패할 수 있습니다.</SaveIsUnknownFormat>
+    <ProblemSavingFile>파일 {0}에 저장 중 다음 문제가 발생하였습니다.\n\n{1}</ProblemSavingFile>
+
+<!-- Colony naming-->
+    <NameColonyMessage>당신은 한동안 이 곳에 머물러야 할 것으로 보입니다. 이 참에 정착지의 이름을 정하자는 {0}의 제안이 들어왔습니다. \n\n이 곳을 어떻게 부르면 좋을까요?</NameColonyMessage>
+    <ColonyGainsName>이제부터 정착지는 {0}의 이름으로 알려집니다.</ColonyGainsName>
+    <ColonyNameIsInvalid>이름이 유효하지 않습니다.</ColonyNameIsInvalid>
+
+<!-- Zone naming -->
+    <ZoneGainsName>그 구역의 이름은 이제 {0}입니다.</ZoneGainsName>
+    <ZoneNameIsInvalid>이름이 유효하지 않습니다.</ZoneNameIsInvalid>
+
+<!-- Pawn naming -->
+    <PawnGainsName>그 정착민의 별명은 이제 {0}입니다.</PawnGainsName>
+
+<!-- Save game incompatible warning -->
+    <VersionMismatch>버전 불일치</VersionMismatch>
+    <SaveGameIncompatibleWarningText>이 지도는 버전 {0}에서 생성되었습니다.\n현재 버전은 {1}입니다.\n\n해당 지도를 불러오게 될 경우 호환성에 문제가 발생할 수 있습니다.
+    </SaveGameIncompatibleWarningText>
+    <WorldFileVersionMismatch>이 세계는 버전 {0}에서 생성되었습니다.\n현재 버전은 {1}입니다.\n\n해당 세계를 불러오게 될 경우 호환성에 문제가 발생할 수 있습니다. 새로운 세계를 생성하는 편이 좋습니다.
+    </WorldFileVersionMismatch>
+    <ModsMismatchWarningTitle>모드 불일치</ModsMismatchWarningTitle>
+    <ModsMismatchWarningText>이 지도는 현재 작동중인 모드와 다른 모드를 사용합니다. 불러오려는 시도는 모드에 따라 성공할 수도, 실패할 수도 있습니다. \n\n해당 지도의 모드 목록(순서대로):\n\n{0}\n\n현재 사용중인 모드 목록:\n\n{1}</ModsMismatchWarningText>
+
+<!-- Resolution change dialog -->
+    <ConfirmResolutionChange>변경한 해상도가 정상적으로 표시되고 있습니까? \n\n{0}초 후에 이전 해상도로 되돌아 갑니다.</ConfirmResolutionChange>
+    <ResolutionKeep>변경한 설정 유지</ResolutionKeep>
+    <ResolutionRevert>되돌리기</ResolutionRevert>
+
+<!-- Research -->
+    <Research>연구</Research>
+    <Researched>연구됨</Researched>
+    <Unresearched>연구되지 않음</Unresearched>
+    <Finished>연구 완료</Finished>
+    <InProgress>연구중</InProgress>
+    <ResearchMenuWithoutBench>연구대를 건설하기 전까지 정착민들은 연구 활동을 할 수 없습니다. 그러나 연구 목록을 보고 다음 연구를 예약하는 것은 가능합니다.</ResearchMenuWithoutBench>
+
+<!-- Advanced game start options -->
+    <MapTemperatureDangerWarning>경고: 얼어붙은 환경에 착륙하게 될 것이며 생존하기 매우 힘들 수 있습니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 날짜를 선택하세요.
+    </MapTemperatureDangerWarning>
+    <MapSizePerformanceWarning>경고: 지도의 규모가 넓어질수록 게임의 품질이 저하될 것입니다. \n\n초대형 크기는 아직 검증되지 않았으며 게임이 잘 진행되지 않을 수 있습니다.
+    </MapSizePerformanceWarning>
+    <MapSize>지도의 규모</MapSize>
+    <MapSizeDesc>{0}x{0} ({1}칸)</MapSizeDesc>
+    <MapSizeSmall>소형</MapSizeSmall>
+    <MapSizeMedium>중형</MapSizeMedium>
+    <MapSizeLarge>대형</MapSizeLarge>
+    <MapSizeExtreme>초대형</MapSizeExtreme>
+    <MapStartMonth>착륙하는 날짜:</MapStartMonth>
+    <MapStartMonthDefault>자동</MapStartMonthDefault>
+
+<!-- Bill config -->
+    <Suspended>일시 정지</Suspended>
+    <NotSuspended>작업 진행중</NotSuspended>
+    <SuspendedAllCaps>일시 정지</SuspendedAllCaps>
+    <RepeatCount>{0}번 반복</RepeatCount>
+    <Forever>계속</Forever>
+    <Details>상세</Details>
+    <IngredientSearchRadius>재료 범위</IngredientSearchRadius>
+    <TargetCount>{0}개까지 반복 작업</TargetCount>
+    <Counting>개수:</Counting>
+    <Infinite>무한</Infinite>
+    <MinimumSkillLevel>최소 {0}등급 요구량</MinimumSkillLevel>
+
+    <RecipeCannotHaveTargetCount>(이 제조법은 여러 혹은 예측 불가능한 결과로 인해 목표 작업 수를 지정할 수 없습니다.)</RecipeCannotHaveTargetCount>
+    <WorkAmount>작업량</WorkAmount>
+    <MinimumSkills>최소 요구기술:</MinimumSkills>
+    <BillRequires>{0} {1} 필요</BillRequires>
+    <BillRequiresNutrition>영양가 {0} 필요</BillRequiresNutrition>
+    <BillRequiresMayVary>(금과 같은 소형 재료는 필요량의 20배가 필요합니다.)</BillRequiresMayVary>
+    <ThisIsSmallVolume>이 재료는 소규모 재료입니다. 소규모 재료의 한 단위는 다른 재료의 1/20이며, 같은 계획서라도 일반 수량의 20배를 필요로 합니다.</ThisIsSmallVolume>
+    <UsableIngredients>사용 할 수 있는 재료</UsableIngredients>
+    <DoXTimes>설정한 횟수까지 작업</DoXTimes>
+    <DoUntilYouHaveX>목표 수량까지 계속작업</DoUntilYouHaveX>
+    <DoForever>계속 작업</DoForever>
+    <CurrentlyHave>현재 개수:</CurrentlyHave>
+    <BillRepeatTargetCountShort>{0}개 유지</BillRepeatTargetCountShort>
+    <BillStoreMode_DropOnFloor>바닥에 내려놓기</BillStoreMode_DropOnFloor>
+    <BillStoreMode_BestStockpile>저장소로 옮기기</BillStoreMode_BestStockpile>
+    <BillStoreMode_NearestStockpileAnyPriority>가까운 저장소로 가지고 가기</BillStoreMode_NearestStockpileAnyPriority>
+
+<!-- Info Card -->
+    <Damage>피해량</Damage>
+    <Accuracy>정확도</Accuracy>
+    <BurstShotCount>연발 횟수</BurstShotCount>
+    <WarmupTime>조준시간</WarmupTime>
+    <MeleeWarmupTime>근접 조준시간</MeleeWarmupTime>
+    <CooldownTime>대기시간</CooldownTime>
+    <BurstShotFireRate>발사속도</BurstShotFireRate>
+    <Range>사거리</Range>
+    <GrowsWild>야생에서 자람</GrowsWild>
+    <Harvestable>수확 가능</Harvestable>
+    <LimitedLifespan>수명 짧음</LimitedLifespan>
+    <GrowingTime>성장에 필요한 기간</GrowingTime>
+    <GrowingTimeDesc>식물은 오직 낮에만, 빛이 충분할 때 자랍니다. 이 항목은 식물이 자라는 데만 시간이 얼마나 걸리는 지 보여주며, 실제 자라는 시간은 보통 이 두 배입니다. 적정 온도를 벗어나는 환경도 자라는 시간을 늘립니다.</GrowingTimeDesc>
+    <Days>일</Days>
+    <FertilityRequirement>토질 조건</FertilityRequirement>
+    <LightRequirement>조명 조건</LightRequirement>
+    <Attributes>속성</Attributes>
+    <LifeSpan>수명</LifeSpan>
+    <Nutrition>열량</Nutrition>
+    <Joy>재미</Joy>
+    <FoodQuality>음식의 품질</FoodQuality>
+    <WalkSpeedProperty>이동 속도</WalkSpeedProperty>
+    <MeleeDamage>근접 피해량</MeleeDamage>
+    <MinFoodQuality>음식의 최소 품질</MinFoodQuality>
+    <Diet>식성</Diet>
+    <RecruitDifficulty>설득 난이도</RecruitDifficulty>
+    <MarketValue>시장 기본가</MarketValue>
+    <Covers>보호</Covers>
+    <BodyPartEfficiency>신체 효율성</BodyPartEfficiency>
+    <MoodChange>기분 변화</MoodChange>
+    <Wildness>야성</Wildness>
+    <WildnessExplanation>야성 수치가 높을수록 조련 과정이 어렵습니다.</WildnessExplanation>
+    <AnimalFilthRate>오물 생성 주기</AnimalFilthRate>
+    <AnimalFilthRateExplanation>동물들은 건설된 바닥 위를 돌아다닐 때 오물을 생성합니다. 이 수치는 동물이 {0}칸을 걸어다녔을 때 생성되는 오물의 평균적인 양을 나타냅니다.\n\n커다랗거나 애완용으로 적절하지 않은 동물들일수록 오물을 더 많이 만듭니다.</AnimalFilthRateExplanation>
+
+<!-- Trade -->
+    <DragToTrade>숫자 드래그로 거래</DragToTrade>
+    <BuyPriceDesc>구매하기 위해 지불해야 할 가격</BuyPriceDesc>
+    <SellPriceDesc>판매하여 받는 대금</SellPriceDesc>
+    <PriceTypeDesc>해당 아이템에 대해서 이 가격은 {0}.</PriceTypeDesc>
+    <ColonyCount>정착지가 지닌 거래 가능한 수량. \n\n판매하기 위해서는 물건이 무역 송신기 근처에 있어야 합니다.</ColonyCount>
+    <TraderCount>상선이 보유한 수량</TraderCount>
+    <AcceptButton>수락</AcceptButton>
+    <ResetButton>초기화</ResetButton>
+    <CancelButton>취소</CancelButton>
+    <YourTradeableSilver>거래에 사용 가능한 은: {0}</YourTradeableSilver>
+    <YourTradeableSilverTip>은을 이용하여 거래를 하려면 야외에 무역 송신기를 설치하고, 송신기의 범위 안에서 거래에 사용될 은이나 아이템들을 두어야 합니다.
+    </YourTradeableSilverTip>
+    <TraderHasNoMore>상선이 물건을 더 가지고 있지 않습니다.</TraderHasNoMore>
+    <ColonyHasNoMore>더 판매할 수 없습니다.</ColonyHasNoMore>
+    <TraderWillNotTrade>상선에서 물건을 원하지 않습니다.</TraderWillNotTrade>
+    <NegotiatorTalkingImpaired>{0}의 건강이 좋지 않아 말을 제대로 할 수 없습니다. \n\n거래 가격에 영향이 있을 수 있습니다. \n\n더 건강한 사람으로 대체하는 것을 고려하세요.</NegotiatorTalkingImpaired>
+    <ConfirmTraderShortFunds>상선이 충분한 양의 은을 보유하고 있지 않습니다. 계속 하시겠습니까?</ConfirmTraderShortFunds>
+    <SortBy>정렬</SortBy>
+
+<!-- Comms -->
+    <SocialSkillIs>사교기술: {0}</SocialSkillIs>
+
+<!--Research-->
+    <ResearchFinished>연구 완료: {0}</ResearchFinished>
+    <ResearchScreen>연구 화면</ResearchScreen>
+
+<!--HistoryUpload-->
+    <HistoryUploadMessage>유저들의 게임 이용 정보는 게임 개발에 도움이 됩니다. 만약 동의하신다면, 인게임 시간으로 {0} 일마다 (또는 게임 종료 같이 특별한 경우) 게임 이용 정보가 RimWorld 서버로 전송되어 분석됩니다. 전송되는 정보는 게임을 이용하면서 발생되는 진행정보와 통계자료뿐이며 본 게임의 환경설정에 지정된 사용자 이름 이외의 개인정보는 수집되지 않습니다. 따라서 완벽하게 익명으로 전송됩니다
+    </HistoryUploadMessage>
+    <HistoryUploadMessagePlayerName>정보가 익명으로 처리가 된다고 하더라도, 사용자 이름에 실명을 적으실 수 있습니다.</HistoryUploadMessagePlayerName>
+
+    <HistoryUploadYes>이용 정보 전송 허용</HistoryUploadYes>
+    <HistoryUploadNo>이용 정보 전송 금지</HistoryUploadNo>
+    <HistoryUploadYesOnce>이번만 전송</HistoryUploadYesOnce>
+    <HistoryUploadNoOnce>나중에</HistoryUploadNoOnce>
+
+<!-- Outfit management -->
+    <Outfit>복장</Outfit>
+    <SelectOutfit>복장 선택...</SelectOutfit>
+    <NewOutfit>새 복장</NewOutfit>
+    <DeleteOutfit>복장 삭제...</DeleteOutfit>
+    <OutfitInUse>복장이 {0}에 의해 사용 중입니다.</OutfitInUse>
+    <NoOutfitSelected>복장이 선택되지 않음</NoOutfitSelected>
+
+</LanguageData>

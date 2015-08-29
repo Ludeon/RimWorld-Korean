@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<!-- ITab titles -->
+    <TabBills>계획서</TabBills>
+    <TabGrowing>재배</TabGrowing>
+    <TabCharacter>캐릭터</TabCharacter>
+    <TabTraining>훈련</TabTraining>
+    <TabPrisoner>죄수</TabPrisoner>
+    <TabGuest>방문객</TabGuest>
+    <TabGear>장비</TabGear>
+    <TabNeeds>욕구</TabNeeds>
+    <TabStorage>보관</TabStorage>
+    <TabHealth>건강</TabHealth>
+    <TabRace>종류</TabRace>
+    <TabBasics>기본</TabBasics>
+    <TabStats>통계</TabStats>
+    <TabArt>예술</TabArt>
+
+<!-- Bills tab  -->
+    <AddBill>계획서 추가</AddBill>
+    <RecipeRequiresSkills>{0}의 요구사항은 아래와 같습니다. 어떠한 정착민도 이 기술을 가지고 있지 않기 때문에 누구도 이를 하지 못합니다.</RecipeRequiresSkills>
+    <MinimumSkill>최소 기술</MinimumSkill>
+    <SuspendedCaps>일시 중지</SuspendedCaps>
+    <BoundWorkerIs>작업자: {0}</BoundWorkerIs>
+    <PlantVerb>심기</PlantVerb>
+
+<!-- Guest/Prisoner tab -->
+    <RecruitmentDifficulty>포섭 난이도</RecruitmentDifficulty>
+    <GetsFood>음식 제공</GetsFood>
+    <DoctorsCare>의사 진료</DoctorsCare>
+    <GetsMedicine>약품 제공</GetsMedicine>
+    <ShouldTryToRecruit>포섭 시도</ShouldTryToRecruit>
+    <PrisonerNoInteraction>상호작용 없음</PrisonerNoInteraction>
+    <PrisonerFriendlyChat>다정한 대화</PrisonerFriendlyChat>
+    <PrisonerAttemptRecruit>대화 및 포섭</PrisonerAttemptRecruit>
+    <PrisonerRelease>석방</PrisonerRelease>
+    <PrisonerExecution>처형</PrisonerExecution>
+
+<!-- Medical - general -->
+    <MoveSpeed>이동속도</MoveSpeed>
+    <Efficiency>능률</Efficiency>
+    <MissingBodyPart>사라짐</MissingBodyPart>
+    <DestroyedBodyPart>파괴됨</DestroyedBodyPart>
+    <ShatteredBodyPart>부서짐</ShatteredBodyPart>
+    <RemovedBodyPart>제거됨</RemovedBodyPart>
+    <Healthy>건강함</Healthy>
+    <InPain>고통스러움</InPain>
+    <PainLevel>고통</PainLevel>
+    <Dead>죽음</Dead>
+    <Unconscious>잃음</Unconscious>
+    <PainShock>쇼크</PainShock>
+    <Injured>부상</Injured>
+    <NoInjuries>(부상 없음)</NoInjuries>
+    <WholeBody>전신</WholeBody>
+    <DataProcessing>데이터 처리</DataProcessing>
+    <Communication>통신</Communication>
+    <AffectsLower>영향있음</AffectsLower>
+    <BleedingRate>출혈량</BleedingRate>
+    <HealthOverview>개요</HealthOverview>
+    <MedicalOperationsShort>수술 ({0})</MedicalOperationsShort>
+    <MedicalOperationsMechanoidsShort>개조 ({0})</MedicalOperationsMechanoidsShort>
+    <MedicalOperations>의료 작업</MedicalOperations>
+    <Amputate>절단</Amputate>
+    <Harvest>장기 적출</Harvest>
+
+<!-- Medical - Body and activities condition -->
+    <None>없음</None>
+    <VeryPoor>매우 나쁨</VeryPoor>
+    <Poor>나쁨</Poor>
+    <Weakened>약화됨</Weakened>
+    <GoodCondition>좋음</GoodCondition>
+    <Enhanced>강화됨</Enhanced>
+    <SeriouslyImpaired>심각하게 손상됨</SeriouslyImpaired>
+    <Impaired>손상됨</Impaired>
+    <SlightlyImpaired>경미하게 손상됨</SlightlyImpaired>
+    <NoPain>없음</NoPain>
+    <LittlePain>약간</LittlePain>
+    <MediumPain>중간</MediumPain>
+    <SeverePain>극심</SeverePain>
+    <ExtremePain>극도</ExtremePain>
+
+<!-- Training tab-->
+    <TrainableIntelligence>훈련시 지능</TrainableIntelligence>
+    <CannotTrainNotSmartEnough>훈련시 지능 필요: {0}.</CannotTrainNotSmartEnough>
+    <CannotTrainTooSmall>{0}의 크기가 훈련을 받기에 너무 작습니다.</CannotTrainTooSmall>
+
+    <TrainingNeedsPrerequisite>선행훈련 필요: {0}</TrainingNeedsPrerequisite>
+
+</LanguageData>

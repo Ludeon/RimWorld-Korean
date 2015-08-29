@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LanguageData>
+    <CommandForbiddenDesc>금지 - 정착민들과의 상호작용을 금지합니다.</CommandForbiddenDesc>
+    <CommandNotForbiddenDesc>허가 - 정착민들과의 상호작용을 허가합니다.</CommandNotForbiddenDesc>
+
+<!-- Power -->
+    <CommandTogglePowerLabel>전원 설정</CommandTogglePowerLabel>
+    <CommandTogglePowerDesc>전원을 켜고 끕니다.</CommandTogglePowerDesc>
+
+    <CommandDesignateTogglePowerLabel>전원 설정 예약</CommandDesignateTogglePowerLabel>
+    <CommandDesignateTogglePowerDesc>전원을 켜고 끄도록 예약합니다. 정착민이 와서 스위치를 조작할 것입니다.</CommandDesignateTogglePowerDesc>
+
+    <CommandTryReconnectLabel>재연결</CommandTryReconnectLabel>
+    <CommandTryReconnectDesc>연결 반경의 다른 전원망에 연결합니다. 전원이 끊긴 망에 연결되어 있지만 근처에 전원이 공급되는 다른 망이 있을 경우 유용합니다.
+    </CommandTryReconnectDesc>
+
+    <CommandGatherSpotToggleLabel>집합 지점</CommandGatherSpotToggleLabel>
+    <CommandGatherSpotToggleDescActive>활성 - 정착민들이 집합 지점으로 모입니다.</CommandGatherSpotToggleDescActive>
+    <CommandGatherSpotToggleDescInactive>비활성 - 정착민들이 집합 지점으로 모이지 않습니다.</CommandGatherSpotToggleDescInactive>
+
+<!-- Drafting -->
+    <CommandDraftLabel>소집</CommandDraftLabel>
+    <CommandUndraftLabel>해제</CommandUndraftLabel>
+    <CommandToggleDraftDesc>소집 상태를 설정할 수 있습니다. 소집된 정착민들은 전투에 임하게 되며 스스로 일을 하거나 음식을 섭취하거나 휴식하지 않습니다.
+    </CommandToggleDraftDesc>
+    <IsIncapped>{0}(은)는 행동 불능 상태입니다.</IsIncapped>
+
+    <CommandCancelConstructionLabel>취소</CommandCancelConstructionLabel>
+    <CommandCancelConstructionDesc>건설을 취소합니다.</CommandCancelConstructionDesc>
+
+    <CommandGetOutOfBedLabel>침대 밖으로 나가기</CommandGetOutOfBedLabel>
+    <CommandGetOutOfBedDesc>현재 침대에서 나갑니다.</CommandGetOutOfBedDesc>
+
+    <CommandBedSetOwnerLabel>소유자 설정</CommandBedSetOwnerLabel>
+    <CommandBedSetOwnerDesc>특정 정착민에게 침대를 할당합니다.</CommandBedSetOwnerDesc>
+    <CommandGraveAssignColonistLabel>정착민 할당</CommandGraveAssignColonistLabel>
+    <CommandGraveAssignColonistDesc>이 무덤을 특정 정착민의 소유로 만듭니다.</CommandGraveAssignColonistDesc>
+    <CommandGraveSetToUnassignedLabel>할당 해제</CommandGraveSetToUnassignedLabel>
+    <CommandGraveSetToUnassignedDesc>이 무덤을 누구에게도 할당되지 않은 상태로 만듭니다.</CommandGraveSetToUnassignedDesc>
+    <BuildingAssign>할당</BuildingAssign>
+    <CommandBedSetForPrisonersLabel>수감자 전용으로 변경</CommandBedSetForPrisonersLabel>
+    <CommandBedSetForPrisonersDesc>방 안에 존재하는 모든 침대를 수감자 전용으로 변경합니다</CommandBedSetForPrisonersDesc>
+    <CommandBedSetForPrisonersFailOutdoors>야외에 배치된 침대는 수감자 전용으로 사용할 수 없습니다.</CommandBedSetForPrisonersFailOutdoors>
+    <CommandBedSetForColonistsLabel>정착민 전용으로 변경</CommandBedSetForColonistsLabel>
+    <CommandBedSetForColonistsDesc>방 안에 존재하는 모든 침대를 정착민 전용으로 변경합니다.</CommandBedSetForColonistsDesc>
+    <CommandBedSetAsMedicalLabel>의료용 침대로 설정</CommandBedSetAsMedicalLabel>
+    <CommandBedSetAsMedicalDesc>침대를 의료용으로 할당합니다.</CommandBedSetAsMedicalDesc>
+    <CommandBedSetAsNonMedicalLabel>비의료용 침대로 설정</CommandBedSetAsNonMedicalLabel>
+    <CommandBedSetAsNonMedicalDesc>침대를 일반 침대로 되돌립니다.</CommandBedSetAsNonMedicalDesc>
+    <TurningOnPrisonerBedWarning>정착민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 수감자 전용 침대가 있는 방은 감옥으로 사용됩니다. \n\n아래 정착민들은 사용하던 침대의 소유권을 잃게 됩니다.
+    </TurningOnPrisonerBedWarning>
+    <TurningOffPrisonerBedWarning>정착민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 정착민 전용 침대가 있는 방은 감옥으로 사용 되지 않습니다. \n\n아래 수감자들은 사용하던 침대의 소유권을 잃게 됩니다.
+    </TurningOffPrisonerBedWarning>
+    <AreYouSure>정말 실행하시겠습니까?</AreYouSure>
+
+    <CommandDetonateLabel>폭파</CommandDetonateLabel>
+    <CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
+
+    <CommandRenameZoneLabel>이름 변경</CommandRenameZoneLabel>
+    <CommandRenameZoneDesc>이 구역의 이름을 변경합니다.</CommandRenameZoneDesc>
+
+    <CommandHideZoneLabel>숨기기</CommandHideZoneLabel>
+    <CommandUnhideZoneLabel>보이기</CommandUnhideZoneLabel>
+    <CommandHideZoneDesc>이 구역을 지도에서 숨기거나 표시합니다.</CommandHideZoneDesc>
+
+    <CommandDeleteZoneLabel>제거</CommandDeleteZoneLabel>
+    <CommandDeleteZoneDesc>이 구역을 제거합니다.</CommandDeleteZoneDesc>
+
+    <CommandCopyZoneSettingsLabel>설정 복사</CommandCopyZoneSettingsLabel>
+    <CommandCopyZoneSettingsDesc>다른 구역에 적용할 수 있도록 이 구역의 설정을 복사합니다.</CommandCopyZoneSettingsDesc>
+
+    <CommandPasteZoneSettingsLabel>설정 붙여넣기</CommandPasteZoneSettingsLabel>
+    <CommandPasteZoneSettingsDesc>이 구역의 설정을 복사한 설정으로 덮어씁니다.</CommandPasteZoneSettingsDesc>
+
+    <CommandAllowSow>재배 허용</CommandAllowSow>
+    <CommandAllowSowDesc>비활성화된 경우 정착민들은 이 구역에 식물을 심지 않습니다. 수확은 가능합니다.</CommandAllowSowDesc>
+
+<!-- Artillery -->
+    <CommandSetForceAttackTarget>강제 사격 지점 설정</CommandSetForceAttackTarget>
+    <CommandSetForceAttackTargetDesc>사격 지점을 강제로 설정하여 터렛이 계속 공격할 수 있도록 합니다.</CommandSetForceAttackTargetDesc>
+    <CommandStopForceAttack>강제 사격 중지</CommandStopForceAttack>
+    <CommandStopForceAttackDesc>강제 사격을 중지하여 터렛이 자율적으로 공격할 수 있도록 합니다.</CommandStopForceAttackDesc>
+    <CommandStopAttackFailNotForceAttacking>강제 사격 상태가 아닙니다.</CommandStopAttackFailNotForceAttacking>
+    <MessageTargetBeyondMaximumRange>대상이 너무 멀리 있습니다.</MessageTargetBeyondMaximumRange>
+    <MessageTargetBelowMinimumRange>대상이 너무 가까이 있습니다.</MessageTargetBelowMinimumRange>
+
+<!-- Ship computer core -->
+    <CommandShipLaunch>우주선 발사</CommandShipLaunch>
+    <CommandShipLaunchDesc>설정된 순서대로 우주선 발사 절차를 실행합니다.</CommandShipLaunchDesc>
+    <CommandShipLaunchReport>절차 보고서 확인</CommandShipLaunchReport>
+    <CommandShipLaunchReportDesc>우주선을 발사할 수 있는지 절차를 확인합니다.</CommandShipLaunchReportDesc>
+
+<!-- Pod -->
+    <CommandPodEject>동면중인 정착민 깨우기</CommandPodEject>
+    <CommandPodEjectDesc>동면장치에서 자고 있는 정착민을 깨우고 밖으로 데려옵니다.</CommandPodEjectDesc>
+    <CommandPodEjectFailEmpty>아무도 탑승하지 않았습니다.</CommandPodEjectFailEmpty>
+
+<!-- Door -->
+    <CommandToggleDoorForbid>상호작용 설정</CommandToggleDoorForbid>
+    <CommandToggleDoorForbidDesc>문의 상호작용이 금지된 경우 정착민들과 우호세력은 이 문을 통해 이동하지 않습니다. 적대세력과 동물들은 영향을 받지 않습니다.</CommandToggleDoorForbidDesc>
+    <CommandToggleDoorHoldOpen>열어두기</CommandToggleDoorHoldOpen>
+    <CommandToggleDoorHoldOpenDesc>활성화된 경우 정착민들이 이 문을 열고 지나간 후에도 닫히지 않습니다.</CommandToggleDoorHoldOpenDesc>
+
+<!-- Art -->
+    <CommandInstall>설치</CommandInstall>
+    <CommandInstallDesc>이 물건은 현재 포장되어 운반되거나 보관할 수 있습니다. 이 명령으로 물건을 특정 위치에 설치할 수 있습니다.</CommandInstallDesc>
+
+<!-- Temperature control -->
+    <CommandResetTemp>초기화</CommandResetTemp>
+    <CommandResetTempDesc>해당 방의 설정된 온도를 초기화합니다.</CommandResetTempDesc>
+    <CommandRaiseTempDesc>설정된 온도를 증가시킵니다.</CommandRaiseTempDesc>
+    <CommandLowerTempDesc>설정된 온도를 감소시킵니다.</CommandLowerTempDesc>
+
+<!-- Trade beacon -->
+    <CommandMakeBeaconStockpileDesc>이 송신기의 범위만큼 정확히 저장구역을 설정합니다.</CommandMakeBeaconStockpileDesc>
+    <CommandMakeBeaconStockpileLabel>저장구역 생성</CommandMakeBeaconStockpileLabel>
+
+<!-- Sun lamp -->
+    <CommandSunLampMakeGrowingZoneDesc>이 조명의 범위만큼 정확히 재배구역을 설정합니다.</CommandSunLampMakeGrowingZoneDesc>
+    <CommandSunLampMakeGrowingZoneLabel>재배구역 생성</CommandSunLampMakeGrowingZoneLabel>
+
+<!-- Trap -->
+    <CommandAutoRearm>자동 재장전</CommandAutoRearm>
+    <CommandAutoRearmDesc>활성화된 경우, 이 함정이 사용되었을 때 자동으로 재장전 지시가 내려집니다.</CommandAutoRearmDesc>
+
+<!-- Animal control -->
+    <CommandReleaseAnimalsLabel>동물 풀기</CommandReleaseAnimalsLabel>
+    <CommandReleaseAnimalsDesc>이 명령이 켜진 경우 동물들이 자유롭게 적을 공격할 수 있습니다. 꺼진 경우 각자의 주인 곁에 머물며 경호합니다.</CommandReleaseAnimalsDesc>
+
+</LanguageData>
