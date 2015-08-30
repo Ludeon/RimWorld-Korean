@@ -55,6 +55,14 @@
 
 	<Pregnant.label>임신</Pregnant.label>
 	<rep>
+		<path>Pregnant.comps[0].discoverLetterLabel</path>
+		<trans>{0}의 임신</trans>
+	</rep>
+	<rep>
+		<path>Pregnant.comps[0].discoverLetterText</path>
+		<trans>{0}(이)가 임신했습니다!</trans>
+	</rep>
+	<rep>
 		<path>Pregnant.stages[1].label</path>
 		<trans>중기</trans>
 	</rep>
