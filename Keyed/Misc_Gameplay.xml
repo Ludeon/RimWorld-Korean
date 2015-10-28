@@ -3,7 +3,7 @@
 <LanguageData>
 
 <!-- Various -->
-    <WorkLeft>남은 작업 수</WorkLeft>
+    <WorkLeft>남은 작업 량</WorkLeft>
     <Contents>내용물</Contents>
     <ContainedResources>포함된 자원</ContainedResources>
     <ForPrisonerUse>죄수용</ForPrisonerUse>
@@ -109,7 +109,7 @@
     <AreaLower>구역</AreaLower>
 
 <!-- Shooting report -->
-    <WeaponMissRadius>무기 빗나감 범위</WeaponMissRadius>
+    <WeaponMissRadius>무기 탄착 범위</WeaponMissRadius>
     <ShootReportShooterAbility>사수</ShootReportShooterAbility>
     <ShootReportWeapon>무기</ShootReportWeapon>
     <Darkness>어두움</Darkness>
@@ -244,16 +244,16 @@
     <FireSizeLower>화염 크기 {0}</FireSizeLower>
 
 <!-- Map conditions (eclipse, solar flare, etc )-->
-    <MapConditionsTip>특별한 현상이 이 지역에 영향을 끼치고 있습니다.</MapConditionsTip>
+    <MapConditionsTip>특이한 현상이 이 지역에 영향을 끼치고 있습니다.</MapConditionsTip>
 
 <!-- Building placement -->
     <NoStuffsToBuildWith>건설에 필요한 재료가 충분하지 않습니다.</NoStuffsToBuildWith>
 
 <!-- Building placement restricters -->
     <MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
-    <MustPlaceHeadOnShipBeam>우주선 지지부에 머리를 맞대고 있어야 합니다.</MustPlaceHeadOnShipBeam>
-    <MustPlaceNextToHopperAccepter>깔대기가 필요한 건물의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
-    <MustPlaceOnSteamGeyser>증기 간혈천 위에 배치되어야합니다.</MustPlaceOnSteamGeyser>
+    <MustPlaceHeadOnShipBeam>앞 부분이 우주선 구조부에 장착돼야 있어야 합니다.</MustPlaceHeadOnShipBeam>
+    <MustPlaceNextToHopperAccepter>투입구는 필요한 시설의 옆에 배치되어야합니다.</MustPlaceNextToHopperAccepter>
+    <MustPlaceOnSteamGeyser>증기 간헐천 위에 배치되어야합니다.</MustPlaceOnSteamGeyser>
     <MustPlaceCoolerWithFreeSpaces>배기구와 냉방기 두 면이 모두 밖으로 노출되어야 합니다.</MustPlaceCoolerWithFreeSpaces>
     <MustPlaceVentWithFreeSpaces>공기가 통할 수 있도록 양 면이 모두 노출되어야 합니다.</MustPlaceVentWithFreeSpaces>
     <MustPlaceAdjacentStandable>모든 면에 서있을 수 있는 공간이 필요합니다.</MustPlaceAdjacentStandable>
@@ -276,8 +276,8 @@
     <ShipReportNoFullPods>빈 동면장치</ShipReportNoFullPods>
 
 <!-- Neurotrainer -->
-    <UseNeurotrainer>{0} 신경훈련기 사용</UseNeurotrainer>
-    <NeurotrainerUsed>{0}(이)가 {1} 신경훈련기를 사용하여 기술 등급이 {2}에서 {3}으로 상승했습니다.</NeurotrainerUsed>
+    <UseNeurotrainer>{0} 신경교육장치 사용</UseNeurotrainer>
+    <NeurotrainerUsed>{0}(이)가 {1} 신경교육장치를 사용하여 기술 등급이 {2}에서 {3}으로 상승했습니다.</NeurotrainerUsed>
 
 <!-- Artifact -->
     <UseArtifact>활성화</UseArtifact>
@@ -296,13 +296,13 @@
 
 <!-- Quality -->
     <Quality>품질</Quality>
-    <QualityDescription>이 물건이 얼마나 잘 만들어졌는가를 나타냅니다.</QualityDescription>
+    <QualityDescription>이 물건이 얼마나 잘 만들어졌는지를 나타냅니다.</QualityDescription>
     <QualityIs>품질: {0}</QualityIs>
 
 <!-- Mood descriptions -->
     <Mood_Broken>정신이상</Mood_Broken>
     <Mood_AboutToBreak>정신이상 직전</Mood_AboutToBreak>
-    <Mood_OnEdge>안절부절</Mood_OnEdge>
+    <Mood_OnEdge>신경과민</Mood_OnEdge>
     <Mood_Stressed>스트레스</Mood_Stressed>
     <Mood_Neutral>일반적</Mood_Neutral>
     <Mood_Content>만족</Mood_Content>
@@ -311,8 +311,7 @@
 <!-- Game over -->
     <GameOverEveryoneDead>모든 정착민이 죽거나 떠났습니다. 이 여정은 끝났습니다. \n\n다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠습니다.
     </GameOverEveryoneDead>
-    <GameOverShipLaunched>우주선을 발사하였습니다! 다음 정착민들이 탈출했습니다. \n{0}\n\n다음 정착민들은 남았습니다. \n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 누군가가 여기에 새로운 번화계를 건설할 때 까지 엄청난 시간을 소행성의 얼음 아래서 기다리기로
-        결정할지도 모르겠습니다. \n\n잠에서 깨어나면 알 수 있을지도.
+    <GameOverShipLaunched>우주선을 발사하였습니다! 다음 정착민들이 탈출했습니다. \n{0}\n\n다음 정착민들은 남았습니다. \n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 소행성의 얼음 아래 숨어서 이곳에 진보된 새로운 문명이 건설되기를 엄청난 세월동안 기다리기로 결정할 지도 모릅니다. \n\n잠에서 깨어나면 알 수 있을지도.
     </GameOverShipLaunched>
     <GameOverKeepPlaying>계속 진행하기</GameOverKeepPlaying>
     <GameOverMainMenu>메인 메뉴</GameOverMainMenu>
