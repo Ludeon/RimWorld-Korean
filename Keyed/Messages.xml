@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--suppress ALL -->
 <LanguageData>
-  <MessageSiegersAssaulting>{1}에서 온 농성하던 {0}이 정착지를 공격하기 시작합니다.</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>{1}에서 온 {0}이 공성을 멈추고 정착지로 돌격합니다.</MessageSiegersAssaulting>
 
   <MessageRaidersBeginningAssault>{1}에서 온 {0}이 공격하기 시작합니다.</MessageRaidersBeginningAssault>
   <MessageRaidersDetectedEarlyAssault>{1}에서 온 {0}이 당신을 발견하고 먼저 공격을 시작합니다.</MessageRaidersDetectedEarlyAssault>
@@ -9,24 +9,24 @@
 
   <MessageRaidersLeaving>{1}에서 온 {0}이 떠나고 있습니다.</MessageRaidersLeaving>
   <MessageRaidersGivenUpLeaving>{1}에서 온 {0}이 공격을 포기하고 퇴각하기 시작합니다.</MessageRaidersGivenUpLeaving>
-  <MessageRaidersSatisfiedLeaving>{1} 에서 온 {0}이 입힌 손해에 만족하고 퇴각하기 시작합니다.</MessageRaidersSatisfiedLeaving>
+  <MessageRaidersSatisfiedLeaving>{1} 에서 온 {0}이 입힌 피해에 만족하고 퇴각하기 시작합니다.</MessageRaidersSatisfiedLeaving>
 
-  <MessageFightersFleeing>{1}에서 온 {0}이 도망치기 시작합니다.</MessageFightersFleeing>
+  <MessageFightersFleeing>{1}에서 온 {0}이 도망갑니다.</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>{1}에서 온 우호적인 {0}이 떠나고 있습니다.</MessageFriendlyFightersLeaving>
 
   <MessageVisitorsTakingWounded>{1}에서 온 {0}이 다친 사람을 데려가고 있습니다.</MessageVisitorsTakingWounded>
 
-  <MessageWornApparelDeterioratedAway>{1}(이)가 입은 {0}의 내구도가 다 해서 아무것도 남지 않았습니다.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{1}(이)가 입은 {0}이 완전히 해져서 아무것도 남지 않았습니다.</MessageWornApparelDeterioratedAway>
 
   <MessageSeasonBegun>{0}의 시작입니다.</MessageSeasonBegun>
 
   <MessageShipHasLeftCommsRange>{0}의 우주선이 통신 범위에서 벗어났습니다.</MessageShipHasLeftCommsRange>
 
-  <MessageNeedBeaconToTradeWithShip>무역 송신기가 있어야 거래를 할 수 있습니다.</MessageNeedBeaconToTradeWithShip>
+  <MessageNeedBeaconToTradeWithShip>무역 신호기가 있어야 거래를 할 수 있습니다.</MessageNeedBeaconToTradeWithShip>
 
   <MessageBillComplete>계획 완료: {0}</MessageBillComplete>
 
-  <MessageFullyHealed>{0}의 치료가 완료되었습니다.</MessageFullyHealed>
+  <MessageFullyHealed>{0}가 완치 되었습니다.</MessageFullyHealed>
 
   <MessagePrisonerIsEscaping>수감자 {0}(이)가 도망치고 있습니다.</MessagePrisonerIsEscaping>
 
@@ -43,7 +43,7 @@
   <MessageTameAndNameSuccess>{0}(이)가 {1}(을)를 성공적으로 길들이고({2} 확률) {3}(이)라고 이름지었습니다.</MessageTameAndNameSuccess>
 
   <MessageColonyCannotAfford>정착지가 요금을 지불할 수 없습니다.</MessageColonyCannotAfford>
-  <MessageColonyNotEnoughSilver>거래를 하기 위한 충분한 은이 준비되지 않았습니다.</MessageColonyNotEnoughSilver>
+  <MessageColonyNotEnoughSilver>거래 가능한 은이 충분하지 않습니다.</MessageColonyNotEnoughSilver>
 
   <MessageCriticalAlert>중대한 경고: {0}</MessageCriticalAlert>
 
@@ -62,7 +62,7 @@
   <MessageMustDesignateSlaughterable>정착지 소유의 동물을 선택해야 합니다.</MessageMustDesignateSlaughterable>
   <MessageMustDesignateOpenable>가득 찬 무덤이나 저장소를 선택해야 합니다.</MessageMustDesignateOpenable>
 
-  <MessageRefusedArrest>{0}(이)가 구속을 저항했습니다!</MessageRefusedArrest>
+  <MessageRefusedArrest>{0}(이)가 구속에 저항했습니다!</MessageRefusedArrest>
 
   <MessageNoMedicalBeds>이용이 가능한 의료 침대가 없습니다.</MessageNoMedicalBeds>
 
@@ -70,7 +70,7 @@
 
   <MessageNoLongerDowned>{0}(은)는 이제 다시 걸을 수 있습니다.</MessageNoLongerDowned>
 
-  <MessageInvoluntarySleep>{0}(이)가 엄청난 피로로 인해 기절했습니다.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{0}(이)가 엄청난 피로로 인해 쓰러졌습니다.</MessageInvoluntarySleep>
 
   <MessageMedicalOperationFailureCatastrophic>{0}(이)가 {1}(을)를 수술하다가 처참하게 실패했습니다.</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0}(이)가 {1}(을)를 수술하다가 약간 실수했습니다.</MessageMedicalOperationFailureMinor>
