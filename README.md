@@ -8,6 +8,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 Translators
 * Latta
+* Donglnap
 
 See this page for full list of translators:
 https://github.com/Ludeon/RimWorld-Korean/wiki/Credits
