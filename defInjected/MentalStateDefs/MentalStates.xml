@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
-<!-- Major breaks-->
+    <!-- Major breaks-->
 
     <Berserk.label>광란</Berserk.label>
     <Berserk.beginLetterLabel>광란</Berserk.beginLetterLabel>
     <Berserk.beginLetter>{0}의 분노가 폭발했습니다!</Berserk.beginLetter>
     <Berserk.recoveryMessage>{0}의 광란이 끝을 고했습니다.</Berserk.recoveryMessage>
-    <Berserk.inspectLine>좌절: 광란</Berserk.inspectLine>
+    <Berserk.inspectLine>상태: 광란</Berserk.inspectLine>
 
-<!-- Minor breaks-->
+    <!-- Minor breaks-->
 
     <DazedWander.label>방황</DazedWander.label>
     <DazedWander.beginLetterLabel>방황</DazedWander.beginLetterLabel>
     <DazedWander.beginLetter>{0}이 정신이 나가 멍하니 주위를 떠돌고 있습니다.</DazedWander.beginLetter>
     <DazedWander.recoveryMessage>{0}(이)가 정신을 추스리고 방황을 멈췄습니다.</DazedWander.recoveryMessage>
-    <DazedWander.inspectLine>좌절: 멍하게 방황 중</DazedWander.inspectLine>
+    <DazedWander.inspectLine>상태: 멍하게 방황 중</DazedWander.inspectLine>
 
     <BingingAlcohol.label>폭음</BingingAlcohol.label>
     <BingingAlcohol.beginLetterLabel>폭음</BingingAlcohol.beginLetterLabel>
     <BingingAlcohol.beginLetter>{0}(이)가 술을 폭음하고 있습니다.</BingingAlcohol.beginLetter>
     <BingingAlcohol.recoveryMessage>{0}(이)가 술병을 치웠습니다.</BingingAlcohol.recoveryMessage>
-    <BingingAlcohol.inspectLine>좌절: 폭음 중</BingingAlcohol.inspectLine>
+    <BingingAlcohol.inspectLine>상태: 폭음 중</BingingAlcohol.inspectLine>
 
-<!-- Special breaks-->
+    <!-- Special breaks-->
 
     <ConfusedWander.label>혼란</ConfusedWander.label>
     <ConfusedWander.beginLetterLabel>혼란</ConfusedWander.beginLetterLabel>
     <ConfusedWander.beginLetter>{0}(이)가 혼란 속에 방황하고 있습니다.</ConfusedWander.beginLetter>
     <ConfusedWander.recoveryMessage>{0}(이)가 방황을 멈췄습니다.</ConfusedWander.recoveryMessage>
-    <ConfusedWander.inspectLine>좌절: 혼란 속에 방황하는 중</ConfusedWander.inspectLine>
+    <ConfusedWander.inspectLine>상태: 혼란 속에 방황하는 중</ConfusedWander.inspectLine>
 
     <PanicFlee.label>공황</PanicFlee.label>
     <PanicFlee.beginLetterLabel>공황</PanicFlee.beginLetterLabel>
     <PanicFlee.beginLetter>{0}(이)가 겁에 질려 달아나고 있습니다.</PanicFlee.beginLetter>
     <PanicFlee.recoveryMessage>{0}(이)가 달아나는 것을 멈췄습니다.</PanicFlee.recoveryMessage>
-    <PanicFlee.inspectLine>좌절: 겁에 질려 달아나는 중</PanicFlee.inspectLine>
+    <PanicFlee.inspectLine>상태: 겁에 질려 달아나는 중</PanicFlee.inspectLine>
 
     <Manhunter.label>인간 사냥</Manhunter.label>
     <Manhunter.beginLetterLabel>인간 사냥</Manhunter.beginLetterLabel>
@@ -44,12 +43,20 @@
     <Manhunter.recoveryMessage>{0}의 광란이 끝을 고했습니다.</Manhunter.recoveryMessage>
     <Manhunter.inspectLine>분노: 인간 사냥</Manhunter.inspectLine>
 
-<!-- Unused? -->
+    <ManhunterPermanent.label>인간 사냥</ManhunterPermanent.label>
+    <ManhunterPermanent.recoveryMessage>{0}의 광란이 끝을 고했습니다.</ManhunterPermanent.recoveryMessage>
+    <ManhunterPermanent.inspectLine>분노: 인간 사냥</ManhunterPermanent.inspectLine>
+
+    <SocialFighting.label>말싸움</SocialFighting.label>
+    <SocialFighting.recoveryMessage>{0}(와)과 {1}의 말싸움이 끝났습니다.</SocialFighting.recoveryMessage>
+    <SocialFighting.inspectLine>상태: 말싸움 중</SocialFighting.inspectLine>
+
+    <!-- Unused? -->
 
     <GiveUpExit.label>포기</GiveUpExit.label>
     <GiveUpExit.beginLetterLabel>포기</GiveUpExit.beginLetterLabel>
     <GiveUpExit.beginLetter>{0}(이)가 모든 걸 포기하고 정착지를 떠나고 있습니다.</GiveUpExit.beginLetter>
     <GiveUpExit.recoveryMessage>{0}의 마음이 바뀌어 정착지로 돌아오고 있습니다.</GiveUpExit.recoveryMessage>
-    <GiveUpExit.inspectLine>좌절: 포기하고 떠나는 중</GiveUpExit.inspectLine>
+    <GiveUpExit.inspectLine>상태: 포기하고 떠나는 중</GiveUpExit.inspectLine>
 
 </LanguageData>

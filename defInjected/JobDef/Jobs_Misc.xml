@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
-<!--========= General ============-->
+    <!--========= General ============-->
 
     <Goto.reportString>이동 중.</Goto.reportString>
     <GotoSafeTemperature.reportString>안전한 온도를 찾는 중.</GotoSafeTemperature.reportString>
@@ -17,30 +16,35 @@
     <Equip.reportString>TargetA 장착 준비 중.</Equip.reportString>
     <TakeInventory.reportString>TargetA 소지품에 넣는 중.</TakeInventory.reportString>
     <Wear.reportString>TargetA 착용 중.</Wear.reportString>
-    <!--<RemoveApparel.reportString>TargetA 제거 중.</RemoveApparel.reportString>-->
+    <RemoveApparel.reportString>TargetA 제거 중.</RemoveApparel.reportString>
     <Strip.reportString>TargetA 벗기는 중.</Strip.reportString>
-	<Open.reportString>TargetA 여는 중.</Open.reportString>
+    <Open.reportString>TargetA 여는 중.</Open.reportString>
     <RearmTrap.reportString>덫 재장전 중.</RearmTrap.reportString>
+    <Refuel.reportString>TargetA 연료 채우는 중.</Refuel.reportString>
     <ManTurret.reportString>포탑 조작 중.</ManTurret.reportString>
     <EnterCryptosleepCasket.reportString>동면장치로 이동 중.</EnterCryptosleepCasket.reportString>
     <UseNeurotrainer.reportString>신경 교육장치 사용 중.</UseNeurotrainer.reportString>
-	<UseArtifact.reportString>유물 활성화 중.</UseArtifact.reportString>
+    <UseArtifact.reportString>유물 활성화 중.</UseArtifact.reportString>
+    <TriggerFirefoamPopper.reportString>화재진압 거품 터트리는 중.</TriggerFirefoamPopper.reportString>
     <ClearSnow.reportString>눈 치우는 중.</ClearSnow.reportString>
     <Vomit.reportString>토하는 중.</Vomit.reportString>
     <Flick.reportString>전원 설정 중.</Flick.reportString>
+    <TradeWithPawn.reportString>TargetA(와)과 거래 중.</TradeWithPawn.reportString>
+    <FleeAndCower.reportString>도망치는 중.</FleeAndCower.reportString>
 
-<!--============ Fire ============-->
+    <!--============ Fire ============-->
 
     <Ignite.reportString>TargetA에 방화 중.</Ignite.reportString>
-
     <BeatFire.reportString>화재 진압 중.</BeatFire.reportString>
-
     <ExtinguishSelf.reportString>자신에게 붙은 불을 끄는 중.</ExtinguishSelf.reportString>
 
-<!--============ Need satisfaction ============-->
+    <!--============ Need satisfaction ============-->
 
     <Ingest.reportString>TargetA 섭취 중.</Ingest.reportString>
-
     <LayDown.reportString>내려놓는 중.</LayDown.reportString>
+
+    <!--============ Love ============-->
+
+    <Lovin.reportString>사랑하는 중.</Lovin.reportString>
 
 </LanguageData>

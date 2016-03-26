@@ -38,7 +38,7 @@
 	<WorkTab.label>작업설정 변경</WorkTab.label>
 	<rep>
 		<path>WorkTab.helpTexts[0]</path>
-		<trans>좌측 하단 "작업" 단추를 눌러 각 정착민들이 할 일을 지정할 수 있습니다.\n\n정착민들은 언제나 가장 높은 중요도의 일을 먼저 할 것이며, 지정되지 않은 일은 하지 않습니다.\n\n만약 어떤 종류의 작업에 아무도 지정하지 않았으면, 그와 관련된 일은 아무도 하지 않습니다.</trans>
+		<trans>좌측 하단 "작업" 단추를 눌러 각 정착민들이 할 일을 지정할 수 있습니다.\n\n정착민들은 언제나 가장 높은 중요도의 일을 먼저 하고, 여기에서 정하지 않은 일은 하지 않습니다.\n\n만약 어떤 종류의 작업에 아무도 할당하지 않았으면 그 일은 아무도 하지 않습니다.</trans>
 	</rep>
 
 	<TimeControls.label>시간 조절</TimeControls.label>
@@ -50,7 +50,7 @@
 	<InfoCard.label>상세정보 열기</InfoCard.label>
 	<rep>
 		<path>InfoCard.helpTexts[0]</path>
-		<trans>상세정보는 어떤 아이템, 사람, 건물에 대한 상대한 정보를 알려줍니다,\n\n사람이나 아이템을 선택하고 좌측 하단의 'i'를 누르세요.
+		<trans>상세정보는 선택한 물건, 사람, 건물의 상세한 정보를 알려줍니다.\n\n사람이나 물건을 선택하고 좌측 하단의 'i'를 누르세요.
 		</trans>
 	</rep>
 
@@ -89,7 +89,7 @@
 	<BuildOrbitalTradeBeacon.label>무역 송신기 건설</BuildOrbitalTradeBeacon.label>
 	<rep>
 		<path>BuildOrbitalTradeBeacon.helpTexts[0]</path>
-		<trans>은이나 다른 아이템을 궤도 무역상에게 보내려면 우선 무역 송신기를 지어야 합니다. 그 후에 송신기 주변에 저장구역을 설정하고 물품을 배치하세요.</trans>
+		<trans>은이나 다른 아이템을 궤도 무역선이나 다른 세력으로 보내려면 우선 무역 송신기를 지어야 합니다. 그 후에 송신기 주변에 저장구역을 설정하고 물품을 배치하세요.</trans>
 	</rep>
 
 	<SetGrowingZonePlant.label>재배 설정에 대하여</SetGrowingZonePlant.label>

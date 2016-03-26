@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress ALL -->
 <LanguageData>
 
     <LetterLabelAnimalInsanitySingle>동물 광분</LetterLabelAnimalInsanitySingle>
@@ -14,25 +13,25 @@
     <LetterLabelMiracleHeal>기적</LetterLabelMiracleHeal>
     <MiracleHeal>{0}(이)가 기적에 가까운 회복을 경험했습니다!</MiracleHeal>
 
-<!-- Enemy raids -->
+    <!-- Enemy raids -->
     <EnemyRaidWalkIn>{1}에서 온 {0} 세력이 근처에 도착했습니다.</EnemyRaidWalkIn>
     <EnemyRaidEdgeDrop>{1}에서 온 {0} 세력이 강하포드를 타고 근처에 도착했습니다.</EnemyRaidEdgeDrop>
     <EnemyRaidCenterDrop>{1}에서 온 {0} 세력이 정착지 바로 위에 강하했습니다!</EnemyRaidCenterDrop>
 
-<!-- Friendly raids -->
+    <!-- Friendly raids -->
     <FriendlyRaidWalkIn>{1}에서 온 우호적인 {0} 세력이 근처에 도착했습니다.</FriendlyRaidWalkIn>
     <FriendlyRaidEdgeDrop>{1}에서 온 우호적인 {0} 세력이 가까운 곳으로 궤도강하를 했습니다.</FriendlyRaidEdgeDrop>
     <FriendlyRaidCenterDrop>{1}에서 온 우호적인 {0} 세력이 정착지의 바로 위에 착륙했습니다!</FriendlyRaidCenterDrop>
 
     <LetterLabelRefugeePodCrash>탈출 포드</LetterLabelRefugeePodCrash>
-    <RefugeePodCrash>근처에 탈출용 강하포드가 거칠게 불시착하는 걸 목격했습니다. \n\n만약 누군가 저 추락에서 살아남았다면 심각한 부상을 입었을 것입니다.</RefugeePodCrash>
+    <RefugeePodCrash>탈출용 강하포드가 근처에 거칠게 불시착하는 걸 목격했습니다. \n\n만약 누군가 저 추락에서 살아남았다면 심각한 부상을 입었을 것입니다.</RefugeePodCrash>
 
     <LetterLabelCargoPodCrash>화물 포드</LetterLabelCargoPodCrash>
     <CargoPodCrash>주변에 다수의 화물 포드가 추락하는 걸 목격했습니다. 잔해 속에서 유용한 것들을 얻을 수 있을지도 모릅니다.</CargoPodCrash>
 
     <AnElectricalConduit>전선</AnElectricalConduit>
 
-    <ShortCircuit>{0}의 결함으로 누전이 발생했습니다. \n\n연결된 축전지들에 저장되어있던 총 {1} Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
+    <ShortCircuit>{0}의 결함으로 누전이 발생했습니다. \n\n연결된 축전지들에 저장되어있던 총 {1}Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
 
     <ShortCircuitWasLarge>저장되어 있던 전기로 인해 상당한 규모의 폭발이 발생했습니다.</ShortCircuitWasLarge>
 
@@ -45,9 +44,11 @@
     <GroupTravelersPassing>{0}의 여행객들이 지나가고 있습니다.</GroupTravelersPassing>
 
     <LetterLabelSingleVisitorArrives>방문객</LetterLabelSingleVisitorArrives>
-    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며, {0}입니다.</SingleVisitorArrives>
+    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며, {0}입니다.{3}</SingleVisitorArrives>
+    <SingleVisitorArrivesTraderInfo>\n\nHE 거래할 마음이 있는 물건을 조금 가지고 있는 듯 합니다.</SingleVisitorArrivesTraderInfo>
     <LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
-    <GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다.</GroupVisitorsArrive>
+    <GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다.{1}</GroupVisitorsArrive>
+    <GroupVisitorsArriveTraderInfo>\n\n그들은 거래할 마음이 있는 물건을 조금 가지고 있는 듯 합니다.</GroupVisitorsArriveTraderInfo>
 
     <VisitorsLeaving>{0}에서 온 방문자들이 떠나고 있습니다.</VisitorsLeaving>
 
@@ -57,7 +58,7 @@
     <LetterLabelManhunterPackArrived>식인동물 무리</LetterLabelManhunterPackArrived>
     <ManhunterPackArrived>사람을 잡아먹는 {0} 무리가 도착했습니다. 이 지역을 돌아다니면서 눈에 띄는 모든 인간을 공격할 것입니다. 이들은 문을 통과할 수 없으므로 벽 뒤에 숨으면 안전합니다. 또한 비활성화 상태의 포탑은 공격하지 않으니 포탑을 아껴두려면 지금 전원을 끄세요. \n그것들은 며칠 안에 이 지역을 떠날 것입니다.</ManhunterPackArrived>
 
-<!-- Crashed ship part-->
+    <!-- Crashed ship part-->
     <MessageAnimalInsanityPulse>고대 우주선이 정신파동을 방출해 주변 동물들을 날뛰게 만들었습니다.</MessageAnimalInsanityPulse>
     <LetterShipPartDroveColonistInsane>추락한 우주선의 잔해가 지향성 정신파동을 방출해 그 곳에 있던 {0}의 정신에 문제가 생겼습니다.
     </LetterShipPartDroveColonistInsane>
@@ -71,11 +72,11 @@
     <LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 더 강한 정신파동을 방출하기 시작했습니다. 이제 이 지역의 모든 인간들은 더 불안해 하고, 겁에 질리며, 심화된 피해 망상을 하기 시작합니다.
     </LetterPsychicDroneLevelIncreased>
 
-<!-- Agent revealed -->
+    <!-- Agent revealed -->
     <LetterLabelAgentRevealed>첩자</LetterLabelAgentRevealed>
     <LetterAgentRevealed>{0}의 정체가 {1}의 첩자로 밝혀졌으며, 지금 탈출을 시도합니다.</LetterAgentRevealed>
 
-<!-- Distant psychic drone -->
+    <!-- Distant psychic drone -->
     <LetterLabelPsychicDrone>정신파동</LetterLabelPsychicDrone>
     <LetterIncidentPsychicDrone>정착지 모든 {0}의 머리에 못질하는 듯한 두통이 느껴지고 있습니다! \n\n멀리 떨어진 증오의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
     </LetterIncidentPsychicDrone>
@@ -84,28 +85,36 @@
     <LetterIncidentPsychicSoothe>주거지 모든 {0}들이 만족감으로 미소짓고 있습니다! \n\n멀리 떨어진 기쁨의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 좋게 할 것입니다.
     </LetterIncidentPsychicSoothe>
 
-<!-- Beavers -->
+    <!-- Beavers -->
     <LetterLabelBeaversArrived>비버 떼!</LetterLabelBeaversArrived>
     <BeaversArrived>배고픈 알파비버 무리가 도착했습니다. \n\n이 지역의 마지막 나무까지 몽땅 먹어 치우기전에 모든 알파비버를 사살하세요.</BeaversArrived>
 
-<!-- Refugee chased -->
+    <!-- Refugee chased -->
     <RefugeeChasedInitial>{0}의 이름으로 알려진 {1}(이)가 근처에서 당신을 호출했습니다. HE "{3}"에서 온 {2}에게 쫓기고 있습니다! \n\nHE 보호를 간청하며 정착지에 합류할 의사를 밝혔습니다. 생물학적으로 그는 {4}살입니다.\n\n조심하세요. 만약 이 자를 받아들일 경우 HIM 쫓던 {2}들과 싸워야 할 것입니다.</RefugeeChasedInitial>
     <RefugeeChasedInitial_Accept>보호 제공</RefugeeChasedInitial_Accept>
     <RefugeeChasedInitial_Reject>호출 무시</RefugeeChasedInitial_Reject>
     <RefugeeChasedRejected>당신이 통신을 종료하기 전에, 겁에 질린 {0}의 비명소리가 스피커를 통해 들렸습니다.</RefugeeChasedRejected>
 
-<!-- Self-tame -->
+    <!-- Self-tame -->
     <LetterLabelAnimalSelfTame>{0}의 복종</LetterLabelAnimalSelfTame>
     <LetterAnimalSelfTame>{0}(이)가 길들여졌습니다.</LetterAnimalSelfTame>
     <LetterAnimalSelfTameAndNameNumerical>{0}(이)가 길들여졌습니다. {1}번으로 분류됩니다.</LetterAnimalSelfTameAndNameNumerical>
     <LetterAnimalSelfTameAndName>{0}(이)가 길들여졌습니다. 정착민들이 {1}(이)라는 이름을 붙여줬습니다.</LetterAnimalSelfTameAndName>
 
-<!-- Farm animals wander in -->
+    <!-- Farm animals wander in -->
     <LetterLabelFarmAnimalsWanderIn>{0} 무리 합류</LetterLabelFarmAnimalsWanderIn>
     <LetterFarmAnimalsWanderIn>버려졌거나 누군가 잃어버린 {0}의 무리가 이 지역으로 들어왔습니다.\n\n사람에게 익숙한 듯 하며, 정착지에 합류하고 있습니다.</LetterFarmAnimalsWanderIn>
 
-<!-- Thrumbo passes -->
+    <!-- Thrumbo passes -->
     <LetterLabelThrumboPasses>희귀 트럼보</LetterLabelThrumboPasses>
-    <LetterThrumboPasses>작은 무리의 트럼보가 이 지역으로 들어왔습니다.\n\n트럼보들은 희귀한 동물들로, 천성은 순하나 맞설 경우 매우 위험합니다. 일부 상선은 트럼보의 뿔와 가죽을 매우 높게 쳐줄 것입니다.\n\n트럼보들은 며칠 안에 떠날 것입니다.</LetterThrumboPasses>
+    <LetterThrumboPasses>작은 무리의 트럼보가 이 지역으로 들어왔습니다.\n\n트럼보들은 희귀한 동물들로, 천성은 순하나 맞설 경우 매우 위험합니다. 일부 상인은 트럼보의 뿔와 가죽을 매우 높게 쳐줄 것입니다.\n\n트럼보들은 며칠 안에 떠날 것입니다.</LetterThrumboPasses>
+
+    <!-- Trader caravan -->
+    <LetterLabelTraderCaravanArrival>{0}에서 온 상인</LetterLabelTraderCaravanArrival>
+    <LetterTraderCaravanArrival>{0}에서 온 상인이 접근하고 있습니다\n\n정착지 주변에서 며칠 머물다 돌아갈 것입니다. 공격할 수는 있지만, 상인이 속한 세력이 매우 좋아하지 않을 것입니다.</LetterTraderCaravanArrival>
+
+    <!-- Building breaks down -->
+    <LetterLabelBuildingBrokenDown>{0} 고장</LetterLabelBuildingBrokenDown>
+    <LetterBuildingBrokenDown>{0}(이)가 고장났습니다. 정착민이 수리하기 전엔 작동하지 않습니다.</LetterBuildingBrokenDown>
 
 </LanguageData>
