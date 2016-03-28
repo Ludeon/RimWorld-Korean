@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- ==== Weapon ==== -->
+
+    <rep>
+        <path>ArtName_Weapon.rulePack.rulesStrings[1]</path>
+        <trans>art_name->"[badassanimal]"</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Weapon.rulePack.rulesStrings[5]</path>
+        <trans>art_name->[anyPawn_nameShort]의 [badassconcept]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Weapon.rulePack.rulesStrings[6]</path>
+        <trans>art_name->[badassconcept]의 [anyPawn_nameShort]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Weapon.rulePack.rulesStrings[8]</path>
+        <trans>art_name->[anyPawn_nameShort]의 [badassanimal]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Weapon.rulePack.rulesStrings[9]</path>
+        <trans>art_name->[anyPawn_nameShort]의 [badassperson]</trans>
+    </rep>
+    <!-- Path injection -->
+    <rep>
+        <path>ArtName_Weapon.rulePack.rulesRaw[5].path</path>
+        <trans>NameBanks/ColorsBadass_KoKR_Adjective</trans>
+    </rep>
+
+    <!-- ==== Sculpture ==== -->
+
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[0]</path>
+        <trans>art_name->[anyPawn_nameShort]의 [artname]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[1]</path>
+        <trans>art_name->[anyPawn_nameShort][trans] [color]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[2]</path>
+        <trans>art_name->[artname][trans] [anyPawn_nameShort]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[3]</path>
+        <trans>art_name->[artname][trans] [concept]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[4]</path>
+        <trans>art_name->[artname] [romannumeral]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[5]</path>
+        <trans>art_name->[concept][trans] [anyPawn_nameShort]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[6]</path>
+        <trans>art_name->[concept][trans] [anyPawn_nameShort]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[7]</path>
+        <trans>art_name->[concept]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[8]</path>
+        <trans>art_name->[color] [concept]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[9]</path>
+        <trans>art_name->[color] [artname]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[10]</path>
+        <trans>art_name->[color] [terrainfeature]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[11]</path>
+        <trans>art_name->[art_adjective] [concept]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[12]</path>
+        <trans>art_name->[concept] No. [digit]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[13]</path>
+        <trans>art_name->[artname] No. [digit]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[14]</path>
+        <trans>art_name->[artname] No. [digit][digit]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Sculpture.rulePack.rulesStrings[15]</path>
+        <trans>art_name->[digit][trans] [anyPawn_nameShort]</trans>
+    </rep>
+
+    <!-- ==== Furniture ==== -->
+
+    <rep>
+        <path>ArtName_Furniture.rulePack.rulesStrings[0]</path>
+        <trans>art_name->[anyPawn_nameShort]의 [positiveconcept]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Furniture.rulePack.rulesStrings[1]</path>
+        <trans>art_name->[positiveconcept]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Furniture.rulePack.rulesStrings[2]</path>
+        <trans>art_name->"[animal]"</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Furniture.rulePack.rulesStrings[3]</path>
+        <trans>art_name->[badasscolor] [animal]</trans>
+    </rep>
+    <rep>
+        <path>ArtName_Furniture.rulePack.rulesStrings[4]</path>
+        <trans>art_name->[anyPawn_nameShort]의 [color]</trans>
+    </rep>
+    <!-- Path injection -->
+    <rep>
+        <path>NamerFurniture.rulePack.rulesRaw[2].path</path>
+        <trans>NameBanks/ColorsBadass_KoKR_Adjective</trans>
+    </rep>
+
+    <!-- ==== Sarcophagus ==== -->
+    <!-- Path injection -->
+    <rep>
+        <path>NamerSarcophagusPlate.rulePack.rulesRaw[2].path</path>
+        <trans>NameBanks/Colors_KoKR_Adjective</trans>
+    </rep>
+
+</LanguageData>
