@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<!-- Work tab -->
+    <!-- Work tab -->
     <ManualPriorities>중요성 수동조절</ManualPriorities>
     <HigherPriority>높은 중요성</HigherPriority>
     <LowerPriority>낮은 중요성</LowerPriority>
     <RelevantSkills>관련 기술: {0}\n관련 기술들의 평균값: {1} / {2}</RelevantSkills>
-    <ClickToJumpTo>클릭하면 이동함:</ClickToJumpTo>
+    <ClickToJumpTo>클릭하여 이동:</ClickToJumpTo>
+    <CannotDoThisWork>{0}(은)는 이 작업을 할 수 없습니다.</CannotDoThisWork>
     <NoneBrackets>없음</NoneBrackets>
-    <CannotDoThisWork>이 종류의 작업은 해당 정착민이 할 수 없습니다.</CannotDoThisWork>
+    <IncapableOfWorkTypeBecauseOfCapacities>신체 결손으로 인하여 이 작업을 할 수 없습니다.</IncapableOfWorkTypeBecauseOfCapacities>
+    <EmergencyWorkMarker>E</EmergencyWorkMarker>
 
-<!-- Outfits tab -->
+    <!-- Outfits tab -->
     <CurrentOutfit>현재 복장</CurrentOutfit>
     <ManageOutfits>복장 설정</ManageOutfits>
     <ClearForcedApparel>지정 취소</ClearForcedApparel>
@@ -18,20 +20,21 @@
     <ForcedApparel>지정된 의복</ForcedApparel>
     <OutfitEdit>수정...</OutfitEdit>
 
-<!-- Restrictions tab -->
+    <!-- Restrictions tab -->
     <Copy>복사</Copy>
     <Paste>붙여넣기</Paste>
     <AllowedArea>허가구역</AllowedArea>
 
-<!-- Animals tab -->
+    <!-- Animals tab -->
     <Master>주인</Master>
+    <PregnantIconDesc>임신 ({0} / {1})</PregnantIconDesc>
 
-<!-- Factions tab -->
+    <!-- Factions tab -->
     <Hostile>적대적</Hostile>
     <HostileTo>{0} 세력과 적대적 관계</HostileTo>
     <CurrentGoodwill>해당 세력과 우호관계</CurrentGoodwill>
 
-<!-- Statistics tab -->
+    <!-- Statistics tab -->
     <Playtime>플레이 시간</Playtime>
     <Storyteller>이야기꾼</Storyteller>
     <ColonyWealthTotal>정착지 재산</ColonyWealthTotal>
@@ -43,7 +46,7 @@
     <ColonistsKilled>죽은 정착민</ColonistsKilled>
     <ColonistsLaunched>우주로 날아간 정착민</ColonistsLaunched>
 
-<!-- History tab -->
+    <!-- History tab -->
     <SelectGraph>그래프 선택</SelectGraph>
     <Last30Days>지난 30일간</Last30Days>
     <Last100Days>지난 100일간</Last100Days>

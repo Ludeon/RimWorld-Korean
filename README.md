@@ -6,7 +6,10 @@
 See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
 
-Translators
+A13 Translator
+* Latta
+
+A12 Translators
 * Latta
 * Donglnap
 

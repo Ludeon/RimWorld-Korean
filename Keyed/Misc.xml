@@ -20,7 +20,7 @@
     <CompiledOn>{0}에 컴파일됨</CompiledOn>
     <LoggedIntoSteamAs>스팀 계정: {0}</LoggedIntoSteamAs>
 
-<!-- Content generation-->
+    <!-- Content generation-->
     <MeatLabel>{0} 고기</MeatLabel>
     <MeatDesc>{0}의 생고기입니다.</MeatDesc>
     <LeatherLabel>{0} 가죽</LeatherLabel>
@@ -37,17 +37,20 @@
     <BlueprintLabelExtra>(청사진)</BlueprintLabelExtra>
     <FrameLabelExtra>(건설 중)</FrameLabelExtra>
 
-<!-- Stuff 시스템 라벨. 예시: "돌 침대" -->
-<!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+    <!-- Stuff 시스템 라벨. 예시: "돌 침대" -->
+    <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
     <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
-<!-- To express ownership. -->
-<!-- For example Jack's Bedroom -->
+    <SomeonesRoom>{0}의 {1}</SomeonesRoom>
+    <CouplesRoom>{0}, {1}의 {2}</CouplesRoom>
+
+    <!-- To express ownership. -->
+    <!-- For example Jack's Bedroom -->
     <SomeonesSomething>{0}의 {1}</SomeonesSomething>
 
     <VariousLabel>(여러가지)</VariousLabel>
 
-<!-- History events -->
+    <!-- History events -->
     <ColonistDied>정착민 사망</ColonistDied>
-    
+
 </LanguageData>

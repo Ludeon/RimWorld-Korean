@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
 	<rep>
@@ -17,7 +16,7 @@
 	</rep>
 	<rep>
 		<path>Bloodlust.degreeDatas[0].description</path>
-		<trans>NAME(은)는 사람을 해치는 일에 흥분하며, 피나 죽음을 보는 것에 신경쓰지 않습니다.</trans>
+		<trans>NAME(은)는 사람을 해치는 일에 흥분하며, 피나 죽음을 보는 것에 신경쓰지 않습니다. 말싸움을 시작할 확률이 두 배입니다.</trans>
 	</rep>
 
 	<rep>
@@ -45,24 +44,6 @@
 	<rep>
 		<path>Abrasive.degreeDatas[0].description</path>
 		<trans>NAME(은)는 말을 할 때 머리를 거치지 않고 바로 내보냅니다. 이는 주위 사람들을 불쾌하게 하곤 합니다.</trans>
-	</rep>
-
-	<rep>
-		<path>TriggerHappy.degreeDatas[0].label</path>
-		<trans>난사광</trans>
-	</rep>
-	<rep>
-		<path>TriggerHappy.degreeDatas[0].description</path>
-		<trans>빵! 빵! 빵! NAME(은)는 끔찍하게 총을 못쏘지만 HE 전혀 상관하지 않습니다. 총은 훌륭하니까요!</trans>
-	</rep>
-
-	<rep>
-		<path>CarefulShooter.degreeDatas[0].label</path>
-		<trans>신중한 사수</trans>
-	</rep>
-	<rep>
-		<path>CarefulShooter.degreeDatas[0].description</path>
-		<trans>NAME의 사격 실력은 훌륭하지만, 목표를 조준할 때 더 많은 시간을 필요로 합니다.</trans>
 	</rep>
 
 	<rep>
@@ -153,6 +134,33 @@
 	<rep>
 		<path>Ascetic.degreeDatas[0].description</path>
 		<trans>NAME(은)는 언제나 금욕을 추구합니다. HIS 침실이 너무 좋으면 기분이 나빠집니다.</trans>
+	</rep>
+
+	<rep>
+		<path>Gay.degreeDatas[0].label</path>
+		<trans>동성애자</trans>
+	</rep>
+	<rep>
+		<path>Gay.degreeDatas[0].description</path>
+		<trans>NAME(은)는 HICAP와 같은 성별에 끌립니다.</trans>
+	</rep>
+
+	<rep>
+		<path>DislikesMen.degreeDatas[0].label</path>
+		<trans>남성혐오</trans>
+	</rep>
+	<rep>
+		<path>DislikesMen.degreeDatas[0].description</path>
+		<trans>NAME(은)는 남자들을 정말 싫어하고 믿지도 않습니다.</trans>
+	</rep>
+
+	<rep>
+		<path>DislikesWomen.degreeDatas[0].label</path>
+		<trans>여성혐오</trans>
+	</rep>
+	<rep>
+		<path>DislikesWomen.degreeDatas[0].description</path>
+		<trans>NAME(은)는 여자들을 정말 싫어하고 믿지도 않습니다.</trans>
 	</rep>
 
 

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress ALL -->
 <LanguageData>
     <CommandForbiddenDesc>금지 - 정착민들과의 상호작용을 금지합니다.</CommandForbiddenDesc>
     <CommandNotForbiddenDesc>허가 - 정착민들과의 상호작용을 허가합니다.</CommandNotForbiddenDesc>
 
-<!-- Power -->
+    <!-- Power -->
     <CommandTogglePowerLabel>전원 설정</CommandTogglePowerLabel>
     <CommandTogglePowerDesc>전원을 켜고 끕니다.</CommandTogglePowerDesc>
 
@@ -12,17 +11,17 @@
     <CommandDesignateTogglePowerDesc>전원을 켜고 끄도록 예약합니다. 정착민이 와서 스위치를 조작할 것입니다.</CommandDesignateTogglePowerDesc>
 
     <CommandTryReconnectLabel>재연결</CommandTryReconnectLabel>
-    <CommandTryReconnectDesc>연결 반경의 다른 전원망에 연결합니다. 전원이 끊긴 망에 연결되어 있지만 근처에 전원이 공급되는 다른 망이 있을 경우 유용합니다.
+    <CommandTryReconnectDesc>연결 반경 내의 다른 전원망에 연결합니다. 전원이 끊긴 망에 연결되어 있지만 근처에 전원이 공급되는 다른 망이 있을 경우 유용합니다.
     </CommandTryReconnectDesc>
 
-    <CommandGatherSpotToggleLabel>집합 지점</CommandGatherSpotToggleLabel>
-    <CommandGatherSpotToggleDescActive>활성 - 정착민들이 집합 지점으로 모입니다.</CommandGatherSpotToggleDescActive>
-    <CommandGatherSpotToggleDescInactive>비활성 - 정착민들이 집합 지점으로 모이지 않습니다.</CommandGatherSpotToggleDescInactive>
+    <CommandGatherSpotToggleLabel>모임 장소</CommandGatherSpotToggleLabel>
+    <CommandGatherSpotToggleDescActive>활성 - 정착민들이 이 곳으로 모입니다.</CommandGatherSpotToggleDescActive>
+    <CommandGatherSpotToggleDescInactive>비활성 - 정착민들이 이 곳으로 모이지 않습니다.</CommandGatherSpotToggleDescInactive>
 
-<!-- Drafting -->
+    <!-- Drafting -->
     <CommandDraftLabel>소집</CommandDraftLabel>
     <CommandUndraftLabel>해제</CommandUndraftLabel>
-    <CommandToggleDraftDesc>소집 상태를 설정할 수 있습니다. 소집된 정착민들은 전투에 임하게 되며 스스로 일을 하거나 음식을 섭취하거나 휴식하지 않습니다.
+    <CommandToggleDraftDesc>소집 상태를 설정할 수 있습니다. 소집된 정착민들에게는 직접 명령을 내릴 수 있으며 스스로 일을 하거나, 음식을 섭취하거나, 휴식하지 않습니다.
     </CommandToggleDraftDesc>
     <IsIncapped>{0}(은)는 행동 불능 상태입니다.</IsIncapped>
 
@@ -36,9 +35,8 @@
     <CommandBedSetOwnerDesc>특정 정착민에게 침대를 할당합니다.</CommandBedSetOwnerDesc>
     <CommandGraveAssignColonistLabel>정착민 할당</CommandGraveAssignColonistLabel>
     <CommandGraveAssignColonistDesc>이 무덤을 특정 정착민의 소유로 만듭니다.</CommandGraveAssignColonistDesc>
-    <CommandGraveSetToUnassignedLabel>할당 해제</CommandGraveSetToUnassignedLabel>
-    <CommandGraveSetToUnassignedDesc>이 무덤을 누구에게도 할당되지 않은 상태로 만듭니다.</CommandGraveSetToUnassignedDesc>
     <BuildingAssign>할당</BuildingAssign>
+    <BuildingUnassign>할당 해제</BuildingUnassign>
     <CommandBedSetForPrisonersLabel>수감자 전용으로 변경</CommandBedSetForPrisonersLabel>
     <CommandBedSetForPrisonersDesc>방 안에 존재하는 모든 침대를 수감자 전용으로 변경합니다</CommandBedSetForPrisonersDesc>
     <CommandBedSetForPrisonersFailOutdoors>야외에 배치된 침대는 수감자 전용으로 사용할 수 없습니다.</CommandBedSetForPrisonersFailOutdoors>
@@ -76,7 +74,7 @@
     <CommandAllowSow>재배 허용</CommandAllowSow>
     <CommandAllowSowDesc>비활성화된 경우 정착민들은 이 구역에 식물을 심지 않습니다. 수확은 가능합니다.</CommandAllowSowDesc>
 
-<!-- Artillery -->
+    <!-- Artillery -->
     <CommandSetForceAttackTarget>강제 사격 지점 설정</CommandSetForceAttackTarget>
     <CommandSetForceAttackTargetDesc>사격 지점을 강제로 설정하여 터렛이 계속 공격할 수 있도록 합니다.</CommandSetForceAttackTargetDesc>
     <CommandStopForceAttack>강제 사격 중지</CommandStopForceAttack>
@@ -85,47 +83,53 @@
     <MessageTargetBeyondMaximumRange>대상이 너무 멀리 있습니다.</MessageTargetBeyondMaximumRange>
     <MessageTargetBelowMinimumRange>대상이 너무 가까이 있습니다.</MessageTargetBelowMinimumRange>
 
-<!-- Ship computer core -->
+    <!-- Ship computer core -->
     <CommandShipLaunch>우주선 발사</CommandShipLaunch>
     <CommandShipLaunchDesc>설정된 순서대로 우주선 발사 절차를 실행합니다.</CommandShipLaunchDesc>
     <CommandShipLaunchReport>절차 보고서 확인</CommandShipLaunchReport>
     <CommandShipLaunchReportDesc>우주선을 발사할 수 있는지 절차를 확인합니다.</CommandShipLaunchReportDesc>
 
-<!-- Pod -->
+    <!-- Pod -->
     <CommandPodEject>동면중인 정착민 깨우기</CommandPodEject>
     <CommandPodEjectDesc>동면장치에서 자고 있는 정착민을 깨우고 밖으로 데려옵니다.</CommandPodEjectDesc>
     <CommandPodEjectFailEmpty>아무도 탑승하지 않았습니다.</CommandPodEjectFailEmpty>
 
-<!-- Door -->
+    <!-- Door -->
     <CommandToggleDoorForbid>상호작용 설정</CommandToggleDoorForbid>
     <CommandToggleDoorForbidDesc>문의 상호작용이 금지된 경우 정착민들과 우호세력은 이 문을 통해 이동하지 않습니다. 적대세력과 동물들은 영향을 받지 않습니다.</CommandToggleDoorForbidDesc>
     <CommandToggleDoorHoldOpen>열어두기</CommandToggleDoorHoldOpen>
     <CommandToggleDoorHoldOpenDesc>활성화된 경우 정착민들이 이 문을 열고 지나간 후에도 닫히지 않습니다.</CommandToggleDoorHoldOpenDesc>
 
-<!-- Art -->
+    <!-- Install/reinstall -->
     <CommandInstall>설치</CommandInstall>
-    <CommandInstallDesc>이 물건은 현재 포장되어 운반되거나 보관할 수 있습니다. 이 명령으로 물건을 특정 위치에 설치할 수 있습니다.</CommandInstallDesc>
+    <CommandInstallDesc>포장된 물건을 설정한 장소에 설치합니다.</CommandInstallDesc>
+    <CommandReinstall>재설치</CommandReinstall>
+    <CommandReinstallDesc>이 물건을 포장해 다른 장소에 설치합니다.</CommandReinstallDesc>
 
-<!-- Temperature control -->
+    <!-- Temperature control -->
     <CommandResetTemp>초기화</CommandResetTemp>
     <CommandResetTempDesc>해당 방의 설정된 온도를 초기화합니다.</CommandResetTempDesc>
     <CommandRaiseTempDesc>설정된 온도를 증가시킵니다.</CommandRaiseTempDesc>
     <CommandLowerTempDesc>설정된 온도를 감소시킵니다.</CommandLowerTempDesc>
 
-<!-- Trade beacon -->
+    <!-- Trade beacon -->
     <CommandMakeBeaconStockpileDesc>이 송신기의 범위만큼 정확히 저장구역을 설정합니다.</CommandMakeBeaconStockpileDesc>
     <CommandMakeBeaconStockpileLabel>저장구역 생성</CommandMakeBeaconStockpileLabel>
 
-<!-- Sun lamp -->
+    <!-- Sun lamp -->
     <CommandSunLampMakeGrowingZoneDesc>이 조명의 범위만큼 정확히 재배구역을 설정합니다.</CommandSunLampMakeGrowingZoneDesc>
     <CommandSunLampMakeGrowingZoneLabel>재배구역 생성</CommandSunLampMakeGrowingZoneLabel>
 
-<!-- Trap -->
+    <!-- Trap -->
     <CommandAutoRearm>자동 재장전</CommandAutoRearm>
-    <CommandAutoRearmDesc>활성화된 경우, 이 함정이 사용되었을 때 자동으로 재장전 지시가 내려집니다.</CommandAutoRearmDesc>
+    <CommandAutoRearmDesc>활성화된 경우 이 함정이 사용되었을 때 자동으로 재장전 지시가 내려집니다.</CommandAutoRearmDesc>
 
-<!-- Animal control -->
+    <!-- Animal control -->
     <CommandReleaseAnimalsLabel>동물 풀기</CommandReleaseAnimalsLabel>
-    <CommandReleaseAnimalsDesc>이 명령이 켜진 경우 동물들이 자유롭게 적을 공격할 수 있습니다. 꺼진 경우 각자의 주인 곁에 머물며 경호합니다.</CommandReleaseAnimalsDesc>
+    <CommandReleaseAnimalsDesc>활성화된 경우 동물들이 자유롭게 적을 공격할 수 있습니다. 꺼진 경우 각자의 주인 곁에 머물며 경호합니다.</CommandReleaseAnimalsDesc>
+
+    <!-- Squad attack -->
+    <CommandSquadAttack>공격</CommandSquadAttack>
+    <CommandSquadAttackDesc>선택된 정착민들이 대상을 공격하게 합니다.</CommandSquadAttackDesc>
 
 </LanguageData>

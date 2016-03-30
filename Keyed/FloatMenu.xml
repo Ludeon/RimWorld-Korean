@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress ALL -->
 <LanguageData>
 
     <CallOnRadio>{0} 연락</CallOnRadio>
-    <CAnnotUseReason>사용 불가({0})</CAnnotUseReason>
+    <CAnnotUseReason>사용 불가 ({0})</CAnnotUseReason>
     <CannotUseSolarFlare>사용 불가 (흑점 폭발)</CannotUseSolarFlare>
-    <CannotUseNoPower>사용 불가 (전원 차단)</CannotUseNoPower>
+    <CannotUseNoPower>사용 불가 (전력 없음)</CannotUseNoPower>
     <CannotUseNoPath>사용 불가 (경로 없음)</CannotUseNoPath>
     <CannotUseReserved>사용 불가 (예약됨)</CannotUseReserved>
     <CannotUseFull>사용 불가 (가득 참)</CannotUseFull>
@@ -14,7 +13,9 @@
 
     <OutOfRange>범위를 벗어남</OutOfRange>
     <CannotHitTarget>대상을 맞출 수 없음</CannotHitTarget>
-    <CannotFight>{0}(은)는 싸울 수 없음</CannotFight>
+    <IsIncapableOfViolenceLower>{0}(은)는 싸울 수 없음</IsIncapableOfViolenceLower>
+    <IsNotDraftedLower>{0}(이)가 소집되지 않음</IsNotDraftedLower>
+    <CannotOrderNonControlledLower>소유하지 않은 유닛에 명령을 내릴 수 없음</CannotOrderNonControlledLower>
 
     <OrderManThing>{0} 조작</OrderManThing>
 
@@ -34,9 +35,11 @@
     <AnimalInteractedTooRecently>최근에 상호작용함</AnimalInteractedTooRecently>
     <NoUsableFood>먹이 없음</NoUsableFood>
     <AnimalsSkillTooLow>조련기술 낮음</AnimalsSkillTooLow>
+    <NoComponentsToRepair>부품 필요</NoComponentsToRepair>
+    <NoFuelToRefuel>{0} 필요</NoFuelToRefuel>
 
     <ConsumeThing>{0} 섭취</ConsumeThing>
-  	<Teetotaler>금욕</Teetotaler>
+    <Teetotaler>금욕</Teetotaler>
 
     <CannotGoNoPath>갈 수 없음 (경로 없음)</CannotGoNoPath>
     <GoHere>여기로 이동</GoHere>
@@ -55,9 +58,9 @@
     <CannotCarryToCryptosleepCasket>동면장치로 운반 불가</CannotCarryToCryptosleepCasket>
 
     <NoCryptosleeCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleeCasket>
-    <NoPrisonerBed>접근 가능하며 사용 중 아닌 죄수용 침대 없음</NoPrisonerBed>
-    <NoNonPrisonerBed>접근 가능하며 사용 중 아닌 침대 없음</NoNonPrisonerBed>
-    <NoAnimalBed>접근 가능하며 사용 중 아닌 동물 침대 없음</NoAnimalBed>
+    <NoPrisonerBed>접근 가능하며 사용 중이 아닌 죄수용 침대 없음</NoPrisonerBed>
+    <NoNonPrisonerBed>접근 가능하며 사용 중이 아닌 침대 없음</NoNonPrisonerBed>
+    <NoAnimalBed>접근 가능하며 사용 중이 아닌 동물 침대 없음</NoAnimalBed>
     <Reserved>누군가에게 예약됨</Reserved>
     <ReservedBy>{0}(이)가 예약함</ReservedBy>
     <IsReservedBy>{0}(은)는 {1}에게 예약됨</IsReservedBy>
@@ -71,6 +74,7 @@
 
     <ForceWear>{0} 착용 지정</ForceWear>
     <CannotWear>{0} 착용 불가</CannotWear>
+    <CannotWearBecauseOfMissingBodyParts>신체 결손</CannotWearBecauseOfMissingBodyParts>
 
     <Strip>{0} 벗기기</Strip>
     <CannotStrip>{0} 벗기기 불가</CannotStrip>
@@ -84,20 +88,23 @@
     <NotInjured>부상 없음</NotInjured>
     <SomeoneElseSleeping>사용 중</SomeoneElseSleeping>
 
-<!-- Specific thing interactions -->
+    <TradeWith>{0}(와)과 거래</TradeWith>
+    <CannotTrade>거래 불가</CannotTrade>
+
+    <!-- Specific thing interactions -->
     <EnterCryptosleepCasket>동면장치에 탑승</EnterCryptosleepCasket>
     <OpenCryptosleepCasket>동면장치 열기</OpenCryptosleepCasket>
 
     <CannotGenericWork>{1} {0} 불가</CannotGenericWork>
 
-<!-- 예시: 이미 (목적어)(을)를 (동사)하고 있습니다. / 우선시 할 수 없음((목적어)(은)는 (1)(이)가 아님) -->
+    <!-- 예시: 이미 (목적어)(을)를 (동사)하고 있습니다. / 우선시 할 수 없음((목적어)(은)는 (1)(이)가 아님) -->
     <CannotMissingHealthActivities>우선시 불가 ({0} 불가능)</CannotMissingHealthActivities>
     <CannotGenericAlreadyAm>이미 {1}(을)를 {0} 중</CannotGenericAlreadyAm>
     <CannotPrioritizeIsNotA>우선시 불가 ({1}(이)가 아님)</CannotPrioritizeIsNotA>
-    <CannotPrioritizeResearch>연구 우선시 불가 (장기 프로젝트)</CannotPrioritizeResearch>
+    <CannotPrioritizeResearch>연구 우선시 불가 (장기 과제)</CannotPrioritizeResearch>
     <CannotPrioritizeForbidden>우선시 불가 ({0}의 상호작용이 금지됨)</CannotPrioritizeForbidden>
 
-<!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
+    <!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
     <PrioritizeGeneric>먼저 {0}: {1}</PrioritizeGeneric>
 
 </LanguageData>

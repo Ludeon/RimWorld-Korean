@@ -3,7 +3,7 @@
 <LanguageData>
 
 	<WorkSpeedGlobal.label>전역 작업 속도</WorkSpeedGlobal.label>
-	<WorkSpeedGlobal.description>모든 종류의 작업 속도에 이 계수가 곱해집니다.</WorkSpeedGlobal.description>
+	<WorkSpeedGlobal.description>모든 종류의 작업 속도에 곱해집니다.</WorkSpeedGlobal.description>
 
 	<MiningSpeed.label>채굴 속도</MiningSpeed.label>
 	<MiningSpeed.description>땅을 파는 속도입니다.</MiningSpeed.description>
@@ -22,6 +22,9 @@
 
 	<HarvestFailChance.label>수확 실패 확률</HarvestFailChance.label>
 	<HarvestFailChance.description>수확에 실패하여, 아무것도 얻지 못하고 식물만 파괴할 확률입니다.</HarvestFailChance.description>
+
+	<FixBrokenDownBuildingFailChance.label>부품 교체 실패 확률</FixBrokenDownBuildingFailChance.label>
+	<FixBrokenDownBuildingFailChance.description>망가진 부품의 교체에 실패할 확률입니다.</FixBrokenDownBuildingFailChance.description>
 
 
 </LanguageData>
