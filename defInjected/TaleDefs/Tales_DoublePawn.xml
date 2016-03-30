@@ -1,242 +1,173 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <Captured.label>구속</Captured.label>
+
 	<rep>
 		<path>Captured.rulePack.rulesStrings[0]</path>
-		<trans>tale_noun->[prisoner_nameShortDef]의 구속</trans>
+		<trans>image->[circumstance_group] [prisoner_nameFull]의 신병을 확보하는 [capturer_nameFull]의 모습입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[1]</path>
-		<trans>image->[circumstance_group] [prisoner_nameFull]의 신병을 확보하는 [capturer_nameFull]</trans>
+		<trans>image->[circumstance_group] [prisoner_nameFull]의 손을 묶는 [capturer_nameFull]의 모습입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[2]</path>
-		<trans>image->[circumstance_group] [prisoner_nameFull]의 손을 묶는 [capturer_nameFull]</trans>
+		<trans>image->[circumstance_group] [prisoner_nameFull]의 몸을 메어치고 있는 [capturer_nameFull]의 모습입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[3]</path>
-		<trans>image->[circumstance_group] [prisoner_nameFull]의 몸을 메어치고 있는 [capturer_nameFull]</trans>
+		<trans>circumstance_phrase->땅에서 고통스러워 하고 있는</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[4]</path>
-		<trans>circumstance_phrase->땅으로 내동댕이쳐진</trans>
+		<trans>circumstance_phrase->고통 속에서 몸부림치는</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[5]</path>
-		<trans>circumstance_phrase->고통으로 몸부림치는</trans>
-	</rep>
-	<rep>
-		<path>Captured.rulePack.rulesStrings[6]</path>
 		<trans>circumstance_phrase->전문적인 기술로</trans>
 	</rep>
 	<rep>
-		<path>Captured.rulePack.rulesStrings[7]</path>
+		<path>Captured.rulePack.rulesStrings[6]</path>
 		<trans>circumstance_phrase->거칠고 초보적으로</trans>
 	</rep>
 	<rep>
+		<path>Captured.rulePack.rulesStrings[7]</path>
+		<trans>circumstance_phrase->눈에 띄게 과도한 힘으로</trans>
+	</rep>
+	<rep>
 		<path>Captured.rulePack.rulesStrings[8]</path>
-		<trans>circumstance_phrase->눈에 띌 정도로 과도하게</trans>
+		<trans>circumstance_phrase->눈에 띄는 만족감과 함께</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[9]</path>
-		<trans>circumstance_phrase->언뜻 비치는 만족감과 함께</trans>
+		<trans>circumstance_phrase->정복욕이 비치는 미소와 함께</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[10]</path>
-		<trans>circumstance_phrase->정복의 미소와 함께</trans>
+		<trans>desc_sentence->우월감에 찬 [pawn_possessive] 눈은 [prisoner_nameShortDefinite]의 눈을 바라보고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[11]</path>
-		<trans>desc_sentence->우월감에 찬 [capturer_nameShortDef]의 눈이 [prisoner_nameShortDef]의 눈을 바라보고 있습니다.</trans>
+		<trans>desc_sentence->[prisoner_nameShortDefinite](이)가 부상을 입어 고통스러워 하고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[12]</path>
-		<trans>desc_sentence->[prisoner_nameShortDef](이)가 부상을 입어 고통스러워합니다.</trans>
+		<trans>desc_sentence->[prisoner_nameShortDefinite]의 눈빛에서 그가 운명에 체념한 것을 볼 수 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[13]</path>
-		<trans>desc_sentence->[prisoner_nameShortDef]의 눈빛에서 그가 운명에 체념한 것을 볼 수 있습니다.</trans>
+		<trans>desc_sentence->[prisoner_nameShortDefinite](은)는 패배의 분노로 소리를 지르고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[14]</path>
-		<trans>desc_sentence->[prisoner_nameShortDef](은)는 패배의 분노로 소리를 지릅니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite](을)를 내려치며 제압하고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[15]</path>
-		<trans>desc_sentence->[capturer_nameShortDef]의 손이 [prisoner_nameShortDef]의 얼굴을 내려치며 제압합니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 귀를 비틀고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[16]</path>
-		<trans>desc_sentence->[capturer_nameShortDef](이)가 [prisoner_nameShortDef]의 귀를 비틉니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 팔을 뒤로 꺾어 구속하고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[17]</path>
-		<trans>desc_sentence->[prisoner_nameShortDef]의 팔을 [capturer_nameShortDef](이)가 뒤로 꺾어 구속했습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 얼굴에 침을 뱉고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[18]</path>
-		<trans>desc_sentence->[capturer_nameShortDef](이)가 [prisoner_nameShortDef]의 얼굴에 침을 뱉습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] [prisoner_nameShortDefinite]의 눈물을 보며 웃고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Captured.rulePack.rulesStrings[19]</path>
-		<trans>desc_sentence->[prisoner_nameShortDef]의 눈에 눈물이 고이자 [capturer_nameShortDef](이)가 비웃습니다.</trans>
-	</rep>
-	<rep>
-		<path>Captured.rulePack.rulesStrings[20]</path>
-		<trans>desc_sentence->[capturer_nameShortDef]의 발이 별 이유 없이 [prisoner_nameShortDef]의 배를 걷어 차고 있습니다.</trans>
+		<trans>desc_sentence->[pawn_pronoun] 별 이유 없이 [prisoner_nameShortDefinite]의 몸을 발로 차고 있습니다.</trans>
 	</rep>
 
-    <!-- ==== Recruited ==== -->
 
-    <Recruited.label>포섭</Recruited.label>
+
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[0]</path>
-		<trans>tale_noun->[joiner_nameShortDef]의 합류</trans>
+		<trans>image->[circumstance_group] [joiner_nameFull]의 앞에서 그를 포섭하려는 [recruiter_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[1]</path>
-		<trans>image->[circumstance_group] [recruiter_nameFull]의 이야기에 귀를 기울이는 [joiner_nameFull]</trans>
+		<trans>image->[circumstance_group] [joiner_nameFull]의 합류 결정 후 그를 환영하는 [recruiter_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[2]</path>
-		<trans>image->[circumstance_group] [joiner_nameFull]의 합류 결정을 환영하는 [recruiter_nameFull]</trans>
+		<trans>image->[circumstance_group] [joiner_nameFull]의 모습이 보입니다. [pawn_pronoun] [recruiter_nameFull]에게 설득당하고 있습니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[3]</path>
-		<trans>image->[circumstance_group] [recruiter_nameFull]에게 설득당하는 [joiner_nameFull]</trans>
+		<trans>desc_sentence->[joiner_nameShortDefinite]의 고개는 이해했다는 듯이 끄덕이고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[4]</path>
-		<trans>circumstance_phrase->좋은 분위기 속에</trans>
+		<trans>desc_sentence->[joiner_nameShortDefinite]의 입은 미소 지으며 상대와 눈을 마주치고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[5]</path>
-		<trans>circumstance_phrase->진심어린 악수와 함께</trans>
+		<trans>desc_sentence->[joiner_nameShortDefinite]의 마음은 안심한 듯 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>Recruited.rulePack.rulesStrings[6]</path>
-		<trans>circumstance_phrase->모두의 미소 속에서</trans>
-	</rep>
-	<rep>
-		<path>Recruited.rulePack.rulesStrings[7]</path>
-		<trans>circumstance_phrase->모든 정착민들이 보는 앞에서</trans>
-	</rep>
-	<rep>
-		<path>Recruited.rulePack.rulesStrings[8]</path>
-		<trans>circumstance_phrase->감옥 안에서</trans>
-	</rep>
-	<rep>
-		<path>Recruited.rulePack.rulesStrings[9]</path>
-		<trans>desc_sentence->[joiner_nameShortDef](은)는 알았다는 듯 고개를 끄덕입니다.</trans>
-	</rep>
-	<rep>
-		<path>Recruited.rulePack.rulesStrings[10]</path>
-		<trans>desc_sentence->[joiner_nameShortDef]의 눈이 [recruiter_nameShortDef]의 눈과 마주하고 있습니다.</trans>
-	</rep>
-	<rep>
-		<path>Recruited.rulePack.rulesStrings[11]</path>
-		<trans>desc_sentence->[joiner_nameShortDef](은)는 안심한 모습입니다.</trans>
-	</rep>
-	<rep>
-		<path>Recruited.rulePack.rulesStrings[12]</path>
-		<trans>desc_sentence->[joiner_nameShortDef]의 모습은 희망으로 가득 차있습니다.</trans>
+		<trans>desc_sentence->[joiner_nameShortDefinite]의 모습은 희망차 보입니다.</trans>
 	</rep>
 
-    <!-- ==== Hunted ==== -->
 
-    <Hunted.label>사냥</Hunted.label>
 	<rep>
 		<path>Hunted.rulePack.rulesStrings[0]</path>
-		<trans>tale_noun->[hunter_nameShortDef]의 성공적인 사냥</trans>
+		<trans>image->[circumstance_group] [hunter_nameFull]에게 사냥당하는 [prey_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Hunted.rulePack.rulesStrings[1]</path>
-		<trans>image->[circumstance_group] [hunter_nameFull]에게 사냥당하는 [prey_nameFull]</trans>
+		<trans>image->[circumstance_group] [prey_nameFull](을)를 멀찍이 떨어져서 쫓고 있는 [hunter_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Hunted.rulePack.rulesStrings[2]</path>
-		<trans>image->[circumstance_group] [prey_nameFull]의 그림자를 멀리서 쫓고 있는 [hunter_nameFull]</trans>
+		<trans>image->[circumstance_group] [prey_nameFull](을)를 사냥하는 [hunter_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>Hunted.rulePack.rulesStrings[3]</path>
-		<trans>image->[circumstance_group] [prey_nameFull](을)를 노리는 [hunter_nameFull]</trans>
+		<trans>desc_sentence->사냥감은 전혀 의식하지 못한 듯 합니다.</trans>
 	</rep>
 	<rep>
 		<path>Hunted.rulePack.rulesStrings[4]</path>
-		<trans>circumstance_phrase->[prey_nameShortDef](이)가 안심한 기색을 보이자마자</trans>
+		<trans>desc_sentence->[hunter_nameShortDefinite]의 손은 무기를 꽉 잡고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>Hunted.rulePack.rulesStrings[5]</path>
-		<trans>circumstance_phrase->[prey_nameShortDef]의 여행 도중에</trans>
-	</rep>
-	<rep>
-		<path>Hunted.rulePack.rulesStrings[6]</path>
-		<trans>circumstance_phrase->[prey_nameShortDef]의 식사 도중에</trans>
-	</rep>
-	<rep>
-		<path>Hunted.rulePack.rulesStrings[7]</path>
-		<trans>desc_sentence->[prey_nameShortDef](은)는 아무것도 모르는 눈치입니다.</trans>
-	</rep>
-	<rep>
-		<path>Hunted.rulePack.rulesStrings[8]</path>
-		<trans>desc_sentence->[hunter_nameShortDef]의 손이 무기를 꽉 쥐고 있습니다.</trans>
-	</rep>
-	<rep>
-		<path>Hunted.rulePack.rulesStrings[9]</path>
-		<trans>desc_sentence->[prey_nameShortDef](이)가 위험을 느꼈는지 사방을 둘러보고 있습니다.</trans>
+		<trans>desc_sentence->뭔가 잘못된 것을 느꼈는지 [prey_nameShortDefinite]의 고개는 주변을 둘러보고 있습니다.</trans>
 	</rep>
 
-    <!-- ==== DidSurgery ==== -->
 
-    <DidSurgery.label>수술</DidSurgery.label>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[0]</path>
-		<trans>tale_noun->[patient_nameShortDef]의 수술</trans>
+		<trans>image->[circumstance_group] [patient_nameFull]에게 마취를 해 잠이 들게 하고 있는 [surgeon_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[1]</path>
-		<trans>image->[circumstance_group] [patient_nameFull](을)를 마취하는 [surgeon_nameFull]</trans>
+		<trans>image->[circumstance_group] [patient_nameFull]의 몸 안에 손을 깊숙히 넣은 [surgeon_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[2]</path>
-		<trans>image->[circumstance_group] [patient_nameFull]의 몸 안에 손을 깊숙히 넣은 [surgeon_nameFull]</trans>
+		<trans>image->[circumstance_group] [patient_nameFull]의 살을 자르는 [surgeon_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[3]</path>
-		<trans>image->[circumstance_group] [patient_nameFull]의 피부를 가르는 [surgeon_nameFull]</trans>
+		<trans>desc_sentence->[surgeon_nameShortDefinite]의 얼굴은 땀을 많이 흘리고 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[4]</path>
-		<trans>circumstance_phrase->공포로 얼룩진 환자의 얼굴과 함께</trans>
+		<trans>desc_sentence->[pawn_pronoun] 놀라울 정도로 수술에 집중한 것으로 보입니다.</trans>
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[5]</path>
-		<trans>circumstance_phrase->발 아래 피가 고인 가운데</trans>
+		<trans>desc_sentence->[surgeon_nameShortDefinite]의 얼굴에 피가 묻어 있습니다.</trans>
 	</rep>
 	<rep>
 		<path>DidSurgery.rulePack.rulesStrings[6]</path>
-		<trans>circumstance_phrase->무섭게 생긴 수술도구들 주변에서</trans>
-	</rep>
-	<rep>
-		<path>DidSurgery.rulePack.rulesStrings[7]</path>
-		<trans>circumstance_phrase->급조된, 그러나 효과적인 도구와 함께</trans>
-	</rep>
-	<rep>
-		<path>DidSurgery.rulePack.rulesStrings[8]</path>
-		<trans>desc_sentence->[surgeon_nameShortDef]의 땀이 흥건합니다.</trans>
-	</rep>
-	<rep>
-		<path>DidSurgery.rulePack.rulesStrings[9]</path>
-		<trans>desc_sentence->[surgeon_nameShortDef]의 온 정신이 수술에 집중했습니다.</trans>
-	</rep>
-	<rep>
-		<path>DidSurgery.rulePack.rulesStrings[10]</path>
-		<trans>desc_sentence->[surgeon_nameShortDef]의 얼굴에 피가 묻어 있습니다.</trans>
-	</rep>
-	<rep>
-		<path>DidSurgery.rulePack.rulesStrings[11]</path>
-		<trans>desc_sentence->[patient_nameShortDefinite]의 몸이 고통으로 떨고 있습니다.</trans>
+		<trans>desc_sentence->[patient_nameShortDefinite]의 몸이 떨리며 고통스러워 하고 있습니다.</trans>
 	</rep>
 
 

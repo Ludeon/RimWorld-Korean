@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- ITab titles -->
+<!-- ITab titles -->
     <TabBills>계획서</TabBills>
     <TabGrowing>재배</TabGrowing>
     <TabCharacter>캐릭터</TabCharacter>
@@ -15,19 +15,17 @@
     <TabRace>종류</TabRace>
     <TabBasics>기본</TabBasics>
     <TabStats>통계</TabStats>
-    <TabRecords>기록</TabRecords>
     <TabArt>예술</TabArt>
-    <TabSocial>관계</TabSocial>
 
-    <!-- Bills tab  -->
+<!-- Bills tab  -->
     <AddBill>계획서 추가</AddBill>
-    <RecipeRequiresSkills>{0}의 요구사항은 아래와 같습니다. 어떠한 정착민도 이 기술을 가지고 있지 않기 때문에 누구도 이를 하지 못합니다.</RecipeRequiresSkills>
+    <RecipeRequiresSkills>{0}의 요구사항은 아래와 같습니다. 어떠한 주민도 이 기술을 가지고 있지 않기 때문에 누구도 이를 하지 못합니다.</RecipeRequiresSkills>
     <MinimumSkill>최소 기술</MinimumSkill>
     <SuspendedCaps>일시 중지</SuspendedCaps>
     <BoundWorkerIs>작업자: {0}</BoundWorkerIs>
     <PlantVerb>심기</PlantVerb>
 
-    <!-- Guest/Prisoner tab -->
+<!-- Guest/Prisoner tab -->
     <RecruitmentDifficulty>포섭 난이도</RecruitmentDifficulty>
     <GetsFood>음식 제공</GetsFood>
     <DoctorsCare>의사 진료</DoctorsCare>
@@ -39,7 +37,7 @@
     <PrisonerRelease>석방</PrisonerRelease>
     <PrisonerExecution>처형</PrisonerExecution>
 
-    <!-- Medical - general -->
+<!-- Medical - general -->
     <MoveSpeed>이동속도</MoveSpeed>
     <Efficiency>능률</Efficiency>
     <MissingBodyPart>사라짐</MissingBodyPart>
@@ -65,12 +63,8 @@
     <MedicalOperations>의료 작업</MedicalOperations>
     <Amputate>절단</Amputate>
     <Harvest>장기 적출</Harvest>
-    <MemoryLower>기억</MemoryLower>
-    <SocialInteractionsLower>상호작용</SocialInteractionsLower>
-    <HungerRate>굶주림</HungerRate>
-    <Tiredness>피로도</Tiredness>
 
-    <!-- Medical - Body and activities condition -->
+<!-- Medical - Body and activities condition -->
     <None>없음</None>
     <VeryPoor>매우 나쁨</VeryPoor>
     <Poor>나쁨</Poor>
@@ -86,21 +80,11 @@
     <SeverePain>극심</SeverePain>
     <ExtremePain>극도</ExtremePain>
 
-    <!-- Training tab-->
+<!-- Training tab-->
     <TrainableIntelligence>훈련시 지능</TrainableIntelligence>
     <CannotTrainNotSmartEnough>훈련시 지능 필요: {0}.</CannotTrainNotSmartEnough>
     <CannotTrainTooSmall>{0}의 크기가 훈련을 받기에 너무 작습니다.</CannotTrainTooSmall>
 
     <TrainingNeedsPrerequisite>선행훈련 필요: {0}</TrainingNeedsPrerequisite>
-
-    <!-- Social tab -->
-    <NoRelationships>(관계 없음)</NoRelationships>
-    <Kidnapped>납치됨</Kidnapped>
-    <Slave>노예</Slave>
-    <FactionLeader>세력 지도자</FactionLeader>
-    <OpinionOf>{0}에 대한 의견</OpinionOf>
-    <SomeonesOpinionOfMe>나에 대한 의견</SomeonesOpinionOfMe>
-    <IAmDead>사망</IAmDead>
-    <IAmPsychopath>사이코패스</IAmPsychopath>
 
 </LanguageData>

@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 
 	<DoorOpenSpeed.label>개폐 속도</DoorOpenSpeed.label>
@@ -14,22 +15,16 @@
 	<TrapSpringChance.description>위로 물체가 지나갈 때 덫이 작동할 확률입니다.</TrapSpringChance.description>
 
 	<ResearchSpeedFactor.label>연구속도 계수</ResearchSpeedFactor.label>
-	<ResearchSpeedFactor.description>과학자의 연구 속도에 곱해집니다.</ResearchSpeedFactor.description>
-    <rep>
-        <path>ResearchSpeedFactor.parts[0].customLabel</path>
-        <trans>방 청결도</trans>
-    </rep>
+	<ResearchSpeedFactor.description>연구자의 속도에 이 계수가 곱해집니다.</ResearchSpeedFactor.description>
 
 	<MedicalTreatmentQualityFactor.label>치료 품질 계수</MedicalTreatmentQualityFactor.label>
-	<MedicalTreatmentQualityFactor.description>의사가 치료할 때 품질 수치에 곱해집니다.</MedicalTreatmentQualityFactor.description>
+	<MedicalTreatmentQualityFactor.description>의사가 치료할 때, 품질 수치에 이 계수가 곱해집니다.</MedicalTreatmentQualityFactor.description>
 
 	<ImmunityGainSpeedFactor.label>면역 생성 속도 계수</ImmunityGainSpeedFactor.label>
-	<ImmunityGainSpeedFactor.description>면역 생성 속도에 곱해집니다.</ImmunityGainSpeedFactor.description>
+	<ImmunityGainSpeedFactor.description>면역 생성 속도에 이 계수가 곱해집니다.</ImmunityGainSpeedFactor.description>
 
 	<WorkTableWorkSpeedFactor.label>작업 속도 계수</WorkTableWorkSpeedFactor.label>
-	<WorkTableWorkSpeedFactor.description>작업 속도에 곱해집니다.</WorkTableWorkSpeedFactor.description>
+	<WorkTableWorkSpeedFactor.description>작업 속도에 이 계수가 곱해집니다.</WorkTableWorkSpeedFactor.description>
 
-	<EntertainmentStrengthFactor.label>재미 계수</EntertainmentStrengthFactor.label>
-	<EntertainmentStrengthFactor.description>사용할 때 제공하는 즐거움 수치에 곱해집니다.</EntertainmentStrengthFactor.description>
 
 </LanguageData>

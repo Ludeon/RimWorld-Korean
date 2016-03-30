@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
 <LanguageData>
 
 	<Research.labelShort>연구</Research.labelShort>
-	<Research.pawnLabel>과학자</Research.pawnLabel>
+	<Research.pawnLabel>연구자</Research.pawnLabel>
 	<Research.gerundLabel>연구</Research.gerundLabel>
 	<Research.verb>연구</Research.verb>
-	<Research.description>과학자들은 연구과제가 등록된 경우 연구를 실행합니다.</Research.description>
+	<Research.description>연구자들은 연구 과제가 등록된 경우 연구를 실행합니다.</Research.description>
 
 	<Cleaning.labelShort>청소</Cleaning.labelShort>
 	<Cleaning.pawnLabel>청소부</Cleaning.pawnLabel>
 	<Cleaning.gerundLabel>청소</Cleaning.gerundLabel>
 	<Cleaning.verb>청소</Cleaning.verb>
-	<Cleaning.description>청소부들은 주거구역을 청소하여 불쾌감을 줄입니다.</Cleaning.description>
+	<Cleaning.description>청소부들은 거주지역을 청소하여 주민들의 불쾌감을 줄입니다.</Cleaning.description>
 
 	<Hauling.labelShort>운반</Hauling.labelShort>
 	<Hauling.pawnLabel>짐꾼</Hauling.pawnLabel>
@@ -43,17 +44,17 @@
 	<Smithing.verb>제련</Smithing.verb>
 	<Smithing.description>대장장이들은 원자재를 무기와 도구로 가공합니다.</Smithing.description>
 
-	<PlantCutting.labelShort>제초</PlantCutting.labelShort>
-	<PlantCutting.pawnLabel>제초꾼</PlantCutting.pawnLabel>
-	<PlantCutting.gerundLabel>제초</PlantCutting.gerundLabel>
-	<PlantCutting.verb>제초</PlantCutting.verb>
-	<PlantCutting.description>제초꾼들은 지정된 야생 식물을 제거합니다.</PlantCutting.description>
+	<PlantCutting.labelShort>벌초</PlantCutting.labelShort>
+	<PlantCutting.pawnLabel>벌초꾼</PlantCutting.pawnLabel>
+	<PlantCutting.gerundLabel>벌초</PlantCutting.gerundLabel>
+	<PlantCutting.verb>벌초</PlantCutting.verb>
+	<PlantCutting.description>벌초꾼들은 지정된 야생 식물을 제거합니다.</PlantCutting.description>
 
-	<Mining.labelShort>채굴</Mining.labelShort>
+	<Mining.labelShort>채광</Mining.labelShort>
 	<Mining.pawnLabel>광부</Mining.pawnLabel>
-	<Mining.gerundLabel>채굴</Mining.gerundLabel>
-	<Mining.verb>채굴</Mining.verb>
-	<Mining.description>광부들은 지정된 암반을 파냅니다. 만약 그 암반이 광물을 포함한 경우 채광 과정에서 얻을 수 있습니다.</Mining.description>
+	<Mining.gerundLabel>채광</Mining.gerundLabel>
+	<Mining.verb>채광</Mining.verb>
+	<Mining.description>광부들은 지정된 땅을 파냅니다. 만약 그 땅이 광물을 포함한 경우 채광 과정에서 얻을 수 있습니다.</Mining.description>
 
 	<Growing.labelShort>재배</Growing.labelShort>
 	<Growing.pawnLabel>농부</Growing.pawnLabel>
@@ -113,7 +114,7 @@
 	<Doctor.pawnLabel>의사</Doctor.pawnLabel>
 	<Doctor.gerundLabel>치료</Doctor.gerundLabel>
 	<Doctor.verb>치료</Doctor.verb>
-	<Doctor.description>의사들은 행동불능 상태로 누워있는 정착민들과 수감자들의 치료를 하거나 음식을 먹여주기도 합니다.</Doctor.description>
+	<Doctor.description>의사들은 행동불능 상태로 누워있는 주민들과 수감자들의 치료를 하거나 음식을 먹여주기도 합니다.</Doctor.description>
 
 	<Firefighter.labelShort>소방</Firefighter.labelShort>
 	<Firefighter.pawnLabel>소방관</Firefighter.pawnLabel>
