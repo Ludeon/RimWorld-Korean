@@ -4,7 +4,7 @@
 
 	<Colony.label>정착지</Colony.label>
 	<Colony.description>당신의 공동체입니다.</Colony.description>
-	<Colony.pawnsPlural>정착지 거주민들</Colony.pawnsPlural>
+	<Colony.pawnsPlural>정착지 정착민들</Colony.pawnsPlural>
 
 	<!-- Hidden factions -->
 	<Spacer.label>우주 여행자</Spacer.label>
@@ -15,20 +15,24 @@
 	<SpacerHostile.description>머나먼 우주에서 온 여행자입니다.</SpacerHostile.description>
 	<SpacerHostile.pawnsPlural>우주 여행자들</SpacerHostile.pawnsPlural>
 
+	<Insect.label>곤충</Insect.label>
+	<Insect.description>대개 적대적이고 거슬리는 곤충 무리입니다.</Insect.description>
+	<Insect.pawnsPlural>곤충들</Insect.pawnsPlural>
+
 	<!-- Normal humanlike factions -->
 	<Outlander.label>외지인</Outlander.label>
 	<Outlander.description>소규모의 마을을 이루며 살아가는 생존자들입니다.
 		\n\n이들은 수십 년 동안 이곳에서 살아오면서 이 세계에 자신들을 데려온 대부분의 기술을 상실했습니다. 간단한 기계 도구나 건물을 이용해 살아가며 총과 같은 화약무기를 사용하여 스스로를 방어합니다.
 		\n\n그다지 적대적이지도 않고 약하지도 않은 이 외지인들은 무역, 신뢰, 생존과 같은 일반적인 문제에 대해 신경씁니다.</Outlander.description>
 	<Outlander.pawnsPlural>외지인들</Outlander.pawnsPlural>
-	
+
 	<Pirate.label>우주 해적</Pirate.label>
 	<Pirate.description>도적 집단입니다.
 		\n\n우주 해적들은 재배하지도, 건설하지도 않으며 아주 가끔씩 거래합니다. 주로 자신들보다 더 생산적인 무리를 습격하고 강탈해 수익을 얻습니다.
 		\n\n해적들의 기술 수준은 최근 약탈하는데 성공한 사람들에 의존합니다. 주로 총과 같은 화약무기를 소지하지만, 더 운 좋은 사람들은 에너지 무기와 같은 발전된 무기를 지녔을 수도 있고, 다른 몇몇 해적은 그저 사람들을 근거리에서 찌르는 걸 좋아합니다.
 	</Pirate.description>
 	<Pirate.pawnsPlural>우주 해적들</Pirate.pawnsPlural>
-	
+
 	<Tribe.label>부족</Tribe.label>
 	<Tribe.description> 이 곳에서 아주 오랜 시간동안 살아온 사람들입니다. 이들의 조상은 수천년 전 이 곳에 불시착한 것일지 모릅니다. 또는 문명화된 사회를 파괴한 재앙을 살아남은 것일 수도 있습니다. 어떤 경우든, 부족들은 대부분 유목민들이며 오직 원시적인 도구와 무기만을 사용합니다.
 		\n\n몇몇 부족들은 다른 부족들보다 더 적대적입니다. 다른 대부분은 당신과 같은 이방인들에게도 무역과 동맹에 있어 열려있습니다. 밀접한 협력이나 포섭은 사회적, 언어적 차이로 인해 어려울 수 있습니다.
@@ -41,8 +45,8 @@
 	<Mechanoid.description>자가증식하는 고대 기계들의 군락입니다.</Mechanoid.description>
 	<Mechanoid.pawnsPlural>메카노이드들</Mechanoid.pawnsPlural>
 	<Mechanoid.fixedName>메카노이드 군락</Mechanoid.fixedName>
-	
-	
-	
-	
+
+
+
+
 </LanguageData>

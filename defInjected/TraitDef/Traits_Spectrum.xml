@@ -1,244 +1,290 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+    <!-- ==== SpeedOffset ==== -->
 
-	<rep>
-		<path>SpeedOffset.degreeDatas[0].label</path>
-		<trans>굼벵이</trans>
-	</rep>
-	<rep>
-		<path>SpeedOffset.degreeDatas[0].description</path>
-		<trans>NAME(은)는 어디를 가든 항상 무리에서 뒤쳐집니다.</trans>
-	</rep>
-	<rep>
-		<path>SpeedOffset.degreeDatas[1].label</path>
-		<trans>빠른 걸음</trans>
-	</rep>
-	<rep>
-		<path>SpeedOffset.degreeDatas[1].description</path>
-		<trans>NAME(은)는 어디던 이동하는 걸 좋아하며, 대부분의 사람들보다 빠르게 앞장섭니다.</trans>
-	</rep>
-	<rep>
-		<path>SpeedOffset.degreeDatas[2].label</path>
-		<trans>달리기</trans>
-	</rep>
-	<rep>
-		<path>SpeedOffset.degreeDatas[2].description</path>
-		<trans>NAME(은)는 항상 급하게 이동합니다. 다른 사람들이 따라잡기 힘들 정도로요.</trans>
-	</rep>
+    <rep>
+        <path>SpeedOffset.degreeDatas[0].label</path>
+        <trans>굼벵이</trans>
+    </rep>
+    <rep>
+        <path>SpeedOffset.degreeDatas[0].description</path>
+        <trans>NAME(은)는 어디를 가든 항상 무리에서 뒤쳐집니다.</trans>
+    </rep>
+    <rep>
+        <path>SpeedOffset.degreeDatas[1].label</path>
+        <trans>빠른 걸음</trans>
+    </rep>
+    <rep>
+        <path>SpeedOffset.degreeDatas[1].description</path>
+        <trans>NAME(은)는 목적지에 가는걸 좋아하며, 대부분의 사람들보다 빠르게 앞장섭니다.</trans>
+    </rep>
+    <rep>
+        <path>SpeedOffset.degreeDatas[2].label</path>
+        <trans>설레발</trans>
+    </rep>
+    <rep>
+        <path>SpeedOffset.degreeDatas[2].description</path>
+        <trans>NAME(은)는 항상 급하게 이동합니다. 다른 사람들이 따라잡기 힘들 정도로요.</trans>
+    </rep>
 
+    <!-- ==== DrugDesire ==== -->
 
-	<rep>
-		<path>DrugDesire.degreeDatas[0].label</path>
-		<trans>약물중독</trans>
-	</rep>
-	<rep>
-		<path>DrugDesire.degreeDatas[0].description</path>
-		<trans>NAME(은)는 혼합물이 제공하는 즐거움에 강하게 매료되었습니다. 술과 같은 약물을 훨씬 자주 소비하며 폭음하기 쉽습니다.</trans>
-	</rep>
-	<rep>
-		<path>DrugDesire.degreeDatas[1].label</path>
-		<trans>약물광</trans>
-	</rep>
-	<rep>
-		<path>DrugDesire.degreeDatas[1].description</path>
-		<trans>NAME(은)는 혼합물이 제공하는 즐거움에 흥미를 가지고 있습니다. 술과 같은 약물을 자주 소비하며 폭음하기 쉽습니다.</trans>
-	</rep>
-	<rep>
-		<path>DrugDesire.degreeDatas[2].label</path>
-		<trans>금주</trans>
-	</rep>
-	<rep>
-		<path>DrugDesire.degreeDatas[2].description</path>
-		<trans>NAME(은)는 혼합물에서 즐거움을 얻는다는 생각 자체를 혐오합니다. 술이나 약물을 피합니다.</trans>
-	</rep>
+    <rep>
+        <path>DrugDesire.degreeDatas[0].label</path>
+        <trans>약물중독</trans>
+    </rep>
+    <rep>
+        <path>DrugDesire.degreeDatas[0].description</path>
+        <trans>NAME(은)는 혼합물이 제공하는 즐거움에 강하게 매료되었습니다. 술과 같은 약물을 훨씬 자주 소비하며 폭음하기 쉽습니다.</trans>
+    </rep>
+    <rep>
+        <path>DrugDesire.degreeDatas[1].label</path>
+        <trans>약물광</trans>
+    </rep>
+    <rep>
+        <path>DrugDesire.degreeDatas[1].description</path>
+        <trans>NAME(은)는 혼합물이 제공하는 즐거움에 흥미를 가지고 있습니다. 술과 같은 약물을 자주 소비하며 폭음하기 쉽습니다.</trans>
+    </rep>
+    <rep>
+        <path>DrugDesire.degreeDatas[2].label</path>
+        <trans>금주</trans>
+    </rep>
+    <rep>
+        <path>DrugDesire.degreeDatas[2].description</path>
+        <trans>NAME(은)는 혼합물에서 즐거움을 얻는다는 생각 자체를 혐오합니다. 술이나 약물을 피합니다.</trans>
+    </rep>
 
+    <!-- ==== NaturalMood ==== -->
 
-	<rep>
-		<path>NaturalMood.degreeDatas[0].label</path>
-		<trans>행복함</trans>
-	</rep>
-	<rep>
-		<path>NaturalMood.degreeDatas[0].description</path>
-		<trans>NAME(은)는 시간과 상황에 관계없이 자신감이 넘칩니다.</trans>
-	</rep>
-	<rep>
-		<path>NaturalMood.degreeDatas[1].label</path>
-		<trans>낙천적</trans>
-	</rep>
-	<rep>
-		<path>NaturalMood.degreeDatas[1].description</path>
-		<trans>NAME(은)는 낙천적입니다. HIS 기분을 좋지 않게 하는 것은 힘들 겁니다.</trans>
-	</rep>
-	<rep>
-		<path>NaturalMood.degreeDatas[2].label</path>
-		<trans>비관적</trans>
-	</rep>
-	<rep>
-		<path>NaturalMood.degreeDatas[2].description</path>
-		<trans>NAME(은)는 삶을 비관하는 경향이 있습니다.</trans>
-	</rep>
-	<rep>
-		<path>NaturalMood.degreeDatas[3].label</path>
-		<trans>우울함</trans>
-	</rep>
-	<rep>
-		<path>NaturalMood.degreeDatas[3].description</path>
-		<trans>NAME(은)는 언제나 불행합니다. HE 모든 것이 잘 돌아가도 기분이 좋지 않습니다.</trans>
-	</rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[0].label</path>
+        <trans>낙천가</trans>
+    </rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[0].description</path>
+        <trans>NAME(은)는 어떤 상황이 닥치든 낙천적입니다. 거의 항상 그렇습니다.</trans>
+    </rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[1].label</path>
+        <trans>낙관론자</trans>
+    </rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[1].description</path>
+        <trans>NAME(은)는 낙관적입니다. HIS 우울하게 하는 것은 힘들 것입니다.</trans>
+    </rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[2].label</path>
+        <trans>비관론자</trans>
+    </rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[2].description</path>
+        <trans>NAME(은)는 삶을 비관하는 경향이 있습니다.</trans>
+    </rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[3].label</path>
+        <trans>우울증</trans>
+    </rep>
+    <rep>
+        <path>NaturalMood.degreeDatas[3].description</path>
+        <trans>NAME(은)는 언제나 불행합니다. HE 모든 것이 잘 돌아가도 기분이 좋지 않습니다.</trans>
+    </rep>
 
+    <!-- ==== Nerves ==== -->
 
-	<rep>
-		<path>Nerves.degreeDatas[0].label</path>
-		<trans>철의 의지</trans>
-	</rep>
-	<rep>
-		<path>Nerves.degreeDatas[0].description</path>
-		<trans>NAME의 의지는 마치 강철과 같습니다. 다른 사람들이 먼저 주저앉을 때에도 HE 모든 것을 이겨내고 나아갑니다.</trans>
-	</rep>
-	<rep>
-		<path>Nerves.degreeDatas[1].label</path>
-		<trans>확고함</trans>
-	</rep>
-	<rep>
-		<path>Nerves.degreeDatas[1].description</path>
-		<trans>NAME(은)는 다른 사람들이 심각한 스트레스로 인해 무너지더라도 잘 버텨내곤 합니다.</trans>
-	</rep>
-	<rep>
-		<path>Nerves.degreeDatas[2].label</path>
-		<trans>신경과민</trans>
-	</rep>
-	<rep>
-		<path>Nerves.degreeDatas[2].description</path>
-		<trans>NAME(은)는 압박을 받았을 때 다른 사람들보다 빠르게 무너지는 경향이 있습니다.</trans>
-	</rep>
-	<rep>
-		<path>Nerves.degreeDatas[3].label</path>
-		<trans>불안정</trans>
-	</rep>
-	<rep>
-		<path>Nerves.degreeDatas[3].description</path>
-		<trans>NAME의 신경은 언제나 곤두서있습니다. HE 힘든 상황에서 제일 먼저 무너지는 사람 중 한 명입니다.</trans>
-	</rep>
+    <rep>
+        <path>Nerves.degreeDatas[0].label</path>
+        <trans>철의 의지</trans>
+    </rep>
+    <rep>
+        <path>Nerves.degreeDatas[0].description</path>
+        <trans>NAME의 의지는 마치 강철과 같습니다. 다른 사람들이 먼저 주저앉을 때에도 HE 모든 것을 이겨내고 나아갑니다.</trans>
+    </rep>
+    <rep>
+        <path>Nerves.degreeDatas[1].label</path>
+        <trans>확고함</trans>
+    </rep>
+    <rep>
+        <path>Nerves.degreeDatas[1].description</path>
+        <trans>NAME(은)는 다른 사람들이 심각한 스트레스로 인해 무너지더라도 잘 버텨내곤 합니다.</trans>
+    </rep>
+    <rep>
+        <path>Nerves.degreeDatas[2].label</path>
+        <trans>신경과민</trans>
+    </rep>
+    <rep>
+        <path>Nerves.degreeDatas[2].description</path>
+        <trans>NAME(은)는 압박을 받았을 때 다른 사람들보다 빠르게 무너지는 경향이 있습니다.</trans>
+    </rep>
+    <rep>
+        <path>Nerves.degreeDatas[3].label</path>
+        <trans>정신 분열</trans>
+    </rep>
+    <rep>
+        <path>Nerves.degreeDatas[3].description</path>
+        <trans>NAME의 신경은 언제나 곤두서있습니다. HE 힘든 상황에서 제일 먼저 무너지는 사람 중 한 명입니다.</trans>
+    </rep>
 
+    <!-- ==== Neurotic ==== -->
 
-	<rep>
-		<path>Neurotic.degreeDatas[0].label</path>
-		<trans>강박증</trans>
-	</rep>
-	<rep>
-		<path>Neurotic.degreeDatas[0].description</path>
-		<trans>NAME(은)는 모든 일을 완료해야 마음이 편해집니다. 따라서 더 열심히 일하겠지만, 불안감은 HIM 앞설 것입니다.</trans>
-	</rep>
-	<rep>
-		<path>Neurotic.degreeDatas[1].label</path>
-		<trans>심각한 강박증</trans>
-	</rep>
-	<rep>
-		<path>Neurotic.degreeDatas[1].description</path>
-		<trans>NAME(은)는 HECAP가 끝내지 못한 모든 일들을 생각하면서 불안하다고 느낍니다. 따라서 모두 완료하기 위해 엄청나게 열심히 일하겠지만, 불안감은 HIM 앞설 것입니다.</trans>
-	</rep>
+    <rep>
+        <path>Neurotic.degreeDatas[0].label</path>
+        <trans>강박증</trans>
+    </rep>
+    <rep>
+        <path>Neurotic.degreeDatas[0].description</path>
+        <trans>NAME(은)는 모든 일을 완료해야 마음이 편해집니다. 따라서 더 열심히 일하겠지만, 불안감이 HIM 앞설 것입니다.</trans>
+    </rep>
+    <rep>
+        <path>Neurotic.degreeDatas[1].label</path>
+        <trans>심각한 강박증</trans>
+    </rep>
+    <rep>
+        <path>Neurotic.degreeDatas[1].description</path>
+        <trans>NAME(은)는 HECAP가 끝내지 못한 모든 일들을 생각하면서 불안하다고 느낍니다. 따라서 모두 완료하기 위해 엄청나게 열심히 일하겠지만, 불안감이 HIM 앞설 것입니다.</trans>
+    </rep>
 
+    <!-- ==== Industriousness ==== -->
 
-	<rep>
-		<path>Industriousness.degreeDatas[0].label</path>
-		<trans>부지런함</trans>
-	</rep>
-	<rep>
-		<path>Industriousness.degreeDatas[0].description</path>
-		<trans>NAME(은)는 다른 사람들보다 일에 잘 집중하고, 훨씬 더 빠르게 작업을 끝마칩니다.</trans>
-	</rep>
-	<rep>
-		<path>Industriousness.degreeDatas[1].label</path>
-		<trans>일벌레</trans>
-	</rep>
-	<rep>
-		<path>Industriousness.degreeDatas[1].description</path>
-		<trans>NAME(은)는 타고난 일벌레이며 대부분의 사람들보다 작업을 일찍 마칠 것입니다.</trans>
-	</rep>
-	<rep>
-		<path>Industriousness.degreeDatas[2].label</path>
-		<trans>게으름</trans>
-	</rep>
-	<rep>
-		<path>Industriousness.degreeDatas[2].description</path>
-		<trans>NAME(은)는 좀 게으릅니다.</trans>
-	</rep>
-	<rep>
-		<path>Industriousness.degreeDatas[3].label</path>
-		<trans>나태함</trans>
-	</rep>
-	<rep>
-		<path>Industriousness.degreeDatas[3].description</path>
-		<trans>NAME(은)는 가만히 있는 것을 사랑하며 생산적인 일을 싫어합니다. HE 모든 작업을 천천히 하고 움직임도 느립니다.</trans>
-	</rep>
+    <rep>
+        <path>Industriousness.degreeDatas[0].label</path>
+        <trans>일벌레</trans>
+    </rep>
+    <rep>
+        <path>Industriousness.degreeDatas[0].description</path>
+        <trans>NAME(은)는 다른 사람들보다 일에 잘 집중하고, 훨씬 더 빠르게 작업을 끝마칩니다.</trans>
+    </rep>
+    <rep>
+        <path>Industriousness.degreeDatas[1].label</path>
+        <trans>근면함</trans>
+    </rep>
+    <rep>
+        <path>Industriousness.degreeDatas[1].description</path>
+        <trans>NAME(은)는 타고난 일꾼이며 대부분의 사람들보다 작업을 일찍 마칠 것입니다.</trans>
+    </rep>
+    <rep>
+        <path>Industriousness.degreeDatas[2].label</path>
+        <trans>게으름</trans>
+    </rep>
+    <rep>
+        <path>Industriousness.degreeDatas[2].description</path>
+        <trans>NAME(은)는 좀 게으릅니다.</trans>
+    </rep>
+    <rep>
+        <path>Industriousness.degreeDatas[3].label</path>
+        <trans>나태함</trans>
+    </rep>
+    <rep>
+        <path>Industriousness.degreeDatas[3].description</path>
+        <trans>NAME(은)는 가만히 있는 것을 사랑하며 생산적인 일을 싫어합니다. HE 모든 작업을 천천히 하고 움직임도 느립니다.</trans>
+    </rep>
 
+    <!-- ==== PpsychicSensitivitiy ==== -->
 
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[0].label</path>
-		<trans>정신적 과민</trans>
-	</rep>
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[0].description</path>
-		<trans>NAME의 정신을 비유하자면 소리굽쇠라고 할 수 있습니다. HE 정신현상에 매우 민감하게 공명합니다.</trans>
-	</rep>
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[1].label</path>
-		<trans>정신적 민감</trans>
-	</rep>
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[1].description</path>
-		<trans>NAME의 마음은 정신현상에 대해 비정상적으로 민감합니다.</trans>
-	</rep>
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[2].label</path>
-		<trans>정신적 둔감</trans>
-	</rep>
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[2].description</path>
-		<trans>NAME의 마음은 다른 사람들의 정신파와 잘 맞지 않습니다. 따라서 정신현상에 잘 영향을 받지 않습니다.</trans>
-	</rep>
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[3].label</path>
-		<trans>정신적 무감각</trans>
-	</rep>
-	<rep>
-		<path>PsychicSensitivity.degreeDatas[3].description</path>
-		<trans>NAME의 마음은 평범한 사람들과 완전히 다른 정신파에서 움직입니다. 따라서 정신현상에 영향을 받지 않습니다.</trans>
-	</rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[0].label</path>
+        <trans>정신적 과민</trans>
+    </rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[0].description</path>
+        <trans>NAME의 정신을 비유하자면 소리굽쇠라고 할 수 있습니다. HE 정신현상에 매우 민감하게 공명합니다.</trans>
+    </rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[1].label</path>
+        <trans>정신적 민감</trans>
+    </rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[1].description</path>
+        <trans>NAME의 마음은 정신현상에 대해 비정상적으로 민감합니다.</trans>
+    </rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[2].label</path>
+        <trans>정신적 둔감</trans>
+    </rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[2].description</path>
+        <trans>NAME의 마음은 다른 사람들의 정신파와 잘 맞지 않습니다. 따라서 정신현상에 잘 영향을 받지 않습니다.</trans>
+    </rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[3].label</path>
+        <trans>정신적 무감각</trans>
+    </rep>
+    <rep>
+        <path>PsychicSensitivity.degreeDatas[3].description</path>
+        <trans>NAME의 마음은 평범한 사람들과 완전히 다른 정신파에서 움직입니다. 따라서 정신현상에 영향을 받지 않습니다.</trans>
+    </rep>
 
-	<rep>
-		<path>TemperaturePreference.degreeDatas[0].label</path>
-		<trans>추위 사랑</trans>
-	</rep>
-	<rep>
-		<path>TemperaturePreference.degreeDatas[0].description</path>
-		<trans>NAME의 몸은 놀라울 정도의 열을 발산합니다. HE 다른 사람들을 덜덜 떨게 만드는 추위에도 편안하게 있을 수 있지만 더위는 좋아하지 않습니다.</trans>
-	</rep>
-	<rep>
-		<path>TemperaturePreference.degreeDatas[1].label</path>
-		<trans>추위 내성</trans>
-	</rep>
-	<rep>
-		<path>TemperaturePreference.degreeDatas[1].description</path>
-		<trans>NAME(은)는 다른 대부분의 사람들보다 차가운 온도를 잘 견딥니다.</trans>
-	</rep>
-	<rep>
-		<path>TemperaturePreference.degreeDatas[2].label</path>
-		<trans>더위 내성</trans>
-	</rep>
-	<rep>
-		<path>TemperaturePreference.degreeDatas[2].description</path>
-		<trans>NAME(은)는 다른 대부분의 사람들보다 뜨거운 온도를 잘 견딥니다.</trans>
-	</rep>
-	<rep>
-		<path>TemperaturePreference.degreeDatas[3].label</path>
-		<trans>더위 사랑</trans>
-	</rep>
-	<rep>
-		<path>TemperaturePreference.degreeDatas[3].description</path>
-		<trans>NAME(은)는 더위를 사랑합니다. 그러나 추위는 잘 탑니다.</trans>
-	</rep>
+    <!-- ==== TemperaturePreference ==== -->
+
+    <rep>
+        <path>TemperaturePreference.degreeDatas[0].label</path>
+        <trans>추위 사랑</trans>
+    </rep>
+    <rep>
+        <path>TemperaturePreference.degreeDatas[0].description</path>
+        <trans>NAME의 몸은 놀라울 정도의 열을 발산합니다. HE 다른 사람들을 덜덜 떨게 만드는 추위에도 편안하게 있을 수 있지만 더위는 좋아하지 않습니다.</trans>
+    </rep>
+    <rep>
+        <path>TemperaturePreference.degreeDatas[1].label</path>
+        <trans>추위 내성</trans>
+    </rep>
+    <rep>
+        <path>TemperaturePreference.degreeDatas[1].description</path>
+        <trans>NAME(은)는 다른 대부분의 사람들보다 차가운 온도를 잘 견딥니다.</trans>
+    </rep>
+    <rep>
+        <path>TemperaturePreference.degreeDatas[2].label</path>
+        <trans>더위 내성</trans>
+    </rep>
+    <rep>
+        <path>TemperaturePreference.degreeDatas[2].description</path>
+        <trans>NAME(은)는 다른 대부분의 사람들보다 뜨거운 온도를 잘 견딥니다.</trans>
+    </rep>
+    <rep>
+        <path>TemperaturePreference.degreeDatas[3].label</path>
+        <trans>더위 사랑</trans>
+    </rep>
+    <rep>
+        <path>TemperaturePreference.degreeDatas[3].description</path>
+        <trans>NAME(은)는 더위를 사랑합니다. 그러나 추위는 잘 탑니다.</trans>
+    </rep>
+
+    <!-- ==== ShootingAccuracy ==== -->
+
+    <rep>
+        <path>ShootingAccuracy.degreeDatas[0].label</path>
+        <trans>신중한 사수</trans>
+    </rep>
+    <rep>
+        <path>ShootingAccuracy.degreeDatas[0].description</path>
+        <trans>NAME의 사격 실력은 훌륭하지만, 목표를 조준할 때 더 많은 시간을 필요로 합니다.</trans>
+    </rep>
+    <rep>
+        <path>ShootingAccuracy.degreeDatas[1].label</path>
+        <trans>난사광</trans>
+    </rep>
+    <rep>
+        <path>ShootingAccuracy.degreeDatas[1].description</path>
+        <trans>빵! 빵! 빵! NAME의 사격 실력은 끔찍하지만 HE 전혀 상관하지 않습니다. 총은 훌륭하니까요!</trans>
+    </rep>
+
+    <!-- ==== Prettiness ==== -->
+
+    <rep>
+        <path>Prettiness.degreeDatas[0].label</path>
+        <trans>아름다움</trans>
+    </rep>
+    <rep>
+        <path>Prettiness.degreeDatas[0].description</path>
+        <trans>NAME의 외모는 특출나게 아름다워 모두가 HIM 좋아합니다.</trans>
+    </rep>
+    <rep>
+        <path>Prettiness.degreeDatas[1].label</path>
+        <trans>못생김</trans>
+    </rep>
+    <rep>
+        <path>Prettiness.degreeDatas[1].description</path>
+        <trans>NAME의 외모는 충격적일 정도로 못생겨서 다른 사람들의 접근을 밀어냅니다.</trans>
+    </rep>
 
 </LanguageData>

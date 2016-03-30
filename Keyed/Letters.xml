@@ -1,70 +1,106 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--suppress ALL -->
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<JumpToLocation>클릭하여 해당 위치로 화면이동</JumpToLocation>
+    <JumpToLocation>클릭하여 해당 위치로 화면이동</JumpToLocation>
 
-	<LetterLabelFirstSummerWarning>여름</LetterLabelFirstSummerWarning>
-	<FirstSummerWarning>여름이 시작되었습니다! 그러나 겨울이 오고 있습니다.
-		\n\n작물은 겨울의 추위 속에서는 자라지 않습니다. 그러니 겨울이 오기 전에 몇 달은 버티기에 충분한 양의 음식과 작물들을 보관하세요.
-		\n\n음식물이 부패하는것을 방지하기 위해서 출입 가능한 냉동고를 건설할 수 있습니다.
-		\n\n또한 파카를 만들거나 구입하거나 훔치세요. 그렇지 않으면 겨울에 밖으로 나가서 동사할 수 있습니다.
-	</FirstSummerWarning>
+    <LetterLabelFirstSummerWarning>여름</LetterLabelFirstSummerWarning>
+    <FirstSummerWarning>여름이 시작되었습니다! 그러나 겨울이 오고 있습니다.\n\n작물은 겨울의 추위 속에서는 자라지 않습니다. 그러니 겨울이 오기 전에 최소 며칠 버티기에 충분한 양의 음식과 작물들을 보관하세요.\n\n음식물이 부패하는것을 방지하기 위해서 출입 가능한 냉동고를 건설할 수 있습니다.\n\n또한 파카를 만들거나 구입하거나 훔치세요. 그렇지 않으면 겨울에 밖으로 나가서 동사할 수 있습니다.
+    </FirstSummerWarning>
 
-	<RelationsBrokenDown>{0} 세력과의 우호관계가 틀어졌습니다. 저들은 이제 당신을 적으로 간주합니다.</RelationsBrokenDown>
-	<RelationsWarmed>{0} 세력과의 우호관계가 회복되었습니다. 이제 당신은 적으로 간주되지 않습니다.</RelationsWarmed>
+    <RelationsBrokenDown>{0} 세력과의 관계가 틀어졌습니다. 이제 당신은 적으로 간주됩니다.</RelationsBrokenDown>
+    <RelationsWarmed>{0} 세력과의 우호관계가 회복되었습니다. 이제 당신은 적으로 간주되지 않습니다.</RelationsWarmed>
 
-	<RelationsBrokenCapture>{0}의 구속으로 인하여 {1} 세력은 이제 당신을 적으로 간주합니다.</RelationsBrokenCapture>
+    <RelationsBrokenCapture>{0}의 구속으로 인하여 {1} 세력은 이제 당신을 적으로 간주합니다.</RelationsBrokenCapture>
 
-	<ColonyGoodwill>정착지 우호도</ColonyGoodwill>
-	<Neutral>중립</Neutral>
+    <ColonyGoodwill>정착지 우호도</ColonyGoodwill>
+    <Neutral>중립</Neutral>
 
-	<ShortCircuitRain>{0}에 빗물이 스며들어 누전 화재가 발생했습니다.</ShortCircuitRain>
+    <ShortCircuitRain>{0}에 빗물이 스며들어 누전 화재가 발생했습니다.</ShortCircuitRain>
 
-	<LetterLabelAreaRevealed>공간 발견</LetterLabelAreaRevealed>
-	<AreaRevealed>새로운 공간이 드러났습니다.</AreaRevealed>
-	<AreaRevealedWithMechanoids>새로운 공간이 드러났습니다. 적대적인 고대 메카노이드가 함께 발견되었습니다.</AreaRevealedWithMechanoids>
+    <LetterLabelAreaRevealed>공간 발견</LetterLabelAreaRevealed>
+    <AreaRevealed>새로운 공간이 드러났습니다.</AreaRevealed>
+    <AreaRevealedWithMechanoids>새로운 공간이 드러났습니다. 적대적인 고대 메카노이드가 함께 발견되었습니다.</AreaRevealedWithMechanoids>
 
-	<RoofCollapsed>지붕이 주변의 지지할 수 있는 것들과 너무 멀리 떨어져 있어서 붕괴되었습니다.</RoofCollapsed>
-	<TheseThingsCrushed>파손된 목록:</TheseThingsCrushed>
-	<NothingCrushed>아무것도 파괴되지 않았습니다.</NothingCrushed>
-	<LetterLabelRoofCollapsed>지붕 붕괴</LetterLabelRoofCollapsed>
+    <RoofCollapsed>지붕이 주변의 지지할 수 있는 것들과 너무 멀리 떨어져 있어서 붕괴되었습니다.</RoofCollapsed>
+    <TheseThingsCrushed>파손된 목록:</TheseThingsCrushed>
+    <NothingCrushed>아무것도 파괴되지 않았습니다.</NothingCrushed>
+    <LetterLabelRoofCollapsed>지붕 붕괴</LetterLabelRoofCollapsed>
 
-	<RecruitSuccess>{1}에 대한 {0}의 포섭은 성공적이었습니다. (포섭 확률 {2})</RecruitSuccess>
-	<RecruitFail>{1}에 {0}의 대한 포섭은 실패했습니다. (포섭 확률 {2})</RecruitFail>
+    <RecruitSuccess>{1}에 대한 {0}의 포섭은 성공적이었습니다. (포섭 확률 {2})</RecruitSuccess>
+    <RecruitFail>{1}에 {0}의 대한 포섭은 실패했습니다. (포섭 확률 {2})</RecruitFail>
 
-	<LetterLabelBirthday>생일</LetterLabelBirthday>
-	<BirthdayChronological>오늘은 {0}의 시간적 생일입니다! {1} {2}살이 되었습니다.
-		\n\n사람들은 동면중일 때 나이를 먹지 않기 때문에 시간적 생일은 생물학적 생일과 떨어져 있습니다. 생물학적으로 {0}의 나이는 {3}살입니다.
-	</BirthdayChronological>
-	<BirthdayBiologicalAgeInjuries>오늘은 {0}의 생물학적 생일로, 이제 {1}살입니다.
-		\n\n불행하게도 {0}의 몸은 노화로 인해 다음의 질병을 지니게 되었습니다.
-		\n{2}
-	</BirthdayBiologicalAgeInjuries>
+    <LetterLabelBirthday>생일</LetterLabelBirthday>
+    <BirthdayChronological>오늘은 {0}의 시간적 생일입니다! {1} {2}살이 되었습니다. \n\n사람들은 동면중일 때 나이를 먹지 않기 때문에 시간적 생일은 생물학적 생일과 분리되어 있습니다. 생물학적으로 {0}의 나이는 {3}살입니다.
+    </BirthdayChronological>
+    <BirthdayBiologicalAgeInjuries>오늘은 {0}의 생물학적 생일로, 이제 {1}살입니다. \n\n불행하게도 {0}의 몸은 노화로 인해 다음의 질병을 지니게 되었습니다. \n{2}
+    </BirthdayBiologicalAgeInjuries>
 
-	<LetterLabelNewDisease>질병</LetterLabelNewDisease>
-	<NewDisease>{0}(은)는 {1}로 인해 아픕니다. 그가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewDisease>
-	<NewPartDisease>{0}의 {1}(이)가 감염되었습니다. 그가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewPartDisease>
+    <LetterLabelNewDisease>질병</LetterLabelNewDisease>
+    <NewDisease>{0}(이)가 {1}(으)로 인해 아픕니다. {2}(이)가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewDisease>
+    <NewPartDisease>{0}의 {3}(으)로 인해 감염되었습니다. 감염 부위는 {1}입니다. {2}(이)가 적절한 치료를 받고 있는지, 그리고 최대한 침대에서 지내고 있는지 확인하세요.</NewPartDisease>
 
-	<LetterLabelAncientShrineWarning>고대 위협</LetterLabelAncientShrineWarning>
-	<AncientShrineWarning>{0}(이)가 고대의 구조물에 가까이 갈수록 불길한 느낌이 HIM 휘어잡습니다. HE 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 지니고 있을 것 같다고 생각합니다.</AncientShrineWarning>
+    <LetterLabelAncientShrineWarning>고대 위협</LetterLabelAncientShrineWarning>
+    <AncientShrineWarning>{0}(이)가 고대의 구조물에 가까이 갈수록 불길한 느낌이 HIM 휘어잡습니다. HE 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 지니고 있을 것 같다고 생각합니다.</AncientShrineWarning>
 
-	<StruckMineable>{0}(을)를 발견했습니다!</StruckMineable>
+    <StruckMineable>{0}(을)를 발견했습니다!</StruckMineable>
 
-	<LetterLabelAnimalManhunterFromDamage>{0}의 복수</LetterLabelAnimalManhunterFromDamage>
-	<AnimalManhunterFromDamage>피해를 받은 {0}(이)가 반격하기 시작합니다!</AnimalManhunterFromDamage>
-	<AnimalManhunterFromTaming>조련에 실패하여 {0}(이)가 공격하기 시작합니다!</AnimalManhunterFromTaming>
-	<AnimalManhunterFromOthers>주위의 다른 {0}들도 같이 공격합니다!</AnimalManhunterFromOthers>
+    <LetterLabelAnimalManhunterFromDamage>{0}의 복수</LetterLabelAnimalManhunterFromDamage>
+    <AnimalManhunterFromDamage>피해를 받은 {0}(이)가 반격하기 시작합니다!</AnimalManhunterFromDamage>
+    <AnimalManhunterFromTaming>조련에 실패하여 {0}(이)가 공격하기 시작합니다!</AnimalManhunterFromTaming>
+    <AnimalManhunterFromOthers>주위의 다른 {0}들도 같이 공격합니다!</AnimalManhunterFromOthers>
 
-	<LetterFriendlyTrapSprungLabel>{0}의 함정 발동</LetterFriendlyTrapSprungLabel>
-	<LetterFriendlyTrapsprung>{0}(이)가 실수로 함정을 작동시켜 피해를 입었습니다.</LetterFriendlyTrapsprung>
+    <LetterFriendlyTrapSprungLabel>{0}의 함정 발동</LetterFriendlyTrapSprungLabel>
+    <LetterFriendlyTrapSprung>{0}(이)가 실수로 함정을 작동시켜 피해를 입었습니다.</LetterFriendlyTrapSprung>
 
-	<LetterHealthComplications>{0}(이)가 {2}의 합병증으로 {1}을 얻었습니다.</LetterHealthComplications>
-	<LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
+    <LetterHealthComplications>{0}(이)가 {2}의 합병증으로 인해 다음 증상을 얻었습니다. ({1})</LetterHealthComplications>
+    <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
 
-	<!-- Generalized letter labels -->
-	<LetterLabelRelationsChangeGood>우호</LetterLabelRelationsChangeGood>
-	<LetterLabelRelationsChangeBad>적대</LetterLabelRelationsChangeBad>
-	<LetterLabelShortCircuit>파지직...</LetterLabelShortCircuit>
-	<LetterLabelMentalBreakdown>정신이상</LetterLabelMentalBreakdown>
+    <LetterHediffFromRandomHediffGiver>{0}(이)가 다음 증상을 얻었습니다. ({1})</LetterHediffFromRandomHediffGiver>
+    <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
+
+    <LetterLeadersDeathLabel>지도자 사망</LetterLeadersDeathLabel>
+    <LetterLeadersDeath>{1}의 지도자 {0}(이)가 사망해 {2}(이)가 자리를 차지했습니다.</LetterLeadersDeath>
+
+    <!-- Family -->
+    <LetterLabelNoticedFamilyMembers>가족</LetterLabelNoticedFamilyMembers>
+    <LetterFamilyMembersRaidEnemy>{0}의 무리에 한 정착민 가족 일부가 포함되어 있습니다.\n\n비록 가족이지만 세력간 적대적 관계로 인해 서로 공격할 것입니다.\n\n가족 구성원:</LetterFamilyMembersRaidEnemy>
+    <LetterFamilyMembersRaidFriendly>{0}의 무리에 한 정착민의 가족 구성원이 포함되어 있습니다.\n\n가족 구성원:</LetterFamilyMembersRaidFriendly>
+    <LetterFamilyMembersNeutralGroup>0}의 무리에 한 정착민 또는 죄수의 가족 구성원이 포함되어 있습니다.\n\n가족 구성원:</LetterFamilyMembersNeutralGroup>
+    <LetterFamilyMembersTraderShipSlaves>궤도 무역선에서 한 정착민 또는 죄수의 가족 구성원을 판매하고 있습니다.\n\n가족 구성원:</LetterFamilyMembersTraderShipSlaves>
+
+    <FamilyLetterAppendedSuffix>(가족)</FamilyLetterAppendedSuffix>
+    <FamilyLetterAppendedTextColonist>NAME(은)는 한 정착민의 가족입니다. HE {0}의 {1}입니다.</FamilyLetterAppendedTextColonist>
+    <FamilyLetterAppendedTextPrisoner>NAME(은)는 한 죄수의 가족입니다. HE {0}의 {1}입니다.</FamilyLetterAppendedTextPrisoner>
+
+    <!-- Attempt romance / propose interaction -->
+    <LetterLabelAffair>불륜</LetterLabelAffair>
+    <LetterAffair>{1}(와)과 결혼한 {0}이 {2}(와)과 부적절한 관계를 시작했습니다.</LetterAffair>
+    <LetterLabelNewLovers>새로운 연인</LetterLabelNewLovers>
+    <LetterNewLovers>{0}(와)과 {1}의 사이에 사랑이 싹트기 시작했습니다.</LetterNewLovers>
+    <LetterNoLongerLovers>{0}(와)과 {1}은 이제 아무 사이도 아닙니다.</LetterNoLongerLovers>
+    <LetterLabelAcceptedProposal>결혼!</LetterLabelAcceptedProposal>
+    <LetterLabelRejectedProposal>고백 거절</LetterLabelRejectedProposal>
+    <LetterAcceptedProposal>{1}(이)가 {0}의 결혼 프로포즈를 받아들였습니다.\n\n다가오는 어느 날, 모두를 초대해 결혼식을 올릴 예정입니다. 결혼식 위치를 지정해 장소를 제한할 수 있습니다.</LetterAcceptedProposal>
+    <LetterRejectedProposal>{1}(이)가 {0}의 프로포즈를 거절했습니다. {0}(은)는 이를 좋아하지 않았습니다.</LetterRejectedProposal>
+
+    <!-- Generalized letter labels -->
+    <LetterLabelRelationsChangeGood>우호</LetterLabelRelationsChangeGood>
+    <LetterLabelRelationsChangeBad>적대</LetterLabelRelationsChangeBad>
+    <LetterLabelShortCircuit>파지직...</LetterLabelShortCircuit>
+    <LetterLabelMentalBreakdown>정신이상</LetterLabelMentalBreakdown>
+
+    <!-- Bonded animals -->
+    <LetterLabelBondedAnimalDied>각별한 사이의 동물 죽음</LetterLabelBondedAnimalDied>
+    <LetterBondedAnimalDied>{1}(와)과 각별한 사이였던 {0}(이)가 죽었습니다. {1}의 감정에 영향을 끼칩니다.</LetterBondedAnimalDied>
+    <LetterNamedBondedAnimalDied>{2}(와)과 각별한 사이였던 {1}({0})(이)가 죽었습니다. {2}의 감정에 영항을 끼칩니다.</LetterNamedBondedAnimalDied>
+    <LetterBondedAnimalDiedMulti>{0}(이)가 죽었습니다. 다음 정착민들의 기분에 영향을 끼칩니다.\n\n{1}</LetterBondedAnimalDiedMulti>
+    <LetterNamedBondedAnimalDiedMulti>{1}({0})(이)가 죽었습니다. 다음 정착민들의 기분에 영향을 끼칩니다.\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+
+    <!-- Prison break -->
+    <LetterLabelPrisonBreak>탈옥</LetterLabelPrisonBreak>
+    <LetterPrisonBreak>수감자들이 탈옥했습니다! 어떤 방법으로 문의 잠금을 풀고 밖으로 나오고 있습니다. 수감자들은 무기를 찾거나, 싸우거나 또는 도망치려 할 수 있습니다. 가담한 수감자들은 다음과 같습니다.\n\n{0}\n수감자들의 수가 많고 건강하며, 기분이 좋지 않을 때 탈옥할 가능성이 높아집니다.</LetterPrisonBreak>
+
+    <!-- Party -->
+    <LetterLabelNewParty>파티</LetterLabelNewParty>
+    <LetterNewParty>{0}(이)가 파티를 열었습니다! 참여하는 정착민들은 모두 즐거움과 사교 수치, 그리고 긍정적인 기분 보너스를 받습니다.</LetterNewParty>
 
 </LanguageData>

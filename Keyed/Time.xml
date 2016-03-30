@@ -15,14 +15,16 @@
     <SeasonFall>가을</SeasonFall>
     <SeasonWinter>겨울</SeasonWinter>
 
-    <Born>생년월일: {2}년 {1} {0}일</Born>
-    <AgeChronological>시간적 나이: {0}년 {1}개월 {2}일째</AgeChronological>
-    <AgeBiological>생물학적 나이: {0}년 {1}개월 {2}일째</AgeBiological>
+    <Born>생년: {2}</Born>
+    <AgeChronological>시간적 나이: {0}년 {1}계절 {2}일째</AgeChronological>
+    <AgeBiological>생물학적 나이: {0}년 {1}계절 {2}일째</AgeBiological>
     <DaysHours>{0}일 {1}시간</DaysHours>
 
-<!-- Date periods -->
-    <Period1Month>1개월</Period1Month>
-    <PeriodMonths>{0}개월</PeriodMonths>
+    <!-- Date periods -->
+    <Period1Year>1년</Period1Year>
+    <PeriodYears>{0}년</PeriodYears>
+    <Period1Season>1계절</Period1Season>
+    <PeriodSeasons>{0}계절</PeriodSeasons>
     <Period1Day>1일</Period1Day>
     <PeriodDays>{0}일</PeriodDays>
     <Period1Hour>1시간</Period1Hour>
@@ -30,6 +32,7 @@
 
     <!-- Misc -->
     <Started>시작</Started>
-    <!-- <Lasted>?</Lasted> -->
+    <Lasted>지속</Lasted>
+    <OccurredTimeAgo>{0} 전에 발생</OccurredTimeAgo>
 
 </LanguageData>

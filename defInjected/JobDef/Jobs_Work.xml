@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
-<!--============= Item hauling ===============-->
+    <!--============= Item hauling ===============-->
 
     <HaulToCell.reportString>TargetA 운반 중,</HaulToCell.reportString>
 
     <HaulToContainer.reportString>TargetA 운반 중,</HaulToContainer.reportString>
 
-<!--============= Pawn hauling ===============-->
+    <!--============= Pawn hauling ===============-->
 
     <Rescue.reportString>TargetA 구조 중.</Rescue.reportString>
 
@@ -28,19 +27,21 @@
 
     <Kidnap.reportString>TargetA 납치 중.</Kidnap.reportString>
 
-<!--============= Animal handling ===============-->
-	<Slaughter.reportString>TargetA 도축 중.</Slaughter.reportString>
-	<Milk.reportString>TargetA 착유 중.</Milk.reportString>
-	<Shear.reportString>TargetA 털 깎는 중.</Shear.reportString>
-	<Tame.reportString>TargetA 길들이는 중.</Tame.reportString>
-	<Train.reportString>TargetA 훈련시키는 중.</Train.reportString>
+    <!--============= Animal handling ===============-->
 
-<!--============= Misc ===============-->
+    <Slaughter.reportString>TargetA 도축 중.</Slaughter.reportString>
+    <Milk.reportString>TargetA 착유 중.</Milk.reportString>
+    <Shear.reportString>TargetA 털 깎는 중.</Shear.reportString>
+    <Tame.reportString>TargetA 길들이는 중.</Tame.reportString>
+    <Train.reportString>TargetA 훈련시키는 중.</Train.reportString>
+
+    <!--============= Misc ===============-->
+
     <DeliverFood.reportString>TargetB에게 TargetA 전달 중.</DeliverFood.reportString>
 
     <FeedPatient.reportString>TargetB에게 TargetA 먹여주는 중.</FeedPatient.reportString>
 
-    <TreatPatient.reportString>TargetA 치료 중.</TreatPatient.reportString>
+    <TendPatient.reportString>TargetA 간호 중.</TendPatient.reportString>
 
     <PlaceNoCostFrame.reportString>TargetA 건설 중.</PlaceNoCostFrame.reportString>
 
@@ -54,11 +55,12 @@
 
     <UseCommsConsole.reportString>통신 콘솔 사용 중.</UseCommsConsole.reportString>
 
-    <Mine.reportString>TargetA 채광 중.</Mine.reportString>
+    <Mine.reportString>TargetA 채굴 중.</Mine.reportString>
 
     <SmoothFloor.reportString>바닥을 부드럽게 하는 중.</SmoothFloor.reportString>
 
     <Repair.reportString>TargetA 수리 중.</Repair.reportString>
+    <FixBrokenDownBuilding.reportString>TargetA 부품 교체 중.</FixBrokenDownBuilding.reportString>
 
     <FinishFrame.reportString>TargetA 건설 중.</FinishFrame.reportString>
 
@@ -69,11 +71,11 @@
     <CutPlant.reportString>TargetA 제초 중.</CutPlant.reportString>
 
     <Deconstruct.reportString>TargetA 해체 중.</Deconstruct.reportString>
-	<Uninstall.reportString>TargetA 포장 중.</Uninstall.reportString>
+    <Uninstall.reportString>TargetA 포장 중.</Uninstall.reportString>
 
     <PrisonerFriendlyChat.reportString>수감자 TargetA와(과) 대화 중.</PrisonerFriendlyChat.reportString>
-	<PrisonerAttemptRecruit.reportString>TargetA 포섭시도 중.</PrisonerAttemptRecruit.reportString>
+    <PrisonerAttemptRecruit.reportString>TargetA 포섭시도 중.</PrisonerAttemptRecruit.reportString>
     <PrisonerExecution.reportString>TargetA 처형 준비 중.</PrisonerExecution.reportString>
-	<BuryCorpse.reportString>TargetA 묻는 중.</BuryCorpse.reportString>
-	
+    <BuryCorpse.reportString>TargetA 묻는 중.</BuryCorpse.reportString>
+
 </LanguageData>

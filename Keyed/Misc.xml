@@ -3,7 +3,7 @@
 <LanguageData>
     <Autosaving>자동저장 중</Autosaving>
 
-    <GameStartDialog>동면장치에서 잠을 자고 있던 여러분 세 사람은 금속들이 떨어져 나가는 소리와 경고음 속에서 깨어났고, 우주선이 박살나기 전에 간신히 탈출용 포드로 이동할 수 있었습니다. \n\n시간이 조금 흘러 여러분은 알 수 없는 가장자리 세계로 불시착하게 되었습니다. \n\n타고 왔던 우주선의 파편들이 주변에 떨어지는 것을 보면서 여러분은 생존을 위한 계획을 세우게 됩니다.
+    <GameStartDialog>동면장치에서 잠을 자고 있던 여러분 세 사람은 사이렌과 쇠 찢어지는 소리에 깨어났고, 우주선이 박살나기 전에 간신히 탈출용 포드를 탈 수 있었습니다. \n\n잠시 후 여러분은 전혀 모르는 변방의 세계에 불시착했습니다. \n\n타고 왔던 우주선의 파편들이 주변에 떨어지는 것을 보면서 여러분은 생존을 위한 계획을 세우기 시작합니다.
     </GameStartDialog>
 
     <Colony>정착지</Colony>
@@ -20,7 +20,7 @@
     <CompiledOn>{0}에 컴파일됨</CompiledOn>
     <LoggedIntoSteamAs>스팀 계정: {0}</LoggedIntoSteamAs>
 
-<!-- Content generation-->
+    <!-- Content generation-->
     <MeatLabel>{0} 고기</MeatLabel>
     <MeatDesc>{0}의 생고기입니다.</MeatDesc>
     <LeatherLabel>{0} 가죽</LeatherLabel>
@@ -29,25 +29,28 @@
     <CorpseDesc>{0}의 시체입니다.</CorpseDesc>
     <DeadLabel>{0}(죽음)</DeadLabel>
     <RoughStoneTerrainLabel>거친 {0}</RoughStoneTerrainLabel>
-    <RoughStoneTerrainDesc>자연의 거친 {0} 바닥입니다.</RoughStoneTerrainDesc>
-    <RoughHewnStoneTerrainLabel>투박한 {0}</RoughHewnStoneTerrainLabel>
+    <RoughStoneTerrainDesc>자연상태의 거친 {0} 바닥입니다.</RoughStoneTerrainDesc>
+    <RoughHewnStoneTerrainLabel>대충 깎인 {0}</RoughHewnStoneTerrainLabel>
     <RoughHewnStoneTerrainDesc>투박하게 깎인 {0} 바닥입니다.</RoughHewnStoneTerrainDesc>
-    <SmoothStoneTerrainLabel>부드러운 {0}</SmoothStoneTerrainLabel>
-    <SmoothStoneTerrainDesc>부드러워진 {0} 바닥입니다.</SmoothStoneTerrainDesc>
+    <SmoothStoneTerrainLabel>매끄러운 {0}</SmoothStoneTerrainLabel>
+    <SmoothStoneTerrainDesc>매끄러워진 {0} 바닥입니다.</SmoothStoneTerrainDesc>
     <BlueprintLabelExtra>(청사진)</BlueprintLabelExtra>
     <FrameLabelExtra>(건설 중)</FrameLabelExtra>
 
-<!-- Stuff 시스템 라벨. 예시: "돌 침대" -->
-<!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+    <!-- Stuff 시스템 라벨. 예시: "돌 침대" -->
+    <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
     <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
-<!-- To express ownership. -->
-<!-- For example Jack's Bedroom -->
+    <SomeonesRoom>{0}의 {1}</SomeonesRoom>
+    <CouplesRoom>{0}, {1}의 {2}</CouplesRoom>
+
+    <!-- To express ownership. -->
+    <!-- For example Jack's Bedroom -->
     <SomeonesSomething>{0}의 {1}</SomeonesSomething>
 
     <VariousLabel>(여러가지)</VariousLabel>
 
-<!-- History events -->
-    <ColonistDied>거주민 사망</ColonistDied>
-    
+    <!-- History events -->
+    <ColonistDied>정착민 사망</ColonistDied>
+
 </LanguageData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <rep>
+        <path>Sentence_SocialFightStarted.rulePack.rulesStrings[0]</path>
+        <trans>sent->[recipient_nameShortDef](은)는 분노한 채 싸움을 시작했습니다!</trans>
+    </rep>
+
+    <rep>
+        <path>Sentence_RomanceAttemptAccepted.rulePack.rulesStrings[0]</path>
+        <trans>sent->[recipient_nameShortDef](이)가 고백을 받아들여 [initiator_nameShortDef]의 애인이 되었습니다.</trans>
+    </rep>
+
+    <rep>
+        <path>Sentence_RomanceAttemptRejected.rulePack.rulesStrings[0]</path>
+        <trans>sent->[recipient_nameShortDef](이)가 고백을 거절했습니다.</trans>
+    </rep>
+
+    <rep>
+        <path>Sentence_MarriageProposalAccepted.rulePack.rulesStrings[0]</path>
+        <trans>sent->[recipient_nameShortDef](이)가 프로포즈를 받아들여 약혼했습니다.</trans>
+    </rep>
+
+    <rep>
+        <path>Sentence_MarriageProposalRejected.rulePack.rulesStrings[0]</path>
+        <trans>sent->[recipient_nameShortDef](이)가 프로포즈를 거절했습니다.</trans>
+    </rep>
+
+    <rep>
+        <path>Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings[0]</path>
+        <trans>sent->너무 앞서나간 나머지 둘은 관계를 정리하고 말았습니다.</trans>
+    </rep>
+
+    <rep>
+        <path>Sentence_RecruitAttemptAccepted.rulePack.rulesStrings[0]</path>
+        <trans>sent->[recipient_nameShortDef](이)가 제안을 받아들여 [initiator_nameShortDef](이)가 속한 세력의 일원이 되었습니다.</trans>
+    </rep>
+
+    <rep>
+        <path>Sentence_RecruitAttemptRejected.rulePack.rulesStrings[0]</path>
+        <trans>sent->[recipient_nameShortDef](이)가 제안을 거절했습니다.</trans>
+    </rep>
+
+</LanguageData>

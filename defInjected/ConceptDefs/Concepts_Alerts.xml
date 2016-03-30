@@ -5,13 +5,13 @@
 	<Forbidding.label>상호작용 허용</Forbidding.label>
 	<rep>
 		<path>Forbidding.helpTexts[0]</path>
-		<trans>거주민들은 상호작용을 금지한 물건은 만지지 않습니다.\n\n금지된 아이템은 작은 X 표시가 붙습니다. 금지된 아이템을 선택하고 하단의 단추를 통해 상호작용을 허용하세요.</trans>
+		<trans>정착민들은 상호작용을 금지한 물건은 만지지 않습니다.\n\n금지된 아이템은 작은 X 표시가 붙습니다. 금지된 아이템을 선택하고 하단의 단추를 통해 상호작용을 허용하세요.</trans>
 	</rep>
 
 	<Stockpiles.label>저장구역 지정</Stockpiles.label>
 	<rep>
 		<path>Stockpiles.helpTexts[0]</path>
-		<trans>거주민들이 물건을 보관할 장소가 필요합니다. 저장구역을 지정하여 보관하세요.\n\n좌측 하단의 구상 메뉴에서 찾을 수 있습니다.</trans>
+		<trans>정착민들이 물건을 보관할 장소가 필요합니다. 저장구역을 지정하여 보관하세요.\n\n좌측 하단의 구상 메뉴에서 찾을 수 있습니다.</trans>
 	</rep>
 
 	<GrowingFood.label>재배구역 지정</GrowingFood.label>
@@ -25,7 +25,7 @@
 	<EquippingWeapons.label>무기 장착</EquippingWeapons.label>
 	<rep>
 		<path>EquippingWeapons.helpTexts[0]</path>
-		<trans>거주민이 무기를 장착하게 하려면 거주민을 선택한 상태로 무기에 오른쪽 클릭을 하세요.\n\n시작 지점에 무기들이 있습니다.</trans>
+		<trans>정착민이 무기를 장착하게 하려면 정착민을 선택한 상태로 무기에 오른쪽 클릭을 하세요.\n\n시작 지점에 무기들이 있습니다.</trans>
 	</rep>
 
 	<CameraZoom.label>시야를 확대하는 법</CameraZoom.label>
@@ -38,7 +38,7 @@
 	<WorkTab.label>작업설정 변경</WorkTab.label>
 	<rep>
 		<path>WorkTab.helpTexts[0]</path>
-		<trans>좌측 하단 "작업" 단추를 눌러 각 주민들이 할 일을 지정할 수 있습니다.\n\n주민들은 언제나 가장 높은 중요도의 일을 먼저 할 것이며, 지정되지 않은 일은 하지 않습니다.\n\n만약 어떤 종류의 작업에 아무도 지정하지 않았으면, 그와 관련된 일은 아무도 하지 않습니다.</trans>
+		<trans>좌측 하단 "작업" 단추를 눌러 각 정착민들이 할 일을 지정할 수 있습니다.\n\n정착민들은 언제나 가장 높은 중요도의 일을 먼저 하고, 여기에서 정하지 않은 일은 하지 않습니다.\n\n만약 어떤 종류의 작업에 아무도 할당하지 않았으면 그 일은 아무도 하지 않습니다.</trans>
 	</rep>
 
 	<TimeControls.label>시간 조절</TimeControls.label>
@@ -50,7 +50,7 @@
 	<InfoCard.label>상세정보 열기</InfoCard.label>
 	<rep>
 		<path>InfoCard.helpTexts[0]</path>
-		<trans>상세정보는 어떤 아이템, 사람, 건물에 대한 상대한 정보를 알려줍니다,\n\n사람이나 아이템을 선택하고 좌측 하단의 'i'를 누르세요.
+		<trans>상세정보는 선택한 물건, 사람, 건물의 상세한 정보를 알려줍니다.\n\n사람이나 물건을 선택하고 좌측 하단의 'i'를 누르세요.
 		</trans>
 	</rep>
 
@@ -69,13 +69,13 @@
 	<MedicalOperations.label>수술에 대하여</MedicalOperations.label>
 	<rep>
 		<path>MedicalOperations.helpTexts[0]</path>
-		<trans>장기 적출이나 인공기관 설치와 같은 수술을 하려면 거주민의 건강 항목을 열고 하위항목 중 수술 항목으로 변경하세요.</trans>
+		<trans>장기 적출이나 인공기관 설치와 같은 수술을 하려면 정착민의 건강 항목을 열고 하위항목 중 수술 항목으로 변경하세요.</trans>
 	</rep>
 
-	<HomeArea.label>거주구역에 대하여</HomeArea.label>
+	<HomeArea.label>주거구역에 대하여</HomeArea.label>
 	<rep>
 		<path>HomeArea.helpTexts[0]</path>
-		<trans>거주구역은 거주민들에게 청소하고 불을 꺼야 할 곳을 알려줍니다.\n\n구상 메뉴의 거주구역에서 지정하세요.</trans>
+		<trans>주거구역은 정착민들에게 청소하고 불을 꺼야 할 곳을 알려줍니다.\n\n구상 메뉴의 주거구역에서 지정하세요.</trans>
 	</rep>
 
 	<RightClickClearLetter.label>빠르게 편지 삭제</RightClickClearLetter.label>
@@ -89,7 +89,7 @@
 	<BuildOrbitalTradeBeacon.label>무역 송신기 건설</BuildOrbitalTradeBeacon.label>
 	<rep>
 		<path>BuildOrbitalTradeBeacon.helpTexts[0]</path>
-		<trans>은이나 다른 아이템을 궤도 무역상에게 보내려면 우선 무역 송신기를 지어야 합니다. 그 후에 송신기 주변에 저장구역을 설정하고 물품을 배치하세요.</trans>
+		<trans>은이나 다른 아이템을 궤도 무역선이나 다른 세력으로 보내려면 우선 무역 송신기를 지어야 합니다. 그 후에 송신기 주변에 저장구역을 설정하고 물품을 배치하세요.</trans>
 	</rep>
 
 	<SetGrowingZonePlant.label>재배 설정에 대하여</SetGrowingZonePlant.label>
@@ -103,13 +103,13 @@
 	<rep>
 		<path>PrisonerTab.helpTexts[0]</path>
 		<trans>죄수의 "죄수" 항목을 눌러 어떻게 관리해야 할지 설정할 수 있습니다.
-			\n\n죄수들을 관리하려면 간수로 지정된 거주민이 필요합니다.</trans>
+			\n\n죄수들을 관리하려면 간수로 지정된 정착민이 필요합니다.</trans>
 	</rep>
 
 	<StoragePriority.label>저장구역의 우선순위를 변경하는 법</StoragePriority.label>
 	<rep>
 		<path>StoragePriority.helpTexts[0]</path>
-		<trans>저장구역의 우선순위를 변경할 수 있습니다. 거주민들은 언제나 높은 우선순위의 저장구역을 먼저 채울 것입니다.</trans>
+		<trans>저장구역의 우선순위를 변경할 수 있습니다. 정착민들은 언제나 높은 우선순위의 저장구역을 먼저 채울 것입니다.</trans>
 	</rep>
 
 	<HistoryTab.label>기록 보기</HistoryTab.label>
