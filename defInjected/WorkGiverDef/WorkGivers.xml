@@ -1,35 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- ============= Misc ============= -->
-
-    <Mine.label>채굴</Mine.label>
-    <Mine.verb>채굴</Mine.verb>
-    <Mine.gerund>채굴</Mine.gerund>
-
-    <Research.label>연구</Research.label>
-    <Research.verb>연구</Research.verb>
-    <Research.gerund>연구</Research.gerund>
-
-    <PlantsCut.label>제초</PlantsCut.label>
-    <PlantsCut.verb>제초</PlantsCut.verb>
-    <PlantsCut.gerund>제초</PlantsCut.gerund>
+    <!-- ============= Firefighter ============= -->
 
     <FightFires.label>화재 진압</FightFires.label>
     <FightFires.verb>진압</FightFires.verb>
     <FightFires.gerund>진압</FightFires.gerund>
 
-    <HunterHunt.label>사냥</HunterHunt.label>
-    <HunterHunt.verb>사냥</HunterHunt.verb>
-    <HunterHunt.gerund>사냥</HunterHunt.gerund>
+    <!-- ============= PatientEmergency ============= -->
+
+    <PatientGoToBedEmergency.label>침대에서 치료 대기</PatientGoToBedEmergency.label>
+    <PatientGoToBedEmergency.verb>치료받기</PatientGoToBedEmergency.verb>
+    <PatientGoToBedEmergency.gerund>치료받기</PatientGoToBedEmergency.gerund>
+
+    <!-- ============= Doctor ============= -->
+
+    <DoctorTreatEmergency.label>응급치료</DoctorTreatEmergency.label>
+    <DoctorTreatEmergency.verb>치료</DoctorTreatEmergency.verb>
+    <DoctorTreatEmergency.gerund>치료</DoctorTreatEmergency.gerund>
+
+    <DoctorRescue.label>쓰러진 아군 구조</DoctorRescue.label>
+    <DoctorRescue.verb>구조</DoctorRescue.verb>
+    <DoctorRescue.gerund>구조</DoctorRescue.gerund>
+
+    <DoBillsMedicalHumanOperation.label>수술</DoBillsMedicalHumanOperation.label>
+    <DoBillsMedicalHumanOperation.verb>수술</DoBillsMedicalHumanOperation.verb>
+    <DoBillsMedicalHumanOperation.gerund>수술</DoBillsMedicalHumanOperation.gerund>
+
+    <DoBillsMedicalAnimalOperation.label>동물 수술</DoBillsMedicalAnimalOperation.label>
+    <DoBillsMedicalAnimalOperation.verb>수술</DoBillsMedicalAnimalOperation.verb>
+    <DoBillsMedicalAnimalOperation.gerund>수술</DoBillsMedicalAnimalOperation.gerund>
+
+    <DoctorTreat.label>치료</DoctorTreat.label>
+    <DoctorTreat.verb>치료</DoctorTreat.verb>
+    <DoctorTreat.gerund>치료</DoctorTreat.gerund>
+
+    <DoctorFeed.label>환자에게 식사 전달</DoctorFeed.label>
+    <DoctorFeed.verb>식사 전달</DoctorFeed.verb>
+    <DoctorFeed.gerund>식사 전달</DoctorFeed.gerund>
+
+    <TakeToBedToOperate.label>수술하기 위해 침대로 환자 이송</TakeToBedToOperate.label>
+    <TakeToBedToOperate.verb>이송</TakeToBedToOperate.verb>
+    <TakeToBedToOperate.gerund>이송</TakeToBedToOperate.gerund>
+
+    <VisitSickPawn.label>병문안</VisitSickPawn.label>
+    <VisitSickPawn.verb>병문안</VisitSickPawn.verb>
+    <VisitSickPawn.gerund>병문안</VisitSickPawn.gerund>
+
+    <!-- ============= PatientBedRest ============= -->
 
     <PatientGoToBed.label>휴식</PatientGoToBed.label>
     <PatientGoToBed.verb>쉬기</PatientGoToBed.verb>
     <PatientGoToBed.gerund>휴식</PatientGoToBed.gerund>
 
-    <PatientGoToBedEmergency.label>침대에서 치료 대기</PatientGoToBedEmergency.label>
-    <PatientGoToBedEmergency.verb>치료받기</PatientGoToBedEmergency.verb>
-    <PatientGoToBedEmergency.gerund>치료받기</PatientGoToBedEmergency.gerund>
+    <!-- ============= Flicker ============= -->
+
+    <Flick.label>스위치 조작</Flick.label>
+    <Flick.verb>스위치 조작</Flick.verb>
+    <Flick.gerund>스위치 조작</Flick.gerund>
 
     <!-- ============= Warden =========== -->
 
@@ -57,7 +85,7 @@
     <ChatWithPrisoner.verb>대화</ChatWithPrisoner.verb>
     <ChatWithPrisoner.gerund>대화</ChatWithPrisoner.gerund>
 
-    <!-- ============= Animal handling ============= -->
+    <!-- ============= Handling ============= -->
 
     <Slaughter.label>도축</Slaughter.label>
     <Slaughter.verb>도축</Slaughter.verb>
@@ -79,21 +107,139 @@
     <Train.verb>조련</Train.verb>
     <Train.gerund>조련</Train.gerund>
 
-    <!-- ============= Cleaning ============= -->
+    <!-- ============= Cooking ============= -->
 
-    <CleanClearSnow.label>제설</CleanClearSnow.label>
-    <CleanClearSnow.verb>제설</CleanClearSnow.verb>
-    <CleanClearSnow.gerund>제설</CleanClearSnow.gerund>
+    <DoBillsCook.label>스토브에서 요리</DoBillsCook.label>
+    <DoBillsCook.verb>요리</DoBillsCook.verb>
+    <DoBillsCook.gerund>요리</DoBillsCook.gerund>
 
-    <CleanFilth.label>청소</CleanFilth.label>
-    <CleanFilth.verb>청소</CleanFilth.verb>
-    <CleanFilth.gerund>청소</CleanFilth.gerund>
+    <DoBillsCookCampfire.label>모닥불에서 요리</DoBillsCookCampfire.label>
+    <DoBillsCookCampfire.verb>요리</DoBillsCookCampfire.verb>
+    <DoBillsCookCampfire.gerund>요리</DoBillsCookCampfire.gerund>
 
-    <!-- =========== Control ============-->
+    <DoBillsBrew.label>양조</DoBillsBrew.label>
+    <DoBillsBrew.verb>양조</DoBillsBrew.verb>
+    <DoBillsBrew.gerund>양조</DoBillsBrew.gerund>
 
-    <Flick.label>스위치 조작</Flick.label>
-    <Flick.verb>스위치 조작</Flick.verb>
-    <Flick.gerund>스위치 조작</Flick.gerund>
+    <DoBillsButcherFlesh.label>도축</DoBillsButcherFlesh.label>
+    <DoBillsButcherFlesh.verb>도축</DoBillsButcherFlesh.verb>
+    <DoBillsButcherFlesh.gerund>도축</DoBillsButcherFlesh.gerund>
+
+    <CookFillHopper.label>투입구에 식재료 적재</CookFillHopper.label>
+    <CookFillHopper.verb>식재료 적재</CookFillHopper.verb>
+    <CookFillHopper.gerund>식재료 적재</CookFillHopper.gerund>
+
+    <!-- ============= Hunting ============= -->
+
+    <HunterHunt.label>사냥</HunterHunt.label>
+    <HunterHunt.verb>사냥</HunterHunt.verb>
+    <HunterHunt.gerund>사냥</HunterHunt.gerund>
+
+    <!-- ============= Construction ============= -->
+
+    <Deconstruct.label>건물 해체</Deconstruct.label>
+    <Deconstruct.verb>해체</Deconstruct.verb>
+    <Deconstruct.gerund>해체</Deconstruct.gerund>
+
+    <Uninstall.label>포장</Uninstall.label>
+    <Uninstall.verb>포장</Uninstall.verb>
+    <Uninstall.gerund>포장</Uninstall.gerund>
+
+    <ConstructFinishFrames.label>건설</ConstructFinishFrames.label>
+    <ConstructFinishFrames.verb>건설</ConstructFinishFrames.verb>
+    <ConstructFinishFrames.gerund>건설</ConstructFinishFrames.gerund>
+
+    <ConstructDeliverResourcesToFrames.label>건물 틀로 자원 운반</ConstructDeliverResourcesToFrames.label>
+    <ConstructDeliverResourcesToFrames.verb>작업</ConstructDeliverResourcesToFrames.verb>
+    <ConstructDeliverResourcesToFrames.gerund>작업</ConstructDeliverResourcesToFrames.gerund>
+
+    <ConstructDeliverResourcesToBlueprints.label>건물 청사진으로 자원 운반</ConstructDeliverResourcesToBlueprints.label>
+    <ConstructDeliverResourcesToBlueprints.verb>작업</ConstructDeliverResourcesToBlueprints.verb>
+    <ConstructDeliverResourcesToBlueprints.gerund>작업</ConstructDeliverResourcesToBlueprints.gerund>
+
+    <ConstructRemoveFloors.label>바닥 제거</ConstructRemoveFloors.label>
+    <ConstructRemoveFloors.verb>제거</ConstructRemoveFloors.verb>
+    <ConstructRemoveFloors.gerund>제거</ConstructRemoveFloors.gerund>
+
+    <ConstructSmoothFloors.label>돌바닥 닦기</ConstructSmoothFloors.label>
+    <ConstructSmoothFloors.verb>닦기</ConstructSmoothFloors.verb>
+    <ConstructSmoothFloors.gerund>닦기</ConstructSmoothFloors.gerund>
+
+    <!-- ============= Repair ============= -->
+
+    <FixBrokenDownBuilding.label>망가진 건물 수리</FixBrokenDownBuilding.label>
+    <FixBrokenDownBuilding.verb>부품 교체</FixBrokenDownBuilding.verb>
+    <FixBrokenDownBuilding.gerund>부품 교체</FixBrokenDownBuilding.gerund>
+
+    <Repair.label>피해 수리</Repair.label>
+    <Repair.verb>수리</Repair.verb>
+    <Repair.gerund>수리</Repair.gerund>
+
+    <DoBillsMedicalMechanoidOperation.label>메카노이드 개조</DoBillsMedicalMechanoidOperation.label>
+    <DoBillsMedicalMechanoidOperation.verb>개조</DoBillsMedicalMechanoidOperation.verb>
+    <DoBillsMedicalMechanoidOperation.gerund>개조</DoBillsMedicalMechanoidOperation.gerund>
+
+    <!-- ============= Growing ============= -->
+
+    <GrowerHarvest.label>작물 수확</GrowerHarvest.label>
+    <GrowerHarvest.verb>수확</GrowerHarvest.verb>
+    <GrowerHarvest.gerund>수확</GrowerHarvest.gerund>
+
+    <GrowerSow.label>작물 심기</GrowerSow.label>
+    <GrowerSow.verb>심기</GrowerSow.verb>
+    <GrowerSow.gerund>심기</GrowerSow.gerund>
+
+    <!-- ============= Mining ============= -->
+
+    <Mine.label>채굴</Mine.label>
+    <Mine.verb>채굴</Mine.verb>
+    <Mine.gerund>채굴</Mine.gerund>
+
+    <!-- ============= PlantCutting ============= -->
+
+    <PlantsCut.label>제초</PlantsCut.label>
+    <PlantsCut.verb>제초</PlantsCut.verb>
+    <PlantsCut.gerund>제초</PlantsCut.gerund>
+
+    <!-- ============= Smithing ============= -->
+
+    <DoBillsMakeWeapons.label>무기 제련</DoBillsMakeWeapons.label>
+    <DoBillsMakeWeapons.verb>제련</DoBillsMakeWeapons.verb>
+    <DoBillsMakeWeapons.gerund>제련</DoBillsMakeWeapons.gerund>
+
+    <DoBillsMachiningTable.label>작업</DoBillsMachiningTable.label>
+    <DoBillsMachiningTable.verb>작업</DoBillsMachiningTable.verb>
+    <DoBillsMachiningTable.gerund>작업</DoBillsMachiningTable.gerund>
+
+    <DoBillsComponentAssemblyBench.label>부품 조립</DoBillsComponentAssemblyBench.label>
+    <DoBillsComponentAssemblyBench.verb>부품 조립</DoBillsComponentAssemblyBench.verb>
+    <DoBillsComponentAssemblyBench.gerund>부품 조립</DoBillsComponentAssemblyBench.gerund>
+
+    <!-- ============= Tailoring ============= -->
+
+    <DoBillsMakeApparel.label>재단</DoBillsMakeApparel.label>
+    <DoBillsMakeApparel.verb>재단</DoBillsMakeApparel.verb>
+    <DoBillsMakeApparel.gerund>재단</DoBillsMakeApparel.gerund>
+
+    <!-- ============= Art ============= -->
+
+    <DoBillsSculpt.label>조각</DoBillsSculpt.label>
+    <DoBillsSculpt.verb>조각</DoBillsSculpt.verb>
+    <DoBillsSculpt.gerund>조각</DoBillsSculpt.gerund>
+
+    <!-- ============= Crafting ============= -->
+
+    <DoBillsUseCraftingSpot.label>제작</DoBillsUseCraftingSpot.label>
+    <DoBillsUseCraftingSpot.verb>제작</DoBillsUseCraftingSpot.verb>
+    <DoBillsUseCraftingSpot.gerund>제작</DoBillsUseCraftingSpot.gerund>
+
+    <DoBillsStonecut.label>석재 가공</DoBillsStonecut.label>
+    <DoBillsStonecut.verb>석재 가공</DoBillsStonecut.verb>
+    <DoBillsStonecut.gerund>석재 가공</DoBillsStonecut.gerund>
+
+    <DoBillsSmelter.label>금속 추출</DoBillsSmelter.label>
+    <DoBillsSmelter.verb>금속 추출</DoBillsSmelter.verb>
+    <DoBillsSmelter.gerund>금속 추출</DoBillsSmelter.gerund>
 
     <!-- ============= Hauling ============= -->
 
@@ -129,156 +275,20 @@
     <HaulGeneral.verb>운반</HaulGeneral.verb>
     <HaulGeneral.gerund>운반</HaulGeneral.gerund>
 
-    <!-- ============= Growing ============= -->
+    <!-- ============= Cleaning ============= -->
 
-    <GrowerHarvest.label>작물 수확</GrowerHarvest.label>
-    <GrowerHarvest.verb>수확</GrowerHarvest.verb>
-    <GrowerHarvest.gerund>수확</GrowerHarvest.gerund>
+    <CleanClearSnow.label>제설</CleanClearSnow.label>
+    <CleanClearSnow.verb>제설</CleanClearSnow.verb>
+    <CleanClearSnow.gerund>제설</CleanClearSnow.gerund>
 
-    <GrowerSow.label>작물 심기</GrowerSow.label>
-    <GrowerSow.verb>심기</GrowerSow.verb>
-    <GrowerSow.gerund>심기</GrowerSow.gerund>
+    <CleanFilth.label>청소</CleanFilth.label>
+    <CleanFilth.verb>청소</CleanFilth.verb>
+    <CleanFilth.gerund>청소</CleanFilth.gerund>
 
-    <!-- ============= Repair ============= -->
+    <!-- ============= Research ============= -->
 
-    <FixBrokenDownBuilding.label>망가진 건물 수리</FixBrokenDownBuilding.label>
-    <FixBrokenDownBuilding.verb>부품 교체</FixBrokenDownBuilding.verb>
-    <FixBrokenDownBuilding.gerund>부품 교체</FixBrokenDownBuilding.gerund>
-
-    <Repair.label>피해 수리</Repair.label>
-    <Repair.verb>수리</Repair.verb>
-    <Repair.gerund>수리</Repair.gerund>
-
-    <DoBillsMedicalMechanoidOperation.label>메카노이드 개조</DoBillsMedicalMechanoidOperation.label>
-    <DoBillsMedicalMechanoidOperation.verb>개조</DoBillsMedicalMechanoidOperation.verb>
-    <DoBillsMedicalMechanoidOperation.gerund>개조</DoBillsMedicalMechanoidOperation.gerund>
-
-    <!-- ============= Doctor ============= -->
-
-    <DoctorTreatEmergency.label>응급치료</DoctorTreatEmergency.label>
-    <DoctorTreatEmergency.verb>치료</DoctorTreatEmergency.verb>
-    <DoctorTreatEmergency.gerund>치료</DoctorTreatEmergency.gerund>
-
-    <DoctorRescue.label>쓰러진 아군 구조</DoctorRescue.label>
-    <DoctorRescue.verb>구조</DoctorRescue.verb>
-    <DoctorRescue.gerund>구조</DoctorRescue.gerund>
-
-    <DoctorTreat.label>치료</DoctorTreat.label>
-    <DoctorTreat.verb>치료</DoctorTreat.verb>
-    <DoctorTreat.gerund>치료</DoctorTreat.gerund>
-
-    <DoctorFeed.label>환자에게 식사 전달</DoctorFeed.label>
-    <DoctorFeed.verb>식사 전달</DoctorFeed.verb>
-    <DoctorFeed.gerund>식사 전달</DoctorFeed.gerund>
-
-    <DoBillsMedicalHumanOperation.label>수술</DoBillsMedicalHumanOperation.label>
-    <DoBillsMedicalHumanOperation.verb>수술</DoBillsMedicalHumanOperation.verb>
-    <DoBillsMedicalHumanOperation.gerund>수술</DoBillsMedicalHumanOperation.gerund>
-
-    <DoBillsMedicalAnimalOperation.label>동물 수술</DoBillsMedicalAnimalOperation.label>
-    <DoBillsMedicalAnimalOperation.verb>수술</DoBillsMedicalAnimalOperation.verb>
-    <DoBillsMedicalAnimalOperation.gerund>수술</DoBillsMedicalAnimalOperation.gerund>
-
-    <TakeToBedToOperate.label>수술하기 위해 침대로 환자 이송</TakeToBedToOperate.label>
-    <TakeToBedToOperate.verb>이송</TakeToBedToOperate.verb>
-    <TakeToBedToOperate.gerund>이송</TakeToBedToOperate.gerund>
-
-    <VisitSickPawn.label>병문안</VisitSickPawn.label>
-    <VisitSickPawn.verb>병문안</VisitSickPawn.verb>
-    <VisitSickPawn.gerund>병문안</VisitSickPawn.gerund>
-
-    <!-- ============= Construction ============= -->
-
-    <Deconstruct.label>건물 해체</Deconstruct.label>
-    <Deconstruct.verb>해체</Deconstruct.verb>
-    <Deconstruct.gerund>해체</Deconstruct.gerund>
-
-    <Uninstall.label>포장</Uninstall.label>
-    <Uninstall.verb>포장</Uninstall.verb>
-    <Uninstall.gerund>포장</Uninstall.gerund>
-
-    <ConstructFinishFrames.label>건설</ConstructFinishFrames.label>
-    <ConstructFinishFrames.verb>건설</ConstructFinishFrames.verb>
-    <ConstructFinishFrames.gerund>건설</ConstructFinishFrames.gerund>
-
-    <ConstructDeliverResourcesToFrames.label>건물 틀로 자원 운반</ConstructDeliverResourcesToFrames.label>
-    <ConstructDeliverResourcesToFrames.verb>작업</ConstructDeliverResourcesToFrames.verb>
-    <ConstructDeliverResourcesToFrames.gerund>작업</ConstructDeliverResourcesToFrames.gerund>
-
-    <ConstructDeliverResourcesToBlueprints.label>건물 청사진으로 자원 운반</ConstructDeliverResourcesToBlueprints.label>
-    <ConstructDeliverResourcesToBlueprints.verb>작업</ConstructDeliverResourcesToBlueprints.verb>
-    <ConstructDeliverResourcesToBlueprints.gerund>작업</ConstructDeliverResourcesToBlueprints.gerund>
-
-    <ConstructRemoveFloors.label>바닥 제거</ConstructRemoveFloors.label>
-    <ConstructRemoveFloors.verb>제거</ConstructRemoveFloors.verb>
-    <ConstructRemoveFloors.gerund>제거</ConstructRemoveFloors.gerund>
-
-    <ConstructSmoothFloors.label>돌바닥 닦기</ConstructSmoothFloors.label>
-    <ConstructSmoothFloors.verb>닦기</ConstructSmoothFloors.verb>
-    <ConstructSmoothFloors.gerund>닦기</ConstructSmoothFloors.gerund>
-
-    <!-- ============= Cooking ============= -->
-
-    <DoBillsCook.label>스토브에서 요리</DoBillsCook.label>
-    <DoBillsCook.verb>요리</DoBillsCook.verb>
-    <DoBillsCook.gerund>요리</DoBillsCook.gerund>
-
-    <DoBillsCookCampfire.label>모닥불에서 요리</DoBillsCookCampfire.label>
-    <DoBillsCookCampfire.verb>요리</DoBillsCookCampfire.verb>
-    <DoBillsCookCampfire.gerund>요리</DoBillsCookCampfire.gerund>
-
-    <DoBillsBrew.label>양조</DoBillsBrew.label>
-    <DoBillsBrew.verb>양조</DoBillsBrew.verb>
-    <DoBillsBrew.gerund>양조</DoBillsBrew.gerund>
-
-    <DoBillsButcherFlesh.label>도축</DoBillsButcherFlesh.label>
-    <DoBillsButcherFlesh.verb>도축</DoBillsButcherFlesh.verb>
-    <DoBillsButcherFlesh.gerund>도축</DoBillsButcherFlesh.gerund>
-
-    <CookFillHopper.label>투입구에 식재료 적재</CookFillHopper.label>
-    <CookFillHopper.verb>식재료 적재</CookFillHopper.verb>
-    <CookFillHopper.gerund>식재료 적재</CookFillHopper.gerund>
-
-    <!-- ============= Crafting ============= -->
-
-    <!-- ============= Crafting - art - sculpture ============= -->
-
-    <DoBillsSculpt.label>조각</DoBillsSculpt.label>
-    <DoBillsSculpt.verb>조각</DoBillsSculpt.verb>
-    <DoBillsSculpt.gerund>조각</DoBillsSculpt.gerund>
-
-    <!-- ============= Crafting - Smithing ============= -->
-
-    <DoBillsMakeWeapons.label>무기 제련</DoBillsMakeWeapons.label>
-    <DoBillsMakeWeapons.verb>제련</DoBillsMakeWeapons.verb>
-    <DoBillsMakeWeapons.gerund>제련</DoBillsMakeWeapons.gerund>
-
-    <!-- ============= Crafting - apparel ============= -->
-
-    <DoBillsMakeApparel.label>재단</DoBillsMakeApparel.label>
-    <DoBillsMakeApparel.verb>재단</DoBillsMakeApparel.verb>
-    <DoBillsMakeApparel.gerund>재단</DoBillsMakeApparel.gerund>
-
-    <!-- ============= Crafting - misc ============= -->
-
-    <DoBillsComponentAssemblyBench.label>부품 조립</DoBillsComponentAssemblyBench.label>
-    <DoBillsComponentAssemblyBench.verb>부품 조립</DoBillsComponentAssemblyBench.verb>
-    <DoBillsComponentAssemblyBench.gerund>부품 조립</DoBillsComponentAssemblyBench.gerund>
-
-    <DoBillsUseCraftingSpot.label>제작</DoBillsUseCraftingSpot.label>
-    <DoBillsUseCraftingSpot.verb>제작</DoBillsUseCraftingSpot.verb>
-    <DoBillsUseCraftingSpot.gerund>제작</DoBillsUseCraftingSpot.gerund>
-
-    <DoBillsStonecut.label>석재 가공</DoBillsStonecut.label>
-    <DoBillsStonecut.verb>석재 가공</DoBillsStonecut.verb>
-    <DoBillsStonecut.gerund>석재 가공</DoBillsStonecut.gerund>
-
-    <DoBillsSmelter.label>용융</DoBillsSmelter.label>
-    <DoBillsSmelter.verb>용융</DoBillsSmelter.verb>
-    <DoBillsSmelter.gerund>용융</DoBillsSmelter.gerund>
-
-    <DoBillsMachiningTable.label>작업</DoBillsMachiningTable.label>
-    <DoBillsMachiningTable.verb>작업</DoBillsMachiningTable.verb>
-    <DoBillsMachiningTable.gerund>작업</DoBillsMachiningTable.gerund>
+    <Research.label>연구</Research.label>
+    <Research.verb>연구</Research.verb>
+    <Research.gerund>연구</Research.gerund>
 
 </LanguageData>
