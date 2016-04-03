@@ -24,7 +24,7 @@
     </rep>
     <rep>
         <path>LandedInPod.rulePack.rulesStrings[5]</path>
-        <trans>circumstance_phrase->[terrainfeature] 앞으로</trans>
+        <trans>circumstance_phrase->배경의 [terrainfeature] 앞으로</trans>
     </rep>
     <rep>
         <path>LandedInPod.rulePack.rulesStrings[6]</path>
@@ -521,249 +521,418 @@
         <trans>desc_sentence->[pawn_possessive] 머리카락은 완전히 엉망입니다.</trans>
     </rep>
 
-    <!--
+    <!-- ==== WalkedNaked ==== -->
 
+    <WalkedNaked.label>나체 활보</WalkedNaked.label>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[0]</path>
+        <trans>tale_noun->알몸으로 걸어다니는 [pawn_nameShortDef]</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[1]</path>
+        <trans>image->[circumstance_group] 자연으로 돌아간 채 [nude_action] [pawn_nameFull]</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[2]</path>
+        <trans>image->[circumstance_group] 나체로 [nude_action] [pawn_nameFull]</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[3]</path>
+        <trans>image->[circumstance_group] 알몸으로 [nude_action] [pawn_nameFull]</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[4]</path>
+        <trans>image->[circumstance_group] 아무것도 걸치지 않고 [nude_action] [pawn_nameFull]</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[5]</path>
+        <trans>nude_action->활보하는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[6]</path>
+        <trans>nude_action->뛰노는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[7]</path>
+        <trans>nude_action->뛰어다니는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[8]</path>
+        <trans>nude_action->걷는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[9]</path>
+        <trans>nude_action->여러가지를 뽐내는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[10]</path>
+        <trans>nude_action->몸을 자랑하는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[11]</path>
+        <trans>nude_action->살금살금 돌아다니는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[12]</path>
+        <trans>nude_action->산책하는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[13]</path>
+        <trans>nude_action->주변을 둘러보는</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[14]</path>
+        <trans>circumstance_phrase->목적의식을 갖고</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[15]</path>
+        <trans>circumstance_phrase->일말의 수치심도 없이</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[16]</path>
+        <trans>circumstance_phrase->다른 사람들의 시선 속에서</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[17]</path>
+        <trans>circumstance_phrase->별다른 이유 없이</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[18]</path>
+        <trans>circumstance_phrase->동물들의 혼란스런 시선 속에서</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[19]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 흥분이 느껴집니다.</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[20]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 몸을 정체를 알 수 없는 수분이 덮고 있습니다.</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[21]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 거친 호흡에는 별 이유가 없어보입니다.</trans>
+    </rep>
+    <rep>
+        <path>WalkedNaked.rulePack.rulesStrings[22]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 손이 풀숲을 쓰다듬고 있습니다.</trans>
+    </rep>
+
+    <!-- ==== AteRawHumanlikeMeat ==== -->
+
+    <AteRawHumanlikeMeat.label>인육 날것으로 섭취</AteRawHumanlikeMeat.label>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[0]</path>
+        <trans>tale_noun->익히지 않은 인육을 베어무는 [pawn_nameShortDef]</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[1]</path>
+        <trans>image->[circumstance_group] 다른 사람의 고기를 [eat_gerund] [pawn_nameFull]</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[2]</path>
+        <trans>image->[circumstance_group] 사람의 팔에서 자른 고기를 [eat_gerund] [pawn_nameFull]</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[3]</path>
+        <trans>image->[circumstance_group] 인육을 [eat_gerund] [pawn_nameFull]</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[4]</path>
+        <trans>eat_gerund->먹는</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[5]</path>
+        <trans>eat_gerund->먹는</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[6]</path>
+        <trans>eat_gerund->씹는</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[7]</path>
+        <trans>eat_gerund->씹는</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[8]</path>
+        <trans>eat_gerund->섭취하는</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[9]</path>
+        <trans>eat_gerund->섭취하는</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[10]</path>
+        <trans>eat_gerund->삼키는</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[11]</path>
+        <trans>circumstance_phrase->목적의식을 갖고</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[12]</path>
+        <trans>circumstance_phrase->일말의 수치심도 없이</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[13]</path>
+        <trans>circumstance_phrase->수치심을 느끼며</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[14]</path>
+        <trans>circumstance_phrase->다른 사람들의 시선 속에서</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[15]</path>
+        <trans>circumstance_phrase->기쁨과 함께</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[16]</path>
+        <trans>circumstance_phrase->생존을 위해</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[17]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 얼굴이 피범벅입니다.</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[18]</path>
+        <trans>desc_sentence->[pawn_nameShortDef](은)는 손가락을 빨고 있습니다.</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[19]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 앞에 피와 잔해들이 잔뜩입니다.</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[20]</path>
+        <trans>desc_sentence->[pawn_nameShortDef](이)가 피의 웅덩이 한 가운데 앉아 있습니다.</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[21]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 어두운 눈이 근처 누군가를 노려봅니다.</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[22]</path>
+        <trans>desc_sentence->육즙이 풍부해 보입니다.</trans>
+    </rep>
+    <rep>
+        <path>AteRawHumanlikeMeat.rulePack.rulesStrings[23]</path>
+        <trans>desc_sentence->고기조각이 [pawn_nameShortDef]의 온 몸에 붙어 있습니다.</trans>
+    </rep>
+
+    <!-- ==== CraftedArt ==== -->
+
+    <CraftedArt.label>예술품 제작</CraftedArt.label>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[0]</path>
-        <trans>image->[circumstance_group] [thing_labelIndefinite](을)를 제작하고 있는 [pawn_nameFull]의 모습입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+        <trans>tale_noun->[pawn_nameShortDef](이)가 [thing_labelIndefinite](을)를 완성한 순간</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[1]</path>
-        <trans>image->[circumstance_group] [pawn_possessive] 작품 [thing_labelIndefinite]의 완성을 눈 앞에 둔 [pawn_nameFull]의 모습입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+        <trans>image->[circumstance_group] [quality_sentence] [thing_labelIndefinite]([title_sentence])(을)를 제작하는 [pawn_nameFull]</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[2]</path>
-        <trans>image->[circumstance_group] [pawn_possessive] 작품 [thing_labelIndefinite]의 작업을 계속 하는 [pawn_nameFull]의 모습입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+        <trans>image->[circumstance_group] [quality_sentence] [thing_labelIndefinite]([title_sentence])의 마무리를 하는 [pawn_nameFull]</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[3]</path>
-        <trans>image->[circumstance_group] [pawn_possessive] 작품 [thing_labelIndefinite](을)를 만드는 [pawn_nameFull]의 모습입니다. [quality_sentence] [title_sentence] [desc_sentence_group]</trans>
+        <trans>image->[circumstance_group] [quality_sentence] [thing_labelIndefinite]([title_sentence])(을)를 작업하는 [pawn_nameFull]</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[4]</path>
-        <trans>circumstance_phrase->완벽한 집중력으로</trans>
+        <trans>image->[circumstance_group] [quality_sentence] [thing_labelIndefinite]([title_sentence])(을)를 만드는 [pawn_nameFull]</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[5]</path>
-        <trans>circumstance_phrase->[pawn_possessive] 표정에 피어난 만족감과 함께</trans>
+        <trans>circumstance_phrase->완벽한 집중력으로</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[6]</path>
-        <trans>circumstance_phrase->[pawn_possessive] 작업대에서</trans>
+        <trans>circumstance_phrase->얼굴에 드러난 만족감과 함께</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[7]</path>
-        <trans>circumstance_phrase->열렬하게</trans>
+        <trans>circumstance_phrase->개인 작업대에서</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[8]</path>
-        <trans>desc_sentence->주변에 도구들이 어지러이 널려있습니다.</trans>
+        <trans>circumstance_phrase->열렬하게</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[9]</path>
-        <trans>desc_sentence->[pawn_pronoun] 작업을 하며 생긴 상처들로 덮여있습니다.</trans>
+        <trans>desc_sentence->주변에 도구들이 어지러이 널려있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[10]</path>
-        <trans>desc_sentence->[pawn_pronoun] 땀으로 덮여있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef]의 손은 작업을 하며 생긴 상처들로 덮여있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[11]</path>
-        <trans>desc_sentence->[pawn_possessive] 작업환경은 매우 정돈되어있고, 모든 도구가 제자리에 놓여 있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef]의 온 몸이 땀으로 덮여있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[12]</path>
-        <trans>desc_sentence->[pawn_possessive] 모습은 과장되어있어 실제보다 더 강력해 보입니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef]의 깔끔한 작업장에는 모든 도구가 제자리에 놓여 있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[13]</path>
-        <trans>desc_sentence->[item_labelDefinite]의 크기가 과장되어있어 이 그림에서의 중요성을 알기 쉽습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef]의 모습은 더 힘차고 강력하게 과장되어 있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[14]</path>
-        <trans>desc_sentence->[item_labelDefinite]의 주위에서 빛이 나는 묘사가 있습니다. 거의 천사처럼 보일 지경입니다.</trans>
+        <trans>desc_sentence->[thing_labelDefinite]의 크기가 과장되어있어 중요성을 알기 쉽습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[15]</path>
-        <trans>desc_sentence->[pawn_possessive] 모습은 배경으로 녹아들어 [pawn_nameShortDefinite]의 새로운 창작물을 강조하고 있습니다.</trans>
+        <trans>desc_sentence->[thing_labelDefinite](이)가 후광을 발산하고 있습니다. 성스럽게 보일 지경입니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[16]</path>
-        <trans>desc_sentence->한 무리의 구경꾼이 [pawn_possessive] 주위를 둘러싸고 있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef]의 모습은 배경으로 녹아들어 [pawn_possessive] 새로운 창작물을 강조하고 있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[17]</path>
-        <trans>desc_sentence->사람들이 축하하는 모습이 배경에 있습니다.</trans>
+        <trans>desc_sentence->[quantity_adjphrase] 구경꾼이 [pawn_nameShortDef]의 주위를 둘러싸고 있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[18]</path>
-        <trans>quality_sentence->[thing_labelDefinite]의 품질은 "[thing_quality]"으로 보입니다.</trans>
+        <trans>desc_sentence->사람들이 뒤쪽에서 축하하고 있습니다.</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[19]</path>
-        <trans>quality_sentence->[thing_labelDefinite]의 품질은 "[thing_quality]"입니다.</trans>
+        <trans>quality_sentence->[thing_quality] 품질의</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[20]</path>
-        <trans>quality_sentence->[pawn_nameShortDefinite]의 이 작품 품질은 "[thing_quality]"입니다.</trans>
+        <trans>quality_sentence->[thing_quality] 품질의</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[21]</path>
-        <trans>title_sentence->그 작품에 붙여진 이름 '[thing_title]'(이)가 그림 밑에 적혀있습니다.</trans>
+        <trans>quality_sentence->[thing_quality] 품질의</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[22]</path>
-        <trans>title_sentence->그 작품에 붙여진 이름 '[thing_title]'(이)가 새겨져 있습니다.</trans>
+        <trans>title_sentence->[thing_title]</trans>
     </rep>
     <rep>
         <path>CraftedArt.rulePack.rulesStrings[23]</path>
-        <trans>title_sentence->배경에 흐릿하게 그 작품의 이름인 '[thing_title]'(이)가 보입니다.</trans>
+        <trans>title_sentence->[thing_title]</trans>
+    </rep>
+    <rep>
+        <path>CraftedArt.rulePack.rulesStrings[24]</path>
+        <trans>title_sentence->[thing_title]</trans>
     </rep>
 
+    <!-- ==== StruckMineable ==== -->
+
+    <StruckMineable.label>광물 발견</StruckMineable.label>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[0]</path>
-        <trans>image->[circumstance_group] [thing_label]의 광맥을 마주친 [pawn_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
+        <trans>tale_noun->[thing_label]의 발견</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[1]</path>
-        <trans>circumstance_phrase->채굴 중</trans>
+        <trans>image->[circumstance_group] [thing_label](을)를 발견한 [pawn_nameFull]</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[2]</path>
-        <trans>circumstance_phrase->땅을 파던 중</trans>
+        <trans>circumstance_phrase->채굴 중</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[3]</path>
-        <trans>circumstance_phrase->굴을 파던 중</trans>
+        <trans>circumstance_phrase->땅을 파던 중</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[4]</path>
-        <trans>circumstance_phrase->놀란 얼굴로</trans>
+        <trans>circumstance_phrase->굴을 파던 중</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[5]</path>
-        <trans>circumstance_phrase->만족한 얼굴로</trans>
+        <trans>circumstance_phrase->놀란 얼굴로</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[6]</path>
-        <trans>desc_sentence->[pawn_pronoun] 눈썹을 닦고 있습니다.</trans>
+        <trans>circumstance_phrase->만족한 얼굴로</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[7]</path>
-        <trans>desc_sentence->[pawn_pronoun] 기쁨에 젖어 허공으로 뛰고 있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef](은)는 눈썹을 닦고 있습니다.</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[8]</path>
-        <trans>desc_sentence->[pawn_pronoun] 친구와 손뼉을 맞추고 있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef](은)는 기쁨에 젖어 허공으로 뛰고 있습니다.</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[9]</path>
-        <trans>desc_sentence->[pawn_pronoun] 기쁨으로 소리를 지르고 있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef](은)는 친구와 손뼉을 맞추고 있습니다.</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[10]</path>
-        <trans>desc_sentence->[pawn_pronoun] 통제할 수 없이 웃고 있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef]의 입이 기쁨으로 소리를 지르고 있습니다.</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[11]</path>
-        <trans>desc_sentence->[pawn_pronoun] 땀과 먼지로 덮여있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef](은)는 통제할 수 없이 웃고 있습니다.</trans>
     </rep>
     <rep>
         <path>StruckMineable.rulePack.rulesStrings[12]</path>
-        <trans>desc_sentence->[pawn_pronoun] 땀과 먼지로 덮여있습니다.</trans>
+        <trans>desc_sentence->[pawn_nameShortDef]의 온 몸은 땀과 먼지로 덮여있습니다.</trans>
+    </rep>
+    <rep>
+        <path>StruckMineable.rulePack.rulesStrings[13]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 온 몸은 땀과 먼지로 덮여있습니다.</trans>
     </rep>
 
+    <!-- ==== FinishedResearchProject ==== -->
+
+    <FinishedResearchProject.label>연구 완료</FinishedResearchProject.label>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[0]</path>
-        <trans>image->[circumstance_group] [killer_nameFull]에게 살해당하는 [victim_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[0]</path>
+        <trans>tale_noun->[project_label]의 완료</trans>
     </rep>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[1]</path>
-        <trans>image->[circumstance_group] [victim_nameFull](을)를 살해하는 [killer_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[1]</path>
+        <trans>image->[circumstance_group] [project_label](을)를 작업하는 [pawn_nameFull]</trans>
     </rep>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[2]</path>
-        <trans>image->[circumstance_group] [victim_nameFull]의 목숨을 앗아가는 [killer_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[2]</path>
+        <trans>image->[circumstance_group] [project_label]의 비밀을 탐구하는 [pawn_nameFull]</trans>
     </rep>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[3]</path>
-        <trans>image->[circumstance_group] [victim_nameFull](을)를 잔혹하게 죽이고 있는 [killer_nameFull]의 모습이 보입니다. [desc_sentence_group]</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[3]</path>
+        <trans>image->[circumstance_group] [project_label](을)를 연구하는 [pawn_nameFull]</trans>
     </rep>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[4]</path>
-        <trans>image->[circumstance_group] 사람을 죽이는 [killer_nameFull]의 모습이 보입니다. [pawn_possessive] 앞에는 [victim_nameFull](이)가 누워있습니다. [desc_sentence_group]</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[4]</path>
+        <trans>circumstance_phrase->대단한 열정을 갖고</trans>
     </rep>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[5]</path>
-        <trans>circumstance_phrase->싸늘한 눈길로</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[5]</path>
+        <trans>circumstance_phrase->연구 작업대에 앉아서 혼자</trans>
     </rep>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[6]</path>
-        <trans>circumstance_phrase->효율적이면서도 냉혹하게</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[6]</path>
+        <trans>circumstance_phrase->손에 여러 문서를 쥐고</trans>
     </rep>
     <rep>
-        <path>KilledBy.rulePack.rulesStrings[7]</path>
-        <trans>circumstance_phrase->격정적인 분노와 함께</trans>
+        <path>FinishedResearchProject.rulePack.rulesStrings[7]</path>
+        <trans>circumstance_phrase->신나게</trans>
+    </rep>
+    <rep>
+        <path>FinishedResearchProject.rulePack.rulesStrings[8]</path>
+        <trans>desc_sentence->[pawn_nameShortDef](은)는 땀을 흘리고 있습니다.</trans>
+    </rep>
+    <rep>
+        <path>FinishedResearchProject.rulePack.rulesStrings[9]</path>
+        <trans>desc_sentence->이 연구과제는 매우 복잡한 것으로 보입니다.</trans>
+    </rep>
+    <rep>
+        <path>FinishedResearchProject.rulePack.rulesStrings[10]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 주위는 각종 도구들로 가득합니다.</trans>
+    </rep>
+    <rep>
+        <path>FinishedResearchProject.rulePack.rulesStrings[11]</path>
+        <trans>desc_sentence->[pawn_nameShortDef]의 눈이 [pawn_possessive]의 발견을 흥분해서 바라보고 있습니다.</trans>
     </rep>
 
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[8]</path>
-        <trans>circumstance_phrase->빠르고 효율적으로</trans>
-    </rep>
-
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[9]</path>
-        <trans>circumstance_phrase->감정이나 표현 없이</trans>
-    </rep>
-
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[10]</path>
-        <trans>circumstance_phrase->필요에 의해</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[11]</path>
-        <trans>circumstance_phrase->내키진 않지만</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[12]</path>
-        <trans>desc_sentence->석양이 상징적으로 그들의 뒤에 드리워져 있습니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[13]</path>
-        <trans>desc_sentence->[animal] 몇 마리가 그들을 지켜보고 있습니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[14]</path>
-        <trans>desc_sentence->한 [outlander](이)가 멀리서 숨죽여 지켜보고 있습니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[15]</path>
-        <trans>desc_sentence->[victim_nameShortDefinite]의 몸에서 피가 뿜어져 나오고 있습니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[16]</path>
-        <trans>desc_sentence->[victim_nameShortDefinite]의 눈은 사실적이면서 생기 없이 묘사되었습니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[17]</path>
-        <trans>desc_sentence->[killer_nameShortDefinite]의 입은 꾹 다물어져 있습니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[18]</path>
-        <trans>desc_sentence->[killer_nameShortDefinite](은)는 만족한 듯 보입니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[19]</path>
-        <trans>desc_sentence->[killer_nameShortDefinite](은)는 사람을 죽인 것에 대해 회의적으로 보입니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[20]</path>
-        <trans>desc_sentence->[killer_nameShortDefinite](은)는 이 상황을 좋아하는 것 같습니다.</trans>
-    </rep>
-    <rep>
-        <path>KilledBy.rulePack.rulesStrings[21]</path>
-        <trans>desc_sentence->[killer_nameShortDefinite](은)는 환희에 찬 것 같습니다.</trans>
-    </rep>
--->
+    <ButcheredHumanlikeCorpse.label>인간 도축</ButcheredHumanlikeCorpse.label>
 
 </LanguageData>

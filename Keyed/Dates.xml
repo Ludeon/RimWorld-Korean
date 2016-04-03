@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
 	<ClockTime>시간</ClockTime>
@@ -7,10 +6,10 @@
 	<ClockYear>연도</ClockYear>
 	<DateReadoutTip>정착 이후 흘러간 시간: {0}일\n\n매 계절은 {1}일로 이루어집니다.\n현재 계절: {2}</DateReadoutTip>
 
-	<!--3년 12일, 여름-->
-	<FullDate>{2}년 {0}, {1}</FullDate>
-	<DateReadout>{2}년 {0}, {1}</DateReadout>
-    <SeasonFullDate>{0}, {1}</SeasonFullDate>
+	<!--3년 여름 12일-->
+	<FullDate>{2}년 {1} {0}일</FullDate>
+	<DateReadout>{2}년 {1} {0}일</DateReadout>
+    <SeasonFullDate>{1} {0}일</SeasonFullDate>
     <WholeYear>전년</WholeYear>
 
 </LanguageData>
