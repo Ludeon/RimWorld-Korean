@@ -239,6 +239,66 @@
 		<trans>desc_sentence->[patient_nameShortDefinite]의 몸이 고통으로 떨고 있습니다.</trans>
 	</rep>
 
+    <!-- ==== ExecutedPrisoner ==== -->
 
+    <ExecutedPrisoner.label>수감자 처형</ExecutedPrisoner.label>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[0]</path>
+		<trans>tale_noun->[prisoner_nameShortDef]의 처형</trans>
+	</rep>
+
+    <!-- ==== KidnappedColonist ==== -->
+
+    <KidnappedColonist.label>정착민 납치</KidnappedColonist.label>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[0]</path>
+		<trans>tale_noun->[victim_nameShortDef]의 납치</trans>
+	</rep>
+
+    <!-- ==== TamedAnimal ==== -->
+
+    <TamedAnimal.label>동물 조련</TamedAnimal.label>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[0]</path>
+		<trans>tale_noun->[animal_nameShortDef]의 조련에 성공한 [human_nameShortDef]</trans>
+	</rep>
+
+    <!-- ==== KilledBy ==== -->
+
+    <KilledBy.label>죽음</KilledBy.label>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[0]</path>
+		<trans>tale_noun->[victim_nameShortDef](을)를 죽인 [killer_nameShortDef]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[1]</path>
+		<trans>tale_noun->[killer_nameShortDef]에 의해 사망한 [victim_nameShortDef]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[2]</path>
+		<trans>tale_noun->[killer_nameShortDef]의 죽음</trans>
+	</rep>
+
+    <!-- ==== SoldPrisoner ==== -->
+
+    <SoldPrisoner.label>수감자 판매</SoldPrisoner.label>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[0]</path>
+		<trans>tale_noun->노예로 팔려나간 [prisoner_nameShortDef]</trans>
+	</rep>
+
+    <!-- ==== TrainedAnimal ==== -->
+
+    <TrainedAnimal.label>동물 훈련</TrainedAnimal.label>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[0]</path>
+		<trans>tale_noun->[animal_nameShortDef]의 훈련</trans>
+	</rep>
+
+    <!-- ==== ETC ==== -->
+
+    <KilledColonist.label>정착민 사망</KilledColonist.label>
+    <KilledColonyAnimal.label>정착지 동물 사망</KilledColonyAnimal.label>
+    <KilledMajorColonyEnemy.label>정착지 주적 사망</KilledMajorColonyEnemy.label>
 
 </LanguageData>
