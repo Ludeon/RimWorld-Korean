@@ -1,53 +1,64 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Shooting.skillLabel>사격</Shooting.skillLabel>
-	<Shooting.description>모든 종류의 원거리 무기 사용기술</Shooting.description>
-	<Shooting.pawnLabel>사수</Shooting.pawnLabel>
+    <Shooting.label>사격</Shooting.label>
+    <Shooting.skillLabel>사격</Shooting.skillLabel>
+    <Shooting.description>모든 종류의 원거리 무기 사용기술</Shooting.description>
+    <Shooting.pawnLabel>사수</Shooting.pawnLabel>
 
-	<Melee.skillLabel>격투</Melee.skillLabel>
-	<Melee.description>맨손 격투를 포함한 모든 종류의 근접무기 사용기술</Melee.description>
-	<Melee.pawnLabel>격투가</Melee.pawnLabel>
+    <Melee.label>격투</Melee.label>
+    <Melee.skillLabel>격투</Melee.skillLabel>
+    <Melee.description>맨손 격투를 포함한 모든 종류의 근접무기 사용기술</Melee.description>
+    <Melee.pawnLabel>격투가</Melee.pawnLabel>
 
-	<Social.skillLabel>사교</Social.skillLabel>
-	<Social.description>협상, 설득, 조종, 지시와 응원기술</Social.description>
-	<Social.pawnLabel>사교가</Social.pawnLabel>
+    <Social.label>사교</Social.label>
+    <Social.skillLabel>사교</Social.skillLabel>
+    <Social.description>협상, 설득, 조종, 지시와 응원기술</Social.description>
+    <Social.pawnLabel>사교가</Social.pawnLabel>
 
-	<Animals.skillLabel>조련</Animals.skillLabel>
-	<Animals.description>동물을 길들이고, 훈련시키고, 관리하고, 지시하는 모든 기술</Animals.description>
-	<Animals.pawnLabel>조련사</Animals.pawnLabel>
+    <Animals.label>조련</Animals.label>
+    <Animals.skillLabel>조련</Animals.skillLabel>
+    <Animals.description>동물을 길들이고, 훈련시키고, 관리하고, 지시하는 모든 기술</Animals.description>
+    <Animals.pawnLabel>조련사</Animals.pawnLabel>
 
-	<Medicine.skillLabel>의학</Medicine.skillLabel>
-	<Medicine.description>수술을 집도하고 상처와 병을 치료하는 기술</Medicine.description>
-	<Medicine.pawnLabel>의사</Medicine.pawnLabel>
+    <Medicine.label>의학</Medicine.label>
+    <Medicine.skillLabel>의학</Medicine.skillLabel>
+    <Medicine.description>수술을 집도하고 상처와 병을 치료하는 기술</Medicine.description>
+    <Medicine.pawnLabel>의사</Medicine.pawnLabel>
 
-	<Cooking.skillLabel>요리</Cooking.skillLabel>
-	<Cooking.description>재료를 이용해 음식을 만드는 기술</Cooking.description>
-	<Cooking.pawnLabel>요리사</Cooking.pawnLabel>
+    <Cooking.label>요리</Cooking.label>
+    <Cooking.skillLabel>요리</Cooking.skillLabel>
+    <Cooking.description>재료를 이용해 음식을 만드는 기술</Cooking.description>
+    <Cooking.pawnLabel>요리사</Cooking.pawnLabel>
 
-	<Construction.skillLabel>건설</Construction.skillLabel>
-	<Construction.description>더 빠르고 훌륭하게 건물과 가구를 만드는 기술</Construction.description>
-	<Construction.pawnLabel>건축가</Construction.pawnLabel>
+    <Construction.label>건설</Construction.label>
+    <Construction.skillLabel>건설</Construction.skillLabel>
+    <Construction.description>더 빠르고 훌륭하게 건물과 가구를 만드는 기술</Construction.description>
+    <Construction.pawnLabel>건축가</Construction.pawnLabel>
 
-	<Growing.skillLabel>재배</Growing.skillLabel>
-	<Growing.description>식물을 재배하고, 관리하고, 수확하는 기술</Growing.description>
-	<Growing.pawnLabel>농부</Growing.pawnLabel>
+    <Growing.label>재배</Growing.label>
+    <Growing.skillLabel>재배</Growing.skillLabel>
+    <Growing.description>식물을 재배하고, 관리하고, 수확하는 기술</Growing.description>
+    <Growing.pawnLabel>농부</Growing.pawnLabel>
 
-	<Mining.skillLabel>채굴</Mining.skillLabel>
-	<Mining.description>굴을 파서 광물을 얻거나, 땅에 묻힌 자원을 파내는 기술</Mining.description>
-	<Mining.pawnLabel>광부</Mining.pawnLabel>
+    <Mining.label>채굴</Mining.label>
+    <Mining.skillLabel>채굴</Mining.skillLabel>
+    <Mining.description>굴을 파서 광물을 얻거나, 땅에 묻힌 자원을 파내는 기술</Mining.description>
+    <Mining.pawnLabel>광부</Mining.pawnLabel>
 
-	<Artistic.skillLabel>예술</Artistic.skillLabel>
-	<Artistic.description>예술품을 만드는 기술</Artistic.description>
-	<Artistic.pawnLabel>예술가</Artistic.pawnLabel>
+    <Artistic.label>예술</Artistic.label>
+    <Artistic.skillLabel>예술</Artistic.skillLabel>
+    <Artistic.description>예술품을 만드는 기술</Artistic.description>
+    <Artistic.pawnLabel>예술가</Artistic.pawnLabel>
 
-	<Crafting.skillLabel>제작</Crafting.skillLabel>
-	<Crafting.description>무기나 도구와 같은 일반적인 용품을 만드는 기술</Crafting.description>
-	<Crafting.pawnLabel>장인</Crafting.pawnLabel>
+    <Crafting.label>제작</Crafting.label>
+    <Crafting.skillLabel>제작</Crafting.skillLabel>
+    <Crafting.description>무기나 도구와 같은 일반적인 용품을 만드는 기술</Crafting.description>
+    <Crafting.pawnLabel>장인</Crafting.pawnLabel>
 
-	<Research.skillLabel>연구</Research.skillLabel>
-	<Research.description>단서를 조사하고, 실험을 하고, 결과에서 배우는 기술</Research.description>
-	<Research.pawnLabel>과학자</Research.pawnLabel>
+    <Research.label>연구</Research.label>
+    <Research.skillLabel>연구</Research.skillLabel>
+    <Research.description>단서를 조사하고, 실험을 하고, 결과에서 배우는 기술</Research.description>
+    <Research.pawnLabel>과학자</Research.pawnLabel>
 
 </LanguageData>
