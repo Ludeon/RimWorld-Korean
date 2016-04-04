@@ -246,6 +246,102 @@
 		<path>ExecutedPrisoner.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[prisoner_nameShortDef]의 처형</trans>
 	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull](을)를 처형하는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull]에게 죽음을 선사하는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull]의 사형을 준비하는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[4]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull]의 숨을 끊는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->수감자가 버둥거리는 와중에</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->수감자가 고통으로 몸을 비트는 와중에</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[7]</path>
+		<trans>circumstance_phrase->수감자가 공포에 질려 비명을 지르는 와중에</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[8]</path>
+		<trans>circumstance_phrase->전문적인 솜씨로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->어설프고 거칠게</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->과도한 힘으로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[11]</path>
+		<trans>circumstance_phrase->만족스러운 표정으로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[12]</path>
+		<trans>circumstance_phrase->정복의 미소를 지으며</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[13]</path>
+		<trans>circumstance_phrase->눈물을 머금고</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[14]</path>
+		<trans>circumstance_phrase->완벽한 무표정으로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[15]</path>
+		<trans>circumstance_phrase->불필요한 고통을 가하며</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[16]</path>
+		<trans>circumstance_phrase->다른 생각을 하며</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[17]</path>
+		<trans>circumstance_phrase->대의를 위해</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[18]</path>
+		<trans>desc_sentence->[warden_nameShortDef]의 온 몸이 땀으로 흠뻑 젖어있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[19]</path>
+		<trans>desc_sentence->[warden_nameShortDef]의 입에서 침이 약간 흐릅니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[20]</path>
+		<trans>desc_sentence->[warden_nameShortDef]의 얼굴이 피로 얼룩져있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[21]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](이)가 온 몸을 흔들며 저항하고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[22]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](은)는 완전히 포기한 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[23]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef]의 눈은 마치 누군가에게 기도하듯 감겨있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[24]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](은)는 [warden_nameShortDef](을)를 경계하고 있습니다.</trans>
+	</rep>
 
     <!-- ==== KidnappedColonist ==== -->
 
@@ -254,6 +350,18 @@
 		<path>KidnappedColonist.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[victim_nameShortDef]의 납치</trans>
 	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 들쳐 메고  [kidnapper_factionName] 세력으로 데려가는 [kidnapper_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 납치하는  [kidnapper_factionName]의 [kidnapper_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 납치하는  [kidnapper_nameFull]</trans>
+	</rep>
 
     <!-- ==== TamedAnimal ==== -->
 
@@ -261,6 +369,22 @@
 	<rep>
 		<path>TamedAnimal.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[animal_nameShortDef]의 조련에 성공한 [human_nameShortDef]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [animal_nameFull](을)를 길들이는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [animal_nameFull]에게 음식 약간을 건네주는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] 겁 많은 [animal_nameFull]에게 속삭이는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[4]</path>
+		<trans>image->[circumstance_group] 야생 [animal_nameFull](을)를 달래는 [human_nameFull]</trans>
 	</rep>
 
     <!-- ==== KilledBy ==== -->
@@ -278,6 +402,26 @@
 		<path>KilledBy.rulePack.rulesStrings[2]</path>
 		<trans>tale_noun->[killer_nameShortDef]의 죽음</trans>
 	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [killer_nameFull]에게 사살당하는 [victim_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[4]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 죽이는 [killer_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[5]</path>
+		<trans>image->[circumstance_group] [victim_nameFull]의 생명을 앗아가는 [killer_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[6]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 잔인하게 살해하는 [killer_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[7]</path>
+		<trans>image->[circumstance_group] 살해당하는 [victim_nameFull]</trans>
+	</rep>
 
     <!-- ==== SoldPrisoner ==== -->
 
@@ -285,6 +429,14 @@
 	<rep>
 		<path>SoldPrisoner.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->노예로 팔려나간 [prisoner_nameShortDef]</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [seller_nameFull]에게서 [prisoner_nameFull](을)를 사가는 [trader_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [trader_nameFull]에게 [prisoner_nameFull](을)를 파는 [seller_nameFull]</trans>
 	</rep>
 
     <!-- ==== TrainedAnimal ==== -->
