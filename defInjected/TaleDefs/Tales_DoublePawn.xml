@@ -276,7 +276,7 @@
 	</rep>
 	<rep>
 		<path>ExecutedPrisoner.rulePack.rulesStrings[8]</path>
-		<trans>circumstance_phrase->전문적인 솜씨로</trans>
+		<trans>circumstance_phrase->숙련된 솜씨로</trans>
 	</rep>
 	<rep>
 		<path>ExecutedPrisoner.rulePack.rulesStrings[9]</path>
@@ -362,6 +362,34 @@
 		<path>KidnappedColonist.rulePack.rulesStrings[3]</path>
 		<trans>image->[circumstance_group] [victim_nameFull](을)를 납치하는  [kidnapper_nameFull]</trans>
 	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[4]</path>
+		<trans>circumstance_phrase->저항에도 불구하고</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->숙련된 솜씨로</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->어설프고 거칠게</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[7]</path>
+		<trans>circumstance_phrase->과도한 힘으로</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[8]</path>
+		<trans>circumstance_phrase->만족스러운 표정으로</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->정복의 미소를 지으며</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->피와 오물을 뒤집어쓰고</trans>
+	</rep>
 
     <!-- ==== TamedAnimal ==== -->
 
@@ -385,6 +413,18 @@
 	<rep>
 		<path>TamedAnimal.rulePack.rulesStrings[4]</path>
 		<trans>image->[circumstance_group] 야생 [animal_nameFull](을)를 달래는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->대단히 주의해서</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->미소지으며</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[7]</path>
+		<trans>circumstance_phrase->지쳤지만 행복해하며</trans>
 	</rep>
 
     <!-- ==== KilledBy ==== -->
@@ -422,6 +462,34 @@
 		<path>KilledBy.rulePack.rulesStrings[7]</path>
 		<trans>image->[circumstance_group] 살해당하는 [victim_nameFull]</trans>
 	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[8]</path>
+		<trans>circumstance_phrase->후회의 기색 없이</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->차가운 손길로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->분노에 찬 손길로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[11]</path>
+		<trans>circumstance_phrase->빠르고 정확한 움직임으로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[12]</path>
+		<trans>circumstance_phrase->무표정으로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[13]</path>
+		<trans>circumstance_phrase->불가피하게</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[14]</path>
+		<trans>circumstance_phrase->겁에 질린 채 주저하며</trans>
+	</rep>
 
     <!-- ==== SoldPrisoner ==== -->
 
@@ -438,6 +506,18 @@
 		<path>SoldPrisoner.rulePack.rulesStrings[2]</path>
 		<trans>image->[circumstance_group] [trader_nameFull]에게 [prisoner_nameFull](을)를 파는 [seller_nameFull]</trans>
 	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[3]</path>
+		<trans>circumstance_phrase->다른 정착민들의 실망의 눈길 속에서</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[4]</path>
+		<trans>circumstance_phrase->수감자의 슬픈 신음과 함께</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->수감자의 분통함과 함께</trans>
+	</rep>
 
     <!-- ==== TrainedAnimal ==== -->
 
@@ -445,6 +525,58 @@
 	<rep>
 		<path>TrainedAnimal.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[animal_nameShortDef]의 훈련</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [animal_nameFull]에게 [trainable_label](을)를 [train_syn] [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [trainable_label](을)를 [animal_nameFull]에게 가르치는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [animal_nameFull](와)과 함께 [trainable_label](을)를 연습하는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[4]</path>
+		<trans>train_syn->알려주는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[5]</path>
+		<trans>train_syn->가르치는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[6]</path>
+		<trans>train_syn->훈련시키는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[7]</path>
+		<trans>train_syn->교육하는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[8]</path>
+		<trans>train_syn->시키는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->여러 시선들 속에서</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->야생 [animal]의 이해할 수 없다는 표정 앞에서</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[11]</path>
+		<trans>circumstance_phrase->훈련받는 동물의 머리 속에서는 자신이 야생에서 더 간단한 삶을 살았던 때를 추억하는 와중에</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[12]</path>
+		<trans>circumstance_phrase->오늘 점심 메뉴를 신경쓰며</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[13]</path>
+		<trans>circumstance_phrase->다른 정착민들은 고생하면서 일하는데</trans>
 	</rep>
 
     <!-- ==== ETC ==== -->
