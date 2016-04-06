@@ -1,8 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<AnimalChat.label>대화</AnimalChat.label>
-	<TrainAttempt.label>훈련 시도</TrainAttempt.label>
-	<TameAttempt.label>조련 시도</TameAttempt.label>
+    <AnimalChat.label>대화</AnimalChat.label>
+    <rep>
+        <path>AnimalChat.logRulesInitiator.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef](와)과 대화.</trans>
+    </rep>
+    <rep>
+        <path>AnimalChat.logRulesRecipient.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef]의 친밀한 접근에 반응.</trans>
+    </rep>
+
+    <TrainAttempt.label>훈련 시도</TrainAttempt.label>
+    <rep>
+        <path>TrainAttempt.logRulesInitiator.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef] 훈련.</trans>
+    </rep>
+    <rep>
+        <path>TrainAttempt.logRulesRecipient.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef]에게 훈련 받음.</trans>
+    </rep>
+
+    <TameAttempt.label>조련 시도</TameAttempt.label>
+    <rep>
+        <path>TrainAttempt.logRulesInitiator.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef] 조련 시도.</trans>
+    </rep>
+    <rep>
+        <path>TrainAttempt.logRulesRecipient.rulesStrings[0].label</path>
+        <trans>logentry->날 조련하려는 [other_nameShortIndef] 구경.</trans>
+    </rep>
 
 </LanguageData>

@@ -2,7 +2,35 @@
 <LanguageData>
 
 	<Chitchat.label>잡담</Chitchat.label>
+    <rep>
+        <path>Chitchat.logRulesInitiator.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef](와)과 즐거운 대화 나눔.</trans>
+    </rep>
+
 	<DeepTalk.label>진지한 대화</DeepTalk.label>
+    <rep>
+        <path>DeepTalk.logRulesInitiator.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef](와)과 진지한 대화 나눔.</trans>
+    </rep>
+
 	<Slight.label>무시</Slight.label>
+    <rep>
+        <path>Slight.logRulesInitiator.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef](을)를 무시함.</trans>
+    </rep>
+    <rep>
+        <path>Slight.logRulesRecipient.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef]에게 무시당함.</trans>
+    </rep>
+
+	<Insult.label>모욕</Insult.label>
+    <rep>
+        <path>Insult.logRulesInitiator.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef](을)를 모욕함.</trans>
+    </rep>
+    <rep>
+        <path>Insult.logRulesRecipient.rulesStrings[0].label</path>
+        <trans>logentry->[other_nameShortIndef]에게 모욕당함.</trans>
+    </rep>
 
 </LanguageData>
