@@ -33,12 +33,12 @@
 
     <rep>
         <path>Sentence_RecruitAttemptAccepted.rulePack.rulesStrings[0]</path>
-        <trans>sent->[recipient_nameShortDef](이)가 제안을 받아들여 [initiator_nameShortDef](이)가 속한 세력의 일원이 되었습니다.</trans>
+        <trans>sent->[recipient_nameShortDef](이)가 이를 받아들여 [initiator_nameShortDef](이)가 속한 세력의 일원이 되었습니다.</trans>
     </rep>
 
     <rep>
         <path>Sentence_RecruitAttemptRejected.rulePack.rulesStrings[0]</path>
-        <trans>sent->[recipient_nameShortDef](이)가 제안을 거절했습니다.</trans>
+        <trans>sent->[recipient_nameShortDef](이)가 거부했습니다.</trans>
     </rep>
 
 </LanguageData>
