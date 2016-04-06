@@ -246,6 +246,102 @@
 		<path>ExecutedPrisoner.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[prisoner_nameShortDef]의 처형</trans>
 	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull](을)를 처형하는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull]에게 죽음을 선사하는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull]의 사형을 준비하는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[4]</path>
+		<trans>image->[circumstance_group] [prisoner_nameFull]의 숨을 끊는 [warden_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->수감자가 버둥거리는 와중에</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->수감자가 고통으로 몸을 비트는 와중에</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[7]</path>
+		<trans>circumstance_phrase->수감자가 공포에 질려 비명을 지르는 와중에</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[8]</path>
+		<trans>circumstance_phrase->숙련된 솜씨로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->어설프고 거칠게</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->과도한 힘으로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[11]</path>
+		<trans>circumstance_phrase->만족스러운 표정으로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[12]</path>
+		<trans>circumstance_phrase->정복의 미소를 지으며</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[13]</path>
+		<trans>circumstance_phrase->눈물을 머금고</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[14]</path>
+		<trans>circumstance_phrase->완벽한 무표정으로</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[15]</path>
+		<trans>circumstance_phrase->불필요한 고통을 가하며</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[16]</path>
+		<trans>circumstance_phrase->다른 생각을 하며</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[17]</path>
+		<trans>circumstance_phrase->대의를 위해</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[18]</path>
+		<trans>desc_sentence->[warden_nameShortDef]의 온 몸이 땀으로 흠뻑 젖어있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[19]</path>
+		<trans>desc_sentence->[warden_nameShortDef]의 입에서 침이 약간 흐릅니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[20]</path>
+		<trans>desc_sentence->[warden_nameShortDef]의 얼굴이 피로 얼룩져있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[21]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](이)가 온 몸을 흔들며 저항하고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[22]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](은)는 완전히 포기한 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[23]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef]의 눈은 마치 누군가에게 기도하듯 감겨있습니다.</trans>
+	</rep>
+	<rep>
+		<path>ExecutedPrisoner.rulePack.rulesStrings[24]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](은)는 [warden_nameShortDef](을)를 경계하고 있습니다.</trans>
+	</rep>
 
     <!-- ==== KidnappedColonist ==== -->
 
@@ -254,6 +350,70 @@
 		<path>KidnappedColonist.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[victim_nameShortDef]의 납치</trans>
 	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 들쳐 메고  [kidnapper_factionName] 세력으로 데려가는 [kidnapper_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 납치하는  [kidnapper_factionName]의 [kidnapper_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 납치하는  [kidnapper_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[4]</path>
+		<trans>circumstance_phrase->저항에도 불구하고</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->숙련된 솜씨로</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->어설프고 거칠게</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[7]</path>
+		<trans>circumstance_phrase->과도한 힘으로</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[8]</path>
+		<trans>circumstance_phrase->만족스러운 표정으로</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->정복의 미소를 지으며</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->피와 오물을 뒤집어쓰고</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[11]</path>
+		<trans>desc_sentence->[kidnapper_nameShortDef](은)는 완전히 포기한 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[12]</path>
+		<trans>desc_sentence->[kidnapper_nameShortDef]의 눈은 누군가에게 기도하듯 감겨 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[13]</path>
+		<trans>desc_sentence->[kidnapper_nameShortDef](은)는 반항하고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[14]</path>
+		<trans>desc_sentence->[kidnapper_nameShortDef](은)는 분노와 공포로 소리치고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[15]</path>
+		<trans>desc_sentence->[kidnapper_nameShortDef](은)는 지친 채 좌절한 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>KidnappedColonist.rulePack.rulesStrings[16]</path>
+		<trans>desc_sentence->[kidnapper_nameShortDef](이)가 입은 상처가 심각해 보입니다.</trans>
+	</rep>
 
     <!-- ==== TamedAnimal ==== -->
 
@@ -261,6 +421,58 @@
 	<rep>
 		<path>TamedAnimal.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[animal_nameShortDef]의 조련에 성공한 [human_nameShortDef]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [animal_nameFull](을)를 길들이는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [animal_nameFull]에게 음식 약간을 건네주는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] 겁 많은 [animal_nameFull]에게 속삭이는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[4]</path>
+		<trans>image->[circumstance_group] 야생 [animal_nameFull](을)를 달래는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->대단히 주의해서</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->미소지으며</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[7]</path>
+		<trans>circumstance_phrase->지쳤지만 행복해하며</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[8]</path>
+		<trans>desc_sentence->[animal_nameShortDef](은)는 으르렁댑니다.</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[9]</path>
+		<trans>desc_sentence->[animal_nameShortDef](은)는 사랑에 취한 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[10]</path>
+		<trans>desc_sentence->[animal_nameShortDef](은)는 어떤 최면에 걸린 것처럼 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[11]</path>
+		<trans>desc_sentence->[animal_nameShortDef](은)는 겁에 질렸으면서도 흥미로워하는 눈치입니다.</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[12]</path>
+		<trans>desc_sentence->[animal_nameShortDef](은)는 [human_nameShortDef]에게 매료된 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>TamedAnimal.rulePack.rulesStrings[13]</path>
+		<trans>desc_sentence->[human_nameShortDef](이)가 엄청난 사랑의 빔을 [animal_nameShortDef]에게 쏘고 있습니다.</trans>
 	</rep>
 
     <!-- ==== KilledBy ==== -->
@@ -278,6 +490,94 @@
 		<path>KilledBy.rulePack.rulesStrings[2]</path>
 		<trans>tale_noun->[killer_nameShortDef]의 죽음</trans>
 	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [killer_nameFull]에게 사살당하는 [victim_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[4]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 죽이는 [killer_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[5]</path>
+		<trans>image->[circumstance_group] [victim_nameFull]의 생명을 앗아가는 [killer_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[6]</path>
+		<trans>image->[circumstance_group] [victim_nameFull](을)를 잔인하게 살해하는 [killer_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[7]</path>
+		<trans>image->[circumstance_group] 살해당하는 [victim_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[8]</path>
+		<trans>circumstance_phrase->후회의 기색 없이</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->차가운 손길로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->분노에 찬 손길로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[11]</path>
+		<trans>circumstance_phrase->빠르고 정확한 움직임으로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[12]</path>
+		<trans>circumstance_phrase->무표정으로</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[13]</path>
+		<trans>circumstance_phrase->불가피하게</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[14]</path>
+		<trans>circumstance_phrase->겁에 질린 채 주저하며</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[15]</path>
+		<trans>desc_sentence->둘 사이의 일을 상징하듯 석양이 지고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[16]</path>
+		<trans>desc_sentence->[quantity_adjphrase] 마리의 [animal]들이 이 장면을 바라보고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[17]</path>
+		<trans>desc_sentence->한 명의 [outlander](이)가 [side_position]에서 장면을 지켜봅니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[18]</path>
+		<trans>desc_sentence->[victim_nameShortDef]의 몸에서 나온 피가 주변을 적십니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[19]</path>
+		<trans>desc_sentence->[victim_nameShortDef]의 눈은 현실처럼 차갑습니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[20]</path>
+		<trans>desc_sentence->[killer_nameShortDef](은)는 이를 갈고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[21]</path>
+		<trans>desc_sentence->[killer_nameShortDef](은)는 만족한 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[22]</path>
+		<trans>desc_sentence->[killer_nameShortDef](은)는 자신이 한 일로 인해 충격받은 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[23]</path>
+		<trans>desc_sentence->[killer_nameShortDef](은)는 상황에 만족한 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>KilledBy.rulePack.rulesStrings[24]</path>
+		<trans>desc_sentence->[killer_nameShortDef](은)는 이 상황을 즐기고 있습니다.</trans>
+	</rep>
 
     <!-- ==== SoldPrisoner ==== -->
 
@@ -286,6 +586,74 @@
 		<path>SoldPrisoner.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->노예로 팔려나간 [prisoner_nameShortDef]</trans>
 	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [seller_nameFull]에게서 [prisoner_nameFull](을)를 사가는 [trader_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [trader_nameFull]에게 [prisoner_nameFull](을)를 파는 [seller_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[3]</path>
+		<trans>circumstance_phrase->다른 정착민들의 실망의 눈길 속에서</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[4]</path>
+		<trans>circumstance_phrase->받을 돈을 계산하며</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[5]</path>
+		<trans>circumstance_phrase->수감자의 슬픈 신음과 함께</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[6]</path>
+		<trans>circumstance_phrase->수감자의 분통함과 함께</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[7]</path>
+		<trans>desc_sentence->[trader_nameShortDef](은)는 사악한 미소를 짓고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[8]</path>
+		<trans>desc_sentence->[seller_nameShortDef](은)는 미친 사람처럼 웃고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[9]</path>
+		<trans>desc_sentence->[seller_nameShortDef](은)는 마지못해 [prisoner_nameShortDef](을)를 넘겨주고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[10]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](이)가 [prisoner_possessive] 새로운 주인을 반항적으로 쳐다보고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[11]</path>
+		<trans>desc_sentence->[trader_nameShortDef](이)가 [prisoner_nameShortDef](을)를 사슬로 끌고 가는 중입니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[12]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](은)는 [seller_nameShortDef]를 쳐다보며 복수를 계획하고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[13]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](은)는 울고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[14]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](이)가 [seller_nameShortDef]의 얼굴에 침을 뱉고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[15]</path>
+		<trans>desc_sentence->[prisoner_nameShortDef](은)는 땅에 주저앉아 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[16]</path>
+		<trans>desc_sentence->[seller_nameShortDef](이)가 [trader_nameShortDef]의 손에 사슬을 쥐어 줍니다.</trans>
+	</rep>
+	<rep>
+		<path>SoldPrisoner.rulePack.rulesStrings[17]</path>
+		<trans>desc_sentence->비탄의 분위기가 장면 전체에 만연합니다.</trans>
+	</rep>
 
     <!-- ==== TrainedAnimal ==== -->
 
@@ -293,6 +661,122 @@
 	<rep>
 		<path>TrainedAnimal.rulePack.rulesStrings[0]</path>
 		<trans>tale_noun->[animal_nameShortDef]의 훈련</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[1]</path>
+		<trans>image->[circumstance_group] [animal_nameFull]에게 [trainable_label](을)를 [train_syn] [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[2]</path>
+		<trans>image->[circumstance_group] [trainable_label](을)를 [animal_nameFull]에게 가르치는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[3]</path>
+		<trans>image->[circumstance_group] [animal_nameFull](와)과 함께 [trainable_label](을)를 연습하는 [human_nameFull]</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[4]</path>
+		<trans>train_syn->알려주는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[5]</path>
+		<trans>train_syn->가르치는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[6]</path>
+		<trans>train_syn->훈련시키는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[7]</path>
+		<trans>train_syn->교육하는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[8]</path>
+		<trans>train_syn->시키는</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[9]</path>
+		<trans>circumstance_phrase->여러 시선들 속에서</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[10]</path>
+		<trans>circumstance_phrase->야생 [animal]의 이해할 수 없다는 표정 앞에서</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[11]</path>
+		<trans>circumstance_phrase->훈련받는 동물의 머리 속에서는 자신이 야생에서 더 간단한 삶을 살았던 때를 추억하는 와중에</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[12]</path>
+		<trans>circumstance_phrase->오늘 점심 메뉴를 신경쓰며</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[13]</path>
+		<trans>circumstance_phrase->다른 정착민들은 고생하면서 일하는데</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[14]</path>
+		<trans>desc_sentence->[human_nameShortDef]의 만족감을 볼 수 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[15]</path>
+		<trans>desc_sentence->[human_nameShortDef](은)는 미소 짓고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[16]</path>
+		<trans>desc_sentence->[human_nameShortDef](은)는 지루하다는 표정을 짓고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[17]</path>
+		<trans>desc_sentence->[human_nameShortDef](은)는 주먹을 위협적으로 휘두르고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[18]</path>
+		<trans>desc_sentence->집중을 많이 해서 [human_nameShortDef]의 이마에는 주름이 졌습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[19]</path>
+		<trans>desc_sentence->[animal_nameShortDef](은)는 혼란스러운 표정을 짓고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[20]</path>
+		<trans>desc_sentence->[animal_nameShortDef](은)는 무기를 물고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[21]</path>
+		<trans>desc_sentence->[animal_nameShortDef](이)가 애써 아픈 척을 해봅니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[22]</path>
+		<trans>desc_sentence->훈련 성과가 맘에 들지 않는지 [human_nameShortDef](이)가 고개를 젓습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[23]</path>
+		<trans>desc_sentence->[animal_nameShortDef]의 몸이 공포로 떨립니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[24]</path>
+		<trans>desc_sentence->[animal_nameShortDef]의 몸이 [vegetable](으)로 변하는 듯 보입니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[25]</path>
+		<trans>desc_sentence->[animal_nameShortDef]의 몸이 한 무더기의 동력 장치로 묘사되고 있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[26]</path>
+		<trans>desc_sentence->[animal_nameShortDef]의 색은 [color] 반, [color] 반입니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[27]</path>
+		<trans>desc_sentence->[animal_nameShortDef]의 몸이 비늘로 덮여있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[28]</path>
+		<trans>desc_sentence->[human_nameShortDef]의 몸에서 [quantity] 팔이 솟아있습니다.</trans>
+	</rep>
+	<rep>
+		<path>TrainedAnimal.rulePack.rulesStrings[29]</path>
+		<trans>desc_sentence->[human_nameShortDef](이)가 [animal_nameShortDef](으)로 변화하고 있습니다.</trans>
 	</rep>
 
     <!-- ==== ETC ==== -->
