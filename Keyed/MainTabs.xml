@@ -2,9 +2,9 @@
 <LanguageData>
 
     <!-- Work tab -->
-    <ManualPriorities>중요성 수동조절</ManualPriorities>
-    <HigherPriority>높은 중요성</HigherPriority>
-    <LowerPriority>낮은 중요성</LowerPriority>
+    <ManualPriorities>중요도 수동조절</ManualPriorities>
+    <HigherPriority>높은 중요도</HigherPriority>
+    <LowerPriority>낮은 중요도</LowerPriority>
     <RelevantSkills>관련 기술: {0}\n관련 기술들의 평균값: {1} / {2}</RelevantSkills>
     <ClickToJumpTo>클릭하여 이동:</ClickToJumpTo>
     <CannotDoThisWork>{0}(은)는 이 작업을 할 수 없습니다.</CannotDoThisWork>
@@ -55,5 +55,11 @@
     <Day>일</Day>
     <Value>값</Value>
     <External>외부</External>
+
+    <!-- Research tab -->
+    <ProjectTechLevel>프로젝트 기술 수준</ProjectTechLevel>
+    <YourTechLevel>당신의 기술 수준</YourTechLevel>
+    <ResearchCostMultiplier>연구비용 계수</ResearchCostMultiplier>
+    <ResearchCostComparison>프로젝트의 기본 비용 {0}이 당신의 기술 수준으로 인해 {1}이 되었습니다.</ResearchCostComparison>
 
 </LanguageData>

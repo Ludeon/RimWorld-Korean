@@ -24,6 +24,7 @@
     <NoPath>경로 없음</NoPath>
 
     <ForbiddenLower>상호작용 금지됨</ForbiddenLower>
+    <ForbiddenOutsideAllowedAreaLower>허가구역 외부</ForbiddenOutsideAllowedAreaLower>
     <SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
     <PrisonerRoomLower>감옥</PrisonerRoomLower>
     <BurningLower>불타는 중</BurningLower>
@@ -33,7 +34,8 @@
     <MissingSkill>기술이 너무 낮음</MissingSkill>
     <NoEmptyGraveLower>적절한 설정의 빈 무덤이 없음</NoEmptyGraveLower>
     <AnimalInteractedTooRecently>최근에 상호작용함</AnimalInteractedTooRecently>
-    <NoUsableFood>먹이 없음</NoUsableFood>
+    <NoUsableFood>사용 가능한 식량 없음</NoUsableFood>
+    <NoFood>식량 없음</NoFood>
     <AnimalsSkillTooLow>조련기술 낮음</AnimalsSkillTooLow>
     <NoComponentsToRepair>부품 필요</NoComponentsToRepair>
     <NoFuelToRefuel>{0} 필요</NoFuelToRefuel>
@@ -67,6 +69,8 @@
 
     <Incapable>불가능</Incapable>
     <IncapableOfCapacity>{0} 불가능</IncapableOfCapacity>
+
+    <MinSkill>최소 기술</MinSkill>
 
     <Equip>{0} 착용</Equip>
     <EquipWarningBrawler>(싸움꾼이 싫어함)</EquipWarningBrawler>
@@ -103,6 +107,7 @@
     <CannotPrioritizeIsNotA>우선시 불가 ({1}(이)가 아님)</CannotPrioritizeIsNotA>
     <CannotPrioritizeResearch>연구 우선시 불가 (장기 과제)</CannotPrioritizeResearch>
     <CannotPrioritizeForbidden>우선시 불가 ({0}의 상호작용이 금지됨)</CannotPrioritizeForbidden>
+    <CannotPrioritizeForbiddenOutsideAllowedArea>우선시 불가 (허가구역 외부)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
     <!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
     <PrioritizeGeneric>먼저 {0}: {1}</PrioritizeGeneric>

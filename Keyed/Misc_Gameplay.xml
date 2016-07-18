@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress ALL -->
 <LanguageData>
 
     <!-- Various -->
@@ -16,6 +15,7 @@
     <Unowned>주인 없음</Unowned>
     <DeadTime>{0} 전에 죽음</DeadTime>
     <WalkSpeed>보행속도 {0}</WalkSpeed>
+    <FertShort>토질</FertShort>
     <DyingLower>죽어가는 중</DyingLower>
     <FilthOnFeet>발에 있는 오물:</FilthOnFeet>
     <NotEnoughStoredLower>재고가 충분치 않음</NotEnoughStoredLower>
@@ -42,7 +42,6 @@
     <Off>끄기</Off>
     <PowerSwitch_Power>전원</PowerSwitch_Power>
     <JoyTolerances>질림</JoyTolerances>
-    <MentalStateLetterLabel>정신상태</MentalStateLetterLabel>
     <BrokenLetterLabel>무너짐</BrokenLetterLabel>
     <MilkFullness>유량</MilkFullness>
     <WoolGrowth>털</WoolGrowth>
@@ -56,6 +55,11 @@
     <BrokenDown>망가짐</BrokenDown>
     <BondBrackets>(각별)</BondBrackets>
     <Fuel>연료</Fuel>
+    <Enemies>적</Enemies>
+    <TimePassed>진행한 시간</TimePassed>
+    <CurrentRadius>현재 범위</CurrentRadius>
+    <RadiusExpandsIn>범위 확장</RadiusExpandsIn>
+    <Permanent>영구적</Permanent>
 
     <!--TextMotes-->
     <Headshot>헤드샷</Headshot>
@@ -65,15 +69,18 @@
     <TextMote_TreatSuccess>치료 성공!\n{0} 확률</TextMote_TreatSuccess>
     <TextMote_TreatFailed>치료 실패\n{0} 확률</TextMote_TreatFailed>
     <HarvestFailed>수확 실패!</HarvestFailed>
+    <TextMote_RecruitFail>포섭 실패!\n{0} 확률</TextMote_RecruitFail>
     <TextMote_TameFail>조련 실패\n{0} 확률</TextMote_TameFail>
     <TextMote_TameSuccess>길들임!\n{0} 확률</TextMote_TameSuccess>
     <TextMote_TrainFail>{0} 훈련 실패\n{1} 확률</TextMote_TrainFail>
     <TextMote_TrainSuccess>{0} 훈련 완료\n{1} 확률</TextMote_TrainSuccess>
     <TextMote_FixBrokenDownBuildingFail>수리\n실패</TextMote_FixBrokenDownBuildingFail>
+    <TextMote_ConstructionFail>건설\nfailed</TextMote_ConstructionFail>
 
     <!-- Areas -->
     <Home>주거구역</Home>
-    <NoRoof>지붕 제거</NoRoof>
+    <BuildRoof>지붕 건설</BuildRoof>
+    <NoRoof>지붕 해체</NoRoof>
     <SnowClear>제설</SnowClear>
     <AreaDefaultLabel>구역 {0}</AreaDefaultLabel>
     <AreaAnimalDefaultLabel>동물구역 {0}</AreaAnimalDefaultLabel>
@@ -112,22 +119,29 @@
     <WatchingSunset>일몰을 보는 중</WatchingSunset>
     <Stargazing>별을 구경하는 중</Stargazing>
     <WatchingEclipse>일식을 구경하는 중</WatchingEclipse>
-    <DeliveringFood>{0}에게 음식 운반 중.</DeliveringFood>
     <UsingVerb>{1}에 {0} 사용 중.</UsingVerb>
     <AreaLower>구역</AreaLower>
     <ReportCowering>겁에 질림.</ReportCowering>
+    <ReportStanding>서서 있음.</ReportStanding>
+    <ReportExtinguishingFire>불 끄는 중.</ReportExtinguishingFire>
+    <ReportExtinguishingFireOn>{0}에 붙은 불 끄는 중.</ReportExtinguishingFireOn>
+
+    <!-- Lord job reports -->
+    <LordReportAttendingMarriageCeremony>결혼식 참여 중</LordReportAttendingMarriageCeremony>
+    <LordReportAttendingParty>파티 참여 중</LordReportAttendingParty>
 
     <!-- Shooting report -->
     <WeaponMissRadius>무기 탄착 범위</WeaponMissRadius>
     <ShootReportShooterAbility>사수</ShootReportShooterAbility>
     <ShootReportWeapon>무기</ShootReportWeapon>
     <Darkness>어두움</Darkness>
-    <TargetProne>대상 웅크림</TargetProne>
+    <TargetProne>대상 누워있음</TargetProne>
     <TargetSize>대상 크기</TargetSize>
     <Weather>날씨</Weather>
     <ShootingCover>엄폐</ShootingCover>
     <CoverThingBlocksPercentOfShots>{0}(이)가 {1}만큼 방어</CoverThingBlocksPercentOfShots>
     <NoCoverLower>엄폐하지 않음</NoCoverLower>
+    <Execution>처형</Execution>
 
     <!-- Generated recipes -->
     <RecipeMake>{0} 만들기</RecipeMake>
@@ -137,8 +151,9 @@
     <ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
     <ThoughtStartsExpiringIn>{0} 후에 만료 시작</ThoughtStartsExpiringIn>
     <ThoughtFinishesExpiringIn>에 만료 마감: {0}</ThoughtFinishesExpiringIn>
-    <MentalBreakThresholdHard>심각한 정신이상 임계값</MentalBreakThresholdHard>
-    <MentalBreakThresholdSoft>부분적 정신이상 임계값</MentalBreakThresholdSoft>
+    <MentalBreakThresholdExtreme>위험한 정신이상 임계치</MentalBreakThresholdExtreme>
+    <MentalBreakThresholdMajor>심각한 정신이상 임계치</MentalBreakThresholdMajor>
+    <MentalBreakThresholdMinor>사소한 정신이상 임계치</MentalBreakThresholdMinor>
 
     <!-- Pawn info readout -->
     <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
@@ -192,14 +207,6 @@
     <ShotBy>{0}의 사격</ShotBy>
     <CannotHit>공격 불가능</CannotHit>
 
-    <!-- Storage priority labels -->
-    <StoragePriorityUnstored>비활성화</StoragePriorityUnstored>
-    <StoragePriorityLow>낮음</StoragePriorityLow>
-    <StoragePriorityNormal>보통</StoragePriorityNormal>
-    <StoragePriorityPreferred>선호</StoragePriorityPreferred>
-    <StoragePriorityImportant>중요</StoragePriorityImportant>
-    <StoragePriorityCritical>매우 중요</StoragePriorityCritical>
-
     <!-- Rotting -->
     <CurrentlyFrozen>냉동 (부패하지 않음)</CurrentlyFrozen>
     <CurrentlyRefrigerated>냉장 ({0}간 보관 가능)</CurrentlyRefrigerated>
@@ -215,8 +222,8 @@
     <FullyGrownIn>{0} 후 완전히 성장</FullyGrownIn>
     <PlantNeedsLightLevel>빛 필요</PlantNeedsLightLevel>
     <PlantResting>휴식 중</PlantResting>
-    <OutOfIdealTemperatureRange>이상적인 온도에서 벗어남 (정상 속도의 {0}%만큼 성장)</OutOfIdealTemperatureRange>
-    <OutOfIdealTemperatureRangeNotGrowing>이상적인 온도에서 벗어남 (성장하지 않음)</OutOfIdealTemperatureRangeNotGrowing>
+    <OutOfIdealTemperatureRange>이상적인 온도가 아님. 온도로 인한 성장 페널티: {0}%</OutOfIdealTemperatureRange>
+    <OutOfIdealTemperatureRangeNotGrowing>이상적인 온도가 아님. 성장하지 않음.</OutOfIdealTemperatureRangeNotGrowing>
     <ReadyToHarvest>수확 가능</ReadyToHarvest>
     <Mature>성숙</Mature>
     <SeedLabel>{0} 씨앗</SeedLabel>
@@ -247,6 +254,7 @@
     <ZoneVisibilityToggleButton>구역을 표시합니다.</ZoneVisibilityToggleButton>
     <ShowBeautyToggleButton>아름다움 수치를 표시합니다.\n\n마우스 커서가 가리키는 지점의 아름다움 수치를 확인할 수 있습니다.</ShowBeautyToggleButton>
     <ShowRoomStatsToggleButton>방의 정보를 표시합니다.\n\n마우스 커서가 가리키는 방의 정보를 확인할 수 있습니다.</ShowRoomStatsToggleButton>
+    <ShowColonistBarToggleButton>정착민 상태표시줄을 활성화합니다.\n\n화면 상단에 아이콘과 기본적인 상태를 표시합니다.</ShowColonistBarToggleButton>
     <AutoHomeAreaToggleButton>새로 건설한 건물 주변에 자동으로 주거구역을 설정합니다.</AutoHomeAreaToggleButton>
     <CategorizedResourceReadoutToggleButton>자원 개요를 분류별로 묶어 보여줍니다.</CategorizedResourceReadoutToggleButton>
     <ShowAnimalNamesToggleButton>길들인 동물의 이름 표시여부를 설정합니다.</ShowAnimalNamesToggleButton>
@@ -257,8 +265,10 @@
     <Burning>불타는 중</Burning>
     <FireSizeLower>화염 크기 {0}</FireSizeLower>
 
-    <!-- Map conditions (eclipse, solar flare, etc )-->
+    <!-- Map conditions -->
     <MapConditionsTip>특이한 현상이 이 지역에 영향을 끼치고 있습니다.</MapConditionsTip>
+    <TimeLeft>남은 시간</TimeLeft>
+    <ImpactDate>충돌 날짜</ImpactDate>
 
     <!-- Building placement -->
     <NoStuffsToBuildWith>건설에 필요한 재료가 충분하지 않습니다.</NoStuffsToBuildWith>
@@ -279,7 +289,6 @@
 
     <!-- Cryptosleep casket -->
     <CasketContains>포함</CasketContains>
-    <CasketUnknownContents>알 수 없음</CasketUnknownContents>
     <CasketWarning>경고! \n\nNAME(은)는 정착지의 마지막 정착민입니다! 만약 그 정착민이 동면장치에 들어간다면 더 이상 플레이 할 수 없습니다. 정말 진행하시겠습니까?
     </CasketWarning>
 
@@ -290,14 +299,7 @@
     <ShipReportNoFullPods>빈 동면장치</ShipReportNoFullPods>
 
     <!-- Neurotrainer -->
-    <UseNeurotrainer>{0} 신경교육장치 사용</UseNeurotrainer>
     <NeurotrainerUsed>{0}(이)가 {1} 신경교육장치를 사용하여 기술 등급이 {2}에서 {3}으로 상승했습니다.</NeurotrainerUsed>
-
-    <!-- Artifact -->
-    <UseArtifact>활성화</UseArtifact>
-
-    <!-- Firefoam popper -->
-    <TriggerFirefoamPopper>화재진압 거품 터트리기</TriggerFirefoamPopper>
 
     <!-- Minification -->
     <Installed>설치</Installed>
@@ -331,6 +333,8 @@
     <GameOverShipLaunched>우주선을 발사하였습니다! 다음 정착민들이 탈출했습니다. \n{0}\n\n다음 정착민들은 남았습니다. \n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 소행성의 얼음 아래 숨어서 이곳에 진보된 새로운 문명이 건설되기를 엄청난 세월동안 기다리기로
         결정할 지도 모릅니다. \n\n잠에서 깨어나면 알 수 있을지도.
     </GameOverShipLaunched>
+    <GameOverPlanetkillerImpact>행성 파괴자가 아광속으로 지면에 충돌하면서 수 천억 수소폭탄보다 더 강력한 폭발을 일으켰습니다. 소총에 맞은 풍선처럼, 이 세계의 녹아내린 땅이 우주로 퍼졌습니다.\n\n{0}의 일부는 이제 작은 소행성대가 되었고, 나머지는 방사선에 덮힌 채 수 킬로미터씩 진동하는 지진에 의해 요동치는 지옥으로 변했습니다.\n\n당신은 죽었습니다.
+    </GameOverPlanetkillerImpact>
     <GameOverKeepPlaying>계속 진행하기</GameOverKeepPlaying>
     <GameOverMainMenu>메인 메뉴</GameOverMainMenu>
 
@@ -349,5 +353,28 @@
     <DiseaseGrowthModeChanged_Growing>{0}의 {1}(이)가 성장하고 있습니다.</DiseaseGrowthModeChanged_Growing>
     <DiseaseGrowthModeChanged_Stable>{0}의 {1}(이)가 이제 안정 상태입니다.</DiseaseGrowthModeChanged_Stable>
     <DiseaseGrowthModeChanged_Remission>{0}의 {1}(이)가 작아지고 있습니다.</DiseaseGrowthModeChanged_Remission>
+
+    <!-- Marriage spot -->
+    <MarriageSpotUsable>사용 가능.</MarriageSpotUsable>
+    <MarriageSpotNotUsable>사용 불가능: {0}.</MarriageSpotNotUsable>
+    <MarriageSpotNotStandable>막힘</MarriageSpotNotStandable>
+    <MarriageSpotDangerous>{0}에겐 너무 위험</MarriageSpotDangerous>
+    <MarriageSpotForbidden>{0}의 상호작용이 금지됨</MarriageSpotForbidden>
+    <MarriageSpotReserved>예약됨</MarriageSpotReserved>
+    <MarriageSpotUnreachable>{0}(이)가 갈 수 없음</MarriageSpotUnreachable>
+    <MarriageSpotInPrisonCell>죄수</MarriageSpotInPrisonCell>
+    <NotEnjoyableOutsideTemperature>적정온도 밖</NotEnjoyableOutsideTemperature>
+
+    <!-- Colonist bar -->
+    <ActivityIconMedicalRest>치료</ActivityIconMedicalRest>
+    <ActivityIconSleeping>수면</ActivityIconSleeping>
+    <ActivityIconFleeing>도망</ActivityIconFleeing>
+    <ActivityIconAttacking>전투</ActivityIconAttacking>
+    <ActivityIconIdle>대기</ActivityIconIdle>
+    <ActivityIconBurning>불!</ActivityIconBurning>
+
+    <!-- Maintainable -->
+    <DueForMaintenance>점검 예정.</DueForMaintenance>
+    <DeterioratingDueToLackOfMaintenance>점검 부족으로 인해 망가지는 중.</DeterioratingDueToLackOfMaintenance>
 
 </LanguageData>
