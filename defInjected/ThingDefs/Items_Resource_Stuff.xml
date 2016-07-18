@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<!--=============== Currency ====================-->
+    <!--=============== Currency ====================-->
 
     <Silver.label>은</Silver.label>
     <Silver.description>이 금속은 주로 상품 통화로 사용됩니다. 또한 매력적인 장식을 만드는 데 사용될 수있습니다.</Silver.description>
@@ -26,7 +26,7 @@
     <Jade.label>비취</Jade.label>
     <Jade.description>매우 단단한 초록색 돌입니다. 주로 장신구에 이용합니다. 비취로 만든 근접무기는 엄청난 경도로 인해 치명적일 수 있습니다.</Jade.description>
 
-<!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
+    <!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
 
     <Cloth.label>천</Cloth.label>
     <Cloth.description>유기 섬유로 짠 옷감입니다.</Cloth.description>
@@ -41,6 +41,14 @@
     <Hyperweave.label>초경조직 천</Hyperweave.label>
     <Hyperweave.description>최첨단 나노섬유로 짠 옷감입니다. 약간 무거운 감이 있지만 놀라울 정도로 튼튼합니다. 이 섬유의 제조법은 가장 진보된 문명세계에만 알려져 있습니다.</Hyperweave.description>
     <Hyperweave.stuffProps.stuffAdjective>초경조직</Hyperweave.stuffProps.stuffAdjective>
+
+    <!--=====================================================================-->
+    <!--=============================== Wool ================================-->
+    <!--=====================================================================-->
+
+    <MegatheriumWool.label>메가테리움 털실</MegatheriumWool.label>
+    <MegatheriumWool.description>약간 거칠긴 해도 매우 튼튼하고 따듯합니다.</MegatheriumWool.description>
+    <MegatheriumWool.stuffProps.stuffAdjective>메가테리움 털</MegatheriumWool.stuffProps.stuffAdjective>
 
     <MuffaloWool.label>머팔로 털실</MuffaloWool.label>
     <MuffaloWool.description>부드럽고 가벼우면서도 뛰어난 보온성을 지녔습니다. 이 털로 만든 옷은 극단적인 상황에서도 신체를 따듯하게 유지할 수 있습니다.</MuffaloWool.description>

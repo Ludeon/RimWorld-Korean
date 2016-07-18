@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!--=================== executions and prisoner deaths ===================-->
+
+    <rep>
+        <path>KnowGuestExecuted.stages[0].label</path>
+        <trans>누군가 안락사 당함</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[0].description</path>
+        <trans>누군가 안락사 당했어. 인간적이긴 하지만 슬픈 일이야.</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[1].label</path>
+        <trans>누군가 처형됨</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[1].description</path>
+        <trans>누군가 냉혹하게 처형을 당했어. 나쁜 일인걸.</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[2].label</path>
+        <trans>누군가의 장기가 적출되어 사망함</trans>
+    </rep>
+    <rep>
+        <path>KnowGuestExecuted.stages[2].description</path>
+        <trans>정착지에서 누군가의 장기를 적출해서 그 사람이 죽었어. 끔찍해.</trans>
+    </rep>
+
+    <rep>
+        <path>KnowColonistExecuted.stages[0].label</path>
+        <trans>정착민이 안락사 당함</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[0].description</path>
+        <trans>동료가 안락사 당했어. 인간적이긴 하지만 슬픈 일이야.</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[1].label</path>
+        <trans>정착민이 처형됨</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[1].description</path>
+        <trans>동료가 냉혹하게 처형을 당했어. 나쁜 일인걸.</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[2].label</path>
+        <trans>정착민의 장기가 적출되어 사망함</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistExecuted.stages[2].description</path>
+        <trans>정착지에서 동료의 장기를 적출해서 그 사람이 죽었어. 끔찍해.</trans>
+    </rep>
+
+    <rep>
+        <path>KnowPrisonerDiedInnocent.stages[0].label</path>
+        <trans>결백한 수감자 사망</trans>
+    </rep>
+    <rep>
+        <path>KnowPrisonerDiedInnocent.stages[0].description</path>
+        <trans>수감자 한 명이 무죄임에도 불구하고 죽었어. 저들을 챙겨줄 수 있어야 해. 죽는걸 바란다고 해도 야만적으로 방치하지 말고 규칙에 맞는 처형을 해야 한다고.</trans>
+    </rep>
+
+    <rep>
+        <path>KnowColonistDied.stages[0].label</path>
+        <trans>정착민 사망</trans>
+    </rep>
+    <rep>
+        <path>KnowColonistDied.stages[0].description</path>
+        <trans>동료가 죽었어. 사람들을 챙겨줘야 해.</trans>
+    </rep>
+
+    <!--===================== bonded animal died =====================-->
+
+    <rep>
+        <path>BondedAnimalDied.stages[0].label</path>
+        <trans>친한 사이의 동물 죽음</trans>
+    </rep>
+    <rep>
+        <path>BondedAnimalDied.stages[0].description</path>
+        <trans>아아, 그런 아이를 다시는 찾을 수 없겠지. 신이시여, 왜!</trans>
+    </rep>
+
+    <!--===================== friend/rival died =====================-->
+
+    <rep>
+        <path>PawnWithGoodOpinionDied.stages[0].label</path>
+        <trans>친구 사망</trans>
+    </rep>
+    <rep>
+        <path>PawnWithGoodOpinionDied.stages[0].description</path>
+        <trans>그런 좋은 사람을 앗아가다니, 이 우주는 잘못됐어.</trans>
+    </rep>
+
+    <rep>
+        <path>PawnWithBadOpinionDied.stages[0].label</path>
+        <trans>라이벌 사망</trans>
+    </rep>
+    <rep>
+        <path>PawnWithBadOpinionDied.stages[0].description</path>
+        <trans>하, 꼴 좋군.</trans>
+    </rep>
+
+    <!--===================== Family member died thoughts =====================-->
+
+        <rep>
+            <path>MySonDied.stages[0].label</path>
+            <trans>아들 사망</trans>
+        </rep>
+        <rep>
+            <path>MySonDied.stages[0].description</path>
+            <trans>내 아들이 죽었어. 내 혈육이...</trans>
+        </rep>
+
+        <rep>
+            <path>MyDaughterDied.stages[0].label</path>
+            <trans>딸 사망</trans>
+        </rep>
+        <rep>
+            <path>MyDaughterDied.stages[0].description</path>
+            <trans>내 딸이 죽었어. 내 혈육이...</trans>
+        </rep>
+
+        <rep>
+            <path>MyHusbandDied.stages[0].label</path>
+            <trans>남편 사망</trans>
+        </rep>
+        <rep>
+            <path>MyHusbandDied.stages[0].description</path>
+            <trans>내 남편이 죽었어. 이제 혼자야.</trans>
+        </rep>
+
+        <rep>
+            <path>MyWifeDied.stages[0].label</path>
+            <trans>아내 사망</trans>
+        </rep>
+        <rep>
+            <path>MyWifeDied.stages[0].description</path>
+            <trans>내 아내가 죽었어. 이제 혼자야.</trans>
+        </rep>
+
+        <rep>
+            <path>MyFianceDied.stages[0].label</path>
+            <trans>약혼자 사망</trans>
+        </rep>
+        <rep>
+            <path>MyFianceDied.stages[0].description</path>
+            <trans>내 약혼자가 죽었어. 내 미래도 사라졌어.</trans>
+        </rep>
+
+        <rep>
+            <path>MyFianceeDied.stages[0].label</path>
+            <trans>약혼자 사망</trans>
+        </rep>
+        <rep>
+            <path>MyFianceeDied.stages[0].description</path>
+            <trans>내 약혼자가 죽었어. 내 미래도 사라졌어.</trans>
+        </rep>
+
+        <rep>
+            <path>MyLoverDied.stages[0].label</path>
+            <trans>애인 사망</trans>
+        </rep>
+        <rep>
+            <path>MyLoverDied.stages[0].description</path>
+            <trans>내 사랑이 죽었어. 너무 외로워.</trans>
+        </rep>
+
+        <rep>
+            <path>MyBrotherDied.stages[0].label</path>
+            <trans>형제(남매) 사망</trans>
+        </rep>
+        <rep>
+            <path>MyBrotherDied.stages[0].description</path>
+            <trans>가족이 죽었어. 내 혈육이...</trans>
+        </rep>
+
+        <rep>
+            <path>MySisterDied.stages[0].label</path>
+            <trans>자매(남매) 사망</trans>
+        </rep>
+        <rep>
+            <path>MySisterDied.stages[0].description</path>
+            <trans>가족이 죽었어. 내 혈육이...</trans>
+        </rep>
+
+        <rep>
+            <path>MyFatherDied.stages[0].label</path>
+            <trans>아빠 사망</trans>
+        </rep>
+        <rep>
+            <path>MyFatherDied.stages[0].description</path>
+            <trans>아빠가 죽었어. 영원히 못 보는거야.</trans>
+        </rep>
+
+        <rep>
+            <path>MyMotherDied.stages[0].label</path>
+            <trans>엄마 사망</trans>
+        </rep>
+        <rep>
+            <path>MyMotherDied.stages[0].description</path>
+            <trans>엄마가 죽었어. 영원히 못 보는거야.</trans>
+        </rep>
+
+        <rep>
+            <path>MyNieceDied.stages[0].label</path>
+            <trans>조카 사망</trans>
+        </rep>
+        <rep>
+            <path>MyNieceDied.stages[0].description</path>
+            <trans>조카가 죽었어. 정말 좋은 아이였는데.</trans>
+        </rep>
+
+        <rep>
+            <path>MyNephewDied.stages[0].label</path>
+            <trans>조카 사망</trans>
+        </rep>
+        <rep>
+            <path>MyNephewDied.stages[0].description</path>
+            <trans>조카가 죽었어. 정말 좋은 아이였는데.</trans>
+        </rep>
+
+        <rep>
+            <path>MyAuntDied.stages[0].label</path>
+            <trans>이모 사망</trans>
+        </rep>
+        <rep>
+            <path>MyAuntDied.stages[0].description</path>
+            <trans>이모가 죽었어.</trans>
+        </rep>
+
+        <rep>
+            <path>MyUncleDied.stages[0].label</path>
+            <trans>삼촌 사망</trans>
+        </rep>
+        <rep>
+            <path>MyUncleDied.stages[0].description</path>
+            <trans>삼촌이 죽었어.</trans>
+        </rep>
+
+        <rep>
+            <path>MyHalfSiblingDied.stages[0].label</path>
+            <trans>이복형제/자매(남매) 사망</trans>
+        </rep>
+        <rep>
+            <path>MyHalfSiblingDied.stages[0].description</path>
+            <trans>내 가족이 죽었어. 내 혈육이...</trans>
+        </rep>
+
+        <rep>
+            <path>MyGrandchildDied.stages[0].label</path>
+            <trans>손자 사망</trans>
+        </rep>
+        <rep>
+            <path>MyGrandchildDied.stages[0].description</path>
+            <trans>내 손자가 죽었어. 내 혈육이...</trans>
+        </rep>
+
+        <rep>
+            <path>MyGrandparentDied.stages[0].label</path>
+            <trans>조부/조모 사망</trans>
+        </rep>
+        <rep>
+            <path>MyGrandparentDied.stages[0].description</path>
+            <trans>조부모님이 돌아가셨어.</trans>
+        </rep>
+
+        <rep>
+            <path>MyCousinDied.stages[0].label</path>
+            <trans>사촌 사망</trans>
+        </rep>
+        <rep>
+            <path>MyCousinDied.stages[0].description</path>
+            <trans>내 사촌이 죽었어. 내 혈육이...</trans>
+        </rep>
+
+        <rep>
+            <path>MyKinDied.stages[0].label</path>
+            <trans>친척 사망</trans>
+        </rep>
+        <rep>
+            <path>MyKinDied.stages[0].description</path>
+            <trans>친척이 죽었어.</trans>
+        </rep>
+
+</LanguageData>
