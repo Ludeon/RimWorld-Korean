@@ -17,6 +17,14 @@
     <PriceTypeExpensive>비쌈</PriceTypeExpensive>
     <PriceTypeExorbitant>과도하게 비쌈</PriceTypeExorbitant>
 
+    <!-- Storage priority labels -->
+    <StoragePriorityUnstored>금지</StoragePriorityUnstored>
+    <StoragePriorityLow>낮음</StoragePriorityLow>
+    <StoragePriorityNormal>중간</StoragePriorityNormal>
+    <StoragePriorityPreferred>선호</StoragePriorityPreferred>
+    <StoragePriorityImportant>중요</StoragePriorityImportant>
+    <StoragePriorityCritical>필수</StoragePriorityCritical>
+
     <!-- Food type flags -->
     <FoodTypeFlags_VegetableOrFruit>과채</FoodTypeFlags_VegetableOrFruit>
     <FoodTypeFlags_Meat>날고기</FoodTypeFlags_Meat>
@@ -27,8 +35,8 @@
     <FoodTypeFlags_Tree>나무</FoodTypeFlags_Tree>
     <FoodTypeFlags_Meal>조리된 음식</FoodTypeFlags_Meal>
     <FoodTypeFlags_Processed>가공식량</FoodTypeFlags_Processed>
-    <FoodTypeFlags_NutritionalDrug>술</FoodTypeFlags_NutritionalDrug>
-    <FoodTypeFlags_AnimalKibble>사료</FoodTypeFlags_AnimalKibble>
+    <FoodTypeFlags_Liquor>주류</FoodTypeFlags_Liquor>
+    <FoodTypeFlags_Kibble>사료</FoodTypeFlags_Kibble>
 
     <!-- Quality category -->
     <QualityCategory_Awful>끔찍</QualityCategory_Awful>
@@ -40,7 +48,6 @@
     <QualityCategory_Excellent>완벽</QualityCategory_Excellent>
     <QualityCategory_Masterwork>걸작</QualityCategory_Masterwork>
     <QualityCategory_Legendary>전설적</QualityCategory_Legendary>
-
     <QualityCategoryShort_Awful>끔찍</QualityCategoryShort_Awful>
     <QualityCategoryShort_Shoddy>조잡</QualityCategoryShort_Shoddy>
     <QualityCategoryShort_Poor>빈약</QualityCategoryShort_Poor>
@@ -79,6 +86,10 @@
     <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>미리보기 파일 업로드 중</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
     <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>변경점 등록 중</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
+    <!-- Mod sources -->
+    <ContentSource_LocalFolder>로컬</ContentSource_LocalFolder>
+    <ContentSource_SteamWorkshop>워크샵</ContentSource_SteamWorkshop>
+
     <!-- Trainable intelligence -->
     <TrainableIntelligence_None>없음</TrainableIntelligence_None>
     <TrainableIntelligence_Simple>기초적</TrainableIntelligence_Simple>
@@ -101,5 +112,33 @@
     <HediffGrowthMode_Growing>악화</HediffGrowthMode_Growing>
     <HediffGrowthMode_Stable>안정</HediffGrowthMode_Stable>
     <HediffGrowthMode_Remission>호전</HediffGrowthMode_Remission>
+
+    <!-- TechLevel -->
+    <TechLevel_Animal>동물</TechLevel_Animal>
+    <TechLevel_Neolithic>원시</TechLevel_Neolithic>
+    <TechLevel_Medieval>중세</TechLevel_Medieval>
+    <TechLevel_Industrial>산업</TechLevel_Industrial>
+    <TechLevel_Spacer>우주</TechLevel_Spacer>
+    <TechLevel_Ultra>미래</TechLevel_Ultra>
+    <TechLevel_Transcendent>초월</TechLevel_Transcendent>
+
+    <!-- Player pawns arrive method -->
+    <PlayerPawnsArriveMethod_Standing>걸어서</PlayerPawnsArriveMethod_Standing>
+    <PlayerPawnsArriveMethod_DropPods>낙하기로</PlayerPawnsArriveMethod_DropPods>
+
+    <!-- Pawn generation context -->
+    <PawnGenerationContext_All>모든 캐릭터</PawnGenerationContext_All>
+    <PawnGenerationContext_PlayerStarter>플레이어 시작 캐릭터</PawnGenerationContext_PlayerStarter>
+    <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
+
+    <!-- Animal name display mode -->
+    <ShowAnimalNames>동물 이름 표시</ShowAnimalNames>
+    <AnimalNameDisplayMode_TameNamed>길들여짐 (이름 붙여진 경우만)</AnimalNameDisplayMode_TameNamed>
+    <AnimalNameDisplayMode_TameAll>길들여짐 (모두)</AnimalNameDisplayMode_TameAll>
+
+    <!-- Temperature -->
+    <Celsius>섭씨</Celsius>
+    <Fahrenheit>화씨</Fahrenheit>
+    <Kelvin>절대온도</Kelvin>
 
 </LanguageData>

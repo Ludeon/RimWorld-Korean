@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- Nonlocal injuries -->
+
+    <BloodLoss.label>출혈</BloodLoss.label>
+    <rep>
+        <path>BloodLoss.stages[0].label</path>
+        <trans>초기</trans>
+    </rep>
+    <rep>
+        <path>BloodLoss.stages[1].label</path>
+        <trans>가벼움</trans>
+    </rep>
+    <rep>
+        <path>BloodLoss.stages[2].label</path>
+        <trans>진행됨</trans>
+    </rep>
+    <rep>
+        <path>BloodLoss.stages[3].label</path>
+        <trans>심각함</trans>
+    </rep>
+    <rep>
+        <path>BloodLoss.stages[4].label</path>
+        <trans>극심함</trans>
+    </rep>
+
+    <Anesthetic.label>마취</Anesthetic.label>
+    <Concussion.label>뇌진탕</Concussion.label>
+    <PsychicShock.label>정신충격</PsychicShock.label>
+    <CryptosleepSickness.label>동면병</CryptosleepSickness.label>
+    <FoodPoisoning.label>식중독</FoodPoisoning.label>
+    <ToxicBuildup.label>중독</ToxicBuildup.label>
+    <rep>
+        <path>ToxicBuildup.stages[1].label</path>
+        <trans>초기</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[2].label</path>
+        <trans>가벼움</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[3].label</path>
+        <trans>진행됨</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[4].label</path>
+        <trans>심각함</trans>
+    </rep>
+    <rep>
+        <path>ToxicBuildup.stages[5].label</path>
+        <trans>극심함</trans>
+    </rep>
+
+    <Pregnant.label>임신</Pregnant.label>
+    <rep>
+        <path>Pregnant.comps[0].discoverLetterLabel</path>
+        <trans>{0}의 임신</trans>
+    </rep>
+    <rep>
+        <path>Pregnant.comps[0].discoverLetterText</path>
+        <trans>{0}(이)가 임신했습니다!</trans>
+    </rep>
+    <rep>
+        <path>Pregnant.stages[1].label</path>
+        <trans>중기</trans>
+    </rep>
+    <rep>
+        <path>Pregnant.stages[2].label</path>
+        <trans>만삭</trans>
+    </rep>
+
+    <HeartAttack.label>심근경색</HeartAttack.label>
+    <rep>
+        <path>HeartAttack.stages[0].label</path>
+        <trans>고통</trans>
+    </rep>
+    <rep>
+        <path>HeartAttack.stages[1].label</path>
+        <trans>쇠약</trans>
+    </rep>
+    <rep>
+        <path>HeartAttack.stages[2].label</path>
+        <trans>치명적</trans>
+    </rep>
+
+</LanguageData>

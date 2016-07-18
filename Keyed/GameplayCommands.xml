@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
     <CommandForbiddenDesc>금지 - 정착민들과의 상호작용을 금지합니다.</CommandForbiddenDesc>
     <CommandNotForbiddenDesc>허가 - 정착민들과의 상호작용을 허가합니다.</CommandNotForbiddenDesc>
 
@@ -25,6 +26,9 @@
     </CommandToggleDraftDesc>
     <IsIncapped>{0}(은)는 행동 불능 상태입니다.</IsIncapped>
 
+    <CommandClearPrioritizedWork>우선시된 작업 취소</CommandClearPrioritizedWork>
+    <CommandClearPrioritizedWorkDesc>수동으로 시킨 작업을 모두 취소하고 일상으로 되돌려 보냅니다.</CommandClearPrioritizedWorkDesc>
+
     <CommandCancelConstructionLabel>취소</CommandCancelConstructionLabel>
     <CommandCancelConstructionDesc>건설을 취소합니다.</CommandCancelConstructionDesc>
 
@@ -37,15 +41,11 @@
     <CommandGraveAssignColonistDesc>이 무덤을 특정 정착민의 소유로 만듭니다.</CommandGraveAssignColonistDesc>
     <BuildingAssign>할당</BuildingAssign>
     <BuildingUnassign>할당 해제</BuildingUnassign>
-    <CommandBedSetForPrisonersLabel>수감자 전용으로 변경</CommandBedSetForPrisonersLabel>
-    <CommandBedSetForPrisonersDesc>방 안에 존재하는 모든 침대를 수감자 전용으로 변경합니다</CommandBedSetForPrisonersDesc>
+    <CommandBedSetForPrisonersLabel>수감자 전용</CommandBedSetForPrisonersLabel>
+    <CommandBedSetForPrisonersDesc>이 방의 침대가 수감자 전용인지 정합니다.</CommandBedSetForPrisonersDesc>
     <CommandBedSetForPrisonersFailOutdoors>야외에 배치된 침대는 수감자 전용으로 사용할 수 없습니다.</CommandBedSetForPrisonersFailOutdoors>
-    <CommandBedSetForColonistsLabel>정착민 전용으로 변경</CommandBedSetForColonistsLabel>
-    <CommandBedSetForColonistsDesc>방 안에 존재하는 모든 침대를 정착민 전용으로 변경합니다.</CommandBedSetForColonistsDesc>
-    <CommandBedSetAsMedicalLabel>의료용 침대로 설정</CommandBedSetAsMedicalLabel>
-    <CommandBedSetAsMedicalDesc>침대를 의료용으로 할당합니다.</CommandBedSetAsMedicalDesc>
-    <CommandBedSetAsNonMedicalLabel>비의료용 침대로 설정</CommandBedSetAsNonMedicalLabel>
-    <CommandBedSetAsNonMedicalDesc>침대를 일반 침대로 되돌립니다.</CommandBedSetAsNonMedicalDesc>
+    <CommandBedSetAsMedicalLabel>의료용</CommandBedSetAsMedicalLabel>
+    <CommandBedSetAsMedicalDesc>이 침대가 의료용인지 정합니다.</CommandBedSetAsMedicalDesc>
     <TurningOnPrisonerBedWarning>정착민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 수감자 전용 침대가 있는 방은 감옥으로 사용됩니다. \n\n아래 정착민들은 사용하던 침대의 소유권을 잃게 됩니다.
     </TurningOnPrisonerBedWarning>
     <TurningOffPrisonerBedWarning>정착민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 정착민 전용 침대가 있는 방은 감옥으로 사용 되지 않습니다. \n\n아래 수감자들은 사용하던 침대의 소유권을 잃게 됩니다.
@@ -131,5 +131,14 @@
     <!-- Squad attack -->
     <CommandSquadAttack>공격</CommandSquadAttack>
     <CommandSquadAttackDesc>선택된 정착민들이 대상을 공격하게 합니다.</CommandSquadAttackDesc>
+
+    <!-- Hold fire -->
+    <CommandHoldFire>사격 중지</CommandHoldFire>
+    <CommandHoldFireDesc>모든 공격을 중단합니다.</CommandHoldFireDesc>
+
+    <!-- Select plant to grow -->
+    <CommandSelectPlantToGrowMulti>재배할 식물</CommandSelectPlantToGrowMulti>
+    <CommandSelectPlantToGrow>{0} 심기</CommandSelectPlantToGrow>
+    <CommandSelectPlantToGrowDesc>어느 식물을 심을지 정합니다.</CommandSelectPlantToGrowDesc>
 
 </LanguageData>

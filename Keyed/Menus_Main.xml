@@ -4,8 +4,10 @@
     <CreateWorld>세계 생성</CreateWorld>
     <NewColony>새로운 정착지</NewColony>
     <BackToGame>게임으로 돌아가기</BackToGame>
+    <ReviewScenario>시나리오 확인</ReviewScenario>
+
     <Save>저장</Save>
-    <Load>불러오기</Load>
+    <LoadGame>불러오기</LoadGame>
     <Options>환경설정</Options>
     <Mods>모드</Mods>
     <Credits>제작자</Credits>
@@ -45,7 +47,7 @@
     <!--=========== World generator =========-->
     <GenerateWorld>세계 생성</GenerateWorld>
 
-    <!--=========== Mods screen ==========-->
+    <!--=========== Mods config ==========-->
     <OpenSteamWorkshop>스팀 창작마당 열기</OpenSteamWorkshop>
     <GetModsFromForum>포럼에서 모드 찾기</GetModsFromForum>
     <OpenModsDataFolder>모드 폴더 열기</OpenModsDataFolder>
@@ -60,9 +62,32 @@
     <UpdateOnSteamWorkshop>스탐 창작마당에 업데이트</UpdateOnSteamWorkshop>
     <UploadAlreadyInProgress>이미 올리는 중입니다.</UploadAlreadyInProgress>
     <WorkshopSubmissionFailed>창작마당에 올리지 못했습니다.\n\n사유: {0}</WorkshopSubmissionFailed>
-    <YouAgreeToSteamWorkshopLegal>모드를 올림과 함께 스팀 창작마당 서비스 약관에 동의한 것으로 간주됩니다. 여기를 클릭해 더 알아보세요.</YouAgreeToSteamWorkshopLegal>
     <WorkshopUploadSucceeded>{0}(을)를 성공적으로 업로드 했습니다.</WorkshopUploadSucceeded>
-    <DownloadingMod>{0} 다운로드 중</DownloadingMod>
+    <Downloading>내려받는 중</Downloading>
+    <Source>출처</Source>
+    <ModTargetVersion>버전 {0}</ModTargetVersion>
+    <ModNotMadeForThisVersion>모드 버전이 현재 게임 버전과 맞지 않습니다. 문제가 발생할 수 있습니다.</ModNotMadeForThisVersion>
+    <MessageModNeedsWellFormattedTargetVersion>About.xml에서 정확한 버전 정보를 찾을 수 없습니다. 예시: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+
+    <!--=========== Select scenario =============-->
+    <ChooseScenario>시나리오 선택</ChooseScenario>
+    <ScenariosCustom>설정</ScenariosCustom>
+    <ScenariosSteamWorkshop>스팀 워크샵</ScenariosSteamWorkshop>
+    <ScenarioEditor>시나리오 편집기</ScenarioEditor>
+    <Delete>삭제</Delete>
+
+    <!--============ Scenario editor ===============-->
+    <Seed>시드 값</Seed>
+    <Load>불러오기</Load>
+    <EditMode>편집 모드</EditMode>
+    <Summary>줄거리</Summary>
+    <AddPart>파트 추가</AddPart>
+    <TextFieldsMustBeFilled>모든 텍스트 필드를 채워야 합니다.</TextFieldsMustBeFilled>
+    <ConfirmSteamWorkshopUpload>정말 스팀 워크샵에 올릴까요?\n\nSteam Workshop TOS에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+    <ConfirmContentAuthor>스스로 제작한 것만 올릴 수 있습니다.\n\n직접 만드셨나요?</ConfirmContentAuthor>
+    <Incompatible>호환되지 않음</Incompatible>
+    <TooMany>너무 많음 (최대 {0}): </TooMany>
+    <CanBeUpdatedOnWorkshop>제작자로써 워크샵 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
 
     <!--=========== Storyteller chooser ==========-->
     <ChooseAIStoryteller>이야기꾼의 인공지능 선택</ChooseAIStoryteller>
@@ -91,8 +116,8 @@
     <Elevation>고도</Elevation>
     <Fertility>비옥도</Fertility>
     <AvgTemp>평균기온</AvgTemp>
-    <AvgJanTemp>평균기온 (1월): {0}</AvgJanTemp>
-    <AvgJulTemp>평균기온 (7월): {0}</AvgJulTemp>
+    <AvgJanTemp>평균기온 (겨울): {0}</AvgJanTemp>
+    <AvgJulTemp>평균기온 (여름): {0}</AvgJulTemp>
     <Rainfall>강수량</Rainfall>
     <HasCoast0>북부 해안</HasCoast0>
     <HasCoast1>동부 해안</HasCoast1>

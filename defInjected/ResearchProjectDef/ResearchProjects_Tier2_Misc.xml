@@ -1,43 +1,56 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!--=============================== Tier 2 Misc ===================================-->
+    <!--================================ Tier 2: Basic electricity ====================================-->
 
-    <Firefoam.label>화재진압 거품 발포기</Firefoam.label>
-    <Firefoam.description>접근하는 화염에 반응하여 불연성 거품을 퍼뜨리는 발포기를 건설할 수 있습니다.</Firefoam.description>
+    <Batteries.label>축전지</Batteries.label>
+    <Batteries.description>전기를 보관할 수 있는 축전지를 만들 수 있습니다.</Batteries.description>
 
-    <GeothermalPower.label>지열 발전기</GeothermalPower.label>
-    <GeothermalPower.description>지속적으로 전기를 생산하는 지열 발전기를 간헐천 위에 건설할 수 있습니다.</GeothermalPower.description>
+    <NutrientPaste.label>영양죽</NutrientPaste.label>
+    <NutrientPaste.description>날것에서 효율적으로 양분을 추춣하는 배급기를 만들 수 있습니다.</NutrientPaste.description>
 
-    <HospitalBed.label>병동 침대</HospitalBed.label>
-    <HospitalBed.description>성공적인 치료의 확률을 높히는 병동 침대를 만들 수 있습니다.</HospitalBed.description>
+    <SolarPanels.label>태양광 발전기</SolarPanels.label>
+    <SolarPanels.description>태양광 발전기를 지을 수 있습니다.</SolarPanels.description>
 
-    <MultiAnalyzer.label>복합 분석기</MultiAnalyzer.label>
-    <MultiAnalyzer.description>근처 연구 작업대의 효율을 높여주고, 고급 연구과제의 진행에 필요한 복합 분석기를 만들 수 있습니다.</MultiAnalyzer.description>
+    <AirConditioning.label>온도 조절</AirConditioning.label>
+    <AirConditioning.description>온도 조절 장치로 방의 온도를 조절할 수 있습니다.</AirConditioning.description>
 
-    <!--=============================== Tier 2.5 Misc ===================================-->
+    <Autodoors.label>자동문</Autodoors.label>
+    <Autodoors.description>보행자를 방해하지 않고 자동으로 열리는 문을 지을 수 있습니다.</Autodoors.description>
 
-    <VitalsMonitor.label>생체신호 모니터</VitalsMonitor.label>
-    <VitalsMonitor.description>근처 병동 침대의 효율을 높여주는 생체신호 모니터를 만들 수 있습니다.</VitalsMonitor.description>
+    <Hydroponics.label>수경 재배</Hydroponics.label>
+    <Hydroponics.description>전기를 소모하지만 작물을 더 빠르게 재배하는 수경 재배기를 건설할 수 있습니다.</Hydroponics.description>
 
-    <Cryptosleep.label>동면장치</Cryptosleep.label>
-    <Cryptosleep.description>들어간 정착민의 모든 생체작용을 멈추는 동면장치를 만들 수 있습니다.</Cryptosleep.description>
+    <ElectricSmelting.label>전기제철</ElectricSmelting.label>
+    <ElectricSmelting.description>전기 용광로와 전기 단조작업대를 건설할 수 있습니다.\n\n전기 단조작업대는 추가 연료를 필요로 하지 않습니다. 전기 용광로는 강력한 전자석과 뜨거운 열로 커다란 금속 파편이나 다른 물품에서 유용한 금속을 추출할 수 있습니다.</ElectricSmelting.description>
 
-    <ComponentAssembly.label>부품 조립</ComponentAssembly.label>
-    <ComponentAssembly.description>간단한 재료들로 추가 부품을 조립하는 부품 조립대를 만들 수 있습니다.</ComponentAssembly.description>
+    <ElectricCremation.label>전기 소각</ElectricCremation.label>
+    <ElectricCremation.description>필요 없는 시체를 불태우는 소각기를 건설할 수 있습니다.</ElectricCremation.description>
 
-    <PoweredArmor.label>강화갑옷</PoweredArmor.label>
-    <PoweredArmor.description>신경망 구조의 기계들과 진보된 플라스틸 재단 기술을 이용해, 강화갑옷과 강화갑옷 방탄모를 제작할 수 있습니다.</PoweredArmor.description>
+    <ColoredLights.label>컬러 조명</ColoredLights.label>
+    <ColoredLights.description>장식용으로 색을 입힌 조명을 만들 수 있습니다.</ColoredLights.description>
 
-    <ChargedShot.label>전자기탄</ChargedShot.label>
-    <ChargedShot.description>펄스 충전 에너지 투사체의 연구를 통해 전자기 소총을 제작할 수 있습니다.</ChargedShot.description>
+    <Machining.label>기계 가공</Machining.label>
+    <Machining.description>총기류를 제작하거나 파괴된 메카노이드를 유용한 금속으로 분해하는 기계 작업대를 건설할 수 있습니다.</Machining.description>
 
-    <MultibarrelWeapons.label>다중총열</MultibarrelWeapons.label>
-    <MultibarrelWeapons.description>미니건을 제작할 수 있습니다.</MultibarrelWeapons.description>
+    <Mortars.label>박격포</Mortars.label>
+    <Mortars.description>벽 너머 멀리 떨어진 적을 포격하는 박격포를 건설할 수 있습니다.</Mortars.description>
 
-    <!--
-    <LargeRockets.label>대형 로켓</LargeRockets.label>
-    <LargeRockets.description>강력한 위력을 지닌 1회용 무기인 삼단 로켓 발사기와 '최후의 날' 로켓 발사기를 제작할 수 있습니다.</LargeRockets.description>
-    -->
+    <IEDBomb.label>급조 폭발물</IEDBomb.label>
+    <IEDBomb.description>정착민들이 포탄을 이용해 급조된 폭발물 함정을 만들 수 있습니다.</IEDBomb.description>
+
+    <IEDIncendiary.label>급조 인화폭발물</IEDIncendiary.label>
+    <IEDIncendiary.description>정착민들이 포탄을 이용해 발화성 폭발물 함정을 만들 수 있습니다.</IEDIncendiary.description>
+
+    <MicroelectronicsBasics.label>미소전자공학 기초</MicroelectronicsBasics.label>
+    <MicroelectronicsBasics.description>섬세하고 복잡한 전자제품을 다루는 기초 기술입니다. 고급 연구 작업대, 통신 제어반을 건설할 수 있으며 음극선관 및 동면을 포함한 다른 연구과제들의 잠금을 해제합니다.</MicroelectronicsBasics.description>
+
+    <!--=============================== Tier 2.5 Microelectronics ===================================-->
+
+    <TubeTelevision.label>음극선관 TV</TubeTelevision.label>
+    <TubeTelevision.description>기본적인 TV를 제작할 수 있습니다.</TubeTelevision.description>
+
+    <GunTurrets.label>자동 포탑</GunTurrets.label>
+    <GunTurrets.description>자동화된 포탑을 만들 수 있습니다.</GunTurrets.description>
 
 </LanguageData>

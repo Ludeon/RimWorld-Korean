@@ -34,27 +34,28 @@
 
     <DesignatorPlan>계획</DesignatorPlan>
     <DesignatorPlanDesc>지시할 공간을 미리 계획해둡니다. 정착지 정착민들과 상호 작용이 일어나지 않으며, 공간 구상을 하거나 건설을 할 때 도움이 됩니다.</DesignatorPlanDesc>
-
     <DesignatorPlanRemove>계획 지우기</DesignatorPlanRemove>
     <DesignatorPlanRemoveDesc>계획해 두었던 공간을 지웁니다.</DesignatorPlanRemoveDesc>
 
     <DesignatorAreaHomeExpand>주거구역 설정</DesignatorAreaHomeExpand>
-    <DesignatorAreaHomeExpandDesc>정착민들은 주거구역의 범위 안에서 스스로 건물을 수리하고, 바닥을 청소하고, 화재를 진압합니다.</DesignatorAreaHomeExpandDesc>
-
+    <DesignatorAreaHomeExpandDesc>정착민들이 알아서 건물을 수리하고, 바닥을 청소하고, 화재를 진압할 곳을 정합니다.</DesignatorAreaHomeExpandDesc>
     <DesignatorAreaHomeClear>주거구역 지우기</DesignatorAreaHomeClear>
     <DesignatorAreaHomeClearDesc>주거구역을 지웁니다. 정착민들이 해당 위치에서 스스로 수리, 청소, 진화작업을 하지 않습니다.</DesignatorAreaHomeClearDesc>
 
-    <DesignatorAreaNoRoofExpand>지붕 없는 구역 설정</DesignatorAreaNoRoofExpand>
-    <DesignatorAreaNoRoofExpandDesc>지붕을 만들지 않을 구역을 설정합니다. 기존에 설치된 지붕도 제거할 수 있습니다.</DesignatorAreaNoRoofExpandDesc>
+    <DesignatorAreaBuildRoofExpand>지붕 건설 구역 설정</DesignatorAreaBuildRoofExpand>
+    <DesignatorAreaBuildRoofExpandDesc>정착민들이 지붕을 건설할 곳을 정합니다.</DesignatorAreaBuildRoofExpandDesc>
+    <DesignatorAreaBuildRoofClear>지붕 건설 구역 해제</DesignatorAreaBuildRoofClear>
+    <DesignatorAreaBuildRoofClearDesc>지붕 건설 구역을 지웁니다. 남아있는 지붕은 없어지지 않지만 정착민들이 해당 위치에 지붕을 더 이상 만들지 않습니다.</DesignatorAreaBuildRoofClearDesc>
 
-    <DesignatorAreaNoRoofClear>지붕 없는 구역 지우기</DesignatorAreaNoRoofClear>
-    <DesignatorAreaNoRoofClearDesc>지붕 없는 구역을 지웁니다. 지붕이 다시 생기며 기존에 설치된 지붕은 해체되지 않습니다.</DesignatorAreaNoRoofClearDesc>
+    <DesignatorAreaNoRoofExpand>지붕 제거 구역 설정</DesignatorAreaNoRoofExpand>
+    <DesignatorAreaNoRoofExpandDesc>정착민들이 지붕을 제거할 곳을 정합니다. (산 제외)</DesignatorAreaNoRoofExpandDesc>
+    <DesignatorAreaNoRoofClear>지붕 제거 구역 해제</DesignatorAreaNoRoofClear>
+    <DesignatorAreaNoRoofClearDesc>지붕 제거 구역을 지웁니다. 정착민들이 해당 위치에서 지붕을 해체하지 않습니다.</DesignatorAreaNoRoofClearDesc>
 
     <DesignatorAreaSnowClearExpand>제설구역 설정</DesignatorAreaSnowClearExpand>
     <DesignatorAreaSnowClearExpandDesc>정착민들이 눈을 치울 구역을 설정합니다.</DesignatorAreaSnowClearExpandDesc>
-
-    <DesignatorAreaSnowClearClear>제설구역 지우기</DesignatorAreaSnowClearClear>
-    <DesignatorAreaSnowClearClearDesc>제설구역을 지웁니다. 정착민들은 해당 지역의 눈을 치우지 않을 것입니다.</DesignatorAreaSnowClearClearDesc>
+    <DesignatorAreaSnowClearClear>제설구역 해제</DesignatorAreaSnowClearClear>
+    <DesignatorAreaSnowClearClearDesc>제설구역을 지웁니다. 정착민들이 해당 위치에서 눈을 치우지 않습니다.</DesignatorAreaSnowClearClearDesc>
 
     <DesignatorExpandAreaAllowed>허가구역 설정</DesignatorExpandAreaAllowed>
     <DesignatorExpandAreaAllowedDesc>허가구역을 새로 만들거나 확장합니다.\n\n허가구역은 각 정착민들을 등록할 수 있는 구역입니다. 등록된 정착민들은 해당 구역 밖에서 일을 하거나 욕구를 채우지 않습니다.</DesignatorExpandAreaAllowedDesc>
@@ -92,7 +93,7 @@
     <DesignatorTame>길들이기</DesignatorTame>
     <DesignatorTameDesc>야생동물을 길들입니다.</DesignatorTameDesc>
 
-<!-- Failure messages -->
+    <!-- Failure messages -->
     <UnchosenStuff>선택되지 않은 재료</UnchosenStuff>
     <TooCloseToMapEdge>맵의 가장자리와 너무 가깝습니다.</TooCloseToMapEdge>
     <OutOfBounds>범위를 벗어났습니다.</OutOfBounds>
@@ -109,11 +110,11 @@
     <SpaceAlreadyOccupied>해당 위치가 이미 사용 중입니다.</SpaceAlreadyOccupied>
     <TerrainMustBeRemovable>제거 가능한 바닥을 선택해야 합니다.</TerrainMustBeRemovable>
 
-<!-- Mouse attachments -->
+    <!-- Mouse attachments -->
     <ExpandOrCreateZone>{0}의 구역을 확장\n또는 새로운 {1} 생성</ExpandOrCreateZone>
     <CreateNewZone>새로운 {0} 생성</CreateNewZone>
 
-<!-- Desc helpers -->
+    <!-- Desc helpers -->
     <TransmitsPower>송전 가능</TransmitsPower>
 
 </LanguageData>

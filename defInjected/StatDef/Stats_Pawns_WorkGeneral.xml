@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
 	<WorkSpeedGlobal.label>전역 작업 속도</WorkSpeedGlobal.label>
@@ -21,7 +20,10 @@
 	<PlantWorkSpeed.description>식물을 심거나 수확하는 속도입니다.</PlantWorkSpeed.description>
 
 	<HarvestFailChance.label>수확 실패 확률</HarvestFailChance.label>
-	<HarvestFailChance.description>수확에 실패하여, 아무것도 얻지 못하고 식물만 파괴할 확률입니다.</HarvestFailChance.description>
+	<HarvestFailChance.description>수확에 실패하여 아무것도 얻지 못하고 식물만 파괴할 확률입니다.</HarvestFailChance.description>
+
+    <ConstructFailChance.label>건설 실패 확률</ConstructFailChance.label>
+    <ConstructFailChance.description>건설에 실패하여 시간과 자원만 날릴 확률입니다.</ConstructFailChance.description>
 
 	<FixBrokenDownBuildingFailChance.label>부품 교체 실패 확률</FixBrokenDownBuildingFailChance.label>
 	<FixBrokenDownBuildingFailChance.description>망가진 부품의 교체에 실패할 확률입니다.</FixBrokenDownBuildingFailChance.description>

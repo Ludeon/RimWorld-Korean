@@ -268,23 +268,39 @@
         <trans>빵! 빵! 빵! NAME의 사격 실력은 끔찍하지만 HE 전혀 상관하지 않습니다. 총은 훌륭하니까요!</trans>
     </rep>
 
-    <!-- ==== Prettiness ==== -->
+    <!-- ==== Beauty ==== -->
 
     <rep>
-        <path>Prettiness.degreeDatas[0].label</path>
+        <path>Beauty.degreeDatas[0].label</path>
         <trans>아름다움</trans>
     </rep>
     <rep>
-        <path>Prettiness.degreeDatas[0].description</path>
-        <trans>NAME의 외모는 특출나게 아름다워 모두가 HIM 좋아합니다.</trans>
+        <path>Beauty.degreeDatas[0].description</path>
+        <trans>NAME의 외모는 엄청나게 아름답고, 이국적이면서도 익숙한 외목구비에 강렬한 눈빛을 지녔습니다. 사람들은 HECAP가 입을 떼기도 전에 마음이 갑니다.</trans>
     </rep>
     <rep>
-        <path>Prettiness.degreeDatas[1].label</path>
+        <path>Beauty.degreeDatas[1].label</path>
+        <trans>잘생김</trans>
+    </rep>
+    <rep>
+        <path>Beauty.degreeDatas[1].description</path>
+        <trans>NAME의 얼굴은 잘생겨서 사람들이 쉽게 끌립니다.</trans>
+    </rep>
+    <rep>
+        <path>Beauty.degreeDatas[2].label</path>
         <trans>못생김</trans>
     </rep>
     <rep>
-        <path>Prettiness.degreeDatas[1].description</path>
-        <trans>NAME의 외모는 충격적일 정도로 못생겨서 다른 사람들의 접근을 밀어냅니다.</trans>
+        <path>Beauty.degreeDatas[2].description</path>
+        <trans>NAME의 얼굴은 못생긴 편으로 다른 사람들이 약간 거리를 두게 합니다.</trans>
+    </rep>
+    <rep>
+        <path>Beauty.degreeDatas[3].label</path>
+        <trans>충격적인 외모</trans>
+    </rep>
+    <rep>
+        <path>Beauty.degreeDatas[3].description</path>
+        <trans>NAME의 외모는 어찌나 못생겼는지 재능 없는 아이가 그린 그림, 포름알데히드에 담긴 기형아, 그리고 현대 미술을 섞어놓은 듯 보입니다. 다른 사람들은 HECAP에게 말을 건네며 얼굴을 바라볼 생각도 하기 힘들어 합니다.</trans>
     </rep>
 
 </LanguageData>

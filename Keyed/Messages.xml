@@ -6,6 +6,7 @@
     <MessageRaidersBeginningAssault>{1}에서 온 {0}이 공격하기 시작합니다.</MessageRaidersBeginningAssault>
     <MessageRaidersDetectedEarlyAssault>{1}에서 온 {0}이 당신을 발견하고 먼저 공격을 시작합니다.</MessageRaidersDetectedEarlyAssault>
     <MessageRaidersKidnapping>{1}에서 온 {0}이 납치할 수 있는 사람들을 데리고 떠나기로 했습니다.</MessageRaidersKidnapping>
+    <MessageRaidersStealing>{1}에서 온 {0}이 챙길 수 있는걸 챙기고 떠나기로 했습니다.</MessageRaidersStealing>
 
     <MessageRaidersLeaving>{1}에서 온 {0}이 떠나고 있습니다.</MessageRaidersLeaving>
     <MessageRaidersGivenUpLeaving>{1}에서 온 {0}이 공격을 포기하고 퇴각하기 시작합니다.</MessageRaidersGivenUpLeaving>
@@ -15,6 +16,7 @@
     <MessageFriendlyFightersLeaving>{1}에서 온 우호적인 {0}이 떠나고 있습니다.</MessageFriendlyFightersLeaving>
 
     <MessageVisitorsTakingWounded>{1}에서 온 {0}이 다친 사람을 데려가고 있습니다.</MessageVisitorsTakingWounded>
+    <MessageVisitorsTrappedLeaving>{1}에서 온 {0}이 갇혀서 땅을 파 탈출하려 합니다.</MessageVisitorsTrappedLeaving>
 
     <MessageWornApparelDeterioratedAway>{1}(이)가 입은 {0}이 완전히 해져서 아무것도 남지 않았습니다.</MessageWornApparelDeterioratedAway>
 
@@ -37,8 +39,6 @@
 
     <LetterLabelMessageRecruitSuccess>포섭</LetterLabelMessageRecruitSuccess>
     <MessageRecruitSuccess>{0}의 {1}에 대한 포섭은 성공적이었습니다. (설득확률 {2})</MessageRecruitSuccess>
-    <MessageRecruitFail>{0}의 {1}에 대한 포섭은 실패했습니다. (설득확률 {2})</MessageRecruitFail>
-    <MessageRecruitFailBecauseMood>{0}의 {1}에 대한 포섭은 실패했습니다.(수감자의 기분이 {2} 이하)</MessageRecruitFailBecauseMood>
     <MessageTameSuccess>{0}(이)가 {1}(을)를 성공적으로 길들였습니다.({2} 확률).</MessageTameSuccess>
     <MessageTameAndNameSuccess>{0}(이)가 {1}(을)를 성공적으로 길들이고({2} 확률) {3}(이)라고 이름지었습니다.</MessageTameAndNameSuccess>
 
@@ -66,6 +66,7 @@
 
     <MessageNoMedicalBeds>이용 가능한 의료 침대가 없습니다.</MessageNoMedicalBeds>
     <MessageNoAnimalBeds>이용 가능한 동물 침대가 없습니다.</MessageNoAnimalBeds>
+    <MessageTooLowMedCare>수술에는 {0} 또는 그 이상이 필요하지만, {1}의 허용 단계는 {2}입니다.</MessageTooLowMedCare>
 
     <PawnDiedBecauseOf>{1}에 의해 {0}(이)가 사망하였습니다.</PawnDiedBecauseOf>
 
@@ -94,6 +95,9 @@
 
     <MessageTraderCaravanLeaving>{0}에서 온 상인이 떠나고 있습니다.</MessageTraderCaravanLeaving>
 
+    <MessageCantSelectDeadPawn>{0}(은)는 죽었습니다.</MessageCantSelectDeadPawn>
+    <MessageCantSelectOffMapPawn>{0}(은)는 지도 밖으로 나갔습니다.</MessageCantSelectOffMapPawn>
+
     <MessageCantSelectDeadFamilyMember>{0}(은)는 사망했습니다.</MessageCantSelectDeadFamilyMember>
     <MessageCantSelectOffMapFamilyMember>{0}(은)는 지도 밖으로 떠났습니다.</MessageCantSelectOffMapFamilyMember>
 
@@ -106,7 +110,7 @@
     <MessageMarriageCeremonyAfterPartyFinished>{0}, {1}의 결혼식이 끝났습니다.</MessageMarriageCeremonyAfterPartyFinished>
 
     <MessageNewBondRelation>{0}(와)과 {1}(은)는 이제 각별한 사이입니다.</MessageNewBondRelation>
-    <MessageNewBondRelationNewName>{0}(와) {1}(은)는 이제 각별한 사이입니다. {1}의 이름은 이제 {2}입니다.</MessageNewBondRelationNewName>
+    <MessageNewBondRelationNewName>{0}(와) {1}(은)는 이제 각별한 사이입니다. HIS 이름은 이제 {2}입니다.</MessageNewBondRelationNewName>
 
     <MessageBondedAnimalMentalBreak>{1}의 죽음으로 인해 {0}의 마음이 무너져 내렸습니다.</MessageBondedAnimalMentalBreak>
     <MessageNamedBondedAnimalMentalBreak>{1}({0})의 죽음으로 인해 {0}의 마음이 무너져 내렸습니다.</MessageNamedBondedAnimalMentalBreak>
@@ -118,5 +122,12 @@
 
     <MessagePartyCalledOff>파티가 취소되었습니다.</MessagePartyCalledOff>
     <MessagePartyFinished>파티가 끝났습니다.</MessagePartyFinished>
+
+    <MessageCannotSellItemsReason>다음 이유로 인해 일부 물건을 거래할 수 없습니다:
+    </MessageCannotSellItemsReason>
+
+    <MessageConstructionFailed>{1}(이)가 {0}의 건설 중 실수했습니다. 일부 자원이 낭비되었습니다.</MessageConstructionFailed>
+
+    <MessageScreenshotSavedAs>스크린샷 저장됨: {0}</MessageScreenshotSavedAs>
 
 </LanguageData>

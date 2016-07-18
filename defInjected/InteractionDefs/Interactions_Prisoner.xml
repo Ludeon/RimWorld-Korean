@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<PrisonerFriendlyChat.label>대화</PrisonerFriendlyChat.label>
+	<BuildRapport.label>서로 알아가기</BuildRapport.label>
     <rep>
-        <path>PrisonerFriendlyChat.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef]에게 정착지의 장점 설파.</trans>
+        <path>BuildRapport.logRulesInitiator.rulesStrings[0]</path>
+        <trans>logentry->[other_nameShortIndef]에게 다가감.</trans>
     </rep>
     <rep>
-        <path>PrisonerFriendlyChat.logRulesRecipient.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef]에게서 정착지의 장점 경청.</trans>
+        <path>BuildRapport.logRulesRecipient.rulesStrings[0]</path>
+        <trans>logentry->[other_nameShortIndef]의 말을 경청.</trans>
     </rep>
 
 	<RecruitAttempt.label>포섭 시도</RecruitAttempt.label>

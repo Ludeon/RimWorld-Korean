@@ -17,11 +17,13 @@
     <EnemyRaidWalkIn>{1}에서 온 {0} 세력이 근처에 도착했습니다.</EnemyRaidWalkIn>
     <EnemyRaidEdgeDrop>{1}에서 온 {0} 세력이 낙하기를 타고 근처에 도착했습니다.</EnemyRaidEdgeDrop>
     <EnemyRaidCenterDrop>{1}에서 온 {0} 세력이 정착지 바로 위에 강하했습니다!</EnemyRaidCenterDrop>
+    <EnemyRaidLeaderPresent>{1}(은)는 {0}의 지도자입니다.</EnemyRaidLeaderPresent>
 
     <!-- Friendly raids -->
     <FriendlyRaidWalkIn>{1}에서 온 우호적인 {0} 세력이 근처에 도착했습니다.</FriendlyRaidWalkIn>
     <FriendlyRaidEdgeDrop>{1}에서 온 우호적인 {0} 세력이 가까운 곳으로 궤도강하를 했습니다.</FriendlyRaidEdgeDrop>
     <FriendlyRaidCenterDrop>{1}에서 온 우호적인 {0} 세력이 정착지의 바로 위에 착륙했습니다!</FriendlyRaidCenterDrop>
+    <FriendlyRaidLeaderPresent>{1}(은)는 {0}의 지도자입니다.</FriendlyRaidLeaderPresent>
 
     <LetterLabelRefugeePodCrash>탈출 낙하기</LetterLabelRefugeePodCrash>
     <RefugeePodCrash>탈출용 낙하기가 근처에 거칠게 불시착하는 걸 목격했습니다. \n\n만약 누군가 저 추락에서 살아남았다면 심각한 부상을 입었을 것입니다.</RefugeePodCrash>
@@ -44,12 +46,13 @@
     <GroupTravelersPassing>{0}의 여행객들이 지나가고 있습니다.</GroupTravelersPassing>
 
     <LetterLabelSingleVisitorArrives>방문객</LetterLabelSingleVisitorArrives>
-    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며, {0}입니다.{3}</SingleVisitorArrives>
+    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며, {0}입니다. {3}{4}</SingleVisitorArrives>
     <SingleVisitorArrivesTraderInfo>\n\nHE 거래할 마음이 있는 물건을 조금 가지고 있는 듯 합니다.</SingleVisitorArrivesTraderInfo>
+    <SingleVisitorArrivesLeaderInfo>\\nHE 세력의 지도자입니다.</SingleVisitorArrivesLeaderInfo>
     <LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
-    <GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다.{1}</GroupVisitorsArrive>
-    <GroupVisitorsArriveTraderInfo>\n\n그들은 거래할 마음이 있는 물건을 조금 가지고 있는 듯 합니다.</GroupVisitorsArriveTraderInfo>
-
+    <GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다. {1}{2}</GroupVisitorsArrive>
+    <GroupVisitorsArriveTraderInfo>\n\n이들은 거래할 마음이 있는 물건을 조금 가지고 있는 듯 합니다.</GroupVisitorsArriveTraderInfo>
+    <GroupVisitorsArriveLeaderInfo>\n\n이들 중 한 사람, {0}(은)는 세력의 지도자입니다.</GroupVisitorsArriveLeaderInfo>
     <VisitorsLeaving>{0}에서 온 방문자들이 떠나고 있습니다.</VisitorsLeaving>
 
     <LetterLabelWandererJoin>나그네 합류</LetterLabelWandererJoin>
@@ -116,5 +119,10 @@
     <!-- Building breaks down -->
     <LetterLabelBuildingBrokenDown>{0} 고장</LetterLabelBuildingBrokenDown>
     <LetterBuildingBrokenDown>{0}의 부품이 고장났습니다. 정착민이 다른 부품으로 교체하기 전엔 작동하지 않습니다.</LetterBuildingBrokenDown>
+
+    <!-- Ransom demand -->
+    <RansomDemand>{1}(이)가 라디오로 접촉해왔습니다. 몸값을 지불하면 정착민이었던 {0}(을)를 풀어주겠다고 합니다.\n\n{2}의 은을 요구하고 있습니다.</RansomDemand>
+    <RansomDemand_Accept>수락</RansomDemand_Accept>
+    <RansomDemand_Reject>거부</RansomDemand_Reject>
 
 </LanguageData>

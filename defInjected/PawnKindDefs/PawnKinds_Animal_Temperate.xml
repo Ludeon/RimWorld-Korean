@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
-	<Squirrel.label>다람쥐</Squirrel.label>
-	<Boomrat.label>폭탄쥐</Boomrat.label>
-	<WildBoar.label>멧돼지</WildBoar.label>
 	<Deer.label>사슴</Deer.label>
 	<Deer.labelMale>수사슴</Deer.labelMale>
 	<Deer.labelFemale>암사슴</Deer.labelFemale>
-	<Tortoise.label>거북이</Tortoise.label>
+
+    <Ibex.label>아이벡스</Ibex.label>
+    <Ibex.labelMale>수컷 아이벡스</Ibex.labelMale>
+    <Ibex.labelFemale>암컷 아이벡스</Ibex.labelFemale>
 
 	<Elk.label>엘크</Elk.label>
 	<rep>
@@ -16,12 +15,13 @@
 		<trans>새끼 엘크</trans>
 	</rep>
 
-	<Alphabeaver.label>알파비버</Alphabeaver.label>
-
-	<Thrumbo.label>트럼보</Thrumbo.label>
+	<Caribou.label>카리부</Caribou.label>
 	<rep>
-		<path>Thrumbo.lifeStages[0].label</path>
-		<trans>새끼 트럼보</trans>
+		<path>Caribou.lifeStages[0].label</path>
+		<trans>새끼 카리부</trans>
 	</rep>
+
+    <WildBoar.label>멧돼지</WildBoar.label>
+	<Tortoise.label>거북이</Tortoise.label>
 
 </LanguageData>
