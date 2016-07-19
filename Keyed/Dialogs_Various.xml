@@ -106,33 +106,33 @@
 
     <!-- Bill config -->
     <Suspended>일시 정지</Suspended>
-    <NotSuspended>작업 진행중</NotSuspended>
+    <NotSuspended>작업 진행 중</NotSuspended>
     <SuspendedAllCaps>일시 정지</SuspendedAllCaps>
     <RepeatCount>{0}번 반복</RepeatCount>
     <Forever>계속</Forever>
     <Details>상세</Details>
-    <IngredientSearchRadius>재료 범위</IngredientSearchRadius>
+    <IngredientSearchRadius>재료 탐색 범위</IngredientSearchRadius>
     <TargetCount>{0}개까지 반복 작업</TargetCount>
     <Counting>개수:</Counting>
     <Infinite>무한</Infinite>
-    <AllowedSkillRange>허용된 {0} 등급:</AllowedSkillRange>
+    <AllowedSkillRange>작업 허용되는 {0} 등급:</AllowedSkillRange>
 
-    <RecipeCannotHaveTargetCount>(이 제조법은 여러 혹은 예측 불가능한 결과로 인해 목표 작업 수를 지정할 수 없습니다.)</RecipeCannotHaveTargetCount>
+    <RecipeCannotHaveTargetCount>(이 제조법은 여러 혹은 예측 불가능한 결과로 인해 목표 수량을 지정할 수 없습니다.)</RecipeCannotHaveTargetCount>
     <WorkAmount>작업량</WorkAmount>
     <MinimumSkills>최소 요구기술:</MinimumSkills>
     <BillRequires>{0} {1} 필요</BillRequires>
-    <BillRequiresNutrition>영양가 {0} 필요</BillRequiresNutrition>
+    <BillRequiresNutrition>{0} 열량 필요</BillRequiresNutrition>
     <BillRequiresMayVary>(금과 같은 소형 재료는 필요량의 20배가 필요합니다.)</BillRequiresMayVary>
     <ThisIsSmallVolume>이 재료는 소용량 재료입니다. 소용량 재료의 한 단위는 다른 재료의 1/20이며, 같은 청사진이라도 일반 수량의 20배를 필요로 합니다.</ThisIsSmallVolume>
     <UsableIngredients>사용 할 수 있는 재료</UsableIngredients>
-    <DoXTimes>설정한 횟수까지 작업</DoXTimes>
-    <DoUntilYouHaveX>목표 수량까지 계속작업</DoUntilYouHaveX>
-    <DoForever>계속 작업</DoForever>
+    <DoXTimes>설정한 횟수 작업</DoXTimes>
+    <DoUntilYouHaveX>목표 수량까지 계속 작업</DoUntilYouHaveX>
+    <DoForever>계속 반복</DoForever>
     <CurrentlyHave>현재 개수:</CurrentlyHave>
     <BillRepeatTargetCountShort>{0}개 유지</BillRepeatTargetCountShort>
     <BillStoreMode_DropOnFloor>바닥에 내려놓기</BillStoreMode_DropOnFloor>
-    <BillStoreMode_BestStockpile>저장소로 옮기기</BillStoreMode_BestStockpile>
-    <BillStoreMode_NearestStockpileAnyPriority>가까운 저장소로 가지고 가기</BillStoreMode_NearestStockpileAnyPriority>
+    <BillStoreMode_BestStockpile>적합한 저장 구역으로 옮기기</BillStoreMode_BestStockpile>
+    <BillStoreMode_NearestStockpileAnyPriority>가장 가까운 저장 구역으로 옮기기</BillStoreMode_NearestStockpileAnyPriority>
 
     <!-- Info Card -->
     <Damage>피해량</Damage>
@@ -147,7 +147,7 @@
     <Harvestable>수확 가능</Harvestable>
     <LimitedLifespan>수명 짧음</LimitedLifespan>
     <GrowingTime>성장에 필요한 기간</GrowingTime>
-    <GrowingTimeDesc>식물은 오직 낮에만, 빛이 충분할 때 자랍니다. 이 항목은 식물이 자라는 데만 시간이 얼마나 걸리는 지 보여주며, 실제 자라는 시간은 보통 이 두 배입니다. 적정 온도를 벗어나는 환경도 자라는 시간을 늘립니다.</GrowingTimeDesc>
+    <GrowingTimeDesc>식물은 빛이 충분할 때 성장합니다. 이 항목은 식물이 자라는 순수한 시간을 보여주며, 실제 자라는 시간은 보통 이 두 배입니다. 적정 온도를 벗어나는 환경에서도 시간이 더 필요합니다.</GrowingTimeDesc>
     <Days>일</Days>
     <MinGrowingSkillToSow>재배 기술 요구치</MinGrowingSkillToSow>
     <FertilityRequirement>토질 조건</FertilityRequirement>
