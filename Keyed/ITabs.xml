@@ -57,7 +57,7 @@
     <WholeBody>전신</WholeBody>
     <DataProcessing>데이터 처리</DataProcessing>
     <Communication>통신</Communication>
-    <AffectsLower>영향있음</AffectsLower>
+    <AffectsLower>영향</AffectsLower>
     <BleedingRate>출혈량</BleedingRate>
     <HealthOverview>개요</HealthOverview>
     <MedicalOperationsShort>수술 ({0})</MedicalOperationsShort>
@@ -95,7 +95,8 @@
     <TrainingNeedsPrerequisite>선행훈련 필요: {0}</TrainingNeedsPrerequisite>
 
     <!-- Social tab -->
-    <NoRelationships>(관계 없음)</NoRelationships>
+    <!--<NoRelationships>(관계 없음)</NoRelationships>-->
+    <NoRelationships>(없음)</NoRelationships>
     <Kidnapped>납치됨</Kidnapped>
     <Slave>노예</Slave>
     <FactionLeader>세력 지도자</FactionLeader>
