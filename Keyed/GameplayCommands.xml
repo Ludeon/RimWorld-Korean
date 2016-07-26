@@ -42,10 +42,10 @@
     <BuildingAssign>할당</BuildingAssign>
     <BuildingUnassign>할당 해제</BuildingUnassign>
     <CommandBedSetForPrisonersLabel>수감자 전용</CommandBedSetForPrisonersLabel>
-    <CommandBedSetForPrisonersDesc>이 방의 침대가 수감자 전용인지 정합니다.</CommandBedSetForPrisonersDesc>
+    <CommandBedSetForPrisonersDesc>방 전체의 침대를 수감자 전용으로 정합니다.</CommandBedSetForPrisonersDesc>
     <CommandBedSetForPrisonersFailOutdoors>야외에 배치된 침대는 수감자 전용으로 사용할 수 없습니다.</CommandBedSetForPrisonersFailOutdoors>
     <CommandBedSetAsMedicalLabel>의료용</CommandBedSetAsMedicalLabel>
-    <CommandBedSetAsMedicalDesc>이 침대가 의료용인지 정합니다.</CommandBedSetAsMedicalDesc>
+    <CommandBedSetAsMedicalDesc>침대를 의료용으로 정합니다.</CommandBedSetAsMedicalDesc>
     <TurningOnPrisonerBedWarning>정착민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 수감자 전용 침대가 있는 방은 감옥으로 사용됩니다. \n\n아래 정착민들은 사용하던 침대의 소유권을 잃게 됩니다.
     </TurningOnPrisonerBedWarning>
     <TurningOffPrisonerBedWarning>정착민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 정착민 전용 침대가 있는 방은 감옥으로 사용 되지 않습니다. \n\n아래 수감자들은 사용하던 침대의 소유권을 잃게 됩니다.
@@ -56,23 +56,23 @@
     <CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
 
     <CommandRenameZoneLabel>이름 변경</CommandRenameZoneLabel>
-    <CommandRenameZoneDesc>이 구역의 이름을 변경합니다.</CommandRenameZoneDesc>
+    <CommandRenameZoneDesc>구역의 이름을 변경합니다.</CommandRenameZoneDesc>
 
     <CommandHideZoneLabel>숨기기</CommandHideZoneLabel>
     <CommandUnhideZoneLabel>보이기</CommandUnhideZoneLabel>
-    <CommandHideZoneDesc>이 구역을 지도에서 숨기거나 표시합니다.</CommandHideZoneDesc>
+    <CommandHideZoneDesc>구역을 지도에서 숨기거나 표시합니다.</CommandHideZoneDesc>
 
     <CommandDeleteZoneLabel>제거</CommandDeleteZoneLabel>
-    <CommandDeleteZoneDesc>이 구역을 제거합니다.</CommandDeleteZoneDesc>
+    <CommandDeleteZoneDesc>구역을 제거합니다.</CommandDeleteZoneDesc>
 
     <CommandCopyZoneSettingsLabel>설정 복사</CommandCopyZoneSettingsLabel>
-    <CommandCopyZoneSettingsDesc>다른 구역에 적용할 수 있도록 이 구역의 설정을 복사합니다.</CommandCopyZoneSettingsDesc>
+    <CommandCopyZoneSettingsDesc>다른 구역에 적용할 수 있도록 설정을 복사합니다.</CommandCopyZoneSettingsDesc>
 
     <CommandPasteZoneSettingsLabel>설정 붙여넣기</CommandPasteZoneSettingsLabel>
-    <CommandPasteZoneSettingsDesc>이 구역의 설정을 복사한 설정으로 덮어씁니다.</CommandPasteZoneSettingsDesc>
+    <CommandPasteZoneSettingsDesc>구역의 설정을 복사한 설정으로 덮어씁니다.</CommandPasteZoneSettingsDesc>
 
     <CommandAllowSow>재배 허용</CommandAllowSow>
-    <CommandAllowSowDesc>비활성화된 경우 정착민들은 이 구역에 식물을 심지 않습니다. 수확은 가능합니다.</CommandAllowSowDesc>
+    <CommandAllowSowDesc>비활성화된 경우 정착민들이 식물을 더 심지 않습니다. 수확은 가능합니다.</CommandAllowSowDesc>
 
     <!-- Artillery -->
     <CommandSetForceAttackTarget>강제 사격 지점 설정</CommandSetForceAttackTarget>
@@ -113,11 +113,11 @@
     <CommandLowerTempDesc>설정된 온도를 감소시킵니다.</CommandLowerTempDesc>
 
     <!-- Trade beacon -->
-    <CommandMakeBeaconStockpileDesc>이 송신기의 범위만큼 정확히 저장구역을 설정합니다.</CommandMakeBeaconStockpileDesc>
+    <CommandMakeBeaconStockpileDesc>송신기의 범위만큼 정확히 저장구역을 설정합니다.</CommandMakeBeaconStockpileDesc>
     <CommandMakeBeaconStockpileLabel>저장구역 생성</CommandMakeBeaconStockpileLabel>
 
     <!-- Sun lamp -->
-    <CommandSunLampMakeGrowingZoneDesc>이 조명의 범위만큼 정확히 재배구역을 설정합니다.</CommandSunLampMakeGrowingZoneDesc>
+    <CommandSunLampMakeGrowingZoneDesc>조명의 범위만큼 정확히 재배구역을 설정합니다.</CommandSunLampMakeGrowingZoneDesc>
     <CommandSunLampMakeGrowingZoneLabel>재배구역 생성</CommandSunLampMakeGrowingZoneLabel>
 
     <!-- Trap -->
@@ -133,8 +133,8 @@
     <CommandSquadAttackDesc>선택된 정착민들이 대상을 공격하게 합니다.</CommandSquadAttackDesc>
 
     <!-- Hold fire -->
-    <CommandHoldFire>사격 중지</CommandHoldFire>
-    <CommandHoldFireDesc>모든 공격을 중단합니다.</CommandHoldFireDesc>
+    <CommandHoldFire>사격 금지</CommandHoldFire>
+    <CommandHoldFireDesc>모든 공격을 강제로 중단합니다.</CommandHoldFireDesc>
 
     <!-- Select plant to grow -->
     <CommandSelectPlantToGrowMulti>재배할 식물</CommandSelectPlantToGrowMulti>
