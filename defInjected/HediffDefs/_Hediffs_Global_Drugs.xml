@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!--================= Alcohol_Beer.xml =================-->
+
+    <Alcohol.label>alcohol</Alcohol.label>
+    <rep>
+        <path>Alcohol.stages[1].label</path>
+        <trans>warm</trans>
+    </rep>
+    <rep>
+        <path>Alcohol.stages[2].label</path>
+        <trans>tipsy</trans>
+    </rep>
+    <rep>
+        <path>Alcohol.stages[3].label</path>
+        <trans>drunk</trans>
+    </rep>
+    <rep>
+        <path>Alcohol.stages[4].label</path>
+        <trans>hammered</trans>
+    </rep>
+    <rep>
+        <path>Alcohol.stages[5].label</path>
+        <trans>blackout</trans>
+    </rep>
+
+    <Hangover.label>hangover</Hangover.label>
+    <rep>
+        <path>Hangover.stages[0].label</path>
+        <trans>slight</trans>
+    </rep>
+    <rep>
+        <path>Hangover.stages[1].label</path>
+        <trans>strong</trans>
+    </rep>
+    <rep>
+        <path>Hangover.stages[2].label</path>
+        <trans>pounding</trans>
+    </rep>
+
+    <AlcoholAddiction.label>alcohol addiction</AlcoholAddiction.label>
+    <rep>
+        <path>AlcoholAddiction.stages[1].label</path>
+        <trans>withdrawal</trans>
+    </rep>
+
+    <!--================= Amphetamine.xml =================-->
+
+    <HighOnAmphetamine.label>high on amphetamine</HighOnAmphetamine.label>
+
+    <AmphetamineAddiction.label>amphetamine addiction</AmphetamineAddiction.label>
+    <rep>
+        <path>AmphetamineAddiction.stages[1].label</path>
+        <trans>withdrawal</trans>
+    </rep>
+
+    <!--================= Cannabis.xml =================-->
+
+    <HighOnCannabis.label>high on cannabis</HighOnCannabis.label>
+
+    <CannabisAddiction.label>cannabis dependence</CannabisAddiction.label>
+    <rep>
+        <path>CannabisAddiction.stages[1].label</path>
+        <trans>withdrawal</trans>
+    </rep>
+
+    <!--================= Cocaine_Crack.xml =================-->
+
+    <HighOnCrack.label>high on crack</HighOnCrack.label>
+
+    <!--================= Cocaine_Yayo.xml =================-->
+
+    <HighOnYayo.label>high on yayo</HighOnYayo.label>
+
+    <CocaineAddiction.label>cocaine addiction</CocaineAddiction.label>
+    <rep>
+        <path>CocaineAddiction.stages[1].label</path>
+        <trans>withdrawal</trans>
+    </rep>
+
+    <!--================= GoJuice.xml =================-->
+
+    <HighOnGoJuice.label>high on go-juice</HighOnGoJuice.label>
+
+    <GoJuiceAddiction.label>go-juice addiction</GoJuiceAddiction.label>
+    <rep>
+        <path>GoJuiceAddiction.stages[1].label</path>
+        <trans>withdrawal</trans>
+    </rep>
+
+    <!--================= MalariBlock.xml =================-->
+
+    <MalariBlock.label>malari-block</MalariBlock.label>
+
+</LanguageData>

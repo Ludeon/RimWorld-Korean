@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!--================= Alcohol_Beer.xml =================-->
+
+    <rep>
+        <path>Inebriated.stages[1].label</path>
+        <trans>Inebriated (warm)</trans>
+    </rep>
+    <rep>
+        <path>Inebriated.stages[1].description</path>
+        <trans>I just feel a bit more relaxed after that drink. That's good.</trans>
+    </rep>
+    <rep>
+        <path>Inebriated.stages[2].label</path>
+        <trans>Inebriated (tipsy)</trans>
+    </rep>
+    <rep>
+        <path>Inebriated.stages[2].description</path>
+        <trans>I'm a bit wobbly! And this is quite enjoyable.</trans>
+    </rep>
+    <rep>
+        <path>Inebriated.stages[3].label</path>
+        <trans>Inebriated (drunk)</trans>
+    </rep>
+    <rep>
+        <path>Inebriated.stages[3].description</path>
+        <trans>I feel so uninhibited and unafraid! This is a great time!</trans>
+    </rep>
+    <rep>
+        <path>Inebriated.stages[4].label</path>
+        <trans>Inebriated (hammered)</trans>
+    </rep>
+    <rep>
+        <path>Inebriated.stages[4].description</path>
+        <trans>Wooo! What is going on?</trans>
+    </rep>
+
+    <rep>
+        <path>Hungover.stages[0].label</path>
+        <trans>Hungover (slight)</trans>
+    </rep>
+    <rep>
+        <path>Hungover.stages[0].description</path>
+        <trans>The headache is almost gone.</trans>
+    </rep>
+    <rep>
+        <path>Hungover.stages[1].label</path>
+        <trans>Hungover (strong)</trans>
+    </rep>
+    <rep>
+        <path>Hungover.stages[1].description</path>
+        <trans>My head hurts from all that liquor.</trans>
+    </rep>
+    <rep>
+        <path>Hungover.stages[2].label</path>
+        <trans>Hungover (pounding)</trans>
+    </rep>
+    <rep>
+        <path>Hungover.stages[2].description</path>
+        <trans>It feels like a gaggle of geese are pecking at my skull.</trans>
+    </rep>
+
+    <rep>
+        <path>AlcoholWithdrawal.stages[1].label</path>
+        <trans>alcohol withdrawal</trans>
+    </rep>
+    <rep>
+        <path>AlcoholWithdrawal.stages[1].description</path>
+        <trans>Feeling shaky. Everything pisses me off. I keep thinking of drinking.</trans>
+    </rep>
+
+    <!--================= Amphetamine.xml =================-->
+
+    <rep>
+        <path>AmphetamineWithdrawal.stages[1].label</path>
+        <trans>amphetamine withdrawal</trans>
+    </rep>
+    <rep>
+        <path>AmphetamineWithdrawal.stages[1].description</path>
+        <trans>I feel all fuzzy and unfocused.</trans>
+    </rep>
+
+    <!--================= Cannabis.xml =================-->
+
+    <rep>
+        <path>HighOnCannabis.stages[0].label</path>
+        <trans>high on cannabis</trans>
+    </rep>
+    <rep>
+        <path>HighOnCannabis.stages[0].description</path>
+        <trans>I'm, like, stoned, man.</trans>
+    </rep>
+
+    <rep>
+        <path>CannabisWithdrawal.stages[1].label</path>
+        <trans>cannabis withdrawal</trans>
+    </rep>
+    <rep>
+        <path>CannabisWithdrawal.stages[1].description</path>
+        <trans>I really wish I could smoke.</trans>
+    </rep>
+
+    <!--================= Cocaine_Crack.xml =================-->
+
+    <rep>
+        <path>HighOnCrack.stages[0].label</path>
+        <trans>high on crack</trans>
+    </rep>
+    <rep>
+        <path>HighOnCrack.stages[0].description</path>
+        <trans>So good, so good.</trans>
+    </rep>
+
+    <!--================= Cocaine_Yayo.xml =================-->
+
+    <rep>
+        <path>HighOnYayo.stages[0].label</path>
+        <trans>high on yayo</trans>
+    </rep>
+    <rep>
+        <path>HighOnYayo.stages[0].description</path>
+        <trans>Feeling pumped! Let's do this!</trans>
+    </rep>
+
+    <rep>
+        <path>CocaineWithdrawal.stages[1].label</path>
+        <trans>cocaine withdrawal</trans>
+    </rep>
+    <rep>
+        <path>CocaineWithdrawal.stages[1].description</path>
+        <trans>God I'm tired. And nothing feels good any more.</trans>
+    </rep>
+
+    <!--================= Cannabis.xml =================-->
+
+    <rep>
+        <path>HighOnGoJuice.stages[0].label</path>
+        <trans>high on go-juice</trans>
+    </rep>
+    <rep>
+        <path>HighOnGoJuice.stages[0].description</path>
+        <trans>Feeling pumped but calm. I am the sniper bullet in flight, ready to cut through you.</trans>
+    </rep>
+
+    <rep>
+        <path>GoJuiceWithdrawal.stages[1].label</path>
+        <trans>go-juice withdrawal</trans>
+    </rep>
+    <rep>
+        <path>GoJuiceWithdrawal.stages[1].description</path>
+        <trans>I'm all fuzzy and can't think straight. My limbs feel heavy. Why won't my eyes focus properly?</trans>
+    </rep>
+
+</LanguageData>
