@@ -61,6 +61,13 @@
     <RadiusExpandsIn>범위 확장</RadiusExpandsIn>
     <Permanent>영구적</Permanent>
 
+    <!-- Fermentation barrel -->
+    <ContainsWort>Contains {0} / {1} wort.</ContainsWort>
+    <ContainsBeer>Contains {0} / {1} beer.</ContainsBeer>
+    <Fermented>Fermented</Fermented>
+    <FermentationProgress>Progress: {0} (finished in about {1}).</FermentationProgress>
+    <FermentationBarrelOutOfIdealTemperature>Non-ideal temperature. Fermentation speed multiplier: {0}</FermentationBarrelOutOfIdealTemperature>
+
     <!--TextMotes-->
     <Headshot>헤드샷</Headshot>
     <TreatQuality>치료 품질 {0}</TreatQuality>
@@ -251,6 +258,7 @@
     <Undiscovered>발견되지 않움</Undiscovered>
 
     <!-- Buttons -->
+    <LearningHelperToggleButton>Toggle visibility of learning helper.\n\nThe learning helper is always visible if there is a concept activated to be learned.</LearningHelperToggleButton>
     <ZoneVisibilityToggleButton>구역을 표시합니다.</ZoneVisibilityToggleButton>
     <ShowBeautyToggleButton>미관 수치를 표시합니다.\n\n마우스 커서가 가리키는 지점의 미관 수치를 확인할 수 있습니다.</ShowBeautyToggleButton>
     <ShowRoomStatsToggleButton>방의 정보를 표시합니다.\n\n마우스 커서가 가리키는 방의 정보를 확인할 수 있습니다.</ShowRoomStatsToggleButton>
@@ -376,5 +384,15 @@
     <!-- Maintainable -->
     <DueForMaintenance>점검 예정.</DueForMaintenance>
     <DeterioratingDueToLackOfMaintenance>점검 부족으로 인해 망가지는 중.</DeterioratingDueToLackOfMaintenance>
+
+    <!-- Deep drill -->
+    <ProgressToNextLump>Progress to next lump</ProgressToNextLump>
+    <ResourceBelow>Resource below</ResourceBelow>
+
+    <!-- Learning helper -->
+    <LearningHelper>Learning helper</LearningHelper>
+    <MarkLearned>Mark as learned</MarkLearned>
+    <AlreadyLearned>Already learned</AlreadyLearned>
+    <Filter>Filter</Filter>
 
 </LanguageData>

@@ -785,4 +785,60 @@
     <KilledColonyAnimal.label>정착지 동물 사망</KilledColonyAnimal.label>
     <KilledMajorColonyEnemy.label>정착지 주적 사망</KilledMajorColonyEnemy.label>
 
+    <!-- ==== TradedWith ==== -->
+
+    <TradedWith.label>동물 훈련</TradedWith.label>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[0]</path>
+		<trans>tale_noun->a trade between [seller_fullName] and [buyer_fullName]</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[1]</path>
+		<trans>image->[buyer_nameFull] buying goods from [seller_nameFull] [circumstance_group]</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[2]</path>
+		<trans>image->[seller_nameFull] selling goods to [buyer_nameFull] [circumstance_group]</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[3]</path>
+		<trans>circumstance_phrase->with greedy intent</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[4]</path>
+		<trans>circumstance_phrase->while [seller_nameShortDef] smirks at [buyer_shortNameDef]</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[5]</path>
+		<trans>desc_sentence->[buyer_nameShortDef] is examining [seller_nameShortDef]'s wares.</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[6]</path>
+		<trans>desc_sentence->[seller_nameShortDef] considers an item.</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[7]</path>
+		<trans>desc_sentence->[seller_nameShortDef] starts haggling.</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[8]</path>
+		<trans>desc_sentence->[buyer_nameShortDef] argues with [seller_nameShortDef].</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[9]</path>
+		<trans>desc_sentence->[seller_nameShortDef] and [buyer_nameShortDef] agree on a price.</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[10]</path>
+		<trans>desc_sentence->[buyer_nameShortDef] pays for the item.</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[11]</path>
+		<trans>desc_sentence->[seller_nameShortDef] is counting [seller_possessive] money.</trans>
+	</rep>
+	<rep>
+		<path>TradedWith.rulePack.rulesStrings[12]</path>
+		<trans>desc_sentence->[buyer_nameShortDef] is taking [buyer_possessive] goods.</trans>
+	</rep>
+
 </LanguageData>

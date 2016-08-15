@@ -5,6 +5,11 @@
     <GoBack>뒤로</GoBack>
     <OK>확인</OK>
 
+    <!-- Game updated to new version -->
+    <GameUpdatedToNewVersionInitial>RimWorld has been updated from version {0} to version {1}.\n\nThis may cause saved games and mods from the old version to stop working.</GameUpdatedToNewVersionInitial>
+    <GameUpdatedToNewVersionNonSteam>Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions.</GameUpdatedToNewVersionNonSteam>
+    <GameUpdatedToNewVersionSteam>If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n 1. In the Steam library, right-click RimWorld.\n 2. Click Properties.\n 3. Click the Betas tab.\n 4. Select the version you want from the drop-down menu.\n\nOld versions will be removed from this list eventually - we just didn't want to cut off games in progress.</GameUpdatedToNewVersionSteam>
+
     <!-- Recovered from errors caused by mods -->
     <RecoveredFromErrorsDialogTitle>호환 불가 또는 손상된 모드로 인한 오류에서 복구</RecoveredFromErrorsDialogTitle>
     <RecoveredFromErrorsText>활성화된 모드 중 일부가 오류를 일으키고 있습니다.\n\n서로와 호환이 되지 않거나, 다른 버전의 림월드를 위한 모드거나, 어쩌면 손상된 모드일수도 있습니다.\n\n모든 모드가 비활성화되었으며, 모드 설정에서 다시 활성화할 수 있습니다.</RecoveredFromErrorsText>
@@ -17,6 +22,9 @@
     <ErrorWhileGeneratingMap>새로운 지도 생성 도중 오류가 발생했습니다. 더 많은 정보를 원하시면 오류 로그를 확인하십시오.</ErrorWhileGeneratingMap>
     <ErrorWhileLoadingMapTitle>지도 불러오는 중 오류 발생</ErrorWhileLoadingMapTitle>
     <ErrorWhileLoadingMap>지도를 불러오는 도중 오류가 발생했습니다. 더 많은 정보를 원하시면 오류 로그를 확인하십시오.</ErrorWhileLoadingMap>
+
+    <!-- Unloaded mod with an assembly -->
+    <ModWithAssemblyWasUnloaded>The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</ModWithAssemblyWasUnloaded>
 
     <!-- Missing Steam -->
     <SteamClientMissing>Steam API를 초기화 하지 못했습니다. 가능한 원인:\n\n-스팀이 실행 중\n-steam_appid.txt 파일 없이 스팀 외부에서 실행\n-스팀 클라이언트와 다른 권한(예: 관리자 모드로 실행)으로 실행\n\n이 버전은 스팀을 필요로 합니다. 게임이 자동으로 종료됩니다.</SteamClientMissing>
@@ -166,6 +174,8 @@
     <RecruitDifficulty>설득 난이도</RecruitDifficulty>
     <MarketValue>시장 기본가</MarketValue>
     <Covers>보호</Covers>
+    <CoverEffectiveness>Cover effectiveness</CoverEffectiveness>
+    <CoverEffectivenessExplanation>How effective this is when used as cover in a gunfight. Higher percentages will block more shots.</CoverEffectivenessExplanation>
     <BodyPartEfficiency>신체 효율성</BodyPartEfficiency>
     <MoodChange>기분 변화</MoodChange>
     <Wildness>야성</Wildness>
@@ -174,6 +184,7 @@
     <AnimalFilthRateExplanation>동물들은 건설된 바닥 위를 돌아다닐 때 오물을 생성합니다. 이 수치는 동물이 {0}칸을 걸어다녔을 때 생성되는 오물의 평균적인 양을 나타냅니다.\n\n커다랗거나 애완용으로 적절하지 않은 동물들일수록 오물을 더 많이 만듭니다.</AnimalFilthRateExplanation>
     <TimeRecordsCategory>시간</TimeRecordsCategory>
     <MiscRecordsCategory>기타</MiscRecordsCategory>
+    <Addictiveness>Addictiveness</Addictiveness>
 
     <!-- Trade -->
     <PositiveBuysNegativeSells>양수: 구매\n음수: 판매</PositiveBuysNegativeSells>
@@ -185,6 +196,7 @@
     <AcceptButton>수락</AcceptButton>
     <ResetButton>초기화</ResetButton>
     <CancelButton>취소</CancelButton>
+    <CloseButton>Close</CloseButton>
     <YourTradeableSilver>거래에 사용 가능한 은: {0}</YourTradeableSilver>
     <YourTradeableSilverTip>은을 이용하여 거래를 하려면 야외에 무역 송신기를 설치하고, 송신기의 범위 안에서 거래에 사용될 은이나 아이템들을 두어야 합니다.
     </YourTradeableSilverTip>
@@ -219,6 +231,33 @@
     <DeleteOutfit>복장 삭제...</DeleteOutfit>
     <OutfitInUse>복장이 {0}에 의해 사용 중입니다.</OutfitInUse>
     <NoOutfitSelected>복장이 선택되지 않음</NoOutfitSelected>
+
+    <!-- Drug policy management -->
+    <DrugPolicy>Drug policy</DrugPolicy>
+    <SelectDrugPolicy>Select policy...</SelectDrugPolicy>
+    <NewDrugPolicy>New policy</NewDrugPolicy>
+    <DeleteDrugPolicy>Delete policy...</DeleteDrugPolicy>
+    <DrugPolicyInUse>Drugs policy is in use by {0}.</DrugPolicyInUse>
+    <NoDrugs>No drugs</NoDrugs>
+    <OneDrinkPerDay>One drink per day</OneDrinkPerDay>
+    <NoDrugPolicySelected>No drug policy selected</NoDrugPolicySelected>
+    <AddDrug>Add drug...</AddDrug>
+    <DrugColumnLabel>Drug</DrugColumnLabel>
+    <FrequencyColumnLabel>Frequency</FrequencyColumnLabel>
+    <MoodThresholdColumnLabel>Only if mood below</MoodThresholdColumnLabel>
+    <JoyThresholdColumnLabel>Only if joy below</JoyThresholdColumnLabel>
+    <TakeToInventoryColumnLabel>Take to inventory</TakeToInventoryColumnLabel>
+    <NoDrugsBrackets>(no drugs)</NoDrugsBrackets>
+    <EveryDay>Every day</EveryDay>
+    <TimesPerDay>{0} times per day</TimesPerDay>
+    <EveryDays>Every {0} days</EveryDays>
+    <NoDrugUseRequirement>Any</NoDrugUseRequirement>
+    <DeleteDrugTooltip>Delete this drug.</DeleteDrugTooltip>
+    <DrugNameColumnDesc>The name of a drug.</DrugNameColumnDesc>
+    <FrequencyColumnDesc>How often the colonists should try to take this drug.</FrequencyColumnDesc>
+    <MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
+    <JoyThresholdColumnDesc>The colonists will take this drug only if their joy level is below this threshold.</JoyThresholdColumnDesc>
+    <TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
 
     <!-- Growing -->
     <NoGrowerCanPlant>{0}의 재배에는 최소 {1}의 재배 기술이 필요합니다.\n\n해당 기술을 가진 농부가 아무도 없으므로 식물이 심어지지 않을 것입니다.</NoGrowerCanPlant>

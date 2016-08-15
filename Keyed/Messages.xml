@@ -50,7 +50,7 @@
     <MessageMustDesignateHarvestable>충분히 자라 수확가능한 농작물을 지정해야 합니다.</MessageMustDesignateHarvestable>
     <MessageMustDesignateHarvestableWood>충분히 성장한 나무를 지정해야 벌목을 할 수 있습니다.</MessageMustDesignateHarvestableWood>
     <MessageMustDesignatePlants>식물을 지정해야 합니다.</MessageMustDesignatePlants>
-    <MessageMustDesignateHaulable>운반할 수 있는 아이템을 지정해야 합니다.</MessageMustDesignateHaulable>
+    <MessageMustDesignateHaulable>Must designate haulable items. Some items are always haulable and can't be designated.</MessageMustDesignateHaulable>
     <MessageMustDesignateMineable>채광 가능한 광석을 지정해야 합니다.</MessageMustDesignateMineable>
     <MessageMustDesignateHuntable>사냥 가능한 동물을 지정해야 합니다.</MessageMustDesignateHuntable>
     <MessageMustDesignateTameable>조련 가능한 동물을 지정해야 합니다.</MessageMustDesignateTameable>
@@ -129,5 +129,11 @@
     <MessageConstructionFailed>{1}(이)가 {0}의 건설 중 실수했습니다. 일부 자원이 낭비되었습니다.</MessageConstructionFailed>
 
     <MessageScreenshotSavedAs>스크린샷 저장됨: {0}</MessageScreenshotSavedAs>
+
+    <MessageNoLongerSocialFighting>{0} and {1} are no longer social fighting.</MessageNoLongerSocialFighting>
+
+    <MessageNoLongerBingingOnDrug>{0} is no longer binging on {1}.</MessageNoLongerBingingOnDrug>
+
+    <MessageRottedAwayInStorage>{0} has rotted away in storage.</MessageRottedAwayInStorage>
 
 </LanguageData>

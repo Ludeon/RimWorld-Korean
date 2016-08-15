@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <!--=========== Main menu ==========-->
-    <CreateWorld>세계 생성</CreateWorld>
+    <LearnToPlay>Learn to play</LearnToPlay>
     <NewColony>새로운 정착지</NewColony>
     <BackToGame>게임으로 돌아가기</BackToGame>
     <ReviewScenario>시나리오 확인</ReviewScenario>
@@ -23,6 +23,7 @@
     <TynansDesignBook>Tynan의 디자인 북</TynansDesignBook>
     <HelpTranslate>림월드 번역을 도와주세요!</HelpTranslate>
     <BuySoundtrack>사운드트랙 구입</BuySoundtrack>
+  <CreateWorld>Create world</CreateWorld>
 
     <!--=========== Create/review world ================-->
     <ReviewWorld>세계 검토</ReviewWorld>
@@ -86,7 +87,8 @@
     <ConfirmSteamWorkshopUpload>정말 스팀 워크샵에 올릴까요?\n\nSteam Workshop TOS에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
     <ConfirmContentAuthor>스스로 제작한 것만 올릴 수 있습니다.\n\n직접 만드셨나요?</ConfirmContentAuthor>
     <Incompatible>호환되지 않음</Incompatible>
-    <TooMany>너무 많음 (최대 {0}): </TooMany>
+    <TooMany>너무 많음 (최대 {0}):
+    </TooMany>
     <CanBeUpdatedOnWorkshop>제작자로써 워크샵 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
 
     <!--=========== Storyteller chooser ==========-->
@@ -102,7 +104,7 @@
     <SelectSite>위치 선택</SelectSite>
     <MustSelectLandingSite>착륙 지점을 선택해야 합니다.</MustSelectLandingSite>
     <CannotLandBiome>이 생물군계에 착륙할 수 없습니다: {0}</CannotLandBiome>
-    <WorldRenderMode>모드</WorldRenderMode>
+    <WorldRenderMode>View mode</WorldRenderMode>
     <WorldRenderModeFull>전체</WorldRenderModeFull>
     <WorldRenderModeTemperature>기온</WorldRenderModeTemperature>
     <WorldRenderModeElevation>고도</WorldRenderModeElevation>
