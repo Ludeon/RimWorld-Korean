@@ -4,7 +4,7 @@
     <ClickToJumpToProblem>클릭하여 문제가 발생한 곳으로 화면 이동</ClickToJumpToProblem>
 
     <PoorMood>기분이 좋지 않음</PoorMood>
-    <PoorMoodDesc>다음 정착민들의 기분이 좋지 않으며 부분적인 정신이상이 발생할 수 있습니다.\n\n{0}
+    <PoorMoodDesc>다음 정착민들의 기분이 좋지 않으며 정신이상이 발생할 수 있습니다.\n\n{0}
     </PoorMoodDesc>
 
     <TerribleMood>기분이 매우 좋지 않음</TerribleMood>
@@ -68,8 +68,8 @@
     <NeedMealSourceDesc>음식을 만들 수 있는 방법이 없습니다.\n\n스토브, 모닥불, 또는 영양죽 배급기를 건설하세요.\n\n(감옥에 건설할 경우 정착민들이 사용할 수 없습니다.)
     </NeedMealSourceDesc>
 
-    <NeedJoySource>Need joy source</NeedJoySource>
-    <NeedJoySourceDesc>Your colonists need to fulfill their joy need, but you haven't built any joy sources.\n\nHelp them by building a horseshoes pin, chess table, or other joy source.</NeedJoySourceDesc>
+    <NeedJoySource>오락 시설 필요</NeedJoySource>
+    <NeedJoySourceDesc>정착민들이 재미를 채울 곳이 없습니다.\n\n편자 막대, 체스 탁자 등을 만들어주세요.</NeedJoySourceDesc>
 
     <NeedBatteries>축전지 필요</NeedBatteries>
     <NeedBatteriesDesc>태양광 발전기가 있지만 축전지가 없습니다. 따라서 해가 진 후에 전기를 사용할 수 없습니다. 축전지를 한두 개 정도 제작하여 밤에도 전기를 사용할 수 있도록 하는게 좋습니다.
@@ -114,5 +114,10 @@
 
     <HunterHasShieldAndRangedWeapon>보호막을 장착한 사냥꾼이 원거리 무기 장비</HunterHasShieldAndRangedWeapon>
     <HunterHasShieldAndRangedWeaponDesc>사냥꾼 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 보호막은 원거리 무기의 사용을 막습니다.\n\n해당 사냥꾼은 보호막을 벗기 전까지 사냥하지 못합니다.</HunterHasShieldAndRangedWeaponDesc>
+
+    <NeedWarmClothes>따듯한 옷 필요</NeedWarmClothes>
+    <NeedWarmClothesDesc1>최소 {0}명의 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1>
+    <NeedWarmClothesDesc1All>모든 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1All>
+    <NeedWarmClothesDesc2>외부 온도가 곧 {0}도로 떨어집니다.\n\n따듯한 옷을 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</NeedWarmClothesDesc2>
 
 </LanguageData>
