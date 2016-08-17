@@ -50,8 +50,8 @@
     <MessageMustDesignateHarvestable>충분히 자라 수확가능한 농작물을 지정해야 합니다.</MessageMustDesignateHarvestable>
     <MessageMustDesignateHarvestableWood>충분히 성장한 나무를 지정해야 벌목을 할 수 있습니다.</MessageMustDesignateHarvestableWood>
     <MessageMustDesignatePlants>식물을 지정해야 합니다.</MessageMustDesignatePlants>
-    <MessageMustDesignateHaulable>운반할 수 있는 아이템을 지정해야 합니다.</MessageMustDesignateHaulable>
-    <MessageMustDesignateMineable>채광 가능한 광석을 지정해야 합니다.</MessageMustDesignateMineable>
+    <MessageMustDesignateHaulable>운반 가능한 물건을 지정해야 합니다. 일부 물건은 언제나 운반 가능하며 지정될 수 없습니다.</MessageMustDesignateHaulable>
+    <MessageMustDesignateMineable>채굴 가능한 광석을 지정해야 합니다.</MessageMustDesignateMineable>
     <MessageMustDesignateHuntable>사냥 가능한 동물을 지정해야 합니다.</MessageMustDesignateHuntable>
     <MessageMustDesignateTameable>조련 가능한 동물을 지정해야 합니다.</MessageMustDesignateTameable>
     <MessageMustDesignateClaimable>버려진 인공 구조물을 지정해야 합니다.</MessageMustDesignateClaimable>
@@ -129,5 +129,11 @@
     <MessageConstructionFailed>{1}(이)가 {0}의 건설 중 실수했습니다. 일부 자원이 낭비되었습니다.</MessageConstructionFailed>
 
     <MessageScreenshotSavedAs>스크린샷 저장됨: {0}</MessageScreenshotSavedAs>
+
+    <MessageNoLongerSocialFighting>{0}(와)과 {1} 사이의 싸움이 끝났습니다.</MessageNoLongerSocialFighting>
+
+    <MessageNoLongerBingingOnDrug>{0}의 {1} 갈망이 끝났습니다..</MessageNoLongerBingingOnDrug>
+
+    <MessageRottedAwayInStorage>{0}(이)가 완전히 상해서 없어졌습니다.</MessageRottedAwayInStorage>
 
 </LanguageData>

@@ -1,21 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--suppress ALL -->
 <LanguageData>
 
-	<rep>
-		<path>TradeGoodsMustBeNearBeacon.helpTexts[0]</path>
-		<trans>은이나 다른 아이템을 궤도 무역상에게 보내려면 우선 무역 송신기를 지어야 합니다. 그 뒤에, 송신기 주변에 저장구역을 설정하고 아이템을 배치하세요.</trans>
-	</rep>
+    <TradeGoodsMustBeNearBeacon.label>Trade goods and trade beacons</TradeGoodsMustBeNearBeacon.label>
+    <TradeGoodsMustBeNearBeacon.helptext>은이나 다른 아이템을 궤도 무역상에게 보내려면 우선 무역 송신기를 지어야 합니다. 그 뒤에, 송신기 주변에 저장구역을 설정하고 아이템을 배치하세요.</TradeGoodsMustBeNearBeacon.helptext>
 
-	<rep>
-		<path>ArrestingCreatesEnemies.helpTexts[0]</path>
-		<trans>경고: 당신이 구속하려 하는 그 사람은 조용히 잡히지 않을 것입니다.
-			\n\n정착민 외의 사람을 구속하려 하면 그 사람이 속한 세력은 적대적으로 변할 것입니다.</trans>
-	</rep>
+    <ArrestingCreatesEnemies.label>Arresting worsens faction relations</ArrestingCreatesEnemies.label>
+    <ArrestingCreatesEnemies.helpText>Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist, their entire faction will become your enemy.</ArrestingCreatesEnemies.helpText>
 
-	<rep>
-		<path>SwitchFlickingDesignation.helpTexts[0]</path>
-		<trans>참고: 이 행동은 정착민이 해당 물건의 스위치를 조작하도록 지정만 합니다.\n\n조작 업무를 부여받은 정착민이 직접 와서 끄기 전까지는 아무 일도 일어나지 않습니다.</trans>
-	</rep>
+    <SwitchFlickingDesignation.label>Flick designations only designate</SwitchFlickingDesignation.label>
+    <SwitchFlickingDesignation.helpText>Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist (with the Flicker work type) comes and flicks the switch by hand.</SwitchFlickingDesignation.helpText>
 
 </LanguageData>

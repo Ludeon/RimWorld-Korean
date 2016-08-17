@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <!--=========== Main menu ==========-->
-    <CreateWorld>세계 생성</CreateWorld>
+    <LearnToPlay>튜토리얼</LearnToPlay>
     <NewColony>새로운 정착지</NewColony>
     <BackToGame>게임으로 돌아가기</BackToGame>
     <ReviewScenario>시나리오 확인</ReviewScenario>
@@ -23,6 +23,7 @@
     <TynansDesignBook>Tynan의 디자인 북</TynansDesignBook>
     <HelpTranslate>림월드 번역을 도와주세요!</HelpTranslate>
     <BuySoundtrack>사운드트랙 구입</BuySoundtrack>
+    <CreateWorld>세계 생성</CreateWorld>
 
     <!--=========== Create/review world ================-->
     <ReviewWorld>세계 검토</ReviewWorld>
@@ -68,6 +69,7 @@
     <ModTargetVersion>버전 {0}</ModTargetVersion>
     <ModNotMadeForThisVersion>모드 버전이 현재 게임 버전과 맞지 않습니다. 문제가 발생할 수 있습니다.</ModNotMadeForThisVersion>
     <MessageModNeedsWellFormattedTargetVersion>About.xml에서 정확한 버전 정보를 찾을 수 없습니다. 예시: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+    <DragToReorder>드래그로 정렬</DragToReorder>
 
     <!--=========== Select scenario =============-->
     <ChooseScenario>시나리오 선택</ChooseScenario>
@@ -83,10 +85,11 @@
     <Summary>줄거리</Summary>
     <AddPart>파트 추가</AddPart>
     <TextFieldsMustBeFilled>모든 텍스트 필드를 채워야 합니다.</TextFieldsMustBeFilled>
-    <ConfirmSteamWorkshopUpload>정말 스팀 워크샵에 올릴까요?\n\nSteam Workshop TOS에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+    <ConfirmSteamWorkshopUpload>정말 스팀 워크샵에 올리시겠습니까?\n\nSteam Workshop TOS에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
     <ConfirmContentAuthor>스스로 제작한 것만 올릴 수 있습니다.\n\n직접 만드셨나요?</ConfirmContentAuthor>
     <Incompatible>호환되지 않음</Incompatible>
-    <TooMany>너무 많음 (최대 {0}): </TooMany>
+    <TooMany>너무 많음 (최대 {0}):
+    </TooMany>
     <CanBeUpdatedOnWorkshop>제작자로써 워크샵 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
 
     <!--=========== Storyteller chooser ==========-->
@@ -102,15 +105,15 @@
     <SelectSite>위치 선택</SelectSite>
     <MustSelectLandingSite>착륙 지점을 선택해야 합니다.</MustSelectLandingSite>
     <CannotLandBiome>이 생물군계에 착륙할 수 없습니다: {0}</CannotLandBiome>
-    <WorldRenderMode>모드</WorldRenderMode>
-    <WorldRenderModeFull>전체</WorldRenderModeFull>
+    <WorldRenderMode>표시 모드</WorldRenderMode>
+    <WorldRenderModeFull>통합</WorldRenderModeFull>
     <WorldRenderModeTemperature>기온</WorldRenderModeTemperature>
     <WorldRenderModeElevation>고도</WorldRenderModeElevation>
     <WorldRenderModeFertility>비옥도</WorldRenderModeFertility>
     <WorldRenderModeRainfall>강수량</WorldRenderModeRainfall>
     <WorldRenderModeBiomes>기후</WorldRenderModeBiomes>
     <BiomeNotImplemented>기후가 구현되지 않았습니다.</BiomeNotImplemented>
-    <BaseAlreadyThere>이미 그곳에 {0}의 기지가 있습니다.</BaseAlreadyThere>
+    <BaseAlreadyThere>해당 위치에 {0}의 기지가 있습니다.</BaseAlreadyThere>
     <Biome>기후</Biome>
     <Terrain>지형</Terrain>
     <Elevation>고도</Elevation>

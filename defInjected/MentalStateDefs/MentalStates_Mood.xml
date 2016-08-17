@@ -7,33 +7,30 @@
     <Berserk.beginLetterLabel>광란</Berserk.beginLetterLabel>
     <Berserk.beginLetter>{0}의 분노가 폭발했습니다!</Berserk.beginLetter>
     <Berserk.recoveryMessage>{0}의 광란이 끝을 고했습니다.</Berserk.recoveryMessage>
-    <Berserk.inspectLine>상태: 광란</Berserk.inspectLine>
+    <Berserk.baseInspectLine>상태: 광란</Berserk.baseInspectLine>
 
     <FireStartingSpree.label>방화</FireStartingSpree.label>
     <FireStartingSpree.beginLetterLabel>방화</FireStartingSpree.beginLetterLabel>
     <FireStartingSpree.beginLetter>{0}(이)가 불을 지르고 다닙니다.</FireStartingSpree.beginLetter>
     <FireStartingSpree.recoveryMessage>{0}의 방화가 끝을 고했습니다.</FireStartingSpree.recoveryMessage>
-    <FireStartingSpree.inspectLine>상태: 방화</FireStartingSpree.inspectLine>
+    <FireStartingSpree.baseInspectLine>상태: 방화</FireStartingSpree.baseInspectLine>
 
     <GiveUpExit.label>탈주</GiveUpExit.label>
     <GiveUpExit.beginLetterLabel>탈주</GiveUpExit.beginLetterLabel>
     <GiveUpExit.beginLetter>{0}(이)가 모든 걸 포기하고 정착지를 떠나고 있습니다.</GiveUpExit.beginLetter>
     <GiveUpExit.recoveryMessage>{0}의 마음이 바뀌어 정착지로 돌아오고 있습니다.</GiveUpExit.recoveryMessage>
-    <GiveUpExit.inspectLine>상태: 탈주</GiveUpExit.inspectLine>
+    <GiveUpExit.baseInspectLine>상태: 탈주</GiveUpExit.baseInspectLine>
 
     <!-- Mental breaks: serious -->
 
-    <BingingAlcohol.label>폭음</BingingAlcohol.label>
-    <BingingAlcohol.beginLetterLabel>폭음</BingingAlcohol.beginLetterLabel>
-    <BingingAlcohol.beginLetter>{0}(이)가 술을 폭음하고 있습니다.</BingingAlcohol.beginLetter>
-    <BingingAlcohol.recoveryMessage>{0}(이)가 술병을 치웠습니다.</BingingAlcohol.recoveryMessage>
-    <BingingAlcohol.inspectLine>상태: 폭음</BingingAlcohol.inspectLine>
+    <BingingDrug.label>binging on drug</BingingDrug.label>
+    <BingingDrug.baseInspectLine>Mental state: Bining on {0}</BingingDrug.baseInspectLine>
 
     <WanderPsychotic.label>방황 (미침)</WanderPsychotic.label>
     <WanderPsychotic.beginLetterLabel>방황</WanderPsychotic.beginLetterLabel>
     <WanderPsychotic.beginLetter>{0}(이)가 미쳐 떠돕니다.</WanderPsychotic.beginLetter>
     <WanderPsychotic.recoveryMessage>{0}의 정신이 자리를 찾았습니다.</WanderPsychotic.recoveryMessage>
-    <WanderPsychotic.inspectLine>상태: 방황 (미침)</WanderPsychotic.inspectLine>
+    <WanderPsychotic.baseInspectLine>상태: 방황 (미침)</WanderPsychotic.baseInspectLine>
 
     <!-- Mental breaks: minor -->
 
@@ -41,18 +38,18 @@
     <BingingFood.beginLetterLabel>폭식</BingingFood.beginLetterLabel>
     <BingingFood.beginLetter>{0}(이)가 음식을 탐닉하고 있습니다.</BingingFood.beginLetter>
     <BingingFood.recoveryMessage>{0}의 탐닉이 끝났습니다.</BingingFood.recoveryMessage>
-    <BingingFood.inspectLine>상태: 폭식</BingingFood.inspectLine>
+    <BingingFood.baseInspectLine>상태: 폭식</BingingFood.baseInspectLine>
 
     <WanderSad.label>방황 (슬픔)</WanderSad.label>
     <WanderSad.beginLetterLabel>방황</WanderSad.beginLetterLabel>
     <WanderSad.beginLetter>{0}(이)가 슬퍼 떠돕니다.</WanderSad.beginLetter>
     <WanderSad.recoveryMessage>{0}의 정신이 자리를 찾았습니다.</WanderSad.recoveryMessage>
-    <WanderSad.inspectLine>상태: 방황 (슬픔)</WanderSad.inspectLine>
+    <WanderSad.baseInspectLine>상태: 방황 (슬픔)</WanderSad.baseInspectLine>
 
     <WanderOwnRoom.label>고립</WanderOwnRoom.label>
     <WanderOwnRoom.beginLetterLabel>고립</WanderOwnRoom.beginLetterLabel>
     <WanderOwnRoom.beginLetter>{0}(이)가 방에 숨었습니다.</WanderOwnRoom.beginLetter>
     <WanderOwnRoom.recoveryMessage>{0}(이)가 다시 바깥 세상으로 나왔습니다.</WanderOwnRoom.recoveryMessage>
-    <WanderOwnRoom.inspectLine>상태: 고립</WanderOwnRoom.inspectLine>
+    <WanderOwnRoom.baseInspectLine>상태: 고립</WanderOwnRoom.baseInspectLine>
 
 </LanguageData>

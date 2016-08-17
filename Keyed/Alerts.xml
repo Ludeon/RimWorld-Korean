@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
     <ClickToJumpToProblem>클릭하여 문제가 발생한 곳으로 화면 이동</ClickToJumpToProblem>
 
     <PoorMood>기분이 좋지 않음</PoorMood>
-    <PoorMoodDesc>다음 정착민들의 기분이 좋지 않으며 부분적인 정신이상이 발생할 수 있습니다.\n\n{0}
+    <PoorMoodDesc>다음 정착민들의 기분이 좋지 않으며 정신이상이 발생할 수 있습니다.\n\n{0}
     </PoorMoodDesc>
 
     <TerribleMood>기분이 매우 좋지 않음</TerribleMood>
@@ -44,9 +45,8 @@
     <NeedColonistBedsDesc>정착민 전용 침대의 수보다 더 많은 수의 정착민이 머물고 있어서 잠자리가 없는 사람이 생겼습니다.\n\n침대를 더 만들거나 수감자 전용 침대를 정착민 전용 침대로 전환하세요.\n\n만약 침대를 만들 수 있는 재료가 없다면 잠자리를 정하세요. 추가적인 비용이 들지 않으며 즉시 배치됩니다.
     </NeedColonistBedsDesc>
 
-    <HunterLacksWeapon>사냥꾼 무기 없음</HunterLacksWeapon>
-    <HunterLacksWeaponDesc>정착민 중 한 명이 사냥꾼으로 지정되어 있지만 무기가 없습니다. 사냥꾼에게 무기를 쥐어주지 않으면 사냥을 하지 않습니다.\n\n부상을 줄이기 위해 원거리 무기를 지급하는 것이 좋습니다.
-    </HunterLacksWeaponDesc>
+    <HunterLacksWeapon>원거리 무기 없는 사냥꾼</HunterLacksWeapon>
+    <HunterLacksWeaponDesc>정착민 중 한 명이 사냥꾼으로 지정되어 있지만 원거리 무기를 가지고 있지 않습니다. 사냥꾼에게 원거리 무기를 주기 전까지는 사냥을 하지 않습니다.</HunterLacksWeaponDesc>
 
     <Starvation>굶주림</Starvation>
     <StarvationDesc>다음 정착민들이 굶주리고 있습니다.\n\n{0}\n식량을 구해주세요.
@@ -64,25 +64,16 @@
     <NeedFoodHopperDesc>영양죽 배급기 옆에 투입구가 없습니다.\n\n영양죽 배급기는 투입구에서 조리되지 않은 식품을 받아야 작동이 가능합니다.\n\n투입구를 배급기 옆에 건설하세요.
     </NeedFoodHopperDesc>
 
-    <BuildingNeedsPower>전기 필요</BuildingNeedsPower>
-    <BuildingsNeedPower>전기 필요</BuildingsNeedPower>
-    <BuildingsNeedPowerDesc>다음 건물이나 장비에서 전기를 필요로 하고 있습니다.\n\n{0}\n발전기나 축전지에 연결하여 전기를 공급받을 수 있도록 해주세요.
-    </BuildingsNeedPowerDesc>
-
     <NeedMealSource>조리기구 필요</NeedMealSource>
     <NeedMealSourceDesc>음식을 만들 수 있는 방법이 없습니다.\n\n스토브, 모닥불, 또는 영양죽 배급기를 건설하세요.\n\n(감옥에 건설할 경우 정착민들이 사용할 수 없습니다.)
     </NeedMealSourceDesc>
 
-    <NeedHomeArea>주거구역 필요</NeedHomeArea>
-    <NeedHomeAreaDesc>정착민들이 스스로 청소하고, 수리하고, 소방활동을 할 수 있도록 주거구역을 설정해야 합니다.\n\n좌측 하단 메뉴의 구역 설정에서 주거구역을 설정할 수 있습니다.
-    </NeedHomeAreaDesc>
+    <NeedJoySource>오락 시설 필요</NeedJoySource>
+    <NeedJoySourceDesc>정착민들이 재미를 채울 곳이 없습니다.\n\n편자 막대, 체스 탁자 등을 만들어주세요.</NeedJoySourceDesc>
 
     <NeedBatteries>축전지 필요</NeedBatteries>
     <NeedBatteriesDesc>태양광 발전기가 있지만 축전지가 없습니다. 따라서 해가 진 후에 전기를 사용할 수 없습니다. 축전지를 한두 개 정도 제작하여 밤에도 전기를 사용할 수 있도록 하는게 좋습니다.
     </NeedBatteriesDesc>
-
-    <NoTradingCapacity>무역능력 없음</NoTradingCapacity>
-    <NoTradingCapacityDesc>지나가는 선박들과 거래할 방법이 없습니다.\n\n통신 제어반을 건설하세요.</NoTradingCapacityDesc>
 
     <BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 장비</BrawlerHasRangedWeapon>
     <BrawlerHasRangedWeaponDesc>정착민 중 한 명이 싸움꾼 특성을 가지고 있지만 원거리 무기를 장비하고 있습니다. 이로 인해 싸움꾼의 기분이 매우 악화되었습니다.
@@ -94,9 +85,6 @@
 
     <NeedResearchProject>연구 진행 가능</NeedResearchProject>
     <NeedResearchProjectDesc>연구 메뉴에서 연구할 항목을 지정해 주세요.</NeedResearchProjectDesc>
-
-    <NeedDump>처리구역 필요</NeedDump>
-    <NeedDumpDesc>당신이 표시한 {0}의 처리를 맡을 공간이 없습니다.\n\n구역 설정에서 처리구역을 지정하세요.</NeedDumpDesc>
 
     <ColonistsIdle>{0}명의 정착민 대기 중</ColonistsIdle>
     <ColonistsIdleDesc>다음 정착민들이 할 일이 없어 주변을 방황하고 있습니다.\n\n{0}\n무언가 생산적인 일을 찾아주어야 할 것입니다.</ColonistsIdleDesc>
@@ -126,5 +114,10 @@
 
     <HunterHasShieldAndRangedWeapon>보호막을 장착한 사냥꾼이 원거리 무기 장비</HunterHasShieldAndRangedWeapon>
     <HunterHasShieldAndRangedWeaponDesc>사냥꾼 중 한 명이 개인 보호막과 원거리 무기를 같이 사용하고 있습니다. 보호막은 원거리 무기의 사용을 막습니다.\n\n해당 사냥꾼은 보호막을 벗기 전까지 사냥하지 못합니다.</HunterHasShieldAndRangedWeaponDesc>
+
+    <NeedWarmClothes>따듯한 옷 필요</NeedWarmClothes>
+    <NeedWarmClothesDesc1>최소 {0}명의 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1>
+    <NeedWarmClothesDesc1All>모든 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1All>
+    <NeedWarmClothesDesc2>외부 온도가 곧 {0}도로 떨어집니다.\n\n따듯한 옷을 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</NeedWarmClothesDesc2>
 
 </LanguageData>

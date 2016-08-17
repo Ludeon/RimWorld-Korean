@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!--================= Alcohol_Beer.xml =================-->
+
+    <AlcoholHigh.label>알코올</AlcoholHigh.label>
+    <rep>
+        <path>AlcoholHigh.stages[1].label</path>
+        <trans>warm</trans>
+    </rep>
+    <rep>
+        <path>AlcoholHigh.stages[2].label</path>
+        <trans>tipsy</trans>
+    </rep>
+    <rep>
+        <path>AlcoholHigh.stages[3].label</path>
+        <trans>drunk</trans>
+    </rep>
+    <rep>
+        <path>AlcoholHigh.stages[4].label</path>
+        <trans>hammered</trans>
+    </rep>
+    <rep>
+        <path>AlcoholHigh.stages[5].label</path>
+        <trans>blackout</trans>
+    </rep>
+
+    <Hangover.label>숙취</Hangover.label>
+    <rep>
+        <path>Hangover.stages[0].label</path>
+        <trans>slight</trans>
+    </rep>
+    <rep>
+        <path>Hangover.stages[1].label</path>
+        <trans>strong</trans>
+    </rep>
+    <rep>
+        <path>Hangover.stages[2].label</path>
+        <trans>pounding</trans>
+    </rep>
+
+    <AlcoholTolerance.label>알콜 내성</AlcoholTolerance.label>
+
+    <AlcoholAddiction.label>알콜 중독</AlcoholAddiction.label>
+    <rep>
+        <path>AlcoholAddiction.stages[1].label</path>
+        <trans>금단현상</trans>
+    </rep>
+
+    <!--================= Amphetamine.xml =================-->
+
+    <AmphetamineHigh.label>암페타민에 취함</AmphetamineHigh.label>
+
+    <AmphetamineTolerance.label>암페타민 내성</AmphetamineTolerance.label>
+
+    <AmphetamineAddiction.label>암페타민 중독</AmphetamineAddiction.label>
+    <rep>
+        <path>AmphetamineAddiction.stages[1].label</path>
+        <trans>금단현상</trans>
+    </rep>
+
+    <!--================= Cannabis.xml =================-->
+
+    <CannabisHigh.label>대마초에 취함</CannabisHigh.label>
+
+    <CannabisTolerance.label>대마초 내성</CannabisTolerance.label>
+
+    <CannabisAddiction.label>대마초 의존증</CannabisAddiction.label>
+    <rep>
+        <path>CannabisAddiction.stages[1].label</path>
+        <trans>금단현상</trans>
+    </rep>
+
+    <!--================= Cocaine_Crack.xml =================-->
+
+    <CrackHigh.label>크랙에 취함</CrackHigh.label>
+
+    <!--================= Cocaine_Yayo.xml =================-->
+
+    <YayoHigh.label>코카인에 취함</YayoHigh.label>
+
+    <CocaineTolerance.label>코카인 내성</CocaineTolerance.label>
+
+    <CocaineAddiction.label>코카인 중독</CocaineAddiction.label>
+    <rep>
+        <path>CocaineAddiction.stages[1].label</path>
+        <trans>금단현상</trans>
+    </rep>
+
+    <!--================= GoJuice.xml =================-->
+
+    <GoJuiceHigh.label>고-주스에 취함</GoJuiceHigh.label>
+
+    <GoJuiceTolerance.label>고-주스 내성</GoJuiceTolerance.label>
+
+    <GoJuiceAddiction.label>고-주스 중독</GoJuiceAddiction.label>
+    <rep>
+        <path>GoJuiceAddiction.stages[1].label</path>
+        <trans>금단현상</trans>
+    </rep>
+
+    <!--================= MalariBlock.xml =================-->
+
+    <MalariBlockHigh.label>말라리블락</MalariBlockHigh.label>
+
+</LanguageData>

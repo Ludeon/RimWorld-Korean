@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- Nonlocal injuries -->
-
     <BloodLoss.label>출혈</BloodLoss.label>
     <rep>
         <path>BloodLoss.stages[0].label</path>
@@ -82,6 +80,16 @@
     <rep>
         <path>HeartAttack.stages[2].label</path>
         <trans>치명적</trans>
+    </rep>
+
+    <DrugOverdose.label>drug overdose</DrugOverdose.label>
+    <rep>
+        <path>DrugOverdose.stages[1].label</path>
+        <trans>minor</trans>
+    </rep>
+    <rep>
+        <path>DrugOverdose.stages[2].label</path>
+        <trans>major</trans>
     </rep>
 
 </LanguageData>

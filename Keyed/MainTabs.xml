@@ -12,13 +12,15 @@
     <IncapableOfWorkTypeBecauseOfCapacities>신체 결손으로 인하여 이 작업을 할 수 없습니다.</IncapableOfWorkTypeBecauseOfCapacities>
     <EmergencyWorkMarker>E</EmergencyWorkMarker>
 
-    <!-- Outfits tab -->
+    <!-- Assign tab -->
     <CurrentOutfit>현재 복장</CurrentOutfit>
     <ManageOutfits>복장 설정</ManageOutfits>
     <ClearForcedApparel>강제지정 취소</ClearForcedApparel>
     <ApparelForcedLower>강제됨</ApparelForcedLower>
     <ForcedApparel>강제된 의복</ForcedApparel>
-    <OutfitEdit>수정...</OutfitEdit>
+    <AssignTabEdit>수정...</AssignTabEdit>
+    <CurrentDrugPolicies>현재 약물 정책</CurrentDrugPolicies>
+    <ManageDrugPolicies>약물 정책 관리</ManageDrugPolicies>
 
     <!-- Restrictions tab -->
     <Copy>복사</Copy>
@@ -34,7 +36,21 @@
     <HostileTo>{0} 세력과 적대적 관계</HostileTo>
     <CurrentGoodwill>해당 세력과 우호관계</CurrentGoodwill>
 
-    <!-- Statistics tab -->
+    <!-- History tab - subtabs -->
+    <Graph>그래프</Graph>
+    <Statistics>통계</Statistics>
+
+    <!-- History tab - Graphs -->
+    <SelectGraph>그래프 선택</SelectGraph>
+    <Last30Days>지난 30일간</Last30Days>
+    <Last100Days>지난 100일간</Last100Days>
+    <Last300Days>지난 300일간</Last300Days>
+    <AllDays>전체</AllDays>
+    <Day>일</Day>
+    <Value>값</Value>
+    <External>외부</External>
+
+    <!-- History tab - Statistics -->
     <Playtime>플레이 시간</Playtime>
     <Storyteller>이야기꾼</Storyteller>
     <ColonyWealthTotal>정착지 재산</ColonyWealthTotal>
@@ -45,16 +61,6 @@
     <DamageTaken>받은 피해량</DamageTaken>
     <ColonistsKilled>죽은 정착민</ColonistsKilled>
     <ColonistsLaunched>우주로 날아간 정착민</ColonistsLaunched>
-
-    <!-- History tab -->
-    <SelectGraph>그래프 선택</SelectGraph>
-    <Last30Days>지난 30일간</Last30Days>
-    <Last100Days>지난 100일간</Last100Days>
-    <Last300Days>지난 300일간</Last300Days>
-    <AllDays>전체</AllDays>
-    <Day>일</Day>
-    <Value>값</Value>
-    <External>외부</External>
 
     <!-- Research tab -->
     <ProjectTechLevel>프로젝트 기술 수준</ProjectTechLevel>

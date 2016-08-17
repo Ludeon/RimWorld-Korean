@@ -39,6 +39,7 @@
     <AnimalsSkillTooLow>조련기술 낮음</AnimalsSkillTooLow>
     <NoComponentsToRepair>부품 필요</NoComponentsToRepair>
     <NoFuelToRefuel>{0} 필요</NoFuelToRefuel>
+    <NoWort>need wort</NoWort>
 
     <ConsumeThing>{0} 섭취</ConsumeThing>
     <Teetotaler>금욕</Teetotaler>
@@ -103,13 +104,19 @@
 
     <!-- 예시: 이미 (목적어)(을)를 (동사)하고 있습니다. / 우선시 할 수 없음((목적어)(은)는 (1)(이)가 아님) -->
     <CannotMissingHealthActivities>우선시 불가 ({0} 불가능)</CannotMissingHealthActivities>
+
     <CannotGenericAlreadyAm>이미 {1}(을)를 {0} 중</CannotGenericAlreadyAm>
-    <CannotPrioritizeIsNotA>우선시 불가 ({1}(이)가 아님)</CannotPrioritizeIsNotA>
-    <CannotPrioritizeResearch>연구 우선시 불가 (장기 과제)</CannotPrioritizeResearch>
+
+    <CannotPrioritizeWorkTypeDisabled>우선시 불가 ({0} 불가능)</CannotPrioritizeWorkTypeDisabled>
+
+    <CannotPrioritizeNotAssignedToWorkType>우선시 불가 ({0} 맡지 않음)</CannotPrioritizeNotAssignedToWorkType>
+
+    <CannotPrioritizeResearch>우선시 불가 (연구 과제)</CannotPrioritizeResearch>
+
     <CannotPrioritizeForbidden>우선시 불가 ({0}의 상호작용이 금지됨)</CannotPrioritizeForbidden>
     <CannotPrioritizeForbiddenOutsideAllowedArea>우선시 불가 (허가구역 외부)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
-    <!-- 예시: 먼저 (동사): (목적어). 먼저 수리: 벽, 먼저 섭취: 맥주 -->
-    <PrioritizeGeneric>먼저 {0}: {1}</PrioritizeGeneric>
+    <!-- 예시: 우선 (동사): (목적어). 우선 수리: 벽, 우선 섭취: 맥주 -->
+    <PrioritizeGeneric>우선 {0}: {1}</PrioritizeGeneric>
 
 </LanguageData>

@@ -61,6 +61,13 @@
     <RadiusExpandsIn>범위 확장</RadiusExpandsIn>
     <Permanent>영구적</Permanent>
 
+    <!-- Fermentation barrel -->
+    <ContainsWort>맥아즙 {0} / {1}</ContainsWort>
+    <ContainsBeer>맥주 {0} / {1}</ContainsBeer>
+    <Fermented>발효됨</Fermented>
+    <FermentationProgress>진행: {0} (약 {1} 후에 완료).</FermentationProgress>
+    <FermentationBarrelOutOfIdealTemperature>적정 온도 벗어남. 발효 속도 계수: {0}</FermentationBarrelOutOfIdealTemperature>
+
     <!--TextMotes-->
     <Headshot>헤드샷</Headshot>
     <TreatQuality>치료 품질 {0}</TreatQuality>
@@ -75,7 +82,7 @@
     <TextMote_TrainFail>{0} 훈련 실패\n{1} 확률</TextMote_TrainFail>
     <TextMote_TrainSuccess>{0} 훈련 완료\n{1} 확률</TextMote_TrainSuccess>
     <TextMote_FixBrokenDownBuildingFail>수리\n실패</TextMote_FixBrokenDownBuildingFail>
-    <TextMote_ConstructionFail>건설\nfailed</TextMote_ConstructionFail>
+    <TextMote_ConstructionFail>건설\n실패</TextMote_ConstructionFail>
 
     <!-- Areas -->
     <Home>주거구역</Home>
@@ -222,8 +229,8 @@
     <FullyGrownIn>{0} 후 완전히 성장</FullyGrownIn>
     <PlantNeedsLightLevel>빛 필요</PlantNeedsLightLevel>
     <PlantResting>휴식 중</PlantResting>
-    <OutOfIdealTemperatureRange>이상적인 온도가 아님. 온도로 인한 성장 페널티: {0}%</OutOfIdealTemperatureRange>
-    <OutOfIdealTemperatureRangeNotGrowing>이상적인 온도가 아님. 성장하지 않음.</OutOfIdealTemperatureRangeNotGrowing>
+    <OutOfIdealTemperatureRange>적정 온도 벗어남. 성장 페널티: {0}%</OutOfIdealTemperatureRange>
+    <OutOfIdealTemperatureRangeNotGrowing>적정 온도 벗어남. 성장 불가.</OutOfIdealTemperatureRangeNotGrowing>
     <ReadyToHarvest>수확 가능</ReadyToHarvest>
     <Mature>성숙</Mature>
     <SeedLabel>{0} 씨앗</SeedLabel>
@@ -251,13 +258,15 @@
     <Undiscovered>발견되지 않움</Undiscovered>
 
     <!-- Buttons -->
+    <ShowLearningHelperWhenEmptyToggleButton>남은 도움말 항목이 없는 경우의 도우미 표시 여부를 설정합니다.\n\n제공할 도움말이 있다면 도우미는 언제나 표시됩니다. 이 설정으로는 도움말이 없을 때 도우미를 숨길 수 있습니다.</ShowLearningHelperWhenEmptyToggleButton>
     <ZoneVisibilityToggleButton>구역을 표시합니다.</ZoneVisibilityToggleButton>
     <ShowBeautyToggleButton>미관 수치를 표시합니다.\n\n마우스 커서가 가리키는 지점의 미관 수치를 확인할 수 있습니다.</ShowBeautyToggleButton>
     <ShowRoomStatsToggleButton>방의 정보를 표시합니다.\n\n마우스 커서가 가리키는 방의 정보를 확인할 수 있습니다.</ShowRoomStatsToggleButton>
     <ShowColonistBarToggleButton>정착민 상태표시줄을 활성화합니다.\n\n화면 상단에 아이콘과 기본적인 상태를 표시합니다.</ShowColonistBarToggleButton>
     <AutoHomeAreaToggleButton>새로 건설한 건물 주변에 자동으로 주거구역을 설정합니다.</AutoHomeAreaToggleButton>
     <CategorizedResourceReadoutToggleButton>자원 개요를 분류별로 묶어 보여줍니다.</CategorizedResourceReadoutToggleButton>
-    <ShowAnimalNamesToggleButton>길들인 동물의 이름 표시여부를 설정합니다.</ShowAnimalNamesToggleButton>
+    <ShowAnimalNamesToggleButton>길들인 동물의 이름 표시 여부를 설정합니다.</ShowAnimalNamesToggleButton>
+    <ShowRoofOverlayToggleButton>지붕의 표시 여부를 설정합니다.</ShowRoofOverlayToggleButton>
 
     <!-- Fire -->
     <Fire>화재</Fire>
@@ -283,13 +292,12 @@
     <MustPlaceAdjacentStandable>모든 면에 서있을 수 있는 공간이 필요합니다.</MustPlaceAdjacentStandable>
 
     <!-- Wind Turbine -->
-    <WindTurbine_WindPathIsBlockedBy>바람길이 막힘:
-    </WindTurbine_WindPathIsBlockedBy>
+    <WindTurbine_WindPathIsBlockedBy>바람길이 막힘: </WindTurbine_WindPathIsBlockedBy>
     <WindTurbine_WindPathIsBlockedByRoof>지붕에 의해 막힘</WindTurbine_WindPathIsBlockedByRoof>
 
     <!-- Cryptosleep casket -->
     <CasketContains>포함</CasketContains>
-    <CasketWarning>경고! \n\nNAME(은)는 정착지의 마지막 정착민입니다! 만약 그 정착민이 동면장치에 들어간다면 더 이상 플레이 할 수 없습니다. 정말 진행하시겠습니까?
+    <CasketWarning>경고!\n\nNAME(은)는 정착지의 마지막 정착민입니다! 만약 그 정착민이 동면장치에 들어간다면 더 이상 플레이 할 수 없습니다. 정말 진행하시겠습니까?
     </CasketWarning>
 
     <!-- Ship launch report -->
@@ -330,8 +338,7 @@
     <!-- Game over -->
     <GameOverEveryoneDead>모든 정착민이 죽거나 떠났습니다. 이 여정은 끝났습니다. \n\n다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠습니다.
     </GameOverEveryoneDead>
-    <GameOverShipLaunched>우주선을 발사하였습니다! 다음 정착민들이 탈출했습니다. \n{0}\n\n다음 정착민들은 남았습니다. \n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 소행성의 얼음 아래 숨어서 이곳에 진보된 새로운 문명이 건설되기를 엄청난 세월동안 기다리기로
-        결정할 지도 모릅니다. \n\n잠에서 깨어나면 알 수 있을지도.
+    <GameOverShipLaunched>우주선을 발사하였습니다! 다음 정착민들이 탈출했습니다. \n{0}\n\n다음 정착민들은 남았습니다. \n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 소행성의 얼음 아래 숨어서 이곳에 진보된 새로운 문명이 건설되기를 엄청난 세월동안 기다리기로 결정할 지도 모릅니다. \n\n잠에서 깨어나면 알 수 있을지도.
     </GameOverShipLaunched>
     <GameOverPlanetkillerImpact>행성 파괴자가 아광속으로 지면에 충돌하면서 수 천억 수소폭탄보다 더 강력한 폭발을 일으켰습니다. 소총에 맞은 풍선처럼, 이 세계의 녹아내린 땅이 우주로 퍼졌습니다.\n\n{0}의 일부는 이제 작은 소행성대가 되었고, 나머지는 방사선에 덮힌 채 수 킬로미터씩 진동하는 지진에 의해 요동치는 지옥으로 변했습니다.\n\n당신은 죽었습니다.
     </GameOverPlanetkillerImpact>
@@ -376,5 +383,15 @@
     <!-- Maintainable -->
     <DueForMaintenance>점검 예정.</DueForMaintenance>
     <DeterioratingDueToLackOfMaintenance>점검 부족으로 인해 망가지는 중.</DeterioratingDueToLackOfMaintenance>
+
+    <!-- Deep drill -->
+    <ProgressToNextLump>다음 광맥으로 진행</ProgressToNextLump>
+    <ResourceBelow>지하 자원</ResourceBelow>
+
+    <!-- Learning helper -->
+    <LearningHelper>도우미</LearningHelper>
+    <MarkLearned>배움 표시</MarkLearned>
+    <AlreadyLearned>이미 배움</AlreadyLearned>
+    <Filter>필터</Filter>
 
 </LanguageData>
