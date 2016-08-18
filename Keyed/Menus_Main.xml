@@ -102,9 +102,9 @@
     <!--=========== Landing site select =========-->
     <SelectLandingSite>착륙 지점 선택</SelectLandingSite>
     <SelectRandomSite>무작위 지점 선택</SelectRandomSite>
-    <SelectSite>위치 선택</SelectSite>
+    <SelectSite>확인</SelectSite> <!-- 위치 선택 -->
     <MustSelectLandingSite>착륙 지점을 선택해야 합니다.</MustSelectLandingSite>
-    <CannotLandBiome>이 생물군계에 착륙할 수 없습니다: {0}</CannotLandBiome>
+    <CannotLandBiome>그 기후에 착륙할 수 없습니다: {0}</CannotLandBiome>
     <WorldRenderMode>표시 모드</WorldRenderMode>
     <WorldRenderModeFull>통합</WorldRenderModeFull>
     <WorldRenderModeTemperature>기온</WorldRenderModeTemperature>
@@ -112,7 +112,7 @@
     <WorldRenderModeFertility>비옥도</WorldRenderModeFertility>
     <WorldRenderModeRainfall>강수량</WorldRenderModeRainfall>
     <WorldRenderModeBiomes>기후</WorldRenderModeBiomes>
-    <BiomeNotImplemented>기후가 구현되지 않았습니다.</BiomeNotImplemented>
+    <BiomeNotImplemented>그 기후는 구현되지 않았습니다.</BiomeNotImplemented>
     <BaseAlreadyThere>해당 위치에 {0}의 기지가 있습니다.</BaseAlreadyThere>
     <Biome>기후</Biome>
     <Terrain>지형</Terrain>
@@ -134,7 +134,7 @@
     <FirstNameDesc>캐릭터의 이름입니다.\n\n특정한 메뉴에서만 보여집니다.</FirstNameDesc>
     <ShortIdentifierDesc>캐릭터의 별명이며 게임 속에서 항상 표시됩니다.\n\n이름 또는 성과 동일하게 적을 수 있으며, 새로운 닉네임을 부여해도 됩니다.</ShortIdentifierDesc>
     <LastNameDesc>캐릭터의 성입니다.\n\n특정한 메뉴에서만 보여집니다.</LastNameDesc>
-    <Randomize>자동</Randomize>
+    <Randomize>섞기</Randomize>
     <AgeIndicator>나이 {0}</AgeIndicator>
     <Backstory>성장 환경</Backstory>
     <IncapableOf>결격 사항</IncapableOf>
