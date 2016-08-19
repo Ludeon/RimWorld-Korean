@@ -16,10 +16,10 @@
     <Pause.helpText>{Key:TogglePause} 키로 시간을 멈추거나 재생할 수 있습니다.\n\n일시정지 상태에서도 명령을 내릴 수 있습니다.\n\n상황이 위급해지면 {Key:TogglePause} 키만 누르세요!</Pause.helpText>
 
     <Stockpiles.label>저장구역</Stockpiles.label>
-    <Stockpiles.helpText>정착민들이 물건을 보관할 공간이 필요합니다. 저장구역을 지정해주세요.\n\n왼쪽 아래 구상-구역에서 저장구역을 찾으세요.</Stockpiles.helpText>
+    <Stockpiles.helpText>정착민들이 아이템을 보관할 공간이 필요합니다. 저장구역을 지정해주세요.\n\n왼쪽 아래 구상-구역에서 저장구역을 찾으세요.</Stockpiles.helpText>
 
     <Forbidding.label>상호작용 여부</Forbidding.label>
-    <Forbidding.helpText>정착민들은 상호작용이 금지된 물건을 만지지 않습니다.\n\n금지된 물건은 작은 X 표시가 붙습니다. 금지된 물건을 선택한 후 아래쪽 버튼을 이용해 상호작용을 허용하세요.</Forbidding.helpText>
+    <Forbidding.helpText>정착민들은 상호작용이 금지된 아이템을 만지지 않습니다.\n\n금지된 아이템은 작은 X 표시가 붙습니다. 금지된 아이템을 선택한 후 아래쪽 버튼을 이용해 상호작용을 허용하세요.</Forbidding.helpText>
 
     <GrowingFood.label>재배구역</GrowingFood.label>
     <GrowingFood.helpText>작물을 기르려면 구상에서 재배구역을 지정하세요.\n\n비옥한 땅에만 지정할 수 있습니다.</GrowingFood.helpText>
@@ -48,58 +48,58 @@
     <AnimalTraining.label>동물 훈련</AnimalTraining.label>
     <AnimalTraining.helpText>조련된 동물의 훈련 창에서 새로운 기술을 알려줄 수 있습니다.\n\n한 동물을 계속 훈련할 수는 없습니다. 각 훈련 시간 사이에 간격이 존재합니다.</AnimalTraining.helpText>
 
-    <InfoCard.label>Info card</InfoCard.label>
-    <InfoCard.helpText>The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane.</InfoCard.helpText>
+    <InfoCard.label>상세 정보</InfoCard.label>
+    <InfoCard.helpText>상세 정보에서 아이템, 사람, 건물의 자세한 능력치와 통계를 확인할 수 있습니다.\n\n사람이나 아이템을 선택한 후 왼쪽 아래 i 버튼을 누르세요.</InfoCard.helpText>
 
-    <StorageTab.label>Storage tab</StorageTab.label>
-    <StorageTab.helpText>You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority.</StorageTab.helpText>
+    <StorageTab.label>저장 버튼</StorageTab.label>
+    <StorageTab.helpText>저장구역이나 저장 건물을 선택한 후 오른쪽 아래 '저장' 버튼을 눌러 자세한 설정을 할 수 있습니다.\n\n저장 설정에서 카테고리를 펼쳐 특정 아이템의 보관을 허용하거나 금지할 수도 있습니다. 각 카테고리 이름 왼쪽의 삼각형을 누르세요.\n\n저장 장소의 우선순위를 바꿀 수 있습니다. 정착민들은 높은 우선순위의 장소부터 채우며, 낮은 우선순위에서 높은 우선순위로도 아이템을 옮깁니다.</StorageTab.helpText>
 
-    <HomeArea.label>Home area</HomeArea.label>
-    <HomeArea.helpText>The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu.</HomeArea.helpText>
+    <HomeArea.label>주거구역</HomeArea.label>
+    <HomeArea.helpText>주거구역은 정착민들의 청소 및 화재 진압 범위를 정해줍니다.\n\n구상 메뉴 아래 주거구역 설정 도구로 확장하세요.</HomeArea.helpText>
 
-    <SpoilageAndFreezers.label>Spoilage and freezers</SpoilageAndFreezers.label>
-    <SpoilageAndFreezers.helpText>Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil.</SpoilageAndFreezers.helpText>
+    <SpoilageAndFreezers.label>부패와 냉동창고</SpoilageAndFreezers.label>
+    <SpoilageAndFreezers.helpText>대부분의 식료품은 꽤 짧은 시간 안에 상합니다.\n\n이를 막기 위해서는 냉동창고를 건설해야 합니다.\n\n우선 방을 하나 만든 후 한두개의 냉방기를 설치하세요. 그 후에 목표 온도를 영하로 설정하세요.\n\n얼어있는 음식은 상하지 않습니다.</SpoilageAndFreezers.helpText>
 
-    <Deterioration.label>Item deterioration</Deterioration.label>
-    <Deterioration.helpText>Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them under a roof.</Deterioration.helpText>
+    <Deterioration.label>아이템 손상</Deterioration.label>
+    <Deterioration.helpText>밖에 방치된 아이템은 서서히 손상됩니다.\n\n오래 보관하고 싶다면 지붕 아래에 두세요.</Deterioration.helpText>
 
-    <HostilityResponse.label>Hostility response modes</HostilityResponse.label>
-    <HostilityResponse.helpText>You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu.</HostilityResponse.helpText>
+    <HostilityResponse.label>공격 반응 설정</HostilityResponse.label>
+    <HostilityResponse.helpText>정착민들이 야수나 습격자같은 적에게 공격받을 때 어떻게 반응해야 할지 정할 수 있습니다.\n\n정책 창에서 회피, 반격, 무시 중 선택하세요. </HostilityResponse.helpText>
 
-    <AllowedAreas.label>Allowed area</AllowedAreas.label>
-    <AllowedAreas.helpText>Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab.</AllowedAreas.helpText>
+    <AllowedAreas.label>허가구역</AllowedAreas.label>
+    <AllowedAreas.helpText>정착민과 정착지 동물들은 허가구역에 할당될 수 있습니다. 그 후에는 허가구역 외부의 지점으로 이동하는게 금지됩니다.\n\n예를 들어, 허가구역은 정착민들이 밖으로 나가지 못하게 할 때 쓸 수 있습니다.\n\n여러 개의 허가구역을 만들어 서로 다른 정착민과 동물에게 할당할 수 있습니다.\n\n시간/구역 창에서 허가구역을 새로 만들거나, 삭제하거나, 할당하세요\n\n허가구역 범위는 구상의 허가구역 확장 도구, 허가구역 지우기 도구로 설정할 수 있습니다.</AllowedAreas.helpText>
 
-    <MedicalOperations.label>Medical operations</MedicalOperations.label>
-    <MedicalOperations.helpText>To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab.</MedicalOperations.helpText>
+    <MedicalOperations.label>수술</MedicalOperations.label>
+    <MedicalOperations.helpText>장기 적출이나 보철물 삽입같은 수술은 대상 정착민의 건강 창에서 설정할 수 있습니다. "수술" 탭을 선택하세요.</MedicalOperations.helpText>
 
-    <TimeAssignments.label>Time assignments</TimeAssignments.label>
-    <TimeAssignments.helpText>You can modify what time of day colonists should do different activities using the RESTRICT tab.</TimeAssignments.helpText>
+    <TimeAssignments.label>시간표</TimeAssignments.label>
+    <TimeAssignments.helpText>시간/구역 창에서 각 정착민의 일과를 설정할 수 있습니다.</TimeAssignments.helpText>
 
-    <ManualWorkPriorities.label>Manual work priorities</ManualWorkPriorities.label>
-    <ManualWorkPriorities.helpText>One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony.</ManualWorkPriorities.helpText>
+    <ManualWorkPriorities.label>수동 작업 우선순위</ManualWorkPriorities.label>
+    <ManualWorkPriorities.helpText>림월드에서 가장 중요한 것 중 하나는 정착민들의 작업 설정을 효과적으로 하는 것입니다.\n\n나쁜 설정은 사소한 작업때문에 중요한 일이 오랜 시간 방치되게 만듭니다.\n\n더 섬세한 작업 설정을 하려면 작업 창에서 수동 우선순위를 활성화할 수 있습니다.\n\n여기서는 각 정착민의 작업이 우선순위 숫자로 표시됩니다. 모든 작업은 왼쪽에서 오른쪽으로 우선순위 1의 작업을 처리하고, 그 후에 왼쪽에서 오른쪽으로 우선순위 2의 작업을 처리합니다. 3과 4도 마찬가지입니다.\n\n거대하고 자동화된 정착지에 똑똑한 설정은 필수입니다.</ManualWorkPriorities.helpText>
 
-    <GettingMoreTraders.label>Getting more traders</GettingMoreTraders.label>
-    <GettingMoreTraders.helpText>More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console.</GettingMoreTraders.helpText>
+    <GettingMoreTraders.label>상인 끌어들이기</GettingMoreTraders.label>
+    <GettingMoreTraders.helpText>더 많은 세력과 동맹을 맺으면 더 많은 상인이 찾아옵니다.\n\n어떤 세력과도 동맹이 아니면 아무도 찾아오지 않습니다.\n\n동맹관계의 세력에게 돈을 주고 상인을 요청할 수도 있습니다.</GettingMoreTraders.helpText>
 
-    <InspectRoomStats.label>Room stats inspector</InspectRoomStats.label>
-    <InspectRoomStats.helpText>You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right.</InspectRoomStats.helpText>
+    <InspectRoomStats.label>방 정보 조사</InspectRoomStats.label>
+    <InspectRoomStats.helpText>오른쪽 아래 방 정보 조사 도구를 켜서 마우스가 가리키는 방의 인상, 수준, 크기, 미관, 청결 수치를 확인할 수 있습니다. </InspectRoomStats.helpText>
 
-    <Outfits.label>Outfits</Outfits.label>
-    <Outfits.helpText>Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage outfits" dialog box to design a new outfit, and then assign the outfit to colonists.</Outfits.helpText>
+    <Outfits.label>복장</Outfits.label>
+    <Outfits.helpText>정착민들은 항상 높은 품질의 새 옷을 입으려 합니다.\n\n모든 옷을 하나하나 입혀줄 필요는 없습니다. 물론 그렇게 할 수도 있지만요.\n\n정착민들이 어떤 복장을 입어야 할지 정해주려면 정책 창의 복장 버튼을 사용해 새 복장을 만든 후에 각 정착민에게 할당하세요.</Outfits.helpText>
 
-    <FirePreparation.label>Fire preparation</FirePreparation.label>
-    <FirePreparation.helpText>Fires can easily burn down a colony. To defeat them, you must prepare before they happen. \nThese design elements can help reduce the damage from fires: \n1. Instead of constructing one super-building, build separate buildings with spaces in between. \n2. Use less flammable materials. Wood is cheap and fast - but very flammable. \n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire.</FirePreparation.helpText>
+    <FirePreparation.label>화재 대비</FirePreparation.label>
+    <FirePreparation.helpText>화재는 쉽게 정착지를 무너뜨릴 수 있습니다. 이를 효과적으로 막으려면 우선 준비가 필수입니다.\n\n아래 목록을 명심하면 화재로 인한 피해를 줄일 수 있습니다.\n1. 하나의 거대한 건물을 만드는 대신 여러개로 나눠서 만들고, 사이사이에 빈 공간을 두세요.\n2. 불이 잘 안붙는 자재를 사용하세요. 목재는 싸고 건설도 쉽지만 불이 잘 붙습니다.\n3. 방화대를 만들어 산불이 접근하지 못하게 하세요. 보통 서너칸 너비의 콘크리트 바닥으로 충분합니다.</FirePreparation.helpText>
 
-    <HistoryTab.label>History tab</HistoryTab.label>
-    <HistoryTab.helpText>You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen.</HistoryTab.helpText>
+    <HistoryTab.label>기록 창</HistoryTab.label>
+    <HistoryTab.helpText>화면 아래 기록 창으로 정착지의 기록을 확인할 수 있습니다.</HistoryTab.helpText>
 
-    <ClickingMessages.label>Clicking messages</ClickingMessages.label>
-    <ClickingMessages.helpText>You can click on the notifications in the top-left of the screen to instantly center the camera on their subject.</ClickingMessages.helpText>
+    <ClickingMessages.label>메세지 클릭</ClickingMessages.label>
+    <ClickingMessages.helpText>왼쪽 상단의 메세지를 클릭하면 그 메세지의 장소로 바로 이동할 수 있습니다.</ClickingMessages.helpText>
 
-    <ShotAccuracyTooltip.label>Shot accuracy tooltip</ShotAccuracyTooltip.label>
-    <ShotAccuracyTooltip.helpText>You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers.</ShotAccuracyTooltip.helpText>
+    <ShotAccuracyTooltip.label>사격 명중률 툴팁</ShotAccuracyTooltip.label>
+    <ShotAccuracyTooltip.helpText>모든 사격은 정확한 명중률 계산 과정을 확인할 수 있습니다.\n\n사격할 사람을 선택하고 대상의 위로 마우스를 올리세요. 툴팁에 명중률과 그 이유가 나와있습니다.</ShotAccuracyTooltip.helpText>
 
-    <FriendlyFireSafety.label>Friendly fire safety</FriendlyFireSafety.label>
-    <FriendlyFireSafety.helpText>Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters.</FriendlyFireSafety.helpText>
+    <FriendlyFireSafety.label>오인사격 방지</FriendlyFireSafety.label>
+    <FriendlyFireSafety.helpText>오인사격은 사격자가 같은 편의 가까이에 머무르면 일어나지 않습니다.\n\n예를 들어 칼잡이를 총잡이의 바로 앞에 세워놓으면 총잡이는 칼잡이의 어깨 너머로 사격합니다.\n\n원거리와 근거리 전투원을 조합하는 좋은 방법 중 하나입니다.</FriendlyFireSafety.helpText>
 
 </LanguageData>
