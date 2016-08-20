@@ -22,9 +22,8 @@
     <!-- Drafting -->
     <CommandDraftLabel>소집</CommandDraftLabel>
     <CommandUndraftLabel>해제</CommandUndraftLabel>
-    <CommandToggleDraftDesc>소집 상태를 설정할 수 있습니다. 소집된 정착민들에게는 직접 명령을 내릴 수 있으며 스스로 일을 하거나, 음식을 섭취하거나, 휴식하지 않습니다.
-    </CommandToggleDraftDesc>
-    <IsIncapped>{0}(은)는 행동 불능 상태입니다.</IsIncapped>
+    <CommandToggleDraftDesc>소집 상태를 설정할 수 있습니다. 소집된 정착민들은 스스로 일을 하거나, 음식을 섭취하거나, 휴식하지 않으며 대신 직접 전투 명령을 내릴 수 있습니다. </CommandToggleDraftDesc>
+    <IsIncapped>{0}(은)는 걷지 못합니다.</IsIncapped>
 
     <CommandClearPrioritizedWork>우선시된 작업 취소</CommandClearPrioritizedWork>
     <CommandClearPrioritizedWorkDesc>수동으로 시킨 작업을 모두 취소하고 일상으로 되돌려 보냅니다.</CommandClearPrioritizedWorkDesc>
