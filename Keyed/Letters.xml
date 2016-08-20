@@ -29,9 +29,9 @@
     <RecruitFail>{1}에 {0}의 대한 포섭은 실패했습니다. (포섭 확률 {2})</RecruitFail>
 
     <LetterLabelBirthday>생일</LetterLabelBirthday>
-    <BirthdayChronological>오늘은 {0}의 시간적 생일입니다! {1} {2}살이 되었습니다. \n\n사람들은 동면중일 때 나이를 먹지 않기 때문에 시간적 생일은 생물학적 생일과 분리되어 있습니다. 생물학적으로 {0}의 나이는 {3}살입니다.
+    <BirthdayChronological>오늘은 {0}의 실제 생일입니다! {1} {2}살이 되었습니다. \n\n사람들은 동면중일 때 나이를 먹지 않기 때문에 실제 생일은 생체적 생일과 분리되어 있습니다. 생체적으로 {0}의 나이는 {3}살입니다.
     </BirthdayChronological>
-    <BirthdayBiologicalAgeInjuries>오늘은 {0}의 생물학적 생일로, 이제 {1}살입니다. \n\n불행하게도 {0}의 몸은 노화로 인해 다음의 질병을 지니게 되었습니다. \n{2}
+    <BirthdayBiologicalAgeInjuries>오늘은 {0}의 생체적 생일로, 이제 {1}살입니다. \n\n불행하게도 {0}의 몸은 노화로 인해 다음의 질병을 지니게 되었습니다. \n{2}
     </BirthdayBiologicalAgeInjuries>
 
     <LetterLabelNewDisease>질병</LetterLabelNewDisease>
@@ -118,7 +118,7 @@
 
     <!-- Newly addicted -->
     <LetterLabelNewlyAddicted>{0} 중독</LetterLabelNewlyAddicted>
-    <LetterNewlyAddicted>{0}(이)가 {1}에 중독됐습니다.\n\nHECAP의 욕구 탭에서 필요한 {1} 욕구를 확인할 수 있으며, 가능한 경우 스스로 약물을 사용해 욕구를 채울 것입니다. 욕구 부족이 계속 된다면 일시적 금단현상을 보일 수 있습니다.</LetterNewlyAddicted>
+    <LetterNewlyAddicted>{0}(이)가 {1}에 중독됐습니다.\n\nHECAP의 필요 탭에서 필요한 {1} 필요를 확인할 수 있으며, 가능한 경우 스스로 약물을 사용해 필요를 채울 것입니다. 필요 부족이 계속 된다면 일시적 금단 현상을 보일 수 있습니다.</LetterNewlyAddicted>
 
     <!-- Drug binge -->
     <LetterLabelDrugBinge>{0} 갈망</LetterLabelDrugBinge>

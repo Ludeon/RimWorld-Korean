@@ -44,7 +44,7 @@
     <AlcoholAddiction.label>알콜 중독</AlcoholAddiction.label>
     <rep>
         <path>AlcoholAddiction.stages[1].label</path>
-        <trans>금단현상</trans>
+        <trans>금단 현상</trans>
     </rep>
 
     <!--================= Amphetamine.xml =================-->
@@ -56,7 +56,7 @@
     <AmphetamineAddiction.label>암페타민 중독</AmphetamineAddiction.label>
     <rep>
         <path>AmphetamineAddiction.stages[1].label</path>
-        <trans>금단현상</trans>
+        <trans>금단 현상</trans>
     </rep>
 
     <!--================= Cannabis.xml =================-->
@@ -68,12 +68,12 @@
     <CannabisAddiction.label>대마초 의존증</CannabisAddiction.label>
     <rep>
         <path>CannabisAddiction.stages[1].label</path>
-        <trans>금단현상</trans>
+        <trans>금단 현상</trans>
     </rep>
 
-    <!--================= Cocaine_Crack.xml =================-->
+    <!--================= Cocaine_Flake.xml =================-->
 
-    <CrackHigh.label>크랙에 취함</CrackHigh.label>
+    <FlakeHigh.label>플레이크에 취함</FlakeHigh.label>
 
     <!--================= Cocaine_Yayo.xml =================-->
 
@@ -84,7 +84,7 @@
     <CocaineAddiction.label>코카인 중독</CocaineAddiction.label>
     <rep>
         <path>CocaineAddiction.stages[1].label</path>
-        <trans>금단현상</trans>
+        <trans>금단 현상</trans>
     </rep>
 
     <!--================= GoJuice.xml =================-->
@@ -96,7 +96,17 @@
     <GoJuiceAddiction.label>고-주스 중독</GoJuiceAddiction.label>
     <rep>
         <path>GoJuiceAddiction.stages[1].label</path>
-        <trans>금단현상</trans>
+        <trans>금단 현상</trans>
+    </rep>
+
+    <!--================= Luciferium.xml =================-->
+
+    <LuciferiumHigh.label>루시페륨</LuciferiumHigh.label>
+
+    <LuciferiumAddiction.label>루시페륨</LuciferiumAddiction.label>
+    <rep>
+        <path>LuciferiumAddiction.stages[1].label</path>
+        <trans>부족</trans>
     </rep>
 
     <!--================= MalariBlock.xml =================-->

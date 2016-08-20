@@ -6,10 +6,7 @@
 See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
 
-A14 Translator
-* Latta
-
-See this page for full list of translators:
+See this page for credits:
 https://github.com/Ludeon/RimWorld-Korean/wiki/Credits
 
 

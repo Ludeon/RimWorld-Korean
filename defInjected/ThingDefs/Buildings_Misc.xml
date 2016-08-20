@@ -2,13 +2,21 @@
 <LanguageData>
 
     <OrbitalTradeBeacon.label>무역 송신기</OrbitalTradeBeacon.label>
-    <OrbitalTradeBeacon.description>궤도의 상선과 거래를 할 때 사용됩니다. 해당 범위 안에 물건이 존재할 때 판매 가능하며, 상선인 물건을 보낼 때도 이 송신기 주위로 보냅니다.</OrbitalTradeBeacon.description>
+    <OrbitalTradeBeacon.description>궤도의 상선과 거래를 할 때 사용됩니다. 해당 범위 안에 아이템이 존재할 때 판매 가능하며, 상선에서 아이템을 보낼 때도 송신기 주위로 보냅니다.</OrbitalTradeBeacon.description>
 
     <CommsConsole.label>통신 제어반</CommsConsole.label>
     <CommsConsole.description>멀리 떨어진 상인들과 거래를 하거나, 다른 세력들과의 외교에 필요한 라디오 송출기입니다.</CommsConsole.description>
 
     <FirefoamPopper.label>화재진압 거품 발포기</FirefoamPopper.label>
     <FirefoamPopper.description>수동으로, 또는 불이 닿으면 터져 주위에 원형으로 불연성 거품을 뿌립니다.</FirefoamPopper.description>
+
+    <MoisturePump.label>흡습 펌프</MoisturePump.label>
+    <MoisturePump.description>주변 땅의 물을 빨아들여 습지나 얕은 물을 건조하게 바꿉니다. 깊은 물에는 영향을 주지 않습니다.</MoisturePump.description>
+
+    <GroundPenetratingScanner.label>지면 투과 스캐너</GroundPenetratingScanner.label>
+    <GroundPenetratingScanner.description>소나, 자기측정장치, 레이더로 이루어진 장비로 지하의 자원을 감지할 수 있습니다. 종류는 알아내지 못합니다. 대량의 전기를 필요로 합니다.</GroundPenetratingScanner.description>
+
+    <!--========================== Facilities ============================-->
 
     <MultiAnalyzer.label>복합 분석기</MultiAnalyzer.label>
     <MultiAnalyzer.description>연구 속도를 올려줍니다. 고급 연구대 근처에 배치되어야 합니다. 하나의 작업대에 하나의 분석기만 연결될 수 있습니다.</MultiAnalyzer.description>
@@ -18,9 +26,6 @@
 
     <ToolCabinet.label>도구 수납장</ToolCabinet.label>
     <ToolCabinet.description>작업 속도에 도움을 줍니다. 작업대 근처에 배치되어야 합니다. 하나의 작업대에 두 개의 수납장만 연결될 수 있습니다.</ToolCabinet.description>
-
-    <MoisturePump.label>흡습 펌프</MoisturePump.label>
-    <MoisturePump.description>주변 땅의 물을 빨아들여 습지나 얕은 물을 건조하게 바꿉니다. 깊은 물에는 영향을 주지 않습니다.</MoisturePump.description>
 
     <!--=========================== Graves ============================-->
 

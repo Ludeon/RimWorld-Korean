@@ -4,7 +4,7 @@
     <LetterLabelAnimalInsanitySingle>동물 광분</LetterLabelAnimalInsanitySingle>
     <AnimalInsanitySingle>근처에 있는 {0}의 정신에 문제가 생겼는지 보이는 모든 것들을 공격하기 시작했습니다.</AnimalInsanitySingle>
     <LetterLabelAnimalInsanityMultiple>동물 떼 광분!</LetterLabelAnimalInsanityMultiple>
-    <AnimalInsanityMultiple>정신파동이 주위를 쓸고 지나갔습니다. 당신의 정착지 정착민들은 괜찮지만, 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미쳤습니다.
+    <AnimalInsanityMultiple>정신파동이 주위를 쓸고 지나갔습니다. 정착지 정착민들은 괜찮았지만 주변 여러 {0}의 정신에는 영향이 있었는지 모두 미쳐버렸습니다.
     </AnimalInsanityMultiple>
 
     <LetterLabelCropBlight>병충해</LetterLabelCropBlight>
@@ -41,22 +41,24 @@
 
     <TraderArrival>{1} "{0}"(이)가 궤도에 진입했습니다.</TraderArrival>
 
-    <SingleTravelerPassing>{1}에서 온 사람이 정착지 근처를 지나가고 있습니다. HIS 이름은 {2}이며, {0}입니다.</SingleTravelerPassing>
+    <SingleTravelerPassing>{1}에서 온 사람이 정착지 근처를 지나가고 있습니다. 이름은 {2}이며, {0}입니다.</SingleTravelerPassing>
 
     <GroupTravelersPassing>{0}의 여행객들이 지나가고 있습니다.</GroupTravelersPassing>
 
     <LetterLabelSingleVisitorArrives>방문객</LetterLabelSingleVisitorArrives>
-    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\nHIS 이름은 {2}이며, {0}입니다. {3}{4}</SingleVisitorArrives>
-    <SingleVisitorArrivesTraderInfo>\n\nHE 거래할 마음이 있는 물건을 조금 가지고 있는 듯 합니다.</SingleVisitorArrivesTraderInfo>
-    <SingleVisitorArrivesLeaderInfo>\\nHE 세력의 지도자입니다.</SingleVisitorArrivesLeaderInfo>
+    <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\n이름은 {2}이며, {0}입니다. {3}{4}</SingleVisitorArrives>
+    <SingleVisitorArrivesTraderInfo>\n\nHE 약간의 물건을 거래할 마음이 있는 듯 합니다.</SingleVisitorArrivesTraderInfo> <!-- 3 -->
+    <SingleVisitorArrivesLeaderInfo>\\nHE 세력의 지도자입니다.</SingleVisitorArrivesLeaderInfo> <!-- 4 -->
+
     <LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
     <GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다. {1}{2}</GroupVisitorsArrive>
-    <GroupVisitorsArriveTraderInfo>\n\n이들은 거래할 마음이 있는 물건을 조금 가지고 있는 듯 합니다.</GroupVisitorsArriveTraderInfo>
-    <GroupVisitorsArriveLeaderInfo>\n\n이들 중 한 사람, {0}(은)는 세력의 지도자입니다.</GroupVisitorsArriveLeaderInfo>
+    <GroupVisitorsArriveTraderInfo>\n\n이들은 약간의 물건을 거래할 마음이 있는 듯 합니다.</GroupVisitorsArriveTraderInfo> <!-- 3 -->
+    <GroupVisitorsArriveLeaderInfo>\n\n이들 중 한 사람, {0}(은)는 세력의 지도자입니다.</GroupVisitorsArriveLeaderInfo> <!-- 4 -->
+
     <VisitorsLeaving>{0}에서 온 방문자들이 떠나고 있습니다.</VisitorsLeaving>
 
     <LetterLabelWandererJoin>나그네 합류</LetterLabelWandererJoin>
-    <WandererJoin>정착지에 합류하는 사람이 있습니다. HIS 이름은 NAME이며 {0}, {1}입니다.</WandererJoin>
+    <WandererJoin>정착지에 합류하는 사람이 있습니다. 이름은 NAME이며 {0}, {1}입니다.</WandererJoin>
 
     <LetterLabelManhunterPackArrived>식인동물 무리</LetterLabelManhunterPackArrived>
     <ManhunterPackArrived>식인 {0} 무리가 도착했습니다. 근처를 돌아다니면서 눈에 띄는 모든 인간을 공격할 것이지만 문을 통과할 수 없으므로 벽 뒤에 숨어있으면 안전합니다. 또한 비활성화 상태의 포탑은 공격하지 않으니 포탑을 아껴두려면 지금 전원을 꺼두세요.\n며칠 안에는 이 지역을 떠날 것입니다.</ManhunterPackArrived>
@@ -72,8 +74,7 @@
     <PsychicDroneLevelHigh>높음</PsychicDroneLevelHigh>
     <PsychicDroneLevelExtreme>심각</PsychicDroneLevelExtreme>
     <LetterLabelPsychicDroneLevelIncreased>정신파동 심화</LetterLabelPsychicDroneLevelIncreased>
-    <LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 더 강한 정신파동을 방출하기 시작했습니다. 이제 이 지역의 모든 인간들은 더 불안해 하고, 겁에 질리며, 심화된 피해 망상을 하기 시작합니다.
-    </LetterPsychicDroneLevelIncreased>
+    <LetterPsychicDroneLevelIncreased>추락한 우주선의 잔해에서 더 강한 정신파동을 방출합니다. 이 지역의 모든 인간들이 더 불안해 하고, 쉽게 겁에 질리며, 피해 망상이 심화됩니다.</LetterPsychicDroneLevelIncreased>
 
     <!-- Agent revealed -->
     <LetterLabelAgentRevealed>첩자</LetterLabelAgentRevealed>
@@ -81,7 +82,7 @@
 
     <!-- Distant psychic drone -->
     <LetterLabelPsychicDrone>정신파동</LetterLabelPsychicDrone>
-    <LetterIncidentPsychicDrone>정착지 모든 {0}의 머리에 못질하는 듯한 두통이 느껴지고 있습니다! \n\n멀리 떨어진 증오의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
+    <LetterIncidentPsychicDrone>정착지 모든 {0}의 머리가 깨질듯한 두통을 느끼고 있습니다! \n\n멀리 떨어진 증오의 기계가 작동하면서 방출하는, 특정 성별에만 영향을 미치는 정신파동이 며칠 동안 몇몇 사람들의 기분을 나쁘게 할 것입니다.
     </LetterIncidentPsychicDrone>
 
     <LetterLabelPsychicSoothe>정신파동</LetterLabelPsychicSoothe>
@@ -93,10 +94,10 @@
     <BeaversArrived>배고픈 알파비버 무리가 도착했습니다.\n\n이 지역의 마지막 나무까지 몽땅 먹어 치우기전에 모두 제거하세요.</BeaversArrived>
 
     <!-- Refugee chased -->
-    <RefugeeChasedInitial>{0}의 이름으로 알려진 {1}(이)가 근처에서 당신을 호출하고, 자신이 "{3}"에서 온 {2}에게 쫓기고 있다고 말했습니다!\n\nHE 보호를 간청하며 정착지에 합류할 의사를 밝혔습니다. HIS 생물학적 나이는 {4}살입니다.\n\n조심하세요. 만약 이 자를 받아들일 경우 {2}과 싸워야 할 것입니다.</RefugeeChasedInitial>
+    <RefugeeChasedInitial>{0}의 이름으로 알려진 {1}(이)가 근처에서 당신을 호출하고, 자신이 "{3}"에서 온 {2}에게 쫓기고 있다고 말합니다!\n\nHE 보호를 간청하며 정착지에 합류할 의사를 밝혔습니다. HIS 생체적 나이는 {4}살입니다.\n\n조심하세요. 만약 {0}(을)를 받아들일 경우 {2}과 싸워야 할 것입니다.</RefugeeChasedInitial>
     <RefugeeChasedInitial_Accept>보호 제공</RefugeeChasedInitial_Accept>
     <RefugeeChasedInitial_Reject>호출 무시</RefugeeChasedInitial_Reject>
-    <RefugeeChasedRejected>당신이 통신을 끊기 직전 스피커를 통해 겁에 질린 {0}의 비명소리가 들렸습니다.</RefugeeChasedRejected>
+    <RefugeeChasedRejected>통신을 끊기 직전 스피커를 통해 겁에 질린 {0}의 비명소리가 들렸습니다.</RefugeeChasedRejected>
 
     <!-- Self-tame -->
     <LetterLabelAnimalSelfTame>{0}의 복종</LetterLabelAnimalSelfTame>
