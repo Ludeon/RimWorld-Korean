@@ -1,44 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+
     <AnimalChat.label>대화</AnimalChat.label>
-    <rep>
-        <path>AnimalChat.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef](와)과 대화.</trans>
-    </rep>
-    <rep>
-        <path>AnimalChat.logRulesRecipient.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef]의 친밀한 접근에 반응.</trans>
-    </rep>
+    <AnimalChat.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](와)과 대화</AnimalChat.logRulesInitiator.rulesStrings.0>
+    <AnimalChat.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]의 친밀한 접근에 반응.</AnimalChat.logRulesRecipient.rulesStrings.0>
 
     <TrainAttempt.label>훈련 시도</TrainAttempt.label>
-    <rep>
-        <path>TrainAttempt.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef] 훈련.</trans>
-    </rep>
-    <rep>
-        <path>TrainAttempt.logRulesRecipient.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef]에게 훈련 받음.</trans>
-    </rep>
+    <TrainAttempt.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef] 훈련.</TrainAttempt.logRulesInitiator.rulesStrings.0>
+    <TrainAttempt.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게 훈련 받음.</TrainAttempt.logRulesRecipient.rulesStrings.0>
 
     <TameAttempt.label>조련 시도</TameAttempt.label>
-    <rep>
-        <path>TameAttempt.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef] 조련 시도.</trans>
-    </rep>
-    <rep>
-        <path>TameAttempt.logRulesRecipient.rulesStrings[0]</path>
-        <trans>logentry->날 조련하려는 [other_nameShortIndef] 구경.</trans>
-    </rep>
+    <TameAttempt.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef] 조련 시도.</TameAttempt.logRulesInitiator.rulesStrings.0>
+    <TameAttempt.logRulesRecipient.rulesStrings.0>logentry->날 조련하려는 [other_nameShortIndef] 구경.</TameAttempt.logRulesRecipient.rulesStrings.0>
 
     <Nuzzle.label>애교</Nuzzle.label>
-    <rep>
-        <path>Nuzzle.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef] 애교.</trans>
-    </rep>
-    <rep>
-        <path>Nuzzle.logRulesRecipient.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef]에게 애교받음.</trans>
-    </rep>
+    <Nuzzle.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef] 애교.</Nuzzle.logRulesInitiator.rulesStrings.0>
+    <Nuzzle.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게 애교받음.</Nuzzle.logRulesRecipient.rulesStrings.0>
 
 </LanguageData>
