@@ -4,48 +4,21 @@
     <!--================= Alcohol_Beer.xml =================-->
 
     <AlcoholHigh.label>알코올</AlcoholHigh.label>
-    <rep>
-        <path>AlcoholHigh.stages[1].label</path>
-        <trans>warm</trans>
-    </rep>
-    <rep>
-        <path>AlcoholHigh.stages[2].label</path>
-        <trans>tipsy</trans>
-    </rep>
-    <rep>
-        <path>AlcoholHigh.stages[3].label</path>
-        <trans>drunk</trans>
-    </rep>
-    <rep>
-        <path>AlcoholHigh.stages[4].label</path>
-        <trans>hammered</trans>
-    </rep>
-    <rep>
-        <path>AlcoholHigh.stages[5].label</path>
-        <trans>blackout</trans>
-    </rep>
+    <AlcoholHigh.stages.1.label>달아오름</AlcoholHigh.stages.1.label>
+    <AlcoholHigh.stages.2.label>어지러움</AlcoholHigh.stages.2.label>
+    <AlcoholHigh.stages.3.label>취함</AlcoholHigh.stages.3.label>
+    <AlcoholHigh.stages.4.label>인사불성</AlcoholHigh.stages.4.label>
+    <AlcoholHigh.stages.5.label>기절</AlcoholHigh.stages.5.label>
 
     <Hangover.label>숙취</Hangover.label>
-    <rep>
-        <path>Hangover.stages[0].label</path>
-        <trans>slight</trans>
-    </rep>
-    <rep>
-        <path>Hangover.stages[1].label</path>
-        <trans>strong</trans>
-    </rep>
-    <rep>
-        <path>Hangover.stages[2].label</path>
-        <trans>pounding</trans>
-    </rep>
+    <Hangover.stages.0.label>약함</Hangover.stages.0.label>
+    <Hangover.stages.1.label>중간</Hangover.stages.1.label>
+    <Hangover.stages.2.label>강함</Hangover.stages.2.label>
 
     <AlcoholTolerance.label>알콜 내성</AlcoholTolerance.label>
 
     <AlcoholAddiction.label>알콜 중독</AlcoholAddiction.label>
-    <rep>
-        <path>AlcoholAddiction.stages[1].label</path>
-        <trans>금단 현상</trans>
-    </rep>
+    <AlcoholAddiction.stages.0.label>금단 현상</AlcoholAddiction.stages.0.label>
 
     <!--================= Amphetamine.xml =================-->
 
@@ -54,10 +27,7 @@
     <AmphetamineTolerance.label>암페타민 내성</AmphetamineTolerance.label>
 
     <AmphetamineAddiction.label>암페타민 중독</AmphetamineAddiction.label>
-    <rep>
-        <path>AmphetamineAddiction.stages[1].label</path>
-        <trans>금단 현상</trans>
-    </rep>
+    <AmphetamineAddiction.stages.0.label>금단 현상</AmphetamineAddiction.stages.0.label>
 
     <!--================= Cannabis.xml =================-->
 
@@ -66,10 +36,7 @@
     <CannabisTolerance.label>대마초 내성</CannabisTolerance.label>
 
     <CannabisAddiction.label>대마초 의존증</CannabisAddiction.label>
-    <rep>
-        <path>CannabisAddiction.stages[1].label</path>
-        <trans>금단 현상</trans>
-    </rep>
+    <CannabisAddiction.stages.0.label>금단 현상</CannabisAddiction.stages.0.label>
 
     <!--================= Cocaine_Flake.xml =================-->
 
@@ -82,10 +49,7 @@
     <CocaineTolerance.label>코카인 내성</CocaineTolerance.label>
 
     <CocaineAddiction.label>코카인 중독</CocaineAddiction.label>
-    <rep>
-        <path>CocaineAddiction.stages[1].label</path>
-        <trans>금단 현상</trans>
-    </rep>
+    <CocaineAddiction.stages.0.label>금단 현상</CocaineAddiction.stages.0.label>
 
     <!--================= GoJuice.xml =================-->
 
@@ -94,20 +58,14 @@
     <GoJuiceTolerance.label>고-주스 내성</GoJuiceTolerance.label>
 
     <GoJuiceAddiction.label>고-주스 중독</GoJuiceAddiction.label>
-    <rep>
-        <path>GoJuiceAddiction.stages[1].label</path>
-        <trans>금단 현상</trans>
-    </rep>
+    <GoJuiceAddiction.stages.0.label>금단 현상</GoJuiceAddiction.stages.0.label>
 
     <!--================= Luciferium.xml =================-->
 
     <LuciferiumHigh.label>루시페륨</LuciferiumHigh.label>
 
     <LuciferiumAddiction.label>루시페륨</LuciferiumAddiction.label>
-    <rep>
-        <path>LuciferiumAddiction.stages[1].label</path>
-        <trans>부족</trans>
-    </rep>
+    <LuciferiumAddiction.stages.0.label>금단 현상</LuciferiumAddiction.stages.0.label>
 
     <!--================= MalariBlock.xml =================-->
 
