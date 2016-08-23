@@ -1,36 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Chitchat.label>잡담</Chitchat.label>
-    <rep>
-        <path>Chitchat.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef](와)과 즐거운 대화 나눔.</trans>
-    </rep>
+    <Chitchat.label>잡담</Chitchat.label>
+    <Chitchat.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](와)과 즐거운 대화 나눔.</Chitchat.logRulesInitiator.rulesStrings.0>
 
-	<DeepTalk.label>진지한 대화</DeepTalk.label>
-    <rep>
-        <path>DeepTalk.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef](와)과 진지한 대화 나눔.</trans>
-    </rep>
+    <DeepTalk.label>진지한 대화</DeepTalk.label>
+    <DeepTalk.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](와)과 진지한 대화 나눔.</DeepTalk.logRulesInitiator.rulesStrings.0>
 
-	<Slight.label>무시</Slight.label>
-    <rep>
-        <path>Slight.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef](을)를 무시함.</trans>
-    </rep>
-    <rep>
-        <path>Slight.logRulesRecipient.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef]에게 무시당함.</trans>
-    </rep>
+    <Slight.label>무시</Slight.label>
+    <Slight.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](을)를 무시함.</Slight.logRulesInitiator.rulesStrings.0>
+    <Slight.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게 무시당함.</Slight.logRulesRecipient.rulesStrings.0>
 
-	<Insult.label>모욕</Insult.label>
-    <rep>
-        <path>Insult.logRulesInitiator.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef](을)를 모욕함.</trans>
-    </rep>
-    <rep>
-        <path>Insult.logRulesRecipient.rulesStrings[0]</path>
-        <trans>logentry->[other_nameShortIndef]에게 모욕당함.</trans>
-    </rep>
+    <Insult.label>모욕</Insult.label>
+    <Insult.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](을)를 모욕함.</Insult.logRulesInitiator.rulesStrings.0>
+    <Insult.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게 모욕당함.</Insult.logRulesRecipient.rulesStrings.0>
 
 </LanguageData>

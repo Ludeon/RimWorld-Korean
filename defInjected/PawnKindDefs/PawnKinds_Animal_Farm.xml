@@ -1,58 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Chicken.label>닭</Chicken.label>
-	<Chicken.labelMale>수탉</Chicken.labelMale>
-	<Chicken.labelFemale>암탉</Chicken.labelFemale>
-	<rep>
-		<path>Chicken.lifeStages[0].label</path>
-		<trans>병아리</trans>
-	</rep>
-	<rep>
-		<path>Chicken.lifeStages[1].labelMale</path>
-		<trans>수탉</trans>
-	</rep>
-	<rep>
-		<path>Chicken.lifeStages[1].labelFemale</path>
-		<trans>암탉</trans>
-	</rep>
+    <Chicken.label>닭</Chicken.label>
+    <Chicken.labelMale>수탉</Chicken.labelMale>
+    <Chicken.labelFemale>암탉</Chicken.labelFemale>
+    <Chicken.lifeStages.0.label>병아리</Chicken.lifeStages.0.label>
 
-	<Pig.label>돼지</Pig.label>
-	<Pig.labelMale>수퇘지</Pig.labelMale>
-	<Pig.labelFemale>암퇘지</Pig.labelFemale>
-	<rep>
-		<path>Pig.lifeStages[0].labelMale</path>
-		<trans>새끼 암퇘지</trans>
-	</rep>
-	<rep>
-		<path>Pig.lifeStages[0].labelFemale</path>
-		<trans>새끼 수퇘지</trans>
-	</rep>
-	<rep>
-		<path>Pig.lifeStages[1].labelMale</path>
-		<trans>수퇘지</trans>
-	</rep>
-	<rep>
-		<path>Pig.lifeStages[1].labelFemale</path>
-		<trans>암퇘지</trans>
-	</rep>
+    <Pig.label>돼지</Pig.label>
+    <Pig.labelFemale>암퇘지</Pig.labelFemale>
+    <Pig.lifeStages.0.label>새끼 돼지</Pig.lifeStages.0.label>
 
-	<Cow.label>소</Cow.label>
-	<Cow.labelMale>숫소</Cow.labelMale>
-	<Cow.labelFemale>암소</Cow.labelFemale>
-	<rep>
-		<path>Cow.lifeStages[0].label</path>
-		<trans>송아지</trans>
-	</rep>
-	<rep>
-		<path>Cow.lifeStages[1].labelMale</path>
-		<trans>숫소</trans>
-	</rep>
-	<rep>
-		<path>Cow.lifeStages[1].labelFemale</path>
-		<trans>암소</trans>
-	</rep>
+    <Cow.label>소</Cow.label>
+    <Cow.labelMale>숫소</Cow.labelMale>
+    <Cow.labelFemale>암소</Cow.labelFemale>
+    <Cow.lifeStages.0.label>송아지</Cow.lifeStages.0.label>
 
-	<Alpaca.label>알파카</Alpaca.label>
+    <Alpaca.label>알파카</Alpaca.label>
 
 </LanguageData>

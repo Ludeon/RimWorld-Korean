@@ -3,153 +3,57 @@
 
     <!--================= Alcohol_Beer.xml =================-->
 
-    <rep>
-        <path>Inebriated.stages[1].label</path>
-        <trans>취기 (달아오름)</trans>
-    </rep>
-    <rep>
-        <path>Inebriated.stages[1].description</path>
-        <trans>이제 좀 편안하네.</trans>
-    </rep>
-    <rep>
-        <path>Inebriated.stages[2].label</path>
-        <trans>취기 (어지러움)</trans>
-    </rep>
-    <rep>
-        <path>Inebriated.stages[2].description</path>
-        <trans>아이고, 좀 어질어질한데!</trans>
-    </rep>
-    <rep>
-        <path>Inebriated.stages[3].label</path>
-        <trans>취기 (취함)</trans>
-    </rep>
-    <rep>
-        <path>Inebriated.stages[3].description</path>
-        <trans>아직 멀었어! 더 가져와봐! 좋다!</trans>
-    </rep>
-    <rep>
-        <path>Inebriated.stages[4].label</path>
-        <trans>취기 (인사불성)</trans>
-    </rep>
-    <rep>
-        <path>Inebriated.stages[4].description</path>
-        <trans>우후! 이게 뭐야?</trans>
-    </rep>
+    <Inebriated.stages.1.label>취기 (달아오름)</Inebriated.stages.1.label>
+    <Inebriated.stages.1.description>이제 좀 편안하네.</Inebriated.stages.1.description>
+    <Inebriated.stages.2.label>취기 (어지러움)</Inebriated.stages.2.label>
+    <Inebriated.stages.2.description>아이고, 좀 어질어질한데!</Inebriated.stages.2.description>
+    <Inebriated.stages.3.label>취기 (취함)</Inebriated.stages.3.label>
+    <Inebriated.stages.3.description>아직 멀었어! 더 가져와봐! 좋다!</Inebriated.stages.3.description>
+    <Inebriated.stages.4.label>취기 (인사불성)</Inebriated.stages.4.label>
+    <Inebriated.stages.4.description>우후! 무슨 일이야??</Inebriated.stages.4.description>
 
-    <rep>
-        <path>Hungover.stages[0].label</path>
-        <trans>숙취 (약함)</trans>
-    </rep>
-    <rep>
-        <path>Hungover.stages[0].description</path>
-        <trans>이제 거의 안아파.</trans>
-    </rep>
-    <rep>
-        <path>Hungover.stages[1].label</path>
-        <trans>숙취 (중간)</trans>
-    </rep>
-    <rep>
-        <path>Hungover.stages[1].description</path>
-        <trans>망할 놈의 술.</trans>
-    </rep>
-    <rep>
-        <path>Hungover.stages[2].label</path>
-        <trans>숙취 (강함)</trans>
-    </rep>
-    <rep>
-        <path>Hungover.stages[2].description</path>
-        <trans>내 머리에 못을 박아넣는 고통이야.</trans>
-    </rep>
+    <Hungover.stages.0.label>숙취 (약함)</Hungover.stages.0.label>
+    <Hungover.stages.0.description>이제 거의 깼어.</Hungover.stages.0.description>
+    <Hungover.stages.1.label>숙취 (중간)</Hungover.stages.1.label>
+    <Hungover.stages.1.description>망할 놈의 술.</Hungover.stages.1.description>
+    <Hungover.stages.2.label>숙취 (강함)</Hungover.stages.2.label>
+    <Hungover.stages.2.description>내 머리에 못을 박아넣는 고통이야..</Hungover.stages.2.description>
 
-    <rep>
-        <path>AlcoholWithdrawal.stages[1].label</path>
-        <trans>알코올 금단 현상</trans>
-    </rep>
-    <rep>
-        <path>AlcoholWithdrawal.stages[1].description</path>
-        <trans>몸이 덜덜 떨려. 모든게 다 거슬려. 아, 술 생각만 계속 난다고.</trans>
-    </rep>
+    <AlcoholWithdrawal.stages.1.label>알코올 금단 현상</AlcoholWithdrawal.stages.1.label>
+    <AlcoholWithdrawal.stages.1.description>몸이 덜덜 떨려. 모든게 다 거슬려. 아, 술 생각만 계속 난다고.</AlcoholWithdrawal.stages.1.description>
 
     <!--================= Amphetamine.xml =================-->
 
-    <rep>
-        <path>AmphetamineWithdrawal.stages[1].label</path>
-        <trans>암페타민 금단 현상</trans>
-    </rep>
-    <rep>
-        <path>AmphetamineWithdrawal.stages[1].description</path>
-        <trans>집중도 안되고 흐릿해.</trans>
-    </rep>
+    <AmphetamineWithdrawal.stages.1.label>암페타민 금단 현상</AmphetamineWithdrawal.stages.1.label>
+    <AmphetamineWithdrawal.stages.1.description>집중도 안되고 흐릿해.</AmphetamineWithdrawal.stages.1.description>
 
     <!--================= Cannabis.xml =================-->
 
-    <rep>
-        <path>CannabisHigh.stages[0].label</path>
-        <trans>대마초에 취함</trans>
-    </rep>
-    <rep>
-        <path>CannabisHigh.stages[0].description</path>
-        <trans>이거, 야, 나 완전 취했잖아, 어?</trans>
-    </rep>
+    <CannabisHigh.stages.0.label>대마초에 취함</CannabisHigh.stages.0.label>
+    <CannabisHigh.stages.0.description>이거, 야, 나 완전 취했잖아, 어?</CannabisHigh.stages.0.description>
 
-    <rep>
-        <path>CannabisWithdrawal.stages[1].label</path>
-        <trans>대마초 금단 현상</trans>
-    </rep>
-    <rep>
-        <path>CannabisWithdrawal.stages[1].description</path>
-        <trans>한 대 피고 싶다.</trans>
-    </rep>
+    <CannabisWithdrawal.stages.1.label>대마초 금단 현상</CannabisWithdrawal.stages.1.label>
+    <CannabisWithdrawal.stages.1.description>한 대 피고 싶다.</CannabisWithdrawal.stages.1.description>
 
     <!--================= Cocaine_Flake.xml =================-->
 
-    <rep>
-        <path>FlakeHigh.stages[0].label</path>
-        <trans>플레이크에 취함</trans>
-    </rep>
-    <rep>
-        <path>FlakeHigh.stages[0].description</path>
-        <trans>아, 좋아. 너무 좋아.</trans>
-    </rep>
+    <FlakeHigh.stages.0.label>플레이크에 취함</FlakeHigh.stages.0.label>
+    <FlakeHigh.stages.0.description>아, 좋아. 너무 좋아.</FlakeHigh.stages.0.description>
 
     <!--================= Cocaine_Yayo.xml =================-->
 
-    <rep>
-        <path>YayoHigh.stages[0].label</path>
-        <trans>코카인에 취함</trans>
-    </rep>
-    <rep>
-        <path>YayoHigh.stages[0].description</path>
-        <trans>느낌 오는데! 어디 해보자고!</trans>
-    </rep>
+    <YayoHigh.stages.0.label>코카인에 취함</YayoHigh.stages.0.label>
+    <YayoHigh.stages.0.description>느낌 오는데! 가자고!</YayoHigh.stages.0.description>
 
-    <rep>
-        <path>CocaineWithdrawal.stages[1].label</path>
-        <trans>코카인 금단 현상</trans>
-    </rep>
-    <rep>
-        <path>CocaineWithdrawal.stages[1].description</path>
-        <trans>너무 피곤한데. 모든게 안좋아.</trans>
-    </rep>
+    <CocaineWithdrawal.stages.1.label>코카인 금단 현상</CocaineWithdrawal.stages.1.label>
+    <CocaineWithdrawal.stages.1.description>너무 피곤해. 모든게 나빠.</CocaineWithdrawal.stages.1.description>
 
     <!--================= Cannabis.xml =================-->
 
-    <rep>
-        <path>GoJuiceHigh.stages[0].label</path>
-        <trans>고-주스에 취함</trans>
-    </rep>
-    <rep>
-        <path>GoJuiceHigh.stages[0].description</path>
-        <trans>침착한 머리와 힘찬 몸이라. 난 전장의 총알이지. 너를 죽여줄게.</trans>
-    </rep>
+    <GoJuiceHigh.stages.0.label>고-주스에 취함</GoJuiceHigh.stages.0.label>
+    <GoJuiceHigh.stages.0.description>침착한 머리와 힘찬 몸이라. 난 전장의 총알이지. 너를 죽여줄게.</GoJuiceHigh.stages.0.description>
 
-    <rep>
-        <path>GoJuiceWithdrawal.stages[1].label</path>
-        <trans>고-주스 금단 현상</trans>
-    </rep>
-    <rep>
-        <path>GoJuiceWithdrawal.stages[1].description</path>
-        <trans>집중도 안되고 흐릿해. 팔은 왜 이렇게 무겁고 눈은 초점도 안맞지?</trans>
-    </rep>
+    <GoJuiceWithdrawal.stages.1.label>go-juice withdrawal</GoJuiceWithdrawal.stages.1.label>
+    <GoJuiceWithdrawal.stages.1.description>집중도 안되고 흐릿해. 왜 팔은 이렇게 무겁고 눈은 초점도 안맞지?</GoJuiceWithdrawal.stages.1.description>
 
 </LanguageData>

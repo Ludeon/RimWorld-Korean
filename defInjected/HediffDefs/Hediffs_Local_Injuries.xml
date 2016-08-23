@@ -2,403 +2,136 @@
 <LanguageData>
 
     <Misc.label>기타</Misc.label>
-    <rep>
-        <path>Misc.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Misc.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Misc.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Misc.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Misc.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Misc.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
+    <Misc.comps.0.labelTendedWell>붕대 감음</Misc.comps.0.labelTendedWell>
+    <Misc.comps.0.labelTended>붕대 감음</Misc.comps.0.labelTended>
+    <Misc.comps.0.labelTendedWellInner>봉합됨</Misc.comps.0.labelTendedWellInner>
+    <Misc.comps.0.labelTendedInner>어설프게 봉합됨</Misc.comps.0.labelTendedInner>
+    <Misc.comps.0.labelSolidTendedWell>접합됨</Misc.comps.0.labelSolidTendedWell>
+    <Misc.comps.0.labelSolidTended>어설프게 접합됨</Misc.comps.0.labelSolidTended>
 
     <Burn.label>화상</Burn.label>
     <Burn.injuryProps.destroyedLabel>불에 타버림</Burn.injuryProps.destroyedLabel>
     <Burn.injuryProps.destroyedOutLabel>불에 타버림</Burn.injuryProps.destroyedOutLabel>
-    <rep>
-        <path>Burn.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Burn.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Burn.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Burn.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Burn.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Burn.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Burn.comps[2].oldLabel</path>
-        <trans>화상 흉터</trans>
-    </rep>
+    <Burn.comps.0.labelTendedWell>붕대 감음</Burn.comps.0.labelTendedWell>
+    <Burn.comps.0.labelTended>붕대 감음</Burn.comps.0.labelTended>
+    <Burn.comps.0.labelTendedWellInner>치료됨</Burn.comps.0.labelTendedWellInner>
+    <Burn.comps.0.labelTendedInner>어설프게 치료됨</Burn.comps.0.labelTendedInner>
+    <Burn.comps.0.labelSolidTendedWell>접합됨</Burn.comps.0.labelSolidTendedWell>
+    <Burn.comps.0.labelSolidTended>어설프게 접합됨</Burn.comps.0.labelSolidTended>
+    <Burn.comps.2.oldLabel>화상 흉터</Burn.comps.2.oldLabel>
 
     <Crush.label>으스러짐</Crush.label>
     <Crush.injuryProps.destroyedLabel>으스러짐</Crush.injuryProps.destroyedLabel>
-    <rep>
-        <path>Crush.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Crush.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Crush.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Crush.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Crush.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Crush.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Crush.comps[2].oldLabel</path>
-        <trans>흉터</trans>
-    </rep>
+    <Crush.comps.0.labelTendedWell>붕대 감음</Crush.comps.0.labelTendedWell>
+    <Crush.comps.0.labelTended>붕대 감음</Crush.comps.0.labelTended>
+    <Crush.comps.0.labelTendedWellInner>봉합됨</Crush.comps.0.labelTendedWellInner>
+    <Crush.comps.0.labelTendedInner>어설프게 봉합됨</Crush.comps.0.labelTendedInner>
+    <Crush.comps.0.labelSolidTendedWell>접합됨</Crush.comps.0.labelSolidTendedWell>
+    <Crush.comps.0.labelSolidTended>어설프게 접합됨</Crush.comps.0.labelSolidTended>
+    <Crush.comps.2.oldLabel>흉터</Crush.comps.2.oldLabel>
 
     <Crack.label>골절</Crack.label>
-    <rep>
-        <path>Crack.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Crack.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Crack.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Crack.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Crack.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Crack.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
+    <Crack.comps.0.labelTendedWell>붕대 감음</Crack.comps.0.labelTendedWell>
+    <Crack.comps.0.labelTended>붕대 감음</Crack.comps.0.labelTended>
+    <Crack.comps.0.labelTendedWellInner>봉합됨</Crack.comps.0.labelTendedWellInner>
+    <Crack.comps.0.labelTendedInner>어설프게 봉합됨</Crack.comps.0.labelTendedInner>
+    <Crack.comps.0.labelSolidTendedWell>접합됨</Crack.comps.0.labelSolidTendedWell>
+    <Crack.comps.0.labelSolidTended>어설프게 접합됨</Crack.comps.0.labelSolidTended>
 
     <Cut.label>베임</Cut.label>
     <Cut.injuryProps.destroyedLabel>끊어짐</Cut.injuryProps.destroyedLabel>
     <Cut.injuryProps.destroyedOutLabel>잘림</Cut.injuryProps.destroyedOutLabel>
-    <rep>
-        <path>Cut.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Cut.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Cut.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Cut.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Cut.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Cut.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Cut.comps[2].oldLabel</path>
-        <trans>베인 흉터</trans>
-    </rep>
+    <Cut.comps.0.labelTendedWell>붕대 감음</Cut.comps.0.labelTendedWell>
+    <Cut.comps.0.labelTended>붕대 감음</Cut.comps.0.labelTended>
+    <Cut.comps.0.labelTendedWellInner>봉합됨</Cut.comps.0.labelTendedWellInner>
+    <Cut.comps.0.labelTendedInner>어설프게 봉합됨</Cut.comps.0.labelTendedInner>
+    <Cut.comps.0.labelSolidTendedWell>접합됨</Cut.comps.0.labelSolidTendedWell>
+    <Cut.comps.0.labelSolidTended>어설프게 접합됨</Cut.comps.0.labelSolidTended>
+    <Cut.comps.2.oldLabel>베인 흉터</Cut.comps.2.oldLabel>
 
     <SurgicalCut.label>외과적 절단</SurgicalCut.label>
-    <rep>
-        <path>SurgicalCut.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>SurgicalCut.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>SurgicalCut.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>SurgicalCut.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>SurgicalCut.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>SurgicalCut.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>SurgicalCut.comps[1].oldLabel</path>
-        <trans>베인 흉터</trans>
-    </rep>
+    <SurgicalCut.comps.0.labelTendedWell>붕대 감음</SurgicalCut.comps.0.labelTendedWell>
+    <SurgicalCut.comps.0.labelTended>붕대 감음</SurgicalCut.comps.0.labelTended>
+    <SurgicalCut.comps.0.labelTendedWellInner>봉합됨</SurgicalCut.comps.0.labelTendedWellInner>
+    <SurgicalCut.comps.0.labelTendedInner>어설프게 봉합됨</SurgicalCut.comps.0.labelTendedInner>
+    <SurgicalCut.comps.0.labelSolidTendedWell>접합됨</SurgicalCut.comps.0.labelSolidTendedWell>
+    <SurgicalCut.comps.0.labelSolidTended>어설프게 접합됨</SurgicalCut.comps.0.labelSolidTended>
+    <SurgicalCut.comps.1.oldLabel>베인 흉터</SurgicalCut.comps.1.oldLabel>
 
     <Scratch.label>긁힘</Scratch.label>
     <Scratch.injuryProps.destroyedLabel>찢어짐</Scratch.injuryProps.destroyedLabel>
     <Scratch.injuryProps.destroyedOutLabel>찢겨나감</Scratch.injuryProps.destroyedOutLabel>
-    <rep>
-        <path>Scratch.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Scratch.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Scratch.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Scratch.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Scratch.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Scratch.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Scratch.comps[2].oldLabel</path>
-        <trans>긁힌 흉터</trans>
-    </rep>
+    <Scratch.comps.0.labelTendedWell>붕대 감음</Scratch.comps.0.labelTendedWell>
+    <Scratch.comps.0.labelTended>붕대 감음</Scratch.comps.0.labelTended>
+    <Scratch.comps.0.labelTendedWellInner>봉합됨</Scratch.comps.0.labelTendedWellInner>
+    <Scratch.comps.0.labelTendedInner>어설프게 봉합됨</Scratch.comps.0.labelTendedInner>
+    <Scratch.comps.0.labelSolidTendedWell>접합됨</Scratch.comps.0.labelSolidTendedWell>
+    <Scratch.comps.0.labelSolidTended>어설프게 접합됨</Scratch.comps.0.labelSolidTended>
+    <Scratch.comps.2.oldLabel>긁힌 흉터</Scratch.comps.2.oldLabel>
 
     <Bite.label>물림</Bite.label>
     <Bite.injuryProps.destroyedLabel>물어뜯김</Bite.injuryProps.destroyedLabel>
     <Bite.injuryProps.destroyedOutLabel>물어뜯김</Bite.injuryProps.destroyedOutLabel>
-    <rep>
-        <path>Bite.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Bite.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Bite.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Bite.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Bite.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Bite.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Bite.comps[2].oldLabel</path>
-        <trans>물린 흉터</trans>
-    </rep>
+    <Bite.comps.0.labelTendedWell>붕대 감음</Bite.comps.0.labelTendedWell>
+    <Bite.comps.0.labelTended>붕대 감음</Bite.comps.0.labelTended>
+    <Bite.comps.0.labelTendedWellInner>봉합됨</Bite.comps.0.labelTendedWellInner>
+    <Bite.comps.0.labelTendedInner>어설프게 봉합됨</Bite.comps.0.labelTendedInner>
+    <Bite.comps.0.labelSolidTendedWell>접합됨</Bite.comps.0.labelSolidTendedWell>
+    <Bite.comps.0.labelSolidTended>어설프게 접합됨</Bite.comps.0.labelSolidTended>
+    <Bite.comps.2.oldLabel>물린 흉터</Bite.comps.2.oldLabel>
 
     <Stab.label>찔림</Stab.label>
     <Stab.injuryProps.destroyedLabel>끊어짐</Stab.injuryProps.destroyedLabel>
     <Stab.injuryProps.destroyedOutLabel>잘림</Stab.injuryProps.destroyedOutLabel>
-    <rep>
-        <path>Stab.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Stab.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Stab.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Stab.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Stab.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Stab.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Stab.comps[2].oldLabel</path>
-        <trans>찔린 흉터</trans>
-    </rep>
+    <Stab.comps.0.labelTendedWell>붕대 감음</Stab.comps.0.labelTendedWell>
+    <Stab.comps.0.labelTended>붕대 감음</Stab.comps.0.labelTended>
+    <Stab.comps.0.labelTendedWellInner>봉합됨</Stab.comps.0.labelTendedWellInner>
+    <Stab.comps.0.labelTendedInner>어설프게 봉합됨</Stab.comps.0.labelTendedInner>
+    <Stab.comps.0.labelSolidTendedWell>접합됨</Stab.comps.0.labelSolidTendedWell>
+    <Stab.comps.0.labelSolidTended>어설프게 접합됨</Stab.comps.0.labelSolidTended>
+    <Stab.comps.2.oldLabel>찔린 흉터</Stab.comps.2.oldLabel>
 
     <Gunshot.label>총상</Gunshot.label>
     <Gunshot.injuryProps.destroyedLabel>총상으로 잃음</Gunshot.injuryProps.destroyedLabel>
     <Gunshot.injuryProps.destroyedOutLabel>총상으로 잃음</Gunshot.injuryProps.destroyedOutLabel>
-    <rep>
-        <path>Gunshot.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Gunshot.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Gunshot.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Gunshot.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Gunshot.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Gunshot.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Gunshot.comps[2].oldLabel</path>
-        <trans>오래된 총상</trans>
-    </rep>
-    <rep>
-        <path>Gunshot.comps[2].instantlyOldLabel</path>
-        <trans>영구적 총상</trans>
-    </rep>
+    <Gunshot.comps.0.labelTendedWell>붕대 감음</Gunshot.comps.0.labelTendedWell>
+    <Gunshot.comps.0.labelTended>붕대 감음</Gunshot.comps.0.labelTended>
+    <Gunshot.comps.0.labelTendedWellInner>봉합됨</Gunshot.comps.0.labelTendedWellInner>
+    <Gunshot.comps.0.labelTendedInner>어설프게 봉합됨</Gunshot.comps.0.labelTendedInner>
+    <Gunshot.comps.0.labelSolidTendedWell>접합됨</Gunshot.comps.0.labelSolidTendedWell>
+    <Gunshot.comps.0.labelSolidTended>어설프게 접합됨</Gunshot.comps.0.labelSolidTended>
+    <Gunshot.comps.2.oldLabel>총상 흉터</Gunshot.comps.2.oldLabel>
+    <Gunshot.comps.2.instantlyOldLabel>영구적 총상</Gunshot.comps.2.instantlyOldLabel>
 
     <Shredded.label>조각남</Shredded.label>
     <Shredded.injuryProps.destroyedLabel>찢어짐</Shredded.injuryProps.destroyedLabel>
     <Shredded.injuryProps.destroyedOutLabel>벗겨짐</Shredded.injuryProps.destroyedOutLabel>
-    <rep>
-        <path>Shredded.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Shredded.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Shredded.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Shredded.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Shredded.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Shredded.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Shredded.comps[2].oldLabel</path>
-        <trans>흉터</trans>
-    </rep>
+    <Shredded.comps.0.labelTendedWell>붕대 감음</Shredded.comps.0.labelTendedWell>
+    <Shredded.comps.0.labelTended>붕대 감음</Shredded.comps.0.labelTended>
+    <Shredded.comps.0.labelTendedWellInner>봉합됨</Shredded.comps.0.labelTendedWellInner>
+    <Shredded.comps.0.labelTendedInner>어설프게 봉합됨</Shredded.comps.0.labelTendedInner>
+    <Shredded.comps.0.labelSolidTendedWell>접합됨</Shredded.comps.0.labelSolidTendedWell>
+    <Shredded.comps.0.labelSolidTended>어설프게 접합됨</Shredded.comps.0.labelSolidTended>
+    <Shredded.comps.2.oldLabel>조각난 흉터</Shredded.comps.2.oldLabel>
 
     <Bruise.label>타박상</Bruise.label>
     <Bruise.injuryProps.destroyedLabel>파괴됨</Bruise.injuryProps.destroyedLabel>
-    <rep>
-        <path>Bruise.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Bruise.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Bruise.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Bruise.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Bruise.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Bruise.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
+    <Bruise.comps.0.labelTendedWell>붕대 감음</Bruise.comps.0.labelTendedWell>
+    <Bruise.comps.0.labelTended>붕대 감음</Bruise.comps.0.labelTended>
+    <Bruise.comps.0.labelTendedWellInner>봉합됨</Bruise.comps.0.labelTendedWellInner>
+    <Bruise.comps.0.labelTendedInner>어설프게 봉합됨</Bruise.comps.0.labelTendedInner>
+    <Bruise.comps.0.labelSolidTendedWell>접합됨</Bruise.comps.0.labelSolidTendedWell>
+    <Bruise.comps.0.labelSolidTended>어설프게 접합됨</Bruise.comps.0.labelSolidTended>
 
     <Frostbite.label>동상</Frostbite.label>
     <Frostbite.injuryProps.destroyedLabel>동상으로 잃음</Frostbite.injuryProps.destroyedLabel>
-    <rep>
-        <path>Frostbite.comps[0].labelTendedWell</path>
-        <trans>붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Frostbite.comps[0].labelTended</path>
-        <trans>어설프게 붕대 감음</trans>
-    </rep>
-    <rep>
-        <path>Frostbite.comps[0].labelTendedWellInner</path>
-        <trans>봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Frostbite.comps[0].labelTendedInner</path>
-        <trans>어설프게 봉합됨</trans>
-    </rep>
-    <rep>
-        <path>Frostbite.comps[0].labelSolidTendedWell</path>
-        <trans>접합됨</trans>
-    </rep>
-    <rep>
-        <path>Frostbite.comps[0].labelSolidTended</path>
-        <trans>어설프게 접합됨</trans>
-    </rep>
-    <rep>
-        <path>Frostbite.comps[2].oldLabel</path>
-        <trans>동상 흉터</trans>
-    </rep>
+    <Frostbite.comps.0.labelTendedWell>붕대 감음</Frostbite.comps.0.labelTendedWell>
+    <Frostbite.comps.0.labelTended>붕대 감음</Frostbite.comps.0.labelTended>
+    <Frostbite.comps.0.labelTendedWellInner>봉합됨</Frostbite.comps.0.labelTendedWellInner>
+    <Frostbite.comps.0.labelTendedInner>어설프게 봉합됨</Frostbite.comps.0.labelTendedInner>
+    <Frostbite.comps.0.labelSolidTendedWell>접합됨</Frostbite.comps.0.labelSolidTendedWell>
+    <Frostbite.comps.0.labelSolidTended>어설프게 접합됨</Frostbite.comps.0.labelSolidTended>
+    <Frostbite.comps.2.oldLabel>동상 흉터</Frostbite.comps.2.oldLabel>
 
     <!-- Missing body part -->
 

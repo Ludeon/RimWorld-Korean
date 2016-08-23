@@ -1,268 +1,99 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- Random social interactions -->
+    <Chitchat.stages.0.label>잡담</Chitchat.stages.0.label>
 
-    <rep>
-        <path>Chitchat.stages[0].label</path>
-        <trans>잡담</trans>
-    </rep>
+    <DeepTalk.stages.0.label>진지한 대화</DeepTalk.stages.0.label>
 
-    <rep>
-        <path>DeepTalk.stages[0].label</path>
-        <trans>진지한 대화</trans>
-    </rep>
+    <Slighted.stages.0.label>무시당함</Slighted.stages.0.label>
 
-    <rep>
-        <path>Slighted.stages[0].label</path>
-        <trans>무시받음</trans>
-    </rep>
+    <Insulted.stages.0.label>모욕당함</Insulted.stages.0.label>
 
-    <rep>
-        <path>Insulted.stages[0].label</path>
-        <trans>모욕당함</trans>
-    </rep>
+    <InsultedMood.stages.0.label>모욕당함</InsultedMood.stages.0.label>
+    <InsultedMood.stages.0.description>날 모욕하다니! 이런 망할 자식!</InsultedMood.stages.0.description>
 
-    <rep>
-        <path>InsultedMood.stages[0].label</path>
-        <trans>모욕당함</trans>
-    </rep>
-    <rep>
-        <path>InsultedMood.stages[0].description</path>
-        <trans>날 모욕하다니! 이런 망할 자식!</trans>
-    </rep>
+    <RapportBuilt.stages.0.label>간수와 친해짐</RapportBuilt.stages.0.label>
 
-    <!-- Special -->
+    <HadAngeringFight.stages.0.label>분노의 말싸움</HadAngeringFight.stages.0.label>
 
-    <rep>
-        <path>RapportBuilt.stages[0].label</path>
-        <trans>간수와 친해짐</trans>
-    </rep>
+    <HadCatharticFight.stages.0.label>후련한 말싸움</HadCatharticFight.stages.0.label>
 
-    <!-- Social fights -->
+    <HarmedMe.stages.0.label>날 다치게 함</HarmedMe.stages.0.label>
 
-    <rep>
-        <path>HadAngeringFight.stages[0].label</path>
-        <trans>분노의 말싸움</trans>
-    </rep>
+    <BotchedMySurgery.stages.0.label>내 수술을 망침</BotchedMySurgery.stages.0.label>
 
-    <rep>
-        <path>HadCatharticFight.stages[0].label</path>
-        <trans>후련한 말싸움</trans>
-    </rep>
+    <RescuedMe.stages.0.label>구조받음</RescuedMe.stages.0.label>
 
-    <!-- Misc actions affecting opinion -->
+    <RecruitedMe.stages.0.label>날 포섭함</RecruitedMe.stages.0.label>
 
-    <rep>
-        <path>HarmedMe.stages[0].label</path>
-        <trans>피해를 입음</trans>
-    </rep>
+    <CrashedTogether.stages.0.label>함께 추락함</CrashedTogether.stages.0.label>
 
-    <rep>
-        <path>BotchedMySurgery.stages[0].label</path>
-        <trans>내 수술을 망침</trans>
-    </rep>
+    <SoldMyLovedOne.stages.0.label>애인 {0}(이)가 팔림</SoldMyLovedOne.stages.0.label>
+    <SoldMyLovedOne.stages.0.labelSocial>애인을 판매함</SoldMyLovedOne.stages.0.labelSocial>
+    <SoldMyLovedOne.stages.0.description>내 애인을, 어떻게 그렇게 고기마냥 상인한테 팔아버릴 수가!</SoldMyLovedOne.stages.0.description>
 
-    <rep>
-        <path>RescuedMe.stages[0].label</path>
-        <trans>구조받음</trans>
-    </rep>
+    <SoldMyBondedAnimal.stages.0.label>친한 동물 {0}(이)가 팔림</SoldMyBondedAnimal.stages.0.label>
+    <SoldMyBondedAnimal.stages.0.labelSocial>친한 동물을 판매함</SoldMyBondedAnimal.stages.0.labelSocial>
+    <SoldMyBondedAnimal.stages.0.description>나랑 각별했던 동물을 팔아버렸어!</SoldMyBondedAnimal.stages.0.description>
 
-    <rep>
-        <path>RecruitedMe.stages[0].label</path>
-        <trans>포섭당함</trans>
-    </rep>
+    <RebuffedMyRomanceAttempt.stages.0.label>퇴짜맞음</RebuffedMyRomanceAttempt.stages.0.label>
 
-    <rep>
-        <path>CrashedTogether.stages[0].label</path>
-        <trans>같이 추락함</trans>
-    </rep>
+    <RebuffedMyRomanceAttemptMood.stages.0.label>{0}에게 퇴짜맞음</RebuffedMyRomanceAttemptMood.stages.0.label>
+    <RebuffedMyRomanceAttemptMood.stages.0.description>고백을 했는데 돌아오는 게 없네. 하 참.</RebuffedMyRomanceAttemptMood.stages.0.description>
 
-    <rep>
-        <path>SoldMyLovedOne.stages[0].label</path>
-        <trans>애인 {0}(이)가 팔림</trans>
-    </rep>
-    <rep>
-        <path>SoldMyLovedOne.stages[0].labelSocial</path>
-        <trans>애인을 판매함</trans>
-    </rep>
-    <rep>
-        <path>SoldMyLovedOne.stages[0].description</path>
-        <trans>내 애인을, 어떻게 그렇게 고기마냥 상인한테 팔아버릴 수가!</trans>
-    </rep>
+    <FailedRomanceAttemptOnMe.stages.0.label>고백 거절함</FailedRomanceAttemptOnMe.stages.0.label>
 
-    <rep>
-        <path>SoldMyBondedAnimal.stages[0].label</path>
-        <trans>친한 동물 {0}(이)가 팔림</trans>
-    </rep>
-    <rep>
-        <path>SoldMyBondedAnimal.stages[0].labelSocial</path>
-        <trans>친한 동물을 판매함</trans>
-    </rep>
-    <rep>
-        <path>SoldMyBondedAnimal.stages[0].description</path>
-        <trans>나랑 각별했던 동물을 팔아버렸어!</trans>
-    </rep>
+    <BrokeUpWithMe.stages.0.label>갈라섬</BrokeUpWithMe.stages.0.label>
 
-    <!-- Romance -->
+    <BrokeUpWithMeMood.stages.0.label>{0}(와)과 갈라섬</BrokeUpWithMeMood.stages.0.label>
+    <BrokeUpWithMeMood.stages.0.description>날 헌신짝처럼 내다 버리는구나.</BrokeUpWithMeMood.stages.0.description>
 
-    <rep>
-        <path>RebuffedMyRomanceAttempt.stages[0].label</path>
-        <trans>퇴짜맞음</trans>
-    </rep>
-    <rep>
-        <path>RebuffedMyRomanceAttemptMood.stages[0].label</path>
-        <trans>{0}에게 퇴짜맞음</trans>
-    </rep>
-    <rep>
-        <path>RebuffedMyRomanceAttemptMood.stages[0].description</path>
-        <trans>고백을 했는데 돌아오는 게 없네. 하 참.</trans>
-    </rep>
+    <CheatedOnMe.stages.0.label>바람 핌</CheatedOnMe.stages.0.label>
 
-    <rep>
-        <path>FailedRomanceAttemptOnMe.stages[0].label</path>
-        <trans>고백 거절함</trans>
-    </rep>
+    <CheatedOnMeMood.stages.0.label>{0}의 바람</CheatedOnMeMood.stages.0.label>
+    <CheatedOnMeMood.stages.0.description>어떻게 날 두고!</CheatedOnMeMood.stages.0.description>
 
-    <rep>
-        <path>BrokeUpWithMe.stages[0].label</path>
-        <trans>갈라섬</trans>
-    </rep>
-    <rep>
-        <path>BrokeUpWithMeMood.stages[0].label</path>
-        <trans>{0}(와)과 갈라섬</trans>
-    </rep>
-    <rep>
-        <path>BrokeUpWithMeMood.stages[0].description</path>
-        <trans>날 헌신짝처럼 내다 버리는구나.</trans>
-    </rep>
+    <DivorcedMe.stages.0.label>이혼</DivorcedMe.stages.0.label>
 
-    <rep>
-        <path>CheatedOnMe.stages[0].label</path>
-        <trans>바람 핌</trans>
-    </rep>
-    <rep>
-        <path>CheatedOnMeMood.stages[0].label</path>
-        <trans>{0}의 바람</trans>
-    </rep>
-    <rep>
-        <path>CheatedOnMeMood.stages[0].description</path>
-        <trans>어떻게 날 두고!</trans>
-    </rep>
+    <DivorcedMeMood.stages.0.label>{0}(와)과 이혼</DivorcedMeMood.stages.0.label>
+    <DivorcedMeMood.stages.0.description>서약같은건 종이 쪼가리일 뿐이겠지.</DivorcedMeMood.stages.0.description>
 
-    <rep>
-        <path>DivorcedMe.stages[0].label</path>
-        <trans>이혼</trans>
-    </rep>
-    <rep>
-        <path>DivorcedMeMood.stages[0].label</path>
-        <trans>{0}(와)과 이혼</trans>
-    </rep>
-    <rep>
-        <path>DivorcedMeMood.stages[0].description</path>
-        <trans>서약은 종이 쪼가리일 뿐이야.</trans>
-    </rep>
+    <RejectedMyProposal.stages.0.label>프로포즈 거부당함</RejectedMyProposal.stages.0.label>
 
-    <rep>
-        <path>RejectedMyProposal.stages[0].label</path>
-        <trans>프로포즈 거부당함</trans>
-    </rep>
-    <rep>
-        <path>RejectedMyProposalMood.stages[0].label</path>
-        <trans>{0}에 의해 프로포즈 거부당함</trans>
-    </rep>
-    <rep>
-        <path>RejectedMyProposalMood.stages[0].description</path>
-        <trans>결혼할 줄 알았는데 아니었나봐.</trans>
-    </rep>
+    <RejectedMyProposalMood.stages.0.label>{0}에 의해 프로포즈 거부당함</RejectedMyProposalMood.stages.0.label>
+    <RejectedMyProposalMood.stages.0.description>결혼할 줄 알았는데 아니었나봐.</RejectedMyProposalMood.stages.0.description>
 
-    <rep>
-        <path>IRejectedTheirProposal.stages[0].label</path>
-        <trans>고백 거절함</trans>
-    </rep>
+    <IRejectedTheirProposal.stages.0.label>고백 거절함</IRejectedTheirProposal.stages.0.label>
 
-    <rep>
-        <path>HoneymoonPhase.stages[0].label</path>
-        <trans>신혼</trans>
-    </rep>
-    <rep>
-        <path>HoneymoonPhase.stages[0].labelSocial</path>
-        <trans>신혼</trans>
-    </rep>
-    <rep>
-        <path>HoneymoonPhase.stages[0].description</path>
-        <trans>함께 새로운 삶을 시작하는 거야!</trans>
-    </rep>
+    <HoneymoonPhase.stages.0.label>신혼</HoneymoonPhase.stages.0.label>
+    <HoneymoonPhase.stages.0.labelSocial>신혼</HoneymoonPhase.stages.0.labelSocial>
+    <HoneymoonPhase.stages.0.description>함께 새로운 삶을 시작하는 거야!</HoneymoonPhase.stages.0.description>
 
-    <rep>
-        <path>GotSomeLovin.stages[0].label</path>
-        <trans>사랑을 이야기함</trans>
-    </rep>
-    <rep>
-        <path>GotSomeLovin.stages[0].description</path>
-        <trans>침대 시트를 부시락거리는거야 말로 분위기 띄우는데 제격이지.</trans>
-    </rep>
+    <GotSomeLovin.stages.0.label>사랑을 이야기함</GotSomeLovin.stages.0.label>
+    <GotSomeLovin.stages.0.description>침대 시트를 부시락거리는거야 말로 분위기 띄우는데 제격이지.</GotSomeLovin.stages.0.description>
 
-    <!-- Killed my X -->
+    <KilledMyFriend.stages.0.label>내 친구를 죽임</KilledMyFriend.stages.0.label>
 
-    <rep>
-        <path>KilledMyFriend.stages[0].label</path>
-        <trans>친구를 죽임</trans>
-    </rep>
+    <KilledMyRival.stages.0.label>내 적을 죽임</KilledMyRival.stages.0.label>
 
-    <rep>
-        <path>KilledMyRival.stages[0].label</path>
-        <trans>내 적을 죽임</trans>
-    </rep>
+    <KilledMyLover.stages.0.label>사랑하는 사람을 죽임</KilledMyLover.stages.0.label>
 
-    <rep>
-        <path>KilledMyLover.stages[0].label</path>
-        <trans>사랑하는 사람을 죽임</trans>
-    </rep>
+    <KilledMyFiance.stages.0.label>약혼자를 죽임</KilledMyFiance.stages.0.label>
 
-    <rep>
-        <path>KilledMyFiance.stages[0].label</path>
-        <trans>약혼자를 죽임</trans>
-    </rep>
+    <KilledMySpouse.stages.0.label>배우자를 죽임</KilledMySpouse.stages.0.label>
 
-    <rep>
-        <path>KilledMySpouse.stages[0].label</path>
-        <trans>배우자를 죽임</trans>
-    </rep>
+    <KilledMyFather.stages.0.label>아버지를 죽임</KilledMyFather.stages.0.label>
 
-    <rep>
-        <path>KilledMyFather.stages[0].label</path>
-        <trans>아버지를 죽임</trans>
-    </rep>
+    <KilledMyMother.stages.0.label>어머니를 죽임</KilledMyMother.stages.0.label>
 
-    <rep>
-        <path>KilledMyMother.stages[0].label</path>
-        <trans>어머니를 죽임</trans>
-    </rep>
+    <KilledMySon.stages.0.label>내 아들을 죽임</KilledMySon.stages.0.label>
 
-    <rep>
-        <path>KilledMySon.stages[0].label</path>
-        <trans>아들을 죽임</trans>
-    </rep>
+    <KilledMyDaughter.stages.0.label>내 딸을 죽임</KilledMyDaughter.stages.0.label>
 
-    <rep>
-        <path>KilledMyDaughter.stages[0].label</path>
-        <trans>딸을 죽임</trans>
-    </rep>
+    <KilledMyBrother.stages.0.label>내 형제(남매)를 죽임</KilledMyBrother.stages.0.label>
 
-    <rep>
-        <path>KilledMyBrother.stages[0].label</path>
-        <trans>형제를 죽임</trans>
-    </rep>
+    <KilledMySister.stages.0.label>내 자매(남매)를 죽임</KilledMySister.stages.0.label>
 
-    <rep>
-        <path>KilledMySister.stages[0].label</path>
-        <trans>자매를 죽임</trans>
-    </rep>
-
-    <rep>
-        <path>KilledMyKin.stages[0].label</path>
-        <trans>친척을 죽임</trans>
-    </rep>
+    <KilledMyKin.stages.0.label>내 친척을 죽임</KilledMyKin.stages.0.label>
 
 </LanguageData>
