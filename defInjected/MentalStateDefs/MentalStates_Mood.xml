@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- Mental breaks: extreme -->
 
     <Berserk.label>광란</Berserk.label>
     <Berserk.beginLetterLabel>광란</Berserk.beginLetterLabel>
@@ -21,18 +20,17 @@
     <GiveUpExit.recoveryMessage>{0}의 마음이 바뀌어 정착지로 돌아오고 있습니다.</GiveUpExit.recoveryMessage>
     <GiveUpExit.baseInspectLine>상태: 탈주</GiveUpExit.baseInspectLine>
 
-    <!-- Mental breaks: serious -->
+    <BingingDrugExtreme.label>약물 갈망</BingingDrugExtreme.label>
+    <BingingDrugExtreme.baseInspectLine>상태: {0} 갈망</BingingDrugExtreme.baseInspectLine>
 
-    <BingingDrug.label>약물 갈망</BingingDrug.label>
-    <BingingDrug.baseInspectLine>상태: {0} 갈망</BingingDrug.baseInspectLine>
+    <BingingDrugMajor.label>약물 갈망</BingingDrugMajor.label>
+    <BingingDrugMajor.baseInspectLine>상태: {0} 갈망</BingingDrugMajor.baseInspectLine>
 
     <WanderPsychotic.label>방황 (미침)</WanderPsychotic.label>
     <WanderPsychotic.beginLetterLabel>방황</WanderPsychotic.beginLetterLabel>
     <WanderPsychotic.beginLetter>{0}(이)가 미쳐 떠돕니다.</WanderPsychotic.beginLetter>
     <WanderPsychotic.recoveryMessage>{0}의 정신이 자리를 찾았습니다.</WanderPsychotic.recoveryMessage>
     <WanderPsychotic.baseInspectLine>상태: 방황 (미침)</WanderPsychotic.baseInspectLine>
-
-    <!-- Mental breaks: minor -->
 
     <BingingFood.label>폭식</BingingFood.label>
     <BingingFood.beginLetterLabel>폭식</BingingFood.beginLetterLabel>

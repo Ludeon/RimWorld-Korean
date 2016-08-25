@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    <JumpToLocation>클릭하여 해당 위치로 화면이동</JumpToLocation>
+
+    <JumpToLocation>클릭시 해당 장소로 이동</JumpToLocation>
 
     <LetterLabelFirstSummerWarning>여름</LetterLabelFirstSummerWarning>
-    <FirstSummerWarning>여름이 시작되었습니다! 그러나 겨울이 오고 있습니다.\n\n작물은 겨울의 추위 속에서는 자라지 않습니다. 그러니 겨울이 오기 전에 최소 며칠 버티기에 충분한 양의 음식과 작물들을 보관하세요.\n\n음식물이 부패하는것을 방지하기 위해서 출입 가능한 냉동고를 건설할 수 있습니다.\n\n또한 파카를 만들거나 구입하거나 훔치세요. 그렇지 않으면 겨울에 밖으로 나가서 동사할 수 있습니다.
-    </FirstSummerWarning>
+    <FirstSummerWarning>여름이 시작되었습니다! 그러나 겨울이 오고 있습니다.\n\n작물은 겨울의 추위 속에서는 자라지 못합니다. 그러니 겨울이 오기 전에 최대한 많은 음식과 작물을 보관하세요.\n\n음식물이 상하는 것은 냉동고를 건설해 방지할 수 있습니다.\n\n또한 파카를 만들거나 구입하거나 훔치거나 만들지 않으면 밖으로 나가서 얼어 죽을 수 있습니다</FirstSummerWarning>
 
-    <RelationsBrokenDown>{0} 세력과의 관계가 틀어졌습니다. 이제 당신은 적으로 간주됩니다.</RelationsBrokenDown>
-    <RelationsWarmed>{0} 세력과의 우호관계가 회복되었습니다. 이제 당신은 적으로 간주되지 않습니다.</RelationsWarmed>
+    <RelationsBrokenDown>{0} 세력과의 관계가 틀어졌습니다. 이제 적대적입니다.</RelationsBrokenDown>
+    <RelationsWarmed>{0} 세력과의 우호관계가 회복되었습니다. 이제 적대적이 아닙니다.</RelationsWarmed>
 
-    <RelationsBrokenCapture>{0}의 구속으로 인하여 {1} 세력은 이제 당신을 적으로 간주합니다.</RelationsBrokenCapture>
+    <RelationsBrokenCapture>{0}의 포획으로 인하여 {1} 세력이 적대적으로 돌아섰습니다.</RelationsBrokenCapture>
 
     <ColonyGoodwill>정착지 우호도</ColonyGoodwill>
     <Neutral>중립</Neutral>
@@ -18,10 +18,10 @@
 
     <LetterLabelAreaRevealed>공간 발견</LetterLabelAreaRevealed>
     <AreaRevealed>새로운 공간이 드러났습니다.</AreaRevealed>
-    <AreaRevealedWithMechanoids>새로운 공간이 드러났습니다. 적대적인 고대 메카노이드가 함께 발견되었습니다.</AreaRevealedWithMechanoids>
+    <AreaRevealedWithMechanoids>새로운 공간이 드러났습니다. 적대적인 고대 메카노이드도 함께 발견되었습니다.</AreaRevealedWithMechanoids>
 
-    <RoofCollapsed>지붕이 주변의 지지할 수 있는 것들과 너무 멀리 떨어져 있어서 붕괴되었습니다.</RoofCollapsed>
-    <TheseThingsCrushed>파손된 목록:</TheseThingsCrushed>
+    <RoofCollapsed>지붕이 지지대와 너무 멀리 떨어져 있어서 붕괴됐습니다.</RoofCollapsed>
+    <TheseThingsCrushed>파손 목록:</TheseThingsCrushed>
     <NothingCrushed>아무것도 파괴되지 않았습니다.</NothingCrushed>
     <LetterLabelRoofCollapsed>지붕 붕괴</LetterLabelRoofCollapsed>
 
