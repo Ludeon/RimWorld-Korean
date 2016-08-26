@@ -9,13 +9,13 @@
     <Wort.label>맥아즙</Wort.label>
     <Wort.description>발효되지 않은 맥주입니다. 마실 수 있는 맥주가 되려면 통에서 발효해야 합니다.</Wort.description>
 
-    <Amphetamine.label>암페타민</Amphetamine.label>
-    <Amphetamine.description>중독성 있는 각성제입니다. 사용자의 인식능력을 향상시켜 지치지 않고 더 긴 시간 엄청난 집중력으로 작업할 수 있도록 합니다. 중독은 정신 불안정 및 광폭한 행동으로 이어질 수 있습니다.</Amphetamine.description>
-    <Amphetamine.ingestible.ingestCommandString>{0} 섭취</Amphetamine.ingestible.ingestCommandString>
-    <Amphetamine.ingestible.ingestReportString>{0} 섭취하는 중.</Amphetamine.ingestible.ingestReportString>
+    <WakeUp.label>암페타민</WakeUp.label>
+    <WakeUp.description>중독성 있는 각성제입니다. 사용자의 휴식 필요를 채우며, 더 긴 시간 지치지 않고 일할 수 있도록 합니다. 중독은 정신 불안정 및 광폭한 행동으로 이어질 수 있습니다.</WakeUp.description>
+    <WakeUp.ingestible.ingestCommandString>{0} 섭취</WakeUp.ingestible.ingestCommandString>
+    <WakeUp.ingestible.ingestReportString>{0} 섭취하는 중.</WakeUp.ingestible.ingestReportString>
 
-    <Joint.label>대마초</Joint.label>
-    <Joint.description>손질한 대마 잎을 종이로 감싸 흡연할 수 있도록 한 물건입니다. 기분을 좋게 하지만 식욕을 느끼게 하고 집중력 감퇴 및 작업 능력 감소의 부작용이 있습니다. 대마초 흡연으로 인한 의존증이 생길 수 있습니다.</Joint.description>
+    <Joint.label>연엽</Joint.label>
+    <Joint.description>손질한 연초 잎을 종이로 감싸 흡연할 수 있도록 한 물건입니다. 기분을 좋게 하지만 식욕을 느끼게 하고 집중력 감퇴 및 작업 능력 감소의 부작용이 있습니다. 의존증이 생길 수 있습니다. 도구 없이도 제작 장소에서 만들 수 있습니다.</Joint.description>
     <Joint.ingestible.ingestCommandString>{0} 피우기</Joint.ingestible.ingestCommandString>
     <Joint.ingestible.ingestReportString>{0} 피우는 중.</Joint.ingestible.ingestReportString>
 
@@ -24,12 +24,12 @@
     <Flake.ingestible.ingestCommandString>{0} 피우기</Flake.ingestible.ingestCommandString>
     <Flake.ingestible.ingestReportString>{0} 피우는 중.</Flake.ingestible.ingestReportString>
 
-    <Yayo.label>코카인</Yayo.label>
+    <Yayo.label>야요</Yayo.label>
     <Yayo.description>흡입할 수 있는 고운 흰색 가루입니다. 사용자의 휴식 필요성을 줄이고 진통 효과가 있지만 중독될 수 있습니다.</Yayo.description>
     <Yayo.ingestible.ingestCommandString>{0} 흡입</Yayo.ingestible.ingestCommandString>
     <Yayo.ingestible.ingestReportString>{0} 흡입하는 중.</Yayo.ingestible.ingestReportString>
 
-    <GoJuice.label>고-주스</GoJuice.label>
+    <GoJuice.label>고주스</GoJuice.label>
     <GoJuice.description>초기 행성간 전쟁 시대에 우주 해군이 발명한 합성 전투약물입니다. 고통을 막고 의식을 향상시켜 사용자의 집중력, 근접전 및 원거리 조준능력을 끌어 올립니다. 또한 대근운동을 촉진해 더 빠르게 움직일 수 있도록 합니다. 그러나 과학자들도 중독성은 제거할 수 없었습니다.</GoJuice.description>
     <GoJuice.ingestible.ingestCommandString>{0} 투여</GoJuice.ingestible.ingestCommandString>
     <GoJuice.ingestible.ingestReportString>{0} 투여하는 중.</GoJuice.ingestible.ingestReportString>
