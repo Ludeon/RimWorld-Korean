@@ -60,6 +60,10 @@
     <CurrentRadius>현재 범위</CurrentRadius>
     <RadiusExpandsIn>범위 확장</RadiusExpandsIn>
     <Permanent>영구적</Permanent>
+    <Temperature>온도</Temperature>
+    <BadTemperature>온도 부적합</BadTemperature>
+    <IdealFermentingTemperature>온도 적합</IdealFermentingTemperature>
+    <DrugEffectMultiplier>효과 계수 {0}</DrugEffectMultiplier>
 
     <!-- Fermentation barrel -->
     <ContainsWort>맥아즙 {0} / {1}</ContainsWort>
@@ -337,7 +341,8 @@
     <!-- Game over -->
     <GameOverEveryoneDead>모든 정착민이 죽거나 떠났습니다. 이 여정은 끝났습니다. \n\n다른 누군가가 이 장소의 폐허를 사용할 수 있을지도 모르겠습니다.
     </GameOverEveryoneDead>
-    <GameOverShipLaunched>우주선을 발사하였습니다! 다음 정착민들이 탈출했습니다. \n{0}\n\n다음 정착민들은 남았습니다. \n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 소행성의 얼음 아래 숨어서 이곳에 진보된 새로운 문명이 건설되기를 엄청난 세월동안 기다리기로 결정할 지도 모릅니다. \n\n잠에서 깨어나면 알 수 있을지도.
+    <GameOverShipLaunched>우주선을 발사하였습니다! 다음 정착민들이 탈출했습니다. \n{0}\n\n다음 정착민들은 남았습니다. \n{1}\n\n우주선의 AI는 이제 배를 안전한 곳으로 안내하려 할 것입니다. 이 항성계 내의 번영하는 행성을 찾을 수 있을지 모릅니다. 또는 다른 별을 찾아 수 세기에 걸친 여행을 할 수도 있습니다. 심지어는 소행성의 얼음 아래 숨어서 이곳에 진보된 새로운 문명이 건설되기를 엄청난 세월동안 기다리기로 결정할 지도 모릅니다. \n\n잠에서
+        깨어나면 알 수 있을지도.
     </GameOverShipLaunched>
     <GameOverPlanetkillerImpact>행성 파괴자가 아광속으로 지면에 충돌하면서 수 천억 수소폭탄보다 더 강력한 폭발을 일으켰습니다. 소총에 맞은 풍선처럼, 이 세계의 녹아내린 땅이 우주로 퍼졌습니다.\n\n{0}의 일부는 이제 작은 소행성대가 되었고, 나머지는 방사선에 덮힌 채 수 킬로미터씩 진동하는 지진에 의해 요동치는 지옥으로 변했습니다.\n\n당신은 죽었습니다.
     </GameOverPlanetkillerImpact>
