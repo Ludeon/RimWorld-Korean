@@ -35,7 +35,9 @@
     <NeedWardenDesc>수감자가 있지만 간수가 없습니다.\n\n정착민을 간수 역할에 배치하세요.</NeedWardenDesc>
 
     <LowFood>식량 부족</LowFood>
-    <LowFoodDesc>저장구역에 식량이 {0}개밖에 남지 않았습니다.\n\n식량은 재배하거나, 구매하거나, 찾거나, 죽여서 얻을 수 있습니다.</LowFoodDesc>
+    <!-- TRANS -->
+    <LowFoodDesc>You are dangerously low on food.\n\n Full bars worth of food in storage: {0}\n Colonists and prisoners getting food: {1}\n Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food.</LowFoodDesc>
+    <!-- TRANS -->
 
     <LowMedicine>약품 부족</LowMedicine>
     <LowMedicineDesc>보유한 약품이 {0}개밖에 남지 않았습니다.\n\n상인에게서 약품을 구입하세요.</LowMedicineDesc>
@@ -50,6 +52,11 @@
 
     <AlertTatteredApparel>헤진 옷</AlertTatteredApparel>
     <AlertTatteredApparelDesc>다음 정착민들이 낡은 옷 때문에 스트레스를 받고 있습니다.\n\n{0}\n좀 더 멀쩡한 옷을 가져다주세요.\n\n옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</AlertTatteredApparelDesc>
+
+    <!-- TRANS -->
+    <AlertUnhappyNudity>Unhappy nudity</AlertUnhappyNudity>
+    <AlertUnhappyNudityDesc>These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders.</AlertUnhappyNudityDesc>
+    <!-- TRANS -->
 
     <Starvation>굶주림</Starvation>
     <StarvationDesc>다음 정착민들이 굶주리고 있습니다.\n\n{0}\n식량을 구해주세요.
@@ -75,7 +82,7 @@
     <NeedJoySourceDesc>정착민들이 재미를 채울 곳이 없습니다.\n\n편자 막대, 체스 탁자 등을 만들어주세요.</NeedJoySourceDesc>
 
     <NeedBatteries>축전지 필요</NeedBatteries>
-    <NeedBatteriesDesc>태양광 발전기가 있지만 축전지가 없습니다. 따라서 해가 진 후에 전기를 사용할 수 없습니다. 축전지를 한두 개 정도 제작하여 밤에도 전기를 사용할 수 있도록 하는게 좋습니다.
+    <NeedBatteriesDesc>태양광이나 풍력 발전기가 있지만 축전지가 없습니다. 따라서 밤이나 바람이 없는 날 전기를 사용할 수 없습니다. 축전지를 한두 개 정도 제작하여 언제나 전기를 사용할 수 있도록 하는게 좋습니다.
     </NeedBatteriesDesc>
 
     <BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 장비</BrawlerHasRangedWeapon>
@@ -122,5 +129,10 @@
     <NeedWarmClothesDesc1>최소 {0}명의 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1>
     <NeedWarmClothesDesc1All>모든 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1All>
     <NeedWarmClothesDesc2>외부 온도가 곧 {0}도로 떨어집니다.\n\n따듯한 옷을 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</NeedWarmClothesDesc2>
+
+    <!-- TRANS -->
+    <ImmobileCaravan>Immobile caravan</ImmobileCaravan>
+    <ImmobileCaravanDesc>One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab.</ImmobileCaravanDesc>
+    <!-- TRANS -->
 
 </LanguageData>

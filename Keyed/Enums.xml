@@ -30,7 +30,7 @@
     <FoodTypeFlags_VegetableOrFruit>과채</FoodTypeFlags_VegetableOrFruit>
     <FoodTypeFlags_Meat>날고기</FoodTypeFlags_Meat>
     <FoodTypeFlags_Corpse>시체</FoodTypeFlags_Corpse>
-    <FoodTypeFlags_Seeds>씨앗</FoodTypeFlags_Seeds>
+    <FoodTypeFlags_Seed>씨앗</FoodTypeFlags_Seed>
     <FoodTypeFlags_AnimalProduct>축산물</FoodTypeFlags_AnimalProduct>
     <FoodTypeFlags_Plant>풀</FoodTypeFlags_Plant>
     <FoodTypeFlags_Tree>나무</FoodTypeFlags_Tree>
@@ -76,6 +76,7 @@
     <Hilliness_SmallHills>소형 언덕</Hilliness_SmallHills>
     <Hilliness_LargeHills>대형 언덕</Hilliness_LargeHills>
     <Hilliness_Mountainous>산악지대</Hilliness_Mountainous>
+    <Hilliness_Impassable>통과 불가</Hilliness_Impassable>
 
     <!-- Steam workshop interaction -->
     <WorkshopInteractStage_CreatingItem>생성 중</WorkshopInteractStage_CreatingItem>
@@ -141,9 +142,5 @@
     <Celsius>섭씨</Celsius>
     <Fahrenheit>화씨</Fahrenheit>
     <Kelvin>절대온도</Kelvin>
-
-    <!-- Spoil reason -->
-    <SpoilReason_Freezing>냉기로 인해 상함.</SpoilReason_Freezing>
-    <SpoilReason_HighTemperature>고온으로 인해 상함.</SpoilReason_HighTemperature>
 
 </LanguageData>

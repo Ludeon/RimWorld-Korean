@@ -10,19 +10,16 @@
     <GlitterworldMedicine.label>번화계 약품</GlitterworldMedicine.label>
     <GlitterworldMedicine.description>진보된 번화계에서 최첨단기술로 생산된 고급 약품입니다.</GlitterworldMedicine.description>
 
-    <!--=============== Shells ====================-->
-
-    <ArtilleryShell.label>포탄</ArtilleryShell.label>
-    <ArtilleryShell.description>대포에서 발사됩니다.</ArtilleryShell.description>
-
-    <!--=============== Components ====================-->
+    <MortarShell.label>박격포탄</MortarShell.label>
+    <MortarShell.description>박격포에서 발사할 수 있습니다. 피해를 입으면 폭발합니다.</MortarShell.description>
 
     <Component.label>부품</Component.label>
     <Component.description>잡다한 기어, 캐퍼시터, 회로기판, 튜브, 바퀴, 센서, 칩, 프로세서와 기타 공업용 부속품들입니다. 복잡한 기계나 전기장치를 조립할 때 필요합니다.</Component.description>
 
-    <!--=============== Neutroamine ====================-->
-
     <Neutroamine.label>뉴트로아민</Neutroamine.label>
     <Neutroamine.description>합성 기초 화학물질입니다. 자체로는 쓸모가 없지만 많은 약물의 재료로 사용할 수 있습니다.</Neutroamine.description>
+
+    <Chemfuel.label>chemfuel</Chemfuel.label>
+    <Chemfuel.description>Volatile liquid chemical compound. Used to fuel rockets and other machines.</Chemfuel.description>
 
 </LanguageData>
