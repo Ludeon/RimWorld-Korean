@@ -41,8 +41,8 @@
     <PlanetTemperature_High>High</PlanetTemperature_High>
 <!-- TRANS -->
     <WorldSize>크기</WorldSize>
-    <WorldSeed>초기값</WorldSeed>
-    <RandomizeSeed>무작위 초기값</RandomizeSeed>
+    <WorldSeed>초기 시드값</WorldSeed>
+    <RandomizeSeed>무작위 초기 시드값</RandomizeSeed>
     <PlanetCoverageTip>행성의 지름은 언제나 같지만, 실제 플레이 영역보다는 훨씬 거대하기 때문에 시간을 아끼기 위해 전체 표면을 생성하지는 않습니다. 이 옵션으로 플레이 영역을 선택할 수 있습니다.</PlanetCoverageTip>
 
     <!--=========== Select world ===================-->
@@ -90,7 +90,7 @@
     <Delete>삭제</Delete>
 
     <!--============ Scenario editor ===============-->
-    <Seed>시드 값</Seed>
+    <Seed>초기 시드값</Seed>
     <Load>불러오기</Load>
     <EditMode>편집 모드</EditMode>
     <Summary>줄거리</Summary>
@@ -152,7 +152,6 @@
     <Traits>특징</Traits>
     <PermanentMoodEffect>영구적인 기분 영향</PermanentMoodEffect>
     <Skills>기술</Skills>
-    <!--<NoneLower>해당사항 없음</NoneLower>-->
     <NoneLower>없음</NoneLower>
     <Adulthood>성년기</Adulthood>
     <Childhood>유년기</Childhood>
