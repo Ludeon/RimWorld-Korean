@@ -82,14 +82,14 @@
     <CannotWear>{0} 착용 불가</CannotWear>
     <CannotWearBecauseOfMissingBodyParts>신체 결손</CannotWearBecauseOfMissingBodyParts>
 
-<!-- TRANS -->
-    <CannotPickUp>Cannot pick up {0}</CannotPickUp>
-    <CannotPickUpAll>Cannot pick up {0} (all)</CannotPickUpAll>
-    <PickUp>Pick up {0}</PickUp>
-    <PickUpAll>Pick up {0} (all)</PickUpAll>
+    <CannotPickUp>{0} 주울 수 없음</CannotPickUp>
+    <CannotPickUpAll>{0} 모두 주울 수 없음</CannotPickUpAll>
+    <PickUp>{0} 줍기</PickUp>
+    <PickUpAll>{0} 모두 줍기</PickUpAll>
     <PickUpSome>Pick up {0}...</PickUpSome>
-    <PickUpCount>Pick up {0} x{{0}}</PickUpCount>
+    <PickUpCount>x{{0}}개 만큼 {0} 줍기</PickUpCount>
 
+<!-- TRANS -->
     <CannotGiveToPackAnimal>Cannot give {0} to pack animal</CannotGiveToPackAnimal>
     <CannotGiveToPackAnimalAll>Cannot give {0} (all) to pack animal</CannotGiveToPackAnimalAll>
     <GiveToPackAnimal>Give {0} to pack animal</GiveToPackAnimal>
