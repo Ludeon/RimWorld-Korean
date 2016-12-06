@@ -149,11 +149,11 @@
     <CommandBuildCopy>건물 복제</CommandBuildCopy>
     <CommandBuildCopyDesc>복제본을 건설합니다.</CommandBuildCopyDesc>
 
-<!-- TRANS -->
     <!-- Form caravan -->
-    <CommandFormCaravan>Form caravan</CommandFormCaravan>
-    <CommandFormCaravanDesc>Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders.</CommandFormCaravanDesc>
+    <CommandFormCaravan>상단 구성</CommandFormCaravan>
+    <CommandFormCaravanDesc>새로운 지역으로 떠날 수 있는 정착민 그룹을 만듭니다. 상단원들은 할당된 자원과 동물을 모두 모은 후에 현재 지역을 벗어나 다음 명령을 기다립니다.</CommandFormCaravanDesc>
 
+<!-- TRANS -->
     <!-- Reform caravan -->
     <CommandReformCaravan>Reform caravan</CommandReformCaravan>
     <CommandReformCaravanDesc>Reform a group of colonists. The colonists will leave their current area and await further orders.</CommandReformCaravanDesc>
@@ -173,20 +173,22 @@
     <CommandSettleFailOtherWorldObjectsHere>Your caravan must be the only object on this tile in order to settle the area.</CommandSettleFailOtherWorldObjectsHere>
     <CommandSettleFailAlreadyHaveBase>Your faction can only have one base.</CommandSettleFailAlreadyHaveBase>
     <CommandSettleFailReachedMaximumNumberOfBases>Reached maximum number of colonies.</CommandSettleFailReachedMaximumNumberOfBases>
+<!-- TRANS -->
 
     <!-- Abandon home -->
-    <CommandAbandonHome>Abandon</CommandAbandonHome>
-    <CommandAbandonHomeDesc>Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area.</CommandAbandonHomeDesc>
-    <CommandAbandonHomeFailAllColonistsThere>All of your colonists are there.</CommandAbandonHomeFailAllColonistsThere>
+    <CommandAbandonHome>포기</CommandAbandonHome>
+    <CommandAbandonHomeDesc>이 지역을 포기합니다. 지역 접근이 금지되고 다시는 돌아올 수 없습니다. 집을 포기한 후에는 상단 중 하나에게 새로운 곳에 정착하라는 명령을 내릴 수 있습니다.</CommandAbandonHomeDesc>
+    <CommandAbandonHomeFailAllColonistsThere>모든 정착민이 해당 지역에 있습니다.</CommandAbandonHomeFailAllColonistsThere>
 
     <!-- Cancel forming caravan -->
-    <CommandCancelFormingCaravan>Cancel forming caravan</CommandCancelFormingCaravan>
-    <CommandCancelFormingCaravanDesc>Terminate the caravan formation process.</CommandCancelFormingCaravanDesc>
+    <CommandCancelFormingCaravan>상단 구성 취소</CommandCancelFormingCaravan>
+    <CommandCancelFormingCaravanDesc>상단 구성 과정을 취소합니다.</CommandCancelFormingCaravanDesc>
 
     <!-- Show map -->
-    <CommandShowMap>Zoom in</CommandShowMap>
-    <CommandShowMapDesc>Zoom in on this area.</CommandShowMapDesc>
+    <CommandShowMap>확대</CommandShowMap>
+    <CommandShowMapDesc>이 지역으로 확대합니다.</CommandShowMapDesc>
 
+<!-- TRANS -->
     <!-- Trade -->
     <CommandTrade>Trade</CommandTrade>
     <CommandTradeDesc>Trade with this faction.</CommandTradeDesc>
