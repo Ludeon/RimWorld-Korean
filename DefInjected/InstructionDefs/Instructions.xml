@@ -92,7 +92,7 @@
     <OpenMainTabResearch.text>아주 좋습니다! 이제 뭘 연구할지 정합시다.\n\n연구 창을 여세요.</OpenMainTabResearch.text>
     <OpenMainTabResearch.rejectInputMessage>'연구' 창을 열어주세요.</OpenMainTabResearch.rejectInputMessage>
 
-    <SelectResearchProject.text>이제 뭘 제일 먼저 연구할지 아무거나 선택하세요.\n\n연구 작업대가 완성되길 기다려야 할 수도 있습니다.\n\n너무 오래 걸리면 작업 창에서 더 많은 정착민을 건설로 할당하세요.</SelectResearchProject.text>
+    <SelectResearchProject.text>이제 뭘 제일 먼저 연구할지 아무거나 선택하세요.\n\n나무를 베어내서 얻은 목재로 연구 작업대를 다 만들 때까지 기다려야 할 수도 있습니다.\n\n너무 오래 걸리면 작업 창에서 더 많은 정착민을 건설에 할당하세요.</SelectResearchProject.text>
     <SelectResearchProject.rejectInputMessage>연구 과제를 선택해주세요.</SelectResearchProject.rejectInputMessage>
 
     <ExpandAreaHome.text>다음으로는 주거구역을 어떻게 넓히는지 알아보겠습니다.\n\n정착민들은 주거구역 밖의 화재나 오물은 신경쓰지 않습니다.\n\n주거구역은 뭔가 건설하면 자동으로 넓어지지만, 수동으로 넓힐 수도 있습니다.\n\n주거구역 설정 도구를 선택하고 지도의 새로운 곳을 선택하세요.</ExpandAreaHome.text>
@@ -109,11 +109,13 @@
     <FinishSandbags.rejectInputMessage>모래주머니가 완성될 때까지 기다려주세요.</FinishSandbags.rejectInputMessage>
 
     <DownRaider.text>누군가 공격합니다!\n\n1. {Key:TogglePause} 키를 눌러 시간을 멈추세요!\n2. 오른쪽 아래 빨간 편지를 읽으세요.\n3. 정착민들을 모두 선택한 후 소집 명령을 내리세요.\n4. 오른쪽 클릭으로 정착민들을 모래주머니 사각형 안쪽에 붙이세요.\n5. 멈춰둔 게임 시간을 다시 재생하세요.\n\n정착민들은 엄폐물 바로 옆에 붙어있어야 방어 효과를 받을 수 있습니다. 자리를 잡은 후에는 공격자가 다가올 때까지 기다리세요. 정착민들이 알아서 쏠겁니다.</DownRaider.text>
+    <DownRaider.rejectInputMessage>지금은 이기는데 집중해주세요!</DownRaider.rejectInputMessage>
     <DownRaider.onMapInstruction>정착민 여기로\n모래주머니 바로 옆에</DownRaider.onMapInstruction>
 
     <UndraftAll.text>성공입니다! 이제 같은 버튼으로 모두의 소집을 해제하세요.\n\n소집을 해제해야 정착민들이 원래 스케쥴로 돌아갈 수 있습니다.</UndraftAll.text>
+    <UndraftAll.rejectInputMessage>정착민들의 소집을 해제해주세요.</UndraftAll.rejectInputMessage>
 
     <ChooseStoryteller.text>이제 끝입니다!\n\n아직 죄수, 사냥, 거래, 조련, 그 외 정말 많은 것들이 남아있습니다. 그렇지만 이제 기본은 하실 수 있어요.\n\n무작위 사건은 튜토리얼에선 꺼져있었습니다. 진짜 게임을 플레이하시려면:\n\n1. 오른쪽 아래 메뉴를 여세요\n2. 설정을 선택하세요.\n3. 이야기꾼 선택 버튼을 클릭하세요\n4. 원하시는 이야기꾼과 난이도를 선택하세요\n\n행운을 빕니다. 즐거운 시간 보내세요.</ChooseStoryteller.text>
-    <ChooseStoryteller.rejectInputMessage>다른 이야기꾼을 선택해서 튜토리얼을 끝마치세요.</ChooseStoryteller.rejectInputMessage>
+    <ChooseStoryteller.rejectInputMessage>설정에서 이야기꾼을 선택해서 튜토리얼을 끝마치세요.</ChooseStoryteller.rejectInputMessage>
 
 </LanguageData>
