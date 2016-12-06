@@ -38,6 +38,7 @@
     <PrisonerAttemptRecruit>대화 및 포섭</PrisonerAttemptRecruit>
     <PrisonerRelease>석방</PrisonerRelease>
     <PrisonerExecution>처형</PrisonerExecution>
+    <ConsideredGuilty>유죄 판명 ({0} 후 만료)</ConsideredGuilty>
 
     <!-- Medical - general -->
     <MoveSpeed>이동속도</MoveSpeed>
@@ -49,16 +50,15 @@
     <Healthy>건강함</Healthy>
     <InPain>고통스러움</InPain>
     <PainLevel>고통</PainLevel>
-    <Dead>죽음</Dead>
-    <Unconscious>잃음</Unconscious>
-    <PainShock>쇼크</PainShock>
     <Injured>부상</Injured>
     <NoInjuries>(부상 없음)</NoInjuries>
     <WholeBody>전신</WholeBody>
     <DataProcessing>데이터 처리</DataProcessing>
     <Communication>통신</Communication>
     <Affects>영향</Affects>
-    <BleedingRate>출혈량</BleedingRate>
+    <BleedingRate>출혈</BleedingRate>
+    <TimeToDeath>{0} 후 사망</TimeToDeath>
+    <WontBleedOutSoon>아직 큰 위험 없음</WontBleedOutSoon>
     <HealthOverview>개요</HealthOverview>
     <MedicalOperationsShort>수술 ({0})</MedicalOperationsShort>
     <MedicalOperationsMechanoidsShort>개조 ({0})</MedicalOperationsMechanoidsShort>
@@ -109,6 +109,7 @@
 
     <!-- Gear tab -->
     <AverageArmor>평균 방어도</AverageArmor>
+    <MassCarried>소지품 무게: {0} / {1} kg</MassCarried>
     <ComfyTemperatureRange>적응 온도 범위</ComfyTemperatureRange>
     <ArmorBlunt>둔탁함</ArmorBlunt>
     <ArmorSharp>날카로움</ArmorSharp>

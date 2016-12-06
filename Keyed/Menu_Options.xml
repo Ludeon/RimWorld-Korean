@@ -12,6 +12,7 @@
     <PauseOnLoad>불러오기 후 일시정지</PauseOnLoad>
     <PauseOnUrgentLetter>중요한 편지에 일시정지</PauseOnUrgentLetter>
     <CustomCursor>맞춤 커서</CustomCursor>
+    <UIScale>인터페이스 크기</UIScale>
     <KeyboardConfig>키보드 구성</KeyboardConfig>
     <ChooseLanguage>언어 선택</ChooseLanguage>
     <ResetAdaptiveTutor>도우미 초기화</ResetAdaptiveTutor>
@@ -21,11 +22,16 @@
     <ResetModsConfigOnCrash>오류 시 자동으로 모드 설정 초기화</ResetModsConfigOnCrash>
     <LogVerbose>상세 기록</LogVerbose>
     <OpenSaveGameDataFolder>진행사항이 저장된 폴더 열기</OpenSaveGameDataFolder>
-    <NamesYouWantToSee>게임 내에서 등장하게 만들고 싶은 캐릭터의 성 또는 성장 배경을 적으세요.</NamesYouWantToSee>
+    <NamesYouWantToSee>게임 내에서 등장할 수 있는 플레이어 캐릭터 이름:</NamesYouWantToSee>
+
+    <AddName>이름 추가</AddName>
+    <TypeFirstNickOrLastName>성, 별명 또는 이름을 적으세요.</TypeFirstNickOrLastName>
+    <MessageAlreadyPreferredName>이미 선호목록에 존재하는 이름입니다.</MessageAlreadyPreferredName>
     <ChangeStoryteller>이야기꾼 선택</ChangeStoryteller>
     <AutosaveInterval>자동저장 간격</AutosaveInterval>
     <TemperatureMode>온도 단위</TemperatureMode>
     <ShowRealtimeClock>현실 시간 표시</ShowRealtimeClock>
+    <MaxNumberOfPlayerHomes>최대 정착지 수: {0}</MaxNumberOfPlayerHomes>
     <PlantWindSway>식물 바람 애니메이션</PlantWindSway>
     <MaxPermadeathAutosaveIntervalInfo>철인 모드에서 사용 가능한 자동저장 최대 간격은 {0}일 입니다.</MaxPermadeathAutosaveIntervalInfo>
 

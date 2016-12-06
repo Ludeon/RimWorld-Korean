@@ -8,6 +8,7 @@
     <CannotUseNoPath>사용 불가 (경로 없음)</CannotUseNoPath>
     <CannotUseReserved>사용 불가 (예약됨)</CannotUseReserved>
     <CannotUseFull>사용 불가 (가득 참)</CannotUseFull>
+    <LeaderUnavailable>대장 {0}(이)가 바쁨</LeaderUnavailable>
 
     <FireAt>{0}에게 사격</FireAt>
 
@@ -66,6 +67,7 @@
     <Reserved>누군가에게 예약됨</Reserved>
     <ReservedBy>{0}(이)가 예약함</ReservedBy>
     <IsReservedBy>{0}(은)는 {1}에게 예약됨</IsReservedBy>
+    <TooHeavy>너무 무거움</TooHeavy>
 
     <Incapable>불가능</Incapable>
     <IncapableOfCapacity>{0} 불가능</IncapableOfCapacity>
@@ -80,11 +82,27 @@
     <CannotWear>{0} 착용 불가</CannotWear>
     <CannotWearBecauseOfMissingBodyParts>신체 결손</CannotWearBecauseOfMissingBodyParts>
 
+    <CannotPickUp>{0} 주울 수 없음</CannotPickUp>
+    <CannotPickUpAll>{0} 모두 주울 수 없음</CannotPickUpAll>
+    <PickUp>{0} 줍기</PickUp>
+    <PickUpAll>{0} 모두 줍기</PickUpAll>
+    <PickUpSome>약간의 {0} 줍기</PickUpSome>
+    <PickUpCount>x{{0}}개 만큼 {0} 줍기</PickUpCount>
+
+<!-- TRANS -->
+    <CannotGiveToPackAnimal>Cannot give {0} to pack animal</CannotGiveToPackAnimal>
+    <CannotGiveToPackAnimalAll>Cannot give {0} (all) to pack animal</CannotGiveToPackAnimalAll>
+    <GiveToPackAnimal>Give {0} to pack animal</GiveToPackAnimal>
+    <GiveToPackAnimalAll>Give {0} (all) to pack animal</GiveToPackAnimalAll>
+    <GiveToPackAnimalSome>Give {0} to pack animal...</GiveToPackAnimalSome>
+    <GiveToPackAnimalCount>Take {0} x{{0}}</GiveToPackAnimalCount>
+
+    <CannotCarryToExit>Cannot carry {0} and leave the area</CannotCarryToExit>
+    <CarryToExit>Carry {0} and leave the area</CarryToExit>
+<!-- TRANS -->
+
     <Strip>{0} 벗기기</Strip>
     <CannotStrip>{0} 벗기기 불가</CannotStrip>
-
-    <Deposit>{0}(을)를 {1}에 보관</Deposit>
-    <CannotDeposit>{0}(을)를 {1}에 보관 불가</CannotDeposit>
 
     <Drop>{0} 버리기</Drop>
 
@@ -94,6 +112,10 @@
 
     <TradeWith>{0}(와)과 거래</TradeWith>
     <CannotTrade>거래 불가</CannotTrade>
+
+    <EnterMap>{0} 진입</EnterMap>
+    <VisitFactionBase>{0} 방문</VisitFactionBase>
+    <AttackFactionBase>{0} 공격</AttackFactionBase>
 
     <!-- Specific thing interactions -->
     <EnterCryptosleepCasket>동면장치에 탑승</EnterCryptosleepCasket>
@@ -117,5 +139,8 @@
 
     <!-- 예시: 우선 (목적어1) (동사0). 우선 벽 수리, 우선 맥주 섭취 -->
     <PrioritizeGeneric>우선 {1} {0}</PrioritizeGeneric>
+
+    <DropAtEdge>가장자리에 낙하</DropAtEdge>
+    <DropInCenter>중앙에 낙하</DropInCenter>
 
 </LanguageData>

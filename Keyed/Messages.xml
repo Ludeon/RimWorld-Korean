@@ -74,9 +74,11 @@
 
     <MessageInvoluntarySleep>{0}(이)가 엄청난 피로로 인해 쓰러졌습니다.</MessageInvoluntarySleep>
 
-    <MessageMedicalOperationFailureCatastrophic>{0}(이)가 {1}(을)를 수술하다가 처참하게 실패했습니다.</MessageMedicalOperationFailureCatastrophic>
     <MessageMedicalOperationFailureMinor>{0}(이)가 {1}(을)를 수술하다가 약간 실수했습니다.</MessageMedicalOperationFailureMinor>
-    <MessageMedicalOperationWillAngerFaction>이 수술은 {0}(을)를 분노하게 할 것입니다.</MessageMedicalOperationWillAngerFaction>
+    <MessageMedicalOperationFailureCatastrophic>{0}(이)가 {1}(을)를 수술하다가 처참하게 실패했습니다.</MessageMedicalOperationFailureCatastrophic>
+    <MessageMedicalOperationFailureRidiculous>{0}(이)가 {1}(을)를 수술하다가 어처구니가 없을 정도로 실패했습니다.</MessageMedicalOperationFailureRidiculous>
+
+    <MessageMedicalOperationWillAngerFaction>이 수술은 {0} 세력을 분노하게 할 것입니다.</MessageMedicalOperationWillAngerFaction>
 
     <MessagePawnExitMapRelationGain>{0}(이)가 이 지도를 건강하게 떠났기 때문에, {1} 세력과의 관계가 {2}만큼 향상되었습니다.</MessagePawnExitMapRelationGain>
 
@@ -136,5 +138,70 @@
     <MessageRottedAwayInStorage>{0}(이)가 완전히 상해서 없어졌습니다.</MessageRottedAwayInStorage>
 
     <MessageFoodPoisoning>{0}(이)가 {1}(으)로 인해 식중독에 걸렸습니다.</MessageFoodPoisoning>
+
+    <MessageFailedToSendCaravanBecausePawnLost>상단을 보낼 수 없습니다. 정착민, 죄수, 또는 동물이 죽었습니다.</MessageFailedToSendCaravanBecausePawnLost>
+    <MessageCaravanFormationPaused>상단 구성은 모든 구성원이 정신이상에서 회복하면 진행됩니다.</MessageCaravanFormationPaused>
+    <MessageCaravanFormationUnpaused>정착민들이 상단을 다시 꾸리기 시작합니다.</MessageCaravanFormationUnpaused>
+
+    <MessageCaravanMemberHasExtremeMentalBreak>상단 구성원 중 한 명이 정신이상을 겪고 있습니다.</MessageCaravanMemberHasExtremeMentalBreak>
+
+    <MessageMaxPlanetCoveragePerformanceWarning>경고: 행성 전체를 생성하면 상당한 시간이 걸릴 수 있습니다.</MessageMaxPlanetCoveragePerformanceWarning>
+
+    <MessagePlantDiedOfCold>{0}(이)가 추위로 인해 죽었습니다.</MessagePlantDiedOfCold>
+    <MessagePlantDiedOfRot>{0}(이)가 수확하지 않고 장시간 방치되어 죽었습니다.</MessagePlantDiedOfRot>
+
+    <MessagePawnBeingBurned>엄청난 열기가 {0}(을)를 산채로 불태우고 있습니다!</MessagePawnBeingBurned>
+
+    <MessageAccidentalOverdose>{0}(이)가 실수로 {1}(을)를 과도하게 섭취했습니다!</MessageAccidentalOverdose>
+
+    <MessageCaravanArrivedAtDestination>{0}(이)가 목적지에 도착했습니다.</MessageCaravanArrivedAtDestination>
+
+    <MessageCaravanIsVisitingFaction>{0}(이)가 {1}에 도착했습니다.</MessageCaravanIsVisitingFaction>
+
+    <MessageCaravanEnteredWorldObject>{0}(이)가 {1}에 진입했습니다.</MessageCaravanEnteredWorldObject>
+
+    <MessagePawnLeftMapAndCreatedCaravan>{0}(이)가 지역을 벗어나 상단을 구성했습니다.</MessagePawnLeftMapAndCreatedCaravan>
+
+    <MessageSettledInExistingMap>성공적으로 새로운 지역에 정착했습니다.</MessageSettledInExistingMap>
+
+    <MessageAmbushVictory>승리했습니다! 정착민들이 상단을 구성해 떠나기 전까지 {0}시간동안 물건을 챙길 수 있습니다.</MessageAmbushVictory>
+
+    <MessageAutomaticallyReformedCaravan>정착민들이 상단을 구성했습니다.</MessageAutomaticallyReformedCaravan>
+
+<!-- TRANS -->
+    <MessageOldWoundHealed>Because of {0}, {1}'s {2} has healed.</MessageOldWoundHealed>
+
+    <MessageRescueeJoined>Since you rescued HIM, {0} has joined your group!</MessageRescueeJoined>
+
+    <MessageAttackedCaravanIsNowHostile>Because you attacked a caravan of {0}, this faction is now hostile to you.</MessageAttackedCaravanIsNowHostile>
+
+    <MessageTransporterUnreachable>Some transport pods are unreachable.</MessageTransporterUnreachable>
+    <MessageTransportersNotAdjacent>All pod launchers connected to the selected transport pods must be adjacent.</MessageTransportersNotAdjacent>
+
+    <MessageTransportersLoadCanceled_TransporterDestroyed>The loading process has been canceled because one of the transport pods has been destroyed.</MessageTransportersLoadCanceled_TransporterDestroyed>
+    <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>The loading process has been canceled because one of the pod launchers has been destroyed.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+
+    <MessageTransportersLoadingProcessStarted>Your colonists will now load the assigned items into the transport pods.</MessageTransportersLoadingProcessStarted>
+
+    <MessageTransportPodsArrived>Your transport pods have arrived.</MessageTransportPodsArrived>
+    <MessageTransportPodsArrivedAndLost>Your transport pods have arrived, but since there were no colonists inside, the contents are lost.</MessageTransportPodsArrivedAndLost>
+    <MessageTransportPodsArrived_BecameHostile>{0} is now hostile to you.</MessageTransportPodsArrived_BecameHostile>
+
+    <MessageFailedToLoadTransportersBecauseColonistLost>The loading process has been canceled because one of the colonists has been lost.</MessageFailedToLoadTransportersBecauseColonistLost>
+
+    <MessageFinishedLoadingTransporters>Your colonists have finished loading the transport pods.</MessageFinishedLoadingTransporters>
+
+    <MessageTransportPodsDestinationIsInvalid>Selected destination is invalid.</MessageTransportPodsDestinationIsInvalid>
+    <MessageTransportPodsDestinationIsTooFar>Each pod launcher would need at least {0}x chemfuel to send transport pods that far.</MessageTransportPodsDestinationIsTooFar>
+
+    <MessageReformedCaravan>The caravan has been reformed.</MessageReformedCaravan>
+
+    <MessageCantAbandonLastColonist>You can't abandon the last colonist.</MessageCantAbandonLastColonist>
+
+    <MessageCantEquipIncapableOfViolence>Cannot equip: {0} is incapable of violence.</MessageCantEquipIncapableOfViolence>
+    <MessageCantEquipIncapableOfManipulation>Cannot equip: incapable.</MessageCantEquipIncapableOfManipulation>
+
+    <MessageSlaughteringBondedAnimal>Because they are bonded, slaughtering {0} will make {1} unhappy.</MessageSlaughteringBondedAnimal>
+<!-- TRANS -->
 
 </LanguageData>

@@ -51,14 +51,17 @@
     <LetterFriendlyTrapSprungLabel>{0}의 함정 발동</LetterFriendlyTrapSprungLabel>
     <LetterFriendlyTrapSprung>{0}(이)가 실수로 함정을 작동시켜 피해를 입었습니다.</LetterFriendlyTrapSprung>
 
-    <LetterHealthComplications>{0}(이)가 {2}의 합병증으로 인해 다음 증상을 얻었습니다. ({1})</LetterHealthComplications>
-    <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
+    <LetterHealthComplications>{0}(이)가 {2}의 합병증으로 {1}(을)를 얻었습니다.</LetterHealthComplications>
+    <LetterHealthComplicationsLabel>{0}: {1}</LetterHealthComplicationsLabel>
 
-    <LetterHediffFromRandomHediffGiver>{0}(이)가 다음 증상을 얻었습니다. ({1})</LetterHediffFromRandomHediffGiver>
-    <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
+    <LetterHediffFromRandomHediffGiver>{0}(이)가 {1}(을)를 얻었습니다.</LetterHediffFromRandomHediffGiver>
+    <LetterHediffFromRandomHediffGiverLabel>{0}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
-    <LetterLeadersDeathLabel>지도자 사망</LetterLeadersDeathLabel>
-    <LetterLeadersDeath>{1}의 지도자 {0}(이)가 사망해 {2}(이)가 그 자리를 차지했습니다.</LetterLeadersDeath>
+    <LetterLeadersDeathLabel>{1} 사망: {0}</LetterLeadersDeathLabel>
+    <LetterLeadersDeath>{1}의 {3}, {0}(이)가 죽었습니다.\n\n새로운 {3}(은)는 {2}입니다.</LetterLeadersDeath>
+
+    <LetterLeaderChangedLabel>새로운 {1}: {0}</LetterLeaderChangedLabel>
+    <LetterLeaderChanged>{0}(은)는 이제 {1}의 {3}(이)가 아닙니다.\n\n새로운 {3}(은)는 {2}입니다.</LetterLeaderChanged>
 
     <MentalBreakLetterLabel>정신 이상</MentalBreakLetterLabel>
     <MentalBreakReason>마지막 계기: {0}.</MentalBreakReason>
@@ -68,7 +71,9 @@
     <LetterRelatedPawnsRaidEnemy>{0}에서 온 적군에 정착민 또는 정착지 죄수와 아는 사람들이 포함되어 있습니다.\n\n비록 가족이지만 세력간 관계로 인해 서로 공격할 것입니다.\n\n목록:</LetterRelatedPawnsRaidEnemy>
     <LetterRelatedPawnsRaidFriendly>{0}에서 온 아군에 정착민 또는 정착지 죄수와 아는 사람들이 포함되어 있습니다.\n\n목록:</LetterRelatedPawnsRaidFriendly>
     <LetterRelatedPawnsNeutralGroup>{0}의 무리에 정착민 또는 정착지 죄수와 아는 사람들이 포함되어 있습니다.\n\n목록:</LetterRelatedPawnsNeutralGroup>
-    <LetterRelatedPawnsTradeShip>궤도 상선이 정착민 또는 정착지 죄수와 아는 사람을 판매 중입니다.\n\n목록:</LetterRelatedPawnsTradeShip>
+    <LetterRelatedPawnsTradeShip>궤도 상선이 정착민 또는 정착지 죄수와 아는 사람을 판매하고 있습니다.\n\n목록:</LetterRelatedPawnsTradeShip>
+    <LetterRelatedPawnsTradingWithFactionBase>해당 세력 기지에서 정착민 또는 죄수와 아는 사람을 판매하고 있습니다.\n\n목록:</LetterRelatedPawnsTradingWithFactionBase>
+    <LetterRelatedPawnsTradingWithOtherCaravan>해당 상단에서 정착민 또는 죄수와 아는 사람을 판매하고 있습니다.\n\n목록:</LetterRelatedPawnsTradingWithOtherCaravan>
 
     <RelationshipAppendedLetterSuffix>(관계)</RelationshipAppendedLetterSuffix>
     <RelationshipAppendedLetterTextColonist>NAME(은)는 정착민을 알고 있습니다. HE {0}의 {1}입니다.</RelationshipAppendedLetterTextColonist>
@@ -123,5 +128,33 @@
     <!-- Drug binge -->
     <LetterLabelDrugBinge>{0} 갈망</LetterLabelDrugBinge>
     <LetterDrugBinge>{0}(이)가 {1}(을)를 갈망하고 있습니다.</LetterDrugBinge>
+
+<!-- TRANS -->
+    <!-- Formed caravan -->
+    <LetterLabelFormedCaravan>Caravan ready</LetterLabelFormedCaravan>
+    <LetterFormedCaravan>Your caravan has formed and awaits orders on the world map.</LetterFormedCaravan>
+
+    <!-- Caravan destroyed -->
+    <LetterLabelAllCaravanColonistsDied>Caravan destroyed</LetterLabelAllCaravanColonistsDied>
+    <LetterAllCaravanColonistsDied>All members of your caravan have died.</LetterAllCaravanColonistsDied>
+
+    <!-- Caravan entered ambush map -->
+    <LetterLabelCaravanEnteredAmbushMap>Caravan arrived at ambush</LetterLabelCaravanEnteredAmbushMap>
+    <LetterCaravanEnteredAmbushMap>{0} has arrived at the ambush site.</LetterCaravanEnteredAmbushMap>
+
+    <!-- Caravan entered enemy base -->
+    <LetterLabelCaravanEnteredEnemyBase>Attack begun</LetterLabelCaravanEnteredEnemyBase>
+    <LetterCaravanEnteredEnemyBase>{0} has arrived at {1} and is ready to begin the attack.</LetterCaravanEnteredEnemyBase>
+    <LetterCaravanEnteredEnemyBaseBecameHostile>{0} has arrived at {1} and is ready to begin the attack.\n\nBecause of your hostile approach, {2} is now hostile to you.</LetterCaravanEnteredEnemyBaseBecameHostile>
+
+    <!-- Faction base defeated -->
+    <LetterLabelFactionBaseDefeated>Outpost destroyed</LetterLabelFactionBaseDefeated>
+    <LetterFactionBaseDefeated>The enemy outpost {0} has been destroyed.\n\nYou have {1} hours to collect items before your colonists reform the caravan.</LetterFactionBaseDefeated>
+    <LetterFactionBaseDefeated_FactionDestroyed>This was the last base of {0}, which means the faction does not exist anymore.</LetterFactionBaseDefeated_FactionDestroyed>
+
+    <!-- Pawns lost due to map countdown -->
+    <LetterLabelPawnsLostDueToMapCountdown>Left behind</LetterLabelPawnsLostDueToMapCountdown>
+    <LetterPawnsLostDueToMapCountdown>Some of your animals or prisoners were left behind in the wilderness:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+<!-- TRANS -->
 
 </LanguageData>

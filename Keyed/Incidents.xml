@@ -47,13 +47,17 @@
 
     <LetterLabelSingleVisitorArrives>방문객</LetterLabelSingleVisitorArrives>
     <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\n이름은 {2}이며, {0}입니다. {3}{4}</SingleVisitorArrives>
-    <SingleVisitorArrivesTraderInfo>\n\nHE 약간의 물건을 거래할 마음이 있는 듯 합니다.</SingleVisitorArrivesTraderInfo> <!-- 3 -->
-    <SingleVisitorArrivesLeaderInfo>\\nHE 세력의 지도자입니다.</SingleVisitorArrivesLeaderInfo> <!-- 4 -->
+    <SingleVisitorArrivesTraderInfo>\n\nHE 약간의 물건을 거래할 마음이 있는 듯 합니다.</SingleVisitorArrivesTraderInfo>
+    <!-- 3 -->
+    <SingleVisitorArrivesLeaderInfo>\\nHE 세력의 지도자입니다.</SingleVisitorArrivesLeaderInfo>
+    <!-- 4 -->
 
     <LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
     <GroupVisitorsArrive>{0}에서 온 사람들이 정착지를 방문하고 있습니다. {1}{2}</GroupVisitorsArrive>
-    <GroupVisitorsArriveTraderInfo>\n\n이들은 약간의 물건을 거래할 마음이 있는 듯 합니다.</GroupVisitorsArriveTraderInfo> <!-- 3 -->
-    <GroupVisitorsArriveLeaderInfo>\n\n이들 중 한 사람, {0}(은)는 세력의 지도자입니다.</GroupVisitorsArriveLeaderInfo> <!-- 4 -->
+    <GroupVisitorsArriveTraderInfo>\n\n이들은 약간의 물건을 거래할 마음이 있는 듯 합니다.</GroupVisitorsArriveTraderInfo>
+    <!-- 3 -->
+    <GroupVisitorsArriveLeaderInfo>\n\n이들 중 한 사람, {0}(은)는 세력의 지도자입니다.</GroupVisitorsArriveLeaderInfo>
+    <!-- 4 -->
 
     <VisitorsLeaving>{0}에서 온 방문자들이 떠나고 있습니다.</VisitorsLeaving>
 
@@ -125,5 +129,18 @@
     <RansomDemand>{1}(이)가 라디오로 접촉해왔습니다. 돈을 지불하면 정착민이었던 {0}(을)를 풀어주겠다고 합니다.\n\n몸값으로는 {2}의 은을 요구하고 있습니다.</RansomDemand>
     <RansomDemand_Accept>수락</RansomDemand_Accept>
     <RansomDemand_Reject>거부</RansomDemand_Reject>
+
+    <!-- Journey -->
+<!-- TRANS -->
+    <JourneyOffer>Someone contacts you on radio and offers to take you with them on their ship. They've sent you the exact world coordinates of their location.</JourneyOffer>
+    <JourneyOffer_JumpToLocation>Jump to location</JourneyOffer_JumpToLocation>
+    <JourneyOffer_OK>OK</JourneyOffer_OK>
+
+    <!-- Caravan meeting -->
+    <CaravanMeeting>Your caravan has met peacefully with a caravan from {0}. The other caravan is composed of:\n\n{1}</CaravanMeeting>
+    <CaravanMeeting_Trade>Trade</CaravanMeeting_Trade>
+    <CaravanMeeting_Attack>Attack</CaravanMeeting_Attack>
+    <CaravanMeeting_MoveOn>Move on</CaravanMeeting_MoveOn>
+<!-- TRANS -->
 
 </LanguageData>

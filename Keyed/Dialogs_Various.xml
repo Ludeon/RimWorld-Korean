@@ -28,7 +28,7 @@
     <ModWithAssemblyWasUnloaded>비활성화된 모드를 모두 정리하지 못했습니다. 일부 코드가 남아있을 수 있습니다.\n\n지금 게임을 다시 시작해 완전히 정리하길 권장합니다.</ModWithAssemblyWasUnloaded>
 
     <!-- Missing Steam -->
-    <SteamClientMissing>Steam API를 초기화 하지 못했습니다. 가능한 원인:\n\n-스팀이 실행 중\n-steam_appid.txt 파일 없이 스팀 외부에서 실행\n-스팀 클라이언트와 다른 권한(예: 관리자 모드로 실행)으로 실행\n\n이 버전은 스팀을 필요로 합니다. 게임이 자동으로 종료됩니다.</SteamClientMissing>
+    <SteamClientMissing>Steam API를 초기화 하지 못했습니다. 가능한 원인:\n\n-스팀이 실행 중\n-steam_appid.txt 파일 없이 스팀 외부에서 실행\n-스팀 클라이언트와 다른 권한(예: 관리자 모드로 실행)으로 실행\n\n계속 플레이하실 수 있지만, 모든 스팀 기능을 사용할 수 없습니다.</SteamClientMissing>
 
     <!-- Long events -->
     <InitializingInterface>인터페이스 준비 중</InitializingInterface>
@@ -39,8 +39,9 @@
     <Initializing>준비 중</Initializing>
     <LoadingWorld>세계 불러오는 중</LoadingWorld>
     <LoadingMap>지도 불러오는 중</LoadingMap>
-    <InitializingMap>지도 초기화 중</InitializingMap>
+    <InitializingGame>게임 초기화 중</InitializingGame>
     <SpawningAllThings>물건 배치 중</SpawningAllThings>
+    <SpawningColonists>정착민 배치 중</SpawningColonists>
 
     <!-- Save/load -->
     <SaveGameButton>저장</SaveGameButton>
@@ -60,10 +61,19 @@
     <ProblemSavingFile>파일 {0}에 저장 중 다음 문제가 발생하였습니다.\n\n{1}\n\n자세한 정보는 오류 로그를 읽어주세요.</ProblemSavingFile>
     <LoadAnyway>계속 불러오기</LoadAnyway>
 
-    <!-- Colony naming-->
-    <NameColonyMessage>당신은 한동안 이 곳에 머물러야 할 것으로 보입니다. 이 참에 공동체의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n이 곳을 어떻게 부르면 좋을까요?</NameColonyMessage>
-    <ColonyGainsName>이제부터 공동체가 {0}의 이름으로 알려집니다.</ColonyGainsName>
-    <ColonyNameIsInvalid>이름이 유효하지 않습니다.</ColonyNameIsInvalid>
+    <!-- Player faction naming -->
+    <NamePlayerFactionMessage>우리 세력의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionMessage>
+    <PlayerFactionGainsName>이제부터 우리 세력이 {0}의 이름으로 알려집니다.</PlayerFactionGainsName>
+    <PlayerFactionNameIsInvalid>이름이 유효하지 않습니다.</PlayerFactionNameIsInvalid>
+
+    <!-- Player faction base naming -->
+    <NamePlayerFactionBaseMessage>당신은 한동안 이 곳에 머물러야 할 것으로 보입니다. 이 참에 이 곳의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage>
+    <PlayerFactionBaseGainsName>이 곳은 이제 {0}의 이름으로 불립니다.</PlayerFactionBaseGainsName>
+    <PlayerFactionBaseNameIsInvalid>이름이 유효하지 않습니다.</PlayerFactionBaseNameIsInvalid>
+
+    <!-- Player faction and faction base naming -->
+    <NamePlayerFactionBaseMessage_NameFactionContinuation>한동안 이 곳에 머물러야 할 것으로 보이기 때문에, 내친김에 이 곳의 이름도 정하자는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+    <PlayerFactionAndBaseGainsName>이제부터 우리 세력은 {0}, 이 장소는 {1}의 이름으로 알려집니다.</PlayerFactionAndBaseGainsName>
 
     <!-- Zone naming -->
     <ZoneGainsName>그 구역의 이름은 이제 {0}입니다.</ZoneGainsName>
@@ -140,8 +150,8 @@
     <CurrentlyHave>현재 개수:</CurrentlyHave>
     <BillRepeatTargetCountShort>{0}개 유지</BillRepeatTargetCountShort>
     <BillStoreMode_DropOnFloor>바닥에 내려놓기</BillStoreMode_DropOnFloor>
-    <BillStoreMode_BestStockpile>적합한 저장구역으로 옮기기</BillStoreMode_BestStockpile>
-    <BillStoreMode_NearestStockpileAnyPriority>가장 가까운 저장구역으로 옮기기</BillStoreMode_NearestStockpileAnyPriority>
+    <BillStoreMode_BestStockpile>최적 저장구역으로</BillStoreMode_BestStockpile>
+    <BillStoreMode_NearestStockpileAnyPriority>최소거리 저장구역으로</BillStoreMode_NearestStockpileAnyPriority>
 
     <!-- Info Card -->
     <Damage>피해량</Damage>
@@ -160,8 +170,7 @@
     <Days>일</Days>
     <MinGrowingSkillToSow>재배 기술 요구치</MinGrowingSkillToSow>
     <FertilityRequirement>토질 조건</FertilityRequirement>
-    <SoilFertilitySensitivityGrowthRate>토질 민감도 (성장률)</SoilFertilitySensitivityGrowthRate>
-    <SoilFertilitySensitivityPlantChance>토질 민감도 (재배율)</SoilFertilitySensitivityPlantChance>
+    <FertilitySensitivity>토질 민감도</FertilitySensitivity>
     <LightRequirement>조명 조건</LightRequirement>
     <Attributes>속성</Attributes>
     <LifeSpan>수명</LifeSpan>
@@ -172,6 +181,7 @@
     <MeleeDamage>근접 피해량</MeleeDamage>
     <MinFoodQuality>음식의 최소 품질</MinFoodQuality>
     <Diet>식성</Diet>
+    <BodySize>크기</BodySize>
     <RecruitDifficulty>설득 난이도</RecruitDifficulty>
     <MarketValue>시장 기본가</MarketValue>
     <Covers>보호</Covers>
@@ -207,6 +217,68 @@
     <NegotiatorTalkingImpaired>{0}의 건강이 좋지 않아 말을 제대로 할 수 없습니다. \n\n거래 가격에 영향이 있을 수 있습니다. \n\n더 건강한 사람으로 대체하는 것을 고려하세요.</NegotiatorTalkingImpaired>
     <ConfirmTraderShortFunds>상인이 거래하기에 충분한 양의 은을 보유하고 있지 않습니다. 계속 하시겠습니까?</ConfirmTraderShortFunds>
     <SortBy>정렬</SortBy>
+    <TraderTypePrice>상인 유형</TraderTypePrice>
+    <Selling>판매 중</Selling>
+    <Buying>구매 중</Buying>
+    <ItemSellPriceFactor>물건 판매가 계수</ItemSellPriceFactor>
+    <DifficultyLevel>난이도</DifficultyLevel>
+    <PostCurve>전역 최종 후처리 커브</PostCurve>
+    <YourNegotiatorBonus>당신의 협상가 보너스</YourNegotiatorBonus>
+    <TradeWithFactionBaseBonus>세력과의 기본 보너스</TradeWithFactionBaseBonus>
+    <minimum>최소</minimum>
+    <FinalPrice>최종 가격</FinalPrice>
+
+    <!-- Form caravan -->
+    <!-- TRANS -->
+    <FormCaravan>상단 구성</FormCaravan>
+    <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
+    <CaravanPawnsTab>Members</CaravanPawnsTab>
+    <CaravanItemsTab>Supplies</CaravanItemsTab>
+    <CaravanConfigTab>Config</CaravanConfigTab>
+    <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
+    <CaravanCouldNotFindExitSpot>Could not find any valid exit location.</CaravanCouldNotFindExitSpot>
+    <CaravanCouldNotFindReachableExitSpot>Warning: some of the assigned colonists are unable to reach the exit location.</CaravanCouldNotFindReachableExitSpot>
+    <CaravanPawnIsUnreachable>{0} is unreachable by any of the assigned colonists.</CaravanPawnIsUnreachable>
+    <CaravanItemIsUnreachableSingle>None of the assigned colonists are able to reach the {0}.</CaravanItemIsUnreachableSingle>
+    <CaravanItemIsUnreachableMulti>None of the assigned colonists are able to reach {0}x {1}.</CaravanItemIsUnreachableMulti>
+    <TooBigCaravanMassUsage>The caravan is not able to carry that much.</TooBigCaravanMassUsage>
+    <CaravanMassUsageTooltip>Current mass usage and mass capacity.\n\nMass usage includes the assigned caravan supplies as well as the colonists' current equipment.\n\nYou will not be able to send the caravan if the mass usage exceedes capacity.</CaravanMassUsageTooltip>
+    <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
+    <DaysWorthOfFoodInfo>{0} days worth of food</DaysWorthOfFoodInfo>
+    <DaysWorthOfFoodTooltip>An approximate number of days before the caravan runs out of food.\n\nThis takes into account both human and animal food, and shows the worst case scenario. This means that after this many days, at least one person or animal will be out of food.</DaysWorthOfFoodTooltip>
+    <DaysWorthOfFoodWarningDialog>Your caravan only has {0} days worth of food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog>
+    <DaysWorthOfFoodWarningDialog_NoFood>Your caravan has no food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog_NoFood>
+    <NoExitDirectionForCaravanChosen>You must choose an exit direction for the caravan.</NoExitDirectionForCaravanChosen>
+    <NoCaravanExitDirectionAvailable>(no exit direction available)</NoCaravanExitDirectionAvailable>
+    <ExitDirection>Exit direction</ExitDirection>
+    <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+    <ItemWeightTip>Weight of this item.</ItemWeightTip>
+    <MassCapacity>Mass capacity</MassCapacity>
+    <Mass>Mass</Mass>
+    <EquipmentAndApparelMass>Equipment and apparel mass</EquipmentAndApparelMass>
+    <InventoryMass>Inventory mass</InventoryMass>
+    <CaravanFormationProcessStarted>Your colonists will now take the assigned items and leave the area as soon as possible.</CaravanFormationProcessStarted>
+    <ReformCaravan>Reform caravan</ReformCaravan>
+
+    <!-- Split caravan -->
+    <SplitCaravan>Split caravan</SplitCaravan>
+    <SourceCaravanMustHaveAtLeastOneColonist>You must leave at least one non-downed colonist.</SourceCaravanMustHaveAtLeastOneColonist>
+    <CaravanSplitSourceLabel>Current</CaravanSplitSourceLabel>
+    <CaravanSplitDestLabel>New</CaravanSplitDestLabel>
+    <SplitCaravanThingCountTip>How many of this item the caravan has ready to give to the new caravan.</SplitCaravanThingCountTip>
+    <SplitCaravanMassUsageTooltip>Current mass usage and mass capacity.</SplitCaravanMassUsageTooltip>
+
+    <!-- Load transporters -->
+    <LoadTransporters>Load {0}</LoadTransporters>
+    <LoadTransportersPawnsTab>People and animals</LoadTransportersPawnsTab>
+    <LoadTransportersItemsTab>Items</LoadTransportersItemsTab>
+    <TooBigTransportersMassUsage>The assigned people and items are too heavy for the transport pods.</TooBigTransportersMassUsage>
+    <CantSendEmptyTransportPods>You can't send empty transport pods.</CantSendEmptyTransportPods>
+    <PawnCantReachTransporters>{0} can't reach the transport pods.</PawnCantReachTransporters>
+    <TransporterItemIsUnreachableSingle>There is no path between the transport pods and the {0}.</TransporterItemIsUnreachableSingle>
+    <TransporterItemIsUnreachableMulti>There is no path between the transport pods and {0}x {1}.</TransporterItemIsUnreachableMulti>
+    <TransportersMassUsageTooltip>Current mass usage and mass capacity.\n\nYou will not be able to send the transport pods if the mass usage exceedes capacity.</TransportersMassUsageTooltip>
+    <!-- TRANS -->
 
     <!-- Comms -->
     <SocialSkillIs>사교기술: {0}</SocialSkillIs>
@@ -262,10 +334,24 @@
     <MoodThresholdColumnDesc>정착민의 기분이 본 수치 아래로 떨어져야 약물을 사용합니다.</MoodThresholdColumnDesc>
     <JoyThresholdColumnDesc>정착민의 재미가 본 수치 아래로 떨어져야 약물을 사용합니다.</JoyThresholdColumnDesc>
     <TakeToInventoryColumnDesc>약물을 집을 때 추가로 소지품에 넣어, 다음 사용 때 저장구역까지 오지 않도록 합니다.</TakeToInventoryColumnDesc>
-    <DrugUsageTipForJoy>재미\n\n스트레스 해소, 사교 활동, 해당되는 경우 약물 필요 수치를 채우기 위해 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForJoy>
+    <DrugUsageTipForAddiction>중독 충족\n\n중독자들의 약물 필요 수치를 채우기 위해 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForAddiction>
+    <DrugUsageTipForJoy>재미\n\n스트레스 해소와 사교 활동으로 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForJoy>
     <DrugUsageTipScheduled>시간 엄수\n\n조건을 만족할 경우 지정된 일정에 따라 사용합니다.\n\n스트레스 해소, 사교 활동 및 약물 필요 수치를 채우기 위한 사용도 허용합니다.</DrugUsageTipScheduled>
 
     <!-- Growing -->
     <NoGrowerCanPlant>{0}의 재배에는 최소 {1}의 재배 기술이 필요합니다.\n\n해당 기술을 가진 농부가 아무도 없으므로 식물이 심어지지 않을 것입니다.</NoGrowerCanPlant>
+
+    <!-- Abandon home -->
+    <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+
+    <!-- Move caravan and leave prisoners and animals behind -->
+    <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+
+    <!-- Abandon pawn -->
+    <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
+    <ConfirmAbandonPawnDialog_LeftToDie>{0} will most likely die.</ConfirmAbandonPawnDialog_LeftToDie>
+    <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} will take the following items with HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+    <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+    <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
 
 </LanguageData>
