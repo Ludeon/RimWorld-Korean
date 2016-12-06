@@ -334,10 +334,24 @@
     <MoodThresholdColumnDesc>정착민의 기분이 본 수치 아래로 떨어져야 약물을 사용합니다.</MoodThresholdColumnDesc>
     <JoyThresholdColumnDesc>정착민의 재미가 본 수치 아래로 떨어져야 약물을 사용합니다.</JoyThresholdColumnDesc>
     <TakeToInventoryColumnDesc>약물을 집을 때 추가로 소지품에 넣어, 다음 사용 때 저장구역까지 오지 않도록 합니다.</TakeToInventoryColumnDesc>
-    <DrugUsageTipForJoy>재미\n\n스트레스 해소, 사교 활동, 해당되는 경우 약물 필요 수치를 채우기 위해 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForJoy>
+    <DrugUsageTipForAddiction>중독 충족\n\n중독자들의 약물 필요 수치를 채우기 위해 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForAddiction>
+    <DrugUsageTipForJoy>재미\n\n스트레스 해소와 사교 활동으로 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForJoy>
     <DrugUsageTipScheduled>시간 엄수\n\n조건을 만족할 경우 지정된 일정에 따라 사용합니다.\n\n스트레스 해소, 사교 활동 및 약물 필요 수치를 채우기 위한 사용도 허용합니다.</DrugUsageTipScheduled>
 
     <!-- Growing -->
     <NoGrowerCanPlant>{0}의 재배에는 최소 {1}의 재배 기술이 필요합니다.\n\n해당 기술을 가진 농부가 아무도 없으므로 식물이 심어지지 않을 것입니다.</NoGrowerCanPlant>
+
+    <!-- Abandon home -->
+    <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+
+    <!-- Move caravan and leave prisoners and animals behind -->
+    <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+
+    <!-- Abandon pawn -->
+    <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
+    <ConfirmAbandonPawnDialog_LeftToDie>{0} will most likely die.</ConfirmAbandonPawnDialog_LeftToDie>
+    <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} will take the following items with HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+    <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+    <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
 
 </LanguageData>
