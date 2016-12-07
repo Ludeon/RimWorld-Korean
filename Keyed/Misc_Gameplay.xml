@@ -31,7 +31,7 @@
     <Description>설명</Description>
     <Equipment>장비</Equipment>
     <Apparel>의복</Apparel>
-    <Inventory>재고</Inventory>
+    <Inventory>소지품</Inventory>
     <ThingInfo>정보</ThingInfo>
     <DropThing>떨어뜨리기</DropThing>
     <Rename>이름 바꾸기</Rename>
@@ -85,22 +85,16 @@
     <CaravanVisiting>{0} 방문 중</CaravanVisiting>
     <CaravanEntering>{0} 진입 중</CaravanEntering>
     <CaravanAttacking>{0} 공격 중</CaravanAttacking>
-<!-- TRANS -->
-    <WasWornByCorpse>Was worn by a corpse.</WasWornByCorpse>
-<!-- TRANS -->
+    <WasWornByCorpse>유품.</WasWornByCorpse>
     <DeterioratingDueToBeingUnroofed>지붕이 없어 손상되는 중.</DeterioratingDueToBeingUnroofed>
     <Map>지도</Map>
     <ForceExitAndRemoveMapCountdown>나가기 전까지 {0}시간 남음</ForceExitAndRemoveMapCountdown>
     <ForceExitAndRemoveMapCountdownTip>정착민들이 {0}시간 후 상단을 꾸려 다시 출발합니다.</ForceExitAndRemoveMapCountdownTip>
     <Room>방</Room>
-<!-- TRANS -->
     <BeautyHere>미관</BeautyHere>
-<!-- TRANS -->
     <NoPower>전력 없음</NoPower>
     <WorkSpeedPenalty>작업 속도 페널티</WorkSpeedPenalty>
-<!-- TRANS -->
     <DisabledCommand>사용 불가</DisabledCommand>
-<!-- TRANS -->
     <ReadyForLaunch>발사 준비됨.</ReadyForLaunch>
     <NotReadyForLaunch>발사 준비되지 않음</NotReadyForLaunch>
     <NotAllInGroupConnectedToFuelingPort>연료공급 포트 없음</NotAllInGroupConnectedToFuelingPort>
