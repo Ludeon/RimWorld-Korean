@@ -230,10 +230,10 @@
 
     <!-- Form caravan -->
     <FormCaravan>상단 구성</FormCaravan>
-<!-- TRANS -->
+    <!-- TRANS -->
     <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
-    <CaravanPawnsTab>Members</CaravanPawnsTab>
-    <CaravanItemsTab>Supplies</CaravanItemsTab>
+    <PawnsTab>People and animals</PawnsTab>
+    <ItemsTab>Items</ItemsTab>
     <CaravanConfigTab>Config</CaravanConfigTab>
     <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
     <CaravanCouldNotFindExitSpot>Could not find any valid exit location.</CaravanCouldNotFindExitSpot>
@@ -252,15 +252,19 @@
     <NoExitDirectionForCaravanChosen>상단의 출발 방향을 정해야 합니다.</NoExitDirectionForCaravanChosen>
     <NoCaravanExitDirectionAvailable>(모든 방향 막힘)</NoCaravanExitDirectionAvailable>
     <ExitDirection>출발 방향</ExitDirection>
-<!-- TRANS -->
     <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
-    <ItemWeightTip>Weight of this item.</ItemWeightTip>
-    <MassCapacity>Mass capacity</MassCapacity>
-    <Mass>Mass</Mass>
-    <EquipmentAndApparelMass>Equipment and apparel mass</EquipmentAndApparelMass>
+    <ItemWeightTip>이 아이템의 무게입니다.</ItemWeightTip>
+    <MarketValueTip>시장 가치</MarketValueTip>
+    <MassCapacity>최대 수용량</MassCapacity>
+    <Mass>무게</Mass>
+    <EquipmentAndApparelMass>장비 및 의류 무게</EquipmentAndApparelMass>
+<!-- TRANS -->
     <InventoryMass>Inventory mass</InventoryMass>
     <CaravanFormationProcessStarted>Your colonists will now take the assigned items and leave the area as soon as possible.</CaravanFormationProcessStarted>
     <ReformCaravan>Reform caravan</ReformCaravan>
+    <ColonistsSection>Colonists</ColonistsSection>
+    <PrisonersSection>Prisoners</PrisonersSection>
+    <AnimalsSection>Animals</AnimalsSection>
 
     <!-- Split caravan -->
     <SplitCaravan>Split caravan</SplitCaravan>
@@ -273,16 +277,14 @@
 
     <!-- Load transporters -->
     <LoadTransporters>{0} 탑재</LoadTransporters>
-    <LoadTransportersPawnsTab>사람과 동물</LoadTransportersPawnsTab>
-    <LoadTransportersItemsTab>물건</LoadTransportersItemsTab>
     <TooBigTransportersMassUsage>할당된 사람과 물건이 너무 무겁습니다.</TooBigTransportersMassUsage>
     <CantSendEmptyTransportPods>아무것도 없는 수송기를 발사할 수 없습니다.</CantSendEmptyTransportPods>
     <PawnCantReachTransporters>{0}(이)가 발사대에 접근할 수 없습니다.</PawnCantReachTransporters>
     <TransporterItemIsUnreachableSingle>{0}(와)과 발사대 사이 경로를 찾을 수 없습니다.</TransporterItemIsUnreachableSingle>
-<!-- TRANS -->
+    <!-- TRANS -->
     <TransporterItemIsUnreachableMulti>There is no path between the transport pods and {0}x {1}.</TransporterItemIsUnreachableMulti>
-<!-- TRANS -->
-    <TransportersMassUsageTooltip>최대 탑재 가능 질량과 사용 중인 질량입니다.\n\n최대 질량보다 무거운 경우 수송기를 발사할 수 없습니다.</TransportersMassUsageTooltip>
+    <!-- TRANS -->
+    <TransportersMassUsageTooltip>최대 탑재 가능 무게와 사용 중인 무게입니다.\n\n최대 무게보다 무거운 경우 수송기를 발사할 수 없습니다.</TransportersMassUsageTooltip>
 
     <!-- Comms -->
     <SocialSkillIs>사교기술: {0}</SocialSkillIs>
@@ -345,11 +347,13 @@
     <!-- Growing -->
     <NoGrowerCanPlant>{0}의 재배에는 최소 {1}의 재배 기술이 필요합니다.\n\n해당 기술을 가진 농부가 아무도 없으므로 식물이 심어지지 않을 것입니다.</NoGrowerCanPlant>
 
+<!-- TRANS -->
     <!-- Abandon home -->
     <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
     <!-- Move caravan and leave prisoners and animals behind -->
-    <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+    <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the
+        animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
 
     <!-- Abandon pawn -->
     <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
@@ -358,4 +362,7 @@
     <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
     <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
 
+    <!-- Send transport pods which are not completely loaded -->
+    <ConfirmSendNotCompletelyLoadedPods>Pod group isn’t completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
+<!-- TRANS -->
 </LanguageData>
