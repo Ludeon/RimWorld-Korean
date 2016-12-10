@@ -41,7 +41,6 @@
     <Off>끄기</Off>
     <PowerSwitch_Power>전원</PowerSwitch_Power>
     <JoyTolerances>질림</JoyTolerances>
-    <BrokenLetterLabel>무너짐</BrokenLetterLabel>
     <MilkFullness>유량</MilkFullness>
     <WoolGrowth>털</WoolGrowth>
     <EggProgress>알 진행도</EggProgress>
@@ -86,6 +85,7 @@
     <CaravanEntering>{0} 진입 중</CaravanEntering>
     <CaravanAttacking>{0} 공격 중</CaravanAttacking>
     <WasWornByCorpse>유품.</WasWornByCorpse>
+    <WornByCorpseChar>死</WornByCorpseChar>
     <DeterioratingDueToBeingUnroofed>지붕이 없어 손상되는 중.</DeterioratingDueToBeingUnroofed>
     <Map>지도</Map>
     <ForceExitAndRemoveMapCountdown>나가기 전까지 {0}시간 남음</ForceExitAndRemoveMapCountdown>
@@ -113,9 +113,6 @@
 
     <!--TextMotes-->
     <Headshot>헤드샷</Headshot>
-    <TreatQuality>치료 품질 {0}</TreatQuality>
-    <PoorResult>나쁨</PoorResult>
-    <GoodResult>좋음</GoodResult>
     <TextMote_TreatSuccess>치료 성공!\n{0} 확률</TextMote_TreatSuccess>
     <TextMote_TreatFailed>치료 실패\n{0} 확률</TextMote_TreatFailed>
     <HarvestFailed>수확 실패!</HarvestFailed>
@@ -283,12 +280,11 @@
     <OutOfIdealTemperatureRangeNotGrowing>적정 온도 벗어남. 성장 불가.</OutOfIdealTemperatureRangeNotGrowing>
     <ReadyToHarvest>수확 가능</ReadyToHarvest>
     <Mature>성숙</Mature>
-    <SeedLabel>{0} 씨앗</SeedLabel>
     <OutdoorGrowingPeriod>성장 기간: {0}</OutdoorGrowingPeriod>
     <NoGrowingPeriod>불가능</NoGrowingPeriod>
     <GrowYearRound>연중 계속</GrowYearRound>
-    <GrowSeasonHereNow>현재 재배 가능한 계절입니다.</GrowSeasonHereNow>
-    <CannotGrowTooCold>너무 추워 성장할 수 없습니다.</CannotGrowTooCold>
+    <GrowSeasonHereNow>재배 가능</GrowSeasonHereNow>
+    <CannotGrowBadSeasonTemperature>재배할 수 없음 (온도 부적합)</CannotGrowBadSeasonTemperature>
 
     <!-- Zones -->
     <Zone>지역</Zone>

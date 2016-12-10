@@ -43,10 +43,10 @@
 
     <StruckMineable>{0}(을)를 발견했습니다!</StruckMineable>
 
-    <LetterLabelAnimalManhunterFromDamage>{0}의 복수</LetterLabelAnimalManhunterFromDamage>
+    <LetterLabelAnimalManhunterRevenge>{0}의 복수</LetterLabelAnimalManhunterRevenge>
     <AnimalManhunterFromDamage>피해를 받은 {0}(이)가 반격하기 시작합니다!</AnimalManhunterFromDamage>
     <AnimalManhunterFromTaming>조련에 실패하여 {0}(이)가 공격하기 시작합니다!</AnimalManhunterFromTaming>
-    <AnimalManhunterFromOthers>주위의 다른 {0}들도 같이 공격합니다!</AnimalManhunterFromOthers>
+    <AnimalManhunterOthers>주위의 다른 {0}들도 같이 공격합니다!</AnimalManhunterOthers>
 
     <LetterFriendlyTrapSprungLabel>{0}의 함정 발동</LetterFriendlyTrapSprungLabel>
     <LetterFriendlyTrapSprung>{0}(이)가 실수로 함정을 작동시켜 피해를 입었습니다.</LetterFriendlyTrapSprung>
@@ -78,15 +78,6 @@
     <RelationshipAppendedLetterSuffix>(관계)</RelationshipAppendedLetterSuffix>
     <RelationshipAppendedLetterTextColonist>NAME(은)는 정착민을 알고 있습니다. HE {0}의 {1}입니다.</RelationshipAppendedLetterTextColonist>
     <RelationshipAppendedLetterTextPrisoner>NAME(은)는 정착지 죄수를 알고 있습니다. HE {0}의 {1}입니다.</RelationshipAppendedLetterTextPrisoner>
-
-    <!-- Family -->
-    <LetterFamilyMembersRaidFriendly>{0}의 무리에 한 정착민의 가족 구성원이 포함되어 있습니다.\n\n가족 구성원:</LetterFamilyMembersRaidFriendly>
-    <LetterFamilyMembersNeutralGroup>0}의 무리에 한 정착민 또는 죄수의 가족 구성원이 포함되어 있습니다.\n\n가족 구성원:</LetterFamilyMembersNeutralGroup>
-    <LetterFamilyMembersTraderShipSlaves>궤도 무역선에서 한 정착민 또는 죄수의 가족 구성원을 판매하고 있습니다.\n\n가족 구성원:</LetterFamilyMembersTraderShipSlaves>
-
-    <FamilyLetterAppendedSuffix>(가족)</FamilyLetterAppendedSuffix>
-    <FamilyLetterAppendedTextColonist>NAME(은)는 한 정착민의 가족입니다. HE {0}의 {1}입니다.</FamilyLetterAppendedTextColonist>
-    <FamilyLetterAppendedTextPrisoner>NAME(은)는 한 죄수의 가족입니다. HE {0}의 {1}입니다.</FamilyLetterAppendedTextPrisoner>
 
     <!-- Attempt romance / propose interaction -->
     <LetterLabelAffair>불륜</LetterLabelAffair>
