@@ -120,32 +120,30 @@
     <LetterLabelDrugBinge>{0} 갈망</LetterLabelDrugBinge>
     <LetterDrugBinge>{0}(이)가 {1}(을)를 갈망하고 있습니다.</LetterDrugBinge>
 
-<!-- TRANS -->
     <!-- Formed caravan -->
-    <LetterLabelFormedCaravan>Caravan ready</LetterLabelFormedCaravan>
-    <LetterFormedCaravan>Your caravan has formed and awaits orders on the world map.</LetterFormedCaravan>
+    <LetterLabelFormedCaravan>상단 준비</LetterLabelFormedCaravan>
+    <LetterFormedCaravan>상단이 준비를 마친 후 세계 지도에서 명령을 기다리고 있습니다.</LetterFormedCaravan>
 
     <!-- Caravan destroyed -->
-    <LetterLabelAllCaravanColonistsDied>Caravan destroyed</LetterLabelAllCaravanColonistsDied>
-    <LetterAllCaravanColonistsDied>All members of your caravan have died.</LetterAllCaravanColonistsDied>
+    <LetterLabelAllCaravanColonistsDied>상단 파괴</LetterLabelAllCaravanColonistsDied>
+    <LetterAllCaravanColonistsDied>상단의 모든 구성원이 죽었습니다.</LetterAllCaravanColonistsDied>
 
     <!-- Caravan entered ambush map -->
-    <LetterLabelCaravanEnteredAmbushMap>Caravan arrived at ambush</LetterLabelCaravanEnteredAmbushMap>
-    <LetterCaravanEnteredAmbushMap>{0} has arrived at the ambush site.</LetterCaravanEnteredAmbushMap>
+    <LetterLabelCaravanEnteredAmbushMap>매복</LetterLabelCaravanEnteredAmbushMap>
+    <LetterCaravanEnteredAmbushMap>{0}(이)가 급습을 당했습니다.</LetterCaravanEnteredAmbushMap>
 
     <!-- Caravan entered enemy base -->
-    <LetterLabelCaravanEnteredEnemyBase>Attack begun</LetterLabelCaravanEnteredEnemyBase>
-    <LetterCaravanEnteredEnemyBase>{0} has arrived at {1} and is ready to begin the attack.</LetterCaravanEnteredEnemyBase>
-    <LetterCaravanEnteredEnemyBaseBecameHostile>{0} has arrived at {1} and is ready to begin the attack.\n\nBecause of your hostile approach, {2} is now hostile to you.</LetterCaravanEnteredEnemyBaseBecameHostile>
+    <LetterLabelCaravanEnteredEnemyBase>공격 시작</LetterLabelCaravanEnteredEnemyBase>
+    <LetterCaravanEnteredEnemyBase>{0}(이)가 {1}에 도착해 공격할 준비를 마쳤습니다.</LetterCaravanEnteredEnemyBase>
+    <LetterCaravanEnteredEnemyBaseBecameHostile>{0}(이)가 {1}에 도착해 공격할 준비를 마쳤습니다.\n\n공격적인 접근으로 인해 {2} 세력이 적으로 돌아섰습니다.</LetterCaravanEnteredEnemyBaseBecameHostile>
 
     <!-- Faction base defeated -->
-    <LetterLabelFactionBaseDefeated>Outpost destroyed</LetterLabelFactionBaseDefeated>
-    <LetterFactionBaseDefeated>The enemy outpost {0} has been destroyed.\n\nYou have {1} hours to collect items before your colonists reform the caravan.</LetterFactionBaseDefeated>
-    <LetterFactionBaseDefeated_FactionDestroyed>This was the last base of {0}, which means the faction does not exist anymore.</LetterFactionBaseDefeated_FactionDestroyed>
+    <LetterLabelFactionBaseDefeated>전초기지 파괴</LetterLabelFactionBaseDefeated>
+    <LetterFactionBaseDefeated>적의 전초기지 {0}(이)가 파괴되었습니다.\n\n{1}시간동안 남은 전리품을 챙기고 상단을 재구성할 수 있습니다.</LetterFactionBaseDefeated>
+    <LetterFactionBaseDefeated_FactionDestroyed>마지막 기지 파괴로 인해 {0} 세력은 이제 존재하지 않습니다.</LetterFactionBaseDefeated_FactionDestroyed>
 
     <!-- Pawns lost due to map countdown -->
-    <LetterLabelPawnsLostDueToMapCountdown>Left behind</LetterLabelPawnsLostDueToMapCountdown>
-    <LetterPawnsLostDueToMapCountdown>Some of your animals or prisoners were left behind in the wilderness:\n\n{0}</LetterPawnsLostDueToMapCountdown>
-<!-- TRANS -->
+    <LetterLabelPawnsLostDueToMapCountdown>버려짐</LetterLabelPawnsLostDueToMapCountdown>
+    <LetterPawnsLostDueToMapCountdown>다음 동물과 죄수가 야생 한복판에 버려졌습니다.\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
 </LanguageData>

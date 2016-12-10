@@ -193,10 +193,8 @@
     <!-- Generated recipes -->
     <RecipeMake>{0} 만들기</RecipeMake>
     <RecipeMakeJobString>{0} 만드는 중.</RecipeMakeJobString>
-<!-- TRANS -->
-    <RecipeAdminister>administer {0}</RecipeAdminister>
-    <RecipeAdministerJobString>Administering {0}.</RecipeAdministerJobString>
-<!-- TRANS -->
+    <RecipeAdminister>{0} 조제</RecipeAdminister>
+    <RecipeAdministerJobString>{0} 조제 중.</RecipeAdministerJobString>
 
     <!-- Thoughts -->
     <ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
@@ -333,9 +331,7 @@
     <NoStuffsToBuildWith>건설에 필요한 재료가 충분하지 않습니다.</NoStuffsToBuildWith>
 
     <!-- Building placement restricters -->
-<!-- TRANS -->
     <WillGetWorkSpeedPenalty>{0}의 작업 속도가 느려집니다</WillGetWorkSpeedPenalty>
-<!-- TRANS -->
 
     <MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
     <MustPlaceHeadOnShipBeam>앞 부분이 우주선 구조부에 붙어있어야 합니다.</MustPlaceHeadOnShipBeam>
