@@ -62,18 +62,18 @@
     <LoadAnyway>계속 불러오기</LoadAnyway>
 
     <!-- Player faction naming -->
-    <NamePlayerFactionMessage>우리 세력의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionMessage>
-    <PlayerFactionGainsName>이제부터 우리 세력이 {0}의 이름으로 알려집니다.</PlayerFactionGainsName>
+    <NamePlayerFactionMessage>당신의 세력 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionMessage>
+    <PlayerFactionGainsName>당신의 세력이 {0}의 이름으로 알려집니다.</PlayerFactionGainsName>
     <PlayerFactionNameIsInvalid>유효하지 않은 이름입니다.</PlayerFactionNameIsInvalid>
 
     <!-- Player faction base naming -->
     <NamePlayerFactionBaseMessage>당신은 한동안 이 곳에 머물러야 할 것으로 보입니다. 이 참에 이 곳의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage>
-    <PlayerFactionBaseGainsName>이 곳은 이제 {0}의 이름으로 불립니다.</PlayerFactionBaseGainsName>
+    <PlayerFactionBaseGainsName>이제 {0}의 이름으로 알려집니다.</PlayerFactionBaseGainsName>
     <PlayerFactionBaseNameIsInvalid>유효하지 않은 이름입니다.</PlayerFactionBaseNameIsInvalid>
 
     <!-- Player faction and faction base naming -->
     <NamePlayerFactionBaseMessage_NameFactionContinuation>한동안 이 곳에 머물러야 할 것으로 보이기 때문에, 내친김에 이 곳의 이름도 정하자는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage_NameFactionContinuation>
-    <PlayerFactionAndBaseGainsName>이제부터 우리 세력은 {0}, 이 장소는 {1}의 이름으로 알려집니다.</PlayerFactionAndBaseGainsName>
+    <PlayerFactionAndBaseGainsName>이제부터 당신의 세력은 {0}, 이 장소는 {1}의 이름으로 알려집니다.</PlayerFactionAndBaseGainsName>
 
     <!-- Renaming -->
     <NameIsInvalid>유효하지 않은 이름입니다.</NameIsInvalid>
@@ -180,7 +180,6 @@
     <Joy>재미</Joy>
     <FoodQuality>음식의 품질</FoodQuality>
     <WalkSpeedProperty>이동 속도</WalkSpeedProperty>
-    <MeleeDamage>근접 피해량</MeleeDamage>
     <MinFoodQuality>음식의 최소 품질</MinFoodQuality>
     <Diet>식성</Diet>
     <BodySize>크기</BodySize>
@@ -230,6 +229,7 @@
     <TradeWithFactionBaseBonus>세력과의 기본 보너스</TradeWithFactionBaseBonus>
     <minimum>최소</minimum>
     <FinalPrice>최종 가격</FinalPrice>
+    <TradeMassUsageTooltip>거래 결과의 무게 사용량과 최대 소지량입니다.</TradeMassUsageTooltip>
 
     <!-- Form caravan -->
     <FormCaravan>상단 구성</FormCaravan>
