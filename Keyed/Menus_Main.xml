@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <!--=========== Main menu ==========-->
-    <LearnToPlay>튜토리얼</LearnToPlay>
+    <Tutorial>튜토리얼</Tutorial>
     <NewColony>새로운 정착지</NewColony>
     <BackToGame>게임으로 돌아가기</BackToGame>
     <ReviewScenario>시나리오 확인</ReviewScenario>
@@ -39,7 +39,6 @@
     <PlanetTemperature_Low>낮음</PlanetTemperature_Low>
     <PlanetTemperature_Normal>중간</PlanetTemperature_Normal>
     <PlanetTemperature_High>높음</PlanetTemperature_High>
-    <WorldSize>크기</WorldSize>
     <WorldSeed>초기 시드값</WorldSeed>
     <RandomizeSeed>무작위 초기 시드값</RandomizeSeed>
     <PlanetCoverageTip>행성의 지름은 언제나 같지만, 실제 플레이 영역보다는 훨씬 거대하기 때문에 시간을 아끼기 위해 전체 표면을 생성하지는 않습니다. 이 설정을 통해 플레이 영역을 선택할 수 있습니다.</PlanetCoverageTip>
@@ -104,9 +103,8 @@
 
     <!--=========== Select storyteller ==========-->
     <ChooseAIStoryteller>이야기꾼의 인공지능 선택</ChooseAIStoryteller>
-    <HowStorytellersWork>이야기꾼의 인공지능에 따라서 습격, 외부 자원 불시착이나 동물의 공격과 같은 사건이 발생합니다. 이야기꾼의 선택에 따라 정착지의 이야기가 달라지게 될 것입니다. 언제나 바꿀 수 있습니다.
-    </HowStorytellersWork>
-    <MustChooseChallengeScale>도전할 난이도 설정을 선택해야 합니다.</MustChooseChallengeScale>
+    <HowStorytellersWork>이야기꾼의 인공지능에 따라서 습격, 외부 자원 불시착이나 동물의 공격과 같은 사건이 발생합니다. 이야기꾼의 선택에 따라 정착지의 이야기가 달라지게 될 것입니다. 언제나 바꿀 수 있습니다.</HowStorytellersWork>
+    <MustChooseDifficulty>난이도를 선택해야 합니다.</MustChooseDifficulty>
     <Difficulty>난이도</Difficulty>
 
     <!--=========== Landing site select =========-->

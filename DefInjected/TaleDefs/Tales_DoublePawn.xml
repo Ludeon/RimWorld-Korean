@@ -438,20 +438,18 @@
 
     <!-- ==== TradedWith ==== -->
     <TradedWith.label>누군가와 거래</TradedWith.label>
-<!-- TRANS -->
-    <TradedWith.rulePack.rulesStrings.0>tale_noun->a trade between [seller_nameFull] and [buyer_nameFull]</TradedWith.rulePack.rulesStrings.0>
-    <TradedWith.rulePack.rulesStrings.1>image->[buyer_nameFull] buying goods from [seller_nameFull] [circumstance_group]</TradedWith.rulePack.rulesStrings.1>
-    <TradedWith.rulePack.rulesStrings.2>image->[seller_nameFull] selling goods to [buyer_nameFull] [circumstance_group]</TradedWith.rulePack.rulesStrings.2>
-    <TradedWith.rulePack.rulesStrings.3>circumstance_phrase->with greedy intent</TradedWith.rulePack.rulesStrings.3>
-    <TradedWith.rulePack.rulesStrings.4>circumstance_phrase->while [seller_nameShortDef] smirks at [buyer_shortNameDef]</TradedWith.rulePack.rulesStrings.4>
-    <TradedWith.rulePack.rulesStrings.5>desc_sentence->[buyer_nameShortDef] is examining [seller_nameShortDef]'s wares.</TradedWith.rulePack.rulesStrings.5>
-    <TradedWith.rulePack.rulesStrings.6>desc_sentence->[seller_nameShortDef] considers an item.</TradedWith.rulePack.rulesStrings.6>
-    <TradedWith.rulePack.rulesStrings.7>desc_sentence->[seller_nameShortDef] starts haggling.</TradedWith.rulePack.rulesStrings.7>
-    <TradedWith.rulePack.rulesStrings.8>desc_sentence->[buyer_nameShortDef] argues with [seller_nameShortDef].</TradedWith.rulePack.rulesStrings.8>
-    <TradedWith.rulePack.rulesStrings.9>desc_sentence->[seller_nameShortDef] and [buyer_nameShortDef] agree on a price.</TradedWith.rulePack.rulesStrings.9>
-    <TradedWith.rulePack.rulesStrings.10>desc_sentence->[buyer_nameShortDef] pays for the item.</TradedWith.rulePack.rulesStrings.10>
-    <TradedWith.rulePack.rulesStrings.11>desc_sentence->[seller_nameShortDef] is counting [seller_possessive] money.</TradedWith.rulePack.rulesStrings.11>
-    <TradedWith.rulePack.rulesStrings.12>desc_sentence->[buyer_nameShortDef] is taking [buyer_possessive] goods.</TradedWith.rulePack.rulesStrings.12>
-<!-- TRANS -->
+    <TradedWith.rulePack.rulesStrings.0>tale_noun->[seller_nameFull], [buyer_nameFull] 사이의 거래</TradedWith.rulePack.rulesStrings.0>
+    <TradedWith.rulePack.rulesStrings.1>image->[circumstance_group] [buyer_nameFull]에게 물건을 파는 [seller_nameFull]</TradedWith.rulePack.rulesStrings.1>
+    <TradedWith.rulePack.rulesStrings.2>image->[circumstance_group] [seller_nameFull]에게서 물건을 사는 [buyer_nameFull]</TradedWith.rulePack.rulesStrings.2>
+    <TradedWith.rulePack.rulesStrings.3>circumstance_phrase->탐욕스럽게</TradedWith.rulePack.rulesStrings.3>
+    <TradedWith.rulePack.rulesStrings.4>circumstance_phrase->판매자의 비웃음과 함께</TradedWith.rulePack.rulesStrings.4>
+    <TradedWith.rulePack.rulesStrings.5>desc_sentence->[buyer_nameShortDef](이)가 [seller_nameShortDef]의 물건을 살펴보고 있습니다..</TradedWith.rulePack.rulesStrings.5>
+    <TradedWith.rulePack.rulesStrings.6>desc_sentence->[seller_nameShortDef](이)가 물건을 살펴보고 있습니다.</TradedWith.rulePack.rulesStrings.6>
+    <TradedWith.rulePack.rulesStrings.7>desc_sentence->[seller_nameShortDef](이)가 가격을 흥정하고 있습니다.</TradedWith.rulePack.rulesStrings.7>
+    <TradedWith.rulePack.rulesStrings.8>desc_sentence->서로의 의견이 맞지 않는 듯 합니다.</TradedWith.rulePack.rulesStrings.8>
+    <TradedWith.rulePack.rulesStrings.9>desc_sentence->서로의 가격에 동의한 듯 합니다.</TradedWith.rulePack.rulesStrings.9>
+    <TradedWith.rulePack.rulesStrings.10>desc_sentence->[buyer_nameShortDef](이)가 돈을 지불하고 있습니다.</TradedWith.rulePack.rulesStrings.10>
+    <TradedWith.rulePack.rulesStrings.11>desc_sentence->[seller_nameShortDef](이)가 돈을 세고 있습니다.</TradedWith.rulePack.rulesStrings.11>
+    <TradedWith.rulePack.rulesStrings.12>desc_sentence->[buyer_nameShortDef](이)가 구매한 물건을 세고 있습니다.</TradedWith.rulePack.rulesStrings.12>
 
 </LanguageData>

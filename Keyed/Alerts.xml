@@ -16,10 +16,6 @@
     <ColonistsNeedRescueDesc>다음 정착민들이 행동 불능 상태가 되었습니다. \n\n{0} \n\n구조를 하기 위해선 다른 정착민을 선택하고 행동 불능 상태가 된 정착민을 우클릭하여 구조를 선택하세요.
     </ColonistsNeedRescueDesc>
 
-    <BuildARoom>방 건설</BuildARoom>
-    <BuildARoomDesc>방은 벽과 문으로 구분됩니다.\n\n좌측 하단 "구상" 메뉴의 "건물" 카테고리에서 원하는 소재를 선택하여 건설할 수 있으며, 정착민들의 작업 우선순위에 따라서 알아서 건설합니다.
-    </BuildARoomDesc>
-
     <NeedDefenses>방어시설 필요</NeedDefenses>
     <NeedDefensesDesc>이 곳에 정착하고 시간이 꽤 흘렀으니 누군가에게 위치가 알려졌을 가능성이 높습니다. 우주 해적들이 나타날 수도 있으니 방어를 준비해야 합니다. \n\n포탑이나 함정 따위를 만들어 두는 것이 좋겠습니다.
     </NeedDefensesDesc>
@@ -35,9 +31,7 @@
     <NeedWardenDesc>수감자가 있지만 간수가 없습니다.\n\n정착민을 간수 역할에 배치하세요.</NeedWardenDesc>
 
     <LowFood>식량 부족</LowFood>
-    <!-- TRANS -->
-    <LowFoodDesc>You are dangerously low on food.\n\n Full bars worth of food in storage: {0}\n Colonists and prisoners getting food: {1}\n Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food.</LowFoodDesc>
-    <!-- TRANS -->
+    <LowFoodDesc>보유 식량이 매우 적습니다.\n\n 한 끼 식사 가능 횟수: {0}\n 밥을 먹어야 하는 정착민 및 수감자의 수: {1}\n 비축식량: {2}일\n\n재배, 구매, 탐색하거나 죽여서 식재료나 식량을 얻으세요.</LowFoodDesc>
 
     <LowMedicine>약품 부족</LowMedicine>
     <LowMedicineDesc>보유한 약품이 {0}개밖에 남지 않았습니다.\n\n상인에게서 약품을 구입하세요.</LowMedicineDesc>
@@ -53,10 +47,8 @@
     <AlertTatteredApparel>헤진 옷</AlertTatteredApparel>
     <AlertTatteredApparelDesc>다음 정착민들이 낡은 옷 때문에 스트레스를 받고 있습니다.\n\n{0}\n좀 더 멀쩡한 옷을 가져다주세요.\n\n옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</AlertTatteredApparelDesc>
 
-    <!-- TRANS -->
-    <AlertUnhappyNudity>Unhappy nudity</AlertUnhappyNudity>
-    <AlertUnhappyNudityDesc>These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders.</AlertUnhappyNudityDesc>
-    <!-- TRANS -->
+    <AlertUnhappyNudity>벌거벗음</AlertUnhappyNudity>
+    <AlertUnhappyNudityDesc>다음 정착민들이 벌거벗은 상태로 스트레스를 받고 있습니다.\n\n{0}\n옷가지를 가져다주세요.\n\n옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</AlertUnhappyNudityDesc>
 
     <Starvation>굶주림</Starvation>
     <StarvationDesc>다음 정착민들이 굶주리고 있습니다.\n\n{0}\n식량을 구해주세요.
@@ -130,9 +122,7 @@
     <NeedWarmClothesDesc1All>모든 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1All>
     <NeedWarmClothesDesc2>외부 온도가 곧 {0}도로 떨어집니다.\n\n따듯한 옷을 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</NeedWarmClothesDesc2>
 
-    <!-- TRANS -->
-    <ImmobileCaravan>Immobile caravan</ImmobileCaravan>
-    <ImmobileCaravanDesc>One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab.</ImmobileCaravanDesc>
-    <!-- TRANS -->
+    <ImmobileCaravan>이동 불가능한 상단</ImmobileCaravan>
+    <ImmobileCaravanDesc>상단 중 하나가 무게초과로 인해 움직일 수 없습니다.\n\n소지품 탭에서 일부 물건을 선택하고 버릴 수 있습니다.</ImmobileCaravanDesc>
 
 </LanguageData>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- Special mental states not from mental breaks -->
-
     <WanderConfused.label>방황 (혼란)</WanderConfused.label>
     <WanderConfused.beginLetterLabel>방황</WanderConfused.beginLetterLabel>
     <WanderConfused.beginLetter>{0}(이)가 혼란 속에 방황하고 있습니다.</WanderConfused.beginLetter>
@@ -20,6 +18,12 @@
     <Manhunter.beginLetter>{0}(이)가 보이는 모든 인간을 사냥하기 시작합니다!</Manhunter.beginLetter>
     <Manhunter.recoveryMessage>{0}의 광란이 끝을 고했습니다.</Manhunter.recoveryMessage>
     <Manhunter.baseInspectLine>분노: 인간 사냥</Manhunter.baseInspectLine>
+
+    <ManhunterPermanent.label>인간 사냥</ManhunterPermanent.label>
+    <ManhunterPermanent.beginLetterLabel>인간 사냥</ManhunterPermanent.beginLetterLabel>
+    <ManhunterPermanent.beginLetter>{0}(이)가 보이는 모든 인간을 사냥하기 시작합니다!</ManhunterPermanent.beginLetter>
+    <ManhunterPermanent.recoveryMessage>{0}의 광란이 끝을 고했습니다.</ManhunterPermanent.recoveryMessage>
+    <ManhunterPermanent.baseInspectLine>분노: 인간 사냥</ManhunterPermanent.baseInspectLine>
 
     <SocialFighting.label>의견 충돌</SocialFighting.label>
     <SocialFighting.baseInspectLine>상태: 의견 충돌</SocialFighting.baseInspectLine>

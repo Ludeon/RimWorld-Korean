@@ -31,7 +31,7 @@
     <Description>설명</Description>
     <Equipment>장비</Equipment>
     <Apparel>의복</Apparel>
-    <Inventory>재고</Inventory>
+    <Inventory>소지품</Inventory>
     <ThingInfo>정보</ThingInfo>
     <DropThing>떨어뜨리기</DropThing>
     <Rename>이름 바꾸기</Rename>
@@ -41,7 +41,6 @@
     <Off>끄기</Off>
     <PowerSwitch_Power>전원</PowerSwitch_Power>
     <JoyTolerances>질림</JoyTolerances>
-    <BrokenLetterLabel>무너짐</BrokenLetterLabel>
     <MilkFullness>유량</MilkFullness>
     <WoolGrowth>털</WoolGrowth>
     <EggProgress>알 진행도</EggProgress>
@@ -85,22 +84,17 @@
     <CaravanVisiting>{0} 방문 중</CaravanVisiting>
     <CaravanEntering>{0} 진입 중</CaravanEntering>
     <CaravanAttacking>{0} 공격 중</CaravanAttacking>
-<!-- TRANS -->
-    <WasWornByCorpse>Was worn by a corpse.</WasWornByCorpse>
-<!-- TRANS -->
+    <WasWornByCorpse>유품.</WasWornByCorpse>
+    <WornByCorpseChar>死</WornByCorpseChar>
     <DeterioratingDueToBeingUnroofed>지붕이 없어 손상되는 중.</DeterioratingDueToBeingUnroofed>
     <Map>지도</Map>
     <ForceExitAndRemoveMapCountdown>나가기 전까지 {0}시간 남음</ForceExitAndRemoveMapCountdown>
     <ForceExitAndRemoveMapCountdownTip>정착민들이 {0}시간 후 상단을 꾸려 다시 출발합니다.</ForceExitAndRemoveMapCountdownTip>
     <Room>방</Room>
-<!-- TRANS -->
     <BeautyHere>미관</BeautyHere>
-<!-- TRANS -->
     <NoPower>전력 없음</NoPower>
     <WorkSpeedPenalty>작업 속도 페널티</WorkSpeedPenalty>
-<!-- TRANS -->
     <DisabledCommand>사용 불가</DisabledCommand>
-<!-- TRANS -->
     <ReadyForLaunch>발사 준비됨.</ReadyForLaunch>
     <NotReadyForLaunch>발사 준비되지 않음</NotReadyForLaunch>
     <NotAllInGroupConnectedToFuelingPort>연료공급 포트 없음</NotAllInGroupConnectedToFuelingPort>
@@ -119,9 +113,6 @@
 
     <!--TextMotes-->
     <Headshot>헤드샷</Headshot>
-    <TreatQuality>치료 품질 {0}</TreatQuality>
-    <PoorResult>나쁨</PoorResult>
-    <GoodResult>좋음</GoodResult>
     <TextMote_TreatSuccess>치료 성공!\n{0} 확률</TextMote_TreatSuccess>
     <TextMote_TreatFailed>치료 실패\n{0} 확률</TextMote_TreatFailed>
     <HarvestFailed>수확 실패!</HarvestFailed>
@@ -202,10 +193,8 @@
     <!-- Generated recipes -->
     <RecipeMake>{0} 만들기</RecipeMake>
     <RecipeMakeJobString>{0} 만드는 중.</RecipeMakeJobString>
-<!-- TRANS -->
-    <RecipeAdminister>administer {0}</RecipeAdminister>
-    <RecipeAdministerJobString>Administering {0}.</RecipeAdministerJobString>
-<!-- TRANS -->
+    <RecipeAdminister>{0} 조제</RecipeAdminister>
+    <RecipeAdministerJobString>{0} 조제 중.</RecipeAdministerJobString>
 
     <!-- Thoughts -->
     <ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
@@ -289,12 +278,11 @@
     <OutOfIdealTemperatureRangeNotGrowing>적정 온도 벗어남. 성장 불가.</OutOfIdealTemperatureRangeNotGrowing>
     <ReadyToHarvest>수확 가능</ReadyToHarvest>
     <Mature>성숙</Mature>
-    <SeedLabel>{0} 씨앗</SeedLabel>
     <OutdoorGrowingPeriod>성장 기간: {0}</OutdoorGrowingPeriod>
     <NoGrowingPeriod>불가능</NoGrowingPeriod>
     <GrowYearRound>연중 계속</GrowYearRound>
-    <GrowSeasonHereNow>현재 재배 가능한 계절입니다.</GrowSeasonHereNow>
-    <CannotGrowTooCold>너무 추워 성장할 수 없습니다.</CannotGrowTooCold>
+    <GrowSeasonHereNow>재배 가능</GrowSeasonHereNow>
+    <CannotGrowBadSeasonTemperature>재배할 수 없음 (온도 부적합)</CannotGrowBadSeasonTemperature>
 
     <!-- Zones -->
     <Zone>지역</Zone>
@@ -343,9 +331,7 @@
     <NoStuffsToBuildWith>건설에 필요한 재료가 충분하지 않습니다.</NoStuffsToBuildWith>
 
     <!-- Building placement restricters -->
-<!-- TRANS -->
     <WillGetWorkSpeedPenalty>{0}의 작업 속도가 느려집니다</WillGetWorkSpeedPenalty>
-<!-- TRANS -->
 
     <MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
     <MustPlaceHeadOnShipBeam>앞 부분이 우주선 구조부에 붙어있어야 합니다.</MustPlaceHeadOnShipBeam>

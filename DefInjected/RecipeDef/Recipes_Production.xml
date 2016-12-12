@@ -10,26 +10,24 @@
     <ExtractMetalFromSlag.jobString>커다란 금속 파편에서 금속 용해 중.</ExtractMetalFromSlag.jobString>
 
     <SmeltWeapon.label>무기에서 금속 용해</SmeltWeapon.label>
-<!-- TRANS -->
-    <SmeltWeapon.description>Use heat and strong electromagnets to break down weapons into useful resources.</SmeltWeapon.description>
-<!-- TRANS -->
-    <SmeltWeapon.jobString>무기에서 금속 용해 중.</SmeltWeapon.jobString>
+    <SmeltWeapon.description>강력한 열과 자기력을 이용해 무기를 유용한 금속으로 분해합니다.</SmeltWeapon.description>
+    <SmeltWeapon.jobString>무기 분해 중.</SmeltWeapon.jobString>
 
-<!-- TRANS -->
-    <DestroyWeapon.label>destroy weapon</DestroyWeapon.label>
-    <DestroyWeapon.description>Use heat to destroy unwanted weapons. Faster than smelting, and works on non-smeltable items, but yields no resources.</DestroyWeapon.description>
-    <DestroyWeapon.jobString>Destroying weapon.</DestroyWeapon.jobString>
-<!-- TRANS -->
+    <DestroyWeapon.label>무기 처리</DestroyWeapon.label>
+    <DestroyWeapon.description>강력한 열로 불필요한 무기를 파괴합니다. 용해보다 빠르고 비금속 무기도 파괴할 수 있지만 자원을 얻지 못합니다.</DestroyWeapon.description>
+    <DestroyWeapon.jobString>무기 처리 중.</DestroyWeapon.jobString>
 
     <MakeMortarShell.label>박격포탄 제작</MakeMortarShell.label>
     <MakeMortarShell.description>박격포 포탄을 만듭니다.</MakeMortarShell.description>
     <MakeMortarShell.jobString>박격포탄 제작 중</MakeMortarShell.jobString>
 
-<!-- TRANS -->
-    <MakeChemfuel.label>make chemfuel</MakeChemfuel.label>
-    <MakeChemfuel.description>Make a batch of chemfuel.</MakeChemfuel.description>
-    <MakeChemfuel.jobString>Refining chemfuel.</MakeChemfuel.jobString>
-<!-- TRANS -->
+    <MakeChemfuelFromWood.label>나무에서 화학연료 생산</MakeChemfuelFromWood.label>
+    <MakeChemfuelFromWood.description>나무를 기화하여 화학연료를 생산합니다.</MakeChemfuelFromWood.description>
+    <MakeChemfuelFromWood.jobString>나무에서 화학연료 정제 중.</MakeChemfuelFromWood.jobString>
+
+    <MakeChemfuelFromOrganics.label>유기물에서 화학연료 생산</MakeChemfuelFromOrganics.label>
+    <MakeChemfuelFromOrganics.description>생물원료에서 화학연료를 추출합니다.</MakeChemfuelFromOrganics.description>
+    <MakeChemfuelFromOrganics.jobString>유기물에서 화학연료 정제 중.</MakeChemfuelFromOrganics.jobString>
 
     <MakeComponent.label>부품 제작</MakeComponent.label>
     <MakeComponent.description>부품을 만듭니다.</MakeComponent.description>

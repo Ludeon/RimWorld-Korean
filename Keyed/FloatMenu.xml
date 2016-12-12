@@ -2,7 +2,7 @@
 <LanguageData>
 
     <CallOnRadio>{0} 연락</CallOnRadio>
-    <CAnnotUseReason>사용 불가 ({0})</CAnnotUseReason>
+    <CannotUseReason>사용 불가 ({0})</CannotUseReason>
     <CannotUseSolarFlare>사용 불가 (흑점 폭발)</CannotUseSolarFlare>
     <CannotUseNoPower>사용 불가 (전력 없음)</CannotUseNoPower>
     <CannotUseNoPath>사용 불가 (경로 없음)</CannotUseNoPath>
@@ -60,7 +60,7 @@
     <CarryToCryptosleepCasket>{0}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
     <CannotCarryToCryptosleepCasket>동면장치로 운반 불가</CannotCarryToCryptosleepCasket>
 
-    <NoCryptosleeCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleeCasket>
+    <NoCryptosleepCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleepCasket>
     <NoPrisonerBed>접근 가능하며 사용 중이 아닌 죄수용 침대 없음</NoPrisonerBed>
     <NoNonPrisonerBed>접근 가능하며 사용 중이 아닌 침대 없음</NoNonPrisonerBed>
     <NoAnimalBed>접근 가능하며 사용 중이 아닌 동물 침대 없음</NoAnimalBed>
@@ -89,20 +89,20 @@
     <PickUpSome>약간의 {0} 줍기</PickUpSome>
     <PickUpCount>x{{0}}개 만큼 {0} 줍기</PickUpCount>
 
-<!-- TRANS -->
-    <CannotGiveToPackAnimal>Cannot give {0} to pack animal</CannotGiveToPackAnimal>
-    <CannotGiveToPackAnimalAll>Cannot give {0} (all) to pack animal</CannotGiveToPackAnimalAll>
-    <GiveToPackAnimal>Give {0} to pack animal</GiveToPackAnimal>
-    <GiveToPackAnimalAll>Give {0} (all) to pack animal</GiveToPackAnimalAll>
-    <GiveToPackAnimalSome>Give {0} to pack animal...</GiveToPackAnimalSome>
-    <GiveToPackAnimalCount>Take {0} x{{0}}</GiveToPackAnimalCount>
+    <CannotGiveToPackAnimal>짐꾼 동물에게 {0} 줄 수 없음</CannotGiveToPackAnimal>
+    <CannotGiveToPackAnimalAll>짐꾼 동물에게 {0} (모두) 줄 수 없음</CannotGiveToPackAnimalAll>
+    <GiveToPackAnimal>짐꾼 동물에게 {0} 주기</GiveToPackAnimal>
+    <GiveToPackAnimalAll>짐꾼 동물에게 {0} (모두) 주기</GiveToPackAnimalAll>
+    <GiveToPackAnimalSome>짐꾼 동물에게 {0} 주기...</GiveToPackAnimalSome>
+    <GiveToPackAnimalCount>{0} x{{0}} 가져가기</GiveToPackAnimalCount>
 
-    <CannotCarryToExit>Cannot carry {0} and leave the area</CannotCarryToExit>
-    <CarryToExit>Carry {0} and leave the area</CarryToExit>
-<!-- TRANS -->
+    <CannotCarryToExit>{0} 가지고 나갈 수 없음</CannotCarryToExit>
+    <CarryToExit>{0} 가지고 나가기</CarryToExit>
 
     <Strip>{0} 벗기기</Strip>
     <CannotStrip>{0} 벗기기 불가</CannotStrip>
+
+    <SelfDestructHere>여기서 자폭</SelfDestructHere>
 
     <Drop>{0} 버리기</Drop>
 
