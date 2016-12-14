@@ -67,7 +67,7 @@
     <PlayerFactionNameIsInvalid>유효하지 않은 이름입니다.</PlayerFactionNameIsInvalid>
 
     <!-- Player faction base naming -->
-    <NamePlayerFactionBaseMessage>당신은 한동안 이 곳에 머물러야 할 것으로 보입니다. 이 참에 이 곳의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage>
+    <NamePlayerFactionBaseMessage>한동안 이 곳에 머물러야 할 것으로 보입니다. 이 참에 이 곳의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage>
     <PlayerFactionBaseGainsName>이 곳은 이제 {0}의 이름으로 불립니다.</PlayerFactionBaseGainsName>
     <PlayerFactionBaseNameIsInvalid>유효하지 않은 이름입니다.</PlayerFactionBaseNameIsInvalid>
 
@@ -133,9 +133,7 @@
     <Details>상세</Details>
     <IngredientSearchRadius>재료 탐색 범위</IngredientSearchRadius>
     <CurrentlyHave>현재 개수</CurrentlyHave>
-<!-- TRANS -->
-    <CountingProducts>Counting</CountingProducts>
-<!-- TRANS -->
+    <CountingProducts>집계 물품</CountingProducts>
     <Infinite>무한</Infinite>
     <AllowedSkillRange>작업 허용 {0} 등급:</AllowedSkillRange>
 
@@ -233,25 +231,23 @@
 
     <!-- Form caravan -->
     <FormCaravan>상단 구성</FormCaravan>
-<!-- TRANS -->
-    <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
-    <PawnsTab>People and animals</PawnsTab>
-    <ItemsTab>Items</ItemsTab>
-    <CaravanConfigTab>Config</CaravanConfigTab>
-    <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
-    <CaravanCouldNotFindExitSpot>Could not find any valid exit location.</CaravanCouldNotFindExitSpot>
-    <CaravanCouldNotFindReachableExitSpot>Warning: some of the assigned colonists are unable to reach the exit location.</CaravanCouldNotFindReachableExitSpot>
-    <CaravanPawnIsUnreachable>{0} is unreachable by any of the assigned colonists.</CaravanPawnIsUnreachable>
-    <CaravanItemIsUnreachableSingle>None of the assigned colonists are able to reach the {0}.</CaravanItemIsUnreachableSingle>
-    <CaravanItemIsUnreachableMulti>None of the assigned colonists are able to reach {0}x {1}.</CaravanItemIsUnreachableMulti>
-    <TooBigCaravanMassUsage>The caravan is not able to carry that much.</TooBigCaravanMassUsage>
-    <CaravanMassUsageTooltip>Current mass usage and mass capacity.\n\nMass usage includes the assigned caravan supplies as well as the colonists' current equipment.\n\nYou will not be able to send the caravan if the mass usage exceedes capacity.</CaravanMassUsageTooltip>
+    <FormCaravanColonyThingCountTip>정착지가 상단에 줄 수 있는 아이템의 숫자를 보여줍니다.</FormCaravanColonyThingCountTip>
+    <PawnsTab>사람과 동물들</PawnsTab>
+    <ItemsTab>아이템들</ItemsTab>
+    <CaravanConfigTab>설정</CaravanConfigTab>
+    <CaravanMustHaveAtLeastOneColonist>최소 한명의 쓰러지지 않은 정착민을 할당해야 합니다.</CaravanMustHaveAtLeastOneColonist>
+    <CaravanCouldNotFindExitSpot>적합한 출구를 찾을 수 없습니다.</CaravanCouldNotFindExitSpot>
+    <CaravanCouldNotFindReachableExitSpot>경고: 할당된 정착민중 일부는 출구로 갈 수 없습니다.</CaravanCouldNotFindReachableExitSpot>
+    <CaravanPawnIsUnreachable>{0}(은)는 할당된 정착민 중 누구도 접근할 수 없습니다.</CaravanPawnIsUnreachable>
+    <CaravanItemIsUnreachableSingle>할당된 정착민들이 {0}에 접근할 수 없습니다.</CaravanItemIsUnreachableSingle>
+    <CaravanItemIsUnreachableMulti>할당된 정착민들이 {0}x {1}에 접근할 수 없습니다.</CaravanItemIsUnreachableMulti>
+    <TooBigCaravanMassUsage>상단은 그렇게 많은 양을 운반할 수 없습니다.</TooBigCaravanMassUsage>
+    <CaravanMassUsageTooltip>현재 적재량과 최대 적재량.\n\n현재 적재량은 할당된 상단의 아이템 및 정착민들의 현재 장비들을 포합합니다.\n\n최대 적재량을 초과할 경우 상단을 보낼 수 없습니다.</CaravanMassUsageTooltip>
     <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-    <DaysWorthOfFoodInfo>{0} days worth of food</DaysWorthOfFoodInfo>
-    <DaysWorthOfFoodTooltip>An approximate number of days before the caravan runs out of food.\n\nThis takes into account both human and animal food, and shows the worst case scenario. This means that after this many days, at least one person or animal will be out of food.</DaysWorthOfFoodTooltip>
-    <DaysWorthOfFoodWarningDialog>Your caravan only has {0} days worth of food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog>
-    <DaysWorthOfFoodWarningDialog_NoFood>Your caravan has no food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog_NoFood>
-<!-- TRANS -->
+    <DaysWorthOfFoodInfo>{0} 일치의 식량</DaysWorthOfFoodInfo>
+    <DaysWorthOfFoodTooltip>음식을 모두 소진하기까지 걸리는 대략적인 시간입니다.\n\n동물의 음식 소비량까지 모두 고려한 기간으로서 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주리게 되는 최악의 상황이 펼쳐집니다.</DaysWorthOfFoodTooltip>
+    <DaysWorthOfFoodWarningDialog>상단에 단지 {0} 일치의 식량밖에 없어서 금방 굶주릴 것입니다.\n\n이대로 상단을 구성하시겠습니까?</DaysWorthOfFoodWarningDialog>
+    <DaysWorthOfFoodWarningDialog_NoFood>상단에 식량이 없어서 금방 굶주릴 것입니다.\n\n이대로 상단을 구성하시겠습니까?</DaysWorthOfFoodWarningDialog_NoFood>
     <NoExitDirectionForCaravanChosen>상단의 출발 방향을 정해야 합니다.</NoExitDirectionForCaravanChosen>
     <NoCaravanExitDirectionAvailable>(모든 방향 막힘)</NoCaravanExitDirectionAvailable>
     <ExitDirection>출발 방향</ExitDirection>
@@ -261,22 +257,20 @@
     <MassCapacity>최대 수용량</MassCapacity>
     <Mass>무게</Mass>
     <EquipmentAndApparelMass>장비 및 의류 무게</EquipmentAndApparelMass>
-<!-- TRANS -->
-    <InventoryMass>Inventory mass</InventoryMass>
-    <CaravanFormationProcessStarted>Your colonists will now take the assigned items and leave the area as soon as possible.</CaravanFormationProcessStarted>
-    <ReformCaravan>Reform caravan</ReformCaravan>
-    <ColonistsSection>Colonists</ColonistsSection>
-    <PrisonersSection>Prisoners</PrisonersSection>
-    <AnimalsSection>Animals</AnimalsSection>
+    <InventoryMass>적재 중량</InventoryMass>
+    <CaravanFormationProcessStarted>우리의 정착민들은 할당된 아이템을 들고 최대한 빨리 이 지역을 떠날 것입니다.</CaravanFormationProcessStarted>
+    <ReformCaravan>상단 재구성</ReformCaravan>
+    <ColonistsSection>정착민들</ColonistsSection>
+    <PrisonersSection>죄수들</PrisonersSection>
+    <AnimalsSection>동물들</AnimalsSection>
 
     <!-- Split caravan -->
-    <SplitCaravan>Split caravan</SplitCaravan>
-    <SourceCaravanMustHaveAtLeastOneColonist>You must leave at least one non-downed colonist.</SourceCaravanMustHaveAtLeastOneColonist>
-    <CaravanSplitSourceLabel>Current</CaravanSplitSourceLabel>
-    <CaravanSplitDestLabel>New</CaravanSplitDestLabel>
-    <SplitCaravanThingCountTip>How many of this item the caravan has ready to give to the new caravan.</SplitCaravanThingCountTip>
-    <SplitCaravanMassUsageTooltip>Current mass usage and mass capacity.</SplitCaravanMassUsageTooltip>
-<!-- TRANS -->
+    <SplitCaravan>상단 분할</SplitCaravan>
+    <SourceCaravanMustHaveAtLeastOneColonist>최소 한명의 쓰러지지 않은 정착민을 할당해야 합니다.</SourceCaravanMustHaveAtLeastOneColonist>
+    <CaravanSplitSourceLabel>현재</CaravanSplitSourceLabel>
+    <CaravanSplitDestLabel>신규</CaravanSplitDestLabel>
+    <SplitCaravanThingCountTip>현재 상단이 새로운 상단에 줄 수 있는 아이템의 숫자를 보여줍니다.</SplitCaravanThingCountTip>
+    <SplitCaravanMassUsageTooltip>현재 적재량과 최대 적재량.</SplitCaravanMassUsageTooltip>
 
     <!-- Load transporters -->
     <LoadTransporters>{0} 탑재</LoadTransporters>
