@@ -62,8 +62,8 @@
     <LoadAnyway>계속 불러오기</LoadAnyway>
 
     <!-- Player faction naming -->
-    <NamePlayerFactionMessage>우리 세력의 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionMessage>
-    <PlayerFactionGainsName>이제부터 우리 세력이 {0}의 이름으로 알려집니다.</PlayerFactionGainsName>
+    <NamePlayerFactionMessage>당신의 세력 이름을 정해야 한다는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionMessage>
+    <PlayerFactionGainsName>당신의 세력이 {0}의 이름으로 알려집니다.</PlayerFactionGainsName>
     <PlayerFactionNameIsInvalid>유효하지 않은 이름입니다.</PlayerFactionNameIsInvalid>
 
     <!-- Player faction base naming -->
@@ -73,7 +73,7 @@
 
     <!-- Player faction and faction base naming -->
     <NamePlayerFactionBaseMessage_NameFactionContinuation>한동안 이 곳에 머물러야 할 것으로 보이기 때문에, 내친김에 이 곳의 이름도 정하자는 {0}의 제안이 들어왔습니다.\n\n어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage_NameFactionContinuation>
-    <PlayerFactionAndBaseGainsName>이제부터 우리 세력은 {0}, 이 장소는 {1}의 이름으로 알려집니다.</PlayerFactionAndBaseGainsName>
+    <PlayerFactionAndBaseGainsName>이제부터 당신의 세력은 {0}, 이 장소는 {1}의 이름으로 알려집니다.</PlayerFactionAndBaseGainsName>
 
     <!-- Renaming -->
     <NameIsInvalid>유효하지 않은 이름입니다.</NameIsInvalid>
@@ -178,7 +178,6 @@
     <Joy>재미</Joy>
     <FoodQuality>음식의 품질</FoodQuality>
     <WalkSpeedProperty>이동 속도</WalkSpeedProperty>
-    <MeleeDamage>근접 피해량</MeleeDamage>
     <MinFoodQuality>음식의 최소 품질</MinFoodQuality>
     <Diet>식성</Diet>
     <BodySize>크기</BodySize>
@@ -228,6 +227,7 @@
     <TradeWithFactionBaseBonus>세력과의 기본 보너스</TradeWithFactionBaseBonus>
     <minimum>최소</minimum>
     <FinalPrice>최종 가격</FinalPrice>
+    <TradeMassUsageTooltip>거래 결과의 무게 사용량과 최대 소지량입니다.</TradeMassUsageTooltip>
 
     <!-- Form caravan -->
     <FormCaravan>상단 구성</FormCaravan>
@@ -244,7 +244,8 @@
     <TooBigCaravanMassUsage>상단은 그렇게 많은 양을 운반할 수 없습니다.</TooBigCaravanMassUsage>
     <CaravanMassUsageTooltip>현재 적재량과 최대 적재량.\n\n현재 적재량은 할당된 상단의 아이템 및 정착민들의 현재 장비들을 포합합니다.\n\n최대 적재량을 초과할 경우 상단을 보낼 수 없습니다.</CaravanMassUsageTooltip>
     <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-    <DaysWorthOfFoodInfo>{0} 일치의 식량</DaysWorthOfFoodInfo>
+    <DaysWorthOfFoodInfo>{0}일치의 식량</DaysWorthOfFoodInfo>
+    <InfiniteDaysWorthOfFoodInfo>식량 떨어질 일 없음</InfiniteDaysWorthOfFoodInfo>
     <DaysWorthOfFoodTooltip>음식을 모두 소진하기까지 걸리는 대략적인 시간입니다.\n\n동물의 음식 소비량까지 모두 고려한 기간으로서 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주리게 되는 최악의 상황이 펼쳐집니다.</DaysWorthOfFoodTooltip>
     <DaysWorthOfFoodWarningDialog>상단에 단지 {0} 일치의 식량밖에 없어서 금방 굶주릴 것입니다.\n\n이대로 상단을 구성하시겠습니까?</DaysWorthOfFoodWarningDialog>
     <DaysWorthOfFoodWarningDialog_NoFood>상단에 식량이 없어서 금방 굶주릴 것입니다.\n\n이대로 상단을 구성하시겠습니까?</DaysWorthOfFoodWarningDialog_NoFood>
