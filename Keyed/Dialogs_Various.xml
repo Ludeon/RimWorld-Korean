@@ -279,9 +279,7 @@
     <CantSendEmptyTransportPods>아무것도 없는 수송기를 발사할 수 없습니다.</CantSendEmptyTransportPods>
     <PawnCantReachTransporters>{0}(이)가 발사대에 접근할 수 없습니다.</PawnCantReachTransporters>
     <TransporterItemIsUnreachableSingle>{0}(와)과 발사대 사이 경로를 찾을 수 없습니다.</TransporterItemIsUnreachableSingle>
-    <!-- TRANS -->
-    <TransporterItemIsUnreachableMulti>There is no path between the transport pods and {0}x {1}.</TransporterItemIsUnreachableMulti>
-    <!-- TRANS -->
+    <TransporterItemIsUnreachableMulti>{0}x {1}에서 수송기로 가는 길이 없습니다.</TransporterItemIsUnreachableMulti>
     <TransportersMassUsageTooltip>최대 탑재 가능 무게와 사용 중인 무게입니다.\n\n최대 무게보다 무거운 경우 수송기를 발사할 수 없습니다.</TransportersMassUsageTooltip>
 
     <!-- Comms -->
@@ -345,10 +343,10 @@
     <!-- Growing -->
     <NoGrowerCanPlant>{0}의 재배에는 최소 {1}의 재배 기술이 필요합니다.\n\n해당 기술을 가진 농부가 아무도 없으므로 식물이 심어지지 않을 것입니다.</NoGrowerCanPlant>
 
-<!-- TRANS -->
     <!-- Abandon home -->
-    <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+    <ConfirmAbandonHomeWithColonyPawns>일부 정착민 또는 동물이 해당 지역에 남아있습니다. 정말 포기하시겠습니까?\n\n다음 정착민/동물이 버려질 것입니다.\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
+<!-- TRANS -->
     <!-- Move caravan and leave prisoners and animals behind -->
     <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the
         animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
