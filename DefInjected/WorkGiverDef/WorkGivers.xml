@@ -191,6 +191,10 @@
     <Mine.verb>채굴</Mine.verb>
     <Mine.gerund>채굴</Mine.gerund>
 
+    <Drill.label>채굴</Drill.label>
+    <Drill.verb>채굴</Drill.verb>
+    <Drill.gerund>채굴</Drill.gerund>
+
     <!-- ============= PlantCutting ============= -->
 
     <PlantsCut.label>제초/벌목</PlantsCut.label>
@@ -233,6 +237,10 @@
     <DoBillsRefinery.verb>화학물질 정제</DoBillsRefinery.verb>
     <DoBillsRefinery.gerund>화학물질 정제</DoBillsRefinery.gerund>
 
+    <DoBillsProduceDrugs.label>제작</DoBillsProduceDrugs.label>
+    <DoBillsProduceDrugs.verb>약물 제작</DoBillsProduceDrugs.verb>
+    <DoBillsProduceDrugs.gerund>약물 제작</DoBillsProduceDrugs.gerund>
+
     <DoBillsStonecut.label>석재 가공</DoBillsStonecut.label>
     <DoBillsStonecut.verb>석재 가공</DoBillsStonecut.verb>
     <DoBillsStonecut.gerund>석재 가공</DoBillsStonecut.gerund>
@@ -246,27 +254,25 @@
     <RearmTraps.verb>재장전</RearmTraps.verb>
     <RearmTraps.gerund>재장전</RearmTraps.gerund>
 
-<!-- TRANS -->
-    <UnloadCarriers.label>unload carriers</UnloadCarriers.label>
-    <UnloadCarriers.verb>unload</UnloadCarriers.verb>
-    <UnloadCarriers.gerund>unloading</UnloadCarriers.gerund>
+    <UnloadCarriers.label>수송기 비우기</UnloadCarriers.label>
+    <UnloadCarriers.verb>비우기</UnloadCarriers.verb>
+    <UnloadCarriers.gerund>비우기</UnloadCarriers.gerund>
 
-    <LoadTransporters.label>load transporters</LoadTransporters.label>
-    <LoadTransporters.verb>load</LoadTransporters.verb>
-    <LoadTransporters.gerund>loading</LoadTransporters.gerund>
-<!-- TRANS -->
+    <LoadTransporters.label>수송기 적재</LoadTransporters.label>
+    <LoadTransporters.verb>적재</LoadTransporters.verb>
+    <LoadTransporters.gerund>적재</LoadTransporters.gerund>
 
     <Strip.label>시체의 옷 벗기기</Strip.label>
     <Strip.verb>벗기기</Strip.verb>
     <Strip.gerund>벗기기</Strip.gerund>
 
-    <HaulCorpses.label>시체 운반</HaulCorpses.label>
-    <HaulCorpses.verb>운반</HaulCorpses.verb>
-    <HaulCorpses.gerund>운반</HaulCorpses.gerund>
-
     <BuryCorpses.label>시체 매장</BuryCorpses.label>
     <BuryCorpses.verb>매장</BuryCorpses.verb>
     <BuryCorpses.gerund>매장</BuryCorpses.gerund>
+
+    <HaulCorpses.label>시체 운반</HaulCorpses.label>
+    <HaulCorpses.verb>운반</HaulCorpses.verb>
+    <HaulCorpses.gerund>운반</HaulCorpses.gerund>
 
     <Open.label>열기</Open.label>
     <Open.verb>열기</Open.verb>
@@ -284,15 +290,13 @@
     <DoBillsHaulCampfire.verb>작업</DoBillsHaulCampfire.verb>
     <DoBillsHaulCampfire.gerund>작업</DoBillsHaulCampfire.gerund>
 
-<!-- TRANS -->
-    <TakeBeerOutOfFermentingBarrel.label>take beer out of fermenting barrels</TakeBeerOutOfFermentingBarrel.label>
-    <TakeBeerOutOfFermentingBarrel.verb>take beer</TakeBeerOutOfFermentingBarrel.verb>
-    <TakeBeerOutOfFermentingBarrel.gerund>taking beer from</TakeBeerOutOfFermentingBarrel.gerund>
+    <TakeBeerOutOfFermentingBarrel.label>통에서 맥주 꺼내기</TakeBeerOutOfFermentingBarrel.label>
+    <TakeBeerOutOfFermentingBarrel.verb>맥주 꺼내기</TakeBeerOutOfFermentingBarrel.verb>
+    <TakeBeerOutOfFermentingBarrel.gerund>맥주 꺼내기</TakeBeerOutOfFermentingBarrel.gerund>
 
-    <FillFermentingBarrel.label>fill fermenting barrels</FillFermentingBarrel.label>
-    <FillFermentingBarrel.verb>fill</FillFermentingBarrel.verb>
-    <FillFermentingBarrel.gerund>filling</FillFermentingBarrel.gerund>
-<!-- TRANS -->
+    <FillFermentingBarrel.label>통 채우기</FillFermentingBarrel.label>
+    <FillFermentingBarrel.verb>채우기</FillFermentingBarrel.verb>
+    <FillFermentingBarrel.gerund>채우기</FillFermentingBarrel.gerund>
 
     <HaulGeneral.label>물건 운반</HaulGeneral.label>
     <HaulGeneral.verb>운반</HaulGeneral.verb>
