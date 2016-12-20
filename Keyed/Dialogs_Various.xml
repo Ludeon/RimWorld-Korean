@@ -350,19 +350,16 @@
     <!-- Abandon home -->
     <ConfirmAbandonHomeWithColonyPawns>일부 정착민 또는 동물이 해당 지역에 남아있습니다. 정말 포기하시겠습니까?\n\n다음 정착민/동물이 버려질 것입니다.\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
-<!-- TRANS -->
     <!-- Move caravan and leave prisoners and animals behind -->
-    <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the
-        animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+    <ConfirmLeavePrisonersOrAnimalsBehind>해당 지역에 일부 수감자나 동물이 남아있고, 지금은 현재 상단에만 유일하게 합류할 수 있습니다.\n\n상단을 움직인다면 남겨진 수감자와 동물들은 다른 상단이 오기 전까지 이 지역을 떠나지 못합니다. 수감자들은 탈출하기 시작하고, 동물들은 남아서 기다릴 것입니다.\n\n상단이 기다려준다면 최대한 빠르게 합류할 것입니다.\n\n정말 상단을 움직이시겠습니까?</ConfirmLeavePrisonersOrAnimalsBehind>
 
     <!-- Abandon pawn -->
-    <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
-    <ConfirmAbandonPawnDialog_LeftToDie>{0} will most likely die.</ConfirmAbandonPawnDialog_LeftToDie>
-    <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} will take the following items with HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-    <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-    <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
+    <ConfirmAbandonPawnDialog>정말 {0}(을)를 버리시겠습니까?</ConfirmAbandonPawnDialog>
+    <ConfirmAbandonPawnDialog_LeftToDie>{0}(은)는 죽을 것입니다.</ConfirmAbandonPawnDialog_LeftToDie>
+    <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0}(은)는 다음 물건을 가지고 있습니다.</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+    <ConfirmAbandonPawnDialog_AllColonistsThoughts>모든 정착민이 다음 영향을 받습니다.</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+    <ConfirmAbandonPawnDialog_IndividualThoughts>{0}(을)를 버리면 아래 정착민들이 다음 영향을 받습니다.</ConfirmAbandonPawnDialog_IndividualThoughts>
 
     <!-- Send transport pods which are not completely loaded -->
-    <ConfirmSendNotCompletelyLoadedPods>Pod group isn’t completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
-<!-- TRANS -->
+    <ConfirmSendNotCompletelyLoadedPods>모든 수송기의 적재가 끝나지 않았습니다. {0}(이)가 빠졌습니다. 발사하시겠습니까?</ConfirmSendNotCompletelyLoadedPods>
 </LanguageData>
