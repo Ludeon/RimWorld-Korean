@@ -171,26 +171,26 @@
 
     <MessageAttackedCaravanIsNowHostile>{0}의 상단에 대한 공격으로 인해 이제 적대적입니다.</MessageAttackedCaravanIsNowHostile>
 
-<!-- TRANS -->
-    <MessageTransporterUnreachable>Some transport pods are unreachable.</MessageTransporterUnreachable>
-    <MessageTransportersNotAdjacent>All pod launchers connected to the selected transport pods must be adjacent.</MessageTransportersNotAdjacent>
+    <MessageTransporterUnreachable>몇몇 수송기에 도달할 수 없습니다.</MessageTransporterUnreachable>
+    <MessageTransportersNotAdjacent>선택된 수송기들과 연결된 발사대들은 반드시 인접해야 합니다.</MessageTransportersNotAdjacent>
 
-    <MessageTransportersLoadCanceled_TransporterDestroyed>The loading process has been canceled because one of the transport pods has been destroyed.</MessageTransportersLoadCanceled_TransporterDestroyed>
+    <MessageTransportersLoadCanceled_TransporterDestroyed>탑재 과정이 수송기들중 하나가 파괴되어 중지되었습니다.</MessageTransportersLoadCanceled_TransporterDestroyed>
+<!-- TRANS -->
     <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>The loading process has been canceled because one of the pod launchers has been destroyed.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
-
-    <MessageTransportersLoadingProcessStarted>Your colonists will now load the assigned items into the transport pods.</MessageTransportersLoadingProcessStarted>
-
-    <MessageTransportPodsArrived>Your transport pods have arrived.</MessageTransportPodsArrived>
-    <MessageTransportPodsArrivedAndLost>Your transport pods have arrived, but since there were no colonists inside, the contents are lost.</MessageTransportPodsArrivedAndLost>
-    <MessageTransportPodsArrived_BecameHostile>{0} is now hostile to you.</MessageTransportPodsArrived_BecameHostile>
-
-    <MessageFailedToLoadTransportersBecauseColonistLost>The loading process has been canceled because one of the colonists has been lost.</MessageFailedToLoadTransportersBecauseColonistLost>
-
-    <MessageFinishedLoadingTransporters>Your colonists have finished loading the transport pods.</MessageFinishedLoadingTransporters>
-
-    <MessageTransportPodsDestinationIsInvalid>Selected destination is invalid.</MessageTransportPodsDestinationIsInvalid>
-    <MessageTransportPodsDestinationIsTooFar>Each pod launcher would need at least {0}x chemfuel to send transport pods that far.</MessageTransportPodsDestinationIsTooFar>
 <!-- TRANS -->
+
+    <MessageTransportersLoadingProcessStarted>당신의 정착민들은 지금부터 지정된 물품들을 수송기들에 탑재하기 시작합니다.</MessageTransportersLoadingProcessStarted>
+
+    <MessageTransportPodsArrived>당신의 수송기들이 도착했습니다.</MessageTransportPodsArrived>
+    <MessageTransportPodsArrivedAndLost>당신의 수송기들이 도착했습니다만, 내부에 정착민이 없어서 내용물이 사라졌습니다.</MessageTransportPodsArrivedAndLost>
+    <MessageTransportPodsArrived_BecameHostile>{0}은(는) 이제 당신에게 적대적입니다.</MessageTransportPodsArrived_BecameHostile>
+
+    <MessageFailedToLoadTransportersBecauseColonistLost>탑재 과정이 정착민들중 한명이 사라져 중지되었습니다.</MessageFailedToLoadTransportersBecauseColonistLost>
+
+    <MessageFinishedLoadingTransporters>당신의 정착민들이 수송기에 탑재를 완료하였습니다.</MessageFinishedLoadingTransporters>
+
+    <MessageTransportPodsDestinationIsInvalid>선택된 목적지를 인식할 수 없습니다.</MessageTransportPodsDestinationIsInvalid>
+    <MessageTransportPodsDestinationIsTooFar>각각의 수송기 발사대는 목적지까지 보내기 위해선 적어도 {0}개의 화학연료가 필요합니다.</MessageTransportPodsDestinationIsTooFar>
 
     <MessageReformedCaravan>상단이 재구성되었습니다.</MessageReformedCaravan>
 
