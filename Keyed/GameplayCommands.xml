@@ -201,34 +201,32 @@
     <CommandSetTargetFuelLevelDesc>목표 연료량을 설정합니다. 정착민들은 목표량에 맞춰 연료를 채웁니다.</CommandSetTargetFuelLevelDesc>
 
     <!-- Cancel load -->
-    <CommandCancelLoad>탑재 취소</CommandCancelLoad>
-    <CommandCancelLoadDesc>진행 중인 탑재 명령을 취소하고 이미 탑재된 모든 것을 밖으로 꺼냅니다.</CommandCancelLoadDesc>
+    <CommandCancelLoad>적재 취소</CommandCancelLoad>
+    <CommandCancelLoadDesc>진행 중인 적재 명령을 취소하고 이미 적재된 모든 것을 밖으로 꺼냅니다.</CommandCancelLoadDesc>
 
-<!-- TRANS -->
     <!-- Launch group -->
-    <CommandLaunchGroup>Launch group</CommandLaunchGroup>
-    <CommandLaunchGroupDesc>Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together.</CommandLaunchGroupDesc>
-    <CommandLaunchGroupFailNotConnectedToFuelingPort>Some transport pods in this loading group are not connected to a fueling port.</CommandLaunchGroupFailNotConnectedToFuelingPort>
-    <CommandLaunchGroupFailNoFuel>Some pod launchers in this group have no fuel.</CommandLaunchGroupFailNoFuel>
-    <CommandLaunchGroupFailUnderRoof>Some pod launchers are under a roof.</CommandLaunchGroupFailUnderRoof>
+    <CommandLaunchGroup>발사 그룹 실행</CommandLaunchGroup>
+    <CommandLaunchGroupDesc>다수의 수송기 발사 절차를 동시에 시작합니다. 다음 단계는 목적지 설정입니다. 그룹에 속한 발사기는 동시에 모두 같이 착륙합니다.</CommandLaunchGroupDesc>
+    <CommandLaunchGroupFailNotConnectedToFuelingPort>그룹에 속한 수송기 일부가 연료 주입기에 연결되지 않았습니다.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+    <CommandLaunchGroupFailNoFuel>그룹에 속한 수송기 일부의 발사대 연료가 없습니다.</CommandLaunchGroupFailNoFuel>
+    <CommandLaunchGroupFailUnderRoof>일부 발사대가 지붕 아래에 위치합니다.</CommandLaunchGroupFailUnderRoof>
 
     <!-- Load transporter -->
-    <CommandLoadTransporter>Load launch group of {0}</CommandLoadTransporter>
-    <CommandLoadTransporterDesc>Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside.</CommandLoadTransporterDesc>
-    <CommandLoadTransporterFailNotConnectedToFuelingPort>The transport pod is not connected to a fueling port.</CommandLoadTransporterFailNotConnectedToFuelingPort>
-    <CommandLoadTransporterFailNoFuel>The pod launcher has no fuel.</CommandLoadTransporterFailNoFuel>
+    <CommandLoadTransporter>발사 그룹 {0} 적재</CommandLoadTransporter>
+    <CommandLoadTransporterDesc>선택된 수송기 모두를 발사 그룹으로 지정합니다. 적재 창을 열어 누가 무엇을 적재할지 설정할 수 있습니다.</CommandLoadTransporterDesc>
+    <CommandLoadTransporterFailNotConnectedToFuelingPort>수송기가 연료 주입기에 연결되지 않았습니다.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+    <CommandLoadTransporterFailNoFuel>발사대 연료가 없습니다.</CommandLoadTransporterFailNoFuel>
 
     <!-- Select previous transporter -->
-    <CommandSelectPreviousTransporter>Select previous in launch group</CommandSelectPreviousTransporter>
-    <CommandSelectPreviousTransporterDesc>Select previous transport pod in this launch group.</CommandSelectPreviousTransporterDesc>
+    <CommandSelectPreviousTransporter>이전 수송기 선택</CommandSelectPreviousTransporter>
+    <CommandSelectPreviousTransporterDesc>발사 그룹의 이전 수송기를 선택합니다/</CommandSelectPreviousTransporterDesc>
 
     <!-- Select all transporters -->
-    <CommandSelectAllTransporters>Select launch group</CommandSelectAllTransporters>
-    <CommandSelectAllTransportersDesc>Select all transport pods in this launch group.</CommandSelectAllTransportersDesc>
+    <CommandSelectAllTransporters>발사 그룹 선택</CommandSelectAllTransporters>
+    <CommandSelectAllTransportersDesc>그룹에 속한 모든 수송기를 선택합니다.</CommandSelectAllTransportersDesc>
 
     <!-- Select next transporter -->
-    <CommandSelectNextTransporter>Select next in launch group</CommandSelectNextTransporter>
-    <CommandSelectNextTransporterDesc>Select next transport pod in this launch group.</CommandSelectNextTransporterDesc>
-<!-- TRANS -->
+    <CommandSelectNextTransporter>다음 수송기 선택</CommandSelectNextTransporter>
+    <CommandSelectNextTransporterDesc>발사 그룹의 다음 수송기를 선택합니다.</CommandSelectNextTransporterDesc>
 
 </LanguageData>
