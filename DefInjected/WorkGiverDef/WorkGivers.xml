@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- ============= Firefighter ============= -->
     <FightFires.label>화재 진압</FightFires.label>
     <FightFires.verb>진압</FightFires.verb>
     <FightFires.gerund>진압</FightFires.gerund>
 
-    <!-- ============= PatientEmergency ============= -->
     <PatientGoToBedEmergency.label>침대에서 치료 대기</PatientGoToBedEmergency.label>
     <PatientGoToBedEmergency.verb>치료받기</PatientGoToBedEmergency.verb>
     <PatientGoToBedEmergency.gerund>치료받기</PatientGoToBedEmergency.gerund>
 
-    <!-- ============= Doctor ============= -->
     <DoctorTreatEmergency.label>응급치료</DoctorTreatEmergency.label>
     <DoctorTreatEmergency.verb>치료</DoctorTreatEmergency.verb>
     <DoctorTreatEmergency.gerund>치료</DoctorTreatEmergency.gerund>
@@ -24,17 +21,29 @@
     <DoBillsMedicalHumanOperation.verb>수술</DoBillsMedicalHumanOperation.verb>
     <DoBillsMedicalHumanOperation.gerund>수술</DoBillsMedicalHumanOperation.gerund>
 
-    <DoctorTreat.label>치료</DoctorTreat.label>
-    <DoctorTreat.verb>치료</DoctorTreat.verb>
-    <DoctorTreat.gerund>치료</DoctorTreat.gerund>
+    <DoctorTendToHumanlikes.label>환자 치료</DoctorTendToHumanlikes.label>
+    <DoctorTendToHumanlikes.verb>치료</DoctorTendToHumanlikes.verb>
+    <DoctorTendToHumanlikes.gerund>치료</DoctorTendToHumanlikes.gerund>
 
-    <DoctorFeed.label>환자에게 식사 전달</DoctorFeed.label>
-    <DoctorFeed.verb>식사 전달</DoctorFeed.verb>
-    <DoctorFeed.gerund>식사 전달</DoctorFeed.gerund>
+    <DoctorTendToSelf.label>자가치료</DoctorTendToSelf.label>
+    <DoctorTendToSelf.verb>치료</DoctorTendToSelf.verb>
+    <DoctorTendToSelf.gerund>치료</DoctorTendToSelf.gerund>
+
+    <DoctorFeedHumanlikes.label>환자에게 식사 전달</DoctorFeedHumanlikes.label>
+    <DoctorFeedHumanlikes.verb>식사 전달</DoctorFeedHumanlikes.verb>
+    <DoctorFeedHumanlikes.gerund>식사 전달</DoctorFeedHumanlikes.gerund>
 
     <DoBillsMedicalAnimalOperation.label>동물 수술</DoBillsMedicalAnimalOperation.label>
     <DoBillsMedicalAnimalOperation.verb>수술</DoBillsMedicalAnimalOperation.verb>
     <DoBillsMedicalAnimalOperation.gerund>수술</DoBillsMedicalAnimalOperation.gerund>
+
+    <DoctorTendToAnimals.label>동물 치료</DoctorTendToAnimals.label>
+    <DoctorTendToAnimals.verb>치료</DoctorTendToAnimals.verb>
+    <DoctorTendToAnimals.gerund>치료</DoctorTendToAnimals.gerund>
+
+    <DoctorFeedAnimals.label>동물 먹이기</DoctorFeedAnimals.label>
+    <DoctorFeedAnimals.verb>먹이기</DoctorFeedAnimals.verb>
+    <DoctorFeedAnimals.gerund>먹이기</DoctorFeedAnimals.gerund>
 
     <TakeToBedToOperate.label>수술하기 위해 침대로 환자 이송</TakeToBedToOperate.label>
     <TakeToBedToOperate.verb>이송</TakeToBedToOperate.verb>
@@ -44,17 +53,14 @@
     <VisitSickPawn.verb>병문안</VisitSickPawn.verb>
     <VisitSickPawn.gerund>병문안</VisitSickPawn.gerund>
 
-    <!-- ============= PatientBedRest ============= -->
     <PatientGoToBed.label>휴식</PatientGoToBed.label>
     <PatientGoToBed.verb>쉬기</PatientGoToBed.verb>
     <PatientGoToBed.gerund>휴식</PatientGoToBed.gerund>
 
-    <!-- ============= Flicker ============= -->
     <Flick.label>스위치 조작</Flick.label>
     <Flick.verb>스위치 조작</Flick.verb>
     <Flick.gerund>스위치 조작</Flick.gerund>
 
-    <!-- ============= Warden =========== -->
     <DoExecution.label>수감자 처형</DoExecution.label>
     <DoExecution.verb>처형</DoExecution.verb>
     <DoExecution.gerund>처형</DoExecution.gerund>
@@ -79,7 +85,6 @@
     <ChatWithPrisoner.verb>대화</ChatWithPrisoner.verb>
     <ChatWithPrisoner.gerund>대화</ChatWithPrisoner.gerund>
 
-    <!-- ============= Handling ============= -->
     <Slaughter.label>도축</Slaughter.label>
     <Slaughter.verb>도축</Slaughter.verb>
     <Slaughter.gerund>도축</Slaughter.gerund>
@@ -100,7 +105,6 @@
     <Train.verb>조련</Train.verb>
     <Train.gerund>조련</Train.gerund>
 
-    <!-- ============= Cooking ============= -->
     <DoBillsCook.label>스토브에서 요리</DoBillsCook.label>
     <DoBillsCook.verb>요리</DoBillsCook.verb>
     <DoBillsCook.gerund>요리</DoBillsCook.gerund>
@@ -121,14 +125,9 @@
     <CookFillHopper.verb>식재료 적재</CookFillHopper.verb>
     <CookFillHopper.gerund>식재료 적재</CookFillHopper.gerund>
 
-    <!-- ============= Hunting ============= -->
     <HunterHunt.label>사냥</HunterHunt.label>
     <HunterHunt.verb>사냥</HunterHunt.verb>
     <HunterHunt.gerund>사냥</HunterHunt.gerund>
-
-    <DoBillsMedicalMechanoidOperation.label>메카노이드 개조</DoBillsMedicalMechanoidOperation.label>
-    <DoBillsMedicalMechanoidOperation.verb>개조</DoBillsMedicalMechanoidOperation.verb>
-    <DoBillsMedicalMechanoidOperation.gerund>개조</DoBillsMedicalMechanoidOperation.gerund>
 
     <FixBrokenDownBuilding.label>망가진 건물 수리</FixBrokenDownBuilding.label>
     <FixBrokenDownBuilding.verb>부품 교체</FixBrokenDownBuilding.verb>
@@ -215,19 +214,17 @@
     <DoBillsComponentAssemblyBench.verb>부품 조립</DoBillsComponentAssemblyBench.verb>
     <DoBillsComponentAssemblyBench.gerund>부품 조립</DoBillsComponentAssemblyBench.gerund>
 
-    <!-- ============= Tailoring ============= -->
-
     <DoBillsMakeApparel.label>재단</DoBillsMakeApparel.label>
     <DoBillsMakeApparel.verb>재단</DoBillsMakeApparel.verb>
     <DoBillsMakeApparel.gerund>재단</DoBillsMakeApparel.gerund>
-
-    <!-- ============= Art ============= -->
 
     <DoBillsSculpt.label>조각</DoBillsSculpt.label>
     <DoBillsSculpt.verb>조각</DoBillsSculpt.verb>
     <DoBillsSculpt.gerund>조각</DoBillsSculpt.gerund>
 
-    <!-- ============= Crafting ============= -->
+    <DoBillsMedicalMechanoidOperation.label>메카노이드 개조</DoBillsMedicalMechanoidOperation.label>
+    <DoBillsMedicalMechanoidOperation.verb>개조</DoBillsMedicalMechanoidOperation.verb>
+    <DoBillsMedicalMechanoidOperation.gerund>개조</DoBillsMedicalMechanoidOperation.gerund>
 
     <DoBillsUseCraftingSpot.label>제작</DoBillsUseCraftingSpot.label>
     <DoBillsUseCraftingSpot.verb>제작</DoBillsUseCraftingSpot.verb>
@@ -249,7 +246,6 @@
     <DoBillsSmelter.verb>금속 추출</DoBillsSmelter.verb>
     <DoBillsSmelter.gerund>금속 추출</DoBillsSmelter.gerund>
 
-    <!-- ============= Hauling ============= -->
     <RearmTraps.label>함정 재장전</RearmTraps.label>
     <RearmTraps.verb>재장전</RearmTraps.verb>
     <RearmTraps.gerund>재장전</RearmTraps.gerund>
@@ -261,6 +257,10 @@
     <LoadTransporters.label>수송기 적재</LoadTransporters.label>
     <LoadTransporters.verb>적재</LoadTransporters.verb>
     <LoadTransporters.gerund>적재</LoadTransporters.gerund>
+
+    <HelpGatheringItemsForCaravan.label>상단 적재</HelpGatheringItemsForCaravan.label>
+    <HelpGatheringItemsForCaravan.verb>적재</HelpGatheringItemsForCaravan.verb>
+    <HelpGatheringItemsForCaravan.gerund>적재</HelpGatheringItemsForCaravan.gerund>
 
     <Strip.label>시체의 옷 벗기기</Strip.label>
     <Strip.verb>벗기기</Strip.verb>

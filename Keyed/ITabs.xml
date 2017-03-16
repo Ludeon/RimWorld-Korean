@@ -43,6 +43,8 @@
     <!-- Medical - general -->
     <MoveSpeed>이동속도</MoveSpeed>
     <Efficiency>능률</Efficiency>
+	<PartEfficiency>부위 능률</PartEfficiency>
+	<BodyPartEfficiency>신체부위 능률</BodyPartEfficiency>
     <MissingBodyPart>사라짐</MissingBodyPart>
     <DestroyedBodyPart>파괴됨</DestroyedBodyPart>
     <ShatteredBodyPart>부서짐</ShatteredBodyPart>
@@ -72,6 +74,8 @@
     <Tiredness>피로도</Tiredness>
     <PainFactor>고통</PainFactor>
     <PreventsInfection>감염 방지</PreventsInfection>
+    <SelfTend>자가 치료</SelfTend>
+    <SelfTendTip>자가 치료가 활성화된 {0}(은)는 자기 자신을 일반 효율의 {1}로 그 자리에서 바로 치료합니다.</SelfTendTip>
 
     <!-- Medical - Body and activities condition -->
     <None>없음</None>

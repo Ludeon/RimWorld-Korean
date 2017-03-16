@@ -17,6 +17,7 @@
 
     <MessageVisitorsTakingWounded>{1}에서 온 {0}이 다친 사람을 데려가고 있습니다.</MessageVisitorsTakingWounded>
     <MessageVisitorsTrappedLeaving>{1}에서 온 {0}이 갇혀서 땅을 파 탈출하려 합니다.</MessageVisitorsTrappedLeaving>
+    <MessageVisitorsDangerousTemperature>{1}에서 온 {0}이 위험한 온도로 인해 지역을 벗어나고 있습니다.</MessageVisitorsDangerousTemperature>
 
     <MessageWornApparelDeterioratedAway>{1}(이)가 입은 {0}이 완전히 해져서 아무것도 남지 않았습니다.</MessageWornApparelDeterioratedAway>
 
@@ -112,7 +113,7 @@
     <MessageNewBondRelationNewName>{0}(와) {1}(은)는 이제 각별한 사이입니다. HIS 이름은 이제 {2}입니다.</MessageNewBondRelationNewName>
 
     <MessageBondedAnimalMentalBreak>{1}의 죽음으로 인해 {0}의 마음이 무너져 내렸습니다.</MessageBondedAnimalMentalBreak>
-    <MessageNamedBondedAnimalMentalBreak>{1}({0})의 죽음으로 인해 {0}의 마음이 무너져 내렸습니다.</MessageNamedBondedAnimalMentalBreak>
+    <MessageNamedBondedAnimalMentalBreak>{2}의 죽음으로 인해 {1}({0})의 마음이 무너져 내렸습니다.</MessageNamedBondedAnimalMentalBreak>
     <MessageBondedAnimalsMentalBreak>{1}의 죽음으로 인해 {0}마리 동물들의 마음이 무너져 내렸습니다.</MessageBondedAnimalsMentalBreak>
 
     <MessageSuccessfullyRemovedHediff>{0}(이)가 {1}의 {2}을(를) 성공적으로 제거했습니다.</MessageSuccessfullyRemovedHediff>
@@ -153,7 +154,7 @@
 
     <MessageCaravanArrivedAtDestination>{0}(이)가 목적지에 도착했습니다.</MessageCaravanArrivedAtDestination>
 
-    <MessageCaravanIsVisitingFaction>{0}(이)가 {1}에 도착했습니다.</MessageCaravanIsVisitingFaction>
+    <MessageCaravanIsVisitingSettlement>{0}(이)가 {1}에 도착했습니다.</MessageCaravanIsVisitingSettlement>
 
     <MessageCaravanEnteredWorldObject>{0}(이)가 {1}에 진입했습니다.</MessageCaravanEnteredWorldObject>
 
@@ -169,19 +170,21 @@
 
     <MessageRescueeJoined>{0}(이)가 HIM 구해준 보답으로 세력에 합류하기로 결정했습니다!</MessageRescueeJoined>
 
-    <MessageAttackedCaravanIsNowHostile>{0}의 상단에 대한 공격으로 인해 이제 적대적입니다.</MessageAttackedCaravanIsNowHostile>
+    <MessageAttackedCaravanIsNowHostile>상단을 공격했으므로 {0}(이)가 적대적으로 돌아섭니다.</MessageAttackedCaravanIsNowHostile>
+    <MessageFactionPawnCrushed>천장 붕괴로 {0}의 사상자가 발생했습니다. 세력 관계: {1}</MessageFactionPawnCrushed>
+    <MessageFactionPawnLost>{0}의 {1}(이)가 사망 혹은 실종했습니다. 세력 관계: {2}</MessageFactionPawnLost>
 
     <MessageTransporterUnreachable>몇몇 수송기에 도달할 수 없습니다.</MessageTransporterUnreachable>
     <MessageTransportersNotAdjacent>선택된 수송기들과 연결된 발사대들은 반드시 인접해야 합니다.</MessageTransportersNotAdjacent>
 
     <MessageTransportersLoadCanceled_TransporterDestroyed>수송기 중 하나가 파괴되어 적재가 중단되었습니다.</MessageTransportersLoadCanceled_TransporterDestroyed>
-    
+
     <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>발사대 중 하나가 파괴되어 적재가 중단되었습니다.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
 
     <MessageTransportersLoadingProcessStarted>당신의 정착민들은 지금부터 지정된 물품들을 수송기들에 적재하기 시작합니다.</MessageTransportersLoadingProcessStarted>
 
     <MessageTransportPodsArrived>당신의 수송기들이 도착했습니다.</MessageTransportPodsArrived>
-    <MessageTransportPodsArrivedAndLost>당신의 수송기들이 도착했습니다만, 내부에 정착민이 없어서 내용물이 사라졌습니다.</MessageTransportPodsArrivedAndLost>
+    <MessageTransportPodsArrivedAndLost>당신의 수송기들이 도착했지만 착륙 지점에 정착민이 없어서 내용물을 잃었습니다.</MessageTransportPodsArrivedAndLost>  <MessageTransportPodsArrivedAndAddedToCaravan>당신의 수송기들이 도착했습니다. 내용물이 상단과 합쳐집니다.</MessageTransportPodsArrivedAndAddedToCaravan>
     <MessageTransportPodsArrived_BecameHostile>{0}은(는) 이제 당신에게 적대적입니다.</MessageTransportPodsArrived_BecameHostile>
 
     <MessageFailedToLoadTransportersBecauseColonistLost>정착민 중 한 명을 잃어 적재가 중단되었습니다.</MessageFailedToLoadTransportersBecauseColonistLost>
@@ -205,5 +208,18 @@
     <MessageSelectOwnBaseToFormCaravan>상단을 구성하려면 정착지나 정착민이 있는 장소를 선택하세요.</MessageSelectOwnBaseToFormCaravan>
 
     <MessageScreenResTooSmallForUIScale>현재 해상도와 인터페이스 크기로는 게임 화면이 제대로 표시되지 않습니다. 해상도를 높이거나 인터페이스 크기를 줄여주세요.</MessageScreenResTooSmallForUIScale>
+
+    <MessageYouHaveToReformCaravanNow>지금 상단을 재구성해야 합니다. 뒤에 남은 사람들은 모두 잃게 됩니다.</MessageYouHaveToReformCaravanNow>
+
+    <MessageDefendersAttacking>{1}에서 온 {0}(이)가 {2}(을)를 공격하고 있습니다.</MessageDefendersAttacking>
+
+    <MessageSelfTendUnsatisfied>{0}(은)는 자가 치료 허가를 받았지만 치료 작업을 할당받지 않았습니다.</MessageSelfTendUnsatisfied>
+
+    <MessageCantAddWaypointBecauseImpassable>이 칸으로 이동할 수 없습니다.</MessageCantAddWaypointBecauseImpassable>
+    <MessageCantAddWaypointBecauseUnreachable>마지막 경유지에서 이 칸으로 올 수 있는 경로가 없습니다.</MessageCantAddWaypointBecauseUnreachable>
+    <MessageCantAddWaypointBecauseLimit>경유지를 {0}개보다 많이 정할 수 없습니다.</MessageCantAddWaypointBecauseLimit>
+    <MessageCantRemoveWaypointBecauseFirst>이 경유지는 제거할 수 없습니다.</MessageCantRemoveWaypointBecauseFirst>
+
+    <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>간수 모두가 폭력을 허용하지 않습니다. 처형이 진행되지 않을 것입니다.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
 
 </LanguageData>

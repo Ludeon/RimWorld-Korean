@@ -6,8 +6,10 @@
     <OK>확인</OK>
 
     <!-- Game updated to new version -->
-    <GameUpdatedToNewVersionInitial>림월드가 버전 {0}에서 버전 {1}로 업데이트됐습니다.\n\n구버전 저장 파일 및 모드가 작동하지 않을 수 있습니다.</GameUpdatedToNewVersionInitial>
-    <GameUpdatedToNewVersionNonSteam>DRM-free버전은 구버전 및 신버전을 서로 다른 폴더에 설치할 수 있습니다.</GameUpdatedToNewVersionNonSteam>
+    <GameUpdatedToNewVersionInitial>림월드가 버전 {0}에서 버전 {1}로 업데이트됐습니다.</GameUpdatedToNewVersionInitial>
+    <GameUpdatedToNewVersionSavesIncompatible>구버전 저장 파일 및 모드가 작동하지 않을 수 있습니다.</GameUpdatedToNewVersionSavesIncompatible>
+    <GameUpdatedToNewVersionSavesCompatible>구버전 저장 파일은 호환되나 모드는 작동하지 않을 수 있습니다.</GameUpdatedToNewVersionSavesCompatible>
+    <GameUpdatedToNewVersionNonSteam>DRM-free 버전은 구버전 및 신버전을 서로 다른 폴더에 설치할 수 있습니다.</GameUpdatedToNewVersionNonSteam>
     <GameUpdatedToNewVersionSteam>계속 구버전을 사용하시려면 스팀 베타 기능을 이용하실 수 있습니다.\n\n 1. 스팀 라이브러리에서 RimWorld를 오른쪽 클릭하세요.\n 2. 속성을 클릭하세요.\n 3. 베타 탭을 선택하세요.\n 4. 드롭다운 메뉴에서 원하시는 버전을 선택하세요.\n\n구버전 지원은 나중에 중단됩니다. 그러나 진행 중인 게임을 강제로 중단시키고 싶진 않으니까요.\n\n모드 제작자가 모드를 신규 버전으로 업데이트한다면 이전 게임에서 작동하지 않을 수
         있습니다. 방지하려면 자동 업데이트를 꺼두세요.</GameUpdatedToNewVersionSteam>
 
@@ -142,8 +144,8 @@
     <MinimumSkills>최소 요구기술:</MinimumSkills>
     <BillRequires>{0} {1} 필요</BillRequires>
     <BillRequiresNutrition>{0} 열량 필요</BillRequiresNutrition>
-    <BillRequiresMayVary>(금과 같은 소형 재료는 필요량의 20배가 필요합니다.)</BillRequiresMayVary>
-    <ThisIsSmallVolume>이 재료는 소용량 재료입니다. 소용량 재료의 한 단위는 다른 재료의 1/20이며, 같은 청사진이라도 일반 수량의 20배를 필요로 합니다.</ThisIsSmallVolume>
+    <BillRequiresMayVary>참고: 금과 같은 소형 재료는 명시된 필요량의 {0}배가 필요합니다.</BillRequiresMayVary>
+    <ThisIsSmallVolume>이 재료는 소용량 재료입니다. 소용량 재료의 한 단위는 다른 재료의 1/{0}이며, 같은 청사진이라도 일반 수량의 {0}배를 필요로 합니다.</ThisIsSmallVolume>
     <UsableIngredients>사용 할 수 있는 재료</UsableIngredients>
     <DoXTimes>설정한 횟수 작업</DoXTimes>
     <DoUntilYouHaveX>정해진 만큼 작업</DoUntilYouHaveX>
@@ -152,6 +154,13 @@
     <BillStoreMode_DropOnFloor>바닥에 내려놓기</BillStoreMode_DropOnFloor>
     <BillStoreMode_BestStockpile>최적 저장구역으로</BillStoreMode_BestStockpile>
     <BillStoreMode_NearestStockpileAnyPriority>최소거리 저장구역으로</BillStoreMode_NearestStockpileAnyPriority>
+
+<!-- TRANS -->
+    <PauseWhenSatisfied>Pause when satisfied</PauseWhenSatisfied>
+    <UnpauseWhenYouHave>Unpause at</UnpauseWhenYouHave>
+    <Paused>Paused</Paused>
+    <Unpause>Unpause</Unpause>
+<!-- TRANS -->
 
     <!-- Info Card -->
     <Damage>피해량</Damage>
@@ -187,7 +196,6 @@
     <CoverEffectiveness>엄폐율</CoverEffectiveness>
     <CoverEffectivenessExplanation>숫자가 높을 수록 총격전에서 엄폐물로 사용될 때 효과적으로 총알을 막아냅니다.</CoverEffectivenessExplanation>
     <MedicineXpGainFactor>경험치 획득 계수</MedicineXpGainFactor>
-    <BodyPartEfficiency>신체 효율성</BodyPartEfficiency>
     <MoodChange>기분 변화</MoodChange>
     <Wildness>야성</Wildness>
     <WildnessExplanation>야성 수치가 높을수록 조련 과정이 어렵습니다.</WildnessExplanation>
@@ -216,6 +224,7 @@
     <TraderHasNoMore>상인이 아이템을 더 가지고 있지 않습니다.</TraderHasNoMore>
     <ColonyHasNoMore>더 판매할 수 없습니다.</ColonyHasNoMore>
     <TraderWillNotTrade>상인이 아이템을 원하지 않습니다.</TraderWillNotTrade>
+    <Negotiator>협상가</Negotiator>
     <NegotiatorTalkingImpaired>{0}의 건강이 좋지 않아 말을 제대로 할 수 없습니다. \n\n거래 가격에 영향이 있을 수 있습니다. \n\n더 건강한 사람으로 대체하는 것을 고려하세요.</NegotiatorTalkingImpaired>
     <ConfirmTraderShortFunds>상인이 거래하기에 충분한 양의 은을 보유하고 있지 않습니다. 계속 하시겠습니까?</ConfirmTraderShortFunds>
     <SortBy>정렬</SortBy>
@@ -247,16 +256,21 @@
     <CaravanMassUsageTooltip>현재 적재량과 최대 적재량.\n\n현재 적재량은 할당된 상단의 아이템 및 정착민들의 현재 장비들을 포합합니다.\n\n최대 적재량을 초과할 경우 상단을 보낼 수 없습니다.</CaravanMassUsageTooltip>
     <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
     <DaysWorthOfFoodInfo>{0}일치의 식량</DaysWorthOfFoodInfo>
+    <DaysWorthOfFoodInfoRot>{0}일치의 식량, {1}일 후 부패</DaysWorthOfFoodInfoRot>
     <InfiniteDaysWorthOfFoodInfo>식량 떨어질 일 없음</InfiniteDaysWorthOfFoodInfo>
     <DaysWorthOfFoodTooltip>음식을 모두 소진하기까지 걸리는 대략적인 시간입니다.\n\n동물의 음식 소비량까지 모두 고려한 기간으로서 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주리게 되는 최악의 상황이 펼쳐집니다.</DaysWorthOfFoodTooltip>
+    <DaysWorthOfFoodTooltip_CanEatLocalPlants>현재 계절, 온도, 주위 환경에 따라 초식 동물들이 주변 식물을 섭취할 수 있을 것이라고 가정합니다. 그러나 상황은 항상 바뀔 수 있습니다.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+    <DaysWorthOfFoodTooltip_CantEatLocalPlants>현재 계절, 온도, 주위 환경에 따라 초식 동물들이 주변 식물을 섭취할 수 없을 것이라고 가정합니다. 그러나 상황은 항상 바뀔 수 있습니다.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
     <DaysWorthOfFoodWarningDialog>상단에 단지 {0} 일치의 식량밖에 없어서 금방 굶주릴 것입니다.\n\n이대로 상단을 구성하시겠습니까?</DaysWorthOfFoodWarningDialog>
     <DaysWorthOfFoodWarningDialog_NoFood>상단에 식량이 없어서 금방 굶주릴 것입니다.\n\n이대로 상단을 구성하시겠습니까?</DaysWorthOfFoodWarningDialog_NoFood>
+    <CaravanFoodWillRotSoonWarningDialog>상단이 가져가는 대부분의 식량이 곧 상합니다.\n\n이대로 상단을 구성하시겠습니다?</CaravanFoodWillRotSoonWarningDialog>
     <NoExitDirectionForCaravanChosen>상단의 출발 방향을 정해야 합니다.</NoExitDirectionForCaravanChosen>
     <NoCaravanExitDirectionAvailable>(모든 방향 막힘)</NoCaravanExitDirectionAvailable>
     <ExitDirection>출발 방향</ExitDirection>
     <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
     <ItemWeightTip>이 아이템의 무게입니다.</ItemWeightTip>
     <MarketValueTip>시장 가치</MarketValueTip>
+    <DaysUntilRotTip>주위의 평균 온도를 기반으로 이 아이템이 부패할 때까지 남은 시간입니다.</DaysUntilRotTip>
     <MassCapacity>최대 수용량</MassCapacity>
     <Mass>무게</Mass>
     <EquipmentAndApparelMass>장비 및 의류 무게</EquipmentAndApparelMass>
@@ -266,6 +280,7 @@
     <ColonistsSection>정착민들</ColonistsSection>
     <PrisonersSection>죄수들</PrisonersSection>
     <AnimalsSection>동물들</AnimalsSection>
+    <EstimatedTimeToDestinationButton>목적지까지 남은 시간</EstimatedTimeToDestinationButton>
 
     <!-- Split caravan -->
     <SplitCaravan>상단 분할</SplitCaravan>
@@ -342,11 +357,22 @@
     <DrugUsageTipForJoy>재미\n\n스트레스 해소와 사교 활동으로 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForJoy>
     <DrugUsageTipScheduled>시간 엄수\n\n조건을 만족할 경우 지정된 일정에 따라 사용합니다.\n\n스트레스 해소, 사교 활동 및 약물 필요 수치를 채우기 위한 사용도 허용합니다.</DrugUsageTipScheduled>
 
+    <!-- Medical settings -->
+    <MedGroupDefaults>기본</MedGroupDefaults>
+    <MedGroupColonist>정착민</MedGroupColonist>
+    <MedGroupImprisonedColonist>수감된 정착민</MedGroupImprisonedColonist>
+    <MedGroupColonyAnimal>정착지 동물</MedGroupColonyAnimal>
+    <MedGroupNeutralAnimal>야생 동물</MedGroupNeutralAnimal>
+    <MedGroupNeutralFaction>중립 세력</MedGroupNeutralFaction>
+    <MedGroupHostileFaction>적대 세력</MedGroupHostileFaction>
+
     <!-- Growing -->
     <NoGrowerCanPlant>{0}의 재배에는 최소 {1}의 재배 기술이 필요합니다.\n\n해당 기술을 가진 농부가 아무도 없으므로 식물이 심어지지 않을 것입니다.</NoGrowerCanPlant>
 
     <!-- Abandon home -->
     <ConfirmAbandonHomeWithColonyPawns>일부 정착민 또는 동물이 해당 지역에 남아있습니다. 정말 포기하시겠습니까?\n\n다음 정착민/동물이 버려질 것입니다.\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+    <ConfirmAbandonHomeNegativeThoughts>{0}의 포기는 아래 정착민들에게 다음 생각을 부여합니다.</ConfirmAbandonHomeNegativeThoughts>
+    <ConfirmAbandonHomeNegativeThoughts_Everyone>모두:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
     <!-- Move caravan and leave prisoners and animals behind -->
     <ConfirmLeavePrisonersOrAnimalsBehind>해당 지역에 일부 수감자나 동물이 남아있고, 지금은 현재 상단에만 유일하게 합류할 수 있습니다.\n\n상단을 움직인다면 남겨진 수감자와 동물들은 다른 상단이 오기 전까지 이 지역을 떠나지 못합니다. 수감자들은 탈출하기 시작하고, 동물들은 남아서 기다릴 것입니다.\n\n상단이 기다려준다면 최대한 빠르게 합류할 것입니다.\n\n정말 상단을 움직이시겠습니까?</ConfirmLeavePrisonersOrAnimalsBehind>

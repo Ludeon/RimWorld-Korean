@@ -9,12 +9,14 @@
     <CannotUseReserved>사용 불가 (예약됨)</CannotUseReserved>
     <CannotUseFull>사용 불가 (가득 참)</CannotUseFull>
     <LeaderUnavailable>대장 {0}(이)가 바쁨</LeaderUnavailable>
+    <LeaderUnavailableNoLeader>대장 없음</LeaderUnavailableNoLeader>
 
     <FireAt>{0}에게 사격</FireAt>
 
     <OutOfRange>범위를 벗어남</OutOfRange>
     <CannotHitTarget>대상을 맞출 수 없음</CannotHitTarget>
     <IsIncapableOfViolenceLower>{0}(은)는 싸울 수 없음</IsIncapableOfViolenceLower>
+    <IncapableOfViolenceLower>전투 불가</IncapableOfViolenceLower>
     <IsNotDraftedLower>{0}(이)가 소집되지 않음</IsNotDraftedLower>
     <CannotOrderNonControlledLower>소유하지 않은 유닛에 명령을 내릴 수 없음</CannotOrderNonControlledLower>
 
@@ -30,7 +32,7 @@
     <SociallyImproperLower>사회적으로 부적절함</SociallyImproperLower>
     <PrisonerRoomLower>감옥</PrisonerRoomLower>
     <BurningLower>불타는 중</BurningLower>
-    <NoEmptyPlaceLower>빈 저장공간이 없음</NoEmptyPlaceLower>
+    <NoEmptyPlaceLower>비어있고 접근 가능한 장소 없음</NoEmptyPlaceLower>
     <AlreadyFilledLower>가득 참</AlreadyFilledLower>
     <MissingMaterials>재료가 필요함</MissingMaterials>
     <MissingSkill>기술이 너무 낮음</MissingSkill>
@@ -42,6 +44,9 @@
     <NoComponentsToRepair>부품 필요</NoComponentsToRepair>
     <NoFuelToRefuel>{0} 필요</NoFuelToRefuel>
     <NoWort>맥아즙 필요</NoWort>
+    <TheOnlyAvailableFoodIsInStorageOfHigherPriority>사용 가능한 음식이 높은 우선순위의 보관 장소에 있음</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+    <NoFoodToFillHopper>적절한 음식 없음</NoFoodToFillHopper>
+    <SelfTendDisabled>자가치료 금지됨</SelfTendDisabled>
 
     <ConsumeThing>{0} 섭취</ConsumeThing>
 
@@ -62,9 +67,9 @@
     <CannotCarryToCryptosleepCasket>동면장치로 운반 불가</CannotCarryToCryptosleepCasket>
 
     <NoCryptosleepCasket>사용 가능한 동면장치가 없습니다.</NoCryptosleepCasket>
-    <NoPrisonerBed>접근 가능하며 사용 중이 아닌 죄수용 침대 없음</NoPrisonerBed>
-    <NoNonPrisonerBed>접근 가능하며 사용 중이 아닌 침대 없음</NoNonPrisonerBed>
-    <NoAnimalBed>접근 가능하며 사용 중이 아닌 동물 침대 없음</NoAnimalBed>
+    <NoPrisonerBed>접근 가능하고 적절한 온도의 빈 죄수용 침대 없음</NoPrisonerBed>
+    <NoNonPrisonerBed>접근 가능하며 적절한 온도의 빈 침대 없음</NoNonPrisonerBed>
+    <NoAnimalBed>접근 가능하며 적절한 온도의 빈 동물 침대 없음</NoAnimalBed>
     <Reserved>누군가에게 예약됨</Reserved>
     <ReservedBy>{0}(이)가 예약함</ReservedBy>
     <IsReservedBy>{0}(은)는 {1}에게 예약됨</IsReservedBy>
@@ -109,14 +114,14 @@
 
     <UseMedicalBed>완전히 치료될 때까지 휴식</UseMedicalBed>
     <NotInjured>부상 없음</NotInjured>
-    <SomeoneElseSleeping>사용 중</SomeoneElseSleeping>
+    <SomeoneElseSleeping>{0}(이)가 사용 중</SomeoneElseSleeping>
 
     <TradeWith>{0}(와)과 거래</TradeWith>
     <CannotTrade>거래 불가</CannotTrade>
 
     <EnterMap>{0} 진입</EnterMap>
-    <VisitFactionBase>{0} 방문</VisitFactionBase>
-    <AttackFactionBase>{0} 공격</AttackFactionBase>
+    <VisitSettlement>{0} 방문</VisitSettlement>
+    <AttackSettlement>{0} 공격</AttackSettlement>
 
     <!-- Specific thing interactions -->
     <EnterCryptosleepCasket>동면장치에 탑승</EnterCryptosleepCasket>
@@ -143,5 +148,11 @@
 
     <DropAtEdge>가장자리에 낙하</DropAtEdge>
     <DropInCenter>중앙에 낙하</DropInCenter>
+
+    <VomitingLower>토하는 중</VomitingLower>
+    <NotInterruptibleLower>명령 불가</NotInterruptibleLower>
+
+    <AddWaypoint>새 경유지 추가</AddWaypoint>
+    <RemoveWaypoint>경유지 제거</RemoveWaypoint>
 
 </LanguageData>
