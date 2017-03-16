@@ -47,7 +47,7 @@
     <BuildingUnassign>할당 해제</BuildingUnassign>
     <CommandBedSetForPrisonersLabel>수감자 전용</CommandBedSetForPrisonersLabel>
     <CommandBedSetForPrisonersDesc>방 전체의 침대를 수감자 전용으로 정합니다.</CommandBedSetForPrisonersDesc>
-    <CommandBedSetForPrisonersFailOutdoors>야외에 배치된 침대는 수감자 전용으로 사용할 수 없습니다.</CommandBedSetForPrisonersFailOutdoors>
+    <CommandBedSetForPrisonersFailOutdoors>실내에 위치한 침대만 수감자 전용으로 정할 수 있습니다.</CommandBedSetForPrisonersFailOutdoors>
     <CommandBedSetAsMedicalLabel>의료용</CommandBedSetAsMedicalLabel>
     <CommandBedSetAsMedicalDesc>침대를 의료용으로 정합니다.</CommandBedSetAsMedicalDesc>
     <TurningOnPrisonerBedWarning>정착민들과 수감자는 같은 공간에서 잠을 잘 수 없기 때문에 수감자 전용 침대가 있는 방은 감옥으로 사용됩니다.\n\n아래 정착민들은 사용하던 침대의 소유권을 잃게 됩니다.
@@ -172,6 +172,8 @@
     <CommandSettleFailOtherWorldObjectsHere>당신의 상단이 해당 지역의 유일한 무리여야 합니다.</CommandSettleFailOtherWorldObjectsHere>
     <CommandSettleFailAlreadyHaveBase>한 개의 기지만 가질 수 있습니다.</CommandSettleFailAlreadyHaveBase>
     <CommandSettleFailReachedMaximumNumberOfBases>최대 정착지 수에 도달했습니다.</CommandSettleFailReachedMaximumNumberOfBases>
+    <CommandSettleFailBiomeNotImplemented>구현되지 않은 기후입니다.</CommandSettleFailBiomeNotImplemented>
+    <CommandSettleFailFactionBaseAdjacent>정착지는 서로 근접할 수 없습니다.</CommandSettleFailFactionBaseAdjacent>
 
     <!-- Abandon home -->
     <CommandAbandonHome>포기</CommandAbandonHome>
@@ -228,5 +230,13 @@
     <!-- Select next transporter -->
     <CommandSelectNextTransporter>다음 수송기 선택</CommandSelectNextTransporter>
     <CommandSelectNextTransporterDesc>발사 그룹의 다음 수송기를 선택합니다.</CommandSelectNextTransporterDesc>
+
+    <!-- Vent -->
+    <CommandDesignateOpenCloseVentLabel>개방/폐쇄 지정</CommandDesignateOpenCloseVentLabel>
+    <CommandDesignateOpenCloseVentDesc>환풍구를 개방 또는 폐쇄하도록 지정합니다. 정착민이 직접 와서 조작해야 합니다.</CommandDesignateOpenCloseVentDesc>
+
+    <!-- Remove waypoint -->
+    <CommandRemoveWaypointLabel>제거</CommandRemoveWaypointLabel>
+    <CommandRemoveWaypointDesc>경유지를 제거합니다.</CommandRemoveWaypointDesc>
 
 </LanguageData>

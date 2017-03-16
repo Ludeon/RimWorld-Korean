@@ -2,6 +2,7 @@
 <LanguageData>
 
     <!-- Various -->
+	<HitPointsBasic>내구도</HitPointsBasic>
     <WorkLeft>남은 작업 량</WorkLeft>
     <Contents>내용물</Contents>
     <ContainedResources>포함된 자원</ContainedResources>
@@ -24,7 +25,7 @@
     <FreshMissingBodyPart>방금</FreshMissingBodyPart>
     <DevelopedImmunityLower>항체 생성됨</DevelopedImmunityLower>
     <NeedsTendingNow>지금 간호 필요</NeedsTendingNow>
-    <NextTreatmentIn>다음 간호 {0} 후</NextTreatmentIn>
+    <NextTendIn>다음 간호 {0} 후</NextTendIn>
     <MissingMedicalBillIngredient>{0} 없음</MissingMedicalBillIngredient>
     <Immunity>항체</Immunity>
     <Race>종류</Race>
@@ -65,10 +66,11 @@
     <RadiusExpandsIn>범위 확장</RadiusExpandsIn>
     <Permanent>영구적</Permanent>
     <CaravanResting>휴식 중.</CaravanResting>
-    <CaravanEstimatedTimeToDestination>목적지 예상 도착 시간: {0}</CaravanEstimatedTimeToDestination>
+    <CaravanEstimatedTimeToDestination>목적지 예상 도착 시간: {0}일</CaravanEstimatedTimeToDestination>
     <CaravanImmobilizedByMass>이동 불가: 너무 무거움.</CaravanImmobilizedByMass>
     <CaravanOutOfFood>식량 고갈.</CaravanOutOfFood>
     <CaravanDaysOfFood>남은 식량: {0}</CaravanDaysOfFood>
+    <CaravanDaysOfFoodRot>남은 식량: {0}, {1}일 내로 부패</CaravanDaysOfFoodRot>
 
     <CaravanMemberMentalBreak>멈춤: {0} 정신이상.</CaravanMemberMentalBreak>
     <AllCaravanMembersDowned>멈춤: 모두 쓰러짐.</AllCaravanMembersDowned>
@@ -80,7 +82,7 @@
     <Temperature>온도</Temperature>
     <BadTemperature>온도 부적합</BadTemperature>
     <IdealFermentingTemperature>온도 적합</IdealFermentingTemperature>
-    <DrugEffectMultiplier>효과 계수 {0}</DrugEffectMultiplier>
+    <DrugEffectMultiplier>{0} 효과 계수: {1}</DrugEffectMultiplier>
     <CaravanVisiting>{0} 방문 중.</CaravanVisiting>
     <CaravanEntering>{0} 진입 중.</CaravanEntering>
     <CaravanAttacking>{0} 공격 중.</CaravanAttacking>
@@ -102,7 +104,10 @@
     <TransportPodInGroupHasSomethingLeftToLoad>적재 중</TransportPodInGroupHasSomethingLeftToLoad>
     <TransportPodDestinationBeyondMaximumRange>최대 범위 벗어남</TransportPodDestinationBeyondMaximumRange>
     <TransportPodNotEnoughFuel>연료 부족</TransportPodNotEnoughFuel>
-    <FactionBaseTrader>{1}의 {0}</FactionBaseTrader>
+    <SettlementTrader>{1}의 {0}</SettlementTrader>
+    <RoomSurgerySuccessChanceFactor>수술 성공률 병실 보너스</RoomSurgerySuccessChanceFactor>
+    <RoomInfectionChanceFactor>감염 간호 확률 병실 보너스</RoomInfectionChanceFactor>
+    <VentClosed>닫힘</VentClosed>
 
     <!-- Fermentation barrel -->
     <ContainsWort>맥아즙 {0} / {1}</ContainsWort>
@@ -115,7 +120,9 @@
     <Headshot>헤드샷</Headshot>
     <TextMote_TreatSuccess>치료 성공!\n{0} 확률</TextMote_TreatSuccess>
     <TextMote_TreatFailed>치료 실패\n{0} 확률</TextMote_TreatFailed>
-    <HarvestFailed>수확 실패!</HarvestFailed>
+    <TextMote_HarvestFailed>수확\n실패</TextMote_HarvestFailed>
+    <TextMote_YieldWasted>낭비됨</TextMote_YieldWasted>
+    <TextMote_ProductWasted>낭비됨</TextMote_ProductWasted>
     <TextMote_RecruitFail>포섭 실패!\n{0} 확률</TextMote_RecruitFail>
     <TextMote_TameFail>조련 실패\n{0} 확률</TextMote_TameFail>
     <TextMote_TameSuccess>길들임!\n{0} 확률</TextMote_TameSuccess>
@@ -123,6 +130,7 @@
     <TextMote_TrainSuccess>{0} 훈련 완료\n{1} 확률</TextMote_TrainSuccess>
     <TextMote_FixBrokenDownBuildingFail>수리\n실패</TextMote_FixBrokenDownBuildingFail>
     <TextMote_ConstructionFail>건설\n실패</TextMote_ConstructionFail>
+	<TextMote_Dodge>회피</TextMote_Dodge>
 
     <!-- Areas -->
     <Home>주거구역</Home>
@@ -176,6 +184,7 @@
     <!-- Lord job reports -->
     <LordReportAttendingMarriageCeremony>결혼식 참여 중</LordReportAttendingMarriageCeremony>
     <LordReportAttendingParty>파티 참여 중</LordReportAttendingParty>
+	<LordReportFormingCaravan>상단 구성 중</LordReportFormingCaravan>
 
     <!-- Shooting report -->
     <WeaponMissRadius>무기 탄착 범위</WeaponMissRadius>
@@ -195,6 +204,8 @@
     <RecipeMakeJobString>{0} 만드는 중.</RecipeMakeJobString>
     <RecipeAdminister>{0} 투여</RecipeAdminister>
     <RecipeAdministerJobString>{0} 투여 중.</RecipeAdministerJobString>
+    <TeetotalerUnhappy>금주 불행</TeetotalerUnhappy>
+    <ProsthophobeUnhappy>개조혐오 불행</ProsthophobeUnhappy>
 
     <!-- Thoughts -->
     <ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
@@ -214,7 +225,9 @@
     <Dead>사망</Dead>
     <Unconscious>의식 없음</Unconscious>
     <PainShock>고통으로 인한 쇼크</PainShock>
+	<PainShockShort>고통으로 인한 쇼크</PainShockShort>
     <Incapacitated>무력화됨</Incapacitated>
+	<AffectedBy>영향 받음:</AffectedBy>
 
     <InRestraints>구속됨(느려짐)</InRestraints>
     <Carrying>운반 중</Carrying>
@@ -445,5 +458,18 @@
 
     <!-- Compass -->
     <CompassTip>북쪽을 가리킵니다. 클릭하면 북쪽이 위쪽으로 가도록 카메라를 회전합니다.</CompassTip>
+
+    <!-- Distance measure -->
+    <RoutePlannerButtonTip>클릭하면 여정을 계획하고 경유지간 거리를 측정할 수 있는 계획 모드로 진입합니다.</RoutePlannerButtonTip>
+    <RoutePlannerAddTwoOrMoreWaypoints>2개 이상의 경유지를 추가하세요.</RoutePlannerAddTwoOrMoreWaypoints>
+    <RoutePlannerAddOneOrMoreWaypoints>1개 이상의 경유지를 추가하세요.</RoutePlannerAddOneOrMoreWaypoints>
+    <RoutePlannerEstTimeToFinalDest>경로 총 소요시간: {0}</RoutePlannerEstTimeToFinalDest>
+    <RoutePlannerUsingAverageTicksPerMoveWarning>계획 모드에서는 기본 상단 속도를 사용합니다. 실제 속도는 다를 수 있습니다.</RoutePlannerUsingAverageTicksPerMoveWarning>
+    <RoutePlannerUsingTicksPerMoveOfCaravan>계산: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+    <RoutePlannerPressRMBToAddAndRemoveWaypoints>우클릭: 경유지 추가/제거.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+    <RoutePlannerPressEscapeToExit>ESC: 계획 모드 나가기.</RoutePlannerPressEscapeToExit>
+    <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: 상단 구성 창으로 돌아가기.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+    <EstimatedTimeToThisWaypoint>경유지까지의 소요 시간: 약 {0}</EstimatedTimeToThisWaypoint>
+    <EstimatedTimeToThisWaypointFromPrevious>이전 경유지에서의 소요 시간: 약 {0}</EstimatedTimeToThisWaypointFromPrevious>
 
 </LanguageData>
