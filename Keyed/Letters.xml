@@ -122,7 +122,7 @@
 
     <!-- Formed caravan -->
     <LetterLabelFormedCaravan>상단 준비</LetterLabelFormedCaravan>
-    <LetterFormedCaravan>상단이 준비를 마친 후 세계 지도에서 명령을 기다리고 있습니다.</LetterFormedCaravan>
+    <LetterFormedCaravan>상단이 준비를 마친 후 세계지도에서 명령을 기다리고 있습니다.</LetterFormedCaravan>
 
     <!-- Caravan destroyed -->
     <LetterLabelAllCaravanColonistsDied>상단 파괴</LetterLabelAllCaravanColonistsDied>
@@ -139,11 +139,15 @@
 
     <!-- Faction base defeated -->
     <LetterLabelFactionBaseDefeated>전초기지 파괴</LetterLabelFactionBaseDefeated>
-    <LetterFactionBaseDefeated>적의 전초기지 {0}(이)가 파괴되었습니다.\n\n{1}시간동안 남은 전리품을 챙기고 상단을 재구성할 수 있습니다.</LetterFactionBaseDefeated>
+    <LetterFactionBaseDefeated>적의 전초기지 {0}(이)가 파괴되었습니다.\n\n{1} 동안 남은 전리품을 챙기고 상단을 재구성할 수 있습니다.</LetterFactionBaseDefeated>
     <LetterFactionBaseDefeated_FactionDestroyed>마지막 기지 파괴로 인해 {0} 세력은 이제 존재하지 않습니다.</LetterFactionBaseDefeated_FactionDestroyed>
 
     <!-- Pawns lost due to map countdown -->
     <LetterLabelPawnsLostDueToMapCountdown>버려짐</LetterLabelPawnsLostDueToMapCountdown>
     <LetterPawnsLostDueToMapCountdown>다음 동물과 죄수가 야생 한복판에 버려졌습니다.\n\n{0}</LetterPawnsLostDueToMapCountdown>
+
+    <!-- Quest completed -->
+    <LetterLabelDefeatAllEnemiesQuestCompleted>퀘스트 완료</LetterLabelDefeatAllEnemiesQuestCompleted>
+    <LetterDefeatAllEnemiesQuestCompleted>적의 전초기지를 파괴했습니다!\n\n{0}의 보상과 함께 관계가 {1} 상승했습니다.</LetterDefeatAllEnemiesQuestCompleted>
 
 </LanguageData>

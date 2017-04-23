@@ -144,7 +144,7 @@
 
     <!-- Caravan request -->
     <LetterLabelCaravanRequest>상단 요청</LetterLabelCaravanRequest>
-    <LetterCaravanRequest>근처의 정착지 {0}에서 특별한 거래 요청을 해왔습니다. 저 쪽은 다음 물품을 요청했습니다.\n\n  {1}\n\n그 대가로 다음 보상을 받을 수 있습니다.\n\n  {2}\n\n이 요청은 {3} 후에 만료됩니다.\n\n수락하려면 필요한 물품을 포함한 상단을 구성해서 목적지로 보내세요. 세계 지도에서 {0}(을)를 선택해서 요청을 다시 확인할 수 있습니다.</LetterCaravanRequest>
+    <LetterCaravanRequest>근처의 정착지 {0}에서 특별한 거래 요청을 해왔습니다. 저 쪽은 다음 물품을 요청했습니다.\n\n  {1}\n\n그 대가로 다음 보상을 받을 수 있습니다.\n\n  {2}\n\n이 요청은 {3} 후에 만료됩니다.\n\n수락하려면 필요한 물품을 포함한 상단을 구성해서 목적지로 보내세요. 세계지도에서 {0}(을)를 선택해서 요청을 다시 확인할 수 있습니다.</LetterCaravanRequest>
     <CaravanRequestInfo>요청: {0}, 보상: {1} ({2} 남음)</CaravanRequestInfo>
 
     <!-- Caravan demand -->
@@ -152,5 +152,16 @@
     <CaravanDemand>당신의 상단이 {0}의 {1} {3}에게 매복당했습니다. 저들은 다음 물건을 제공하지 않을 경우 공격하겠다고 밝혔습니다.\n\n{2}</CaravanDemand>
     <CaravanDemand_Give>제공 후 통과</CaravanDemand_Give>
     <CaravanDemand_Fight>거절 후 전투</CaravanDemand_Fight>
+
+    <!-- Temporary item stash -->
+    <ItemStashQuestTitle>물품 은닉처 위치</ItemStashQuestTitle>
+    <ItemStashQuest_Accept>수락</ItemStashQuest_Accept>
+    <ItemStashQuest_Reject>거절</ItemStashQuest_Reject>
+    <ItemStashQuestFeeDemand>{0}(이)가 {1} 은으로 은닉처의 위치를 팔고 싶어합니다.</ItemStashQuestFeeDemand>
+    <ItemStashSitePart_Unknown>불행히도 {0}(은)는 은닉처가 보호받고 있는지, 누가 보호하고 있는지 모른다고 합니다.</ItemStashSitePart_Unknown>
+    <ItemStashSitePart_Nothing>{0}의 말에 따르면 은닉처는 보호받고 있지 않습니다.</ItemStashSitePart_Nothing>
+    <ItemStashSitePart_Outpost>{0}의 말에 따르면 은닉처 근처에 적의 전초기지가 존재합니다.</ItemStashSitePart_Outpost>
+    <ItemStashSitePart_Turrets>{0}의 말에 따르면 은닉처는 포탑이 둘러싸고 있습니다.</ItemStashSitePart_Turrets>
+    <ItemStashSitePart_Manhunters>{0}의 말에 따르면 은닉처 주위에는 식인 동물 무리가 돌아다니고 있습니다.</ItemStashSitePart_Manhunters>
 
 </LanguageData>

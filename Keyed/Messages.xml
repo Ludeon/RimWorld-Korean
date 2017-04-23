@@ -162,7 +162,7 @@
 
     <MessageSettledInExistingMap>성공적으로 새로운 지역에 정착했습니다.</MessageSettledInExistingMap>
 
-    <MessageAmbushVictory>승리했습니다! {0}시간 후에 상단이 자동으로 재구성됩니다. 세계지도에서 지금 바로 재구성할 수 있습니다.</MessageAmbushVictory>
+    <MessageAmbushVictory>승리했습니다! {0} 후에 상단이 자동으로 재구성됩니다. 세계지도에서 지금 바로 재구성할 수 있습니다.</MessageAmbushVictory>
 
     <MessageAutomaticallyReformedCaravan>정착민들이 상단을 구성했습니다.</MessageAutomaticallyReformedCaravan>
 
@@ -209,11 +209,12 @@
 
     <MessageScreenResTooSmallForUIScale>현재 해상도와 인터페이스 크기로는 게임 화면이 제대로 표시되지 않습니다. 해상도를 높이거나 인터페이스 크기를 줄여주세요.</MessageScreenResTooSmallForUIScale>
 
-    <MessageYouHaveToReformCaravanNow>지금 상단을 재구성해야 합니다. 뒤에 남은 사람들은 모두 잃게 됩니다.</MessageYouHaveToReformCaravanNow>
+    <MessageYouHaveToReformCaravanNow>지금 상단을 재구성해야 합니다. 뒤에 남은 사람들은 모두 버려집니다.</MessageYouHaveToReformCaravanNow>
 
     <MessageDefendersAttacking>{1}에서 온 {0}(이)가 {2}(을)를 공격하고 있습니다.</MessageDefendersAttacking>
 
-    <MessageSelfTendUnsatisfied>{0}(은)는 자가 치료 허가를 받았지만 치료 작업을 할당받지 않았습니다.</MessageSelfTendUnsatisfied>
+    <MessageSelfTendUnsatisfied>자가치료를 하려면 {0}에게 치료 작업을 할당해야 합니다.</MessageSelfTendUnsatisfied>
+	<MessageCannotSelfTendEver>{0}(은)는 치료 작업을 수행할 수 없어 자가치료도 불가능합니다.</MessageCannotSelfTendEver>
 
     <MessageCantAddWaypointBecauseImpassable>이 칸으로 이동할 수 없습니다.</MessageCantAddWaypointBecauseImpassable>
     <MessageCantAddWaypointBecauseUnreachable>마지막 경유지에서 이 칸으로 올 수 있는 경로가 없습니다.</MessageCantAddWaypointBecauseUnreachable>
@@ -221,5 +222,8 @@
     <MessageCantRemoveWaypointBecauseFirst>이 경유지는 제거할 수 없습니다.</MessageCantRemoveWaypointBecauseFirst>
 
     <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>간수 모두가 폭력을 허용하지 않습니다. 처형이 진행되지 않을 것입니다.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+
+    <MessageSiteCountdownBecauseNoMoreEnemies>모든 적을 무찔렀습니다. {0} 이내로 상단이 재구성됩니다.</MessageSiteCountdownBecauseNoMoreEnemies>
+    <MessageSiteCountdownBecauseNoEnemiesInitially>{0} 이내로 상단이 재구성됩니다. 세계지도에서 지금 바로 재구성할 수 있습니다.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
 </LanguageData>

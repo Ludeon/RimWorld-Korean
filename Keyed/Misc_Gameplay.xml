@@ -90,8 +90,8 @@
     <WornByCorpseChar>死</WornByCorpseChar>
     <DeterioratingDueToBeingUnroofed>지붕이 없어 손상되는 중.</DeterioratingDueToBeingUnroofed>
     <Map>지도</Map>
-    <ForceExitAndRemoveMapCountdown>나가기 전까지 {0}시간 남음</ForceExitAndRemoveMapCountdown>
-    <ForceExitAndRemoveMapCountdownTip>정착민들이 {0}시간 후 상단을 꾸려 다시 출발합니다.</ForceExitAndRemoveMapCountdownTip>
+    <ForceExitAndRemoveMapCountdown>나가기 전까지 {0} 남음</ForceExitAndRemoveMapCountdown>
+    <ForceExitAndRemoveMapCountdownTip>정착민들이 {0} 후 상단을 꾸려 다시 출발합니다.</ForceExitAndRemoveMapCountdownTip>
     <Room>방</Room>
     <BeautyHere>미관</BeautyHere>
     <NoPower>전력 없음</NoPower>
@@ -110,6 +110,9 @@
     <VentClosed>닫힘</VentClosed>
     <WornBy>{0}(이)가 착용 중</WornBy>
     <EquippedBy>{0}(이)가 착용 중</EquippedBy>
+	<QuestTargetDestroyInspectString>{0}(이)가 원하는 제거 대상.\n    보상: {1}.</QuestTargetDestroyInspectString>
+	<WorldObjectTimeout>남은 시간: {0}</WorldObjectTimeout>
+	<LongRangeMineralScannerEfficiency>효율성: {0}</LongRangeMineralScannerEfficiency>
 
     <!-- Fermentation barrel -->
     <ContainsWort>맥아즙 {0} / {1}</ContainsWort>
@@ -335,8 +338,8 @@
     <Burning>불타는 중</Burning>
     <FireSizeLower>화염 크기 {0}</FireSizeLower>
 
-    <!-- Map conditions -->
-    <MapConditionsTip>특이한 현상이 이 지역에 영향을 끼치고 있습니다.</MapConditionsTip>
+    <!-- Game conditions -->
+    <GameConditionsTip>특이한 현상이 이 지역에 영향을 끼치고 있습니다.</GameConditionsTip>
     <TimeLeft>남은 시간</TimeLeft>
     <ImpactDate>충돌 날짜</ImpactDate>
 
