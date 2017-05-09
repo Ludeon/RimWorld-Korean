@@ -8,16 +8,13 @@
 	<MiningSpeed.description>채굴 및 심층 굴착 속도입니다.</MiningSpeed.description>
 
     <MiningYield.label>채굴량</MiningYield.label>
-    <MiningYield.description>채굴 및 심층 굴착으로 얻는 자원량입니다. 높은 수치는 자원 낭비의 확률을 감소시킵니다.</MiningYield.description>
+    <MiningYield.description>채굴 및 심층 굴착으로 얻는 자원량입니다. 바위 덩어리 획득률에는 영향을 주지 않습니다.</MiningYield.description>
 
 	<SmoothingSpeed.label>바닥 다듬는 속도</SmoothingSpeed.label>
 	<SmoothingSpeed.description>거친 돌바닥을 부드럽게 만드는 속도입니다.</SmoothingSpeed.description>
 
 	<ResearchSpeed.label>연구 속도</ResearchSpeed.label>
 	<ResearchSpeed.description>연구 과제를 수행하는 속도입니다.</ResearchSpeed.description>
-
-	<ConstructionSpeed.label>건설 속도</ConstructionSpeed.label>
-	<ConstructionSpeed.description>건물을 짓거나 가구를 만드는 속도입니다.</ConstructionSpeed.description>
 
     <AnimalGatherSpeed.label>동물 채집 속도</AnimalGatherSpeed.label>
     <AnimalGatherSpeed.description>살아있는 동물의 젖, 털이나 기타 다른 자원을 얻는 속도입니다.</AnimalGatherSpeed.description>
@@ -30,6 +27,9 @@
 
 	<PlantHarvestYield.label>수확량</PlantHarvestYield.label>
 	<PlantHarvestYield.description>수확으로 얻는 자원량입니다. 낮은 수치는 수확 중 실수로 식물을 파괴할 수도 있습니다.</PlantHarvestYield.description>
+
+	<ConstructionSpeed.label>건설 속도</ConstructionSpeed.label>
+	<ConstructionSpeed.description>건물을 짓거나 가구를 만드는 속도입니다.</ConstructionSpeed.description>
 
     <ConstructSuccessChance.label>건설 성공 확률</ConstructSuccessChance.label>
     <ConstructSuccessChance.description>건설을 성공적으로 수행할 확률입니다. 건설에 실패하면 시간과 자원이 낭비됩니다.</ConstructSuccessChance.description>

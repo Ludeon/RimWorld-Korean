@@ -105,8 +105,8 @@
     <TransportPodDestinationBeyondMaximumRange>최대 범위 벗어남</TransportPodDestinationBeyondMaximumRange>
     <TransportPodNotEnoughFuel>연료 부족</TransportPodNotEnoughFuel>
     <SettlementTrader>{1}의 {0}</SettlementTrader>
-    <RoomSurgerySuccessChanceFactor>수술 성공률 병실 보너스</RoomSurgerySuccessChanceFactor>
-    <RoomInfectionChanceFactor>감염 치료 확률 병실 보너스</RoomInfectionChanceFactor>
+    <RoomSurgerySuccessChanceFactor>병실 수술 성공률 계수</RoomSurgerySuccessChanceFactor>
+    <RoomInfectionChanceFactor>병실 감염 치료 확률 계수</RoomInfectionChanceFactor>
     <VentClosed>닫힘</VentClosed>
     <WornBy>{0}(이)가 착용 중</WornBy>
     <EquippedBy>{0}(이)가 착용 중</EquippedBy>
@@ -120,7 +120,7 @@
 	<WorkPriorityShiftClickEnableDisableTip>Shift + 좌클릭: 모두 활성화\nShift + 우클릭: 모두 비활성화</WorkPriorityShiftClickEnableDisableTip>
 	<AllowedAreaShiftClickTip>Shift + 좌클릭: 모두 거주구역에 할당\nShift + 우클릭: 모두 제한 해제</AllowedAreaShiftClickTip>
 	<CheckboxShiftClickTip>Shift + 좌클릭: 모두 체크\nShift + 우클릭: 모두 체크 해제</CheckboxShiftClickTip>
-    
+
     <!-- Fermentation barrel -->
     <ContainsWort>맥아즙 {0} / {1}</ContainsWort>
     <ContainsBeer>맥주 {0} / {1}</ContainsBeer>
@@ -143,6 +143,7 @@
     <TextMote_FixBrokenDownBuildingFail>수리\n실패</TextMote_FixBrokenDownBuildingFail>
     <TextMote_ConstructionFail>건설\n실패</TextMote_ConstructionFail>
 	<TextMote_Dodge>회피</TextMote_Dodge>
+	<TextMote_Tended>{0} 간호</TextMote_Tended>
 
     <!-- Areas -->
     <Home>주거구역</Home>
