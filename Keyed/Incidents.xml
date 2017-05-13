@@ -14,15 +14,15 @@
     <MiracleHeal>{0}(이)가 기적에 가까운 회복을 경험했습니다!</MiracleHeal>
 
     <!-- Enemy raids -->
-    <EnemyRaidWalkIn>{1}에서 온 {0} 세력이 근처에 도착했습니다.</EnemyRaidWalkIn>
-    <EnemyRaidEdgeDrop>{1}에서 온 {0} 세력이 낙하기를 타고 근처에 도착했습니다.</EnemyRaidEdgeDrop>
-    <EnemyRaidCenterDrop>{1}에서 온 {0} 세력이 정착지 바로 위에 강하했습니다!</EnemyRaidCenterDrop>
+    <EnemyRaidWalkIn>{1}의 {0}(이)가 근처에 도착했습니다.</EnemyRaidWalkIn>
+    <EnemyRaidEdgeDrop>{1}의 {0}(이)가 낙하기를 타고 근처에 도착했습니다.</EnemyRaidEdgeDrop>
+    <EnemyRaidCenterDrop>{1}의 {0}(이)가 정착지 바로 위에 강하했습니다!</EnemyRaidCenterDrop>
     <EnemyRaidLeaderPresent>{1}(은)는 {0}의 지도자입니다.</EnemyRaidLeaderPresent>
 
     <!-- Friendly raids -->
-    <FriendlyRaidWalkIn>{1}에서 온 우호적인 {0} 세력이 근처에 도착했습니다.</FriendlyRaidWalkIn>
-    <FriendlyRaidEdgeDrop>{1}에서 온 우호적인 {0} 세력이 가까운 곳으로 궤도강하를 했습니다.</FriendlyRaidEdgeDrop>
-    <FriendlyRaidCenterDrop>{1}에서 온 우호적인 {0} 세력이 정착지의 바로 위에 착륙했습니다!</FriendlyRaidCenterDrop>
+    <FriendlyRaidWalkIn>{1}의 우호적인 {0}(이)가 근처에 도착했습니다.</FriendlyRaidWalkIn>
+    <FriendlyRaidEdgeDrop>{1}의 우호적인 {0}(이)가 가까운 곳으로 궤도강하를 했습니다.</FriendlyRaidEdgeDrop>
+    <FriendlyRaidCenterDrop>{1}의 우호적인 {0}(이)가 정착지의 바로 위에 착륙했습니다!</FriendlyRaidCenterDrop>
     <FriendlyRaidLeaderPresent>{1}(은)는 {0}의 지도자입니다.</FriendlyRaidLeaderPresent>
 
     <LetterLabelRefugeePodCrash>탈출 낙하기</LetterLabelRefugeePodCrash>
@@ -39,7 +39,7 @@
 
     <ShortCircuitWasHuge>폭발이 정말 크고 아름답습니다.</ShortCircuitWasHuge>
 
-    <TraderArrival>{1} "{0}"(이)가 궤도에 진입했습니다.</TraderArrival>
+    <TraderArrival>{1} {0}(이)가 궤도에 진입했습니다.</TraderArrival>
 
     <SingleTravelerPassing>{1}에서 온 사람이 정착지 근처를 지나가고 있습니다. 이름은 {2}이며, {0}입니다.</SingleTravelerPassing>
 
@@ -49,7 +49,7 @@
     <SingleVisitorArrives>{1}에서 온 사람이 정착지를 방문하고 있습니다.\n\n이름은 {2}이며, {0}입니다. {3}{4}</SingleVisitorArrives>
     <SingleVisitorArrivesTraderInfo>\n\nHE 약간의 물건을 거래할 마음이 있는 듯 합니다.</SingleVisitorArrivesTraderInfo>
     <!-- 3 -->
-    <SingleVisitorArrivesLeaderInfo>\\nHE 세력의 지도자입니다.</SingleVisitorArrivesLeaderInfo>
+    <SingleVisitorArrivesLeaderInfo>\nHE 세력의 지도자입니다.</SingleVisitorArrivesLeaderInfo>
     <!-- 4 -->
 
     <LetterLabelGroupVisitorsArrive>방문객들</LetterLabelGroupVisitorsArrive>
@@ -124,7 +124,7 @@
 
     <!-- Building breaks down -->
     <LetterLabelBuildingBrokenDown>{0} 고장</LetterLabelBuildingBrokenDown>
-    <LetterBuildingBrokenDown>{0}의 부품이 고장났습니다. 정착민이 다른 부품으로 교체하기 전엔 작동하지 않습니다.</LetterBuildingBrokenDown>
+    <LetterBuildingBrokenDown>{0}(이)가 고장났습니다. 건설 작업을 맡은 정착민이 다른 부품으로 교체하기 전엔 작동하지 않습니다.</LetterBuildingBrokenDown>
 
     <!-- Ransom demand -->
 	<RansomDemandTitle>{0}의 몸값 요구</RansomDemandTitle>
@@ -137,7 +137,7 @@
 
     <!-- Caravan meeting -->
 	<CaravanMeetingTitle>{0}(와)과 마주침</CaravanMeetingTitle>
-    <CaravanMeeting>상단이 {0} 세력의 우호적인 상단과 마주쳤습니다. 구성:\n\n{1}</CaravanMeeting>
+    <CaravanMeeting>상단이 {0}의 우호적인 상단과 마주쳤습니다. 구성:\n\n{1}</CaravanMeeting>
     <CaravanMeeting_Trade>거래</CaravanMeeting_Trade>
     <CaravanMeeting_Attack>공격</CaravanMeeting_Attack>
     <CaravanMeeting_MoveOn>무시</CaravanMeeting_MoveOn>

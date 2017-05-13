@@ -57,8 +57,8 @@
     <BondBrackets>(각별)</BondBrackets>
     <Fuel>연료</Fuel>
     <FuelLevelGizmoLabel>연료</FuelLevelGizmoLabel>
-    <SetTargetFuelLevel>연료 목표치 {0}</SetTargetFuelLevel>
-    <SetPodLauncherTargetFuelLevel>연료 목표치 {0}\n최대 거리: {1} 타일</SetPodLauncherTargetFuelLevel>
+    <SetTargetFuelLevel>연료 목표치 {0}(으)로 설정</SetTargetFuelLevel>
+    <SetPodLauncherTargetFuelLevel>연료 목표치 {0}(으)로 설정\n최대 거리: {1} 타일</SetPodLauncherTargetFuelLevel>
     <ConfiguredTargetFuelLevel>연료 목표치 {0}</ConfiguredTargetFuelLevel>
     <Enemies>적</Enemies>
     <TimePassed>진행한 시간</TimePassed>
@@ -161,7 +161,7 @@
     <InvertArea>구역 반전</InvertArea>
 
     <!-- Control -->
-    <CannotOrderNonControlled>조종할 수 없는 대상에 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
+    <CannotOrderNonControlled>조종할 수 없는 대상에게 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
     <IsIncapableOfViolence>{0}(은)는 폭력적인 일을 할 수 없습니다.</IsIncapableOfViolence>
     <IsIncapableOfViolenceShort>폭력적인 일 불가</IsIncapableOfViolenceShort>
     <IsNotDrafted>{0}(은)는 소집되지 않았습니다.</IsNotDrafted>
@@ -358,11 +358,9 @@
     <NoStuffsToBuildWith>건설에 필요한 재료가 충분하지 않습니다.</NoStuffsToBuildWith>
 
     <!-- Building placement restricters -->
-    <WillGetWorkSpeedPenalty>{0}의 작업 속도가 느려집니다</WillGetWorkSpeedPenalty>
-
+    <WillGetWorkSpeedPenalty>{0}의 작업 속도가 느려집니다.</WillGetWorkSpeedPenalty>
     <MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
     <MustPlaceHeadOnShipBeam>앞 부분이 우주선 구조부에 붙어있어야 합니다.</MustPlaceHeadOnShipBeam>
-
     <MustPlaceNextToHopperAccepter>투입구는 필요한 시설의 옆에 배치해야 합니다.</MustPlaceNextToHopperAccepter>
     <MustPlaceOnSteamGeyser>증기 간헐천 위에 배치되어야합니다.</MustPlaceOnSteamGeyser>
     <MustPlaceCoolerWithFreeSpaces>배기구와 냉방기 두 면이 모두 밖으로 노출되어야 합니다.</MustPlaceCoolerWithFreeSpaces>

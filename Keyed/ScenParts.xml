@@ -12,7 +12,7 @@
 
     <ScenPart_ArriveInDropPods>낙하기로 도착합니다.</ScenPart_ArriveInDropPods>
 
-    <ScenPart_StatFactor>모든 캐릭터의 능력치 "{0}"에 {1}의 보너스가 곱해집니다.</ScenPart_StatFactor>
+    <ScenPart_StatFactor>모든 캐릭터의 능력치 "{0}"(이)가 기존의 {1}배로 설정됩니다.</ScenPart_StatFactor>
 
     <!-- Pawn modifiers -->
     <ScenPart_PawnsHaveHediff>{0}(은)는 {1}의 확률로 {2}(을)를 지닙니다.</ScenPart_PawnsHaveHediff>
@@ -25,9 +25,9 @@
     <ScenPart_OnPawnDeathExplode>모든 캐릭터들이 사망 시 폭발합니다. ({0}, 범위 {1}).</ScenPart_OnPawnDeathExplode>
 
     <!-- Pawn filters -->
-    <ScenPart_StartingPawnAgeMin>당신의 사람들은 최소 {0}살입니다.</ScenPart_StartingPawnAgeMin>
-    <ScenPart_StartingPawnAgeMax>당신의 사람들읜 최대 {0}살입니다.</ScenPart_StartingPawnAgeMax>
-    <ScenPart_StartingPawnAgeRange>당신의 사람들은 {0}에서 {1}살 사이입니다.</ScenPart_StartingPawnAgeRange>
+    <ScenPart_StartingPawnAgeMin>구성원들은 최소 {0}살입니다.</ScenPart_StartingPawnAgeMin>
+    <ScenPart_StartingPawnAgeMax>구성원들은 최대 {0}살입니다.</ScenPart_StartingPawnAgeMax>
+    <ScenPart_StartingPawnAgeRange>구성원들은 {0}에서 {1}살 사이입니다.</ScenPart_StartingPawnAgeRange>
 
     <!-- ======================== Grouped ========================-->
 
@@ -36,6 +36,6 @@
     <ScenPart_PermaGameCondition>영구적 지속효과</ScenPart_PermaGameCondition>
     <ScenPart_DisableIncident>사건 비활성화</ScenPart_DisableIncident>
     <ScenPart_CreateIncident>생성된 사건</ScenPart_CreateIncident>
-    <ScenPart_DisallowBuilding>건설 금지</ScenPart_DisallowBuilding>
+    <ScenPart_DisallowBuilding>건설 불가</ScenPart_DisallowBuilding>
 
 </LanguageData>
