@@ -247,8 +247,9 @@
     <ItemsTab>아이템들</ItemsTab>
     <CaravanConfigTab>설정</CaravanConfigTab>
     <CaravanMustHaveAtLeastOneColonist>최소 한명의 쓰러지지 않은 정착민을 할당해야 합니다.</CaravanMustHaveAtLeastOneColonist>
-    <CaravanCouldNotFindExitSpot>적합한 출구를 찾을 수 없습니다.</CaravanCouldNotFindExitSpot>
-    <CaravanCouldNotFindReachableExitSpot>경고: 할당된 정착민중 일부는 출구로 갈 수 없습니다.</CaravanCouldNotFindReachableExitSpot>
+    <CaravanCouldNotFindExitSpot>선택된 출구({0})에 접근 불가능합니다.</CaravanCouldNotFindExitSpot>
+    <CaravanCouldNotFindPackingSpot>유효한 상단 준비 장소를 찾을 수 없습니다. 선택된 출구({0})에 접근 가능한지 확인해주세요.</CaravanCouldNotFindPackingSpot>
+    <CaravanCouldNotFindReachableExitSpot>경고: 할당된 정착민중 일부가 출구({0})로 갈 수 없습니다.</CaravanCouldNotFindReachableExitSpot>
     <CaravanPawnIsUnreachable>{0}(은)는 할당된 정착민 중 누구도 접근할 수 없습니다.</CaravanPawnIsUnreachable>
     <CaravanItemIsUnreachableSingle>할당된 정착민들이 {0}에 접근할 수 없습니다.</CaravanItemIsUnreachableSingle>
     <CaravanItemIsUnreachableMulti>할당된 정착민들이 {0}x {1}에 접근할 수 없습니다.</CaravanItemIsUnreachableMulti>
