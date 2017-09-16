@@ -26,6 +26,14 @@
 
     <CaravanRequest.label>상단 요청</CaravanRequest.label>
 
+    <MeteoriteImpact.label>운석 충돌</MeteoriteImpact.label>
+    <MeteoriteImpact.letterText>큰 운석이 이 지역에 충돌했습니다. {0} 더미를 남겼습니다.</MeteoriteImpact.letterText>
+    <MeteoriteImpact.letterLabel>운석</MeteoriteImpact.letterLabel>
+
+    <HerdMigration.label>동물무리 이주</HerdMigration.label>
+    <HerdMigration.letterText>큰 {0} 무리가 이 곳을 통과하고 있습니다. 먼저 자극하지 않으면 공격하지 않을 것입니다.</HerdMigration.letterText>
+    <HerdMigration.letterLabel>Herd migration: {0}</HerdMigration.letterLabel>
+
     <PsychicDrone.label>괴로운 정신파동</PsychicDrone.label>
 
     <ToxicFallout.label>유독성 낙진</ToxicFallout.label>
@@ -44,14 +52,20 @@
 	<ColdSnap.letterLabel>한파</ColdSnap.letterLabel>
 	<ColdSnap.letterText>비정상적인 한파가 시작되었습니다.\n\n동상에 영향을 받기 시작하면 빠르게 사망으로 이어질 수 있습니다. 온방장치를 설치하고 적절한 옷을 입히며 작물이 추위로 죽기 전에 수확하세요.</ColdSnap.letterText>
 
+    <Aurora.label>오로라</Aurora.label>
+    <Aurora.letterText>아름다운 오로라가 하늘을 수놓습니다.\n\n아름다운 색이 야외에 나온 모두를 기쁘게 하고, 밤을 밝게 비춥니다.</Aurora.letterText>
+    <Aurora.letterLabel>Aurora</Aurora.letterLabel>
+
     <Flashstorm.label>섬광폭풍</Flashstorm.label>
 	<Flashstorm.letterLabel>섬광폭풍</Flashstorm.letterLabel>
-	<Flashstorm.letterText>엄청난 양의 번개가 좁은 지역을 강타하고 있습니다. 거대한 화재가 발생할 수 있습니다.</Flashstorm.letterText>
+	<Flashstorm.letterText>기이할 정도로 국지적인 폭풍이 좁은 지역을 번개로 강타하고 있습니다. 거대한 화재가 발생할 수 있습니다.</Flashstorm.letterText>
+
+    <Tornado.label>토네이도</Tornado.label>
+    <Tornado.letterText>토네이도가 생겼습니다!\n\n이 지역을 가로지르며 파괴의 길을 남길 것입니다.</Tornado.letterText>
+    <Tornado.letterLabel>Tornado</Tornado.letterLabel>
 
     <ShortCircuit.label>합선</ShortCircuit.label>
-
     <CropBlight.label>작물 질병</CropBlight.label>
-
     <Alphabeavers.label>알파비버 무리</Alphabeavers.label>
 
 </LanguageData>

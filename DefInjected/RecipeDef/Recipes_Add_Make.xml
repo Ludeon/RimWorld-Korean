@@ -2,6 +2,7 @@
 <LanguageData>
 
     <!-- Recipe Users: DrugLab -->
+
     <Make_GoJuice.label>고주스 합성</Make_GoJuice.label>
     <Make_GoJuice.jobString>고주스 만드는 중.</Make_GoJuice.jobString>
 
@@ -21,25 +22,97 @@
     <Make_WakeUp.jobString>웨이크업 만드는 중.</Make_WakeUp.jobString>
 
     <!-- Recipe Users: CraftingSpot -->
+
+    <Make_PsychoidPekoe.label>!!사이카이트 피코 제작</Make_PsychoidPekoe.label>
+    <Make_PsychoidPekoe.jobString>사이카이트 피코 만드는 중.</Make_PsychoidPekoe.jobString>
+
     <Make_SmokeleafJoint.label>연초 제작</Make_SmokeleafJoint.label>
     <Make_SmokeleafJoint.jobString>연초 만드는 중.</Make_SmokeleafJoint.jobString>
 
-    <!-- Legacy -->
-    <!-- ========== Labels =========== -->
+
+    <!-- Recipe Users: TableSculpting -->
 
     <Make_SculptureSmall.label>소형 조각상 만들기</Make_SculptureSmall.label>
+    <Make_SculptureSmall.jobString>소형 조각상 만드는 중.</Make_SculptureSmall.jobString>
     <Make_SculptureLarge.label>대형 조각상 만들기</Make_SculptureLarge.label>
+    <Make_SculptureLarge.jobString>대형 조각상 만드는 중.</Make_SculptureLarge.jobString>
     <Make_SculptureGrand.label>초대형 조각상 만들기</Make_SculptureGrand.label>
+    <Make_SculptureGrand.jobString>초대형 조각상 만드는 중.</Make_SculptureGrand.jobString>
+
+    <!-- Recipe Users: TableMachining -->
+
+    <Make_Shell_HighExplosive.label>!!make high-explosive shell</Make_Shell_HighExplosive.label>
+    <Make_Shell_HighExplosive.description>Make high-explosive shell.</Make_Shell_HighExplosive.description>
+    <Make_Shell_HighExplosive.jobString>Making high-explosive shell.</Make_Shell_HighExplosive.jobString>
+
+    <Make_Shell_Incendiary.label>make incendiary shell</Make_Shell_Incendiary.label>
+    <Make_Shell_Incendiary.description>Make incendiary shell.</Make_Shell_Incendiary.description>
+    <Make_Shell_Incendiary.jobString>Making incendiary shell.</Make_Shell_Incendiary.jobString>
+
+    <Make_Shell_EMP.label>make EMP shell</Make_Shell_EMP.label>
+    <Make_Shell_EMP.description>Make EMP shell.</Make_Shell_EMP.description>
+    <Make_Shell_EMP.jobString>Making EMP shell.</Make_Shell_EMP.jobString>
+
+    <Make_Shell_Firefoam.label>make firefoam shell</Make_Shell_Firefoam.label>
+    <Make_Shell_Firefoam.description>Make firefoam shell.</Make_Shell_Firefoam.description>
+    <Make_Shell_Firefoam.jobString>Making firefoam shell.</Make_Shell_Firefoam.jobString>
+
+    <Make_Apparel_ShieldBelt.label>방어 벨트 만들기</Make_Apparel_ShieldBelt.label>
+    <Make_Apparel_ShieldBelt.jobString>방어 벨트 만드는 중.</Make_Apparel_ShieldBelt.jobString>
 
     <Make_Apparel_SmokepopBelt.label>연막벨트 만들기</Make_Apparel_SmokepopBelt.label>
-    <Make_Apparel_ShieldBelt.label>방어 벨트 만들기</Make_Apparel_ShieldBelt.label>
+    <Make_Apparel_SmokepopBelt.jobString>연막벨트 만드는 중.</Make_Apparel_SmokepopBelt.jobString>
+
+    <Make_Apparel_SimpleHelmet.label>방탄모 만들기</Make_Apparel_SimpleHelmet.label>
+    <Make_Apparel_SimpleHelmet.jobString>방탄모 만들기</Make_Apparel_SimpleHelmet.jobString>
+
+    <Make_Apparel_AdvancedHelmet.label>강화 방탄모 만들기</Make_Apparel_AdvancedHelmet.label>
+    <Make_Apparel_AdvancedHelmet.jobString>강화 방탄모 만들기</Make_Apparel_AdvancedHelmet.jobString>
+
+    <Make_Apparel_PowerArmorHelmet.label>강화갑옷 방탄모 만들기</Make_Apparel_PowerArmorHelmet.label>
+    <Make_Apparel_PowerArmorHelmet.jobString>강화갑옷 방탄모 만드는 중.</Make_Apparel_PowerArmorHelmet.jobString>
+
+    <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
 
     <Make_Apparel_CowboyHat.label>카우보이 모자 만들기</Make_Apparel_CowboyHat.label>
+    <Make_Apparel_CowboyHat.jobString>카우보이 모자 만드는 중.</Make_Apparel_CowboyHat.jobString>
+
     <Make_Apparel_BowlerHat.label>중산모 만들기</Make_Apparel_BowlerHat.label>
+    <Make_Apparel_BowlerHat.jobString>중산모 만드는 중.</Make_Apparel_BowlerHat.jobString>
+
     <Make_Apparel_Tuque.label>털모자 만들기</Make_Apparel_Tuque.label>
-    <Make_Apparel_SimpleHelmet.label>방탄모 만들기</Make_Apparel_SimpleHelmet.label>
-    <Make_Apparel_AdvancedHelmet.label>강화 방탄모 만들기</Make_Apparel_AdvancedHelmet.label>
-    <Make_Apparel_PowerArmorHelmet.label>강화갑옷 방탄모 만들기</Make_Apparel_PowerArmorHelmet.label>
+    <Make_Apparel_Tuque.jobString>털모자 만드는 중.</Make_Apparel_Tuque.jobString>
+
+
+    <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+    <Make_Apparel_WarMask.label>!!make war mask</Make_Apparel_WarMask.label>
+    <Make_Apparel_WarMask.description>Make war mask.</Make_Apparel_WarMask.description>
+    <Make_Apparel_WarMask.jobString>Making war mask.</Make_Apparel_WarMask.jobString>
+
+    <Make_Apparel_WarVeil.label>make war veil</Make_Apparel_WarVeil.label>
+    <Make_Apparel_WarVeil.description>Make war veil.</Make_Apparel_WarVeil.description>
+    <Make_Apparel_WarVeil.jobString>Making war veil.</Make_Apparel_WarVeil.jobString>
+
+    <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+    <Make_Apparel_TribalHeaddress.label>make tribal headdress</Make_Apparel_TribalHeaddress.label>
+    <Make_Apparel_TribalHeaddress.jobString>Making tribal headdress.</Make_Apparel_TribalHeaddress.jobString>
+
+    <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+
+    <Make_Bow_Great.label>대궁 제작</Make_Bow_Great.label>
+    <Make_Bow_Great.description>대궁을 만듭니다.</Make_Bow_Great.description>
+    <Make_Bow_Great.jobString>대궁 만드는 중.</Make_Bow_Great.jobString>
+
+    <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+
+    <Make_Bow_Recurve.label>make recurve bow</Make_Bow_Recurve.label>
+    <Make_Bow_Recurve.description>Make recurve bow.</Make_Bow_Recurve.description>
+    <Make_Bow_Recurve.jobString>Making recurve bow.</Make_Bow_Recurve.jobString>
+
+    <!-- Legacy -->
+    <!-- ========== Labels =========== -->
 
     <Make_Apparel_Pants.label>바지 만들기</Make_Apparel_Pants.label>
     <Make_Apparel_BasicShirt.label>티셔츠 만들기</Make_Apparel_BasicShirt.label>
@@ -63,7 +136,8 @@
     <Make_Bow_Great.label>장궁 만들기</Make_Bow_Great.label>
     <Make_Pila.label>투창 다발 만들기</Make_Pila.label>
 
-    <Make_Gun_Pistol.label>권총 제작</Make_Gun_Pistol.label>
+    <Make_Gun_Revolver.label>리볼버 제작</Make_Gun_Revolver.label>
+    <Make_Gun_Autopistol.label>자동권총 제작</Make_Gun_Autopistol.label>
     <Make_Gun_PumpShotgun.label>산탄총 제작</Make_Gun_PumpShotgun.label>
     <Make_Gun_ChainShotgun.label>전투 산탄총 제작</Make_Gun_ChainShotgun.label>
     <Make_Gun_BoltActionRifle.label>장총 제작</Make_Gun_BoltActionRifle.label>
@@ -77,20 +151,6 @@
     <Make_Gun_Minigun.label>미니건 제작</Make_Gun_Minigun.label>
 
     <!-- ========== jobStrings =========== -->
-
-    <Make_SculptureSmall.jobString>소형 조각상 만드는 중.</Make_SculptureSmall.jobString>
-    <Make_SculptureLarge.jobString>대형 조각상 만드는 중.</Make_SculptureLarge.jobString>
-    <Make_SculptureGrand.jobString>초대형 조각상 만드는 중.</Make_SculptureGrand.jobString>
-
-    <Make_Apparel_SmokepopBelt.jobString>연막벨트 만드는 중.</Make_Apparel_SmokepopBelt.jobString>
-    <Make_Apparel_ShieldBelt.jobString>방어 벨트 만드는 중.</Make_Apparel_ShieldBelt.jobString>
-
-    <Make_Apparel_CowboyHat.jobString>카우보이 모자 만드는 중.</Make_Apparel_CowboyHat.jobString>
-    <Make_Apparel_BowlerHat.jobString>중산모 만드는 중.</Make_Apparel_BowlerHat.jobString>
-    <Make_Apparel_Tuque.jobString>털모자 만드는 중.</Make_Apparel_Tuque.jobString>
-    <Make_Apparel_SimpleHelmet.jobString>방탄모 만들기</Make_Apparel_SimpleHelmet.jobString>
-    <Make_Apparel_AdvancedHelmet.jobString>강화 방탄모 만들기</Make_Apparel_AdvancedHelmet.jobString>
-    <Make_Apparel_PowerArmorHelmet.jobString>강화갑옷 방탄모 만드는 중.</Make_Apparel_PowerArmorHelmet.jobString>
 
     <Make_Apparel_Pants.jobString>바지 만드는 중.</Make_Apparel_Pants.jobString>
     <Make_Apparel_BasicShirt.jobString>티셔츠 만드는 중.</Make_Apparel_BasicShirt.jobString>
@@ -114,7 +174,8 @@
     <Make_Bow_Great.jobString>장궁 만드는 중.</Make_Bow_Great.jobString>
     <Make_Pila.jobString>투창 다발 만드는 중.</Make_Pila.jobString>
 
-    <Make_Gun_Pistol.jobString>권총 만드는 중.</Make_Gun_Pistol.jobString>
+    <Make_Gun_Revolver.jobString>리볼버 만드는 중.</Make_Gun_Revolver.jobString>
+    <Make_Gun_Autopistol.jobString>자동권총 만드는 중.</Make_Gun_Autopistol.jobString>
     <Make_Gun_PumpShotgun.jobString>산탄총 만드는 중.</Make_Gun_PumpShotgun.jobString>
     <Make_Gun_ChainShotgun.jobString>전투 산탄총 만드는 중.</Make_Gun_ChainShotgun.jobString>
     <Make_Gun_BoltActionRifle.jobString>장총 만드는 중.</Make_Gun_BoltActionRifle.jobString>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!--========= General ============-->
+    <!-- General -->
 
     <Goto.reportString>이동 중.</Goto.reportString>
     <GotoSafeTemperature.reportString>안전한 온도를 찾는 중.</GotoSafeTemperature.reportString>
@@ -34,6 +34,7 @@
     <EnterCryptosleepCasket.reportString>동면장치로 이동 중.</EnterCryptosleepCasket.reportString>
     <UseNeurotrainer.reportString>신경교육장치 사용 중.</UseNeurotrainer.reportString>
     <UseArtifact.reportString>유물 활성화 중.</UseArtifact.reportString>
+    <UseItem.reportString>TargetA 사용 중.</UseItem.reportString>
     <TriggerFirefoamPopper.reportString>화재진압 거품 터트리는 중.</TriggerFirefoamPopper.reportString>
     <ClearSnow.reportString>눈 치우는 중.</ClearSnow.reportString>
     <Vomit.reportString>토하는 중.</Vomit.reportString>
@@ -42,19 +43,23 @@
     <Flee.reportString>도망치는 중.</Flee.reportString>
     <FleeAndCower.reportString>도망치는 중.</FleeAndCower.reportString>
     <EnterTransporter.reportString>TargetA에 들어가는 중.</EnterTransporter.reportString>
+    <Resurrect.reportString>!!resurrecting TargetA.</Resurrect.reportString>
+    <Insult.reportString>TargetA 모욕 중.</Insult.reportString>
+    <HaulCorpseToPublicPlace.reportString>TargetA 옮기는 중.</HaulCorpseToPublicPlace.reportString>
+    <InducePrisonerToEscape.reportString>TargetA의 탈옥을 부추기는 중.</InducePrisonerToEscape.reportString>
 
-    <!--============ Fire ============-->
+    <!-- Fire -->
 
     <Ignite.reportString>TargetA에 방화 중.</Ignite.reportString>
     <BeatFire.reportString>화재 진압 중.</BeatFire.reportString>
     <ExtinguishSelf.reportString>자신에게 붙은 불을 끄는 중.</ExtinguishSelf.reportString>
 
-    <!--============ Need satisfaction ============-->
+    <!-- Need satisfaction -->
 
     <Ingest.reportString>TargetA 섭취 중.</Ingest.reportString>
     <LayDown.reportString>내려놓는 중.</LayDown.reportString>
 
-    <!--============ Love ============-->
+    <!-- Love -->
 
     <Lovin.reportString>사랑하는 중.</Lovin.reportString>
 
