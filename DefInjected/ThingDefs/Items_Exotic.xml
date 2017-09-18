@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!--=============== AI persona core ====================-->
+    <!-- AI persona core -->
+
     <AIPersonaCore.label>인공자아 핵</AIPersonaCore.label>
     <AIPersonaCore.description>초인간적인 인공지능을 탑재한 고도로 발달된 컴퓨터 핵입니다. 분리된 현재는 작동하고 있지 않지만, 적절한 보조 장치만 갖춰진다면 무서운 지능을 가진 두뇌가 될 것입니다.</AIPersonaCore.description>
 
-    <!--=============== Neurotrainer ====================-->
+    <!-- Mechanite superdose -->
 
-    <Neurotrainer.label>신경교육장치</Neurotrainer.label>
-    <Neurotrainer.description>1회용 나노기술 교육장치입니다. 안와를 통해 삽입된 후 사용자의 뇌에 나노로봇들을 풀어 특정 분야의 기술을 빠르게 증강시킵니다.</Neurotrainer.description>
-    <Neurotrainer.comps.1.useLabel>{0} 학습</Neurotrainer.comps.1.useLabel>
+    <MechaniteSuperdoseNeurotrainer.label>!!neurotrainer mechanite superdose</MechaniteSuperdoseNeurotrainer.label>
+    <MechaniteSuperdoseNeurotrainer.description>A one-use super-dose of mechanites tuned to train a specific skill. The dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improving the subject's skills in a specific area, transmuting themselves into neural tissue as needed.</MechaniteSuperdoseNeurotrainer.description>
+    <MechaniteSuperdoseNeurotrainer.comps.1.useLabel>Use neurotrainer superdose to learn {0}</MechaniteSuperdoseNeurotrainer.comps.1.useLabel>
 
-    <!--=============== Thrumbo horn ====================-->
+    <MechaniteSuperdoseHealer.label>healer mechanite superdose</MechaniteSuperdoseHealer.label>
+    <MechaniteSuperdoseHealer.description>A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed.</MechaniteSuperdoseHealer.description>
+    <MechaniteSuperdoseHealer.comps.1.useLabel>Use healer mechanite superdose</MechaniteSuperdoseHealer.comps.1.useLabel>
+
+    <MechaniteSuperdoseResurrector.label>resurrector mechanite superdose</MechaniteSuperdoseResurrector.label>
+    <MechaniteSuperdoseResurrector.description>A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse soon after death, mechanites repair broken-down tissues and kickstart the body back to life. They are not always successful - sometimes, the resurrected will come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered sooner.</MechaniteSuperdoseResurrector.description>
+    <MechaniteSuperdoseResurrector.comps.1.useLabel>Use resurrector mechanite superdose</MechaniteSuperdoseResurrector.comps.1.useLabel>
+
+    <!-- Technology helper persona -->
+
+    <TechprofSubpersonaCore.label>techprof subpersona core</TechprofSubpersonaCore.label>
+    <TechprofSubpersonaCore.description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you one technology you don't know, instantly and for free. Can only be used once.</TechprofSubpersonaCore.description>
+    <TechprofSubpersonaCore.comps.1.useLabel>Use techprof subpersona core</TechprofSubpersonaCore.comps.1.useLabel>
+
+    <!-- Thrumbo horn -->
 
     <ThrumboHorn.label>트럼보 뿔</ThrumboHorn.label>
     <ThrumboHorn.description>트럼보의 뿔입니다. 매우 날카롭고 단단하며 부르는게 값입니다. 진정한 의미의 전리품입니다.</ThrumboHorn.description>
 
-    <!--=============== Elephant tusk ====================-->
+    <!-- Elephant tusk -->
 
     <ElephantTusk.label>상아</ElephantTusk.label>
     <ElephantTusk.description>코끼리의 엄니입니다. 매우 튼튼하고 비쌉니다. 치명적이지만 무기로 사용하기엔 약간 거추장스럽습니다.</ElephantTusk.description>

@@ -28,12 +28,26 @@
     <RoyalBed_Frame.label>고급 침대 (건설 중)</RoyalBed_Frame.label>
     <RoyalBed_Frame.description>금으로 장식까지 한, 높으신 분들을 위한 호화로운 침대입니다. 매우 편하고 두 명까지 누울 수 있습니다.</RoyalBed_Frame.description>
 
-    <HospitalBed.label>병원 침대</HospitalBed.label>
+    <HospitalBed.label>회복 침대</HospitalBed.label>
     <HospitalBed.description>부상자들을 위한 특별한 침대입니다. 치료와 수술의 질을 높입니다.</HospitalBed.description>
-    <HospitalBed_Blueprint.label>병원 침대 (청사진)</HospitalBed_Blueprint.label>
-    <HospitalBed_Blueprint_Install.label>병원 침대 (청사진)</HospitalBed_Blueprint_Install.label>
-    <HospitalBed_Frame.label>병원 침대 (건설 중)</HospitalBed_Frame.label>
+    <HospitalBed_Blueprint.label>회복 침대 (청사진)</HospitalBed_Blueprint.label>
+    <HospitalBed_Blueprint_Install.label>회복 침대 (청사진)</HospitalBed_Blueprint_Install.label>
+    <HospitalBed_Frame.label>회복 침대 (건설 중)</HospitalBed_Frame.label>
     <HospitalBed_Frame.description>부상자들을 위한 특별한 침대입니다. 치료와 수술의 질을 높입니다.</HospitalBed_Frame.description>
+
+    <Bedroll.label>!!bedroll</Bedroll.label>
+    <Bedroll.description>A cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</Bedroll.description>
+    <Bedroll_Blueprint.label>bedroll (blueprint)</Bedroll_Blueprint.label>
+    <Bedroll_Blueprint_Install.label>bedroll (blueprint)</Bedroll_Blueprint_Install.label>
+    <Bedroll_Frame.label>bedroll (building)</Bedroll_Frame.label>
+    <Bedroll_Frame.description>A cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</Bedroll_Frame.description>
+
+    <BedrollDouble.label>double bedroll</BedrollDouble.label>
+    <BedrollDouble.description>A double-wide cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</BedrollDouble.description>
+    <BedrollDouble_Blueprint.label>double bedroll (blueprint)</BedrollDouble_Blueprint.label>
+    <BedrollDouble_Blueprint_Install.label>double bedroll (blueprint)</BedrollDouble_Blueprint_Install.label>
+    <BedrollDouble_Frame.label>double bedroll (building)</BedrollDouble_Frame.label>
+    <BedrollDouble_Frame.description>A double-wide cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</BedrollDouble_Frame.description>
 
     <AnimalSleepingSpot.label>동물 잠자리</AnimalSleepingSpot.label>
     <AnimalSleepingSpot.description>동물이 잠을 청할 위치를 지정합니다.</AnimalSleepingSpot.description>
@@ -75,19 +89,40 @@
     <Armchair_Frame.label>팔걸이 의자 (건설 중)</Armchair_Frame.label>
     <Armchair_Frame.description>커다랗고 부드럽고 편안한 의자입니다. 휴식하기에 좋습니다.</Armchair_Frame.description>
 
-    <TableShort.label>짧은 식탁</TableShort.label>
-    <TableShort.description>의자가 있으면 여기서 밥을 먹습니다.</TableShort.description>
-    <TableShort_Blueprint.label>짧은 식탁 (청사진)</TableShort_Blueprint.label>
-    <TableShort_Blueprint_Install.label>짧은 식탁 (청사진)</TableShort_Blueprint_Install.label>
-    <TableShort_Frame.label>짧은 식탁 (건설 중)</TableShort_Frame.label>
-    <TableShort_Frame.description>의자가 있으면 여기서 밥을 먹습니다.</TableShort_Frame.description>
+    <EndTable.label>협탁</EndTable.label>
+    <EndTable.description>다른 가구 옆에 배치하는 작은 탁자입니다. 근처 침대의 머리맡에 배치하면 약간 더 편하게 만듭니다.</EndTable.description>
+    <EndTable_Blueprint.label>협탁 (청사진)</EndTable_Blueprint.label>
+    <EndTable_Blueprint_Install.label>협탁 (청사진)</EndTable_Blueprint_Install.label>
+    <EndTable_Frame.label>협탁 (건설 중)</EndTable_Frame.label>
+    <EndTable_Frame.description>다른 가구 옆에 배치하는 작은 탁자입니다. 근처 침대의 머리맡에 배치하면 약간 더 편하게 만듭니다.</EndTable_Frame.description>
 
-    <TableLong.label>긴 식탁</TableLong.label>
-    <TableLong.description>의자가 있으면 여기서 밥을 먹습니다.</TableLong.description>
-    <TableLong_Blueprint.label>긴 식탁 (청사진)</TableLong_Blueprint.label>
-    <TableLong_Blueprint_Install.label>긴 식탁 (청사진)</TableLong_Blueprint_Install.label>
-    <TableLong_Frame.label>긴 식탁 (건설 중)</TableLong_Frame.label>
-    <TableLong_Frame.description>의자가 있으면 여기서 밥을 먹습니다.</TableLong_Frame.description>
+    <Table1x2c.label>식탁 (1x2)</Table1x2c.label>
+    <Table1x2c.description>의자가 있으면 여기서 밥을 먹습니다.</Table1x2c.description>
+    <Table1x2c_Blueprint.label>식탁 (1x2) (청사진)</Table1x2c_Blueprint.label>
+    <Table1x2c_Blueprint_Install.label>식탁 (1x2) (청사진)</Table1x2c_Blueprint_Install.label>
+    <Table1x2c_Frame.label>식탁 (1x2) (건설 중)</Table1x2c_Frame.label>
+    <Table1x2c_Frame.description>의자가 있으면 여기서 밥을 먹습니다.</Table1x2c_Frame.description>
+
+    <Table2x2c.label>식탁 (2x2)</Table2x2c.label>
+    <Table2x2c.description>의자가 있으면 여기서 밥을 먹습니다.</Table2x2c.description>
+    <Table2x2c_Blueprint.label>식탁 (2x2) (청사진)</Table2x2c_Blueprint.label>
+    <Table2x2c_Blueprint_Install.label>식탁 (2x2) (청사진)</Table2x2c_Blueprint_Install.label>
+    <Table2x2c_Frame.label>식탁 (2x2) (건설 중)</Table2x2c_Frame.label>
+    <Table2x2c_Frame.description>의자가 있으면 여기서 밥을 먹습니다.</Table2x2c_Frame.description>
+
+    <Table2x4c.label>식탁 (2x4)</Table2x4c.label>
+    <Table2x4c.description>의자가 있으면 여기서 밥을 먹습니다.</Table2x4c.description>
+    <Table2x4c_Blueprint.label>식탁 (2x4) (청사진)</Table2x4c_Blueprint.label>
+    <Table2x4c_Blueprint_Install.label>식탁 (2x4) (청사진)</Table2x4c_Blueprint_Install.label>
+    <Table2x4c_Frame.label>식탁 (2x4) (건설 중)</Table2x4c_Frame.label>
+    <Table2x4c_Frame.description>의자가 있으면 여기서 밥을 먹습니다.</Table2x4c_Frame.description>
+
+    <Table3x3c.label>식탁 (3x3)</Table3x3c.label>
+    <Table3x3c.description>의자가 있으면 여기서 밥을 먹습니다.</Table3x3c.description>
+    <Table3x3c_Blueprint.label>식탁 (3x3) (청사진)</Table3x3c_Blueprint.label>
+    <Table3x3c_Blueprint_Install.label>식탁 (3x3) (청사진)</Table3x3c_Blueprint_Install.label>
+    <Table3x3c_Frame.label>식탁 (3x3) (건설 중)</Table3x3c_Frame.label>
+    <Table3x3c_Frame.description>의자가 있으면 여기서 밥을 먹습니다.</Table3x3c_Frame.description>
 
     <PlantPot.label>화분</PlantPot.label>
     <PlantPot.description>꽃으로 주변 사람들의 기분을 좋게 만듭니다.</PlantPot.description>
@@ -97,17 +132,17 @@
     <PlantPot_Frame.description>꽃으로 주변 사람들의 기분을 좋게 만듭니다.</PlantPot_Frame.description>
 
     <TorchLamp.label>횃불</TorchLamp.label>
-    <TorchLamp.description>주변을 밝게 비추는 나무 횃불입니다. 나무를 자동으로 다시 넣을 수 있습니다. 약한 열을 발산합니다.</TorchLamp.description>
+    <TorchLamp.description>주변을 밝게 비추는 나무 횃불입니다. 최대 속도로 이동하고 작업하려면 불빛이 필요합니다. 나무를 자동으로 다시 넣을 수 있습니다. 약한 열을 발산합니다.</TorchLamp.description>
     <TorchLamp_Blueprint.label>횃불 (청사진)</TorchLamp_Blueprint.label>
     <TorchLamp_Frame.label>횃불 (건설 중)</TorchLamp_Frame.label>
-    <TorchLamp_Frame.description>주변을 밝게 비추는 나무 횃불입니다. 나무를 자동으로 다시 넣을 수 있습니다. 약한 열을 발산합니다.</TorchLamp_Frame.description>
+    <TorchLamp_Frame.description>주변을 밝게 비추는 나무 횃불입니다. 최대 속도로 이동하고 작업하려면 불빛이 필요합니다. 나무를 자동으로 다시 넣을 수 있습니다. 약한 열을 발산합니다.</TorchLamp_Frame.description>
 
     <StandingLamp.label>스탠드 조명</StandingLamp.label>
-    <StandingLamp.description>주변을 밝게 비추는 일반적인 전등입니다.</StandingLamp.description>
+    <StandingLamp.description>주변을 밝게 비추는 일반적인 전등입니다. 최대 속도로 이동하고 작업하려면 불빛이 필요합니다.</StandingLamp.description>
     <StandingLamp_Blueprint.label>스탠드 조명 (청사진)</StandingLamp_Blueprint.label>
     <StandingLamp_Blueprint_Install.label>스탠드 조명 (청사진)</StandingLamp_Blueprint_Install.label>
     <StandingLamp_Frame.label>스탠드 조명 (건설 중)</StandingLamp_Frame.label>
-    <StandingLamp_Frame.description>주변을 밝게 비추는 일반적인 전등입니다.</StandingLamp_Frame.description>
+    <StandingLamp_Frame.description>주변을 밝게 비추는 일반적인 전등입니다. 최대 속도로 이동하고 작업하려면 불빛이 필요합니다.</StandingLamp_Frame.description>
 
     <StandingLamp_Red.label>빨간 스탠드 조명</StandingLamp_Red.label>
     <StandingLamp_Red.description>주변을 밝게 비추는 빨간색 전등입니다.</StandingLamp_Red.description>
@@ -144,5 +179,12 @@
     <Shelf_Blueprint_Install.label>선반 (청사진)</Shelf_Blueprint_Install.label>
     <Shelf_Frame.label>선반 (건설 중)</Shelf_Frame.label>
     <Shelf_Frame.description>야외에서도 보관된 물건의 손상을 방지합니다.</Shelf_Frame.description>
+
+    <Dresser.label>옷장</Dresser.label>
+    <Dresser.description>주위 모든 침대를 약간 더 편하게 만듭니다. 하나의 침대 주위에 두 개 이상 배치해도 중복되지 않습니다.</Dresser.description>
+    <Dresser_Blueprint.label>옷장 (청사진)</Dresser_Blueprint.label>
+    <Dresser_Blueprint_Install.label>옷장 (청사진)</Dresser_Blueprint_Install.label>
+    <Dresser_Frame.label>옷장 (건설 중)</Dresser_Frame.label>
+    <Dresser_Frame.description>주위 모든 침대를 약간 더 편하게 만듭니다. 하나의 침대 주위에 두 개 이상 배치해도 중복되지 않습니다.</Dresser_Frame.description>
 
 </LanguageData>
