@@ -85,16 +85,26 @@
     <DefeatedMajorEnemy.stages.0.label>{0} 물리침</DefeatedMajorEnemy.stages.0.label>
     <DefeatedMajorEnemy.stages.0.description>커다란 위협을 막아냈어! 내가 나한테 반하겠어!</DefeatedMajorEnemy.stages.0.description>
 
-    <ColonistAbandoned.stages.0.label>버려진 정착민</ColonistAbandoned.stages.0.label>
-    <ColonistAbandoned.stages.0.description>동료를 남겨두고 떠났어. 무사히 따라잡길 바라지만 너무 걱정돼.</ColonistAbandoned.stages.0.description>
+    <!-- Banishing pawns -->
 
-    <ColonistAbandonedToDie.stages.0.label>죽도록 버려진 정착민</ColonistAbandonedToDie.stages.0.label>
-    <ColonistAbandonedToDie.stages.0.description>동료를 남겨두고 떠났어. 살아남지 못할거야.</ColonistAbandonedToDie.stages.0.description>
+    <ColonistBanished.stages.0.label>버려진 정착민</ColonistBanished.stages.0.label>
+    <ColonistBanished.stages.0.description>동료를 남겨두고 떠났어. 무사히 따라잡으면 좋겠어. 너무 걱정돼.</ColonistBanished.stages.0.description>
 
-    <PrisonerAbandonedToDie.stages.0.label>죽도록 버려진 죄수</PrisonerAbandonedToDie.stages.0.label>
-    <PrisonerAbandonedToDie.stages.0.description>죄수를 버려두고 떠났어. 살아남지 못할거야.</PrisonerAbandonedToDie.stages.0.description>
+    <ColonistBanishedToDie.stages.0.label>죽도록 버려진 정착민</ColonistBanishedToDie.stages.0.label>
+    <ColonistBanishedToDie.stages.0.description>동료를 남겨두고 떠났어. 살아남지 못할거야.</ColonistBanishedToDie.stages.0.description>
 
-    <BondedAnimalAbandoned.stages.0.label>각별한 동물 {0} 버려짐</BondedAnimalAbandoned.stages.0.label>
-    <BondedAnimalAbandoned.stages.0.description>나랑 친한 동물이 땅 한복판에 버려졌어!</BondedAnimalAbandoned.stages.0.description>
+    <PrisonerBanishedToDie.stages.0.label>죽도록 버려진 죄수</PrisonerBanishedToDie.stages.0.label>
+    <PrisonerBanishedToDie.stages.0.description>죄수를 버려두고 떠났어. 살아남지 못할거야.</PrisonerBanishedToDie.stages.0.description>
+
+    <BondedAnimalBanished.stages.0.label>각별한 동물 {0} 버려짐</BondedAnimalBanished.stages.0.label>
+    <BondedAnimalBanished.stages.0.description>나랑 친한 동물이 땅 한복판에 버려졌어!</BondedAnimalBanished.stages.0.description>
+
+    <!-- Rescue quest -->
+
+    <FailedToRescueRelative.stages.0.label>{0} 구출에 실패</FailedToRescueRelative.stages.0.label>
+    <FailedToRescueRelative.stages.0.description>내 혈육을 구출하지 못했어. 도움을 줄 수도 있었다는걸 아니까 받아들이기 너무 힘들어.</FailedToRescueRelative.stages.0.description>
+
+    <RescuedRelative.stages.0.label>{0} 구출</RescuedRelative.stages.0.label>
+    <RescuedRelative.stages.0.description>내 혈육을 구출했어. 이제 안전하니까, 한 숨 놓을 수 있겠어.</RescuedRelative.stages.0.description>
 
 </LanguageData>

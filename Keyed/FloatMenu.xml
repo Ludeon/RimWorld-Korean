@@ -38,7 +38,8 @@
     <AnimalInteractedTooRecently>최근에 상호작용함</AnimalInteractedTooRecently>
     <NoUsableFood>사용 가능한 식량 없음</NoUsableFood>
     <NoFood>식량 없음</NoFood>
-    <AnimalsSkillTooLow>조련기술 낮음</AnimalsSkillTooLow>
+    <AnimalsSkillTooLow>조련기술 부족</AnimalsSkillTooLow>
+    <ConstructionSkillTooLow>건설기술 부족</ConstructionSkillTooLow>
     <NoComponentsToRepair>부품 필요</NoComponentsToRepair>
     <NoFuelToRefuel>{0} 필요</NoFuelToRefuel>
     <NoWort>맥아즙 필요</NoWort>
@@ -46,6 +47,10 @@
     <NoFoodToFillHopper>적절한 음식 없음</NoFoodToFillHopper>
     <SelfTendDisabled>자가치료 금지됨</SelfTendDisabled>
     <ReservedForPrisoners>수감자 전용</ReservedForPrisoners>
+    <CannotReach>갈 수 없음</CannotReach>
+    <NotSurgeryReady>수술 준비 안됨</NotSurgeryReady>
+    <CantSowCavePlantBecauseOfLight>너무 밝음</CantSowCavePlantBecauseOfLight>
+    <CantSowCavePlantBecauseUnroofed>지붕 없음</CantSowCavePlantBecauseUnroofed>
 
     <ConsumeThing>{0} 섭취</ConsumeThing>
 
@@ -120,7 +125,9 @@
 
     <EnterMap>{0} 진입</EnterMap>
     <VisitSettlement>{0} 방문</VisitSettlement>
+    <VisitPeaceTalks>{0} 방문</VisitPeaceTalks>
     <VisitSite>{0} 방문</VisitSite>
+    <VisitEscapeShip>{0} 방문</VisitEscapeShip>
     <AttackSite>{0} 공격</AttackSite>
     <AttackSettlement>{0} 공격</AttackSettlement>
 

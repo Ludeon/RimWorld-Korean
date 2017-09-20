@@ -42,15 +42,14 @@
     <DesignatorAreaHomeClear>주거구역 지우기</DesignatorAreaHomeClear>
     <DesignatorAreaHomeClearDesc>주거구역을 지웁니다. 정착민들이 해당 위치에서 스스로 수리, 청소, 진화작업을 하지 않습니다.</DesignatorAreaHomeClearDesc>
 
-    <DesignatorAreaBuildRoofExpand>지붕 건설 구역 설정</DesignatorAreaBuildRoofExpand>
+    <DesignatorAreaBuildRoofExpand>지붕 건설 설정</DesignatorAreaBuildRoofExpand>
     <DesignatorAreaBuildRoofExpandDesc>정착민들이 지붕을 건설할 곳을 정합니다.</DesignatorAreaBuildRoofExpandDesc>
-    <DesignatorAreaBuildRoofClear>지붕 건설 구역 해제</DesignatorAreaBuildRoofClear>
-    <DesignatorAreaBuildRoofClearDesc>지붕 건설 구역을 지웁니다. 남아있는 지붕은 없어지지 않지만 정착민들이 해당 위치에 지붕을 더 이상 만들지 않습니다.</DesignatorAreaBuildRoofClearDesc>
 
-    <DesignatorAreaNoRoofExpand>지붕 제거 구역 설정</DesignatorAreaNoRoofExpand>
+    <DesignatorAreaNoRoofExpand>지붕 제거 설정</DesignatorAreaNoRoofExpand>
     <DesignatorAreaNoRoofExpandDesc>정착민들이 지붕을 제거할 곳을 정합니다. (산 제외)</DesignatorAreaNoRoofExpandDesc>
-    <DesignatorAreaNoRoofClear>지붕 제거 구역 해제</DesignatorAreaNoRoofClear>
-    <DesignatorAreaNoRoofClearDesc>지붕 제거 구역을 지웁니다. 정착민들이 해당 위치에서 지붕을 해체하지 않습니다.</DesignatorAreaNoRoofClearDesc>
+
+    <DesignatorAreaIgnoreRoofExpand>지붕 무시 구역 설정</DesignatorAreaIgnoreRoofExpand>
+    <DesignatorAreaIgnoreRoofExpandDesc>정착민들이 이 구역 내의 지붕은 무시합니다.</DesignatorAreaIgnoreRoofExpandDesc>
 
     <DesignatorAreaSnowClearExpand>제설구역 설정</DesignatorAreaSnowClearExpand>
     <DesignatorAreaSnowClearExpandDesc>정착민들이 눈을 치울 구역을 설정합니다.</DesignatorAreaSnowClearExpandDesc>
@@ -85,7 +84,7 @@
     <DesignatorRearmTrapDesc>작동했던 함정을 재장전해 다시 사용할 수 있도록 합니다.</DesignatorRearmTrapDesc>
 
     <DesignatorOpen>열기</DesignatorOpen>
-    <DesignatorOpenDesc>가득 찬 무덤이나 상자를 엽니다.</DesignatorOpenDesc>
+    <DesignatorOpenDesc>상자 등을 엽니다.</DesignatorOpenDesc>
 
     <DesignatorSlaughter>도축</DesignatorSlaughter>
     <DesignatorSlaughterDesc>길들인 동물을 도축합니다.</DesignatorSlaughterDesc>
@@ -116,6 +115,7 @@
     <CreateNewZone>새로운 {0} 생성</CreateNewZone>
 
     <!-- Desc helpers -->
-    <TransmitsPower>송전 가능</TransmitsPower>
+    <TransmitsPower>송전</TransmitsPower>
+    <ConstructionNeeded>건설 필요</ConstructionNeeded>
 
 </LanguageData>
