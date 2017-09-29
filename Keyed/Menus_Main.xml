@@ -130,10 +130,12 @@
     <AvgSummerTemp>여름 평균기온</AvgSummerTemp>
     <AvgWinterTemp>겨울 평균기온</AvgWinterTemp>
     <Rainfall>강수량</Rainfall>
+    <SpecialFeatures>특이사</SpecialFeatures>
     <HasCoast0>북부 해안</HasCoast0>
     <HasCoast1>동부 해안</HasCoast1>
     <HasCoast2>남부 해안</HasCoast2>
     <HasCoast3>서부 해안</HasCoast3>
+    <HasCaves>동굴</HasCaves>
     <FactionBase>세력 기지</FactionBase>
     <StoneTypesHere>지질 유형</StoneTypesHere>
     <TimeZone>시간대</TimeZone>
@@ -141,6 +143,8 @@
     <MovementTimeSummer>여름 이동 소요시간</MovementTimeSummer>
     <MovementTimeWinter>겨울 이동 소요시간</MovementTimeWinter>
     <AnimalsCanGrazeNow>초식동물 방목 가능</AnimalsCanGrazeNow>
+    <AverageDiseaseFrequency>평균 질병 빈도</AverageDiseaseFrequency>
+    <PerYear>(매 년)</PerYear>
 
     <!--=========== Character chooser ==========-->
     <CreateCharacters>캐릭터 생성</CreateCharacters>
@@ -162,6 +166,9 @@
     <Pain>통증</Pain>
     <Health>건강</Health>
     <Relations>관계</Relations>
+    <TeamSkills>팀 기술</TeamSkills>
+    <StartingPawnsSelected>선택됨</StartingPawnsSelected>
+    <StartingPawnsLeftBehind>남겨짐</StartingPawnsLeftBehind>
 
     <!--=========== Misc ==========-->
     <Start>시작</Start>
