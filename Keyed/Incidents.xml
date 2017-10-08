@@ -32,11 +32,10 @@
     <CargoPodCrash>화물 낙하기 몇 대가 근처에 추락하는걸 감지했습니다.\n\n잔해에서 유용한 물건을 찾을 수 있을지도 모릅니다.</CargoPodCrash>
 
     <AnElectricalConduit>전선</AnElectricalConduit>
-
-    <ShortCircuit>{0}의 결함으로 누전이 발생했습니다. \n\n연결된 축전지들에 저장되어있던 총 {1}Wd 의 예비 전력이 모두 방전되었습니다.</ShortCircuit>
-
+  <ShortCircuit>{0}의 결함으로 누전이 발생했습니다.</ShortCircuit>
+    <ShortCircuitStartedFire>{0}의 결함으로 인한 누전이 화재를 유발했습니다.</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>연결된 모든 축전지의 에너지 {0}W가 방전되며 폭발이 발생했습니다.</ShortCircuitDischargedEnergy>
     <ShortCircuitWasLarge>저장되어 있던 전기로 인해 상당한 규모의 폭발이 발생했습니다.</ShortCircuitWasLarge>
-
     <ShortCircuitWasHuge>폭발이 정말 크고 아름답습니다.</ShortCircuitWasHuge>
 
     <TraderArrival>{1} {0}(이)가 궤도에 진입했습니다.</TraderArrival>
@@ -133,8 +132,9 @@
     <RansomDemand_Reject>거부</RansomDemand_Reject>
 
     <!-- Journey-related -->
+    <!-- !! -->
     <JourneyOffer>샬론 화이트스톤이라는 이름의 우호적인 인공지능이 메세지를 보내왔습니다!\n\n이 행성에 자신이 우주선을 한 대 숨겨놓았다고 밝히며 그 좌표를 같이 보내줬습니다.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars.</JourneyOffer>
-    <EscapeShipFoundLabel>!!Ship found</EscapeShipFoundLabel>
+    <EscapeShipFoundLabel>Ship found</EscapeShipFoundLabel>
     <EscapeShipFound>You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</EscapeShipFound>
     <EscapeShipLostLabel>Ship destroyed</EscapeShipLostLabel>
     <EscapeShipLost>Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet.</EscapeShipLost>

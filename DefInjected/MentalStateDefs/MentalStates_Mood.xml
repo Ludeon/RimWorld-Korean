@@ -23,7 +23,8 @@
     <BingingDrugExtreme.label>약물 갈망</BingingDrugExtreme.label>
     <BingingDrugExtreme.baseInspectLine>상태: {0} 갈망</BingingDrugExtreme.baseInspectLine>
 
-    <Jailbreaker.label>!!inducing prisoner to escape</Jailbreaker.label>
+<!-- !! -->
+    <Jailbreaker.label>inducing prisoner to escape</Jailbreaker.label>
     <Jailbreaker.beginLetter>{0} has a mental breakdown and is going to induce prisoners to escape.</Jailbreaker.beginLetter>
     <Jailbreaker.beginLetterLabel>jailbreaker</Jailbreaker.beginLetterLabel>
     <Jailbreaker.recoveryMessage>{0} is no longer inducing prisoners to escape.</Jailbreaker.recoveryMessage>
@@ -52,7 +53,8 @@
     <WanderPsychotic.recoveryMessage>{0}의 정신이 자리를 찾았습니다.</WanderPsychotic.recoveryMessage>
     <WanderPsychotic.baseInspectLine>상태: 방황 (미침)</WanderPsychotic.baseInspectLine>
 
-    <Tantrum.label>!!tantrum</Tantrum.label>
+<!-- !! -->
+    <Tantrum.label>tantrum</Tantrum.label>
     <Tantrum.beginLetter>{0} is having a tantrum.</Tantrum.beginLetter>
     <Tantrum.beginLetterLabel>tantrum</Tantrum.beginLetterLabel>
     <Tantrum.recoveryMessage>{0} is no longer having a tantrum.</Tantrum.recoveryMessage>
@@ -83,7 +85,7 @@
     <CorpseObsession.baseInspectLine>Mental state: Corpse obsession</CorpseObsession.baseInspectLine>
 
     <!-- Mental breaks: minor -->
-    
+
     <BingingFood.label>폭식</BingingFood.label>
     <BingingFood.beginLetterLabel>폭식</BingingFood.beginLetterLabel>
     <BingingFood.beginLetter>{0}(이)가 음식을 탐닉하고 있습니다.</BingingFood.beginLetter>

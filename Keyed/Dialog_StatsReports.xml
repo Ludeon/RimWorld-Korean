@@ -12,7 +12,8 @@
     <StatsReport_OtherStats>기타 능력치</StatsReport_OtherStats>
     <StatsReport_HealthFactors>건강</StatsReport_HealthFactors>
     <HealthFactorPercentImpact>비율 {0}</HealthFactorPercentImpact>
-    <HealthOffsetScale>!!{0} impact</HealthOffsetScale>
+    <!-- !! -->
+    <HealthOffsetScale>{0} impact</HealthOffsetScale>
     <HealthFactorMaxImpact>최대 {0}</HealthFactorMaxImpact>
     <StatsReport_PostProcessed>후처리 커브</StatsReport_PostProcessed>
     <StatsReport_FinalValue>최종값</StatsReport_FinalValue>

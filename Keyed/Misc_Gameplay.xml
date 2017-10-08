@@ -193,6 +193,7 @@
     <!-- Job reports -->
     <ReportHaulingTo>{0}(을)를 {1}(으)로 운반 중.</ReportHaulingTo>
     <ReportHauling>{0} 운반 중.</ReportHauling>
+    <ReportHaulingUnknown>운반 중.</ReportHaulingUnknown>
     <ReportSleeping>수면 중.</ReportSleeping>
     <ReportResting>쉬는 중.</ReportResting>
     <WatchingSunrise>일출 보는 중.</WatchingSunrise>
@@ -279,6 +280,7 @@
     <PowerOutput>전력 출력량</PowerOutput>
     <PowerBatteryStored>저장됨</PowerBatteryStored>
     <PowerBatteryEfficiency>전력 효율</PowerBatteryEfficiency>
+    <SelfDischarging>자가방전 중</SelfDischarging>
 
     <!-- Temperature control -->
     <TargetTemperature>대상 온도</TargetTemperature>
@@ -401,7 +403,8 @@
     <ShipReportNoFullPods>동면장치 비어있음</ShipReportNoFullPods>
     <ShipReportHibernating>휴면 중</ShipReportHibernating>
     <ShipReportNotReady>아직 준비되지 않음</ShipReportNotReady>
-    <HibernateWarning>!!Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</HibernateWarning>
+    <!-- !! -->
+    <HibernateWarning>Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</HibernateWarning>
     <HibernateCompleteLabel>반응로 준비 완료</HibernateCompleteLabel>
     <HibernateComplete>Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff.</HibernateComplete>
 

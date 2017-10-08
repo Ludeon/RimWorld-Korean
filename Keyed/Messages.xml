@@ -78,7 +78,8 @@
     <MessageMedicalOperationFailureMinor>{0}(이)가 {1}의 수술 중 약간 실수했습니다.</MessageMedicalOperationFailureMinor>
     <MessageMedicalOperationFailureCatastrophic>{0}(이)가 {1}의 수술을 처참하게 실패했습니다.</MessageMedicalOperationFailureCatastrophic>
     <MessageMedicalOperationFailureRidiculous>{0}(이)가 {1}의 수술을 어처구니가 없을 정도로 실패했습니다.</MessageMedicalOperationFailureRidiculous>
-    <MessageMedicalOperationFailureFatal>!!{0} has committed a fatal errol while operating on {1} because of the special challenges of: {2}</MessageMedicalOperationFailureFatal>
+    <!-- !! -->
+    <MessageMedicalOperationFailureFatal>{0} has committed a fatal errol while operating on {1} because of the special challenges of: {2}</MessageMedicalOperationFailureFatal>
 
     <MessageMedicalOperationWillAngerFaction>이 수술은 {0} 세력을 분노하게 할 것입니다.</MessageMedicalOperationWillAngerFaction>
 
@@ -133,8 +134,8 @@
     <MessageNoLongerSocialFighting>{0}(와)과 {1} 사이의 싸움이 끝났습니다.</MessageNoLongerSocialFighting>
 
     <MessageNoLongerBingingOnDrug>{0}의 {1} 갈망이 끝났습니다.</MessageNoLongerBingingOnDrug>
-
-    <MessageNoLongerOnTargetedInsultingSpree>!!{0} is no longer on an insulting spree against {1}.</MessageNoLongerOnTargetedInsultingSpree>
+<!-- !! -->
+    <MessageNoLongerOnTargetedInsultingSpree>{0} is no longer on an insulting spree against {1}.</MessageNoLongerOnTargetedInsultingSpree>
 
     <MessageRottedAwayInStorage>{0}(이)가 완전히 상해서 없어졌습니다.</MessageRottedAwayInStorage>
 
@@ -233,7 +234,7 @@
     <MessageSiteCountdownBecauseNoMoreEnemies>모든 적을 무찔렀습니다. {0} 이내로 상단이 재구성됩니다.</MessageSiteCountdownBecauseNoMoreEnemies>
     <MessageSiteCountdownBecauseNoEnemiesInitially>{0} 이내로 상단이 재구성됩니다. 세계지도에서 지금 바로 재구성할 수 있습니다.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
-    <MessageCantBanishDownedPawn>!!Cannot banish {0} since HE cannot walk.</MessageCantBanishDownedPawn>
+    <MessageCantBanishDownedPawn>{0}(을)를 추방할 수 없습니다. (이동 불가)</MessageCantBanishDownedPawn>
 
     <MessageSleepingPawnsWokenUp>{0}(이)가 깨어났습니다.</MessageSleepingPawnsWokenUp>
 

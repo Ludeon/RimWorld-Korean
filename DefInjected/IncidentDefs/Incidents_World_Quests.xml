@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <QuestBanditCamp.label>도적 캠프 정보</QuestBanditCamp.label>
-    <QuestBanditCamp.letterLabel>도적 캠프 정보</QuestBanditCamp.letterLabel>
+    <QuestBanditCamp.label>기회: 도적 캠프</QuestBanditCamp.label>
     <QuestBanditCamp.letterText>{2}의 {1}, {0}의 메세지를 수신했습니다.\n\n근처 캠프를 근거지로 삼은 도적들이 {2}의 상단을 습격한다고 하며, 우리가 도적단 캠프의 모든 포탑과 적을 파괴하길 원하고 있습니다.\n\n성공한다면 관계가 상승하고 다음 보상을 받을 수 있습니다.\n\n{3}</QuestBanditCamp.letterText>
+    <QuestBanditCamp.letterLabel>기회: 도적 캠프</QuestBanditCamp.letterLabel>
 
-    <QuestItemStash.label>물품 은닉처 정보</QuestItemStash.label>
-    <QuestItemStash.letterLabel>물품 은닉처 정보</QuestItemStash.letterLabel>
-    <QuestItemStash.letterText>{2}의 {1}, {0}(이)가 우리에게서 멀지 않은 곳에 귀중한 물건들이 숨겨져있다고 알려줬습니다. 물건 목록은 다음과 같습니다.\n\n{3}\n\n불행히도 우리가 {4}일 안에 가져오지 않으면 다른 자들이 먼저 챙겨갈 것입니다.\n\n조심하세요. 귀중품 주위에는 위험한 것들이 꼬이기 마련입니다. {5}</QuestItemStash.letterText>
+    <QuestItemStash.label>기회: 물품 은닉처</QuestItemStash.label>
+    <QuestItemStash.letterText>{2}의 {1}, {0}(이)가 우리에게서 멀지 않은 곳에 귀중한 물건들이 숨겨져있다고 알려줬습니다. 물건 목록은 다음과 같습니다.\n\n{3}\n\n{4}일 안에 가져오지 않으면 다른 자들이 먼저 챙겨갈 것입니다.\n\n조심하세요. 귀중품 주위에는 위험한 것들이 꼬이기 마련입니다. {5}</QuestItemStash.letterText>
+    <QuestItemStash.letterLabel>기회: 물품 은닉처</QuestItemStash.letterLabel>
 
-    <QuestDownedRefugee.label>!!incapacitated refugee opportunity</QuestDownedRefugee.label>
-    <QuestDownedRefugee.letterText>{0} contacts you on radio and requests help. HECAP is wounded and unable to move. Without your help, HE will die within {1} days.\n\nIt may be dangerous there, so beware.</QuestDownedRefugee.letterText>
-    <QuestDownedRefugee.letterLabel>Incapacitated refugee opportunity</QuestDownedRefugee.letterLabel>
+    <QuestDownedRefugee.label>기회: 쓰러진 피난민</QuestDownedRefugee.label>
+    <QuestDownedRefugee.letterText>{0}(이)가 라디오로 접촉해왔습니다. 자신이 부상당해 움직일 수 없다며 도움을 요청했습니다. {0}(은)는 도움이 없다면 {1}일 내로 사망합니다.\n\n조심하세요. 주변이 위험할 수 있습니다.</QuestDownedRefugee.letterText>
+    <QuestDownedRefugee.letterLabel>기회: 쓰러진 피난민</QuestDownedRefugee.letterLabel>
 
-    <QuestPrisonerWillingToJoin.label>prisoner rescue opportunity</QuestPrisonerWillingToJoin.label>
-    <QuestPrisonerWillingToJoin.letterText>A prisoner being held by {0} has managed to steal a radio and call you!\n\nNAME is being held at a camp nearby under armed guard. Rescue HIM, and HE will join your colony. HECAP is a {1}-year-old {2}.</QuestPrisonerWillingToJoin.letterText>
-    <QuestPrisonerWillingToJoin.letterLabel>Prisoner rescue opportunity</QuestPrisonerWillingToJoin.letterLabel>
+    <QuestPrisonerWillingToJoin.label>기회: 수감자 구출</QuestPrisonerWillingToJoin.label>
+    <QuestPrisonerWillingToJoin.letterText>{0}의 수감자 한 명이 라디오 단말기를 훔쳐 접촉해왔습니다!\n\nNAME(은)는 주변에서 무장경비의 감시를 받고 있다고 합니다. 구출하면 우리 정착지에 합류할 것입니다. NAME(은)는 {1}살 {2}입니다.</QuestPrisonerWillingToJoin.letterText>
+    <QuestPrisonerWillingToJoin.letterLabel>기회: 수감자 구출</QuestPrisonerWillingToJoin.letterLabel>
 
-    <QuestPeaceTalks.label>peace talks opportunity</QuestPeaceTalks.label>
-    <QuestPeaceTalks.letterText>NAME, {0} of {1}, has sent us a message. HECAP wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction, but beware - a poor negotiator can cause more harm than good and even anger them.\n\nThe offer will expire after {2} days.</QuestPeaceTalks.letterText>
+    <QuestPeaceTalks.label>기회: 평화협상</QuestPeaceTalks.label>
+    <QuestPeaceTalks.letterText>{1}의 {0}, NAME(이)가 메세지를 보냈습니다. 가까운 지역에서 대화하고 싶다고 합니다.\n\n이 세력과 관계를 크게 향상시킬 좋은 기회입니다. 그러나 형편없는 협상가는 상황을 악화시킬 뿐입니다.\n\n제안은 {2}일 후에 만료됩니다.</QuestPeaceTalks.letterText>
     <QuestPeaceTalks.letterLabel>Peace talks opportunity</QuestPeaceTalks.letterLabel>
 
 </LanguageData>

@@ -42,7 +42,8 @@
     <NewDisease>{0}(이)가 {1}(으)로 인해 아픕니다. {2}(이)가 최대한 많은 시간을 침대에서 보내며 적절한 치료를 받을 수 있는지 확인하세요.</NewDisease>
     <NewPartDisease>{0}의 {1}(이)가 {3}에 의해 감염되었습니다. {2}(이)가 최대한 많은 시간을 침대에서 보내며 적절한 치료를 받을 수 있는지 확인하세요.</NewPartDisease>
 
-    <PawnWasFormerlyColonist>!!{0} was formerly part of your faction.</PawnWasFormerlyColonist>
+    <PawnWasFormerlyColonist>{0}(은)는 이전에 당신 세력의 일원이었습니다.</PawnWasFormerlyColonist>
+    <!-- !! -->
     <PawnHasTheseRelationshipsWithColonists>{0} has these relationships with your colonists:</PawnHasTheseRelationshipsWithColonists>
     <PrisonerRescueTimeout>The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again.</PrisonerRescueTimeout>
 
@@ -163,7 +164,8 @@
     <LetterFoundPreciousLump>원거리 광물 스캐너가 근방에서 귀금속을 발견했습니다.\n\n누군가 지키고 있을지는 알 수 없습니다.</LetterFoundPreciousLump>
 
     <!-- Sleeping mechanoids -->
-    <LetterLabelSleepingMechanoids>!!Sleeping mechanoids</LetterLabelSleepingMechanoids>
+    <!-- !! -->
+    <LetterLabelSleepingMechanoids>Sleeping mechanoids</LetterLabelSleepingMechanoids>
     <LetterSleepingMechanoids>There are a few sleeping hostile mechanoids in this area.\n\nThe mechanoids may or may not wake up when you approach them, so beware.</LetterSleepingMechanoids>
 
     <!-- Ambush -->
