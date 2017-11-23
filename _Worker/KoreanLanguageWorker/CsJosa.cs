@@ -35,7 +35,7 @@ namespace LT
                 {"(아)야", new JosaPair("아", "야")},
                 {"(이)여", new JosaPair("이여", "여")},
                 {"(으)로", new JosaPair("으로", "로")},
-                {"(이)라", new JosaPair("이라", "라")},
+                {"(이)라", new JosaPair("이라", "라")}
             };
             alphabetEndPattern = new List<char> { 'b', 'c', 'k', 'l', 'm', 'n', 'p', 'q', 't' };
         }
@@ -76,24 +76,18 @@ namespace LT
 
         private static bool HasJong(char inChar)
         {
-            if (IsKorean(inChar)) // 가 ~ 힣
-            {
-                var localCode = inChar - 0xAC00; // 가~ 이후 로컬 코드 
-                var jongCode = localCode % 28;
-                return jongCode > 0;
-            }
-            return alphabetEndPattern.Contains(inChar);
+            if (! IsKorean(inChar)) return alphabetEndPattern.Contains(inChar);
+            var localCode = inChar - 0xAC00; // 가~ 이후 로컬 코드 
+            var jongCode = localCode % 28;
+            return jongCode > 0;
         }
 
         private static bool HasJongExceptRieul(char inChar)
         {
-            if (IsKorean(inChar))
-            {
-                var localCode = inChar - 0xAC00;
-                var jongCode = localCode % 28;
-                return jongCode != 8 && jongCode != 0;
-            }
-            return false;
+            if (! IsKorean(inChar)) return false;
+            var localCode = inChar - 0xAC00;
+            var jongCode = localCode % 28;
+            return jongCode != 8 && jongCode != 0;
         }
 
         private static bool IsKorean(char inChar)
