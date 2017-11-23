@@ -80,10 +80,13 @@
 
     <!-- Artillery -->
     <CommandSetForceAttackTarget>강제 사격 지점 설정</CommandSetForceAttackTarget>
-    <CommandSetForceAttackTargetDesc>사격 지점을 강제로 설정하여 터렛이 계속 공격할 수 있도록 합니다.</CommandSetForceAttackTargetDesc>
+    <CommandSetForceAttackTargetDesc>사격 지점을 수동으로 설정하여 터렛이 계속 공격하도록 합니다.</CommandSetForceAttackTargetDesc>
     <CommandStopForceAttack>강제 사격 중지</CommandStopForceAttack>
-    <CommandStopForceAttackDesc>강제 사격을 중지하여 터렛이 자율적으로 공격할 수 있도록 합니다.</CommandStopForceAttackDesc>
+    <CommandStopForceAttackDesc>강제 사격을 중지하여 포탑이 자율적으로 공격할 수 있도록 합니다.</CommandStopForceAttackDesc>
     <CommandStopAttackFailNotForceAttacking>강제 사격 상태가 아닙니다.</CommandStopAttackFailNotForceAttacking>
+    <CommandExtractShell>포탄 꺼내기</CommandExtractShell>
+    <CommandExtractShellDesc>현재 장전된 포탄을 꺼냅니다.</CommandExtractShellDesc>
+    <CommandExtractShellFailNoShell>장전된 포탄이 없습니다.</CommandExtractShellFailNoShell>
     <MessageTargetBeyondMaximumRange>대상이 너무 멀리 있습니다.</MessageTargetBeyondMaximumRange>
     <MessageTargetBelowMinimumRange>대상이 너무 가까이 있습니다.</MessageTargetBelowMinimumRange>
     <MessageTurretWontFireBecauseHoldFire>경고: 사격 중지 상태입니다.</MessageTurretWontFireBecauseHoldFire>
