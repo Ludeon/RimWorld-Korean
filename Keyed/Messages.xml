@@ -112,7 +112,7 @@
     <MessageMarriageCeremonyAfterPartyFinished>{0}(와)과 {1}의 결혼식이 끝났습니다.</MessageMarriageCeremonyAfterPartyFinished>
 
     <MessageNewBondRelation>{0}(와)과 {1}(은)는 이제 각별한 사이입니다.</MessageNewBondRelation>
-    <MessageNewBondRelationNewName>{0}(와) {1}(은)는 이제 각별한 사이입니다. HIS 이름은 이제 {2}입니다.</MessageNewBondRelationNewName>
+    <MessageNewBondRelationNewName>{0}(와) {1}(은)는 이제 각별한 사이입니다. [PAWN_possessive] 이름은 이제 {2}입니다.</MessageNewBondRelationNewName>
 
     <MessageBondedAnimalMentalBreak>{1}의 죽음으로 인해 {0}의 마음이 무너져 내렸습니다.</MessageBondedAnimalMentalBreak>
     <MessageNamedBondedAnimalMentalBreak>{2}의 죽음으로 인해 {1}({0})의 마음이 무너져 내렸습니다.</MessageNamedBondedAnimalMentalBreak>
@@ -176,7 +176,7 @@
 
     <MessageOldWoundHealed>{0}(으)로 인해 {1}의 {2}(이)가 치유됐습니다.</MessageOldWoundHealed>
 
-    <MessageRescueeJoined>{0}(이)가 HIM 구해준 보답으로 세력에 합류하기로 결정했습니다!</MessageRescueeJoined>
+    <MessageRescueeJoined>{0}(이)가 [PAWN_objective] 구해준 보답으로 세력에 합류하기로 결정했습니다!</MessageRescueeJoined>
 
     <MessageAttackedCaravanIsNowHostile>상단을 공격했으므로 {0}(이)가 적대적으로 돌아섭니다.</MessageAttackedCaravanIsNowHostile>
     <MessageFactionPawnCrushed>천장 붕괴로 {0}의 사상자가 발생했습니다. 세력 관계: {1}</MessageFactionPawnCrushed>
@@ -249,7 +249,7 @@
     <MessageFailedToRescueRelative>{0}(을)를 구출하지 못했습니다. {1}(이)가 슬퍼합니다.</MessageFailedToRescueRelative>
     <MessageRescuedRelative>{0}(을)를 구출했습니다. {1}(이)가 기뻐합니다.</MessageRescuedRelative>
 
-    <MessagePrisonerRescued>NAME(을)를 구출했습니다. 정착지에 합류합니다.</MessagePrisonerRescued>
+    <MessagePrisonerRescued>[PAWN_nameDef](을)를 구출했습니다. 정착지에 합류합니다.</MessagePrisonerRescued>
 
     <MessageTornadoLeftMap>토네이도가 지역을 벗어났습니다.</MessageTornadoLeftMap>
     <MessageTornadoDissipated>토네이도가 사라졌습니다.</MessageTornadoDissipated>

@@ -30,7 +30,7 @@
     <RecruitSuccess>{1}에 대한 {0}의 포섭은 성공적이었습니다. (포섭 확률 {2})</RecruitSuccess>
     <RecruitFail>{1}에 {0}의 대한 포섭은 실패했습니다. (포섭 확률 {2})</RecruitFail>
 
-    <RelatedPawnInvolvedInQuest>NAME(은)는 {0}의 {1}입니다. NAME(이)가 사망하면 {0}(은)는 오랜 시간 후회로 고통받게 됩니다. 그러나 NAME(을)를 구출하면 긴 시간 기뻐할 것입니다.</RelatedPawnInvolvedInQuest>
+    <RelatedPawnInvolvedInQuest>[PAWN_nameDef](은)는 {0}의 {1}입니다. [PAWN_nameDef](이)가 사망하면 {0}(은)는 오랜 시간 후회로 고통받게 됩니다. 그러나 [PAWN_nameDef](을)를 구출하면 긴 시간 기뻐할 것입니다.</RelatedPawnInvolvedInQuest>
 
     <LetterLabelBirthday>생일</LetterLabelBirthday>
     <BirthdayChronological>오늘은 {0}의 실제 생일입니다! {1} {2}살이 되었습니다. \n\n사람들은 동면중일 때 나이를 먹지 않기 때문에 실제 생일은 생체적 생일과 분리되어 있습니다. 생체적으로 {0}의 나이는 {3}살입니다.
@@ -48,7 +48,7 @@
     <PrisonerRescueTimeout>The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again.</PrisonerRescueTimeout>
 
     <LetterLabelAncientShrineWarning>고대 위협</LetterLabelAncientShrineWarning>
-    <AncientShrineWarning>{0}(이)가 고대의 구조물에 가까이 갈수록 불길한 느낌이 HIM 휘어잡습니다. HE 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 지니고 있을 것 같다고 생각합니다.</AncientShrineWarning>
+    <AncientShrineWarning>{0}(이)가 고대의 구조물에 가까이 갈수록 불길한 느낌이 [PAWN_objective] 휘어잡습니다. [PAWN_pronoun] 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 지니고 있을 것 같다고 생각합니다.</AncientShrineWarning>
 
     <StruckMineable>{0}(을)를 발견했습니다!</StruckMineable>
 
@@ -85,8 +85,8 @@
     <LetterRelatedPawnsTradingWithOtherCaravan>해당 상단에서 정착민 또는 수감자와 아는 사람을 판매하고 있습니다.\n\n목록:</LetterRelatedPawnsTradingWithOtherCaravan>
 
     <RelationshipAppendedLetterSuffix>(관계)</RelationshipAppendedLetterSuffix>
-    <RelationshipAppendedLetterTextColonist>NAME(은)는 정착민을 알고 있습니다. HE {0}의 {1}입니다.</RelationshipAppendedLetterTextColonist>
-    <RelationshipAppendedLetterTextPrisoner>NAME(은)는 정착지 수감자를 알고 있습니다. HE {0}의 {1}입니다.</RelationshipAppendedLetterTextPrisoner>
+    <RelationshipAppendedLetterTextColonist>[PAWN_nameDef](은)는 정착민을 알고 있습니다. [PAWN_pronoun] {0}의 {1}입니다.</RelationshipAppendedLetterTextColonist>
+    <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef](은)는 정착지 수감자를 알고 있습니다. [PAWN_pronoun] {0}의 {1}입니다.</RelationshipAppendedLetterTextPrisoner>
 
     <!-- Attempt romance / propose interaction -->
     <LetterLabelAffair>불륜</LetterLabelAffair>
@@ -123,7 +123,7 @@
 
     <!-- Newly addicted -->
     <LetterLabelNewlyAddicted>{0} 중독</LetterLabelNewlyAddicted>
-    <LetterNewlyAddicted>{0}(이)가 {1}에 중독됐습니다.\n\nHECAP의 필요 탭에서 필요한 {1} 필요를 확인할 수 있으며, 가능한 경우 스스로 약물을 사용해 필요를 채울 것입니다. 필요 부족이 계속 된다면 일시적 금단 현상을 보일 수 있습니다.</LetterNewlyAddicted>
+    <LetterNewlyAddicted>{0}(이)가 {1}에 중독됐습니다.\n\n[PAWN_pronoun]의 필요 탭에서 필요한 {1} 필요를 확인할 수 있으며, 가능한 경우 스스로 약물을 사용해 필요를 채울 것입니다. 필요 부족이 계속 된다면 일시적 금단 현상을 보일 수 있습니다.</LetterNewlyAddicted>
 
     <!-- Drug binge -->
     <LetterLabelDrugBinge>{0} 갈망</LetterLabelDrugBinge>
