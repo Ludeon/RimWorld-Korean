@@ -2,15 +2,27 @@
 <LanguageData>
 
     <BuildRapport.label>서로 알아가기</BuildRapport.label>
-    <BuildRapport.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef]에게 다가감.</BuildRapport.logRulesInitiator.rulesStrings.0>
-    <BuildRapport.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]의 말을 경청.</BuildRapport.logRulesRecipient.rulesStrings.0>
+	<BuildRapport.logRulesInitiator.rulesStrings>
+		<li>logentry->[other_nameShortIndef]에게 다가감.</li>
+	</BuildRapport.logRulesInitiator.rulesStrings>
+	<BuildRapport.logRulesRecipient.rulesStrings>
+		<li>logentry->[other_nameShortIndef]의 말을 경청.</li>
+	</BuildRapport.logRulesRecipient.rulesStrings>
 
     <RecruitAttempt.label>포섭 시도</RecruitAttempt.label>
-    <RecruitAttempt.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef] 포섭 시도.</RecruitAttempt.logRulesInitiator.rulesStrings.0>
-    <RecruitAttempt.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]의 포섭 시도 받음.</RecruitAttempt.logRulesRecipient.rulesStrings.0>
+	<RecruitAttempt.logRulesInitiator.rulesStrings>
+		<li>logentry->[other_nameShortIndef] 포섭 시도.</li>
+	</RecruitAttempt.logRulesInitiator.rulesStrings>
+	<RecruitAttempt.logRulesRecipient.rulesStrings>
+		<li>logentry->[other_nameShortIndef]의 포섭 시도 받음.</li>
+	</RecruitAttempt.logRulesRecipient.rulesStrings>
 
     <SparkJailbreak.label>spark jailbreak</SparkJailbreak.label>
-    <SparkJailbreak.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef]의 탈출을 부추김.</SparkJailbreak.logRulesInitiator.rulesStrings.0>
-    <SparkJailbreak.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef](이)가 탈출을 부추김.</SparkJailbreak.logRulesRecipient.rulesStrings.0>
+	<SparkJailbreak.logRulesInitiator.rulesStrings>
+		<li>logentry->[other_nameShortIndef]의 탈출을 부추김.</li>
+	</SparkJailbreak.logRulesInitiator.rulesStrings>
+	<SparkJailbreak.logRulesRecipient.rulesStrings>
+		<li>logentry->[other_nameShortIndef](이)가 탈출을 부추김.</li>
+	</SparkJailbreak.logRulesRecipient.rulesStrings>
 
 </LanguageData>

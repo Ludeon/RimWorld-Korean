@@ -2,15 +2,27 @@
 <LanguageData>
 
     <RomanceAttempt.label>고백</RomanceAttempt.label>
-    <RomanceAttempt.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](을)를 유혹함.</RomanceAttempt.logRulesInitiator.rulesStrings.0>
-    <RomanceAttempt.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]의 유혹 받음.</RomanceAttempt.logRulesRecipient.rulesStrings.0>
+	<RomanceAttempt.logRulesInitiator.rulesStrings>
+		<li>logentry->[other_nameShortIndef](을)를 유혹함.</li>
+	</RomanceAttempt.logRulesInitiator.rulesStrings>
+	<RomanceAttempt.logRulesRecipient.rulesStrings>
+		<li>logentry->[other_nameShortIndef]의 유혹 받음.</li>
+	</RomanceAttempt.logRulesRecipient.rulesStrings>
 
     <Breakup.label>이별</Breakup.label>
-    <Breakup.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](와)과 헤어짐</Breakup.logRulesInitiator.rulesStrings.0>
-    <Breakup.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게 차임.</Breakup.logRulesRecipient.rulesStrings.0>
+	<Breakup.logRulesInitiator.rulesStrings>
+		<li>logentry->[other_nameShortIndef](와)과 헤어짐</li>
+	</Breakup.logRulesInitiator.rulesStrings>
+	<Breakup.logRulesRecipient.rulesStrings>
+		<li>logentry->[other_nameShortIndef]에게 차임.</li>
+	</Breakup.logRulesRecipient.rulesStrings>
 
     <MarriageProposal.label>프로포즈</MarriageProposal.label>
-    <MarriageProposal.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef]에게 프로포즈.</MarriageProposal.logRulesInitiator.rulesStrings.0>
-    <MarriageProposal.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게서 프로포즈 받음.</MarriageProposal.logRulesRecipient.rulesStrings.0>
+	<MarriageProposal.logRulesInitiator.rulesStrings>
+		<li>logentry->[other_nameShortIndef]에게 프로포즈.</li>
+	</MarriageProposal.logRulesInitiator.rulesStrings>
+	<MarriageProposal.logRulesRecipient.rulesStrings>
+		<li>logentry->[other_nameShortIndef]에게서 프로포즈 받음.</li>
+	</MarriageProposal.logRulesRecipient.rulesStrings>
 
 </LanguageData>
