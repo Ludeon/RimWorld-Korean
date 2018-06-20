@@ -1,40 +1,50 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <MechanicalThorax.label>흉부</MechanicalThorax.label>
-    <LeftBlade.label>왼쪽 칼</LeftBlade.label>
-    <RightBlade.label>오른쪽 칼</RightBlade.label>
-    <MechanicalNeck.label>목</MechanicalNeck.label>
-    <MechanicalHead.label>머리</MechanicalHead.label>
-    <LeftSightSensor.label>왼쪽 시력센서</LeftSightSensor.label>
-    <RightSightSensor.label>오른쪽 시력센서</RightSightSensor.label>
-    <LeftHearingSensor.label>왼쪽 청각센서</LeftHearingSensor.label>
-    <RightHearingSensor.label>오른쪽 청각센서</RightHearingSensor.label>
-    <SmellSensor.label>후각센서</SmellSensor.label>
-    <LeftMechanicalShoulder.label>왼쪽 어깨</LeftMechanicalShoulder.label>
-    <LeftMechanicalArm.label>왼팔</LeftMechanicalArm.label>
-    <LeftMechanicalHand.label>왼손</LeftMechanicalHand.label>
-    <LeftHandMechanicalPinky.label>왼손 소지</LeftHandMechanicalPinky.label>
-    <LeftHandMechanicalMiddleFinger.label>왼손 중지</LeftHandMechanicalMiddleFinger.label>
-    <LeftHandMechanicalIndexFinger.label>왼손 검지</LeftHandMechanicalIndexFinger.label>
-    <LeftHandMechanicalThumb.label>왼손 엄지</LeftHandMechanicalThumb.label>
-    <RightMechanicalShoulder.label>오른쪽 어깨</RightMechanicalShoulder.label>
-    <RightMechanicalArm.label>오른팔</RightMechanicalArm.label>
-    <RightMechanicalHand.label>오른손</RightMechanicalHand.label>
-    <RightHandMechanicalPinky.label>오른손 소지</RightHandMechanicalPinky.label>
-    <RightHandMechanicalMiddleFinger.label>오른손 중지</RightHandMechanicalMiddleFinger.label>
-    <RightHandMechanicalIndexFinger.label>오른손 검지</RightHandMechanicalIndexFinger.label>
-    <RightHandMechanicalThumb.label>오른손 엄지</RightHandMechanicalThumb.label>
-    <LeftMechanicalLeg.label>왼쪽 다리</LeftMechanicalLeg.label>
-    <LeftMechanicalFoot.label>왼발</LeftMechanicalFoot.label>
-    <RightMechanicalLeg.label>오른쪽 다리</RightMechanicalLeg.label>
-    <RightMechanicalFoot.label>오른발</RightMechanicalFoot.label>
-    <MechanicalCentipedeBodyFirstRing.label>첫번째 몸체 링</MechanicalCentipedeBodyFirstRing.label>
-    <MechanicalCentipedeBodySecondRing.label>두번째 몸체 링</MechanicalCentipedeBodySecondRing.label>
-    <MechanicalCentipedeBodyThirdRing.label>세번째 몸체 링</MechanicalCentipedeBodyThirdRing.label>
-    <MechanicalCentipedeBodyFourthRing.label>네번째 몸체 링</MechanicalCentipedeBodyFourthRing.label>
-    <MechanicalCentipedeBodyFifthRing.label>다섯번째 몸체 링</MechanicalCentipedeBodyFifthRing.label>
-    <MechanicalCentipedeBodySixthRing.label>여섯번째 몸체 링</MechanicalCentipedeBodySixthRing.label>
-    <ArtificialBrain.label>인공두뇌</ArtificialBrain.label>
+  <!-- Common to various mechanoids -->
+
+  <MechanicalNeck.label>목</MechanicalNeck.label>
+  <MechanicalHead.label>머리</MechanicalHead.label>
+  <ArtificialBrain.label>인공두뇌</ArtificialBrain.label>
+  <SightSensor.label>시각 센서</SightSensor.label>
+  <HearingSensor.label>청각 센서</HearingSensor.label>
+  <SmellSensor.label>후각센서</SmellSensor.label>
+  <MechanicalShoulder.label>어깨</MechanicalShoulder.label>
+  <MechanicalArm.label>팔</MechanicalArm.label>
+  <MechanicalHand.label>손</MechanicalHand.label>
+  <MechanicalFinger.label>손가락</MechanicalFinger.label>
+  <MechanicalLeg.label>다리</MechanicalLeg.label>
+  <MechanicalFoot.label>발</MechanicalFoot.label>
+
+
+  <!-- Human-like specific (lancer, scyther) -->
+
+  <MechanicalThorax.label>흉부</MechanicalThorax.label>
+
+
+  <!-- Scyther specific -->
+
+  <Blade.label>칼날</Blade.label>
+
+
+  <!-- Centipede specific -->
+
+  <MechanicalCentipedeBodyFirstRing.label>첫번째 몸체 링</MechanicalCentipedeBodyFirstRing.label>
+  <MechanicalCentipedeBodyFirstRing.labelShort>몸체 링</MechanicalCentipedeBodyFirstRing.labelShort>
+
+  <MechanicalCentipedeBodySecondRing.label>두번째 몸체 링</MechanicalCentipedeBodySecondRing.label>
+  <MechanicalCentipedeBodySecondRing.labelShort>몸체 링</MechanicalCentipedeBodySecondRing.labelShort>
+
+  <MechanicalCentipedeBodyThirdRing.label>세번째 몸체 링</MechanicalCentipedeBodyThirdRing.label>
+  <MechanicalCentipedeBodyThirdRing.labelShort>몸체 링</MechanicalCentipedeBodyThirdRing.labelShort>
+
+  <MechanicalCentipedeBodyFourthRing.label>네번째 몸체 링</MechanicalCentipedeBodyFourthRing.label>
+  <MechanicalCentipedeBodyFourthRing.labelShort>몸체 링</MechanicalCentipedeBodyFourthRing.labelShort>
+
+  <MechanicalCentipedeBodyFifthRing.label>다섯번째 몸체 링</MechanicalCentipedeBodyFifthRing.label>
+  <MechanicalCentipedeBodyFifthRing.labelShort>몸체 링</MechanicalCentipedeBodyFifthRing.labelShort>
+
+  <MechanicalCentipedeBodySixthRing.label>여섯번째 몸체 링</MechanicalCentipedeBodySixthRing.label>
+  <MechanicalCentipedeBodySixthRing.labelShort>몸체 링</MechanicalCentipedeBodySixthRing.labelShort>
 
 </LanguageData>
