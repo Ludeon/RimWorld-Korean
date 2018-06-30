@@ -1,37 +1,89 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <AnimalChat.label>대화</AnimalChat.label>
+  <AnimalChat.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef](와)과 대화</AnimalChat.logRulesInitiator.rulesStrings.0>
+  <AnimalChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef](은)는 [TalkTopicAny]의 이야기를 건네며 [RECIPIENT_nameIndef]에게 천천히 접근합니다.</AnimalChat.logRulesInitiator.rulesStrings.1>
+  <AnimalChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef](은)는 [TalkTopicAny]의 이야기를 조용히 속삭이며 [RECIPIENT_nameIndef]에게 접근을 시도합니다.</AnimalChat.logRulesInitiator.rulesStrings.2>
+  <AnimalChat.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef](은)는 [TalkTopicAny]의 주제로 [RECIPIENT_nameIndef]에게 대화를 시도합니다.</AnimalChat.logRulesInitiator.rulesStrings.3>
+  <AnimalChat.logRulesInitiator.rulesStrings.4>tamed->made calming noises towards</AnimalChat.logRulesInitiator.rulesStrings.4>
+  <AnimalChat.logRulesInitiator.rulesStrings.5>tamed->offered slow, friendly gestures to</AnimalChat.logRulesInitiator.rulesStrings.5>
+  <AnimalChat.logRulesInitiator.rulesStrings.6>tamed->made shushing noises at</AnimalChat.logRulesInitiator.rulesStrings.6>
+  <AnimalChat.logRulesInitiator.rulesStrings.7>tamed->made happy clicking noises at</AnimalChat.logRulesInitiator.rulesStrings.7>
+  <AnimalChat.logRulesInitiator.rulesStrings.8>tamed->gestured gently and approached</AnimalChat.logRulesInitiator.rulesStrings.8>
+  <AnimalChat.logRulesInitiator.rulesStrings.9>tamed->slowly approached</AnimalChat.logRulesInitiator.rulesStrings.9>
+  <AnimalChat.logRulesInitiator.rulesStrings.10>tamed->gently touched</AnimalChat.logRulesInitiator.rulesStrings.10>
+  <AnimalChat.logRulesInitiator.rulesStrings.11>tamed->calmed and encouraged</AnimalChat.logRulesInitiator.rulesStrings.11>
+  <AnimalChat.logRulesInitiator.rulesStrings.12>tamed->matched breathing with</AnimalChat.logRulesInitiator.rulesStrings.12>
+  <AnimalChat.logRulesInitiator.rulesStrings.13>tamed->took a low stance while approaching</AnimalChat.logRulesInitiator.rulesStrings.13>
+  <AnimalChat.logRulesInitiator.rulesStrings.14>tamed->showed no fear or anger to</AnimalChat.logRulesInitiator.rulesStrings.14>
+  <AnimalChat.logRulesInitiator.rulesStrings.15>tamed->feigned inattention towards</AnimalChat.logRulesInitiator.rulesStrings.15>
+  <AnimalChat.logRulesInitiator.rulesStrings.16>tamed->gently hummed a song at</AnimalChat.logRulesInitiator.rulesStrings.16>
+  <AnimalChat.logRulesInitiator.rulesStrings.17>tamed->sang an old lullaby at</AnimalChat.logRulesInitiator.rulesStrings.17>
+  <AnimalChat.logRulesInitiator.rulesStrings.18>tamed->firmly yet softly touched</AnimalChat.logRulesInitiator.rulesStrings.18>
+  <AnimalChat.logRulesInitiator.rulesStrings.19>tamed->showed a relaxed attitude towards</AnimalChat.logRulesInitiator.rulesStrings.19>
+  <AnimalChat.logRulesInitiator.rulesStrings.20>tamed->sat patiently near</AnimalChat.logRulesInitiator.rulesStrings.20>
+  <AnimalChat.logRulesInitiator.rulesStrings.21>tamed->whispered a story about [TalkTopicAny] to</AnimalChat.logRulesInitiator.rulesStrings.21>
 
-    <AnimalChat.label>대화</AnimalChat.label>
-	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef](와)과 대화</li>
-	</AnimalChat.logRulesInitiator.rulesStrings>
-	<AnimalChat.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef]의 친밀한 접근에 반응.</li>
-	</AnimalChat.logRulesRecipient.rulesStrings>
+  <TameAttempt.label>조련 시도</TameAttempt.label>
+  <TameAttempt.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef] 조련 시도.</TameAttempt.logRulesInitiator.rulesStrings.0>
+  <TameAttempt.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef](은)는 [RECIPIENT_nameIndef](을)를 조련하려 합니다.</TameAttempt.logRulesInitiator.rulesStrings.1>
+  <TameAttempt.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef](은)는 [RECIPIENT_nameIndef](을)를 속박하려 합니다.</TameAttempt.logRulesInitiator.rulesStrings.2>
+  <TameAttempt.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef](은)는 [RECIPIENT_nameIndef]에게 순종을 요구합니다.</TameAttempt.logRulesInitiator.rulesStrings.3>
+  <TameAttempt.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameIndef](은)는 [RECIPIENT_nameIndef](이)가 [INITIATOR_objective]에 속하도록 하려 합니다.</TameAttempt.logRulesInitiator.rulesStrings.4>
+  <TameAttempt.logRulesInitiator.rulesStrings.5>r_logentry->[INITIATOR_nameIndef](은)는 [RECIPIENT_nameIndef](이)가 명령에 따르도록 하려 합니다.</TameAttempt.logRulesInitiator.rulesStrings.5>
+  <TameAttempt.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameIndef](은)는 [RECIPIENT_nameIndef](을)를 붙잡고 위압적으로 소리치며 명령을 시도합니다.</TameAttempt.logRulesInitiator.rulesStrings.6>
+  <TameAttempt.logRulesInitiator.rulesStrings.7>r_logentry->[INITIATOR_nameIndef](은)는 [RECIPIENT_nameIndef](을)를 계속해서 포획을 시도합니다.</TameAttempt.logRulesInitiator.rulesStrings.7>
+  <TameAttempt.logRulesInitiator.rulesStrings.8>r_logentry->[INITIATOR_nameIndef] shouted a command at [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.8>
+  <TameAttempt.logRulesInitiator.rulesStrings.9>r_logentry->[INITIATOR_nameIndef] slapped [RECIPIENT_nameIndef] in a show of dominance.</TameAttempt.logRulesInitiator.rulesStrings.9>
+  <TameAttempt.logRulesInitiator.rulesStrings.10>r_logentry->[INITIATOR_nameIndef] directed [RECIPIENT_nameIndef] back towards the community.</TameAttempt.logRulesInitiator.rulesStrings.10>
+  <TameAttempt.logRulesInitiator.rulesStrings.11>r_logentry->[INITIATOR_nameIndef] called [RECIPIENT_nameIndef] to come back to the community.</TameAttempt.logRulesInitiator.rulesStrings.11>
+  <TameAttempt.logRulesInitiator.rulesStrings.12>r_logentry->[INITIATOR_nameIndef] touched a vulnerable body part of [RECIPIENT_nameIndef], demanding obedience.</TameAttempt.logRulesInitiator.rulesStrings.12>
+  <TameAttempt.logRulesInitiator.rulesStrings.13>r_logentry->[INITIATOR_nameIndef] pointed at the ground, demanding that [RECIPIENT_nameIndef] come.</TameAttempt.logRulesInitiator.rulesStrings.13>
+  <TameAttempt.logRulesInitiator.rulesStrings.14>r_logentry->[INITIATOR_nameIndef] gave [RECIPIENT_nameIndef] a first command.</TameAttempt.logRulesInitiator.rulesStrings.14>
 
-    <TrainAttempt.label>훈련 시도</TrainAttempt.label>
-	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef] 훈련.</li>
-	</TrainAttempt.logRulesInitiator.rulesStrings>
-	<TrainAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef]에게 훈련 받음.</li>
-	</TrainAttempt.logRulesRecipient.rulesStrings>
+  <TrainAttempt.label>훈련 시도</TrainAttempt.label>
+  <TrainAttempt.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef] 훈련.</TrainAttempt.logRulesInitiator.rulesStrings.0>
+  <TrainAttempt.logRulesInitiator.rulesStrings.1>trained(p=2)->[tried] to train</TrainAttempt.logRulesInitiator.rulesStrings.1>
+  <TrainAttempt.logRulesInitiator.rulesStrings.2>trained->[tried] to show a new trick to</TrainAttempt.logRulesInitiator.rulesStrings.2>
+  <TrainAttempt.logRulesInitiator.rulesStrings.3>trained->[tried] to discipline</TrainAttempt.logRulesInitiator.rulesStrings.3>
+  <TrainAttempt.logRulesInitiator.rulesStrings.4>trained->[tried] to instruct</TrainAttempt.logRulesInitiator.rulesStrings.4>
+  <TrainAttempt.logRulesInitiator.rulesStrings.5>trained->[tried] to encourage a new skill in</TrainAttempt.logRulesInitiator.rulesStrings.5>
+  <TrainAttempt.logRulesInitiator.rulesStrings.6>trained->demonstrated a skill to</TrainAttempt.logRulesInitiator.rulesStrings.6>
+  <TrainAttempt.logRulesInitiator.rulesStrings.7>trained->encouraged a new response from</TrainAttempt.logRulesInitiator.rulesStrings.7>
+  <TrainAttempt.logRulesInitiator.rulesStrings.8>tried->tried</TrainAttempt.logRulesInitiator.rulesStrings.8>
+  <TrainAttempt.logRulesInitiator.rulesStrings.9>tried->attempted</TrainAttempt.logRulesInitiator.rulesStrings.9>
 
-    <TameAttempt.label>조련 시도</TameAttempt.label>
-	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef] 조련 시도.</li>
-	</TameAttempt.logRulesInitiator.rulesStrings>
-	<TameAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->날 조련하려는 [other_nameShortIndef] 구경.</li>
-	</TameAttempt.logRulesRecipient.rulesStrings>
+  <Nuzzle.label>애교</Nuzzle.label>
+  <Nuzzle.logRulesInitiator.rulesStrings.0>logentry->[other_nameShortIndef] 애교.</Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameIndef]'s [rubbedpart].</Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Nuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)->nuzzled</Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Nuzzle.logRulesInitiator.rulesStrings.3>nuzzled->snuggled up to</Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Nuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-></Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Nuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb->gently</Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Nuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb->encouragingly</Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Nuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb->happily</Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Nuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb->softly</Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Nuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb->supportively</Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Nuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb->lightly</Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Nuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb->warmly</Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Nuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb->plaintively</Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Nuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb->lovingly</Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Nuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb->affectionately</Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Nuzzle.logRulesInitiator.rulesStrings.15>rubbedpart->leg</Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Nuzzle.logRulesInitiator.rulesStrings.16>rubbedpart->knee</Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Nuzzle.logRulesInitiator.rulesStrings.17>rubbedpart->foot</Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Nuzzle.logRulesInitiator.rulesStrings.18>rubbedpart->elbow</Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Nuzzle.logRulesInitiator.rulesStrings.19>rubbedpart->hip</Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Nuzzle.logRulesInitiator.rulesStrings.20>rubbedpart->shoulder</Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Nuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->hand</Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Nuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->side</Nuzzle.logRulesInitiator.rulesStrings.22>
+  <Nuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->arm</Nuzzle.logRulesInitiator.rulesStrings.23>
 
-    <Nuzzle.label>애교</Nuzzle.label>
-	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef] 애교.</li>
-	</Nuzzle.logRulesInitiator.rulesStrings>
-	<Nuzzle.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef]에게 애교받음.</li>
-	</Nuzzle.logRulesRecipient.rulesStrings>
+
+  <!--<AnimalChat.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]의 친밀한 접근에 반응.</AnimalChat.logRulesRecipient.rulesStrings.0>-->
+  <!--<TrainAttempt.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게 훈련 받음.</TrainAttempt.logRulesRecipient.rulesStrings.0>-->
+  <!--<TameAttempt.logRulesRecipient.rulesStrings.0>logentry->날 조련하려는 [other_nameShortIndef] 구경.</TameAttempt.logRulesRecipient.rulesStrings.0>-->
+  <!--<Nuzzle.logRulesRecipient.rulesStrings.0>logentry->[other_nameShortIndef]에게 애교받음.</Nuzzle.logRulesRecipient.rulesStrings.0>-->
 
 </LanguageData>
