@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
     <!-- ITab titles -->
@@ -19,7 +19,9 @@
     <TabRecords>기록</TabRecords>
     <TabArt>예술</TabArt>
     <TabSocial>관계</TabSocial>
-    <TabCombat>전투</TabCombat>
+     <TabLog>로그</TabLog>
+  <TabFormingCaravan>캐러밴</TabFormingCaravan>
+  <TabTransporterContents>운반 물품</TabTransporterContents>
 
     <!-- Bills tab  -->
     <AddBill>계획서 추가</AddBill>
@@ -28,8 +30,17 @@
     <SuspendedCaps>일시 중지</SuspendedCaps>
     <BoundWorkerIs>작업자: {0}</BoundWorkerIs>
     <PlantVerb>심기</PlantVerb>
+	<ClipboardBillNotAvailableHere>복사된 계획세는 여기에 붙여넣을 수 없습니다.</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>위로</ReorderBillUpTip>
+  <ReorderBillDownTip>아래로</ReorderBillDownTip>
+  <DeleteBillTip>삭제</DeleteBillTip>
+  <CopyBillTip>클립보드로 복사</CopyBillTip>
+  <SuspendBillTip>연기</SuspendBillTip>
+  <PasteBillTip>붙여넣기</PasteBillTip>
+  <PasteBillTip_LimitReached>더 이상 추가 불가</PasteBillTip_LimitReached>
 
     <!-- Guest/Prisoner tab -->
+    <RecruitmentResistance>남은 저항도</RecruitmentResistance>
     <RecruitmentDifficulty>포섭 난이도</RecruitmentDifficulty>
     <GetsFood>음식 제공</GetsFood>
     <DoctorsCare>의사 진료</DoctorsCare>
@@ -50,7 +61,7 @@
     <InPain>고통스러움</InPain>
     <PainLevel>고통</PainLevel>
     <Injured>부상</Injured>
-    <NoInjuries>(부상 없음)</NoInjuries>
+	<NoHealthConditions>건강 상태 없음</NoHealthConditions>
     <WholeBody>전신</WholeBody>
     <DataProcessing>데이터 처리</DataProcessing>
     <Communication>통신</Communication>
@@ -63,7 +74,7 @@
     <MedicalOperationsMechanoidsShort>개조 ({0})</MedicalOperationsMechanoidsShort>
     <MedicalOperations>의료 작업</MedicalOperations>
     <Amputate>절단</Amputate>
-    <Harvest>장기 적출</Harvest>
+    <HarvestOrgan>장기 적출</HarvestOrgan>
     <RemoveOrgan>제거</RemoveOrgan>
     <MemoryLower>기억</MemoryLower>
     <SocialInteractionsLower>상호작용</SocialInteractionsLower>
@@ -91,14 +102,14 @@
     <ExtremePain>극도</ExtremePain>
 
     <!-- Training tab-->
-    <TrainableIntelligence>훈련시 지능</TrainableIntelligence>
+    <Trainability>훈련 가능성</Trainability>
     <CannotTrainNotSmartEnough>훈련시 지능 필요: {0}.</CannotTrainNotSmartEnough>
     <CannotTrainTooSmall>{0}의 크기가 훈련을 받기에 너무 작습니다.</CannotTrainTooSmall>
 
     <TrainingNeedsPrerequisite>선행훈련 필요: {0}</TrainingNeedsPrerequisite>
 
     <!-- Social tab -->
-    <NoRelationships>(없음)</NoRelationships>
+    <NoRelationships>(관계 없음)</NoRelationships>
     <Kidnapped>납치</Kidnapped>
     <Missing>실종</Missing>
     <Slave>노예</Slave>
@@ -109,12 +120,40 @@
     <IAmPsychopath>사이코패스</IAmPsychopath>
 
     <!-- Gear tab -->
-    <AverageArmor>평균 방어도</AverageArmor>
+    <OverallArmor>방어 합계</OverallArmor>
     <MassCarried>소지품 무게: {0} / {1} kg</MassCarried>
     <ComfyTemperatureRange>적응 온도 범위</ComfyTemperatureRange>
     <ArmorBlunt>둔탁함</ArmorBlunt>
     <ArmorSharp>날카로움</ArmorSharp>
     <ArmorHeat>열기</ArmorHeat>
     <ArmorElectric>전기</ArmorElectric>
+	
+	  <!-- Log tab -->
+  <ShowAll>모두 표시</ShowAll>
+  <ShowCombat>전투 표시</ShowCombat>
+  <ShowSocial>관계 표시</ShowSocial>
+  <NoRecentEntries>최근 항목 없음</NoRecentEntries>
+  <CopyLogTip>로그를 클립보드로 복사.</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>동물들 집결 중</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>동물들 집결 중 (대기)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>물품 수집 중</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>물품 수집 중 (대기)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>노예들 집결 중</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>노예들 집결 중 (대기)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>떠나는 중</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>떠나는 중 (대기)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>대기</FormingCaravanStatus_Waiting>
+  <CaravanMembers>구성원</CaravanMembers>
+  <CaravanAnimals>동물들</CaravanAnimals>
+  <ItemsToLoad>적재할 물품</ItemsToLoad>
+  <LoadedItems>적재된 물품</LoadedItems>
+  <PackAnimalsCountLower>짐꾼 짐승</PackAnimalsCountLower>
+  <InMentalStateCountLower>정신 이상</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <RemoveSliderText>{{0}}x {0} 제거</RemoveSliderText>
+  <ConfirmRemoveItemDialog>{0}를 제거하시겠습니까?</ConfirmRemoveItemDialog>
 
 </LanguageData>
