@@ -21,9 +21,6 @@
   <WorkToMake.label>제작 작업량</WorkToMake.label>
   <WorkToMake.description>대상을 만들기 위해 필요한 기본 작업량입니다.</WorkToMake.description>
 
-  <WorkToBuild.label>건설 작업량</WorkToBuild.label>
-  <WorkToBuild.description>대상을 건설하기 위해 필요한 기본 작업량입니다.</WorkToBuild.description>
-
   <DeteriorationRate.label>손상 속도</DeteriorationRate.label>
   <DeteriorationRate.description>밖에 방치되었을 때 매일 입는 평균 피해량입니다. 우천 등 일부 상황에서는 더 빠르게 손상됩니다.</DeteriorationRate.description>
   <DeteriorationRate.formatString>{0}/일</DeteriorationRate.formatString>
@@ -42,6 +39,9 @@
 
   <FoodPoisonChanceFixedHuman.label>식중독 확률</FoodPoisonChanceFixedHuman.label>
   <FoodPoisonChanceFixedHuman.description>음식을 섭취했을 때 식중독에 걸릴 확률을 나타냅니다.</FoodPoisonChanceFixedHuman.description>
+
+  <ShootingAccuracyTurret.label>사격 정확도</ShootingAccuracyTurret.label>
+  <ShootingAccuracyTurret.description>사격이 대상에 적중할 확률입니다. 다른 많은 요소의 영향을 받습니다. 사수를 선택하여 표적 위에 커서를 올리면 정확도에 관여하는 요소들에 대한 더 많은 정보를 얻을 수 있습니다.</ShootingAccuracyTurret.description>
 
 
 </LanguageData>

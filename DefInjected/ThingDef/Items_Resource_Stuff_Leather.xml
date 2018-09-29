@@ -32,6 +32,17 @@
   <Leather_Bear.stuffProps.stuffAdjective>곰 모피</Leather_Bear.stuffProps.stuffAdjective>
 
 
+  <!-- Basic leathers: skin -->
+
+  <Leather_Human.label>사람 가죽</Leather_Human.label>
+  <Leather_Human.description>무두질되고 건조된 사람 가죽입니다. 대부분의 사람들은 이 옷감을 매우 끔찍하게 생각할 테지만, 몇몇은 매혹적이라고 생각할 것입니다. 특별히 우수한 특성은 없습니다.</Leather_Human.description>
+  <Leather_Human.stuffProps.stuffAdjective>사람 가죽</Leather_Human.stuffProps.stuffAdjective>
+
+  <Leather_Pig.label>돼지 가죽</Leather_Pig.label>
+  <Leather_Pig.description>무두질되고 건조된 돼지 가죽입니다. 특별히 우수한 특성은 없습니다.</Leather_Pig.description>
+  <Leather_Pig.stuffProps.stuffAdjective>돼지 가죽</Leather_Pig.stuffProps.stuffAdjective>
+
+
   <!-- Thin leathers -->
 
   <Leather_Light.label>소동물 가죽</Leather_Light.label>
@@ -53,17 +64,6 @@
   <Leather_Lizard.label>파충류 가죽</Leather_Lizard.label>
   <Leather_Lizard.description>파충류의 그을린 가죽입니다. 질기지만 보온성은 떨어집니다.</Leather_Lizard.description>
   <Leather_Lizard.stuffProps.stuffAdjective>도마뱀 가죽</Leather_Lizard.stuffProps.stuffAdjective>
-
-
-  <!-- Skin leathers -->
-
-  <Leather_Human.label>사람 가죽</Leather_Human.label>
-  <Leather_Human.description>무두질되고 건조된 사람 가죽입니다. 대부분의 사람들은 이 옷감을 매우 끔찍하게 생각할 테지만, 몇몇은 매혹적이라고 생각할 것입니다. 특별히 우수한 특성은 없습니다.</Leather_Human.description> 
-  <Leather_Human.stuffProps.stuffAdjective>사람 가죽</Leather_Human.stuffProps.stuffAdjective>
-
-  <Leather_Pig.label>돼지 가죽</Leather_Pig.label>
-  <Leather_Pig.description>무두질되고 건조된 돼지 가죽입니다. 특별히 우수한 특성은 없습니다.</Leather_Pig.description>
-  <Leather_Pig.stuffProps.stuffAdjective>돼지 가죽</Leather_Pig.stuffProps.stuffAdjective>
 
 
   <!-- Tough leathers -->
@@ -91,8 +91,10 @@
   <!-- Awful leathers -->
 
   <Leather_Patch.label>누더기</Leather_Patch.label>
-  <Leather_Patch.description>다양한 종류의 가죽을 꿰메어 만든 옷감. 이음매의 내구성이 균일하지 않기 때문에 이것으로 제작한 물건은 모든 면에서 품질이 좋지 않습니다.</Leather_Patch.description>
+  <Leather_Patch.description>다양한 종류의 가죽을 꿰메어 만든 옷감입니다. 이음매의 내구성이 균일하지 않기 때문에 이것으로 제작한 물건은 모든 면에서 품질이 좋지 않습니다.</Leather_Patch.description>
   <Leather_Patch.stuffProps.stuffAdjective>누더기</Leather_Patch.stuffProps.stuffAdjective>
 
+
+  <!-- Skin leathers -->
 
 </LanguageData>

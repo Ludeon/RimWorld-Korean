@@ -37,6 +37,20 @@
   <Gun_AutocannonTurret.description>자동 장전이 가능한 고정식 대구경 기관포입니다.</Gun_AutocannonTurret.description>
 
 
+  <!-- Sniper turret -->
+
+  <Turret_Sniper.label>uranium slug turret</Turret_Sniper.label>
+  <Turret_Sniper.description>A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</Turret_Sniper.description>
+  <Turret_Sniper_Blueprint.label>uranium slug turret (blueprint)</Turret_Sniper_Blueprint.label>
+  <Turret_Sniper_Frame.label>uranium slug turret (building)</Turret_Sniper_Frame.label>
+  <Turret_Sniper_Frame.description>A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</Turret_Sniper_Frame.description>
+
+  <Bullet_TurretSniper.label>uranium slug</Bullet_TurretSniper.label>
+
+  <Gun_TurretSniper.label>uranium slug cannon</Gun_TurretSniper.label>
+  <Gun_TurretSniper.description>A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets.</Gun_TurretSniper.description>
+
+
   <!-- Mortar turret -->
 
   <Turret_Mortar.label>박격포</Turret_Mortar.label>
@@ -52,40 +66,53 @@
 
   <!-- Traps -->
 
-  <TrapDeadfall.label>가시함정</TrapDeadfall.label>
-  <TrapDeadfall.description>섬세한 방아쇠에 연결된 날카로운 무게추입니다. 희생양이 방아쇠를 건드리면 무게추가 머리나 몸통을 강타합니다.</TrapDeadfall.description>
-  <TrapDeadfall_Blueprint.label>가시함정 (청사진)</TrapDeadfall_Blueprint.label>
-  <TrapDeadfall_Frame.label>가시함정 (건설 중)</TrapDeadfall_Frame.label>
-  <TrapDeadfall_Frame.description>섬세한 방아쇠에 연결된 날카로운 무게추입니다. 희생양이 방아쇠를 건드리면 무게추가 머리나 몸통을 강타합니다.</TrapDeadfall_Frame.description>
+  <TrapSpike.label>spike trap</TrapSpike.label>
+  <TrapSpike.description>Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forthm and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</TrapSpike.description>
+  <TrapSpike_Blueprint.label>spike trap (blueprint)</TrapSpike_Blueprint.label>
+  <TrapSpike_Blueprint_Install.label>spike trap (blueprint)</TrapSpike_Blueprint_Install.label>
+  <TrapSpike_Frame.label>spike trap (building)</TrapSpike_Frame.label>
+  <TrapSpike_Frame.description>Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forthm and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</TrapSpike_Frame.description>
 
   <TrapIED_HighExplosive.label>폭발 지뢰</TrapIED_HighExplosive.label>
   <TrapIED_HighExplosive.description>직접 만든 방아쇠에 연결된 박격포탄입니다. 누군가 방아쇠를 건드리면 폭발합니다. 급조된 방아쇠로 인해 격발 시간이 제각각이기 때문에, 충분히 빠른 적은 빠져나갈 수도 있습니다.</TrapIED_HighExplosive.description>
   <TrapIED_HighExplosive_Blueprint.label>IED trap (청사진)</TrapIED_HighExplosive_Blueprint.label>
+  <TrapIED_HighExplosive_Blueprint_Install.label>IED trap (blueprint)</TrapIED_HighExplosive_Blueprint_Install.label>
   <TrapIED_HighExplosive_Frame.label>폭발 지뢰 (건설 중)</TrapIED_HighExplosive_Frame.label>
   <TrapIED_HighExplosive_Frame.description>직접 만든 방아쇠에 연결된 박격포탄입니다. 누군가 방아쇠를 건드리면 폭발합니다. 급조된 방아쇠로 인해 격발 시간이 제각각이기 때문에, 충분히 빠른 적은 빠져나갈 수도 있습니다.</TrapIED_HighExplosive_Frame.description>
 
   <TrapIED_Incendiary.label>발화 지뢰</TrapIED_Incendiary.label>
   <TrapIED_Incendiary.description>발화성 물질을 섞은 폭발물과 방아쇠를 연결한 함정입니다. 방아쇠는 화학적인 방식을 사용해 간단하고 신뢰도가 높습니다.</TrapIED_Incendiary.description>
   <TrapIED_Incendiary_Blueprint.label>발화 지뢰 (청사진)</TrapIED_Incendiary_Blueprint.label>
+  <TrapIED_Incendiary_Blueprint_Install.label>IED incendiary trap (blueprint)</TrapIED_Incendiary_Blueprint_Install.label>
   <TrapIED_Incendiary_Frame.label>발화 지뢰 (건설 중)</TrapIED_Incendiary_Frame.label>
   <TrapIED_Incendiary_Frame.description>발화성 물질을 섞은 폭발물과 방아쇠를 연결한 함정입니다. 방아쇠는 화학적인 방식을 사용해 간단하고 신뢰도가 높습니다.</TrapIED_Incendiary_Frame.description>
 
   <TrapIED_EMP.label>전자기 지뢰</TrapIED_EMP.label>
   <TrapIED_EMP.description>전자기포탄과 수제 방아쇠로 이루어진 간단한 함정입니다. 메카노이드를 잠시 마비시킬 수 있습니다. 전자기 폭발에 영향을 받지 않는 대상도 방아쇠를 건드릴 수 있습니다.</TrapIED_EMP.description>
   <TrapIED_EMP_Blueprint.label>전자기 지뢰 (청사진)</TrapIED_EMP_Blueprint.label>
+  <TrapIED_EMP_Blueprint_Install.label>IED EMP trap (blueprint)</TrapIED_EMP_Blueprint_Install.label>
   <TrapIED_EMP_Frame.label>전자기 지뢰 (건설 중)</TrapIED_EMP_Frame.label>
   <TrapIED_EMP_Frame.description>전자기포탄과 수제 방아쇠로 이루어진 간단한 함정입니다. 메카노이드를 잠시 마비시킬 수 있습니다. 전자기 폭발에 영향을 받지 않는 대상도 방아쇠를 건드릴 수 있습니다.</TrapIED_EMP_Frame.description>
 
   <TrapIED_Firefoam.label>소방거품 지뢰</TrapIED_Firefoam.label>
   <TrapIED_Firefoam.description>누군가 방아쇠를 건드리면 주위에 화재진압 거품을 발포합니다.</TrapIED_Firefoam.description>
   <TrapIED_Firefoam_Blueprint.label>소방거품 지뢰 (청사진)</TrapIED_Firefoam_Blueprint.label>
+  <TrapIED_Firefoam_Blueprint_Install.label>IED firefoam trap (blueprint)</TrapIED_Firefoam_Blueprint_Install.label>
   <TrapIED_Firefoam_Frame.label>소방거품 지뢰 (건설 중)</TrapIED_Firefoam_Frame.label>
   <TrapIED_Firefoam_Frame.description>누군가 방아쇠를 건드리면 주위에 화재진압 거품을 발포합니다.</TrapIED_Firefoam_Frame.description>
 
   <TrapIED_AntigrainWarhead.label>반물질 지뢰</TrapIED_AntigrainWarhead.label>
   <TrapIED_AntigrainWarhead.description>반물질 폭발물과 방아쇠를 연결한 함정입니다. 대폭발을 일으킵니다.</TrapIED_AntigrainWarhead.description>
   <TrapIED_AntigrainWarhead_Blueprint.label>반물질 지뢰 (청사진)</TrapIED_AntigrainWarhead_Blueprint.label>
+  <TrapIED_AntigrainWarhead_Blueprint_Install.label>IED antigrain warhead trap (blueprint)</TrapIED_AntigrainWarhead_Blueprint_Install.label>
   <TrapIED_AntigrainWarhead_Frame.label>반물질 지뢰 (건설 중)</TrapIED_AntigrainWarhead_Frame.label>
   <TrapIED_AntigrainWarhead_Frame.description>반물질 폭발물과 방아쇠를 연결한 함정입니다. 대폭발을 일으킵니다.</TrapIED_AntigrainWarhead_Frame.description>
+
+
+  <!--<TrapDeadfall.label>가시함정</TrapDeadfall.label>-->
+  <!--<TrapDeadfall.description>섬세한 방아쇠에 연결된 날카로운 무게추입니다. 희생양이 방아쇠를 건드리면 무게추가 머리나 몸통을 강타합니다.</TrapDeadfall.description>-->
+  <!--<TrapDeadfall_Blueprint.label>가시함정 (청사진)</TrapDeadfall_Blueprint.label>-->
+  <!--<TrapDeadfall_Frame.label>가시함정 (건설 중)</TrapDeadfall_Frame.label>-->
+  <!--<TrapDeadfall_Frame.description>섬세한 방아쇠에 연결된 날카로운 무게추입니다. 희생양이 방아쇠를 건드리면 무게추가 머리나 몸통을 강타합니다.</TrapDeadfall_Frame.description>-->
 
 </LanguageData>
