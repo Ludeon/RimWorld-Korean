@@ -1,45 +1,74 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Disease_Flu.label>독감</Disease_Flu.label>
-  <Disease_Flu.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_Flu.letterText>
-  <Disease_Flu.letterLabel>질병 (독감)</Disease_Flu.letterLabel>
-
-  <Disease_Plague.label>역병</Disease_Plague.label>
-  <Disease_Plague.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_Plague.letterText>
-  <Disease_Plague.letterLabel>질병 (역병)</Disease_Plague.letterLabel>
-
-  <Disease_Malaria.label>말라리아</Disease_Malaria.label>
-  <Disease_Malaria.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_Malaria.letterText>
-  <Disease_Malaria.letterLabel>질병 (말라리아)</Disease_Malaria.letterLabel>
-
-  <Disease_SleepingSickness.label>수면병</Disease_SleepingSickness.label>
-  <Disease_SleepingSickness.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_SleepingSickness.letterText>
-  <Disease_SleepingSickness.letterLabel>질병 (수면병)</Disease_SleepingSickness.letterLabel>
-
+  
+  <!-- EN: flu (animals) -->
+  <Disease_AnimalFlu.label>독감 (동물)</Disease_AnimalFlu.label>
+  <!-- EN: Animal disease (flu) -->
+  <Disease_AnimalFlu.letterLabel>동물 질병 (독감))</Disease_AnimalFlu.letterLabel>
+  <!-- EN: {0} of your animals have gotten sick from {2}.\n\nMake sure that they get proper treatment and rest as much as possible.\n\nThe following animals have gotten sick:\n\n{3} -->
+  <Disease_AnimalFlu.letterText>당신의 동물 중 {0}마리가 {2}에 걸렸습니다. \n\n가능한 한 올바른 치료와 휴식을 취하게 만들어야 합니다.\n\n 다음 동물이 아픕니다:\n\n{3}</Disease_AnimalFlu.letterText>
+  
+  <!-- EN: plague (animals) -->
+  <Disease_AnimalPlague.label>페스트 (동물)</Disease_AnimalPlague.label>
+  <!-- EN: Animal disease (plague) -->
+  <Disease_AnimalPlague.letterLabel>동물 질병 (페스트)</Disease_AnimalPlague.letterLabel>
+  <!-- EN: {0} of your animals have gotten sick from {2}.\n\nMake sure that they get proper treatment and rest as much as possible.\n\nThe following animals have gotten sick:\n\n{3} -->
+  <Disease_AnimalPlague.letterText>당신의 동물 중 {0}마리가 {2}에 걸렸습니다. \n\n가능한 한 올바른 치료와 휴식을 취하게 만들어야 합니다.\n\n 다음 동물이 아픕니다:\n\n{3}</Disease_AnimalPlague.letterText>
+  
+  <!-- EN: fibrous mechanites -->
   <Disease_FibrousMechanites.label>근섬유질 메카나이트</Disease_FibrousMechanites.label>
-  <Disease_FibrousMechanites.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_FibrousMechanites.letterText>
+  <!-- EN: Disease (fibrous mechanites) -->
   <Disease_FibrousMechanites.letterLabel>질병 (근섬유질 메카나이트)</Disease_FibrousMechanites.letterLabel>
-
-  <Disease_SensoryMechanites.label>감각기 메카나이트</Disease_SensoryMechanites.label>
-  <Disease_SensoryMechanites.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_SensoryMechanites.letterText>
-  <Disease_SensoryMechanites.letterLabel>질병 (감각기 메카나이트)</Disease_SensoryMechanites.letterLabel>
-
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_FibrousMechanites.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_FibrousMechanites.letterText>
+  
+  <!-- EN: flu -->
+  <Disease_Flu.label>독감</Disease_Flu.label>
+  <!-- EN: Disease (flu) -->
+  <Disease_Flu.letterLabel>질병 (독감)</Disease_Flu.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_Flu.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_Flu.letterText>
+  
+  <!-- EN: gut worms -->
   <Disease_GutWorms.label>내장 기생충</Disease_GutWorms.label>
-  <Disease_GutWorms.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_GutWorms.letterText>
+  <!-- EN: Disease (gut worms) -->
   <Disease_GutWorms.letterLabel>질병 (내장 기생충)</Disease_GutWorms.letterLabel>
-
-  <Disease_MuscleParasites.label>근기생충</Disease_MuscleParasites.label>
-  <Disease_MuscleParasites.letterText> {1}의 {0}(이)가 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지 확인하세요. 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다.:\n\n{3}</Disease_MuscleParasites.letterText>
-  <Disease_MuscleParasites.letterLabel>질병 (근기생충)</Disease_MuscleParasites.letterLabel>
-
-  <Disease_AnimalFlu.label>감기 (동물)</Disease_AnimalFlu.label>
-  <Disease_AnimalFlu.letterText>동물 {0}(이)가 {2}에 걸렸습니다. \n\n 가능한 한 올바른 치료와 휴식을 취해야 합니다.\n\n 다음 동물이 아플 수 있습니다:\n\n{3}</Disease_AnimalFlu.letterText>
-  <Disease_AnimalFlu.letterLabel>동물 질병 (감기)</Disease_AnimalFlu.letterLabel>
-
-  <Disease_AnimalPlague.label>역병 (동물)</Disease_AnimalPlague.label>
-  <Disease_AnimalPlague.letterText>동물 {0}(이)가 {2}에 걸렸습니다. \n\n 가능한 한 올바른 치료와 휴식을 취해야 합니다.\n\n 다음 동물이 아플 수 있습니다:\n\n{3}</Disease_AnimalPlague.letterText>
-  <Disease_AnimalPlague.letterLabel>동물 질병 (역병)</Disease_AnimalPlague.letterLabel>
-
-
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_GutWorms.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_GutWorms.letterText>
+  
+  <!-- EN: malaria -->
+  <Disease_Malaria.label>말라리아</Disease_Malaria.label>
+  <!-- EN: Disease (malaria) -->
+  <Disease_Malaria.letterLabel>질병 (말라리아)</Disease_Malaria.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_Malaria.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_Malaria.letterText>
+  
+  <!-- EN: muscle parasites -->
+  <Disease_MuscleParasites.label>근육 기생충</Disease_MuscleParasites.label>
+  <!-- EN: Disease (muscle parasites) -->
+  <Disease_MuscleParasites.letterLabel>질병 (근육 기생충)</Disease_MuscleParasites.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_MuscleParasites.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_MuscleParasites.letterText>
+  
+  <!-- EN: plague -->
+  <Disease_Plague.label>페스트</Disease_Plague.label>
+  <!-- EN: Disease (plague) -->
+  <Disease_Plague.letterLabel>질병 (페스트)</Disease_Plague.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_Plague.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_Plague.letterText>
+  
+  <!-- EN: sensory mechanites -->
+  <Disease_SensoryMechanites.label>감각기 메카나이트</Disease_SensoryMechanites.label>
+  <!-- EN: Disease (sensory mechanites) -->
+  <Disease_SensoryMechanites.letterLabel>질병 (감각기 메카나이트)</Disease_SensoryMechanites.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_SensoryMechanites.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_SensoryMechanites.letterText>
+  
+  <!-- EN: sleeping sickness -->
+  <Disease_SleepingSickness.label>수면병</Disease_SleepingSickness.label>
+  <!-- EN: Disease (sleeping sickness) -->
+  <Disease_SleepingSickness.letterLabel>질병 (수면병)</Disease_SleepingSickness.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_SleepingSickness.letterText>{1} 중 {0}명이 {2}에 걸렸습니다.\n\n의료 침대와 의사가 있는지, 감염자가 적절한 치료를 받고 충분한 휴식을 취하고 있는지 확인하세요.\n\n {1}(이)가 다음과 같은 병에 걸렸습니다:\n\n{3}</Disease_SleepingSickness.letterText>
+  
 </LanguageData>
