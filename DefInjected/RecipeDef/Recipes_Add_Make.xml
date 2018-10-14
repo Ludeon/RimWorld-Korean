@@ -21,9 +21,9 @@
 
   <!-- Recipe Users: Campfire, ElectricStove, FueledStove -->
 
-  <Make_PsychiteTea.label>make psychite tea</Make_PsychiteTea.label>
-  <Make_PsychiteTea.description>Make psychite tea.</Make_PsychiteTea.description>
-  <Make_PsychiteTea.jobString>Making psychite tea.</Make_PsychiteTea.jobString>
+  <Make_PsychoidPekoe.label>사이코이드 홍차 만들기</Make_PsychoidPekoe.label>
+  <Make_PsychoidPekoe.description>사이코이드 홍차를 만듭니다.</Make_PsychoidPekoe.description>
+  <Make_PsychoidPekoe.jobString>사이코이드 홍차 만드는 중.</Make_PsychoidPekoe.jobString>
 
 
   <!-- Recipe Users: DrugLab -->
@@ -125,25 +125,25 @@
   <Make_Shell_HighExplosive.description>고폭탄을 만듭니다.</Make_Shell_HighExplosive.description>
   <Make_Shell_HighExplosive.jobString>고폭탄 만드는 중.</Make_Shell_HighExplosive.jobString>
 
-  <Make_Shell_Incendiary.label>발화포탄 만들기</Make_Shell_Incendiary.label>
-  <Make_Shell_Incendiary.description>발화포탄을 만듭니다.</Make_Shell_Incendiary.description>
-  <Make_Shell_Incendiary.jobString>발화포탄 만드는 중.</Make_Shell_Incendiary.jobString>
+  <Make_Shell_Incendiary.label>소이탄 만들기</Make_Shell_Incendiary.label>
+  <Make_Shell_Incendiary.description>소이탄을 만듭니다.</Make_Shell_Incendiary.description>
+  <Make_Shell_Incendiary.jobString>소이탄 만드는 중.</Make_Shell_Incendiary.jobString>
 
-  <Make_Shell_EMP.label>전자기포탄 만들기</Make_Shell_EMP.label>
-  <Make_Shell_EMP.description>전자기포탄을 만듭니다.</Make_Shell_EMP.description>
-  <Make_Shell_EMP.jobString>전자기포탄 만드는 중.</Make_Shell_EMP.jobString>
+  <Make_Shell_EMP.label>EMP포탄 만들기</Make_Shell_EMP.label>
+  <Make_Shell_EMP.description>EMP포탄을 만듭니다.</Make_Shell_EMP.description>
+  <Make_Shell_EMP.jobString>EMP포탄 만드는 중.</Make_Shell_EMP.jobString>
 
-  <Make_Shell_Firefoam.label>화재진압탄 만들기</Make_Shell_Firefoam.label>
-  <Make_Shell_Firefoam.description>화재진압탄을 만듭니다.</Make_Shell_Firefoam.description>
-  <Make_Shell_Firefoam.jobString>화재진압탄 만드는 중.</Make_Shell_Firefoam.jobString>
+  <Make_Shell_Firefoam.label>화재 진압탄 만들기</Make_Shell_Firefoam.label>
+  <Make_Shell_Firefoam.description>화재 진압탄을 만듭니다.</Make_Shell_Firefoam.description>
+  <Make_Shell_Firefoam.jobString>화재 진압탄 만드는 중.</Make_Shell_Firefoam.jobString>
 
   <Make_Apparel_ShieldBelt.label>방어 벨트 만들기</Make_Apparel_ShieldBelt.label>
   <Make_Apparel_ShieldBelt.description>방어 벨트를 만듭니다.</Make_Apparel_ShieldBelt.description>
   <Make_Apparel_ShieldBelt.jobString>방어 벨트 만드는 중.</Make_Apparel_ShieldBelt.jobString>
 
-  <Make_Apparel_SmokepopBelt.label>연막벨트 만들기</Make_Apparel_SmokepopBelt.label>
+  <Make_Apparel_SmokepopBelt.label>연막 벨트 만들기</Make_Apparel_SmokepopBelt.label>
   <Make_Apparel_SmokepopBelt.description>연막 벨트를 만듭니다.</Make_Apparel_SmokepopBelt.description>
-  <Make_Apparel_SmokepopBelt.jobString>연막벨트 만드는 중.</Make_Apparel_SmokepopBelt.jobString>
+  <Make_Apparel_SmokepopBelt.jobString>연막 벨트 만드는 중.</Make_Apparel_SmokepopBelt.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
@@ -182,14 +182,11 @@
   <Make_Apparel_WarVeil.jobString>전투 베일 만드는 중.</Make_Apparel_WarVeil.jobString>
 
 
-  <!-- Recipe Users: TableMachining, ElectricSmithy, FueledSmithy -->
+  <!-- Recipe Users: TableMachining -->
 
   <Make_Apparel_SimpleHelmet.label>방탄모 만들기</Make_Apparel_SimpleHelmet.label>
   <Make_Apparel_SimpleHelmet.description>방탄모를 만듭니다.</Make_Apparel_SimpleHelmet.description>
   <Make_Apparel_SimpleHelmet.jobString>방탄모 만들기</Make_Apparel_SimpleHelmet.jobString>
-
-
-  <!-- Recipe Users: TableMachining -->
 
   <Make_Apparel_AdvancedHelmet.label>강화 방탄모 만들기</Make_Apparel_AdvancedHelmet.label>
   <Make_Apparel_AdvancedHelmet.description>강화 방탄모를 만듭니다.</Make_Apparel_AdvancedHelmet.description>
@@ -246,24 +243,24 @@
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_Apparel_FlakVest.label>방탄조끼 만들기</Make_Apparel_FlakVest.label>
+  <Make_Apparel_FlakVest.label>방탄 조끼 만들기</Make_Apparel_FlakVest.label>
   <Make_Apparel_FlakVest.description>방탄 조끼를 만듭니다.</Make_Apparel_FlakVest.description>
   <Make_Apparel_FlakVest.jobString>방탄 조끼 만드는 중.</Make_Apparel_FlakVest.jobString>
 
-  <Make_Apparel_FlakPants.label>방탄바지 만들기</Make_Apparel_FlakPants.label>
+  <Make_Apparel_FlakPants.label>방탄 바지 만들기</Make_Apparel_FlakPants.label>
   <Make_Apparel_FlakPants.description>방탄 바지를 만듭니다.</Make_Apparel_FlakPants.description>
   <Make_Apparel_FlakPants.jobString>방탄 바지 만드는 중.</Make_Apparel_FlakPants.jobString>
 
-  <Make_Apparel_FlakJacket.label>방탄자켓 만들기</Make_Apparel_FlakJacket.label>
+  <Make_Apparel_FlakJacket.label>방탄 자켓 만들기</Make_Apparel_FlakJacket.label>
   <Make_Apparel_FlakJacket.description>방탄 자켓을 만듭니다.</Make_Apparel_FlakJacket.description>
   <Make_Apparel_FlakJacket.jobString>방탄 자켓 만드는 중.</Make_Apparel_FlakJacket.jobString>
 
 
   <!-- Recipe Users: TableMachining, FabricationBench -->
 
-  <Make_Apparel_PowerArmor.label>강화갑옷 만들기</Make_Apparel_PowerArmor.label>
-  <Make_Apparel_PowerArmor.description>강화갑옷을 만듭니다.</Make_Apparel_PowerArmor.description>
-  <Make_Apparel_PowerArmor.jobString>강화갑옷 만드는 중.</Make_Apparel_PowerArmor.jobString>
+  <Make_Apparel_PowerArmor.label>강화 갑옷 만들기</Make_Apparel_PowerArmor.label>
+  <Make_Apparel_PowerArmor.description>강화 갑옷을 만듭니다.</Make_Apparel_PowerArmor.description>
+  <Make_Apparel_PowerArmor.jobString>강화 갑옷 만드는 중.</Make_Apparel_PowerArmor.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
@@ -321,9 +318,9 @@
   <Make_Gun_IncendiaryLauncher.description>소이탄 발사기를 만듭니다.</Make_Gun_IncendiaryLauncher.description>
   <Make_Gun_IncendiaryLauncher.jobString>소이탄 발사기 만드는 중.</Make_Gun_IncendiaryLauncher.jobString>
 
-  <Make_Gun_BoltActionRifle.label>장총 만들기</Make_Gun_BoltActionRifle.label>
-  <Make_Gun_BoltActionRifle.description>장총을 만듭니다.</Make_Gun_BoltActionRifle.description>
-  <Make_Gun_BoltActionRifle.jobString>장총 만드는 중.</Make_Gun_BoltActionRifle.jobString>
+  <Make_Gun_BoltActionRifle.label>볼트액션 라이플 만들기</Make_Gun_BoltActionRifle.label>
+  <Make_Gun_BoltActionRifle.description>볼트액션 라이플을 만듭니다.</Make_Gun_BoltActionRifle.description>
+  <Make_Gun_BoltActionRifle.jobString>볼트액션 라이플을 만드는 중.</Make_Gun_BoltActionRifle.jobString>
 
   <Make_Gun_PumpShotgun.label>산탄총을 만들기</Make_Gun_PumpShotgun.label>
   <Make_Gun_PumpShotgun.description>산탄총을 만듭니다.</Make_Gun_PumpShotgun.description>
@@ -353,9 +350,9 @@
   <Make_Gun_Minigun.description>미니건을 만듭니다.</Make_Gun_Minigun.description>
   <Make_Gun_Minigun.jobString>미니건 만드는 중.</Make_Gun_Minigun.jobString>
 
-  <Make_Weapon_GrenadeFrag.label>파쇄 수류탄 만들기</Make_Weapon_GrenadeFrag.label>
-  <Make_Weapon_GrenadeFrag.description>파쇄 수류탄을 만듭니다.</Make_Weapon_GrenadeFrag.description>
-  <Make_Weapon_GrenadeFrag.jobString>파쇄 수류탄 만드는 중.</Make_Weapon_GrenadeFrag.jobString>
+  <Make_Weapon_GrenadeFrag.label>파편 수류탄 만들기</Make_Weapon_GrenadeFrag.label>
+  <Make_Weapon_GrenadeFrag.description>파편 수류탄을 만듭니다.</Make_Weapon_GrenadeFrag.description>
+  <Make_Weapon_GrenadeFrag.jobString>파편 수류탄 만드는 중.</Make_Weapon_GrenadeFrag.jobString>
 
   <Make_Weapon_GrenadeMolotov.label>화염병 만들기</Make_Weapon_GrenadeMolotov.label>
   <Make_Weapon_GrenadeMolotov.description>화염병을 만듭니다.</Make_Weapon_GrenadeMolotov.description>
@@ -389,9 +386,9 @@
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
-  <Make_Bow_Great.label>대궁 만들기</Make_Bow_Great.label>
-  <Make_Bow_Great.description>대궁을 만듭니다.</Make_Bow_Great.description>
-  <Make_Bow_Great.jobString>대궁 만드는 중.</Make_Bow_Great.jobString>
+  <Make_Bow_Great.label>장궁 만들기</Make_Bow_Great.label>
+  <Make_Bow_Great.description>장궁을 만듭니다.</Make_Bow_Great.description>
+  <Make_Bow_Great.jobString>장궁 만드는 중.</Make_Bow_Great.jobString>
 
 
   <!-- Recipe Users: TableMachining, FabricationBench -->
@@ -405,8 +402,5 @@
   <Make_Gun_ChargeLance.jobString>전자기포 만드는 중.</Make_Gun_ChargeLance.jobString>
 
 
-  <!--<Make_PsychoidPekoe.label>사이코이드 홍차 만들기</Make_PsychoidPekoe.label>-->
-  <!--<Make_PsychoidPekoe.description>사이코이드 홍차를 만듭니다.</Make_PsychoidPekoe.description>-->
-  <!--<Make_PsychoidPekoe.jobString>사이코이드 홍차 만드는 중.</Make_PsychoidPekoe.jobString>-->
 
 </LanguageData>

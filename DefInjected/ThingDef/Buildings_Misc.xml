@@ -44,16 +44,16 @@
   <!-- Transport pods -->
 
   <PodLauncher.label>발사대</PodLauncher.label>
-  <PodLauncher.description>한 개의 수송기를 발사할 수 있는 연료 주입장치입니다. 수송기 여러 대를 한 번에 발사할 수 있지만, 각 발사대가 서로의 옆에 근접해야 합니다.</PodLauncher.description>
+  <PodLauncher.description>한 개의 수송 포드를 발사할 수 있는 연료 주입장치입니다. 수송 포드 여러 대를 한 번에 발사할 수 있지만, 각 발사대가 서로의 옆에 근접해야 합니다.</PodLauncher.description>
   <PodLauncher_Blueprint.label>발사대 (청사진)</PodLauncher_Blueprint.label>
   <PodLauncher_Frame.label>발사대 (건설 중)</PodLauncher_Frame.label>
-  <PodLauncher_Frame.description>한 개의 수송기를 발사할 수 있는 연료 주입장치입니다. 수송기 여러 대를 한 번에 발사할 수 있지만, 각 발사대가 서로의 옆에 근접해야 합니다.</PodLauncher_Frame.description>
+  <PodLauncher_Frame.description>한 개의 수송 포드를 발사할 수 있는 연료 주입장치입니다. 수송 포드 여러 대를 한 번에 발사할 수 있지만, 각 발사대가 서로의 옆에 근접해야 합니다.</PodLauncher_Frame.description>
 
-  <TransportPod.label>수송기</TransportPod.label>
-  <TransportPod.description>사람, 물건, 동물을 탑재할 수 있는 준궤도 수송 낙하기입니다. 수송, 기습, 전투 증원에 사용할 수 있습니다.</TransportPod.description>
-  <TransportPod_Blueprint.label>수송기 (청사진)</TransportPod_Blueprint.label>
-  <TransportPod_Frame.label>수송기 (건설 중)</TransportPod_Frame.label>
-  <TransportPod_Frame.description>사람, 물건, 동물을 탑재할 수 있는 준궤도 수송 낙하기입니다. 수송, 기습, 전투 증원에 사용할 수 있습니다.</TransportPod_Frame.description>
+  <TransportPod.label>수송 포드</TransportPod.label>
+  <TransportPod.description>사람, 물건, 동물을 탑재할 수 있는 준궤도 수송 포드입니다. 수송, 기습, 전투 증원에 사용할 수 있습니다.</TransportPod.description>
+  <TransportPod_Blueprint.label>수송 포드 (청사진)</TransportPod_Blueprint.label>
+  <TransportPod_Frame.label>수송 포드 (건설 중)</TransportPod_Frame.label>
+  <TransportPod_Frame.description>사람, 물건, 동물을 탑재할 수 있는 준궤도 수송 포드입니다. 수송, 기습, 전투 증원에 사용할 수 있습니다.</TransportPod_Frame.description>
 
 
   <!-- Facilities -->
@@ -121,11 +121,11 @@
   <PartySpot_Frame.label>파티 장소 (건설 중)</PartySpot_Frame.label>
   <PartySpot_Frame.description>파티가 열릴 자리를 지정합니다. 주위 구역을 사용합니다.</PartySpot_Frame.description>
 
-  <CaravanPackingSpot.label>상단 준비 장소</CaravanPackingSpot.label>
-  <CaravanPackingSpot.description>우리 상단이 출발하기 전 준비하는 자리를 지정합니다.</CaravanPackingSpot.description>
-  <CaravanPackingSpot_Blueprint.label>상단 준비 장소 (청사진)</CaravanPackingSpot_Blueprint.label>
-  <CaravanPackingSpot_Frame.label>상단 준비 장소 (건설 중)</CaravanPackingSpot_Frame.label>
-  <CaravanPackingSpot_Frame.description>우리 상단이 출발하기 전 준비하는 자리를 지정합니다.</CaravanPackingSpot_Frame.description>
+  <CaravanPackingSpot.label>캐러밴 준비 장소</CaravanPackingSpot.label>
+  <CaravanPackingSpot.description>우리의 캐러밴이 출발하기 전 준비하는 자리를 지정합니다.</CaravanPackingSpot.description>
+  <CaravanPackingSpot_Blueprint.label>캐러밴 준비 장소 (청사진)</CaravanPackingSpot_Blueprint.label>
+  <CaravanPackingSpot_Frame.label>캐러밴 준비 장소 (건설 중)</CaravanPackingSpot_Frame.label>
+  <CaravanPackingSpot_Frame.description>우리의 캐러밴이 출발하기 전 준비하는 자리를 지정합니다.</CaravanPackingSpot_Frame.description>
 
 
 </LanguageData>
