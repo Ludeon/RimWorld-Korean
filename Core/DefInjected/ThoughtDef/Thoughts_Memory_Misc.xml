@@ -39,10 +39,20 @@
   <!-- EN: defeated hostile leader -->
   <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>적의 지도자를 물리침</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
   
+  <!-- EN: defeated mech cluster -->
+  <DefeatedMechCluster.stages.defeated_mech_cluster.label>메카 전초기지 물리침</DefeatedMechCluster.stages.defeated_mech_cluster.label>
+  <!-- EN: Blood beats metal, you damn machines! -->
+  <DefeatedMechCluster.stages.defeated_mech_cluster.description>금속보다 혈통이 낫지, 알겠냐 기계들아!</DefeatedMechCluster.stages.defeated_mech_cluster.description>
+  
   <!-- EN: failed to rescue {0} -->
   <FailedToRescueRelative.stages.failed_to_rescue.label>{0} 구출 실패</FailedToRescueRelative.stages.failed_to_rescue.label>
   <!-- EN: We had a chance to rescue my relative, and failed. I could have helped! -->
   <FailedToRescueRelative.stages.failed_to_rescue.description>혈육을 구출하지 못했어. 도움을 줄 수도 있었다는걸 아니까 받아들이기 너무 힘들어.</FailedToRescueRelative.stages.failed_to_rescue.description>
+  
+  <!-- EN: freed from slavery -->
+  <FreedFromSlavery.stages.freed_from_slavery.label>포로 풀려남</FreedFromSlavery.stages.freed_from_slavery.label>
+  <!-- EN: I have been freed from slavery. I'm so thankful! -->
+  <FreedFromSlavery.stages.freed_from_slavery.description>날 풀어주다니. 정말 고마워!</FreedFromSlavery.stages.freed_from_slavery.description>
   
   <!-- EN: killed someone -->
   <KilledHumanlikeBloodlust.stages.killed_someone.label>누군가를 죽임</KilledHumanlikeBloodlust.stages.killed_someone.label>
@@ -50,7 +60,7 @@
   <KilledHumanlikeBloodlust.stages.killed_someone.description>내 손으로 사람을 죽였어! 끝내주는데!</KilledHumanlikeBloodlust.stages.killed_someone.description>
   
   <!-- EN: buried in sarcophagus -->
-  <KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>석관 매장</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>
+  <KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>관 매장</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.label>
   <!-- EN: This colony buried someone in an ornamented sarcophagus. May their soul rest in peace. -->
   <KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>사망자를 장식된 관에 묻어줬어. 그의 영혼이 안식을 찾길.</KnowBuriedInSarcophagus.stages.buried_in_sarcophagus.description>
   
@@ -69,10 +79,10 @@
   <!-- EN: The colony took body parts from a guest or prisoner. It's horrible, breaking someone down for parts when they have no choice. -->
   <KnowGuestOrganHarvested.stages.someones_organ_harvested.description>정착지에서 누군가의 몸 일부를 적출했어. 선택지가 없는 사람의 몸을 해체한다니 끔찍해. </KnowGuestOrganHarvested.stages.someones_organ_harvested.description>
   
-  <!-- EN: a prisoner was sold -->
-  <KnowPrisonerSold.stages.a_prisoner_was_sold.label>수감자가 팔림</KnowPrisonerSold.stages.a_prisoner_was_sold.label>
+  <!-- EN: prisoner sold -->
+  <KnowPrisonerSold.stages.prisoner_sold.label>수감자가 팔림</KnowPrisonerSold.stages.prisoner_sold.label>
   <!-- EN: This colony sold a prisoner into slavery. That's a worrying thought. -->
-  <KnowPrisonerSold.stages.a_prisoner_was_sold.description>정착지에서 수감자를 노예로 팔아버렸어. 좀 걱정되는 일이야.</KnowPrisonerSold.stages.a_prisoner_was_sold.description>
+  <KnowPrisonerSold.stages.prisoner_sold.description>정착지에서 수감자를 노예로 팔아버렸어. 좀 걱정되는 일이야.</KnowPrisonerSold.stages.prisoner_sold.description>
   
   <!-- EN: my organ harvested -->
   <MyOrganHarvested.stages.my_organ_harvested.label>내 장기가 적출됨</MyOrganHarvested.stages.my_organ_harvested.label>
@@ -104,10 +114,20 @@
   <!-- EN: I saw a rotting corpse laying on the ground. It was disgusting. -->
   <ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>시체가 묻히지 못하고 썩어가는 광경을 봤어. 역겨워.</ObservedLayingRottingCorpse.stages.observed_rotting_corpse.description>
   
+  <!-- EN: on duty -->
+  <OnDuty.stages.on_duty.label>근무 중</OnDuty.stages.on_duty.label>
+  <!-- EN: I have a job to do. -->
+  <OnDuty.stages.on_duty.description>난 할 일이 있어.</OnDuty.stages.on_duty.description>
+  
   <!-- EN: prisoner banished to death -->
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>죽도록 버려진 수감자</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
   <!-- EN: We banished a prisoner in such a way that there's almost no way they'll survive. -->
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>수감자를 버려두고 떠났어. 살아남지 못할거야.</PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>
+  
+  <!-- EN: prisoner released -->
+  <ReleasedHealthyPrisoner.stages.prisoner_released.label>수감자 석방</ReleasedHealthyPrisoner.stages.prisoner_released.label>
+  <!-- EN: We released a healthy prisoner. It feels good to know we even treat prisoners well. -->
+  <ReleasedHealthyPrisoner.stages.prisoner_released.description>건강한 수감자를 풀어줬어. 수감자에게 대우를 잘해준건 좋은 것 같아.</ReleasedHealthyPrisoner.stages.prisoner_released.description>
   
   <!-- EN: rescued -->
   <Rescued.stages.rescued.label>구조됨</Rescued.stages.rescued.label>
@@ -147,7 +167,7 @@
   <!-- EN: soaking wet -->
   <SoakingWet.stages.soaking_wet.label>흠뻑 젖음</SoakingWet.stages.soaking_wet.label>
   <!-- EN: I'm soaking wet. -->
-  <SoakingWet.stages.soaking_wet.description>물을 건너다가 흠뻑 젖어버렸어.</SoakingWet.stages.soaking_wet.description>
+  <SoakingWet.stages.soaking_wet.description>물에 흠뻑 젖어버렸어.</SoakingWet.stages.soaking_wet.description>
   
   <!-- EN: was imprisoned -->
   <WasImprisoned.stages.was_imprisoned.label>수감된 적이 있음</WasImprisoned.stages.was_imprisoned.label>

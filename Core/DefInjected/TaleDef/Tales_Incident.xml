@@ -4,15 +4,15 @@
   <!-- EN: aurora -->
   <Aurora.label>오로라</Aurora.label>
   <!-- EN: tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community] -->
-  <Aurora.rulePack.rulesStrings.0>tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community]</Aurora.rulePack.rulesStrings.0>
+  <Aurora.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community] 오로라가 나타난 시간</Aurora.rulePack.rulesStrings.0>
   <!-- EN: tale_noun->the time polar lights shone over [PAWN_nameDef]'s [Community] -->
-  <Aurora.rulePack.rulesStrings.1>tale_noun->the time polar lights shone over [PAWN_nameDef]'s [Community]</Aurora.rulePack.rulesStrings.1>
+  <Aurora.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community] 너머 북극성이 반짝이는 때</Aurora.rulePack.rulesStrings.1>
   <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] illuminated by the light of an aurora -->
-  <Aurora.rulePack.rulesStrings.2>tale_noun->[PAWN_nameDef]'s [Community] illuminated by the light of an aurora</Aurora.rulePack.rulesStrings.2>
+  <Aurora.rulePack.rulesStrings.2>tale_noun->[PAWN_nameDef]의 [Community]에 오로라의 빛살이 비추는 모습</Aurora.rulePack.rulesStrings.2>
   <!-- EN: image->the sky illuminated in [Color]s and [Color]s [circumstance_phrase] -->
   <Aurora.rulePack.rulesStrings.3>image->the sky illuminated in [Color]s and [Color]s [circumstance_phrase]</Aurora.rulePack.rulesStrings.3>
   <!-- EN: image->a fabulous pattern of [Color] rays [circumstance_phrase] -->
-  <Aurora.rulePack.rulesStrings.4>image->a fabulous pattern of [Color] rays [circumstance_phrase]</Aurora.rulePack.rulesStrings.4>
+  <Aurora.rulePack.rulesStrings.4>image->[circumstance_phrase] 멋진 [Color] 줄기</Aurora.rulePack.rulesStrings.4>
   <!-- EN: image->a network of [Color] lights [circumstance_phrase] -->
   <Aurora.rulePack.rulesStrings.5>image->a network of [Color] lights [circumstance_phrase]</Aurora.rulePack.rulesStrings.5>
   <!-- EN: image->[Color] swooping arcs with [Color] highlights [circumstance_phrase] -->
@@ -20,21 +20,21 @@
   <!-- EN: image->dancing [Color] lights [circumstance_group] -->
   <Aurora.rulePack.rulesStrings.7>image->dancing [Color] lights [circumstance_group]</Aurora.rulePack.rulesStrings.7>
   <!-- EN: circumstance_phrase->over a [TerrainFeature] -->
-  <Aurora.rulePack.rulesStrings.8>circumstance_phrase->over a [TerrainFeature]</Aurora.rulePack.rulesStrings.8>
+  <Aurora.rulePack.rulesStrings.8>circumstance_phrase->[TerrainFeature] 너머</Aurora.rulePack.rulesStrings.8>
   <!-- EN: circumstance_phrase->illuminating a [TerrainFeature] -->
-  <Aurora.rulePack.rulesStrings.9>circumstance_phrase->illuminating a [TerrainFeature]</Aurora.rulePack.rulesStrings.9>
+  <Aurora.rulePack.rulesStrings.9>circumstance_phrase->[TerrainFeature](을)를 비추는</Aurora.rulePack.rulesStrings.9>
   <!-- EN: circumstance_phrase->floating over a [Community] -->
-  <Aurora.rulePack.rulesStrings.10>circumstance_phrase->floating over a [Community]</Aurora.rulePack.rulesStrings.10>
+  <Aurora.rulePack.rulesStrings.10>circumstance_phrase->[Community] 너머에 떠 있는</Aurora.rulePack.rulesStrings.10>
   <!-- EN: circumstance_phrase->bracketed between a [TerrainFeature] and a [TerrainFeature] -->
-  <Aurora.rulePack.rulesStrings.11>circumstance_phrase->bracketed between a [TerrainFeature] and a [TerrainFeature]</Aurora.rulePack.rulesStrings.11>
+  <Aurora.rulePack.rulesStrings.11>circumstance_phrase->[TerrainFeature](와)과 [TerrainFeature] 사이에</Aurora.rulePack.rulesStrings.11>
   <!-- EN: desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look. -->
   <Aurora.rulePack.rulesStrings.12>desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look.</Aurora.rulePack.rulesStrings.12>
   <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Aurora.rulePack.rulesStrings.13>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</Aurora.rulePack.rulesStrings.13>
+  <Aurora.rulePack.rulesStrings.13>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Aurora.rulePack.rulesStrings.13>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below. -->
   <Aurora.rulePack.rulesStrings.14>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</Aurora.rulePack.rulesStrings.14>
   <!-- EN: desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky. -->
-  <Aurora.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</Aurora.rulePack.rulesStrings.15>
+  <Aurora.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef](은)는 [TerrainFeature] 근처에 앉아 하늘을 바라봅니다.</Aurora.rulePack.rulesStrings.15>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully. -->
   <Aurora.rulePack.rulesStrings.16>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</Aurora.rulePack.rulesStrings.16>
   <!-- EN: desc_sentence->There is no [Enemy] in sight. -->
@@ -237,24 +237,81 @@
   <!-- EN: desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look. -->
   <Eclipse.rulePack.rulesStrings.9>desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look.</Eclipse.rulePack.rulesStrings.9>
   <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Eclipse.rulePack.rulesStrings.10>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</Eclipse.rulePack.rulesStrings.10>
+  <Eclipse.rulePack.rulesStrings.10>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Eclipse.rulePack.rulesStrings.10>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below. -->
   <Eclipse.rulePack.rulesStrings.11>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</Eclipse.rulePack.rulesStrings.11>
   <!-- EN: desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky. -->
-  <Eclipse.rulePack.rulesStrings.12>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</Eclipse.rulePack.rulesStrings.12>
+  <Eclipse.rulePack.rulesStrings.12>desc_sentence->[PAWN_nameDef](은)는 [TerrainFeature] 근처에 앉아 하늘을 바라봅니다.</Eclipse.rulePack.rulesStrings.12>
   <!-- EN: desc_sentence->A [Community] of spectators watches the sky peacefully. -->
   <Eclipse.rulePack.rulesStrings.13>desc_sentence->A [Community] of spectators watches the sky peacefully.</Eclipse.rulePack.rulesStrings.13>
   <!-- EN: desc_sentence->There is no [Enemy] in sight. -->
   <Eclipse.rulePack.rulesStrings.14>desc_sentence->There is no [Enemy] in sight.</Eclipse.rulePack.rulesStrings.14>
   
+  <!-- EN: journey offer -->
+  <EndGame_ShipEscape.label>journey offer</EndGame_ShipEscape.label>
+  <!-- EN: tale_noun->[PAWN_nameDef] receiving a message from an old friend -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef] receiving a message from an old friend</EndGame_ShipEscape.rulePack.rulesStrings.0>
+  <!-- EN: tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.1>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</EndGame_ShipEscape.rulePack.rulesStrings.1>
+  <!-- EN: image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.2>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.2>
+  <!-- EN: image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.3>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.3>
+  <!-- EN: image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.4>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.4>
+  <!-- EN: image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.5>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.5>
+  <!-- EN: image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.6>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.6>
+  <!-- EN: image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.7>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.7>
+  <!-- EN: delivery_method->a [Animal] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.8>delivery_method->a [Animal]</EndGame_ShipEscape.rulePack.rulesStrings.8>
+  <!-- EN: delivery_method->a [PersonJob] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.9>delivery_method->a [PersonJob]</EndGame_ShipEscape.rulePack.rulesStrings.9>
+  <!-- EN: delivery_method->[Quantity_adjphrase] [Animal]s -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.10>delivery_method->[Quantity_adjphrase] [Animal]s</EndGame_ShipEscape.rulePack.rulesStrings.10>
+  <!-- EN: transmission_source->a rarely-used frequency -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.11>transmission_source->a rarely-used frequency</EndGame_ShipEscape.rulePack.rulesStrings.11>
+  <!-- EN: transmission_source->an ancient transmitter -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.12>transmission_source->an ancient transmitter</EndGame_ShipEscape.rulePack.rulesStrings.12>
+  <!-- EN: transmission_source->a low-power signal -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.13>transmission_source->a low-power signal</EndGame_ShipEscape.rulePack.rulesStrings.13>
+  <!-- EN: transmission_source->a long-range signal -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.14>transmission_source->a long-range signal</EndGame_ShipEscape.rulePack.rulesStrings.14>
+  <!-- EN: transmission_source->a mysterious signal -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.15>transmission_source->a mysterious signal</EndGame_ShipEscape.rulePack.rulesStrings.15>
+  <!-- EN: circumstance_phrase->standing alone near a [TerrainFeature] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.16>circumstance_phrase->standing alone near a [TerrainFeature]</EndGame_ShipEscape.rulePack.rulesStrings.16>
+  <!-- EN: circumstance_phrase->exploring a [TerrainFeature] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.17>circumstance_phrase->exploring a [TerrainFeature]</EndGame_ShipEscape.rulePack.rulesStrings.17>
+  <!-- EN: circumstance_phrase->tending crops -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.18>circumstance_phrase->tending crops</EndGame_ShipEscape.rulePack.rulesStrings.18>
+  <!-- EN: circumstance_phrase->a [Animal] wanders past -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.19>circumstance_phrase->a [Animal] wanders past</EndGame_ShipEscape.rulePack.rulesStrings.19>
+  <!-- EN: circumstance_phrase->playing [Game] -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.20>circumstance_phrase->playing [Game]</EndGame_ShipEscape.rulePack.rulesStrings.20>
+  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware. -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.21>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</EndGame_ShipEscape.rulePack.rulesStrings.21>
+  <!-- EN: desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly]. -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.22>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</EndGame_ShipEscape.rulePack.rulesStrings.22>
+  <!-- EN: desc_sentence->A spectral [PersonJob] watches from the clouds. -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.23>desc_sentence->A spectral [PersonJob] watches from the clouds.</EndGame_ShipEscape.rulePack.rulesStrings.23>
+  <!-- EN: desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature]. -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.24>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</EndGame_ShipEscape.rulePack.rulesStrings.24>
+  <!-- EN: desc_sentence->A [Community] is visible in the far distance. -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.25>desc_sentence->A [Community] is visible in the far distance.</EndGame_ShipEscape.rulePack.rulesStrings.25>
+  <!-- EN: desc_sentence->A spaceship is visible in the far distance. -->
+  <EndGame_ShipEscape.rulePack.rulesStrings.26>desc_sentence->A spaceship is visible in the far distance.</EndGame_ShipEscape.rulePack.rulesStrings.26>
+  
   <!-- EN: flashstorm -->
   <Flashstorm.label>섬광폭풍</Flashstorm.label>
   <!-- EN: tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community] -->
-  <Flashstorm.rulePack.rulesStrings.0>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</Flashstorm.rulePack.rulesStrings.0>
+  <Flashstorm.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community](을)를 위협하는 섬광폭풍</Flashstorm.rulePack.rulesStrings.0>
   <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm -->
-  <Flashstorm.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm</Flashstorm.rulePack.rulesStrings.1>
+  <Flashstorm.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community](이)가 치명적인 섬광폭풍에 위협받는 모습</Flashstorm.rulePack.rulesStrings.1>
   <!-- EN: image->[Quantity_adjphrase] lightning strikes [circumstance_phrase] -->
-  <Flashstorm.rulePack.rulesStrings.2>image->[Quantity_adjphrase] lightning strikes [circumstance_phrase]</Flashstorm.rulePack.rulesStrings.2>
+  <Flashstorm.rulePack.rulesStrings.2>image->[Quantity_adjphrase]의 [circumstance_phrase] 번개가 치는 모습</Flashstorm.rulePack.rulesStrings.2>
   <!-- EN: image->[behavior] wall of flames [circumstance_phrase] -->
   <Flashstorm.rulePack.rulesStrings.3>image->[behavior] wall of flames [circumstance_phrase]</Flashstorm.rulePack.rulesStrings.3>
   <!-- EN: image->[behavior] wall of [Color] flames [circumstance_phrase] -->
@@ -270,25 +327,25 @@
   <!-- EN: behavior->an approaching -->
   <Flashstorm.rulePack.rulesStrings.9>behavior->an approaching</Flashstorm.rulePack.rulesStrings.9>
   <!-- EN: circumstance_phrase->advancing towards a [Community] -->
-  <Flashstorm.rulePack.rulesStrings.10>circumstance_phrase->advancing towards a [Community]</Flashstorm.rulePack.rulesStrings.10>
+  <Flashstorm.rulePack.rulesStrings.10>circumstance_phrase->[Community](을)를 향해 다가오며</Flashstorm.rulePack.rulesStrings.10>
   <!-- EN: circumstance_phrase->underneath an intimidating cloud -->
-  <Flashstorm.rulePack.rulesStrings.11>circumstance_phrase->underneath an intimidating cloud</Flashstorm.rulePack.rulesStrings.11>
+  <Flashstorm.rulePack.rulesStrings.11>circumstance_phrase->위협적인 구름 아래에</Flashstorm.rulePack.rulesStrings.11>
   <!-- EN: circumstance_phrase->nearly enveloping a [TerrainFeature] -->
-  <Flashstorm.rulePack.rulesStrings.12>circumstance_phrase->nearly enveloping a [TerrainFeature]</Flashstorm.rulePack.rulesStrings.12>
+  <Flashstorm.rulePack.rulesStrings.12>circumstance_phrase->[TerrainFeature](을)를 감싸고</Flashstorm.rulePack.rulesStrings.12>
   <!-- EN: circumstance_phrase->nearly enveloping [Quantity_adjphrase] [TerrainFeature]s -->
-  <Flashstorm.rulePack.rulesStrings.13>circumstance_phrase->nearly enveloping [Quantity_adjphrase] [TerrainFeature]s</Flashstorm.rulePack.rulesStrings.13>
+  <Flashstorm.rulePack.rulesStrings.13>circumstance_phrase->[Quantity_adjphrase] [TerrainFeature]들을 감싸고</Flashstorm.rulePack.rulesStrings.13>
   <!-- EN: desc_sentence->[PAWN_nameDef] watches with visible fright. -->
-  <Flashstorm.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef] watches with visible fright.</Flashstorm.rulePack.rulesStrings.14>
+  <Flashstorm.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef](은)는 겁에 질린 표정으로 감시합니다.</Flashstorm.rulePack.rulesStrings.14>
   <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Flashstorm.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</Flashstorm.rulePack.rulesStrings.15>
+  <Flashstorm.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Flashstorm.rulePack.rulesStrings.15>
   <!-- EN: desc_sentence->[PAWN_nameDef] is coordinating defensive measures. -->
-  <Flashstorm.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</Flashstorm.rulePack.rulesStrings.16>
+  <Flashstorm.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef](은)는 대책을 강구하고 있습니다.</Flashstorm.rulePack.rulesStrings.16>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare. -->
-  <Flashstorm.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</Flashstorm.rulePack.rulesStrings.17>
+  <Flashstorm.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase]명의 [PersonJob]들이 서둘러 준비하고 있습니다.</Flashstorm.rulePack.rulesStrings.17>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Flashstorm.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</Flashstorm.rulePack.rulesStrings.18>
+  <Flashstorm.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Flashstorm.rulePack.rulesStrings.18>
   <!-- EN: desc_sentence->All animal life has left the area. -->
-  <Flashstorm.rulePack.rulesStrings.19>desc_sentence->All animal life has left the area.</Flashstorm.rulePack.rulesStrings.19>
+  <Flashstorm.rulePack.rulesStrings.19>desc_sentence->모든 동물이 이 지역을 떠났습니다.</Flashstorm.rulePack.rulesStrings.19>
   
   <!-- EN: infestation -->
   <Infestation.label>감염</Infestation.label>
@@ -329,66 +386,9 @@
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
   <Infestation.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</Infestation.rulePack.rulesStrings.17>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Infestation.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</Infestation.rulePack.rulesStrings.18>
+  <Infestation.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Infestation.rulePack.rulesStrings.18>
   <!-- EN: desc_sentence->All animal life has left the area. -->
-  <Infestation.rulePack.rulesStrings.19>desc_sentence->All animal life has left the area.</Infestation.rulePack.rulesStrings.19>
-  
-  <!-- EN: journey offer -->
-  <JourneyOffer.label>journey offer</JourneyOffer.label>
-  <!-- EN: tale_noun->[PAWN_nameDef] receiving a message from an old friend -->
-  <JourneyOffer.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef] receiving a message from an old friend</JourneyOffer.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community] -->
-  <JourneyOffer.rulePack.rulesStrings.1>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</JourneyOffer.rulePack.rulesStrings.1>
-  <!-- EN: image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group] -->
-  <JourneyOffer.rulePack.rulesStrings.2>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</JourneyOffer.rulePack.rulesStrings.2>
-  <!-- EN: image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group] -->
-  <JourneyOffer.rulePack.rulesStrings.3>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</JourneyOffer.rulePack.rulesStrings.3>
-  <!-- EN: image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group] -->
-  <JourneyOffer.rulePack.rulesStrings.4>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</JourneyOffer.rulePack.rulesStrings.4>
-  <!-- EN: image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group] -->
-  <JourneyOffer.rulePack.rulesStrings.5>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</JourneyOffer.rulePack.rulesStrings.5>
-  <!-- EN: image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group] -->
-  <JourneyOffer.rulePack.rulesStrings.6>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</JourneyOffer.rulePack.rulesStrings.6>
-  <!-- EN: image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group] -->
-  <JourneyOffer.rulePack.rulesStrings.7>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</JourneyOffer.rulePack.rulesStrings.7>
-  <!-- EN: delivery_method->a [Animal] -->
-  <JourneyOffer.rulePack.rulesStrings.8>delivery_method->a [Animal]</JourneyOffer.rulePack.rulesStrings.8>
-  <!-- EN: delivery_method->a [PersonJob] -->
-  <JourneyOffer.rulePack.rulesStrings.9>delivery_method->a [PersonJob]</JourneyOffer.rulePack.rulesStrings.9>
-  <!-- EN: delivery_method->[Quantity_adjphrase] [Animal]s -->
-  <JourneyOffer.rulePack.rulesStrings.10>delivery_method->[Quantity_adjphrase] [Animal]s</JourneyOffer.rulePack.rulesStrings.10>
-  <!-- EN: transmission_source->a rarely-used frequency -->
-  <JourneyOffer.rulePack.rulesStrings.11>transmission_source->a rarely-used frequency</JourneyOffer.rulePack.rulesStrings.11>
-  <!-- EN: transmission_source->an ancient transmitter -->
-  <JourneyOffer.rulePack.rulesStrings.12>transmission_source->an ancient transmitter</JourneyOffer.rulePack.rulesStrings.12>
-  <!-- EN: transmission_source->a low-power signal -->
-  <JourneyOffer.rulePack.rulesStrings.13>transmission_source->a low-power signal</JourneyOffer.rulePack.rulesStrings.13>
-  <!-- EN: transmission_source->a long-range signal -->
-  <JourneyOffer.rulePack.rulesStrings.14>transmission_source->a long-range signal</JourneyOffer.rulePack.rulesStrings.14>
-  <!-- EN: transmission_source->a mysterious signal -->
-  <JourneyOffer.rulePack.rulesStrings.15>transmission_source->a mysterious signal</JourneyOffer.rulePack.rulesStrings.15>
-  <!-- EN: circumstance_phrase->standing alone near a [TerrainFeature] -->
-  <JourneyOffer.rulePack.rulesStrings.16>circumstance_phrase->standing alone near a [TerrainFeature]</JourneyOffer.rulePack.rulesStrings.16>
-  <!-- EN: circumstance_phrase->exploring a [TerrainFeature] -->
-  <JourneyOffer.rulePack.rulesStrings.17>circumstance_phrase->exploring a [TerrainFeature]</JourneyOffer.rulePack.rulesStrings.17>
-  <!-- EN: circumstance_phrase->tending crops -->
-  <JourneyOffer.rulePack.rulesStrings.18>circumstance_phrase->tending crops</JourneyOffer.rulePack.rulesStrings.18>
-  <!-- EN: circumstance_phrase->a [Animal] wanders past -->
-  <JourneyOffer.rulePack.rulesStrings.19>circumstance_phrase->a [Animal] wanders past</JourneyOffer.rulePack.rulesStrings.19>
-  <!-- EN: circumstance_phrase->playing [Game] -->
-  <JourneyOffer.rulePack.rulesStrings.20>circumstance_phrase->playing [Game]</JourneyOffer.rulePack.rulesStrings.20>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware. -->
-  <JourneyOffer.rulePack.rulesStrings.21>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</JourneyOffer.rulePack.rulesStrings.21>
-  <!-- EN: desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly]. -->
-  <JourneyOffer.rulePack.rulesStrings.22>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</JourneyOffer.rulePack.rulesStrings.22>
-  <!-- EN: desc_sentence->A spectral [PersonJob] watches from the clouds. -->
-  <JourneyOffer.rulePack.rulesStrings.23>desc_sentence->A spectral [PersonJob] watches from the clouds.</JourneyOffer.rulePack.rulesStrings.23>
-  <!-- EN: desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature]. -->
-  <JourneyOffer.rulePack.rulesStrings.24>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</JourneyOffer.rulePack.rulesStrings.24>
-  <!-- EN: desc_sentence->A [Community] is visible in the far distance. -->
-  <JourneyOffer.rulePack.rulesStrings.25>desc_sentence->A [Community] is visible in the far distance.</JourneyOffer.rulePack.rulesStrings.25>
-  <!-- EN: desc_sentence->A spaceship is visible in the far distance. -->
-  <JourneyOffer.rulePack.rulesStrings.26>desc_sentence->A spaceship is visible in the far distance.</JourneyOffer.rulePack.rulesStrings.26>
+  <Infestation.rulePack.rulesStrings.19>desc_sentence->모든 동물이 이 지역을 떠났습니다.</Infestation.rulePack.rulesStrings.19>
   
   <!-- EN: manhunter pack -->
   <ManhunterPack.label>식인동물 무리</ManhunterPack.label>
@@ -441,63 +441,63 @@
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
   <ManhunterPack.rulePack.rulesStrings.23>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</ManhunterPack.rulePack.rulesStrings.23>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <ManhunterPack.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</ManhunterPack.rulePack.rulesStrings.24>
+  <ManhunterPack.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</ManhunterPack.rulePack.rulesStrings.24>
   
   <!-- EN: meteorite impact -->
   <MeteoriteImpact.label>운석 낙하</MeteoriteImpact.label>
   <!-- EN: tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community] -->
-  <MeteoriteImpact.rulePack.rulesStrings.0>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</MeteoriteImpact.rulePack.rulesStrings.0>
+  <MeteoriteImpact.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community] 근처에 떨어지는 운석</MeteoriteImpact.rulePack.rulesStrings.0>
   <!-- EN: tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community] -->
-  <MeteoriteImpact.rulePack.rulesStrings.1>tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community]</MeteoriteImpact.rulePack.rulesStrings.1>
+  <MeteoriteImpact.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community] 근처에 충돌하는 운석</MeteoriteImpact.rulePack.rulesStrings.1>
   <!-- EN: image->a [AdjectiveLarge] rock trailing [Color] flames [airborne_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.2>image->a [AdjectiveLarge] rock trailing [Color] flames [airborne_circumstance]</MeteoriteImpact.rulePack.rulesStrings.2>
+  <MeteoriteImpact.rulePack.rulesStrings.2>image->[airborne_circumstance] [Color] 불꽃의 [AdjectiveLarge] 바위 덩어리</MeteoriteImpact.rulePack.rulesStrings.2>
   <!-- EN: image->a brightly-glowing spot [airborne_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.3>image->a brightly-glowing spot [airborne_circumstance]</MeteoriteImpact.rulePack.rulesStrings.3>
+  <MeteoriteImpact.rulePack.rulesStrings.3>image->[airborne_circumstance] 밝게 빛나는 장소</MeteoriteImpact.rulePack.rulesStrings.3>
   <!-- EN: image->a [AdjectiveLarge] [Color] fireball [airborne_circumstance] -->
   <MeteoriteImpact.rulePack.rulesStrings.4>image->a [AdjectiveLarge] [Color] fireball [airborne_circumstance]</MeteoriteImpact.rulePack.rulesStrings.4>
   <!-- EN: airborne_circumstance->blazing across the sky -->
-  <MeteoriteImpact.rulePack.rulesStrings.5>airborne_circumstance->blazing across the sky</MeteoriteImpact.rulePack.rulesStrings.5>
+  <MeteoriteImpact.rulePack.rulesStrings.5>airborne_circumstance->하늘을 가로질러 타오르는</MeteoriteImpact.rulePack.rulesStrings.5>
   <!-- EN: airborne_circumstance->falling to the ground in a cloud of ash -->
   <MeteoriteImpact.rulePack.rulesStrings.6>airborne_circumstance->falling to the ground in a cloud of ash</MeteoriteImpact.rulePack.rulesStrings.6>
   <!-- EN: airborne_circumstance->shedding rocks and debris as it flies -->
-  <MeteoriteImpact.rulePack.rulesStrings.7>airborne_circumstance->shedding rocks and debris as it flies</MeteoriteImpact.rulePack.rulesStrings.7>
+  <MeteoriteImpact.rulePack.rulesStrings.7>airborne_circumstance->바위와 파편이 떨어져 나가며</MeteoriteImpact.rulePack.rulesStrings.7>
   <!-- EN: image->a [AdjectiveLarge] monolith, [ground_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.8>image->a [AdjectiveLarge] monolith, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.8>
+  <MeteoriteImpact.rulePack.rulesStrings.8>image->[ground_circumstance] [AdjectiveLarge] 거석</MeteoriteImpact.rulePack.rulesStrings.8>
   <!-- EN: image->a [AdjectiveLarge] [Color] scorched stone, [ground_circumstance] -->
   <MeteoriteImpact.rulePack.rulesStrings.9>image->a [AdjectiveLarge] [Color] scorched stone, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.9>
   <!-- EN: image->a [Color] pillar of rock, [ground_circumstance] -->
   <MeteoriteImpact.rulePack.rulesStrings.10>image->a [Color] pillar of rock, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.10>
   <!-- EN: ground_circumstance->surrounded by smoke and ash -->
-  <MeteoriteImpact.rulePack.rulesStrings.11>ground_circumstance->surrounded by smoke and ash</MeteoriteImpact.rulePack.rulesStrings.11>
+  <MeteoriteImpact.rulePack.rulesStrings.11>ground_circumstance->연기와 재로 둘러싸인</MeteoriteImpact.rulePack.rulesStrings.11>
   <!-- EN: ground_circumstance->smoking from heat -->
-  <MeteoriteImpact.rulePack.rulesStrings.12>ground_circumstance->smoking from heat</MeteoriteImpact.rulePack.rulesStrings.12>
+  <MeteoriteImpact.rulePack.rulesStrings.12>ground_circumstance->열을 받아 연기를 내뿜는</MeteoriteImpact.rulePack.rulesStrings.12>
   <!-- EN: ground_circumstance->surrounded by molten debris -->
-  <MeteoriteImpact.rulePack.rulesStrings.13>ground_circumstance->surrounded by molten debris</MeteoriteImpact.rulePack.rulesStrings.13>
+  <MeteoriteImpact.rulePack.rulesStrings.13>ground_circumstance->녹은 잔해로 둘러싸인</MeteoriteImpact.rulePack.rulesStrings.13>
   <!-- EN: ground_circumstance->partially embedded in the ground -->
-  <MeteoriteImpact.rulePack.rulesStrings.14>ground_circumstance->partially embedded in the ground</MeteoriteImpact.rulePack.rulesStrings.14>
+  <MeteoriteImpact.rulePack.rulesStrings.14>ground_circumstance->불안정하게 박혀있는</MeteoriteImpact.rulePack.rulesStrings.14>
   <!-- EN: ground_circumstance->lying in a cracked crater -->
-  <MeteoriteImpact.rulePack.rulesStrings.15>ground_circumstance->lying in a cracked crater</MeteoriteImpact.rulePack.rulesStrings.15>
+  <MeteoriteImpact.rulePack.rulesStrings.15>ground_circumstance->분화구 속에 누워있는</MeteoriteImpact.rulePack.rulesStrings.15>
   <!-- EN: desc_sentence->[PAWN_nameDef] looks on in surprise. -->
-  <MeteoriteImpact.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] looks on in surprise.</MeteoriteImpact.rulePack.rulesStrings.16>
+  <MeteoriteImpact.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef](이)가 놀란 표정으로 바라봅니다.</MeteoriteImpact.rulePack.rulesStrings.16>
   <!-- EN: desc_sentence->[PAWN_nameDef] looks on with excitement. -->
-  <MeteoriteImpact.rulePack.rulesStrings.17>desc_sentence->[PAWN_nameDef] looks on with excitement.</MeteoriteImpact.rulePack.rulesStrings.17>
+  <MeteoriteImpact.rulePack.rulesStrings.17>desc_sentence->[PAWN_nameDef](이)가 흥분한 표정으로 바라봅니다.</MeteoriteImpact.rulePack.rulesStrings.17>
   <!-- EN: desc_sentence->[PAWN_nameDef] looks on in shock. -->
-  <MeteoriteImpact.rulePack.rulesStrings.18>desc_sentence->[PAWN_nameDef] looks on in shock.</MeteoriteImpact.rulePack.rulesStrings.18>
+  <MeteoriteImpact.rulePack.rulesStrings.18>desc_sentence->[PAWN_nameDef](이)가 충격받은 표정으로 바라봅니다.</MeteoriteImpact.rulePack.rulesStrings.18>
   <!-- EN: desc_sentence->[Quantity_adjphrase] figures approach from a nearby [TerrainFeature]. -->
   <MeteoriteImpact.rulePack.rulesStrings.19>desc_sentence->[Quantity_adjphrase] figures approach from a nearby [TerrainFeature].</MeteoriteImpact.rulePack.rulesStrings.19>
   <!-- EN: desc_sentence->[Quantity_adjphrase] figures prepare tools and equipment. -->
-  <MeteoriteImpact.rulePack.rulesStrings.20>desc_sentence->[Quantity_adjphrase] figures prepare tools and equipment.</MeteoriteImpact.rulePack.rulesStrings.20>
+  <MeteoriteImpact.rulePack.rulesStrings.20>desc_sentence->[Quantity_adjphrase] 개의 도구와 장비가 준비되어 있습니다.</MeteoriteImpact.rulePack.rulesStrings.20>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly. -->
-  <MeteoriteImpact.rulePack.rulesStrings.21>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</MeteoriteImpact.rulePack.rulesStrings.21>
+  <MeteoriteImpact.rulePack.rulesStrings.21>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</MeteoriteImpact.rulePack.rulesStrings.21>
   <!-- EN: desc_sentence->The surroundings are muted and dull. -->
-  <MeteoriteImpact.rulePack.rulesStrings.22>desc_sentence->The surroundings are muted and dull.</MeteoriteImpact.rulePack.rulesStrings.22>
+  <MeteoriteImpact.rulePack.rulesStrings.22>desc_sentence->그 주변은 순간 정적이 흐릅니다.</MeteoriteImpact.rulePack.rulesStrings.22>
   
   <!-- EN: raid -->
   <Raid.label>습격</Raid.label>
   <!-- EN: tale_noun->an raid on [PAWN_nameDef]'s [Community] -->
-  <Raid.rulePack.rulesStrings.0>tale_noun->an raid on [PAWN_nameDef]'s [Community]</Raid.rulePack.rulesStrings.0>
+  <Raid.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community]에 대한 습격</Raid.rulePack.rulesStrings.0>
   <!-- EN: tale_noun->an assault on [PAWN_nameDef]'s [Community] -->
-  <Raid.rulePack.rulesStrings.1>tale_noun->an assault on [PAWN_nameDef]'s [Community]</Raid.rulePack.rulesStrings.1>
+  <Raid.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community]에 대한 공격</Raid.rulePack.rulesStrings.1>
   <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] being attacked by [Enemy]s -->
   <Raid.rulePack.rulesStrings.2>tale_noun->[PAWN_nameDef]'s [Community] being attacked by [Enemy]s</Raid.rulePack.rulesStrings.2>
   <!-- EN: image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase] -->
@@ -509,11 +509,11 @@
   <!-- EN: image->an invading force [circumstance_phrase] -->
   <Raid.rulePack.rulesStrings.6>image->an invading force [circumstance_phrase]</Raid.rulePack.rulesStrings.6>
   <!-- EN: image->stylized [Color] banners [circumstance_phrase] -->
-  <Raid.rulePack.rulesStrings.7>image->stylized [Color] banners [circumstance_phrase]</Raid.rulePack.rulesStrings.7>
+  <Raid.rulePack.rulesStrings.7>image->[circumstance_phrase] 정형화된 [Color] 깃발</Raid.rulePack.rulesStrings.7>
   <!-- EN: image->an enormous [Enemy] [circumstance_phrase] -->
   <Raid.rulePack.rulesStrings.8>image->an enormous [Enemy] [circumstance_phrase]</Raid.rulePack.rulesStrings.8>
   <!-- EN: circumstance_phrase->advancing over a [TerrainFeature] -->
-  <Raid.rulePack.rulesStrings.9>circumstance_phrase->advancing over a [TerrainFeature]</Raid.rulePack.rulesStrings.9>
+  <Raid.rulePack.rulesStrings.9>circumstance_phrase->[TerrainFeature](을)를 가로질러 전진하는</Raid.rulePack.rulesStrings.9>
   <!-- EN: circumstance_phrase->completely encircling a [Community] -->
   <Raid.rulePack.rulesStrings.10>circumstance_phrase->completely encircling a [Community]</Raid.rulePack.rulesStrings.10>
   <!-- EN: circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s -->
@@ -523,7 +523,7 @@
   <!-- EN: circumstance_phrase->brandishing [Weapon]s -->
   <Raid.rulePack.rulesStrings.13>circumstance_phrase->brandishing [Weapon]s</Raid.rulePack.rulesStrings.13>
   <!-- EN: circumstance_phrase->covered in [Gore] -->
-  <Raid.rulePack.rulesStrings.14>circumstance_phrase->covered in [Gore]</Raid.rulePack.rulesStrings.14>
+  <Raid.rulePack.rulesStrings.14>circumstance_phrase->[Gore]에 덮여</Raid.rulePack.rulesStrings.14>
   <!-- EN: desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance]. -->
   <Raid.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance].</Raid.rulePack.rulesStrings.15>
   <!-- EN: desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively while [defender_circumstance]. -->
@@ -535,15 +535,15 @@
   <!-- EN: desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance]. -->
   <Raid.rulePack.rulesStrings.19>desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance].</Raid.rulePack.rulesStrings.19>
   <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression. -->
-  <Raid.rulePack.rulesStrings.20>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</Raid.rulePack.rulesStrings.20>
+  <Raid.rulePack.rulesStrings.20>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveBadass] 표식을 착용하고 있습니다.</Raid.rulePack.rulesStrings.20>
   <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression. -->
-  <Raid.rulePack.rulesStrings.21>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</Raid.rulePack.rulesStrings.21>
+  <Raid.rulePack.rulesStrings.21>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveAngsty] 표식을 착용하고 있습니다.</Raid.rulePack.rulesStrings.21>
   <!-- EN: desc_sentence->The ground is coated in [Gore]. -->
   <Raid.rulePack.rulesStrings.22>desc_sentence->The ground is coated in [Gore].</Raid.rulePack.rulesStrings.22>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
   <Raid.rulePack.rulesStrings.23>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</Raid.rulePack.rulesStrings.23>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Raid.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</Raid.rulePack.rulesStrings.24>
+  <Raid.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Raid.rulePack.rulesStrings.24>
   <!-- EN: defender_circumstance->shouting triumphantly -->
   <Raid.rulePack.rulesStrings.25>defender_circumstance->shouting triumphantly</Raid.rulePack.rulesStrings.25>
   <!-- EN: defender_circumstance->glowing [Color] -->
@@ -606,7 +606,7 @@
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
   <ShipPartCrash.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</ShipPartCrash.rulePack.rulesStrings.24>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <ShipPartCrash.rulePack.rulesStrings.25>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</ShipPartCrash.rulePack.rulesStrings.25>
+  <ShipPartCrash.rulePack.rulesStrings.25>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</ShipPartCrash.rulePack.rulesStrings.25>
   <!-- EN: defender_circumstance->shouting triumphantly -->
   <ShipPartCrash.rulePack.rulesStrings.26>defender_circumstance->shouting triumphantly</ShipPartCrash.rulePack.rulesStrings.26>
   <!-- EN: defender_circumstance->glowing [Color] -->
@@ -647,17 +647,17 @@
   <!-- EN: circumstance_phrase->enveloping a [TerrainFeature] -->
   <Tornado.rulePack.rulesStrings.13>circumstance_phrase->enveloping a [TerrainFeature]</Tornado.rulePack.rulesStrings.13>
   <!-- EN: desc_sentence->[PAWN_nameDef] watches with visible fright. -->
-  <Tornado.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef] watches with visible fright.</Tornado.rulePack.rulesStrings.14>
+  <Tornado.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef](은)는 겁에 질린 표정으로 감시합니다.</Tornado.rulePack.rulesStrings.14>
   <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Tornado.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</Tornado.rulePack.rulesStrings.15>
+  <Tornado.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Tornado.rulePack.rulesStrings.15>
   <!-- EN: desc_sentence->[PAWN_nameDef] is coordinating defensive measures. -->
   <Tornado.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</Tornado.rulePack.rulesStrings.16>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare. -->
-  <Tornado.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</Tornado.rulePack.rulesStrings.17>
+  <Tornado.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase]명의 [PersonJob]들이 서둘러 준비하고 있습니다.</Tornado.rulePack.rulesStrings.17>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Tornado.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</Tornado.rulePack.rulesStrings.18>
+  <Tornado.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Tornado.rulePack.rulesStrings.18>
   <!-- EN: desc_sentence->All animal life has left the area. -->
-  <Tornado.rulePack.rulesStrings.19>desc_sentence->All animal life has left the area.</Tornado.rulePack.rulesStrings.19>
+  <Tornado.rulePack.rulesStrings.19>desc_sentence->모든 동물이 이 지역을 떠났습니다.</Tornado.rulePack.rulesStrings.19>
   
   <!-- EN: tornado -->
   <TornadoFromItem.label>토네이도</TornadoFromItem.label>
@@ -700,11 +700,11 @@
   <!-- EN: desc_sentence->[ATTACKER_nameDef] cackles with glee. -->
   <TornadoFromItem.rulePack.rulesStrings.18>desc_sentence->[ATTACKER_nameDef] cackles with glee.</TornadoFromItem.rulePack.rulesStrings.18>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare. -->
-  <TornadoFromItem.rulePack.rulesStrings.19>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</TornadoFromItem.rulePack.rulesStrings.19>
+  <TornadoFromItem.rulePack.rulesStrings.19>desc_sentence->[Quantity_adjphrase]명의 [PersonJob]들이 서둘러 준비하고 있습니다.</TornadoFromItem.rulePack.rulesStrings.19>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <TornadoFromItem.rulePack.rulesStrings.20>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</TornadoFromItem.rulePack.rulesStrings.20>
+  <TornadoFromItem.rulePack.rulesStrings.20>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</TornadoFromItem.rulePack.rulesStrings.20>
   <!-- EN: desc_sentence->All animal life has left the area. -->
-  <TornadoFromItem.rulePack.rulesStrings.21>desc_sentence->All animal life has left the area.</TornadoFromItem.rulePack.rulesStrings.21>
+  <TornadoFromItem.rulePack.rulesStrings.21>desc_sentence->모든 동물이 이 지역을 떠났습니다.</TornadoFromItem.rulePack.rulesStrings.21>
   
   <!-- EN: toxic fallout -->
   <ToxicFallout.label>독성 낙진</ToxicFallout.label>
@@ -743,7 +743,7 @@
   <!-- EN: desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground. -->
   <ToxicFallout.rulePack.rulesStrings.16>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</ToxicFallout.rulePack.rulesStrings.16>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly. -->
-  <ToxicFallout.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</ToxicFallout.rulePack.rulesStrings.17>
+  <ToxicFallout.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</ToxicFallout.rulePack.rulesStrings.17>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>화산 겨울</VolcanicWinter.label>
@@ -778,6 +778,6 @@
   <!-- EN: desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground. -->
   <VolcanicWinter.rulePack.rulesStrings.14>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</VolcanicWinter.rulePack.rulesStrings.14>
   <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly. -->
-  <VolcanicWinter.rulePack.rulesStrings.15>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</VolcanicWinter.rulePack.rulesStrings.15>
+  <VolcanicWinter.rulePack.rulesStrings.15>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</VolcanicWinter.rulePack.rulesStrings.15>
   
 </LanguageData>

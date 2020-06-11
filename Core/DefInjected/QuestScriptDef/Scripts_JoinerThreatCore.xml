@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off the [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+  -->
+  <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->자신을 [joiner_age]세 [joiner_title](이)라 밝힌 [joiner_nameDef](이)가 근처에서 연락했습니다. 자신이 [enemyFaction_pawnsPlural]에게 쫓기고 있다고 알려오고 있습니다.\n\n[joiner_pronoun](이)가 보호를 요청하며 [map_definite]에 합류를 원하고 있습니다.[joiner_relationInfo]\n\n받아들일 경우 [joiner_possessive] 뒤를 쫒는 [enemyFaction_pawnsPluralDef](와)과 싸워야 할 것입니다. [enemyFaction_pawnsPlural]의 추적자들은 다음과 같이 구성되어 있습니다.\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef]에게 더 자세한 정보를 바라기엔, 너무 흥분해 있는 듯 합니다.</li>
+  </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Saving [runnerIndef]</li>
+    <li>questName->The Salvation of [runnerIndef]</li>
+    <li>questName->Helping [runnerIndef]</li>
+    <li>questName->Accepting [runnerIndef]</li>
+    <li>questName->[enemyFaction_pawnsPlural] hunting [runnerIndef]</li>
+    <li>questName->[runnerIndef] on the Run</li>
+    <li>questName->[runnerIndef] Seeks a Home</li>
+    <li>questName->[runnerIndef] Chased by [enemyFaction_pawnsPlural]</li>
+    <li>questName->[runnerIndef] and [enemyFaction_pawnsPlural]</li>
+    <li>runnerIndef->[joiner_titleIndef]</li>
+    <li>runnerIndef->[joiner_nameIndef]</li>
+    <li>runnerIndef->a Refugee</li>
+  -->
+  <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
+    <li>questName->[runnerIndef] 보호</li>
+    <li>questName->[runnerIndef] 구원</li>
+    <li>questName->[runnerIndef](을)를 도움</li>
+    <li>questName->[runnerIndef]의 요청 수락</li>
+    <li>questName->[enemyFaction_pawnsPlural]의 [runnerIndef]사냥</li>
+    <li>questName->도망치는 [runnerIndef]</li>
+    <li>questName->집을 찾는 [runnerIndef]</li>
+    <li>questName->[runnerIndef]을 쫓는 [enemyFaction_pawnsPlural]</li>
+    <li>questName->[runnerIndef]와 [enemyFaction_pawnsPlural]</li>
+    <li>runnerIndef->[joiner_titleIndef]</li>
+    <li>runnerIndef->[joiner_nameIndef]</li>
+    <li>runnerIndef->난민</li>
+  </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
+  <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
+  <ThreatReward_Raid_Joiner.LetterLabelCashing.value.slateRef>[../joiner_nameDef](을)를 쫓는 {BASELABEL}</ThreatReward_Raid_Joiner.LetterLabelCashing.value.slateRef>
+  <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
+  <ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>{BASETEXT}\n              \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameDef](을)를 쫒아 도착했습니다.</ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>
+  
+</LanguageData>

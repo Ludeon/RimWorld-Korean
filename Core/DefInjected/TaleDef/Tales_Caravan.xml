@@ -41,15 +41,15 @@
     <li>circumstance_phrase->승리의 함성을 지르며</li>
     <li>circumstance_phrase->[Weapon](을)를 휘두르며</li>
     <li>circumstance_phrase->[Gore](을)를 뒤집어 쓰고도</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]들이 진격하고, [Weapon](을)를 휘두릅니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy]들이 진격하고, [Weapon](을)를 휘두릅니다.</li>
     <li>desc_sentence->수 많은 [Enemy]들의 진격, [Weapon](을)를 휘두릅니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]들이 [AdjectiveBadass]을 부르짖으며 진격합니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]들이 진격하자, [AdjectiveAngsty](을)를 느낍니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy]들이 [AdjectiveBadass]을 부르짖으며 진격합니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy]들이 진격하자, [AdjectiveAngsty](을)를 느낍니다.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Color] 눈으로 [Animal]들이 돌진합니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Gore](을)를 뒤집어 쓰고 [Animal]들이 달려듭니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 개의 [Gore](을)를 뒤집어 쓰고 [Animal]들이 달려듭니다.</li>
     <li>desc_sentence->지면은 온통 [Gore]에 뒤덮여 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
   <!-- EN: caravan assault successful -->
@@ -83,14 +83,14 @@
     <li>circumstance_phrase->[AdjectiveAngsty] 눈빛으로</li>
     <li>circumstance_phrase->함성을 지르며</li>
     <li>circumstance_phrase->[Gore](을)를 뒤집어 쓰고</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]들이 공격에 겁먹고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]들이 도주하고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]들 대부분은 쓰러져 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy]들이 공격에 겁먹고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy]들이 도주하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy]들 대부분은 쓰러져 있습니다.</li>
     <li>desc_sentence->[Community](은)는 순식간에 불타버렸습니다.</li>
     <li>desc_sentence->[Community](은)는 연기가 올라오고 있습니다.</li>
     <li>desc_sentence->지면이 온통 [Gore]에 뒤덮여 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
@@ -127,10 +127,10 @@
     <li>image->[circumstance_group] [TerrainFeature] 뒤에 숨는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] 전투를 포기하고 퇴각하는 [PAWN_nameFull]의 모습</li>
     <li>image->[circumstance_group] 느릿느릿 걸어가는 [PAWN_nameFull]의 광경</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [Enemy]들에게 쫒겨</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [Enemy]들이 찾아다니자</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [Enemy]들을 피하며</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [Animal]들을 피하며</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 명의 [Enemy]들에게 쫒겨</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 명의 [Enemy]들이 찾아다니자</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 명의 [Enemy]들을 피하며</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 마리의 [Animal]들을 피하며</li>
     <li>circumstance_phrase->[huge] [Enemy]들에게서 도주하며</li>
     <li>desc_sentence->적들은 [PAWN_nameDef](을)를 쫓으며 [Weapon](을)를 휘두릅니다.</li>
     <li>desc_sentence->적들은 [PAWN_nameDef](을)를 쫓으며 [Color] 연기를 일으킵니다.</li>
@@ -173,12 +173,12 @@
     <li>circumstance_phrase->탐험을 위한 장비를 챙기고</li>
     <li>circumstance_phrase->[PAWN_possessive] 눈에 호기심어린 열정을 떠올리며</li>
     <li>circumstance_phrase->[PAWN_possessive] 머리에 [adjective]을 떠올리며</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally](이)가 그 준비를 지키보고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally](이)가 그 준비를 도와주고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]들은 그 모습에 달아나고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [ally](이)가 그 준비를 지키보고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [ally](이)가 그 준비를 도와주고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy]들은 그 모습에 달아나고 있습니다.</li>
     <li>desc_sentence->멀리에는 [TerrainFeature](이)가 보입니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]들이 멀리서 그것을 지켜보고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]들이 조용히 배회하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 멀리서 그것을 지켜보고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 조용히 배회하고 있습니다.</li>
   </CaravanFormed.rulePack.rulesStrings>
   
   <!-- EN: caravan remote mining -->
@@ -214,10 +214,10 @@
     <li>circumstance_phrase->크게 웃음지으며</li>
     <li>circumstance_phrase->만족한 표정을 지으며</li>
     <li>circumstance_phrase->위험이 없나 둘러보며</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] [ally]들이 보입니다.</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] [Animal]들이 떠도는 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 명의 [ally]들이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 마리의 [Animal]들이 떠도는 모습이 보입니다.</li>
     <li>desc_sentence->배경엔 임시 대피소가 그려져 있습니다.</li>
-    <li>desc_sentence->배경엔 [Quantity_adjphrase] 양질의 광맥이 그려져 있습니다.</li>
+    <li>desc_sentence->배경엔 [Quantity_adjphrase] 군데의 양질의 광맥이 그려져 있습니다.</li>
     <li>desc_sentence->멀리서 [TerrainFeature](이)가 보입니다.</li>
     <li>desc_sentence->노동에 땀에 흠뻑 젖은 [PAWN_nameDef]의 모습이 보입니다.</li>
   </CaravanRemoteMining.rulePack.rulesStrings>

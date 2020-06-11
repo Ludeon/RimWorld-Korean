@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] of [faction_name], has sent us a message. [faction_leader_pronoun] wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction and receive gifts, but beware - a poor negotiator can cause more harm than good and may even anger them.[favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSuccessful peace talks can earn your negotiator a small amount of personal [faction_royalFavorLabel] with [faction_name].</li>
+    <li>favorRewardDetails-></li>
+  -->
+  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+    <li>questDescription->[faction_name]의 [faction_leaderTitle], [faction_leader_nameFull](이)가 우리에게 메세지를 보냈습니다. [faction_leader_pronoun]는 가까운 지역에서 우리와 대화하고 싶어합니다.\n\n해당 진영과 관계를 개선하고 선물을 받을 수 있는 좋은 기회가 될 수 있지만, 협상에 실패한다면 서로 피해를 받고 분노하여 관계가 악화될 수 있습니다.[favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\n성공적인 평화협상은 협상가에게 [faction_name](와)과 함께 적은 양의 개인적인 [faction_royalFavorLabel](을)를 얻을 수 있습니다.</li>
+    <li>favorRewardDetails-></li>
+  </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
+    <li>questName->[peaceTalks] with [faction_leader_nameDef]</li>
+    <li>questName->The [peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->Peace Talks</li>
+    <li>peaceTalks->Diplomacy</li>
+    <li>peaceTalks->Meeting</li>
+  -->
+  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+    <li>questName->[faction_leader_nameDef]의 [peaceTalks]</li>
+    <li>questName->[faction_leader_nameDef]와 [peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->평화 회담</li>
+    <li>peaceTalks->외교</li>
+    <li>peaceTalks->만남</li>
+  </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>만료된 임무: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>[faction_name](와)과의 평화 회담 제안이 만료되었습니다. [resolvedQuestName] 임무에 실패했습니다.</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

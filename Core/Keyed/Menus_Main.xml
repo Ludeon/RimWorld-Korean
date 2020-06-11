@@ -2,211 +2,472 @@
 <LanguageData>
 
   <!-- Main menu -->
+  <!-- EN: Tutorial -->
   <Tutorial>튜토리얼</Tutorial>
+  <!-- EN: New colony -->
   <NewColony>새로운 정착지</NewColony>
+  <!-- EN: Back to game -->
   <BackToGame>게임으로 돌아가기</BackToGame>
+  <!-- EN: Review scenario -->
   <ReviewScenario>시나리오 확인</ReviewScenario>
+  <!-- EN: Save -->
   <Save>저장</Save>
+  <!-- EN: Load game -->
   <LoadGame>불러오기</LoadGame>
+  <!-- EN: Options -->
   <Options>환경설정</Options>
+  <!-- EN: Mod -->
+  <Mod>모드</Mod>
+  <!-- EN: Mods -->
   <Mods>모드</Mods>
+  <!-- EN: Save translation report -->
   <SaveTranslationReport>번역 보고서 저장</SaveTranslationReport>
+  <!-- EN: Generating translation report -->
   <GeneratingTranslationReport>번역 보고서 생성 중</GeneratingTranslationReport>
+  <!-- EN: Cleanup translation files -->
   <CleanupTranslationFiles>번역 파일 정리</CleanupTranslationFiles>
+  <!-- EN: Update translations files (TKey's) -->
+  <TranslationFilesTKeyUpdate>번역 파일 갱신 (번역키)</TranslationFilesTKeyUpdate>
+  <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>번역 파일 정리 중</CleaningTranslationFiles>
+  <!-- EN: Credits -->
   <Credits>제작자</Credits>
+  <!-- EN: Quit to main menu -->
   <QuitToMainMenu>초기화면으로 나가기</QuitToMainMenu>
+  <!-- EN: Save and quit to menu -->
   <SaveAndQuitToMainMenu>저장 후 초기화면으로 나가기</SaveAndQuitToMainMenu>
+  <!-- EN: Quit to OS -->
   <QuitToOS>종료</QuitToOS>
+  <!-- EN: Save and quit to OS -->
   <SaveAndQuitToOS>저장 후 종료</SaveAndQuitToOS>
+  <!-- EN: Fiction primer -->
   <FictionPrimer>설정 입문서</FictionPrimer>
-  <LudeonBlog>Ludeon 블로그</LudeonBlog>
+  <!-- EN: Ludeon blog -->
+  <LudeonBlog>루데온 블로그</LudeonBlog>
+  <!-- EN: Forums -->
   <Forums>포럼</Forums>
+  <!-- EN: Official wiki -->
   <OfficialWiki>공식 위키</OfficialWiki>
-  <TynansTwitter>Tynan의 트위터</TynansTwitter>
-  <TynansDesignBook>Tynan의 디자인 북</TynansDesignBook>
+  <!-- EN: Tynan's twitter -->
+  <TynansTwitter>타이난의 트위터</TynansTwitter>
+  <!-- EN: Tynan's design book -->
+  <TynansDesignBook>타이난의 디자인 북</TynansDesignBook>
+  <!-- EN: Help translate RimWorld -->
   <HelpTranslate>림월드 번역을 도와주세요!</HelpTranslate>
+  <!-- EN: Buy soundtrack -->
   <BuySoundtrack>사운드트랙 구입</BuySoundtrack>
+  <!-- EN: Create world -->
   <CreateWorld>세계 생성</CreateWorld>
 
   <!-- Main menu translations info window -->
-  <TranslationThanks>림월드의 모든 번역은 팬들에 의해 만들어졌습니다. 팬들이 만든 우수한 번역본은 다음 지원자들에 의해 만들어졌습니다:\n\n{0}</TranslationThanks>
-  <TranslationHowToContribute>당신도 기여할 수 있습니다. 자세한 내용을 보려면 아래를 클릭하세요 (웹 브라우저 열림).</TranslationHowToContribute>
+  <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
+  <TranslationThanks>림월드의 모든 현지화 작업은 팬들의 손으로 이뤄집니다.\n\n한국어 번역 작업은 팀 왈도에서 진행하고 있으며, 구성원은 다음과 같습니다.\n\nMilSuUpZa\nNEPH\nDesTiNy</TranslationThanks>
+  <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
+  <TranslationHowToContribute>여러분도 기여할 수 있습니다. 자세한 내용은 아래에서 확인해 주세요.</TranslationHowToContribute>
+  <!-- EN: Learn more -->
   <LearnMore>더 알아보기</LearnMore>
 
   <!-- Main menu dev build -->
-  <DevBuildWarning>경고: 이것은 불안정한 개발버전이며 디자인을 실험하고 기술 개발을 하고 있다는 뜻 입니다.\n\n일부는 일시적으로 불균형 상태가 될 것입니다. 밸런스를 더 잘 이해하기 위해 의도적으로 밸런스를 바꾸는 고전적인 게임 디자인 방법입니다. 그 다음 정보를 이용하여 최종적인 균형을 잡을 수 있습니다.\n\n또한 버그를 포함해 게임이 중단되고 언제든지 저장파일이 망가질 수도 있습니다.\n\n이 모든 경우를 감수하고 테스트를 해주신다면 감사하겠습니다! 참여하고 싶지 않으신다면 최신 정식버전을 이용하세요.</DevBuildWarning>
+  <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
+  <DevBuildWarning>경고: 현재 사용하고 있는 버전은 불안정한 개발 빌드입니다. 얘기치 않은 버그가 발생할 수 있으며, 갑작스런 업데이트로 인해 저장 파일이 망가질 수도 있습니다. 모든 결과를 감당할 수 있는 경우에만 이용해 주시기 바랍니다.</DevBuildWarning>
 
   <!-- Create/review world -->
+  <!-- EN: Review world -->
   <ReviewWorld>세계 검토</ReviewWorld>
+  <!-- EN: Generate -->
   <WorldGenerate>생성하기</WorldGenerate>
+  <!-- EN: Save and finish -->
   <WorldSaveAndFinish>저장 및 완료</WorldSaveAndFinish>
+  <!-- EN: Reset -->
   <Reset>초기화</Reset>
+  <!-- EN: Globe coverage -->
   <PlanetCoverage>플레이 영역</PlanetCoverage>
+  <!-- EN: Overall rainfall -->
   <PlanetRainfall>전반적 강수량</PlanetRainfall>
+  <!-- EN: Overall temperature -->
   <PlanetTemperature>전반적 기온</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>인구밀도</PlanetPopulation>
+  <!-- EN: Low -->
   <PlanetRainfall_Low>낮음</PlanetRainfall_Low>
+  <!-- EN: Normal -->
   <PlanetRainfall_Normal>중간</PlanetRainfall_Normal>
+  <!-- EN: High -->
   <PlanetRainfall_High>높음</PlanetRainfall_High>
+  <!-- EN: Low -->
   <PlanetTemperature_Low>낮음</PlanetTemperature_Low>
+  <!-- EN: Normal -->
   <PlanetTemperature_Normal>중간</PlanetTemperature_Normal>
+  <!-- EN: High -->
   <PlanetTemperature_High>높음</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>낮음</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>중간</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>높음</PlanetPopulation_High>
+  <!-- EN: Seed -->
   <WorldSeed>초기 시드값</WorldSeed>
+  <!-- EN: Randomize seed -->
   <RandomizeSeed>무작위 초기 시드값</RandomizeSeed>
+  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>행성의 지름은 언제나 같지만, 실제 플레이 영역보다는 훨씬 거대하기 때문에 시간을 아끼기 위해 전체 표면을 생성하지는 않습니다. 이 설정을 통해 플레이 영역을 선택할 수 있습니다.</PlanetCoverageTip>
+  <!-- EN: Factions -->
   <WorldFactionsTab>세력</WorldFactionsTab>
 
   <!-- Select world -->
+  <!-- EN: Select world -->
   <SelectWorld>세계 선택</SelectWorld>
+  <!-- EN: Select -->
   <WorldChooseButton>선택</WorldChooseButton>
+  <!-- EN: No world files found. Create a world first. -->
   <NoWorldsFilesFound>세계를 찾을 수 없습니다. 먼저 세계를 생성해야 합니다.</NoWorldsFilesFound>
-
+  
   <!-- Version info -->
+  <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
   <BuildNowAvailable>{0} 버전으로 업데이트가 가능합니다. ludeon.com을 방문하여 확인해 주세요.</BuildNowAvailable>
+  <!-- EN: This is the latest version. -->
   <BuildUpToDate>최신 버전입니다.</BuildUpToDate>
+  <!-- EN: Error getting version info: {0} -->
   <ErrorGettingVersionInfo>버전 정보를 불러오는데 문제가 발생하였습니다: {0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>버전 정보를 불러오는 중...</LoadingVersionInfo>
+  <!-- EN: Loading version info... -->
+  <LoadingVersionInfo>버전 정보를 불러오는 중</LoadingVersionInfo>
 
   <!-- World generator -->
+  <!-- EN: Generate world -->
   <GenerateWorld>세계 생성</GenerateWorld>
 
   <!-- Mods config -->
+  <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>스팀 창작마당 열기</OpenSteamWorkshop>
+  <!-- EN: Get mods from forum -->
   <GetModsFromForum>포럼에서 모드 찾기</GetModsFromForum>
+  <!-- EN: Open mods data folder -->
   <OpenModsDataFolder>모드 폴더 열기</OpenModsDataFolder>
+  <!-- EN: Show mods data location -->
   <ShowModsDataLocation>모드 데이터 위치 보기</ShowModsDataLocation>
-  <ConfirmDisableCoreMod>정말 Core Mod를 해제하시겠습니까? Core Mod의 기능을 수행할 수 있는 모드로 교체하지 않는 이상, 게임이 정상적으로 작동하지 않습니다.\n\n참고로, 다른 모드에서 같은 defName을 사용할 경우, Core Mod의 defs 경로에 덮어쓰기가 이루어지게 됩니다.</ConfirmDisableCoreMod>
+  <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
+  <ConfirmDisableCoreMod>정말 코어 모드를 해제하시겠습니까? 코어 모드의 기능을 대체할 모드가 존재하지 않는다면 게임이 정상적으로 작동하지 않습니다.</ConfirmDisableCoreMod>
+  <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>정말 {0}의 모든 내용을 제거하길 원하십니까?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>모드 자동 정렬</ResolveModOrder>
+  <!-- EN: Unsubscribe -->
   <Unsubscribe>구독 해제</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribe>정말 {0}(을)를 구독 해제하길 원하십니까?</ConfirmUnsubscribe>
+  <!-- EN: Author -->
   <Author>저작자</Author>
+  <!-- EN: Workshop page -->
   <WorkshopPage>창작마당 항목</WorkshopPage>
-  <UploadToSteamWorkshop>스팀 창작마당으로 올리기</UploadToSteamWorkshop>
-  <UpdateOnSteamWorkshop>스탐 창작마당에 업데이트</UpdateOnSteamWorkshop>
-  <UploadAlreadyInProgress>이미 올리는 중입니다.</UploadAlreadyInProgress>
+  <!-- EN: Upload to Steam Workshop -->
+  <UploadToSteamWorkshop>스팀 창작마당에 업로드</UploadToSteamWorkshop>
+  <!-- EN: Update on Steam Workshop -->
+  <UpdateOnSteamWorkshop>스팀 창작마당에 업데이트</UpdateOnSteamWorkshop>
+  <!-- EN: Upload already in progress. -->
+  <UploadAlreadyInProgress>이미 업로드하는 중입니다.</UploadAlreadyInProgress>
+  <!-- EN: Workshop submission failed.\n\nReason: {0} -->
   <WorkshopSubmissionFailed>창작마당에 올리지 못했습니다.\n\n사유: {0}</WorkshopSubmissionFailed>
-  <WorkshopUploadSucceeded>{0}(을)를 성공적으로 업로드 했습니다.</WorkshopUploadSucceeded>
+  <!-- EN: Successfully uploaded {0}. -->
+  <WorkshopUploadSucceeded>{0} 업로드에 성공했습니다.</WorkshopUploadSucceeded>
+  <!-- EN: Downloading -->
   <Downloading>내려받는 중</Downloading>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>요구사항 표시</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
+  <ModClickToSelect>클릭하여 선택하십시오.</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>클릭하여 웹사이트로 이동하십시오.</ModClickToGoToWebsite>
+  <!-- EN: Source -->
   <Source>출처</Source>
-  <ModTargetVersion>버전 {0}</ModTargetVersion>
+  <!-- EN: For game version(s) -->
+  <ModTargetVersion>버전</ModTargetVersion>
+  <!-- EN: ID -->
+  <ModPackageId>ID</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>{0}보다 앞에 불러와야 합니다.</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>{0}보다 뒤에 불러와야 합니다.</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>선행모드: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>호환되지 않는 모드: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>이 모드는 {0} 모드와 호환되지 않습니다.</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>이 모드는 잘못된 순서로 배열되어 있습니다. 모드 자동 정렬 기능을 사용하거나 맞는 순서대로 수동 배열하십시오.</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>{0} 모드와 동일한 ID가 사용되고 있습니다.</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>{0} 모드와 순환 종속 문제가 발생하고 있습니다.</ModCyclicDependency>
+  <!-- EN: This requires following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>{0} 모드와 함께 사용해야 합니다.</ModUnsatisfiedDependency>
+  <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>모드 버전이 현재 게임 버전과 맞지 않습니다. 문제가 발생할 수 있습니다.</ModNotMadeForThisVersion>
-  <ModNotMadeForThisVersion_Newer>이 모드는 림월드의 최신 버전에 맞춰 제작되었으며, 정상적으로 작동하지 않을 수 있습니다.</ModNotMadeForThisVersion_Newer>
-  <MessageModNeedsWellFormattedTargetVersion>About.xml에서 정확한 버전 정보를 찾을 수 없습니다. 예시: &lt;targetVersion>{0}&lt;/targetVersion>.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
+  <ModNotMadeForThisVersion_Newer>모드 버전이 현재 게임 버전과 맞지 않습니다. 문제가 발생할 수 있습니다.</ModNotMadeForThisVersion_Newer>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>모드는 About.xml에서 올바른 형식의 지원되는 버전 정보가 필요합니다. {0} - 는 더이상 사용되지 않습니다. 자세한 정보는 로그를 확인하십시오.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>올바른 양식의 About.xml이 필요합니다. 자세한 정보는 로그를 확인하십시오.</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>이 모드의 LoadFolders.xml에 문제가 있으며, 업로드하기 전에 해결해야 합니다:</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>{1} 버전에 지정된 {0} 폴더가 없습니다.</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>'{0}'은 잘못된 형식의 버전입니다. 올바른 형식은 Major.Minor 입니다. (예: 1.1)</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>{0} 버전의 load folders의 목록이 비어있습니다.</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>동일한 폴더가 두 번이상 나열된 {0} 버전: {1}.</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>잘못된 버전 순서: {0}(은)는 {1} 보다 앞에 와야 합니다.</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>잘못된 버전 순서: 'default'를 먼저 정의해야 합니다.</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>{0} 버전은 load folders에 정의되어 있지만, 모드의 About.xml의 'supportedGameVersions'에는 나열되어 있지 않습니다.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <!-- EN: Drag to reorder -->
   <DragToReorder>드래그로 정렬</DragToReorder>
 
   <!-- Select scenario -->
+  <!-- EN: Choose scenario -->
   <ChooseScenario>시나리오 선택</ChooseScenario>
+  <!-- EN: Custom -->
   <ScenariosCustom>설정</ScenariosCustom>
-  <ScenariosSteamWorkshop>스팀 워크샵</ScenariosSteamWorkshop>
-  <ScenarioEditor>시나리오 편집기</ScenarioEditor>
+  <!-- EN: Steam Workshop -->
+  <ScenariosSteamWorkshop>창작마당</ScenariosSteamWorkshop>
+  <!-- EN: Scenario editor -->
+  <ScenarioEditor>시나리오 편집</ScenarioEditor>
+  <!-- EN: Delete -->
   <Delete>삭제</Delete>
-
+  
   <!-- Scenario editor -->
+  <!-- EN: seed -->
   <Seed>초기 시드값</Seed>
+  <!-- EN: Load -->
   <Load>불러오기</Load>
+  <!-- EN: edit mode -->
   <EditMode>편집 모드</EditMode>
+  <!-- EN: Summary -->
   <Summary>줄거리</Summary>
+  <!-- EN: Add part -->
   <AddPart>파트 추가</AddPart>
+  <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>모든 텍스트 필드를 채워야 합니다.</TextFieldsMustBeFilled>
-  <ConfirmSteamWorkshopUpload>정말 스팀 워크샵에 올리시겠습니까?\n\nSteam Workshop TOS에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
+  <ConfirmSteamWorkshopUpload>정말 업로드하시겠습니까?\n\n스팀 창작마당 서비스 약관에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>스스로 제작한 것만 올릴 수 있습니다.\n\n직접 만드셨나요?</ConfirmContentAuthor>
+  <!-- EN: Incompatible -->
   <Incompatible>호환되지 않음</Incompatible>
+  <!-- EN: Too many (max {0}):  -->
   <TooMany>너무 많음 (최대 {0}):</TooMany>
-  <CanBeUpdatedOnWorkshop>제작자로서 워크샵 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
-
+  <!-- EN: Can be updated on Workshop, since you are the author. -->
+  <CanBeUpdatedOnWorkshop>제작자 본인인 경우에만 창작마당 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
+  
   <!-- Select storyteller -->
-  <ChooseAIStoryteller>이야기꾼의 인공지능 선택</ChooseAIStoryteller>
-  <HowStorytellersWork>이야기꾼의 인공지능에 따라서 습격, 자원 낙하기 불시착, 동물 광란 등 여러 사건이 발생합니다. 이야기꾼의 선택에 따라 정착지의 이야기가 달라지게 될 것입니다. 언제든 바꿀 수 있습니다.</HowStorytellersWork>
+  <!-- EN: Choose AI Storyteller -->
+  <ChooseAIStoryteller>이야기꾼 선택</ChooseAIStoryteller>
+  <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
+  <HowStorytellersWork>이야기꾼의 특성에 따라 습격, 수송 포드 추락, 동물 광란 등 여러 사건이 다른 빈도로 발생하여 정착지의 미래에 영향을 끼칠 것입니다. 언제든 바꿀 수 있습니다.</HowStorytellersWork>
+  <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>난이도를 선택해야 합니다.</MustChooseDifficulty>
+  <!-- EN: Difficulty -->
   <Difficulty>난이도</Difficulty>
+  <!-- EN: Commitment mode -->
   <CommitmentMode>철인 모드</CommitmentMode>
-  <ReloadAnytimeMode>언제든지 불러오기</ReloadAnytimeMode>
-  <MustChoosePermadeath>언제든지 불러오기나 철인 모드를 선택하세요.</MustChoosePermadeath>
-  <ReloadAnytimeModeInfo>언제든지 게임을 저장하고 불러올 수 있습니다.\n\n게임을 배우는 중이거나 개인적인 플레이 스타일에 맞는경우, 불안정한 모드를 사용중인 경우가 이에 적합합니다.</ReloadAnytimeModeInfo>
-  <PermadeathModeInfo>게임을 종료할 때만 저장할 수 있습니다.\n\n림월드는 이야기를 만들어가기 때문에, 한명을 제외하고 모두 잃어버린다 하더라도 게임의 끝은 아닙니다 - 이야기의 일부분일 뿐입니다. 이 게임은 많은걸 잃었다 하더라도 쉽게 복구할 수 있도록 설계되었습니다.\n\n매 순간 희극과 비극 상관 없이 완전한 경험을 할 수 있는게 림월드가 의도한 플레이 방식입니다.\n\n루크 스카이워커의 가족이 살해되었을때 괜히 그만두거나 포기했던게 아니었습니다 - 상실과 회복은 극적이다.</PermadeathModeInfo>
+  <!-- EN: Reload anytime mode -->
+  <ReloadAnytimeMode>클래식 모드</ReloadAnytimeMode>
+  <!-- EN: Please choose commitment mode or reload anytime mode. -->
+  <MustChoosePermadeath>모드를 선택해야 합니다.</MustChoosePermadeath>
+  <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
+  <ReloadAnytimeModeInfo>클래식 모드에서는 언제든 게임을 저장하거나 불러올 수 있습니다.\n\n게임을 배우는 중이거나 불안정한 외부 컨텐츠를 사용하는 경우에 적합합니다.</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
+  <PermadeathModeInfo>철인 모드에서는 저장과 불러오기 기능이 극히 제한됩니다.\n\n림월드에서 권장하는 플레이 방식으로, 매 순간 주어지는 희극과 비극을 온전히 경험할 수 있습니다. 모든 것은 이야기의 일부분일 뿐입니다.</PermadeathModeInfo>
+  <!-- EN: Storyteller and difficulty can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>이야기꾼과 난이도는 언제든지 변경 가능합니다.</CanChangeStorytellerSettingsDuringPlay>
-  <UnlockExtremeDifficulty>무자비 모드</UnlockExtremeDifficulty>
-  <ConfirmUnlockExtremeDifficulty>무자비 모드는 모든 도전이 극한으로 치닫는 수준의 특별한 게임 모드입니다.\n\n특정 이정표에 도달하면 무자비 모드가 자동으로 잠금 해제됩니다. 그러나, 지금 잠금 해제를 할 수 있습니다.\n\n이 설정은 높은 난이도의 게임을 플레이 해본적이 있을때 또는 최선의 노력에도 불구하고 얼마든지 죽을수도 있는 기회를 경험하고 싶을때만 권장드립니다.</ConfirmUnlockExtremeDifficulty>
+  <!-- EN: Merciless mode -->
+  <UnlockExtremeDifficulty>극한 난이도 활성화</UnlockExtremeDifficulty>
+  <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
+  <ConfirmUnlockExtremeDifficulty>모든 것에서 시시함을 느낄 정도로 매우 숙련된 플레이어 또는 피할 수 없는 좌절을 경험하고 싶은 일반 플레이어에게 권장하는 설정입니다.\n\n게임의 특정 시점에 이르면 자동으로 활성화되지만, 원한다면 처음부터 체험해 보실 수도 있습니다.</ConfirmUnlockExtremeDifficulty>
 
   <!-- Site select -->
+  <!-- EN: Select starting site -->
   <SelectStartingSite>시작 지점 선택</SelectStartingSite>
+  <!-- EN: Select random site -->
   <SelectRandomSite>무작위 지점 선택</SelectRandomSite>
+  <!-- EN: Select site -->
   <SelectSite>확인</SelectSite>
+  <!-- EN: Please select a site. -->
   <MustSelectStartingSite>시작 지점을 선택해야 합니다.</MustSelectStartingSite>
+  <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>{0}에 착륙할 수 없습니다.</CannotLandBiome>
+  <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>구현되지 않은 기후입니다.</BiomeNotImplemented>
+  <!-- EN: You cannot land on impassable mountains. -->
   <CannotLandImpassableMountains>통과 불가능한 산에 착륙할 수 없습니다.</CannotLandImpassableMountains>
+  <!-- EN: {0} already have a base there. -->
   <BaseAlreadyThere>해당 위치에 {0}의 기지가 있습니다.</BaseAlreadyThere>
+  <!-- EN: You already have a base there. -->
   <YourBaseAlreadyThere>이미 해당 위치에 정착했습니다.</YourBaseAlreadyThere>
+  <!-- EN: This tile is occupied. -->
   <TileOccupied>해당 타일은 이미 점유 중입니다.</TileOccupied>
+  <!-- EN: Settlements cannot be directly adjacent to each other. -->
   <FactionBaseAdjacent>정착지는 서로 근접할 수 없습니다.</FactionBaseAdjacent>
+  <!-- EN: Biome -->
   <Biome>기후</Biome>
+  <!-- EN: Terrain -->
   <Terrain>지형</Terrain>
+  <!-- EN: Road -->
   <Road>도로</Road>
+  <!-- EN: River -->
   <River>강</River>
+  <!-- EN: Elevation -->
   <Elevation>고도</Elevation>
-  <Fertility>비옥도</Fertility>
+  <!-- EN: Fertility -->
+  <Fertility>토질</Fertility>
+  <!-- EN: Average temperature -->
   <AvgTemp>평균기온</AvgTemp>
+  <!-- EN: Rainfall -->
   <Rainfall>강수량</Rainfall>
+  <!-- EN: Special features -->
   <SpecialFeatures>특이사항</SpecialFeatures>
+  <!-- EN: northern coast -->
   <HasCoast0>북부 해안</HasCoast0>
+  <!-- EN: eastern coast -->
   <HasCoast1>동부 해안</HasCoast1>
+  <!-- EN: southern coast -->
   <HasCoast2>남부 해안</HasCoast2>
+  <!-- EN: western coast -->
   <HasCoast3>서부 해안</HasCoast3>
+  <!-- EN: caves -->
   <HasCaves>동굴</HasCaves>
+  <!-- EN: Faction base -->
   <FactionBase>세력 기지</FactionBase>
+  <!-- EN: Stone types -->
   <StoneTypesHere>지질 유형</StoneTypesHere>
+  <!-- EN: Time zone -->
   <TimeZone>시간대</TimeZone>
+  <!-- EN: Movement difficulty -->
   <MovementDifficulty>이동 어려움</MovementDifficulty>
+  <!-- EN: Animals can graze now -->
   <AnimalsCanGrazeNow>초식동물 방목 가능</AnimalsCanGrazeNow>
+  <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>평균 질병 빈도</AverageDiseaseFrequency>
+  <!-- EN: per year -->
   <PerYear>매 년</PerYear>
+  <!-- EN: Forageability -->
   <Forageability>수렵능력</Forageability>
+  <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>선택된 구성원 중 다음 작업을 수행할 수 없습니다:\n\n{0}\n\n평소보다 게임이 더 어려울 수 있습니다. 계속 하시겠습니까?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
   <!-- Character chooser -->
+  <!-- EN: Create characters -->
   <CreateCharacters>캐릭터 생성</CreateCharacters>
+  <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>캐릭터의 이름입니다.\n\n특정한 메뉴에서만 보여집니다.</FirstNameDesc>
-  <ShortIdentifierDesc>캐릭터의 별명이며 게임 속에서 항상 표시됩니다.\n\n이름 또는 성과 동일하게 적을 수 있으며, 새로운 닉네임을 부여해도 됩니다.</ShortIdentifierDesc>
+  <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
+  <ShortIdentifierDesc>게임 속에서 항상 표시되는 캐릭터의 별명입니다.\n\n이름의 일부를 그대로 사용해도 되고 새로운 닉네임을 부여해도 됩니다.</ShortIdentifierDesc>
+  <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
   <LastNameDesc>캐릭터의 성입니다.\n\n특정한 메뉴에서만 보여집니다.</LastNameDesc>
+  <!-- EN: Randomize -->
   <Randomize>섞기</Randomize>
+  <!-- EN: age {0} -->
   <AgeIndicator>나이 {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>{PAWN_race}, 나이 {PAWN_ageFull}</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, 나이 {PAWN_ageFull}</PawnSummaryWithGender>
+  <!-- EN: Backstory -->
   <Backstory>성장 환경</Backstory>
+  <!-- EN: Incapable of -->
   <IncapableOf>결격 사항</IncapableOf>
+  <!-- EN: Abilities -->
+  <Abilities>능력</Abilities>
+  <!-- EN: Caused by backstory: {0} -->
+  <IncapableOfTooltipBackstory>{0} 배경에 의해 발생</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title: {0} -->
+  <IncapableOfTooltipTitle>{0} 직업에 의해 발생</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait: {0} -->
+  <IncapableOfTooltipTrait>{0} 특성에 의해 발생</IncapableOfTooltipTrait>
+  <!-- EN: Caused by: {0} -->
+  <IncapableOfTooltipHediff>{0}에 의해 발생</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
+  <IncapableOfTooltipWorkTypes>비활성화된 작업 유형:</IncapableOfTooltipWorkTypes>
+  <!-- EN: Caused by quest status: {0} -->
+  <IncapableOfTooltipQuest>{0} 임무에 의해 발생</IncapableOfTooltipQuest>
+  <!-- EN: Traits -->
   <Traits>특징</Traits>
+  <!-- EN: Permanent mood effect -->
   <PermanentMoodEffect>영구적인 기분 영향</PermanentMoodEffect>
+  <!-- EN: Skills -->
   <Skills>기술</Skills>
+  <!-- EN: none -->
   <NoneLower>없음</NoneLower>
+  <!-- EN: Adulthood -->
   <Adulthood>성년기</Adulthood>
+  <!-- EN: Childhood -->
   <Childhood>유년기</Childhood>
+  <!-- EN: Current -->
   <Current>현재</Current>
+  <!-- EN: male -->
   <Male>남성</Male>
+  <!-- EN: female -->
   <Female>여성</Female>
+  <!-- EN: male -->
   <MaleAnimal>수컷</MaleAnimal>
+  <!-- EN: female -->
   <FemaleAnimal>암컷</FemaleAnimal>
+  <!-- EN: Pain -->
   <Pain>통증</Pain>
+  <!-- EN: Health -->
   <Health>건강</Health>
+  <!-- EN: Relations -->
   <Relations>관계</Relations>
+  <!-- EN: Team skills -->
   <TeamSkills>팀 기술</TeamSkills>
+  <!-- EN: Selected -->
   <StartingPawnsSelected>선택됨</StartingPawnsSelected>
+  <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>남겨짐</StartingPawnsLeftBehind>
-
+  
   <!-- Misc -->
+  <!-- EN: Start -->
   <Start>시작</Start>
+  <!-- EN: Advanced -->
   <Advanced>고급</Advanced>
+  <!-- EN: Next -->
   <Next>다음</Next>
+  <!-- EN: Back -->
   <Back>이전</Back>
+  <!-- EN: Show Materials -->
+  <ShowMaterials>재료 보기</ShowMaterials>
+  <!-- EN: Gameplay -->
   <Gameplay>게임 시작</Gameplay>
+  <!-- EN: Really quit? You'll lose unsaved progress. -->
   <ConfirmQuit>종료하시겠습니까? 저장되지 않은 진행사항은 삭제됩니다.</ConfirmQuit>
+  <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>확실한 이름을 적어야 합니다.</EveryoneNeedsValidName>
-  <RequiredWorkTypeDisabledForEveryone>선택된 구성원 중 다음 작업을 수행할 수 없음</RequiredWorkTypeDisabledForEveryone>
+  <!-- EN: None of the selected people can do the following jobs -->
+  <RequiredWorkTypeDisabledForEveryone>선택된 정착민으로 수행할 수 없는 작업</RequiredWorkTypeDisabledForEveryone>
+  <!-- EN: Quit -->
   <Quit>나가기</Quit>
+  <!-- EN: Ignore -->
   <Ignore>무시</Ignore>
-
+  
   <!-- Progress bar -->
+  <!-- EN: Generating world -->
   <GeneratingWorld>세계 생성 중</GeneratingWorld>
+  <!-- EN: Generating planet -->
   <GeneratingPlanet>행성 생성 중</GeneratingPlanet>
+  <!-- EN: Generating map -->
   <GeneratingMap>지도 생성 중</GeneratingMap>
+  <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>인카운터 지도 생성 중</GeneratingMapForNewEncounter>
+
+  <!-- EN: Click for more info -->
+  <ClickForMoreInfo>더 많은 정보가 필요하면 클릭</ClickForMoreInfo>
+  <!-- EN: No more information is available. -->
+  <NoMoreInfoAvailable>더 이상 정보가 없습니다.</NoMoreInfoAvailable>
 
 </LanguageData>

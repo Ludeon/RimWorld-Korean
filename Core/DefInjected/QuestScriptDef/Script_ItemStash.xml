@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->[map_definite]에서 멀지않은 곳에 [itemStashContentsValue] 만큼의 가치를 지닌 품목(들)이 있는 장소에 대한 메시지를 가로채었습니다.\n\n품목의 구성:\n\n[itemStashContents]\n\n위협: [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_label](이)가 우리 정착지에서 그리 멀지 않은 곳에 [itemStashContentsValue] 만큼의 가치가 있는 귀중품이 있는 장소를 알려주었습니다.\n\n품목의 구성:\n\n[itemStashContents]\n\n[asker_label](이)가 알려준 위협: [allSitePartsDescriptionsExceptFirst]</li>
+  </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
+    <li>questName->[stash] of [treasure]</li>
+    <li>stash->Stash</li>
+    <li>stash->Cache</li>
+    <li>stash->Collection</li>
+    <li>stash->Shack</li>
+    <li>treasure->Treasure</li>
+    <li>treasure->Valuables</li>
+    <li>treasure->Fortune</li>
+    <li>treasure->Goodies</li>
+    <li>treasure->Supplies</li>
+  -->
+  <OpportunitySite_ItemStash.questNameRules.rulesStrings>
+    <li>questName(priority=1)->[asker_nameDef]의 [treasure](이)가 있는 [stash]</li>
+    <li>questName->[treasure](이)가 있는 [stash]</li>
+    <li>stash->숨겨진 장소</li>
+    <li>stash->은닉처</li>
+    <li>stash->보물상자</li>
+    <li>stash->오두막집</li>
+    <li>treasure->보물</li>
+    <li>treasure->귀중품</li>
+    <li>treasure->재물</li>
+    <li>treasure->탐낼만한 물건</li>
+    <li>treasure->보급품</li>
+  </OpportunitySite_ItemStash.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>다른 세력에 의해 해당 장소의 물건이 수집되었음을 알리는 통신을 가로채었습니다. [resolvedQuestName] 임무는 만료되었습니다.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

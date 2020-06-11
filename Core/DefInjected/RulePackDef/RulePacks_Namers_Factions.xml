@@ -1,6 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN:
+    <li>r_name->[msyl][msyl] [mechhive]</li>
+    <li>mechhive->mechhive</li>
+    <li>msyl->nyar</li>
+    <li>msyl->alg</li>
+    <li>msyl->xan</li>
+    <li>msyl->zel</li>
+    <li>msyl->kil</li>
+    <li>msyl->len</li>
+    <li>msyl->lax</li>
+    <li>msyl->alph</li>
+    <li>msyl->ome</li>
+    <li>msyl->iri</li>
+    <li>msyl->slin</li>
+    <li>msyl->toth</li>
+    <li>msyl->arth</li>
+    <li>msyl->unth</li>
+    <li>msyl->ox</li>
+    <li>msyl->arm</li>
+    <li>msyl->murd</li>
+    <li>msyl->zen</li>
+    <li>msyl->yoth</li>
+    <li>msyl->lite</li>
+  -->
+  <NamerFactionMechanoid.rulePack.rulesStrings>
+    <li>r_name->[msyl][msyl] [mechhive]</li>
+    <li>mechhive->메카군락</li>
+    <li>msyl->니아르</li>
+    <li>msyl->알그</li>
+    <li>msyl->잔</li>
+    <li>msyl->젤</li>
+    <li>msyl->킬</li>
+    <li>msyl->렌</li>
+    <li>msyl->랙스</li>
+    <li>msyl->알파</li>
+    <li>msyl->옴</li>
+    <li>msyl->아이리</li>
+    <li>msyl->슬린</li>
+    <li>msyl->토스</li>
+    <li>msyl->아스</li>
+    <li>msyl->언스</li>
+    <li>msyl->옥스</li>
+    <li>msyl->암</li>
+    <li>msyl->머드</li>
+    <li>msyl->젠</li>
+    <li>msyl->요스</li>
+    <li>msyl->라이트</li>
+  </NamerFactionMechanoid.rulePack.rulesStrings>
+  
   <!-- EN: r_name(p=3)->[nearnameinitial] -->
   <NamerFactionOutlander.rulePack.rulesStrings.0>r_name(p=3)->[nearnameinitial]</NamerFactionOutlander.rulePack.rulesStrings.0>
   <!-- EN: r_name->[nearnameinitial] [political_union_outlander] -->
@@ -71,9 +120,9 @@
   <!-- EN: r_name->[ConceptBadass] [groupname] -->
   <NamerFactionPirate.rulePack.rulesStrings.26>r_name->[ConceptBadass] [groupname]</NamerFactionPirate.rulePack.rulesStrings.26>
   
-  <!-- EN: r_name->[tribalworld] [political_union_tribal] -->
+  <!-- EN: r_name->[WordTribal] [political_union_tribal] -->
   <NamerFactionTribal.rulePack.rulesStrings.0>r_name->[tribalworld] [political_union_tribal]</NamerFactionTribal.rulePack.rulesStrings.0>
-  <!-- EN: r_name->The [tribalworld] [political_union_tribal] -->
+  <!-- EN: r_name->The [WordTribal] [political_union_tribal] -->
   <NamerFactionTribal.rulePack.rulesStrings.1>r_name->[tribalworld] [political_union_tribal]</NamerFactionTribal.rulePack.rulesStrings.1>
   <!-- EN: r_name->The [Color] [TerrainFeature] [political_union_tribal] -->
   <NamerFactionTribal.rulePack.rulesStrings.2>r_name->[Color] [TerrainFeature] [political_union_tribal]</NamerFactionTribal.rulePack.rulesStrings.2>
@@ -81,7 +130,7 @@
   <NamerFactionTribal.rulePack.rulesStrings.3>r_name->[WordTribal] [political_union_tribal]</NamerFactionTribal.rulePack.rulesStrings.3>
   <!-- EN: r_name->The [Color] [Animal] [WordTribal] -->
   <NamerFactionTribal.rulePack.rulesStrings.4>r_name->[Color] [Animal] [WordTribal]</NamerFactionTribal.rulePack.rulesStrings.4>
-  <!-- EN: r_name->The [WordTribal] of the [TerrainFeature] -->
+  <!-- EN: r_name->The [political_union_tribal] of the [TerrainFeature] -->
   <NamerFactionTribal.rulePack.rulesStrings.5>r_name->[TerrainFeature] [WordTribal]</NamerFactionTribal.rulePack.rulesStrings.5>
   
   <!-- EN: r_name->Colony -->
@@ -145,17 +194,17 @@
   <!-- EN: townname_wordgen->[topicalnoun][townend] -->
   <NamerSettlementOutlander.rulePack.rulesStrings.26>townname_wordgen->[topicalnoun][townend]</NamerSettlementOutlander.rulePack.rulesStrings.26>
   <!-- EN: townend->ville -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.27>townend->바일</NamerSettlementOutlander.rulePack.rulesStrings.27>
+  <NamerSettlementOutlander.rulePack.rulesStrings.27>townend->마을</NamerSettlementOutlander.rulePack.rulesStrings.27>
   <!-- EN: townend->town -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.28>townend->타운</NamerSettlementOutlander.rulePack.rulesStrings.28>
+  <NamerSettlementOutlander.rulePack.rulesStrings.28>townend->도시</NamerSettlementOutlander.rulePack.rulesStrings.28>
   <!-- EN: townend->hurst -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.29>townend->허스트</NamerSettlementOutlander.rulePack.rulesStrings.29>
+  <NamerSettlementOutlander.rulePack.rulesStrings.29>townend->숲</NamerSettlementOutlander.rulePack.rulesStrings.29>
   <!-- EN: townend->bourne -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.30>townend->부른</NamerSettlementOutlander.rulePack.rulesStrings.30>
+  <NamerSettlementOutlander.rulePack.rulesStrings.30>townend->개울</NamerSettlementOutlander.rulePack.rulesStrings.30>
   <!-- EN: townend->brad -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.31>townend->브라드</NamerSettlementOutlander.rulePack.rulesStrings.31>
+  <NamerSettlementOutlander.rulePack.rulesStrings.31>townend->브래드</NamerSettlementOutlander.rulePack.rulesStrings.31>
   <!-- EN: townend->dale -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.32>townend->데일</NamerSettlementOutlander.rulePack.rulesStrings.32>
+  <NamerSettlementOutlander.rulePack.rulesStrings.32>townend->계곡</NamerSettlementOutlander.rulePack.rulesStrings.32>
   <!-- EN: townend->hope -->
   <NamerSettlementOutlander.rulePack.rulesStrings.33>townend->호프</NamerSettlementOutlander.rulePack.rulesStrings.33>
   <!-- EN: townend->ing -->
@@ -163,19 +212,19 @@
   <!-- EN: townend->ness -->
   <NamerSettlementOutlander.rulePack.rulesStrings.35>townend->네스</NamerSettlementOutlander.rulePack.rulesStrings.35>
   <!-- EN: townend->mere -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.36>townend->미어</NamerSettlementOutlander.rulePack.rulesStrings.36>
+  <NamerSettlementOutlander.rulePack.rulesStrings.36>townend->호수</NamerSettlementOutlander.rulePack.rulesStrings.36>
   <!-- EN: townend->shaw -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.37>townend->샤우</NamerSettlementOutlander.rulePack.rulesStrings.37>
+  <NamerSettlementOutlander.rulePack.rulesStrings.37>townend->우거진 숲</NamerSettlementOutlander.rulePack.rulesStrings.37>
   <!-- EN: townend->wick -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.38>townend->윅</NamerSettlementOutlander.rulePack.rulesStrings.38>
+  <NamerSettlementOutlander.rulePack.rulesStrings.38>townend->낙농장</NamerSettlementOutlander.rulePack.rulesStrings.38>
   <!-- EN: townend->ton -->
   <NamerSettlementOutlander.rulePack.rulesStrings.39>townend->톤</NamerSettlementOutlander.rulePack.rulesStrings.39>
   <!-- EN: townend->ston -->
   <NamerSettlementOutlander.rulePack.rulesStrings.40>townend->스톤</NamerSettlementOutlander.rulePack.rulesStrings.40>
   <!-- EN: townend->os -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.41>townend->오스</NamerSettlementOutlander.rulePack.rulesStrings.41>
+  <NamerSettlementOutlander.rulePack.rulesStrings.41>townend->구멍</NamerSettlementOutlander.rulePack.rulesStrings.41>
   <!-- EN: townend->den -->
-  <NamerSettlementOutlander.rulePack.rulesStrings.42>townend->덴</NamerSettlementOutlander.rulePack.rulesStrings.42>
+  <NamerSettlementOutlander.rulePack.rulesStrings.42>townend->소굴</NamerSettlementOutlander.rulePack.rulesStrings.42>
   <!-- EN: townend->tas -->
   <NamerSettlementOutlander.rulePack.rulesStrings.43>townend->타스</NamerSettlementOutlander.rulePack.rulesStrings.43>
   <!-- EN: townend->wood -->

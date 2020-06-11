@@ -34,14 +34,14 @@
   <Grave.description>죽은 사람을 무덤 속에 넣어 최후의 안식처를 선사하세요.</Grave.description>
   
   <!-- EN: ground-penetrating scanner -->
-  <GroundPenetratingScanner.label>지면 투과 스캐너</GroundPenetratingScanner.label>
-  <!-- EN: A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity. -->
+  <GroundPenetratingScanner.label>지면 투과 탐색기</GroundPenetratingScanner.label>
+  <!-- EN: A sensor unit used by researchers to search for buried resources. The chance to find a resource depends on the operator's research ability. It consumes a lot of electricity. If you find a buried resource, you'll need to use deep drills to extract it. It doesn't work under a roof. -->
   <GroundPenetratingScanner.description>소나, 자기측정장치, 레이더로 이루어진 장비로 지하의 자원을 감지할 수 있습니다. 종류는 알아내지 못합니다. 대량의 전기를 필요로 합니다.</GroundPenetratingScanner.description>
   
   <!-- EN: long-range mineral scanner -->
-  <LongRangeMineralScanner.label>원거리 광물 스캐너</LongRangeMineralScanner.label>
-  <!-- EN: Can be used by researchers to detect a specific type of mineral across the planet. The time it takes to find the resource is somewhat random, and depends on researcher skill. -->
-  <LongRangeMineralScanner.description>설치된 구역을 제외한 주변 구역에서 금이나 녹옥 등의 귀금속을 자동으로 탐색합니다. 광물 더미는 평균 30일에 한 번씩, 정착지 주변 30타일 내에서 발견될 것입니다. 같은 지역이나 인접 지역에 스캐너 여러 대를 설치해도 차이는 미비합니다.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.label>원거리 광물 탐색기</LongRangeMineralScanner.label>
+  <!-- EN: A lateral sensor unit used by researchers to detect a specific type of mineral across the planet. The chance to find a resource depends on the operator's research ability. This sensor can be tuned to target a specific resource type. It consumes a lot of electricity. If you find a resource, you'll need to travel to collect it. -->
+  <LongRangeMineralScanner.description>설치된 구역을 제외한 주변 구역에서 금이나 비취 등의 귀금속을 자동으로 탐색합니다. 광물 더미는 평균 30일에 한 번씩, 정착지 주변 30타일 내에서 발견될 것입니다. 같은 지역이나 인접 지역에 탐색기 여러 대를 설치해도 차이는 미비합니다.</LongRangeMineralScanner.description>
   
   <!-- EN: marriage spot -->
   <MarriageSpot.label>결혼식 장소</MarriageSpot.label>
@@ -74,9 +74,19 @@
   <PodLauncher.description>한 개의 수송 포드를 발사할 수 있는 연료 주입장치입니다. 수송 포드 여러 대를 한 번에 발사할 수 있지만, 각 발사대가 서로의 옆에 근접해야 합니다.</PodLauncher.description>
   
   <!-- EN: sarcophagus -->
-  <Sarcophagus.label>석관</Sarcophagus.label>
+  <Sarcophagus.label>관</Sarcophagus.label>
   <!-- EN: An ornamented burial receptacle for the honored dead. -->
   <Sarcophagus.description>명예로운 죽음을 맞이한 사람을 위해 만들어진, 장식된 관입니다.</Sarcophagus.description>
+  
+  <!-- EN: grand stele -->
+  <SteleGrand.label>장엄한 비석</SteleGrand.label>
+  <!-- EN: A towering slab with extensive engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleGrand.description>측면에 대규모의 조각이 우뚝 솟은 비석입니다. 비석은 고대부터 인물이나, 전투, 중요한 사건들을 기념하기 위해 사용되었습니다.</SteleGrand.description>
+  
+  <!-- EN: large stele -->
+  <SteleLarge.label>커다란 비석</SteleLarge.label>
+  <!-- EN: A tall, thick slab with engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleLarge.description>측면에 조각이 있는 두껍고 큰 비석입니다. 비석은 고대부터 인물이나, 전투, 중요한 사건들을 기념하기 위해 사용되었습니다.</SteleLarge.description>
   
   <!-- EN: tool cabinet -->
   <ToolCabinet.label>도구 수납장</ToolCabinet.label>
@@ -91,6 +101,6 @@
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>생체신호 모니터</VitalsMonitor.label>
   <!-- EN: Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect. -->
-  <VitalsMonitor.description>회복 침대 바로 옆에 배치하면 치료 품질, 수술 성공률, 항체 생성 속도가 증가합니다. 의료용으로 지정된 일반 침대에는 영향을 주지 않습니다. 한 침대는 모니터의 하나의 영향만 받습니다.</VitalsMonitor.description>
+  <VitalsMonitor.description>회복 침대 바로 옆에 배치하면 치료 품질, 수술 성공률, 항체 생성 속도가 증가합니다. 의료용으로 지정된 일반 침대에는 영향을 주지 않습니다. 한 침대는 하나의 모니터의 영향만 받습니다.</VitalsMonitor.description>
   
 </LanguageData>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>scraped_present->glancing</li>
+    <li>scraped_present->bouncing</li>
+    <li>scraped_present->grazing</li>
+    <li>scraped_present->caroming</li>
+    <li>scraped_present->skipping</li>
+    <li>scraped_present->skating</li>
+    <li>scraped_past->glanced</li>
+    <li>scraped_past->bounced</li>
+    <li>scraped_past->grazed</li>
+    <li>scraped_past->caromed</li>
+    <li>scraped_past->skipped</li>
+    <li>scraped_past->skated</li>
+  -->
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>scraped_present->튕김</li>
+    <li>scraped_present->표면만 긁음</li>
+    <li>scraped_present->튕겨나감</li>
+    <li>scraped_present->부딪혀 튕김</li>
+    <li>scraped_present->퉁퉁 튕김</li>
+    <li>scraped_present->미끄러짐</li>
+    <li>scraped_past->튕겼음</li>
+    <li>scraped_past->미끄러졌음</li>
+    <li>scraped_past->살짝 긁기만 함</li>
+    <li>scraped_past->표면만 긁음</li>
+    <li>scraped_past->튕겨 나감</li>
+    <li>scraped_past->미끄러짐</li>
+  </Combat_DeflectIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
+    <li>towardsat->towards</li>
+    <li>towardsat->at</li>
+    <li>verb_genericattack->swung</li>
+    <li>verb_genericattack->flailed</li>
+    <li>verb_genericattack->thrashed</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action->[INITIATOR_definite](은)는 [RECIPIENT_definite]에게 [damaged_inf]버리려고 [tried]</li>
+    <li>action->[INITIATOR_definite](은)는 [RECIPIENT_definite]에게 [implement](으)로 [damaged_inf]버리려고 [tried]</li>
+    <li>action->[INITIATOR_definite](은)는 [RECIPIENT_definite]에게 [implement](을)를 써서 [damaged_inf]버리려고 [tried]</li>
+    <li>action->[INITIATOR_definite](은)는 [INITIATOR_possessive] [WEAPON_label](을)를 [RECIPIENT_definite]에게 휘두름</li>
+    <li>action(p=0.3)->[INITIATOR_definite](은)는 [RECIPIENT_definite][towardsat] [implement](으)로 [verb_genericattack]</li>
+    <li>action(p=0.3)->[INITIATOR_definite](은)는 [RECIPIENT_definite][towardsat] [verb_genericattack]</li>
+    <li>action(p=0.3)->[INITIATOR_definite](은)는 [implement](으)로 [verb_genericattack]</li>
+    <li>towardsat->에게 향하여</li>
+    <li>towardsat->에게</li>
+    <li>verb_genericattack->휘두름</li>
+    <li>verb_genericattack->내려침</li>
+    <li>verb_genericattack->때림</li>
+    <li>tried->시도 함</li>
+    <li>tried->시도하려 함</li>
+  </Combat_FailIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->painfully</li>
+    <li>strikeAdv->horribly</li>
+    <li>strikeAdv->savagely</li>
+    <li>strikeAdv->viciously</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->leaving a horrific wound</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+  -->
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=1)->[RECIPIENT_possessive] [targetlist](을)를 [damaged_present]</li>
+    <!-- 에->을를 -->
+    <li>result(p=0.2)->[RECIPIENT_possessive] [targetlist](을)를 [damaged_present] 그리고 [flavortext_consequence] 만들었음</li>
+    <li>result(p=0.1)->[RECIPIENT_possessive] [targetlist](을)를 [strikeAdv] [damaged_present]</li>
+    <li>strikeAdv->고통스럽게</li>
+    <li>strikeAdv->끔찍하게</li>
+    <li>strikeAdv->잔인하게</li>
+    <li>strikeAdv->사악하게</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->고통스런 상처가 남게</li>
+    <li>flavortext_consequence->끔찍한 상처가 남게</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[wince] [painevent](이)가 남게</li>
+    <li>flavortext_consequence(p=0.2)->[RECIPIENT_objective] 넘어뜨리게</li>
+  </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->wounding</li>
+    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>destroyed(p=0.5)->destroyed</li>
+    <li>destroyed(p=0.5)->demolished</li>
+    <li>destroyed(p=0.5)->ruined</li>
+    <li>destroyed(p=0.5)->wrecked</li>
+    <li>wince(recipient_flesh==Normal)->wince</li>
+    <li>wince(recipient_flesh==Normal)->grimace</li>
+    <li>wince(recipient_flesh==Normal)->cringe</li>
+    <li>wince(recipient_flesh==Normal)->groan</li>
+    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
+    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent->from the injury</li>
+    <li>painevent->from the wound</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  -->
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]의 [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]의 [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]의 [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label](와)과 [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->상처 냄</li>
+    <li>damaged_present(deflected!=True)->부상 입힘</li>
+    <li>destroyed(p=0.5)->부셔버림</li>
+    <li>destroyed(p=0.5)->붕괴시켜버림</li>
+    <li>destroyed(p=0.5)->파괴시킴</li>
+    <li>destroyed(p=0.5)->망가뜨림</li>
+    <li>wince(recipient_flesh==Normal)->움찔하는</li>
+    <li>wince(recipient_flesh==Normal)->찡그려지는</li>
+    <li>wince(recipient_flesh==Normal)->고통스러운</li>
+    <li>wince(recipient_flesh==Normal)->신음이 나오는</li>
+    <li>wince(recipient_flesh!=Mechanoid)->비명이 나오는</li>
+    <li>wince(recipient_flesh!=Mechanoid)->격렬한 비명이 나오는</li>
+    <li>wince->욱씬거리는</li>
+    <li>wince->고통에 비명이 나오는</li>
+    <li>painstate-></li>
+    <li>painstate-></li>
+    <li>painstate-></li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] 고통</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] 상처</li>
+    <li>painevent(recipient_flesh==Normal)->심각한 상처</li>
+    <li>painevent->부상</li>
+    <li>painevent->고통</li>
+    <li>to-></li>
+    <li>to-></li>
+  </Combat_MeleeIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->wielding</li>
+    <li>wielding(p=3)->using</li>
+    <li>wielding(p=2)->handling</li>
+    <li>wielding->brandishing</li>
+    <li>wielding->manipulating</li>
+    <li>using(p=4)->using</li>
+    <li>using->driving</li>
+    <li>using->thrusting</li>
+    <li>using->utilizing</li>
+    <li>using->moving</li>
+    <li>skillAdv(INITIATOR_skill<=3)->incompetently</li>
+    <li>skillAdv(INITIATOR_skill<=3)->ineptly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->wildly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->randomly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->flailingly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->awkwardly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->clumsily</li>
+    <li>skillAdv(INITIATOR_skill<=5)->fearfully</li>
+    <li>skillAdv(INITIATOR_skill<=5)->falteringly</li>
+    <li>skillAdv(INITIATOR_skill<=5)->foolishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->hesitantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->reluctantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->slowly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->tentatively</li>
+    <li>skillAdv(INITIATOR_skill<=6)->inexpertly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->amateurishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->timidly</li>
+    <li>skillAdv(INITIATOR_skill<=8)->enthusiastically</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->proficiently</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->competently</li>
+    <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
+    <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->cleverly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->dexterously</li>
+    <li>skillAdv(INITIATOR_skill>=8)->skillfully</li>
+    <li>skillAdv(INITIATOR_skill>=10)->adeptly</li>
+    <li>skillAdv(INITIATOR_skill>=10)->slickly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->expertly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->precisely</li>
+    <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
+    <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
+    <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+  -->
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[INITIATOR_possessive] [WEAPON_label](을)를 [skillAdv] [wielding]</li>
+    <li>skillDescMelee->[implement](을)를 [skillAdv] [using]</li>
+    <li>wielding(p=4)->휘둘러</li>
+    <li>wielding(p=3)->사용하여</li>
+    <li>wielding(p=2)->다루어</li>
+    <li>wielding->휘둘러</li>
+    <li>wielding->다루어</li>
+    <li>using(p=4)->사용하여</li>
+    <li>using->휘둘러</li>
+    <li>using->밀쳐</li>
+    <li>using->활용하여</li>
+    <li>using->움직여</li>
+    <li>skillAdv(INITIATOR_skill>=3)->무능하게</li>
+    <li>skillAdv(INITIATOR_skill>=3)->서투르게</li>
+    <li>skillAdv(INITIATOR_skill>=3)->격렬하게</li>
+    <li>skillAdv(INITIATOR_skill>=3)->임의로</li>
+    <li>skillAdv(INITIATOR_skill>=3)->나직하게</li>
+    <li>skillAdv(INITIATOR_skill>=4)->어설프게</li>
+    <li>skillAdv(INITIATOR_skill>=4)->눈치없이</li>
+    <li>skillAdv(INITIATOR_skill>=5)->지독하게</li>
+    <li>skillAdv(INITIATOR_skill>=5)->비틀거리며</li>
+    <li>skillAdv(INITIATOR_skill>=5)->어리석게</li>
+    <li>skillAdv(INITIATOR_skill>=6)->머뭇거리며</li>
+    <li>skillAdv(INITIATOR_skill>=6)->주저하며</li>
+    <li>skillAdv(INITIATOR_skill>=6)->지체하며</li>
+    <li>skillAdv(INITIATOR_skill>=6)->망설이며</li>
+    <li>skillAdv(INITIATOR_skill>=6)->서투르게</li>
+    <li>skillAdv(INITIATOR_skill>=6)->미숙하게</li>
+    <li>skillAdv(INITIATOR_skill>=6)->소극적으로</li>
+    <li>skillAdv(INITIATOR_skill>=8)->열광적으로</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill>=10)->익숙하게</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill>=10)->능숙하게</li>
+    <li>skillAdv(INITIATOR_skill>=8)->전문적으로</li>
+    <li>skillAdv(INITIATOR_skill>=8)->공교롭게</li>
+    <li>skillAdv(INITIATOR_skill>=8)->적절히</li>
+    <li>skillAdv(INITIATOR_skill>=8)->영리하게</li>
+    <li>skillAdv(INITIATOR_skill>=8)->솜씨좋게</li>
+    <li>skillAdv(INITIATOR_skill>=8)->교묘하게</li>
+    <li>skillAdv(INITIATOR_skill>=10)->뛰어나게</li>
+    <li>skillAdv(INITIATOR_skill>=10)->매끄럽게</li>
+    <li>skillAdv(INITIATOR_skill>=12)->훌륭하게</li>
+    <li>skillAdv(INITIATOR_skill>=12)->정확하게</li>
+    <li>skillAdv(INITIATOR_skill>=14)->능수능란하게</li>
+    <li>skillAdv(INITIATOR_skill>=16)->감각적으로</li>
+    <li>skillAdv(INITIATOR_skill>=16)->우아하게</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->기계적으로</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->로봇같이</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->직접적으로</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+  -->
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label](와)과 [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label](와)과 [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], [recipient_part_damaged3_label]</li>
+  </Combat_WoundIncludes.rulePack.rulesStrings>
+  
+</LanguageData>

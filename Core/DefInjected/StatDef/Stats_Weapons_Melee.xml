@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: detection chance -->
+  <Bladelink_DetectionChance.label>탐지 확률</Bladelink_DetectionChance.label>
+  <!-- EN: The likelihood of the bladelink implant being detected each time it is used to attack in combat.\n\nSome factions try to enforce laws restricting the use of the bladelink to those holding specific titles. Using the bladelink emits a psychic signature which has a chance of being detected at a distance. If it is used illegally and detected, there will be diplomatic consequences. -->
+  <Bladelink_DetectionChance.description>결속무기나 이식물은 전투에서 사용될 때마다 탐지될 확률을 가지고 있습니다.\n\n일부 세력은 초능력의 사용을 특정한 작위 보유자로 제한합니다. 초능력을 사용하면 멀리서도 탐지될 수 있는 초능력 신호를 방출하며, 불법적으로 사용했다간 외교적 불이익이 발생합니다.\n\n초능력 신호 차단기를 사용하여 초능력 신호를 차단할 수 있습니다.</Bladelink_DetectionChance.description>
+  
   <!-- EN: blunt damage -->
   <BluntDamageMultiplier.label>둔탁함 피해량 계수</BluntDamageMultiplier.label>
   <!-- EN: A multiplier on damage from blunt-type attacks for weapons made of this material. -->

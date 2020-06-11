@@ -11,7 +11,6 @@
     <li>collapsed->caved in</li>
     <li>damaged_present->smashing</li>
     <li>damaged_present->bashing</li>
-    <li>damaged_present->clobbering</li>
     <li>damaged_present->bruising</li>
     <li>damaged_present->lacerating</li>
     <li>destroyed_present->shattering</li>
@@ -68,7 +67,7 @@
     <li>damaged_present->데어버림</li>
     <li>damaged_present->그슬림</li>
     <li>damaged_present->화상 입음</li>
-    <li>damaged_present->익어버됨</li>
+    <li>damaged_present->익어버림</li>
     <li>destroyed_present->숯이 됨</li>
     <li>destroyed_present->구워짐</li>
     <li>destroyed_present->삶아짐</li>
@@ -84,7 +83,7 @@
   <DamageEvent_Include.rulePack.rulesStrings>
     <!-- 폭탄사슴이 불에 탐, 그의 심장이 데어버림.-->
     <li>r_logentry->[RECIPIENT_nameDef][damage_source], [RECIPIENT_possessive] [destroyed_targets](이)가 [destroyed_present].</li>
-    <li>r_logentry->[RECIPIENT_nameDef][damage_source], [RECIPIENT_possessive] [destroyed_targets](이)가 [destroyed_present]. 그리고 [RECIPIENT_possessive] [destroyed_targets]도 [destroyed_present].</li>
+    <li>r_logentry->[RECIPIENT_nameDef][damage_source], [RECIPIENT_possessive] [destroyed_targets](이)가 [destroyed_present]. 그리고 [RECIPIENT_possessive] [damaged_targets]도 [damaged_present].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_nameDef][damage_source], [RECIPIENT_possessive] [damaged_targets](이)가 [damaged_present].</li>
     <!-- 폭탄사슴이 불에 탐.-->
     <li>r_logentry(p=0.1)->[RECIPIENT_nameDef][damage_source].</li>

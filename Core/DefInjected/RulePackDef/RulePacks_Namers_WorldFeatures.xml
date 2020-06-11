@@ -337,147 +337,123 @@
   <!-- EN: terrain_word->flats -->
   <NamerTundra.rulePack.rulesStrings.11>terrain_word->대평원</NamerTundra.rulePack.rulesStrings.11>
   
-  <!-- EN: r_name->[metaprefix] [standardname] -->
+  <!-- EN: r_name->[narrative_name] [terrain_word] -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings.0>r_name->[metaprefix] [standardname]</WorldFeatureNamerCommon.rulePack.rulesStrings.0>
   <!-- EN: r_name(p=0.05)->[storyname] [terrain_word] -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings.1>r_name(p=0.05)->[storyname] [terrain_word]</WorldFeatureNamerCommon.rulePack.rulesStrings.1>
-  <!-- EN: standardname->[narrative_name] [terrain_word] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.2>standardname->[narrative_name] [terrain_word]</WorldFeatureNamerCommon.rulePack.rulesStrings.2>
-  <!-- EN: metaprefix(p=10)-> -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.3>metaprefix(p=10)-></WorldFeatureNamerCommon.rulePack.rulesStrings.3>
-  <!-- EN: metaprefix->[Direction] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.4>metaprefix->[Direction]</WorldFeatureNamerCommon.rulePack.rulesStrings.4>
-  <!-- EN: metaprefix->[basic_adjective] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.5>metaprefix->[basic_adjective]</WorldFeatureNamerCommon.rulePack.rulesStrings.5>
-  <!-- EN: basic_adjective->great -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.6>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.6>
-  <!-- EN: basic_adjective->greater -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.7>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.7>
-  <!-- EN: basic_adjective->lesser -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.8>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.8>
-  <!-- EN: basic_adjective->grand -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.9>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.9>
-  <!-- EN: basic_adjective->new -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.10>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.10>
-  <!-- EN: basic_adjective->old -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.11>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.11>
   <!-- EN: narrative_name(p=12)->[WordTribal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.12>narrative_name(p=12)->[WordTribal]</WorldFeatureNamerCommon.rulePack.rulesStrings.12>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.2>standardname->[narrative_name] [terrain_word]</WorldFeatureNamerCommon.rulePack.rulesStrings.2>
   <!-- EN: narrative_name(p=12)->[PlaceOutlander] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.13>narrative_name(p=12)->[PlaceOutlander]</WorldFeatureNamerCommon.rulePack.rulesStrings.13>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.3>metaprefix(p=10)-></WorldFeatureNamerCommon.rulePack.rulesStrings.3>
   <!-- EN: narrative_name->[Color][NaturalObject] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.14>narrative_name->[Color] [NaturalObject]</WorldFeatureNamerCommon.rulePack.rulesStrings.14>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.4>metaprefix->[Direction]</WorldFeatureNamerCommon.rulePack.rulesStrings.4>
   <!-- EN: narrative_name->[AdjectiveNatural][BodyPart] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.15>narrative_name->[AdjectiveNatural] [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.15>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.5>metaprefix->[basic_adjective]</WorldFeatureNamerCommon.rulePack.rulesStrings.5>
   <!-- EN: narrative_name->[Animal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.16>narrative_name->[Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.16>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.6>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.6>
   <!-- EN: narrative_name->[Color] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.17>narrative_name->[Color]</WorldFeatureNamerCommon.rulePack.rulesStrings.17>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.7>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.7>
   <!-- EN: narrative_name->[Color][Animal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.18>narrative_name->[Color] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.18>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.8>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.8>
   <!-- EN: narrative_name->[AdjectiveNatural][Animal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.19>narrative_name->[AdjectiveNatural] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.19>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.9>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.9>
   <!-- EN: narrative_name->[Animal][BodyPart] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.20>narrative_name->[Animal] [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.20>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.10>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.10>
   <!-- EN: narrative_name->[Color] [Animal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.21>narrative_name->[Color] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.21>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.11>basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.11>
   <!-- EN: narrative_name->[AdjectiveNatural] [Animal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.22>narrative_name->[AdjectiveNatural] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.22>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.12>narrative_name(p=12)->[WordTribal]</WorldFeatureNamerCommon.rulePack.rulesStrings.12>
   <!-- EN: narrative_name->[Animal] [BodyPart] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.23>narrative_name->[Animal] [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.23>
-  <!-- EN: storyname(p=50)->[subject]'s [maybe_basic_adjective] [story_result] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.24>storyname(p=50)->[subject]의 [maybe_basic_adjective] [story_result]</WorldFeatureNamerCommon.rulePack.rulesStrings.24>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.13>narrative_name(p=12)->[PlaceOutlander]</WorldFeatureNamerCommon.rulePack.rulesStrings.13>
+  <!-- EN: storyname(p=50)->[subject]'s [story_result] -->
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.14>narrative_name->[Color] [NaturalObject]</WorldFeatureNamerCommon.rulePack.rulesStrings.14>
   <!-- EN: storyname(p=2)->[subject]'s [BodyPart] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.25>storyname(p=2)->[subject]의 [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.25>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.15>narrative_name->[AdjectiveNatural] [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.15>
   <!-- EN: storyname->[subject]'s [Gore] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.26>storyname->[subject]의 [Gore]</WorldFeatureNamerCommon.rulePack.rulesStrings.26>
-  <!-- EN: maybe_basic_adjective-> -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.27>maybe_basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.27>
-  <!-- EN: maybe_basic_adjective(p=0.1)->[basic_adjective] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.28>maybe_basic_adjective(p=0.1)->[basic_adjective]</WorldFeatureNamerCommon.rulePack.rulesStrings.28>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.16>narrative_name->[Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.16>
   <!-- EN: subject(p=5)->[NamePerson] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.29>subject(p=5)->[NamePerson]</WorldFeatureNamerCommon.rulePack.rulesStrings.29>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.17>narrative_name->[Color]</WorldFeatureNamerCommon.rulePack.rulesStrings.17>
   <!-- EN: subject->[Animal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.30>subject->[Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.30>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.18>narrative_name->[Color] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.18>
   <!-- EN: subject->[WordTribal] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.31>subject->[WordTribal]</WorldFeatureNamerCommon.rulePack.rulesStrings.31>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.19>narrative_name->[AdjectiveNatural] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.19>
   <!-- EN: subject->[PlaceOutlander] -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.32>subject->[PlaceOutlander]</WorldFeatureNamerCommon.rulePack.rulesStrings.32>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.20>narrative_name->[Animal] [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.20>
   <!-- EN: story_result->folly -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.33>story_result->무지</WorldFeatureNamerCommon.rulePack.rulesStrings.33>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.21>narrative_name->[Color] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.21>
   <!-- EN: story_result->vice -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.34>story_result->원죄</WorldFeatureNamerCommon.rulePack.rulesStrings.34>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.22>narrative_name->[AdjectiveNatural] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.22>
   <!-- EN: story_result->lunacy -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.35>story_result->광기</WorldFeatureNamerCommon.rulePack.rulesStrings.35>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.23>narrative_name->[Animal] [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.23>
   <!-- EN: story_result->mistake -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.36>story_result->실수</WorldFeatureNamerCommon.rulePack.rulesStrings.36>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.24>storyname(p=50)->[subject]의 [maybe_basic_adjective] [story_result]</WorldFeatureNamerCommon.rulePack.rulesStrings.24>
   <!-- EN: story_result->fault -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.37>story_result->책임</WorldFeatureNamerCommon.rulePack.rulesStrings.37>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.25>storyname(p=2)->[subject]의 [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.25>
   <!-- EN: story_result->misstep -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.38>story_result->발꿈치</WorldFeatureNamerCommon.rulePack.rulesStrings.38>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.26>storyname->[subject]의 [Gore]</WorldFeatureNamerCommon.rulePack.rulesStrings.26>
   <!-- EN: story_result->delusion -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.39>story_result->연민</WorldFeatureNamerCommon.rulePack.rulesStrings.39>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.27>maybe_basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.27>
   <!-- EN: story_result->joy -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.40>story_result->환희</WorldFeatureNamerCommon.rulePack.rulesStrings.40>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.28>maybe_basic_adjective(p=0.1)->[basic_adjective]</WorldFeatureNamerCommon.rulePack.rulesStrings.28>
   <!-- EN: story_result->delight -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.41>story_result->기쁨</WorldFeatureNamerCommon.rulePack.rulesStrings.41>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.29>subject(p=5)->[NamePerson]</WorldFeatureNamerCommon.rulePack.rulesStrings.29>
   <!-- EN: story_result->wonder -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.42>story_result->호기심</WorldFeatureNamerCommon.rulePack.rulesStrings.42>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.30>subject->[Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.30>
   <!-- EN: story_result->pride -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.43>story_result->프라이드</WorldFeatureNamerCommon.rulePack.rulesStrings.43>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.31>subject->[WordTribal]</WorldFeatureNamerCommon.rulePack.rulesStrings.31>
   <!-- EN: story_result->jewel -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.44>story_result->보석</WorldFeatureNamerCommon.rulePack.rulesStrings.44>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.32>subject->[PlaceOutlander]</WorldFeatureNamerCommon.rulePack.rulesStrings.32>
   <!-- EN: story_result->prize -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.45>story_result->눈물</WorldFeatureNamerCommon.rulePack.rulesStrings.45>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.33>story_result->무지</WorldFeatureNamerCommon.rulePack.rulesStrings.33>
   <!-- EN: story_result->bounty -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.46>story_result->슬픔</WorldFeatureNamerCommon.rulePack.rulesStrings.46>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.34>story_result->원죄</WorldFeatureNamerCommon.rulePack.rulesStrings.34>
   <!-- EN: story_result->honor -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.47>story_result->명예</WorldFeatureNamerCommon.rulePack.rulesStrings.47>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.35>story_result->광기</WorldFeatureNamerCommon.rulePack.rulesStrings.35>
   <!-- EN: story_result->jackpot -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.48>story_result->잭팟</WorldFeatureNamerCommon.rulePack.rulesStrings.48>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.36>story_result->실수</WorldFeatureNamerCommon.rulePack.rulesStrings.36>
   <!-- EN: story_result->trophy -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.49>story_result->트로피</WorldFeatureNamerCommon.rulePack.rulesStrings.49>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.37>story_result->책임</WorldFeatureNamerCommon.rulePack.rulesStrings.37>
   <!-- EN: story_result->conceit -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.50>story_result->자존</WorldFeatureNamerCommon.rulePack.rulesStrings.50>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.38>story_result->발꿈치</WorldFeatureNamerCommon.rulePack.rulesStrings.38>
   <!-- EN: story_result->arrogance -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.51>story_result->오만</WorldFeatureNamerCommon.rulePack.rulesStrings.51>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.39>story_result->연민</WorldFeatureNamerCommon.rulePack.rulesStrings.39>
   <!-- EN: story_result->stand -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.52>story_result->기상</WorldFeatureNamerCommon.rulePack.rulesStrings.52>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.40>story_result->환희</WorldFeatureNamerCommon.rulePack.rulesStrings.40>
   <!-- EN: story_result->loss -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.53>story_result->상실</WorldFeatureNamerCommon.rulePack.rulesStrings.53>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.41>story_result->기쁨</WorldFeatureNamerCommon.rulePack.rulesStrings.41>
   <!-- EN: story_result->debt -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.54>story_result->빚</WorldFeatureNamerCommon.rulePack.rulesStrings.54>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.42>story_result->호기심</WorldFeatureNamerCommon.rulePack.rulesStrings.42>
   <!-- EN: story_result->collapse -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.55>story_result->붕괴</WorldFeatureNamerCommon.rulePack.rulesStrings.55>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.43>story_result->프라이드</WorldFeatureNamerCommon.rulePack.rulesStrings.43>
   <!-- EN: story_result->destruction -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.56>story_result->파괴</WorldFeatureNamerCommon.rulePack.rulesStrings.56>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.44>story_result->보석</WorldFeatureNamerCommon.rulePack.rulesStrings.44>
   <!-- EN: story_result->cataclysm -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.57>story_result->대재앙</WorldFeatureNamerCommon.rulePack.rulesStrings.57>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.45>story_result->눈물</WorldFeatureNamerCommon.rulePack.rulesStrings.45>
   <!-- EN: story_result->ruin -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.58>story_result->폐허</WorldFeatureNamerCommon.rulePack.rulesStrings.58>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.46>story_result->슬픔</WorldFeatureNamerCommon.rulePack.rulesStrings.46>
   <!-- EN: story_result->ruination -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.59>story_result->파멸</WorldFeatureNamerCommon.rulePack.rulesStrings.59>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.47>story_result->명예</WorldFeatureNamerCommon.rulePack.rulesStrings.47>
   <!-- EN: story_result->undoing -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.60>story_result->타락</WorldFeatureNamerCommon.rulePack.rulesStrings.60>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.48>story_result->잭팟</WorldFeatureNamerCommon.rulePack.rulesStrings.48>
   <!-- EN: story_result->downfall -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.61>story_result->몰락</WorldFeatureNamerCommon.rulePack.rulesStrings.61>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.49>story_result->트로피</WorldFeatureNamerCommon.rulePack.rulesStrings.49>
   <!-- EN: story_result->end -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.62>story_result->끝</WorldFeatureNamerCommon.rulePack.rulesStrings.62>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.50>story_result->자존</WorldFeatureNamerCommon.rulePack.rulesStrings.50>
   <!-- EN: story_result->retirement -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.63>story_result->은퇴</WorldFeatureNamerCommon.rulePack.rulesStrings.63>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.51>story_result->오만</WorldFeatureNamerCommon.rulePack.rulesStrings.51>
   <!-- EN: story_result->achievement -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.64>story_result->업적</WorldFeatureNamerCommon.rulePack.rulesStrings.64>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.52>story_result->기상</WorldFeatureNamerCommon.rulePack.rulesStrings.52>
   <!-- EN: story_result->finale -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.65>story_result->기둥</WorldFeatureNamerCommon.rulePack.rulesStrings.65>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.53>story_result->상실</WorldFeatureNamerCommon.rulePack.rulesStrings.53>
   <!-- EN: story_result->bluff -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.66>story_result->허세</WorldFeatureNamerCommon.rulePack.rulesStrings.66>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.54>story_result->빚</WorldFeatureNamerCommon.rulePack.rulesStrings.54>
   <!-- EN: story_result->ruse -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.67>story_result->계략</WorldFeatureNamerCommon.rulePack.rulesStrings.67>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.55>story_result->붕괴</WorldFeatureNamerCommon.rulePack.rulesStrings.55>
   <!-- EN: story_result->deception -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.68>story_result->기만</WorldFeatureNamerCommon.rulePack.rulesStrings.68>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.56>story_result->파괴</WorldFeatureNamerCommon.rulePack.rulesStrings.56>
   <!-- EN: story_result->facade -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.69>story_result->허울</WorldFeatureNamerCommon.rulePack.rulesStrings.69>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.57>story_result->대재앙</WorldFeatureNamerCommon.rulePack.rulesStrings.57>
   <!-- EN: story_result->fraud -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.70>story_result->사기</WorldFeatureNamerCommon.rulePack.rulesStrings.70>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.58>story_result->폐허</WorldFeatureNamerCommon.rulePack.rulesStrings.58>
   
 </LanguageData>

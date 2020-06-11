@@ -33,9 +33,9 @@
     <li>circumstance_phrase->[AdjectiveFriendly] 미소를 지으며</li>
     <li>circumstance_phrase->크게 웃으며</li>
     <li>circumstance_phrase->[AdjectiveFriendly] 제스처를 취하며</li>
-    <li>desc_sentence->이 대화에 참여하고 있는 [Quantity_adjphrase] [PersonJob]들이 보입니다.</li>
+    <li>desc_sentence->이 대화에 참여하고 있는 [Quantity_adjphrase]명의 [PersonJob]들이 보입니다.</li>
     <li>desc_sentence->이 부분은 [Color] 와 [Color](으)로 장식되었습니다.</li>
-    <li>desc_sentence->근처에 [Quantity_adjphrase] [Animal]들이 놀고 있는 것이 보입니다.</li>
+    <li>desc_sentence->근처에 [Quantity_adjphrase]마리의 [Animal]들이 놀고 있는 것이 보입니다.</li>
   </AttendedParty.rulePack.rulesStrings>
   
   <!-- EN: built snowman -->
@@ -115,7 +115,7 @@
     <li>desc_sentence->[DIGGER_nameDef](와)과 함께 있는 [CORPSE_nameDef]의 몽환적인 이미지는 [AdjectiveFriendly] 표현이 덧 입혀져 있습니다.</li>
     <li>desc_sentence->[CORPSE_nameDef]의 몽환적인 이미지는 [AdjectiveAngsty] 표현이 엿보입니다.</li>
     <li>desc_sentence->[DIGGER_nameDef](와)과 함께 있는 [CORPSE_nameDef]의 몽환적인 이미지는 [AdjectiveAngsty] 표현이 덧 입혀져 있습니다.</li>
-    <li>desc_sentence->근처에서 쉬고 있는 [Quantity_adjphrase] [Animal]들의 모습이 보입니다.</li>
+    <li>desc_sentence->근처에서 쉬고 있는 [Quantity_adjphrase]마리의 [Animal]들의 모습이 보입니다.</li>
   </BuriedCorpse.rulePack.rulesStrings>
   
   <!-- EN: completed long construction project -->
@@ -151,8 +151,8 @@
     <li>desc_sentence->[PAWN_nameDef] 위에 [OBJECT_label]의 모습이 보입니다.</li>
     <li>desc_sentence->[Color]으로 빛나는 [OBJECT_label]의 모습이 보입니다.</li>
     <li>desc_sentence->자세히 표현된 [OBJECT_label]의 모습이 보입니다.</li>
-    <li>desc_sentence->[OBJECT_label](을)를 보고 감탄하는 [Quantity_adjphrase] [PersonJob]들이 보입니다.</li>
-    <li>desc_sentence->경외의 눈을 하는 [Quantity_adjphrase] [PersonJob]들이 보입니다.</li>
+    <li>desc_sentence->[OBJECT_label](을)를 보고 감탄하는 [Quantity_adjphrase]명의 [PersonJob]들이 보입니다.</li>
+    <li>desc_sentence->경외의 눈을 하는 [Quantity_adjphrase]명의 [PersonJob]들이 보입니다.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
@@ -187,9 +187,9 @@
     <li>circumstance_phrase->[PAWN_possessive] 얼굴에 미소를 떠올리며</li>
     <li>desc_sentence->[Color]으로 빛나는 [OBJECT_label]의 모습이 보입니다.</li>
     <li>desc_sentence->자세히 표현된 [OBJECT_label]의 모습이 보입니다.</li>
-    <li>desc_sentence->[OBJECT_label](을)를 훌쩍 들어올린 [PAWN_nameDef]의 모습이 보입니다</li>
-    <li>desc_sentence->[OBJECT_label](을)를 보고 감탄하는 [Quantity_adjphrase] [PersonJob]들이 보입니다.</li>
-    <li>desc_sentence->경외의 눈을 하는 [Quantity_adjphrase] [PersonJob]들이 보입니다.</li>
+    <li>desc_sentence->[OBJECT_label](을)를 훌쩍 들어올린 [PAWN_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[OBJECT_label](을)를 보고 감탄하는 [Quantity_adjphrase]명의 [PersonJob]들이 보입니다.</li>
+    <li>desc_sentence->경외의 눈을 하는 [Quantity_adjphrase]명의 [PersonJob]들이 보입니다.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
@@ -221,12 +221,12 @@
     <li>circumstance_phrase->깊은 생각에 잠긴 듯이</li>
     <li>circumstance_phrase->눈을 꼭 감고</li>
     <li>circumstance_phrase->조용히 입을 다물고</li>
-    <li>desc_sentence->근처에는 쉬고 있는 [Quantity_adjphrase] [Animal]들의 모습이 보입니다.</li>
-    <li>desc_sentence->근처에는 접근하는 [Quantity_adjphrase] [Enemy]들의 모습이 보입니다.</li>
+    <li>desc_sentence->근처에는 쉬고 있는 [Quantity_adjphrase]마리의 [Animal]들의 모습이 보입니다.</li>
+    <li>desc_sentence->근처에는 접근하는 [Quantity_adjphrase]명의 [Enemy]들의 모습이 보입니다.</li>
     <li>desc_sentence->편안해 보이는 [PAWN_nameDef]의 모습이 보입니다.</li>
     <li>desc_sentence->상처입은 [PAWN_nameDef]의 모습이 보입니다.</li>
     <li>desc_sentence->배경엔 [Color] 오로라가 빛나고 있습니다.</li>
-    <li>desc_sentence->화면 전체엔 [Quantity_adjphrase] 동면관이 둘러싸고 있습니다.</li>
+    <li>desc_sentence->화면 전체엔 [Quantity_adjphrase]개의 동면관이 둘러싸고 있습니다.</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: gained master skill -->
@@ -260,12 +260,12 @@
     <li>circumstance_phrase->눈에 띄게 피로하며</li>
     <li>circumstance_phrase->[AdjectiveAngsty] 표정을 지으며</li>
     <li>circumstance_phrase->지루한 표정을 지으며</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 실패물들이 자리잡고 있습니다.</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase]책들이 엿보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 개의 실패물들이 자리잡고 있습니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 권의 책들이 엿보입니다.</li>
     <li>desc_sentence->[PAWN_possessive] 작업은 [PAWN_pronoun]가 가진 기술이 엿보이는 듯 합니다.</li>
-    <li>desc_sentence->그 뒤엔 놀라워하는 [Quantity_adjphrase] [PersonJob]들이 보입니다.</li>
-    <li>desc_sentence->그 뒤엔 놀라고있는 [Quantity_adjphrase] [Animal]들이 보입니다.</li>
-    <li>desc_sentence->그 위엔 [Quantity_adjphrase] 고대 영혼들이 [PAWN_pronoun]를 지켜보는 것이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 놀라워하는 [Quantity_adjphrase]명의 [PersonJob]들이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 놀라고있는 [Quantity_adjphrase]마리의 [Animal]들이 보입니다.</li>
+    <li>desc_sentence->그 위엔 [Quantity_adjphrase]명의 고대 영혼들이 [PAWN_pronoun]를 지켜보는 것이 보입니다.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
   <!-- EN: gained master skill with passion -->
@@ -291,7 +291,7 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]]의 [SKILL_label] 기술 마스터</li>
+    <li>tale_noun->[PAWN_nameDef]의 [SKILL_label] 기술 마스터</li>
     <li>image->[circumstance_group] [SKILL_label] 기술을 연습하는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [SKILL_label]에 관한 책을 읽는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [PAWN_nameFull](이)가 [SKILL_label] 기술 훈련을 받는 모습</li>
@@ -303,12 +303,12 @@
     <li>circumstance_phrase->활기 넘치는 표정으로</li>
     <li>circumstance_phrase->땀에 젖은 얼굴로</li>
     <li>circumstance_phrase->지친 표정으로</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 실패물들이 자리잡고 있습니다.</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase]책들이 엿보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 개의 실패물들이 자리잡고 있습니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] 권의 책들이 엿보입니다.</li>
     <li>desc_sentence->[PAWN_possessive] 작업은 [PAWN_pronoun]가 가진 기술이 엿보이는 듯 합니다.</li>
-    <li>desc_sentence->그 뒤엔 놀라워하는 [Quantity_adjphrase] [PersonJob]들이 보입니다.</li>
-    <li>desc_sentence->그 뒤엔 놀라고있는 [Quantity_adjphrase] [Animal]들이 보입니다.</li>
-    <li>desc_sentence->그 위엔 [Quantity_adjphrase] 고대 영혼들이 [PAWN_pronoun]를 지켜보는 것이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 놀라워하는 [Quantity_adjphrase]명의 [PersonJob]들이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 놀라고있는 [Quantity_adjphrase]마리의 [Animal]들이 보입니다.</li>
+    <li>desc_sentence->그 위엔 [Quantity_adjphrase]명의 고대 영혼들이 [PAWN_pronoun]를 지켜보는 것이 보입니다.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
   
   <!-- EN: increased menagerie -->
@@ -379,10 +379,10 @@
     <li>circumstance_phrase->[VerbFriendly] 얼굴로</li>
     <li>circumstance_phrase->은은하게 빛나는</li>
     <li>circumstance_phrase->[Color] 아우라에 쌓여</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]들이 응시하는 [PAWN_pronoun]의 모습이 보입니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]들에게 둘러 쌓인 [PAWN_pronoun]의 모습이 보입니다.</li>
-    <li>desc_sentence->근처에 조용히 잠든 [Quantity_adjphrase] [Animal]들의 모습이 보입니다.</li>
-    <li>desc_sentence->그 뒤로 깜짝 놀라는 [Quantity_adjphrase] [Enemy]들의 모습이 보입니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase]명의 [PersonJob]들이 응시하는 [PAWN_pronoun]의 모습이 보입니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들에게 둘러 쌓인 [PAWN_pronoun]의 모습이 보입니다.</li>
+    <li>desc_sentence->근처에 조용히 잠든 [Quantity_adjphrase]마리의 [Animal]들의 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤로 깜짝 놀라는 [Quantity_adjphrase]명의 [Enemy]들의 모습이 보입니다.</li>
   </Meditated.rulePack.rulesStrings>
   
   <!-- EN: mined valuable -->
@@ -418,10 +418,10 @@
     <li>circumstance_phrase->[AdjectiveFriendly] 표정을 지으며</li>
     <li>circumstance_phrase->크게 미소지으며</li>
     <li>circumstance_phrase->만족한 표정을 지으며</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] [ally]들이 보입니다.</li>
-    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase] [Animal]들이 떠도는 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase]명의 [ally]들이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [Quantity_adjphrase]마리의 [Animal]들이 떠도는 모습이 보입니다.</li>
     <li>desc_sentence->배경엔 [Community]의 모습이 보입니다.</li>
-    <li>desc_sentence->배경엔 [Quantity_adjphrase] 양질의 광맥이 그려져 있습니다.</li>
+    <li>desc_sentence->배경엔 [Quantity_adjphrase] 군데의 양질의 광맥이 그려져 있습니다.</li>
     <li>desc_sentence->멀리서 [TerrainFeature](이)가 보입니다.</li>
     <li>desc_sentence->노동에 땀에 흠뻑 젖은 [PAWN_nameDef]의 모습이 보입니다.</li>
   </MinedValuable.rulePack.rulesStrings>
@@ -473,12 +473,12 @@
     <li>desc_sentence->배경엔 [Color] 오로라가 빛나고 있습니다.</li>
     <li>desc_sentence->멀리 [Community]의 모습이 보입니다.</li>
     <li>desc_sentence->먼곳에는 [TerrainFeature]의 모습이 보입니다.</li>
-    <li>desc_sentence->함께하는 [Quantity_adjphrase] [PersonJob]의 모습이 보입니다.</li>
-    <li>desc_sentence->근처에 [Quantity_adjphrase] [Animal]들이 같이 노는 모습이 보입니다.</li>
+    <li>desc_sentence->함께하는 [Quantity_adjphrase]명의 [PersonJob]의 모습이 보입니다.</li>
+    <li>desc_sentence->근처에 [Quantity_adjphrase]마리의 [Animal]들이 같이 노는 모습이 보입니다.</li>
     <li>desc_sentence->[Color] 아우라에 쌓인 [PAWN_nameDef]의 모습이 보입니다.</li>
     <li>desc_sentence->약간 과장된 [PAWN_nameDef]의 모습이 보입니다.</li>
     <li>desc_sentence->화면 상단에 도드라진 [PAWN_nameDef]의 모습이 보입니다.</li>
-    <li>desc_sentence->패배해 낙담하는 [Quantity_adjphrase] [PersonJob]의 모습이 보입니다.</li>
+    <li>desc_sentence->패배해 낙담하는 [Quantity_adjphrase]명의 [PersonJob]의 모습이 보입니다.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
@@ -512,10 +512,10 @@
     <li>circumstance_phrase->희망적인 표정으로</li>
     <li>circumstance_phrase->부드러운 얼굴로</li>
     <li>circumstance_phrase->[Color] 아우라를 두른채로</li>
-    <li>desc_sentence->그 뒤엔 [PAWN_pronoun]를 응시하는 [Quantity_adjphrase] [PersonJob]들의 모습이 보입니다.</li>
-    <li>desc_sentence->그 뒤엔 [PAWN_pronoun]를 둘러싼 [Quantity_adjphrase] [Animal]들의 모습이 보입니다.</li>
-    <li>desc_sentence->곁에는 평화롭게 잠든 [Quantity_adjphrase] [Animal]들의 모습이 보입니다.</li>
-    <li>desc_sentence->그 뒤로 깜짝 놀라는 [Quantity_adjphrase] [Enemy]들의 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [PAWN_pronoun]를 응시하는 [Quantity_adjphrase]명의 [PersonJob]들의 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 [PAWN_pronoun]를 둘러싼 [Quantity_adjphrase]마리의 [Animal]들의 모습이 보입니다.</li>
+    <li>desc_sentence->곁에는 평화롭게 잠든 [Quantity_adjphrase]마리의 [Animal]들의 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤로 깜짝 놀라는 [Quantity_adjphrase]명의 [Enemy]들의 모습이 보입니다.</li>
   </Prayed.rulePack.rulesStrings>
   
   <!-- EN: put into cryptosleep -->
@@ -547,12 +547,12 @@
     <li>circumstance_phrase->생각이 빠진 표정으로</li>
     <li>circumstance_phrase->먼 [TerrainFeature](을)를 응시하며</li>
     <li>circumstance_phrase->약간 긴장한 채로</li>
-    <li>desc_sentence->그 뒤엔 평화롭게 쉬는 [Quantity_adjphrase] [Animal]들의 모습이 보입니다.</li>
-    <li>desc_sentence->그 뒤엔 접근하는 [Quantity_adjphrase] [Enemy]들의 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 평화롭게 쉬는 [Quantity_adjphrase]마리의 [Animal]들의 모습이 보입니다.</li>
+    <li>desc_sentence->그 뒤엔 접근하는 [Quantity_adjphrase]명의 [Enemy]들의 모습이 보입니다.</li>
     <li>desc_sentence->고뇌하는 [CARRIER_nameDef]의 모습이 얼핏 엿보입니다.</li>
     <li>desc_sentence->크게 다친듯한 [SLEEPER_nameDef]의 모습이 얼핏 보입니다.</li>
     <li>desc_sentence->지쳐 보이는 [SLEEPER_nameDef]의 모습이 보입니다.</li>
-    <li>desc_sentence->둘레를 [Quantity_adjphrase] 동면관들이 둘러 싸고 있습니다.</li>
+    <li>desc_sentence->둘레를 [Quantity_adjphrase] 개의 동면관들이 둘러 싸고 있습니다.</li>
   </PutIntoCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: stripped -->
@@ -632,7 +632,7 @@
     <li>desc_sentence->[VISITOR_nameDef](와)과 함께 있는 [CORPSE_nameDef]의 몽환적인 이미지는 [AdjectiveFriendly] 표현이 덧 입혀져 있습니다.</li>
     <li>desc_sentence->[CORPSE_nameDef]의 몽환적인 이미지는 [AdjectiveAngsty] 표현이 엿보입니다.</li>
     <li>desc_sentence->[VISITOR_nameDef](와)과 함께 있는 [CORPSE_nameDef]의 몽환적인 이미지는 [AdjectiveAngsty] 표현이 덧 입혀져 있습니다.</li>
-    <li>desc_sentence->근처에서 쉬고 있는 [Quantity_adjphrase] [Animal]들의 모습이 보입니다.</li>
+    <li>desc_sentence->근처에서 쉬고 있는 [Quantity_adjphrase]마리의 [Animal]들의 모습이 보입니다.</li>
   </VisitedGrave.rulePack.rulesStrings>
   
 </LanguageData>

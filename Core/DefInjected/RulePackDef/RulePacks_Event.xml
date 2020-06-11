@@ -2,6 +2,13 @@
 <LanguageData>
   
   <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
+  -->
+  <Event_AbilityUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite](이)가 [SUBJECT_definite]에게 [ABILITY_label](을)를 사용함</li>
+  </Event_AbilityUsed.rulePack.rulesStrings>
+  
+  <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
     <li>r_logentry->[SUBJECT_definite] was [stunned] by [INITIATOR_definite]'s attack.</li>
     <li>stunned(p=3)->stunned</li>

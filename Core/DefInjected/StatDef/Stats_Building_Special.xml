@@ -8,7 +8,7 @@
   
   <!-- EN: door opening speed -->
   <DoorOpenSpeed.label>개폐 속도</DoorOpenSpeed.label>
-  <!-- EN: The speed at which the door opens. Slow doors will slow down everyone who uses them. -->
+  <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
   <DoorOpenSpeed.description>문이 열리는 속도입니다. 느린 문은 지나다니는 사람의 속도도 느려집니다.</DoorOpenSpeed.description>
   
   <!-- EN: immunity gain speed factor -->
@@ -35,14 +35,14 @@
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>수술 성공률 계수</SurgerySuccessChanceFactor.label>
-  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here. Surgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>수술이 성공할 확률에 곱해집니다. 수술 성공률은 집도의와 약품에도 영향을 받습니다.</SurgerySuccessChanceFactor.description>
+  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
+  <SurgerySuccessChanceFactor.description>수술이 성공할 확률에 곱해집니다.\n\n수술 성공률은 집도의와 약품에도 영향을 받습니다.</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>방 청결도</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>덫 근접 피해량</TrapMeleeDamage.label>
-  <!-- EN: How much damage this trap does on average. The actual damage in any instance will vary randomly. -->
+  <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
   <TrapMeleeDamage.description>덫이 입히는 피해의 평균값입니다. 실제 피해량은 약간의 오차가 있을 수 있습니다.</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
