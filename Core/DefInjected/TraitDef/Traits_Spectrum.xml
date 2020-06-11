@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: beautiful -->
+  <Beauty.degreeDatas.beautiful.label>아름다움</Beauty.degreeDatas.beautiful.label>
+  <!-- EN: [PAWN_nameDef] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth. -->
+  <Beauty.degreeDatas.beautiful.description>[PAWN_nameDef]의 외모는 엄청나게 아름답고, 이국적이면서도 익숙한 외목구비에 강렬한 눈빛을 지녔습니다. 사람들은 [PAWN_pronoun]가 입을 떼기도 전에 마음이 갑니다.</Beauty.degreeDatas.beautiful.description>
+  <!-- EN: pretty -->
+  <Beauty.degreeDatas.pretty.label>잘생김</Beauty.degreeDatas.pretty.label>
+  <!-- EN: [PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective]. -->
+  <Beauty.degreeDatas.pretty.description>[PAWN_nameDef]의 얼굴은 잘생겨서 사람들이 쉽게 끌립니다.</Beauty.degreeDatas.pretty.description>
+  <!-- EN: ugly -->
+  <Beauty.degreeDatas.ugly.label>못생김</Beauty.degreeDatas.ugly.label>
+  <!-- EN: [PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions. -->
+  <Beauty.degreeDatas.ugly.description>[PAWN_nameDef]의 얼굴은 못생긴 편으로 다른 사람들이 약간 거리를 두게 합니다.</Beauty.degreeDatas.ugly.description>
+  <!-- EN: staggeringly ugly -->
+  <Beauty.degreeDatas.staggeringly_ugly.label>충격적인 외모</Beauty.degreeDatas.staggeringly_ugly.label>
+  <!-- EN: [PAWN_nameDef] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing. -->
+  <Beauty.degreeDatas.staggeringly_ugly.description>[PAWN_nameDef]의 외모는 어찌나 못생겼는지 재능 없는 아이가 그린 그림, 포름알데히드에 담긴 기형아, 그리고 현대 미술을 섞어놓은 듯 보입니다. 다른 사람들은 [PAWN_pronoun]에게 말을 건네며 얼굴을 바라볼 생각도 하기 힘들어 합니다.</Beauty.degreeDatas.staggeringly_ugly.description>
+  
+  <!-- EN: chemical fascination -->
+  <DrugDesire.degreeDatas.chemical_fascination.label>약물광</DrugDesire.degreeDatas.chemical_fascination.label>
+  <!-- EN: [PAWN_nameDef] has an intense fascination with chemical sources of enjoyment. [PAWN_pronoun] will consume much more of them and, if not already addicted to any drug and satisfied, will sometimes go on hard drug binges. [PAWN_pronoun] will ignore directives to not use pleasurable drugs. -->
+  <DrugDesire.degreeDatas.chemical_fascination.description>[PAWN_nameDef](은)는 혼합물이 제공하는 즐거움에 강하게 매료되었습니다. 술과 약물을 훨씬 자주 소비하며 계속 남용합니다. 마약 제한 정책을 무시합니다.</DrugDesire.degreeDatas.chemical_fascination.description>
+  <!-- EN: chemical interest -->
+  <DrugDesire.degreeDatas.chemical_interest.label>약물선호</DrugDesire.degreeDatas.chemical_interest.label>
+  <!-- EN: [PAWN_nameDef] has an unusual interest in chemical sources of enjoyment. [PAWN_pronoun] will consume more of them and, if not already addicted to any drug and satisfied, will sometimes go on social drug binges. [PAWN_pronoun] will ignore directives to not use pleasurable drugs. -->
+  <DrugDesire.degreeDatas.chemical_interest.description>[PAWN_nameDef](은)는 혼합물이 제공하는 즐거움에 흥미를 가지고 있습니다. 술과 약물을 자주 소비하며 남용할 수도 있습니다. 마약 제한 정책을 무시합니다.</DrugDesire.degreeDatas.chemical_interest.description>
+  <!-- EN: teetotaler -->
+  <DrugDesire.degreeDatas.teetotaler.label>금주</DrugDesire.degreeDatas.teetotaler.label>
+  <!-- EN: [PAWN_nameDef] abhors the idea of gaining pleasure from chemicals, and avoids alcohol and pleasurable drugs. -->
+  <DrugDesire.degreeDatas.teetotaler.description>[PAWN_nameDef](은)는 혼합물에서 즐거움을 얻는다는 생각 자체를 혐오합니다. 술이나 마약류를 피합니다.</DrugDesire.degreeDatas.teetotaler.description>
+  
+  <!-- EN: super-immune -->
+  <Immunity.degreeDatas.superimmune.label>면역체질</Immunity.degreeDatas.superimmune.label>
+  <!-- EN: [PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others. -->
+  <Immunity.degreeDatas.superimmune.description>[PAWN_nameDef](은)는 강력한 면역력의 소유자입니다.[PAWN_pronoun]는 매우 빠르게 항체를 생성하며, 평범한 사람에게는 치명적인 질병조차 쉽게 털어낼 수 있습니다.</Immunity.degreeDatas.superimmune.description>
+  <!-- EN: sickly -->
+  <Immunity.degreeDatas.sickly.label>병약체질</Immunity.degreeDatas.sickly.label>
+  <!-- EN: [PAWN_nameDef] has an awful immune system. [PAWN_pronoun] gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by. -->
+  <Immunity.degreeDatas.sickly.description>[PAWN_nameDef](은)는 끔찍한 면역력의 소유자입니다. [PAWN_pronoun]는 보통 사람보다 자주 병에 걸리며, 아무도 걸리지 않을 법한 희귀한 질병에 시달리기도 합니다.</Immunity.degreeDatas.sickly.description>
+  
+  <!-- EN: industrious -->
+  <Industriousness.degreeDatas.industrious.label>일벌레</Industriousness.degreeDatas.industrious.label>
+  <!-- EN: [PAWN_nameDef] has an easy time staying on-task and focused, and gets things done much faster than the average person. -->
+  <Industriousness.degreeDatas.industrious.description>[PAWN_nameDef](은)는 다른 사람들보다 일에 잘 집중하고, 훨씬 더 빠르게 작업을 끝마칩니다.</Industriousness.degreeDatas.industrious.description>
+  <!-- EN: hard worker -->
+  <Industriousness.degreeDatas.hard_worker.label>근면성실</Industriousness.degreeDatas.hard_worker.label>
+  <!-- EN: [PAWN_nameDef] is a natural hard worker and will finish tasks faster than most. -->
+  <Industriousness.degreeDatas.hard_worker.description>[PAWN_nameDef](은)는 타고난 일꾼이며 대부분의 사람들보다 작업을 일찍 마칠 것입니다.</Industriousness.degreeDatas.hard_worker.description>
+  <!-- EN: lazy -->
+  <Industriousness.degreeDatas.lazy.label>게으름</Industriousness.degreeDatas.lazy.label>
+  <!-- EN: [PAWN_nameDef] is a little bit lazy. -->
+  <Industriousness.degreeDatas.lazy.description>[PAWN_nameDef](은)는 좀 게으릅니다.</Industriousness.degreeDatas.lazy.description>
+  <!-- EN: slothful -->
+  <Industriousness.degreeDatas.slothful.label>나태</Industriousness.degreeDatas.slothful.label>
+  <!-- EN: [PAWN_nameDef] loves idleness and hates anything productive. [PAWN_pronoun] moves slowly and rarely stays focused on a task. -->
+  <Industriousness.degreeDatas.slothful.description>[PAWN_nameDef](은)는 가만히 있는 것을 사랑하며 생산적인 일을 싫어합니다. 모든 작업을 천천히 하고 움직임도 느립니다.</Industriousness.degreeDatas.slothful.description>
+  
+  <!-- EN: sanguine -->
+  <NaturalMood.degreeDatas.sanguine.label>낙천적</NaturalMood.degreeDatas.sanguine.label>
+  <!-- EN: [PAWN_nameDef] is just naturally upbeat about [PAWN_possessive] situation, pretty much all the time, no matter what it is. -->
+  <NaturalMood.degreeDatas.sanguine.description>[PAWN_nameDef](은)는 어떤 상황이 닥치든 낙천적입니다. 거의 언제나 그렇습니다.</NaturalMood.degreeDatas.sanguine.description>
+  <!-- EN: optimist -->
+  <NaturalMood.degreeDatas.optimist.label>긍정적</NaturalMood.degreeDatas.optimist.label>
+  <!-- EN: [PAWN_nameDef] is naturally optimistic about life. It's hard to get [PAWN_objective] down. -->
+  <NaturalMood.degreeDatas.optimist.description>[PAWN_nameDef](은)는 매사에 긍정적이라 쉽게 우울해지지 않습니다.</NaturalMood.degreeDatas.optimist.description>
+  <!-- EN: pessimist -->
+  <NaturalMood.degreeDatas.pessimist.label>부정적</NaturalMood.degreeDatas.pessimist.label>
+  <!-- EN: [PAWN_nameDef] tends to look on the bad side of life. -->
+  <NaturalMood.degreeDatas.pessimist.description>[PAWN_nameDef](은)는 자신의 삶을 비관하는 경향이 있습니다.</NaturalMood.degreeDatas.pessimist.description>
+  <!-- EN: depressive -->
+  <NaturalMood.degreeDatas.depressive.label>우울증</NaturalMood.degreeDatas.depressive.label>
+  <!-- EN: [PAWN_nameDef] is perenially unhappy. [PAWN_pronoun] has trouble sustaining a good mood even when everything is fine. -->
+  <NaturalMood.degreeDatas.depressive.description>[PAWN_nameDef](은)는 언제나 불행해서 모든게 잘 돌아가도 기분이 좋지 않습니다.</NaturalMood.degreeDatas.depressive.description>
+  
+  <!-- EN: iron-willed -->
+  <Nerves.degreeDatas.ironwilled.label>철의 의지</Nerves.degreeDatas.ironwilled.label>
+  <!-- EN: [PAWN_nameDef]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before. -->
+  <Nerves.degreeDatas.ironwilled.description>[PAWN_nameDef]의 의지는 마치 강철과 같습니다. 다른 사람들이 먼저 주저앉을 때에도 모든 것을 이겨내고 나아갑니다.</Nerves.degreeDatas.ironwilled.description>
+  <!-- EN: steadfast -->
+  <Nerves.degreeDatas.steadfast.label>확고</Nerves.degreeDatas.steadfast.label>
+  <!-- EN: [PAWN_nameDef] is mentally tough and won't break down under stresses that would crack most people. -->
+  <Nerves.degreeDatas.steadfast.description>[PAWN_nameDef](은)는 다른 사람들이 심각한 스트레스로 인해 무너지더라도 잘 버텨내곤 합니다.</Nerves.degreeDatas.steadfast.description>
+  <!-- EN: nervous -->
+  <Nerves.degreeDatas.nervous.label>신경과민</Nerves.degreeDatas.nervous.label>
+  <!-- EN: [PAWN_nameDef] tends to crack under pressure. -->
+  <Nerves.degreeDatas.nervous.description>[PAWN_nameDef](은)는 압박을 받았을 때 다른 사람들보다 빠르게 무너지는 경향이 있습니다.</Nerves.degreeDatas.nervous.description>
+  <!-- EN: volatile -->
+  <Nerves.degreeDatas.volatile.label>유리정신</Nerves.degreeDatas.volatile.label>
+  <!-- EN: [PAWN_nameDef] is on a hair-trigger all the time. [PAWN_pronoun] is the first to break in any tough situation. -->
+  <Nerves.degreeDatas.volatile.description>[PAWN_nameDef]의 신경은 언제나 곤두서있고, 힘든 상황에서 제일 먼저 포기합니다.</Nerves.degreeDatas.volatile.description>
+  
+  <!-- EN: neurotic -->
+  <Neurotic.degreeDatas.neurotic.label>강박증</Neurotic.degreeDatas.neurotic.label>
+  <!-- EN: [PAWN_nameDef] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective]. -->
+  <Neurotic.degreeDatas.neurotic.description>[PAWN_nameDef](은)는 모든 일을 완료해야 마음이 편해집니다. 모두 끝내버리려고 더 열심히 일하지만 많은 스트레스를 받습니다.</Neurotic.degreeDatas.neurotic.description>
+  <!-- EN: very neurotic -->
+  <Neurotic.degreeDatas.very_neurotic.label>심각한 강박증</Neurotic.degreeDatas.very_neurotic.label>
+  <!-- EN: [PAWN_nameDef] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective]. -->
+  <Neurotic.degreeDatas.very_neurotic.description>[PAWN_nameDef](은)는 끝내지 못한 일들을 자꾸 생각하면서 불안해합니다. 모두 끝내버리려고 엄청나게 열심히 일하지만 많은 스트레스를 받습니다.</Neurotic.degreeDatas.very_neurotic.description>
+  
+  <!-- EN: psychically hypersensitive -->
+  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>정신과민</PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>
+  <!-- EN: [PAWN_nameDef]'s mind is like a psychic tuning fork. [PAWN_pronoun] is extremely sensitive to psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>[PAWN_nameDef]의 정신은 외부와 쉽게 공명합니다. 정신현상에 매우 민감하게 반응합니다.</PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>
+  <!-- EN: psychically sensitive -->
+  <PsychicSensitivity.degreeDatas.psychically_sensitive.label>민감한 정신</PsychicSensitivity.degreeDatas.psychically_sensitive.label>
+  <!-- EN: [PAWN_nameDef]'s mind is unusually sensitive to psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_sensitive.description>[PAWN_nameDef]의 마음은 정신현상에 대해 비정상적으로 민감합니다.</PsychicSensitivity.degreeDatas.psychically_sensitive.description>
+  <!-- EN: psychically dull -->
+  <PsychicSensitivity.degreeDatas.psychically_dull.label>둔감한 정신</PsychicSensitivity.degreeDatas.psychically_dull.label>
+  <!-- EN: [PAWN_nameDef]'s mind is psychically out of tune with others. [PAWN_pronoun] isn't as affected by psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_dull.description>[PAWN_nameDef]의 마음은 다른 사람들의 정신파와 잘 맞지 않습니다. 따라서 정신현상에 잘 영향을 받지 않습니다.</PsychicSensitivity.degreeDatas.psychically_dull.description>
+  <!-- EN: psychically deaf -->
+  <PsychicSensitivity.degreeDatas.psychically_deaf.label>정신적 무감각</PsychicSensitivity.degreeDatas.psychically_deaf.label>
+  <!-- EN: [PAWN_nameDef]'s mind works on a psychic frequency different from everyone else. [PAWN_pronoun] just isn't affected by psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_deaf.description>[PAWN_nameDef]의 마음은 평범한 사람들과 완전히 다른 정신파동에서 움직입니다. 따라서 어떤 정신현상에도 영향을 받지 않습니다.</PsychicSensitivity.degreeDatas.psychically_deaf.description>
+  
+  <!-- EN: careful shooter -->
+  <ShootingAccuracy.degreeDatas.careful_shooter.label>신중한 사수</ShootingAccuracy.degreeDatas.careful_shooter.label>
+  <!-- EN: [PAWN_nameDef] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy. -->
+  <ShootingAccuracy.degreeDatas.careful_shooter.description>[PAWN_nameDef](은)는 조준하는데 시간이 걸립니다. 남들보다 덜 쏘지만 더 정확합니다.</ShootingAccuracy.degreeDatas.careful_shooter.description>
+  <!-- EN: trigger-happy -->
+  <ShootingAccuracy.degreeDatas.triggerhappy.label>난사광</ShootingAccuracy.degreeDatas.triggerhappy.label>
+  <!-- EN: Pew! Pew! Pew! [PAWN_nameDef] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately. -->
+  <ShootingAccuracy.degreeDatas.triggerhappy.description>탕! 탕! 탕! [PAWN_nameDef](은)는 방아쇠 당기는걸 좋아할 뿐입니다. 남들보다 자주 쏘지만 부정확합니다.</ShootingAccuracy.degreeDatas.triggerhappy.description>
+  
+  <!-- EN: slowpoke -->
+  <SpeedOffset.degreeDatas.slowpoke.label>무거운 발</SpeedOffset.degreeDatas.slowpoke.label>
+  <!-- EN: [PAWN_nameDef] is always falling behind the group whenever [PAWN_pronoun] goes anywhere. -->
+  <SpeedOffset.degreeDatas.slowpoke.description>[PAWN_nameDef](은)는 항상 무리에서 뒤쳐집니다.</SpeedOffset.degreeDatas.slowpoke.description>
+  <!-- EN: fast walker -->
+  <SpeedOffset.degreeDatas.fast_walker.label>가벼운 발</SpeedOffset.degreeDatas.fast_walker.label>
+  <!-- EN: [PAWN_nameDef] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people. -->
+  <SpeedOffset.degreeDatas.fast_walker.description>[PAWN_nameDef](은)는 어느 곳이든 움직이는걸 좋아하며, 대부분의 사람들보다 빠르게 앞장섭니다.</SpeedOffset.degreeDatas.fast_walker.description>
+  <!-- EN: jogger -->
+  <SpeedOffset.degreeDatas.jogger.label>신속</SpeedOffset.degreeDatas.jogger.label>
+  <!-- EN: [PAWN_nameDef] always moves with a sense of urgency - so much so that others often fail to keep up. -->
+  <SpeedOffset.degreeDatas.jogger.description>[PAWN_nameDef](은)는 다른 사람들이 따라잡기 힘들 정도로 빠르게 움직입니다.</SpeedOffset.degreeDatas.jogger.description>
+  
+</LanguageData>

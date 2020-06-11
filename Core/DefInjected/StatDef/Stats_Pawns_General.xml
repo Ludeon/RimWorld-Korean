@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: carrying capacity -->
+  <CarryingCapacity.label>운반 수량</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>손, 입이나 기타 수단으로 옮길 수 있는 물건의 양입니다. 세계화면에서 운반하는 능력과는 관계가 없습니다.</CarryingCapacity.description>
+  
+  <!-- EN: Maximum comfortable temperature -->
+  <ComfyTemperatureMax.label>최대 적응 온도</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>이 온도보다 덥다면 불쾌해집니다. 더 뜨거워지면 열사병으로 죽을 수 있습니다.</ComfyTemperatureMax.description>
+  
+  <!-- EN: Minimum comfortable temperature -->
+  <ComfyTemperatureMin.label>최소 적응 온도</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>이 온도보다 춥다면 불쾌해집니다. 더 차가워지면 저체온증으로 죽을 수 있습니다.</ComfyTemperatureMin.description>
+  
+  <!-- EN: eating speed -->
+  <EatingSpeed.label>섭취 속도</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
+  <EatingSpeed.description>음식을 섭취하는 속도에 곱해지는 계수입니다.</EatingSpeed.description>
+  
+  <!-- EN: foraged food amount -->
+  <ForagedNutritionPerDay.label>식량 채집량</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
+  <ForagedNutritionPerDay.description>상단에 포함되었을 때 이동하는 동안 하루에 자동적으로 채집하는 양입니다.</ForagedNutritionPerDay.description>
+  
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>전역 학습 속도</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
+  <GlobalLearningFactor.description>모든 기술을 학습할 때의 속도에 곱해지는 계수입니다.</GlobalLearningFactor.description>
+  
+  <!-- EN: hunger rate multiplier -->
+  <HungerRateMultiplier.label>굶주림 속도</HungerRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
+  <HungerRateMultiplier.description>생물이 굶주림을 느끼는 속도에 곱해지는 계수입니다.</HungerRateMultiplier.description>
+  
+  <!-- EN: immunity gain speed -->
+  <ImmunityGainSpeed.label>항체 생성 속도</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>질병이 발생했을 때 항체가 생성되는 속도를 나타냅니다. 만약 이 값이 너무 낮다면 항체가 생성되기 전에 죽을 수 있습니다.</ImmunityGainSpeed.description>
+  
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>가죽량</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <LeatherAmount.description>도축해서 얻을 수 있는 가죽의 양입니다.</LeatherAmount.description>
+  
+  <!-- EN: meat amount -->
+  <MeatAmount.label>고기량</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <MeatAmount.description>도축해서 얻을 수 있는 고기의 양입니다.</MeatAmount.description>
+  
+  <!-- EN: mental break threshold -->
+  <MentalBreakThreshold.label>정신이상 임계치</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>기분이 임계치 아래로 떨어진다면 정신이상을 겪을 위험이 있습니다. 정신이상의 심각성은 한계치 아래로 얼마나 떨어져 있냐에 따라 좌우됩니다.</MentalBreakThreshold.description>
+  
+  <!-- EN: minimum handling skill -->
+  <MinimumHandlingSkill.label>최소 조련기술 요구량</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
+  <MinimumHandlingSkill.description>조련기술이 이 수치보다 낮다면 조련, 훈련, 명령할 수 없습니다.</MinimumHandlingSkill.description>
+  
+  <!-- EN: move speed -->
+  <MoveSpeed.label>이동 속도</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
+  <MoveSpeed.description>1초에 몇 칸을 움직일 수 있는지에 대한 값입니다.</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
+  <MoveSpeed.formatString>{0}칸/초</MoveSpeed.formatString>
+  
+  <!-- EN: pain shock threshold -->
+  <PainShockThreshold.label>고통 한계</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
+  <PainShockThreshold.description>심한 고통으로 인해 정신을 잃는 한계입니다.</PainShockThreshold.description>
+  
+  <!-- EN: psychic sensitivity -->
+  <PsychicSensitivity.label>정신 감응력</PsychicSensitivity.label>
+  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
+  <PsychicSensitivity.description>정신적 현상이 얼마나 많은 영향을 끼치는지 나타냅니다. 더 민감할 수록 부정적, 긍정적 요인에 대해서 둘 다 크게 받습니다.</PsychicSensitivity.description>
+  
+  <!-- EN: rest rate multiplier -->
+  <RestRateMultiplier.label>수면 시간</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
+  <RestRateMultiplier.description>자고 있는 생물이 얼마나 빠르게 깨어나는지를 나타냅니다.</RestRateMultiplier.description>
+  
+  <!-- EN: toxic sensitivity -->
+  <ToxicSensitivity.label>독성 민감도</ToxicSensitivity.label>
+  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
+  <ToxicSensitivity.description>중독으로 인한 증상에 곱해지는 계수입니다.</ToxicSensitivity.description>
+  
+</LanguageData>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: rest effectiveness -->
+  <BedRestEffectiveness.label>휴식 효율</BedRestEffectiveness.label>
+  <!-- EN: How fast people sleeping on this gain rest. -->
+  <BedRestEffectiveness.description>휴식할 경우 얼마나 잘 쉴 수 있는지 나타냅니다.</BedRestEffectiveness.description>
+  
+  <!-- EN: door opening speed -->
+  <DoorOpenSpeed.label>개폐 속도</DoorOpenSpeed.label>
+  <!-- EN: The speed at which the door opens. Slow doors will slow down everyone who uses them. -->
+  <DoorOpenSpeed.description>문이 열리는 속도입니다. 느린 문은 지나다니는 사람의 속도도 느려집니다.</DoorOpenSpeed.description>
+  
+  <!-- EN: immunity gain speed factor -->
+  <ImmunityGainSpeedFactor.label>항체 생성 속도 계수</ImmunityGainSpeedFactor.label>
+  <!-- EN: Immunity gain speed is multiplied by this value. -->
+  <ImmunityGainSpeedFactor.description>환자의 항체 생성 속도에 곱해집니다.</ImmunityGainSpeedFactor.description>
+  
+  <!-- EN: recreation power -->
+  <JoyGainFactor.label>재미 계수</JoyGainFactor.label>
+  <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
+  <JoyGainFactor.description>사용자가 얻는 즐거움 수치에 곱해집니다.</JoyGainFactor.description>
+  
+  <!-- EN: medical tend quality offset -->
+  <MedicalTendQualityOffset.label>간호 품질 보너스</MedicalTendQualityOffset.label>
+  <!-- EN: Medical tend quality is offset by this value. -->
+  <MedicalTendQualityOffset.description>간호 품질 수치에 더해집니다.</MedicalTendQualityOffset.description>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>연구 속도 계수</ResearchSpeedFactor.label>
+  <!-- EN: The speed at which people do research is multiplied by this value. -->
+  <ResearchSpeedFactor.description>연구 속도에 곱해집니다.</ResearchSpeedFactor.description>
+  <!-- EN: Room cleanliness -->
+  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>방 청결도</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  
+  <!-- EN: surgery success chance factor -->
+  <SurgerySuccessChanceFactor.label>수술 성공률 계수</SurgerySuccessChanceFactor.label>
+  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here. Surgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
+  <SurgerySuccessChanceFactor.description>수술이 성공할 확률에 곱해집니다. 수술 성공률은 집도의와 약품에도 영향을 받습니다.</SurgerySuccessChanceFactor.description>
+  <!-- EN: Room cleanliness -->
+  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>방 청결도</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
+  
+  <!-- EN: trap melee damage -->
+  <TrapMeleeDamage.label>덫 근접 피해량</TrapMeleeDamage.label>
+  <!-- EN: How much damage this trap does on average. The actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>덫이 입히는 피해의 평균값입니다. 실제 피해량은 약간의 오차가 있을 수 있습니다.</TrapMeleeDamage.description>
+  
+  <!-- EN: trap spring chance -->
+  <TrapSpringChance.label>덫 작동 확률</TrapSpringChance.label>
+  <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
+  <TrapSpringChance.description>생물체가 지나갈 때 덫이 작동할 확률입니다.</TrapSpringChance.description>
+  
+  <!-- EN: work efficiency factor -->
+  <WorkTableEfficiencyFactor.label>작업 능률 계수</WorkTableEfficiencyFactor.label>
+  <!-- EN: Work efficiency is multiplied by this value. -->
+  <WorkTableEfficiencyFactor.description>작업 능률에 곱해집니다.</WorkTableEfficiencyFactor.description>
+  
+  <!-- EN: work speed factor -->
+  <WorkTableWorkSpeedFactor.label>작업 속도 계수</WorkTableWorkSpeedFactor.label>
+  <!-- EN: Work speed is multiplied by this value. -->
+  <WorkTableWorkSpeedFactor.description>작업자의 작업 속도에 곱해집니다.</WorkTableWorkSpeedFactor.description>
+  
+  <!-- EN: work to build -->
+  <WorkToBuild.label>건설 작업량</WorkToBuild.label>
+  <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered. -->
+  <WorkToBuild.description>모든 재료가 모였을때 건설하는데 필요한 기본 작업량입니다.</WorkToBuild.description>
+  
+</LanguageData>

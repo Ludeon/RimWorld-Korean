@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: butchery efficiency -->
+  <ButcheryFleshEfficiency.label>도축 효율</ButcheryFleshEfficiency.label>
+  <!-- EN: The amount of meat produced when butchering flesh creatures. The actual amount is also related to the creature's size. -->
+  <ButcheryFleshEfficiency.description>시체를 도축했을 때 얻을 수 있는 고기와 가죽의 양에 영향을 미칩니다. 실제 양은 생명체의 크기와 관련있습니다.</ButcheryFleshEfficiency.description>
+  
+  <!-- EN: butchery speed -->
+  <ButcheryFleshSpeed.label>도축 속도</ButcheryFleshSpeed.label>
+  <!-- EN: The speed at which this person butchers flesh creatures. -->
+  <ButcheryFleshSpeed.description>생명체를 도축했 때 얻을 수 있는 고기의 양입니다.</ButcheryFleshSpeed.description>
+  
+  <!-- EN: mechanoid disassembly efficiency -->
+  <ButcheryMechanoidEfficiency.label>메카노이드 분해 효율</ButcheryMechanoidEfficiency.label>
+  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid. The actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>메카노이드를 분해했을 때 얻을 수 있는 재료의 양입니다. 실제 양은 메카노이드의 크기와 관련있습니다.</ButcheryMechanoidEfficiency.description>
+  
+  <!-- EN: mechanoid disassembly speed -->
+  <ButcheryMechanoidSpeed.label>메카노이드 분해 속도</ButcheryMechanoidSpeed.label>
+  <!-- EN: The speed at which this person can disassemble a mechanoid. -->
+  <ButcheryMechanoidSpeed.description>메카노이드를 분해하는 속도입니다.</ButcheryMechanoidSpeed.description>
+  
+  <!-- EN: cooking speed -->
+  <CookSpeed.label>조리 속도</CookSpeed.label>
+  <!-- EN: The speed at which this person cooks meals. -->
+  <CookSpeed.description>음식을 조리하는 속도입니다.</CookSpeed.description>
+  
+  <!-- EN: drug cooking speed -->
+  <DrugCookingSpeed.label>약물 제작 속도</DrugCookingSpeed.label>
+  <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
+  <DrugCookingSpeed.description>맥아즙이나 홍차 또는 담배같은 간단한 약물을 만드는 속도입니다.</DrugCookingSpeed.description>
+  
+  <!-- EN: drug synthesis speed -->
+  <DrugSynthesisSpeed.label>약물 합성 속도</DrugSynthesisSpeed.label>
+  <!-- EN: How fast this character synthesizes complex chemical drugs. -->
+  <DrugSynthesisSpeed.description>화학 약물을 합성하는 속도입니다.</DrugSynthesisSpeed.description>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>식중독 확률</FoodPoisonChance.label>
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook. Food poison temporarily debilitates anyone it strikes. -->
+  <FoodPoisonChance.description>부주의로 인해 조리한 음식이 식중독을 유발할 확률입니다. 식중독은 누구에게나 일시적으로 약해집니다.</FoodPoisonChance.description>
+  
+  <!-- EN: sculpting speed -->
+  <SculptingSpeed.label>조각 속도</SculptingSpeed.label>
+  <!-- EN: The speed at which this person creates sculptures.\n\nThis stat only affects how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill. -->
+  <SculptingSpeed.description>재료를 조각하는 속도입니다. 조각상을 만드는 속도에만 영향을 주며 품질은 조각가의 기술 등급에 의해 결정됩니다.</SculptingSpeed.description>
+  
+  <!-- EN: smelting speed -->
+  <SmeltingSpeed.label>금속 제련 속도</SmeltingSpeed.label>
+  <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
+  <SmeltingSpeed.description>금속 물건을 녹이는 속도입니다. 단순노동이기 때문에 어떠한 기술에도 영향을 받지 않습니다.</SmeltingSpeed.description>
+  
+  <!-- EN: smithing speed -->
+  <SmithingSpeed.label>제련 속도</SmithingSpeed.label>
+  <!-- EN: Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill. -->
+  <SmithingSpeed.description>무기, 기계, 탄약 등을 만드는 속도입니다. 아이템을 만드는 속도에만 영향을 주며 품질은 제작자의 기술 등급에 의해 결정됩니다.</SmithingSpeed.description>
+  
+  <!-- EN: tailoring speed -->
+  <TailoringSpeed.label>재단 속도</TailoringSpeed.label>
+  <!-- EN: The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill. -->
+  <TailoringSpeed.description>옷을 만드는 속도입니다. 옷을 만드는 속도에만 영향을 주며 품질은 재단사의 기술 등급에 의해 결정됩니다.</TailoringSpeed.description>
+  
+  <!-- EN: unskilled labor speed -->
+  <UnskilledLaborSpeed.label>단순노동 속도</UnskilledLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items. -->
+  <UnskilledLaborSpeed.description>석재, 화학연료, 소각 등 단순노동을 수행하는 속도입니다.</UnskilledLaborSpeed.description>
+  
+</LanguageData>
