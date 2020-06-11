@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [lodgersLabelSingOrPlural] arrived -->
+  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>[lodgersLabelSingOrPlural] 도착</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
+  <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
+  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>[lodgersHasHave][lodgersLabelSingOrPluralDef](이)가 도착했습니다. 왕복선이 도착할 때까지 [shuttleDelayTicks_duration] 동안 보호하세요.[helpersArrivalLetterEnd]</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
+  <!-- EN: Should depart on shuttle -->
+  <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>왕복선 출발</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>왕복선 도착</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
+  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>왕복선이 [lodgersLabelSingOrPluralDef](을)를 데려가기 위해 도착했습니다. 왕복선이 출발하기 [shuttleLeaveDelayTicks_duration] 전까지 탑승해야 합니다:\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
+  <!-- EN: Guest died: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>방문객 사망: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has died. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>보호 임무를 맡은 [letterSubject](이)가 사망했습니다. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
+  <!-- EN: Guest captured: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>포획된 방문객: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>보호 임무를 맡은 [letterSubject](이)가 포획되었습니다. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
+  <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>수감자 포섭: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
+  <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>보호 임무를 맡은 {SUBJECT_definite}(이)가 포섭되었습니다. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
+  <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>불법시술: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
+  <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>승인되지 않은 수술을 [letterSubject]에게 시술하였습니다. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>방문객 실종: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>보호 임무를 맡은 [letterSubject](이)가 실종되었습니다. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>방문객 실종: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>보호 임무를 맡은 [letterSubject](이)가 다른 세력에 합류하였습니다. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>임무 실패: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
+  <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>[asker_faction_name] 세력은 이제 적대가 되었습니다. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>파괴된 왕복선</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>[lodgersLabelSingOrPluralDef](을)를 데리러 온 왕복선이 파괴되었습니다. [lodgersLabelSingOrPluralDef](은)는 걸어서 떠납니다. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Quest completed -->
+  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>임무 완료</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
+  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>'[resolvedQuestName]' 임무를 완료하였습니다!\n\n[asker_nameDef](은)는 [asker_pronoun]가 머물렀던 높은 수준의 숙소에 대해 보상을 하겠다고 합니다. [lodgersLabelSingOrPluralDef]의 평균 기분은 [theirHisHer] 숙박동안 {AVERAGEMOOD} 이었으므로, [asker_faction_name] 세력과의 우호도가 {GOODWILL} 만큼 증가했습니다</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
+  <!-- EN: Quest completed -->
+  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>임무 완료</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [lodgersLabelSingOrPluralDef] [lodgersWasWere] willing to reward quality accommodation, [theirHisHer] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
+  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>'[resolvedQuestName]' 임무를 완료하였습니다!\n\n[asker_nameDef](은)는 숙박에 대한 보상을 하겠지만, [lodgersLabelSingOrPluralDef]의 평균 기분은 [theirHisHer] 숙박동안 {AVERAGEMOOD}에 불과했기 때문에, 세력과의 우호도는 얻지 못했습니다.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>임무 실패: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>[lodgersLabelSingOrPluralDef](을)를 데리러 온 왕복선이 떠났습니다. [lodgersLabelSingOrPluralDef](은)는 걸어서 떠납니다. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
+  
+  <!-- EN: Shuttle destroyed -->
+  <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>파괴된 왕복선</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
+  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>[pawnsLabelDef](을)를 내리기 위해 보낸 왕복선이 파괴되어, '[resolvedQuestName]' 임무에 실패하였습니다.\n\n[asker_faction_name](와)과의 관계가 [goodwillChangeOnShuttleDestroyed] 만큼 감소했습니다.</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
+  
+</LanguageData>

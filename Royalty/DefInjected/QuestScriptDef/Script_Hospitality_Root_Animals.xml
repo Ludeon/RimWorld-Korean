@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>lodgersLabel->[lodgersPawnKind_label]</li>
+    <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
+  -->
+  <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->[lodgersPawnKind_label]</li>
+    <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
+  </Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechClustersMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by a mechanoid hive.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by a mechanoid hive.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->An animal rescue organization wants you to take care of a [lodgersLabel] named [lodgers0_nameDef] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe animal rescue activists stole [lodgers0_nameDef] from a slaughtering ceremony being held by [enemyFaction_name]. Now the [enemyFaction_pawnsPlural] are coming to seek revenge. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->An animal rescue organization wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>victim->child</li>
+    <li>victim->woman</li>
+    <li>victim->man</li>
+    <li>victim->[PersonJob]</li>
+    <li>victim(generateThreats==true,threatType==Raids)->friend of the [enemyFaction_leaderTitle] of [enemyFaction_name]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, these [lodgersLabelPlural] were recently implicated in the death of a [victim]. Now, [enemyFaction_pawnsPlural] from [enemyFaction_name] are hunting them for ritual revenge. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is looking for a safe settlement to take care of [asker_possessive] pet [lodgersLabel] [lodgers0_nameDef] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] are trying to kill poor little [lodgers0_nameDef] to get at [asker_nameDef]. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe [lodgersLabelPlural] are necessary for [asker_nameDef] to fulfill an important trade promise. To provoke conflict, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after them. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [asker_possessive] favorite pet, the [lodgersLabel] [lodgers0_nameDef], at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] is a gift promised to [asker_nameDef]'s child for a marriage ceremony. To try to prevent the marriage, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after [lodgers0_objective]. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. The [lodgersLabelPlural] are [asker_nameDef]'s favorite pets, and [asker_pronoun] wants them to see the world outside [asker_possessive] royal court. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_name] is hunting the [lodgersLabelPlural] to try to hurt [asker_nameDef] personally. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+    <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
+  -->
+  <Hospitality_Animals.questDescriptionRules.rulesStrings>
+    <!--<li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm. As long as [lodgers0_pronoun] is present, mechanoid combat clusters will regularly drop onto [map_definite].</li>
+    <li>threatsInfoMechClustersMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by an orbiting mechanoid swarm. As long as they are present, mechanoid combat clusters will regularly drop onto [map_definite].</li>
+    <li>threatsInfoMechRaidsSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by a mechanoid hive. As long as [lodgers0_pronoun] is present, mechanoid combat groups will regularly attack [map_definite].</li>
+    <li>threatsInfoMechRaidsMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by a mechanoid hive. As long as they are present, mechanoid combat groups will regularly attack [map_definite].</li> -->
+    <li>threatsInfoMechClustersSingleAnimal->이유가 알려지진 않았지만, [lodgersLabel](은)는 궤도상의 메카노이드 무리에게 표적이 되었습니다. [lodgers0_pronoun]를 계속 데리고 있는 한, [map_definite]에 정기적으로 전투메카 전초기지가 떨어집니다.</li>
+    <li>threatsInfoMechClustersMultiAnimal->이유가 알려지진 않았지만, [lodgersLabelPlural](은)는 궤도상의 메카노이드 무리에게 표적이 되었습니다. 이들을 계속 데리고 있는 한, [map_definite]에 정기적으로 전투메카 전초기지가 떨어집니다.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->이유가 알려지진 않았지만, [lodgersLabel](은)는 메카노이드 군락에게 표적이 되었습니다. [lodgers0_pronoun]를 계속 데리고 있는 한, [map_definite]에 정기적으로 메카노이드 무리가 공격하러 옵니다.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->이유가 알려지진 않았지만, [lodgersLabelPlural](은)는 메카노이드 군락에게 표적이 되었습니다. 이들을 계속 데리고 있는 한, [map_definite]에 정기적으로 메카노이드 무리가 공격하러 옵니다.</li>
+    <!--<li>questDescription(askerIsNull==true,lodgersCount==1)->An animal rescue organization wants you to take care of a [lodgersLabel] named [lodgers0_nameDef] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nThe animal rescue activists stole [lodgers0_nameDef] from a slaughtering ceremony being held by [enemyFaction_name]. Now the [enemyFaction_pawnsPlural] are coming to seek revenge. If you accept [lodgers0_nameDef], [enemyFaction_pawnsPlural] will attack as long as [lodgers0_pronoun] is present. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>-->
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->동물 구조단체가 [shuttleDelayTicks_duration] 동안 [map_definite]에서 [lodgers0_nameDef](이)라는 이름의 [lodgersLabel](을)를 돌봐주기를 원합니다. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n동물 구조 운동가들이 [enemyFaction_name]에서 열린 도축 행사에서 [lodgers0_nameDef](을)를 훔쳐, [enemyFaction_pawnsPlural](이)가 보복하기 위해 찾아나섰습니다. [lodgers0_nameDef](을)를 수락하게 된다면, [lodgers0_pronoun]가 있는 한 [enemyFaction_pawnsPlural](이)가 공격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <!--<li>questDescription(askerIsNull==true,lodgersCount>=2)->An animal rescue organization wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
+    <li>victim->child</li>
+    <li>victim->woman</li>
+    <li>victim->man</li>
+    <li>victim->[PersonJob]</li>
+    <li>victim(generateThreats==true,allowedThreats==Raids)->friend of the [enemyFaction_leaderTitle] of [enemyFaction_name]</li>-->
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->동물 구조단체가 [shuttleDelayTicks_duration] 동안 [map_definite]에서 [lodgersCount]마리의 [lodgersLabelPlural](을)를 돌봐주기를 원합니다. [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
+    <li>victim->어린이</li>
+    <li>victim->여성</li>
+    <li>victim->남성</li>
+    <li>victim->[PersonJob]</li>
+    <li>victim(generateThreats==true,allowedThreats==Raids)->[enemyFaction_name]의 [enemyFaction_leaderTitle]의 친구</li>
+    <!--<li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, these [lodgersLabelPlural] were recently implicated in the death of a [victim]. Now, [enemyFaction_pawnsPlural] from [enemyFaction_name] are hunting them for ritual revenge. If you accept the [lodgersLabelPlural], [enemyFaction_pawnsPlural] will attack as long as they are present. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>-->
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n불행하게도, 최근 [victim]의 죽음에 [lodgersLabelPlural](이)가 연루되어 있습니다. 이제, [enemyFaction_name]의 [enemyFaction_pawnsPlural](이)가 복수를 위해 사냥하러 찾아다니고 있습니다. [lodgersLabelPlural](을)를 수락하게 된다면, [enemyFaction_pawnsPlural](이)가 공격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <!--<li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is looking for a safe settlement to take care of [asker_possessive] pet [lodgersLabel] [lodgers0_nameDef] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] are trying to kill poor little [lodgers0_nameDef] to get at [asker_nameDef]. If you accept [lodgers0_nameDef], [enemyFaction_pawnsPlural] will attack as long as [lodgers0_pronoun] is present. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>-->
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](이)가 [lodgers0_nameDef](이)라는 이름의 애완동물인 [lodgersLabel](을)를 [shuttleDelayTicks_duration] 동안 안전하게 돌봐줄 정착지를 찾고 있습니다. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_name]의 [enemyFaction_pawnsPlural](이)가 [asker_nameDef](을)를 얻기 위해 작고 가여운 [lodgers0_nameDef](을)를 죽이려고 합니다. [lodgers0_nameDef](을)를 수락하게 된다면, [lodgers0_pronoun](이)가 있는 한 [enemyFaction_pawnsPlural](이)가 공격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <!--<li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4]\n\n[commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nThe [lodgersLabelPlural] are necessary for [asker_nameDef] to fulfill an important trade promise. To provoke conflict, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after them. If you accept the [lodgersLabelPlural], [enemyFaction_pawnsPlural] will attack as long as they are present. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>-->
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](이)가 요청을 보내왔습니다. [asker_pronoun]가 [map_definite]에서 [lodgersLabelPlural] [lodgersCount]마리를 [shuttleDelayTicks_duration] 동안 돌봐주기를 부탁합니다. [healthInfo][threatsInfo4]\n\n[commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef](은)는 중요한 거래를 약속하기 위해 [lodgersLabelPlural](을)를 필요로 합니다. 이들의 갈등을 유발하기 위해, [enemyFaction_name]의 [enemyFaction_pawnsPlural](을)를 보내기로 했습니다. [lodgersLabelPlural](을)를 수락하게 된다면, [enemyFaction_pawnsPlural](이)가 공격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <!--<li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [asker_possessive] favorite pet, the [lodgersLabel] [lodgers0_nameDef], at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5]\n\n[commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] is a gift promised to [asker_nameDef]'s child for a marriage ceremony. To try to prevent the marriage, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after [lodgers0_objective]. If you accept [lodgers0_nameDef], [enemyFaction_pawnsPlural] will attack as long as [lodgers0_nameDef] is present. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>-->
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](이)가 요청을 보내왔습니다. [asker_pronoun]가 좋아하는 [asker_possessive] 애완동물인 [lodgers0_nameDef](이)라는 이름의 [lodgersLabel](을)를 [map_definite]에서 [shuttleDelayTicks_duration] 동안 돌봐주기를 부탁합니다. [healthInfo][threatsInfo5]\n\n[commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef](은)는 자녀에게 결혼 선물로 [lodgers0_nameDef](을)를 주기로 약속 했었습니다. [enemyFaction_name](은)는 결혼을 막기 위해, [asker_pronoun]에게 [enemyFaction_pawnsPlural](을)를 보내기로 했습니다. [lodgers0_nameDef](을)를 수락하게 된다면, [lodgers0_nameDef](이)가 있는 한 [enemyFaction_pawnsPlural](이)가 공격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <!--<li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. The [lodgersLabelPlural] are [asker_nameDef]'s favorite pets, and [asker_pronoun] wants them to see the world outside [asker_possessive] royal court. [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_name] is hunting the [lodgersLabelPlural] to try to hurt [asker_nameDef] personally. If you accept the [lodgersLabelPlural], [enemyFaction_pawnsPlural] will attack as long as they are present. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+    <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>-->
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](이)가 요청을 보내왔습니다. [asker_pronoun]가 [map_definite]에서 [lodgersLabelPlural] [lodgersCount]마리를 [shuttleDelayTicks_duration] 동안 돌봐주기를 부탁합니다. [lodgersLabelPlural](은)는 [asker_nameDef](이)가 가장 좋아하는 애완동물이며, [asker_pronoun]가 있는 왕국의 바깥 세계를 보기를 원합니다. [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n불행하게도, [enemyFaction_name](이)가 개인적으로 [asker_nameDef](을)를 해치기 위해 [lodgersLabelPlural](을)를 뒤쫓고 있습니다. 만약 당신이 [lodgersLabelPlural](을)를 받아들인다면, [enemyFaction_pawnsPlural](은)는 그들이 존재하는 한 당신을 공격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+    <li>letterSubject(priority=1)->{SUBJECT_definite} [lodgersLabel]</li>
+  </Hospitality_Animals.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(lodgersCount==1)->the [animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->a [animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel]-sitting</li>
+    <li>questName(lodgersCount==1)->keeping [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->poor little [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount>=2)->the [animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabel]-sitting</li>
+    <li>questName(lodgersCount==2)->keeping [lodgersLabelPlural]</li>
+    <li>animalAdj->adorable</li>
+    <li>animalAdj->doe-eyed</li>
+    <li>animalAdj->loyal</li>
+    <li>animalAdj->loving</li>
+    <li>animalAdj->quiet</li>
+    <li>animalAdj->gentle</li>
+    <li>animalAdj->proud</li>
+    <li>animalAdj(generateThreats==true)->hunted</li>
+    <li>animalAdj(generateThreats==true)->frightened</li>
+  -->
+  <Hospitality_Animals.questNameRules.rulesStrings>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->앉아있는 [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[lodgers0_nameDef] 관리하기</li>
+    <li>questName(lodgersCount==1)->작고 가여운 [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->앉아있는 [lodgersLabel]</li>
+    <li>questName(lodgersCount==2)->[lodgersLabelPlural] 관리하기</li>
+    <li>animalAdj->사랑스러운</li>
+    <li>animalAdj->예쁜 눈을 가진</li>
+    <li>animalAdj->충실한</li>
+    <li>animalAdj->다정한</li>
+    <li>animalAdj->조용한</li>
+    <li>animalAdj->온화한</li>
+    <li>animalAdj->오만한</li>
+    <li>animalAdj(generateThreats==true)->쫓기는 듯한</li>
+    <li>animalAdj(generateThreats==true)->겁먹은</li>
+  </Hospitality_Animals.questNameRules.rulesStrings>
+  
+</LanguageData>

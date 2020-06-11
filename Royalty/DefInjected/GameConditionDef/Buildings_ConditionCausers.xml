@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: climate adjustment -->
+  <ClimateAdjustment.label>기후 조정기</ClimateAdjustment.label>
+  <!-- EN: A nearby climate adjuster is shifting the temperature. -->
+  <ClimateAdjustment.description>근처의 기후 조정기가 온도를 변화시키고 있습니다.</ClimateAdjustment.description>
+  <!-- EN: A climate adjuster machine has begun shifting the temperature. -->
+  <ClimateAdjustment.letterText>기후 조정기의 온도 변화가 시작되었습니다.</ClimateAdjustment.letterText>
+  
+  <!-- EN: EMI field -->
+  <EMIField.label>EMI 교란기</EMIField.label>
+  <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
+  <EMIField.description>EMI 교린기가 간섭 필드를 투사하여 전기 장치를 비활성화합니다.</EMIField.description>
+  <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
+  <EMIField.descriptionFuture>어느 먼 곳에 있는 EMI 교란기가 내뿜는 전자파가 [map_definite] 주변에 도달하여 [gameConditionDuration_duration] 동안 모든 전자기기가 작동하지 않습니다.</EMIField.descriptionFuture>
+  <!-- EN: The EMI field has disappeared. -->
+  <EMIField.endMessage>전자파가 사라졌습니다.</EMIField.endMessage>
+  <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
+  <EMIField.letterText>전자파가 생성되었습니다. 전기 장치가 비활성화되고 있습니다.</EMIField.letterText>
+  
+  <!-- EN: giant smoke cloud -->
+  <GiantSmokeCloud.label>커다란 연기 구름</GiantSmokeCloud.label>
+  <!-- EN: A nearby smoke spewer is reducing sunlight in this region. -->
+  <GiantSmokeCloud.description>근처에 있는 연기 분출기가 이 지역의 햇빛을 줄이고 있습니다.</GiantSmokeCloud.description>
+  <!-- EN: A smoke spewer machine has begun obscuring the sun. -->
+  <GiantSmokeCloud.letterText>연기 분출기가 태양을 차단하기 시작했습니다.</GiantSmokeCloud.letterText>
+  
+  <!-- EN: psychic suppression -->
+  <PsychicSuppression.label>정신력 억제기</PsychicSuppression.label>
+  <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
+  <PsychicSuppression.description>정신력 억제기는 {0}들에게 영향을 미치고 그들의 의식을 감소시키고 있습니다. 그 효과는 개인의 정신력 민감도에 의해서 정해집니다.</PsychicSuppression.description>
+  <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
+  <PsychicSuppression.descriptionFuture>정신력 억제기는 [map_definite]의 주변에서 [gameConditionDuration_duration] 동안 [psychicSuppressorGender]들의 의식을 감소시킵니다.</PsychicSuppression.descriptionFuture>
+  <!-- EN: The psychic suppressor field has dissipated. -->
+  <PsychicSuppression.endMessage>정신력 억제장이 사라졌습니다.</PsychicSuppression.endMessage>
+  <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
+  <PsychicSuppression.letterText>정신력 억제기는 전 지역에 걸쳐 {0}의 의식을 감소시키기 시작했습니다. 그 효과는 개인의 정신력 민감도에 의해서 정해집니다</PsychicSuppression.letterText>
+  
+  <!-- EN: sun blocked -->
+  <SunBlocker.label>태양 차단기</SunBlocker.label>
+  <!-- EN: A nearby sun blocker machine is turning the upper atmosphere opaque, blocking the sun. -->
+  <SunBlocker.description>근처의 차광 장치가 상부 대기를 불투명하게하여 태양을 차단하기 시작합니다.</SunBlocker.description>
+  <!-- EN: A sun blocker machine has begun blocking the sun. -->
+  <SunBlocker.letterText>차광장치가 태양을 차단하기 시작했습니다.</SunBlocker.letterText>
+  
+  <!-- EN: toxic spewer -->
+  <ToxicSpewer.label>독성 분출기</ToxicSpewer.label>
+  <!-- EN: A nearby toxic spewer is blanketing this whole region with poison. -->
+  <ToxicSpewer.description>근처에 있는 독성 분출기가 이 지역 전체를 독으로 뒤덮고 있습니다.</ToxicSpewer.description>
+  <!-- EN: A toxic spewer machine has begun blanketing the whole region with poison. -->
+  <ToxicSpewer.letterText>독성 분출 기계가 지역 전체를 독으로 뒤덮고 있습니다.</ToxicSpewer.letterText>
+  
+  <!-- EN: forced weather -->
+  <WeatherController.label>날씨 조절기</WeatherController.label>
+  <!-- EN: A nearby weather controller is forcing the weather into this configuration. -->
+  <WeatherController.description>근처의 날씨 조절기가 이 구성으로 날씨를 강제합니다.</WeatherController.description>
+  <!-- EN: a weather-control system will force the weather around [map_definite] to be [forcedWeather_indefinite] for [gameConditionDuration_duration] -->
+  <WeatherController.descriptionFuture>날씨 조절기는 [map_definite]의 주변 날씨가 [gameConditionDuration_duration] 동안 [forcedWeather_indefinite](이)가 되도록 합니다.</WeatherController.descriptionFuture>
+  <!-- EN: The weather controller is no longer changing the weather. -->
+  <WeatherController.endMessage>날씨 조절기가 더 이상 날씨를 변경하지 않습니다.</WeatherController.endMessage>
+  <!-- EN: A weather controller machine has begun affecting the weather. -->
+  <WeatherController.letterText>날씨 조절기가 날씨에 영향을 미치기 시작했습니다.</WeatherController.letterText>
+  
+</LanguageData>

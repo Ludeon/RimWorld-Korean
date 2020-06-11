@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_name(p=2)->[empire] of [ofThing]</li>
+    <li>r_name(p=2)->The [empire] of [ofThing]</li>
+    <li>r_name->The Exodus [empire]</li>
+    <li>r_name->The Refugee [empire]</li>
+    <li>r_name->The Broken [empire]</li>
+    <li>r_name->The Shattered [empire]</li>
+    <li>r_name->The Fallen [empire]</li>
+    <li>r_name->The [Color] [empire]</li>
+    <li>empire(p=4)->Empire</li>
+    <li>empire->Commonwealth</li>
+    <li>empire->Imperium</li>
+    <li>empire->Dominion</li>
+    <li>empire->Sovereignty</li>
+    <li>ofThing(p=4)->[WordImperial]</li>
+    <li>ofThing->the Sun</li>
+    <li>ofThing->the Moon</li>
+    <li>ofThing->the Universe</li>
+    <li>ofThing->God</li>
+    <li>ofThing->Perfection</li>
+    <li>ofThing->Eternity</li>
+    <li>ofThing->the Spirit</li>
+  -->
+  <NamerFactionEmpire.rulePack.rulesStrings>
+    <li>r_name(p=2)->[ofThing] [empire]</li>
+    <li>r_name(p=2)->[ofThing] [empire]</li>
+    <li>r_name->붕괴된 [empire]</li>
+    <li>r_name->난민 [empire]</li>
+    <li>r_name->무너진 [empire]</li>
+    <li>r_name->와해된 [empire]</li>
+    <li>r_name->몰락한 [empire]</li>
+    <li>r_name->[Color] [empire]</li>
+    <li>empire(p=4)->제국</li>
+    <li>empire->연방국</li>
+    <li>empire->초대국</li>
+    <li>empire->자치령</li>
+    <li>empire->자주국</li>
+    <li>ofThing(p=4)->[WordImperial]</li>
+    <li>ofThing->태양의</li>
+    <li>ofThing->달의</li>
+    <li>ofThing->은하</li>
+    <li>ofThing->하늘</li>
+    <li>ofThing->완전한</li>
+    <li>ofThing->영원한</li>
+    <li>ofThing->성령</li>
+  </NamerFactionEmpire.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  -->
+  <NamerPersonEmpire.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonEmpire.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  -->
+  <NamerPersonEmpireFemale.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonEmpireFemale.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name->[townname_wordgen]</li>
+    <li>r_name->[townname_fixed]</li>
+    <li>townname_wordgen->[WordImperial]</li>
+    <li>townname_wordgen->[WordImperial][townend]</li>
+    <li>townend(p=3)->ium</li>
+    <li>townend(p=3)->ior</li>
+    <li>townend(p=3)->polis</li>
+    <li>townend->nor</li>
+    <li>townend->lan</li>
+    <li>townend->lax</li>
+    <li>townend->lix</li>
+    <li>townend->lin</li>
+    <li>townend->lian</li>
+    <li>townend->phrum</li>
+    <li>townend->phor</li>
+    <li>townend->teor</li>
+    <li>townend->ople</li>
+    <li>townend->opium</li>
+    <li>townend->or</li>
+    <li>townend->aetor</li>
+    <li>townend->aeum</li>
+    <li>townend->aetium</li>
+    <li>townend->am</li>
+    <li>townend->aeum</li>
+  -->
+  <NamerSettlementEmpire.rulePack.rulesStrings>
+    <li>r_name->[townname_wordgen]</li>
+    <li>r_name->[townname_fixed]</li>
+    <li>townname_wordgen->[WordImperial]</li>
+    <li>townname_wordgen->[WordImperial][townend]</li>
+    <li>townend(p=3)->아이움</li>
+    <li>townend(p=3)->아이오르</li>
+    <li>townend(p=3)->폴리스</li>
+    <li>townend->놀</li>
+    <li>townend->란</li>
+    <li>townend->락스</li>
+    <li>townend->릭스</li>
+    <li>townend->린</li>
+    <li>townend->리안</li>
+    <li>townend->프룸</li>
+    <li>townend->포르</li>
+    <li>townend->테오</li>
+    <li>townend->오플</li>
+    <li>townend->오피움</li>
+    <li>townend->오르</li>
+    <li>townend->아이토르</li>
+    <li>townend->에이움</li>
+    <li>townend->아이티움</li>
+    <li>townend->아엠</li>
+    <li>townend->에이움</li>
+  </NamerSettlementEmpire.rulePack.rulesStrings>
+  
+</LanguageData>

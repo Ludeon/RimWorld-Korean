@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>disease->flu</li>
+    <li>disease->plague</li>
+    <li>disease->malaria</li>
+    <li>disease->infection</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
+  -->
+  <PawnLend.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](이)가 [dutyDescription](을)를 도와줄 사람이 필요하다고 합니다.\n\n[asker_pronoun]는 [asker_faction_name]에 [colonistCountToLend]을 [lendForDays]일 동안 빌려달라고 합니다.\n\n[willSendShuttle]</li>
+    <li>disease->독감</li>
+    <li>disease->흑사병</li>
+    <li>disease->말라리아</li>
+    <li>disease->전염병</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 [entertainerDescription](을)를 과시함으로써 정당에 건재함을 알리고 싶어합니다. [asker_pronoun]는 [asker_faction_name]에 [colonistCountToLend]을 [lendForDays]일 동안 빌려달라고 요청합니다. [lendForDays]일이 지나면 정착민이 수송포드로 되돌아 옵니다.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->정착민 1명</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->정착민 [colonistsToLendCount]명</li>
+    <li>willSendShuttle->[asker_pronoun]는 [colonists]을 데려가기 위해 왕복선을 보냅니다.</li>
+    <li>colonists(colonistsToLendCount==1)->정착민</li>
+    <li>colonists(colonistsToLendCount>1)->정착민들</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)-></li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)-></li>
+  </PawnLend.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[worker] Outsourcing</li>
+    <li>questName->Contract [worker]s</li>
+    <li>questName->Temporary Workers</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s for [asker_faction_name]</li>
+    <li>questName->Provisional [worker]s</li>
+    <li>questName->Requesting [worker]s</li>
+    <li>worker->Colonist</li>
+    <li>worker->Worker</li>
+    <li>worker->Laborer</li>
+    <li>worker->Helper</li>
+  -->
+  <PawnLend.questNameRules.rulesStrings>
+    <li>questName->[worker] 외주</li>
+    <li>questName->[worker] 계약</li>
+    <li>questName->임시 작업자</li>
+    <li>questName->[worker] 파견</li>
+    <li>questName->[asker_faction_name]의 [worker]들</li>
+    <li>questName->임시 [worker]들</li>
+    <li>questName->[worker]들 요청</li>
+    <li>worker->정착민</li>
+    <li>worker->작업자</li>
+    <li>worker->노동자</li>
+    <li>worker->보조자</li>
+  </PawnLend.questNameRules.rulesStrings>
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
+  <PawnLend.DutyRulesAny.slateRef>
+    <rulesStrings>
+      <li>dutyDescription->곡식 수확</li>
+      <li>dutyDescription->정착지 요새화</li>
+      <li>dutyDescription->정착지 설립</li>
+      <li>dutyDescription->습격자 감시</li>
+      <li>dutyDescription->병원 설립</li>
+      <li>dutyDescription->[disease]의 확산 차단</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesAny.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>[asker_faction_name]의 [asker_nameFull](이)가 부탁한 [dutyDescription](을)를 도와준 {PAWNS}(이)가 돌아왔습니다.</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <rulesStrings>
+      <li>entertainerDescription->진정한 생존자들</li>
+      <li>entertainerDescription->바보같은 어릿광대</li>
+      <li>entertainerDescription->외국계 종복</li>
+      <li>entertainerDescription->이국인의 증명</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesRoyal.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](이)가 정당에서 [entertainerDescription](을)를 알려 {PAWNS}(이)가 돌아왔습니다.</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <PawnLend.LetterLabelShuttleArrived.slateRef>왕복선 도착</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
+  <PawnLend.LetterTextShuttleArrived.slateRef>정착민 [colonistsToLendCount]명을 태우기 위해 왕복선이 도착했습니다.</PawnLend.LetterTextShuttleArrived.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>파괴된 왕복선</PawnLend.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>정착민을 데리러 온 왕복선이 파괴되었습니다.</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Colonists returned -->
+  <PawnLend.LetterLabelColonistsReturned.slateRef>정착민 복귀</PawnLend.LetterLabelColonistsReturned.slateRef>
+  
+</LanguageData>

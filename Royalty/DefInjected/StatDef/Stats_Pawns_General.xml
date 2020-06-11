@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>집중명상 획득</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>매일 명상할 때 얻는 초집중 양으로, 집중물체의 이점은 무시됩니다.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0}/일</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0}/일</MeditationFocusGain.formatStringUnfinalized>
+  
+  <!-- EN: neural heat gain -->
+  <PsychicEntropyGain.label>정신력 혼돈치 누적</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on neural heat gained from any source. -->
+  <PsychicEntropyGain.description>모든 상황에서 누적되는 정신력 혼돈치의 계수입니다.</PsychicEntropyGain.description>
+  
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>정신력 혼돈치 한계</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>안전하게 견딜 수 있는 정신력 혼돈치의 최대량입니다.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>정신력 혼돈치 회복속도</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>이 사람의 정신력 혼돈치를 낮추는 속도입니다.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/초</PsychicEntropyRecoveryRate.formatString>
+  
+</LanguageData>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->A machine persona in an orbiting ship wants to perform some planetary experiments. However, if she carries out her experiment, [gameConditionDescriptionFuture].\n\nShe is concerned about getting in trouble with the ethical review board, and is asking for your consent.</li>
+    <li>questDescription(asker_factionLeader==True)->A vengeful machine persona is threatening the [asker_faction_pawnsPlural] of [asker_faction_name]. [asker_faction_leaderTitle] [asker_nameFull] wants you to send a message to the persona accepting responsibility for their transgressions.\n\nIf you do, the persona will turn its anger on you. [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to perform a low-power test of one of [asker_possessive] ship's area-attack weapons. If [asker_pronoun] does, [gameConditionDescriptionFuture].\n\nSince you are a local landholder under imperial law, [asker_nameDef] needs your honorable permission to proceed.</li>
+  -->
+  <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->한 궤도선의 인격체는 행성 실험을 진행하고 싶어합니다. 하지만 실험을 진행하게 되면, [gameConditionDescriptionFuture].\n\n그녀는 윤리 검토 위원회에서 문제로 삼을 것을 걱정하며 당신의 동의를 구하고 있습니다.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_pawnsPlural](은)는 악성 인격체에게 위협받고 있습니다. [asker_faction_leaderTitle], [asker_nameFull](은)는 인격체의 결함에 대한 책임을 인정하는 메시지를 보내길 원합니다.\n\n동의하면 인격체가 당신을 응징하게 됩니다. [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 [asker_possessive] 함선의 지대지 무기에 대한 저전력 실험을 하고 싶어합니다.\n\n[asker_pronoun]가 제안합니다.\n\n[gameConditionDescriptionFuture].\n\n제국 법에 따르면 당신은 제국의 지역 자유민이므로, [asker_nameDef](은)는 당신의 동의를 기다립니다.</li>
+  </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
+    <li>questName->[gameCondition_indefinite] for [asker_nameDef]</li>
+    <li>questName->Paid [gameCondition_label]</li>
+    <li>questName->[gameCondition_label] for Pay</li>
+  -->
+  <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef]의 [gameCondition_label]</li>
+    <li>questName->[asker_nameDef]의 [gameCondition_indefinite]</li>
+    <li>questName->[gameCondition_label] 지급</li>
+    <li>questName->[gameCondition_label] 지급</li>
+  </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->The hives were attracted by a pheromone sweep from an orbiting research ship.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->The hives were originally infesting nearby sites belonging to [asker_nameFull] of [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
+  -->
+  <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->궤도를 도는 연구선이 새로운 종류의 곤충 페로몬을 실험하고 싶어 합니다. 동의하게 된다면, 그들은 [map_definite]에 페로몬으로 쓸어버려, 곤충 군락 [hivesCount]개를 퍼뜨릴 것입니다.\n\n[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->궤도 연구선이 방출한 페로몬에 이끌려 곤충군락이 등장했습니다.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](이)가 [map_definite] 근처 지역에서 반복적인 출몰에 어려워 하고 있습니다. [asker_pronoun]는 곤충을 당신쪽으로 유도하려고 합니다. 수락을 하게 되면, [hivesCount]개의 곤충군락이 솟아납니다.\n\n[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->곤충군락은 원래 [asker_faction_name]의 [asker_nameFull]의 근처 지역에서 발생했었습니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 반복적인 곤충침략으로 [map_definite] 근처에 상륙하는 데 어려움을 겪고 있습니다. [asker_pronoun]는 이를 처리하기 위해 당신쪽으로 유도하려고 합니다. 수락하게 되면 [hivesCount]개의 곤충군락이 솟아납니다.\n\n[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 당신쪽으로 곤충군락을 유도했습니다.</li>
+  </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Pods and [insects]</li>
+    <li>questName->[asker_nameDef]'s [insects]</li>
+    <li>questName->The [itemPodsTotalMarketValue_money] [insects]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->Spectacle of [insects]</li>
+    <li>questName(p=0.3)->Podswarm</li>
+    <li>insects->insects</li>
+    <li>insects->bugs</li>
+    <li>insects->hives</li>
+  -->
+  <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
+    <li>questName->포드와 [insects]</li>
+    <li>questName->[asker_nameDef]의 [insects]</li>
+    <li>questName->[itemPodsTotalMarketValue_money] [insects]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->[insects]의 광경</li>
+    <li>questName(p=0.3)->포드 떼</li>
+    <li>insects->곤충들</li>
+    <li>insects->벌레들</li>
+    <li>insects->군락</li>
+  </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
+    <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->a manhunting [animalKind_label]</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->a pack of [animalCount] manhunting [animalKind_labelPlural]</li>
+    <li>endSection->\n\n[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. A wild [animalKind_label] is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of [animalCount] wild [animalKind_labelPlural] are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->The [animalKind_labelPlural] were hunting a nearby trader.</li>
+    <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->The [animalKind_label] was harassing caravans from [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->The [animalKind_labelPlural] were harassing caravans from [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to a manhunting [animalKind_label]. [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->This is the [animalKind_label] that killed the scout of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of [animalCount] manhunting [animalKind_labelPlural]. [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These are the [animalKind_labelPlural] that killed the scouting party of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
+  -->
+  <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
+    <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
+    <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->식인 [animalKind_label]</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->[animalCount]마리의 식인 [animalKind_labelPlural] 무리</li>
+    <li>endSection->\n\n[helpersParagraph]수락을 하면, [manhuntersDelayTicks_duration]이 지난 후 [map_definite]에 [animalKindLabelCorrect](이)가 도착합니다.</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->근처에서 상인에게 연락이 왔습니다. 한 야생 [animalKind_label]에게 쫓기고 있답니다! 그는 이 짐승에게 벗어나고 싶어합니다.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label](이)가 근처에서 상인을 쫓고 있습니다.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->근처에서 상인에게 연락이 왔습니다. [animalCount]마리의 야생 [animalKind_labelPlural]에게 쫓기고 있답니다! 그는 이 동물들에게 벗어나고 싶어합니다.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural](이)가 근처에서 상인을 쫓고 있습니다.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 상단이 [manhuntingBeastIndef]에게 시달리고 있습니다. [asker_faction_leaderTitle], [asker_nameFull](은)는 이 짐승들로부터 벗어나고 싶어합니다.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label](이)가 [asker_faction_name]의 상단을 쫓고 있습니다.</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural](이)가 [asker_faction_name]의 상단을 쫓고 있습니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 최근에 식인 [animalKind_label]에게 정찰병을 잃었습니다. [asker_possessive] 명예를 지키기 위해 짐승을 당신쪽으로 보내 죽이려고 합니다.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull]의 정찰병을 죽인 [animalKind_label] 입니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 최근에 [animalCount]마리의 식인 [animalKind_labelPlural] 무리들에게 정찰조를 잃었습니다. [asker_possessive] 명예를 지키기 위해 짐승을 당신쪽으로 보내 죽이려고 합니다.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull]의 정찰조를 죽인 [animalKind_labelPlural] 입니다.</li>
+  </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1)->A [AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount>=2)->The [AdjectiveBadass] [beasts]</li>
+    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
+    <li>beast(p=4)->[animalKind_label]</li>
+    <li>beast->beast</li>
+    <li>beast->animal</li>
+    <li>beasts(p=4)->[animalKind_labelPlural]</li>
+    <li>beasts->beasts</li>
+    <li>beasts->animals</li>
+  -->
+  <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
+    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
+    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
+    <li>beast(p=4)->[animalKind_label]</li>
+    <li>beast->짐승</li>
+    <li>beast->동물</li>
+    <li>beasts(p=4)->[animalKind_labelPlural]</li>
+    <li>beasts->짐승들</li>
+    <li>beasts->동물들</li>
+  </ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
+  <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
+  <ThreatReward_Manhunters_ItemPod.LetterTextManhunterArrival.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_ItemPod.LetterTextManhunterArrival.slateRef>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->A trader is calling from nearby. [threat] are hunting him! He is asking you to signal them and draw them towards [map_definite] so he can escape.\n\nIf you send the signal, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is asking for your help. [askerEnemies] have been harassing [asker_possessive] settlements. [asker_pronoun] wants your help using signals to draw them towards [map_definite] and away from [asker_possessive] people.\n\nIf [asker_pronoun] does, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is traveling near [map_definite]. [asker_pronoun] is being followed by [threat] and wants your help using signals to draw them towards [map_definite].\n\nIf you do, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>threat->[asker_possessive] enemies</li>
+    <li>threat(priority=-1)->his enemies</li>
+    <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>askerEnemies->[asker_possessive] enemies</li>
+    <li>askerEnemies(priority=-1)->his enemies</li>
+  -->
+  <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->근처에 있던 상인에게 호출이 왔습니다. [threat](이)가 뒤쫓고 있습니다! 당신이 신호를 보내 [map_definite] 쪽으로 유도해서 탈출할 수 있게 도와달라고 합니다.\n\n신호를 보내면, [askerEnemies](이)가 근처 지역을 점령하여 당신을 괴롭히게 될 것입니다.\n\n위협: [site/allSitePartsDescriptions]\n\n이 지역은 파괴될 때까지 계속 남게 됩니다.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](이)가 도움을 요청합니다. [askerEnemies](이)가 [asker_possessive] 정착지를 괴롭히고 있습니다. [asker_pronoun]는 신호를 보내 [map_definite] 쪽으로 유도하여 [asker_possessive] 사람들이 벗어날 수 있도록 도와달라고 합니다.\n\n[asker_pronoun]를 도와주게 되면, [askerEnemies](이)가 근처 지역을 점령하여 당신을 괴롭히게 될 것입니다.\n\n위협: [site/allSitePartsDescriptions]\n\n이 지역은 파괴될 때까지 계속 남게 됩니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](이)가 [map_definite] 근처를 여행 중입니다. [asker_pronoun]는 [threat]에게 쫓기고 있으며 신호를 보내 [map_definite] 쪽으로 유도해달라고 요청합니다.\n\n수락한다면 [askerEnemies](이)가 근처 지역을 점령하여 당신을 괴롭히게 될 것입니다.\n\n위협: [site/allSitePartsDescriptions]\n\n이 지역은 파괴될 때까지 계속 남게 됩니다.</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]의 [site/enemyFaction_pawnsPlural]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->메카노이드들</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->메카노이드들</li>
+    <li>threat->[asker_possessive] 적들</li>
+    <li>threat(priority=-1)->그의 적들</li>
+    <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->메카노이드들</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->메카노이드들</li>
+    <li>askerEnemies->[asker_possessive] 적들</li>
+    <li>askerEnemies(priority=-1)->그의 적들</li>
+  </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[asker_nameDef]'s [site/site_label]</li>
+    <li>questName->[site/site_label] for [asker_nameDef]</li>
+    <li>questName->Paid [site/site_label]</li>
+    <li>questName->[site/site_label] for Pay</li>
+  -->
+  <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef]의 [site/site_label]</li>
+    <li>questName->[asker_nameDef]의 [site/site_label]</li>
+    <li>questName->[site/site_label] 지급</li>
+    <li>questName->[site/site_label] 지급</li>
+  </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
+  <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
+  <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\n이 지역은 당신의 모욕이 담긴 신호에 대한 응답으로 설치되었습니다.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>
+  
+</LanguageData>

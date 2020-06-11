@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royal titles -->
+  <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
+  <LetterLabelLostRoyalTitle>{PAWN_labelShort}(이)가 {TITLE} 작위를 상실했습니다.</LetterLabelLostRoyalTitle>
+  <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
+  <LetterLabelGainedRoyalTitle>{PAWN_labelShort}(이)가 {TITLE} 작위를 획득했습니다.</LetterLabelGainedRoyalTitle>
+
+  <!-- EN: This title requires apparel of {1} quality or better. -->
+  <LetterRoyalTitleApparelQualityRequirement>{PAWN_pronoun}(은)는 {1} 품질 이상의 의복을 원합니다.</LetterRoyalTitleApparelQualityRequirement>
+  <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
+  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun}(은)는 자신의 품위에 어울리는 훌륭한 의복을 원합니다.</LetterRoyalTitleApparelRequirement>
+  <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
+  <LetterRoyalTitleExpectation>{1}보다 높은 수준의 의복만이 {PAWN_possessive}(을)를 만족시킬 수 있습니다.</LetterRoyalTitleExpectation>
+  
+  <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
+  <LetterRoyalTitleConceitedTrait>{PAWN_labelShort}(은)는 {1}이므로 이 작위에 대한 특권이 완전히 존중되도록 요구합니다. {PAWN_pronoun}는 특정한 작업 유형을 거부하며, 저품질의 음식을 먹고, 법령을 선포할 수 있습니다.</LetterRoyalTitleConceitedTrait>
+
+  <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
+  <LetterGainedRoyalTitle>{PAWN_labelShort}(이)가 {FACTION_name}의 {TITLE} 작위를 획득했습니다!</LetterGainedRoyalTitle>
+  <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
+  <LetterLostRoyalTitle>{PAWN_labelShort}(은)는 더 이상 {FACTION_name}의 {TITLE}이 아닙니다.</LetterLostRoyalTitle>
+  <!-- EN: Title rewards -->
+  <LetterLabelRewardsForNewTitle>작위 수여</LetterLabelRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <LetterRewardsForNewTitle>새로운 {TITLE}이 된 {PAWN_labelShort}에게 {FACTION_name}의 보상이 지급됩니다.</LetterRewardsForNewTitle>
+  <!-- EN: Rewards have arrived to your colony via transport pods. -->
+  <LetterRewardsForNewTitleDeliveryBase>보상이 수송포드를 통해 정착지에 도착했습니다.</LetterRewardsForNewTitleDeliveryBase>
+  <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
+  <LetterRewardsForNewTitleDeliveryDirect>보상은 {PAWN_labelShort}의 가방으로 직접 전달 되었습니다.</LetterRewardsForNewTitleDeliveryDirect>
+
+  <!-- EN: {PAWN_pronoun} has these permissions: -->
+  <LetterRoyalTitlePermits>{PAWN_pronoun}(은)는 이제부터 다음 권한을 얻습니다:</LetterRoyalTitlePermits>
+  <!-- EN: {PAWN_pronoun} lost these permissions: -->
+  <LetterRoyalTitleLostPermits>{PAWN_pronoun}(은)는 이제부터 다음 권한을 잃습니다:</LetterRoyalTitleLostPermits>
+
+  <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
+  <LetterRoyalTitleDisabledWorkTag>이제부터 {PAWN_pronoun}(은)는 다음 유형의 작업을 하지 않습니다:\n{1}</LetterRoyalTitleDisabledWorkTag>
+
+  <!-- EN: {PAWN_pronoun} can now use this recreation: -->
+  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun}(이)가 다음 오락거리를 요구합니다:</LetterRoyalTitleEnabledJoyKind>
+  <!-- EN: This title forbids using this recreation: -->
+  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun}(이)가 다음 오락거리를 거부합니다:</LetterRoyalTitleDisabledJoyKind>
+
+  <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
+  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun}(은)는 이제 다음 뇌 부착물을 사용할 수 있습니다: {1}</LetterRoyalTitleAllowedImplants>
+  <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}(은)는 이제 뇌 부착물을 사용할 수 없습니다: {1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
+  <LetterRoyalTitleImplantGracePeriod>분쟁을 피하려면 5일의 유예 기간 내에 뇌부착울을 제거하십시오.</LetterRoyalTitleImplantGracePeriod>
+  <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}는 이제 왕좌에서 연설할 수 있습니다. 결과가 좋다면 청취하는 사람들이 영감을 받을 수 있고, 반대로 연설이 결과가 좋지 않다면 청취자들의 기분을 떨어뜨릴 것입니다. 연설에 관한 결과는 {PAWN_labelShort}의 사교 기술에 따라 달라집니다.</LetterRoyalTitleSpeechAbilityGained>
+  <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
+  <LetterRoyalTitleThroneroomRequirements>{PAWN_pronoun}(은)는 다음 요구 사항을 충족하는 알현실을 요구합니다: {1}</LetterRoyalTitleThroneroomRequirements>
+  <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
+  <LetterRoyalTitleBedroomRequirements>{PAWN_pronoun}(은)는 다음 요구 사항을 충족하는 침실을 요구합니다: {1}</LetterRoyalTitleBedroomRequirements>
+  <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
+  <LetterRoyalTitleFoodRequirements>{PAWN_pronoun}(은)는 오직 다음 요구 사항을 충족하는 음식만을 섭취합니다:{1}</LetterRoyalTitleFoodRequirements>
+
+  <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
+  <LetterRoyalTitleRewardGranted>{PAWN_pronoun}(을)를 위하여 수송 포드로 다음 물품이 제공됩니다: {1}</LetterRoyalTitleRewardGranted>
+  <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
+  <PeaceTalksRoyalFavorGain>{FACTION_name}(이)가 {PAWN_labelShort}에게 {FACTION_royalFavorLabel} {1}장을 하사합니다.</PeaceTalksRoyalFavorGain>
+
+  <!-- Royal heritage-->
+  <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
+  <LetterRoyalTitleHeir>{PAWN_pronoun}(이)가 사망할 경우 {HEIR_nameFull}에게 작위가 계승됩니다.</LetterRoyalTitleHeir>
+  <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
+  <LetterRoyalTitleNoHeir>{PAWN_pronoun}(이)가 사망할 경우 작위를 계승할 인물이 없습니다.</LetterRoyalTitleNoHeir>
+  <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull}(은)는 {FACTION_name}의 일원입니다.</LetterRoyalTitleHeirFactionWarning>
+  <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
+  <LetterRoyalTitleChangingHeir>통신기로 {FACTION_name}에 연락하여 새로운 후계자를 지정할 수 있습니다.</LetterRoyalTitleChangingHeir>
+  <!-- EN: Heir lost -->
+  <LetterTitleHeirLostLabel>후계자 사망</LetterTitleHeirLostLabel>
+  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
+  <LetterTitleHeirLost>{HEIR_nameFull}(이)가 죽어 {HOLDER_labelShort} 후계자의 자리가 공석이 되었습니다. 통신 콘솔을 통해 {FACTION_name}에 연락하여 새 후계자를 지정할 수 있습니다.</LetterTitleHeirLost>
+  <!-- EN: The title of {TITLE} cannot be inherited. -->
+  <LetterRoyalTitleCantBeInherited>{TITLE} 작위는 계승할 수 없습니다.</LetterRoyalTitleCantBeInherited>
+
+  <!-- EN: Title inheritance -->
+  <LetterTitleInheritance>작위 계승</LetterTitleInheritance>
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
+  <LetterTitleInheritance_Base>{PAWN_nameFull}(이)가 사망하여, 적법한 절차에 따라 사망자의 작위가 후계자에게 계승되었습니다.</LetterTitleInheritance_Base>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
+  <LetterTitleInheritance_AsReplacement>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위가 {HEIR_nameFull}에게 계승되었습니다. {REPLACEDTITLE} 작위는 대체되어 소멸합니다.</LetterTitleInheritance_AsReplacement>
+  <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
+  <LetterTitleInheritance_NoEffectHigherTitle>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위가 {HEIR_nameFull}에게 계승되어야 하지만, {HEIR_nameFull}의 작위가 이미 {HIGHERTITLE} 보다 높기 때문에 승계 절차는 무효가 되었습니다.</LetterTitleInheritance_NoEffectHigherTitle>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위가 {HEIR_nameFull}에게 계승되었습니다. </LetterTitleInheritance_WasInherited>
+  <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
+  <LetterTitleInheritance_NoHeirFound>후계자의 자리가 공석이었기 때문에 {TITLE} 작위는 누구에게도 계승되지 않았습니다.</LetterTitleInheritance_NoHeirFound>
+
+  <!-- Royal implant violations -->
+  <!-- EN: Lawbreaker: {PAWN_labelShort} -->
+  <LetterLawViolationDetectedLabel>{PAWN_labelShort} 적발</LetterLawViolationDetectedLabel>
+  <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}(이)가 {PAWN_labelShort}의 {CULPRIT} 불법 사용을 감지했습니다. (탐지될 확률 {CHANCE})\n\n{FACTION_name}의 정책에 따르면 {TITLE} 작위를 지닌 인물에게만 {CULPRIT} 사용을 허용합니다.\n\n그 때문에 진영 간 관계도가 {GOODWILL}만큼 하락합니다.</LetterLawViolationDetectedForbiddenThingUse>
+
+  <!-- Throne Speech -->
+  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
+  <LetterFinishedSpeech>{ORGANIZER_labelShort}(이)가 연설을 마쳤습니다.</LetterFinishedSpeech>
+  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
+  <LetterTerribleSpeech> 어색한 농담과 우울한 이야기로 가득한 연설이었습니다. 정말 끔찍했습니다.</LetterTerribleSpeech>
+  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
+  <LetterUninspiringSpeech>열정이 부족하고 독창적이지도 않은 연설이었습니다.</LetterUninspiringSpeech>
+  <!-- EN: It was encouraging and well-delivered. -->
+  <LetterEncouragingSpeech>격려와 위로가 담긴 따뜻한 연설이었습니다.</LetterEncouragingSpeech>
+  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
+  <LetterInspirationalSpeech>목적성을 자극하는 강렬한 연설이었습니다. 놀라운 영감이 주어집니다.</LetterInspirationalSpeech>
+  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
+  <LetterSpeechInterrupted>연설이 {0}에서 중단되어 별 효과를 내지 못했습니다.</LetterSpeechInterrupted>
+  <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>{ORGANIZER_bestRoyalTitleDef}의 연설이 준비한 것의 반도 넘기지 못하고 취소되었습니다. 아무 효과도 없었습니다.</LetterSpeechCancelled>
+  <!-- EN: Speech cancelled -->
+  <LetterLabelSpeechCancelled>연설 취소됨</LetterLabelSpeechCancelled>
+
+  <!-- Wild decree mental break -->
+  <!-- EN: Wild decree -->
+  <WildDecree>무모한 법령</WildDecree>
+  <!-- EN: {0_nameIndef} issues decree -->
+  <LetterLabelRandomDecree>{0_nameIndef}의 법령</LetterLabelRandomDecree>
+  <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterDecreeMentalBreak>{0_possessive} 스트레스를 해소하려는 방안으로 {0_nameIndef}(이)가 무모한 왕실 법령을 선포하며 이행할 것을 요구하고 있습니다.\n    \n적시에 수행하지 않으면, {0_nameIndef}(은)는 매우 불행해집니다.</LetterDecreeMentalBreak>
+  <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterRandomDecree>{0_bestRoyalTitleIndef} 작위의 힘을 시험해보고 싶은 {0_nameIndef}(이)가 법령을 선포하며 이행할 것을 요구하고 있습니다.\n    \n적시에 수행하지 않으면, {0_nameIndef}(은)는 매우 불행해집니다.</LetterRandomDecree>
+  <!-- EN: The decree is titled "{0}". -->
+  <LetterDecree_Quest>"{0}" 법령입니다.</LetterDecree_Quest>
+  
+  <!-- Lent colonist died -->
+  <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
+  <LentColonistDied>{PAWN_nameDef}(은)는 {FACTION}에 파견되어 있었습니다. {PAWN_nameDef}의 시체는 신속히 반환될 예정입니다.</LentColonistDied>  
+
+  <!-- Psylink -->
+  <!-- EN: Psylink gained -->
+  <LetterLabelPsylinkLevelGained>싸이링크 획득</LetterLabelPsylinkLevelGained>
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psycasts, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <LetterPsylinkLevelGained_First>{USER_labelShort}(은)는 사이링크의 첫단계를 얻었습니다! {USER_pronoun}는 이제 초능력 시전자가 되었습니다.\n\n{USER_labelShort}(이)가 초능력을 시전하려면 명상을 통해 초집중을 축적해야 합니다. 명상을 하면서 특정 물체에 집중할 수 있다면 명상 효과는 높아집니다.\n\n각 사람들은 각 물체에 집중할 수 있습니다. 이는 개인의 배경, 특징, 작위에 따라 다릅니다. 예를 들어:\n\n- 왕실 작위를 가진 시전자는 왕좌에 명상할 수 있습니다.\n- 유년기 부족민인 시전자는 영혼나무와 성지에 명상할 수 있습니다.\n- 검소를 지닌 시전자는 빈 벽에 명상할 수 있습니다.\n- 사이코패스를 지닌 시전자는 무덤에서 명상하는 것을 좋아합니다.\n\n'i' 단추를 통해 누군가의 명상 유형을 확인할 수 있습니다.</LetterPsylinkLevelGained_First>
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psycasts of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}(은)는 사이링크의 새로운 단계를 얻었습니다! {USER_pronoun}는 더 높은 단계의 주문을 사용할 수 있지만, 그전에 먼저 학습해야 합니다.</LetterPsylinkLevelGained_NotFirst>
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned this psycast: {2}. -->
+  <LetterPsylinkLevelGained_PsycastLearned>{USER_labelShort}(은)는 새로운 사이링크 단계에 도달하여 {2} 주문을 자동으로 습득했습니다.</LetterPsylinkLevelGained_PsycastLearned>
+
+</LanguageData>

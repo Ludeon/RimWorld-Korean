@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
+  -->
+  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\n기념비를 건설해야 합니다. 기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다. ([monumentRequiredResourcesMarketValue_money])\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+  </Decree_BuildMonument.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->monument decree</li>
+  -->
+  <Decree_BuildMonument.questNameRules.rulesStrings>
+    <li>questName->법령: 기념비</li>
+  </Decree_BuildMonument.questNameRules.rulesStrings>
+  <!-- EN: New monument marker arrived -->
+  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>새로운 기념비 표지 도착</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
+  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>기념비 표지가 파괴되어 새로운 표지가 도착했습니다.</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Monument completed -->
+  <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>기념비 완성</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>기념비 건설을 완료하였습니다.\n\n[keepMonumentTicks_duration] 동안 안전하게 유지하지 않는다면, [asker_nameDef](이)가 좋아하지 않을 것입니다.</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
+  <!-- EN: Monument destroyed -->
+  <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>파괴된 기념비</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>[asker_nameDef](은)는 기념비가 완성된 후 빨리 부순 것에 대해 불쾌하게 생각합니다.\n\n[asker_pronoun]는 불만을 가집니다.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>{0} 동안 기념비를 파괴하지 마세요</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>{0} 동안 기념비를 파괴하지 마세요</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <Decree_BuildMonument.KeepMonument.slateRef>{0} 기념비 유지</Decree_BuildMonument.KeepMonument.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\n[plantToHarvest_label] x[harvestItemCount]개를 수확해야 합니다.\n\n[plantToHarvest_label](을)를 먼저 심고 길러야 할 수도 있습니다.\n\n[decreeThreatInfo]</li>
+  </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[plantToHarvest_label] harvest decree</li>
+  -->
+  <Decree_HarvestCrop.questNameRules.rulesStrings>
+    <li>questName->법령: [plantToHarvest_label] 수확</li>
+  </Decree_HarvestCrop.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  -->
+  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\n[animalToHuntWithCount](을)를 사냥하거나 도축해야 합니다.\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[animalToHunt_label] hunting decree</li>
+  -->
+  <Decree_HuntAnimal.questNameRules.rulesStrings>
+    <li>questName->법령: [animalToHunt_label] 사냥</li>
+  </Decree_HuntAnimal.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\n생산해야 될 물품:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  </Decree_ProduceItem.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[defToProduce_label] production decree</li>
+  -->
+  <Decree_ProduceItem.questNameRules.rulesStrings>
+    <li>questName->법령: [defToProduce_label] 생산</li>
+  </Decree_ProduceItem.questNameRules.rulesStrings>
+  
+</LanguageData>

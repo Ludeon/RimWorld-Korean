@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>decreeIntro->[asker_nameDef], your [asker_bestRoyalTitle], has issued a royal decree.</li>
+    <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
+  -->
+  <DecreeSetup.questDescriptionRules.rulesStrings>
+    <li>decreeIntro->[asker_bestRoyalTitle], [asker_nameDef](이)가 왕실 법령을 내렸습니다.</li>
+    <li>decreeThreatInfo->[decreeDays]일 내에 법령을 수행하지 않으면, [asker_nameDef]의 기분은 나빠질 것입니다. [asker_possessive] 법령이 충족될 때까지, 시간이 지남에 따라 분노가 증가합니다.</li>
+  </DecreeSetup.questDescriptionRules.rulesStrings>
+  <!-- EN: [asker_nameDef]'s decree forgotten -->
+  <DecreeSetup.LetterLabelDecreeForgotten.slateRef>[asker_nameDef]의 잃어버린 법령</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
+  <!-- EN: [asker_nameDef] has forgotten about [asker_possessive] decree. -->
+  <DecreeSetup.LetterTextDecreeForgotten.slateRef>[asker_nameDef](은)는 법령을 잊어버렸습니다.</DecreeSetup.LetterTextDecreeForgotten.slateRef>
+  <!-- EN: Decree cancelled -->
+  <DecreeSetup.LetterLabelDecreeCancelled.slateRef>취소된 법령</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
+  <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef](은)는 완료할 수가 없었기 때문에 마지못해 '[resolvedQuestName]' 법령을 취소했습니다.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
+  
+</LanguageData>

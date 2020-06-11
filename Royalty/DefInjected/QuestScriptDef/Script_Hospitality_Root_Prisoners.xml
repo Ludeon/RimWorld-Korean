@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>lodgersLabel->prisoner</li>
+    <li>lodgersLabelPlural->prisoners</li>
+  -->
+  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->수감자</li>
+    <li>lodgersLabelPlural->수감자들</li>
+  </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->An orbiting ship captain wants you to guard [lodgersCount] prisoners at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe prisoners committed a string of murders against the [enemyFaction_pawnsPlural] of [enemyFaction_name], and their victims' families will send raids to seek revenge. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nThe prisoners recently [mechViolation], and have been targeted by a mechanoid hive. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], wants you to stash a special prisoner for [asker_objective]. The prisoner, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameFull], knows embarrassing information about [asker_nameDef]'s [PersonalCharacteristic], and [asker_nameDef] doesn't want [lodgers0_objective] to be freed. You only need to keep the prisoner for [shuttleDelayTicks_duration] until the scandal passes. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_name] wants to spread the shameful story and is sending raids to break [lodgers0_nameDef] out of jail. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has captured [lodgersCount] prisoners from an enemy faction. With no place to store them, [asker_nameDef] wants you to watch over them for [shuttleDelayTicks_duration], until [asker_possessive] prison is ready.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe prisoners have a paid rescue contract with [enemyFaction_name], so they will send [enemyFaction_pawnsPlural] after you. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies have some provoked a mechanoid hive into hunting the prisoners, so it will send mechanoid attack groups. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has been caught in bed with the wrong person. [asker_pronoun] imprisoned the inappropriate lover in a show of rejection. Now [asker_pronoun] wants you to keep the prisoner [lodgers0_nameFull] caged until the scandal blows over in [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [asker_nameDef]'s court rivals are paying [enemyFaction_name] to try to break the lover out and bring the story to light. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nUnfortunately, [asker_nameDef]'s court rivals have provoked mechanoids attacks from [enemyFaction_name] to try to break the lover out and bring the story to light. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], seeks your help. [asker_nameDef]'s royal archaeologists recently extracted [lodgersCount] prisoners from an ancient cryptosleep vault, and intend to question them. To keep the prisoners secret from court rivals, [asker_nameDef] wants you to hold them for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_pawnsPlural] from [enemyFaction_name] revered the vault that the prisoners were extracted from. They'll send raids to seek revenge on anyone who holds them. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nUnfortunately, [enemyFaction_pawnsPlural] from [enemyFaction_name] were guarding the vault that the prisoners were extracted from. They'll send mechanoids to hunt down the lost sleepers. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+  -->
+  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->한 궤도선의 함장이 [map_definite]에서 [shuttleDelayTicks_duration] 동안 수감자 [lodgers0_nameFull](을)를 보호해주길 원합니다. [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef](은)는 최근에 [enemyFaction_name]의 [enemyFaction_leaderTitle], [enemyFaction_leader_nameFull](이)가 가장 사랑하는 자녀에게 침을 뱉었습니다. [enemyFaction_leader_nameDef](은)는 자녀를 위해 모든 [enemyFaction_pawnsPlural](을)를 불러모아 보복을 하려고 합니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->한 궤도선의 함장이 [map_definite]에서 [shuttleDelayTicks_duration] 동안 [lodgersCount]명의 수감자를 보호해주길 원합니다. [allLodgerInfo][threatsInfo2]\n\n[commonDescEnding]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n이 수감자들은 [enemyFaction_name]의 [enemyFaction_pawnsPlural]에 대항하여 죽였었고, 희생자들의 가족들은 복수를 하기 위해 습격대를 보낼 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n수감자들은 최근에 [mechViolation]고, 메카노이드 군락의 표적이 되었습니다. 이들이 있는 한 메카노이드를 보내 공격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](은)는 특별한 죄수를 숨기길 원합니다. [lodgers0_age]살의 [lodgers0_title], [lodgers0_nameFull](이)라는 수감자는 [asker_nameDef]의 [PersonalCharacteristic]에 관한 당혹스러운 비밀을 알고 있으며, [asker_nameDef](은)는 [lodgers0_possessive] 석방을 원하지 않습니다. 스캔들이 지날 때까지 [shuttleDelayTicks_duration] 동안 수감자를 가둬두길 원합니다. [allLodgerInfo][threatsInfo3]\n\n[commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n불행히도, [enemyFaction_name](은)는 그 정보를 퍼뜨리고 싶어하며 [lodgers0_nameDef](을)를 탈옥시키기 위해 습격하러 올 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](은)는 적 세력에서 [lodgersCount]명을 포획해 수감하였습니다. 수감자들을 가둘 장소가 없다보니, [asker_nameDef](이)가 장소가 마련되기 [shuttleDelayTicks_duration] 동안 수감자들을 감시하길 원합니다.[allLodgerInfo][threatsInfo4]\n\n[commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n수감자들이 [enemyFaction_name](을)를 고용 중이라 [enemyFaction_pawnsPlural](을)를 보내 공격하려 할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]의 적들이 수감자들을 되찾기 위해 메카노이드 군락을 도발하여, 공격대를 보내올 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](이)가 부적절한 연인과 함께 침대에 누워있는 것이 발견되었습니다. [asker_pronoun]는 사실을 부정하기 위해 상대를 감금시켰습니다. [asker_pronoun]는 이제 스캔들이 가라앉을 때까지 [lodgers0_nameFull](을)를 [shuttleDelayTicks_duration] 동안 수감자로써 가둬놓길 원합니다. [allLodgerInfo][threatsInfo5]\n\n[commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n불행히도, [asker_nameDef]의 정당 경쟁자들이 연인에 대한 소문의 진실을 [enemyFaction_name]에 퍼뜨리려고 합니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n불행히도, [asker_nameDef]의 정당 경쟁자들이 연인에 대한 소문의 진실을 밝히기 위해 [enemyFaction_name]의 메카노이드를 이용하려고 합니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](이)가 도움을 요청합니다. [asker_nameDef]의 왕실 고고학자들은 최근 고대 동면장치에서 [lodgersCount]명의 수감자들을 찾아내 심문을 할 생각인 것 같습니다. 수감자들을 궁정 라이벌로부터 감추기 위해, [asker_nameDef](은)는 [shuttleDelayTicks_duration] 동안 대신 가둬주길 원합니다. [allLodgerInfo][threatsInfo6]\n\n[commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n불행히도, [enemyFaction_name]의 [enemyFaction_pawnsPlural](은)는 수감자들이 있던 장치를 숭배하고 있었습니다. 그들을 빼돌린 자를 찾아 보복하기 위해 습격할 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n불행히도, [enemyFaction_name]의 [enemyFaction_pawnsPlural](은)는 수감자들이 있던 장치를 지키고 있었습니다. 사라진 동면자들을 추적하기 위해 메카노이드를 보낼 것입니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+  </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Guarding for [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->prisoner [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->the [adjAny] prisoner</li>
+    <li>questName(lodgersCount==1)->one [adjAny] prisoner</li>
+    <li>questName(lodgersCount>=2)->warden for hire</li>
+    <li>questName(lodgersCount>=2)->prison warden</li>
+    <li>questName(lodgersCount>=2)->contract prison</li>
+    <li>questName(lodgersCount>=2)->the wanted prisoners</li>
+    <li>questName(lodgersCount>=2)->the [adjAny] prisoners</li>
+    <li>questName(lodgersCount>=2)->[asker_nameDef]'s prisoners</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  -->
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef] 보호</li>
+    <li>questName(lodgersCount==1)->[lodgers0_nameDef] 보호</li>
+    <li>questName(lodgersCount==1)->[lodgers0_nameDef] 수감자</li>
+    <li>questName(lodgersCount==1)->[adjAny] 수감자</li>
+    <li>questName(lodgersCount==1)->[adjAny] 수감자</li>
+    <li>questName(lodgersCount>=2)->교도관 고용</li>
+    <li>questName(lodgersCount>=2)->수감자 감시</li>
+    <li>questName(lodgersCount>=2)->죄수 계약</li>
+    <li>questName(lodgersCount>=2)->수배된 수감자들</li>
+    <li>questName(lodgersCount>=2)->[adjAny] 수감자</li>
+    <li>questName(lodgersCount>=2)->[asker_nameDef]의 수감자</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  </Hospitality_Prisoners.questNameRules.rulesStrings>
+  
+</LanguageData>

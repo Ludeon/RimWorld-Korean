@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royalty and throne -->
+  <!-- EN: Appropriate for title: {0} -->
+  <ThroneTitleStature>알현실 수준: {0}</ThroneTitleStature>
+  <!-- EN: Previous title satisfied: {0} -->
+  <ThronePrevTitleStature>이전 레벨: {0}</ThronePrevTitleStature>
+  <!-- EN: Next title satisfied: {0} -->
+  <ThroneNextTitleStature>다음 레벨: {0}</ThroneNextTitleStature>
+  <!-- EN: ({0} impressiveness) -->
+  <ThroneRoomImpressivenessInfo>({0})</ThroneRoomImpressivenessInfo>
+  <!-- EN: Throne must be placed indoors. -->
+  <ThroneMustBePlacedInside>왕좌는 실내에 위치해야 합니다.</ThroneMustBePlacedInside>
+  <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
+  <MinimumRoyalTitleInspectString>최소 작위 ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <!-- EN: Trading here requires title: {0} -->
+  <RequiresTradePermission>거래에 필요한 작위: {0}</RequiresTradePermission>
+  <!-- EN: Personal bedroom (partner allowed) -->
+  <RequirementPersonalBedroom>개인 침실 (배우자는 허용됨)</RequirementPersonalBedroom>
+  
+  <!-- Generated neurotrainers -->
+  <!-- EN: psytrainer ({0}) -->
+  <PsycastNeurotrainerLabel>초월교육혈청 ({0})</PsycastNeurotrainerLabel>
+  <!-- EN: Use neurotrainer to learn {0} psycast -->
+  <PsycastNeurotrainerUseLabel>혈청을 사용하여 {0} 초능력 습득</PsycastNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
+  <PsycastNeurotrainerDescription>특정한 초능력 기술을 강제로 훈련시키는 일회성의 메카나이트 혈청.\n\n안와를 통해 뇌로 직접 투여됩니다. 메카나이트는 뇌의 특정 영역으로 파고들어 신경 조직의 형태를 변형시킴으로써 피시술자가 초능력 기술을 사용할 수 있게 합니다.</PsycastNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
+  <AbilityNeurotrainerUsed>{USER_labelShort}(은)는 초월교육혈청을 사용하여 {1} 초능력을 습득했습니다.</AbilityNeurotrainerUsed>
+  <!-- EN: Requires psylink -->
+  <PsycastNeurotrainerNoPsylink>사이링크 필요</PsycastNeurotrainerNoPsylink>
+  <!-- EN: {USER_labelShort} already knows {1}. -->
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort}(은)는 이미 {1}(을)를 알고 있습니다.</PsycastNeurotrainerAbilityAlreadyLearned>
+
+  <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor>임무를 수락한 림은 {0_name}에게 {0_royalFavorLabel} {1}장을 수여받습니다</Reward_RoyalFavor>
+  <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor_ChoosePawn>{2} 참여자 중 한 명을 선택하여 {0_name}에게 {0_royalFavorLabel} {1}장을 수여받습니다</Reward_RoyalFavor_ChoosePawn>
+  
+  <!-- Ship landing beacons -->
+  <!-- EN: Not usable -->
+  <NotUsable>사용불가</NotUsable>
+  <!-- EN: unpowered -->
+  <Unpowered>전력없음</Unpowered>
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>지붕에 의해 막힘</BlockedByRoof>
+  <!-- EN: Too close to other beacon -->
+  <TooCloseToOtherBeacon>매우 가까운 다른 신호기</TooCloseToOtherBeacon>
+  
+  <!-- Meditation -->
+
+  <!-- EN: Psyfocus -->
+  <Psyfocus>초집중</Psyfocus>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <PsyfocusDesc>초집중은 초능력을 사용하기 위해 필요한 특수한 유형의 정신적 구조입니다. 초집중은 시간이 지남에 따라 사라지고, 명상을 통해 축적할 수 있습니다. 모든 초집중을 잃게 된다면 초능력을 사용할 수 없으며 별다른 불이익은 없습니다.\n\n더높은 단계의 초집중은 더높은 단계의 초능력을 사용할 수 있지만, 초집중 소멸 비율도 증가합니다.</PsyfocusDesc>
+  <!-- EN: {0}-{1}% -->
+  <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
+  <!-- EN: Up to level {0} psycasts. -->
+  <PsyfocusLevelInfoPsycasts>초능력 {0} 수준까지</PsyfocusLevelInfoPsycasts>
+  <!-- EN: Psyfocus falls at {0} per day. -->
+  <PsyfocusLevelInfoFallRate>초집중은 매일 {0}만큼 소멸됩니다.</PsyfocusLevelInfoFallRate>
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>{LASTUSER_labelShort}의 집중명상</UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>집중효과 영향</MeditationFocusImpacted>
+  <!-- EN: Psyfocus gain rate: {0}/d -->
+  <PsyfocusPerDayOfMeditation>초집중 획득률: {0}/일</PsyfocusPerDayOfMeditation>
+  <!-- EN: Desired psyfocus -->
+  <DesiredPsyfocus>지망하는 초집중</DesiredPsyfocus>
+  <!-- EN: Click to set desired psyfocus. -->
+  <DesiredPsyfocusDesc>클릭하여 원하는 초집중을 설정하세요.</DesiredPsyfocusDesc>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>소집 중이어야 합니다.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>재사용 대기시간입니다. {0}에 사용가능 합니다.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>이미 대기열에 있습니다.</AbilityAlreadyQueued>
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>버려질 열기가 없습니다.</AbilityNoEntropyToDump>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>{0} 능력이 준비되었습니다.</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef}(이)가 {1}(을)를 사용할 준비가 되었습니다.</AbilityReadyText>
+  
+  <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
+  <AbilitySpeechTooltip>왕좌에서 연설할 수 있습니다. {ORGANIZER_labelShort}(이)가 {ORGANIZER_possessive} 왕좌로 이동하여 모든 정착민을 불러 연설하도록 합니다. 진행이 잘 된다면 청취자들은 영감을 얻을 수 있고, {ORGANIZER_labelShort}에 대한 존중심이 높아집니다. 반대로 진행이 잘 되지 않는다면, 사교적 불이익이 생깁니다. 연설에 관한 결과는 {ORGANIZER_labelShort}의 사교 기술에 따라 달라집니다.</AbilitySpeechTooltip>
+  <!-- EN: no throne assigned. -->
+  <AbilitySpeechDisabledNoThroneAssigned>할당된 왕좌가 없습니다.</AbilitySpeechDisabledNoThroneAssigned>
+  <!-- EN: throne is not accessible. -->
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>왕좌에 접근할 수 없습니다.</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <!-- EN: throne not usable because it is undignified. -->
+  <AbilitySpeechDisabledNoThroneUndignified>왕좌의 수준이 낮아서 사용할 수 없습니다.</AbilitySpeechDisabledNoThroneUndignified>
+  <!-- EN: already giving a speech. -->
+  <AbilitySpeechDisabledAlreadyGivingSpeech>이미 연설이 진행 중입니다.</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>다음 연설 준비</AbilitySpeechCooldown>
+  <!-- EN: Outcome chances -->
+  <AbilitySpeechPossibleOutcomes>결과</AbilitySpeechPossibleOutcomes>
+  <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
+  <AbilitySpeechStatInfo>{ORGANIZER_labelShort}의 {1} 통계</AbilitySpeechStatInfo>
+
+  <!-- EN: Progress to next {0}: {1} -->
+  <ProgressToNextSubplant>다음 {0}(으)로 진행: {1}</ProgressToNextSubplant>
+  <!-- EN: Begin linking ritual -->
+  <BeginLinkingRitualFloatMenu>의식연결 시작</BeginLinkingRitualFloatMenu>
+  <!-- EN: Need {0} {1} here (have {2}) -->
+  <BeginLinkingRitualNeedSubplants>{0} {1} 필요 (보유 {2})</BeginLinkingRitualNeedSubplants>
+  <!-- EN: Need {0} pyslink focus -->
+  <BeginLinkingRitualNeedFocus>{0} 사이링크 집중 필요</BeginLinkingRitualNeedFocus>
+  <!-- EN: Need a free, reachable spot within 3 cells for linking -->
+  <BeginLinkingRitualNeedLinkSpot>연결을 위해 3칸 이내에 자유롭게 도달할 수 있는 지점 필요</BeginLinkingRitualNeedLinkSpot>
+  <!-- EN: Linking ritual completed -->
+  <LetterLabelLinkingRitualCompleted>의식연결 완료</LetterLabelLinkingRitualCompleted>
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}(이)가 {LINKABLE_labelShort}(와)과 의식연결을 완료하였습니다.\n\n{PAWN_pronoun}는 사이링크가 상향되어, 새로운 초능력을 사용할 수 있습니다.</LetterTextLinkingRitualCompleted>
+</LanguageData>

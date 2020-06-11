@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Monument completed -->
+  <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>기념비 완성</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
+  <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration], otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill). -->
+  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>기념비 건설을 완료하였습니다.\n\n최소한 [keepMonumentTicks_duration] 동안 유지하지 않는다면, [asker_factionName](와)과의 관계가 [goodwillChangeIfMonumentDestroyed] 만큼 하락합니다.</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
+  <!-- EN: Monument destroyed -->
+  <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>파괴된 기념비</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
+  <BuildMonumentWorker.LetterTextMonumentRuined.slateRef>[asker_nameDef](은)는 기념비가 완공되자마자 파괴한 것에 대해 불쾌하게 생각합니다.\n\n[asker_faction_name](와)과의 관계가 [goodwillChangeIfMonumentDestroyed] 만큼 하락합니다.</BuildMonumentWorker.LetterTextMonumentRuined.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>{0} 동안 기념비를 파괴하지 마세요</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>{0} 동안 기념비를 파괴하지 마세요</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <BuildMonumentWorker.KeepMonument.slateRef>{0} 기념비 유지</BuildMonumentWorker.KeepMonument.slateRef>
+  <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Consequences will follow. -->
+  <BuildMonumentWorker.MessageMonumentViolated.slateRef>'[resolvedQuestName]' 임무의 기념비가 훼손되어, 형벌이 실행됩니다.</BuildMonumentWorker.MessageMonumentViolated.slateRef>
+  <!-- EN: Protect the monument for {0} -->
+  <BuildMonumentWorker.ProtectMonumentForDays.slateRef>{0} 동안 기념비 보호</BuildMonumentWorker.ProtectMonumentForDays.slateRef>
+  <!-- EN: Protect the monument until {0} -->
+  <BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>{0}까지 기념비 보호</BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>
+  <!-- EN: Protect for {0} -->
+  <BuildMonumentWorker.ProtectMonument.slateRef>{0}의 보호</BuildMonumentWorker.ProtectMonument.slateRef>
+  <!-- EN: New monument marker arrived -->
+  <BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>새로운 기념비 표지 도착</BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>
+  <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
+  <BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>기념비 표지가 파괴되어, 새로운 표지를 보냈습니다.</BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>
+  <!-- EN: Monument time expired -->
+  <BuildMonumentWorker.LetterLabelTimeExpired.slateRef>기념비 시간만료</BuildMonumentWorker.LetterLabelTimeExpired.slateRef>
+  <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
+  <BuildMonumentWorker.LetterTextTimeExpired.slateRef>기념비를 건설할 제한시간이 만료되었습니다. [failLetterEndingCommon]</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
+  
+</LanguageData>
