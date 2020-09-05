@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Work tab -->
+  <!-- EN: Manual priorities -->
+  <ManualPriorities>중요도 수동조절</ManualPriorities>
+  <!-- EN: higher priority -->
+  <HigherPriority>높은 중요도</HigherPriority>
+  <!-- EN: lower priority -->
+  <LowerPriority>낮은 중요도</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
+  <RelevantSkills>관련 기술: {0}\n관련 기술들의 평균값: {1} / {2}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
+  <ClickToJumpTo>클릭하여 이동:</ClickToJumpTo>
+  <!-- EN: {1_labelShort} cannot do this kind of work. -->
+  <CannotDoThisWork>{1_labelShort}(은)는 이 작업을 할 수 없습니다.</CannotDoThisWork>
+  <!-- EN: (none) -->
+  <NoneBrackets>(없음)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
+  <IncapableOfWorkTypeBecauseOfCapacities>신체 결손으로 인하여 해당 작업을 진행할 수 없습니다.</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
+  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
+  <SelectedWorkTypeWithVeryBadSkill>경고: 관련 기술이 매우 낮습니다.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>작업에 할당된 숫자가 1에 가까울수록 우선적으로 실행됩니다.</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>보류</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>즉시 실행</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>높은 우선순위</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>보통 우선순위</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>낮은 우선순위</Priority4>
+  
+  <!-- Assign tab -->
+  <!-- EN: Manage outfits -->
+  <ManageOutfits>복장 관리</ManageOutfits>
+  <!-- EN: Unchangeable -->
+  <Unchangeable>교체 불가</Unchangeable>
+  <!-- EN: Clr. forced -->
+  <ClearForcedApparel>강제지정 취소</ClearForcedApparel>
+  <!-- EN: forced -->
+  <ApparelForcedLower>강제됨</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>잠김</ApparelLockedLower>
+  <!-- EN: Forced apparel -->
+  <ForcedApparel>강제된 의복</ForcedApparel>
+  <!-- EN: Edit... -->
+  <AssignTabEdit>수정</AssignTabEdit>
+  <!-- EN: Manage drug policies -->
+  <ManageDrugPolicies>약물 정책 관리</ManageDrugPolicies>
+  <!-- EN: Manage food restrictions -->
+  <ManageFoodRestrictions>식량 정책 관리</ManageFoodRestrictions>
+  
+  <!-- Restrictions tab -->
+  <!-- EN: Copy -->
+  <Copy>복사</Copy>
+  <!-- EN: Paste -->
+  <Paste>붙여넣기</Paste>
+  <!-- EN: Allowed area -->
+  <AllowedArea>허가구역</AllowedArea>
+  
+  <!-- Animals tab -->
+  <!-- EN: Master -->
+  <Master>주인</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
+  <PregnantIconDesc>임신 ({0} / {1})</PregnantIconDesc>
+  <!-- EN: Bonded to -->
+  <BondedTo>각별함</BondedTo>
+  
+  <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
+  <IsPredator>이 동물은 포식자입니다. 배가 고프면 사람을 포함한 작은 동물들을 사냥할 것입니다.</IsPredator>
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>이 동물의 정신 상태: {0}</IsInMentalState>
+  
+  <!-- Factions tab -->
+  <!-- EN: Hostile -->
+  <Hostile>적대</Hostile>
+  <!-- EN: Ally -->
+  <Ally>동맹</Ally>
+  <!-- EN: defeated -->
+  <DefeatedLower>패배</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
+  <HostileTo>{0} 세력과 적대 관계</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>적대 중: </EnemyOf>
+  <!-- EN: Current goodwill and relations status with this faction. -->
+  <CurrentGoodwillTip>이 세력과의 우호도 및 관계 상태입니다.</CurrentGoodwillTip>
+  <!-- EN: Current relations with this faction. -->
+  <CurrentRelationTip>이 세력과의 현재 관계 상태입니다.</CurrentRelationTip>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
+  <CurrentGoodwillTip_PermanentEnemy>이 세력은 영구적으로 적대적이며 정착지와 상단을 지속적으로 습격할 것입니다. 어떤 이유로든 관계를 개선할 수 없습니다.</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Ally>이 세력은 우리와 동맹 상태이며 어려움에 처했을때 지원군을 보내 도와줄 것입니다. 관계가 {0} 아래로 떨어지면 중립 상태가 됩니다.</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
+  <CurrentGoodwillTip_Neutral>이 세력은 중립 세력이며 자유롭게 대화하고 거래할 수 있습니다. 관계가 {0} 아래로 떨어지면 적대할 것입니다. 관계가 {1} 이상 오르면 동맹이 되어 적극적으로 교류할 수 있습니다.</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Hostile>이 세력은 적대 세력이며 정착지와 상단을 습격할 것입니다. 관계가 {0} 이상 오르면 중립 상태가 됩니다.</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
+  <CurrentGoodwillTip_NaturalGoodwill>이 세력은 {0}~{1}의 중립적인 친선 범위를 가지고 있습니다.</CurrentGoodwillTip_NaturalGoodwill>
+  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillRise>우호도가 {0} 보다 적다면, 매년 {1} 만큼 증가합니다.</CurrentGoodwillTip_NaturalGoodwillRise>
+  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillFall>우호도가 {0} 보다 많다면, 매년 {1} 만큼 감소합니다.</CurrentGoodwillTip_NaturalGoodwillFall>
+  
+  <!-- Social tab -->
+  <!-- EN: Friend -->
+  <Friend>친구</Friend>
+  <!-- EN: Rival -->
+  <Rival>적수</Rival>
+  <!-- EN: Acquaintance -->
+  <Acquaintance>지인</Acquaintance>
+  
+  <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
+  <Graph>그래프</Graph>
+  <!-- EN: Messages -->
+  <Messages>메시지</Messages>
+  <!-- EN: Statistics -->
+  <Statistics>통계</Statistics>
+  
+  <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
+  <SelectGraph>그래프 선택</SelectGraph>
+  <!-- EN: Last 30 days -->
+  <Last30Days>지난 30일간</Last30Days>
+  <!-- EN: Last 100 days -->
+  <Last100Days>지난 100일간</Last100Days>
+  <!-- EN: Last 300 days -->
+  <Last300Days>지난 300일간</Last300Days>
+  <!-- EN: All -->
+  <AllDays>전체</AllDays>
+  <!-- EN: Value -->
+  <Value>값</Value>
+  <!-- EN: External -->
+  <External>외부</External>
+
+  <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
+  <ShowLetters>알림 보기</ShowLetters>
+  <!-- EN: Show messages -->
+  <ShowMessages>메시지 보기</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
+  <PinArchivableTip>이 메시지를 고정하거나 고정해제를 합니다.\n\n{0}개의 메시지 한도에 도달하면 가장 오래된 고정 해제 메시지가 자동적으로 삭제됩니다.</PinArchivableTip>
+  <!-- EN: no messages -->
+  <NoMessages>메시지 없음</NoMessages>
+
+  <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
+  <Playtime>플레이 시간</Playtime>
+  <!-- EN: Storyteller -->
+  <Storyteller>이야기꾼</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
+  <ThisMapColonyWealthTotal>정착지 재산 (이 지역에서)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
+  <ThisMapColonyWealthItems>정착지 재산 (아이템) (이 지역에서)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
+  <ThisMapColonyWealthBuildings>정착지 재산 (건물) (이 지역에서)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (people and animals) (this map) -->
+  <ThisMapColonyWealthColonistsAndTameAnimals>정착지 재산 (정착민과 동물) (이 지역에서)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <!-- EN: Major threats -->
+  <NumThreatBigs>큰 위협의 수</NumThreatBigs>
+  <!-- EN: Enemy raids -->
+  <NumEnemyRaids>적의 습격</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
+  <ThisMapDamageTaken>받은 피해량 (이 지역에서)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
+  <ColonistsKilled>죽은 정착민</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
+  <ColonistsLaunched>우주로 떠난 정착민</ColonistsLaunched>
+
+  <!-- Research tab -->
+  <!-- EN: Research -->
+  <Research>연구</Research>
+  <!-- EN: Researched -->
+  <Researched>연구됨</Researched>
+  <!-- EN: Unresearched -->
+  <Unresearched>연구되지 않음</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>연구 완료</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>연구 중</InProgress>
+  <!-- EN: Locked -->
+  <Locked>연구 불가</Locked>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>필요한 선행연구</ResearchPrerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>기술청사진 필요({0}/{1})</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>기술청사진 부족 ({0}/{1})</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>요구조건이 충족되지 않음</PrerequisitesNotCompleted>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>필요한 연구시설</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>필요한 연구보조시설</RequiredResearchBenchFacilities>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
+  <ResearchCostComparison>\n({0} → {1})</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>다음 세력과의 무역이나 임무를 통해 기술청사진을 얻을 수 있습니다.</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>{0}시대 수준의 기술로 {1}시대 수준의 연구를 진행할 경우 {2}의 연구 속도가 적용됩니다.</TechLevelTooLow>
+  <!-- EN: Unlocked with -->
+  <UnlockedWith>잠금해제</UnlockedWith>
+
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>가능</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>진행중</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>기록</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>임무가 선택되지 않음</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>{0}일 전에 나타남</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>{0}에 나타남</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>{0} 전에 수락함</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>{0}에 수락함</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>{1}(이)가 {0} 전에 수락함</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>{1}(이)가 {0}에 수락함</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>{0} 후에 만료</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>{0}에 만료</QuestExpiresOn>
+  <!-- EN: Average guest mood (previous {0}): {1} -->
+  <QuestAveragePawnMood>방문객 평균 기분 (이전 {0}): {1}</QuestAveragePawnMood>
+  <!-- EN: The average mood of {0} over the previous {1} -->
+  <QuestAveragePawnMoodTargets>이전 {1}에 대한 {0}의 평균 기분</QuestAveragePawnMoodTargets>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>{0} 후에 왕복선 도착</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>{0}에 왕복선 도착</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>{0} 후에 왕복선 출발</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>{0}에 왕복선 출발</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>{0} 후에 방문객 출발</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>{0}에 방문객 출발</GuestsDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>{0} 전에 완료</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>임무 수락</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>{0_labelShort} 수락</AcceptWith>
+  <!-- EN: Accept for -->
+  <AcceptQuestFor>수락</AcceptQuestFor>
+  <!-- EN: Click to accept this quest for this reward. -->
+  <AcceptQuestForTip>이 임무에 대한 보상을 수락하려면 클릭하세요.</AcceptQuestForTip>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>이 임무는 만료되었습니다.</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>이 임무는 완수되었습니다.</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>이 임무는 실패했습니다.</QuestOutcomeInfo_Failed>
+  <!-- EN: This quest became invalid before it was accepted. -->
+  <QuestOutcomeInfo_Invalid>이 임무는 수락되기 전에 무효가 됐습니다.</QuestOutcomeInfo_Invalid>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>{0}(으)로 바로가기</JumpToTargetCustom>
+  <!-- EN: Select hives -->
+  <SelectHiveTargets>군락 선택</SelectHiveTargets>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>도전 등급. 당신이 지닌 요소들을 감안할 때 임무가 얼마나 어려울지에 대한 대략적인 평가입니다. 도전적인 임무는 더 큰 보상을 줍니다.\n\n★: 쉬움\n★★: 중간\n★★★: 어려움\n★★★★: 매우 어려움</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>임무 요구사항</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>다음 작위에 어울리는 빈 침실들: </QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>다음 작위에 어울리는 빈 침실: </QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>{PAWN_definite}의 {TITLE} 작위 요건을 충족하는 알현실</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestNoThroneRoom>{PAWN_definite}의 {TITLE} 작위 요건을 충족하는 알현실</QuestNoThroneRoom>
+  <!-- EN: a colonist with the title of {0}. -->
+  <QuestNoColonistWithTitle>다음 작위를 보유한 정착민: {0}.</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} must be in home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite}(이)가 주 정착지에 있어야 함</QuestPawnNotOnColonyMap>
+  <!-- EN: Reward preferences -->
+  <ChooseRewards>보상 설정</ChooseRewards>
+  <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
+  <ChooseRewardsDesc>다른 세력에게 향후 임무의 어떤 보상을 원하는지 알려주세요. 이미 수락한 임무에는 아무 영향이 없습니다.</ChooseRewardsDesc>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>{FACTION_royalFavorLabel} 수여</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>{FACTION_name}으로부터 {FACTION_royalFavorLabel}(을)를 하사받겠습니까?\n\n거절한다면 {FACTION_name}(은)는 다른 형태의 적당한 보상을 제공할 것입니다.\n\n이 설정은 새로 도착한 임무만 영향을 미칩니다.</AcceptRoyalFavorDesc>
+  <!-- EN: Accept goodwill -->
+  <AcceptGoodwill>우호도 받기</AcceptGoodwill>
+  <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
+  <AcceptGoodwillDesc>{FACTION_name}(와)과의 세력 우호도를 보상으로 받을지 선택할 수 있습니다.\n\n비활성되어 있다면 {FACTION_name}(이)가 대신 다른 유형의 보상을 제공합니다.\n\n이 설정은 새로 생성된 임무에만 유효합니다.</AcceptGoodwillDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>현재 {FACTION_royalFavorLabel}(을)를 받기로 한 상태입니다.</RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>현재 {FACTION_royalFavorLabel}(을)를 거부하기로 한 상태입니다.</RoyalFavorOff>
+  <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
+  <GoodwillTip>{0_name}(와)과의 관계가 {1}만큼 향상됩니다.\n\n현재 우호도: {4} ({5}).\n\n우호도는 세력간 관계를 나타냅니다. 우호도가 {2}보다 낮다면, 세력이 적대화되어 정착지와 상단을 공격할 것입니다. 우호도가 {3}보다 높다면, 세력과 동맹국이 되어 전투 때 지원군을 보내 도와줄 것입니다. 그 외에 세력은 중립으로써 자유롭게 거래하고 대화할 수 있습니다.</GoodwillTip>
+  <!-- EN: {0_labelShort} joins -->
+  <PawnQuestReward>{0_labelShort} 합류</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>배반 제안: 대상 {0} 남음</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>{0}(은)는 {1}의 모든 구성원을 처리하면 보상을 제공합니다.</QuestBetrayalOfferTip>
+
+  <!-- Health tab -->
+  <!-- EN: Creates need -->
+  <CreatesNeed>필요 생성</CreatesNeed>
+
+</LanguageData>

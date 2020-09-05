@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
+  -->
+  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+    <li>questDescription->\n[titleHeir_nameFull](을)를 [titleHolder_nameFull] 작위의 계승자로 만들기 위해 기념비를 건설해야 합니다.\n\n기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다. ([monumentRequiredResourcesMarketValue_money])\n\n[monumentRequiredResources]\n\n20일 이내로 완료하지 못하면 신성모독하는 것으로 간주됩니다. [asker_factionName](와)과의 관계는 -25가 떨어지며, 계승자는 변경되지 않습니다.\n\n기념비가 건설된 후 [keepMonumentTicks_duration] 내로 파괴된다면, [asker_factionName](와)과 관계도가 [goodwillChangeIfMonumentDestroyed] 만큼 떨어집니다.</li>
+  </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[titleHeir_nameDef]'s inheritance</li>
+  -->
+  <ChangeRoyalHeir.questNameRules.rulesStrings>
+    <li>questName->[titleHeir_nameDef]의 상속</li>
+  </ChangeRoyalHeir.questNameRules.rulesStrings>
+  <!-- EN: Time left: {0} -->
+  <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>남은 시간: {0}</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
+  <!-- EN: [titleHolder_nameDef]'s heir change failed -->
+  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>[titleHolder_nameDef]의 계승자 변경 실패</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
+  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef](은)는 새로이 계승하겠다고 약속했지만, 제한된 시간내에 기념비를 건설하지 못해 불쾌감을 느낍니다.\n\n[asker_faction_name](와)과의 우호도가 -25 떨어집니다.</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+  <!-- EN: Title holder died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>작위 보유자 사망: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+  <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
+  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>상속 진행 중인 {SUBJECT_definite}(이)가 사망했습니다.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+  <!-- EN: Designated heir died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>지정된 계승자 사망: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+  <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
+  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>작위 상속자가 되기로 했던 {SUBJECT_definite}(이)가 사망했습니다.</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
+  <!-- EN: Monument destroyed -->
+  <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>파괴된 기념비</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
+  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>[asker_nameDef](은)는 새로운 상속인이 되기로 약속 했었지만, 기념비가 완공되자마자 파괴한 것에 대해 불쾌하게 생각합니다.\n\n[asker_faction_name](와)과의 관계가 [goodwillChangeIfMonumentDestroyed] 만큼 하락합니다.</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
+  <!-- EN: New heir: [titleHeir_nameDef] -->
+  <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>새로운 상속자: [titleHeir_nameDef]</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
+  <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
+  <ChangeRoyalHeir.LetterTextNewHeir.slateRef>[titleHeir_nameDef](은)는 [titleHolder_nameDef]의 새로운 상속자입니다.</ChangeRoyalHeir.LetterTextNewHeir.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>{0} 동안 기념비를 파괴하지 마세요</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>{0} 동안 기념비를 파괴하지 마세요</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <ChangeRoyalHeir.KeepMonument.slateRef>{0} 기념비 유지</ChangeRoyalHeir.KeepMonument.slateRef>
+  
+</LanguageData>

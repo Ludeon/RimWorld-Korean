@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: casting time -->
+  <Ability_CastingTime.label>시전시간</Ability_CastingTime.label>
+  <!-- EN: How long it takes to perform this ability. -->
+  <Ability_CastingTime.description>능력을 발동하는 데 걸리는 시간입니다.</Ability_CastingTime.description>
+  <!-- EN: {0} s -->
+  <Ability_CastingTime.formatString>{0}초</Ability_CastingTime.formatString>
+  
+  <!-- EN: detection chance -->
+  <Ability_DetectChancePerEntropy.label>초능력 감지 기회</Ability_DetectChancePerEntropy.label>
+  <!-- EN: The likelihood of this psychic power being detected when it is used.\n\nSome factions try to enforce laws which restrict some powers to those holding specific titles. When you use a power, there is a chance that the psychic signature will be detected at a distance, which leads to diplomatic consequences. -->
+  <Ability_DetectChancePerEntropy.description>초능력이 사용될 때, 감지될 가능성이 있습니다.\n\n일부 진영은 일부 초능력을 특정 지위를 보유한 사람들로 제한하는 법률을 시행하려고 할 것입니다. 초능력을 사용하면 멀리 떨어진 거리에서 감지하여, 외교적 문제가 발생할 수 있습니다.\n\n초능력 신호 차단기를 사용하면 감지 가능성을 제거할 수 있습니다.</Ability_DetectChancePerEntropy.description>
+  
+  <!-- EN: duration -->
+  <Ability_Duration.label>지속시간</Ability_Duration.label>
+  <!-- EN: How long the effects of this ability last. -->
+  <Ability_Duration.description>초능력의 효과가 지속되는 시간입니다.</Ability_Duration.description>
+  <!-- EN: {0} s -->
+  <Ability_Duration.formatString>{0}초</Ability_Duration.formatString>
+  
+  <!-- EN: effect radius -->
+  <Ability_EffectRadius.label>효과 범위</Ability_EffectRadius.label>
+  <!-- EN: The radius of the area of effect of this ability. -->
+  <Ability_EffectRadius.description>초능력의 효과를 미칠 수 있는 범위입니다. 단위는 반경입니다.</Ability_EffectRadius.description>
+  
+  <!-- EN: neural heat gain -->
+  <Ability_EntropyGain.label>혼돈치 누적</Ability_EntropyGain.label>
+  <!-- EN: How much neural heat will be added as a result of performing this ability. -->
+  <Ability_EntropyGain.description>초능력을 사용하면 혼돈치가 누적됩니다.</Ability_EntropyGain.description>
+  
+  <!-- EN: goodwill impact -->
+  <Ability_GoodwillImpact.label>타 세력 영향</Ability_GoodwillImpact.label>
+  <!-- EN: How casting this ability on someone will impact relations with their faction. -->
+  <Ability_GoodwillImpact.description>이 초능력을 사용한다면 해당 지역의 세력과의 관계에 영향이 갈 것입니다.</Ability_GoodwillImpact.description>
+  
+  <!-- EN: psyfocus cost -->
+  <Ability_PsyfocusCost.label>초집중 비용</Ability_PsyfocusCost.label>
+  <!-- EN: How much psyfocus must be spent to perform this ability. -->
+  <Ability_PsyfocusCost.description>초집중 능력을 사용하기 위해 소모되는 비용입니다.</Ability_PsyfocusCost.description>
+  
+  <!-- EN: range -->
+  <Ability_Range.label>거리</Ability_Range.label>
+  <!-- EN: The maximum distance to a target of this ability, or to the center of the target location. -->
+  <Ability_Range.description>이 초능력의 목표 또는 목표 위치의 중심까지의 최대 거리입니다.</Ability_Range.description>
+  
+  <!-- EN: psylink level -->
+  <Ability_RequiredPsylink.label>초능력 단계</Ability_RequiredPsylink.label>
+  <!-- EN: The minimum psylink level required to use this ability. -->
+  <Ability_RequiredPsylink.description>초집중을 사용하는데 필요한 최소한 초능력 단계입니다.</Ability_RequiredPsylink.description>
+  
+</LanguageData>

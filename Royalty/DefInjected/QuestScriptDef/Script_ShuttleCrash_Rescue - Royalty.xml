@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->You have succesfully completed the quest '[resolvedQuestName]'.</li>
+    <li>goodwillSomeCiviliansLost->Not all the [asker_faction_pawnSingular] [pawnLabel] could be rescued. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->None of the [asker_faction_pawnSingular] [pawnLabelPlural] could be rescued. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->Your goodwill with [asker_faction_name] has been negatively affected for every [pawnLabel] left.</li>
+    <li>commanderLandingDesc->[asker_nameDef], the commander who asked to land [asker_possessive] shuttle at [map_definite]</li>
+    <li>raidArrivedLetterLabel->Raid: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] from the [enemyFaction_name] have arrived. They will attack the [asker_faction_pawnsPlural] who crashed at [map_definite].\n\nDefend the [asker_faction_pawnsPlural] until their rescue shuttle arrives in [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->Rescue shuttle arrived</li>
+    <li>rescueShuttleArrivedLetterText->The rescue shuttle has arrived to collect the [pawnLabelSingleOrPlural] who crashed landed. Make sure to have these people on the shuttle before it leaves in [rescueDelay_duration]:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Quest completed: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], has escaped. [asker_pronoun] is grateful for the help [asker_pronoun] received at [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Quest completed: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], has escaped.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] was not on board when the shuttle departed.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>allLostLetterText->The rescue shuttle for the crashed [asker_faction_pawnsPlural] has departed without anyone on board.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] has died.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+  -->
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
+    <li>failLetterEndingCommon->'[resolvedQuestName]' 임무에 실패했습니다.</li>
+    <li>successLetterEndingCommon->'[resolvedQuestName]' 임무를 성공적으로 완수했습니다.</li>
+    <li>goodwillSomeCiviliansLost->모든 [asker_faction_pawnSingular](와) [pawnLabel](을)를 구할 수는 없었습니다. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->[asker_faction_pawnSingular](와) [pawnLabelPlural] 중 아무도 구할 수 없었습니다. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->[asker_faction_name](와)과의 관계는 [pawnLabel](이)가 떠날 때까지 매일 부정적인 영향이 생깁니다.</li>
+    <li>commanderLandingDesc->[map_definite]에 착륙을 요청한 지휘관 [asker_nameDef]</li>
+    <li>raidArrivedLetterLabel->습격: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->[enemyFaction_name]의 [enemyFaction_pawnsPlural](이)가 도착했습니다. 그들은 [map_definite]에 추락한 [asker_faction_pawnsPlural](을)를 공격합니다.\n\n구조선이 도착할 때까지 [rescueShuttleAfterRaidDelay_duration] 동안 [asker_faction_pawnsPlural](을)를 지키세요.</li>
+    <li>rescueShuttleArrivedLetterLabel->구조선 도착</li>
+    <li>rescueShuttleArrivedLetterText->추락한 [pawnLabelSingleOrPlural](을)를 데려가기 위해 구조선이 도착했습니다. 구조선이 출발하기 전에 [rescueDelay_duration] 내로 다음 사람들을 탑승시키세요:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->임무 성공: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc](이)가 탈출했습니다. [asker_pronoun]는 [map_definite]에서 받은 도움에 감사해 합니다.\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->임무 성공: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc](이)가 탈출했습니다.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->임무 실패: [resolvedQuestName]</li>
+    <li>askerLostLetterText->왕복선이 출발할 때 [commanderLandingDesc](은)는 탑승하지 못했습니다.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->임무 실패: [resolvedQuestName]</li>
+    <li>allLostLetterText->추락했던 [asker_faction_pawnsPlural]들 중 아무도 구조선에 탑승하지 못했습니다.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->임무 실패: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc](이)가 죽었습니다.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->임무 실패: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText->추락한 [asker_faction_pawnsPlural]들을 데려가기 위해 온 왕복선이 파괴되었습니다. [asker_faction_pawnsPlural]들은 걸어서 떠납니다.\n\n[failLetterEndingCommon]</li>
+  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>pawnLabel->civilian</li>
+    <li>pawnLabelPlural->civilians</li>
+  -->
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+    <li>pawnLabel->민간인</li>
+    <li>pawnLabelPlural->민간인들</li>
+  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldiers_count] [soldiers0_kind]s. The commander [andCivilians] must be rescued, but the [soldiers0_kind]s may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, another [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
+    <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
+  -->
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->[asker_faction_name]의 왕복선이 손상되어 착륙할 곳을 찾고 있습니다. 지휘관 [asker_nameDef](은)는 [map_definite]에 착륙하려고 합니다.\n\n[enemyFaction_name]의 [enemyFaction_pawnsPlural](은)는 탑승자들을 죽이려고 추락한 왕복선 지역을 공격하니, 그들을 지켜야 합니다.\n\n왕복선에는 [asker_nameDef][andOtherCivilians](와)과 [soldiers0_kind] [soldiers_count]명이 있습니다. [soldiers0_kind]들은 희생되어도 괜찮지만, [andCivilians]지휘관은 구조되어야 합니다.\n\n[rescueDelay_duration] 후에, 생존자들을 데리러 구조선이 옵니다. [leaveDelay_duration] 내에 모두 탑승시켜야 합니다.</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, 다른 [pawnLabel]</li>
+    <li>andOtherCivilians(civilians_count>=3)->, 다른 [pawnLabelSingleOrPlural] [civilianCountMinusOne]명</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->[pawnLabel](와)과 </li>
+    <li>andCivilians(civilians_count>=3)->[pawnLabelPlural](와)과 </li>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shuttle] [crash]</li>
+    <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
+    <li>questName->[damaged] [shuttle]</li>
+    <li>questName->[asker_nameDef]'s [damaged] [shuttle]</li>
+    <li>questName->[emergency] [landing]</li>
+    <li>questName->[asker_nameDef]'s [emergency] [landing]</li>
+    <li>shuttle->shuttle</li>
+    <li>shuttle->transporter</li>
+    <li>shuttle->ship</li>
+    <li>crash->crash</li>
+    <li>crash->down</li>
+    <li>damaged->damaged</li>
+    <li>damaged->busted</li>
+    <li>damaged->failing</li>
+    <li>emergency->emergency</li>
+    <li>emergency->forced</li>
+    <li>landing->landing</li>
+    <li>landing->descent</li>
+    <li>landing->approach</li>
+  -->
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>questName->[shuttle] [crash]</li>
+    <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
+    <li>questName->[damaged] [shuttle]</li>
+    <li>questName->[asker_nameDef]의 [damaged] [shuttle]</li>
+    <li>questName->[emergency] [landing]</li>
+    <li>questName->[asker_nameDef]의 [emergency] [landing]</li>
+    <li>shuttle->왕복선</li>
+    <li>shuttle->수송</li>
+    <li>shuttle->함선</li>
+    <li>crash->충돌</li>
+    <li>crash->추락</li>
+    <li>damaged->손상된</li>
+    <li>damaged->부서진</li>
+    <li>damaged->결함있는</li>
+    <li>emergency->비상</li>
+    <li>emergency->강제</li>
+    <li>landing->착륙</li>
+    <li>landing->하강</li>
+    <li>landing->진입</li>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  
+</LanguageData>

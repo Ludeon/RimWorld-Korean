@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anima grass -->
+  <Plant_GrassAnima.label>영혼잔디</Plant_GrassAnima.label>
+  <!-- EN: A grass infused with luminous microorganisms. Tribal peoples find that anima grass grows around the base of an anima tree as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nOffworld scientists have tried to study the phenomenon, but the grass degenerates into normal plant matter when observed too closely.\n\nAnimals refuse eat anima grass. Tribal stories say this is done out of respect and fear. -->
+  <Plant_GrassAnima.description>발광미생물이 가득한 풀입니다. 부족민들이 명상할 때 영혼나무 밑에서 잔디가 자라는 것을 발견했습니다. 이는 나무의 정신 능력을 강화시키는 것으로 보입니다.\n\n외부계의 과학자들이 이 현상을 연구하려고 노력했지만, 너무 가까이서 관찰하게 되면 변질하여 일반 식물이 됩니다.\n\n동물들은 이 영혼잔디를 섭취하길 거부하는데, 부족민의 설에 따르면 존경과 두려움으로 이루어졌다고 합니다.</Plant_GrassAnima.description>
+  
+  <!-- EN: anima tree -->
+  <Plant_TreeAnima.label>영혼나무</Plant_TreeAnima.label>
+  <!-- EN: A rare tree with warm, skin-smooth bark and long iridescent leaves. Infused with bioluminescent micro-organisms, anima trees develop a unique form of psychic symbiosis with surrounding lifeforms, allowing them to grow in a wide variety of biomes.\n\nIf a person (psycaster or not) meditates near an anima tree, it will grow anima grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from anima trees while meditating to them.\n\nAnima trees' psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that anima trees are not simply trees, but are rather the physical extremities of a single world spirit. -->
+  <Plant_TreeAnima.description>따듯하고 매끄러운 껍질과 긴 무지갯빛의 잎이 있는 나무입니다. 발광미생물이 있는 있는 영혼나무는 주변의 생물체와 독특한 형태의 정신적 공생을 형성하여 다양한 생물군계에서 자랄 수 있습니다.\n\n초능력자든 아니든 영혼나무 주변에서 명상을 하게 되면, 주위에 영혼잔디가 자랍니다. 풀이 충분히 자란다면 나무와 정신연결 의식을 수행하여 초능력을 향상시킬 수 있지만, 오직 부족민만 이 의식의 비밀을 알고 있습니다. 부족민 시전자들 또한 명상하는 동안 영혼나무에서 초집중을 끌어낼 수 있습니다.\n\n인공 구조물이 근처에 배치가 된다면 영혼나무의 정신속성이 약화됩니다. 이러한 종들은 갇히거나, 관찰되는 것을 거부하며, 오직 자연 상태로만 존재하길 원합니다.\n\n대부분의 부족민들이 영혼나무는 단순한 나무가 아니라 단일세계 정신의 육체적 극치라고 믿고 있습니다.</Plant_TreeAnima.description>
+  <!-- EN: About: Anima tree linking -->
+  <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterLabel>영혼나무 연결에 대하여</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterLabel>
+  <!-- EN: The anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires more grass at each level.\n\nThe anima grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with anima trees. You can see a person's focus types by looking at their info card with the ‘i' button. -->
+  <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>영혼나무 주변에 {0}개의 영혼잔디가 있으며, 부족민들이 첫 의식을 시작하기에 충분합니다!\n\n연결의식은 사이링크 단계와 초능력을 사용할 수 있는 능력을 줍니다. 상위 단계로 상향하려면 각 단계에 맞는 더 많은 잔디가 필요합니다.\n\n시전자를 상향하기 위한 의식연결에 다음의 영혼잔디를 요구합니다.\n\n{1}\n\n참고: 자연 집중유형을 가진 사람만 영혼나무에 명상하거나 연결할 수 있습니다. 'i' 단추가 있는 정보카드를 보면 집중유형을 알 수 있습니다.</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>
+  <!-- EN: The anima tree has died and emitted a disturbing psychic scream. -->
+  <Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>영혼나무가 죽어 불안한 정신비명을 내지르고 있습니다.</Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>
+  
+</LanguageData>

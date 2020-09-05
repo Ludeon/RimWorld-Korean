@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>threatDescription->[gameConditionDescriptionFuture].</li>
+  -->
+  <Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
+    <li>threatDescription->[gameConditionDescriptionFuture].</li>
+  </Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
+  
+  <!-- EN:
+    <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
+  -->
+  <Util_Infestation.questDescriptionRules.rulesStrings>
+    <li>threatDescription->[hivesCount]개의 곤충군락이 지하에서 솟아오릅니다.</li>
+  </Util_Infestation.questDescriptionRules.rulesStrings>
+  
+  <!-- EN:
+    <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li>
+  -->
+  <Util_ManhunterPack.questDescriptionRules.rulesStrings>
+    <li>threatDescription->[animalCount]마리의 식인 [animalKind_labelPlural] 무리가 도착합니다.</li>
+  </Util_ManhunterPack.questDescriptionRules.rulesStrings>
+  
+  <!-- EN:
+    <li>threatDescription->a new site will appear nearby, where [allSitePartsDescriptions] This threat will remain until you go destroy it.</li>
+    <li>defaultSiteAppearedLetterText->A new site has appeared nearby.\n\n[allSitePartsDescriptions]</li>
+    <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li>
+  -->
+  <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+    <li>threatDescription->근처에 새로운 지역이 나타났으며, [allSitePartsDescriptions] 이 지역은 파괴될 때까지 남게 됩니다.</li>
+    <li>defaultSiteAppearedLetterText->근처에 새로운 지역이 나타났습니다.\n\n[allSitePartsDescriptions]</li>
+    <li>defaultSiteAppearedLetterLabel->지역 출현: [site_label]</li>
+  </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+  
+</LanguageData>

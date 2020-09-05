@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: construction speed -->
+  <ConstructionSpeedFactor.label>건설 속도</ConstructionSpeedFactor.label>
+  <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
+  <ConstructionSpeedFactor.description>해당 재료가 사용된 건물을 건설할 때 속도에 영향을 주는 수치입니다. 예를 들어 석재 건물은 느리게 만들어지지만 목재 건물은 빠르게 만들어집니다.</ConstructionSpeedFactor.description>
+  <!-- EN: construction speed (material factor) -->
+  <ConstructionSpeedFactor.labelForFullStatList>건설 속도 (재료 계수)</ConstructionSpeedFactor.labelForFullStatList>
+  
+  <!-- EN: medical potency -->
+  <MedicalPotency.label>약효</MedicalPotency.label>
+  <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
+  <MedicalPotency.description>상처와 질병 또는 수술을 치료할 때 해당 약품이 지닌 효과입니다. 높은 약효는 치료의 품질을 개선하고, 수술 중 성공 확률 계수로 작용합니다. 약효는 의사의 수준, 용품, 청결함 그리고 운을 포함한 것들 중에서도 의학적 결과 요인이 됩니다.</MedicalPotency.description>
+  
+  <!-- EN: medical tend quality maximum -->
+  <MedicalQualityMax.label>최대 의료 품질</MedicalQualityMax.label>
+  <!-- EN: The maximum quality of medical tending that can be achieved while using this.\n\nBetter tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
+  <MedicalQualityMax.description>해당 약품을 사용하여 달성할 수 있는 최대 의료 품질입니다. 이 수치가 높을수록 더 빠르고 안정적인 치료가 가능합니다.</MedicalQualityMax.description>
+  
+  <!-- EN: meditation psyfocus bonus -->
+  <MeditationFocusStrength.label>집중명상</MeditationFocusStrength.label>
+  <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
+  <MeditationFocusStrength.description>이 물체를 명상하는 동안 집중을 통해 얻을 수 있는 양입니다. 물체에 따라, 이 수는 주변과 명상하는 사람에 따라 변경될 수 있습니다.</MeditationFocusStrength.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusStrength.formatString>{0}/일</MeditationFocusStrength.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusStrength.formatStringUnfinalized>{0}/일</MeditationFocusStrength.formatStringUnfinalized>
+  
+  <!-- EN: psychic sensitivity offset -->
+  <PsychicSensitivityOffset.label>초능력 민감도</PsychicSensitivityOffset.label>
+  <!-- EN: An offset applied to the user's psychic sensitivity. -->
+  <PsychicSensitivityOffset.description>사용자의 초능력 민감도에 적용되는 오프셋입니다.</PsychicSensitivityOffset.description>
+  
+</LanguageData>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>healthInfo-></li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
+    <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep the mood of [lodgersLabelSingOrPluralDef] above [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be (*Threat)a raid(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be (*Threat)a raid(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be (*Threat)[threatCount] raids(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be (*Threat)[threatCount] raids(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)a mech cluster(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)two mech clusters(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)a mech cluster(/Threat) of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)two mech clusters(/Threat) of [threatSize]x size will deploy nearby.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
+    <li>threatsInfoMechRaidsMultiHuman->They recently [mechViolation], and have been targeted by a mechanoid hive.</li>
+    <li>mechViolation->angered a machine persona somehow</li>
+    <li>mechViolation->violated an ancient supercomputer terminal</li>
+    <li>mechViolation->murdered a human child favored by an archotech</li>
+    <li>mechViolation->attempted to hack a mechanoid control node</li>
+    <li>mechViolation->attempted to steal from an ancient storage site</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)->has</li>
+    <li>lodgersHasHave(lodgersCount>=2)->have</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->them</li>
+    <li>areIs(lodgersCount==1)->is</li>
+    <li>areIs(lodgersCount>=2)->are</li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
+    <li>failLetterEndingQuest->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
+  -->
+  <QuestHospitalityCommon.rulePack.rulesStrings>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>healthInfo-></li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[areIs][lodgersLabelSingOrPluralDef](은)는 마비성 보행불능으로 고통받고 있어 침대에 누워 있어야 합니다.</li>
+    <li>bloodRotInfo->[areIs][lodgersLabelSingOrPluralDef](은)는 혈액부패에 시달리고 있어 매일 치료를 받아야 합니다. 이 질병은 높은 수준의 의료환경과 약품으로 진행을 늦출 수는 있지만, 일반적으로 완치하기는 어렵습니다. 질병이 심각해지면 [lodgersLabelSingOrPluralDef](은)는 사망하게 되므로, 필요한 의료용품이 있는지 확인하세요.</li>
+    <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]의 기분을 [lodgersMoodThreshold_percent] 이상으로 유지해야 합니다.</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef](은)는 아무런 일을 할 수 없습니다.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->\n\n대략 다음 규모의 습격이 있을 것으로 예상됨:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->\n\n대략 다음 규모의 [threatSize]배 강력한 습격이 있을 것으로 예상됨:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->\n\n대략 다음 규모의 습격이 [threatCount]번 정도 있을 것으로 예상됨:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->\n\n대략 다음 규모의 [threatSize]배 강력한 [threatCount]갈래의 습격이 있을 것으로 예상됨:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->\n\n메카 전초기지가 근처에 배치됩니다.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->\n\n메카 전초기지 2개가 근처에 배치됩니다.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->\n\n[threatSize]배 크기의 메카 전초기지가 근처에 배치됩니다.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->\n\n[threatSize]배 크기의 메카 전초기지 2개가 근처에 배치됩니다.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef](은)는 최근에 [mechViolation]고, 궤도상의 메카노이드 무리의 표적이 되었습니다.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->수감자들은 최근에 [mechViolation]고, 궤도상의 메카노이드 무리의 표적이 되었습니다.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef](은)는 최근에 [mechViolation]고, 메카노이드 군락의 표적이 되었습니다.</li>
+    <li>threatsInfoMechRaidsMultiHuman->그들은 최근에 [mechViolation]고, 메카노이드 군락의 표적이 되었습니다.</li>
+    <li>mechViolation->자아 인공지능을 화나게 만들었</li>
+    <li>mechViolation->고대 슈퍼컴퓨터 단말기를 훼손하였</li>
+    <li>mechViolation->초월공학자가 좋아하던 인간의 아이를 살해하였</li>
+    <li>mechViolation->메카노이드 연결망을 해킹하려고 시도하였</li>
+    <li>mechViolation->고대 저장구역에서 훔치려 시도하였</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)-></li>
+    <li>lodgersHasHave(lodgersCount>=2)-></li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->그들을</li>
+    <li>areIs(lodgersCount==1)-></li>
+    <li>areIs(lodgersCount>=2)-></li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->남아 있던 [lodgersLabelPlural](이)가 떠납니다. </li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->'[resolvedQuestName]' 임무에 실패했습니다.</li>
+    <li>failLetterEndingCommon->'[resolvedQuestName]' 임무에 실패했습니다.\n\n[asker_faction_name](와)과의 관계가 [goodwillPenalty] 만큼 감소했습니다.</li>
+  </QuestHospitalityCommon.rulePack.rulesStrings>
+  
+</LanguageData>

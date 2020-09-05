@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task.\n\nAfter completion, you'll have to protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription]\n\nYou'll receive the rewards when you finish construction.</li>
+  -->
+  <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
+    <li>commonEnding->기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다. (총 가치 [monumentRequiredResourcesMarketValue_money])\n\n[monumentRequiredResources]\n\n작업을 수락한 후 [constructionTimeoutTicks_duration] 내에 건설 완료해야 합니다.\n\n완료 후에는 [haveToProtectForTicks_duration] 동안 기념비를 보호해야 합니다. 그 중 일부가 파괴되면 [asker2]의 강제 시스템이 활성화되고, [threatDescription]\n\n건설을 완료하면 보상을 받을 수 있습니다.</li>
+  </BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
+  <!-- EN: Monument completed -->
+  <BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>기념비 완성됨</BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>
+  <!-- EN: You completed construction of the monument.\n\nYou must now protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription] -->
+  <BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>기념비 건설을 완료하였습니다.\n\n이제 [haveToProtectForTicks_duration] 동안 기념비를 보호해야 합니다. 그 중 일부가 파괴되면 [asker2]의 강제 시스템이 활성화되고, [threatDescription]</BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>
+  
+</LanguageData>

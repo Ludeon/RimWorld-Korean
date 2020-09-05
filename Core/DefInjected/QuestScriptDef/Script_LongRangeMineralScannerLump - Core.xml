@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+    <li>questDescription->[worker_definite](은)는 장거리 광물 스캐너를 사용하여 근처에 [targetMineable_label] 덩어리가 있음을 발견했습니다.\n\n[timeoutTicks_duration] 동안 가지 않으면, 다른 세력이 먼저 채굴할 것입니다.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+  </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[lump] of [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->The [targetMineable_label] [lump]</li>
+    <li>questName->[adj] [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>lump->lump</li>
+    <li>lump->pile</li>
+    <li>lump->deposit</li>
+    <li>lump->seam</li>
+    <li>lump->chunk</li>
+    <li>lump->pile</li>
+    <li>adj->distant</li>
+    <li>adj->far</li>
+    <li>adj->unknown</li>
+    <li>adj->scanned</li>
+    <li>discovered->discovered</li>
+    <li>discovered->detected</li>
+    <li>discovered->found</li>
+    <li>discovered->scanned</li>
+  -->
+  <LongRangeMineralScannerLump.questNameRules.rulesStrings>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->[adj] [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [discovered]</li>
+	<li>lump->덩이</li>
+    <li>lump->무더기</li>
+    <li>lump->퇴적물</li>
+    <li>lump->층</li>
+    <li>lump->덩어리</li>
+    <li>lump->더미</li>
+	<li>adj->멀리 떨어져 있는</li>
+    <li>adj->저 끝의</li>
+    <li>adj->미지의</li>
+    <li>adj->탐색된</li>
+    <li>discovered->발견</li>
+    <li>discovered->감지</li>
+    <li>discovered->지대</li>
+    <li>discovered->탐색</li>
+  </LongRangeMineralScannerLump.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>다른 세력에서 [targetMineable_label] 덩어리를 먼저 채굴했습니다. [resolvedQuestName] 임무가 만료되었습니다.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>
