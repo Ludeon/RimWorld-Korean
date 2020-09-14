@@ -544,6 +544,8 @@
   <TraderCount>상인이 보유한 수량</TraderCount>
   <!-- EN: Accept -->
   <AcceptButton>수락</AcceptButton>
+  <!-- EN: Load selected -->
+  <LoadSelected>선택 불러오기</LoadSelected>
   <!-- EN: Reset -->
   <ResetButton>초기화</ResetButton>
   <!-- EN: Cancel -->
@@ -624,8 +626,8 @@
   <PawnsTab>사람과 동물들</PawnsTab>
   <!-- EN: Items -->
   <ItemsTab>품목들</ItemsTab>
-  <!-- EN: Food and medicine -->
-  <FoodAndMedicineTab>음식과 약품</FoodAndMedicineTab>
+  <!-- EN: Travel supplies -->
+  <FoodAndMedicineTab>여행용품</FoodAndMedicineTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>최소 한명의 쓰러지지 않은 정착민을 할당해야 합니다.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -750,8 +752,8 @@
   <FactionType>세력 유형</FactionType>
   <!-- EN: Total body size -->
   <TotalBodySize>총 신체 크기</TotalBodySize>
-  <!-- EN: Automatically select food and medicine -->
-  <AutomaticallySelectFoodAndMedicine>음식과 약품 자동선택</AutomaticallySelectFoodAndMedicine>
+  <!-- EN: Automatically select travel supplies -->
+  <AutomaticallySelectFoodAndMedicine>여행용품 자동선택</AutomaticallySelectFoodAndMedicine>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -864,8 +866,8 @@
   <MoodThresholdColumnLabel>기분 기준치</MoodThresholdColumnLabel>
   <!-- EN: Only if recreation below -->
   <JoyThresholdColumnLabel>재미 기준치</JoyThresholdColumnLabel>
-  <!-- EN: Take to inventory -->
-  <TakeToInventoryColumnLabel>가방에 넣기</TakeToInventoryColumnLabel>
+  <!-- EN: Keep in inventory -->
+  <TakeToInventoryColumnLabel>소지품에 넣기</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
   <NoDrugsBrackets>(약물 없음)</NoDrugsBrackets>
   <!-- EN: Every day -->
@@ -1013,9 +1015,9 @@
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0}(은)는 지붕이 없는 공간을 지정해야 합니다.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0}(은)는 정신이상이 생겼습니다.</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0_labelShort}(은)는 정신이상이 생겼습니다.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0}(은)는 정신이상이 없습니다.</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort}(은)는 정신이상이 없습니다.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0}(은)는 '{1}' 정신상태에서 작동되지 않습니다.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
@@ -1050,12 +1052,12 @@
   <PsychicLoveFor>사이킥 선호</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
   <FarskipConfirmTeleportingLodger>{PAWN_labelShort}(을)를 다른 지도나 상단에게 도약하게 되면, 관련 임무가 바로 실패되고 {PAWN_pronoun}는 즉시 떠납니다.\n\n정말 {PAWN_labelShort}(을)를 도약하겠습니까?</FarskipConfirmTeleportingLodger>
-
+  
   <!-- EN: minor -->
   <MentalBreakIntensityMinor>가벼움</MentalBreakIntensityMinor>
   <!-- EN: major -->
   <MentalBreakIntensityMajor>심각함</MentalBreakIntensityMajor>
   <!-- EN: extreme -->
   <MentalBreakIntensityExtreme>극심함</MentalBreakIntensityExtreme>
-
+  
 </LanguageData>

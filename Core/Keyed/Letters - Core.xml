@@ -80,7 +80,7 @@
   <!-- EN: Disease -->
   <LetterLabelNewDisease>질병</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{PAWN}(이)가 {1}(으)로 인해 아픕니다.\n\n{PAWN_definite}(이)가 최대한 많은 시간을 침대에서 보내며 적절한 치료를 받을 수 있는지 확인하세요.</NewDisease>
+  <NewDisease>{PAWN}(이)가 {1} 때문에 아픕니다.\n\n{PAWN_definite}(이)가 최대한 많은 시간을 침대에서 보내며 적절한 치료를 받을 수 있는지 확인하세요.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
   <NewPartDisease>{PAWN}(이)가 {3} 때문에 {PAWN_possessive} {1}(이)가 감염됐습니다.\n\n{PAWN_definite}(이)가 최대한 많은 시간을 침대에서 보내며 적절한 치료를 받을 수 있는지 확인하세요.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
@@ -495,8 +495,7 @@
   <LetterLabelPawnsKidnapped>납치된 {PAWN_nameDef}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{FACTION_name}(이)가 {PAWN_nameDef}(을)를 납치했습니다!
-\n그러나 이 사건이 반드시 영원한 이별을 의미하는 것은 아닙니다. 가까운 미래에 {PAWN_objective} 구출할 기회가 있을 것입니다.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{FACTION_name}(이)가 {PAWN_nameDef}(을)를 납치했습니다!\n\n그러나 이 사건이 반드시 영원한 이별을 의미하는 것은 아닙니다. 가까운 미래에 {PAWN_objective} 구출할 기회가 있을 것입니다.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
@@ -533,8 +532,7 @@
   <LetterBladelinkWeaponBondedLabel>{PAWN_labelShort}(이)가 자신의 무기와 결속됨</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort}(이)가 {WEAPON_labelShort}(와)과 영혼의 유대를 맺었습니다.
-\n지금부터 {WEAPON_labelShort}(은)는 {PAWN_labelShort}만이 사용할 수 있습니다.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort}(이)가 {WEAPON_labelShort}(와)과 영혼의 유대를 맺었습니다.\n\n지금부터 {WEAPON_labelShort}(은)는 {PAWN_labelShort}만이 사용할 수 있습니다.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->

@@ -369,11 +369,13 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}(와)과 {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>{0}일 동안 재입장할 수 없습니다.</EnterCooldown>
+  <EnterCooldown>{0}에 재진입하기에는 너무 위험합니다.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>상단</Caravan>
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>위험할 수 있음</HiddenOrNoSitePartDescription>
+  <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
+  <PreciousLumpHostileThreat>탐색기는 덩어리 주변의 활동을 감지하며, 적대적일 가능이 있습니다.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>{0}의 덩어리</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -530,6 +532,8 @@
   <TextMote_Immune>면역</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0} 간호</TextMote_Tended>
+  <!-- EN: level {0} -->
+  <TextMote_SkillUp>{0} 등급</TextMote_SkillUp>
   <!-- EN: low mood -->
   <lowMood>낮은 기분</lowMood>
   <!-- EN: low opinion -->
@@ -721,9 +725,9 @@
   <!-- EN: Faction -->
   <Faction>세력</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>{PAWN_labelShort}(이)가 현재 소속된 세력입니다.</FactionDesc>
+  <FactionDesc>{PAWN_labelShort}의 현재 소속된 세력입니다.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
-  <ExtraFactionDesc>{PAWN_labelShort}의 출신 세력입니다. 만약 현재 소속된 세력에서 문제가 생겨 이탈할 경우 이곳으로 돌아가게 됩니다.</ExtraFactionDesc>
+  <ExtraFactionDesc>{PAWN_labelShort}의 출신 세력입니다.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>장착</Equipped>
   <!-- EN: nothing -->
@@ -1264,12 +1268,10 @@
   <Reward_Pawn_Caravan>{0_nameDef}라는 이름의 {0_age}세 {0_titleIndef}(이)가 당신의 정착지에 합류합니다.</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>다음 자원을 가진 수송포드가 도착합니다. (총 가치 {1})
-\n{0}</Reward_Items>
+  <Reward_Items>다음 자원을 가진 수송포드가 도착합니다. (총 가치 {1})\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>다음 자원을 받습니다. (총 가치 {1})
-\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>다음 자원을 받습니다. (총 가치 {1})\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>{0_name}(와)과의 우호도가 {1} 만큼 향상됩니다</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -1342,5 +1344,5 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>{0}에 의해 발생</CausedByHediff>
-
+  
 </LanguageData>

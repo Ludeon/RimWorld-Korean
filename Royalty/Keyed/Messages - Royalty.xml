@@ -33,4 +33,9 @@
   <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
   <MessageMissionGetBackToShuttle>{FACTION_pawnsPlural}에게 이겼습니다! 왕복선으로 돌아가 발사하세요.</MessageMissionGetBackToShuttle>
 
+  <!-- EN: {FACTION_name} has dropped resources nearby. -->
+  <MessagePermitTransportDrop>{FACTION_name}(이)가 근처에 자원 떨어뜨렸습니다.</MessagePermitTransportDrop>
+  <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
+  <MessagePermitTransportDropCaravan>{FACTION_name}(이)가 {PAWN_nameDef}의 상단에 자원을 보냈습니다.</MessagePermitTransportDropCaravan>
+
 </LanguageData>

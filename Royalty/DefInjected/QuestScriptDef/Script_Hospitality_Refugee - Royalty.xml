@@ -145,7 +145,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] desperate [faction_pawnsPlural] are approaching. Their leader is called [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been banished after an argument with a village leader.</li>
     <li>claimInfo(lodgerCount>=2)->They claim to have lost their home in a recent attack.</li>
+    <li>claimInfo(lodgerCount>=2)->They claim to have escaped an organ harvesting operation.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they escaped from a slave caravan.</li>
+    <li>claimInfo(lodgerCount>=2)->They say that crop blights starved them out of their village.</li>
+    <li>claimInfo(lodgerCount>=2)->They say a great flashstorm burned down their home.</li>
+    <li>claimInfo(lodgerCount>=2)->They say their caravan was ambushed and everything was taken.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>
     <li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
     <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
@@ -169,7 +178,16 @@
     <li>approachInfo(lodgerCount==2)->자포자기한 [asker_nameDef](와)과 [faction_pawnSingular](이)가 접근하고 있습니다.</li>
     <li>approachInfo(lodgerCount>=3)->자포자기한 [lodgerCount]명의 [faction_pawnsPlural](이)가 접근하고 있습니다. 이들의 지도자는 [asker_nameDef] 입니다.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef](은)는 최근의 공격으로 [asker_possessive] 고향을 잃었다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef](은)는 혼자 동면관에서 깨어났다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef](은)는 복수에 눈이 먼 전애인에게 [asker_possessive] 집에서 쫓겨났다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef](은)는 마을 지도자와 말다툼 후 추방되었다고 합니다.</li>
     <li>claimInfo(lodgerCount>=2)->그들은 최근의 공격으로 고향을 잃었다고 합니다.</li>
+    <li>claimInfo(lodgerCount>=2)->그들은 장기적출 작업에서 도망쳤다고 합니다.</li>
+    <li>claimInfo(lodgerCount>=2)->그들은 노예상단에서 도망쳤다고 합니다.</li>
+    <li>claimInfo(lodgerCount>=2)->그들은 병충해 때문에 마을에서 굶고 있다고 합니다.</li>
+    <li>claimInfo(lodgerCount>=2)->그들은 커다란 섬광폭풍이 집을 태워버렸다고 합니다.</li>
+    <li>claimInfo(lodgerCount>=2)->그들은 상단이 매복에 당해 모든 것을 잃었다고 합니다.</li>
+    <li>claimInfo(lodgerCount>=2)->그들은 의견충돌 때문에 추방되었다고 합니다.</li>
     <li>joinInfo(lodgerCount==1)->[asker_objective] 만족하게 한다면, [asker_pronoun]는 합류할 수도 있습니다.</li>
     <li>joinInfo(lodgerCount>=2)->그들을 만족하게 한다면, 그들 중 일부는 합류할 수도 있습니다.</li>
     <li>travelerInfo(lodgerCount==1)->이 [faction_pawnSingular]</li>
@@ -211,7 +229,7 @@
     <li>questName(lodgerCount==1)->[lodgerAdj] [asker_nameDef]</li>
     <li>questName(lodgerCount==1)->[athe][lodgerAdj] [lodgerSingle]</li>
     <li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[lodgerAdj] [asker_nameDef]의  [lodgerPlural]</li>
+    <li>questName(lodgerCount>=2)->[lodgerAdj] [asker_nameDef]의 [lodgerPlural]</li>
     <li>questName(lodgerCount>=2)->[asker_nameDef]의 [lodgerPlural]</li>
     <li>athe-></li>
     <li>athe-></li>

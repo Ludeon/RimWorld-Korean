@@ -514,7 +514,11 @@
   <!-- EN: Place blueprints -->
   <CommandPlaceBlueprints>청사진 배치</CommandPlaceBlueprints>
   <!-- EN: Place all required blueprints where possible. -->
-  <CommandPlaceBlueprintsDesc>전체 청사진을 배치합니다.</CommandPlaceBlueprintsDesc>
+  <CommandPlaceBlueprintsDesc>필요한 모든 청사진을 배치합니다.</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>{0} 청사진 배치</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>가능한 모든 {0} 청사진을 배치합니다.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
@@ -531,5 +535,11 @@
   <CommandOpenLinkedQuest>관련 임무 확인</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>임무 창에서 연결된 임무를 확인합니다.</CommandOpenLinkedQuestDesc>
+  
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>약물 복용...</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>소지품에서 즉시 복용할 약물을 선택하세요.</TakeDrugDesc>
   
 </LanguageData>

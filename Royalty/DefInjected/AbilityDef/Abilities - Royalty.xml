@@ -21,8 +21,8 @@
   <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
   <BlindingPulse.description>뇌의 시각 중추에 노이즈를 유발하여 지정한 위치 근처에 있는 모든 사람의 시야를 흐리게 합니다.</BlindingPulse.description>
   
-  <!-- EN: bullet shield -->
-  <BulletShield.label>총탄 보호막</BulletShield.label>
+  <!-- EN: skipshield -->
+  <BulletShield.label>보호막 도약</BulletShield.label>
   <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
   <BulletShield.description>들어오고 나가는 모든 발사체를 먼 곳으로 보내는 구형의 도약관문을 생성합니다. 사람과 물품들은 영향받지 않습니다.</BulletShield.description>
   
@@ -82,7 +82,7 @@
   <Neuroquake.description>정신장에서 불연속성을 찾아 펼쳐서 엄청난 정신 에너지의 양을 방출합니다. 시전자 근처의 안전한 원 밖에 있는 모든 생명체는 미쳐서 날뛰게 됩니다. 캐스팅을 하는 데 3시간의 명상이 걸리고, 그 후 시전자는 3일 간 초능력 혼수상태에 빠집니다. 불안정한 신경지진의 메아리는 주변 수킬로미터에 걸쳐 모든 사람들에게 고통을 주며, 모든 세력에게 외교적 불이익을 당할 것입니다.</Neuroquake.description>
   <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
   <Neuroquake.confirmationDialogText>신경지진을 사용하면 이 지역의 모든 사람들이 신경지진 메아리를 느끼고, 적대적이지 않은 모든 세력과 우호도를 잃게 됩니다.\n\n신경지진을 시전하는데 3시간이 걸리며, 중단할 수 없습니다. 시전자 또한 며칠 간 초능력 혼수상태에 빠지게 됩니다.\n\n시전자 주변의 작은 원 안에 있는 사람들을 제외하고 지도의 모든 사람들이 영향받게 됩니다.\n\n정말 신경지진을 시전할까요?</Neuroquake.confirmationDialogText>
-
+  
   <!-- EN: painblock -->
   <Painblock.label>통각 차단</Painblock.label>
   <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->

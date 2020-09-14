@@ -20,14 +20,14 @@
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
   <LetterRoyalTitleConceitedTrait>{PAWN_labelShort}(은)는 {1}이므로 이 작위에 대한 특권이 완전히 존중되도록 요구합니다. {PAWN_pronoun}는 특정한 작업 유형을 거부하며, 하급 계층의 음식을 먹고, 법령을 선포할 수 있습니다.</LetterRoyalTitleConceitedTrait>
 
-  <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
+  <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort}(이)가 {FACTION_name}의 {TITLE} 작위를 획득했습니다!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort}(은)는 더 이상 {FACTION_name}의 {TITLE}이 아닙니다.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>작위 수여</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
-  <LetterRewardsForNewTitle>새로운 {TITLE}(이)가 된 {PAWN_labelShort}에게 {FACTION_name}의 보상이 지급됩니다.</LetterRewardsForNewTitle>
+  <LetterRewardsForNewTitle>{TITLE} 작위를 획득한 {PAWN_labelShort}에게 {FACTION_name}의 보상이 지급됩니다.</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>보상이 수송포드를 통해 정착지에 도착했습니다.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
@@ -77,21 +77,22 @@
   <LetterRoyalTitleChangingHeir>통신기로 {FACTION_name}에 연락하여 새로운 후계자를 지정할 수 있습니다.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>후계자 사망</LetterTitleHeirLostLabel>
-  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
+  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
   <LetterTitleHeirLost>{HEIR_nameFull}(이)가 죽어 {HOLDER_labelShort} 후계자의 자리가 공석이 되었습니다. 통신 콘솔을 통해 {FACTION_name}에 연락하여 새 후계자를 지정할 수 있습니다.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>{TITLE} 작위는 계승할 수 없습니다.</LetterRoyalTitleCantBeInherited>
 
+
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>작위 계승</LetterTitleInheritance>
-  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
   <LetterTitleInheritance_Base>{PAWN_nameFull}(이)가 사망하여, 적법한 절차에 따라 사망자의 작위가 후계자에게 계승되었습니다.</LetterTitleInheritance_Base>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
-  <LetterTitleInheritance_AsReplacement>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위가 {HEIR_nameFull}에게 계승되었습니다. {REPLACEDTITLE} 작위는 대체되어 소멸합니다.</LetterTitleInheritance_AsReplacement>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
+  <LetterTitleInheritance_AsReplacement>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위가 {HEIR_nameFull}에게 계승되었습니다. 수여식을 마치면 {REPLACEDTITLE} 작위는 대체되어 소멸합니다.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
   <LetterTitleInheritance_NoEffectHigherTitle>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위가 {HEIR_nameFull}에게 계승되어야 하지만, {HEIR_nameFull}의 작위가 이미 {HIGHERTITLE} 보다 높기 때문에 승계 절차는 무효가 되었습니다.</LetterTitleInheritance_NoEffectHigherTitle>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위가 {HEIR_nameFull}에게 계승되었습니다.</LetterTitleInheritance_WasInherited>
+  <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>{FACTION_name}의 계승법에 의거하여 {TITLE} 작위는 수여식을 마치면 {HEIR_nameFull}에게 계승됩니다.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>후계자의 자리가 공석이었기 때문에 {TITLE} 작위는 누구에게도 계승되지 않았습니다.</LetterTitleInheritance_NoHeirFound>
 
@@ -130,12 +131,10 @@
   <LetterLabelRandomDecree>{0_nameIndef}의 법령</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_possessive} 스트레스를 해소하려는 방안으로 {0_nameIndef}(이)가 무모한 왕실 법령을 선포하며 이행할 것을 요구하고 있습니다.
-    \n적시에 수행하지 않으면, {0_nameIndef}(은)는 매우 불행해집니다.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_possessive} 스트레스를 해소하려는 방안으로 {0_nameIndef}(이)가 무모한 왕실 법령을 선포하며 이행할 것을 요구하고 있습니다.\n    \n적시에 수행하지 않으면, {0_nameIndef}(은)는 매우 불행해집니다.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_bestRoyalTitleIndef} 작위의 힘을 시험해보고 싶은 {0_nameIndef}(이)가 법령을 선포하며 이행할 것을 요구하고 있습니다.
-    \n적시에 수행하지 않으면, {0_nameIndef}(은)는 매우 불행해집니다.</LetterRandomDecree>
+  <LetterRandomDecree>{0_bestRoyalTitleIndef} 작위의 힘을 시험해보고 싶은 {0_nameIndef}(이)가 법령을 선포하며 이행할 것을 요구하고 있습니다.\n    \n적시에 수행하지 않으면, {0_nameIndef}(은)는 매우 불행해집니다.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>"{0}" 법령입니다.</LetterDecree_Quest>
   

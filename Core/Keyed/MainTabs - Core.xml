@@ -34,6 +34,8 @@
   <Priority3>보통 우선순위</Priority3>
   <!-- EN: Low priority -->
   <Priority4>낮은 우선순위</Priority4>
+  <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
+  <PawnFactionInfo>{0}\n\n현재 {1_nameDef} 세력에 속해 있습니다.\n\n세력을 보려면 클릭하세요.</PawnFactionInfo>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -282,10 +284,12 @@
   <QuestThroneRoomRequirementsUnsatisfied>{PAWN_definite}의 {TITLE} 작위 요건을 충족하는 알현실</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestNoThroneRoom>{PAWN_definite}의 {TITLE} 작위 요건을 충족하는 알현실</QuestNoThroneRoom>
-  <!-- EN: a colonist with the title of {0}. -->
+  <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>다음 작위를 보유한 정착민: {0}.</QuestNoColonistWithTitle>
-  <!-- EN: {PAWN_definite} must be in home colony -->
-  <QuestPawnNotOnColonyMap>{PAWN_definite}(이)가 주 정착지에 있어야 함</QuestPawnNotOnColonyMap>
+  <!-- EN: {PAWN_definite} to be in your home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite}(은)는 정착지에 있어야 함</QuestPawnNotOnColonyMap>
+  <!-- EN: the map clear of enemies of the bestower's faction -->
+  <QuestRequiresNoDangerOnMap>수여자 세력의 적들이 사라진 지도</QuestRequiresNoDangerOnMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>보상 설정</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -310,7 +314,7 @@
   <QuestBetrayalOffer>배반 제안: 대상 {0} 남음</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0}(은)는 {1}의 모든 구성원을 처리하면 보상을 제공합니다.</QuestBetrayalOfferTip>
-
+  
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>필요 생성</CreatesNeed>

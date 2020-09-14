@@ -50,7 +50,7 @@
   <!-- EN: Shuttle arrived -->
   <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>왕복선 도착</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>왕복선이 [asker_bestRoyalTitleDef](을)를 데려가기 위해 도착했습니다.\n\n[asker_faction_leaderTitle](와)과 모두 동행하여 제국의 소함선으로 이동하여 새로운 삶을 시작할 수 있습니다.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>왕복선이 [asker_faction_leaderTitle](을)를 데려가기 위해 도착했습니다.\n\n[asker_faction_leaderTitle](와)과 모두 동행하여 제국의 소함선으로 이동하여 새로운 삶을 시작할 수 있습니다.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
   <EndGame_RoyalAscent.EndGameEndingText.slateRef>항성군주가 이제 플레이어를 영광스러운 귀족의 전당인 제국의 소함선에서 맞이할 것입니다.\n\n제국에 합류하여 권력을 위해 투쟁할 수도 있습니다. 아니면, 희극을 피해 초첨단기술의 사치를 누리며 즐길 수도 있습니다. 또는, 함선을 구입하여 오랜시간 돌아가지 못했던 집을 향해 돌아갈 경로를 구상할 수도 있습니다.\n\n선택은 모두 당신에게 달려있습니다.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
@@ -78,10 +78,14 @@
   <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>파괴된 왕복선</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>[asker_bestRoyalTitleDef](을)를 데리러 온 왕복선이 파괴되었습니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>[asker_faction_leaderTitle](을)를 데리러 온 왕복선이 파괴되었습니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>내빈객 실종: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>보호해야 될 {SUBJECT_definite}(이)가 야생으로 뛰쳐나갔습니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>임무 실패: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
-  <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without him. He will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>[asker_bestRoyalTitleDef](을)를 데리러 온 왕복선이 [asker_objective] 태우지 않고 떠났습니다. [asker_pronoun]는 걸어서 떠납니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
+  <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>[asker_faction_leaderTitle](을)를 데리러 온 왕복선이 [asker_objective] 태우지 않고 떠났습니다. [asker_pronoun]는 걸어서 떠납니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
 </LanguageData>
