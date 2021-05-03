@@ -4,7 +4,7 @@
   <!-- EN: Mad {ANIMAL_labelShort} -->
   <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} 광란</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>{ANIMAL_label}이 광란에 빠져 정착민들을 공격하기 시작합니다.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>{ANIMAL_label}(이)가 광란에 빠져 정착민들을 공격하기 시작합니다.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>{0} 광란</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
@@ -92,7 +92,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>식인동물 무리</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>식인 {0} 무리가 정착지에 도착했습니다. 놈들은 근처를 돌아다니며 눈에 띄는 모든 인간을 공격할 겁니다.\n\n싸움을 원치 않는 경우 며칠 동안 포탑의 전원을 내리고 문과 벽 뒤에 숨는 것만으로 위기를 넘길 수 있습니다. 물론 당당히 물리친다는 선택지도 있습니다.</ManhunterPackArrived>
+  <ManhunterPackArrived>식인 {0} 무리가 정착지에 도착했습니다. 스카리아로 알려진 질병에 걸려 정신이 나간 놈들은 지역을 돌아다니며 눈에 띄는 모든 인간을 공격할 것입니다.\n\n누군가 문을 통과하는 것을 못 봤다면 문을 공격하지 않으니, 실내에 있으면 안전합니다. 전원이 꺼진 포탑은 공격하지 않으니 전원을 꺼 포탑을 지키세요.\n\n{0}(은)는 하루나 이틀 후 지역을 떠납니다. 숨어서 기다리거나, 당당히 물리친다는 선택지도 있습니다.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -116,7 +116,7 @@
   <!-- EN: Agent -->
   <LetterLabelAgentRevealed>첩자</LetterLabelAgentRevealed>
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
-  <LetterAgentRevealed>{0}이 {1}의 첩자였던 걸로 밝혀졌습니다.\n\n놈이 탈출을 시도합니다.</LetterAgentRevealed>
+  <LetterAgentRevealed>{0}(이)가 {1}의 첩자였던 걸로 밝혀졌습니다.\n\n놈이 탈출을 시도합니다.</LetterAgentRevealed>
 
   <!-- Beavers -->
   <!-- EN: Beavers! -->
@@ -168,13 +168,13 @@
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>우주선 발견</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>샬론 화이트스톤이 보낸 좌표에 도착하여 숨겨진 함선을 찾았습니다.\n\n우주선의 원자로는 오랫동안 가동되지 않아 바로 비행할 수 없습니다. 인공지능 핵과 접촉하여 시동을 걸 수 있습니다.\n\n샬론 화이트스톤은 시동까지 약 15일이 걸리며, 우주선의 에너지 파동이 먼 거리까지 퍼져나가 침입자와 보물사냥꾼들을 끌어들일 거라고 경고합니다. 방어체계가 구축되었는지 확인하세요.</EscapeShipFound>
+  <EscapeShipFound>(*Name)샬론 화이트스톤(/Name)이 보낸 좌표에 도착하여 숨겨진 함선을 찾았습니다.\n\n우주선의 원자로는 오랫동안 가동되지 않아 바로 비행할 수 없습니다. 인공지능 핵과 접촉하여 시동을 걸 수 있습니다.\n\n샬론 화이트스톤은 시동까지 약 15일이 걸리며, 우주선의 에너지 파동이 먼 거리까지 퍼져나가 침입자와 보물사냥꾼들을 끌어들일 거라고 경고합니다. 방어체계가 구축되었는지 확인하세요.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>샬론 화이트스톤이 보낸 좌표에 도착하여 숨겨진 함선을 찾았습니다.\n\n우주선의 원자로는 오랫동안 가동되지 않아 바로 비행할 수 없습니다. 인공지능 핵과 접촉하여 시동을 걸 수 있습니다.\n\n샬론 화이트스톤은 시동까지 약 15일이 걸릴 거라고 예측하고 있습니다.</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>(*Name)샬론 화이트스톤(/Name)이 보낸 좌표에 도착하여 숨겨진 함선을 찾았습니다.\n\n우주선의 원자로는 오랫동안 가동되지 않아 바로 비행할 수 없습니다. 인공지능 핵과 접촉하여 시동을 걸 수 있습니다.\n\n샬론 화이트스톤은 시동까지 약 15일이 걸릴 거라고 예측하고 있습니다.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>우주선 파괴</EscapeShipLostLabel>
   <!-- EN: (*Name)Charlon Whitestone(/Name) sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>샬론 화이트스톤의 메시지가 도착했습니다. 악의를 품은 자들의 손에 떨어지기 전에 스스로 자폭 프로그램을 실행했다고 합니다.\n\n이 행성에서 탈출하려면 다른 방법을 찾아야 할 듯 합니다.</EscapeShipLost>
+  <EscapeShipLost>(*Name)샬론 화이트스톤(/Name)의 메시지가 도착했습니다. 악의를 품은 자들의 손에 떨어지기 전에 스스로 자폭 프로그램을 실행했다고 합니다.\n\n이 행성에서 탈출하려면 다른 방법을 찾아야 할 듯 합니다.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -198,7 +198,7 @@
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>주변 정착지 {0}에서 특별 거래를 요청했으며 다음 물품을 구매하고 싶어합니다.\n\n{1} ({2})\n\n이에 대한 보답으로 다음 혜택을 받을 수 있습니다.\n\n{3} ({4})\n\n이 요청은 {5}후에 만료됩니다.\n\n거래를 하고 싶으면 요청한 물품과 함께 상단을 구성해서 목적지로 보내세요. 예상 소요시간은 {6} 입니다. 세계지도에서 {0}(을)를 선택해서 요청을 다시 확인할 수 있습니다.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>요청 중: {0} ({2})({1} 남음)</CaravanRequestInfo>
+  <CaravanRequestInfo>요청 중: {0} ({2}) ({1} 남음)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>평범품질 이상</NormalQualityOrBetter>
   <!-- EN: not tainted -->

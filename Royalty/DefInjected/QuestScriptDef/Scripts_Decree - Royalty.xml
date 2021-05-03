@@ -5,7 +5,7 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\n기념비를 건설해야 합니다. 기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다. ([monumentRequiredResourcesMarketValue_money])\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\n기념비를 건설해야 합니다. 기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다. ([monumentRequiredResourcesMarketValue_money])\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n건설 완료 후 [keepMonumentTicks_duration] 동안 기념비를 안전하게 유지하지 않는다면, [asker_nameDef](은)는 좋아하지 않을 것입니다.</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
@@ -53,7 +53,7 @@
   <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
     <li>questDescription->[decreeIntro]\n\n[animalToHuntWithCount](을)를 사냥하거나 도축해야 합니다.\n\n[decreeThreatInfo]</li>
     <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
-    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[animalToHunt_labelPlural] [countToHunt]마리</li>
   </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[animalToHunt_label] hunting decree</li>

@@ -14,7 +14,7 @@
       <li>root(priority=1,sitePart==ToxicSpewer)->독으로 지역을 뒤덮을 수 있는 (*Threat)유독성 살포장치(/Threat)</li>
       <li>root(priority=1,sitePart==RaidSource)->[mtbDays] 마다 습격을 하게 되는 (*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 군사구역</li>
       <li>root(priority=1,sitePart==Outpost)->(*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 전초기지</li>
-      <li>root(priority=1,sitePart==BanditCamp)->(*Threat)[enemiesLabel] [enemiesCount](/Threat)명이 지키고 있는 도적캠프</li>
+      <li>root(priority=1,sitePart==BanditCamp)->(*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 도적캠프</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->근처를 방황하는 (*Threat)식인 [kindLabel](/Threat)</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->근처를 방황하는 (*Threat)[count] 마리의 식인 [kindLabel](/Threat)</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->근처에서 휴면 중인 (*Threat)메카노이드(/Threat)</li>
@@ -24,7 +24,7 @@
       <li>root(priority=1,sitePart==AmbushHidden)->타 세력을 기습하기 위해 매복 중인 (*Threat)적대적인 세력(/Threat)</li>
       <li>root(priority=1,sitePart==MechCluster)->(*Threat)메카노이드 전초기지(/Threat)</li>
       <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->(*Threat)알려지지 않은 위협(/Threat)</li>
-      <li>root->[label](이)가 있고</li>
+      <li>root->[label](이)가 있습니다</li>
     </rulesStrings>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
   
@@ -54,9 +54,9 @@
   -->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
     <li>pawnKindsParagraph(raidCount==1)->[enemyFaction_pawnsPlural]의 구성은 다음과 같습니다.\n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
-    <li>pawnKindsParagraph(raidCount==2)->[enemyFaction_pawnsPlural]의 구성은 다음과 같습니다.\n\n[raid0/raidPawnKinds]\n\n두 번째로 비슷한 규모의 무리가 곧 뒤따릅니다.</li>
-    <li>pawnKindsParagraph(raidCount==3)->[enemyFaction_pawnsPlural]의 구성은 다음과 같습니다.\n\n[raid0/raidPawnKinds]\n\n비슷한 규모의 두 무리가 곧 뒤따릅니다.</li>
-    <li>pawnKindsParagraph(raidCount>=4)->[enemyFaction_pawnsPlural]의 구성은 다음과 같습니다.\n\n[raid0/raidPawnKinds]\n\n비슷한 규모의 [raidCountMinusOne] 무리가 곧 뒤따릅니다.</li>
+    <li>pawnKindsParagraph(raidCount==2)->[enemyFaction_pawnsPlural]의 첫 번째 구성은 다음과 같습니다.\n\n[raid0/raidPawnKinds]\n\n두 번째로 비슷한 규모의 무리가 곧 뒤따릅니다.</li>
+    <li>pawnKindsParagraph(raidCount==3)->[enemyFaction_pawnsPlural]의 첫 번째 구성은 다음과 같습니다.\n\n[raid0/raidPawnKinds]\n\n비슷한 규모의 두 무리가 곧 뒤따릅니다.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->[enemyFaction_pawnsPlural]의 첫 번째 구성은 다음과 같습니다.\n\n[raid0/raidPawnKinds]\n\n비슷한 규모의 [raidCountMinusOne] 무리가 곧 뒤따릅니다.</li>
     <li>numGroupsOf(raidCount==1)-></li>
     <li>numGroupsOf(raidCount==2)->2 무리의</li>
     <li>numGroupsOf(raidCount==3)->3 무리의</li>

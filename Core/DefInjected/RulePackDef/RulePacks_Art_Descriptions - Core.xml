@@ -14,7 +14,7 @@
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
     <li>context_sentence->이 [depiction](은)는 [DATE]에 일어난 [tale_noun](을)를 표현하고 있습니다.</li>
-    <li>context_sentence->이 [depiction](은)는 [DATE]에 일어난 [tale_noun](와)과 연관이 있는것 같습니다.</li>
+    <li>context_sentence->이 [depiction](은)는 [DATE]에 일어난 [tale_noun](와)과 연관이 있는 것 같습니다.</li>
     <li>context_sentence->이 [depiction](은)는 [DATE]에 일어난 [tale_noun](을)를 묘사하고 있습니다.</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
@@ -206,11 +206,20 @@
     <li>style_group->[style_clause].</li>
     <li>style_group->[artextra_clause].</li>
     <li>style_group-></li>-->
-    <li>style_group->[artextra_clause]. 그리고 [style_clause].</li>
+    <li>style_group->[artextra_clause]. [style_clause].</li>
     <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
     <li>style_group->[style_clause].</li>
     <li>style_group->[artextra_clause].</li>
     <li>style_group-></li>
+    <!--<li>artconjunction(p=6)-></li>
+    <li>artconjunction->as an interesting contrast,</li>
+    <li>artconjunction->rounding out the work,</li>
+    <li>artconjunction->in addition to that,</li>
+    <li>artconjunction->strikingly,</li>
+    <li>artconjunction->provocatively,</li>
+    <li>artconjunction->unusually for this kind of work,</li>
+    <li>artconjunction->though few would expect it,</li>
+    <li>artconjunction->besides that,</li>-->
     <li>artconjunction(p=6)->또</li>
     <li>artconjunction->그리고 흥미롭게도</li>
     <li>artconjunction->그리고</li>
@@ -235,7 +244,7 @@
     <li>artextra_clause->[side_position] [Animal](이)가 [idles]</li>
     <li>artextra_clause->눈을 가늘게 뜨고 보면, 전체 [composition] 구도가 [subimageany]의 윤곽을 드러나게 합니다</li>
     <li>artextra_clause->[emotional_expression] [PAWN_adj] [PersonJob]의 얼굴이 전체적으로 엿보입니다</li>
-    <li>artextra_clause->[emotional_expression] [PAWN_adj] [PersonJob](이)가 전체적으로 보입니다 </li>
+    <li>artextra_clause->[emotional_expression] [PAWN_adj] [PersonJob](이)가 전체적으로 보입니다</li>
     <li>artextra_clause->[PAWN_adj] [PersonJob] 얼굴이 전체적으로 드러납니다</li>
     <li>artextra_clause->전체 모습은 신중한 [subimageplural]의 배열로 표현되었습니다</li>
     <li>subimageany->[subimagesingle]</li>
@@ -246,7 +255,7 @@
     <li>subimagesingle->[TreeType]</li>
     <li>subimagesingle->[Vegetable]</li>
     <li>subimagesingle->[Animal] [AnimalGroup]</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase]명의 [Character]</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase]명의 [Character]들</li>
     <li>subimageplural->[Quantity_adjphrase]개의 [Vegetable]들</li>
     <li>subimageplural->[Quantity_adjphrase]개의 [Shape]들</li>
     <li>pawn_adj->죽은</li>

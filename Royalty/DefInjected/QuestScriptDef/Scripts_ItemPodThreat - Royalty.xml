@@ -9,7 +9,7 @@
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->한 궤도선의 인격체는 행성 실험을 진행하고 싶어합니다. 하지만 실험을 진행하게 되면, [gameConditionDescriptionFuture].\n\n그녀는 윤리 검토 위원회에서 문제로 삼을 것을 걱정하며 당신의 동의를 구하고 있습니다.</li>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_pawnsPlural](은)는 악성 인격체에게 위협받고 있습니다. [asker_faction_leaderTitle], [asker_nameFull](은)는 인격체의 결함에 대한 책임을 인정하는 메시지를 보내길 원합니다.\n\n동의하면 인격체가 당신을 응징하게 됩니다. [gameConditionDescriptionFuture].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 [asker_possessive] 함선의 지대지 무기에 대한 저전력 실험을 하고 싶어합니다.\n\n[asker_pronoun]가 제안합니다.\n\n[gameConditionDescriptionFuture].\n\n제국 법에 따르면 당신은 제국의 지역 자유민이므로, [asker_nameDef](은)는 당신의 동의를 기다립니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 [asker_possessive] 함선 지대지 무기에 대한 저전력 실험을 하고 싶어 합니다.\n\n[asker_pronoun]가 실험하게 된다면, [gameConditionDescriptionFuture].\n\n제국법에 따르면 당신은 제국의 지역 자유민이므로, [asker_nameDef](은)는 당신의 동의를 받아야 합니다.</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
@@ -20,8 +20,8 @@
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
     <li>questName->[asker_nameDef]의 [gameCondition_label]</li>
     <li>questName->[asker_nameDef]의 [gameCondition_indefinite]</li>
-    <li>questName->[gameCondition_label] 지급</li>
-    <li>questName->[gameCondition_label] 지급</li>
+    <li>questName->[gameCondition_label]의 대가</li>
+    <li>questName->보복용 [gameCondition_label]</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -165,8 +165,8 @@
   <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
     <li>questName->[asker_nameDef]의 [site/site_label]</li>
     <li>questName->[asker_nameDef]의 [site/site_label]</li>
-    <li>questName->[site/site_label] 지급</li>
-    <li>questName->[site/site_label] 지급</li>
+    <li>questName->[site/site_label]의 대가</li>
+    <li>questName->보복용 [site/site_label]</li>
   </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
   <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
   <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\n이 지역은 당신의 모욕이 담긴 신호에 대한 응답으로 설치되었습니다.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>

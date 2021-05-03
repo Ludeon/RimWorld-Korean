@@ -12,14 +12,14 @@
     <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
   -->
   <Util_Infestation.questDescriptionRules.rulesStrings>
-    <li>threatDescription->[hivesCount]개의 곤충군락이 지하에서 솟아오릅니다.</li>
+    <li>threatDescription->(*Threat)[hivesCount]개의 곤충군락(/Threat)이 지하에서 솟아오릅니다.</li>
   </Util_Infestation.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li>
   -->
   <Util_ManhunterPack.questDescriptionRules.rulesStrings>
-    <li>threatDescription->[animalCount]마리의 식인 [animalKind_labelPlural] 무리가 도착합니다.</li>
+    <li>threatDescription->(*Threat)[animalCount]마리의 식인 [animalKind_labelPlural](/Threat) 무리가 도착합니다.</li>
   </Util_ManhunterPack.questDescriptionRules.rulesStrings>
   
   <!-- EN:

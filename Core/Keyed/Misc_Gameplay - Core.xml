@@ -233,9 +233,9 @@
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>{0}에게 선물 제공 중.</CaravanOfferingGifts>
   <!-- EN: Trading with {0} -->
-  <CaravanTrading>{0}와 거래 중.</CaravanTrading>
+  <CaravanTrading>{0}(와)과 거래 중.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>유품</WasWornByCorpse>
+  <WasWornByCorpse>시체에서 벗겼기 때문에 찝찝합니다.</WasWornByCorpse>
   <!-- EN: T -->
   <WornByCorpseChar>유품</WornByCorpseChar>
   <!-- EN: unroofed -->
@@ -375,7 +375,7 @@
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>위험할 수 있음</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>탐색기는 덩어리 주변의 활동을 감지하며, 적대적일 가능이 있습니다.</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>탐색기는 덩어리 주변에 적대적으로 보이는 활동을 감지했습니다.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>{0}의 덩어리</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -441,7 +441,7 @@
   <!-- EN: {0} killed -->
   <PawnsKilled>{0} 죽임</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>{0}을 파견, {1} 후 귀환 예정</PawnsLent>
+  <PawnsLent>{0}(을)를 파견, {1} 후 귀환 예정</PawnsLent>
   <!-- EN: Dormant -->
   <DormantCompInactive>휴면</DormantCompInactive>
   <!-- EN: Sealed -->
@@ -681,7 +681,7 @@
   <!-- EN: make {0} -->
   <RecipeMake>{0} 제작</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>{0} 제작</RecipeMakeDescription>
+  <RecipeMakeDescription>{0}(을)를 만듭니다.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>{0} 제작 중.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
@@ -743,7 +743,7 @@
   <!-- EN: Incapacitated -->
   <Incapacitated>무력화됨</Incapacitated>
   <!-- EN: In restraints (slowed) -->
-  <InRestraints>구속됨(느려짐)</InRestraints>
+  <InRestraints>구속됨 (느려짐)</InRestraints>
   <!-- EN: Carrying -->
   <Carrying>운반 중</Carrying>
   <!-- EN: Affected by: -->
@@ -1015,11 +1015,11 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>아직 준비되지 않음</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>샬론 화이트스톤은 우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 남길 수 있다고 경고합니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다. 여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarning>
+  <HibernateWarning>(*Name)샬론 화이트스톤(/Name)은 우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 남길 수 있다고 경고합니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다. 여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 나길 것입니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다.\n\n여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 남길 것입니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다.\n\n여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>샬론 화이트스톤은 우주선 원자로를 활성화할 준비가 되었으며, 모든 절차가 끝날 때까지 15일이 필요하다고 경고합니다.</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)샬론 화이트스톤(/Name)은 우주선 원자로를 활성화할 준비가 되었으며, 모든 절차가 끝날 때까지 15일이 필요하다고 경고합니다.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>원자로 가동 준비를 마쳤습니다. 완전 예열까지는 15일이 걸립니다.</HibernateWarningStandalonePacifist>
 
@@ -1215,7 +1215,7 @@
 
   <!-- Outfits -->
   <!-- EN: Anything -->
-  <OutfitAnything>대충</OutfitAnything>
+  <OutfitAnything>전체</OutfitAnything>
   <!-- EN: Worker -->
   <OutfitWorker>노동</OutfitWorker>
   <!-- EN: Soldier -->
@@ -1261,11 +1261,11 @@
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>{0_nameDef}라는 이름의 {0_age}세 {0_titleIndef}(이)가 운송 포드를 타고 도착합니다.</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>{0_age}세의 {0_title}, {0_nameDef}(이)가 운송 포드를 타고 {0_relationInfoInParentheses}에 도착합니다.</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>{0_nameDef}라는 이름의 {0_age}세 {0_titleIndef}(이)가 나타나 당신의 정착지에 합류합니다.</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>{0_age}세의 {0_title}, {0_nameDef}(이)가 나타나 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>{0_nameDef}라는 이름의 {0_age}세 {0_titleIndef}(이)가 당신의 정착지에 합류합니다.</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_age}세의 {0_title}, {0_nameDef}(이)가 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
   <Reward_Items>다음 자원을 가진 수송포드가 도착합니다. (총 가치 {1})\n\n{0}</Reward_Items>
@@ -1279,29 +1279,29 @@
   <!-- EN: Passage offworld -->
   <Reward_PassageOffworld_Label>세상 밖으로</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>주둔지에 있는 모든 것을 노획할 수 있습니다.</Reward_CampLoot>
+  <Reward_CampLoot>주둔지에 있는 모든 것을 노획할 수 있음</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>주둔지 전리품</Reward_CampLoot_Label>
   <!-- EN: the visitors will work and fight for you -->
-  <Reward_VisitorsHelp>방문객은 당신을 위해 작업하고 싸웁니다.</Reward_VisitorsHelp>
+  <Reward_VisitorsHelp>방문객은 당신을 위해 일하며 싸움</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>방문객의 도움</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>새로운 psylink 단계</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>새로운 정신력 증폭기 단계</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>{PAWNNAME}(이)가 psylink를 획득했습니다.</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME}(이)가 정신력 증폭기를 획득함</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>왕복선 전리품</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>왕복선을 분해하고 전리품을 얻을 수 있습니다.</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>왕복선을 분해하고 전리품을 얻을 수 있음</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
   <Reward_PossibleFutureReward_Label>향후 보상</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>미래에 받을 수 있는 보상입니다.</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>미래에 받을 수 있는 보상</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
   <Reward_Title_Label>{TITLE} 작위</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>{PAWNNAME}(은)는 {FACTION}의 작위 {TITLE}(을)를 획득했습니다.</Reward_Title>
+  <Reward_Title>{PAWNNAME}(은)는 {FACTION}의 작위 {TITLE}(을)를 획득함</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>가치 {0}</TotalValue>
   

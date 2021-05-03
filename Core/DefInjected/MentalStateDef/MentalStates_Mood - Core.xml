@@ -7,7 +7,6 @@
   <BedroomTantrum.baseInspectLine>상태: 울화통</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
   <BedroomTantrum.beginLetter>{0}(이)가 분노로 울부짖고 있습니다.\n\n[PAWN_possessive] 방에 있는 가구를 기분이 풀릴때까지 부술 것입니다.</BedroomTantrum.beginLetter>
-  <BedroomTantrum.beginLetterLabel>울화통</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0}(은)는 더 이상 울부짖지 않습니다.</BedroomTantrum.recoveryMessage>
   
@@ -17,7 +16,6 @@
   <Berserk.baseInspectLine>상태: 광란</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
   <Berserk.beginLetter>{0}의 분노가 폭발했습니다.\n\n[PAWN_pronoun]는 보이는 사람 모두를 공격하려 합니다.</Berserk.beginLetter>
-  <Berserk.beginLetterLabel>광란</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>{0}의 광란이 끝을 고했습니다.</Berserk.recoveryMessage>
   
@@ -48,7 +46,6 @@
   <CorpseObsession.baseInspectLine>상태: 시체애호가</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
   <CorpseObsession.beginLetter>{0}(이)가 시체에 집착하고 있습니다.\n\n[PAWN_pronoun]는 무덤을 파내 시체를 꺼내려 할 것입니다.</CorpseObsession.beginLetter>
-  <CorpseObsession.beginLetterLabel>시체애호증</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>{0}(은)는 더 이상 시체에 관심이 없습니다.</CorpseObsession.recoveryMessage>
   
@@ -58,7 +55,6 @@
   <FireStartingSpree.baseInspectLine>상태: 방화</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
   <FireStartingSpree.beginLetter>{0}(이)가 불을 지르고 다닙니다.\n\n[PAWN_pronoun]는 여기저기 돌아다니며 불을 지르려고 합니다.</FireStartingSpree.beginLetter>
-  <FireStartingSpree.beginLetterLabel>방화</FireStartingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on a fire starting spree. -->
   <FireStartingSpree.recoveryMessage>{0}의 방화가 끝을 고했습니다.</FireStartingSpree.recoveryMessage>
   
@@ -79,7 +75,6 @@
   <InsultingSpree.baseInspectLine>상태: 분노 (독설)</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
   <InsultingSpree.beginLetter>{0}(이)가 분노에 휩싸입니다.\n\n[PAWN_pronoun]는 다른 사람들에게 무차별적으로 모욕을 가할 것입니다.</InsultingSpree.beginLetter>
-  <InsultingSpree.beginLetterLabel>분노 (독설)</InsultingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0}의 정신이 제자리를 찾았습니다.</InsultingSpree.recoveryMessage>
   
@@ -100,7 +95,6 @@
   <MurderousRage.baseInspectLine>상태: 살인적인 분노</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
   <MurderousRage.beginLetter>{0}(은)는 살인적인 분노에 처해 있습니다.\n\n[PAWN_pronoun]는 {1}(을)를 죽일려고 할 것입니다.</MurderousRage.beginLetter>
-  <MurderousRage.beginLetterLabel>살인적인 분노</MurderousRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a murderous rage. -->
   <MurderousRage.recoveryMessage>{0}(은)는 더 이상 살인적인 분노에 처해있지 않습니다.</MurderousRage.recoveryMessage>
   
@@ -109,8 +103,7 @@
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>상태: 가학증</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0}(이)가 참을 수 없는 분노로 인해 가학증에 눈을 떴습니다.\n\n[PAWN_pronoun]는 죄수들에게 [PAWN_possessive] 분노를 표출할 것입니다.</SadisticRage.beginLetter>
-  <SadisticRage.beginLetterLabel>가학증</SadisticRage.beginLetterLabel>
+  <SadisticRage.beginLetter>{0}(이)가 참을 수 없는 분노로 인해 가학증에 눈을 떴습니다.\n\n[PAWN_pronoun]는 죄수들에게 분노를 표출할 것입니다.</SadisticRage.beginLetter>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0}(은)는 더 이상 분노를 느끼지 않습니다.</SadisticRage.recoveryMessage>
   
@@ -120,7 +113,6 @@
   <Slaughterer.baseInspectLine>상태: 도살자</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
   <Slaughterer.beginLetter>{0}(은)는 정신 분열을 일으켜 무차별적으로 정착지의 동물들을 도살하고 다닙니다.</Slaughterer.beginLetter>
-  <Slaughterer.beginLetterLabel>도살자</Slaughterer.beginLetterLabel>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0}(은)는 더 이상 무차별적으로 정착지의 동물을 도살하지 않습니다.</Slaughterer.recoveryMessage>
   
@@ -130,7 +122,6 @@
   <Tantrum.baseInspectLine>상태: 울화통</Tantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
   <Tantrum.beginLetter>{0}(이)가 분노로 울부짖고 있습니다.\n\n[PAWN_pronoun]는 여기저기 돌아 다니며 아이템이나 가구를 부수려할 것입니다.</Tantrum.beginLetter>
-  <Tantrum.beginLetterLabel>울화통</Tantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <Tantrum.recoveryMessage>{0}(은)는 더 이상 울부짖지 않습니다.</Tantrum.recoveryMessage>
   
@@ -139,9 +130,7 @@
   <!-- EN: Mental state: Insulting spree against {0} -->
   <TargetedInsultingSpree.baseInspectLine>상태: {0}의 분노</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
-  <TargetedInsultingSpree.beginLetter>{0}(이)가 {1}에게 [PAWN_possessive] 분노를 표출합니다.\n\n[PAWN_pronoun]는 {1}(을)를 따라다니며 모욕을 퍼붓습니다.</TargetedInsultingSpree.beginLetter>
-  <TargetedInsultingSpree.beginLetterLabel>분노 (시기)</TargetedInsultingSpree.beginLetterLabel>
-  <TargetedInsultingSpree.recoveryMessage>{0}의 정신이 제자리를 찾았습니다.</TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.beginLetter>{0}(이)가 {1}에게 분노를 표출합니다.\n\n[PAWN_pronoun]는 {1}(을)를 따라다니며 모욕을 퍼붓습니다.</TargetedInsultingSpree.beginLetter>
   
   <!-- EN: tantrum -->
   <TargetedTantrum.label>울화통</TargetedTantrum.label>
@@ -149,7 +138,6 @@
   <TargetedTantrum.baseInspectLine>상태: 울화통</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
   <TargetedTantrum.beginLetter>{0}(이)가 분노로 울부짖고 있습니다. [PAWN_pronoun]는 {1}(을)를 파괴하려고 합니다.</TargetedTantrum.beginLetter>
-  <TargetedTantrum.beginLetterLabel>울화통</TargetedTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>{0}(은)는 더 이상 울부짖지 않습니다.</TargetedTantrum.recoveryMessage>
   

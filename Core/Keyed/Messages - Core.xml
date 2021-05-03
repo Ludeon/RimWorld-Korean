@@ -136,7 +136,7 @@
   <MessageTooLowMedCare>수술에는 {0} 또는 그 이상이 필요하지만, {PAWN_labelShort}의 허용 단계는 "{2}"입니다.</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort}(이)가 사망했습니다. 이유: {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort}(이)가 {1} 때문에 사망했습니다.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
   <PawnDied>{1_labelShort}(은)는 사망하였습니다.</PawnDied>
 
@@ -157,13 +157,13 @@
   <MessageGaveBirth>{0}(이)가 출산했습니다.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort}(은)는 정신 민감도가 없어서 사이링크를 사용할 수 없습니다.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort}(은)는 정신 민감도가 없어서 정신력 증폭기를 사용할 수 없습니다.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{2}(으)로 인해 {PAWN_labelShort}에서 {1} 이식물 단계를 잃었습니다.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort}(이)가 {2}(으)로 인해 {1}의 뇌손상을 입었습니다.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
-  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}(이)가 초능력 혼돈치 한계를 벗어났습니다.</MessageWentOverPsychicEntropyLimit>
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}(이)가 정상적인 신경열 한도를 초과했습니다.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
   <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull}(이)가 {1}의 애교에 감동해 {NAMEE_nameFull}(이)라는 이름을 붙여주었습니다.</MessageNuzzledPawnGaveNameTo>
@@ -563,7 +563,7 @@
   <MessagePermitCooldownFinished>{0_labelShort}(은)는 이제 "{1}"을 자유롭게 사용할 수 있습니다.</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR}(은)는 먹이를 위해 {PREY_definite}(을)를 사냥하고 있습니다!</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR}(은)는 먹이를 위해 {PREY_definite} ({PREY_kindBase})(을)를 사냥하고 있습니다!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>수감자 {PRISONER_labelShort}의 저항심이 {WARDEN_labelShort}에 의해 끝났습니다.</MessagePrisonerResistanceBroken>

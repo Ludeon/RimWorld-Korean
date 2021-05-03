@@ -18,7 +18,7 @@
   <!-- EN: Guest captured: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>포획된 방문객: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>보호 임무를 맡은 [letterSubject](이)가 포획되었습니다. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>보호 임무를 맡은 [letterSubject](이)가 포획되었습니다. [remainingWillNowLeave][failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
   <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>수감자 포섭: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
@@ -42,7 +42,7 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>임무 실패: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
   <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>[asker_faction_name] 세력은 이제 적대가 되었습니다. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>[asker_faction_name] 세력은 이제 적대가 되었습니다. [failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>파괴된 왕복선</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
@@ -50,11 +50,11 @@
   <!-- EN: Quest completed -->
   <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>임무 완료</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
-  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>'[resolvedQuestName]' 임무를 완료하였습니다!\n\n[asker_nameDef](은)는 [asker_pronoun]가 머물렀던 높은 수준의 숙소에 대해 보상을 하겠다고 합니다. [lodgersLabelSingOrPluralDef]의 평균 기분은 [theirHisHer] 숙박동안 {AVERAGEMOOD} 이었으므로, [asker_faction_name] 세력과의 우호도가 {GOODWILL} 만큼 증가했습니다</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>'[resolvedQuestName]' 임무를 완료하였습니다!\n\n[lodgersLabelSingOrPluralDef](은)는 [lodgersWasWere][lodgersPronoun]가 머물렀던 높은 수준의 숙소에 대해 보상을 하겠다고 합니다. [lodgersLabelSingOrPluralDef]의 평균 기분은 [theirHisHer] 숙박동안 {AVERAGEMOOD} 이었으므로, [asker_faction_name] 세력과의 우호도가 {GOODWILL} 만큼 증가했습니다</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: Quest completed -->
   <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>임무 완료</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [lodgersLabelSingOrPluralDef] [lodgersWasWere] willing to reward quality accommodation, [theirHisHer] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
-  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>'[resolvedQuestName]' 임무를 완료하였습니다!\n\n[asker_nameDef](은)는 숙박에 대한 보상을 하겠지만, [lodgersLabelSingOrPluralDef]의 평균 기분은 [theirHisHer] 숙박동안 {AVERAGEMOOD}에 불과했기 때문에, 세력과의 우호도는 얻지 못했습니다.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>'[resolvedQuestName]' 임무를 완료하였습니다!\n\n[lodgersWasWere][lodgersLabelSingOrPluralDef](은)는 숙박에 대한 보상을 하겠지만, [theirHisHer]의 평균 기분은 숙박동안 {AVERAGEMOOD}에 불과했기 때문에, 세력과의 우호도는 얻지 못했습니다.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>임무 실패: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->

@@ -21,7 +21,7 @@
     <li>disease->독감</li>
     <li>disease->흑사병</li>
     <li>disease->말라리아</li>
-    <li>disease->전염병</li>
+    <li>disease->감염</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 [dutyRoyalDescription](을)를 도와줄 사람이 필요하다고 합니다.\n\n[asker_pronoun]는 [colonistCountToLend]을 [lendForDays]일 동안 빌려달라고 요청합니다.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->정착민 1명</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->정착민 [colonistsToLendCount]명</li>
@@ -69,7 +69,7 @@
     </rulesStrings>
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.LetterTextReturnAfterHelping.slateRef>[asker_faction_name]의 [asker_nameFull](이)가 부탁한 [dutyDescription](을)를 도와준 {PAWNS}(이)가 돌아왔습니다.</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>[asker_faction_name]의 [asker_nameFull](이)가 부탁한 [dutyDescription](을)를 도와준 {PAWNS} [pawnListHaveConjugation](이)가 돌아왔습니다.</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>
@@ -82,7 +82,7 @@
     </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
-  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS}(이)가 [asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull]의 [dutyRoyalDescription](을)를 도와주고 돌아왔습니다.</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation](이)가 [asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull]의 [dutyRoyalDescription](을)를 도와주고 돌아왔습니다.</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
   <PawnLend.LetterLabelShuttleArrived.slateRef>왕복선 도착</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->

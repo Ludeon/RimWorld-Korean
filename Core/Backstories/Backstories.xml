@@ -1719,6 +1719,15 @@
     <desc>{PAWN_nameDef}(은)는 첨단 기술을 거부하는 강경한 사이비 집단에서 태어났고, 신성한 예술로 혼을 정화함으로써 모든 병이 치유될 수 있다고 믿었습니다. {PAWN_pronoun}는 처음 외부 세계를 접한 후, 도망가기로 했습니다.</desc>
   </CultChild3>
   
+  <CuriousChild33>
+    <!-- EN: curious child -->
+    <title>괴짜 아이</title>
+    <!-- EN: curious -->
+    <titleShort>괴짜</titleShort>
+    <!-- EN: [PAWN_nameDef] was more interested in the systems and patterns of the world rather than its inhabitants. [PAWN_possessive] social skills suffered.\n\n[PAWN_nameDef] came to understand that all things are part of the whole, and to destroy part would be to destroy all. -->
+    <desc>{PAWN_nameDef}(은)는 주민들보다는 행성의 체제와 양식에 관심이 더 많아서 {PAWN_possessive} 사교 기술은 나쁩니다.\n\n{PAWN_nameDef}(은)는 모든 것이 전체의 일부이며, 일부를 파괴하는 것이 모든 것을 파괴하는 것임을 이해하게 되었습니다.</desc>
+  </CuriousChild33>
+  
   <DataDecoder39>
     <!-- EN: data decoder -->
     <title>데이터 해독가</title>
@@ -1802,11 +1811,11 @@
   
   <Deserter65>
     <!-- EN: deserter -->
-    <title>버림받은 사람</title>
+    <title>탈영병</title>
     <!-- EN: deserter -->
-    <titleShort>버림받은 사람</titleShort>
+    <titleShort>탈영병</titleShort>
     <!-- EN: After countless battles for a cause [PAWN_pronoun] did not believe in, [PAWN_nameDef] threw down [PAWN_possessive] arms and deserted. [PAWN_nameDef] lived in isolation, hunted by those [PAWN_pronoun] had deserted. -->
-    <desc>{PAWN_pronoun}가 믿지 않은 이유로 인한 수많은 전투 이후, {PAWN_nameDef}(은)는 {PAWN_possessive} 내팽겨쳐져 버려졌습니다. {PAWN_nameDef}(은)는 고립 속에서, {PAWN_pronoun}가 버렸던 사람들에게 추적당하며 살았습니다.</desc>
+    <desc>{PAWN_pronoun}의 신념과 맞지 않는 수많은 전투 끝에, {PAWN_nameDef}(은)는 무장을 내팽개치고 도망쳤습니다. {PAWN_nameDef}(은)는 추격을 피해 고립 속에서 살았습니다.</desc>
   </Deserter65>
   
   <DesertRat47>
@@ -3456,7 +3465,7 @@
     <!-- EN: scientist -->
     <titleShort>과학자</titleShort>
     <!-- EN: After finishing [PAWN_possessive] education, [PAWN_nameDef] was hired by the planet's leading genetic researcher. Later, [PAWN_pronoun] was caught running illegal, inhumane experiments.\n\nDespite [PAWN_possessive] family's influence, [PAWN_pronoun] was convicted and sentenced to hard labor on a penal colony. -->
-    <desc>{PAWN_possessive} 교육이 끝난 후, {PAWN_nameDef}(은)는 행성의 대표적인 유전학 연구원에게 고용되었습니다. 나중에, {PAWN_pronoun}는 불법적이고 비인륜적인 실험을 하다 적발되었습니다.\n\n[PAWN_pronous]는 가족의 영향력에도 불구하고, {PAWN_pronoun}는 유죄판결을 받고 형벌 식민지에서 중노동형을 선고받았습니다.</desc>
+    <desc>{PAWN_possessive} 교육이 끝난 후, {PAWN_nameDef}(은)는 행성의 대표적인 유전학 연구원에게 고용되었습니다. 나중에, {PAWN_pronoun}는 불법적이고 비인륜적인 실험을 하다 적발되었습니다.\n\n{PAWN_pronoun}는 가족의 영향력에도 불구하고, 유죄판결을 받고 형벌 식민지에서 중노동형을 선고받았습니다.</desc>
   </MadScientist31>
   
   <MadScientist47>
@@ -3800,14 +3809,14 @@
     <desc>변경계 노예상인들에게서 탈출한 후, {PAWN_nameDef}(은)는 더 이상 생명을 존중하지 않았습니다. {PAWN_pronoun}는 총과 생존 기술을 이용해 용병으로 살기 시작했습니다. {PAWN_nameDef}(은)는 더러운 일을 하며, 많은 세계를 여행했습니다.</desc>
   </Mercenary55>
   
-  <MercenaryCaptain56>
+  <MercenaryCaptain98>
     <!-- EN: Mercenary captain -->
     <title>용병대장</title>
     <!-- EN: Captain -->
     <titleShort>대장</titleShort>
-    <!-- EN: [PAWN_pronoun] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_nameDef] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
-    <desc>{PAWN_pronoun}는 용병선의 승무원이었습니다. 스스로를 단련하며 자신감 있는 {PAWN_nameDef}(은)는 친구들을 사귀며 고속승진하게 되었습니다.\n\n한 때 용병대장으로 일했던 {PAWN_pronoun}는 차분하며 사교적으로도 유명했는데 아마 쾌락회로 덕분인 것 같습니다</desc>
-  </MercenaryCaptain56>
+    <!-- EN: [PAWN_nameDef] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_pronoun] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
+    <desc>{PAWN_nameDef}(은)는 용병선의 승무원이었습니다. 스스로를 단련하며 자신감 있는 {PAWN_pronoun}는 친구들을 사귀며 고속승진하게 되었습니다.\n\n한 때 용병대장으로 일했던 {PAWN_pronoun}는 차분하며 사교적으로도 유명했는데 아마 쾌락회로 덕분인 것 같습니다.</desc>
+  </MercenaryCaptain98>
   
   <MercenaryChef44>
     <!-- EN: mercenary chef -->
@@ -5057,6 +5066,15 @@
     <desc>부모의 포도 과수원에서 독립한 뒤, {PAWN_nameDef}(은)는 여러 곳들을 여행하며 많은 기술을 배웠습니다.\n\n{PAWN_pronoun}는 특히 파충류 종을 연구하고 상호작용하는 데 대부분의 시간을 보냈습니다. {PAWN_pronoun}는 여러 성과를 이뤘고, 특히 "가시 악마"를 발견한 것으로 유명했습니다.</desc>
   </ReptileResearcher37>
   
+  <Restorer70>
+    <!-- EN: restorer -->
+    <title>복원가</title>
+    <!-- EN: restorer -->
+    <titleShort>복원가</titleShort>
+    <!-- EN: [PAWN_nameDef] traveled the world, always looking for old and forgotten things to repair for the good of others, working to see the true beauty in all things. -->
+    <desc>{PAWN_nameDef}(은)는 항상 다른 사람들의 이익을 위해 오래되고 잊혀진 것들을 찾아 세계를 여행하며, 모든 것에서 진정한 아름다움을 보기 위해 노력했습니다.</desc>
+  </Restorer70>
+  
   <RichBoy9>
     <!-- EN: rich boy -->
     <title>도련님</title>
@@ -5324,11 +5342,11 @@
   
   <ShelterChild50>
     <!-- EN: shelter child -->
-    <title>쉘터 생존자</title>
+    <title>대피소 아이</title>
     <!-- EN: shelterkid -->
-    <titleShort>생존자</titleShort>
+    <titleShort>대피소 아이</titleShort>
     <!-- EN: [PAWN_nameDef] grew up in a shelter deep beneath a toxic world. [PAWN_pronoun] received a comprehensive education, but had no opportunity to do physical labour. -->
-    <desc>{PAWN_nameDef}(은)는 독에 오염된 행성 지하의 대피소에서 자랐습니다. {PAWN_pronoun}는 종합교육을 받았지만, 육체노동을 할 기회는 없었습니다.</desc>
+    <desc>{PAWN_nameDef}(은)는 독성계의 깊은 지하 대피소에서 자랐습니다. {PAWN_pronoun}는 종합교육을 받았지만, 육체노동을 할 기회는 없었습니다.</desc>
   </ShelterChild50>
   
   <Sheriff52>
@@ -6677,27 +6695,27 @@
   
   <UrbworldUrchin61>
     <!-- EN: urbworld urchin -->
-    <title>도시계 부랑자</title>
+    <title>도시계 부랑아</title>
     <!-- EN: urchin -->
-    <titleShort>부랑자</titleShort>
+    <titleShort>부랑아</titleShort>
     <!-- EN: The urbworlds - ancient and deep industrial cityscapes bursting with humanity and poison. [PAWN_nameDef] grew up in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food. -->
     <desc>도시계에서는 인류와 유독 물질로 가득한 고대 산업도시들의 풍경을 볼 수 있습니다. {PAWN_pronoun}는 그러한 장소의 암흑가에서 자랐습니다. {PAWN_pronoun}는 음식물 찌꺼기라도 먹기 위해 싸워야 했습니다.</desc>
   </UrbworldUrchin61>
   
   <UrbworldUrchin87>
     <!-- EN: urbworld urchin -->
-    <title>도시계 부랑자</title>
+    <title>도시계 부랑아</title>
     <!-- EN: urchin -->
-    <titleShort>부랑자</titleShort>
+    <titleShort>부랑아</titleShort>
     <!-- EN: Meredith was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
     <desc>{PAWN_pronoun}는 도시 고향의 가장 어두운 빈민가에서 태어났습니다. {PAWN_pronoun}는 어머니의 무관심 속에서, 음식을 얻기 위해 싸우는 방법을 배우며, 스스로 생존하는 법을 터득했습니다.\n\n마침내 {PAWN_possessive} 능력이 동료들 중에서도 최고가 되자, 무관심했던 어머니를 뒤로 하고, 빈민가를 떠났습니다.</desc>
   </UrbworldUrchin87>
   
   <UrbworldUrchin90>
     <!-- EN: urbworld urchin -->
-    <title>도시계 부랑자</title>
+    <title>도시계 부랑아</title>
     <!-- EN: urchin -->
-    <titleShort>부랑자</titleShort>
+    <titleShort>부랑아</titleShort>
     <!-- EN: Abandoned among the filthy concrete spires, [PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_pronoun] never received formal education, and often resorted to doing menial labor in exchange for food. Sometimes [PAWN_pronoun] lied, cheated, and stole to survive. -->
     <desc>불결한 콘크리트 기둥들 사이에 버림받은 {PAWN_nameDef}(은)는 부모님이 누군지 모르고 자랐습니다. {PAWN_pronoun}는 정식 교육을 받은 적이 없고, 음식을 댓가로 보잘것없는 노동을 하곤 했습니다. 때때로 {PAWN_pronoun}는 살아남기 위해 거짓말을 하고, 속이고, 도둑질을 했습니다.</desc>
   </UrbworldUrchin90>

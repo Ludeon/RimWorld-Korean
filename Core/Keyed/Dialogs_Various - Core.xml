@@ -657,7 +657,7 @@
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>적어도 한 사람이나 동물이 음식을 소진하기까지 걸리는 대략적인 시간으로 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주릴 수 있습니다. 이 값은 경로를 선택한 뒤에 더 정확하게 계산됩니다.\n\n영향받는 대상:\n  - 운반되는 음식 종류와 양\n  - 상단 구성원과 식성\n  - 식량 채집비율\n  - 동물의 방목 가능성\n  - 음식 부패시간\n  - 날씨가 더울수록 빨리 상함</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(첫번째 경유지만 고려됨)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(첫번째 경유지만 고려됨)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>상단에 {0}일치의 식량밖에 없어서 금방 굶주릴 것입니다.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
