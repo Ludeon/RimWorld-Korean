@@ -183,7 +183,7 @@
   <!-- EN: Research -->
   <Research>연구</Research>
   <!-- EN: Study -->
-  <Study>TODO</Study>
+  <Study>연구</Study>
   <!-- EN: Unresearched -->
   <Unresearched>연구되지 않음</Unresearched>
   <!-- EN: Finished -->
@@ -319,7 +319,7 @@
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>현재 {FACTION_royalFavorLabel}(을)를 거부하기로 한 상태입니다.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>{0_name}(와)과의 관계가 {1}만큼 향상됩니다.\n\n현재 우호도: {4} ({5}).\n\n우호도는 세력간 관계를 나타냅니다. 우호도가 {2}보다 낮다면, 세력이 적대화되어 정착지와 상단을 공격할 것입니다. 우호도가 {3}보다 높다면, 세력과 동맹국이 되어 전투 때 지원군을 보내 도와줄 것입니다. 그 외에 세력은 중립으로써 자유롭게 거래하고 대화할 수 있습니다.</GoodwillTip>
+  <GoodwillTip>{0_name}(와)과의 관계가 {1}만큼 향상됩니다.\n\n현재 우호도: {4} ({5}).\n\n우호도는 세력간 관계를 나타냅니다. 우호도가 {2}보다 낮아지면 적대 세력으로 돌아서서 정착지와 상단을 공격합니다. 우호도가 {3}보다 높아지면 동맹이 되어, 전투 시 지원군을 보내 도와줄 것입니다. 그 외의 경우, 세력은 중립으로 남으며 자유롭게 거래하고 대화할 수 있습니다.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} 합류</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
@@ -335,7 +335,7 @@
   <!-- EN: neutral to {0} -->
   <QuestNeutralTo>{0}(와)과 중립</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
-  <QuestRequiredThingStudied>studied {0_labelShort}</QuestRequiredThingStudied>
+  <QuestRequiredThingStudied>{0_labelShort}의 연구를 마침</QuestRequiredThingStudied>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->

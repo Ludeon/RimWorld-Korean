@@ -58,7 +58,7 @@
   <!-- EN: burying -->
   <Burying>매장</Burying>
   <!-- EN: designated for {0} -->
-  <DesignatedFor>TODO</DesignatedFor>
+  <DesignatedFor>{0} 지정됨</DesignatedFor>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>상호작용 금지됨</ForbiddenLower>
@@ -203,7 +203,7 @@
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>임시 정착민은 동면시킬 수 없음</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
-  <CryptosleepCasketGuestPrisonersNotAllowed>수감된 죄수는 허용되지 않음</CryptosleepCasketGuestPrisonersNotAllowed>
+  <CryptosleepCasketGuestPrisonersNotAllowed>외부에서 받은 수감자는 불가능합니다.</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>이미 사용 중</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
@@ -304,9 +304,9 @@
   <OverweightLower>무게초과</OverweightLower>
 
   <!-- EN: Cannot carry {1_label} and leave the area -->
-  <CannotCarryToExit>{1_label} 가지고 나갈 수 없음</CannotCarryToExit>
+  <CannotCarryToExit>{1_label}(을)를 데리고 떠날 수 없음</CannotCarryToExit>
   <!-- EN: Carry {1_label} and leave the area -->
-  <CarryToExit>{1_label} 가지고 나가기</CarryToExit>
+  <CarryToExit>{1_label}(을)를 들쳐 메고 지역 떠나기</CarryToExit>
   <!-- EN: Capture {1_label} and leave the area -->
   <CarryToExitAndCapture>{1_label}(을)를 포획 후 지역 떠나기</CarryToExitAndCapture>
   
@@ -319,7 +319,7 @@
   <!-- EN: Carry {0_label} -->
   <Carry>{0_label} 들쳐 메기</Carry>
   <!-- EN: Cannot carry {0_label} -->
-  <CannotCarry>{0_label} 들쳐 멜 수 없음</CannotCarry>
+  <CannotCarry>{0_label}(을)를 들쳐 멜 수 없음</CannotCarry>
   <!-- EN: temporary faction member -->
   <QuestRelated>임시 정착민</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -424,7 +424,7 @@
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>우선시 불가 (허가구역 외부)</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
-  <CannotPrioritizeBurying>TODO</CannotPrioritizeBurying>
+  <CannotPrioritizeBurying>매장 우선시 불가</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->

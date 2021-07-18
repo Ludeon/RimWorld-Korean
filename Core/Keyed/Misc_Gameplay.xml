@@ -207,9 +207,9 @@
   <!-- EN: {0} animals -->
   <CaravanAnimalsCount>동물 {0}마리</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>죄수 1명</CaravanPrisoner>
+  <CaravanPrisoner>수감자 1명</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>죄수 {0}명</CaravanPrisonersCount>
+  <CaravanPrisonersCount>수감자 {0}명</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
   <CaravanPawnsInMentalState>{0} 정신 상태</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
@@ -493,7 +493,7 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>기준 우호도 범위</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>기준 우호도는 세력의 정체성과 믿음에 따라 다릅니다. 현재 우호도가 기준 우호도에서 멀리 벗어나 있다면, 시간이 지남에 따라 현재 우호도가 서서히 기준 우호도를 향해 이동합니다.\n\n모든 우호도 변경 효과는 기준 우호도를 향해 움직인다면 {0}의 추가 계수를 받습니다.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>기준 우호도는 세력의 정체성과 믿음에 따라 다릅니다. 현재 우호도가 기준 우호도에서 멀리 벗어나 있다면, 시간이 지남에 따라 현재 우호도가 서서히 기준 범위를 향해 이동합니다.\n\n기준 우호도를 향하는 우호도 변경 효과는 모두 {0}의 추가 계수를 받습니다.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>{0_nameIndef}의 저항심 감소 중</JobReport_ReduceResistance>
   <!-- EN: Too large -->
@@ -637,7 +637,7 @@
   <!-- EN: {ANIMALDEF_label} capacity -->
   <PenCapacityDesc>{ANIMALDEF_label} 수용량</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>TODO</PenExampleAnimals>
+  <PenExampleAnimals>예시 동물</PenExampleAnimals>
 
 
   <!-- Control -->
@@ -1420,7 +1420,7 @@
   <!-- EN: (existing bond) -->
   <BladelinkAlreadyBonded>(현존 결속)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>한번에 하나의 영혼무기만 결속 가능합니다.\n\n{WEAPON_labelShort}(을)를 결속하고 장착하려면, 현재 {PAWN_nameDef}의 결속된 무기인 {BONDEDWEAPON_labelShort}(을)를 우선 파괴해야 합니다.</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>한 번에 하나의 영혼무기만 결속할 수 있습니다.\n\n{WEAPON_labelShort}(을)를 결속하고 장착하려면, 현재 {PAWN_nameDef}의 결속 무기인 {BONDEDWEAPON_labelShort}(을)를 먼저 파괴해야 합니다.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
   <BladelinkAlreadyBondedMessage>{PAWN_nameDef}(은)는 이미 {BONDEDWEAPON_labelShort}(와)과 결속되어 있습니다.</BladelinkAlreadyBondedMessage>
 
@@ -1501,7 +1501,7 @@
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>선택한 참여자 중 일부가 자고 있습니다. 의식을 시작하면 깨어날 것입니다.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es)</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>이 위치는 {0}의 역할을 지닌 정착민이 적합합니다.\n\n{0}(이)가 아닌 사람이 이 위치를 맡을 경우 다음의 보너스를 받지 못합니다</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
   <RitualRoleCantSubstitute>{0}(은)는 대체할 수 없는 역할입니다.</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
@@ -1525,7 +1525,7 @@
   <!-- EN: {0_labelShort} is incapable of talking. -->
   <AbilitySpeechDisabledCantSpeak>{0_labelShort}(은)는 말을 할 수 없습니다.</AbilitySpeechDisabledCantSpeak>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>TODO</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>의식에 참여한 모든 사람의 기분이 {1}일간 {0}만큼 좋아집니다.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>{RITUAL_labelDef}에 참여해야 하는 사람을 선택하세요.</ChooseParticipants>

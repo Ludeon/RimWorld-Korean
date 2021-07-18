@@ -46,9 +46,9 @@
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
   <CommandPsycastWouldExceedEntropy>정신력 혼돈치가 안전한도를 초과했습니다.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}(은)는 초집중 {0}(을)를 사용하지만, {CASTERNAME}에는 {1}만 있습니다.</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}(은)는 초집중 {0}(을)를 사용하지만, {CASTERNAME}의 초집중은 {1} 뿐입니다.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
-  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME}(은)는 {1}의 정신이상을 멈추기 위해 {0} 초집중이 필요하지만 {CASTERNAME}(은)는 {2} 초집중이 있습니다.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME}(은)는 {1}의 정신이상을 멈추기 위해 {0} 초집중이 필요하지만, {CASTERNAME}의 초집중은 {2} 뿐입니다.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>{0} 단계 정신력 증폭기가 필요합니다.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
@@ -56,9 +56,9 @@
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>정신을 잃은 상태입니다.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
-  <CommandPsycastLowPsyfocus>이를 시전하려면 적어도 {0} 초집중이 필요합니다.</CommandPsycastLowPsyfocus>
+  <CommandPsycastLowPsyfocus>이 초능력을 시전하려면 적어도 {0} 초집중이 필요합니다.</CommandPsycastLowPsyfocus>
   <!-- EN: H -->
-  <NeuralHeatLetter>초</NeuralHeatLetter>
+  <NeuralHeatLetter>H</NeuralHeatLetter>
   <!-- EN: P -->
   <PsyfocusLetter>P</PsyfocusLetter>
 
@@ -85,9 +85,9 @@
   <!-- EN: Stop participating in the bestowing ceremony. -->
   <CommandLeaveBestowingCeremonyDesc>수여식 참여를 중단합니다.</CommandLeaveBestowingCeremonyDesc>
   <!-- EN: Cancel bestowing ceremony -->
-  <CommandCancelBestowingCeremony>TODO</CommandCancelBestowingCeremony>
+  <CommandCancelBestowingCeremony>수여식 취소</CommandCancelBestowingCeremony>
   <!-- EN: End the bestowing ceremony immediately. The bestower will leave, but another opportunity to perform the ceremony will arise soon. -->
-  <CommandCancelBestowingCeremonyDesc>TODO</CommandCancelBestowingCeremonyDesc>
+  <CommandCancelBestowingCeremonyDesc>수여식을 즉시 끝냅니다. 수여자는 떠나게 되지만, 수여식을 다시 할 기회가 찾아올 것입니다.</CommandCancelBestowingCeremonyDesc>
   <!-- EN: Are you sure you want to cancel bestowing ceremony? -->
-  <CommandCancelBestowingCeremonyConfirm>TODO</CommandCancelBestowingCeremonyConfirm>
+  <CommandCancelBestowingCeremonyConfirm>정말 수여식을 취소하시겠습니까?</CommandCancelBestowingCeremonyConfirm>
 </LanguageData>

@@ -24,7 +24,7 @@
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
   <GameUpdatedToNewVersionNonSteam>DRM-free 버전은 구버전 및 신버전을 서로 다른 폴더에 설치할 수 있습니다.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
-  <GameUpdatedToNewVersionSteam>계속 이전 버전을 사용하시려면 Steam의 베타 기능을 사용하세요.\n\n  1. 라이브러리에서 RimWorld를 오른쪽 클릭하세요.\n  2. 속성을 클릭하세요.\n  3. 베타 탭을 선택하세요.\n  4. 드롭다운 메뉴에서 원하시는 버전을 선택하세요.</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>계속 이전 버전을 사용하시려면 스팀 베타 기능을 사용하세요.\n\n  1. 라이브러리에서 RimWorld를 오른쪽 클릭하세요.\n  2. 속성을 클릭하세요.\n  3. 베타 탭을 선택하세요.\n  4. 드롭다운 메뉴에서 원하시는 버전을 선택하세요.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -655,7 +655,7 @@
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
   <CaravanItemIsUnreachableMulti>할당된 정착민들이 {0}x {1}에 접근할 수 없습니다.</CaravanItemIsUnreachableMulti>
   <!-- EN: The caravan can't carry that much. -->
-  <TooBigCaravanMassUsage>상단은 그렇게 많은 양을 운반할 수 없습니다.</TooBigCaravanMassUsage>
+  <TooBigCaravanMassUsage>상단이 그렇게 많은 양을 운반할 수 없습니다.</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>할당된 상단의 아이템 및 정착민들의 현재 장비들을 포함합니다. 최대 적재량보다 적으면 속도 보너스가 붙습니다.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
@@ -985,7 +985,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>{0} 언어의 모든 번역파일을 정리 하시겠습니까?\n\n다음 작업을 수행합니다:\n  - 누락된 Keyed, Def-Injected, Backstories 번역 및 자리 표시자 추가\n  - 번역되지 않은 원본 텍스트 포함 주석 추가 및 업데이트\n  - 모든 Keyed, Def-Injected 번역을 적절한 XML파일로 이동\n  - 모든 XML파일에 자동 서식 적용\n  - 이전 버전과 호환되는 Def 이름 업데이트\n  - 기존의 모든 XML 주석 제거 (전체 목록 injections 제외)\n\n비 XML 파일은 제거되거나 수정되지 않습니다.\n\n모든 데이터를 다시 불러오려면 이 도구를 사용하기 전에 언어 파일을 수정한 후 게임을 다시 시작해야 합니다.\n\n이 도구를 사용하기 전에 모든 번역 파일을 백업해야 합니다.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>{0}의 모든 번역 파일을 정리 하시겠습니까?\n\n다음 작업을 수행합니다:\n  - 누락된 Keyed, DefInjected, Backstories 번역에 플레이스홀더 추가\n  - 원문 텍스트를 포함한 주석 추가/업데이트\n  - 모든 Keyed, DefInjected 번역을 적절한 XML파일로 이동\n  - 모든 XML 파일에 자동 서식 적용\n  - 이전 버전과 호환되는 Def 이름 업데이트\n  - 기존의 모든 XML 주석 제거 (리스트 인젝션 제외)\n\nXML 외의 파일은 제거되거나 수정되지 않습니다.\n\n언어 파일을 수정한 후에는 이 도구를 사용하기 전에 게임을 다시 시작해서 모든 데이터를 새로 불러와야 합니다.\n\n정리 전에 번역 파일을 백업하세요.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>예, 백업되어 있습니다</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1077,9 +1077,9 @@
   <!-- EN: No chunks to skip. -->
   <AbilityNoChunkToSkip>돌덩어리에 도약할 수 없음</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
-  <PsychicLoveInduceIn>사이킥 선호 유도</PsychicLoveInduceIn>
+  <PsychicLoveInduceIn>초능력 애정 유도</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
-  <PsychicLoveFor>사이킥 선호</PsychicLoveFor>
+  <PsychicLoveFor>초능력 애정의 대상</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
   <FarskipConfirmTeleportingLodger>{PAWN_labelShort}(을)를 다른 지도나 상단에게 도약하게 되면, 관련 임무가 바로 실패되고 {PAWN_pronoun}는 즉시 떠납니다.\n\n정말 {PAWN_labelShort}(을)를 도약하겠습니까?</FarskipConfirmTeleportingLodger>
   
@@ -1104,44 +1104,44 @@
   <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
   <AutoSlaugtherTip>동물의 수가 최대 값을 넘으면 정착민들이 자동으로 가장 늙은 동물부터 도축해서 수를 맞춥니다.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
-  <AnimalMaleAdult>TODO</AnimalMaleAdult>
+  <AnimalMaleAdult>수컷 성체</AnimalMaleAdult>
   <!-- EN: Male young -->
-  <AnimalMaleYoung>TODO</AnimalMaleYoung>
+  <AnimalMaleYoung>어린 수컷</AnimalMaleYoung>
   <!-- EN: Female adult -->
-  <AnimalFemaleAdult>TODO</AnimalFemaleAdult>
+  <AnimalFemaleAdult>암컷 성체</AnimalFemaleAdult>
   <!-- EN: Female young -->
-  <AnimalFemaleYoung>TODO</AnimalFemaleYoung>
+  <AnimalFemaleYoung>어린 암컷</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
-  <AnimalPregnant>TODO</AnimalPregnant>
+  <AnimalPregnant>임신</AnimalPregnant>
   <!-- EN: Slaughter -->
-  <AllowSlaughterPregnant>TODO</AllowSlaughterPregnant>
+  <AllowSlaughterPregnant>도축</AllowSlaughterPregnant>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>자동으로 도축할 동물입니다.</AutoSlaugtherHeaderTooltipLabel>
   <!-- EN: The current number of animals in the colony, both male and female. -->
-  <AutoSlaugtherHeaderTooltipCurrentTotal>정착지에 속한 동물의 암컷과 수컷을 종합한 현재 수입니다.\n\n임신했거나 아직 다 자라지 않은 동물은 무시합니다.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <AutoSlaugtherHeaderTooltipCurrentTotal>정착지 동물의 암컷과 수컷을 종합한 현재 수입니다.</AutoSlaugtherHeaderTooltipCurrentTotal>
   <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxTotal>정착지에 속한 동물의 암컷과 수컷을 종합한 최대 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.\n\n임신했거나 아직 다 자라지 않은 동물은 무시합니다.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <AutoSlaugtherHeaderTooltipMaxTotal>정착지 동물의 암컷과 수컷을 종합한 최대 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.</AutoSlaugtherHeaderTooltipMaxTotal>
   <!-- EN: The current number of males of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentMales>정착지에 속한 수컷 동물의 현재 수입니다.\n\n임신했거나 아직 다 자라지 않은 동물은 무시합니다.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <AutoSlaugtherHeaderTooltipCurrentMales>정착지 동물 중 번식 가능한 나이의 수컷 동물 수입니다.</AutoSlaugtherHeaderTooltipCurrentMales>
   <!-- EN: The current number of baby and juvenile males in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentMalesYoung>TODO</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>정착지 동물 중 어린 수컷 동물의 수입니다.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
   <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxMales>정착지에 속한 수컷 동물의 현재 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.\n\n임신했거나 아직 다 자라지 않은 동물은 무시합니다.</AutoSlaugtherHeaderTooltipMaxMales>
+  <AutoSlaugtherHeaderTooltipMaxMales>정착지 동물 중 번식 가능한 나이의 수컷 동물 최대 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.</AutoSlaugtherHeaderTooltipMaxMales>
   <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxMalesYoung>TODO</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>정착지 동물 중 번식 어린 수컷 동물의 최대 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.</AutoSlaughterHeaderTooltipMaxMalesYoung>
   <!-- EN: The current number of females of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemales>정착지에 속한 암컷 동물의 현재 수입니다.\n\n임신했거나 아직 다 자라지 않은 동물은 무시합니다.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <AutoSlaugtherHeaderTooltipCurrentFemales>정착지 동물 중 번식 가능한 나이의 암컷 동물 수입니다.</AutoSlaugtherHeaderTooltipCurrentFemales>
   <!-- EN: The current number of baby and juvenile females in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>TODO</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>정착지 동물 중 어린 암컷 동물의 수입니다.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
   <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxFemales>정착지에 속한 암컷 동물의 최대 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.\n\n임신했거나 아직 다 자라지 않은 동물은 무시합니다.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <AutoSlaugtherHeaderTooltipMaxFemales>정착지 동물 중 번식 가능한 나이의 암컷 동물 최대 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.</AutoSlaugtherHeaderTooltipMaxFemales>
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxFemalesYoung>TODO</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>정착지 동물 중 번식 어린 암컷 동물의 최대 수입니다.\n\n최대 수를 초과하는 만큼 조련사가 알아서 도축합니다.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
   <!-- EN: The current number of pregnant animals in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentPregnant>TODO</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <AutoSlaughterHeaderTooltipCurrentPregnant>정착지 동물 중 임신한 동물의 수입니다.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
-  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>TODO</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>이 종의 임신한 암컷도 자동 도축을 허용합니다.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>클릭해서 동물을 제한할 수를 설정하세요.</AutoSlaughterTooltipSetLimit>

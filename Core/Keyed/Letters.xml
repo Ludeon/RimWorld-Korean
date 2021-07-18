@@ -19,22 +19,22 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>{0} 세력과의 관계가 틀어져 이제 적대로 돌아섰습니다.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>정착지와 상단을 주기적으로 습격할 것이고, 거래도 거부할 겁니다. 관계를 개선하고 싶다면 상단이나 수송포드를 이용하여 선물을 제공할 수 있습니다.\n\n이 경우는 우호도({0})가 {1} 아래로 떨어졌기 때문에 발생했습니다. 중립관계를 다시 회복하려면 친밀도가 {2}만큼 도달해야 합니다.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>그들은 정착지와 상단을 주기적으로 습격하고, 거래도 거부할 것입니다. 관계를 개선하려면 상단이나 수송 포드를 이용하여 선물을 제공할 수 있습니다.\n\n우호도({0})가 {1} 아래로 떨어졌기 때문에 발생했습니다. 중립 관계를 다시 회복하려면 우호도가 {2}에 도달해야 합니다.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>{0} 세력과의 관계가 완화되어 더는 공격하지 않을 것입니다.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>이 경우는 현재 우호도({1})가 {2}보다 커졌기 때문에 발생했습니다. 우호도가 {3}보다 낮아지면, {0} 세력은 다시 공격할 것입니다. 우호도가 {4}이상이 되면, 동맹이 되어 함께 싸워줄 것입니다.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>우호도({1})가 {2}보다 높아졌기 때문에 발생했습니다. 우호도가 {3}보다 낮아지면 {0}(은)는 다시 적대 세력으로 돌아설 것입니다. 우호도가 {4} 이상이 되면 동맹이 되어 함께 싸워줄 것입니다.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>{0} 세력과의 관계가 식어 중립이 됐습니다.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>여전히 평화적으로 소통하려고는 하지만, 위험에 처할 때 지원군을 보내주지는 않습니다.\n\n이 경우는 우호도({1})가 {2} 아래로 떨어졌기 때문에 발생했습니다. 우호도가 {3}보다 낮아지면, {0} 세력은 다시 공격할 것입니다. 우호도가 {4}이상이 되면, 다시 동맹이 되어 함께 싸워줄 것입니다.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>여전히 우리와 평화적으로 소통하겠지만, 위험에 처해도 지원군을 보내지는 않을 것입니다.\n\n우호도({1})가 {2} 아래로 떨어졌기 때문에 발생했습니다. 우호도가 {3}보다 낮아지면 {0}(와)과 적대 관계가 됩니다. 우호도가 {4} 이상이 되면 다시 동맹이 되어 함께 싸워줄 것입니다.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>{0} 세력과의 관계가 매우 가까워져 동맹이 됐습니다.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>적들에게 공격받을 때 가끔 지원군을 보내줄 수도 있습니다. 또한, 언제든지 우호도를 소모하여 도움 요청할 수 있습니다.\n\n우호도({0})가 {1}를 넘었기 때문에 동맹이 되었습니다. 우호도가 {2}보다 낮아지게 되면, 중립 관계가 됩니다.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>동맹은 정착지가 적의 공격을 받을 때 가끔 지원군을 파견하기도 합니다. 또한, 언제든지 우호도를 소모하여 도움을 요청할 수 있습니다.\n\n우호도({0})가 {1}보다 높아졌기 때문에 발생했습니다. 우호도가 {2}보다 낮아지면 다시 중립 관계가 됩니다.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>우호도</goodwill>

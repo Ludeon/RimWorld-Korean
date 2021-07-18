@@ -73,7 +73,7 @@
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>경고: {ANIMAL_kindBasePlural}(은)는 조련 시도에 실패할 경우 공격할 수 있습니다. ({1} 확률)</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
-  <MessageInsectTameDesignated>Only those with the insect sympathy trait can tame {INSECT_indefinite}.</MessageInsectTameDesignated>
+  <MessageInsectTameDesignated>곤충 교감 특성을 지닌 정착민만 {INSECT_indefinite}(을)를 길들일 수 있습니다.</MessageInsectTameDesignated>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>포섭</LetterLabelMessageRecruitSuccess>
@@ -156,7 +156,7 @@
   <MessageMedicalOperationWillAngerFaction>이 수술은 {0} 세력을 분노하게 할 것입니다.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {PAWN_nameDef} is pregnant! -->
-  <MessageAnimalIsPregnant>TODO</MessageAnimalIsPregnant>
+  <MessageAnimalIsPregnant>{PAWN_nameDef}(이)가 임신했습니다!</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0}(이)가 굶주림으로 인해 유산했습니다.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
@@ -533,9 +533,9 @@
   <MessageGiftGivenButNotAppreciated>{0} 세력은 선물을 받았지만 좋아하진 않았습니다.</MessageGiftGivenButNotAppreciated>
 
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
-  <MessageCantGiveGiftBecauseCantCarryEncumbered>상단은 이미 포위되어 있어서 어떤 것도 운반할 수 없습니다.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <MessageCantGiveGiftBecauseCantCarryEncumbered>상단이 이미 너무 무거운 짐을 들고 있어서 다른 것을 운반할 수 없습니다.</MessageCantGiveGiftBecauseCantCarryEncumbered>
   <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
-  <MessageCantGiveGiftBecauseCantCarry>상단은 그렇게 많이 운반할 수 없습니다. 이 선물들의 무게는 {0}이지만 상단은 {1}만 더 운반할 수 있습니다.</MessageCantGiveGiftBecauseCantCarry>
+  <MessageCantGiveGiftBecauseCantCarry>상단이 그렇게 많이 운반할 수 없습니다. 선물의 무게가 {0}이지만 상단은 {1}만 더 운반할 수 있습니다.</MessageCantGiveGiftBecauseCantCarry>
 
   <!-- EN: {0} has formed and is now traveling on the world map. -->
   <MessageFormedCaravan>{0}(이)가 구성되어 세계 지도로 이동 중입니다.</MessageFormedCaravan>
@@ -585,14 +585,14 @@
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
   <MessageModWithPackageIdAlreadyEnabled>패키지 ID가 {0}인 다른 모드가 이미 활성화되어 있습니다. 활성화하기 전에 {1}(을)를 비활성화하십시오.</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
-  <MessageDisableModsBeforeCleaningTranslationFiles>이 도구를 사용하기 전에 모든 모드를 비활성하세요.</MessageDisableModsBeforeCleaningTranslationFiles>
+  <MessageDisableModsBeforeCleaningTranslationFiles>번역 파일을 정리하기 전에 모든 모드를 비활성화하세요.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
-  <MessageUnpackBeforeCleaningTranslationFiles>이것을 사용하기 전에 해당 언어의 기존 번역 파일을 모두 삭제하십시오.</MessageUnpackBeforeCleaningTranslationFiles>
+  <MessageUnpackBeforeCleaningTranslationFiles>번역 파일을 정리하기 전에 언어 압축을 해제하고, 압축 파일을 삭제하세요.</MessageUnpackBeforeCleaningTranslationFiles>
   <!-- EN: Done. Affected folders: {0} -->
   <MessageTranslationFilesCleanupDone>완료됨. 영향받은 폴더: {0}</MessageTranslationFilesCleanupDone>
 
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
-  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>번역 파일 중 하나인 ({0})(을)를 불러올 수 없습니다. XML 분석 오류를 먼저 해결해야 합니다.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>번역 파일 중 하나인 {0}(을)를 불러올 수 없습니다. 모든 XML 파싱 오류를 해결하세요.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>경고: {PAWN_nameDef}(을)를 포획하면 {PAWN_possessive} 세력 {PAWN_factionName}(이)가 분노하게 됩니다.</MessageCapturingWillAngerFaction>
@@ -688,11 +688,11 @@
   <!-- EN: {0_labelShort} must be capable of fighting. -->
   <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort}(은)는 전투에 참여할 수 있어야 합니다.</MessageRitualRoleMustBeCapableOfFighting>
   <!-- EN: this role cannot be played by someone else. -->
-  <MessageRitualRoleCannotReplaceRequiredPawn>TODO</MessageRitualRoleCannotReplaceRequiredPawn>
+  <MessageRitualRoleCannotReplaceRequiredPawn>다른 사람이 이 역할을 맡을 수 없습니다.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>TODO</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} cannot connect to a gauranlen tree because {0_possessive} connection was recently torn.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>TODO</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} has the same ideoligion as the converter.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}(은)는 간수를 맡을 수 없습니다.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
