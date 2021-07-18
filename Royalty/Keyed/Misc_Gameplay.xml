@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royalty and throne -->
+  <!-- EN: Satisfies title -->
+  <ThroneMaxSatisfiedTitle>작위 충족</ThroneMaxSatisfiedTitle>
+  <!-- EN: ({0} impressiveness) -->
+  <ThroneRoomImpressivenessInfo>({0})</ThroneRoomImpressivenessInfo>
+  <!-- EN: Throne must be placed indoors. -->
+  <ThroneMustBePlacedInside>왕좌는 실내에 위치해야 합니다.</ThroneMustBePlacedInside>
+  <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
+  <MinimumRoyalTitleInspectString>최소 작위 ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <!-- EN: Trading here requires title: {0} -->
+  <RequiresTradePermission>거래에 필요한 작위: {0}</RequiresTradePermission>
+  <!-- EN: Personal bedroom (partner allowed) -->
+  <RequirementPersonalBedroom>개인 침실 (배우자는 허용됨)</RequirementPersonalBedroom>
+  
+  <!-- Generated neurotrainers -->
+  <!-- EN: psytrainer ({0}) -->
+  <PsycastNeurotrainerLabel>초월교육혈청 ({0})</PsycastNeurotrainerLabel>
+  <!-- EN: Use psytrainer to learn {0} psycast -->
+  <PsycastNeurotrainerUseLabel>혈청을 사용하여 {0} 초능력 습득</PsycastNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
+  <PsycastNeurotrainerDescription>특정한 초능력 기술을 강제로 훈련시키는 일회성의 메카나이트 혈청.\n\n안와를 통해 뇌로 직접 투여됩니다. 메카나이트는 뇌의 특정 영역으로 파고들어 신경 조직의 형태를 변형시킴으로써 피시술자가 초능력 기술을 사용할 수 있게 합니다.</PsycastNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
+  <AbilityNeurotrainerUsed>{USER_labelShort}(은)는 초월교육혈청을 사용하여 {1} 초능력을 습득했습니다.</AbilityNeurotrainerUsed>
+  <!-- EN: Requires psylink -->
+  <PsycastNeurotrainerNoPsylink>정신력 증폭기 필요</PsycastNeurotrainerNoPsylink>
+  <!-- EN: {USER_labelShort} already knows {1}. -->
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort}(은)는 이미 {1}(을)를 알고 있습니다.</PsycastNeurotrainerAbilityAlreadyLearned>
+
+  <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor>임무를 수락한 림은 {0_name}에게 {0_royalFavorLabel} {1}장을 수여받습니다</Reward_RoyalFavor>
+  <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor_ChoosePawn>{2} 참여자 중 한 명을 선택하여 {0_name}에게 {0_royalFavorLabel} {1}장을 수여받습니다</Reward_RoyalFavor_ChoosePawn>
+  
+  <!-- Ship landing beacons -->
+  <!-- EN: Not usable -->
+  <NotUsable>사용불가</NotUsable>
+  <!-- EN: unpowered -->
+  <Unpowered>전력없음</Unpowered>
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>지붕에 의해 막힘</BlockedByRoof>
+  <!-- EN: Too close to other beacon -->
+  <TooCloseToOtherBeacon>매우 가까운 다른 신호기</TooCloseToOtherBeacon>
+  
+  <!-- Meditation -->
+  <!-- EN: Psyfocus -->
+  <Psyfocus>초집중</Psyfocus>
+  <!-- EN: Psyfocus -->
+  <PsyfocusLabelGizmo>초집중</PsyfocusLabelGizmo>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <PsyfocusDesc>초집중은 초능력을 사용하기 위해 필요한 특수한 유형의 정신적 구조입니다. 초집중은 시간이 지남에 따라 사라지고, 명상을 통해 축적할 수 있습니다. 모든 초집중을 잃게 된다면 초능력을 사용할 수 없으며 별다른 불이익은 없습니다.\n\n더높은 단계의 초집중은 더높은 단계의 초능력을 사용할 수 있지만, 초집중 소멸 비율도 증가합니다.</PsyfocusDesc>
+  <!-- EN: {0}-{1}% -->
+  <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
+  <!-- EN: Up to level {0} powers. -->
+  <PsyfocusLevelInfoPsycasts>초능력 {0} 수준까지</PsyfocusLevelInfoPsycasts>
+  <!-- EN: Psyfocus falls at {0} per day. -->
+  <PsyfocusLevelInfoFallRate>초집중은 매일 {0}만큼 소멸됩니다.</PsyfocusLevelInfoFallRate>
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>{LASTUSER_labelShort}의 집중명상</UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>집중효과 영향</MeditationFocusImpacted>
+  <!-- EN: {1} per nearby animus stone (max {0}) -->
+  <MeditationFocusPerAnimusStoneAbstract>근처 영혼석당 {1} (최대 {0})</MeditationFocusPerAnimusStoneAbstract>
+  <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
+  <MeditationFocusPerAnimusStone>근처 영혼석당 {2} ({0} / {1})</MeditationFocusPerAnimusStone>
+  <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>근처 영혼석 {2}, 자연사당 {1} (최대 {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
+  <MeditationFocusPerAnimusStoneAndShrine>근처 영혼석 {3}, 자연사당 {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
+  <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
+  <MeditationFocusPerSculptureAbstract>품질에 따른 근처 조각상당 최대 {1} (최대 {0})</MeditationFocusPerSculptureAbstract>
+  <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
+  <MeditationFocusPerSculpture>품질에 따른 근처 조각상당 최대 {2} ({0} / {1})</MeditationFocusPerSculpture>
+  <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
+  <MeditationFocusPerGraveAbstract>근처 무덤당 비어있는 경우 {1}, 인간 시체의 경우 {2} (최대 {0})</MeditationFocusPerGraveAbstract>
+  <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
+  <MeditationFocusPerGrave>근처 무덤당 비어있는 경우 {2}, 인간 시체의 경우 {3} ({0} / {1})</MeditationFocusPerGrave>
+  <!-- EN: {1} per nearby lit flame source (up to {0}) -->
+  <MeditationFocusPerFlameAbstract>근처에 있는 불꽃당 {1} (최대 {0})</MeditationFocusPerFlameAbstract>
+  <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
+  <MeditationFocusPerFlame>근처에 있는 불꽃당 {2} ({0} / {1})</MeditationFocusPerFlame>
+  <!-- EN: Psyfocus gain rate: {0}/d -->
+  <PsyfocusPerDayOfMeditation>초집중 획득률: {0}/일</PsyfocusPerDayOfMeditation>
+  <!-- EN: Desired psyfocus -->
+  <DesiredPsyfocus>지망하는 초집중</DesiredPsyfocus>
+  <!-- EN: Click to set desired psyfocus. -->
+  <DesiredPsyfocusDesc>클릭하여 원하는 초집중을 설정하세요.</DesiredPsyfocusDesc>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>소집 중이어야 합니다.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>재사용 대기시간입니다. {0}에 사용가능 합니다.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>이미 대기열에 있습니다.</AbilityAlreadyQueued>
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>버려질 열기가 없습니다.</AbilityNoEntropyToDump>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>{0} 능력이 준비되었습니다.</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef}(이)가 {1}(을)를 사용할 준비가 되었습니다.</AbilityReadyText>
+  
+  <!-- EN: no throne assigned. -->
+  <AbilitySpeechDisabledNoThroneAssigned>할당된 왕좌가 없습니다.</AbilitySpeechDisabledNoThroneAssigned>
+  <!-- EN: throne is not accessible. -->
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>왕좌에 접근할 수 없습니다.</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <!-- EN: throne not usable because it is undignified. -->
+  <AbilitySpeechDisabledNoThroneUndignified>왕좌의 수준이 낮아서 사용할 수 없습니다.</AbilitySpeechDisabledNoThroneUndignified>
+  <!-- EN: already giving a speech. -->
+  <AbilitySpeechDisabledAlreadyGivingSpeech>이미 연설이 진행 중입니다.</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>다른 모임이 진행 중입니다.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>다음 연설 준비</AbilitySpeechCooldown>
+  <!-- EN: Outcome chances -->
+  <AbilitySpeechPossibleOutcomes>결과</AbilitySpeechPossibleOutcomes>
+  <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
+  <AbilitySpeechStatInfo>{ORGANIZER_labelShort}의 {1} 통계</AbilitySpeechStatInfo>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>시작</AbilitySpeechTargetsLabel>
+  <!-- EN: Dignified throne -->
+  <AbilitySpeechTargetDescThrone>위엄있는 왕좌</AbilitySpeechTargetDescThrone>
+  
+  <!-- EN: no accessible altar. -->
+  <RitualDisabledNoAltar>접근 가능한 제단이 없습니다.</RitualDisabledNoAltar>
+  <!-- EN: Bestowing Ceremony -->
+  <RitualBestowingCeremony>수여식</RitualBestowingCeremony>
+
+  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
+  <TotalMeditationToday>오늘 전체 명상: {0} (진행계수 {1})</TotalMeditationToday>
+  <!-- EN: progress {0} -->
+  <ProgressToNextSubplant>진행률 {0}</ProgressToNextSubplant>
+  <!-- EN: Begin linking ritual -->
+  <BeginLinkingRitualFloatMenu>의식연결 시작</BeginLinkingRitualFloatMenu>
+  <!-- EN: Need {0} {1} here (have {2}) -->
+  <BeginLinkingRitualNeedSubplants>{0} {1} 필요 (보유 {2})</BeginLinkingRitualNeedSubplants>
+  <!-- EN: Need {0} psylink focus type -->
+  <BeginLinkingRitualNeedFocus>{0} 정신력 증폭기 집중 필요</BeginLinkingRitualNeedFocus>
+  <!-- EN: Max psylink level -->
+  <BeginLinkingRitualMaxPsylinkLevel>정신력 증폭기 최대 단계</BeginLinkingRitualMaxPsylinkLevel>
+  <!-- EN: Need a free, reachable spot within 3 cells for linking -->
+  <BeginLinkingRitualNeedLinkSpot>연결을 위해 3칸 이내에 자유롭게 도달할 수 있는 지점 필요</BeginLinkingRitualNeedLinkSpot>
+  <!-- EN: Linking ritual completed -->
+  <LetterLabelLinkingRitualCompleted>의식연결 완료</LetterLabelLinkingRitualCompleted>
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}(이)가 {LINKABLE_labelShort}(와)과 의식연결을 완료하였습니다.\n\n{PAWN_pronoun}는 정신력 증폭기가 상향되어, 새로운 초능력을 사용할 수 있습니다.</LetterTextLinkingRitualCompleted>
+  <!-- EN: Additionally, {0} anima grass has been restored. -->
+  <LetterTextLinkingRitualCompletedAnimaGrass>게다가, {0} 영혼 잔디가 회복되었습니다.</LetterTextLinkingRitualCompletedAnimaGrass>
+
+  <!-- EN: Land shuttle here -->
+  <LandHere>여기에 왕복선 착륙</LandHere>
+  <!-- EN: Destination is out of range. -->
+  <MessageShuttleDestinationIsTooFar>목적지가 범위를 벗어났습니다.</MessageShuttleDestinationIsTooFar>
+
+  <!-- EN: Start bestowing ceremony for {0_labelShort} -->
+  <BeginCeremony>{0_labelShort}의 수여식 시작</BeginCeremony>
+  <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>{PAWN_definite}의 알현실이 {TITLE} 작위의 요구사항에 미치지 못합니다.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>수여자는 {TITLE} 작위의 요구사항에 충족하지 못한 {PAWN_definite}의 알현실에 대해 불만을 느낍니다. 수여식이 취소되었습니다.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <!-- EN: bestowing ceremony -->
+  <BestowingCeremonyLabel>수여식</BestowingCeremonyLabel>
+  <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
+  <BestowingOutcomeQualitySpecific>TODO</BestowingOutcomeQualitySpecific>
+  
+  <!-- EN: No colonists that can link with anima tree right now. -->
+  <RitualTargetAnimaTreeNoPawnsToLink>TODO</RitualTargetAnimaTreeNoPawnsToLink>
+  <!-- EN: No colonists with the natural meditation focus type. -->
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>TODO</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <!-- EN: Need at least {0} anima grass. -->
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>TODO</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <!-- EN: An anima tree. -->
+  <RitualTargetAnimaTreeInfo>TODO</RitualTargetAnimaTreeInfo>
+  <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
+  <RitualTargetAnimaTreeMustBeCapableOfNature>TODO</RitualTargetAnimaTreeMustBeCapableOfNature>
+
+  <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
+  <AnimaLinkingExplanationBase>영혼 연결의식은 참여자가 많으면 강력해집니다. 더 많은 사람이 참여할수록 의식에 필요한 시간이 줄어들며 더 많은 영혼 잔디가 자라납니다.\n\n{0}명의 참여자를 추가하면 의식의 끝에 {1} 영혼 잔디가 회복됩니다.</AnimaLinkingExplanationBase>
+  <!-- EN: Not all required cargo is loaded yet! -->
+  <ShuttleRequiredItemsNotSatisfied>필요한 모든 화물이 적재되지 않았습니다!</ShuttleRequiredItemsNotSatisfied>
+</LanguageData>

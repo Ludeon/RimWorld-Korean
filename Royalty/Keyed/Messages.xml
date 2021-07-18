@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Shuttle landing zones -->
+  <!-- EN: Shuttle could not land on pad: {0} -->
+  <ShuttleBlocked>왕복선이 착륙할 수 없음: {0}</ShuttleBlocked>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>왕복선이 도착했습니다.</MessageShuttleArrived>
+  <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
+  <MessageShuttleArrivedContentsLost>왕복선이 도착했지만, 내부에 정착민이 없어서 내용물이 유실되었습니다.</MessageShuttleArrivedContentsLost>
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>왕복선 호출 불가</CannotCallShuttle>
+
+  <!-- EN: Cannot land in undiscovered area. -->
+  <ShuttleCannotLand_Fogged>미발견된 지역에 착륙할 수 없습니다.</ShuttleCannotLand_Fogged>
+  <!-- EN: Area must be walkable. -->
+  <ShuttleCannotLand_Unwalkable>통과 가능한 지역이어야 합니다.</ShuttleCannotLand_Unwalkable>
+
+  <!-- EN: Warning: Anima tree has been marked for cutting. -->
+  <MessageWarningCutAnimaTree>경고: 영혼나무에 벌목 명령이 되어 있습니다.</MessageWarningCutAnimaTree>
+
+  <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
+  <MessageBestowerWaiting>수여식을 시작하려면 {BESTOWER_definite}(을)를 선택하고 '수여식 시작'을 클릭하세요.</MessageBestowerWaiting>
+  <!-- EN: Cannot reach bestower! -->
+  <MessageBestowerUnreachable>수여자에게 도달할 수 없습니다!</MessageBestowerUnreachable>
+  <!-- EN: {0} is busy. -->
+  <MessageBestowingTargetIsBusy>TODO</MessageBestowingTargetIsBusy>
+  <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
+  <MessageBestowingSpotUnreachable>수여자는 참견에 짜증이 나서 떠나기로 했습니다.</MessageBestowingSpotUnreachable>
+  <!-- EN: The bestower is leaving due to life-threatening danger. -->
+  <MessageBestowingDanger>TODO</MessageBestowingDanger>
+  <!-- EN: The bestowing ceremony has been interrupted. -->
+  <MessageBestowingInterrupted>수여식이 중단되었습니다.</MessageBestowingInterrupted>
+
+  <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
+  <MessageBestowingCeremonyStarted>{PAWN_definite}의 수여식이 시작되었습니다.</MessageBestowingCeremonyStarted>
+  <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
+  <MessageMissionGetBackToShuttle>{FACTION_pawnsPlural}에게 이겼습니다! 왕복선으로 돌아가 발사하세요.</MessageMissionGetBackToShuttle>
+
+  <!-- EN: {FACTION_name} has dropped resources nearby. -->
+  <MessagePermitTransportDrop>{FACTION_name}(이)가 근처에 자원 떨어뜨렸습니다.</MessagePermitTransportDrop>
+  <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
+  <MessagePermitTransportDropCaravan>{FACTION_name}(이)가 {PAWN_nameDef}의 상단에 자원을 보냈습니다.</MessagePermitTransportDropCaravan>
+
+  <!-- EN: No orbiting mechanoids found. -->
+  <MessageNoFactionForVerbMechCluster>궤도 메카노이드를 찾을 수 없습니다.</MessageNoFactionForVerbMechCluster>
+
+</LanguageData>

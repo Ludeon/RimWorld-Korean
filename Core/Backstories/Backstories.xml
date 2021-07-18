@@ -226,6 +226,15 @@
     <desc>중세 농장에서 태어난 {PAWN_nameDef}(은)는 가축을 돌보는 일을 맡았습니다. {PAWN_pronoun}는 동물들을 사랑했습니다.\n\n시간이 지나면서 {PAWN_pronoun}는 야생 동물을 길들이는 법을 배웠습니다. {PAWN_pronoun}는 언젠가 트럼보를 만나고 길들이는 것을 꿈꿨습니다.</desc>
   </AnimalCaretaker20>
   
+  <AnimalFarmer21>
+    <!-- EN: animal farmer -->
+    <title>목장 일꾼</title>
+    <!-- EN: animal farmer -->
+    <titleShort>목장 일꾼</titleShort>
+    <!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
+    <desc>{PAWN_nameDef}(은)는 고기, 우유, 달걀, 그리고 가죽등을 제공해주는 여러 동물들을 키운 경험이 있습니다.</desc>
+  </AnimalFarmer21>
+  
   <AnimalLabTech39>
     <!-- EN: animal lab tech -->
     <title>동물 연구원</title>
@@ -239,7 +248,7 @@
     <!-- EN: antisocial child -->
     <title>소심한 아이</title>
     <!-- EN: antisocial -->
-    <titleShort>소심함</titleShort>
+    <titleShort>소심쟁이</titleShort>
     <!-- EN: [PAWN_nameDef] lacked typical social skills, and avoided social interaction.\n\n[PAWN_pronoun] gained satisfaction only from steady work. [PAWN_pronoun] especially disliked speaking with overly creative or outgoing individuals. -->
     <desc>{PAWN_nameDef}(은)는 사회에 어울리지 못하고 상호작용을 피해왔습니다.\n\n{PAWN_pronoun}는 자신의 일을 계속 함으로써 평안을 얻었습니다. {PAWN_pronoun}는 창의적이거나 외향적인 사람들과 어울리는 것을 싫어했습니다.</desc>
   </AntisocialChild83>
@@ -264,9 +273,9 @@
   
   <ApprenticeOracle83>
     <!-- EN: apprentice oracle -->
-    <title>의식의 아이</title>
+    <title>수습 사제</title>
     <!-- EN: oracle -->
-    <titleShort>의식</titleShort>
+    <titleShort>사제</titleShort>
     <!-- EN: [PAWN_nameDef] was chosen at an early age by the village elders to keep the sacred rituals of the Oracle.\n\nAn irrepressibly curious child, [PAWN_nameDef] caused a religious crisis for [PAWN_possessive] tribe when [PAWN_pronoun] accidentally flipped a switch to open the "tombs" of the Gods - cryptosleep caskets inhabited by some very confused ancestors. -->
     <desc>{PAWN_nameDef}(은)는 마을의 장로들이 신전의 신성한 의식을 지키기 위해 어린 나이에 선택되었습니다.\n\n호기심이 많던 그 아이는 조상신이 묻혀있는 무덤을 열 수 있는 '스위치'를 실수로 눌러버렸고, 감추어진 신들의 무덤이 드러나 자신의 부족과 종교에 위기를 가져왔습니다.</desc>
   </ApprenticeOracle83>
@@ -315,6 +324,15 @@
     <!-- EN: [PAWN_nameDef] was a cybernetic researcher. Studying a transcended world, [PAWN_pronoun] became too involved with [PAWN_possessive] subjects. Over time, the archotech recruited [PAWN_objective] into its service, and used [PAWN_objective] as a spy.\n\nWhen [PAWN_pronoun] later rebelled against [PAWN_possessive] inhuman master, it sent mechanoids across space to hunt [PAWN_objective] down. -->
     <desc>{PAWN_nameDef}(은)는 인공지능 연구원입니다. 불가능한 범위의 넓은 세상을 연구하면서 {PAWN_pronoun}는 그 연구 과제에 과몰입 되었습니다. 시간이 지나면서 아코테크 기계 코어는 {PAWN_pronoun}를 스파이로 사용하기 위해 고용했습니다. 하지만 나중에 {PAWN_pronoun}가 비인간인 기계 주인에게 대항했을 때 그것은 {PAWN_pronoun}를 저격하기 위해 우주를 가로질러 메카노이드를 보냈습니다.</desc>
   </ArchotechSpy75>
+  
+  <ArmyCommander14>
+    <!-- EN: Army commander -->
+    <title>육군 지휘관</title>
+    <!-- EN: Commander -->
+    <titleShort>지휘관</titleShort>
+    <!-- EN: Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
+    <desc>만족을 모르는 {PAWN_nameDef}의 야망은 {PAWN_objective} 군사체계의 정점까지 올려주었습니다.\n\n{PAWN_pronoun}는 적들과 병사들에게 고통과 죽음을 선사할 힘을 가지고 나서야 만족했습니다.</desc>
+  </ArmyCommander14>
   
   <ArmyCook0>
     <!-- EN: army cook -->
@@ -427,9 +445,9 @@
   </ArtsPatron54>
   
   <ArtStudent79>
-    <!-- EN: Art student -->
+    <!-- EN: art student -->
     <title>예술 학생</title>
-    <!-- EN: Artist -->
+    <!-- EN: artist -->
     <titleShort>예술가</titleShort>
     <!-- EN: After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industry work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from heart. -->
     <desc>몇 년간의 훈련 끝에, Freya는 미술 대학교에 입학하여 그녀의 재능을 훨씬 더 키울 수 있었습니다. 그녀는 좋은 성적으로 졸업한 뒤, 산업 예술 일을 찾았습니다. 그녀는 사적인 커미션을 진행했고, 그녀의 예술로 남부럽지 않은 생활을 유지해나갔습니다.</desc>
@@ -905,6 +923,15 @@
     <desc>{PAWN_nameDef}(은)는 법의 구멍을 이용하여 합법적인 사업가가 되었고, 다른 사람들을 억압했습니다. 매춘업소, 밀매업소들의 소유주로써, {PAWN_pronoun}의 경쟁은 다른사람들이 불행하고 설명할 수 없는 사고를 겪었지만, {PAWN_nameDef}만은 행운이 계속되었습니다.</desc>
   </BusinessGangster58>
   
+  <Butcher40>
+    <!-- EN: butcher -->
+    <title>도살자</title>
+    <!-- EN: butcher -->
+    <titleShort>도살자</titleShort>
+    <!-- EN: [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time. -->
+    <desc>사냥대에서 {PAWN_nameDef}의 주된 작업은 잡은 동물의 도축이었습니다. {PAWN_pronoun}는 칼을 쓰는데 놀라울만큼 능숙해져, 아주 짧은 시간 안에 시체에서 모든 뼈와 살을 분리해 낼 수 있게 되었습니다.</desc>
+  </Butcher40>
+  
   <Cadet96>
     <!-- EN: cadet -->
     <title>생도</title>
@@ -914,14 +941,23 @@
     <desc>New China 행성에서 태어난 {PAWN_nameDef}의 아버지는 경찰서장이었으며 아들을 매우 엄격하게 감시했습니다. {PAWN_nameDef}(은)는 매일 군대식 훈련을 해야 했고, 매일 검열을 받을 수 있도록 {PAWN_pronoun}의 방을 청결히 유지해야 했습니다. {PAWN_pronoun}는 폭력을 혐오하게 되었습니다.</desc>
   </Cadet96>
   
-  <CaravanChild29>
+  <CaesicMarshal72>
+    <!-- EN: Caesic marshal -->
+    <title>캐식 집행관</title>
+    <!-- EN: marshal -->
+    <titleShort>집행관</titleShort>
+    <!-- EN: They say that the Caesics soldiers are recruited from the dead. Rising through such ranks, most return whence they came. [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others. -->
+    <desc>캐식 군사들은 죽은 이들 가운데서 모집된다고 하며, 이들중 대부분은 다시 그들이 모집되었던 곳으로 돌아갑니다. {PAWN_nameDef}(이)가 많은 이들 위에 군림할 수 있었던 이유는 {PAWN_possessive} 천재적인 전략과 기계같은 집중력, 그리고 타인과 자신의 고통을 감내할 능력이 있었기 때문입니다.</desc>
+  </CaesicMarshal72>
+  
+  <CaravanChild53>
     <!-- EN: caravan child -->
     <title>행상단 아이</title>
     <!-- EN: child -->
     <titleShort>아이</titleShort>
-    <!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother’s things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
+    <!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother's things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
     <desc>{PAWN_nameDef}(은)는 한 도시계의 상선에서 태어났습니다. 남자로써 태어났지만, 그녀는 남자들을 싫어했고, 그녀의 어머니의 물건에 빠져들었습니다.\n\n결국 그녀는 어머니와 함께 번화계로 여행을 떠났고, 그곳에서 그녀가 원하던 몸을 손에 넣었습니다.</desc>
-  </CaravanChild29>
+  </CaravanChild53>
   
   <Caravaneer53>
     <!-- EN: caravaneer -->
@@ -940,6 +976,15 @@
     <!-- EN: Born to a family of traveling merchants, [PAWN_nameDef] was mentored by [PAWN_possessive] father in the ways of being a trader. [PAWN_pronoun] was often tasked with caring for the pack animals. Due to [PAWN_possessive] nomadic lifestyle, [PAWN_pronoun] hunted and bartered for [PAWN_possessive] food. -->
     <desc>행상가문의 아들로 태어난 {PAWN_nameDef}(은)는 {PAWN_possessive} 아버지에게서 상인이 되는 법을 교육받았습니다. {PAWN_pronoun}는 짐 나르는 동물들을 보살피는 일을 주로 맡았고, 떠도는 생활로 인해 음식은 주로 사냥과 수집을 통해 구해야 했습니다.</desc>
   </CaravanTraveler6>
+  
+  <CardCounter25>
+    <!-- EN: card counter -->
+    <title>타짜</title>
+    <!-- EN: card counter -->
+    <titleShort>타짜</titleShort>
+    <!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids. -->
+    <desc>도시계의 뒷골목에서 강한 아이라면 싸움을 배우고, 영악한 아이들은 꼼수를 배웠습니다. 그도 저도 아닌 아이들은 살아남을 수 없었습니다. {PAWN_nameDef}(은)는 영악한 아이 중 하나였습니다.</desc>
+  </CardCounter25>
   
   <CargoPilot58>
     <!-- EN: cargo pilot -->
@@ -995,6 +1040,15 @@
     <desc>{PAWN_nameDef}(은)는 아버지의 고양이 사육, 사회화, 몰기, 먹이주기 등 수백마리의 고양이에게 먹이를 주는 일을 도왔습니다.\n\n{PAWN_pronoun}가 고양이들을 치우는 것을 거절했기 때문에, {PAWN_pronoun}는 과학적 사육 부서로 옮겨가게 되었습니다.</desc>
   </CatHerder4>
   
+  <CaveBuilder81>
+    <!-- EN: cave builder -->
+    <title>동굴 건설자</title>
+    <!-- EN: cave builder -->
+    <titleShort>동굴 건설자</titleShort>
+    <!-- EN: [PAWN_nameDef] specialized in cave complex excavation and construction. -->
+    <desc>{PAWN_nameDef}(은)는 지하단지의 굴착과 건설을 전문적으로 다뤘습니다.</desc>
+  </CaveBuilder81>
+  
   <CaveChild17>
     <!-- EN: cave child -->
     <title>동굴의 아이</title>
@@ -1013,23 +1067,32 @@
     <desc>{PAWN_nameDef}(은)는 산 깊숙히 뻗어 있는 크고 복잡한 동굴에서 자랐습니다. {PAWN_pronoun}는 어른들이 깊은 동굴을 유지하고 개조하는 것을 도우며 자랐습니다.</desc>
   </CaveChild30>
   
-  <CaveworldIlluminator23>
+  <CaveExplorer45>
+    <!-- EN: cave explorer -->
+    <title>동굴 조사원</title>
+    <!-- EN: cave explorer -->
+    <titleShort>동굴 조사원</titleShort>
+    <!-- EN: [PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good. -->
+    <desc>{PAWN_nameDef}(은)는 어두운 터널과 지나가기 매우 힘든 틈새를 헤집고 다니며 귀중한 광석 지도를 만들어 생계를 이어나갔습니다. 매우 고되고 위험한 일이었지만, 보수는 아주 좋았습니다.</desc>
+  </CaveExplorer45>
+  
+  <CaveworldIlluminator95>
     <!-- EN: caveworld illuminator -->
     <title>동굴계 안내인</title>
     <!-- EN: illuminator -->
     <titleShort>안내인</titleShort>
-    <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]’s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
+    <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]'s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
     <desc>터널 거주자 중에서도 {PAWN_nameDef} 만큼 시력이 강한 사람은 현자로 존경받습니다. {PAWN_pronoun}는 발광 곰팡이로 위험한 지점을 표시해서 사람들에게 경고를 주고 길을 인도할 것입니다.</desc>
-  </CaveworldIlluminator23>
+  </CaveworldIlluminator95>
   
-  <CaveworldTender20>
+  <CaveworldTender26>
     <!-- EN: caveworld tender -->
     <title>동굴계 파수꾼</title>
     <!-- EN: cave kid -->
     <titleShort>동굴 꼬마</titleShort>
-    <!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe’s fungus crops. -->
+    <!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe's fungus crops. -->
     <desc>{PAWN_nameDef}(은)는 사람이 지내기 힘든 행성 표면 아래 깊은 곳의 동굴망에서 자랐습니다. {PAWN_pronoun}는 부족의 버섯을 관리하는 다른 아이들과 함께 일했습니다.</desc>
-  </CaveworldTender20>
+  </CaveworldTender26>
   
   <CaveworldTunneler48>
     <!-- EN: caveworld tunneler -->
@@ -1193,14 +1256,14 @@
     <desc>{PAWN_nameDef}(은)는 제국 교회의 초능력 학교에 소속된 초능력자였습니다.\n\n{PAWN_nameDef}(은)는 {PAWN_possessive} 정신을 집단적인 감정과 느낌을 감지할 수 있도록 훈련시켰습니다. 그것은 제국의 정신을 감동시키는 방법이었습니다. 또한 그것은 이단적인 사상의 추세를 뿌리 뽑는 방법이기도 했습니다.</desc>
   </ChurchPsychic98>
   
-  <CircusPerformer93>
+  <CircusPerformer37>
     <!-- EN: circus performer -->
     <title>서커스 공연자</title>
     <!-- EN: performer -->
     <titleShort>공연자</titleShort>
-    <!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting then the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
+    <!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting than the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
     <desc>서커스에서 자란 {PAWN_nameDef}(은)는 흥미로운 것들을 많이 배웠습니다. {PAWN_pronoun}가 저글링하는 공보다 더 흥미로운 것은 {PAWN_pronoun}가 쇼에서 고른 주머니였습니다.\n\n{PAWN_pronoun}는 불막대기를 다루던 중 실수를 하면서, 화재에 대한 두려움을 갖게 되었습니다.</desc>
-  </CircusPerformer93>
+  </CircusPerformer37>
   
   <CivilEngineer2>
     <!-- EN: civil engineer -->
@@ -1319,14 +1382,14 @@
     <desc>{PAWN_nameDef}(은)는 새로운 세계의 정착민입니다. 이런 인생을 살려면 모든 기본적인 기술에 익숙해야 합니다.</desc>
   </ColonySettler53>
   
-  <ComaChild57>
+  <ComaChild93>
     <!-- EN: coma child -->
     <title>혼수상태의 아이</title>
     <!-- EN: coma child -->
     <titleShort>혼수상태</titleShort>
-    <!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn’t wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
+    <!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn't wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
     <desc>어릴 적 발생한 사고가 {PAWN_nameDef}(을)를 혼수상태에 빠지게 했습니다. {PAWN_pronoun}는 10대 시절이 거의 끝날 때까지 깨어나지 못했습니다. {PAWN_possessive} 신체는 오랫동안 활동하지 않아서 회복되지 못했지만, 사람들은 {PAWN_possessive} 이야기를 듣게 되면 {PAWN_pronoun}를 가엾게 여깁니다.</desc>
-  </ComaChild57>
+  </ComaChild93>
   
   <CombatEngineer30>
     <!-- EN: combat engineer -->
@@ -1374,18 +1437,18 @@
   </CombatNegotiator31>
   
   <CommonerHeir5>
-    <!-- EN: Commoner heir -->
+    <!-- EN: commoner heir -->
     <title>평민 출신</title>
-    <!-- EN: Heir -->
+    <!-- EN: heir -->
     <titleShort>후계자</titleShort>
     <!-- EN: [PAWN_nameDef] was a street urchin on a feudal steamworld.\n\n        After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne. -->
     <desc>{PAWN_nameDef}(은)는 증기 기관을 이용한 봉건 세계의 장난꾸러기 였습니다.\n\n        {PAWN_pronoun}가 궁전에서 음식을 훔치는 도중에 잡혔고, 황제는 {PAWN_pronoun}를 불쌍히 여겨 데려와 교육을 시켰고, 자신의 후계자로 삼았습니다.\n</desc>
   </CommonerHeir5>
   
   <CommonerLord45>
-    <!-- EN: Commoner lord -->
+    <!-- EN: commoner lord -->
     <title>평민 군주</title>
-    <!-- EN: Lord -->
+    <!-- EN: lord -->
     <titleShort>군주</titleShort>
     <!-- EN: After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.\n\n        Because of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective]. -->
     <desc> {PAWN_nameDef}(은)는 수년간 강도 높은 무술 훈련과 교육을 받고{PAWN_pronoun}는 자신의 나라를 지배하게 되었습니다.\n\n        {PAWN_nameDef}의 출신이 평민이라는 것이 드러난 후, 유산 상속법에 의해 범죄자로 낙인되었고, 추방당하게 되었습니다.</desc>
@@ -1462,6 +1525,15 @@
     <!-- EN: Growing up in [PAWN_possessive] father's lab, [PAWN_nameDef] was given the life of an intellectual elite. [PAWN_pronoun] got everything [PAWN_pronoun] desired, and price was never an object.\n\nHowever [PAWN_nameDef] did not partake in the luxury given to him. Instead, [PAWN_pronoun] pursued more physical, and - in [PAWN_possessive] father's eyes - lower-class jobs. -->
     <desc>아버지의 연구소에서 자란 {PAWN_nameDef}(은)는 지식인으로 살 수 있었습니다. {PAWN_pronoun}는 원하는 것을 모두 얻었고, 가격은 그렇게 중요하지 않았습니다.\n\n하지만 {PAWN_nameDef}(은)는 사치를 부린 적은 없었습니다. 대신, {PAWN_pronoun}의 아버지가 하층민의 일이라 여기는 육체적인 작업을 선호했습니다.</desc>
   </ConstructionGrunt84>
+  
+  <ContractMiner86>
+    <!-- EN: contract miner -->
+    <title>계약 광부</title>
+    <!-- EN: contract miner -->
+    <titleShort>계약 광부</titleShort>
+    <!-- EN: [PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding. -->
+    <desc>{PAWN_nameDef}(은)는 여러 노출광산과 갱도를 다니며 광석과 고대의 귀중품들을 발굴했습니다. 비위생적이고 힘든 일이지만, {PAWN_pronoun}는 보람을 느꼈습니다.</desc>
+  </ContractMiner86>
   
   <ConventChild16>
     <!-- EN: convent child -->
@@ -1809,6 +1881,15 @@
     <desc>{PAWN_nameDef}(은)는 적의 방어를 뚫기 위한 폭발물을 만들고 설치했습니다. 매일 폭발물을 다루는 것은 {PAWN_pronoun}에게 항상 분별력을 가지고 손을 떨지 않는 법을 가르쳐 주었습니다.</desc>
   </Demolitionist39>
   
+  <DepartmentHead61>
+    <!-- EN: Department head -->
+    <title>행정부 장관</title>
+    <!-- EN: Boss -->
+    <titleShort>장관</titleShort>
+    <!-- EN: Seeking to satiate an unconscious thirst for power, [PAWN_nameDef] entered government. [PAWN_pronoun] rose through the ranks by ruining the careers of those around [PAWN_objective].\n\nOnce established, [PAWN_possessive] bureaucratic fief allowed him to get away with severe moral transgressions. -->
+    <desc>항상 갈망하던 권력을 얻기위해 {PAWN_nameDef}(은)는 정부기관에 입사했습니다. {PAWN_pronoun}는 주변인들의 커리어를 망쳐가며 승진에 승진을 거듭했습니다.\n\n충분한 입지가 다져진 후에, {PAWN_possessive} 권력은 심각한 비도덕적 범법행위의 처벌을 피할 수 있었습니다.</desc>
+  </DepartmentHead61>
+  
   <Deserter65>
     <!-- EN: deserter -->
     <title>탈영병</title>
@@ -1835,6 +1916,15 @@
     <!-- EN: [PAWN_nameDef] held the rank of Destroyer-General in a powerful midworld military.\n\n[PAWN_pronoun] was known for [PAWN_possessive] mastery of weapons, and was also a good ship pilot. -->
     <desc>{PAWN_nameDef}(은)는 중세계 군에서 구축함 장군이었습니다. {PAWN_pronoun}는 무기를 잘 다룰 수 있고 배를 조종하는데 탁월한 것으로 이름을 날렸습니다.</desc>
   </DestroyerGeneral26>
+  
+  <Digger31>
+    <!-- EN: digger -->
+    <title>땅굴꾼</title>
+    <!-- EN: digger -->
+    <titleShort>땅굴꾼</titleShort>
+    <!-- EN: [PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions. -->
+    <desc>{PAWN_nameDef}(은)는 광산과 동굴에서 물품보관 및 대피를 위한 자리를 파내는 일을 하였습니다. {PAWN_possessive} 일은 친구들에게 여러번 숨어 지낼만한 공간을 제공했습니다.</desc>
+  </Digger31>
   
   <Digger66>
     <!-- EN: digger -->
@@ -1908,23 +1998,32 @@
     <desc>{PAWN_nameDef}(은)는 제국 부대의 공무원이었습니다. {PAWN_pronoun}(은)는 {PAWN_possessive} 일을 잘 하기 위해 사교와 전투 능력을 키웠고 사람들에게 존경을 받았습니다.\n\n{PAWN_possessive} 부대가 처음으로 직격탄을 맞자, {PAWN_nameDef}(은)는 벙커로 도망가 숨었습니다. {PAWN_pronoun}는 직급을 강등당했고 절대 불명예를 씻지 못했습니다.</desc>
   </DisgracedOfficer19>
   
-  <DisplacedNoble83>
+  <DisplacedNoble67>
     <!-- EN: displaced noble -->
     <title>추방된 귀족</title>
     <!-- EN: noble -->
     <titleShort>귀족</titleShort>
-    <!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]’s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
+    <!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]'s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
     <desc>3대국을 통치하는 도시계 귀족으로 태어난 {PAWN_nameDef}(은)는 폭력적인 반란으로 몰락하기 전까지는 전망이 밝았습니다. 망명한 {PAWN_pronoun}는 고된 일과 전투에도 투입되지만, 귀족 특유의 까다로움이 아직 남아있습니다.</desc>
-  </DisplacedNoble83>
+  </DisplacedNoble67>
   
-  <DoomsdayPariah24>
+  <DivorceKid95>
+    <!-- EN: divorce kid -->
+    <title>이혼가정 아이</title>
+    <!-- EN: divorce -->
+    <titleShort>이혼</titleShort>
+    <!-- EN: [PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age. -->
+    <desc>{PAWN_nameDef}(은)는 고향 행성에서 최고의 사립학교를 다닐 수 있을 만큼 운이 좋았습니다.\n\n또한 {PAWN_nameDef}(은)는 부모님이 이혼하는 걸 어린 나이에 목격할 만큼 운이 안 좋기도 했지요.</desc>
+  </DivorceKid95>
+  
+  <DoomsdayPariah18>
     <!-- EN: doomsday pariah -->
     <title>심판의 날 부랑자</title>
     <!-- EN: pariah -->
     <titleShort>부랑자</titleShort>
-    <!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault’s spacecraft and departed to find more relics to abuse. -->
+    <!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault's spacecraft and departed to find more relics to abuse. -->
     <desc>{PAWN_nameDef}(은)는 유적지를 뒤지는 동안 외계 지하실을 가까스로 열었습니다. {PAWN_pronoun}는 자신도 모르게 행성의 모든 생명을 몰살시키는 심판의 날 장치를 작동시켰습니다. 인간의 삶보다 기술에 더 관심이 많았던 {PAWN_pronoun}는 지하실 내 우주선에 탑승했고 더 많은 학살의 유물을 찾기 위해 출발했습니다.</desc>
-  </DoomsdayPariah24>
+  </DoomsdayPariah18>
   
   <DreadedBaby56>
     <!-- EN: dreaded baby -->
@@ -2079,6 +2178,15 @@
     <desc>{PAWN_nameDef}(은)는 21번째 생일날 종교적 각성을 체험했고, 여생을 창조주의 말씀, 그분 문화의 아름다움, 그 특별한 치유법을 전파하리라 마음먹었습니다.</desc>
   </Evangelist39>
   
+  <Excavator55>
+    <!-- EN: excavator -->
+    <title>굴착꾼</title>
+    <!-- EN: excavator -->
+    <titleShort>굴착꾼</titleShort>
+    <!-- EN: [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools. -->
+    <desc>{PAWN_nameDef}(은)는 여러 굴착 부지에서 일하며 고대의 폐허에서 귀중한 물품들과 재료들을 발굴했습니다. {PAWN_pronoun}는 땅에서 자원을 찾는 방법을 배웠고, 여러 굴착 도구들의 사용법을 익혔습니다.</desc>
+  </Excavator55>
+  
   <ExecutiveOfficer5>
     <!-- EN: executive officer -->
     <title>최고 경영자</title>
@@ -2105,6 +2213,15 @@
     <!-- EN: [PAWN_nameDef]'s love of robotics was not appreciated in [PAWN_possessive] technophobic empire. The High Cardinal of the system excommunicated her, and [PAWN_pronoun] was never allowed to return. -->
     <desc>{PAWN_nameDef}의 로봇에 대한 사랑은 기술을 혐오하는 {PAWN_pronoun}의 제국에서 인정받지 못했습니다. 제국의 고위 추기경은 {PAWN_pronoun}를 면직시켰고, {PAWN_pronoun}는 다시는 그 땅으로 돌아갈 수 없었습니다.</desc>
   </ExiledResearcher44>
+  
+  <ExMilitary9>
+    <!-- EN: ex-military -->
+    <title>전직군인</title>
+    <!-- EN: ex-military -->
+    <titleShort>전직군인</titleShort>
+    <!-- EN: [PAWN_nameDef] always had an appetite for risk. Military life satisfied that need for a while, but eventually it wasn't enough.\n\nSeeking greater gambles, [PAWN_nameDef] took an offer from a mysterious machine persona and traveled to an unknown rimworld with a mysterious implant in [PAWN_possessive] head. -->
+    <desc>{PAWN_nameDef}(은)는 항상 위험한 것을 좋아했습니다. 군인으로서의 첫생활은 그 욕구를 어느정도 채워주었지만, 결국 만족할 수 없었습니다.\n\n{PAWN_nameDef}(은)는 좀 더 아찔한 모험을 찾던 도중, 수수께끼의 한 기계 지성체를 만났습니다. 그것의 제안에 따라서 머리에 알 수 없는 보철물을 설치하고 어딘지 모를 머나먼 변경계로 여행을 떠났습니다.</desc>
+  </ExMilitary9>
   
   <ExoticChef96>
     <!-- EN: exotic chef -->
@@ -2376,6 +2493,15 @@
     <desc>{PAWN_pronoun}가 갓난 아기였을때 {PAWN_nameDef}의 어머니는 미쳐버렸고 {PAWN_pronoun} 숲에 버려졌습니다.\n\n그로인해 {PAWN_nameDef}(은)는 야생에서 자라는 동안 동물을 사랑하기도 때론 죽여서 살아야만 했습니다.</desc>
   </ForestChild83>
   
+  <Forester96>
+    <!-- EN: forester -->
+    <title>산지기</title>
+    <!-- EN: forester -->
+    <titleShort>산지기</titleShort>
+    <!-- EN: [PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth. -->
+    <desc>{PAWN_nameDef}(은)는 숲을 키우고 벌목을 했습니다. {PAWN_pronoun}는 토양의 종류, 바람, 그리고 비와 같은 외부 요인을 숙지하고 있었으며, 숲의 장기적인 성장 또 한 잘 이해하고 있었습니다.</desc>
+  </Forester96>
+  
   <ForestProwler15>
     <!-- EN: forest prowler -->
     <title>숲 속의 방황자</title>
@@ -2447,6 +2573,15 @@
     <!-- EN: [PAWN_nameDef] rebelled against the corporation [PAWN_pronoun] worked for. [PAWN_pronoun] failed, and was forced [PAWN_objective] to go on the run.\n\n[PAWN_pronoun] was always on the move, always leaving everything behind. [PAWN_pronoun] tried to gain supporters for [PAWN_possessive] cause, but failed due to [PAWN_possessive] poor social skills. -->
     <desc>{PAWN_nameDef}(은)는 기업의 기밀을 빼내려 시도를 했지만 실패했고 결국 도망치는 길 밖에 없었습니다.\n\n{PAWN_pronoun}는 모든 것을 남기고 떠난 채 항상 움직여야만 했습니다. {PAWN_pronoun}는 명분을 얻기 위해 지지자를 모으려 했었지만 그것마저도 {PAWN_possessive} 사교 기술이 낮은 탓에 실패할 수밖에 없었습니다.</desc>
   </Fugitive4>
+  
+  <FurnitureBuilder50>
+    <!-- EN: furniture builder -->
+    <title>가구 목수</title>
+    <!-- EN: builder -->
+    <titleShort>목수</titleShort>
+    <!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent his time building beautiful furniture for wealthy glitterworld clients. -->
+    <desc>숲 근처에서 자란 {PAWN_nameDef}(은)는 많은 시간을 번화계의 고객들을 위한 아름다운 가구들을 만드는데 할애했습니다.</desc>
+  </FurnitureBuilder50>
   
   <GalacticPage37>
     <!-- EN: galactic page -->
@@ -2659,14 +2794,14 @@
     <desc>우주생물학의 모든 측면에서 해박한 지식을 가지고 태어난 {PAWN_nameDef}(은)는 노움 프로젝트의 일환으로 연구실에서 설계되었습니다.\n\n노움 과학자들은 {PAWN_pronoun}에게 '기즈모'라는 별명을 붙여주었고 조각가로 변모시켰습니다. {PAWN_nameDef}(은)는 노움을 조각하는 것과 노움 장신구 제작하는 것을 좋아했습니다.</desc>
   </GNomeSculptor34>
   
-  <GovernmentAgent47>
+  <GovernmentAgent61>
     <!-- EN: government agent -->
     <title>정부 요원</title>
     <!-- EN: agent -->
     <titleShort>요원</titleShort>
-    <!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don’t bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
+    <!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don't bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
     <desc>{PAWN_nameDef}(은)는 정부를 위해 반란군과 맞서 싸웠고 유능했습니다. {PAWN_pronoun}는 사격, 근접과 의학 기술을 훈련을 통해 배웠습니다.\n\n전쟁으로 폐허가 된 도시에서 자랐기 때문에 흙이나 피, 시체들은 신경쓸 일도 없었으며 깨끗하게 치워야 할 이유도 없었습니다.</desc>
-  </GovernmentAgent47>
+  </GovernmentAgent61>
   
   <GraphicDesigner33>
     <!-- EN: graphic designer -->
@@ -2676,6 +2811,15 @@
     <!-- EN: [PAWN_nameDef]' interest in artistic expression led [PAWN_objective] to become a designer. [PAWN_possessive] eye for detail made [PAWN_objective] a reasonably well-known artist on [PAWN_possessive] planet, though [PAWN_possessive] meticulousness often led [PAWN_objective] to spend too much time perfecting a single project. -->
     <desc>{PAWN_nameDef}의 예술 표현에 대한 관심은 {PAWN_pronoun}를 디자이너의 길로 이끌었습니다. 세심한 눈으로 {PAWN_pronoun}는 행성에서 꽤 잘 알려진 예술가가 되었지만, {PAWN_possessive} 꼼꼼함 때문에 한 프로젝트를 완성하는 데 너무 많은 시간을 자주 소비하게 됐습니다.</desc>
   </GraphicDesigner33>
+  
+  <GrownMate56>
+    <!-- EN: grown mate -->
+    <title>인공 반려자</title>
+    <!-- EN: mate -->
+    <titleShort>반려자</titleShort>
+    <!-- EN: [PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. -->
+    <desc>{PAWN_nameDef}(은)는 초고급 클리닉에서 손님들의 입맛에 맞춰 제작되었습니다.\n\n완벽한 쾌락을 선사하기위해 설계되고, 성장하고, 훈련된 {PAWN_pronoun}는 내로라 하는 실제 인간 연인마저 우습게 만들만한 기술들을 배웠습니다.</desc>
+  </GrownMate56>
   
   <Guardian55>
     <!-- EN: guardian -->
@@ -2758,15 +2902,6 @@
     <desc>한번에 며칠씩 헤드잭을 꽂아 컴퓨터에 연결하는 {PAWN_nameDef}(은)는 사람이나 애완동물보다 컴퓨터가 더 편하다는 것을 알게 되었습니다.</desc>
   </HeadjackAddict4>
   
-  <Healer0>
-    <!-- EN: healer -->
-    <title>치유사</title>
-    <!-- EN: healer -->
-    <titleShort>치유사</titleShort>
-    <!-- EN: After [PAWN_possessive] tribe’s elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
-    <desc>{PAWN_nameDef}(은)는 세상의 아름다움을 감탄하며 시간을 보내곤 했습니다.\n\n{PAWN_possessive} 공격적인 성향이 잠깐씩 드러나곤 했지만 변화된 삶에 적응하기 위해 노력했습니다.</desc>
-  </Healer0>
-  
   <Healer35>
     <!-- EN: healer -->
     <title>치유사</title>
@@ -2775,6 +2910,15 @@
     <!-- EN: [PAWN_nameDef] took the time to admire the beauty of the world. \n\n[PAWN_possessive] passive-aggressiveness surfaced once in a while, but [PAWN_pronoun] tried to adapt to [PAWN_possessive] changing life. -->
     <desc>{PAWN_nameDef}(은)는 세상의 아름다움을 찬양하는 데 시간을 썼습니다. \n\n{PAWN_possessive} 기본적인 폭력성은 가끔씩 수면 위로 올라왔지만, {PAWN_pronoun}는 {PAWN_possessive} 변화하는 인생에 적응하려고 노력했습니다.</desc>
   </Healer35>
+  
+  <Healer46>
+    <!-- EN: healer -->
+    <title>치유사</title>
+    <!-- EN: healer -->
+    <titleShort>치유사</titleShort>
+    <!-- EN: After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
+    <desc>{PAWN_nameDef}(은)는 세상의 아름다움을 감탄하며 시간을 보내곤 했습니다.\n\n{PAWN_possessive} 공격적인 성향이 잠깐씩 드러나곤 했지만 변화된 삶에 적응하기 위해 노력했습니다.</desc>
+  </Healer46>
   
   <HearthTender66>
     <!-- EN: hearth tender -->
@@ -2820,6 +2964,15 @@
     <!-- EN: [PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people. -->
     <desc>{PAWN_nameDef}의 어린 시절에는 부족의 머팔로 무리를 육식 동물로부터 안전하게 지켰고 병든 머팔로는 간호하면서 치료했습니다. 한적한 일이었지만, {PAWN_pronoun}는 사람들과 떨어져 지내는 것을 즐겼습니다.</desc>
   </Herder19>
+  
+  <Herder33>
+    <!-- EN: herder -->
+    <title>양치기</title>
+    <!-- EN: herder -->
+    <titleShort>양치기</titleShort>
+    <!-- EN: [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail. -->
+    <desc>{PAWN_nameDef}(은)는 유목민들을 먹이고 입힐 여러 동물들을 키웠습니다. {PAWN_nameDef}(은)는 짐승들을 진정시키고 명령시키는 방법을 터득했고, 이동 중 자신이 먹을 고기를 사냥하는 방법도 배웠습니다.</desc>
+  </Herder33>
   
   <Hermit82>
     <!-- EN: hermit -->
@@ -2902,14 +3055,14 @@
     <desc>거리의 진정한 모습을 알던 {PAWN_nameDef}(은)는 경찰 업무를 하게 되었습니다. 하지만 그가 가해자를 때려 죽이는 특히 충격적인 사건으로 {PAWN_pronoun}의 경찰 업무는 끝났습니다.\n\n{PAWN_pronoun}는 경찰에서 쫓겨나면서, 자신의 연줄과 기술을 이용해 폭력배로 고용되는 길을 찾았습니다.</desc>
   </HiredMuscle5>
   
-  <HistoryStudent78>
+  <HistoryStudent12>
     <!-- EN: history student -->
     <title>역사학 학생</title>
     <!-- EN: student -->
     <titleShort>학생</titleShort>
-    <!-- EN: As a child, [PAWN_nameDef] spent learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
+    <!-- EN: As a child, [PAWN_nameDef] learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
     <desc>어릴 때 {PAWN_nameDef}(은)는 음악과 소설쓰기를 포함한 수많은 예술들을 배웠습니다. {PAWN_pronoun}가 나이가 들어감에 따라, {PAWN_pronoun}의 {PAWN_pronoun}의 문화 중심에 있는 사람들처럼 고향의 도마뱀 전설을 연구하기 시작했습니다.</desc>
-  </HistoryStudent78>
+  </HistoryStudent12>
   
   <Housemate8>
     <!-- EN: housemate -->
@@ -2978,6 +3131,15 @@
     <desc>{PAWN_nameDef}(은)는 최고의 사냥꾼이었습니다. {PAWN_pronoun}는 엄청나게 위험한 곳에서도 동물을 추적하고 사냥하곤 했습니다. 그러한 지식들이 거대한 동물들까지 잡을 수 있는 천재적인 노하우를 얻을 수 있게 되었습니다.</desc>
   </Hunter74>
   
+  <Hunter89>
+    <!-- EN: hunter -->
+    <title>사냥꾼</title>
+    <!-- EN: hunter -->
+    <titleShort>사냥꾼</titleShort>
+    <!-- EN: [PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season. -->
+    <desc>{PAWN_nameDef}(은)는 마을 사람들을 먹이기 위해 야생 동물들을 사냥했습니다. 마을에 힘든 일이 닥치게 되면, 사람들은 {PAWN_pronoun}가 이 역경을 헤쳐나가는데 도와줄거라 굳게 믿었습니다.</desc>
+  </Hunter89>
+  
   <HunterOfTheKing53>
     <!-- EN: hunter of the king -->
     <title>왕의 사냥꾼</title>
@@ -2997,9 +3159,9 @@
   </HunterScavenger64>
   
   <HypnocultLeader61>
-    <!-- EN: Hypnocult leader -->
+    <!-- EN: hypnocult leader -->
     <title>최면술 선구자</title>
-    <!-- EN: Cultist -->
+    <!-- EN: cultist -->
     <titleShort>최면술사</titleShort>
     <!-- EN: Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n        [PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested. -->
     <desc>사람을 이해하고 싶었기 때문에, {PAWN_nameDef}(은)는 최면술을 배웠고 {PAWN_possessive} 예술적 재능을 발견했습니다.</desc>
@@ -3144,6 +3306,15 @@
     <desc>{PAWN_nameDef}(은)는 다음 스타 시스템으로 가는 배를 잡고 여행과 배움의 삶을 시작하여 모든 다양한 사람들로부터 엄청난 양의 지식을 수집했습니다.\n\n{PAWN_pronoun}는 이 지식을 팔아 큰 이익을 얻는 방법을 배웠고, 영향력있는 정보 브로커가 되었습니다.</desc>
   </InformationBroker77>
   
+  <InsuranceBroker9>
+    <!-- EN: insurance broker -->
+    <title>보험 브로커</title>
+    <!-- EN: broker -->
+    <titleShort>브로커</titleShort>
+    <!-- EN: A life of insurance dealing consumed [PAWN_nameDef]'s hopes and dreams. When a mysterious machine persona offered the gambler implant, it seemed like a way to add color to a gray existence.\n\n[PAWN_nameDef] did not, however, plan on being captured by pirates and sent across the galaxy to a distant rimworld. -->
+    <desc>보험상의 삶은 {PAWN_nameDef}의 꿈과 희망을 좀먹었습니다. 수수께끼의 기계 지성체가 알 수 없는 보철물을 주었을때, 잿빛 삶에 색을 더하는 감각을 느꼈습니다.\n\n물론, 우주해적에게 붙잡혀 은하 저멀리의 변경계에 도착하게 된건 {PAWN_nameDef}의 계획이 아니었습니다.</desc>
+  </InsuranceBroker9>
+  
   <IntelligenceAgent10>
     <!-- EN: intelligence agent -->
     <title>정보 요원</title>
@@ -3180,14 +3351,14 @@
     <desc>{PAWN_possessive} 고향에서, {PAWN_nameDef}(은)는 어느 정도 성공한 발명가의 삶을 살았습니다. {PAWN_pronoun}는 몇 개의 소소한 기술을 발명했습니다.</desc>
   </Inventor6>
   
-  <InvoluntaryHermit24>
+  <InvoluntaryHermit38>
     <!-- EN: involuntary hermit -->
     <title>본의 아닌 은둔자</title>
     <!-- EN: hermit -->
     <titleShort>은둔자</titleShort>
-    <!-- EN: [PAWN_nameDef]’s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
+    <!-- EN: [PAWN_nameDef]'s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
     <desc>{PAWN_nameDef}의 탈출 포드는 국경 세계의 탐험되지 않은 지역으로 투하되었습니다. {PAWN_pronoun}는 회사를 위해 머팔로 떼와 함께 외로운 삶을 살았습니다.\n\n이후에, 그녀는 피그미 웜뱃 모피를 입고 늙은 머팔로 무리와 함께, 발굽 위생의 중요성에 대해 상의하는 것이 목격되었습니다.</desc>
-  </InvoluntaryHermit24>
+  </InvoluntaryHermit38>
   
   <Jailbird40>
     <!-- EN: jailbird -->
@@ -3216,14 +3387,14 @@
     <desc>{PAWN_nameDef}(은)는 사용자의 쾌락을 극대화하기 위한 최첨단 쾌락회로 소프트웨어를 개발하는 도시계 연구소에서 일했습니다. 지역 정부가 쾌락회로 생산에 강한 규제를 걸자 {PAWN_pronoun}는 제품을 암시장에 팔기 시작했습니다.</desc>
   </JoywireArtist8>
   
-  <JungleKid31>
+  <JungleKid35>
     <!-- EN: jungle kid -->
     <title>정글 아이</title>
     <!-- EN: jungle kid -->
     <titleShort>정글 아이</titleShort>
-    <!-- EN: [PAWN_nameDef] was abandoned as a newborn, and grew up among the animals of [PAWN_possessive] homeworld’s dense jungles.\n\nWhen [PAWN_pronoun] was a teenager, a traveling doctor found [PAWN_objective] injured near a road, hissing and meowing. [PAWN_pronoun] rescued [PAWN_objective] and took [PAWN_objective] on as an apprentice. -->
+    <!-- EN: [PAWN_nameDef] was abandoned as a newborn, and grew up among the animals of [PAWN_possessive] homeworld's dense jungles.\n\nWhen [PAWN_pronoun] was a teenager, a traveling doctor found [PAWN_objective] injured near a road, hissing and meowing. [PAWN_pronoun] rescued [PAWN_objective] and took [PAWN_objective] on as an apprentice. -->
     <desc>{PAWN_nameDef}(은)는 태어나자마자 버려졌고, {PAWN_pronoun}의 고향의 빽빽한 정글의 동물들 사이에서 자랐습니다.\n\n{PAWN_pronoun}가 십대였을 때, 여행하던 의사는 길가에서 부상을 입고, 쉭쉭대고, 야옹 소리를 내던 {PAWN_pronoun}를 발견했습니다. {PAWN_pronoun}는 구출되어 견습생으로 거두어졌습니다.</desc>
-  </JungleKid31>
+  </JungleKid35>
   
   <JunkyardMechanic51>
     <!-- EN: junkyard mechanic -->
@@ -3306,6 +3477,15 @@
     <desc>{PAWN_nameDef}(은)는 지역 도시계 기업에 대한 경쟁우위를 가지는 소프트웨어를 독립적으로 개발했습니다.\n\n{PAWN_pronoun}의 법적으로 의심스러운 방법은 지적재산권 절도에 대한, 해결되지 않는 민원의 증가로 이어졌습니다.</desc>
   </LazyProgrammer3>
   
+  <LazyWorker78>
+    <!-- EN: lazy worker -->
+    <title>게으른 일꾼</title>
+    <!-- EN: lazy worker -->
+    <titleShort>게으른 일꾼</titleShort>
+    <!-- EN: When [PAWN_nameDef] was offered [PAWN_possessive] yearly salary in order to test a new implant, [PAWN_pronoun] jumped at the chance. Ever since then, [PAWN_nameDef] has been looking for a way to get it removed. -->
+    <desc>{PAWN_nameDef}(은)는 새 보철물 임상실험으로 {PAWN_possessive} 월급 일년치와 맞먹는 금액을 제시받았을때 일말의 고민조차 없이 뛰어들었습니다. {PAWN_nameDef}(은)는 그때부터 계속 그 보철물을 제거할 방법을 찾고 있습니다.</desc>
+  </LazyWorker78>
+  
   <LineInfanteer20>
     <!-- EN: line infanteer -->
     <title>보병</title>
@@ -3332,6 +3512,15 @@
     <!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
     <desc>{PAWN_nameDef}(은)는 나무를 베고 목재를 부족에게 가져갔습니다. {PAWN_pronoun}는 예술가의 기교와 머팔로와 같은 힘으로 {PAWN_possessive} 도끼를 휘둘렀습니다.</desc>
   </Logger16>
+  
+  <Logger95>
+    <!-- EN: logger -->
+    <title>벌목꾼</title>
+    <!-- EN: logger -->
+    <titleShort>벌목꾼</titleShort>
+    <!-- EN: [PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy. -->
+    <desc>{PAWN_nameDef}(은)는 산과 들에 난 나무들을 쓰러트리고 목재를 얻던 벌목꾼이었습니다. {PAWN_pronoun}는 안전하게 나무를 쓰러트리는 방법과 숲을 건강하게 유지 시키는 방법을 배웠습니다.</desc>
+  </Logger95>
   
   <LogicalChild2>
     <!-- EN: logical child -->
@@ -3441,15 +3630,6 @@
     <desc>회계사인 {PAWN_nameDef}(은)는 동료와 친하게 지내고, 많은 고위 경영진 친구를 사귀었습니다.\n\n어느 날 {PAWN_nameDef}(은)는 일부 고위 경영진의 부정을 발견했습니다. 이를 보고한 후, {PAWN_pronoun}는 해고되었습니다. {PAWN_pronoun}는 책임자를 찾아내기를 갈망하며, 대량 살상을 저질렀습니다.</desc>
   </MadAccountant61>
   
-  <MadScientist0>
-    <!-- EN: mad scientist -->
-    <title>미친 과학자</title>
-    <!-- EN: scientist -->
-    <titleShort>과학자</titleShort>
-    <!-- EN: Stripped of [PAWN_possessive] life’s work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
-    <desc>캘로스 IX 사건의 생존자에 대한 {PAWN_possessive} 비윤리적인 실험이 발표된 후 {PAWN_possessive} 인생의 직업을 박탈당하고 추방되었습니다. {PAWN_nameDef}는 변경계에서 생존하는 데 필요한 기술을 배웠습니다.\n\n{PAWN_possessive} 잃을 것이 없는 연구를 계속하면서, {PAWN_pronoun}를 귀찮게 만드는 일을 하는 하인을 만들었습니다.</desc>
-  </MadScientist0>
-  
   <MadScientist2>
     <!-- EN: mad scientist -->
     <title>미친 과학자</title>
@@ -3458,6 +3638,15 @@
     <!-- EN: [PAWN_nameDef]'s lust for knowledge was only matched by [PAWN_possessive] disdain for anyone who would stand in the way of [PAWN_possessive] research.\n\nTraveling from world to world, [PAWN_pronoun] sought answers to questions few dared to ask. -->
     <desc>{PAWN_nameDef}의 지식에 대한 욕구는 오직 {PAWN_possessive} 연구에 방해가 되는 사람에게 대한 {PAWN_possessive} 경멸과 같았습니다.\n\n 전 세계를 여행하며, {PAWN_pronoun}는 감히 물어보지 못할 질문의 답을 추구했습니다.</desc>
   </MadScientist2>
+  
+  <MadScientist22>
+    <!-- EN: mad scientist -->
+    <title>미친 과학자</title>
+    <!-- EN: scientist -->
+    <titleShort>과학자</titleShort>
+    <!-- EN: Stripped of [PAWN_possessive] life's work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
+    <desc>캘로스 IX 사건의 생존자에 대한 {PAWN_possessive} 비윤리적인 실험이 발표된 후 {PAWN_possessive} 인생의 직업을 박탈당하고 추방되었습니다. {PAWN_nameDef}는 변경계에서 생존하는 데 필요한 기술을 배웠습니다.\n\n{PAWN_possessive} 잃을 것이 없는 연구를 계속하면서, {PAWN_pronoun}를 귀찮게 만드는 일을 하는 하인을 만들었습니다.</desc>
+  </MadScientist22>
   
   <MadScientist31>
     <!-- EN: mad scientist -->
@@ -3702,9 +3891,9 @@
   </MedievalMinstrel95>
   
   <MedievalNomad12>
-    <!-- EN: Medieval nomad -->
+    <!-- EN: medieval nomad -->
     <title>중세 유목민</title>
-    <!-- EN: Nomad -->
+    <!-- EN: nomad -->
     <titleShort>유목민</titleShort>
     <!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n        [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family. -->
     <desc>중세계의 유목민 가정에서 태어난 {PAWN_nameDef}(은)는 승마와 손재주, 화법 등의 교육을 받았었습니다.\n\n        {PAWN_pronoun}는 가족을 돕기 위해 기묘한 일을 하면서 야영지 주위를 항상 뛰어 다녔습니다.</desc>
@@ -3810,9 +3999,9 @@
   </Mercenary55>
   
   <MercenaryCaptain98>
-    <!-- EN: Mercenary captain -->
+    <!-- EN: mercenary captain -->
     <title>용병대장</title>
-    <!-- EN: Captain -->
+    <!-- EN: captain -->
     <titleShort>대장</titleShort>
     <!-- EN: [PAWN_nameDef] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_pronoun] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
     <desc>{PAWN_nameDef}(은)는 용병선의 승무원이었습니다. 스스로를 단련하며 자신감 있는 {PAWN_pronoun}는 친구들을 사귀며 고속승진하게 되었습니다.\n\n한 때 용병대장으로 일했던 {PAWN_pronoun}는 차분하며 사교적으로도 유명했는데 아마 쾌락회로 덕분인 것 같습니다.</desc>
@@ -3863,14 +4052,14 @@
     <desc>용병들 사이에서 태어난 {PAWN_nameDef}(은)는 바쁜 무역 중심지에서 자랐습니다. 젊었을 때, {PAWN_pronoun}는 용병 대원 중 한명으로 성장했습니다.</desc>
   </MercenaryRecruit18>
   
-  <MercenaryRecruit64>
+  <MercenaryRecruit36>
     <!-- EN: mercenary recruit -->
     <title>신입 용병</title>
     <!-- EN: mercenary -->
     <titleShort>용병</titleShort>
-    <!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive]'s interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
+    <!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive] interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
     <desc>외지의 용병집단에서 태어난 {PAWN_nameDef}(은)는 상당히 정신없는 무역 허브에서 자랐습니다. 결국 {PAWN_pronoun}가 젊은 나이일 때 용병단원에 가담했습니다.</desc>
-  </MercenaryRecruit64>
+  </MercenaryRecruit36>
   
   <MessageCarrier77>
     <!-- EN: message carrier -->
@@ -4359,9 +4548,9 @@
   </Orphan25>
   
   <OrphanedAcrobat84>
-    <!-- EN: Orphaned acrobat -->
+    <!-- EN: orphaned acrobat -->
     <title>고아 곡예사</title>
-    <!-- EN: Acrobat -->
+    <!-- EN: acrobat -->
     <titleShort>곡예사</titleShort>
     <!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end. -->
     <desc>조용한 도시계에서 태어난 고아인 {PAWN_nameDef}(은)는 순회 서커스단에 초대되어 합류했습니다. {PAWN_possessive} 작은 몸집과 타고난 관찰력 덕분에 {PAWN_nameDef}(은)는 유명한 곡예사가 되었습니다.\n\n안타깝게도 폭력적인 {PAWN_possessive} 성향으로 곡예사의 경력이 끝나버렸습니다.</desc>
@@ -4450,6 +4639,15 @@
     <desc>{PAWN_nameDef}(은)는 {PAWN_pronoun}의 어린 시절을 동물을 사거나 구조하는 등, 동물을 돌보며 보냈습니다. {PAWN_pronoun}는 인위적인 물건보다 자연을 더 아름답다고 느꼇고, {PAWN_pronoun}의 또래들보다 {PAWN_pronoun}의 동물들과 함께 있는 것을 선택했습니다.</desc>
   </PetKeeper7>
   
+  <PetTorturer60>
+    <!-- EN: pet torturer -->
+    <title>동물 고문자</title>
+    <!-- EN: pet torturer -->
+    <titleShort>고문자</titleShort>
+    <!-- EN: [PAWN_nameDef]'s affluent family helped conceal [PAWN_possessive] habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring [PAWN_objective]self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die. -->
+    <desc>{PAWN_nameDef}의 부유한 가족은 {PAWN_possessive} 피학적인 취미를 숨기는 것을 도왔습니다. 동물들을 고문 시키는 취미 말이죠.\n\n몇 년에 걸친 상담에도 불구하고, {PAWN_pronoun}는 작은 동물들과 정상적인 범주의 상호작용을 할 수 없었습니다. {PAWN_pronoun} 취미로 인해 어떻게 하면 생명체를 죽이거나 살릴 수 있는지를 알게 되었습니다.</desc>
+  </PetTorturer60>
+  
   <Philosopher82>
     <!-- EN: philosopher -->
     <title>철학자</title>
@@ -4531,14 +4729,14 @@
     <desc>{PAWN_nameDef}(은)는 의학에 대한 열정이 있었지만, 학위를 딸 수 없었습니다. 자금이 부족한 해적과 테러리스트들은 {PAWN_possessive} 서비스를 이용했고, {PAWN_possessive} 환자들의 생존률은 50% 정도였습니다.\n\n그럼에도 불구하고, {PAWN_possessive} 낙천적인 태도는  자신의 탓으로 생각하지 않았으며, 계속해서 도움이 필요한 사람들을 치료하기 위해 노력했습니다. 물론 돈을 선불로 지불하는 한해서요.</desc>
   </PirateDoctor0>
   
-  <PirateKing81>
+  <PirateKing69>
     <!-- EN: pirate king -->
     <title>해적 왕</title>
     <!-- EN: pirate -->
     <titleShort>해적</titleShort>
-    <!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objecive] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
+    <!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objective] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
     <desc>다른 사람들에 대한 관심을 가지지 않던 {PAWN_nameDef}(은)는 한떄 포로로 잡혀 있던 해적단과 완벽하게 잘 맞았습니다. 해적단이 된 직후, {PAWN_nameDef}(은)는 동료였던 승무원을 포함하여 자신에게 방해가 되는 모든 것들을 죽이기 시작했습니다.</desc>
-  </PirateKing81>
+  </PirateKing69>
   
   <PirateSympathizer24>
     <!-- EN: pirate sympathizer -->
@@ -4639,6 +4837,15 @@
     <desc>{PAWN_nameDef}(은)는 유명한 우주 채광 회사의 채광 엔지니어였습니다. {PAWN_pronoun}는 한 번에 몇 주간 지하에서 계속 일하면서 어둠 속에서도 사물을 식별할 수 있게 되었습니다. </desc>
   </PlanetaryMiner64>
   
+  <PlankCutter72>
+    <!-- EN: plank cutter -->
+    <title>판자꾼</title>
+    <!-- EN: plank cutter -->
+    <titleShort>판자꾼</titleShort>
+    <!-- EN: [PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits. -->
+    <desc>{PAWN_nameDef}(은)는 원목을 튼튼한 판자로 가공하여 {PAWN_possessive} 부족원들이 큰 건물을 짓는데 이바지했습니다. {PAWN_nameDef}(은)는 나무가 어떻게 자라고 갈라지는지에 대해 아주 정확히 알게 되었습니다.</desc>
+  </PlankCutter72>
+  
   <PoisonGardener29>
     <!-- EN: poison gardener -->
     <title>독 정원사</title>
@@ -4687,6 +4894,15 @@
     <!-- EN: [PAWN_nameDef] was kidnapped by a rival family and held for ransom. To pass the time in captivity, [PAWN_pronoun] read books and practiced martial arts. [PAWN_nameDef] had few opportunities to develop [PAWN_possessive] social skills. -->
     <desc>{PAWN_nameDef}(은)는 라이벌 당파에게 납치되어 포로로 잡혔었습니다. 포로로써 시간을 보내기 위해 {PAWN_pronoun}는 독서를 하거나 무술을 훈련했습니다. {PAWN_nameDef}(은)는 사회적 소통 기술을 개발할 기회가 거의 없었습니다.</desc>
   </PoliticalCaptive7>
+  
+  <PoliticalClimber28>
+    <!-- EN: political climber -->
+    <title>정치 꿈나무</title>
+    <!-- EN: political climber -->
+    <titleShort>정치 꿈나무</titleShort>
+    <!-- EN: [PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politician.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default. -->
+    <desc>{PAWN_nameDef}(은)는 총명한 아이였고, 모두가 {PAWN_possessive} 정치인이 되고자 하는 야망을 격려했습니다.\n\n{PAWN_pronoun}는 승리를 위해서라면 어떠한 방법도 서슴치 않았습니다. 직접적인 정신적 공격까지 말이죠.\n\n한 학교 선거 때에 후보 하나가 목을 매다는 일이 있었고, 자연스럽게 {PAWN_nameDef}(은)는 이겼습니다.</desc>
+  </PoliticalClimber28>
   
   <Politician57>
     <!-- EN: politician -->
@@ -4868,6 +5084,15 @@
     <desc>어린 시절부터, {PAWN_nameDef}(은)는 불에 비정상적으로 끌렸습니다. {PAWN_pronoun}는 쓰레기더미에 불을 지르고 불꽃을 바라보며 멍하니 빠져들곤 했습니다. 한번은 성냥을 가지고 돌다가 실수로 자신의 집을 태워버리기도 했습니다.</desc>
   </Pyromaniac18>
   
+  <QuarryWorker29>
+    <!-- EN: quarry worker -->
+    <title>채석장 일꾼</title>
+    <!-- EN: quarry worker -->
+    <titleShort>채석꾼</titleShort>
+    <!-- EN: [PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition. -->
+    <desc>{PAWN_nameDef}(은)는 채석장에서 일하며 값비싼 돌을 발굴했습니다. {PAWN_pronoun}는 암석을 보고, 만지고, 또 육감적으로 위험과 가치를 알 수 있게 되었습니다.</desc>
+  </QuarryWorker29>
+  
   <QuietNerd97>
     <!-- EN: quiet nerd -->
     <title>조용한 괴짜</title>
@@ -4904,11 +5129,20 @@
     <desc>{PAWN_nameDef}(은)는 숲 속 깊은 곳에서 혼자 자랐습니다. {PAWN_pronoun}는 야생에서 밀렵꾼에게 대항하여 몸을 지켰고, 바깥의 도움 없이도 필요한 물자를 스스로 조달할 수 있게 됐습니다.</desc>
   </Ranger6>
   
+  <Ranger96>
+    <!-- EN: ranger -->
+    <title>순찰자</title>
+    <!-- EN: ranger -->
+    <titleShort>순찰자</titleShort>
+    <!-- EN: [PAWN_nameDef] tracked animals and people for a wide range of clients. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey. -->
+    <desc>{PAWN_nameDef}(은)는 여러 종류의 고객들과 일하면서 동물과 사람을 추적하는 일을 했습니다. {PAWN_pronoun}는 자취를 읽고, 야생에서 음식을 찾고, 사냥감의 뒤를 밟는데 능숙하게 되었습니다.</desc>
+  </Ranger96>
+  
   <RangerChild57>
     <!-- EN: ranger child -->
-    <title>숲지기 자녀</title>
+    <title>숲지기의 아이</title>
     <!-- EN: ranger kid -->
-    <titleShort>숲지기 자녀</titleShort>
+    <titleShort>꼬마 숲지기</titleShort>
     <!-- EN: [PAWN_nameDef] was raised in a forest. [PAWN_possessive] father taught [PAWN_objective] to hunt and live off the land, so that [PAWN_pronoun] could live without the need of others when father died.\n\nAccustomed to manual labor and with an intuitive mind, [PAWN_nameDef] could survive weeks alone. -->
     <desc>{PAWN_nameDef}(은)는 숲에서 자랐습니다. 아버지가 숲에서 사냥하고 살아가는 법을 가르쳐주었기 때문에, {PAWN_pronoun}는 혼자가 된 후에도 타인의 도움 없이 성장할 수 있었습니다. 뛰어난 생존력을 지닌 {PAWN_pronoun}는 절망적인 상황에서도 장기간 버텨낼 수 있습니다.</desc>
   </RangerChild57>
@@ -4932,9 +5166,9 @@
   </RebelFighter39>
   
   <RebelliousStudent74>
-    <!-- EN: Rebellious student -->
+    <!-- EN: rebellious student -->
     <title>반항적인 학생</title>
-    <!-- EN: Student -->
+    <!-- EN: student -->
     <titleShort>학생</titleShort>
     <!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques. -->
     <desc>{PAWN_nameDef}(은)는 교육을 받고자 했었습니다. 하지만 {PAWN_pronoun}는 마주친 불의에 맞서 저항했고, 결국 세 곳의 학교에서 모두 제적되었습니다. 이는 {PAWN_pronoun}에게 청렴을 남겼지만, 사회적 소통 기술을 결여시키고 말았습니다.\n\n{PAWN_nameDef}(은)는 자아 실현을 추구했습니다. {PAWN_pronoun}는 {PAWN_pronoun}의 시간을 명상을 하거나 칼, 지팡이를 통해 싸움의 기술을 연습하였습니다.</desc>
@@ -5322,6 +5556,19 @@
     <desc>{PAWN_nameDef}(은)는 하인의 자녀였고, 가정 업무를 수행할 수 있도록 훈련받았었습니다.\n\n{PAWN_pronoun}는 물건과 세련된 식기류를 운반했지만, 결코 가문의 일원으로 인정받지는 못했습니다.</desc>
   </ServingBoy97>
   
+  <SewerKid57>
+    <!-- EN: sewer kid -->
+    <title>시궁창 꼬마</title>
+    <!-- EN: sewer girl -->
+    <titleFemale>시궁창 꼬마</titleFemale>
+    <!-- EN: sewer boy -->
+    <titleShort>시궁창 꼬마</titleShort>
+    <!-- EN: sewer girl -->
+    <titleShortFemale>시궁창 꼬마</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world.\n\n[PAWN_pronoun] befriended the strange insects in the darkness, and learned to love them. -->
+    <desc>{PAWN_nameDef}(은)는 심하게 오염된 산업계의 오물로 가득찬 시궁창에서 자랐습니다.\n\n{PAWN_pronoun}는 어둠속에서 이상한 곤충들을 친구 삼았고, 그것들에게 애정을 주는 방법을 배웠습니다.</desc>
+  </SewerKid57>
+  
   <ShadowMarine63>
     <!-- EN: shadow marine -->
     <title>그림자 특공대</title>
@@ -5439,9 +5686,9 @@
   </ShopKid36>
   
   <ShunnedGirl30>
-    <!-- EN: Shunned girl -->
+    <!-- EN: shunned girl -->
     <title>외톨이 소녀</title>
-    <!-- EN: Shunned -->
+    <!-- EN: shunned -->
     <titleShort>외톨이</titleShort>
     <!-- EN: Freya was born into a small, poor family. She was bullied relentlessly, beaten and hated. As she grew up she developed an   interest in guns. She usually studied from books, but occasionally managed to get some practice time with the real thing. Freya later   discovered a talent for art and began to teach herself how to draw and paint. -->
     <desc>프레야는 작고 가난한 가정에서 태어났습니다. 그녀는 끊임없이 괴롭힘당하고, 놀려졌으며, 왕따의 대상이었습니다. 그녀는 자라면서 총에 대한 관심을 가지게 되었습니다. 그녀는 주로 책으로 공부했지만, 이따금 실제 총으로 연습을 하기도 하였습니다. 프레야는 나중에 예술의 재능을 발견하고, 그림을 그리는 방법을 공부하였었습니다.</desc>
@@ -5482,6 +5729,15 @@
     <!-- EN: [PAWN_nameDef] traveled the stars. [PAWN_pronoun] could barely scrape together travel costs doing odd-jobs, but it was all worth it.\n\n[PAWN_pronoun] loved camping in exotic places and learning the patterns of strange wildlife. [PAWN_pronoun] never could focus on intellectual endeavors, as [PAWN_possessive] sightseeing distracted [PAWN_objective] far too much. -->
     <desc>{PAWN_nameDef}(은)는 행성들을 탐험했습니다. {PAWN_pronoun}는 정거장에서 잡역을 하면서 여행 경비를 긁어 모았지만, 그만한 가치가 있는 일이라고 생각했습니다.\n\n{PAWN_pronoun}는 새로운 세게에서 캠핑하는 것과 야생동물들을 관찰하는 것을 좋아했습니다. 그녀는 다양한 지식을 얻었지만, 그것을 정리하는 것에는 재능이 없었습니다.</desc>
   </Sightseer70>
+  
+  <Slaughterer58>
+    <!-- EN: slaughterer -->
+    <title>도축자</title>
+    <!-- EN: slaughterer -->
+    <titleShort>도축자</titleShort>
+    <!-- EN: [PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple. -->
+    <desc>{PAWN_nameDef}(은)는 동물들을 도축하는 일을 했습니다. 다른이들은 이 일을 더럽다며 멸시했지만, 여러 동물들을 관리하고 깔끔하게 도축하는데에 필요한 기술은 결코 단순한 것이 아닙니다.</desc>
+  </Slaughterer58>
   
   <SlaveChemist84>
     <!-- EN: slave chemist -->
@@ -5726,14 +5982,14 @@
     <desc>{PAWN_nameDef}(은)는 고향을 지키는 몇 안되는 군함 중 하나에서 의사로서 여러차례 순방에 참여했습니다. {PAWN_pronoun}는 가끔 침입한 해적들과 싸우면서 전투 기술을 배웠고, 끔찍한 전투의 상처를 치료하는데 전문가가 되었습니다.</desc>
   </SpaceNavyDoctor72>
   
-  <SpaceNavyTech12>
+  <SpaceNavyTech37>
     <!-- EN: space navy tech -->
     <title>우주 함대 기술자</title>
     <!-- EN: navy tech -->
     <titleShort>기술자</titleShort>
-    <!-- EN: [PAWN_nameDef] was in a space navy for the the most powerful planet in the local star group. [PAWN_pronoun] developed skills in maintenance, electronic systems, radar and imaging, and logistics management.\n\n[PAWN_pronoun] served with pride and patriotic love for [PAWN_possessive] planet. -->
+    <!-- EN: [PAWN_nameDef] was in a space navy for the most powerful planet in the local star group. [PAWN_pronoun] developed skills in maintenance, electronic systems, radar and imaging, and logistics management.\n\n[PAWN_pronoun] served with pride and patriotic love for [PAWN_possessive] planet. -->
     <desc>{PAWN_nameDef}(은)는 그 지역의 항성계에서 가장 강한 우주 함대에 소속되어 있었습니다. {PAWN_pronoun}는 유지보수, 전자 시스템, 레이더 및 이미징 및 물류 관리 기술을 관리했습니다.\n\n{PAWN_pronoun}는 행성에 대한 자부심과 애국심을 가지고 봉사했습니다.</desc>
-  </SpaceNavyTech12>
+  </SpaceNavyTech37>
   
   <SpaceNerd97>
     <!-- EN: space nerd -->
@@ -5844,22 +6100,22 @@
   </SpaceTrafficker68>
   
   <SpaceyachtPilot89>
-    <!-- EN: Spaceyacht pilot -->
+    <!-- EN: spaceyacht pilot -->
     <title>우주요트 조종사</title>
-    <!-- EN: Pilot -->
+    <!-- EN: pilot -->
     <titleShort>조종사</titleShort>
     <!-- EN: [PAWN_nameDef] ferried wealthy businessmen and politicians to and from his home world.\n\n        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood. -->
     <desc>{PAWN_nameDef}(은)는 부유한 사업가와 정치인들을 고향으로, 혹은 고향에서 수송했었습니다.\n\n이들의 쾌락주의를 지속적으로 목격함으로써 {PAWN_pronoun}는 자신도 이해할 수 없는 방향으로 타락하고 말았습니다.</desc>
   </SpaceyachtPilot89>
   
-  <SpecialForces53>
+  <SpecialForces13>
     <!-- EN: special forces -->
     <title>특수부대원</title>
     <!-- EN: specialist -->
     <titleShort>전문가</titleShort>
-    <!-- EN: Give me a reason to kill - a good reason!\n\nMarkus was a soldier and a skilled one - so skilled that [PAWN_pronoun] entered the special forces to battle militants and xenohuman raiders. [PAWN_pronoun] never imagined [PAWN_objective]self as lone hero, but [PAWN_pronoun] played [PAWN_possessive] part in the group well. -->
+    <!-- EN: Give me a reason to kill - a good reason!\n\n[PAWN_nameDef] was a soldier and a skilled one - so skilled that [PAWN_pronoun] entered the special forces to battle militants and xenohuman raiders. [PAWN_pronoun] never imagined [PAWN_objective]self as lone hero, but [PAWN_pronoun] played [PAWN_possessive] part in the group well. -->
     <desc>살인에 이유를 줘 - 그럴듯한 이유!\n\n{PAWN_nameDef}(은)는 무장한 친입자들과 싸우기 위해 특수 부대에 지원한 군인이었습니다. {PAWN_pronoun}는 혼자 살아 남을 줄은 몰랐지만, 자신의 역할을 잘 소화할 수 있는 사람이었습니다.</desc>
-  </SpecialForces53>
+  </SpecialForces13>
   
   <SpeederRacer71>
     <!-- EN: speeder racer -->
@@ -5870,14 +6126,14 @@
     <desc>{PAWN_nameDef}(은)는 칼데리아에 있는 숲에서 양치 식물을 키우는 농부의 자식으로 태어났습니다. {PAWN_pronoun}는 모행성의 거대한 건축물들과 화려한 풍경을 초고속으로 가로지르는 레이싱에 깊은 흥미를 느꼈습니다. 이 지하세계의 경주를 겪으며 {PAWN_pronoun}는 빠른 의사소통과 신속한 사격술을 배웠습니다.</desc>
   </SpeederRacer71>
   
-  <Spiceminer9>
+  <Spiceminer81>
     <!-- EN: spiceminer -->
     <title>향신료 광부</title>
     <!-- EN: spiceminer -->
     <titleShort>향신료 광부</titleShort>
-    <!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen’The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
+    <!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen'The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
     <desc>{PAWN_nameDef}(은)는 돈벌이가 잘 되는 시골 광상촌에 배정된 향신료 광부의 일을 하기 위해 길을 떠났습니다.\n\n이 일이 자신의 인생을 바꿀 것이라는 것을 알긴 알았습니다만...</desc>
-  </Spiceminer9>
+  </Spiceminer81>
   
   <SpoiledBrat59>
     <!-- EN: spoiled brat -->
@@ -6131,32 +6387,41 @@
     <desc>{PAWN_nameDef}(은)는 길거리 도둑단에 속했습니다. {PAWN_pronoun}는 하루종일 소매치기하거나, 영역에 대한 분쟁을 벌이거나, {PAWN_pronoun}가 사용하는 약물을 얻기 위해서 많은 시간을 보냈습니다.</desc>
   </StreetRat81>
   
-  <StreetUrchin11>
+  <StreetUrchin22>
     <!-- EN: street urchin -->
-    <title>길바닥 부랑자</title>
-    <!-- EN: grifter -->
-    <titleShort>길바닥 사기꾼</titleShort>
-    <!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with her. -->
+    <title>길바닥 부랑아</title>
+    <!-- EN: urchin -->
+    <titleShort>부랑아</titleShort>
+    <!-- EN: [PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food. -->
     <desc>집에서 도망친 후에 {PAWN_nameDef}(은)는 길거리에서 살아야 했습니다.\n\n{PAWN_pronoun}는 빠르게 성장했고, 사람들에게서 자신이 원하는 것을 얻어내기 위해, 속이는 방법을 일찍 터득하게 되었습니다.</desc>
-  </StreetUrchin11>
+  </StreetUrchin22>
   
   <StreetUrchin45>
     <!-- EN: street urchin -->
-    <title>길바닥 부랑자</title>
+    <title>길바닥 부랑아</title>
     <!-- EN: street rat -->
-    <titleShort>부랑자</titleShort>
+    <titleShort>시궁쥐</titleShort>
     <!-- EN: Born to a poor family, [PAWN_nameDef] was a sickly child who never quite developed the strength of [PAWN_possessive] siblings.\n\n[PAWN_possessive] parents, unable to afford to provide for [PAWN_objective] and certain [PAWN_pronoun] couldn't pay [PAWN_possessive] own way, threw [PAWN_objective] to the streets. [PAWN_pronoun] learned hard and fast how to survive by any means necessary. -->
     <desc>가난한 가정에서 태어난 {PAWN_nameDef}(은)는 강해지기 위해, 노력할 수 없는 아픈 아이였습니다.\n\n{PAWN_possessive} 부모는 {PAWN_objective} 돌볼 여유가 없었습니다. 결국 약간의 돈을 쥐어준 후 {PAWN_objective} 길거리에 내던졌습니다. 하지만 {PAWN_pronoun}는 죽지 않고, 생존하기 위해 필요한 수단을 빠르게 배워나갔습니다.</desc>
   </StreetUrchin45>
   
   <StreetUrchin53>
     <!-- EN: street urchin -->
-    <title>거리의 부랑자</title>
+    <title>길바닥 부랑아</title>
     <!-- EN: urchin -->
-    <titleShort>거리의 문제아</titleShort>
+    <titleShort>부랑아</titleShort>
     <!-- EN: Born to a poor family on an urbworld, [PAWN_nameDef] was abandoned on the streets at a young age.\n\n[PAWN_pronoun] learned to steal and kill to survive the ruthless streets, gaining skills in melee and ranged combat. There was little time for talk in [PAWN_possessive] life. -->
     <desc>{PAWN_nameDef}(은)는 어촌의 가난한 가정에서 태어나, 어린 나이에 거리에 버려졌습니다.\n\n{PAWN_pronoun}는 무자비한 거리에서 살아남기 위해, 도둑질하고 죽이는 법을 배웠으며 근접, 원거리 전투 기술을 습득했습니다. {PAWN_pronoun}는 인생에서 남과 대화할 시간이 거의 없었습니다.</desc>
   </StreetUrchin53>
+  
+  <StreetUrchin74>
+    <!-- EN: street urchin -->
+    <title>길바닥 부랑아</title>
+    <!-- EN: grifter -->
+    <titleShort>사기꾼</titleShort>
+    <!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with [PAWN_objective]. -->
+    <desc>집에서 도망쳐 나온후, {PAWN_nameDef}(은)는 길바닥에서 살게 되었습니다.\n\n{PAWN_pronoun}는 빠르게 성숙해졌고, 다른 사람들을 속여 호감을 얻는 방법을 일찍 터득했습니다.</desc>
+  </StreetUrchin74>
   
   <Student65>
     <!-- EN: student -->
@@ -6420,9 +6685,9 @@
   </Torturer37>
   
   <TournamentFighter28>
-    <!-- EN: Tournament fighter -->
+    <!-- EN: tournament fighter -->
     <title>투기장 전사</title>
-    <!-- EN: Fighter -->
+    <!-- EN: fighter -->
     <titleShort>투기장 전사</titleShort>
     <!-- EN: Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills. -->
     <desc>{PAWN_pronoun}는 폭력적인 주변 환경에 자극을 받아 {PAWN_nameDef}(은)는 무술을 공부했고, 결국 비무장 투기장에 등록했습니다.\n\n다른 사람들과 달리 {PAWN_nameDef}(은)는 고대의 전사들에게 가르침을 구했고, 새벽부터 밤까지 훈련하여 {PAWN_pronoun}만의 기술을 완벽하게 익혔습니다.</desc>
@@ -6490,6 +6755,15 @@
     <!-- EN: [PAWN_nameDef] explored outlying rimworlds in hopes of finding rare treasures.\n\nAfter succeeding in finding one legendary sculpture, [PAWN_pronoun] was betrayed by [PAWN_possessive] men. [PAWN_pronoun] survived their treasonous attack, but the sculpture was taken.\n\n[PAWN_pronoun] created the Anvil Mercenary Company to help [PAWN_objective] seek revenge. -->
     <desc>{PAWN_nameDef}(은)는 희귀한 보물을 찾기 위해 행성의 바깥쪽 변경계를 탐험했습니다.\n\n전설의 조각품을 찾는데 성공한 후, {PAWN_pronoun}는 {PAWN_pronoun}의 동료에게 배신당했습니다. {PAWN_pronoun}는 그들의 반역에서 살아남았으나 조각상은 뺴앗겼습니다.\n\n{PAWN_pronoun}는 복수를 위해 안빌 용병회사를 설립했습니다.\n</desc>
   </TreasureHunter82>
+  
+  <TreehouseBuilder86>
+    <!-- EN: treehouse builder -->
+    <title>숲의 목수</title>
+    <!-- EN: treehouse builder -->
+    <titleShort>숲의 목수</titleShort>
+    <!-- EN: [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals. -->
+    <desc>{PAWN_nameDef}(은)는 사람들이 여행을 하거나 채집활동을 할때 쓸 작은 집을 나무들 틈이나 위에 지었습니다. {PAWN_nameDef}(은)는 야생 식물의 사용법과 채집법을 익혔고, 야생동물을 쫓아내는 방법을 배웠습니다.</desc>
+  </TreehouseBuilder86>
   
   <TribalThunderer45>
     <!-- EN: tribal thunderer -->
@@ -6589,7 +6863,7 @@
     <!-- EN: urbworld army brat -->
     <title>도시계 군인 자녀</title>
     <!-- EN: army brat -->
-    <titleShort>군인 자녀</titleShort>
+    <titleShort>군인 꼬마</titleShort>
     <!-- EN: [PAWN_nameDef] grew up on an urbworld military base. [PAWN_pronoun] was too young to fight, but [PAWN_pronoun] learned to make [PAWN_objective]self useful in other ways.\n\n[PAWN_pronoun] became familiar with guns and military equipment, but never really got in touch with the natural world. -->
     <desc>{PAWN_nameDef}(은)는 도시계 군 기지에서 자랐습니다. 당시 {PAWN_nameDef}의 나이는 너무 어려 전투는 치를 수 없었지만, 다른 방향으로 유용해지는 법을 배웠습니다. {PAWN_pronoun}는 총기나 군 장비에 익숙해졌지만 외부 세계를 접할 기회는 없었습니다.</desc>
   </UrbworldArmyBrat84>
@@ -6603,14 +6877,14 @@
     <desc>{PAWN_nameDef}(은)는 도시계에서 격리된 어린 시절을 보냈습니다. {PAWN_pronoun}는 고소공포증으로 인해 주로 실내에서 생활하였고, 내성적인 아이가 되었습니다.\n\n{PAWN_pronoun}가 도시의 좁은 통로로 조심스레 나갔을 때, {PAWN_pronoun}는 전쟁 게임을 즐기면서, 다양한 모의시험 무기에 능숙해졌습니다.</desc>
   </UrbworldChild56>
   
-  <UrbworldCriminal80>
+  <UrbworldCriminal6>
     <!-- EN: urbworld criminal -->
     <title>도시계 범죄자</title>
     <!-- EN: criminal -->
     <titleShort>범죄자</titleShort>
-    <!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for him. [PAWN_nameDef] learned that surviving was winning. -->
+    <!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for [PAWN_objective]. [PAWN_nameDef] learned that surviving was winning. -->
     <desc>도시계의 인구 과밀 환경에서 태어난 {PAWN_nameDef}(은)는 굶주림과 저체온증을 피하고자 범죄를 일삼았습니다. 강도와 살인은 일상과도 같았습니다. {PAWN_nameDef}(은)는 살아남는 게 이기는 것이라고 배웠습니다.</desc>
-  </UrbworldCriminal80>
+  </UrbworldCriminal6>
   
   <UrbworldDrone32>
     <!-- EN: urbworld drone -->
@@ -6693,23 +6967,23 @@
     <desc>인간의 수준을 넘어설 정도로 매력적이고 누구에게도 반항할 수 없도록 약하게 설계된 그녀는 고통스러운 성노예의 삶을 살았습니다. 수십 명의 소유자들을 거쳤고, 자유에 대해서는 상상해본 적조차 없습니다.</desc>
   </UrbworldSexSlave25>
   
+  <UrbworldUrchin6>
+    <!-- EN: urbworld urchin -->
+    <title>도시계 부랑아</title>
+    <!-- EN: urchin -->
+    <titleShort>부랑아</titleShort>
+    <!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
+    <desc>[PAWN_nameDef](은)는 [PAWN_possessive] 도시계 행성의 빈민가에서 태어났습니다. [PAWN_possessive] 어머니는 [PAWN_objective] 방관하였기에, 스스로 살아남는 방법을 배워야 했습니다. [PAWN_pronoun]가 본 음식물 찌꺼기들의 소유권을 위해 싸우면서 말이죠.\n\n결국 [PAWN_possessive] 재능은 다른 이들을 뛰어 넘었고, [PAWN_pronoun]는 자신의 어머니를 뒤로한 채 빈민가의 깊은곳에서 부터 빠져나왔습니다.</desc>
+  </UrbworldUrchin6>
+  
   <UrbworldUrchin61>
     <!-- EN: urbworld urchin -->
     <title>도시계 부랑아</title>
     <!-- EN: urchin -->
     <titleShort>부랑아</titleShort>
     <!-- EN: The urbworlds - ancient and deep industrial cityscapes bursting with humanity and poison. [PAWN_nameDef] grew up in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food. -->
-    <desc>도시계에서는 인류와 유독 물질로 가득한 고대 산업도시들의 풍경을 볼 수 있습니다. {PAWN_pronoun}는 그러한 장소의 암흑가에서 자랐습니다. {PAWN_pronoun}는 음식물 찌꺼기라도 먹기 위해 싸워야 했습니다.</desc>
-  </UrbworldUrchin61>
-  
-  <UrbworldUrchin87>
-    <!-- EN: urbworld urchin -->
-    <title>도시계 부랑아</title>
-    <!-- EN: urchin -->
-    <titleShort>부랑아</titleShort>
-    <!-- EN: Meredith was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
     <desc>{PAWN_pronoun}는 도시 고향의 가장 어두운 빈민가에서 태어났습니다. {PAWN_pronoun}는 어머니의 무관심 속에서, 음식을 얻기 위해 싸우는 방법을 배우며, 스스로 생존하는 법을 터득했습니다.\n\n마침내 {PAWN_possessive} 능력이 동료들 중에서도 최고가 되자, 무관심했던 어머니를 뒤로 하고, 빈민가를 떠났습니다.</desc>
-  </UrbworldUrchin87>
+  </UrbworldUrchin61>
   
   <UrbworldUrchin90>
     <!-- EN: urbworld urchin -->
@@ -6756,14 +7030,14 @@
     <desc>{PAWN_nameDef}(은)는 물리와 화학을 연구하기에 알맞게 조정되어 태어났습니다.\n{PAWN_pronoun}의 제작자들은 {PAWN_pronoun}를 정신설계 도우미로 교육하여 사용했으며, {PAWN_pronoun}가 계속 성장해 그들의 연구에 도움이 되기를 바랬습니다.</desc>
   </VatgrownScientist91>
   
-  <VatgrownSlavegirl67>
+  <VatgrownSlavegirl8>
     <!-- EN: vatgrown slavegirl -->
     <title>인공배양 노예</title>
     <!-- EN: slave girl -->
     <titleShort>인공노예</titleShort>
-    <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a yound child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
+    <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
     <desc>{PAWN_nameDef}(은)는 불법 도시계 연구소에서 노예로 자랐습니다. 어렸을 때, 그녀는 요리하고, 청소하고, 주인에게 봉사하는 것만 배웠습니다. {PAWN_pronoun}는 어린 시절의 대부분을 기억하지 못합니다.</desc>
-  </VatgrownSlavegirl67>
+  </VatgrownSlavegirl8>
   
   <VatgrownSoldier8>
     <!-- EN: vatgrown soldier -->
@@ -6802,9 +7076,9 @@
   </VengefulHunter32>
   
   <VengefulNomad67>
-    <!-- EN: Vengeful nomad -->
+    <!-- EN: vengeful nomad -->
     <title>원한을 품은 유목민</title>
-    <!-- EN: Nomad -->
+    <!-- EN: nomad -->
     <titleShort>유목민</titleShort>
     <!-- EN: After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge. -->
     <desc>포악한 왕의 야만적인 요구를 거절한 후, {PAWN_nameDef}의 유목민 무리들이 무법자로 낙인 찍혀 표적이 되었고, 조직적인 사냥을 당했습니다.\n\n        {PAWN_nameDef}의 가족도 결국 붙잡혔고, 살아남은 사람들은 노예로 끌려갔습니다. 공장주에게 팔려간 {PAWN_nameDef}(은)는 언젠간 복수할 것이라고 맹세했습니다.</desc>
@@ -6972,14 +7246,14 @@
     <desc>{PAWN_nameDef}의 부모님은 {PAWN_pronoun}의 조국의 내전에 징집되었습니다. 싸움과 죽음에 둘러싸여 자란 {PAWN_pronoun}는 비극에 익숙해지고 강인해졌습니다. 하지만 {PAWN_pronoun}의 사교적인 측면은 발달되지 못했습니다.</desc>
   </WarChild24>
   
-  <Warlordess14>
+  <Warlordess56>
     <!-- EN: warlordess -->
     <title>전쟁 군주</title>
     <!-- EN: warlordess -->
     <titleShort>전쟁 군주</titleShort>
-    <!-- EN: [PAWN_nameDef] was the tough leader of a pirate band.\n\n[PAWN_pronoun] would accept any challenge, no matter how violent or dangerous. Others called [PAWN_pronoun] a killing machine. -->
+    <!-- EN: [PAWN_nameDef] was the tough leader of a pirate band.\n\n[PAWN_pronoun] would accept any challenge, no matter how violent or dangerous. Others called [PAWN_objective] a killing machine. -->
     <desc>{PAWN_nameDef}(은)는 강력한 해적 세력의 리더였습니다.\n\n{PAWN_pronoun}는 아무리 불리한 상황에서도 적의 도전을 피하지 않습니다. {PAWN_pronoun}는 살인 기계입니다.</desc>
-  </Warlordess14>
+  </Warlordess56>
   
   <Warmaster54>
     <!-- EN: warmaster -->

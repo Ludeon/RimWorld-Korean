@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
+  <Audiovisuals>소리 및 화면</Audiovisuals>
+  <!-- EN: Game volume -->
+  <GameVolume>게임 볼륨</GameVolume>
+  <!-- EN: Music volume -->
+  <MusicVolume>음악 볼륨</MusicVolume>
+  <!-- EN: Ambient volume -->
+  <AmbientVolume>환경 볼륨</AmbientVolume>
+  <!-- EN: Anti-aliasing -->
+  <Antialiasing>그래픽 계단현상 방지</Antialiasing>
+
+  <!-- Gameplay -->
+  <!-- EN: Screen-edge mouse scroll -->
+  <EdgeScreenScroll>화면 가장자리 스크롤</EdgeScreenScroll>
+  <!-- EN: Pause on load -->
+  <PauseOnLoad>시작시 일시정지</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
+  <PauseOnUrgentLetter>사건 발생시 일시정지</PauseOnUrgentLetter>
+  <!-- EN: Pause on -->
+  <AutomaticPauseModeSetting>사건별 일시정지</AutomaticPauseModeSetting>
+  <!-- EN: Custom cursor -->
+  <CustomCursor>맞춤 커서</CustomCursor>
+  <!-- EN: Hats shown only on game map -->
+  <HatsShownOnlyOnMap>상태창에서 모자 제거</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
+  <UIScale>인터페이스 크기</UIScale>
+  <!-- EN: Keyboard configuration -->
+  <KeyboardConfig>키보드 구성</KeyboardConfig>
+  <!-- EN: Choose language -->
+  <ChooseLanguage>언어 선택</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
+  <ResetAdaptiveTutor>도우미 초기화</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
+  <AdaptiveTutorIsReset>도우미가 초기화됐습니다. 모든 도움말이 처음부터 제공됩니다.</AdaptiveTutorIsReset>
+  <!-- EN: Run in background -->
+  <RunInBackground>백그라운드에서도 게임 진행</RunInBackground>
+  <!-- EN: Development mode -->
+  <DevelopmentMode>개발자 도구</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
+  <ResetModsConfigOnCrash>오류 시 자동으로 모드 설정 초기화</ResetModsConfigOnCrash>
+  <!-- EN: Simulate not owning Royalty -->
+  <SimulateNotOwningRoyalty>로얄티 없이 시뮬레이션</SimulateNotOwningRoyalty>
+  <!-- EN: Simulate not owning Ideology -->
+  <SimulateNotOwningIdeology>이데올로기 없이 시뮬레이션</SimulateNotOwningIdeology>
+  <!-- EN: Verbose logging -->
+  <LogVerbose>상세 기록</LogVerbose>
+  <!-- EN: Open save data folder -->
+  <OpenSaveGameDataFolder>저장 폴더 열기</OpenSaveGameDataFolder>
+  <!-- EN: Show save data location -->
+  <ShowSaveGameDataLocation>저장 폴더 위치 표시</ShowSaveGameDataLocation>
+  <!-- EN: Open log file folder -->
+  <OpenLogFileFolder>기록 폴더 열기</OpenLogFileFolder>
+  <!-- EN: Show log file location -->
+  <ShowLogFileLocation>기록 폴더 위치 표시</ShowLogFileLocation>
+  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
+  <NamesYouWantToSee>커스텀 정착민 추가</NamesYouWantToSee>
+  <!-- EN: Add name -->
+  <AddName>이름 검색</AddName>
+  <!-- EN: Type the first name, nickname, or last name. -->
+  <TypeFirstNickOrLastName>찾고 있는 이름의 일부를 영문으로 적으세요.</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
+  <MessageAlreadyPreferredName>이미 목록에 존재하는 이름입니다.</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
+  <ChangeStoryteller>이야기꾼 선택</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
+  <AutosaveInterval>자동저장 간격</AutosaveInterval>
+  <!-- EN: Temperature mode -->
+  <TemperatureMode>온도 단위</TemperatureMode>
+  <!-- EN: Show realtime clock -->
+  <ShowRealtimeClock>현실 시간 표시</ShowRealtimeClock>
+  <!-- EN: Maximum number of colonies: {0} -->
+  <MaxNumberOfPlayerSettlements>최대 정착지 수: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Map mouse drag sensitivity -->
+  <MapDragSensitivity>세계지도 마우스 드래그 민감도</MapDragSensitivity>
+  <!-- EN: Plant wind sway -->
+  <PlantWindSway>식물 흔들림 효과</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
+  <EnableTestMapSizes>테스트 맵 크기 활성화</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
+  <MaxPermadeathAutosaveIntervalInfo>철인 모드에서 사용 가능한 자동저장 최대 간격은 {0}일 입니다.</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
+  <ModSettings>모드 설정</ModSettings>
+  <!-- EN: Permanently disable development mode -->
+  <PermanentlyDisableDevMode>개발자 모드 영구 비활성</PermanentlyDisableDevMode>
+
+  <!-- Resolution -->
+  <!-- EN: Resolution -->
+  <Resolution>해상도</Resolution>
+  <!-- EN: Fullscreen -->
+  <Fullscreen>전체화면</Fullscreen>
+
+  <!-- Mods -->
+  <!-- EN: Select mod... -->
+  <SelectMod>모드 선택</SelectMod>
+  <!-- EN: No configurable mods loaded. -->
+  <NoConfigurableMods>활성화된 모드 중 설정 가능한 모드가 없습니다.</NoConfigurableMods>
+  
+  <!-- Options reset -->
+  <!-- EN: Restore to default settings -->
+  <RestoreToDefaultSettings>기본 설정값 복원</RestoreToDefaultSettings>
+  <!-- EN: Your options have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>설정이 재설정되었습니다. 게임을 자동으로 재시작합니다.</ResetAndRestart>
+  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>모든 설정을 기본값으로 초기화하고 게임을 다시 시작합니다. 다시 시작됩니다.\n\n계속할까요?</ResetAndRestartConfirmationDialog>
+  
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>초기화면 배경</SetBackgroundImage>
+
+</LanguageData>

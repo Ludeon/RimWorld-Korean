@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: recruit -->
+  <AttemptRecruit.label>포섭</AttemptRecruit.label>
+  <!-- EN: Wardens will attempt to recruit the prisoner. If the prisoner still has resistance, wardens will speak to them to reduce it. -->
+  <AttemptRecruit.description>교도관은 특정 죄수를 모집하려고 시도 할 것입니다. 죄수가 아직 저항하고 있다면, 그들을 설득(저항 감소)하기 위해 대화를 시도 할 것입니다.</AttemptRecruit.description>
+  
+  <!-- EN: execute -->
+  <Execution.label>처형</Execution.label>
+  <!-- EN: A warden will execute the prisoner on the spot by cutting. This can affect the mood of other prisoners and colonists. -->
+  <Execution.description>교도관은 죄수를 그 자리에서 즉시 처형합니다. 이 행동은 다른 죄수와 정착지 주민들의 기분에 영향을 줄 수 있습니다.</Execution.description>
+  
+  <!-- EN: no interaction -->
+  <NoInteraction.label>상호작용 없음</NoInteraction.label>
+  <!-- EN: Wardens will not interact with the prisoner. -->
+  <NoInteraction.description>교도관은 해당 죄수와 상호 작용하지 않습니다.</NoInteraction.description>
+  
+  <!-- EN: reduce resistance -->
+  <ReduceResistance.label>설득</ReduceResistance.label>
+  <!-- EN: If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made. -->
+  <ReduceResistance.description>죄수가 여전히 저항을 하고 있다면, 교도관은 저항을 줄이기 위해 대화를 시도할 것입니다. 포섭은 시도하지 않습니다.</ReduceResistance.description>
+  
+  <!-- EN: release -->
+  <Release.label>석방</Release.label>
+  <!-- EN: A warden will release the prisoner. -->
+  <Release.description>교도관이 죄수를 석방시킵니다.</Release.description>
+  
+</LanguageData>

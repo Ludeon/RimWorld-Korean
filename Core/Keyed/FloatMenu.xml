@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Call {0} -->
+  <CallOnRadio>{0} 연락</CallOnRadio>
+  <!-- EN: Cannot use: {0} -->
+  <CannotUseReason>사용 불가 ({0})</CannotUseReason>
+  <!-- EN: Cannot use: EMP -->
+  <CannotUseSolarFlare>사용 불가 (회로 마비)</CannotUseSolarFlare>
+  <!-- EN: Cannot use: No power -->
+  <CannotUseNoPower>사용 불가 (전력 없음)</CannotUseNoPower>
+  <!-- EN: Cannot use: No path -->
+  <CannotUseNoPath>사용 불가 (경로 없음)</CannotUseNoPath>
+  <!-- EN: Cannot use: Reserved -->
+  <CannotUseReserved>사용 불가 (예약됨)</CannotUseReserved>
+  <!-- EN: Cannot use: Full -->
+  <CannotUseFull>사용 불가 (가득참)</CannotUseFull>
+  <!-- EN: leader {1_labelShort} is unavailable -->
+  <LeaderUnavailable>대장 {1_labelShort}(이)가 움직일 수 없음</LeaderUnavailable>
+  <!-- EN: leader is unavailable -->
+  <LeaderUnavailableNoLeader>대장이 움직일 수 없음</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>허용되지 않음</NotAllowed>
+  
+  <!-- EN: Fire at {1_label} -->
+  <FireAt>{1_label}에게 사격</FireAt>
+
+  <!-- EN: out of range -->
+  <OutOfRange>범위를 벗어남</OutOfRange>
+  <!-- EN: too close -->
+  <TooClose>너무 가까움</TooClose>
+  <!-- EN: Cannot hit target -->
+  <CannotHitTarget>대상을 공격할 수 없음</CannotHitTarget>
+  <!-- EN: {1_labelShort} is incapable of violence -->
+  <IsIncapableOfViolenceLower>{1_labelShort}(은)는 싸울 수 없음</IsIncapableOfViolenceLower>
+  <!-- EN: incapable of violence -->
+  <IncapableOfViolenceLower>싸울 수 없음</IncapableOfViolenceLower>
+  <!-- EN: {0_labelShort} is incapable of shooting -->
+  <IsIncapableOfShootingLower>{0_labelShort}(은)는 사격할 수 없음</IsIncapableOfShootingLower>
+  <!-- EN: {1_labelShort} is not drafted -->
+  <IsNotDraftedLower>{1_labelShort}(이)가 소집되지 않음</IsNotDraftedLower>
+  <!-- EN: cannot order characters you do not control -->
+  <CannotOrderNonControlledLower>대상에게는 명령을 내릴 수 없음</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack self -->
+  <CannotAttackSelf>자신을 공격할 수 없음</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>아군 세력을 공격할 수 없음</CannotAttackSameFactionMember>
+
+  <!-- EN: Man {1_labelShort} -->
+  <OrderManThing>{1_labelShort} 조작</OrderManThing>
+  
+  <!-- EN: Melee attack {1_label} -->
+  <MeleeAttack>{1_label} 근접 공격</MeleeAttack>
+  <!-- EN: Melee attack {1_label} to death -->
+  <MeleeAttackToDeath>{1_label}(이)가 죽을 때까지 근접 공격</MeleeAttackToDeath>
+  <!-- EN: no path -->
+  <NoPath>경로 없음</NoPath>
+  <!-- EN: burying -->
+  <Burying>매장</Burying>
+  <!-- EN: designated for {0} -->
+  <DesignatedFor>TODO</DesignatedFor>
+
+  <!-- EN: forbidden -->
+  <ForbiddenLower>상호작용 금지됨</ForbiddenLower>
+  <!-- EN: outside allowed area -->
+  <ForbiddenOutsideAllowedAreaLower>허가구역 외부</ForbiddenOutsideAllowedAreaLower>
+  <!-- EN: not in home area -->
+  <NotInHomeArea>거주구역 외부</NotInHomeArea>
+  <!-- EN: burning -->
+  <BurningLower>불타는 중</BurningLower>
+  <!-- EN: no empty, accessible spot configured to store it -->
+  <NoEmptyPlaceLower>비어있고 접근 가능한 장소 없음</NoEmptyPlaceLower>
+  <!-- EN: no stack available to merge into -->
+  <NoMergeTarget>정리할 장소가 없음</NoMergeTarget>
+  <!-- EN: already filled enough -->
+  <AlreadyFilledLower>가득 참</AlreadyFilledLower>
+  <!-- EN: need material -->
+  <MissingMaterials>재료 필요</MissingMaterials>
+  <!-- EN: under required skill {0} -->
+  <UnderRequiredSkill>요구 기술 {0} 이하</UnderRequiredSkill>
+  <!-- EN: under allowed skill {0} -->
+  <UnderAllowedSkill>허가 기술 {0} 이하</UnderAllowedSkill>
+  <!-- EN: above allowed skill {0} -->
+  <AboveAllowedSkill>허가 기술 {0} 이상</AboveAllowedSkill>
+  <!-- EN: no reachable outside cell -->
+  <NoReachableOutsideCell>야외에 도달할 수 없음</NoReachableOutsideCell>
+  <!-- EN: missing required skill level -->
+  <MissingRequiredSkillLevel>부족한 기술 수준</MissingRequiredSkillLevel>
+  <!-- EN: animal interacted too recently -->
+  <AnimalInteractedTooRecently>최근에 돌봐줌</AnimalInteractedTooRecently>
+  <!-- EN: no usable food -->
+  <NoUsableFood>사용 가능한 식량 없음</NoUsableFood>
+  <!-- EN: no food -->
+  <NoFood>식량 없음</NoFood>
+  <!-- EN: below requirements of {0} -->
+  <FoodBelowTitleRequirements>{0}의 요구 사항</FoodBelowTitleRequirements>
+  <!-- EN: animals skill too low - need {0} -->
+  <AnimalsSkillTooLow>조련기술 부족 - {0} 필요</AnimalsSkillTooLow>
+  <!-- EN: animal downed -->
+  <CantInteractAnimalDowned>쓰러진 동물</CantInteractAnimalDowned>
+  <!-- EN: animal sleeping -->
+  <CantInteractAnimalAsleep>잠든 동물</CantInteractAnimalAsleep>
+  <!-- EN: animal busy -->
+  <CantInteractAnimalBusy>바쁜 동물</CantInteractAnimalBusy>
+  <!-- EN: no allowed reachable pens -->
+  <CantRopeAnimalNoUsableReachablePens>상호작용 가능한 우리에 도달할 수 없음</CantRopeAnimalNoUsableReachablePens>
+  <!-- EN: no enclosed pens -->
+  <CantRopeAnimalNoEnclosedPens>완성된 우리 없음</CantRopeAnimalNoEnclosedPens>
+  <!-- EN: no allowed pens -->
+  <CantRopeAnimalNoAllowedPens>상호작용 가능한 우리 없음</CantRopeAnimalNoAllowedPens>
+  <!-- EN: no reachable pens -->
+  <CantRopeAnimalNoReachablePens>도달할 수 있는 우리 없음</CantRopeAnimalNoReachablePens>
+  <!-- EN: can't touch -->
+  <CantRopeAnimalCantTouch>도달할 수 없음</CantRopeAnimalCantTouch>
+  <!-- EN: no space in pen -->
+  <CantRopeAnimalNoSpace>우리에 자리 없음</CantRopeAnimalNoSpace>
+  <!-- EN: already in best pen -->
+  <CantRopeAnimalAlreadyInBestPen>이미 최적의 우리 안에 있음</CantRopeAnimalAlreadyInBestPen>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>{0} 기술 부족</SkillTooLowForConstruction>
+  <!-- EN: need components -->
+  <NoComponentsToRepair>부품 필요</NoComponentsToRepair>
+  <!-- EN: need {0} -->
+  <NoFuelToRefuel>{0} 필요</NoFuelToRefuel>
+  <!-- EN: need wort -->
+  <NoWort>맥아즙 필요</NoWort>
+  <!-- EN: available food is in storage of higher priority -->
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>사용 가능한 음식이 높은 우선순위의 보관 장소에 있음</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <!-- EN: no suitable food -->
+  <NoFoodToFillHopper>적절한 음식 없음</NoFoodToFillHopper>
+  <!-- EN: self-tend disabled -->
+  <SelfTendDisabled>자가치료 금지됨</SelfTendDisabled>
+  <!-- EN: reserved for prisoners -->
+  <ReservedForPrisoners>수감자 전용</ReservedForPrisoners>
+  <!-- EN: cannot reach -->
+  <CannotReach>갈 수 없음</CannotReach>
+  <!-- EN: not ready for surgery -->
+  <NotSurgeryReady>수술 준비 안됨</NotSurgeryReady>
+  <!-- EN: skill incapable -->
+  <SkillDisabled>기술 없음</SkillDisabled>
+  <!-- EN: too bright -->
+  <CantSowCavePlantBecauseOfLight>너무 밝음</CantSowCavePlantBecauseOfLight>
+  <!-- EN: unroofed -->
+  <CantSowCavePlantBecauseUnroofed>지붕 없음</CantSowCavePlantBecauseUnroofed>
+  <!-- EN: incapable of deconstruction -->
+  <IncapableOfDeconstruction>해체 불가능</IncapableOfDeconstruction>
+  <!-- EN: incapable of mining -->
+  <IncapableOfMining>채굴 불가능</IncapableOfMining>
+  <!-- EN: angers faction -->
+  <AngersFaction>세력 분노</AngersFaction>
+  <!-- EN: no body part -->
+  <InstallImplantNoBodyPart>신체부위 없음</InstallImplantNoBodyPart>
+  <!-- EN: not a colonist -->
+  <InstallImplantNotAllowedForNonColonists>정착민이 아님</InstallImplantNotAllowedForNonColonists>
+  <!-- EN: already installed -->
+  <InstallImplantAlreadyInstalled>이미 설치됨</InstallImplantAlreadyInstalled>
+  <!-- EN: max level -->
+  <InstallImplantAlreadyMaxLevel>이미 최고단계임</InstallImplantAlreadyMaxLevel>
+  <!-- EN: Upgrade {0} to level {1} -->
+  <UpgradeImplant>{0}(을)를 {1}단계로 향상</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>아군 세력의 위반</SurgeryViolationFellowFactionMember>
+  <!-- EN: being carried by {0_labelShort} -->
+  <BeingCarriedBy>{0_labelShort}에 의해 옮겨지는 중</BeingCarriedBy>
+  
+  <!-- EN: Consume {1_labelShort} -->
+  <ConsumeThing>{1_labelShort} 섭취</ConsumeThing>
+  
+  <!-- EN: Cannot go here: No path -->
+  <CannotGoNoPath>갈 수 없음 (경로 없음)</CannotGoNoPath>
+  <!-- EN: Go here -->
+  <GoHere>여기로 이동</GoHere>
+  
+  <!-- EN: Arrest {0} -->
+  <Arrest>{0} 체포</Arrest>
+  <!-- EN: Try to arrest {1_label} ({2} chance) -->
+  <TryToArrest>{1_label} 체포 시도 ({2} 확률)</TryToArrest>
+  <!-- EN: Cannot arrest -->
+  <CannotArrest>체포 불가</CannotArrest>
+  <!-- EN: {0} chance of arrest -->
+  <ArrestChance>체포 확률 {0}</ArrestChance>
+
+  <!-- EN: Capture {1_label} -->
+  <Capture>{1_label} 포획</Capture>
+  <!-- EN: Cannot capture -->
+  <CannotCapture>포획 불가</CannotCapture>
+
+  <!-- EN: Rescue {1_label} -->
+  <Rescue>{1_label} 구조</Rescue>
+  <!-- EN: Cannot rescue -->
+  <CannotRescue>구조 불가</CannotRescue>
+
+  <!-- EN: Carry {1_label} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>{1_label}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
+  <!-- EN: Cannot carry to cryptosleep casket -->
+  <CannotCarryToCryptosleepCasket>동면장치로 운반 불가</CannotCarryToCryptosleepCasket>
+
+  <!-- EN: Carry {0_label} to shuttle -->
+  <CarryToShuttle>{0_label}(을)를 왕복선으로 운반</CarryToShuttle>
+
+  <!-- EN: No available cryptosleep casket. -->
+  <NoCryptosleepCasket>사용 가능한 동면장치가 없음</NoCryptosleepCasket>
+  <!-- EN: Temporary faction members not allowed. -->
+  <CryptosleepCasketGuestsNotAllowed>임시 정착민은 동면시킬 수 없음</CryptosleepCasketGuestsNotAllowed>
+  <!-- EN: Hosted prisoners not allowed. -->
+  <CryptosleepCasketGuestPrisonersNotAllowed>수감된 죄수는 허용되지 않음</CryptosleepCasketGuestPrisonersNotAllowed>
+  <!-- EN: Already occupied -->
+  <CryptosleepCasketOccupied>이미 사용 중</CryptosleepCasketOccupied>
+  <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
+  <NoPrisonerBed>도달 가능하고, 사용 중이지 않고, 닫혀있는 안전한 온도의 수감용 침대 없음</NoPrisonerBed>
+  <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
+  <NoNonPrisonerBed>도달 가능하고, 사용 중이지 않고, 안전한 온도의 침대 없음</NoNonPrisonerBed>
+  <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
+  <NoAnimalBed>도달 가능하고, 사용 중이지 않고, 안전한 온도의 동물 침대 없음</NoAnimalBed>
+  <!-- EN: Reserved by someone else. -->
+  <Reserved>누군가에게 예약됨</Reserved>
+  <!-- EN: Reserved by {1_labelShort} -->
+  <ReservedBy>{1_labelShort}에게 예약됨</ReservedBy>
+  <!-- EN: {0} is reserved by {1}. -->
+  <IsReservedBy>{0}(은)는 {1}에게 예약됨</IsReservedBy>
+  <!-- EN: Too heavy -->
+  <TooHeavy>너무 무거움</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>{0_labelShort}(은)는 같은 세력입니다.</SameFaction>
+
+  <!-- EN: incapable -->
+  <Incapable>불가능</Incapable>
+  <!-- EN: incapable of {0} -->
+  <IncapableOfCapacity>{0} 불가능</IncapableOfCapacity>
+
+  <!-- EN: min skill -->
+  <MinSkill>최소 기술</MinSkill>
+  
+  <!-- EN: Equip {0} -->
+  <Equip>{0} 착용</Equip>
+  <!-- EN: (brawler will be unhappy) -->
+  <EquipWarningBrawler>(싸움꾼이 싫어함)</EquipWarningBrawler>
+  <!-- EN: Cannot equip {0} -->
+  <CannotEquip>{0} 착용 불가</CannotEquip>
+  <!-- EN: Cannot man {1_labelShort} -->
+  <CannotManThing>{1_labelShort} 조작 불가</CannotManThing>
+  
+  <!-- EN: Force wear {1_labelShort} -->
+  <ForceWear>{1_labelShort} 강제 착용</ForceWear>
+  <!-- EN: Cannot wear {1_label} -->
+  <CannotWear>{1_label} 착용 불가</CannotWear>
+  <!-- EN: Force equip {1_labelShort} -->
+  <ForceEquipApparel>{1_labelShort} 강제 착용</ForceEquipApparel>
+  <!-- EN: Cannot equip {1_label} -->
+  <CannotEquipApparel>{1_label} 착용 불가</CannotEquipApparel>
+  <!-- EN: missing body parts -->
+  <CannotWearBecauseOfMissingBodyParts>신체 결손</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
+  <Reload>{AMMO_label}(으)로 {GEAR_labelShort} 재장전</Reload>
+  <!-- EN: Full -->
+  <ReloadFull>가득</ReloadFull>
+  <!-- EN: Too few -->
+  <ReloadNotEnough>너무 적음</ReloadNotEnough>
+  
+  <!-- EN: Cannot pick up {1_label} -->
+  <CannotPickUp>{1_label} 주울 수 없음</CannotPickUp>
+  <!-- EN: Cannot pick up {1_label} (all) -->
+  <CannotPickUpAll>{1_label} 모두 주울 수 없음</CannotPickUpAll>
+  <!-- EN: Pick up {1_label} -->
+  <PickUp>{1_label} 줍기</PickUp>
+  <!-- EN: Pick up {1_label} (all) -->
+  <PickUpAll>{1_label} 모두 줍기</PickUpAll>
+  <!-- EN: Pick up {1_labelShort}... -->
+  <PickUpSome>약간의 {1_labelShort} 줍기</PickUpSome>
+  <!-- EN: Pick up {1_labelShort} x{{0}} -->
+  <PickUpCount>x{{0}}개 만큼 {1_labelShort} 줍기</PickUpCount>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUpSome>{1_labelShort} 주울 수 없음</CannotPickUpSome>
+  <!-- EN: {0} {1} allowed -->
+  <MaxPickUpAllowed>{0}개의 {1} 허용됨</MaxPickUpAllowed>
+  
+  <!-- EN: Cannot load {1_label} onto pack animal -->
+  <CannotGiveToPackAnimal>짐꾼 동물에게 {1_label} 줄 수 없음</CannotGiveToPackAnimal>
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
+  <CannotGiveToPackAnimalAll>짐꾼 동물에게 {1_label} (모두) 줄 수 없음</CannotGiveToPackAnimalAll>
+  <!-- EN: Load {1_label} onto pack animal -->
+  <GiveToPackAnimal>짐꾼 동물에게 {1_label} 주기</GiveToPackAnimal>
+  <!-- EN: Load {1_label} (all) onto pack animal -->
+  <GiveToPackAnimalAll>짐꾼 동물에게 {1_label} (모두) 주기</GiveToPackAnimalAll>
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
+  <GiveToPackAnimalSome>짐꾼 동물에게 {1_labelShort} 주기</GiveToPackAnimalSome>
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
+  <GiveToPackAnimalCount>{1_labelShort} x{{0}} 가져가기</GiveToPackAnimalCount>
+  
+  <!-- EN: Cannot load {1_label} into caravan -->
+  <CannotLoadIntoCaravan>상단에 {1_label}(을)를 실을 수 없음</CannotLoadIntoCaravan>
+  <!-- EN: Cannot load {1_label} (all) into caravan -->
+  <CannotLoadIntoCaravanAll>상단에 {1_label}(모두)를 실을 수 없음</CannotLoadIntoCaravanAll>
+  <!-- EN: Load {1_label} into caravan -->
+  <LoadIntoCaravan>상단에 {1_label}(을)를 적재함</LoadIntoCaravan>
+  <!-- EN: Load {1_label} (all) into caravan -->
+  <LoadIntoCaravanAll>상단에 {1_label}(모두)를 적재함</LoadIntoCaravanAll>
+  <!-- EN: Load {1_labelShort} into caravan... -->
+  <LoadIntoCaravanSome>상단에 {1_labelShort}(을)를 적재함</LoadIntoCaravanSome>
+  <!-- EN: Load {1_labelShort} x{{0}} -->
+  <LoadIntoCaravanCount>적재 {1_labelShort} x{{0}}</LoadIntoCaravanCount>
+  <!-- EN: overweight -->
+  <OverweightLower>무게초과</OverweightLower>
+
+  <!-- EN: Cannot carry {1_label} and leave the area -->
+  <CannotCarryToExit>{1_label} 가지고 나갈 수 없음</CannotCarryToExit>
+  <!-- EN: Carry {1_label} and leave the area -->
+  <CarryToExit>{1_label} 가지고 나가기</CarryToExit>
+  <!-- EN: Capture {1_label} and leave the area -->
+  <CarryToExitAndCapture>{1_label}(을)를 포획 후 지역 떠나기</CarryToExitAndCapture>
+  
+  <!-- EN: Strip {1_label} -->
+  <Strip>{1_label} 벗기기</Strip>
+  <!-- EN: Cannot strip {1_label} -->
+  <CannotStrip>{1_label} 벗기기 불가</CannotStrip>
+  <!-- EN: Cannot drop {1_label} -->
+  <CannotDrop>{1_label} 제거 불가</CannotDrop>
+  <!-- EN: Carry {0_label} -->
+  <Carry>{0_label} 들쳐 메기</Carry>
+  <!-- EN: Cannot carry {0_label} -->
+  <CannotCarry>{0_label} 들쳐 멜 수 없음</CannotCarry>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>임시 정착민</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>임시 정착민의 의상은 변경할 수 없습니다.</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>잠긴 의복 대체</WouldReplaceLockedApparel>
+
+  <!-- EN: Cannot place {0_label} in {1_label} -->
+  <CannotPlaceIn>{0_label}(을)를 {1_label}에 넣을 수 없음</CannotPlaceIn>
+  <!-- EN: Place {0_label} in {1_label} -->
+  <PlaceIn>{0_label}(을)를 {1_label}에 넣기</PlaceIn>
+
+  <!-- EN: Self-destruct here -->
+  <SelfDestructHere>여기서 자폭</SelfDestructHere>
+  
+  <!-- EN: Drop {1_label} -->
+  <Drop>{1_label} 버리기</Drop>
+
+  <!-- EN: Rest until healed -->
+  <UseMedicalBed>완전히 치료될 때까지 휴식</UseMedicalBed>
+  <!-- EN: not injured -->
+  <NotInjured>부상 없음</NotInjured>
+  <!-- EN: occupied by {0} -->
+  <SomeoneElseSleeping>{0}(이)가 사용 중</SomeoneElseSleeping>
+  
+  <!-- EN: Trade with {0} -->
+  <TradeWith>{0}(와)과 거래</TradeWith>
+  <!-- EN: Cannot trade -->
+  <CannotTrade>거래 불가</CannotTrade>
+
+  <!-- EN: Open {0_label} -->
+  <Open>{0_label} 열기</Open>
+  <!-- EN: Cannot open {0_label} -->
+  <CannotOpen>{0_label} 열 수 없음</CannotOpen>
+  
+  <!-- EN: Enter {0} -->
+  <EnterMap>{0} 진입</EnterMap>
+  <!-- EN: Visit {0} -->
+  <VisitSettlement>{0} 방문</VisitSettlement>
+  <!-- EN: Visit {0} -->
+  <VisitPeaceTalks>{0} 방문</VisitPeaceTalks>
+  <!-- EN: Visit {0} -->
+  <VisitEscapeShip>{0} 방문</VisitEscapeShip>
+  <!-- EN: Attack {0} -->
+  <AttackSettlement>{0} 공격</AttackSettlement>
+  <!-- EN: Approach {0} -->
+  <ApproachSite>{0} 접근</ApproachSite>
+  <!-- EN: Approaching {0} -->
+  <ApproachingSite>{0} 접근 중</ApproachingSite>
+  <!-- EN: Offer gifts -->
+  <OfferGifts>선물 제공</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>{0}(와)과 거래</TradeWithSettlement>
+
+  <!-- Specific thing interactions -->
+  <!-- EN: Enter cryptosleep casket -->
+  <EnterCryptosleepCasket>동면장치에 탑승</EnterCryptosleepCasket>
+  <!-- EN: Open cryptosleep casket -->
+  <OpenCryptosleepCasket>동면장치 열기</OpenCryptosleepCasket>
+  <!-- EN: Get in shuttle -->
+  <EnterShuttle>왕복선에 탑승</EnterShuttle>
+
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
+  <!-- EN: Cannot {0} {1} -->
+  <CannotGenericWork>{1} {0} 불가</CannotGenericWork>
+  <!-- EN: Cannot {0} -->
+  <CannotGenericWorkCustom>{0} 불가</CannotGenericWorkCustom>
+
+  <!-- EN: Cannot prioritize: Incapable of {0} -->
+  <CannotMissingHealthActivities>우선시 불가 ({0} 불가능)</CannotMissingHealthActivities>
+
+  <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
+  <!-- EN: Already {0} {2_labelShort} -->
+  <CannotGenericAlreadyAm>이미 {2_labelShort}(을)를 {0} 중</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>이미 {0} 중</CannotGenericAlreadyAmCustom>
+
+  <!-- EN: Cannot prioritize: Will never do {0} -->
+  <CannotPrioritizeWorkTypeDisabled>우선시 불가 ({0} 불가능)</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: lacking necessary title -->
+  <MissingTitleAbility>필요 작위 부족</MissingTitleAbility>
+
+  <!-- EN: Cannot prioritize: Will never {0} -->
+  <CannotPrioritizeWorkGiverDisabled>우선시 불가 (절대 {0} 하지 않음)</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: will never {0} -->
+  <WillNever>{0} 불가</WillNever>
+
+  <!-- EN: Cannot prioritize: Not assigned to {0} -->
+  <CannotPrioritizeNotAssignedToWorkType>우선시 불가 ({0} 할당되지 않음)</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: not assigned -->
+  <NotAssigned>할당되지 않음</NotAssigned>
+  <!-- EN: not assigned to {0} -->
+  <NotAssignedToWorkType>{0}에 할당되지 않음</NotAssignedToWorkType>
+
+  <!-- EN: Cannot prioritize: Research is a long-term task -->
+  <CannotPrioritizeResearch>우선시 불가 (연구 프로젝트)</CannotPrioritizeResearch>
+
+  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
+  <CannotPrioritizeForbidden>우선시 불가 ({1_label}의 상호작용 금지됨)</CannotPrioritizeForbidden>
+  <!-- EN: Cannot prioritize: Forbidden -->
+  <CannotPrioritizeCellForbidden>우선시 불가 (상호작용 금지됨)</CannotPrioritizeCellForbidden>
+  <!-- EN: Outside allowed area -->
+  <CannotPrioritizeForbiddenOutsideAllowedArea>우선시 불가 (허가구역 외부)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <!-- EN: Cannot prioritize burying -->
+  <CannotPrioritizeBurying>TODO</CannotPrioritizeBurying>
+
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
+  <!-- EN: Prioritize {0} {1} -->
+  <PrioritizeGeneric>우선 {1} {0}</PrioritizeGeneric>
+  
+  <!-- EN: Drop at edge -->
+  <DropAtEdge>가장자리에 낙하</DropAtEdge>
+  <!-- EN: Drop in center -->
+  <DropInCenter>중앙에 낙하</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>{0} 공격</AttackShuttle>
+  <!-- EN: Attack {0}: Drop at edge -->
+  <AttackAndDropAtEdge>{0} 공격: 가장자리에 낙하</AttackAndDropAtEdge>
+  <!-- EN: Attack {0}: Drop in center -->
+  <AttackAndDropInCenter>{0} 공격: 중앙에 낙하</AttackAndDropInCenter>
+  
+  <!-- EN: vomiting -->
+  <VomitingLower>토하는 중</VomitingLower>
+  <!-- EN: not interruptible -->
+  <NotInterruptibleLower>명령 불가</NotInterruptibleLower>
+  
+  <!-- EN: Add a new waypoint here -->
+  <AddWaypoint>새 경유지 추가</AddWaypoint>
+  <!-- EN: Remove this waypoint -->
+  <RemoveWaypoint>경유지 제거</RemoveWaypoint>
+
+  <!-- EN: Cancel all designations -->
+  <RemoveAllDesignations>모든 지정 취소</RemoveAllDesignations>
+  <!-- EN: Designate all -->
+  <DesignateAll>모두 지정</DesignateAll>
+  <!-- EN: {0} affected -->
+  <CountToDesignate>{0} 영향</CountToDesignate>
+  <!-- EN: Forbid all items -->
+  <ForbidAllItems>모든 항목 금지</ForbidAllItems>
+  <!-- EN: Unforbid all items -->
+  <UnforbidAllItems>모든 항목 허용</UnforbidAllItems>
+
+  <!-- Transport pods -->
+  <!-- EN: Zoom in and choose a landing spot in {0} -->
+  <LandInExistingMap>{0} 착륙 지점을 확대하고 선택</LandInExistingMap>
+  <!-- EN: The contents will be lost -->
+  <TransportPodsContentsWillBeLost>내용물 손실됨</TransportPodsContentsWillBeLost>
+  <!-- EN: Form caravan here -->
+  <FormCaravanHere>이곳에서 상단 구성</FormCaravanHere>
+  <!-- EN: Give to {0} -->
+  <GiveToCaravan>{0}에게 주기</GiveToCaravan>
+  <!-- EN: Give as a gift to {0} ({1}) -->
+  <GiveGiftViaTransportPods>{0}에게 선물로 제공 ({1})</GiveGiftViaTransportPods>
+  <!-- EN: Not part of launch group -->
+  <NotPartOfLaunchGroup>발사 그룹에 속하지 않음</NotPartOfLaunchGroup>
+
+  <!-- Rescue quest -->
+  <!-- EN: Free prisoner -->
+  <FreePrisoner>수감자 해방</FreePrisoner>
+  <!-- EN: Offer help -->
+  <OfferHelp>도움 제공</OfferHelp>
+
+  <!-- EN: apply {0} -->
+  <ApplyTechprint>{0} 적용</ApplyTechprint>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>위험</EnterCooldownBlocksEntering>
+
+  <!-- CommsConsole -->
+  <!-- EN: Nobody to call -->
+  <NoCommsTarget>연락 가능한 대상 없음</NoCommsTarget>
+
+  <!-- EN: Invoke {0} -->
+  <Invoke>{0} 호출</Invoke>
+  <!-- EN: Cannot invoke {0} -->
+  <CannotInvoke>{0} 호출 불가</CannotInvoke>
+  <!-- EN: power -->
+  <Power>전원</Power>
+  <!-- EN: already invoked -->
+  <AlreadyInvoked>이미 호출함</AlreadyInvoked>
+
+  <!-- EN: Tend {0} -->
+  <Tend>{0} 치료</Tend>
+  <!-- EN: Cannot tend {0} -->
+  <CannotTend>{0} 치료 불가</CannotTend>
+  <!-- EN: {0} does not require tending -->
+  <TendingNotRequired>{0}(은)는 치료가 필요하지 않음</TendingNotRequired>
+  <!-- EN: without medicine -->
+  <WithoutMedicine>약품 없이</WithoutMedicine>
+
+  <!-- EN: Repair {0} -->
+  <RepairThing>{0} 수리</RepairThing>
+  <!-- EN: Cannot repair {0} -->
+  <CannotRepair>{0} 수리 불가</CannotRepair>
+  
+</LanguageData>

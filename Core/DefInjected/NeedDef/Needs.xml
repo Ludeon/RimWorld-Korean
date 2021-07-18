@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: beauty -->
+  <Beauty.label>환경</Beauty.label>
+  <!-- EN: Beauty reflects how visually pleasing a person has found their surroundings recently. Beautiful things like art improve beauty when viewed, while ugly things like filth and rough stone surfaces reduce it. -->
+  <Beauty.description>환경은 대상이 주변 경관을 얼마나 만족스럽게 보고 있는지를 나타냅니다.</Beauty.description>
+  
+  <!-- EN: comfort -->
+  <Comfort.label>편안</Comfort.label>
+  <!-- EN: Comfort is gained by sitting in or sleeping on comfortable furniture. It is acquired while laying in bed, sitting in a chair while working, or other times. -->
+  <Comfort.description>편안은 편안한 의자에 앉거나 침대에서 잠을 자서 얻습니다.</Comfort.description>
+  
+  <!-- EN: chemical -->
+  <DrugDesire.label>약물</DrugDesire.label>
+  <!-- EN: Chemical expresses the desire to ingest drugs. When above a certain level it will create good mood, but when below a certain level it will create increasingly bad mood. -->
+  <DrugDesire.description>약물은 약물을 섭취하려는 욕구의 정도를 나타냅니다. 일정 수준 이상일 경우 기분이 좋아지지만, 이하라면 기분이 나빠질 것입니다.</DrugDesire.description>
+  
+  <!-- EN: food -->
+  <Food.label>허기</Food.label>
+  <!-- EN: Food is the amount of nutrition a creature has consumed recently. If it is at zero, a creature will become increasingly malnourished and eventually die. -->
+  <Food.description>허기는 대상이 최근 섭취한 영양분의 양입니다. 만약 0에 도달한다면 영양부족에 시달리다 죽을 것입니다.</Food.description>
+  
+  <!-- EN: indoors -->
+  <Indoors.label>실내</Indoors.label>
+  <!-- EN: Indoors expresses the need to be within walls and under a roof. It is harmed by spending time in outdoor areas or not under roofs. To raise this need past 50%, a person must be under an overhead mountain, not just a normal roof. -->
+  <Indoors.description>실내 욕구는 벽 내부와 지붕 아래에 있어야 합니다. 옥외에서 시간을 보내거나, 지붕 아래에서 시간을 보내지 않으면 수치가 깍입니다. 이 욕구를 50%이상으로 유지하려면 지붕이 아닌 산 아래에 있어야 합니다.</Indoors.description>
+  
+  <!-- EN: recreation -->
+  <Joy.label>재미</Joy.label>
+  <!-- EN: Recreation is the need to have fun. Repeating the same kind of activity makes it less fun, so variety is necessary. -->
+  <Joy.description>재미는 시간이 지남에 따라 일을 그만두고 쉬려는 필요를 나타냅니다. 같은 종류의 행동을 반복할 경우 그 효과가 반감됩니다.</Joy.description>
+  
+  <!-- EN: mood -->
+  <Mood.label>기분</Mood.label>
+  <!-- EN: Mood represents how happy or stressed someone is. If mood gets too low, the person may suffer a mental break. Depending on how low his mood is, someone who has a mental break may have a minor breaks like hiding in his room for a day, or a major break like going on a murder spree. -->
+  <Mood.description>기분은 대상의 행복 수치를 나타냅니다. 만약 기분이 너무 낮다면 정신이상을 겪을 수 있습니다. 정신이상은 다양한 위험성을 가진 여러 형태로 나타납니다.</Mood.description>
+  
+  <!-- EN: outdoors -->
+  <Outdoors.label>외출</Outdoors.label>
+  <!-- EN: Outdoors expresses the need not to be cooped up inside. It is harmed by long periods inside, especially underground. It improves when someone spends time under the sky, especially outdoors. It's not about the size of the rooms, but the need to be outside from time to time. Lack of outdoors time is a significant challenge for people who dwell in underground bases. -->
+  <Outdoors.description>외출 욕구는 실내에 머무르고 있을 때 감소하며, 산 지붕 아래에서는 더 많이 감소합니다. 외출 시간 부족은 특히 지하 거주지에 사는 사람들에게 큰 문제가 됩니다.</Outdoors.description>
+  
+  <!-- EN: rest -->
+  <Rest.label>수면</Rest.label>
+  <!-- EN: Rest is how much sleep a creature has gotten recently. If it is at zero, a creature will eventually fall asleep on the spot. -->
+  <Rest.description>수면은 대상이 최근에 얼마나 잤는지를 나타냅니다. 만약 0에 도달한다면, 그 자리에서 잠들 것입니다.</Rest.description>
+  
+  <!-- EN: room size -->
+  <RoomSize.label>방 크기</RoomSize.label>
+  
+</LanguageData>
