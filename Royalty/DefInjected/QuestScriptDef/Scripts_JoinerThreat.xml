@@ -69,10 +69,15 @@
     <li>questName->[joiner_nameDef]의 곤충들</li>
   </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
-  <ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>{BASETEXT}\n\n  \n[joiner_nameDef]가 곤충 페로몬을 온 몸에 묻힌 채 곤충 무리로부터 도망치고 있습니다. 뒤쫓는 곤충 무리가 곧 도착할 것입니다.</ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef](은)는 곤충의 페로몬에 젖은채로 도망치고 있으며, 쫓아온 곤충이 곧 도착합니다.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}: [joiner_nameDef] 추격</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
+  <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \n[joiner_nameDef](을) 따라 온 곤충이 등장했습니다.</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
+  
+  <!-- UNUSED -->
+  <ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>{BASETEXT}\n\n  \n[joiner_nameDef]가 곤충 페로몬을 온 몸에 묻힌 채 곤충 무리로부터 도망치고 있습니다. 뒤쫓는 곤충 무리가 곧 도착할 것입니다.</ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>
+  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>
   <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>{BASETEXT}\n\n  \n[joiner_nameDef](을)를 쫓아온 곤충 무리가 도착했습니다.</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>
   
   <!-- EN:
@@ -104,8 +109,12 @@
     <li>questName(animalCount>=2)->[animalKind_labelPlural](와)과 [joiner_nameDef]</li>
   </ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterLabel.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterLabel.slateRef>
+  <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL}: 쫓기는 [joiner_nameDef]</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>
   <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
+  <ThreatReward_Manhunters_Joiner.LetterTextChasing.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_Joiner.LetterTextChasing.slateRef>
+  
+  <!-- UNUSED -->
+  <ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterLabel.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterLabel.slateRef>
   <ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterText.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterText.slateRef>
   
   <!-- EN:
@@ -129,20 +138,30 @@
     <li>problem->비밀</li>
   </ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL} 쫓기는 [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>[joiner_nameDef](이)가 자신이 무엇으로부터 도망치고 있었는지 밝혔습니다.\n\n  \n[joiner_pronoun]는 [enemyFaction_name]의 [enemyFaction_leaderTitle]인 [enemyFaction_leader_nameFull]의 아이와 결혼을 해야 했습니다. 그러나 의식 전날 술에 취한 나머지 제단에 구토를 해버렸고, 이는 [enemyFaction_leader_nameDef](와)과 그 가족에게 극렬한 모욕으로 받아들여졌습니다.\n\n  \n[enemyFaction_leader_nameDef](은)는 [joiner_nameDef] 뿐만 아니라 [joiner_pronoun]와 관련된 모든 자에게 복수할 것을 맹세했으며, [enemyFaction_pawnsPlural](을)를 파견해 뜻을 이루고자 합니다.\n\n  \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef](은)는 도망쳐 온 것을 인정했습니다.\n    \n[joiner_pronoun]는 [enemyFaction_name]의 지도자인 [enemyFaction_leader_nameFull]의 자식과 결혼 하기로 되어 있었습니다. [joiner_pronoun]는 식을 올리기 전에 술에 취해 [enemyFaction_leader_nameDef]의 가족 전체에 대해 노골적으로 모욕하듯 제단에서 구토를 했습니다.\n    \n[enemyFaction_leader_nameDef](은)는 이 일에 대해 [joiner_nameDef](와)과 [joiner_pronoun]와 관련된 모든 사람들에게 보복을 맹세하며, [enemyFaction_pawnsPlural](을)를 보냈습니다.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: 쫓기는 [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>[joiner_nameDef](이)가 자신이 무엇으로부터 도망치고 있었는지 밝혔습니다.\n\n  \n곤충 젤리의 쾌락과, 팔았을 때의 돈에 눈이 먼 [joiner_nameDef](은)는 거대한 곤충 군락을 독으로 파괴할 계획을 세웠으나 실패했고, 대신 곤충 페로몬에 흠뻑 젖고 말았습니다. 그 후로 곤충 무리는 [joiner_pronoun]를 계속 쫓고 있었습니다. 이제 곤충 무리가 마지막 공격을 시작합니다.\n\n  \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef](은)는 도망쳐 온 것을 인정했습니다.\n    \n[joiner_nameDef](은)는 곤충젤리가 주는 즐거움과 욕심 때문에, 독을 사용하여 거대한 곤충군락을 파괴하려고 했습니다. [joiner_pronoun](은)는 실패했고, 곤충 페로몬을 뒤집어 쓸 수 밖에 없었습니다. 그 이후로 곤충들이 [joiner_objective] 뒤쫓아 다녔고, 이제 최종 공격에 대비를 할 차례입니다.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 괴롭히기 위한 지역 출현: [site_label]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>[joiner_nameDef](을)를 괴롭히는 지역 출현: [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>[joiner_nameDef](이)가 자신이 무엇으로부터 도망치고 있었는지 밝혔습니다.\n\n  \n[joiner_pronoun]가 여행하던 중, 아픔으로 인해 도로변에서 쉬고 있던 [enemyFaction_name]의 [enemyFaction_leaderTitle]인 [enemyFaction_leader_nameFull](을)를 우연히 보게 됐습니다. [joiner_nameDef](은)는 [enemyFaction_leader_nameDef](을)를 [Animal](이)라고 모욕했습니다.\n\n  \n이제 [enemyFaction_leader_nameDef]의 [enemyFaction_pawnsPlural](이)가 근처 지역을 활성화해서 정착지를 괴롭히려고 합니다.\n\n  \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef](은)는 도망쳐 온 것을 인정했습니다.\n    \n[joiner_nameDef](이)가 여행하고 있을 때, [enemyFaction_name]의 지도자인 [enemyFaction_leader_nameFull](을)를 우연히 마주쳤습니다. [joiner_nameDef](은)는 [enemyFaction_leader_nameDef](을)를 [Animal](와)과 비교하며 모욕했습니다.\n    \n이제 [enemyFaction_leader_nameDef]의 [enemyFaction_pawnsPlural](이)가 근처에서 지역을 활성화하여 괴롭히려고 합니다.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL}: 쫓기는 [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef](은)는 도망쳐 온 것을 인정했습니다.\n    \n[joiner_nameDef](이)가 여행하고 있을 때, [animalKind_labelPlural]의 무리에서 뒤쳐진 동물을 발견했습니다. [joiner_pronoun]는 기분이 좋지 않아서, [animalKind_labelPlural](을)를 괴롭혔는데 예기치 못하게, 그들이 [joiner_objective] 공격했고, 먼거리를 따라 쫓아왔습니다.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
+  
+  <!-- UNUSED -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>[joiner_nameDef](이)가 자신이 무엇으로부터 도망치고 있었는지 밝혔습니다.\n\n  \n[joiner_pronoun]는 [enemyFaction_name]의 [enemyFaction_leaderTitle]인 [enemyFaction_leader_nameFull]의 아이와 결혼을 해야 했습니다. 그러나 의식 전날 술에 취한 나머지 제단에 구토를 해버렸고, 이는 [enemyFaction_leader_nameDef](와)과 그 가족에게 극렬한 모욕으로 받아들여졌습니다.\n\n  \n[enemyFaction_leader_nameDef](은)는 [joiner_nameDef] 뿐만 아니라 [joiner_pronoun]와 관련된 모든 자에게 복수할 것을 맹세했으며, [enemyFaction_pawnsPlural](을)를 파견해 뜻을 이루고자 합니다.\n\n  \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>[joiner_nameDef](이)가 자신이 무엇으로부터 도망치고 있었는지 밝혔습니다.\n\n  \n곤충 젤리의 쾌락과, 팔았을 때의 돈에 눈이 먼 [joiner_nameDef](은)는 거대한 곤충 군락을 독으로 파괴할 계획을 세웠으나 실패했고, 대신 곤충 페로몬에 흠뻑 젖고 말았습니다. 그 후로 곤충 무리는 [joiner_pronoun]를 계속 쫓고 있었습니다. 이제 곤충 무리가 마지막 공격을 시작합니다.\n\n  \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 괴롭히기 위한 지역 출현: [site_label]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>[joiner_nameDef](이)가 자신이 무엇으로부터 도망치고 있었는지 밝혔습니다.\n\n  \n[joiner_pronoun]가 여행하던 중, 아픔으로 인해 도로변에서 쉬고 있던 [enemyFaction_name]의 [enemyFaction_leaderTitle]인 [enemyFaction_leader_nameFull](을)를 우연히 보게 됐습니다. [joiner_nameDef](은)는 [enemyFaction_leader_nameDef](을)를 [Animal](이)라고 모욕했습니다.\n\n  \n이제 [enemyFaction_leader_nameDef]의 [enemyFaction_pawnsPlural](이)가 근처 지역을 활성화해서 정착지를 괴롭히려고 합니다.\n\n  \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>[joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>
   <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>[joiner_nameDef](이)가 자신이 무엇으로부터 도망치고 있었는지 밝혔습니다.\n\n  \n[joiner_pronoun]는 여행하던 중에 길 잃은 [animalKind_labelPlural] 한 무리를 마주쳤습니다. 마침 기분이 좋지 않던 [joiner_nameDef](은)는 그 동물들을 괴롭혔는데, 그러자 갑자기 동물들이 [joiner_pronoun](을)를 공격하기 시작했습니다. 그 후에는 먼 거리에 걸쳐 [joiner_pronoun]를 계속 쫓아온 것입니다.\n\n  \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>
   
   <!-- EN:
@@ -160,12 +179,18 @@
     <li>questName->[joiner_nameDef]의 많은 적들</li>
   </ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>[../joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL} 쫓기는 [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n\n  \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameFull](을)를 쫓아왔습니다.</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameFull](을)를 따라왔습니다.</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>[../joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL} 쫓기는 [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameFull](을)를 따라왔습니다.</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
+  
+  <!-- UNUSED -->
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>[../joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n\n  \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameFull](을)를 쫓아왔습니다.</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>[../joiner_nameDef](을)를 추격하는 {BASELABEL}</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
   <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n\n  \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameFull](을)를 쫓아왔습니다.</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
   
   <!-- EN:
@@ -197,6 +222,9 @@
     <li>questName->[site/site_label](와)과 [joiner_nameDef]</li>
   </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
+  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>[../joiner_nameDef](을)를 받아들였기 때문에, [../threat](이)가 근처에서 지역을 설치해 괴롭힙니다.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
+  
+  <!-- UNUSED -->
   <ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>[../joiner_nameDef](을)를 받아줬기 때문에, [../threat](이)가 인근 지역에 자리를 잡고 정착지를 괴롭히기 시작했습니다.\n\n  \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
   
 </LanguageData>
