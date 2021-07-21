@@ -292,6 +292,18 @@
   <ArmorPenetration>관통력</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>관통력이 있는 무기는 대상이 지닌 방어도를 무시할 수 있습니다.\n\n관통력이 목표물의 방어도보다 작다면 상쇄 후 남은 방어력을 기준으로 피해가 계산됩니다. 관통력이 목표물의 방어도보다 높다면 알몸의 대상을 공격한 것과 같은 결과를 냅니다.</ArmorPenetrationExplanation>
+  <!-- EN: Building damage factor -->
+  <BuildingDamageFactor>TODO</BuildingDamageFactor>
+  <!-- EN: Damage to all buildings is multiplied by this value. -->
+  <BuildingDamageFactorExplanation>TODO</BuildingDamageFactorExplanation>
+  <!-- EN: Building damage factor (impassable) -->
+  <BuildingDamageFactorImpassable>TODO</BuildingDamageFactorImpassable>
+  <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
+  <BuildingDamageFactorImpassableExplanation>TODO</BuildingDamageFactorImpassableExplanation>
+  <!-- EN: Building damage factor (passable) -->
+  <BuildingDamageFactorPassable>TODO</BuildingDamageFactorPassable>
+  <!-- EN: Damage to all passable buildings is multiplied by this value. -->
+  <BuildingDamageFactorPassableExplanation>TODO</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>정확도</Accuracy>
   <!-- EN: Burst shot count -->
@@ -1101,7 +1113,7 @@
   <AutoSlaugtherHeaderColTotal>총합</AutoSlaugtherHeaderColTotal>
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>기타</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
-  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
+  <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
   <AutoSlaugtherTip>동물의 수가 최대 값을 넘으면 정착민들이 자동으로 가장 늙은 동물부터 도축해서 수를 맞춥니다.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>수컷 성체</AnimalMaleAdult>
