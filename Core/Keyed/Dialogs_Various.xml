@@ -1125,8 +1125,10 @@
   <AnimalFemaleYoung>어린 암컷</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
   <AnimalPregnant>임신</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>TODO</AnimalBonded>
   <!-- EN: Slaughter -->
-  <AllowSlaughterPregnant>도축</AllowSlaughterPregnant>
+  <AllowSlaughter>TODO</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>자동으로 도축할 동물입니다.</AutoSlaugtherHeaderTooltipLabel>
@@ -1154,6 +1156,10 @@
   <AutoSlaughterHeaderTooltipCurrentPregnant>정착지 동물 중 임신한 동물의 수입니다.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
   <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>이 종의 임신한 암컷도 자동 도축을 허용합니다.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>TODO</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>TODO</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>클릭해서 동물을 제한할 수를 설정하세요.</AutoSlaughterTooltipSetLimit>
