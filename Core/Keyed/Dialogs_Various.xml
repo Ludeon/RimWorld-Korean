@@ -293,17 +293,17 @@
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>관통력이 있는 무기는 대상이 지닌 방어도를 무시할 수 있습니다.\n\n관통력이 목표물의 방어도보다 작다면 상쇄 후 남은 방어력을 기준으로 피해가 계산됩니다. 관통력이 목표물의 방어도보다 높다면 알몸의 대상을 공격한 것과 같은 결과를 냅니다.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
-  <BuildingDamageFactor>TODO</BuildingDamageFactor>
+  <BuildingDamageFactor>건물 피해 계수</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
-  <BuildingDamageFactorExplanation>TODO</BuildingDamageFactorExplanation>
+  <BuildingDamageFactorExplanation>건물에 가해지는 모든 피해량에 이 계수를 곱합니다.</BuildingDamageFactorExplanation>
   <!-- EN: Building damage factor (impassable) -->
-  <BuildingDamageFactorImpassable>TODO</BuildingDamageFactorImpassable>
+  <BuildingDamageFactorImpassable>건물 피해 계수 (통과 불가)</BuildingDamageFactorImpassable>
   <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
-  <BuildingDamageFactorImpassableExplanation>TODO</BuildingDamageFactorImpassableExplanation>
+  <BuildingDamageFactorImpassableExplanation>통과할 수 없는 건물에 가해지는 모든 피해량에 이 계수를 곱합니다.</BuildingDamageFactorImpassableExplanation>
   <!-- EN: Building damage factor (passable) -->
-  <BuildingDamageFactorPassable>TODO</BuildingDamageFactorPassable>
+  <BuildingDamageFactorPassable>건물 피해 계수 (통과 가능)</BuildingDamageFactorPassable>
   <!-- EN: Damage to all passable buildings is multiplied by this value. -->
-  <BuildingDamageFactorPassableExplanation>TODO</BuildingDamageFactorPassableExplanation>
+  <BuildingDamageFactorPassableExplanation>통과할 수 있는 건물에 가해지는 모든 피해량에 이 계수를 곱합니다.</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>정확도</Accuracy>
   <!-- EN: Burst shot count -->
@@ -457,7 +457,7 @@
   <!-- EN: {0} / day -->
   <PerDay>{0} / 일</PerDay>
   <!-- EN: {0} / hour -->
-  <PerHour>{0}/시</PerHour>
+  <PerHour>{0}/시간</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>짐꾼</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -653,7 +653,7 @@
   <!-- EN: Travel supplies -->
   <TravelSupplies>보급품</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
-  <CaravanMustHaveAtLeastOneColonist>최소 한명의 쓰러지지 않은 정착민을 할당해야 합니다.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanMustHaveAtLeastOneColonist>쓰러지지 않은 정착민을 최소 한 명은 할당해야 합니다.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
   <CaravanCouldNotFindExitSpot>선택된 출구({0})에 접근 불가능합니다.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
@@ -787,7 +787,7 @@
   <!-- EN: Split caravan -->
   <SplitCaravan>상단 분할</SplitCaravan>
   <!-- EN: You must leave at least one non-downed colonist. -->
-  <SourceCaravanMustHaveAtLeastOneColonist>최소 한명의 쓰러지지 않은 정착민을 할당해야 합니다.</SourceCaravanMustHaveAtLeastOneColonist>
+  <SourceCaravanMustHaveAtLeastOneColonist>쓰러지지 않은 정착민을 최소 한 명은 남겨야 합니다.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>현재 상단이 새로운 상단에 줄 수 있는 아이템의 숫자를 보여줍니다.</SplitCaravanThingCountTip>
   
@@ -1059,9 +1059,9 @@
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>지금은 {0_labelShort}에서 영감을 받을 수 없습니다.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>{0_labelShort}(은)는 {1_labelShort}(와)과 신념이 달라야 합니다.</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>{0_labelShort}의 믿음관이 {1_labelShort}(와)과 달라야 합니다.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>{0_labelShort}(은)는 {1_labelShort}(와)과 신념이 같아야 합니다.</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>{0_labelShort}의 믿음관이 {1_labelShort}(와)과 같아야 합니다.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
   <AbilityMustBeSickOrInjured>{0_labelShort}(이)가 아프거나 부상을 입어야 합니다.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
@@ -1114,7 +1114,7 @@
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>기타</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>동물의 수가 최대 값을 넘으면 정착민들이 자동으로 가장 늙은 동물부터 도축해서 수를 맞춥니다.</AutoSlaugtherTip>
+  <AutoSlaugtherTip>우선 임신하지 않은 가장 늙은 동물을부터 도축하며, 그 후에는 가장 최근에 임신한 동물부터 도축합니다.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>수컷 성체</AnimalMaleAdult>
   <!-- EN: Male young -->
@@ -1126,9 +1126,9 @@
   <!-- EN: Pregnant -->
   <AnimalPregnant>임신</AnimalPregnant>
   <!-- EN: Bonded -->
-  <AnimalBonded>TODO</AnimalBonded>
+  <AnimalBonded>각별</AnimalBonded>
   <!-- EN: Slaughter -->
-  <AllowSlaughter>TODO</AllowSlaughter>
+  <AllowSlaughter>도축</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>자동으로 도축할 동물입니다.</AutoSlaugtherHeaderTooltipLabel>
@@ -1157,16 +1157,16 @@
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
   <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>이 종의 임신한 암컷도 자동 도축을 허용합니다.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
   <!-- EN: The current number of bonded animals in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentBonded>TODO</AutoSlaughterHeaderTooltipCurrentBonded>
+  <AutoSlaughterHeaderTooltipCurrentBonded>정착지 동물 중 각별한 동물의 수입니다.</AutoSlaughterHeaderTooltipCurrentBonded>
   <!-- EN: Allow bonded animals to be slaughtered. -->
-  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>TODO</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>각별한 동물을 도축하도록 허용합니다.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>클릭해서 동물을 제한할 수를 설정하세요.</AutoSlaughterTooltipSetLimit>
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
-  <RoomRequirementNoBeds>침대없음</RoomRequirementNoBeds>
+  <RoomRequirementNoBeds>침대 없음</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>방 면적: {0} 타일</RoomRequirementArea>
   <!-- EN: room impressiveness -->

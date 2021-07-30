@@ -210,7 +210,7 @@
   <!-- EN: Building unusable due to roof -->
   <BuildingCantBeUsedRoofed>지붕으로 인한 시설 사용 불가</BuildingCantBeUsedRoofed>
   <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
-  <BuildingCantBeUsedRoofedDesc>이 시설은 지붕 아래에서는 사용할 수 있습니다. 지붕을 제거하세요.</BuildingCantBeUsedRoofedDesc>
+  <BuildingCantBeUsedRoofedDesc>이 시설은 지붕 아래에서는 사용할 수 없습니다. 지붕을 제거하세요.</BuildingCantBeUsedRoofedDesc>
 
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>열사병</AlertHeatstroke>
@@ -258,7 +258,7 @@
   <!-- EN: Animal filth -->
   <AlertAnimalFilth>동물 오물</AlertAnimalFilth>
   <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
-  <AlertAnimalFilthDesc>오물을 생성하는 동물이 실내의 깨끗한 바닥 위를 돌아다니고 있습니다.\n\n동물이 일반 바닥 위를 돌아다니면 많은 양의 오물이 생깁니다. 오물을 생성하는 동물이 실내로 들어오지 못하도록 제한하세요. 바닥에 짚을 깔아서 생성되는 오물의 양을 크게 줄일 수도 있습니다.\n\n동물의 오물 생성량은 'i' 버튼을 누르면 나타나는 통계 화면에서 확인할 수 있습니다.\n\n다음의 동물이 문제입니다:\n{0}</AlertAnimalFilthDesc>
+  <AlertAnimalFilthDesc>오물을 생성하는 동물이 실내의 깨끗한 바닥 위를 돌아다니고 있습니다.\n\n동물이 일반 바닥 위를 돌아다니면 많은 양의 오물이 생깁니다. 오물을 생성하는 동물이 실내로 들어오지 못하도록 제한하세요. 바닥에 멍석을 깔아서 생성되는 오물의 양을 크게 줄일 수도 있습니다.\n\n동물의 오물 생성량은 'i' 버튼을 누르면 나타나는 통계 화면에서 확인할 수 있습니다.\n\n다음의 동물이 문제입니다:\n{0}</AlertAnimalFilthDesc>
 
   <!-- EN: Pen needed -->
   <AlertAnimalPenNeeded>동물 우리 필요</AlertAnimalPenNeeded>

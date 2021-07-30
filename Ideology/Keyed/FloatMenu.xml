@@ -2,135 +2,143 @@
 <LanguageData>
 
   <!-- EN: Ideoligion forbids -->
-  <IdeoligionForbids>TODO</IdeoligionForbids>
+  <IdeoligionForbids>사상이 금지함</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
-  <OnlyMembersCanBuild>TODO</OnlyMembersCanBuild>
+  <OnlyMembersCanBuild>{0}만 건설 가능</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
-  <CantStartRitualAlreadyInProgress>TODO</CantStartRitualAlreadyInProgress>
+  <CantStartRitualAlreadyInProgress>이미 {0}(을)를 진행하고 있습니다.</CantStartRitualAlreadyInProgress>
   <!-- EN: {0} is already participating in a ritual. -->
-  <CantStartRitualTargetIsAlreadyInRitual>TODO</CantStartRitualTargetIsAlreadyInRitual>
+  <CantStartRitualTargetIsAlreadyInRitual>{0}(은)는 이미 행사에 참여하고 있습니다.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
-  <CantStartRitualRoleNotAssigned>TODO</CantStartRitualRoleNotAssigned>
+  <CantStartRitualRoleNotAssigned>이 행사를 진행하려면 {0} 지위를 할당해야 합니다.</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>TODO</CantStartRitualNoConvertee>
+  <CantStartRitualNoConvertee>{0}(으)로 교화할 사람이 없습니다. 다른 사상을 믿는 정착민, 수감자, 노예가 필요합니다.</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
-  <CantStartRitualSelectedPawnCannotBeRole>TODO</CantStartRitualSelectedPawnCannotBeRole>
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef}(은)는 {ROLE}(을)를 맡을 수 없습니다.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>TODO</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef}(이)가 {IDEO_memberName}이어야 합니다.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>TODO</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef}(은)는 정신적으로 무감각합니다.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>TODO</CantStartNotEnoughSpaceDuel>
+  <CantStartNotEnoughSpaceDuel>공간이 부족합니다. 반지름 {MINRADIUS}칸의 원형 공간이 비어있어야 합니다.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
-  <CantStartFuneralForSlave>TODO</CantStartFuneralForSlave>
+  <CantStartFuneralForSlave>{0_labelShort}(은)는 노예입니다. 노예의 장례식은 진행할 수 없습니다.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
-  <NoSlaveBed>TODO</NoSlaveBed>
+  <NoSlaveBed>접근 가능하고, 주인이 없으며, 안전한 온도의 노예 침대가 필요합니다.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
-  <ReturnToSlaveBed>TODO</ReturnToSlaveBed>
+  <ReturnToSlaveBed>노예 침대로 돌려보내기</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
-  <NotAllowedForFaction>TODO</NotAllowedForFaction>
+  <NotAllowedForFaction>이 세력에 사용할 수 없음</NotAllowedForFaction>
 
   <!-- EN: Remove -->
-  <Remove>TODO</Remove>
+  <Remove>제거</Remove>
   <!-- EN: Remove precept -->
-  <RemovePrecept>TODO</RemovePrecept>
+  <RemovePrecept>규율 제거</RemovePrecept>
   <!-- EN: Regenerate -->
-  <Regenerate>TODO</Regenerate>
+  <Regenerate>재생성</Regenerate>
   <!-- EN: Cannot edit -->
-  <CannotEdit>TODO</CannotEdit>
+  <CannotEdit>편집 불가</CannotEdit>
   <!-- EN: No choices available -->
-  <NoChoicesAvailable>TODO</NoChoicesAvailable>
+  <NoChoicesAvailable>가능한 선택지 없음</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>TODO</RequiredByMeme>
+  <RequiredByMeme>{0} 가르침이 요구함</RequiredByMeme>
   <!-- EN: Required -->
   <Required>필요</Required>
   <!-- EN: Style category -->
-  <StyleCategory>TODO</StyleCategory>
+  <StyleCategory>스타일 범주</StyleCategory>
   <!-- EN: Add style category -->
-  <AddStyleCategory>TODO</AddStyleCategory>
+  <AddStyleCategory>스타일 범주 추가</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
-  <MaxRitualCount>TODO</MaxRitualCount>
+  <MaxRitualCount>행사는 {0}개까지만 추가할 수 있습니다.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
-  <MaxRelicCount>TODO</MaxRelicCount>
+  <MaxRelicCount>유물은 {0}개까지만 추가할 수 있습니다.</MaxRelicCount>
   <!-- EN: can't have more than {0} specialists. -->
-  <MaxMultiRolesCount>TODO</MaxMultiRolesCount>
+  <MaxMultiRolesCount>전문가의 종류는 {0}개까지만 가능합니다.</MaxMultiRolesCount>
   <!-- EN: max {0} -->
-  <MaxPreceptCount>TODO</MaxPreceptCount>
+  <MaxPreceptCount>최대 {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
-  <SetTargetGender>TODO</SetTargetGender>
-  <!-- EN: incompatible -->
-  <FactionOrIdeoIncompatible>TODO</FactionOrIdeoIncompatible>
+  <SetTargetGender>성별 지정</SetTargetGender>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>{0} 세력이어야 함</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>부족민</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>부족 의상 제외</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>다음 가르침 중 하나 필요</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
-  <BodyPartAlreadyCovered>TODO</BodyPartAlreadyCovered>
+  <BodyPartAlreadyCovered>현재 할당한 의복과 함께 입을 수 없음</BodyPartAlreadyCovered>
   <!-- EN: already assigned -->
-  <AlreadyAssigned>TODO</AlreadyAssigned>
+  <AlreadyAssigned>이미 할당됨</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
-  <NoteRoleApparelRequirementEffects>TODO</NoteRoleApparelRequirementEffects>
+  <NoteRoleApparelRequirementEffects>의류 요구사항을 충족하면 행복해하고, 위반하면 기분이 나빠집니다.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
-  <NeuralSuperchargeNotReady>TODO</NeuralSuperchargeNotReady>
+  <NeuralSuperchargeNotReady>과충전이 준비되지 않음</NeuralSuperchargeNotReady>
   <!-- EN: already getting -->
-  <NeuralSuperchargeAlreadyGetting>TODO</NeuralSuperchargeAlreadyGetting>
+  <NeuralSuperchargeAlreadyGetting>이미 받는 중</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
-  <SetApparelType>TODO</SetApparelType>
+  <SetApparelType>유형 설정</SetApparelType>
 
   <!-- EN: change style -->
-  <ChangeStyle>TODO</ChangeStyle>
+  <ChangeStyle>스타일 바꾸기</ChangeStyle>
   <!-- EN: {0} {DEITYNOUN} required -->
-  <DeitiesRequired>TODO</DeitiesRequired>
+  <DeitiesRequired>{0} {DEITYNOUN} 필요</DeitiesRequired>
   <!-- EN: deity -->
-  <Deity>TODO</Deity>
+  <Deity>신적 존재</Deity>
   <!-- EN: requires meme -->
-  <RequiresMeme>TODO</RequiresMeme>
+  <RequiresMeme>필요한 가르침</RequiresMeme>
   <!-- EN: requires one of -->
-  <RequiresOneOfMemes>TODO</RequiresOneOfMemes>
+  <RequiresOneOfMemes>다음 중 하나 필요</RequiresOneOfMemes>
   <!-- EN: conflicts with meme -->
-  <ConflictsWithMeme>TODO</ConflictsWithMeme>
+  <ConflictsWithMeme>충돌하는 가르침</ConflictsWithMeme>
   <!-- EN: conflicts with memes -->
-  <ConflictsWithMemes>TODO</ConflictsWithMemes>
+  <ConflictsWithMemes>충돌하는 가르침</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
-  <IdeoAlreadyHasAltar>TODO</IdeoAlreadyHasAltar>
+  <IdeoAlreadyHasAltar>오직 하나의 제단/상징문양만 보유 가능</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
-  <RecolorApparel>TODO</RecolorApparel>
+  <RecolorApparel>의류 염색</RecolorApparel>
 
   <!-- EN: Hack {0} -->
-  <Hack>TODO</Hack>
+  <Hack>{0} 해킹</Hack>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>TODO</CannotHack>
+  <CannotHack>{0}(을)를 해킹할 수 없음</CannotHack>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>TODO</AlreadyHacked>
+  <AlreadyHacked>이미 해킹함</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>TODO</IncapableOfHacking>
+  <IncapableOfHacking>해킹 불가능</IncapableOfHacking>
   <!-- EN: to drop supplies -->
-  <ToDropSupplies>TODO</ToDropSupplies>
+  <ToDropSupplies>보급품 낙하를 위해</ToDropSupplies>
 
   <!-- EN: Install {0} -->
-  <InstallRelic>TODO</InstallRelic>
+  <InstallRelic>{0} 설치</InstallRelic>
   <!-- EN: Extract {0} -->
-  <ExtractRelic>TODO</ExtractRelic>
+  <ExtractRelic>{0} 꺼내기</ExtractRelic>
   <!-- EN: Extract {0} to inventory ({1}) -->
-  <ExtractRelicToInventory>TODO</ExtractRelicToInventory>
+  <ExtractRelicToInventory>{0}(을)를 꺼내서 소지품에 넣기({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
-  <NoRelicToInstall>TODO</NoRelicToInstall>
+  <NoRelicToInstall>설치할 유물 없음</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
-  <InstallInReliquary>TODO</InstallInReliquary>
+  <InstallInReliquary>유물함에 설치</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
-  <NoEmptyReliquary>TODO</NoEmptyReliquary>
+  <NoEmptyReliquary>비어있고 접근 가능한 유물함 없음</NoEmptyReliquary>
 
   <!-- EN: No {MEMBERNAME} warden -->
-  <NoWardenOfIdeo>TODO</NoWardenOfIdeo>
+  <NoWardenOfIdeo>{MEMBERNAME}의 간수 없음</NoWardenOfIdeo>
 
   <!-- EN: Remove current role -->
-  <RemoveCurrentRole>TODO</RemoveCurrentRole>
+  <RemoveCurrentRole>현재 지위 해임</RemoveCurrentRole>
 
   <!-- EN: Enter biosculpter pod -->
-  <EnterBiosculpterPod>TODO</EnterBiosculpterPod>
+  <EnterBiosculpterPod>생체 재구축기에 들어가기</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
-  <BiosculpterBiotunedToAnother>TODO</BiosculpterBiotunedToAnother>
+  <BiosculpterBiotunedToAnother>다른 사람에 맞춰짐</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>노화 역전을 받으려면 {0}살 이상이어야 합니다.</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
-  <CarryToBiosculpterPod>TODO</CarryToBiosculpterPod>
+  <CarryToBiosculpterPod>{PAWN_label}(을)를 생체 재구축기로 이송 ({CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
-  <CannotCarryToBiosculpterPod>TODO</CannotCarryToBiosculpterPod>
+  <CannotCarryToBiosculpterPod>생체 재구축기로 이송 불가</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
-  <NoBiosculpterPod>TODO</NoBiosculpterPod>
+  <NoBiosculpterPod>사용 가능한 생체 재구축기가 없습니다.</NoBiosculpterPod>
 
 </LanguageData>

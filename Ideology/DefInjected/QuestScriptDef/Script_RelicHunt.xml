@@ -1,24 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
-  -->
-  <RelicHunt.questDescriptionRules.rulesStrings>TODO</RelicHunt.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->The [hunt] for the [item]</li>
-    <li>questName->The [item] of [ideo_name]</li>
-    <li>questName->The [itemAdj] [item]</li>
-    <li>hunt->hunt</li>
-    <li>hunt->search</li>
-    <li>hunt->quest</li>
-    <li>item(p=4)->[relic_name]</li>
-    <li>item->relic</li>
-    <li>item->artifact</li>
-    <li>itemAdj->ancient</li>
-    <li>itemAdj->revered</li>
-    <li>itemAdj->venerated</li>
-  -->
-  <RelicHunt.questNameRules.rulesStrings>TODO</RelicHunt.questNameRules.rulesStrings>
+  <!-- EN: questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name]. -->
+  <RelicHunt.questDescriptionRules.rulesStrings.0>questDescription->[ideo_name]의 유물이 근처에 있는 것을 알게 되었습니다.\n\n[relic_name](은)는 모든 [ideo_memberNamePlural](이)가 숭배하는 고대의 물건입니다. 그것을 가져온다면 [ideo_memberNamePlural](을)를 행복하게 만들고, 부유한 순례자를 끌어들이고, 더 많은 사람들을 [ideo_name]에 끌어들일 수 있을 것입니다.</RelicHunt.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->The [hunt] for the [item] -->
+  <RelicHunt.questNameRules.rulesStrings.0>questName->[item]의 [hunt]</RelicHunt.questNameRules.rulesStrings.0>
+  <!-- EN: questName->The [item] of [ideo_name] -->
+  <RelicHunt.questNameRules.rulesStrings.1>questName->[ideo_name]의 [item]</RelicHunt.questNameRules.rulesStrings.1>
+  <!-- EN: questName->The [itemAdj] [item] -->
+  <RelicHunt.questNameRules.rulesStrings.2>questName->The [itemAdj] [item]</RelicHunt.questNameRules.rulesStrings.2>
+  <!-- EN: hunt->hunt -->
+  <RelicHunt.questNameRules.rulesStrings.3>hunt->추적</RelicHunt.questNameRules.rulesStrings.3>
+  <!-- EN: hunt->search -->
+  <RelicHunt.questNameRules.rulesStrings.4>hunt->탐색</RelicHunt.questNameRules.rulesStrings.4>
+  <!-- EN: hunt->quest -->
+  <RelicHunt.questNameRules.rulesStrings.5>hunt->발자취를 따라</RelicHunt.questNameRules.rulesStrings.5>
+  <!-- EN: item(p=4)->[relic_name] -->
+  <RelicHunt.questNameRules.rulesStrings.6>item(p=4)->[relic_name]</RelicHunt.questNameRules.rulesStrings.6>
+  <!-- EN: item->relic -->
+  <RelicHunt.questNameRules.rulesStrings.7>item->성물</RelicHunt.questNameRules.rulesStrings.7>
+  <!-- EN: item->artifact -->
+  <RelicHunt.questNameRules.rulesStrings.8>item->유물</RelicHunt.questNameRules.rulesStrings.8>
+  <!-- EN: itemAdj->ancient -->
+  <RelicHunt.questNameRules.rulesStrings.9>itemAdj->고대의</RelicHunt.questNameRules.rulesStrings.9>
+  <!-- EN: itemAdj->revered -->
+  <RelicHunt.questNameRules.rulesStrings.10>itemAdj->추앙받는</RelicHunt.questNameRules.rulesStrings.10>
+  <!-- EN: itemAdj->venerated -->
+  <RelicHunt.questNameRules.rulesStrings.11>itemAdj->숭배받는</RelicHunt.questNameRules.rulesStrings.11>
   
 </LanguageData>

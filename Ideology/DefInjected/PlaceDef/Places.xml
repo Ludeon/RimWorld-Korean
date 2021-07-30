@@ -1,435 +1,733 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>place_name->Atura Station</li>
-    <li>place_adjective->Aturan</li>
-    <li>place_summary->orbital shipyard</li>
-    <li>place_community->shuttle dock</li>
-    <li>place_community->manufacturing ring</li>
-    <li>place_community->residential ring</li>
-    <li>place_powerCenter->central control room</li>
-    <li>place_job->construction drone operator</li>
-    <li>place_job->manager</li>
-    <li>place_job->test pilot</li>
-    <li>place_job->sales agent</li>
-    <li>place_job->3D printer technician</li>
-    <li>place_personalWeapon->taser</li>
-    <li>place_personalWeapon->arc welder</li>
-    <li>place_massWeapon->[anEMPAttack]</li>
-    <li>place_massWeapon->remote-controlled welding drones</li>
-    <li>place_foeLeader->crime boss</li>
-    <li>place_foeSoldiers->thugs</li>
-  -->
-  <AturaStation.placeRules.rulesStrings>TODO</AturaStation.placeRules.rulesStrings>
+  <!-- EN: place_name->Atura Station -->
+  <AturaStation.placeRules.rulesStrings.0>place_name->아투라 정거장</AturaStation.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Aturan -->
+  <AturaStation.placeRules.rulesStrings.1>place_adjective->아투라의</AturaStation.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->orbital shipyard -->
+  <AturaStation.placeRules.rulesStrings.2>place_summary->궤도 조선소</AturaStation.placeRules.rulesStrings.2>
+  <!-- EN: place_community->shuttle dock -->
+  <AturaStation.placeRules.rulesStrings.3>place_community->왕복선 정착장</AturaStation.placeRules.rulesStrings.3>
+  <!-- EN: place_community->manufacturing ring -->
+  <AturaStation.placeRules.rulesStrings.4>place_community->생산 지구</AturaStation.placeRules.rulesStrings.4>
+  <!-- EN: place_community->residential ring -->
+  <AturaStation.placeRules.rulesStrings.5>place_community->거주 지구</AturaStation.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->central control room -->
+  <AturaStation.placeRules.rulesStrings.6>place_powerCenter->중앙 관리실</AturaStation.placeRules.rulesStrings.6>
+  <!-- EN: place_job->construction drone operator -->
+  <AturaStation.placeRules.rulesStrings.7>place_job->건설 드론 조종사</AturaStation.placeRules.rulesStrings.7>
+  <!-- EN: place_job->manager -->
+  <AturaStation.placeRules.rulesStrings.8>place_job->관리자</AturaStation.placeRules.rulesStrings.8>
+  <!-- EN: place_job->test pilot -->
+  <AturaStation.placeRules.rulesStrings.9>place_job->실험 조종사</AturaStation.placeRules.rulesStrings.9>
+  <!-- EN: place_job->sales agent -->
+  <AturaStation.placeRules.rulesStrings.10>place_job->판매원</AturaStation.placeRules.rulesStrings.10>
+  <!-- EN: place_job->3D printer technician -->
+  <AturaStation.placeRules.rulesStrings.11>place_job->3D 프린터 기술자</AturaStation.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->taser -->
+  <AturaStation.placeRules.rulesStrings.12>place_personalWeapon->전기충격기</AturaStation.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->arc welder -->
+  <AturaStation.placeRules.rulesStrings.13>place_personalWeapon->아크 용접기</AturaStation.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->[anEMPAttack] -->
+  <AturaStation.placeRules.rulesStrings.14>TODO</AturaStation.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->remote-controlled welding drones -->
+  <AturaStation.placeRules.rulesStrings.15>place_massWeapon->용접 드론</AturaStation.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->crime boss -->
+  <AturaStation.placeRules.rulesStrings.16>place_foeLeader->범죄조직 수장</AturaStation.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->thugs -->
+  <AturaStation.placeRules.rulesStrings.17>place_foeSoldiers->도적들</AturaStation.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Bagua 5</li>
-    <li>place_adjective->Bagucinquan</li>
-    <li>place_summary->junkyard planet</li>
-    <li>place_community->fortified scrapyard</li>
-    <li>place_community->rainwater processing plant</li>
-    <li>place_community->scrap-town</li>
-    <li>place_powerCenter->trader spaceport</li>
-    <li>place_job->scavenger</li>
-    <li>place_job->trader</li>
-    <li>place_job->tinkerer</li>
-    <li>place_job->guard</li>
-    <li>place_job->scrapper</li>
-    <li>place_personalWeapon->pipe rifle</li>
-    <li>place_personalWeapon->scrap-sword</li>
-    <li>place_massWeapon->a salvaged nuke</li>
-    <li>place_massWeapon->a rust virus</li>
-    <li>place_foeLeader->junk lord</li>
-    <li>place_foeSoldiers->metal-heads</li>
-  -->
-  <Bagua5.placeRules.rulesStrings>TODO</Bagua5.placeRules.rulesStrings>
+  <!-- EN: place_name->Bagua 5 -->
+  <Bagua5.placeRules.rulesStrings.0>place_name->바구아 5</Bagua5.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Bagucinquan -->
+  <Bagua5.placeRules.rulesStrings.1>place_adjective->바구아의</Bagua5.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->junkyard planet -->
+  <Bagua5.placeRules.rulesStrings.2>place_summary->매립행성</Bagua5.placeRules.rulesStrings.2>
+  <!-- EN: place_community->fortified scrapyard -->
+  <Bagua5.placeRules.rulesStrings.3>place_community->요새화 고철 처리장</Bagua5.placeRules.rulesStrings.3>
+  <!-- EN: place_community->rainwater processing plant -->
+  <Bagua5.placeRules.rulesStrings.4>place_community->우수 처리 공장</Bagua5.placeRules.rulesStrings.4>
+  <!-- EN: place_community->scrap-town -->
+  <Bagua5.placeRules.rulesStrings.5>place_community->고철마을</Bagua5.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->trader spaceport -->
+  <Bagua5.placeRules.rulesStrings.6>place_powerCenter->우주 거래소</Bagua5.placeRules.rulesStrings.6>
+  <!-- EN: place_job->scavenger -->
+  <Bagua5.placeRules.rulesStrings.7>place_job->스캐빈져</Bagua5.placeRules.rulesStrings.7>
+  <!-- EN: place_job->trader -->
+  <Bagua5.placeRules.rulesStrings.8>place_job->상인</Bagua5.placeRules.rulesStrings.8>
+  <!-- EN: place_job->tinkerer -->
+  <Bagua5.placeRules.rulesStrings.9>place_job->기계학자</Bagua5.placeRules.rulesStrings.9>
+  <!-- EN: place_job->guard -->
+  <Bagua5.placeRules.rulesStrings.10>place_job->경비원</Bagua5.placeRules.rulesStrings.10>
+  <!-- EN: place_job->scrapper -->
+  <Bagua5.placeRules.rulesStrings.11>place_job->노략꾼</Bagua5.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->pipe rifle -->
+  <Bagua5.placeRules.rulesStrings.12>place_personalWeapon->급조 소총</Bagua5.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->scrap-sword -->
+  <Bagua5.placeRules.rulesStrings.13>place_personalWeapon->고철검</Bagua5.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a salvaged nuke -->
+  <Bagua5.placeRules.rulesStrings.14>place_massWeapon->복구시킨 핵무기</Bagua5.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a rust virus -->
+  <Bagua5.placeRules.rulesStrings.15>place_massWeapon->녹 바이러스</Bagua5.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->junk lord -->
+  <Bagua5.placeRules.rulesStrings.16>place_foeLeader->쓰레기의 군주</Bagua5.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->metal-heads -->
+  <Bagua5.placeRules.rulesStrings.17>place_foeSoldiers->강철머리들</Bagua5.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Boccocarro</li>
-    <li>place_adjective->Boccin</li>
-    <li>place_summary->cavernous shell-world</li>
-    <li>place_community->surface tunnel</li>
-    <li>place_community->fungus cavern</li>
-    <li>place_community->drip-well</li>
-    <li>place_powerCenter->speech-hall</li>
-    <li>place_job->miner</li>
-    <li>place_job->fungus grower</li>
-    <li>place_job->surface scavenger</li>
-    <li>place_job->community cook</li>
-    <li>place_job->frog-hunter</li>
-    <li>place_personalWeapon->pickaxe</li>
-    <li>place_personalWeapon->hydraulic crossbow</li>
-    <li>place_massWeapon->[seismicDevice]</li>
-    <li>place_massWeapon->a blackpowder bomb</li>
-    <li>place_foeLeader->mine hypervisor</li>
-    <li>place_foeSoldiers->abyssal marines</li>
-  -->
-  <Boccocarro.placeRules.rulesStrings>TODO</Boccocarro.placeRules.rulesStrings>
+  <!-- EN: place_name->Boccocarro -->
+  <Boccocarro.placeRules.rulesStrings.0>place_name->보코카로</Boccocarro.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Boccin -->
+  <Boccocarro.placeRules.rulesStrings.1>place_adjective->보시의</Boccocarro.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->cavernous shell-world -->
+  <Boccocarro.placeRules.rulesStrings.2>place_summary->속 빈 껍질 세계</Boccocarro.placeRules.rulesStrings.2>
+  <!-- EN: place_community->surface tunnel -->
+  <Boccocarro.placeRules.rulesStrings.3>place_community->표면 터널</Boccocarro.placeRules.rulesStrings.3>
+  <!-- EN: place_community->fungus cavern -->
+  <Boccocarro.placeRules.rulesStrings.4>place_community->버섯 동굴</Boccocarro.placeRules.rulesStrings.4>
+  <!-- EN: place_community->drip-well -->
+  <Boccocarro.placeRules.rulesStrings.5>place_community->수원지</Boccocarro.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->speech-hall -->
+  <Boccocarro.placeRules.rulesStrings.6>place_powerCenter->연설 회관</Boccocarro.placeRules.rulesStrings.6>
+  <!-- EN: place_job->miner -->
+  <Boccocarro.placeRules.rulesStrings.7>place_job->광부</Boccocarro.placeRules.rulesStrings.7>
+  <!-- EN: place_job->fungus grower -->
+  <Boccocarro.placeRules.rulesStrings.8>place_job->버섯 재배사</Boccocarro.placeRules.rulesStrings.8>
+  <!-- EN: place_job->surface scavenger -->
+  <Boccocarro.placeRules.rulesStrings.9>place_job->지상 노략꾼</Boccocarro.placeRules.rulesStrings.9>
+  <!-- EN: place_job->community cook -->
+  <Boccocarro.placeRules.rulesStrings.10>place_job->사회 영양사</Boccocarro.placeRules.rulesStrings.10>
+  <!-- EN: place_job->frog-hunter -->
+  <Boccocarro.placeRules.rulesStrings.11>place_job->개구리 사냥꾼</Boccocarro.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->pickaxe -->
+  <Boccocarro.placeRules.rulesStrings.12>place_personalWeapon->곡괭이</Boccocarro.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->hydraulic crossbow -->
+  <Boccocarro.placeRules.rulesStrings.13>place_personalWeapon->유압식 쇠뇌</Boccocarro.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->[seismicDevice] -->
+  <Boccocarro.placeRules.rulesStrings.14>TODO</Boccocarro.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a blackpowder bomb -->
+  <Boccocarro.placeRules.rulesStrings.15>place_massWeapon->화약 폭탄</Boccocarro.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->mine hypervisor -->
+  <Boccocarro.placeRules.rulesStrings.16>place_foeLeader->채굴 고위감독자</Boccocarro.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->abyssal marines -->
+  <Boccocarro.placeRules.rulesStrings.17>place_foeSoldiers->심연의 해병들</Boccocarro.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Chelis</li>
-    <li>place_adjective->Chelisi</li>
-    <li>place_summary->arid world</li>
-    <li>place_community->moisture farm</li>
-    <li>place_community->parch-town</li>
-    <li>place_community->water center</li>
-    <li>place_powerCenter->high lifehall</li>
-    <li>place_job->water gatherer</li>
-    <li>place_job->lizardskinner</li>
-    <li>place_job->oasis seeker</li>
-    <li>place_job->cactus gatherer</li>
-    <li>place_job->scav-herder</li>
-    <li>place_personalWeapon->sand-arrow</li>
-    <li>place_personalWeapon->cactus-club</li>
-    <li>place_massWeapon->an archotech-induced sandstorm</li>
-    <li>place_massWeapon->a spikelizard stampede</li>
-    <li>place_foeLeader->chief</li>
-    <li>place_foeSoldiers->sand-warriors</li>
-  -->
-  <Chelis.placeRules.rulesStrings>TODO</Chelis.placeRules.rulesStrings>
+  <!-- EN: place_name->Chelis -->
+  <Chelis.placeRules.rulesStrings.0>place_name->첼리스</Chelis.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Chelisi -->
+  <Chelis.placeRules.rulesStrings.1>place_adjective->첼리시</Chelis.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->arid world -->
+  <Chelis.placeRules.rulesStrings.2>place_summary->건조한 세계</Chelis.placeRules.rulesStrings.2>
+  <!-- EN: place_community->moisture farm -->
+  <Chelis.placeRules.rulesStrings.3>place_community->습기농장</Chelis.placeRules.rulesStrings.3>
+  <!-- EN: place_community->parch-town -->
+  <Chelis.placeRules.rulesStrings.4>place_community->메마른 마을</Chelis.placeRules.rulesStrings.4>
+  <!-- EN: place_community->water center -->
+  <Chelis.placeRules.rulesStrings.5>place_community->물 공급소</Chelis.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->high lifehall -->
+  <Chelis.placeRules.rulesStrings.6>place_powerCenter->상류 저택</Chelis.placeRules.rulesStrings.6>
+  <!-- EN: place_job->water gatherer -->
+  <Chelis.placeRules.rulesStrings.7>place_job->물 수집가</Chelis.placeRules.rulesStrings.7>
+  <!-- EN: place_job->lizardskinner -->
+  <Chelis.placeRules.rulesStrings.8>place_job->도마뱀 해체사</Chelis.placeRules.rulesStrings.8>
+  <!-- EN: place_job->oasis seeker -->
+  <Chelis.placeRules.rulesStrings.9>place_job->오아시스 탐색자</Chelis.placeRules.rulesStrings.9>
+  <!-- EN: place_job->cactus gatherer -->
+  <Chelis.placeRules.rulesStrings.10>place_job->선인장 채집가</Chelis.placeRules.rulesStrings.10>
+  <!-- EN: place_job->scav-herder -->
+  <Chelis.placeRules.rulesStrings.11>place_job->청소부 목자</Chelis.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->sand-arrow -->
+  <Chelis.placeRules.rulesStrings.12>place_personalWeapon->모래화살</Chelis.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->cactus-club -->
+  <Chelis.placeRules.rulesStrings.13>place_personalWeapon->선인장 몽둥이</Chelis.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->an archotech-induced sandstorm -->
+  <Chelis.placeRules.rulesStrings.14>place_massWeapon->초월공학으로 인한 모래폭풍</Chelis.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a spikelizard stampede -->
+  <Chelis.placeRules.rulesStrings.15>place_massWeapon->가시도마뱀의 광란</Chelis.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->chief -->
+  <Chelis.placeRules.rulesStrings.16>place_foeLeader->추장</Chelis.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->sand-warriors -->
+  <Chelis.placeRules.rulesStrings.17>place_foeSoldiers->모래전사들</Chelis.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Creticon</li>
-    <li>place_adjective->Creticonian</li>
-    <li>place_summary->blasted death-world</li>
-    <li>place_community->bunker</li>
-    <li>place_community->cavern</li>
-    <li>place_community->ice-shelter</li>
-    <li>place_powerCenter->director's bunker</li>
-    <li>place_job->water-recycler repairer</li>
-    <li>place_job->algae farmer</li>
-    <li>place_job->doctor</li>
-    <li>place_job->teacher</li>
-    <li>place_job->militia commander</li>
-    <li>place_job->shuttle pilot</li>
-    <li>place_personalWeapon->autopistol</li>
-    <li>place_personalWeapon->LMG</li>
-    <li>place_massWeapon->a shoulder-mounted nuclear missile</li>
-    <li>place_massWeapon->an orbital bombardment</li>
-    <li>place_massWeapon->chemical bombs</li>
-    <li>place_massWeapon->hacked mechanoids</li>
-    <li>place_foeLeader->warlord</li>
-    <li>place_foeSoldiers->mercenaries</li>
-  -->
-  <Creticon.placeRules.rulesStrings>TODO</Creticon.placeRules.rulesStrings>
+  <!-- EN: place_name->Creticon -->
+  <Creticon.placeRules.rulesStrings.0>place_name->크레티콘</Creticon.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Creticonian -->
+  <Creticon.placeRules.rulesStrings.1>place_adjective->크레티콘의</Creticon.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->blasted death-world -->
+  <Creticon.placeRules.rulesStrings.2>place_summary->파괴된 죽은 행성</Creticon.placeRules.rulesStrings.2>
+  <!-- EN: place_community->bunker -->
+  <Creticon.placeRules.rulesStrings.3>place_community->방공호</Creticon.placeRules.rulesStrings.3>
+  <!-- EN: place_community->cavern -->
+  <Creticon.placeRules.rulesStrings.4>place_community->동굴</Creticon.placeRules.rulesStrings.4>
+  <!-- EN: place_community->ice-shelter -->
+  <Creticon.placeRules.rulesStrings.5>place_community->빙벽대피소</Creticon.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->director's bunker -->
+  <Creticon.placeRules.rulesStrings.6>place_powerCenter->임원의 벙커</Creticon.placeRules.rulesStrings.6>
+  <!-- EN: place_job->water-recycler repairer -->
+  <Creticon.placeRules.rulesStrings.7>place_job->수분 재생처리기 수리기사</Creticon.placeRules.rulesStrings.7>
+  <!-- EN: place_job->algae farmer -->
+  <Creticon.placeRules.rulesStrings.8>place_job->녹조류 농부</Creticon.placeRules.rulesStrings.8>
+  <!-- EN: place_job->doctor -->
+  <Creticon.placeRules.rulesStrings.9>place_job->의사</Creticon.placeRules.rulesStrings.9>
+  <!-- EN: place_job->teacher -->
+  <Creticon.placeRules.rulesStrings.10>place_job->선생</Creticon.placeRules.rulesStrings.10>
+  <!-- EN: place_job->militia commander -->
+  <Creticon.placeRules.rulesStrings.11>place_job->민병대 지휘관</Creticon.placeRules.rulesStrings.11>
+  <!-- EN: place_job->shuttle pilot -->
+  <Creticon.placeRules.rulesStrings.12>place_job->왕복선 조종사</Creticon.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->autopistol -->
+  <Creticon.placeRules.rulesStrings.13>place_personalWeapon->자동권총</Creticon.placeRules.rulesStrings.13>
+  <!-- EN: place_personalWeapon->LMG -->
+  <Creticon.placeRules.rulesStrings.14>place_personalWeapon->경기관총</Creticon.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a shoulder-mounted nuclear missile -->
+  <Creticon.placeRules.rulesStrings.15>place_massWeapon->어깨 부착형 핵 미사일</Creticon.placeRules.rulesStrings.15>
+  <!-- EN: place_massWeapon->an orbital bombardment -->
+  <Creticon.placeRules.rulesStrings.16>place_massWeapon->궤도 폭격</Creticon.placeRules.rulesStrings.16>
+  <!-- EN: place_massWeapon->chemical bombs -->
+  <Creticon.placeRules.rulesStrings.17>place_massWeapon->화학폭탄</Creticon.placeRules.rulesStrings.17>
+  <!-- EN: place_massWeapon->hacked mechanoids -->
+  <Creticon.placeRules.rulesStrings.18>place_massWeapon->해킹된 메카노이드</Creticon.placeRules.rulesStrings.18>
+  <!-- EN: place_foeLeader->warlord -->
+  <Creticon.placeRules.rulesStrings.19>place_foeLeader->전쟁군주</Creticon.placeRules.rulesStrings.19>
+  <!-- EN: place_foeSoldiers->mercenaries -->
+  <Creticon.placeRules.rulesStrings.20>place_foeSoldiers->용병들</Creticon.placeRules.rulesStrings.20>
   
-  <!-- EN:
-    <li>place_name->Filson</li>
-    <li>place_adjective->Filsoner</li>
-    <li>place_summary->rural farm-world</li>
-    <li>place_community->town hall</li>
-    <li>place_community->fertilizer processing plant</li>
-    <li>place_community->mega-granary</li>
-    <li>place_community->water-bore site</li>
-    <li>place_powerCenter->town hall</li>
-    <li>place_job->farm hand</li>
-    <li>place_job->fruit picker</li>
-    <li>place_job->transport driver</li>
-    <li>place_job->school teacher</li>
-    <li>place_job->soil engineer</li>
-    <li>place_personalWeapon->rifle</li>
-    <li>place_personalWeapon->scythe</li>
-    <li>place_massWeapon->fertilizer bombs</li>
-    <li>place_massWeapon->weaponized pesticide spray</li>
-    <li>place_massWeapon->space lens</li>
-    <li>place_foeLeader->landowner</li>
-    <li>place_foeSoldiers->militia</li>
-  -->
-  <Filson.placeRules.rulesStrings>TODO</Filson.placeRules.rulesStrings>
+  <!-- EN: place_name->Filson -->
+  <Filson.placeRules.rulesStrings.0>place_name->필손</Filson.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Filsoner -->
+  <Filson.placeRules.rulesStrings.1>place_adjective->필손의</Filson.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->rural farm-world -->
+  <Filson.placeRules.rulesStrings.2>place_summary->농업행성</Filson.placeRules.rulesStrings.2>
+  <!-- EN: place_community->town hall -->
+  <Filson.placeRules.rulesStrings.3>place_community->마을회관</Filson.placeRules.rulesStrings.3>
+  <!-- EN: place_community->fertilizer processing plant -->
+  <Filson.placeRules.rulesStrings.4>place_community->비료 처리 공장</Filson.placeRules.rulesStrings.4>
+  <!-- EN: place_community->mega-granary -->
+  <Filson.placeRules.rulesStrings.5>place_community->거대 곡창</Filson.placeRules.rulesStrings.5>
+  <!-- EN: place_community->water-bore site -->
+  <Filson.placeRules.rulesStrings.6>place_community->수압채굴지</Filson.placeRules.rulesStrings.6>
+  <!-- EN: place_powerCenter->town hall -->
+  <Filson.placeRules.rulesStrings.7>place_powerCenter->마을회관</Filson.placeRules.rulesStrings.7>
+  <!-- EN: place_job->farm hand -->
+  <Filson.placeRules.rulesStrings.8>place_job->농장 도우미</Filson.placeRules.rulesStrings.8>
+  <!-- EN: place_job->fruit picker -->
+  <Filson.placeRules.rulesStrings.9>place_job->과수원 인부</Filson.placeRules.rulesStrings.9>
+  <!-- EN: place_job->transport driver -->
+  <Filson.placeRules.rulesStrings.10>place_job->수송기사</Filson.placeRules.rulesStrings.10>
+  <!-- EN: place_job->school teacher -->
+  <Filson.placeRules.rulesStrings.11>place_job->학교 선생</Filson.placeRules.rulesStrings.11>
+  <!-- EN: place_job->soil engineer -->
+  <Filson.placeRules.rulesStrings.12>place_job->토양 공학자</Filson.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->rifle -->
+  <Filson.placeRules.rulesStrings.13>place_personalWeapon->소총</Filson.placeRules.rulesStrings.13>
+  <!-- EN: place_personalWeapon->scythe -->
+  <Filson.placeRules.rulesStrings.14>place_personalWeapon->낫</Filson.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->fertilizer bombs -->
+  <Filson.placeRules.rulesStrings.15>place_massWeapon->비료 폭탄</Filson.placeRules.rulesStrings.15>
+  <!-- EN: place_massWeapon->weaponized pesticide spray -->
+  <Filson.placeRules.rulesStrings.16>place_massWeapon->무기화된 살충제 분사기</Filson.placeRules.rulesStrings.16>
+  <!-- EN: place_massWeapon->space lens -->
+  <Filson.placeRules.rulesStrings.17>place_massWeapon->우주렌즈</Filson.placeRules.rulesStrings.17>
+  <!-- EN: place_foeLeader->landowner -->
+  <Filson.placeRules.rulesStrings.18>place_foeLeader->지주</Filson.placeRules.rulesStrings.18>
+  <!-- EN: place_foeSoldiers->militia -->
+  <Filson.placeRules.rulesStrings.19>place_foeSoldiers->민병단원들</Filson.placeRules.rulesStrings.19>
   
-  <!-- EN:
-    <li>place_name->Ilwaba</li>
-    <li>place_adjective->Ilwaban</li>
-    <li>place_summary->regrown ruin-world</li>
-    <li>place_community->skyscraper village</li>
-    <li>place_community->highway trade-post</li>
-    <li>place_community->blast-land oasis</li>
-    <li>place_powerCenter->house of regrowth</li>
-    <li>place_job->crete-farmer</li>
-    <li>place_job->path-maker</li>
-    <li>place_job->artifact hunter</li>
-    <li>place_job->tunnelwalker</li>
-    <li>place_job->artifact restorer</li>
-    <li>place_personalWeapon->scrap-sword</li>
-    <li>place_personalWeapon->jag-dagger</li>
-    <li>place_massWeapon->a dug-up nuke</li>
-    <li>place_massWeapon->an ancient poison bomb</li>
-    <li>place_foeLeader->crypto-leader</li>
-    <li>place_foeSoldiers->crypto-soldiers</li>
-  -->
-  <Ilwaba.placeRules.rulesStrings>TODO</Ilwaba.placeRules.rulesStrings>
+  <!-- EN: place_name->Ilwaba -->
+  <Ilwaba.placeRules.rulesStrings.0>place_name->일와바</Ilwaba.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Ilwaban -->
+  <Ilwaba.placeRules.rulesStrings.1>place_adjective->이와바의</Ilwaba.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->regrown ruin-world -->
+  <Ilwaba.placeRules.rulesStrings.2>place_summary->재생된 폐허 세계</Ilwaba.placeRules.rulesStrings.2>
+  <!-- EN: place_community->skyscraper village -->
+  <Ilwaba.placeRules.rulesStrings.3>place_community->마천루 폐허 마을</Ilwaba.placeRules.rulesStrings.3>
+  <!-- EN: place_community->highway trade-post -->
+  <Ilwaba.placeRules.rulesStrings.4>place_community->고속도로 교역소</Ilwaba.placeRules.rulesStrings.4>
+  <!-- EN: place_community->blast-land oasis -->
+  <Ilwaba.placeRules.rulesStrings.5>place_community->황폐지 오아시스</Ilwaba.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->house of regrowth -->
+  <Ilwaba.placeRules.rulesStrings.6>place_powerCenter->재성장의 집</Ilwaba.placeRules.rulesStrings.6>
+  <!-- EN: place_job->crete-farmer -->
+  <Ilwaba.placeRules.rulesStrings.7>place_job->크테라 섬 농부</Ilwaba.placeRules.rulesStrings.7>
+  <!-- EN: place_job->path-maker -->
+  <Ilwaba.placeRules.rulesStrings.8>place_job->길잡이</Ilwaba.placeRules.rulesStrings.8>
+  <!-- EN: place_job->artifact hunter -->
+  <Ilwaba.placeRules.rulesStrings.9>place_job->인공물 사냥꾼</Ilwaba.placeRules.rulesStrings.9>
+  <!-- EN: place_job->tunnelwalker -->
+  <Ilwaba.placeRules.rulesStrings.10>place_job->땅굴걸이</Ilwaba.placeRules.rulesStrings.10>
+  <!-- EN: place_job->artifact restorer -->
+  <Ilwaba.placeRules.rulesStrings.11>place_job->유물 복원가</Ilwaba.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->scrap-sword -->
+  <Ilwaba.placeRules.rulesStrings.12>place_personalWeapon->고철검</Ilwaba.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->jag-dagger -->
+  <Ilwaba.placeRules.rulesStrings.13>place_personalWeapon->톱니단검</Ilwaba.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a dug-up nuke -->
+  <Ilwaba.placeRules.rulesStrings.14>place_massWeapon->발굴된 핵무기</Ilwaba.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->an ancient poison bomb -->
+  <Ilwaba.placeRules.rulesStrings.15>place_massWeapon->고대의 독성 폭탄</Ilwaba.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->crypto-leader -->
+  <Ilwaba.placeRules.rulesStrings.16>place_foeLeader->해석지도자</Ilwaba.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->crypto-soldiers -->
+  <Ilwaba.placeRules.rulesStrings.17>place_foeSoldiers->해석군인들</Ilwaba.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Iwamura</li>
-    <li>place_adjective->Iwamurian</li>
-    <li>place_summary->stony asteroid</li>
-    <li>place_community->market capsule</li>
-    <li>place_community->warehouse capsule</li>
-    <li>place_community->docking pier</li>
-    <li>place_powerCenter->station bridge</li>
-    <li>place_job->life-support engineer</li>
-    <li>place_job->merchant</li>
-    <li>place_job->flight controller</li>
-    <li>place_job->zero-g athlete</li>
-    <li>place_job->radio host</li>
-    <li>place_personalWeapon->charge rifle</li>
-    <li>place_personalWeapon->welding torch</li>
-    <li>place_massWeapon->an aerosolized toxin</li>
-    <li>place_massWeapon->[anEMPAttack]</li>
-    <li>place_massWeapon->a life-support sabotage virus</li>
-    <li>place_foeLeader->mega-corp CEO</li>
-    <li>place_foeSoldiers->rent-a-cops</li>
-  -->
-  <Iwamura.placeRules.rulesStrings>TODO</Iwamura.placeRules.rulesStrings>
+  <!-- EN: place_name->Iwamura -->
+  <Iwamura.placeRules.rulesStrings.0>place_name->이와무라</Iwamura.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Iwamurian -->
+  <Iwamura.placeRules.rulesStrings.1>place_adjective->이와무라의</Iwamura.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->stony asteroid -->
+  <Iwamura.placeRules.rulesStrings.2>place_summary->암석 소행성</Iwamura.placeRules.rulesStrings.2>
+  <!-- EN: place_community->market capsule -->
+  <Iwamura.placeRules.rulesStrings.3>place_community->거래소 캡슐</Iwamura.placeRules.rulesStrings.3>
+  <!-- EN: place_community->warehouse capsule -->
+  <Iwamura.placeRules.rulesStrings.4>place_community->창고 캡슐</Iwamura.placeRules.rulesStrings.4>
+  <!-- EN: place_community->docking pier -->
+  <Iwamura.placeRules.rulesStrings.5>place_community->공항 도킹지점</Iwamura.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->station bridge -->
+  <Iwamura.placeRules.rulesStrings.6>place_powerCenter->정거장</Iwamura.placeRules.rulesStrings.6>
+  <!-- EN: place_job->life-support engineer -->
+  <Iwamura.placeRules.rulesStrings.7>place_job->생명 유지장치 공학자</Iwamura.placeRules.rulesStrings.7>
+  <!-- EN: place_job->merchant -->
+  <Iwamura.placeRules.rulesStrings.8>place_job->무역상</Iwamura.placeRules.rulesStrings.8>
+  <!-- EN: place_job->flight controller -->
+  <Iwamura.placeRules.rulesStrings.9>place_job->함선 조종사</Iwamura.placeRules.rulesStrings.9>
+  <!-- EN: place_job->zero-g athlete -->
+  <Iwamura.placeRules.rulesStrings.10>place_job->무중력 운동선수</Iwamura.placeRules.rulesStrings.10>
+  <!-- EN: place_job->radio host -->
+  <Iwamura.placeRules.rulesStrings.11>place_job->라디오 진행자</Iwamura.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->charge rifle -->
+  <Iwamura.placeRules.rulesStrings.12>place_personalWeapon->전자기 소총</Iwamura.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->welding torch -->
+  <Iwamura.placeRules.rulesStrings.13>place_personalWeapon->용접기</Iwamura.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->an aerosolized toxin -->
+  <Iwamura.placeRules.rulesStrings.14>place_massWeapon->독소 분사기</Iwamura.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->[anEMPAttack] -->
+  <Iwamura.placeRules.rulesStrings.15>TODO</Iwamura.placeRules.rulesStrings.15>
+  <!-- EN: place_massWeapon->a life-support sabotage virus -->
+  <Iwamura.placeRules.rulesStrings.16>place_massWeapon->생체유지장치 파괴 바이러스</Iwamura.placeRules.rulesStrings.16>
+  <!-- EN: place_foeLeader->mega-corp CEO -->
+  <Iwamura.placeRules.rulesStrings.17>place_foeLeader->거대기업 CEO</Iwamura.placeRules.rulesStrings.17>
+  <!-- EN: place_foeSoldiers->rent-a-cops -->
+  <Iwamura.placeRules.rulesStrings.18>place_foeSoldiers->사설경관들</Iwamura.placeRules.rulesStrings.18>
   
-  <!-- EN:
-    <li>place_name->Kemia</li>
-    <li>place_adjective->Kemian</li>
-    <li>place_summary->toxic war-world</li>
-    <li>place_community->slum</li>
-    <li>place_community->tunnel colony</li>
-    <li>place_community->undertown</li>
-    <li>place_powerCenter->city lordhouse</li>
-    <li>place_job->street sweeper</li>
-    <li>place_job->cleanup engineer</li>
-    <li>place_job->protein farmer</li>
-    <li>place_job->taxi driver</li>
-    <li>place_job->weapons builder</li>
-    <li>place_personalWeapon->gas bomb</li>
-    <li>place_personalWeapon->toxic flamethrower</li>
-    <li>place_massWeapon->nuclear dirty bombs</li>
-    <li>place_massWeapon->a bio-engineered plague</li>
-    <li>place_massWeapon->penetrating toxic bombs</li>
-    <li>place_foeLeader->poison lord</li>
-    <li>place_foeSoldiers->venom-soldiers</li>
-  -->
-  <Kemia.placeRules.rulesStrings>TODO</Kemia.placeRules.rulesStrings>
+  <!-- EN: place_name->Kemia -->
+  <Kemia.placeRules.rulesStrings.0>place_name->케미아</Kemia.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Kemian -->
+  <Kemia.placeRules.rulesStrings.1>place_adjective->케미아의</Kemia.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->toxic war-world -->
+  <Kemia.placeRules.rulesStrings.2>place_summary->독성 전쟁 세계</Kemia.placeRules.rulesStrings.2>
+  <!-- EN: place_community->slum -->
+  <Kemia.placeRules.rulesStrings.3>place_community->빈민가</Kemia.placeRules.rulesStrings.3>
+  <!-- EN: place_community->tunnel colony -->
+  <Kemia.placeRules.rulesStrings.4>place_community->땅굴 정착지</Kemia.placeRules.rulesStrings.4>
+  <!-- EN: place_community->undertown -->
+  <Kemia.placeRules.rulesStrings.5>place_community->지하마을</Kemia.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->city lordhouse -->
+  <Kemia.placeRules.rulesStrings.6>place_powerCenter->도시 대저택</Kemia.placeRules.rulesStrings.6>
+  <!-- EN: place_job->street sweeper -->
+  <Kemia.placeRules.rulesStrings.7>place_job->도로 청소부</Kemia.placeRules.rulesStrings.7>
+  <!-- EN: place_job->cleanup engineer -->
+  <Kemia.placeRules.rulesStrings.8>place_job->처리 공학자</Kemia.placeRules.rulesStrings.8>
+  <!-- EN: place_job->protein farmer -->
+  <Kemia.placeRules.rulesStrings.9>place_job->단백질 농부</Kemia.placeRules.rulesStrings.9>
+  <!-- EN: place_job->taxi driver -->
+  <Kemia.placeRules.rulesStrings.10>place_job->택시 운전기사</Kemia.placeRules.rulesStrings.10>
+  <!-- EN: place_job->weapons builder -->
+  <Kemia.placeRules.rulesStrings.11>place_job->무기공</Kemia.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->gas bomb -->
+  <Kemia.placeRules.rulesStrings.12>place_personalWeapon->가스 폭탄</Kemia.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->toxic flamethrower -->
+  <Kemia.placeRules.rulesStrings.13>place_personalWeapon->유독성 화염발사기</Kemia.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->nuclear dirty bombs -->
+  <Kemia.placeRules.rulesStrings.14>place_massWeapon->방사선 물질 폭탄</Kemia.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a bio-engineered plague -->
+  <Kemia.placeRules.rulesStrings.15>place_massWeapon->생체공학 역병</Kemia.placeRules.rulesStrings.15>
+  <!-- EN: place_massWeapon->penetrating toxic bombs -->
+  <Kemia.placeRules.rulesStrings.16>place_massWeapon->관통 독성 폭탄</Kemia.placeRules.rulesStrings.16>
+  <!-- EN: place_foeLeader->poison lord -->
+  <Kemia.placeRules.rulesStrings.17>place_foeLeader->맹독 군주</Kemia.placeRules.rulesStrings.17>
+  <!-- EN: place_foeSoldiers->venom-soldiers -->
+  <Kemia.placeRules.rulesStrings.18>place_foeSoldiers->맹독군인들</Kemia.placeRules.rulesStrings.18>
   
-  <!-- EN:
-    <li>place_name->Lutuni</li>
-    <li>place_adjective->Lutuni</li>
-    <li>place_summary->rainforest paradise</li>
-    <li>place_community->augmentation clinic</li>
-    <li>place_community->hyper-yacht</li>
-    <li>place_community->zero-g stadium</li>
-    <li>place_powerCenter->space elevator complex</li>
-    <li>place_job->tourist guide</li>
-    <li>place_job->zero-g performer</li>
-    <li>place_job->luciferium distributor</li>
-    <li>place_job->virtual celebrity</li>
-    <li>place_job->shuttle pilot</li>
-    <li>place_personalWeapon->vibro-knife</li>
-    <li>place_personalWeapon->charge pistol</li>
-    <li>place_massWeapon->a structural disintegration bacterium</li>
-    <li>place_massWeapon->a smuggled orbital bombardment targetter</li>
-    <li>place_foeLeader->entertainment mogul</li>
-    <li>place_foeSoldiers->enforcers</li>
-  -->
-  <Lutuni.placeRules.rulesStrings>TODO</Lutuni.placeRules.rulesStrings>
+  <!-- EN: place_name->Lutuni -->
+  <Lutuni.placeRules.rulesStrings.0>place_name->루투니</Lutuni.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Lutuni -->
+  <Lutuni.placeRules.rulesStrings.1>place_adjective->루투니의</Lutuni.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->rainforest paradise -->
+  <Lutuni.placeRules.rulesStrings.2>place_summary->열대우림 낙원</Lutuni.placeRules.rulesStrings.2>
+  <!-- EN: place_community->augmentation clinic -->
+  <Lutuni.placeRules.rulesStrings.3>place_community->증강 진료소</Lutuni.placeRules.rulesStrings.3>
+  <!-- EN: place_community->hyper-yacht -->
+  <Lutuni.placeRules.rulesStrings.4>place_community->초월-요트</Lutuni.placeRules.rulesStrings.4>
+  <!-- EN: place_community->zero-g stadium -->
+  <Lutuni.placeRules.rulesStrings.5>place_community->무중력 경기장</Lutuni.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->space elevator complex -->
+  <Lutuni.placeRules.rulesStrings.6>place_powerCenter->궤도 엘리베이터</Lutuni.placeRules.rulesStrings.6>
+  <!-- EN: place_job->tourist guide -->
+  <Lutuni.placeRules.rulesStrings.7>place_job->관광투어 가이드</Lutuni.placeRules.rulesStrings.7>
+  <!-- EN: place_job->zero-g performer -->
+  <Lutuni.placeRules.rulesStrings.8>place_job->무중력 공연자</Lutuni.placeRules.rulesStrings.8>
+  <!-- EN: place_job->luciferium distributor -->
+  <Lutuni.placeRules.rulesStrings.9>place_job->루시페륨 보급책</Lutuni.placeRules.rulesStrings.9>
+  <!-- EN: place_job->virtual celebrity -->
+  <Lutuni.placeRules.rulesStrings.10>place_job->가상세계 연예인</Lutuni.placeRules.rulesStrings.10>
+  <!-- EN: place_job->shuttle pilot -->
+  <Lutuni.placeRules.rulesStrings.11>place_job->왕복선 조종사</Lutuni.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->vibro-knife -->
+  <Lutuni.placeRules.rulesStrings.12>place_personalWeapon->파동검</Lutuni.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->charge pistol -->
+  <Lutuni.placeRules.rulesStrings.13>place_personalWeapon->전자기 권총</Lutuni.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a structural disintegration bacterium -->
+  <Lutuni.placeRules.rulesStrings.14>place_massWeapon->조직 파괴 박테리아</Lutuni.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a smuggled orbital bombardment targetter -->
+  <Lutuni.placeRules.rulesStrings.15>place_massWeapon->밀수된 폭격 표적기</Lutuni.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->entertainment mogul -->
+  <Lutuni.placeRules.rulesStrings.16>place_foeLeader->오락계 거물</Lutuni.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->enforcers -->
+  <Lutuni.placeRules.rulesStrings.17>place_foeSoldiers->집행자들</Lutuni.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Novaroma</li>
-    <li>place_adjective->Novaroman</li>
-    <li>place_summary->planetoid</li>
-    <li>place_community->ministry of permits</li>
-    <li>place_community->gated suburb</li>
-    <li>place_community->over-city</li>
-    <li>place_community->under-city</li>
-    <li>place_powerCenter->megacity overhall</li>
-    <li>place_job->clerk</li>
-    <li>place_job->official</li>
-    <li>place_job->food courier</li>
-    <li>place_job->taxi driver</li>
-    <li>place_job->retail worker</li>
-    <li>place_personalWeapon->revolver</li>
-    <li>place_personalWeapon->knife</li>
-    <li>place_massWeapon->[seismicDevice]</li>
-    <li>place_massWeapon->cluster bombs</li>
-    <li>place_massWeapon->a nuclear suitcase-bomb</li>
-    <li>place_foeLeader->high-underlord</li>
-    <li>place_foeSoldiers->undertroops</li>
-  -->
-  <Novaroma.placeRules.rulesStrings>TODO</Novaroma.placeRules.rulesStrings>
+  <!-- EN: place_name->Novaroma -->
+  <Novaroma.placeRules.rulesStrings.0>place_name->노바로마</Novaroma.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Novaroman -->
+  <Novaroma.placeRules.rulesStrings.1>place_adjective->노바로마의</Novaroma.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->planetoid -->
+  <Novaroma.placeRules.rulesStrings.2>place_summary->미행성</Novaroma.placeRules.rulesStrings.2>
+  <!-- EN: place_community->ministry of permits -->
+  <Novaroma.placeRules.rulesStrings.3>place_community->허가증 관리소</Novaroma.placeRules.rulesStrings.3>
+  <!-- EN: place_community->gated suburb -->
+  <Novaroma.placeRules.rulesStrings.4>place_community->상류층 거주구역</Novaroma.placeRules.rulesStrings.4>
+  <!-- EN: place_community->over-city -->
+  <Novaroma.placeRules.rulesStrings.5>place_community->공중도시</Novaroma.placeRules.rulesStrings.5>
+  <!-- EN: place_community->under-city -->
+  <Novaroma.placeRules.rulesStrings.6>place_community->지상도시</Novaroma.placeRules.rulesStrings.6>
+  <!-- EN: place_powerCenter->megacity overhall -->
+  <Novaroma.placeRules.rulesStrings.7>place_powerCenter->대도시 시청</Novaroma.placeRules.rulesStrings.7>
+  <!-- EN: place_job->clerk -->
+  <Novaroma.placeRules.rulesStrings.8>place_job->사무원</Novaroma.placeRules.rulesStrings.8>
+  <!-- EN: place_job->official -->
+  <Novaroma.placeRules.rulesStrings.9>place_job->공무원</Novaroma.placeRules.rulesStrings.9>
+  <!-- EN: place_job->food courier -->
+  <Novaroma.placeRules.rulesStrings.10>place_job->음식 배달원</Novaroma.placeRules.rulesStrings.10>
+  <!-- EN: place_job->taxi driver -->
+  <Novaroma.placeRules.rulesStrings.11>place_job->택시 운전기사</Novaroma.placeRules.rulesStrings.11>
+  <!-- EN: place_job->retail worker -->
+  <Novaroma.placeRules.rulesStrings.12>place_job->판매원</Novaroma.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->revolver -->
+  <Novaroma.placeRules.rulesStrings.13>place_personalWeapon->리볼버</Novaroma.placeRules.rulesStrings.13>
+  <!-- EN: place_personalWeapon->knife -->
+  <Novaroma.placeRules.rulesStrings.14>place_personalWeapon->단검</Novaroma.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->[seismicDevice] -->
+  <Novaroma.placeRules.rulesStrings.15>TODO</Novaroma.placeRules.rulesStrings.15>
+  <!-- EN: place_massWeapon->cluster bombs -->
+  <Novaroma.placeRules.rulesStrings.16>place_massWeapon->집속폭탄</Novaroma.placeRules.rulesStrings.16>
+  <!-- EN: place_massWeapon->a nuclear suitcase-bomb -->
+  <Novaroma.placeRules.rulesStrings.17>place_massWeapon->서류가방 핵폭탄</Novaroma.placeRules.rulesStrings.17>
+  <!-- EN: place_foeLeader->high-underlord -->
+  <Novaroma.placeRules.rulesStrings.18>place_foeLeader->뒷세계의 지배자</Novaroma.placeRules.rulesStrings.18>
+  <!-- EN: place_foeSoldiers->undertroops -->
+  <Novaroma.placeRules.rulesStrings.19>place_foeSoldiers->비밀군인들</Novaroma.placeRules.rulesStrings.19>
   
-  <!-- EN:
-    <li>place_name->Nuchadus</li>
-    <li>place_adjective->Nuchadean</li>
-    <li>place_summary->dim volcano-world</li>
-    <li>place_community->basalt island</li>
-    <li>place_community->caldera laketown</li>
-    <li>place_community->dirigible village</li>
-    <li>place_powerCenter->thermal fortress</li>
-    <li>place_job->seismologist</li>
-    <li>place_job->lava-snail farmer</li>
-    <li>place_job->tank-tread repairer</li>
-    <li>place_job->airborne scout</li>
-    <li>place_personalWeapon->obsidian dagger</li>
-    <li>place_personalWeapon->harpoon rifle</li>
-    <li>place_massWeapon->an archotech-induced volcano eruption</li>
-    <li>place_massWeapon->a chem-warfare bomb</li>
-    <li>place_foeLeader->lava lord</li>
-    <li>place_foeSoldiers->stygian soldiers</li>
-  -->
-  <Nuchadus.placeRules.rulesStrings>TODO</Nuchadus.placeRules.rulesStrings>
+  <!-- EN: place_name->Nuchadus -->
+  <Nuchadus.placeRules.rulesStrings.0>place_name->누카두스</Nuchadus.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Nuchadean -->
+  <Nuchadus.placeRules.rulesStrings.1>place_adjective->누카두스의</Nuchadus.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->dim volcano-world -->
+  <Nuchadus.placeRules.rulesStrings.2>place_summary->어두운 화산 세계</Nuchadus.placeRules.rulesStrings.2>
+  <!-- EN: place_community->basalt island -->
+  <Nuchadus.placeRules.rulesStrings.3>place_community->현무암 섬</Nuchadus.placeRules.rulesStrings.3>
+  <!-- EN: place_community->caldera laketown -->
+  <Nuchadus.placeRules.rulesStrings.4>place_community->칼데라 호수마을</Nuchadus.placeRules.rulesStrings.4>
+  <!-- EN: place_community->dirigible village -->
+  <Nuchadus.placeRules.rulesStrings.5>place_community->거주비행선</Nuchadus.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->thermal fortress -->
+  <Nuchadus.placeRules.rulesStrings.6>place_powerCenter->보온 시설</Nuchadus.placeRules.rulesStrings.6>
+  <!-- EN: place_job->seismologist -->
+  <Nuchadus.placeRules.rulesStrings.7>place_job->지진학자</Nuchadus.placeRules.rulesStrings.7>
+  <!-- EN: place_job->lava-snail farmer -->
+  <Nuchadus.placeRules.rulesStrings.8>place_job->용암달팽이 농부</Nuchadus.placeRules.rulesStrings.8>
+  <!-- EN: place_job->tank-tread repairer -->
+  <Nuchadus.placeRules.rulesStrings.9>place_job->전차궤도 수리병</Nuchadus.placeRules.rulesStrings.9>
+  <!-- EN: place_job->airborne scout -->
+  <Nuchadus.placeRules.rulesStrings.10>place_job->창공 정찰대원</Nuchadus.placeRules.rulesStrings.10>
+  <!-- EN: place_personalWeapon->obsidian dagger -->
+  <Nuchadus.placeRules.rulesStrings.11>place_personalWeapon->흑요석 단검</Nuchadus.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->harpoon rifle -->
+  <Nuchadus.placeRules.rulesStrings.12>place_personalWeapon->작살 소총</Nuchadus.placeRules.rulesStrings.12>
+  <!-- EN: place_massWeapon->an archotech-induced volcano eruption -->
+  <Nuchadus.placeRules.rulesStrings.13>place_massWeapon->초월공학으로 인한 화산 폭발</Nuchadus.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a chem-warfare bomb -->
+  <Nuchadus.placeRules.rulesStrings.14>place_massWeapon->화학전쟁시대의  폭탄</Nuchadus.placeRules.rulesStrings.14>
+  <!-- EN: place_foeLeader->lava lord -->
+  <Nuchadus.placeRules.rulesStrings.15>place_foeLeader->용암 군주</Nuchadus.placeRules.rulesStrings.15>
+  <!-- EN: place_foeSoldiers->stygian soldiers -->
+  <Nuchadus.placeRules.rulesStrings.16>place_foeSoldiers->칠흑의 병사들</Nuchadus.placeRules.rulesStrings.16>
   
-  <!-- EN:
-    <li>place_name->Oubanyen</li>
-    <li>place_adjective->Oubanyeni</li>
-    <li>place_summary->steamy jungle-world</li>
-    <li>place_community->tree-top village</li>
-    <li>place_community->shaman cave</li>
-    <li>place_community->hill-top ziggurat</li>
-    <li>place_powerCenter->city temple</li>
-    <li>place_job->shaman</li>
-    <li>place_job->hunter</li>
-    <li>place_job->fisher</li>
-    <li>place_job->gatherer</li>
-    <li>place_job->goat-herd</li>
-    <li>place_personalWeapon->pila</li>
-    <li>place_personalWeapon->ikwa</li>
-    <li>place_massWeapon->a lethal psychic drone</li>
-    <li>place_massWeapon->a neurotoxin bomb</li>
-    <li>place_foeLeader->tree-harvester</li>
-    <li>place_foeSoldiers->henchmen</li>
-  -->
-  <Oubanyen.placeRules.rulesStrings>TODO</Oubanyen.placeRules.rulesStrings>
+  <!-- EN: place_name->Oubanyen -->
+  <Oubanyen.placeRules.rulesStrings.0>place_name->우바옌</Oubanyen.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Oubanyeni -->
+  <Oubanyen.placeRules.rulesStrings.1>place_adjective->우바니예니</Oubanyen.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->steamy jungle-world -->
+  <Oubanyen.placeRules.rulesStrings.2>place_summary->찌는 듯한 정글 세계</Oubanyen.placeRules.rulesStrings.2>
+  <!-- EN: place_community->tree-top village -->
+  <Oubanyen.placeRules.rulesStrings.3>place_community->나무 꼭대기 마을</Oubanyen.placeRules.rulesStrings.3>
+  <!-- EN: place_community->shaman cave -->
+  <Oubanyen.placeRules.rulesStrings.4>place_community->주술사 동굴</Oubanyen.placeRules.rulesStrings.4>
+  <!-- EN: place_community->hill-top ziggurat -->
+  <Oubanyen.placeRules.rulesStrings.5>place_community->언덕 꼭대기 사원</Oubanyen.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->city temple -->
+  <Oubanyen.placeRules.rulesStrings.6>place_powerCenter->도시 신전</Oubanyen.placeRules.rulesStrings.6>
+  <!-- EN: place_job->shaman -->
+  <Oubanyen.placeRules.rulesStrings.7>place_job->주술사</Oubanyen.placeRules.rulesStrings.7>
+  <!-- EN: place_job->hunter -->
+  <Oubanyen.placeRules.rulesStrings.8>place_job->사냥꾼</Oubanyen.placeRules.rulesStrings.8>
+  <!-- EN: place_job->fisher -->
+  <Oubanyen.placeRules.rulesStrings.9>place_job->어부</Oubanyen.placeRules.rulesStrings.9>
+  <!-- EN: place_job->gatherer -->
+  <Oubanyen.placeRules.rulesStrings.10>place_job->채집가</Oubanyen.placeRules.rulesStrings.10>
+  <!-- EN: place_job->goat-herd -->
+  <Oubanyen.placeRules.rulesStrings.11>place_job->염소지기</Oubanyen.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->pila -->
+  <Oubanyen.placeRules.rulesStrings.12>place_personalWeapon->필라</Oubanyen.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->ikwa -->
+  <Oubanyen.placeRules.rulesStrings.13>place_personalWeapon->이콰</Oubanyen.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a lethal psychic drone -->
+  <Oubanyen.placeRules.rulesStrings.14>place_massWeapon->치명적인 정신파동</Oubanyen.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a neurotoxin bomb -->
+  <Oubanyen.placeRules.rulesStrings.15>place_massWeapon->신경독 폭탄</Oubanyen.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->tree-harvester -->
+  <Oubanyen.placeRules.rulesStrings.16>place_foeLeader->벌목대장</Oubanyen.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->henchmen -->
+  <Oubanyen.placeRules.rulesStrings.17>place_foeSoldiers->병사들</Oubanyen.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Rhydell</li>
-    <li>place_adjective->Rhydellian</li>
-    <li>place_summary->savage forest moon</li>
-    <li>place_community->converted dropship</li>
-    <li>place_community->low-shielded encampment</li>
-    <li>place_community->communication center</li>
-    <li>place_powerCenter->armored habitat</li>
-    <li>place_job->frontier botanist</li>
-    <li>place_job->trophy hunter</li>
-    <li>place_job->medic</li>
-    <li>place_job->camp cook</li>
-    <li>place_job->biolab engineer</li>
-    <li>place_personalWeapon->sniper rifle</li>
-    <li>place_personalWeapon->machete</li>
-    <li>place_massWeapon->a plant-derived neurotoxin gas</li>
-    <li>place_massWeapon->an orbital laser strike</li>
-    <li>place_foeLeader->deepcorp executive</li>
-    <li>place_foeSoldiers->deepcorp enforcers</li>
-  -->
-  <Rhydell.placeRules.rulesStrings>TODO</Rhydell.placeRules.rulesStrings>
+  <!-- EN: place_name->Rhydell -->
+  <Rhydell.placeRules.rulesStrings.0>place_name->라이델</Rhydell.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Rhydellian -->
+  <Rhydell.placeRules.rulesStrings.1>place_adjective->라이델의</Rhydell.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->savage forest moon -->
+  <Rhydell.placeRules.rulesStrings.2>place_summary->야생 밀림 위성</Rhydell.placeRules.rulesStrings.2>
+  <!-- EN: place_community->converted dropship -->
+  <Rhydell.placeRules.rulesStrings.3>place_community->개조된 수송선</Rhydell.placeRules.rulesStrings.3>
+  <!-- EN: place_community->low-shielded encampment -->
+  <Rhydell.placeRules.rulesStrings.4>place_community->저각보호막 야영지</Rhydell.placeRules.rulesStrings.4>
+  <!-- EN: place_community->communication center -->
+  <Rhydell.placeRules.rulesStrings.5>place_community->통신 기지</Rhydell.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->armored habitat -->
+  <Rhydell.placeRules.rulesStrings.6>place_powerCenter->장갑을 두른 주거지</Rhydell.placeRules.rulesStrings.6>
+  <!-- EN: place_job->frontier botanist -->
+  <Rhydell.placeRules.rulesStrings.7>place_job->식물학 개척자</Rhydell.placeRules.rulesStrings.7>
+  <!-- EN: place_job->trophy hunter -->
+  <Rhydell.placeRules.rulesStrings.8>place_job->전리품 사냥꾼</Rhydell.placeRules.rulesStrings.8>
+  <!-- EN: place_job->medic -->
+  <Rhydell.placeRules.rulesStrings.9>place_job->의무관</Rhydell.placeRules.rulesStrings.9>
+  <!-- EN: place_job->camp cook -->
+  <Rhydell.placeRules.rulesStrings.10>place_job->야영지 조리사</Rhydell.placeRules.rulesStrings.10>
+  <!-- EN: place_job->biolab engineer -->
+  <Rhydell.placeRules.rulesStrings.11>place_job->생체연구소 공학자</Rhydell.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->sniper rifle -->
+  <Rhydell.placeRules.rulesStrings.12>place_personalWeapon->저격소총</Rhydell.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->machete -->
+  <Rhydell.placeRules.rulesStrings.13>place_personalWeapon->마체테</Rhydell.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a plant-derived neurotoxin gas -->
+  <Rhydell.placeRules.rulesStrings.14>place_massWeapon->식물에서 추출한 신경독 가스</Rhydell.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->an orbital laser strike -->
+  <Rhydell.placeRules.rulesStrings.15>place_massWeapon->궤도 레이저 폭격</Rhydell.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->deepcorp executive -->
+  <Rhydell.placeRules.rulesStrings.16>place_foeLeader->암흑기업 총괄</Rhydell.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->deepcorp enforcers -->
+  <Rhydell.placeRules.rulesStrings.17>place_foeSoldiers->암흑기업 집행자들</Rhydell.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Rogia</li>
-    <li>place_adjective->Rogian</li>
-    <li>place_summary->glitter-tech world</li>
-    <li>place_community->medical institute</li>
-    <li>place_community->space elevator</li>
-    <li>place_community->robotics factory</li>
-    <li>place_powerCenter->planetary capitol</li>
-    <li>place_job->starforce cadet</li>
-    <li>place_job->artisan farmer</li>
-    <li>place_job->social-media prodigy</li>
-    <li>place_job->zero-g athlete</li>
-    <li>place_job->glitter-tech smuggler</li>
-    <li>place_personalWeapon->charge lance</li>
-    <li>place_personalWeapon->persona monosword</li>
-    <li>place_massWeapon->antimatter warheads</li>
-    <li>place_massWeapon->a weaponized computer virus</li>
-    <li>place_massWeapon->remote-controlled mechanoid workers</li>
-    <li>place_foeLeader->corrupt bureaucrat</li>
-    <li>place_foeSoldiers->bionic guards</li>
-  -->
-  <Rogia.placeRules.rulesStrings>TODO</Rogia.placeRules.rulesStrings>
+  <!-- EN: place_name->Rogia -->
+  <Rogia.placeRules.rulesStrings.0>place_name->로지아</Rogia.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Rogian -->
+  <Rogia.placeRules.rulesStrings.1>place_adjective->로지아의</Rogia.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->glitter-tech world -->
+  <Rogia.placeRules.rulesStrings.2>place_summary->번화계 행성</Rogia.placeRules.rulesStrings.2>
+  <!-- EN: place_community->medical institute -->
+  <Rogia.placeRules.rulesStrings.3>place_community->의학 협회</Rogia.placeRules.rulesStrings.3>
+  <!-- EN: place_community->space elevator -->
+  <Rogia.placeRules.rulesStrings.4>place_community->우주 엘레베이터</Rogia.placeRules.rulesStrings.4>
+  <!-- EN: place_community->robotics factory -->
+  <Rogia.placeRules.rulesStrings.5>place_community->로봇 제조시설</Rogia.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->planetary capitol -->
+  <Rogia.placeRules.rulesStrings.6>place_powerCenter->행성 수도</Rogia.placeRules.rulesStrings.6>
+  <!-- EN: place_job->starforce cadet -->
+  <Rogia.placeRules.rulesStrings.7>place_job->스타포스 생도</Rogia.placeRules.rulesStrings.7>
+  <!-- EN: place_job->artisan farmer -->
+  <Rogia.placeRules.rulesStrings.8>place_job->농경 장인</Rogia.placeRules.rulesStrings.8>
+  <!-- EN: place_job->social-media prodigy -->
+  <Rogia.placeRules.rulesStrings.9>place_job->소셜미디어 천재</Rogia.placeRules.rulesStrings.9>
+  <!-- EN: place_job->zero-g athlete -->
+  <Rogia.placeRules.rulesStrings.10>place_job->무중력 운동선수</Rogia.placeRules.rulesStrings.10>
+  <!-- EN: place_job->glitter-tech smuggler -->
+  <Rogia.placeRules.rulesStrings.11>place_job->번화계 밀수업자</Rogia.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->charge lance -->
+  <Rogia.placeRules.rulesStrings.12>place_personalWeapon->전자기포</Rogia.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->persona monosword -->
+  <Rogia.placeRules.rulesStrings.13>place_personalWeapon->결속 단분자검</Rogia.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->antimatter warheads -->
+  <Rogia.placeRules.rulesStrings.14>place_massWeapon->반물질 탄두</Rogia.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a weaponized computer virus -->
+  <Rogia.placeRules.rulesStrings.15>place_massWeapon->무기화된 컴퓨터 바이러스</Rogia.placeRules.rulesStrings.15>
+  <!-- EN: place_massWeapon->remote-controlled mechanoid workers -->
+  <Rogia.placeRules.rulesStrings.16>place_massWeapon->무선조종형 메카노이드 일꾼들</Rogia.placeRules.rulesStrings.16>
+  <!-- EN: place_foeLeader->corrupt bureaucrat -->
+  <Rogia.placeRules.rulesStrings.17>place_foeLeader->부패한 관료</Rogia.placeRules.rulesStrings.17>
+  <!-- EN: place_foeSoldiers->bionic guards -->
+  <Rogia.placeRules.rulesStrings.18>place_foeSoldiers->생체공학 경비들</Rogia.placeRules.rulesStrings.18>
   
-  <!-- EN:
-    <li>place_name->Wavia</li>
-    <li>place_adjective->Wavian</li>
-    <li>place_summary->oceanic planet</li>
-    <li>place_community->trading atoll</li>
-    <li>place_community->floating village</li>
-    <li>place_community->seaweed refinery</li>
-    <li>place_powerCenter->capitol bridge</li>
-    <li>place_job->fisher</li>
-    <li>place_job->pearl diver</li>
-    <li>place_job->sail maker</li>
-    <li>place_job->captain</li>
-    <li>place_job->sea-grass gatherer</li>
-    <li>place_personalWeapon->harpoon</li>
-    <li>place_personalWeapon->barbed net</li>
-    <li>place_massWeapon->a high-yield torpedo</li>
-    <li>place_massWeapon->a baited [seaBeast]</li>
-    <li>place_foeLeader->whaler admiral</li>
-    <li>place_foeSoldiers->whaler-marines</li>
-    <li>seaBeast->deep-kraken</li>
-    <li>seaBeast->Wavian leviathan</li>
-  -->
-  <Wavia.placeRules.rulesStrings>TODO</Wavia.placeRules.rulesStrings>
+  <!-- EN: place_name->Wavia -->
+  <Wavia.placeRules.rulesStrings.0>place_name->와비아</Wavia.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Wavian -->
+  <Wavia.placeRules.rulesStrings.1>place_adjective->와비아의</Wavia.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->oceanic planet -->
+  <Wavia.placeRules.rulesStrings.2>place_summary->바다 행성</Wavia.placeRules.rulesStrings.2>
+  <!-- EN: place_community->trading atoll -->
+  <Wavia.placeRules.rulesStrings.3>place_community->환초 거래소</Wavia.placeRules.rulesStrings.3>
+  <!-- EN: place_community->floating village -->
+  <Wavia.placeRules.rulesStrings.4>place_community->부양 마을</Wavia.placeRules.rulesStrings.4>
+  <!-- EN: place_community->seaweed refinery -->
+  <Wavia.placeRules.rulesStrings.5>place_community->해초 정제소</Wavia.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->capitol bridge -->
+  <Wavia.placeRules.rulesStrings.6>place_powerCenter->수도 대교</Wavia.placeRules.rulesStrings.6>
+  <!-- EN: place_job->fisher -->
+  <Wavia.placeRules.rulesStrings.7>place_job->어부</Wavia.placeRules.rulesStrings.7>
+  <!-- EN: place_job->pearl diver -->
+  <Wavia.placeRules.rulesStrings.8>place_job->진주 사냥꾼</Wavia.placeRules.rulesStrings.8>
+  <!-- EN: place_job->sail maker -->
+  <Wavia.placeRules.rulesStrings.9>place_job->돛장이</Wavia.placeRules.rulesStrings.9>
+  <!-- EN: place_job->captain -->
+  <Wavia.placeRules.rulesStrings.10>place_job->대장</Wavia.placeRules.rulesStrings.10>
+  <!-- EN: place_job->sea-grass gatherer -->
+  <Wavia.placeRules.rulesStrings.11>place_job->수초 채집가</Wavia.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->harpoon -->
+  <Wavia.placeRules.rulesStrings.12>place_personalWeapon->작살</Wavia.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->barbed net -->
+  <Wavia.placeRules.rulesStrings.13>place_personalWeapon->철조망</Wavia.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a high-yield torpedo -->
+  <Wavia.placeRules.rulesStrings.14>place_massWeapon->초강력 어뢰</Wavia.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->a baited [seaBeast] -->
+  <Wavia.placeRules.rulesStrings.15>place_massWeapon->이끌려 나온 [seaBeast]</Wavia.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->whaler admiral -->
+  <Wavia.placeRules.rulesStrings.16>place_foeLeader->고래기수 제독</Wavia.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->whaler-marines -->
+  <Wavia.placeRules.rulesStrings.17>place_foeSoldiers->고래기수 해병들</Wavia.placeRules.rulesStrings.17>
+  <!-- EN: seaBeast->deep-kraken -->
+  <Wavia.placeRules.rulesStrings.18>seaBeast->심연-크라켄</Wavia.placeRules.rulesStrings.18>
+  <!-- EN: seaBeast->Wavian leviathan -->
+  <Wavia.placeRules.rulesStrings.19>seaBeast->와비아 레비아탄</Wavia.placeRules.rulesStrings.19>
   
-  <!-- EN:
-    <li>place_name->Xanides</li>
-    <li>place_adjective->Xanidian</li>
-    <li>place_summary->exploited mineral-planet</li>
-    <li>place_community->strip mine</li>
-    <li>place_community->ore refinery</li>
-    <li>place_community->nutrient paste cafeteria</li>
-    <li>place_powerCenter->oxygen depot</li>
-    <li>place_job->miner</li>
-    <li>place_job->supervisor</li>
-    <li>place_job->technician</li>
-    <li>place_job->mechanic</li>
-    <li>place_job->life support engineer</li>
-    <li>place_personalWeapon->electro-baton</li>
-    <li>place_personalWeapon->autopistol</li>
-    <li>place_massWeapon->blasting charges</li>
-    <li>place_massWeapon->[anEMPAttack]</li>
-    <li>place_foeLeader->mine-corp boss</li>
-    <li>place_foeSoldiers->mine-corp troops</li>
-  -->
-  <Xanides.placeRules.rulesStrings>TODO</Xanides.placeRules.rulesStrings>
+  <!-- EN: place_name->Xanides -->
+  <Xanides.placeRules.rulesStrings.0>place_name->자나이즈</Xanides.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Xanidian -->
+  <Xanides.placeRules.rulesStrings.1>place_adjective->자나이즈의</Xanides.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->exploited mineral-planet -->
+  <Xanides.placeRules.rulesStrings.2>place_summary->고갈된 광업행성</Xanides.placeRules.rulesStrings.2>
+  <!-- EN: place_community->strip mine -->
+  <Xanides.placeRules.rulesStrings.3>place_community->노천 광산</Xanides.placeRules.rulesStrings.3>
+  <!-- EN: place_community->ore refinery -->
+  <Xanides.placeRules.rulesStrings.4>place_community->광석 정제소</Xanides.placeRules.rulesStrings.4>
+  <!-- EN: place_community->nutrient paste cafeteria -->
+  <Xanides.placeRules.rulesStrings.5>place_community->영양죽 식당</Xanides.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->oxygen depot -->
+  <Xanides.placeRules.rulesStrings.6>place_powerCenter->산소 보급소</Xanides.placeRules.rulesStrings.6>
+  <!-- EN: place_job->miner -->
+  <Xanides.placeRules.rulesStrings.7>place_job->광부</Xanides.placeRules.rulesStrings.7>
+  <!-- EN: place_job->supervisor -->
+  <Xanides.placeRules.rulesStrings.8>place_job->감독관</Xanides.placeRules.rulesStrings.8>
+  <!-- EN: place_job->technician -->
+  <Xanides.placeRules.rulesStrings.9>place_job->기술자</Xanides.placeRules.rulesStrings.9>
+  <!-- EN: place_job->mechanic -->
+  <Xanides.placeRules.rulesStrings.10>place_job->정비공</Xanides.placeRules.rulesStrings.10>
+  <!-- EN: place_job->life support engineer -->
+  <Xanides.placeRules.rulesStrings.11>place_job->생명 유지장치 공학자</Xanides.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->electro-baton -->
+  <Xanides.placeRules.rulesStrings.12>place_personalWeapon->전압단봉</Xanides.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->autopistol -->
+  <Xanides.placeRules.rulesStrings.13>place_personalWeapon->자동권총</Xanides.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->blasting charges -->
+  <Xanides.placeRules.rulesStrings.14>place_massWeapon->폭발물</Xanides.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->[anEMPAttack] -->
+  <Xanides.placeRules.rulesStrings.15>TODO</Xanides.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->mine-corp boss -->
+  <Xanides.placeRules.rulesStrings.16>place_foeLeader->채굴기업 사장</Xanides.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->mine-corp troops -->
+  <Xanides.placeRules.rulesStrings.17>place_foeSoldiers->채굴기업 사병들</Xanides.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Yttak</li>
-    <li>place_adjective->Yttaki</li>
-    <li>place_summary->ice-moon prison</li>
-    <li>place_community->meal hall</li>
-    <li>place_community->guard barracks</li>
-    <li>place_community->detention center</li>
-    <li>place_powerCenter->warden's office complex</li>
-    <li>place_job->detainee</li>
-    <li>place_job->guard</li>
-    <li>place_job->escapee</li>
-    <li>place_job->maintenance worker</li>
-    <li>place_job->transport driver</li>
-    <li>place_personalWeapon->shiv</li>
-    <li>place_personalWeapon->SMG</li>
-    <li>place_massWeapon->an improvised chemical bomb</li>
-    <li>place_massWeapon->an orbital laser strike</li>
-    <li>place_foeLeader->prison warden</li>
-    <li>place_foeSoldiers->corrupt guards</li>
-  -->
-  <Yttak.placeRules.rulesStrings>TODO</Yttak.placeRules.rulesStrings>
+  <!-- EN: place_name->Yttak -->
+  <Yttak.placeRules.rulesStrings.0>place_name->이탁</Yttak.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Yttaki -->
+  <Yttak.placeRules.rulesStrings.1>place_adjective->이탁의</Yttak.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->ice-moon prison -->
+  <Yttak.placeRules.rulesStrings.2>place_summary->얼음위성 감옥</Yttak.placeRules.rulesStrings.2>
+  <!-- EN: place_community->meal hall -->
+  <Yttak.placeRules.rulesStrings.3>place_community->죄수식당</Yttak.placeRules.rulesStrings.3>
+  <!-- EN: place_community->guard barracks -->
+  <Yttak.placeRules.rulesStrings.4>place_community->경비 막사</Yttak.placeRules.rulesStrings.4>
+  <!-- EN: place_community->detention center -->
+  <Yttak.placeRules.rulesStrings.5>place_community->구치소</Yttak.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->warden's office complex -->
+  <Yttak.placeRules.rulesStrings.6>place_powerCenter->간수 공관 </Yttak.placeRules.rulesStrings.6>
+  <!-- EN: place_job->detainee -->
+  <Yttak.placeRules.rulesStrings.7>place_job->억류자</Yttak.placeRules.rulesStrings.7>
+  <!-- EN: place_job->guard -->
+  <Yttak.placeRules.rulesStrings.8>place_job->경비원</Yttak.placeRules.rulesStrings.8>
+  <!-- EN: place_job->escapee -->
+  <Yttak.placeRules.rulesStrings.9>place_job->탈옥수</Yttak.placeRules.rulesStrings.9>
+  <!-- EN: place_job->maintenance worker -->
+  <Yttak.placeRules.rulesStrings.10>place_job->관리 잡부</Yttak.placeRules.rulesStrings.10>
+  <!-- EN: place_job->transport driver -->
+  <Yttak.placeRules.rulesStrings.11>place_job->수송기사</Yttak.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->shiv -->
+  <Yttak.placeRules.rulesStrings.12>place_personalWeapon->급조 단검</Yttak.placeRules.rulesStrings.12>
+  <!-- EN: place_personalWeapon->SMG -->
+  <Yttak.placeRules.rulesStrings.13>place_personalWeapon->기관단총</Yttak.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->an improvised chemical bomb -->
+  <Yttak.placeRules.rulesStrings.14>place_massWeapon->급조 화학 폭탄</Yttak.placeRules.rulesStrings.14>
+  <!-- EN: place_massWeapon->an orbital laser strike -->
+  <Yttak.placeRules.rulesStrings.15>place_massWeapon->궤도 레이저 폭격</Yttak.placeRules.rulesStrings.15>
+  <!-- EN: place_foeLeader->prison warden -->
+  <Yttak.placeRules.rulesStrings.16>place_foeLeader->고위 간수</Yttak.placeRules.rulesStrings.16>
+  <!-- EN: place_foeSoldiers->corrupt guards -->
+  <Yttak.placeRules.rulesStrings.17>place_foeSoldiers->부패한 경비들</Yttak.placeRules.rulesStrings.17>
   
-  <!-- EN:
-    <li>place_name->Zoutera</li>
-    <li>place_adjective->Zoutin</li>
-    <li>place_summary->grassy dino-world</li>
-    <li>place_community->trading outpost</li>
-    <li>place_community->tent village</li>
-    <li>place_community->mammoth burial ground</li>
-    <li>place_powerCenter->hill-top fort</li>
-    <li>place_job->dino-rider</li>
-    <li>place_job->muffalo-herder</li>
-    <li>place_job->hunter</li>
-    <li>place_job->toughleather maker</li>
-    <li>place_personalWeapon->bamboo staff</li>
-    <li>place_personalWeapon->hunt-bomb arrows</li>
-    <li>place_massWeapon->a stampeding herd of [megaFauna]</li>
-    <li>place_massWeapon->a fertilizer bomb</li>
-    <li>place_foeLeader->tusk-king</li>
-    <li>place_foeSoldiers->tusk-warriors</li>
-    <li>megaFauna->ankylosaurs</li>
-    <li>megaFauna->blue mammoths</li>
-    <li>megaFauna->novoraptors</li>
-  -->
-  <Zoutera.placeRules.rulesStrings>TODO</Zoutera.placeRules.rulesStrings>
+  <!-- EN: place_name->Zoutera -->
+  <Zoutera.placeRules.rulesStrings.0>place_name->주테라</Zoutera.placeRules.rulesStrings.0>
+  <!-- EN: place_adjective->Zoutin -->
+  <Zoutera.placeRules.rulesStrings.1>place_adjective->주테라의</Zoutera.placeRules.rulesStrings.1>
+  <!-- EN: place_summary->grassy dino-world -->
+  <Zoutera.placeRules.rulesStrings.2>place_summary->수풀림 공룡세계</Zoutera.placeRules.rulesStrings.2>
+  <!-- EN: place_community->trading outpost -->
+  <Zoutera.placeRules.rulesStrings.3>place_community->무역 도시</Zoutera.placeRules.rulesStrings.3>
+  <!-- EN: place_community->tent village -->
+  <Zoutera.placeRules.rulesStrings.4>place_community->텐트 마을</Zoutera.placeRules.rulesStrings.4>
+  <!-- EN: place_community->mammoth burial ground -->
+  <Zoutera.placeRules.rulesStrings.5>place_community->거대한 시체 매립지</Zoutera.placeRules.rulesStrings.5>
+  <!-- EN: place_powerCenter->hill-top fort -->
+  <Zoutera.placeRules.rulesStrings.6>place_powerCenter->언덕 요새</Zoutera.placeRules.rulesStrings.6>
+  <!-- EN: place_job->dino-rider -->
+  <Zoutera.placeRules.rulesStrings.7>place_job->공룡을 타는 자</Zoutera.placeRules.rulesStrings.7>
+  <!-- EN: place_job->muffalo-herder -->
+  <Zoutera.placeRules.rulesStrings.8>place_job->머팔로 목동</Zoutera.placeRules.rulesStrings.8>
+  <!-- EN: place_job->hunter -->
+  <Zoutera.placeRules.rulesStrings.9>place_job->사냥꾼</Zoutera.placeRules.rulesStrings.9>
+  <!-- EN: place_job->toughleather maker -->
+  <Zoutera.placeRules.rulesStrings.10>place_job->단단가죽 만드미</Zoutera.placeRules.rulesStrings.10>
+  <!-- EN: place_personalWeapon->bamboo staff -->
+  <Zoutera.placeRules.rulesStrings.11>place_personalWeapon->대나무 봉</Zoutera.placeRules.rulesStrings.11>
+  <!-- EN: place_personalWeapon->hunt-bomb arrows -->
+  <Zoutera.placeRules.rulesStrings.12>place_personalWeapon->사냥폭탄 화살</Zoutera.placeRules.rulesStrings.12>
+  <!-- EN: place_massWeapon->a stampeding herd of [megaFauna] -->
+  <Zoutera.placeRules.rulesStrings.13>place_massWeapon->미쳐 날뛰는 [megaFauna]</Zoutera.placeRules.rulesStrings.13>
+  <!-- EN: place_massWeapon->a fertilizer bomb -->
+  <Zoutera.placeRules.rulesStrings.14>place_massWeapon->비료 폭탄</Zoutera.placeRules.rulesStrings.14>
+  <!-- EN: place_foeLeader->tusk-king -->
+  <Zoutera.placeRules.rulesStrings.15>place_foeLeader->엄니왕</Zoutera.placeRules.rulesStrings.15>
+  <!-- EN: place_foeSoldiers->tusk-warriors -->
+  <Zoutera.placeRules.rulesStrings.16>place_foeSoldiers->엄니전사들</Zoutera.placeRules.rulesStrings.16>
+  <!-- EN: megaFauna->ankylosaurs -->
+  <Zoutera.placeRules.rulesStrings.17>megaFauna->안킬로사우루스</Zoutera.placeRules.rulesStrings.17>
+  <!-- EN: megaFauna->blue mammoths -->
+  <Zoutera.placeRules.rulesStrings.18>megaFauna->푸른 맘모스</Zoutera.placeRules.rulesStrings.18>
+  <!-- EN: megaFauna->novoraptors -->
+  <Zoutera.placeRules.rulesStrings.19>megaFauna->노보랩터</Zoutera.placeRules.rulesStrings.19>
   
 </LanguageData>

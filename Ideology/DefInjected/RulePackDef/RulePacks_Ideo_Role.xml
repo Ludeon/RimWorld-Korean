@@ -1,168 +1,262 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>r_roleName->creaturizer</li>
-    <li>r_roleName->animalor</li>
-    <li>firstPart->fur</li>
-    <li>firstPart->paw</li>
-    <li>firstPart->hoof</li>
-    <li>firstPart->tail</li>
-    <li>firstPart->whisker</li>
-    <li>firstPart->fang</li>
-    <li>firstPart->feral</li>
-    <li>firstPart->snout</li>
-    <li>secondPart(p=4)->kin</li>
-    <li>secondPart(p=4)->touch</li>
-  -->
-  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>TODO</NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+  <!-- EN: r_roleName->creaturizer -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.0>r_roleName->야수지배자</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.0>
+  <!-- EN: r_roleName->animalor -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.1>r_roleName->동물관리인</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.1>
+  <!-- EN: firstPart->fur -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.2>firstPart->터럭</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.2>
+  <!-- EN: firstPart->paw -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.3>firstPart->발톱</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->hoof -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.4>firstPart->발굽</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->tail -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.5>firstPart->꼬리</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->whisker -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.6>firstPart->수염</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->fang -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.7>firstPart->송곳니</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.7>
+  <!-- EN: firstPart->feral -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.8>firstPart->야생</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.8>
+  <!-- EN: firstPart->snout -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.9>firstPart->주둥이</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.9>
+  <!-- EN: secondPart(p=4)->kin -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.10>secondPart(p=4)->수</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.10>
+  <!-- EN: secondPart(p=4)->touch -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings.11>secondPart(p=4)->지기</NamerRoleAnimalsSpecialist.rulePack.rulesStrings.11>
   
-  <!-- EN:
-    <li>r_roleName->berserker</li>
-    <li>firstPart->slash</li>
-    <li>firstPart->fist</li>
-    <li>firstPart->bruise</li>
-    <li>firstPart->blade</li>
-    <li>firstPart->brawl</li>
-    <li>firstPart->knuckle</li>
-    <li>firstPart->spear</li>
-    <li>firstPart->sword</li>
-    <li>firstPart->club</li>
-    <li>firstPart->edge</li>
-    <li>firstPart->cut</li>
-    <li>firstPart->smash</li>
-    <li>firstPart->crush</li>
-  -->
-  <NamerRoleBrawler.rulePack.rulesStrings>TODO</NamerRoleBrawler.rulePack.rulesStrings>
+  <!-- EN: r_roleName->berserker -->
+  <NamerRoleBrawler.rulePack.rulesStrings.0>r_roleName->광전사</NamerRoleBrawler.rulePack.rulesStrings.0>
+  <!-- EN: firstPart->slash -->
+  <NamerRoleBrawler.rulePack.rulesStrings.1>firstPart->참격</NamerRoleBrawler.rulePack.rulesStrings.1>
+  <!-- EN: firstPart->fist -->
+  <NamerRoleBrawler.rulePack.rulesStrings.2>firstPart->주먹</NamerRoleBrawler.rulePack.rulesStrings.2>
+  <!-- EN: firstPart->bruise -->
+  <NamerRoleBrawler.rulePack.rulesStrings.3>firstPart->타격</NamerRoleBrawler.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->blade -->
+  <NamerRoleBrawler.rulePack.rulesStrings.4>firstPart->칼날</NamerRoleBrawler.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->brawl -->
+  <NamerRoleBrawler.rulePack.rulesStrings.5>firstPart->싸움</NamerRoleBrawler.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->knuckle -->
+  <NamerRoleBrawler.rulePack.rulesStrings.6>firstPart->격투</NamerRoleBrawler.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->spear -->
+  <NamerRoleBrawler.rulePack.rulesStrings.7>firstPart->창</NamerRoleBrawler.rulePack.rulesStrings.7>
+  <!-- EN: firstPart->sword -->
+  <NamerRoleBrawler.rulePack.rulesStrings.8>firstPart->검</NamerRoleBrawler.rulePack.rulesStrings.8>
+  <!-- EN: firstPart->club -->
+  <NamerRoleBrawler.rulePack.rulesStrings.9>firstPart->둔기</NamerRoleBrawler.rulePack.rulesStrings.9>
+  <!-- EN: firstPart->edge -->
+  <NamerRoleBrawler.rulePack.rulesStrings.10>firstPart->검날</NamerRoleBrawler.rulePack.rulesStrings.10>
+  <!-- EN: firstPart->cut -->
+  <NamerRoleBrawler.rulePack.rulesStrings.11>firstPart->절단</NamerRoleBrawler.rulePack.rulesStrings.11>
+  <!-- EN: firstPart->smash -->
+  <NamerRoleBrawler.rulePack.rulesStrings.12>firstPart->묵사발</NamerRoleBrawler.rulePack.rulesStrings.12>
+  <!-- EN: firstPart->crush -->
+  <NamerRoleBrawler.rulePack.rulesStrings.13>firstPart->박살</NamerRoleBrawler.rulePack.rulesStrings.13>
   
-  <!-- EN:
-    <li>firstPart->health</li>
-    <li>firstPart->heal</li>
-    <li>firstPart->heart</li>
-    <li>firstPart->medi</li>
-    <li>firstPart->scalpel</li>
-    <li>firstPart->sanito</li>
-    <li>firstPart->surgo</li>
-    <li>firstPart->clinic</li>
-  -->
-  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>TODO</NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+  <!-- EN: firstPart->health -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.0>firstPart->건강</NamerRoleMedicalSpecialist.rulePack.rulesStrings.0>
+  <!-- EN: firstPart->heal -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.1>firstPart->회복</NamerRoleMedicalSpecialist.rulePack.rulesStrings.1>
+  <!-- EN: firstPart->heart -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.2>firstPart->심장</NamerRoleMedicalSpecialist.rulePack.rulesStrings.2>
+  <!-- EN: firstPart->medi -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.3>firstPart->의무</NamerRoleMedicalSpecialist.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->scalpel -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.4>firstPart->메스</NamerRoleMedicalSpecialist.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->sanito -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.5>firstPart->요양</NamerRoleMedicalSpecialist.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->surgo -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.6>firstPart->수술</NamerRoleMedicalSpecialist.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->clinic -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings.7>firstPart->진료</NamerRoleMedicalSpecialist.rulePack.rulesStrings.7>
   
-  <!-- EN:
-    <li>r_roleName->spelunker</li>
-    <li>firstPart->mine</li>
-    <li>firstPart->deep</li>
-    <li>firstPart->depth</li>
-    <li>firstPart->rock</li>
-    <li>firstPart->cave</li>
-    <li>firstPart->pick</li>
-    <li>firstPart->drill</li>
-    <li>firstPart->under</li>
-    <li>firstPart->stone</li>
-    <li>firstPart->hill</li>
-    <li>firstPart->hole</li>
-    <li>firstPart->tunnel</li>
-    <li>firstPart->crack</li>
-  -->
-  <NamerRoleMiner.rulePack.rulesStrings>TODO</NamerRoleMiner.rulePack.rulesStrings>
+  <!-- EN: r_roleName->spelunker -->
+  <NamerRoleMiner.rulePack.rulesStrings.0>r_roleName->광부</NamerRoleMiner.rulePack.rulesStrings.0>
+  <!-- EN: firstPart->mine -->
+  <NamerRoleMiner.rulePack.rulesStrings.1>firstPart->채굴</NamerRoleMiner.rulePack.rulesStrings.1>
+  <!-- EN: firstPart->deep -->
+  <NamerRoleMiner.rulePack.rulesStrings.2>firstPart->고랑</NamerRoleMiner.rulePack.rulesStrings.2>
+  <!-- EN: firstPart->depth -->
+  <NamerRoleMiner.rulePack.rulesStrings.3>firstPart->땅속</NamerRoleMiner.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->rock -->
+  <NamerRoleMiner.rulePack.rulesStrings.4>firstPart->돌</NamerRoleMiner.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->cave -->
+  <NamerRoleMiner.rulePack.rulesStrings.5>firstPart->동굴</NamerRoleMiner.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->pick -->
+  <NamerRoleMiner.rulePack.rulesStrings.6>firstPart->곡괭이</NamerRoleMiner.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->drill -->
+  <NamerRoleMiner.rulePack.rulesStrings.7>firstPart->드릴</NamerRoleMiner.rulePack.rulesStrings.7>
+  <!-- EN: firstPart->under -->
+  <NamerRoleMiner.rulePack.rulesStrings.8>firstPart->아랫</NamerRoleMiner.rulePack.rulesStrings.8>
+  <!-- EN: firstPart->stone -->
+  <NamerRoleMiner.rulePack.rulesStrings.9>firstPart->짱돌</NamerRoleMiner.rulePack.rulesStrings.9>
+  <!-- EN: firstPart->hill -->
+  <NamerRoleMiner.rulePack.rulesStrings.10>firstPart->언덕</NamerRoleMiner.rulePack.rulesStrings.10>
+  <!-- EN: firstPart->hole -->
+  <NamerRoleMiner.rulePack.rulesStrings.11>firstPart->구멍</NamerRoleMiner.rulePack.rulesStrings.11>
+  <!-- EN: firstPart->tunnel -->
+  <NamerRoleMiner.rulePack.rulesStrings.12>firstPart->터널</NamerRoleMiner.rulePack.rulesStrings.12>
+  <!-- EN: firstPart->crack -->
+  <NamerRoleMiner.rulePack.rulesStrings.13>firstPart->땅굴</NamerRoleMiner.rulePack.rulesStrings.13>
   
-  <!-- EN:
-    <li>r_roleName(p=4)->[memeMoralist]</li>
-    <li>r_roleName(p=2)->[memeAdjective] [memeMoralist]</li>
-    <li>r_roleName->[memeMoralist] of [chosenTheme]</li>
-    <li>r_roleName->[memeMoralist] of [keyDeity]</li>
-    <li>r_roleName->[memeMoralist] of [memeConcept]</li>
-    <li>r_roleName->[memeMoralist] of [chosenIdeoName]</li>
-    <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
-    <li>r_roleName->[keyDeity]'s [memeMoralist]</li>
-  -->
-  <NamerRoleMoralist.rulePack.rulesStrings>TODO</NamerRoleMoralist.rulePack.rulesStrings>
+  <!-- EN: r_roleName(p=4)->[memeMoralist] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.0>r_roleName(p=4)->[memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.0>
+  <!-- EN: r_roleName(p=2)->[memeAdjective] [memeMoralist] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.1>r_roleName(p=2)->[memeAdjective] [memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.1>
+  <!-- EN: r_roleName->[memeMoralist] of [chosenTheme] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.2>r_roleName->[chosenTheme]의 [memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.2>
+  <!-- EN: r_roleName->[memeMoralist] of [keyDeity] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.3>r_roleName->[keyDeity]의 [memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.3>
+  <!-- EN: r_roleName->[memeMoralist] of [memeConcept] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.4>r_roleName->[memeConcept]의 [memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.4>
+  <!-- EN: r_roleName->[memeMoralist] of [chosenIdeoName] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.5>r_roleName->[chosenIdeoName]의 [memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.5>
+  <!-- EN: r_roleName->[chosenAdjective] [memeMoralist] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.6>r_roleName->[chosenAdjective] [memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.6>
+  <!-- EN: r_roleName->[keyDeity]'s [memeMoralist] -->
+  <NamerRoleMoralist.rulePack.rulesStrings.7>r_roleName->[keyDeity]의 [memeMoralist]</NamerRoleMoralist.rulePack.rulesStrings.7>
   
-  <!-- EN:
-    <li>r_roleName->manufactor</li>
-    <li>r_roleName->handyman</li>
-    <li>r_roleName->maker</li>
-    <li>firstPart->make</li>
-    <li>firstPart->craft</li>
-    <li>firstPart->build</li>
-    <li>firstPart->manu</li>
-    <li>firstPart->make</li>
-  -->
-  <NamerRoleProductionSpecialist.rulePack.rulesStrings>TODO</NamerRoleProductionSpecialist.rulePack.rulesStrings>
+  <!-- EN: r_roleName->manufactor -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.0>r_roleName->제조업자</NamerRoleProductionSpecialist.rulePack.rulesStrings.0>
+  <!-- EN: r_roleName->handyman -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.1>r_roleName->수리전문가</NamerRoleProductionSpecialist.rulePack.rulesStrings.1>
+  <!-- EN: r_roleName->maker -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.2>r_roleName->제작자</NamerRoleProductionSpecialist.rulePack.rulesStrings.2>
+  <!-- EN: firstPart->make -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.3>firstPart->제작</NamerRoleProductionSpecialist.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->craft -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.4>firstPart->공예</NamerRoleProductionSpecialist.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->build -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.5>firstPart->건축</NamerRoleProductionSpecialist.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->manu -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.6>firstPart->제조</NamerRoleProductionSpecialist.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->make -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings.7>firstPart->제작</NamerRoleProductionSpecialist.rulePack.rulesStrings.7>
   
-  <!-- EN:
-    <li>r_roleName->highmind</li>
-    <li>r_roleName->cogitor</li>
-    <li>r_roleName->thinker</li>
-    <li>r_roleName->learner</li>
-    <li>firstPart->mind</li>
-    <li>firstPart->thought</li>
-    <li>firstPart->focus</li>
-    <li>firstPart->neuro</li>
-    <li>firstPart->cogito</li>
-    <li>firstPart->idea</li>
-  -->
-  <NamerRoleResearcher.rulePack.rulesStrings>TODO</NamerRoleResearcher.rulePack.rulesStrings>
+  <!-- EN: r_roleName->highmind -->
+  <NamerRoleResearcher.rulePack.rulesStrings.0>r_roleName->승천한 정신</NamerRoleResearcher.rulePack.rulesStrings.0>
+  <!-- EN: r_roleName->cogitor -->
+  <NamerRoleResearcher.rulePack.rulesStrings.1>r_roleName->탐구자</NamerRoleResearcher.rulePack.rulesStrings.1>
+  <!-- EN: r_roleName->thinker -->
+  <NamerRoleResearcher.rulePack.rulesStrings.2>r_roleName->학자</NamerRoleResearcher.rulePack.rulesStrings.2>
+  <!-- EN: r_roleName->learner -->
+  <NamerRoleResearcher.rulePack.rulesStrings.3>r_roleName->학습자</NamerRoleResearcher.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->mind -->
+  <NamerRoleResearcher.rulePack.rulesStrings.4>firstPart->정신</NamerRoleResearcher.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->thought -->
+  <NamerRoleResearcher.rulePack.rulesStrings.5>firstPart->생각</NamerRoleResearcher.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->focus -->
+  <NamerRoleResearcher.rulePack.rulesStrings.6>firstPart->집중</NamerRoleResearcher.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->neuro -->
+  <NamerRoleResearcher.rulePack.rulesStrings.7>firstPart->논리</NamerRoleResearcher.rulePack.rulesStrings.7>
+  <!-- EN: firstPart->cogito -->
+  <NamerRoleResearcher.rulePack.rulesStrings.8>firstPart->사고</NamerRoleResearcher.rulePack.rulesStrings.8>
+  <!-- EN: firstPart->idea -->
+  <NamerRoleResearcher.rulePack.rulesStrings.9>firstPart->상상</NamerRoleResearcher.rulePack.rulesStrings.9>
   
-  <!-- EN:
-    <li>firstPart->gun</li>
-    <li>firstPart->shot</li>
-    <li>firstPart->trigger</li>
-    <li>firstPart->bullet</li>
-    <li>firstPart->shell</li>
-    <li>firstPart->aim</li>
-    <li>firstPart->snipe</li>
-    <li>firstPart->point</li>
-    <li>firstPart->shoot</li>
-    <li>secondPart(p=4)->slinger</li>
-  -->
-  <NamerRoleShooter.rulePack.rulesStrings>TODO</NamerRoleShooter.rulePack.rulesStrings>
+  <!-- EN: firstPart->gun -->
+  <NamerRoleShooter.rulePack.rulesStrings.0>firstPart->총</NamerRoleShooter.rulePack.rulesStrings.0>
+  <!-- EN: firstPart->shot -->
+  <NamerRoleShooter.rulePack.rulesStrings.1>firstPart->발포</NamerRoleShooter.rulePack.rulesStrings.1>
+  <!-- EN: firstPart->trigger -->
+  <NamerRoleShooter.rulePack.rulesStrings.2>firstPart->방아쇠</NamerRoleShooter.rulePack.rulesStrings.2>
+  <!-- EN: firstPart->bullet -->
+  <NamerRoleShooter.rulePack.rulesStrings.3>firstPart->총알</NamerRoleShooter.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->shell -->
+  <NamerRoleShooter.rulePack.rulesStrings.4>firstPart->탄환</NamerRoleShooter.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->aim -->
+  <NamerRoleShooter.rulePack.rulesStrings.5>firstPart->조준</NamerRoleShooter.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->snipe -->
+  <NamerRoleShooter.rulePack.rulesStrings.6>firstPart->저격</NamerRoleShooter.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->point -->
+  <NamerRoleShooter.rulePack.rulesStrings.7>firstPart->명중</NamerRoleShooter.rulePack.rulesStrings.7>
+  <!-- EN: firstPart->shoot -->
+  <NamerRoleShooter.rulePack.rulesStrings.8>firstPart->탄약</NamerRoleShooter.rulePack.rulesStrings.8>
+  <!-- EN: secondPart(p=4)->slinger -->
+  <NamerRoleShooter.rulePack.rulesStrings.9>secondPart(p=4)->잡이</NamerRoleShooter.rulePack.rulesStrings.9>
   
-  <!-- EN:
-    <li>r_roleName->fertilizer</li>
-    <li>firstPart->leaf</li>
-    <li>firstPart->plant</li>
-    <li>firstPart->green</li>
-    <li>firstPart->sprout</li>
-    <li>firstPart->garden</li>
-    <li>firstPart->flora</li>
-    <li>firstPart->herb</li>
-    <li>firstPart->crop</li>
-    <li>firstPart->farm</li>
-    <li>firstPart->land</li>
-    <li>firstPart->dirt</li>
-    <li>firstPart->seed</li>
-    <li>firstPart->soil</li>
-    <li>firstPart->root</li>
-  -->
-  <NamerRoleSower.rulePack.rulesStrings>TODO</NamerRoleSower.rulePack.rulesStrings>
+  <!-- EN: r_roleName->fertilizer -->
+  <NamerRoleSower.rulePack.rulesStrings.0>r_roleName->농부</NamerRoleSower.rulePack.rulesStrings.0>
+  <!-- EN: firstPart->leaf -->
+  <NamerRoleSower.rulePack.rulesStrings.1>firstPart->잎</NamerRoleSower.rulePack.rulesStrings.1>
+  <!-- EN: firstPart->plant -->
+  <NamerRoleSower.rulePack.rulesStrings.2>firstPart->식물</NamerRoleSower.rulePack.rulesStrings.2>
+  <!-- EN: firstPart->green -->
+  <NamerRoleSower.rulePack.rulesStrings.3>firstPart->녹색</NamerRoleSower.rulePack.rulesStrings.3>
+  <!-- EN: firstPart->sprout -->
+  <NamerRoleSower.rulePack.rulesStrings.4>firstPart->새싹</NamerRoleSower.rulePack.rulesStrings.4>
+  <!-- EN: firstPart->garden -->
+  <NamerRoleSower.rulePack.rulesStrings.5>firstPart->정원</NamerRoleSower.rulePack.rulesStrings.5>
+  <!-- EN: firstPart->flora -->
+  <NamerRoleSower.rulePack.rulesStrings.6>firstPart->꽃</NamerRoleSower.rulePack.rulesStrings.6>
+  <!-- EN: firstPart->herb -->
+  <NamerRoleSower.rulePack.rulesStrings.7>firstPart->허브</NamerRoleSower.rulePack.rulesStrings.7>
+  <!-- EN: firstPart->crop -->
+  <NamerRoleSower.rulePack.rulesStrings.8>firstPart->작물</NamerRoleSower.rulePack.rulesStrings.8>
+  <!-- EN: firstPart->farm -->
+  <NamerRoleSower.rulePack.rulesStrings.9>firstPart->농장</NamerRoleSower.rulePack.rulesStrings.9>
+  <!-- EN: firstPart->land -->
+  <NamerRoleSower.rulePack.rulesStrings.10>firstPart->땅</NamerRoleSower.rulePack.rulesStrings.10>
+  <!-- EN: firstPart->dirt -->
+  <NamerRoleSower.rulePack.rulesStrings.11>firstPart->흙</NamerRoleSower.rulePack.rulesStrings.11>
+  <!-- EN: firstPart->seed -->
+  <NamerRoleSower.rulePack.rulesStrings.12>firstPart->씨앗</NamerRoleSower.rulePack.rulesStrings.12>
+  <!-- EN: firstPart->soil -->
+  <NamerRoleSower.rulePack.rulesStrings.13>firstPart->토양</NamerRoleSower.rulePack.rulesStrings.13>
+  <!-- EN: firstPart->root -->
+  <NamerRoleSower.rulePack.rulesStrings.14>firstPart->뿌리</NamerRoleSower.rulePack.rulesStrings.14>
   
-  <!-- EN:
-    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
-    <li>secondPart->master</li>
-    <li>secondPart->crat</li>
-    <li>secondPart->flame</li>
-    <li>secondPart->mind</li>
-    <li>secondPart->head</li>
-    <li>secondPart->eye</li>
-    <li>secondPart->hand</li>
-    <li>secondPart->func</li>
-    <li>secondPart->brain</li>
-    <li>secondPart->holder</li>
-    <li>secondPart->bringer</li>
-    <li>secondPart->talker</li>
-    <li>secondPart->speaker</li>
-    <li>secondPart->knower</li>
-    <li>secondPart->lover</li>
-    <li>secondPart->user</li>
-    <li>secondPart->one</li>
-    <li>secondPart->pert</li>
-    <li>secondPart->itor</li>
-    <li>secondPart->inor</li>
-    <li>secondPart->alor</li>
-    <li>secondPart->or</li>
-    <li>secondPart->izer</li>
-    <li>secondPart->iner</li>
-  -->
-  <NamerRoleSpecialistUtility.rulePack.rulesStrings>TODO</NamerRoleSpecialistUtility.rulePack.rulesStrings>
+  <!-- EN: r_roleName(p=7)->[firstPart][secondPart] -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.0>r_roleName(p=7)->[firstPart][secondPart]</NamerRoleSpecialistUtility.rulePack.rulesStrings.0>
+  <!-- EN: secondPart->master -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.1>secondPart->의 주인</NamerRoleSpecialistUtility.rulePack.rulesStrings.1>
+  <!-- EN: secondPart->crat -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.2>secondPart->지기</NamerRoleSpecialistUtility.rulePack.rulesStrings.2>
+  <!-- EN: secondPart->flame -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.3>secondPart->불꽃</NamerRoleSpecialistUtility.rulePack.rulesStrings.3>
+  <!-- EN: secondPart->mind -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.4>secondPart->정신</NamerRoleSpecialistUtility.rulePack.rulesStrings.4>
+  <!-- EN: secondPart->head -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.5>secondPart->머리</NamerRoleSpecialistUtility.rulePack.rulesStrings.5>
+  <!-- EN: secondPart->eye -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.6>secondPart->눈</NamerRoleSpecialistUtility.rulePack.rulesStrings.6>
+  <!-- EN: secondPart->hand -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.7>secondPart->손</NamerRoleSpecialistUtility.rulePack.rulesStrings.7>
+  <!-- EN: secondPart->func -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.8>secondPart->마</NamerRoleSpecialistUtility.rulePack.rulesStrings.8>
+  <!-- EN: secondPart->brain -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.9>secondPart->두뇌</NamerRoleSpecialistUtility.rulePack.rulesStrings.9>
+  <!-- EN: secondPart->holder -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.10>secondPart->고정자</NamerRoleSpecialistUtility.rulePack.rulesStrings.10>
+  <!-- EN: secondPart->bringer -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.11>secondPart->인도자</NamerRoleSpecialistUtility.rulePack.rulesStrings.11>
+  <!-- EN: secondPart->talker -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.12>secondPart->교육자</NamerRoleSpecialistUtility.rulePack.rulesStrings.12>
+  <!-- EN: secondPart->speaker -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.13>secondPart->전달자</NamerRoleSpecialistUtility.rulePack.rulesStrings.13>
+  <!-- EN: secondPart->knower -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.14>secondPart->둥이</NamerRoleSpecialistUtility.rulePack.rulesStrings.14>
+  <!-- EN: secondPart->lover -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.15>secondPart->애호가</NamerRoleSpecialistUtility.rulePack.rulesStrings.15>
+  <!-- EN: secondPart->user -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.16>secondPart->잡이</NamerRoleSpecialistUtility.rulePack.rulesStrings.16>
+  <!-- EN: secondPart->one -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.17>secondPart->유일자</NamerRoleSpecialistUtility.rulePack.rulesStrings.17>
+  <!-- EN: secondPart->pert -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.18>secondPart->달인</NamerRoleSpecialistUtility.rulePack.rulesStrings.18>
+  <!-- EN: secondPart->itor -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.19>secondPart->장이</NamerRoleSpecialistUtility.rulePack.rulesStrings.19>
+  <!-- EN: secondPart->inor -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.20>secondPart->쟁이</NamerRoleSpecialistUtility.rulePack.rulesStrings.20>
+  <!-- EN: secondPart->alor -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.21>secondPart->장인</NamerRoleSpecialistUtility.rulePack.rulesStrings.21>
+  <!-- EN: secondPart->or -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.22>secondPart->장</NamerRoleSpecialistUtility.rulePack.rulesStrings.22>
+  <!-- EN: secondPart->izer -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.23>secondPart->꾼</NamerRoleSpecialistUtility.rulePack.rulesStrings.23>
+  <!-- EN: secondPart->iner -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings.24>secondPart->사</NamerRoleSpecialistUtility.rulePack.rulesStrings.24>
   
 </LanguageData>

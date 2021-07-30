@@ -179,7 +179,7 @@
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>요구사항 표시</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
-  <ModClickToSelect>클릭하여 선택하십시오.</ModClickToSelect>
+  <ModClickToSelect>클릭해서 선택할 수 있습니다.</ModClickToSelect>
   <!-- EN: Click to go to website. -->
   <ModClickToGoToWebsite>클릭하여 웹사이트로 이동하십시오.</ModClickToGoToWebsite>
   <!-- EN: Source -->
@@ -293,7 +293,7 @@
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
   <ReloadAnytimeModeInfo>클래식 모드에서는 언제든 게임을 저장하거나 불러올 수 있습니다.\n\n게임을 배우는 중이거나 불안정한 외부 컨텐츠를 사용하는 경우에 적합합니다.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>철인 모드에서는 게임을 종료할 때만 저장이 가능합니다.\n\n림월드는 이야기 생성기이기 때문에, 한명을 제외하고 모두 잃는다고 해서 게임이 끝나는 것이 아닙니다. 이 게임은 손실 후 회복할 수 있도록 설계되었습니다. 모든 것은 이야기의 일부분일 뿐입니다.\n\n림월드에서 권장하는 플레이 방식으로, 매 순간 주어지는 희극과 비극을 온전히 경험할 수 있습니다.</PermadeathModeInfo>
+  <PermadeathModeInfo>철인 모드에서는 게임을 종료할 때만 저장이 가능합니다.\n\n림월드는 이야기 생성기이기 때문에, 한명을 제외한 모두를 잃더라도 게임이 끝나는 것이 아닙니다. 림월드는 손실을 겪은 후에 회복할 수 있도록 설계되었습니다. 모든 것은 이야기의 일부분일 뿐입니다.\n\n림월드에서 권장하는 플레이 방식으로, 매 순간 주어지는 희극과 비극을 온전히 경험할 수 있습니다.\n\n상실과 그 후의 회복이야말로 극적인 것입니다.</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>이야기꾼과 난이도는 언제든지 변경 가능합니다.</CanChangeStorytellerSettingsDuringPlay>
 
@@ -459,11 +459,11 @@
   <Difficulty_FixedWealthTimeFactor_Info>재산 독립모드가 최대 위협 수준에 도달할 때까지의 게임 연수입니다.\n\n이야기꾼은 정착민 수와 기타 요인에 따라 위협 규모를 계속 확장합니다.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>TODO</DifficultyIdeologySection>
+  <DifficultyIdeologySection>사상(이념)</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
-  <Difficulty_LowPopConversionBoost_Label>TODO</Difficulty_LowPopConversionBoost_Label>
+  <Difficulty_LowPopConversionBoost_Label>낮은 정착민 수에 대한 교화 위력 증가</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>TODO</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>정착지에 플레이어가 처음 선택한 사상을 믿는 정착민이 한 명이면 다른 사상을 교화시킬 확률에 이 수를 곱합니다. 반대로 그 정착민에 대한 교화 시도에는 확률을 이 수로 나눕니다.\n\n처음 선택한 사상을 믿는 정착민이 두 명이면 효과가 절반으로 줄어듭니다.\n\n처음 선택한 사상을 믿는 정착민이 세 명 이상일 경우 아무런 효과도 없습니다.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -571,7 +571,7 @@
   <!-- EN: Caused by quest status: {0} -->
   <IncapableOfTooltipQuest>{0} 임무에 의해 발생</IncapableOfTooltipQuest>
   <!-- EN: Caused by role: {0} -->
-  <IncapableOfTooltipRole>{0} 역할에 의해 발생</IncapableOfTooltipRole>
+  <IncapableOfTooltipRole>{0} 보직에 의해 발생</IncapableOfTooltipRole>
   <!-- EN: Traits -->
   <Traits>특성</Traits>
   <!-- EN: Permanent mood effect -->

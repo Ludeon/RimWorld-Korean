@@ -19,7 +19,7 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>{0} 세력과의 관계가 틀어져 이제 적대로 돌아섰습니다.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>그들은 정착지와 상단을 주기적으로 습격하고, 거래도 거부할 것입니다. 관계를 개선하려면 상단이나 수송 포드를 이용하여 선물을 제공할 수 있습니다.\n\n우호도({0})가 {1} 아래로 떨어졌기 때문에 발생했습니다. 중립 관계를 다시 회복하려면 우호도가 {2}에 도달해야 합니다.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>그들은 정착지와 상단을 주기적으로 습격하고, 거래도 거부할 것입니다. 관계를 개선하기 위해 상단이나 수송 포드를 이용하여 선물을 제공할 수 있습니다.\n\n우호도({0}) 가 {1} 아래로 떨어졌기 때문에 발생했습니다. 중립 관계를 다시 회복하려면 우호도가 {2} 에 도달해야 합니다.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>{0} 세력과의 관계가 완화되어 더는 공격하지 않을 것입니다.</LetterRelationsChange_NeutralFromHostile>
@@ -290,7 +290,7 @@
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>전초기지 파괴</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterFactionBaseDefeated>적의 전초기지 {0}(이)가 파괴되었습니다.\n\n{1} 후에, 자동적으로 상단 구성이 됩니다. 세계지도에서 해당지역을 선택한 뒤 "상단 재구성"을 할 수 있습니다.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>적의 전초기지 {0}(이)가 파괴되었습니다.\n\n지금 상단을 재구성해서 떠나지 않으면 {1} 후에 적이 병력을 보내 상단을 공격할 것입니다.</LetterFactionBaseDefeated>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>마지막 기지 파괴로 인해 {0} 세력은 이제 존재하지 않습니다.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -310,7 +310,7 @@
   <!-- EN: Scanned underground -->
   <LetterLabelDeepScannerFoundLump>지하구조 스캔</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>{FINDER_nameDef}(은)는 지면 투과 스캐너를 사용하여 {0} 광맥을 발견했습니다!</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef}(은)는 지면 투과 탐색기를 사용하여 {0} 광맥을 발견했습니다!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->

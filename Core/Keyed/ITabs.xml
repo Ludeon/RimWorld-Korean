@@ -85,7 +85,7 @@
   <!-- EN: Resistance -->
   <RecruitmentResistance>저항심</RecruitmentResistance>
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
-  <RecruitmentResistanceDesc>정착지 합류에 가진 거부감입니다. 0이 되면 포섭할 수 있습니다.</RecruitmentResistanceDesc>
+  <RecruitmentResistanceDesc>수감자가 정착지 합류에 가진 거부감입니다. 0이 되면 포섭할 수 있습니다.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
   <RecruitmentResistanceFromPawnKind>{0}의 기본 저항심</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
@@ -93,9 +93,9 @@
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
   <PrisonerReleaseRelationGainsDesc>수감자를 석방하면 수감자의 소속 세력과 관계가 개선됩니다. 개선되는 수치는 수감자의 지위, 건강, 정신 상태에 영향을 받습니다.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
-  <PrisonBreakMTBDays>탈출 간격</PrisonBreakMTBDays>
+  <PrisonBreakMTBDays>탈옥 주기</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>감옥 탈출 시도가 얼마나 자주 발생하는지에 관한 수치입니다. 감옥의 수준, 넓이, 수감시간의 영향을 받습니다.\n\n이 수치에는 자는 시간이 포함되지 않으므로 실제 탈출 간격은 표기보다 더 길어질 수 있습니다.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>평균적으로 탈옥을 시도할 간격입니다. 기분, 이동 속도, 출입문의 개수, 마지막 탈옥 시도와의 간격에 영향을 받습니다.\n\n이 수치는 깨어있는 시간만 고려한 것입니다.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>없음</Never>
   <!-- EN: Not while asleep -->

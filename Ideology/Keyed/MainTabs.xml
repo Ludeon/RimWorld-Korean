@@ -3,193 +3,195 @@
 
   <!-- Ideoligions -->
   <!-- EN: Deities -->
-  <Deities>TODO</Deities>
+  <Deities>신적 존재</Deities>
   <!-- EN: Show all ideoligions -->
-  <ButtonShowAllIdeoligions>TODO</ButtonShowAllIdeoligions>
+  <ButtonShowAllIdeoligions>모든 사상 보기</ButtonShowAllIdeoligions>
   <!-- EN: Ideoligion of -->
-  <IdeoligionOf>TODO</IdeoligionOf>
+  <IdeoligionOf>다음 세력의 사상</IdeoligionOf>
   <!-- EN: Memes -->
-  <Memes>TODO</Memes>
+  <Memes>가르침</Memes>
   <!-- EN: Narrative -->
-  <CoreNarrative>TODO</CoreNarrative>
+  <CoreNarrative>구절</CoreNarrative>
   <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
-  <CoreNarrativeDesc>TODO</CoreNarrativeDesc>
+  <CoreNarrativeDesc>사상의 핵심 구절입니다. 게임 플레이에는 영향을 주지 않습니다.</CoreNarrativeDesc>
   <!-- EN: Edit narrative -->
-  <EditNarrative>TODO</EditNarrative>
-  <!-- EN: Clicking this button toggles a lock the current ideoligion narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
-  <LockButtonDesc>TODO</LockButtonDesc>
-  <!-- EN: Narrative lock is currently on. The narrative will not auto-regenerate. -->
-  <LockInOn>TODO</LockInOn>
-  <!-- EN: Narrative lock is currently off. The narrative text can auto-regenerate. -->
-  <LockInOff>TODO</LockInOff>
+  <EditNarrative>구절 편집</EditNarrative>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>사상의 현재 구절을 고정하거나 고정 해제합니다. 구절을 고정하면 사상을 편집해도 바뀌지 않습니다.</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn>{0} 고정이 켜져있습니다. {1}(이)가 자동으로 재생성되지 않습니다.</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>{0} 고정이 꺼져있습니다. {1}(이)가 자동으로 재생성될 수 있습니다.</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>이 규율을 고정하거나 고정 해제합니다. 규율을 고정하면 사상을 편집해도 규율 이름이 바뀌지 않습니다.</LockPreceptNameButtonDesc>
   <!-- EN: Precepts -->
-  <Precepts>TODO</Precepts>
+  <Precepts>규율</Precepts>
   <!-- EN: Rituals -->
-  <Rituals>TODO</Rituals>
+  <Rituals>행사</Rituals>
   <!-- EN: Roles -->
-  <IdeoRoles>TODO</IdeoRoles>
+  <IdeoRoles>지위</IdeoRoles>
   <!-- EN: Buildings -->
-  <IdeoBuildings>TODO</IdeoBuildings>
+  <IdeoBuildings>건물</IdeoBuildings>
   <!-- EN: Relics -->
-  <IdeoRelics>TODO</IdeoRelics>
+  <IdeoRelics>유물</IdeoRelics>
   <!-- EN: Preferred apparel -->
-  <IdeoApparel>TODO</IdeoApparel>
+  <IdeoApparel>선호 의복</IdeoApparel>
   <!-- EN: apparel desire -->
-  <IdeoApparelDesire>TODO</IdeoApparelDesire>
+  <IdeoApparelDesire>의복 희망</IdeoApparelDesire>
   <!-- EN: Won't do -->
-  <UnwillingToDoIdeoAction>TODO</UnwillingToDoIdeoAction>
+  <UnwillingToDoIdeoAction>거절</UnwillingToDoIdeoAction>
   <!-- EN: Stats -->
-  <PreceptStats>TODO</PreceptStats>
+  <PreceptStats>통계</PreceptStats>
   <!-- EN: Prohibitions -->
-  <Prohibitions>TODO</Prohibitions>
+  <Prohibitions>금지</Prohibitions>
   <!-- EN: Opinions -->
-  <Opinions>TODO</Opinions>
+  <Opinions>의견</Opinions>
   <!-- EN: Randomize name -->
-  <RandomizeName>TODO</RandomizeName>
+  <RandomizeName>무작위 이름</RandomizeName>
   <!-- EN: Randomize precepts -->
-  <RandomizePrecepts>TODO</RandomizePrecepts>
+  <RandomizePrecepts>무작위 규율</RandomizePrecepts>
   <!-- EN: Add precept -->
-  <AddPrecept>TODO</AddPrecept>
+  <AddPrecept>{0} 추가</AddPrecept>
   <!-- EN: Randomize deities -->
-  <RandomizeDeities>TODO</RandomizeDeities>
+  <RandomizeDeities>무작위 신적 존재</RandomizeDeities>
   <!-- EN: Add deity -->
-  <AddDeity>TODO</AddDeity>
+  <AddDeity>신적 존재 추가</AddDeity>
   <!-- EN: Choose memes -->
-  <ChooseMemes>TODO</ChooseMemes>
+  <ChooseMemes>가르침 선택</ChooseMemes>
   <!-- EN: Choose structure -->
-  <ChooseStructure>TODO</ChooseStructure>
+  <ChooseStructure>구조 선택</ChooseStructure>
   <!-- EN: Choose culture -->
-  <ChooseCulture>TODO</ChooseCulture>
+  <ChooseCulture>문화 선택</ChooseCulture>
   <!-- EN: Culture -->
-  <Culture>TODO</Culture>
+  <Culture>문화</Culture>
   <!-- EN: Culture affects names, appearances, and symbols. -->
-  <CultureTip>TODO</CultureTip>
+  <CultureTip>문화는 이름과 외형, 상징에 영향을 줍니다.</CultureTip>
   <!-- EN: Structure -->
-  <StructureMeme>TODO</StructureMeme>
+  <StructureMeme>구조</StructureMeme>
   <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
-  <StructureMemeTip>TODO</StructureMemeTip>
+  <StructureMemeTip>구조는 사상이 우주의 도덕적 구조에서 중요하다고 여기는 존재와 힘의 종류를 결정합니다. 게임 플레이에 직접적인 영향을 주지 않습니다.</StructureMemeTip>
   <!-- EN: Adjective -->
-  <Adjective>TODO</Adjective>
+  <Adjective>형용사</Adjective>
   <!-- EN: Ritual room -->
-  <WorshipRoom>TODO</WorshipRoom>
+  <WorshipRoom>의식장</WorshipRoom>
   <!-- EN: Member noun -->
-  <IdeoMembers>TODO</IdeoMembers>
+  <IdeoMembers>구성원 호칭</IdeoMembers>
   <!-- EN: Member plural -->
-  <IdeoMembersPlural>TODO</IdeoMembersPlural>
+  <IdeoMembersPlural>구성원 복수형</IdeoMembersPlural>
   <!-- EN: Edit symbols -->
-  <EditSymbols>TODO</EditSymbols>
+  <EditSymbols>상징 편집</EditSymbols>
   <!-- EN: Edit deity -->
-  <EditDeity>TODO</EditDeity>
+  <EditDeity>신적 존재 편집</EditDeity>
   <!-- EN: Edit required apparel -->
-  <EditApparelRequirement>TODO</EditApparelRequirement>
+  <EditApparelRequirement>필요 의복 편집</EditApparelRequirement>
   <!-- EN: Edit name -->
-  <EditName>TODO</EditName>
+  <EditName>이름 편집</EditName>
   <!-- EN: Any time -->
-  <StartingCondition_Anytime>TODO</StartingCondition_Anytime>
+  <StartingCondition_Anytime>아무 때나</StartingCondition_Anytime>
   <!-- EN: Date -->
-  <StartingCondition_Date>TODO</StartingCondition_Date>
+  <StartingCondition_Date>날짜</StartingCondition_Date>
   <!-- EN: Starting condition -->
-  <StartingCondition>TODO</StartingCondition>
+  <StartingCondition>시작 조건</StartingCondition>
   <!-- EN: Edit -->
-  <Edit>TODO</Edit>
+  <Edit>편집</Edit>
   <!-- EN: Randomize symbols -->
-  <RandomizeSymbols>TODO</RandomizeSymbols>
+  <RandomizeSymbols>무작위 상징</RandomizeSymbols>
   <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
-  <RandomizeSymbolsTooltip>TODO</RandomizeSymbolsTooltip>
+  <RandomizeSymbolsTooltip>사상의 이름, 아이콘, 구절, 지도자 호칭, 의식 이름, 보직 이름 등 모든 텍스트를 무작위로 지정합니다. 가르침과 규율처럼 게임 플레이에 영향을 주는 요소는 바꾸지 않습니다.</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
-  <ClickAnyElementToEditIt>TODO</ClickAnyElementToEditIt>
+  <ClickAnyElementToEditIt>구성 요소를 클릭해 편집</ClickAnyElementToEditIt>
   <!-- EN: Click to edit -->
-  <ClickToEdit>TODO</ClickToEdit>
+  <ClickToEdit>클릭해서 편집</ClickToEdit>
   <!-- EN: Leader title -->
-  <LeaderTitle>TODO</LeaderTitle>
+  <LeaderTitle>지도자 호칭</LeaderTitle>
   <!-- EN: Deity name -->
-  <DeityName>TODO</DeityName>
+  <DeityName>신적 존재 이름</DeityName>
   <!-- EN: Deity title -->
-  <DeityTitle>TODO</DeityTitle>
+  <DeityTitle>신적 존재 호칭</DeityTitle>
   <!-- EN: Deity gender -->
-  <DeityGender>TODO</DeityGender>
+  <DeityGender>신적 존재 성별</DeityGender>
   <!-- EN: Name -->
-  <Name>TODO</Name>
+  <Name>이름</Name>
   <!-- EN: Icon -->
-  <Icon>TODO</Icon>
+  <Icon>아이콘</Icon>
   <!-- EN: Related to meme -->
-  <RelatedToMeme>TODO</RelatedToMeme>
+  <RelatedToMeme>관련된 가르침</RelatedToMeme>
   <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
-  <IdeoCharityQuestInfo>TODO</IdeoCharityQuestInfo>
+  <IdeoCharityQuestInfo>이것은 이타적 임무입니다. 이타적 사상인 {0}(을)를 믿는 다음 정착민들은 임무가 실패하면 실망할 것입니다 .반대로, 성공하면 기뻐할 것입니다. ({1})</IdeoCharityQuestInfo>
   <!-- EN: Slaves will not do this work -->
-  <WorkDisabledSlave>TODO</WorkDisabledSlave>
+  <WorkDisabledSlave>노예가 할 수 없음</WorkDisabledSlave>
   <!-- EN: Disabled by {0} role -->
-  <WorkDisabledRole>TODO</WorkDisabledRole>
+  <WorkDisabledRole>{0} 지위로 인해 비활성</WorkDisabledRole>
   <!-- EN: Affected by traits -->
-  <AffectedByTraits>TODO</AffectedByTraits>
+  <AffectedByTraits>특성의 영향</AffectedByTraits>
   <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
-  <CharityQuestTip>TODO</CharityQuestTip>
+  <CharityQuestTip>이것은 이타적 임무입니다. 이타적 믿음을 가진 사람들은 임무 결과에 영향을 받게 됩니다</CharityQuestTip>
   <!-- EN: formerly -->
-  <Formerly>TODO</Formerly>
+  <Formerly>이전</Formerly>
   <!-- EN: all -->
-  <All>TODO</All>
+  <All>모두</All>
   <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
-  <RelicTip>TODO</RelicTip>
+  <RelicTip>유물은 영적으로, 또는 사상적으로 중요한 물체로서 길고 위험한 임무를 통해 찾아낼 수 있습니다. 유물을 유물함에 설치하면 순례자가 찾아오고, 의식의 효과가 증가하며, 외부인이 유물의 사상으로 전향할 확률이 높아집니다.</RelicTip>
   <!-- EN: animal -->
-  <Animal>TODO</Animal>
+  <Animal>동물</Animal>
   <!-- EN: Venerated animals -->
-  <VeneratedAnimals>TODO</VeneratedAnimals>
+  <VeneratedAnimals>성스러운 동물</VeneratedAnimals>
   <!-- EN: weapon pair -->
-  <IdeoWeapon>TODO</IdeoWeapon>
+  <IdeoWeapon>무기 쌍</IdeoWeapon>
   <!-- EN: Weapons -->
-  <IdeoWeapons>TODO</IdeoWeapons>
+  <IdeoWeapons>무기</IdeoWeapons>
   <!-- EN: Swap noble and despised -->
-  <SwapNobleAndDespised>TODO</SwapNobleAndDespised>
+  <SwapNobleAndDespised>교체</SwapNobleAndDespised>
   <!-- EN: noble -->
-  <Noble>TODO</Noble>
+  <Noble>고결함</Noble>
   <!-- EN: despised -->
-  <Despised>TODO</Despised>
+  <Despised>천박함</Despised>
   <!-- EN: Unlocked craftables -->
-  <UnlockedRecipes>TODO</UnlockedRecipes>
+  <UnlockedRecipes>제작 가능한 물품</UnlockedRecipes>
   <!-- EN: Start with research -->
-  <IdeoStartWithResearch>TODO</IdeoStartWithResearch>
+  <IdeoStartWithResearch>연구와 함께 시작</IdeoStartWithResearch>
   <!-- EN: Agreeing traits -->
-  <AgreeableTraits>TODO</AgreeableTraits>
+  <AgreeableTraits>잘 맞는 특성</AgreeableTraits>
   <!-- EN: Conflicting traits -->
-  <DisagreeableTraits>TODO</DisagreeableTraits>
+  <DisagreeableTraits>충돌하는 특성</DisagreeableTraits>
   <!-- EN: Shooting -->
-  <Shooting>TODO</Shooting>
+  <Shooting>사격</Shooting>
   <!-- EN: Impact -->
-  <IdeoImpact>TODO</IdeoImpact>
+  <IdeoImpact>영향</IdeoImpact>
   <!-- EN: Overall impact -->
-  <IdeoImpactOverall>TODO</IdeoImpactOverall>
+  <IdeoImpactOverall>전반적 영향</IdeoImpactOverall>
   <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
-  <IdeoImpactOverallDesc>TODO</IdeoImpactOverallDesc>
+  <IdeoImpactOverallDesc>어떤 가르침은 다른 가르침보다 게임 플레이에 더 큰 영향을 줍니다. 가르침의 영향도 점수를 통해 게임 플레이가 얼마나 바뀔지 짐작할 수 있습니다.</IdeoImpactOverallDesc>
   <!-- EN: low -->
-  <IdeoMemeImpactLabel_1>TODO</IdeoMemeImpactLabel_1>
+  <IdeoMemeImpactLabel_1>낮음</IdeoMemeImpactLabel_1>
   <!-- EN: medium -->
-  <IdeoMemeImpactLabel_2>TODO</IdeoMemeImpactLabel_2>
+  <IdeoMemeImpactLabel_2>보통</IdeoMemeImpactLabel_2>
   <!-- EN: high -->
-  <IdeoMemeImpactLabel_3>TODO</IdeoMemeImpactLabel_3>
+  <IdeoMemeImpactLabel_3>심각</IdeoMemeImpactLabel_3>
   <!-- EN: low -->
-  <IdeoImpactLabel_1>TODO</IdeoImpactLabel_1>
+  <IdeoImpactLabel_1>낮음</IdeoImpactLabel_1>
   <!-- EN: low -->
-  <IdeoImpactLabel_2>TODO</IdeoImpactLabel_2>
+  <IdeoImpactLabel_2>낮음</IdeoImpactLabel_2>
   <!-- EN: moderate -->
-  <IdeoImpactLabel_3>TODO</IdeoImpactLabel_3>
+  <IdeoImpactLabel_3>보통</IdeoImpactLabel_3>
   <!-- EN: moderate -->
-  <IdeoImpactLabel_4>TODO</IdeoImpactLabel_4>
+  <IdeoImpactLabel_4>보통</IdeoImpactLabel_4>
   <!-- EN: strong -->
-  <IdeoImpactLabel_5>TODO</IdeoImpactLabel_5>
+  <IdeoImpactLabel_5>높음</IdeoImpactLabel_5>
   <!-- EN: strong -->
-  <IdeoImpactLabel_6>TODO</IdeoImpactLabel_6>
+  <IdeoImpactLabel_6>높음</IdeoImpactLabel_6>
   <!-- EN: very strong -->
-  <IdeoImpactLabel_7>TODO</IdeoImpactLabel_7>
+  <IdeoImpactLabel_7>매우 높음</IdeoImpactLabel_7>
   <!-- EN: very strong -->
-  <IdeoImpactLabel_8>TODO</IdeoImpactLabel_8>
+  <IdeoImpactLabel_8>매우 높음</IdeoImpactLabel_8>
   <!-- EN: extreme -->
-  <IdeoImpactLabel_9>TODO</IdeoImpactLabel_9>
+  <IdeoImpactLabel_9>극심함</IdeoImpactLabel_9>
   <!-- EN: This was your colony's starting ideoligion. -->
-  <InitialPlayerIdeo>TODO</InitialPlayerIdeo>
+  <InitialPlayerIdeo>정착지의 시작 사상입니다.</InitialPlayerIdeo>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
-  <ResearchProjectHasDefsWithMissingMemes>TODO</ResearchProjectHasDefsWithMissingMemes>
+  <ResearchProjectHasDefsWithMissingMemes>{0}(이)가 지금은 만들 수 없는 물품을 해금합니다. 아무도 제작과 건설에 필요한 가르침을 따르지 않습니다</ResearchProjectHasDefsWithMissingMemes>
   <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
-  <SelectedWorkTypeOpposedByIdeo>TODO</SelectedWorkTypeOpposedByIdeo>
+  <SelectedWorkTypeOpposedByIdeo>경고: 이 유형의 작업은 {0_labelShort}의 사상에 반하기 때문에 기분이 나빠집니다.</SelectedWorkTypeOpposedByIdeo>
 
 </LanguageData>

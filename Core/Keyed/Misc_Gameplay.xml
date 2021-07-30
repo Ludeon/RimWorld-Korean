@@ -515,9 +515,9 @@
   <!-- EN: completed -->
   <StudyCompleted>완료</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
-  <AttackToDestroy>TODO</AttackToDestroy>
+  <AttackToDestroy>공격해서 파괴하세요.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>TODO</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>공격해서 제거하세요.</RemoveByAttackingTooltip>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -621,11 +621,11 @@
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
   <UnpennedTooltip>동물 우리는 울타리나 방어벽, 일반 벽, 문으로 둘러싸인 곳에 우리 표시를 설치해 만들 수 있습니다. 조련사가 동물을 적합한 우리로 끌고 갈 것입니다.</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>Roped by</RopedByPawn>
+  <RopedByPawn>에 의하여 묶임:</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>Roped to</RopedToThing>
+  <RopedToThing>묶임:</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>Roped to spot.</RopedToSpot>
+  <RopedToSpot>장소로 묶임</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>우리 크기</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -790,7 +790,7 @@
   <!-- EN: thought disabled by -->
   <ThoughtNullifiedBy>비활성화된 생각</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
-  <ThoughtStartsExpiringIn>{0} 후에 만료 시작</ThoughtStartsExpiringIn>
+  <ThoughtStartsExpiringIn>{0} 후에 만료됨</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
   <ThoughtFinishesExpiringIn>{0} 후에 만료</ThoughtFinishesExpiringIn>
   <!-- EN: Extreme break threshold -->
@@ -1475,7 +1475,7 @@
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>아무 {0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending -->
-  <LordReportAttending>참석 중</LordReportAttending>
+  <LordReportAttending>참여 중 - </LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0}(이)가 취소됐습니다.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1497,7 +1497,7 @@
   <!-- EN: Not participating -->
   <NotParticipating>참여 안함</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>사람을 드래그하거나 왼쪽/오른쪽 클릭을 사용해 이동하세요.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>드래그하거나 왼쪽/오른쪽 클릭으로 이동하세요.</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>노예입니다. 다른 이의 재산입니다.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1505,7 +1505,7 @@
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>선택한 참여자 중 일부가 자고 있습니다. 의식을 시작하면 깨어날 것입니다.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>이 위치는 {0}의 역할을 지닌 정착민이 적합합니다.\n\n{0}(이)가 아닌 사람이 이 위치를 맡을 경우 다음의 보너스를 받지 못합니다</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>이 역할에는 {0}의 보직을 맡은 정착민이 적합합니다.\n\n{0}(이)가 아닌 사람이 이 역할을 맡을 경우 아래의 보너스를 받지 못합니다</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
   <RitualRoleCantSubstitute>{0}(은)는 대체할 수 없는 역할입니다.</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
@@ -1519,17 +1519,17 @@
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>최근에 실행함</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>{0} 기대치</RitualQualityExpectations>
+  <RitualQualityExpectations>기대치 {0}</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>의식 배경음</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
   <RitualQualityLowWarning>{0}의 총 품질이 {1} 미만입니다. 이대로 진행하면 정착지에 부정적인 영향을 끼칠 확률이 높습니다.\n\n정말 계속 하시겠습니까?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>도달 가능하고 연설에 적합한 장소가 없습니다.</AbilitySpeechDisabledNoSpot>
-  <!-- EN: {0_labelShort} is incapable of talking. -->
-  <AbilitySpeechDisabledCantSpeak>{0_labelShort}(은)는 말을 할 수 없습니다.</AbilitySpeechDisabledCantSpeak>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>{0_labelShort}(은)는 {1}(을)를 할 수 없습니다.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>의식에 참여한 모든 사람의 기분이 {1}일간 {0}만큼 좋아집니다.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>의식에 참여한 모든 사람의 기분이 {1}일간 {0}만큼 영향을 받습니다.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>{RITUAL_labelDef}에 참여해야 하는 사람을 선택하세요.</ChooseParticipants>
@@ -1538,11 +1538,11 @@
   <!-- EN: Begin {0} -->
   <BeginRitual>{0} 시작</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>Begin {0} for {1}</BeginRitualFor>
+  <BeginRitualFor>{1}(을)를 위한 {0} 시작</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (최대 {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0}(은)는 특정 날짜에 시작해야 합니다. {2}의 {1}에 시작할 수 있을 것입니다.</DateRitualNoObligation>
+  <DateRitualNoObligation>{0}(은)는 특정 날짜에 시작해야 합니다. {1} 후 {2}에 시작할 수 있을 것입니다.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>대체</PreceptReplaceWith>
@@ -1565,7 +1565,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}의 기대치</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Any of these</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>다음 중 아무거나</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>{PAWN_labelShort}(을)를 대체</RitualRoleReplaces>
 

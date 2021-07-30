@@ -52,7 +52,7 @@
   <MessageNeedRoyalTitleToCallWithShip>호출자는 {0} 이상의 작위를 가지고 있어야 합니다.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>{0}(은)는 파괴되었습니다.</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>{0}(이)가 파괴되었습니다.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>계획 완료: {0}</MessageBillComplete>
@@ -578,7 +578,7 @@
   <MessagePredatorHuntingPlayerAnimal>{PREDATOR}(은)는 먹이를 위해 {PREY_definite} ({PREY_kindBase})(을)를 사냥하고 있습니다!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
-  <MessagePrisonerResistanceBroken>수감자 {PRISONER_labelShort}의 저항심이 {WARDEN_labelShort}에 의해 끝났습니다.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken>{WARDEN_labelShort}(이)가 수감자 {PRISONER_labelShort}의 저항심을 없앴습니다.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>포섭 시도를 시작합니다.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
@@ -637,7 +637,7 @@
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef}(은)는 수감자임</MessagePrisonerCannotEquipWeapon>
 
   <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
-  <MessageIdeoOpposedWorkTypeSelected>경고: {0_nameDef}의 신념이 {1}에 반하기 때문에 {0_pronoun}는 불행해질 수도 있습니다.</MessageIdeoOpposedWorkTypeSelected>
+  <MessageIdeoOpposedWorkTypeSelected>경고: {1}(은)는 {0_nameDef}의 믿음관에 반하기 때문에 {0_pronoun}의 기분이 나빠집니다.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
   <MessageBedLostAssignment>{1_nameDef}(이)가 {0}(을)를 더는 소유하지 않습니다.</MessageBedLostAssignment>
@@ -672,7 +672,7 @@
   <!-- EN: {0_labelShort} is injured. -->
   <MessageRitualPawnInjured>{0_labelShort}(은)는 부상을 입었습니다.</MessageRitualPawnInjured>
   <!-- EN: {0_labelShort} must hold one of these roles -->
-  <MessageRitualRoleRequired>{0_labelShort}(이)가 다음 역할 중 하나를 맡고 있어야 합니다</MessageRitualRoleRequired>
+  <MessageRitualRoleRequired>{0_labelShort}(이)가 다음의 보직 중 하나를 맡고 있어야 합니다</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
   <MessageRitualRoleMustBePrisoner>{0}(은)는 수감자여야 합니다.</MessageRitualRoleMustBePrisoner>
   <!-- EN: {0} must be an animal. -->
@@ -682,7 +682,7 @@
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0}(이)가 눈을 지니고 있어야 함</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
-  <MessageRitualRoleMustRequireScarification>{0_labelShort} does not require further scarification.</MessageRitualRoleMustRequireScarification>
+  <MessageRitualRoleMustRequireScarification>{0_labelShort}(은)는 상흔 문신이 추가로 필요하지 않습니다.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0}(은)는 수감자나 노예여야 합니다.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -690,9 +690,9 @@
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>다른 사람이 이 역할을 맡을 수 없습니다.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} cannot connect to a gauranlen tree because {0_possessive} connection was recently torn.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>최근에 {0_possessive} 연결이 끊어졌기 때문에 {0_labelShort}(은)는 요정나무에 연결할 수 없습니다.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} has the same ideoligion as the converter.</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort}(은)는 개종자와 같은 사상을 가지고 있음.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}(은)는 간수를 맡을 수 없습니다.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
@@ -706,7 +706,7 @@
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>{0}을 맡으려면 정착민이어야 합니다.</MessageRitualRoleMustBeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
-  <MessageRitualRoleMustHaveLargerBodySize>{0}(은)는 최소 크기 {1}의 동물이어야 합니다.</MessageRitualRoleMustHaveLargerBodySize>
+  <MessageRitualRoleMustHaveLargerBodySize>{0}(은)는 최소 신체 크기 {1}의 동물이어야 합니다.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
   <MessageRitualPawnMentalState>{0_labelShort}(은)는 정신이상을 앓고 있어야 합니다.</MessageRitualPawnMentalState>
   <!-- EN: {0_labelShort} is already {1}. -->

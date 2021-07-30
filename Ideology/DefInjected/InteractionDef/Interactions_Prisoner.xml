@@ -2,60 +2,99 @@
 <LanguageData>
   
   <!-- EN: enslave attempt -->
-  <EnslaveAttempt.label>TODO</EnslaveAttempt.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work for the colony.</li>
-    <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must obey orders and work.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour.</li>
-    <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
-  -->
-  <EnslaveAttempt.logRulesInitiator.rulesStrings>TODO</EnslaveAttempt.logRulesInitiator.rulesStrings>
+  <EnslaveAttempt.label>노예화 시도</EnslaveAttempt.label>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work for the colony. -->
+  <EnslaveAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 이제 [RECIPIENT_pronoun](은)는 정착지를 위해 일해야 한다고 말함.</EnslaveAttempt.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must obey orders and work. -->
+  <EnslaveAttempt.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun](은)는 명령에 복종하고 일해야 한다고 가르침.</EnslaveAttempt.logRulesInitiator.rulesStrings.1>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour. -->
+  <EnslaveAttempt.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 강제 노동이나 하며 일생을 보낼 준비를 하라고 선포함.</EnslaveAttempt.logRulesInitiator.rulesStrings.2>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment. -->
+  <EnslaveAttempt.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun]가 일하지 않는다면 처벌 받을 것이라고 협박함.</EnslaveAttempt.logRulesInitiator.rulesStrings.3>
   
   <!-- EN: try to reduce will -->
-  <ReduceWill.label>TODO</ReduceWill.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
-    <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
-    <li>r_logentry->[INITIATOR_nameDef] threatened [RECIPIENT_nameDef] with [threat] if [RECIPIENT_pronoun] [refused].</li>
-    <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] [disillusionment].</li>
-    <li>r_logentry->[INITIATOR_nameDef] demanded [RECIPIENT_nameDef] [givein] to the colony.</li>
-    <li>negative->had no future</li>
-    <li>negative->had no way to escape</li>
-    <li>negative->had no future outside of the colony</li>
-    <li>negative->didn't have the means to escape</li>
-    <li>negative->should submit immediately</li>
-    <li>negative->should forget [RECIPIENT_possessive] aspirations</li>
-    <li>negative->should submit to the colony</li>
-    <li>threat->torture</li>
-    <li>threat->punishment</li>
-    <li>threat->mutilation</li>
-    <li>threat->starvation</li>
-    <li>threat->lifetime incarceration</li>
-    <li>threat->death</li>
-    <li>threat->isolation</li>
-    <li>threat->dismemberment</li>
-    <li>threat->blunt trauma</li>
-    <li>threat->lacerations</li>
-    <li>threat->cannibalism</li>
-    <li>threat->organ harvesting</li>
-    <li>threat->long confinement</li>
-    <li>refused->tried to escape</li>
-    <li>refused->insulted the colony</li>
-    <li>refused->did not work</li>
-    <li>refused->refused a command</li>
-    <li>refused->resisted submitting</li>
-    <li>refused->refused to obey</li>
-    <li>refused->behaved impertinently</li>
-    <li>disillusionment->should accept [RECIPIENT_possessive] situation</li>
-    <li>disillusionment->had no hope for another future</li>
-    <li>disillusionment->would be best off submitting</li>
-    <li>disillusionment->would not survive on [RECIPIENT_possessive] own</li>
-    <li>disillusionment->had no option but to submit</li>
-    <li>givein->give in</li>
-    <li>givein->submit [RECIPIENT_objective]self</li>
-    <li>givein->surrender [RECIPIENT_objective]self</li>
-    <li>givein->yield [RECIPIENT_objective]self</li>
-  -->
-  <ReduceWill.logRulesInitiator.rulesStrings>TODO</ReduceWill.logRulesInitiator.rulesStrings>
+  <ReduceWill.label>의지 꺾기를 시도함.</ReduceWill.label>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative]. -->
+  <ReduceWill.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 너는 [negative] 말함.</ReduceWill.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative]. -->
+  <ReduceWill.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](은)는 [negative] 설명해 줌.</ReduceWill.logRulesInitiator.rulesStrings.1>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] threatened [RECIPIENT_nameDef] with [threat] if [RECIPIENT_pronoun] [refused]. -->
+  <ReduceWill.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun](이)가 [refused] [threat] 위협함.</ReduceWill.logRulesInitiator.rulesStrings.2>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] [disillusionment]. -->
+  <ReduceWill.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun][disillusionment] 알려줌.</ReduceWill.logRulesInitiator.rulesStrings.3>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] demanded [RECIPIENT_nameDef] [givein] to the colony. -->
+  <ReduceWill.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 정착지에 [givein] 요구함.</ReduceWill.logRulesInitiator.rulesStrings.4>
+  <!-- EN: negative->had no future -->
+  <ReduceWill.logRulesInitiator.rulesStrings.5>negative->미래가 없다고</ReduceWill.logRulesInitiator.rulesStrings.5>
+  <!-- EN: negative->had no way to escape -->
+  <ReduceWill.logRulesInitiator.rulesStrings.6>negative->도망칠 곳이 없다고</ReduceWill.logRulesInitiator.rulesStrings.6>
+  <!-- EN: negative->had no future outside of the colony -->
+  <ReduceWill.logRulesInitiator.rulesStrings.7>negative->이 정착지 밖에서는 미래가 없다고</ReduceWill.logRulesInitiator.rulesStrings.7>
+  <!-- EN: negative->didn't have the means to escape -->
+  <ReduceWill.logRulesInitiator.rulesStrings.8>negative->탈출 수단이 없다고</ReduceWill.logRulesInitiator.rulesStrings.8>
+  <!-- EN: negative->should submit immediately -->
+  <ReduceWill.logRulesInitiator.rulesStrings.9>negative->즉시 복종해야 한다고</ReduceWill.logRulesInitiator.rulesStrings.9>
+  <!-- EN: negative->should forget [RECIPIENT_possessive] aspirations -->
+  <ReduceWill.logRulesInitiator.rulesStrings.10>negative->희망을 포기해야 한다고</ReduceWill.logRulesInitiator.rulesStrings.10>
+  <!-- EN: negative->should submit to the colony -->
+  <ReduceWill.logRulesInitiator.rulesStrings.11>negative->이 정착지에 복종하라고</ReduceWill.logRulesInitiator.rulesStrings.11>
+  <!-- EN: threat->torture -->
+  <ReduceWill.logRulesInitiator.rulesStrings.12>threat->고문하겠다고</ReduceWill.logRulesInitiator.rulesStrings.12>
+  <!-- EN: threat->punishment -->
+  <ReduceWill.logRulesInitiator.rulesStrings.13>threat->처벌하겠다고</ReduceWill.logRulesInitiator.rulesStrings.13>
+  <!-- EN: threat->mutilation -->
+  <ReduceWill.logRulesInitiator.rulesStrings.14>threat->불구로 만들겠다고</ReduceWill.logRulesInitiator.rulesStrings.14>
+  <!-- EN: threat->starvation -->
+  <ReduceWill.logRulesInitiator.rulesStrings.15>threat->굶기겠다고</ReduceWill.logRulesInitiator.rulesStrings.15>
+  <!-- EN: threat->lifetime incarceration -->
+  <ReduceWill.logRulesInitiator.rulesStrings.16>threat->평생 감금하겠다고</ReduceWill.logRulesInitiator.rulesStrings.16>
+  <!-- EN: threat->death -->
+  <ReduceWill.logRulesInitiator.rulesStrings.17>threat->죽이겠다고</ReduceWill.logRulesInitiator.rulesStrings.17>
+  <!-- EN: threat->isolation -->
+  <ReduceWill.logRulesInitiator.rulesStrings.18>threat->독방에 보내겠다고</ReduceWill.logRulesInitiator.rulesStrings.18>
+  <!-- EN: threat->dismemberment -->
+  <ReduceWill.logRulesInitiator.rulesStrings.19>threat->절단하겠다고</ReduceWill.logRulesInitiator.rulesStrings.19>
+  <!-- EN: threat->blunt trauma -->
+  <ReduceWill.logRulesInitiator.rulesStrings.20>threat->두들겨 패겠다고</ReduceWill.logRulesInitiator.rulesStrings.20>
+  <!-- EN: threat->lacerations -->
+  <ReduceWill.logRulesInitiator.rulesStrings.21>threat->난자하겠다고</ReduceWill.logRulesInitiator.rulesStrings.21>
+  <!-- EN: threat->cannibalism -->
+  <ReduceWill.logRulesInitiator.rulesStrings.22>threat->잡아먹겠다고</ReduceWill.logRulesInitiator.rulesStrings.22>
+  <!-- EN: threat->organ harvesting -->
+  <ReduceWill.logRulesInitiator.rulesStrings.23>threat->장기를 적출해 버리겠다고</ReduceWill.logRulesInitiator.rulesStrings.23>
+  <!-- EN: threat->long confinement -->
+  <ReduceWill.logRulesInitiator.rulesStrings.24>threat->오랫동안 감금하겠다고</ReduceWill.logRulesInitiator.rulesStrings.24>
+  <!-- EN: refused->tried to escape -->
+  <ReduceWill.logRulesInitiator.rulesStrings.25>refused->탈출을 시도한다면</ReduceWill.logRulesInitiator.rulesStrings.25>
+  <!-- EN: refused->insulted the colony -->
+  <ReduceWill.logRulesInitiator.rulesStrings.26>refused->정착지를 모욕한다면</ReduceWill.logRulesInitiator.rulesStrings.26>
+  <!-- EN: refused->did not work -->
+  <ReduceWill.logRulesInitiator.rulesStrings.27>refused->일하지 않는다면</ReduceWill.logRulesInitiator.rulesStrings.27>
+  <!-- EN: refused->refused a command -->
+  <ReduceWill.logRulesInitiator.rulesStrings.28>refused->명령을 거부한다면</ReduceWill.logRulesInitiator.rulesStrings.28>
+  <!-- EN: refused->resisted submitting -->
+  <ReduceWill.logRulesInitiator.rulesStrings.29>refused->항복을 거부한다면</ReduceWill.logRulesInitiator.rulesStrings.29>
+  <!-- EN: refused->refused to obey -->
+  <ReduceWill.logRulesInitiator.rulesStrings.30>refused->복종하길 거부한다면</ReduceWill.logRulesInitiator.rulesStrings.30>
+  <!-- EN: refused->behaved impertinently -->
+  <ReduceWill.logRulesInitiator.rulesStrings.31>refused->건방지게 행동한다면</ReduceWill.logRulesInitiator.rulesStrings.31>
+  <!-- EN: disillusionment->should accept [RECIPIENT_possessive] situation -->
+  <ReduceWill.logRulesInitiator.rulesStrings.32>disillusionment->(이)가 [RECIPIENT_possessive] 상황에 순응해야 한다고</ReduceWill.logRulesInitiator.rulesStrings.32>
+  <!-- EN: disillusionment->had no hope for another future -->
+  <ReduceWill.logRulesInitiator.rulesStrings.33>disillusionment->(은)는 새로운 미래로의 희망이 없다고</ReduceWill.logRulesInitiator.rulesStrings.33>
+  <!-- EN: disillusionment->would be best off submitting -->
+  <ReduceWill.logRulesInitiator.rulesStrings.34>disillusionment->(이)가 복종하는 것이 좋다고</ReduceWill.logRulesInitiator.rulesStrings.34>
+  <!-- EN: disillusionment->would not survive on [RECIPIENT_possessive] own -->
+  <ReduceWill.logRulesInitiator.rulesStrings.35>disillusionment->(은)는 [RECIPIENT_pronoun] 혼자서는 생존할 수 없다고</ReduceWill.logRulesInitiator.rulesStrings.35>
+  <!-- EN: disillusionment->had no option but to submit -->
+  <ReduceWill.logRulesInitiator.rulesStrings.36>disillusionment->복종하는 방법 밖에 없다고</ReduceWill.logRulesInitiator.rulesStrings.36>
+  <!-- EN: givein->give in -->
+  <ReduceWill.logRulesInitiator.rulesStrings.37>givein->굴복하라고</ReduceWill.logRulesInitiator.rulesStrings.37>
+  <!-- EN: givein->submit [RECIPIENT_objective]self -->
+  <ReduceWill.logRulesInitiator.rulesStrings.38>givein->복종하라고</ReduceWill.logRulesInitiator.rulesStrings.38>
+  <!-- EN: givein->surrender [RECIPIENT_objective]self -->
+  <ReduceWill.logRulesInitiator.rulesStrings.39>givein->항복하라고</ReduceWill.logRulesInitiator.rulesStrings.39>
+  <!-- EN: givein->yield [RECIPIENT_objective]self -->
+  <ReduceWill.logRulesInitiator.rulesStrings.40>givein->굴종하라고</ReduceWill.logRulesInitiator.rulesStrings.40>
   
 </LanguageData>

@@ -1,70 +1,129 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>r_ideoRelicName(p=2)->[first][second]</li>
-    <li>r_ideoRelicName->[thingLabel] of [memeConcept]</li>
-    <li>r_ideoRelicName->[memeAdjective] [thingLabel]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
-    <li>r_ideoRelicName->[memeAdjective] [relic]</li>
-    <li>r_ideoRelicName->[relic] of [memeConcept]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[relic]</li>
-    <li>relic->relic</li>
-    <li>relic->artifact</li>
-    <li>relic->keepsake</li>
-    <li>relic->memento</li>
-    <li>relic->remnant</li>
-    <li>relic->heirloom</li>
-    <li>relic->remembrance</li>
-    <li>first(p=5)->[memeHyphenPrefix]</li>
-    <li>first->long</li>
-    <li>first->sky</li>
-    <li>first->star</li>
-    <li>first->deep</li>
-    <li>first->far</li>
-    <li>first->dead</li>
-    <li>first->life</li>
-    <li>first->light</li>
-    <li>first->dark</li>
-    <li>first->end</li>
-    <li>first->hor</li>
-    <li>first->an</li>
-    <li>first->ex</li>
-    <li>first->ton</li>
-    <li>first->dow</li>
-    <li>first->bor</li>
-    <li>first->ven</li>
-    <li>first->xan</li>
-    <li>first->arl</li>
-    <li>first->hex</li>
-    <li>first->bax</li>
-    <li>first->cel</li>
-    <li>first->loc</li>
-    <li>first->pole</li>
-    <li>first->lode</li>
-    <li>second->caller</li>
-    <li>second->bringer</li>
-    <li>second->speaker</li>
-    <li>second->lier</li>
-    <li>second->link</li>
-    <li>second->bond</li>
-    <li>second->loop</li>
-    <li>second->nexus</li>
-    <li>second->core</li>
-    <li>second->crux</li>
-    <li>second->mass</li>
-    <li>second->corpus</li>
-    <li>second->focus</li>
-    <li>second->lens</li>
-    <li>second->light</li>
-    <li>second->shadow</li>
-    <li>second->sure</li>
-    <li>second->locus</li>
-    <li>second->form</li>
-    <li>second->finger</li>
-    <li>second->lash</li>
-    <li>second->krome</li>
-  -->
-  <NamerIdeoRelic.rulePack.rulesStrings>TODO</NamerIdeoRelic.rulePack.rulesStrings>
+  <!-- EN: r_ideoRelicName(p=2)->[first][second] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.0>r_ideoRelicName(p=2)->[first][second]</NamerIdeoRelic.rulePack.rulesStrings.0>
+  <!-- EN: r_ideoRelicName->[thingLabel] of [memeConcept] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.1>r_ideoRelicName->[memeConcept]의 [thingLabel]</NamerIdeoRelic.rulePack.rulesStrings.1>
+  <!-- EN: r_ideoRelicName->[memeAdjective] [thingLabel] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.2>r_ideoRelicName->[memeAdjective] [thingLabel]</NamerIdeoRelic.rulePack.rulesStrings.2>
+  <!-- EN: r_ideoRelicName->[memeHyphenPrefix]-[thingLabel] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.3>r_ideoRelicName->[memeHyphenPrefix] [thingLabel]</NamerIdeoRelic.rulePack.rulesStrings.3>
+  <!-- EN: r_ideoRelicName->[memeAdjective] [relic] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.4>r_ideoRelicName->[memeAdjective] [relic]</NamerIdeoRelic.rulePack.rulesStrings.4>
+  <!-- EN: r_ideoRelicName->[relic] of [memeConcept] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.5>r_ideoRelicName->[memeConcept]의 [relic]</NamerIdeoRelic.rulePack.rulesStrings.5>
+  <!-- EN: r_ideoRelicName->[memeHyphenPrefix]-[relic] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.6>r_ideoRelicName->[memeHyphenPrefix] [relic]</NamerIdeoRelic.rulePack.rulesStrings.6>
+  <!-- EN: relic->relic -->
+  <NamerIdeoRelic.rulePack.rulesStrings.7>relic->유물</NamerIdeoRelic.rulePack.rulesStrings.7>
+  <!-- EN: relic->artifact -->
+  <NamerIdeoRelic.rulePack.rulesStrings.8>relic->성물</NamerIdeoRelic.rulePack.rulesStrings.8>
+  <!-- EN: relic->keepsake -->
+  <NamerIdeoRelic.rulePack.rulesStrings.9>relic->보물</NamerIdeoRelic.rulePack.rulesStrings.9>
+  <!-- EN: relic->memento -->
+  <NamerIdeoRelic.rulePack.rulesStrings.10>relic->기념물</NamerIdeoRelic.rulePack.rulesStrings.10>
+  <!-- EN: relic->remnant -->
+  <NamerIdeoRelic.rulePack.rulesStrings.11>relic->흔적</NamerIdeoRelic.rulePack.rulesStrings.11>
+  <!-- EN: relic->heirloom -->
+  <NamerIdeoRelic.rulePack.rulesStrings.12>relic->유산</NamerIdeoRelic.rulePack.rulesStrings.12>
+  <!-- EN: relic->remembrance -->
+  <NamerIdeoRelic.rulePack.rulesStrings.13>relic->추억</NamerIdeoRelic.rulePack.rulesStrings.13>
+  <!-- EN: first(p=5)->[memeHyphenPrefix] -->
+  <NamerIdeoRelic.rulePack.rulesStrings.14>first(p=5)->[memeHyphenPrefix]</NamerIdeoRelic.rulePack.rulesStrings.14>
+  <!-- EN: first->long -->
+  <NamerIdeoRelic.rulePack.rulesStrings.15>first->장엄</NamerIdeoRelic.rulePack.rulesStrings.15>
+  <!-- EN: first->sky -->
+  <NamerIdeoRelic.rulePack.rulesStrings.16>first->하늘</NamerIdeoRelic.rulePack.rulesStrings.16>
+  <!-- EN: first->star -->
+  <NamerIdeoRelic.rulePack.rulesStrings.17>first->별</NamerIdeoRelic.rulePack.rulesStrings.17>
+  <!-- EN: first->deep -->
+  <NamerIdeoRelic.rulePack.rulesStrings.18>first->심연</NamerIdeoRelic.rulePack.rulesStrings.18>
+  <!-- EN: first->far -->
+  <NamerIdeoRelic.rulePack.rulesStrings.19>first->미래</NamerIdeoRelic.rulePack.rulesStrings.19>
+  <!-- EN: first->dead -->
+  <NamerIdeoRelic.rulePack.rulesStrings.20>first->죽음</NamerIdeoRelic.rulePack.rulesStrings.20>
+  <!-- EN: first->life -->
+  <NamerIdeoRelic.rulePack.rulesStrings.21>first->생명</NamerIdeoRelic.rulePack.rulesStrings.21>
+  <!-- EN: first->light -->
+  <NamerIdeoRelic.rulePack.rulesStrings.22>first->빛</NamerIdeoRelic.rulePack.rulesStrings.22>
+  <!-- EN: first->dark -->
+  <NamerIdeoRelic.rulePack.rulesStrings.23>first->어둠</NamerIdeoRelic.rulePack.rulesStrings.23>
+  <!-- EN: first->end -->
+  <NamerIdeoRelic.rulePack.rulesStrings.24>first->종말</NamerIdeoRelic.rulePack.rulesStrings.24>
+  <!-- EN: first->hor -->
+  <NamerIdeoRelic.rulePack.rulesStrings.25>first->공포</NamerIdeoRelic.rulePack.rulesStrings.25>
+  <!-- EN: first->an -->
+  <NamerIdeoRelic.rulePack.rulesStrings.26>first->부정</NamerIdeoRelic.rulePack.rulesStrings.26>
+  <!-- EN: first->ex -->
+  <NamerIdeoRelic.rulePack.rulesStrings.27>first->시간</NamerIdeoRelic.rulePack.rulesStrings.27>
+  <!-- EN: first->ton -->
+  <NamerIdeoRelic.rulePack.rulesStrings.28>first->혼령</NamerIdeoRelic.rulePack.rulesStrings.28>
+  <!-- EN: first->dow -->
+  <NamerIdeoRelic.rulePack.rulesStrings.29>first->영혼</NamerIdeoRelic.rulePack.rulesStrings.29>
+  <!-- EN: first->bor -->
+  <NamerIdeoRelic.rulePack.rulesStrings.30>first->불</NamerIdeoRelic.rulePack.rulesStrings.30>
+  <!-- EN: first->ven -->
+  <NamerIdeoRelic.rulePack.rulesStrings.31>first->흐름</NamerIdeoRelic.rulePack.rulesStrings.31>
+  <!-- EN: first->xan -->
+  <NamerIdeoRelic.rulePack.rulesStrings.32>first->물</NamerIdeoRelic.rulePack.rulesStrings.32>
+  <!-- EN: first->arl -->
+  <NamerIdeoRelic.rulePack.rulesStrings.33>first->폭풍</NamerIdeoRelic.rulePack.rulesStrings.33>
+  <!-- EN: first->hex -->
+  <NamerIdeoRelic.rulePack.rulesStrings.34>first->꿈</NamerIdeoRelic.rulePack.rulesStrings.34>
+  <!-- EN: first->bax -->
+  <NamerIdeoRelic.rulePack.rulesStrings.35>first->세월</NamerIdeoRelic.rulePack.rulesStrings.35>
+  <!-- EN: first->cel -->
+  <NamerIdeoRelic.rulePack.rulesStrings.36>first->천상</NamerIdeoRelic.rulePack.rulesStrings.36>
+  <!-- EN: first->loc -->
+  <NamerIdeoRelic.rulePack.rulesStrings.37>first->위치</NamerIdeoRelic.rulePack.rulesStrings.37>
+  <!-- EN: first->pole -->
+  <NamerIdeoRelic.rulePack.rulesStrings.38>first->극성</NamerIdeoRelic.rulePack.rulesStrings.38>
+  <!-- EN: first->lode -->
+  <NamerIdeoRelic.rulePack.rulesStrings.39>first->과업</NamerIdeoRelic.rulePack.rulesStrings.39>
+  <!-- EN: second->caller -->
+  <NamerIdeoRelic.rulePack.rulesStrings.40>second->지휘자</NamerIdeoRelic.rulePack.rulesStrings.40>
+  <!-- EN: second->bringer -->
+  <NamerIdeoRelic.rulePack.rulesStrings.41>second->인도자</NamerIdeoRelic.rulePack.rulesStrings.41>
+  <!-- EN: second->speaker -->
+  <NamerIdeoRelic.rulePack.rulesStrings.42>second->대변자</NamerIdeoRelic.rulePack.rulesStrings.42>
+  <!-- EN: second->lier -->
+  <NamerIdeoRelic.rulePack.rulesStrings.43>second->실현자</NamerIdeoRelic.rulePack.rulesStrings.43>
+  <!-- EN: second->link -->
+  <NamerIdeoRelic.rulePack.rulesStrings.44>second->연결</NamerIdeoRelic.rulePack.rulesStrings.44>
+  <!-- EN: second->bond -->
+  <NamerIdeoRelic.rulePack.rulesStrings.45>second->결합체</NamerIdeoRelic.rulePack.rulesStrings.45>
+  <!-- EN: second->loop -->
+  <NamerIdeoRelic.rulePack.rulesStrings.46>second->고리</NamerIdeoRelic.rulePack.rulesStrings.46>
+  <!-- EN: second->nexus -->
+  <NamerIdeoRelic.rulePack.rulesStrings.47>second->연결체</NamerIdeoRelic.rulePack.rulesStrings.47>
+  <!-- EN: second->core -->
+  <NamerIdeoRelic.rulePack.rulesStrings.48>second->핵</NamerIdeoRelic.rulePack.rulesStrings.48>
+  <!-- EN: second->crux -->
+  <NamerIdeoRelic.rulePack.rulesStrings.49>second->십자가</NamerIdeoRelic.rulePack.rulesStrings.49>
+  <!-- EN: second->mass -->
+  <NamerIdeoRelic.rulePack.rulesStrings.50>second->집합체</NamerIdeoRelic.rulePack.rulesStrings.50>
+  <!-- EN: second->corpus -->
+  <NamerIdeoRelic.rulePack.rulesStrings.51>second->신체</NamerIdeoRelic.rulePack.rulesStrings.51>
+  <!-- EN: second->focus -->
+  <NamerIdeoRelic.rulePack.rulesStrings.52>second->초점</NamerIdeoRelic.rulePack.rulesStrings.52>
+  <!-- EN: second->lens -->
+  <NamerIdeoRelic.rulePack.rulesStrings.53>second->렌즈</NamerIdeoRelic.rulePack.rulesStrings.53>
+  <!-- EN: second->light -->
+  <NamerIdeoRelic.rulePack.rulesStrings.54>second->빛</NamerIdeoRelic.rulePack.rulesStrings.54>
+  <!-- EN: second->shadow -->
+  <NamerIdeoRelic.rulePack.rulesStrings.55>second->그림자</NamerIdeoRelic.rulePack.rulesStrings.55>
+  <!-- EN: second->sure -->
+  <NamerIdeoRelic.rulePack.rulesStrings.56>second->체</NamerIdeoRelic.rulePack.rulesStrings.56>
+  <!-- EN: second->locus -->
+  <NamerIdeoRelic.rulePack.rulesStrings.57>second->결정체</NamerIdeoRelic.rulePack.rulesStrings.57>
+  <!-- EN: second->form -->
+  <NamerIdeoRelic.rulePack.rulesStrings.58>second->형체</NamerIdeoRelic.rulePack.rulesStrings.58>
+  <!-- EN: second->finger -->
+  <NamerIdeoRelic.rulePack.rulesStrings.59>second->손가락</NamerIdeoRelic.rulePack.rulesStrings.59>
+  <!-- EN: second->lash -->
+  <NamerIdeoRelic.rulePack.rulesStrings.60>second->채찍</NamerIdeoRelic.rulePack.rulesStrings.60>
+  <!-- EN: second->krome -->
+  <NamerIdeoRelic.rulePack.rulesStrings.61>second->한</NamerIdeoRelic.rulePack.rulesStrings.61>
   
 </LanguageData>

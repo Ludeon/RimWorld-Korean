@@ -1,27 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>festivalName(p=2)->[memeAdjective] [festival]</li>
-    <li>festivalName->[festival] of [chosenTheme]</li>
-    <li>festivalName->[chosenAdjective] [festival]</li>
-    <li>festivalName->[keyDeity]'s [festival]</li>
-    <li>festivalName->[festival] of [keyDeity]</li>
-    <li>festivalName->[festival] of [memeConcept]</li>
-    <li>festivalName->[festival] of [chosenIdeoName]</li>
-    <li>festival->festival</li>
-    <li>festival->celebration</li>
-    <li>festival->party</li>
-    <li>festival->advent</li>
-    <li>festival->fair</li>
-    <li>festival->jubilee</li>
-    <li>festival->fiesta</li>
-  -->
-  <NamerFestivalGlobal.rulePack.rulesStrings>TODO</NamerFestivalGlobal.rulePack.rulesStrings>
+  <!-- EN: festivalName(p=2)->[memeAdjective] [festival] -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.0>festivalName(p=2)->[memeAdjective] [festival]</NamerFestivalGlobal.rulePack.rulesStrings.0>
+  <!-- EN: festivalName->[festival] of [chosenTheme] -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.1>festivalName->[chosenTheme]의 [festival]</NamerFestivalGlobal.rulePack.rulesStrings.1>
+  <!-- EN: festivalName->[chosenAdjective] [festival] -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.2>festivalName->[chosenAdjective] [festival]</NamerFestivalGlobal.rulePack.rulesStrings.2>
+  <!-- EN: festivalName->[keyDeity]'s [festival] -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.3>festivalName->[keyDeity]의 [festival]</NamerFestivalGlobal.rulePack.rulesStrings.3>
+  <!-- EN: festivalName->[festival] of [keyDeity] -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.4>festivalName->[keyDeity]의 [festival]</NamerFestivalGlobal.rulePack.rulesStrings.4>
+  <!-- EN: festivalName->[festival] of [memeConcept] -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.5>festivalName->[memeConcept]의 [festival]</NamerFestivalGlobal.rulePack.rulesStrings.5>
+  <!-- EN: festivalName->[festival] of [chosenIdeoName] -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.6>festivalName->[chosenIdeoName]의 [festival]</NamerFestivalGlobal.rulePack.rulesStrings.6>
+  <!-- EN: festival->festival -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.7>festival->축전</NamerFestivalGlobal.rulePack.rulesStrings.7>
+  <!-- EN: festival->celebration -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.8>festival->기념일</NamerFestivalGlobal.rulePack.rulesStrings.8>
+  <!-- EN: festival->party -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.9>festival->파티</NamerFestivalGlobal.rulePack.rulesStrings.9>
+  <!-- EN: festival->advent -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.10>festival->강림절</NamerFestivalGlobal.rulePack.rulesStrings.10>
+  <!-- EN: festival->fair -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.11>festival->축제</NamerFestivalGlobal.rulePack.rulesStrings.11>
+  <!-- EN: festival->jubilee -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.12>festival->환회</NamerFestivalGlobal.rulePack.rulesStrings.12>
+  <!-- EN: festival->fiesta -->
+  <NamerFestivalGlobal.rulePack.rulesStrings.13>festival->피에스타</NamerFestivalGlobal.rulePack.rulesStrings.13>
   
-  <!-- EN:
-    <li>r_ritualName->[festivalName]</li>
-  -->
-  <NamerRitualFestival.rulePack.rulesStrings>TODO</NamerRitualFestival.rulePack.rulesStrings>
+  <!-- EN: r_ritualName->[festivalName] -->
+  <NamerRitualFestival.rulePack.rulesStrings.0>r_ritualName->[festivalName]</NamerRitualFestival.rulePack.rulesStrings.0>
   
 </LanguageData>

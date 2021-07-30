@@ -1,45 +1,65 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>r_deityType->Creator of [all]</li>
-    <li>r_deityType->[adj] god</li>
-    <li>all->everything</li>
-    <li>all->all</li>
-    <li>all->the universe</li>
-    <li>adj->all-powerful</li>
-    <li>adj->omnipotent</li>
-    <li>adj->universal</li>
-  -->
-  <DietyTypeMakerAbrahamic.rulePack.rulesStrings>TODO</DietyTypeMakerAbrahamic.rulePack.rulesStrings>
+  <!-- EN: r_deityType->Creator of [all] -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.0>r_deityType->[all]의 창조주</DietyTypeMakerAbrahamic.rulePack.rulesStrings.0>
+  <!-- EN: r_deityType->[adj] god -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.1>r_deityType->[adj] 신</DietyTypeMakerAbrahamic.rulePack.rulesStrings.1>
+  <!-- EN: all->everything -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.2>all->만물</DietyTypeMakerAbrahamic.rulePack.rulesStrings.2>
+  <!-- EN: all->all -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.3>all->모든 것</DietyTypeMakerAbrahamic.rulePack.rulesStrings.3>
+  <!-- EN: all->the universe -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.4>all->우주</DietyTypeMakerAbrahamic.rulePack.rulesStrings.4>
+  <!-- EN: adj->all-powerful -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.5>adj->전능한</DietyTypeMakerAbrahamic.rulePack.rulesStrings.5>
+  <!-- EN: adj->omnipotent -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.6>adj->전능의</DietyTypeMakerAbrahamic.rulePack.rulesStrings.6>
+  <!-- EN: adj->universal -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings.7>adj->만능의</DietyTypeMakerAbrahamic.rulePack.rulesStrings.7>
   
-  <!-- EN:
-    <li>r_deityName(p=3)->God</li>
-    <li>r_deityName->Christ-Lord</li>
-    <li>r_deityName->Christ</li>
-    <li>r_deityName->[color] Jesus</li>
-    <li>r_deityName->[color] Christ</li>
-  -->
-  <NamerDeityChristian.rulePack.rulesStrings>TODO</NamerDeityChristian.rulePack.rulesStrings>
+  <!-- EN: r_deityName(p=3)->God -->
+  <NamerDeityChristian.rulePack.rulesStrings.0>r_deityName(p=3)->하느님</NamerDeityChristian.rulePack.rulesStrings.0>
+  <!-- EN: r_deityName->Christ-Lord -->
+  <NamerDeityChristian.rulePack.rulesStrings.1>r_deityName->주 그리스도</NamerDeityChristian.rulePack.rulesStrings.1>
+  <!-- EN: r_deityName->Christ -->
+  <NamerDeityChristian.rulePack.rulesStrings.2>r_deityName->그리스도</NamerDeityChristian.rulePack.rulesStrings.2>
+  <!-- EN: r_deityName->[color] Jesus -->
+  <NamerDeityChristian.rulePack.rulesStrings.3>r_deityName->[color] 예수</NamerDeityChristian.rulePack.rulesStrings.3>
+  <!-- EN: r_deityName->[color] Christ -->
+  <NamerDeityChristian.rulePack.rulesStrings.4>r_deityName->[color] 그리스도</NamerDeityChristian.rulePack.rulesStrings.4>
   
-  <!-- EN:
-    <li>r_deityName(p=8)->Allah</li>
-    <li>r_deityName->Al-Ilah</li>
-    <li>r_deityName->Ar-Rahman</li>
-    <li>r_deityName->Al-Malik</li>
-    <li>r_deityName->Al-Qudus</li>
-    <li>r_deityName->As-Salam</li>
-    <li>r_deityName->Al-Mumin</li>
-    <li>r_deityName->Al-Aziz</li>
-    <li>r_deityName->Al-Jabbar</li>
-    <li>r_deityName->Al-Khaliq</li>
-    <li>r_deityName->Al-Ghaffar</li>
-    <li>r_deityName->Al-Qahar</li>
-    <li>r_deityName->Al-Wahhab</li>
-    <li>r_deityName->Al-Fattah</li>
-    <li>r_deityName->Al-Alim</li>
-    <li>r_deityName->Al-Hakam</li>
-  -->
-  <NamerDeityIslamic.rulePack.rulesStrings>TODO</NamerDeityIslamic.rulePack.rulesStrings>
+  <!-- EN: r_deityName(p=8)->Allah -->
+  <NamerDeityIslamic.rulePack.rulesStrings.0>r_deityName(p=8)->알라</NamerDeityIslamic.rulePack.rulesStrings.0>
+  <!-- EN: r_deityName->Al-Ilah -->
+  <NamerDeityIslamic.rulePack.rulesStrings.1>r_deityName->알라</NamerDeityIslamic.rulePack.rulesStrings.1>
+  <!-- EN: r_deityName->Ar-Rahman -->
+  <NamerDeityIslamic.rulePack.rulesStrings.2>r_deityName->아르라만</NamerDeityIslamic.rulePack.rulesStrings.2>
+  <!-- EN: r_deityName->Al-Malik -->
+  <NamerDeityIslamic.rulePack.rulesStrings.3>r_deityName->알말릭</NamerDeityIslamic.rulePack.rulesStrings.3>
+  <!-- EN: r_deityName->Al-Qudus -->
+  <NamerDeityIslamic.rulePack.rulesStrings.4>r_deityName->알쿠도스</NamerDeityIslamic.rulePack.rulesStrings.4>
+  <!-- EN: r_deityName->As-Salam -->
+  <NamerDeityIslamic.rulePack.rulesStrings.5>r_deityName->아즈살람</NamerDeityIslamic.rulePack.rulesStrings.5>
+  <!-- EN: r_deityName->Al-Mumin -->
+  <NamerDeityIslamic.rulePack.rulesStrings.6>r_deityName->알무민</NamerDeityIslamic.rulePack.rulesStrings.6>
+  <!-- EN: r_deityName->Al-Aziz -->
+  <NamerDeityIslamic.rulePack.rulesStrings.7>r_deityName->알아지즈</NamerDeityIslamic.rulePack.rulesStrings.7>
+  <!-- EN: r_deityName->Al-Jabbar -->
+  <NamerDeityIslamic.rulePack.rulesStrings.8>r_deityName->알자바르</NamerDeityIslamic.rulePack.rulesStrings.8>
+  <!-- EN: r_deityName->Al-Khaliq -->
+  <NamerDeityIslamic.rulePack.rulesStrings.9>r_deityName->알칼리크</NamerDeityIslamic.rulePack.rulesStrings.9>
+  <!-- EN: r_deityName->Al-Ghaffar -->
+  <NamerDeityIslamic.rulePack.rulesStrings.10>r_deityName->알가파르</NamerDeityIslamic.rulePack.rulesStrings.10>
+  <!-- EN: r_deityName->Al-Qahar -->
+  <NamerDeityIslamic.rulePack.rulesStrings.11>r_deityName->알카하르</NamerDeityIslamic.rulePack.rulesStrings.11>
+  <!-- EN: r_deityName->Al-Wahhab -->
+  <NamerDeityIslamic.rulePack.rulesStrings.12>r_deityName->알와하브</NamerDeityIslamic.rulePack.rulesStrings.12>
+  <!-- EN: r_deityName->Al-Fattah -->
+  <NamerDeityIslamic.rulePack.rulesStrings.13>r_deityName->알파타</NamerDeityIslamic.rulePack.rulesStrings.13>
+  <!-- EN: r_deityName->Al-Alim -->
+  <NamerDeityIslamic.rulePack.rulesStrings.14>r_deityName->알알림</NamerDeityIslamic.rulePack.rulesStrings.14>
+  <!-- EN: r_deityName->Al-Hakam -->
+  <NamerDeityIslamic.rulePack.rulesStrings.15>r_deityName->알하캄</NamerDeityIslamic.rulePack.rulesStrings.15>
   
 </LanguageData>

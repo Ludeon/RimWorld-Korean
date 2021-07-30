@@ -1,71 +1,119 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] betrayed</li>
-    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy.</li>
-    <li>hasHave(beggarCount==1)->has</li>
-    <li>hasHave(beggarCount>=2)->have</li>
-    <li>wasWere(beggarCount==1)->was</li>
-    <li>wasWere(beggarCount>=2)->were</li>
-    <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
-    <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
-  -->
-  <Beggars.questContentRules.rulesStrings>TODO</Beggars.questContentRules.rulesStrings>
-  <!-- EN:
-    <li>groupLabelPlural->travelers</li>
-    <li>groupLabelSingle->traveler</li>
-    <li>travelerInfo(beggarCount==1)->This [groupLabelSingle] is</li>
-    <li>travelerInfo(beggarCount>=2)->These [groupLabelPlural] are</li>
-    <li>beggingForInfo->for x[requestedThingCount] [requestedThing_label]</li>
-    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
-    <li>traverObjective(beggarCount>=2)->them</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [traverObjective], without diplomatic consequences.</li>
-    <li>approachInfo(beggarCount==1)->A poor [groupLabelSingle] named [beggars0_nameDef] is approaching looking for help</li>
-    <li>approachInfo(beggarCount>=2)->A group of poor [groupLabelPlural] are approaching looking for help</li>
-    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] is begging [beggingForInfo]</li>
-    <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] are begging [beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] wants the silver to pay off a debt to a gang of pirates who are hunting [beggars0_objective]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] needs the medicine to help a traveler who is injured nearby</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] wants the medicine to save [beggars0_possessive] loyal pet who was injured on the road</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] needs [requestedThing_label] to inoculate a sickly friend against deadly diseases</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] wants it to drown [beggars0_possessive] sorrows after losing a fellow traveler in a terrible accident</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->They want the silver so they can buy back a friend who was recently kidnapped</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->They need the medicine to attempt a life-saving operation on a fellow traveler who was attacked by mechanoids</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devasted by raiders</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->They want [requestedThing_label] so they can travel safely while looking for a new place to call home</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->They want [requestedThing_label] to help them drown their sorrows after losing their home in a terrible attack</li>
-    <li>interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective]</li>
-    <li>interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef]</li>
-    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
-    <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
-  -->
-  <Beggars.questDescriptionRules.rulesStrings>TODO</Beggars.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
-    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
-    <li>beggarSingle->beggar</li>
-    <li>beggarSingle->vagabond</li>
-    <li>beggarSingle->drifter</li>
-    <li>beggarSingle->traveler</li>
-    <li>beggarPlural->[beggarSingle]s</li>
-    <li>seekingSingle->seeks</li>
-    <li>seekingSingle->requests</li>
-    <li>seekingSingle->wishes for</li>
-    <li>seekingSingle->desires</li>
-    <li>seekingSingle->needs</li>
-    <li>seekingSingle->hopes for</li>
-    <li>seekingPlural->seek</li>
-    <li>seekingPlural->request</li>
-    <li>seekingPlural->wish for</li>
-    <li>seekingPlural->hope for</li>
-    <li>seekingPlural->desire</li>
-    <li>seekingPlural->need</li>
-    <li>alms->alms</li>
-    <li>alms->aid</li>
-    <li>alms->charity</li>
-    <li>alms->resources</li>
-  -->
-  <Beggars.questNameRules.rulesStrings>TODO</Beggars.questNameRules.rulesStrings>
+  <!-- EN: letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] betrayed -->
+  <Beggars.questContentRules.rulesStrings.0>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] 배신함</Beggars.questContentRules.rulesStrings.0>
+  <!-- EN: letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy. -->
+  <Beggars.questContentRules.rulesStrings.1>letterTextBeggarsBetrayed->당신의 자비를 구걸하던 [groupLabelSingleOrPlural](이)가 배신당했습니다. 이타적 사상을 가진 정착민들이 실망합니다.</Beggars.questContentRules.rulesStrings.1>
+  <!-- EN: hasHave(beggarCount==1)->has -->
+  <Beggars.questContentRules.rulesStrings.2>hasHave(beggarCount==1)-></Beggars.questContentRules.rulesStrings.2>
+  <!-- EN: hasHave(beggarCount>=2)->have -->
+  <Beggars.questContentRules.rulesStrings.3>hasHave(beggarCount>=2)-></Beggars.questContentRules.rulesStrings.3>
+  <!-- EN: wasWere(beggarCount==1)->was -->
+  <Beggars.questContentRules.rulesStrings.4>wasWere(beggarCount==1)-></Beggars.questContentRules.rulesStrings.4>
+  <!-- EN: wasWere(beggarCount>=2)->were -->
+  <Beggars.questContentRules.rulesStrings.5>wasWere(beggarCount>=2)-></Beggars.questContentRules.rulesStrings.5>
+  <!-- EN: groupLabelSingleOrPlural(beggarCount==1)->traveler -->
+  <Beggars.questContentRules.rulesStrings.6>groupLabelSingleOrPlural(beggarCount==1)->여행자</Beggars.questContentRules.rulesStrings.6>
+  <!-- EN: groupLabelSingleOrPlural(beggarCount>=2)->travelers -->
+  <Beggars.questContentRules.rulesStrings.7>groupLabelSingleOrPlural(beggarCount>=2)->여행자들</Beggars.questContentRules.rulesStrings.7>
+  <!-- EN: groupLabelPlural->travelers -->
+  <Beggars.questDescriptionRules.rulesStrings.0>groupLabelPlural->여행자들</Beggars.questDescriptionRules.rulesStrings.0>
+  <!-- EN: groupLabelSingle->traveler -->
+  <Beggars.questDescriptionRules.rulesStrings.1>groupLabelSingle->여행자</Beggars.questDescriptionRules.rulesStrings.1>
+  <!-- EN: travelerInfo(beggarCount==1)->This [groupLabelSingle] is -->
+  <Beggars.questDescriptionRules.rulesStrings.2>travelerInfo(beggarCount==1)->이 [groupLabelSingle]</Beggars.questDescriptionRules.rulesStrings.2>
+  <!-- EN: travelerInfo(beggarCount>=2)->These [groupLabelPlural] are -->
+  <Beggars.questDescriptionRules.rulesStrings.3>travelerInfo(beggarCount>=2)->이 [groupLabelPlural]</Beggars.questDescriptionRules.rulesStrings.3>
+  <!-- EN: beggingForInfo->for x[requestedThingCount] [requestedThing_label] -->
+  <Beggars.questDescriptionRules.rulesStrings.4>beggingForInfo->[requestedThing_label] [requestedThingCount]개</Beggars.questDescriptionRules.rulesStrings.4>
+  <!-- EN: traverObjective(beggarCount==1)->[beggars0_objective] -->
+  <Beggars.questDescriptionRules.rulesStrings.5>traverObjective(beggarCount==1)->[beggars0_objective]</Beggars.questDescriptionRules.rulesStrings.5>
+  <!-- EN: traverObjective(beggarCount>=2)->them -->
+  <Beggars.questDescriptionRules.rulesStrings.6>traverObjective(beggarCount>=2)->그들</Beggars.questDescriptionRules.rulesStrings.6>
+  <!-- EN: questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [traverObjective], without diplomatic consequences. -->
+  <Beggars.questDescriptionRules.rulesStrings.7>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo](은)는 다른 세력의 일부가 아닙니다. 아무런 외교적 문제 없이 [traverObjective](을)를 죽이거나, 수감하거나, 노예로 팔거나, 장기를 수확 할 수 있습니다</Beggars.questDescriptionRules.rulesStrings.7>
+  <!-- EN: approachInfo(beggarCount==1)->A poor [groupLabelSingle] named [beggars0_nameDef] is approaching looking for help -->
+  <Beggars.questDescriptionRules.rulesStrings.8>approachInfo(beggarCount==1)->[beggars0_nameDef](이)라는 이름을 가진 초라한 행색의 [groupLabelSingle]가 도움을 바라며 찾아왔습니다</Beggars.questDescriptionRules.rulesStrings.8>
+  <!-- EN: approachInfo(beggarCount>=2)->A group of poor [groupLabelPlural] are approaching looking for help -->
+  <Beggars.questDescriptionRules.rulesStrings.9>approachInfo(beggarCount>=2)->초라한 행색의 [groupLabelPlural](이)가 도움을 요청하며 찾아왔습니다</Beggars.questDescriptionRules.rulesStrings.9>
+  <!-- EN: requestInfo(beggarCount==1)->[beggars0_nameDef] is begging [beggingForInfo] -->
+  <Beggars.questDescriptionRules.rulesStrings.10>requestInfo(beggarCount==1)->[beggars0_nameDef](은)는 [beggingForInfo]를 나눠달라고 부탁하고 있습니다</Beggars.questDescriptionRules.rulesStrings.10>
+  <!-- EN: requestInfo(beggarCount>=2)->The [groupLabelPlural] are begging [beggingForInfo] -->
+  <Beggars.questDescriptionRules.rulesStrings.11>requestInfo(beggarCount>=2)->[groupLabelPlural](은)는 [beggingForInfo]를 나눠 달라 부탁하고 있습니다</Beggars.questDescriptionRules.rulesStrings.11>
+  <!-- EN: claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] wants the silver to pay off a debt to a gang of pirates who are hunting [beggars0_objective] -->
+  <Beggars.questDescriptionRules.rulesStrings.12>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef](은)는 [beggars0_objective] 쫓는 해적들에게 진 빚을 갚고자 합니다</Beggars.questDescriptionRules.rulesStrings.12>
+  <!-- EN: claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] needs the medicine to help a traveler who is injured nearby -->
+  <Beggars.questDescriptionRules.rulesStrings.13>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef](은)는 근처에서 부상을 입은 여행자를 돕기위한 약이 필요하다고 합니다</Beggars.questDescriptionRules.rulesStrings.13>
+  <!-- EN: claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] wants the medicine to save [beggars0_possessive] loyal pet who was injured on the road -->
+  <Beggars.questDescriptionRules.rulesStrings.14>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef](은)는 여행 중 부상을 입은 [beggars0_possessive] 충직한 애완동물을 위해 약이 필요하다고 합니다</Beggars.questDescriptionRules.rulesStrings.14>
+  <!-- EN: claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] needs [requestedThing_label] to inoculate a sickly friend against deadly diseases -->
+  <Beggars.questDescriptionRules.rulesStrings.15>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef](이)가 치명적인 질병으로부터 병약한 친구를 지키기 위해 [requestedThing_label](이)가 필요하다고 합니다</Beggars.questDescriptionRules.rulesStrings.15>
+  <!-- EN: claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] wants it to drown [beggars0_possessive] sorrows after losing a fellow traveler in a terrible accident -->
+  <Beggars.questDescriptionRules.rulesStrings.16>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef](은)는 여행길에 끔찍한 사고로 [beggars0_possessive] 동료를 잃은 상실감을 잠시나마 잊고싶다고 합니다</Beggars.questDescriptionRules.rulesStrings.16>
+  <!-- EN: claimInfo(beggarCount>=2,requestedThingDefName==Silver)->They want the silver so they can buy back a friend who was recently kidnapped -->
+  <Beggars.questDescriptionRules.rulesStrings.17>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->납치된 친구의 몸값을 내기 위해 은이 급하게 필요하다고 합니다</Beggars.questDescriptionRules.rulesStrings.17>
+  <!-- EN: claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->They need the medicine to attempt a life-saving operation on a fellow traveler who was attacked by mechanoids -->
+  <Beggars.questDescriptionRules.rulesStrings.18>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->메카노이드의 습격을 받은 동료의 목숨을 살리기 위해 약이 필요하다고 합니다</Beggars.questDescriptionRules.rulesStrings.18>
+  <!-- EN: claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devasted by raiders -->
+  <Beggars.questDescriptionRules.rulesStrings.19>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->약탈자들에게 습격받은 인근 정착지의 친구를 돕기위해 약이 필요하다고 합니다</Beggars.questDescriptionRules.rulesStrings.19>
+  <!-- EN: claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->They want [requestedThing_label] so they can travel safely while looking for a new place to call home -->
+  <Beggars.questDescriptionRules.rulesStrings.20>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->그들은 [requestedThing_label](이)가 있다면 그들의 새로운 터전으로 가는 여행길이 안전해 질거라고 합니다</Beggars.questDescriptionRules.rulesStrings.20>
+  <!-- EN: claimInfo(beggarCount>=2,requestedThingDefName==Beer)->They want [requestedThing_label] to help them drown their sorrows after losing their home in a terrible attack -->
+  <Beggars.questDescriptionRules.rulesStrings.21>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->여행길에 끔찍한 사고 인해 동료를 잃은 상실감을 [requestedThing_label](으)로 잠시나마 잊고싶다고 합니다</Beggars.questDescriptionRules.rulesStrings.21>
+  <!-- EN: interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective] -->
+  <Beggars.questDescriptionRules.rulesStrings.22>interactionInfo(beggarCount==1)->정착민 하나를 선택한 뒤, [beggars0_nameDef](을)를 우클릭하여 물품을 나눠줄 수 있습니다</Beggars.questDescriptionRules.rulesStrings.22>
+  <!-- EN: interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef] -->
+  <Beggars.questDescriptionRules.rulesStrings.23>interactionInfo(beggarCount>=2)->정착민을 선택한 뒤 [beggars0_nameDef](을)를 우클릭하여 [groupLabelPlural]에게 물품을 나눠줄 수 있습니다</Beggars.questDescriptionRules.rulesStrings.23>
+  <!-- EN: moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration] -->
+  <Beggars.questDescriptionRules.rulesStrings.24>moveOnInfo(beggarCount==1)->[beggars0_nameDef](은)는 [visitDurationTicks_duration] 후 떠날것입니다.</Beggars.questDescriptionRules.rulesStrings.24>
+  <!-- EN: moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration] -->
+  <Beggars.questDescriptionRules.rulesStrings.25>moveOnInfo(beggarCount>=2)->[groupLabelPlural](은)는 [visitDurationTicks_duration] 후 떠나갈 것입니다</Beggars.questDescriptionRules.rulesStrings.25>
+  <!-- EN: questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms] -->
+  <Beggars.questNameRules.rulesStrings.0>questName(beggarCount==1)->[beggarSingle]의 [alms] [seekingSingle]</Beggars.questNameRules.rulesStrings.0>
+  <!-- EN: questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms] -->
+  <Beggars.questNameRules.rulesStrings.1>questName(beggarCount>=2)->[beggarPlural]의 [alms] [seekingPlural]</Beggars.questNameRules.rulesStrings.1>
+  <!-- EN: beggarSingle->beggar -->
+  <Beggars.questNameRules.rulesStrings.2>beggarSingle->거지</Beggars.questNameRules.rulesStrings.2>
+  <!-- EN: beggarSingle->vagabond -->
+  <Beggars.questNameRules.rulesStrings.3>beggarSingle->부랑자</Beggars.questNameRules.rulesStrings.3>
+  <!-- EN: beggarSingle->drifter -->
+  <Beggars.questNameRules.rulesStrings.4>beggarSingle->떠돌이</Beggars.questNameRules.rulesStrings.4>
+  <!-- EN: beggarSingle->traveler -->
+  <Beggars.questNameRules.rulesStrings.5>beggarSingle->여행자</Beggars.questNameRules.rulesStrings.5>
+  <!-- EN: beggarPlural->[beggarSingle]s -->
+  <Beggars.questNameRules.rulesStrings.6>beggarPlural->[beggarSingle] 무리</Beggars.questNameRules.rulesStrings.6>
+  <!-- EN: seekingSingle->seeks -->
+  <Beggars.questNameRules.rulesStrings.7>seekingSingle->동냥</Beggars.questNameRules.rulesStrings.7>
+  <!-- EN: seekingSingle->requests -->
+  <Beggars.questNameRules.rulesStrings.8>seekingSingle->부탁</Beggars.questNameRules.rulesStrings.8>
+  <!-- EN: seekingSingle->wishes for -->
+  <Beggars.questNameRules.rulesStrings.9>seekingSingle->바램</Beggars.questNameRules.rulesStrings.9>
+  <!-- EN: seekingSingle->desires -->
+  <Beggars.questNameRules.rulesStrings.10>seekingSingle->간청</Beggars.questNameRules.rulesStrings.10>
+  <!-- EN: seekingSingle->needs -->
+  <Beggars.questNameRules.rulesStrings.11>seekingSingle->구걸</Beggars.questNameRules.rulesStrings.11>
+  <!-- EN: seekingSingle->hopes for -->
+  <Beggars.questNameRules.rulesStrings.12>seekingSingle->애원</Beggars.questNameRules.rulesStrings.12>
+  <!-- EN: seekingPlural->seek -->
+  <Beggars.questNameRules.rulesStrings.13>seekingPlural->동냥</Beggars.questNameRules.rulesStrings.13>
+  <!-- EN: seekingPlural->request -->
+  <Beggars.questNameRules.rulesStrings.14>seekingPlural->부탁</Beggars.questNameRules.rulesStrings.14>
+  <!-- EN: seekingPlural->wish for -->
+  <Beggars.questNameRules.rulesStrings.15>seekingPlural->바램</Beggars.questNameRules.rulesStrings.15>
+  <!-- EN: seekingPlural->hope for -->
+  <Beggars.questNameRules.rulesStrings.16>seekingPlural->애원</Beggars.questNameRules.rulesStrings.16>
+  <!-- EN: seekingPlural->desire -->
+  <Beggars.questNameRules.rulesStrings.17>seekingPlural->간청</Beggars.questNameRules.rulesStrings.17>
+  <!-- EN: seekingPlural->need -->
+  <Beggars.questNameRules.rulesStrings.18>seekingPlural->구걸</Beggars.questNameRules.rulesStrings.18>
+  <!-- EN: alms->alms -->
+  <Beggars.questNameRules.rulesStrings.19>alms->자비</Beggars.questNameRules.rulesStrings.19>
+  <!-- EN: alms->aid -->
+  <Beggars.questNameRules.rulesStrings.20>alms->도움</Beggars.questNameRules.rulesStrings.20>
+  <!-- EN: alms->charity -->
+  <Beggars.questNameRules.rulesStrings.21>alms->자선</Beggars.questNameRules.rulesStrings.21>
+  <!-- EN: alms->resources -->
+  <Beggars.questNameRules.rulesStrings.22>alms->자원</Beggars.questNameRules.rulesStrings.22>
   
 </LanguageData>

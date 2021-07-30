@@ -3,205 +3,205 @@
 
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
-  <LetterLabelConvertIdeoAttempt_Success>TODO</LetterLabelConvertIdeoAttempt_Success>
+  <LetterLabelConvertIdeoAttempt_Success>교화</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
-  <LetterConvertIdeoAttempt_Success>TODO</LetterConvertIdeoAttempt_Success>
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef}(이)가 성공적으로 {RECIPIENT_nameDef}의 믿음을 {OLDIDEO_name}에서 {IDEO_name}(으)로 돌렸습니다.</LetterConvertIdeoAttempt_Success>
 
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
-  <LetterLabelGrandSlaveRebellion>TODO</LetterLabelGrandSlaveRebellion>
+  <LetterLabelGrandSlaveRebellion>대규모 노예 반란</LetterLabelGrandSlaveRebellion>
   <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveRebellion>TODO</LetterGrandSlaveRebellion>
+  <LetterGrandSlaveRebellion>대규모 노예 반란이 일어났습니다! 모든 노예가 대항을 위해 일어섰습니다. 가담자들은 무기를 찾아 장비한 후 정착민을 모조리 죽이려 할 것입니다.\n\n가담자는 다음과 같습니다.\n\n{0}</LetterGrandSlaveRebellion>
   <!-- EN: Local slave rebellion -->
-  <LetterLabelLocalSlaveRebellion>TODO</LetterLabelLocalSlaveRebellion>
+  <LetterLabelLocalSlaveRebellion>국지적 노예 반란</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>TODO</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>국지적인 노예 반란이 일어났습니다! {0_nameDef}(와)과 근처 몇몇 노예가 대항을 위해 일어섰습니다. 가담자들은 무기를 찾아 장비한 후 정착민을 모조리 죽이려 할 것입니다.\n\n가담자는 다음과 같습니다.\n\n{1}</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
-  <LetterLabelSingleSlaveRebellion>TODO</LetterLabelSingleSlaveRebellion>
+  <LetterLabelSingleSlaveRebellion>노예 반란</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
-  <LetterSingleSlaveRebellion>TODO</LetterSingleSlaveRebellion>
+  <LetterSingleSlaveRebellion>{0_nameDef}(이)가 반란을 일으켰습니다! {0_pronoun}는 무기를 찾아 장비한 후 정착민을 모조리 죽이려 할 것입니다.</LetterSingleSlaveRebellion>
 
   <!-- Slave escape -->
   <!-- EN: Grand slave escape -->
-  <LetterLabelGrandSlaveEscape>TODO</LetterLabelGrandSlaveEscape>
+  <LetterLabelGrandSlaveEscape>노예 대탈주</LetterLabelGrandSlaveEscape>
   <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveEscape>TODO</LetterGrandSlaveEscape>
+  <LetterGrandSlaveEscape>노예들의 대탈주가 시작됐습니다! 모든 노예가 탈주하고 있습니다.\n\n가담자는 다음과 같습니다.\n\n{0}</LetterGrandSlaveEscape>
   <!-- EN: Local slave escape -->
-  <LetterLabelLocalSlaveEscape>TODO</LetterLabelLocalSlaveEscape>
+  <LetterLabelLocalSlaveEscape>국지적 노예 탈주</LetterLabelLocalSlaveEscape>
   <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveEscape>TODO</LetterLocalSlaveEscape>
+  <LetterLocalSlaveEscape>몇몇 노예들이 탈주하기 시작합니다! {0_nameDef}(와)과 근처 노예들이 탈주하고 있습니다.\n\n가담자는 다음과 같습니다.\n\n{1}</LetterLocalSlaveEscape>
   <!-- EN: Slave escape -->
-  <LetterLabelSingleSlaveEscape>TODO</LetterLabelSingleSlaveEscape>
+  <LetterLabelSingleSlaveEscape>노예 탈주</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
-  <LetterSingleSlaveEscape>TODO</LetterSingleSlaveEscape>
+  <LetterSingleSlaveEscape>{0_nameDef}(이)가 탈주를 시도합니다!</LetterSingleSlaveEscape>
 
   <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
-  <SlaveRebellionSuppressionExplanation>TODO</SlaveRebellionSuppressionExplanation>
+  <SlaveRebellionSuppressionExplanation>노예의 억압이 낮으면 반란을 일으킬 확률이 높아집니다.</SlaveRebellionSuppressionExplanation>
   
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
-  <LetterLabelRoleActive>TODO</LetterLabelRoleActive>
+  <LetterLabelRoleActive>{0} 지위 활성화</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, select a colonist, go to their 'Social' tab and press the 'Choose role' button. -->
-  <LetterLabelRoleActiveDesc>TODO</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleActiveDesc>정착지 내의 {0}의 수가 {1}명이 됐습니다. 이제 정착민 중 한 명에게 {ROLE_labelDef} 자리를 맡길 수 있습니다.\n\n지위를 맡기려면 정착민을 선택한 후 '관계' 탭에서 '보직 할당' 버튼을 누르세요.</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
-  <LetterLabelRoleInactive>TODO</LetterLabelRoleInactive>
+  <LetterLabelRoleInactive>{0} 지위 비활성화</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>TODO</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>정착지 내 {0}의 수가 {1}명으로 떨어져서 {ROLE_labelDef} 지위가 비활성화됐습니다. {ROLE_labelDef}(은)는 {0}(이)가 {2}명이 되면 다시 활성화됩니다.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
-  <LetterLabelRoleLost>TODO</LetterLabelRoleLost>
+  <LetterLabelRoleLost>{PAWN_labelShort}, {ROLE_labelIndef} 지위 상실</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
-  <LetterRoleLostDesc>TODO</LetterRoleLostDesc>
+  <LetterRoleLostDesc>{PAWN_labelShort}(은)는 {ROLE_labelIndef} 지위를 잃었습니다. 사유:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
-  <LetterRoleLostReasonUnassignedDesc>TODO</LetterRoleLostReasonUnassignedDesc>
+  <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun}(을)를 해임했습니다.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
-  <LetterRoleLostReasonLowBelieversDesc>TODO</LetterRoleLostReasonLowBelieversDesc>
+  <LetterRoleLostReasonLowBelieversDesc>{0}의 수가 부족하기 때문에 지위가 비활성화됐습니다.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
-  <LetterRoleLostLetterIdeoChangedPostfix>TODO</LetterRoleLostLetterIdeoChangedPostfix>
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort}(이)가 {OLDIDEO_name} 사상을 포기하면서 {ROLE_labelDef} 지위도 잃었습니다.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped. -->
-  <LetterObligationRoleInactive>TODO</LetterObligationRoleInactive>
+  <LetterObligationRoleInactive>{0} 생략</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>TODO</LetterObligationRoleInactiveDateDesc>
+  <LetterObligationRoleInactiveDateDesc>{1}(을)를 치를 날짜인 {0}(이)가 다가오고 있지만, {ROLE_labelDef} 보직이 비활성 상태이므로 {2}들이 {1}(을)를 생략할 것입니다.</LetterObligationRoleInactiveDateDesc>
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
-  <LetterSpeechConvertedListeners>TODO</LetterSpeechConvertedListeners>
+  <LetterSpeechConvertedListeners>{PAWN_pronoun}의 연설로 인해 {IDEO}(으)로 전향한 사람이 있습니다</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
-  <LetterTitleObligationsActivated>TODO</LetterTitleObligationsActivated>
+  <LetterTitleObligationsActivated>{0} 의식 활성화됨</LetterTitleObligationsActivated>
   <!-- EN: {0} rituals deactivated -->
-  <LetterTitleObligationsDeactivated>TODO</LetterTitleObligationsDeactivated>
+  <LetterTitleObligationsDeactivated>{0} 의식 비활성화됨</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
-  <LetterTitleObligationsDeactivatedTooFewBelievers>TODO</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>플레이어 세력에 속한 {IDEO_memberNamePlural}의 수가 {1}명 미만으로 떨어졌습니다. 따라서 자신들이 다시 {1}명이 되기 전에는 {IDEO_memberNamePlural}(이)가 {IDEO} 의식의 거행을 요구하지 않을 것입니다.</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedEnoughBelievers>TODO</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>플레이어 세력에 속한 {IDEO_memberNamePlural}의 수가 {1}명이 됐습니다. 이제 {IDEO_memberNamePlural}(이)가 {IDEO}의 의식을 거행하길 요구할 것입니다.</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedIdeoBecameMajor>TODO</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>이제 {IDEO}(이)가 세력의 주 사상이므로 {IDEO_memberNamePlural}(이)가 {IDEO}의 의식을 요구할 것입니다.</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
-  <LetterBondRemoved>TODO</LetterBondRemoved>
+  <LetterBondRemoved>유대관계 제거됨</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
-  <LetterBondRemovedDesc>TODO</LetterBondRemovedDesc>
+  <LetterBondRemovedDesc>{PAWN_nameDef}(이)가 이제 {IDEO}(을)를 믿습니다. {IDEO}(은)는 동물과 각별해지는 것을 금지하기 때문에, {PAWN_nameDef} 또한 아래 동물과의 유대관계를 끊었습니다:\n\n{BONDS}</LetterBondRemovedDesc>
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
-  <LetterLabelEnslavementSuccess>TODO</LetterLabelEnslavementSuccess>
+  <LetterLabelEnslavementSuccess>노예화</LetterLabelEnslavementSuccess>
   <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
-  <LetterEnslavementSuccess>TODO</LetterEnslavementSuccess>
+  <LetterEnslavementSuccess>{0_nameDef}(이)가 {1_nameDef}(을)를 성공적으로 노예로 삼았습니다.</LetterEnslavementSuccess>
 
   <!-- Primary ideo changed -->
   <!-- EN: Primary ideoligion changed -->
-  <LetterLabelNewPrimaryIdeo>TODO</LetterLabelNewPrimaryIdeo>
+  <LetterLabelNewPrimaryIdeo>주 사상 변화</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
-  <LetterNewPrimaryIdeo>TODO</LetterNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>플레이어 세력의 주요 사상이 {OLDIDEO_name}에서 {NEWIDEO_name}(으)로 바뀌었습니다.\n\n{FACTION_pawnsPlural} 사이에서 {NEWIDEO_name}(이)가 다른 모든 사상보다 널리 퍼졌습니다.\n\n주요 사상의 방향성이 다른 세력의 사상과 얼마나 방향을 공유하는지에 따라 우호도에 영향을 미칩니다.</LetterNewPrimaryIdeo>
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
-  <JoinerCharityInfo>TODO</JoinerCharityInfo>
+  <JoinerCharityInfo>이것은 이타적 사건입니다. 만약 {0}(을)를 그냥 돌려보내면 이타적 사상을 가진 정착민들이 실망할 것입니다.</JoinerCharityInfo>
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
-  <AfflictedJoinerChartityInfo>TODO</AfflictedJoinerChartityInfo>
+  <AfflictedJoinerChartityInfo>이것은 이타적 사건입니다. {0}(이)가 치료를 받지 못하고 사망하거나 방치되면 이타적 사상을 가진 사람들이 실망할 것입니다. 반대로, {0}(을)를 치료해주거나 포섭하면 기뻐할 것입니다.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
-  <PawnsHaveCharitableBeliefs>TODO</PawnsHaveCharitableBeliefs>
+  <PawnsHaveCharitableBeliefs>다음 정착민들이 이타적 사상을 가지고 있습니다</PawnsHaveCharitableBeliefs>
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
-  <LetterIdeoChangeConverted>TODO</LetterIdeoChangeConverted>
+  <LetterIdeoChangeConverted>{PAWN_pronoun}(은)는 {PAWN_pronoun}가 {OLDIDEO_name}에 가졌던 믿음이 헛된 것이었다고 결정했습니다.\n\n{PAWN_pronoun}는 이제 {NEWIDEO_name}(을)를 믿습니다.</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>TODO</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>{PAWN_nameDef}(이)가 {OLDIDEO_name}에 가진 믿음이 {NEWCERTAINTY}까지 줄었습니다.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>TODO</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>{PAWN_nameDef}(이)가 자신의 믿음을 받아들이기 위해 {PAWN_possessive} 방에 숨었습니다.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>TODO</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef}(이)가 받은 충격으로 인해, {PAWN_pronoun}가 자신의 남아있는 믿음에 매달리면서 방황하고 있습니다.</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
-  <LetterIdeoChangedDivorce>TODO</LetterIdeoChangedDivorce>
+  <LetterIdeoChangedDivorce>이혼</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
-  <LetterIdeoChangedDivorcedPawns>TODO</LetterIdeoChangedDivorcedPawns>
+  <LetterIdeoChangedDivorcedPawns>{PAWN_nameDef}의 새로운 믿음은 {PAWN_possessive} 현재 배우자 수를 금지합니다.\n\n{PAWN_nameDef}(은)는 아래의 배우자와 이혼하기로 결정했습니다.\n{1}</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
-  <LetterLabelSurpriseReinforcements>TODO</LetterLabelSurpriseReinforcements>
+  <LetterLabelSurpriseReinforcements>예상치 못한 지원군!</LetterLabelSurpriseReinforcements>
   <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
-  <LetterSurpriseReinforcements>TODO</LetterSurpriseReinforcements>
+  <LetterSurpriseReinforcements>예상치 못했던 지원군이 나타났습니다! 그들은 {0}(을)를 돕기 위해 {1}에서 왔습니다.</LetterSurpriseReinforcements>
 
   <!-- Style change -->
   <!-- EN: Look change desired -->
-  <LetterWantLookChange>TODO</LetterWantLookChange>
+  <LetterWantLookChange>외형 변경 희망</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>TODO</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef}(이)가 자신의 사상에 맞추기 위해 스스로의 외형을 바꾸고 싶어합니다.\n\n{PAWN_nameDef}(은)는 사용 가능한 화장대에서 스스로 외형을 바꿀 것입니다. 직접 외형을 선택하고 싶으면 {PAWN_pronoun}를 선택한 후 화장대를 오른쪽 클릭하세요.</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
-  <LetterLabelSpacedroneIncoming>TODO</LetterLabelSpacedroneIncoming>
+  <LetterLabelSpacedroneIncoming>무인 우주선 접근</LetterLabelSpacedroneIncoming>
   <!-- EN: A spacedrone is landing nearby. -->
-  <LetterTextSpacedroneIncoming>TODO</LetterTextSpacedroneIncoming>
+  <LetterTextSpacedroneIncoming>무인 우주선이 근처에 착륙합니다.</LetterTextSpacedroneIncoming>
   <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
-  <LetterTextRaidSpacedrone>TODO</LetterTextRaidSpacedrone>
+  <LetterTextRaidSpacedrone>착륙한 {1}(을)를 파괴하기 위해 {0}의 습격 부대가 도착했습니다. </LetterTextRaidSpacedrone>
 
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
-  <LetterTextSpacedroneHacked>TODO</LetterTextSpacedroneHacked>
+  <LetterTextSpacedroneHacked>{0} 해킹이 끝냈습니다. 고대 {1} 유물에 관한 정보를 입수했습니다.</LetterTextSpacedroneHacked>
 
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
-  <LetterLabelRelicDestroyed>TODO</LetterLabelRelicDestroyed>
+  <LetterLabelRelicDestroyed>유물 파괴됨</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicDestroyed>TODO</LetterTextRelicDestroyed>
+  <LetterTextRelicDestroyed>{0}(이)가 파괴됐습니다!\n\n아래 사람의 기분이 나빠집니다:\n{1}</LetterTextRelicDestroyed>
   
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
-  <LetterLabelRelicLost>TODO</LetterLabelRelicLost>
+  <LetterLabelRelicLost>유물 손실</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicLost>TODO</LetterTextRelicLost>
+  <LetterTextRelicLost>{0}(을)를 잃었습니다!\n\n아래 사람의 기분이 나빠집니다:\n{1}</LetterTextRelicLost>
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>TODO</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterOnlySlaveCaravanColonistsLeft>노예를 제외한 {0}의 모든 사람이 사망했습니다. 남은 노예들은 도보로 이탈했습니다. 상단이 해체됐습니다.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
-  <LetterLabelLastHackerLost>TODO</LetterLabelLastHackerLost>
+  <LetterLabelLastHackerLost>마지막 해커를 잃음</LetterLabelLastHackerLost>
   <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
-  <LetterTextLastHackerLost>TODO</LetterTextLastHackerLost>
+  <LetterTextLastHackerLost>고대 시설의 비밀을 찾아낼 마지막 해커를 잃었습니다. 해킹이 가능한 정착민을 추가로 지원하거나 임무를 포기하십시오.</LetterTextLastHackerLost>
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
-  <LetterLabelRelicFound>TODO</LetterLabelRelicFound>
+  <LetterLabelRelicFound>유물 발견</LetterLabelRelicFound>
   <!-- EN: You've finally learned the location of the relic {0}! -->
-  <LetterTextRelicFoundLocation>TODO</LetterTextRelicFoundLocation>
+  <LetterTextRelicFoundLocation>마침내 유물, {0}의 위치를 알아냈습니다!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>TODO</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>유물이 고대 시설 안에 보관되어 있습니다. 다수의 독립 부대로 구성된 보안 시스템이 주변을 보호하고 있습니다. 한 번에 하나씩 격파할 수도 있고, 유물을 들고 몰래 도망칠 수도 있습니다.\n\n{0} 후에는 보안 시스템의 모든 구성 요소가 활성화됩니다.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
-  <LetterLabelRelicsCollected>TODO</LetterLabelRelicsCollected>
+  <LetterLabelRelicsCollected>유물 수집 완료</LetterLabelRelicsCollected>
   <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
-  <LetterTextRelicsCollected>TODO</LetterTextRelicsCollected>
+  <LetterTextRelicsCollected>{0}에 속한 모든 유물을 수집했습니다. 아래의 사람들이 기뻐합니다</LetterTextRelicsCollected>
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
-  <LetterLabelPawnConnected>TODO</LetterLabelPawnConnected>
+  <LetterLabelPawnConnected>{TREE_label}(와)과의 교감</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>TODO</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef}(이)가 {TREE_definite}(와)과 교감했습니다.\n\n{TREE_definite}(은)는 뿌리 근처에서 나무지기라고 불리는 작은 동물을 만들어냅니다. 나무지기는 여러 전문화된 계급을 가지고 있으며, 도중에 계급을 바꿀 수도 있습니다.\n\n교감 수준이 높을수록 {TREE_definite}(이)가 만들어낼 수 있는 나무지기의 수도 증가합니다. {CONNECTOR_nameDef}(은)는 {TREE_definite}(을)를 다듬으면서 교감을 강화할 수 있습니다. 강한 교감 수준을 유지하려면 더 자주 다듬어줘야 합니다.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
-  <LetterLabelConnectedTreeDestroyed>TODO</LetterLabelConnectedTreeDestroyed>
+  <LetterLabelConnectedTreeDestroyed>교감중이던 {TREE_label} 파괴됨</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>TODO</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>{CONNECTEDPAWN_nameDef}(와)과 교감하던 {TREE_label}(이)가 파괴되어 숨어있던 나무지기 여왕이 죽었습니다.\n\n여왕의 부재로 인해 군체 의식이 붕괴하면서 모든 나무지기가 죽었습니다.</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
-  <LetterLabelArchonexusWealthReached>TODO</LetterLabelArchonexusWealthReached>
+  <LetterLabelArchonexusWealthReached>임무 '{0}' 가능</LetterLabelArchonexusWealthReached>
   <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
-  <LetterTextArchonexusWealthReached>TODO</LetterTextArchonexusWealthReached>
+  <LetterTextArchonexusWealthReached>임무 '{0}'이 요구하는 기지 가치에 도달했습니다. 이제 임무를 수락할 수 있습니다.</LetterTextArchonexusWealthReached>
   <!-- EN: {0_labelShort} studied -->
-  <LetterLabelArchonexusStructureResearched>TODO</LetterLabelArchonexusStructureResearched>
+  <LetterLabelArchonexusStructureResearched>{0_labelShort}의 연구 완료</LetterLabelArchonexusStructureResearched>
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
-  <LetterTextArchonexusStructureResearched>TODO</LetterTextArchonexusStructureResearched>
+  <LetterTextArchonexusStructureResearched>{0_labelShort}의 연구를 마쳤습니다.\n\n이 물체를 조금이라도 이해했다고 말하기는 어렵지만, {0_labelShort}의 동작과 정보 표현 방식에서 일정한 규칙을 찾아냈습니다.\n\n이 정보를 사용하면 초월연결체를 가리키는 지도의 다음 조각도 해석할 수 있을 것입니다.</LetterTextArchonexusStructureResearched>
   <!-- EN: Archotech structures abandoned -->
-  <LetterLabelArchotechStructuresAbandoned>TODO</LetterLabelArchotechStructuresAbandoned>
+  <LetterLabelArchotechStructuresAbandoned>초월공학 구조물 버려짐</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
-  <LetterTextArchotechStructuresAbandoned>TODO</LetterTextArchotechStructuresAbandoned>
+  <LetterTextArchotechStructuresAbandoned>{0_definite}에 위치한 초월공학 구조물을 버렸습니다.\n\n목격자들의 증언에 따르면, {0_definite}(을)를 떠나고 얼마 지나지 않아 그곳에서 거대한 섬광이 발생했다고 합니다.</LetterTextArchotechStructuresAbandoned>
 
 </LanguageData>
