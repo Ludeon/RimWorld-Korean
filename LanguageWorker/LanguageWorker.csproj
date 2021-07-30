@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <TargetFramework>net472</TargetFramework>
+    <Version>4.9.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="netstandard" />
+    <Reference Include=".\libs\*.dll" />
+  </ItemGroup>
+</Project>

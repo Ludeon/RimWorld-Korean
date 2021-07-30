@@ -1,0 +1,13 @@
+{
+  "name": "rwk-script",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cli": "node ./script/index.js"
+  },
+  "author": "alattalatta",
+  "dependencies": {
+    "execa": "^5.1.1",
+    "yargs": "^17.0.1"
+  }
+}
