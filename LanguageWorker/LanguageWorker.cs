@@ -67,10 +67,6 @@ namespace RimWorld_Korean
     // (/Tag) or </Node>
     private static readonly Regex TagOrNodeClosingPattern = new Regex(@"(\(|<)\/\w+(\)|>)", RegexOptions.Compiled);
 
-    public LanguageWorker_Korean() {
-      Log.Message("LanguageWorker_Korean working.");
-    }
-
     public override string PostProcessed(string str)
     {
       return ReplaceJosa(base.PostProcessed(str));
@@ -92,35 +88,22 @@ namespace RimWorld_Korean
 
       var lastHeadIndex = 0;
 
-      for (var i = 0; i < matches.Count; i++)
+      for (var i = 0; i < matches.Count; ++i)
       {
         var match = matches[i];
         var matchStripped = matchesStripped[i];
-        var matchValue = match.Value;
+        var josaToken = match.Value;
 
-        var josaPair = JosaPatternPaired[matchValue];
         tmpStringBuilder.Append(src, lastHeadIndex, match.Index - lastHeadIndex);
 
-        // do not process "rule->(은)는"
-        if (matchStripped.Index == 0)
+        var lastChar = FindLastChar(stripped, matchStripped.Index);
+        if (lastChar.HasValue)
         {
-          tmpStringBuilder.Append(matchValue);
+          tmpStringBuilder.Append(ResolveJosa(josaToken, lastChar.Value));
         }
         else
         {
-          var lastChar = stripped[matchStripped.Index - 1];
-
-          // do not process "%%deityname%%(은)는" or any other similar special tokens
-          if (Char.IsLetterOrDigit(lastChar))
-          {
-            var shouldUseJongJosa = matchValue == "(으)로" ? HasJongExceptRieul(lastChar) : HasJong(lastChar);
-            var josaToAppend = shouldUseJongJosa ? josaPair.Item1 : josaPair.Item2;
-            tmpStringBuilder.Append(josaToAppend);
-          }
-          else
-          {
-            tmpStringBuilder.Append(matchValue);
-          }
+          tmpStringBuilder.Append(josaToken);
         }
 
         lastHeadIndex = match.Index + match.Length;
@@ -129,6 +112,66 @@ namespace RimWorld_Korean
       tmpStringBuilder.Append(src, lastHeadIndex, src.Length - lastHeadIndex);
 
       return tmpStringBuilder.ToString();
+    }
+
+    private string ResolveJosa(string josaToken, char lastChar)
+    {
+      var josaPair = JosaPatternPaired[josaToken];
+
+      // do not process "%%deityname%%(은)는" or any other similar special tokens
+      if (Char.IsLetterOrDigit(lastChar))
+      {
+        var shouldUseJongJosa = josaToken == "(으)로" ? HasJongExceptRieul(lastChar) : HasJong(lastChar);
+        return shouldUseJongJosa ? josaPair.Item1 : josaPair.Item2;
+      }
+
+      return josaToken;
+    }
+
+    private char? FindLastChar(string stripped, int strippedMatchIndex)
+    {
+      if (strippedMatchIndex == 0)
+      {
+        return null;
+      }
+
+      var prevChar = stripped[strippedMatchIndex - 1];
+
+      // skip quotes
+      if (prevChar == '\'' || prevChar == '"')
+      {
+        if (strippedMatchIndex == 1)
+        {
+          return null;
+        }
+        return stripped[strippedMatchIndex - 2];
+      }
+
+      // find the last character before the closing paren
+      if (prevChar == ')')
+      {
+        var parenEnded = false;
+
+        for (var i = strippedMatchIndex - 2; i >= 0; --i)
+        {
+          var head = stripped[i];
+          if (head == '(')
+          {
+            parenEnded = true;
+            continue;
+          }
+          if (parenEnded && head != ' ')
+          {
+            return head;
+          }
+          // keep finding after a space
+        }
+
+        // couldn't find any valid one
+        return null;
+      }
+
+      return prevChar;
     }
 
     private string StripTags(string inString)
