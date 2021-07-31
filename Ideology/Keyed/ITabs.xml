@@ -18,7 +18,7 @@
   <SlaveReleasePotentialRelationGains>해방 시 얻는 우호도</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>노예 반란 주기</SlaveRebellionMTBDays>
-  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
   <SlaveRebellionMTBDaysDescription>노예가 평균적으로 반란을 꾸미는 간격입니다. 깨어있는 시간만 고려합니다. 기분, 건강, 억압, 무기와의 거리, 정착민의 수에 영향을 받습니다.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
@@ -51,6 +51,8 @@
   <SuppressionFactor>억압</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>기분</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>TODO</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>탈출 경로</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
@@ -59,6 +61,8 @@
   <SuppressionFinalInterval>최종 주기</SuppressionFinalInterval>
   <!-- EN: Unattended -->
   <SuppressionUnattendedByColonists>감독받지 않음</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>TODO</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
   <WillLevel>의지</WillLevel>
