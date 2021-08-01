@@ -130,6 +130,7 @@ namespace RimWorld_Korean
 
     private char? FindLastChar(string stripped, int strippedMatchIndex)
     {
+      // no "last char"
       if (strippedMatchIndex == 0)
       {
         return null;
@@ -147,31 +148,31 @@ namespace RimWorld_Korean
         return stripped[strippedMatchIndex - 2];
       }
 
-      // find the last character before the closing paren
-      if (prevChar == ')')
+      if (prevChar != ')')
       {
-        var parenEnded = false;
-
-        for (var i = strippedMatchIndex - 2; i >= 0; --i)
-        {
-          var head = stripped[i];
-          if (head == '(')
-          {
-            parenEnded = true;
-            continue;
-          }
-          if (parenEnded && head != ' ')
-          {
-            return head;
-          }
-          // keep finding after a space
-        }
-
-        // couldn't find any valid one
-        return null;
+        return prevChar;
       }
 
-      return prevChar;
+      // find the last character before the paren grouop
+      var parenEnded = false;
+
+      for (var i = strippedMatchIndex - 2; i >= 0; --i)
+      {
+        var head = stripped[i];
+        if (head == '(')
+        {
+          parenEnded = true;
+          continue;
+        }
+        if (parenEnded && head != ' ')
+        {
+          return head;
+        }
+        // keep finding after a space
+      }
+
+      // invalid
+      return null;
     }
 
     private string StripTags(string inString)
