@@ -7,9 +7,9 @@
   <NeedSlaveBedsDesc>침대 수보다 더 많은 노예가 존재합니다.\n\n침대를 더 만들거나, 기존의 침대를 노예 전용 침대로 전환하세요.\n\n침대를 만들 재료나 시간이 없다면 잠자리를 지정하세요.</NeedSlaveBedsDesc>
 
   <!-- EN: Slave unsuppressed -->
-  <SlavesUnsuppressedLabel>억압되지 않은 노예</SlavesUnsuppressedLabel>
+  <SlavesUnsuppressedLabel>복종하지 않는 노예</SlavesUnsuppressedLabel>
   <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
-  <SlavesUnsuppressedDesc>{0_nameDef}의 억압 수준이 너무 낮아 반란을 일으키기 직전입니다.\n\n간수 작업에 할당된 정착민이 있는지 확인하세요. 간수는 주기적으로 노예를 억압해서 반란을 방지합니다.</SlavesUnsuppressedDesc>
+  <SlavesUnsuppressedDesc>{0_nameDef}의 복종심이 너무 낮아 반란을 일으키기 직전입니다.\n\n간수 작업에 할당된 정착민이 있는지 확인하세요. 간수는 주기적으로 노예를 억압해서 반란을 방지합니다.</SlavesUnsuppressedDesc>
   <!-- EN: Slave unattended -->
   <SlaveUnattendedLabel>감독을 벗어난 노예</SlaveUnattendedLabel>
   <!-- EN: Slaves unattended -->
@@ -34,7 +34,7 @@
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>클릭하여 대상으로 이동</RitualJumpToTargets>
   <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
-  <RitualObligationDelayEffects>{RITUAL_labelDef}(이)가 지연되면 다음 효과가 발생합니다.</RitualObligationDelayEffects>
+  <RitualObligationDelayEffects>{RITUAL_labelDef}(이)가 지연되면 다음 효과가 발생합니다</RitualObligationDelayEffects>
   <!-- EN: {0} days: {1} mood on all {2}s. -->
   <RitualObligationDelayEffectDesc>{0}일: 모든 {2}의 기분 {1}</RitualObligationDelayEffectDesc>
   <!-- EN: In order to perform {0} you need to fill these roles -->
@@ -135,10 +135,10 @@
   <AlertCasketOpeningDesc>알 수 없는 위협을 포함한 동면장치가 곧 열립니다.</AlertCasketOpeningDesc>
 
   <!-- EN: Slave rebellion likely -->
-  <AlertSlaveRebellionLikely>TODO</AlertSlaveRebellionLikely><!--text_todo-->
+  <AlertSlaveRebellionLikely>노예 반란 임박</AlertSlaveRebellionLikely>
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
-  <AlertSlaveRebellionLikelyRebelliousCount>TODO</AlertSlaveRebellionLikelyRebelliousCount><!--text_todo-->
-  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. These are the factors which are adjusting how soon they will rebel: -->
-  <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious><!--text_todo-->
+  <AlertSlaveRebellionLikelyRebelliousCount>반란을 일으킬 가능성이 높은 노예가 {REBELLIOUSCOUNT}명 존재합니다.</AlertSlaveRebellionLikelyRebelliousCount>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
+  <AlertSlaveRebellionLikelyMostRebellious>약 {COMBINEDTIME}마다 노예 반란이 일어날 가능성이 있습니다. 노예 각각의 반란 확률은 독립적이지만 한 명이 반란을 일으키면 주변 노예가 주모자에게 합류할 수 있음을 주의하세요.\n\n가장 반항적인 노예는 {REBEL_labelShort}(으)로, 약 {INDIVIDUALTIME}마다 반란을 도모할 것으로 예상됩니다. 다음은 {REBEL_labelShort}의 반란 주기에 영향을 주는 요소입니다:</AlertSlaveRebellionLikelyMostRebellious>
   
 </LanguageData>

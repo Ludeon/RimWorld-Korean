@@ -19,23 +19,23 @@
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>노예 반란 주기</SlaveRebellionMTBDays>
   <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>노예가 평균적으로 반란을 꾸미는 간격입니다. 깨어있는 시간만 고려합니다. 기분, 건강, 억압, 무기와의 거리, 정착민의 수에 영향을 받습니다.</SlaveRebellionMTBDaysDescription>
+  <SlaveRebellionMTBDaysDescription>노예가 평균적으로 반란을 도모하는 간격입니다. 깨어있는 시간만 고려합니다. 복종심, 기분, 건강, 무기와의 거리, 현재 지역의 노예 수, 그리고 현재 지역의 정착민 존재 여부에 영향을 받습니다.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
-  <Suppression>억압</Suppression>
+  <Suppression>복종심</Suppression>
   <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
-  <SuppressionDesc>억압은 노예가 느끼는 공포와 통제를 수치화한 것입니다. 억압이 낮으면 노예가 반란을 일으킬 확률이 높아집니다.</SuppressionDesc>
+  <SuppressionDesc>복종심은 노예가 느끼는 공포와 억압의 수준을 수치화한 것입니다. 복종심이 낮으면 노예가 반란을 일으킬 확률이 높아집니다.</SuppressionDesc>
   <!-- EN: Suppression fall rate -->
-  <SuppressionFallRate>억압 하락률</SuppressionFallRate>
+  <SuppressionFallRate>복종심 하락률</SuppressionFallRate>
   <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>억압은 현재 수준에 따라 지속적으로 하락합니다.\n\n- {1} 이상 억압: 매일 {0}\n- {4} - {3} 억압: 매일 {2}\n- {6} 이하 억압: 매일 {5}\n\n의류와 공포도 억압 하락률에 영향을 줍니다. 이 노예의 억압 하락률 계산식은 다음과 같습니다</SuppressionFallRateDesc>
+  <SuppressionFallRateDesc>복종심은 지속적으로 하락합니다.\n\n- {1} 이상: 매일 {0} 하락\n- {4} - {3}: 매일 {2} 하락\n- {6} 이하: 매일 {5} 하락\n\n옷과 공포심도 복종심 하락 속도에 영향을 줍니다. 이 노예의 복종심 하락 속도는 다음과 같습니다. :</SuppressionFallRateDesc>
   <!-- EN: Cannot emancipate -->
   <CannotEmancipate>해방 불가</CannotEmancipate>
   <!-- EN: Cannot imprison -->
   <CannotImprison>수감 불가</CannotImprison>
   <!-- EN: Current suppression -->
-  <CurrentSuppression>현재 억압</CurrentSuppression>
+  <CurrentSuppression>현재 복종심</CurrentSuppression>
   <!-- EN: Terror -->
   <Terror>공포</Terror>
   <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
@@ -48,11 +48,11 @@
   <!-- EN: Moving capacity -->
   <SuppressionMovingCapacityFactor>이동 능력</SuppressionMovingCapacityFactor>
   <!-- EN: Suppression -->
-  <SuppressionFactor>억압</SuppressionFactor>
+  <SuppressionFactor>복종심</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>기분</SuppressionMoodFactor>
   <!-- EN: Slave count -->
-  <SuppressionSlaveCountFactor>TODO</SuppressionSlaveCountFactor>
+  <SuppressionSlaveCountFactor>노예 수</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>탈출 경로</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
@@ -62,7 +62,7 @@
   <!-- EN: Unattended -->
   <SuppressionUnattendedByColonists>감독받지 않음</SuppressionUnattendedByColonists>
   <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
-  <SuppressionRebellionAnySlave>TODO</SuppressionRebellionAnySlave>
+  <SuppressionRebellionAnySlave>현재 지역의 노예 {0}명 중 최소 한 명이 평균 {1}마다 반란을 일으킬 것으로 예상됩니다.</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
   <WillLevel>의지</WillLevel>

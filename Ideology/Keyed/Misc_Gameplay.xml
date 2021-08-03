@@ -2,25 +2,25 @@
 <LanguageData>
 
   <!-- EN: Customize ideoligion -->
-  <CustomizeIdeoligion>TODO</CustomizeIdeoligion> <!-- text_todo -->
+  <CustomizeIdeoligion>사상 생성</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
-  <ChooseYourIdeoligion>TODO</ChooseYourIdeoligion>
+  <ChooseYourIdeoligion>사상 선택</ChooseYourIdeoligion>
   <!-- EN: Random -->
-  <Random>TODO</Random>
+  <Random>무작위</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
-  <RandomStructureTip>TODO</RandomStructureTip> <!-- text_todo -->
+  <RandomStructureTip>사상의 구조를 무작위로 선택합니다.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
-  <RandomStyleTip>TODO</RandomStyleTip> <!-- text_todo -->
+  <RandomStyleTip>사상의 양식을 무작위로 선택합니다.</RandomStyleTip>
   <!-- EN: Customize -->
-  <Customize>TODO</Customize>
+  <Customize>만들기</Customize>
   <!-- EN: Play classic -->
-  <PlayClassic>TODO</PlayClassic>
+  <PlayClassic>플레이</PlayClassic>
   <!-- EN: Load saved -->
-  <LoadSaved>TODO</LoadSaved>
+  <LoadSaved>불러오기</LoadSaved>
   <!-- EN: Structure -->
-  <Structure>TODO</Structure>
+  <Structure>구조</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>TODO</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>시작 정착민이 어떤 것을 믿나요? 사상은 게임 플레이와 시각 효과를 바꿀 수 있습니다. 다른 이들이 당신의 사상을 믿도록 교화할 수도 있고, 당신이 다른 사상으로 전향할 수도 있습니다.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>새로 생성</CreateCustom>
   <!-- EN: Create new -->
@@ -90,7 +90,7 @@
   <!-- EN: Disables {0} precepts. -->
   <DisablesPreceptsCount>{0} 규율을 비활성화합니다.</DisablesPreceptsCount>
   <!-- EN: Styles -->
-  <Styles>스타일</Styles>
+  <Styles>양식</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>규율을 포함할 가능성</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
@@ -193,7 +193,7 @@
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
   <RitualOutcomeExtraDesc_SkylanternWanderers>날아간 풍등을 보고 우호적인 여행자들이 찾아왔습니다. 정착지를 방문한 후 선물을 남길 것입니다.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
-  <RitualOutcomeExtraDesc_Execution>의식에 참여한 모든 노예의 마음이 죽음을 목도한 후 꺾였습니다. 억압 수치가 최대치까지 올라갔습니다.</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_Execution>처형식에 참여한 모든 노예의 마음이 꺾였습니다. 복종심이 최대치까지 올라갑니다.</RitualOutcomeExtraDesc_Execution>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>추가 보상</RitualAttachedReward>
@@ -273,7 +273,7 @@
 
   <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
-  <TextMote_SuppressionIncreased>노예 억압: {0}</TextMote_SuppressionIncreased>
+  <TextMote_SuppressionIncreased>복종심: {0}</TextMote_SuppressionIncreased>
 
   <!-- Role requirements -->
   <!-- EN: Requirements -->
@@ -292,7 +292,7 @@
   <!-- EN: Required apparel -->
   <RoleRequiredApparelLabel>필요 의복</RoleRequiredApparelLabel>
   <!-- EN: Has role in rituals -->
-  <RoleRitualsLabel>의식에서의 맡는 역할</RoleRitualsLabel>
+  <RoleRitualsLabel>의식에서 맡는 역할</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
   <RoleBelieverCountDesc>이 지위는 세력에 {1}명의 {0}(이)가 있으면 활성화됩니다. {3}명의 {2}만 있으면 비활성화됩니다.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
@@ -578,8 +578,5 @@
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}(이)가 욕구 충족 절차를 끝냈습니다.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>청결함으로 인한 속도 계수</BiosculpterCleanlinessSpeedFactor>
-
-  <!-- UNUSED -->
-  <ChooseIdeoligion>정착지의 사상 선택</ChooseIdeoligion>
 
 </LanguageData>

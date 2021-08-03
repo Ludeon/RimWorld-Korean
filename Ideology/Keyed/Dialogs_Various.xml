@@ -9,7 +9,7 @@
   <!-- EN: Slaves -->
   <SlavesSection>노예</SlavesSection>
   <!-- EN: dominant style -->
-  <DominantStyle>주요 스타일</DominantStyle>
+  <DominantStyle>주요 양식</DominantStyle>
   <!-- EN: Date -->
   <Date>날짜</Date>
 
@@ -128,7 +128,7 @@
 
   <!-- Style -->
   <!-- EN: Style -->
-  <StylePawn>스타일</StylePawn>
+  <StylePawn>양식</StylePawn>
   <!-- EN: Cancel -->
   <Cancel>취소</Cancel>
   <!-- EN: hair -->
@@ -148,17 +148,17 @@
   <!-- EN: Show apparel -->
   <ShowApparel>옷 표시</ShowApparel>
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
-  <PawnUnhappyWithStyleItems>다음 스타일로 인해 {PAWN_nameDef}의 기분이 나빠집니다</PawnUnhappyWithStyleItems>
+  <PawnUnhappyWithStyleItems>다음 양식으로 인해 {PAWN_nameDef}의 기분이 나빠집니다</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>스타일 범주는 {IDEO_memberNamePlural}(이)가 만드는 일부 건물과 의복, 무기의 외관에 영향을 줍니다. 하나의 물체에 적용할 수 있는 스타일 범주가 여럿일 경우 가장 왼쪽을 적용합니다.</StyleCategoryDescription>
+  <StyleCategoryDescription>양식 범주는 {IDEO_memberName}들이 만드는 건물과 의복, 무기의 외관을 바꿉니다. 하나의 물체에 적용할 수 있는 양식 범주가 여럿일 경우 가장 왼쪽의 양식 범주를 적용합니다.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescriptionAbstract>TODO</StyleCategoryDescriptionAbstract>
+  <StyleCategoryDescriptionAbstract>양식 범주는 정착지에서 만드는 건물과 의복, 무기의 외관을 바꿉니다. 하나의 물체에 적용할 수 있는 양식 범주가 여럿일 경우 가장 왼쪽의 양식 범주를 적용합니다.</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural}(은)는 주위 건물과 바닥, 미술품이 이 스타일을 따르고 있으면 기분이 좋아집니다.</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>{IDEO_memberName}들은 주위 건물과 바닥, 미술품이 이 양식을 따르고 있으면 기분이 좋아집니다.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>TODO</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>주변 건물과 바닥, 미술품이 이 양식을 따르면 사상 구성원의 기분이 좋아집니다.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
-  <StyleCategoryDetails>{0} 스타일 범주의 영향 범위</StyleCategoryDetails>
+  <StyleCategoryDetails>{0} 양식 범주의 영향 범위</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
   <OverriddenByStyle>{0}이 우선함</OverriddenByStyle>
   <!-- EN: New buildables -->
@@ -168,7 +168,7 @@
   <!-- EN: Hair and beards -->
   <HairAndBeards>머리카락과 수염</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
-  <HairAndBeardsDesc>이 사상을 가진 사람이 각각의 스타일을 얼마나 자주 한 채로 나타날 것인지 설정합니다.</HairAndBeardsDesc>
+  <HairAndBeardsDesc>이 사상을 가진 사람이 어떤 외형을 얼마나 자주 하고 나타날 것인지 설정합니다.</HairAndBeardsDesc>
   <!-- EN: Tattoos -->
   <Tattoos>문신</Tattoos>
   <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
@@ -194,7 +194,7 @@
   <!-- EN: Collapse all -->
   <CollapseAllCategories>모두 접기</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
-  <ResetButtonDesc>모든 스타일 항목을 기본 값으로 초기화합니다.</ResetButtonDesc>
+  <ResetButtonDesc>모든 외형 항목을 기본 값으로 초기화합니다.</ResetButtonDesc>
   <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
   <TooltipDyeExplanation>염료는 상인과 거래하거나, 염색풀을 재배해서 얻을 수 있습니다.</TooltipDyeExplanation>
 
