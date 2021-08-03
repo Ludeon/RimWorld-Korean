@@ -179,7 +179,7 @@ namespace RimWorld_Korean
     {
       var outString = inString;
       // Find an opening since it's much easier
-      if (TagOrNodeOpeningPattern.Match(outString).Success)
+      if (TagOrNodeOpeningPattern.IsMatch(outString))
       {
         // Only need to strip closings, we only care about the word before josa
         return TagOrNodeClosingPattern.Replace(outString, String.Empty);
