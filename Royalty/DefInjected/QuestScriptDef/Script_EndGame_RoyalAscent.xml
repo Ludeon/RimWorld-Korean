@@ -12,7 +12,7 @@
     <li>questDescription->[intro][asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](은)는 요청시에, [asker_possessive] 영토에 있는 백작과 함께 관례적인 방문을 수행합니다. [asker_objective] 초대하여, [shuttleDelayTicks_duration]동안 왕실의 요구를 충족시키면, 제국의 소함선까지 모두 왕복선을 타고 갈 수 있습니다. 그 다음 제국에 합류하거나, 항성들 사이에서 새로운 삶을 살아갈 수 있습니다.\n\n백작이라는 작위를 얻는다는 것은 [asker_faction_name]의 [asker_faction_royalFavorLabel](을)를 얻기 위한 임무를 완료하는 것을 의미합니다. 백작이라는 작위를 얻으려면 몇 년이 걸릴지도 모릅니다.\n\n[asker_nameDef](이)가 방문하는 동안 기분을 [lodgersMoodThreshold_percent] 이상 유지해야 합니다. 이는 호화로운 침대같은 왕실의 특권을 제공해야 한다는 뜻입니다.[threatsInfo]\n\n[asker_nameDef](은)는 따로 수용해야 할 4명의 개인 호위병을 데려오지만 플레이어의 지휘에 따르며, 사망하거나 불행해 한다고 해도 [asker_nameDef](은)는 신경쓰지 않을 것입니다.\n\n방문자를 [map_definite]에서 유지해야 하며, 다른 곳으로 보내면 안됩니다. 이 임무에 실패하거나 다른 곳으로 보내게 된다면, 나중에 다시 기회를 얻을 수 있습니다.</li>
     <li>intro(sameQuestsCount==0)->이 행성을 탈출하는 방법을 배웠습니다!\n\n</li>
     <li>intro(sameQuestsCount>=1)->왕실의 승인을 받을 기회가 생겼습니다.\n\n</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\n다른 이들은 [asker_faction_leaderTitle](을)를 죽일 기회를 노리고 공격할 것입니다. 방어태세를 잘 갖추세요.</li>
+    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\n다른 이들은 [asker_faction_leaderTitle](을)를 죽일 기회를 노리고 공격할 것입니다. 방어를 준비하세요.</li>
     <li>threatsInfo-></li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -27,13 +27,13 @@
   -->
   <EndGame_RoyalAscent.questNameRules.rulesStrings>
     <li>questName(sameQuestsCount==0)->왕실 승인</li>
-    <li>questName(sameQuestsCount>=1)->왕실[titleEnd]</li>
-    <li>titleEnd-> 즉위</li>
-    <li>titleEnd->의 지위</li>
+    <li>questName(sameQuestsCount>=1)->왕[titleEnd]</li>
+    <li>titleEnd->으로 즉위</li>
+    <li>titleEnd->의 승천</li>
     <li>titleEnd->의 방문</li>
-    <li>titleEnd-> 내빈</li>
-    <li>titleEnd-> 접대</li>
-    <li>titleEnd-> 승리</li>
+    <li>titleEnd->실 내빈</li>
+    <li>titleEnd->실 접대</li>
+    <li>titleEnd->의 승리</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>임무 실패: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>
