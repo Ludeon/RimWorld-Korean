@@ -2,119 +2,102 @@
 <LanguageData>
   
   <!-- EN: animal chat -->
-  <AnimalChat.label>animal chat</AnimalChat.label>
-  <!-- EN:
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
-    <li>tamed->made calming noises towards</li>
-    <li>tamed->offered slow, friendly gestures to</li>
-    <li>tamed->made shushing noises at</li>
-    <li>tamed->made happy clicking noises at</li>
-    <li>tamed->gestured gently and approached</li>
-    <li>tamed->slowly approached</li>
-    <li>tamed->gently touched</li>
-    <li>tamed->calmed and encouraged</li>
-    <li>tamed->matched breathing with</li>
-    <li>tamed->took a low stance while approaching</li>
-    <li>tamed->showed no fear or anger to</li>
-    <li>tamed->feigned inattention towards</li>
-    <li>tamed->gently hummed a song at</li>
-    <li>tamed->sang an old lullaby at</li>
-    <li>tamed->firmly yet softly touched</li>
-    <li>tamed->showed a relaxed attitude towards</li>
-    <li>tamed->sat patiently near</li>
-    <li>tamed->whispered a story about [TalkTopicAny] to</li>
-  -->
-  <AnimalChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
-    <li>tamed->made calming noises towards</li>
-    <li>tamed->offered slow, friendly gestures to</li>
-    <li>tamed->made shushing noises at</li>
-    <li>tamed->made happy clicking noises at</li>
-    <li>tamed->gestured gently and approached</li>
-    <li>tamed->slowly approached</li>
-    <li>tamed->gently touched</li>
-    <li>tamed->calmed and encouraged</li>
-    <li>tamed->matched breathing with</li>
-    <li>tamed->took a low stance while approaching</li>
-    <li>tamed->showed no fear or anger to</li>
-    <li>tamed->feigned inattention towards</li>
-    <li>tamed->gently hummed a song at</li>
-    <li>tamed->sang an old lullaby at</li>
-    <li>tamed->firmly yet softly touched</li>
-    <li>tamed->showed a relaxed attitude towards</li>
-    <li>tamed->sat patiently near</li>
-    <li>tamed->whispered a story about [TalkTopicAny] to</li>
-    <!-- extra -->
-    <li>tamed->gently hummed a song at</li>
-    <li>tamed->sang an old lullaby at</li>
-    <li>tamed->firmly yet softly touched</li>
-    <li>tamed->showed a relaxed attitude towards</li>
-    <li>tamed->sat patiently near</li>
-    <li>tamed->whispered a story about [TalkTopicAny] to</li>
-  </AnimalChat.logRulesInitiator.rulesStrings>
+  <AnimalChat.label>동물과 대화</AnimalChat.label>
+  <!-- EN: r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.0>r_logentry(p=5)->[INITIATOR_nameDef](은)는 [tamed] [RECIPIENT_nameDef]의 주의를 끔.</AnimalChat.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [INITIATOR_objective] 응시하는 [RECIPIENT_nameDef]에게 천천히 다가가 [TalkTopicAny]에 관하여 이야기 함.</AnimalChat.logRulesInitiator.rulesStrings.1>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 가까이 접근하여 [TalkTopicAny]에 관해 속삭이듯 부드럽게 이야기를 건넴.</AnimalChat.logRulesInitiator.rulesStrings.2>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef](은)는 다가오는 [RECIPIENT_nameDef]에게 조심스럽게 접근하여 [TalkTopicAny]에 관하여 이야기를 건넴.</AnimalChat.logRulesInitiator.rulesStrings.3>
+  <!-- EN: tamed->made calming noises towards -->
+  <AnimalChat.logRulesInitiator.rulesStrings.4>tamed->차분한 느낌의 목소리로</AnimalChat.logRulesInitiator.rulesStrings.4>
+  <!-- EN: tamed->offered slow, friendly gestures to -->
+  <AnimalChat.logRulesInitiator.rulesStrings.5>tamed->천천히, 그리고 부드러운 몸짓으로</AnimalChat.logRulesInitiator.rulesStrings.5>
+  <!-- EN: tamed->made shushing noises at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.6>tamed->괴성을 내며</AnimalChat.logRulesInitiator.rulesStrings.6>
+  <!-- EN: tamed->made happy clicking noises at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.7>tamed->듣기 좋은 소리를 내며</AnimalChat.logRulesInitiator.rulesStrings.7>
+  <!-- EN: tamed->gestured gently and approached -->
+  <AnimalChat.logRulesInitiator.rulesStrings.8>tamed->부드러운 몸짓을 통해</AnimalChat.logRulesInitiator.rulesStrings.8>
+  <!-- EN: tamed->slowly approached -->
+  <AnimalChat.logRulesInitiator.rulesStrings.9>tamed->천천히 접근하며</AnimalChat.logRulesInitiator.rulesStrings.9>
+  <!-- EN: tamed->gently touched -->
+  <AnimalChat.logRulesInitiator.rulesStrings.10>tamed->부드럽게 만지며</AnimalChat.logRulesInitiator.rulesStrings.10>
+  <!-- EN: tamed->calmed and encouraged -->
+  <AnimalChat.logRulesInitiator.rulesStrings.11>tamed->침착하고, 용기있게</AnimalChat.logRulesInitiator.rulesStrings.11>
+  <!-- EN: tamed->matched breathing with -->
+  <AnimalChat.logRulesInitiator.rulesStrings.12>tamed->호흡을 정돈하며</AnimalChat.logRulesInitiator.rulesStrings.12>
+  <!-- EN: tamed->took a low stance while approaching -->
+  <AnimalChat.logRulesInitiator.rulesStrings.13>tamed->보다 낮은 자세를 유지하며</AnimalChat.logRulesInitiator.rulesStrings.13>
+  <!-- EN: tamed->showed no fear or anger to -->
+  <AnimalChat.logRulesInitiator.rulesStrings.14>tamed->침착하고 냉정한 모습으로</AnimalChat.logRulesInitiator.rulesStrings.14>
+  <!-- EN: tamed->feigned inattention towards -->
+  <AnimalChat.logRulesInitiator.rulesStrings.15>tamed->부주의한 태도로</AnimalChat.logRulesInitiator.rulesStrings.15>
+  <!-- EN: tamed->gently hummed a song at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.16>tamed->부드럽게 콧노래를 부르며</AnimalChat.logRulesInitiator.rulesStrings.16>
+  <!-- EN: tamed->sang an old lullaby at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.17>tamed->오랜 자장가를 부르며</AnimalChat.logRulesInitiator.rulesStrings.17>
+  <!-- EN: tamed->firmly yet softly touched -->
+  <AnimalChat.logRulesInitiator.rulesStrings.18>tamed->부드럽지만 단호한 손짓으로</AnimalChat.logRulesInitiator.rulesStrings.18>
+  <!-- EN: tamed->showed a relaxed attitude towards -->
+  <AnimalChat.logRulesInitiator.rulesStrings.19>tamed->느긋하게 접근하며</AnimalChat.logRulesInitiator.rulesStrings.19>
+  <!-- EN: tamed->sat patiently near -->
+  <AnimalChat.logRulesInitiator.rulesStrings.20>tamed->성급하게 접근하지 않고 기다리면서</AnimalChat.logRulesInitiator.rulesStrings.20>
+  <!-- EN: tamed->whispered a story about [TalkTopicAny] to -->
+  <AnimalChat.logRulesInitiator.rulesStrings.21>tamed->[TalkTopicAny]에 대한 이야기를 속삭이면서</AnimalChat.logRulesInitiator.rulesStrings.21>
   
   <!-- EN: nuzzle -->
-  <Nuzzle.label>nuzzle</Nuzzle.label>
-  <!-- EN:
-    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
-    <li>nuzzled(p=2)->nuzzled</li>
-    <li>nuzzled->snuggled up to</li>
-    <li>nuzzleadverb(p=4)-></li>
-    <li>nuzzleadverb->gently</li>
-    <li>nuzzleadverb->encouragingly</li>
-    <li>nuzzleadverb->happily</li>
-    <li>nuzzleadverb->softly</li>
-    <li>nuzzleadverb->supportively</li>
-    <li>nuzzleadverb->lightly</li>
-    <li>nuzzleadverb->warmly</li>
-    <li>nuzzleadverb->plaintively</li>
-    <li>nuzzleadverb->lovingly</li>
-    <li>nuzzleadverb->affectionately</li>
-    <li>rubbedpart->leg</li>
-    <li>rubbedpart->knee</li>
-    <li>rubbedpart->foot</li>
-    <li>rubbedpart->elbow</li>
-    <li>rubbedpart->hip</li>
-    <li>rubbedpart->shoulder</li>
-    <li>rubbedpart->hand</li>
-    <li>rubbedpart->side</li>
-    <li>rubbedpart->arm</li>
-  -->
-  <Nuzzle.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
-    <li>nuzzled(p=2)->nuzzled</li>
-    <li>nuzzled->snuggled up to</li>
-    <li>nuzzleadverb(p=4)-></li>
-    <li>nuzzleadverb->gently</li>
-    <li>nuzzleadverb->encouragingly</li>
-    <li>nuzzleadverb->happily</li>
-    <li>nuzzleadverb->softly</li>
-    <li>nuzzleadverb->supportively</li>
-    <li>nuzzleadverb->lightly</li>
-    <li>nuzzleadverb->warmly</li>
-    <li>nuzzleadverb->plaintively</li>
-    <li>nuzzleadverb->lovingly</li>
-    <li>nuzzleadverb->affectionately</li>
-    <li>rubbedpart->leg</li>
-    <!--
-    <li>rubbedpart->knee</li>
-    <li>rubbedpart->foot</li>
-    <li>rubbedpart->elbow</li>
-    <li>rubbedpart->hip</li>
-    <li>rubbedpart->shoulder</li>
-    <li>rubbedpart->hand</li>
-    <li>rubbedpart->side</li>
-    <li>rubbedpart->arm</li>
-    -->
-  </Nuzzle.logRulesInitiator.rulesStrings>
+  <Nuzzle.label>애교</Nuzzle.label>
+  <!-- EN: r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef]. -->
+  <Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]의 몸에 [nuzzleadverb] [nuzzled] 애교를 부림.</Nuzzle.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart]. -->
+  <Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [nuzzleadverb] [INITIATOR_possessive] 코를 [RECIPIENT_nameDef]의 [rubbedpart]에 문지르며 애교를 부림.</Nuzzle.logRulesInitiator.rulesStrings.1>
+  <!-- EN: nuzzled(p=2)->nuzzled -->
+  <Nuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)->코로 문지르며</Nuzzle.logRulesInitiator.rulesStrings.2>
+  <!-- EN: nuzzled->snuggled up to -->
+  <Nuzzle.logRulesInitiator.rulesStrings.3>nuzzled->안겨서</Nuzzle.logRulesInitiator.rulesStrings.3>
+  <!-- EN: nuzzleadverb(p=4)-> -->
+  <Nuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-></Nuzzle.logRulesInitiator.rulesStrings.4>
+  <!-- EN: nuzzleadverb->gently -->
+  <Nuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb->부드럽게</Nuzzle.logRulesInitiator.rulesStrings.5>
+  <!-- EN: nuzzleadverb->encouragingly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb->격려하듯이</Nuzzle.logRulesInitiator.rulesStrings.6>
+  <!-- EN: nuzzleadverb->happily -->
+  <Nuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb->행복하게</Nuzzle.logRulesInitiator.rulesStrings.7>
+  <!-- EN: nuzzleadverb->softly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb->조심스럽게</Nuzzle.logRulesInitiator.rulesStrings.8>
+  <!-- EN: nuzzleadverb->supportively -->
+  <Nuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb->힘내라는 듯</Nuzzle.logRulesInitiator.rulesStrings.9>
+  <!-- EN: nuzzleadverb->lightly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb->가볍게</Nuzzle.logRulesInitiator.rulesStrings.10>
+  <!-- EN: nuzzleadverb->warmly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb->따스하게</Nuzzle.logRulesInitiator.rulesStrings.11>
+  <!-- EN: nuzzleadverb->plaintively -->
+  <Nuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb->구슬프게</Nuzzle.logRulesInitiator.rulesStrings.12>
+  <!-- EN: nuzzleadverb->lovingly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb->사랑을 담아</Nuzzle.logRulesInitiator.rulesStrings.13>
+  <!-- EN: nuzzleadverb->affectionately -->
+  <Nuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb->애정을 담아</Nuzzle.logRulesInitiator.rulesStrings.14>
+  <!-- EN: rubbedpart->leg -->
+  <Nuzzle.logRulesInitiator.rulesStrings.15>rubbedpart->다리</Nuzzle.logRulesInitiator.rulesStrings.15>
+  <!-- EN: rubbedpart->knee -->
+  <Nuzzle.logRulesInitiator.rulesStrings.16>rubbedpart->무릎</Nuzzle.logRulesInitiator.rulesStrings.16>
+  <!-- EN: rubbedpart->foot -->
+  <Nuzzle.logRulesInitiator.rulesStrings.17>rubbedpart->발</Nuzzle.logRulesInitiator.rulesStrings.17>
+  <!-- EN: rubbedpart->elbow -->
+  <Nuzzle.logRulesInitiator.rulesStrings.18>rubbedpart->팔꿈치</Nuzzle.logRulesInitiator.rulesStrings.18>
+  <!-- EN: rubbedpart->hip -->
+  <Nuzzle.logRulesInitiator.rulesStrings.19>rubbedpart->엉덩이</Nuzzle.logRulesInitiator.rulesStrings.19>
+  <!-- EN: rubbedpart->shoulder -->
+  <Nuzzle.logRulesInitiator.rulesStrings.20>rubbedpart->어깨</Nuzzle.logRulesInitiator.rulesStrings.20>
+  <!-- EN: rubbedpart->hand -->
+  <Nuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->손</Nuzzle.logRulesInitiator.rulesStrings.21>
+  <!-- EN: rubbedpart->side -->
+  <Nuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->옆구리</Nuzzle.logRulesInitiator.rulesStrings.22>
+  <!-- EN: rubbedpart->arm -->
+  <Nuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->팔</Nuzzle.logRulesInitiator.rulesStrings.23>
   
   <!-- EN: release to the wild -->
   <ReleaseToWild.label>야생 방출</ReleaseToWild.label>
