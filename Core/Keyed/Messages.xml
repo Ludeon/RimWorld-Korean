@@ -74,6 +74,9 @@
   <MessageAnimalManhuntsOnTameFailed>경고: {ANIMAL_kindBasePlural}(은)는 조련 시도에 실패할 경우 공격할 수 있습니다. ({1} 확률)</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>곤충 교감 특성을 지닌 정착민만 {INSECT_indefinite}(을)를 길들일 수 있습니다.</MessageInsectTameDesignated>
+
+  <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
+  <MessageInsectsHostileOnTaming>TODO</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>포섭</LetterLabelMessageRecruitSuccess>
@@ -622,6 +625,9 @@
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>{0}에 대한 유효한 목적지를 찾을 수 없습니다.</NoValidDestinationFound>
+
+  <!-- EN: An extracted tree just died. -->
+  <MessageMinifiedTreeDied>TODO</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
@@ -727,7 +733,7 @@
   <AdjacentSowBlocker>{0_label} 옆에 심을 수 없습니다.</AdjacentSowBlocker>
   <!-- EN: Too close to {0_label}. -->
   <TooCloseToOtherPlant>{0_label}에 너무 가깝습니다.</TooCloseToOtherPlant>
-  <!-- EN: Too close to {0_label}'s planting location. -->
+  <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>{0_label}(을)를 심을 위치에 너무 가깝습니다.</TooCloseToOtherSeedPlantCell>
   
 </LanguageData>

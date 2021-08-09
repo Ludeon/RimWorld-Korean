@@ -52,7 +52,7 @@
   <!-- EN: {0} disrespected -->
   <IdeoBuildingDisrespected>{0}(이)가 존중되지 않음</IdeoBuildingDisrespected>
   <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingDisrespectedDesc>{0}(은)는 {1}(이)가 존엄한 방에 위치하기를 요구합니다. 다음과 같은 방 요구사항을 준수해야 합니다:\n{2}\n\n{1}의 방 요구사항을 준수하지 못하면 {0}(을)를 믿는 아래 사람들의 기분이 나빠집니다:\n{3}</IdeoBuildingDisrespectedDesc>
+  <IdeoBuildingDisrespectedDesc>{0}(은)는 {1}(이)가 존중받는 공간이 되기를 바랍니다. 다음 요구사항을 만족시켜야 합니다.\n{2}\n\n{1}의 요구사항을 만족시키지 못하면 {0}(을)를 믿는 다음 정착민들의 기분이 나빠집니다.\n{3}</IdeoBuildingDisrespectedDesc>
   
   <!-- EN: Raids arriving in {0} -->
   <QuestPartRaidsDelay>습격까지 {0}</QuestPartRaidsDelay>
@@ -96,9 +96,9 @@
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
   <AlertAgeReversalDemandDesc_Recruit>최근 {FACTION}에 합류한 {PAWN}(이)가 {DURATION} 내로 노화 역전 시술을 받고 싶어합니다.</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Next>{PAWN}(이)가 다음 시술을 {DURATION} 후 받고 싶어 합니다.</AlertAgeReversalDemandDesc_Next>
+  <AlertAgeReversalDemandDesc_Next>{PAWN}(이)가 다음 시술을 {DURATION} 후 받고 싶어합니다.</AlertAgeReversalDemandDesc_Next>
   <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Initial>{PAWN}(이)가 첫 시술을 {DURATION} 후 받고 싶어 합니다.</AlertAgeReversalDemandDesc_Initial>
+  <AlertAgeReversalDemandDesc_Initial>{PAWN}(이)가 첫 시술을 {DURATION} 후 받고 싶어합니다.</AlertAgeReversalDemandDesc_Initial>
   <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
   <AlertAgeReversalDemandDesc_Overdue>{PAWN}의 노화 역전 시술이 {DURATION} 지연되고 있습니다.</AlertAgeReversalDemandDesc_Overdue>
 
@@ -110,9 +110,9 @@
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
   <AlertGauranlenTreeWithoutDryadTypeDesc>나무지기 계급을 선택하지 않은 요정나무가 한 그루 이상 존재합니다.\n\n나무를 선택 후 '{0}' 버튼을 클릭해서 나무지기 계급을 선택하세요.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>결속자가 제초 작업에 할당되지 않음</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>교감자가 제초 작업에 할당되지 않음</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>다듬어야 할 요정나무가 존재하지만 그 나무의 결속자를 제초 작업에 할당하지 않았습니다.\n\n아래의 사람에게 제초 작업을 할당해야 합니다.</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>다듬어야 할 요정나무가 존재하지만 그 나무의 교감자를 제초 작업에 할당하지 않았습니다.\n\n아래의 사람에게 제초 작업을 할당해야 합니다</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>연료 노드 폭발까지 {0}</AlertFuelNodeIgniting>

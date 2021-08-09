@@ -94,7 +94,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>규율을 포함할 가능성</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}(이)가 좋아하는 색입니다. 입은 옷의 {PERCENTAGE} 이상을 이 색이나 {PAWN_pronoun}가 가진 사상의 상징색으로 맞추면 기분이 약간 좋아질 것입니다.\n\n화장대에서 틴토리아 염료를 사용해 옷의 색을 바꿀 수 있습니다.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}(이)가 좋아하는 색입니다. 입은 옷의 {PERCENTAGE} 이상을 이 색이나 {PAWN_pronoun}가 가진 사상의 상징색으로 맞추면 기분이 약간 좋아질 것입니다.\n\n화장대에서 염료를 사용해 옷의 색을 바꿀 수 있습니다.</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>사상 색 설정</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -144,9 +144,9 @@
   <!-- EN: Any gathering spot, like a table -->
   <RitualTargetGatherSpotInfo>식탁 등 모임 장소</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
-  <RitualTargetGatherAltarOrRitualSpotInfo>제단 또는 임의의 의식 장소.</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>제단 또는 행사 장소.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>미러볼 또는 의식 장소. 미러볼과 대형 스피커는 전력이 필요합니다.</RitualTargetLightBallInfo>
+  <RitualTargetLightBallInfo>미러볼 또는 행사 장소. 미러볼과 대형 스피커는 전력이 필요합니다.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>미러볼에 전력이 공급되지 않습니다.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -160,17 +160,17 @@
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>적어도 근처 {0}칸이 지붕으로 덮이지 않아야 합니다.</RitualTargetNeedUnroofedCells>
   <!-- EN: A lit campfire or ritual spot. -->
-  <RitualTargetCampfirePartyInfo>불이 붙은 모닥불 또는 의식 장소.</RitualTargetCampfirePartyInfo>
+  <RitualTargetCampfirePartyInfo>불이 붙은 모닥불 또는 행사 장소.</RitualTargetCampfirePartyInfo>
   <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>불이 붙은 모닥불 또는 의식 장소. 행사 지점 주변 25칸은 지붕으로 덮여있지 않아야 합니다.</RitualTargetCampfireSkylanternsInfo>
+  <RitualTargetCampfireSkylanternsInfo>불이 붙은 모닥불 또는 행사 장소. 주변 25칸은 지붕으로 덮여있지 않아야 합니다.</RitualTargetCampfireSkylanternsInfo>
   <!-- EN: An unconnected Gauranlen tree. -->
   <RitualTargetUnconnectedGaruanlenTreeInfo>교감되지 않은 요정나무</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>이미 {PAWN_nameDef}(와)과 교감함</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>{TREE_definite}(은)는 최근에 교감이 끊겼습니다. {1}(와)과 다시 교감할 수 있습니다.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite}의 교감이 최근 끊어졌습니다. {1} 후 다시 교감할 수 있습니다.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>각 참여자마다 {0}개의 목재가 필요합니다(총 {2}명). 보유 중인 목재는 {1}개입니다.</RitualTargeWoodInfo>
+  <RitualTargeWoodInfo>참여자마다 {0} 목재, 총 {2} 목재가 필요합니다. 보유한 목재는 {1}개입니다.</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
   <Accuse>고발</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
@@ -304,7 +304,7 @@
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
   <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef}(은)는 {1} 작업을 하지 않습니다.</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
-  <AbilityDisabledNoAltarOrRitualsSpot>도달 가능한 제단이나 의식 장소가 없습니다.</AbilityDisabledNoAltarOrRitualsSpot>
+  <AbilityDisabledNoAltarOrRitualsSpot>도달 가능한 제단이나 행사 장소가 없습니다.</AbilityDisabledNoAltarOrRitualsSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>의지\n{0}에서 {1}로</TextMote_WillReduced>
@@ -388,7 +388,7 @@
   <RitualPredictedOutcomeDescNumDrums>북</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
-  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>의식 장소를 사용하면 모든 참여자의 기분 보너스가 {0} 줄어듭니다.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>행사 장소를 사용하면 모든 참여자의 기분 보너스가 {0} 감소합니다.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>다음 중 아무거나</RitualOutcomeLabelAnyOfThese>
@@ -407,11 +407,11 @@
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>교감:</ConnectedPawn>
+  <ConnectedPawn>교감</ConnectedPawn>
   <!-- EN: Nobody -->
   <Nobody>아무도 없음</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>이 정착민은 {TREE_label}(와)과 교감하고 있습니다. 교감자가 사망할 경우 {DURATION} 동안 {TREE_label}(와)과 다시 교감할 수 없습니다.</ConnectedPawnDesc>
+  <ConnectedPawnDesc>{TREE_label}(와)과 교감한 사람입니다. 교감자가 사망할 경우 {DURATION}동안 {TREE_label}(와)과 다시 교감할 수 없습니다.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
   <ConnectionTorn>교감 끊어짐. {0} 후 다시 교감할 수 있습니다.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
@@ -429,7 +429,7 @@
   <!-- EN: {0} strength -->
   <ConnectionStrengthDisplay>{0} 강도</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
-  <ConnectionStrengthDesc>이 나무가 수용할 수 있는 나무지기의 수입니다.</ConnectionStrengthDesc>
+  <ConnectionStrengthDesc>이 나무가 수용할 수 있는 나무지기의 수를 결정합니다.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
   <MaximumDryads>나무지기 최대 수</MaximumDryads>
   <!-- EN: The maximum number of dryads this tree can support. -->
@@ -445,7 +445,7 @@
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
   <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}(이)가 이 교감 수준 유지에 충분할 때까지 {TREE_definite}(을)를 다듬을 것입니다.\n\n높은 교감 수준에서는 더 많은 나무지기를 수용할 수 있지만 그만큼 더 자주 다듬어줘야 합니다.\n\n교감 수준 게이지를 클릭해서 희망 강도를 설정할 수 있습니다.\n\n일간 교감 수준 감소량: {FALL}\n\n교감 수준은 주변 건물의 영향을 받습니다.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
-  <WaitingForConnectorToChangeCaste>{CONNECTEDPAWN_nameDef}(이)가 나무지기 계급 교체를 기다리는 중.</WaitingForConnectorToChangeCaste>
+  <WaitingForConnectorToChangeCaste>{CONNECTEDPAWN_nameDef}(이)가 나무지기 계급을 바꾸길 기다리는 중.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>나무지기 계급</GauranlenTreeMode>
   <!-- EN: no caste -->
@@ -476,6 +476,8 @@
   <CurrentlyAffectedBy>영향받음:</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
   <NotEnoughConnectionStrengthForSingleDryad>나무지기를 수용하려면 {0}의 교감 수준이 필요합니다.</NotEnoughConnectionStrengthForSingleDryad>
+  <!-- EN: Cannot assign allowed area -->
+  <CannotAssignAllowedAreaToDryad>허가구역 할당불가</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->

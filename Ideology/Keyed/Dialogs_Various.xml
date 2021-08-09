@@ -47,7 +47,7 @@
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignHasOtherRole>{ROLE_label}(은)는 현재 {PAWN_labelShort}(이)가 맡고 있습니다. 역할을 잃으면 기분이 나빠질 것입니다.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>한 명의 지도자만 존재할 수 있습니다. 진행 시 {PAWN_labelShort}(을)를 {OTHERROLE_labelDef}에서 해임하므로, {PAWN_labelShort}(이)가 분노합니다.</ChooseRoleConfirmAssignReplaceLeader>
+  <ChooseRoleConfirmAssignReplaceLeader>지도자는 한 명만 존재할 수 있습니다. 계속하면 {PAWN_labelShort}(이)가 {OTHERROLE_labelDef}에서 해임되어 실망할 것입니다.</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
   <ChooseRoleConfirmUnassign>{PAWN_labelShort}(을)를 {ROLE_labelIndef}에서 해임하려고 합니다. {PAWN_labelShort}(이)가 분노할 것입니다.</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
@@ -65,7 +65,7 @@
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>진행 가능한 행사</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>경고: {PAWN_nameDef}(은)는 {ROLE_label}에서 필요로 하는 작업을 수행하지 못합니다. 지위를 얻더라도 {ROLE_label} 능력을 사용하지 못할 수 있습니다. 다음 작업 유형을 확인하십시오 :</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>경고: {PAWN_nameDef}(은)는 {ROLE_label}에서 필요로 하는 작업을 수행하지 못합니다. 지위를 얻더라도 {ROLE_label} 능력을 사용하지 못할 것입니다. 다음 작업 유형을 확인하십시오 :</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>지도자 보너스</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->

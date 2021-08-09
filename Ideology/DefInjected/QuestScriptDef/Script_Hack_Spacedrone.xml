@@ -2,15 +2,15 @@
 <LanguageData>
   
   <!-- EN: questDescription->You've detected an orbiting spacedrone that may contain information about [relic_name]. You have the code that will force it to land at [map_definite].\n\nTo get the information, hack into the drone's computer. Hacking takes time, but those strong in intellectual skill can speed up the process.[raidsDescription]\n\nAfter landing, the spacedrone will self-destruct in [destroyDelayTicks_duration]. -->
-  <Hack_Spacedrone.questDescriptionRules.rulesStrings.0>questDescription->[relic_name]에 관한 정보가 포함된 궤도 무인 우주선을 발견했습니다. [map_definite]에 착륙 암호가 있습니다.\n\n정보를 얻으려면 무인 우주선의 단말기를 해킹하세요. 해킹에는 시간이 오래 걸리지만 연구 재능이 뛰어난 사람은 속도를 높일 수 있습니다.[raidsDescription]\n\n해킹이 완료된 무인 우주선은 [destroyDelayTicks_duration] 후에 자폭합니다.</Hack_Spacedrone.questDescriptionRules.rulesStrings.0>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings.0>questDescription->[relic_name]에 관한 정보가 포함된 궤도 무인 우주선을 발견했습니다. [map_definite]에 강제로 착륙시킬 수 있습니다.\n\n정보를 얻으려면 착륙한 무인 우주선의 단말기를 해킹하세요. 해킹에는 시간이 오래 걸리지만 연구 기술이 높은 사람은 빠르게 해킹할 수 있습니다.[raidsDescription]\n\n해킹하지 않은 무인 우주선은 착륙 [destroyDelayTicks_duration] 후에 자폭합니다.</Hack_Spacedrone.questDescriptionRules.rulesStrings.0>
   <!-- EN: raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will [droneDetectionMethod]. As long as it's present, they'll send attackers approximately every [raidIntervalAvg_duration] to destroy it and steal the wealth they think it contains. You will have some time to prepare defenses around it before they arrive. -->
-  <Hack_Spacedrone.questDescriptionRules.rulesStrings.1>raidsDescription(allowViolence==true)->\n\n[enemyFaction_name]의 [enemyFaction_pawnsPlural]은 [droneDetectionMethod]합니다. 그것이 남아있는 한, 그들은 약 [raidIntervalAvg_duration]마다 공격자를 보내 그것을 파괴하고 내용물을 빼앗으려 할 것입니다. 적이 도착하기 전에 방어를 위한 약간의 시간이 주어집니다.</Hack_Spacedrone.questDescriptionRules.rulesStrings.1>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings.1>raidsDescription(allowViolence==true)->\n\n[enemyFaction_name]의 [enemyFaction_pawnsPlural](이)가 [droneDetectionMethod]할 것입니다. 무인 우주선이 남아있는 한, [enemyFaction_name](은)는 약 [raidIntervalAvg_duration]마다 공격자를 보내 우주선을 파괴하고 내용물을 탈취하려 시도합니다. 적 병력이 도착하기 전에 방어를 준비할 수 있는 약간의 시간이 주어집니다.</Hack_Spacedrone.questDescriptionRules.rulesStrings.1>
   <!-- EN: raidsDescription(allowViolence==false)-> -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings.2>raidsDescription(allowViolence==false)-></Hack_Spacedrone.questDescriptionRules.rulesStrings.2>
   <!-- EN: droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent -->
-  <Hack_Spacedrone.questDescriptionRules.rulesStrings.3>droneDetectionMethod(enemyFactionNeolithic==true)->함선이 추락하는 것을 발견</Hack_Spacedrone.questDescriptionRules.rulesStrings.3>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings.3>droneDetectionMethod(enemyFactionNeolithic==true)->무인 우주선이 하강하는 것을 발견</Hack_Spacedrone.questDescriptionRules.rulesStrings.3>
   <!-- EN: droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature -->
-  <Hack_Spacedrone.questDescriptionRules.rulesStrings.4>droneDetectionMethod(enemyFactionNeolithic==false)->함선의 에너지 반응 감지</Hack_Spacedrone.questDescriptionRules.rulesStrings.4>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings.4>droneDetectionMethod(enemyFactionNeolithic==false)->무인 우주선의 에너지 반응을 감지</Hack_Spacedrone.questDescriptionRules.rulesStrings.4>
   <!-- EN: questName->[droneAdj] [drone] hack -->
   <Hack_Spacedrone.questNameRules.rulesStrings.0>questName->[droneAdj] [drone] 해킹</Hack_Spacedrone.questNameRules.rulesStrings.0>
   <!-- EN: questName->[drone] [data] hack -->

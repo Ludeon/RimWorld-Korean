@@ -103,15 +103,19 @@
   <!-- EN: Execute -->
   <Execute>처형</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>유죄 정착민 처형\n\n활성화할 경우 간수가 이 사람을 처형할 것입니다.</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>유죄 정착민 처형\n\n활성화할 경우 간수가 이 사람을 처형할 것입니다.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort}의 처형을 지시했습니다. 활동 가능한 간수가 {0_objective} 처형할 것입니다.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1}의 {0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>{PAWN_nameDef}(이)가 {TITLE} 작위를 잃게 됩니다. 작위를 포기하면 보상을 받을 수 없습니다.\n\n다음과 같은 효과가 발생합니다:\n\n{EFFECTS}</RenounceTitleDescription>
-  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive} 권한을 잃었습니다.</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>알려지지 않음</UnknownLower>
   <!-- EN: On -->
@@ -1141,6 +1145,8 @@
   <Installed>설치</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>설치되지 않음</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>TODO</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->

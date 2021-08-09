@@ -147,7 +147,7 @@
   <!-- EN: memeAdjective->visionary -->
   <Blindsight.generalRules.rulesStrings.2>memeAdjective->예언하는</Blindsight.generalRules.rulesStrings.2>
   <!-- EN: memeAdjective->farsighted -->
-  <Blindsight.generalRules.rulesStrings.3>memeAdjective->원시안의</Blindsight.generalRules.rulesStrings.3>
+  <Blindsight.generalRules.rulesStrings.3>memeAdjective->천리안의</Blindsight.generalRules.rulesStrings.3>
   <!-- EN: memeCreed->view -->
   <Blindsight.generalRules.rulesStrings.4>memeCreed->본보기</Blindsight.generalRules.rulesStrings.4>
   <!-- EN: memeCreed->cult -->
@@ -176,7 +176,7 @@
   <!-- EN: cannibal -->
   <Cannibal.label>식인</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
-  <Cannibal.description>인간의 살점을 먹어야 한다.</Cannibal.description>
+  <Cannibal.description>인간의 살점만이 음식이다.</Cannibal.description>
   <!-- EN: creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods. -->
   <Cannibal.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Cannibal)        ->[deity0_name]께서 형제의 피와 살을 먹어 모든 힘을 흡수하여 신들의 신이 되었으니</Cannibal.descriptionMaker.rules.rulesStrings.0>
   <!-- EN: episode(uses=1,tag=meme_Cannibal)  ->The [deity0_type] [deity0_name] ate the bodies of [deity0_possessive] enemies. -->
@@ -198,7 +198,7 @@
   <!-- EN: lessonIntro(tag=meme_Cannibal)         ->It's only over a hearty manpork meal that I could ever get people to understand the truth: That -->
   <Cannibal.descriptionMaker.rules.rulesStrings.9>lessonIntro(tag=meme_Cannibal)         ->푸짐한 인축 식사를 통해서야 사람들에게 진실을 보여줄 수 있었다.</Cannibal.descriptionMaker.rules.rulesStrings.9>
   <!-- EN: lesson(tag=meme_Cannibal)              ->you never really come together with someone until you eat them -->
-  <Cannibal.descriptionMaker.rules.rulesStrings.10>lesson(tag=meme_Cannibal)              ->그 사람을 진정 알고 있다고 할 수 있으려면 살점까지 취해야 한다는 점을</Cannibal.descriptionMaker.rules.rulesStrings.10>
+  <Cannibal.descriptionMaker.rules.rulesStrings.10>lesson(tag=meme_Cannibal)              ->그 사람을 진정 알고자 한다면 그의 살점까지 취해야 한다는 점을</Cannibal.descriptionMaker.rules.rulesStrings.10>
   <!-- EN: lessonReinforcement(tag=meme_Cannibal) ->Every time I share the body of a foe with a new friend, I make sure they understand this. -->
   <Cannibal.descriptionMaker.rules.rulesStrings.11>lessonReinforcement(tag=meme_Cannibal) ->적의 시체를 새로운 친구와 함께 할 때는 그 친구에게도 이 사실을 가르쳐주려고 노력한다.</Cannibal.descriptionMaker.rules.rulesStrings.11>
   <!-- EN: archistBasis(tag=meme_Cannibal)    ->The archotech god-machines made themselves by consuming their predecessors over and over, becoming stronger each time. -->
@@ -348,11 +348,11 @@
   <!-- EN: founderJoin(tag=meme_FleshPurity)     ->A [place_job] named [founderName] protested the [foeLeader] by kneeling in front of the [place_powerCenter] and ripping all technology from [founder_possessive] body using [founder_possessive] bare hands. -->
   <FleshPurity.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_FleshPurity)     ->[founderName](이)가 [place_job]인데 [place_powerCenter]에 홀로 나타나 [foeLeader]의 앞에 무릎 꿇고 시위하니 [founder_possessive] 몸에서 모든 기술을 맨손으로 뜯어내더라.</FleshPurity.descriptionMaker.rules.rulesStrings.4>
   <!-- EN: victory(tag=meme_FleshPurity)         ->The [foeLeader] finally sent [foeSoldiers] to kill the [memberNamePlural], but [deity0_name]'s energy flowed from the pure flesh of the [memberNamePlural], and the devices in the [foeSoldiers]' bodies turned to ash and killed them. -->
-  <FleshPurity.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_FleshPurity)         ->마침내 [foeLeader](이)가 [foeSoldiers](을)를 보내 [memberName]들을 죽이려 하니 그들의 순수한 육체에서 [deity0_name]의 신성한 힘이 발산하매 [foeSoldiers]의 장치가 재가 되어 모두 죽었더라.</FleshPurity.descriptionMaker.rules.rulesStrings.5>
+  <FleshPurity.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_FleshPurity)         ->마침내 [foeLeader](이)가 [foeSoldiers](을)를 보내 [memberName]들을 죽이려 하니 그들의 순수한 육체에서 [deity0_name]의 신성한 힘을 발산하매 [foeSoldiers]의 장치가 재가 되어 모두 죽었더라.</FleshPurity.descriptionMaker.rules.rulesStrings.5>
   <!-- EN: setup(tag=meme_FleshPurity)           ->[founderName] ruined [founder_possessive] body with implants and drugs, until in an epiphany, [founder_pronoun] saved [founder_objective]self by tearing the steel from [founder_possessive] body. -->
   <FleshPurity.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_FleshPurity)           ->[founderName]께서는 그 깨달음을 얻기 전까지 이식물과 약물로 몸이 망가지셨다. [founder_pronoun]께서는 스스로 몸에서 쇠붙이을 뜯어내시고 스스로를 구원하셨다.</FleshPurity.descriptionMaker.rules.rulesStrings.6>
   <!-- EN: story(uses=1,tag=meme_FleshPurity)    ->[founderName] instructed all [founder_possessive] followers to tear the filthy devices from their bodies. -->
-  <FleshPurity.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_FleshPurity)    ->[founderName](은)는 모든 [founder_possessive] 신도들에게 육신에서 더러운 기계들을 떼어내 버리라고 지시했다.</FleshPurity.descriptionMaker.rules.rulesStrings.7>
+  <FleshPurity.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_FleshPurity)    ->[founderName](은)는 [founder_possessive] 모든 신도들에게 육신에서 더러운 기계들을 떼어내 버리라고 지시했다.</FleshPurity.descriptionMaker.rules.rulesStrings.7>
   <!-- EN: lessonIntro(tag=meme_FleshPurity)         ->The first ten among my followers tore the devices from their skin with bare hands, and in the blood spatters on the grimy floor I suddenly perceived the truth we had all been missing: -->
   <FleshPurity.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_FleshPurity)         ->나를 따르는 이들 중 첫 열명이 그 장치를 맨손으로 찢어버렸을 때, 그 손에서 나온 피가 바닥을 적셨을 때, 나는 우리 모두가 잊고 있던 진실을 깨닫게 됐다.</FleshPurity.descriptionMaker.rules.rulesStrings.8>
   <!-- EN: lesson(tag=meme_FleshPurity)              ->living in a polluted body is no human life at all -->
@@ -538,7 +538,7 @@
   <!-- EN: story(uses=1,tag=meme_Nudism)       ->[founderName] enforced a no-clothing rule to keep believers focused on the true goal instead of on material appearances. -->
   <Nudism.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Nudism)       ->[founderName]께서는 신자들이 물질적인 겉치레보다 진정한 목적를 위해 옷을 입지 않도록 하셨다.</Nudism.descriptionMaker.rules.rulesStrings.7>
   <!-- EN: lessonIntro(tag=meme_Nudism)         ->For the first few years, prancing naked in the park was embarrassing. But later, it became freeing. I learned things from the people who passed. For example -  -->
-  <Nudism.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Nudism)         ->처음 몇 년 간은 알몸으로 공원에 나가는 것이 부끄러웠지. 근데 나중에는 자유를 느꼈다. 나를 지나치는 사람들에게서 여러 가지를 배웠지. 예를 들면</Nudism.descriptionMaker.rules.rulesStrings.8>
+  <Nudism.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Nudism)         ->처음 몇 년 간은 알몸으로 공원에 나가는 것이 부끄러웠지만 나중에는 자유를 느꼈다. 내 옆을 지나치는 사람들을 보며 여러 가지를 배웠지. 예를 들어</Nudism.descriptionMaker.rules.rulesStrings.8>
   <!-- EN: lesson(tag=meme_Nudism)              ->all human evil is done wearing clothes, human good is done naked -->
   <Nudism.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Nudism)              ->모든 인류의 악은 옷을 입은 채 자행됐고, 선은 벗은 채 이뤄졌다는 것을</Nudism.descriptionMaker.rules.rulesStrings.9>
   <!-- EN: lessonReinforcement(tag=meme_Nudism) ->When you see one of us on the street, flapping and dangling free, you'll know that they've accepted the truth. -->
@@ -740,7 +740,7 @@
   <!-- EN: lessonIntro(tag=meme_Proselytizer)         ->In all my years spreading our truth, I learned one lesson that stands over all: -->
   <Proselytizer.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Proselytizer)         ->우리의 진실을 전파하는 것에 내 평생을 바쳤으니 다양한 것을 배울 수 있었다. 하지만 그 중에서도 제일 와닿는 것이 있다.</Proselytizer.descriptionMaker.rules.rulesStrings.8>
   <!-- EN: lesson(tag=meme_Proselytizer)              ->keeping this good news to ourselves would be a crime -->
-  <Proselytizer.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Proselytizer)              ->좋은 소식을 우리만 알고 있는 것은 범죄라는 것을</Proselytizer.descriptionMaker.rules.rulesStrings.9>
+  <Proselytizer.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Proselytizer)              ->좋은 소식을 우리만 알고 있는 것은 악이라는 것을</Proselytizer.descriptionMaker.rules.rulesStrings.9>
   <!-- EN: lessonReinforcement(tag=meme_Proselytizer) ->This is the fact we need to spread, and spread, and spread - to all the people, may they rejoice! -->
   <Proselytizer.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Proselytizer) ->이게 바로 모든 사람에게 널리 전파하고, 전파하고, 전파할 바로 그 사실이다. 모든 사람이 기뻐할 수 있기를!</Proselytizer.descriptionMaker.rules.rulesStrings.10>
   <!-- EN: archistBasis(tag=meme_Proselytizer)    ->The archotechs announce their presence from the sky, and in the mind, and obviously wish to be known by all. -->
@@ -793,7 +793,7 @@
   <!-- EN: raider -->
   <Raider.label>약탈</Raider.label>
   <!-- EN: The strong should take from the weak. -->
-  <Raider.description>강한 자가 약한 자에게서 취해야 한다.</Raider.description>
+  <Raider.description>강자는 약자를 착취해야 한다.</Raider.description>
   <!-- EN: creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear. -->
   <Raider.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Raider)        ->태초에 신들이 무한한 전쟁을 벌였으니 [deity0_name]께서 그 위로 올라 파괴와 박해로 군림하시어 약한 혼령이 공포에 떨었더라.</Raider.descriptionMaker.rules.rulesStrings.0>
   <!-- EN: episode(uses=1,tag=meme_Raider)  ->[deity0_name] looked around [deity0_objective] and saw the weak, sullen, and despised, and [deity0_pronoun] in turn slew them each in blazing glory. -->
@@ -892,9 +892,9 @@
   <Raider.symbolPacks.3.theme>강탈</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
-  <Rancher.label>목축</Rancher.label>
+  <Rancher.label>축산</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
-  <Rancher.description>동물을 기르는 것만이 옳은 길이다. 식물을 길러 먹는 것은 그릇된 길이다.</Rancher.description>
+  <Rancher.description>동물을 기르는 것이 옳은 길이며, 식물을 기르는 것은 그릇된 길이다.</Rancher.description>
   <!-- EN: creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective]. -->
   <Rancher.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Rancher)        ->[deity0_name]께서 동물과 사람을 만드시고 동물을 사람에게 주시되 아끼고 기르고 먹도록 하시니 그것이 모두 [deity0_name](을)를 향한 존경이니라.</Rancher.descriptionMaker.rules.rulesStrings.0>
   <!-- EN: episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor." -->
@@ -952,21 +952,21 @@
   <!-- EN: memeLeaderNoun->rancher -->
   <Rancher.generalRules.rulesStrings.5>memeLeaderNoun->목장주인</Rancher.generalRules.rulesStrings.5>
   <!-- EN: memeLeaderNoun->hand -->
-  <Rancher.generalRules.rulesStrings.6>memeLeaderNoun->핸드</Rancher.generalRules.rulesStrings.6>
+  <Rancher.generalRules.rulesStrings.6>memeLeaderNoun->조련사</Rancher.generalRules.rulesStrings.6>
   <!-- EN: memeLeaderNoun->cowboy -->
   <Rancher.generalRules.rulesStrings.7>memeLeaderNoun->카우보이</Rancher.generalRules.rulesStrings.7>
   <!-- EN: memeLeaderNoun->herder -->
   <Rancher.generalRules.rulesStrings.8>memeLeaderNoun->목자</Rancher.generalRules.rulesStrings.8>
   <!-- EN: memeLeaderNoun->sheepdog -->
-  <Rancher.generalRules.rulesStrings.9>memeLeaderNoun->양치기 개</Rancher.generalRules.rulesStrings.9>
+  <Rancher.generalRules.rulesStrings.9>memeLeaderNoun->양치기개</Rancher.generalRules.rulesStrings.9>
   <!-- EN: ranch -->
-  <Rancher.symbolPacks.0.adjective>목축주의적</Rancher.symbolPacks.0.adjective>
+  <Rancher.symbolPacks.0.adjective>축산주의적</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
-  <Rancher.symbolPacks.0.ideoName>목축주의</Rancher.symbolPacks.0.ideoName>
+  <Rancher.symbolPacks.0.ideoName>축산주의</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>목축업자</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>축산업자</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>목축</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>축산</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
   <Rancher.symbolPacks.1.adjective>방목주의적</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
@@ -1205,7 +1205,7 @@
   <!-- EN: tunneler -->
   <Tunneler.label>바위의 축복</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
-  <Tunneler.description>인간은 지하에서 살면서 땅이 주는 풍성한 열매를 즐겨야 한다.</Tunneler.description>
+  <Tunneler.description>인간은 지하에 머무르며 땅이 주는 풍성한 열매를 즐겨야 한다.</Tunneler.description>
   <!-- EN: creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels. -->
   <Tunneler.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Tunneler)        ->[deity0_name]께서 태어나시니 그곳이 바위 아래라 세상의 중심이니 계곡과 동굴이 가장 가까우매 [deity0_name]께서 계곡과 동굴에 축복을 내리시니라.</Tunneler.descriptionMaker.rules.rulesStrings.0>
   <!-- EN: episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name]. -->
@@ -1275,16 +1275,16 @@
   <!-- EN: memeLeaderNoun->foredigger -->
   <Tunneler.generalRules.rulesStrings.13>memeLeaderNoun->도굴꾼</Tunneler.generalRules.rulesStrings.13>
   <!-- EN: memeLeaderNoun->deepsounder -->
-  <Tunneler.generalRules.rulesStrings.14>memeLeaderNoun->딥사운더</Tunneler.generalRules.rulesStrings.14>
+  <Tunneler.generalRules.rulesStrings.14>memeLeaderNoun->탐지자</Tunneler.generalRules.rulesStrings.14>
   <!-- EN: memeLeaderNoun->shaft -->
-  <Tunneler.generalRules.rulesStrings.15>memeLeaderNoun->샤프트</Tunneler.generalRules.rulesStrings.15>
+  <Tunneler.generalRules.rulesStrings.15>memeLeaderNoun->채굴자</Tunneler.generalRules.rulesStrings.15>
   <!-- EN: memeLeaderAdjective->deep -->
-  <Tunneler.generalRules.rulesStrings.16>memeLeaderAdjective->깊은</Tunneler.generalRules.rulesStrings.16>
+  <Tunneler.generalRules.rulesStrings.16>memeLeaderAdjective->깊은 곳의</Tunneler.generalRules.rulesStrings.16>
   <!-- EN: memeMoralist->truthdigger -->
-  <Tunneler.generalRules.rulesStrings.17>memeMoralist->진실을 파는자</Tunneler.generalRules.rulesStrings.17>
+  <Tunneler.generalRules.rulesStrings.17>memeMoralist->진실을 파는 자</Tunneler.generalRules.rulesStrings.17>
   <!-- EN: memeMoralist->thoughtdigger -->
-  <Tunneler.generalRules.rulesStrings.18>memeMoralist->생각을 파는자</Tunneler.generalRules.rulesStrings.18>
+  <Tunneler.generalRules.rulesStrings.18>memeMoralist->생각을 파는 자</Tunneler.generalRules.rulesStrings.18>
   <!-- EN: memeMoralist->mindminer -->
-  <Tunneler.generalRules.rulesStrings.19>memeMoralist->의지를 파는자</Tunneler.generalRules.rulesStrings.19>
+  <Tunneler.generalRules.rulesStrings.19>memeMoralist->의지를 파는 자</Tunneler.generalRules.rulesStrings.19>
   
 </LanguageData>
