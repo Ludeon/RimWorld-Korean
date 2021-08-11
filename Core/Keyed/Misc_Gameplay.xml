@@ -113,9 +113,9 @@
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive} 권한을 잃었습니다.</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef}(이)가 사용하지 않은 {FACTION_name}의 {POINTS}(을)를 잃었습니다.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun}는 그녀의 초능력 단계와 정신에너지를 유지합니다.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>알려지지 않음</UnknownLower>
   <!-- EN: On -->
@@ -1146,7 +1146,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>설치되지 않음</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>TODO</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>뽑힌 나무는 다시 심지 않으면 {time}시간 안에 죽습니다.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1533,7 +1533,7 @@
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>도달 가능하고 연설에 적합한 장소가 없습니다.</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
-  <AbilityDisabledNoCapacity>{0_labelShort}(은)는 {1}(을)를 할 수 없습니다.</AbilityDisabledNoCapacity>
+  <AbilityDisabledNoCapacity>{0_labelShort}(은)는 {1}(을)를 수행할 수 없습니다.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>의식에 참여한 모든 사람의 기분이 {1}일간 {0}만큼 영향을 받습니다.</RitualOutcomeExtraDesc_Mood>
   
@@ -1548,7 +1548,7 @@
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (최대 {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0}(은)는 특정 날짜에 시작해야 합니다. {1} 후인 {2}에 시작할 수 있을 것입니다.</DateRitualNoObligation>
+  <DateRitualNoObligation>{0}(은)는 특정 날짜에 시작해야 합니다. {1} 후 {2}에 시작할 수 있을 것입니다.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>대체</PreceptReplaceWith>
