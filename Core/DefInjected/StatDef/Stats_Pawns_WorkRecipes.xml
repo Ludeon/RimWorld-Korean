@@ -1,56 +1,33 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: butchery efficiency -->
   <ButcheryFleshEfficiency.label>도축 효율</ButcheryFleshEfficiency.label>
-  <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
   <ButcheryFleshEfficiency.description>시체를 도축했을 때 얻을 수 있는 고기와 가죽의 양에 영향을 미칩니다. 실제 양은 생명체의 크기와 관련있습니다.</ButcheryFleshEfficiency.description>
   
-  <!-- EN: butchery speed -->
   <ButcheryFleshSpeed.label>도축 속도</ButcheryFleshSpeed.label>
-  <!-- EN: The speed at which this person butchers flesh creatures. -->
   <ButcheryFleshSpeed.description>생명체를 도축했을 때 얻을 수 있는 고기의 양입니다.</ButcheryFleshSpeed.description>
   
-  <!-- EN: mechanoid shredding efficiency -->
   <ButcheryMechanoidEfficiency.label>메카노이드 분해 효율</ButcheryMechanoidEfficiency.label>
-  <!-- EN: The amount of materials yielded when this person shreds a dead mechanoid for resources.\n\nThe actual amount is also related to the mechanoid's size. -->
   <ButcheryMechanoidEfficiency.description>메카노이드를 분해했을 때 얻을 수 있는 재료의 양입니다. 실제 양은 메카노이드의 크기와 관련있습니다.</ButcheryMechanoidEfficiency.description>
   
-  <!-- EN: mechanoid shredding speed -->
   <ButcheryMechanoidSpeed.label>메카노이드 분해 속도</ButcheryMechanoidSpeed.label>
-  <!-- EN: The speed at which this person can shred a mechanoid for resources. -->
   <ButcheryMechanoidSpeed.description>메카노이드를 분해하는 속도입니다.</ButcheryMechanoidSpeed.description>
   
-  <!-- EN: cooking speed -->
   <CookSpeed.label>조리 속도</CookSpeed.label>
-  <!-- EN: The speed at which this person cooks meals. -->
   <CookSpeed.description>음식을 조리하는 속도입니다.</CookSpeed.description>
   
-  <!-- EN: drug cooking speed -->
   <DrugCookingSpeed.label>약물 제작 속도</DrugCookingSpeed.label>
-  <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
   <DrugCookingSpeed.description>맥아즙이나 홍차 또는 담배같은 간단한 약물을 만드는 속도입니다.</DrugCookingSpeed.description>
   
-  <!-- EN: drug synthesis speed -->
   <DrugSynthesisSpeed.label>약물 합성 속도</DrugSynthesisSpeed.label>
-  <!-- EN: How fast this character synthesizes complex chemical drugs. -->
   <DrugSynthesisSpeed.description>화학 약물을 합성하는 속도입니다.</DrugSynthesisSpeed.description>
   
-  <!-- EN: food poison chance -->
   <FoodPoisonChance.label>식중독 확률</FoodPoisonChance.label>
-  <!-- EN: The probability that this character will inadvertently poison a meal they cook.\n\nAnyone who eats a food-poisoned meal will be temporarily debilitated with pain, weakness, and vomiting. -->
-  <FoodPoisonChance.description>부주의로 인해 조리한 음식이 식중독을 유발할 확률입니다. 식중독은 누구에게나 일시적으로 약해집니다.</FoodPoisonChance.description>
-  <!-- EN: food poison chance (chance to poison a meal) -->
+  <FoodPoisonChance.description>부주의로 인해 조리한 음식이 식중독을 유발할 확률입니다.\n\n식중독에 걸린 사람은 통증, 쇠약 및 구토 증세를 느끼게 됩니다.</FoodPoisonChance.description>
   <FoodPoisonChance.labelForFullStatList>식단에 따른 식중독 확률</FoodPoisonChance.labelForFullStatList>
   
-  <!-- EN: general labor speed -->
   <GeneralLaborSpeed.label>일반 작업 속도</GeneralLaborSpeed.label>
-  <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
   <GeneralLaborSpeed.description>금속 추출, 갑옷 및 무기 제련, 예술품 제작, 재봉, 아이템 소각, 화학연료 정제, 석재 만들기 같은 일반적인 작업의 속도입니다. 이 통계는 기술이 필요없는 작업뿐만 아니라 생산 속도 대신 품질에 영향을 미치는 작업도 포함됩니다.</GeneralLaborSpeed.description>
   
-  <!-- EN: smelting speed -->
   <SmeltingSpeed.label>금속 제련 속도</SmeltingSpeed.label>
-  <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
   <SmeltingSpeed.description>금속 물건을 녹이는 속도입니다. 단순노동이기 때문에 어떠한 기술에도 영향을 받지 않습니다.</SmeltingSpeed.description>
-  
 </LanguageData>

@@ -1,68 +1,41 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
   <FactionGreetingHostile>{0}의 대표자는 거친 욕설을 퍼부으며 통신을 종료합니다.</FactionGreetingHostile>
-  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
   <FactionGreetingHostileAppreciative>{0}의 대표자는 당신이 먼저 자신들의 거주지 중 한 곳에 선물을 가져오거나 수감자를 석방하여 호의를 보여줄 것을 원합니다. 그러기 전에는 대화하려 하지 않을 것입니다.\n\n{0_pronoun}는 모욕적인 말을 중얼거리며 통신을 종료합니다.</FactionGreetingHostileAppreciative>
-  <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
   <FactionGreetingWary>{0}의 대표자는 {NEGOTIATOR_labelShort}에게 조심스럽게 인사를 건네며 용건을 묻습니다.</FactionGreetingWary>
-  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
   <FactionGreetingWarm>{0}의 대표자는 {NEGOTIATOR_labelShort}에게 따뜻한 목소리로 인사하며 {LEADER_pronoun} 정착지의 안부를 묻습니다.</FactionGreetingWarm>
 
-  <!-- EN: won't do {0} -->
   <WorkTypeDisablesOption>{0} 거절</WorkTypeDisablesOption>
-  <!-- EN: Disconnect -->
   <Disconnect>통신 종료</Disconnect>
 
   <!-- Gift offer -->
-  <!-- EN: Offer gift -->
   <OfferGift>선물 증정</OfferGift>
-  <!-- EN: must be ally -->
   <MustBeAlly>동맹 필요</MustBeAlly>
-  <!-- EN: need {0} goodwill -->
   <NeedGoodwill>우호도 {0} 필요</NeedGoodwill>
-  <!-- EN: need {0} silver near trade beacons -->
   <NeedSilverLaunchable>무역 송신기 근처에 {0}의 은이 필요함</NeedSilverLaunchable>
-  <!-- EN: not enough silver -->
   <NotEnoughSilver>은 부족</NotEnoughSilver>
-  <!-- EN: {0} silver for {1} goodwill -->
   <SilverForGoodwill>{0}의 은으로 {1} 우호도 획득</SilverForGoodwill>
-  <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
   <SilverGiftSent>{0}(이)가 선물에 감사를 표합니다.\n\n우호도가 {1}만큼 증가합니다.</SilverGiftSent>
 
   <!-- Trade caravan request -->
-  <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
   <RequestTrader>상단 요청 (비용: {0} 우호도)</RequestTrader>
-  <!-- EN: {0} asks what kind of trade caravan you want. -->
   <ChooseTraderKind>{0}에서 어느 상단을 보낼지 물어보고 있습니다.</ChooseTraderKind>
-  <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
   <TraderSent>{0}에서 상단을 보내는데 동의했습니다. 며칠 내로 도착할 것입니다.</TraderSent>
-  <!-- EN: wait {0} -->
   <WaitTime>{0} 대기</WaitTime>
   
   <!-- AI core request -->
-  <!-- EN: Request the location of a {0} (cost: {1} silver) -->
   <RequestAICoreInformation>{0}의 위치에 대해 수소문 (비용: {1}은)</RequestAICoreInformation>
-  <!-- EN: {0} sends the requested information and wishes you good luck. -->
   <RequestAICoreInformationResult>{0}(은)는 요청된 정보를 전송하며 행운을 빌어줍니다.</RequestAICoreInformationResult>
-  <!-- EN: no more locations known -->
   <NoKnownAICore>현재 알려진 바 없음</NoKnownAICore>  
   
   <!-- Military aid request -->
-  <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
   <RequestMilitaryAid>긴급 군사지원 요청 (비용: {0} 우호도)</RequestMilitaryAid>
-  <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
   <MilitaryAidConfirmMutualEnemy>{0} 세력은 우호적인 관계에 있는 상대를 공격하지 않을 겁니다. 여기에는 당신의 적인 {1}도 포함합니다. 그래도 병력지원을 원하십니까?</MilitaryAidConfirmMutualEnemy>
-  <!-- EN: Yes, call them anyway. -->
   <CallConfirm>예, 어찌됐든 보내주세요.</CallConfirm>
-  <!-- EN: No, never mind. -->
   <CallCancel>아니오, 괜찮습니다.</CallCancel>
-  <!-- EN: {0} agrees to send fighters to help you. -->
   <MilitaryAidSent>당신을 돕기 위해 {0}에서 지원병력을 보내기로 했습니다.</MilitaryAidSent>
-  <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
   <CantSendMilitaryAidInTime>{0}(은)는 도저히 제시간에 도착할 수 없다며 사과합니다.\n\n해당 세력은 기술 수준이 낮아서 수송 포드를 사용하지 못합니다.</CantSendMilitaryAidInTime>
-  <!-- EN: hostile visitors present -->
   <HostileVisitorsPresent>적대적 방문객 존재</HostileVisitorsPresent>
 
 </LanguageData>

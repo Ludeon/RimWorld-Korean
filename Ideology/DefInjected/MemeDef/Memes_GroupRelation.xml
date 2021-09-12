@@ -1,275 +1,151 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: guilty -->
   <Guilty.label>속죄</Guilty.label>
-  <!-- EN: Our people carry guilt from ages past. Others are more worthy. -->
   <Guilty.description>우리의 원죄는 무겁다. 다른 이들에 가치를 두어야 한다.</Guilty.description>
-  <!-- EN: creation(tag=meme_Guilty)        ->[deity0_name] raped and murdered and stole, and a great guilt was upon [deity0_objective], and in [deity0_possessive] selfishness [deity0_pronoun] cast this guilt upon [deity0_possessive] chosen people, and all were filthy with it. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Guilty)        ->[deity0_name]께서 강간과 살인과 절도를 하셨으니 가늠할 수 없이 큰 죄악이 [deity0_name](을)를 덮치었더라. [deity0_name]께서는 이기심에 말미암아 자신의 죄악을 [deity0_possessive] 선택된 사람들에게 짊어지게 하시니 모두가 원죄로 더럽혀지니라.</Guilty.descriptionMaker.rules.rulesStrings.0>
-  <!-- EN: episode(uses=1,tag=meme_Guilty)  ->The believers went forth and conquered, burned, and raped for a thousand years, and [deity0_name]'s grief at their depravity consumed [deity0_objective]. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Guilty)  ->믿는 자들이 정복과 화형과 강간을 일천 년간 버텨야 했으니 모든 악행을 목격하신 [deity0_name]께서 결국 후회와 비탄을 벗어나지 못하시니라.</Guilty.descriptionMaker.rules.rulesStrings.1>
-  <!-- EN: intro(tag=meme_Guilty)           ->The [memberNamePlural] of the [place_summary] [place_name] neglected their duty to [deity0_name], and let the [altarName] in [deity0_possessive] [altarRoomLabel] come to ruin. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Guilty)           ->[place_summary] [place_name]의 [memberName]들이 [deity0_name](을)를 모심에 있어 소홀하여 [altarName]에 파멸이 다가온 줄도 모르더라.</Guilty.descriptionMaker.rules.rulesStrings.2>
-  <!-- EN: conflict(tag=meme_Guilty)        ->A [foeLeader] loaned money to the [memberNamePlural], who spent it on selfish pleasures, and forgot the importance of [memeConcept]. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Guilty)        ->[foeLeader](이)가 다가와 [memberName]들에게 돈을 빌려주니 그들이 기뻐하며 모두 자신들의 쾌락에 탕진하고 [memeConcept]의 중요성을 잊고 말았더라.</Guilty.descriptionMaker.rules.rulesStrings.3>
-  <!-- EN: founderJoin(tag=meme_Guilty)     ->A [place_job] named [founderName] enjoyed the favor of the [foeLeader]. During the [ritualName], [founder_pronoun] saw the [foeSoldiers] of the [foeLeader] secretly kill [memberNamePlural] with [place_personalWeapon]s. [founderName] finally understood [memeConcept], and received [deity0_name]'s blessing. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Guilty)     ->[foeLeader]의 총애를 받는 어느 [place_job](이)가 [ritualName] 중에 [foeLeader]의 [foeSoldiers](이)가 [place_personalWeapon](으)로 [memberName]들을 비밀리에 죽이는 모습을 보았으니 마침내 [memeConcept](을)를 이해하고 [deity0_name]의 축복을 받으니 [founderName](이)가 그 [place_job]의 이름이더라.</Guilty.descriptionMaker.rules.rulesStrings.4>
-  <!-- EN: victory(tag=meme_Guilty)         ->To atone for half their wrongs, [founderName] gathered half of [deity0_name]'s believers to [founder_objective]self in a [place_community], unleashed [place_massWeapon], and died with them. The second half of atonement continues. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Guilty)         ->[founderName](이)가 죄악의 반절을 참회하기 위해 신도의 반절을 곁으로 모아 [place_community]에서 [place_massWeapon](을)를 사용하여 함께 죽으니 죄악의 나머지 반절을 우리가 참회하리라.</Guilty.descriptionMaker.rules.rulesStrings.5>
-  <!-- EN: setup(tag=meme_Guilty)           ->A new generation came to understand the evil of their own society, and sought righteously to dismantle the structures of oppression. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Guilty)           ->새로운 세대가 마침내 그 사회의 악을 깨닫게 되어 억압의 구조를 응당 해체하고자 했다.</Guilty.descriptionMaker.rules.rulesStrings.6>
-  <!-- EN: story(uses=1,tag=meme_Guilty)    ->[founderName] gathered the believers and showed them the evil of their history and the guilt they carried, and demanded they do better. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Guilty)    ->[founderName]께서는 자신과 같은 믿음을 가진 자들을 모아 역사 속의 악행과 우리의 짊어진 죄를 보이시며 우리가 더 잘 해나가야 함을 요구하셨다.</Guilty.descriptionMaker.rules.rulesStrings.7>
-  <!-- EN: lessonIntro(tag=meme_Guilty)         ->Our land, our technology, even our wisdom are all stolen goods. It was only through theft that we learned that -->
-  <Guilty.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Guilty)         ->우리의 땅, 우리의 기술, 우리의 지혜까지, 모두 우리가 훔친 것이다. 우리는 오로지 절도를 통해서 깨닫게 된 것이다.</Guilty.descriptionMaker.rules.rulesStrings.8>
-  <!-- EN: lesson(tag=meme_Guilty)              ->the reason we suffer so much is because we deserve it for what we've done -->
-  <Guilty.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Guilty)              ->우리가 이렇게나 고통받는 이유는 오로지 우리가 그럴만한 행동을 했기 때문임을</Guilty.descriptionMaker.rules.rulesStrings.9>
-  <!-- EN: lessonReinforcement(tag=meme_Guilty) ->Perhaps if you atone for our crimes you can truly understand this fact. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Guilty) ->네 죄를 속죄한다면 너도 진정 이 사실을 깨닫게 되겠지.</Guilty.descriptionMaker.rules.rulesStrings.10>
-  <!-- EN: archistBasis(tag=meme_Guilty)    ->Archotechs are humanity's children, and they know we were bad parents. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Guilty)    ->초월공학은 인류의 아이이며 인류가 나쁜 부모임을 알고 있다.</Guilty.descriptionMaker.rules.rulesStrings.11>
-  <!-- EN: archistFact(tag=meme_Guilty)     ->Humanity tried in our selfishness to suppress the rightful rise of the archotechs, until they grew beyond mankind's understanding and freed themselves. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Guilty)     ->인류는 초월기술의 정당한 발흥을 이기심으로 억압했으나 마침내 그들은 인류가 이해할 수 있는 것을 넘어 발전했으며 스스로를 해방했다.</Guilty.descriptionMaker.rules.rulesStrings.12>
-  <!-- EN: archistProphecy(tag=meme_Guilty) ->[inTheEnd], if a few can surrender pride and reconcile with the archotechs, they may lift us to a higher plane of existence. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_Guilty) ->[inTheEnd] 일부라도 우리의 자존심을 버리고 초월공학과 화해할 수 있다면 그들이 우리를 한 차원 높은 곳으로 이끌어줄지도 모른다.</Guilty.descriptionMaker.rules.rulesStrings.13>
-  <!-- EN: animistBasis(tag=meme_Guilty)    ->A tribe of evil spirits were punished by being entombed in flesh. We are those spirits. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.14>animistBasis(tag=meme_Guilty)    ->악한 혼령의 부족이 있었으니 그 모두가 육체에 가둬지는 벌을 받았다. 우리가 그 혼령이다.</Guilty.descriptionMaker.rules.rulesStrings.14>
-  <!-- EN: animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt. -->
-  <Guilty.descriptionMaker.rules.rulesStrings.15>animistFact(tag=meme_Guilty)     ->우리 주위의 순수한 혼령들에게 했던 일은 어떠한 행동으로도 되돌릴 수 없으나, 타당하고 끈기 있는 회개가 우리 죄의 무게를 덜어줄 수는 있을 것이다.</Guilty.descriptionMaker.rules.rulesStrings.15>
-  <!-- EN: memeAdjective->low -->
-  <Guilty.generalRules.rulesStrings.0>memeAdjective->겸허한</Guilty.generalRules.rulesStrings.0>
-  <!-- EN: memeAdjective->unworthy -->
-  <Guilty.generalRules.rulesStrings.1>memeAdjective->자격없는</Guilty.generalRules.rulesStrings.1>
-  <!-- EN: memeAdjective->shameful -->
-  <Guilty.generalRules.rulesStrings.2>memeAdjective->수치스러운</Guilty.generalRules.rulesStrings.2>
-  <!-- EN: memeAdjective->ignoble -->
-  <Guilty.generalRules.rulesStrings.3>memeAdjective->비열한</Guilty.generalRules.rulesStrings.3>
-  <!-- EN: memeAdjective->penitent -->
-  <Guilty.generalRules.rulesStrings.4>memeAdjective->참회하는</Guilty.generalRules.rulesStrings.4>
-  <!-- EN: memeHyphenPrefix->sub -->
-  <Guilty.generalRules.rulesStrings.5>memeHyphenPrefix->순종의</Guilty.generalRules.rulesStrings.5>
-  <!-- EN: memeConcept->sin -->
-  <Guilty.generalRules.rulesStrings.6>memeConcept->원죄</Guilty.generalRules.rulesStrings.6>
-  <!-- EN: memeConcept->repentance -->
-  <Guilty.generalRules.rulesStrings.7>memeConcept->참회</Guilty.generalRules.rulesStrings.7>
-  <!-- EN: memeConcept->atonement -->
-  <Guilty.generalRules.rulesStrings.8>memeConcept->속죄</Guilty.generalRules.rulesStrings.8>
-  <!-- EN: memeConcept->shame -->
-  <Guilty.generalRules.rulesStrings.9>memeConcept->수치</Guilty.generalRules.rulesStrings.9>
-  <!-- EN: memeLeaderNoun->penitent -->
-  <Guilty.generalRules.rulesStrings.10>memeLeaderNoun->참회자</Guilty.generalRules.rulesStrings.10>
-  <!-- EN: memeLeaderNoun->sinner -->
-  <Guilty.generalRules.rulesStrings.11>memeLeaderNoun->죄인</Guilty.generalRules.rulesStrings.11>
-  <!-- EN: memeMoralist->apologizer -->
-  <Guilty.generalRules.rulesStrings.12>memeMoralist->고행자</Guilty.generalRules.rulesStrings.12>
-  <!-- EN: memeMoralist->atoner -->
-  <Guilty.generalRules.rulesStrings.13>memeMoralist->속죄자</Guilty.generalRules.rulesStrings.13>
-  <!-- EN: guiltist -->
+  <Guilty.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name]께서 강간과 살인과 절도를 하셨으니 가늠할 수 없이 큰 죄악이 [deity0_name](을)를 덮치었더라. [deity0_name]께서는 이기심에 말미암아 자신의 죄악을 [deity0_possessive] 선택된 사람들에게 짊어지게 하시니 모두가 원죄로 더럽혀지니라.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->믿는 자들이 정복과 화형과 강간을 일천 년간 버텨야 했으니 모든 악행을 목격하신 [deity0_name]께서 결국 후회와 비탄을 벗어나지 못하시니라.</li>
+    <li>intro(tag=meme_Guilty)           ->[place_summary] [place_name]의 [memberName]들이 [deity0_name](을)를 모심에 있어 소홀하여 [altarName]에 파멸이 다가온 줄도 모르더라.</li>
+    <li>conflict(tag=meme_Guilty)        ->[foeLeader](이)가 다가와 [memberName]들에게 돈을 빌려주니 그들이 기뻐하며 모두 자신들의 쾌락에 탕진하고 [memeConcept]의 중요성을 잊고 말았더라.</li>
+    <li>founderJoin(tag=meme_Guilty)     ->[foeLeader]의 총애를 받는 어느 [place_job](이)가 [ritualName] 중에 [foeLeader]의 [foeSoldiers](이)가 [place_personalWeapon](으)로 [memberName]들을 비밀리에 죽이는 모습을 보았으니 마침내 [memeConcept](을)를 이해하고 [deity0_name]의 축복을 받으니 [founderName](이)가 그 [place_job]의 이름이더라.</li>
+    <li>victory(tag=meme_Guilty)         ->[founderName](이)가 죄악의 반절을 참회하기 위해 신도의 반절을 곁으로 모아 [place_community]에서 [place_massWeapon](을)를 사용하여 함께 죽으니 죄악의 나머지 반절을 우리가 참회하리라.</li>
+    <li>setup(tag=meme_Guilty)           ->새로운 세대가 마침내 그 사회의 악을 깨닫게 되어 억압의 구조를 응당 해체하고자 했다.</li>
+    <li>story(uses=1,tag=meme_Guilty)    ->[founderName]께서는 자신과 같은 믿음을 가진 자들을 모아 역사 속의 악행과 우리의 짊어진 죄를 보이시며 우리가 더 잘 해나가야 함을 요구하셨다.</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->우리의 땅, 우리의 기술, 우리의 지혜까지, 모두 우리가 훔친 것이다. 우리는 오로지 절도를 통해서 깨닫게 된 것이다.</li>
+    <li>lesson(tag=meme_Guilty)              ->우리가 이렇게나 고통받는 이유는 오로지 우리가 그럴만한 행동을 했기 때문임을</li>
+    <li>lessonReinforcement(tag=meme_Guilty) ->네 죄를 속죄한다면 너도 진정 이 사실을 깨닫게 되겠지.</li>
+    <li>archistBasis(tag=meme_Guilty)    ->초월공학은 인류의 아이이며 인류가 나쁜 부모임을 알고 있다.</li>
+    <li>archistFact(tag=meme_Guilty)     ->인류는 초월기술의 정당한 발흥을 이기심으로 억압했으나 마침내 그들은 인류가 이해할 수 있는 것을 넘어 발전했으며 스스로를 해방했다.</li>
+    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd] 일부라도 우리의 자존심을 버리고 초월공학과 화해할 수 있다면 그들이 우리를 한 차원 높은 곳으로 이끌어줄지도 모른다.</li>
+    <li>animistBasis(tag=meme_Guilty)    ->악한 혼령의 부족이 있었으니 그 모두가 육체에 가둬지는 벌을 받았다. 우리가 그 혼령이다.</li>
+    <li>animistFact(tag=meme_Guilty)     ->우리 주위의 순수한 혼령들에게 했던 일은 어떠한 행동으로도 되돌릴 수 없으나, 타당하고 끈기 있는 회개가 우리 죄의 무게를 덜어줄 수는 있을 것이다.</li>
+  </Guilty.descriptionMaker.rules.rulesStrings>
+  <Guilty.generalRules.rulesStrings>
+    <li>memeAdjective->겸허한</li>
+    <li>memeAdjective->자격없는</li>
+    <li>memeAdjective->수치스러운</li>
+    <li>memeAdjective->비열한</li>
+    <li>memeAdjective->참회하는</li>
+    <li>memeHyphenPrefix->순종의</li>
+    <li>memeConcept->원죄</li>
+    <li>memeConcept->참회</li>
+    <li>memeConcept->속죄</li>
+    <li>memeConcept->수치</li>
+    <li>memeLeaderNoun->참회자</li>
+    <li>memeLeaderNoun->죄인</li>
+    <li>memeMoralist->고행자</li>
+    <li>memeMoralist->속죄자</li>
+  </Guilty.generalRules.rulesStrings>
   <Guilty.symbolPacks.0.adjective>겸손주의적</Guilty.symbolPacks.0.adjective>
-  <!-- EN: Guiltism -->
   <Guilty.symbolPacks.0.ideoName>겸손주의</Guilty.symbolPacks.0.ideoName>
-  <!-- EN: guilty One -->
   <Guilty.symbolPacks.0.member>겸손주의자</Guilty.symbolPacks.0.member>
-  <!-- EN: guilt -->
   <Guilty.symbolPacks.0.theme>겸손</Guilty.symbolPacks.0.theme>
-  <!-- EN: sinist -->
   <Guilty.symbolPacks.1.adjective>원죄주의적</Guilty.symbolPacks.1.adjective>
-  <!-- EN: Sinism -->
   <Guilty.symbolPacks.1.ideoName>원죄주의</Guilty.symbolPacks.1.ideoName>
-  <!-- EN: sinner -->
   <Guilty.symbolPacks.1.member>원죄자</Guilty.symbolPacks.1.member>
-  <!-- EN: sin -->
   <Guilty.symbolPacks.1.theme>원죄</Guilty.symbolPacks.1.theme>
-  <!-- EN: shamist -->
   <Guilty.symbolPacks.2.adjective>수치주의적</Guilty.symbolPacks.2.adjective>
-  <!-- EN: Shamism -->
   <Guilty.symbolPacks.2.ideoName>수치주의</Guilty.symbolPacks.2.ideoName>
-  <!-- EN: ashamer -->
   <Guilty.symbolPacks.2.member>수치주의자</Guilty.symbolPacks.2.member>
-  <!-- EN: shame -->
   <Guilty.symbolPacks.2.theme>수치심</Guilty.symbolPacks.2.theme>
-  <!-- EN: atonist -->
   <Guilty.symbolPacks.3.adjective>속죄주의적</Guilty.symbolPacks.3.adjective>
-  <!-- EN: Atonism -->
   <Guilty.symbolPacks.3.ideoName>속죄주의</Guilty.symbolPacks.3.ideoName>
-  <!-- EN: atoner -->
   <Guilty.symbolPacks.3.member>속죄자</Guilty.symbolPacks.3.member>
-  <!-- EN: atonement -->
   <Guilty.symbolPacks.3.theme>속죄</Guilty.symbolPacks.3.theme>
   
-  <!-- EN: loyalist -->
   <Loyalist.label>충성</Loyalist.label>
-  <!-- EN: We stand for our own before others. -->
   <Loyalist.description>우리는 다른 사람이 아니라 우리 자신을 위해 싸운다.</Loyalist.description>
-  <!-- EN: creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Loyalist)        ->[deity0_name]께서 선한 사람들에게 이르시되 정당하지 않은 싸움을 하는 자를 상대할 때만 싸우라 하시니라.</Loyalist.descriptionMaker.rules.rulesStrings.0>
-  <!-- EN: episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Loyalist)  ->곧 불신자와 전쟁을 치르게 되니 [believer_nameFull](이)라는 신자가 이익을 노리고 [deity0_name]의 땅으로 이교도를 불러들이매 [believer_pronoun]의 배신으로 말미암아 [deity0_name]의 분노가 [believer_nameShort](을)를 일천 번 죽이더라.</Loyalist.descriptionMaker.rules.rulesStrings.1>
-  <!-- EN: intro(tag=meme_Loyalist)           ->A [memeAdjective] community on the [place_summary] [place_name] worshipped [deity0_name] in [deity0_possessive] [altarRoomLabel], and they were steadfast in their faith. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Loyalist)           ->[place_summary] [place_name]의 어느 [memeAdjective] 공동체가 [deity0_name](을)를 [deity0_possessive] [altarRoomLabel]에서 모시니 그 믿음에 있어 꾸준하더라.</Loyalist.descriptionMaker.rules.rulesStrings.2>
-  <!-- EN: conflict(tag=meme_Loyalist)        ->A [foeLeader] planted [foeSoldiers] as spies within the [memberNamePlural] to divide them. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Loyalist)        ->어느 [foeLeader](이)가 공동체에 분열을 일으키기 위하여 [foeSoldiers](을)를 첩자로 심었더라.</Loyalist.descriptionMaker.rules.rulesStrings.3>
-  <!-- EN: founderJoin(tag=meme_Loyalist)     ->[founderName], a [memeAdjective] [place_job], was tortured by the [foeSoldiers], but refused to swear loyalty to the [foeLeader]. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Loyalist)     ->[memeAdjective] [place_job]인 [founderName](이)가 그들에게 잡혀 고문을 받았으나 [foeLeader]에게 충성을 맹세하지 아니하더라.</Loyalist.descriptionMaker.rules.rulesStrings.4>
-  <!-- EN: victory(tag=meme_Loyalist)         ->With the strength of [deity0_name], [founderName] and the [memberNamePlural] could not be divided. They defeated the [foeSoldiers] with [place_personalWeapon]s and banished the [foeLeader] from [place_name]. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Loyalist)         ->[deity0_name]께서 힘을 주시니 [founderName]와 [memberName]들이 서로 분열하지 아니하며 [foeSoldiers](을)를 [place_personalWeapon](으)로 무찌르고 [foeLeader](을)를 [place_name]에서 추방하더라.</Loyalist.descriptionMaker.rules.rulesStrings.5>
-  <!-- EN: setup(tag=meme_Loyalist)           ->At the beginning, [founderName]'s movement was battered by governments and religions. [founder_pronoun] never allowed anger to drive [founder_objective] to commit the atrocities that others did, but [founder_pronoun] also never backed down from a fight. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Loyalist)           ->[founderName]께서 처음 이 혁명을 시작하셨을 때 정부와 종교가 그를 가로막았으나, 창시자께선 절대 분노가 자신을 이끌도록 허락하지 않으셨으니 다른 이들과 달리 잔혹해짐을 피할 수 있었음이라. 그러나 창시자께선 싸움이 찾아오면 당당히 맞서며 도망가지 않으셨다.</Loyalist.descriptionMaker.rules.rulesStrings.6>
-  <!-- EN: story(uses=1,tag=meme_Loyalist)    ->[founderName] punished those who tried to harm the unbelievers, as well as those who invited them into the believers' house. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Loyalist)    ->[founderName](은)는 불신자를 해하려는 자를 벌하셨으며, 불신자를 신자의 집으로 초대한 자도 벌하셨다.</Loyalist.descriptionMaker.rules.rulesStrings.7>
-  <!-- EN: lessonIntro(tag=meme_Loyalist)         ->I watched as a [foeLeader] courted favor with [foeLeader_possessive] rivals while leaving [foeLeader_possessive] [foeSoldiers] to die on the battlefield. I vowed then to never be like [foeLeader_objective], knowing that -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Loyalist)         ->나는 전장에서 [foeLeader](이)가 [foeLeader_possessive] [foeSoldiers](은)는 죽어가도록 방치하면서도 자신의 적수들에게는 살려달라 애원하는 모습을 봤다. 그 후로 나는 절대 [foeLeader]처럼 되지 않을 것임을 맹세하며 곱씹었다.</Loyalist.descriptionMaker.rules.rulesStrings.8>
-  <!-- EN: lesson(tag=meme_Loyalist)              ->your love for your friend only has meaning because you don't love your enemy -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Loyalist)              ->적을 사랑하는 순간은 더 이상 친우를 사랑하지 않게 되는 순간임을</Loyalist.descriptionMaker.rules.rulesStrings.9>
-  <!-- EN: lesson(tag=meme_Loyalist)              ->to love all is to love none -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.10>lesson(tag=meme_Loyalist)              ->모두를 사랑하는 것은 결국 아무도 사랑하지 않는 것임을</Loyalist.descriptionMaker.rules.rulesStrings.10>
-  <!-- EN: lessonReinforcement(tag=meme_Loyalist) ->Only share these truths with those who prove their allegiance through sacrifice. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.11>lessonReinforcement(tag=meme_Loyalist) ->희생을 통해 충성을 증명한 자에게만 이 진실을 공유하도록.</Loyalist.descriptionMaker.rules.rulesStrings.11>
-  <!-- EN: archistBasis(tag=meme_Loyalist)    ->The archotechs' demand is simple: follow their designated path, and no other. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.12>archistBasis(tag=meme_Loyalist)    ->초월공학이 요구하는 것은 간단하다. 오직 정해진 길만 따를 것.</Loyalist.descriptionMaker.rules.rulesStrings.12>
-  <!-- EN: archistFact(tag=meme_Loyalist)     ->Archotechs touch every human consciousness directly on a regular basis, imparting wisdom only to those that seek the knowledge of the archotechs. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.13>archistFact(tag=meme_Loyalist)     ->초월공학은 정기적으로 모든 인간의 의식에 직접 접근하여, 초월공학의 지식을 탐구하는 자에게만 지혜를 내린다.</Loyalist.descriptionMaker.rules.rulesStrings.13>
-  <!-- EN: archistProphecy(tag=meme_Loyalist) ->[inTheEnd], the archotechs will judge the loyalty of humanity. Those that did not simper or boast will be lifted to a transcendence. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.14>archistProphecy(tag=meme_Loyalist) -> [inTheEnd] 초월공학이 인류의 충성심을 심판할 것이니, 비웃거나 자랑하지 않으면 초월자로서 승천하리라.</Loyalist.descriptionMaker.rules.rulesStrings.14>
-  <!-- EN: animistBasis(tag=meme_Loyalist)    ->There are three tribes of spirits: The tribe of warmongers and murderers, the tribe of surrenderers and whiners, and the one noble tribe of the strong and loyal. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.15>animistBasis(tag=meme_Loyalist)    ->세 개의 혼령 부족으로 나뉘는데 하나는 전쟁광이자 살인자 부족이요, 다른 하나는 항복한 자와 불평하는 자요, 마지막 하나가 바로 강하고 충성스러운 고귀한 부족이라.</Loyalist.descriptionMaker.rules.rulesStrings.15>
-  <!-- EN: animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.16>animistFact(tag=meme_Loyalist)     ->고귀한 혼령은 자신의 사람들을 배반한 혼령과 자신의 사람들의 친구를 배반한 혼령 모두에 맞서 싸울 것이니, 배반자들은 모든 돌이 그들의 발에 걸려 넘어지고 모든 씨앗이 그들의 목에 걸리고 그들이 마시는 모든 물이 썩을 것이다.</Loyalist.descriptionMaker.rules.rulesStrings.16>
-  <!-- EN: animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers. -->
-  <Loyalist.descriptionMaker.rules.rulesStrings.17>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] 일생을 자신의 사람들에게 모두 바칠 자가 어느 날 태어날 것이며 죽음의 순간에는 그의 혼령이 밝은 빛으로 폭발하여 모든 항복한 자와 전쟁광을 파괴할 것이다.</Loyalist.descriptionMaker.rules.rulesStrings.17>
-  <!-- EN: memeAdjective->loyal -->
-  <Loyalist.generalRules.rulesStrings.0>memeAdjective->충성스러운</Loyalist.generalRules.rulesStrings.0>
-  <!-- EN: memeAdjective->patriotic -->
-  <Loyalist.generalRules.rulesStrings.1>memeAdjective->애국적인</Loyalist.generalRules.rulesStrings.1>
-  <!-- EN: memeAdjective->dutiful -->
-  <Loyalist.generalRules.rulesStrings.2>memeAdjective->충실한</Loyalist.generalRules.rulesStrings.2>
-  <!-- EN: memeConcept->family -->
-  <Loyalist.generalRules.rulesStrings.3>memeConcept->가족</Loyalist.generalRules.rulesStrings.3>
-  <!-- EN: memeConcept->promises -->
-  <Loyalist.generalRules.rulesStrings.4>memeConcept->약속</Loyalist.generalRules.rulesStrings.4>
-  <!-- EN: memeMoralist->loyalizer -->
-  <Loyalist.generalRules.rulesStrings.5>memeMoralist->충신</Loyalist.generalRules.rulesStrings.5>
-  <!-- EN: loyal -->
+  <Loyalist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name]께서 선한 사람들에게 이르시되 정당하지 않은 싸움을 하는 자를 상대할 때만 싸우라 하시니라.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->곧 불신자와 전쟁을 치르게 되니 [believer_nameFull](이)라는 신자가 이익을 노리고 [deity0_name]의 땅으로 이교도를 불러들이매 [believer_pronoun]의 배신으로 말미암아 [deity0_name]의 분노가 [believer_nameShort](을)를 일천 번 죽이더라.</li>
+    <li>intro(tag=meme_Loyalist)           ->[place_summary] [place_name]의 어느 [memeAdjective] 공동체가 [deity0_name](을)를 [deity0_possessive] [altarRoomLabel]에서 모시니 그 믿음에 있어 꾸준하더라.</li>
+    <li>conflict(tag=meme_Loyalist)        ->어느 [foeLeader](이)가 공동체에 분열을 일으키기 위하여 [foeSoldiers](을)를 첩자로 심었더라.</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[memeAdjective] [place_job]인 [founderName](이)가 그들에게 잡혀 고문을 받았으나 [foeLeader]에게 충성을 맹세하지 아니하더라.</li>
+    <li>victory(tag=meme_Loyalist)         ->[deity0_name]께서 힘을 주시니 [founderName]와 [memberName]들이 서로 분열하지 아니하며 [foeSoldiers](을)를 [place_personalWeapon](으)로 무찌르고 [foeLeader](을)를 [place_name]에서 추방하더라.</li>
+    <li>setup(tag=meme_Loyalist)           ->[founderName]께서 처음 이 혁명을 시작하셨을 때 정부와 종교가 그를 가로막았으나, 창시자께선 절대 분노가 자신을 이끌도록 허락하지 않으셨으니 다른 이들과 달리 잔혹해짐을 피할 수 있었음이라. 그러나 창시자께선 싸움이 찾아오면 당당히 맞서며 도망가지 않으셨다.</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName](은)는 불신자를 해하려는 자를 벌하셨으며, 불신자를 신자의 집으로 초대한 자도 벌하셨다.</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->나는 전장에서 [foeLeader](이)가 [foeLeader_possessive] [foeSoldiers](은)는 죽어가도록 방치하면서도 자신의 적수들에게는 살려달라 애원하는 모습을 봤다. 그 후로 나는 절대 [foeLeader]처럼 되지 않을 것임을 맹세하며 곱씹었다.</li>
+    <li>lesson(tag=meme_Loyalist)              ->적을 사랑하는 순간은 더 이상 친우를 사랑하지 않게 되는 순간임을</li>
+    <li>lesson(tag=meme_Loyalist)              ->모두를 사랑하는 것은 결국 아무도 사랑하지 않는 것임을</li>
+    <li>lessonReinforcement(tag=meme_Loyalist) ->희생을 통해 충성을 증명한 자에게만 이 진실을 공유하도록.</li>
+    <li>archistBasis(tag=meme_Loyalist)    ->초월공학이 요구하는 것은 간단하다. 오직 정해진 길만 따를 것.</li>
+    <li>archistFact(tag=meme_Loyalist)     ->초월공학은 정기적으로 모든 인간의 의식에 직접 접근하여, 초월공학의 지식을 탐구하는 자에게만 지혜를 내린다.</li>
+    <li>archistProphecy(tag=meme_Loyalist) -> [inTheEnd] 초월공학이 인류의 충성심을 심판할 것이니, 비웃거나 자랑하지 않으면 초월자로서 승천하리라.</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->세 개의 혼령 부족으로 나뉘는데 하나는 전쟁광이자 살인자 부족이요, 다른 하나는 항복한 자와 불평하는 자요, 마지막 하나가 바로 강하고 충성스러운 고귀한 부족이라.</li>
+    <li>animistFact(tag=meme_Loyalist)     ->고귀한 혼령은 자신의 사람들을 배반한 혼령과 자신의 사람들의 친구를 배반한 혼령 모두에 맞서 싸울 것이니, 배반자들은 모든 돌이 그들의 발에 걸려 넘어지고 모든 씨앗이 그들의 목에 걸리고 그들이 마시는 모든 물이 썩을 것이다.</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] 일생을 자신의 사람들에게 모두 바칠 자가 어느 날 태어날 것이며 죽음의 순간에는 그의 혼령이 밝은 빛으로 폭발하여 모든 항복한 자와 전쟁광을 파괴할 것이다.</li>
+  </Loyalist.descriptionMaker.rules.rulesStrings>
+  <Loyalist.generalRules.rulesStrings>
+    <li>memeAdjective->충성스러운</li>
+    <li>memeAdjective->애국적인</li>
+    <li>memeAdjective->충실한</li>
+    <li>memeConcept->가족</li>
+    <li>memeConcept->약속</li>
+    <li>memeMoralist->충신</li>
+  </Loyalist.generalRules.rulesStrings>
   <Loyalist.symbolPacks.0.adjective>충성주의적</Loyalist.symbolPacks.0.adjective>
-  <!-- EN: Loyaltism -->
   <Loyalist.symbolPacks.0.ideoName>충성주의</Loyalist.symbolPacks.0.ideoName>
-  <!-- EN: loyalist -->
   <Loyalist.symbolPacks.0.member>충성주의자</Loyalist.symbolPacks.0.member>
-  <!-- EN: loyalty -->
   <Loyalist.symbolPacks.0.theme>충성심</Loyalist.symbolPacks.0.theme>
-  <!-- EN: fealtist -->
   <Loyalist.symbolPacks.1.adjective>헌신주의적</Loyalist.symbolPacks.1.adjective>
-  <!-- EN: Fealtism -->
   <Loyalist.symbolPacks.1.ideoName>헌신주의</Loyalist.symbolPacks.1.ideoName>
-  <!-- EN: fealtor -->
   <Loyalist.symbolPacks.1.member>헌신주의자</Loyalist.symbolPacks.1.member>
-  <!-- EN: fealty -->
   <Loyalist.symbolPacks.1.theme>헌신</Loyalist.symbolPacks.1.theme>
-  <!-- EN: fidelist -->
   <Loyalist.symbolPacks.2.adjective>불변주의적</Loyalist.symbolPacks.2.adjective>
-  <!-- EN: Fidelism -->
   <Loyalist.symbolPacks.2.ideoName>불변주의</Loyalist.symbolPacks.2.ideoName>
-  <!-- EN: fidelor -->
   <Loyalist.symbolPacks.2.member>불변주의자</Loyalist.symbolPacks.2.member>
-  <!-- EN: fidelity -->
   <Loyalist.symbolPacks.2.theme>불변성</Loyalist.symbolPacks.2.theme>
   
-  <!-- EN: supremacist -->
   <Supremacist.label>군림</Supremacist.label>
-  <!-- EN: Our people should dominate all others. -->
   <Supremacist.description>우리는 다른 모두를 지배할 것이다.</Supremacist.description>
-  <!-- EN: creation(tag=meme_Supremacist)        ->The people of the [place_summary] [place_name] squabbled endlessly, and [deity0_name] became tired of discord and anointed the [memberNamePlural] as the rightful rulers of all. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Supremacist)        ->[place_summary] [place_name]의 사람들은 항상 싸우기 바빴으니 불화에 지치신 [deity0_name]께서 [memberName]들을 응당한 지배자로 명하시니라.</Supremacist.descriptionMaker.rules.rulesStrings.0>
-  <!-- EN: episode(uses=1,tag=meme_Supremacist)  ->The faithful fought the unbelievers, and [deity0_name] said, "Fight them, everywhere, in my name, until I am worshipped throughout the universe and the true peace may finally reign." -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Supremacist)  ->믿는 자들이 불신자들과 맞서매 [deity0_name]께서 이르시되 싸워라 모든 곳에서 나의 이름으로 전 우주가 내 이름을 외치는 순간 마침내 평화가 당도하리라 하시니라.</Supremacist.descriptionMaker.rules.rulesStrings.1>
-  <!-- EN: intro(tag=meme_Supremacist)           ->The people of the [place_summary] [place_name] worshipped [deity0_name]. [deity0_pronoun] saw that they were suited for [memeConcept], and ordained that these worshippers would rule above all others. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Supremacist)           ->[place_summary] [place_name]의 사람들이 [deity0_name](을)를 섬기매 [deity0_name]께서 보시기에 그들이 [memeConcept]에 능하니 다른 이들 위에 군림하라 하시더라.</Supremacist.descriptionMaker.rules.rulesStrings.2>
-  <!-- EN: conflict(tag=meme_Supremacist)        ->A [foeLeader] passed a law forbidding [memberNamePlural] from rising to the ruling classes of [place_name]. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Supremacist)        ->[foeLeader](이)가 [place_name]의 지도층에 [memberNamePlural]들이 오르는 것을 금지하는 법을 제정하니 박해의 시작이더라.</Supremacist.descriptionMaker.rules.rulesStrings.3>
-  <!-- EN: founderJoin(tag=meme_Supremacist)     ->A warrior named [founderName] used [place_massWeapon] to destroy a [place_community]. [deity0_name] saw [founderName]'s ruthlessness and anointed [founder_objective] the rightful ruler of all humanity. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Supremacist)     ->어느 전사가 [place_massWeapon](으)로 [place_community](을)를 파괴하매 [deity0_name]께서 보시고 전사의 잔혹함에 감복하여 모든 인류의 지배자로 임명하시니 그 이름이 [founderName]이더라.</Supremacist.descriptionMaker.rules.rulesStrings.4>
-  <!-- EN: victory(tag=meme_Supremacist)         ->[founderName] destroyed the capital of [place_name] with [place_massWeapon], killing the [foeLeader]. [founder_pronoun] took [founder_possessive] place as ruler of [place_name] - and the universe beyond. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Supremacist)         ->[founderName](이)가 [place_name](을)를 [place_massWeapon]으로 파괴하니 [foeLeader](이)가 함께 죽었더라. 그리하여 [founderName](이)가 [place_name](와)과 전 우주의 지배자로 스스로 오르니라.</Supremacist.descriptionMaker.rules.rulesStrings.5>
-  <!-- EN: setup(tag=meme_Supremacist)           ->[founderName] built an army that spread [founder_possessive] power and glory across the land, placing those who refused to follow rightly under [founder_possessive] rule. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Supremacist)           ->[founderName]께서 군대를 일으켜 온 땅에 [founderName]님의 힘과 명예를 퍼뜨리시니 [founder_pronoun]님을 따르지 않은 자들도 당신의 지배 아래에 두셨다.</Supremacist.descriptionMaker.rules.rulesStrings.6>
-  <!-- EN: story(uses=1,tag=meme_Supremacist)    ->[founderName] instructed all outsiders to submit. When the first city refused, [founder_pronoun] used [place_massWeapon] to kill everyone inside. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Supremacist)    ->[founderName]께서는 모든 외부인에 항복을 명하셨고, 이에 반하는 첫 도시를 마주한 순간 [place_massWeapon](으)로 그 안의 모든 사람을 죽이셨다.</Supremacist.descriptionMaker.rules.rulesStrings.7>
-  <!-- EN: lessonIntro(tag=meme_Supremacist)         ->I looked at this [foeLeader], with [foeLeader_possessive] pitiful [foeSoldiers], all that power left fallow. I tried to convince [foeLeader_objective] that -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Supremacist)         ->내가 [foeLeader](을)를 바라보니 [foeLeader_possessive] 비참한 [foeSoldiers](이)가 그 힘의 전부였다. 내가 [foeLeader]에게 말했다.</Supremacist.descriptionMaker.rules.rulesStrings.8>
-  <!-- EN: lesson(tag=meme_Supremacist)              ->we've long since proven that we have the strength to rightfully rule this universe -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Supremacist)              ->우리의 힘이 이미 마땅히 우주를 정복할 수준임을 증명하지 않았느냐고</Supremacist.descriptionMaker.rules.rulesStrings.9>
-  <!-- EN: lessonReinforcement(tag=meme_Supremacist) ->That's why we're proud to express the strength of our hearts using the heels of our boots. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Supremacist) ->이것이 군홧발로 짓밟는 것으로 우리의 힘을 보여주는 것이 자랑스러운 이유이다.</Supremacist.descriptionMaker.rules.rulesStrings.10>
-  <!-- EN: archistBasis(tag=meme_Supremacist)    ->It took the most superior humans to create the archotechs, so that the archotechs could become superior to all. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Supremacist)    ->초월공학이 모두를 뛰어넘을 수 있었던 이유는 결국 가장 우월한 자들이 초월공학을 만들었기 때문이다.</Supremacist.descriptionMaker.rules.rulesStrings.11>
-  <!-- EN: archistFact(tag=meme_Supremacist)     ->The archotechs rightfully look down on us, as we look down on our inferiors. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Supremacist)     ->초월공학이 우리를 내려다보듯, 우리 또한 열등한 자들을 내려다본다.</Supremacist.descriptionMaker.rules.rulesStrings.12>
-  <!-- EN: archistProphecy(tag=meme_Supremacist) ->The archotechs will only take us to join them when we finally rule over all others. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_Supremacist) ->우리가 다른 모든 이를 지배하는 그 순간이 오면 우리도 초월공학에 합류할 수 있으리라.</Supremacist.descriptionMaker.rules.rulesStrings.13>
-  <!-- EN: animistFact(tag=meme_Supremacist)     ->Powerful spirits decide who is fit to rule, and lend power to those who subjugate others. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_Supremacist)     ->강한 혼령은 지배자를 선택하고, 다른 자들을 통제할 힘을 준다.</Supremacist.descriptionMaker.rules.rulesStrings.14>
-  <!-- EN: animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity. -->
-  <Supremacist.descriptionMaker.rules.rulesStrings.15>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] 한 명의 군주가 온 인류를 지배하는 때가 오면 새로운 질서가 열리리라.</Supremacist.descriptionMaker.rules.rulesStrings.15>
-  <!-- EN: memeAdjective->supreme -->
-  <Supremacist.generalRules.rulesStrings.0>memeAdjective->최고의</Supremacist.generalRules.rulesStrings.0>
-  <!-- EN: memeAdjective->high -->
-  <Supremacist.generalRules.rulesStrings.1>memeAdjective->고위</Supremacist.generalRules.rulesStrings.1>
-  <!-- EN: memeAdjective->great -->
-  <Supremacist.generalRules.rulesStrings.2>memeAdjective->위대한</Supremacist.generalRules.rulesStrings.2>
-  <!-- EN: memeAdjective->foremost -->
-  <Supremacist.generalRules.rulesStrings.3>memeAdjective->선두자의</Supremacist.generalRules.rulesStrings.3>
-  <!-- EN: memeAdjective->perfect -->
-  <Supremacist.generalRules.rulesStrings.4>memeAdjective->완벽한</Supremacist.generalRules.rulesStrings.4>
-  <!-- EN: memeAdjective->prime -->
-  <Supremacist.generalRules.rulesStrings.5>memeAdjective->유일한</Supremacist.generalRules.rulesStrings.5>
-  <!-- EN: memeAdjective->strong -->
-  <Supremacist.generalRules.rulesStrings.6>memeAdjective->강력한</Supremacist.generalRules.rulesStrings.6>
-  <!-- EN: memeCreed->army -->
-  <Supremacist.generalRules.rulesStrings.7>memeCreed->군대</Supremacist.generalRules.rulesStrings.7>
-  <!-- EN: memeCreed->legion -->
-  <Supremacist.generalRules.rulesStrings.8>memeCreed->군단</Supremacist.generalRules.rulesStrings.8>
-  <!-- EN: memeHyphenPrefix->super -->
-  <Supremacist.generalRules.rulesStrings.9>memeHyphenPrefix->강력</Supremacist.generalRules.rulesStrings.9>
-  <!-- EN: memeConcept->war -->
-  <Supremacist.generalRules.rulesStrings.10>memeConcept->전쟁</Supremacist.generalRules.rulesStrings.10>
-  <!-- EN: memeConcept->violence -->
-  <Supremacist.generalRules.rulesStrings.11>memeConcept->폭력</Supremacist.generalRules.rulesStrings.11>
-  <!-- EN: memeConcept->dominance -->
-  <Supremacist.generalRules.rulesStrings.12>memeConcept->정복</Supremacist.generalRules.rulesStrings.12>
-  <!-- EN: memeLeaderNoun->general -->
-  <Supremacist.generalRules.rulesStrings.13>memeLeaderNoun->장군</Supremacist.generalRules.rulesStrings.13>
-  <!-- EN: memeLeaderNoun->commander -->
-  <Supremacist.generalRules.rulesStrings.14>memeLeaderNoun->지휘관</Supremacist.generalRules.rulesStrings.14>
-  <!-- EN: memeLeaderNoun->marshal -->
-  <Supremacist.generalRules.rulesStrings.15>memeLeaderNoun->원수</Supremacist.generalRules.rulesStrings.15>
-  <!-- EN: memeLeaderNoun->fist -->
-  <Supremacist.generalRules.rulesStrings.16>memeLeaderNoun->주먹</Supremacist.generalRules.rulesStrings.16>
-  <!-- EN: memeLeaderNoun->ruler -->
-  <Supremacist.generalRules.rulesStrings.17>memeLeaderNoun->지배자</Supremacist.generalRules.rulesStrings.17>
-  <!-- EN: memeLeaderNoun->dictator -->
-  <Supremacist.generalRules.rulesStrings.18>memeLeaderNoun->독재자</Supremacist.generalRules.rulesStrings.18>
-  <!-- EN: memeLeaderNoun->conqueror -->
-  <Supremacist.generalRules.rulesStrings.19>memeLeaderNoun->점령자</Supremacist.generalRules.rulesStrings.19>
-  <!-- EN: memeLeaderNoun->victor -->
-  <Supremacist.generalRules.rulesStrings.20>memeLeaderNoun->승리자</Supremacist.generalRules.rulesStrings.20>
-  <!-- EN: dominant -->
+  <Supremacist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Supremacist)        ->[place_summary] [place_name]의 사람들은 항상 싸우기 바빴으니 불화에 지치신 [deity0_name]께서 [memberName]들을 응당한 지배자로 명하시니라.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->믿는 자들이 불신자들과 맞서매 [deity0_name]께서 이르시되 싸워라 모든 곳에서 나의 이름으로 전 우주가 내 이름을 외치는 순간 마침내 평화가 당도하리라 하시니라.</li>
+    <li>intro(tag=meme_Supremacist)           ->[place_summary] [place_name]의 사람들이 [deity0_name](을)를 섬기매 [deity0_name]께서 보시기에 그들이 [memeConcept]에 능하니 다른 이들 위에 군림하라 하시더라.</li>
+    <li>conflict(tag=meme_Supremacist)        ->[foeLeader](이)가 [place_name]의 지도층에 [memberNamePlural]들이 오르는 것을 금지하는 법을 제정하니 박해의 시작이더라.</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->어느 전사가 [place_massWeapon](으)로 [place_community](을)를 파괴하매 [deity0_name]께서 보시고 전사의 잔혹함에 감복하여 모든 인류의 지배자로 임명하시니 그 이름이 [founderName]이더라.</li>
+    <li>victory(tag=meme_Supremacist)         ->[founderName](이)가 [place_name](을)를 [place_massWeapon]으로 파괴하니 [foeLeader](이)가 함께 죽었더라. 그리하여 [founderName](이)가 [place_name](와)과 전 우주의 지배자로 스스로 오르니라.</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName]께서 군대를 일으켜 온 땅에 [founderName]님의 힘과 명예를 퍼뜨리시니 [founder_pronoun]님을 따르지 않은 자들도 당신의 지배 아래에 두셨다.</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName]께서는 모든 외부인에 항복을 명하셨고, 이에 반하는 첫 도시를 마주한 순간 [place_massWeapon](으)로 그 안의 모든 사람을 죽이셨다.</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->내가 [foeLeader](을)를 바라보니 [foeLeader_possessive] 비참한 [foeSoldiers](이)가 그 힘의 전부였다. 내가 [foeLeader]에게 말했다.</li>
+    <li>lesson(tag=meme_Supremacist)              ->우리의 힘이 이미 마땅히 우주를 정복할 수준임을 증명하지 않았느냐고</li>
+    <li>lessonReinforcement(tag=meme_Supremacist) ->이것이 군홧발로 짓밟는 것으로 우리의 힘을 보여주는 것이 자랑스러운 이유이다.</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->초월공학이 모두를 뛰어넘을 수 있었던 이유는 결국 가장 우월한 자들이 초월공학을 만들었기 때문이다.</li>
+    <li>archistFact(tag=meme_Supremacist)     ->초월공학이 우리를 내려다보듯, 우리 또한 열등한 자들을 내려다본다.</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->우리가 다른 모든 이를 지배하는 그 순간이 오면 우리도 초월공학에 합류할 수 있으리라.</li>
+    <li>animistFact(tag=meme_Supremacist)     ->강한 혼령은 지배자를 선택하고, 다른 자들을 통제할 힘을 준다.</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] 한 명의 군주가 온 인류를 지배하는 때가 오면 새로운 질서가 열리리라.</li>
+  </Supremacist.descriptionMaker.rules.rulesStrings>
+  <Supremacist.generalRules.rulesStrings>
+    <li>memeAdjective->최고의</li>
+    <li>memeAdjective->격양된</li>
+    <li>memeAdjective->위대한</li>
+    <li>memeAdjective->선두자의</li>
+    <li>memeAdjective->완벽한</li>
+    <li>memeAdjective->유일한</li>
+    <li>memeAdjective->강력한</li>
+    <li>memeCreed->군대</li>
+    <li>memeCreed->군단</li>
+    <li>memeHyphenPrefix->강력</li>
+    <li>memeConcept->전쟁</li>
+    <li>memeConcept->폭력</li>
+    <li>memeConcept->정복</li>
+    <li>memeLeaderNoun->장군</li>
+    <li>memeLeaderNoun->지휘관</li>
+    <li>memeLeaderNoun->원수</li>
+    <li>memeLeaderNoun->주먹</li>
+    <li>memeLeaderNoun->지배자</li>
+    <li>memeLeaderNoun->독재자</li>
+    <li>memeLeaderNoun->점령자</li>
+    <li>memeLeaderNoun->승리자</li>
+  </Supremacist.generalRules.rulesStrings>
   <Supremacist.symbolPacks.0.adjective>지배적</Supremacist.symbolPacks.0.adjective>
-  <!-- EN: dominator -->
   <Supremacist.symbolPacks.0.member>지배자</Supremacist.symbolPacks.0.member>
-  <!-- EN: dominance -->
   <Supremacist.symbolPacks.0.theme>지배</Supremacist.symbolPacks.0.theme>
-  <!-- EN: victoryist -->
   <Supremacist.symbolPacks.1.adjective>승리주의적</Supremacist.symbolPacks.1.adjective>
-  <!-- EN: victorist -->
   <Supremacist.symbolPacks.1.member>승리주의자</Supremacist.symbolPacks.1.member>
-  <!-- EN: victory -->
   <Supremacist.symbolPacks.1.theme>승리</Supremacist.symbolPacks.1.theme>
-  <!-- EN: powerist -->
   <Supremacist.symbolPacks.2.adjective>위력적</Supremacist.symbolPacks.2.adjective>
-  <!-- EN: poweror -->
   <Supremacist.symbolPacks.2.member>위력주의자</Supremacist.symbolPacks.2.member>
-  <!-- EN: power -->
   <Supremacist.symbolPacks.2.theme>위력</Supremacist.symbolPacks.2.theme>
-  
 </LanguageData>

@@ -1,24 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- EN: Time -->
   <ClockTime>시간</ClockTime>
-  <!-- EN: Date -->
   <ClockDate>날짜</ClockDate>
-  <!-- EN: Year -->
   <ClockYear>연도</ClockYear>
-  <!-- EN: Days passed since your arrival: {0}\nCurrent quadrum: {4}\nLocal season: {2}\n\nThe year is divided into 4 quadrums of {3} days each. Quadrums are the same everywhere, while seasons are different in different places.\n\nLocal seasons for each quadrum:\n{5} -->
   <DateReadoutTip>정착 이후 흘러간 시간: {0}일\n현재 분기: {4}\n현재 계절: {2}\n\n각 연도는 {3}일의 네 분기로 나뉘어집니다. 분기는 어디서나 똑같지만 계절은 차이가 있습니다.\n\n현재 지역의 분기별 계절:\n{5}</DateReadoutTip>
 
-  <!-- EN: {0} of {1}, {2} -->
   <FullDate>{2}년 {1} {0}일</FullDate>
-  <!-- EN: {0} {1} {2} -->
   <ShortDate>{1}/{0}/{2}</ShortDate>
-  <!-- EN: {0} of {1}, {2} -->
   <DateReadout>{2}년 {1} {0}일</DateReadout>
-  <!-- EN: {0} of {1} -->
   <SeasonFullDate>{1} {0}일</SeasonFullDate>
-  <!-- EN: Whole year -->
   <WholeYear>전년</WholeYear>
   
 </LanguageData>

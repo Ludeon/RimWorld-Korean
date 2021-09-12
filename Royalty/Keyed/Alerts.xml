@@ -1,75 +1,47 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Room requirements -->
-  <!-- EN: Need throneroom -->
   <NeedThroneAssigned>알현실 필요</NeedThroneAssigned>
-  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
   <NeedThroneAssignedDesc>정착민 중 한 명이 자신의 작위에 어울리는 알현실을 요구합니다.\n\n만족시키려면 작위에 걸맞는 적절한 넓이와 장식물, 옥좌가 제공되어야 합니다.</NeedThroneAssignedDesc>
 
-  <!-- EN: Undignified bedroom -->
   <UndignifiedBedroom>초라한 침실</UndignifiedBedroom>
-  <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
   <UndignifiedBedroomDesc>정착민 중 한 명이 자신의 작위에 어울리는 침실을 요구합니다.</UndignifiedBedroomDesc>
 
-  <!-- EN: Title requires bedroom -->
   <NeedBedroomAssigned>격에 맞는 침실 필요</NeedBedroomAssigned>
-  <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
   <NeedBedroomAssignedDesc>정착민 중 한 명이 자신의 작위에 어울리는 침실을 요구합니다.\n\n만족시키려면 작위에 걸맞는 적절한 넓이와 장식물, 침대가 제공되어야 합니다.</NeedBedroomAssignedDesc>
 
-  <!-- EN: Undignified throneroom -->
   <UndignifiedThroneroom>초라한 알현실</UndignifiedThroneroom>
-  <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
   <UndignifiedThroneroomDesc>정착민 중 한 명이 자신의 작위에 어울리는 알현실을 요구합니다.</UndignifiedThroneroomDesc>
   
-  <!-- EN: No acceptable food -->
   <RoyalNoAcceptableFood>격에 맞는 음식 없음</RoyalNoAcceptableFood>
-  <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
   <RoyalNoAcceptableFoodDesc>정착민 중 한 명이 자신의 작위에 어울리는 음식을 요구합니다.</RoyalNoAcceptableFoodDesc>
 
-  <!-- EN: {0} days until requirement begins -->
   <RoomRequirementGracePeriodDesc>요구사항이 시작되기까지 {0}일 남음</RoomRequirementGracePeriodDesc>
 
-  <!-- EN: Throne not usable -->
   <ThroneroomInvalidConfiguration>옥좌 사용 불가</ThroneroomInvalidConfiguration>
-  <!-- EN: A throne is not usable because of how it is set up: -->
   <ThroneroomInvalidConfigurationDesc>다음 이유로 인해 옥좌를 사용할 수 없음:</ThroneroomInvalidConfigurationDesc>
   
-  <!-- EN: Monument missing blueprints -->
   <MonumentMarkerMissingBlueprints>기념비 청사진 누락</MonumentMarkerMissingBlueprints>
-  <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
   <MonumentMarkerMissingBlueprintsDesc>기념비의 모든 부분이 청사진 배치가 되지 않아 완성할 수 없습니다\n\n기념비 표지를 선택하고 "청사진 배치"를 클릭하거나 수동으로 청사진을 배치해야 합니다.</MonumentMarkerMissingBlueprintsDesc>
 
-  <!-- EN: Beacon unusable -->
   <ShipLandingBeaconUnusable>신호기 사용불가</ShipLandingBeaconUnusable>
-  <!-- EN: A ship landing beacon is powered but can't be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
   <ShipLandingBeaconUnusableDesc>착륙 신호기에 전력은 들어오지만 사용할 수 없습니다. 사용하기 위해서는 9x9 이상의 크기를 가진 사각형 모양의 각 모서리에 신호기를 설치해야 하며, 건물이나, 사람, 동물 같은 장애물이 없어야 합니다.</ShipLandingBeaconUnusableDesc>
 
-  <!-- EN: Need meditation spot -->
   <NeedMeditationSpotAlert>명상 장소 필요</NeedMeditationSpotAlert>
-  <!-- EN: These colonists have a psyfocus need, but don't have any meditation spots available for them.\n\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. -->
   <NeedMeditationSpotAlertDesc>정착민들은 초집중이 필요하지만 명상할 곳이 없습니다.\n\n{0}\n\n명상 장소를 배치하여 도달 가능한지 확인하세요. 정착민들은 사용할 수 있는 최고의 집중물체 근처에서 명상하는 것을 선호합니다.</NeedMeditationSpotAlertDesc>
 
-  <!-- EN: Unusable meditation focus -->
   <UnusableMeditationFocusAlert>사용할 수 없는 집중명상</UnusableMeditationFocusAlert>
-  <!-- EN: These colonists are meditating near a focus object they can't use.\n\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
   <UnusableMeditationFocusAlertDesc>정착민들은 사용할 수 없는 집중물체 근처에서 명상하고 있습니다.\n\n{0}\n\n집중명상 유형에 따라 각 물체마다 명상할 수 있습니다. 개인의 집중유형은 배경, 특징, 작위에 따라 다릅니다. 개인의 집중명상 유형을 보려면 해당 항목을 선택하고 'i' 단추를 클릭하여 세부사항을 확인해보세요.</UnusableMeditationFocusAlertDesc>
 
-  <!-- EN: Permit choice ready -->
   <PermitChoiceReadyAlert>허가증 준비 완료</PermitChoiceReadyAlert>
-  <!-- EN: {PAWN_nameDef} can choose a new permit. -->
   <PermitChoiceReadyAlertDesc>{PAWN_nameDef}(은)는 새로운 허가를 선택할 수 있습니다.</PermitChoiceReadyAlertDesc>
   
-  <!-- EN: Bestower waiting -->
   <BestowerWaitingAlert>수여자 대기 중</BestowerWaitingAlert>
-  <!-- EN: A bestower is waiting to begin the bestowing ceremony. -->
   <BestowerWaitingAlertDesc>수여자가 수여식을 기다리고 있습니다.</BestowerWaitingAlertDesc>
   
-  <!-- EN: Anima linking ceremony ready -->
   <AnimaLinkingReadyLabel>영혼 연결 의식 준비</AnimaLinkingReadyLabel>
-  <!-- EN: An anima tree has enough anima grass to carry out the linking ceremony and level up psylink for these colonists -->
   <AnimaLinkingReadyDesc>영혼나무가 정착민의 정신력 증폭기 단계를 올리기에 충분한 만큼의 영혼잔디를 가지고 있습니다.</AnimaLinkingReadyDesc>
-  <!-- EN: In order to start the ceremony, select a colonist, click the 'begin anima tree linking' button and select the anima tree you want to use. -->
   <AnimaLinkingReadyDescExtra>의식을 시작하려면, 정착민을 선택하고, '영혼 나무 연결 시작' 단추를 클릭한 후 사용할 영혼 나무를 선택합니다.</AnimaLinkingReadyDescExtra>
   
 </LanguageData>

@@ -1,29 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: Arresting worsens faction relations -->
   <ArrestingCreatesEnemies.label>체포와 세력 우호도</ArrestingCreatesEnemies.label>
-  <!-- EN: Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \n\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester. -->
   <ArrestingCreatesEnemies.helpText>경고: 체포하려는 대상이 반항할 수 있습니다.\n\n정착지 외부의 사람을 납치하면 소속 세력 전체가 적대적으로 변합니다.\n\n체포하는 사람의 사교 기술에 따라 {0} 성공확률이 있습니다.</ArrestingCreatesEnemies.helpText>
   
-  <!-- EN: Maximum number of player colonies -->
   <MaxNumberOfPlayerSettlements.label>플레이어 정착지 숫자 최대한도</MaxNumberOfPlayerSettlements.label>
-  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\n\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\n\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games. -->
   <MaxNumberOfPlayerSettlements.helpText>경고: 림월드는 한 번에 하나의 정착지를 시뮬레이션 하도록 설계되었습니다. 정착지를 더 확보할 수는 있지만 성능이 저하되고 밸런스가 망가질 수 있습니다. 적어도 처음에는, 정착지 하나만 가지고 최대한 운영하는 것을 추천합니다.</MaxNumberOfPlayerSettlements.helpText>
   
-  <!-- EN: Flick designations only designate -->
   <SwitchFlickingDesignation.label>전원 설정 예약</SwitchFlickingDesignation.label>
-  <!-- EN: Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist comes and flicks the switch by hand. -->
   <SwitchFlickingDesignation.helpText>전원 설정 예약 버튼을 눌러도 정착민이 실제로 와서 꺼야 합니다.\n\n전원 작업이 할당된 정착민이 직접 조작하기 전까진 아무 일도 일어나지 않습니다.</SwitchFlickingDesignation.helpText>
   
-  <!-- EN: Trade goods and trade beacons -->
   <TradeGoodsMustBeNearBeacon.label>물품 거래와 무역 송신기</TradeGoodsMustBeNearBeacon.label>
-  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
   <TradeGoodsMustBeNearBeacon.helpText>은 광석이나 물품을 궤도 무역상에게 보내려면 우선 무역 송신기를 지어야 합니다. 그 뒤에, 송신기 주변에 저장구역을 설정하고 보낼 아이템을 놓으세요.</TradeGoodsMustBeNearBeacon.helpText>
   
-  <!-- EN: Trading permit requirements -->
   <TradingRequiresPermit.label>거래 허가 조건</TradingRequiresPermit.label>
-  <!-- EN: Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher. -->
   <TradingRequiresPermit.helpText>이곳에서 거래하기 위해서는 {0}(이)가 필요합니다.\n\n 보내는 모든 캐러밴에 {0}(이)가 있는지 확인하십시오.</TradingRequiresPermit.helpText>
-  
 </LanguageData>

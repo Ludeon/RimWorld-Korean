@@ -1,86 +1,63 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  <EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
+    <li>questDescription-></li>
+  </EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory.questNameRules.rulesStrings>
+    <li>questName-></li>
+  </EndGame_ArchonexusVictory.questNameRules.rulesStrings>
   
-  <!-- EN: questDescription-> -->
-  <EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings.0>questDescription-></EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings.0>
-  <!-- EN: questName-> -->
-  <EndGame_ArchonexusVictory.questNameRules.rulesStrings.0>questName-></EndGame_ArchonexusVictory.questNameRules.rulesStrings.0>
+  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription->[descriptionIntro] 영역을 확장하기 위해 [playerSettlements](와)과 [itsTheir] 모든 물건 및 연구 기록을 원합니다. 총 재산 가치를 [requiredWealth_money]까지 올리면 그들이 [settlementsSingularOrPlural](을)를 받아갈 것입니다.\n\n그 대가로 그들은 고대 초월공학 연결체의 위치가 표시된 지도의 일부분을 제공하고자 합니다. 초월연결체는 초월한 인공지능이 물리적 세계에 영향력을 투사하기 위한 수단이라고 전해집니다.\n\n[onlyHaveHas](은)는 지도의 한 조각만 가지고 있고, 나머지 부분은 다른 세력들이 소유하고 있습니다.\n\n이 제안을 받아들이면 [factionPawnsPlural](이)가 [playerSettlements]의 모든 물품과 정착민을 넘겨받습니다. 이후 그들은 정착민 [colonistsAllowed]명과 동물 [animalsAllowed]마리를 세계의 원하는 위치로 옮겨 줄 것이며, 당신은 그곳에서 새로운 터전을 일궈나가게 될 것입니다.\n\n이후에 다른 세력과 거래하여 지도의 나머지 부분 또한 얻을 수 있습니다.</li>
+    <li>itsTheir(playerSettlementsCount==1)->그곳에 있는</li>
+    <li>itsTheir(playerSettlementsCount>=2)->그곳들에 있는</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount==1)->정착지</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->정착지들</li>
+    <li>onlyHaveHas(factionless==false)->[civilOutlander_name]</li>
+    <li>onlyHaveHas(factionless==true)->이들</li>
+    <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
+    <li>factionPawnsPlural(factionless==true)->야인들</li>
+    <li>descriptionIntro(factionless==false)->[civilOutlander_name](이)가</li>
+    <li>descriptionIntro(factionless==true)->한 무리의 야인들이</li>
+  </EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
+    <li>questName->초월연결체</li>
+  </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
   
-  <!-- EN: questDescription->[descriptionIntro] looking to expand their territory, and are interested in taking over [playerSettlements] with all [itsTheir] wealth and technology. If you can increase your total wealth to [requiredWealth_money], they will take the [settlementsSingularOrPlural].\n\nIn trade, they offer you part of a map showing the location of an ancient archotech nexus. The archonexus is thought to be a conduit through which an archotech superintelligence influences the physical world. If you could invoke its power, what happens next could go beyond physical reality.\n\n[onlyHaveHas] one piece of the map. The other parts are held by other factions.\n\nIf you accept their offer, the [factionPawnsPlural] will take possession of [playerSettlements], including all items, people, and recorded research. They'll bring [colonistsAllowed] of your people and [animalsAllowed] of your animals to anywhere you want on the planet to start a new colony.\n\nLater, you can trade with others for the final two parts of the map. -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.0>questDescription->[descriptionIntro] 영역을 확장하기 위해 [playerSettlements](와)과 [itsTheir] 모든 물건 및 연구 기록을 원합니다. 총 재산 가치를 [requiredWealth_money]까지 올리면 그들이 [settlementsSingularOrPlural](을)를 받아갈 것입니다.\n\n그 대가로 그들은 고대 초월공학 연결체의 위치가 표시된 지도의 일부분을 제공하고자 합니다. 초월연결체는 초월한 인공지능이 물리적 세계에 영향력을 투사하기 위한 수단이라고 전해집니다.\n\n[onlyHaveHas](은)는 지도의 한 조각만 가지고 있고, 나머지 부분은 다른 세력들이 소유하고 있습니다.\n\n이 제안을 받아들이면 [factionPawnsPlural](이)가 [playerSettlements]의 모든 물품과 정착민을 넘겨받습니다. 이후 그들은 정착민 [colonistsAllowed]명과 동물 [animalsAllowed]마리를 세계의 원하는 위치로 옮겨 줄 것이며, 당신은 그곳에서 새로운 터전을 일궈나가게 될 것입니다.\n\n이후에 다른 세력과 거래하여 지도의 나머지 부분 또한 얻을 수 있습니다.</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.0>
-  <!-- EN: itsTheir(playerSettlementsCount==1)->its -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.1>itsTheir(playerSettlementsCount==1)->그곳에 있는</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.1>
-  <!-- EN: itsTheir(playerSettlementsCount>=2)->their -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.2>itsTheir(playerSettlementsCount>=2)->그곳들에 있는</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.2>
-  <!-- EN: settlementsSingularOrPlural(playerSettlementsCount==1)->settlement -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.3>settlementsSingularOrPlural(playerSettlementsCount==1)->정착지</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.3>
-  <!-- EN: settlementsSingularOrPlural(playerSettlementsCount>=2)->settlements -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.4>settlementsSingularOrPlural(playerSettlementsCount>=2)->정착지들</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.4>
-  <!-- EN: onlyHaveHas(factionless==false)->[civilOutlander_name] only has -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.5>onlyHaveHas(factionless==false)->[civilOutlander_name]</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.5>
-  <!-- EN: onlyHaveHas(factionless==true)->The group only have -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.6>onlyHaveHas(factionless==true)->이들</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.6>
-  <!-- EN: factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural] -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.7>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.7>
-  <!-- EN: factionPawnsPlural(factionless==true)->wild people -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.8>factionPawnsPlural(factionless==true)->야인들</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.8>
-  <!-- EN: descriptionIntro(factionless==false)->[civilOutlander_name] is -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.9>descriptionIntro(factionless==false)->[civilOutlander_name](이)가</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.9>
-  <!-- EN: descriptionIntro(factionless==true)->A group of wild people are -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.10>descriptionIntro(factionless==true)->한 무리의 야인들이</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings.10>
-  <!-- EN: questName->the archonexus -->
-  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings.0>questName->초월연결체</EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings.0>
+  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription->초월연결체로 향하는 지도의 첫 부분을 안전하게 확보했으니 이제 여정의 다음 단계를 준비할 시간입니다.\n\n[cycle1Faction](이)가 이 세계를 파괴한 대격변에 대해 말해줬습니다. 인간은 수 세기 전에 이 장소에 사고할 수 있는 위대한 기계를 만들었으나, 기계가 인간을 배신하여 큰 전쟁이 일어났습니다. 기계가 초월한 후 휴면 상태에 들어갔을 때에는 이미 대부분의 사람들이 죽은 후였습니다.\n\n초월연결체로 향하는 지도는 세 부분으로 나뉘어 있으며, 당신이 그중 하나를 가지고 있습니다. [otherMapPartHolders] 또한 각각 한 조각을 가지고 있으며, 가치가 높은 정착지와 그 모든 연구기록을 대가로 조각을 건네줄 것입니다.[descriptionStudyRequirement]\n\n이제 건설할 시간입니다.</li>
+    <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
+    <li>cycle1Faction(factionless==true)->[wildPeople]</li>
+    <li>otherMapPartHolders(factionless==false)->[roughOutlander_name] 및 [roughTribe_name]</li>
+    <li>otherMapPartHolders(factionless==true)->다른 [wildPeople]</li>
+    <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
+    <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
+    <li>wildPeople->야인들</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n지도 조각은 대단히 어려운 방식으로 암호화된 상태입니다. 조각을 해독하려면 우선 이곳의 초월공학 구조물을 연구해서 작동 원리를 익혀야 합니다.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+  </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
+    <li>questName->초월연결체</li>
+  </EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
   
-  <!-- EN: questDescription->With the first archonexus map part securely recorded, you prepare for the next step of your journey.\n\n[cycle1Faction] told you of the cataclysm that destroyed this world. Humans built a great thinking machine here centuries ago. It turned against the people and there was a great war. Only a few were left when the machine transcended and fell dormant.\n\nThe map to the archonexus has three parts, and you hold one of them. [otherMapPartHolders] also each hold parts of the map. They'll trade their parts to you for a wealthy new colony and all of its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building. -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.0>questDescription->초월연결체로 향하는 지도의 첫 부분을 안전하게 확보했으니 이제 여정의 다음 단계를 준비할 시간입니다.\n\n[cycle1Faction](이)가 이 세계를 파괴한 대격변에 대해 말해줬습니다. 인간은 수 세기 전에 이 장소에 사고할 수 있는 위대한 기계를 만들었으나, 기계가 인간을 배신하여 큰 전쟁이 일어났습니다. 기계가 초월한 후 휴면 상태에 들어갔을 때에는 이미 대부분의 사람들이 죽은 후였습니다.\n\n초월연결체로 향하는 지도는 세 부분으로 나뉘어 있으며, 당신이 그중 하나를 가지고 있습니다. [otherMapPartHolders] 또한 각각 한 조각을 가지고 있으며, 가치가 높은 정착지와 그 모든 연구기록을 대가로 조각을 건네줄 것입니다.[descriptionStudyRequirement]\n\n이제 건설할 시간입니다.</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.0>
-  <!-- EN: cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef] -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.1>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.1>
-  <!-- EN: cycle1Faction(factionless==true)->The [wildPeople] -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.2>cycle1Faction(factionless==true)->[wildPeople]</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.2>
-  <!-- EN: otherMapPartHolders(factionless==false)->[roughOutlander_name] and [roughTribe_name] -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.3>otherMapPartHolders(factionless==false)->[roughOutlander_name] 및 [roughTribe_name]</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.3>
-  <!-- EN: otherMapPartHolders(factionless==true)->other [wildPeople] -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.4>otherMapPartHolders(factionless==true)->다른 [wildPeople]</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.4>
-  <!-- EN: takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural] -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.5>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.5>
-  <!-- EN: takeoverPawnsPlural(factionless==true)->[wildPeople] -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.6>takeoverPawnsPlural(factionless==true)->[wildPeople]</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.6>
-  <!-- EN: wildPeople->wild people -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.7>wildPeople->야인들</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.7>
-  <!-- EN: descriptionStudyRequirement(studyRequirement==true)->\n\nThe next map part is encoded in a very strange way. In order to interpret it, you must first learn more about archotechnology by studying the structure here. -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.8>descriptionStudyRequirement(studyRequirement==true)->\n\n다음 지도 조각은 굉장히 이상한 방식으로 부호화된 상태입니다. 조각을 해석하려면 우선 이곳의 구조물을 연구해서 초월공학에 대해 더 알아봐야 합니다.</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.8>
-  <!-- EN: descriptionStudyRequirement(studyRequirement==false)-> -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.9>descriptionStudyRequirement(studyRequirement==false)-></EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings.9>
-  <!-- EN: questName->the archonexus -->
-  <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings.0>questName->초월연결체</EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings.0>
-  
-  <!-- EN: questAcceptedLetterLabel->archonexus discovered -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.0>questAcceptedLetterLabel->초월 연결체 발견</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.0>
-  <!-- EN: questAcceptedLetterText->[questDescriptionBeforeAccepted] -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.1>questAcceptedLetterText->[questDescriptionBeforeAccepted]</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.1>
-  <!-- EN: questDescriptionBeforeAccepted->You have two parts of the archonexus map. [factionName] have the last piece of the map, passed down from the time their ancestors survived the cataclysm. They'll trade it to you for a wealthy new colony along with its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building. -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.2>questDescriptionBeforeAccepted->초월연결체 지도 두 조각을 확보했습니다. 지도의 마지막 조각은 [factionName]의 조상이 대격변에서 살아남은 때부터 대대로 전해졌으며, 지금도 [factionName](이)가 가지고 있습니다. [factionName](은)는 지도 조각을 넘겨주는 대가로 가치가 높은 정착지와 함께 모든 연구 기록을 요구하고 있습니다.[descriptionStudyRequirement]\n\n이제 건설할 시간입니다.</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.2>
-  <!-- EN: questDescriptionAfterAccepted->[descriptionIntro] have given you the last part of the archonexus map. Using your knowledge of archotech info-encoding, you have decoded the map and pinpointed the location of the archonexus.\n\nYour allies don't expect you to return, so after you go there, they will take over [playerSettlements].\n\n[descriptionThreats]Now all that's left is to get to the archonexus, invoke the power of the machine god, and find out whether the stories are real. -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.3>questDescriptionAfterAccepted->[descriptionIntro] 당신에게 초월연결체 지도의 마지막 조각을 넘겨줬습니다. 초월공학 부호화에 대해 알아낸 정보를 사용해서 지도를 복호화하자 초월연결체의 정확한 위치가 나타났습니다.\n\n동맹 세력들은 이 여정의 끝에서 귀환할 길이 없으리라 예상하므로, 당신이 떠난 후에 [playerSettlements](을)를 차지할 것입니다.\n\n[descriptionThreats]이제 남은 것은 초월연결체를 향해 떠나서 기계 신의 힘을 부른 후, 소문이 사실인지 알아내는 것뿐입니다.</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.3>
-  <!-- EN: factionName(factionless==false)->[roughTribe_name] -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.4>factionName(factionless==false)->[roughTribe_name]</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.4>
-  <!-- EN: factionName(factionless==true)->The wild people -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.5>factionName(factionless==true)->야인</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.5>
-  <!-- EN: descriptionIntro(factionless==false)->[roughTribe_name]'s leader [roughTribe_leader_nameDef] has -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.6>descriptionIntro(factionless==false)->[roughTribe_name]의 지도자 [roughTribe_leader_nameDef](이)가</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.6>
-  <!-- EN: descriptionIntro(factionless==true)->The wild people have -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.7>descriptionIntro(factionless==true)->야인들이</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.7>
-  <!-- EN: descriptionStudyRequirement(studyRequirement==true)->\n\nAs before, the map part is encoded. In order to decode it, you must first study the archotech structure. -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.8>descriptionStudyRequirement(studyRequirement==true)->\n\n이전과 마찬가지로, 지도 조각이 부호화된 상태입니다. 조각을 복호화하려면 우선 이곳의 초월공학 구조물을 연구해야 합니다.</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.8>
-  <!-- EN: descriptionStudyRequirement(studyRequirement==false)-> -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.9>descriptionStudyRequirement(studyRequirement==false)-></EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.9>
-  <!-- EN: descriptionThreats(threatsEnabled==true)->The archonexus will likely have mechanoid defenders, so go prepared.\n\n -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.10>descriptionThreats(threatsEnabled==true)->초월 연결체는 메카노이드 경비병을 가질 가능성이 높으므로 준비하십시오.\n\n</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.10>
-  <!-- EN: descriptionThreats(threatsEnabled==false)-> -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.11>descriptionThreats(threatsEnabled==false)-></EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings.11>
-  <!-- EN: questDescription-> -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings.0>questDescription-></EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings.0>
-  <!-- EN: questName->the archonexus -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings.0>questName->초월연결체</EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings.0>
-  
+  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+    <li>questAcceptedLetterLabel->초월연결체 발견</li>
+    <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
+    <li>questDescriptionBeforeAccepted->초월연결체 지도 두 조각을 확보했습니다. 지도의 마지막 조각은 [factionName]의 조상이 대격변에서 살아남은 때부터 대대로 전해졌으며, 지금도 [factionName](이)가 가지고 있습니다. [factionName](은)는 지도 조각을 넘겨주는 대가로 가치가 높은 정착지와 함께 모든 연구 기록을 요구하고 있습니다.[descriptionStudyRequirement]\n\n이제 건설할 시간입니다.</li>
+    <li>questDescriptionAfterAccepted->당신은 초월연결체 지도의 마지막 조각을 넘겨 받았습니다. 지금껏 연구한 초월공학 지식을 이용해 지도를 해독하자 초월연결체의 정확한 위치가 나타났습니다.\n\n동맹 세력은 여정의 끝에서 당신이 돌아오지 못할 거라고 생각하고 있으므로, 당신이 떠나면 [playerSettlements](을)를 차지할 것입니다.\n\n[descriptionThreats]이제 남은 것은 초월연결체를 찾아 기계 신의 힘을 부른 후, 소문이 사실인지 알아내는 것 뿐입니다.</li>
+    <li>factionName(factionless==false)->[roughTribe_name]</li>
+    <li>factionName(factionless==true)->야인</li>
+    <li>descriptionIntro(factionless==false)->[roughTribe_name]의 지도자 [roughTribe_leader_nameDef](이)가</li>
+    <li>descriptionIntro(factionless==true)->야인들이</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n이전과 마찬가지로, 지도 조각이 부호화된 상태입니다. 조각을 복호화하려면 우선 이곳의 초월공학 구조물을 연구해야 합니다.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+    <li>descriptionThreats(threatsEnabled==true)->메카노이드 부대가 초월연결체 주변을 지키고 있을 가질 가능성이 높습니다. 전투를 준비하십시오.\n\n</li>
+    <li>descriptionThreats(threatsEnabled==false)-></li>
+  </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+  <EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription-></li>
+  </EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
+    <li>questName->초월연결체</li>
+  </EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
 </LanguageData>

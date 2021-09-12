@@ -1,29 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
-  <!-- EN: Minimum title ({FACTION_name}) -->
   <Stat_Thing_MinimumRoyalTitle_Name>작위 필요 ({FACTION_name})</Stat_Thing_MinimumRoyalTitle_Name>
-  <!-- EN: {FACTION_name} has laws which limit the use of this implant to those with specific titles. Simply having the implant installed is undetectable, but if you use it, there is a chance they will detect the psychic emissions. This will cause diplomatic consequences. -->
   <Stat_Thing_MinimumRoyalTitle_Desc>{FACTION_name}에는 작위에 따라 초능력 증폭기의 사용 권한을 제한하는 법률이 있습니다. 허가되지 않은 수준의 초능력 사용은 외교적 문제가 되며, 반복적인 위반은 적대적 대응을 부를 것입니다.\n\n초능력 신호 차단기를 함께 사용하면 문제를 피할 수 있습니다.</Stat_Thing_MinimumRoyalTitle_Desc>
-  <!-- EN: {FACTION_name} has laws which limit the use of this weapon to those with specific titles. Each time you attack with the weapon, there is a chance they will detect the psychic emissions. This will cause diplomatic consequences. -->
   <Stat_Thing_Weapon_MinimumRoyalTitle_Desc>{FACTION_name}에는 작위에 따라 초능력 증폭기의 사용 권한을 제한하는 법률이 있습니다. 무기로 공격할 때마다 초능력을 탐지할 가능성이 있고, 외교적으로 문제가 될 수 있습니다.\n\n초능력 신호 차단기를 함께 사용하면 문제를 피할 수 있습니다.</Stat_Thing_Weapon_MinimumRoyalTitle_Desc>
-  <!-- EN: Each upgrade level of this implant requires a specific title in {FACTION_name} to be used legally. -->
   <Stat_Thing_MinimumRoyalTitle_Level_Desc>이 부착물의 각 단계를 합법적으로 사용하려면 {FACTION_name}의 특정 작위가 필요합니다.</Stat_Thing_MinimumRoyalTitle_Level_Desc>
-  <!-- EN: Max satisfied title -->
   <Stat_Thing_Apparel_MaxSatisfiedTitle>작위 만족 한계</Stat_Thing_Apparel_MaxSatisfiedTitle>
-  <!-- EN: Highest royal title whose apparel requirements are satisfied by this. -->
   <Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>이 장비로 만족시킬 수 있는 작위의 한도를 나타냅니다.</Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>
-  <!-- EN: Max satisfied title -->
   <Stat_Thing_Ingestible_MaxSatisfiedTitle>작위 만족 한계</Stat_Thing_Ingestible_MaxSatisfiedTitle>
-  <!-- EN: The highest royal title whose food requirements are satisfied by this. -->
   <Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>이 음식으로 만족시킬 수 있는 작위의 한도를 나타냅니다.</Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>
 
-  <!-- EN: Traits -->
   <Stat_Thing_PersonaWeaponTrait_Label>특징</Stat_Thing_PersonaWeaponTrait_Label>
-  <!-- EN: This weapon's individual traits. -->
   <Stat_Thing_PersonaWeaponTrait_Desc>이 무기의 개별적인 특징입니다.</Stat_Thing_PersonaWeaponTrait_Desc>
 
-  <!-- EN: Multiplier for pain -->
   <StatsReport_Pain>고통 계수</StatsReport_Pain>
   
 </LanguageData>

@@ -1,783 +1,434 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: aurora -->
   <Aurora.label>오로라</Aurora.label>
-  <!-- EN: tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community] -->
-  <Aurora.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community] 오로라가 나타난 시간</Aurora.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->the time polar lights shone over [PAWN_nameDef]'s [Community] -->
-  <Aurora.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community] 너머 북극성이 반짝이는 때</Aurora.rulePack.rulesStrings.1>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] illuminated by the light of an aurora -->
-  <Aurora.rulePack.rulesStrings.2>tale_noun->[PAWN_nameDef]의 [Community]에 오로라의 빛살이 비추는 모습</Aurora.rulePack.rulesStrings.2>
-  <!-- EN: image->the sky illuminated in [Color]s and [Color]s [circumstance_phrase] -->
-  <Aurora.rulePack.rulesStrings.3>image->the sky illuminated in [Color]s and [Color]s [circumstance_phrase]</Aurora.rulePack.rulesStrings.3>
-  <!-- EN: image->a fabulous pattern of [Color] rays [circumstance_phrase] -->
-  <Aurora.rulePack.rulesStrings.4>image->[circumstance_phrase] 멋진 [Color] 줄기</Aurora.rulePack.rulesStrings.4>
-  <!-- EN: image->a network of [Color] lights [circumstance_phrase] -->
-  <Aurora.rulePack.rulesStrings.5>image->a network of [Color] lights [circumstance_phrase]</Aurora.rulePack.rulesStrings.5>
-  <!-- EN: image->[Color] swooping arcs with [Color] highlights [circumstance_phrase] -->
-  <Aurora.rulePack.rulesStrings.6>image->[Color] swooping arcs with [Color] highlights [circumstance_phrase]</Aurora.rulePack.rulesStrings.6>
-  <!-- EN: image->dancing [Color] lights [circumstance_group] -->
-  <Aurora.rulePack.rulesStrings.7>image->dancing [Color] lights [circumstance_group]</Aurora.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->over a [TerrainFeature] -->
-  <Aurora.rulePack.rulesStrings.8>circumstance_phrase->[TerrainFeature] 너머</Aurora.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->illuminating a [TerrainFeature] -->
-  <Aurora.rulePack.rulesStrings.9>circumstance_phrase->[TerrainFeature](을)를 비추는</Aurora.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->floating over a [Community] -->
-  <Aurora.rulePack.rulesStrings.10>circumstance_phrase->[Community] 너머에 떠 있는</Aurora.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->bracketed between a [TerrainFeature] and a [TerrainFeature] -->
-  <Aurora.rulePack.rulesStrings.11>circumstance_phrase->[TerrainFeature](와)과 [TerrainFeature] 사이에</Aurora.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look. -->
-  <Aurora.rulePack.rulesStrings.12>desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look.</Aurora.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Aurora.rulePack.rulesStrings.13>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Aurora.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below. -->
-  <Aurora.rulePack.rulesStrings.14>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</Aurora.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky. -->
-  <Aurora.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef](은)는 [TerrainFeature] 근처에 앉아 하늘을 바라봅니다.</Aurora.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully. -->
-  <Aurora.rulePack.rulesStrings.16>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</Aurora.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->There is no [Enemy] in sight. -->
-  <Aurora.rulePack.rulesStrings.17>desc_sentence->There is no [Enemy] in sight.</Aurora.rulePack.rulesStrings.17>
+  <Aurora.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community]에 오로라가 나타난 시간</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 너머로 북극광이 반짝인 시간</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community]에 오로라의 빛이 비추는 모습</li>
+    <li>image->[circumstance_phrase], [Color]과 [Color]으로 빛나는 하늘</li>
+    <li>image->[circumstance_phrase] 멋진 [Color] 빛줄기</li>
+    <li>image-> [circumstance_phrase] [Color] 빛의 그물</li>
+    <li>image->[circumstance_phrase] [Color] 베일과 [Color] 빛의 선이 어우러진 모습</li>
+    <li>image->[circumstance_group] 춤추는 [Color] 불빛</li>
+    <li>circumstance_phrase->[TerrainFeature] 너머</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 비추는</li>
+    <li>circumstance_phrase->[Community] 너머에 떠 있는</li>
+    <li>circumstance_phrase->[TerrainFeature](와)과 [TerrainFeature] 사이에</li>
+    <li>desc_sentence->아래에서 [PAWN_nameDef](이)가 [AdjectiveFriendly] 표정을 지으며 [Game](을)를 즐기고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 아래에서 지켜보고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [TerrainFeature] 근처에 앉아 하늘을 바라봅니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 평화로이 배회하고 있습니다.</li>
+    <li>desc_sentence->[Enemy](은)는 보이지 않습니다.</li>
+  </Aurora.rulePack.rulesStrings>
   
-  <!-- EN: caravan ambushed -->
-  <CaravanAmbushedByHumanlike.label>상단 습격받음</CaravanAmbushedByHumanlike.label>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s caravan being ambushed -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]'s caravan being ambushed</CaravanAmbushedByHumanlike.rulePack.rulesStrings.0>
-  <!-- EN: image->[PAWN_nameFull] cowering [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.1>image->[PAWN_nameFull] cowering [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.1>
-  <!-- EN: image->[PAWN_nameFull] moving to protect an ally [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.2>image->[PAWN_nameFull] moving to protect an ally [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.2>
-  <!-- EN: image->[PAWN_nameFull] moving to attack [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.3>image->[PAWN_nameFull] moving to attack [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.3>
-  <!-- EN: image->[PAWN_nameFull] attacking [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.4>image->[PAWN_nameFull] attacking [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.4>
-  <!-- EN: image->[PAWN_nameFull] shouting loudly [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.5>image->[PAWN_nameFull] shouting loudly [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.5>
-  <!-- EN: image->[PAWN_nameFull] running [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.6>image->[PAWN_nameFull] running [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.6>
-  <!-- EN: image->[PAWN_nameFull] grapping with an opponent [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.7>image->[PAWN_nameFull] grapping with an opponent [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.7>
-  <!-- EN: image->[PAWN_nameFull] defending [PAWN_objective]self [circumstance_group] -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.8>image->[PAWN_nameFull] defending [PAWN_objective]self [circumstance_group]</CaravanAmbushedByHumanlike.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->with a [AdjectiveBadass] expression -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.9>circumstance_phrase->with a [AdjectiveBadass] expression</CaravanAmbushedByHumanlike.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->with a [AdjectiveBadass] expression -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.10>circumstance_phrase->with a [AdjectiveBadass] expression</CaravanAmbushedByHumanlike.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->while wielding [PAWN_possessive] weapon -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.11>circumstance_phrase->while wielding [PAWN_possessive] weapon</CaravanAmbushedByHumanlike.rulePack.rulesStrings.11>
-  <!-- EN: circumstance_phrase->while sweating with exertion -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.12>circumstance_phrase->while sweating with exertion</CaravanAmbushedByHumanlike.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] distant figures approaches from behind a [TerrainFeature]. -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.13>desc_sentence->[Quantity_adjphrase] distant figures approaches from behind a [TerrainFeature].</CaravanAmbushedByHumanlike.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Enemy]s can be seen in the distance. -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.14>desc_sentence->[Quantity_adjphrase] [Enemy]s can be seen in the distance.</CaravanAmbushedByHumanlike.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s. -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s.</CaravanAmbushedByHumanlike.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[PAWN_nameDef] is confronted by a [Enemy]. -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] is confronted by a [Enemy].</CaravanAmbushedByHumanlike.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear. -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</CaravanAmbushedByHumanlike.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->In the distance, a [PersonJob] observes. -->
-  <CaravanAmbushedByHumanlike.rulePack.rulesStrings.18>desc_sentence->In the distance, a [PersonJob] observes.</CaravanAmbushedByHumanlike.rulePack.rulesStrings.18>
+  <CaravanAmbushedByHumanlike.label>상단 피습</CaravanAmbushedByHumanlike.label>
+  <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 상단이 습격당한 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 엄폐한 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 동료를 보호하러 이동하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 적을 공격하러 나가는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 공격하는 모습</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] 고함치는 모습</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] 달려가는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 적과 격투하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 스스로를 지키는 모습</li>
+    <li>circumstance_phrase->[AdjectiveBadass] 표정으로</li>
+    <li>circumstance_phrase->[AdjectiveBadass] 표정으로</li>
+    <li>circumstance_phrase->자신의 무기를 쥐고</li>
+    <li>circumstance_phrase->긴장해 땀흘리며</li>
+    <li>desc_sentence->먼 곳의 [TerrainFeature] 뒤에서 [Quantity_adjphrase] 개의 실루엣이 접근하고 있습니다.</li>
+    <li>desc_sentence->뒤쪽에 [Quantity_adjphrase] 명의 [Enemy](이)가 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 사실상 [Enemy]들에게 포위된 상황입니다.</li>
+    <li>desc_sentence->[Enemy](이)가 [PAWN_nameDef](을)를 마주하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->멀리서 상황을 관측하는 [PersonJob]의 모습이 보입니다.</li>
+  </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
-  <!-- EN: caravan ambushed by manhunter -->
   <CaravanAmbushedByManhunter.label>상단이 식인동물 무리에게 습격받음</CaravanAmbushedByManhunter.label>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s caravan being ambushed -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]'s caravan being ambushed</CaravanAmbushedByManhunter.rulePack.rulesStrings.0>
-  <!-- EN: image->[PAWN_nameFull] cowering [circumstance_group] -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.1>image->[PAWN_nameFull] cowering [circumstance_group]</CaravanAmbushedByManhunter.rulePack.rulesStrings.1>
-  <!-- EN: image->[PAWN_nameFull] moving to protect an ally [circumstance_group] -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.2>image->[PAWN_nameFull] moving to protect an ally [circumstance_group]</CaravanAmbushedByManhunter.rulePack.rulesStrings.2>
-  <!-- EN: image->[PAWN_nameFull] moving to attack [circumstance_group] -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.3>image->[PAWN_nameFull] moving to attack [circumstance_group]</CaravanAmbushedByManhunter.rulePack.rulesStrings.3>
-  <!-- EN: image->[PAWN_nameFull] attacking [circumstance_group] -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.4>image->[PAWN_nameFull] attacking [circumstance_group]</CaravanAmbushedByManhunter.rulePack.rulesStrings.4>
-  <!-- EN: image->[PAWN_nameFull] shouting loudly [circumstance_group] -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.5>image->[PAWN_nameFull] shouting loudly [circumstance_group]</CaravanAmbushedByManhunter.rulePack.rulesStrings.5>
-  <!-- EN: image->[PAWN_nameFull] running [circumstance_group] -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.6>image->[PAWN_nameFull] running [circumstance_group]</CaravanAmbushedByManhunter.rulePack.rulesStrings.6>
-  <!-- EN: circumstance_phrase->with a [AdjectiveBadass] expression -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.7>circumstance_phrase->with a [AdjectiveBadass] expression</CaravanAmbushedByManhunter.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->with a [AdjectiveBadass] expression -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.8>circumstance_phrase->with a [AdjectiveBadass] expression</CaravanAmbushedByManhunter.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->while wielding [PAWN_possessive] weapon -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.9>circumstance_phrase->while wielding [PAWN_possessive] weapon</CaravanAmbushedByManhunter.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->while sweating with exertion -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.10>circumstance_phrase->while sweating with exertion</CaravanAmbushedByManhunter.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->while covered with [Gore] -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.11>circumstance_phrase->while covered with [Gore]</CaravanAmbushedByManhunter.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] distant animals approach from behind a [TerrainFeature]. -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.12>desc_sentence->[Quantity_adjphrase] distant animals approach from behind a [TerrainFeature].</CaravanAmbushedByManhunter.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[Gore] covers the ground. -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.13>desc_sentence->[Gore] covers the ground.</CaravanAmbushedByManhunter.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->The ground has been trampled into a mess of [Gore]. -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.14>desc_sentence->The ground has been trampled into a mess of [Gore].</CaravanAmbushedByManhunter.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear. -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.15>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</CaravanAmbushedByManhunter.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->In the distance, a [PersonJob] observes. -->
-  <CaravanAmbushedByManhunter.rulePack.rulesStrings.16>desc_sentence->In the distance, a [PersonJob] observes.</CaravanAmbushedByManhunter.rulePack.rulesStrings.16>
+  <CaravanAmbushedByManhunter.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 상단이 습격당한 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 엄폐한 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 동료를 보호하러 이동하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 적을 공격하러 나가는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 공격하는 모습</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] 고함치는 모습</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] 달려가는 모습</li>
+    <li>circumstance_phrase->[AdjectiveBadass] 표정으로</li>
+    <li>circumstance_phrase->[AdjectiveBadass] 표정으로</li>
+    <li>circumstance_phrase->자신의 무기를 쥐고</li>
+    <li>circumstance_phrase->긴장해 땀흘리며</li>
+    <li>circumstance_phrase->[Gore](을)를 뒤집어 쓰고</li>
+    <li>desc_sentence->먼 곳의 [TerrainFeature] 뒤에서 [Quantity_adjphrase] 마리의 동물이 접근하고 있습니다.</li>
+    <li>desc_sentence->[Gore](이)가 땅을 뒤덮고 있습니다.</li>
+    <li>desc_sentence->[Gore](이)가 땅을 뒤덮고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->멀리서 상황을 관측하는 [PersonJob]의 모습이 보입니다.</li>
+  </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
-  <!-- EN: caravan demand -->
-  <CaravanDemand.label>caravan demand</CaravanDemand.label>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s caravan receiving a demand -->
-  <CaravanDemand.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</CaravanDemand.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s caravan being threatened -->
-  <CaravanDemand.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]'s caravan being threatened</CaravanDemand.rulePack.rulesStrings.1>
-  <!-- EN: image->[PAWN_nameFull] cowering [circumstance_group] -->
-  <CaravanDemand.rulePack.rulesStrings.2>image->[PAWN_nameFull] cowering [circumstance_group]</CaravanDemand.rulePack.rulesStrings.2>
-  <!-- EN: image->[PAWN_nameFull] shouting loudly [circumstance_group] -->
-  <CaravanDemand.rulePack.rulesStrings.3>image->[PAWN_nameFull] shouting loudly [circumstance_group]</CaravanDemand.rulePack.rulesStrings.3>
-  <!-- EN: image->[PAWN_nameFull] thinking [circumstance_group] -->
-  <CaravanDemand.rulePack.rulesStrings.4>image->[PAWN_nameFull] thinking [circumstance_group]</CaravanDemand.rulePack.rulesStrings.4>
-  <!-- EN: image->[PAWN_nameFull] glaring [circumstance_group] -->
-  <CaravanDemand.rulePack.rulesStrings.5>image->[PAWN_nameFull] glaring [circumstance_group]</CaravanDemand.rulePack.rulesStrings.5>
-  <!-- EN: image->[PAWN_nameFull], threatened by a [PersonJob], [circumstance_group] -->
-  <CaravanDemand.rulePack.rulesStrings.6>image->[PAWN_nameFull], threatened by a [PersonJob], [circumstance_group]</CaravanDemand.rulePack.rulesStrings.6>
-  <!-- EN: image->[PAWN_nameFull] brandishing a [Weapon] [circumstance_group] -->
-  <CaravanDemand.rulePack.rulesStrings.7>image->[PAWN_nameFull] brandishing a [Weapon] [circumstance_group]</CaravanDemand.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->with a [AdjectiveBadass] expression -->
-  <CaravanDemand.rulePack.rulesStrings.8>circumstance_phrase->with a [AdjectiveBadass] expression</CaravanDemand.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->with a [AdjectiveAngsty] expression -->
-  <CaravanDemand.rulePack.rulesStrings.9>circumstance_phrase->with a [AdjectiveAngsty] expression</CaravanDemand.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->as others look on -->
-  <CaravanDemand.rulePack.rulesStrings.10>circumstance_phrase->as others look on</CaravanDemand.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->while being threatened by [Enemy]s -->
-  <CaravanDemand.rulePack.rulesStrings.11>circumstance_phrase->while being threatened by [Enemy]s</CaravanDemand.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s. -->
-  <CaravanDemand.rulePack.rulesStrings.12>desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s.</CaravanDemand.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Enemy]s are nearby, [action]. -->
-  <CaravanDemand.rulePack.rulesStrings.13>desc_sentence->[Quantity_adjphrase] [Enemy]s are nearby, [action].</CaravanDemand.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->The sun sets over a [TerrainFeature]. -->
-  <CaravanDemand.rulePack.rulesStrings.14>desc_sentence->The sun sets over a [TerrainFeature].</CaravanDemand.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->The sun rises over a [TerrainFeature]. -->
-  <CaravanDemand.rulePack.rulesStrings.15>desc_sentence->The sun rises over a [TerrainFeature].</CaravanDemand.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->In the distance, a [PersonJob] observes. -->
-  <CaravanDemand.rulePack.rulesStrings.16>desc_sentence->In the distance, a [PersonJob] observes.</CaravanDemand.rulePack.rulesStrings.16>
-  <!-- EN: action->sharpening their weapons -->
-  <CaravanDemand.rulePack.rulesStrings.17>action->sharpening their weapons</CaravanDemand.rulePack.rulesStrings.17>
-  <!-- EN: action->watching for danger -->
-  <CaravanDemand.rulePack.rulesStrings.18>action->watching for danger</CaravanDemand.rulePack.rulesStrings.18>
-  <!-- EN: action->guarding hostages -->
-  <CaravanDemand.rulePack.rulesStrings.19>action->guarding hostages</CaravanDemand.rulePack.rulesStrings.19>
-  <!-- EN: action->waiting for a decision -->
-  <CaravanDemand.rulePack.rulesStrings.20>action->waiting for a decision</CaravanDemand.rulePack.rulesStrings.20>
-  <!-- EN: action->taunting [PAWN_nameDef] -->
-  <CaravanDemand.rulePack.rulesStrings.21>action->taunting [PAWN_nameDef]</CaravanDemand.rulePack.rulesStrings.21>
+  <CaravanDemand.label>상단이 협박 받음</CaravanDemand.label>
+  <CaravanDemand.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 상단이 적대 세력의 요구를 마주한 이야기</li>
+    <li>tale_noun->[PAWN_nameDef]의 상단이 협박 받는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 엄폐한 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 크게 소리치는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 고민하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 노려보는 모습</li>
+    <li>image->[PersonJob](이)가 [circumstance_group] [PAWN_nameFull](을)를 협박하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [Weapon](을)를 휘두르는 모습</li>
+    <li>circumstance_phrase->[AdjectiveBadass] 표정으로</li>
+    <li>circumstance_phrase->[AdjectiveAngsty] 표정으로</li>
+    <li>circumstance_phrase->사람들 앞에서</li>
+    <li>circumstance_phrase->[Enemy]들의 앞에서</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 사실상 [Enemy]들에게 포위된 상황입니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [Enemy](이)가 [action].</li>
+    <li>desc_sentence->[TerrainFeature] 뒤로 태양이 지고 있습니다.</li>
+    <li>desc_sentence->[TerrainFeature] 뒤로 태양이 뜨고 있습니다.</li>
+    <li>desc_sentence->멀리서 상황을 관측하는 [PersonJob]의 모습이 보입니다.</li>
+    <li>action->무기를 손보고 있습니다</li>
+    <li>action->주위를 경계하고 있습니다</li>
+    <li>action->인질을 지키고 있습니다</li>
+    <li>action->명령을 기다리고 있습니다</li>
+    <li>action->[PAWN_nameDef](을)를 도발하고 있습니다</li>
+  </CaravanDemand.rulePack.rulesStrings>
   
-  <!-- EN: caravan meeting -->
-  <CaravanMeeting.label>caravan meeting</CaravanMeeting.label>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s caravan being met by others -->
-  <CaravanMeeting.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]'s caravan being met by others</CaravanMeeting.rulePack.rulesStrings.0>
-  <!-- EN: image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group] -->
-  <CaravanMeeting.rulePack.rulesStrings.1>image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group]</CaravanMeeting.rulePack.rulesStrings.1>
-  <!-- EN: image->[PAWN_nameFull] inspecting a [PersonJob] [circumstance_group] -->
-  <CaravanMeeting.rulePack.rulesStrings.2>image->[PAWN_nameFull] inspecting a [PersonJob] [circumstance_group]</CaravanMeeting.rulePack.rulesStrings.2>
-  <!-- EN: image->[PAWN_nameFull] calling out to a [PersonJob] [circumstance_group] -->
-  <CaravanMeeting.rulePack.rulesStrings.3>image->[PAWN_nameFull] calling out to a [PersonJob] [circumstance_group]</CaravanMeeting.rulePack.rulesStrings.3>
-  <!-- EN: image->[PAWN_nameFull] walking towards a [PersonJob] [circumstance_group] -->
-  <CaravanMeeting.rulePack.rulesStrings.4>image->[PAWN_nameFull] walking towards a [PersonJob] [circumstance_group]</CaravanMeeting.rulePack.rulesStrings.4>
-  <!-- EN: image->[PAWN_nameFull] talking quietly [circumstance_group] -->
-  <CaravanMeeting.rulePack.rulesStrings.5>image->[PAWN_nameFull] talking quietly [circumstance_group]</CaravanMeeting.rulePack.rulesStrings.5>
-  <!-- EN: image->[PAWN_nameFull] shouting loudly [circumstance_group] -->
-  <CaravanMeeting.rulePack.rulesStrings.6>image->[PAWN_nameFull] shouting loudly [circumstance_group]</CaravanMeeting.rulePack.rulesStrings.6>
-  <!-- EN: image->[PAWN_nameFull] playing [Game] with a [PersonJob] [circumstance_group] -->
-  <CaravanMeeting.rulePack.rulesStrings.7>image->[PAWN_nameFull] playing [Game] with a [PersonJob] [circumstance_group]</CaravanMeeting.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->with a [AdjectiveFriendly] expression -->
-  <CaravanMeeting.rulePack.rulesStrings.8>circumstance_phrase->with a [AdjectiveFriendly] expression</CaravanMeeting.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->with a [AdjectiveFriendly] expression -->
-  <CaravanMeeting.rulePack.rulesStrings.9>circumstance_phrase->with a [AdjectiveFriendly] expression</CaravanMeeting.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->while [VerbFriendly] -->
-  <CaravanMeeting.rulePack.rulesStrings.10>circumstance_phrase->while [VerbFriendly]</CaravanMeeting.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->as others look on -->
-  <CaravanMeeting.rulePack.rulesStrings.11>circumstance_phrase->as others look on</CaravanMeeting.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event]. -->
-  <CaravanMeeting.rulePack.rulesStrings.12>desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event].</CaravanMeeting.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event]. -->
-  <CaravanMeeting.rulePack.rulesStrings.13>desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event].</CaravanMeeting.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s surround the group. -->
-  <CaravanMeeting.rulePack.rulesStrings.14>desc_sentence->[Quantity_adjphrase] [Animal]s surround the group.</CaravanMeeting.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->The sun sets over a [TerrainFeature]. -->
-  <CaravanMeeting.rulePack.rulesStrings.15>desc_sentence->The sun sets over a [TerrainFeature].</CaravanMeeting.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->The sun rises over a [TerrainFeature]. -->
-  <CaravanMeeting.rulePack.rulesStrings.16>desc_sentence->The sun rises over a [TerrainFeature].</CaravanMeeting.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->In the distance, a [PersonJob] observes. -->
-  <CaravanMeeting.rulePack.rulesStrings.17>desc_sentence->In the distance, a [PersonJob] observes.</CaravanMeeting.rulePack.rulesStrings.17>
-  <!-- EN: event->throwing a party -->
-  <CaravanMeeting.rulePack.rulesStrings.18>event->throwing a party</CaravanMeeting.rulePack.rulesStrings.18>
-  <!-- EN: event->eating a communal meal -->
-  <CaravanMeeting.rulePack.rulesStrings.19>event->eating a communal meal</CaravanMeeting.rulePack.rulesStrings.19>
-  <!-- EN: event->discussing recent events -->
-  <CaravanMeeting.rulePack.rulesStrings.20>event->discussing recent events</CaravanMeeting.rulePack.rulesStrings.20>
-  <!-- EN: event->rekindling old friendships -->
-  <CaravanMeeting.rulePack.rulesStrings.21>event->rekindling old friendships</CaravanMeeting.rulePack.rulesStrings.21>
-  <!-- EN: event->talking hesitantly -->
-  <CaravanMeeting.rulePack.rulesStrings.22>event->talking hesitantly</CaravanMeeting.rulePack.rulesStrings.22>
+  <CaravanMeeting.label>상단 만남</CaravanMeeting.label>
+  <CaravanMeeting.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 상단이 다른 사람들을 만난 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [PersonJob](을)를 반기는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [PersonJob](을)를 살피는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [PersonJob](을)를 부르는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [PersonJob]에게 다가가는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 조용히 말하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 크게 소리치는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [PersonJob](와)과 함께 [Game](을)를 하는 모습</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] 표정을 지으며</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] 표정을 지으며</li>
+    <li>circumstance_phrase->[VerbFriendly] 얼굴로</li>
+    <li>circumstance_phrase->사람들 앞에서</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob](이)가 [event].</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob](이)가 [event].</li>
+    <li>desc_sentence->주위에 [Quantity_adjphrase] 마리의 [Animal](이)가 보입니다.</li>
+    <li>desc_sentence->[TerrainFeature] 뒤로 태양이 지고 있습니다.</li>
+    <li>desc_sentence->[TerrainFeature] 뒤로 태양이 뜨고 있습니다.</li>
+    <li>desc_sentence->멀리서 상황을 관측하는 [PersonJob]의 모습이 보입니다.</li>
+    <li>event->파티를 즐기고 있습니다</li>
+    <li>event->함께 식사를 하고 있습니다</li>
+    <li>event->최근 사건에 대해 논의하고 있습니다</li>
+    <li>event->오랜 우정을 다시 불태우고 있습니다</li>
+    <li>event->주저하며 뭔가 말하고 있습니다</li>
+  </CaravanMeeting.rulePack.rulesStrings>
   
-  <!-- EN: eclipse -->
   <Eclipse.label>일식</Eclipse.label>
-  <!-- EN: tale_noun->an eclipse over [PAWN_nameDef]'s [Community] -->
-  <Eclipse.rulePack.rulesStrings.0>tale_noun->an eclipse over [PAWN_nameDef]'s [Community]</Eclipse.rulePack.rulesStrings.0>
-  <!-- EN: image->an unnaturally dark sky, [circumstance_phrase] -->
-  <Eclipse.rulePack.rulesStrings.1>image->an unnaturally dark sky, [circumstance_phrase]</Eclipse.rulePack.rulesStrings.1>
-  <!-- EN: image->a crepuscular sky, [circumstance_phrase] -->
-  <Eclipse.rulePack.rulesStrings.2>image->a crepuscular sky, [circumstance_phrase]</Eclipse.rulePack.rulesStrings.2>
-  <!-- EN: image->a moon, ringed by a faint circle of sunlight, [circumstance_phrase] -->
-  <Eclipse.rulePack.rulesStrings.3>image->a moon, ringed by a faint circle of sunlight, [circumstance_phrase]</Eclipse.rulePack.rulesStrings.3>
-  <!-- EN: image->[Quantity_adjphrase] [Animal]s milling around uncertainly in darkness, [circumstance_phrase] -->
-  <Eclipse.rulePack.rulesStrings.4>image->[Quantity_adjphrase] [Animal]s milling around uncertainly in darkness, [circumstance_phrase]</Eclipse.rulePack.rulesStrings.4>
-  <!-- EN: circumstance_phrase->the air still and quiet -->
-  <Eclipse.rulePack.rulesStrings.5>circumstance_phrase->the air still and quiet</Eclipse.rulePack.rulesStrings.5>
-  <!-- EN: circumstance_phrase->twilight blanketing a nearby [TerrainFeature] -->
-  <Eclipse.rulePack.rulesStrings.6>circumstance_phrase->twilight blanketing a nearby [TerrainFeature]</Eclipse.rulePack.rulesStrings.6>
-  <!-- EN: circumstance_phrase->twilight blanketing [Quantity_adjphrase] nearby [TerrainFeature]s -->
-  <Eclipse.rulePack.rulesStrings.7>circumstance_phrase->twilight blanketing [Quantity_adjphrase] nearby [TerrainFeature]s</Eclipse.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->with stars visible -->
-  <Eclipse.rulePack.rulesStrings.8>circumstance_phrase->with stars visible</Eclipse.rulePack.rulesStrings.8>
-  <!-- EN: desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look. -->
-  <Eclipse.rulePack.rulesStrings.9>desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look.</Eclipse.rulePack.rulesStrings.9>
-  <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Eclipse.rulePack.rulesStrings.10>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Eclipse.rulePack.rulesStrings.10>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below. -->
-  <Eclipse.rulePack.rulesStrings.11>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</Eclipse.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky. -->
-  <Eclipse.rulePack.rulesStrings.12>desc_sentence->[PAWN_nameDef](은)는 [TerrainFeature] 근처에 앉아 하늘을 바라봅니다.</Eclipse.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->A [Community] of spectators watches the sky peacefully. -->
-  <Eclipse.rulePack.rulesStrings.13>desc_sentence->A [Community] of spectators watches the sky peacefully.</Eclipse.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->There is no [Enemy] in sight. -->
-  <Eclipse.rulePack.rulesStrings.14>desc_sentence->There is no [Enemy] in sight.</Eclipse.rulePack.rulesStrings.14>
+  <Eclipse.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community]에서 목격된 일식</li>
+    <li>image->[circumstance_phrase] 부자연스럽게 어두운 하늘</li>
+    <li>image->[circumstance_phrase] 어둑어둑한 하늘</li>
+    <li>image->[circumstance_phrase] 이 행성의 위성 주위에 희미한 빛의 고리가 생긴 모습</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 마리의 [Animal]이 어둠 속을 떠도는 모습</li>
+    <li>circumstance_phrase->주변 공기조차 고요한 가운데</li>
+    <li>circumstance_phrase->황혼이 [TerrainFeature] 주변을 뒤덮으며</li>
+    <li>circumstance_phrase->황혼이 [Quantity_adjphrase] [TerrainFeature](을)를 뒤덮으며</li>
+    <li>circumstance_phrase->별이 보이는 와중에</li>
+    <li>desc_sentence->아래에서 [PAWN_nameDef](이)가 [AdjectiveFriendly] 표정을 지으며 [Game](을)를 즐기고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 아래에서 지켜보고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [TerrainFeature] 근처에 앉아 하늘을 바라봅니다.</li>
+    <li>desc_sentence->[Community]의 구경꾼들이 평화롭게 하늘을 바라보고 있습니다.</li>
+    <li>desc_sentence->[Enemy](은)는 보이지 않습니다.</li>
+  </Eclipse.rulePack.rulesStrings>
   
-  <!-- EN: journey offer -->
-  <EndGame_ShipEscape.label>journey offer</EndGame_ShipEscape.label>
-  <!-- EN: tale_noun->[PAWN_nameDef] receiving a message from an old friend -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef] receiving a message from an old friend</EndGame_ShipEscape.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.1>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</EndGame_ShipEscape.rulePack.rulesStrings.1>
-  <!-- EN: image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.2>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.2>
-  <!-- EN: image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.3>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.3>
-  <!-- EN: image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.4>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.4>
-  <!-- EN: image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.5>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.5>
-  <!-- EN: image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.6>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.6>
-  <!-- EN: image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.7>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</EndGame_ShipEscape.rulePack.rulesStrings.7>
-  <!-- EN: delivery_method->a [Animal] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.8>delivery_method->a [Animal]</EndGame_ShipEscape.rulePack.rulesStrings.8>
-  <!-- EN: delivery_method->a [PersonJob] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.9>delivery_method->a [PersonJob]</EndGame_ShipEscape.rulePack.rulesStrings.9>
-  <!-- EN: delivery_method->[Quantity_adjphrase] [Animal]s -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.10>delivery_method->[Quantity_adjphrase] [Animal]s</EndGame_ShipEscape.rulePack.rulesStrings.10>
-  <!-- EN: transmission_source->a rarely-used frequency -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.11>transmission_source->a rarely-used frequency</EndGame_ShipEscape.rulePack.rulesStrings.11>
-  <!-- EN: transmission_source->an ancient transmitter -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.12>transmission_source->an ancient transmitter</EndGame_ShipEscape.rulePack.rulesStrings.12>
-  <!-- EN: transmission_source->a low-power signal -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.13>transmission_source->a low-power signal</EndGame_ShipEscape.rulePack.rulesStrings.13>
-  <!-- EN: transmission_source->a long-range signal -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.14>transmission_source->a long-range signal</EndGame_ShipEscape.rulePack.rulesStrings.14>
-  <!-- EN: transmission_source->a mysterious signal -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.15>transmission_source->a mysterious signal</EndGame_ShipEscape.rulePack.rulesStrings.15>
-  <!-- EN: circumstance_phrase->standing alone near a [TerrainFeature] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.16>circumstance_phrase->standing alone near a [TerrainFeature]</EndGame_ShipEscape.rulePack.rulesStrings.16>
-  <!-- EN: circumstance_phrase->exploring a [TerrainFeature] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.17>circumstance_phrase->exploring a [TerrainFeature]</EndGame_ShipEscape.rulePack.rulesStrings.17>
-  <!-- EN: circumstance_phrase->tending crops -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.18>circumstance_phrase->tending crops</EndGame_ShipEscape.rulePack.rulesStrings.18>
-  <!-- EN: circumstance_phrase->a [Animal] wanders past -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.19>circumstance_phrase->a [Animal] wanders past</EndGame_ShipEscape.rulePack.rulesStrings.19>
-  <!-- EN: circumstance_phrase->playing [Game] -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.20>circumstance_phrase->playing [Game]</EndGame_ShipEscape.rulePack.rulesStrings.20>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware. -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.21>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</EndGame_ShipEscape.rulePack.rulesStrings.21>
-  <!-- EN: desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly]. -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.22>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</EndGame_ShipEscape.rulePack.rulesStrings.22>
-  <!-- EN: desc_sentence->A spectral [PersonJob] watches from the clouds. -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.23>desc_sentence->A spectral [PersonJob] watches from the clouds.</EndGame_ShipEscape.rulePack.rulesStrings.23>
-  <!-- EN: desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature]. -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.24>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</EndGame_ShipEscape.rulePack.rulesStrings.24>
-  <!-- EN: desc_sentence->A [Community] is visible in the far distance. -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.25>desc_sentence->A [Community] is visible in the far distance.</EndGame_ShipEscape.rulePack.rulesStrings.25>
-  <!-- EN: desc_sentence->A spaceship is visible in the far distance. -->
-  <EndGame_ShipEscape.rulePack.rulesStrings.26>desc_sentence->A spaceship is visible in the far distance.</EndGame_ShipEscape.rulePack.rulesStrings.26>
+  <EndGame_ShipEscape.label>여행 시작</EndGame_ShipEscape.label>
+  <EndGame_ShipEscape.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef](이)가 오랜 친구에게 메시지를 받은 일</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community]가 얻은 새로운 기회</li>
+    <li>image->[PAWN_nameDef](이)가 [circumstance_group] [delivery_method](이)가 배송한 편지를 뜯어보는 모습</li>
+    <li>image->[PAWN_nameDef](이)가 [circumstance_group] [delivery_method](이)가 배송한 데이터 수정체를 사용하는 모습</li>
+    <li>image->[PAWN_nameDef](이)가 [circumstance_group] [delivery_method](이)가 배송한 두루마리를 펼쳐보는 모습</li>
+    <li>image->[PAWN_nameDef](이)가 [circumstance_group] [transmission_source]의 통신을 받는 모습</li>
+    <li>image->[PAWN_nameDef](이)가 [circumstance_group] [transmission_source]의 메시지를 수신하는 모습</li>
+    <li>image->[PAWN_nameDef](이)가 [circumstance_group] [transmission_source]의 메시지를 해독하는 모습</li>
+    <li>delivery_method->[Animal]</li>
+    <li>delivery_method->[PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase] 마리의 [Animal]들</li>
+    <li>transmission_source->거의 사용하지 않는 주파수</li>
+    <li>transmission_source->고대 송신기</li>
+    <li>transmission_source->희미한 신호</li>
+    <li>transmission_source->장거리 신호</li>
+    <li>transmission_source->미지의 신호</li>
+    <li>circumstance_phrase->[TerrainFeature] 근처에 혼자 서있으면서</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 탐험하며</li>
+    <li>circumstance_phrase->작물을 돌보며</li>
+    <li>circumstance_phrase->[Animal] 한 마리를 지나치며</li>
+    <li>circumstance_phrase->[Game](을)를 즐기며</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 온순한 [Animal]들이 근처를 헤매고 있습니다.</li>
+    <li>desc_sentence->내용을 읽어가자, [PAWN_nameDef]의 표정이 점점 [VerbFriendly] 빛을 띕니다.</li>
+    <li>desc_sentence->희미한 [PersonJob]의 형체가 구름 위에서 지켜보고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [TerrainFeature] 근처에 앉아있습니다.</li>
+    <li>desc_sentence->저 멀리 [Community](이)가 보입니다.</li>
+    <li>desc_sentence->저 멀리 우주선이 보입니다.</li>
+  </EndGame_ShipEscape.rulePack.rulesStrings>
   
-  <!-- EN: flashstorm -->
   <Flashstorm.label>섬광폭풍</Flashstorm.label>
-  <!-- EN: tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community] -->
-  <Flashstorm.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community](을)를 위협하는 섬광폭풍</Flashstorm.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm -->
-  <Flashstorm.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community](이)가 치명적인 섬광폭풍에 위협받는 모습</Flashstorm.rulePack.rulesStrings.1>
-  <!-- EN: image->[Quantity_adjphrase] lightning strikes [circumstance_phrase] -->
-  <Flashstorm.rulePack.rulesStrings.2>image->[Quantity_adjphrase]의 [circumstance_phrase] 번개가 치는 모습</Flashstorm.rulePack.rulesStrings.2>
-  <!-- EN: image->[behavior] wall of flames [circumstance_phrase] -->
-  <Flashstorm.rulePack.rulesStrings.3>image->[behavior] wall of flames [circumstance_phrase]</Flashstorm.rulePack.rulesStrings.3>
-  <!-- EN: image->[behavior] wall of [Color] flames [circumstance_phrase] -->
-  <Flashstorm.rulePack.rulesStrings.4>image->[behavior] wall of [Color] flames [circumstance_phrase]</Flashstorm.rulePack.rulesStrings.4>
-  <!-- EN: image->[behavior] cloud of ash and smoke [circumstance_phrase] -->
-  <Flashstorm.rulePack.rulesStrings.5>image->[behavior] cloud of ash and smoke [circumstance_phrase]</Flashstorm.rulePack.rulesStrings.5>
-  <!-- EN: image->[behavior] wave of flames [circumstance_phrase] -->
-  <Flashstorm.rulePack.rulesStrings.6>image->[behavior] wave of flames [circumstance_phrase]</Flashstorm.rulePack.rulesStrings.6>
-  <!-- EN: behavior->a -->
-  <Flashstorm.rulePack.rulesStrings.7>behavior->a</Flashstorm.rulePack.rulesStrings.7>
-  <!-- EN: behavior->an advancing -->
-  <Flashstorm.rulePack.rulesStrings.8>behavior->an advancing</Flashstorm.rulePack.rulesStrings.8>
-  <!-- EN: behavior->an approaching -->
-  <Flashstorm.rulePack.rulesStrings.9>behavior->an approaching</Flashstorm.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->advancing towards a [Community] -->
-  <Flashstorm.rulePack.rulesStrings.10>circumstance_phrase->[Community](을)를 향해 다가오며</Flashstorm.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->underneath an intimidating cloud -->
-  <Flashstorm.rulePack.rulesStrings.11>circumstance_phrase->위협적인 구름 아래에</Flashstorm.rulePack.rulesStrings.11>
-  <!-- EN: circumstance_phrase->nearly enveloping a [TerrainFeature] -->
-  <Flashstorm.rulePack.rulesStrings.12>circumstance_phrase->[TerrainFeature](을)를 감싸고</Flashstorm.rulePack.rulesStrings.12>
-  <!-- EN: circumstance_phrase->nearly enveloping [Quantity_adjphrase] [TerrainFeature]s -->
-  <Flashstorm.rulePack.rulesStrings.13>circumstance_phrase->[Quantity_adjphrase] [TerrainFeature]들을 감싸고</Flashstorm.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[PAWN_nameDef] watches with visible fright. -->
-  <Flashstorm.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef](은)는 겁에 질린 표정으로 감시합니다.</Flashstorm.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Flashstorm.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Flashstorm.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[PAWN_nameDef] is coordinating defensive measures. -->
-  <Flashstorm.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef](은)는 대책을 강구하고 있습니다.</Flashstorm.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare. -->
-  <Flashstorm.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase]명의 [PersonJob]들이 서둘러 준비하고 있습니다.</Flashstorm.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Flashstorm.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Flashstorm.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->All animal life has left the area. -->
-  <Flashstorm.rulePack.rulesStrings.19>desc_sentence->모든 동물이 이 지역을 떠났습니다.</Flashstorm.rulePack.rulesStrings.19>
+  <Flashstorm.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](을)를 위협하는 섬광폭풍</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](이)가 치명적인 섬광폭풍에 위협받는 모습</li>
+    <li>image->[Quantity_adjphrase] 개의 [circumstance_phrase] 번개가 치는 모습</li>
+    <li>image->[circumstance_phrase] [behavior] 불의 장벽</li>
+    <li>image->[circumstance_phrase] [behavior] [Color] 불의 장벽</li>
+    <li>image->[circumstance_phrase] [behavior] 잿빛 연기</li>
+    <li>image->[circumstance_phrase] [behavior] 화염</li>
+    <li>behavior-></li>
+    <li>behavior->나아가는</li>
+    <li>behavior->전진하는</li>
+    <li>circumstance_phrase->[Community](을)를 향해 다가오며</li>
+    <li>circumstance_phrase->위협적인 구름 아래</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 거의 포위한 채</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [TerrainFeature]을 거의 포위한 채</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 겁에 질린 표정으로 감시합니다.</li>
+    <li>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 대책을 강구하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 서둘러 준비하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->모든 동물이 이 지역을 떠났습니다.</li>
+  </Flashstorm.rulePack.rulesStrings>
   
-  <!-- EN: infestation -->
-  <Infestation.label>감염</Infestation.label>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] being infested by giant insects -->
-  <Infestation.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]'s [Community] being infested by giant insects</Infestation.rulePack.rulesStrings.0>
-  <!-- EN: image->a swarm of beetles [circumstance_phrase] -->
-  <Infestation.rulePack.rulesStrings.1>image->a swarm of beetles [circumstance_phrase]</Infestation.rulePack.rulesStrings.1>
-  <!-- EN: image->[Quantity_adjphrase] megaspiders [circumstance_phrase] -->
-  <Infestation.rulePack.rulesStrings.2>image->[Quantity_adjphrase] megaspiders [circumstance_phrase]</Infestation.rulePack.rulesStrings.2>
-  <!-- EN: image->an overwhelming tide of [Color] insects [circumstance_phrase] -->
-  <Infestation.rulePack.rulesStrings.3>image->an overwhelming tide of [Color] insects [circumstance_phrase]</Infestation.rulePack.rulesStrings.3>
-  <!-- EN: image->a dense fog of black specks [circumstance_phrase] -->
-  <Infestation.rulePack.rulesStrings.4>image->a dense fog of black specks [circumstance_phrase]</Infestation.rulePack.rulesStrings.4>
-  <!-- EN: circumstance_phrase->advancing over a [TerrainFeature] -->
-  <Infestation.rulePack.rulesStrings.5>circumstance_phrase->advancing over a [TerrainFeature]</Infestation.rulePack.rulesStrings.5>
-  <!-- EN: circumstance_phrase->completely encircling a [Community] -->
-  <Infestation.rulePack.rulesStrings.6>circumstance_phrase->completely encircling a [Community]</Infestation.rulePack.rulesStrings.6>
-  <!-- EN: circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s -->
-  <Infestation.rulePack.rulesStrings.7>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</Infestation.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->bursting out of the ground -->
-  <Infestation.rulePack.rulesStrings.8>circumstance_phrase->bursting out of the ground</Infestation.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s -->
-  <Infestation.rulePack.rulesStrings.9>circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s</Infestation.rulePack.rulesStrings.9>
-  <!-- EN: desc_sentence->[PAWN_nameDef] organizes a resistance. -->
-  <Infestation.rulePack.rulesStrings.10>desc_sentence->[PAWN_nameDef] organizes a resistance.</Infestation.rulePack.rulesStrings.10>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively. -->
-  <Infestation.rulePack.rulesStrings.11>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively.</Infestation.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->[PAWN_nameDef] lies on the ground, wounded. -->
-  <Infestation.rulePack.rulesStrings.12>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</Infestation.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon]. -->
-  <Infestation.rulePack.rulesStrings.13>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon].</Infestation.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression. -->
-  <Infestation.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</Infestation.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression. -->
-  <Infestation.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</Infestation.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->The ground is coated in [Gore]. -->
-  <Infestation.rulePack.rulesStrings.16>desc_sentence->The ground is coated in [Gore].</Infestation.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
-  <Infestation.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</Infestation.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Infestation.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Infestation.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->All animal life has left the area. -->
-  <Infestation.rulePack.rulesStrings.19>desc_sentence->모든 동물이 이 지역을 떠났습니다.</Infestation.rulePack.rulesStrings.19>
+  <Infestation.label>곤충 군락 등장</Infestation.label>
+  <Infestation.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](이)가 거대 곤충에게 위협받는 모습</li>
+    <li>image->[circumstance_phrase] 딱정벌레 무리</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 마리의 메가스파이더</li>
+    <li>image->[circumstance_phrase] 무수히 많은 [Color] 곤충 무리</li>
+    <li>image->[circumstance_phrase] 검은 안개와도 같은 곤충 떼</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가로질러 전진하는</li>
+    <li>circumstance_phrase->[Community](을)를 완전히 포위한</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 명의 [PersonJob]들을 공격하는</li>
+    <li>circumstance_phrase->땅에서 솟아오른</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 마리의 [Animal]들을 도살하는</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 방어를 조직하고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 방어적으로 [Weapon](을)를 쥐고 있습니다.</li>
+    <li>desc_sentence->상처 입고 누워있는 [PAWN_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[Weapon](을)를 들고 반격하는 [PAWN_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveBadass] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveAngsty] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->지면이 온통 [Gore]에 뒤덮여 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->모든 동물이 이 지역을 떠났습니다.</li>
+  </Infestation.rulePack.rulesStrings>
   
-  <!-- EN: manhunter pack -->
   <ManhunterPack.label>식인동물 무리</ManhunterPack.label>
-  <!-- EN: tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community] -->
-  <ManhunterPack.rulePack.rulesStrings.0>tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community]</ManhunterPack.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals -->
-  <ManhunterPack.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</ManhunterPack.rulePack.rulesStrings.1>
-  <!-- EN: image->a herd of [Animal]s [circumstance_phrase] -->
-  <ManhunterPack.rulePack.rulesStrings.2>image->a herd of [Animal]s [circumstance_phrase]</ManhunterPack.rulePack.rulesStrings.2>
-  <!-- EN: image->[Quantity_adjphrase] [Animal]s [circumstance_phrase] -->
-  <ManhunterPack.rulePack.rulesStrings.3>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</ManhunterPack.rulePack.rulesStrings.3>
-  <!-- EN: image->a [huge] [Animal] [circumstance_phrase] -->
-  <ManhunterPack.rulePack.rulesStrings.4>image->a [huge] [Animal] [circumstance_phrase]</ManhunterPack.rulePack.rulesStrings.4>
-  <!-- EN: image->[Quantity_adjphrase] shadowy figures [circumstance_phrase] -->
-  <ManhunterPack.rulePack.rulesStrings.5>image->[Quantity_adjphrase] shadowy figures [circumstance_phrase]</ManhunterPack.rulePack.rulesStrings.5>
-  <!-- EN: image->[Quantity_adjphrase] shadowy quadrupeds [circumstance_phrase] -->
-  <ManhunterPack.rulePack.rulesStrings.6>image->[Quantity_adjphrase] shadowy quadrupeds [circumstance_phrase]</ManhunterPack.rulePack.rulesStrings.6>
-  <!-- EN: circumstance_phrase->advancing over a [TerrainFeature] -->
-  <ManhunterPack.rulePack.rulesStrings.7>circumstance_phrase->advancing over a [TerrainFeature]</ManhunterPack.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->completely encircling a [Community] -->
-  <ManhunterPack.rulePack.rulesStrings.8>circumstance_phrase->completely encircling a [Community]</ManhunterPack.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s -->
-  <ManhunterPack.rulePack.rulesStrings.9>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</ManhunterPack.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s -->
-  <ManhunterPack.rulePack.rulesStrings.10>circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s</ManhunterPack.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->possessed by [hate_emotion] -->
-  <ManhunterPack.rulePack.rulesStrings.11>circumstance_phrase->possessed by [hate_emotion]</ManhunterPack.rulePack.rulesStrings.11>
-  <!-- EN: circumstance_phrase->covered in [Gore] -->
-  <ManhunterPack.rulePack.rulesStrings.12>circumstance_phrase->covered in [Gore]</ManhunterPack.rulePack.rulesStrings.12>
-  <!-- EN: hate_emotion->hatred -->
-  <ManhunterPack.rulePack.rulesStrings.13>hate_emotion->hatred</ManhunterPack.rulePack.rulesStrings.13>
-  <!-- EN: hate_emotion->anger -->
-  <ManhunterPack.rulePack.rulesStrings.14>hate_emotion->anger</ManhunterPack.rulePack.rulesStrings.14>
-  <!-- EN: hate_emotion->fury -->
-  <ManhunterPack.rulePack.rulesStrings.15>hate_emotion->fury</ManhunterPack.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[PAWN_nameDef] organizes a resistance. -->
-  <ManhunterPack.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] organizes a resistance.</ManhunterPack.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively. -->
-  <ManhunterPack.rulePack.rulesStrings.17>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively.</ManhunterPack.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[PAWN_nameDef] lies on the ground, wounded. -->
-  <ManhunterPack.rulePack.rulesStrings.18>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</ManhunterPack.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon]. -->
-  <ManhunterPack.rulePack.rulesStrings.19>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon].</ManhunterPack.rulePack.rulesStrings.19>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression. -->
-  <ManhunterPack.rulePack.rulesStrings.20>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</ManhunterPack.rulePack.rulesStrings.20>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression. -->
-  <ManhunterPack.rulePack.rulesStrings.21>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</ManhunterPack.rulePack.rulesStrings.21>
-  <!-- EN: desc_sentence->The ground is coated in [Gore]. -->
-  <ManhunterPack.rulePack.rulesStrings.22>desc_sentence->The ground is coated in [Gore].</ManhunterPack.rulePack.rulesStrings.22>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
-  <ManhunterPack.rulePack.rulesStrings.23>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</ManhunterPack.rulePack.rulesStrings.23>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <ManhunterPack.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</ManhunterPack.rulePack.rulesStrings.24>
+  <ManhunterPack.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](을)를 습격한 식인 동물 무리</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](이)가 미친 동물들에게 공격 받는 모습</li>
+    <li>image->[circumstance_phrase] [Animal] 무리</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 마리의 [Animal]</li>
+    <li>image->[circumstance_phrase] [huge] [Animal]</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 개의 동물 실루엣</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 개의 동물 그림자</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가로질러 전진하는</li>
+    <li>circumstance_phrase->[Community](을)를 완전히 포위한</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 명의 [PersonJob]들을 공격하는</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 마리의 [Animal]들을 도살하는</li>
+    <li>circumstance_phrase->[hate_emotion](을)를 가진</li>
+    <li>circumstance_phrase->[Gore](을)를 뒤집어쓴</li>
+    <li>hate_emotion->증오</li>
+    <li>hate_emotion->분노</li>
+    <li>hate_emotion->격노</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 방어를 조직하고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 방어적으로 [Weapon](을)를 쥐고 있습니다.</li>
+    <li>desc_sentence->상처 입고 누워있는 [PAWN_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[Weapon](을)를 들고 반격하는 [PAWN_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveBadass] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveAngsty] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->지면이 온통 [Gore]에 뒤덮여 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+  </ManhunterPack.rulePack.rulesStrings>
   
-  <!-- EN: meteorite impact -->
-  <MeteoriteImpact.label>운석 낙하</MeteoriteImpact.label>
-  <!-- EN: tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community] -->
-  <MeteoriteImpact.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community] 근처에 떨어지는 운석</MeteoriteImpact.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community] -->
-  <MeteoriteImpact.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community] 근처에 충돌하는 운석</MeteoriteImpact.rulePack.rulesStrings.1>
-  <!-- EN: image->a [AdjectiveLarge] rock trailing [Color] flames [airborne_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.2>image->[airborne_circumstance] [Color] 불꽃의 [AdjectiveLarge] 바위 덩어리</MeteoriteImpact.rulePack.rulesStrings.2>
-  <!-- EN: image->a brightly-glowing spot [airborne_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.3>image->[airborne_circumstance] 밝게 빛나는 장소</MeteoriteImpact.rulePack.rulesStrings.3>
-  <!-- EN: image->a [AdjectiveLarge] [Color] fireball [airborne_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.4>image->a [AdjectiveLarge] [Color] fireball [airborne_circumstance]</MeteoriteImpact.rulePack.rulesStrings.4>
-  <!-- EN: airborne_circumstance->blazing across the sky -->
-  <MeteoriteImpact.rulePack.rulesStrings.5>airborne_circumstance->하늘을 가로질러 타오르는</MeteoriteImpact.rulePack.rulesStrings.5>
-  <!-- EN: airborne_circumstance->falling to the ground in a cloud of ash -->
-  <MeteoriteImpact.rulePack.rulesStrings.6>airborne_circumstance->falling to the ground in a cloud of ash</MeteoriteImpact.rulePack.rulesStrings.6>
-  <!-- EN: airborne_circumstance->shedding rocks and debris as it flies -->
-  <MeteoriteImpact.rulePack.rulesStrings.7>airborne_circumstance->바위와 파편이 떨어져 나가며</MeteoriteImpact.rulePack.rulesStrings.7>
-  <!-- EN: image->a [AdjectiveLarge] monolith, [ground_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.8>image->[ground_circumstance] [AdjectiveLarge] 거석</MeteoriteImpact.rulePack.rulesStrings.8>
-  <!-- EN: image->a [AdjectiveLarge] [Color] scorched stone, [ground_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.9>image->a [AdjectiveLarge] [Color] scorched stone, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.9>
-  <!-- EN: image->a [Color] pillar of rock, [ground_circumstance] -->
-  <MeteoriteImpact.rulePack.rulesStrings.10>image->a [Color] pillar of rock, [ground_circumstance]</MeteoriteImpact.rulePack.rulesStrings.10>
-  <!-- EN: ground_circumstance->surrounded by smoke and ash -->
-  <MeteoriteImpact.rulePack.rulesStrings.11>ground_circumstance->연기와 재로 둘러싸인</MeteoriteImpact.rulePack.rulesStrings.11>
-  <!-- EN: ground_circumstance->smoking from heat -->
-  <MeteoriteImpact.rulePack.rulesStrings.12>ground_circumstance->열을 받아 연기를 내뿜는</MeteoriteImpact.rulePack.rulesStrings.12>
-  <!-- EN: ground_circumstance->surrounded by molten debris -->
-  <MeteoriteImpact.rulePack.rulesStrings.13>ground_circumstance->녹은 잔해로 둘러싸인</MeteoriteImpact.rulePack.rulesStrings.13>
-  <!-- EN: ground_circumstance->partially embedded in the ground -->
-  <MeteoriteImpact.rulePack.rulesStrings.14>ground_circumstance->불안정하게 박혀있는</MeteoriteImpact.rulePack.rulesStrings.14>
-  <!-- EN: ground_circumstance->lying in a cracked crater -->
-  <MeteoriteImpact.rulePack.rulesStrings.15>ground_circumstance->분화구 속에 누워있는</MeteoriteImpact.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[PAWN_nameDef] looks on in surprise. -->
-  <MeteoriteImpact.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef](이)가 놀란 표정으로 바라봅니다.</MeteoriteImpact.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[PAWN_nameDef] looks on with excitement. -->
-  <MeteoriteImpact.rulePack.rulesStrings.17>desc_sentence->[PAWN_nameDef](이)가 흥분한 표정으로 바라봅니다.</MeteoriteImpact.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[PAWN_nameDef] looks on in shock. -->
-  <MeteoriteImpact.rulePack.rulesStrings.18>desc_sentence->[PAWN_nameDef](이)가 충격받은 표정으로 바라봅니다.</MeteoriteImpact.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] figures approach from a nearby [TerrainFeature]. -->
-  <MeteoriteImpact.rulePack.rulesStrings.19>desc_sentence->[Quantity_adjphrase] figures approach from a nearby [TerrainFeature].</MeteoriteImpact.rulePack.rulesStrings.19>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] figures prepare tools and equipment. -->
-  <MeteoriteImpact.rulePack.rulesStrings.20>desc_sentence->[Quantity_adjphrase] 개의 도구와 장비가 준비되어 있습니다.</MeteoriteImpact.rulePack.rulesStrings.20>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly. -->
-  <MeteoriteImpact.rulePack.rulesStrings.21>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</MeteoriteImpact.rulePack.rulesStrings.21>
-  <!-- EN: desc_sentence->The surroundings are muted and dull. -->
-  <MeteoriteImpact.rulePack.rulesStrings.22>desc_sentence->그 주변은 순간 정적이 흐릅니다.</MeteoriteImpact.rulePack.rulesStrings.22>
+  <MeteoriteImpact.label>운석 충돌</MeteoriteImpact.label>
+  <MeteoriteImpact.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 근처에 떨어지는 운석</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 근처에 충돌하는 운석</li>
+    <li>image->[airborne_circumstance] [Color] 불꽃의 [AdjectiveLarge] 바위 덩어리</li>
+    <li>image->[airborne_circumstance] 밝게 빛나는 장소</li>
+    <li>image->[airborne_circumstance] [AdjectiveLarge] [Color] 불꽃</li>
+    <li>airborne_circumstance->하늘을 가로질러 타오르는</li>
+    <li>airborne_circumstance->잿구름과 함께 떨어지는</li>
+    <li>airborne_circumstance->바위와 파편을 흩뿌리는</li>
+    <li>image->[ground_circumstance] [AdjectiveLarge] 거석</li>
+    <li>image->[ground_circumstance], 그을리고 [AdjectiveLarge] [Color] 바위</li>
+    <li>image->[ground_circumstance] [Color] 바위 기둥</li>
+    <li>ground_circumstance->연기와 재로 자욱한</li>
+    <li>ground_circumstance->열기로 인해 연기를 내뿜는</li>
+    <li>ground_circumstance->녹은 잔해로 둘러싸인</li>
+    <li>ground_circumstance->불안정하게 박혀있는</li>
+    <li>ground_circumstance->분화구 속에 누워있는</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 놀란 표정으로 바라봅니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 흥분한 표정으로 바라봅니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 충격받은 표정으로 바라봅니다.</li>
+    <li>desc_sentence->근처 [TerrainFeature]에서 [Quantity_adjphrase] 개의 실루엣이 접근하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 개의 도구와 장비가 준비되어 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</li>
+    <li>desc_sentence->그 주변은 순간 정적이 흐릅니다.</li>
+  </MeteoriteImpact.rulePack.rulesStrings>
   
-  <!-- EN: raid -->
   <Raid.label>습격</Raid.label>
-  <!-- EN: tale_noun->an raid on [PAWN_nameDef]'s [Community] -->
-  <Raid.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]의 [Community]에 대한 습격</Raid.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->an assault on [PAWN_nameDef]'s [Community] -->
-  <Raid.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]의 [Community]에 대한 공격</Raid.rulePack.rulesStrings.1>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] being attacked by [Enemy]s -->
-  <Raid.rulePack.rulesStrings.2>tale_noun->[PAWN_nameDef]'s [Community] being attacked by [Enemy]s</Raid.rulePack.rulesStrings.2>
-  <!-- EN: image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase] -->
-  <Raid.rulePack.rulesStrings.3>image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase]</Raid.rulePack.rulesStrings.3>
-  <!-- EN: image->an army [circumstance_phrase] -->
-  <Raid.rulePack.rulesStrings.4>image->an army [circumstance_phrase]</Raid.rulePack.rulesStrings.4>
-  <!-- EN: image->an overwhelming force [circumstance_phrase] -->
-  <Raid.rulePack.rulesStrings.5>image->an overwhelming force [circumstance_phrase]</Raid.rulePack.rulesStrings.5>
-  <!-- EN: image->an invading force [circumstance_phrase] -->
-  <Raid.rulePack.rulesStrings.6>image->an invading force [circumstance_phrase]</Raid.rulePack.rulesStrings.6>
-  <!-- EN: image->stylized [Color] banners [circumstance_phrase] -->
-  <Raid.rulePack.rulesStrings.7>image->[circumstance_phrase] 정형화된 [Color] 깃발</Raid.rulePack.rulesStrings.7>
-  <!-- EN: image->an enormous [Enemy] [circumstance_phrase] -->
-  <Raid.rulePack.rulesStrings.8>image->an enormous [Enemy] [circumstance_phrase]</Raid.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->advancing over a [TerrainFeature] -->
-  <Raid.rulePack.rulesStrings.9>circumstance_phrase->[TerrainFeature](을)를 가로질러 전진하는</Raid.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->completely encircling a [Community] -->
-  <Raid.rulePack.rulesStrings.10>circumstance_phrase->completely encircling a [Community]</Raid.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s -->
-  <Raid.rulePack.rulesStrings.11>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</Raid.rulePack.rulesStrings.11>
-  <!-- EN: circumstance_phrase->roaring in victory -->
-  <Raid.rulePack.rulesStrings.12>circumstance_phrase->roaring in victory</Raid.rulePack.rulesStrings.12>
-  <!-- EN: circumstance_phrase->brandishing [Weapon]s -->
-  <Raid.rulePack.rulesStrings.13>circumstance_phrase->brandishing [Weapon]s</Raid.rulePack.rulesStrings.13>
-  <!-- EN: circumstance_phrase->covered in [Gore] -->
-  <Raid.rulePack.rulesStrings.14>circumstance_phrase->[Gore]에 덮여</Raid.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance]. -->
-  <Raid.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance].</Raid.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively while [defender_circumstance]. -->
-  <Raid.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively while [defender_circumstance].</Raid.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[PAWN_nameDef] lies on the ground, wounded. -->
-  <Raid.rulePack.rulesStrings.17>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</Raid.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance]. -->
-  <Raid.rulePack.rulesStrings.18>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance].</Raid.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance]. -->
-  <Raid.rulePack.rulesStrings.19>desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance].</Raid.rulePack.rulesStrings.19>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression. -->
-  <Raid.rulePack.rulesStrings.20>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveBadass] 표식을 착용하고 있습니다.</Raid.rulePack.rulesStrings.20>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression. -->
-  <Raid.rulePack.rulesStrings.21>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveAngsty] 표식을 착용하고 있습니다.</Raid.rulePack.rulesStrings.21>
-  <!-- EN: desc_sentence->The ground is coated in [Gore]. -->
-  <Raid.rulePack.rulesStrings.22>desc_sentence->The ground is coated in [Gore].</Raid.rulePack.rulesStrings.22>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
-  <Raid.rulePack.rulesStrings.23>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</Raid.rulePack.rulesStrings.23>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Raid.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Raid.rulePack.rulesStrings.24>
-  <!-- EN: defender_circumstance->shouting triumphantly -->
-  <Raid.rulePack.rulesStrings.25>defender_circumstance->shouting triumphantly</Raid.rulePack.rulesStrings.25>
-  <!-- EN: defender_circumstance->glowing [Color] -->
-  <Raid.rulePack.rulesStrings.26>defender_circumstance->glowing [Color]</Raid.rulePack.rulesStrings.26>
-  <!-- EN: defender_circumstance->raising a fist in defiance -->
-  <Raid.rulePack.rulesStrings.27>defender_circumstance->raising a fist in defiance</Raid.rulePack.rulesStrings.27>
-  <!-- EN: defender_circumstance->flexing [PAWN_possessive] muscles -->
-  <Raid.rulePack.rulesStrings.28>defender_circumstance->flexing [PAWN_possessive] muscles</Raid.rulePack.rulesStrings.28>
+  <Raid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](이)가 당한 습격</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community]에 대한 공격</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](이)가 [Enemy]에게 공격받는 모습</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 명의 [Enemy]</li>
+    <li>image->[circumstance_phrase] 군대</li>
+    <li>image->[circumstance_phrase] 압도적인 수의 적</li>
+    <li>image->[circumstance_phrase] 침략자들</li>
+    <li>image->[circumstance_phrase], [Color] 깃발을 휘날리는 무리</li>
+    <li>image->[circumstance_phrase] 막대한 수의 [Enemy]</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가로질러 전진하는</li>
+    <li>circumstance_phrase->[Community](을)를 완전히 포위한</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 명의 [PersonJob]들을 공격하는</li>
+    <li>circumstance_phrase->승리의 함성을 지르는</li>
+    <li>circumstance_phrase->[Weapon](을)를 휘두르는</li>
+    <li>circumstance_phrase->[Gore](을)를 뒤집어쓴</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance] 방어를 조직하고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance] [Weapon](을)를 방어적으로 쥐고 있습니다.</li>
+    <li>desc_sentence->상처 입고 누워있는 [PAWN_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance]에게 [Weapon]으로 보복하는 모습이 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance] 산악처럼 굳게 서있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveBadass] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveAngsty] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->지면이 온통 [Gore]에 뒤덮여 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>defender_circumstance->의기양양하게 고함을 치며</li>
+    <li>defender_circumstance->[Color](으)로 빛나며</li>
+    <li>defender_circumstance->결의에 가득 찬 주먹을 추켜올리며</li>
+    <li>defender_circumstance->자신의 근육을 내세우며</li>
+  </Raid.rulePack.rulesStrings>
   
-  <!-- EN: ship part crash -->
-  <ShipPartCrash.label>우주선 조각 낙하</ShipPartCrash.label>
-  <!-- EN: tale_noun->an ancient ship part crashing near [PAWN_nameDef]'s [Community] -->
-  <ShipPartCrash.rulePack.rulesStrings.0>tale_noun->an ancient ship part crashing near [PAWN_nameDef]'s [Community]</ShipPartCrash.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->an ancient ship part landing near [PAWN_nameDef]'s [Community] -->
-  <ShipPartCrash.rulePack.rulesStrings.1>tale_noun->an ancient ship part landing near [PAWN_nameDef]'s [Community]</ShipPartCrash.rulePack.rulesStrings.1>
-  <!-- EN: tale_noun->a damaged ship part landing near [PAWN_nameDef]'s [Community] -->
-  <ShipPartCrash.rulePack.rulesStrings.2>tale_noun->a damaged ship part landing near [PAWN_nameDef]'s [Community]</ShipPartCrash.rulePack.rulesStrings.2>
-  <!-- EN: image->a swarm of [Mechanoid]s [circumstance_phrase] -->
-  <ShipPartCrash.rulePack.rulesStrings.3>image->a swarm of [Mechanoid]s [circumstance_phrase]</ShipPartCrash.rulePack.rulesStrings.3>
-  <!-- EN: image->an army of [Mechanoid]s [circumstance_phrase] -->
-  <ShipPartCrash.rulePack.rulesStrings.4>image->an army of [Mechanoid]s [circumstance_phrase]</ShipPartCrash.rulePack.rulesStrings.4>
-  <!-- EN: image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase] -->
-  <ShipPartCrash.rulePack.rulesStrings.5>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</ShipPartCrash.rulePack.rulesStrings.5>
-  <!-- EN: image->a [huge] [Mechanoid] [circumstance_phrase] -->
-  <ShipPartCrash.rulePack.rulesStrings.6>image->a [huge] [Mechanoid] [circumstance_phrase]</ShipPartCrash.rulePack.rulesStrings.6>
-  <!-- EN: image->[Quantity_adjphrase] [Mechanoid] silhouettes [circumstance_phrase] -->
-  <ShipPartCrash.rulePack.rulesStrings.7>image->[Quantity_adjphrase] [Mechanoid] silhouettes [circumstance_phrase]</ShipPartCrash.rulePack.rulesStrings.7>
-  <!-- EN: image->[Quantity_adjphrase] [Mechanoid]s with glowing [Color] sensors [circumstance_phrase] -->
-  <ShipPartCrash.rulePack.rulesStrings.8>image->[Quantity_adjphrase] [Mechanoid]s with glowing [Color] sensors [circumstance_phrase]</ShipPartCrash.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->advancing over a [TerrainFeature] -->
-  <ShipPartCrash.rulePack.rulesStrings.9>circumstance_phrase->advancing over a [TerrainFeature]</ShipPartCrash.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->completely encircling a [Community] -->
-  <ShipPartCrash.rulePack.rulesStrings.10>circumstance_phrase->completely encircling a [Community]</ShipPartCrash.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s -->
-  <ShipPartCrash.rulePack.rulesStrings.11>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</ShipPartCrash.rulePack.rulesStrings.11>
-  <!-- EN: circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s -->
-  <ShipPartCrash.rulePack.rulesStrings.12>circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s</ShipPartCrash.rulePack.rulesStrings.12>
-  <!-- EN: circumstance_phrase->covered in [Gore] -->
-  <ShipPartCrash.rulePack.rulesStrings.13>circumstance_phrase->covered in [Gore]</ShipPartCrash.rulePack.rulesStrings.13>
-  <!-- EN: circumstance_phrase->dented and sparking -->
-  <ShipPartCrash.rulePack.rulesStrings.14>circumstance_phrase->dented and sparking</ShipPartCrash.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance]. -->
-  <ShipPartCrash.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance].</ShipPartCrash.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively while [defender_circumstance]. -->
-  <ShipPartCrash.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively while [defender_circumstance].</ShipPartCrash.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[PAWN_nameDef] lies on the ground, wounded. -->
-  <ShipPartCrash.rulePack.rulesStrings.17>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</ShipPartCrash.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance]. -->
-  <ShipPartCrash.rulePack.rulesStrings.18>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance].</ShipPartCrash.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance]. -->
-  <ShipPartCrash.rulePack.rulesStrings.19>desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance].</ShipPartCrash.rulePack.rulesStrings.19>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression. -->
-  <ShipPartCrash.rulePack.rulesStrings.20>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</ShipPartCrash.rulePack.rulesStrings.20>
-  <!-- EN: desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression. -->
-  <ShipPartCrash.rulePack.rulesStrings.21>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</ShipPartCrash.rulePack.rulesStrings.21>
-  <!-- EN: desc_sentence->The ground is coated in [Gore]. -->
-  <ShipPartCrash.rulePack.rulesStrings.22>desc_sentence->The ground is coated in [Gore].</ShipPartCrash.rulePack.rulesStrings.22>
-  <!-- EN: desc_sentence->The ground is coated in scrap metal. -->
-  <ShipPartCrash.rulePack.rulesStrings.23>desc_sentence->The ground is coated in scrap metal.</ShipPartCrash.rulePack.rulesStrings.23>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area. -->
-  <ShipPartCrash.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</ShipPartCrash.rulePack.rulesStrings.24>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <ShipPartCrash.rulePack.rulesStrings.25>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</ShipPartCrash.rulePack.rulesStrings.25>
-  <!-- EN: defender_circumstance->shouting triumphantly -->
-  <ShipPartCrash.rulePack.rulesStrings.26>defender_circumstance->shouting triumphantly</ShipPartCrash.rulePack.rulesStrings.26>
-  <!-- EN: defender_circumstance->glowing [Color] -->
-  <ShipPartCrash.rulePack.rulesStrings.27>defender_circumstance->glowing [Color]</ShipPartCrash.rulePack.rulesStrings.27>
-  <!-- EN: defender_circumstance->raising a fist in defiance -->
-  <ShipPartCrash.rulePack.rulesStrings.28>defender_circumstance->raising a fist in defiance</ShipPartCrash.rulePack.rulesStrings.28>
-  <!-- EN: defender_circumstance->flexing [PAWN_possessive] muscles -->
-  <ShipPartCrash.rulePack.rulesStrings.29>defender_circumstance->flexing [PAWN_possessive] muscles</ShipPartCrash.rulePack.rulesStrings.29>
+  <ShipPartCrash.label>함선 잔해 추락</ShipPartCrash.label>
+  <ShipPartCrash.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 주변에 추락한 고대 함선 잔해</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 주위로 낙하한 고대 함선 잔해</li>
+    <li>tale_noun->손상된 함선 잔해가 [PAWN_nameDef]의 [Community] 근처에 낙하한 이야기</li>
+    <li>image->[circumstance_phrase] [Mechanoid] 무리</li>
+    <li>image->[circumstance_phrase] [Mechanoid] 군단</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 마리의 [Mechanoid]</li>
+    <li>image->[circumstance_phrase] [huge] [Mechanoid]</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 마리의 [Mechanoid] 그림자</li>
+    <li>image->[circumstance_phrase], [Color](으)로 빛나는 센서의 [Quantity_adjphrase] 마리 [Mechanoid]</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가로질러 전진하는</li>
+    <li>circumstance_phrase->[Community](을)를 완전히 포위한</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 명의 [PersonJob]들을 공격하는</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] 마리의 [Animal]들을 도살하는</li>
+    <li>circumstance_phrase->[Gore](을)를 뒤집어쓴</li>
+    <li>circumstance_phrase->여기저기 파이고 불꽃이 튀는</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance] 방어를 조직하고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance] [Weapon](을)를 방어적으로 쥐고 있습니다.</li>
+    <li>desc_sentence->상처 입고 누워있는 [PAWN_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance]에게 [Weapon]으로 보복하는 모습이 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [defender_circumstance] 산악처럼 굳게 서있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveBadass] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [AdjectiveAngsty] 표정을 짓고 있습니다.</li>
+    <li>desc_sentence->지면이 온통 [Gore]에 뒤덮여 있습니다.</li>
+    <li>desc_sentence->지면이 온통 고철더미로 뒤덮여 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 겁먹고 도망가고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>defender_circumstance->의기양양하게 고함을 치며</li>
+    <li>defender_circumstance->[Color](으)로 빛나며</li>
+    <li>defender_circumstance->결의에 가득 찬 주먹을 추켜올리며</li>
+    <li>defender_circumstance->자신의 근육을 내세우며</li>
+  </ShipPartCrash.rulePack.rulesStrings>
   
-  <!-- EN: tornado -->
   <Tornado.label>토네이도</Tornado.label>
-  <!-- EN: tale_noun->a tornado that touched down near [PAWN_nameDef]'s [Community] -->
-  <Tornado.rulePack.rulesStrings.0>tale_noun->a tornado that touched down near [PAWN_nameDef]'s [Community]</Tornado.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->[PAWN_nameDef]'s [Community] being menaced by tornado -->
-  <Tornado.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef]'s [Community] being menaced by tornado</Tornado.rulePack.rulesStrings.1>
-  <!-- EN: image->[behavior] cone of twisting air [circumstance_phrase] -->
-  <Tornado.rulePack.rulesStrings.2>image->[behavior] cone of twisting air [circumstance_phrase]</Tornado.rulePack.rulesStrings.2>
-  <!-- EN: image->[behavior] tornado [circumstance_phrase] -->
-  <Tornado.rulePack.rulesStrings.3>image->[behavior] tornado [circumstance_phrase]</Tornado.rulePack.rulesStrings.3>
-  <!-- EN: image->[behavior] hurricane [circumstance_phrase] -->
-  <Tornado.rulePack.rulesStrings.4>image->[behavior] hurricane [circumstance_phrase]</Tornado.rulePack.rulesStrings.4>
-  <!-- EN: image->[behavior] [Color] cloud formation [circumstance_phrase] -->
-  <Tornado.rulePack.rulesStrings.5>image->[behavior] [Color] cloud formation [circumstance_phrase]</Tornado.rulePack.rulesStrings.5>
-  <!-- EN: behavior->an advancing -->
-  <Tornado.rulePack.rulesStrings.6>behavior->an advancing</Tornado.rulePack.rulesStrings.6>
-  <!-- EN: behavior->an approaching -->
-  <Tornado.rulePack.rulesStrings.7>behavior->an approaching</Tornado.rulePack.rulesStrings.7>
-  <!-- EN: behavior->a quickly-moving -->
-  <Tornado.rulePack.rulesStrings.8>behavior->a quickly-moving</Tornado.rulePack.rulesStrings.8>
-  <!-- EN: behavior->a swirling -->
-  <Tornado.rulePack.rulesStrings.9>behavior->a swirling</Tornado.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->carrying debris with it -->
-  <Tornado.rulePack.rulesStrings.10>circumstance_phrase->carrying debris with it</Tornado.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->passing over a [TerrainFeature] -->
-  <Tornado.rulePack.rulesStrings.11>circumstance_phrase->passing over a [TerrainFeature]</Tornado.rulePack.rulesStrings.11>
-  <!-- EN: circumstance_phrase->obscuring a [TerrainFeature] -->
-  <Tornado.rulePack.rulesStrings.12>circumstance_phrase->obscuring a [TerrainFeature]</Tornado.rulePack.rulesStrings.12>
-  <!-- EN: circumstance_phrase->enveloping a [TerrainFeature] -->
-  <Tornado.rulePack.rulesStrings.13>circumstance_phrase->enveloping a [TerrainFeature]</Tornado.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[PAWN_nameDef] watches with visible fright. -->
-  <Tornado.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef](은)는 겁에 질린 표정으로 감시합니다.</Tornado.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face. -->
-  <Tornado.rulePack.rulesStrings.15>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</Tornado.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[PAWN_nameDef] is coordinating defensive measures. -->
-  <Tornado.rulePack.rulesStrings.16>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</Tornado.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare. -->
-  <Tornado.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase]명의 [PersonJob]들이 서둘러 준비하고 있습니다.</Tornado.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <Tornado.rulePack.rulesStrings.18>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</Tornado.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->All animal life has left the area. -->
-  <Tornado.rulePack.rulesStrings.19>desc_sentence->모든 동물이 이 지역을 떠났습니다.</Tornado.rulePack.rulesStrings.19>
+  <Tornado.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 근처로 다가온 토네이도</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community](이)가 토네이도에 위협받는 모습</li>
+    <li>image->[circumstance_phrase] 뒤틀린 회오리</li>
+    <li>image->[circumstance_phrase] 토네이도</li>
+    <li>image->[circumstance_phrase] 허리케인</li>
+    <li>image->[circumstance_phrase] [Color] 구름</li>
+    <li>behavior->나아가는</li>
+    <li>behavior->전진하는</li>
+    <li>behavior->빠르게 움직이는</li>
+    <li>behavior->휘몰아치는</li>
+    <li>circumstance_phrase->각종 파편을 잔뜩 머금은</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가로질러 통과하는</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가려버린</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 감싼</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 겁에 질린 표정으로 감시합니다.</li>
+    <li>desc_sentence->[PAWN_nameDef]의 얼굴에 경외감이 피어오릅니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 대책을 강구하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 서둘러 준비하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->모든 동물이 이 지역을 떠났습니다.</li>
+  </Tornado.rulePack.rulesStrings>
   
-  <!-- EN: tornado -->
   <TornadoFromItem.label>토네이도</TornadoFromItem.label>
-  <!-- EN: tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community] -->
-  <TornadoFromItem.rulePack.rulesStrings.0>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</TornadoFromItem.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado -->
-  <TornadoFromItem.rulePack.rulesStrings.1>tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado</TornadoFromItem.rulePack.rulesStrings.1>
-  <!-- EN: image->[behavior] cone of twisting air [circumstance_phrase] -->
-  <TornadoFromItem.rulePack.rulesStrings.2>image->[behavior] cone of twisting air [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.2>
-  <!-- EN: image->[behavior] tornado [circumstance_phrase] -->
-  <TornadoFromItem.rulePack.rulesStrings.3>image->[behavior] tornado [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.3>
-  <!-- EN: image->[behavior] hurricane [circumstance_phrase] -->
-  <TornadoFromItem.rulePack.rulesStrings.4>image->[behavior] hurricane [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.4>
-  <!-- EN: image->[behavior] [Color] cloud formation [circumstance_phrase] -->
-  <TornadoFromItem.rulePack.rulesStrings.5>image->[behavior] [Color] cloud formation [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.5>
-  <!-- EN: behavior->an advancing -->
-  <TornadoFromItem.rulePack.rulesStrings.6>behavior->an advancing</TornadoFromItem.rulePack.rulesStrings.6>
-  <!-- EN: behavior->an approaching -->
-  <TornadoFromItem.rulePack.rulesStrings.7>behavior->an approaching</TornadoFromItem.rulePack.rulesStrings.7>
-  <!-- EN: behavior->a quickly-moving -->
-  <TornadoFromItem.rulePack.rulesStrings.8>behavior->a quickly-moving</TornadoFromItem.rulePack.rulesStrings.8>
-  <!-- EN: behavior->a swirling -->
-  <TornadoFromItem.rulePack.rulesStrings.9>behavior->a swirling</TornadoFromItem.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->carrying debris with it -->
-  <TornadoFromItem.rulePack.rulesStrings.10>circumstance_phrase->carrying debris with it</TornadoFromItem.rulePack.rulesStrings.10>
-  <!-- EN: circumstance_phrase->passing over a [TerrainFeature] -->
-  <TornadoFromItem.rulePack.rulesStrings.11>circumstance_phrase->passing over a [TerrainFeature]</TornadoFromItem.rulePack.rulesStrings.11>
-  <!-- EN: circumstance_phrase->obscuring a [TerrainFeature] -->
-  <TornadoFromItem.rulePack.rulesStrings.12>circumstance_phrase->obscuring a [TerrainFeature]</TornadoFromItem.rulePack.rulesStrings.12>
-  <!-- EN: circumstance_phrase->enveloping a [TerrainFeature] -->
-  <TornadoFromItem.rulePack.rulesStrings.13>circumstance_phrase->enveloping a [TerrainFeature]</TornadoFromItem.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[COLONIST_nameDef] watches with visible fright. -->
-  <TornadoFromItem.rulePack.rulesStrings.14>desc_sentence->[COLONIST_nameDef] watches with visible fright.</TornadoFromItem.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence(p=0.5)->[COLONIST_nameDef] watches with awe on [COLONIST_possessive] face. -->
-  <TornadoFromItem.rulePack.rulesStrings.15>desc_sentence(p=0.5)->[COLONIST_nameDef] watches with awe on [COLONIST_possessive] face.</TornadoFromItem.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence(p=0.5)->[ATTACKER_nameDef] watches with awe on [ATTACKER_possessive] face. -->
-  <TornadoFromItem.rulePack.rulesStrings.16>desc_sentence(p=0.5)->[ATTACKER_nameDef] watches with awe on [ATTACKER_possessive] face.</TornadoFromItem.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[COLONIST_nameDef] is coordinating defensive measures. -->
-  <TornadoFromItem.rulePack.rulesStrings.17>desc_sentence->[COLONIST_nameDef] is coordinating defensive measures.</TornadoFromItem.rulePack.rulesStrings.17>
-  <!-- EN: desc_sentence->[ATTACKER_nameDef] cackles with glee. -->
-  <TornadoFromItem.rulePack.rulesStrings.18>desc_sentence->[ATTACKER_nameDef] cackles with glee.</TornadoFromItem.rulePack.rulesStrings.18>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare. -->
-  <TornadoFromItem.rulePack.rulesStrings.19>desc_sentence->[Quantity_adjphrase]명의 [PersonJob]들이 서둘러 준비하고 있습니다.</TornadoFromItem.rulePack.rulesStrings.19>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s flee the area. -->
-  <TornadoFromItem.rulePack.rulesStrings.20>desc_sentence->[Quantity_adjphrase]마리의 [Animal]들이 도망칩니다.</TornadoFromItem.rulePack.rulesStrings.20>
-  <!-- EN: desc_sentence->All animal life has left the area. -->
-  <TornadoFromItem.rulePack.rulesStrings.21>desc_sentence->모든 동물이 이 지역을 떠났습니다.</TornadoFromItem.rulePack.rulesStrings.21>
+  <TornadoFromItem.rulePack.rulesStrings>
+    <li>tale_noun->[COLONIST_nameDef]의 [Community] 근처로 다가온 토네이도</li>
+    <li>tale_noun->[COLONIST_nameDef]의 [Community](이)가 토네이도에 위협받는 모습</li>
+    <li>image->[circumstance_phrase] 뒤틀린 회오리</li>
+    <li>image->[circumstance_phrase] 토네이도</li>
+    <li>image->[circumstance_phrase] 허리케인</li>
+    <li>image->[circumstance_phrase] [Color] 구름</li>
+    <li>behavior->나아가는</li>
+    <li>behavior->전진하는</li>
+    <li>behavior->빠르게 움직이는</li>
+    <li>behavior->휘몰아치는</li>
+    <li>circumstance_phrase->각종 파편을 잔뜩 머금은</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가로질러 통과하는</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 가려버린</li>
+    <li>circumstance_phrase->[TerrainFeature](을)를 감싼</li>
+    <li>desc_sentence->[COLONIST_nameDef](은)는 겁에 질린 표정으로 바라봅니다.</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef]의 얼굴에 경외감이 피어오릅니다.</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef]의 얼굴에 경외감이 피어오릅니다.</li>
+    <li>desc_sentence->[COLONIST_nameDef](은)는 대책을 강구하고 있습니다.</li>
+    <li>desc_sentence->[ATTACKER_nameDef](이)가 신나게 웃습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]들이 서둘러 준비하고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->모든 동물이 이 지역을 떠났습니다.</li>
+  </TornadoFromItem.rulePack.rulesStrings>
   
-  <!-- EN: toxic fallout -->
-  <ToxicFallout.label>독성 낙진</ToxicFallout.label>
-  <!-- EN: tale_noun->fallout settling over [PAWN_nameDef]'s [Community] -->
-  <ToxicFallout.rulePack.rulesStrings.0>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</ToxicFallout.rulePack.rulesStrings.0>
-  <!-- EN: tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic -->
-  <ToxicFallout.rulePack.rulesStrings.1>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic</ToxicFallout.rulePack.rulesStrings.1>
-  <!-- EN: image->an ominous sky, [circumstance_group] -->
-  <ToxicFallout.rulePack.rulesStrings.2>image->an ominous sky, [circumstance_group]</ToxicFallout.rulePack.rulesStrings.2>
-  <!-- EN: image->the air becoming thick and [circumstance_group] -->
-  <ToxicFallout.rulePack.rulesStrings.3>image->the air becoming thick and [circumstance_group]</ToxicFallout.rulePack.rulesStrings.3>
-  <!-- EN: image->the ground glowing gently and [circumstance_group] -->
-  <ToxicFallout.rulePack.rulesStrings.4>image->the ground glowing gently and [circumstance_group]</ToxicFallout.rulePack.rulesStrings.4>
-  <!-- EN: image->fields of dead plants [circumstance_group] -->
-  <ToxicFallout.rulePack.rulesStrings.5>image->fields of dead plants [circumstance_group]</ToxicFallout.rulePack.rulesStrings.5>
-  <!-- EN: image->[Quantity_adjphrase] graves [circumstance_group] -->
-  <ToxicFallout.rulePack.rulesStrings.6>image->[Quantity_adjphrase] graves [circumstance_group]</ToxicFallout.rulePack.rulesStrings.6>
-  <!-- EN: circumstance_phrase->with no life in sight -->
-  <ToxicFallout.rulePack.rulesStrings.7>circumstance_phrase->with no life in sight</ToxicFallout.rulePack.rulesStrings.7>
-  <!-- EN: circumstance_phrase->covered by a faint sheen of luminous dust -->
-  <ToxicFallout.rulePack.rulesStrings.8>circumstance_phrase->covered by a faint sheen of luminous dust</ToxicFallout.rulePack.rulesStrings.8>
-  <!-- EN: circumstance_phrase->arranged in a pattern that suggests bones -->
-  <ToxicFallout.rulePack.rulesStrings.9>circumstance_phrase->arranged in a pattern that suggests bones</ToxicFallout.rulePack.rulesStrings.9>
-  <!-- EN: circumstance_phrase->waiting for the poison to stop -->
-  <ToxicFallout.rulePack.rulesStrings.10>circumstance_phrase->waiting for the poison to stop</ToxicFallout.rulePack.rulesStrings.10>
-  <!-- EN: desc_sentence->[PAWN_nameDef] lies on the ground, [PAWN_possessive] body twisted at an unusual angle. -->
-  <ToxicFallout.rulePack.rulesStrings.11>desc_sentence->[PAWN_nameDef](은)는 땅 위에 누워있고, [PAWN_possessive] 신체는 특이한 각도로 뒤틀렸습니다.</ToxicFallout.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look. -->
-  <ToxicFallout.rulePack.rulesStrings.12>desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</ToxicFallout.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[PAWN_nameDef] looks on in shock. -->
-  <ToxicFallout.rulePack.rulesStrings.13>desc_sentence->[PAWN_nameDef] looks on in shock.</ToxicFallout.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[PAWN_nameDef] rests quietly with a layer of sweat upon [PAWN_possessive] face. -->
-  <ToxicFallout.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef] rests quietly with a layer of sweat upon [PAWN_possessive] face.</ToxicFallout.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] dead [Animal]s lay on the ground. -->
-  <ToxicFallout.rulePack.rulesStrings.15>desc_sentence->[Quantity_adjphrase] dead [Animal]s lay on the ground.</ToxicFallout.rulePack.rulesStrings.15>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground. -->
-  <ToxicFallout.rulePack.rulesStrings.16>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</ToxicFallout.rulePack.rulesStrings.16>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly. -->
-  <ToxicFallout.rulePack.rulesStrings.17>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</ToxicFallout.rulePack.rulesStrings.17>
+  <ToxicFallout.label>유독성 낙진</ToxicFallout.label>
+  <ToxicFallout.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 위로 떨어지는 낙진</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 주변 공기가 오염되는 모습</li>
+    <li>image->[circumstance_group] 불길한 하늘</li>
+    <li>image->세찬 바람 속 [circumstance_group] 모습</li>
+    <li>image->불길하게 빛나며 [circumstance_group] 대지의 모습</li>
+    <li>image->[circumstance_group] 죽은 나무로 가득한 땅</li>
+    <li>image->[Quantity_adjphrase] 개의, [circumstance_group] 무덤</li>
+    <li>circumstance_phrase->살아있는 것은 찾아볼 수 없는</li>
+    <li>circumstance_phrase->희미하게 빛나는 먼지로 뒤덮인</li>
+    <li>circumstance_phrase->마치 뼈를 연상케 하는 모습으로 배열된</li>
+    <li>circumstance_phrase->오염이 사라지기만 기다리는</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 땅 위에 누워있고, 그 신체는 특이한 각도로 뒤틀려있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [TerrainFeature] 근처에 숨어 [AdjectiveAngsty] 모습으로 하늘을 바라봅니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 충격받은 표정으로 바라봅니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 땀에 젖은 채 조용히 앉아있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 죽은 [Animal]들이 누워있습니다.</li>
+    <li>desc_sentence->죽어가는 [Quantity_adjphrase] 마리의 [Animal]들이 누워있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</li>
+  </ToxicFallout.rulePack.rulesStrings>
   
-  <!-- EN: volcanic winter -->
-  <VolcanicWinter.label>화산 겨울</VolcanicWinter.label>
-  <!-- EN: tale_noun->volcanic winter beginning at [PAWN_nameDef]'s [Community] -->
-  <VolcanicWinter.rulePack.rulesStrings.0>tale_noun->volcanic winter beginning at [PAWN_nameDef]'s [Community]</VolcanicWinter.rulePack.rulesStrings.0>
-  <!-- EN: image->a dark and cold sky, [circumstance_group] -->
-  <VolcanicWinter.rulePack.rulesStrings.1>image->a dark and cold sky, [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.1>
-  <!-- EN: image->the air filling with ash, [circumstance_group] -->
-  <VolcanicWinter.rulePack.rulesStrings.2>image->the air filling with ash, [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.2>
-  <!-- EN: image->a frost-covered barren [TerrainFeature] [circumstance_group] -->
-  <VolcanicWinter.rulePack.rulesStrings.3>image->a frost-covered barren [TerrainFeature] [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.3>
-  <!-- EN: image->[Quantity_adjphrase] fields of ash-covered plants [circumstance_group] -->
-  <VolcanicWinter.rulePack.rulesStrings.4>image->[Quantity_adjphrase] fields of ash-covered plants [circumstance_group]</VolcanicWinter.rulePack.rulesStrings.4>
-  <!-- EN: circumstance_phrase->with no life in sight -->
-  <VolcanicWinter.rulePack.rulesStrings.5>circumstance_phrase->with no life in sight</VolcanicWinter.rulePack.rulesStrings.5>
-  <!-- EN: circumstance_phrase->barely illuminated by thin shafts of light -->
-  <VolcanicWinter.rulePack.rulesStrings.6>circumstance_phrase->barely illuminated by thin shafts of light</VolcanicWinter.rulePack.rulesStrings.6>
-  <!-- EN: circumstance_phrase->starkly illuminated with chilly blue light -->
-  <VolcanicWinter.rulePack.rulesStrings.7>circumstance_phrase->starkly illuminated with chilly blue light</VolcanicWinter.rulePack.rulesStrings.7>
-  <!-- EN: desc_sentence->[PAWN_nameDef] huddles near a fire. -->
-  <VolcanicWinter.rulePack.rulesStrings.8>desc_sentence->[PAWN_nameDef] huddles near a fire.</VolcanicWinter.rulePack.rulesStrings.8>
-  <!-- EN: desc_sentence->To stay warm, [PAWN_nameDef] wears [Quantity_adjphrase] [Apparel]s. -->
-  <VolcanicWinter.rulePack.rulesStrings.9>desc_sentence->To stay warm, [PAWN_nameDef] wears [Quantity_adjphrase] [Apparel]s.</VolcanicWinter.rulePack.rulesStrings.9>
-  <!-- EN: desc_sentence->[PAWN_nameDef] sits nearby, visibly exhausted by the ordeal. -->
-  <VolcanicWinter.rulePack.rulesStrings.10>desc_sentence->[PAWN_nameDef] sits nearby, visibly exhausted by the ordeal.</VolcanicWinter.rulePack.rulesStrings.10>
-  <!-- EN: desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look. -->
-  <VolcanicWinter.rulePack.rulesStrings.11>desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</VolcanicWinter.rulePack.rulesStrings.11>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] starving [Animal]s surround the scene. -->
-  <VolcanicWinter.rulePack.rulesStrings.12>desc_sentence->[Quantity_adjphrase] starving [Animal]s surround the scene.</VolcanicWinter.rulePack.rulesStrings.12>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] shivering [Animal]s surround the scene. -->
-  <VolcanicWinter.rulePack.rulesStrings.13>desc_sentence->[Quantity_adjphrase] shivering [Animal]s surround the scene.</VolcanicWinter.rulePack.rulesStrings.13>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground. -->
-  <VolcanicWinter.rulePack.rulesStrings.14>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</VolcanicWinter.rulePack.rulesStrings.14>
-  <!-- EN: desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly. -->
-  <VolcanicWinter.rulePack.rulesStrings.15>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</VolcanicWinter.rulePack.rulesStrings.15>
-  
+  <VolcanicWinter.label>화산겨울</VolcanicWinter.label>
+  <VolcanicWinter.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community]에 닥친 화산 겨울</li>
+    <li>image->[circumstance_group] 어둡고 추운 하늘</li>
+    <li>image->[circumstance_group], 화산재로 가득한 공기</li>
+    <li>image->[circumstance_group], 황량하고 서리 낀 [TerrainFeature]</li>
+    <li>image->[circumstance_group], 화산재로 뒤덮인 들판</li>
+    <li>circumstance_phrase->살아있는 것은 찾아볼 수 없는</li>
+    <li>circumstance_phrase->얇은 빛줄기가 간신히 비추는</li>
+    <li>circumstance_phrase->차가운 푸른 빛으로 물든</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 불 옆에 웅크리고 있습니다.</li>
+    <li>desc_sentence->체온을 유지하기 위해 [PAWN_nameDef](은)는 [Quantity_adjphrase] 겹의 [Apparel](을)를 입고 있습니다.</li>
+    <li>desc_sentence->이 시련에 지친 [PAWN_nameDef](이)가 근처에 앉아있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [TerrainFeature] 근처에 숨어 [AdjectiveAngsty] 모습으로 하늘을 바라봅니다.</li>
+    <li>desc_sentence->굶주린 [Quantity_adjphrase] 마리의 [Animal]들이 주변에 있습니다.</li>
+    <li>desc_sentence->벌벌 떠는 [Quantity_adjphrase] 마리의 [Animal]들이 주위를 둘러싸고 있습니다.</li>
+    <li>desc_sentence->죽어가는 [Quantity_adjphrase] 마리의 [Animal]들이 누워있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 우왕좌왕 하고 있습니다.</li>
+  </VolcanicWinter.rulePack.rulesStrings>
 </LanguageData>

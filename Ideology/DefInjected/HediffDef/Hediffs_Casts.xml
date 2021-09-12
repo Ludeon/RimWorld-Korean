@@ -1,84 +1,50 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: berserk trance -->
   <BerserkTrance.label>피의 무아지경</BerserkTrance.label>
-  <!-- EN: Driven by fierce moral certainty and stories of ideoligious grievance, this person has driven him or herself into a rage. Every muscle is at peak performance, but it's hard to shut down the anger. -->
   <BerserkTrance.description>이 정착민은 도덕적 광신과 사상적 불만을 통해 자신을 분노로 몰아넣었습니다. 전신의 모든 근육이 최상의 능력을 발휘하지만, 진정하기 아주 어려워집니다.</BerserkTrance.description>
   
-  <!-- EN: combat command -->
   <CombatCommand.label>전투 지휘</CombatCommand.label>
-  <!-- EN: By encouraging and commanding nearby allies, this person can enhance their focus in combat and thus their battle performance. -->
   <CombatCommand.description>이 정착민은 지휘 능력을 활용하여 주변 아군의 근접 전투력을 증가시키고 있습니다.</CombatCommand.description>
   
-  <!-- EN: combat command -->
   <CombatCommandBuff.label>전투 지휘</CombatCommandBuff.label>
-  <!-- EN: Combat abilities are boosted thanks to being near someone who is using the combat command ability. -->
   <CombatCommandBuff.description>누군가의 지도에 의해 근접 전투 능력이 향상되었습니다.</CombatCommandBuff.description>
   
-  <!-- EN: farming command -->
   <FarmingCommand.label>농업 감독</FarmingCommand.label>
-  <!-- EN: This person is offering guidance on farming techniques, boosting the farming abilities for everyone nearby. -->
   <FarmingCommand.description>이 정착민은 기술 지도 능력을 이용하여 주위 모든 이의 농업 능력을 향상시키고 있습니다.</FarmingCommand.description>
   
-  <!-- EN: farming command -->
   <FarmingCommandBuff.label>농업 감독</FarmingCommandBuff.label>
-  <!-- EN: This person's farming abilities are boosted thanks to being near someone who is using the farming command ability. -->
   <FarmingCommandBuff.description>누군가의 지도에 의해 농업 능력이 향상되었습니다.</FarmingCommandBuff.description>
   
-  <!-- EN: immunity drive -->
   <ImmunityDrive.label>면역 증진</ImmunityDrive.label>
-  <!-- EN: This person has received moral support of an ideoligious nature. Their mental certainty has energized their body and boosted their immune system. -->
   <ImmunityDrive.description>이 사람은 사상적 본질에 관한 지지와 격려를 받았습니다. 정신적 믿음이 신체에 활기를 불어넣어 면역 체계를 향상시켰습니다.</ImmunityDrive.description>
   
-  <!-- EN: marksman command -->
   <MarksmanCommand.label>사수 감독</MarksmanCommand.label>
-  <!-- EN: This person is using a special ability to call out shots. Everyone within an effect radius gains shooting bonuses. -->
   <MarksmanCommand.description>이 정착민은 우월한 전투 지휘 능력으로 효과 범위 내 모든 아군에게 사격 명중 보너스를 제공합니다.</MarksmanCommand.description>
   
-  <!-- EN: marksman command -->
   <MarksmanCommandBuff.label>사수 감독</MarksmanCommandBuff.label>
-  <!-- EN: Someone is using the marksman command ability nearby, boosting this person's shooting abilities. -->
   <MarksmanCommandBuff.description>누군가의 전투 지휘에 의해 이 정착민의 사격 능력이 향상되었습니다.</MarksmanCommandBuff.description>
   
-  <!-- EN: mining command -->
   <MiningCommand.label>채굴 감독</MiningCommand.label>
-  <!-- EN: This person is offering guidance on mining techniques, boosting the mining speed for everyone nearby. -->
   <MiningCommand.description>이 정착민은 기술 지도 능력을 이용하여 주위 모든 이의 채굴 속도를 향상시키고 있습니다.</MiningCommand.description>
   
-  <!-- EN: mining command -->
   <MiningCommandBuff.label>채굴 감독</MiningCommandBuff.label>
-  <!-- EN: This person's mining speed is boosted thanks to being near someone who is using the mining command ability. -->
   <MiningCommandBuff.description>누군가의 지도에 의해 채굴 속도가 향상되었습니다.</MiningCommandBuff.description>
   
-  <!-- EN: preach health -->
   <PreachHealth.label>건강 상담</PreachHealth.label>
-  <!-- EN: This person's will to survive was reinforced by a talk with a moral guide of their ideoligion. That moral certainty has improved their healing and immunization gain rates. -->
   <PreachHealth.description>대상의 생존 의지가 영적 지도자와의 상담에 의해 강화되었습니다. 체력과 항체 생성 속도가 향상되었습니다.</PreachHealth.description>
   
-  <!-- EN: production command -->
   <ProductionCommand.label>생산 감독</ProductionCommand.label>
-  <!-- EN: This person is offering guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. -->
   <ProductionCommand.description>이 정착민은 기술 지도 능력을 이용하여 주위 모든 이의 건설과 제작 능력을 향상시키고 있습니다.</ProductionCommand.description>
   
-  <!-- EN: production command -->
   <ProductionCommandBuff.label>생산 감독</ProductionCommandBuff.label>
-  <!-- EN: This person's construction and crafting speeds are boosted thanks to being near someone who is using the production command ability. -->
   <ProductionCommandBuff.description>누군가의 지도에 의해 건설과 제작 능력이 향상되었습니다.</ProductionCommandBuff.description>
   
-  <!-- EN: research command -->
   <ResearchCommand.label>연구 감독</ResearchCommand.label>
-  <!-- EN: This person is using a special ability to provide suggestions and mental support, boosting the research speed of everyone nearby. -->
   <ResearchCommand.description>이 정착민은 참신한 제안과 인간적 격려를 통해 주위 모든 이들의 연구 속도를 향상시키고 있습니다.</ResearchCommand.description>
   
-  <!-- EN: research command -->
   <ResearchCommandBuff.label>연구 감독</ResearchCommandBuff.label>
-  <!-- EN: This person's research speed is boosted because they are near someone who is using the research command ability. -->
   <ResearchCommandBuff.description>누군가의 연구 지휘에 의해 이 정착민의 연구 속도가 향상되었습니다.</ResearchCommandBuff.description>
   
-  <!-- EN: work drive -->
   <WorkDrive.label>작업 증진</WorkDrive.label>
-  <!-- EN: The sense of being called upon by a leader to work harder. -->
   <WorkDrive.description>지도자에게 열심히 일하도록 격려받음.</WorkDrive.description>
-  
 </LanguageData>

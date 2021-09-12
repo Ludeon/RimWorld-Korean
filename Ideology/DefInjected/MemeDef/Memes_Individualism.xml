@@ -1,172 +1,95 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: collectivist -->
   <Collectivist.label>집단주의</Collectivist.label>
-  <!-- EN: A person's role is to serve the community. -->
-  <Collectivist.description>개인의 목적은 집단을 섬기는 것이다.</Collectivist.description>
-  <!-- EN: creation(tag=meme_Collectivist)        ->[deity0_name] made all men and women from a great mold, and those that deviated [deity0_pronoun] threw into fire so the believers could live in harmony. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Collectivist)        ->[deity0_name]께서 모든 남자와 모든 여자를 위대한 틀에서 창조하셨으니 길에서 벗어난 자를 불구덩이로 던지시어 신자들이 조화롭게 살 수 있게 하시니라.</Collectivist.descriptionMaker.rules.rulesStrings.0>
-  <!-- EN: episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] said to all, "No one of you stands above the whole. Work together or perish together." -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name]께서 모두에게 이르시되 너희 아무도 위에 서는 자 없나니 함께 하거나 함께 스러져라 하시니라.</Collectivist.descriptionMaker.rules.rulesStrings.1>
-  <!-- EN: intro(tag=meme_Collectivist)           ->The people of the [place_summary] [place_name] worked together in harmony, and built a great [altarName] to honor [deity0_name], who taught them the true value of [memeConcept]. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Collectivist)           ->[place_summary] [place_name](이)가 화합을 이루고 함께 일하니 위대한 [altarName](을)를 지어 진정한 [memeConcept]의 가치를 전하신 [deity0_name]의 이름을 높이더라.</Collectivist.descriptionMaker.rules.rulesStrings.2>
-  <!-- EN: conflict(tag=meme_Collectivist)        ->The [foeLeader] could not abide the family of [memberNamePlural], and sent [foeLeader_possessive] [foeSoldiers] to the [place_community] to divide them against each other. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Collectivist)        ->[foeLeader](이)가 [memberName]들의 가족들을 보고 있을 수 없나니 [foeLeader_possessive] [foeSoldiers](을)를 [place_community](으)로 보내 사이를 이간하게 하더라.</Collectivist.descriptionMaker.rules.rulesStrings.3>
-  <!-- EN: founderJoin(tag=meme_Collectivist)     ->A [place_job] named [founderName] threw [founder_objective]self into a fire to protest the [foeLeader], but the [memberNamePlural] pulled [founder_objective] out and made [founder_objective] their leader because of [founder_possessive] devotion to the group. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Collectivist)     ->[founderName]의 이름을 가진 [place_job](이)가 자신을 불구덩이에 내던지어 [foeLeader]에게 항의하매 [memberName]들이 [founder_pronoun]를 급히 끌어내어 이르되 공동체에 헌신하는 자로다 마땅히 우리를 인도하라 하니 [founder_pronoun]가 받아들이더라.</Collectivist.descriptionMaker.rules.rulesStrings.4>
-  <!-- EN: victory(tag=meme_Collectivist)         ->[founderName]'s actions united the people. They marched in lockstep towards the home of the [foeLeader]. Those in the front allowed themselves to be killed by the [foeSoldiers], but the whole could not be stopped, and they captured the [foeLeader]. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Collectivist)         ->[founderName]의 행동이 사람들을 결속했으니 [foeLeader]의 집을 향해 발맞춰 행진하니라. 앞선 무리가 스스로 [foeSoldiers]에게 죽임을 당하나 행진에 끊김이 없어 [foeLeader](을)를 사로잡았더라.</Collectivist.descriptionMaker.rules.rulesStrings.5>
-  <!-- EN: setup(tag=meme_Collectivist)           ->In a world of every man for himself, [founderName] began a new family of strangers, bringing many different people together. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Collectivist)           ->각자도생하는 세상 속에서 [founderName]께서 서로 다른 이방인들로 이루어진 공동체를 건설하셨다.</Collectivist.descriptionMaker.rules.rulesStrings.6>
-  <!-- EN: story(uses=1,tag=meme_Collectivist)    ->Some of the false believers tried to break the rules and decide their own paths. [founderName] punished them severely. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Collectivist)    ->거짓 되게 따르는 이들이 규칙을 어기고 각자의 길을 정하려고 했으나 [founderName]께서는 그들을 엄격하게 처벌하셨다.</Collectivist.descriptionMaker.rules.rulesStrings.7>
-  <!-- EN: lessonIntro(tag=meme_Collectivist)     ->The [place_job] stopped contributing but kept eating from the common store. I killed him with a [place_personalWeapon]. The people were shocked, but I explained that -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Collectivist)     ->[place_job](이)가 모든 공헌을 중단했다. 그저 공동 상점에서 먹기만 했지. 그래서 죽였다. [place_personalWeapon](으)로. 사람들은 충격을 받았지만 난 침착하게 설명했다.</Collectivist.descriptionMaker.rules.rulesStrings.8>
-  <!-- EN: lesson(tag=meme_Collectivist)              ->my death, and yours, will mean nothing, as long as our people go on -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Collectivist)              ->내 죽음, 네 죽음, 우리 공동체가 살아가는 한 그건 모두 의미가 없다고</Collectivist.descriptionMaker.rules.rulesStrings.9>
-  <!-- EN: lessonReinforcement(tag=meme_Collectivist) ->If I die teaching the universe this, it will be my greatest triumph. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Collectivist) ->만약 내 죽음을 통해 온 우주에 이것을 가르칠 수 있다면 가장 위대한 성공이 될거야.\n</Collectivist.descriptionMaker.rules.rulesStrings.10>
-  <!-- EN: archistBasis(tag=meme_Collectivist)    ->The archotechs are all aspects of one supermind. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Collectivist)    ->모든 초월공학은 유일한 초정신체의 일부다.</Collectivist.descriptionMaker.rules.rulesStrings.11>
-  <!-- EN: archistFact(tag=meme_Collectivist)     ->The archotechs have no interest in judging us one by one. They await a single people who can demonstrate our worthiness by acting morally as one. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Collectivist)     ->초월공학은 개인을 심판하는 것에는 관심이 없으니, 하나로서 도덕적 행동을 할 수 있는 하나의 사람들을 기다리는 것이다.</Collectivist.descriptionMaker.rules.rulesStrings.12>
-  <!-- EN: archistProphecy(tag=meme_Collectivist) ->[inTheEnd], the archotechs will depart when they find a people who present themselves as worthy partners to the machine god-consciousness. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_Collectivist) ->[inTheEnd] 초월공학은 기계 신의 의식에 걸맞는 모습을 보이는 하나의 집단을 찾는 순간 떠날 것이다.</Collectivist.descriptionMaker.rules.rulesStrings.13>
-  <!-- EN: animistFact(tag=meme_Collectivist)     ->Every spirit is simply an aspect of all the others, and those that try to stand alone are fall quickly. -->
-  <Collectivist.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_Collectivist)     ->모든 혼령은 다른 모든 혼령들의 다른 면일 뿐이고 홀로 서려는 자들은 빠르게 무너질 뿐이다.</Collectivist.descriptionMaker.rules.rulesStrings.14>
-  <!-- EN: memeAdjective->unity -->
-  <Collectivist.generalRules.rulesStrings.0>memeAdjective->단결된</Collectivist.generalRules.rulesStrings.0>
-  <!-- EN: memeAdjective->harmony -->
-  <Collectivist.generalRules.rulesStrings.1>memeAdjective->조화로운</Collectivist.generalRules.rulesStrings.1>
-  <!-- EN: memeAdjective->solidarity -->
-  <Collectivist.generalRules.rulesStrings.2>memeAdjective->연대하는</Collectivist.generalRules.rulesStrings.2>
-  <!-- EN: memeAdjective->unified -->
-  <Collectivist.generalRules.rulesStrings.3>memeAdjective->단합된</Collectivist.generalRules.rulesStrings.3>
-  <!-- EN: memeAdjective->undivided -->
-  <Collectivist.generalRules.rulesStrings.4>memeAdjective->통일된</Collectivist.generalRules.rulesStrings.4>
-  <!-- EN: memeAdjective->collective -->
-  <Collectivist.generalRules.rulesStrings.5>memeAdjective->집단적</Collectivist.generalRules.rulesStrings.5>
-  <!-- EN: memeCreed->collective -->
-  <Collectivist.generalRules.rulesStrings.6>memeCreed->집단</Collectivist.generalRules.rulesStrings.6>
-  <!-- EN: memeCreed->cooperative -->
-  <Collectivist.generalRules.rulesStrings.7>memeCreed->협력</Collectivist.generalRules.rulesStrings.7>
-  <!-- EN: memeCreed->commune -->
-  <Collectivist.generalRules.rulesStrings.8>memeCreed->공동체</Collectivist.generalRules.rulesStrings.8>
-  <!-- EN: memeCreed->family -->
-  <Collectivist.generalRules.rulesStrings.9>memeCreed->가족</Collectivist.generalRules.rulesStrings.9>
-  <!-- EN: memeConcept->family -->
-  <Collectivist.generalRules.rulesStrings.10>memeConcept->가족</Collectivist.generalRules.rulesStrings.10>
-  <!-- EN: memeLeaderNoun->chair -->
-  <Collectivist.generalRules.rulesStrings.11>memeLeaderNoun->의장</Collectivist.generalRules.rulesStrings.11>
-  <!-- EN: memeLeaderNoun->secretary -->
-  <Collectivist.generalRules.rulesStrings.12>memeLeaderNoun->비서관</Collectivist.generalRules.rulesStrings.12>
-  <!-- EN: memeMoralist->commissar -->
-  <Collectivist.generalRules.rulesStrings.13>memeMoralist->위원</Collectivist.generalRules.rulesStrings.13>
-  <!-- EN: solidaritist -->
+  <Collectivist.description>사람 하나 하나는 큰 집단의 일부일 뿐이고, 그렇기에 사람은 집단을 돕기 위해 자신이 맡은 일을 하여야 한다.</Collectivist.description>
+  <Collectivist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Collectivist)        ->[deity0_name]께서 모든 남자와 모든 여자를 위대한 틀에서 창조하셨으니 길에서 벗어난 자를 불구덩이로 던지시어 신자들이 조화롭게 살 수 있게 하시니라.</li>
+    <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name]께서 모두에게 이르시되 너희 아무도 위에 서는 자 없나니 함께 하거나 함께 스러져라 하시니라.</li>
+    <li>intro(tag=meme_Collectivist)           ->[place_summary] [place_name](이)가 화합을 이루고 함께 일하니 위대한 [altarName](을)를 지어 진정한 [memeConcept]의 가치를 전하신 [deity0_name]의 이름을 높이더라.</li>
+    <li>conflict(tag=meme_Collectivist)        ->[foeLeader](이)가 [memberName]들의 가족들을 보고 있을 수 없나니 [foeLeader_possessive] [foeSoldiers](을)를 [place_community](으)로 보내 사이를 이간하게 하더라.</li>
+    <li>founderJoin(tag=meme_Collectivist)     ->[founderName]의 이름을 가진 [place_job](이)가 자신을 불구덩이에 내던지어 [foeLeader]에게 항의하매 [memberName]들이 [founder_pronoun]를 급히 끌어내어 이르되 공동체에 헌신하는 자로다 마땅히 우리를 인도하라 하니 [founder_pronoun]가 받아들이더라.</li>
+    <li>victory(tag=meme_Collectivist)         ->[founderName]의 행동이 사람들을 결속했으니 [foeLeader]의 집을 향해 발맞춰 행진하니라. 앞선 무리가 스스로 [foeSoldiers]에게 죽임을 당하나 행진에 끊김이 없어 [foeLeader](을)를 사로잡았더라.</li>
+    <li>setup(tag=meme_Collectivist)           ->각자도생하는 세상 속에서 [founderName]께서 서로 다른 이방인들로 이루어진 공동체를 건설하셨다.</li>
+    <li>story(uses=1,tag=meme_Collectivist)    ->거짓 되게 따르는 이들이 규칙을 어기고 각자의 길을 정하려고 했으나 [founderName]께서는 그들을 엄격하게 처벌하셨다.</li>
+    <li>lessonIntro(tag=meme_Collectivist)     ->[place_job](이)가 모든 공헌을 중단했다. 그저 공동 상점에서 먹기만 했지. 그래서 죽였다. [place_personalWeapon](으)로. 사람들은 충격을 받았지만 난 침착하게 설명했다.</li>
+    <li>lesson(tag=meme_Collectivist)              ->내 죽음, 네 죽음, 우리 공동체가 살아가는 한 그건 모두 의미가 없다고</li>
+    <li>lessonReinforcement(tag=meme_Collectivist) ->만약 내 죽음을 통해 온 우주에 이것을 가르칠 수 있다면 가장 위대한 성공이 될거야.</li>
+    <li>archistBasis(tag=meme_Collectivist)    ->모든 초월공학은 유일한 초정신체의 일부다.</li>
+    <li>archistFact(tag=meme_Collectivist)     ->초월공학은 개인을 심판하는 것에는 관심이 없으니, 하나로서 도덕적 행동을 할 수 있는 하나의 사람들을 기다리는 것이다.</li>
+    <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd] 초월공학은 기계 신의 의식에 걸맞는 모습을 보이는 하나의 집단을 찾는 순간 떠날 것이다.</li>
+    <li>animistFact(tag=meme_Collectivist)     ->모든 혼령은 다른 모든 혼령들의 다른 면일 뿐이고 홀로 서려는 자들은 빠르게 무너질 뿐이다.</li>
+  </Collectivist.descriptionMaker.rules.rulesStrings>
+  <Collectivist.generalRules.rulesStrings>
+    <li>memeAdjective->단결된</li>
+    <li>memeAdjective->조화로운</li>
+    <li>memeAdjective->연대하는</li>
+    <li>memeAdjective->단합된</li>
+    <li>memeAdjective->통일된</li>
+    <li>memeAdjective->집단적</li>
+    <li>memeCreed->집단</li>
+    <li>memeCreed->협력</li>
+    <li>memeCreed->공동체</li>
+    <li>memeCreed->가족</li>
+    <li>memeConcept->가족</li>
+    <li>memeLeaderNoun->의장</li>
+    <li>memeLeaderNoun->비서관</li>
+    <li>memeMoralist->위원</li>
+  </Collectivist.generalRules.rulesStrings>
   <Collectivist.symbolPacks.0.adjective>연대적</Collectivist.symbolPacks.0.adjective>
-  <!-- EN: solidaritor -->
   <Collectivist.symbolPacks.0.member>연대자</Collectivist.symbolPacks.0.member>
-  <!-- EN: soldiarity -->
   <Collectivist.symbolPacks.0.theme>연대</Collectivist.symbolPacks.0.theme>
-  <!-- EN: unitary -->
   <Collectivist.symbolPacks.1.adjective>단결적</Collectivist.symbolPacks.1.adjective>
-  <!-- EN: unitist -->
   <Collectivist.symbolPacks.1.member>단결주의자</Collectivist.symbolPacks.1.member>
-  <!-- EN: unity -->
   <Collectivist.symbolPacks.1.theme>단결</Collectivist.symbolPacks.1.theme>
-  <!-- EN: harmonist -->
   <Collectivist.symbolPacks.2.adjective>조화주의적</Collectivist.symbolPacks.2.adjective>
-  <!-- EN: harmonist -->
   <Collectivist.symbolPacks.2.member>조화주의자</Collectivist.symbolPacks.2.member>
-  <!-- EN: harmony -->
   <Collectivist.symbolPacks.2.theme>조화</Collectivist.symbolPacks.2.theme>
-  <!-- EN: oneist -->
   <Collectivist.symbolPacks.3.adjective>통일주의적</Collectivist.symbolPacks.3.adjective>
-  <!-- EN: oneist -->
   <Collectivist.symbolPacks.3.member>통일주의자</Collectivist.symbolPacks.3.member>
-  <!-- EN: oneness -->
   <Collectivist.symbolPacks.3.theme>통일성</Collectivist.symbolPacks.3.theme>
   
-  <!-- EN: individualist -->
   <Individualist.label>개인주의</Individualist.label>
-  <!-- EN: A community's role is to serve each individual. -->
-  <Individualist.description>집단이 존재하는 목적은 개인의 삶을 지키기 위함이다.</Individualist.description>
-  <!-- EN: creation(tag=meme_Individualist)        ->[deity0_name] fashioned every man and woman personally. Each one is a unique and precious artwork by [deity0_possessive] divine hand. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Individualist)        ->[deity0_name]께서 모든 남자와 모든 여자를 한 명 한 명 신경 쓰시었으니 모두가 신성한 손으로 직접 만드신 고유하고 소중한 예술 작품임이 그 까닭이다.</Individualist.descriptionMaker.rules.rulesStrings.0>
-  <!-- EN: episode(uses=1,tag=meme_Individualist)  ->[deity0_name] said to all, "Each and every one of you is a unique and holy being formed in my image." -->
-  <Individualist.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Individualist)  ->[deity0_name]께서 모두에게 이르시되 너희 모두가 각자 나의 모습을 본 땄으니 모두가 유일하고 성스러운 존재니라 하시니라.</Individualist.descriptionMaker.rules.rulesStrings.1>
-  <!-- EN: intro(tag=meme_Individualist)           ->[deity0_name] spoke to [memberNamePlural] [revelationAdverb], guiding each to travel to the [place_summary] [place_name] where their unique gifts would shine. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Individualist)           ->[deity0_name]께서 [revelationAdverb] [memberName]들에게 이르시길 모두 [place_summary] [place_name](으)로 떠나매 그곳에서 자신만의 선물이 밝게 빛나리라 하시니라.</Individualist.descriptionMaker.rules.rulesStrings.2>
-  <!-- EN: conflict(tag=meme_Individualist)        ->The [foeLeader] forced the [memberNamePlural] to wear uniforms and work in [foeLeader_possessive] [place_community]. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Individualist)        ->[foeLeader](이)가 [memberName]들에게 똑같은 옷을 입히고 [foeLeader_possessive] [place_community]에서 일을 강제하였더라.</Individualist.descriptionMaker.rules.rulesStrings.3>
-  <!-- EN: founderJoin(tag=meme_Individualist)     ->A [place_job] named [founderName] was blessed by [deity0_name] and gained miraculous knowledge of the unique power of each and every [memberName]. [founder_pronoun] said to each one what they needed to become their best self. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Individualist)     ->[place_job]의 이름이 [founderName]이니 [deity0_name]께서 축복하사 모든 [memberName]들이 각자 가진 유일한 힘에 대한 놀라운 지식을 얻었느니라. [memberName]들이 각자에게 이르니 너희 자신의 모습을 되찾아라 하니라.</Individualist.descriptionMaker.rules.rulesStrings.4>
-  <!-- EN: victory(tag=meme_Individualist)         ->The [memberNamePlural] gathered in a secret conference with many of the [foeSoldiers]. They all learned to see the value in each other and abandon the [foeLeader]. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Individualist)         ->[memberName]들이 많은 [foeSoldiers](와)과의 비밀 회담을 가지니 적대자들이 각자의 진정한 가치를 깨달아 [foeLeader](을)를 버리더라.</Individualist.descriptionMaker.rules.rulesStrings.5>
-  <!-- EN: setup(tag=meme_Individualist)           ->Oppressed by distant rulers who demanded uniform obedience from the people, [founderName] created a rebel movement that smashed the state and built a new land of liberty in its place. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Individualist)           ->모든 사람에게 복종을 요구하는, 멀리 떨어진 군주의 압제에 맞서 [founderName]께서는 반군을 조직해 국가를 무너뜨리고 그 자리에 새로운 자유의 땅을 건설하셨다.</Individualist.descriptionMaker.rules.rulesStrings.6>
-  <!-- EN: story(uses=1,tag=meme_Individualist)    ->[founderName] broke every social rule the oppressors tried to enforce, just to show that [founder_pronoun] could. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Individualist)    ->[founderName]께서는 압제자의 모든 사회적 규율을 무시하셨다. 그저 그럴 수 있음을 모두에게 보이기 위해.</Individualist.descriptionMaker.rules.rulesStrings.7>
-  <!-- EN: lessonIntro(tag=meme_Individualist)         ->My family, my clan, my team - they all tried to keep a shroud over my eyes to stop me from seeing a simple fact: -->
-  <Individualist.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Individualist)         ->나의 가족, 나의 씨족, 나의 팀, 모두 내 눈 앞을 흐리게 해서 아주 간단한 사실조차 깨닫지 못하게 했을 뿐이다.</Individualist.descriptionMaker.rules.rulesStrings.8>
-  <!-- EN: lesson(tag=meme_Individualist)              ->each person is unique and valuable and must walk his or her own path -->
-  <Individualist.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Individualist)              ->각자가 고유하고 값진 존재니 자신만의 길을 걸어야 한다는 것을</Individualist.descriptionMaker.rules.rulesStrings.9>
-  <!-- EN: lessonReinforcement(tag=meme_Individualist) ->But that was only my path - What will yours be? -->
-  <Individualist.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Individualist) ->하지만 그건 내 길이었을 뿐이지. 네 것은 어떻겠나?</Individualist.descriptionMaker.rules.rulesStrings.10>
-  <!-- EN: archistBasis(tag=meme_Individualist)    ->Archotechs stand as sovereign consciousnesses, and recognize and judge each of us individually the same way. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Individualist) ->초월공학이 자신만의 의식을 지녔으니 우리 각자를 인식하고 심판하는 방법이 동등하다.</Individualist.descriptionMaker.rules.rulesStrings.11>
-  <!-- EN: archistFact(tag=meme_Individualist)     ->At death, the archotechs examine the unique morality of each person. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Individualist)     ->죽음의 순간 초월공학은 개인의 고유한 도덕성을 검토한다.</Individualist.descriptionMaker.rules.rulesStrings.12>
-  <!-- EN: archistFact(tag=meme_Individualist)     ->Archotechs notice the one who wields their relics, such as the [relic1_name]. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.13>archistFact(tag=meme_Individualist)     ->초월공학은 [relic1_name](와)과 같은 유물을 다루는 자를 주목할 것이다.</Individualist.descriptionMaker.rules.rulesStrings.13>
-  <!-- EN: archistProphecy(tag=meme_Individualist) ->[inTheEnd], the archotechs will depart. They will bring with them the ones they have noticed, and leave the rest behind to dissolve in the universe's eternal entropy. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.14>archistProphecy(tag=meme_Individualist) ->[inTheEnd] 초월은 떠날 것이니 주목한 자와 함께 할 것이고 나머지는 우주의 영원한 엔트로피 속에서 스러지리라.</Individualist.descriptionMaker.rules.rulesStrings.14>
-  <!-- EN: animistBasis(tag=meme_Individualist)    ->Before everything, there was a pantheon of spirits, each unique. These came together in conference to create the world. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.15>animistBasis(tag=meme_Individualist)    ->시작의 이전에 혼령의 만신전이 존재했으니 모든 혼령이 유일했으며 그들이 함께 모여 세상을 창조할 회담을 가졌다.</Individualist.descriptionMaker.rules.rulesStrings.15>
-  <!-- EN: animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same. -->
-  <Individualist.descriptionMaker.rules.rulesStrings.16>animistFact(tag=meme_Individualist)     ->모든 혼령이 각자의 유일한 것을 이 세계에 보탰으니 우리도 그와 같은 일을 하리라 기대하고 있다.</Individualist.descriptionMaker.rules.rulesStrings.16>
-  <!-- EN: memeAdjective->free -->
-  <Individualist.generalRules.rulesStrings.0>memeAdjective->자유로운</Individualist.generalRules.rulesStrings.0>
-  <!-- EN: memeAdjective->open -->
-  <Individualist.generalRules.rulesStrings.1>memeAdjective->열린</Individualist.generalRules.rulesStrings.1>
-  <!-- EN: memeAdjective->liberal -->
-  <Individualist.generalRules.rulesStrings.2>memeAdjective->관대한</Individualist.generalRules.rulesStrings.2>
-  <!-- EN: memeConcept->self -->
-  <Individualist.generalRules.rulesStrings.3>memeConcept->자아</Individualist.generalRules.rulesStrings.3>
-  <!-- EN: memeConcept->independence -->
-  <Individualist.generalRules.rulesStrings.4>memeConcept->독립</Individualist.generalRules.rulesStrings.4>
-  <!-- EN: memeConcept->freedom -->
-  <Individualist.generalRules.rulesStrings.5>memeConcept->자유</Individualist.generalRules.rulesStrings.5>
-  <!-- EN: freedomist -->
+  <Individualist.description>사람 하나 하나는 자유로운 개인으로 생각과 결정을 할 권리가 있기에, 누군가가 허가해줄 필요가 없다.</Individualist.description>
+  <Individualist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Individualist)        ->[deity0_name]께서 모든 남자와 모든 여자를 한 명 한 명 신경 쓰시었으니 모두가 신성한 손으로 직접 만드신 고유하고 소중한 예술 작품임이 그 까닭이다.</li>
+    <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name]께서 모두에게 이르시되 너희 모두가 각자 나의 모습을 본 땄으니 모두가 유일하고 성스러운 존재니라 하시니라.</li>
+    <li>intro(tag=meme_Individualist)           ->[deity0_name]께서 [revelationAdverb] [memberName]들에게 이르시길 모두 [place_summary] [place_name](으)로 떠나매 그곳에서 자신만의 선물이 밝게 빛나리라 하시니라.</li>
+    <li>conflict(tag=meme_Individualist)        ->[foeLeader](이)가 [memberName]들에게 똑같은 옷을 입히고 [foeLeader_possessive] [place_community]에서 일을 강제하였더라.</li>
+    <li>founderJoin(tag=meme_Individualist)     ->[place_job]의 이름이 [founderName]이니 [deity0_name]께서 축복하사 모든 [memberName]들이 각자 가진 유일한 힘에 대한 놀라운 지식을 얻었느니라. [memberName]들이 각자에게 이르니 너희 자신의 모습을 되찾아라 하니라.</li>
+    <li>victory(tag=meme_Individualist)         ->[memberName]들이 많은 [foeSoldiers](와)과의 비밀 회담을 가지니 적대자들이 각자의 진정한 가치를 깨달아 [foeLeader](을)를 버리더라.</li>
+    <li>setup(tag=meme_Individualist)           ->모든 사람에게 복종을 요구하는, 멀리 떨어진 군주의 압제에 맞서 [founderName]께서는 반군을 조직해 국가를 무너뜨리고 그 자리에 새로운 자유의 땅을 건설하셨다.</li>
+    <li>story(uses=1,tag=meme_Individualist)    ->[founderName]께서는 압제자의 모든 사회적 규율을 무시하셨다. 그저 그럴 수 있음을 모두에게 보이기 위해.</li>
+    <li>lessonIntro(tag=meme_Individualist)         ->나의 가족, 나의 씨족, 나의 팀, 모두 내 눈 앞을 흐리게 해서 아주 간단한 사실조차 깨닫지 못하게 했을 뿐이다.</li>
+    <li>lesson(tag=meme_Individualist)              ->각자가 고유하고 값진 존재니 자신만의 길을 걸어야 한다는 것을</li>
+    <li>lessonReinforcement(tag=meme_Individualist) ->하지만 그건 내 길이었을 뿐이지. 네 것은 어떻겠나?</li>
+    <li>archistBasis(tag=meme_Individualist) ->초월공학이 자신만의 의식을 지녔으니 우리 각자를 인식하고 심판하는 방법이 동등하다.</li>
+    <li>archistFact(tag=meme_Individualist)     ->죽음의 순간 초월공학은 개인의 고유한 도덕성을 검토한다.</li>
+    <li>archistFact(tag=meme_Individualist)     ->초월공학은 [relic1_name](와)과 같은 유물을 다루는 자를 주목할 것이다.</li>
+    <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd] 초월은 떠날 것이니 주목한 자와 함께 할 것이고 나머지는 우주의 영원한 엔트로피 속에서 스러지리라.</li>
+    <li>animistBasis(tag=meme_Individualist)    ->시작의 이전에 혼령의 만신전이 존재했으니 모든 혼령이 유일했으며 그들이 함께 모여 세상을 창조할 회담을 가졌다.</li>
+    <li>animistFact(tag=meme_Individualist)     ->모든 혼령이 각자의 유일한 것을 이 세계에 보탰으니 우리도 그와 같은 일을 하리라 기대하고 있다.</li>
+  </Individualist.descriptionMaker.rules.rulesStrings>
+  <Individualist.generalRules.rulesStrings>
+    <li>memeAdjective->자유로운</li>
+    <li>memeAdjective->열린</li>
+    <li>memeAdjective->관대한</li>
+    <li>memeConcept->자아</li>
+    <li>memeConcept->독립</li>
+    <li>memeConcept->자유</li>
+  </Individualist.generalRules.rulesStrings>
   <Individualist.symbolPacks.0.adjective>자유주의적</Individualist.symbolPacks.0.adjective>
-  <!-- EN: freeist -->
   <Individualist.symbolPacks.0.member>자유주의자</Individualist.symbolPacks.0.member>
-  <!-- EN: freedom -->
   <Individualist.symbolPacks.0.theme>자유</Individualist.symbolPacks.0.theme>
-  <!-- EN: libertine -->
   <Individualist.symbolPacks.1.adjective>해방주의적</Individualist.symbolPacks.1.adjective>
-  <!-- EN: Libertism -->
   <Individualist.symbolPacks.1.ideoName>해방주의</Individualist.symbolPacks.1.ideoName>
-  <!-- EN: libertor -->
   <Individualist.symbolPacks.1.member>해방주의자</Individualist.symbolPacks.1.member>
-  <!-- EN: liberty -->
   <Individualist.symbolPacks.1.theme>해방</Individualist.symbolPacks.1.theme>
-  <!-- EN: independent -->
   <Individualist.symbolPacks.2.adjective>독립주의적</Individualist.symbolPacks.2.adjective>
-  <!-- EN: Independency -->
   <Individualist.symbolPacks.2.ideoName>독립주의</Individualist.symbolPacks.2.ideoName>
-  <!-- EN: independent -->
   <Individualist.symbolPacks.2.member>독립주의자</Individualist.symbolPacks.2.member>
-  <!-- EN: independence -->
   <Individualist.symbolPacks.2.theme>독립</Individualist.symbolPacks.2.theme>
-  <!-- EN: autonomist -->
   <Individualist.symbolPacks.3.adjective>자율주의적</Individualist.symbolPacks.3.adjective>
-  <!-- EN: Autonomism -->
   <Individualist.symbolPacks.3.ideoName>자율주의</Individualist.symbolPacks.3.ideoName>
-  <!-- EN: autonomor -->
   <Individualist.symbolPacks.3.member>자율주의자</Individualist.symbolPacks.3.member>
-  <!-- EN: autonomy -->
   <Individualist.symbolPacks.3.theme>자율성</Individualist.symbolPacks.3.theme>
-  
 </LanguageData>

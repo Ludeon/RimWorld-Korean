@@ -1,100 +1,55 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: alzheimer's -->
   <Alzheimers.label>알츠하이머</Alzheimers.label>
-  <!-- EN: A brain disease usually associated with aging. Alzheimer's disease causes progressive degradation in the ability to think and remember. Patients are known to forget close relatives and sometimes wander around in confusion. -->
   <Alzheimers.description>일반적인 노화와 관련된 뇌 질환입니다. 생각하고 기억하는 능력이 점진적으로 저하됩니다. 환자는 가까운 친척을 잊으며, 때로는 혼란스러워 합니다.</Alzheimers.description>
-  <!-- EN: minor -->
   <Alzheimers.stages.minor-0.label>가벼움</Alzheimers.stages.minor-0.label>
-  <!-- EN: minor -->
   <Alzheimers.stages.minor-1.label>가벼움</Alzheimers.stages.minor-1.label>
-  <!-- EN: major -->
   <Alzheimers.stages.major-0.label>심각함</Alzheimers.stages.major-0.label>
-  <!-- EN: major -->
   <Alzheimers.stages.major-1.label>심각함</Alzheimers.stages.major-1.label>
   
-  <!-- EN: asthma -->
   <Asthma.label>천식</Asthma.label>
-  <!-- EN: A long-term inflammatory disease of the airways in the lungs. It requires regular tending to prevent symptoms. -->
   <Asthma.description>폐와 기도의 염증성 질환입니다. 증상을 예방하기 위해 규칙적인 검진이 필요합니다.</Asthma.description>
-  <!-- EN: minor -->
   <Asthma.stages.minor.label>가벼움</Asthma.stages.minor.label>
-  <!-- EN: major -->
-  <Asthma.stages.major-0.label>가벼움</Asthma.stages.major-0.label>
-  <!-- EN: major -->
+  <Asthma.stages.major-0.label>심각함</Asthma.stages.major-0.label>
   <Asthma.stages.major-1.label>심각함</Asthma.stages.major-1.label>
   
-  <!-- EN: bad back -->
   <BadBack.label>요통</BadBack.label>
-  <!-- EN: Degradation in the spinal column and surrounding musculature. This makes it hard to move and bend smoothly. -->
   <BadBack.description>척추와 주변 근육의 힘이 약해져 생기는 병입니다. 움직이고 부드럽게 구부리기가 어렵습니다.</BadBack.description>
-  <!-- EN: a bad back -->
   <BadBack.labelNoun>요통</BadBack.labelNoun>
   
-  <!-- EN: blindness -->
   <Blindness.label>실명</Blindness.label>
-  <!-- EN: Total inability to see. -->
   <Blindness.description>시력을 잃었습니다.</Blindness.description>
   
-  <!-- EN: carcinoma -->
   <Carcinoma.label>암</Carcinoma.label>
-  <!-- EN: A lump of cancerous tissue. Without treatment, the carcinoma will grow over time, causing worsening symptoms and eventually killing the patient.\n\nA skilled doctor can excise the carcinoma. An unskilled doctor may be able to simply amputate the body part which contains the carcinoma. -->
-  <Carcinoma.description>악성 세포 조직이 발생합니다. 치료하지 않으면 암은 시간이 지남에 따라 계속해서 성장하며 증상을 악화시키고 결국 숙주를 죽입니다.\n\n숙련 된 의사는 암세포만을 없앨 수 있습니다. 숙련되지 않은 의사는 암종이 포함된 신체 부위를 간단히 절단할 수 있습니다.</Carcinoma.description>
-  <!-- EN: a carcinoma -->
+  <Carcinoma.description>악성 세포 조직이 발생합니다. 치료하지 않으면 암은 시간이 지남에 따라 계속해서 성장하며 증상을 악화시키고 결국 숙주를 죽입니다.\n\n숙련된 의사는 암세포만을 없앨 수 있습니다. 숙련되지 않은 의사는 암종이 포함된 신체 부위를 간단히 절단할 수 있습니다.</Carcinoma.description>
   <Carcinoma.labelNoun>암</Carcinoma.labelNoun>
-  <!-- EN: minor -->
   <Carcinoma.stages.minor-0.label>가벼움</Carcinoma.stages.minor-0.label>
-  <!-- EN: minor -->
   <Carcinoma.stages.minor-1.label>가벼움</Carcinoma.stages.minor-1.label>
-  <!-- EN: major -->
   <Carcinoma.stages.major-0.label>심각함</Carcinoma.stages.major-0.label>
-  <!-- EN: major -->
   <Carcinoma.stages.major-1.label>심각함</Carcinoma.stages.major-1.label>
-  <!-- EN: extreme -->
   <Carcinoma.stages.extreme-0.label>극심함</Carcinoma.stages.extreme-0.label>
-  <!-- EN: extreme -->
   <Carcinoma.stages.extreme-1.label>극심함</Carcinoma.stages.extreme-1.label>
   
-  <!-- EN: cataract -->
   <Cataract.label>백내장</Cataract.label>
-  <!-- EN: Milky-looking opacity in the eye. Cataracts impair vision. -->
   <Cataract.description>눈이 유백색의 빛을 띄며 탁해집니다. 시력을 손상시킵니다.</Cataract.description>
-  <!-- EN: a cataract -->
   <Cataract.labelNoun>백내장</Cataract.labelNoun>
   
-  <!-- EN: dementia -->
   <Dementia.label>치매</Dementia.label>
-  <!-- EN: Neural degradation which causes deficits in the ability to think and remember. Dementia has various causes including aging, specific illnesses, and toxins. -->
   <Dementia.description>생각하고 기억하는 능력의 결핍을 일으키는 신경장애입니다. 치매는 노화, 특정 질병 및 독소를 포함한 다양한 원인이 있습니다.</Dementia.description>
   
-  <!-- EN: frail -->
   <Frail.label>노쇠</Frail.label>
-  <!-- EN: Generalized loss of muscle and bone density. -->
   <Frail.description>근육과 뼈 밀도가 손실되어 생깁니다.</Frail.description>
-  <!-- EN: frailty -->
   <Frail.labelNoun>노쇠</Frail.labelNoun>
   
-  <!-- EN: hearing loss -->
   <HearingLoss.label>청력손실</HearingLoss.label>
-  <!-- EN: Inability to hear quiet sounds due to degradation of hair cells in the cochlea. -->
   <HearingLoss.description>달팽이관의 모발세포가 분해되어 조용한 소리를 들을 수 없습니다.</HearingLoss.description>
   
-  <!-- EN: artery blockage -->
   <HeartArteryBlockage.label>동맥경화</HeartArteryBlockage.label>
-  <!-- EN: A blockage in one of the critical arteries in the heart. Heart artery blockages randomly induce heart attacks. -->
   <HeartArteryBlockage.description>심장의 중요한 동맥 중 하나가 막혔습니다. 동맥경화는 무작위로 심장 마비를 유발합니다.</HeartArteryBlockage.description>
-  <!-- EN: an artery blockage -->
   <HeartArteryBlockage.labelNoun>동맥경화</HeartArteryBlockage.labelNoun>
-  <!-- EN: minor -->
   <HeartArteryBlockage.stages.minor-0.label>가벼움</HeartArteryBlockage.stages.minor-0.label>
-  <!-- EN: minor -->
   <HeartArteryBlockage.stages.minor-1.label>가벼움</HeartArteryBlockage.stages.minor-1.label>
-  <!-- EN: major -->
   <HeartArteryBlockage.stages.major-0.label>심각함</HeartArteryBlockage.stages.major-0.label>
-  <!-- EN: major -->
   <HeartArteryBlockage.stages.major-1.label>심각함</HeartArteryBlockage.stages.major-1.label>
-  <!-- EN: extreme -->
   <HeartArteryBlockage.stages.extreme.label>극심함</HeartArteryBlockage.stages.extreme.label>
-  
 </LanguageData>

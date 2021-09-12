@@ -1,147 +1,81 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: breakup -->
   <Breakup.label>이별</Breakup.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break. -->
-  <Breakup.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 이별을 통보함.</Breakup.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space. -->
-  <Breakup.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 접근하지 말라고 통보함.</Breakup.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out. -->
-  <Breakup.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 더 이상 함께 할 이유가 없다고 통보함.</Breakup.logRulesInitiator.rulesStrings.2>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people. -->
-  <Breakup.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 우리는 어울리지 않는다고 통보함.</Breakup.logRulesInitiator.rulesStrings.3>
+  <Breakup.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 이별을 통보함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 접근하지 말라고 통보함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 더 이상 함께 할 이유가 없다고 통보함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 우리는 어울리지 않는다고 통보함.</li>
+  </Breakup.logRulesInitiator.rulesStrings>
   
-  <!-- EN: marriage proposal -->
   <MarriageProposal.label>청혼</MarriageProposal.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef]. -->
-  <MarriageProposal.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 결혼을 제안함.</MarriageProposal.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef]. -->
-  <MarriageProposal.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 평생 헌신하겠다고 약속함.</MarriageProposal.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective]. -->
-  <MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 삶을 함께 해달라고 프로포즈함.</MarriageProposal.logRulesInitiator.rulesStrings.2>
+  <MarriageProposal.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 결혼을 제안함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 평생 헌신하겠다고 약속함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 삶을 함께 해달라고 프로포즈함.</li>
+  </MarriageProposal.logRulesInitiator.rulesStrings>
   
-  <!-- EN: romance attempt -->
   <RomanceAttempt.label>고백</RomanceAttempt.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic]. -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [wootactic] [wooed].</RomanceAttempt.logRulesInitiator.rulesStrings.0>
-  <!-- EN: wooed->tried to flirt with -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.1>wooed->가볍게 접근함</RomanceAttempt.logRulesInitiator.rulesStrings.1>
-  <!-- EN: wooed->flirted with -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.2>wooed->들뜬 마음을 표현함</RomanceAttempt.logRulesInitiator.rulesStrings.2>
-  <!-- EN: wooed->tried to attract -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.3>wooed->마음을 떠봄</RomanceAttempt.logRulesInitiator.rulesStrings.3>
-  <!-- EN: wooed->tried to romance -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.4>wooed->연애를 시도함</RomanceAttempt.logRulesInitiator.rulesStrings.4>
-  <!-- EN: wooed->tried to woo -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.5>wooed->사랑을 구애함</RomanceAttempt.logRulesInitiator.rulesStrings.5>
-  <!-- EN: wooed->wooed -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.6>wooed->기댐</RomanceAttempt.logRulesInitiator.rulesStrings.6>
-  <!-- EN: wooed->pursued -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.7>wooed->접근함</RomanceAttempt.logRulesInitiator.rulesStrings.7>
-  <!-- EN: wooed->charmed -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.8>wooed->매혹함</RomanceAttempt.logRulesInitiator.rulesStrings.8>
-  <!-- EN: wooed->courted -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.9>wooed->구애를 시도함</RomanceAttempt.logRulesInitiator.rulesStrings.9>
-  <!-- EN: wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristic] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.10>wootactic(p=4)->[RECIPIENT_possessive] [PersonalCharacteristic](을)를 [complimenting]</RomanceAttempt.logRulesInitiator.rulesStrings.10>
-  <!-- EN: wootactic->telling a story about [TalkTopicAny] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.11>wootactic->[TalkTopicAny]에 대한 이야기를 하며</RomanceAttempt.logRulesInitiator.rulesStrings.11>
-  <!-- EN: wootactic->telling a tale about [TalkTopicAny] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.12>wootactic->[TalkTopicAny]에 관한 이야기를 하며</RomanceAttempt.logRulesInitiator.rulesStrings.12>
-  <!-- EN: wootactic->joking about [TalkTopicAny] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.13>wootactic->[TalkTopicAny]에 대한 농담을 건네며</RomanceAttempt.logRulesInitiator.rulesStrings.13>
-  <!-- EN: wootactic->making an observation about [TalkTopicAny] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.14>wootactic->[TalkTopicAny]에 대한 정보를 건네며</RomanceAttempt.logRulesInitiator.rulesStrings.14>
-  <!-- EN: wootactic(p=2)->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.15>wootactic(p=2)-> [INITIATOR_possessive] [PersonalCharacteristic]에 대해 [boasting]</RomanceAttempt.logRulesInitiator.rulesStrings.15>
-  <!-- EN: wootactic->comparing [RECIPIENT_objective] to a [romantic_adj] [romantic_noun] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.16>wootactic->[RECIPIENT_objective] [romantic_adj] [romantic_noun]에 비교하며</RomanceAttempt.logRulesInitiator.rulesStrings.16>
-  <!-- EN: wootactic->describing [RECIPIENT_objective] as a [romantic_adj] [romantic_noun] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.17>wootactic->[RECIPIENT_objective] [romantic_adj] [romantic_noun]처럼 묘사하며</RomanceAttempt.logRulesInitiator.rulesStrings.17>
-  <!-- EN: boasting->boasting about -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.18>boasting->자랑하며</RomanceAttempt.logRulesInitiator.rulesStrings.18>
-  <!-- EN: boasting->mentioning -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.19>boasting->언급하며</RomanceAttempt.logRulesInitiator.rulesStrings.19>
-  <!-- EN: boasting->implying good things about -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.20>boasting->어필하며</RomanceAttempt.logRulesInitiator.rulesStrings.20>
-  <!-- EN: boasting->exaggerating -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.21>boasting->과시하며</RomanceAttempt.logRulesInitiator.rulesStrings.21>
-  <!-- EN: boasting->talking about -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.22>boasting->에 대해 대화하며</RomanceAttempt.logRulesInitiator.rulesStrings.22>
-  <!-- EN: boasting->drawing attention to -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.23>boasting->주의를 끌며</RomanceAttempt.logRulesInitiator.rulesStrings.23>
-  <!-- EN: complimenting(p=3)->complimenting -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.24>complimenting(p=3)->칭찬하며</RomanceAttempt.logRulesInitiator.rulesStrings.24>
-  <!-- EN: complimenting->subtly complimenting -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.25>complimenting->조용히 칭찬하며</RomanceAttempt.logRulesInitiator.rulesStrings.25>
-  <!-- EN: complimenting->lauding -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.26>complimenting->극찬하며</RomanceAttempt.logRulesInitiator.rulesStrings.26>
-  <!-- EN: complimenting->commending -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.27>complimenting->주위에 들리도록 칭찬하며</RomanceAttempt.logRulesInitiator.rulesStrings.27>
-  <!-- EN: complimenting->saying good things about -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.28>complimenting->좋은 말로 치장하며</RomanceAttempt.logRulesInitiator.rulesStrings.28>
-  <!-- EN: complimenting(p=2)->playfully making fun of -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.29>complimenting(p=2)->장난으로 분위기를 재미있게 이끌며</RomanceAttempt.logRulesInitiator.rulesStrings.29>
-  <!-- EN: complimenting->jokingly poking at -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.30>complimenting->농담으로 파고 들며</RomanceAttempt.logRulesInitiator.rulesStrings.30>
-  <!-- EN: complimenting->jokingly half-complimenting -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.31>complimenting->반쯤 농담으로 칭찬하며</RomanceAttempt.logRulesInitiator.rulesStrings.31>
-  <!-- EN: complimenting->impishly questioning -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.32>complimenting->장난스럽게 질문하며</RomanceAttempt.logRulesInitiator.rulesStrings.32>
-  <!-- EN: complimenting->cheerfully making fun of -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.33>complimenting->유쾌하고 재미있게 표현하며</RomanceAttempt.logRulesInitiator.rulesStrings.33>
-  <!-- EN: romantic_adj->beautiful -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.34>romantic_adj->산뜻한</RomanceAttempt.logRulesInitiator.rulesStrings.34>
-  <!-- EN: romantic_adj->shining -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.35>romantic_adj->빛나는</RomanceAttempt.logRulesInitiator.rulesStrings.35>
-  <!-- EN: romantic_adj->glimmering -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.36>romantic_adj->은은하게 빛나는</RomanceAttempt.logRulesInitiator.rulesStrings.36>
-  <!-- EN: romantic_adj->heavenly -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.37>romantic_adj->천국같은</RomanceAttempt.logRulesInitiator.rulesStrings.37>
-  <!-- EN: romantic_adj->golden -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.38>romantic_adj->황금같은</RomanceAttempt.logRulesInitiator.rulesStrings.38>
-  <!-- EN: romantic_adj->bright -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.39>romantic_adj->선명한</RomanceAttempt.logRulesInitiator.rulesStrings.39>
-  <!-- EN: romantic_adj->breathtaking -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.40>romantic_adj->아슬아슬한</RomanceAttempt.logRulesInitiator.rulesStrings.40>
-  <!-- EN: romantic_adj->charming -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.41>romantic_adj->매혹적인</RomanceAttempt.logRulesInitiator.rulesStrings.41>
-  <!-- EN: romantic_adj->dazzling -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.42>romantic_adj->눈부신</RomanceAttempt.logRulesInitiator.rulesStrings.42>
-  <!-- EN: romantic_adj->delicate -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.43>romantic_adj->섬세한</RomanceAttempt.logRulesInitiator.rulesStrings.43>
-  <!-- EN: romantic_adj->fine -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.44>romantic_adj->정교한</RomanceAttempt.logRulesInitiator.rulesStrings.44>
-  <!-- EN: romantic_adj->magnificent -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.45>romantic_adj->장엄한</RomanceAttempt.logRulesInitiator.rulesStrings.45>
-  <!-- EN: romantic_adj->lovely -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.46>romantic_adj->귀여운</RomanceAttempt.logRulesInitiator.rulesStrings.46>
-  <!-- EN: romantic_adj->wonderful -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.47>romantic_adj->훌륭한</RomanceAttempt.logRulesInitiator.rulesStrings.47>
-  <!-- EN: romantic_adj(p=3)->[AdjectiveBadass] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.48>romantic_adj(p=3)->[AdjectiveBadass]</RomanceAttempt.logRulesInitiator.rulesStrings.48>
-  <!-- EN: romantic_noun->flower -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.49>romantic_noun->꽃</RomanceAttempt.logRulesInitiator.rulesStrings.49>
-  <!-- EN: romantic_noun->spring -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.50>romantic_noun->봄</RomanceAttempt.logRulesInitiator.rulesStrings.50>
-  <!-- EN: romantic_noun->river -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.51>romantic_noun->강</RomanceAttempt.logRulesInitiator.rulesStrings.51>
-  <!-- EN: romantic_noun->star -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.52>romantic_noun->별</RomanceAttempt.logRulesInitiator.rulesStrings.52>
-  <!-- EN: romantic_noun->moon -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.53>romantic_noun->달</RomanceAttempt.logRulesInitiator.rulesStrings.53>
-  <!-- EN: romantic_noun->sun -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.54>romantic_noun->태양</RomanceAttempt.logRulesInitiator.rulesStrings.54>
-  <!-- EN: romantic_noun->house -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.55>romantic_noun->집</RomanceAttempt.logRulesInitiator.rulesStrings.55>
-  <!-- EN: romantic_noun->aurora -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.56>romantic_noun->오로라</RomanceAttempt.logRulesInitiator.rulesStrings.56>
-  <!-- EN: romantic_noun->[TreeType] tree -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.57>romantic_noun->[TreeType] 나무</RomanceAttempt.logRulesInitiator.rulesStrings.57>
-  <!-- EN: romantic_noun(p=2)->[TerrainFeature] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.58>romantic_noun(p=2)->[TerrainFeature]</RomanceAttempt.logRulesInitiator.rulesStrings.58>
-  <!-- EN: romantic_noun(p=2)->[NaturalObject] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.59>romantic_noun(p=2)->[NaturalObject]</RomanceAttempt.logRulesInitiator.rulesStrings.59>
-  
+  <RomanceAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [wootactic] [wooed].</li>
+    <li>wooed->가볍게 접근함</li>
+    <li>wooed->들뜬 마음을 표현함</li>
+    <li>wooed->마음을 떠봄</li>
+    <li>wooed->연애를 시도함</li>
+    <li>wooed->사랑을 구애함</li>
+    <li>wooed->기댐</li>
+    <li>wooed->접근함</li>
+    <li>wooed->매혹함</li>
+    <li>wooed->구애를 시도함</li>
+    <li>wootactic(p=4)->[RECIPIENT_possessive] [PersonalCharacteristic](을)를 [complimenting]</li>
+    <li>wootactic->[TalkTopicAny]에 대한 이야기를 하며</li>
+    <li>wootactic->[TalkTopicAny]에 관한 이야기를 하며</li>
+    <li>wootactic->[TalkTopicAny]에 대한 농담을 건네며</li>
+    <li>wootactic->[TalkTopicAny]에 대한 정보를 건네며</li>
+    <li>wootactic(p=2)-> [INITIATOR_possessive] [PersonalCharacteristic]에 대해 [boasting]</li>
+    <li>wootactic->[RECIPIENT_objective] [romantic_adj] [romantic_noun]에 비교하며</li>
+    <li>wootactic->[RECIPIENT_objective] [romantic_adj] [romantic_noun]처럼 묘사하며</li>
+    <li>boasting->자랑하며</li>
+    <li>boasting->언급하며</li>
+    <li>boasting->어필하며</li>
+    <li>boasting->과시하며</li>
+    <li>boasting->에 대해 대화하며</li>
+    <li>boasting->주의를 끌며</li>
+    <li>complimenting(p=3)->칭찬하며</li>
+    <li>complimenting->조용히 칭찬하며</li>
+    <li>complimenting->극찬하며</li>
+    <li>complimenting->주위에 들리도록 칭찬하며</li>
+    <li>complimenting->좋은 말로 치장하며</li>
+    <li>complimenting(p=2)->장난으로 분위기를 재미있게 이끌며</li>
+    <li>complimenting->농담으로 파고 들며</li>
+    <li>complimenting->반쯤 농담으로 칭찬하며</li>
+    <li>complimenting->장난스럽게 질문하며</li>
+    <li>complimenting->유쾌하고 재미있게 표현하며</li>
+    <li>romantic_adj->산뜻한</li>
+    <li>romantic_adj->빛나는</li>
+    <li>romantic_adj->은은하게 빛나는</li>
+    <li>romantic_adj->천국같은</li>
+    <li>romantic_adj->황금같은</li>
+    <li>romantic_adj->선명한</li>
+    <li>romantic_adj->아슬아슬한</li>
+    <li>romantic_adj->매혹적인</li>
+    <li>romantic_adj->눈부신</li>
+    <li>romantic_adj->섬세한</li>
+    <li>romantic_adj->정교한</li>
+    <li>romantic_adj->장엄한</li>
+    <li>romantic_adj->귀여운</li>
+    <li>romantic_adj->훌륭한</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_noun->꽃</li>
+    <li>romantic_noun->봄</li>
+    <li>romantic_noun->강</li>
+    <li>romantic_noun->별</li>
+    <li>romantic_noun->달</li>
+    <li>romantic_noun->태양</li>
+    <li>romantic_noun->집</li>
+    <li>romantic_noun->오로라</li>
+    <li>romantic_noun->[TreeType] 나무</li>
+    <li>romantic_noun(p=2)->[TerrainFeature]</li>
+    <li>romantic_noun(p=2)->[NaturalObject]</li>
+  </RomanceAttempt.logRulesInitiator.rulesStrings>
 </LanguageData>

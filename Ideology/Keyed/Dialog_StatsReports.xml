@@ -1,60 +1,36 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!-- EN: Multiplier for enslaved (low motivation) -->
   <StatsReport_Slave>노예 신분으로 인한 계수 (자발적이지 않음)</StatsReport_Slave>
-  <!-- EN: Terror offset -->
   <StatsReport_Terror>공포 영향</StatsReport_Terror>
-  <!-- EN: Faction leader bonus -->
   <StatsReport_LeaderOffset>세력 지도자 보너스</StatsReport_LeaderOffset>
-  <!-- EN: Contains corpse -->
   <StatsReport_OccupiedCorpseCasket>시체 포함</StatsReport_OccupiedCorpseCasket>
 
-  <!-- EN: Conversion power bonus on map -->
   <StatsReport_InstalledRelicConvertPowerFactor>지역 내 교화 위력 보너스</StatsReport_InstalledRelicConvertPowerFactor>
-  <!-- EN: Mood bonus for rituals in room -->
   <StatsReport_RelicAtRitualMoodBonus>행사로 인한 기분 보너스</StatsReport_RelicAtRitualMoodBonus>
 
-  <!-- EN: Relic of -->
   <Stat_Thing_RelicOf_Name>유물</Stat_Thing_RelicOf_Name>
-  <!-- EN: The ideology this relic belongs to. -->
   <Stat_Thing_RelicOf_Desc>이 유물이 속한 사상입니다.</Stat_Thing_RelicOf_Desc>
 
-  <!-- EN: Related to -->
   <Stat_Thing_RelatedToIdeos_Name>관련됨</Stat_Thing_RelatedToIdeos_Name>
-  <!-- EN: The ideoligions this thing belongs to. -->
   <Stat_Thing_RelatedToIdeos_Desc>이 물체가 속한 사상입니다.</Stat_Thing_RelatedToIdeos_Desc>
 
-  <!-- EN: Holding relic -->
   <StatsReports_HasRelic>보유한 유물</StatsReports_HasRelic>
 
-  <!-- EN: Blind bonus -->
   <StatsReport_BlindPsychicSensitivityOffset>실명 보너스</StatsReport_BlindPsychicSensitivityOffset>
-  <!-- EN: Sight bonus -->
   <StatsReport_SightPsychicSensitivityOffset>시각 보너스</StatsReport_SightPsychicSensitivityOffset>
 
-  <!-- EN: Dominating style -->
   <Stat_Thing_StyleDominanceCategory>주요 양식</Stat_Thing_StyleDominanceCategory>
-  <!-- EN: The style presented by this object. This style may be associated with some ideoligions. Different people respond differently to certain styles, according to their ideoligious beliefs. -->
   <Stat_Thing_StyleDominanceCategoryDesc>이 물체의 양식입니다. 이 양식은 특정 사상과 관련이 있을 수도 있습니다. 사람들은 양식에 대해 각자의 사상에 따라 다른 방식으로 반응을 보입니다.</Stat_Thing_StyleDominanceCategoryDesc>
-  <!-- EN: Satisfies ideoligions -->
   <Stat_Thing_IdeosSatisfied>만족하는 사상</Stat_Thing_IdeosSatisfied>
 
-  <!-- EN: Darkness shooting accuracy -->
   <Stat_Pawn_DarknessCombatShooting_Name>어둠 속 사격 명중률</Stat_Pawn_DarknessCombatShooting_Name>
-  <!-- EN: An offset applied to the chance to hit a target based on the target's light level. -->
   <Stat_Pawn_DarknessCombatShooting_Desc>대상의 밝기 단계에 따라 명중률에 더하는 수입니다.</Stat_Pawn_DarknessCombatShooting_Desc>
-  <!-- EN: Darkness melee dodge chance -->
   <Stat_Pawn_DarknessMeleeDodgeChance_Name>어둠 속 근접 회피 확률</Stat_Pawn_DarknessMeleeDodgeChance_Name>
-  <!-- EN: An offset applied to the melee dodge chance based on the target's light level. -->
   <Stat_Pawn_DarknessMeleeDodgeChance_Desc>대상의 밝기 단계에 따라 회피율에 더하는 수입니다.</Stat_Pawn_DarknessMeleeDodgeChance_Desc>
-  <!-- EN: Darkness melee hit chance -->
   <Stat_Pawn_DarknessMeleeHitChance_Name>어둠 속 근접 명중 확률</Stat_Pawn_DarknessMeleeHitChance_Name>
-  <!-- EN: An offset applied to the melee hit chance based on the target's light level. -->
   <Stat_Pawn_DarknessMeleeHitChance_Desc>대상의 밝기 단계에 따라 명중률에 더하는 수입니다.</Stat_Pawn_DarknessMeleeHitChance_Desc>
-  <!-- EN: The following offsets can be applied -->
   <Stat_PawnDarkness_FollowingOffset>다음 영향 적용</Stat_PawnDarkness_FollowingOffset>
 
-  <!-- EN: Biosculpting speed -->
   <StatsReport_BiosculptingSpeedFactor>생체 재구축 속도</StatsReport_BiosculptingSpeedFactor>
 
   </LanguageData>

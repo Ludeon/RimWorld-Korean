@@ -1,49 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: barricade -->
   <Barricade.label>방어벽</Barricade.label>
-  <!-- EN: A waist-high barrier for use as cover from incoming shots. Barricades are ugly, but provide better cover than other low objects. Barricades will block certain kinds of animals the same way that fences do. -->
   <Barricade.description>엄폐물로 사용하기 위한 허리 높이의 장벽입니다. 방어벽은 생긴 건 이래도 다른 낮은 물체보단 엄폐율이 더 낫습니다.</Barricade.description>
   
-  <!-- EN: sandbags -->
   <Sandbags.label>모래주머니</Sandbags.label>
-  <!-- EN: Bags of locally-sourced dirt or sand, stacked for use as cover. Sandbags are ugly, but provide better cover than other low objects. -->
   <Sandbags.description>단순한 모래 주머니를 길게 이어 쌓아놓은 구조물입니다. 보기 좋지는 않지만 원거리 공격에서 우수한 엄폐 효과를 제공합니다.</Sandbags.description>
   
-  <!-- EN: IED antigrain warhead trap -->
   <TrapIED_AntigrainWarhead.label>반물질 지뢰</TrapIED_AntigrainWarhead.label>
-  <!-- EN: An antimatter-powered antigrain warhead connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapIED_AntigrainWarhead.description>접촉 작동 방아쇠에 연결된 반물질 대전차 탄두입니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapIED_AntigrainWarhead.description>
   
-  <!-- EN: IED EMP trap -->
-  <TrapIED_EMP.label>전자기 지뢰</TrapIED_EMP.label>
-  <!-- EN: A pair of EMP shells connected to a trigger which detonates on touch or bullet impact. The explosion can paralyze mechanoids for a few seconds. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_EMP.label>전자 교란 지뢰</TrapIED_EMP.label>
   <TrapIED_EMP.description>접촉 작동 방아쇠에 연결된 전자기 펄스 폭탄 한쌍입니다. 폭발하면 몇 초 동안 메카노이드를 마비시킬 수 있습니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapIED_EMP.description>
   
-  <!-- EN: IED firefoam trap -->
   <TrapIED_Firefoam.label>소방거품 지뢰</TrapIED_Firefoam.label>
-  <!-- EN: A pair of firefoam shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapIED_Firefoam.description>누군가 방아쇠를 건드리면 주위에 화재진압 거품을 발포합니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapIED_Firefoam.description>
   
-  <!-- EN: IED trap -->
   <TrapIED_HighExplosive.label>고폭탄 지뢰</TrapIED_HighExplosive.label>
-  <!-- EN: A pair of high-explosive shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapIED_HighExplosive.description>접촉 작동 방아쇠에 연결된 고폭탄 지뢰입니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapIED_HighExplosive.description>
   
-  <!-- EN: IED incendiary trap -->
   <TrapIED_Incendiary.label>소이탄 지뢰</TrapIED_Incendiary.label>
-  <!-- EN: A pair of incendiary shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapIED_Incendiary.description>접촉 작동 방아쇠에 연결된 소이탄 한쌍입니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapIED_Incendiary.description>
   
-  <!-- EN: IED Smoke trap -->
   <TrapIED_Smoke.label>연막 지뢰</TrapIED_Smoke.label>
-  <!-- EN: A pair of smoke shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapIED_Smoke.description>접촉 또는 충격 시 작동되는 방아쇠에 연결된 연막탄 한쌍입니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapIED_Smoke.description>
   
-  <!-- EN: spike trap -->
   <TrapSpike.label>가시 함정</TrapSpike.label>
-  <!-- EN: Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forth and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapSpike.description>5개의 스파이크가 장력을 받아 접촉 작동 방아쇠에 연결되어, 피해자가 방아쇠를 당길 때, 스파이크가 튀어나와 희생자를 강타합니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapSpike.description>
-  
 </LanguageData>

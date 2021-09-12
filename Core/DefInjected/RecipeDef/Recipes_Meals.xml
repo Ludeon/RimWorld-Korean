@@ -1,116 +1,66 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: cook fine meal -->
   <CookMealFine.label>좋은 식사 준비</CookMealFine.label>
-  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
   <CookMealFine.description>야채나 과일과 고기를 사용해 만든 다소 복잡한 요리입니다.</CookMealFine.description>
-  <!-- EN: Cooking fine meal. -->
-  <CookMealFine.jobString>좋은 식사 조리 중.</CookMealFine.jobString>
+  <CookMealFine.jobString>좋은 식사 조리 중</CookMealFine.jobString>
   
-  <!-- EN: cook carnivore fine meal -->
-  <CookMealFine_Meat.label>좋은 고기 식사 준비</CookMealFine_Meat.label>
-  <!-- EN: Cook a somewhat complex meal from meat ingredients. -->
-  <CookMealFine_Meat.description>고기만을 이용한 다소 복잡한 요리입니다.</CookMealFine_Meat.description>
-  <!-- EN: Cooking carnivore fine meal. -->
-  <CookMealFine_Meat.jobString>고기 식사 조리 중.</CookMealFine_Meat.jobString>
-  
-  <!-- EN: cook vegetarian fine meal -->
-  <CookMealFine_Veg.label>좋은 비건 식사 준비</CookMealFine_Veg.label>
-  <!-- EN: Cook a somewhat complex meal from plant ingredients. -->
-  <CookMealFine_Veg.description>채식주의자를 위한 다소 복잡한 요리입니다.</CookMealFine_Veg.description>
-  <!-- EN: Cooking vegetarian fine meal. -->
-  <CookMealFine_Veg.jobString>비건 식사 조리 중.</CookMealFine_Veg.jobString>
-  
-  <!-- EN: cook fine meal x4 -->
-  <CookMealFineBulk.label>좋은 식사 준비 x4</CookMealFineBulk.label>
-  <!-- EN: Cook 4 somewhat complex meals from a combination of meat and plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. -->
+  <CookMealFineBulk.label>좋은 식사 4인분 준비</CookMealFineBulk.label>
   <CookMealFineBulk.description>야채나 과일과 고기를 사용해 만든 다소 복잡한 요리입니다.</CookMealFineBulk.description>
-  <!-- EN: Cooking 4 fine meals. -->
-  <CookMealFineBulk.jobString>좋은 식사 조리 중.</CookMealFineBulk.jobString>
+  <CookMealFineBulk.jobString>좋은 식사 대량 조리 중</CookMealFineBulk.jobString>
   
-  <!-- EN: cook carnivore fine meal x4 -->
-  <CookMealFineBulk_Meat.label>좋은 고기 식사 준비 x4</CookMealFineBulk_Meat.label>
-  <!-- EN: Cook 4 somewhat complex meals from meat ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealFineBulk_Meat.label>좋은 육식 위주 식사 4인분 준비</CookMealFineBulk_Meat.label>
   <CookMealFineBulk_Meat.description>고기만을 이용한 다소 복잡한 요리입니다.</CookMealFineBulk_Meat.description>
-  <!-- EN: Cooking 4 carnivore fine meals. -->
-  <CookMealFineBulk_Meat.jobString>좋은 고기 식사 준비 중.</CookMealFineBulk_Meat.jobString>
+  <CookMealFineBulk_Meat.jobString>좋은 육식 위주 식사 대량 조리 중</CookMealFineBulk_Meat.jobString>
   
-  <!-- EN: cook vegetarian fine meal x4 -->
-  <CookMealFineBulk_Veg.label>좋은 비건 식사 준비 x4</CookMealFineBulk_Veg.label>
-  <!-- EN: Cook 4 somewhat complex meals from plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
-  <CookMealFineBulk_Veg.description>채식주의자를 위한 다소 복잡한 요리입니다.</CookMealFineBulk_Veg.description>
-  <!-- EN: Cooking 4 vegetarian fine meals. -->
-  <CookMealFineBulk_Veg.jobString>좋은 비건 식사 준비 중.</CookMealFineBulk_Veg.jobString>
+  <CookMealFineBulk_Veg.label>좋은 채식 위주 식사 4인분 준비</CookMealFineBulk_Veg.label>
+  <CookMealFineBulk_Veg.description>식물 재료들을 사용해 세심하게 조리한 요리입니다. 좋은 부위를 사용하기 위해 낭비되는 재료가 있습니다. 식물만으로 다양한 맛을 내기 위해 효율을 포기했습니다.</CookMealFineBulk_Veg.description>
+  <CookMealFineBulk_Veg.jobString>좋은 채식 위주 식사 대량 조리 중</CookMealFineBulk_Veg.jobString>
   
-  <!-- EN: cook lavish meal -->
+  <CookMealFine_Meat.label>좋은 육식 위주 식사 준비</CookMealFine_Meat.label>
+  <CookMealFine_Meat.description>고기만을 이용한 다소 복잡한 요리입니다.</CookMealFine_Meat.description>
+  <CookMealFine_Meat.jobString>좋은 육식 위주 식사 조리 중</CookMealFine_Meat.jobString>
+  
+  <CookMealFine_Veg.label>좋은 채식 위주 식사 준비</CookMealFine_Veg.label>
+  <CookMealFine_Veg.description>채식주의자를 위한 다소 복잡한 요리입니다.</CookMealFine_Veg.description>
+  <CookMealFine_Veg.jobString>좋은 채식 위주 식사 조리 중</CookMealFine_Veg.jobString>
+  
   <CookMealLavish.label>호화로운 식사 준비</CookMealLavish.label>
-  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
   <CookMealLavish.description>육류와 식물성 재료를 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 대부분이 낭비됩니다.</CookMealLavish.description>
-  <!-- EN: Cooking lavish meal. -->
-  <CookMealLavish.jobString>호화로운 식사 조리 중.</CookMealLavish.jobString>
+  <CookMealLavish.jobString>호화로운 식사 조리 중</CookMealLavish.jobString>
   
-  <!-- EN: cook carnivore lavish meal -->
-  <CookMealLavish_Meat.label>호화로운 고기 식사 준비</CookMealLavish_Meat.label>
-  <!-- EN: Cook a very complex meal from meat ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
-  <CookMealLavish_Meat.description>고기 재료들을 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 최고의 부위만을 사용하기 때문에 낭비가 심합니다. 고기만으로 다양한 맛을 내기 위해 효율을 포기했습니다.</CookMealLavish_Meat.description>
-  <!-- EN: Cooking carnivore lavish meal. -->
-  <CookMealLavish_Meat.jobString>호화로운 고기 식사 조리 중.</CookMealLavish_Meat.jobString>
-  
-  <!-- EN: cook vegetarian lavish meal -->
-  <CookMealLavish_Veg.label>호화로운 비건 식사 준비</CookMealLavish_Veg.label>
-  <!-- EN: Cook a very complex meal from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
-  <CookMealLavish_Veg.description>식물 재료들을 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 최고의 부위만을 사용하기 때문에 낭비가 심합니다. 식물만으로 다양한 맛을 내기 위해 효율을 포기했습니다.</CookMealLavish_Veg.description>
-  <!-- EN: Cooking vegetarian lavish meal. -->
-  <CookMealLavish_Veg.jobString>호화로운 비건 식사 조리 중.</CookMealLavish_Veg.jobString>
-  
-  <!-- EN: cook lavish meal x4 -->
-  <CookMealLavishBulk.label>호화로운 식사 준비 x4</CookMealLavishBulk.label>
-  <!-- EN: Cook 4 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
+  <CookMealLavishBulk.label>호화로운 식사 4인분 준비</CookMealLavishBulk.label>
   <CookMealLavishBulk.description>육류와 식물성 재료를 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 대부분이 낭비됩니다.</CookMealLavishBulk.description>
-  <!-- EN: Cooking 4 lavish meals. -->
-  <CookMealLavishBulk.jobString>호화로운 식사 조리 중.</CookMealLavishBulk.jobString>
+  <CookMealLavishBulk.jobString>호화로운 식사 대량 조리 중</CookMealLavishBulk.jobString>
   
-  <!-- EN: cook carnivore lavish meal x4 -->
-  <CookMealLavishBulk_Meat.label>호화로운 고기 식사 준비 x4</CookMealLavishBulk_Meat.label>
-  <!-- EN: Cook 4 very complex meals from meat ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealLavishBulk_Meat.label>호화로운 육식 위주 식사 4인분 준비</CookMealLavishBulk_Meat.label>
   <CookMealLavishBulk_Meat.description>고기 재료들을 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 최고의 부위만을 사용하기 때문에 낭비가 심합니다. 고기만으로 다양한 맛을 내기 위해 효율을 포기했습니다.</CookMealLavishBulk_Meat.description>
-  <!-- EN: Cooking 4 carnivore lavish meals. -->
-  <CookMealLavishBulk_Meat.jobString>호화로운 고기 식사 조리 중.</CookMealLavishBulk_Meat.jobString>
+  <CookMealLavishBulk_Meat.jobString>호화로운 육식 위주 식사 대량 조리 중</CookMealLavishBulk_Meat.jobString>
   
-  <!-- EN: cook vegetarian lavish meal x4 -->
-  <CookMealLavishBulk_Veg.label>호화로운 비건 식사 준비 x4</CookMealLavishBulk_Veg.label>
-  <!-- EN: Cook 4 very complex meals from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealLavishBulk_Veg.label>호화로운 채식 위주 식사 4인분 준비</CookMealLavishBulk_Veg.label>
   <CookMealLavishBulk_Veg.description>식물 재료들을 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 최고의 부위만을 사용하기 때문에 낭비가 심합니다. 식물만으로 다양한 맛을 내기 위해 효율을 포기했습니다.</CookMealLavishBulk_Veg.description>
-  <!-- EN: Cooking 4 vegetarian lavish meals. -->
-  <CookMealLavishBulk_Veg.jobString>호화로운 비건 식사 조리 중.</CookMealLavishBulk_Veg.jobString>
+  <CookMealLavishBulk_Veg.jobString>호화로운 채식 위주 식사 대량 조리 중</CookMealLavishBulk_Veg.jobString>
   
-  <!-- EN: cook simple meal -->
+  <CookMealLavish_Meat.label>호화로운 육식 위주 식사 준비</CookMealLavish_Meat.label>
+  <CookMealLavish_Meat.description>고기 재료들을 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 최고의 부위만을 사용하기 때문에 낭비가 심합니다. 고기만으로 다양한 맛을 내기 위해 효율을 포기했습니다.</CookMealLavish_Meat.description>
+  <CookMealLavish_Meat.jobString>호화로운 육식 위주 식사 조리 중</CookMealLavish_Meat.jobString>
+  
+  <CookMealLavish_Veg.label>호화로운 채식 위주 식사 준비</CookMealLavish_Veg.label>
+  <CookMealLavish_Veg.description>식물 재료들을 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 최고의 부위만을 사용하기 때문에 낭비가 심합니다. 식물만으로 다양한 맛을 내기 위해 효율을 포기했습니다.</CookMealLavish_Veg.description>
+  <CookMealLavish_Veg.jobString>호화로운 채식 위주 식사 조리 중</CookMealLavish_Veg.jobString>
+  
   <CookMealSimple.label>간단한 식사 준비</CookMealSimple.label>
-  <!-- EN: Cook a straightforward meal from one ingredient. -->
   <CookMealSimple.description>한 가지 재료로 만든 간단하고 쉬운 요리입니다.</CookMealSimple.description>
-  <!-- EN: Cooking simple meal. -->
-  <CookMealSimple.jobString>간단한 식사 조리 중.</CookMealSimple.jobString>
+  <CookMealSimple.jobString>간단한 식사 조리 중</CookMealSimple.jobString>
   
-  <!-- EN: cook simple meal x4 -->
-  <CookMealSimpleBulk.label>간단한 식사 준비 x4</CookMealSimpleBulk.label>
-  <!-- EN: Cook 4 straightforward meals from one ingredient. -->
+  <CookMealSimpleBulk.label>간단한 식사 4인분 준비</CookMealSimpleBulk.label>
   <CookMealSimpleBulk.description>한 가지 재료로 만든 간단하고 쉬운 요리입니다.</CookMealSimpleBulk.description>
-  <!-- EN: Cooking 4 simple meals. -->
-  <CookMealSimpleBulk.jobString>간단한 식사 조리 중.</CookMealSimpleBulk.jobString>
+  <CookMealSimpleBulk.jobString>간단한 식사 대량 조리 중</CookMealSimpleBulk.jobString>
   
-  <!-- EN: cook packaged survival meal -->
   <CookMealSurvival.label>보존 식량 만들기</CookMealSurvival.label>
-  <!-- EN: Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
   <CookMealSurvival.description>육류와 식물성 재료를 사용해 포장된 보존 식량을 만듭니다. 약간의 식재료가 낭비됩니다.</CookMealSurvival.description>
-  <!-- EN: Cooking survival meal. -->
-  <CookMealSurvival.jobString>보존 식량 조리 중.</CookMealSurvival.jobString>
+  <CookMealSurvival.jobString>보존 식량 조리 중</CookMealSurvival.jobString>
   
-  <!-- EN: cook packaged survival meal x4 -->
-  <CookMealSurvivalBulk.label>보존 식량 만들기 x4</CookMealSurvivalBulk.label>
-  <!-- EN: Prepare 4 packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvivalBulk.label>보존 식량 4인분 준비</CookMealSurvivalBulk.label>
   <CookMealSurvivalBulk.description>육류와 식물성 재료를 사용해 포장된 보존 식량을 만듭니다. 약간의 식재료가 낭비됩니다.</CookMealSurvivalBulk.description>
-  <!-- EN: Cooking 4 survival meals. -->
-  <CookMealSurvivalBulk.jobString>보존 식량 조리 중.</CookMealSurvivalBulk.jobString>
-  
+  <CookMealSurvivalBulk.jobString>보존 식량 대량 조리 중</CookMealSurvivalBulk.jobString>
 </LanguageData>

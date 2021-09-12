@@ -1,74 +1,46 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- WITab titles -->
-  <!-- EN: Terrain -->
   <TabTerrain>지형</TabTerrain>
-  <!-- EN: Planet -->
   <TabPlanet>행성</TabPlanet>
-  <!-- EN: Social -->
   <TabCaravanSocial>관계</TabCaravanSocial>
-  <!-- EN: Health -->
   <TabCaravanHealth>상태</TabCaravanHealth>
-  <!-- EN: Needs -->
   <TabCaravanNeeds>필요</TabCaravanNeeds>
-  <!-- EN: Gear -->
   <TabCaravanGear>장비</TabCaravanGear>
-  <!-- EN: Items -->
   <TabCaravanItems>소지품</TabCaravanItems>
   
   <!-- Misc -->
-  <!-- EN: Abandon {{0}}x {0} -->
   <AbandonSliderText>{{0}}x {0} 버리기</AbandonSliderText>
-  <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
   <ConfirmAbandonItemDialog>정말 {0}(을)를 버리시겠습니까?\n\n버려진 물건은 사라지며 복구할 수 없습니다.</ConfirmAbandonItemDialog>
-  <!-- EN: Abandon -->
   <AbandonTip>버리기</AbandonTip>
-  <!-- EN: Banish -->
   <BanishTip>추방</BanishTip>
-  <!-- EN: Abandon specific count -->
   <AbandonSpecificCountTip>일정 개수 버리기</AbandonSpecificCountTip>
-  <!-- EN: Abandon (all) -->
   <AbandonAllTip>모두 버리기</AbandonAllTip>
-  <!-- EN: Abandoned items vanish and can never be recovered. -->
   <AbandonItemTipExtraText>버려진 물건은 사라지며 복구할 수 없습니다.</AbandonItemTipExtraText>
-  <!-- EN: {1_labelShort} will most likely die. -->
   <BanishTipWillDie>{1_labelShort}(은)는 아마 죽을 겁니다.</BanishTipWillDie>
   
   <!-- Caravan inspect -->
-  <!-- EN: Colonists -->
   <CaravanColonists>정착민</CaravanColonists>
-  <!-- EN: Prisoners and animals -->
   <CaravanPrisonersAndAnimals>수감자와 동물</CaravanPrisonersAndAnimals>
-  <!-- EN: Inventory -->
   <CaravanItems>소지품</CaravanItems>
-  <!-- EN: Click to open a tab with more details. -->
   <OpenSpecificTabButtonTip>클릭해서 상세정보 확인</OpenSpecificTabButtonTip>
-  <!-- EN: Prisoners -->
   <CaravanPrisoners>수감자</CaravanPrisoners>
-  <!-- EN: Equippable items -->
   <CaravanWeaponsAndApparel>장비</CaravanWeaponsAndApparel>
-  <!-- EN: None capable -->
   <NoneCapable>모두 불가능</NoneCapable>
-  <!-- EN: Caravan not moving -->
   <GainingJoyBecauseCaravanNotMoving>상단이 움직일 수 없음</GainingJoyBecauseCaravanNotMoving>
   
   <!-- Caravan gear -->
-  <!-- EN: Drag to rearrange. -->
   <DragToRearrange>드래그로 정렬</DragToRearrange>
 
   <!-- Caravan items -->
-  <!-- EN: Assign drug policies -->
   <AssignDrugPolicies>약물 정책 할당</AssignDrugPolicies>
 
   <!-- Caravan health -->
-  <!-- EN: Whether this person or animal should be carried by other caravan members when sick.\n\nCarried caravan members can rest even if the caravan is moving, but they slow it down. -->
   <BeCarriedIfSickTip>사람이나 동물의 건강이 악화되어 휴식이 필요한 경우 상단의 다른 구성원에 의해 운반될지를 결정합니다.\n\n이 경우 상단의 속도가 느려질 것입니다.</BeCarriedIfSickTip>
   
   <!-- Planet -->
-  <!-- EN: Seed -->
   <PlanetSeed>초기 시드값</PlanetSeed>
-  <!-- EN: Coverage -->
   <PlanetCoverageShort>범위</PlanetCoverageShort>
 
 </LanguageData>

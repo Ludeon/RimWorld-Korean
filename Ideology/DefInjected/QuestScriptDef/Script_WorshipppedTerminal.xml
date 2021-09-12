@@ -1,45 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: terminalHackedMessage->Terminal hacked. You've collected the information and can now leave. -->
-  <Hack_WorshippedTerminal.questContentRules.rulesStrings.0>terminalHackedMessage->단말기가 해킹되었습니다. 모든 정보를 수집했으며 이제 떠날 수 있습니다.</Hack_WorshippedTerminal.questContentRules.rulesStrings.0>
-  <!-- EN: questDescription->You've learned of an ancient terminal that contains information about the [relic_name]. However, the terminal is surrounded by a tribal village, and the locals venerate it. They aren't part of any major faction.\n\n[visitInfo] -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.0>questDescription->[relic_name]의 정보가 담겨 있는 고대 단말기에 대해 알게 되었습니다. 하지만 이 기계는 기존의 세력에 속해 있지 않은 한 작은 부족에 의해 굳게 지켜지고 있습니다.\n\n[visitInfo]</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.0>
-  <!-- EN: visitInfo(allowViolentQuests==true)->They are willing to let you visit on the pretense of worshiping it, but they will attack when you touch it.\n\nYou can attack the village from the outside, or enter peacefully and try to quickly escape with the data from the terminal.\n\nBeware - If you spend over [timer_duration] in the village or build anything near it, the locals will attack, and call reinforcements. -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.1>visitInfo(allowViolentQuests==true)->그들은 당신의 방문을 기꺼이 받아들이겠지만, 단말기를 건드리면 공격할 것입니다.\n\n당신은 외부에서 마을을 공격할 수도 있고, 평화롭게 방문해서 몰래 자료를 얻은 뒤 탈출을 시도할 수도 있습니다. \n\n주의하십시오. 마을에서 [timer_duration] 이상 체류하거나 무엇이든 만든다면 주민들이 공격을 시작하고 지원군을 부를 것입니다.</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.1>
-  <!-- EN: visitInfo(allowViolentQuests==false)->They are willing to let you visit. -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.2>visitInfo(allowViolentQuests==false)->그들은 당신의 방문을 기꺼워합니다.</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.2>
-  <!-- EN: questName->The [adj] [terminalName] -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.0>questName->[adj] [terminalName]</Hack_WorshippedTerminal.questNameRules.rulesStrings.0>
-  <!-- EN: adj->worshipped -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.1>adj->찬양받는</Hack_WorshippedTerminal.questNameRules.rulesStrings.1>
-  <!-- EN: adj->venerated -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.2>adj->숭배받는</Hack_WorshippedTerminal.questNameRules.rulesStrings.2>
-  <!-- EN: adj->ancient -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.3>adj->고대의</Hack_WorshippedTerminal.questNameRules.rulesStrings.3>
-  <!-- EN: adj->villager's -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.4>adj->마을 주민의</Hack_WorshippedTerminal.questNameRules.rulesStrings.4>
-  <!-- EN: adj->village -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.5>adj->마을의</Hack_WorshippedTerminal.questNameRules.rulesStrings.5>
-  <!-- EN: adj->tribal -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.6>adj->부족의</Hack_WorshippedTerminal.questNameRules.rulesStrings.6>
-  <!-- EN: adj->secret -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.7>adj->비밀</Hack_WorshippedTerminal.questNameRules.rulesStrings.7>
-  <!-- EN: terminalName(p=4)->terminal -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.8>terminalName(p=4)->단말기</Hack_WorshippedTerminal.questNameRules.rulesStrings.8>
-  <!-- EN: terminalName->machine -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.9>terminalName->기계</Hack_WorshippedTerminal.questNameRules.rulesStrings.9>
-  <!-- EN: terminalName->device -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.10>terminalName->장치</Hack_WorshippedTerminal.questNameRules.rulesStrings.10>
-  <!-- EN: terminalName->screen -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.11>terminalName->출력장치</Hack_WorshippedTerminal.questNameRules.rulesStrings.11>
-  <!-- EN: terminalName->computer -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.12>terminalName->단말기</Hack_WorshippedTerminal.questNameRules.rulesStrings.12>
-  <!-- EN: terminalName->databank -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.13>terminalName->데이터 뱅크</Hack_WorshippedTerminal.questNameRules.rulesStrings.13>
-  <!-- EN: terminalName->database -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.14>terminalName->데이터 베이스</Hack_WorshippedTerminal.questNameRules.rulesStrings.14>
-  <!-- EN: terminalName->silicon -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings.15>terminalName->회로</Hack_WorshippedTerminal.questNameRules.rulesStrings.15>
-  
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->단말기가 해킹되었습니다. 모든 정보를 수집했으며 이제 떠날 수 있습니다.</li>
+  </Hack_WorshippedTerminal.questContentRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[relic_name]의 정보가 담겨 있는 고대 단말기에 대해 알게 되었습니다. 하지만 이 기계는 기존의 세력에 속해 있지 않은 한 작은 부족에 의해 굳게 지켜지고 있습니다.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->그들은 당신의 방문을 기꺼이 받아들이겠지만, 단말기를 건드리면 공격할 것입니다.\n\n당신은 외부에서 마을을 공격할 수도 있고, 평화롭게 방문해서 몰래 자료를 얻은 뒤 탈출을 시도할 수도 있습니다. \n\n주의하십시오. 마을에서 [timer_duration] 이상 체류하거나 무엇이든 만든다면 주민들이 공격을 시작하고 지원군을 부를 것입니다.</li>
+    <li>visitInfo(allowViolentQuests==false)->그들은 당신의 방문을 기꺼워합니다.</li>
+  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
+    <li>questName->[adj] [terminalName]</li>
+    <li>adj->찬양받는</li>
+    <li>adj->숭배받는</li>
+    <li>adj->고대의</li>
+    <li>adj->마을 주민의</li>
+    <li>adj->마을의</li>
+    <li>adj->부족의</li>
+    <li>adj->비밀</li>
+    <li>terminalName(p=4)->단말기</li>
+    <li>terminalName->기계</li>
+    <li>terminalName->장치</li>
+    <li>terminalName->출력장치</li>
+    <li>terminalName->단말기</li>
+    <li>terminalName->데이터 뱅크</li>
+    <li>terminalName->데이터 베이스</li>
+    <li>terminalName->회로</li>
+  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
 </LanguageData>

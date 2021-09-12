@@ -1,97 +1,58 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: alphabeavers -->
   <Alphabeavers.label>알파비버 무리</Alphabeavers.label>
   
-  <!-- EN: ambrosia sprout -->
   <AmbrosiaSprout.label>암브로시아 발아</AmbrosiaSprout.label>
-  <!-- EN: Ambrosia sprout -->
   <AmbrosiaSprout.letterLabel>암브로시아 발아</AmbrosiaSprout.letterLabel>
-  <!-- EN: A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit. -->
   <AmbrosiaSprout.letterText>근처에 암브로시아 싹이 폈습니다! 다 자라길 기다리면 맛있고 만족스러우며 살짝 중독성도 있는 과일을 수확할 수 있습니다.</AmbrosiaSprout.letterText>
   
-  <!-- EN: cold snap -->
   <ColdSnap.label>한파</ColdSnap.label>
-  <!-- EN: Cold snap -->
   <ColdSnap.letterLabel>한파</ColdSnap.letterLabel>
   
-  <!-- EN: crop blight -->
   <CropBlight.label>작물 질병</CropBlight.label>
   
-  <!-- EN: farm animals wander in -->
   <FarmAnimalsWanderIn.label>가축 무리</FarmAnimalsWanderIn.label>
   
-  <!-- EN: flashstorm -->
   <Flashstorm.label>섬광폭풍</Flashstorm.label>
-  <!-- EN: Flashstorm -->
   <Flashstorm.letterLabel>섬광폭풍</Flashstorm.letterLabel>
   
-  <!-- EN: heat wave -->
   <HeatWave.label>폭염</HeatWave.label>
-  <!-- EN: Heat wave -->
   <HeatWave.letterLabel>폭염</HeatWave.letterLabel>
   
-  <!-- EN: herd migration -->
   <HerdMigration.label>동물무리 이주</HerdMigration.label>
-  <!-- EN: Animal migration: {0} -->
   <HerdMigration.letterLabel>동물무리 이주: {0}</HerdMigration.letterLabel>
-  <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
   <HerdMigration.letterText>큰 {0} 무리가 이 곳을 통과하고 있습니다.\n\n먼저 자극하지 않으면 공격하지 않을 것입니다.</HerdMigration.letterText>
   
-  <!-- EN: meteorite impact -->
   <MeteoriteImpact.label>운석 충돌</MeteoriteImpact.label>
-  <!-- EN: Meteorite -->
   <MeteoriteImpact.letterLabel>운석</MeteoriteImpact.letterLabel>
-  <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
   <MeteoriteImpact.letterText>큰 운석이 이 지역에 충돌했습니다. {0} 더미를 남겼습니다.</MeteoriteImpact.letterText>
   
-  <!-- EN: psychic drone -->
   <PsychicDrone.label>괴로운 정신파동</PsychicDrone.label>
   
-  <!-- EN: psychic soothe -->
   <PsychicSoothe.label>편안한 정신파동</PsychicSoothe.label>
   
-  <!-- EN: ransom demand -->
   <RansomDemand.label>몸값 요구</RansomDemand.label>
-  <!-- EN: Ransom demand -->
   <RansomDemand.letterLabel>몸값 요구</RansomDemand.letterLabel>
   
-  <!-- EN: transport pod crash -->
-  <RefugeePodCrash.label>수송기 추락</RefugeePodCrash.label>
+  <RefugeePodCrash.label>수송 포드 추락</RefugeePodCrash.label>
   
-  <!-- EN: resource pod crash -->
   <ResourcePodCrash.label>화물 낙하기 추락</ResourcePodCrash.label>
   
-  <!-- EN: self-tame -->
   <SelfTame.label>동물 복종</SelfTame.label>
   
-  <!-- EN: short circuit -->
   <ShortCircuit.label>합선</ShortCircuit.label>
   
-  <!-- EN: thrumbos pass -->
   <ThrumboPasses.label>트럼보 무리</ThrumboPasses.label>
   
-  <!-- EN: toxic fallout -->
   <ToxicFallout.label>유독성 낙진</ToxicFallout.label>
-  <!-- EN: Toxic fallout -->
   <ToxicFallout.letterLabel>유독성 낙진</ToxicFallout.letterLabel>
   
-  <!-- EN: volcanic winter -->
   <VolcanicWinter.label>화산겨울</VolcanicWinter.label>
-  <!-- EN: Volcanic winter -->
   <VolcanicWinter.letterLabel>화산겨울</VolcanicWinter.letterLabel>
   
-  <!-- EN: wanderer join -->
   <WandererJoin.label>방랑자 합류</WandererJoin.label>
-  <WandererJoin.letterLabel>방랑자 합류: {PAWN_nameDef}</WandererJoin.letterLabel>
-  <WandererJoin.letterText>{PAWN_title}, {PAWN_nameDef}(이)라는 이름의 방랑자가 도착하여 정착지에 합류하려고 합니다.\n\n{PAWN_pronoun}는 정착지에 이바지할 생각이 있지만, 자발적으로 떠나지는 않을 것입니다. 만약 {PAWN_nameDef}(을)를 원하지 않는다면 {PAWN_objective} 추방하거나, 노예로 팔거나, 그냥 죽일 수도 있습니다. 하지만 정착민 생각도 과연 그럴까요.</WandererJoin.letterText>
   
-  <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>방황하는 야생인간</WildManWandersIn.label>
-  <!-- EN: {PAWN_kind} wanders in -->
   <WildManWandersIn.letterLabel>{PAWN_kind} 방황 중</WildManWandersIn.letterLabel>
-  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
-  <WildManWandersIn.letterText>야생 동물들 사이에서 함께 살고있는 사람이 근처에서 방황하고 있습니다. {PAWN_pronoun}는 {0}(이)라고 불리웁니다.\n\n원한다면 {PAWN_objective} 길들일 수 있습니다.</WildManWandersIn.letterText>
-  
+  <WildManWandersIn.letterText>야생 동물들 사이에서 함께 사는 사람이 근처에서 방황하고 있습니다. {PAWN_pronoun}는 {0}(이)라고 불립니다.\n\n원한다면 {PAWN_objective} 길들일 수 있습니다.</WildManWandersIn.letterText>
 </LanguageData>

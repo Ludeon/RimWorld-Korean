@@ -1,13 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN:
-    <li>dangersDescription(priority=1)->\n\nThe pods contain these dangers:\n\n[allThreats]</li>
-    <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
-    <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
-  -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
     <li>dangersDescription(priority=1)->\n\n포드에 다음과 같은 위험이 포함됩니다.\n\n[allThreats]</li>
     <li>dangersDescription-></li>
@@ -15,21 +7,6 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameDef](이)가 요청 중입니다. [commonMainPart]</li>
     <li>commonMainPart->메카노이드 무리가 [asker_possessive] 정착지를 공격하고 있습니다. [asker_pronoun]는 군락을 제거할 동안 메카노이드의 신호를 교란해주길 원하고 있습니다. 수락을 하면, [map_definite]에 (*Threat)메카노이드 전초기지(/Threat)가 떨어집니다.[dangersDescription]\n\n메카노이드 전초기지는 초기에 휴면 상태입니다. 초읽기 활성제가 있을 수도 있고, 방해될 때까지 휴면 상태로 있을 수도 있습니다.[helpersParagraph]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->[menace] cluster</li>
-    <li>questName->[menace] pods</li>
-    <li>questName->[nameBased]</li>
-    <li>nameBased->[asker_nameDef]'s mechs</li>
-    <li>nameBased->[asker_nameDef]'s mechanoids</li>
-    <li>nameBased->[asker_nameDef]'s mech cluster</li>
-    <li>nameBased->[asker_nameDef]'s mech [menace]</li>
-    <li>menace->threat</li>
-    <li>menace->menace</li>
-    <li>menace->scourge</li>
-    <li>menace->danger</li>
-    <li>menace->terror</li>
-    <li>menace->fear</li>
-  -->
   <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
     <li>questName->[menace] 전초기지</li>
     <li>questName->[menace] 포드</li>
@@ -45,5 +22,4 @@
     <li>menace->두려운</li>
     <li>menace->무서운</li>
   </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-  
 </LanguageData>

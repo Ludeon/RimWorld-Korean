@@ -1,53 +1,31 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: questDescription->You've learned of an ancient complex nearby that is said to contain ancient treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention. -->
-  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings.0>questDescription->근처의 오래된 유적에 고대의 보물이 잠들어 있다는 정보를 들었습니다.\n\n내부로 들어가 노획품을 챙겨올 수 있습니다.\n\n하지만 조심하십시오. 이러한 건물에는 여러 위험이 도사리고 있으며, 원치 않은 적의 주의를 끌 수도 있습니다.</OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings.0>
-  <!-- EN: questName(p=3)->[complexAdj] [complex] [finalWord] -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.0>questName(p=3)->[complexAdj] [complex] [finalWord]</OpportunitySite_AncientComplex.questNameRules.rulesStrings.0>
-  <!-- EN: questName->[complex] [finalWord] -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.1>questName->[complex] [finalWord]</OpportunitySite_AncientComplex.questNameRules.rulesStrings.1>
-  <!-- EN: complexAdj->secret -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.2>complexAdj->비밀의</OpportunitySite_AncientComplex.questNameRules.rulesStrings.2>
-  <!-- EN: complexAdj->mysterious -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.3>complexAdj->신비의</OpportunitySite_AncientComplex.questNameRules.rulesStrings.3>
-  <!-- EN: complexAdj->ancient -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.4>complexAdj->고대의</OpportunitySite_AncientComplex.questNameRules.rulesStrings.4>
-  <!-- EN: complexAdj->old -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.5>complexAdj->오래된</OpportunitySite_AncientComplex.questNameRules.rulesStrings.5>
-  <!-- EN: complexAdj->hidden -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.6>complexAdj->숨겨진</OpportunitySite_AncientComplex.questNameRules.rulesStrings.6>
-  <!-- EN: complexAdj->deathly -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.7>complexAdj->죽음의</OpportunitySite_AncientComplex.questNameRules.rulesStrings.7>
-  <!-- EN: complex->complex -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.8>complex->복합 시설</OpportunitySite_AncientComplex.questNameRules.rulesStrings.8>
-  <!-- EN: complex->installation -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.9>complex->시설</OpportunitySite_AncientComplex.questNameRules.rulesStrings.9>
-  <!-- EN: complex->structure -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.10>complex->구조물</OpportunitySite_AncientComplex.questNameRules.rulesStrings.10>
-  <!-- EN: finalWord->treasure -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.11>finalWord->보물</OpportunitySite_AncientComplex.questNameRules.rulesStrings.11>
-  <!-- EN: finalWord->riches -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.12>finalWord->재화</OpportunitySite_AncientComplex.questNameRules.rulesStrings.12>
-  <!-- EN: finalWord->trove -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.13>finalWord->재물</OpportunitySite_AncientComplex.questNameRules.rulesStrings.13>
-  <!-- EN: finalWord->cache -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.14>finalWord->은닉처</OpportunitySite_AncientComplex.questNameRules.rulesStrings.14>
-  <!-- EN: finalWord->loot -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.15>finalWord->전리품</OpportunitySite_AncientComplex.questNameRules.rulesStrings.15>
-  <!-- EN: finalWord->robbing -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.16>finalWord->털기</OpportunitySite_AncientComplex.questNameRules.rulesStrings.16>
-  <!-- EN: finalWord->looting -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.17>finalWord->노략</OpportunitySite_AncientComplex.questNameRules.rulesStrings.17>
-  <!-- EN: finalWord->raiding -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.18>finalWord->약탈</OpportunitySite_AncientComplex.questNameRules.rulesStrings.18>
-  <!-- EN: finalWord->theft -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.19>finalWord->절도</OpportunitySite_AncientComplex.questNameRules.rulesStrings.19>
-  <!-- EN: finalWord->heist -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.20>finalWord->강탈</OpportunitySite_AncientComplex.questNameRules.rulesStrings.20>
-  <!-- EN: finalWord->caper -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.21>finalWord->작전</OpportunitySite_AncientComplex.questNameRules.rulesStrings.21>
-  <!-- EN: finalWord->booty -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings.22>finalWord->노획품</OpportunitySite_AncientComplex.questNameRules.rulesStrings.22>
-  
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+    <li>questDescription->근처의 오래된 유적에 고대의 보물이 잠들어 있다는 정보를 들었습니다.\n\n내부로 들어가 노획품을 챙겨올 수 있습니다.\n\n하지만 조심하십시오. 이러한 건물에는 여러 위험이 도사리고 있으며, 원치 않은 적의 주의를 끌 수도 있습니다.</li>
+  </OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
+    <li>questName->[complex] [finalWord]</li>
+    <li>complexAdj->비밀의</li>
+    <li>complexAdj->신비의</li>
+    <li>complexAdj->고대의</li>
+    <li>complexAdj->오래된</li>
+    <li>complexAdj->숨겨진</li>
+    <li>complexAdj->죽음의</li>
+    <li>complex->단지</li>
+    <li>complex->시설</li>
+    <li>complex->구조물</li>
+    <li>finalWord->보물</li>
+    <li>finalWord->재화</li>
+    <li>finalWord->재물</li>
+    <li>finalWord->은닉처</li>
+    <li>finalWord->전리품</li>
+    <li>finalWord->털기</li>
+    <li>finalWord->노략</li>
+    <li>finalWord->약탈</li>
+    <li>finalWord->절도</li>
+    <li>finalWord->강탈</li>
+    <li>finalWord->작전</li>
+    <li>finalWord->노획품</li>
+  </OpportunitySite_AncientComplex.questNameRules.rulesStrings>
 </LanguageData>

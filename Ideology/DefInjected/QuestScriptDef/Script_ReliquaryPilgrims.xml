@@ -1,95 +1,56 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural] arrived -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.0>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural]의 방문</ReliquaryPilgrims.questContentRules.rulesStrings.0>
-  <!-- EN: pilgrimsArrivedLetterText->[questDescription] -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.1>pilgrimsArrivedLetterText->[questDescription]</ReliquaryPilgrims.questContentRules.rulesStrings.1>
-  <!-- EN: delayedRewardLetterText->[pawns0_nameDef] thanks you for letting [pawns0_objective] [andFollowers] venerate [relic_name] on the [venerateDate]. As a reward, [pawns0_nameDef] is sending you the following via drop pod (total value [rewardsMarketValue_money]):\n\n[rewards]. -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.2>delayedRewardLetterText->[pawns0_nameDef][andFollowers](은)는 그들에게 [relic_name](을)를 순례할 기회를 준 것에 감사를 표합니다. 그에 대한 보답으로 [pawns0_nameDef](은)는 다음 물품을 수송포드로 보냈습니다.(총 가치: [rewardsMarketValue_money]):\n\n[rewards].</ReliquaryPilgrims.questContentRules.rulesStrings.2>
-  <!-- EN: pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] finished venerating [relic_name] and [areIs] now leaving. -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.3>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural](이)가 [relic_name] 숭배를 마치고 떠나고 있습니다.</ReliquaryPilgrims.questContentRules.rulesStrings.3>
-  <!-- EN: pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] left the map. -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.4>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural](이)가 지도를 떠났습니다.</ReliquaryPilgrims.questContentRules.rulesStrings.4>
-  <!-- EN: areIs(pilgrimCount==1)->is -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.5>areIs(pilgrimCount==1)-></ReliquaryPilgrims.questContentRules.rulesStrings.5>
-  <!-- EN: areIs(pilgrimCount>=2)->are -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.6>areIs(pilgrimCount>=2)-></ReliquaryPilgrims.questContentRules.rulesStrings.6>
-  <!-- EN: andFollowers(pilgrimCount==1)-> -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.7>andFollowers(pilgrimCount==1)-></ReliquaryPilgrims.questContentRules.rulesStrings.7>
-  <!-- EN: andFollowers(pilgrimCount==2)->and the other [faction_pawnSingular] -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.8>andFollowers(pilgrimCount==2)->(와)과 다른 [faction_pawnSingular]</ReliquaryPilgrims.questContentRules.rulesStrings.8>
-  <!-- EN: andFollowers(pilgrimCount>=3)->and the other [faction_pawnsPlural] -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.9>andFollowers(pilgrimCount>=3)->(와)과 다른 [faction_pawnsPlural]</ReliquaryPilgrims.questContentRules.rulesStrings.9>
-  <!-- EN: pilgrimSingularOrPlural(pilgrimCount==1)->pilgrim -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.10>pilgrimSingularOrPlural(pilgrimCount==1)->순례자</ReliquaryPilgrims.questContentRules.rulesStrings.10>
-  <!-- EN: pilgrimSingularOrPlural(pilgrimCount>=2)->pilgrims -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.11>pilgrimSingularOrPlural(pilgrimCount>=2)->순례자들</ReliquaryPilgrims.questContentRules.rulesStrings.11>
-  <!-- EN: factionAdj(pilgrimFaction==true)-> -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.12>factionAdj(pilgrimFaction==true)-></ReliquaryPilgrims.questContentRules.rulesStrings.12>
-  <!-- EN: factionAdj(pilgrimFaction==false)->[faction_pawnSingular] -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings.13>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</ReliquaryPilgrims.questContentRules.rulesStrings.13>
-  <!-- EN: pilgrimsLabel->[pawns0_nameDef] -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.0>pilgrimsLabel->[pawns0_nameDef]</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.0>
-  <!-- EN: pilgrimsLabelPlural->[faction_pawnsPlural] -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.1>pilgrimsLabelPlural->[faction_pawnsPlural]</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.1>
-  <!-- EN: pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel] -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.2>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.2>
-  <!-- EN: pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabelPlural] -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.3>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabel]들</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.3>
-  <!-- EN: hasHave(pilgrimCount==1)->has -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.4>hasHave(pilgrimCount==1)-></ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.4>
-  <!-- EN: hasHave(pilgrimCount>=2)->have -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.5>hasHave(pilgrimCount>=2)-></ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings.5>
-  <!-- EN: questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward. -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings.0>questDescription->[pilgrimsLabelSingularOrPlural](이)가 [relic_name](을)를 보러 찾아왔습니다.\n\n[pronounSingularOrPlural](이)가 순례를 진행하는 동안 존중하며 안전하게 보호해 준다면 보답이 있을 것입니다.</ReliquaryPilgrims.questDescriptionRules.rulesStrings.0>
-  <!-- EN: isAre(pilgrimCount==1)->is -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings.1>isAre(pilgrimCount==1)-></ReliquaryPilgrims.questDescriptionRules.rulesStrings.1>
-  <!-- EN: isAre(pilgrimCount>=2)->are -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings.2>isAre(pilgrimCount>=2)-></ReliquaryPilgrims.questDescriptionRules.rulesStrings.2>
-  <!-- EN: pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun] -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings.3>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</ReliquaryPilgrims.questDescriptionRules.rulesStrings.3>
-  <!-- EN: pronounSingularOrPlural(pilgrimCount>=2)->they -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings.4>pronounSingularOrPlural(pilgrimCount>=2)->그들</ReliquaryPilgrims.questDescriptionRules.rulesStrings.4>
-  <!-- EN: visitSingularOrPlural(pilgrimCount==1)->visits -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings.5>visitSingularOrPlural(pilgrimCount==1)->방문</ReliquaryPilgrims.questDescriptionRules.rulesStrings.5>
-  <!-- EN: visitSingularOrPlural(pilgrimCount>=2)->visit -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings.6>visitSingularOrPlural(pilgrimCount>=2)->방문</ReliquaryPilgrims.questDescriptionRules.rulesStrings.6>
-  <!-- EN: questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit] -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.0>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]의 [visitAdj] [visit]</ReliquaryPilgrims.questNameRules.rulesStrings.0>
-  <!-- EN: questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit] -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.1>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural]의 [visitAdj] [visit]</ReliquaryPilgrims.questNameRules.rulesStrings.1>
-  <!-- EN: visitAdj(p=6)-> -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.2>visitAdj(p=6)-></ReliquaryPilgrims.questNameRules.rulesStrings.2>
-  <!-- EN: visitAdj->holy -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.3>visitAdj->성스러운</ReliquaryPilgrims.questNameRules.rulesStrings.3>
-  <!-- EN: visitAdj->sacred -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.4>visitAdj->신성한</ReliquaryPilgrims.questNameRules.rulesStrings.4>
-  <!-- EN: visitAdj->spiritual -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.5>visitAdj->영적인</ReliquaryPilgrims.questNameRules.rulesStrings.5>
-  <!-- EN: visitAdj->divine -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.6>visitAdj->엄숙한</ReliquaryPilgrims.questNameRules.rulesStrings.6>
-  <!-- EN: visitAdj->hallowed -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.7>visitAdj->고결한</ReliquaryPilgrims.questNameRules.rulesStrings.7>
-  <!-- EN: visitAdj->solemn -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.8>visitAdj->근엄한</ReliquaryPilgrims.questNameRules.rulesStrings.8>
-  <!-- EN: visitAdj->sacramental -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.9>visitAdj->고귀한</ReliquaryPilgrims.questNameRules.rulesStrings.9>
-  <!-- EN: visitAdj->sanctified -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.10>visitAdj->축복받은</ReliquaryPilgrims.questNameRules.rulesStrings.10>
-  <!-- EN: visit->visit -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.11>visit->방문</ReliquaryPilgrims.questNameRules.rulesStrings.11>
-  <!-- EN: visit->pilgrimage -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.12>visit->순례</ReliquaryPilgrims.questNameRules.rulesStrings.12>
-  <!-- EN: visit->mission -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.13>visit->사명</ReliquaryPilgrims.questNameRules.rulesStrings.13>
-  <!-- EN: visit->expedition -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.14>visit->원정</ReliquaryPilgrims.questNameRules.rulesStrings.14>
-  <!-- EN: visit->excursion -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.15>visit->여행</ReliquaryPilgrims.questNameRules.rulesStrings.15>
-  <!-- EN: visit->tour -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.16>visit->관광</ReliquaryPilgrims.questNameRules.rulesStrings.16>
-  <!-- EN: visit->veneration -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings.17>visit->숭배</ReliquaryPilgrims.questNameRules.rulesStrings.17>
-  
+  <ReliquaryPilgrims.questContentRules.rulesStrings>
+    <li>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural]의 방문</li>
+    <li>pilgrimsArrivedLetterText->[questDescription]</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef][andFollowers](은)는 자신들이 [relic_name](을)를 순례할 기회를 얻은 것에 감사를 표합니다. 그에 대한 보답으로 [pawns0_nameDef](은)는 수송 포드로 다음 물품을 보냈습니다.\n\n[rewards] (총 가치 [rewardsMarketValue_money])</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural](이)가 [relic_name] 숭배를 마치고 떠나고 있습니다.</li>
+    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural](이)가 지도를 떠났습니다.</li>
+    <li>areIs(pilgrimCount==1)-></li>
+    <li>areIs(pilgrimCount>=2)-></li>
+    <li>andFollowers(pilgrimCount==1)-></li>
+    <li>andFollowers(pilgrimCount==2)->(와)과 다른 [faction_pawnSingular]</li>
+    <li>andFollowers(pilgrimCount>=3)->(와)과 다른 [faction_pawnsPlural]</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount==1)->순례자</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->순례자들</li>
+    <li>factionAdj(pilgrimFaction==true)-></li>
+    <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
+  </ReliquaryPilgrims.questContentRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+    <li>pilgrimsLabel->[pawns0_nameDef]</li>
+    <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabel]들</li>
+    <li>hasHave(pilgrimCount==1)-></li>
+    <li>hasHave(pilgrimCount>=2)-></li>
+  </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural](이)가 [relic_name](을)를 보러 찾아왔습니다.\n\n[pronounSingularOrPlural](이)가 순례를 진행하는 동안 존중하며 안전하게 보호해 준다면 보답이 있을 것입니다.</li>
+    <li>isAre(pilgrimCount==1)-></li>
+    <li>isAre(pilgrimCount>=2)-></li>
+    <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
+    <li>pronounSingularOrPlural(pilgrimCount>=2)->그들</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->방문</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->방문</li>
+  </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+  <ReliquaryPilgrims.questNameRules.rulesStrings>
+    <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]의 [visitAdj] [visit]</li>
+    <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural]의 [visitAdj] [visit]</li>
+    <li>visitAdj(p=6)-></li>
+    <li>visitAdj->성스러운</li>
+    <li>visitAdj->신성한</li>
+    <li>visitAdj->영적인</li>
+    <li>visitAdj->엄숙한</li>
+    <li>visitAdj->고결한</li>
+    <li>visitAdj->근엄한</li>
+    <li>visitAdj->고귀한</li>
+    <li>visitAdj->축복받은</li>
+    <li>visit->방문</li>
+    <li>visit->순례</li>
+    <li>visit->사명</li>
+    <li>visit->원정</li>
+    <li>visit->여행</li>
+    <li>visit->관광</li>
+    <li>visit->숭배</li>
+  </ReliquaryPilgrims.questNameRules.rulesStrings>
 </LanguageData>

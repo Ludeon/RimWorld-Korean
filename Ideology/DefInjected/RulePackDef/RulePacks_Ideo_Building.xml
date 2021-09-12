@@ -1,88 +1,64 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  <NamerAltar.rulePack.rulesStrings>
+    <li>buildingName->신단</li>
+    <li>buildingName->신전</li>
+    <li>buildingName->성단</li>
+    <li>buildingName->토대</li>
+  </NamerAltar.rulePack.rulesStrings>
   
-  <!-- EN: buildingName->altar -->
-  <NamerAltar.rulePack.rulesStrings.0>buildingName->신단</NamerAltar.rulePack.rulesStrings.0>
-  <!-- EN: buildingName->shrine -->
-  <NamerAltar.rulePack.rulesStrings.1>buildingName->신전</NamerAltar.rulePack.rulesStrings.1>
-  <!-- EN: buildingName->chancel -->
-  <NamerAltar.rulePack.rulesStrings.2>buildingName->성단</NamerAltar.rulePack.rulesStrings.2>
-  <!-- EN: buildingName->platform -->
-  <NamerAltar.rulePack.rulesStrings.3>buildingName->토대</NamerAltar.rulePack.rulesStrings.3>
+  <NamerBurnTarget.rulePack.rulesStrings>
+    <li>buildingName->토템</li>
+    <li>buildingName->인형</li>
+    <li>buildingName->장작</li>
+  </NamerBurnTarget.rulePack.rulesStrings>
   
-  <!-- EN: buildingName->totem -->
-  <NamerBurnTarget.rulePack.rulesStrings.0>buildingName->토템</NamerBurnTarget.rulePack.rulesStrings.0>
-  <!-- EN: buildingName->effigy -->
-  <NamerBurnTarget.rulePack.rulesStrings.1>buildingName->인형</NamerBurnTarget.rulePack.rulesStrings.1>
-  <!-- EN: buildingName->pyre -->
-  <NamerBurnTarget.rulePack.rulesStrings.2>buildingName->장작</NamerBurnTarget.rulePack.rulesStrings.2>
+  <NamerCannibalPlatter.rulePack.rulesStrings>
+    <li>buildingName->대접</li>
+    <li>buildingName->접시</li>
+    <li>buildingName->만찬</li>
+    <li>buildingName->인간돼지</li>
+  </NamerCannibalPlatter.rulePack.rulesStrings>
   
-  <!-- EN: buildingName->platter -->
-  <NamerCannibalPlatter.rulePack.rulesStrings.0>buildingName->대접</NamerCannibalPlatter.rulePack.rulesStrings.0>
-  <!-- EN: buildingName->dish -->
-  <NamerCannibalPlatter.rulePack.rulesStrings.1>buildingName->접시</NamerCannibalPlatter.rulePack.rulesStrings.1>
-  <!-- EN: buildingName->feast -->
-  <NamerCannibalPlatter.rulePack.rulesStrings.2>buildingName->만찬</NamerCannibalPlatter.rulePack.rulesStrings.2>
-  <!-- EN: buildingName->manpork -->
-  <NamerCannibalPlatter.rulePack.rulesStrings.3>buildingName->인간돼지</NamerCannibalPlatter.rulePack.rulesStrings.3>
+  <NamerChristmasTree.rulePack.rulesStrings>
+    <li>buildingName->나무</li>
+    <li>buildingName->침엽수</li>
+  </NamerChristmasTree.rulePack.rulesStrings>
   
-  <!-- EN: buildingName->tree -->
-  <NamerChristmasTree.rulePack.rulesStrings.0>buildingName->나무</NamerChristmasTree.rulePack.rulesStrings.0>
-  <!-- EN: buildingName->pine -->
-  <NamerChristmasTree.rulePack.rulesStrings.1>buildingName->침엽수</NamerChristmasTree.rulePack.rulesStrings.1>
+  <NamerIdeoBuilding.rulePack.rulesStrings>
+    <li>r_ideoBuildingName(p=2)->[memeAdjective] [buildingName]</li>
+    <li>r_ideoBuildingName->[chosenTheme]의 [buildingName]</li>
+    <li>r_ideoBuildingName->[chosenAdjective] [buildingName]</li>
+    <li>r_ideoBuildingName->[keyDeity]의 [buildingName]</li>
+    <li>r_ideoBuildingName->[keyDeity]의 [buildingName]</li>
+    <li>r_ideoBuildingName->[memeConcept]의 [buildingName]</li>
+    <li>r_ideoBuildingName->[chosenIdeoName]의 [buildingName]</li>
+  </NamerIdeoBuilding.rulePack.rulesStrings>
   
-  <!-- EN: r_ideoBuildingName(p=2)->[memeAdjective] [buildingName] -->
-  <NamerIdeoBuilding.rulePack.rulesStrings.0>r_ideoBuildingName(p=2)->[memeAdjective] [buildingName]</NamerIdeoBuilding.rulePack.rulesStrings.0>
-  <!-- EN: r_ideoBuildingName->[buildingName] of [chosenTheme] -->
-  <NamerIdeoBuilding.rulePack.rulesStrings.1>r_ideoBuildingName->[chosenTheme]의 [buildingName]</NamerIdeoBuilding.rulePack.rulesStrings.1>
-  <!-- EN: r_ideoBuildingName->[chosenAdjective] [buildingName] -->
-  <NamerIdeoBuilding.rulePack.rulesStrings.2>r_ideoBuildingName->[chosenAdjective] [buildingName]</NamerIdeoBuilding.rulePack.rulesStrings.2>
-  <!-- EN: r_ideoBuildingName->[keyDeity]'s [buildingName] -->
-  <NamerIdeoBuilding.rulePack.rulesStrings.3>r_ideoBuildingName->[keyDeity]의 [buildingName]</NamerIdeoBuilding.rulePack.rulesStrings.3>
-  <!-- EN: r_ideoBuildingName->[buildingName] of [keyDeity] -->
-  <NamerIdeoBuilding.rulePack.rulesStrings.4>r_ideoBuildingName->[keyDeity]의 [buildingName]</NamerIdeoBuilding.rulePack.rulesStrings.4>
-  <!-- EN: r_ideoBuildingName->[buildingName] of [memeConcept] -->
-  <NamerIdeoBuilding.rulePack.rulesStrings.5>r_ideoBuildingName->[memeConcept]의 [buildingName]</NamerIdeoBuilding.rulePack.rulesStrings.5>
-  <!-- EN: r_ideoBuildingName->[buildingName] of [chosenIdeoName] -->
-  <NamerIdeoBuilding.rulePack.rulesStrings.6>r_ideoBuildingName->[chosenIdeoName]의 [buildingName]</NamerIdeoBuilding.rulePack.rulesStrings.6>
+  <NamerIdeoSculpture.rulePack.rulesStrings>
+    <li>buildingName->신상</li>
+    <li>buildingName->조각상</li>
+    <li>buildingName->조각</li>
+    <li>buildingName->형상</li>
+    <li>buildingName->모습</li>
+    <li>buildingName->모양</li>
+  </NamerIdeoSculpture.rulePack.rulesStrings>
   
-  <!-- EN: buildingName->ideogram -->
-  <NamerIdeogram.rulePack.rulesStrings.0>buildingName->상징문양</NamerIdeogram.rulePack.rulesStrings.0>
-  <!-- EN: buildingName->symbol -->
-  <NamerIdeogram.rulePack.rulesStrings.1>buildingName->상징</NamerIdeogram.rulePack.rulesStrings.1>
-  <!-- EN: buildingName->mark -->
-  <NamerIdeogram.rulePack.rulesStrings.2>buildingName->흔적</NamerIdeogram.rulePack.rulesStrings.2>
-  <!-- EN: buildingName->shape -->
-  <NamerIdeogram.rulePack.rulesStrings.3>buildingName->모양</NamerIdeogram.rulePack.rulesStrings.3>
-  <!-- EN: buildingName->emblem -->
-  <NamerIdeogram.rulePack.rulesStrings.4>buildingName->도형</NamerIdeogram.rulePack.rulesStrings.4>
-  <!-- EN: buildingName->figure -->
-  <NamerIdeogram.rulePack.rulesStrings.5>buildingName->형체</NamerIdeogram.rulePack.rulesStrings.5>
-  <!-- EN: buildingName->image -->
-  <NamerIdeogram.rulePack.rulesStrings.6>buildingName->형상</NamerIdeogram.rulePack.rulesStrings.6>
-  <!-- EN: buildingName->logo -->
-  <NamerIdeogram.rulePack.rulesStrings.7>buildingName->문양</NamerIdeogram.rulePack.rulesStrings.7>
+  <NamerIdeogram.rulePack.rulesStrings>
+    <li>buildingName->상징문양</li>
+    <li>buildingName->상징</li>
+    <li>buildingName->흔적</li>
+    <li>buildingName->모양</li>
+    <li>buildingName->도형</li>
+    <li>buildingName->형체</li>
+    <li>buildingName->형상</li>
+    <li>buildingName->문양</li>
+  </NamerIdeogram.rulePack.rulesStrings>
   
-  <!-- EN: buildingName->statue -->
-  <NamerIdeoSculpture.rulePack.rulesStrings.0>buildingName->신상</NamerIdeoSculpture.rulePack.rulesStrings.0>
-  <!-- EN: buildingName->sculpture -->
-  <NamerIdeoSculpture.rulePack.rulesStrings.1>buildingName->조각상</NamerIdeoSculpture.rulePack.rulesStrings.1>
-  <!-- EN: buildingName->carving -->
-  <NamerIdeoSculpture.rulePack.rulesStrings.2>buildingName->조각</NamerIdeoSculpture.rulePack.rulesStrings.2>
-  <!-- EN: buildingName->image -->
-  <NamerIdeoSculpture.rulePack.rulesStrings.3>buildingName->형상</NamerIdeoSculpture.rulePack.rulesStrings.3>
-  <!-- EN: buildingName->form -->
-  <NamerIdeoSculpture.rulePack.rulesStrings.4>buildingName->모습</NamerIdeoSculpture.rulePack.rulesStrings.4>
-  <!-- EN: buildingName->shape -->
-  <NamerIdeoSculpture.rulePack.rulesStrings.5>buildingName->모양</NamerIdeoSculpture.rulePack.rulesStrings.5>
-  
-  <!-- EN: buildingName->smoker -->
-  <NamerSmoker.rulePack.rulesStrings.0>buildingName->흡연기</NamerSmoker.rulePack.rulesStrings.0>
-  <!-- EN: buildingName->gasser -->
-  <NamerSmoker.rulePack.rulesStrings.1>buildingName->살포기</NamerSmoker.rulePack.rulesStrings.1>
-  <!-- EN: buildingName->fumer -->
-  <NamerSmoker.rulePack.rulesStrings.2>buildingName->훈연기</NamerSmoker.rulePack.rulesStrings.2>
-  <!-- EN: buildingName->smolderer -->
-  <NamerSmoker.rulePack.rulesStrings.3>buildingName->연통</NamerSmoker.rulePack.rulesStrings.3>
-  
+  <NamerSmoker.rulePack.rulesStrings>
+    <li>buildingName->흡연기</li>
+    <li>buildingName->살포기</li>
+    <li>buildingName->훈연기</li>
+    <li>buildingName->연통</li>
+  </NamerSmoker.rulePack.rulesStrings>
 </LanguageData>

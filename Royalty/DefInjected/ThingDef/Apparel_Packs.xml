@@ -1,22 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: low-shield pack -->
-  <Apparel_PackBroadshield.label>저각 보호막</Apparel_PackBroadshield.label>
-  <!-- EN: A single-use man-portable low-shield projector. Deployed on the ground, it generates a circular shield that allows bullets out but not in. The unit is designed to last only a short time before burning out.\n\nMany ultratech combat squads owe their lives to a shield pack deployed at just the right time. -->
-  <Apparel_PackBroadshield.description>휴대가 가능한 1회용 방탄 보호막 투사기입니다. 지상에 배치하면 총알이 빠져나갈 수 있는 원형 보호막을 생성합니다. 이 장치는 에너지가 소진될 때까지 짧은 시간동안 지속되도록 설계되었습니다.\n\n최첨단의 많은 전투분대는 적시에 배치된 보호막에 목숨을 걸고 있습니다.</Apparel_PackBroadshield.description>
-  <!-- EN: shield -->
+  <Apparel_PackBroadshield.label>휴대용 저각 보호막</Apparel_PackBroadshield.label>
+  <Apparel_PackBroadshield.description>휴대 가능한 1회용 방탄 보호막 투사기입니다. 배치하면 원형 저각 보호막이 짧은 시간 동안 형성되어, 발사체가 나갈 수 있지만 들어오지는 못하게 합니다.\n\n적시에 펼쳐진 보호막 덕택에 많은 첨단 전투부대들이 목숨을 건졌습니다.</Apparel_PackBroadshield.description>
   <Apparel_PackBroadshield.comps.CompReloadable.chargeNoun>보호막</Apparel_PackBroadshield.comps.CompReloadable.chargeNoun>
-  <!-- EN: deploy low-shield -->
   <Apparel_PackBroadshield.verbs.deploy_lowshield.label>저각 보호막 배치</Apparel_PackBroadshield.verbs.deploy_lowshield.label>
   
-  <!-- EN: jump pack -->
   <Apparel_PackJump.label>점프팩</Apparel_PackJump.label>
-  <!-- EN: A single-person burst rocket for short-ranged flight. With its integrated harness and guidance assistant, the jump pack allows anyone to leap long distances at high speed, even over obstacles. It must be recharged after several uses.\n\nSome spacer tech militaries have melee combat specialists who use jump packs to bypass obstacles and rapidly close with the enemy. -->
-  <Apparel_PackJump.description>단거리 비행을 위한 1인용 추진로켓입니다. 벨트와 안내 보조장치가 통합된 점프팩을 사용하여, 누구나 빠른 속도로, 장애물을 넘어 장거리 도약을 할 수 있습니다.\n\n몇몇 우주기술의 군대는 점프팩을 사용하여 장애물을 우회하고 적에게 빠르게 접근하는 근접 전투 전문가가 있습니다.</Apparel_PackJump.description>
-  <!-- EN: jump -->
-  <Apparel_PackJump.comps.CompReloadable.chargeNoun>점프</Apparel_PackJump.comps.CompReloadable.chargeNoun>
-  <!-- EN: jump -->
-  <Apparel_PackJump.verbs.jump.label>점프</Apparel_PackJump.verbs.jump.label>
-  
+  <Apparel_PackJump.description>단거리 도약을 위한 휴대용 추진로켓입니다. 벨트와 안내 보조장치가 통합된 점프팩을 사용하면 누구나 빠른 속도로 장애물을 넘어 장거리 도약을 할 수 있습니다.\n\n우주 해병대에서는 흔히 근접 격투 전문가에게 점프팩을 지급하여 적의 방어선을 우회하고 백병전을 유도합니다.</Apparel_PackJump.description>
+  <Apparel_PackJump.comps.CompReloadable.chargeNoun>도약</Apparel_PackJump.comps.CompReloadable.chargeNoun>
+  <Apparel_PackJump.verbs.jump.label>도약</Apparel_PackJump.verbs.jump.label>
 </LanguageData>

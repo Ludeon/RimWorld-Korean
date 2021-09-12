@@ -1,72 +1,43 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Royal Titles -->
-  <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
   <RoyalFavorDescription>거래 결과 협상자가 수여받을 {FACTION_royalFavorLabel}의 개수입니다.</RoyalFavorDescription>
-  <!-- EN: Required apparel -->
   <RoyalTitleTooltipRequiredApparel>의복 종류 요구사항</RoyalTitleTooltipRequiredApparel>
-  <!-- EN: Minimum apparel quality -->
   <RoyalTitleTooltipRequiredApparelQuality>의복 수준 요구사항</RoyalTitleTooltipRequiredApparelQuality>
-  <!-- EN: Bedroom requirements -->
   <RoyalTitleTooltipBedroomRequirements>침실 요구사항</RoyalTitleTooltipBedroomRequirements>
-  <!-- EN: Throneroom requirements -->
   <RoyalTitleTooltipThroneroomRequirements>알현실 요구사항</RoyalTitleTooltipThroneroomRequirements>
-  <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>작위 특권</RoyalTitleTooltipPermits>
-  <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>해당 작위 보유자는 반드시 다음 수준의 옷들을 입어야 함:</RoyalTitleRequiredApparelStatDescription>
-  <!-- EN: Any prestige armor -->
   <ApparelRequirementAnyPrestigeArmor>모든 위신갑옷</ApparelRequirementAnyPrestigeArmor>
-  <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>모든 초능력자 의복</ApparelRequirementAnyPsycasterApparel>
-  <!-- EN: or any psycaster or prestige apparel -->
   <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>모든 초능력자 또는 위신 의복</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
-  <!-- EN: Disallowed work types -->
   <DisabledWorkTypes>비활성화된 작업 유형</DisabledWorkTypes>
-  <!-- EN: Allowed foods -->
   <RoyalTitleRequiredMeals>허용된 음식</RoyalTitleRequiredMeals>
-  <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
   <RoyalTitleRequiredMealsDesc>해당 작위를 지닌 인물은 죽을 정도로 굶주리거나 상단에 소속되어 있는 경우를 제외하면 오직 이 음식들만을 골라 섭취합니다.</RoyalTitleRequiredMealsDesc>
-  <!-- EN: Choose who should participate in bestowing ceremony. -->
   <ChooseParticipantsBestow>수여식에 참여할 사람을 선택하세요.</ChooseParticipantsBestow>
 
   <!-- Royal implants -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
   <RoyalImplantIllegalUseWarning>{FACTION_name}의 법률에 따라 {IMPLANT}(을)를 합법적으로 사용하려면 {TITLE} 작위가 필요합니다.\n\n{VIOLATIONTRIGGER}, {FACTION_name}(이)가 초능력 파동을 감지하여 문제를 제기할 가능성이 있습니다. 이것은 외교적 분쟁을 유발할 것입니다.</RoyalImplantIllegalUseWarning>
-  <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>어쨌든 증폭기를 설치합니까?</RoyalImplantInstallConfirmation>
-  <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>어쨌든 증폭기 성능을 향상시킵니까?</RoyalImplantUpgradeConfirmation>
 
   <!-- Royal weapons -->
-  <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>일단 주인을 정하게 되면, 무기의 자아는 다른 사람의 손길을 거부할 것입니다.</BladelinkEquipWarning>
-  <!-- EN: The weapon has the following traits -->
   <BladelinkEquipWarningTraits>이 무기에 다음과 같은 특징이 있음</BladelinkEquipWarningTraits>
-  <!-- EN: Are you sure you want to equip this item? -->
   <RoyalWeaponEquipConfirmation>이 아이템을 착용하시겠습니까?</RoyalWeaponEquipConfirmation>
   
   <!-- Psycasts -->
-  <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>대상에게는 초능력이 통하지 않습니다.</AbilityTargetPsychicallyDeaf>
-  <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>이 초능력을 사용하는 것은 {PAWN_labelShort}의 법률에 위배됩니다. {TITLE} 작위가 필요합니다.</PsycastIsIllegal>
 
   <!-- Warning -->
-  <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
   <QuestGivesRoyalFavor>이 임무는 {PAWN_labelShort}에 대한 왕실 작위와 {FACTION_royalFavorLabel}(을)를 보상합니다.</QuestGivesRoyalFavor>
-  <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
   <RoyalIncapableOfSocial>{PAWN_labelShort}(은)는 사교활동이 불가능합니다. 왕실작위를 가진 사람들은 사교기술이 필요하므로, {PAWN_labelShort}(이)가 작위를 얻게 된다면 어려움이 많을 것입니다. 사교 가능한 다른 정착민이 더 적합할 수 있습니다.</RoyalIncapableOfSocial>
-  <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
   <RoyalWithConceitedTrait>{PAWN_labelShort}(은)는 {2}이므로 작위의 권한을 완전히 존중해야 합니다. {PAWN_labelShort}(은)는 저급 음식을 먹을 수 있고, 특정 작업유형을 거부할 수 있으며, 법령을 발표합니다. 유연한 다른 정착민이 더 적합할 수 있습니다.</RoyalWithConceitedTrait>
-  <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
   <RoyalWithTraitAffectingPsylinkNegatively>{PAWN_labelShort}(은)는 {2}이므로, 정신력 증폭기를 사용 못 할 수도 있습니다.</RoyalWithTraitAffectingPsylinkNegatively>
-  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
   <PsylinkTooLowForGainAbility>{PAWN_labelShort}의 정신력 증폭기가 {ABILITY}(을)를 사용할 만큼 단계가 높지 않습니다.\n\n그래도 주문을 얻으시겠습니까??</PsylinkTooLowForGainAbility>
-  <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
   <SendShuttleWithNoContents>이 왕복선은 비어있습니다. 다른 곳으로 보내면 다시 사용할 수 없습니다.\n\n그래도 보내시겠습니까?</SendShuttleWithNoContents>
-  <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
   <DropResourcesOverweightConfirm>이 자원들은 상단의 무게를 넘겨 움직이지 못하게 만듭니다.\n\n그래도 호출하시겠습니까?</DropResourcesOverweightConfirm>
 
 </LanguageData>

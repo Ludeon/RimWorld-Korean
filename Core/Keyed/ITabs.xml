@@ -1,404 +1,221 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
-  <!-- EN: Bills -->
   <TabBills>계획서</TabBills>
-  <!-- EN: Growing -->
   <TabGrowing>재배</TabGrowing>
-  <!-- EN: Bio -->
   <TabCharacter>캐릭터</TabCharacter>
-  <!-- EN: Training -->
   <TabTraining>훈련</TabTraining>
-  <!-- EN: Prisoner -->
   <TabPrisoner>처우</TabPrisoner>
-  <!-- EN: Guest -->
   <TabGuest>방문객</TabGuest>
-  <!-- EN: Gear -->
   <TabGear>장비</TabGear>
-  <!-- EN: Needs -->
   <TabNeeds>필요</TabNeeds>
-  <!-- EN: Storage -->
   <TabStorage>보관</TabStorage>
-  <!-- EN: Shells -->
   <TabShells>포탄</TabShells>
-  <!-- EN: Health -->
   <TabHealth>건강</TabHealth>
-  <!-- EN: Race -->
   <TabRace>종류</TabRace>
-  <!-- EN: Basics -->
   <TabBasics>기본</TabBasics>
-  <!-- EN: Stats -->
   <TabStats>통계</TabStats>
-  <!-- EN: Records -->
   <TabRecords>기록</TabRecords>
-  <!-- EN: Art -->
   <TabArt>예술</TabArt>
-  <!-- EN: Social -->
   <TabSocial>관계</TabSocial>
-  <!-- EN: Log -->
   <TabLog>일지</TabLog>
-  <!-- EN: Animals -->
   <TabPenAnimals>동물들</TabPenAnimals>
-  <!-- EN: Food -->
   <TabPenFood>먹이</TabPenFood>
-  <!-- EN: Auto-cut -->
   <TabPenAutoCut>자동 제초</TabPenAutoCut>
-  <!-- EN: Caravan -->
   <TabFormingCaravan>상단</TabFormingCaravan>
-  <!-- EN: Contents -->
   <TabTransporterContents>내용물</TabTransporterContents>
-  <!-- EN: Contents -->
   <TabCasketContents>내용물</TabCasketContents>
   
   <!-- Bills tab  -->
-  <!-- EN: Add bill -->
   <AddBill>계획서 추가</AddBill>
-  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
   <RecipeRequiresSkills>{0}의 요구기술은 아래와 같습니다. 조건을 만족하는 정착민이 없어 작업이 진행되지 않습니다.</RecipeRequiresSkills>
-  <!-- EN: Min skill -->
   <MinimumSkill>최소 기술</MinimumSkill>
-  <!-- EN: SUSPENDED -->
   <SuspendedCaps>일시 중지</SuspendedCaps>
-  <!-- EN: Worker: {1_labelShort} -->
   <BoundWorkerIs>작업자: {1_labelShort}</BoundWorkerIs>
-  <!-- EN: Plant -->
   <PlantVerb>심기</PlantVerb>
-  <!-- EN: Copied bill cannot be pasted here -->
   <ClipboardBillNotAvailableHere>복사된 계획서는 이곳에 붙여넣을 수 없습니다.</ClipboardBillNotAvailableHere>
-  <!-- EN: Move up -->
   <ReorderBillUpTip>위로 이동</ReorderBillUpTip>
-  <!-- EN: Move down -->
   <ReorderBillDownTip>아래로 이동</ReorderBillDownTip>
-  <!-- EN: Delete -->
   <DeleteBillTip>삭제</DeleteBillTip>
-  <!-- EN: Copy to the clipboard -->
   <CopyBillTip>설정 복사</CopyBillTip>
-  <!-- EN: Suspend -->
   <SuspendBillTip>일시 중지</SuspendBillTip>
-  <!-- EN: Paste -->
   <PasteBillTip>붙여넣기</PasteBillTip>
-  <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>더는 추가할 수 없음</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
-  <!-- EN: Resistance -->
   <RecruitmentResistance>저항심</RecruitmentResistance>
-  <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
   <RecruitmentResistanceDesc>수감자가 정착지 합류에 가진 거부감입니다. 0이 되면 포섭할 수 있습니다.</RecruitmentResistanceDesc>
-  <!-- EN: {0} base resistance -->
   <RecruitmentResistanceFromPawnKind>{0}의 기본 저항심</RecruitmentResistanceFromPawnKind>
-  <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>석방 시 얻는 우호도</PrisonerReleasePotentialRelationGains>
-  <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
   <PrisonerReleaseRelationGainsDesc>수감자를 석방하면 수감자의 소속 세력과 관계가 개선됩니다. 개선되는 수치는 수감자의 지위, 건강, 정신 상태에 영향을 받습니다.</PrisonerReleaseRelationGainsDesc>
-  <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>탈옥 주기</PrisonBreakMTBDays>
-  <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
   <PrisonBreakMTBDaysDescription>평균적으로 탈옥을 시도할 간격입니다. 기분, 이동 속도, 출입문의 개수, 마지막 탈옥 시도와의 간격에 영향을 받습니다.\n\n이 수치는 깨어있는 시간만 고려한 것입니다.</PrisonBreakMTBDaysDescription>
-  <!-- EN: Never -->
   <Never>없음</Never>
-  <!-- EN: Not while asleep -->
   <NotWhileAsleep>잠든 동안에는 없음</NotWhileAsleep>
-  <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>지금 탈옥 중</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
   <FactorForDoorCount>출입문의 수로 인한 계수</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
   <FactorForMovement>이동 능력으로 인한 계수</FactorForMovement>
-  <!-- EN: Slave price -->
   <SlavePrice>노예 가치</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
   <SlavePriceDescription>이 {0}(을)를 팔았을 때의 기본 시장 가치입니다.</SlavePriceDescription>
-  <!-- EN: Gets food -->
   <GetsFood>음식 제공</GetsFood>
-  <!-- EN: Doctors care -->
   <DoctorsCare>의사 진료</DoctorsCare>
-  <!-- EN: Gets medicine -->
   <GetsMedicine>약품 제공</GetsMedicine>
-  <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>포섭 시도</ShouldTryToRecruit>
-  <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>유죄 판결 ({0} 후 만료)</ConsideredGuilty>
-  <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>유죄 판결</ConsideredGuiltyNoTimer>
 
   <!-- Medical - general -->
-  <!-- EN: Move speed -->
   <MoveSpeed>이동속도</MoveSpeed>
-  <!-- EN: Efficiency -->
   <Efficiency>능률</Efficiency>
-  <!-- EN: Part efficiency -->
   <PartEfficiency>부위 능률</PartEfficiency>
-  <!-- EN: Body part efficiency -->
   <BodyPartEfficiency>신체부위 능률</BodyPartEfficiency>
-  <!-- EN: Gone -->
   <MissingBodyPart>사라짐</MissingBodyPart>
-  <!-- EN: Destroyed -->
   <DestroyedBodyPart>파괴됨</DestroyedBodyPart>
-  <!-- EN: Shattered -->
   <ShatteredBodyPart>부서짐</ShatteredBodyPart>
-  <!-- EN: Removed -->
   <RemovedBodyPart>제거됨</RemovedBodyPart>
-  <!-- EN: Healthy -->
   <Healthy>건강함</Healthy>
-  <!-- EN: In pain -->
   <InPain>고통스러움</InPain>
-  <!-- EN: Pain -->
   <PainLevel>고통</PainLevel>
-  <!-- EN: Injured -->
   <Injured>부상</Injured>
-  <!-- EN: Untended injury -->
   <UntendedInjury>돌보지 않은 상처</UntendedInjury>
-  <!-- EN: no health conditions -->
   <NoHealthConditions>건강 이상없음</NoHealthConditions>
-  <!-- EN: Whole body -->
   <WholeBody>전신</WholeBody>
-  <!-- EN: Data processing -->
   <DataProcessing>데이터 처리</DataProcessing>
-  <!-- EN: Communication -->
   <Communication>통신</Communication>
-  <!-- EN: Affects -->
   <Affects>영향</Affects>
-  <!-- EN: Bleeding -->
   <BleedingRate>출혈</BleedingRate>
-  <!-- EN: death in {0} -->
   <TimeToDeath>{0} 후 사망</TimeToDeath>
-  <!-- EN: no immediate danger -->
   <WontBleedOutSoon>아직 큰 위험 없음</WontBleedOutSoon>
-  <!-- EN: Overview -->
   <HealthOverview>개요</HealthOverview>
-  <!-- EN: Operations ({0}) -->
   <MedicalOperationsShort>수술 ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
   <MedicalOperationsMechanoidsShort>개조 ({0})</MedicalOperationsMechanoidsShort>
-  <!-- EN: Medical operations -->
   <MedicalOperations>의료 작업</MedicalOperations>
-  <!-- EN: amputate -->
   <Amputate>절단</Amputate>
-  <!-- EN: harvest -->
   <HarvestOrgan>장기 적출</HarvestOrgan>
-  <!-- EN: remove -->
   <RemoveOrgan>제거</RemoveOrgan>
-  <!-- EN: memory -->
   <MemoryLower>기억</MemoryLower>
-  <!-- EN: social interactions -->
   <SocialInteractionsLower>사회적 상호작용</SocialInteractionsLower>
-  <!-- EN: Hunger rate -->
   <HungerRate>굶주림</HungerRate>
-  <!-- EN: Tiredness -->
   <Tiredness>피로도</Tiredness>
-  <!-- EN: Pain -->
   <PainFactor>고통</PainFactor>
-  <!-- EN: Prevents infection -->
   <PreventsInfection>감염 방지</PreventsInfection>
-  <!-- EN: Self-tend -->
   <SelfTend>자가 치료</SelfTend>
-  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>자가 치료가 활성화된 {0}(은)는 자기 자신을 일반 효율의 {1}로 그 자리에서 바로 치료합니다.</SelfTendTip>
-  <!-- EN: death in {0} -->
   <DeathIn>{0} 후 사망</DeathIn>
   
   <!-- Medical - Body and activities condition -->
-  <!-- EN: None -->
   <None>없음</None>
-  <!-- EN: Very poor -->
   <VeryPoor>매우 나쁨</VeryPoor>
-  <!-- EN: Poor -->
   <Poor>나쁨</Poor>
-  <!-- EN: Weakened -->
   <Weakened>약화됨</Weakened>
-  <!-- EN: OK -->
   <GoodCondition>좋음</GoodCondition>
-  <!-- EN: Enhanced -->
   <Enhanced>강화됨</Enhanced>
-  <!-- EN: Seriously impaired -->
   <SeriouslyImpaired>심각하게 손상됨</SeriouslyImpaired>
-  <!-- EN: Impaired -->
   <Impaired>손상됨</Impaired>
-  <!-- EN: Slightly impaired -->
   <SlightlyImpaired>경미하게 손상됨</SlightlyImpaired>
-  <!-- EN: None -->
   <NoPain>없음</NoPain>
-  <!-- EN: Little -->
   <LittlePain>약간</LittlePain>
-  <!-- EN: Medium -->
   <MediumPain>중간</MediumPain>
-  <!-- EN: Severe -->
   <SeverePain>극심</SeverePain>
-  <!-- EN: Extreme -->
   <ExtremePain>극도</ExtremePain>
 
   <!-- Training tab -->
-  <!-- EN: Trainability -->
   <Trainability>훈련시 지능</Trainability>
-  <!-- EN: Requires {0} trainability. -->
   <CannotTrainNotSmartEnough>훈련시 필요 지능: {0}</CannotTrainNotSmartEnough>
-  <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{1_labelShort}의 크기가 훈련을 받기에 너무 작습니다.</CannotTrainTooSmall>
 
-  <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>선행훈련 필요: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
   <NoRelationships>(관계 없음)</NoRelationships>
-  <!-- EN: Kidnapped -->
   <Kidnapped>납치</Kidnapped>
-  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
   <Lent>{FACTION_name}에 빌려준 {1}(이)가 돌아옴</Lent>
-  <!-- EN: Missing -->
   <Missing>실종</Missing>
-  <!-- EN: Slave -->
   <Slave>노예</Slave>
-  <!-- EN: Faction leader -->
   <FactionLeader>세력 지도자</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
   <OpinionOf>{1_labelShort}에 대한 생각</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
   <SomeonesOpinionOfMe>나에 대한 {1_labelShort}의 생각</SomeonesOpinionOfMe>
-  <!-- EN: I'm dead -->
   <IAmDead>나는 죽었어</IAmDead>
-  <!-- EN: I'm a psychopath -->
   <IAmPsychopath>나는 사이코패스야</IAmPsychopath>
   
   <!-- Gear tab -->
-  <!-- EN: Overall armor -->
   <OverallArmor>방어 합계</OverallArmor>
-  <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>소지품 무게: {0} / {1} kg</MassCarried>
-  <!-- EN: Comfortable temperature range -->
   <ComfyTemperatureRange>적응 온도 범위</ComfyTemperatureRange>
-  <!-- EN: Blunt -->
   <ArmorBlunt>둔탁함</ArmorBlunt>
-  <!-- EN: Sharp -->
   <ArmorSharp>날카로움</ArmorSharp>
-  <!-- EN: Heat -->
   <ArmorHeat>열기</ArmorHeat>
   
   <!-- Log tab -->
-  <!-- EN: Show all -->
   <ShowAll>모두 보기</ShowAll>
-  <!-- EN: Show combat -->
   <ShowCombat>전투 보기</ShowCombat>
-  <!-- EN: Show social -->
   <ShowSocial>사교 보기</ShowSocial>
-  <!-- EN: no recent entries -->
   <NoRecentEntries>최근 항목 없음</NoRecentEntries>
-  <!-- EN: Copy log to the clipboard. -->
   <CopyLogTip>클립보드에 로그를 복사합니다.</CopyLogTip>
 
   <!-- Forming caravan tab -->
-  <!-- EN: Gathering animals -->
   <FormingCaravanStatus_GatheringAnimals>동물 데려오는 중</FormingCaravanStatus_GatheringAnimals>
-  <!-- EN: Gathering animals (waiting) -->
   <FormingCaravanStatus_GatheringAnimals_Pause>동물 데려오는 중 (대기 중)</FormingCaravanStatus_GatheringAnimals_Pause>
-  <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>물품들 수집 중</FormingCaravanStatus_GatheringItems>
-  <!-- EN: Gathering items (waiting) -->
   <FormingCaravanStatus_GatheringItems_Pause>물품들 수집 중 (대기 중)</FormingCaravanStatus_GatheringItems_Pause>
-  <!-- EN: Gathering downed people -->
   <FormingCaravanStatus_GatheringDownedPawns>쓰러진 인원 구조 중</FormingCaravanStatus_GatheringDownedPawns>
-  <!-- EN: Gathering downed people (waiting) -->
   <FormingCaravanStatus_GatheringDownedPawns_Pause>쓰러진 인원 구조 중 (대기 중)</FormingCaravanStatus_GatheringDownedPawns_Pause>
-  <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>떠나는 중</FormingCaravanStatus_Leaving>
-  <!-- EN: Leaving (waiting) -->
   <FormingCaravanStatus_Leaving_Pause>떠나는 중 (대기 중)</FormingCaravanStatus_Leaving_Pause>
-  <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>대기 중</FormingCaravanStatus_Waiting>
-  <!-- EN: Members -->
   <CaravanMembers>구성원들</CaravanMembers>
-  <!-- EN: Animals -->
   <CaravanAnimals>동물들</CaravanAnimals>
-  <!-- EN: To load -->
   <ItemsToLoad>적재할 물품들</ItemsToLoad>
-  <!-- EN: Loaded -->
   <LoadedItems>적재된 물품들</LoadedItems>
-  <!-- EN: pack animals -->
   <PackAnimalsCountLower>동물 떼</PackAnimalsCountLower>
-  <!-- EN: mentally broken -->
   <InMentalStateCountLower>상태 이상</InMentalStateCountLower>
 
   <!-- Transporter contents -->
-  <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>{{0}}x {0} 제거</RemoveSliderText>
-  <!-- EN: Contained items -->
   <ContainedItems>포함된 항목</ContainedItems>
-  <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>정말 {0}(을)를 제거하시겠습니까?</ConfirmRemoveItemDialog>
   
   <!-- Quests tab -->
-  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
   <DismissQuest>이 임무를 비활성화하고 기록 탭으로 이동시킵니다.\n\n언제든지 임무를 비활성화할 수 있지만 효과와 만료 시간은 정상적으로 진행됩니다. 비활성 임무에 대한 알림은 제공되지 않습니다.</DismissQuest>
-  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
   <UnDismissQuest>이 임무를 활성화합니다.\n\n임무를 다시 진행할 수 있게 되며 알림이 제공됩니다.</UnDismissQuest>
-  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
   <QuestDismissed>이 임무는 비활성 상태입니다.\n\n만료되기 전까지는 다시 활성화할 수 있습니다.</QuestDismissed>
-  <!-- EN: Delete this quest and remove it from the quest list forever. -->
   <DeleteQuest>이 임무를 삭제하여 임무 목록에서 완전히 지웁니다.</DeleteQuest>
 
   <!-- Animal pen food tab -->
-  <!-- EN: enclose the pen marker to calculate food information -->
   <PenFoodTab_NotEnclosed>우리를 완성해서 먹이 정보 계산</PenFoodTab_NotEnclosed>
 
-  <!-- EN: Nutrition stockpiled -->
   <PenFoodTab_StockpileTotal>비축한 열량</PenFoodTab_StockpileTotal>
-  <!-- EN: The total nutrition of stockpiled food in the pen. -->
   <PenFoodTab_StockpileTotalDescription>이 우리 안에 비축한 먹이의 양입니다.</PenFoodTab_StockpileTotalDescription>
-  <!-- EN: Days to stockpile exhaustion -->
   <PenFoodTab_StockpileEmptyDays>비축량 소진까지 남은 일 수</PenFoodTab_StockpileEmptyDays>
-  <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
   <PenFoodTab_StockpileEmptyDaysDescription>열량 섭취량이 성장률을 초과합니다. 시간이 지나면 동물들이 우리의 모든 먹이를 소모한 후 굶을 것입니다.</PenFoodTab_StockpileEmptyDaysDescription>
 
-  <!-- EN: Animal type -->
   <PenFoodTab_AnimalType>동물 유형</PenFoodTab_AnimalType>
-  <!-- EN: Count -->
   <PenFoodTab_Count>수</PenFoodTab_Count>
-  <!-- EN: Today -->
   <PenFoodTab_CurrentDay>오늘</PenFoodTab_CurrentDay>
-  <!-- EN: nutrition -->
   <PenFoodTab_Nutrition_Unit>열량</PenFoodTab_Nutrition_Unit>
-  <!-- EN: per day -->
   <PenFoodTab_NutritionPerDay_Unit>/일</PenFoodTab_NutritionPerDay_Unit>
-  <!-- EN: Force display animal... -->
   <PenFoodTab_AddAnimal>동물 강제 표시...</PenFoodTab_AddAnimal>
 
-  <!-- EN: Nutrition growth -->
   <PenFoodTab_NaturalNutritionGrowthRate>열량 성장률</PenFoodTab_NaturalNutritionGrowthRate>
-  <!-- EN: Growth per season -->
   <PenFoodTab_GrowthPerSeason>계절당 성장률</PenFoodTab_GrowthPerSeason>
-  <!-- EN: Nutrition consumption -->
   <PenFoodTab_TotalNutritionConsumptionRate>열량 섭취량</PenFoodTab_TotalNutritionConsumptionRate>
-  <!-- EN: The average nutrition provided by edible plants in this pen. -->
   <PenFoodTab_NaturalNutritionGrowthRateDescription>이 우리 안의 섭취 가능한 식물이 제공하는 평균 열량입니다.</PenFoodTab_NaturalNutritionGrowthRateDescription>
-  <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
   <PenFoodTab_NutritionConsumptionDescription>현재 이 우리 안의 동물이 필요로 하는 열량입니다.\n\n더 많은 먹이를 확보하려면 우리를 넓혀 야생 식물이 더 많이 자라게 하거나, 건초 등 비축해둔 먹이를 우리로 운반하세요.</PenFoodTab_NutritionConsumptionDescription>
-  <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
   <PenFoodTab_NaturalNutritionGrowthRateSeasonal>참고: 식물의 성장률은 계절, 날씨, 야생동물의 섭취와 기타 다른 요인의 영향을 받습니다. 이 값은 추정 값입니다.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
-  <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>총 섭취량</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
-  <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
   <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>각각의 동물 종류가 이 우리 안에서 매일 섭취하는 총 열량입니다.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
-  <!-- EN: Daily consumption per {ANIMALDEF_label} -->
   <PenFoodTab_NutritionConsumedPerDay>{ANIMALDEF_label}의 일간 섭취량</PenFoodTab_NutritionConsumedPerDay>
-  <!-- EN: each {CONSUMEDAMOUNT} -->
   <PenFoodTab_NutritionConsumedEachAnimalLabel>각각 {CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
-  <!-- EN: Count that could be supported with no other animals in the pen -->
   <PenFoodTab_AnimalTypeAnimalCapacity>다른 동물이 없을 때, 열량 성장률만으로 수용할 수 있는 수</PenFoodTab_AnimalTypeAnimalCapacity>
 
-  <!-- EN: Edible now -->
   <PenFoodTab_EdibleNow>지금 먹을 수 있음</PenFoodTab_EdibleNow>
 
-  <!-- EN: Auto-cut plants in pen -->
   <PenAutoCut_EnabledCheckbox>우리 안의 식물 자동 제초</PenAutoCut_EnabledCheckbox>
-  <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
   <PenAutoCut_EnabledCheckboxTip>섭취할 수 없는 특정 식물을 제거하도록 지정합니다. 빈 자리에는 먹을 수 있는 식물을 길러서 동물에게 먹일 수 있습니다.\n\n자동 제초 지정은 선택한 식물에만 주기적으로 발생합니다.\n\n뚫린 우리에서는 동작하지 않습니다.</PenAutoCut_EnabledCheckboxTip>
 
-  <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>뚫린 우리</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
   <AutocutUnenclosedPenTip>우리가 뚫려 있습니다. 자동 제초를 하지 않습니다.</AutocutUnenclosedPenTip>
 
 </LanguageData>

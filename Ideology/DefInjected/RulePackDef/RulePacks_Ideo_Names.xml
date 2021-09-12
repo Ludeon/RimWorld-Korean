@@ -1,103 +1,59 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->전우주적</li>
+    <li>globalAdjective->별들의</li>
+    <li>globalAdjective->성간</li>
+    <li>globalAdjective->성간</li>
+    <li>globalHyphenPrefix->우주</li>
+    <li>globalHyphenPrefix->성간</li>
+  </CultureSpacer.rulePack.rulesStrings>
   
-  <!-- EN: globalAdjective->Spacer -->
-  <CultureSpacer.rulePack.rulesStrings.0>globalAdjective->전우주적</CultureSpacer.rulePack.rulesStrings.0>
-  <!-- EN: globalAdjective->Star -->
-  <CultureSpacer.rulePack.rulesStrings.1>globalAdjective->별들의</CultureSpacer.rulePack.rulesStrings.1>
-  <!-- EN: globalAdjective->Stellar -->
-  <CultureSpacer.rulePack.rulesStrings.2>globalAdjective->성간</CultureSpacer.rulePack.rulesStrings.2>
-  <!-- EN: globalAdjective->Interstellar -->
-  <CultureSpacer.rulePack.rulesStrings.3>globalAdjective->성간</CultureSpacer.rulePack.rulesStrings.3>
-  <!-- EN: globalHyphenPrefix->astro -->
-  <CultureSpacer.rulePack.rulesStrings.4>globalHyphenPrefix->우주</CultureSpacer.rulePack.rulesStrings.4>
-  <!-- EN: globalHyphenPrefix->stello -->
-  <CultureSpacer.rulePack.rulesStrings.5>globalHyphenPrefix->성간</CultureSpacer.rulePack.rulesStrings.5>
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->부족</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
   
-  <!-- EN: globalAdjective(p=15)->Tribal -->
-  <NamerIdeoCorunan.rulePack.rulesStrings.0>globalAdjective(p=15)->부족</NamerIdeoCorunan.rulePack.rulesStrings.0>
-  
-  <!-- EN: r_ideoName->[keyDeity]ism -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.0>r_ideoName->[keyDeity]교</NamerIdeoGlobal.rulePack.rulesStrings.0>
-  <!-- EN: r_ideoName->[hyphenPrefix]-[keyDeity]ism -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.1>r_ideoName->[hyphenPrefix] [keyDeity]교</NamerIdeoGlobal.rulePack.rulesStrings.1>
-  <!-- EN: r_ideoName->[keyDeity]'s [creed] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.2>r_ideoName->[keyDeity]의 [creed]</NamerIdeoGlobal.rulePack.rulesStrings.2>
-  <!-- EN: r_ideoName->[creed] of [keyDeity] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.3>r_ideoName->[keyDeity]의 [creed]</NamerIdeoGlobal.rulePack.rulesStrings.3>
-  <!-- EN: r_ideoAdjective->[keyDeity]ic -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.4>r_ideoAdjective->[keyDeity]교적</NamerIdeoGlobal.rulePack.rulesStrings.4>
-  <!-- EN: r_memberName->[keyDeity]ist -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.5>r_memberName->[keyDeity]교인</NamerIdeoGlobal.rulePack.rulesStrings.5>
-  <!-- EN: r_memberName->[keyDeity]ite -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.6>r_memberName->[keyDeity] 숭배자</NamerIdeoGlobal.rulePack.rulesStrings.6>
-  <!-- EN: r_ideoName(p=2)->[globalAdjective] [packIdeoName] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.7>r_ideoName(p=2)->[globalAdjective] [packIdeoName]</NamerIdeoGlobal.rulePack.rulesStrings.7>
-  <!-- EN: r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.8>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix] [packIdeoName]</NamerIdeoGlobal.rulePack.rulesStrings.8>
-  <!-- EN: r_ideoName->[memeAdjective] [packIdeoName] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.9>r_ideoName->[memeAdjective] [packIdeoName]</NamerIdeoGlobal.rulePack.rulesStrings.9>
-  <!-- EN: r_ideoName(p=0.5)->[memeAdjective] [creed] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.10>r_ideoName(p=0.5)->[memeAdjective] [creed]</NamerIdeoGlobal.rulePack.rulesStrings.10>
-  <!-- EN: r_ideoName(p=0.2)->[creed] of [packTheme] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.11>r_ideoName(p=0.2)->[packTheme]의 [creed]</NamerIdeoGlobal.rulePack.rulesStrings.11>
-  <!-- EN: r_ideoAdjective(priority=1)->[packAdjective] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.12>r_ideoAdjective(priority=1)->[packAdjective]</NamerIdeoGlobal.rulePack.rulesStrings.12>
-  <!-- EN: r_memberName->[packMember] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.13>r_memberName->[packMember]</NamerIdeoGlobal.rulePack.rulesStrings.13>
-  <!-- EN: creed(priority=1)->[memeCreed] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.14>creed(priority=1)->[memeCreed]</NamerIdeoGlobal.rulePack.rulesStrings.14>
-  <!-- EN: creed->[genericCreed] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.15>creed->[genericCreed]</NamerIdeoGlobal.rulePack.rulesStrings.15>
-  <!-- EN: genericCreed->creed -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.16>genericCreed->신조</NamerIdeoGlobal.rulePack.rulesStrings.16>
-  <!-- EN: genericCreed->doctrine -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.17>genericCreed->교의</NamerIdeoGlobal.rulePack.rulesStrings.17>
-  <!-- EN: genericCreed->way -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.18>genericCreed->방식</NamerIdeoGlobal.rulePack.rulesStrings.18>
-  <!-- EN: genericCreed->path -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.19>genericCreed->길</NamerIdeoGlobal.rulePack.rulesStrings.19>
-  <!-- EN: globalAdjective->[Color] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.20>globalAdjective->[Color]</NamerIdeoGlobal.rulePack.rulesStrings.20>
-  <!-- EN: globalAdjective->New -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.21>globalAdjective->새로운</NamerIdeoGlobal.rulePack.rulesStrings.21>
-  <!-- EN: globalAdjective->Full -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.22>globalAdjective->완전한</NamerIdeoGlobal.rulePack.rulesStrings.22>
-  <!-- EN: globalAdjective->Old -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.23>globalAdjective->오래된</NamerIdeoGlobal.rulePack.rulesStrings.23>
-  <!-- EN: globalAdjective->Ancient -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.24>globalAdjective->고대의</NamerIdeoGlobal.rulePack.rulesStrings.24>
-  <!-- EN: globalAdjective->Historical -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.25>globalAdjective->역사적인</NamerIdeoGlobal.rulePack.rulesStrings.25>
-  <!-- EN: globalAdjective->Revised -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.26>globalAdjective->개정</NamerIdeoGlobal.rulePack.rulesStrings.26>
-  <!-- EN: globalAdjective->Reformed -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.27>globalAdjective->개혁</NamerIdeoGlobal.rulePack.rulesStrings.27>
-  <!-- EN: globalAdjective->Hard -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.28>globalAdjective->굳은</NamerIdeoGlobal.rulePack.rulesStrings.28>
-  <!-- EN: globalAdjective->Fundamental -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.29>globalAdjective->근본</NamerIdeoGlobal.rulePack.rulesStrings.29>
-  <!-- EN: globalAdjective->True -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.30>globalAdjective->진실의</NamerIdeoGlobal.rulePack.rulesStrings.30>
-  <!-- EN: globalAdjective->Folk -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.31>globalAdjective->민속</NamerIdeoGlobal.rulePack.rulesStrings.31>
-  <!-- EN: globalAdjective->Reformed -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.32>globalAdjective->개혁</NamerIdeoGlobal.rulePack.rulesStrings.32>
-  <!-- EN: globalAdjective->[place_adjective] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.33>globalAdjective->[place_adjective]</NamerIdeoGlobal.rulePack.rulesStrings.33>
-  <!-- EN: hyphenPrefix->[globalHyphenPrefix] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.34>hyphenPrefix->[globalHyphenPrefix]</NamerIdeoGlobal.rulePack.rulesStrings.34>
-  <!-- EN: hyphenPrefix->[memeHyphenPrefix] -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.35>hyphenPrefix->[memeHyphenPrefix]</NamerIdeoGlobal.rulePack.rulesStrings.35>
-  <!-- EN: globalHyphenPrefix(p=4)->neo -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.36>globalHyphenPrefix(p=4)->신</NamerIdeoGlobal.rulePack.rulesStrings.36>
-  <!-- EN: globalHyphenPrefix(p=2)->post -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.37>globalHyphenPrefix(p=2)->구</NamerIdeoGlobal.rulePack.rulesStrings.37>
-  <!-- EN: globalHyphenPrefix->nova -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.38>globalHyphenPrefix->신성</NamerIdeoGlobal.rulePack.rulesStrings.38>
-  <!-- EN: globalHyphenPrefix->archaeo -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.39>globalHyphenPrefix->초월</NamerIdeoGlobal.rulePack.rulesStrings.39>
-  <!-- EN: globalHyphenPrefix->hyper -->
-  <NamerIdeoGlobal.rulePack.rulesStrings.40>globalHyphenPrefix->초</NamerIdeoGlobal.rulePack.rulesStrings.40>
-  
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]교</li>
+    <li>r_ideoName->[hyphenPrefix] [keyDeity]교</li>
+    <li>r_ideoName->[keyDeity]의 [creed]</li>
+    <li>r_ideoName->[keyDeity]의 [creed]</li>
+    <li>r_ideoAdjective->[keyDeity]교적</li>
+    <li>r_memberName->[keyDeity]교인</li>
+    <li>r_memberName->[keyDeity] 숭배자</li>
+    <li>r_ideoName(p=2)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix] [packIdeoName]</li>
+    <li>r_ideoName->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective] [creed]</li>
+    <li>r_ideoName(p=0.2)->[packTheme]의 [creed]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->신조</li>
+    <li>genericCreed->교의</li>
+    <li>genericCreed->방식</li>
+    <li>genericCreed->길</li>
+    <li>globalAdjective->[Color]</li>
+    <li>globalAdjective->새로운</li>
+    <li>globalAdjective->완전한</li>
+    <li>globalAdjective->오래된</li>
+    <li>globalAdjective->고대의</li>
+    <li>globalAdjective->역사적인</li>
+    <li>globalAdjective->개정</li>
+    <li>globalAdjective->개혁</li>
+    <li>globalAdjective->굳은</li>
+    <li>globalAdjective->근본</li>
+    <li>globalAdjective->진실의</li>
+    <li>globalAdjective->민속</li>
+    <li>globalAdjective->개혁</li>
+    <li>globalAdjective->[place_adjective]</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->신</li>
+    <li>globalHyphenPrefix(p=2)->구</li>
+    <li>globalHyphenPrefix->신성</li>
+    <li>globalHyphenPrefix->초월</li>
+    <li>globalHyphenPrefix->초</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
 </LanguageData>

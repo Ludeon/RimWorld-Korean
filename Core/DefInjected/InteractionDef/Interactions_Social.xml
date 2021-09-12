@@ -1,167 +1,96 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: chitchat -->
   <Chitchat.label>잡담</Chitchat.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight]. -->
-  <Chitchat.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [TalkTopicLight][talkedabout] 나눔.</Chitchat.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef]. -->
-  <Chitchat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [TalkTopicLight][talkedabout] [RECIPIENT_nameDef](와)과 나눔.</Chitchat.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef]. -->
-  <Chitchat.logRulesInitiator.rulesStrings.2>r_logentry(p=0.8)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [TalkTopicLight][commentedabout].</Chitchat.logRulesInitiator.rulesStrings.2>
-  <!-- EN: talkedabout(p=4)->chatted about -->
-  <Chitchat.logRulesInitiator.rulesStrings.3>talkedabout(p=4)->에 대한 잡담을</Chitchat.logRulesInitiator.rulesStrings.3>
-  <!-- EN: talkedabout->shared a word about -->
-  <Chitchat.logRulesInitiator.rulesStrings.4>talkedabout->에 대해 한마디씩</Chitchat.logRulesInitiator.rulesStrings.4>
-  <!-- EN: talkedabout->spoke about -->
-  <Chitchat.logRulesInitiator.rulesStrings.5>talkedabout->에 대한 이야기를</Chitchat.logRulesInitiator.rulesStrings.5>
-  <!-- EN: talkedabout->gabbed about -->
-  <Chitchat.logRulesInitiator.rulesStrings.6>talkedabout->에 대한 잡담을</Chitchat.logRulesInitiator.rulesStrings.6>
-  <!-- EN: talkedabout->talked about -->
-  <Chitchat.logRulesInitiator.rulesStrings.7>talkedabout->에 대한 대화를</Chitchat.logRulesInitiator.rulesStrings.7>
-  <!-- EN: talkedabout->joked about -->
-  <Chitchat.logRulesInitiator.rulesStrings.8>talkedabout->에 대한 농담을</Chitchat.logRulesInitiator.rulesStrings.8>
-  <!-- EN: talkedabout->quipped about -->
-  <Chitchat.logRulesInitiator.rulesStrings.9>talkedabout->에 대한 실없는 말을</Chitchat.logRulesInitiator.rulesStrings.9>
-  <!-- EN: commentedabout->said something about -->
-  <Chitchat.logRulesInitiator.rulesStrings.10>commentedabout->에 대해 말함</Chitchat.logRulesInitiator.rulesStrings.10>
-  <!-- EN: commentedabout->said a word about -->
-  <Chitchat.logRulesInitiator.rulesStrings.11>commentedabout->에 대해 한마디 함</Chitchat.logRulesInitiator.rulesStrings.11>
-  <!-- EN: commentedabout->made a comment about -->
-  <Chitchat.logRulesInitiator.rulesStrings.12>commentedabout->에 대한 자신의 의견을 냄</Chitchat.logRulesInitiator.rulesStrings.12>
-  <!-- EN: commentedabout->commented about -->
-  <Chitchat.logRulesInitiator.rulesStrings.13>commentedabout->에 대한 주장을 펼침</Chitchat.logRulesInitiator.rulesStrings.13>
-  <!-- EN: commentedabout->told a joke about -->
-  <Chitchat.logRulesInitiator.rulesStrings.14>commentedabout->에 대한 농담을 함</Chitchat.logRulesInitiator.rulesStrings.14>
+  <Chitchat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [TalkTopicLight][talkedabout] 나눔.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [TalkTopicLight][talkedabout] [RECIPIENT_nameDef](와)과 나눔.</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [TalkTopicLight][commentedabout].</li>
+    <li>talkedabout(p=4)->에 대한 잡담을</li>
+    <li>talkedabout->에 대해 한마디씩</li>
+    <li>talkedabout->에 대한 이야기를</li>
+    <li>talkedabout->에 대한 잡담을</li>
+    <li>talkedabout->에 대한 대화를</li>
+    <li>talkedabout->에 대한 농담을</li>
+    <li>talkedabout->에 대한 실없는 말을</li>
+    <li>commentedabout->에 대해 말함</li>
+    <li>commentedabout->에 대해 한마디 함</li>
+    <li>commentedabout->에 대한 자신의 의견을 냄</li>
+    <li>commentedabout->에 대한 주장을 펼침</li>
+    <li>commentedabout->에 대한 농담을 함</li>
+  </Chitchat.logRulesInitiator.rulesStrings>
   
-  <!-- EN: deep talk -->
   <DeepTalk.label>진지한 대화</DeepTalk.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject]. -->
-  <DeepTalk.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [subject][talkedabout].</DeepTalk.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef]. -->
-  <DeepTalk.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [subject][talkedabout].</DeepTalk.logRulesInitiator.rulesStrings.1>
-  <!-- EN: talkedabout->communicated thoughts about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.2>talkedabout->에 대해 생각을 나눔</DeepTalk.logRulesInitiator.rulesStrings.2>
-  <!-- EN: talkedabout->exchanged thoughts about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.3>talkedabout->에 대해 의견을 주고 받음</DeepTalk.logRulesInitiator.rulesStrings.3>
-  <!-- EN: talkedabout->exchanged ideas about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.4>talkedabout->에 대해 아이디어를 주고 받음</DeepTalk.logRulesInitiator.rulesStrings.4>
-  <!-- EN: talkedabout->shared views on -->
-  <DeepTalk.logRulesInitiator.rulesStrings.5>talkedabout->에 대해 견해를 공유함</DeepTalk.logRulesInitiator.rulesStrings.5>
-  <!-- EN: talkedabout->shared beliefs on -->
-  <DeepTalk.logRulesInitiator.rulesStrings.6>talkedabout->에 대한 신념을 공유함</DeepTalk.logRulesInitiator.rulesStrings.6>
-  <!-- EN: talkedabout->discussed the topic of -->
-  <DeepTalk.logRulesInitiator.rulesStrings.7>talkedabout->에 대하여 주제를 정해 토론함</DeepTalk.logRulesInitiator.rulesStrings.7>
-  <!-- EN: talkedabout->had a heartfelt conversation about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.8>talkedabout->에 대해 진심어린 대화를 나눔</DeepTalk.logRulesInitiator.rulesStrings.8>
-  <!-- EN: talkedabout->talked quietly about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.9>talkedabout->에 대해 조심스럽게 대화를 나눔</DeepTalk.logRulesInitiator.rulesStrings.9>
-  <!-- EN: talkedabout->talked deeply about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.10>talkedabout->에 대해 심도있는 대화를 나눔 </DeepTalk.logRulesInitiator.rulesStrings.10>
-  <!-- EN: talkedabout->connected on the topic of -->
-  <DeepTalk.logRulesInitiator.rulesStrings.11>talkedabout->에 대해 주제를 관통하는 대화를 나눔</DeepTalk.logRulesInitiator.rulesStrings.11>
-  <!-- EN: subject->[TalkTopicHeavy] -->
-  <DeepTalk.logRulesInitiator.rulesStrings.12>subject->[TalkTopicHeavy]</DeepTalk.logRulesInitiator.rulesStrings.12>
+  <DeepTalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [subject][talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [subject][talkedabout].</li>
+    <li>talkedabout->에 대해 생각을 나눔</li>
+    <li>talkedabout->에 대해 의견을 주고 받음</li>
+    <li>talkedabout->에 대해 아이디어를 주고 받음</li>
+    <li>talkedabout->에 대해 견해를 공유함</li>
+    <li>talkedabout->에 대한 신념을 공유함</li>
+    <li>talkedabout->에 대하여 주제를 정해 토론함</li>
+    <li>talkedabout->에 대해 진심어린 대화를 나눔</li>
+    <li>talkedabout->에 대해 조심스럽게 대화를 나눔</li>
+    <li>talkedabout->에 대해 심도있는 대화를 나눔</li>
+    <li>talkedabout->에 대해 주제를 관통하는 대화를 나눔</li>
+    <li>subject->[TalkTopicHeavy]</li>
+  </DeepTalk.logRulesInitiator.rulesStrings>
   
-  <!-- EN: insult -->
   <Insult.label>모욕</Insult.label>
-  <!-- EN: r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic]. -->
-  <Insult.logRulesInitiator.rulesStrings.0>r_logentry(p=3)->[INITIATOR_nameDef](이)가 [target]의 [PersonalCharacteristic](을)를 [insulted].</Insult.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison]. -->
-  <Insult.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](이)가 [target](을)를 [insultcomparison](와)과 비교함.</Insult.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison]. -->
-  <Insult.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](은)는 [target](을)를 [insultcomparison](이)라 부르며 모욕함.</Insult.logRulesInitiator.rulesStrings.2>
-  <!-- EN: target(p=4)->[RECIPIENT_nameDef] -->
-  <Insult.logRulesInitiator.rulesStrings.3>target(p=4)->[RECIPIENT_nameDef]</Insult.logRulesInitiator.rulesStrings.3>
-  <!-- EN: target->[RECIPIENT_nameDef]'s [PersonFamily] -->
-  <Insult.logRulesInitiator.rulesStrings.4>target->[RECIPIENT_nameDef]의 [PersonFamily]</Insult.logRulesInitiator.rulesStrings.4>
-  <!-- EN: insulted(p=3)->insulted -->
-  <Insult.logRulesInitiator.rulesStrings.5>insulted(p=3)->모욕함</Insult.logRulesInitiator.rulesStrings.5>
-  <!-- EN: insulted->openly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.6>insulted->공개적으로 모욕함</Insult.logRulesInitiator.rulesStrings.6>
-  <!-- EN: insulted->loudly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.7>insulted->큰소리로 모욕함</Insult.logRulesInitiator.rulesStrings.7>
-  <!-- EN: insulted->flagrantly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.8>insulted->심하게 모욕함</Insult.logRulesInitiator.rulesStrings.8>
-  <!-- EN: insulted->directly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.9>insulted->직접 모욕함</Insult.logRulesInitiator.rulesStrings.9>
-  <!-- EN: insulted->viciously insulted -->
-  <Insult.logRulesInitiator.rulesStrings.10>insulted->악랄하게 모욕함</Insult.logRulesInitiator.rulesStrings.10>
-  <!-- EN: insulted->flagrantly disrespected -->
-  <Insult.logRulesInitiator.rulesStrings.11>insulted->심하게 경멸함</Insult.logRulesInitiator.rulesStrings.11>
-  <!-- EN: insulted->slandered -->
-  <Insult.logRulesInitiator.rulesStrings.12>insulted->중상 모략함</Insult.logRulesInitiator.rulesStrings.12>
-  <!-- EN: insulted->hurled invective about -->
-  <Insult.logRulesInitiator.rulesStrings.13>insulted->욕설함</Insult.logRulesInitiator.rulesStrings.13>
-  <!-- EN: insulted->derided -->
-  <Insult.logRulesInitiator.rulesStrings.14>insulted->비웃음</Insult.logRulesInitiator.rulesStrings.14>
-  <!-- EN: insultcomparison(p=2)->[Animal] -->
-  <Insult.logRulesInitiator.rulesStrings.15>insultcomparison(p=2)->[Animal]</Insult.logRulesInitiator.rulesStrings.15>
-  <!-- EN: insultcomparison->[Enemy] -->
-  <Insult.logRulesInitiator.rulesStrings.16>insultcomparison->[Enemy]</Insult.logRulesInitiator.rulesStrings.16>
+  <Insult.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef](이)가 [target]의 [PersonalCharacteristic](을)를 [insulted].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [target](을)를 [insultcomparison](와)과 비교함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [target](을)를 [insultcomparison](이)라 부르며 모욕함.</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]의 [PersonFamily]</li>
+    <li>insulted(p=3)->모욕함</li>
+    <li>insulted->공개적으로 모욕함</li>
+    <li>insulted->큰소리로 모욕함</li>
+    <li>insulted->심하게 모욕함</li>
+    <li>insulted->직접 모욕함</li>
+    <li>insulted->악랄하게 모욕함</li>
+    <li>insulted->심하게 경멸함</li>
+    <li>insulted->중상 모략함</li>
+    <li>insulted->욕설함</li>
+    <li>insulted->비웃음</li>
+    <li>insultcomparison(p=2)->[Animal]</li>
+    <li>insultcomparison->[Enemy]</li>
+  </Insult.logRulesInitiator.rulesStrings>
   
-  <!-- EN: kind words -->
   <KindWords.label>다정한 말</KindWords.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic]. -->
-  <KindWords.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]의 [PersonalCharacteristic][complimented].</KindWords.logRulesInitiator.rulesStrings.0>
-  <!-- EN: complimented(p=3)->complimented -->
-  <KindWords.logRulesInitiator.rulesStrings.1>complimented(p=3)->(을)를 칭찬함</KindWords.logRulesInitiator.rulesStrings.1>
-  <!-- EN: complimented->praised -->
-  <KindWords.logRulesInitiator.rulesStrings.2>complimented->(을)를 치켜세움</KindWords.logRulesInitiator.rulesStrings.2>
-  <!-- EN: complimented->commended -->
-  <KindWords.logRulesInitiator.rulesStrings.3>complimented->(을)를 보고 엄지를 치켜세움</KindWords.logRulesInitiator.rulesStrings.3>
-  <!-- EN: complimented->lauded -->
-  <KindWords.logRulesInitiator.rulesStrings.4>complimented->(을)를 보고 극찬함</KindWords.logRulesInitiator.rulesStrings.4>
-  <!-- EN: complimented->applauded -->
-  <KindWords.logRulesInitiator.rulesStrings.5>complimented->(을)를 보고 박수를 침</KindWords.logRulesInitiator.rulesStrings.5>
-  <!-- EN: complimented->celebrated -->
-  <KindWords.logRulesInitiator.rulesStrings.6>complimented->(을)를 보고 축하해 줌</KindWords.logRulesInitiator.rulesStrings.6>
-  <!-- EN: complimented->saluted -->
-  <KindWords.logRulesInitiator.rulesStrings.7>complimented->(을)를 보고 경례함</KindWords.logRulesInitiator.rulesStrings.7>
-  <!-- EN: complimented->spoke kindly of -->
-  <KindWords.logRulesInitiator.rulesStrings.8>complimented->(을)를 보고 긍정적인 칭찬을 함</KindWords.logRulesInitiator.rulesStrings.8>
-  <!-- EN: complimented->expressed good things about -->
-  <KindWords.logRulesInitiator.rulesStrings.9>complimented->(을)를 보고 좋은 말로 표현해줌</KindWords.logRulesInitiator.rulesStrings.9>
-  <!-- EN: complimented->offered kinds words about -->
-  <KindWords.logRulesInitiator.rulesStrings.10>complimented->(을)를 좋은 단어로 표현해줌</KindWords.logRulesInitiator.rulesStrings.10>
-  <!-- EN: complimented->verbally appreciated -->
-  <KindWords.logRulesInitiator.rulesStrings.11>complimented->(을)를 보고 립서비스 해줌</KindWords.logRulesInitiator.rulesStrings.11>
-  <!-- EN: complimented->expressed appreciation for -->
-  <KindWords.logRulesInitiator.rulesStrings.12>complimented->(을)를 보고 인상깊게 감상을 표함</KindWords.logRulesInitiator.rulesStrings.12>
-  <!-- EN: complimented->said good things about -->
-  <KindWords.logRulesInitiator.rulesStrings.13>complimented->(을)를 보고 좋은 느낌을 받았다고 전함</KindWords.logRulesInitiator.rulesStrings.13>
+  <KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]의 [PersonalCharacteristic][complimented].</li>
+    <li>complimented(p=3)->(을)를 칭찬함</li>
+    <li>complimented->(을)를 치켜세움</li>
+    <li>complimented->(을)를 보고 엄지를 치켜세움</li>
+    <li>complimented->(을)를 보고 극찬함</li>
+    <li>complimented->(을)를 보고 박수를 침</li>
+    <li>complimented->(을)를 보고 축하해 줌</li>
+    <li>complimented->(을)를 보고 경례함</li>
+    <li>complimented->(을)를 보고 긍정적인 칭찬을 함</li>
+    <li>complimented->(을)를 보고 좋은 말로 표현해줌</li>
+    <li>complimented->(을)를 좋은 단어로 표현해줌</li>
+    <li>complimented->(을)를 보고 립서비스 해줌</li>
+    <li>complimented->(을)를 보고 인상깊게 감상을 표함</li>
+    <li>complimented->(을)를 보고 좋은 느낌을 받았다고 전함</li>
+  </KindWords.logRulesInitiator.rulesStrings>
   
-  <!-- EN: slight -->
   <Slight.label>무시</Slight.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic]. -->
-  <Slight.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](이)가 [target]의 [PersonalCharacteristic](을)를 [madefunof].</Slight.logRulesInitiator.rulesStrings.0>
-  <!-- EN: target(p=4)->[RECIPIENT_nameDef] -->
-  <Slight.logRulesInitiator.rulesStrings.1>target(p=4)->[RECIPIENT_nameDef]</Slight.logRulesInitiator.rulesStrings.1>
-  <!-- EN: target->[RECIPIENT_nameDef]'s [PersonFamily] -->
-  <Slight.logRulesInitiator.rulesStrings.2>target->[RECIPIENT_nameDef]의 [PersonFamily]</Slight.logRulesInitiator.rulesStrings.2>
-  <!-- EN: madefunof->made fun of -->
-  <Slight.logRulesInitiator.rulesStrings.3>madefunof->놀림</Slight.logRulesInitiator.rulesStrings.3>
-  <!-- EN: madefunof->disrespected -->
-  <Slight.logRulesInitiator.rulesStrings.4>madefunof->무례하게 굼</Slight.logRulesInitiator.rulesStrings.4>
-  <!-- EN: madefunof->subtly scorned -->
-  <Slight.logRulesInitiator.rulesStrings.5>madefunof->무시함</Slight.logRulesInitiator.rulesStrings.5>
-  <!-- EN: madefunof->subtly shamed -->
-  <Slight.logRulesInitiator.rulesStrings.6>madefunof->수치를 줌</Slight.logRulesInitiator.rulesStrings.6>
-  <!-- EN: madefunof->spoke badly of -->
-  <Slight.logRulesInitiator.rulesStrings.7>madefunof->나쁘게 말함</Slight.logRulesInitiator.rulesStrings.7>
-  <!-- EN: madefunof->spoke negatively of -->
-  <Slight.logRulesInitiator.rulesStrings.8>madefunof->부정적으로 말함</Slight.logRulesInitiator.rulesStrings.8>
-  <!-- EN: madefunof->laughed at -->
-  <Slight.logRulesInitiator.rulesStrings.9>madefunof->비웃음</Slight.logRulesInitiator.rulesStrings.9>
-  <!-- EN: madefunof->sniggered at -->
-  <Slight.logRulesInitiator.rulesStrings.10>madefunof->실소함</Slight.logRulesInitiator.rulesStrings.10>
-  <!-- EN: madefunof->implied negative things about -->
-  <Slight.logRulesInitiator.rulesStrings.11>madefunof->트집잡음</Slight.logRulesInitiator.rulesStrings.11>
-  <!-- EN: madefunof->belittled -->
-  <Slight.logRulesInitiator.rulesStrings.12>madefunof->경시함</Slight.logRulesInitiator.rulesStrings.12>
-  <!-- EN: madefunof->made a contemptuous remark about -->
-  <Slight.logRulesInitiator.rulesStrings.13>madefunof->경멸함</Slight.logRulesInitiator.rulesStrings.13>
-  <!-- EN: madefunof->offered a backhanded compliment about -->
-  <Slight.logRulesInitiator.rulesStrings.14>madefunof->비꼼</Slight.logRulesInitiator.rulesStrings.14>
-  
+  <Slight.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [target]의 [PersonalCharacteristic](을)를 [madefunof].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]의 [PersonFamily]</li>
+    <li>madefunof->놀림</li>
+    <li>madefunof->무례하게 굼</li>
+    <li>madefunof->무시함</li>
+    <li>madefunof->수치를 줌</li>
+    <li>madefunof->나쁘게 말함</li>
+    <li>madefunof->부정적으로 말함</li>
+    <li>madefunof->비웃음</li>
+    <li>madefunof->실소함</li>
+    <li>madefunof->트집잡음</li>
+    <li>madefunof->경시함</li>
+    <li>madefunof->경멸함</li>
+    <li>madefunof->비꼼</li>
+  </Slight.logRulesInitiator.rulesStrings>
 </LanguageData>

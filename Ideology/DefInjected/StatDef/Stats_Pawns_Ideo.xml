@@ -1,84 +1,50 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: biosculpter occupant speed -->
   <BiosculpterOccupantSpeed.label>생체 재구축 속도</BiosculpterOccupantSpeed.label>
-  <!-- EN: A multiplier on how quickly this person will complete a biosculpter pod cycle. -->
   <BiosculpterOccupantSpeed.description>생체 조율 작업을 얼마나 빠르게 진행할 수 있는지 나타냅니다.</BiosculpterOccupantSpeed.description>
   
-  <!-- EN: global certainty loss factor -->
   <CertaintyLossFactor.label>전역 믿음 감소 계수</CertaintyLossFactor.label>
-  <!-- EN: A multiplier on how much certainty this person loses when someone else tries to convert them away from their ideoligion. -->
   <CertaintyLossFactor.description>이 사람이 다른 사상을 가진 이에게 교화를 받을때 감소하는 믿음 값에 곱해지는 수치입니다.</CertaintyLossFactor.description>
   
-  <!-- EN: conversion power -->
   <ConversionPower.label>교화력</ConversionPower.label>
-  <!-- EN: How effective this person is at converting others to their own ideoligion. When this person attempts to convert someone else, this value multiplies the amount of certainty the other person loses. -->
   <ConversionPower.description>다른 이들의 사상을 교화할 때의 효율성입니다. 교화 대상의 믿음 감소 값에 영향을 줍니다.</ConversionPower.description>
   
-  <!-- EN: melee dodge chance indoors dark -->
   <MeleeDodgeChanceIndoorsDarkOffset.label>근접 회피 확률 (실내/어두움)</MeleeDodgeChanceIndoorsDarkOffset.label>
-  <!-- EN: An offset on melee dodge chance if the target is indoors in the dark. -->
   <MeleeDodgeChanceIndoorsDarkOffset.description>어두운 실내에서 근접 회피할 때의 보정치입니다.</MeleeDodgeChanceIndoorsDarkOffset.description>
   
-  <!-- EN: melee dodge chance indoors lit -->
   <MeleeDodgeChanceIndoorsLitOffset.label>근접 회피 확률 (실내/밝음)</MeleeDodgeChanceIndoorsLitOffset.label>
-  <!-- EN: An offset on melee dodge chance if the target is indoors and lit. -->
   <MeleeDodgeChanceIndoorsLitOffset.description>밝은 실내에서 근접 회피할 때의 보정치입니다.</MeleeDodgeChanceIndoorsLitOffset.description>
   
-  <!-- EN: melee dodge chance outdoors night -->
   <MeleeDodgeChanceOutdoorsDarkOffset.label>근접 회피 확률 (실외/어두움)</MeleeDodgeChanceOutdoorsDarkOffset.label>
-  <!-- EN: An offset on melee dodge chance if the target is outdoors at night. -->
   <MeleeDodgeChanceOutdoorsDarkOffset.description>어두운 실외에서 근접 회피할 때의 보정치입니다.</MeleeDodgeChanceOutdoorsDarkOffset.description>
   
-  <!-- EN: melee dodge chance outdoors day -->
   <MeleeDodgeChanceOutdoorsLitOffset.label>근접 회피 확률 (실외/밝음)</MeleeDodgeChanceOutdoorsLitOffset.label>
-  <!-- EN: An offset on melee dodge chance if the target is outdoors during the day. -->
   <MeleeDodgeChanceOutdoorsLitOffset.description>밝은 실외에서 근접 회피할 때의 보정치입니다.</MeleeDodgeChanceOutdoorsLitOffset.description>
   
-  <!-- EN: melee hit chance indoors dark -->
   <MeleeHitChanceIndoorsDarkOffset.label>근접공격 명중률 (실내/어두움)</MeleeHitChanceIndoorsDarkOffset.label>
-  <!-- EN: An offset on melee hit chance if the target is indoors in the dark. -->
   <MeleeHitChanceIndoorsDarkOffset.description>어두운 실내에서 근접 공격할 때의 명중률 보정치입니다.</MeleeHitChanceIndoorsDarkOffset.description>
   
-  <!-- EN: melee hit chance indoors lit -->
   <MeleeHitChanceIndoorsLitOffset.label>근접공격 명중률 (실내/밝음)</MeleeHitChanceIndoorsLitOffset.label>
-  <!-- EN: An offset on melee hit chance if the target is indoors and lit. -->
   <MeleeHitChanceIndoorsLitOffset.description>불로 밝혀진 실내에서 근접 공격할 때의 명중률 보정치입니다.</MeleeHitChanceIndoorsLitOffset.description>
   
-  <!-- EN: melee hit chance outdoors dark -->
   <MeleeHitChanceOutdoorsDarkOffset.label>근접공격 명중률 (실외/어두움)</MeleeHitChanceOutdoorsDarkOffset.label>
-  <!-- EN: An offset on melee hit chance if the target is outdoors at night. -->
   <MeleeHitChanceOutdoorsDarkOffset.description>어두운 실외에서 근접 공격할 때의 명중률 보정치입니다.</MeleeHitChanceOutdoorsDarkOffset.description>
   
-  <!-- EN: melee hit chance outdoors lit -->
   <MeleeHitChanceOutdoorsLitOffset.label>근접공격 명중률 (실외/밝음)</MeleeHitChanceOutdoorsLitOffset.label>
-  <!-- EN: An offset on melee hit chance if the target is outdoors during the day. -->
   <MeleeHitChanceOutdoorsLitOffset.description>밝은 실외에서 근접 공격할 때의 명중률 보정치입니다.</MeleeHitChanceOutdoorsLitOffset.description>
   
-  <!-- EN: shooting accuracy indoors dark -->
   <ShootingAccuracyIndoorsDarkOffset.label>사격 명중률 (실내/어두움)</ShootingAccuracyIndoorsDarkOffset.label>
-  <!-- EN: An offset on shooting accuracy if the target is indoors in the dark. -->
   <ShootingAccuracyIndoorsDarkOffset.description>어두운 실내에서 사격할 때의 명중률 보정치입니다.</ShootingAccuracyIndoorsDarkOffset.description>
   
-  <!-- EN: shooting accuracy indoors lit -->
   <ShootingAccuracyIndoorsLitOffset.label>사격 명중률 (실내/밝음)</ShootingAccuracyIndoorsLitOffset.label>
-  <!-- EN: An offset on shooting accuracy if the target is indoors and lit. -->
   <ShootingAccuracyIndoorsLitOffset.description>밝은 실내에서 사격할 때의 명중률 보정치입니다.</ShootingAccuracyIndoorsLitOffset.description>
   
-  <!-- EN: shooting accuracy outdoors dark -->
   <ShootingAccuracyOutdoorsDarkOffset.label>사격 명중률 (실외/어두움)</ShootingAccuracyOutdoorsDarkOffset.label>
-  <!-- EN: An offset on shooting accuracy if the target is outdoors at night. -->
   <ShootingAccuracyOutdoorsDarkOffset.description>어두운 실외에서 사격할 때의 명중률 보정치입니다.</ShootingAccuracyOutdoorsDarkOffset.description>
   
-  <!-- EN: shooting accuracy outdoors lit -->
   <ShootingAccuracyOutdoorsLitOffset.label>shooting accuracy (실외/밝음)</ShootingAccuracyOutdoorsLitOffset.label>
-  <!-- EN: An offset on shooting accuracy if the target is outdoors during the day. -->
   <ShootingAccuracyOutdoorsLitOffset.description>밝은 실외에서 사격할 때의 명중률 보정치입니다.</ShootingAccuracyOutdoorsLitOffset.description>
   
-  <!-- EN: ideoligion spread chance -->
   <SocialIdeoSpreadFrequencyFactor.label>사상 전파 확률</SocialIdeoSpreadFrequencyFactor.label>
-  <!-- EN: A multiplier on the chance that this person will try to convert other people to their own ideoligion. -->
   <SocialIdeoSpreadFrequencyFactor.description>이 사람이 다른 사람의 사상을 자신의 사상으로 교화 하는 확률에 대한 계수</SocialIdeoSpreadFrequencyFactor.description>
-  
 </LanguageData>

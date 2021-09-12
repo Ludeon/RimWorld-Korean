@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  <Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef](은)는 교화되지 않았습니다.</li>
+  </Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings>
   
-  <!-- EN: sent->[RECIPIENT_nameDef] was not convinced. -->
-  <Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef](은)는 교화되지 않았습니다.</Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings.0>
+  <Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef](은)는 설득되지 않았고, 불쾌하게 여겼습니다.</li>
+  </Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings>
   
-  <!-- EN: sent->[RECIPIENT_nameDef] was not convinced and resented the attempt. -->
-  <Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef](은)는 설득되지 않았고, 불쾌하게 여겼습니다.</Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings.0>
+  <Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef](은)는 분노로 화답했고, 이것은 다툼으로 번졌습니다.</li>
+  </Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings>
   
-  <!-- EN: sent->[RECIPIENT_nameDef] reacted in anger and started a social fight. -->
-  <Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef](은)는 분노로 화답했고, 이것은 다툼으로 번졌습니다.</Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings.0>
-  
-  <!-- EN: sent->[RECIPIENT_nameDef] was convinced and changed [RECIPIENT_possessive] ideoligion. -->
-  <Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef](은)는 설득되어 [RECIPIENT_possessive] 사상을 바꿨습니다.</Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings.0>
-  
+  <Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef](은)는 설득되어 [RECIPIENT_possessive] 사상을 바꿨습니다.</li>
+  </Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings>
 </LanguageData>

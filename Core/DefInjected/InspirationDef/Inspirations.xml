@@ -1,76 +1,42 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: go frenzy -->
   <Frenzy_Go.label>걷기에 대한 열망</Frenzy_Go.label>
-  <!-- EN: Inspired: Go frenzy -->
   <Frenzy_Go.baseInspectLine>열망: 걷기 열망</Frenzy_Go.baseInspectLine>
-  <!-- EN: [PAWN_pronoun] will move faster for the next 8 days. -->
   <Frenzy_Go.beginLetter>[PAWN_pronoun]는 다음 8일간 더 빠르게 이동합니다.</Frenzy_Go.beginLetter>
-  <!-- EN: {0} is no longer inspired (go frenzy). -->
   <Frenzy_Go.endMessage>더는 {0}(이)가 열망을 느끼지 않음 (걷기 열망)</Frenzy_Go.endMessage>
   
-  <!-- EN: shoot frenzy -->
   <Frenzy_Shoot.label>사격에 대한 영감</Frenzy_Shoot.label>
-  <!-- EN: Inspired: Shoot frenzy -->
   <Frenzy_Shoot.baseInspectLine>열망: 사격 영감</Frenzy_Shoot.baseInspectLine>
-  <!-- EN: [PAWN_pronoun] will shoot more accurately for the next 8 days. -->
   <Frenzy_Shoot.beginLetter>[PAWN_pronoun]는 다음 8일간 사격 명중률이 상승합니다.</Frenzy_Shoot.beginLetter>
-  <!-- EN: {0} is no longer inspired (shoot frenzy). -->
   <Frenzy_Shoot.endMessage>더는 {0}(이)가 영감을 느끼지 않음 (사격 영감)</Frenzy_Shoot.endMessage>
   
-  <!-- EN: work frenzy -->
   <Frenzy_Work.label>작업에 대한 열망</Frenzy_Work.label>
-  <!-- EN: Inspired: Work frenzy -->
   <Frenzy_Work.baseInspectLine>열망: 작업 열망</Frenzy_Work.baseInspectLine>
-  <!-- EN: [PAWN_pronoun] will work faster for the next 8 days. -->
   <Frenzy_Work.beginLetter>[PAWN_pronoun]는 다음 8일간 작업속도가 빨라집니다.</Frenzy_Work.beginLetter>
-  <!-- EN: {0} is no longer inspired (work frenzy). -->
   <Frenzy_Work.endMessage>더는 {0}(이)가 열망을 느끼지 않음 (작업 열망)</Frenzy_Work.endMessage>
   
-  <!-- EN: inspired creativity -->
   <Inspired_Creativity.label>예술에 대한 영감</Inspired_Creativity.label>
-  <!-- EN: Inspired: Inspired creativity -->
   <Inspired_Creativity.baseInspectLine>영감: 예술</Inspired_Creativity.baseInspectLine>
-  <!-- EN: The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
   <Inspired_Creativity.beginLetter>[PAWN_pronoun]는 다음번 물품이나 예술 또는 가구를 2단계 높은 수준으로 만듭니다. 심지어 전설적인 아이템도 만들 수 있습니다.\n\n영감은 8일 후 또는 창작활동을 마치면 만료됩니다.</Inspired_Creativity.beginLetter>
-  <!-- EN: {0} is no longer inspired (inspired creativity). -->
   <Inspired_Creativity.endMessage>더는 {0}(이)가 영감을 받지 않음 (예술)</Inspired_Creativity.endMessage>
   
-  <!-- EN: inspired recruitment -->
   <Inspired_Recruitment.label>포섭에 대한 영감</Inspired_Recruitment.label>
-  <!-- EN: Inspired: Inspired recruitment -->
   <Inspired_Recruitment.baseInspectLine>영감: 포섭</Inspired_Recruitment.baseInspectLine>
-  <!-- EN: [PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
   <Inspired_Recruitment.beginLetter>[PAWN_pronoun]는 어려움이나 저항심과 관계없이 성공적으로 포섭할 수 있습니다.\n\n영감은 8일 후 또는 포섭을 마치면 만료됩니다.</Inspired_Recruitment.beginLetter>
-  <!-- EN: {0} is no longer inspired (inspired recruitment). -->
   <Inspired_Recruitment.endMessage>더는 {0}(이)가 영감을 받지 않음 (포섭)</Inspired_Recruitment.endMessage>
   
-  <!-- EN: inspired surgery -->
   <Inspired_Surgery.label>수술에 대한 영감</Inspired_Surgery.label>
-  <!-- EN: Inspired: Inspired surgery -->
   <Inspired_Surgery.baseInspectLine>영감: 수술</Inspired_Surgery.baseInspectLine>
-  <!-- EN: The next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
   <Inspired_Surgery.beginLetter>다음번에 수술할 때 [PAWN_possessive] 성공확률이 두 배가 되지만 여전히 최소한의 실패 가능성은 존재합니다.\n\n영감은 8일 후 또는 수술을 마치면 만료됩니다.</Inspired_Surgery.beginLetter>
-  <!-- EN: {0} is no longer inspired (inspired surgery). -->
   <Inspired_Surgery.endMessage>더는 {0}(이)가 영감을 받지 않음 (수술)</Inspired_Surgery.endMessage>
   
-  <!-- EN: inspired taming -->
   <Inspired_Taming.label>조련에 대한 영감</Inspired_Taming.label>
-  <!-- EN: Inspired: Inspired taming -->
   <Inspired_Taming.baseInspectLine>영감: 조련</Inspired_Taming.baseInspectLine>
-  <!-- EN: [PAWN_pronoun] will successfully tame the next animal regardless of difficulty.\n\nThe inspiration will end after 8 days, or when an animal was tamed. -->
   <Inspired_Taming.beginLetter>다음번에 [PAWN_pronoun]가 조련할 때 반드시 성공합니다.\n\n영감은 8일 후 또는 조련에 성공하면 만료됩니다.</Inspired_Taming.beginLetter>
-  <!-- EN: {0} is no longer inspired (inspired taming). -->
   <Inspired_Taming.endMessage>더는 {0}(이)가 영감을 받지 않음 (조련)</Inspired_Taming.endMessage>
   
-  <!-- EN: inspired trade -->
   <Inspired_Trade.label>거래에 대한 영감</Inspired_Trade.label>
-  <!-- EN: Inspired: Inspired trade -->
   <Inspired_Trade.baseInspectLine>영감: 거래</Inspired_Trade.baseInspectLine>
-  <!-- EN: [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
   <Inspired_Trade.beginLetter>[PAWN_pronoun]는 다음 거래를 체결할 때 상당한 거래 가격으로 받을 수 있습니다.\n\n영감은 8일 후 또는 거래를 마치면 만료됩니다.</Inspired_Trade.beginLetter>
-  <!-- EN: {0} is no longer inspired (inspired trade). -->
   <Inspired_Trade.endMessage>더는 {0}(이)가 영감을 받지 않음 (거래)</Inspired_Trade.endMessage>
-  
 </LanguageData>

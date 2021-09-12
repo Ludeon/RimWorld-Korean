@@ -1,332 +1,194 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Glow -->
-  <!-- EN: Dark -->
   <Dark>어두움</Dark>
-  <!-- EN: Lit -->
   <Lit>약간 어두움</Lit>
-  <!-- EN: Brightly lit -->
   <LitBrightly>밝음</LitBrightly>
 
   <!-- Price types -->
-  <!-- EN: very cheap -->
   <PriceTypeVeryCheap>매우 저렴</PriceTypeVeryCheap>
-  <!-- EN: cheap -->
   <PriceTypeCheap>저렴</PriceTypeCheap>
-  <!-- EN: normal -->
   <PriceTypeNormal>평균</PriceTypeNormal>
-  <!-- EN: expensive -->
   <PriceTypeExpensive>비쌈</PriceTypeExpensive>
-  <!-- EN: exorbitant -->
   <PriceTypeExorbitant>아주 비쌈</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
-  <!-- EN: unstored -->
   <StoragePriorityUnstored>금지</StoragePriorityUnstored>
-  <!-- EN: low -->
   <StoragePriorityLow>낮음</StoragePriorityLow>
-  <!-- EN: normal -->
   <StoragePriorityNormal>중간</StoragePriorityNormal>
-  <!-- EN: preferred -->
   <StoragePriorityPreferred>선호</StoragePriorityPreferred>
-  <!-- EN: important -->
   <StoragePriorityImportant>중요</StoragePriorityImportant>
-  <!-- EN: critical -->
   <StoragePriorityCritical>필수</StoragePriorityCritical>
 
   <!-- Food type flags -->
-  <!-- EN: vegetables -->
   <FoodTypeFlags_VegetableOrFruit>과채</FoodTypeFlags_VegetableOrFruit>
-  <!-- EN: raw meat -->
   <FoodTypeFlags_Meat>날고기</FoodTypeFlags_Meat>
-  <!-- EN: corpses -->
   <FoodTypeFlags_Corpse>시체</FoodTypeFlags_Corpse>
-  <!-- EN: seeds -->
   <FoodTypeFlags_Seed>씨앗</FoodTypeFlags_Seed>
-  <!-- EN: animal products -->
   <FoodTypeFlags_AnimalProduct>축산물</FoodTypeFlags_AnimalProduct>
-  <!-- EN: live plants -->
   <FoodTypeFlags_Plant>야생풀</FoodTypeFlags_Plant>
-  <!-- EN: live trees -->
   <FoodTypeFlags_Tree>야생나무</FoodTypeFlags_Tree>
-  <!-- EN: meals -->
   <FoodTypeFlags_Meal>음식</FoodTypeFlags_Meal>
-  <!-- EN: processed foods -->
   <FoodTypeFlags_Processed>가공 식품</FoodTypeFlags_Processed>
-  <!-- EN: liquor -->
   <FoodTypeFlags_Liquor>술</FoodTypeFlags_Liquor>
-  <!-- EN: kibble -->
   <FoodTypeFlags_Kibble>사료</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
-  <!-- EN: awful -->
   <QualityCategory_Awful>끔찍</QualityCategory_Awful>
-  <!-- EN: poor -->
   <QualityCategory_Poor>빈약</QualityCategory_Poor>
-  <!-- EN: normal -->
   <QualityCategory_Normal>평범</QualityCategory_Normal>
-  <!-- EN: good -->
   <QualityCategory_Good>상급</QualityCategory_Good>
-  <!-- EN: excellent -->
   <QualityCategory_Excellent>완벽</QualityCategory_Excellent>
-  <!-- EN: masterwork -->
   <QualityCategory_Masterwork>걸작</QualityCategory_Masterwork>
-  <!-- EN: legendary -->
   <QualityCategory_Legendary>전설적</QualityCategory_Legendary>
-  <!-- EN: awfl -->
   <QualityCategoryShort_Awful>끔찍</QualityCategoryShort_Awful>
-  <!-- EN: poor -->
   <QualityCategoryShort_Poor>빈약</QualityCategoryShort_Poor>
-  <!-- EN: norm -->
   <QualityCategoryShort_Normal>평범</QualityCategoryShort_Normal>
-  <!-- EN: good -->
   <QualityCategoryShort_Good>상급</QualityCategoryShort_Good>
-  <!-- EN: exc -->
   <QualityCategoryShort_Excellent>완벽</QualityCategoryShort_Excellent>
-  <!-- EN: mast -->
   <QualityCategoryShort_Masterwork>걸작</QualityCategoryShort_Masterwork>
-  <!-- EN: legd -->
   <QualityCategoryShort_Legendary>전설</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
-  <!-- EN: Starving -->
   <HungerLevel_Starving>굶주림</HungerLevel_Starving>
-  <!-- EN: Urgently hungry -->
   <HungerLevel_UrgentlyHungry>매우 배고픔</HungerLevel_UrgentlyHungry>
-  <!-- EN: Hungry -->
   <HungerLevel_Hungry>배고픔</HungerLevel_Hungry>
-  <!-- EN: Fed -->
   <HungerLevel_Fed>배부름</HungerLevel_Fed>
 
   <!-- -Fatigue -->
-  <!-- EN: Exhausted -->
   <HungerLevel_Exhausted>탈진</HungerLevel_Exhausted>
-  <!-- EN: Very tired -->
   <HungerLevel_VeryTired>매우 지침</HungerLevel_VeryTired>
-  <!-- EN: Tired -->
   <HungerLevel_Tired>지침</HungerLevel_Tired>
-  <!-- EN: Rested -->
   <HungerLevel_Rested>활기참</HungerLevel_Rested>
 
   <!-- Hilliness -->
-  <!-- EN: flat -->
   <Hilliness_Flat>평지</Hilliness_Flat>
-  <!-- EN: small hills -->
   <Hilliness_SmallHills>소형 언덕</Hilliness_SmallHills>
-  <!-- EN: large hills -->
   <Hilliness_LargeHills>대형 언덕</Hilliness_LargeHills>
-  <!-- EN: mountainous -->
   <Hilliness_Mountainous>산악지대</Hilliness_Mountainous>
-  <!-- EN: impassable -->
   <Hilliness_Impassable>통과 불가</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
-  <!-- EN: Creating -->
   <WorkshopInteractStage_CreatingItem>생성 중</WorkshopInteractStage_CreatingItem>
-  <!-- EN: Submitting -->
   <WorkshopInteractStage_SubmittingItem>등록 중</WorkshopInteractStage_SubmittingItem>
-  <!-- EN: Invalid -->
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>올바르지 않음</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
-  <!-- EN: Preparing config data -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>설정 정보 준비 중</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
-  <!-- EN: Preparing content files -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>콘텐츠 파일 준비 중</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
-  <!-- EN: Uploading content -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>콘텐츠 업로드 중</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
-  <!-- EN: Uploading preview file -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>미리보기 사진 업로드 중</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
-  <!-- EN: Committing changes -->
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>변경점 등록 중</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
-  <!-- EN: Official content -->
   <ContentSource_OfficialModsFolder>공식 모드 폴더</ContentSource_OfficialModsFolder>
-  <!-- EN: Local folder -->
   <ContentSource_ModsFolder>개인 모드 폴더</ContentSource_ModsFolder>
-  <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>스팀 창작마당</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
-  <!-- EN: No medical care -->
   <MedicalCareCategory_NoCare>방치</MedicalCareCategory_NoCare>
-  <!-- EN: Doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>자연 치료</MedicalCareCategory_NoMeds>
-  <!-- EN: Herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>생약 치료</MedicalCareCategory_HerbalOrWorse>
-  <!-- EN: Industrial-tech medicine or worse -->
   <MedicalCareCategory_NormalOrWorse>통상 치료</MedicalCareCategory_NormalOrWorse>
-  <!-- EN: Best quality medicine -->
   <MedicalCareCategory_Best>모든 수단</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
-  <!-- EN: Ignore -->
   <HostilityResponseMode_Ignore>무시</HostilityResponseMode_Ignore>
-  <!-- EN: Attack -->
   <HostilityResponseMode_Attack>반격</HostilityResponseMode_Attack>
-  <!-- EN: Flee -->
   <HostilityResponseMode_Flee>회피</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
-  <!-- EN: growing -->
   <HediffGrowthMode_Growing>악화</HediffGrowthMode_Growing>
-  <!-- EN: stable -->
   <HediffGrowthMode_Stable>안정</HediffGrowthMode_Stable>
-  <!-- EN: remission -->
   <HediffGrowthMode_Remission>호전</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
-  <!-- EN: animal -->
   <TechLevel_Animal>동물</TechLevel_Animal>
-  <!-- EN: neolithic -->
   <TechLevel_Neolithic>원시</TechLevel_Neolithic>
-  <!-- EN: medieval -->
   <TechLevel_Medieval>중세</TechLevel_Medieval>
-  <!-- EN: industrial -->
   <TechLevel_Industrial>산업</TechLevel_Industrial>
-  <!-- EN: spacer -->
   <TechLevel_Spacer>우주</TechLevel_Spacer>
-  <!-- EN: ultra -->
   <TechLevel_Ultra>미래</TechLevel_Ultra>
-  <!-- EN: archotech -->
   <TechLevel_Archotech>초월</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
-  <!-- EN: Standing -->
   <PlayerPawnsArriveMethod_Standing>걸어서</PlayerPawnsArriveMethod_Standing>
-  <!-- EN: Drop pods -->
   <PlayerPawnsArriveMethod_DropPods>낙하기로</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
-  <!-- EN: all characters -->
   <PawnGenerationContext_All>모든 캐릭터</PawnGenerationContext_All>
-  <!-- EN: player starting characters -->
   <PawnGenerationContext_PlayerStarter>플레이어 시작 캐릭터</PawnGenerationContext_PlayerStarter>
-  <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
   
   <!-- Animal name display mode -->
-  <!-- EN: Show animal names -->
   <ShowAnimalNames>가축 이름 표시</ShowAnimalNames>
-  <!-- EN: Tame (named only) -->
   <AnimalNameDisplayMode_TameNamed>이름붙은 가축</AnimalNameDisplayMode_TameNamed>
-  <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>모든 가축</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
-  <!-- EN: Celsius -->
   <Celsius>섭씨</Celsius>
-  <!-- EN: Fahrenheit -->
   <Fahrenheit>화씨</Fahrenheit>
-  <!-- EN: Kelvin -->
   <Kelvin>켈빈</Kelvin>
   
   <!-- Direction8Way -->
-  <!-- EN: N -->
   <Direction8Way_North_Short>북</Direction8Way_North_Short>
-  <!-- EN: NE -->
   <Direction8Way_NorthEast_Short>북동</Direction8Way_NorthEast_Short>
-  <!-- EN: E -->
   <Direction8Way_East_Short>동</Direction8Way_East_Short>
-  <!-- EN: SE -->
   <Direction8Way_SouthEast_Short>남동</Direction8Way_SouthEast_Short>
-  <!-- EN: S -->
   <Direction8Way_South_Short>남</Direction8Way_South_Short>
-  <!-- EN: SW -->
   <Direction8Way_SouthWest_Short>남서</Direction8Way_SouthWest_Short>
-  <!-- EN: W -->
   <Direction8Way_West_Short>서</Direction8Way_West_Short>
-  <!-- EN: NW -->
   <Direction8Way_NorthWest_Short>북서</Direction8Way_NorthWest_Short>
   
   <!-- Diet category -->
-  <!-- EN: Never eats -->
   <DietCategory_NeverEats>먹지 않음</DietCategory_NeverEats>
-  <!-- EN: Herbivorous -->
   <DietCategory_Herbivorous>초식</DietCategory_Herbivorous>
-  <!-- EN: Dendrovorous -->
   <DietCategory_Dendrovorous>초목</DietCategory_Dendrovorous>
-  <!-- EN: Ovivorous -->
   <DietCategory_Ovivorous>알</DietCategory_Ovivorous>
-  <!-- EN: Omnivorous -->
   <DietCategory_Omnivorous>잡식</DietCategory_Omnivorous>
-  <!-- EN: Carnivorous -->
   <DietCategory_Carnivorous>육식</DietCategory_Carnivorous>
-  <!-- EN: - -->
   <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
-  <!-- EN: H -->
   <DietCategory_Herbivorous_Short>초</DietCategory_Herbivorous_Short>
-  <!-- EN: D -->
   <DietCategory_Dendrovorous_Short>목</DietCategory_Dendrovorous_Short>
-  <!-- EN: Ov -->
   <DietCategory_Ovivorous_Short>알</DietCategory_Ovivorous_Short>
-  <!-- EN: O -->
   <DietCategory_Omnivorous_Short>잡</DietCategory_Omnivorous_Short>
-  <!-- EN: C -->
   <DietCategory_Carnivorous_Short>육</DietCategory_Carnivorous_Short>
 
   <!-- Food poison cause -->
-  <!-- EN: incompetent cook -->
   <FoodPoisonCause_IncompetentCook>무능한 요리사</FoodPoisonCause_IncompetentCook>
-  <!-- EN: dirty cooking area -->
   <FoodPoisonCause_FilthyKitchen>더러운 조리실</FoodPoisonCause_FilthyKitchen>
-  <!-- EN: rotten food -->
   <FoodPoisonCause_Rotten>상한 음식</FoodPoisonCause_Rotten>
-  <!-- EN: dangerous food type -->
   <FoodPoisonCause_DangerousFoodType>위험한 음식 유형</FoodPoisonCause_DangerousFoodType>
 
   <!-- Psychic drone level -->
-  <!-- EN: none -->
   <PsychicDroneLevel_None>없음</PsychicDroneLevel_None>
-  <!-- EN: medium -->
   <PsychicDroneLevel_GoodMedium>보통</PsychicDroneLevel_GoodMedium>
-  <!-- EN: low -->
   <PsychicDroneLevel_BadLow>낮음</PsychicDroneLevel_BadLow>
-  <!-- EN: medium -->
   <PsychicDroneLevel_BadMedium>보통</PsychicDroneLevel_BadMedium>
-  <!-- EN: high -->
   <PsychicDroneLevel_BadHigh>심각</PsychicDroneLevel_BadHigh>
-  <!-- EN: extreme -->
   <PsychicDroneLevel_BadExtreme>극심</PsychicDroneLevel_BadExtreme>
   
   <!-- Automatic pause mode -->
-  <!-- EN: Never -->
   <AutomaticPauseMode_Never>해제</AutomaticPauseMode_Never>
-  <!-- EN: Major threats -->
   <AutomaticPauseMode_MajorThreat>매우 위협적인 사건</AutomaticPauseMode_MajorThreat>
-  <!-- EN: Any threat -->
   <AutomaticPauseMode_AnyThreat>위협적인 사건</AutomaticPauseMode_AnyThreat>
-  <!-- EN: Any letter -->
   <AutomaticPauseMode_AnyLetter>모든 사건</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
-  <!-- EN: itchy -->
   <PainCategory_LowPain>가려움</PainCategory_LowPain>
-  <!-- EN: aching -->
   <PainCategory_MediumPain>쓰라림</PainCategory_MediumPain>
-  <!-- EN: painful -->
   <PainCategory_HighPain>격통</PainCategory_HighPain>
   
   <!-- ExtraFactionType -->
-  <!-- EN: home faction -->
   <ExtraFactionType_HomeFaction>출신 세력</ExtraFactionType_HomeFaction>
-  <!-- EN: remote host faction -->
   <ExtraFactionType_HostFaction>현재 세력</ExtraFactionType_HostFaction>
-  <!-- EN: group -->
   <ExtraFactionType_MiniFaction>집단</ExtraFactionType_MiniFaction>
 
   <!-- DrugCategory -->
-  <!-- EN: drug category -->
   <DrugCategory>약물 범주</DrugCategory>
-  <!-- EN: none -->
   <DrugCategory_None>없음</DrugCategory_None>
-  <!-- EN: medical -->
   <DrugCategory_Medical>의료용</DrugCategory_Medical>
-  <!-- EN: social -->
   <DrugCategory_Social>사교용</DrugCategory_Social>
-  <!-- EN: hard -->
   <DrugCategory_Hard>강력</DrugCategory_Hard>
-  <!-- EN: any -->
   <DrugCategory_Any>아무거나</DrugCategory_Any>
   
 </LanguageData>

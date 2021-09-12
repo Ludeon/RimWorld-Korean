@@ -1,21 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  <BroadshieldProjector.label>저각 보호막 생성기</BroadshieldProjector.label>
+  <BroadshieldProjector.description>휴대용 저각 보호막 생성기입니다. 발사체가 밖으로 나갈 수 있지만 들어오지는 못하게 합니다. 일정 시간 후 소진됩니다.</BroadshieldProjector.description>
+  <BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>소진까지</BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>
   
-  <!-- EN: burnout low-shield -->
-  <BroadshieldProjector.label>저각 보호막 투사기</BroadshieldProjector.label>
-  <!-- EN: A man-portable low-angle shield projector. Bullets can go out, but not in. Its compact power source burns out after a few seconds of use. -->
-  <BroadshieldProjector.description>휴대가 가능한 저각도 보호막 투사기입니다. 총알이 밖으로 나갈 수는 있지만, 들어오는 총알은 막아줍니다. 몇 초간 사용 후 소진되면 꺼져버립니다.</BroadshieldProjector.description>
-  <!-- EN: Burnout in -->
-  <BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>소진 시까지</BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>
-  
-  <!-- EN: shuttle -->
   <Shuttle.label>왕복선</Shuttle.label>
-  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
   <Shuttle.description>지상과 우주 궤도 혹은 행성계의 위성 사이를 운용하도록 설계된 범우주급 왕복선입니다.</Shuttle.description>
   
-  <!-- EN: crashed shuttle -->
   <ShuttleCrashed.label>추락한 왕복선</ShuttleCrashed.label>
-  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
   <ShuttleCrashed.description>지상과 우주 궤도 혹은 행성계의 위성 사이를 운용하도록 설계된 범우주급 왕복선입니다.</ShuttleCrashed.description>
-  
 </LanguageData>
