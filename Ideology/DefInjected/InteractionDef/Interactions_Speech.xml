@@ -3,20 +3,20 @@
   <Speech_AcceptRole.label>취임사</Speech_AcceptRole.label>
   <Speech_AcceptRole.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
-    <li>speechtopic->[INITIATOR_possessive]의 새로운 지위</li>
-    <li>speechtopic->[INITIATOR_possessive]의 새로운 지위가 지닌 책임</li>
-    <li>speechtopic->[INITIATOR_possessive]의 새로운 지위의 중요성</li>
-    <li>speechtopic->[INITIATOR_possessive]의  뛰어난 자질</li>
-    <li>speechtopic->[INITIATOR_possessive]의 강점과 활용도</li>
-    <li>speechtopic->[INITIATOR_possessive]의 단점</li>
-    <li>speechtopic->[INITIATOR_possessive]의 약점과 극복 방법</li>
-    <li>speechtopic->[INITIATOR_possessive](이)가 공동체에 바치고자 하는 열망</li>
-    <li>speechtopic->[INITIATOR_possessive]의 믿음에 대한 헌신</li>
-    <li>speechtopic->[INITIATOR_possessive]의 미래에 대한 확신</li>
-    <li>speechtopic->[INITIATOR_possessive]의 대의에 대한 열망</li>
-    <li>speechtopic->[INITIATOR_possessive]의 [PersonalCharacteristic](이)가 얼마나 지위에 적합한지</li>
-    <li>speechtopic->[INITIATOR_possessive]의 [PersonalCharacteristic](이)가 [INITIATOR_objective](을)를  해결하는 방법</li>
-    <li>speechtopic->[INITIATOR_possessive]의 [PersonalCharacteristic]을 활용하여 어려움을 극복하는 방법</li>
+    <li>speechtopic->[INITIATOR_possessive] 새로운 지위</li>
+    <li>speechtopic->[INITIATOR_possessive] 새로운 지위가 지닌 책임</li>
+    <li>speechtopic->[INITIATOR_possessive] 새로운 지위의 중요성</li>
+    <li>speechtopic->[INITIATOR_possessive] 뛰어난 자질</li>
+    <li>speechtopic->[INITIATOR_possessive] 강점과 활용도</li>
+    <li>speechtopic->[INITIATOR_possessive] 단점</li>
+    <li>speechtopic->[INITIATOR_possessive] 약점과 극복 방법</li>
+    <li>speechtopic->[INITIATOR_pronoun]가 공동체에 바치고자 하는 열망</li>
+    <li>speechtopic->[INITIATOR_possessive] 믿음에 대한 헌신</li>
+    <li>speechtopic->[INITIATOR_possessive] 미래에 대한 확신</li>
+    <li>speechtopic->[INITIATOR_possessive] 대의에 대한 열망</li>
+    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic](이)가 얼마나 지위에 적합한지</li>
+    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic](이)가 [INITIATOR_objective] 해결하는 방법</li>
+    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic](을)를 활용하여 어려움을 극복하는 방법</li>
     <li>speechtopic->고마움</li>
     <li>speechtopic->감사의 표현</li>
     <li>speechtopic->인생의 목적</li>
@@ -130,7 +130,7 @@
     <li>speechtopic->못다한 일을 끝마치는 것</li>
   </Speech_Funeral.logRulesInitiator.rulesStrings>
   
-  <Speech_Leader.label>지도자 연설</Speech_Leader.label>
+  <Speech_Leader.label>지도 연설</Speech_Leader.label>
   <Speech_Leader.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
     <li>speechtopic->[Vegetable](을)를 찾는 법</li>
@@ -171,17 +171,17 @@
   <Speech_RemoveRole.label>은퇴사</Speech_RemoveRole.label>
   <Speech_RemoveRole.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
-    <li>speechtopic->[INITIATOR_possessive](이)가 과거 맡았던 역할</li>
-    <li>speechtopic->[INITIATOR_possessive]의 옛 지위가 지닌 책임</li>
-    <li>speechtopic->[INITIATOR_possessive]의 옛 지위가 지닌 어려움</li>
-    <li>speechtopic->[INITIATOR_possessive]의 단점</li>
-    <li>speechtopic->[INITIATOR_possessive]의 약점과 극복 방법</li>
-    <li>speechtopic->[INITIATOR_possessive]의 공동체에 대한 불만</li>
-    <li>speechtopic->[INITIATOR_possessive]의 믿음에 대한 헌신</li>
-    <li>speechtopic->[INITIATOR_possessive]의 미래에 대한 확신</li>
-    <li>speechtopic->[INITIATOR_possessive]의 목표에 대한 갈망</li>
-    <li>speechtopic->[INITIATOR_possessive]의 부족한 [PersonalCharacteristic]</li>
-    <li>speechtopic->[INITIATOR_possessive]의 과거</li>
+    <li>speechtopic->[INITIATOR_pronoun]가 과거 맡았던 역할</li>
+    <li>speechtopic->[INITIATOR_possessive] 옛 지위가 지닌 책임</li>
+    <li>speechtopic->[INITIATOR_possessive] 옛 지위가 지닌 어려움</li>
+    <li>speechtopic->[INITIATOR_possessive] 단점</li>
+    <li>speechtopic->[INITIATOR_possessive] 약점과 극복 방법</li>
+    <li>speechtopic->[INITIATOR_possessive] 공동체에 대한 불만</li>
+    <li>speechtopic->[INITIATOR_possessive] 믿음에 대한 헌신</li>
+    <li>speechtopic->[INITIATOR_possessive] 미래에 대한 확신</li>
+    <li>speechtopic->[INITIATOR_possessive] 목표에 대한 갈망</li>
+    <li>speechtopic->[INITIATOR_possessive] 부족한 [PersonalCharacteristic]</li>
+    <li>speechtopic->[INITIATOR_possessive] 과거</li>
     <li>speechtopic->겸손한 언사</li>
     <li>speechtopic->인생의 목적</li>
     <li>speechtopic->정착지의 미래</li>
@@ -210,7 +210,7 @@
     <li>crazy->(이)가 미친 사람처럼 비명 지름</li>
     <li>crazy->(이)가 갑자기 성가를 부름</li>
     <li>crazy->(이)가 하늘에 닿을 정도로 찌렁찌렁 성가를 부름</li>
-    <li>crazy->(이)가 희생자의 눈에 침을 뱉음.</li>
+    <li>crazy->(이)가 희생자의 눈에 침을 뱉음</li>
     <li>crazy->(이)가 낄낄거림</li>
     <li>crazy->(이)가 칼을 휘두름</li>
     <li>crazy->(이)가 쉴 새 없이 중얼거림</li>

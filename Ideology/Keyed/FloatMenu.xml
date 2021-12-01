@@ -68,15 +68,24 @@
 
   <RemoveCurrentRole>현재 지위 해임</RemoveCurrentRole>
 
-  <EnterBiosculpterPod>생체 재구축기에 들어가기</EnterBiosculpterPod>
+  <EnterBiosculpterPod>Enter biosculpter pod for {0} cycle</EnterBiosculpterPod><!--text_todo-->
   <BiosculpterBiotunedToAnother>이미 다른 사람에게 맞춤 조정됨.</BiosculpterBiotunedToAnother>
   <UnderMinBiosculpterAgeReversalAge>노화 역전을 받으려면 {0}살 이상이어야 합니다.</UnderMinBiosculpterAgeReversalAge>
-  <CarryToBiosculpterPod>{PAWN_label}(을)를 생체 재구축기로 이송 ({CYCLE})</CarryToBiosculpterPod>
+  <CarryToBiosculpterPod>Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle)</CarryToBiosculpterPod><!--text_todo-->
   <CannotCarryToBiosculpterPod>생체 재구축기로 이송 불가</CannotCarryToBiosculpterPod>
   <NoBiosculpterPod>사용 가능한 생체 재구축기가 없습니다.</NoBiosculpterPod>
-  <BiosculpterNoCycleActive>활성 절차 없음</BiosculpterNoCycleActive>
-  <BiosculpterLoadingNutrition>적재되는 열량</BiosculpterLoadingNutrition>
+  <BiosculpterNutritionNotLoaded>Nutrition not loaded</BiosculpterNutritionNotLoaded><!--text_todo-->
   <BiosculpterOccupied>가득 참</BiosculpterOccupied>
   <CannotEnter>진입 불가</CannotEnter>
-
+  <BiosculpterCannotStartCycle>Cannot start {0} cycle</BiosculpterCannotStartCycle><!--text_todo-->
+  <BiosculpterMissingIngredients>Cannot find cycle ingredients ({INGREDIENTS})</BiosculpterMissingIngredients><!--text_todo-->
+  <BiosculpterNoEligiblePawns>Nobody around can use this</BiosculpterNoEligiblePawns><!--text_todo-->
+  <BiosculpterNoEligiblePawnsBiotuned>Biotuned to {PAWN_labelShort} and they're not around</BiosculpterNoEligiblePawnsBiotuned><!--text_todo-->
+  <BiosculpterAutoLoadNutritionLabel>Auto load nutrition</BiosculpterAutoLoadNutritionLabel><!--text_todo-->
+  <BiosculpterAutoLoadNutritionDescription>Automatically load the nutrtion required to run a cycle</BiosculpterAutoLoadNutritionDescription><!--text_todo-->
+  <BiosculpterAutoAgeReversalLabel>Auto age reversal for {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel><!--text_todo-->
+  <BiosculpterAutoAgeReversalDescription>Automatically satisfy the yearly transhumanist need of {PAWN_labelShort} to run an age reversal treatment in this pod. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription><!--text_todo-->
+  <BiosculpterAutoAgeReversalDescriptionFuture>If enabled, {PAWN_labelShort} will automatically take their next treament in {TIME} if the pod is ready.</BiosculpterAutoAgeReversalDescriptionFuture><!--text_todo-->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} already wants their next treatment and will automatically begin one if this is enabled.</BiosculpterAutoAgeReversalDescriptionNow><!--text_todo-->
+  <BiosculpterJobReportCollectIngredients>Collecting ingredients for biosculpter cycle</BiosculpterJobReportCollectIngredients><!--text_todo-->
 </LanguageData>

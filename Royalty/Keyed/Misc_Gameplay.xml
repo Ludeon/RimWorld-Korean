@@ -3,7 +3,7 @@
 
   <!-- Royalty and throne -->
   <ThroneMaxSatisfiedTitle>작위 충족</ThroneMaxSatisfiedTitle>
-  <ThroneRoomImpressivenessInfo>({0})</ThroneRoomImpressivenessInfo>
+  <ThroneRoomImpressivenessInfo>({0} 인상)</ThroneRoomImpressivenessInfo>
   <ThroneMustBePlacedInside>왕좌는 실내에 위치해야 합니다.</ThroneMustBePlacedInside>
   <MinimumRoyalTitleInspectString>최소 작위 ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <RequiresTradePermission>거래에 필요한 작위: {0}</RequiresTradePermission>
@@ -14,7 +14,7 @@
   <PsycastNeurotrainerUseLabel>혈청을 사용하여 {0} 초능력 습득</PsycastNeurotrainerUseLabel>
   <PsycastNeurotrainerDescription>특정한 초능력 기술을 강제로 훈련시키는 일회성의 메카나이트 혈청.\n\n안와를 통해 뇌로 직접 투여됩니다. 메카나이트는 뇌의 특정 영역으로 파고들어 신경 조직의 형태를 변형시킴으로써 피시술자가 초능력 기술을 사용할 수 있게 합니다.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <AbilityNeurotrainerUsed>{USER_labelShort}(은)는 초월교육혈청을 사용하여 {1} 초능력을 습득했습니다.</AbilityNeurotrainerUsed>
-  <PsycastNeurotrainerNoPsylink>정신력 증폭기 필요</PsycastNeurotrainerNoPsylink>
+  <PsycastNeurotrainerNoPsylink>정신력 증폭 필요</PsycastNeurotrainerNoPsylink>
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort}(은)는 이미 {1}(을)를 알고 있습니다.</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <Reward_RoyalFavor>임무를 수락한 정착민은 {0_name}에게 {0_royalFavorLabel} {1}장을 수여받습니다</Reward_RoyalFavor>
@@ -35,29 +35,21 @@
   <PsyfocusLevelInfoFallRate>초집중은 매일 {0}만큼 소멸됩니다.</PsyfocusLevelInfoFallRate>
   <UserMeditationFocusStrength>{LASTUSER_labelShort}의 집중명상</UserMeditationFocusStrength>
   <MeditationFocusImpacted>집중효과 영향</MeditationFocusImpacted>
-  <MeditationFocusPerAnimusStoneAbstract>근처 영혼석당 {1} (최대 {0})</MeditationFocusPerAnimusStoneAbstract>
-  <MeditationFocusPerAnimusStone>근처 영혼석당 {2} ({0} / {1})</MeditationFocusPerAnimusStone>
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>근처 영혼석 {2}, 자연사당 {1} (최대 {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
-  <MeditationFocusPerAnimusStoneAndShrine>근처 영혼석 {3}, 자연사당 {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
-  <MeditationFocusPerSculptureAbstract>품질에 따른 근처 조각상당 최대 {1} (최대 {0})</MeditationFocusPerSculptureAbstract>
-  <MeditationFocusPerSculpture>품질에 따른 근처 조각상당 최대 {2} ({0} / {1})</MeditationFocusPerSculpture>
+  <MeditationFocusPerAnimusStoneAbstract>근처의 영혼석 당 {1} (최대 {0})</MeditationFocusPerAnimusStoneAbstract>
+  <MeditationFocusPerAnimusStone>근처의 영혼석 당 {2} ({0} / {1})</MeditationFocusPerAnimusStone>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>근처의 영혼석 {2}, 자연사당 {1} (최대 {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrine>근처의 영혼석 {3}, 자연사당 {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerSculptureAbstract>근처 조각상의 품질에 따라 최대 {1} (최대 {0})</MeditationFocusPerSculptureAbstract>
+  <MeditationFocusPerSculpture>근처 조각상의 품질에 따라 최대 {2} ({0} / {1})</MeditationFocusPerSculpture>
   <MeditationFocusPerGraveAbstract>근처 무덤당 비어있는 경우 {1}, 인간 시체의 경우 {2} (최대 {0})</MeditationFocusPerGraveAbstract>
   <MeditationFocusPerGrave>근처 무덤당 비어있는 경우 {2}, 인간 시체의 경우 {3} ({0} / {1})</MeditationFocusPerGrave>
   <MeditationFocusPerFlameAbstract>근처에 있는 불꽃당 {1} (최대 {0})</MeditationFocusPerFlameAbstract>
   <MeditationFocusPerFlame>근처에 있는 불꽃당 {2} ({0} / {1})</MeditationFocusPerFlame>
   <PsyfocusPerDayOfMeditation>초집중 획득률: {0}/일</PsyfocusPerDayOfMeditation>
-  <DesiredPsyfocus>지망하는 초집중</DesiredPsyfocus>
-  <DesiredPsyfocusDesc>클릭하여 원하는 초집중을 설정하세요.</DesiredPsyfocusDesc>
+  <DesiredPsyfocus>초집중 목표치</DesiredPsyfocus>
+  <DesiredPsyfocusDesc>클릭하여 초집중 목표치를 설정하세요.</DesiredPsyfocusDesc>
 
-  <!-- Abilities -->
-  <AbilityDisabledUndrafted>소집 중이어야 합니다.</AbilityDisabledUndrafted>
-  <AbilityOnCooldown>재사용 대기 중입니다.\n({0} 후 사용 가능)</AbilityOnCooldown>
-  <AbilityAlreadyQueued>이미 대기열에 있습니다.</AbilityAlreadyQueued>
-  <AbilityNoEntropyToDump>버려질 열기가 없습니다.</AbilityNoEntropyToDump>
-  <AbilityReadyLabel>{0} 능력이 준비되었습니다.</AbilityReadyLabel>
-  <AbilityReadyText>{0_nameDef}(이)가 {1}(을)를 사용할 준비가 되었습니다.</AbilityReadyText>
-  
-  <AbilitySpeechDisabledNoThroneAssigned>할당된 왕좌가 없습니다.</AbilitySpeechDisabledNoThroneAssigned>
+  <AbilitySpeechDisabledNoThroneAssigned>지정된 왕좌가 없습니다.</AbilitySpeechDisabledNoThroneAssigned>
   <AbilitySpeechDisabledNoThroneIsNotAccessible>왕좌에 접근할 수 없습니다.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <AbilitySpeechDisabledNoThroneUndignified>왕좌의 수준이 낮아서 사용할 수 없습니다.</AbilitySpeechDisabledNoThroneUndignified>
   <AbilitySpeechDisabledAlreadyGivingSpeech>이미 연설이 진행 중입니다.</AbilitySpeechDisabledAlreadyGivingSpeech>
@@ -75,11 +67,11 @@
   <ProgressToNextSubplant>진행률 {0}</ProgressToNextSubplant>
   <BeginLinkingRitualFloatMenu>연결 의식 시작</BeginLinkingRitualFloatMenu>
   <BeginLinkingRitualNeedSubplants>{0} {1} 필요 (보유 {2})</BeginLinkingRitualNeedSubplants>
-  <BeginLinkingRitualNeedFocus>{0} 정신력 증폭기 집중 필요</BeginLinkingRitualNeedFocus>
-  <BeginLinkingRitualMaxPsylinkLevel>정신력 증폭기 최대 단계</BeginLinkingRitualMaxPsylinkLevel>
+  <BeginLinkingRitualNeedFocus>{0} 집중 유형 필요</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualMaxPsylinkLevel>정신력 증폭 최대 단계</BeginLinkingRitualMaxPsylinkLevel>
   <BeginLinkingRitualNeedLinkSpot>연결을 위해 3칸 이내에 도달할 수 있는 빈 지점 필요</BeginLinkingRitualNeedLinkSpot>
   <LetterLabelLinkingRitualCompleted>연결 의식 완료</LetterLabelLinkingRitualCompleted>
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}(이)가 {LINKABLE_labelShort}(와)과의 연결 의식을 완료했습니다.\n\n{PAWN_pronoun}의 정신력 증폭기가 상향되어, 새로운 초능력을 사용할 수 있습니다.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}(이)가 {LINKABLE_labelShort}(와)과의 연결 의식을 완료했습니다.\n\n{PAWN_pronoun}의 정신력 증폭 단계가 올라 새로운 초집중 능력을 사용할 수 있습니다.</LetterTextLinkingRitualCompleted>
   <LetterTextLinkingRitualCompletedAnimaGrass>게다가, {0} 영혼잔디가 회복되었습니다.</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <LandHere>여기에 왕복선 착륙</LandHere>
@@ -94,10 +86,13 @@
   <RitualTargetAnimaTreeNoPawnsToLink>지금 영혼나무와 연결할 수 있는 정착민이 없습니다.</RitualTargetAnimaTreeNoPawnsToLink>
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>자연 유형의 명상이 가능한 정착민이 없습니다.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>적어도 {0}포기의 영혼잔디가 필요합니다.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
-  <RitualTargetAnimaTreeInfo>영혼나무.</RitualTargetAnimaTreeInfo>
-  <RitualTargetAnimaTreeMustBeCapableOfNature>자연 유형의 명상이 가능하고 정신력 증폭기 단계가 최대치에 도달하지 않은 정착민이어야 합니다.</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <RitualTargetAnimaTreeInfo>영혼나무입니다.</RitualTargetAnimaTreeInfo>
+  <RitualTargetAnimaTreeMustBeCapableOfNature>자연 집중 유형을 통한 명상이 가능하고 정신력 증폭 단계가 최대치에 도달하지 않은 정착민이어야 합니다.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <RitualTargetAnimaTreeMustBePsychicallySensitive>정신적 무감각하지 않아야 합니다.</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <AnimaLinkingExplanationBase>영혼 연결 의식은 참여자가 많으면 강력해집니다. 더 많은 사람이 참여할수록 의식에 필요한 시간이 짧아지며 더 많은 영혼잔디가 자라납니다.\n\n{0}명의 참여자를 추가하면 의식의 끝에 {1} 영혼잔디가 회복됩니다.</AnimaLinkingExplanationBase>
-  <ShuttleRequiredItemsNotSatisfied>필요한 모든 화물이 적재되지 않았습니다!</ShuttleRequiredItemsNotSatisfied>
+  <ShuttleRequiredItemsNotSatisfied>필요한 화물이 모두 적재되지 않았습니다!</ShuttleRequiredItemsNotSatisfied>
+
+  <AbilityNoEntropyToDump>버릴 신경열이 없습니다.</AbilityNoEntropyToDump>
+
 </LanguageData>

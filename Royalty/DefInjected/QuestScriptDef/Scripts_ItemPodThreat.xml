@@ -15,9 +15,9 @@
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->궤도를 도는 연구선이 새로운 종류의 곤충 유도 페로몬을 실험하고 싶어합니다. 동의할 경우 [map_definite]에 페로몬이 투하되어 (*Threat)곤충 군락 [hivesCount]개(/Threat)가 생성될 것입니다.[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->궤도 연구선이 방출한 페로몬에 이끌려 곤충 군락이 등장했습니다.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](이)가 [map_definite] 근처 지역에서 반복적인 출몰에 어려워 하고 있습니다. [asker_pronoun]는 곤충을 당신쪽으로 유도하려고 합니다. 수락을 하게 되면, (*Threat)[hivesCount]개의 곤충군락(/Threat)이 솟아납니다.[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameFull](이)가 [map_definite]에 대한 곤충들의 지속적인 공격 때문에 어려움에 처해 있습니다. [asker_pronoun]는 곤충을 당신 쪽으로 유도하려고 합니다. 수락하게 되면 (*Threat)[hivesCount]개의 곤충군락(/Threat)이 솟아납니다.[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->곤충군락은 원래 [asker_faction_name]의 [asker_nameFull]의 근처 지역에서 발생했었습니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 반복적인 곤충침략으로 [map_definite] 근처에 상륙하는 데 어려움을 겪고 있습니다. [asker_pronoun]는 이를 처리하기 위해 당신쪽으로 유도하려고 합니다. 수락하게 되면 (*Threat)[hivesCount]개의 곤충군락(/Threat)이 솟아납니다.[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 곤충들의 지속적인 공격 때문에 [map_definite] 근처에 상륙하는 데에 어려움을 겪고 있습니다. [asker_pronoun]는 이를 처리하기 위해 당신 쪽으로 유도하려고 합니다. 수락하게 되면 (*Threat)[hivesCount]개의 곤충군락(/Threat)이 솟아납니다.[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction], [asker_nameFull](은)는 당신쪽으로 곤충군락을 유도했습니다.</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>

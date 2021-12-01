@@ -107,6 +107,8 @@
   <RitualScarificationWarnWimp>{PAWN_labelShort}(은)는 약골이기에 상흔 의식을 좋아하지 않을 것입니다.</RitualScarificationWarnWimp>
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}(은)는 자신의 사상에 위배되는 실명 의식을 좋아하지 않을 것입니다.</RitualBlindingWarnNonBlindingIdeo>
   <RitualBlindingWarnWimp>{PAWN_labelShort}(은)는 약골이기에 실명 의식을 좋아하지 않을 것입니다.</RitualBlindingWarnWimp>
+  <RitualScarificationTriggerExtraDesc>Scarification is expected for {IDEOMEMBER} colonists as long as number of scarified {IDEOMEMBERPLURAL} is below {0}.</RitualScarificationTriggerExtraDesc> <!-- text_todo -->
+  <RitualBlindingTriggerExtraDesc>Blinding is expected for each current and joining {IDEOMEMBER} colonist.</RitualBlindingTriggerExtraDesc> <!-- text_todo -->
   
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>행사에 참여한 모든 사람의 작업 속도가 하루 동안 증가합니다! (전역 작업 속도 {PERCENTAGE})</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <RitualOutcomeExtraDesc_BlindingPsylink>만족스러운 실명 의식 덕분에 {PAWN_labelShort}의 정신 증폭 단계가 상승했습니다!</RitualOutcomeExtraDesc_BlindingPsylink>
@@ -322,21 +324,26 @@
   <!-- Bioscuplter pod -->
   <BiosculpterPodCycleLabel>절차</BiosculpterPodCycleLabel>
   <BiosculpterPodCycleLabelLoading>열량 적재 중</BiosculpterPodCycleLabelLoading>
-  <BiosculpterPodCycleLabelReady>준비됨</BiosculpterPodCycleLabelReady>
-  <BiosculpterPodCycleCommand>{0} 준비</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleWillBiotune>(and biotuning)</BiosculpterPodCycleWillBiotune><!--text_todo-->
+  <BiosculpterPodCycleCommand>Begin {0} cycle</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleSelection>Ready for cycle selection</BiosculpterPodCycleSelection><!--text_todo-->
+  <BiosculpterPodCycleSelectionNoPower>Nutrition loaded, no power</BiosculpterPodCycleSelectionNoPower><!--text_todo-->
   <BiosculpterCycleTimeRemaining>종료</BiosculpterCycleTimeRemaining>
+  <BiosculpterCycleNoPowerInterrupt>Paused: No power (interrupt in {TIME})</BiosculpterCycleNoPowerInterrupt><!--text_todo-->
   <BiosculpterBiotunedTo>사용자 고정됨</BiosculpterBiotunedTo>
   <BiosculpterInteruptCycle>절차 중단</BiosculpterInteruptCycle>
   <BiosculpterInteruptCycleDesc>절차를 중단합니다. 탑승자는 생체 재구축 효과를 받지 못하고 바깥에 나오게 되며, 짧은 시간 후유증을 겪습니다.</BiosculpterInteruptCycleDesc>
-  <BiosculpterUnderageAgeReversalMessage>경고: {PAWN_labelShort}(은)는 {ADULTAGE}살 미만이기 때문에 노화 역전 절차를 진행하지 못합니다.</BiosculpterUnderageAgeReversalMessage>
-  <BiosculpterLoadingStartedMessage>생체 재구축기에 {INGREDIENTS}(을)를 채운 뒤, 정착민을 직접 들여보내거나 들어가야 할 환자를 우클릭하여 절차를 시작하세요.</BiosculpterLoadingStartedMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle.</BiosculpterEnteringMessage><!--text_todo-->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle.</BiosculpterLoadingStartedMessage><!--text_todo-->
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle.</BiosculpterCarryStartedMessage><!--text_todo-->
   <NumNutrition>{0} 열량</NumNutrition>
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}(이)가 전력 부족으로 인해 생체 조율을 완전히 마치지 못하고 나왔습니다.</BiosculpterNoPowerEjectedMessage>
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}(이)가 신체 치유 절차를 마쳤습니다.</BiosculpterHealCompletedMessage>
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}의 신체 치유 절차를 완료하여, {HEDIFF_label}(이)가 회복되었습니다.</BiosculpterHealCompletedWithCureMessage>
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}(이)가 깨어났습니다. {PAWN_pronoun}는 {DEADLINE}일 내에 다음 노화 역전 절차를 받기를 원합니다.</BiosculpterAgeReversalCompletedMessage>
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}(이)가 욕구 충족 절차를 끝냈습니다.</BiosculpterPleasureCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}'s pleasure cycle is complete.</BiosculpterPleasureCompletedMessage>
   <BiosculpterCleanlinessSpeedFactor>청결함으로 인한 속도 계수</BiosculpterCleanlinessSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>Biotuned speed factor</BiosculpterBiotunedSpeedFactor><!--text_todo-->
   <HealingCycleWillHeal>다음 상태가 회복됩니다.</HealingCycleWillHeal>
   <HealingCycleOneWillHeal>다음 상태 중 하나가 회복됩니다.</HealingCycleOneWillHeal>
   <MissingRequiredResearch>필수 연구 누락:</MissingRequiredResearch>

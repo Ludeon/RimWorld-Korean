@@ -7,18 +7,18 @@
   <Conversion.description>누군가가 당신의 사상을 따르도록 설득합니다.</Conversion.description>
   
   <DateRitualConsumable.label>성탄절 파티</DateRitualConsumable.label>
-  <DateRitualConsumable.description>즐기기 위한 축하 모임입니다. 지도자가 격려의 연설을 마치면 모두가 어울리게 될 것입니다.</DateRitualConsumable.description>
+  <DateRitualConsumable.description>즐기기 위한 축하 모임입니다. 지도자의 격려가 끝나면 모두가 한 데 어울려 즐거운 시간을 보냅니다.</DateRitualConsumable.description>
   
   <Execution.label>공개 처형</Execution.label>
   <Execution.description>처형자가 공개적으로 수감자를 처형합니다. 처형자는 간단한 연설 후 수감자를 처형하고 추도문을 읽을 것입니다. 의식을 목격한 노예들은 두려워할 것이고, 정착민들은 그들의 사상에 따라 들뜨거나 역겨워할 것입니다.</Execution.description>
   <Execution.tipLabelOverride>공개 처형</Execution.tipLabelOverride>
   
   <Festival.label>사교적 축제</Festival.label>
-  <Festival.description>즐기기 위한 축하 모임입니다. 지도자가 격려의 연설을 마치면 모두가 어울리게 될 것입니다.</Festival.description>
+  <Festival.description>즐기기 위한 축하 모임입니다. 지도자의 격려가 끝나면 모두가 한 데 어울려 즐거운 시간을 보냅니다.</Festival.description>
   
   <Funeral.label>장례식</Funeral.label>
   <Funeral.description>이 사상을 믿는 사람이 죽어 묻힐 때 치러지는 행사입니다. 육체가 파괴됐다면 빈 무덤도 사용될 수 있습니다. 노예는 장례식을 치러주지 않습니다.</Funeral.description>
-  <Funeral.extraTextPawnDeathLetter>{PAWN_nameDef}(은)는 매장되고 장례식을 치러야 {PAWN_possessive} 친구와 가족이 작별할 수 있습니다.</Funeral.extraTextPawnDeathLetter>
+  <Funeral.extraTextPawnDeathLetter>{PAWN_nameDef}(을)를 매장한 뒤 장례식을 치러주면 {PAWN_possessive} 가족과 친구들을 다소 위로할 수 있습니다.</Funeral.extraTextPawnDeathLetter>
   
   <FuneralNoCorpse.label>장례식 (시신 없음)</FuneralNoCorpse.label>
   <FuneralNoCorpse.description>이 사상을 믿는 사람이 죽었을 때 치를 수 있는 행사입니다. 시신이 파괴됐다면 빈 무덤을 사용할 수도 있습니다. 노예는 장례식을 치를 수 없습니다.</FuneralNoCorpse.description>
@@ -27,8 +27,8 @@
   <GladiatorDuel.description>수감자나 죄수들 간의 공개 결투입니다. 주최자의 소개가 끝나고 나면 결투자들은 둘 중 하나가 죽던가, 시간이 끝날 때 까지 싸울 것입니다. 만약 투기장 안에 무기가 있다면 결투자들은 기꺼이 무기를 주워 사용할 것입니다.</GladiatorDuel.description>
   <GladiatorDuel.tipLabelOverride>수감자/노예 검투사 결투</GladiatorDuel.tipLabelOverride>
   
-  <LeaderSpeech.label>지도자 연설</LeaderSpeech.label>
-  <LeaderSpeech.description>정착민들의 사기를 고양하기 위한 연설입니다. 연설이 잘 진행된다면 청자들은 기분이 향상되고, 지도자에 대한 존경심을 가지며, 때때로 영감을 얻게 됩니다. 그러나 연설이 끔찍하다고 느낀다면 실망할 것입니다.</LeaderSpeech.description>
+  <LeaderSpeech.label>지도 연설</LeaderSpeech.label>
+  <LeaderSpeech.description>정착민들의 사기를 고양하기 위한 연설입니다. 매끄럽게 진행된다면 청취자들은 영감을 얻거나 지도자에 대한 존경심을 느낄 것입니다. 반대로 결과가 좋지 않으면 사교적 불이익을 받습니다.</LeaderSpeech.description>
   
   <RoleChange.label>취임식</RoleChange.label>
   <RoleChange.description>정착민의 지위 변경을 인정받기 위한 행사입니다. 새로운 지위를 인정받기 위해서는 최소한의 인원이 행사에 참석해야 합니다.</RoleChange.description>

@@ -161,7 +161,7 @@
   
   <!-- reload -->
   <CommandReload_NoCharges>남은 {CHARGENOUN_plural}(이)가 없습니다.</CommandReload_NoCharges>
-  <CommandReload_NoAmmo>{AMMO_label} {COUNT}개로 재장전 해야 합니다.</CommandReload_NoAmmo>
+  <CommandReload_NoAmmo>{AMMO_label} {COUNT}개로 재장전해야 합니다.</CommandReload_NoAmmo>
   
   <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>재배할 식물</CommandSelectPlantToGrowMulti>
@@ -330,7 +330,7 @@
   <CommandPlaceBlueprintsSpecificDesc>가능한 모든 {0} 청사진을 배치합니다.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
-  <CommandCancelMonumentMarker>제작 취소</CommandCancelMonumentMarker>
+  <CommandCancelMonumentMarker>취소</CommandCancelMonumentMarker>
   <CommandCancelMonumentMarkerDesc>기념비 건설 계획을 취소합니다.</CommandCancelMonumentMarkerDesc>
 
   <!-- View quest -->
@@ -352,7 +352,7 @@
 
   <!-- Rituals -->
   <CommandLeaveRitual>{RITUAL_label} 떠나기</CommandLeaveRitual>
-  <CommandLeaveRitualDesc>{RITUAL_labelDef}에 참여하는 것을 그만둡니다. 한 명의 참여자라도 남아있으면 의식은 계속됩니다.</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>{RITUAL_labelDef}에 참여하는 것을 그만둡니다. 한 명의 참여자라도 남아있으면 행사는 계속됩니다.</CommandLeaveRitualDesc>
   <CommandLeaveLastParticipant>{RITUAL_labelDef}의 마지막 참여자입니다.</CommandLeaveLastParticipant>
 
   <CommandCancelRitual>{RITUAL_label} 취소</CommandCancelRitual>

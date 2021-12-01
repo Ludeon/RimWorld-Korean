@@ -3,15 +3,15 @@
 
   <!-- Character tab -->
   <RoyalTitleTooltipHasTitle>{PAWN_labelShort}(은)는 {FACTION_name}의 {TITLE}입니다.</RoyalTitleTooltipHasTitle>
-  <RoyalTitleTooltipConceited>{PAWN_labelShort}(은)는 이 작위의 권한을 완전히 존중하도록 요구합니다.</RoyalTitleTooltipConceited>
-  <RoyalTitleTooltipNonConceited>{PAWN_labelShort}(은)는 이 작위의 권한에 대해 유연하게 행동합니다.</RoyalTitleTooltipNonConceited>
+  <RoyalTitleTooltipConceited>{PAWN_labelShort}(은)는 온전한 귀족 특권을 요구합니다.</RoyalTitleTooltipConceited>
+  <RoyalTitleTooltipNonConceited>{PAWN_labelShort}(은)는 귀족 특권을 요구하지 않습니다.</RoyalTitleTooltipNonConceited>
   <RoyalTitleTooltipNextTitle>다음 작위</RoyalTitleTooltipNextTitle>
-  <RoyalTitleTooltipNextTitleFavorCost>{0}개의 {FACTION_royalFavorLabel} 필요</RoyalTitleTooltipNextTitleFavorCost>
+  <RoyalTitleTooltipNextTitleFavorCost>{FACTION_royalFavorLabel} {0}개 필요</RoyalTitleTooltipNextTitleFavorCost>
   <RoyalTitleTooltipFinalTitle>이 행성에서는 더 이상 작위를 올릴 수 없습니다.</RoyalTitleTooltipFinalTitle>
   <RoyalTitleTooltipInheritance>{PAWN_nameDef}(이)가 사망하면, {PAWN_possessive} 작위는 {HEIR_nameFull}에게 상속됩니다.</RoyalTitleTooltipInheritance>
   <RoyalTitleTooltipHeirNoFaction>{HEIR_nameFull}(은)는 어떤 세력에도 소속되어있지 않습니다.</RoyalTitleTooltipHeirNoFaction>
-  <RoyalTitleTooltipHeirDifferentFaction>{HEIR_nameFull}(은)는 {FACTION_name} 소속입니다.</RoyalTitleTooltipHeirDifferentFaction>
-  <RoyalTitleTooltipNoHeir>{PAWN_nameDef}의 작위를 상속받을 수 있는 인물이 없습니다. {PAWN_pronoun}(이)가 사망하면 작위는 회수됩니다.</RoyalTitleTooltipNoHeir>
+  <RoyalTitleTooltipHeirDifferentFaction>{HEIR_nameFull}(은)는 {FACTION_name} 구성원입니다.</RoyalTitleTooltipHeirDifferentFaction>
+  <RoyalTitleTooltipNoHeir>{PAWN_nameDef}의 작위를 상속받을 수 있는 인물이 없습니다. {PAWN_pronoun}가 사망하면 작위는 회수됩니다.</RoyalTitleTooltipNoHeir>
   <RoyalTitleTooltipTitlesEarnable>{FACTION_name}의 획득 가능한 작위</RoyalTitleTooltipTitlesEarnable>
   <RoyalTitleTooltipTitlesNonEarnable>{FACTION_name}의 다른 작위</RoyalTitleTooltipTitlesNonEarnable>
   <RoyalTitleTooltipRoyalFavorAmount>{0} {1}</RoyalTitleTooltipRoyalFavorAmount>
@@ -21,19 +21,19 @@
   
   <!-- Permits tab -->
   <TabPermits>지원 요청</TabPermits>
-  <PermitsFromFaction>{FACTION_name}의 허가증</PermitsFromFaction>
+  <PermitsFromFaction>{FACTION_name}에 지원 요청</PermitsFromFaction>
   <CurrentTitle>현재 작위</CurrentTitle>
-  <UnusedPermits>미사용 허가증 점수</UnusedPermits>
-  <ReturnAllPermits>모든 허가증 반환</ReturnAllPermits>
-  <NoPermitsToReturn>{PAWN_nameDef}(은)는 반환할 허가증이 없습니다.</NoPermitsToReturn>
-  <NotEnoughFavor>허가증을 반환하려면 {FAVOR} {FAVORCOST}개가 필요하지만 {PAWN_nameDef}(은)는 {CURFAVOR}개만 가지고 있습니다.</NotEnoughFavor>
-  <ReturnAllPermits_Desc>현재 세력에 대해 예전에 선택한 모든 허가증을 반환합니다. 소모된 모든 허가증 점수를 되찾아 다시 사용할 수 있습니다.\n\n이 행동에는 {FAVOR} {BASEFAVORCOST}개와 현재 재사용 대기 중인 허가증의 재설정 비용이 더해집니다. 현재 전체 비용은 {FAVORCOST} 입니다.</ReturnAllPermits_Desc>
-  <ReturnAllPermits_Confirm>{FACTION_name}에 대해 예전에 선택한 모든 허가증을 반환하시겠습니까? 소모된 모든 허가증 점수를 되찾아 다시 사용할 수 있습니다.\n\n이 행동에는 {FAVOR} {BASEFAVORCOST}개와 현재 재사용 대기 중인 허가증의 재설정 비용이 더해집니다. 현재 전체 비용은 {FAVORCOST} 입니다.</ReturnAllPermits_Confirm>
+  <UnusedPermits>남은 지원 요청 권한</UnusedPermits>
+  <ReturnAllPermits>지원 요청 권한 초기화</ReturnAllPermits>
+  <NoPermitsToReturn>{PAWN_nameDef}(은)는 초기화할 지원 요청 권한이 없습니다.</NoPermitsToReturn>
+  <NotEnoughFavor>{FAVOR}(이)가 부족합니다. 지원 요청 권한을 초기화하려면 {FAVOR} {FAVORCOST}개가 필요하지만 현재 보유량은 {CURFAVOR}개입니다.</NotEnoughFavor>
+  <ReturnAllPermits_Desc>모든 지원 요청 권한을 초기화하여 다시 선택할 수 있게 합니다.\n\n이 선택에는 기본적으로 {FAVOR} {BASEFAVORCOST}개가 소모되며, 현재 재사용 대기 중인 모든 지원 요청을 재설정하기 위한 비용이 더해집니다. 총 비용은 신임장 {FAVORCOST}개입니다.</ReturnAllPermits_Desc>
+  <ReturnAllPermits_Confirm>모든 지원 요청 권한을 초기화하고 다시 선택하시겠습니까?\n\n이 선택에는 기본적으로 {FAVOR} {BASEFAVORCOST}개가 소모되며, 현재 재사용 대기 중인 모든 지원 요청을 재설정하기 위한 비용이 더해집니다. 총 비용은 신임장 {FAVORCOST}개입니다.</ReturnAllPermits_Confirm>
   <SwitchFaction_Desc>세력 전환</SwitchFaction_Desc>
   <AcceptPermit>지원 요청 권한 획득</AcceptPermit>
   <RequiresTitle>요구 작위: {0}</RequiresTitle>
-  <UpgradeFrom>{0} 상향</UpgradeFrom>
+  <UpgradeFrom>{0}(을)를 대체함</UpgradeFrom>
   <Cooldown>재사용 대기시간</Cooldown>
-  <CooldownUseFavorCost>재사용 대기시간 중 사용시 {HONOR} 비용이 소모됨</CooldownUseFavorCost>
+  <CooldownUseFavorCost>재사용 대기시간 중 사용시 {HONOR} 소모</CooldownUseFavorCost>
   
 </LanguageData>

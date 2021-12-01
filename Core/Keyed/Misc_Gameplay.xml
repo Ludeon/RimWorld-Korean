@@ -32,6 +32,7 @@
   <TreatmentExpiresIn>치료 효과 만료: {0} 후</TreatmentExpiresIn>
   <NextTendIn>후속 치료 필요: {0} 후</NextTendIn>
   <TendQuality>치료 품질</TendQuality>
+  <DisappearsAtTotalTendQuality>종합 치료 품질</DisappearsAtTotalTendQuality> <!-- text_todo -->
   <MissingMedicalBillIngredient>{0} 없음</MissingMedicalBillIngredient>
   <Immunity>항체 형성</Immunity>
   <DaysToRecover>회복까지 {0}일</DaysToRecover>
@@ -155,14 +156,14 @@
   <QuestTargetDestroyInspectStringShort>{0}(은)는 이곳을 파괴하기를 원합니다.</QuestTargetDestroyInspectStringShort>
   <ShuttleDelayInspectString>{0} 후 왕복선 도착</ShuttleDelayInspectString>
   <ShuttleLeaveDelayInspectString>{0} 후 출발</ShuttleLeaveDelayInspectString>
-  <ShouldDepartOnShuttleInspectString>왕복선 출발</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>왕복선으로 출발해야 함</ShouldDepartOnShuttleInspectString>
   <WorldObjectTimeout>남은 시간: {0}</WorldObjectTimeout>
   <ClickToSortByThisColumn>정렬하려면 클릭하세요.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + 좌클릭: 우선순위 높이기\nShift + 우클릭: 우선순위 낮추기</WorkPriorityShiftClickTip>
   <WorkPriorityShiftClickEnableDisableTip>Shift + 좌클릭: 모두 활성화\nShift + 우클릭: 모두 비활성화</WorkPriorityShiftClickEnableDisableTip>
   <AllowedAreaShiftClickTip>Shift + 좌클릭: 모두 거주구역에 할당\nShift + 우클릭: 모두 제한 해제</AllowedAreaShiftClickTip>
   <CheckboxShiftClickTip>Shift + 좌클릭: 모두 체크\nShift + 우클릭: 모두 체크 해제</CheckboxShiftClickTip>
-  <KnownSiteThreatEnemyCountAppend>{1} {0}명</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{1} x{0}</KnownSiteThreatEnemyCountAppend>
   <SkillRequirements>기술 필요량</SkillRequirements>
   <Products>생산품</Products>
   <Relationship>{1}의 {0}</Relationship>
@@ -198,7 +199,7 @@
   <EnterCooldown>{0}에 재진입하기에는 너무 위험합니다.</EnterCooldown>
   <Caravan>상단</Caravan>
   <HiddenOrNoSitePartDescription>위험할 수 있음</HiddenOrNoSitePartDescription>
-  <PreciousLumpHostileThreat>탐색기는 덩어리 주변에 적대적으로 보이는 활동을 감지했습니다.</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>탐색기가 지하에서 적대적 활동을 감지했습니다.</PreciousLumpHostileThreat>
   <PreciousLumpLabel>{0}의 덩어리</PreciousLumpLabel>
   <NoActiveResearchProjectToFinish>진행중인 연구과제 없음</NoActiveResearchProjectToFinish>
   <Turret>포탑</Turret>
@@ -239,8 +240,8 @@
   <DormantCompExpired>작동 정지됨</DormantCompExpired>
   <InitiatesIn>시작</InitiatesIn>
   <SendSignalOnCountdownCompTime>{0} 후 활성화</SendSignalOnCountdownCompTime>
-  <PsychicEntropy>정신력 혼돈치</PsychicEntropy>
-  <PsychicEntropyShort>열기</PsychicEntropyShort>
+  <PsychicEntropy>신경열</PsychicEntropy>
+  <PsychicEntropyShort>신경열</PsychicEntropyShort>
   <PsychicEntropyPainFocus>(고통 집중 +{0})</PsychicEntropyPainFocus>
   <ConditionCauserRadius>범위 {0}</ConditionCauserRadius>
   <LowPsyfocus>낮은 초집중</LowPsyfocus>
@@ -335,8 +336,8 @@
 
   <!-- Control -->
   <CannotOrderNonControlled>조종할 수 없는 대상에게 명령을 내릴 수 없습니다.</CannotOrderNonControlled>
-  <IsIncapableOfViolence>{1_labelShort}(은)는 폭력적인 일을 할 수 없습니다.</IsIncapableOfViolence>
-  <IsIncapableOfViolenceShort>폭력적인 일 불가</IsIncapableOfViolenceShort>
+  <IsIncapableOfViolence>{1_labelShort}(은)는 싸울 수 없습니다.</IsIncapableOfViolence>
+  <IsIncapableOfViolenceShort>싸울 수 없음</IsIncapableOfViolenceShort>
   <IsNotDrafted>{1_labelShort}(은)는 소집되지 않았습니다.</IsNotDrafted>
   <ApparelPreventsShooting>{PAWN_nameDef}(이)가 착용한 {APPAREL_label}(으)로 인해 사격할 수 없습니다.</ApparelPreventsShooting>
 
@@ -382,8 +383,8 @@
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>결혼식 참여 중</LordReportAttendingMarriageCeremony>
   <LordReportAttendingParty>파티 참여 중</LordReportAttendingParty>
-  <LordReportAttendingConcert>콘서트 참여 중</LordReportAttendingConcert>
-  <LordReportHoldingConcert>콘서트 개최 중</LordReportHoldingConcert>
+  <LordReportAttendingConcert>연주회 참여 중</LordReportAttendingConcert>
+  <LordReportHoldingConcert>연주회 개최 중</LordReportHoldingConcert>
   <LordReportGivingSpeech>연설 중</LordReportGivingSpeech>
   <LordReportListeningSpeech>{ORGANIZER_labelShort}의 연설 듣는 중</LordReportListeningSpeech>
   <LordReportFormingCaravan>상단 구성 중</LordReportFormingCaravan>
@@ -743,7 +744,7 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <PawnTooltipPsychicEntropyStats>신경열: {0} / {1}\n하락률: {2} / 초 (0까지 {3}초)</PawnTooltipPsychicEntropyStats>
   <PawnTooltipPsychicEntropyDesc>초능력을 시전한 이후 신경열이 증가합니다. 정상적인 한계를 넘어서면 정신이상이 나타날 수 있습니다.\n\n신경열은 시간이 지남에 따라 사라집니다. 이 과정은 엘텍스 의복을 착용하거나 고통을 겪으면서 가속화될 수 있습니다.</PawnTooltipPsychicEntropyDesc>
-  <PawnTooltipPsychicEntropyPainFocus>물리적 고통은 잡념을 제거하여 혼돈치를 빠르게 안정시킵니다.\n\n고통 수준: {0}\n신경열 회복 보너스: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>물리적 고통은 잡념을 제거하여 신경열을 빠르게 안정시킵니다.\n\n고통 수준: {0}\n신경열 회복 보너스: {1}</PawnTooltipPsychicEntropyPainFocus>
   <PawnTooltipPsychicEntropyLimit>신경열 한계 전환\n\n신경열 한계를 초과하면 장기적인 정신적 장애와 과잉에 대한 뇌손상을 포함하여 심각한 건강상의 문제가 발생될 수 있습니다. 신경열 한계보다 지나치게 높아질수록, 그 위험은 더 커집니다.</PawnTooltipPsychicEntropyLimit>
   <PawnTooltipPsyfocus>초집중: {0}</PawnTooltipPsyfocus>
 
@@ -754,8 +755,8 @@
   <Reward_Pawn_DropPod>{0_age}세의 {0_title}, {0_nameDef}(이)가 운송 포드를 타고 {0_relationInfoInParentheses}에 도착합니다.</Reward_Pawn_DropPod>
   <Reward_Pawn_WalkIn>{0_age}세의 {0_title}, {0_nameDef}(이)가 나타나 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_WalkIn>
   <Reward_Pawn_Caravan>{0_age}세의 {0_title}, {0_nameDef}(이)가 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_Caravan>
-  <Reward_Items>다음 자원을 가진 수송포드가 도착합니다. (총 가치 {1})\n\n{0}</Reward_Items>
-  <Reward_Items_Caravan>다음 자원을 받습니다. (총 가치 {1})\n\n{0}</Reward_Items_Caravan>
+  <Reward_Items>다음 물품을 포함하는 수송 포드가 도착합니다.\n\n{0} (총 가치 {1})</Reward_Items>
+  <Reward_Items_Caravan>다음 자원을 받습니다.\n\n{0} (총 가치 {1})</Reward_Items_Caravan>
   <Reward_Goodwill>{0_name}(와)과의 우호도가 {1} 만큼 향상됩니다</Reward_Goodwill>
   <Reward_PassageOffworld>항성으로 나아감</Reward_PassageOffworld>
   <Reward_PassageOffworld_Label>세상 밖으로</Reward_PassageOffworld_Label>
@@ -807,7 +808,7 @@
   <ChooseLandingSite>착륙 지점 선택</ChooseLandingSite>
   
   <!-- Rituals -->
-  <Ritual>의식</Ritual>
+  <Ritual>행사</Ritual>
 
   <RitualTakesPlaceAt>장소</RitualTakesPlaceAt>
   <RitualTargetThingDefsInfo>아무 {0}</RitualTargetThingDefsInfo>
@@ -833,12 +834,12 @@
   <RitualOutcomeQualitySpecific>{0}의 총 품질은 {1}였습니다. 품질에 영향을 준 요소</RitualOutcomeQualitySpecific>
   <RitualOutcomeChances>품질 {0}에서 나타날 수 있는 결과 확률</RitualOutcomeChances>
   <RitualOutcomePerformedRecently>최근에 실행함</RitualOutcomePerformedRecently>
-  <RitualQualityExpectations>기대치 {0}</RitualQualityExpectations>
-  <RitualAmbienceSound>의식 배경음</RitualAmbienceSound>
+  <RitualQualityExpectations>기대감: {0}</RitualQualityExpectations>
+  <RitualAmbienceSound>행사 배경음</RitualAmbienceSound>
   <RitualQualityLowWarning>{0}의 총 품질이 {1} 미만입니다. 이대로 진행하면 정착지에 부정적인 영향을 끼칠 확률이 높습니다.\n\n정말 계속 하시겠습니까?</RitualQualityLowWarning>
   <AbilitySpeechDisabledNoSpot>도달 가능하고 연설에 적합한 장소가 없습니다.</AbilitySpeechDisabledNoSpot>
   <AbilityDisabledNoCapacity>{0_labelShort}(은)는 {1}(을)를 할 수 없습니다.</AbilityDisabledNoCapacity>
-  <RitualOutcomeExtraDesc_Mood>의식에 참여한 모든 사람의 기분이 {1}일간 {0}만큼 영향을 받습니다.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>행사에 참여한 모든 사람의 기분이 {1}일간 {0}만큼 영향을 받습니다.</RitualOutcomeExtraDesc_Mood>
   
   <ChooseParticipants>{RITUAL_labelDef}에 참여해야 하는 사람을 선택하세요.</ChooseParticipants>
   <Begin>시작</Begin>
@@ -872,5 +873,12 @@
 
   <ThingOf>{0}</ThingOf>
   <ThingOfSource>{1}의 {0}</ThingOfSource>
+
+  <!-- Abilities -->
+  <AbilityDisabledUndrafted>소집 중이어야 합니다.</AbilityDisabledUndrafted>
+  <AbilityOnCooldown>재사용 대기시간입니다. {0} 후 다시 사용할 수 있습니다.</AbilityOnCooldown>
+  <AbilityAlreadyQueued>이미 대기열에 있습니다.</AbilityAlreadyQueued>
+  <AbilityReadyLabel>{0} 능력이 준비되었습니다.</AbilityReadyLabel>
+  <AbilityReadyText>{0_nameDef}(이)가 {1}(을)를 사용할 준비가 되었습니다.</AbilityReadyText>
 
 </LanguageData>

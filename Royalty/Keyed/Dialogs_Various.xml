@@ -9,9 +9,9 @@
   <RoyalTitleTooltipThroneroomRequirements>알현실 요구사항</RoyalTitleTooltipThroneroomRequirements>
   <RoyalTitleTooltipPermits>작위 특권</RoyalTitleTooltipPermits>
   <RoyalTitleRequiredApparelStatDescription>해당 작위 보유자는 반드시 다음 수준의 옷들을 입어야 함:</RoyalTitleRequiredApparelStatDescription>
-  <ApparelRequirementAnyPrestigeArmor>모든 위신갑옷</ApparelRequirementAnyPrestigeArmor>
+  <ApparelRequirementAnyPrestigeArmor>모든 장교 갑옷</ApparelRequirementAnyPrestigeArmor>
   <ApparelRequirementAnyPsycasterApparel>모든 초능력자 의복</ApparelRequirementAnyPsycasterApparel>
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>모든 초능력자 또는 위신 의복</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>모든 초능력자 또는 귀족 의복</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
   <DisabledWorkTypes>비활성화된 작업 유형</DisabledWorkTypes>
   <RoyalTitleRequiredMeals>허용된 음식</RoyalTitleRequiredMeals>
   <RoyalTitleRequiredMealsDesc>해당 작위를 지닌 인물은 죽을 정도로 굶주리거나 상단에 소속되어 있는 경우를 제외하면 오직 이 음식들만을 골라 섭취합니다.</RoyalTitleRequiredMealsDesc>
@@ -24,7 +24,7 @@
 
   <!-- Royal weapons -->
   <BladelinkEquipWarning>일단 주인을 정하게 되면, 무기의 자아는 다른 사람의 손길을 거부할 것입니다.</BladelinkEquipWarning>
-  <BladelinkEquipWarningTraits>이 무기에 다음과 같은 특징이 있음</BladelinkEquipWarningTraits>
+  <BladelinkEquipWarningTraits>무기 특성</BladelinkEquipWarningTraits>
   <RoyalWeaponEquipConfirmation>이 아이템을 착용하시겠습니까?</RoyalWeaponEquipConfirmation>
   
   <!-- Psycasts -->
@@ -34,10 +34,10 @@
   <!-- Warning -->
   <QuestGivesRoyalFavor>이 임무는 {PAWN_labelShort}에 대한 왕실 작위와 {FACTION_royalFavorLabel}(을)를 보상합니다.</QuestGivesRoyalFavor>
   <RoyalIncapableOfSocial>{PAWN_labelShort}(은)는 사교활동이 불가능합니다. 왕실작위를 가진 사람들은 사교기술이 필요하므로, {PAWN_labelShort}(이)가 작위를 얻게 된다면 어려움이 많을 것입니다. 사교 가능한 다른 정착민이 더 적합할 수 있습니다.</RoyalIncapableOfSocial>
-  <RoyalWithConceitedTrait>{PAWN_labelShort}(은)는 {2}이므로 작위의 권한을 완전히 존중해야 합니다. {PAWN_labelShort}(은)는 저급 음식을 먹을 수 있고, 특정 작업유형을 거부할 수 있으며, 법령을 발표합니다. 유연한 다른 정착민이 더 적합할 수 있습니다.</RoyalWithConceitedTrait>
-  <RoyalWithTraitAffectingPsylinkNegatively>{PAWN_labelShort}(은)는 {2}이므로, 정신력 증폭기를 사용 못 할 수도 있습니다.</RoyalWithTraitAffectingPsylinkNegatively>
-  <PsylinkTooLowForGainAbility>{PAWN_labelShort}의 정신력 증폭기가 {ABILITY}(을)를 사용할 만큼 단계가 높지 않습니다.\n\n그래도 주문을 얻으시겠습니까??</PsylinkTooLowForGainAbility>
+  <RoyalWithConceitedTrait>{PAWN_labelShort}(은)는 {2}이므로 자신의 작위에 집착할 것입니다. {PAWN_labelShort}(은)는 저급 음식이나, 특정한 작업유형을 거부할 것입니다. 좀 더 유연한 사고를 지닌 정착민이 작위를 수여받기에 더 적합할 수 있습니다.</RoyalWithConceitedTrait>
+  <RoyalWithTraitAffectingPsylinkNegatively>{PAWN_labelShort}(은)는 {2}이므로 정신력 증폭 효과를 받을 수 없습니다.</RoyalWithTraitAffectingPsylinkNegatively>
+  <PsylinkTooLowForGainAbility>{PAWN_labelShort}의 정신력 증폭 단계가 {ABILITY}(을)를 사용할 만큼 높지 않습니다.\n\n그래도 기술을 배우겠습니까?</PsylinkTooLowForGainAbility>
   <SendShuttleWithNoContents>이 왕복선은 비어있습니다. 다른 곳으로 보내면 다시 사용할 수 없습니다.\n\n그래도 보내시겠습니까?</SendShuttleWithNoContents>
-  <DropResourcesOverweightConfirm>이 자원들은 상단의 무게를 넘겨 움직이지 못하게 만듭니다.\n\n그래도 호출하시겠습니까?</DropResourcesOverweightConfirm>
+  <DropResourcesOverweightConfirm>이 자원들은 상단에 옮길 수 있는 무게를 초과했기 때문에 상단이 움직일 수 없게 될 것입니다.\n\n그래도 상단을 꾸리겠습니까?</DropResourcesOverweightConfirm>
 
 </LanguageData>

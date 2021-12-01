@@ -119,7 +119,7 @@
     <li>desc_sentence->이 장면은 눈으로 덮인 [TreeType] 숲 속에서 일어난 것 같습니다.</li>
     <li>desc_sentence->이 장면은 냉동고 안에서 일어난 일처럼 보입니다.</li>
     <li>desc_sentence->벌벌 떠는 [Quantity_adjphrase] 마리의 [Animal]들이 주위를 둘러싸고 있습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] 마리의 죽어가는 [Animal]들이 누워있습니다.</li>
+    <li>desc_sentence->죽어가는 [Quantity_adjphrase] 마리의 [Animal]들이 누워있습니다.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <IllnessRevealed.label>질병이 발병함</IllnessRevealed.label>
@@ -129,7 +129,7 @@
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 땅에 누워있는 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 침대에 누워있는 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 회복 침대에 누워있는 모습</li>
-    <li>image->[PAWN_nameFull](은)는 [circumstance_group] 의자에 쓰러진 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 의자에 쓰러진 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 불 옆에 웅크리고 있는 모습</li>
     <li>circumstance_phrase->쉼 없이 땀 흘리며</li>
     <li>circumstance_phrase->걷잡을 수 없이 떨며</li>
@@ -142,7 +142,7 @@
     <li>desc_sentence->[Quantity_adjphrase] 번 구부러진 [Color] [TerrainFeature]에 둘러싸인 곳입니다.</li>
     <li>desc_sentence->[Quantity_adjphrase] 명의 [PersonJob]도 같은 고통에 시달리고 있습니다.</li>
     <li>desc_sentence->이 장면은 [TreeType] 숲 속에서 일어난 것 같습니다.</li>
-    <li>desc_sentence->[Quantity_adjphrase] 마리의 죽어가는 [Animal]들이 누워있습니다.</li>
+    <li>desc_sentence->죽어가는 [Quantity_adjphrase] 마리의 [Animal]들이 누워있습니다.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
   <KilledCapacity.label>살해당함</KilledCapacity.label>
@@ -219,7 +219,7 @@
   <KilledMajorThreat.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [wound_name_present]</li>
     <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [WEAPON_label](으)로 [wound_name_present]</li>
-    <li>tale_noun->[VICTIM_nameDef](이)가 [KILLER_nameDef](을)를 [wound_name_present]</li>
+    <li>tale_noun->[KILLER_nameDef]에 의해 [VICTIM_nameDef](이)가 [wound_name_past]</li>
     <li>tale_noun->[KILLER_nameDef]의 [WEAPON_label]에 의해 [VICTIM_nameDef](이)가 [wound_name_past]</li>
     <li>image->[VICTIM_nameFull](이)가 [KILLER_nameFull]의 [with_weapon_optional] [wound_name_past]</li>
     <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 [wound_name_present]</li>

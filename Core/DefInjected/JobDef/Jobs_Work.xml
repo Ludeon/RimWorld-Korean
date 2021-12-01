@@ -6,13 +6,13 @@
   
   <Capture.reportString>TargetA 포획 중</Capture.reportString>
   
-  <CarryDownedPawnDrafted.reportString>TargetA 이송 중</CarryDownedPawnDrafted.reportString>
+  <CarryDownedPawnDrafted.reportString>TargetA 옮기는 중</CarryDownedPawnDrafted.reportString>
   
-  <CarryDownedPawnToExit.reportString>TargetA 이송 중</CarryDownedPawnToExit.reportString>
+  <CarryDownedPawnToExit.reportString>TargetA 옮기는 중</CarryDownedPawnToExit.reportString>
   
-  <CarryToCryptosleepCasket.reportString>TargetA 동면장치로 이송 중</CarryToCryptosleepCasket.reportString>
+  <CarryToCryptosleepCasket.reportString>TargetA 동면장치로 옮기는 중</CarryToCryptosleepCasket.reportString>
   
-  <CarryToCryptosleepCasketDrafted.reportString>TargetA 동면장치로 이송 중</CarryToCryptosleepCasketDrafted.reportString>
+  <CarryToCryptosleepCasketDrafted.reportString>TargetA 동면장치로 옮기는 중</CarryToCryptosleepCasketDrafted.reportString>
   
   <CarryToPrisonerBedDrafted.reportString>TargetA 체포 중</CarryToPrisonerBedDrafted.reportString>
   
@@ -32,7 +32,7 @@
   
   <ExtractTree.reportString>TargetA 추출 중</ExtractTree.reportString>
   
-  <FeedPatient.reportString>TargetB에게 TargetA 전달 중</FeedPatient.reportString>
+  <FeedPatient.reportString>TargetB에게 TargetA 먹여주는 중</FeedPatient.reportString>
   
   <FinishFrame.reportString>TargetA 건설 중</FinishFrame.reportString>
   
@@ -44,9 +44,9 @@
   
   <HarvestDesignated.reportString>TargetA 수확 중</HarvestDesignated.reportString>
   
-  <HaulToCell.reportString>TargetA 옮기는 중</HaulToCell.reportString>
+  <HaulToCell.reportString>TargetA 운반 중</HaulToCell.reportString>
   
-  <HaulToContainer.reportString>TargetA 옮기는 중</HaulToContainer.reportString>
+  <HaulToContainer.reportString>TargetA 운반 중</HaulToContainer.reportString>
   
   <Hunt.reportString>TargetA 사냥 중</Hunt.reportString>
   
@@ -58,11 +58,11 @@
   
   <OperateDeepDrill.reportString>TargetA 채굴 중</OperateDeepDrill.reportString>
   
-  <OperateScanner.reportString>TargetA에서 탐색하는 중</OperateScanner.reportString>
+  <OperateScanner.reportString>TargetA에서 지하 자원 탐색 중.</OperateScanner.reportString>
   
   <PlaceNoCostFrame.reportString>TargetA 건설 중</PlaceNoCostFrame.reportString>
   
-  <PrisonerAttemptRecruit.reportString>TargetA 포섭시도 중</PrisonerAttemptRecruit.reportString>
+  <PrisonerAttemptRecruit.reportString>TargetA 포섭 중</PrisonerAttemptRecruit.reportString>
   
   <PrisonerExecution.reportString>TargetA 처형 준비 중</PrisonerExecution.reportString>
   
@@ -82,6 +82,8 @@
   
   <Research.reportString>연구 중</Research.reportString>
   
+  <RopeRoamerToHitchingPost.reportString>leading TargetA to hitching spot.</RopeRoamerToHitchingPost.reportString>
+  
   <RopeRoamerToUnenclosedPen.reportString>TargetA(을)를 TargetC에 유도 중</RopeRoamerToUnenclosedPen.reportString>
   
   <RopeToPen.reportString>TargetA(을)를 TargetC에 유도 중</RopeToPen.reportString>
@@ -90,9 +92,9 @@
   
   <Slaughter.reportString>TargetA 도축 중</Slaughter.reportString>
   
-  <SmoothFloor.reportString>바닥을 부드럽게 하는 중</SmoothFloor.reportString>
+  <SmoothFloor.reportString>바닥 연마 중</SmoothFloor.reportString>
   
-  <SmoothWall.reportString>연마 작업 중</SmoothWall.reportString>
+  <SmoothWall.reportString>벽 연마 중</SmoothWall.reportString>
   
   <Sow.reportString>TargetA 재배 중</Sow.reportString>
   
@@ -100,9 +102,9 @@
   
   <StudyThing.reportString>TargetA 학습 중</StudyThing.reportString>
   
-  <TakeDownedPawnToBedDrafted.reportString>침대로 TargetA 이송 중</TakeDownedPawnToBedDrafted.reportString>
+  <TakeDownedPawnToBedDrafted.reportString>침대로 TargetA 옮기는 중</TakeDownedPawnToBedDrafted.reportString>
   
-  <TakeToBedToOperate.reportString>침대로 TargetA 이송 중</TakeToBedToOperate.reportString>
+  <TakeToBedToOperate.reportString>침대로 TargetA 옮기는 중</TakeToBedToOperate.reportString>
   
   <TakeWoundedPrisonerToBed.reportString>부상당한 TargetA 이송 중</TakeWoundedPrisonerToBed.reportString>
   
@@ -114,7 +116,7 @@
   
   <Uninstall.reportString>TargetA 포장 중</Uninstall.reportString>
   
-  <Unrope.reportString>TargetA 풀어 주는 중</Unrope.reportString>
+  <Unrope.reportString>TargetA 풀어놓기</Unrope.reportString>
   
   <UseCommsConsole.reportString>통신기 사용 중</UseCommsConsole.reportString>
 </LanguageData>

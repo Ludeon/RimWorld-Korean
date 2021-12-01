@@ -37,10 +37,10 @@
   <NeedColonistBeds>침대 부족</NeedColonistBeds>
   <NeedColonistBedsDesc>침대 수보다 더 많은 정착민이 머물고 있습니다.\n\n침대를 더 만들거나 수감자 전용 침대를 정착민 전용 침대로 전환하세요.\n\n침대를 만들 재료나 시간이 없다면 잠자리를 지정하세요. 추가적인 비용이 들지 않으며 즉시 배치됩니다.</NeedColonistBedsDesc>
   
-  <AlertColonistLeftUnburied>매장되지 않은 정착민</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>방치된 정착민 시체</AlertColonistLeftUnburied>
   <AlertColonistLeftUnburiedDesc>사망한 정착민이 매장되지 않은 채 방치되어 있습니다.\n\n방치된 시신은 다른 정착민들의 기분을 망칠 것입니다.</AlertColonistLeftUnburiedDesc>
 
-  <HunterLacksWeapon>사냥을 위한 원거리 무기 필요</HunterLacksWeapon>
+  <HunterLacksWeapon>사냥용 원거리 무기 필요</HunterLacksWeapon>
   <HunterLacksWeaponDesc>사냥꾼으로 지정된 정착민이 원거리 무기를 가지고 있지 않습니다.\n\n사냥꾼에게 원거리 무기를 주기 전까지는 사냥을 하지 않습니다.</HunterLacksWeaponDesc>
 
   <AlertTatteredApparel>낡은 옷</AlertTatteredApparel>
@@ -65,10 +65,10 @@
   <NeedMealSourceDesc>음식을 만들 수 있는 방법이 없습니다.\n\n스토브, 모닥불, 또는 영양죽 배급기를 건설하세요.\n\n(감옥에 건설할 경우 정착민들이 사용할 수 없습니다.)</NeedMealSourceDesc>
 
   <NeedJoySource>오락 시설 필요</NeedJoySource>
-  <NeedJoySourceDesc>{1}에서 즐길 수 있는 오락 유형이 {0}가지 뿐이지만, 현재 기대수준({2})에서 정착민들이 만족하려면 {3}가지의 오락시설이 필요합니다. 새롭고 다양한 오락 유형을 제공 해주세요.\n\n{4}\n\n{5}\n\n참고: 'i' 버튼을 통해 접근 가능한 통계 화면에서 모든 물체의 오락 유형을 확인할 수 있습니다.</NeedJoySourceDesc>
+  <NeedJoySourceDesc>{1}에서 즐길 수 있는 오락 유형은 {0}가지 뿐이지만, 현재 기대 수준({2})에서 정착민들이 만족하려면 {3}가지 오락시설이 필요합니다. 새롭고 다양한 오락 유형을 제공해 주세요.\n\n{4}\n\n{5}\n\n통계 화면에서 모든 물품이 지닌 오락 유형을 확인할 수 있습니다.</NeedJoySourceDesc>
   <AvailableRecreationTypes>가능한 오락 시설 유형</AvailableRecreationTypes>
   <MissingRecreationTypes>없는 오락 시설 유형</MissingRecreationTypes>
-  <CurrentExpectationsAndRecreation>현재 기대감({0})에서, 매일 {1}만큼 감소합니다. {2}가지 오락시설 유형을 건설할 것을 권장합니다.</CurrentExpectationsAndRecreation>
+  <CurrentExpectationsAndRecreation>현재의 기대감({0})에 의해, 매일 {1}만큼 감소합니다. {2}가지 유형의 오락시설을 보유하기를 권장합니다.</CurrentExpectationsAndRecreation>
   <bored>질림</bored>
 
   <Boredom>지루함</Boredom>
@@ -80,10 +80,10 @@
   <BrawlerHasRangedWeapon>싸움꾼에게 원거리 무기가 지급됨</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>싸움꾼 특성을 가진 정착민에게 원거리 무기를 지급한 상태입니다. 이로 인해 싸움꾼의 기분이 매우 악화됩니다.</BrawlerHasRangedWeaponDesc>
 
-  <ShieldUserHasRangedWeapon>원거리 무기 사용 불가능</ShieldUserHasRangedWeapon>
+  <ShieldUserHasRangedWeapon>보호막 사용자에게 원거리 무기가 지급됨</ShieldUserHasRangedWeapon>
   <ShieldUserHasRangedWeaponDesc>정착민 중 한 명이 방어 벨트와 원거리 무기를 같이 사용하고 있습니다. 방어 벨트의 보호막은 원거리 무기 사용을 막습니다.</ShieldUserHasRangedWeaponDesc>
 
-  <NeedResearchProject>연구 진행 가능</NeedResearchProject>
+  <NeedResearchProject>다음 연구 진행 가능</NeedResearchProject>
   <NeedResearchProjectDesc>설치된 연구대가 있지만 현재 진행중인 연구가 없습니다.\n\n연구 메뉴에서 연구할 항목을 지정해 주세요.</NeedResearchProjectDesc>
 
   <ColonistsIdle>{0}명의 정착민 대기 중</ColonistsIdle>
@@ -111,7 +111,7 @@
   <BilliardsNeedsSpace>당구대에 여유 공간 필요</BilliardsNeedsSpace>
   <BilliardsNeedsSpaceDesc>당구대 중 하나가 장애물 바로 옆에 놓여있어 정착민들이 사용할 수 없습니다.\n\n당구대는 주변 모든 방향으로 열린 공간이 필요합니다.</BilliardsNeedsSpaceDesc>
 
-  <HunterHasShieldAndRangedWeapon>사냥꾼이 보호막 장비</HunterHasShieldAndRangedWeapon>
+  <HunterHasShieldAndRangedWeapon>사냥꾼이 보호막 생성기를 착용</HunterHasShieldAndRangedWeapon>
   <HunterHasShieldAndRangedWeaponDesc>사냥꾼 중 한 명이 방어 벨트와 원거리 무기를 같이 사용하고 있습니다. 방어 벨트의 보호막은 원거리 무기의 사용을 막습니다.\n\n벨트를 벗기 전까지는 사냥할 수 없습니다.</HunterHasShieldAndRangedWeaponDesc>
 
   <NeedWarmClothes>따뜻한 옷 필요</NeedWarmClothes>
@@ -119,7 +119,7 @@
   <NeedWarmClothesDesc1All>모든 정착민이 이번 겨울에 입을 옷이 없습니다.</NeedWarmClothesDesc1All>
   <NeedWarmClothesDesc2>외부 온도가 곧 {0}도로 떨어집니다.\n\n따뜻한 옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</NeedWarmClothesDesc2>
 
-  <ImmobileCaravan>상단 이동불가</ImmobileCaravan>
+  <ImmobileCaravan>상단 멈춤</ImmobileCaravan>
   <ImmobileCaravanDesc>상단 중 하나가 무게 초과로 인해 움직일 수 없습니다.\n\n소지품 탭에서 일부 물건을 선택하고 버릴 수 있습니다.</ImmobileCaravanDesc>
 
   <BuildingCantBeUsedRoofed>지붕으로 인한 시설 사용 불가</BuildingCantBeUsedRoofed>
@@ -147,21 +147,19 @@
   <ActivatorCountdownMultiple>{0}개의 메카노이드 활성장치</ActivatorCountdownMultiple>
   <ActivatorCountdownDescMultiple>예정된 시간에 도달하면 {0} 장치 근처에 있는 모든 메카노이드가 깨어날 것입니다.</ActivatorCountdownDescMultiple>
 
-  <QuestExpiresSoon>{0} 후 임무 만료됨</QuestExpiresSoon>
+  <QuestExpiresSoon>임무 만료까지 {0}</QuestExpiresSoon>
   <QuestExpiresSoonDesc>'{0}' 임무는 {1} 뒤 만료됩니다.</QuestExpiresSoonDesc>
 
   <AlertAnimalFilth>동물 오물</AlertAnimalFilth>
   <AlertAnimalFilthDesc>오물을 생성하는 동물이 실내의 깨끗한 바닥 위를 돌아다니고 있습니다.\n\n동물이 일반 바닥 위를 돌아다니면 많은 양의 오물이 생깁니다. 오물을 생성하는 동물이 실내로 들어오지 못하도록 제한하세요. 바닥에 멍석을 깔아서 생성되는 오물의 양을 크게 줄일 수도 있습니다.\n\n동물의 오물 생성량은 'i' 버튼을 누르면 나타나는 통계 화면에서 확인할 수 있습니다.\n\n다음의 동물이 문제입니다:\n{0}</AlertAnimalFilthDesc>
 
   <AlertAnimalPenNeeded>동물 우리 필요</AlertAnimalPenNeeded>
-  <AlertAnimalPenNeededDesc>길들인 동물 중 일부가 떠돌이 동물입니다. 우리에 가두지 않으면 지역 밖으로 나갈 것입니다.</AlertAnimalPenNeededDesc>
+  <AlertAnimalPenNeededDesc>Some of your tame animals are roamers. If not kept in an animal pen or roped to a hitching spot, they will wander away.</AlertAnimalPenNeededDesc><!--text_todo-->
   <AlertAnimalPenNeededNoHandlers>동물을 우리로 끌고 갈 조련사가 없습니다.\n\n정착민을 조련 작업에 할당하세요.</AlertAnimalPenNeededNoHandlers>
-  <AlertAnimalPenNeededLowSkillHandlers>다음 동물을 우리로 데려가기 위해 필요한 조련 기술을 아무도 가지고 있지 않습니다.</AlertAnimalPenNeededLowSkillHandlers>
-  <AlertAnimalPenNeededLowSkillHandlersDetail>{MINSKILL} 필요, {HANDLER_labelShort}(은)는 {BESTSKILL}</AlertAnimalPenNeededLowSkillHandlersDetail>
   <AlertAnimalPenNeededDescExplanation>울타리, 방어벽, 벽으로 둘러싸인 곳 안에 우리 표시를 설치해 동물 우리를 만드세요. 우리 표시를 선택하면 어떤 동물을 받을 수 있는지, 얼마나 많이 수용할 수 있는지 볼 수 있습니다.\n\n조련사가 동물을 할당한 우리로 끌고 갈 것입니다.\n\n우리 안에 동물을 넣으려면 문이나 울타리 문이 필요합니다.</AlertAnimalPenNeededDescExplanation>
-
-  <AlertAnimalPenNotEnclosed>뚫린 우리</AlertAnimalPenNotEnclosed>
-  <AlertAnimalPenNotEnclosedDesc>완성하지 않은 동물 우리가 있습니다.\n\n우리 표시는 동물이 밖으로 나가지 못하도록 울타리, 울타리 문, 방어벽, 벽, 문으로 둘러싼 영역 안에 위치해야 합니다.\n\n미완성 우리만 있더라도 조련사가 배회하는 동물을 집으로 데려오기는 하지만, 동물이 밖으로 나갈 때마다 반복해서 끌고 와야 합니다.</AlertAnimalPenNotEnclosedDesc>
+  
+  <AlertAnimalPenNotEnclosed>개방된 동물 우리</AlertAnimalPenNotEnclosed>
+  <AlertAnimalPenNotEnclosedDesc>밀폐되지 않은 동물 우리가 있습니다.\n\n우리 표시는 동물이 밖으로 나가지 못하도록 울타리, 울타리 문, 방어벽, 벽, 문으로 둘러싼 영역 안에 위치해야 합니다.\n\n미완성 우리만 있더라도 조련사가 배회하는 동물을 집으로 데려오기는 하지만, 동물이 밖으로 나갈 때마다 반복해서 끌고 와야 합니다.</AlertAnimalPenNotEnclosedDesc>
 
   <AlertPredatorInAnimalPen>동물 우리 안의 {ANIMAL_labelShort}</AlertPredatorInAnimalPen>
   <AlertPredatorInAnimalPenDesc>배회하던 {ANIMAL_labelShort}(이)가 동물 우리 안으로 들어왔습니다.\n\n배가 고프면 사냥할 수도 있습니다.\n\n포식자를 죽이거나, 떠나도록 기다릴 수도 있습니다.</AlertPredatorInAnimalPenDesc>
@@ -169,10 +167,13 @@
   <AlertAnimalIsRoaming>배회 중인 동물</AlertAnimalIsRoaming>
   <AlertAnimalIsRoamingDesc>길들인 동물 일부가 떠돌이 동물로서 지금 배회 중입니다. 배회 중에 지역 경계에 도달하면 지역 밖으로 나갈 것입니다.\n\n완성한 우리가 있으면 조련사가 데려올 것입니다. 우리 안에 가둬놓은 동물은 배회하지 않습니다.\n\n다음 동물이 배회 중입니다.\n\n{0}</AlertAnimalIsRoamingDesc>
 
-  <AlertPennedAnimalHungry>우리 안의 동물이 배고픔</AlertPennedAnimalHungry>
+  <AlertPennedAnimalHungry>우리 안의 동물이 굶주림</AlertPennedAnimalHungry>
   <AlertPennedAnimalHungryDesc>우리 안의 동물이 배고픔을 느끼고 있습니다.\n\n우리 표시를 선택하고 먹이 탭을 열어 자세한 정보를 확인하세요.\n\n초식 동물이라면 더 많은 풀을 먹일 수 있는, 더 큰 우리가 필요할 수 있습니다. 다른 동물의 경우 우리 안에 저장 구역을 지정한 후, 건초 등 동물 먹이를 운반해야 할 수도 있습니다.\n\n배고픈 동물:\n\n{0}</AlertPennedAnimalHungryDesc>
 
-  <AlertTimedRaidsArrivingIn>습격까지 {0}</AlertTimedRaidsArrivingIn>
+  <AlertHitchedAnimalHungryNoFood>Hungry hitched animal</AlertHitchedAnimalHungryNoFood><!--text_todo-->
+  <AlertHitchedAnimalHungryNoFoodDesc>Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nThey can be brought food or the hitching spot can be removed to allow them to roam and find food on their own.\n\nThe following hitched animals are hungry:\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc><!--text_todo-->
+
+  <AlertTimedRaidsArrivingIn>습격대 도착까지 {0}</AlertTimedRaidsArrivingIn>
   <AlertTimedRaidsArrivingInDesc>다음의 지역으로 적이 접근하고 있습니다. 곧 적 병력이 도착할 것입니다.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <AlertTimedRaidsArrivingAt>{0}에 {1} 후 도착</AlertTimedRaidsArrivingAt>
 

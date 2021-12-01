@@ -15,15 +15,14 @@
   
   <Convert.label>교화</Convert.label>
   <Convert.description>대상을 전도사의 사상으로 교화하도록 시도합니다. 대상의 사상에 대한 믿음을 감소시킵니다. 믿음의 감소는 전도사의 협상 능력에 따릅니다.</Convert.description>
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}(은)는 {RECIPIENT_labelShort} 교화에 실패했습니다. {RECIPIENT_labelShort}(은)는 분노했지만, {RECIPIENT_possessive} 믿음은 {CERTAINTYBEFORE}에서 {CERTAINTYAFTER}(으)로 감소했습니다.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}(은)는 {RECIPIENT_labelShort} 교화에 실패했습니다. {RECIPIENT_labelShort}(은)는 분노했지만, {RECIPIENT_possessive} 믿음은 감소했습니다. ({CERTAINTYBEFORE} ▶ {CERTAINTYAFTER})</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort}(은)는 {RECIPIENT_labelShort}(을)를 {IDEO}(으)로 교화시켰습니다.</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <Counsel.label>심리 상담</Counsel.label>
   <Counsel.description>대상자와 상담을 통해 나쁜 기억을 제거합니다. 성공 확률은 상담사의 사교 기술과 상담자와의 사회적 관계에 영향을 받습니다.</Counsel.description>
   <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}(와)과의 상담을 그르쳤습니다. {RECIPIENT_labelShort}의 기분이 상했습니다.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort}(이)가 상담을 성공적으로 마쳐 {RECIPIENT_labelShort}의 {2} 무드 효과를 제거했습니다.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}(와)과의 상담을 성공적으로 마쳐 
- {RECIPIENT_possessive} 무드를 {MOODBONUS}만큼 증가시켰습니다.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}(와)과의 상담을 성공적으로 마쳐 {RECIPIENT_possessive} 기분을 {MOODBONUS}만큼 증가시켰습니다.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   
   <FarmingCommand.label>농업 감독</FarmingCommand.label>
   <FarmingCommand.description>주위 모든 아군에게 농사 기술에 대한 적절한 조언을 통해 농업 능력을 증가시킵니다. 이 효과는 24시간 동안 지도자를 중심으로 지속하며, 영향 범위에서 멀어지면 효과가 사라집니다.</FarmingCommand.description>
@@ -31,8 +30,8 @@
   <ImmunityDrive.label>면역 증진</ImmunityDrive.label>
   <ImmunityDrive.description>정신적인 지원을 통해 대상의 신체의 활력을 불어넣어 면역력을 하룻동안 증가시킵니다.</ImmunityDrive.description>
   
-  <LeaderSpeech.label>지도자 연설</LeaderSpeech.label>
-  <LeaderSpeech.description>지도자가 연설을 시작합니다. 연설이 잘 진행된다면 청자들은 기분이 향상되고, 지도자에 대한 존경심을 가지며, 때때로 영감을 얻게 됩니다. 그러나 연설이 끔찍하다고 느낀다면 실망할 것입니다.</LeaderSpeech.description>
+  <LeaderSpeech.label>지도 연설</LeaderSpeech.label>
+  <LeaderSpeech.description>지도 연설을 시작합니다. 매끄럽게 진행된다면 청취자들은 영감을 얻거나 지도자에 대한 존경심을 느낄 것입니다. 반대로 결과가 좋지 않으면 사교적 불이익을 받습니다.</LeaderSpeech.description>
   
   <MarksmanCommand.label>사수 감독</MarksmanCommand.label>
   <MarksmanCommand.description>주위 모든 아군의 사격 기술을 높여주는 영향력을 발산합니다. 이 효과는 24시간 동안 지도자를 중심으로 지속하며, 영향 범위에서 멀어지면 효과가 사라집니다.</MarksmanCommand.description>

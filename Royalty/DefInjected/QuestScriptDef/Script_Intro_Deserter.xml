@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <Intro_Deserter.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_titleIndef], [asker_nameFull](이)가 근처에서 호출합니다. [asker_pronoun]는 [asker_factionName]의 군대에게 버림을 받았고, (*Threat)왕실 분대(/Threat)에게 쫓기고 있습니다. [asker_pronoun]는 [map_definite]에 합류하고 싶어 합니다.\n\n[asker_nameDef](은)는 초능력을 개발하는 데 필요한 정보가 모인 전초기지의 모든 위치를 알고 있습니다.\n\n[sitePart1_itemStashContents]\n\n주의하세요 - [asker_nameDef](을)를 받아들이면, [asker_factionName](와)과 적대가 됩니다! 왕실 분대가 즉시 공격할 것입니다.\n\n구성원:\n\n[raid/raidPawnKinds]\n\n[asker_factionName](와)과 맞서 싸우고 작위를 받지 않은채 초능력 주문을 비밀리에 개발하려는 경우에만 수락하세요. 전초기지를 옮겨버리기 전에 1년 안에 공격해야 합니다.</li>
+    <li>questDescription->[asker_titleIndef], [asker_nameFull](이)가 근처에서 호출합니다. [asker_pronoun]는 [asker_factionName]의 군대에게 버림을 받았고, (*Threat)제국 전투단(/Threat)에게 쫓기고 있습니다. [asker_pronoun]는 [map_definite]에 합류하고 싶어 합니다.\n\n[asker_nameDef](은)는 초능력 개발 정보를 보유한 모든 전초기지의 위치를 알고 있습니다.\n\n[sitePart1_itemStashContents]\n\n주의하세요 - [asker_nameDef](을)를 받아들이면, [asker_factionName](와)과 적대가 됩니다! 제국 전투단이 즉시 공격할 것입니다.\n\n구성원:\n\n[raid/raidPawnKinds]\n\n[asker_factionName](와)과 맞서 싸우고 작위 없이 초능력을 개발하려는 경우에만 수락하세요. 제국이 전초기지를 옮기기 전에 공격해야 합니다.</li>
   </Intro_Deserter.questDescriptionRules.rulesStrings>
   <Intro_Deserter.questNameRules.rulesStrings>
     <li>questName->탈영병</li>
   </Intro_Deserter.questNameRules.rulesStrings>
-  <Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>{BASETEXT}\n\n[asker_nameDef](을)를 받아들여, [asker_factionName](이)가 적대가 되었습니다.\n\n[asker_objective] 뒤쫓던 왕실 분대가 곧 도착합니다.</Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>
-  <Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>{BASELABEL}: 왕실 분대</Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>
-  <Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>{BASETEXT}\n\n[../asker_nameFull](을)를 뒤쫓던 왕실 분대입니다.\n              </Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>
+  <Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>{BASETEXT}\n\n[asker_nameDef](을)를 받아들여, [asker_factionName](이)가 적대가 되었습니다.\n\n[asker_objective] 뒤쫓던 제국 전투단이 곧 도착합니다.</Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>
+  <Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>{BASELABEL}: 제국 전투단</Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>
+  <Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>{BASETEXT}\n\n[../asker_nameFull](을)를 뒤쫓던 제국 전투단입니다.\n              </Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>
   <Intro_Deserter.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</Intro_Deserter.LetterLabelQuestExpired.slateRef>
   <Intro_Deserter.LetterTextQuestExpired.slateRef>제국 전초기지에 있던 초능력의 기밀이 포함된 물품들이 옮겨졌습니다.</Intro_Deserter.LetterTextQuestExpired.slateRef>
 </LanguageData>

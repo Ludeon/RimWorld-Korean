@@ -11,7 +11,7 @@
   <FirstSummerWarning>여름이 시작되었습니다! 그러나 겨울이 오고 있습니다.\n\n작물은 겨울의 추위 속에서는 자라지 못합니다. 그러니 겨울이 오기 전에 최대한 많은 음식과 작물을 보관하세요. 음식물이 상하는 것은 냉동고를 건설해 방지할 수 있습니다.\n\n파카를 만들거나 구입하거나 훔치거나 만들지 않으면 밖으로 나가서 얼어 죽을 수 있습니다.</FirstSummerWarning>
 
   <LetterRelationsChange_Hostile>{0} 세력과의 관계가 틀어져 이제 적대로 돌아섰습니다.</LetterRelationsChange_Hostile>  
-  <LetterRelationsChange_HostileGoodwillDescription>그들은 정착지와 상단을 주기적으로 습격하고, 거래도 거부할 것입니다. 관계를 개선하기 위해 상단이나 수송 포드를 이용하여 선물을 제공할 수 있습니다.\n\n우호도({0}) 가 {1} 아래로 떨어졌기 때문에 발생했습니다. 중립 관계를 다시 회복하려면 우호도가 {2} 에 도달해야 합니다.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>그들은 정착지와 상단을 주기적으로 습격하고, 거래도 거부할 것입니다. 관계를 개선하기 위해 상단이나 수송 포드를 이용하여 선물을 제공할 수 있습니다.\n\n우호도가({0}) {1} 아래로 떨어졌기 때문에 발생했습니다. 중립 관계를 다시 회복하려면 우호도가 {2}에 도달해야 합니다.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <LetterRelationsChange_NeutralFromHostile>{0} 세력과의 관계가 완화되어 더는 공격하지 않을 것입니다.</LetterRelationsChange_NeutralFromHostile>
   <LetterRelationsChange_NeutralFromHostileGoodwillDescription>우호도({1})가 {2}보다 높아졌기 때문에 발생했습니다. 우호도가 {3}보다 낮아지면 {0}(은)는 다시 적대 세력으로 돌아설 것입니다. 우호도가 {4} 이상이 되면 동맹이 되어 함께 싸워줄 것입니다.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
@@ -58,7 +58,7 @@
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort}(은)는 정착민과 다음과 같은 관계를 맺고 있습니다:</PawnHasTheseRelationshipsWithColonists>
 
   <LetterLabelAncientShrineWarning>고대 위협</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>{PAWN_nameDef}(이)가 고대의 구조물에 가까이 갈수록 불길한 느낌이 {PAWN_objective} 휘어잡습니다. {PAWN_pronoun}는 예감의 원인은 모르지만 그래도 이 오래된 구조물이 뭔가 커다란 위험을 지니고 있을 것 같다고 생각합니다.</AncientShrineWarning>
+  <AncientShrineWarning>고대의 구조물에 접근할수록 불길한 느낌이 {PAWN_nameDef}(을)를 휘어잡습니다. 확실한 증거는 없지만, {PAWN_pronoun}는 이 오래된 구조물 안에 뭔가 커다란 위협이 잠들어 있음을 예감합니다.</AncientShrineWarning>
 
   <StruckMineable>{0}(을)를 발견했습니다!</StruckMineable>
 
@@ -89,7 +89,7 @@
   <MentalStateReason_Trait>다음 특성 때문에 발생함: {0}.</MentalStateReason_Trait>
   <MentalStateReason_Hediff>다음 문제 때문에 발생함: {0}.</MentalStateReason_Hediff>
   <MentalStateReason_BondedHumanDeath>{0_definite}의 죽음 때문에 발생했습니다.</MentalStateReason_BondedHumanDeath>
-  <LastFactionRelationsEvent>마지막 사건은</LastFactionRelationsEvent>
+  <LastFactionRelationsEvent>마지막 계기</LastFactionRelationsEvent>
 
   <ViewRelatedQuest>관련된 임무 보기</ViewRelatedQuest>
   <ViewQuest>임무 보기</ViewQuest>
@@ -166,7 +166,7 @@
 
   <!-- Transport pods landed in enemy base -->
   <LetterLabelTransportPodsLandedInEnemyBase>공격 시작</LetterLabelTransportPodsLandedInEnemyBase>
-  <LetterTransportPodsLandedInEnemyBase>{0}에 수송포드가 도착했습니다.</LetterTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>{0}에 수송 포드가 도착했습니다.</LetterTransportPodsLandedInEnemyBase>
   <LetterShuttleLandedInEnemyBase>{0}에 왕복선이 도착했습니다.</LetterShuttleLandedInEnemyBase>
 
   <!-- Faction base defeated -->
@@ -180,11 +180,11 @@
 
   <!-- Long-range mineral scanner -->
   <LetterLabelFoundPreciousLump>귀금속 발견</LetterLabelFoundPreciousLump>
-  <LetterFoundPreciousLump>{WORKER_labelShort}(은)는 원거리 광물 스캐너를 이용하여 {0} 광맥을 발견했습니다.\n\n{1}일 동안 찾아가지 않는다면 다른 누군가 먼저 채굴해 갈지도 모릅니다.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>{WORKER_labelShort}(은)는 장거리 광물 탐색기를 사용하여 {0} 광맥을 발견했습니다.\n\n{1}일 동안 찾아가지 않는다면 다른 누군가 먼저 채굴해 갈지도 모릅니다.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
-  <LetterLabelDeepScannerFoundLump>지하구조 스캔</LetterLabelDeepScannerFoundLump>
-  <LetterDeepScannerFoundLump>{FINDER_nameDef}(은)는 지면 투과 탐색기를 사용하여 {0} 광맥을 발견했습니다!</LetterDeepScannerFoundLump>
+  <LetterLabelDeepScannerFoundLump>지하 자원 탐색</LetterLabelDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef}(이)가 지면 투과 탐색기를 사용하여 {0} 광맥을 발견했습니다!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <LetterLabelAmbushInExistingMap>매복</LetterLabelAmbushInExistingMap>
@@ -207,7 +207,7 @@
   <LetterRunWildMentalBreak>{0}(은)는 문명사회에 질려버렸습니다.\n\n{PAWN_pronoun}는 야생이 항상 자유가 넘친다는 것을 깨달았고, 세력을 떠나 동물들과 함께 살기로 결정했습니다.\n\n{PAWN_objective} 체포하거나 길들여 다시 데려올 수 있습니다.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <LetterCatatonicMentalBreak>{0}(은)는 정신적으로 쇠약해져 정신분열증을 앓고 있습니다. {PAWN_pronoun}는 며칠이 지난 뒤 회복됩니다.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0}(은)는 정신적인 충격 때문에 일시적인 신경쇠약 상태에 빠졌습니다. 며칠이 지난 뒤 자연 회복됩니다.</LetterCatatonicMentalBreak>
 
   <LetterLabelAICoreOffer>자아 인공지능 핵</LetterLabelAICoreOffer>
   <LetterAICoreOffer>{1}의 {PAWN_definite}(이)가 정보를 제공함: 우주선 건설에 필요한 자아 인공지능 핵의 위치를 알려주었습니다. 매우 희소한 가치가 있어 철저한 감시하에 보관 중입니다.\n\n관심이 있다면 통신 콘솔을 이용해 연락하세요.</LetterAICoreOffer>
@@ -313,7 +313,7 @@
   <LetterTechprintAppliedPartJustUnlocked>연구 시작에 필요한 기술청사진을 모두 투입했습니다! 이제 연구를 시작할 수 있습니다.</LetterTechprintAppliedPartJustUnlocked>
   <LetterTechprintAppliedPartNotUnlockedYet>연구 시작에 필요한 기술청사진 요구조건이 아직 충족되지 않았습니다. 현재 {0}개의 기술청사진이 적용되었으며, 앞으로 {1}개가 더 필요합니다.</LetterTechprintAppliedPartNotUnlockedYet>
   <LetterTechprintAppliedPartAlreadyUnlocked>기술청사진 요구조건은 이미 충족된 상태지만, 더 많은 기술청사진을 투입함으로써 {PROJECT_label}에 대한 추가적인 성과를 얻을 수 있었습니다. 남은 연구점수의 절반인 {0}점이 완료되었습니다.</LetterTechprintAppliedPartAlreadyUnlocked>
-  <LetterTechprintAppliedPartAlreadyResearched>이 연구는 이미 완전히 연구된 상태이므로 투입된 기술청사진으로부터 어떤 추가적인 성과도 얻지 못했습니다.</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>이 연구는 이미 완전히 끝난 상태이므로 기술청사진 투입으로 어떤 성과도 얻지 못했습니다.</LetterTechprintAppliedPartAlreadyResearched>
   <LetterTechprintAppliedPartExpAwarded>{PAWN_labelShort}(은)는 기술청사진을 통해 {1} 기술에서 {0} 경험치를 획득했습니다.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
@@ -332,7 +332,7 @@
   <LetterLabelMechClusterArrived>메카노이드 도착</LetterLabelMechClusterArrived>
   <LetterMechClusterArrived>메카노이드 군대가 도착했습니다.</LetterMechClusterArrived>
 
-  <LetterLabelSiteCountdownStarted>상단 감지됨</LetterLabelSiteCountdownStarted>
-  <LetterTextSiteCountdownStarted>상단이 감지되었습니다. {2}의 증원군 {1}(이)가 {0} 후 이 지역에 도착합니다.\n\n{1}(을)를 피하려면 상단을 재구성하고 이동하세요. 이제 {1}(이)가 도착할 때까지 남은 시간을 나타내는 타이머가 표시됩니다.</LetterTextSiteCountdownStarted>
+  <LetterLabelSiteCountdownStarted>상단 발각됨</LetterLabelSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>상단의 위치가 적에게 발각되었습니다. {2}의 {1}(이)가 {0} 후 해당 지역에 도착합니다.\n\n{1}(을)를 피하려면 상단을 재구성하고 이동하세요. {1}(이)가 도착할 때까지 남은 시간을 나타내는 타이머가 표시됩니다.</LetterTextSiteCountdownStarted>
 
 </LanguageData>

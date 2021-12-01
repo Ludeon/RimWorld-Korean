@@ -22,14 +22,14 @@
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle] 도착</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_name]의 [asker_faction_leaderTitle](이)가 도착했습니다.\n\n왕복선이 도착할 때까지 [shuttleDelayTicks_duration] 동안 보호하고 왕실의 요구를 충족시키세요.\n\n[asker_faction_leaderTitle](와)과 모두 동행하여 제국의 소함선으로 이동하여 새로운 삶을 시작할 수 있습니다.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
-  <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>왕복선 출발</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
+  <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>왕복선에 탑승해야 함</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
   <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>왕복선 도착</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
   <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>왕복선이 [asker_faction_leaderTitle](을)를 데려가기 위해 도착했습니다.\n\n[asker_faction_leaderTitle](와)과 모두 동행하여 제국의 소함선으로 이동하여 새로운 삶을 시작할 수 있습니다.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <EndGame_RoyalAscent.EndGameEndingText.slateRef>항성군주는 자신의 함선에 마련된 영광스런 귀족의 전당에 당신을 초대했습니다.\n\n당신은 제국에 완전히 합류하여 권력을 위해 투쟁할 수 있습니다. 아니면, 복잡한 정치 놀음을 피해 번화계의 사치와 쾌락을 누릴 수도 있습니다. 또는, 함선을 구입하여 오랜 시간 돌아가지 못했던 집으로 돌아갈 방법을 궁리할 수도 있습니다.\n\n미래는 모두 당신에게 달려있습니다.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <EndGame_RoyalAscent.EndGameIntroText.slateRef>제국의 왕복선을 타고 탈출했습니다!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
   <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>불행한 {SUBJECT_bestRoyalTitle}</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
   <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>기분을 유지하고 보호 임무를 받은 {SUBJECT_definite}의 기분이 오랫동안 최소 수치인 [lodgersMoodThreshold] 보다 낮았습니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
-  <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>사망한 방문객: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>방문객 사망: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>보호하기로 한 {SUBJECT_definite}(이)가 사망했습니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
   <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>포획된 방문객: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
   <EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>보호 임무를 맡은 {SUBJECT_definite}(이)가 잡혀갔습니다. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>

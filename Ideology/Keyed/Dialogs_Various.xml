@@ -158,13 +158,16 @@
   <ChooseOnlySlavesInfo>노예만 선택할 경우 모든 노예가 정착민이 된 채로 플레이합니다.</ChooseOnlySlavesInfo>
   <ConfirmDecisionsTitle>확인</ConfirmDecisionsTitle>
   <ShipEscapeWillEndDescription>AI (*Name)샬론 화이트스톤(/Name)이 보고한 우주선은 새로운 정착지가 건설될 때 날아갈 것입니다. 더 이상 이 우주선으로 여행하여 행성을 탈출할 수 없습니다.</ShipEscapeWillEndDescription>
-  <RemoveEquippedRelicsDescription>정착지 구매자는 유물을 하나만 가져갈 수 있습니다. 선택하지 않은 모든 유물은 다음을 포함하여 남게 됩니다.</RemoveEquippedRelicsDescription>
-  <WantToProceed>계속 하시겠습니까?</WantToProceed>
+  <ArchonexusRelicNotChosen>No relic was chosen to be brought to the new colony.</ArchonexusRelicNotChosen><!--text_todo-->
+  <ArchonexusItemsNotChosen>{0} out of a possible {1} items were selected to be brought to the new colony.</ArchonexusItemsNotChosen><!--text_todo-->
+  <RemoveEquippedRelicsDescription>The colony's purchasers will only allow you to take one relic. Any relic not selected, even if equipped by a colonist, will be left behind, including:</RemoveEquippedRelicsDescription><!--text_todo-->
+  <WantToProceed>Would you like to proceed? There's no going back from here.</WantToProceed><!--text_todo-->
   <ConvertToPlayerIdeoligion>교화</ConvertToPlayerIdeoligion>
   <RevertToPreviousIdeoligion>되돌리기</RevertToPreviousIdeoligion>
   <ExistingFollowerOfPlayerIdeoligion>이 사상을 믿는 사람들</ExistingFollowerOfPlayerIdeoligion>
   <AbandonArchotechStructuresWarningDialog>조사가 끝나지 않은 초월공학 구조물이 위치한 지역을 포기하려 하고 있습니다.\n\n나중에 이 곳에 다시 정착할 수 있지만, 지금의 정착지는 파괴됩니다.</AbandonArchotechStructuresWarningDialog>
   <ItemQuantityTooltip>새 정착지로 가져올 수 있는 수량 {0}개\n\n최대 허용 수량: {1}</ItemQuantityTooltip>
+  <SoldColonyDescription>Your colony was sold. Its purchasers are ready for you to choose where to land next.</SoldColonyDescription><!--text_todo-->
 
   <ConfirmHackEnenyTerminal>{0}(을)를 해킹하면 적들이 공격해올 것입니다. 정말 {0}(을)를 해킹하시겠습니까?</ConfirmHackEnenyTerminal>
 

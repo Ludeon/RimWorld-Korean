@@ -9,28 +9,28 @@
   <MakeHeirPreviousHeirWarning>이 행위는 {HOLDER_possessive}의 현재 후계자인 {HEIR_nameFull}의 분노를 부를 것입니다.</MakeHeirPreviousHeirWarning>
 
   <!-- Call aid -->
-  <CommandCallRoyalAid>근위대 증원 요청</CommandCallRoyalAid>
-  <CommandCallRoyalAidDesc>특별 허가증을 사용해 지원을 요청합니다.\n\n각 유형의 지원은 처음에 무료로 사용할 수 있으며, 다시 무료 요청이 가능해지려면 긴 시간이 필요합니다. 지원을 자주 사용할수도 있지만, 신임장을 소모합니다.</CommandCallRoyalAidDesc>
-  <CommandCallRoyalAidLodger>방문객은 증원을 요청할 수 없습니다.</CommandCallRoyalAidLodger>
-  <CommandCallRoyalAidSlave>노예는 허가증을 사용할 수 없습니다.</CommandCallRoyalAidSlave>
+  <CommandCallRoyalAid>지원 요청</CommandCallRoyalAid>
+  <CommandCallRoyalAidDesc>제국으로부터 부여받은 지원 요청 권한을 사용합니다.\n\n각각의 지원은 무상으로 요청할 수 있지만, 연이어 요청하기 위해서는 신임장이 필요합니다. 다시 무상 요청이 가능해지려면 긴 준비 기간이 필요합니다. </CommandCallRoyalAidDesc>
+  <CommandCallRoyalAidLodger>방문객은 지원을 요청할 수 없습니다.</CommandCallRoyalAidLodger>
+  <CommandCallRoyalAidSlave>노예는 지원을 요청할 수 없습니다.</CommandCallRoyalAidSlave>
   <CommandCallRoyalAidFactionHostile>{FACTION_name}(와)과 적대하고 있습니다.</CommandCallRoyalAidFactionHostile>
   <CommandCallRoyalAidFreeOption>무료</CommandCallRoyalAidFreeOption>
   <CommandCallRoyalAidFavorOption>{0}일 동안 {FACTION_royalFavorLabel} {1}개 필요</CommandCallRoyalAidFavorOption>
-  <CommandCallRoyalAidWarningNonHostileFactions>지원을 요청하려고 하지만, {0_name}(이)가 적대적이지 않은 사람들이 있습니다. 지원 병력들은 그들을 공격하지 않습니다: {1}</CommandCallRoyalAidWarningNonHostileFactions>
-  <CommandCallRoyalAidNotEnoughFavor>신임장 부족함</CommandCallRoyalAidNotEnoughFavor>
+  <CommandCallRoyalAidWarningNonHostileFactions>제국에 지원을 요청했지만, 일부 적 세력은 {0_name}(와)과 적대적이지 않습니다. 지원 병력은 {1}에 소속된 사람들을 공격하지 않을 것입니다.</CommandCallRoyalAidWarningNonHostileFactions>
+  <CommandCallRoyalAidNotEnoughFavor>신임장이 부족합니다.</CommandCallRoyalAidNotEnoughFavor>
   
   <!-- Call laborers -->
   <CommandCallLaborers>작업자 호출</CommandCallLaborers>
-  <CommandCallLaborersDesc>특수 허가증을 사용하여 동맹의 일꾼 무리를 호출할 수 있습니다. 이 일꾼들은 작업만 가능하지만, 정착민처럼 통제가 가능합니다. 안전하게 지켜주세요.</CommandCallLaborersDesc>
-  <CommandOnCooldown>재사용 대기 중. {0} 일 남음.</CommandOnCooldown>
+  <CommandCallLaborersDesc>동맹으로부터 작업자들을 지원받을 수 있습니다. 이들은 작업만 가능하지만, 정착민처럼 제어가 가능합니다. 안전하게 지켜주세요.</CommandCallLaborersDesc>
+  <CommandOnCooldown>{0}일 후 재사용 가능합니다.</CommandOnCooldown>
   <CommandCallLaborersNumLaborers>작업자 {0}명</CommandCallLaborersNumLaborers>
 
   <!-- Abilities -->
-  <CommandPsycastWouldExceedEntropy>정신력 혼돈치가 안전한도를 초과했습니다.</CommandPsycastWouldExceedEntropy>
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}(은)는 초집중 {0}(을)를 사용하지만, {CASTERNAME}의 초집중은 {1} 뿐입니다.</CommandPsycastNotEnoughPsyfocus>
-  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME}(은)는 {1}의 정신이상을 멈추기 위해 {0} 초집중이 필요하지만, {CASTERNAME}의 초집중은 {2} 뿐입니다.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
-  <CommandPsycastHigherLevelPsylinkRequired>{0} 단계 정신력 증폭기가 필요합니다.</CommandPsycastHigherLevelPsylinkRequired>
-  <CommandPsycastZeroPsychicSensitivity>정신 민감도가 없습니다.</CommandPsycastZeroPsychicSensitivity>
+  <CommandPsycastWouldExceedEntropy>신경열이 한계를 초과했습니다.</CommandPsycastWouldExceedEntropy>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}(은)는 {0} 초집중을 소모하지만, {CASTERNAME}이 지닌 초집중은 {1} 뿐입니다.</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME}(은)는 {1}의 정신이상을 멈추기 위해 {0} 초집중이 필요하지만, {CASTERNAME}이 지닌 초집중은 {2} 뿐입니다.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
+  <CommandPsycastHigherLevelPsylinkRequired>{0}단계 정신력 증폭이 필요합니다.</CommandPsycastHigherLevelPsylinkRequired>
+  <CommandPsycastZeroPsychicSensitivity>정신 감응력이 없습니다.</CommandPsycastZeroPsychicSensitivity>
   <CommandPsycastPawnIsUnconscious>정신을 잃은 상태입니다.</CommandPsycastPawnIsUnconscious>
   <CommandPsycastLowPsyfocus>이 초능력을 시전하려면 적어도 {0} 초집중이 필요합니다.</CommandPsycastLowPsyfocus>
   <NeuralHeatLetter>H</NeuralHeatLetter>
@@ -42,15 +42,15 @@
 
   <!-- Warn in building radius -->
   <CommandWarnInBuildingRadius>건설 반경 경고</CommandWarnInBuildingRadius>
-  <CommandWarnInBuildingRadiusDesc>너무 가까이 있어서 명상에 방해된다면, 이 물체는 구상메뉴를 사용하여 배치한 건물에 빨간색 선을 보여줍니다.\n\n명상에 사용할 생각이 없다면 이 기능을 끌 수 있습니다.</CommandWarnInBuildingRadiusDesc>
+  <CommandWarnInBuildingRadiusDesc>이 기능을 활성화하면 이 물체의 명상 효율을 낮추는 인공물이 빨간색 선으로 표시됩니다.\n\n명상에 사용할 생각이 없다면 이 기능을 끌 수 있습니다.</CommandWarnInBuildingRadiusDesc>
   
   <!-- Permits -->
-  <ChooseRoyalPermit>허가증 선택</ChooseRoyalPermit>
-  <ChooseRoyalPermit_Desc>허가증 선택화면을 열고 새로운 허가증을 선택하세요.</ChooseRoyalPermit_Desc>
+  <ChooseRoyalPermit>지원 요청 선택</ChooseRoyalPermit>
+  <ChooseRoyalPermit_Desc>지원 요청 선택 버튼을 눌러 새로운 지원 요청 권한을 획득하세요.</ChooseRoyalPermit_Desc>
 
   <CommandLeaveBestowingCeremony>수여식 떠나기</CommandLeaveBestowingCeremony>
   <CommandLeaveBestowingCeremonyDesc>수여식 참여를 중단합니다.</CommandLeaveBestowingCeremonyDesc>
   <CommandCancelBestowingCeremony>수여식 취소</CommandCancelBestowingCeremony>
-  <CommandCancelBestowingCeremonyDesc>수여식을 즉시 끝냅니다. 수여자는 떠나게 되지만, 수여식을 다시 할 기회가 찾아올 것입니다.</CommandCancelBestowingCeremonyDesc>
+  <CommandCancelBestowingCeremonyDesc>수여식을 즉시 끝냅니다. 수여자는 일단 떠나게 되지만, 곧 다음 기회가 찾아올 것입니다.</CommandCancelBestowingCeremonyDesc>
   <CommandCancelBestowingCeremonyConfirm>정말 수여식을 취소하시겠습니까?</CommandCancelBestowingCeremonyConfirm>
 </LanguageData>

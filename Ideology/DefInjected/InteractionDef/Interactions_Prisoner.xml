@@ -3,7 +3,7 @@
   <EnslaveAttempt.label>노예화 시도</EnslaveAttempt.label>
   <EnslaveAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 이제 [RECIPIENT_pronoun](은)는 정착지를 위해 일해야 한다고 말함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun](은)는 명령에 복종하고 일해야 한다고 가르침.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun]는 명령에 복종하고 일해야 한다고 가르침.</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 강제 노동이나 하며 일생을 보낼 준비를 하라고 선포함.</li>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun]가 일하지 않는다면 처벌 받을 것이라고 협박함.</li>
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
@@ -13,7 +13,7 @@
     <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 너는 [negative] 말함.</li>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](은)는 [negative] 설명해 줌.</li>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun](이)가 [refused] [threat] 위협함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun][disillusionment] 알려줌.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [RECIPIENT_pronoun]는 [disillusionment] 알려줌.</li>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 정착지에 [givein] 요구함.</li>
     <li>negative->미래가 없다고</li>
     <li>negative->도망칠 곳이 없다고</li>
@@ -42,10 +42,10 @@
     <li>refused->항복을 거부한다면</li>
     <li>refused->복종하길 거부한다면</li>
     <li>refused->건방지게 행동한다면</li>
-    <li>disillusionment->(이)가 [RECIPIENT_possessive] 상황에 순응해야 한다고</li>
-    <li>disillusionment->(은)는 새로운 미래로의 희망이 없다고</li>
-    <li>disillusionment->(이)가 복종하는 것이 좋다고</li>
-    <li>disillusionment->(은)는 [RECIPIENT_pronoun] 혼자서는 생존할 수 없다고</li>
+    <li>disillusionment->[RECIPIENT_possessive] 상황에 순응해야 한다고</li>
+    <li>disillusionment->새로운 미래따윈 없다고</li>
+    <li>disillusionment->복종하는 것이 좋다고</li>
+    <li>disillusionment->[RECIPIENT_pronoun] 혼자서 생존할 수 없다고</li>
     <li>disillusionment->복종하는 방법 밖에 없다고</li>
     <li>givein->굴복하라고</li>
     <li>givein->복종하라고</li>

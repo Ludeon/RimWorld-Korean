@@ -32,7 +32,7 @@
   <CreateWorld>세계 생성</CreateWorld>
 
   <!-- Main menu translations info window -->
-  <TranslationThanks>림월드의 모든 현지화 작업은 팬들의 손으로 이뤄집니다.\n\n팬들이 만든 이 번역 작업의 구성원은 다음과 같습니다.\n\n{0}</TranslationThanks>
+  <TranslationThanks>림월드의 모든 현지화 작업은 팬들의 손으로 이뤄집니다. 한국어 번역에 참여해 주신 분들의 목록은 다음과 같습니다.\n\n{0}</TranslationThanks>
   <TranslationHowToContribute>여러분도 기여할 수 있습니다. 자세한 내용은 아래에서 확인해 주세요.</TranslationHowToContribute>
   <LearnMore>더 알아보기</LearnMore>
 
@@ -144,7 +144,7 @@
   <ConfirmSteamWorkshopUpload>정말 업로드하시겠습니까?\n\n스팀 창작마당 서비스 약관에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <ConfirmContentAuthor>스스로 제작한 것만 올릴 수 있습니다.\n\n직접 만드셨나요?</ConfirmContentAuthor>
   <Incompatible>호환되지 않음</Incompatible>
-  <TagAsTranslation>번역으로 태그 지정</TagAsTranslation>
+  <TagAsTranslation>번역 태그로 지정</TagAsTranslation>
   <TooMany>너무 많음 (최대 {0}): </TooMany>
   <CanBeUpdatedOnWorkshop>제작자 본인인 경우에만 창작마당 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
   
@@ -217,8 +217,8 @@
   <Difficulty_DiseaseIntervalFactor_Inverted_Info>무작위 질병 사건의 빈도를 조정합니다.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <Difficulty_EnemyReproductionRateFactor_Label>곤충 생성률</Difficulty_EnemyReproductionRateFactor_Label>
   <Difficulty_EnemyReproductionRateFactor_Info>곤충 군락이 새로운 곤충을 생성하는 속도를 조정합니다. 값이 낮을수록 생성되기까지 더 많은 시간이 걸립니다.\n\n이는 곤충군락 생성여부에 영향을 주지 않으며 군락에서 곤충이 생성되는 속도에만 영향을 미칩니다.</Difficulty_EnemyReproductionRateFactor_Info>
-  <Difficulty_DeepDrillInfestationChanceFactor_Label>심층채굴 곤충군락</Difficulty_DeepDrillInfestationChanceFactor_Label>
-  <Difficulty_DeepDrillInfestationChanceFactor_Info>심층채굴로 인한 곤충군락을 유발할 확률을 조정합니다.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>굴착으로 인한 곤충 자극</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>굴착 작업이 지하의 곤충을 자극할 확률을 조정합니다.</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <Difficulty_PeacefulTemples_Inverted_Label>지도 고대위협 생성</Difficulty_PeacefulTemples_Inverted_Label>
   <Difficulty_PeacefulTemples_Inverted_Info>고대 구조물에는 위험한 위협이 포함될 수 있습니다.</Difficulty_PeacefulTemples_Inverted_Info>
   <Difficulty_AllowCaveHives_Label>지도 자연동굴 생성</Difficulty_AllowCaveHives_Label>
@@ -232,7 +232,7 @@
   <Difficulty_AllowMortars_Label>박격포 건설 가능</Difficulty_AllowMortars_Label>
   <Difficulty_AllowMortars_Info>플레이어는 박격포를 만들 수 있습니다.\n\n이 설정을 비활성했더라도 박격포를 포획했다면 사용 가능합니다.</Difficulty_AllowMortars_Info>
   <Difficulty_ClassicMortars_Label>기존 박격포</Difficulty_ClassicMortars_Label>
-  <Difficulty_ClassicMortars_Info>박격포의 건설과 재장전에 강화 포신이 필요하지 않은 대신, 그에 맞춰 밸런스가 조정됩니다.</Difficulty_ClassicMortars_Info>
+  <Difficulty_ClassicMortars_Info>박격포 운용에 강화 포신이 필요하지 않게 되는 대신, 그에 맞춰 밸런스가 조정됩니다.</Difficulty_ClassicMortars_Info>
   
   <DifficultyAdaptationSection>각색</DifficultyAdaptationSection>
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>피해 각색 성장</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
@@ -287,7 +287,7 @@
   <!-- Character chooser -->
   <CreateCharacters>캐릭터 생성</CreateCharacters>
   <FirstNameDesc>캐릭터의 이름입니다.\n\n특정한 메뉴에서만 보여집니다.</FirstNameDesc>
-  <ShortIdentifierDesc>게임 속에서 항상 표시되는 캐릭터의 별명입니다.\n\n이름의 일부를 그대로 사용해도 되고 새로운 닉네임을 부여해도 됩니다.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>게임 속에서 항상 표시되는 캐릭터의 별명입니다.\n\n이름의 일부를 그대로 사용해도 되고 새로운 별명을 부여해도 됩니다.</ShortIdentifierDesc>
   <LastNameDesc>캐릭터의 성입니다.\n\n특정한 메뉴에서만 보여집니다.</LastNameDesc>
   <Randomize>섞기</Randomize>
   <AgeIndicator>나이 {0}</AgeIndicator>

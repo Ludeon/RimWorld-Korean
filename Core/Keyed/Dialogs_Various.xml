@@ -102,7 +102,7 @@
   <WorldFileVersionMismatch>이 세계는 버전 {0}에서 생성되었습니다.\n현재 버전은 {1}입니다.\n\n파일을 불러올 경우 호환성에 문제가 발생할 수 있습니다. 새로운 세계를 생성하는 편이 좋습니다.</WorldFileVersionMismatch>
   <FileIncompatibleWarning>이 파일은 버전 {0}에서 저장되었습니다.\n현재 버전은 {1}입니다.\n\n파일을 불러올 경우 호환성에 문제가 발생할 수 있습니다.</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>모드 불일치</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>이 파일은 현재 활성화된 모드와 다른 모드를 사용합니다. 불러오려는 시도는 모드에 따라 성공할 수도, 실패할 수도 있습니다.\n\n해당 파일의 모드 목록 순서:\n\n{0}\n\n현재 사용중인 모드 목록 순서:\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>이 파일은 현재 활성화된 모드와 다른 모드를 사용합니다. 불러오려는 시도는 모드에 따라 성공할 수도, 실패할 수도 있습니다.\n\n해당 파일의 모드 목록 순서:\n\n{0}\n\n현재 사용 중인 모드 목록 순서:\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>변경한 해상도가 정상적으로 적용되고 있습니까?\n\n{0}초 후에 이전 해상도로 되돌아 갑니다.</ConfirmResolutionChange>
@@ -176,6 +176,7 @@
   <BurstShotCount>연발횟수</BurstShotCount>
   <WarmupTime>조준시간</WarmupTime>
   <MeleeWarmupTime>근거리 조준시간</MeleeWarmupTime>
+  <RangedWarmupTime>발사준비시간</RangedWarmupTime> <!-- text_todo -->
   <CooldownTime>대기시간</CooldownTime>
   <DisarmedTime>무장해제시간</DisarmedTime>
   <ChargingTime>충전 중</ChargingTime>
@@ -218,11 +219,11 @@
   <CreatedAt>생산 시설</CreatedAt>
   <Layer>착용 위치</Layer>
   <CoverEffectiveness>엄폐율</CoverEffectiveness>
-  <CoverEffectivenessExplanation>숫자가 높을 수록 총격전에서 엄폐물로 사용될 때 효과적으로 총알을 막아냅니다.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>숫자가 높을수록 총격전에서 엄폐물로 사용할 때 효과적으로 총알을 막아냅니다.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>경험치 획득 계수</MedicineXpGainFactor>
   <MoodChange>기분 변화</MoodChange>
   <Wildness>야성</Wildness>
-  <WildnessExplanation>야성이 높을수록 조련하기도 어렵습니다.</WildnessExplanation>
+  <WildnessExplanation>야성이 높을수록 길들이거나 훈련하기 어렵습니다.</WildnessExplanation>
   <TrainingDecayInterval>훈련수치 감소 간격</TrainingDecayInterval>
   <TamenessWillNotDecay>매우 낮은 야성을 가진 동물의 유대감은 감소하지 않습니다.</TamenessWillNotDecay>
   <TamenessWillNotDecayFenceBlocked>울타리를 넘지 못하는 동물의 유대감은 감소하지 않습니다.</TamenessWillNotDecayFenceBlocked>
@@ -247,7 +248,7 @@
   <RandomODChance>과다복용 확률</RandomODChance>
   <AlwaysSafe>항상 안전함</AlwaysSafe>
   <NeverSafe>안전하지 않음</NeverSafe>
-  <PerDay>{0} / 일</PerDay>
+  <PerDay>{0}/일</PerDay>
   <PerHour>{0}/시간</PerHour>
   <PackAnimal>짐꾼</PackAnimal>
   <PackAnimalExplanation>상단의 짐을 멀리 운송하는데 적합한지의 여부입니다.</PackAnimalExplanation>
@@ -261,13 +262,13 @@
   <NuzzleInterval>애교 빈도</NuzzleInterval>
   <NuzzleIntervalExplanation>동물이 우호적인 정착민들에게 얼마나 자주 애교를 부리는지 나타내는 수치입니다.\n\n대부분의 사람들은 동물의 애정어린 행동을 접하면 한동안 기분이 좋아집니다.</NuzzleIntervalExplanation>
   <HarmedRevengeChance>보복 확률</HarmedRevengeChance>
-  <HarmedRevengeChanceExplanation>이 생물이 피해를 입었을 때 반격 할 확률입니다.\n\n이 확률은 최대 3배까지 증가합니다.\n\n이 확률은 피해를 입을 때마다 적용됩니다. 즉 발사 속도가 느리고, 데미지가 높은 무기는 상대적으로 반격할 확률이 적습니다.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>이 생물이 피해를 입었을 때 반격 할 확률입니다.\n\n이 확률은 최대 3배까지 증가합니다.\n\n이 확률은 피해를 입을 때마다 적용됩니다. 즉 발사 속도가 느리고, 피해량이 높은 무기는 상대적으로 반격할 확률이 적습니다.</HarmedRevengeChanceExplanation>
   <TameFailedRevengeChance>길들이기 실패시 보복 확률</TameFailedRevengeChance>
   <TerrainRequirement>지형 요구사항</TerrainRequirement>
   <Supports>지원</Supports>
   <TrapArmorPenetration>함정 관통력</TrapArmorPenetration>
   <RearmCost>재장전 비용</RearmCost>
-  <RearmCostExplanation>포탑을 재장전하기 위해 필요한 자원입니다.</RearmCostExplanation>
+  <RearmCostExplanation>포탑을 재장전하는 데 필요한 자원입니다.</RearmCostExplanation>
   <ShotsBeforeRearm>공격 가능 횟수</ShotsBeforeRearm>
   <ShotsBeforeRearmExplanation>재장전되기 전까지 포탑이 얼마나 많이 공격할 수 있는지를 나타냅니다.</ShotsBeforeRearmExplanation>
   <PowerConsumption>전력 소비</PowerConsumption>
@@ -391,8 +392,8 @@
   <InventoryMass>적재 중량</InventoryMass>
   <CaravanFormationProcessStarted>정착민들이 할당된 아이템들을 모아서 이 지역을 떠날 것입니다.</CaravanFormationProcessStarted>
   <ReformCaravan>상단 재구성</ReformCaravan>
-  <ColonistsSection>정착민</ColonistsSection>
-  <PrisonersSection>수감자</PrisonersSection>
+  <ColonistsSection>정착민들</ColonistsSection>
+  <PrisonersSection>수감자들</PrisonersSection>
   <CaptureSection>포획</CaptureSection>
   <AnimalsSection>동물들</AnimalsSection>
   <ChooseRouteButton>경로 선택</ChooseRouteButton>
@@ -427,7 +428,7 @@
   <!-- Load transporters -->
   <LoadTransporters>{0} 적재</LoadTransporters>
   <TooBigTransportersMassUsage>할당된 내용물이 수송 포드에 싣기에 너무 무겁습니다.</TooBigTransportersMassUsage>
-  <TooBigTransporterSingleMassUsage>할당된 내용물이 셔틀에 싣기에 너무 무겁습니다.</TooBigTransporterSingleMassUsage>
+  <TooBigTransporterSingleMassUsage>할당된 내용물이 왕복선에 싣기에 너무 무겁습니다.</TooBigTransporterSingleMassUsage>
   <CantSendEmptyTransportPods>빈 수송 포드는 발사할 수 없습니다.</CantSendEmptyTransportPods>
   <CantSendEmptyTransporterSingle>빈 왕복선은 발사할 수 없습니다.</CantSendEmptyTransporterSingle>
   <PawnCantReachTransporters>{1_labelShort}(이)가 수송 포드에 접근할 수 없습니다.</PawnCantReachTransporters>
@@ -466,8 +467,8 @@
   <SelectDrugPolicy>정책 선택</SelectDrugPolicy>
   <NewDrugPolicy>새 정책</NewDrugPolicy>
   <DeleteDrugPolicy>정책 삭제</DeleteDrugPolicy>
-  <DrugPolicyInUse>{0}(이)가 정책 사용 중</DrugPolicyInUse>
-  <FoodRestrictionInUse>{0}(이)가 음식 정책 사용 중</FoodRestrictionInUse>
+  <DrugPolicyInUse>{0}(이)가 정책에 따라 약물 복용 중</DrugPolicyInUse>
+  <FoodRestrictionInUse>{0}(이)가 정책에 따라 음식 섭취 중</FoodRestrictionInUse>
   <NoDrugPolicySelected>약물 정책 없음</NoDrugPolicySelected>
   <AddDrug>약물 추가</AddDrug>
   <DrugColumnLabel>약물</DrugColumnLabel>
@@ -528,7 +529,7 @@
   <!-- Abandon pawn -->
   <ConfirmBanishPawnDialog>정말 {1_label}(을)를 버리시겠습니까?</ConfirmBanishPawnDialog>
   <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort}(은)는 죽을 것입니다.</ConfirmBanishPawnDialog_LeftToDie>
-  <ConfirmBanishPawnDialog_Items>{1_labelShort}(은)는 다음 품목들을 가져감:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort}(이)가 다음 물품을 가져갈 것입니다:</ConfirmBanishPawnDialog_Items>
   <ConfirmBanishPawnDialog_AllColonistsThoughts>모든 정착민이 다음 영향을 받음:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <ConfirmBanishPawnDialog_IndividualThoughts>{1_labelShort}(을)를 버리면 아래 정착민들이 다음 영향을 받음:</ConfirmBanishPawnDialog_IndividualThoughts>
 

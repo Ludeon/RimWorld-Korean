@@ -40,9 +40,9 @@
     <li>setup->우리 세계의 잘못된 점에 충격을 받으신 [founderName]께서는 역사와 철학을 공부하신 후 우리를 이끌 새로운 진리를 발견하셨다.</li>
     <li>setup->[founderName]께서 평소와 다름없이 일을 하시던 어느 날의 어느 순간, 창시자께서는 위대한 계시를 받으셨다. 바로 연장을 내려놓으신 그분께서 다른 작업자들에게 [founder_possessive] 말씀을 전하시길 시작하셨다.</li>
     <li>setup->[founderName]께서는 공원 의자에 앉아 이십 년간 우리 세계에 대한 고찰을 하셨다. 마침내 통찰을 얻으신 창시자께서는 우리의 사상을 정립하는 책을 집필하셨다.</li>
-    <li>story(uses=1,priority=-10)->[founderName]께서 해주신 가르침이 없었더라면 [memberName]들이 [memeConcept]의 본질을 이해하는 일은 없었을 것이다.</li>
+    <li>story(uses=1,priority=-10)->[founderName]께서 해주신 가르침이 없었더라면 [memberNamePlural]들이 [memeConcept]의 본질을 이해하는 일은 없었을 것이다.</li>
     <li>story(uses=1,priority=-10)->[founderName]께서 [ritualName]에서 하신 연설에 탄복한 많은 사람들이 [memeAdjective] 삶을 따르기 시작했다.</li>
-    <li>story(uses=1,priority=-10)->[founderName]께서 가지신 [memeConcept]에 대한 이해는 그 누구도 당해낼 수 없었으니 곧 [memberName]들의 첫 [leaderTitle](으)로 선정되셨다.</li>
+    <li>story(uses=1,priority=-10)->[founderName]께서 가지신 [memeConcept]에 대한 이해는 그 누구도 당해낼 수 없었으니 곧 [memberNamePlural]들의 첫 [leaderTitle](으)로 선정되셨다.</li>
     <li>story(uses=1,priority=-10)->[founderName](은)는 [relic0_name](이)라는 [relic0_thingDef_label](을)를 항상 소지하고 다니시면서 모든 이에게 [memeAdjective] 삶의 중요성을 일깨우셨다.</li>
   </IdeologicalFounder.rules.rulesStrings>
   
@@ -112,21 +112,21 @@
   
   <TheistFounder.rules.rulesStrings>
     <li>intro->[place_summary] [place_name]의 사람들이 [deity0_name]의 [memeAdjective] 시선 아래 살았으니</li>
-    <li>intro->[place_summary] [place_name]의 [memberName]들(와)과 다른 이들이 모두 오랫동안 평화로이 살았으니 [deity0_name]께서 이를 보고 계심이라.</li>
+    <li>intro->[place_summary] [place_name]의 [memberNamePlural]들(와)과 다른 이들이 모두 오랫동안 평화로이 살았으니 [deity0_name]께서 이를 보고 계심이라.</li>
     <li>intro->[deity0_type] [deity0_name]께서 [place_name]의 모든 사람에게 모습을 보이시니 이는 그들이 [memeConcept](을)를 깨닫게 하기 위함이고 그들을 인도하기 위함이니라.</li>
     <li>intro->[deity0_name]께서 인류를 [place_name](으)로 이끄시어 정착을 도우시니라.</li>
     <li>intro->[place_summary] [place_name]에서 [ritualName](이)가 열리니 무릇 사람이 [altarRoomLabel] 안의 [altarName](으)로 모여 그들 심장의 [memeConcept](을)를 [deity0_name]께 기도 드리더라.</li>
     <li>conflict->어느 [foeLeader](이)가 나타나 [place_massWeapon](으)로 [deity0_name](을)를 파괴하겠다 위협하더라.</li>
     <li>conflict->악한 무리의 [foeLeader](이)가 [foeSoldiers](을)를 이끌고 나타나 [deity0_name]의 신자들을 모두 노예로 삼더라.</li>
     <li>conflict->곧 [foeLeader](이)가 나타나 [foeSoldiers](으)로 하여금 [deity0_name]의 많은 신자를 [place_personalWeapon](으)로 죽이게 하더라.</li>
-    <li>conflict->끔찍한 [foeLeader]의 아래에 [foeSoldiers](이)가 모이니 [memberName]들을 어느 [place_community]에 가둬놓더라.</li>
-    <li>conflict->[foeLeader](이)가 [foeLeader_possessive] [foeSoldiers](을)를 이끌고 [deity0_name]의 지배에 반기를 들었으니 평화가 깨지매 [memberName]들(은)는 숨겨진 [place_community](으)로 몸을 피하게 되었니라.</li>
-    <li>founderJoin->[founderName](이)라는 이름을 가진 자가 [foeLeader](을)를 찾아가 암살을 하려 하되 실패했으니 [deity0_name]께서 [founderName]의 투쟁을 보고 [memberName]들의 영웅이요 예언자로 삼으시니라.</li>
+    <li>conflict->끔찍한 [foeLeader]의 아래에 [foeSoldiers](이)가 모이니 [memberNamePlural]들을 어느 [place_community]에 가둬놓더라.</li>
+    <li>conflict->[foeLeader](이)가 [foeLeader_possessive] [foeSoldiers](을)를 이끌고 [deity0_name]의 지배에 반기를 들었으니 평화가 깨지매 [memberNamePlural]들은 숨겨진 [place_community](으)로 몸을 피하게 되었니라.</li>
+    <li>founderJoin->[founderName](이)라는 이름을 가진 자가 [foeLeader](을)를 찾아가 암살을 하려 하되 실패했으니 [deity0_name]께서 [founderName]의 투쟁을 보고 [memberNamePlural]들의 영웅이요 예언자로 삼으시니라.</li>
     <li>founderJoin->어느 [place_job](이)가 있었으니 그 이름이 [founderName]이더라. [deity0_name]께서 [revelationAdverb] [founder_pronoun]에게 [memeConcept](을)를 가르치셨더라.</li>
     <li>founderJoin->[founderName](이)가 [revelationObject](을)를 마주치니 [deity0_name]의 목소리로 [memeConcept]의 계시를 전달하더라.</li>
-    <li>founderJoin->[founderName](이)가 존경을 받는 [place_job]이니 [memberName]들을 결집하매 심지어 몇몇 [foeSoldiers]도 따르더라.</li>
+    <li>founderJoin->[founderName](이)가 존경을 받는 [place_job]이니 [memberNamePlural]들을 결집하매 심지어 몇몇 [foeSoldiers]도 따르더라.</li>
     <li>founderJoin->[founderName](이)라는 이름의 [place_job](이)가 홀로 일어서 [foeLeader](을)를 꾸짖으니 [deity0_name]께서 [founderName](을)를 축복하시니라.</li>
-    <li>founderJoin->마침내 [deity0_name]께서 인간의 모습으로 [place_name]에 내려오시어 [founderName]의 이름으로 [memberName]들에게 도움을 주시더라.</li>
+    <li>founderJoin->마침내 [deity0_name]께서 인간의 모습으로 [place_name]에 내려오시어 [founderName]의 이름으로 [memberNamePlural]들에게 도움을 주시더라.</li>
     <li>founderJoin->영웅이 나타나 [foeSoldiers](을)를 [place_personalWeapon](으)로 물리치매 [deity0_name]께서 [relic0_name]의 목소리로서 [founder_pronoun]를 이끄시니 [founderName](이)가 영웅의 이름이더라.</li>
     <li>victory->[founderName](이)가 [memberName]들을 [place_community](으)로 모아 [deity0_name]의 지혜를 설파하니라.</li>
     <li>victory->마침내 [founderName](이)가 희생하니 [foeLeader](을)를 찾아볼 수 없더라.</li>

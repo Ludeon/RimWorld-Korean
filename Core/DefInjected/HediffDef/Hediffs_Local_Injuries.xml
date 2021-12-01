@@ -39,14 +39,14 @@
   <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>화학적 화상 흉터</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <ChemicalBurn.injuryProps.destroyedLabel>불에 타버림(화학적)</ChemicalBurn.injuryProps.destroyedLabel>
   <ChemicalBurn.injuryProps.destroyedOutLabel>불에 타버림(화학적)</ChemicalBurn.injuryProps.destroyedOutLabel>
-  <ChemicalBurn.labelNoun>화학적 화상입니다.</ChemicalBurn.labelNoun>
+  <ChemicalBurn.labelNoun>화학적 화상</ChemicalBurn.labelNoun>
   <ChemicalBurn.labelNounPretty>{1}의 {0}</ChemicalBurn.labelNounPretty>
   
   <Crack.label>골절</Crack.label>
   <Crack.description>골절입니다.</Crack.description>
   <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>접합됨</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Crack.comps.HediffComp_TendDuration.labelTendedWell>접합됨</Crack.comps.HediffComp_TendDuration.labelTendedWell>
-  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>접합됨</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>치유됨</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>치유됨</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>영구적 균열</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
   <Crack.injuryProps.destroyedLabel>박살남</Crack.injuryProps.destroyedLabel>
   <Crack.labelNoun>골절</Crack.labelNoun>
@@ -79,7 +79,7 @@
   <ExecutionCut.labelNounPretty>{1}의 {0}</ExecutionCut.labelNounPretty>
   
   <Frostbite.label>동상</Frostbite.label>
-  <Frostbite.description>적절한 보호의 없이 낮은 온도에 노출되어 얼어붙은 세포조직입니다. 동상은 매우 큰 고통을 유발하며 동상 부위는 종종 손실되기 쉽습니다.</Frostbite.description>
+  <Frostbite.description>낮은 온도에 노출되어 얼어붙은 세포조직입니다. 동상 부위는 매우 큰 고통을 유발하며 손실되기 쉽습니다.</Frostbite.description>
   <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>치료됨</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>붕대 감음</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>치료됨</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
@@ -121,7 +121,7 @@
   <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>봉합됨</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
   <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>긁힌 흉터</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
   <Scratch.injuryProps.destroyedLabel>찢어짐</Scratch.injuryProps.destroyedLabel>
-  <Scratch.injuryProps.destroyedOutLabel>벗겨짐</Scratch.injuryProps.destroyedOutLabel>
+  <Scratch.injuryProps.destroyedOutLabel>찢겨나감</Scratch.injuryProps.destroyedOutLabel>
   <Scratch.labelNoun>긁힘</Scratch.labelNoun>
   <Scratch.labelNounPretty>{1}의 {0}</Scratch.labelNounPretty>
   

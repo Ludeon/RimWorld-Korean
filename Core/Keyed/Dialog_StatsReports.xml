@@ -24,7 +24,7 @@
   <StatsReport_MarketValueFromStuffsAndWork>재료와 노동</StatsReport_MarketValueFromStuffsAndWork>
   <StatsReport_QualityMultiplier>품질 계수</StatsReport_QualityMultiplier>
   <StatsReport_QualityOffset>품질 영향</StatsReport_QualityOffset>
-  <StatsReport_MaxGain>최대 값</StatsReport_MaxGain>
+  <StatsReport_MaxGain>최댓값</StatsReport_MaxGain>
   <StatsReport_AgeMultiplier>나이 {0}에 대한 계수</StatsReport_AgeMultiplier>
   <StatsReport_HealthMultiplier>내구도 {0}에 대한 계수</StatsReport_HealthMultiplier>
   <StatsReport_ReloadMarketValue>재장전 비용 ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
@@ -100,18 +100,18 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>의류 (나체주의자)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>나체주의자가 이 장비를 의류로 취급하는지 나타냅니다. 의류로 취급하지 않는 장비는 나체주의자가 입어도 기분이 나빠지지 않습니다.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <Stat_Thing_Apparel_Covers_Desc>장비가 가려주는 신체 범위입니다.\n\n해당하지 않는 신체 부위는 보호하지 못합니다.</Stat_Thing_Apparel_Covers_Desc>
-  <Stat_Thing_Apparel_Layer_Desc>장비가 착용되는 위치입니다. 신체 부위별로 오직 하나의 장비만을 착용할 수 있습니다.</Stat_Thing_Apparel_Layer_Desc>
+  <Stat_Thing_Apparel_Layer_Desc>장비가 착용되는 위치입니다.\n\n신체 부위별로 오직 하나의 장비만을 착용할 수 있습니다.</Stat_Thing_Apparel_Layer_Desc>
   <Stat_Thing_Plant_FertilityRequirement_Desc>식물이 자라기 위해 필요한 최소한의 토질입니다.</Stat_Thing_Plant_FertilityRequirement_Desc>
   <Stat_Thing_Plant_FertilitySensitivity_Desc>식물이 토질에 얼마나 민감한지를 나타냅니다.\n\n민감도가 낮은 식물은 어떤 환경에서든 거의 같은 속도로 자라납니다. 민감도가 높은 식물은 낮은 토질에서 더 느리게 자라며, 높은 토질에서 더 빠르게 자랍니다.</Stat_Thing_Plant_FertilitySensitivity_Desc>
   <Stat_Thing_Plant_LightRequirement_Desc>식물이 자라기 위해 필요한 빛의 양입니다.</Stat_Thing_Plant_LightRequirement_Desc>
-  <Stat_Thing_Plant_LifeSpan_Desc>식물의 수명입니다. 식물은 수확하지 않더라도 특정 연령에 도달하면 자연스럽게 죽습니다.</Stat_Thing_Plant_LifeSpan_Desc>
+  <Stat_Thing_Plant_LifeSpan_Desc>식물의 수명입니다.\n\n식물은 수확하지 않더라도 특정 연령에 도달하면 자연스럽게 죽습니다.</Stat_Thing_Plant_LifeSpan_Desc>
   <Stat_Thing_Plant_HarvestYield_Desc>식물을 수확할 때 생산되는 자원의 양을 나타냅니다.</Stat_Thing_Plant_HarvestYield_Desc>
-  <Stat_Thing_Plant_MinGrowthTemperature_Desc>식물이 생존 가능한 최저 온도입니다. 적정 온도에서 벗어난 식물은 천천히 죽어갑니다.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
-  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>식물이 생존 가능한 최고 온도입니다. 적정 온도에서 벗어난 식물은 천천히 죽어갑니다.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>식물이 생존 가능한 최저 온도입니다.\n\n적정 온도에서 벗어난 식물은 천천히 죽어갑니다.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>식물이 생존 가능한 최고 온도입니다.\n\n적정 온도에서 벗어난 식물은 천천히 죽어갑니다.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
   <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>식물을 수확하기 위해 필요한 최소한의 재배 기술입니다.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
   <Stat_Race_Diet_Desc>동물이 먹을 수 있는 음식의 종류입니다.\n\n먹을 수 있는 음식: {0}</Stat_Race_Diet_Desc>
   <Stat_Race_LeatherType_Desc>동물에서 채취할 수 있는 가죽의 종류입니다.</Stat_Race_LeatherType_Desc>
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>동물을 길들이려 할 때 덤벼들 확률입니다.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>조련사가 조련 실패했을 때 대상이 공격할 확률입니다.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <Stat_Race_Trainability_Desc>동물의 훈련 적합성을 나타냅니다. 지능과 집중력에 좌우되며, 훈련 가능한 작업의 종류를 결정합니다.</Stat_Race_Trainability_Desc>
   <Stat_Race_LifeExpectancy_Desc>동물의 평균 수명입니다.</Stat_Race_LifeExpectancy_Desc>
   <Stat_Race_BlockedByFences_Desc>이 동물이 울타리와 방어벽을 넘을 수 없는지 나타냅니다.</Stat_Race_BlockedByFences_Desc>
@@ -120,6 +120,7 @@
   <Stat_Race_BodySize_Desc>동물의 크기를 평균적인 성인 인간과 비교한 수치입니다.</Stat_Race_BodySize_Desc>
   <Stat_Race_Growth_Desc>성체에 얼마나 근접한지 나타냅니다\n\n성장에는 열량이 필요합니다. 배고픈 동물은 잘 먹은 동물보다 성장 속도가 느립니다.</Stat_Race_Growth_Desc>
   <Stat_Thing_Weapon_MeleeWarmupTime_Desc>이 무기를 사용하는 데 걸리는 시간 간격입니다.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <Stat_Thing_Weapon_RangedWarmupTime_Desc>원거리 공격이 조준 후 발사되기까지 필요한 시간입니다.</Stat_Thing_Weapon_RangedWarmupTime_Desc> <!-- text_todo -->
   <Stat_Thing_Weapon_BurstShotCount_Desc>원거리 무기가 한번에 발사할 수 있는 탄환의 양입니다.</Stat_Thing_Weapon_BurstShotCount_Desc>
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>원거리 무기가 발사되기 위해 필요한 시간 간격입니다.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <Stat_Thing_Weapon_Range_Desc>원거리 무기의 최대 사거리입니다.</Stat_Thing_Weapon_Range_Desc>
@@ -194,8 +195,8 @@
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>중독자의 화학물질에 대한 필요량이 얼마나 떨어지는지 나타냅니다.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <Stat_Thing_Drug_AddictionCost_Desc>금단현상 없이 이 약물의 중독을 지원하기 위해 하루에 소비해야 하는 시장가치입니다.\n\n이 값은 중독자의 복용당 중독필요량, 중독필요 하락률, 약물의 시장가치로부터 계산됩니다.\n\n참고로 다른 비용으로 같은 화학물질을 얻는 방법이 있을 수도 있습니다.</Stat_Thing_Drug_AddictionCost_Desc>
 
-  <Stat_Thing_StyleLabel>스타일</Stat_Thing_StyleLabel>
-  <Stat_Thing_StyleDesc>스타일은 물체의 외형을 결정하며 게임 플레이에는 영향을 주지 않습니다. 스타일은 서로 다른 믿음과 문화를 가진 사람들이 사용하는 각자의 건설 방식을 구성하곤 합니다.</Stat_Thing_StyleDesc>
+  <Stat_Thing_StyleLabel>양식</Stat_Thing_StyleLabel>
+  <Stat_Thing_StyleDesc>양식은 물체의 외형을 결정하며 게임 플레이에는 영향을 주지 않습니다. 스타일은 서로 다른 믿음과 문화를 가진 사람들이 사용하는 각자의 건설 방식을 구성하곤 합니다.</Stat_Thing_StyleDesc>
 
   <Stat_Animal_GestationTime>생식 주기</Stat_Animal_GestationTime>
   <Stat_Animal_GestationTimeDesc>새끼나 알을 낳을 때까지 걸리는 시간입니다.</Stat_Animal_GestationTimeDesc>
