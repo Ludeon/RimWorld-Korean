@@ -43,13 +43,13 @@
   <!-- Charity -->
   <MessageCharityEventRefused>이타적 사상 위배</MessageCharityEventRefused>
   <MessageCharityEventFulfilled>이타적 사상 충족</MessageCharityEventFulfilled>
-  <MessageBeggarsLeavingWithNoItems>{0}(이)가 빈손으로 떠나고 있습니다.</MessageBeggarsLeavingWithNoItems>
-  <MessageBeggarsLeavingWithItems>{0}(이)가 요청한 물품을 들고 떠나고 있습니다.</MessageBeggarsLeavingWithItems>
+  <MessageBeggarsLeavingWithNoItems>{0} are leaving empty-handed.</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithItems>{0} have accepted the requested items and are leaving.</MessageBeggarsLeavingWithItems>
   <MessageWandererLeftToDie>{0_nameDef}(이)가 아무런 치료도 받지 못하고 사망했습니다.</MessageWandererLeftToDie>
   <MessageWandererRecruited>{0_nameDef}(을)를 포섭했습니다.</MessageWandererRecruited>
   <MessageWandererLeftHealthy>{0_nameDef}(이)가 건강하게 지역을 빠져나갔습니다.</MessageWandererLeftHealthy>
-  <MessageCharityQuestEndedFailed>{0}(을)를 실패했습니다.</MessageCharityQuestEndedFailed>
-  <MessageCharityQuestEndedSuccess>{0}(을)를 성공적으로 마쳤습니다.</MessageCharityQuestEndedSuccess>
+  <MessageCharityQuestEndedFailed>{0} has been failed.</MessageCharityQuestEndedFailed>
+  <MessageCharityQuestEndedSuccess>{0} has been successfully completed.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <CannotRemove>제거 불가</CannotRemove>
@@ -59,7 +59,7 @@
   <OverlappingRoleApparel>각각의 지위는 서로 같은 예복을 가질 수 없습니다.</OverlappingRoleApparel>
   
   <SelfDestructCountdown>{0_label}(이)가 {1} 후 자폭합니다.</SelfDestructCountdown>
-  <PreceptNameTooLong>설정된 이름이 너무 깁니다. (최대 {0}자)</PreceptNameTooLong> <!-- text_todo -->
+  <PreceptNameTooLong>설정된 이름이 너무 깁니다. (최대 {0}자)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <MessageAncientTerminalDiscovered>{0}의 정보가 담긴 고대 단말기를 발견했습니다!</MessageAncientTerminalDiscovered>

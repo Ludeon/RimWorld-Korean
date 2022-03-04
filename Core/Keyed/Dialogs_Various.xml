@@ -176,7 +176,7 @@
   <BurstShotCount>연발횟수</BurstShotCount>
   <WarmupTime>조준시간</WarmupTime>
   <MeleeWarmupTime>근거리 조준시간</MeleeWarmupTime>
-  <RangedWarmupTime>발사준비시간</RangedWarmupTime> <!-- text_todo -->
+  <RangedWarmupTime>발사준비시간</RangedWarmupTime>
   <CooldownTime>대기시간</CooldownTime>
   <DisarmedTime>무장해제시간</DisarmedTime>
   <ChargingTime>충전 중</ChargingTime>
@@ -236,7 +236,7 @@
   <ToleranceGain>복용당 내성량</ToleranceGain>
   <ToleranceFallRate>내성 하락률</ToleranceFallRate>
   <MinimumToleranceForAddiction>중독성 최소 내성</MinimumToleranceForAddiction>
-  <SafeDoseInterval>복용 적절 간격</SafeDoseInterval>
+  <SafeDoseInterval>적정 복용 간격</SafeDoseInterval>
   <Addictiveness>중독성</Addictiveness>
   <AddictionSeverityInitial>중독 초기 심각도</AddictionSeverityInitial>
   <AddictionSeverityPerDose>복용당 중독 심각도</AddictionSeverityPerDose>
@@ -268,7 +268,8 @@
   <Supports>지원</Supports>
   <TrapArmorPenetration>함정 관통력</TrapArmorPenetration>
   <RearmCost>재장전 비용</RearmCost>
-  <RearmCostExplanation>포탑을 재장전하는 데 필요한 자원입니다.</RearmCostExplanation>
+  <RearmCostExplanation>Resources needed to rearm this turret</RearmCostExplanation>
+  <RearmCostExplanationDifficulty>affected by difficulty</RearmCostExplanationDifficulty>
   <ShotsBeforeRearm>공격 가능 횟수</ShotsBeforeRearm>
   <ShotsBeforeRearmExplanation>재장전되기 전까지 포탑이 얼마나 많이 공격할 수 있는지를 나타냅니다.</ShotsBeforeRearmExplanation>
   <PowerConsumption>전력 소비</PowerConsumption>

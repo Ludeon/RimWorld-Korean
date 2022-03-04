@@ -154,7 +154,7 @@
   <AlertAnimalFilthDesc>오물을 생성하는 동물이 실내의 깨끗한 바닥 위를 돌아다니고 있습니다.\n\n동물이 일반 바닥 위를 돌아다니면 많은 양의 오물이 생깁니다. 오물을 생성하는 동물이 실내로 들어오지 못하도록 제한하세요. 바닥에 멍석을 깔아서 생성되는 오물의 양을 크게 줄일 수도 있습니다.\n\n동물의 오물 생성량은 'i' 버튼을 누르면 나타나는 통계 화면에서 확인할 수 있습니다.\n\n다음의 동물이 문제입니다:\n{0}</AlertAnimalFilthDesc>
 
   <AlertAnimalPenNeeded>동물 우리 필요</AlertAnimalPenNeeded>
-  <AlertAnimalPenNeededDesc>Some of your tame animals are roamers. If not kept in an animal pen or roped to a hitching spot, they will wander away.</AlertAnimalPenNeededDesc><!--text_todo-->
+  <AlertAnimalPenNeededDesc>Some of your tame animals are roamers. If not kept in a pen or roped to a caravan hitching spot, they will wander away.</AlertAnimalPenNeededDesc>
   <AlertAnimalPenNeededNoHandlers>동물을 우리로 끌고 갈 조련사가 없습니다.\n\n정착민을 조련 작업에 할당하세요.</AlertAnimalPenNeededNoHandlers>
   <AlertAnimalPenNeededDescExplanation>울타리, 방어벽, 벽으로 둘러싸인 곳 안에 우리 표시를 설치해 동물 우리를 만드세요. 우리 표시를 선택하면 어떤 동물을 받을 수 있는지, 얼마나 많이 수용할 수 있는지 볼 수 있습니다.\n\n조련사가 동물을 할당한 우리로 끌고 갈 것입니다.\n\n우리 안에 동물을 넣으려면 문이나 울타리 문이 필요합니다.</AlertAnimalPenNeededDescExplanation>
   
@@ -170,8 +170,8 @@
   <AlertPennedAnimalHungry>우리 안의 동물이 굶주림</AlertPennedAnimalHungry>
   <AlertPennedAnimalHungryDesc>우리 안의 동물이 배고픔을 느끼고 있습니다.\n\n우리 표시를 선택하고 먹이 탭을 열어 자세한 정보를 확인하세요.\n\n초식 동물이라면 더 많은 풀을 먹일 수 있는, 더 큰 우리가 필요할 수 있습니다. 다른 동물의 경우 우리 안에 저장 구역을 지정한 후, 건초 등 동물 먹이를 운반해야 할 수도 있습니다.\n\n배고픈 동물:\n\n{0}</AlertPennedAnimalHungryDesc>
 
-  <AlertHitchedAnimalHungryNoFood>Hungry hitched animal</AlertHitchedAnimalHungryNoFood><!--text_todo-->
-  <AlertHitchedAnimalHungryNoFoodDesc>Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nThey can be brought food or the hitching spot can be removed to allow them to roam and find food on their own.\n\nThe following hitched animals are hungry:\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc><!--text_todo-->
+  <AlertHitchedAnimalHungryNoFood>굶주린 동물</AlertHitchedAnimalHungryNoFood>
+  <AlertHitchedAnimalHungryNoFoodDesc>Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <AlertTimedRaidsArrivingIn>습격대 도착까지 {0}</AlertTimedRaidsArrivingIn>
   <AlertTimedRaidsArrivingInDesc>다음의 지역으로 적이 접근하고 있습니다. 곧 적 병력이 도착할 것입니다.\n\n{0}</AlertTimedRaidsArrivingInDesc>

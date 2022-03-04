@@ -8,6 +8,7 @@
     <li>r_ritualName->[keyDeity]의 [funeral]</li>
     <li>r_ritualName->[memeConcept]의 [funeral]</li>
     <li>r_ritualName->[chosenIdeoName]의 [funeral]</li>
+    <li>r_ritualName(p=0.0001)->funeral</li>
     <li>funeral->장례식</li>
     <li>funeral->초상</li>
     <li>funeral->추도식</li>
@@ -15,6 +16,6 @@
     <li>funeral->예식</li>
     <li>funeral->토장</li>
     <li>funeral->장승곡</li>
-    <li>funeral->매장</li>
+    <!--(항목 1개 미사용)-->
   </NamerRitualFuneral.rulePack.rulesStrings>
 </LanguageData>

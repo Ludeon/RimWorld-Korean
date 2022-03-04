@@ -6,9 +6,10 @@
   <Random>무작위</Random>
   <RandomStructureTip>사상의 구조를 무작위로 선택합니다.</RandomStructureTip>
   <RandomStyleTip>사상의 양식을 무작위로 선택합니다.</RandomStyleTip>
-  <Customize>만들기</Customize>
-  <PlayClassic>플레이</PlayClassic>
-  <CreateFluid>만들기...</CreateFluid>
+  <PlayClassic>Ideology system inactive</PlayClassic> <!-- text_todo -->
+  <CreateCustomFluid>Create custom\n(fluid)</CreateCustomFluid> <!-- text_todo -->
+  <CreateCustomFixed>Create custom\n(fixed)</CreateCustomFixed>  <!-- text_todo -->
+  <CustomIdeoligions>Custom ideoligions</CustomIdeoligions> <!-- text_todo -->
   <LoadSaved>불러오기</LoadSaved>
   <Structure>구조</Structure>
   <ChooseYourIdeoligionDesc>시작 정착민이 어떤 것을 믿나요? 사상은 게임 플레이와 시각 효과를 바꿀 수 있습니다. 다른 이들이 당신의 사상을 믿도록 교화할 수도 있고, 당신이 다른 사상으로 전향할 수도 있습니다.</ChooseYourIdeoligionDesc>
@@ -74,6 +75,9 @@
   <CurrentDevelopmentPoints>현재 점수</CurrentDevelopmentPoints>
   <ReformDevelopmentPoints>개혁에 필요한 점수</ReformDevelopmentPoints>
   <QuestLower>임무</QuestLower>
+  <MealKindVegetarian>Vegetarian</MealKindVegetarian>
+  <MealKindMeat>Contains meat</MealKindMeat>
+  <MealKindAny>Acceptable food for everyone</MealKindAny>
 
   <UnableToLoadIdeoTitle>사상을 불러올 수 없음</UnableToLoadIdeoTitle>
   <UnableToLoadIdeoDescription>세력 요구 사항을 충족시킬 수 없기  때문에 선택한 사상을 불러올 수 없습니다. 문제가 되는 부분은 다음과 같습니다.</UnableToLoadIdeoDescription>
@@ -84,6 +88,7 @@
   <RitualTargetGraveInfo>{PAWN_labelShort}의 시체가 묻힌 묘지</RitualTargetGraveInfo>
   <RitualTargetEmptyGraveInfo>{PAWN_labelShort}의 죽음을 애도할 빈 무덤.</RitualTargetEmptyGraveInfo>
   <RitualTargetGraveInfoAbstract>{IDEO_memberNameIndef}의 시체가 묻힌 묘지</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstractNoIdeo>A grave containing a corpse.</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
   <RitualTargetEmptyGraveInfoAbstract>{IDEO_memberNameIndef}의 죽음을 애도할 빈 무덤.</RitualTargetEmptyGraveInfoAbstract>
   <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort}의 시체를 먼저 매장해야 함</RitualTargetGraveInfoMustBeBuried>
   <RitualTargetGatherSpotInfo>식탁 등 모임 장소</RitualTargetGatherSpotInfo>
@@ -107,8 +112,8 @@
   <RitualScarificationWarnWimp>{PAWN_labelShort}(은)는 약골이기에 상흔 의식을 좋아하지 않을 것입니다.</RitualScarificationWarnWimp>
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}(은)는 자신의 사상에 위배되는 실명 의식을 좋아하지 않을 것입니다.</RitualBlindingWarnNonBlindingIdeo>
   <RitualBlindingWarnWimp>{PAWN_labelShort}(은)는 약골이기에 실명 의식을 좋아하지 않을 것입니다.</RitualBlindingWarnWimp>
-  <RitualScarificationTriggerExtraDesc>Scarification is expected for {IDEOMEMBER} colonists as long as number of scarified {IDEOMEMBERPLURAL} is below {0}.</RitualScarificationTriggerExtraDesc> <!-- text_todo -->
-  <RitualBlindingTriggerExtraDesc>Blinding is expected for each current and joining {IDEOMEMBER} colonist.</RitualBlindingTriggerExtraDesc> <!-- text_todo -->
+  <RitualScarificationTriggerExtraDesc>Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}.</RitualScarificationTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>Blinding is expected for each current and joining {IDEOMEMBER} colonist.</RitualBlindingTriggerExtraDesc>
   
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>행사에 참여한 모든 사람의 작업 속도가 하루 동안 증가합니다! (전역 작업 속도 {PERCENTAGE})</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <RitualOutcomeExtraDesc_BlindingPsylink>만족스러운 실명 의식 덕분에 {PAWN_labelShort}의 정신 증폭 단계가 상승했습니다!</RitualOutcomeExtraDesc_BlindingPsylink>
@@ -324,18 +329,22 @@
   <!-- Bioscuplter pod -->
   <BiosculpterPodCycleLabel>절차</BiosculpterPodCycleLabel>
   <BiosculpterPodCycleLabelLoading>열량 적재 중</BiosculpterPodCycleLabelLoading>
-  <BiosculpterPodCycleWillBiotune>(and biotuning)</BiosculpterPodCycleWillBiotune><!--text_todo-->
+  <BiosculpterPodCycleWillBiotune>(and biotuning)</BiosculpterPodCycleWillBiotune>
   <BiosculpterPodCycleCommand>Begin {0} cycle</BiosculpterPodCycleCommand>
-  <BiosculpterPodCycleSelection>Ready for cycle selection</BiosculpterPodCycleSelection><!--text_todo-->
-  <BiosculpterPodCycleSelectionNoPower>Nutrition loaded, no power</BiosculpterPodCycleSelectionNoPower><!--text_todo-->
+  <BiosculpterPodCycleDuration>Duration</BiosculpterPodCycleDuration>
+  <BiosculpterPodCycleDurationTranshumanists>Duration (transhumanists)</BiosculpterPodCycleDurationTranshumanists>
+  <BiosculpterPodCycleSelection>Ready for cycle selection</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleStandby>On standby for {CYCLE} cycle with {PAWN_labelShort}</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleSelectionNoPower>Nutrition loaded, no power</BiosculpterPodCycleSelectionNoPower>
   <BiosculpterCycleTimeRemaining>종료</BiosculpterCycleTimeRemaining>
-  <BiosculpterCycleNoPowerInterrupt>Paused: No power (interrupt in {TIME})</BiosculpterCycleNoPowerInterrupt><!--text_todo-->
+  <BiosculpterCycleAccelerated>accelerated for transhumanists</BiosculpterCycleAccelerated>
+  <BiosculpterCycleNoPowerInterrupt>Paused: No power (interrupt in {TIME})</BiosculpterCycleNoPowerInterrupt>
   <BiosculpterBiotunedTo>사용자 고정됨</BiosculpterBiotunedTo>
   <BiosculpterInteruptCycle>절차 중단</BiosculpterInteruptCycle>
   <BiosculpterInteruptCycleDesc>절차를 중단합니다. 탑승자는 생체 재구축 효과를 받지 못하고 바깥에 나오게 되며, 짧은 시간 후유증을 겪습니다.</BiosculpterInteruptCycleDesc>
-  <BiosculpterEnteringMessage>{PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle.</BiosculpterEnteringMessage><!--text_todo-->
-  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle.</BiosculpterLoadingStartedMessage><!--text_todo-->
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle.</BiosculpterCarryStartedMessage><!--text_todo-->
+  <BiosculpterEnteringMessage>{PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle.</BiosculpterEnteringMessage>
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle.</BiosculpterLoadingStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle.</BiosculpterCarryStartedMessage>
   <NumNutrition>{0} 열량</NumNutrition>
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}(이)가 전력 부족으로 인해 생체 조율을 완전히 마치지 못하고 나왔습니다.</BiosculpterNoPowerEjectedMessage>
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}(이)가 신체 치유 절차를 마쳤습니다.</BiosculpterHealCompletedMessage>
@@ -343,7 +352,7 @@
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}(이)가 깨어났습니다. {PAWN_pronoun}는 {DEADLINE}일 내에 다음 노화 역전 절차를 받기를 원합니다.</BiosculpterAgeReversalCompletedMessage>
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}'s pleasure cycle is complete.</BiosculpterPleasureCompletedMessage>
   <BiosculpterCleanlinessSpeedFactor>청결함으로 인한 속도 계수</BiosculpterCleanlinessSpeedFactor>
-  <BiosculpterBiotunedSpeedFactor>Biotuned speed factor</BiosculpterBiotunedSpeedFactor><!--text_todo-->
+  <BiosculpterBiotunedSpeedFactor>Biotuned speed factor</BiosculpterBiotunedSpeedFactor>
   <HealingCycleWillHeal>다음 상태가 회복됩니다.</HealingCycleWillHeal>
   <HealingCycleOneWillHeal>다음 상태 중 하나가 회복됩니다.</HealingCycleOneWillHeal>
   <MissingRequiredResearch>필수 연구 누락:</MissingRequiredResearch>
