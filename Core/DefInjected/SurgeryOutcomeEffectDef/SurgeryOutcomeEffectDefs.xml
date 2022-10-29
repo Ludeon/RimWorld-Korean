@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <SurgeryOutcomeBase.outcomes.1.letterLabel>{PATIENT_labelShort}의 수술 실패</SurgeryOutcomeBase.outcomes.1.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {RECIPE_label}. -->
+  <SurgeryOutcomeBase.outcomes.1.letterText>{SURGEON_labelShort}(이)가 {RECIPE_label}(을)를 하던 도중 수술의 난이도로 인해 {PATIENT_labelShort}에게 치명적인 실수를 저질렀습니다.</SurgeryOutcomeBase.outcomes.1.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <SurgeryOutcomeBase.outcomes.2.letterLabel>{PATIENT_labelShort}의 수술 실패</SurgeryOutcomeBase.outcomes.2.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <SurgeryOutcomeBase.outcomes.2.letterText>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {RECIPE_label}(을)를 처참하게 실패했습니다.</SurgeryOutcomeBase.outcomes.2.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <SurgeryOutcomeBase.outcomes.3.letterLabel>{PATIENT_labelShort}의 수술 실패</SurgeryOutcomeBase.outcomes.3.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <SurgeryOutcomeBase.outcomes.3.letterText>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {RECIPE_label}(을)를 어처구니가 없을 정도로 실패했습니다.</SurgeryOutcomeBase.outcomes.3.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
+  <SurgeryOutcomeBase.outcomes.4.letterLabel>{PATIENT_labelShort}의 수술 실패: 중성화됨</SurgeryOutcomeBase.outcomes.4.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
+  <SurgeryOutcomeBase.outcomes.4.letterText>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {RECIPE_label}(을)를 실패했습니다. {PATIENT_labelShort}(이)가 성기능을 상실했습니다.</SurgeryOutcomeBase.outcomes.4.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
+  <SurgeryOutcomeBase.outcomes.5.letterLabel>{PATIENT_labelShort}의 수술 실패: 중성화됨</SurgeryOutcomeBase.outcomes.5.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
+  <SurgeryOutcomeBase.outcomes.5.letterText>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {RECIPE_label}(을)를 실패했습니다. {PATIENT_labelShort}(이)가 성기능을 상실했습니다.</SurgeryOutcomeBase.outcomes.5.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <SurgeryOutcomeBase.outcomes.6.letterLabel>{PATIENT_labelShort}의 수술 실패</SurgeryOutcomeBase.outcomes.6.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <SurgeryOutcomeBase.outcomes.6.letterText>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {RECIPE_label}에 실패했습니다.</SurgeryOutcomeBase.outcomes.6.letterText>
+  
+</LanguageData>

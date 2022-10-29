@@ -1,48 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: mortar -->
   <Artillery_Mortar.label>박격포</Artillery_Mortar.label>
-  <Artillery_Mortar.description>박격포. 발사된 포탄은 벽을 뛰어넘을 수 있습니다. 매우 부정확하지만 사거리가 아주 깁니다.</Artillery_Mortar.description>
+  <!-- EN: Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. -->
+  <Artillery_Mortar.description>박격포입니다. 포탄을 벽 너머로 발사할 수 있습니다. 매우 부정확하지만 사거리가 아주 깁니다.</Artillery_Mortar.description>
+  <!-- EN: mortar -->
   <Artillery_Mortar.verbs.Verb_Shoot.label>박격포</Artillery_Mortar.verbs.Verb_Shoot.label>
   
+  <!-- EN: autocannon shell -->
   <Bullet_AutocannonTurret.label>대형 기관포탄</Bullet_AutocannonTurret.label>
   
+  <!-- EN: mini-turret bullet -->
   <Bullet_MiniTurret.label>소형 기관포탄</Bullet_MiniTurret.label>
   
+  <!-- EN: uranium slug -->
   <Bullet_TurretSniper.label>우라늄 탄</Bullet_TurretSniper.label>
   
+  <!-- EN: autocannon -->
   <Gun_AutocannonTurret.label>대형 포탑</Gun_AutocannonTurret.label>
+  <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
   <Gun_AutocannonTurret.description>자동 장전이 가능한 대구경 기관포가 장착된 포탑입니다.</Gun_AutocannonTurret.description>
+  <!-- EN: autocannon -->
   <Gun_AutocannonTurret.verbs.Verb_Shoot.label>대형 포탑</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
   
+  <!-- EN: mini-turret gun -->
   <Gun_MiniTurret.label>소형 포탑</Gun_MiniTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
   <Gun_MiniTurret.description>전자동 소구경 기관총이 장착된 포탑입니다.</Gun_MiniTurret.description>
+  <!-- EN: mini-turret gun -->
   <Gun_MiniTurret.verbs.Verb_Shoot.label>소형 포탑</Gun_MiniTurret.verbs.Verb_Shoot.label>
   
+  <!-- EN: rocketswarm tube -->
+  <Gun_RocketswarmLauncher.label>로켓탄막 발사관</Gun_RocketswarmLauncher.label>
+  <!-- EN: A rocketswarm tube of the type usually mounted on a rocketswarm launcher turret. -->
+  <Gun_RocketswarmLauncher.description>로켓탄막 발사기에 거치하는 발사관입니다.</Gun_RocketswarmLauncher.description>
+  <!-- EN: rocketswarm tube -->
+  <Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>로켓탄막 발사관</Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: foam sprayer -->
+  <Gun_TurretFoam.label>거품 발사기</Gun_TurretFoam.label>
+  <!-- EN: A high-pressure firefoam sprayer usually mounted on a turret. -->
+  <Gun_TurretFoam.description>포탑에 거치하기 위한 고압 소방거품 발사기입니다.</Gun_TurretFoam.description>
+  <!-- EN: foam sprayer -->
+  <Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>거품 발사기</Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>
+  
+  <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.label>저격 포탑</Gun_TurretSniper.label>
+  <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
   <Gun_TurretSniper.description>전자동 저격포가 장착된 포탑입니다. 사정거리가 길지만 가까운 대상을 노리기에는 적합하지 않습니다.</Gun_TurretSniper.description>
+  <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.verbs.Verb_Shoot.label>저격 포탑</Gun_TurretSniper.verbs.Verb_Shoot.label>
   
+  <!-- EN: foam -->
+  <Proj_Foam.label>거품</Proj_Foam.label>
+  
+  <!-- EN: rocket -->
+  <Proj_Rocket.label>로켓</Proj_Rocket.label>
+  
+  <!-- EN: autocannon turret -->
   <Turret_Autocannon.label>대형 기관포</Turret_Autocannon.label>
-  <Turret_Autocannon.description>대형 기관포. 상대에게 큰 피해를 입힐 수 있지만, 아주 근접한 대상에게는 발사할 수 없습니다. 사용 후에는 새 탄환을 장전해야 하며, 심각한 손상을 받으면 폭발할 수 있습니다.</Turret_Autocannon.description>
+  <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
+  <Turret_Autocannon.description>대형 기관포탑입니다. 대구경 탄환은 상당한 거리를 둔 상대에게도 큰 피해를 입힐 수 있지만 사용 후 포신을 교체해야 합니다. 근접한 대상에게는 발사할 수 없으며 크게 손상되면 폭발할 수 있습니다.</Turret_Autocannon.description>
+  <!-- EN: Barrel durability -->
   <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>포신 내구도</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
   <Turret_Autocannon.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
-  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>발사 불가: 새 강화 포신 필요</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: Needs new barrel -->
+  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>새 포신 필요</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
   
+  <!-- EN: foam turret -->
+  <Turret_FoamTurret.label>거품 포탑</Turret_FoamTurret.label>
+  <!-- EN: An activatable turret for extinguishing fires. The turret stands idle until someone approaches and activates it, after which it will automatically spray large amounts of firefoam on any flames in sight. -->
+  <Turret_FoamTurret.description>화재 진압용 수동 발동 포탑입니다. 누군가 다가와서 발동하면 시야 내의 모든 화염에 대량의 소방 거품을 방사합니다.</Turret_FoamTurret.description>
+  <!-- EN: Foam -->
+  <Turret_FoamTurret.comps.CompRefuelable.fuelGizmoLabel>거품</Turret_FoamTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Foam -->
+  <Turret_FoamTurret.comps.CompRefuelable.fuelLabel>거품</Turret_FoamTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Out of foam -->
+  <Turret_FoamTurret.comps.CompRefuelable.outOfFuelMessage>거품 고갈</Turret_FoamTurret.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: activate -->
+  <Turret_FoamTurret.comps.CompActivable_FoamTurret.jobString>활성화</Turret_FoamTurret.comps.CompActivable_FoamTurret.jobString>
+  <!-- EN: repressurizing -->
+  <Turret_FoamTurret.comps.CompActivable_FoamTurret.onCooldownString>가압 중</Turret_FoamTurret.comps.CompActivable_FoamTurret.onCooldownString>
+  
+  <!-- EN: mini-turret -->
   <Turret_MiniTurret.label>소형 기관포</Turret_MiniTurret.label>
-  <Turret_MiniTurret.description>급조된 소형 기관포. 사격 인공지능의 신뢰도가 떨어지므로 오인 사격에 주의하세요. 사용 후에는 새 탄환을 장전해야 하며, 심각한 손상을 받으면 폭발할 수 있습니다.</Turret_MiniTurret.description>
+  <!-- EN: A portable automatic turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+  <Turret_MiniTurret.description>휴대 가능한 자동포탑입니다. 많이 발사한 후에는 강철을 사용해서 포신을 수리해야 합니다. 크게 손상되면 폭발할 수 있습니다. 사격 인공지능의 신뢰도가 떨어지므로 직접 통제할 수 없습니다. 빗나간 총알을 맞지 않도록 주의하세요.</Turret_MiniTurret.description>
+  <!-- EN: Barrel durability -->
   <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>남은 포탄</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
   <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
-  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>재장전 필요</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: Needs new barrel -->
+  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>새 포신 필요</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
   
+  <!-- EN: mortar -->
   <Turret_Mortar.label>박격포</Turret_Mortar.label>
-  <Turret_Mortar.description>모든 종류의 포탄을 발사하는 유인 박격포. 파괴적인 피해를 입힐 수 있지만, 박격포 고유의 부정확성은 전장의 적 집단보다 큰 요새를 공격하는데 더 유용합니다.</Turret_Mortar.description>
+  <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
+  <Turret_Mortar.description>모든 종류의 포탄을 발사할 수 있는 유인 박격포입니다. 파괴적인 피해를 입힐 수 있지만, 고유의 부정확성으로 인해 개방된 지역의 적 집단보다는 요새화된 구조물 공격 시 더 유용합니다.</Turret_Mortar.description>
+  <!-- EN: Barrel durability -->
   <Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>남은 포탄</Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
   <Turret_Mortar.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_Mortar.comps.CompRefuelable.fuelLabel>
-  <Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>발사 불가: 새 강화 포신 필요</Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: Needs new reinforced barrel -->
+  <Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>새 강화 포신 필</Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>
   
+  <!-- EN: rocketswarm launcher -->
+  <Turret_RocketswarmLauncher.label>로켓탄막 발사기</Turret_RocketswarmLauncher.label>
+  <!-- EN: An emergency-defense launcher that fires a single barrage of rockets covering a large area. The turret does not fire until someone activates it. It is very effective against large groups of weaker combatants, but less effective against small numbers of armored targets. Once fired, it must cool off for hours and be reloaded to fire again. -->
+  <Turret_RocketswarmLauncher.description>넓은 범위를 덮는 로켓 탄막을 1회 발사하는 비상용 방어 장치입니다. 누군가 직접 발동해야 합니다. 다수의 약한 전투원에 대해선 굉장히 효과적이지만 소수의 중무장 대상에게는 효율이 떨어집니다. 한 번 발사 후에는 다시 장전하기 전에 수 시간 동안 냉각을 기다려야 합니다.</Turret_RocketswarmLauncher.description>
+  <!-- EN: Rockets -->
+  <Turret_RocketswarmLauncher.comps.CompRefuelable.fuelGizmoLabel>로켓</Turret_RocketswarmLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Rockets -->
+  <Turret_RocketswarmLauncher.comps.CompRefuelable.fuelLabel>로켓</Turret_RocketswarmLauncher.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Missing rockets -->
+  <Turret_RocketswarmLauncher.comps.CompRefuelable.outOfFuelMessage>로켓 없음</Turret_RocketswarmLauncher.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: activate -->
+  <Turret_RocketswarmLauncher.comps.CompActivable_RocketswarmLauncher.jobString>활성화</Turret_RocketswarmLauncher.comps.CompActivable_RocketswarmLauncher.jobString>
+  <!-- EN: cooling off -->
+  <Turret_RocketswarmLauncher.comps.CompActivable_RocketswarmLauncher.onCooldownString>냉각 중</Turret_RocketswarmLauncher.comps.CompActivable_RocketswarmLauncher.onCooldownString>
+  
+  <!-- EN: uranium slug turret -->
   <Turret_Sniper.label>저격포</Turret_Sniper.label>
-  <Turret_Sniper.description>저격포는 두터운 장갑판도 관통할 수 있지만, 근처에 위치한 대상에게는 발사할 수 없습니다. 사용 후에는 새 탄환을 장전해야 하며, 심각한 손상을 받으면 폭발할 수 있습니다.</Turret_Sniper.description>
+  <!-- EN: An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
+  <Turret_Sniper.description>장갑판을 관통할 수 있는 포탑입니다. 초고밀도 우라늄 탄환은 중장갑도 뚫을 수 있지만, 사용 후 우라늄 재장전이 필요합니다. 멀리서도 정확하지만 가까이 있는 대상에게는 발사할 수 없습니다. 크게 손상되면 폭발할 수 있습니다.</Turret_Sniper.description>
+  <!-- EN: Uranium slugs -->
   <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>남은 포탄</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until rearm -->
   <Turret_Sniper.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_Sniper.comps.CompRefuelable.fuelLabel>
-  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>재장전 필요</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: No slugs -->
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>탄환 없음</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  
 </LanguageData>

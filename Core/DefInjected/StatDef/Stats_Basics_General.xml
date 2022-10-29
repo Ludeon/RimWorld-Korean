@@ -1,53 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <Beauty.label>미관</Beauty.label>
-  <Beauty.description>바라볼 때 아름답다고 느끼는 정도입니다.\n\n미관은 정착민들의 필요 욕구를 충족시켜줍니다.</Beauty.description>
   
+  <!-- EN: beauty -->
+  <Beauty.label>미관</Beauty.label>
+  <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
+  <Beauty.description>바라볼 때 아름답다고 느끼는 정도입니다.\n\n미관은 정착민들의 환경 욕구를 충족시킵니다.</Beauty.description>
+  
+  <!-- EN: outdoor beauty -->
   <BeautyOutdoors.label>야외 미관</BeautyOutdoors.label>
+  <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
   <BeautyOutdoors.description>물품이 야외에 배치되어있을 때 얼마나 아름다운지를 나타냅니다.\n\n아름다운 환경은 정착민의 미적 욕구를 충족시켜 줍니다.</BeautyOutdoors.description>
   
+  <!-- EN: cleanliness -->
   <Cleanliness.label>청결</Cleanliness.label>
+  <!-- EN: How much an object contributes to an area's cleanliness score. -->
   <Cleanliness.description>청결한 정도입니다.</Cleanliness.description>
   
+  <!-- EN: comfort -->
   <Comfort.label>편안</Comfort.label>
+  <!-- EN: How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort. -->
   <Comfort.description>눕거나 앉았을 때의 편안함을 나타냅니다.\n\n편안한 가구를 사용하면 정착민들의 필요 욕구를 충족시켜줍니다.</Comfort.description>
   
+  <!-- EN: deterioration rate -->
   <DeteriorationRate.label>손상 속도</DeteriorationRate.label>
-  <DeteriorationRate.description>밖에 방치되었을 때 매일 입는 평균 피해량입니다.\n\n우천, 지붕, 낙진, 얕은 물에 놓여짐 등 일부 상황에서는 더 빠르게 손상됩니다.</DeteriorationRate.description>
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, pollution or being left in shallow water. -->
+  <DeteriorationRate.description>밖에 방치됐을 때 매일 입는 피해량의 평균입니다.\n\n우천, 지붕 여부, 낙진, 오염, 얕은 물 등 일부 상황에서는 더 빠르게 손상됩니다.</DeteriorationRate.description>
+  <!-- EN: {0} / day -->
   <DeteriorationRate.formatString>{0} / 일</DeteriorationRate.formatString>
   
+  <!-- EN: flammability -->
   <Flammability.label>가연성</Flammability.label>
+  <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
   <Flammability.description>불이 붙는 정도입니다.</Flammability.description>
   
+  <!-- EN: food poison chance -->
   <FoodPoisonChanceFixedHuman.label>식중독 확률</FoodPoisonChanceFixedHuman.label>
+  <!-- EN: The chance this food will cause food poisoning. -->
   <FoodPoisonChanceFixedHuman.description>음식을 섭취했을 때 식중독에 걸릴 확률을 나타냅니다.</FoodPoisonChanceFixedHuman.description>
+  <!-- EN: food poison chance (food stat) -->
   <FoodPoisonChanceFixedHuman.labelForFullStatList>식중독 확률 (음식 통계)</FoodPoisonChanceFixedHuman.labelForFullStatList>
   
+  <!-- EN: market value -->
   <MarketValue.label>시장 가치</MarketValue.label>
+  <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
   <MarketValue.description>대상의 시장 가치입니다.\n\n실제 가격은 거래 실력과 관계를 포함한 요인에 의해 바뀔 수 있습니다.</MarketValue.description>
   
+  <!-- EN: market value ignoring hitpoints -->
   <MarketValueIgnoreHp.label>내구도를 무시한 시장가치</MarketValueIgnoreHp.label>
   
+  <!-- EN: mass -->
   <Mass.label>무게</Mass.label>
+  <!-- EN: The physical mass of an object. -->
   <Mass.description>대상의 질량입니다.</Mass.description>
+  <!-- EN: {0} kg -->
   <Mass.formatString>{0} kg</Mass.formatString>
   
+  <!-- EN: max hit points -->
   <MaxHitPoints.label>최대 내구도</MaxHitPoints.label>
+  <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
   <MaxHitPoints.description>대상의 최대 체력입니다.\n\n파괴되기 전까지 이 수치만큼 피해를 받아낼 수 있습니다.</MaxHitPoints.description>
   
+  <!-- EN: nutrition -->
   <Nutrition.label>열량</Nutrition.label>
+  <!-- EN: How nutritious this food is. -->
   <Nutrition.description>음식의 열량을 나타냅니다.</Nutrition.description>
   
+  <!-- EN: honor value -->
   <RoyalFavorValue.label>신임장 가치</RoyalFavorValue.label>
+  <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
   <RoyalFavorValue.description>진상품 수집상인에게 줬을 때 거래로 얻게 되는 신임장 개수입니다.</RoyalFavorValue.description>
   
+  <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>판매 가격 계수</SellPriceFactor.label>
+  <!-- EN: A multiplier on the price at which you can sell items. -->
   <SellPriceFactor.description>물건을 상인에 판매할 때의 가격에 곱해집니다.</SellPriceFactor.description>
   
+  <!-- EN: shooting accuracy -->
   <ShootingAccuracyTurret.label>사격 정확도</ShootingAccuracyTurret.label>
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyTurret.description>사격 거리당 맞출 기회입니다.\n\n다른 많은 요인에 의해 영향을 받습니다. 사격수를 선택하고 목표물에 대고 있는 것으로 적중 가능성을 확인할 수 있습니다.</ShootingAccuracyTurret.description>
+  <!-- EN: shooting accuracy (turrets) -->
   <ShootingAccuracyTurret.labelForFullStatList>사격 정확도 (포탑)</ShootingAccuracyTurret.labelForFullStatList>
   
+  <!-- EN: work to make -->
   <WorkToMake.label>제작 작업량</WorkToMake.label>
+  <!-- EN: The base amount of work it takes to make an item, once all materials are gathered. -->
   <WorkToMake.description>대상을 만들기 위해 필요한 기본 작업량입니다.</WorkToMake.description>
+  
 </LanguageData>

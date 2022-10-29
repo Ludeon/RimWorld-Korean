@@ -1,442 +1,792 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
   <MessageSiegersAssaulting>{1}의 {0}(이)가 정착지로 돌격합니다.</MessageSiegersAssaulting>
 
+  <!-- EN: {0} from {1} are beginning their assault. -->
   <MessageRaidersBeginningAssault>{1}의 {0}(이)가 공격하기 시작합니다.</MessageRaidersBeginningAssault>
+  <!-- EN: {0} from {1} have detected you and begun their assault early. -->
   <MessageRaidersDetectedEarlyAssault>{1}의 {0}(이)가 당신을 발견하고 먼저 공격을 시작합니다.</MessageRaidersDetectedEarlyAssault>
+  <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
   <MessageRaidersKidnapping>{1}의 {0}(이)가 납치할 수 있는 사람들을 데리고 떠나기로 했습니다.</MessageRaidersKidnapping>
+  <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>{1}의 {0}(이)가 챙길 수 있는걸 챙기고 떠나기로 했습니다.</MessageRaidersStealing>
 
+  <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
   <MessageCaravanDetectedRaidArrived>{1}의 {0}(이)가 상단 지역에 도착하여 공격하고 있습니다. {2} 후에 도착합니다.</MessageCaravanDetectedRaidArrived>
 
+  <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{1}의 {0}(이)가 떠나고 있습니다.</MessageRaidersLeaving>
+  <!-- EN: {0} from {1} have given up and are leaving. -->
   <MessageRaidersGivenUpLeaving>{1}의 {0}(이)가 공격을 포기하고 퇴각하기 시작합니다.</MessageRaidersGivenUpLeaving>
+  <!-- EN: {0} from {1} are satisfied with the damage done and are leaving. -->
   <MessageRaidersSatisfiedLeaving>{1}의 {0}(이)가 입힌 피해에 만족하고 퇴각하기 시작합니다.</MessageRaidersSatisfiedLeaving>
 
+  <!-- EN: {0} from {1} are fleeing. -->
   <MessageFightersFleeing>{1}의 {0}(이)가 도망칩니다.</MessageFightersFleeing>
+  <!-- EN: Friendly {0} from {1} are leaving. -->
   <MessageFriendlyFightersLeaving>우호적인 {1}의 {0}(이)가 떠나고 있습니다.</MessageFriendlyFightersLeaving>
 
+  <!-- EN: {0} from {1} are taking a wounded guest. -->
   <MessageVisitorsTakingWounded>{1}의 {0}(이)가 부상자를 데려가고 있습니다.</MessageVisitorsTakingWounded>
+  <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
   <MessageVisitorsTrappedLeaving>{1}의 {0}(이)가 땅을 파 탈출합니다.</MessageVisitorsTrappedLeaving>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{1}의 {0}(이)가 위험한 온도 때문에 다른 지역으로 도망칩니다.</MessageVisitorsDangerousTemperature>
 
+  <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{1_nameFull}(이)가 입은 {0}(이)가 완전히 해져서 아무것도 남지 않았습니다.</MessageWornApparelDeterioratedAway>
+  <!-- EN: {0} has deteriorated away in storage. -->
   <MessageDeterioratedAway>저장구역에 있는 {0}의 내구도가 닳아 사라졌습니다.</MessageDeterioratedAway>
 
+  <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>{0}의 시작입니다.</MessageSeasonBegun>
 
+  <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>{0}의 무역선이 통신 범위에서 벗어났습니다.</MessageShipHasLeftCommsRange>
 
+  <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>무역 신호기가 있어야 거래를 할 수 있습니다.</MessageNeedBeaconToTradeWithShip>
+  <!-- EN: Caller must have the title of {0_label} or higher. -->
   <MessageNeedRoyalTitleToCallWithShip>호출자는 {0_label} 이상의 작위를 가지고 있어야 합니다.</MessageNeedRoyalTitleToCallWithShip>
 
+  <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0}(이)가 파괴되었습니다.</MessageConditionCauserDespawned>
   
+  <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>계획 완료: {0}</MessageBillComplete>
 
+  <!-- EN: {1_label} is fully healed. -->
   <MessageFullyHealed>{1_label}(이)가 완치 되었습니다.</MessageFullyHealed>
 
+  <!-- EN: Prisoner {1_labelShort} is escaping. -->
   <MessagePrisonerIsEscaping>수감자 {1_labelShort}(이)가 도망치고 있습니다.</MessagePrisonerIsEscaping>
 
+  <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort}(이)가 사용할 수 있는 {GUN_label}의 포탄이 없습니다.</MessageOutOfNearbyShellsFor>
+  <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
   <MessageOutOfNearbyFuelFor>{PAWN_labelShort}(이)가 사용할 수 있는 {GUN_label}의 {FUEL}(이)가 없습니다.</MessageOutOfNearbyFuelFor>
 
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>경고: {ANIMAL_kindBasePlural}(은)는 공격을 받으면 {1} 확률로 반격할 수 있습니다. 거리가 멀수록, 사냥꾼의 사냥 은폐 능력치가 높을수록 확률이 낮아집니다.</MessageAnimalsGoPsychoHunted>
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>경고: {ANIMAL_kindBasePlural}(은)는 조련 시도에 실패할 경우 공격할 수 있습니다. ({1} 확률)</MessageAnimalManhuntsOnTameFailed>
+  <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>곤충 교감 특성을 지닌 정착민만 {INSECT_indefinite}(을)를 길들일 수 있습니다.</MessageInsectTameDesignated>
 
+  <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>경고: {PAWN_labelShort}(은)는 적대적입니다. 길들이려 하면 공격할 것입니다.</MessageInsectsHostileOnTaming>
   
+  <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>포섭</LetterLabelMessageRecruitSuccess>
+  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
   <MessageRecruitSuccess>{RECRUITER_nameFull}의 {RECRUITEE_nameFull}에 대한 포섭은 성공적이었습니다.</MessageRecruitSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{RECRUITER_labelShort}(이)가 {1}(을)를 성공적으로 길들였습니다.</MessageTameSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort}(이)가 {1}(을)를 성공적으로 길들이고 {RECRUITEE_nameFull}(이)라는 이름을 지었습니다.</MessageTameAndNameSuccess>
+  <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>{ANIMAL_labelShort}에게 적합한 동물 우리가 없습니다. 시간이 지나면 떠돌다가 지역 밖으로 나갈 것입니다.</MessageTameNoSuitablePens>
+  <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE}(이)가 정착지에 합류했습니다.</MessageRecruitJoinOfferAccepted>
 
+  <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>정착지가 요금을 지불할 수 없습니다.</MessageColonyCannotAfford>
+  <!-- EN: You do not have enough silver ready to trade. -->
   <MessageColonyNotEnoughSilver>거래 가능한 은이 충분하지 않습니다.</MessageColonyNotEnoughSilver>
 
+  <!-- EN: Critical alert: {0} -->
   <MessageCriticalAlert>중대한 경고: {0}</MessageCriticalAlert>
 
-  <MessageMustDesignateHarvestable>충분히 자라 수확가능한 농작물을 지정해야 합니다.</MessageMustDesignateHarvestable>
-  <MessageMustDesignateHarvestableWood>충분히 성장한 나무를 지정해야 벌목을 할 수 있습니다.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Must designate harvestable sufficiently-grown plants. -->
+  <MessageMustDesignateHarvestable>충분히 자라 수확 가능한 농작물을 지정해야 합니다.</MessageMustDesignateHarvestable>
+  <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
+  <MessageMustDesignateHarvestableWood>충분히 자라 목재를 얻을 수 있는 식물을 지정해야 합니다.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>식물을 지정해야 합니다.</MessageMustDesignatePlants>
-  <MessageMustDesignateHaulable>운반 가능한 물건을 지정해야 합니다. 일부 물건은 언제나 운반 가능하며 지정될 수 없습니다.</MessageMustDesignateHaulable>
+  <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
+  <MessageMustDesignateHaulable>운반 가능한 물건을 지정해야 합니다. 어떤 물건은 항상 운반할 수 있으며 지정할 수 없습니다.</MessageMustDesignateHaulable>
+  <!-- EN: Must designate impassable mineable rocks. -->
   <MessageMustDesignateMineable>채굴 가능한 광석을 지정해야 합니다.</MessageMustDesignateMineable>
+  <!-- EN: Must designate huntable animals. -->
   <MessageMustDesignateHuntable>사냥 가능한 동물을 지정해야 합니다.</MessageMustDesignateHuntable>
+  <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>조련 가능한 동물을 지정해야 합니다.</MessageMustDesignateTameable>
-  <MessageMustDesignateClaimable>버려진 인공 구조물을 지정해야 합니다.</MessageMustDesignateClaimable>
-  <MessageMustDesignateDeconstructibleMechCluster>해체하기 전에 메카 군단을 물리쳐야 합니다.</MessageMustDesignateDeconstructibleMechCluster>
+  <!-- EN: Must designate abandoned claimable structures or items. -->
+  <MessageMustDesignateClaimable>버려지고 점거 가능한 구조물 또는 물건을 지정해야 합니다.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
+  <MessageMustDesignatePaintableBuildings>이미 {0_label}(이)가 아닌 색칠 가능한 건물을 지정해야 합니다.</MessageMustDesignatePaintableBuildings>
+  <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
+  <MessageMustDesignatePaintableFloors>이미 {0_label}(이)가 아닌 색칠 가능한 바닥을 지정해야 합니다.</MessageMustDesignatePaintableFloors>
+  <!-- EN: Must designate painted buildings or floors. -->
+  <MessageMustDesignatePainted>색칠한 건물 또는 바닥을 지정해야 합니다.</MessageMustDesignatePainted>
+  <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
+  <MessageMustDesignateDeconstructibleMechCluster>해체하기 전에 메카 전초기지를 물리쳐야 합니다.</MessageMustDesignateDeconstructibleMechCluster>
+  <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>거친 돌표면을 지정해야 합니다.</MessageMustDesignateSmoothableSurface>
+  <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>두꺼운 지붕은 제거할 수 없습니다.</MessageNothingCanRemoveThickRoofs>
+  <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
   <MessageAlreadyInStorage>이미 저장구역 안에 놓여있으며 필요한 경우 더 높은 우선순위의 구역으로 옮겨질 것입니다.</MessageAlreadyInStorage>
+  <!-- EN: Must designate corpse or downed character with strippable apparel. -->
   <MessageMustDesignateStrippable>옷을 입은, 시체나 쓰러진 사람을 선택해야 합니다.</MessageMustDesignateStrippable>
+  <!-- EN: Must designate tame animal that belongs to the colony. -->
   <MessageMustDesignateSlaughterable>정착지 소유의 동물을 선택해야 합니다.</MessageMustDesignateSlaughterable>
+  <!-- EN: Must designate full graves or containers. -->
   <MessageMustDesignateOpenable>가득 찬 무덤이나 저장소를 선택해야 합니다.</MessageMustDesignateOpenable>
+  <!-- EN: Must designate unforbidden items. -->
   <MessageMustDesignateForbiddable>상호작용이 허용된 물품을 지정해야 합니다.</MessageMustDesignateForbiddable>
+  <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>상호작용이 금지된 물품을 지정해야 합니다.</MessageMustDesignateUnforbiddable>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>근처에 전투 가능한 {THREAT_factionPawnsPlural}(이)가 있어서 {CLAIMABLE_labelShort}(을)를 점거할 수 없습니다.</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>근처에 전투 가능한 {THREAT_factionPawnsPlural}(이)가 있어서 {CLAIMABLE_labelShort}(을)를 입양할 수 없습니다.</MessageCannotAdoptWhileThreatsAreNear>
 
-  <MessageRefusedArrest>{1_labelShort}(이)가 구속에 저항했습니다!</MessageRefusedArrest>
+  <!-- EN: {1_labelShort} has refused to be arrested! -->
+  <MessageRefusedArrest>{1_labelShort}(이)가 구속을 저항했습니다!</MessageRefusedArrest>
   
-  <MessageNoMedicalBeds>이용 가능한 병원 침대가 없습니다.</MessageNoMedicalBeds>
-  <MessageNoAnimalBeds>이용 가능한 동물 침대가 없습니다.</MessageNoAnimalBeds>
-  <MessageTooLowMedCare>수술에는 {0} 또는 그 이상이 필요하지만, {PAWN_labelShort}의 허용 단계는 "{2}"입니다.</MessageTooLowMedCare>
+  <!-- EN: There are no medical beds available. -->
+  <MessageNoMedicalBeds>사용 가능한 의료용 침대가 없습니다.</MessageNoMedicalBeds>
+  <!-- EN: There are no animal beds available. -->
+  <MessageNoAnimalBeds>사용 가능한 동물 침대가 없습니다.</MessageNoAnimalBeds>
+  <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
+  <MessageWarningNoMedicineForRestriction>경고: {PAWN_nameDef}의 약품 정책({RESTRICTIONLABEL})때문에 수술을 진행할 수 없습니다. {PAWN_labelShort}의 약품 정책 변경을 고려하세요.</MessageWarningNoMedicineForRestriction>
   
+  <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort}(이)가 {1} 때문에 사망했습니다.</PawnDiedBecauseOf>
-  <PawnDied>{1_labelShort}(은)는 사망하였습니다.</PawnDied>
+  <!-- EN: {1_labelShort} has died. -->
+  <PawnDied>{1_labelShort}(이)가 사망했습니다.</PawnDied>
 
-  <MessageNoLongerDowned>{1_label}(은)는 이제 다시 걸을 수 있습니다.</MessageNoLongerDowned>
+  <!-- EN: {1_label} is no longer incapable of walking. -->
+  <MessageNoLongerDowned>{1_label}(이)가 다시 걸을 수 있습니다.</MessageNoLongerDowned>
 
+  <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{1_labelShort}(이)가 엄청난 피로로 인해 쓰러졌습니다.</MessageInvoluntarySleep>
 
+  <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>이 수술은 {0} 세력을 분노하게 할 것입니다.</MessageMedicalOperationWillAngerFaction>
 
+  <!-- EN: {PAWN_nameDef} is pregnant! -->
   <MessageAnimalIsPregnant>{PAWN_nameDef}(이)가 임신했습니다!</MessageAnimalIsPregnant>
+  <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0}(이)가 굶주림으로 인해 유산했습니다.</MessageMiscarriedStarvation>
+  <!-- EN: {0} has miscarried due to poor health. -->
   <MessageMiscarriedPoorHealth>{0}(이)가 건강의 문제로 인해 유산했습니다.</MessageMiscarriedPoorHealth>
+  <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0}(이)가 출산했습니다.</MessageGaveBirth>
   
+  <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsylinkNoSensitivity>{PAWN_labelShort}(은)는 정신 감응력이 없어서 정신력 증폭기를 사용할 수 없습니다.</MessagePsylinkNoSensitivity>
-  <MessageLostImplantLevelFromHediff>{2}(으)로 인해 {PAWN_labelShort}에서 {1} 이식물 단계를 잃었습니다.</MessageLostImplantLevelFromHediff>
+  <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
+  <MessageLostImplantLevelFromHediff>{2}(으)로 인해 {PAWN_labelShort}(이)가 {1} 이식물 단계를 잃었습니다.</MessageLostImplantLevelFromHediff>
+  <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort}(이)가 {2}(으)로 인해 {1}의 뇌손상을 입었습니다.</MessageReceivedBrainDamageFromHediff>
+  <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}(이)가 정상적인 신경열 한도를 초과했습니다.</MessageWentOverPsychicEntropyLimit>
 
-  <MessageNoHandlerSkilledEnough>아무도 {ANIMAL_kindBase}(을)를 길들일 수 없습니다. ({2} 기술 {1} 등급필요, 최고 조련사 {HANDLER_labelShort}(은)는 {4}등급).</MessageNoHandlerSkilledEnough>
+  <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
+  <MessageNoHandlerSkilledEnough>아무도 {ANIMAL_kindBase}(을)를 길들일 수 없습니다. ({2} 기술 {1}등급필요, 최고 조련사 {HANDLER_labelShort}(은)는 {4}등급).</MessageNoHandlerSkilledEnough>
   
+  <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort}(이)가 {PREDATOR}에게 잡아먹혔습니다.</MessageEatenByPredator>
+  <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>{PREY_labelShort}(이)가 {PREDATOR}에게 공격받는 중입니다!</MessageAttackedByPredator>
 
+  <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort}(이)가 배회 중입니다! 조련사가 다시 붙잡아서 우리로 데려가지 않으면 지역 밖으로 나가버릴 것입니다.</MessageRoamerLeaving>
 
+  <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>곤충 군락이 번식하였습니다.</MessageHiveReproduced>
   
+  <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>{0}의 상인이 떠나고 있습니다.</MessageTraderCaravanLeaving>
   
+  <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_labelShort}(은)는 죽었습니다.</MessageCantSelectDeadPawn>
+  <!-- EN: {1_labelShort} is off the map. -->
   <MessageCantSelectOffMapPawn>{1_labelShort}(은)는 지도 밖으로 나갔습니다.</MessageCantSelectOffMapPawn>
   
+  <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{PAWN1_labelShort}(와)과 {PAWN2_labelShort}(이)가 사교적 다툼이 생겼습니다.</MessageSocialFight>
   
+  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
   <MessageNewMarriageCeremony>정착민들이 모두 모여 {PAWN1_labelShort}(와)과 {PAWN2_labelShort}의 결혼을 축하할 준비를 하고 있습니다.</MessageNewMarriageCeremony>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{PAWN1_labelShort}(와)과 {PAWN2_labelShort}의 결혼식을 시작합니다!</MessageMarriageCeremonyStarts>
+  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
   <MessageMarriageCeremonyCalledOff>{PAWN1_labelShort}(와)과 {PAWN2_labelShort}의 결혼식이 취소됐습니다.</MessageMarriageCeremonyCalledOff>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
   <MessageNewlyMarried>{PAWN1_labelShort}(와)과 {PAWN2_labelShort}(은)는 이제 부부입니다. 정착민들이 축하하고 있습니다.</MessageNewlyMarried>
+  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>{PAWN1_labelShort}(와)과 {PAWN2_labelShort}의 결혼식이 끝났습니다.</MessageMarriageCeremonyAfterPartyFinished>
   
+  <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>{HUMAN_labelShort}(와)과 {ANIMAL_labelShort}(은)는 이제 각별한 사이입니다.</MessageNewBondRelation>
+  <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
   <MessageNewBondRelationNewName>{HUMAN_labelShort}(와)과 {1}(은)는 이제 각별한 사이입니다. {ANIMAL_nameFull}(이)라는 이름을 붙여주었습니다.</MessageNewBondRelationNewName>
   
+  <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL}의 죽음으로 인해 {HUMAN_labelShort}의 마음이 무너져 내렸습니다.</MessageBondedAnimalMentalBreak>
+  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>{HUMAN_labelShort}의 죽음으로 인해 {ANIMAL_kindIndef}({ANIMAL_label})의 마음이 무너져 내렸습니다.</MessageNamedBondedAnimalMentalBreak>
+  <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalsMentalBreak>{HUMAN_labelShort}의 죽음으로 인해 {0}마리 동물들의 마음이 무너져 내렸습니다.</MessageBondedAnimalsMentalBreak>
   
+  <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {HEDIFF}(을)를 성공적으로 제거했습니다.</MessageSuccessfullyRemovedHediff>
   
+  <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>우주선의 일부가 추락해 근처에 떨어졌습니다. 해체하여 자원을 얻을 수 있습니다.</MessageShipChunkDrop>
 
+  <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>다음 이유로 인해 일부 아이템을 거래할 수 없습니다: </MessageCannotSellItemsReason>
 
+  <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{WORKER_labelShort}(이)가 {0} 건설 중 실수했습니다. 일부 자원이 낭비되었습니다.</MessageConstructionFailed>
 
+  <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>스크린샷 저장됨: {0}</MessageScreenshotSavedAs>
   
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{PAWN1_labelShort}(와)과 {PAWN2_labelShort} 사이의 사교적 다툼이 끝났습니다.</MessageNoLongerSocialFighting>
   
+  <!-- EN: {2_labelShort} is no longer binging on {1}. -->
   <MessageNoLongerBingingOnDrug>{2_labelShort}의 {1} 갈망이 끝났습니다.</MessageNoLongerBingingOnDrug>
 
+  <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort}(은)는 {TARGET_label}에 대한 모욕을 멈췄습니다.</MessageNoLongerOnTargetedInsultingSpree>
 
+  <!-- EN: {1_label} has rotted away in storage. -->
   <MessageRottedAwayInStorage>{1_label}(이)가 완전히 상해서 없어졌습니다.</MessageRottedAwayInStorage>
   
+  <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_labelShort}(이)가 {FOOD_labelShort}(으)로 인해 식중독에 걸렸습니다. (원인: {2})</MessageFoodPoisoning>
   
+  <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0}(이)가 상단에서 제외되었습니다.</MessagePawnLostWhileFormingCaravan>
+  <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>상단 구성이 완료되었습니다.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>상단 구성은 모든 구성원이 정신이상에서 회복하면 진행됩니다.</MessageCaravanFormationPaused>
+  <!-- EN: Your colonists will now continue forming a caravan. -->
   <MessageCaravanFormationUnpaused>정착민들이 상단을 다시 꾸리기 시작합니다.</MessageCaravanFormationUnpaused>
   
+  <!-- EN: One of the caravan members has had a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>상단 구성원 중 한 명이 정신이상을 겪고 있습니다.</MessageCaravanMemberHasExtremeMentalBreak>
   
+  <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
   <MessageMaxPlanetCoveragePerformanceWarning>경고: 행성 전체를 생성하면 상당한 시간이 걸릴 수 있습니다.</MessageMaxPlanetCoveragePerformanceWarning>
 
+  <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>{0}(이)가 추위로 인해 죽었습니다.</MessagePlantDiedOfCold>
+  <!-- EN: {0} has died from rotting due to being left unharvested. -->
   <MessagePlantDiedOfRot_LeftUnharvested>{0}(이)가 긴 시간 방치되어 죽었습니다.</MessagePlantDiedOfRot_LeftUnharvested>
+  <!-- EN: {0} has died due to being exposed to light. -->
   <MessagePlantDiedOfRot_ExposedToLight>{0}(이)가 빛에 노출되어 죽었습니다.</MessagePlantDiedOfRot_ExposedToLight>
+  <!-- EN: {0} has died from rotting. -->
   <MessagePlantDiedOfRot>{0}(이)가 썩어 죽었습니다.</MessagePlantDiedOfRot>
+  <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0}(이)가 독에 오염되어 죽었습니다.</MessagePlantDiedOfPoison>
+  <!-- EN: {1_label} has died because of blight. -->
   <MessagePlantDiedOfBlight>{1_label}(이)가 병충해로 인해 죽었습니다.</MessagePlantDiedOfBlight>
 
-  <MessagePawnBeingBurned>엄청난 화염이 {1_labelShort}(을)를 산채로 불태우고 있습니다!</MessagePawnBeingBurned>
+  <!-- EN: {1_labelShort} is being burned by superheated air! -->
+  <MessagePawnBeingBurned>엄청난 열기가 {1_labelShort}(을)를 산채로 불태우고 있습니다!</MessagePawnBeingBurned>
 
+  <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>{INGESTER}(이)가 실수로 {DRUG_labelShort}(을)를 과도하게 섭취했습니다!</MessageAccidentalOverdose>
   
+  <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0}(이)가 목적지에 도착했습니다.</MessageCaravanArrivedAtDestination>
   
+  <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort}(이)가 지역을 벗어나 상단을 구성했습니다.</MessagePawnLeftMapAndCreatedCaravan>
+  <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>동물들이 집결하기 위해 움직이는 중입니다.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
+  <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>성공적으로 새로운 지역에 정착했습니다.</MessageSettledInExistingMap>
   
+  <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort}의 {2}(이)가 치료되었습니다. 원인: {0}</MessagePermanentWoundHealed>
   
+  <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
   <MessageRescueeDidntJoin>회복된 [PAWN_nameDef](은)는 이곳을 떠나기로 결정했습니다.</MessageRescueeDidntJoin>
   
+  <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>일부 수송 포드에 도달할 수 없습니다.</MessageTransporterUnreachable>
+  <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
   <MessageTransportersNotAdjacent>모든 수송 포드는 반드시 발사대와 연결된 상태여야 합니다.</MessageTransportersNotAdjacent>
   
+  <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>수송 포드 일부가 파괴되어 적재가 중단되었습니다.</MessageTransportersLoadCanceled_TransporterDestroyed>
+  <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
   <MessageTransporterSingleLoadCanceled_TransporterDestroyed>왕복선이 파괴되어 적재가 중단되었습니다.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>발사대 일부가 파괴되어 적재가 중단되었습니다.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
+  <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>정착민들이 지정된 물품들을 수송 포드에 적재하기 시작합니다.</MessageTransportersLoadingProcessStarted>
+  <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
   <MessageTransporterSingleLoadingProcessStarted>정착민들이 지정된 물품들을 왕복선에 적재하기 시작합니다.</MessageTransporterSingleLoadingProcessStarted>
   
+  <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>수송 포드가 도착했습니다.</MessageTransportPodsArrived>
+  <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
   <MessageTransportPodsArrivedAndLost>수송 포드가 도착했지만 착륙 지점에 정착민이 없어서 내용물을 잃었습니다.</MessageTransportPodsArrivedAndLost>
+  <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>수송 포드가 도착했습니다. 내용물이 {0}(와)과 합쳐집니다.</MessageTransportPodsArrivedAndAddedToCaravan>
   
+  <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>수송 포드 적재 작업이 완료됐습니다. 출발할 준비가 되었습니다.</MessageFinishedLoadingTransporters>
+  <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
   <MessageFinishedLoadingTransporterSingle>왕복선 적재 작업이 완료됐습니다. 출발할 준비가 되었습니다.</MessageFinishedLoadingTransporterSingle>
 
+  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>일부 아이템 또는 사용자를 사용할 수 없기 때문에 {1}에서 수송 포드 적재를 완료할 수 없습니다 ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   
+  <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>선택한 목적지를 인식할 수 없습니다.</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>수송 포드를 목적지까지 보내기 위해서는 각각의 발사대에 적어도 {0}개의 화학연료가 필요합니다.</MessageTransportPodsDestinationIsTooFar>
   
-  <MessageReformedCaravan>상단이 재구성되었습니다.</MessageReformedCaravan>
+  <!-- EN: The caravan has been reformed. -->
+  <MessageReformedCaravan>상단을 재구성했습니다.</MessageReformedCaravan>
   
+  <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>마지막 정착민은 추방할 수 없습니다.</MessageCantBanishLastColonist>
 
+  <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>장착 불가: {0}.</MessageCantEquipCustom>
+  <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>장착 불가: {1_labelShort}(은)는 폭력적인 일을 할 수 없습니다.</MessageCantEquipIncapableOfViolence>
+  <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
   <MessageCantEquipIncapableOfShooting>장착 불가: {1_labelShort}(은)는 사격할 수 없습니다.</MessageCantEquipIncapableOfShooting>
+  <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>장착 불가: 조작이 불가능합니다.</MessageCantEquipIncapableOfManipulation>
+  <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
   <MessageCantWearApparelMissingBodyParts>착용 불가. {1_labelShort}(은)는 필요한 신체 부위가 없습니다.</MessageCantWearApparelMissingBodyParts>
+  <!-- EN: This person refuses to remove this. -->
   <MessageCantUnequipLockedApparel>정착민이 장비 해제를 거부합니다.</MessageCantUnequipLockedApparel>
+  <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
   <MessageWouldReplaceLockedApparel>착용 불가. {1_labelShort}(이)가 장비 대체를 거부합니다.</MessageWouldReplaceLockedApparel>
   
+  <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>{DESIGNATED_labelShort}(을)를 도축하면 {BONDED_labelShort}(이)가 좋아하지 않을 것입니다.</MessageSlaughteringBondedAnimal>
+  <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageReleaseBondedAnimal>{DESIGNATED_labelShort}(을)를 야생으로 돌려보내면 {BONDED_labelShort}(이)가 좋아하지 않을 것입니다.</MessageReleaseBondedAnimal>
   
+  <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0}의 음식이 부족합니다.</MessageCaravanRanOutOfFood>
+  <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
   <MessageCaravanDeathCorpseAddedToInventory>상단이 {PAWN_definite}의 시체를 수습했습니다. 시체의 무게 때문에 상단이 움직이지 못할 땐, 상단 물품 탭에서 시체를 두고 가도록 지정할 수 있습니다.</MessageCaravanDeathCorpseAddedToInventory>
 
+  <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>상단을 구성하려면 정착지나 정착민이 있는 장소를 선택하세요.</MessageSelectOwnBaseToFormCaravan>
 
+  <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>현재 해상도와 인터페이스 크기로는 게임 화면이 제대로 표시되지 않습니다. 해상도를 높이거나 인터페이스 크기를 줄여주세요.</MessageScreenResTooSmallForUIScale>
   
+  <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
   <MessageYouHaveToReformCaravanNow>지금 상단을 재구성해야 합니다. 뒤에 남은 사람들은 모두 버려집니다.</MessageYouHaveToReformCaravanNow>
   
+  <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{1}의 {0}(이)가 {2}(을)를 공격하고 있습니다.</MessageDefendersAttacking>
+  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
   <MessageMechanoidsAssembled>메카노이드가 집결하여 공격합니다.</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to assemble -->
   <MessageMechanoidsLeftToAssemble>조립할 잔여 메카노이드</MessageMechanoidsLeftToAssemble>
+  <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>메카노이드 신호기가 수송 포드 증원을 요청합니다.</MessageMechanoidsReinforcementsDrop>
 
+  <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>자가치료를 하려면 {1_labelShort}(이)가 치료 작업을 맡아야 합니다.</MessageSelfTendUnsatisfied>
+  <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{1_labelShort}(은)는 치료 작업을 수행할 수 없어 자가치료도 불가능합니다.</MessageCannotSelfTendEver>
   
+  <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>이 칸으로 이동할 수 없습니다.</MessageCantAddWaypointBecauseImpassable>
+  <!-- EN: It's not possible to reach this tile from the last waypoint. -->
   <MessageCantAddWaypointBecauseUnreachable>마지막 경유지에서 이 칸으로 올 수 있는 경로가 없습니다.</MessageCantAddWaypointBecauseUnreachable>
+  <!-- EN: You can't add more than {0} waypoints. -->
   <MessageCantAddWaypointBecauseLimit>경유지를 {0}개보다 많이 정할 수 없습니다.</MessageCantAddWaypointBecauseLimit>
+  <!-- EN: You can't remove this waypoint. -->
   <MessageCantRemoveWaypointBecauseFirst>이 경유지는 제거할 수 없습니다.</MessageCantRemoveWaypointBecauseFirst>
   
+  <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>간수 모두가 폭력을 허용하지 않습니다. 처형이 진행되지 않을 것입니다.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
+  <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
   <MessageCanReformCaravanNowNoMoreEnemies>이제 지역이 안전합니다. 세계 지도에서 상단을 재구성할 수 있습니다.</MessageCanReformCaravanNowNoMoreEnemies>
+  <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
   <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>이제 지역이 안전하지만, 아직 탐색하지 않은 방이 남아있습니다. 추가로 탐색하거나, 세계 지도에서 상단을 재구성할 수 있습니다.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
+  <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>{1_pronoun}는 걸을 수가 없기때문에 {1_labelShort}(을)를 추방할 수 없습니다.</MessageCantBanishDownedPawn>
 
+  <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>{0}(이)가 깨어났습니다.</MessageSleepingPawnsWokenUp>
+  <!-- EN: Mech cluster buildings have been defeated. -->
   <MessageMechClusterDefeated>메카 전초기지 건물이 파괴되었습니다.</MessageMechClusterDefeated>
 
+  <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>제작한 물품: {0}.</MessageCompSpawnerSpawnedItem>
 
+  <!-- EN: Health condition healed: {0}. -->
   <MessageHediffCuredByItem>치료된 상태이상: {0}.</MessageHediffCuredByItem>
+  <!-- EN: Body part restored: {0}. -->
   <MessageBodyPartCuredByItem>치료된 부위: {0}.</MessageBodyPartCuredByItem>
+  <!-- EN: Technology given: {0}. -->
   <MessageResearchProjectFinishedByItem>완료된 연구: {0}.</MessageResearchProjectFinishedByItem>
 
+  <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>{0}(이)가 다시 살아 움직입니다!</MessagePawnResurrected>
 
+  <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
   <MessageFailedToRescueRelative>{PAWN_labelShort}(을)를 구출하지 못했습니다. {RELATIVE_labelShort}(이)가 슬퍼합니다.</MessageFailedToRescueRelative>
+  <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
   <MessageRescuedRelative>{PAWN_labelShort}(을)를 구출했습니다. {RELATIVE_labelShort}(이)가 기뻐합니다.</MessageRescuedRelative>
 
+  <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>토네이도가 지역을 벗어났습니다.</MessageTornadoLeftMap>
+  <!-- EN: The tornado has dissipated. -->
   <MessageTornadoDissipated>토네이도가 사라졌습니다.</MessageTornadoDissipated>
 
+  <!-- EN: No conscious, capable diplomat. -->
   <MessagePeaceTalksNoDiplomat>협상 가능한 사람이 없습니다.</MessagePeaceTalksNoDiplomat>
 
+  <!-- EN: Warning: {0} cannot live when exposed to light. -->
   <MessageWarningCavePlantsExposedToLight>경고: {0}(은)는 빛에 노출되면 죽습니다.</MessageWarningCavePlantsExposedToLight>
 
+  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}(이)가 {OLDTARGET_label}에게 갈 수 없자 {PAWN_possessive} 분노를 {TARGET_label}에게 돌리기로 했습니다.</MessageTargetedTantrumChangedTarget>
 
+  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}(이)가 {OLDTARGET_label}에게 갈 수 없자 {PAWN_possessive} 분노를 {TARGET_label}에게 돌리기로 했습니다.</MessageTargetedInsultingSpreeChangedTarget>
 
+  <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageMurderousRageChangedTarget>{PAWN_labelShort}(은)는 {PAWN_possessive} 분노를 {TARGET_label}에게 돌립니다.</MessageMurderousRageChangedTarget>
 
+  <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0}(은)는 지붕 아래서 자라날 수 없습니다.</MessagePlantIncompatibleWithRoof>
+  <!-- EN: Cannot build a roof over {0}. -->
   <MessageRoofIncompatibleWithPlant>{0} 위에 지붕을 건설할 수 없습니다.</MessageRoofIncompatibleWithPlant>
 
+  <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>이 지역을 떠나려면, 세계 지도에서 '상단 재구성' 버튼을 사용하세요.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <!-- EN: You can't leave the map now. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>지금은 떠날 수 없습니다.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
+  <!-- EN: Relations with {0} have changed from {1} to {2}. -->
   <MessageGoodwillChanged>{0}(와)과의 관계가 {1}에서 {2}로 변화했습니다.</MessageGoodwillChanged>
+  <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
   <MessageGoodwillChangedWithReason>{0}(와)과의 관계가 {1}에서 {2}로 변화했습니다. ({3}).</MessageGoodwillChangedWithReason>
+  <!-- EN: attacked {1_labelShort} -->
   <GoodwillChangedReason_AttackedPawn>{1_labelShort} 공격받음</GoodwillChangedReason_AttackedPawn>
+  <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
   <GoodwillChangedReason_UsedItem>{TARGET_labelShort}에게 {ITEM_labelShort} 사용</GoodwillChangedReason_UsedItem>
+  <!-- EN: used {0} on {1} -->
   <GoodwillChangedReason_UsedAbility>{1}에서 {0}(을)를 사용</GoodwillChangedReason_UsedAbility>
+  <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>{0} 장기 적출</GoodwillChangedReason_RemovedBodyPart>
+  <!-- EN: removed {0} -->
   <GoodwillChangedReason_RemovedImplant>{0} 제거됨</GoodwillChangedReason_RemovedImplant>
+  <!-- EN: downgraded {0} -->
   <GoodwillChangedReason_DowngradedImplant>{0} 기능 저하</GoodwillChangedReason_DowngradedImplant>
+  <!-- EN: needlessly installed {0} -->
   <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>불필요하게 {0} 설치</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <!-- EN: captured {1_labelShort} -->
   <GoodwillChangedReason_CapturedPawn>{1_labelShort} 포획됨</GoodwillChangedReason_CapturedPawn>
+  <!-- EN: {1_labelShort} crushed -->
   <GoodwillChangedReason_PawnCrushed>{1_labelShort} 쓰러뜨림</GoodwillChangedReason_PawnCrushed>
+  <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort} 사망함</GoodwillChangedReason_PawnDied>
+  <!-- EN: {0_labelShort} stripped -->
   <GoodwillChangedReason_PawnStripped>{0_labelShort} 벗겨짐</GoodwillChangedReason_PawnStripped>
+  <!-- EN: traded -->
   <GoodwillChangedReason_Traded>거래됨</GoodwillChangedReason_Traded>
+  <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>상단 공격함</GoodwillChangedReason_AttackedCaravan>
+  <!-- EN: {1_labelShort} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort}(이)가 건강하게 지도를 빠져나갔음</GoodwillChangedReason_ExitedMapHealthy>
+  <!-- EN: tended to {1_labelShort} -->
   <GoodwillChangedReason_Tended>{1_labelShort} 간호</GoodwillChangedReason_Tended>
+  <!-- EN: received a gift -->
   <GoodwillChangedReason_ReceivedGift>선물 받음</GoodwillChangedReason_ReceivedGift>
+  <!-- EN: fulfilled a trade offer -->
   <GoodwillChangedReason_FulfilledTradeRequest>거래 요구 충족</GoodwillChangedReason_FulfilledTradeRequest>
+  <!-- EN: finished a quest -->
   <GoodwillChangedReason_FinishedQuest>임무 완료</GoodwillChangedReason_FinishedQuest>
+  <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
   <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort}(이)가 {CULPRIT}(을)를 사용</GoodwillChangedReason_UsedForbiddenThing>
+  <!-- EN: sold {0_labelShort} -->
   <GoodwillChangedReason_SoldPawn>{0_labelShort} 판매</GoodwillChangedReason_SoldPawn>
+  <!-- EN: euthanized {PAWN_labelShort} -->
   <GoodwillChangedReason_EuthanizedPawn>{PAWN_labelShort} 안락사</GoodwillChangedReason_EuthanizedPawn>
+  <!-- EN: requested military aid -->
   <GoodwillChangedReason_RequestedMilitaryAid>요청된 군사 지원</GoodwillChangedReason_RequestedMilitaryAid>
+  <!-- EN: requested trader caravan -->
   <GoodwillChangedReason_RequestedTrader>요청된 상단 거래</GoodwillChangedReason_RequestedTrader>
+  <!-- EN: caused neuroquake echo -->
   <GoodwillChangedReason_CausedNeuroquakeEcho>신경 지진</GoodwillChangedReason_CausedNeuroquakeEcho>
+  <!-- EN: caused berserk on {PAWN_labelShort} -->
   <GoodwillChangedReason_CausedBerserk>{PAWN_labelShort}의 광란</GoodwillChangedReason_CausedBerserk>
+  <!-- EN: attacked {0_name} -->
   <GoodwillChangeReason_AttackedFaction>{0_name} 공격함</GoodwillChangeReason_AttackedFaction>
+  <!-- EN: shuttle destroyed -->
   <GoodwillChangeReason_ShuttleDestroyed>왕복선 파괴됨</GoodwillChangeReason_ShuttleDestroyed>
+  <!-- EN: civilians lost -->
   <GoodwillChangeReason_CiviliansLost>민간인 실종</GoodwillChangeReason_CiviliansLost>
+  <!-- EN: commander lost -->
   <GoodwillChangeReason_CommanderLost>지휘관 실종</GoodwillChangeReason_CommanderLost>
 
+  <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>{0} 세력은 선물을 받았지만 좋아하진 않았습니다.</MessageGiftGivenButNotAppreciated>
 
+  <!-- EN: The caravan is already encumbered and can't carry anything else. -->
   <MessageCantGiveGiftBecauseCantCarryEncumbered>상단이 이미 너무 무거운 짐을 들고 있어서 다른 것을 운반할 수 없습니다.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
   <MessageCantGiveGiftBecauseCantCarry>상단이 그렇게 많이 운반할 수 없습니다. 선물의 무게가 {0}이지만 상단은 {1}만 더 운반할 수 있습니다.</MessageCantGiveGiftBecauseCantCarry>
 
+  <!-- EN: {0} has formed and is now traveling on the world map. -->
   <MessageFormedCaravan>{0}(이)가 구성되어 세계 지도로 이동 중입니다.</MessageFormedCaravan>
+  <!-- EN: Orders -->
   <MessageFormedCaravan_Orders>명령</MessageFormedCaravan_Orders>
 
+  <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
   <MessageBillValidationStoreZoneDeleted>{1}의 "{0}"(은)는 더 이상 삭제된 {2}(으)로 옮길 수 없습니다.</MessageBillValidationStoreZoneDeleted>
+  <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
   <MessageBillValidationStoreZoneUnavailable>{1}의 "{0}"(은)는 더 이상 사용할 수 없는 {2}(으)로 옮길 수 없습니다.</MessageBillValidationStoreZoneUnavailable>
+  <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
   <MessageBillValidationPawnUnavailable>{0}(은)는 더 이상 {2}에서 "{1}"의 작업을 수행할 수 없습니다. 정책이 삭제되었습니다.</MessageBillValidationPawnUnavailable>
+  <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>{1}의 "{0}"(은)는 삭제된 {2}에서 더 이상 항목을 셀 수 없습니다.</MessageBillValidationIncludeZoneDeleted>
+  <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>{1}의 "{0}"(은)는 더 이상 사용할 수 없는 {2}에서 항목을 셀 수 없습니다.</MessageBillValidationIncludeZoneUnavailable>
+  <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
   <MessageBillValidationStoreZoneInsufficient>{1}의 "{0}"(은)는 더 이상 {2}로 모든 제품을 옮길 수 없습니다.</MessageBillValidationStoreZoneInsufficient>
 
+  <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>오랜 기간 돌보지 않았기 때문에 {1_labelShort}(이)가 야생화되었습니다.</MessageAnimalReturnedWild>
+  <!-- EN: {1_labelShort} has been returned to the wild. -->
   <MessageAnimalReturnedWildReleased>{1_labelShort}(을)를 야생으로 돌려보냈습니다.</MessageAnimalReturnedWildReleased>
+  <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>오랜 기간 훈련하지 않았기 때문에, {ANIMAL_labelShort}(이)가 {1} 능력을 잃었습니다.</MessageAnimalLostSkill>
 
+  <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>{0}에 번역 보고서 작성됨</MessageTranslationReportSaved>
 
+  <!-- EN: {0} couldn't reach its destination. -->
   <MessageCaravanArrivalActionNoLongerValid>{0}(이)가 목적지에 도달할 수 없습니다.</MessageCaravanArrivalActionNoLongerValid>
 
+  <!-- EN: Too dangerous to re-enter for {0}. -->
   <MessageEnterCooldownBlocksEntering>{0}에 재진입하기에는 너무 위험합니다.</MessageEnterCooldownBlocksEntering>
 
+  <!-- EN: {0_labelShort} can now freely use "{1}". -->
   <MessagePermitCooldownFinished>{0_labelShort}(은)는 이제 "{1}"을 자유롭게 사용할 수 있습니다.</MessagePermitCooldownFinished>
 
+  <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
   <MessagePredatorHuntingPlayerAnimal>{PREDATOR}(은)는 먹이를 위해 {PREY_definite} ({PREY_kindBase})(을)를 사냥하고 있습니다!</MessagePredatorHuntingPlayerAnimal>
 
+  <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>{WARDEN_labelShort}(이)가 수감자 {PRISONER_labelShort}의 저항심을 없앴습니다.</MessagePrisonerResistanceBroken>
+  <!-- EN: Recruitment attempts will begin. -->
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>포섭이 시작됩니다.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
+  <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
   <MessageModWithPackageIdAlreadyEnabled>패키지 ID가 {0}인 다른 모드가 이미 활성화되어 있습니다. 활성화하기 전에 {1}(을)를 비활성화하십시오.</MessageModWithPackageIdAlreadyEnabled>
+  <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>번역 파일을 정리하기 전에 모든 모드를 비활성화하세요.</MessageDisableModsBeforeCleaningTranslationFiles>
+  <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
   <MessageUnpackBeforeCleaningTranslationFiles>번역 파일을 정리하기 전에 언어 압축을 해제하고, 압축 파일을 삭제하세요.</MessageUnpackBeforeCleaningTranslationFiles>
+  <!-- EN: Done. Affected folders: {0} -->
   <MessageTranslationFilesCleanupDone>완료됨. 영향받은 폴더: {0}</MessageTranslationFilesCleanupDone>
 
+  <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>번역 파일 중 하나인 {0}(을)를 불러올 수 없습니다. 모든 XML 파싱 오류를 해결하세요.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
+  <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>경고: {PAWN_nameDef}(을)를 포획하면 {PAWN_possessive} 세력 {PAWN_factionName}(이)가 분노하게 됩니다.</MessageCapturingWillAngerFaction>
 
+  <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
   <MessageStrippingWillAngerFaction>경고: {PAWN_nameDef}(을)를 벗기면 {PAWN_factionName} 세력이 분노하게 됩니다.</MessageStrippingWillAngerFaction>
 
+  <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>근거리에서는 사격할 수 없습니다.</MessageCantShootInMelee>
 
+  <!-- EN: None of your {0} can accept this quest now. -->
   <MessageNoColonistCanAcceptQuest>{0} 누구도 이 임무를 수락할 수 없습니다.</MessageNoColonistCanAcceptQuest>
+  <!-- EN: Cannot accept this quest. -->
   <MessageCannotAcceptQuest>이 임무는 수락할 수 없습니다.</MessageCannotAcceptQuest>
+  <!-- EN: {0_definite} has accepted a quest: {1} -->
   <MessageQuestAccepted>{0_definite}(이)가 임무를 수락함: {1}</MessageQuestAccepted>
+  <!-- EN: {0} is leaving. -->
   <MessagePawnLeaving>{0}(이)가 돌아갑니다.</MessagePawnLeaving>
+  <!-- EN: {0} are leaving. -->
   <MessagePawnsLeaving>{0}들은 돌아갑니다.</MessagePawnsLeaving>
 
+  <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
   <MessageMonumentDestroyedBecauseOfDisallowedBuilding>허용되지 않는 건물을 지었기 때문에 기념비가 파괴됩니다.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
+  <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
   <MessageNoResearchBenchForTechprint>적용할 수 없음: 도달 가능하고 사용 중이지 않은 연구 작업대가 없습니다.</MessageNoResearchBenchForTechprint>
 
+  <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>{0}에 대한 유효한 목적지를 찾을 수 없습니다.</NoValidDestinationFound>
 
+  <!-- EN: An extracted tree just died. -->
   <MessageMinifiedTreeDied>뽑아 둔 나무가 죽었습니다.</MessageMinifiedTreeDied>
   
   <!-- Research -->
+  <!-- EN: Warning: Research will not begin until you build a research bench. -->
   <MessageResearchMenuWithoutBench>경고: 연구 작업대를 만들지 않으면 어떠한 연구도 시작할 수 없습니다.</MessageResearchMenuWithoutBench>
 
+  <!-- EN: {0_indefinite} has triggered a proximity activator. -->
   <MessageActivatorProximityTriggered>{0_indefinite}(이)가 근접 센서를 활성화했습니다.</MessageActivatorProximityTriggered>
 
+  <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label}(은)는 현재 숨겨져 있습니다.</MessageCannotSelectInvisibleStat>
 
+  <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef}(은)는 수감자입니다.</MessagePrisonerCannotEquipWeapon>
 
+  <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
   <MessageIdeoOpposedWorkTypeSelected>경고: {1}(은)는 {0_nameDef}의 사상에 반하기 때문에 {0_pronoun}의 기분이 나빠질 것입니다.</MessageIdeoOpposedWorkTypeSelected>
 
+  <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
   <MessageBedLostAssignment>{1_nameDef}(이)가 더는 {0}(을)를 소유하지 않습니다.</MessageBedLostAssignment>
+  <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
   <MessageBedDestroyed>{1_nameDef}에게 할당된 {0}(이)가 파괴됐습니다.</MessageBedDestroyed>
 
   <!-- Rituals -->
+  <!-- EN: spectate -->
   <Spectate>관전</Spectate>
+  <!-- EN: Assign to {0} -->
   <AssignToRole>{0}에 할당</AssignToRole>
+  <!-- EN: {0} has begun. -->
   <RitualBegun>{0}(이)가 시작됐습니다.</RitualBegun>
+  <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>{0}(은)는 최대 {1}명까지 가능합니다.</MaxPawnsPerRole>
+  <!-- EN: Role of {0} is locked. -->
   <RoleIsLocked>{0} 지위는 아직 사용할 수 없습니다.</RoleIsLocked>
+  <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>최소 한 명의 사람은 참여해야 합니다.</MessageRitualNeedsAtLeastOnePerson>
+  <!-- EN: You need at least one spectator. -->
   <MessageRitualNeedsAtLeastOneSpectator>최소 한 명의 사람은 관전자로 참여해야 합니다.</MessageRitualNeedsAtLeastOneSpectator>
+  <!-- EN: You need a {0}. -->
   <MessageRitualNeedsAtLeastOneRolePawn>{0}(이)가 필요합니다.</MessageRitualNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
   <MessageRitualNeedsAtLeastNumRolePawn>최소 {1}명의 {0}(이)가 필요합니다.</MessageRitualNeedsAtLeastNumRolePawn>
+  <!-- EN: {0_labelShort} is downed. -->
   <MessageRitualPawnDowned>{0_labelShort}(은)는 쓰러졌습니다.</MessageRitualPawnDowned>
+  <!-- EN: {0_labelShort} is currently escaping. -->
   <MessageRitualPawnPrisonerNotSecured>{0_labelShort}(은)는 현재 도망치는 중입니다.</MessageRitualPawnPrisonerNotSecured>
+  <!-- EN: {0_labelShort} is currently rebelling. -->
   <MessageRitualPawnSlaveNotSecured>{0_labelShort}(은)는 현재 반란 중입니다.</MessageRitualPawnSlaveNotSecured>
+  <!-- EN: {0_labelShort} is being released. -->
   <MessageRitualPawnReleased>{0_labelShort}(은)는 석방되고 있습니다.</MessageRitualPawnReleased>
+  <!-- EN: {0_labelShort} is injured. -->
   <MessageRitualPawnInjured>{0_labelShort}(은)는 부상을 입었습니다.</MessageRitualPawnInjured>
-  <MessageRitualRoleRequired>{0_labelShort}(이)가 다음의 보직 중 하나를 맡고 있어야 합니다</MessageRitualRoleRequired>
+  <!-- EN: {0_labelShort} must hold one of these roles -->
+  <MessageRitualRoleRequired>{0_labelShort}(이)가 다음의 지위 중 하나를 맡고 있어야 합니다</MessageRitualRoleRequired>
+  <!-- EN: {0} must be a prisoner. -->
   <MessageRitualRoleMustBePrisoner>{0}(은)는 수감자여야 합니다.</MessageRitualRoleMustBePrisoner>
+  <!-- EN: {0} must be an animal. -->
   <MessageRitualRoleMustBeAnimal>{0}(은)는 동물이어야 합니다.</MessageRitualRoleMustBeAnimal>
+  <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0}(은)는 사람이어야 합니다.</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeABaby>{0}(은)는 아기일 수 없습니다.</MessageRitualRoleCannotBeABaby>
+  <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>{0_labelShort}(은)는 맡을 수 있는 지위가 없습니다.</MessageRitualNoRolesAvailable>
+  <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
   <MessageRitualNotOfPlayerIdeo>{0_labelShort}(은)는 정착지의 어떤 사상도 믿지 않습니다.</MessageRitualNotOfPlayerIdeo>
+  <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0}(이)가 눈을 지니고 있어야 함</MessageRitualRoleMustHaveEyes>
+  <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort}(은)는 상흔 문신이 추가로 필요하지 않습니다.</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0_labelShort} does not require blinding. -->
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort}(은)는 실명 의식이 필요하지 않습니다.</MessageRitualRoleMustRequireBlinding>
+  <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0}(은)는 수감자나 노예여야 합니다.</MessageRitualRoleMustBePrisonerOrSlave>
+  <!-- EN: {0_labelShort} must be capable of fighting. -->
   <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort}(은)는 전투에 참여할 수 있어야 합니다.</MessageRitualRoleMustBeCapableOfFighting>
+  <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>다른 사람이 이 역할을 맡을 수 없습니다.</MessageRitualRoleCannotReplaceRequiredPawn>
+  <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
   <MessageRitualRolePawnRecentlyTornConnection>최근에 {0_possessive} 연결이 끊어졌기 때문에 {0_labelShort}(은)는 요정나무에 연결할 수 없습니다.</MessageRitualRolePawnRecentlyTornConnection>
+  <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort}(은)는 개종자와 같은 사상을 가지고 있음.</MessageRitualRolePawnHasSameIdeo>
+  <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}(은)는 간수를 맡을 수 없습니다.</MessageRitualRoleMustBeCapableOfWardening>
+  <!-- EN: {0} must be capable of {1}. -->
   <MessageRitualRoleMustBeCapableOfGeneric>{0}(은)는 {1}(을)를 할 수 있어야 합니다.</MessageRitualRoleMustBeCapableOfGeneric>
+  <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>수감자는 {0}(을)를 할 수 없습니다.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <!-- EN: only {0} can {1}. -->
   <MessageRitualRoleMustHaveIdeoToSpectate>{0}만 {1}할 수 있습니다.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <!-- EN: only {0} can fill the role of {1}. -->
   <MessageRitualRoleMustHaveIdeoToDoRole>{0}만 {1}의 역할을 맡을 수 있습니다.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>{0}을 맡으려면 정착민이어야 합니다.</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
+  <MessageRitualWontAttendExtremeTemperature>의식 장소의 극심한 온도 때문에 {0_labelShort}(이)가 참석할 수 없습니다.</MessageRitualWontAttendExtremeTemperature>
+  <!-- EN: must be colonist and not enslaved for the {0} role. -->
+  <MessageRitualRoleMustBeFreeColonist>{0}(은)는 노예가 아닌 정착민이어야 합니다.</MessageRitualRoleMustBeFreeColonist>
+  <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0}(은)는 최소 신체 크기 {1}의 동물이어야 합니다.</MessageRitualRoleMustHaveLargerBodySize>
+  <!-- EN: {0_labelShort} is in a mental state. -->
   <MessageRitualPawnMentalState>{0_labelShort}(은)는 정신이상을 앓고 있어야 합니다.</MessageRitualPawnMentalState>
+  <!-- EN: {0_labelShort} is already {1}. -->
   <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort}(은)는 이미 {1}입니다.</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort}(은)는 관전자 외에 맡을 수 있는 역할이 없습니다.</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
   <MessageRitualRoleMustNotBeImprisonedWildMan>수감 중인 야인은 {0}(을)를 할 수 없습니다.</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0}(은)는 석방되어야 합니다.</MessageRitualRoleMustNotBeImprisoned>
+  <!-- EN: {0} cannot be a child. -->
+  <MessageRitualRoleCannotBeChild>{0}(은)는 어린이일 수 없습니다.</MessageRitualRoleCannotBeChild>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeBaby>{0}(은)는 아기일 수 없습니다.</MessageRitualRoleCannotBeBaby>
 
+  <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>계속하려면 지역을 선택해야 합니다.</MessagePlayerMustSelectTile>
 
+  <!-- EN: Cannot plant {0_labelShort} -->
   <CannotPlantThing>{0_labelShort}(을)를 심을 수 없음</CannotPlantThing>
+  <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>더 비옥한 땅이 필요합니다.</MessageWarningNotEnoughFertility>
+  <!-- EN: blocked by {0_label}. -->
   <BlockedBy>{0_label}에 막힘</BlockedBy>
+  <!-- EN: Cannot be planted next to {0_label}. -->
   <AdjacentSowBlocker>{0_label} 옆에 심을 수 없습니다.</AdjacentSowBlocker>
+  <!-- EN: Too close to {0_label}. -->
   <TooCloseToOtherPlant>{0_label}에 너무 가깝습니다.</TooCloseToOtherPlant>
+  <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>{0}(을)를 심을 위치가 너무 가깝습니다.</TooCloseToOtherSeedPlantCell>
 
-  <MessageWarningCutImportantPlant>경고: {0}(이)가 벌목될 예정입니다.</MessageWarningCutImportantPlant>
+  <!-- EN: Warning: {0} has been marked for cutting. -->
+  <MessageWarningCutImportantPlant>경고: {0}에 제초 명령을 지정했습니다.</MessageWarningCutImportantPlant>
+
+  <!-- EN: {0_labelShort} is incapable of manipulation. -->
+  <MessageIncapableOfManipulation>{0_labelShort}(은)는 조작 능력이 없습니다.</MessageIncapableOfManipulation>
+
+  <!-- EN: {0_labelShort} activation canceled -->
+  <MessageActivationCanceled>{0_labelShort} 활성화 취소됨</MessageActivationCanceled>
+
+  <!-- EN: Nothing is currently buildable in category -->
+  <NothingAvailableInCategory>현재 이 범주의 무엇도 건설할 수 없음</NothingAvailableInCategory>
+
+  <!-- EN: Storage settings linked for {0} buildings. -->
+  <SettingsLinkedFor>{0}개 건물의 보관 설정을 연결했습니다.</SettingsLinkedFor>
+  <!-- EN: Storage settings unlinked for {0} buildings. -->
+  <SettingsUnlinkedFor>{0}개 건물의 보관 설정 연결을 해제했습니다.</SettingsUnlinkedFor>
+  <!-- EN: Storage settings copied to clipboard. -->
+  <StorageSettingsCopiedToClipboard>보관 설정을 클립보드로 복사했습니다.</StorageSettingsCopiedToClipboard>
+  <!-- EN: Storage settings pasted from clipboard. -->
+  <StorageSettingsPastedFromClipboard>보관 설정을 클립보드에서 복사했습니다.</StorageSettingsPastedFromClipboard>
 
 </LanguageData>

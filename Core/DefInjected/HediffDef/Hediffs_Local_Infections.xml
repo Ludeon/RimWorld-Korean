@@ -1,66 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: flu -->
   <Animal_Flu.label>독감</Animal_Flu.label>
-  <Animal_Flu.description>인플루엔자 바이러스로 인한 전염병입니다. 이 바이러스는 비인간 종을 감염시키는데 발달되었습니다.</Animal_Flu.description>
+  <!-- EN: An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. -->
+  <Animal_Flu.description>인플루엔자 바이러스로 인한 전염병입니다. 이 변종은 인간이 아닌 종을 감염시키는 쪽으로 진화했습니다.</Animal_Flu.description>
+  <!-- EN: minor -->
   <Animal_Flu.stages.minor.label>가벼움</Animal_Flu.stages.minor.label>
+  <!-- EN: major -->
   <Animal_Flu.stages.major.label>심각함</Animal_Flu.stages.major.label>
+  <!-- EN: extreme -->
   <Animal_Flu.stages.extreme.label>극심함</Animal_Flu.stages.extreme.label>
   
+  <!-- EN: plague -->
   <Animal_Plague.label>흑사병</Animal_Plague.label>
-  <Animal_Plague.description>박테리아로 인한 전염병입니다. 이 바이러스는 비인간 종을 감염시키는데 발달되었습니다.</Animal_Plague.description>
+  <!-- EN: An infectious disease caused by bacteria. This strain is adapted to infecting non-human species. -->
+  <Animal_Plague.description>박테리아로 인한 전염병입니다. 이 변종은 인간이 아닌 종을 감염시키는 쪽으로 진화했습니다.</Animal_Plague.description>
+  <!-- EN: minor -->
   <Animal_Plague.stages.minor.label>가벼움</Animal_Plague.stages.minor.label>
+  <!-- EN: major -->
   <Animal_Plague.stages.major.label>심각함</Animal_Plague.stages.major.label>
+  <!-- EN: extreme -->
   <Animal_Plague.stages.extreme-0.label>극심함</Animal_Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
   <Animal_Plague.stages.extreme-1.label>극심함</Animal_Plague.stages.extreme-1.label>
   
+  <!-- EN: fibrous mechanites -->
   <FibrousMechanites.label>근섬유질 메카나이트</FibrousMechanites.label>
-  <FibrousMechanites.description>근육조직에서 섬유질에 반응하는 기계생물 바이러스입니다. 감염자의 힘을 강화하지만 심한 통증을 유발합니다. 이 병은 아마도 근육을 강화시키는 기계장치(메카나이트)의 돌연변이성 바이러스일 것입니다.</FibrousMechanites.description>
+  <!-- EN: Semi-coherent mechanites which develop fibrous links in muscle tissue. They enhance the victim's strength, but also cause intense pain. These are probably a mutated strain of strength-enhancing mechanites. -->
+  <FibrousMechanites.description>근육 조직에서 섬유질 구조를 형성하는 불규칙적인 메카나이트입니다. 감염자의 힘을 강화하지만 심한 통증을 유발합니다. 아마도 근육 강화 메카나이트의 변종일 것입니다.</FibrousMechanites.description>
+  <!-- EN: mild pain -->
   <FibrousMechanites.stages.mild_pain.label>가벼운 고통</FibrousMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
   <FibrousMechanites.stages.intense_pain.label>심각한 고통</FibrousMechanites.stages.intense_pain.label>
   
+  <!-- EN: flu -->
   <Flu.label>독감</Flu.label>
+  <!-- EN: An infectious disease caused by the influenza virus. -->
   <Flu.description>인플루엔자 바이러스로 인한 전염병입니다.</Flu.description>
+  <!-- EN: minor -->
   <Flu.stages.minor.label>가벼움</Flu.stages.minor.label>
+  <!-- EN: major -->
   <Flu.stages.major.label>심각함</Flu.stages.major.label>
+  <!-- EN: extreme -->
   <Flu.stages.extreme.label>극심함</Flu.stages.extreme.label>
   
+  <!-- EN: gut worms -->
   <GutWorms.label>내장 기생충</GutWorms.label>
-  <GutWorms.description>장내에 기생하는 기생충입니다. 구토를 유발합니다. 이 기생충은 감염자의 음식을 소비하여 배고픔을 유발합니다.</GutWorms.description>
+  <!-- EN: Parasitic worms in the gut. They cause vomiting. They also consume the victim's food, which increases hunger. -->
+  <GutWorms.description>장에 기생하는 기생충입니다. 구토를 유발하며, 감염자가 섭취한 음식을 먼저 소비하기 때문에 허기를 유발합니다.</GutWorms.description>
   
+  <!-- EN: lung rot -->
+  <LungRot.label>폐렴</LungRot.label>
+  <!-- EN: A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot. -->
+  <LungRot.description>대상의 폐를 공격하는 세균에 의한 질병입니다. 경증일 땐 짜증나는 정도지만, 세균 번식을 억제하지 못하면 폐에 점점 물이 차서 결국 사망으로 이어집니다.\n\n적절한 치료를 받으면 신체의 면역체계가 스스로 폐렴을 제거할 수 있습니다.</LungRot.description>
+  <!-- EN: A painful bacterial disease caused by exposure to rot stink gas. Upon reaching full saturation, it will kill the affected individual. -->
+  <LungRot.descriptionShort>부패 가스에 노출돼 걸리는 세균성 질병입니다. 포화 수준에 도달하면 감염자는 사망합니다.</LungRot.descriptionShort>
+  <!-- EN: minor -->
+  <LungRot.stages.minor.label>가벼움</LungRot.stages.minor.label>
+  <!-- EN: major -->
+  <LungRot.stages.major.label>심각함</LungRot.stages.major.label>
+  <!-- EN: extreme -->
+  <LungRot.stages.extreme.label>위험</LungRot.stages.extreme.label>
+  
+  <!-- EN: rot stink exposure -->
+  <LungRotExposure.label>부패 가스 노출</LungRotExposure.label>
+  <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
+  <LungRotExposure.description>부패 가스에 장시간 노출됐습니다. 부패 가스 자체로는 건강에 직접적인 영향이 없지만, 계속 흡입하면 세균 감염으로 인해 고통스러운 폐렴에 걸릴 수 있습니다. 부패 가스에 더 노출되지 않으면 서서히 감소합니다.</LungRotExposure.description>
+  <!-- EN: minor -->
+  <LungRotExposure.stages.minor.label>가벼움</LungRotExposure.stages.minor.label>
+  <!-- EN: major -->
+  <LungRotExposure.stages.major.label>심각함</LungRotExposure.stages.major.label>
+  <!-- EN: serious -->
+  <LungRotExposure.stages.serious.label>심각함</LungRotExposure.stages.serious.label>
+  
+  <!-- EN: malaria -->
   <Malaria.label>말라리아</Malaria.label>
+  <!-- EN: An infectious disease caused by a mosquito-borne parasite. -->
   <Malaria.description>모기에 기생하는 기생충에 의한 전염병입니다.</Malaria.description>
+  <!-- EN: minor -->
   <Malaria.stages.minor.label>가벼움</Malaria.stages.minor.label>
+  <!-- EN: major -->
   <Malaria.stages.major.label>심각함</Malaria.stages.major.label>
+  <!-- EN: extreme -->
   <Malaria.stages.extreme.label>극심함</Malaria.stages.extreme.label>
   
+  <!-- EN: muscle parasites -->
   <MuscleParasites.label>근기생충</MuscleParasites.label>
-  <MuscleParasites.description>근육에 기생하는 기생충입니다. 근육을 약화시켜 힘을 떨어뜨립니다.</MuscleParasites.description>
+  <!-- EN: Parasitic creatures in the muscles. These cause weakness and a lack of coordination. -->
+  <MuscleParasites.description>근육에 기생하는 기생충입니다. 근육을 약화시켜 힘과 조작력을 떨어뜨립니다.</MuscleParasites.description>
   
+  <!-- EN: plague -->
   <Plague.label>흑사병</Plague.label>
+  <!-- EN: An infectious disease caused by bacteria. -->
   <Plague.description>박테리아로 인한 전염병입니다.</Plague.description>
+  <!-- EN: minor -->
   <Plague.stages.minor.label>가벼움</Plague.stages.minor.label>
+  <!-- EN: major -->
   <Plague.stages.major.label>심각함</Plague.stages.major.label>
+  <!-- EN: extreme -->
   <Plague.stages.extreme-0.label>극심함</Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
   <Plague.stages.extreme-1.label>극심함</Plague.stages.extreme-1.label>
   
+  <!-- EN: sensory mechanites -->
   <SensoryMechanites.label>감각기 메카나이트</SensoryMechanites.label>
-  <SensoryMechanites.description>신경계에 기생하는 기계생물 바이러스입니다. 감염자의 감각을 향상시키지만 강렬한 고통을 유발합니다. 이 바이러스는 아마도 감각을 강화시키는 기계장치(메카나이트)의 돌연변이 생명체일 것입니다.</SensoryMechanites.description>
+  <!-- EN: Semi-coherent mechanites which reside in the nervous system. They enhance the victim's senses, but also cause intense pain. These are probably a mutated strain of sense-enhancing mechanites. -->
+  <SensoryMechanites.description>신경계에 자리를 잡는 불규칙적인 메카나이트입니다. 감염자의 감각을 강화하지만 강렬한 고통을 유발합니다. 아마도 감각기를 강화하는 메카나이트의 변종일 것입니다.</SensoryMechanites.description>
+  <!-- EN: mild pain -->
   <SensoryMechanites.stages.mild_pain.label>가벼운 고통</SensoryMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
   <SensoryMechanites.stages.intense_pain.label>심각한 고통</SensoryMechanites.stages.intense_pain.label>
   
+  <!-- EN: sleeping sickness -->
   <SleepingSickness.label>수면병</SleepingSickness.label>
-  <SleepingSickness.description>곤충을 매개로 하는 기생충에 의한 전염병입니다. 수면병은 다른 질병만큼 치명적이진 않지만 천천히 진행됩니다. 보통 치료되기까지 오랜 시간이 걸립니다.</SleepingSickness.description>
+  <!-- EN: An infectious disease caused by an insect-borne parasite. Sleeping sickness is not as deadly as some other diseases, but progresses slowly. The body takes a long time to clear the infection. -->
+  <SleepingSickness.description>곤충을 매개로 하는 기생충에 의한 전염병입니다. 수면병은 다른 질병만큼 치명적이진 않지만 천천히 진행됩니다. 완치에 오랜 시간이 걸립니다.</SleepingSickness.description>
+  <!-- EN: minor -->
   <SleepingSickness.stages.minor-0.label>가벼움</SleepingSickness.stages.minor-0.label>
+  <!-- EN: minor -->
   <SleepingSickness.stages.minor-1.label>가벼움</SleepingSickness.stages.minor-1.label>
+  <!-- EN: major -->
   <SleepingSickness.stages.major.label>심각함</SleepingSickness.stages.major.label>
+  <!-- EN: extreme -->
   <SleepingSickness.stages.extreme-0.label>극심함</SleepingSickness.stages.extreme-0.label>
+  <!-- EN: extreme -->
   <SleepingSickness.stages.extreme-1.label>극심함</SleepingSickness.stages.extreme-1.label>
   
+  <!-- EN: infection -->
   <WoundInfection.label>감염</WoundInfection.label>
-  <WoundInfection.description>상처에 세균이 침투하여 염증을 유발합니다. 치료를 하지 않으면 박테리아가 번식하여 국소 조직이 죽고 결국 혈액을 통해 퍼지면서 사망을 일으킬 수 있습니다.\n\n영겁의 세월 동안 교전을 통해 얻은 부상보다 감염으로 잃은 생명이 더 많습니다.</WoundInfection.description>
+  <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
+  <WoundInfection.description>상처에 세균이 침투했습니다. 치료를 하지 않으면 세균이 번식해 국소 조직을 죽이고, 결국 혈액을 오염시켜 사망으로 이어집니다.\n\n영겁의 세월 동안, 부상 자체보다 그로 인한 감염이 더 많은 목숨을 앗아갔습니다.</WoundInfection.description>
+  <!-- EN: an infection -->
   <WoundInfection.labelNoun>감염</WoundInfection.labelNoun>
+  <!-- EN: minor -->
   <WoundInfection.stages.minor.label>가벼움</WoundInfection.stages.minor.label>
+  <!-- EN: major -->
   <WoundInfection.stages.major.label>심각함</WoundInfection.stages.major.label>
+  <!-- EN: extreme -->
   <WoundInfection.stages.extreme-0.label>극심함</WoundInfection.stages.extreme-0.label>
+  <!-- EN: extreme -->
   <WoundInfection.stages.extreme-1.label>극심함</WoundInfection.stages.extreme-1.label>
+  
 </LanguageData>

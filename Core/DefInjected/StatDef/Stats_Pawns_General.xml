@@ -1,66 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: animals learning factor -->
   <AnimalsLearningFactor.label>동물 학습 속도</AnimalsLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for animals skill. -->
   <AnimalsLearningFactor.description>동물이 학습할 때에 속도에 곱해지는 계수입니다.</AnimalsLearningFactor.description>
   
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>침대 굶주림 속도 계수</BedHungerRateFactor.label>
+  
+  <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>상단 승마 속도</CaravanRidingSpeedFactor.label>
+  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
   <CaravanRidingSpeedFactor.description>동물이 상단 이동속도에 주는 영향입니다. 동물은 상단에서만 탈 수 있습니다.</CaravanRidingSpeedFactor.description>
   
+  <!-- EN: carrying capacity -->
   <CarryingCapacity.label>운반 수량</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>손, 입이나 기타 수단으로 옮길 수 있는 물건의 양입니다.\n\n세계화면에서 운반하는 능력과는 관계가 없습니다.</CarryingCapacity.description>
   
+  <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>최대 적응 온도</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>이 온도보다 덥다면 불쾌해집니다. 더 뜨거워지면 열사병으로 죽을 수 있습니다.</ComfyTemperatureMax.description>
   
+  <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>최소 적응 온도</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>이 온도보다 춥다면 불쾌해집니다. 더 차가워지면 저체온증으로 죽을 수 있습니다.</ComfyTemperatureMin.description>
   
+  <!-- EN: eating speed -->
   <EatingSpeed.label>섭취 속도</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>음식을 섭취하는 속도에 곱해지는 계수입니다.</EatingSpeed.description>
   
+  <!-- EN: filth rate -->
   <FilthRate.label>오물 생산량</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>이 생물이 얼마나 많은 오물을 생성하는지 표시합니다.\n\n오물이 문제가 되지 않는 야외 또는 멍석에 두는 것이 좋습니다.</FilthRate.description>
   
+  <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>식량 채집량</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
   <ForagedNutritionPerDay.description>상단에 포함되었을 때 이동하는 동안 하루에 자동적으로 채집하는 양입니다.</ForagedNutritionPerDay.description>
   
+  <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>전역 학습 속도</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>모든 기술을 학습할 때의 속도에 곱해지는 계수입니다.</GlobalLearningFactor.description>
   
-  <HungerRateMultiplier.label>굶주림 속도</HungerRateMultiplier.label>
-  <HungerRateMultiplier.description>생물이 굶주림을 느끼는 속도에 곱해지는 계수입니다.</HungerRateMultiplier.description>
-  
+  <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>항체 생성 속도</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>질병이 발생했을 때 항체가 생성되는 속도를 나타냅니다.\n\n만약 이 값이 너무 낮다면 항체가 생성되기 전에 죽을 수 있습니다.</ImmunityGainSpeed.description>
   
+  <!-- EN: injury healing factor -->
   <InjuryHealingFactor.label>부상 회복 속도</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
   <InjuryHealingFactor.description>부상 회복 속도를 나타냅니다.</InjuryHealingFactor.description>
   
+  <!-- EN: leather amount -->
   <LeatherAmount.label>가죽량</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>도축해서 얻을 수 있는 가죽의 양입니다.</LeatherAmount.description>
   
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>수명 계수</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>이 생물이 노화 관련 질병을 얻기까지 걸리는 시간에 곱해지는 값입니다. 따라서 간접적으로 생물의 기대 수명을 결정합니다. 100%를 초과하는 수명 계수는 노화 질환을 늦춰 기대 수명을 높이고, 100% 미만의 수명 계수는 노화 질환을 앞당겨서 기대 수명을 낮춥니다.</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>최대 열량</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>배를 가득 채우는 데 필요한 총 열량입니다.</MaxNutrition.description>
+  
+  <!-- EN: meat amount -->
   <MeatAmount.label>고기량</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>도축해서 얻을 수 있는 고기의 양입니다.</MeatAmount.description>
   
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>집중명상 획득</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>매일 명상할 때 얻는 초집중 양으로, 집중물체의 이점은 무시됩니다.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0}/일</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0}/일</MeditationFocusGain.formatStringUnfinalized>
+  
+  <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>정신이상 임계치</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
   <MentalBreakThreshold.description>기분이 임계치 아래로 떨어진다면 정신이상을 겪을 위험이 있습니다.\n\n정신이상의 심각성은 한계치 아래로 얼마나 떨어져 있냐에 따라 좌우됩니다.</MentalBreakThreshold.description>
   
+  <!-- EN: minimum handling skill -->
   <MinimumHandlingSkill.label>최소 조련기술 요구량</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
   <MinimumHandlingSkill.description>조련기술이 이 수치보다 낮다면 조련, 훈련, 명령할 수 없습니다.</MinimumHandlingSkill.description>
   
+  <!-- EN: move speed -->
   <MoveSpeed.label>이동속도</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
   <MoveSpeed.description>1초에 몇 칸을 움직일 수 있는지에 대한 값입니다.</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
   <MoveSpeed.formatString>{0}칸/초</MoveSpeed.formatString>
   
+  <!-- EN: pain shock threshold -->
   <PainShockThreshold.label>고통 한계</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>심한 고통으로 인해 정신을 잃는 한계입니다.</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>신경열 한계</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>안전하게 견딜 수 있는 신경열의 최대량입니다.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>신경열 회복속도</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>이 사람의 신경열을 낮추는 속도입니다.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/초</PsychicEntropyRecoveryRate.formatString>
+  
+  <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>정신 감응력</PsychicSensitivity.label>
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>정신적 현상이 대상에게 얼마나 많은 영향을 끼치는지 나타냅니다. 민감할수록 부정적, 긍정적 요인을 모두 크게 받습니다.</PsychicSensitivity.description>
   
+  <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>수면 효율</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>자고 있는 생물이 얼마나 빠르게 깨어나는지를 나타냅니다.</RestRateMultiplier.description>
   
-  <ToxicSensitivity.label>독성 민감도</ToxicSensitivity.label>
-  <ToxicSensitivity.description>중독으로 인한 증상에 곱해지는 계수입니다.</ToxicSensitivity.description>
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>독성 환경 저항</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
+  <ToxicEnvironmentResistance.description>생물이 주위의 환경 독성에 얼마나 저항할 수 있는지 나타냅니다. 독소 가스, 부패 가스, 낙진, 오염된 지형에 대한 저항력을 제공하지만 직접적인 공격에 대해서는 영향을 주지 않습니다. 이 수치가 높을수록 환경 요소로 인한 중독 수치 증가는 느려집니다.</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>독성 저항</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>중독에 저항하는 정도입니다.</ToxicResistance.description>
+  
 </LanguageData>

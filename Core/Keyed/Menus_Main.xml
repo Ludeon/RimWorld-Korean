@@ -1,360 +1,741 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Main menu -->
+  <!-- EN: Tutorial -->
   <Tutorial>튜토리얼</Tutorial>
+  <!-- EN: New colony -->
   <NewColony>새로운 정착지</NewColony>
+  <!-- EN: Back to game -->
   <BackToGame>게임으로 돌아가기</BackToGame>
+  <!-- EN: Review scenario -->
   <ReviewScenario>시나리오 확인</ReviewScenario>
+  <!-- EN: Save -->
   <Save>저장</Save>
+  <!-- EN: Load game -->
   <LoadGame>불러오기</LoadGame>
+  <!-- EN: Options -->
   <Options>환경설정</Options>
+  <!-- EN: Mod -->
   <Mod>모드</Mod>
+  <!-- EN: Mods -->
   <Mods>모드</Mods>
+  <!-- EN: Save translation report -->
   <SaveTranslationReport>번역 보고서 저장</SaveTranslationReport>
+  <!-- EN: Generating translation report -->
   <GeneratingTranslationReport>번역 보고서 생성 중</GeneratingTranslationReport>
+  <!-- EN: Cleanup translation files -->
   <CleanupTranslationFiles>번역 파일 정리</CleanupTranslationFiles>
-  <TranslationFilesTKeyUpdate>번역 파일 갱신 (번역키)</TranslationFilesTKeyUpdate>
+  <!-- EN: Update translations files (TKey's) -->
+  <TranslationFilesTKeyUpdate>번역 파일 갱신 (TKey)</TranslationFilesTKeyUpdate>
+  <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>번역 파일 정리 중</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>개발자용 빠른 테스트</DevQuickTest>
+  <!-- EN: Credits -->
   <Credits>제작자</Credits>
+  <!-- EN: Quit to main menu -->
   <QuitToMainMenu>초기화면으로 나가기</QuitToMainMenu>
+  <!-- EN: Save and quit to menu -->
   <SaveAndQuitToMainMenu>저장 후 초기화면으로 나가기</SaveAndQuitToMainMenu>
+  <!-- EN: Quit to OS -->
   <QuitToOS>종료</QuitToOS>
+  <!-- EN: Save and quit to OS -->
   <SaveAndQuitToOS>저장 후 종료</SaveAndQuitToOS>
+  <!-- EN: Fiction primer -->
   <FictionPrimer>설정 입문서</FictionPrimer>
+  <!-- EN: Ludeon blog -->
   <LudeonBlog>루데온 블로그</LudeonBlog>
+  <!-- EN: Forums -->
   <Forums>포럼</Forums>
+  <!-- EN: Official wiki -->
   <OfficialWiki>공식 위키</OfficialWiki>
+  <!-- EN: Tynan's twitter -->
   <TynansTwitter>타이난의 트위터</TynansTwitter>
+  <!-- EN: Tynan's design book -->
   <TynansDesignBook>타이난의 디자인 북</TynansDesignBook>
+  <!-- EN: Help translate RimWorld -->
   <HelpTranslate>림월드 번역을 도와주세요!</HelpTranslate>
+  <!-- EN: Buy soundtrack -->
   <BuySoundtrack>사운드트랙 구입</BuySoundtrack>
+  <!-- EN: Create world -->
   <CreateWorld>세계 생성</CreateWorld>
 
   <!-- Main menu translations info window -->
+  <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
   <TranslationThanks>림월드의 모든 현지화 작업은 팬들의 손으로 이뤄집니다. 한국어 번역에 참여해 주신 분들의 목록은 다음과 같습니다.\n\n{0}</TranslationThanks>
-  <TranslationHowToContribute>여러분도 기여할 수 있습니다. 자세한 내용은 아래에서 확인해 주세요.</TranslationHowToContribute>
+  <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
+  <TranslationHowToContribute>여러분도 기여하실 수 있습니다. 클릭해서 자세히 알아보세요. (웹 브라우저에서 열림)</TranslationHowToContribute>
+  <!-- EN: Learn more -->
   <LearnMore>더 알아보기</LearnMore>
 
   <!-- Main menu dev build -->
-  <DevBuildWarning>경고: 현재 사용하고 있는 버전은 불안정한 개발 빌드입니다. 얘기치 않은 버그가 발생할 수 있으며, 갑작스런 업데이트로 인해 저장 파일이 망가질 수도 있습니다. 모든 결과를 감당할 수 있는 경우에만 이용해 주시기 바랍니다.</DevBuildWarning>
+  <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
+  <DevBuildWarning>경고: 불안정 개발 빌드입니다. 완성되지 않은 디자인 실험이나 기술적인 개발을 진행 중입니다.\n\n일부 기능의 밸런스가 무너진 상태일 수 있습니다. 의도적으로 크게 벗어난 수치를 사용해 적절한 범위를 파악하고 최종 밸런스를 맞춰나가기 위한 고전 게임 디자인법입니다.\n\n게임을 망가뜨릴 수 있는 버그도 존재할 수 있습니다. 세이브 호환성은 언제 깨질지 알 수 없습니다.\n\n이 모든 걸 감당하실 수 있다면, 테스트에 참가해 주셔서 감사합니다! 실험에 참여하고 싶지 않으시면 최신 안정화 버전을 플레이해 주세요.</DevBuildWarning>
 
   <!-- Create/review world -->
+  <!-- EN: Review world -->
   <ReviewWorld>세계 검토</ReviewWorld>
+  <!-- EN: Generate -->
   <WorldGenerate>생성하기</WorldGenerate>
+  <!-- EN: Save and finish -->
   <WorldSaveAndFinish>저장 및 완료</WorldSaveAndFinish>
-  <Reset>초기화</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>세력 초기화</ResetFactions>
+  <!-- EN: Globe coverage -->
   <PlanetCoverage>플레이 영역</PlanetCoverage>
+  <!-- EN: Overall rainfall -->
   <PlanetRainfall>전반적 강수량</PlanetRainfall>
+  <!-- EN: Overall temperature -->
   <PlanetTemperature>전반적 기온</PlanetTemperature>
+  <!-- EN: Population -->
   <PlanetPopulation>인구밀도</PlanetPopulation>
+  <!-- EN: Low -->
   <PlanetRainfall_Low>낮음</PlanetRainfall_Low>
+  <!-- EN: Normal -->
   <PlanetRainfall_Normal>중간</PlanetRainfall_Normal>
+  <!-- EN: High -->
   <PlanetRainfall_High>높음</PlanetRainfall_High>
+  <!-- EN: Low -->
   <PlanetTemperature_Low>낮음</PlanetTemperature_Low>
+  <!-- EN: Normal -->
   <PlanetTemperature_Normal>중간</PlanetTemperature_Normal>
+  <!-- EN: High -->
   <PlanetTemperature_High>높음</PlanetTemperature_High>
+  <!-- EN: Sparse -->
   <PlanetPopulation_Low>낮음</PlanetPopulation_Low>
+  <!-- EN: Normal -->
   <PlanetPopulation_Normal>중간</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
   <PlanetPopulation_High>높음</PlanetPopulation_High>
+  <!-- EN: Seed -->
   <WorldSeed>초기 시드값</WorldSeed>
+  <!-- EN: Randomize seed -->
   <RandomizeSeed>무작위 초기 시드값</RandomizeSeed>
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>행성의 지름은 언제나 같지만, 실제 플레이 영역보다는 훨씬 거대하기 때문에 시간을 아끼기 위해 전체 표면을 생성하지는 않습니다. 이 설정을 통해 플레이 영역을 선택할 수 있습니다.</PlanetCoverageTip>
+  <!-- EN: Factions -->
   <WorldFactionsTab>세력</WorldFactionsTab>
 
   <!-- Select world -->
+  <!-- EN: Select world -->
   <SelectWorld>세계 선택</SelectWorld>
+  <!-- EN: Select -->
   <WorldChooseButton>선택</WorldChooseButton>
+  <!-- EN: No world files found. Create a world first. -->
   <NoWorldsFilesFound>세계를 찾을 수 없습니다. 먼저 세계를 생성해야 합니다.</NoWorldsFilesFound>
   
   <!-- Version info -->
+  <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
   <BuildNowAvailable>{0} 버전으로 업데이트가 가능합니다. ludeon.com을 방문하여 확인해 주세요.</BuildNowAvailable>
+  <!-- EN: This is the latest version. -->
   <BuildUpToDate>최신 버전입니다.</BuildUpToDate>
+  <!-- EN: Error getting version info: {0} -->
   <ErrorGettingVersionInfo>버전 정보를 불러오는데 문제가 발생하였습니다: {0}</ErrorGettingVersionInfo>
+  <!-- EN: Loading version info... -->
   <LoadingVersionInfo>버전 정보를 불러오는 중</LoadingVersionInfo>
 
   <!-- World generator -->
+  <!-- EN: Generate world -->
   <GenerateWorld>세계 생성</GenerateWorld>
 
   <!-- Mods config -->
+  <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>스팀 창작마당 열기</OpenSteamWorkshop>
+  <!-- EN: Get mods from forum -->
   <GetModsFromForum>포럼에서 모드 찾기</GetModsFromForum>
+  <!-- EN: Open mods data folder -->
   <OpenModsDataFolder>모드 폴더 열기</OpenModsDataFolder>
+  <!-- EN: Show mods data location -->
   <ShowModsDataLocation>모드 데이터 위치 보기</ShowModsDataLocation>
+  <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>정말 코어 모드를 해제하시겠습니까? 코어 모드의 기능을 대체할 모드가 존재하지 않는다면 게임이 정상적으로 작동하지 않습니다.</ConfirmDisableCoreMod>
+  <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>정말 {0}의 모든 내용을 제거하길 원하십니까?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
   <ResolveModOrder>모드 자동 정렬</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>변경 사항 적용 및 저장</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>모드 변경 사항이 저장되지 않았습니다. 계속하시겠습니까?</DiscardModChanges>
+  <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>{0}(을)를 이동할 수 없음: {1} 이후에 불러와야 합니다.</ModReorderConflict_MustLoadAfter>
+  <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>{0}(을)를 이동할 수 없음: {1} 이전에 불러와야 합니다.</ModReorderConflict_MustLoadBefore>
+  <!-- EN: Unsubscribe -->
   <Unsubscribe>구독 해제</Unsubscribe>
-  <ConfirmUnsubscribe>정말 {0}(을)를 구독 해제하길 원하십니까?</ConfirmUnsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe? -->
+  <ConfirmUnsubscribe>정말 구독을 취소하시겠습니까?</ConfirmUnsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
+  <ConfirmUnsubscribeFrom>정말 {0}의 구독을 취소하시겠습니까?</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>다음 모드의 구독을 취소하시겠습니까?\n\n{0}</ConfirmUnsubscribeFromMultiple>
+  <!-- EN: Author -->
   <Author>저작자</Author>
+  <!-- EN: Enabled -->
+  <Enabled>활성화됨</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>사용 불가</Disabled>
+  <!-- EN: Enable -->
+  <Enable>활성화</Enable>
+  <!-- EN: Disable -->
+  <Disable>비활성화</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>더 많은 모드 찾기...</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>구독 취소...</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>목록 저장 / 불러오기...</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>모드 목록 저장하기</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>모드 목록 불러오기</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>추가된 모드</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>누락된 모드</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>공유된 모드</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>웹사이트</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>폴더 열기</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>모드 설정</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>창작마당</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>포럼</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>고급...</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>선택한 모든 모드</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>비활성화된 모든 모드</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>호환되지 않는 모든 모드</AllIncompatibleMods>
+  <!-- EN: Workshop page -->
   <WorkshopPage>창작마당 항목</WorkshopPage>
+  <!-- EN: Upload to Steam Workshop -->
   <UploadToSteamWorkshop>스팀 창작마당에 등록</UploadToSteamWorkshop>
+  <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>스팀 창작마당에 갱신</UpdateOnSteamWorkshop>
+  <!-- EN: Upload already in progress. -->
   <UploadAlreadyInProgress>이미 등록하는 중입니다.</UploadAlreadyInProgress>
+  <!-- EN: Workshop submission failed.\n\nReason: {0} -->
   <WorkshopSubmissionFailed>창작마당에 올리지 못했습니다.\n\n사유: {0}</WorkshopSubmissionFailed>
+  <!-- EN: Successfully uploaded {0}. -->
   <WorkshopUploadSucceeded>{0} 등록에 성공했습니다.</WorkshopUploadSucceeded>
+  <!-- EN: Downloading -->
   <Downloading>내려받는 중</Downloading>
-  <ModDisplayFulfilledRequirements>요구사항 표시</ModDisplayFulfilledRequirements>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>창작마당 ID</WorkshopId>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>만족한 요구사항 표시</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
   <ModClickToSelect>클릭해서 선택할 수 있습니다.</ModClickToSelect>
-  <ModClickToGoToWebsite>클릭하여 웹사이트로 이동하십시오.</ModClickToGoToWebsite>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>클릭해서 웹사이트로 이동할 수 있습니다.</ModClickToGoToWebsite>
+  <!-- EN: Source -->
   <Source>출처</Source>
-  <ModTargetVersion>버전</ModTargetVersion>
+  <!-- EN: Game versions -->
+  <ModTargetVersion>게임 버전</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>모드 버전</ModVersion>
+  <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
   <ModMustLoadBefore>{0}보다 앞에 불러와야 합니다.</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
   <ModMustLoadAfter>{0}보다 뒤에 불러와야 합니다.</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
   <ModDependsOn>선행모드: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
   <ModIncompatibleWith>호환되지 않는 모드: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
   <ModIncompatibleWithTip>이 모드는 {0} 모드와 호환되지 않습니다.</ModIncompatibleWithTip>
-  <ModOrderingWarning>이 모드는 잘못된 순서로 배열되어 있습니다. 모드 자동 정렬 기능을 사용하거나 맞는 순서대로 수동 배열하십시오.</ModOrderingWarning>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>모드 순서가 잘못됐습니다. 모드 자동 정렬 기능을 사용하시거나 올바른 순서로 직접 배치해 주세요.</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>{0} 모드와 동일한 ID가 사용되고 있습니다.</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>{0} 모드와 순환 종속 문제가 발생하고 있습니다.</ModCyclicDependency>
+  <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>{0} 모드와 함께 사용해야 합니다.</ModUnsatisfiedDependency>
+  <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>모드 버전이 현재 게임 버전과 맞지 않습니다. 문제가 발생할 수 있습니다.</ModNotMadeForThisVersion>
+  <!-- EN: This mod is not made for this version of RimWorld. -->
   <ModNotMadeForThisVersionShort>모드 버전이 현재 게임 버전과 맞지 않습니다.</ModNotMadeForThisVersionShort>
+  <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>모드 버전이 현재 게임 버전과 맞지 않습니다. 문제가 발생할 수 있습니다.</ModNotMadeForThisVersion_Newer>
-  <MessageModNeedsWellFormattedTargetVersion>모드는 About.xml에서 올바른 형식의 지원되는 버전 정보가 필요합니다. 예: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt; - &lt;targetVersion&gt;은 이제 사용되지 않습니다. 자세한 정보는 로그를 확인하십시오.</MessageModNeedsWellFormattedTargetVersion>
-  <MessageModNeedsWellFormattedPackageId>모드의 About.xml에서 올바른 양식의 고유한 packageId가 필요합니다. 다음 요구사항을 확인해보세요:\n\n  - 영문, 숫자, . 만 사용가능\n  - 공백이 없어야 함\n  - 하나 이상의 .\n  - 연속으로 .이 반복되거나 .으로 시작하거나, .으로 끝나면 안됨\n  - 60자 이하\n  - "Ludeon"이라는 단어는 포함안됨\n\n예:\n&lt;packageId&gt;AuthorName.ModName&lt;/packageId&gt;\n&lt;packageId&gt;AuthorName.ModName.Specific&lt;/packageId&gt;</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>모드는 About.xml에서 올바른 형식의 지원되는 버전 정보가 필요합니다. 예: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion>은 이제 사용되지 않습니다. 자세한 정보는 로그를 확인하십시오.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>모드의 About.xml에서 올바른 양식의 고유한 packageId가 필요합니다. 다음 요구사항을 확인해보세요:\n\n  - 영문, 숫자, . 만 사용가능\n  - 공백이 없어야 함\n  - 하나 이상의 .\n  - 연속으로 .이 반복되거나 .으로 시작하거나, .으로 끝나면 안됨\n  - 60자 이하\n  - "Ludeon"이라는 단어는 포함안됨\n\n예:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>이 모드의 LoadFolders.xml에 문제가 있으며, 업로드하기 전에 해결해야 합니다:</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>{1} 버전에 지정된 {0} 폴더가 없습니다.</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
   <ModLoadFolderMalformedVersion>'{0}'은 잘못된 형식의 버전입니다. 올바른 형식은 Major.Minor 입니다. (예: 1.1)</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
   <ModLoadFolderListEmpty>{0} 버전의 load folders의 목록이 비어있습니다.</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
   <ModLoadFolderRepeatingFolder>동일한 폴더가 두 번이상 나열된 {0} 버전: {1}.</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
   <ModLoadFolderOutOfOrder>잘못된 버전 순서: {0}(은)는 {1} 보다 앞에 와야 합니다.</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>잘못된 버전 순서: 'default'를 먼저 정의해야 합니다.</ModLoadFolderOutOfOrderDefault>
-  <ModLoadFolderDefaultDeprecated>로드 폴더에서 더는 'default'가 사용되지 않습니다. &lt;v...&gt; 태그를 사용하여 각 버전에 대한 폴더를 정의하세요.</ModLoadFolderDefaultDeprecated>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>로드 폴더에서 더는 'default'가 사용되지 않습니다. &lt;v...> 태그를 사용하여 각 버전에 대한 폴더를 정의하세요.</ModLoadFolderDefaultDeprecated>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>{0} 버전은 load folders에 정의되어 있지만, 모드의 About.xml의 'supportedVersions'에는 나열되어 있지 않습니다.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <!-- EN: Drag to reorder -->
   <DragToReorder>드래그로 정렬</DragToReorder>
 
   <!-- Select scenario -->
+  <!-- EN: Choose scenario -->
   <ChooseScenario>시나리오 선택</ChooseScenario>
+  <!-- EN: Custom -->
   <ScenariosCustom>사용자 지정</ScenariosCustom>
+  <!-- EN: Steam Workshop -->
   <ScenariosSteamWorkshop>창작마당</ScenariosSteamWorkshop>
+  <!-- EN: Scenario editor -->
   <ScenarioEditor>시나리오 편집</ScenarioEditor>
+  <!-- EN: Delete -->
   <Delete>삭제</Delete>
   
   <!-- Scenario editor -->
+  <!-- EN: seed -->
   <Seed>초기 시드값</Seed>
+  <!-- EN: Load -->
   <Load>불러오기</Load>
+  <!-- EN: edit mode -->
   <EditMode>편집 모드</EditMode>
+  <!-- EN: Summary -->
   <Summary>줄거리</Summary>
+  <!-- EN: Add part -->
   <AddPart>파트 추가</AddPart>
+  <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>모든 텍스트 필드를 채워야 합니다.</TextFieldsMustBeFilled>
+  <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
   <ConfirmSteamWorkshopUpload>정말 업로드하시겠습니까?\n\n스팀 창작마당 서비스 약관에 동의하셔야 합니다. 전문:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>스스로 제작한 것만 올릴 수 있습니다.\n\n직접 만드셨나요?</ConfirmContentAuthor>
+  <!-- EN: Incompatible -->
   <Incompatible>호환되지 않음</Incompatible>
+  <!-- EN: Tag as translation -->
   <TagAsTranslation>번역 태그로 지정</TagAsTranslation>
+  <!-- EN: Too many (max {0}):  -->
   <TooMany>너무 많음 (최대 {0}): </TooMany>
+  <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>제작자 본인인 경우에만 창작마당 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>편집된 시나리오입니다.\n\n계속 진행하기 전에 저장하시겠습니까?</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
+  <!-- EN: Choose AI Storyteller -->
   <ChooseAIStoryteller>이야기꾼 선택</ChooseAIStoryteller>
+  <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
   <HowStorytellersWork>이야기꾼의 특성에 따라 습격, 수송 포드 추락, 동물 광란 등 여러 사건이 다른 빈도로 발생하여 정착지의 미래에 영향을 끼칠 것입니다. 언제든 바꿀 수 있습니다.</HowStorytellersWork>
+  <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>난이도를 선택해야 합니다.</MustChooseDifficulty>
+  <!-- EN: Difficulty -->
   <Difficulty>난이도</Difficulty>
+  <!-- EN: Commitment mode -->
   <CommitmentMode>철인 모드</CommitmentMode>
+  <!-- EN: Reload anytime mode -->
   <ReloadAnytimeMode>클래식 모드</ReloadAnytimeMode>
+  <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>모드를 선택해야 합니다.</MustChoosePermadeath>
+  <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
   <ReloadAnytimeModeInfo>클래식 모드에서는 언제든 게임을 저장하거나 불러올 수 있습니다.\n\n게임을 배우는 중이거나 불안정한 외부 컨텐츠를 사용하는 경우에 적합합니다.</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>철인 모드에서는 게임을 종료할 때만 저장이 가능합니다.\n\n림월드는 이야기 생성기이기 때문에, 한 명을 제외한 모두를 잃더라도 게임이 끝나는 것이 아닙니다. 림월드는 손실을 겪은 후에 회복할 수 있도록 설계되었습니다. 모든 것은 이야기의 일부분일 뿐입니다.\n\n림월드에서 권장하는 플레이 방식으로, 매 순간 주어지는 희극과 비극을 온전히 경험할 수 있습니다.\n\n큰 상실과 그 후의 회복이야말로 극적 요소입니다.</PermadeathModeInfo>
+  <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>이야기꾼과 난이도는 언제든지 변경 가능합니다.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- custom difficulty settings -->
+  <!-- EN: Custom playstyle settings -->
   <DifficultyCustomSectionLabel>사용자지정 플레이 유형 설정</DifficultyCustomSectionLabel>
+  <!-- EN: Set to standard playstyle... -->
   <DifficultyReset>표준 플레이 유형으로 설정..</DifficultyReset>
   
+  <!-- EN: Threats -->
   <DifficultyThreatSection>위협</DifficultyThreatSection>
+  <!-- EN: Threat scale -->
   <Difficulty_ThreatScale_Label>위협 규모</Difficulty_ThreatScale_Label>
+  <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
   <Difficulty_ThreatScale_Info>습격과 곤충군락과 같은 위협의 규모와 임무의 난이도를 조정합니다.</Difficulty_ThreatScale_Info>
+  <!-- EN: Major threats -->
   <Difficulty_AllowBigThreats_Label>심각한 위협</Difficulty_AllowBigThreats_Label>
+  <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
   <Difficulty_AllowBigThreats_Info>습격, 곤충군락, 인간사냥, 메카노이드 함선 등과 같은 주요 위협을 허용합니다.</Difficulty_AllowBigThreats_Info>
+  <!-- EN: Quest threats -->
   <Difficulty_AllowViolentQuests_Label>임무 위협</Difficulty_AllowViolentQuests_Label>
+  <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
   <Difficulty_AllowViolentQuests_Info>임무가 난폭한 위협과 도전을 제시하도록 허용합니다. 비활성한다면 임무는 평화적으로 수정됩니다.</Difficulty_AllowViolentQuests_Info>
+  <!-- EN: Intro threats -->
   <Difficulty_AllowIntroThreats_Label>시작시 위협</Difficulty_AllowIntroThreats_Label>
+  <!-- EN: Enable the fixed intro threats that appear near game start. -->
   <Difficulty_AllowIntroThreats_Info>게임 시작시 나타나는 고정 위협을 활성화 합니다.</Difficulty_AllowIntroThreats_Info>
+  <!-- EN: Predators hunt humans -->
   <Difficulty_PredatorsHuntHumanlikes_Label>포식동물이 인간 사냥</Difficulty_PredatorsHuntHumanlikes_Label>
+  <!-- EN: Allow wild predators to hunt humans. -->
   <Difficulty_PredatorsHuntHumanlikes_Info>야생 포식동물이 인간을 사냥하도록 허용합니다.</Difficulty_PredatorsHuntHumanlikes_Info>
+  <!-- EN: Extreme weather -->
   <Difficulty_AllowExtremeWeatherIncidents_Label>극단적인 날씨</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
   <Difficulty_AllowExtremeWeatherIncidents_Info>유독성 낙진, 화산겨울, 섬광폭풍과 같은 극단적인 날씨를 허용합니다.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
+  <!-- EN: Economy -->
   <DifficultyEconomySection>경제</DifficultyEconomySection>
+  <!-- EN: Trade price disadvantage -->
   <Difficulty_TradePriceFactorLoss_Label>불리한 거래가격</Difficulty_TradePriceFactorLoss_Label>
+  <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
   <Difficulty_TradePriceFactorLoss_Info>거래시 이 양만큼 구매 금액이 오르고 판매 금액이 낮아집니다.</Difficulty_TradePriceFactorLoss_Info>
+  <!-- EN: Harvest yield -->
   <Difficulty_CropYieldFactor_Label>수확량</Difficulty_CropYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
   <Difficulty_CropYieldFactor_Info>식물과 작물을 수확할 때 생산되는 양을 조정합니다. 여기에는 식물 수확과 벌목도 포함됩니다.</Difficulty_CropYieldFactor_Info>
+  <!-- EN: Mining yield -->
   <Difficulty_MineYieldFactor_Label>채굴량</Difficulty_MineYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when mining. -->
   <Difficulty_MineYieldFactor_Info>채굴시 얻을 수 있는 재료의 양을 조정합니다.</Difficulty_MineYieldFactor_Info>
+  <!-- EN: Butchering yield -->
   <Difficulty_ButcherYieldFactor_Label>도축량</Difficulty_ButcherYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
   <Difficulty_ButcherYieldFactor_Info>도축시 얻을 수 있는 재료의 양을 조정합니다. 여기에는 육류, 가죽, 메카노이드 분해 같은 수확량도 포함됩니다.</Difficulty_ButcherYieldFactor_Info>
+  <!-- EN: Research speed -->
   <Difficulty_ResearchSpeedFactor_Label>연구 속도</Difficulty_ResearchSpeedFactor_Label>
+  <!-- EN: Adjust the speed of research. -->
   <Difficulty_ResearchSpeedFactor_Info>연구의 속도를 조정합니다.</Difficulty_ResearchSpeedFactor_Info>
+  <!-- EN: Quest rewards -->
   <Difficulty_QuestRewardValueFactor_Label>임무 보상</Difficulty_QuestRewardValueFactor_Label>
+  <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_QuestRewardValueFactor_Info>임무에 대한 보상 가치를 조정합니다.\n\n참고: 위협 규모를 보상하기 위해 임무 보상 가치도 자동으로 조정됩니다. 이 설정을 조정하면 배율을 추가할 수 있습니다.</Difficulty_QuestRewardValueFactor_Info>
+  <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>습격 전리품</Difficulty_RaidLootPointsFactor_Label>
+  <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_RaidLootPointsFactor_Info>습격자가 소지한 전리품의 가치를 조정합니다.\n\n참고: 위협 규모를 보상하기 위해 습격 전리품 가치도 자동으로 조정됩니다. 이 설정을 조정하면 배율을 추가할 수 있습니다.</Difficulty_RaidLootPointsFactor_Info>
+  <!-- EN: Turret rearm cost -->
   <Difficulty_MaintenanceCostFactor_Label>포탑 재무장 비용</Difficulty_MaintenanceCostFactor_Label>
+  <!-- EN: Adjust the cost of rearming turrets. -->
   <Difficulty_MaintenanceCostFactor_Info>포탑 재무장의 비용을 조정합니다.</Difficulty_MaintenanceCostFactor_Info>
+  <!-- EN: Scaria rot chance -->
   <Difficulty_ScariaRotChance_Label>스카리아 부패 확률</Difficulty_ScariaRotChance_Label>
+  <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
   <Difficulty_ScariaRotChance_Info>생명체가 스카리아 질병에 걸렸다면 죽을 때 바로 썩을 확률입니다.\n\n참고: 기본 설정값은 높은 난이도에서 동물 수 증가의 균형을 정확히 맞추기 위해 설계되었으므로, 모든 플레이어는 동일한 고기량을 받습니다.</Difficulty_ScariaRotChance_Info>
+  <!-- EN: Enemy death on downed -->
   <Difficulty_EnemyDeathOnDownedChanceFactor_Label>적이 쓰러질 때 죽음</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
   <Difficulty_EnemyDeathOnDownedChanceFactor_Info>적이 쓰러졌을 때 즉시 사망할 확률을 조정합니다. 이는 포로를 잡을 기회와 정착지 인구 증가율에 영향을 미칩니다.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
+  <!-- EN: General -->
   <DifficultyGeneralSection>일반</DifficultyGeneralSection>
+  <!-- EN: Colonist mood -->
   <Difficulty_ColonistMoodOffset_Label>정착민 기분</Difficulty_ColonistMoodOffset_Label>
+  <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
   <Difficulty_ColonistMoodOffset_Info>모든 정착민과 수감자에게 적용되는 영구적인 기분입니다. 정착민의 기본 기분은 50%입니다.</Difficulty_ColonistMoodOffset_Info>
+  <!-- EN: Food poison chance -->
   <Difficulty_FoodPoisonChanceFactor_Label>식중독 확률</Difficulty_FoodPoisonChanceFactor_Label>
+  <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
   <Difficulty_FoodPoisonChanceFactor_Info>식중독 가능성이 있는 음식을 먹을 때 식중독에 걸릴 확률을 조정합니다.</Difficulty_FoodPoisonChanceFactor_Info>
+  <!-- EN: Animal revenge chance -->
   <Difficulty_ManhunterChanceOnDamageFactor_Label>동물 보복 확률</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
   <Difficulty_ManhunterChanceOnDamageFactor_Info>야생동물을 사냥할 때 반격할 확률을 조정합니다.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>아군오사</Difficulty_FriendlyFireChanceFactor_Label>
+  <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
   <Difficulty_FriendlyFireChanceFactor_Info>아군오사의 확률을 조정합니다.\n\n참고: 이 설정은 목표물을 맞출 직격탄에만 영향을 미칩니다. 폭발이나 빗맞힘 사격으로 인한 피해는 방지하지 않습니다.</Difficulty_FriendlyFireChanceFactor_Info>
+  <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>정착민 즉사</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
   <Difficulty_AllowInstantKillChance_Info>정착민이 공격으로 즉시 사망할 확률을 조정합니다. 받는 피해가 조정되어 죽는 대신 쓰러집니다.\n\n이는 단지 몇 종류의 즉사를 막을 뿐, 정착민이 쓰러져 출혈이나 화재, 폭발, 질병 등으로 사망할 수 있습니다.</Difficulty_AllowInstantKillChance_Info>
+  <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>감염 확률</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <!-- EN: Adjust the chance that a wound will become infected. -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Info>상처가 감염될 확률을 조정합니다.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <!-- EN: Disease frequency -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Label>질병 빈도</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <!-- EN: Adjust the frequency of random disease events. -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Info>무작위 질병 사건의 빈도를 조정합니다.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <!-- EN: Insect spawning rate -->
   <Difficulty_EnemyReproductionRateFactor_Label>곤충 생성률</Difficulty_EnemyReproductionRateFactor_Label>
+  <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
   <Difficulty_EnemyReproductionRateFactor_Info>곤충 군락이 새로운 곤충을 생성하는 속도를 조정합니다. 값이 낮을수록 생성되기까지 더 많은 시간이 걸립니다.\n\n이는 곤충군락 생성여부에 영향을 주지 않으며 군락에서 곤충이 생성되는 속도에만 영향을 미칩니다.</Difficulty_EnemyReproductionRateFactor_Info>
+  <!-- EN: Deep drilling infestations -->
   <Difficulty_DeepDrillInfestationChanceFactor_Label>굴착으로 인한 곤충 자극</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
   <Difficulty_DeepDrillInfestationChanceFactor_Info>굴착 작업이 지하의 곤충을 자극할 확률을 조정합니다.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <!-- EN: Map generation ancient threats -->
   <Difficulty_PeacefulTemples_Inverted_Label>지도 고대위협 생성</Difficulty_PeacefulTemples_Inverted_Label>
+  <!-- EN: Ancient structures may contain dangerous threats. -->
   <Difficulty_PeacefulTemples_Inverted_Info>고대 구조물에는 위험한 위협이 포함될 수 있습니다.</Difficulty_PeacefulTemples_Inverted_Info>
+  <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>지도 자연동굴 생성</Difficulty_AllowCaveHives_Label>
+  <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>휴면 중인 곤충군락이 자연동굴에서 생성될 수 있습니다.\n\n이 설정은 맵 생성시에만 적용되며 내산지 플레이로 인한 터널 같은 곳에는 영향을 주지 않습니다.</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>확고한 수감자 추가</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>꺾이지 않는 저항심 때문에 포섭 불가능한 수감자를 게임에 추가합니다.\n\n확고한 수감자는 기존 수감자에 더해지는 것이기 때문에, 이 옵션을 비활성화해도 포섭 가능한 수감자의 수가 늘어나지는 않습니다.\n\n확고한 수감자도 석방해서 관계를 개선하거나, 팔거나, 노예로 삼거나, 장기를 적출하는 등 다양하게 활용할 수 있으므로 게임이 다소 부유해지고 쉬워집니다.</Difficulty_UnwaveringPrisoners_Info>
 
+  <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>플레이어 도구</DifficultyPlayerToolsSection>
+  <!-- EN: Player can build traps -->
   <Difficulty_AllowTraps_Label>함정 건설 가능</Difficulty_AllowTraps_Label>
+  <!-- EN: Player can build traps like spike traps and IED traps. -->
   <Difficulty_AllowTraps_Info>플레이어는 가시나 IED와 같은 함정을 만들 수 있습니다.</Difficulty_AllowTraps_Info>
+  <!-- EN: Player can build turrets -->
   <Difficulty_AllowTurrets_Label>포탑 건설 가능</Difficulty_AllowTurrets_Label>
+  <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
   <Difficulty_AllowTurrets_Info>플레이어는 소형 기관포, 대형 기관포, 저격 포탑과 같은 고정 포탑을 만들 수 있습니다.\n\n이 설정을 비활성했더라도 포탑을 포획했다면 사용 가능합니다.</Difficulty_AllowTurrets_Info>
+  <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>박격포 건설 가능</Difficulty_AllowMortars_Label>
+  <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
   <Difficulty_AllowMortars_Info>플레이어는 박격포를 만들 수 있습니다.\n\n이 설정을 비활성했더라도 박격포를 포획했다면 사용 가능합니다.</Difficulty_AllowMortars_Info>
+  <!-- EN: Classic mortars -->
   <Difficulty_ClassicMortars_Label>기존 박격포</Difficulty_ClassicMortars_Label>
+  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
   <Difficulty_ClassicMortars_Info>박격포 운용에 강화 포신이 필요하지 않게 되는 대신, 그에 맞춰 밸런스가 조정됩니다.</Difficulty_ClassicMortars_Info>
   
+  <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>각색</DifficultyAdaptationSection>
+  <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>피해 각색 성장</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Info>각색이란 손실을 당하지 않은채 시간이 지날수록 이야기꾼이 게임을 더 어렵게 만드는 것을 의미합니다. 이는 재산과 인구수의 이야기 효과와는 별개입니다.\n\n도전 성장률을 조정합니다.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>피해 각색 효과</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
   <Difficulty_AdaptationEffectFactor_Info>각색이란 손실을 당하지 않은채 시간이 지날수록 이야기꾼이 게임을 더 어렵게 만드는 것을 의미합니다. 이는 재산과 인구수의 이야기 효과와는 별개입니다.\n\n실제 위협에 대한 적응값의 효과를 조정합니다.</Difficulty_AdaptationEffectFactor_Info>
-  <Difficulty_FixedWealthMode_Label>재산 독립진행방식</Difficulty_FixedWealthMode_Label>
-  <Difficulty_FixedWealthMode_Info>재산 독립진행방식에서 플레이해보세요.\n\n일반 방식에서는 이야기꾼이 정착민 수, 재산과 기타 요인의 다양함에 따라 위협을 조정합니다. 재산 독립진행방식에서는 재산 요인을 제거하고 시간을 기준으로 고정된 진행곡선으로 대체합니다. 시간은 각 정착지가 생성될 때부터 계산됩니다.\n\n숙련된 도전을 원하는 사람들에게만 권장됩니다. 고정 진행방식에서는 새로운 거주지를 찾지 않는 한 심각한 손실로부터 회복하기가 거의 불가능할 수도 있습니다. 또한, 진행곡선에 너무 앞서서 진행하다보면 게임을 쉽게 풀어낼 수도 있습니다.</Difficulty_FixedWealthMode_Info>
+  <!-- EN: Wealth-independent progress mode -->
+  <Difficulty_FixedWealthMode_Label>재산 독립 진행방식</Difficulty_FixedWealthMode_Label>
+  <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <Difficulty_FixedWealthMode_Info>재산 독립 진행방식에서 플레이해보세요.\n\n일반 방식에서는 이야기꾼이 정착민 수, 재산과 기타 요인의 다양함에 따라 위협을 조정합니다. 재산 독립 진행방식에서는 재산 요인을 제거하고 시간을 기준으로 고정된 진행곡선으로 대체합니다. 시간은 각 정착지가 생성될 때부터 계산됩니다.\n\n숙련된 도전을 원하는 사람들에게만 권장됩니다. 고정 진행방식에서는 새로운 거주지를 찾지 않는 한 심각한 손실로부터 회복하기가 거의 불가능할 수도 있습니다. 또한, 진행곡선에 너무 앞서서 진행하다보면 게임을 쉽게 풀어낼 수도 있습니다.</Difficulty_FixedWealthMode_Info>
+  <!-- EN: Years until maximum threat -->
   <Difficulty_FixedWealthTimeFactor_Label>최대 위협까지 (연수)</Difficulty_FixedWealthTimeFactor_Label>
+  <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
   <Difficulty_FixedWealthTimeFactor_Info>재산 독립모드가 최대 위협 수준에 도달할 때까지의 게임 연수입니다.\n\n이야기꾼은 정착민 수와 기타 요인에 따라 위협 규모를 계속 확장합니다.</Difficulty_FixedWealthTimeFactor_Info>
 
+  <!-- EN: Ideology -->
   <DifficultyIdeologySection>사상</DifficultyIdeologySection>
+  <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>낮은 정착민 수에 대한 교화 위력 증가</Difficulty_LowPopConversionBoost_Label>
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
   <Difficulty_LowPopConversionBoost_Info>정착지에 플레이어가 처음 선택한 사상을 믿는 정착민이 한 명이면 다른 사상을 교화시킬 확률에 이 수를 곱합니다. 반대로 그 정착민에 대한 교화 시도에는 확률을 이 수로 나눕니다.\n\n처음 선택한 사상을 믿는 정착민이 두 명이면 효과가 절반으로 줄어듭니다.\n\n처음 선택한 사상을 믿는 정착민이 세 명 이상일 경우 아무런 효과도 없습니다.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
+  <!-- EN: Select starting site -->
   <SelectStartingSite>시작 지점 선택</SelectStartingSite>
+  <!-- EN: Select random site -->
   <SelectRandomSite>무작위 지점 선택</SelectRandomSite>
+  <!-- EN: Select site -->
   <SelectSite>확인</SelectSite>
+  <!-- EN: Please select a site. -->
   <MustSelectStartingSite>시작 지점을 선택해야 합니다.</MustSelectStartingSite>
+  <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>{0}에 착륙할 수 없습니다.</CannotLandBiome>
+  <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>구현되지 않은 기후입니다.</BiomeNotImplemented>
+  <!-- EN: You cannot land on impassable mountains. -->
   <CannotLandImpassableMountains>통과 불가능한 산에 착륙할 수 없습니다.</CannotLandImpassableMountains>
+  <!-- EN: {0} already have a base there. -->
   <BaseAlreadyThere>해당 위치에 {0}의 기지가 있습니다.</BaseAlreadyThere>
+  <!-- EN: You already have a base there. -->
   <YourBaseAlreadyThere>이미 해당 위치에 정착했습니다.</YourBaseAlreadyThere>
+  <!-- EN: This tile is occupied. -->
   <TileOccupied>해당 타일은 이미 점유 중입니다.</TileOccupied>
+  <!-- EN: Settlements cannot be directly adjacent to each other. -->
   <FactionBaseAdjacent>정착지는 서로 근접할 수 없습니다.</FactionBaseAdjacent>
+  <!-- EN: Biome -->
   <Biome>기후</Biome>
+  <!-- EN: Terrain -->
   <Terrain>지형</Terrain>
+  <!-- EN: Road -->
   <Road>도로</Road>
+  <!-- EN: River -->
   <River>강</River>
+  <!-- EN: Elevation -->
   <Elevation>고도</Elevation>
+  <!-- EN: Fertility -->
   <Fertility>토질</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>풍요</FertilityLower>
+  <!-- EN: Average temperature -->
   <AvgTemp>평균기온</AvgTemp>
+  <!-- EN: Rainfall -->
   <Rainfall>강수량</Rainfall>
+  <!-- EN: Special features -->
   <SpecialFeatures>특이사항</SpecialFeatures>
+  <!-- EN: northern coast -->
   <HasCoast0>북부 해안</HasCoast0>
+  <!-- EN: eastern coast -->
   <HasCoast1>동부 해안</HasCoast1>
+  <!-- EN: southern coast -->
   <HasCoast2>남부 해안</HasCoast2>
+  <!-- EN: western coast -->
   <HasCoast3>서부 해안</HasCoast3>
+  <!-- EN: caves -->
   <HasCaves>동굴</HasCaves>
+  <!-- EN: Faction base -->
   <FactionBase>세력 기지</FactionBase>
+  <!-- EN: Stone types -->
   <StoneTypesHere>지질 유형</StoneTypesHere>
+  <!-- EN: Time zone -->
   <TimeZone>시간대</TimeZone>
+  <!-- EN: Movement difficulty -->
   <MovementDifficulty>이동 어려움</MovementDifficulty>
+  <!-- EN: Animals can graze now -->
   <AnimalsCanGrazeNow>초식동물 방목 가능</AnimalsCanGrazeNow>
+  <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>평균 질병 빈도</AverageDiseaseFrequency>
+  <!-- EN: per year -->
   <PerYear>매년</PerYear>
+  <!-- EN: Forageability -->
   <Forageability>수렵능력</Forageability>
+  <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>선택된 구성원 중 다음 작업을 수행할 수 없습니다:\n\n{0}\n\n평소보다 게임이 더 어려울 수 있습니다. 계속 하시겠습니까?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>온도</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>무른 지면</LightLower>
 
   <!-- Character chooser -->
+  <!-- EN: Create characters -->
   <CreateCharacters>캐릭터 생성</CreateCharacters>
+  <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>캐릭터의 이름입니다.\n\n특정한 메뉴에서만 보여집니다.</FirstNameDesc>
+  <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
   <ShortIdentifierDesc>게임 속에서 항상 표시되는 캐릭터의 별명입니다.\n\n이름의 일부를 그대로 사용해도 되고 새로운 별명을 부여해도 됩니다.</ShortIdentifierDesc>
+  <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
   <LastNameDesc>캐릭터의 성입니다.\n\n특정한 메뉴에서만 보여집니다.</LastNameDesc>
+  <!-- EN: Randomize -->
   <Randomize>섞기</Randomize>
+  <!-- EN: age {0} -->
   <AgeIndicator>나이 {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
   <PawnSummary>{PAWN_race}, 나이 {PAWN_ageFull}</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
   <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, 나이 {PAWN_ageFull}</PawnSummaryWithGender>
+  <!-- EN: Backstory -->
   <Backstory>성장 환경</Backstory>
+  <!-- EN: Incapable of -->
   <IncapableOf>결격 사항</IncapableOf>
+  <!-- EN: Abilities -->
   <Abilities>능력</Abilities>
-  <IncapableOfTooltipBackstory>{0} 배경에 의해 발생</IncapableOfTooltipBackstory>
-  <IncapableOfTooltipTitle>{0} 작위에 의해 발생</IncapableOfTooltipTitle>
-  <IncapableOfTooltipTrait>{0} 특성에 의해 발생</IncapableOfTooltipTrait>
-  <IncapableOfTooltipHediff>{0}에 의해 발생</IncapableOfTooltipHediff>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipHediff>원인</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>비활성화된 작업 유형:</IncapableOfTooltipWorkTypes>
-  <IncapableOfTooltipQuest>{0} 임무에 의해 발생</IncapableOfTooltipQuest>
-  <IncapableOfTooltipRole>{0} 보직에 의해 발생</IncapableOfTooltipRole>
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>성장 배경에 의해 발생</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>작위에 의해 발생</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>특성에 의해 발생</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
+  <IncapableOfTooltipQuest>임무 상태로 인한 발생</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role -->
+  <IncapableOfTooltipRole>지위에 의해 발생</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>유전자에 의해 발생</IncapableOfTooltipGene>
+  <!-- EN: Traits -->
   <Traits>특성</Traits>
+  <!-- EN: Permanent mood effect -->
   <PermanentMoodEffect>영구적인 기분 영향</PermanentMoodEffect>
+  <!-- EN: Skills -->
   <Skills>기술</Skills>
+  <!-- EN: none -->
   <NoneLower>없음</NoneLower>
+  <!-- EN: Adulthood -->
   <Adulthood>성년기</Adulthood>
+  <!-- EN: Childhood -->
   <Childhood>유년기</Childhood>
-  <Current>현재</Current>
+  <!-- EN: male -->
   <Male>남성</Male>
+  <!-- EN: female -->
   <Female>여성</Female>
+  <!-- EN: male and female -->
   <MaleAndFemale>남성과 여성</MaleAndFemale>
+  <!-- EN: male -->
   <MaleAnimal>수컷</MaleAnimal>
+  <!-- EN: female -->
   <FemaleAnimal>암컷</FemaleAnimal>
+  <!-- EN: Pain -->
   <Pain>통증</Pain>
+  <!-- EN: Health -->
   <Health>건강</Health>
+  <!-- EN: Relations -->
   <Relations>관계</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>소지품</Possessions>
+  <!-- EN: Team skills -->
   <TeamSkills>팀 기술</TeamSkills>
+  <!-- EN: Selected -->
   <StartingPawnsSelected>선택됨</StartingPawnsSelected>
+  <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>남겨짐</StartingPawnsLeftBehind>
+  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
   <GuiltyDesc>이 정착민은 유죄 판결을 받았습니다. 자유롭게 추방, 처형, 체포를 할 수 있으며, 다른 정착민도 신경 쓰지 않을 것입니다.\n\n유죄 판결 만료</GuiltyDesc>
   
   <!-- Misc -->
+  <!-- EN: Start -->
   <Start>시작</Start>
+  <!-- EN: Advanced -->
   <Advanced>고급</Advanced>
+  <!-- EN: Next -->
   <Next>다음</Next>
+  <!-- EN: Back -->
   <Back>이전</Back>
+  <!-- EN: Change material... -->
   <ShowMaterials>재료 보기</ShowMaterials>
+  <!-- EN: Gameplay -->
   <Gameplay>게임 시작</Gameplay>
+  <!-- EN: Really quit? You'll lose unsaved progress. -->
   <ConfirmQuit>종료하시겠습니까? 저장되지 않은 진행사항은 삭제됩니다.</ConfirmQuit>
+  <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>확실한 이름을 적어야 합니다.</EveryoneNeedsValidName>
+  <!-- EN: None of the selected people can do the following jobs -->
   <RequiredWorkTypeDisabledForEveryone>선택된 정착민으로 수행할 수 없는 작업</RequiredWorkTypeDisabledForEveryone>
+  <!-- EN: Quit -->
   <Quit>나가기</Quit>
+  <!-- EN: Ignore -->
   <Ignore>무시</Ignore>
   
   <!-- Progress bar -->
+  <!-- EN: Generating world -->
   <GeneratingWorld>세계 생성 중</GeneratingWorld>
+  <!-- EN: Generating planet -->
   <GeneratingPlanet>행성 생성 중</GeneratingPlanet>
+  <!-- EN: Generating map -->
   <GeneratingMap>지도 생성 중</GeneratingMap>
+  <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>인카운터 지도 생성 중</GeneratingMapForNewEncounter>
 
-  <ClickForMoreInfo>더 많은 정보가 필요하면 클릭</ClickForMoreInfo>
+  <!-- EN: Click for more info. -->
+  <ClickForMoreInfo>더 많은 정보가 필요하면 클릭.</ClickForMoreInfo>
+  <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>더 이상 정보가 없습니다.</NoMoreInfoAvailable>
 
   <!-- Factions -->
+  <!-- EN: Factions -->
   <Factions>세력</Factions>
-  <RecommendedFactionCount>{0}개가 넘는 세력을 설정하면 게임 플레이에 문제가 생길 수 있습니다.</RecommendedFactionCount>
-  <TotalFactionsAllowed>알려진 세력은 {0}개까지 설정할 수 있습니다.</TotalFactionsAllowed>
-  <MaxFactionsForType>{1}(을)를 {0}개보다 많이 설정할 수 없습니다.</MaxFactionsForType>
-  <ResetFactionsToDefault>기본값 복원</ResetFactionsToDefault>
+  <!-- EN: max {0} basic factions allowed -->
+  <TotalFactionsAllowed>기본 세력 최대 {0}개</TotalFactionsAllowed>
+  <!-- EN: max {0} -->
+  <MaxFactionsForType>최대 {0}개</MaxFactionsForType>
+  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>세계의 세력을 선택하세요. {0}개까지 선택할 수 있습니다.</FactionSelectionDesc>
+  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
   <FactionDisabledContentWarning>{0}(을)를 비활성화하면 퀘스트 다양성과 콘텐츠가 줄어듭니다.</FactionDisabledContentWarning>
+  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
   <InsectsDisabledContentWarning>{0}(을)를 비활성화하면 위협의 다양성이 줄어듭니다.</InsectsDisabledContentWarning>
+  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
   <MechanoidsDisabledContentWarning>{0}(을)를 비활성화하면 퀘스트 다양성과 위협의 종류가 줄어듭니다.</MechanoidsDisabledContentWarning>
+  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>다른 세력 없이는 습격, 거래, 임무가 정상적으로 발동하지 않습니다.</FactionsDisabledWarning>
 
 </LanguageData>

@@ -1,68 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
   <Audiovisuals>소리 및 화면</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>마스터 볼륨</MasterVolume>
+  <!-- EN: Game volume -->
   <GameVolume>게임 볼륨</GameVolume>
+  <!-- EN: Music volume -->
   <MusicVolume>음악 볼륨</MusicVolume>
+  <!-- EN: Ambience volume -->
   <AmbientVolume>환경 볼륨</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>UI 볼륨</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>모든 소리에 영향을 줍니다.</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>모든 월드 소리를 조절합니다. 예시: 벌목, 건설 효과음</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>음악을 조절합니다.</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>모든 배경 소리를 조절합니다. 예시: 바람, 곤충</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>모든 인터페이스 소리를 조절합니다. 예시: 버튼 클릭, 메시지</UIVolumeTooltip>
+  <!-- EN: Anti-aliasing -->
   <Antialiasing>그래픽 계단현상 방지</Antialiasing>
 
   <!-- Gameplay -->
+  <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>화면 가장자리 스크롤</EdgeScreenScroll>
+  <!-- EN: Pause on load -->
   <PauseOnLoad>시작시 일시정지</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>사건 발생시 일시정지</PauseOnUrgentLetter>
-  <AutomaticPauseModeSetting>사건별 일시정지</AutomaticPauseModeSetting>
-  <CustomCursor>맞춤 커서</CustomCursor>
-  <HatsShownOnlyOnMap>상태창에서 모자 제거</HatsShownOnlyOnMap>
+  <!-- EN: Pause on letter -->
+  <AutomaticPauseModeSetting>편지 도착 시 일시정지</AutomaticPauseModeSetting>
+  <!-- EN: Disable game-specific cursor -->
+  <CustomCursor>맞춤 커서 비활성화</CustomCursor>
+  <!-- EN: Hide hats on UI -->
+  <HatsShownOnlyOnMap>UI에서 모자 숨기기</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
   <UIScale>인터페이스 크기</UIScale>
+  <!-- EN: Keyboard configuration -->
   <KeyboardConfig>키보드 구성</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>컨트롤러 구성</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>수정</ModifyConfig>
+  <!-- EN: Choose language -->
   <ChooseLanguage>언어 선택</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
   <ResetAdaptiveTutor>도우미 초기화</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
   <AdaptiveTutorIsReset>도우미가 초기화됐습니다. 모든 도움말이 처음부터 제공됩니다.</AdaptiveTutorIsReset>
+  <!-- EN: Keyboard mode -->
+  <SteamDeckKeyboardMode>키보드 모드</SteamDeckKeyboardMode>
+  <!-- EN: Run in background -->
   <RunInBackground>백그라운드에서도 게임 진행</RunInBackground>
+  <!-- EN: Development mode -->
   <DevelopmentMode>개발자 도구</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>오류 시 자동으로 모드 설정 초기화</ResetModsConfigOnCrash>
+  <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>로얄티 없이 시뮬레이션</SimulateNotOwningRoyalty>
+  <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>이데올로기 없이 시뮬레이션</SimulateNotOwningIdeology>
+  <!-- EN: Simulate not owning Biotech -->
+  <SimulateNotOwningBiotech>바이오테크 없이 시뮬레이션</SimulateNotOwningBiotech>
+  <!-- EN: Verbose logging -->
   <LogVerbose>상세 기록</LogVerbose>
-  <OpenSaveGameDataFolder>저장 폴더 열기</OpenSaveGameDataFolder>
-  <ShowSaveGameDataLocation>저장 폴더 위치 표시</ShowSaveGameDataLocation>
-  <OpenLogFileFolder>기록 폴더 열기</OpenLogFileFolder>
-  <ShowLogFileLocation>기록 폴더 위치 표시</ShowLogFileLocation>
-  <NamesYouWantToSee>플레이어가 생성한 선호하는 캐릭터. 다음 캐릭터는 플레이 중 무작위로 등장할 확률이 높습니다:</NamesYouWantToSee>
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>저장 데이터 폴더</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>저장 데이터 위치</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>로그 파일 폴더</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>로그 파일 위치</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>열기</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>보기</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
+  <NamesYouWantToSee>선호하는 "Name in Game" 캐릭터</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>이 캐릭터들이 플레이 중에 등장할 확률이 높아집니다.</NamesYouWantToSeeSubText>
+  <!-- EN: Add name -->
   <AddName>이름 검색</AddName>
-  <TypeFirstNickOrLastName>찾고 있는 이름의 일부를 영문으로 적으세요.</TypeFirstNickOrLastName>
-  <MessageAlreadyPreferredName>이미 목록에 존재하는 이름입니다.</MessageAlreadyPreferredName>
+  <!-- EN: Type the first name, nickname, or last name. -->
+  <TypeFirstNickOrLastName>찾으려는 이름의 일부를 영문으로 적으세요.</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
+  <MessageAlreadyPreferredName>이미 목록에 추가했습니다.</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
   <ChangeStoryteller>이야기꾼 선택</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
   <AutosaveInterval>자동저장 간격</AutosaveInterval>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>자동으로 저장할 인게임 간격입니다.</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
   <TemperatureMode>온도 단위</TemperatureMode>
+  <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>현실 시간 표시</ShowRealtimeClock>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>작은 글꼴 비활성화</DisableTinyText>
+  <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>최대 정착지 수: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>카메라 마우스 드래그 민감도</MapDragSensitivity>
+  <!-- EN: Plant wind sway -->
   <PlantWindSway>식물 흔들림 효과</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
   <EnableTestMapSizes>테스트 맵 크기 활성화</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
   <MaxPermadeathAutosaveIntervalInfo>철인 모드에서 사용 가능한 자동저장 최대 간격은 {0}일 입니다.</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
   <ModSettings>모드 설정</ModSettings>
-  <PermanentlyDisableDevMode>개발자 모드 영구 비활성</PermanentlyDisableDevMode>
+  <!-- EN: Permanently disable development mode -->
+  <PermanentlyDisableDevMode>개발자 모드 영구 비활성화</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
   <TextureCompression>텍스처 압축</TextureCompression>
-  <TextureCompression_Tooltip>텍스처 압축 기능은 비디오 메모리를 절약하는 대신 화질을 감소시킵니다. 성능보다 품질을 원하는 경우 이 기능을 비활성화하세요.\n\n몇몇 모드는 매우 많은 비디오 메모리를 소모하므로 이 기능과 함께 사용하지 않으면 원활한 플레이에 지장이 있을 수도 있습니다.</TextureCompression_Tooltip>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>텍스처 압축 기능을 비활성화하면 비디오 메모리가 더 많이 필요하지만 텍스처 품질이 약간 개선됩니다. 비디오 메모리가 충분할 때만 비활성화하세요.\n\n어떤 모드는 비디오 메모리를 훨씬 많이 차지할 수 있으므로 그땐 텍스처 압축을 다시 활성화해야 할 수 있습니다.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>부드러운 카메라 점프</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>활성화하면 카메라 포커스를 바꿀 때 빠르게 이동합니다. 비활성화하면 카메라가 즉시 순간이동합니다.</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
+  <!-- EN: Resolution -->
   <Resolution>해상도</Resolution>
+  <!-- EN: Fullscreen -->
   <Fullscreen>전체화면</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>테두리 없는 전체화면</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>림월드를 테두리 없는 전체화면으로 플레이하시려면,\n\n1) 스팀을 여세요.\n2) "라이브러리" 탭으로 이동하세요.\n3) 림월드를 찾아 오른쪽 클릭하세요.\n4) "속성..."을 클릭하세요.\n5) "일반" 탭의 "시작 옵션"에 "-popupwindow"를 추가하세요(따옴표 제외).\n6) 게임을 껐다 켜세요.\n7) 위 과정이 올바르게 끝났으면 이 창이 다시 보이지 않습니다.\n\n힌트: 멀티 모니터에서는 Windows 키 + Shift + 왼쪽/오른쪽 화살표 키로 게임 창을 옮길 수 있습니다.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
+  <!-- EN: Select mod... -->
   <SelectMod>모드 선택</SelectMod>
+  <!-- EN: No configurable mods loaded. -->
   <NoConfigurableMods>활성화된 모드 중 설정 가능한 모드가 없습니다.</NoConfigurableMods>
   
   <!-- Options reset -->
-  <RestoreToDefaultSettings>기본 설정값 복원</RestoreToDefaultSettings>
-  <ResetAndRestart>설정이 재설정되었습니다. 게임을 자동으로 재시작합니다.</ResetAndRestart>
-  <ResetAndRestartConfirmationDialog>모든 설정을 기본값으로 초기화하고 게임을 다시 시작합니다. 다시 시작됩니다.\n\n계속할까요?</ResetAndRestartConfirmationDialog>
-  <ChangedTextureCompressionRestart>텍스처 압축 설정을 변경하려면 게임을 재시작해야 합니다. 저장하지 않은 모든 진행 상황이 손실됩니다.\n\n계속하시겠습니까?</ChangedTextureCompressionRestart>
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>모든 설정을 기본값으로 복원</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
+  <RestoreToDefaultSettings>기본값 복원</RestoreToDefaultSettings>
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>모든 설정을 초기화했습니다. 게임을 자동으로 다시 시작합니다.</ResetAndRestart>
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>모든 설정을 기본값으로 초기화하고 게임을 다시 시작합니다. 저장하지 않은 진행 내역이 사라집니다.\n\n계속하시겠습니까?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
+  <ChangedTextureCompressionRestart>텍스처 압축 설정을 변경하려면 게임을 다시 시작해야 합니다. 저장하지 않은 모든 진행 내역이 사라집니다.\n\n계속하시겠습니까?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
+  <!-- EN: Menu background -->
   <SetBackgroundImage>초기화면 배경</SetBackgroundImage>
 
 </LanguageData>

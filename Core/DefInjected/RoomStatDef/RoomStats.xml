@@ -1,61 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: beauty -->
   <Beauty.label>미관</Beauty.label>
+  <!-- EN: hideous -->
   <Beauty.scoreStages.hideous.label>끔찍함 (1/8)</Beauty.scoreStages.hideous.label>
+  <!-- EN: ugly -->
   <Beauty.scoreStages.ugly.label>나쁨 (2/8)</Beauty.scoreStages.ugly.label>
+  <!-- EN: neutral -->
   <Beauty.scoreStages.neutral.label>평범 (3/8)</Beauty.scoreStages.neutral.label>
+  <!-- EN: pretty -->
   <Beauty.scoreStages.pretty.label>보기 좋음 (4/8)</Beauty.scoreStages.pretty.label>
+  <!-- EN: beautiful -->
   <Beauty.scoreStages.beautiful.label>아름다움 (5/8)</Beauty.scoreStages.beautiful.label>
+  <!-- EN: very beautiful -->
   <Beauty.scoreStages.very_beautiful.label>상당히 아름다움 (6/8)</Beauty.scoreStages.very_beautiful.label>
+  <!-- EN: extremely beautiful -->
   <Beauty.scoreStages.extremely_beautiful.label>매우 아름다움 (7/8)</Beauty.scoreStages.extremely_beautiful.label>
+  <!-- EN: unbelievably beautiful -->
   <Beauty.scoreStages.unbelievably_beautiful.label>어마하게 아름다움 (8/8)</Beauty.scoreStages.unbelievably_beautiful.label>
   
+  <!-- EN: cleanliness -->
   <Cleanliness.label>청결</Cleanliness.label>
+  <!-- EN: very dirty -->
   <Cleanliness.scoreStages.very_dirty.label>매우 더러움 (1/5)</Cleanliness.scoreStages.very_dirty.label>
+  <!-- EN: dirty -->
   <Cleanliness.scoreStages.dirty.label>더러움 (2/5)</Cleanliness.scoreStages.dirty.label>
+  <!-- EN: slightly dirty -->
   <Cleanliness.scoreStages.slightly_dirty.label>약간 더러움 (3/5)</Cleanliness.scoreStages.slightly_dirty.label>
+  <!-- EN: clean -->
   <Cleanliness.scoreStages.clean.label>평범 (4/5)</Cleanliness.scoreStages.clean.label>
+  <!-- EN: sterile -->
   <Cleanliness.scoreStages.sterile.label>청결 (5/5)</Cleanliness.scoreStages.sterile.label>
   
+  <!-- EN: food poison chance -->
   <FoodPoisonChance.label>식중독 확률</FoodPoisonChance.label>
   
+  <!-- EN: grave visiting recreation factor -->
   <GraveVisitingJoyGainFactor.label>무덤 방문 시 오락 수치</GraveVisitingJoyGainFactor.label>
   
+  <!-- EN: impressiveness -->
   <Impressiveness.label>인상</Impressiveness.label>
+  <!-- EN: awful -->
   <Impressiveness.scoreStages.awful.label>끔찍함 (1/10)</Impressiveness.scoreStages.awful.label>
+  <!-- EN: dull -->
   <Impressiveness.scoreStages.dull.label>부족함 (2/10)</Impressiveness.scoreStages.dull.label>
+  <!-- EN: mediocre -->
   <Impressiveness.scoreStages.mediocre.label>모자람 (3/10)</Impressiveness.scoreStages.mediocre.label>
+  <!-- EN: decent -->
   <Impressiveness.scoreStages.decent.label>괜찮음 (4/10)</Impressiveness.scoreStages.decent.label>
+  <!-- EN: slightly impressive -->
   <Impressiveness.scoreStages.slightly_impressive.label>약간 인상적 (5/10)</Impressiveness.scoreStages.slightly_impressive.label>
+  <!-- EN: somewhat impressive -->
   <Impressiveness.scoreStages.somewhat_impressive.label>꽤나 인상적 (6/10)</Impressiveness.scoreStages.somewhat_impressive.label>
+  <!-- EN: very impressive -->
   <Impressiveness.scoreStages.very_impressive.label>상당히 인상적 (7/10)</Impressiveness.scoreStages.very_impressive.label>
+  <!-- EN: extremely impressive -->
   <Impressiveness.scoreStages.extremely_impressive.label>매우 인상적 (8/10)</Impressiveness.scoreStages.extremely_impressive.label>
+  <!-- EN: unbelievably impressive -->
   <Impressiveness.scoreStages.unbelievably_impressive.label>어마하게 인상적 (9/10)</Impressiveness.scoreStages.unbelievably_impressive.label>
+  <!-- EN: wondrously impressive -->
   <Impressiveness.scoreStages.wondrously_impressive.label>극도록 인상적 (10/10)</Impressiveness.scoreStages.wondrously_impressive.label>
   
+  <!-- EN: infection chance factor -->
   <InfectionChanceFactor.label>감염 확률</InfectionChanceFactor.label>
   
+  <!-- EN: research speed factor -->
   <ResearchSpeedFactor.label>연구 속도</ResearchSpeedFactor.label>
   
+  <!-- EN: space -->
   <Space.label>크기</Space.label>
+  <!-- EN: cramped -->
   <Space.scoreStages.cramped.label>좁아터짐 (1/7)</Space.scoreStages.cramped.label>
+  <!-- EN: rather tight -->
   <Space.scoreStages.rather_tight.label>빡빡함 (2/7)</Space.scoreStages.rather_tight.label>
+  <!-- EN: average-sized -->
   <Space.scoreStages.averagesized.label>평범 (3/7)</Space.scoreStages.averagesized.label>
+  <!-- EN: somewhat spacious -->
   <Space.scoreStages.somewhat_spacious.label>약간 넓음 (4/7)</Space.scoreStages.somewhat_spacious.label>
+  <!-- EN: quite spacious -->
   <Space.scoreStages.quite_spacious.label>꽤나 넓음 (5/7)</Space.scoreStages.quite_spacious.label>
+  <!-- EN: very spacious -->
   <Space.scoreStages.very_spacious.label>상당히 넓음 (6/7)</Space.scoreStages.very_spacious.label>
+  <!-- EN: extremely spacious -->
   <Space.scoreStages.extremely_spacious.label>매우 넓음 (7/7)</Space.scoreStages.extremely_spacious.label>
   
+  <!-- EN: surgery success chance cleanliness factor -->
   <SurgerySuccessChanceCleanlinessFactor.label>수술 성공 확률</SurgerySuccessChanceCleanlinessFactor.label>
   
+  <!-- EN: wealth -->
   <Wealth.label>수준</Wealth.label>
+  <!-- EN: impoverished -->
   <Wealth.scoreStages.impoverished.label>빈곤함 (1/9)</Wealth.scoreStages.impoverished.label>
+  <!-- EN: somewhat poor -->
   <Wealth.scoreStages.somewhat_poor.label>가난함 (2/9)</Wealth.scoreStages.somewhat_poor.label>
+  <!-- EN: mediocre -->
   <Wealth.scoreStages.mediocre.label>모자람 (3/9)</Wealth.scoreStages.mediocre.label>
+  <!-- EN: somewhat rich -->
   <Wealth.scoreStages.somewhat_rich.label>조금 화려함 (4/9)</Wealth.scoreStages.somewhat_rich.label>
+  <!-- EN: rich -->
   <Wealth.scoreStages.rich.label>화려함 (5/9)</Wealth.scoreStages.rich.label>
+  <!-- EN: luxurious -->
   <Wealth.scoreStages.luxurious.label>사치스러움 (6/9)</Wealth.scoreStages.luxurious.label>
+  <!-- EN: very luxurious -->
   <Wealth.scoreStages.very_luxurious.label>상당히 사치스러움 (7/9)</Wealth.scoreStages.very_luxurious.label>
+  <!-- EN: extremely luxurious -->
   <Wealth.scoreStages.extremely_luxurious.label>매우 사치스러움 (8/9)</Wealth.scoreStages.extremely_luxurious.label>
+  <!-- EN: unbelievably luxurious -->
   <Wealth.scoreStages.unbelievably_luxurious.label>어마하게 사치스러움 (9/9)</Wealth.scoreStages.unbelievably_luxurious.label>
+  
 </LanguageData>

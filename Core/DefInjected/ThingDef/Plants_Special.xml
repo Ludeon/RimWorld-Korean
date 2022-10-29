@@ -1,8 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <BurnedTree.label>불탄 나무</BurnedTree.label>
-  <BurnedTree.description>불탄 나무의 전해입니다. 보기 흉하고 목재로 사용할 수 없습니다.</BurnedTree.description>
   
+  <!-- EN: burned stump -->
+  <BurnedTree.label>불탄 그루터기</BurnedTree.label>
+  <!-- EN: A burned tree stump. It's ugly and yields very little usable wood. -->
+  <BurnedTree.description>불탄 나무 그루터기입니다. 보기 흉하고 목재도 아주 조금만 얻을 수 있습니다.</BurnedTree.description>
+  
+  <!-- EN: chopped stump -->
+  <ChoppedStump.label>잘린 그루터기</ChoppedStump.label>
+  <!-- EN: A stump left behind after a tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump.description>나무가 베어진 후 남겨진 그루터기입니다. 그루터기는 뽑아낼 수 있지만 매우 적은 양의 목재만 제공합니다. 오랫동안 야외에 방치되면 풍화됩니다.</ChoppedStump.description>
+  
+  <!-- EN: dye -->
+  <Dye.label>염료</Dye.label>
+  <!-- EN: Dye extracted from a tinctoria plant. It can be used to change the color of walls, buildings, and more. -->
+  <Dye.description>염색풀에서 추출한 염료입니다. 여기서 다양한 색상을 추출하여 의류 염색에 사용할 수 있습니다.</Dye.description>
+  
+  <!-- EN: ambrosia bush -->
   <Plant_Ambrosia.label>암브로시아 나무</Plant_Ambrosia.label>
-  <Plant_Ambrosia.description>희귀한 관목입니다. 열매는 맛이 좋으며, 약한 중독성이 있는 화학물질을 함유합니다. 이 식물은 임의로 재배할 수 없기 때문에 아주 소중하게 다뤄야 합니다.</Plant_Ambrosia.description>
+  <!-- EN: A rare wild bush which yields the ambrosia fruit. Ambrosia fruit is delicious and produces a drug-like mood boost. Ambrosia cannot be farmed, which makes wild ambrosia groves very valuable.\n\nIts rarity, beauty, and desirability are why ambrosia was named after the food of the ancient Greek gods. -->
+  <Plant_Ambrosia.description>암브로시아 열매를 얻을 수 있는 희귀한 야생 관목입니다. 열매는 맛이 좋고, 섭취하면 약물처럼 기분이 좋아집니다. 암브로시아는 재배할 수 없으므로 야생 암브로시아 관목은 아주 소중하게 다뤄야 합니다.\n\n희귀함과 아름다움, 가지고자 하는 소유욕은 이 관목에 고대 신들의 음식 이름이 붙은 유래입니다.</Plant_Ambrosia.description>
+  
+  <!-- EN: tinctoria -->
+  <Plant_Tinctoria.label>염색풀</Plant_Tinctoria.label>
+  <!-- EN: A genetically-engineered flower-like crop which secretes a self-altering dye. Tinctoria dye can be coaxed into different colors and used to change the color of walls, buildings, and more. -->
+  <Plant_Tinctoria.description>틴토리아 꽃이라고도 불리는 유전자 조작 작물입니다. 여기서 분비되는 염료를 수확하여 다양한 색상을 추출할 수 있으며 의류 염색에 사용할 수 있습니다.</Plant_Tinctoria.description>
+  
+  <!-- EN: smashed stump -->
+  <SmashedStump.label>부서진 그루터기</SmashedStump.label>
+  <!-- EN: The remnants of a tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <SmashedStump.description>파괴된 나무의 흉물스러운 잔해입니다. 그루터기는 뽑아낼 수 있지만 매우 적은 양의 목재만을 제공합니다. 오랫동안 야외에 방치되면 풍화됩니다.</SmashedStump.description>
+  
 </LanguageData>

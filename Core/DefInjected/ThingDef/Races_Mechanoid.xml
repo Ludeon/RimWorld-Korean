@@ -1,28 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <Mech_Centipede.label>센티피드</Mech_Centipede.label>
-  <Mech_Centipede.description>수십 개의 작은 다리로 미끄러지듯 움직이는 중무장 전투 메카노이드. 그들의 두꺼운 갑주와 화력은 밀집된 방어선에 매우 위협적입니다. 다만 치고 빠지는 전술에는 다소 취약합니다.</Mech_Centipede.description>
-  <Mech_Centipede.tools.head.label>머리</Mech_Centipede.tools.head.label>
   
+  <!-- EN: centipede blaster -->
+  <Mech_CentipedeBlaster.label>센티피드 블래스터</Mech_CentipedeBlaster.label>
+  <!-- EN: Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics. -->
+  <Mech_CentipedeBlaster.description>수십 개의 작은 다리로 미끄러지듯 움직이는 중무장 전투 메카노이드입니다. 두꺼운 외피와 강력한 화력은 밀집된 정적 방어선에 매우 효과적이지만 치고 빠지는 기동성 전략에는 다소 취약합니다.</Mech_CentipedeBlaster.description>
+  <!-- EN: head -->
+  <Mech_CentipedeBlaster.tools.head.label>머리</Mech_CentipedeBlaster.tools.head.label>
+  
+  <!-- EN: centipede burner -->
+  <Mech_CentipedeBurner.label>센티피드 버너</Mech_CentipedeBurner.label>
+  <!-- EN: Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics. -->
+  <Mech_CentipedeBurner.description>수십 개의 작은 다리로 미끄러지듯 움직이는 중무장 전투 메카노이드입니다. 두꺼운 외피와 강력한 화력은 밀집된 정적 방어선에 매우 효과적이지만 치고 빠지는 기동성 전략에는 다소 취약합니다.</Mech_CentipedeBurner.description>
+  <!-- EN: head -->
+  <Mech_CentipedeBurner.tools.head.label>머리</Mech_CentipedeBurner.tools.head.label>
+  
+  <!-- EN: centipede gunner -->
+  <Mech_CentipedeGunner.label>센티피드 거너</Mech_CentipedeGunner.label>
+  <!-- EN: Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics. -->
+  <Mech_CentipedeGunner.description>수십 개의 작은 다리로 미끄러지듯 움직이는 중무장 전투 메카노이드입니다. 두꺼운 외피와 강력한 화력은 밀집된 정적 방어선에 매우 효과적이지만 치고 빠지는 기동성 전략에는 다소 취약합니다.</Mech_CentipedeGunner.description>
+  <!-- EN: head -->
+  <Mech_CentipedeGunner.tools.head.label>머리</Mech_CentipedeGunner.tools.head.label>
+  
+  <!-- EN: lancer -->
   <Mech_Lancer.label>랜서</Mech_Lancer.label>
-  <Mech_Lancer.description>장거리 무기를 조준하기 위한 거대한 광학 센서가 얼굴에 달린 인간 크기의 전투 메카노이드. 장거리에서는 효과적이지만 근거리 전투에는 약합니다. 메카노이드 전쟁의 고참병들은 랜서에게 돌격하는 게 오히려 안전하다는 것을 경험으로 알고 있습니다.</Mech_Lancer.description>
+  <!-- EN: Fast human-sized combat mechanoids built for medium and long-range combat. Their bodies are light, making them vulnerable targets at close range - especially in melee combat. -->
+  <Mech_Lancer.description>중장거리 교전을 위해 설계된 인간 크기의 빠른 메카노이드입니다. 가벼운 몸체로 인해 근거리, 특히 근접전에서는 취약합니다.</Mech_Lancer.description>
+  <!-- EN: left fist -->
   <Mech_Lancer.tools.left_fist.label>왼쪽 주먹</Mech_Lancer.tools.left_fist.label>
+  <!-- EN: right fist -->
   <Mech_Lancer.tools.right_fist.label>오른쪽 주먹</Mech_Lancer.tools.right_fist.label>
+  <!-- EN: head -->
   <Mech_Lancer.tools.head.label>머리</Mech_Lancer.tools.head.label>
   
+  <!-- EN: pikeman -->
   <Mech_Pikeman.label>파이크맨</Mech_Pikeman.label>
-  <Mech_Pikeman.description>투박한 다수의 다리에 장거리 무기 플랫폼으로 특화된 전투용 메카노이드입니다. 장거리에서는 효과적이지만, 근접전에 약합니다.\n\n메카노이드 전쟁의 고참병들은 파이크맨 주위에 있는 것이 안전하다는 것을 알고 있습니다.</Mech_Pikeman.description>
+  <!-- EN: A clunky multi-legged combat mechanoid specialized as a long-range weapons platform. While effective at distance, it is weak in close-range fights and in melee combat.\n\nVeterans of mechanoid wars know that often, the safest place to be around a pikeman is touching it. -->
+  <Mech_Pikeman.description>투박한 다족 전투 메카노이드로 장거리 무기 플랫폼에 특화되어있습니다. 먼 거리 떨어진 대상에게는 효과적이지만 근거리와 근접전에서는 약합니다.\n\n메카노이드 전쟁 베테랑들은 파이크맨 주위에서 제일 안전한 곳이란 곧 가장 가까운 곳임을 알고 있습니다.</Mech_Pikeman.description>
+  <!-- EN: front left leg -->
   <Mech_Pikeman.tools.front_left_leg.label>왼쪽 앞다리</Mech_Pikeman.tools.front_left_leg.label>
+  <!-- EN: front right leg -->
   <Mech_Pikeman.tools.front_right_leg.label>오른쪽 앞다리</Mech_Pikeman.tools.front_right_leg.label>
+  <!-- EN: head -->
   <Mech_Pikeman.tools.head.label>머리</Mech_Pikeman.tools.head.label>
   
+  <!-- EN: scyther -->
   <Mech_Scyther.label>사이더</Mech_Scyther.label>
-  <Mech_Scyther.description>빠르게 접근해서 근거리 전투를 전문으로 하는, 민첩한 속도의 인간 크기 전투 메카노이드. 그들의 몸은 가시와 칼날로 덮여있고, 사지를 잘라내거나 피해자들의 내장을 산 채로 꺼내기 위해 가장 유용하게 쓰이는 양 팔의 칼날을 가지고 있습니다.</Mech_Scyther.description>
+  <!-- EN: Fast, spindly, human-sized combat mechanoids specializing in rapid approach and close-range combat. Their bodies are covered in points and blades, but they mostly use their two arm blades to lop off limbs or gut their victims alive. -->
+  <Mech_Scyther.description>빠른 접근을 통한 근접전에 특화된 민첩한 인간 크기 전투 메카노이드입니다. 온몸이 가시와 칼날에 덮여있지만 주로 양 팔의 칼날을 사용해 희생자들의 사지를 자르고 배를 가릅니다.</Mech_Scyther.description>
+  <!-- EN: left blade -->
   <Mech_Scyther.tools.left_blade.label>왼쪽 칼날</Mech_Scyther.tools.left_blade.label>
+  <!-- EN: right blade -->
   <Mech_Scyther.tools.right_blade.label>오른쪽 칼날</Mech_Scyther.tools.right_blade.label>
+  <!-- EN: head -->
   <Mech_Scyther.tools.head.label>머리</Mech_Scyther.tools.head.label>
   
+  <!-- EN: termite -->
   <Mech_Termite.label>터마이트</Mech_Termite.label>
-  <Mech_Termite.description>중간 크기의 메카노이드입니다. 이 개체는 굴을 파고, 땅을 파며, 방어 시설을 뚫는 것을 전문으로 하고 있습니다. 이들이 나타난다면, 그들이 방어망을 뚫고 나타날때까지 기다리던가, 나타나는 곳으로 가서 먼저 파괴하던가 결정해야 합니다.</Mech_Termite.description>
+  <!-- EN: A medium-sized mechanoid. Termites specialize in burrowing, digging, and breaking through defensive structures. Defenders need to decide whether to try to eliminate the termite before it can dig through their defenses, or take it where it emerges. -->
+  <Mech_Termite.description>땅을 파거나 방어 구조물을 뚫는 일에 특화된 중형 메카노이드입니다. 방어자들은 방어선이 뚫리기 전에 선제공격을 할지, 뚫고 나오는 순간 대응할지 결정해야 할 것입니다.</Mech_Termite.description>
+  <!-- EN: head -->
   <Mech_Termite.tools.head.label>머리</Mech_Termite.tools.head.label>
+  
 </LanguageData>

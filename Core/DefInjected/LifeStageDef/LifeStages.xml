@@ -1,29 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: adult -->
   <AnimalAdult.label>성체</AnimalAdult.label>
   
+  <!-- EN: baby -->
   <AnimalBaby.label>새끼</AnimalBaby.label>
   
+  <!-- EN: baby -->
   <AnimalBabyTiny.label>새끼</AnimalBabyTiny.label>
   
+  <!-- EN: juvenile -->
   <AnimalJuvenile.label>성장기</AnimalJuvenile.label>
   
+  <!-- EN: adult -->
   <EusocialInsectAdult.label>성체</EusocialInsectAdult.label>
   
+  <!-- EN: immature -->
   <EusocialInsectJuvenile.label>아성체</EusocialInsectJuvenile.label>
   
+  <!-- EN: larva -->
   <EusocialInsectLarva.label>애벌레</EusocialInsectLarva.label>
   
+  <!-- EN: adult -->
   <HumanlikeAdult.label>성인</HumanlikeAdult.label>
   
+  <!-- EN: baby -->
   <HumanlikeBaby.label>아기</HumanlikeBaby.label>
+  <!-- EN: Mood represents how happy or stressed someone is. Babies with low mood are more likely to cry, while babies with a high mood are more likely to giggle. -->
+  <HumanlikeBaby.customMoodTipString>기분은 대상의 행복 수치를 나타냅니다. 아기는 기분이 낮으면 더 자주 울고, 높으면 더 자주 웃습니다.</HumanlikeBaby.customMoodTipString>
   
-  <HumanlikeChild.label>소아</HumanlikeChild.label>
+  <!-- EN: child -->
+  <HumanlikeChild.label>어린이</HumanlikeChild.label>
   
+  <!-- EN: teenager -->
   <HumanlikeTeenager.label>청소년</HumanlikeTeenager.label>
+  <!-- EN: teenage -->
   <HumanlikeTeenager.adjective>청소년</HumanlikeTeenager.adjective>
   
-  <HumanlikeToddler.label>유아</HumanlikeToddler.label>
-  
+  <!-- EN: fully-formed -->
   <MechanoidFullyFormed.label>완전체</MechanoidFullyFormed.label>
+  
 </LanguageData>

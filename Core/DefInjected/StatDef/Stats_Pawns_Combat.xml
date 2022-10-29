@@ -1,31 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: aiming time -->
   <AimingDelayFactor.label>조준 지연</AimingDelayFactor.label>
+  <!-- EN: How long it takes to shoot after choosing a target. -->
   <AimingDelayFactor.description>조준을 시작하고 얼마나 긴 시간 뒤에 발사할 수 있는지에 대한 계수입니다.</AimingDelayFactor.description>
   
+  <!-- EN: incoming damage multiplier -->
   <IncomingDamageFactor.label>받는 피해량 계수</IncomingDamageFactor.label>
+  <!-- EN: A multiplier on all incoming damage. -->
   <IncomingDamageFactor.description>받는 피해량 계수입니다.</IncomingDamageFactor.description>
   
+  <!-- EN: melee armor penetration -->
   <MeleeArmorPenetration.label>근접 방어 관통력</MeleeArmorPenetration.label>
+  <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
   <MeleeArmorPenetration.description>근접전에서 상대 방어력을 무시할 확률입니다.\n\n현재 장착한 무기를 기준으로 합니다.</MeleeArmorPenetration.description>
   
-  <MeleeDPS.label>초당 근접 공격력</MeleeDPS.label>
-  <MeleeDPS.description>매초 가할 수 있는 근접 격투 피해량의 평균값입니다.\n\n방어력, 회피 등 상대의 능력치는 이 값에 포함되지 않습니다.</MeleeDPS.description>
-  
+  <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>근접 회피율</MeleeDodgeChance.label>
+  <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
   <MeleeDodgeChance.description>근접 공격을 회피하는 확률입니다.\n\n원거리 무기로 조준하는 중이나 발사하는 중에는 회피할 수 없습니다.</MeleeDodgeChance.description>
   
+  <!-- EN: melee DPS -->
+  <MeleeDPS.label>초당 근접 공격력</MeleeDPS.label>
+  <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
+  <MeleeDPS.description>매초 가할 수 있는 근접 격투 피해량의 평균값입니다.\n\n방어력, 회피 등 상대의 능력치는 이 값에 포함되지 않습니다.</MeleeDPS.description>
+  
+  <!-- EN: melee hit chance -->
   <MeleeHitChance.label>근접 명중률</MeleeHitChance.label>
+  <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
   <MeleeHitChance.description>근접 공격으로 적을 맞출 수 있는 확률입니다.\n\n정확한 공격을 하더라도 목표가 회피할 수 있습니다.</MeleeHitChance.description>
   
-  <MortarMissRadiusFactor.label>Mortar miss radius multiplier</MortarMissRadiusFactor.label>
-  <MortarMissRadiusFactor.description>A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells.</MortarMissRadiusFactor.description>
-  <MortarMissRadiusFactor.labelForFullStatList>Mortar miss radius multiplier</MortarMissRadiusFactor.labelForFullStatList>
+  <!-- EN: Mortar miss radius multiplier -->
+  <MortarMissRadiusFactor.label>박격포 오사 반경 계수</MortarMissRadiusFactor.label>
+  <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
+  <MortarMissRadiusFactor.description>박격포의 오사 반경에 대한 계수입니다. 숫자가 작을수록 더 정확하게 박격포 사격을 합니다.</MortarMissRadiusFactor.description>
+  <!-- EN: Mortar miss radius multiplier -->
+  <MortarMissRadiusFactor.labelForFullStatList>박격포 오사 반경 계수</MortarMissRadiusFactor.labelForFullStatList>
   
+  <!-- EN: trap spring chance -->
   <PawnTrapSpringChance.label>덫 작동 확률</PawnTrapSpringChance.label>
+  <!-- EN: Chance to spring a trap the character is unaware of. -->
   <PawnTrapSpringChance.description>캐릭터의 부주의로 함정을 건드려 발동시킬 확률입니다.</PawnTrapSpringChance.description>
   
+  <!-- EN: accuracy factor (long) -->
+  <ShootingAccuracyFactor_Long.label>장거리 명중률 계수</ShootingAccuracyFactor_Long.label>
+  <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
+  <ShootingAccuracyFactor_Long.description>40칸 이상의 명중률 계수입니다.</ShootingAccuracyFactor_Long.description>
+  
+  <!-- EN: accuracy factor (medium) -->
+  <ShootingAccuracyFactor_Medium.label>중거리 명중률 계수</ShootingAccuracyFactor_Medium.label>
+  <!-- EN: A multiplier on accuracy at a distance of 25 cells. -->
+  <ShootingAccuracyFactor_Medium.description>25칸 거리의 명중률 계수입니다.</ShootingAccuracyFactor_Medium.description>
+  
+  <!-- EN: accuracy factor (short) -->
+  <ShootingAccuracyFactor_Short.label>근거리 명중률 계수</ShootingAccuracyFactor_Short.label>
+  <!-- EN: A multiplier on accuracy at a distance of 12 cells. -->
+  <ShootingAccuracyFactor_Short.description>12칸 거리의 명중률 계수입니다.</ShootingAccuracyFactor_Short.description>
+  
+  <!-- EN: accuracy factor (close) -->
+  <ShootingAccuracyFactor_Touch.label>근접 명중률 계수</ShootingAccuracyFactor_Touch.label>
+  <!-- EN: A multiplier on accuracy at a distance of 3 cells or less. -->
+  <ShootingAccuracyFactor_Touch.description>3칸 이하의 명중률 계수입니다.</ShootingAccuracyFactor_Touch.description>
+  
+  <!-- EN: shooting accuracy -->
   <ShootingAccuracyPawn.label>사격 정확도</ShootingAccuracyPawn.label>
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyPawn.description>발사 거리 당 적을 맞출 수 있는 확률입니다.\n\n정확도는 대상, 엄폐물, 주변 환경에도 영향을 받으며 사수를 선택하고 대상에 커서를 올려 확인할 수 있습니다.</ShootingAccuracyPawn.description>
+  <!-- EN: shooting accuracy (people) -->
   <ShootingAccuracyPawn.labelForFullStatList>사격 정확도 (사람)</ShootingAccuracyPawn.labelForFullStatList>
+  
 </LanguageData>
