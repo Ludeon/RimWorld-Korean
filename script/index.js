@@ -4,20 +4,98 @@ import readline from 'node:readline'
 
 import { execa } from 'execa'
 import fs from 'fs-extra'
+import got from 'got'
 import { getGamePath } from 'steam-game-path'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
+import { createRequire } from 'node:module'
 
 const AVAILABLE_DLCS = ['Core', 'Royalty', 'Ideology', 'Biotech']
 const AVAILABLE_TRANSLATIONS = ['Core', 'Royalty', 'Ideology']
+
+const timeout = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 yargs(hideBin(process.argv))
   .scriptName('cli')
   .command(
     'credit',
-    'build a new LanguageInfo.xml with credits populated',
-    (ins) => ins.help(),
-    async () => {
+    'automatically populate CREDITS and LanguageInfo.xml',
+    (ins) =>
+      ins
+        .option('report', {
+          boolean: true,
+          default: true,
+          description: 'Generate a new report. Set this to false to use existing CREDITS.',
+        })
+        .help(),
+    async (argv) => {
+      const require = createRequire(import.meta.url)
+      const { host, token } = require(path.join(process.cwd(), '.crowdin.json'))
+
+      if (argv.report) {
+        console.log('Requesting report generation...')
+
+        const identifier = await got
+          .post(`${host}/api/v2/projects/2/reports`, {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+            json: {
+              name: 'top-members',
+              schema: {
+                languageId: 'ko',
+                format: 'json',
+              },
+            },
+          })
+          .json()
+          .then((res) => res.data.identifier)
+
+        console.log(`Waiting for report ${identifier} to generate...`)
+
+        while ((await timeout(1000), true)) {
+          const status = await got
+            .get(`${host}/api/v2/projects/2/reports/${identifier}`, {
+              headers: {
+                Authorization: `Bearer ${token}`,
+              },
+            })
+            .json()
+            .then((res) => res.data.status)
+
+          if (status === 'finished') {
+            break
+          }
+
+          console.log('retrying...')
+        }
+
+        console.log(`Downloading report ${identifier}...`)
+
+        const downloadURL = await got
+          .get(`${host}/api/v2/projects/2/reports/${identifier}/download`, {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          })
+          .json()
+          .then((res) => res.data.url)
+
+        const names = await got
+          .get(downloadURL)
+          .json()
+          // Holy Moly (holymoly) => Holy Moly
+          .then((res) => res.data.map((data) => data.user.fullName.replace(/\s\(.+\)/, '')))
+
+        console.log('Writing CREDITS...')
+
+        await fs.writeFile(path.join(process.cwd(), 'CREDITS'), names.join('\n'))
+      }
+
+      console.log('Writing LanguageInfo.xml...')
+
+      const names = await fs.readFile(path.join(process.cwd(), 'CREDITS'), 'utf-8').then((res) => res.split('\n'))
+
       const buildLanguageInfo = (credits) => `<?xml version="1.0" encoding="utf-8"?>
 <LanguageInfo>
   <friendlyNameNative>한국어</friendlyNameNative>
@@ -35,17 +113,10 @@ yargs(hideBin(process.argv))
       <creditee>${name}</creditee>
     </li>`
 
-      const creditStream = fs.createReadStream(path.join(process.cwd(), 'CREDITS'))
-      const rl = readline.createInterface({ input: creditStream, crlfDelay: Infinity })
+      const creditEntries = names.map(buildCredit).join('')
+      const builtLanguageInfo = buildLanguageInfo(creditEntries)
 
-      const builtCredits = []
-      for await (const line of rl) {
-        builtCredits.push(buildCredit(line))
-      }
-
-      const builtLanguageInfo = buildLanguageInfo(builtCredits.join(''))
-
-      fs.writeFileSync(path.join(process.cwd(), 'Core/LanguageInfo.xml'), builtLanguageInfo)
+      return fs.writeFile(path.join(process.cwd(), 'Core/LanguageInfo.xml'), builtLanguageInfo)
     }
   )
   .command(
@@ -63,9 +134,7 @@ yargs(hideBin(process.argv))
           const tarFiles = fs.readdirSync(dlcLangPath).filter((file) => file.endsWith('.tar'))
 
           // remove them all
-          return Promise.all(
-            tarFiles.map((tarFile) => fs.remove(path.join(dlcLangPath, tarFile)))
-          )
+          return Promise.all(tarFiles.map((tarFile) => fs.remove(path.join(dlcLangPath, tarFile))))
         })
       )
     }
@@ -113,9 +182,11 @@ yargs(hideBin(process.argv))
           const entries = fs.readdirSync(sourcePath)
 
           // copy them under translationPath
-          return Promise.all(entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(translationPath, name))))
-        }
-      ))
+          return Promise.all(
+            entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(translationPath, name)))
+          )
+        })
+      )
     }
   )
   .command(
