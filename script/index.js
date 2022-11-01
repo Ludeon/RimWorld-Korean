@@ -1,12 +1,11 @@
 #!/usr/bin/node
+import fs from 'node:fs'
+import path from 'node:path'
+import readline from 'node:readline'
 
-const fs = require('fs')
-const path = require('path')
-const readline = require('readline')
-
-const execa = require('execa')
-const yargs = require('yargs/yargs')
-const { hideBin } = require('yargs/helpers')
+import { execa } from 'execa'
+import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
 
 yargs(hideBin(process.argv))
   .scriptName('cli')
@@ -44,6 +43,12 @@ yargs(hideBin(process.argv))
 
       fs.writeFileSync(path.join(process.cwd(), 'Core/LanguageInfo.xml'), builtLanguageInfo)
     }
+  )
+  .command(
+    'deploy',
+    'deploy language data to RimWorld installation path',
+    (ins) => ins.help(),
+    async () => {}
   )
   .command(
     'worker',

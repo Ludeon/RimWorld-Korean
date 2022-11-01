@@ -5,9 +5,13 @@
   "scripts": {
     "cli": "node ./script/index.js"
   },
+  "type": "module",
   "author": "alattalatta",
   "dependencies": {
-    "execa": "^5.1.1",
-    "yargs": "^17.0.1"
+    "execa": "^6.1.0",
+    "yargs": "^17.6.0"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
