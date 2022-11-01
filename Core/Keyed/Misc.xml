@@ -102,11 +102,11 @@
   <!-- EN: {0} meat -->
   <MeatLabel>{0} 고기</MeatLabel>
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
-  <MeatDesc>손질된 날고기입니다. 평범하게 날것으로 먹거나 요리할 수 있습니다.</MeatDesc>
+  <MeatDesc>손질된 날고기입니다. 요리해서 음식으로 만들거나 날것 그대로 먹을 수 있습니다.</MeatDesc>
   <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
-  <MeatInsectDesc>손질된 날고기입니다. 필요하다면 날것으로 먹거나 요리할 수 있습니다. 굉장히 맛이 없습니다.</MeatInsectDesc>
+  <MeatInsectDesc>손질된 날고기입니다. 필요하다면 요리해서 음식으로 만들거나 날것 그대로 먹을 수 있습니다. 굉장히 맛이 없습니다.</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
-  <MeatHumanDesc>손질된 날고기입니다. 대부분의 사람들이 이 생각에 반대할 것이지만, 날것으로 먹거나 요리할 수 있습니다.</MeatHumanDesc>
+  <MeatHumanDesc>손질된 날고기입니다. 대부분의 사람들이 반대하겠지만, 요리해서 음식으로 만들거나 날것 그대로 먹을 수 있습니다.</MeatHumanDesc>
 
   <!-- EN: techprint ({PROJECT_label}) -->
   <TechprintLabel>기술청사진 ({PROJECT_label})</TechprintLabel>
@@ -150,7 +150,7 @@
   <StillWishContinue>그래도 계속하시겠습니까?</StillWishContinue>
   
   <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
-  <BabyTalk>바,뱌,부,가,갸,구,나,냐,누,우,와,아,야,마,마</BabyTalk>
+  <BabyTalk>바,뱌,부,가,갸,구,나,냐,누,우,와,아,야,마,먀</BabyTalk>
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
@@ -169,7 +169,7 @@
   <DeepResourceRemaining>{RESOURCE_label} {COUNT}개가 지하에 있습니다.</DeepResourceRemaining>
   
   <!-- EN: (various) -->
-  <VariousLabel>(여러가지)</VariousLabel>
+  <VariousLabel>(여러 가지)</VariousLabel>
 
   <!-- History events -->
   <!-- EN: Colonist died -->

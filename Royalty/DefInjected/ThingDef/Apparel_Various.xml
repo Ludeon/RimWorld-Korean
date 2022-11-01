@@ -1,48 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: cataphract armor -->
   <Apparel_ArmorCataphract.label>근위대 갑옷</Apparel_ArmorCataphract.label>
+  <!-- EN: A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available. -->
   <Apparel_ArmorCataphract.description>기동성을 포기한 대신 최대한의 방호력을 제공하는 강화 동력 갑옷입니다. 두꺼운 플라스틸 재질로 구성되어 대부분의 공격을 튕겨냅니다. 착용자가 갑옷을 제어하는 것을 돕는 신경망 보조 장치가 탑재되어 있지만, 착용 과정은 꽤 거추장스럽습니다.\n\n이 갑옷은 제국이 요새화된 진지를 정면돌파할 때 주로 사용됩니다.</Apparel_ArmorCataphract.description>
   
-  <Apparel_ArmorCataphractPhoenix.label>근위대 불사조 갑옷</Apparel_ArmorCataphractPhoenix.label>
+  <!-- EN: phoenix armor -->
+  <Apparel_ArmorCataphractPhoenix.label>불사조 갑옷</Apparel_ArmorCataphractPhoenix.label>
+  <!-- EN: A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed. -->
   <Apparel_ArmorCataphractPhoenix.description>근위대 갑옷의 변형으로, 소이탄 발사기가 내장되어 있습니다. 일반 근위대 갑옷보다는 약간 방호력이 떨어지지만, 불에 훨씬 강합니다. 발사할 수 있는 소이탄의 수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n불사조 갑옷은 제한된 실내 작전에서 적들로 가득 찬 공간을 정리하는데 특화되었습니다. 적의 화력에 노출된 복도를 정면돌파하면서, 화염으로 방을 쓸어버리고, 연기 속에서 상처 없이 빠져나올 수 있습니다.</Apparel_ArmorCataphractPhoenix.description>
+  <!-- EN: incendiary -->
   <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>소이탄</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>
+  <!-- EN: launch incendiary -->
   <Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>소이탄 발사</Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>
   
+  <!-- EN: prestige cataphract armor -->
   <Apparel_ArmorCataphractPrestige.label>근위대 장교 갑옷</Apparel_ArmorCataphractPrestige.label>
+  <!-- EN: A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorCataphractPrestige.description>기동성을 포기한 대신 최대한의 방호력을 제공하는 강화 동력 갑옷입니다. 두꺼운 플라스틸 재질로 구성되어 대부분의 공격을 튕겨냅니다. 착용자가 갑옷을 제어하는 것을 돕는 신경망 보조 장치가 탑재되어 있지만, 착용 과정은 꽤 거추장스럽습니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorCataphractPrestige.description>
   
+  <!-- EN: cataphract helmet -->
   <Apparel_ArmorHelmetCataphract.label>근위대 헬멧</Apparel_ArmorHelmetCataphract.label>
+  <!-- EN: A heavily-armored high-tech helmet, with a solid plasteel-weave shell and indirect visual system for non-frontal view angles. It protects against all but the most powerful or luckily-aimed shots.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available. -->
   <Apparel_ArmorHelmetCataphract.description>첨단기술이 적용된 중장갑 헬멧으로, 단단한 플라스틸 재질로 이뤄져 있으며 시야 확보를 위한 시각 시스템을 갖추고 있습니다. 거의 모든 공격을 튕겨냅니다.\n\n이 갑옷은 제국이 요새화된 진지를 정면돌파할 때 주로 사용됩니다.</Apparel_ArmorHelmetCataphract.description>
   
+  <!-- EN: prestige cataphract helmet -->
   <Apparel_ArmorHelmetCataphractPrestige.label>근위대 장교 헬멧</Apparel_ArmorHelmetCataphractPrestige.label>
+  <!-- EN: A heavily-armored high-tech helmet, with a solid plasteel-weave shell and indirect visual system for non-frontal view angles. It protects against all but the most powerful or luckily-aimed shots.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorHelmetCataphractPrestige.description>첨단기술이 적용된 중장갑 헬멧으로, 단단한 플라스틸 재질로 이뤄져 있으며 시야 확보를 위한 시각 시스템을 갖추고 있습니다. 거의 모든 공격을 튕겨냅니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorHelmetCataphractPrestige.description>
   
+  <!-- EN: prestige recon helmet -->
   <Apparel_ArmorHelmetReconPrestige.label>정찰대 장교 헬멧</Apparel_ArmorHelmetReconPrestige.label>
+  <!-- EN: A high-tech armored helmet with a built-in status computer and a protective plasteel-weave plate.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorHelmetReconPrestige.description>플라스틸 복합 장갑 및 보조 컴퓨터로 구성된 정찰용 헬멧입니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorHelmetReconPrestige.description>
   
-  <Apparel_ArmorLocust.label>정찰대 도약 갑옷</Apparel_ArmorLocust.label>
+  <!-- EN: locust armor -->
+  <Apparel_ArmorLocust.label>도약 갑옷</Apparel_ArmorLocust.label>
+  <!-- EN: A variant of recon armor with an integrated burst rocket for short-ranged flight. Locust armor is slightly less protective than standard recon armor. Each jump consumes a burst of fuel, so the armor must be reloaded after several uses.\n\nUnlike most ultratech military units, locusts train primarily with melee weapons. They usually avoid static shootouts, preferring to jump straight into enemy fortifications and fight hand-to-hand. They do poorly in static defense or confined quarters, but excel in mixed cover or shipcracking operations. -->
   <Apparel_ArmorLocust.description>정찰대 갑옷의 변형으로, 단거리 도약이 가능한 점프팩이 기본 내장되어 있습니다. 일반 정찰대 갑옷보다는 약간 방호력이 떨어집니다. 도약 횟수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n도약 갑옷은 근접무기와 잘 어울리며, 점프팩을 활용하여 적의 방어선을 우회하고 백병전을 유도할 수 있습니다. 이 전략은 거점 방어전이나 좁은 전장에서는 사용하기 어렵지만, 함선 탈취나 임기응변에 강합니다.</Apparel_ArmorLocust.description>
+  <!-- EN: jump -->
   <Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>도약</Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>
+  <!-- EN: jump -->
   <Apparel_ArmorLocust.verbs.jump.label>도약</Apparel_ArmorLocust.verbs.jump.label>
   
-  <Apparel_ArmorMarineGrenadier.label>해병대 척탄 갑옷</Apparel_ArmorMarineGrenadier.label>
+  <!-- EN: grenadier armor -->
+  <Apparel_ArmorMarineGrenadier.label>척탄 갑옷</Apparel_ArmorMarineGrenadier.label>
+  <!-- EN: A variant of marine armor with an integrated frag launcher on the shoulder. The armor is slightly less protective than standard marine armor. The launcher can only hold a limited amount of ammo and must be reloaded after use.\n\nGrenadiers usually specialize in breaching buildings or internal ship bulkheads. While not effective at very long range, grenadiers can be surprisingly deadly in confined quarters. -->
   <Apparel_ArmorMarineGrenadier.description>해병 갑옷의 변형으로, 유탄 발사기가 내장되어 있습니다. 일반 해병 갑옷보다는 약간 방호력이 떨어집니다. 발사할 수 있는 유탄의 수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n척탄 갑옷은 건물이나 함선 내부 격벽을 파괴하는 데 특화되어 있습니다. 원거리 전투에서는 효율이 떨어지지만, 제한된 구역에서는 치명적입니다.</Apparel_ArmorMarineGrenadier.description>
+  <!-- EN: grenade -->
   <Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>수류탄</Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>
+  <!-- EN: launch frag grenade -->
   <Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>유탄 발사</Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>
   
+  <!-- EN: prestige marine helmet -->
   <Apparel_ArmorMarineHelmetPrestige.label>해병대 장교 헬멧</Apparel_ArmorMarineHelmetPrestige.label>
+  <!-- EN: A marine armor helmet, with a built-in status computer and layered plasteel-weave plates.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorMarineHelmetPrestige.description>플라스틸 복합 장갑 및 보조 컴퓨터로 구성된 해병용 헬멧입니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorMarineHelmetPrestige.description>
   
+  <!-- EN: prestige marine armor -->
   <Apparel_ArmorMarinePrestige.label>해병대 장교 갑옷</Apparel_ArmorMarinePrestige.label>
+  <!-- EN: A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorMarinePrestige.description>매우 뛰어난 방호력을 지닌 복합 플라스틸 재질의 동력 갑옷입니다. 약점이 거의 없으며, 착용자가 갑옷을 제어하는 것을 도와주는 신경망 보조 장치가 탑재되어 있습니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorMarinePrestige.description>
   
+  <!-- EN: prestige recon armor -->
   <Apparel_ArmorReconPrestige.label>정찰대 장교 갑옷</Apparel_ArmorReconPrestige.label>
+  <!-- EN: A suit of light partially-powered armor, designed to permit quick movement. Plasteel-weave plates block attacks without compromising mobility, and neuro-memetic assistors in the lower body allow a human to wear the armor and still move easily.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorReconPrestige.description>빠른 움직임을 위해 설계된 경량 동력 갑옷입니다. 가벼운 플라스틸 복합 장갑은 이동성을 저하시키지 않으면서도 상당한 방호력을 제공합니다. 착용자가 갑옷을 제어하는 것을 도와주는 신경망 보조 장치가 탑재되어 있습니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorReconPrestige.description>
   
+  <!-- EN: gunlink -->
   <Apparel_Gunlink.label>조준 보조기</Apparel_Gunlink.label>
+  <!-- EN: A targeting computer that helps the user aim. It detects and analyzes targets using infrared, visible, and millimeter-wave electromagnetic sensors. An onboard targeting computer displays firing solutions on a retinal projection. It offers no protection at all. -->
   <Apparel_Gunlink.description>착용자가 목표를 쉽게 인식하고 조준할 수 있도록 돕는 장치입니다. 적외선과 가시광선, 극초단파 센서를 사용하여 대상을 감지하고 분석합니다. 망막으로 적의 정보를 투사하여 사격을 돕지만, 방호기능은 제공하지 않습니다.</Apparel_Gunlink.description>
   
+  <!-- EN: incendiary grenade -->
   <Proj_GrenadePhoenixFire.label>소이탄</Proj_GrenadePhoenixFire.label>
   
+  <!-- EN: frag grenade -->
   <Proj_GrenadierGrenade.label>파편 수류탄</Proj_GrenadierGrenade.label>
+  
 </LanguageData>

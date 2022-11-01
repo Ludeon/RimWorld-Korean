@@ -1,47 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: entropy link -->
   <EntropyLink.label>정신 연결</EntropyLink.label>
+  <!-- EN: A psychic link with another individual. Gain or loss of neural heat incurred by one will be shared equally between both. -->
   <EntropyLink.description>타인의 신경열을 전달받은 여파로 정신적 충격을 받은 상태입니다.</EntropyLink.description>
   
+  <!-- EN: joyfuzz -->
   <Joyfuzz.label>쾌락잔향</Joyfuzz.label>
+  <!-- EN: Psychically-induced feelings of warmth, comfort, and acceptance. This improves mood, but the lack of negative stimulation induces a mild stupor and reduces consciousness. -->
   <Joyfuzz.description>정신 간섭에 의해 수용감, 편안함, 따뜻함을 느낍니다. 기분이 좋아지지만, 가벼운 마비를 유발하고 의식이 저하됩니다.</Joyfuzz.description>
   
-  <PsychicAmplifier.label>정신력 증폭</PsychicAmplifier.label>
-  <PsychicAmplifier.description>대상의 두뇌는 광대한 정신 세계에 유기적으로 연결된 상태입니다. 이를 통해 물리적으로 불가능해 보이는 힘을 발휘할 수 있습니다.\n\n정신력 증폭 단계가 높아지면 보다 다양한 능력을 사용할 수 있게 되지만, 각각의 사용법은 따로 익혀야 합니다.\n\n정신력 증폭은 다양한 방법으로 얻을 수 있습니다. 고도의 기술로 만들어진 정신력 증폭기를 사용하거나, 영혼나무와의 연결 의식을 통해 끌어낼 수도 있습니다.\n\n정신력 증폭 현상은 과학적으로 설명하기 어려우나, 일종의 협상이나 공감을 통해 초월공학의 힘을 이끌어내는 것처럼 보입니다.</PsychicAmplifier.description>
-  
+  <!-- EN: psychic anesthesia -->
   <PsychicAnesthesia.label>정신 간섭: 마취</PsychicAnesthesia.label>
+  <!-- EN: Psychically-induced pain insensitivity. -->
   <PsychicAnesthesia.description>정신 간섭에 의해 통증에 둔감해졌습니다.</PsychicAnesthesia.description>
   
+  <!-- EN: psychic blindness -->
   <PsychicBlindness.label>정신 간섭: 실명</PsychicBlindness.label>
+  <!-- EN: Psychically-induced partial blindness. -->
   <PsychicBlindness.description>정신 간섭에 의해 눈이 멀었습니다.</PsychicBlindness.description>
   
+  <!-- EN: psychic breakdown -->
   <PsychicBreakdown.label>정신 간섭: 혼란</PsychicBreakdown.label>
+  <!-- EN: Deep psychic destabilization of the mind. Psychic breakdown last for days, causing mental disturbances of various kinds. It resolves itself with time. -->
   <PsychicBreakdown.description>과도한 정신력 사용으로 인한 정신적 불안증세입니다. 정신 혼란은 며칠 동안 지속되며 다양한 종류의 정신 장애를 유발하나, 시간이 지나면 자연스레 해결됩니다.</PsychicBreakdown.description>
+  <!-- EN: minor -->
   <PsychicBreakdown.stages.minor.label>가벼움</PsychicBreakdown.stages.minor.label>
+  <!-- EN: major -->
   <PsychicBreakdown.stages.major.label>심각함</PsychicBreakdown.stages.major.label>
+  <!-- EN: total -->
   <PsychicBreakdown.stages.total.label>한계</PsychicBreakdown.stages.total.label>
   
+  <!-- EN: psychic burden -->
   <PsychicBurden.label>정신 간섭: 부하</PsychicBurden.label>
+  <!-- EN: Psychically-induced difficulty in locomotion. -->
   <PsychicBurden.description>정신 간섭에 의해 움직임이 둔해졌습니다.</PsychicBurden.description>
   
+  <!-- EN: neural heat -->
   <PsychicEntropy.label>신경열</PsychicEntropy.label>
-  <PsychicEntropy.description>신경열은 온도의 척도가 아닙니다. 정신력을 사용할 때마다 유발되고 얼마 후 사라지는 정신 혼란 상태를 뜻합니다.\n\n신경열이 한계치를 넘어서면 일시적인 정신이상과 정신충격으로 인한 의식불명을 유발할 수 있습니다. 이러한 상태는 영구적인 피해로 이어지지는 않습니다.</PsychicEntropy.description>
+  <!-- EN: Despite being called "heat", neural heat is not a measure of temperature. It refers to a type of chaotic psychic energy in the mind which builds up when using psychic powers and dissipates over the course of a few seconds or minutes.\n\nIf neural heat is pushed past normal limits, it may cause temporary psychic breakdown and unconsciousness due to psychic shock. These conditions don't cause permanent damage. -->
+  <PsychicEntropy.description>그 이름과 달리, 신경열은 온도의 척도가 아니며 초능력을 사용할 때마다 쌓였다가 수 분 이내로 사라지는 혼돈 에너지를 의미합니다.\n\n신경열이 한계치를 넘어가면 일시적인 정신이상이나, 정신충격에 의해 의식을 잃을 수 있습니다. 하지만 영구적인 장애를 초래하지는 않습니다.</PsychicEntropy.description>
+  <!-- EN: Chaotic energy in the mind which builds up when using psychic powers. If pushed past normal limits, it may cause psychic breakdown and unconsciousness. -->
+  <PsychicEntropy.descriptionShort>초능력을 사용할 때마다 쌓이는 혼돈 에너지입니다. 한계치를 넘어가면 정신이상이나 의식 상실을 겪을 수 있습니다.</PsychicEntropy.descriptionShort>
+  <!-- EN: safe -->
   <PsychicEntropy.stages.safe.label>안전</PsychicEntropy.stages.safe.label>
+  <!-- EN: overloaded -->
   <PsychicEntropy.stages.overloaded.label>부하</PsychicEntropy.stages.overloaded.label>
+  <!-- EN: very overloaded -->
   <PsychicEntropy.stages.very_overloaded.label>과부하</PsychicEntropy.stages.very_overloaded.label>
+  <!-- EN: extreme -->
   <PsychicEntropy.stages.extreme.label>위험</PsychicEntropy.stages.extreme.label>
+  <!-- EN: overwhelming -->
   <PsychicEntropy.stages.overwhelming.label>매우 위험</PsychicEntropy.stages.overwhelming.label>
   
+  <!-- EN: psychic focus -->
   <PsychicFocus.label>정신 간섭: 집중</PsychicFocus.label>
+  <!-- EN: Psychically-induced mental focus, increasing sight, hearing and movement capactities. -->
   <PsychicFocus.description>정신 간섭에 의해 시력, 청각, 운동능력이 향상되었습니다.</PsychicFocus.description>
   
+  <!-- EN: psychic invisibility -->
   <PsychicInvisibility.label>정신 간섭: 투명화</PsychicInvisibility.label>
+  <!-- EN: Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected. -->
   <PsychicInvisibility.description>정신 간섭에 의해 투명화되었습니다. 이것은 가까이 있는 다른 사람들한테도 영향을 미쳐, 그들의 뇌가 대상을 인식하지 못하게 합니다.</PsychicInvisibility.description>
   
+  <!-- EN: psychic love -->
   <PsychicLove.label>초능력 애정</PsychicLove.label>
-  <PsychicLove.description>정신 간섭에 의해 유도된 연애 욕망입니다. 다른 사람에 대한 의견을 높이며, 이별 확률을 낮추고, 연애 및 결혼 가능성을 높여줍니다.</PsychicLove.description>
+  <!-- EN: Psychically-induced adoration. This increases an individual's opinion of someone else, and between adults increases the likelihood of romantic advances and marriage proposals, while reducing the chance of a breakup. -->
+  <PsychicLove.description>정신 간섭에 의해 유도된 열애입니다. 다른 사람에 대한 의견을 높이며, 이별 확률을 낮추고, 연애 및 결혼 가능성을 높여줍니다.</PsychicLove.description>
+  <!-- EN: for -->
   <PsychicLove.targetPrefix>대상:</PsychicLove.targetPrefix>
   
+  <!-- EN: psychic vertigo -->
   <PsychicVertigo.label>정신 간섭: 현기증</PsychicVertigo.label>
+  <!-- EN: Psychically-induced loss of spatial orientation. This will cause flesh creatures to vomit. -->
   <PsychicVertigo.description>정신 간섭에 의해 방향감각이 상실되고 구토감이 유발됩니다.</PsychicVertigo.description>
+  
 </LanguageData>

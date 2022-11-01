@@ -1,12 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
   <EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
     <li>questDescription-></li>
   </EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName-></li>
+  -->
   <EndGame_ArchonexusVictory.questNameRules.rulesStrings>
     <li>questName-></li>
   </EndGame_ArchonexusVictory.questNameRules.rulesStrings>
   
+  <!-- EN:
+    <li>questDescription->[descriptionIntro] looking to expand their territory, and are interested in taking over [playerSettlements] with all [itsTheir] wealth and technology. If you can increase your total wealth to [requiredWealth_money], they will take the [settlementsSingularOrPlural].\n\nIn trade, they offer you part of a map showing the location of an ancient archotech nexus. The archonexus is thought to be a conduit through which an archotech superintelligence influences the physical world. If you could invoke its power, what happens next could go beyond physical reality.\n\n[onlyHaveHas] one piece of the map. The other parts are held by other factions.\n\nIf you accept their offer, the [factionPawnsPlural] will take possession of [playerSettlements], including all items, people, and recorded research. They'll bring [colonistsAllowed] of your people and [animalsAllowed] of your animals to anywhere you want on the planet to start a new colony.\n\nLater, you can trade with others for the final two parts of the map.</li>
+    <li>itsTheir(playerSettlementsCount==1)->its</li>
+    <li>itsTheir(playerSettlementsCount>=2)->their</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount==1)->settlement</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->settlements</li>
+    <li>onlyHaveHas(factionless==false)->[civilOutlander_name] only has</li>
+    <li>onlyHaveHas(factionless==true)->The group only have</li>
+    <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
+    <li>factionPawnsPlural(factionless==true)->wild people</li>
+    <li>descriptionIntro(factionless==false)->[civilOutlander_name] is</li>
+    <li>descriptionIntro(factionless==true)->A group of wild people are</li>
+  -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
     <li>questDescription->[descriptionIntro] 영역을 확장하기 위해 [playerSettlements](와)과 [itsTheir] 모든 물건 및 연구 기록을 원합니다. 총 재산 가치를 [requiredWealth_money]까지 올리면 그들이 [settlementsSingularOrPlural](을)를 받아갈 것입니다.\n\n그 대가로 그들은 고대 초월공학 연결체의 위치가 표시된 지도의 일부분을 제공하고자 합니다. 초월연결체는 초월한 인공지능이 물리적 세계에 영향력을 투사하기 위한 수단이라고 전해집니다.\n\n[onlyHaveHas](은)는 지도의 한 조각만 가지고 있고, 나머지 부분은 다른 세력들이 소유하고 있습니다.\n\n이 제안을 받아들이면 [factionPawnsPlural](이)가 [playerSettlements]의 모든 물품과 정착민을 넘겨받습니다. 이후 그들은 정착민 [colonistsAllowed]명과 동물 [animalsAllowed]마리를 세계의 원하는 위치로 옮겨 줄 것이며, 당신은 그곳에서 새로운 터전을 일궈나가게 될 것입니다.\n\n이후에 다른 세력과 거래하여 지도의 나머지 부분 또한 얻을 수 있습니다.</li>
     <li>itsTheir(playerSettlementsCount==1)->그곳에 있는</li>
@@ -20,10 +40,25 @@
     <li>descriptionIntro(factionless==false)->[civilOutlander_name](이)가</li>
     <li>descriptionIntro(factionless==true)->한 무리의 야인들이</li>
   </EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the archonexus</li>
+  -->
   <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
     <li>questName->초월연결체</li>
   </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
   
+  <!-- EN:
+    <li>questDescription->With the first archonexus map part securely recorded, you prepare for the next step of your journey.\n\n[cycle1Faction] told you of the cataclysm that destroyed this world. Humans built a great thinking machine here centuries ago. It turned against the people and there was a great war. Only a few were left when the machine transcended and fell dormant.\n\nThe map to the archonexus has three parts, and you hold one of them. [otherMapPartHolders] also each hold parts of the map. They'll trade their parts to you for a wealthy new colony and all of its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
+    <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
+    <li>cycle1Faction(factionless==true)->The [wildPeople]</li>
+    <li>otherMapPartHolders(factionless==false)->[roughOutlander_name] and [roughTribe_name]</li>
+    <li>otherMapPartHolders(factionless==true)->other [wildPeople]</li>
+    <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
+    <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
+    <li>wildPeople->wild people</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nThe next map part is encoded in a very strange way. In order to interpret it, you must first learn more about archotechnology by studying the structure here.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+  -->
   <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
     <li>questDescription->초월연결체로 향하는 지도의 첫 부분을 안전하게 확보했으니 이제 여정의 다음 단계를 준비할 시간입니다.\n\n[cycle1Faction](이)가 이 세계를 파괴한 대격변에 대해 말해줬습니다. 인간은 수 세기 전에 이 장소에 사고할 수 있는 위대한 기계를 만들었으나, 기계가 인간을 배신하여 큰 전쟁이 일어났습니다. 기계가 초월한 후 휴면 상태에 들어갔을 때에는 이미 대부분의 사람들이 죽은 후였습니다.\n\n초월연결체로 향하는 지도는 세 부분으로 나뉘어 있으며, 당신이 그중 하나를 가지고 있습니다. [otherMapPartHolders] 또한 각각 한 조각을 가지고 있으며, 가치가 높은 정착지와 그 모든 연구기록을 대가로 조각을 건네줄 것입니다.[descriptionStudyRequirement]\n\n이제 건설할 시간입니다.</li>
     <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
@@ -36,10 +71,27 @@
     <li>descriptionStudyRequirement(studyRequirement==true)->\n\n지도 조각은 대단히 어려운 방식으로 암호화된 상태입니다. 조각을 해독하려면 우선 이곳의 초월공학 구조물을 연구해서 작동 원리를 익혀야 합니다.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the archonexus</li>
+  -->
   <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
     <li>questName->초월연결체</li>
   </EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
   
+  <!-- EN:
+    <li>questAcceptedLetterLabel->archonexus discovered</li>
+    <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
+    <li>questDescriptionBeforeAccepted->You have two parts of the archonexus map. [factionName] have the last piece of the map, passed down from the time their ancestors survived the cataclysm. They'll trade it to you for a wealthy new colony along with its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
+    <li>questDescriptionAfterAccepted->[descriptionIntro] have given you the last part of the archonexus map. Using your knowledge of archotech info-encoding, you have decoded the map and pinpointed the location of the archonexus.\n\nYour allies don't expect you to return, so after you go there, they will take over [playerSettlements].\n\n[descriptionThreats]Now all that's left is to get to the archonexus, invoke the power of the machine god, and find out whether the stories are real.</li>
+    <li>factionName(factionless==false)->[roughTribe_name]</li>
+    <li>factionName(factionless==true)->The wild people</li>
+    <li>descriptionIntro(factionless==false)->[roughTribe_name]'s leader [roughTribe_leader_nameDef] has</li>
+    <li>descriptionIntro(factionless==true)->The wild people have</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nAs before, the map part is encoded. In order to decode it, you must first study the archotech structure.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+    <li>descriptionThreats(threatsEnabled==true)->The archonexus will likely have mechanoid defenders, so go prepared.\n\n</li>
+    <li>descriptionThreats(threatsEnabled==false)-></li>
+  -->
   <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
     <li>questAcceptedLetterLabel->초월연결체 발견</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
@@ -54,10 +106,17 @@
     <li>descriptionThreats(threatsEnabled==true)->메카노이드 부대가 초월연결체 주변을 지키고 있을 가질 가능성이 높습니다. 전투를 준비하십시오.\n\n</li>
     <li>descriptionThreats(threatsEnabled==false)-></li>
   </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
   <EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
     <li>questDescription-></li>
   </EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the archonexus</li>
+  -->
   <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
     <li>questName->초월연결체</li>
   </EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
+  
 </LanguageData>

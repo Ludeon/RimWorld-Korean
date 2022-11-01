@@ -1,7 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: Buddhist origin -->
   <Structure_OriginBuddhist.label>불교 기원</Structure_OriginBuddhist.label>
+  <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginBuddhist.description>이 사상은 고대 불교의 분파입니다. 수천 년 전의 원본과는 많은 차이가 있지만, 상징만큼은 아직도 비슷합니다.</Structure_OriginBuddhist.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bodhisattva</li>
+    <li>memeLeaderNoun->sattva</li>
+    <li>memeLeaderNoun->lama</li>
+    <li>memeLeaderAdjective->enlightened</li>
+    <li>memeLeaderAdjective->wise</li>
+    <li>memeLeaderAdjective->spiritual</li>
+    <li>memeLeaderAdjective->bodhi</li>
+    <li>memeLeaderAdjective->dalai</li>
+    <li>memeMoralist(p=2)->bhikkhu</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->monk</li>
+  -->
   <Structure_OriginBuddhist.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -19,41 +39,99 @@
     <li>memeMoralist->사제</li>
     <li>memeMoralist->수도승</li>
   </Structure_OriginBuddhist.generalRules.rulesStrings>
+  <!-- EN: Buddhist -->
   <Structure_OriginBuddhist.symbolPacks.0.adjective>불교적</Structure_OriginBuddhist.symbolPacks.0.adjective>
+  <!-- EN: Buddhism -->
   <Structure_OriginBuddhist.symbolPacks.0.ideoName>불교</Structure_OriginBuddhist.symbolPacks.0.ideoName>
+  <!-- EN: Buddhist -->
   <Structure_OriginBuddhist.symbolPacks.0.member>불자</Structure_OriginBuddhist.symbolPacks.0.member>
+  <!-- EN: Buddha -->
   <Structure_OriginBuddhist.symbolPacks.0.theme>부처</Structure_OriginBuddhist.symbolPacks.0.theme>
+  <!-- EN: Theric -->
   <Structure_OriginBuddhist.symbolPacks.1.adjective>소승불교적</Structure_OriginBuddhist.symbolPacks.1.adjective>
+  <!-- EN: Theravada -->
   <Structure_OriginBuddhist.symbolPacks.1.ideoName>소승불교</Structure_OriginBuddhist.symbolPacks.1.ideoName>
+  <!-- EN: Therist -->
   <Structure_OriginBuddhist.symbolPacks.1.member>소승불교도</Structure_OriginBuddhist.symbolPacks.1.member>
+  <!-- EN: Mahic -->
   <Structure_OriginBuddhist.symbolPacks.2.adjective>대승불교적</Structure_OriginBuddhist.symbolPacks.2.adjective>
+  <!-- EN: Mahayana -->
   <Structure_OriginBuddhist.symbolPacks.2.ideoName>대승불교</Structure_OriginBuddhist.symbolPacks.2.ideoName>
+  <!-- EN: Mahist -->
   <Structure_OriginBuddhist.symbolPacks.2.member>대승불교도</Structure_OriginBuddhist.symbolPacks.2.member>
+  <!-- EN: Vajric -->
   <Structure_OriginBuddhist.symbolPacks.3.adjective>밀교적</Structure_OriginBuddhist.symbolPacks.3.adjective>
+  <!-- EN: Vajrayana -->
   <Structure_OriginBuddhist.symbolPacks.3.ideoName>밀교</Structure_OriginBuddhist.symbolPacks.3.ideoName>
+  <!-- EN: Vajrist -->
   <Structure_OriginBuddhist.symbolPacks.3.member>밀교도</Structure_OriginBuddhist.symbolPacks.3.member>
+  <!-- EN: Zen -->
   <Structure_OriginBuddhist.symbolPacks.4.adjective>정토교적</Structure_OriginBuddhist.symbolPacks.4.adjective>
+  <!-- EN: Zen -->
   <Structure_OriginBuddhist.symbolPacks.4.ideoName>정토교</Structure_OriginBuddhist.symbolPacks.4.ideoName>
+  <!-- EN: Zenist -->
   <Structure_OriginBuddhist.symbolPacks.4.member>정토교도</Structure_OriginBuddhist.symbolPacks.4.member>
+  <!-- EN: Seonic -->
   <Structure_OriginBuddhist.symbolPacks.5.adjective>선종적</Structure_OriginBuddhist.symbolPacks.5.adjective>
+  <!-- EN: Seon -->
   <Structure_OriginBuddhist.symbolPacks.5.ideoName>선종</Structure_OriginBuddhist.symbolPacks.5.ideoName>
+  <!-- EN: Seonist -->
   <Structure_OriginBuddhist.symbolPacks.5.member>선종불자</Structure_OriginBuddhist.symbolPacks.5.member>
+  <!-- EN: Ekist -->
   <Structure_OriginBuddhist.symbolPacks.6.adjective>일승적</Structure_OriginBuddhist.symbolPacks.6.adjective>
+  <!-- EN: Ekayana -->
   <Structure_OriginBuddhist.symbolPacks.6.ideoName>일승</Structure_OriginBuddhist.symbolPacks.6.ideoName>
+  <!-- EN: Ekist -->
   <Structure_OriginBuddhist.symbolPacks.6.member>일승불자</Structure_OriginBuddhist.symbolPacks.6.member>
+  <!-- EN: Navic -->
   <Structure_OriginBuddhist.symbolPacks.7.adjective>나바야나</Structure_OriginBuddhist.symbolPacks.7.adjective>
+  <!-- EN: Navayana -->
   <Structure_OriginBuddhist.symbolPacks.7.ideoName>나바야나</Structure_OriginBuddhist.symbolPacks.7.ideoName>
+  <!-- EN: Navist -->
   <Structure_OriginBuddhist.symbolPacks.7.member>나바야나 교도</Structure_OriginBuddhist.symbolPacks.7.member>
+  <!-- EN: Tantric -->
   <Structure_OriginBuddhist.symbolPacks.8.adjective>탄트라야나</Structure_OriginBuddhist.symbolPacks.8.adjective>
+  <!-- EN: Tantrayana -->
   <Structure_OriginBuddhist.symbolPacks.8.ideoName>탄트라야나</Structure_OriginBuddhist.symbolPacks.8.ideoName>
+  <!-- EN: Tantran -->
   <Structure_OriginBuddhist.symbolPacks.8.member>탄트라야나 교도</Structure_OriginBuddhist.symbolPacks.8.member>
+  <!-- EN: Gelugist -->
   <Structure_OriginBuddhist.symbolPacks.9.adjective>겔룩파적</Structure_OriginBuddhist.symbolPacks.9.adjective>
+  <!-- EN: Gelug -->
   <Structure_OriginBuddhist.symbolPacks.9.ideoName>겔룩파</Structure_OriginBuddhist.symbolPacks.9.ideoName>
+  <!-- EN: Gelugist -->
   <Structure_OriginBuddhist.symbolPacks.9.member>겔룩파 교도</Structure_OriginBuddhist.symbolPacks.9.member>
+  <!-- EN: pagoda -->
   <Structure_OriginBuddhist.worshipRoomLabel>사리탑</Structure_OriginBuddhist.worshipRoomLabel>
   
+  <!-- EN: Christian origin -->
   <Structure_OriginChristian.label>기독교 기원</Structure_OriginChristian.label>
+  <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginChristian.description>이 사상은 고대 기독교의 분파입니다. 수천 년 전의 원본과는 많은 차이가 있지만, 상징만큼은 아직도 비슷합니다.</Structure_OriginChristian.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bishop</li>
+    <li>memeLeaderNoun->cardinal</li>
+    <li>memeLeaderNoun->pope</li>
+    <li>memeLeaderNoun->pontiff</li>
+    <li>memeLeaderNoun->legate</li>
+    <li>memeLeaderNoun->nuncio</li>
+    <li>memeLeaderNoun->divus</li>
+    <li>memeLeaderNoun->ecclesiast</li>
+    <li>memeLeaderAdjective->holy</li>
+    <li>memeLeaderAdjective->divine</li>
+    <li>memeLeaderAdjective->Christ's</li>
+    <li>memeLeaderAdjective->God's</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->cleric</li>
+    <li>memeMoralist->preacher</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->abbot</li>
+  -->
   <Structure_OriginChristian.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -78,116 +156,245 @@
     <li>memeMoralist->학자</li>
     <li>memeMoralist->수도원장</li>
   </Structure_OriginChristian.generalRules.rulesStrings>
+  <!-- EN: Christian -->
   <Structure_OriginChristian.symbolPacks.0.adjective>기독교적</Structure_OriginChristian.symbolPacks.0.adjective>
+  <!-- EN: Christianity -->
   <Structure_OriginChristian.symbolPacks.0.ideoName>기독교</Structure_OriginChristian.symbolPacks.0.ideoName>
+  <!-- EN: Christian -->
   <Structure_OriginChristian.symbolPacks.0.member>기독교도</Structure_OriginChristian.symbolPacks.0.member>
+  <!-- EN: Catholic -->
   <Structure_OriginChristian.symbolPacks.1.adjective>가톨릭</Structure_OriginChristian.symbolPacks.1.adjective>
+  <!-- EN: Catholicism -->
   <Structure_OriginChristian.symbolPacks.1.ideoName>가톨릭</Structure_OriginChristian.symbolPacks.1.ideoName>
+  <!-- EN: Catholic -->
   <Structure_OriginChristian.symbolPacks.1.member>가톨릭교도</Structure_OriginChristian.symbolPacks.1.member>
+  <!-- EN: Protestant -->
   <Structure_OriginChristian.symbolPacks.2.adjective>개신교적</Structure_OriginChristian.symbolPacks.2.adjective>
+  <!-- EN: Protestantism -->
   <Structure_OriginChristian.symbolPacks.2.ideoName>개신교</Structure_OriginChristian.symbolPacks.2.ideoName>
+  <!-- EN: Protestant -->
   <Structure_OriginChristian.symbolPacks.2.member>개신교도</Structure_OriginChristian.symbolPacks.2.member>
+  <!-- EN: Orthodox -->
   <Structure_OriginChristian.symbolPacks.3.adjective>정교적</Structure_OriginChristian.symbolPacks.3.adjective>
+  <!-- EN: Orthodoxy -->
   <Structure_OriginChristian.symbolPacks.3.ideoName>정교회</Structure_OriginChristian.symbolPacks.3.ideoName>
+  <!-- EN: Orthodoxist -->
   <Structure_OriginChristian.symbolPacks.3.member>정교도</Structure_OriginChristian.symbolPacks.3.member>
+  <!-- EN: Nestorian -->
   <Structure_OriginChristian.symbolPacks.4.adjective>동방교적</Structure_OriginChristian.symbolPacks.4.adjective>
+  <!-- EN: Nestorianism -->
   <Structure_OriginChristian.symbolPacks.4.ideoName>동방교회</Structure_OriginChristian.symbolPacks.4.ideoName>
+  <!-- EN: Nestorian -->
   <Structure_OriginChristian.symbolPacks.4.member>동방교도</Structure_OriginChristian.symbolPacks.4.member>
+  <!-- EN: Anglican -->
   <Structure_OriginChristian.symbolPacks.5.adjective>성공회</Structure_OriginChristian.symbolPacks.5.adjective>
+  <!-- EN: Anglicanism -->
   <Structure_OriginChristian.symbolPacks.5.ideoName>성공회</Structure_OriginChristian.symbolPacks.5.ideoName>
+  <!-- EN: Anglican -->
   <Structure_OriginChristian.symbolPacks.5.member>성공회교도</Structure_OriginChristian.symbolPacks.5.member>
+  <!-- EN: Baptist -->
   <Structure_OriginChristian.symbolPacks.6.adjective>침례교적</Structure_OriginChristian.symbolPacks.6.adjective>
+  <!-- EN: Baptism -->
   <Structure_OriginChristian.symbolPacks.6.ideoName>침례교</Structure_OriginChristian.symbolPacks.6.ideoName>
+  <!-- EN: Baptist -->
   <Structure_OriginChristian.symbolPacks.6.member>침례교도</Structure_OriginChristian.symbolPacks.6.member>
+  <!-- EN: Anabaptist -->
   <Structure_OriginChristian.symbolPacks.7.adjective>재침례파</Structure_OriginChristian.symbolPacks.7.adjective>
+  <!-- EN: Anabaptism -->
   <Structure_OriginChristian.symbolPacks.7.ideoName>재침례파</Structure_OriginChristian.symbolPacks.7.ideoName>
+  <!-- EN: Anabaptist -->
   <Structure_OriginChristian.symbolPacks.7.member>재침례교도</Structure_OriginChristian.symbolPacks.7.member>
+  <!-- EN: Calvinist -->
   <Structure_OriginChristian.symbolPacks.8.adjective>개혁주의적</Structure_OriginChristian.symbolPacks.8.adjective>
+  <!-- EN: Calvinism -->
   <Structure_OriginChristian.symbolPacks.8.ideoName>개혁주의</Structure_OriginChristian.symbolPacks.8.ideoName>
+  <!-- EN: Calvinist -->
   <Structure_OriginChristian.symbolPacks.8.member>개혁주의자</Structure_OriginChristian.symbolPacks.8.member>
+  <!-- EN: Lutheran -->
   <Structure_OriginChristian.symbolPacks.9.adjective>루터교적</Structure_OriginChristian.symbolPacks.9.adjective>
+  <!-- EN: Lutheranism -->
   <Structure_OriginChristian.symbolPacks.9.ideoName>루터교</Structure_OriginChristian.symbolPacks.9.ideoName>
+  <!-- EN: Lutheran -->
   <Structure_OriginChristian.symbolPacks.9.member>루터교도</Structure_OriginChristian.symbolPacks.9.member>
+  <!-- EN: Adventist -->
   <Structure_OriginChristian.symbolPacks.10.adjective>재림교적</Structure_OriginChristian.symbolPacks.10.adjective>
+  <!-- EN: Adventism -->
   <Structure_OriginChristian.symbolPacks.10.ideoName>재림교</Structure_OriginChristian.symbolPacks.10.ideoName>
+  <!-- EN: Adventist -->
   <Structure_OriginChristian.symbolPacks.10.member>재림교인</Structure_OriginChristian.symbolPacks.10.member>
+  <!-- EN: Methodist -->
   <Structure_OriginChristian.symbolPacks.11.adjective>감리주의적</Structure_OriginChristian.symbolPacks.11.adjective>
+  <!-- EN: Methodism -->
   <Structure_OriginChristian.symbolPacks.11.ideoName>감리교</Structure_OriginChristian.symbolPacks.11.ideoName>
+  <!-- EN: Methodist -->
   <Structure_OriginChristian.symbolPacks.11.member>감리주의자</Structure_OriginChristian.symbolPacks.11.member>
+  <!-- EN: Mormon -->
   <Structure_OriginChristian.symbolPacks.12.adjective>몰몬교적</Structure_OriginChristian.symbolPacks.12.adjective>
+  <!-- EN: Mormonism -->
   <Structure_OriginChristian.symbolPacks.12.ideoName>몰몬교</Structure_OriginChristian.symbolPacks.12.ideoName>
+  <!-- EN: Mormon -->
   <Structure_OriginChristian.symbolPacks.12.member>몰몬교도</Structure_OriginChristian.symbolPacks.12.member>
+  <!-- EN: Theonomic -->
   <Structure_OriginChristian.symbolPacks.13.adjective>신정적</Structure_OriginChristian.symbolPacks.13.adjective>
+  <!-- EN: Theonomy -->
   <Structure_OriginChristian.symbolPacks.13.ideoName>신정주의</Structure_OriginChristian.symbolPacks.13.ideoName>
+  <!-- EN: Theonomist -->
   <Structure_OriginChristian.symbolPacks.13.member>신정주의자</Structure_OriginChristian.symbolPacks.13.member>
+  <!-- EN: church -->
   <Structure_OriginChristian.worshipRoomLabel>교회</Structure_OriginChristian.worshipRoomLabel>
   
+  <!-- EN: Hindu origin -->
   <Structure_OriginHindu.label>힌두교 기원</Structure_OriginHindu.label>
+  <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginHindu.description>이 사상은 고대 힌두교의 분파입니다. 수천 년 전의 원본과는 많은 차이가 있지만, 상징만큼은 아직도 비슷합니다.</Structure_OriginHindu.description>
+  <!-- EN: Brahma -->
   <Structure_OriginHindu.fixedDeityNameTypes.0.name>브라흐마</Structure_OriginHindu.fixedDeityNameTypes.0.name>
+  <!-- EN: God of Creation -->
   <Structure_OriginHindu.fixedDeityNameTypes.0.type>창조신</Structure_OriginHindu.fixedDeityNameTypes.0.type>
+  <!-- EN: Vishnu -->
   <Structure_OriginHindu.fixedDeityNameTypes.1.name>비슈누</Structure_OriginHindu.fixedDeityNameTypes.1.name>
+  <!-- EN: God of Preservation -->
   <Structure_OriginHindu.fixedDeityNameTypes.1.type>보호의 신</Structure_OriginHindu.fixedDeityNameTypes.1.type>
+  <!-- EN: Shiva -->
   <Structure_OriginHindu.fixedDeityNameTypes.2.name>시바</Structure_OriginHindu.fixedDeityNameTypes.2.name>
+  <!-- EN: God of Destruction -->
   <Structure_OriginHindu.fixedDeityNameTypes.2.type>파괴의 신</Structure_OriginHindu.fixedDeityNameTypes.2.type>
+  <!-- EN: Ushas -->
   <Structure_OriginHindu.fixedDeityNameTypes.3.name>우샤스</Structure_OriginHindu.fixedDeityNameTypes.3.name>
+  <!-- EN: God of Dawn -->
   <Structure_OriginHindu.fixedDeityNameTypes.3.type>새벽의 신</Structure_OriginHindu.fixedDeityNameTypes.3.type>
+  <!-- EN: Devi -->
   <Structure_OriginHindu.fixedDeityNameTypes.4.name>데비</Structure_OriginHindu.fixedDeityNameTypes.4.name>
+  <!-- EN: God of Femininity -->
   <Structure_OriginHindu.fixedDeityNameTypes.4.type>여성의 신</Structure_OriginHindu.fixedDeityNameTypes.4.type>
+  <!-- EN: Lakshmi -->
   <Structure_OriginHindu.fixedDeityNameTypes.5.name>락슈미</Structure_OriginHindu.fixedDeityNameTypes.5.name>
+  <!-- EN: God of Goals -->
   <Structure_OriginHindu.fixedDeityNameTypes.5.type>행운의 신</Structure_OriginHindu.fixedDeityNameTypes.5.type>
+  <!-- EN: Parvati -->
   <Structure_OriginHindu.fixedDeityNameTypes.6.name>파르바티</Structure_OriginHindu.fixedDeityNameTypes.6.name>
+  <!-- EN: God of Fertility -->
   <Structure_OriginHindu.fixedDeityNameTypes.6.type>다산의 신</Structure_OriginHindu.fixedDeityNameTypes.6.type>
+  <!-- EN: Kali -->
   <Structure_OriginHindu.fixedDeityNameTypes.7.name>칼리</Structure_OriginHindu.fixedDeityNameTypes.7.name>
+  <!-- EN: God of Protection -->
   <Structure_OriginHindu.fixedDeityNameTypes.7.type>수호신</Structure_OriginHindu.fixedDeityNameTypes.7.type>
+  <!-- EN: Bhumi -->
   <Structure_OriginHindu.fixedDeityNameTypes.8.name>브후미</Structure_OriginHindu.fixedDeityNameTypes.8.name>
+  <!-- EN: God of Earth -->
   <Structure_OriginHindu.fixedDeityNameTypes.8.type>대지의 신</Structure_OriginHindu.fixedDeityNameTypes.8.type>
+  <!-- EN: Saraswati -->
   <Structure_OriginHindu.fixedDeityNameTypes.9.name>사라스와티</Structure_OriginHindu.fixedDeityNameTypes.9.name>
+  <!-- EN: God of Wisdom -->
   <Structure_OriginHindu.fixedDeityNameTypes.9.type>지혜의 신</Structure_OriginHindu.fixedDeityNameTypes.9.type>
+  <!-- EN: Gayatri -->
   <Structure_OriginHindu.fixedDeityNameTypes.10.name>가야트리</Structure_OriginHindu.fixedDeityNameTypes.10.name>
+  <!-- EN: God of Life -->
   <Structure_OriginHindu.fixedDeityNameTypes.10.type>생명의 신</Structure_OriginHindu.fixedDeityNameTypes.10.type>
+  <!-- EN: Annapoorna -->
   <Structure_OriginHindu.fixedDeityNameTypes.11.name>안나푸르나</Structure_OriginHindu.fixedDeityNameTypes.11.name>
+  <!-- EN: God of Food -->
   <Structure_OriginHindu.fixedDeityNameTypes.11.type>음식의 신</Structure_OriginHindu.fixedDeityNameTypes.11.type>
+  <!-- EN: Nindra -->
   <Structure_OriginHindu.fixedDeityNameTypes.12.name>닌드라</Structure_OriginHindu.fixedDeityNameTypes.12.name>
+  <!-- EN: God of Sleep -->
   <Structure_OriginHindu.fixedDeityNameTypes.12.type>잠의 신</Structure_OriginHindu.fixedDeityNameTypes.12.type>
+  <!-- EN: Shashthi -->
   <Structure_OriginHindu.fixedDeityNameTypes.13.name>샤쉬티</Structure_OriginHindu.fixedDeityNameTypes.13.name>
+  <!-- EN: God of Children -->
   <Structure_OriginHindu.fixedDeityNameTypes.13.type>아이들의 신</Structure_OriginHindu.fixedDeityNameTypes.13.type>
+  <!-- EN: Manasa -->
   <Structure_OriginHindu.fixedDeityNameTypes.14.name>마나사</Structure_OriginHindu.fixedDeityNameTypes.14.name>
+  <!-- EN: God of Snakes -->
   <Structure_OriginHindu.fixedDeityNameTypes.14.type>뱀의 신</Structure_OriginHindu.fixedDeityNameTypes.14.type>
+  <!-- EN: Svaha -->
   <Structure_OriginHindu.fixedDeityNameTypes.15.name>스바하</Structure_OriginHindu.fixedDeityNameTypes.15.name>
+  <!-- EN: God of Ash -->
   <Structure_OriginHindu.fixedDeityNameTypes.15.type>재의 신</Structure_OriginHindu.fixedDeityNameTypes.15.type>
+  <!-- EN: Bhairava -->
   <Structure_OriginHindu.fixedDeityNameTypes.16.name>바이라바</Structure_OriginHindu.fixedDeityNameTypes.16.name>
+  <!-- EN: God of Annihilation -->
   <Structure_OriginHindu.fixedDeityNameTypes.16.type>섬멸의 신</Structure_OriginHindu.fixedDeityNameTypes.16.type>
+  <!-- EN: Krishna -->
   <Structure_OriginHindu.fixedDeityNameTypes.17.name>크리슈나</Structure_OriginHindu.fixedDeityNameTypes.17.name>
+  <!-- EN: God of Compassion -->
   <Structure_OriginHindu.fixedDeityNameTypes.17.type>연민의 신</Structure_OriginHindu.fixedDeityNameTypes.17.type>
+  <!-- EN: Surya -->
   <Structure_OriginHindu.fixedDeityNameTypes.18.name>수리야</Structure_OriginHindu.fixedDeityNameTypes.18.name>
+  <!-- EN: Sun God -->
   <Structure_OriginHindu.fixedDeityNameTypes.18.type>태양신</Structure_OriginHindu.fixedDeityNameTypes.18.type>
+  <!-- EN: Varuna -->
   <Structure_OriginHindu.fixedDeityNameTypes.19.name>바루나</Structure_OriginHindu.fixedDeityNameTypes.19.name>
+  <!-- EN: Sky God -->
   <Structure_OriginHindu.fixedDeityNameTypes.19.type>하늘신</Structure_OriginHindu.fixedDeityNameTypes.19.type>
+  <!-- EN: Mitra -->
   <Structure_OriginHindu.fixedDeityNameTypes.20.name>미트라</Structure_OriginHindu.fixedDeityNameTypes.20.name>
+  <!-- EN: God of Friendship -->
   <Structure_OriginHindu.fixedDeityNameTypes.20.type>우정의 신</Structure_OriginHindu.fixedDeityNameTypes.20.type>
+  <!-- EN: Indra -->
   <Structure_OriginHindu.fixedDeityNameTypes.21.name>인드라</Structure_OriginHindu.fixedDeityNameTypes.21.name>
+  <!-- EN: God of Heaven -->
   <Structure_OriginHindu.fixedDeityNameTypes.21.type>천상의 신</Structure_OriginHindu.fixedDeityNameTypes.21.type>
+  <!-- EN: Agni -->
   <Structure_OriginHindu.fixedDeityNameTypes.22.name>아그니</Structure_OriginHindu.fixedDeityNameTypes.22.name>
+  <!-- EN: Fire God -->
   <Structure_OriginHindu.fixedDeityNameTypes.22.type>불의 신</Structure_OriginHindu.fixedDeityNameTypes.22.type>
+  <!-- EN: Soma -->
   <Structure_OriginHindu.fixedDeityNameTypes.23.name>소마</Structure_OriginHindu.fixedDeityNameTypes.23.name>
+  <!-- EN: Moon God -->
   <Structure_OriginHindu.fixedDeityNameTypes.23.type>달의 신</Structure_OriginHindu.fixedDeityNameTypes.23.type>
+  <!-- EN: Rudra -->
   <Structure_OriginHindu.fixedDeityNameTypes.24.name>루드라</Structure_OriginHindu.fixedDeityNameTypes.24.name>
+  <!-- EN: God of Wind -->
   <Structure_OriginHindu.fixedDeityNameTypes.24.type>바람의 신</Structure_OriginHindu.fixedDeityNameTypes.24.type>
+  <!-- EN: Prithvi -->
   <Structure_OriginHindu.fixedDeityNameTypes.25.name>프리트비</Structure_OriginHindu.fixedDeityNameTypes.25.name>
+  <!-- EN: God of Earth -->
   <Structure_OriginHindu.fixedDeityNameTypes.25.type>대지의 신</Structure_OriginHindu.fixedDeityNameTypes.25.type>
+  <!-- EN: Aditi -->
   <Structure_OriginHindu.fixedDeityNameTypes.26.name>아디티</Structure_OriginHindu.fixedDeityNameTypes.26.name>
+  <!-- EN: God of Morality -->
   <Structure_OriginHindu.fixedDeityNameTypes.26.type>도덕의 신</Structure_OriginHindu.fixedDeityNameTypes.26.type>
+  <!-- EN: Vac -->
   <Structure_OriginHindu.fixedDeityNameTypes.27.name>바크</Structure_OriginHindu.fixedDeityNameTypes.27.name>
+  <!-- EN: God of Sound -->
   <Structure_OriginHindu.fixedDeityNameTypes.27.type>소리의 신</Structure_OriginHindu.fixedDeityNameTypes.27.type>
+  <!-- EN: Nirrti -->
   <Structure_OriginHindu.fixedDeityNameTypes.28.name>니르리티</Structure_OriginHindu.fixedDeityNameTypes.28.name>
+  <!-- EN: God of Destruction -->
   <Structure_OriginHindu.fixedDeityNameTypes.28.type>파괴의 신</Structure_OriginHindu.fixedDeityNameTypes.28.type>
+  <!-- EN: Ratri -->
   <Structure_OriginHindu.fixedDeityNameTypes.29.name>라트리</Structure_OriginHindu.fixedDeityNameTypes.29.name>
+  <!-- EN: God of Night -->
   <Structure_OriginHindu.fixedDeityNameTypes.29.type>밤의 신</Structure_OriginHindu.fixedDeityNameTypes.29.type>
+  <!-- EN: Aranyani -->
   <Structure_OriginHindu.fixedDeityNameTypes.30.name>아라냐니</Structure_OriginHindu.fixedDeityNameTypes.30.name>
+  <!-- EN: Forest God -->
   <Structure_OriginHindu.fixedDeityNameTypes.30.type>숲의 신</Structure_OriginHindu.fixedDeityNameTypes.30.type>
+  <!-- EN: Durga -->
   <Structure_OriginHindu.fixedDeityNameTypes.31.name>두르가</Structure_OriginHindu.fixedDeityNameTypes.31.name>
+  <!-- EN: Warrior Goddess -->
   <Structure_OriginHindu.fixedDeityNameTypes.31.type>전쟁의 여신</Structure_OriginHindu.fixedDeityNameTypes.31.type>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mahatma</li>
+    <li>memeLeaderNoun->ishvara</li>
+    <li>memeLeaderNoun->yogi</li>
+    <li>memeLeaderNoun->pandit</li>
+    <li>memeLeaderNoun->avatar</li>
+    <li>memeLeaderAdjective->sacred</li>
+    <li>memeLeaderAdjective->hindic</li>
+    <li>memeLeaderAdjective->indic</li>
+    <li>memeLeaderAdjective->yogic</li>
+    <li>memeLeaderAdjective->tirth</li>
+    <li>memeMoralist(p=3)->pujari</li>
+    <li>memeMoralist->purohit</li>
+    <li>memeMoralist->archaka</li>
+    <li>memeMoralist->brahmin</li>
+  -->
   <Structure_OriginHindu.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -208,52 +415,118 @@
     <li>memeMoralist->아차크</li>
     <li>memeMoralist->브라만</li>
   </Structure_OriginHindu.generalRules.rulesStrings>
+  <!-- EN: Hindu -->
   <Structure_OriginHindu.symbolPacks.0.adjective>힌두교</Structure_OriginHindu.symbolPacks.0.adjective>
+  <!-- EN: Hinduism -->
   <Structure_OriginHindu.symbolPacks.0.ideoName>힌두교</Structure_OriginHindu.symbolPacks.0.ideoName>
+  <!-- EN: Hindu -->
   <Structure_OriginHindu.symbolPacks.0.member>힌두교도</Structure_OriginHindu.symbolPacks.0.member>
+  <!-- EN: Indu -->
   <Structure_OriginHindu.symbolPacks.1.adjective>인더스교</Structure_OriginHindu.symbolPacks.1.adjective>
+  <!-- EN: Induism -->
   <Structure_OriginHindu.symbolPacks.1.ideoName>인더스교</Structure_OriginHindu.symbolPacks.1.ideoName>
+  <!-- EN: Indu -->
   <Structure_OriginHindu.symbolPacks.1.member>인더스교도</Structure_OriginHindu.symbolPacks.1.member>
+  <!-- EN: Sindu -->
   <Structure_OriginHindu.symbolPacks.2.adjective>신두교</Structure_OriginHindu.symbolPacks.2.adjective>
+  <!-- EN: Sinduism -->
   <Structure_OriginHindu.symbolPacks.2.ideoName>신두교</Structure_OriginHindu.symbolPacks.2.ideoName>
+  <!-- EN: Sindu -->
   <Structure_OriginHindu.symbolPacks.2.member>신두교도</Structure_OriginHindu.symbolPacks.2.member>
+  <!-- EN: Tantric -->
   <Structure_OriginHindu.symbolPacks.3.adjective>탄트라적</Structure_OriginHindu.symbolPacks.3.adjective>
+  <!-- EN: Tantra -->
   <Structure_OriginHindu.symbolPacks.3.ideoName>탄트라</Structure_OriginHindu.symbolPacks.3.ideoName>
+  <!-- EN: Tantran -->
   <Structure_OriginHindu.symbolPacks.3.member>탄트라교도</Structure_OriginHindu.symbolPacks.3.member>
+  <!-- EN: Vedic -->
   <Structure_OriginHindu.symbolPacks.4.adjective>베디즘적</Structure_OriginHindu.symbolPacks.4.adjective>
+  <!-- EN: Vedism -->
   <Structure_OriginHindu.symbolPacks.4.ideoName>베디즘</Structure_OriginHindu.symbolPacks.4.ideoName>
+  <!-- EN: Vedi -->
   <Structure_OriginHindu.symbolPacks.4.member>베디즘 교도</Structure_OriginHindu.symbolPacks.4.member>
+  <!-- EN: Dharmic -->
   <Structure_OriginHindu.symbolPacks.5.adjective>다르리즘적</Structure_OriginHindu.symbolPacks.5.adjective>
+  <!-- EN: Dharmism -->
   <Structure_OriginHindu.symbolPacks.5.ideoName>다르미즘</Structure_OriginHindu.symbolPacks.5.ideoName>
+  <!-- EN: Dharmi -->
   <Structure_OriginHindu.symbolPacks.5.member>다르미즘 교도</Structure_OriginHindu.symbolPacks.5.member>
+  <!-- EN: Vaishmayan -->
   <Structure_OriginHindu.symbolPacks.6.adjective>바이슈마야</Structure_OriginHindu.symbolPacks.6.adjective>
+  <!-- EN: Vaishmaya -->
   <Structure_OriginHindu.symbolPacks.6.ideoName>바이슈마야</Structure_OriginHindu.symbolPacks.6.ideoName>
+  <!-- EN: Vaishnava -->
   <Structure_OriginHindu.symbolPacks.6.member>바이슈마야 교도</Structure_OriginHindu.symbolPacks.6.member>
+  <!-- EN: Shaivan -->
   <Structure_OriginHindu.symbolPacks.7.adjective>샤이브마야</Structure_OriginHindu.symbolPacks.7.adjective>
+  <!-- EN: Shaivmaya -->
   <Structure_OriginHindu.symbolPacks.7.ideoName>샤이브마야</Structure_OriginHindu.symbolPacks.7.ideoName>
+  <!-- EN: Shaiva -->
   <Structure_OriginHindu.symbolPacks.7.member>샤이브마야 교도</Structure_OriginHindu.symbolPacks.7.member>
+  <!-- EN: Yogic -->
   <Structure_OriginHindu.symbolPacks.8.adjective>요가적</Structure_OriginHindu.symbolPacks.8.adjective>
+  <!-- EN: Yoga -->
   <Structure_OriginHindu.symbolPacks.8.ideoName>요가</Structure_OriginHindu.symbolPacks.8.ideoName>
+  <!-- EN: Yogi -->
   <Structure_OriginHindu.symbolPacks.8.member>요가교도</Structure_OriginHindu.symbolPacks.8.member>
+  <!-- EN: Nyayan -->
   <Structure_OriginHindu.symbolPacks.9.adjective>냐야</Structure_OriginHindu.symbolPacks.9.adjective>
+  <!-- EN: Nyaya -->
   <Structure_OriginHindu.symbolPacks.9.ideoName>냐야</Structure_OriginHindu.symbolPacks.9.ideoName>
+  <!-- EN: Nyava -->
   <Structure_OriginHindu.symbolPacks.9.member>냐야교도</Structure_OriginHindu.symbolPacks.9.member>
+  <!-- EN: Vaisesikan -->
   <Structure_OriginHindu.symbolPacks.10.adjective>바이세시카</Structure_OriginHindu.symbolPacks.10.adjective>
+  <!-- EN: Vaisesika -->
   <Structure_OriginHindu.symbolPacks.10.ideoName>바이세시카</Structure_OriginHindu.symbolPacks.10.ideoName>
+  <!-- EN: Vaisesikaya -->
   <Structure_OriginHindu.symbolPacks.10.member>바이세시카 교도</Structure_OriginHindu.symbolPacks.10.member>
+  <!-- EN: Samkhyan -->
   <Structure_OriginHindu.symbolPacks.11.adjective>삼캬</Structure_OriginHindu.symbolPacks.11.adjective>
+  <!-- EN: Samkhya -->
   <Structure_OriginHindu.symbolPacks.11.ideoName>삼캬</Structure_OriginHindu.symbolPacks.11.ideoName>
+  <!-- EN: Samkhyan -->
   <Structure_OriginHindu.symbolPacks.11.member>삼캬 교도</Structure_OriginHindu.symbolPacks.11.member>
+  <!-- EN: Mimamsan -->
   <Structure_OriginHindu.symbolPacks.12.adjective>미맘사</Structure_OriginHindu.symbolPacks.12.adjective>
+  <!-- EN: Mimamsa -->
   <Structure_OriginHindu.symbolPacks.12.ideoName>미맘사</Structure_OriginHindu.symbolPacks.12.ideoName>
+  <!-- EN: Mimamsan -->
   <Structure_OriginHindu.symbolPacks.12.member>미맘사 교도</Structure_OriginHindu.symbolPacks.12.member>
+  <!-- EN: Vedantan -->
   <Structure_OriginHindu.symbolPacks.13.adjective>베단타</Structure_OriginHindu.symbolPacks.13.adjective>
+  <!-- EN: Vedanta -->
   <Structure_OriginHindu.symbolPacks.13.ideoName>베단타</Structure_OriginHindu.symbolPacks.13.ideoName>
+  <!-- EN: Vedantan -->
   <Structure_OriginHindu.symbolPacks.13.member>베단타 교도</Structure_OriginHindu.symbolPacks.13.member>
+  <!-- EN: shrine -->
   <Structure_OriginHindu.worshipRoomLabel>성소</Structure_OriginHindu.worshipRoomLabel>
   
+  <!-- EN: Islamic origin -->
   <Structure_OriginIslamic.label>이슬람교 기원</Structure_OriginIslamic.label>
+  <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islam. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginIslamic.description>이 사상은 고대 이슬람교의 분파입니다. 수천 년 전의 원본과는 많은 차이가 있지만, 상징만큼은 아직도 비슷합니다.</Structure_OriginIslamic.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mullah</li>
+    <li>memeLeaderNoun->imam</li>
+    <li>memeLeaderNoun->caliph</li>
+    <li>memeLeaderNoun->mufti</li>
+    <li>memeLeaderNoun->almami</li>
+    <li>memeLeaderNoun->kyai</li>
+    <li>memeLeaderNoun->ayatollah</li>
+    <li>memeLeaderAdjective->grand</li>
+    <li>memeMoralist(p=4)->imam</li>
+    <li>memeMoralist->qadi</li>
+    <li>memeMoralist->alim</li>
+    <li>memeMoralist->allamah</li>
+    <li>memeMoralist->muezzin</li>
+    <li>memeMoralist->mujtahid</li>
+    <li>memeMoralist->cleric</li>
+  -->
   <Structure_OriginIslamic.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -275,50 +548,97 @@
     <li>memeMoralist->무즈타히드</li>
     <li>memeMoralist->성직자</li>
   </Structure_OriginIslamic.generalRules.rulesStrings>
+  <!-- EN: Islamic -->
   <Structure_OriginIslamic.symbolPacks.0.adjective>이슬람적</Structure_OriginIslamic.symbolPacks.0.adjective>
+  <!-- EN: Islam -->
   <Structure_OriginIslamic.symbolPacks.0.ideoName>이슬람</Structure_OriginIslamic.symbolPacks.0.ideoName>
+  <!-- EN: Muslim -->
   <Structure_OriginIslamic.symbolPacks.0.member>무슬림</Structure_OriginIslamic.symbolPacks.0.member>
+  <!-- EN: Islamist -->
   <Structure_OriginIslamic.symbolPacks.1.adjective>이슬람주의적</Structure_OriginIslamic.symbolPacks.1.adjective>
+  <!-- EN: Islamism -->
   <Structure_OriginIslamic.symbolPacks.1.ideoName>이슬람주의</Structure_OriginIslamic.symbolPacks.1.ideoName>
+  <!-- EN: Islamist -->
   <Structure_OriginIslamic.symbolPacks.1.member>무슬림</Structure_OriginIslamic.symbolPacks.1.member>
+  <!-- EN: Shiite -->
   <Structure_OriginIslamic.symbolPacks.2.adjective>시아파</Structure_OriginIslamic.symbolPacks.2.adjective>
+  <!-- EN: Shiism -->
   <Structure_OriginIslamic.symbolPacks.2.ideoName>시아파</Structure_OriginIslamic.symbolPacks.2.ideoName>
+  <!-- EN: Shiite -->
   <Structure_OriginIslamic.symbolPacks.2.member>시아파 교도</Structure_OriginIslamic.symbolPacks.2.member>
+  <!-- EN: Sunni -->
   <Structure_OriginIslamic.symbolPacks.3.adjective>수니파</Structure_OriginIslamic.symbolPacks.3.adjective>
+  <!-- EN: Sunnism -->
   <Structure_OriginIslamic.symbolPacks.3.ideoName>수니파</Structure_OriginIslamic.symbolPacks.3.ideoName>
+  <!-- EN: Sunni -->
   <Structure_OriginIslamic.symbolPacks.3.member>수니파 교도</Structure_OriginIslamic.symbolPacks.3.member>
+  <!-- EN: Ibadi -->
   <Structure_OriginIslamic.symbolPacks.4.adjective>이바디파</Structure_OriginIslamic.symbolPacks.4.adjective>
+  <!-- EN: Ibadism -->
   <Structure_OriginIslamic.symbolPacks.4.ideoName>이바디파</Structure_OriginIslamic.symbolPacks.4.ideoName>
+  <!-- EN: Ibadi -->
   <Structure_OriginIslamic.symbolPacks.4.member>이바디파 교도</Structure_OriginIslamic.symbolPacks.4.member>
+  <!-- EN: Ismaili -->
   <Structure_OriginIslamic.symbolPacks.5.adjective>이스마일파</Structure_OriginIslamic.symbolPacks.5.adjective>
+  <!-- EN: Ismailism -->
   <Structure_OriginIslamic.symbolPacks.5.ideoName>이스마일파</Structure_OriginIslamic.symbolPacks.5.ideoName>
+  <!-- EN: Ismaili -->
   <Structure_OriginIslamic.symbolPacks.5.member>이스마일파 교도</Structure_OriginIslamic.symbolPacks.5.member>
+  <!-- EN: Mustalic -->
   <Structure_OriginIslamic.symbolPacks.6.adjective>무스탈리파</Structure_OriginIslamic.symbolPacks.6.adjective>
+  <!-- EN: Mustalism -->
   <Structure_OriginIslamic.symbolPacks.6.ideoName>무스탈리파</Structure_OriginIslamic.symbolPacks.6.ideoName>
+  <!-- EN: Mustali -->
   <Structure_OriginIslamic.symbolPacks.6.member>무스탈리파 교도</Structure_OriginIslamic.symbolPacks.6.member>
+  <!-- EN: Tayyibic -->
   <Structure_OriginIslamic.symbolPacks.7.adjective>테이비파적</Structure_OriginIslamic.symbolPacks.7.adjective>
+  <!-- EN: Tayyibism -->
   <Structure_OriginIslamic.symbolPacks.7.ideoName>테이비파</Structure_OriginIslamic.symbolPacks.7.ideoName>
+  <!-- EN: Tayyibist -->
   <Structure_OriginIslamic.symbolPacks.7.member>테이비파 교도</Structure_OriginIslamic.symbolPacks.7.member>
+  <!-- EN: Nizalist -->
   <Structure_OriginIslamic.symbolPacks.8.adjective>니잘리파</Structure_OriginIslamic.symbolPacks.8.adjective>
+  <!-- EN: Nizalism -->
   <Structure_OriginIslamic.symbolPacks.8.ideoName>니잘리파</Structure_OriginIslamic.symbolPacks.8.ideoName>
+  <!-- EN: Nizalist -->
   <Structure_OriginIslamic.symbolPacks.8.member>니잘리파 교도</Structure_OriginIslamic.symbolPacks.8.member>
+  <!-- EN: Surfrist -->
   <Structure_OriginIslamic.symbolPacks.9.adjective>수프리파</Structure_OriginIslamic.symbolPacks.9.adjective>
+  <!-- EN: Sufrism -->
   <Structure_OriginIslamic.symbolPacks.9.ideoName>수프리파</Structure_OriginIslamic.symbolPacks.9.ideoName>
+  <!-- EN: Surfist -->
   <Structure_OriginIslamic.symbolPacks.9.member>수프리파 교도</Structure_OriginIslamic.symbolPacks.9.member>
+  <!-- EN: Qadirist -->
   <Structure_OriginIslamic.symbolPacks.10.adjective>카디리파</Structure_OriginIslamic.symbolPacks.10.adjective>
+  <!-- EN: Qadirism -->
   <Structure_OriginIslamic.symbolPacks.10.ideoName>카디리파</Structure_OriginIslamic.symbolPacks.10.ideoName>
+  <!-- EN: Qadirist -->
   <Structure_OriginIslamic.symbolPacks.10.member>카디리파 교도</Structure_OriginIslamic.symbolPacks.10.member>
+  <!-- EN: Zahirist -->
   <Structure_OriginIslamic.symbolPacks.11.adjective>자히리파</Structure_OriginIslamic.symbolPacks.11.adjective>
+  <!-- EN: Zahirism -->
   <Structure_OriginIslamic.symbolPacks.11.ideoName>자히리파</Structure_OriginIslamic.symbolPacks.11.ideoName>
+  <!-- EN: Zahirist -->
   <Structure_OriginIslamic.symbolPacks.11.member>자히리파 교도</Structure_OriginIslamic.symbolPacks.11.member>
+  <!-- EN: Azraqi -->
   <Structure_OriginIslamic.symbolPacks.12.adjective>아즈라파</Structure_OriginIslamic.symbolPacks.12.adjective>
+  <!-- EN: Azraqism -->
   <Structure_OriginIslamic.symbolPacks.12.ideoName>아즈라파</Structure_OriginIslamic.symbolPacks.12.ideoName>
+  <!-- EN: Azraqi -->
   <Structure_OriginIslamic.symbolPacks.12.member>아즈라파 교도</Structure_OriginIslamic.symbolPacks.12.member>
+  <!-- EN: Wahhabi -->
   <Structure_OriginIslamic.symbolPacks.13.adjective>와하브파</Structure_OriginIslamic.symbolPacks.13.adjective>
+  <!-- EN: Wahhabism -->
   <Structure_OriginIslamic.symbolPacks.13.ideoName>와하브파</Structure_OriginIslamic.symbolPacks.13.ideoName>
+  <!-- EN: Wahhabi -->
   <Structure_OriginIslamic.symbolPacks.13.member>와하브파 교도</Structure_OriginIslamic.symbolPacks.13.member>
+  <!-- EN: Caliphic -->
   <Structure_OriginIslamic.symbolPacks.14.adjective>칼리파적</Structure_OriginIslamic.symbolPacks.14.adjective>
+  <!-- EN: Caliphate -->
   <Structure_OriginIslamic.symbolPacks.14.ideoName>칼리파</Structure_OriginIslamic.symbolPacks.14.ideoName>
+  <!-- EN: Caliphist -->
   <Structure_OriginIslamic.symbolPacks.14.member>칼리파 교인</Structure_OriginIslamic.symbolPacks.14.member>
+  <!-- EN: mosque -->
   <Structure_OriginIslamic.worshipRoomLabel>모스크</Structure_OriginIslamic.worshipRoomLabel>
+  
 </LanguageData>

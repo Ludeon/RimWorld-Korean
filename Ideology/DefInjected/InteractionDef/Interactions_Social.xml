@@ -1,26 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <ConvertIdeoAttempt.label>사상 교화 시도</ConvertIdeoAttempt.label>
-  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](이)가 [INITIATOR_possessive] 사상에 동화되도록 교화를 시도함.</li>
-  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   
+  <!-- EN: failed conversion -->
   <Convert_Failure.label>실패한 전도</Convert_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
+  -->
   <Convert_Failure.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 교화하려고 시도하였으나 실패함.</li>
   </Convert_Failure.logRulesInitiator.rulesStrings>
   
+  <!-- EN: successful conversion -->
   <Convert_Success.label>성공적인 교화</Convert_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
+  -->
   <Convert_Success.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 교화하려고 시도하여 성공함.</li>
   </Convert_Success.logRulesInitiator.rulesStrings>
   
+  <!-- EN: convert ideoligion attempt -->
+  <ConvertIdeoAttempt.label>사상 교화 시도</ConvertIdeoAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
+  -->
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](이)가 [INITIATOR_possessive] 사상에 동화되도록 교화를 시도함.</li>
+  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: failed counsel -->
   <Counsel_Failure.label>실패한 상담</Counsel_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
+  -->
   <Counsel_Failure.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 상담을 해 주려 했지만 일을 망쳐버리고 상황을 악화시킴.</li>
   </Counsel_Failure.logRulesInitiator.rulesStrings>
   
+  <!-- EN: successful counsel -->
   <Counsel_Success.label>성공적인 상담</Counsel_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] advice on overcoming negativity.</li>
+    <li>problems->[RECIPIENT_possessive] problems</li>
+    <li>problems->[RECIPIENT_possessive] troubles</li>
+    <li>problems->[RECIPIENT_possessive] painful feelings</li>
+    <li>problems->recent difficulties</li>
+  -->
   <Counsel_Success.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [problems]에 관해 [RECIPIENT_nameDef]에게 상담해줌.</li>
     <li>r_logentry->[INITIATOR_nameDef](은)는 [problems]에 대해 [RECIPIENT_nameDef](을)를 도움.</li>
@@ -31,7 +58,14 @@
     <li>problems->최근의 어려움들</li>
   </Counsel_Success.logRulesInitiator.rulesStrings>
   
+  <!-- EN: preached health -->
   <PreachHealth.label>건강 상담</PreachHealth.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
+    <li>preaching_topic->reasons to live</li>
+    <li>preaching_topic->higher ideoligious goals</li>
+    <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
+  -->
   <PreachHealth.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [preaching_topic]에 대해 설교하여 [RECIPIENT_nameDef]의 건강을 챙기게 함.</li>
     <li>preaching_topic->살아갈 이유</li>
@@ -39,12 +73,35 @@
     <li>preaching_topic->[RECIPIENT_possessive] 존재 목적</li>
   </PreachHealth.logRulesInitiator.rulesStrings>
   
+  <!-- EN: reassurance -->
   <Reassure.label>사상 교육</Reassure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
+  -->
   <Reassure.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]의 믿음을 보강해줌.</li>
   </Reassure.logRulesInitiator.rulesStrings>
   
+  <!-- EN: accuse -->
   <Trial_Accuse.label>고발</Trial_Accuse.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] presented some evidence.</li>
+    <li>r_logentry->[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>
+    <li>r_logentry->[INITIATOR_nameDef] accused [RECIPIENT_nameDef] of [wrongdoing].</li>
+    <li>wrongdoing->sabotaging the colony</li>
+    <li>wrongdoing->being lazy</li>
+    <li>wrongdoing->eating too much</li>
+    <li>wrongdoing->stealing</li>
+    <li>wrongdoing->being a horrible person</li>
+    <li>wrongdoing->disrespecting sacred ideas</li>
+    <li>wrongdoing->disrespecting respected figures</li>
+    <li>wrongdoing->heresy</li>
+    <li>wrongdoing->murder</li>
+    <li>wrongdoing->blasphemy</li>
+    <li>wrongdoing->treason</li>
+    <li>wrongdoing->hateful thinking</li>
+    <li>wrongdoing->disloyalty</li>
+  -->
   <Trial_Accuse.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](은)는 몇 가지 증거를 제시함.</li>
     <li>r_logentry->[INITIATOR_nameDef](은)는 관전자들의 감정에 호소함.</li>
@@ -64,7 +121,17 @@
     <li>wrongdoing->충성스럽지 못하다는</li>
   </Trial_Accuse.logRulesInitiator.rulesStrings>
   
+  <!-- EN: defend -->
   <Trial_Defend.label>변호</Trial_Defend.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] deflected the accusation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] presented another interpretation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pleaded to jury.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called for mercy.</li>
+    <li>r_logentry->[INITIATOR_nameDef] stalled the proceedings.</li>
+    <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
+  -->
   <Trial_Defend.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 고발을 모면함.</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 다른 해석을 제시함.</li>
@@ -75,8 +142,13 @@
     <li>r_logentry->[INITIATOR_nameDef](이)가 재판이 사기라고 주장함.</li>
   </Trial_Defend.logRulesInitiator.rulesStrings>
   
+  <!-- EN: work drive -->
   <WorkDrive.label>작업 격려</WorkDrive.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
+  -->
   <WorkDrive.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 정착지의 이익을 위해 더 열심히 일해줄 것을 요청함.</li>
   </WorkDrive.logRulesInitiator.rulesStrings>
+  
 </LanguageData>

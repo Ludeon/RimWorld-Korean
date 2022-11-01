@@ -1,113 +1,224 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <BlindingCeremony.roles.0.label>목표</BlindingCeremony.roles.0.label>
-  <BlindingCeremony.roles.0.missingDesc>대상자</BlindingCeremony.roles.0.missingDesc>
-  <BlindingCeremony.roles.1.label>집도자</BlindingCeremony.roles.1.label>
-  <BlindingCeremony.roles.1.missingDesc>실명 집도자</BlindingCeremony.roles.1.missingDesc>
-  <BlindingCeremony.stages.0.failTriggers.0.desc>목표에 도달할 수 없습니다.</BlindingCeremony.stages.0.failTriggers.0.desc>
   
+  <!-- EN: target -->
+  <BlindingCeremony.roles.0.label>목표</BlindingCeremony.roles.0.label>
+  <!-- EN: the person to blind -->
+  <BlindingCeremony.roles.0.missingDesc>대상자</BlindingCeremony.roles.0.missingDesc>
+  <!-- EN: cutter -->
+  <BlindingCeremony.roles.1.label>집도자</BlindingCeremony.roles.1.label>
+  <!-- EN: the person who performs the blinding -->
+  <BlindingCeremony.roles.1.missingDesc>실명 집도자</BlindingCeremony.roles.1.missingDesc>
+  <!-- EN: Target is not reachable. -->
+  <BlindingCeremony.stages.0.failTriggers.0.desc>목표에 도달할 수 없습니다.</BlindingCeremony.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <BlindingCeremony.stages.0.failTriggers.1.desc>호위 잠듦</BlindingCeremony.stages.0.failTriggers.1.desc>
+  
+  <!-- EN: participate -->
   <BurnCircle.spectatorGerund>참여자</BurnCircle.spectatorGerund>
+  <!-- EN: Participants -->
   <BurnCircle.spectatorsLabel>참여자</BurnCircle.spectatorsLabel>
   
+  <!-- EN: participate -->
   <CelebrationPartyDanceDrum.spectatorGerund>참여자</CelebrationPartyDanceDrum.spectatorGerund>
+  <!-- EN: Participants -->
   <CelebrationPartyDanceDrum.spectatorsLabel>참여자</CelebrationPartyDanceDrum.spectatorsLabel>
+  <!-- EN: Campfire is missing. -->
   <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>모닥불 없음.</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
+  <!-- EN: Campfire is not lit. -->
   <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>모닥불이 꺼져 있습니다.</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
+  <!-- EN: No drums. -->
   <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>북이 없습니다.</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
   
+  <!-- EN: participate -->
   <CelebrationSkyLanterns.spectatorGerund>참여자</CelebrationSkyLanterns.spectatorGerund>
+  <!-- EN: Participants -->
   <CelebrationSkyLanterns.spectatorsLabel>참여자</CelebrationSkyLanterns.spectatorsLabel>
   
+  <!-- EN: participate -->
   <CelebrationTree.spectatorGerund>참여자</CelebrationTree.spectatorGerund>
+  <!-- EN: Participants -->
   <CelebrationTree.spectatorsLabel>참여자</CelebrationTree.spectatorsLabel>
   
+  <!-- EN: speaker -->
   <Conversion.roles.0.label>연설자</Conversion.roles.0.label>
+  <!-- EN: convertee -->
   <Conversion.roles.1.label>교화 대상</Conversion.roles.1.label>
+  <!-- EN: Prisoner is not reachable. -->
   <Conversion.stages.0.failTriggers.0.desc>수감자가 접근할 수 없는 위치에 있습니다.</Conversion.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <Conversion.stages.0.failTriggers.1.desc>호위 잠듦</Conversion.stages.0.failTriggers.1.desc>
   
+  <!-- EN: participate -->
   <DancePartyTech.spectatorGerund>참여자</DancePartyTech.spectatorGerund>
+  <!-- EN: Participants -->
   <DancePartyTech.spectatorsLabel>참여자</DancePartyTech.spectatorsLabel>
+  <!-- EN: Lightball is missing. -->
   <DancePartyTech.stages.0.failTriggers.0.desc>미러볼 없음.</DancePartyTech.stages.0.failTriggers.0.desc>
+  <!-- EN: Lightball is not powered. -->
   <DancePartyTech.stages.0.failTriggers.1.desc>미러볼에 전력이 공급되지 않습니다.</DancePartyTech.stages.0.failTriggers.1.desc>
+  <!-- EN: No powered loudspeakers. -->
   <DancePartyTech.stages.0.failTriggers.2.desc>전력이 공급되는 대형스피커가 없습니다.</DancePartyTech.stages.0.failTriggers.2.desc>
   
+  <!-- EN: speaker -->
   <DateRitual.roles.0.label>연설자</DateRitual.roles.0.label>
+  <!-- EN: participate -->
   <DateRitual.spectatorGerund>참여자</DateRitual.spectatorGerund>
+  <!-- EN: Participants -->
   <DateRitual.spectatorsLabel>참여자</DateRitual.spectatorsLabel>
+  <!-- EN: {0}: The speech is over, and the party is beginning. -->
   <DateRitual.stages.0.postAction.text>{0}: 연설이 끝났습니다. 파티가 시작됩니다.</DateRitual.stages.0.postAction.text>
   
+  <!-- EN: executioner -->
   <Execution.roles.0.label>처형자</Execution.roles.0.label>
+  <!-- EN: an executioner -->
   <Execution.roles.0.missingDesc>처형자</Execution.roles.0.missingDesc>
+  <!-- EN: prisoner -->
   <Execution.roles.1.label>수감자</Execution.roles.1.label>
+  <!-- EN: a prisoner -->
   <Execution.roles.1.missingDesc>수감자</Execution.roles.1.missingDesc>
+  <!-- EN: Spectators must be willing to watch the execution. -->
   <Execution.spectatorFilter.description>관전자들이 처형을 관전하길 원해야 합니다.</Execution.spectatorFilter.description>
+  <!-- EN: Prisoner is not reachable. -->
   <Execution.stages.0.failTriggers.0.desc>수감자가 접근할 수 없는 위치에 있습니다.</Execution.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <Execution.stages.0.failTriggers.1.desc>호위 잠듦</Execution.stages.0.failTriggers.1.desc>
   
+  <!-- EN: participate -->
   <FeastCannibal.spectatorGerund>참여자</FeastCannibal.spectatorGerund>
+  <!-- EN: Participants -->
   <FeastCannibal.spectatorsLabel>참여자</FeastCannibal.spectatorsLabel>
   
+  <!-- EN: speaker -->
   <Funeral.roles.0.label>연설자</Funeral.roles.0.label>
   
+  <!-- EN: speaker -->
   <GladiatorDuel.roles.0.label>연설자</GladiatorDuel.roles.0.label>
+  <!-- EN: duelist -->
   <GladiatorDuel.roles.1.label>격투가</GladiatorDuel.roles.1.label>
+  <!-- EN: duelists -->
   <GladiatorDuel.roles.1.categoryLabel>결투자</GladiatorDuel.roles.1.categoryLabel>
+  <!-- EN: prisoners / slaves (duelists) -->
   <GladiatorDuel.roles.1.missingDesc>수감자 / 노예 (결투자)</GladiatorDuel.roles.1.missingDesc>
+  <!-- EN: duelist -->
   <GladiatorDuel.roles.2.label>격투가</GladiatorDuel.roles.2.label>
+  <!-- EN: duelists -->
   <GladiatorDuel.roles.2.categoryLabel>결투자</GladiatorDuel.roles.2.categoryLabel>
+  <!-- EN: prisoners / slaves (duelists) -->
   <GladiatorDuel.roles.2.missingDesc>수감자 / 노예 (결투자)</GladiatorDuel.roles.2.missingDesc>
+  <!-- EN: duelist escort -->
   <GladiatorDuel.roles.3.label>결투이송인</GladiatorDuel.roles.3.label>
+  <!-- EN: duelist escorts -->
   <GladiatorDuel.roles.3.categoryLabel>결투이송인</GladiatorDuel.roles.3.categoryLabel>
+  <!-- EN: non-downed colonists capable of hauling -->
   <GladiatorDuel.roles.3.missingDesc>운반할 수 있는 쓰러지지 않은 정착민</GladiatorDuel.roles.3.missingDesc>
+  <!-- EN: duelist escort -->
   <GladiatorDuel.roles.4.label>결투이송인</GladiatorDuel.roles.4.label>
+  <!-- EN: duelist escorts -->
   <GladiatorDuel.roles.4.categoryLabel>결투이송인</GladiatorDuel.roles.4.categoryLabel>
+  <!-- EN: non-downed colonists capable of hauling -->
   <GladiatorDuel.roles.4.missingDesc>운반할 수 있는 쓰러지지 않은 정착민</GladiatorDuel.roles.4.missingDesc>
+  <!-- EN: participate -->
   <GladiatorDuel.spectatorGerund>참여자</GladiatorDuel.spectatorGerund>
+  <!-- EN: Spectators -->
   <GladiatorDuel.spectatorsLabel>관전자</GladiatorDuel.spectatorsLabel>
+  <!-- EN: Duelist is not reachable. -->
   <GladiatorDuel.stages.2.failTriggers.0.desc>결투자가 접근할 수 없는 위치에 있습니다.</GladiatorDuel.stages.2.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <GladiatorDuel.stages.2.failTriggers.1.desc>호위 잠듦</GladiatorDuel.stages.2.failTriggers.1.desc>
+  <!-- EN: escort asleep -->
+  <GladiatorDuel.stages.2.failTriggers.2.desc>호위 잠듦</GladiatorDuel.stages.2.failTriggers.2.desc>
   
+  <!-- EN: {SPEAKER_labelShort} is giving a {RITUAL_labelIndef}.\n      \nIf all goes well, listeners will feel inspired, and gain respect for {SPEAKER_labelShort}. If it goes poorly, the speech will do social damage. Positive effects are reduced for non-{IDEOMEMBERS}. -->
   <LeaderSpeech.letterText>{SPEAKER_labelShort}(이)가 {RITUAL_labelIndef}(을)를 진행하고 있습니다.\n      \n아무 문제 없이 진행된다면 청자들은 영감을 받고, {SPEAKER_labelShort}에 대한 존경심을 얻게될 것입니다. 만약 진행이 제대로 되지 않는다면, 연설은 사회적으로 부정적인 영향을 끼칠것입니다. 다른 사상을 가진이들에게는 긍정적인 효과가 반감됩니다.</LeaderSpeech.letterText>
+  <!-- EN: {RITUAL_labelCap} -->
   <LeaderSpeech.letterTitle>{RITUAL_labelCap}</LeaderSpeech.letterTitle>
+  <!-- EN: speaker -->
   <LeaderSpeech.roles.0.label>연설자</LeaderSpeech.roles.0.label>
   
+  <!-- EN: role changer -->
   <RoleChange.roles.0.label>지위 변경자</RoleChange.roles.0.label>
+  <!-- EN: a role changer -->
   <RoleChange.roles.0.missingDesc>지위 변경자</RoleChange.roles.0.missingDesc>
+  <!-- EN: spectate -->
   <RoleChange.spectatorGerund>관전</RoleChange.spectatorGerund>
+  <!-- EN: Spectators -->
   <RoleChange.spectatorsLabel>관전자</RoleChange.spectatorsLabel>
   
+  <!-- EN: cutter -->
   <SacrificeAnimal.roles.0.label>집도자</SacrificeAnimal.roles.0.label>
+  <!-- EN: sacrifice -->
   <SacrificeAnimal.roles.1.label>산제물</SacrificeAnimal.roles.1.label>
+  <!-- EN: an animal with body size of at least 0.8 -->
   <SacrificeAnimal.roles.1.missingDesc>몸 크기가 0.8 이상인 동물</SacrificeAnimal.roles.1.missingDesc>
+  <!-- EN: participate -->
   <SacrificeAnimal.spectatorGerund>참여자</SacrificeAnimal.spectatorGerund>
+  <!-- EN: Participants -->
   <SacrificeAnimal.spectatorsLabel>참여자</SacrificeAnimal.spectatorsLabel>
+  <!-- EN: Animal is not reachable. -->
   <SacrificeAnimal.stages.0.failTriggers.0.desc>동물에게 도달할 수 없습니다.</SacrificeAnimal.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <SacrificeAnimal.stages.0.failTriggers.1.desc>호위 잠듦</SacrificeAnimal.stages.0.failTriggers.1.desc>
   
+  <!-- EN: cutter -->
   <SacrificePrisoner.roles.0.label>집도자</SacrificePrisoner.roles.0.label>
+  <!-- EN: sacrifice -->
   <SacrificePrisoner.roles.1.label>산제물</SacrificePrisoner.roles.1.label>
+  <!-- EN: a prisoner -->
   <SacrificePrisoner.roles.1.missingDesc>수감자</SacrificePrisoner.roles.1.missingDesc>
+  <!-- EN: participate -->
   <SacrificePrisoner.spectatorGerund>참여자</SacrificePrisoner.spectatorGerund>
+  <!-- EN: Participants -->
   <SacrificePrisoner.spectatorsLabel>참여자</SacrificePrisoner.spectatorsLabel>
+  <!-- EN: Prisoner is not reachable. -->
   <SacrificePrisoner.stages.0.failTriggers.0.desc>수감자가 접근할 수 없는 위치에 있습니다.</SacrificePrisoner.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <SacrificePrisoner.stages.0.failTriggers.1.desc>호위 잠듦</SacrificePrisoner.stages.0.failTriggers.1.desc>
   
+  <!-- EN: target -->
   <ScarificationCeremony.roles.0.label>목표</ScarificationCeremony.roles.0.label>
+  <!-- EN: the person to scarify -->
   <ScarificationCeremony.roles.0.missingDesc>겁주는 사람</ScarificationCeremony.roles.0.missingDesc>
+  <!-- EN: cutter -->
   <ScarificationCeremony.roles.1.label>절단자</ScarificationCeremony.roles.1.label>
+  <!-- EN: the person who performs the scarification -->
   <ScarificationCeremony.roles.1.missingDesc>상흔 문신을 새기는 사람</ScarificationCeremony.roles.1.missingDesc>
+  <!-- EN: Target is not reachable. -->
   <ScarificationCeremony.stages.0.failTriggers.0.desc>목표에 도달할 수 없습니다.</ScarificationCeremony.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <ScarificationCeremony.stages.0.failTriggers.1.desc>호위 잠듦</ScarificationCeremony.stages.0.failTriggers.1.desc>
   
+  <!-- EN: participate -->
   <SmokeCircle.spectatorGerund>참여자</SmokeCircle.spectatorGerund>
+  <!-- EN: Participants -->
   <SmokeCircle.spectatorsLabel>참여자</SmokeCircle.spectatorsLabel>
   
+  <!-- EN: connector -->
   <TreeConnection.roles.0.label>교감자</TreeConnection.roles.0.label>
+  <!-- EN: Only adults can connect to the Gauranlen tree. -->
+  <TreeConnection.roles.0.customChildDisallowMessage>성인만 요정나무와 결속할 수 있습니다.</TreeConnection.roles.0.customChildDisallowMessage>
+  <!-- EN: spectate -->
   <TreeConnection.spectatorGerund>관전</TreeConnection.spectatorGerund>
+  <!-- EN: Spectators -->
   <TreeConnection.spectatorsLabel>관전자</TreeConnection.spectatorsLabel>
   
+  <!-- EN: judge -->
   <Trial.roles.0.label>판사</Trial.roles.0.label>
+  <!-- EN: convict -->
   <Trial.roles.1.label>피고인</Trial.roles.1.label>
   
+  <!-- EN: judge -->
   <TrialMentalState.roles.0.label>판사</TrialMentalState.roles.0.label>
+  <!-- EN: convict -->
   <TrialMentalState.roles.1.label>피고인</TrialMentalState.roles.1.label>
   
+  <!-- EN: judge -->
   <TrialPrisoner.roles.0.label>판사</TrialPrisoner.roles.0.label>
+  <!-- EN: convict -->
   <TrialPrisoner.roles.1.label>피고인</TrialPrisoner.roles.1.label>
+  <!-- EN: Convicted prisoner is not reachable. -->
   <TrialPrisoner.stages.0.failTriggers.0.desc>수감자가 접근할 수 없는 위치에 있습니다.</TrialPrisoner.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <TrialPrisoner.stages.0.failTriggers.1.desc>호위 잠듦</TrialPrisoner.stages.0.failTriggers.1.desc>
+  
 </LanguageData>

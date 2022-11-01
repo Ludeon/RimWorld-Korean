@@ -15,15 +15,15 @@
   -->
   <NamerArchipelago.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[narrative_name] 섬</li>
-    <li>terrain_word(p=4)->열도</li>
-    <li>terrain_word(p=3)->군도</li>
-    <li>terrain_word(p=3)->군도</li>
+    <li>terrain_word(p=4)->섬</li>
+    <li>terrain_word(p=3)->섬</li>
+    <li>terrain_word(p=3)->열도</li>
     <li>terrain_word->암초</li>
     <li>terrain_word->산호섬</li>
     <li>terrain_word->바위섬</li>
-    <li>terrain_word->섬</li>
-    <li>terrain_word->포인트</li>
-    <li>terrain_word->열도</li>
+    <li>terrain_word->작은 섬</li>
+    <li>terrain_word->지점</li>
+    <li>terrain_word->군도</li>
   </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
@@ -61,7 +61,7 @@
     <li>terrain_word->만</li>
     <li>terrain_word->만</li>
     <li>terrain_word->정박지</li>
-    <li>terrain_word->만</li>
+    <li>terrain_word->해안 입구</li>
   </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -75,8 +75,8 @@
   -->
   <NamerBorealForest.rulePack.rulesStrings>
     <li>terrain_word(p=6)->숲</li>
-    <li>terrain_word(p=3)->타이가</li>
-    <li>terrain_word->숲</li>
+    <li>terrain_word(p=3)->침엽수림</li>
+    <li>terrain_word->작은 숲</li>
     <li>terrain_word->삼림지대</li>
     <li>terrain_word->숲</li>
     <li>terrain_word->관목림</li>
@@ -108,25 +108,25 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerDesert.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[desert_adjective] [narrative_name] 사막</li>
-    <li>desert_adjective->황토빛의</li>
+    <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
+    <li>desert_adjective->평평한</li>
     <li>desert_adjective->하얀</li>
     <li>desert_adjective->끝없는</li>
     <li>desert_adjective->무정한</li>
-    <li>desert_adjective->모래바람의</li>
-    <li>desert_adjective->드넓은</li>
+    <li>desert_adjective->말라붙은</li>
+    <li>desert_adjective->마른</li>
     <li>desert_adjective->광활한</li>
     <li>desert_adjective->작렬하는</li>
-    <li>desert_adjective->작렬하는</li>
+    <li>desert_adjective->양지바른</li>
+    <li>desert_adjective->눈부신</li>
     <li>desert_adjective->뜨거운</li>
-    <li>desert_adjective->뜨거운</li>
-    <li>desert_adjective->메마른</li>
-    <li>desert_adjective->메마른</li>
-    <li>desert_adjective->소금바람의</li>
+    <li>desert_adjective->눅눅한</li>
+    <li>desert_adjective->모래빛의</li>
+    <li>desert_adjective->바위가 많은</li>
     <li>terrain_word(p=6)->사막</li>
     <li>terrain_word->고원</li>
     <li>terrain_word->대평원</li>
-    <li>terrain_word->습지</li>
+    <li>terrain_word->분지</li>
     <li>terrain_word->황무지</li>
     <li>terrain_word->황무지</li>
     <li>terrain_word->불모지</li>
@@ -140,7 +140,7 @@
   -->
   <NamerForest.rulePack.rulesStrings>
     <li>terrain_word(p=6)->숲</li>
-    <li>terrain_word->숲</li>
+    <li>terrain_word->작은 숲</li>
     <li>terrain_word->삼림지대</li>
     <li>terrain_word->수목지대</li>
   </NamerForest.rulePack.rulesStrings>
@@ -157,11 +157,11 @@
   -->
   <NamerIceSheet.rulePack.rulesStrings>
     <li>terrain_word->빙원</li>
-    <li>terrain_word->대평야</li>
+    <li>terrain_word->대빙원</li>
     <li>terrain_word(p=0.5)->빙상</li>
+    <li>terrain_word(p=0.3)->설원</li>
     <li>terrain_word(p=0.3)->빙원</li>
-    <li>terrain_word(p=0.3)->빙원</li>
-    <li>terrain_word(p=0.3)->빙원</li>
+    <li>terrain_word(p=0.3)->설원</li>
     <li>terrain_word(p=0.3)->빙상</li>
     <li>terrain_word(p=0.3)->빙원</li>
   </NamerIceSheet.rulePack.rulesStrings>
@@ -183,8 +183,8 @@
     <li>terrain_word->암초</li>
     <li>terrain_word->산호섬</li>
     <li>terrain_word->바위섬</li>
-    <li>terrain_word->섬</li>
-    <li>terrain_word->포인트</li>
+    <li>terrain_word->작은 섬</li>
+    <li>terrain_word->지점</li>
   </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -201,9 +201,9 @@
   <NamerLake.rulePack.rulesStrings>
     <li>r_name->[narrative_name] 호수</li>
     <li>terrain_word(p=6)->호수</li>
-    <li>terrain_word->호수</li>
-    <li>terrain_word->호수</li>
-    <li>terrain_word->습지</li>
+    <li>terrain_word->해</li>
+    <li>terrain_word->못</li>
+    <li>terrain_word->유역</li>
     <li>terrain_word->저수지</li>
     <li>terrain_word(p=0.3)->물 웅덩이</li>
     <li>terrain_word(p=0.3)->석호</li>
@@ -220,11 +220,11 @@
   -->
   <NamerMountainRange.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[narrative_name] 산맥</li>
-    <li>terrain_word(p=5)->산맥</li>
+    <li>terrain_word(p=5)->산</li>
     <li>terrain_word(p=2)->산악지대</li>
-    <li>terrain_word->산맥</li>
+    <li>terrain_word->봉우리</li>
     <li>terrain_word->언덕지대</li>
-    <li>terrain_word->구릉지대</li>
+    <li>terrain_word->절벽</li>
   </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
@@ -247,7 +247,7 @@
     <li>terrain_word->expanse</li>
   -->
   <NamerOcean.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name] 대양</li>
+    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
     <li>ocean_adjective->푸른</li>
     <li>ocean_adjective->하얀</li>
     <li>ocean_adjective->잿빛의</li>
@@ -263,7 +263,7 @@
     <li>ocean_adjective->온화한</li>
     <li>terrain_word(p=6)->대양</li>
     <li>terrain_word(p=3)->해</li>
-    <li>terrain_word->대평야</li>
+    <li>terrain_word->대양</li>
   </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
@@ -281,7 +281,7 @@
     <li>terrain_word(p=5)->반도</li>
     <li>terrain_word(p=2)->지점</li>
     <li>terrain_word->곶</li>
-    <li>terrain_word->두렁</li>
+    <li>terrain_word->곶</li>
     <li>terrain_word->뿔</li>
   </NamerPeninsula.rulePack.rulesStrings>
   
@@ -294,8 +294,8 @@
   <NamerSea.rulePack.rulesStrings>
     <li>r_name(p=0.1)->[narrative_name] 호수</li>
     <li>terrain_word(p=6)->해</li>
+    <li>terrain_word->대양</li>
     <li>terrain_word->해</li>
-    <li>terrain_word->호수</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
@@ -320,22 +320,22 @@
   -->
   <NamerSwamp.rulePack.rulesStrings>
     <li>r_name(p=0.1)->[narrative_name] 습지</li>
-    <li>r_name(p=0.3)->[narrative_name] [swamp_adjective]</li>
-    <li>swamp_adjective->늪지</li>
-    <li>swamp_adjective->습지</li>
-    <li>swamp_adjective->진창 늪</li>
-    <li>swamp_adjective->덩굴 습지</li>
-    <li>swamp_adjective->썩은 습지</li>
-    <li>swamp_adjective->썩어가는 습지</li>
-    <li>swamp_adjective->빽빽한 습지</li>
-    <li>swamp_adjective->덩굴 습지</li>
-    <li>swamp_adjective->습지</li>
+    <li>r_name(p=0.3)->[swamp_adjective] [narrative_name]</li>
+    <li>swamp_adjective->젖은</li>
+    <li>swamp_adjective->안개 짙은</li>
+    <li>swamp_adjective->숨 못 쉬는</li>
+    <li>swamp_adjective->썩은</li>
+    <li>swamp_adjective->썩어가는</li>
+    <li>swamp_adjective->너무 커진</li>
+    <li>swamp_adjective->빽빽한</li>
+    <li>swamp_adjective->덩굴</li>
+    <li>swamp_adjective->가시 돋친</li>
     <li>terrain_word(p=6)->늪</li>
     <li>terrain_word->습지</li>
     <li>terrain_word->습지</li>
     <li>terrain_word->늪</li>
-    <li>terrain_word->늪지</li>
-    <li>terrain_word->습지</li>
+    <li>terrain_word->수렁</li>
+    <li>terrain_word->저습지</li>
     <li>terrain_word->습지</li>
   </NamerSwamp.rulePack.rulesStrings>
   
@@ -356,18 +356,18 @@
     <li>terrain_word->tangle</li>
   -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[narrative_name] [rainforest_adjective]</li>
-    <li>rainforest_adjective->열대림</li>
-    <li>rainforest_adjective->정글</li>
-    <li>rainforest_adjective->열대지역</li>
-    <li>rainforest_adjective->정글지대</li>
-    <li>rainforest_adjective->정글 숲</li>
-    <li>rainforest_adjective->열대림</li>
-    <li>rainforest_adjective->정글지대</li>
-    <li>terrain_word(p=6)->열대림</li>
+    <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+    <li>rainforest_adjective->젖은</li>
+    <li>rainforest_adjective->안개 짙은</li>
+    <li>rainforest_adjective->숨 못 쉬는</li>
+    <li>rainforest_adjective->너무 커진</li>
+    <li>rainforest_adjective->빽빽한</li>
+    <li>rainforest_adjective->덩굴</li>
+    <li>rainforest_adjective->가시 돋친</li>
+    <li>terrain_word(p=6)->열대우림</li>
     <li>terrain_word(p=3)->정글</li>
-    <li>terrain_word->열대림</li>
     <li>terrain_word->숲</li>
+    <li>terrain_word->작은 숲</li>
     <li>terrain_word->삼림지대</li>
     <li>terrain_word->관목림</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
@@ -389,7 +389,7 @@
   <NamerTundra.rulePack.rulesStrings>
     <li>terrain_word(p=4)->고원</li>
     <li>terrain_word(p=4)->불모지</li>
-    <li>terrain_word(p=2)->타이가</li>
+    <li>terrain_word(p=2)->침엽수림</li>
     <li>terrain_word->관목</li>
     <li>terrain_word->관목지</li>
     <li>terrain_word->관목지대</li>
@@ -463,17 +463,17 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[terrain_word] [narrative_name]</li>
+    <li>r_name->[narrative_name] [terrain_word]</li>
     <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
     <li>narrative_name(p=12)->[WordTribal]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
-    <li>narrative_name->[Color][NaturalObject]</li>
-    <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
+    <li>narrative_name->[Color] [NaturalObject]</li>
+    <li>narrative_name->[AdjectiveNatural] [BodyPart]</li>
     <li>narrative_name->[Animal]</li>
     <li>narrative_name->[Color]</li>
-    <li>narrative_name->[Color][Animal]</li>
-    <li>narrative_name->[AdjectiveNatural][Animal]</li>
-    <li>narrative_name->[Animal][BodyPart]</li>
+    <li>narrative_name->[Color] [Animal]</li>
+    <li>narrative_name->[AdjectiveNatural] [Animal]</li>
+    <li>narrative_name->[Animal] [BodyPart]</li>
     <li>narrative_name->[Color] [Animal]</li>
     <li>narrative_name->[AdjectiveNatural] [Animal]</li>
     <li>narrative_name->[Animal] [BodyPart]</li>

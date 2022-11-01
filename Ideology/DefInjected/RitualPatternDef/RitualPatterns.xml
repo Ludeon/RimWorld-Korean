@@ -1,61 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <BlindingCeremony.ritualExpectedPostfix>{0}명의 {1}(이)가 가급적 빨리 실명하기를 원합니다.</BlindingCeremony.ritualExpectedPostfix>
   
+  <!-- EN: A ritualistic burning of a hated symbol. Participants will gather around a sacrificial structure, light it on fire, and celebrate as it burns to ash. -->
   <BurnCircle.descOverride>증오의 상징을 불태우는 행사입니다. 참여자들은 희생제 구조물 주위에 모여 증오의 상징에 불을 붙이고 재가 될 때까지 즐길 것입니다.</BurnCircle.descOverride>
-  <BurnCircle.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</BurnCircle.ritualExpectedDesc>
-  <BurnCircle.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</BurnCircle.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <BurnCircle.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</BurnCircle.ritualExpectedDesc>
+  <!-- EN: symbol burning -->
   <BurnCircle.shortDescOverride>상징 태우기</BurnCircle.shortDescOverride>
   
-  <CelebrationPartyChat.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</CelebrationPartyChat.ritualExpectedDesc>
-  <CelebrationPartyChat.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</CelebrationPartyChat.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationPartyChat.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</CelebrationPartyChat.ritualExpectedDesc>
   
+  <!-- EN: A dance party with drums. Participants will gather, socialize, play drums, and dance to have fun and connect with each other. -->
   <CelebrationPartyDanceDrum.descOverride>북과 함께 하는 댄스 파티입니다. 참가자들은 모여서 참여자들은 어울려 북을 치고 춤추고 즐기며 교감합니다.</CelebrationPartyDanceDrum.descOverride>
-  <CelebrationPartyDanceDrum.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</CelebrationPartyDanceDrum.ritualExpectedDesc>
-  <CelebrationPartyDanceDrum.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</CelebrationPartyDanceDrum.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationPartyDanceDrum.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</CelebrationPartyDanceDrum.ritualExpectedDesc>
+  <!-- EN: drum party -->
   <CelebrationPartyDanceDrum.shortDescOverride>북 파티</CelebrationPartyDanceDrum.shortDescOverride>
   
+  <!-- EN: A dance party with loud music. Participants will gather, socialize, and dance to have fun and connect with each other. -->
   <CelebrationPartyDanceTech.descOverride>시끄러운 음악과 함께하는 댄스 파티입니다. 참여자들은 어울려 춤추고 즐기며 교감합니다.</CelebrationPartyDanceTech.descOverride>
-  <CelebrationPartyDanceTech.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</CelebrationPartyDanceTech.ritualExpectedDesc>
-  <CelebrationPartyDanceTech.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</CelebrationPartyDanceTech.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationPartyDanceTech.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</CelebrationPartyDanceTech.ritualExpectedDesc>
+  <!-- EN: dance party -->
   <CelebrationPartyDanceTech.shortDescOverride>무도회</CelebrationPartyDanceTech.shortDescOverride>
   
+  <!-- EN: A social ritual where people release skylanterns. Participants will assemble wooden skylanterns while socializing, then release them and watch them drift away. -->
   <CelebrationSkyLanterns.descOverride>풍등을 날리는 행사입니다. 참여자들은 함께 목재 풍등을 만들고 띄우며 즐길 것입니다.</CelebrationSkyLanterns.descOverride>
-  <CelebrationSkyLanterns.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</CelebrationSkyLanterns.ritualExpectedDesc>
-  <CelebrationSkyLanterns.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</CelebrationSkyLanterns.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationSkyLanterns.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</CelebrationSkyLanterns.ritualExpectedDesc>
+  <!-- EN: skylantern festival -->
   <CelebrationSkyLanterns.shortDescOverride>풍등 축제</CelebrationSkyLanterns.shortDescOverride>
   
+  <!-- EN: A party around a Christmas tree. Participants will gather around a Christmas tree and make merry. -->
   <CelebrationTree.descOverride>성탄 나무 주변에서 하는 파티입니다. 참여자들은 나무 주변에 모여 즐거운 시간을 보낼 것입니다.</CelebrationTree.descOverride>
-  <CelebrationTree.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</CelebrationTree.ritualExpectedDesc>
-  <CelebrationTree.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</CelebrationTree.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationTree.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</CelebrationTree.ritualExpectedDesc>
+  <!-- EN: christmas tree party -->
   <CelebrationTree.shortDescOverride>성탄절 파티</CelebrationTree.shortDescOverride>
   
+  <!-- EN: In case of success, their certainty will be reduced or they will convert immediately. If it backfires, their certainty in own beliefs will increase. -->
   <Conversion.ritualExplanation>성공한다면 대상의 믿음을 흔들거나 바로 교화할 수 있습니다. 실패하면 역효과를 낼 것입니다.</Conversion.ritualExplanation>
   
+  <!-- EN: A ritualistic flesh-eating meal. Participants gather around a platter of human flesh and bloodily feast on it. -->
   <FeastCannibal.descOverride>인육 잔치를 즐기는 행사입니다. 참여자들은 인육이 담긴 접시 주변에 모여들어 피로 물든 잔치를 벌입니다.</FeastCannibal.descOverride>
-  <FeastCannibal.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</FeastCannibal.ritualExpectedDesc>
-  <FeastCannibal.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</FeastCannibal.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <FeastCannibal.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</FeastCannibal.ritualExpectedDesc>
+  <!-- EN: cannibal feast -->
   <FeastCannibal.shortDescOverride>식인 잔치</FeastCannibal.shortDescOverride>
   
-  <FuneralNoCorpse.ritualExpectedDesc>{IDEO} 구성원이 몸을 잃은 채로 죽으면, 다른 {MEMBERS}들은 {RITUAL_labelDef}(을)를 위해 빈 무덤 주변으로 모일 것입니다.</FuneralNoCorpse.ritualExpectedDesc>
+  <!-- EN: You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef} even though the body was lost. -->
+  <FuneralNoCorpse.ritualExpectedDesc>시체는 사라졌지만, {PAWN_nameDef}(을)를 위한 {IDEOLIGION_adjective} 장례식을 치를수 있습니다.</FuneralNoCorpse.ritualExpectedDesc>
+  <!-- EN: You can hold a funeral for {PAWN_nameDef} even though the body was lost. -->
+  <FuneralNoCorpse.ritualExpectedDescNoAdjective>시체는 사라졌지만, {PAWN_nameDef}(을)를 위한 장례식을 치를 수 있습니다.</FuneralNoCorpse.ritualExpectedDescNoAdjective>
   
-  <FuneralStandard.ritualExpectedDesc>{IDEO} 구성원이 죽으면, 다른 {MEMBERS}들은 {RITUAL_labelDef}(을)를 위해 무덤 주변으로 모일 것입니다.</FuneralStandard.ritualExpectedDesc>
-  <FuneralStandard.ritualExpectedPostfix>{0}명의 {1}(이)가 가능한 이른 시일 내에 장례식을 치르길 원합니다.</FuneralStandard.ritualExpectedPostfix>
+  <!-- EN: You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef}. -->
+  <FuneralStandard.ritualExpectedDesc>{PAWN_nameDef}(을)를 위한 {IDEOLIGION_adjective} 장례식을 실행할 수 있습니다.</FuneralStandard.ritualExpectedDesc>
+  <!-- EN: You can hold a funeral for {PAWN_nameDef}. -->
+  <FuneralStandard.ritualExpectedDescNoAdjective>{PAWN_nameDef}(을)를 위한 장례식을 실행할 수 있습니다.</FuneralStandard.ritualExpectedDescNoAdjective>
   
+  <!-- EN: A ritualistic animal sacrifice. The organizer will give a speech to excite the crowd, then cut the animal's throat. Once the animal is dead, the organizer will speak some finishing words. -->
   <SacrificeAnimal.descOverride>의식에 동물을 희생시킵니다. 수행자는 연설을 통해 군중의 흥분을 끌어낸 다음 동물의 목을 베고, 동물이 죽으면 다시 한 번 연설하며 의식을 마칠 것입니다.</SacrificeAnimal.descOverride>
-  <SacrificeAnimal.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</SacrificeAnimal.ritualExpectedDesc>
-  <SacrificeAnimal.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 희생제를 치르기 원합니다.</SacrificeAnimal.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <SacrificeAnimal.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</SacrificeAnimal.ritualExpectedDesc>
+  <!-- EN: animal sacrifice -->
   <SacrificeAnimal.shortDescOverride>동물 희생제</SacrificeAnimal.shortDescOverride>
   
+  <!-- EN: A ritualistic prisoner sacrifice. The organizer will give a speech to excite the crowd, then cut the prisoner's throat. Once the prisoner is dead, organizer will speak some finishing words. -->
   <SacrificePrisoner.descOverride>의식에 수감자를 희생시킵니다. 수행자는 연설을 통해 군중의 흥분을 끌어낸 다음 죄수의 목을 베고, 죄수가 죽으면 다시 한 번 연설하며 의식을 마칠 것입니다.</SacrificePrisoner.descOverride>
-  <SacrificePrisoner.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</SacrificePrisoner.ritualExpectedDesc>
-  <SacrificePrisoner.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 희생제를 치르기 원합니다.</SacrificePrisoner.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <SacrificePrisoner.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</SacrificePrisoner.ritualExpectedDesc>
+  <!-- EN: prisoner sacrifice -->
   <SacrificePrisoner.shortDescOverride>수감자 희생제</SacrificePrisoner.shortDescOverride>
   
-  <ScarificationCeremony.ritualExpectedPostfix>{0}명의 {1}(이)가 가능한 이른 시일 내에 상흔 문신을 새기기를 원합니다.</ScarificationCeremony.ritualExpectedPostfix>
-  
+  <!-- EN: A ritualistic smoking of large amounts of smokeleaf. Participants will gather around a burnbong or incense shrine, light it on fire, and celebrate while inhaling the fumes. -->
   <SmokeCircle.descOverride>대량의 연초잎을 태우는 행사입니다. 참여자들은 연통 주변에 모여 흡연하며 즐길 것입니다.</SmokeCircle.descOverride>
-  <SmokeCircle.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 {RITUAL_labelDef}(을)를 기념합니다.</SmokeCircle.ritualExpectedDesc>
-  <SmokeCircle.ritualExpectedPostfix>{0}명의 {1}(이)가 어서 축제를 열기 원합니다.</SmokeCircle.ritualExpectedPostfix>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <SmokeCircle.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</SmokeCircle.ritualExpectedDesc>
+  <!-- EN: smokeleaf circle -->
   <SmokeCircle.shortDescOverride>연초 운식</SmokeCircle.shortDescOverride>
+  
 </LanguageData>

@@ -1,91 +1,175 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Ideoligion forbids -->
   <IdeoligionForbids>사상이 금지함</IdeoligionForbids>
+  <!-- EN: Only {0}s can build -->
   <OnlyMembersCanBuild>{0}만 건설 가능</OnlyMembersCanBuild>
+  <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>이미 {0}(을)를 진행하고 있습니다.</CantStartRitualAlreadyInProgress>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>극단적인 온도로 인해 한 명 이상의 참여자가 참석할 수 없습니다.</CantJoinRitualInExtremeWeather>
+  <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0}(은)는 이미 행사에 참여하고 있습니다.</CantStartRitualTargetIsAlreadyInRitual>
+  <!-- EN: You must assign the role of {0} in order to start this ritual. -->
   <CantStartRitualRoleNotAssigned>이 행사를 진행하려면 {0} 지위를 할당해야 합니다.</CantStartRitualRoleNotAssigned>
+  <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
   <CantStartRitualNoConvertee>{0}(으)로 교화할 사람이 없습니다. 다른 사상을 믿는 정착민, 수감자, 노예가 필요합니다.</CantStartRitualNoConvertee>
+  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef}(은)는 {ROLE}(을)를 맡을 수 없습니다.</CantStartRitualSelectedPawnCannotBeRole>
+  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef}(이)가 {IDEO_memberName}이어야 합니다.</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef}(은)는 정신적으로 무감각합니다.</CantStartRitualSelectedPawnPsychicallyDeaf>
-  <CantStartNotEnoughSpaceDuel>공간이 부족합니다. 반지름 {MINRADIUS}칸의 원형 공간이 비어있어야 합니다.</CantStartNotEnoughSpaceDuel>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>관전자를 위한 공간이 부족합니다. 반경 {MINRADIUS}칸의 빈 원형 공간과, 공간 내 최소 {1}개의 서있을 수 있는 자리가 필요합니다.</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>결투자를 위한 공간이 부족합니다. 반경 {MINRADIUS}칸의 빈 원형 공간과, 공간 내 최소 {1}개의 서있을 수 있는 자리가 필요합니다.</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>연설자를 위한 공간이 부족합니다. 반경 {MINRADIUS}칸의 빈 원형 공간이 필요합니다.</CantStartNotEnoughSpaceDuelSpeaker>
+  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort}(은)는 노예입니다. 노예의 장례식은 진행할 수 없습니다.</CantStartFuneralForSlave>
+  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
   <NoSlaveBed>접근 가능하고, 주인이 없으며, 안전한 온도의 노예 침대가 필요합니다.</NoSlaveBed>
+  <!-- EN: Return to slave bed -->
   <ReturnToSlaveBed>노예 침대로 돌려보내기</ReturnToSlaveBed>
+  <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>이 세력에 사용할 수 없음</NotAllowedForFaction>
 
+  <!-- EN: Remove -->
   <Remove>제거</Remove>
+  <!-- EN: Remove precept -->
   <RemovePrecept>규율 제거</RemovePrecept>
+  <!-- EN: Regenerate -->
   <Regenerate>재생성</Regenerate>
+  <!-- EN: Cannot edit -->
   <CannotEdit>편집 불가</CannotEdit>
+  <!-- EN: No choices available -->
   <NoChoicesAvailable>가능한 선택지 없음</NoChoicesAvailable>
+  <!-- EN: Required by meme {0} -->
   <RequiredByMeme>{0} 가르침이 요구함</RequiredByMeme>
+  <!-- EN: Required -->
   <Required>필요</Required>
+  <!-- EN: Style category -->
   <StyleCategory>양식 범주</StyleCategory>
+  <!-- EN: Add style category -->
   <AddStyleCategory>양식 범주 추가</AddStyleCategory>
+  <!-- EN: Can't add more than {0} rituals. -->
   <MaxRitualCount>행사는 {0}개까지만 추가할 수 있습니다.</MaxRitualCount>
+  <!-- EN: Can't add more than {0} relics. -->
   <MaxRelicCount>유물은 {0}개까지만 추가할 수 있습니다.</MaxRelicCount>
+  <!-- EN: can't have more than {0} specialists. -->
   <MaxMultiRolesCount>전문가의 종류는 {0}개까지만 가능합니다.</MaxMultiRolesCount>
+  <!-- EN: max {0} -->
   <MaxPreceptCount>최대 {0}</MaxPreceptCount>
+  <!-- EN: Set gender -->
   <SetTargetGender>성별 지정</SetTargetGender>
+  <!-- EN: must be {0} faction -->
   <RoleApparelRequirementIncompatibleFaction>{0} 세력이어야 함</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
   <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>부족민</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
   <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>부족 의상 제외</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
   <RoleApparelRequirementIncompatibleAnyMemeRequired>다음 가르침 중 하나 필요</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>현재 할당한 의복과 함께 입을 수 없음</BodyPartAlreadyCovered>
-  <AlreadyAssigned>이미 할당됨</AlreadyAssigned>
+  <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>의류 요구사항을 충족하면 행복해하고, 위반하면 기분이 나빠집니다.</NoteRoleApparelRequirementEffects>
+  <!-- EN: supercharge not ready -->
   <NeuralSuperchargeNotReady>과충전이 준비되지 않음</NeuralSuperchargeNotReady>
+  <!-- EN: already getting -->
   <NeuralSuperchargeAlreadyGetting>이미 받는 중</NeuralSuperchargeAlreadyGetting>
+  <!-- EN: Set type -->
   <SetApparelType>유형 설정</SetApparelType>
 
+  <!-- EN: change style -->
   <ChangeStyle>외형 바꾸기</ChangeStyle>
+  <!-- EN: {0} {DEITYNOUN} required -->
   <DeitiesRequired>{0} {DEITYNOUN} 필요</DeitiesRequired>
+  <!-- EN: deity -->
   <Deity>신적 존재</Deity>
+  <!-- EN: requires meme -->
   <RequiresMeme>필요한 가르침</RequiresMeme>
+  <!-- EN: requires one of -->
   <RequiresOneOfMemes>다음 중 하나 필요</RequiresOneOfMemes>
+  <!-- EN: conflicts with meme -->
   <ConflictsWithMeme>충돌하는 가르침</ConflictsWithMeme>
+  <!-- EN: conflicts with memes -->
   <ConflictsWithMemes>충돌하는 가르침</ConflictsWithMemes>
+  <!-- EN: can only have one altar/ideogram -->
   <IdeoAlreadyHasAltar>오직 하나의 제단/상징문양만 보유 가능</IdeoAlreadyHasAltar>
+  <!-- EN: recolor apparel -->
   <RecolorApparel>의류 염색</RecolorApparel>
 
+  <!-- EN: Hack {0} -->
   <Hack>{0} 해킹</Hack>
+  <!-- EN: Cannot hack {0} -->
   <CannotHack>{0}(을)를 해킹할 수 없음</CannotHack>
+  <!-- EN: Already hacked -->
   <AlreadyHacked>이미 해킹함</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
   <IncapableOfHacking>해킹 불가능</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
   <ToDropSupplies>보급품 낙하를 위해</ToDropSupplies>
 
+  <!-- EN: Install {0} -->
   <InstallRelic>{0} 설치</InstallRelic>
+  <!-- EN: Extract {0} -->
   <ExtractRelic>{0} 꺼내기</ExtractRelic>
+  <!-- EN: Extract {0} to inventory ({1}) -->
   <ExtractRelicToInventory>{0}(을)를 꺼내서 소지품에 넣기({1})</ExtractRelicToInventory>
+  <!-- EN: No relic to install -->
   <NoRelicToInstall>설치할 유물 없음</NoRelicToInstall>
+  <!-- EN: Install in reliquary -->
   <InstallInReliquary>유물함에 설치</InstallInReliquary>
+  <!-- EN: no empty accessible reliquary -->
   <NoEmptyReliquary>비어있고 접근 가능한 유물함 없음</NoEmptyReliquary>
 
+  <!-- EN: No {MEMBERNAME} warden -->
   <NoWardenOfIdeo>{MEMBERNAME}의 간수 없음</NoWardenOfIdeo>
 
+  <!-- EN: Remove current role -->
   <RemoveCurrentRole>현재 지위 해임</RemoveCurrentRole>
 
-  <EnterBiosculpterPod>Enter biosculpter pod for {0} cycle ({1})</EnterBiosculpterPod>
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
+  <EnterBiosculpterPod>{0} 절차 ({1})의 생체 재구축기에 입장</EnterBiosculpterPod>
+  <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>이미 다른 사람에게 맞춤 조정됨.</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
   <UnderMinBiosculpterAgeReversalAge>노화 역전을 받으려면 {0}살 이상이어야 합니다.</UnderMinBiosculpterAgeReversalAge>
-  <CarryToBiosculpterPod>Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle)</CarryToBiosculpterPod>
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
+  <CarryToBiosculpterPod>{PAWN_labelShort}(을)를 생체 재구축기 ({CYCLE} 절차)로 이송</CarryToBiosculpterPod>
+  <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>생체 재구축기로 이송 불가</CannotCarryToBiosculpterPod>
+  <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>사용 가능한 생체 재구축기가 없습니다.</NoBiosculpterPod>
-  <BiosculpterNutritionNotLoaded>Nutrition not loaded</BiosculpterNutritionNotLoaded>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>영양분이 적재되지 않음</BiosculpterNutritionNotLoaded>
+  <!-- EN: Occupied -->
   <BiosculpterOccupied>가득 참</BiosculpterOccupied>
+  <!-- EN: Cannot enter -->
   <CannotEnter>진입 불가</CannotEnter>
-  <BiosculpterCannotStartCycle>Cannot start {0} cycle</BiosculpterCannotStartCycle>
-  <BiosculpterMissingIngredients>Cannot find cycle ingredients ({INGREDIENTS})</BiosculpterMissingIngredients>
-  <BiosculpterNoEligiblePawns>Nobody around can use this</BiosculpterNoEligiblePawns>
-  <BiosculpterNoEligiblePawnsBiotuned>Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around</BiosculpterNoEligiblePawnsBiotuned>
-  <BiosculpterAutoLoadNutritionLabel>Auto load nutrition</BiosculpterAutoLoadNutritionLabel>
-  <BiosculpterAutoLoadNutritionDescription>Automatically load the nutrition required to run a cycle</BiosculpterAutoLoadNutritionDescription>
-  <BiosculpterAutoAgeReversalLabel>Auto age reversal for {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
-  <BiosculpterAutoAgeReversalDescription>Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
-  <BiosculpterAutoAgeReversalDescriptionFuture>If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready.</BiosculpterAutoAgeReversalDescriptionFuture>
-  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled.</BiosculpterAutoAgeReversalDescriptionNow>
-  <BiosculpterJobReportCollectIngredients>Collecting ingredients for biosculpter cycle</BiosculpterJobReportCollectIngredients>
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>{0} 절차를 시작할 수 없습니다.</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>절차 구성 재료 ({INGREDIENTS})(을)를 찾을 수 없습니다.</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>사용 가능한 대상 없음</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>맞춤 조정된 {PAWN_labelShort}(이)가 근방에 없음</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>열량 자동 적재</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>절차에 필요한 열량을 자동으로 적재합니다.</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>{PAWN_labelShort}의 자동 노화 역전</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>{PAWN_labelShort}의 사상에 따라, 자동으로 이 재구축기에서 매년 노화 역전을 받습니다. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>활성화할 경우, 재구축기가 준비된 상태면 {PAWN_labelShort}(은)는 {TIME} 후 스스로 다음 노화 역전을 받습니다.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort}(이)가 이미 다음 노화 역전을 원합니다. 활성화하면 스스로 절차를 시작할 것입니다.</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>생체 재구축기 절차를 위한 재료 수집 중</BiosculpterJobReportCollectIngredients>
 </LanguageData>

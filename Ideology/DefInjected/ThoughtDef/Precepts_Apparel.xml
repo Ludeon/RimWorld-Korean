@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <WearingDesiredApparel_Soft.stages.wearing.label>{APPAREL_label} 착용</WearingDesiredApparel_Soft.stages.wearing.label>
-  <WearingDesiredApparel_Soft.stages.wearing.description>내 신념에 걸맞는 {APPAREL_indefinite}(을)를 입으니 좋아.</WearingDesiredApparel_Soft.stages.wearing.description>
   
-  <WearingDesiredApparel_Strong.stages.wearing.label>{APPAREL_label} 착용</WearingDesiredApparel_Strong.stages.wearing.label>
-  <WearingDesiredApparel_Strong.stages.wearing.description>내 신념에 걸맞는 {APPAREL_indefinite}(을)를 입으니 정말 좋아.</WearingDesiredApparel_Strong.stages.wearing.description>
+  <!-- EN: wearing {APPAREL} -->
+  <WearingDesiredApparel_Soft.stages.wearing.label>{APPAREL} 착용</WearingDesiredApparel_Soft.stages.wearing.label>
+  <!-- EN: It's good to be wearing {APPAREL} in accordance with my beliefs. -->
+  <WearingDesiredApparel_Soft.stages.wearing.description>내 신념에 걸맞는 {APPAREL}(을)를 입으니 좋아.</WearingDesiredApparel_Soft.stages.wearing.description>
+  
+  <!-- EN: wearing {APPAREL} -->
+  <WearingDesiredApparel_Strong.stages.wearing.label>{APPAREL} 착용</WearingDesiredApparel_Strong.stages.wearing.label>
+  <!-- EN: It's great to be wearing {APPAREL} in accordance with my beliefs. -->
+  <WearingDesiredApparel_Strong.stages.wearing.description>내 신념에 걸맞는 {APPAREL}(을)를 입으니 정말 좋아.</WearingDesiredApparel_Strong.stages.wearing.description>
+  
 </LanguageData>

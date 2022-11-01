@@ -1,17 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <MeditationFocusGain.label>집중명상 획득</MeditationFocusGain.label>
-  <MeditationFocusGain.description>매일 명상할 때 얻는 초집중 양으로, 집중물체의 이점은 무시됩니다.</MeditationFocusGain.description>
-  <MeditationFocusGain.formatString>{0}/일</MeditationFocusGain.formatString>
-  <MeditationFocusGain.formatStringUnfinalized>{0}/일</MeditationFocusGain.formatStringUnfinalized>
   
+  <!-- EN: neural heat gain -->
   <PsychicEntropyGain.label>신경열 누적</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on neural heat gained from any source. -->
   <PsychicEntropyGain.description>모든 상황에서 누적되는 신경열의 계수입니다.</PsychicEntropyGain.description>
   
-  <PsychicEntropyMax.label>신경열 한계</PsychicEntropyMax.label>
-  <PsychicEntropyMax.description>안전하게 견딜 수 있는 신경열의 최대량입니다.</PsychicEntropyMax.description>
-  
-  <PsychicEntropyRecoveryRate.label>신경열 회복속도</PsychicEntropyRecoveryRate.label>
-  <PsychicEntropyRecoveryRate.description>이 사람의 신경열을 낮추는 속도입니다.</PsychicEntropyRecoveryRate.description>
-  <PsychicEntropyRecoveryRate.formatString>{0}/초</PsychicEntropyRecoveryRate.formatString>
 </LanguageData>

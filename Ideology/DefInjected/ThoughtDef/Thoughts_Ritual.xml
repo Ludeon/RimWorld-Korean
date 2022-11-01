@@ -1,21 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: {RELICNAME} at ritual -->
   <RelicAtRitual.stages.at_ritual.label>{RELICNAME}와 함께 한 행사</RelicAtRitual.stages.at_ritual.label>
+  <!-- EN: {RELICNAME} was present during our ritual. -->
   <RelicAtRitual.stages.at_ritual.description>우리 행사에 {RELICNAME}(이)가 함께 했어.</RelicAtRitual.stages.at_ritual.description>
+  <!-- EN: two relics at ritual -->
   <RelicAtRitual.stages.two_relics_at_ritual.label>의식의 두 가지 유물</RelicAtRitual.stages.two_relics_at_ritual.label>
+  <!-- EN: Two relics were present during our ritual. -->
   <RelicAtRitual.stages.two_relics_at_ritual.description>우리 의식 중에 두개의 유물이 있어.</RelicAtRitual.stages.two_relics_at_ritual.description>
+  <!-- EN: three relics at ritual -->
   <RelicAtRitual.stages.three_relics_at_ritual.label>의식의 세 가지 유물</RelicAtRitual.stages.three_relics_at_ritual.label>
+  <!-- EN: Three relics were present during our ritual. -->
   <RelicAtRitual.stages.three_relics_at_ritual.description>우리 의식 중에 세 개의 유물이 있어.</RelicAtRitual.stages.three_relics_at_ritual.description>
   
-  <RitualDelayed.stages.delayed.label>{RITUAL_labelCap} 지연</RitualDelayed.stages.delayed.label>
-  <RitualDelayed.stages.delayed.description>{RITUAL_labelCapDef}(이)가 지연됐어. 진작에 시작했어야 해.</RitualDelayed.stages.delayed.description>
-  
+  <!-- EN: convicted -->
   <TrialConvicted.stages.convicted.label>부당한 선고</TrialConvicted.stages.convicted.label>
+  <!-- EN: I was unjustly convicted of a terrible wrongdoing! -->
   <TrialConvicted.stages.convicted.description>부당한 유죄 선고를 받았어! 이건 모함이야!</TrialConvicted.stages.convicted.description>
   
+  <!-- EN: exonerated -->
   <TrialExonerated.stages.exonerated.label>무죄 판결</TrialExonerated.stages.exonerated.label>
+  <!-- EN: They had nothing on me, and I showed them! -->
   <TrialExonerated.stages.exonerated.description>아무도 날 막지 못했어, 내가 증명해 냈다고!</TrialExonerated.stages.exonerated.description>
   
+  <!-- EN: failed trial -->
   <TrialFailed.stages.failed_trial.label>실패한 재판</TrialFailed.stages.failed_trial.label>
+  <!-- EN: I made an accusation and couldn't even make it stick. This is humiliating. -->
   <TrialFailed.stages.failed_trial.description>고발만 하고 아무것도 증명하지 못했어. 굴욕적이야.</TrialFailed.stages.failed_trial.description>
+  
 </LanguageData>

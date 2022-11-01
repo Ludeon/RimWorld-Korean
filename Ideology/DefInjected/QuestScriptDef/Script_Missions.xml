@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN:
+    <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] incapable of hacking.</li>
+    <li>passengersIncapableOfHackingDialogText->The shuttle for the quest '[resolvedQuestName]' has no passenger capable of hacking. You must send at least one person capable of hacking to investigate the ancient complex.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
+  -->
   <AncientComplex_Mission.questContentRules.rulesStrings>
     <li>terminalHackedMessage->단말기 해킹 {COUNT} / [terminalCount] 완료됨.</li>
     <li>passengersIncapableOfHackingDialogLabel->해킹이 가능한 [passengersSingularOrPlural](이)가 없습니다.</li>
@@ -7,6 +15,18 @@
     <li>passengersSingularOrPlural(colonistCount==1)->탑승자</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->탑승자들</li>
   </AncientComplex_Mission.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>complex->complex</li>
+    <li>complex->compound</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>complex->construction</li>
+    <li>investigation->investigation</li>
+    <li>investigation->examination</li>
+    <li>investigation->mission</li>
+    <li>investigation->excavation</li>
+    <li>investigation->hacking</li>
+  -->
   <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
     <li>complex->단지</li>
     <li>complex->복합 건물</li>
@@ -19,15 +39,27 @@
     <li>investigation->발굴</li>
     <li>investigation->해킹</li>
   </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
+  -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
     <li>questDescription->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameDef](은)는 멀리 떨어진 고대 유적지를 발견했습니다. [asker_pronoun]는 그곳에 [relic_name](으)로 알려진 유물에 대한 정보가 있다고 확신합니다.\n\n[asker_nameDef]는 탐사할 인력이 없지만, 탐사를 진행하기 위해 당신이 [colonistCount]명의 [colonistsSingularOrPlural](을)를 보내줄 수 있다고 생각합니다.\n\n유적에는 알려지지 않은 위험이 있으며, [asker_nameDef]의 적인 [enemyFaction_name] 또한 [relic_name](을)를 노리고 있습니다.\n\n[asker_pronoun](은)는 당신의 정착민들을 데려갈 왕복선을 보내고, 유적 탐사가 끝나면 다시 정착지로 돌려보낼 것이며, 이동 중에는 식사와 치료를 제공할 것입니다.\n\n착륙 후에는 [timeoutTicks_duration] 안에 유적 안의 모든 단말기를 해킹해야 합니다.</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->정착민</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->정착민들</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[missionAdj] [complex] [investigation]</li>
+    <li>missionAdj->hidden</li>
+    <li>missionAdj->covert</li>
+    <li>missionAdj->secret</li>
+  -->
   <AncientComplex_Mission.questNameRules.rulesStrings>
     <li>questName->[missionAdj] [complex] [investigation]</li>
     <li>missionAdj->숨겨진</li>
     <li>missionAdj->은밀한</li>
     <li>missionAdj->비밀의</li>
   </AncientComplex_Mission.questNameRules.rulesStrings>
+  
 </LanguageData>

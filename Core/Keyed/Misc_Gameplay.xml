@@ -201,15 +201,15 @@
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>이동 불가: 너무 무거움.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
-  <CaravanOutOfFood>식량 고갈.</CaravanOutOfFood>
+  <CaravanOutOfFood>식량 고갈</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
   <CaravanDaysOfFood>남은 식량: {0}</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>남은 식량: {0}, {1}일 내로 부패</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>남은 식량: {0} ({1}일 후 부패)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>멈춤: 모두 쓰러짐.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>멈춤: 모든 구성원 쓰러짐</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
-  <AllCaravanMembersMentalBreak>멈춤: 모든 구성원의 정신이상.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>멈춤: 모든 구성원 정신이상</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
@@ -253,7 +253,7 @@
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>{0}에게 선물 제공 중</CaravanOfferingGifts>
   <!-- EN: Trading with {0}. -->
-  <CaravanTrading>{0}(와)과 거래 중.</CaravanTrading>
+  <CaravanTrading>{0}(와)과 거래 중</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>시체에서 벗겼기 때문에 찝찝합니다.</WasWornByCorpse>
   <!-- EN: T -->
@@ -984,6 +984,8 @@
   <PowerNeeded>필요 전력량</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>전력 출력량</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>활성 상태일 때 {0} W</PowerActiveNeeded> <!-- text_todo -->
   <!-- EN: Stored -->
   <PowerBatteryStored>저장됨</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -1628,9 +1630,9 @@
   <!-- EN: Can start any time -->
   <RitualStartAnyTime>아무 때나 시작 가능</RitualStartAnyTime>
   <!-- EN: Can start after event -->
-  <RitualStartEvent>사건 발생 후 시작 가능</RitualStartEvent>
+  <RitualStartEvent>사건 후 시작 가능</RitualStartEvent>
   <!-- EN: Focus objects -->
-  <RitualFocusObjects>집중 대상</RitualFocusObjects>
+  <RitualFocusObjects>집중물체</RitualFocusObjects>
   <!-- EN: Participating roles -->
   <RitualParticipatingRoles>필요한 지위</RitualParticipatingRoles>
   <!-- EN: Organizers -->

@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN:
+    <li>r_deityType->Creator of [all]</li>
+    <li>r_deityType->[adj] god</li>
+    <li>all->everything</li>
+    <li>all->all</li>
+    <li>all->the universe</li>
+    <li>adj->all-powerful</li>
+    <li>adj->omnipotent</li>
+    <li>adj->universal</li>
+  -->
   <DietyTypeMakerAbrahamic.rulePack.rulesStrings>
     <li>r_deityType->[all]의 창조주</li>
     <li>r_deityType->[adj] 신</li>
@@ -11,6 +22,13 @@
     <li>adj->만능의</li>
   </DietyTypeMakerAbrahamic.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>r_deityName(p=3)->God</li>
+    <li>r_deityName->Christ-Lord</li>
+    <li>r_deityName->Christ</li>
+    <li>r_deityName->[color] Jesus</li>
+    <li>r_deityName->[color] Christ</li>
+  -->
   <NamerDeityChristian.rulePack.rulesStrings>
     <li>r_deityName(p=3)->하느님</li>
     <li>r_deityName->주 그리스도</li>
@@ -19,6 +37,24 @@
     <li>r_deityName->[color] 그리스도</li>
   </NamerDeityChristian.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>r_deityName(p=8)->Allah</li>
+    <li>r_deityName->Al-Ilah</li>
+    <li>r_deityName->Ar-Rahman</li>
+    <li>r_deityName->Al-Malik</li>
+    <li>r_deityName->Al-Qudus</li>
+    <li>r_deityName->As-Salam</li>
+    <li>r_deityName->Al-Mumin</li>
+    <li>r_deityName->Al-Aziz</li>
+    <li>r_deityName->Al-Jabbar</li>
+    <li>r_deityName->Al-Khaliq</li>
+    <li>r_deityName->Al-Ghaffar</li>
+    <li>r_deityName->Al-Qahar</li>
+    <li>r_deityName->Al-Wahhab</li>
+    <li>r_deityName->Al-Fattah</li>
+    <li>r_deityName->Al-Alim</li>
+    <li>r_deityName->Al-Hakam</li>
+  -->
   <NamerDeityIslamic.rulePack.rulesStrings>
     <li>r_deityName(p=8)->알라</li>
     <li>r_deityName->알라</li>
@@ -37,4 +73,5 @@
     <li>r_deityName->알알림</li>
     <li>r_deityName->알하캄</li>
   </NamerDeityIslamic.rulePack.rulesStrings>
+  
 </LanguageData>

@@ -1,181 +1,330 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Misc -->
-  <Add>추가</Add>
+  <!-- EN: Trading animal products bonus -->
   <TradingAnimalProduceBonus>축산물 거래 보너스</TradingAnimalProduceBonus>
+  <!-- EN: Slaves -->
   <SlavesSection>노예</SlavesSection>
+  <!-- EN: dominant style -->
   <DominantStyle>주요 양식</DominantStyle>
+  <!-- EN: Date -->
   <Date>날짜</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
   <RitualDevelopmentPointRewards>의식 결과에 따라 다음과 같은 발전 점수가 지급됩니다.</RitualDevelopmentPointRewards>
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>전역 양식 사용</UseGlobalStyle>
+  <!-- EN: No style variations available -->
+  <NoStylesAvailable>사용 가능한 다른 양식 없음</NoStylesAvailable>
 
+  <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>사상을 상징하는 구조를 선택하세요. 상징만 바꾸며 게임 플레이에는 영향을 주지 않습니다.</ChooseStructureMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
   <ChooseNormalMemesInfo>사상의 중심이 될 가르침을 {0}-{1}개 선택하세요.</ChooseNormalMemesInfo>
+  <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>적어도 {0}개의 가르침을 선택하세요.</NotEnoughMemes>
+  <!-- EN: Choose at most {0} memes. -->
   <TooManyMemes>최대 {0}개의 가르침만 선택하세요.</TooManyMemes>
+  <!-- EN: Choose structure. -->
   <ChooseStructureMeme>구조를 선택하세요.</ChooseStructureMeme>
+  <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label}(와)과 {1_label}(을)를 함께 선택할 수 없습니다.</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
   <SomeMemesHaveMoreImpact>가르침마다 게임 플레이에 주는 영향이 다릅니다.</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
   <ChooseNormalMemesFluidIdeoInfo>이 사상의 기초가 될 하나의 가르침을 선택하세요. 이후에 사상이 발달하면 더 많은 가르침을 추가할 수 있습니다.</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
   <ChooseOrRemoveMeme>가르침을 선택하거나 제거합니다.</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
   <ReformIdeoResetChanges>재설정</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
   <NotEnoughMemesFluidIdeo>가르침을 {0}개 선택하십시오.</NotEnoughMemesFluidIdeo>
 
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>{0}(을)를 선택하면 모든 규율을 무작위로 다시 선택합니다.\n\n계속하시겠습니까?</ChangesRandomizePrecepts>
+  <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
   <ChangesRemovePrecepts>다음 규칙은 새로운 가르침과 호환되지 않으므로 제거됩니다.\n\n{0}\n\n계속하시겠습니까?</ChangesRemovePrecepts>
   
+  <!-- EN: Room requirements -->
   <RoomRequirements>방 요구사항</RoomRequirements>
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
   <ConfirmChangeMemesForFluidIdeo>불러오려는 사상에 유동적 사상과 호환되지 않는 가르침이 존재합니다. 유동적 사상은 시작할 때 하나의 약한 영향 가르침만 선택할 수 있으므로 가르침을 모두 다시 선택해야 합니다.</ConfirmChangeMemesForFluidIdeo>
+  <!-- EN: The following memes are incompatible -->
   <ConfirmIncompatibleMemes>다음의 가르침이 영향을 받습니다.</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
   <ConfirmChangeMemesForFluidIdeoContinue>계속 하시겠습니까?</ConfirmChangeMemesForFluidIdeoContinue>
 
+  <!-- EN: role -->
   <Role>지위</Role>
+  <!-- EN: Assign role -->
   <ChooseRole>지위 할당</ChooseRole>
+  <!-- EN: Choose new role -->
   <ChooseNewRole>새 지위 선택</ChooseNewRole>
+  <!-- EN: No role assigned -->
   <NoRoleAssigned>할당된 지위 없음</NoRoleAssigned>
+  <!-- EN: Children cannot take on roles -->
+  <ChildNoRoleAssigned>어린이에게 지위 할당 불가</ChildNoRoleAssigned>
+  <!-- EN: Remove {0} role -->
   <RemoveRole>{0} 지위 해임</RemoveRole>
+  <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>{PAWN_labelShort}에게 {ROLE_labelDef}의 지위를 맡기려고 합니다.</ChooseRoleConfirmAssign>
+  <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>계속하시겠습니까?</ChooseRoleConfirmAssignPostfix>
+  <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignReplace>이 지위는 현재 {PAWN_labelShort}(이)가 맡고 있습니다. 지위를 잃으면 기분이 나빠질 것입니다.</ChooseRoleConfirmAssignReplace>
+  <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignHasOtherRole>{ROLE_label}(은)는 현재 {PAWN_labelShort}(이)가 맡고 있습니다. 역할을 잃으면 기분이 나빠질 것입니다.</ChooseRoleConfirmAssignHasOtherRole>
+  <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
   <ChooseRoleConfirmAssignReplaceLeader>지도자는 한 명만 존재할 수 있습니다. 계속하면 {PAWN_labelShort}(이)가 {OTHERROLE_labelDef}에서 해임되어 실망할 것입니다.</ChooseRoleConfirmAssignReplaceLeader>
-  <ChooseRoleConfirmUnassign>{PAWN_labelShort}(을)를 {ROLE_labelIndef}에서 해임하려고 합니다. {PAWN_labelShort}(이)가 분노할 것입니다.</ChooseRoleConfirmUnassign>
+  <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
+  <ChooseRoleConfirmUnassign>{PAWN_labelShort}(을)를 {ROLE_labelIndef}에서 해임합니다. {PAWN_labelShort}(은)는 분노할 것입니다.</ChooseRoleConfirmUnassign>
+  <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>{PAWN_labelShort}(이)가 아래의 능력을 얻게 됩니다</ChooseRoleListAbilities>
+  <!-- EN: The {ROLE_label} role requires the following apparel -->
   <ChooseRoleListApparelDemands>{ROLE_label}(은)는 아래의 의복을 요구합니다</ChooseRoleListApparelDemands>
+  <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
   <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort}(이)가 거부할 작업 유형</ChooseRoleListWorkTypeRestrictions>
+  <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
   <ChooseRoleHint>정착지가 자리를 잡을 때까지는 지위를 할당하지 않는 것이 더 좋을 수도 있습니다.</ChooseRoleHint>
+  <!-- EN: Unlocked by -->
   <UnlockedByMeme>필요한 가르침</UnlockedByMeme>
+  <!-- EN: Unlocked roles -->
   <MemeUnlocksRoles>사용 가능한 지위</MemeUnlocksRoles>
+  <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>진행 가능한 행사</MemeUnlocksRituals>
+  <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
   <ChooseRoleRequiredWorkTagsDisabled>경고: {PAWN_nameDef}(은)는 {ROLE_label}에서 필요로 하는 작업을 수행하지 못합니다. 지위를 얻더라도 {ROLE_label} 능력을 사용하지 못할 것입니다. 다음 작업 유형을 확인하십시오 :</ChooseRoleRequiredWorkTagsDisabled>
+  <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>지도자 보너스</YourLeaderTradeBonus>
+  <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
   <CannotNotAddRoleApparelDueToMeme>{MEME} 가르침으로 인해 이 지위에 의복 요구사항을 추가할 수 없습니다.</CannotNotAddRoleApparelDueToMeme>
+  <!-- EN: cannot be worn with {0_label} -->
   <CannotBeWornWith>{0_label}(와)과 착용 불가</CannotBeWornWith>
 
+  <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>확신 감소</AbilityIdeoConvertBreakdownLabel>
+  <!-- EN: Using {ABILITY} ability -->
   <AbilityIdeoConvertBreakdownUsingAbility>{ABILITY} 능력 사용</AbilityIdeoConvertBreakdownUsingAbility>
+  <!-- EN: {PAWN_labelShort}'s conversion power -->
   <AbilityIdeoConvertBreakdownConversionPower>{PAWN_labelShort}의 교화 위력</AbilityIdeoConvertBreakdownConversionPower>
+  <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
   <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>{PAWN_labelShort}의 {IDEO_name}에 대한 확신 감소 계수</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort}(이)가 {ROLE_labelDef}임</AbilityIdeoConvertBreakdownRole>
+  <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>{TRAIT} 특성</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>지역에 {RELICCOUNT}개의 유물 설치함</AbilityIdeoConvertBreakdownRelic>
+  <!-- EN: {PAWN_labelShort}'s social skill -->
   <AbilityIdeoConvertBreakdownSocialSkill>{PAWN_labelShort}의 사교 기술</AbilityIdeoConvertBreakdownSocialSkill>
+  <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
   <AbilityIdeoConvertBreakdownOpinion>{INITIATOR_labelShort}에 대한 {RECIPIENT_labelShort}의 의견</AbilityIdeoConvertBreakdownOpinion>
+  <!-- EN: {PAWN_nameDef}'s ideoligion -->
   <AbilityIdeoConvertBreakdownPawnIdeo>{PAWN_nameDef}의 사상</AbilityIdeoConvertBreakdownPawnIdeo>
+  <!-- EN: {MEME} vs {TRAIT} trait -->
   <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} vs {TRAIT} 특성</AbilityIdeoConvertBreakdownMemeVsTrait>
 
+  <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort}(은)는 최근에 이미 상담을 받았습니다.</AbilityCantApplyAlreadyCounselled>
 
+  <!-- EN: Reform... -->
   <ReformIdeo>개혁...</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
   <ReformIdeoligion>사상 개혁</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
   <ReformIdeoligionDesc>규율과 가르침, 스타일을 변경하여 사상을 개혁하세요.</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
   <ReformIdeoChangeStyles>스타일 바꾸기</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
   <ReformIdeoAddOrRemoveMeme>가르침 추가 또는 제거</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
   <ReformIdeoAddMeme>가르침 추가</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
   <ReformIdeoChooseOneChange>하나 선택</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
   <ReformIdeoChangeStructure>구조 교체</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>다음 중 하나를 변경합니다.</ReformIdeoChangeAny>
+  <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
   <ReformIdeoRelicHuntQuestEnd>이 사상을 개혁한 후에는 유물 {0}(을)를 정착민들이 더 이상 숭배하지 않습니다. 임무 '{0}이(가) 이 유물을 찾고 있음으로 비활성됩니다.</ReformIdeoRelicHuntQuestEnd>
+  <!-- EN: The ritual {0} is in progress and will be cancelled. -->
   <ReformIdeoCancelRituals>진행 중인 행사 {0}이(가) 취소됩니다.</ReformIdeoCancelRituals>
+  <!-- EN: Do you wish to continue? -->
   <ReformIdeoContinue>계속하시겠습니까?</ReformIdeoContinue>
 
   <!-- Slavery -->
+  <!-- EN: Slave -->
   <CannotAssignBedToSlave>노예</CannotAssignBedToSlave>
+  <!-- EN: Colonist -->
   <CannotAssignBedToColonist>정착민</CannotAssignBedToColonist>
+  <!-- EN: Any slave -->
   <AnySlave>아무 노예</AnySlave>
+  <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
   <NegotiatorWillNotTradeSlaves>{0_nameDef}(은)는 자신의 신념 때문에 노예 매매를 거부합니다.</NegotiatorWillNotTradeSlaves>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>협상을 맡은 {0_nameDef}(은)는 {0_possessive} 사상, {1}(으)로 인해 사람을 노예로 팔지 않을 것입니다.\n\n{0_nameDef}도 몸값을 받고 원래 세력으로 돌려보내 주는 것은 거부하지 않으며, 다른 세력에 판매하는 것만 거부합니다.</NegotiatorWillNotTradeSlavesTip>
 
+  <!-- EN: Last human meat -->
   <LastHumanMeat>마지막으로 섭취한 인육</LastHumanMeat>
+  <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>{PAWN_nameDef}(은)는 {IDEO_name}(을)를 믿고 있으므로 인육을 먹지 못한 날이 {DURATION}일을 초과하면 기분이 나빠집니다.</LastHumanMeatDesc>
-  <LastAnimalSlaughter>마지막으로 도축한 큰 동물</LastAnimalSlaughter>
 
+  <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>{PAWN_labelShort}(을)를 처형하면 {FACTION_name}(와)과의 관계에 부정적인 영향을 줍니다.</ExectueNeutralFactionSlave>
 
+  <!-- EN: You must assign at least one non-slave colonist who can walk. -->
   <CaravanMustHaveAtLeastOneNonSlaveColonist>노예가 아니고 걸을 수 있는 정착민을 적어도 한 명은 할당해야 합니다.</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <!-- EN: You must leave at least non-slave colonist who can walk. -->
   <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>노예가 아니고 걸을 수 있는 정착민을 적어도 한 명은 남겨야 합니다.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
 
   <!-- Style -->
+  <!-- EN: Style -->
   <StylePawn>양식</StylePawn>
-  <Cancel>취소</Cancel>
+  <!-- EN: hair -->
   <Hair>머리카락</Hair>
+  <!-- EN: beard -->
   <Beard>수염</Beard>
+  <!-- EN: face tattoo -->
   <TattooFace>얼굴 문신</TattooFace>
+  <!-- EN: body tattoo -->
   <TattooBody>몸 문신</TattooBody>
+  <!-- EN: apparel color -->
   <ApparelColor>의류 색상</ApparelColor>
+  <!-- EN: hair color -->
   <HairColor>머리카락 색</HairColor>
+  <!-- EN: Show headgear -->
   <ShowHeadgear>모자 표시</ShowHeadgear>
+  <!-- EN: Show apparel -->
   <ShowApparel>옷 표시</ShowApparel>
+  <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
   <PawnUnhappyWithStyleItems>다음 양식으로 인해 {PAWN_nameDef}의 기분이 나빠집니다</PawnUnhappyWithStyleItems>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
   <StyleCategoryDescription>양식 범주는 {IDEO_memberName}들이 만드는 건물과 의복, 무기의 외관을 바꿉니다. 하나의 물체에 적용할 수 있는 양식 범주가 여럿일 경우 가장 왼쪽의 양식 범주를 적용합니다.</StyleCategoryDescription>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
   <StyleCategoryDescriptionAbstract>양식 범주는 정착지에서 만드는 건물과 의복, 무기의 외관을 바꿉니다. 하나의 물체에 적용할 수 있는 양식 범주가 여럿일 경우 가장 왼쪽의 양식 범주를 적용합니다.</StyleCategoryDescriptionAbstract>
+  <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
   <StyleCategoryDescStyleDominance>{IDEO_memberName}들은 주위 건물과 바닥, 미술품이 이 양식을 따르고 있으면 기분이 좋아집니다.</StyleCategoryDescStyleDominance>
+  <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
   <StyleCategoryDescStyleDominanceAbstract>주변 건물과 바닥, 미술품이 이 양식을 따르면 사상 구성원의 기분이 좋아집니다.</StyleCategoryDescStyleDominanceAbstract>
+  <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} 양식 범주의 영향 범위</StyleCategoryDetails>
+  <!-- EN: Overriden by {0} -->
   <OverriddenByStyle>{0}이 우선함</OverriddenByStyle>
+  <!-- EN: New buildables -->
   <IdeoMakesBuildingBuildable>새로운 건축물</IdeoMakesBuildingBuildable>
+  <!-- EN: none usable for {PAWN_nameDef} -->
   <NoneUsableForPawn>{PAWN_nameDef}에 적용할 수 있는 항목 없음</NoneUsableForPawn> 
+  <!-- EN: Hair and beards -->
   <HairAndBeards>머리카락과 수염</HairAndBeards>
+  <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
   <HairAndBeardsDesc>이 사상을 가진 사람이 어떤 외형을 얼마나 자주 하고 나타날 것인지 설정합니다.</HairAndBeardsDesc>
+  <!-- EN: Tattoos -->
   <Tattoos>문신</Tattoos>
+  <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
   <TattoosDesc>이 사상을 가진 사람이 각각의 문신을 얼마나 자주 한 채로 나타날 것인지 설정합니다.</TattoosDesc>
+  <!-- EN: Never -->
   <StyleItemFrequencyNever>사용불가</StyleItemFrequencyNever>
+  <!-- EN: Rare -->
   <StyleItemFrequencyRare>매우드뭄</StyleItemFrequencyRare>
+  <!-- EN: Uncommon -->
   <StyleItemFrequencyUncommon>드뭄</StyleItemFrequencyUncommon>
+  <!-- EN: Normal -->
   <StyleItemFrequencyNormal>중간</StyleItemFrequencyNormal>
+  <!-- EN: Common -->
   <StyleItemFrequencyCommon>흔함</StyleItemFrequencyCommon>
+  <!-- EN: Frequent -->
   <StyleItemFrequencyFrequent>매우흔함</StyleItemFrequencyFrequent>
+  <!-- EN: Edit appearance -->
   <EditAppearanceItems>의류 편집</EditAppearanceItems>
+  <!-- EN: {0} in use -->
   <NumAvailable>{0} 사용 중</NumAvailable>
-  <ExpandAllCategories>모두 열기</ExpandAllCategories>
-  <CollapseAllCategories>모두 접기</CollapseAllCategories>
+  <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>모든 외형 항목을 기본 값으로 초기화합니다.</ResetButtonDesc>
-  <TooltipDyeExplanation>염료는 상인과 거래하거나, 염색풀을 재배해서 얻을 수 있습니다.</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
+  <!-- EN: Send shuttle anyway -->
   <SendShuttleAnyway>무시하고 왕복선 출발</SendShuttleAnyway>
+  <!-- EN: Re-load shuttle -->
   <ReLoadShuttle>다시 선택</ReLoadShuttle>
 
   <!-- Medical settings -->
+  <!-- EN: Enslaved colonist -->
   <MedGroupEnslavedColonist>노예가 된 정착민</MedGroupEnslavedColonist>
 
   <!-- Dryad upgrades -->
+  <!-- EN: Choose dryad caste -->
   <ChangeMode>나무지기 선택</ChangeMode>
+  <!-- EN: Required memes -->
   <RequiredMemes>필요한 가르침</RequiredMemes>
+  <!-- EN: Required caste -->
   <RequiredStage>필요한 계급</RequiredStage>
+  <!-- EN: Missing required memes -->
   <MissingRequiredMemes>필요한 가르침 없음</MissingRequiredMemes>
+  <!-- EN: Missing required caste -->
   <MissingRequiredCaste>필요한 계급 없음</MissingRequiredCaste>
+  <!-- EN: Already selected -->
   <AlreadySelected>이미 선택함</AlreadySelected>
+  <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
   <ChooseProductionModeInitialDesc>여기서 {TREE_label}(이)가 만들어낼 나무지기의 계급을 선택할 수 있습니다.\n\n나무지기는 나무 뿌리 근처에서 탄생합니다. 나무와의 교감 수준이 높을수록 만들어낼 수 있는 나무지기의 수도 증가합니다.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
+  <!-- EN: Choose who to convert to your ideoligion -->
   <ChooseColonistsForIdeoTitle>사상으로 교화할 대상 선택</ChooseColonistsForIdeoTitle>
+  <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
   <ChooseColonistsForIdeoDesc>새로운 정착지를 세울 때, 원하는 사람들을 지금의 주 사상으로 교화할 수 있습니다.</ChooseColonistsForIdeoDesc>
+  <!-- EN: New Colony -->
   <ChooseThingsForNewColonyTitle>새로운 정착지</ChooseThingsForNewColonyTitle>
+  <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
   <ChooseThingsForNewColonyDesc>새로운 정착지로 데려갈 정착민과 동물, 유물을 선택하세요.</ChooseThingsForNewColonyDesc>
+  <!-- EN: Choose up to {0} {1}. -->
   <ChooseThingsDesc>{1}(을)를 {0}개까지 선택하세요.</ChooseThingsDesc>
+  <!-- EN: Choose up to {0} people. -->
   <ChoosePeopleDesc>사람을 {0}명까지 선택하세요.</ChoosePeopleDesc>
+  <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
   <ChooseOnlySlavesInfo>노예만 선택할 경우 모든 노예가 정착민이 된 채로 플레이합니다.</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
   <ConfirmDecisionsTitle>확인</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>AI (*Name)샬론 화이트스톤(/Name)이 보고한 우주선은 새로운 정착지가 건설될 때 날아갈 것입니다. 더 이상 이 우주선으로 여행하여 행성을 탈출할 수 없습니다.</ShipEscapeWillEndDescription>
-  <ArchonexusRelicNotChosen>No relic was chosen to be brought to the new colony.</ArchonexusRelicNotChosen>
-  <ArchonexusItemsNotChosen>{0} out of a possible {1} items were selected to be brought to the new colony.</ArchonexusItemsNotChosen>
-  <RemoveEquippedRelicsDescription>The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including:</RemoveEquippedRelicsDescription>
-  <WantToProceed>Would you like to proceed? Past this point, there's no going back.</WantToProceed>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>새로운 정착지로 가져갈 유물이 선택되지 않았습니다.</ArchonexusRelicNotChosen>
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>가능한 {1} 항목 중 {0}(이)가 새 정착지로 가져가기 위해 선택되었습니다.</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
+  <RemoveEquippedRelicsDescription>정착지 구매자는 당신이 유물을 하나만 가져갈 수 있게 해줄 것입니다. 다음을 포함하여 다른 모든 유물은 남게 됩니다 (정착민이 장비한 경우에도):</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
+  <WantToProceed>계속하시겠습니까? 다시 되돌아갈 수 없습니다.</WantToProceed>
+  <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>교화</ConvertToPlayerIdeoligion>
+  <!-- EN: Revert -->
   <RevertToPreviousIdeoligion>되돌리기</RevertToPreviousIdeoligion>
+  <!-- EN: Existing follower -->
   <ExistingFollowerOfPlayerIdeoligion>이 사상을 믿는 사람들</ExistingFollowerOfPlayerIdeoligion>
+  <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
   <AbandonArchotechStructuresWarningDialog>조사가 끝나지 않은 초월공학 구조물이 위치한 지역을 포기하려 하고 있습니다.\n\n나중에 이 곳에 다시 정착할 수 있지만, 지금의 정착지는 파괴됩니다.</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>새 정착지로 가져올 수 있는 수량 {0}개\n\n최대 허용 수량: {1}</ItemQuantityTooltip>
-  <SoldColonyDescription>Your colony was sold. Its purchasers are ready for you to choose where to land next.</SoldColonyDescription>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>당신의 정착지는 팔렸습니다. 구매자는 다음에 착륙할 위치를 선택할 준비가 되었습니다.</SoldColonyDescription>
 
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>{0}(을)를 해킹하면 적들이 공격해올 것입니다. 정말 {0}(을)를 해킹하시겠습니까?</ConfirmHackEnenyTerminal>
 
+  <!-- EN: Relics -->
   <RelicsSection>유물</RelicsSection>
 
   <!-- Food restrictions -->
-  <FoodRestrictionVegetarian>Vegetarian</FoodRestrictionVegetarian>
-  <FoodRestrictionCarnivore>Carnivore</FoodRestrictionCarnivore>
-  <FoodRestrictionCannibal>Cannibal</FoodRestrictionCannibal>
-  <FoodRestrictionInsectMeat>Insect meat</FoodRestrictionInsectMeat>
+  <!-- EN: Vegetarian -->
+  <FoodRestrictionVegetarian>채식주의자</FoodRestrictionVegetarian>
+  <!-- EN: Carnivore -->
+  <FoodRestrictionCarnivore>육식 동물</FoodRestrictionCarnivore>
+  <!-- EN: Cannibal -->
+  <FoodRestrictionCannibal>식인종</FoodRestrictionCannibal>
+  <!-- EN: Insect meat -->
+  <FoodRestrictionInsectMeat>곤충고기</FoodRestrictionInsectMeat>
+
+  <!-- EN: Styles in use -->
+  <StylesInUse>사용 중인 양식</StylesInUse>
+  <!-- EN: Add a style. -->
+  <StyleCategoryAddDesc>양식을 추가합니다.</StyleCategoryAddDesc>
 </LanguageData>

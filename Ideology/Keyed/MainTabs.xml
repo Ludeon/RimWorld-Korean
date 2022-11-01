@@ -1,110 +1,210 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Ideoligions -->
+  <!-- EN: Deities -->
   <Deities>신적 존재</Deities>
+  <!-- EN: Show all ideoligions -->
   <ButtonShowAllIdeoligions>모든 사상 보기</ButtonShowAllIdeoligions>
+  <!-- EN: Ideoligion of -->
   <IdeoligionOf>다음 세력의 사상</IdeoligionOf>
+  <!-- EN: Memes -->
   <Memes>가르침</Memes>
+  <!-- EN: Narrative -->
   <CoreNarrative>구절</CoreNarrative>
+  <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
   <CoreNarrativeDesc>사상의 핵심 구절입니다. 게임 플레이에는 영향을 주지 않습니다.</CoreNarrativeDesc>
+  <!-- EN: Edit narrative -->
   <EditNarrative>구절 편집</EditNarrative>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
   <LockButtonDesc>사상의 현재 구절을 고정하거나 고정 해제합니다. 구절을 고정하면 사상을 편집해도 바뀌지 않습니다.</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
   <LockInOn>{0} 고정이 켜져있습니다. {1}(이)가 자동으로 재생성되지 않습니다.</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
   <LockInOff>{0} 고정이 꺼져있습니다. {1}(이)가 자동으로 재생성될 수 있습니다.</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
   <LockPreceptNameButtonDesc>이 규율을 고정하거나 고정 해제합니다. 규율을 고정하면 사상을 편집해도 규율 이름이 바뀌지 않습니다.</LockPreceptNameButtonDesc>
+  <!-- EN: Precepts -->
   <Precepts>규율</Precepts>
+  <!-- EN: Rituals -->
   <Rituals>행사</Rituals>
+  <!-- EN: Roles -->
   <IdeoRoles>지위</IdeoRoles>
+  <!-- EN: Buildings -->
   <IdeoBuildings>건물</IdeoBuildings>
+  <!-- EN: Relics -->
   <IdeoRelics>유물</IdeoRelics>
+  <!-- EN: Preferred apparel -->
   <IdeoApparel>선호 의복</IdeoApparel>
+  <!-- EN: apparel desire -->
   <IdeoApparelDesire>의복 희망</IdeoApparelDesire>
+  <!-- EN: Won't do -->
   <UnwillingToDoIdeoAction>거절</UnwillingToDoIdeoAction>
+  <!-- EN: Stats -->
   <PreceptStats>통계</PreceptStats>
+  <!-- EN: Prohibitions -->
   <Prohibitions>금지</Prohibitions>
+  <!-- EN: Opinions -->
   <Opinions>의견</Opinions>
+  <!-- EN: Randomize name -->
   <RandomizeName>무작위 이름</RandomizeName>
+  <!-- EN: Randomize precepts -->
   <RandomizePrecepts>무작위 규율</RandomizePrecepts>
-  <AddPrecept>규율 추가</AddPrecept>
+  <!-- EN: Add precept -->
+  <AddPrecept>{0} 추가</AddPrecept>
+  <!-- EN: Randomize deities -->
   <RandomizeDeities>무작위 신적 존재</RandomizeDeities>
+  <!-- EN: Add deity -->
   <AddDeity>신적 존재 추가</AddDeity>
+  <!-- EN: Choose memes -->
   <ChooseMemes>가르침 선택</ChooseMemes>
+  <!-- EN: Choose starting meme -->
   <ChooseStartingMeme>시작 가르침 선택</ChooseStartingMeme>
+  <!-- EN: Choose structure -->
   <ChooseStructure>구조 선택</ChooseStructure>
+  <!-- EN: Choose culture -->
   <ChooseCulture>문화 선택</ChooseCulture>
+  <!-- EN: Culture -->
   <Culture>문화</Culture>
+  <!-- EN: Culture affects names, appearances, and symbols. -->
   <CultureTip>문화는 이름과 외형, 상징에 영향을 줍니다.</CultureTip>
+  <!-- EN: Structure -->
   <StructureMeme>구조</StructureMeme>
+  <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
   <StructureMemeTip>구조는 사상이 우주의 도덕적 구조에서 중요하다고 여기는 존재와 힘의 종류를 결정합니다. 게임 플레이에 직접적인 영향을 주지 않습니다.</StructureMemeTip>
+  <!-- EN: Adjective -->
   <Adjective>형용사</Adjective>
+  <!-- EN: Ritual room -->
   <WorshipRoom>의식장</WorshipRoom>
+  <!-- EN: Member noun -->
   <IdeoMembers>구성원 호칭</IdeoMembers>
+  <!-- EN: Member plural -->
   <IdeoMembersPlural>구성원 복수형</IdeoMembersPlural>
+  <!-- EN: Edit symbols -->
   <EditSymbols>상징 편집</EditSymbols>
+  <!-- EN: Edit deity -->
   <EditDeity>신적 존재 편집</EditDeity>
+  <!-- EN: Edit required apparel -->
   <EditApparelRequirement>필요 의복 편집</EditApparelRequirement>
+  <!-- EN: Edit name -->
   <EditName>이름 편집</EditName>
+  <!-- EN: Any time -->
   <StartingCondition_Anytime>아무 때나</StartingCondition_Anytime>
+  <!-- EN: Date -->
   <StartingCondition_Date>날짜</StartingCondition_Date>
+  <!-- EN: Starting condition -->
   <StartingCondition>시작 조건</StartingCondition>
+  <!-- EN: Edit -->
   <Edit>편집</Edit>
+  <!-- EN: Randomize symbols -->
   <RandomizeSymbols>무작위 상징</RandomizeSymbols>
+  <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
   <RandomizeSymbolsTooltip>사상의 이름, 아이콘, 구절, 지도자 호칭, 의식 이름, 보직 이름 등 모든 텍스트를 무작위로 지정합니다. 가르침과 규율처럼 게임 플레이에 영향을 주는 요소는 바꾸지 않습니다.</RandomizeSymbolsTooltip>
+  <!-- EN: Click any element to edit it -->
   <ClickAnyElementToEditIt>구성 요소를 클릭해 편집</ClickAnyElementToEditIt>
-  <ClickToEdit>클릭해서 편집</ClickToEdit>
+  <!-- EN: Leader title -->
   <LeaderTitle>지도자 호칭</LeaderTitle>
+  <!-- EN: Deity name -->
   <DeityName>신적 존재 이름</DeityName>
+  <!-- EN: Deity title -->
   <DeityTitle>신적 존재 호칭</DeityTitle>
+  <!-- EN: Deity gender -->
   <DeityGender>신적 존재 성별</DeityGender>
+  <!-- EN: Name -->
   <Name>이름</Name>
+  <!-- EN: Icon -->
   <Icon>아이콘</Icon>
+  <!-- EN: Related to meme -->
   <RelatedToMeme>관련된 가르침</RelatedToMeme>
+  <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
   <IdeoCharityQuestInfo>이것은 이타적 임무입니다. 이타적 사상인 {0}(을)를 믿는 다음 정착민들은 임무가 성공하면 기뻐하고, 실패하면 실망할 것입니다. ({1})</IdeoCharityQuestInfo>
+  <!-- EN: Slaves will not do this work -->
   <WorkDisabledSlave>노예가 할 수 없음</WorkDisabledSlave>
+  <!-- EN: Disabled by {0} role -->
   <WorkDisabledRole>{0} 지위로 인해 비활성</WorkDisabledRole>
+  <!-- EN: Affected by traits -->
   <AffectedByTraits>특성의 영향</AffectedByTraits>
+  <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
   <CharityQuestTip>이것은 이타적 임무입니다. 이타적 믿음을 가진 사람들은 임무 결과에 영향을 받게 됩니다</CharityQuestTip>
+  <!-- EN: formerly -->
   <Formerly>이전</Formerly>
+  <!-- EN: all -->
   <All>모두</All>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
   <RelicTip>유물은 영적으로, 또는 사상적으로 중요한 물체로서 길고 위험한 임무를 통해 찾아낼 수 있습니다. 유물을 유물함에 설치하면 순례자가 찾아오고, 의식의 효과가 증가하며, 외부인이 유물의 사상으로 전향할 확률이 높아집니다.</RelicTip>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
+  <RelicTipClassic>유물은 영적으로, 또는 사상적으로 중요한 물체로서 길고 위험한 임무를 통해 찾아낼 수 있습니다. 유물을 유물함에 설치하면 순례자가 찾아오고, 의식의 효과가 증가합니다.</RelicTipClassic>
+  <!-- EN: animal -->
   <Animal>동물</Animal>
+  <!-- EN: Venerated animals -->
   <VeneratedAnimals>성스러운 동물</VeneratedAnimals>
+  <!-- EN: weapon pair -->
   <IdeoWeapon>무기 속성별 호불호 추가</IdeoWeapon>
+  <!-- EN: Weapons -->
   <IdeoWeapons>무기</IdeoWeapons>
+  <!-- EN: Swap noble and despised -->
   <SwapNobleAndDespised>교체</SwapNobleAndDespised>
+  <!-- EN: noble -->
   <Noble>고결함</Noble>
+  <!-- EN: despised -->
   <Despised>천박함</Despised>
+  <!-- EN: Unlocked craftables -->
   <UnlockedRecipes>제작 가능한 물품</UnlockedRecipes>
+  <!-- EN: Start with research -->
   <IdeoStartWithResearch>연구와 함께 시작</IdeoStartWithResearch>
+  <!-- EN: Agreeing traits -->
   <AgreeableTraits>잘 맞는 특성</AgreeableTraits>
+  <!-- EN: Conflicting traits -->
   <DisagreeableTraits>충돌하는 특성</DisagreeableTraits>
+  <!-- EN: Shooting -->
   <Shooting>사격</Shooting>
+  <!-- EN: Impact -->
   <IdeoImpact>영향</IdeoImpact>
+  <!-- EN: Overall impact -->
   <IdeoImpactOverall>전반적 영향</IdeoImpactOverall>
+  <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
   <IdeoImpactOverallDesc>어떤 가르침은 다른 가르침보다 게임 플레이에 더 큰 영향을 줍니다. 가르침의 영향도 점수를 통해 게임 플레이가 얼마나 바뀔지 짐작할 수 있습니다.</IdeoImpactOverallDesc>
+  <!-- EN: low -->
   <IdeoMemeImpactLabel_1>낮음</IdeoMemeImpactLabel_1>
+  <!-- EN: medium -->
   <IdeoMemeImpactLabel_2>보통</IdeoMemeImpactLabel_2>
+  <!-- EN: high -->
   <IdeoMemeImpactLabel_3>심각</IdeoMemeImpactLabel_3>
+  <!-- EN: low -->
   <IdeoImpactLabel_1>낮음</IdeoImpactLabel_1>
+  <!-- EN: low -->
   <IdeoImpactLabel_2>낮음</IdeoImpactLabel_2>
+  <!-- EN: moderate -->
   <IdeoImpactLabel_3>보통</IdeoImpactLabel_3>
+  <!-- EN: moderate -->
   <IdeoImpactLabel_4>보통</IdeoImpactLabel_4>
+  <!-- EN: strong -->
   <IdeoImpactLabel_5>높음</IdeoImpactLabel_5>
+  <!-- EN: strong -->
   <IdeoImpactLabel_6>높음</IdeoImpactLabel_6>
+  <!-- EN: very strong -->
   <IdeoImpactLabel_7>매우 높음</IdeoImpactLabel_7>
+  <!-- EN: very strong -->
   <IdeoImpactLabel_8>매우 높음</IdeoImpactLabel_8>
+  <!-- EN: extreme -->
   <IdeoImpactLabel_9>극심함</IdeoImpactLabel_9>
+  <!-- EN: This was your colony's starting ideoligion. -->
   <InitialPlayerIdeo>정착지의 시작 사상입니다.</InitialPlayerIdeo>
   
   
+  <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
   <FluidIdeoTip>이 사상은 신생 사상이며 행성 내에서 따르는 사람도 거의 없으므로 아직 유동적입니다. 유동적인 사상은 시간이 지나며 점차 발달할 수 있습니다.\n\n사상이 발달하려면 개혁 점수가 필요합니다. 개혁 점수는 의식을 완료하거나 사상에 관련된 임무를 완수해서 획득할 수 있습니다.\n\n충분한 개혁 점수를 모으면 새로운 가르침, 규율, 양식 등으로 사상을 개혁할 수 있습니다.</FluidIdeoTip>
+  <!-- EN: How to get development points -->
   <FluidIdeoTipGetPoints>개발 포인트를 얻는 방법</FluidIdeoTipGetPoints>
+  <!-- EN: Convert someone to your ideoligion -->
   <FluidIdeoTipGetPoinsByConversion>당신의 사상으로 누군가를 교화하세요.</FluidIdeoTipGetPoinsByConversion>
 
+  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
   <ResearchProjectHasDefsWithMissingMemes>{0} 연구 보상 중 사상의 영향으로 만들 수 없는 물품이 포함되어 있습니다.</ResearchProjectHasDefsWithMissingMemes>
+  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
   <SelectedWorkTypeOpposedByIdeo>경고: 이 유형의 작업은 {0_labelShort}의 사상에 반하기 때문에 기분이 나빠집니다.</SelectedWorkTypeOpposedByIdeo>
 
+  <!-- EN: Development points -->
   <DevelopmentPoints>개혁 점수</DevelopmentPoints>
 
 </LanguageData>

@@ -91,7 +91,7 @@
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>설정에서 이야기꾼을 선택해서 튜토리얼을 끝마치세요.</ChooseStoryteller.rejectInputMessage>
   <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click the Gameplay button in the left columm.\n4. Click the Modify button beside Storyteller settings.\n5. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
-  <ChooseStoryteller.text>이제 끝입니다!\n\n아직 수감, 사냥, 거래, 조련, 그 외 정말 많은 것들이 남아있습니다. 그렇지만 이제 기본은 하실 수 있어요.\n\n무작위 사건은 튜토리얼에선 꺼져있었습니다. 진짜 게임을 플레이하시려면:\n\n1. 오른쪽 아래 메뉴를 여세요\n2. 설정을 선택하세요.\n3. 이야기꾼 선택 버튼을 클릭하세요\n4. 원하시는 이야기꾼과 난이도를 선택하세요\n\n행운을 빕니다. 즐거운 시간 보내세요.</ChooseStoryteller.text>
+  <ChooseStoryteller.text>이제 끝입니다!\n\n아직 수감, 사냥, 거래, 조련, 그 외 정말 많은 것들이 남아있습니다. 그렇지만 이제 기본은 하실 수 있어요.\n\n무작위 사건은 튜토리얼에선 꺼져있었습니다. 진짜 게임을 플레이하시려면:\n\n1. 오른쪽 아래 메뉴를 여세요\n2. 설정을 선택하세요.\n3. 왼쪽에서 게임플레이를 클릭하세요.\n4. 이야기꾼 선택 오른쪽의 수정 버튼을 클릭하세요\n5. 원하시는 이야기꾼과 난이도를 선택하세요\n\n행운을 빕니다. 즐거운 시간 보내세요.</ChooseStoryteller.text>
   
   <!-- EN: Please drag the 'chop wood' designator over some trees. -->
   <ChopTrees.rejectInputMessage>10그루에 벌목 지정을 해주세요.</ChopTrees.rejectInputMessage>
@@ -156,9 +156,9 @@
   <MakeStockpile.text>좋습니다!\n\n이제 정착민들 근처에 저장구역을 지정해 아이템을 쌓아봅시다.\n\n1. 왼쪽 아래 구상 탭을 누르세요.\n2. 구역 카테고리를 선택하세요.\n3. 저장구역을 선택하세요.\n4. 클릭 후 드래그해서 지도에 표시된 곳에 구역을 만드세요.</MakeStockpile.text>
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
-  <MapCameraDolly.text>도착했습니다!\n\n이제 화면을 움직여보세요.\n\n{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} 키나, 클릭 후 드래그를 해서 움직일 수 있습니다.\n\n지금 해보세요!</MapCameraDolly.text>
+  <MapCameraDolly.text>도착했습니다!\n\n이제 화면을 움직여 보세요.\n\n{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} 키나, 클릭 후 드래그를 해서 움직일 수 있습니다.\n\n지금 해 보세요!</MapCameraDolly.text>
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
-  <MapCameraDolly.textController>Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now!</MapCameraDolly.textController>
+  <MapCameraDolly.textController>도착했습니다!\n\n이제 왼쪽 조이스틱으로 화면을 움직여 보세요.\n\n지금 해 보세요!</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>좋습니다!\n\n마우스 휠이나 {Key:MapZoom_In}, {Key:MapZoom_Out} 키를 이용해 확대/축소할 수 있습니다.\n\n지금 해보세요!</MapCameraZoom.text>
@@ -209,12 +209,12 @@
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>어느 식물을 재배할지 정할 수 있습니다.\n\n1. 오른쪽 클릭으로 구역 지정을 끝내세요.\n2. 재배구역을 클릭해 선택하세요.\n3. 아래쪽 식물 버튼을 클릭해 벼로 바꾸세요.</SetToGrowRice.text>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
-  <SetToGrowRice.textController>You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice.</SetToGrowRice.textController>
+  <SetToGrowRice.textController>어느 식물을 재배할지 정할 수 있습니다.\n\n1. 왼쪽 트리거로 구역 지정을 끝내세요.\n2. 재배구역을 클릭해 선택하세요.\n3. 아래쪽 식물 버튼을 클릭해 벼로 바꾸세요.</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>시간을 빠르게 돌릴 수도 있습니다.\n\n{Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, {Key:TimeSpeed_Superfast} 키 또는 오른쪽 아래 시간 조절 버튼으로 속도를 바꿔보세요.</TimeControls.text>
   <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
-  <TimeControls.textController>You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right.</TimeControls.textController>
+  <TimeControls.textController>시간을 빠르게 돌릴 수도 있습니다.\n\n{Key:TimeSpeed_Faster}와 {Key:TimeSpeed_Slower}, 또는 오른쪽 아래 시간 조절 버튼으로 속도를 바꿔보세요.</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>정착민들의 소집을 해제해주세요.</UndraftAll.rejectInputMessage>

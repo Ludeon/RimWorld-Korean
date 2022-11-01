@@ -283,9 +283,9 @@
   <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
   <Stat_Hediff_NaturalHealingFactor_Desc>자연적인 상처 치유 속도를 나타냅니다.</Stat_Hediff_NaturalHealingFactor_Desc>
   <!-- EN: Food poisoning chance factor -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Name>식중독 확률</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>식중독 확률 계수</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>실수로 식중독을 유발하는 요리를 만들 확률입니다.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>식중독에 걸릴 확률에 곱해지는 수입니다.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition causes blood loss. -->
   <Stat_Hediff_BleedingRate_Desc>출혈 속도를 나타냅니다.</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
@@ -337,7 +337,7 @@
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
   <Stat_Thing_ReloadPerCharge_Desc>하나의 {CHARGENOUN}(을)를 재장전하는 데 필요한 항목의 양입니다. 여러 {CHARGENOUN_plural}(을)를 한번에 재장전할 수 있습니다.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Name>배기장치 사라짐</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>소진 시 파괴됨</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
   <Stat_Thing_ReloadDestroyOnEmpty_Desc>이 품목은 마지막 {CHARGENOUN}(을)를 사용하면 사라집니다.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
@@ -431,7 +431,7 @@
   <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
   <Stat_Animal_AdultMeatAmountDesc>이 동물종의 성체를 도축했을 때 얻을 수 있는 기본 고기량입니다. 실제로 얻는 고기의 양은 신체 피해량과 도축 기술 등의 영향을 받습니다.</Stat_Animal_AdultMeatAmountDesc>
   <!-- EN: Growth time -->
-  <Stat_Animal_GrowthTime>성장에 필요한 기간</Stat_Animal_GrowthTime>
+  <Stat_Animal_GrowthTime>성장 기간</Stat_Animal_GrowthTime>
   <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
   <Stat_Animal_GrowthTimeDesc>동물이 성체가 되기까지 일반적으로 걸리는 시간입니다. 굶주린 동물이 성체가 되려면 더 오랜 시간이 필요합니다.</Stat_Animal_GrowthTimeDesc>
   <!-- EN: Meat per day during growth -->
@@ -521,8 +521,8 @@
   <!-- EN: Source -->
   <Stat_Source_Label>출처</Stat_Source_Label>
   <!-- EN: This content came from the official expansion -->
-  <Stat_Source_OfficialExpansionReport>공식 확장팩에서 추가됨</Stat_Source_OfficialExpansionReport>
+  <Stat_Source_OfficialExpansionReport>공식 확장팩에서 추가함</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
-  <Stat_Source_ModReport>모드에서 추가됨</Stat_Source_ModReport>
+  <Stat_Source_ModReport>모드에서 추가함</Stat_Source_ModReport>
   
 </LanguageData>

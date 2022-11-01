@@ -8,7 +8,8 @@
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->자신을 [introduction](이)라 밝힌 [joiner_nameDef](이)가 근처에서 연락했습니다. 자신이 [enemyFaction_name]의 [enemyFaction_pawnsPlural]에게 쫓기고 있다고 알려오고 있습니다!\n\n[joiner_pronoun]가 보호를 요청하며 [map_definite]에 합류를 원하고 있습니다.[joiner_relationInfo]\n\n받아들일 경우 [joiner_possessive] 뒤를 쫓는 [enemyFaction_pawnsPluralDef](와)과 싸워야 할 것입니다. [enemyFaction_pawnsPlural]의 추적자들은 다음과 같이 구성되어 있습니다.\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef](은)는 급박한 와중이라 자신을 자세히 소개할 시간이 없는 것 같습니다.</li>
-    <!--(항목 2개 미사용)-->
+    <li>introduction(childCount==1,priority=1)->[joiner_age] 살의 아이</li>
+    <li>introduction->[joiner_age] 살의 [joiner_title]</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -38,7 +39,7 @@
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
     <li>runnerIndef->난민</li>
-    <!--(항목 1개 미사용)-->
+    <li>runnerIndef(childCount==1,priority=1)->어린이</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} 쫓기는 [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>

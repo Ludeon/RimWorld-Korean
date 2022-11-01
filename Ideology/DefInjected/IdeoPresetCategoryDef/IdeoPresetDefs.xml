@@ -1,26 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: classic -->
   <Classic.label>클래식</Classic.label>
-  <Classic.description>Classic RimWorld without the ideoligion system active. Good for your first few games, and when you're not trying to do something specific. Content from the Ideology expansion is still present.</Classic.description>
+  <!-- EN: Classic RimWorld without the ideoligion system. Good for your first few games, or when you're not trying to do something specific. All Ideology expansion content remains active. -->
+  <Classic.description>사상 체계가 활성화되지 않은 클래식 림월드입니다. 처음 게임을 해보거나 특별한 계획이 없을 때 적합합니다. 이데올로기 확장팩의 콘텐츠는 그대로 활성화 되어 있습니다.</Classic.description>
+  <!-- EN: Classic -->
   <Classic.groupLabel>클래식</Classic.groupLabel>
   
+  <!-- EN: custom -->
   <Custom.label>사용자 지정</Custom.label>
+  <!-- EN: Customize a new ideoligion and control every detail. This can take a while. -->
   <Custom.description>새로운 사상을 생성하고, 모든 항목을 직접 설정합니다.</Custom.description>
+  <!-- EN: Custom -->
   <Custom.groupLabel>사용자 지정</Custom.groupLabel>
   
+  <!-- EN: fluid -->
   <Fluid.label>유동적 사상</Fluid.label>
+  <!-- EN: Begin with a simple ideoligion and develop it over time. -->
   <Fluid.description>단순한 사상으로 시작해서 점차 발달해나갑니다.</Fluid.description>
+  <!-- EN: Fluid -->
   <Fluid.groupLabel>유동적 사상</Fluid.groupLabel>
   
+  <!-- EN: intense -->
   <Intense.label>강한 영향</Intense.label>
+  <!-- EN: Extremely disruptive beliefs which make the game very different from classic RimWorld. These add significant difficulty. -->
   <Intense.description>게임 플레이가 클래식 림월드와 매우 달라지도록 하는, 극히 변형된 사상입니다. 난이도가 크게 올라갑니다.</Intense.description>
-  <Intense.groupLabel>Preset ideoligions</Intense.groupLabel>
+  <!-- EN: Preset ideoligions -->
+  <Intense.groupLabel>미리 설정된 사상</Intense.groupLabel>
   
+  <!-- EN: mild -->
   <Mild.label>약한 영향</Mild.label>
+  <!-- EN: Classic-like gameplay with small variations. -->
   <Mild.description>클래식 게임 플레이에 작은 변화를 줍니다.</Mild.description>
-  <Mild.groupLabel>Preset ideoligions</Mild.groupLabel>
+  <!-- EN: Preset ideoligions -->
+  <Mild.groupLabel>미리 설정된 사상</Mild.groupLabel>
   
+  <!-- EN: strong -->
   <Strong.label>보통 영향</Strong.label>
+  <!-- EN: Strong beliefs which support playstyles significantly different from classic RimWorld. -->
   <Strong.description>클래식 림월드와 크게 다른 플레이 스타일을 지원하는 뚜렷한 사상입니다.</Strong.description>
-  <Strong.groupLabel>Preset ideoligions</Strong.groupLabel>
+  <!-- EN: Preset ideoligions -->
+  <Strong.groupLabel>미리 설정된 사상</Strong.groupLabel>
+  
 </LanguageData>

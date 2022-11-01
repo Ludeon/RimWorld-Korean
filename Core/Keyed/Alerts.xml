@@ -61,7 +61,7 @@
   <NoMedicineDesc>보유한 약품이 없습니다.\n\n상인에게서 약품을 구입하세요.</NoMedicineDesc>
   
   <!-- EN: Need colonist beds -->
-  <NeedColonistBeds>침대 부족</NeedColonistBeds>
+  <NeedColonistBeds>정착민 침대 부족</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>침대 수보다 더 많은 정착민이 머물고 있습니다.\n\n침대를 더 만들거나 수감자 전용 침대를 정착민 전용 침대로 전환하세요.\n\n침대를 만들 재료나 시간이 없다면 잠자리를 지정하세요. 추가적인 비용이 들지 않으며 즉시 배치됩니다.</NeedColonistBedsDesc>
   
@@ -111,13 +111,13 @@
   <NeedMealSourceDesc>음식을 만들 수 있는 방법이 없습니다.\n\n스토브, 모닥불, 또는 영양죽 배급기를 건설하세요.\n\n(감옥에 건설할 경우 정착민들이 사용할 수 없습니다.)</NeedMealSourceDesc>
 
   <!-- EN: Need recreation variety -->
-  <NeedJoySource>오락 시설 필요</NeedJoySource>
+  <NeedJoySource>오락시설 필요</NeedJoySource>
   <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
   <NeedJoySourceDesc>{1}에서 즐길 수 있는 오락 유형은 {0}가지 뿐이지만, 현재 기대 수준({2})에서 정착민들이 만족하려면 {3}가지 오락시설이 필요합니다. 새롭고 다양한 오락 유형을 제공해 주세요.\n\n{4}\n\n{5}\n\n통계 화면에서 모든 물품이 지닌 오락 유형을 확인할 수 있습니다.</NeedJoySourceDesc>
   <!-- EN: Available recreation types -->
-  <AvailableRecreationTypes>가능한 오락 시설 유형</AvailableRecreationTypes>
+  <AvailableRecreationTypes>가능한 오락 유형</AvailableRecreationTypes>
   <!-- EN: Missing recreation types -->
-  <MissingRecreationTypes>없는 오락 시설 유형</MissingRecreationTypes>
+  <MissingRecreationTypes>없는 오락 유형</MissingRecreationTypes>
   <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
   <CurrentExpectationsAndRecreation>현재의 기대감({0})에 의해, 매일 {1}만큼 감소합니다. {2}가지 유형의 오락시설을 보유하기를 권장합니다.</CurrentExpectationsAndRecreation>
   <!-- EN: bored -->
@@ -131,19 +131,19 @@
   <!-- EN: Need batteries -->
   <NeedBatteries>축전지 필요</NeedBatteries>
   <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
-  <NeedBatteriesDesc>태양광이나 풍력 발전기는 있지만 축전지가 없습니다. 태양이 진 후나 바람이 멈추면 전기가 끊길 것입니다.</NeedBatteriesDesc>
+  <NeedBatteriesDesc>태양광이나 풍력 발전기는 있지만 축전지가 없습니다. 태양이 지거나 바람이 멈추면 전기가 끊길 것입니다.</NeedBatteriesDesc>
   <!-- EN: Build a battery or two to guarantee sustained power. -->
   <NeedBatteriesResearchedDesc>축전지를 한두 개 건설해서 예비 전력을 확보하세요.</NeedBatteriesResearchedDesc>
   <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
   <NeedBatteriesNotResearchedDesc>축전지를 연구하고 한두 개 건설해서 예비 전력을 확보하세요.</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
-  <BrawlerHasRangedWeapon>싸움꾼에게 원거리 무기가 지급됨</BrawlerHasRangedWeapon>
+  <BrawlerHasRangedWeapon>싸움꾼이 원거리 무기 사용</BrawlerHasRangedWeapon>
   <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
   <BrawlerHasRangedWeaponDesc>싸움꾼 특성을 가진 정착민에게 원거리 무기를 지급한 상태입니다. 이로 인해 싸움꾼의 기분이 매우 악화됩니다.</BrawlerHasRangedWeaponDesc>
 
   <!-- EN: Shield user has ranged weapon -->
-  <ShieldUserHasRangedWeapon>보호막 사용자에게 원거리 무기가 지급됨</ShieldUserHasRangedWeapon>
+  <ShieldUserHasRangedWeapon>보호막 사용자가 원거리 무기 사용</ShieldUserHasRangedWeapon>
   <!-- EN: One of your colonists has a shield belt and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them). -->
   <ShieldUserHasRangedWeaponDesc>정착민 중 한 명이 방어 벨트와 원거리 무기를 같이 사용하고 있습니다. 방어 벨트의 보호막은 원거리 무기 사용을 막습니다.</ShieldUserHasRangedWeaponDesc>
 
@@ -207,9 +207,9 @@
   <PokerTablesNeedChairsDesc>인접한 의자가 없는 포커 탁자가 있습니다.\n\n포커 탁자는 인접한 의자가 있어야 사용할 수 있습니다. 체스는 한 번에 여덟 명까지 할 수 있습니다.</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
-  <HunterHasShieldAndRangedWeapon>사냥꾼이 보호막 벨트를 착용</HunterHasShieldAndRangedWeapon>
+  <HunterHasShieldAndRangedWeapon>사냥꾼이 보호막 생성기와 원거리 무기 사용</HunterHasShieldAndRangedWeapon>
   <!-- EN: One of your hunters is using a ranged weapon and wearing a shield belt which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed. -->
-  <HunterHasShieldAndRangedWeaponDesc>사냥꾼 중 한 명이 보호막 벨트와 원거리 무기를 같이 사용하고 있습니다. 보호막 벨트는 원거리 무기의 사용을 막습니다.\n\n벨트를 벗기 전까지는 사냥할 수 없습니다.</HunterHasShieldAndRangedWeaponDesc>
+  <HunterHasShieldAndRangedWeaponDesc>사냥꾼 중 한 명이 보호막 벨트와 원거리 무기를 같이 사용하고 있습니다. 보호막 벨트는 원거리에서의 발사를 막습니다.\n\n벨트를 벗기 전까지는 사냥할 수 없습니다.</HunterHasShieldAndRangedWeaponDesc>
 
   <!-- EN: Need warm clothes -->
   <NeedWarmClothes>따뜻한 옷 필요</NeedWarmClothes>
@@ -221,12 +221,12 @@
   <NeedWarmClothesDesc2>외부 온도가 곧 {0}도로 떨어집니다.\n\n따뜻한 옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</NeedWarmClothesDesc2>
 
   <!-- EN: Immobile caravan -->
-  <ImmobileCaravan>상단 멈춤</ImmobileCaravan>
+  <ImmobileCaravan>상단이 움직일 수 없음</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>상단 중 하나가 무게 초과로 인해 움직일 수 없습니다.\n\n소지품 탭에서 일부 물건을 선택하고 버릴 수 있습니다.</ImmobileCaravanDesc>
 
   <!-- EN: Building unusable due to roof -->
-  <BuildingCantBeUsedRoofed>지붕으로 인한 시설 사용 불가</BuildingCantBeUsedRoofed>
+  <BuildingCantBeUsedRoofed>지붕으로 인한 건물 사용 불가</BuildingCantBeUsedRoofed>
   <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
   <BuildingCantBeUsedRoofedDesc>이 시설은 지붕 아래에서는 사용할 수 없습니다. 지붕을 제거하세요.</BuildingCantBeUsedRoofedDesc>
 
@@ -295,7 +295,7 @@
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
   <AlertPredatorInAnimalPen>동물 우리 안의 {ANIMAL_labelShort}</AlertPredatorInAnimalPen>
   <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
-  <AlertPredatorInAnimalPenDesc>배회하던 {ANIMAL_labelShort}(이)가 동물 우리 안으로 들어왔습니다.\n\n배가 고프면 사냥할 수도 있습니다.\n\n포식자를 죽이거나, 떠나도록 기다릴 수도 있습니다.</AlertPredatorInAnimalPenDesc>
+  <AlertPredatorInAnimalPenDesc>배회하던 {ANIMAL_labelShort}(이)가 동물 우리 안으로 들어왔습니다.\n\n배가 고파지면 우리 안의 동물을 사냥할 수 있습니다.\n\n포식자를 죽이거나 떠나기를 기다리세요.</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>배회 중인 동물</AlertAnimalIsRoaming>
@@ -313,19 +313,19 @@
   <AlertHitchedAnimalHungryNoFoodDesc>묶여있는 일부 가축들이 굶주렸습니다. 근처에 적절한 먹이가 없을 수 있습니다.\n\n먹이를 가져다 주거나, 풀어주어 스스로 먹이를 찾을 수 있도록 하세요.\n\n굶주린 가축은 다음과 같습니다.\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
-  <AlertTimedRaidsArrivingIn>습격대 도착까지 {0}</AlertTimedRaidsArrivingIn>
+  <AlertTimedRaidsArrivingIn>습격 도착까지 {0}</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
   <AlertTimedRaidsArrivingInDesc>다음의 지역으로 적이 접근하고 있습니다. 곧 적 병력이 도착할 것입니다.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->
   <AlertTimedRaidsArrivingAt>{0}에 {1} 후 도착</AlertTimedRaidsArrivingAt>
 
   <!-- EN: Faction will become hostile if you stay -->
-  <FactionWillBecomeHostileIfNotLeavingWithin>계속 머무를 시 세력이 적대함</FactionWillBecomeHostileIfNotLeavingWithin>
+  <FactionWillBecomeHostileIfNotLeavingWithin>계속 머무르면 세력이 적대함</FactionWillBecomeHostileIfNotLeavingWithin>
   <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>다음 세력의 정착지나 전초기지에 계속 머무르면 적대하게 됩니다:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->
-  <AlertMinifiedTreeAboutToDie>죽어가는 나무: {0}그루</AlertMinifiedTreeAboutToDie>
+  <AlertMinifiedTreeAboutToDie>나무 {0}그루가 죽어감</AlertMinifiedTreeAboutToDie>
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>뽑아둔 나무 {0}그루가 하루 안에 죽을 예정입니다. 방치하면 특정 사상을 지닌 정착민이 실망할 것입니다.\n\n나무를 다시 심으면 기분 하락을 방지할 수 있습니다.</AlertMinifiedTreeAboutToDieDesc>
 
