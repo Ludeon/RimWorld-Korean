@@ -28,7 +28,7 @@
   <!-- EN: Smoke totally prevents turrets from detecting targets, but people can still shoot with reduced accuracy. -->
   <GameplayTips.ShootingAccuracySmoke>연막은 포탑이 대상을 감지하지 못하도록 완전히 방해하지만, 사람은 여전히 낮은 정확도로 사격할 수 있습니다.</GameplayTips.ShootingAccuracySmoke>
   <!-- EN: When designing defences, assume enemies will get inside using drop pods or tunnels. Build internal defensive positions. -->
-  <GameplayTips.DesignDefenses>방어시설을 구축할 때, 드랍 포드나 터널을 통해 내부로 침입한다고 가정을 해보고, 내부의 방어시설 위치를 구축하세요.</GameplayTips.DesignDefenses>
+  <GameplayTips.DesignDefenses>방어선을 구축할 땐 적이 수송 포드나 땅굴을 통해 내부로 침투할 수 있을 거라고 가정해야 합니다. 내부에도 방어 지점을 확보하세요.</GameplayTips.DesignDefenses>
   <!-- EN: Foggy or rainy weather reduces the accuracy of ranged weapons. -->
   <GameplayTips.ShootingAccuracyFogRain>안개나 비가 오는 날씨는 원거리 무기의 정확도를 떨어뜨립니다.</GameplayTips.ShootingAccuracyFogRain>
   <!-- EN: You can analyze the chance a shot will hit by selecting the shooter and placing the mouse over the target. -->
@@ -36,33 +36,33 @@
   <!-- EN: Turrets explode when they take a lot of damage. Don't put them too close together, and don't put your people too close to them. -->
   <GameplayTips.TurretsExplode>포탑은 많은 피해를 받으면 폭발합니다. 포탑끼리 가까이 두지 말고, 사람도 너무 가까이 두지 마세요.</GameplayTips.TurretsExplode>
   <!-- EN: Some animals explode upon death. You can use transport pods to drop animals on enemies. Think about it. -->
-  <GameplayTips.AnimalDeathExplosion>어떤 동물은 죽을 때 폭발하며, 수송 포드를 이용해 적들 근처에 떨어뜨릴 수 있습니다. 어떤 일이 벌어질지 상상해보세요.</GameplayTips.AnimalDeathExplosion>
+  <GameplayTips.AnimalDeathExplosion>어떤 동물들은 죽을 때 폭발합니다. 수송 포드를 이용해 이런 동물을 적의 옆에 투하할 수 있습니다. 상상해 보세요.</GameplayTips.AnimalDeathExplosion>
   <!-- EN: If you need help in a fight, call your allies using the comms console. -->
-  <GameplayTips.CallAllies>습격을 막을 때 도움이 필요하다면, 통신기를 이용해 동맹을 부를 수 있습니다.</GameplayTips.CallAllies>
+  <GameplayTips.CallAllies>전투 중에 도움이 필요하면 통신기를 사용해 동맹을 부를 수 있습니다.</GameplayTips.CallAllies>
   <!-- EN: Maddened animals will attack any human, including your enemies. You can use this. -->
-  <GameplayTips.MaddenedAnimals>동물이 분노하면 아군 적군 가릴 것 없이 모두 공격합니다. 이 방법도 사용해보세요.</GameplayTips.MaddenedAnimals>
+  <GameplayTips.MaddenedAnimals>동물이 분노하면 모든 인간을 가리지 않고 공격합니다. 유리하게 활용하세요.</GameplayTips.MaddenedAnimals>
   <!-- EN: EMP bursts will temporarily disable turrets and shields. -->
-  <GameplayTips.EMPDisablesTurretsShields>EMP가 터지면 포탑이나 보호막을 일시적으로 비활성 할 수 있습니다.</GameplayTips.EMPDisablesTurretsShields>
+  <GameplayTips.EMPDisablesTurretsShields>EMP 폭발은 포탑과 보호막을 일시적으로 비활성화합니다.</GameplayTips.EMPDisablesTurretsShields>
   <!-- EN: EMP bursts instantly break personal shields. -->
-  <GameplayTips.EMPDisablesPersonalShields>EMP가 터지면 개인 보호막 벨트가 깨집니다.</GameplayTips.EMPDisablesPersonalShields>
+  <GameplayTips.EMPDisablesPersonalShields>EMP 폭발은 개인 보호막을 즉시 파괴합니다.</GameplayTips.EMPDisablesPersonalShields>
   <!-- EN: The hunter stealth stat reduces the chance of animal attacks. It is affected by the hunter's animals and shooting skills. -->
   <GameplayTips.HunterStealth>사냥꾼의 "사냥 은폐" 능력치는 동물 보복 가능성을 줄여줍니다. 사냥꾼의 조련과 사격 기술의 영향을 받습니다.</GameplayTips.HunterStealth>
   <!-- EN: Animals are more likely to attack when harmed from close range. Long-range, slow-firing weapons are safest for hunting. -->
-  <GameplayTips.AnimalsAttackCloseRange>동물은 근거리에서 피해를 받으면 보복할 확률이 높습니다. 장거리 및 느린 조준시간을 가진 무기를 이용하는게 안전합니다.</GameplayTips.AnimalsAttackCloseRange>
+  <GameplayTips.AnimalsAttackCloseRange>동물은 근거리에서 피해를 받으면 보복할 확률이 높습니다. 장거리 저연사 무기가 안전합니다.</GameplayTips.AnimalsAttackCloseRange>
   <!-- EN: Entire herds of animals may attack you when you try to hunt them. Accept the risk before hunting, or choose weaker prey. -->
-  <GameplayTips.AnimalsMayAttack>동물을 사냥할 때 동물 무리 전체가 보복할 수도 있습니다. 위험을 감수하던지, 더 약한 동물을 사냥할지 선택하세요.</GameplayTips.AnimalsMayAttack>
+  <GameplayTips.AnimalsMayAttack>동물을 사냥하면 그 동물의 무리 전체가 보복할 수도 있습니다. 위험을 감수하거나, 더 약한 동물을 사냥하세요.</GameplayTips.AnimalsMayAttack>
   <!-- EN: If you hunt boomrats and boomalopes when it's raining, their deaths won't cause forest fires. -->
-  <GameplayTips.AnimalDeathExplosionRain>비가 올 때 폭탄사슴이나 폭탄쥐를 사냥하면, 산불이 될 만큼 커지지 않습니다.</GameplayTips.AnimalDeathExplosionRain>
+  <GameplayTips.AnimalDeathExplosionRain>비가 올 때 폭탄사슴이나 폭탄쥐를 사냥하면 산불로는 번지지 않습니다.</GameplayTips.AnimalDeathExplosionRain>
   <!-- EN: Carefully-slaughtered animals yield more meat and leather than those who were killed violently. -->
-  <GameplayTips.GreaterSlaughterYield>손실이 적은 시체를 도축할 때, 손실이 많은 시체보다 더 많은 고기와 가죽을 얻을 수 있습니다.</GameplayTips.GreaterSlaughterYield>
+  <GameplayTips.GreaterSlaughterYield>잔인하게 죽인 동물보다 조심스럽게 도축한 동물에서 더 많은 고기와 가죽을 얻을 수 있습니다.</GameplayTips.GreaterSlaughterYield>
   <!-- EN: Place the caravan hitching spot where you want your caravans to form up. It's usually best to place it near your storage areas. -->
   <GameplayTips.CaravanHitchingSpot>상단이 만들어지기 원하는 곳에 상단 구성 장소를 지정합니다. 일반적으로 보관 장소 근처에 지정하는 것이 가장 좋습니다. </GameplayTips.CaravanHitchingSpot>
   <!-- EN: During encounters away from home, you can place a caravan hitching spot to keep your animals from wandering. -->
   <GameplayTips.CaravanHitchingSpotRoamers>집에서 멀리 떨어져 있는 동안, 가축들이 방황하지 않도록 상단 구성 장소를 배치할 수 있습니다.</GameplayTips.CaravanHitchingSpotRoamers>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
-  <GameplayTips.CaravanRideableAnimals>상단은 말, 당나귀, 낙타와 같이 탈 수 있는 동물이 포함되면 더 빠르게 이동할 수 있습니다.</GameplayTips.CaravanRideableAnimals>
+  <GameplayTips.CaravanRideableAnimals>말, 당나귀, 낙타와 같이 탑승 가능한 동물이 상단에 포함되면 더 빠르게 이동할 수 있습니다.</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
-  <GameplayTips.CaravanSmallerLessVisible>규모가 작은 상단은 눈에 잘 띄지 않기 때문에 공격당할 빈도가 낮습니다.</GameplayTips.CaravanSmallerLessVisible>
+  <GameplayTips.CaravanSmallerLessVisible>규모가 작은 상단은 눈에 잘 띄지 않기 때문에 공격도 덜 당합니다.</GameplayTips.CaravanSmallerLessVisible>
   <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan hitching spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>상단을 구성하기 전에, 소집 장소 옆에 저장구역을 만들고 적재하려는 물품을 미리 모아두세요. 준비 시간이 훨씬 빨라집니다.</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
@@ -78,19 +78,19 @@
   <!-- EN: When you have more wealth, more powerful enemies attack. If you want the challenge to scale with time instead, select 'Wealth-independent progress mode' in the storyteller settings. -->
   <GameplayTips.FixedWealthMode>재산이 많을수록 더 강력한 적들이 공격합니다. 재산 대신 시간에 따라 도전을 확장하려면 이야기꾼 설정에서 '재산 독립 진행방식'을 선택하세요.</GameplayTips.FixedWealthMode>
   <!-- EN: Avoid using stone for doors. They open very slowly, which wastes your colonists' time. -->
-  <GameplayTips.StoneDoors>정착민의 시간을 아끼고 싶다면, 석재를 재료로 문을 만들지 마세요.</GameplayTips.StoneDoors>
+  <GameplayTips.StoneDoors>문을 석재로 만드는 걸 피하세요. 석재 문은 매우 느리게 열려서 정착민이 시간을 허비하게 됩니다.</GameplayTips.StoneDoors>
   <!-- EN: Put chairs in front of workbenches so workers can sit comfortably while working. -->
   <GameplayTips.ChairsWorkbench>작업대 앞에 의자를 설치하면 작업자가 일하는 동안 편안함을 느낄 수 있습니다.</GameplayTips.ChairsWorkbench>
   <!-- EN: Mechanical structures break down and require replacement components. Don't build things you don't need. -->
   <GameplayTips.MechanicalBreakdown>기계적인 구조물이 망가지면 수리할 때 부품이 요구되니 필요없는 것은 짓지 마세요.</GameplayTips.MechanicalBreakdown>
   <!-- EN: Be careful what you construct on bridges. Bridges collapse easily under explosions, and your buildings will go with them. -->
-  <GameplayTips.CarefulConstructionOnBridges>다리 위에 건물을 지을 땐 조심하세요. 다리는 폭발로 쉽게 부숴지고 건설된 건물도 가라앉습니다.</GameplayTips.CarefulConstructionOnBridges>
+  <GameplayTips.CarefulConstructionOnBridges>다리 위에 건물을 지을 땐 조심하세요. 다리는 폭발로 쉽게 파괴되며, 그 위에 건설한 건물도 다리와 함께 가라앉습니다.</GameplayTips.CarefulConstructionOnBridges>
   <!-- EN: Clean rooms increase research speed, improve medical outcomes, and reduce food poisoning. Sterile tiles make rooms extra-clean. -->
-  <GameplayTips.CleanRooms>청결한 방은 연구속도를 증가 시키며, 의료 결과를 향상시키고, 식중독 확률을 낮춰줍니다. 향균 타일은 방을 더욱 청결하게 만듭니다.</GameplayTips.CleanRooms>
+  <GameplayTips.CleanRooms>청결한 방은 연구 속도를 향상하고, 의료 결과를 개선하고, 식중독 확률을 낮춰줍니다. 항균 타일은 방을 더욱 청결하게 만듭니다.</GameplayTips.CleanRooms>
   <!-- EN: Building your whole colony in one structure saves resources, but also makes it difficult to contain fires. -->
-  <GameplayTips.ColonyOneStructure>정착지 전체를 한 구조로 만들면 자원을 아낄 수 있지만, 화제를 진압하기에는 좋지 않습니다.</GameplayTips.ColonyOneStructure>
+  <GameplayTips.ColonyOneStructure>정착지 전체를 한 건물로 만들면 자원을 아낄 수 있지만, 화재 진압에는 좋지 않습니다.</GameplayTips.ColonyOneStructure>
   <!-- EN: Terrain affects movement speed. Build floors to help your colonists get around quicker. -->
-  <GameplayTips.TerrainMovementSpeed>지형은 이동속도에 영향을 받습니다. 정착민이 빨리 다닐 수 있게 바닥을 만들어 주세요.</GameplayTips.TerrainMovementSpeed>
+  <GameplayTips.TerrainMovementSpeed>이동속도는 지형에 영향을 받습니다. 정착민들이 빠르게 움직일 수 있도록 바닥을 지어주세요.</GameplayTips.TerrainMovementSpeed>
   <!-- EN: Different terrain has different inherent cleanliness levels. Tiles are inherently clean; dirt is inherently dirty. -->
   <GameplayTips.TerrainCleanliness>지형에 따라 청결 수준이 다릅니다. 타일은 기본적으로 깨끗하며, 흙은 기본적으로 더럽습니다.</GameplayTips.TerrainCleanliness>
   <!-- EN: Some floor types are faster to clean than others. It takes much longer to clean carpet compared to metal tile. -->
@@ -98,11 +98,11 @@
   <!-- EN: You can give prisoners as gifts. Giving a prisoner back to their own faction will be highly appreciated. -->
   <GameplayTips.PrisonersAsGifts>수감자들은 선물로 보낼 수 있습니다. 원래 세력으로 보내면 크게 고마워할 것입니다.</GameplayTips.PrisonersAsGifts>
   <!-- EN: You can request specific types of trade caravans using the comms console. -->
-  <GameplayTips.RequestTradeCaravans>통신기를 사용하여 특정 유형의 상단을 부를 수 있습니다.</GameplayTips.RequestTradeCaravans>
+  <GameplayTips.RequestTradeCaravans>통신기를 사용해서 특정 유형의 상단을 요청할 수 있습니다.</GameplayTips.RequestTradeCaravans>
   <!-- EN: You can use transport pods to send gifts directly to other factions' bases - even your enemies. This improves faction relations. -->
   <GameplayTips.TransportPodsSendGift>수송 포드를 사용하여 다른 세력이나 적 세력에게도 선물을 보낼 수 있으며, 관계도 향상됩니다.</GameplayTips.TransportPodsSendGift>
   <!-- EN: Keeping prisoners together saves space. However, prisoners kept together will try to break out together. -->
-  <GameplayTips.KeepingPrisonersTogether>수감자들을 함께 가둬놓으면 공간은 절약되지만, 탈옥을 할때는 함께 나가려고 합니다.</GameplayTips.KeepingPrisonersTogether>
+  <GameplayTips.KeepingPrisonersTogether>수감자들을 한 곳에 가둬놓으면 공간을 절약할 수 있습니다. 하지만 탈옥 사태 발생 시 수감자들이 협력할 것입니다.</GameplayTips.KeepingPrisonersTogether>
   <!-- EN: Enemy faction bases are very well-defended. You don't need to attack them - but be well-prepared if you choose to try. -->
   <GameplayTips.EnemyFactionBaseDefenses>적 세력의 정착지는 방어가 잘 되어 있습니다. 따로 공격할 필요는 없지만 시도를 한다면 준비를 잘하고 가세요.</GameplayTips.EnemyFactionBaseDefenses>
   <!-- EN: Cute tame animals will nuzzle your colonists, improving their mood. -->
@@ -110,13 +110,13 @@
   <!-- EN: Assign your herbivorous animals to areas with lots of grass. They'll eat the grass and spare you the need to feed them. -->
   <GameplayTips.AnimalHerbivorousGrassArea>초식동물을 잔디가 많은 곳에 배정하면, 풀을 뜯어 먹기 때문에 따로 먹이가 필요하지 않습니다.</GameplayTips.AnimalHerbivorousGrassArea>
   <!-- EN: If someone has a serious infection in a limb, you can remove the limb to save their life. -->
-  <GameplayTips.RemoveLimbInfection>누군가가 사지에 감염이 되어 목숨이 위험하면, 사지를 절단해 구할 수 있습니다.</GameplayTips.RemoveLimbInfection>
+  <GameplayTips.RemoveLimbInfection>사지의 심각한 감염으로 생명이 위험하면 절단으로 구할 수 있습니다.</GameplayTips.RemoveLimbInfection>
   <!-- EN: Sloshing through water makes people unhappy. Build a bridge when you can. -->
-  <GameplayTips.SloshingWater>사람들이 물 위를 지나다니면 불행해 합니다. 되도록 다리를 건설해 주세요.</GameplayTips.SloshingWater>
+  <GameplayTips.SloshingWater>정착민들은 물을 뚫고 걸어 다녀야 하면 불만을 가집니다. 되도록 다리를 건설해 주세요.</GameplayTips.SloshingWater>
   <!-- EN: Luciferium can heal scars - even those on the eye or brain. It is, however, a permanent commitment. -->
-  <GameplayTips.Luciferium>루시페륨은 눈이나 뇌에 생긴 상처까지도 치료하지만, 평생 후유증에 시달립니다.</GameplayTips.Luciferium>
+  <GameplayTips.Luciferium>루시페륨은 눈이나 뇌에 생긴 흉터까지 치료할 수 있습니다. 하지만 한번 복용하면 평생 멈출 수 없습니다.</GameplayTips.Luciferium>
   <!-- EN: Work and movement speed are affected by lighting. Everything is slower in the dark. -->
-  <GameplayTips.WorkMovementSpeedLighting>작업 및 이동속도는 빛에 영향을 받으며, 어둠속에서는 모두 느려집니다.</GameplayTips.WorkMovementSpeedLighting>
+  <GameplayTips.WorkMovementSpeedLighting>작업과 이동 속도는 빛에 영향을 받습니다. 어둠 속에서는 일도 이동도 어렵습니다.</GameplayTips.WorkMovementSpeedLighting>
   <!-- EN: Deep underground caverns have a naturally stable temperature, even if it's very hot or cold outside. -->
   <GameplayTips.DeepCavesTemperature>밖이 매우 덥거나 추워도 깊은 동굴은 안정적으로 온도를 유지합니다.</GameplayTips.DeepCavesTemperature>
   <!-- EN: Mountain bases are easy to defend. The downside is that people go crazy spending too long underground. And giant insects. -->
@@ -124,7 +124,7 @@
   <!-- EN: Prisoners will join much quicker and attempt fewer breakouts when they're in a good mood. -->
   <GameplayTips.PrisonersGoodMood>수감자들은 기분이 좋을 때 훨씬 빨리 합류할 수 있으며, 탈옥할 확률도 낮아집니다.</GameplayTips.PrisonersGoodMood>
   <!-- EN: You can have multiple researchers working simultaneously at multiple research tables. -->
-  <GameplayTips.MultipleResearchers>연구 작업대를 여러 대 건설하면 여러 명이 같이 연구할 수 있습니다.</GameplayTips.MultipleResearchers>
+  <GameplayTips.MultipleResearchers>다수의 연구 작업대를 건설하면 여러 명이 함께 연구할 수 있습니다.</GameplayTips.MultipleResearchers>
   <!-- EN: Geysers heat up rooms if enclosed. This can be dangerous, or useful. -->
   <GameplayTips.GeysersHeatRooms>밀폐된 공간에 간헐천이 있으면 온도가 높아지니, 유용할 수도 위험할 수도 있습니다.</GameplayTips.GeysersHeatRooms>
   <!-- EN: Explosions extinguish fires in their blast radius. This makes artillery shells useful for stopping fires when there is no other choice. -->
@@ -136,19 +136,19 @@
   <!-- EN: When taming animals, make sure you have enough food of the correct type to feed them. -->
   <GameplayTips.MakeSureYouHaveFoodForTamedAnimals>동물을 길들일 때, 동물들이 먹을 수 있는 올바른 종류의 음식을 충분히 가지고 있는지 확인하세요.</GameplayTips.MakeSureYouHaveFoodForTamedAnimals>
   <!-- EN: Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders. -->
-  <GameplayTips.DroppingChunksWillForceDoorsOpen>출입구에 석재나 암석 덩어리를 떨어뜨리면 강제로 열려있게 되어 적대적인 야생 동물이나 습격자에게 취약해집니다.</GameplayTips.DroppingChunksWillForceDoorsOpen>
+  <GameplayTips.DroppingChunksWillForceDoorsOpen>출입구에 석재나 암석 덩어리를 떨어뜨리면 문이 강제로 열린 채 유지되므로 적대적인 야생 동물이나 습격자의 공격에 취약해집니다.</GameplayTips.DroppingChunksWillForceDoorsOpen>
   <!-- EN: Clean labs with sterile tile give research speed bonuses. -->
-  <GameplayTips.CleanLabs>항균 타일이 있는 청결한 연구실은 연구속도를 증가시킵니다.</GameplayTips.CleanLabs>
+  <GameplayTips.CleanLabs>항균 타일이 있는 청결한 연구실에서는 연구 속도가 증가합니다.</GameplayTips.CleanLabs>
   <!-- EN: You can change storyteller and playstyle at any time through the options menu. -->
   <GameplayTips.ChangeStoryteller>설정 메뉴에서 언제든지 이야기꾼과 난이도를 변경할 수 있습니다.</GameplayTips.ChangeStoryteller>
   <!-- EN: The more factions you are allied with, the more random traders and military aid you will receive. -->
-  <GameplayTips.MoreAlliesMoreTraders>동맹국이 많을수록 더 많은 상단과 군사지원을 받을 수 있습니다.</GameplayTips.MoreAlliesMoreTraders>
+  <GameplayTips.MoreAlliesMoreTraders>동맹 세력이 많으면 더 많은 상단이 찾아오고, 군사 지원도 더 많이 받을 수 있습니다.</GameplayTips.MoreAlliesMoreTraders>
   <!-- EN: You can use drug policies to have your fighters carry combat drugs like go-juice. A quick dose at the start of combat can win the battle. -->
-  <GameplayTips.CombatDrugsFromInventory>마약 정책을 사용할 때 고주스 같은 전투용 약물을 소지하도록 사용할 수 있습니다. 이는 전투 시 빠른 복용으로 전투를 유리하게 이끌 수 있습니다.</GameplayTips.CombatDrugsFromInventory>
+  <GameplayTips.CombatDrugsFromInventory>약물 정책에서 전투원들에게 고주스같은 전투 약물을 소지하도록 할 수 있습니다. 전투를 시작할 때 투약하면 승패를 가를 수 있습니다.</GameplayTips.CombatDrugsFromInventory>
   <!-- EN: Set schedules with long stretches of one activity to minimize travel time. -->
   <GameplayTips.SchedulesSetLong>여행시간을 최소화하기 위해 한 번의 행동으로 긴 일정을 설정하세요.</GameplayTips.SchedulesSetLong>
   <!-- EN: Straw matting ignores filth. Use it as the floor for your barn. -->
-  <GameplayTips.StrawMatting>멍석은 더러워져도 상관 없습니다. 헛간 바닥으로 쓰세요.</GameplayTips.StrawMatting>
+  <GameplayTips.StrawMatting>멍석에는 오물이 생기지 않습니다. 헛간 바닥으로 쓰세요.</GameplayTips.StrawMatting>
   <!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
   <GameplayTips.AnimalFilth>특정 동물들은 오물을 더 많이 생산합니다. 코끼리나 소 같은 대형 동물들은 집 밖에 두세요.</GameplayTips.AnimalFilth>
   <!-- EN: Predators won't hunt animals which are on the other side of fences or barricades. -->

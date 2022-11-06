@@ -77,7 +77,7 @@
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>가득 참</AlreadyFilledLower>
   <!-- EN: missing {0} -->
-  <MissingMaterials>{0} 누락</MissingMaterials>
+  <MissingMaterials>{0} 없음</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
   <NoMedicineMatchingCategory>'{CATEGORY}' 정책을 만족하는 약품 없음</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
@@ -427,7 +427,7 @@
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
-  <CannotGenericAlreadyAm>이미 {2_labelShort}(을)를 {0} 중</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>이미 {2_labelShort}{0} 중</CannotGenericAlreadyAm>
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>이미 {0} 중</CannotGenericAlreadyAmCustom>
 
@@ -462,7 +462,7 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>우선 {1} {0}</PrioritizeGeneric>
+  <PrioritizeGeneric>우선 {1}{0}</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
   <DropAtEdge>가장자리에 낙하</DropAtEdge>

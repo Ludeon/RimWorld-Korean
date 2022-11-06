@@ -50,9 +50,9 @@
   <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
   <ConfirmChangeMemesForFluidIdeo>불러오려는 사상에 유동적 사상과 호환되지 않는 가르침이 존재합니다. 유동적 사상은 시작할 때 하나의 약한 영향 가르침만 선택할 수 있으므로 가르침을 모두 다시 선택해야 합니다.</ConfirmChangeMemesForFluidIdeo>
   <!-- EN: The following memes are incompatible -->
-  <ConfirmIncompatibleMemes>다음의 가르침이 영향을 받습니다.</ConfirmIncompatibleMemes>
+  <ConfirmIncompatibleMemes>다음의 가르침들이 상충됩니다</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
-  <ConfirmChangeMemesForFluidIdeoContinue>계속 하시겠습니까?</ConfirmChangeMemesForFluidIdeoContinue>
+  <ConfirmChangeMemesForFluidIdeoContinue>계속하시겠습니까?</ConfirmChangeMemesForFluidIdeoContinue>
 
   <!-- EN: role -->
   <Role>지위</Role>
@@ -197,7 +197,7 @@
   <!-- EN: Show apparel -->
   <ShowApparel>옷 표시</ShowApparel>
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
-  <PawnUnhappyWithStyleItems>다음 양식으로 인해 {PAWN_nameDef}의 기분이 나빠집니다</PawnUnhappyWithStyleItems>
+  <PawnUnhappyWithStyleItems>다음 항목으로 인해 {PAWN_nameDef}의 기분이 나빠질 것입니다</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
   <StyleCategoryDescription>양식 범주는 {IDEO_memberName}들이 만드는 건물과 의복, 무기의 외관을 바꿉니다. 하나의 물체에 적용할 수 있는 양식 범주가 여럿일 경우 가장 왼쪽의 양식 범주를 적용합니다.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
@@ -209,7 +209,7 @@
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} 양식 범주의 영향 범위</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
-  <OverriddenByStyle>{0}이 우선함</OverriddenByStyle>
+  <OverriddenByStyle>{0}(이)가 우선함</OverriddenByStyle>
   <!-- EN: New buildables -->
   <IdeoMakesBuildingBuildable>새로운 건축물</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
@@ -315,11 +315,11 @@
 
   <!-- Food restrictions -->
   <!-- EN: Vegetarian -->
-  <FoodRestrictionVegetarian>채식주의자</FoodRestrictionVegetarian>
+  <FoodRestrictionVegetarian>채식</FoodRestrictionVegetarian>
   <!-- EN: Carnivore -->
-  <FoodRestrictionCarnivore>육식 동물</FoodRestrictionCarnivore>
+  <FoodRestrictionCarnivore>육식</FoodRestrictionCarnivore>
   <!-- EN: Cannibal -->
-  <FoodRestrictionCannibal>식인종</FoodRestrictionCannibal>
+  <FoodRestrictionCannibal>식인</FoodRestrictionCannibal>
   <!-- EN: Insect meat -->
   <FoodRestrictionInsectMeat>곤충고기</FoodRestrictionInsectMeat>
 

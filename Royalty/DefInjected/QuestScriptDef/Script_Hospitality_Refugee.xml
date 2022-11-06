@@ -55,7 +55,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] 도착</li>
-    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef](이)가 도착했습니다. [lodgersPronounAlt](은)는 [questDurationTicks_duration] 동안 정착지에 머무르며 휴식하고 재편성할 것입니다.</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef](이)가 도착했습니다. [lodgersPronoun]는 [questDurationTicks_duration] 동안 정착지에 머무르며 휴식하고 재편성할 것입니다.</li>
     <li>hasHave(lodgerCount==1)-></li>
     <li>hasHave(lodgerCount>=2)-></li>
     <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일로 충격을 받았지만, 별다른 행동을 하지는 않을 것입니다.</li>
@@ -147,8 +147,8 @@
     <li>offer(lodgerCount>=2)-></li>
     <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
     <li>lodgersPronoun(lodgerCount>=2)->그들</li>
-    <li>lodgersPronounAlt(lodgerCount==1)->[asker_pronoun]</li>
-    <li>lodgersPronounAlt(lodgerCount>=2)->이들</li>
+    <li>lodgersPreposition(lodgerCount==1)->[asker_pronoun]</li>
+    <li>lodgersPreposition(lodgerCount>=2)->이들</li>
     <li>lodgersObjective(lodgerCount==1)-></li>
     <li>lodgersObjective(lodgerCount>=2)-></li>
     <li>lodgersPossessive(lodgerCount==1)-></li>
@@ -174,10 +174,10 @@
     <li>claimInfo(lodgerCount>=2)->이들은 강렬한 섬광폭풍이 집을 모두 불태웠다고 주장합니다.</li>
     <li>claimInfo(lodgerCount>=2)->이들은 습격자들이 몸만 빼고 모두 다 가져가버렸다고 주장합니다.</li>
     <li>claimInfo(lodgerCount>=2)->이들은 마을에서 있었던 도덕적 논쟁 때문에 추방당했다고 주장합니다.</li>
-    <li>joinInfo(lodgerCount==1)->[asker_objective]의 기분을 높게 유지하면 정착지 합류 의사를 밝힐 수도 있습니다.</li>
-    <li>joinInfo(lodgerCount==1)->이들의 기분을 높게 유지하면 일부 사람들이 정착지 합류 의사를 밝힐 수도 있습니다.</li>
-    <li>travelerInfo(lodgerCount==1)-></li>
-    <li>travelerInfo(lodgerCount>=2)-></li>
+    <li>joinInfo(lodgerCount==1)->[asker_pronoun]의 기분을 높게 유지하면 정착지 합류 의사를 밝힐 수도 있습니다.</li>
+    <li>joinInfo(lodgerCount>=2)->이들의 기분을 높게 유지하면 일부 사람들이 정착지 합류 의사를 밝힐 수도 있습니다.</li>
+    <li>travelerInfo(lodgerCount==1)->[faction_pawnSingular]</li>
+    <li>travelerInfo(lodgerCount>=2)->[faction_pawnsPlural]</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
@@ -267,7 +267,7 @@
     <li>betrayalOfferFailedLetterText->[faction_name]의 구성원 일부가 [map_definite]에서 나갔다는 소식이 [factionOpponent_nameDef](으)로도 전해졌습니다. [factionOpponent_nameDef](은)는 모든 [faction_name] 구성원의 사망을 원했으므로 배신 제안을 철회했습니다.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->(와)과 [lodgersLabel]</li>
-    <li>otherLodgers(lodgerCount>=2)->(와)과 [lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount>=3)->(와)과 [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)->(을)를 포함한 [faction_name]의 모든 구성원</li>
     <li>questOver->'[resolvedQuestName]' 임무가 끝났습니다.</li>
@@ -298,7 +298,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->(와)과 [lodgersLabel]</li>
-    <li>otherLodgers(lodgerCount>=2)->(와)과 [lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount>=3)->(와)과 [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)->(을)를 포함한 [faction_name]의 모든 구성원</li>
     <li>areIs(lodgerCount==1)-></li>
