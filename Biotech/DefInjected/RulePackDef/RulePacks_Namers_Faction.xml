@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <ImpidUtility.rulePack.rulesStrings>
+    <li>placeNameCore->[SylI][SylI]</li>
+    <li>placeNameCore->[SylI][SylI][SylI]</li>
+    <li>placeNameCore->[SylI][placeEnd]</li>
+    <li>placeNameCore->[SylI][SylI][placeEnd]</li>
+    <li>placeEnd->아크</li>
+    <li>placeEnd->아즈</li>
+    <li>placeEnd->에트</li>
+    <li>placeEnd->조즈</li>
+    <li>placeEnd->오크</li>
+    <li>placeEnd->오즈</li>
+    <li>placeEnd->에츠</li>
+    <li>placeEnd->에스</li>
+    <li>placeEnd->온쓰</li>
+    <li>placeEnd->인</li>
+    <li>placeEnd->익스</li>
+    <li>placeEnd->이즈</li>
+    <li>placeEnd->세즈</li>
+    <li>placeEnd->츠</li>
+    <li>placeEnd->츳</li>
+    <li>placeEnd->켄</li>
+    <li>placeEnd->케브</li>
+    <li>placeEnd->벨</li>
+  </ImpidUtility.rulePack.rulesStrings>
+  
+  <NamerFactionOutlanderPig.rulePack.rulesStrings>
+    <li>r_name(p=2)->[nameCore]</li>
+    <li>r_name->[nameCore] [political_union_outlander]</li>
+    <li>r_name->[nameCore] [political_union_outlander]</li>
+    <li>maybeHyphen(p=3)-></li>
+    <li>maybeHyphen->-</li>
+    <li>nameCore->[SylP][maybeHyphen][SylP]</li>
+    <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][SylP]</li>
+    <li>nameCore->[SylP][maybeHyphen][end]</li>
+    <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][end]</li>
+    <li>end->우</li>
+    <li>end->록</li>
+    <li>end->롬</li>
+    <li>end->꿀</li>
+    <li>end->구그</li>
+    <li>end->운드</li>
+    <li>end->우그</li>
+    <li>end->돼지</li>
+    <li>end->포그</li>
+    <li>end->모크</li>
+    <li>end->음</li>
+  </NamerFactionOutlanderPig.rulePack.rulesStrings>
+  
+  <NamerFactionPirateWaster.rulePack.rulesStrings>
+    <li>r_name->[poison] [groupname]</li>
+    <li>r_name->[poison] [men]</li>
+    <li>men->자들</li>
+    <li>men->선원</li>
+    <li>men->깡패</li>
+    <li>men->조리개들</li>
+    <li>men->약탈자들</li>
+    <li>men->광이들</li>
+    <li>men->독자</li>
+    <li>men->병마</li>
+    <li>men->황폐자</li>
+    <li>men->약탈자</li>
+    <li>men->능구렁이</li>
+    <li>men->뱀들</li>
+    <li>men->충들</li>
+    <li>men->쓰레기</li>
+  </NamerFactionPirateWaster.rulePack.rulesStrings>
+  
+  <NamerFactionPirateYttakin.rulePack.rulesStrings>
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>faction->포효가문</li>
+    <li>faction-> 부족</li>
+    <li>faction->조직</li>
+    <li>faction->함성</li>
+    <li>faction->무리</li>
+    <li>faction->가족</li>
+    <li>faction->털</li>
+    <li>faction->족함성</li>
+  </NamerFactionPirateYttakin.rulePack.rulesStrings>
+  
+  <NamerFactionTribalImpid.rulePack.rulesStrings>
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>faction->조직</li>
+    <li>faction->연합</li>
+    <li>faction->구역</li>
+    <li>faction->대구역</li>
+    <li>faction->화염구멍</li>
+    <li>faction->불구멍</li>
+  </NamerFactionTribalImpid.rulePack.rulesStrings>
+  
+  <NamerFactionTribalNeanderthal.rulePack.rulesStrings>
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [political_union_tribal]</li>
+    <li>r_name->[placeNameCore] [political_union_tribal]</li>
+  </NamerFactionTribalNeanderthal.rulePack.rulesStrings>
+  
+  <NamerSettlementOutlanderPig.rulePack.rulesStrings>
+    <li>r_name->[townname_wordgen]</li>
+    <li>maybeHyphen(p=3)-></li>
+    <li>maybeHyphen->-</li>
+    <li>townname_wordgen->[SylP][maybeHyphen][SylP]</li>
+    <li>townname_wordgen->[SylP][maybeHyphen][SylP][maybeHyphen][SylP]</li>
+    <li>townname_wordgen->[SylP][townend]</li>
+    <li>townname_wordgen->[SylP][maybeHyphen][SylP][townend]</li>
+    <li>townend->마올</li>
+    <li>townend->마울</li>
+    <li>townend->구멍</li>
+    <li>townend->동</li>
+    <li>townend->자리</li>
+    <li>townend->발</li>
+    <li>townend->곳</li>
+    <li>townend->땅</li>
+    <li>townend->가</li>
+    <li>townend->간</li>
+    <li>townend->동네</li>
+    <li>townend->다리</li>
+    <li>townend->곳간</li>
+    <li>townend->굿간</li>
+    <li>townend->바닥</li>
+    <li>townend->둥네</li>
+    <li>townend->시장</li>
+    <li>townend->지리</li>
+    <li>townend->마을</li>
+    <li>townend->구역</li>
+    <li>townend->읍</li>
+    <li>townend->돼지</li>
+  </NamerSettlementOutlanderPig.rulePack.rulesStrings>
+  
+  <NamerSettlementPirateWaster.rulePack.rulesStrings>
+    <li>r_name->[townNameWordgen]</li>
+    <li>r_name->[townNameCombo]</li>
+    <li>townNameWordgen->[SylE][SylE]</li>
+    <li>townNameWordgen->[SylE][SylE][SylE]</li>
+    <li>townNameWordgen->[SylE][townEndToxic]</li>
+    <li>townNameWordgen->[SylE][SylE][townEndToxic]</li>
+    <li>townEndToxic->톡스</li>
+    <li>townEndToxic->보어</li>
+    <li>townEndToxic->슨</li>
+    <li>townEndToxic->구역</li>
+    <li>townEndToxic->토스</li>
+    <li>townEndToxic->지역</li>
+    <li>townEndToxic->똬리</li>
+    <li>townEndToxic->필</li>
+    <li>townEndToxic->잿더미</li>
+    <li>townEndToxic->벤</li>
+    <li>townNameCombo->[poison] [town]</li>
+    <li>town->타운</li>
+    <li>town->기지</li>
+    <li>town->요새</li>
+    <li>town->항구</li>
+    <li>town->도살장</li>
+    <li>town->도축장</li>
+    <li>town->수조</li>
+  </NamerSettlementPirateWaster.rulePack.rulesStrings>
+  
+  <NamerSettlementPirateYttakin.rulePack.rulesStrings>
+    <li>r_name->[placeNameCore]</li>
+  </NamerSettlementPirateYttakin.rulePack.rulesStrings>
+  
+  <NamerSettlementTribalImpid.rulePack.rulesStrings>
+    <li>r_name->[placeNameCore]</li>
+  </NamerSettlementTribalImpid.rulePack.rulesStrings>
+  
+  <NamerSettlementTribalNeaderthal.rulePack.rulesStrings>
+    <li>r_name->[placeNameCore]</li>
+  </NamerSettlementTribalNeaderthal.rulePack.rulesStrings>
+  
+  <NeanderthalUtility.rulePack.rulesStrings>
+    <li>maybeApo(p=8)-></li>
+    <li>maybeApo->'</li>
+    <li>placeNameCore->[SylN][maybeApo][SylN]</li>
+    <li>placeNameCore->[SylN][maybeApo][SylN][maybeApo][SylN]</li>
+    <li>placeNameCore->[SylN][maybeApo][placeEnd]</li>
+    <li>placeNameCore->[SylN][maybeApo][SylN][maybeApo][placeEnd]</li>
+    <li>placeEnd->일스</li>
+    <li>placeEnd->일트</li>
+    <li>placeEnd->이그</li>
+    <li>placeEnd->페그</li>
+    <li>placeEnd->든</li>
+    <li>placeEnd->토어</li>
+    <li>placeEnd->보그</li>
+    <li>placeEnd->튼</li>
+    <li>placeEnd->텐</li>
+    <li>placeEnd->무어</li>
+    <li>placeEnd->무크</li>
+    <li>placeEnd->문</li>
+    <li>placeEnd->무시</li>
+    <li>placeEnd->만</li>
+    <li>placeEnd->벨</li>
+    <li>placeEnd->실</li>
+    <li>placeEnd->송크</li>
+    <li>placeEnd->수드</li>
+  </NeanderthalUtility.rulePack.rulesStrings>
+  
+  <WasterUtility.rulePack.rulesStrings>
+    <li>poison->독</li>
+    <li>poison->독소</li>
+    <li>poison->독성</li>
+    <li>poison->호흡곤란</li>
+    <li>poison->가스</li>
+    <li>poison->약</li>
+    <li>poison->광이</li>
+    <li>poison->바이러스</li>
+    <li>poison->독액</li>
+    <li>poison->종양</li>
+    <li>poison->독약</li>
+    <li>poison->황폐</li>
+    <li>poison->독기</li>
+    <li>poison->오물</li>
+    <li>poison->폐기물</li>
+    <li>poison->오염</li>
+    <li>poison->부식</li>
+    <li>poison->쓰레기</li>
+    <li>poison->해충</li>
+  </WasterUtility.rulePack.rulesStrings>
+  
+  <YttakinUtility.rulePack.rulesStrings>
+    <li>placeNameCore->[SylY][SylY]</li>
+    <li>placeNameCore->[SylY][SylY][SylY]</li>
+    <li>placeNameCore->[SylY][placeEnd]</li>
+    <li>placeNameCore->[SylY][SylY][placeEnd]</li>
+    <li>placeEnd->이쉬</li>
+    <li>placeEnd->싯트</li>
+    <li>placeEnd->윗트</li>
+    <li>placeEnd->웟트</li>
+    <li>placeEnd->워시</li>
+    <li>placeEnd->바르그</li>
+    <li>placeEnd->부르크</li>
+    <li>placeEnd->버쉬</li>
+    <li>placeEnd->버그</li>
+    <li>placeEnd->비트</li>
+    <li>placeEnd->바이온</li>
+    <li>placeEnd->덴</li>
+    <li>placeEnd->젠</li>
+    <li>placeEnd->율</li>
+    <li>placeEnd->야</li>
+    <li>placeEnd->이쉬</li>
+    <li>placeEnd->잇트</li>
+    <li>placeEnd->이스</li>
+    <li>placeEnd->인</li>
+  </YttakinUtility.rulePack.rulesStrings>
+</LanguageData>

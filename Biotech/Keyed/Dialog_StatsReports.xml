@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <StatsReport_Genes>관련 유전자</StatsReport_Genes>
+  <StatsReport_InSunlight>햇빛에 노출</StatsReport_InSunlight>
+  <StatsReport_Clothed>옷 입음</StatsReport_Clothed>
+  <StatsReport_Unclothed>옷 없음</StatsReport_Unclothed>
+
+  <StatsReport_RechargerWeightClass>요구 크기</StatsReport_RechargerWeightClass>
+  <StatsReport_RechargerWeightClass_Desc>이 충전기를 사용할 수 있는 메카노이드 크기입니다. 다음과 같은 메카노이드가 사용할 수 있습니다</StatsReport_RechargerWeightClass_Desc>
+
+  <StatsReport_RechargerNeeded>사용 충전기</StatsReport_RechargerNeeded>
+  <StatsReport_RechargerNeeded_Desc>이 메카노이드가 에너지를 충전하는 데 사용할 수 있는 충전기 유형입니다. 메카노이드의 크기에 기반합니다.</StatsReport_RechargerNeeded_Desc>
+
+  <StatsReport_DeathrestEffectiveness>죽음안식 효율</StatsReport_DeathrestEffectiveness>
+  <StatsReport_DeathrestEffectiveness_Desc>죽음안식을 할 때 얼마나 효과적인지에 대한 계수입니다. 이 값이 높을수록 사용자가 죽음안식을 해야 하는 시간이 줄어듭니다.</StatsReport_DeathrestEffectiveness_Desc>
+
+  <StatsReport_DeathrestConnectionLimit>죽음안식 연결 한계</StatsReport_DeathrestConnectionLimit>
+  <StatsReport_DeathrestConnectionLimit_Desc>이 장치 중 얼마나 많은 장치가 죽음안식 중인 사람에게 연결될 수 있을까요? 그 갯수는 해당 사람의 죽음안식 수용량에 의해 제한됩니다.</StatsReport_DeathrestConnectionLimit_Desc>
+
+  <StatsReport_GrowthTier>성장 등급</StatsReport_GrowthTier>
+  <StatsReport_GrowthTierDesc>아이들은 시간이 지남에 따라 성장 등급을 거쳐갑니다. 학습 욕구가 높을 수록 성장 등급 진행 속도도 빨라집니다. 성장의 순간(7세, 10세, 13세)이 왔을 때 아이의 성장 등급이 높으면 선택 가능한 특성과 열정의 종류가 많아집니다. 성장의 순간이 지나면 성장 등급은 다시 초기화됩니다.</StatsReport_GrowthTierDesc>
+
+  <StatsReport_DevelopmentStage>성장 단계</StatsReport_DevelopmentStage>
+  <StatsReport_DevelopmentStageDesc_Baby>아기입니다. 아기는 스스로 움직일 수 없습니다. 아기들의 생활은 음식, 수면, 놀이 등 단순한 욕구를 중심으로 이루어집니다. 웃으면 주변 어른들의 기분이 좋아지지만 울면 짜증을 냅니다.\n\n인간의 아기는 3살이 되면 어린이가 됩니다.</StatsReport_DevelopmentStageDesc_Baby>
+  <StatsReport_DevelopmentStageDesc_ChildPart1>어린이입니다. 일반적으로 어린이들은 성인보다 느리고 기술이 부족합니다. 그러나 어린이들은 매우 긍정적이고, 기분이 좋으면 주변 성인 정착민들에게도 좋은 영향을 줍니다.\n\n어린이들은 나이에 따라 다양한 종류의 일을 할 수 있습니다</StatsReport_DevelopmentStageDesc_ChildPart1>
+  <StatsReport_DevelopmentStageDesc_ChildPart2>어린이들은 나이가 들면 추가 열정과 특성을 얻게 됩니다.\n\n어린이들은 특별한 학습 욕구를 가지며, 아동용 의류가 따로 필요합니다.\n\n인간의 아이는 13살이 되면 성인이 됩니다.</StatsReport_DevelopmentStageDesc_ChildPart2>
+  <StatsReport_DevelopmentStageDesc_Adult>성인입니다. 인간은 18세에 완전히 성숙합니다.</StatsReport_DevelopmentStageDesc_Adult>
+
+  <StatsReport_Pollution>오염에 대한 계수</StatsReport_Pollution>
+
+  <StatsReport_FertilityAgeFactor>연령 요인</StatsReport_FertilityAgeFactor>
+  <StatsReport_HasGene>{0_label} 유전자 보유</StatsReport_HasGene>
+  <StatsReport_NonBaselinerDescription>{0} 인종형의 인간입니다.\n\n{0}란:</StatsReport_NonBaselinerDescription>
+  
+  <Stat_Thing_Apparel_ValidLifestage>성장 단계</Stat_Thing_Apparel_ValidLifestage>
+  <Stat_Thing_Apparel_ValidLifestage_Desc>어떤 의류는 착용자의 나이가 조건에 맞아야 입을 수 있습니다.</Stat_Thing_Apparel_ValidLifestage_Desc>
+
+  <StatsReport_Connected>{0} 연결됨</StatsReport_Connected>
+
+  <Effects>효과</Effects>
+  <StatsReport_MissingGeneRomanceChance>이 유전자가 없는 사람과 낭만적인 관계를 가질 확률에 대한 계수입니다.</StatsReport_MissingGeneRomanceChance>
+  <ImmuneTo>다음에 면역</ImmuneTo>
+  <SocialFightChanceFactor>사교적 다툼 계수</SocialFightChanceFactor>
+  <AggroMentalBreakSelectionChanceFactor>정신이상이 폭력적일 확률</AggroMentalBreakSelectionChanceFactor>
+  <PrisonBreakIntervalFactor>탈옥 주기 계수</PrisonBreakIntervalFactor>
+  <WillNeverPrisonBreak>절대 탈옥하지 않습니다.</WillNeverPrisonBreak>
+  <AlwaysAggroMentalBreak>정신이상이 항상 폭력적입니다.</AlwaysAggroMentalBreak>
+  <NeverAggroMentalBreak>폭력적인 정신이상을 겪지 않습니다.</NeverAggroMentalBreak>
+  <AddictionChanceFactor>{0_label} 중독 확률 계수</AddictionChanceFactor>
+  <AddictionImmune>{0_label} 중독에 면역입니다.</AddictionImmune>
+  <FoodPoisoningImmune>식중독에 면역입니다.</FoodPoisoningImmune>
+  <WillNeverSocialFight>절대 사교적 다툼을 시작하지 않습니다.</WillNeverSocialFight>
+  <AgeFactors>성장 계수</AgeFactors>
+  <UnaffectedByDarkness>작업속도가 어둠의 영향을 받지 않습니다.</UnaffectedByDarkness>
+  <PassionModAdd>{0_label}의 열정을 한단계 증가시킵니다.</PassionModAdd>
+  <PassionModDrop>{0_label}의 모든 열정을 제거합니다.</PassionModDrop>
+  <CausesNeed>욕구 생성</CausesNeed>
+  <GivesAbility>다음 능력을 제공</GivesAbility>
+  <GivesAbilities>다음 능력들을 제공</GivesAbilities>
+  <ResourceLossPerDay>{RESOURCE}: 매일 {OFFSET}</ResourceLossPerDay>
+  <Removes>다음을 제거</Removes>
+  <DisablesNeed>다음 욕구를 비활성화</DisablesNeed>
+  <DisablesNeeds>다음 욕구들을 비활성화</DisablesNeeds>
+  <DevelopmentStage_Baby>아기</DevelopmentStage_Baby>
+  <DevelopmentStage_Child>어린이</DevelopmentStage_Child>
+  <DevelopmentStage_Adult>성인</DevelopmentStage_Adult>
+
+</LanguageData>

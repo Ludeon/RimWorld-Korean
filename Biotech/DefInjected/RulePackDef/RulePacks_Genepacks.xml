@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <NamerGenepack.rulePack.rulesStrings>
+    <li>r_name->유전자팩 ([geneWord][otherGenesInfo])</li>
+    <li>otherGenesInfo(geneCount==1)-></li>
+    <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
+  </NamerGenepack.rulePack.rulesStrings>
+  
+  <NamerXenotype.rulePack.rulesStrings>
+    <li>r_name(p=1)->[anyPrefix][anySuffix]</li>
+    <li>r_name(p=0.1)->[wholeName]</li>
+    <li>anyPrefix(p=2)->[genePrefix]</li>
+    <li>anyPrefix->[commonPrefix]</li>
+    <li>anySuffix->[geneSuffix]</li>
+    <li>anySuffix(p=3)->[commonSuffix]</li>
+    <li>commonPrefix->외계</li>
+    <li>commonPrefix->대체</li>
+    <li>commonPrefix->절대</li>
+    <li>commonPrefix->강력</li>
+    <li>commonPrefix->불량</li>
+    <li>commonPrefix->외</li>
+    <li>commonPrefix->내림</li>
+    <li>commonPrefix->고</li>
+    <li>commonPrefix->발</li>
+    <li>commonPrefix->안</li>
+    <li>commonPrefix->밖</li>
+    <li>commonPrefix->위</li>
+    <li>commonPrefix->아래</li>
+    <li>commonPrefix->혼합</li>
+    <li>commonPrefix->혼돈</li>
+    <li>commonPrefix->신식</li>
+    <li>commonPrefix->신형</li>
+    <li>commonPrefix->미친</li>
+    <li>commonPrefix->만능</li>
+    <li>commonPrefix->무능한</li>
+    <li>commonPrefix->뛰어난</li>
+    <li>commonPrefix->미천한</li>
+    <li>commonPrefix->빼어난</li>
+    <li>commonPrefix->갈</li>
+    <li>commonPrefix->당</li>
+    <li>commonPrefix->기</li>
+    <li>commonPrefix->공</li>
+    <li>commonPrefix->실</li>
+    <li>commonPrefix->전</li>
+    <li>commonPrefix->초</li>
+    <li>commonPrefix->우수</li>
+    <li>commonPrefix->속</li>
+    <li>commonPrefix->월</li>
+    <li>commonPrefix->연</li>
+    <li>commonPrefix(p=0)-></li>
+    <li>commonSuffix->종</li>
+    <li>commonSuffix->자</li>
+    <li>commonSuffix->인간</li>
+    <li>commonSuffix->인종</li>
+    <li>commonSuffix->놈</li>
+    <li>commonSuffix->이</li>
+    <li>commonSuffix->살이</li>
+    <li>commonSuffix->종족</li>
+    <li>commonSuffix->개</li>
+    <li>commonSuffix->이드</li>
+    <li>commonSuffix->인</li>
+    <li>commonSuffix->일</li>
+    <li>commonSuffix->민족</li>
+    <li>commonSuffix->자손</li>
+    <li>commonSuffix->올</li>
+    <li>commonSuffix->옥이</li>
+    <li>commonSuffix->보</li>
+    <li>commonSuffix->돌이</li>
+    <li>commonSuffix->우자</li>
+    <li>commonSuffix->우</li>
+    <li>commonSuffix->미</li>
+  </NamerXenotype.rulePack.rulesStrings>
+</LanguageData>

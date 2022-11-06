@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <SanguophageMeetingHost.questContentRules.rulesStrings>
+    <li>sanguophagesArriveLetterLabel->생귀오파지 도착함</li>
+    <li>sanguophagesArriveLetterText->열방의 생귀오파지들이 [sanguophageCount]명이 [map_definite]에 모여들고 있습니다. 그들은 정착지에서 만나 그들의 회의를 할것입니다.</li>
+    <li>argumentLetterLabel->생귀오파지 말싸움</li>
+    <li>argumentLetterText->생귀오파지들의 대화가 격해지더니 이제는 폭력을 쓰기 시작합니다.</li>
+    <li>successLetterLabel->회의 완료</li>
+    <li>successLetterText->생귀오파지들이 그들의 회의를 마쳤고 당신에게 보상을 주려 합니다.</li>
+    <li>raidArrivedLetterLabel->흡혈귀 사냥꾼</li>
+    <li>raidArrivedLetterText->[enemyFaction_name]에서 온 흡혈귀 사냥꾼 한 무리가 접근중입니다!\n\n그들은 회의를 하고있는 생귀오파지들은 물론, 이들에게 자리를 내어준 이들또한 공격 할 것입니다.</li>
+  </SanguophageMeetingHost.questContentRules.rulesStrings>
+  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameDef](이)라는 이름의 생귀오파지 한명이 [sanguophageCountMinusOne]명의 다른 [sanguophageSingOrPlural](와)과 추적을 피해 회의를 할 안전한 장소를 찾고 있습니다. 그들의 지도자인 [asker_nameDef](이)가 [map_definite]에서 회의를 해도 되는지 묻습니다.\n\n수락하게되면 [sanguophageCount]명의 생귀오파지가 사방에서 [map_definite](으)로 도착할 것입니다. 이들은 수 시간동안 그들의 비밀스러운 문제에 대해 의논하고 떠날 것입니다. 그들은 떠나기전에 보상을 해줄것을 약속합니다.\n\n당신은 이들을 배신하고 공격할 수 있습니다. 포획한 생귀오파지는 당신의 정착민을 그들과 같은 종으로 만들 수 있습니다.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->생귀오파지</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->생귀오파지들</li>
+    <li>sanguophageInfo->(*Gray)생귀오파지는 초월입자가 피에 흐르는 불로불사의 존재들입니다. 이들은 아름답고 극도로 지능적입니다. 이들은 어떤 부상이던 회복할 수 있고, 병이나 독으로부터 자유롭습니다. 전투시, 날카로운 돌기를 쏘아내며 부상입은 아군을 치료할 수 있습니다. 생귀오파지는 그 댓가로 생존을 위해 사람의 피를 섭취하고 정기적으로 긴 죽음안식을 취해야합니다. 이들은 불에 쉽게 피해를 받으며, 자외선으로 인해 느려집니다.(/Gray)</li>
+  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+  <SanguophageMeetingHost.questNameRules.rulesStrings>
+    <li>questName->[meetAdjective] [meetNoun]</li>
+    <li>meetAdjective->생귀오파지</li>
+    <li>meetAdjective->피에 굶주린</li>
+    <li>meetAdjective->피의</li>
+    <li>meetAdjective->그림자속</li>
+    <li>meetAdjective->어둠의</li>
+    <li>meetAdjective->진홍빛</li>
+    <li>meetAdjective->붉은</li>
+    <li>meetAdjective->흉터진</li>
+    <li>meetAdjective->흐르는 피의</li>
+    <li>meetAdjective->핏빛</li>
+    <li>meetNoun->만남</li>
+    <li>meetNoun->주최</li>
+    <li>meetNoun->모임</li>
+    <li>meetNoun->결합</li>
+    <li>meetNoun->집회</li>
+    <li>meetNoun->비밀 회의</li>
+    <li>meetNoun->회의</li>
+    <li>meetNoun->협상</li>
+  </SanguophageMeetingHost.questNameRules.rulesStrings>
+</LanguageData>

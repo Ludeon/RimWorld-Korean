@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->메카노이드 함선</li>
+    <li>mechanitorShuttleCrashedLetterText->메카나이터 함선이 근처로 추락했습니다. 제어를 벗어난 내부의 메카노이드들이 함선에서 나와 전투를 준비할 것입니다.</li>
+    <li>assaultBeginLetterLabel->메카노이드 습격</li>
+    <li>assaultBeginLetterText->제어에서 벗어난 메카노이드들이 정착지를 공격하기 위해 접근 중입니다!</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]의 메카노이드 링크 사용 가능</li>
+    <li>mechlinkAvailableLetterText->메카나이터의 유해가 포함된 고대 함선이 근처로 추락했습니다.\n\n정착지 주민을 선택하고 유해를 마우스 오른쪽 버튼으로 클릭하여 메카노이드 링크를 추출하세요.</li>
+  </MechanitorShip.questContentRules.rulesStrings>
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->고대 통신기를 해독하자 궤도의 메카나이터 함선 위치가 나타났습니다. 이 함선은 심각하게 손상됐지만 신호를 보내면 근처에 착륙할 것입니다.\n\n함선에는 오래 전에 사망한 메카나이터의 유해가 들어있습니다. 메카나이터들은 메카노이드를 제작하고 제어할 수 있는데, 유해에서 메카노이드 링크를 꺼내 정착민에게 이식하면 새로운 메카나이터로 만들 수 있습니다.\n\n조심하세요. 이 함선에는 적대적인 메카노이드들도 탑승하고 있습니다. 메카노이드 목록은 다음과 같습니다.\n\n[mechList]</li>
+  </MechanitorShip.questDescriptionRules.rulesStrings>
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->메카나이터</li>
+    <li>shipAdjective->통제자의</li>
+    <li>shipAdjective->고대</li>
+    <li>shipAdjective->메카노이드</li>
+    <li>shipNoun->함선</li>
+    <li>shipNoun->왕복선</li>
+    <li>shipNoun->우주선</li>
+    <li>shipNoun->난파선</li>
+    <li>shipNoun->잔해</li>
+    <li>shipNoun->수송선</li>
+  </MechanitorShip.questNameRules.rulesStrings>
+</LanguageData>

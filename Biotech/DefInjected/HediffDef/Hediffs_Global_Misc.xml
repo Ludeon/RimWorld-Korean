@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <InfantIllness.label>신생아 질환</InfantIllness.label>
+  <InfantIllness.description>출생 합병증으로 인한 영향입니다. 아기가 생후 10일동안 생존하면 스스로 회복 할 수 있을만큼 건강해질 것 입니다.\n\n아기의 상태는 시간이 지남에 따라 악화되거나 호전될 것이며 이는 다양한 수준의 약품과 치료를 필요로 합니다.</InfantIllness.description>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>{PAWN_labelShort}의 유아 질병이 {1}에서 {2}(으)로 변경되었습니다.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.descriptionExtra>번화계 약품과 뛰어난 치료 없이는 위험합니다.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.descriptionExtra>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>심각한</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.descriptionExtra>적절한 약품과 치료 없이는 위험합니다.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.descriptionExtra>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.labelPrefix>나쁜</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.labelPrefix>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>기본적인 약품과 치료 없이는 위험할 수도 있습니다.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.labelPrefix>흔한</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.labelPrefix>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>아이가 약간 아프지만, 스스로 회복할 수 있을 정도입니다.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.labelPrefix>약한</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.labelPrefix>
+  <InfantIllness.descriptionShort>신생아가 겪는 다양한 질환의 증상입니다.</InfantIllness.descriptionShort>
+  <InfantIllness.stages.minor.label>가벼움</InfantIllness.stages.minor.label>
+  <InfantIllness.stages.major.label>심각함</InfantIllness.stages.major.label>
+  <InfantIllness.stages.extreme-0.label>위험</InfantIllness.stages.extreme-0.label>
+  <InfantIllness.stages.extreme-1.label>위험</InfantIllness.stages.extreme-1.label>
+  
+  <Lactating.label>수유 가능</Lactating.label>
+  <Lactating.description>아기에게 모유를 먹일 수 있는 상태입니다. 유방은 계속해서 우유를 생산하고 저장합니다. 수유 상태는 산모가 출산할 때부터 시작되고, 10일에 한 번 이상 아기에게 모유 수유를 하면 무기한 지속됩니다.</Lactating.description>
+  <Lactating.comps.HediffComp_MessageOnRemoval.message>{0}(은)는 10일 동안 모유 수유를 하지 않아 더 이상 수유하지 않습니다.</Lactating.comps.HediffComp_MessageOnRemoval.message>
+  <Lactating.comps.HediffComp_Lactating.labelInBrackets>모유 양: {CHARGEFACTOR_percentage}</Lactating.comps.HediffComp_Lactating.labelInBrackets>
+  <Lactating.comps.HediffComp_RemoveIfOtherHediff.message>{0}(은)는 영양실조로 인해 더 이상 수유할 수 없습니다.</Lactating.comps.HediffComp_RemoveIfOtherHediff.message>
+  
+  <MorningSickness.label>입덧</MorningSickness.label>
+  <MorningSickness.description>임신의 흔한 부작용입니다. 입덧이 진행되는 동안 산모는 메스꺼움, 현기증, 집중력 저하를 겪습니다.</MorningSickness.description>
+  
+  <OvumExtracted.label>난자 추출됨</OvumExtracted.label>
+  <OvumExtracted.description>최근에 난자 추출 시술을 받았습니다. 시간이 지나기 전에는 더 추출할 수 없습니다.</OvumExtracted.description>
+  
+  <PollutionStimulus.label>오염 자극</PollutionStimulus.label>
+  <PollutionStimulus.description>이 생명체는 오염물질에 노출되어 활력을 얻었습니다.\n\n오염물질자극 반응은 원래 거대 곤충들이 대 메카노이드 생체병기로 활용될 수 있도록 유전적으로 설계된 생체반응입니다. 그러나 이는 나중에 사람들이 오염된 지역에서도 활동할 수 있도록 사용되었습니다.</PollutionStimulus.description>
+  <PollutionStimulus.descriptionShort>이 생명체는 오염에 노출되어 활력을 얻었습니다.</PollutionStimulus.descriptionShort>
+  <PollutionStimulus.stages.minor.label>약간</PollutionStimulus.stages.minor.label>
+  <PollutionStimulus.stages.moderate.label>중간</PollutionStimulus.stages.moderate.label>
+  <PollutionStimulus.stages.maximum.label>최대</PollutionStimulus.stages.maximum.label>
+  
+  <PostpartumExhaustion.label>산후 탈진</PostpartumExhaustion.label>
+  <PostpartumExhaustion.description>출산 후의 일반적인 증상입니다. 신체적으로 회복할 시간이 필요합니다.</PostpartumExhaustion.description>
+  
+  <PregnancyLabor.label>산통 (분만1기)</PregnancyLabor.label>
+  <PregnancyLabor.description>출산이 눈앞입니다. 산통은 여러 단계의 통증과 수축 단계를 거칩니다. 통증의 단계는 계속 오르내리며, 예측할 수 없습니다. 산통은 아이가 태어난 후 끝납니다.</PregnancyLabor.description>
+  <PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>{PAWN_labelShort}의 산통이 {1}에서 {2}(으)로 바뀌었습니다.</PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>
+  <PregnancyLabor.stages.mild.label>약함</PregnancyLabor.stages.mild.label>
+  <PregnancyLabor.stages.intense.label>강함</PregnancyLabor.stages.intense.label>
+  <PregnancyLabor.stages.debilitating.label>극심함</PregnancyLabor.stages.debilitating.label>
+  
+  <PregnancyLaborPushing.label>산통 (분만2기)</PregnancyLaborPushing.label>
+  <PregnancyLaborPushing.description>산도를 내려오는 아기를 산모가 밀어내고 있습니다. 탄생이 임박했습니다.</PregnancyLaborPushing.description>
+  
+  <PregnancyMood.label>임신 기분 변화</PregnancyMood.label>
+  <PregnancyMood.description>임신의 흔한 부작용입니다. 호르몬 균형이 무너져 발생하는 기분의 상승과 하락을 통칭합니다.</PregnancyMood.description>
+  
+  <PregnantHuman.label>임신</PregnantHuman.label>
+  <PregnantHuman.description>배아가 산모 안에서 자라나고 있습니다. 임신기간은 18일이며, 이는 3분기로 나뉩니다. 임신이 진행됨에 따라 산모의 움직임이 제한됩니다. 일부 산모의 경우, 임신은 견디기 힘들 수 있는 메스꺼움이나 기분변화를 겪게 됩니다.</PregnantHuman.description>
+  <PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} 임신</PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>
+  <PregnantHuman.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort}(이)가 임신했습니다!</PregnantHuman.comps.HediffComp_MessageAfterTicks.letterText>
+  <PregnantHuman.labelNoun>임신</PregnantHuman.labelNoun>
+  <PregnantHuman.stages.first_trimester.label>제1삼분기</PregnantHuman.stages.first_trimester.label>
+  <PregnantHuman.stages.second_trimester.label>제2삼분기</PregnantHuman.stages.second_trimester.label>
+  <PregnantHuman.stages.third_trimester.label>제3삼분기</PregnantHuman.stages.third_trimester.label>
+  
+  <Stillborn.label>사산</Stillborn.label>
+  <Stillborn.description>이 아기는 임신 중 불특정 합병증으로 사망했습니다.</Stillborn.description>
+</LanguageData>

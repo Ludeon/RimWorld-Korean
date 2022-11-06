@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BloodTransfusion.label>수혈</BloodTransfusion.label>
+  <BloodTransfusion.description>출혈을 줄이기 위해 혈액팩을 사용하십시오. 사용된 각 혈액팩마다 35%의 출혈률을 회복합니다. 또한 이 수술은 흡혈성 인간의 혈액 정수량을 회복시킵니다.</BloodTransfusion.description>
+  <BloodTransfusion.jobString>{TargetA}에게 수혈 중.</BloodTransfusion.jobString>
+  
+  <ExtractHemogenPack.label>혈액팩 추출</ExtractHemogenPack.label>
+  <ExtractHemogenPack.description>대상에게서 혈액팩을 추출합니다. 대상이 충분한 혈액을 가지고 있지 않으면 혈액팩이 생성되지 않습니다.\n\n혈액팩은 다른 이들에게 투여되어 출혈 정도를 줄이거나 혈액을 먹는 이들에게 필요한 포만감을 제공합니다.</ExtractHemogenPack.description>
+  <ExtractHemogenPack.jobString>혈액팩을 추출하는 중.</ExtractHemogenPack.jobString>
+  
+  <ExtractOvum.label>체외수정용 난자 추출</ExtractOvum.label>
+  <ExtractOvum.description>난자를 저장용 캡슐로 추출합니다. 이는 남자가 수정 할 수 있으며, 다시 대리모에 몸에 넣어 잉태시킬 수 있습니다.</ExtractOvum.description>
+  <ExtractOvum.jobString>{TargetA}(으)로 부터 난자 추출중.</ExtractOvum.jobString>
+  
+  <ImplantEmbryo.label>배아 이식</ImplantEmbryo.label>
+  <ImplantEmbryo.description>배아를 대리모에게 이식하여 임신 과정을 시작합니다.</ImplantEmbryo.description>
+  <ImplantEmbryo.jobString>{TargetA}에게 배아 이식중.</ImplantEmbryo.jobString>
+  
+  <ImplantIUD.label>IUD 이식</ImplantIUD.label>
+  <ImplantIUD.description>임신을 방지시켜주는 작은 금속장치를 자궁에 설치합니다. 이는 나중에 제거될 수 있지만, 적은 확률로 환자를 영구불임 상태로 만들 가능성이 있습니다. 이 시술은 1분기 산모의 임신을 종료시킵니다.</ImplantIUD.description>
+  <ImplantIUD.jobString>{TargetA}에게 IUD 이식중.</ImplantIUD.jobString>
+  <ImplantIUD.successfullyRemovedHediffMessage>{0}(이)가 {1}에게 성공적으로 IUD를 삽입했습니다.</ImplantIUD.successfullyRemovedHediffMessage>
+  
+  <ImplantXenogerm.label>변형이식체 이식</ImplantXenogerm.label>
+  <ImplantXenogerm.description>환자에게 변형이식체를 이식합니다. 이는 전에 이식된 변형이식체를 대체합니다.</ImplantXenogerm.description>
+  <ImplantXenogerm.jobString>변형이식체 삽입중.</ImplantXenogerm.jobString>
+  
+  <RemoveIUD.label>IUD 제거</RemoveIUD.label>
+  <RemoveIUD.description>설치된 IUD를 제거하여 정상적으로 임신이 가능하게 합니다. 수술에 실패하면 환자는 영구적으로 불임이 됩니다.</RemoveIUD.description>
+  <RemoveIUD.jobString>{TargetA}(으)로 부터 IUD 제거중.</RemoveIUD.jobString>
+  <RemoveIUD.successfullyRemovedHediffMessage>{0}(이)가 {1}의 IUD를 성공적으로 제거했습니다.</RemoveIUD.successfullyRemovedHediffMessage>
+  
+  <ReverseVasectomy.label>정관 복원 수술</ReverseVasectomy.label>
+  <ReverseVasectomy.description>정관수술을 되돌려 다시 아이를 낳을 수 있도록 합니다. 왠만한 정관복원 수술은 성공하지만, 실패 시 영구적 불임을 일으킬 수 있습니다.</ReverseVasectomy.description>
+  <ReverseVasectomy.jobString>{TargetA}에게 정관 복원 수술중.</ReverseVasectomy.jobString>
+  <ReverseVasectomy.successfullyRemovedHediffMessage>{0}(은)는 {1}의 정관 수술을 성공적으로 마쳤습니다.</ReverseVasectomy.successfullyRemovedHediffMessage>
+  
+  <TerminatePregnancy.label>임신 중절 수술</TerminatePregnancy.label>
+  <TerminatePregnancy.description>동물이나 사람의 임신을 중절합니다.</TerminatePregnancy.description>
+  <TerminatePregnancy.jobString>{TargetA}에게 임신 중절 수술중.</TerminatePregnancy.jobString>
+  
+  <TubalLigation.label>난관 결찰 수술</TubalLigation.label>
+  <TubalLigation.description>대상을 영구적으로 불임 상태로 만들어 생식할 수 없도록 합니다.</TubalLigation.description>
+  <TubalLigation.jobString>{TargetA}에게 난관 결찰 수술중.</TubalLigation.jobString>
+  <TubalLigation.successfullyRemovedHediffMessage>{0}(은)는 {1}의 난관 결찰 수술을 성공적으로 마쳤습니다.</TubalLigation.successfullyRemovedHediffMessage>
+  
+  <Vasectomy.label>정관 수술</Vasectomy.label>
+  <Vasectomy.description>대상이 생식할 수 없도록 정관을 절단합니다. 수술이 잘못되면 대상은 영구적으로 불임 상태가 됩니다.</Vasectomy.description>
+  <Vasectomy.jobString>{TargetA}에게 정관 수술중.</Vasectomy.jobString>
+  <Vasectomy.successfullyRemovedHediffMessage>{0}(은) {1}의 정관 수술을 성공적으로 마쳤습니다.</Vasectomy.successfullyRemovedHediffMessage>
+</LanguageData>

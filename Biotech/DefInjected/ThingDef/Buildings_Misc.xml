@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BandNode.label>대역폭 확장기</BandNode.label>
+  <BandNode.description>메카노이드 대역 신호 증폭기입니다. 대역폭 확장기는 메카나이터 한 명에게 조율되어야 하며, 해당 메카나이터의 최대 대역폭을 1 확장시켜 더 많은 메카노이드를 통제할 수 있도록 합니다.\n\n대역폭 확장기를 건설한 후 첫 조율은 빠르게 가능하지만, 이미 조율한 확장기를 다른 메카나이터에게 조율할 땐 훨씬 긴 시간이 필요합니다.</BandNode.description>
+  
+  <BurnoutMechlinkBooster.label>메카노이드 통신대역 안테나</BurnoutMechlinkBooster.label>
+  <BurnoutMechlinkBooster.description>메카노이드 대역 신호장치 입니다. 작동되었을 시 강력한 메카노이드 신호파장을 내보내어 초중량 제어불가 메카노이드와 그 호위를 유인할 것 입니다. 이들을 쓰러트린다면 그 잔해에서 특수한 부품을 회수할 수 있습니다. 신호파장은 송신기를 태워버리므로 이 건물은 한번만 사용 가능합니다.</BurnoutMechlinkBooster.description>
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>워퀸 위협 호출</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  
+  <GeneAssembler.label>유전자 조합기</GeneAssembler.label>
+  <GeneAssembler.description>근처 유전자 저장고에 저장된 유전자묶음으로 삽입 가능한 변형이식체을 만드는데 필요한 작업대입니다. 변형이식체 생성에 유전자묶음은 소비되지 않으며 재사용 할 수 있습니다.</GeneAssembler.description>
+  
+  <GeneBank.label>유전자 저장고</GeneBank.label>
+  <GeneBank.description>이 건물은 유전자 조합기 근처에 배치되었을 시, 변형이식체를 만드는데 필요한 유전자묶음을 저장하고 제공합니다. 유전자 저장고가 더 많이 지어질 수록 더 많은 양의 유전자묶음을 저장 할 수 있습니다.\n\n전력이 공급된동안 유전자 저장고는 유전자묶음의 부패를 방지하고 피해를 천천히 복구합니다.</GeneBank.description>
+  
+  <GeneExtractor.label>유전자 추출기</GeneExtractor.label>
+  <GeneExtractor.description>사람의 유전자를 추출하여 유전자묶음을 만드는 자동 수술기계입니다. 추출되는 유전자는 대상이 가지고 있는 변형인자나 생식성 유전자 중 무작위로 선택됩니다. 강제로 이 기계를 사용하게 할 수 있지만, 대상은 좋아하지 않을겁니다.\n\n유전자 추출은 대부분 영구적 피해를 남기지는 않지만, 유전자가 재성장중인 사람에게서 추출을 하면 대상은 죽게됩니다.\n\n초월입자 캡슐이 필요한 유전자는 너무 복잡하여 추출 할 수 없습니다.</GeneExtractor.description>
+  
+  <GeneProcessor.label>유전자 처리기</GeneProcessor.label>
+  <GeneProcessor.description>유전자 분석 및 처리 장치입니다. 유전자 조합기 근처에 배치하여 변형이식체 생성시의 최대 복잡성을 늘릴 수 있습니다. 추가적인 유전자 처리기는 최대 복잡성을 더욱 높일 수 있습니다.</GeneProcessor.description>
+  
+  <GrowthVat.label>성장 배양기</GrowthVat.label>
+  <GrowthVat.description>태아를 배양하거나 아이의 성장을 가속시킬 수 있는 액체가 담긴 수조입니다.\n\n성장 혹은 배양시, 이 기계는 꾸준한 양의 영양분을 보급받아 성장에 필요한 재료를 마련해 줘야 합니다. 태아 배양에는 성장 가속보다 두배 많은 양의 양분이 요구됩니다.\n\n배아는 태아로 성장할때 까지 9일의 시간이걸리며, 합병증의 위험이 있습니다.\n\n아이의 성장 가속은 18살 까지만 가능하며, 아이의 기술이 느린속도로 향상됩니다. 성장 배양기에서 자란 아이들은 다른 아이들보다 낮은 기술과 적은 열정을 가지게 됩니다.\n\n이 장치는 약물투여, 전기 자극, 그리고 간단한 기계입자 치료를 사용해 신체의 성장을 촉진시킵니다. 성장 배양기는 주로 유전자 조작을 거친 노동자나 군인을 빠르게 생산할때 쓰였습니다.</GrowthVat.description>
+  
+  <MechBooster.label>메카노이드 증강기</MechBooster.label>
+  <MechBooster.description>원격 출력 및 계산 향상 장치입니다. 영향 범위 내 아군 메카노이드는 더 빠르게 움직이고 작동합니다.</MechBooster.description>
+  
+  <MechbandDish.label>메카노이드 통신대역 접시안테나</MechbandDish.label>
+  <MechbandDish.description>일반 메카노이드 통신대역 안테나보다 더 강력한 메카노이드 대역 신호장치 입니다. 사용 시 초강력 메카노이드 신호파장을 내뿜어 메카노이드 사령관을 호위와 함께 유인합니다. 이들을 쓰러트린다면 그 잔해에서 특수한 부품을 회수할 수 있습니다. 신호파장은 송신기를 태워버리므로 이 건물은 한번만 사용 가능합니다.</MechbandDish.description>
+  <MechbandDish.comps.CompUsable.useLabel>아포크리톤 위협 호출</MechbandDish.comps.CompUsable.useLabel>
+  
+  <PollutionPump.label>오염물질 펌프</PollutionPump.label>
+  <PollutionPump.description>주변 오염을 서서히 청소하는 지하수 여과기가 달린 펌프입니다. 추출된 오염물질은 운반해 치워야하는 독성 폐기물로 변환됩니다.</PollutionPump.description>
+  
+  <SanguphageMeetingTorch.label>피의 횃불</SanguphageMeetingTorch.label>
+  <SanguphageMeetingTorch.description>넓은 범위에 붉은 빛을 발하는 특수 처리된 나무 횃불입니다. 생귀오파지들은 이러한 횃불 근처에서 의식 모임을 합니다. 피처럼 타오르는 이 불빛은 흡혈 유전자를 가진 이들을 즐겁게 합니다. 나무를 자동으로 다시 넣을 수 있습니다. 약한 열을 발산합니다.</SanguphageMeetingTorch.description>
+  
+  <ShuttleCrashed_Exitable.label>추락한 왕복선</ShuttleCrashed_Exitable.label>
+  <ShuttleCrashed_Exitable.description>지상과 우주 궤도 혹은 행성계의 위성 사이를 운용하도록 설계된 범우주급 왕복선입니다.</ShuttleCrashed_Exitable.description>
+  
+  <ShuttleCrashed_Exitable_Mechanitor.label>추락한 메카나이터 함선</ShuttleCrashed_Exitable_Mechanitor.label>
+  <ShuttleCrashed_Exitable_Mechanitor.description>메카나이터가 메카노이드를 행성 내 또는 저궤도 수송할 때 사용하는 단거리 함선입니다.</ShuttleCrashed_Exitable_Mechanitor.description>
+  
+  <ToxifierGenerator.label>독소 발전기</ToxifierGenerator.label>
+  <ToxifierGenerator.description>주변 범위 내 지형을 서서히 오염시켜 전력을 생산하는 발전기입니다. 범위 내 모든 지형이 오염되면 전력 생산을 멈춥니다.</ToxifierGenerator.description>
+  
+  <TrapIED_ToxGas.label>독소 지뢰</TrapIED_ToxGas.label>
+  <TrapIED_ToxGas.description>누군가 방아쇠를 건드리면 주위에 독성가스를 발포합니다. 주변 지형에 숨겨져 있으므로 다른 함정과 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.</TrapIED_ToxGas.description>
+  
+  <WastepackAtomizer.label>폐기물 원자분해기</WastepackAtomizer.label>
+  <WastepackAtomizer.description>고급 분자 공정을 사용하여 독성 폐기물 팩을 불활성 가스로 분해하는 번화계 기계장치입니다. 분해과정에는 상당량의 전력이 필요합니다.</WastepackAtomizer.description>
+</LanguageData>

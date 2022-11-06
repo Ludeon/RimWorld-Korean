@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mechanitors -->
+  <AnyMechanitor>모든 메카나이터</AnyMechanitor>
+  <BossgroupWarningDialog>{LEADERKIND_label} 위협을 호출하면 다음 메카노이드를 호출합니다:\n\n{PAWNS}\n\n메카노이드들은 수 시간에서 며칠의 시간 뒤에 도착합니다. 싸울 준비가 되셨습니까?</BossgroupWarningDialog>
+  <MechControllerDowned>{PAWN_labelShort}(은)는 쓰러졌습니다.</MechControllerDowned>
+  <MechControllerImprisoned>{PAWN_labelShort}(은)는 수감자입니다.</MechControllerImprisoned>
+  <MechControllerInsideContainer>{PAWN_labelShort}(은)는 {CONTAINER}안에 있음</MechControllerInsideContainer>
+  <MechControllerInsufficientBandwidth>{PAWN_labelShort}의 대역폭이 충분하지 않습니다.</MechControllerInsufficientBandwidth>
+  <MechControllerMentalState>{PAWN_labelShort}(은)는 다음 정신 이상상태에 있습니다: {MENTALSTATE_label}</MechControllerMentalState>
+  <ConfirmDisassemblingMech>정말로 {0}(을)를 영구적으로 분해 하시겠습니까?\n\n영구적으로 분해하면 얻을 수 있는 자원: {0}</ConfirmDisassemblingMech>
+  <ConfirmInstallMechlink>메카노이드를 생산하려면 메카나이터가 제련 작업을 수행할 수 있어야합니다.\n\n정말 계속하시겠습니까?</ConfirmInstallMechlink>
+  <InsufficientBandwidth>대역폭 부족</InsufficientBandwidth>
+
+  <!-- Apparel -->
+  <ApparelRequirementAnyMechlordApparel>모든 기계군주 의류</ApparelRequirementAnyMechlordApparel> <!-- text_todo -->
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>또는 모든 초능력자 의복, 모든 장교 갑옷, 모든 기계군주 의류</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord> <!-- text_todo -->
+
+  <!-- Mech gestator -->
+  <GestationCyclesCompleted>배양 절차 완료</GestationCyclesCompleted>
+  <FormerIngredients>모은 재료</FormerIngredients>
+
+  <!-- Subcore scanner -->
+  <ConfirmRipscanPawn>립스캐닝은 {PAWN_nameDef}(을)를 죽입니다. 정말 계속하시겠습니까?</ConfirmRipscanPawn>
+
+  <!-- Xenogerm -->
+  <AssembleGenes>유전자 조합</AssembleGenes>
+  <CreateXenotype>인종형 생성</CreateXenotype>
+  <SelectIcon>아이콘 선택</SelectIcon>
+  <SelectIconDesc>이 인종형의 아이콘입니다.</SelectIconDesc>
+  <InspectGenesDesc>{0_labelShort}의 유전자 살펴보기</InspectGenesDesc>
+  <InspectGenesHediffDesc>태아의 유전자 살펴보기</InspectGenesHediffDesc>
+  <InspectGenesEmbryoDesc>배아의 유전자 살펴보기</InspectGenesEmbryoDesc>
+  <NoGenePacks>유전자묶음 없음</NoGenePacks>
+  <StartCombining>유전자 조합 시작</StartCombining>
+  <SelectedGenepacks>선택된 유전자묶음</SelectedGenepacks>
+  <GenepackLibrary>저장된 유전자묶음</GenepackLibrary>
+  <ClickToAddOrRemove>추가 또는 제거하려면 클릭하세요.</ClickToAddOrRemove>
+  <ClickToAdd>클릭해서 추가</ClickToAdd>
+  <ClickToRemove>클릭해서 제거</ClickToRemove>
+  <SelectXenogerm>변형이식체 선택</SelectXenogerm>
+  <WarningPawnWillDieFromReimplanting>경고: {PAWN_nameDef}의 유전자가 재성장중 입니다. {PAWN_possessive} 유전자가 완전히 재성장 되기 전에 변형이식체를 심게 되면 {PAWN_pronoun}는 죽습니다.\n\n계속하시겠습니까?</WarningPawnWillDieFromReimplanting>
+  <NotEnoughArchites>초월입자 캡슐이 부족합니다.</NotEnoughArchites>
+  <XenogenesDesc>변형인자는 변형이식체에서 나오는 유전자 입니다. 변형이식체가 제거되거나 교체되면 변형인자 또한 사라집니다. 변형인자는 생식유전정보의 일부가 아니기에 그 후손에게 물려줄 수 없습니다.</XenogenesDesc>
+  <EndogenesDesc>생식성 유전자는 유기체 신체의 모든 세포에 존재하며, 외부적 요인이 필요하지 않는 자연적으로 이어지는 유전자입니다. 해당 유전자는 부모에서 자식으로 전해집니다.</EndogenesDesc>
+  <MemberXenotypeChances>구성원의 인종형</MemberXenotypeChances>
+  <XenotypeName>인종형 이름</XenotypeName>
+  <LockNameButtonDesc>인종형의 이름을 고정하거나 고정 해제합니다. 이름을 고정하면 유전자 묶음을 추가하거나 제거해도 이름이 바뀌지 않습니다.</LockNameButtonDesc>
+  <LockNameOn>인종형 이름 고정이 켜져있습니다. 유전자 묶음이 바뀌어도 이름은 재생성되지 않습니다.</LockNameOn>
+  <LockNameOff>인종형 이름 고정이 꺼져있습니다. 유전자 묶음이 바뀌면 이름을 재생성합니다.</LockNameOff>
+  <CreatingXenogerm>변형이식체 생성중</CreatingXenogerm>
+  <GenepackUnusableGenebankUnpowered>이 유전자묶음은 전원이 공급되지 않은 유전자저장고에 들어있습니다. 이 유전자묶음을 선택하면 변형이식체를 생성할때 유전자저장고에 전력이 보급될때까지 생산이 정지됩니다.</GenepackUnusableGenebankUnpowered>
+  <GeneProcessorUnpowered>이 변형이식체는 이 유전자 조합기와 여기에 연결된 유전자 처리기가 지원하는 것 보다 높은 유전적 복잡성을 필요로 합니다. </GeneProcessorUnpowered>
+  <RecombineDuration>예상 조합 시간</RecombineDuration>
+  <RecombineDurationDesc>선택된 유전자를 변형이식체로 만드는데 소요되는 평균 시간입니다. 유전자 재조합 시간은 변형이식체에 포함된 유전자의 복잡도 총 합에 따라 증가합니다.</RecombineDurationDesc>
+  <MustResearchProject>초월인자 캡슐를 사용하는 변형이식체를 조합하려면 {0_label}(을)를 먼저 연구해야 합니다.</MustResearchProject>
+  <AssemblingRequiresResearch>초월인자 유전자가 포함된 변형이식체를 조합하려면 {0_label}(을)를 연구해야 합니다.</AssemblingRequiresResearch>
+  <ConfirmStartNewXenogerm>현재 {XENOGERMNAME}(을)를 조합중입니다. 새로운 변형이식체를 조합하면 현재 진행중인 작업을 취소합니다.\n\n계속 하시겠습니까?</ConfirmStartNewXenogerm>
+  <SelectAGeneToRandomizeName>이 인종형의 이름을 무작위로 바꾸려면 선택하십시오.</SelectAGeneToRandomizeName>
+  <SelectAGeneToChooseAName>인종형의 이름을 지으려면 적어도 하나의 유전자를 선택해야 합니다.</SelectAGeneToChooseAName>
+
+  <!-- View genes -->
+  <InspectGenes>유전자 살펴보기</InspectGenes>
+  <InspectBabyGenes>아기 유전자 살펴보기</InspectBabyGenes>
+  <NoXenogermImplanted>이식된 변형이식체 없음</NoXenogermImplanted>
+  <Endogenes>생식유전자</Endogenes>
+  <Xenogenes>변형인자</Xenogenes>
+  <Overridden>덮어써짐</Overridden>
+  <OverriddenByGene>변형인자가 덮어씀</OverriddenByGene>
+  <OverriddenByIdenticalGene>동일한 유전자가 덮어씀</OverriddenByIdenticalGene>
+  <MoreInfoInInfoScreen>이 인종형의 정보 화면에서 더 많은 정보를 볼 수 있습니다.</MoreInfoInInfoScreen>
+  <TakesEffectAfterAge>연령 도달 후 효과 발생</TakesEffectAfterAge>
+
+  <!-- Xenotype editor -->
+  <XenotypeEditor>인종형 편집기</XenotypeEditor>
+  <AnyNonArchite>모두 (초월 입자 유전자 제외)</AnyNonArchite>
+  <SelectedGenes>선택된 유전자</SelectedGenes>
+  <Custom>사용자 지정</Custom>
+  <Hybrid>혼혈</Hybrid>
+  <GenesAreInheritable>유전 가능</GenesAreInheritable>
+  <GenesAreInheritableXenotypeDef>이 인종형이 다음 세대로 유전될 수 있는지의 여부입니다.</GenesAreInheritableXenotypeDef>
+  <GenesAreInheritableDesc>이 인종형의 모든 유전자가 다음 세대로 전달될 수 있습니다.</GenesAreInheritableDesc>
+  <GeneWillBeRandomChosen>개인마다 다음 중 하나의 유전자가 무작위로 선택되어 활성화됩니다.</GeneWillBeRandomChosen>
+  <GeneIncompatibleDesc>이 유전자는 현재 인종형의 다른 유전자와 호환되지 않습니다. 다음 중 하나의 유전자만 활성화 됩니다.</GeneIncompatibleDesc>
+  <GeneLeftmostActive>다음 유전자중, 가장 왼쪽에 있는 유전자만 적용되고 나머지는 억제됩니다.</GeneLeftmostActive>
+  <GeneOneActive>다음 유전자중, 단 하나의 유전자만 적용되고 나머지는 억제됩니다.</GeneOneActive>
+  <WarnChangingXenotypeWillRandomizePawn>인종형을 변경하면 이 정착민을 무작위로 설정합니다.\n\n계속하시겠습니까?</WarnChangingXenotypeWillRandomizePawn>
+  <DeleteThisXenotype>인종형을 삭제합니다.</DeleteThisXenotype>
+  <IgnoreRestrictions>제한 무시</IgnoreRestrictions>
+  <IgnoreRestrictionsDesc>생성하는 인종형의 생물제한을 없앱니다. 초월입자 캡슐이 필요한 유전자를 추가할 수 있습니다.</IgnoreRestrictionsDesc>
+  <XenotypeBreaksLimits>이 인종형은 기본 게임플레이의 한계를 초과합니다</XenotypeBreaksLimits>
+  <XenotypeBreaksLimits_Archites>초월입자 유전자를 포함하고 상속 가능하지만, 초월입자 유전자는 일반적으로 유전되지 않습니다.</XenotypeBreaksLimits_Archites>
+  <XenotypeBreaksLimits_Exceeds>{STAT}(이)가 {VALUE}입니다. 정상 한계({MAX})를 초과합니다.</XenotypeBreaksLimits_Exceeds>
+  <XenotypeBreaksLimits_Below>{STAT}(이)가 {VALUE}입니다. 정상 한계({MIN})에 미달합니다.</XenotypeBreaksLimits_Below>
+  <SaveAnyway>그래도 저장하시겠습니까?</SaveAnyway>
+  <IgnoreRestrictionsConfirmation>제한을 무시하면 생물 한계 수치를 초과하여 불가능한 유전자 조합을 만들 수 있습니다. 또한 게임을 매우 쉽게 만들 수 있는 강력한 초월 입자 유전자를 사용할 수 있습니다.\n\n제한을 무시하시겠습니까?</IgnoreRestrictionsConfirmation>
+  <DevelopmentalAgeSelectionDesc>정착지 주민은 항상 해당 성장 단계의 나이 범위 내에서 생성됩니다.</DevelopmentalAgeSelectionDesc>
+  <XenotypeSelectionDesc>정착지 주민은 항상 해당 인종형의 유전자를 가지게 됩니다.</XenotypeSelectionDesc>
+  <SaveAndApply>저장 및 적용</SaveAndApply>
+  <LoadCustom>사전 설정 불러오기</LoadCustom>
+  <LoadPremade>기존 인종형 불러오기</LoadPremade>
+  <GenesConflict>유전자 상충</GenesConflict>
+  <GenesConflictDesc>{FIRST_label}, {SECOND_label}</GenesConflictDesc>
+
+  <!-- Xenogerm editor -->
+  <LoadXenogermTemplate>템플릿 불러오기</LoadXenogermTemplate>
+  <SaveXenogermTemplate>템플릿 저장</SaveXenogermTemplate>
+  <CannotSaveXenogermTemplate>{0} 없이 템플릿을 저장할 수 없습니다.</CannotSaveXenogermTemplate>
+  <XenogermTemplateSaved>{NAME} 설정 저장됨</XenogermTemplateSaved>
+  <MissingGenepacksForXenogerm>{NAME} 견본에 대한 유전자 묶음 {COUNT}개가 누락되었습니다.</MissingGenepacksForXenogerm>
+  <MissingGenepackForXenogerm>{NAME} 견본에 대한 유전자 묶음 누락</MissingGenepackForXenogerm>
+  <DeleteThisXenogerm>변형이식체 제거</DeleteThisXenogerm>
+
+  <!-- Babies -->
+  <ChooseChildOrAdult>어린이 또는 성인을 한 명 이상 선택하십시오.</ChooseChildOrAdult>
+
+  <!-- Deathrest -->
+  <WarningWakingInterruptsDeathrest>{MINDURATION}이 지나기 전에 {PAWN_nameDef}(을)를 깨우면 {PAWN_possessive} 죽음안식을 중단시키고 {PAWN_pronoun}가 회복되는 동안 {PAWN_pronoun}가 며칠 동안 아프게 됩니다. 일찍 깨우면 {PAWN_nameDef}(이)가 죽음안식 장치로부터 혜택을 받지 못합니다. {PAWN_pronoun}는 {CURDURATION} 동안 죽음안식을 취했습니다.\n\n{PAWN_nameDef}(을)를 깨우시겠습니까?</WarningWakingInterruptsDeathrest>
+
+  <!-- Text motes -->
+  <NumWoundsTended>{0} 상처 치료됨</NumWoundsTended>
+
+  <!-- Mechs -->
+  <MechWeightClass>체급</MechWeightClass>
+  <MechWeightClassExplanation>이 메카노이드의 체급입니다.</MechWeightClassExplanation>
+  <MechOverseer>이 메카노이드의 통제자는 {0}입니다.</MechOverseer>
+  <MechWorkActivities>작업 활동</MechWorkActivities>
+  <MechWorkActivitiesExplanation>이 메카노이드가 수행할 수 있는 작업 활동입니다.\n\n다음 목록은 각 작업 유형에 포함된 자세한 활동의 종류입니다.</MechWorkActivitiesExplanation>
+  <MechRechargeSettingsTitle>충전 설정</MechRechargeSettingsTitle>
+  <MechRechargeSettingsExplanation>메카노이드가 충전을 시작하고 중단하는 시점을 변경합니다.\n\n전력이 설정한 범위 아래로 떨어지면 자동으로 충전기를 찾아서, 설정한 범위의 상한까지 충전합니다. 충전 설정은 작업 모드에서만 따릅니다.</MechRechargeSettingsExplanation>
+  <MechWorkSkill>작업 기술</MechWorkSkill>
+  <MechWorkSkillDesc>이 메카노이드의 작업 기술 등급입니다.</MechWorkSkillDesc>
+  <AnyMech>모든 메카노이드</AnyMech>
+  <AnyNonMech>모든 인간</AnyNonMech> <!-- text_todo -->
+  <CaravanLacksMechMechanitorWarning>상단에 메카노이드들이 추가되었지만 이들의 통제관이 추가되지 않았습니다. 목적지 도달 시 메카노이드 조종에 제한을 받습니다.</CaravanLacksMechMechanitorWarning>
+  <MechsSection>메카노이드들</MechsSection>
+
+  <!-- Pawn naming -->
+  <RenameMech>메카노이드 이름 변경</RenameMech>
+  <MechGainsName>이 메카노이드는 이제 {0}으로 불리게 됩니다.</MechGainsName>
+
+  <FertilizeOvumInbredChance>{FATHER_nameDef}(은)는 {MOTHER_nameDef}의 {RELATION}입니다. 근친교배로 인해 아이가 {CHANCE} 확률로 유전질환을 앓게 됩니다.\n\n정말 계속하시겠습니까?</FertilizeOvumInbredChance>
+
+  <ConfirmationPawnPregnancyTerminated>{PAWN_nameDef}(은)는 임신 중입니다. 임신 제1삼분기에 IUD를 삽입하면 임신을 중절합니다.\n\n정말 계속하시겠습니까?</ConfirmationPawnPregnancyTerminated>
+
+  <!-- Pollution -->
+  <ConfirmSettleNearPollution>이 칸에서는 주위의 오염으로 인해 약 {0}일에 한 번씩 산성 안개가 발생합니다. 산성 안개는 식물의 생장을 저해하고 노출된 물품을 손상시키며 사람들의 기분이 나빠집니다.</ConfirmSettleNearPollution>
+
+  <!-- Pregnancy -->
+  <PawnIsAway>{PAWN_nameDef}(은)는 떨어져 있습니다.</PawnIsAway>
+  <PawnsHaveSameGender>{PAWN1_nameDef}(와)과 {PAWN2_nameDef}(은)는 같은 성별입니다.</PawnsHaveSameGender>
+  <PawnsAreSterile>{PAWN1_nameDef}(와)과 {PAWN2_nameDef}(은)는 불임수술을 받았습니다.</PawnsAreSterile>
+  <PawnIsSterile>{PAWN_nameDef}(은)는 불임수술을 받았습니다.</PawnIsSterile>
+  <PawnsAreInfertile>{PAWN1_nameDef}(와)과 {PAWN2_nameDef}(은)는 불임입니다.</PawnsAreInfertile>
+  <PawnIsInfertile>{PAWN_nameDef}(은)는 불임입니다.</PawnIsInfertile>
+  <PawnsAreTooYoung>{PAWN1_nameDef}(와)과 {PAWN2_nameDef}(은)는 너무 어려서 아이를 가질 수 없습니다.</PawnsAreTooYoung>
+  <PawnIsTooYoung>{PAWN_nameDef}(은)는 아이를 가지기엔 너무 어립니다.</PawnIsTooYoung>
+  <PawnIsDead>{PAWN_nameDef}(은)는 죽었습니다.</PawnIsDead>
+
+  <PsychicBondDistanceWillBeActive_Cryptosleep>{PAWN_nameDef}(을)를 동면장치에 넣으면 {BOND_nameDef}(와)과 {PAWN_possessive} 정신적 유대에 지장이 생겨 두 사람 모두에게 스트레스를 줍니다.\n\n계속하시겠습니까?</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Caravan>이 상단에 정신결속으로 이어진 사람의 대상이 포함되어있지 않습니다. 정신결속된 사람들은 거리가 멀어지게되면 스트레스를 받게됩니다.</PsychicBondDistanceWillBeActive_Caravan>
+  <Partner>대상 {0_nameFull}</Partner>
+
+
+  <ChooseMechAccentColor>메카노이드 강조색 선택</ChooseMechAccentColor>
+
+  <!-- Faction specific comms overrides -->
+  <PigFactionGreetingHostile>{0}(은)는 꿰엑 거리며 욕을 퍼붙고는 통신을 종료했습니다.</PigFactionGreetingHostile>
+  <PigFactionGreetingHostileAppreciative>{0}(은)는 화난듯이 꿀꿀거리며 {0_possessive} 정착지중 하나에 선물을 가져오거나 {0_possessive} 세력의 수감자를 무사히 석방하는 등의 호의를 보이라고 합니다. 그전까진 {0_pronoun}는 대화하지 않겠다고 합니다.\n\n{0_pronoun}가 킁킁 거리며 욕을 한 뒤 통신을 종료합니다</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingWary>{0}(은)는 꿀꿀 거리며 인사를 하고 어떻게 도울 수 있는지 묻습니다.</PigFactionGreetingWary>
+  <PigFactionGreetingWarm>{0}(은)는 열성적으로 꿀꿀거리며 {NEGOTIATOR_labelShort}에게 인사합니다. {LEADER_pronoun}(이)가 어떻게 도움이 될수 있는지 물어봅니다.</PigFactionGreetingWarm>
+  <PigMilitaryAidSent>{0}(은)는 당신에게 피그스킨 투사들을 지원하기로 했습니다.</PigMilitaryAidSent>
+
+  <YttakinFactionGreetingHostile>{0}(이)가 송신기에 대고 소리를 지르곤 통신을 종료합니다.</YttakinFactionGreetingHostile>
+  <YttakinFactionGreetingHostileAppreciative>{0}의 대표자는 으르렁거리면서 당신이 먼저 자신들의 거주지 중 한 곳에 선물을 가져오거나 수감자를 석방하여 호의를 보여줄 것을 원합니다. 그러기 전에는 대화하려 하지 않을 것입니다.\n\n{0_pronoun}는 모욕적인 말을 투덜대며 통신을 종료합니다.</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingWary>{0}(은)는 {NEGOTIATOR_labelShort}에게 으르렁 하고 인사를 하며 통신의 목적을 묻습니다.</YttakinFactionGreetingWary>
+  <YttakinFactionGreetingWarm>{0}(은)는 친근한 인사를 포효하고 {LEADER_pronoun}(이)가 어떻게 도울 수 있는지를 묻습니다.</YttakinFactionGreetingWarm>
+
+  <NeanderthalFactionGreetingHostile>{0}(은)는 화난채로 투덜대며 통신을 종료합니다.</NeanderthalFactionGreetingHostile>
+  <NeanderthalFactionGreetingHostileAppreciative>{0}(은)는 공격적으로 투덜거립니다. 먼저 호의를 배풀기 전까지는 {0_pronoun}는 당신과 할말이 없다고 합니다. {0_possessive} 정착지중 하나에 선물을 보내거나 {0_possessive} 죄수를 무사히 석방 하는등의  행동으로 세력과의 우호도를 쌓을  수 있습니다.\n\n{0_pronoun}는 통신을 확 끊습니다.</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingWary>{0}(은)는 인사를 투덜거립니다.</NeanderthalFactionGreetingWary>
+  <NeanderthalFactionGreetingWarm>{0}(은)는 {NEGOTIATOR_labelShort}에게 따듯한 인사를 툴툴 댑니다.</NeanderthalFactionGreetingWarm>
+
+  <MaxTier>최대 단계</MaxTier>
+  <MaxTierDesc>{PAWN_nameDef}(은)는 성장 포인트를 최대로 축적했습니다.</MaxTierDesc>
+  <ProgressToNextGrowthTier>다음 성장단계로 진행</ProgressToNextGrowthTier>
+  <ThisGrowthTier>현재 성장단계</ThisGrowthTier>
+  <NextGrowthTier>다음 성장단계</NextGrowthTier>
+  <NumPassionsFromOptions>{1} 중에서 {0} 개의 열정을 선택하세요.</NumPassionsFromOptions>
+  <NumTraitsFromOptions>{1} 중에서 {0}개의 특성을 선택하세요.</NumTraitsFromOptions>
+  <NextGrowthMomentAt>다음 성장단계 나이</NextGrowthMomentAt>
+
+  <RoomRequirementNoBiotechBuildings>생명공학 건물이 허용되지 않습니다.</RoomRequirementNoBiotechBuildings>
+
+  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>{PAWN_nameDef}에게 흡혈을 하면 심각한 수준의 출혈을 일으켜 의식을 잃게 만듭니다.\n\n계속하시겠습니까?</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
+  <WarningPawnWillDieFromBloodfeeding>{PAWN_nameDef}(을)를 흡혈하면 {PAWN_objective} 죽일 수 있습니다.\n\n계속하시겠습니까?</WarningPawnWillDieFromBloodfeeding>
+
+  <AbilityMustHaveTendableWound>{0_labelShort}(은)는 치료할 수 있는 부상이 있어야합니다.</AbilityMustHaveTendableWound>
+
+  <!-- Abandon home (including mechs) -->
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>일부 정착민, 동물, 또는 메카노이드가 이 지역에 있습니다. 여기를 포기하시겠습니까?\n\n버려지는 정착민, 동물, 메카노이드:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs><!-- text_todo -->
+
+</LanguageData>

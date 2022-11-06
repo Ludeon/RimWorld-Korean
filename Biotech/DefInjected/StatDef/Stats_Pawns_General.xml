@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BandwidthCost.label>대역폭 비용</BandwidthCost.label>
+  <BandwidthCost.description>이 메카노이드의 제어에 필요한 대역폭입니다.</BandwidthCost.description>
+  
+  <CancerRate.label>암 발병 계수</CancerRate.label>
+  <CancerRate.description>암에 걸릴 확률에 대한 계수입니다.</CancerRate.description>
+  
+  <ControlTakingTime.label>제어 소요 시간</ControlTakingTime.label>
+  <ControlTakingTime.description>메카나이터가 이 메카노이드의 제어를 시작할 때 소요되는 시간입니다.</ControlTakingTime.description>
+  <ControlTakingTime.formatString>{0}초</ControlTakingTime.formatString>
+  
+  <EMPResistance.label>EMP 저항력</EMPResistance.label>
+  <EMPResistance.description>이 메카노이드는 전자기 펄스 피해를 완화하는 특수 차폐 처리가 되어있고 충격 분산 필라멘트가 설치돼있습니다. EMP로 인한 기절 시간이 이 수치만큼 감소합니다.</EMPResistance.description>
+  
+  <Fertility.label>출산율</Fertility.label>
+  <Fertility.description>출산율은 임신의 가능성에 영향을 미칩니다. 임신 가능성은 두 사람의 출산율에 달려 있습니다. 이것은 또한 대리모의 배아 이식 성공률에도 영향을 미칩니다.</Fertility.description>
+  
+  <HemogenGainFactor.label>혈액정수 생성 속도</HemogenGainFactor.label>
+  <HemogenGainFactor.description>혈액정수 생성속도에 곱해집니다.</HemogenGainFactor.description>
+  
+  <MechBandwidth.label>메카노이드 대역폭</MechBandwidth.label>
+  <MechBandwidth.description>메카나이터가 가진 대역폭입니다. 대역폭이 넓으면 동시에 더 많은 메카노이드를 배양하고 제어할 수 있습니다.\n\n대역폭이 감소하면 메카노이드 제어를 상실하게 됩니다. 통제관을 잃은 메카노이드는 다시 누군가 제어하지 않으면 제어 불가 상태에 빠질 수 있습니다.</MechBandwidth.description>
+  
+  <MechControlGroups.label>메카노이드 제어 집단</MechControlGroups.label>
+  <MechControlGroups.description>메카나이터가 독립적으로 통제할 수 있는 제어 집단의 수입니다. 각 제어 집단은 고유한 별도의 명령을 수행할 수 있습니다.</MechControlGroups.description>
+  
+  <MechEnergyLossPerHP.label>수리에 소모되는 전력량</MechEnergyLossPerHP.label>
+  <MechEnergyLossPerHP.description>100의 피해를 수리할 때마다 해당 메카노이드가 소모하는 전력양입니다.</MechEnergyLossPerHP.description>
+  
+  <MechEnergyUsageFactor.label>전력 소모 배수</MechEnergyUsageFactor.label>
+  <MechEnergyUsageFactor.description>메카노이드가 작동하는 동안 전력을 얼마나 빨리 소모하는지에 대한 배수입니다.</MechEnergyUsageFactor.description>
+  
+  <MechFormingSpeed.label>메카노이드 배양 속도</MechFormingSpeed.label>
+  <MechFormingSpeed.description>메카나이터가 배양기에서 새로운 메카노이드를 배양하는 속도의 계수입니다.</MechFormingSpeed.description>
+  
+  <MechRemoteRepairDistance.label>메카노이드 원격 수리 거리</MechRemoteRepairDistance.label>
+  <MechRemoteRepairDistance.description>원격 수리를 하는 도중에 지속가능한 메카노이드와의 거리입니다.</MechRemoteRepairDistance.description>
+  
+  <MechRemoteShieldDistance.label>메카노이드 원격 보호막 거리</MechRemoteShieldDistance.label>
+  <MechRemoteShieldDistance.description>메카나이터가 메카노이드에게 방어막을 배치할 수 있는 최대 범위입니다.</MechRemoteShieldDistance.description>
+  
+  <MechRemoteShieldEnergy.label>메카노이드 원격 보호막 에너지</MechRemoteShieldEnergy.label>
+  <MechRemoteShieldEnergy.description>메카나이터가 원격 보호막을 생성할 시 생기는 보호막의 총량</MechRemoteShieldEnergy.description>
+  
+  <MechRepairSpeed.label>메카노이드 수리 속도</MechRepairSpeed.label>
+  <MechRepairSpeed.description>메카나이터가 메카노이드를 수리하는 속도에 곱하는 수입니다.</MechRepairSpeed.description>
+  
+  <RawNutritionFactor.label>생식 열량 배수</RawNutritionFactor.label>
+  <RawNutritionFactor.description>이 사람에게 생식이 얼마만큼 효율적인지 나타냅니다. 조리된 식사는 주로 재료보다 영양 흡수율이 높으므로, 이 수치가 높아져도 그저 조리된 식사 만큼의 영양분을 얻게되는 상황일 수도 있습니다.</RawNutritionFactor.description>
+  
+  <RestFallRateFactor.label>피로 누적 속도</RestFallRateFactor.label>
+  <RestFallRateFactor.description>사람의 수면 욕구 충족도가 떨어지는 속도에 대한 계수입니다.</RestFallRateFactor.description>
+  
+  <SubcoreEncodingSpeed.label>서브코어 부호화 속도</SubcoreEncodingSpeed.label>
+  <SubcoreEncodingSpeed.description>메카나이터가 서브코어를 생성하는 속도에 곱하는 수입니다.</SubcoreEncodingSpeed.description>
+  
+  <WastepacksPerRecharge.label>충전 당 폐기물</WastepacksPerRecharge.label>
+  <WastepacksPerRecharge.description>해당 메카노이드의 에너지를 0에서 100%까지 충전하는 동안 메카노이드 충전기에서 얼마나 많은 유독성 폐기물을 생성하는지 표시합니다. 더 큰 메카노이드는 일반적으로 더 많은 독성 폐기물을 생성합니다.</WastepacksPerRecharge.description>
+  <WastepacksPerRecharge.statFactorsExplanationHeader>관련 통계</WastepacksPerRecharge.statFactorsExplanationHeader>
+</LanguageData>

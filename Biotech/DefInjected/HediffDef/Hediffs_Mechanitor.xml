@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BandNode.label>대역폭 확장기 (조율됨)</BandNode.label>
+  <BandNode.description>이 메카나이터의 대역폭은 대역폭 확장기로 인해 증가했습니다.</BandNode.description>
+  
+  <ControlSublinkImplant.label>통제 서브링크</ControlSublinkImplant.label>
+  <ControlSublinkImplant.description>메카나이터의 최대 제어 집단 수를 늘리고, 제어하는 메카노이드들의 작업 속도를 높이는 이식물입니다.\n\n통제 서브링크는 최대 6개까지 장착해서 효과를 중첩할 수 있습니다.</ControlSublinkImplant.description>
+  
+  <MechFormfeederImplant.label>메카노이드 배양 연산기</MechFormfeederImplant.label>
+  <MechFormfeederImplant.description>메카나이터의 메카노이드 배양 속도를 개선하는 이식물입니다. 배양 연산기는 메카노이드 형성 수조에 들어있는 기계입자의 행동을 최적화합니다.\n\n배양 연산기는 메크링크처럼 스스로 설치할 수 있습니다.\n\n메카노이드 배양 연산기는 최대 6개까지 장착해서 효과를 중첩할 수 있습니다.</MechFormfeederImplant.description>
+  <MechFormfeederImplant.descriptionShort>메카나이터의 메카노이드 배양 속도를 개선하는 이식물입니다. 최대 6번까지 이식할 수 있습니다.</MechFormfeederImplant.descriptionShort>
+  
+  <MechlinkImplant.label>메크링크</MechlinkImplant.label>
+  <MechlinkImplant.description>메카노이드의 직접 통제를 가능케 하는 생체공학 이식물입니다. 메크링크는 병사들이 전투 기계를, 인부들이 작업용 기계를 조종할 때 쓰입니다. 메크링크를 설치한 사람은 메카나이터라고 부릅니다.\n\n메크링크는 사용자 스스로 설치할 수 있습니다. 목 뒤쪽에 대고 누르면 메크링크가 피부를 뚫고 두개골 아래쪽 척수 말단에 고정된 후, 극세전선이 주위 신경세포를 향해 거미줄처럼 뻗어 나와 사용자의 정신을 메카노이드 제어 주파수와 직접 연결합니다.\n\n메크링크는 메카노이드를 향해 무선 신호를 전송하는 단순한 장치가 아닙니다. 메카노이드는 단순한 로봇이 아니라 미약하나마 정신체가 존재하기 때문에 수월한 제어를 위해선 정신적인 연결 또한 필요합니다. 메크링크는 메카나이터와 메카노이드를 전자기적으로, 그리고 정신적으로 동시에 연결하므로 화면과 버튼 인터페이스를 뛰어넘은 보다 깊은 수준의 제어가 가능합니다.\n\n메크링크는 설치 후 뇌조직에 깊숙이 연결되므로 사용자가 사망한 후에만 제거할 수 있습니다.\n\n참고: 메카나이터가 메카노이드를 배양하려면 제련 작업을 할 수 있어야 합니다.</MechlinkImplant.description>
+  <MechlinkImplant.comps.HediffComp_LetterOnDeath.letterLabel>재사용 가능한 {HEDIFF_label}</MechlinkImplant.comps.HediffComp_LetterOnDeath.letterLabel>
+  <MechlinkImplant.comps.HediffComp_LetterOnDeath.letterText>{HEDIFF_label}(을)를 이식한 {PAWN}(이)가 죽었습니다. {HEDIFF_label}(을)를 제거한 후 다른 사람에게 이식할 수 있습니다.</MechlinkImplant.comps.HediffComp_LetterOnDeath.letterText>
+  <MechlinkImplant.descriptionShort>메카노이드를 직접 제어할 수 있게 해주는 생체공학 삽입물입니다. 사망 후에만 제거할 수 있습니다.</MechlinkImplant.descriptionShort>
+  
+  <RemoteRepairerImplant.label>원격 수리기</RemoteRepairerImplant.label>
+  <RemoteRepairerImplant.description>메카나이터가 원거리에서 메카노이드를 수리할 수 있는 메크링크 업그레이드입니다. 사용자는 메카노이드와 연결 후 뇌를 사용해 자가 수리 기계입자에 명령을 내립니다.\n\n최대 3번까지 이식해 사정거리를 늘릴 수 있습니다.</RemoteRepairerImplant.description>
+  <RemoteRepairerImplant.descriptionShort>사용자가 메카노이드를 원거리에서 수리할 수 있는 이식물입니다. 최대 3번까지 이식할 수 있습니다.</RemoteRepairerImplant.descriptionShort>
+  
+  <RemoteShielderImplant.label>원격 보호막 생성기</RemoteShielderImplant.label>
+  <RemoteShielderImplant.description>메카나이터가 메카노이드 주위에 보호막을 두를 수 있는 이식물입니다. 메카나이터는 계속 집중 상태를 유지해야 보호막이 사라지지 않습니다. 중요한 순간에 메카노이드를 구해낼 수 있습니다.\n\n최대 3번까지 이식해 사정거리를 늘리고 보호막 에너지를 높일 수 있습니다.</RemoteShielderImplant.description>
+  
+  <RepairProbeImplant.label>수리 탐침기</RepairProbeImplant.label>
+  <RepairProbeImplant.description>메카나이터의 메카노이드 수리 속도를 개선하는 이식물입니다. 수리 탐침기는 메카노이드 수리에 필요한 전체 전력량에는 영향을 주지 않습니다.\n\n수리 탐침기를 설치한 메카나이터는 메카노이드와 직접 연결해 메카노이드의 자가 수리 기계입자에 더 구체적인 지시를 내릴 수 있습니다.\n\n최대 6번까지 이식할 수 있습니다.</RepairProbeImplant.description>
+  <RepairProbeImplant.descriptionShort>메카나이터의 메카노이드 수리 속도를 개선하는 이식물입니다. 최대 6번까지 이식할 수 있습니다.</RepairProbeImplant.descriptionShort>
+</LanguageData>
