@@ -11,7 +11,7 @@ import { hideBin } from 'yargs/helpers'
 import { createRequire } from 'node:module'
 
 const AVAILABLE_DLCS = ['Core', 'Royalty', 'Ideology', 'Biotech']
-const AVAILABLE_TRANSLATIONS = ['Core', 'Royalty', 'Ideology']
+const AVAILABLE_TRANSLATIONS = ['Core', 'Royalty', 'Ideology', 'Biotech']
 
 const timeout = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 

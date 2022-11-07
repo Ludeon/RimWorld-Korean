@@ -1,54 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: absorbing xenogerm from TargetA. -->
   <AbsorbXenogerm.reportString>{TargetA}에서 변형이식체 흡수 중</AbsorbXenogerm.reportString>
   
+  <!-- EN: hauling TargetA to TargetB. -->
   <CarryGenepackToContainer.reportString>{TargetA}(을)를 {TargetB}(으)로 운반 중</CarryGenepackToContainer.reportString>
   
+  <!-- EN: carrying TargetB to TargetA. -->
   <CarryToBuilding.reportString>{TargetB}(을)를 {TargetA}(으)로 옮기는 중</CarryToBuilding.reportString>
   
+  <!-- EN: Doing something. -->
   <CastAbilityGoToThing.reportString>뭔가 하는 중</CastAbilityGoToThing.reportString>
   
+  <!-- EN: Doing something. -->
   <CastAbilityOnThingWithoutWeapon.reportString>뭔가 하는 중</CastAbilityOnThingWithoutWeapon.reportString>
   
+  <!-- EN: Doing something. -->
   <CastAbilityOnThingWithoutWeaponInterruptible.reportString>뭔가 하는 중</CastAbilityOnThingWithoutWeaponInterruptible.reportString>
   
+  <!-- EN: cleaning pollution. -->
   <ClearPollution.reportString>오염 청소 중</ClearPollution.reportString>
   
+  <!-- EN: taking control of TargetA. -->
   <ControlMech.reportString>{TargetA} 제어 획득 중</ControlMech.reportString>
   
+  <!-- EN: creating xenogerm. -->
   <CreateXenogerm.reportString>변형이식체 생성 중</CreateXenogerm.reportString>
   
+  <!-- EN: deathresting. -->
   <Deathrest.reportString>죽음안식 중</Deathrest.reportString>
   
+  <!-- EN: disassembling TargetA. -->
   <DisassembleMech.reportString>{TargetA} 분해 중</DisassembleMech.reportString>
   
+  <!-- EN: entering TargetA. -->
   <EnterBuilding.reportString>TargetA에 들어가는 중</EnterBuilding.reportString>
   
+  <!-- EN: absorbing xenogerm from TargetA. -->
   <GetReimplanted.reportString>{TargetA}에서 변형이식체 흡수 중</GetReimplanted.reportString>
   
+  <!-- EN: hauling TargetA to charger. -->
   <HaulMechToCharger.reportString>{TargetA}(을)를 충전소로 운반 중</HaulMechToCharger.reportString>
   
+  <!-- EN: installing TargetA. -->
   <InstallMechlink.reportString>{TargetA} 설치 중</InstallMechlink.reportString>
   
+  <!-- EN: charging. -->
   <MechCharge.reportString>충전 중</MechCharge.reportString>
   
+  <!-- EN: feeding on TargetA. -->
   <PrisonerBloodfeed.reportString>{TargetA} 먹이는 중</PrisonerBloodfeed.reportString>
   
+  <!-- EN: decrypting TargetA. -->
   <ReadDatacore.reportString>{TargetA} 해석 중</ReadDatacore.reportString>
   
+  <!-- EN: releasing mechanoids. -->
   <ReleaseMechs.reportString>메카노이드 방출 중</ReleaseMechs.reportString>
   
+  <!-- EN: Doing something. -->
   <RemoveMechlink.reportString>뭔가 하는 중</RemoveMechlink.reportString>
   
+  <!-- EN: repairing TargetA. -->
   <RepairMech.reportString>TargetA 수리 중</RepairMech.reportString>
   
+  <!-- EN: repairing TargetA. -->
   <RepairMechRemote.reportString>TargetA 수리 중</RepairMechRemote.reportString>
   
+  <!-- EN: dormant self-charging. -->
   <SelfShutdown.reportString>자가충전 휴면중</SelfShutdown.reportString>
   
+  <!-- EN: shielding TargetA. -->
   <ShieldMech.reportString>{TargetA}에게 보호막 제공 중</ShieldMech.reportString>
   
+  <!-- EN: romancing TargetA. -->
   <TryRomance.reportString>{TargetA}에게 작업거는 중.</TryRomance.reportString>
   
+  <!-- EN: waiting. -->
   <Wait_WithSleeping.reportString>대기 중</Wait_WithSleeping.reportString>
+  
 </LanguageData>

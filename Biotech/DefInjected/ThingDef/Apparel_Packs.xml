@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: bandwidth pack -->
   <Apparel_PackBandwidth.label>대역폭 팩</Apparel_PackBandwidth.label>
+  <!-- EN: A backpack containing bandwidth-expansion computer and antenna. It can increase a mechanitor's maximum total bandwidth. -->
   <Apparel_PackBandwidth.description>대역폭 확장용 컴퓨터와 안테나가 포함된 배낭입니다. 메카나이터의 최대 대역폭을 확장합니다.</Apparel_PackBandwidth.description>
   
+  <!-- EN: control pack -->
   <Apparel_PackControl.label>제어 팩</Apparel_PackControl.label>
+  <!-- EN: A backpack containing mech control assist computers. It allows a mechanitor to control one additional control group. -->
   <Apparel_PackControl.description>메카노이드 제어 보조 컴퓨터가 들어있는 배낭입니다. 메카나이터에게 추가 제어 집단을 제공합니다.</Apparel_PackControl.description>
   
+  <!-- EN: tox pack -->
   <Apparel_PackTox.label>독소 등짐</Apparel_PackTox.label>
+  <!-- EN: A reusable backpack containing canisters of reagents and a mechanism that uses them to generate tox gas. When the wearer activates the pack, it will begin spreading tox gas and continue for several seconds until it runs out of reagents.\n\nOnce used, it must be reloaded with chemfuel before it can be used again.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
   <Apparel_PackTox.description>재사용 가능한 시약 캐니스터와 독소 생성용 반응 장치를 부착한 등짐입니다. 사용자의 활성화 시, 시약이 고갈될 때까지 수 초간 주위로 독소 가스를 내뿜습니다.\n\n사용 후에는 화학연료로 충전해야 합니다.\n\n독소 가스는 폐와 눈을 태워 일시적으로 호흡을 방해하고 시력을 떨어트립니다. 독소 가스에 계속 노출되면 중독되며, 사망할 수 있습니다.</Apparel_PackTox.description>
+  <!-- EN: tox pack -->
   <Apparel_PackTox.comps.CompReloadable.chargeNoun>독소 등짐</Apparel_PackTox.comps.CompReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
   <Apparel_PackTox.comps.CompReloadable.cooldownGerund>재사용 대기 중</Apparel_PackTox.comps.CompReloadable.cooldownGerund>
+  <!-- EN: deploy tox pack -->
   <Apparel_PackTox.verbs.deploy_tox_pack.label>독소 가스 배출</Apparel_PackTox.verbs.deploy_tox_pack.label>
+  
 </LanguageData>

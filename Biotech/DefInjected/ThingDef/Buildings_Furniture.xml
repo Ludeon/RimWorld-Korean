@@ -1,25 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: baby decoration -->
   <BabyDecoration.label>아기 장식</BabyDecoration.label>
+  <!-- EN: A decoration for babies. Baby decorations increase the rate at which babies fill their play need when an adult plays with them. Place these around your child play areas. -->
   <BabyDecoration.description>유아를 위한 장식입니다. 성인이 아기와 놀아줄 때 놀이 욕구가 차는 속도를 향상합니다. 아이들의 놀이 구역에 배치하세요.</BabyDecoration.description>
   
+  <!-- EN: baby sleeping spot -->
   <BabySleepingSpot.label>아기 잠자리</BabySleepingSpot.label>
+  <!-- EN: Designates a spot on the ground where people should leave a baby. Not comfortable. -->
   <BabySleepingSpot.description>바닥에 아기를 둬야 하는 위치를 정합니다. 불편합니다.</BabySleepingSpot.description>
   
+  <!-- EN: blackboard -->
   <Blackboard.label>칠판</Blackboard.label>
+  <!-- EN: A flat stone-like surface for writing on with chalk. Placed near a lesson desk, blackboards increase childrens' learning rate during lessons. Up to three blackboards can be used at a time. -->
   <Blackboard.description>돌같은 질감의, 분필로 글을 쓰기 위한 평평한 표면입니다. 교실 책상 근처에 배치하면 수업 중 아이들의 학습 속도를 향상합니다. 한 번에 세 개의 칠판 효과를 받을 수 있습니다.</Blackboard.description>
+  <!-- EN: When near a desk where a lesson is taking place, this building increases the student's learning rate. This effect can stack up to three times. -->
   <Blackboard.comps.CompStatEntry.reportText>수업이 진행되는 책상 근처에 배치되면 학생의 학습률을 증가시킵니다. 최대 3개의 칠판이 중첩됩니다.</Blackboard.comps.CompStatEntry.reportText>
+  <!-- EN: Learning rate bonus -->
   <Blackboard.comps.CompStatEntry.statLabel>학습 속도 보너스</Blackboard.comps.CompStatEntry.statLabel>
   
+  <!-- EN: crib -->
   <Crib.label>아기 침대</Crib.label>
+  <!-- EN: A cozy bed with safe latticed sides, perfect for a sleepy baby. A high quality crib will make a baby happy. Multiple cribs can be placed in a bedroom without turning it into a barracks. -->
   <Crib.description>안전 칸막이로 양옆을 막은 편안한 침대입니다. 졸린 아기에게 안성맞춤입니다. 높은 품질의 침대는 아기를 행복하게 해줍니다. 아기 침대는 한 방에 여러 개를 배치해도 방이 막사로 취급되지 않습니다.</Crib.description>
   
+  <!-- EN: school desk -->
   <SchoolDesk.label>교실 책상</SchoolDesk.label>
+  <!-- EN: A desk where adults can teach lessons to children. -->
   <SchoolDesk.description>어른이 아이를 가르칠 수 있는 책상입니다.</SchoolDesk.description>
+  <!-- EN: A multiplier on how quickly children learn during lessons which are assisted by this. -->
   <SchoolDesk.comps.CompStatEntrySchoolDesk.reportText>이것에 영향을 받는 아이들이 얼마나 더 빠르게 학습을 배우는지에 대한 값</SchoolDesk.comps.CompStatEntrySchoolDesk.reportText>
+  <!-- EN: Learning rate bonus -->
   <SchoolDesk.comps.CompStatEntrySchoolDesk.statLabel>학습 속도 보너스</SchoolDesk.comps.CompStatEntrySchoolDesk.statLabel>
+  <!-- EN: Learning rate bonus -->
   <SchoolDesk.comps.CompInspectStringSchooldesk.inspectString>학습 속도 보너스</SchoolDesk.comps.CompInspectStringSchooldesk.inspectString>
   
+  <!-- EN: toy box -->
   <ToyBox.label>장난감 상자</ToyBox.label>
+  <!-- EN: A toy box containing many small toys. Toy boxes can be used to play with babies, satisfying their need for play. -->
   <ToyBox.description>다양하고 조그마한 장난감을 담은 상자입니다. 아기들과 놀아줄 때 사용할 수 있습니다.</ToyBox.description>
+  
 </LanguageData>

@@ -399,9 +399,9 @@
   <!-- EN: {0} trainability -->
   <CreatureTrainability>{0}의 지능</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>소집시 주인 따라가기</CreatureFollowDrafted>
+  <CreatureFollowDrafted>소집 시 주인 따라가기</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>야외작업시 주인 따라가기</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>야외 작업 시 주인 따라가기</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}(와)과 {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
@@ -415,7 +415,7 @@
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>{0}의 덩어리</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>진행중인 연구과제 없음</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>진행 중인 연구과제 없음</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
   <Turret>포탑</Turret>
   <!-- EN: turrets -->
@@ -439,13 +439,13 @@
   <!-- EN: Required -->
   <Required>필요</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>경고: 수송 포드를 사용할 경우 물품을 거래할 수 없습니다.\n상대 세력은 도착한 물품을 단지 선물로 여길 겁니다.\n\n정상적인 거래를 원한다면 상단을 사옹하세요!\n\n적재된 물품을 해당 세력에게 선물하시겠습니까?</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>경고: 수송 포드를 사용해서는 거래 요청을 완수할 수 없습니다.\n상대 세력은 도착한 물품을 선물로 여겨 수락하겠지만 보상은 제공하지 않을 것입니다.\n\n정상적인 거래를 원한다면 상단을 꾸려 직접 접근하세요!\n\n정말 적재된 물품을 해당 세력에게 선물하시겠습니까?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>수감자</PrisonerLower>
   <!-- EN: prisoners -->
   <PrisonersLower>수감자들</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>클릭하여 임무 창으로 이동</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>클릭해서 임무 창으로 이동</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
   <Mood>기분</Mood>
   <!-- EN: Quest -->
@@ -726,7 +726,7 @@
   <!-- EN: Relationship -->
   <Relationship_Label>관계</Relationship_Label>
   <!-- EN: Colonists -->
-  <CaravanColonists_Label>정착민들</CaravanColonists_Label>
+  <CaravanColonists_Label>정착민</CaravanColonists_Label>
   <!-- EN: Status -->
   <CaravanStatus_Label>상태</CaravanStatus_Label>
   <!-- EN: Time to destination -->
@@ -825,7 +825,7 @@
   <!-- EN: area -->
   <AreaLower>구역</AreaLower>
   <!-- EN: cowering. -->
-  <ReportCowering>겁에 질림.</ReportCowering>
+  <ReportCowering>겁에 질림</ReportCowering>
   <!-- EN: standing. -->
   <ReportStanding>대기 중</ReportStanding>
   <!-- EN: extinguishing fire. -->
@@ -835,9 +835,9 @@
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>시체 파내는 중</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>{0_labelShort}에 의해 옮겨지는 중.</CarriedBy> 
+  <CarriedBy>{0_labelShort}에 의해 옮겨지는 중</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>{0_labelShort} 내부.</InContainer> 
+  <InContainer>{0_labelShort} 내부</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1233,7 +1233,7 @@
   <!-- EN: Contains -->
   <CasketContains>동면</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>경고!\n\n{PAWN_nameDef}(은)는 정착지의 마지막 정착민입니다! 만약 그 정착민이 동면장치에 들어간다면 더 이상 플레이 할 수 없습니다. 정말 진행하시겠습니까?</CasketWarning>
+  <CasketWarning>경고!\n\n{PAWN_nameDef}(은)는 정착지의 마지막 정착민입니다! {PAWN_nameDef}(이)가 동면관에 들어가면 플레이가 불가능할 수도 있습니다. 정말 계속하시겠습니까?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1263,11 +1263,11 @@
   <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>신경교육혈청 ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>신경교육혈청을 사용하여 {0} 습득</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>신경교육혈청을 사용해 {0} 습득</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>특정한 기술을 강제로 훈련시키는 일회성의 기계입자 혈청.\n\n안와를 통해 뇌로 직접 투여됩니다. 기계입자는 뇌의 특정 영역으로 파고들어 신경 조직의 형태를 변형시킴으로써 피시술자의 기술 숙련도를 신속하게 개선해 줍니다.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>특정한 기술을 훈련시키는 고농도의 일회용 기계입자 혈청입니다.\n\n안와를 통해 뇌에 투여하면 기계입자가 스스로 신경 조직을 구성해 대상자의 특정 기술을 향상합니다.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort}(은)는 신경교육혈청을 사용하여 {1} 기술 수준을 {2}에서 {3}(으)로 대폭 향상시켰습니다.</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}(이)가 신경교육혈청을 사용해 {1} 기술이 {2}에서 {3}등급으로 향상됐습니다.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1527,33 +1527,33 @@
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>{0_name}(와)과의 우호도가 {1} 만큼 향상됩니다</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>항성으로 나아감</Reward_PassageOffworld>
+  <Reward_PassageOffworld>별들 사이로 나아갑니다</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>세상 밖으로</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>행성 밖으로</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>주둔지에 있는 모든 것을 노획할 수 있음</Reward_CampLoot>
+  <Reward_CampLoot>주둔지에 있는 모든 것을 노획할 수 있습니다</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>주둔지 전리품</Reward_CampLoot_Label>
   <!-- EN: the visitors will work and fight for you -->
-  <Reward_VisitorsHelp>방문객은 당신을 위해 일하며 싸움</Reward_VisitorsHelp>
+  <Reward_VisitorsHelp>방문객들이 정착지에서 함께 일하고 싸워줍니다</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>방문객의 도움</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>새로운 정신력 증폭기 단계</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>새로운 정신력 증폭 단계</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>{PAWNNAME}(이)가 정신력 증폭기를 획득함</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME}(이)가 정신력 증폭 단계를 획득합니다</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>왕복선 전리품</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>왕복선을 분해하고 전리품을 얻을 수 있음</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>왕복선을 분해하고 전리품을 얻을 수 있습니다</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
   <Reward_PossibleFutureReward_Label>향후 보상</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>미래에 받을 수 있는 보상</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>미래에 보상을 받을 수 있습니다</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
   <Reward_Title_Label>{TITLE} 작위</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>{PAWNNAME}(은)는 {FACTION}의 작위 {TITLE}(을)를 획득함</Reward_Title>
+  <Reward_Title>{PAWNNAME}(이)가 {FACTION}의 작위 {TITLE}(을)를 획득합니다</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>가치 {0}</TotalValue>
   
@@ -1763,7 +1763,7 @@
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>소집 중이어야 합니다.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>재사용 대기시간입니다. {0} 후 다시 사용할 수 있습니다.</AbilityOnCooldown>
+  <AbilityOnCooldown>재사용 대기 중입니다. {0} 후 다시 사용할 수 있습니다.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>이미 대기열에 있습니다.</AbilityAlreadyQueued>
   <!-- EN: Ability ready: {0} -->

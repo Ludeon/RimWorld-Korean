@@ -1,10 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've [discoveryDesc] of an ancient complex nearby that contains the remains of a long-dead mechanitor.\n\nMechanitors can create, control, and manipulate mechanoids for work and combat. If you can break into the complex and collect the mechanitor's corpse, you can extract their mechlink and turn one of your own colonists into a mechanitor.\n\nBe warned - these kinds of structures can contain a variety of threats, and your activity at the complex might draw unwanted attention.</li>
+    <li>discoveryDesc(discovered==false)->learned</li>
+    <li>discoveryDesc(discovered==true)->determined the location</li>
+  -->
   <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
     <li>questDescription->오래 전에 사망한 메카나이터의 유해가 위치한 고대 설비의 위치를 [discoveryDesc].\n\n메카나이터들은 메카노이드를 제작하고 제어해서 작업과 전투에 활용합니다. 설비에 침투해서 유해를 회수할 수 있다면, 메크링크를 꺼내 정착민에게 이식하여 새로운 메카나이터로 만들 수 있습니다.\n\n조심하세요. 이런 종류의 구조물에는 다양한 위협이 도사리기 마련이고, 발생하는 소란은 원치 않는 손님들을 부르곤 합니다.</li>
     <li>discoveryDesc(discovered==false)->알게 되었습니다</li>
     <li>discoveryDesc(discovered==true)->알아냈습니다</li>
   </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
+    <li>questName->mechanitor [complex]</li>
+    <li>complexAdj->secret</li>
+    <li>complexAdj->ancient</li>
+    <li>complexAdj->old</li>
+    <li>complexAdj->hidden</li>
+    <li>complexAdj->dusty</li>
+    <li>complexAdj->dangerous</li>
+    <li>complexAdj->hidden</li>
+    <li>complex->complex</li>
+    <li>complex->lair</li>
+    <li>complex->base</li>
+    <li>complex->compound</li>
+    <li>complex->crypt</li>
+    <li>complex->mechplex</li>
+    <li>complex->mechsite</li>
+  -->
   <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
     <li>questName(p=3)->[complexAdj] 메카나이터 [complex]</li>
     <li>questName->메카나이터의 [complex]</li>
@@ -23,4 +47,5 @@
     <li>complex->메카노이드 설비</li>
     <li>complex->메카노이드 기지</li>
   </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  
 </LanguageData>

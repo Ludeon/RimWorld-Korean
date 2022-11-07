@@ -1,113 +1,196 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Mechanitor -->
+  <!-- EN: Mech(s) gone feral -->
   <LetterLabelMechsFeral>메카노이드 제어 불가</LetterLabelMechsFeral>
+  <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
   <LetterMechsFeral>통제관 없이 배회하던 일부 메카노이드가 이 행성에 존재하는 고대의 메카노이드 제어 신호와 연결됐습니다. 이 메카노이드들은 {0}에 합류해서 적대적으로 변했고, 지역 밖으로 나가기 위해 싸움도 마다하지 않을 것입니다.\n\n제어 불가 메카노이드는 파괴돼도 배양기에서 소생할 수 없습니다.\n\n제어 불가 메카노이드들은 다음과 같습니다.\n\n{1}</LetterMechsFeral>
+  <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>메크링크 설치됨</LetterLabelMechlinkInstalled>
+  <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
   <LetterMechlinkInstalled>{PAWN_labelShort}(이)가 메크링크를 설치했습니다! {PAWN_pronoun}는 이제 메카나이터가 됐으며 메카노이드를 생산하고 제어할 수 있습니다.\n\n기본 메카노이드 기술을 연구해서 시작하세요.\n\n(*SectionTitle)메카노이스 생산:(/SectionTitle) 메카나이터는 메카노이드 배양기라고 불리는 생산 건물에서 메카노이드를 만들 수 있습니다.\n\n(*SectionTitle)대역폭에 대해:(/SectionTitle) 메카나이터가 제어할 수 있는 최대 메카노이드 수는 자신의 제어 대역폭이 결정합니다. {PAWN_labelShort}(을)를 선택 후 화면 아래 '대역폭'에서 사용 가능한 대역폭을 확인할 수 있습니다. 특정 의류를 입거나 대역 증폭기를 건설해서 대역폭을 확장할 수 있습니다.\n\n(*SectionTitle)제어 그룹에 대해:(/SectionTitle) 메카나이터는 메카노이드를 그룹 단위로 제어합니다. 각각의 제어 그룹에는 다음 세 모드를 명령할 수 있습니다.\n\n- 작업\n- 호위\n- 충전\n- 자가충전 휴면상태\n\n각 모드의 자세한 행동은 {PAWN_labelShort}의 제어 그룹 위쪽 모드 아이콘을 클릭한 후 선택지 위에 커서를 올려두면 알 수 있습니다. 최대 제어 그룹 수는 특정 의류와 이식물로 높일 수 있습니다.\n\n(*SectionTitle)위협 호출에 대해:(/SectionTitle) 메카나이터는 고대의 메카노이드 지휘관을 호출 후 공격해서 희귀한 물품을 획득할 수 있습니다. 메카나이터의 한계를 뛰어넘으려면 반드시 필요하지만, 위험에 대비하세요.</LetterMechlinkInstalled>
 
+  <!-- EN: This happened because of -->
   <MentalStateReason_Gene>이는 다음으로 인해 발생했습니다.</MentalStateReason_Gene>
 
+  <!-- EN: {0} summoned -->
   <LetterLabelBossgroupSummoned>{0} 호출됨</LetterLabelBossgroupSummoned>
+  <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
   <LetterBossgroupSummoned>당신이 송신한 메카노이드 대역 신호에 이끌린 {0}의 초대형 메카노이드가 곧 도착합니다. 준비하세요.</LetterBossgroupSummoned>
 
+  <!-- EN: {0} arrived -->
   <LetterLabelBossgroupArrived>{0} 도착함</LetterLabelBossgroupArrived>
+  <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
   <LetterBossgroupArrived>{0}의 초대형 메카노이드가 당신을 멸하기 위해 호위와 함께 찾아왔습니다.\n\n{1}\n\n공격 그룹은 다음 {3}(으)로 구성됩니다.\n\n{4}\n\n이들은 잠시 준비한 후 공격할 것입니다.</LetterBossgroupArrived>
 
+  <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>{LEADER_label} 호출 가능</LetterLabelCommsConsoleSpawned>
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterCommsConsoleSpawned>메카나이터는 {PARENT_label}(을)를 사용하여 위험하고 적대적인 {LEADER_label} 메카노이드를 호출할 수 있습니다. 준비하세요. {LEADER_label} 메카노이드는 매우 강력합니다.\n\n{LEADER_label}(을)를 물리치면 다음 물품을 떨어뜨립니다:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
+  <!-- EN: Summon {LEADER_label} possible -->
   <LetterLabelBossgroupCallerUnlocked>{LEADER_label} 호출 가능</LetterLabelBossgroupCallerUnlocked>
+  <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterBossgroupCallerUnlocked>이제 메카나이터가 {LEADER_label}(을)를 호출할 수 있는 {PARENT_label}(을)를 건설할 수 있습니다. {LEADER_label}(을)를 물리치면 다음 물품을 떨어트립니다:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
+  <!-- EN: {0_nameDef}'s mechlink available -->
   <LetterLabelMechanitorCasketOpened>{0_nameDef}의 메크링크 사용 가능</LetterLabelMechanitorCasketOpened>
+  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
   <LetterMechanitorCasketOpened>고대 메카나이터의 시체를 찾았습니다!\n\n정착민을 선택한 후 메카나이터의 시체에 오른쪽 클릭을 해서 메크링크를 추출하세요.</LetterMechanitorCasketOpened>
+  <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>메카나이터 동면관 발견</LetterLabelMechanitorCasketFound>
+  <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>메카나이터의 동면관을 발견했습니다!\n\n개방해서 내부를 확인하세요.</LetterMechanitorCasketFound>
   
   <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechs have been lost with it -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>상단을 잃었습니다. 잃어버린 정착민들과 동물, 그리고 메카노이드들</LetterPawnsLostIncMechsBecauseMapClosed_Caravan><!-- text_todo -->
+  <!-- EN: The following people, animals and mechs have been abandoned -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Home>다음 사람들과 동물들, 메카노이드들이 버려졌습니다</LetterPawnsLostIncMechsBecauseMapClosed_Home><!-- text_todo -->
   
 
   <!-- Children -->
+  <!-- EN: {0_nameDef} became a child -->
   <LetterLabelBecameChild>{0_nameDef}(이)가 어린이로 자라남</LetterLabelBecameChild>
+  <!-- EN: {0_nameDef} became an adult -->
   <LetterLabelBecameAdult>{0_nameDef}(이)가 성인으로 자라남</LetterLabelBecameAdult>
+  <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
   <LetterBecameChild>아기였던 {0_nameDef}(이)가 자라나서 어린이가 되었습니다! {0_pronoun}는 이제 다음 작업을 할수 있게 되었습니다</LetterBecameChild>
+  <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
   <LetterBecameChildChanges>어린이들은 여러 작업을 할 수 있습니다. 나이가 들어갈수록 더 많은 작업을 할 수 있게됩니다.\n\n또한 어린이들은 어린이 전용 유흥활동을 할 수 있습니다.\n\n어린이들은 어린이 크기의 옷을 입어야 합니다.</LetterBecameChildChanges>
+  <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
   <LetterChildLegalStatus>전통적으로 {0_parentage}인 {0_nameDef}(은)는 {0_legalStatus}입니다만, 예외도 있을 수 있습니다... {0_nameDef}(을)를 {0_legalStatus}(으)로 유지할까요?</LetterChildLegalStatus>
+  <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
   <LetterChildFollowIdeo>{0_labelShort}(은)는 {1_name} 사상을 따르기로 결정했습니다.</LetterChildFollowIdeo>
+  <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
   <CannotChangeChildStatusReason>{0_nameDef}의 노예 상태는 이미 {0_possessive} 생일 이후 변경됐습니다.</CannotChangeChildStatusReason>
+  <!-- EN: enslave -->
   <Enslave>노예화</Enslave>
+  <!-- EN: emancipate -->
   <Emancipate>해방</Emancipate>
+  <!-- EN: remain {0} -->
   <RemainX>{0}(으)로 유지</RemainX>
+  <!-- EN: {BABY_nameDef} adopted -->
   <LetterLabelAdopted>{BABY_nameDef} 입양함</LetterLabelAdopted>
+  <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
   <LetterTextAdopted>아기 {BABY_nameDef}(이)가 당신의 정착지에 입양되었습니다. 정착민에게 보육 작업을 할당해 {BABY_objective} 챙겨줄 수 있습니다.</LetterTextAdopted>
 
+  <!-- EN: {0_nameDef}'s baby prep -->
   <LetterLabelThirdTrimester>{0_nameDef}의 아기 준비</LetterLabelThirdTrimester>
+  <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
   <LetterTextThirdTrimester>{0_nameDef}(이)가 6일 이내에 출산할 예정입니다. 다음과 같은 방법으로 태어날 때를 준비할 수 있습니다.\n\n- 깨끗한 바닥과 좋은 침대가 있는 분만실을 만드세요.\n- 숙련된 의사를 준비하세요.\n- 작업 탭에서 적어도 한 사람을 보육에 지정하세요.\n - 아기를 위한 음식을 준비하세요. {0_nameDef}(이)가 아기에게 모유 수유를 하거나 이유식, 우유 또는 곤충 젤리를 먹일 수 있습니다.\n- 유아용 침대를 만드세요. 고품질 유아용 침대는 아기를 행복하게 합니다.\n\n스토브나 모닥불에서 이유식을 만들 수 있습니다.</LetterTextThirdTrimester>
 
+  <!-- EN: {0} vat birth -->
   <LetterVatBirth>{0}(이)가 성장촉진기에서 태어남</LetterVatBirth>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
   <LetterVatHealthyBaby>{0_nameDef}(와)과 {1_nameDef}의 배아가 성장촉진기 안에서 성장을 마치고 건강한 아기가 되었습니다!</LetterVatHealthyBaby>
+  <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
   <LetterVatHealthyBabyNoParents>배아가 성장촉진기에서 성장을 마치고 건강한 아기가 되었습니다!</LetterVatHealthyBabyNoParents>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
   <LetterVatInfantIllness>{0_nameDef}(와)과 {1_nameDef}의 배아가 성장촉진기 안에서 성장을 마치고 아기가 되었습니다. 아쉽게도 건강한 아기가 아닙니다.</LetterVatInfantIllness>
+  <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
   <LetterVatInfantIllnessNoParents>배아가 성장촉진기 안에서 성장을 마치고 아기가 되었습니다. 아쉽게도 건강한 아기가 아닙니다.</LetterVatInfantIllnessNoParents>
+  <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
   <LetterVatStillborn>성장촉진기에서 성장하던 {0_nameDef}(와)과 {1_nameDef}의 아기가 사산되었습니다.</LetterVatStillborn>
+  <!-- EN: The baby formed in a growth vat was stillborn. -->
   <LetterVatSillbornNoParents>성장촉진기에서 자라던 아기가 사산되었습니다.</LetterVatSillbornNoParents>
+  <!-- EN: {0_labelShort} in labor! -->
   <LetterColonistPregnancyLaborLabel>{0_labelShort}(이)가 분만중!</LetterColonistPregnancyLaborLabel>
+  <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
   <LetterColonistPregnancyLabor>{0_labelShort}(이)가 아이를 낳으려 하고 있습니다! 아이를 낳기 전 몇시간동안 진통이 있을것입니다. 분만에는 여러 단계의 어려움과 위험이 있습니다.\n\n성공적인 출산의 확률을 높이기 위해 의사를 포함한 다른 사람들을 불러 그녀를 도울 수 있습니다. {0_labelShort}(을)를 선택한뒤, 출산을 위해 모임 을 선택하여 모을 수 있습니다.</LetterColonistPregnancyLabor>
+  <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>{0_labelShort}(은)는 출산 휴우증으로 사망했습니다.</LetterPartColonistDiedAfterChildbirth>
+  <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
   <LetterPartSurrogacy>아기는 체외 수정으로 만들어졌으며 {0_labelShort} 및 {1_labelShort} 유전자 구성을 가지고 있습니다.</LetterPartSurrogacy>
+  <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
   <InbredBabyBorn>아기가 근친 교배로 인한 유전적 기형의 징후를 보입니다.</InbredBabyBorn>
 
+  <!-- EN: {0_nameDef} has already been named. -->
   <BabyAlreadyNamed>{0_nameDef}(은)는 이미 이름이 있습니다.</BabyAlreadyNamed>
+  <!-- EN: name baby -->
   <NameBaby>아기 이름짓기</NameBaby>
+  <!-- EN: immediately -->
   <Immediately>즉시</Immediately>
+  <!-- EN: within -->
   <Within>이내</Within>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
   <LetterPartNameBaby>아기의 이름을 임시로 {0_nameFull}(으)로 지어줬습니다. 출생 후 {1} 이내로 변경할 수 있습니다.</LetterPartNameBaby>
+  <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
   <LetterPartNameBabyAdopt>아기의 이름을 임시로 {0_nameFull}(으)로 지어줬습니다. {1} 전까지 변경할 수 있습니다.</LetterPartNameBabyAdopt> 
 
+  <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME}의 성장 순간</BirthdayGrowthMoment>
+  <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
   <BirthdayBiologicalGrowthMoment>{0_nameFull}의 생물학적 나이가 {1}(이)가 되었고 특별한 성장의 순간을 경험했습니다.</BirthdayBiologicalGrowthMoment>
+  <!-- EN: {0_nameDef} is now old enough to do the following work -->
   <BirthdayBiologicalAgeWorkTypes>{0_nameDef}(은)는 다음 작업을 수행할 수 있을 만큼 성장했습니다</BirthdayBiologicalAgeWorkTypes>
+  <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
   <BirthdayPickPassion>{0_nameDef}의 기술 하나를 선택해 {0_possessive} 열정을 키웁니다</BirthdayPickPassion>
+  <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
   <BirthdayPickPassions>{0_nameDef}의 기술 {1}개를 선택해 {0_possessive} 열정을 키웁니다</BirthdayPickPassions>
+  <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>{0_nameDef}(이)가 얻을 특성 선택</BirthdayPickTrait>
+  <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
   <BirthdayGrowthTier>해당 성장 순간이 발생했을 때 {0_nameDef}(은)는 성장 단계 {1}에 있었습니다. 더 높은 성장 단계의 어린이는 선택할 수 있는 특성 및 열정 항목이 더 많고 전반적으로 더 많은 열정을 가집니다. 학습 요구 사항을 충족하면 아동이 성장 단계에 더 빨리 진입할 수 있습니다. 성장 단계는 성장 순간마다 재설정됩니다.</BirthdayGrowthTier>
+  <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>이 편지를 열어 {0_nameDef}의 성장 방식을 선택하세요.</BirthdayChooseHowPawnWillGrow>
 
+  <!-- EN: Passion was increased for {0}. -->
   <BirthdayPassionArchive>{0}에 대한 열정이 증가했습니다.</BirthdayPassionArchive>
+  <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>{0} 특성을 얻었습니다.</BirthdayTraitArchive>
   
+  <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>닫으려면 먼저 선택을 하세요.</BirthdayMakeChoices>
+  <!-- EN: {0} has gained the nickname {1}. -->
   <BirthdayNickname>{0}(은)는 {1}(이)라는 별명을 얻었습니다.</BirthdayNickname>
+  <!-- EN: Select a trait. -->
   <SelectATrait>특성을 선택하세요.</SelectATrait>
+  <!-- EN: Select a passion. -->
   <SelectPassionSingular>열정을 선택하세요.</SelectPassionSingular>
+  <!-- EN: Select {0} passions. -->
   <SelectPassionsPlural>열정 {0}개를 선택하세요.</SelectPassionsPlural>
+  <!-- EN: Later -->
   <Later>나중에</Later>
   
+  <!-- EN: Mechlink available -->
   <LetterLabelMechlinkAvailable>메크링크 획득 기회</LetterLabelMechlinkAvailable>
+  <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
   <LetterMechlinkAvailable>임무 '{0}'(을)를 통해 메크링크 이식물을 획득할 수 있습니다.\n\n정착민이 메크링크를 설치하면 메카나이터가 됩니다. 메카나이터는 메카노이드를 생산, 제어, 조작해서 작업과 전투에 활용합니다.</LetterMechlinkAvailable>
 
   <!-- Genes -->
+  <!-- EN: Xenogerm implantation ordered -->
   <LetterLabelXenogermOrderedImplanted>변형이식체 이식 명령함</LetterLabelXenogermOrderedImplanted>
+  <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
   <LetterXenogermOrderedImplanted>{PAWN_nameDef}에 이식할 변형이식체를 주문했습니다. 이 절차는 의료용 침대와 {MEDICINENEEDED} 약이 필요합니다.{BEDINFO}{MEDICINEINFO}\n\n이 절차는 {PAWN_nameDef}의 건강 -> 수술 탭으로 이동하여 취소할 수 있습니다.</LetterXenogermOrderedImplanted>
+  <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
   <XenogermOrderedImplantedBedNeeded>\n\n{PAWN_nameDef}에 사용할 수 있는 의료용 침대가 없습니다. 침대를 의료용으로 변경하는 것을 고려하세요.</XenogermOrderedImplantedBedNeeded>
+  <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
   <XenogermOrderedImplantedMedicineNeeded>\n\n변형이식체를 이식할 약품이 부족합니다. {MEDICINENEEDED} 약품을 받을 때까지 이식을 시작할 수 없습니다.</XenogermOrderedImplantedMedicineNeeded>
+  <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>비 자발적 죽음안식</LetterLabelInvoluntaryDeathrest>
+  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
   <LetterTextInvoluntaryDeathrest>{PAWN_nameDef}(은)는 죽음안식에 빠졌습니다.</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>치명상을 입었습니다.</DeathrestLethalDamage>
 
+  <!-- EN: Xenogerm implantation -->
   <LetterLabelSanguophageWaitingToReimplant>변형이식체 이식</LetterLabelSanguophageWaitingToReimplant>
+  <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
   <LetterTextSanguophageWaitingToReimplant>{PAWN_objective} 및 {PAWN_possessive} 동료 생귀오파지가 여기에서 만날 수 있게 해 준 것에 대한 감사의 의미로, {PAWN_nameDef}(은)는 {PAWN_possessive} 변형이식체 사본을 정착지 주민 중 한 명과 기꺼이 공유합니다. 이렇게 하면 정착지 주민이 생귀오파지로 바뀝니다.\n\n수락하려면 정착지 주민을 선택하고 {PAWN_nameDef}(을)를 마우스 오른쪽 버튼으로 클릭하세요.\n\n{DURATION} 동안 보상을 요구한 정착지 주민이 없으면 생귀오파지가 떠납니다.</LetterTextSanguophageWaitingToReimplant>
 
+  <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>재이식된 유전자</LetterLabelGenesImplanted>
+  <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
   <LetterTextGenesImplanted>{CASTER_nameDef}(이)가 {CASTER_possessive} 변형이식체의 복사본을 {TARGET_nameDef}에 이식하여 모든 변형이식체를 {TARGET_objective}에 전달했습니다.\n\n{TARGET_nameDef}(은)는 다음 {COMADURATION} 동안 변형이식 혼수상태에 있을 것입니다. 동시에 {TARGET_possessive} 변경 사항에 맞게 조정됩니다.\n\n{CASTER_nameDef}(은)는 다음 {SHOCKDURATION} 동안 유전자 상실 충격을 겪을 것입니다. {CASTER_possessive} 유전자도 다시 자라야 합니다. 이 과정은 시간이 걸립니다. {CASTER_possessive} 유전자가 다시 자라기 전에 {CASTER_nameDef}(이)가 {CASTER_possessive} 변형이식체를 다시 이식하면 {CASTER_pronoun}(은)는 죽습니다.</LetterTextGenesImplanted>
   
+  <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
   <RefugeePodCrashBaby>{PAWN_factionName}의 {PAWN_nameDef}(이)라는 이름의 아기가 탄 수송 포드가 근처에 추락했습니다.\n\n'입양' 명령으로 {PAWN_objective}를 입양하거나 {PAWN_objective} 무시하도록 선택할 수 있습니다.</RefugeePodCrashBaby>
+  <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
   <RefugeePodCrashBabyHasParent>{PAWN_nameDef}의 돌아가신 부모의 시체도 수송 포드에 같이 있습니다.</RefugeePodCrashBabyHasParent>
 
+  <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>본능적으로 짝을 찾고 있는 {BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 정신적으로 결속된 낭만적인 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과 정신적 연결을 통해 심리적으로 도움이 되지만 서로 다른 세계 타일로 분리되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreated>
 
 </LanguageData>

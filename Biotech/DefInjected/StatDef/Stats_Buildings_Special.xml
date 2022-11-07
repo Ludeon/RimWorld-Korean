@@ -1,15 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: work speed factor -->
   <AssemblySpeedFactor.label>작업 속도 계수</AssemblySpeedFactor.label>
+  <!-- EN: The speed at which people assemble genes here is multiplied by this value. -->
   <AssemblySpeedFactor.description>사람들이 여기에서 유전자를 조합하는 속도에 이 값이 곱해집니다.</AssemblySpeedFactor.description>
+  <!-- EN: Room cleanliness -->
   <AssemblySpeedFactor.parts.Room_cleanliness.customLabel>방 청결도</AssemblySpeedFactor.parts.Room_cleanliness.customLabel>
   
+  <!-- EN: baby play power -->
   <BabyPlayGainFactor.label>유아의 행동력</BabyPlayGainFactor.label>
+  <!-- EN: How effectively this object can be used to fulfill a baby's need for play. -->
   <BabyPlayGainFactor.description>물건이 아기의 놀이 욕구를 얼마나 효과적으로 충족시킬 수 있는지 정합니다.</BabyPlayGainFactor.description>
   
+  <!-- EN: birth quality offset -->
   <BirthRitualQualityOffset.label>출산 품질 영향</BirthRitualQualityOffset.label>
+  <!-- EN: This alters the quality of a birth when this is used as a birth place. Birth quality affects the chance of the baby being born healthy. -->
   <BirthRitualQualityOffset.description>출산하는 장소에 따라 출산 효과를 변경합니다. 출산 효과에 따라 아기가 건강하게 태어날 확률을 정합니다.</BirthRitualQualityOffset.description>
   
+  <!-- EN: genetic complexity increase -->
   <GeneticComplexityIncrease.label>유전적 복잡성 증가</GeneticComplexityIncrease.label>
+  <!-- EN: When placed near a gene assembler, this building increases the maximum genetic complexity that can be assembled at once. -->
   <GeneticComplexityIncrease.description>이 건물은 유전자 조합기 근처에 위치하면 한 번에 조합할 수 있는 최대 유전적 복잡성이 증가시킵니다.</GeneticComplexityIncrease.description>
+  
 </LanguageData>

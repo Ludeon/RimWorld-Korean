@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: toxic needle -->
   <Bullet_ToxicNeedleGun.label>독성 바늘</Bullet_ToxicNeedleGun.label>
   
+  <!-- EN: beam graser -->
   <Gun_BeamGraser.label>광선총</Gun_BeamGraser.label>
+  <!-- EN: A high-energy gamma ray laser which fires a sweeping beam that burns and ignites targets. Because of the health risks, grasers are usually only used by mechanoids, and this one was made to interface directly with a mechanoid wielder and draw from its power source. -->
   <Gun_BeamGraser.description>대상을 불태우는 고출력 감마선 레이저를 발사합니다. 보통 광선총은 인체에 위험하기 때문에, 메카노이드로 운용됩니다. 메카노이드의 동력원을 통해 작동하기 때문에 직접 연결되도록 만들어졌습니다.</Gun_BeamGraser.description>
+  <!-- EN: barrel -->
   <Gun_BeamGraser.tools.barrel.label>총열</Gun_BeamGraser.tools.barrel.label>
+  <!-- EN: beam graser -->
   <Gun_BeamGraser.verbs.Verb_ShootBeam.label>광선총</Gun_BeamGraser.verbs.Verb_ShootBeam.label>
   
+  <!-- EN: toxic needle gun -->
   <Gun_ToxicNeedle.label>독성 니들건</Gun_ToxicNeedle.label>
+  <!-- EN: A mechanoid-built gun that fires toxin-infused metal needles. It can fire long distances and will poison the target in addition to doing physical damage. -->
   <Gun_ToxicNeedle.description>독소가 주입된 금속 바늘을 발사하는 메카노이드 총입니다. 장거리에서 발사할 수 있고, 물리적인 피해뿐만 아니라 목표물을 중독시킬 수 있습니다.</Gun_ToxicNeedle.description>
+  <!-- EN: barrel -->
   <Gun_ToxicNeedle.tools.barrel.label>총열</Gun_ToxicNeedle.tools.barrel.label>
+  <!-- EN: toxic needle gun -->
   <Gun_ToxicNeedle.verbs.Verb_Shoot.label>독성 바늘 총</Gun_ToxicNeedle.verbs.Verb_Shoot.label>
+  
 </LanguageData>

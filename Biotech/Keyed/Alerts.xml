@@ -1,68 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>통제를 벗어난 메카노이드</AlertMechLacksOverseer>
+  <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
   <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고있지 않습니다. 메카노이드를 충분한 대역폭을 가진 기계공학자와 연결하십시오.\n\n하루 이상 제어되지 않으면 메카노이드가 고대 통제신호와 연결될 수 있습니다. 고대 통제신호와 연결된 메카노이드는 {0}에 합류하여 당신에게 적대적이 될 것입니다. 메카노이드가 적대적이 되면 주변 메카노이드들에게도 영향을 미칩니다.\n\n적대적 메카노이드는 파괴 시 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
+  <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>다음 메카노이드가 통제되고 있지 않습니다</AlertMechLacksOverseerUncontrolled>
+  <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
   <AlertMechLacksOverseerMayGoFeral>다음 메카노이드가 통제되고 있지 않으며 언제든지 폭주할 수 있습니다</AlertMechLacksOverseerMayGoFeral>
 
+  <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{0} 자원 부족</AlertWarqueenHasLowResources>
+  <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
   <AlertWarqueenHasLowResourcesDesc>하나 이상의 {0}의 자원이 부족합니다. 자원이 바닥나면 메카노이드 생성 명령을 실행 할 수 없습니다.</AlertWarqueenHasLowResourcesDesc>
 
+  <!-- EN: {PAWN} needs deathrest -->
   <AlertLowDeathrestPawn>{PAWN}(이)가 죽음안식 필요</AlertLowDeathrestPawn>
+  <!-- EN: {NUMCULPRITS} colonists need deathrest -->
   <AlertLowDeathrestPawns>정착민 {NUMCULPRITS}명이 죽음안식 필요</AlertLowDeathrestPawns>
+  <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
   <AlertLowDeathrestDesc>정착민이 오랜 시간 죽음안식을 취하지 않았습니다. 너무 오래 죽음안식을 취하지 않으면 죽음안식 탈진을 겪습니다.\n\n죽음안식을 취하려면 정착민을 선택한 후 할당된 침대나 죽음안식 관을 오른쪽 클릭하세요.\n\n죽음안식이 필요한 사람은 다음과 같습니다:\n{CULPRITS}</AlertLowDeathrestDesc>
 
+  <!-- EN: Low hemogen -->
   <AlertLowHemogen>혈액정수 낮음</AlertLowHemogen>
+  <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
   <AlertLowHemogenDesc>정착민의 혈액정수 수치가 낮습니다. 혈액정수가 바닥나면 혈액정수 갈망으로 인해 고통스러워합니다.\n\n혈액팩을 먹여 혈액정수 갈망을 예방할 수 있습니다. 혈액팩은 혈액정수를 소비하지 않는 인간에게 '혈액팩 추출' 수술을 해서 얻을 수 있습니다.\n\n혈액정수 수치가 낮은 정착민은 다음과 같습니다</AlertLowHemogenDesc>
 
+  <!-- EN: Recharger full -->
   <AlertRechargerFull>충전기 가득 참</AlertRechargerFull>
+  <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
   <AlertRechargerFullDesc>일부 메카노이드 충전기의 독성 폐기물이 가득 찼습니다. 독성 폐기물을 비우기 전엔 메카노이드가 충전기를 사용할 수 없습니다.\n\n정착민을 선택하고 충전기를 오른쪽 클릭해서 폐기물을 비우세요.</AlertRechargerFullDesc>
 
+  <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>메카노이드 충전기 필요</AlertNeedMechChargers>
+  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
   <AlertNeedMechChargersDesc>메카노이드에 비해 충전기가 부족합니다. 메카노이드의 전력이 바닥나면 자가 충전 휴면상태에 들어가 매우 느린 속도로 충전할 것입니다.\n\n다음의 충전기가 추가로 필요합니다:\n\n{0}\n\n참고: 일반 충전기는 소형 메카노이드만 사용할 수 있습니다. 중형 이상의 메카노이드는 대형 충전기가 필요합니다.</AlertNeedMechChargersDesc>
+  <!-- EN: Research basic mechtech or higher to build rechargers. -->
   <AlertNeedMechChargerBasicMechtech>충전기를 건설하려면 기본 기계공학 이상의 기술을 연구해야 합니다.</AlertNeedMechChargerBasicMechtech>
 
+  <!-- EN: Reimplantation available -->
   <AlertReimplantationAvailable>재이식 가능</AlertReimplantationAvailable>
+  <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
   <AlertReimplantationAvailableDesc>{0_nameDef}(은)는 정착민 중 하나에게 {0_possessive} 변형이식체를 삽입하기 위해 기다리는 중입니다.</AlertReimplantationAvailableDesc>
 
+  <!-- EN: Low baby food -->
   <AlertLowBabyFood>이유식 부족</AlertLowBabyFood>
+  <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
   <AlertLowBabyFoodDesc>이유식이 위험할 정도로 부족합니다.\n\n    음식이 필요한 아기들: {0}\n    비축한 이유식: {1}일치\n\n{2}(을)를 포함한 이유식을 찾거나 사거나 만드세요.</AlertLowBabyFoodDesc>
+  <!-- EN: No baby feeders -->
   <AlertNoBabyFeeder>유아 급식기 없음</AlertNoBabyFeeder>
+  <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
   <AlertNoBabyFeederDesc>이 아기들에게 음식을 줄 {FACTION_pawnsPlural}(이)가 할당되지 않았거나 모두 쓰러졌습니다.\n\n{FACTION_pawnsPlural} 중 하나를 보육 시설에 할당하거나 수유 중인 {FACTION_pawnSingular}(을)를 할당하여 아기의 수유 탭에서 긴급 우선순위로 이 아기에게 먹을 것을 주세요. 그리고 그들 중 적어도 하나가 쓰러지지 않았는지 확인하십시오.</AlertNoBabyFeederDesc>
 
+  <!-- EN: No baby food in caravan -->
   <AlertNoBabyFoodCaravan>상단 내 이유식 없음</AlertNoBabyFoodCaravan>
+  <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
   <AlertNoBabyFoodCaravanDesc>이 상단의 아이에게 먹일 이유식이 없으며, 수유할 수 있는 {FACTION_pawnsPlural}(이)가 지정되지 않았습니다.</AlertNoBabyFoodCaravanDesc>
 
+  <!-- EN: Toxic buildup -->
   <AlertToxicBuildup>중독</AlertToxicBuildup>
+  <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
   <AlertToxicBuildupDesc>다음 정착민들의 독성 축적이 심각한 수준에 이르렀습니다:\n\n{0}\n\n이들을 독성을 축적시키는 물건에서 떨어트리십시오. 독성 축적은 유독성 낙진, 독가스, 그리고 오염된 지형 등 으로부터 생기게 됩니다.</AlertToxicBuildupDesc>
 
+  <!-- EN: Need baby cribs -->
   <AlertNeedBabyCribs>아기 침대 필요</AlertNeedBabyCribs>
+  <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
   <AlertNeedBabyCribsDesc>현재 아이의 숫자가 정착지의 아기 침대 숫자보다 많습니다.\n\n아기 침대를 만들거나, 아기 잠자리를 지정하세요.</AlertNeedBabyCribsDesc>
+  <!-- EN: Need slave cribs -->
   <AlertNeedSlaveCribs>노예 요람 필요</AlertNeedSlaveCribs>
+  <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
   <AlertNeedSlaveCribsDesc>요람 수보다 더 많은 노예 아기가 존재합니다. \n\n 요람을 더 만들거나, 기존 요람을 노예 전용 요람으로 전환하세요. \n\n침대를 만들 재료나 시간이 없다면, 잠자리를 지정하세요.</AlertNeedSlaveCribsDesc>
 
+  <!-- EN: Polluted terrain -->
   <AlertPollutedTerrain>오염된 지형</AlertPollutedTerrain>
+  <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
   <AlertPollutedTerrainDesc>독성이 축적된 정착민이나 동물이 오염된 지형 위에 있습니다. 오염된 지형 위에 있는 모든 이는 독성축적을 겪으며 결국 사망에 이릅니다.\n\n영향을 받고있는 가축 및 사람들:\n\n{0}\n\n이들을 오염된 지형에서 떨어트려 놓거나 영향을 방어 할 방법을 찾으십시오. 특정 장비나 삽입물, 혹은 유전자 변형이 독성 축적으로부터 보호를 제공합니다. 오염된 지형은 바닥으로 덮을 수 없지만, 직접 치우는 등의 여러 방법으로 정화 할 수 있습니다.</AlertPollutedTerrainDesc>
 
+  <!-- EN: Mechanoid missing part -->
   <AlertMechMissingBodyPart>메카노이드 부품 부족</AlertMechMissingBodyPart>
+  <!-- EN: Mechanoids missing parts -->
   <AlertMechsMissingBodyPart>메카노이드 다수 부품 부족</AlertMechsMissingBodyPart>
+  <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
   <AlertMechMissingBodyPartDesc>신체 부속품이 누락된 메카노이드가 있습니다. 메카나이터가 수리할 수 있습니다.\n\n부속품이 누락된 메카노이드</AlertMechMissingBodyPartDesc>
 
+  <!-- EN: Mechanoid repair needed -->
   <AlertMechNeedsRepair>수리가 필요한 메카노이드</AlertMechNeedsRepair>
+  <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>이 메카노이드들은 손상되었고, 수리가 필요합니다</AlertMechNeedsRepairDescPrefix>
+  <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
   <AlertMechNeedsRepairDesc>메카나이터에게 수리를 명령하거나, 메카노이드를 선택하고 자동 수리를 활성화하세요. 수리 시 메카노이드의 전력이 소모됩니다. 메카노이드의 전력량이 너무 낮아 움직일 수 없다면 누군가 충전기로 옮겨줘야 합니다.</AlertMechNeedsRepairDesc>
   
+  <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0} 중지됨</AlertToxifierGeneratorStopped>
+  <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
   <AlertToxifierGeneratorStoppedDesc>주변 모든 지형이 오염돼 {0}의 전력 생산이 중단됐습니다.\n\n오염물질 펌프로 주변을 정화하거나, 오염 제거 구역을 설정하세요.</AlertToxifierGeneratorStoppedDesc>
 
+  <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>정신결속 (멂)</AlertPsychicBondedPawnsSeparated>
+  <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
   <AlertPsychicBondedPawnsSeparatedDesc>초정신적 결속을 가진 일부 정착민들이 분리되어 멀리서 부정적인 영향을 느끼고 있습니다. 이것을 피하려면 초정신적 결속을 가진 정착민들이 같은 세계 타일, 상단 또는 탈 것에 있어야 합니다. 또한 동면 또는 이와 유사한 코마 상태가 아니어야 합니다.\n\n영향을 받는 사람은 다음과 같습니다.</AlertPsychicBondedPawnsSeparatedDesc>
 
+  <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>유전자 저장고 전력 필요</AlertGenebankUnpowered>
+  <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
   <AlertGenebankUnpoweredDesc>유전자 저장고에 전력이 공급되지 않아 저장된 유전자묶음들이 서서히 손상되고 있습니다. 전력을 복구하여 유전자묶음의 손상을 방지하세요.\n\n유전자 저장고에 전력이 공급되면 진행된 손상을 천천히 복구합니다.</AlertGenebankUnpoweredDesc>
 
+  <!-- EN: {0} incoming -->
   <AlertBossgroupIncoming>{0} 접근 중</AlertBossgroupIncoming><!-- text_todo -->
+  <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
   <AlertBossgroupIncomingDesc>기계 장치의 신호를 받아 적대적인 {0}(이)가 호위 전투 병력과 함께 접근하고 있습니다. 준비하세요. 이것은 쉬운 싸움이 아닙니다. 적대적인 메카노이드는 몇 시간 또는 며칠 안에 도착할 것입니다.</AlertBossgroupIncomingDesc><!-- text_todo -->
 
 </LanguageData>

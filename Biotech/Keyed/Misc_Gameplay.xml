@@ -1,422 +1,766 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Dormant self-charging -->
   <SelfShutdown>자가충전 휴면상태</SelfShutdown>
+  <!-- EN: Carry to recharger -->
   <CarryToRecharger>충전기로 운반</CarryToRecharger>
+  <!-- EN: Must be carried to recharger. -->
   <MustBeCarriedToRecharger>충전기로 운반돼야 합니다.</MustBeCarriedToRecharger>
+  <!-- EN: Danger -->
   <Danger>위험</Danger>
+  <!-- EN: {0} damage -->
   <DamageType>{0} 피해</DamageType>
+  <!-- EN: Contained {0_labelPlural} -->
   <ContainedThings>{0_labelPlural} 포함</ContainedThings>
+  <!-- EN: Time until next atomization -->
   <DurationUntilNextAtomization>다음 분쇄까지 남은 시간</DurationUntilNextAtomization>
+  <!-- EN: Finishes in -->
   <FinishesIn>완료</FinishesIn>
+  <!-- EN: with -->
   <WithLower>(와)과 함께</WithLower>
+  <!-- EN: tiles -->
   <TilesLower>타일</TilesLower>
+  <!-- EN: 1 mech -->
   <CaravanMech>1 메카노이드</CaravanMech>
+  <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} 메카노이드</CaravanMechsCount>
 
   <!-- Job reports -->
+  <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>{0} 제거 중</ReportRemovingMechlink>
 
   <!-- Areas -->
+  <!-- EN: Pollution clear -->
   <PollutionClear>오염 정화</PollutionClear>
 
   <!-- Mechanitor -->
+  <!-- EN: Overseer -->
   <Overseer>통제관</Overseer>
+  <!-- EN: None (not under control) -->
   <OverseerNone>없음 (제어되지 않음)</OverseerNone>
+  <!-- EN: May go feral at any moment -->
   <MayGoFeral>언제든지 제어 불가에 빠질 수 있음</MayGoFeral>
+  <!-- EN: Bandwidth -->
   <Bandwidth>대역폭</Bandwidth>
+  <!-- EN: bandwidth -->
   <BandwidthLower>대역폭</BandwidthLower>
+  <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
   <BandwidthGizmoTip>메카나이터가 메카노이드를 제어하려면 충분한 대역폭이 필요합니다. 제어에 필요한 대역폭은 메카노이드의 종류마다 다릅니다.\n\n대역폭 확장기를 건설하고 메카나이터에게 조율하거나, 특수한 메카나이터 의류를 통해 대역폭을 확장할 수 있습니다.</BandwidthGizmoTip>
+  <!-- EN: Control group -->
   <ControlGroup>제어 집단</ControlGroup>
+  <!-- EN: Current mode -->
   <CurrentMechWorkMode>현재 명령</CurrentMechWorkMode>
+  <!-- EN: Assigned mechs -->
   <AssignedMechs>할당된 메카노이드</AssignedMechs>
+  <!-- EN: Tuned to -->
   <BandNodeTunedTo>조정됨</BandNodeTunedTo>
+  <!-- EN: Tune to -->
   <BandNodeTuneTo>조정</BandNodeTuneTo>
+  <!-- EN: Tuning to -->
   <BandNodeTuningTo>조정 중</BandNodeTuningTo>
+  <!-- EN: Retune -->
   <BandNodeRetuneTo>재조정</BandNodeRetuneTo>
+  <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
   <BandNodeTuningDesc>지정한 메카나이터에 맞춰 대역폭 확장기를 조율합니다. 조율에는 {0}의 시간이 소요됩니다.</BandNodeTuningDesc>
+  <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
   <BandNodeRetuningDesc>대역폭 확장기를 다른 메카나이터에 맞춰 조율합니다. 재조율에는 {0}의 시간이 소요됩니다.</BandNodeRetuningDesc>
+  <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>{0}의 장비를 해제하면 {1_labelShort}의 대역폭이 감소합니다({2}에서 {3}). 따라서 다음 메카노이드를 더는 제어할 수 없습니다</DropThingBandwidthApparel>
+  <!-- EN: no mechs -->
   <NoMechs>메카노이드 없음</NoMechs>
+  <!-- EN: Group -->
   <Group>그룹</Group>
+  <!-- EN: Groups -->
   <Groups>그룹</Groups>
+  <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>메카노이드 배양용 자원 적재 중</LoadingMechGestator>
+  <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>메카노이드 배양 절차 시작 중</InitMechGestationCycle>
+  <!-- EN: Initiating mech birth -->
   <InitMechBirth>메카노이드 배양 시작</InitMechBirth>
+  <!-- EN: Mech energy -->
   <MechEnergy>메카노이드 전력</MechEnergy>
+  <!-- EN: Energy -->
   <Energy>전력</Energy>
+  <!-- EN: energy -->
   <EnergyLower>전력</EnergyLower>
+  <!-- EN: Bandwidth usage -->
   <BandwidthUsage>대역폭 사용량</BandwidthUsage>
+  <!-- EN: Mech gestation bandwidth -->
   <MechGestationBandwidthUsed>메카노이드 잉태 대역폭</MechGestationBandwidthUsed>
+  <!-- EN: Cannot summon {0} threat -->
   <CannotSummon>{0} 위협 호출 불가</CannotSummon>
+  <!-- EN: {0} threat ready to summon -->
   <ReadyToSummonThreat>{0} 위협 호출 준비됨</ReadyToSummonThreat>
+  <!-- EN: Summon {0} threat -->
   <Summon>{0} 위협 호출</Summon>
+  <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>도달할 수 있는 {0} 없음</NoReachableBossgroupCaller>
+  <!-- EN: No reservable {0} -->
   <NoReservableBossgroupCaller>예약 가능한 {0} 없음</NoReservableBossgroupCaller>
+  <!-- EN: No powered {0} -->
   <NoPoweredBossgroupCaller>전력 공급된 {0} 없음</NoPoweredBossgroupCaller>
+  <!-- EN: already used -->
   <AlreadyUsed>이미 사용됨</AlreadyUsed>
+  <!-- EN: Gestating -->
   <Gestating>배양 중</Gestating>
+  <!-- EN: Escorting {TARGET_labelShort}. -->
   <Escorting>{TARGET_labelShort} 호위 중</Escorting>
+  <!-- EN: Worker -->
   <Worker>심부름</Worker>
+  <!-- EN: Waiting for -->
   <WaitingFor>대기 중</WaitingFor>
+  <!-- EN: Uncontrolled -->
   <Uncontrolled>제어되지 않음</Uncontrolled>
 
   <!-- Sanguophage -->
+  <!-- EN: hemogen -->
   <Hemogen>혈액정수</Hemogen>
+  <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
   <HemogenDesc>혈액정수는 인간 혈액에서 유래된 생물에너지원입니다. 표준 인간은 신체 향상성 유지 과정에서 내생적으로 혈액정수를 만들고 소비합니다. 일부 인종형은 특정 능력을 사용할 때의 에너지원으로 혈액정수를 사용하고, 어떤 인종형은 생존을 위해선 외부에서 혈액정수를 공급받아야 합니다.</HemogenDesc>
+  <!-- EN: deathrest capacity -->
   <DeathrestCapacity>죽음안식 수용량</DeathrestCapacity>
+  <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
   <DeathrestCapacityDesc>이것은 해당 사람이 죽음안식 관에 연결할 수 있는 죽음안식 장치의 수를 결정합니다. 죽음안식 장치들은 각각의 특별한 이점을 제공하므로 가능하면 많은 장치를 연결할 수 있는 것이 좋습니다.\n\n죽음안식 수용 혈청을 사용하여 죽음안식 수용량을 늘릴 수 있습니다. 이 혈청은 상인에게서 구입할 수 있습니다.</DeathrestCapacityDesc>
+  <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
   <PawnIsConnectedToBuildings>{PAWN_nameDef}(은)는 {CURRENT} / {MAX} (최대) 죽음안식 장치에 연결되어 있습니다.</PawnIsConnectedToBuildings>
+  <!-- EN: wake now -->
   <Wake>지금 일어나기</Wake>
+  <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
   <WakeDesc>죽음안식에서 깨어납니다.\n\n{PAWN_nameDef}(은)는 죽음안식을 {DURATION} 동안 했습니다.</WakeDesc>
+  <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
   <WakeExtraDesc_Exhaustion>{PAWN_nameDef}(은)는 최소 {TOTAL} 동안 죽음안식을 해야 합니다. {PAWN_objective} 일찍 깨우면 {PAWN_pronoun}가 아플 것이며 {PAWN_pronoun}는 죽음안식 장치의 혜택을 받지 못할 것입니다.</WakeExtraDesc_Exhaustion>
+  <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef}(은)는 이제 안전하게 깨어날 수 있습니다.</WakeExtraDesc_Safe>
+  <!-- EN: Cannot wake. Need at least {0} hemogen. -->
   <CannotWakeNotEnoughHemogen>깨어날 수 없습니다. 최소 {0} 혈액정수가 필요합니다.</CannotWakeNotEnoughHemogen>
+  <!-- EN: Auto-wake -->
   <AutoWake>자동 기상</AutoWake>
+  <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
   <AutoWakeDesc>설정하면 {PAWN_possessive} 죽음안식이 완료되었을 때 {PAWN_nameDef}(이)가 자동으로 깨어납니다.\n\n비활성화 하면 {PAWN_pronoun}는 수동으로 {PAWN_objective} 깨울 때까지 죽음안식을 계속합니다.</AutoWakeDesc>
+  <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef}(은)는 죽음안식 중입니다.</IsDeathresting>
+  <!-- EN: Cannot deathrest -->
   <CannotDeathrest>죽음안식 불가</CannotDeathrest>
+  <!-- EN: Start deathrest -->
   <StartDeathrest>죽음안식 시작</StartDeathrest>
+  <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
   <ConfirmExitDeathrestUnderMinDays>안전하게 죽음안식을 완료하는 데 {MINDURATION}이 걸리지만 {PAWN_nameDef}(은)는 {CURDURATION} 동안만 죽음안식을 취했습니다.\n\n이제 {PAWN_nameDef}(을)를 깨우면 {PAWN_possessive} 죽음안식을 방해하여 {PAWN_possessive} 신진대사의 균형을 깨고 {PAWN_objective} 앞으로 며칠 동안 아프게 만듭니다.\n\n정말로 {PAWN_objective} 깨우시겠습니까?</ConfirmExitDeathrestUnderMinDays>
+  <!-- EN: deathresting -->
   <Deathresting>죽음안식 중</Deathresting>
+  <!-- EN: complete -->
   <Complete>완료</Complete>
+  <!-- EN: can wake safely now. -->
   <CanWakeSafely>이제 안전하게 일어날 수 있습니다.</CanWakeSafely>
+  <!-- EN: Disabled by gene -->
   <DisabledByGene>유전자로 인해 비활성</DisabledByGene>
+  <!-- EN: {PAWN_nameDef} is in critical condition. -->
   <WakeDisabledCriticalCondition>{PAWN_nameDef}(은)는 중태에 빠졌습니다.</WakeDisabledCriticalCondition>
+  <!-- EN: Drain rate -->
   <DrainRate>소모 속도</DrainRate>
+  <!-- EN: Regeneration rate -->
   <RegenerationRate>재생 속도</RegenerationRate>
+  <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
   <NextDeathrestNeed>{PAWN_nameDef}(은)는 {DURATION} 이내에 죽음안식을 취하지 않으면 죽음안식 탈진에 걸리게 됩니다.</NextDeathrestNeed>
+  <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef}(은)는 탈진을 피하기 위해 곧 죽음안식을 취해야 합니다.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
   <AutoTakeHemogenDesc>이것은 {PAWN_possessive} 혈액 정수가 {MIN} 미만일 때 {PAWN_nameDef}(이)가 혈액팩을 자동으로 섭취할지 여부를 결정합니다.\n\n자동 섭취는 현재 {ONOFF}입니다.</AutoTakeHemogenDesc><!-- text_todo -->
+  <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>이하일 경우 혈액정수 섭취</ConsumeHemogenBelow>
+  <!-- EN: Never consume hemogen. -->
   <NeverConsumeHemogen>혈액정수 섭취 안함</NeverConsumeHemogen>
+  <!-- EN: Will kill -->
   <WillKill>사망</WillKill>
+  <!-- EN: Will cause major blood loss -->
   <WillCauseSeriousBloodloss>심각한 혈액 손실 발생</WillCauseSeriousBloodloss>
+  <!-- EN: too small -->
   <TooSmall>너무 작음</TooSmall>
 
   <!-- Deathrest buildings -->
+  <!-- EN: Bound to -->
   <BoundTo>다음에게 종속됨</BoundTo>
+  <!-- EN: Will bind permanently on first use. -->
   <WillBindOnFirstUse>처음 사용시 영구적으로 종속됩니다.</WillBindOnFirstUse>
+  <!-- EN: Time active this deathrest -->
   <TimeActiveThisDeathrest>해당 죽음안식이 활성화 된 시간</TimeActiveThisDeathrest>
+  <!-- EN: Minimum is {0} to apply -->
   <MinimumNeededToApply>최소 적용 {0}</MinimumNeededToApply>
+  <!-- EN: Cannot deathrest -->
   <CannotAssignBedCannotDeathrest>죽음안식 불가</CannotAssignBedCannotDeathrest>
+  <!-- EN: Already bound to {0_nameDef} -->
   <CannotAssignAlreadyBound>이미 {0_nameDef}에게 종속됨</CannotAssignAlreadyBound>
+  <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
   <CannotAssignBedCannotBindToMoreBuildings>더 이상의 {BUILDING_labelPlural}(을)를 종속 할 수 없습니다.</CannotAssignBedCannotBindToMoreBuildings>
 
   <!-- Aptitudes -->
+  <!-- EN: aptitude -->
   <Aptitude>적성</Aptitude>
+  <!-- EN: aptitudes -->
   <Aptitudes>적성</Aptitudes>
+  <!-- EN: aptitudes -->
   <AptitudePlural>적성</AptitudePlural>
+  <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
   <AptitudesDesc>적성은 개인이 배운 기술이 높거나 낮은 수준에서 발현되도록 합니다.\n\n예를 들어, 어떤 기술에 대한 적성이 1이라면 해당 기술의 레벨 5를 가진 사람은 도합 레벨 6의 효과를 받습니다.\n\n총 값은 레벨 20을 초과하거나 레벨 1 미만일 수 없습니다.</AptitudesDesc>
+  <!-- EN: total -->
   <Total>총</Total>
   
   <!-- Human pregnancy -->
+  <!-- EN: Father -->
   <FatherTip>부</FatherTip>
+  <!-- EN: Genetic mother -->
   <MotherTip>친모</MotherTip>
+  <!-- EN: an unoccupied bed -->
   <RitualTargetChildBirth>비어있는 침대</RitualTargetChildBirth>
+  <!-- EN: No appropriate bed for giving birth. -->
   <NoAppropriateBedChildBirth>출산에 적합한 침대가 없습니다.</NoAppropriateBedChildBirth>
+  <!-- EN: No doctor around. -->
   <NoDoctorChildBirth>의사 없음</NoDoctorChildBirth>
+  <!-- EN: Can't use this bed. -->
   <CantUseThisBed>이 침대를 사용할 수 없습니다.</CantUseThisBed>
+  <!-- EN: Not in labor. -->
   <NotInLabor>분만중이 아닙니다.</NotInLabor>
+  <!-- EN: labor -->
   <Labor>분만</Labor>
+  <!-- EN: dilation -->
   <LaborDilation>경부확장</LaborDilation>
+  <!-- EN: normal -->
   <PregnancyApproach_Normal>일반</PregnancyApproach_Normal>
+  <!-- EN: avoid pregnancy -->
   <PregnancyApproach_AvoidPregnancy>피임</PregnancyApproach_AvoidPregnancy>
+  <!-- EN: try for baby -->
   <PregnancyApproach_TryForBaby>임신 시도</PregnancyApproach_TryForBaby>
+  <!-- EN: pregnancy chance -->
   <PregnancyChance>임신 확률</PregnancyChance>
+  <!-- EN: Pregnancy approach -->
   <PregnancyApproach>임신 접근 방법</PregnancyApproach>
+  <!-- EN: Click to change pregnancy approach. -->
   <ClickToChangePregnancyApproach>클릭해서 임신 접근 방법을 변경하세요.</ClickToChangePregnancyApproach>
+  <!-- EN: Pregnancy is not possible -->
   <PregnancyNotPossible>임신 불가</PregnancyNotPossible>
+  <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
   <BirthRitualHealthyBabyChance>이 품질 수준에서 건강한 출생의 확률은 {0_percentage}였습니다.</BirthRitualHealthyBabyChance>
+  <!-- EN: Giving birth. -->
   <GivingBirth>출산</GivingBirth>
 
   <!-- Shield comp -->
+  <!-- EN: Shield energy -->
   <ShieldEnergy>보호막 용량</ShieldEnergy>
+  <!-- EN: Time to recovery -->
   <ShieldTimeToRecovery>회복 시간</ShieldTimeToRecovery>
 
   <!-- Genes -->
+  <!-- EN: genes -->
   <Genes>유전자</Genes>
+  <!-- EN: The genes associated with this xenotype. -->
   <GenesDesc>이 인종형과 관련된 유전자들입니다.</GenesDesc>
+  <!-- EN: suppressed -->
   <Suppressed>억제됨</Suppressed>
+  <!-- EN: active -->
   <Active>활성</Active>
+  <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
   <SuppressedDesc>이 특성은 충돌하는 유전 특성이나 유전자에 의해 억제되고 있습니다. 모든 충돌 원인이 사라지기 전까지 비활성화됩니다</SuppressedDesc>
+  <!-- EN: trait -->
   <Trait>특성</Trait>
+  <!-- EN: gene -->
   <Gene>유전자</Gene>
+  <!-- EN: Added by gene -->
   <AddedByGene>유전자에서 추가됨</AddedByGene>
+  <!-- EN: Eject all -->
   <EjectAll>모두 꺼내기</EjectAll>
+  <!-- EN: Drop all contained genepacks onto the ground. -->
   <EjectAllDesc>유전자 보관소의 모든 유전자 팩을 바닥에 꺼냅니다.</EjectAllDesc>
+  <!-- EN: Genepacks stored -->
   <GenepacksStored>보관된 유전자묶음</GenepacksStored>
+  <!-- EN: Forced traits -->
   <ForcedTraits>특성 강제</ForcedTraits>
+  <!-- EN: Suppressed traits -->
   <SuppressedTraits>특성 억제</SuppressedTraits>
+  <!-- EN: These traits will be added. All conflicting traits will become suppressed. -->
   <ForcedTraitsDesc>다음 특성들을 추가합니다. 모든 충돌하는 특성은 억제됩니다.</ForcedTraitsDesc>
+  <!-- EN: Complexity -->
   <Complexity>복잡도</Complexity>
+  <!-- EN: How much complexity this adds to the process of gene assembly. -->
   <ComplexityDesc>유전자 조합 과정에 추가하는 복잡도입니다.</ComplexityDesc>
+  <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
   <MaxComplexityDesc>유전자 조합기 근처에 유전자 처리기를 건설해서 최대 복잡도를 높일 수 있습니다.</MaxComplexityDesc>
+  <!-- EN: Total complexity -->
   <ComplexityTotal>총 복잡도</ComplexityTotal>
+  <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>사용 중인 모든 유전자의 복잡도 총합입니다.</ComplexityTotalDesc>
+  <!-- EN: Metabolic efficiency -->
   <Metabolism>대사 효율</Metabolism>
+  <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>유전자를 조합했을 때의 총 대사 효율입니다. 고효율 유전자를 보유한 사람은 음식을 적게 섭취해도 됩니다. 반대로 저효율 유전자를 보유하면 더 많이 먹어야 합니다.</MetabolismDesc>
+  <!-- EN: Metabolic efficiency -->
   <MetabolismTotal>대사 효율</MetabolismTotal>
+  <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismTotalDesc>유전체에 존제하는 유전자들의 총 대사 효율입니다. 고효율 유전자를 보유한 사람은 음식을 적게 섭취해도 됩니다. 반대로 저효율 유전자를 보유하면 더 많이 먹어야 합니다.</MetabolismTotalDesc>
+  <!-- EN: Number of genes -->
   <NumberOfGenes>유전자 수</NumberOfGenes>
+  <!-- EN: Gene price factors -->
   <GenePriceFactors>유전자 가치 계수</GenePriceFactors>
+  <!-- EN: any -->
   <AnyLower>아무거나</AnyLower>
+  <!-- EN: Archite total -->
   <ArchitesTotal>초월입자 총량</ArchitesTotal>
+  <!-- EN: Archite capsules -->
   <ArchitesRequired>초월입자 캡슐</ArchitesRequired>
+  <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
   <ArchitesRequiredDesc>초월입자는 초월공학 초지능체가 제작하는 미소기계로서 세포와 분자 단위의 직접 조작을 가능케 합니다. 초월입자는 설명조차 불가능한 일들을 실현하며, 어떤 유전자는 이 신비로운 초월공학 기계들의 도움을 받아야 발현할 수 있습니다. 인간은 초월입자를 만들 수 없으며, 상상할 수 없는 이유에 따라 초월공학이 만들어낸 걸 발견하는 수밖에 없습니다.</ArchitesRequiredDesc>
+  <!-- EN: Cancel xenogerm -->
   <CancelXenogerm>변형이식체 취소</CancelXenogerm>
+  <!-- EN: Stop all work on the current xenogerm. -->
   <CancelXenogermDesc>현재 변형이식체에 대한 모든 작업을 중지합니다.</CancelXenogermDesc>
+  <!-- EN: Allow all genepacks -->
   <AllowAllGenepacks>모든 유전자팩 허용</AllowAllGenepacks> 
+  <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
   <AllowAllGenepacksDesc>정착민들이 여기에 아무 유전자 묶음을 보관 할 수 있는지에 대한 여부입니다. 이 설정을 해제하면 원하는 유전자 묶음만 보관되도록 할 수 있습니다.</AllowAllGenepacksDesc> 
+  <!-- EN: The genepacks currently inside this container. -->
   <ContainedGenepacksDesc>현재 이 안에 있는 유전자묶음</ContainedGenepacksDesc> 
+  <!-- EN: The genepacks designated to be loaded into this container. -->
   <GenepacksToLoadDesc>이 보관함에 보관하도록 지정된 유전자 묶음.</GenepacksToLoadDesc> 
+  <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
   <GenepacksIgnoredDesc>보관함에 지정되지 않은 모든 유전자 묶음을 꺼냅니다.</GenepacksIgnoredDesc> 
+  <!-- EN: Genepacks to load -->
   <GenepacksToLoad>탑재할 유전자팩</GenepacksToLoad> 
+  <!-- EN: Genepacks to ignore -->
   <GenepacksToIgnore>무시할 유전자팩</GenepacksToIgnore> 
+  <!-- EN: Eject this genepack from the container. -->
   <EjectGenepackDesc>이 유전자묶음을 보관함에서 꺼냅니다.</EjectGenepackDesc> 
+  <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
   <ConfirmRemoveGenepack>정말로 {0}(을)를 꺼내시겠습니까? 이것은 즉시 바닥으로 배출됩니다.</ConfirmRemoveGenepack> 
+  <!-- EN: Missing required research -->
   <MissingRequiredResearch>필수 연구 누락:</MissingRequiredResearch>
+  <!-- EN: No genepacks available in nearby gene banks. -->
   <NoGenepacksAvailable>근처 유전자 보관소에 저장된 유전자묶음이 없습니다.</NoGenepacksAvailable> 
+  <!-- EN: Allow this genepack to be loaded into this container. -->
   <AddToLoadingListDesc>이 유전자묶음이 이 보관소에 저장되도록 허용합니다.</AddToLoadingListDesc> 
+  <!-- EN: Remove this genepack from the loading list. -->
   <RemoveFromLoadingListDesc>저장 목록에서 이 유전자묶음을 제거합니다.</RemoveFromLoadingListDesc> 
+  <!-- EN: Recombine -->
   <Recombine>재조합</Recombine>
+  <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
   <RecombineDesc>유전자 기록에 있는 유전자묶음을 사용하여 새로운 변형이식체를 만듭니다.</RecombineDesc>
+  <!-- EN: Genes -->
   <ContainedGenesDesc>유전자</ContainedGenesDesc>
+  <!-- EN: Order implantation -->
   <ImplantXenogerm>변형이식체 이식</ImplantXenogerm>
+  <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
   <ImplantXenogermDesc>사람의 유전자 코드를 부분적으로 무시하기 위해 이식합니다.\n\n외과 수술이므로 의사, 의료 침대 및 {MEDICINEAMOUNT} 약이 필요합니다.</ImplantXenogermDesc>
+  <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
   <ImplantXenogermWarningDesc>변형이식체를 이식하면 {PAWN_nameDef}(이)가 혼수상태에 빠지게 됩니다. 평균적으로 {COMADURATION} 동안 지속됩니다. 혼수상태는 의사의 의료 기술과 의료시설의 품질에 따라 다릅니다.</ImplantXenogermWarningDesc>
+  <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
   <ImplantXenogermWarningOverwriteXenogenes>추가로, 변형이식체를 이식하면 기존의 변형인자를 덮어씁니다. {PAWN_nameDef}의 현재 인종형은 '{XENOTYPE}'입니다. {PAWN_pronoun}(은)는 다음과 같은 변형인자가 있습니다.\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
-  <ImplantXenogermWarningNewMetabolism>이식 후, {PAWN_nameDef}의 신진대사 값은 {MET}이고 배고픔 계수는 {CONSUMPTION}입니다.
-</ImplantXenogermWarningNewMetabolism>
+  <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
+  <ImplantXenogermWarningNewMetabolism>이식 후, {PAWN_nameDef}의 신진대사 값은 {MET}이고 배고픔 계수는 {CONSUMPTION}입니다.\n</ImplantXenogermWarningNewMetabolism>
+  <!-- EN: Would you like to continue? -->
   <WouldYouLikeToContinue>계속 진행하시겠습니까?</WouldYouLikeToContinue>
+  <!-- EN: Cancel implanting -->
   <CancelImplanting>이식 취소</CancelImplanting>
+  <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
   <CancelImplantingDesc>{PAWN_nameDef}에게 변형이식체 삽입을 취소합니다.</CancelImplantingDesc>
+  <!-- EN: Xenotype -->
   <Xenotype>인종형</Xenotype>
+  <!-- EN: unique -->
   <Unique>고유</Unique>
+  <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
   <UniqueXenotypeDesc>이미 존재하는 인종형으로 구분되지 않는 고유한 인종형.</UniqueXenotypeDesc>
+  <!-- EN: Factor for genetic metabolism -->
   <FactorForMetabolism>유전 대사 인수</FactorForMetabolism>
+  <!-- EN: Progress -->
   <Progress>진행도</Progress>
+  <!-- EN: In sunlight -->
   <InSunlight>햇빛에 노출</InSunlight>
+  <!-- EN: {0_labelShort} is exposed to the sky. -->
   <ThingIsSkyExposed>{0_labelShort}(이)가 태양에 노출됐습니다.</ThingIsSkyExposed>
+  <!-- EN: Insert person -->
   <InsertPerson>사람 삽입</InsertPerson>
+  <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
   <InsertPersonGeneExtractorDesc>유전자 추출기에 사람을 집어넣습니다. 이들의 유전 물질이 추출되어 이들이 가진 무작위의 유전자를 포함하는 유전자묶음이 생성됩니다.\n\n유전자 추출은 고통스러우며, 대상을 며칠동안 약하고 피곤한 상태로 만듭니다. 이 작업은 아직 유전자 재성장이 끝나지 않은이들에게 치명적입니다.</InsertPersonGeneExtractorDesc>
+  <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
   <ConfirmExtractXenogermWillKill>경고: {PAWN_nameDef}의 유전자가 아직 재생장중입니다. 재성장이 완료되기전에 {PAWN_possessive} 유전자를 추출하면 사망에 이르게 됩니다.\n\n계속하시겠습니까?</ConfirmExtractXenogermWillKill>
+  <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
   <GeneExtractionComplete>{PAWN_nameDef}에 대한 유전자 추출이 완료되었습니다. 추출됨</GeneExtractionComplete>
+  <!-- EN: Insert xenogerm -->
   <InsertXenogerm>변형이식체 삽입</InsertXenogerm>
+  <!-- EN: Insert a xenogerm to apply during growth. -->
   <InsertXenogermDesc>성장할 동안 적용될 변형이식체를 삽입합니다.</InsertXenogermDesc>
+  <!-- EN: Waiting for {PAWN_nameDef}. -->
   <WaitingForPawn>{PAWN_nameDef} 대기 중</WaitingForPawn>
+  <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>{PAWN_nameDef}의 유전자 추출 중</ExtractingXenogermFrom>
+  <!-- EN: Extraction paused: No power -->
   <ExtractionPausedNoPower>추출 일시 중지: 전원 없음</ExtractionPausedNoPower>
+  <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>{CHEMICAL_label}(을)를 {DURATION} 전에 마지막으로 투약했습니다.</LastIngestedDurationAgo>
+  <!-- EN: {NAME} xenogerm -->
   <NamedXenogerm>{NAME} 변형이식체</NamedXenogerm>
+  <!-- EN: Inserted {0} -->
   <InsertedThing>{0} 삽입됨</InsertedThing>
+  <!-- EN: Assembly paused -->
   <AssemblyPaused>조합 중지됨</AssemblyPaused>
+  <!-- EN: Required gene bank unpowered -->
   <GenebankUnpowered>필요한 유전자 보관소의 전원 없음</GenebankUnpowered>
+  <!-- EN: deathless -->
   <Deathless>불사</Deathless>
+  <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
   <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef}(은)는 {0}(을)를 주기적으로 섭취해야 생존할 수 있습니다. {0} 없이 {DEFICIENCYDURATION}(이)가 지나면 결핍에 시달리고, {COMADURATION} 후 혼수상태에 빠집니다. {DEATHDURATION} 후에는 사망합니다.</GeneDefChemicalNeedDurationDesc>
+  <!-- EN: {CHEMICAL_label} dependency -->
   <ChemicalDependency>{CHEMICAL_label} 의존성</ChemicalDependency>
+  <!-- EN: Xenogerm -->
   <Xenogerm>변형이식체</Xenogerm>
+  <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
   <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef}(은)는 {PAWN_pronoun}가 치명적인 부상을 입은 한 계속 죽음안식을 취할 것입니다.</PawnWillKeepDeathrestingLethalInjuries>
+  <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
   <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef}(은)는 {PAWN_pronoun}의 치명적인 부상이 있는 한, 재생할 때까지 혼수 상태일 것입니다.</PawnWillKeepRegeneratingLethalInjuries>
+  <!-- EN: Deathrest stopped -->
   <DeathrestPaused>죽음안식 중지됨</DeathrestPaused>
+  <!-- EN: Lethal injuries -->
   <LethalInjuries>치명적인 부상</LethalInjuries>
+  <!-- EN: deathrest -->
   <Deathrest>죽음안식</Deathrest>
+  <!-- EN: Buildings -->
   <Buildings>건물</Buildings>
+  <!-- EN: capacity -->
   <Capacity>능력</Capacity>
+  <!-- EN: Non-{GENE} romance chance -->
   <MissingGeneRomanceChance>비{GENE} 사랑할 기회</MissingGeneRomanceChance>
+  <!-- EN: Not in gene bank -->
   <NotInGeneBank>유전자 저장고에 없음</NotInGeneBank>
 
   <!-- Child birth -->
+  <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
   <ChildBirthAlwaysHealthy_Desc>산모의 출산을 돕기위해 모입니다. 의사가 아기를 분만하는데 도움을 줄 수 있습니다.</ChildBirthAlwaysHealthy_Desc>
+  <!-- EN: until the baby is born -->
   <UntilBabyIsBorn>아기가 태어날때까지</UntilBabyIsBorn>
 
+  <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>아이들은 때에 따라 다양한 활동을 배우고 싶어합니다.</LearningDesireTooltip>
+  <!-- EN: {0_nameDef}'s current learning desire: -->
   <LearningDesireTooltip_CurrentDesire>{0_nameDef}의 현재 학습 욕구:</LearningDesireTooltip_CurrentDesire>
+  <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>발달 단계는 마지막 생일 이후로 아동이 필요로 하는 학습의 평균입니다.\n\n발달 단계가 더 높은 아이들은 성장 순간에 더 많은 선택권을 갖게 될 것이고 기술에 대한 열정을 더 갖습니다.</DevelopmentHealthGizmoTooltip>
 
+  <!-- EN: Must not be placed close to another {0_label} -->
   <MustNotBePlacedCloseToAnother>다른 {0_label} 근처에 배치 불가</MustNotBePlacedCloseToAnother>
+  <!-- EN: Next terrain pollution in -->
   <PollutingTerrainProgress>다음 지형 오염</PollutingTerrainProgress>
+  <!-- EN: Poisoned {0} -->
   <PoisonedTerrain>오염된 {0}</PoisonedTerrain>
+  <!-- EN: Assign to control group {0} -->
   <AssignMechToControlGroup>제어 집단 {0}에 할당</AssignMechToControlGroup>
+  <!-- EN: Fall per day -->
   <CurrentMechEnergyFallPerDay>하루 소진량</CurrentMechEnergyFallPerDay>
+  <!-- EN: Cannot assign to control group {0} -->
   <CannotAssignMechToControlGroup>제어 집단 {0}에 할당 불가</CannotAssignMechToControlGroup>
+  <!-- EN: Already assigned -->
   <AssignMechAlreadyAssigned>이미 할당됨</AssignMechAlreadyAssigned>
 
   <!-- Lactation -->
+  <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
   <LactatingAddedNutritionPerDay>모유를 생산하기 위해 하루에 열량을 {0} 추가로 섭취합니다. (현재 식품 수준으로 인해 모유 생산 속도는 {1_percentage}).</LactatingAddedNutritionPerDay>
+  <!-- EN: Lactation is paused because milk fullness is 100% -->
   <LactatingStoppedBecauseFull>모유 한계에 도달해 더 분비되지 않습니다.</LactatingStoppedBecauseFull>
+  <!-- EN: Lactation is paused due to starvation. -->
   <LactatingStoppedBecauseHungry>굶주림으로 인해 모유가 더 분비되지 않습니다.</LactatingStoppedBecauseHungry>
 
   <!-- Mech gestating -->
+  <!-- EN: Current gestation cycle -->
   <CurrentGestationCycle>현재 배양 주기</CurrentGestationCycle>
+  <!-- EN: Gestation cycles remaining -->
   <RemainingGestationCycles>남은 배양 주기</RemainingGestationCycles>
+  <!-- EN: Gestation cycles -->
   <GestationCycles>배양 주기</GestationCycles>
+  <!-- EN: Gestating {0} -->
   <GestatingMech>{0} 배양 중</GestatingMech>
+  <!-- EN: Gestated {0} -->
   <GestatedMech>{0} 배양됨</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>완료를 위해 {PAWN_nameDef} 필요</GestatedMechRequiresMechanitor>
+  <!-- EN: Gestation complete -->
   <GestationComplete>배양 완료</GestationComplete>
+  <!-- EN: Resurrecting {0} -->
   <ResurrectingMech>{0} 재구성 중</ResurrectingMech>
+  <!-- EN: Resurrected {0} -->
   <ResurrectedMech>{0} 재구성됨</ResurrectedMech>
 
   <!-- Carrier -->
+  <!-- EN: Release {0} -->
   <MechCarrierRelease>{0} 출격</MechCarrierRelease>
+  <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
   <MechCarrierDesc>최대 {0}기의 {1}(을)를 출격시킵니다. 각 {2}(은)는 {3}개의 {4}로 제작할 수 있습니다. 모체가 파괴되면 연결된 모든 {1}(이)가 죽습니다. {1}(은)는 충전이 불가능하며, 전력이 모두 소진되면 죽습니다.</MechCarrierDesc>
+  <!-- EN: Not enough resources -->
   <MechCarrierNotEnoughResources>충분하지 않은 자원</MechCarrierNotEnoughResources>
+  <!-- EN: Autofill -->
   <MechCarrierAutofillResources>자동 채우기</MechCarrierAutofillResources>
+  <!-- EN: Click to set the desired autofill amount. -->
   <MechCarrierClickToSetAutofillAmount>클릭하여 원하는 자동 채우기 양을 설정합니다.</MechCarrierClickToSetAutofillAmount>
+  <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
   <MechCarrierAutofillDesc>해당 자동 채우는 양은 정착지 주민들이 {0}에 자동으로 배치할 최대 자원 양을 결정합니다. 자원을 사용하여 {1}(을)를 만들 수 있습니다.</MechCarrierAutofillDesc>
 
   <!-- Mech power cell -->
+  <!-- EN: Power cell -->
   <MechPowerCell>발전기</MechPowerCell>
+  <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
   <MechPowerCellTip>워 어친은 일회성 동력원이 있습니다. 동력이 다 떨어지면 메카노이드는 죽습니다.</MechPowerCellTip>
   
 
   <!-- Bossgroup -->
+  <!-- EN: available in {0}. -->
   <BossgroupAvailableIn>{0}에서 사용할 수 있습니다.</BossgroupAvailableIn>
+  <!-- EN: requires mechanitor -->
   <RequiresMechanitor>기계공학자 필요</RequiresMechanitor>
 
   <!-- Abilities -->
+  <!-- EN: {0_labelShort} is not hemogenic. -->
   <AbilityDisabledNoHemogenGene>{0_labelShort}(은)는 흡혈성이 아닙니다.</AbilityDisabledNoHemogenGene>
+  <!-- EN: {0_labelShort} does not have enough hemogen. -->
   <AbilityDisabledNoHemogen>{0_labelShort}의 혈액정수가 충분하지 않습니다.</AbilityDisabledNoHemogen>
+  <!-- EN: children cannot do this. -->
   <AbilityStartRitualDisabledChild>어린이는 할 수 없습니다.</AbilityStartRitualDisabledChild>
+  <!-- EN: need a {0}. -->
   <AbilityStartRitualNoMembersOfIdeo>{0}(이)가 필요합니다.</AbilityStartRitualNoMembersOfIdeo>
+  <!-- EN: Hemogen cost -->
   <AbilityHemogenCost>혈액정수 소모</AbilityHemogenCost>
+  <!-- EN: Base hemogen gain -->
   <AbilityHemogenGain>기본 혈액정수 획득량</AbilityHemogenGain>
+  <!-- EN: Smokepop charged -->
   <AbilityMechSmokepopCharged>연막 충전됨</AbilityMechSmokepopCharged>
+  <!-- EN: Smokepop recharged in {0} -->
   <AbilityMechSmokepopRecharging>{0} 후 연막 재충전</AbilityMechSmokepopRecharging>
+  <!-- EN: Firefoam pop charged -->
   <AbilityMechFirefoampopCharged>소방거품 재충전됨</AbilityMechFirefoampopCharged>
+  <!-- EN: Firefoam pop recharged in {0} -->
   <AbilityMechFirefoampopRecharging>{0} 후 소방거품 재충</AbilityMechFirefoampopRecharging>
 
+  <!-- EN: Polluted {0} -->
   <PollutedTerrain>오염된 {0}</PollutedTerrain>
 
   <!-- Growth vat -->
+  <!-- EN: Biostarvation -->
   <Biostarvation>생물 기아</Biostarvation>
+  <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
   <BiostarvationExplanation>하나 이상의 성장 배양기가 영양 또는 전력 부족으로 생물 기아를 겪고 있습니다.\n\n생물 기아가 100%에 도달하면 수용된 사람이 사망합니다.</BiostarvationExplanation>
+  <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>성장 배양기에 사람을 넣습니다. 20배 빠른 속도로 성장합니다.</InsertPersonGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
   <InsertEmbryoGrowthVatDesc>성장 배양기에 배아를 이식합니다. 배아는 18일 동안 성장하여 아기가 됩니다.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Insert embryo -->
   <ImplantEmbryo>배아 삽입</ImplantEmbryo>
+  <!-- EN: Cannot insert embryo -->
   <CannotInsertEmbryo>배아 삽입 불가</CannotInsertEmbryo>
+  <!-- EN: Already contains embryo. -->
   <EmbryoAlreadyInside>이미 배아가 들어있습니다.</EmbryoAlreadyInside>
+  <!-- EN: No embryos -->
   <ImplantNoEmbryos>배아 없음</ImplantNoEmbryos>
+  <!-- EN: Time until birth -->
   <EmbryoTimeUntilBirth>성장 완료까지 남은 시간</EmbryoTimeUntilBirth>
+  <!-- EN: Birth quality -->
   <EmbryoBirthQuality>성장의 질</EmbryoBirthQuality>
+  <!-- EN: Embryo selected -->
   <EmbryoSelected>선택된 배아</EmbryoSelected>
+  <!-- EN: Person selected -->
   <PersonSelected>선택된 사람</PersonSelected>
+  <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
   <NoPawnsCanEnterGrowthVat>생물 기아 상태가 아닌 허용 가능한 연령의 사람이 없습니다. 성장 배양기에 들어가려면 {0}세 미만이어야 하며 현재 생물 기아 상태가 아니어야 합니다.</NoPawnsCanEnterGrowthVat>
+  <!-- EN: Aging speed -->
   <AgingSpeed>성장 속도</AgingSpeed>
 
   <!-- Mech charger -->
+  <!-- EN: Waste -->
   <WasteLevel>폐기물</WasteLevel>
 
   <!-- Dissolution -->
+  <!-- EN: indoors -->
   <DissolutionRateIndoors>실내</DissolutionRateIndoors>
+  <!-- EN: raining -->
   <DissolutionRain>비옴</DissolutionRain>
+  <!-- EN: One wastepack dissolves every {0} -->
   <DissolvesEvery>{0} 마다 폐기물 하나가 녹습니다.</DissolvesEvery>
+  <!-- EN: Frozen (won't dissolve). -->
   <DissolutionFrozen>냉동 (녹지 않음).</DissolutionFrozen>
 
+  <!-- EN: {0} cells / day -->
   <CellsPerDay>일 당 {0} 칸</CellsPerDay>
 
+  <!-- EN: {0} cannot wear clothing for {1} -->
   <WrongDevelopmentalStageForClothing>{0}(은)는 {1}의 옷을 입을 수 없습니다.</WrongDevelopmentalStageForClothing> 
 
   <!-- Subcore scanner -->
+  <!-- EN: Start scanner -->
   <SubcoreScannerStart>스캐너 구동</SubcoreScannerStart>
+  <!-- EN: Produces -->
   <SubcoreScannerProduces>생산</SubcoreScannerProduces>
+  <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
   <SubcoreScannerStartDesc>{0}에 필요한 재료({1})가 채워지면, 정착민을 선택하고 {0}(이)나 쓰러진 사람에 오른쪽 클릭을 해서 스캐너를 가동하세요.</SubcoreScannerStartDesc>
+  <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>완료</SubcoreScannerCompletesIn>
+  <!-- EN: Waiting for occupant -->
   <SubcoreScannerWaitingForOccupant>탑승자 대기 중</SubcoreScannerWaitingForOccupant>
+  <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>재료 대기 중</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
   <SubcoreScannerWaitingForIngredientsDesc>다음 재료를 먼저 가져와야 합니다.</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
+  <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>{0} 있음</SubcoreScannerPawnHasSickness>
+  <!-- EN: Babies are not allowed -->
   <SubcoreScannerBabyNotAllowed>아기 사용 불가</SubcoreScannerBabyNotAllowed>
+  <!-- EN: Insert a person into the {0}. -->
   <InsertPersonSubcoreScannerDesc>{0}에 사람을 넣습니다.</InsertPersonSubcoreScannerDesc>
 
+  <!-- EN: Duration (hours) -->
   <DurationHours>기간</DurationHours>
 
   <!-- Age -->
+  <!-- EN: adult -->
   <Adult>성인</Adult>
+  <!-- EN: adults -->
   <Adults>성인</Adults>
+  <!-- EN: child -->
   <Child>어린이</Child>
+  <!-- EN: children -->
   <Children>어린이</Children>
+  <!-- EN: baby -->
   <Baby>아기</Baby>
+  <!-- EN: babies -->
   <Babies>아기들</Babies>
+  <!-- EN: person -->
   <Person>사람</Person>
+  <!-- EN: feral child -->
   <FeralChild>어린 야인</FeralChild>
+  <!-- EN: Wearable by -->
   <WearableBy>착용 가능</WearableBy>
 
+  <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>변형이식체 이식물</Reward_ReimplantXenogerm_Label>
+  <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
   <Reward_ReimplantXenogerm_Desc>이 집단의 구성원 한 명이 자신의 변형이식체를 선택한 정착민에게 재이식하여 그들처럼 만듭니다. 재이식 후에도 정착민은 당신의 세력 구성원으로 남습니다.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
+  <!-- EN: Mech resurrection charges -->
   <MechResurrectionCharges>메카노이드 부활 충전 수</MechResurrectionCharges>
 
   <!-- Mechs -->
+  <!-- EN: Mech stun pulse on death -->
   <MechStunPulseWarning>사망 시 메카노이드 기절 파동 방출</MechStunPulseWarning>
+  <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
   <IsLowEnergySelfShutdown>{PAWN_nameDef}(이)가 낮은 에너지로 인해 자체적으로 작동 종료합니다.</IsLowEnergySelfShutdown>
   
   <!-- Pollution -->
+  <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
   <ShowPollutionOverlayToggleButton>오염을 시각화하여 주변의 오염된 지형을 표시합니다.\n\n오염된 지형에 노출되면 서서히 중독되어 사망에 이를 수 있습니다. 대부분의 식물은 오염된 지형에서 자랄 수 없습니다.</ShowPollutionOverlayToggleButton>
+  <!-- EN: None -->
   <TilePollutionNone>없음</TilePollutionNone>
+  <!-- EN: Light -->
   <TilePollutionLight>가벼움</TilePollutionLight>
+  <!-- EN: Moderate -->
   <TilePollutionModerate>심함</TilePollutionModerate>
+  <!-- EN: Extreme -->
   <TilePollutionExtreme>극심함</TilePollutionExtreme>
+  <!-- EN: Pollution -->
   <TilePollution>오염</TilePollution>
+  <!-- EN: Nearby pollution -->
   <TilePollutionNearby>주변 오염</TilePollutionNearby>
+  <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
   <NearbyPollutionTip>반경 {0}칸 내 오염도의 총합입니다. 이 칸에서의 거리가 멀어질수록 오염도 기여량은 줄어듭니다.\n\n{1}\n\n인근 오염이 높을수록 산성 스모그가 발생할 가능성도 높아집니다.</NearbyPollutionTip>
+  <!-- EN: This tile will have acidic smog every {0} days on average. -->
   <NoxiousHazeInterval>이 칸에서는 평균 {0}일마다 산성 스모그가 발생합니다.</NoxiousHazeInterval>
+  <!-- EN: This tile will never have acidic smog. -->
   <NoxiousHazeNeverOccurring>이 칸에서는 산성 스모그가 발생하지 않습니다.</NoxiousHazeNeverOccurring>
+  <!-- EN: tiles away -->
   <NearbyPollutionTilesAway>칸 밖</NearbyPollutionTilesAway>
+  <!-- EN: pollution -->
   <PollutionLower>오염</PollutionLower>
+  <!-- EN: Cannot absorb pollution: Buildings too close -->
   <CannotAbsorbPollution>오염 흡수 불가: 건물이 너무 가까움</CannotAbsorbPollution>
+  <!-- EN: Can absorb pollution from nearby terrain -->
   <CanAbsorbPollution>주변 지형의 오염 흡수 가능</CanAbsorbPollution>
+  <!-- EN: Absorbing pollution: Next in {0} -->
   <AbsorbingPollutionNext>오염 흡수 중: {0} 후</AbsorbingPollutionNext>
+  <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
   <TerrainPollutionTip>이 칸의 지형 오염도입니다.\n\n오염된 지형에 노출되면 서서히 중독되어 사망에 이를 수 있습니다. 대부분의 식물은 오염된 지형에서 자랄 수 없습니다.</TerrainPollutionTip>
 
   <!-- Research -->
+  <!-- EN: Requires study of -->
   <StudyRequirementTip>연구 필요</StudyRequirementTip>
 
   <!-- Insect -->
+  <!-- EN: Trigger radius -->
   <TriggerRadius>반경 표시</TriggerRadius>
+  <!-- EN: Opening -->
   <DormantCompOpening>열리는 중</DormantCompOpening>
   
   <!-- Fertility -->
+  <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>최근에 난자 추출</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize {0_label} -->
   <Fertilize>{0_label} 수정</Fertilize><!-- text_todo -->
+  <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>수정 불가</FertilizeCannotFloatOption>
+  <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
   <FertilizeGizmoDescription>배아를 만들기 위해 난자를 수정시킬 남성을 선택하세요. 배아는 산모에게 이식하거나 성장촉진기에 넣을 수 있습니다. 아이의 생물학적 부모는 난자를 제공한 여성과, 배아로 수정시킨 남성입니다.</FertilizeGizmoDescription>
+  <!-- EN: Cancel fertilization by {0} -->
   <FertilizeCancel>{0}의 수정 취소</FertilizeCancel>
+  <!-- EN: sterile -->
   <CannotSterile>불임</CannotSterile>
+  <!-- EN: pregnant -->
   <CannotPregnant>임신</CannotPregnant>
+  <!-- EN: must be {0} -->
   <CannotMustBeAge>{0}(이)어야 함</CannotMustBeAge>
+  <!-- EN: already having embryo implanted -->
   <CannotImplantingOtherEmbryo>이미 배아를 이식함</CannotImplantingOtherEmbryo>
+  <!-- EN: {0} ({1}) -->
   <DisabledOption>{0} ({1})</DisabledOption>
+  <!-- EN: No men can fertilize this ovum. -->
   <FertilizeDisabledNoMales>난자를 수정시킬 수 있는 남성이 없습니다.</FertilizeDisabledNoMales>
   
+  <!-- EN: Implant embryo -->
   <ImplantLabel>배아 이식</ImplantLabel>
+  <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantDescription>이 배아를 대리모에게 이식하여 임신 과정을 시작합니다.</ImplantDescription>
+  <!-- EN: Insert in growth vat -->
   <InsertGrowthVatLabel>성장촉진기에 삽입</InsertGrowthVatLabel>
 
+  <!-- EN: Cannot implant -->
   <ImplantCannotFloatOption>이식 불가</ImplantCannotFloatOption>
+  <!-- EN: No woman can be a surrogate mother. -->
   <ImplantDisabledNoWomen>대리모를 할 수 있는 여성이 없습니다.</ImplantDisabledNoWomen>
+  <!-- EN: No available growth vats. -->
   <ImplantDisabledNoVats>사용 가능한 성장촉진기가 없습니다.</ImplantDisabledNoVats>
+  <!-- EN: Implant {0} -->
   <ImplantSurgeryLabel>{0} 이식</ImplantSurgeryLabel>
+  <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
   <ImplantSurgeryConfirm>{0}의 {1} 이식 성공 확률은 {2}입니다.\n\n이식 성공 확률은 대리모의 생식력에 달려 있으며, 대리모의 나이가 너무 어리거나 너무 많으면 낮아집니다.</ImplantSurgeryConfirm>
+  <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
   <ImplantEmbryoCancelVat>지금 성장 배양기에서 {0}(을)를 꺼내면 아기가 형성되기 전에 파괴됩니다.\n\n계속하시겠습니까?</ImplantEmbryoCancelVat>
+  <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
   <ImplantFailedMessage>{0}의 {1} 이식이 실패했습니다.</ImplantFailedMessage>
+  <!-- EN: Cancel embryo insertion -->
   <ImplantEmbryoCancel>배아 이식 취소</ImplantEmbryoCancel>
+  <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
   <EmbryoEjectedFromGrowthVat>{0}(은)는 성장촉진기에서 배출되어 파괴되었습니다.</EmbryoEjectedFromGrowthVat>
+  <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
   <EmbryoEjectedFromGrowthVatBiostarvation>{0}(이)가 영양부족으로 인해 성장촉진기에서 파괴되었습니다.</EmbryoEjectedFromGrowthVatBiostarvation>
 
+  <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0}(이)가 배아 이식을 통해 성공적으로 임신했습니다!</IvfPregnancyLetterText>
+  <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>아이는 {0}(와)과 {1}의 유전적 구성을 갖게 됩니다.</IvfPregnancyLetterParents>
 
   <!-- Projectile interceptor -->
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>외부로부터의 원거리 공격을 막아주는 저각 보호막입니다. EMP 공격을 받으면 즉시 해제됩니다.</ProjectileInterceptorTip>
 
   <!-- Remote mech shield -->
+  <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
   <RemoteMechShieldTip>기계공학자에 의해 원격 제어되는 에너지 보호막 발생 장치입니다. 출력이 허락하는 한 모든 원거리 공격을 차단합니다. 내부로부터의 원거리 공격 또한 차단되므로 모든 원거리 무기는 사용할 수 없게 됩니다. 열기나 근접 무기는 막지 못하며, EMP 공격을 받으면 즉시 해제됩니다.</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
+  <!-- EN: my child is happy -->
   <MyChildIsHappy>내 아이가 행복해</MyChildIsHappy>
+  <!-- EN: my child is sad -->
   <MyChildIsSad>내 아이가 슬퍼해</MyChildIsSad> 
 
 </LanguageData>

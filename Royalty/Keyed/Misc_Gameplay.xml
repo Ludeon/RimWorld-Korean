@@ -19,11 +19,11 @@
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>초월교육혈청 ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>혈청을 사용하여 {0} 초능력 습득</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>초월교육혈청을 사용해 {0} 초능력 습득</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
-  <PsycastNeurotrainerDescription>특정한 초능력 기술을 강제로 훈련시키는 일회성의 기계입자 혈청.\n\n안와를 통해 뇌로 직접 투여됩니다. 기계입자는 뇌의 특정 영역으로 파고들어 신경 조직의 형태를 변형시킴으로써 피시술자가 초능력 기술을 사용할 수 있게 합니다.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>특정한 초능력을 훈련시키는 고농도의 일회용 기계입자 혈청입니다.\n\n안와를 통해 뇌에 투여하면 기계입자가 스스로 신경 조직을 구성해 대상자에게 초능력 사용법을 주입합니다.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort}(은)는 초월교육혈청을 사용하여 {1} 초능력을 습득했습니다.</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort}(이)가 초월교육혈청을 사용해 {1} 초능력을 습득했습니다.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>정신력 증폭 필요</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -36,13 +36,13 @@
   
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
-  <NotUsable>사용불가</NotUsable>
+  <NotUsable>사용 불가</NotUsable>
   <!-- EN: unpowered -->
-  <Unpowered>전력없음</Unpowered>
+  <Unpowered>전력 없음</Unpowered>
   <!-- EN: blocked by roof -->
   <BlockedByRoof>지붕에 의해 막힘</BlockedByRoof>
   <!-- EN: Too close to other beacon -->
-  <TooCloseToOtherBeacon>매우 가까운 다른 신호기</TooCloseToOtherBeacon>
+  <TooCloseToOtherBeacon>다른 신호기와 너무 가까움</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
@@ -173,6 +173,6 @@
   <AbilityNoEntropyToDump>버릴 신경열이 없습니다.</AbilityNoEntropyToDump>
 
   <!-- EN: level {0} -->
-  <LevelNum>{0} 등급</LevelNum> <!-- Psylink level as reported in health tab-->
+  <LevelNum>{0}등급</LevelNum> <!-- Psylink level as reported in health tab-->
 
 </LanguageData>

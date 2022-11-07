@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN:
+    <li>situation(p=2)->safely</li>
+    <li>situation->at night</li>
+    <li>situation->in the cold</li>
+    <li>situation->while injured</li>
+    <li>situation(p=0.2)->while drunk</li>
+  -->
   <LessonInteractionCommonSituations.rulePack.rulesStrings>
     <li>situation(p=2)->안전하게</li>
     <li>situation->밤에</li>
@@ -8,11 +16,22 @@
     <li>situation(p=0.2)->취했을 때</li>
   </LessonInteractionCommonSituations.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+  -->
   <LessonInteractionHowTo.rulePack.rulesStrings>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [teach_adverb] [article_tool][action](을)를 [teach_verb].</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [article_tool][action](을)를 [teach_verb].</li>
   </LessonInteractionHowTo.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
+    <li>teach_test->quizzed</li>
+    <li>teach_test->tested</li>
+    <li>teach_test->grilled</li>
+    <li>teach_test->cross-examined</li>
+  -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [situation] [article_tool][action_gerund]에 대해 [teach_test].</li>
     <li>teach_test->문제 냄</li>
@@ -21,6 +40,14 @@
     <li>teach_test->검사함</li>
   </LessonInteractionQuiz.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>study_verb->covered</li>
+    <li>study_verb->went over</li>
+    <li>study_verb->researched</li>
+    <li>study_verb->studied</li>
+  -->
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](와)과 함께 [subject](을)를 [teach_adverb] [study_verb].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](와)과 함께 [subject](을)를 [study_verb].</li>
@@ -30,15 +57,14 @@
     <li>study_verb->공부함</li>
   </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subject]에 대해 [teach_adverb] [talk_verb].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [subject][talk_verb].</li>
-    <li>talk_verb->이야기함</li>
-    <li>talk_verb->개요를 짚음</li>
-    <li>talk_verb->요약을 함</li>
-    <li>talk_verb->강의 함</li>
-  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-  
+  <!-- EN:
+    <li>teach_adverb->calmly</li>
+    <li>teach_adverb->animatedly</li>
+    <li>teach_adverb->intently</li>
+    <li>teach_adverb->quickly</li>
+    <li>teach_adverb->lightheartedly</li>
+    <li>teach_adverb->carefully</li>
+  -->
   <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
     <li>teach_adverb->침착하게</li>
     <li>teach_adverb->활기차게</li>
@@ -48,10 +74,34 @@
     <li>teach_adverb->조심스레</li>
   </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   
+  <!-- EN:
+    <li>teach_verb->demonstrated</li>
+    <li>teach_verb->explained</li>
+    <li>teach_verb->showed</li>
+    <li>teach_verb->taught</li>
+  -->
   <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
     <li>teach_verb->시연함</li>
     <li>teach_verb->설명함</li>
     <li>teach_verb->보여줌</li>
     <li>teach_verb->가르침</li>
   </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>talk_verb->talked about</li>
+    <li>talk_verb->gave an overview of</li>
+    <li>talk_verb->gave a summary of</li>
+    <li>talk_verb->lectured about</li>
+  -->
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subject]에 대해 [teach_adverb] [talk_verb].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [subject][talk_verb].</li>
+    <li>talk_verb->이야기함</li>
+    <li>talk_verb->개요를 짚음</li>
+    <li>talk_verb->요약을 함</li>
+    <li>talk_verb->강의 함</li>
+  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+  
 </LanguageData>

@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: escort -->
   <Escort.label>호위</Escort.label>
+  <!-- EN: Stay near the mechanitor and fight nearby enemies. Follow the mechanitor, even off the map. -->
   <Escort.description>메카나이터 근처에 머무르며 가까운 적과 싸웁니다. 메카나이터가 지역 밖으로 나가면 따라갑니다.</Escort.description>
   
+  <!-- EN: recharge -->
   <Recharge.label>재충전</Recharge.label>
+  <!-- EN: Go to rechargers and recharge, even if already well-charged. -->
   <Recharge.description>완충된 상태여도 충전기에서 충전합니다.</Recharge.description>
   
+  <!-- EN: dormant self-charge -->
   <SelfShutdown.label>자가충전 휴면</SelfShutdown.label>
+  <!-- EN: Go into a dormant self-charging state that very slowly regains energy without a recharger. -->
   <SelfShutdown.description>자가충전 휴면상태로 들어가 충전기 없이 매우 느리게 전력을 충전합니다.</SelfShutdown.description>
   
+  <!-- EN: work -->
   <Work.label>작업</Work.label>
+  <!-- EN: Work autonomously according to mechanoid type. Automatically go to rechargers and recharge when needed. -->
   <Work.description>메카노이드의 유형에 따라 자율적으로 일을 수행합니다. 필요하면 스스로 충전기에서 충전합니다.</Work.description>
+  
 </LanguageData>

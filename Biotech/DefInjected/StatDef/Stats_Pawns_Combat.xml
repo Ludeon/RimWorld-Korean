@@ -1,16 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: melee damage factor -->
   <MeleeDamageFactor.label>근접 피해 계수</MeleeDamageFactor.label>
+  <!-- EN: A multiplier on the amount of melee damage inflicted by this person. -->
   <MeleeDamageFactor.description>이 사람이 가한 근접 피해량의 계수입니다.</MeleeDamageFactor.description>
   
+  <!-- EN: melee door damage factor -->
   <MeleeDoorDamageFactor.label>근접 문 피해 계수</MeleeDoorDamageFactor.label>
+  <!-- EN: A special multiplier on the amount of melee damage inflicted on doors. -->
   <MeleeDoorDamageFactor.description>문에 가해지는 근접 피해량의 특별한 계수입니다.</MeleeDoorDamageFactor.description>
   
+  <!-- EN: ranged cooldown multiplier -->
   <RangedCooldownFactor.label>원거리 재사용 대기시간 배수</RangedCooldownFactor.label>
+  <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
   <RangedCooldownFactor.description>원거리 무기를 사용할 때 발사 후 재사용 대기시간 배율입니다.</RangedCooldownFactor.description>
   
+  <!-- EN: age factor -->
   <ShootingAccuracyChildFactor.label>노화 요인</ShootingAccuracyChildFactor.label>
   
+  <!-- EN: stagger time multiplier -->
   <StaggerDurationFactor.label>비틀거림 배수</StaggerDurationFactor.label>
+  <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
   <StaggerDurationFactor.description>피해를 입었을 때 저지량에 따라 발생하는 감속 시간 배수입니다.</StaggerDurationFactor.description>
+  
 </LanguageData>

@@ -1,46 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: my baby {BABY_nameDef} is sick -->
   <BabySick.stages.my_baby_is_sick.label>내 아기 {BABY_nameDef}이(가) 아파</BabySick.stages.my_baby_is_sick.label>
+  <!-- EN: My baby is sick. I'm terrified something bad will happen to my baby. -->
   <BabySick.stages.my_baby_is_sick.description>내 아이가 아파. 무슨일이라도 생길까봐 너무 두려워.</BabySick.stages.my_baby_is_sick.description>
+  <!-- EN: my babies are sick -->
   <BabySick.stages.my_babies_are_sick.label>내 아가들이 아파</BabySick.stages.my_babies_are_sick.label>
+  <!-- EN: My babies are sick. I'm terrified something bad will happen to them. -->
   <BabySick.stages.my_babies_are_sick.description>내 아이들이 아파. 아이들에게 나쁜일이 일어날까봐 두려워.</BabySick.stages.my_babies_are_sick.description>
   
+  <!-- EN: my child is in a growth vat -->
   <ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.label>내 아이는 성장촉진기에 들어가있어</ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.label>
+  <!-- EN: I miss my child. It's hard knowing they're floating in that machine, bypassing their childhood. -->
   <ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.description>내 아이가 보고싶어. 내 아이가 저 기계 안에서 둥둥 떠다니며 어린시절을 잃어간다는게 너무 괴로워.</ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.description>
   
+  <!-- EN: good crib -->
   <CribQuality.stages.good_crib.label>좋은 아기침대</CribQuality.stages.good_crib.label>
+  <!-- EN: This crib is comfy. -->
   <CribQuality.stages.good_crib.description>내 아기침대는 편해.</CribQuality.stages.good_crib.description>
+  <!-- EN: excellent crib -->
   <CribQuality.stages.excellent_crib.label>완벽한 아기침대</CribQuality.stages.excellent_crib.label>
+  <!-- EN: This crib is very comfy. -->
   <CribQuality.stages.excellent_crib.description>내 아기침대는 엄청 편해.</CribQuality.stages.excellent_crib.description>
+  <!-- EN: masterwork crib -->
   <CribQuality.stages.masterwork_crib.label>걸작 아기침대</CribQuality.stages.masterwork_crib.label>
+  <!-- EN: This crib is amazing. So comfortable. -->
   <CribQuality.stages.masterwork_crib.description>이 침대 대단한걸, 너무 편해.</CribQuality.stages.masterwork_crib.description>
+  <!-- EN: legendary crib -->
   <CribQuality.stages.legendary_crib.label>전설적인 아기침대</CribQuality.stages.legendary_crib.label>
+  <!-- EN: This crib is wonderful. So very comfortable. Perfect for naps. -->
   <CribQuality.stages.legendary_crib.description>이 침대 놀라운걸. 너무 편해서 낮잠자기에 최고야.</CribQuality.stages.legendary_crib.description>
   
+  <!-- EN: enslaved child -->
   <EnslavedChild.stages.enslaved_child.label>아이 노예</EnslavedChild.stages.enslaved_child.label>
+  <!-- EN: It breaks my heart to see my child forced to serve others. -->
   <EnslavedChild.stages.enslaved_child.description>내 아이가 다른이를 강제로 섬기는걸 보니 내 마음이 아프다.</EnslavedChild.stages.enslaved_child.description>
   
+  <!-- EN: my child {CHILD_nameDef} is happy -->
   <MyChildHappy.stages.my_child_is_happy.label>내 아이 {CHILD_nameDef}(이)가 행복해함</MyChildHappy.stages.my_child_is_happy.label>
+  <!-- EN: Nothing makes me feel better than my kid being happy. -->
   <MyChildHappy.stages.my_child_is_happy.description>내 아이가 행복해 하는걸 보는것 만큼 기쁜 건 없지.</MyChildHappy.stages.my_child_is_happy.description>
   
-  <MyChildSad.stages.my_child_is_unhappy.label>내 아이 {CHILD_nameDef}(이)가 불행함</MyChildSad.stages.my_child_is_unhappy.label>
-  <MyChildSad.stages.my_child_is_unhappy.description>내 아이가 걱정돼. 아이가 행복하지 않으면 나도 그래.</MyChildSad.stages.my_child_is_unhappy.description>
-  
+  <!-- EN: my children are happy -->
   <MyChildrenHappy.stages.my_children_are_happy.label>내 아이들이 행복함</MyChildrenHappy.stages.my_children_are_happy.label>
+  <!-- EN: Nothing makes me feel better than my kids being happy. -->
   <MyChildrenHappy.stages.my_children_are_happy.description>내 아이들이 행복해 하는걸 보는것 만큼 기쁜 건 없지.</MyChildrenHappy.stages.my_children_are_happy.description>
   
+  <!-- EN: my children are unhappy -->
   <MyChildrenSad.stages.my_children_are_unhappy.label>내 아이들이 불행함</MyChildrenSad.stages.my_children_are_unhappy.label>
+  <!-- EN: I worry about my children. If they're not happy, I'm not happy. -->
   <MyChildrenSad.stages.my_children_are_unhappy.description>내 아이들이 걱정돼. 아이들이 행복하지 않으면 나도 그래.</MyChildrenSad.stages.my_children_are_unhappy.description>
   
+  <!-- EN: my child {CHILD_nameDef} is unhappy -->
+  <MyChildSad.stages.my_child_is_unhappy.label>내 아이 {CHILD_nameDef}(이)가 불행함</MyChildSad.stages.my_child_is_unhappy.label>
+  <!-- EN: I worry about my child. If they're not happy, I'm not happy. -->
+  <MyChildSad.stages.my_child_is_unhappy.description>내 아이가 걱정돼. 아이가 행복하지 않으면 나도 그래.</MyChildSad.stages.my_child_is_unhappy.description>
+  
+  <!-- EN: parent is happy -->
   <MyParentHappy.stages.parent_is_happy.label>부모님이 행복함</MyParentHappy.stages.parent_is_happy.label>
+  <!-- EN: I'm happy when my parents are happy. -->
   <MyParentHappy.stages.parent_is_happy.description>부모님이 즐거우면 나도 즐거워.</MyParentHappy.stages.parent_is_happy.description>
   
+  <!-- EN: parents are happy -->
   <MyParentsHappy.stages.parents_are_happy.label>부모님들이 행복함</MyParentsHappy.stages.parents_are_happy.label>
+  <!-- EN: I'm happy when my parents are happy. -->
   <MyParentsHappy.stages.parents_are_happy.description>부모님들이 즐거우면 나도 즐거워.</MyParentsHappy.stages.parents_are_happy.description>
   
+  <!-- EN: happy youngsters -->
   <YoungstersHappy.stages.happy_youngsters.label>행복한 어린이들</YoungstersHappy.stages.happy_youngsters.label>
+  <!-- EN: It's nice to see that the young folk are doing well. -->
   <YoungstersHappy.stages.happy_youngsters.description>어린 아이들이 잘 지내는 모습이 보기 좋다.</YoungstersHappy.stages.happy_youngsters.description>
   
+  <!-- EN: sad youngsters -->
   <YoungstersSad.stages.sad_youngsters.label>슬픈 어린이들</YoungstersSad.stages.sad_youngsters.label>
+  <!-- EN: It's sad to see that the young folk are struggling. -->
   <YoungstersSad.stages.sad_youngsters.description>어린 아이들이 힘들어 하는 모습이 안타깝다.</YoungstersSad.stages.sad_youngsters.description>
+  
 </LanguageData>

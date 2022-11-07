@@ -29,7 +29,7 @@
     <li>failLetterEndingCommon->'[resolvedQuestName]' 임무에 실패했습니다.</li>
     <li>successLetterEndingCommon->'[resolvedQuestName]' 임무를 성공적으로 완수했습니다.</li>
     <li>goodwillSomeCiviliansLost->모든 [asker_faction_pawnSingular](와)과 [pawnLabel](을)를 구할 수는 없었습니다. [goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->[asker_faction_pawnSingular](와)과 [pawnLabelPlural] 중 아무도 구할 수 없었습니다. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->[asker_faction_pawnSingular](와)과 [pawnLabelPlural](을)를 아무도 구할 수 없었습니다. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->[asker_faction_name](와)과의 관계는 [pawnLabel](이)가 떠날 때까지 매일 부정적인 영향이 생깁니다.</li>
     <li>commanderLandingDesc->[map_definite]에 착륙을 요청한 지휘관 [asker_nameDef]</li>
     <li>raidArrivedLetterLabel->습격: [enemyFaction_name]</li>
@@ -43,7 +43,7 @@
     <li>askerLostLetterLabel->임무 실패: [resolvedQuestName]</li>
     <li>askerLostLetterText->왕복선이 출발할 때 [commanderLandingDesc](은)는 탑승하지 못했습니다.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>allLostLetterLabel->임무 실패: [resolvedQuestName]</li>
-    <li>allLostLetterText->추락했던 [asker_faction_pawnsPlural]들 중 아무도 구조선에 탑승하지 못했습니다.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterText->추락했던 [asker_faction_pawnsPlural] 중 아무도 구조선에 탑승하지 못했습니다.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->임무 실패: [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc](이)가 죽었습니다.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->임무 실패: [resolvedQuestName]</li>
@@ -81,7 +81,7 @@
     <li>andCivilians(civilians_count==2)->(와)과 [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->(와)과 [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers0_kind] 한 명</li>
-    <li>soldierCountKinds(soldiers_count==1)->[soldiers0_kind] [soldiers_count]명</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers0_kind] [soldiers_count]명</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
@@ -112,18 +112,18 @@
     <li>questName->[emergency] [landing]</li>
     <li>questName->[asker_nameDef]의 [emergency] [landing]</li>
     <li>shuttle->왕복선</li>
-    <li>shuttle->수송</li>
+    <li>shuttle->수송선</li>
     <li>shuttle->함선</li>
     <li>crash->충돌</li>
     <li>crash->추락</li>
     <li>damaged->손상된</li>
     <li>damaged->부서진</li>
-    <li>damaged->결함있는</li>
+    <li>damaged->망가진</li>
     <li>emergency->비상</li>
     <li>emergency->강제</li>
     <li>landing->착륙</li>
     <li>landing->하강</li>
-    <li>landing->진입</li>
+    <li>landing->접근</li>
   </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>

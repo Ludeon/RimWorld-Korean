@@ -1,212 +1,401 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: fat body -->
   <Body_Fat.label>뚱뚱한 체형</Body_Fat.label>
+  <!-- EN: Carriers can have fat bodies. A person can have more than one body type gene; one body type will be chosen among those that are allowed. -->
   <Body_Fat.description>이 유전자는 뚱뚱한 체형을 갖게 합니다. 사람은 하나 이상의 체형 유전자를 가질 수 있습니다. 허용되는 체형 중 하나의 체형이 선택됩니다.</Body_Fat.description>
+  <!-- EN: fat -->
   <Body_Fat.symbolPack.prefixSymbols.0.symbol>뚱뚱한</Body_Fat.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: blub -->
   <Body_Fat.symbolPack.prefixSymbols.1.symbol>팽창</Body_Fat.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: heavy -->
   <Body_Fat.symbolPack.prefixSymbols.2.symbol>무거운</Body_Fat.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: stomp -->
   <Body_Fat.symbolPack.prefixSymbols.3.symbol>두꺼운</Body_Fat.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: flub -->
   <Body_Fat.symbolPack.prefixSymbols.4.symbol>뚱뚱</Body_Fat.symbolPack.prefixSymbols.4.symbol>
+  <!-- EN: grease -->
   <Body_Fat.symbolPack.prefixSymbols.5.symbol>기름</Body_Fat.symbolPack.prefixSymbols.5.symbol>
+  <!-- EN: bulk -->
   <Body_Fat.symbolPack.prefixSymbols.6.symbol>덩치</Body_Fat.symbolPack.prefixSymbols.6.symbol>
+  <!-- EN: flab -->
   <Body_Fat.symbolPack.prefixSymbols.7.symbol>휘청</Body_Fat.symbolPack.prefixSymbols.7.symbol>
+  <!-- EN: lard -->
   <Body_Fat.symbolPack.prefixSymbols.8.symbol>뒤뚱</Body_Fat.symbolPack.prefixSymbols.8.symbol>
+  <!-- EN: lard -->
   <Body_Fat.symbolPack.suffixSymbols.0.symbol>기름</Body_Fat.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: blub -->
   <Body_Fat.symbolPack.suffixSymbols.1.symbol>덩어리</Body_Fat.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: stomp -->
   <Body_Fat.symbolPack.suffixSymbols.2.symbol>덩치</Body_Fat.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: ball -->
   <Body_Fat.symbolPack.suffixSymbols.3.symbol>구체</Body_Fat.symbolPack.suffixSymbols.3.symbol>
   
+  <!-- EN: hulk body -->
   <Body_Hulk.label>거대한 체형</Body_Hulk.label>
+  <!-- EN: Carriers can have large bodies. A person can have more than one body type gene; one body type will be chosen among those that are allowed. -->
   <Body_Hulk.description>이 유전자는 거대한 체형을 가지게 합니다. 사람은 하나 이상의 체형 유전자를 가질 수 있습니다. 허용되는 체형 중 하나의 체형이 선택됩니다.</Body_Hulk.description>
+  <!-- EN: hulk -->
   <Body_Hulk.symbolPack.prefixSymbols.0.symbol>거대</Body_Hulk.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: big -->
   <Body_Hulk.symbolPack.prefixSymbols.1.symbol>큰</Body_Hulk.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: broad -->
   <Body_Hulk.symbolPack.prefixSymbols.2.symbol>넓은</Body_Hulk.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: hunk -->
   <Body_Hulk.symbolPack.prefixSymbols.3.symbol>든든</Body_Hulk.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: hulk -->
   <Body_Hulk.symbolPack.suffixSymbols.0.symbol>거인</Body_Hulk.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: chunk -->
   <Body_Hulk.symbolPack.suffixSymbols.1.symbol>덩어리</Body_Hulk.symbolPack.suffixSymbols.1.symbol>
   
+  <!-- EN: standard body -->
   <Body_Standard.label>표준 체형</Body_Standard.label>
+  <!-- EN: Carriers can have average-shaped bodies. A person can have more than one body type gene; one body type will be chosen among those that are allowed. -->
   <Body_Standard.description>이 유전자는 평균의 체형을 갖게 합니다. 사람은 하나 이상의 체형 유전자를 가질 수 있습니다. 허용되는 체형 중 하나의 체형이 선택됩니다.</Body_Standard.description>
   
+  <!-- EN: thin body -->
   <Body_Thin.label>마른 체형</Body_Thin.label>
+  <!-- EN: Carriers can have thin bodies. A person can have more than one body type gene; one body type will be chosen among those that are allowed. -->
   <Body_Thin.description>이 유전자는 마른 체형을 갖게 합니다. 사람은 하나 이상의 체형 유전자를 가질 수 있습니다. 허용되는 체형 중 하나의 체형이 선택됩니다.</Body_Thin.description>
+  <!-- EN: thin -->
   <Body_Thin.symbolPack.prefixSymbols.0.symbol>얇은</Body_Thin.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: scrawn -->
   <Body_Thin.symbolPack.prefixSymbols.1.symbol>마른</Body_Thin.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: lean -->
   <Body_Thin.symbolPack.prefixSymbols.2.symbol>마름</Body_Thin.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: slim -->
   <Body_Thin.symbolPack.prefixSymbols.3.symbol>작은</Body_Thin.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: pole -->
   <Body_Thin.symbolPack.prefixSymbols.4.symbol>막대</Body_Thin.symbolPack.prefixSymbols.4.symbol>
+  <!-- EN: wan -->
   <Body_Thin.symbolPack.prefixSymbols.5.symbol>일자</Body_Thin.symbolPack.prefixSymbols.5.symbol>
+  <!-- EN: bony -->
   <Body_Thin.symbolPack.prefixSymbols.6.symbol>뼈</Body_Thin.symbolPack.prefixSymbols.6.symbol>
+  <!-- EN: lank -->
   <Body_Thin.symbolPack.prefixSymbols.7.symbol>여윈</Body_Thin.symbolPack.prefixSymbols.7.symbol>
+  <!-- EN: reed -->
   <Body_Thin.symbolPack.prefixSymbols.8.symbol>갈대</Body_Thin.symbolPack.prefixSymbols.8.symbol>
+  <!-- EN: slink -->
   <Body_Thin.symbolPack.prefixSymbols.9.symbol>날씬</Body_Thin.symbolPack.prefixSymbols.9.symbol>
+  <!-- EN: stilt -->
   <Body_Thin.symbolPack.prefixSymbols.10.symbol>마른</Body_Thin.symbolPack.prefixSymbols.10.symbol>
+  <!-- EN: twig -->
   <Body_Thin.symbolPack.prefixSymbols.11.symbol>얇은</Body_Thin.symbolPack.prefixSymbols.11.symbol>
+  <!-- EN: stick -->
   <Body_Thin.symbolPack.suffixSymbols.0.symbol>막대</Body_Thin.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: bone -->
   <Body_Thin.symbolPack.suffixSymbols.1.symbol>뼈</Body_Thin.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: pole -->
   <Body_Thin.symbolPack.suffixSymbols.2.symbol>젓가락</Body_Thin.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: lank -->
   <Body_Thin.symbolPack.suffixSymbols.3.symbol>나뭇가지</Body_Thin.symbolPack.suffixSymbols.3.symbol>
+  <!-- EN: reed -->
   <Body_Thin.symbolPack.suffixSymbols.4.symbol>갈대</Body_Thin.symbolPack.suffixSymbols.4.symbol>
+  <!-- EN: slink -->
   <Body_Thin.symbolPack.suffixSymbols.5.symbol>막대</Body_Thin.symbolPack.suffixSymbols.5.symbol>
+  <!-- EN: stilt -->
   <Body_Thin.symbolPack.suffixSymbols.6.symbol>갈대</Body_Thin.symbolPack.suffixSymbols.6.symbol>
   
+  <!-- EN: cat ears -->
   <Ears_Cat.label>고양이 귀</Ears_Cat.label>
+  <!-- EN: Carriers of this gene have cat-like ears. -->
   <Ears_Cat.description>이 유전자를 보유하면 고양이 같은 귀를 갖게 됩니다.</Ears_Cat.description>
+  <!-- EN: cat -->
   <Ears_Cat.symbolPack.prefixSymbols.0.symbol>고양이</Ears_Cat.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: kitty -->
   <Ears_Cat.symbolPack.prefixSymbols.1.symbol>야옹</Ears_Cat.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: kit -->
   <Ears_Cat.symbolPack.prefixSymbols.2.symbol>뾰족</Ears_Cat.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: tabby -->
   <Ears_Cat.symbolPack.prefixSymbols.3.symbol>고양이</Ears_Cat.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: tom -->
   <Ears_Cat.symbolPack.prefixSymbols.4.symbol>뾰족</Ears_Cat.symbolPack.prefixSymbols.4.symbol>
+  <!-- EN: cat -->
   <Ears_Cat.symbolPack.suffixSymbols.0.symbol>고양이</Ears_Cat.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: kitten -->
   <Ears_Cat.symbolPack.suffixSymbols.1.symbol>새끼고양이</Ears_Cat.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: tabby -->
   <Ears_Cat.symbolPack.suffixSymbols.2.symbol>고양이</Ears_Cat.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: tom -->
   <Ears_Cat.symbolPack.suffixSymbols.3.symbol>새끼고양이</Ears_Cat.symbolPack.suffixSymbols.3.symbol>
+  <!-- EN: ear -->
   <Ears_Cat.symbolPack.suffixSymbols.4.symbol>귀</Ears_Cat.symbolPack.suffixSymbols.4.symbol>
   
+  <!-- EN: floppy ears -->
   <Ears_Floppy.label>늘어진 귀</Ears_Floppy.label>
+  <!-- EN: Carriers of this gene grow long, floppy hound-like ears. -->
   <Ears_Floppy.description>이 유전자를 보유하면 길게 늘어진 사냥개 모양의 귀를 갖게 됩니다.</Ears_Floppy.description>
+  <!-- EN: flop -->
   <Ears_Floppy.symbolPack.prefixSymbols.0.symbol>펄럭</Ears_Floppy.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: flap -->
   <Ears_Floppy.symbolPack.prefixSymbols.1.symbol>쫑긋</Ears_Floppy.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: dog -->
   <Ears_Floppy.symbolPack.prefixSymbols.2.symbol>갯과</Ears_Floppy.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: droop -->
   <Ears_Floppy.symbolPack.prefixSymbols.3.symbol>쳐진</Ears_Floppy.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: sag -->
   <Ears_Floppy.symbolPack.prefixSymbols.4.symbol>퍼덕</Ears_Floppy.symbolPack.prefixSymbols.4.symbol>
+  <!-- EN: hound -->
   <Ears_Floppy.symbolPack.suffixSymbols.0.symbol>사냥개</Ears_Floppy.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: ear -->
   <Ears_Floppy.symbolPack.suffixSymbols.1.symbol>귀</Ears_Floppy.symbolPack.suffixSymbols.1.symbol>
   
+  <!-- EN: human ears -->
   <Ears_Human.label>인간 귀</Ears_Human.label>
+  <!-- EN: Carriers of this gene have regular human ears. -->
   <Ears_Human.description>이 유전자를 가지면 평범한 인간 귀를 갖게 됩니다.</Ears_Human.description>
   
+  <!-- EN: pig ears -->
   <Ears_Pig.label>돼지 귀</Ears_Pig.label>
+  <!-- EN: Carriers of this gene will grow pointed pig-like ears. -->
   <Ears_Pig.description>이 유전자를 보유하면 뾰족한 돼지 귀를 갖게 됩니다.</Ears_Pig.description>
+  <!-- EN: pig -->
   <Ears_Pig.symbolPack.prefixSymbols.0.symbol>돼지</Ears_Pig.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: pork -->
   <Ears_Pig.symbolPack.prefixSymbols.1.symbol>돼지</Ears_Pig.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: pig -->
   <Ears_Pig.symbolPack.suffixSymbols.0.symbol>돼지</Ears_Pig.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: pork -->
   <Ears_Pig.symbolPack.suffixSymbols.1.symbol>돼지</Ears_Pig.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: ear -->
   <Ears_Pig.symbolPack.suffixSymbols.2.symbol>귀</Ears_Pig.symbolPack.suffixSymbols.2.symbol>
   
+  <!-- EN: pointed ears -->
   <Ears_Pointed.label>뾰족한 귀</Ears_Pointed.label>
+  <!-- EN: Carriers of this gene have pointed ears. -->
   <Ears_Pointed.description>이 유전자를 보유하면 뾰족한 귀를 갖게 됩니다.</Ears_Pointed.description>
+  <!-- EN: point -->
   <Ears_Pointed.symbolPack.prefixSymbols.0.symbol>뾰족</Ears_Pointed.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: sharp -->
   <Ears_Pointed.symbolPack.prefixSymbols.1.symbol>뾰족</Ears_Pointed.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: ear -->
   <Ears_Pointed.symbolPack.suffixSymbols.0.symbol>귀</Ears_Pointed.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: point -->
   <Ears_Pointed.symbolPack.suffixSymbols.1.symbol>뾰족</Ears_Pointed.symbolPack.suffixSymbols.1.symbol>
   
+  <!-- EN: elongated fingers -->
   <ElongatedFingers.label>가는 손가락</ElongatedFingers.label>
+  <!-- EN: Long, delicate fingers improve the carrier's manipulation capacity. This aids with many tasks, especially crafting and construction. -->
   <ElongatedFingers.description>길고 섬세한 손가락으로 보유자의 조작 능력이 향상됩니다. 다양한 작업, 특히 제작과 건설에 도움이 됩니다.</ElongatedFingers.description>
+  <!-- EN: long -->
   <ElongatedFingers.symbolPack.prefixSymbols.0.symbol>긴</ElongatedFingers.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: elon -->
   <ElongatedFingers.symbolPack.prefixSymbols.1.symbol>섬세</ElongatedFingers.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: pencil -->
   <ElongatedFingers.symbolPack.prefixSymbols.2.symbol>정확</ElongatedFingers.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: finger -->
   <ElongatedFingers.symbolPack.suffixSymbols.0.symbol>손가락</ElongatedFingers.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: dactyl -->
   <ElongatedFingers.symbolPack.suffixSymbols.1.symbol>마디</ElongatedFingers.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: digit -->
   <ElongatedFingers.symbolPack.suffixSymbols.2.symbol>손가락</ElongatedFingers.symbolPack.suffixSymbols.2.symbol>
   
+  <!-- EN: human hands -->
   <Hands_Human.label>인간 손</Hands_Human.label>
+  <!-- EN: Carriers of this gene have regular human hands. -->
   <Hands_Human.description>이 유전자를 보유하면 평범한 인간 손을 갖게 됩니다.</Hands_Human.description>
   
+  <!-- EN: trotter hands -->
   <Hands_Pig.label>돼지 손</Hands_Pig.label>
+  <!-- EN: Carriers of this gene have hands that partially resemble pig trotters. This reduces their ability to manipulate objects. -->
   <Hands_Pig.description>이 유전자를 보유하면 돼지 발과 비슷한 형태의 손을 갖게 됩니다. 조작 능력이 감소합니다.</Hands_Pig.description>
+  <!-- EN: trot -->
   <Hands_Pig.symbolPack.prefixSymbols.0.symbol>족발</Hands_Pig.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: pig -->
   <Hands_Pig.symbolPack.prefixSymbols.1.symbol>돼지</Hands_Pig.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: pork -->
   <Hands_Pig.symbolPack.prefixSymbols.2.symbol>돼지</Hands_Pig.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: boar -->
   <Hands_Pig.symbolPack.prefixSymbols.3.symbol>멧돼지</Hands_Pig.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: hog -->
   <Hands_Pig.symbolPack.prefixSymbols.4.symbol>멧돼지</Hands_Pig.symbolPack.prefixSymbols.4.symbol>
+  <!-- EN: trot -->
   <Hands_Pig.symbolPack.suffixSymbols.0.symbol>족발</Hands_Pig.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: pig -->
   <Hands_Pig.symbolPack.suffixSymbols.1.symbol>돼지</Hands_Pig.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: swine -->
   <Hands_Pig.symbolPack.suffixSymbols.2.symbol>돼지</Hands_Pig.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: boar -->
   <Hands_Pig.symbolPack.suffixSymbols.3.symbol>족발</Hands_Pig.symbolPack.suffixSymbols.3.symbol>
+  <!-- EN: hog -->
   <Hands_Pig.symbolPack.suffixSymbols.4.symbol>돼지</Hands_Pig.symbolPack.suffixSymbols.4.symbol>
+  <!-- EN: trotter -->
   <Hands_Pig.symbolPack.wholeNameSymbols.0.symbol>돼지손</Hands_Pig.symbolPack.wholeNameSymbols.0.symbol>
   
+  <!-- EN: gaunt head -->
   <Head_Gaunt.label>홀쭉한 머리</Head_Gaunt.label>
+  <!-- EN: Carriers of this gene have a pinched, gaunt appearance in their face and head. -->
   <Head_Gaunt.description>이 유전자의 소유자는, 얼굴과 머리가 가늘고 홀쭉한 모습을 보입니다.</Head_Gaunt.description>
+  <!-- EN: gaunt -->
   <Head_Gaunt.symbolPack.prefixSymbols.0.symbol>홀쭉</Head_Gaunt.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: skull -->
   <Head_Gaunt.symbolPack.prefixSymbols.1.symbol>해골</Head_Gaunt.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: dead -->
   <Head_Gaunt.symbolPack.prefixSymbols.2.symbol>기아</Head_Gaunt.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: bone -->
   <Head_Gaunt.symbolPack.prefixSymbols.3.symbol>뼈</Head_Gaunt.symbolPack.prefixSymbols.3.symbol>
   
+  <!-- EN: center-horn -->
   <Headbone_CenterHorn.label>뿔</Headbone_CenterHorn.label>
+  <!-- EN: Carriers of this gene grow a single horn protruding from the center of the forehead. -->
   <Headbone_CenterHorn.description>이 유전자의 소유자는, 이마 중앙에서 돌출된 단일 뿔을 자랍니다.</Headbone_CenterHorn.description>
+  <!-- EN: rhino -->
   <Headbone_CenterHorn.symbolPack.prefixSymbols.0.symbol>뿔</Headbone_CenterHorn.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: horn -->
   <Headbone_CenterHorn.symbolPack.prefixSymbols.1.symbol>뿔</Headbone_CenterHorn.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: knob -->
   <Headbone_CenterHorn.symbolPack.prefixSymbols.2.symbol>뾰족</Headbone_CenterHorn.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: spike -->
   <Headbone_CenterHorn.symbolPack.prefixSymbols.3.symbol>가시</Headbone_CenterHorn.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: horn -->
   <Headbone_CenterHorn.symbolPack.suffixSymbols.0.symbol>뿔</Headbone_CenterHorn.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: spike -->
   <Headbone_CenterHorn.symbolPack.suffixSymbols.1.symbol>가시</Headbone_CenterHorn.symbolPack.suffixSymbols.1.symbol>
   
+  <!-- EN: human headbone -->
   <Headbone_Human.label>인간 머리뼈</Headbone_Human.label>
+  <!-- EN: Carriers of this gene have regular human skulls. -->
   <Headbone_Human.description>이 유전자의 소유자는, 일반적인 인간의 두개골을 가지고 있습니다.</Headbone_Human.description>
   
+  <!-- EN: mini-horns -->
   <Headbone_MiniHorns.label>작은 뿔</Headbone_MiniHorns.label>
+  <!-- EN: Carriers of this gene grow two small horns protruding from the forehead. -->
   <Headbone_MiniHorns.description>이 유전자의 소유자는, 이마에서 튀어 나온 두 개의 작은 뿔이 자랍니다.</Headbone_MiniHorns.description>
+  <!-- EN: horn -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.0.symbol>뿔</Headbone_MiniHorns.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: knob -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.1.symbol>뾰족</Headbone_MiniHorns.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: spike -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.2.symbol>가시</Headbone_MiniHorns.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: devil -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.3.symbol>악마</Headbone_MiniHorns.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: demon -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.4.symbol>악마</Headbone_MiniHorns.symbolPack.prefixSymbols.4.symbol>
+  <!-- EN: luci -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.5.symbol>악마</Headbone_MiniHorns.symbolPack.prefixSymbols.5.symbol>
+  <!-- EN: beelze -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.6.symbol>지옥</Headbone_MiniHorns.symbolPack.prefixSymbols.6.symbol>
+  <!-- EN: hell -->
   <Headbone_MiniHorns.symbolPack.prefixSymbols.7.symbol>지옥</Headbone_MiniHorns.symbolPack.prefixSymbols.7.symbol>
+  <!-- EN: horn -->
   <Headbone_MiniHorns.symbolPack.suffixSymbols.0.symbol>뿔</Headbone_MiniHorns.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: spike -->
   <Headbone_MiniHorns.symbolPack.suffixSymbols.1.symbol>가시</Headbone_MiniHorns.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: vil -->
   <Headbone_MiniHorns.symbolPack.suffixSymbols.2.symbol>도깨비</Headbone_MiniHorns.symbolPack.suffixSymbols.2.symbol>
   
+  <!-- EN: human jaw -->
   <Jaw_Baseline.label>인간 턱</Jaw_Baseline.label>
+  <!-- EN: Carriers of this gene have regularly-shaped jaws. -->
   <Jaw_Baseline.description>이 유전자의 소유자는, 일반적인 모양의 턱을 가지고 있습니다.</Jaw_Baseline.description>
   
+  <!-- EN: heavy jaw -->
   <Jaw_Heavy.label>무거운 턱</Jaw_Heavy.label>
+  <!-- EN: Carriers of this gene have large jaws. -->
   <Jaw_Heavy.description>이 유전자의 소유자는, 큰 턱을 가지고 있습니다.</Jaw_Heavy.description>
+  <!-- EN: grunt -->
   <Jaw_Heavy.symbolPack.prefixSymbols.0.symbol>툴툴</Jaw_Heavy.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: jaw -->
   <Jaw_Heavy.symbolPack.prefixSymbols.1.symbol>물어뜯는</Jaw_Heavy.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: lug -->
   <Jaw_Heavy.symbolPack.prefixSymbols.2.symbol>큰</Jaw_Heavy.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: grunt -->
   <Jaw_Heavy.symbolPack.suffixSymbols.0.symbol>막일꾼</Jaw_Heavy.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: jaw -->
   <Jaw_Heavy.symbolPack.suffixSymbols.1.symbol>턱</Jaw_Heavy.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: lug -->
   <Jaw_Heavy.symbolPack.suffixSymbols.2.symbol>턱</Jaw_Heavy.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: thal -->
   <Jaw_Heavy.symbolPack.suffixSymbols.3.symbol>턱</Jaw_Heavy.symbolPack.suffixSymbols.3.symbol>
   
+  <!-- EN: human nose -->
   <Nose_Human.label>인간 코</Nose_Human.label>
+  <!-- EN: Carriers of this gene have regular human noses. -->
   <Nose_Human.description>이 유전자의 소유자는, 일반 인간의 코를 가지고 있습니다.</Nose_Human.description>
   
+  <!-- EN: pig nose -->
   <Nose_Pig.label>돼지 코</Nose_Pig.label>
+  <!-- EN: Carriers of this gene have pig-like snouts. -->
   <Nose_Pig.description>이 유전자의 소유자는, 돼지 같은 주둥이를 가지고 있습니다.</Nose_Pig.description>
+  <!-- EN: pig -->
   <Nose_Pig.symbolPack.prefixSymbols.0.symbol>돼지</Nose_Pig.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: pork -->
   <Nose_Pig.symbolPack.prefixSymbols.1.symbol>돼지</Nose_Pig.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: snout -->
   <Nose_Pig.symbolPack.prefixSymbols.2.symbol>주둥아리</Nose_Pig.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: boar -->
   <Nose_Pig.symbolPack.prefixSymbols.3.symbol>주둥이</Nose_Pig.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: hog -->
   <Nose_Pig.symbolPack.prefixSymbols.4.symbol>멧돼지</Nose_Pig.symbolPack.prefixSymbols.4.symbol>
+  <!-- EN: pig -->
   <Nose_Pig.symbolPack.suffixSymbols.0.symbol>돼지</Nose_Pig.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: snout -->
   <Nose_Pig.symbolPack.suffixSymbols.1.symbol>주둥아리</Nose_Pig.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: swine -->
   <Nose_Pig.symbolPack.suffixSymbols.2.symbol>돼지</Nose_Pig.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: boar -->
   <Nose_Pig.symbolPack.suffixSymbols.3.symbol>멧돼지</Nose_Pig.symbolPack.suffixSymbols.3.symbol>
+  <!-- EN: hog -->
   <Nose_Pig.symbolPack.suffixSymbols.4.symbol>멧돼지</Nose_Pig.symbolPack.suffixSymbols.4.symbol>
+  <!-- EN: nose -->
   <Nose_Pig.symbolPack.suffixSymbols.5.symbol>코</Nose_Pig.symbolPack.suffixSymbols.5.symbol>
   
+  <!-- EN: human voice -->
+  <Voice_Human.label>인간 목소리</Voice_Human.label>
+  <!-- EN: Carriers of this gene have regular human vocal chords. -->
+  <Voice_Human.description>이 유전자의 소유자는, 규칙적인 인간 성대를 가지고 있습니다.</Voice_Human.description>
+  
+  <!-- EN: pig voice -->
   <VoicePig.label>돼지 목소리</VoicePig.label>
+  <!-- EN: Carriers have a squealing voice like that of a pig. -->
   <VoicePig.description>이 유전자는 돼지 같은 소리를 내게 합니다.</VoicePig.description>
+  <!-- EN: squeal -->
   <VoicePig.symbolPack.prefixSymbols.0.symbol>꿀꿀</VoicePig.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: oink -->
   <VoicePig.symbolPack.prefixSymbols.1.symbol>꽤액</VoicePig.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: snuffle -->
   <VoicePig.symbolPack.prefixSymbols.2.symbol>컹컹</VoicePig.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: snort -->
   <VoicePig.symbolPack.prefixSymbols.3.symbol>크흡크흡</VoicePig.symbolPack.prefixSymbols.3.symbol>
+  <!-- EN: oinker -->
   <VoicePig.symbolPack.suffixSymbols.0.symbol>돼지</VoicePig.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: hog -->
   <VoicePig.symbolPack.suffixSymbols.1.symbol>멧돼지</VoicePig.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: pig -->
   <VoicePig.symbolPack.suffixSymbols.2.symbol>돼지</VoicePig.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: snorter -->
   <VoicePig.symbolPack.suffixSymbols.3.symbol>꿀꿀</VoicePig.symbolPack.suffixSymbols.3.symbol>
+  <!-- EN: squealer -->
   <VoicePig.symbolPack.wholeNameSymbols.0.symbol>꽤액</VoicePig.symbolPack.wholeNameSymbols.0.symbol>
+  <!-- EN: oinker -->
   <VoicePig.symbolPack.wholeNameSymbols.1.symbol>퀑퀑</VoicePig.symbolPack.wholeNameSymbols.1.symbol>
+  <!-- EN: snorter -->
   <VoicePig.symbolPack.wholeNameSymbols.2.symbol>킁킁</VoicePig.symbolPack.wholeNameSymbols.2.symbol>
   
+  <!-- EN: roar voice -->
   <VoiceRoar.label>포효</VoiceRoar.label>
+  <!-- EN: Carriers have an animal-like roaring voice. -->
   <VoiceRoar.description>이 유전자의 소유자는, 동물처럼 포효하는 목소리를 가지고 있습니다.</VoiceRoar.description>
+  <!-- EN: roar -->
   <VoiceRoar.symbolPack.prefixSymbols.0.symbol>고함</VoiceRoar.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: growl -->
   <VoiceRoar.symbolPack.prefixSymbols.1.symbol>으으렁</VoiceRoar.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: snarl -->
   <VoiceRoar.symbolPack.prefixSymbols.2.symbol>그르렁</VoiceRoar.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: roar -->
   <VoiceRoar.symbolPack.suffixSymbols.0.symbol>함성</VoiceRoar.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: snarl -->
   <VoiceRoar.symbolPack.suffixSymbols.1.symbol>울음</VoiceRoar.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: growl -->
   <VoiceRoar.symbolPack.suffixSymbols.2.symbol>포효</VoiceRoar.symbolPack.suffixSymbols.2.symbol>
+  <!-- EN: roarer -->
   <VoiceRoar.symbolPack.wholeNameSymbols.0.symbol>포효</VoiceRoar.symbolPack.wholeNameSymbols.0.symbol>
+  <!-- EN: growler -->
   <VoiceRoar.symbolPack.wholeNameSymbols.1.symbol>으르렁</VoiceRoar.symbolPack.wholeNameSymbols.1.symbol>
+  <!-- EN: snarler -->
   <VoiceRoar.symbolPack.wholeNameSymbols.2.symbol>꽤액</VoiceRoar.symbolPack.wholeNameSymbols.2.symbol>
+  <!-- EN: bellower -->
   <VoiceRoar.symbolPack.wholeNameSymbols.3.symbol>뀌액뀌액</VoiceRoar.symbolPack.wholeNameSymbols.3.symbol>
   
-  <Voice_Human.label>인간 목소리</Voice_Human.label>
-  <Voice_Human.description>이 유전자의 소유자는, 규칙적인 인간 성대를 가지고 있습니다.</Voice_Human.description>
 </LanguageData>
