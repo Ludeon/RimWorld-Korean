@@ -24,14 +24,24 @@
   <EMPResistance.description>이 메카노이드는 전자기 펄스 피해를 완화하는 특수 차폐 처리가 되어있고 충격 분산 필라멘트가 설치돼있습니다. EMP로 인한 기절 시간이 이 수치만큼 감소합니다.</EMPResistance.description>
   
   <!-- EN: fertility -->
-  <Fertility.label>출산율</Fertility.label>
+  <Fertility.label>생식력</Fertility.label>
   <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
-  <Fertility.description>출산율은 임신의 가능성에 영향을 미칩니다. 임신 가능성은 두 사람의 출산율에 달려 있습니다. 이것은 또한 대리모의 배아 이식 성공률에도 영향을 미칩니다.</Fertility.description>
+  <Fertility.description>생식력은 임신의 가능성에 영향을 미칩니다. 임신 가능성은 두 사람의 생식력에 달려 있습니다. 이것은 또한 대리모의 배아 이식 성공률에도 영향을 미칩니다.</Fertility.description>
+  
+  <!-- EN: growth vat occupant speed -->
+  <GrowthVatOccupantSpeed.label>성장 배양기 사용 속도</GrowthVatOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
+  <GrowthVatOccupantSpeed.description>해당 사람이 성장 배양기에 있을 때 얼마나 빨리 성장하는지에 대한 계수입니다.</GrowthVatOccupantSpeed.description>
   
   <!-- EN: hemogen gain multiplier -->
   <HemogenGainFactor.label>혈액정수 생성 속도</HemogenGainFactor.label>
   <!-- EN: A multiplier on the amount of hemogen gained. -->
   <HemogenGainFactor.description>혈액정수 생성속도에 곱해집니다.</HemogenGainFactor.description>
+  
+  <!-- EN: learning rate factor -->
+  <LearningRateFactor.label>학습률 계수</LearningRateFactor.label>
+  <!-- EN: A multiplier on how quickly a child's learning need is fulfilled by learning activities. -->
+  <LearningRateFactor.description>학습 활동을 통해 아동의 학습 요구가 얼마나 빨리 충족되는지에 대한 계수입니다.</LearningRateFactor.description>
   
   <!-- EN: mech bandwidth -->
   <MechBandwidth.label>메카노이드 대역폭</MechBandwidth.label>

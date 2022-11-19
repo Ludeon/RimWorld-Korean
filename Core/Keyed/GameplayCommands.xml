@@ -455,13 +455,13 @@
   <!-- EN: Load -->
   <CommandLoadTransporterSingle>적재</CommandLoadTransporterSingle>
   <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandLoadTransporterSingleDesc>적재 기록을 열어서 누가 무엇을 적재할지 경정할 수 있습니다.</CommandLoadTransporterSingleDesc>
+  <CommandLoadTransporterSingleDesc>적재 창을 열어 무엇을 적재할지 결정합니다.</CommandLoadTransporterSingleDesc>
   
   <!-- Transporters set to load -->
   <!-- EN: Set to load -->
   <CommandSetToLoadTransporter>적재 설정</CommandSetToLoadTransporter>
   <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandSetToLoadTransporterDesc>적재 기록을 열어서 누가 무엇을 적재할지 경정할 수 있습니다.</CommandSetToLoadTransporterDesc>
+  <CommandSetToLoadTransporterDesc>적재 창을 열어 무엇을 적재할지 결정합니다.</CommandSetToLoadTransporterDesc>
   
   <!-- Autoload transporters -->
   <!-- EN: Autoload -->
@@ -637,5 +637,8 @@
   <SelectAllLinked>연결 선택</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
   <SelectAllLinkedDesc>연결된 모든 보관 건물을 선택합니다.</SelectAllLinkedDesc>
+
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>{0_labelShort}(은)는 의식이 없습니다.</CommandDisabledUnconscious>
   
 </LanguageData>

@@ -18,13 +18,15 @@
   <!-- EN: Finishes in -->
   <FinishesIn>완료</FinishesIn>
   <!-- EN: with -->
-  <WithLower>(와)과 함께</WithLower>
+  <WithLower>및</WithLower>
   <!-- EN: tiles -->
   <TilesLower>타일</TilesLower>
   <!-- EN: 1 mech -->
   <CaravanMech>1 메카노이드</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} 메카노이드</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>{APPAREL}(이)가 내장된 {BOSS}</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -113,6 +115,8 @@
   <WaitingFor>대기 중</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>제어되지 않음</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>{0} 접근 중</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -166,7 +170,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef}(은)는 탈진을 피하기 위해 곧 죽음안식을 취해야 합니다.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>이것은 {PAWN_possessive} 혈액 정수가 {MIN} 미만일 때 {PAWN_nameDef}(이)가 혈액팩을 자동으로 섭취할지 여부를 결정합니다.\n\n자동 섭취는 현재 {ONOFF}입니다.</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>이것은 {PAWN_possessive} 혈액 정수가 {MIN} 미만일 때 {PAWN_nameDef}(이)가 혈액팩을 자동으로 섭취할지 여부를 결정합니다.\n\n자동 섭취는 현재 {ONOFF}입니다.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>이하일 경우 혈액정수 섭취</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -220,7 +224,7 @@
   <!-- EN: Can't use this bed. -->
   <CantUseThisBed>이 침대를 사용할 수 없습니다.</CantUseThisBed>
   <!-- EN: Not in labor. -->
-  <NotInLabor>분만중이 아닙니다.</NotInLabor>
+  <NotInLabor>분만 중이 아닙니다.</NotInLabor>
   <!-- EN: labor -->
   <Labor>분만</Labor>
   <!-- EN: dilation -->
@@ -273,6 +277,10 @@
   <EjectAllDesc>유전자 보관소의 모든 유전자 팩을 바닥에 꺼냅니다.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>보관된 유전자묶음</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>자동 적재</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>활성화하면 운반자가 자동으로 해당 유전자묶음을 유전자 저장고에 보관합니다.</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>특성 강제</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -391,8 +399,8 @@
   <WaitingForPawn>{PAWN_nameDef} 대기 중</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>{PAWN_nameDef}의 유전자 추출 중</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
-  <ExtractionPausedNoPower>추출 일시 중지: 전원 없음</ExtractionPausedNoPower>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>추출 일시 중지됨: 전력 없음 ({TIME}에 중단됨)</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>{CHEMICAL_label}(을)를 {DURATION} 전에 마지막으로 투약했습니다.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -460,7 +468,7 @@
 
   <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
-  <LactatingAddedNutritionPerDay>모유를 생산하기 위해 하루에 열량을 {0} 추가로 섭취합니다. (현재 식품 수준으로 인해 모유 생산 속도는 {1_percentage}).</LactatingAddedNutritionPerDay>
+  <LactatingAddedNutritionPerDay>모유를 만들기 위해 하루에 열량을 {0} 추가로 섭취합니다. (현재 식품 수준으로 인해 모유 생산 속도는 {1_percentage})</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
   <LactatingStoppedBecauseFull>모유 한계에 도달해 더 분비되지 않습니다.</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
@@ -594,7 +602,7 @@
   <!-- EN: Produces -->
   <SubcoreScannerProduces>생산</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>{0}에 필요한 재료({1})가 채워지면, 정착민을 선택하고 {0}(이)나 쓰러진 사람에 오른쪽 클릭을 해서 스캐너를 가동하세요.</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>{0}에 필요한 재료({1})가 채워지면, 정착민을 선택하고 {0}(이)나 쓰러진 사람을 오른쪽 클릭하여 스캐너를 가동하세요.</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>완료</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
@@ -602,7 +610,7 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>재료 대기 중</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>다음 재료를 먼저 가져와야 합니다.</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
+  <SubcoreScannerWaitingForIngredientsDesc>다음 재료를 먼저 가져와야 합니다.</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>{0} 있음</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -695,12 +703,14 @@
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>최근에 난자 추출</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize -->
+  <Fertilize>수정</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <Fertilize>{0_label} 수정</Fertilize><!-- text_todo -->
+  <FertilizeThing>{0_label} 수정</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>수정 불가</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
-  <FertilizeGizmoDescription>배아를 만들기 위해 난자를 수정시킬 남성을 선택하세요. 배아는 산모에게 이식하거나 성장촉진기에 넣을 수 있습니다. 아이의 생물학적 부모는 난자를 제공한 여성과, 배아로 수정시킨 남성입니다.</FertilizeGizmoDescription>
+  <FertilizeGizmoDescription>배아를 만들기 위해 난자를 수정시킬 남성을 선택하세요. 배아는 산모에게 이식하거나 성장 배양기에 넣을 수 있습니다. 아이의 생물학적 부모는 난자를 제공한 여성과, 배아로 수정시킨 남성입니다.</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
   <FertilizeCancel>{0}의 수정 취소</FertilizeCancel>
   <!-- EN: sterile -->
@@ -721,14 +731,14 @@
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantDescription>이 배아를 대리모에게 이식하여 임신 과정을 시작합니다.</ImplantDescription>
   <!-- EN: Insert in growth vat -->
-  <InsertGrowthVatLabel>성장촉진기에 삽입</InsertGrowthVatLabel>
+  <InsertGrowthVatLabel>성장 배양기에 삽입</InsertGrowthVatLabel>
 
   <!-- EN: Cannot implant -->
   <ImplantCannotFloatOption>이식 불가</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
   <ImplantDisabledNoWomen>대리모를 할 수 있는 여성이 없습니다.</ImplantDisabledNoWomen>
   <!-- EN: No available growth vats. -->
-  <ImplantDisabledNoVats>사용 가능한 성장촉진기가 없습니다.</ImplantDisabledNoVats>
+  <ImplantDisabledNoVats>사용 가능한 성장 배양기가 없습니다.</ImplantDisabledNoVats>
   <!-- EN: Implant {0} -->
   <ImplantSurgeryLabel>{0} 이식</ImplantSurgeryLabel>
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
@@ -740,9 +750,9 @@
   <!-- EN: Cancel embryo insertion -->
   <ImplantEmbryoCancel>배아 이식 취소</ImplantEmbryoCancel>
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
-  <EmbryoEjectedFromGrowthVat>{0}(은)는 성장촉진기에서 배출되어 파괴되었습니다.</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVat>{0}(은)는 성장 배양기에서 배출되어 파괴되었습니다.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
-  <EmbryoEjectedFromGrowthVatBiostarvation>{0}(이)가 영양부족으로 인해 성장촉진기에서 파괴되었습니다.</EmbryoEjectedFromGrowthVatBiostarvation>
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0}(이)가 영양부족으로 인해 성장 배양기에서 파괴되었습니다.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0}(이)가 배아 이식을 통해 성공적으로 임신했습니다!</IvfPregnancyLetterText>

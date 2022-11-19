@@ -21,8 +21,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
   <LessonInteractionHowTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [teach_adverb] [article_tool][action](을)를 [teach_verb].</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [article_tool][action](을)를 [teach_verb].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [teach_adverb] [article_tool](으)로 [action](을)를 [teach_verb].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [article_tool](으)로 [action](을)를 [teach_verb].</li>
   </LessonInteractionHowTo.rulePack.rulesStrings>
   
   <!-- EN:
@@ -101,7 +101,7 @@
     <li>talk_verb->이야기함</li>
     <li>talk_verb->개요를 짚음</li>
     <li>talk_verb->요약을 함</li>
-    <li>talk_verb->강의 함</li>
+    <li>talk_verb->강의함</li>
   </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>

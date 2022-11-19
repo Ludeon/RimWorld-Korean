@@ -44,10 +44,10 @@
   <LetterMechanitorCasketFound>메카나이터의 동면관을 발견했습니다!\n\n개방해서 내부를 확인하세요.</LetterMechanitorCasketFound>
   
   <!-- Pawns lost because map closed (including mechs) -->
-  <!-- EN: Your caravan has been lost. The following people, animals and mechs have been lost with it -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>상단을 잃었습니다. 잃어버린 정착민들과 동물, 그리고 메카노이드들</LetterPawnsLostIncMechsBecauseMapClosed_Caravan><!-- text_todo -->
-  <!-- EN: The following people, animals and mechs have been abandoned -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Home>다음 사람들과 동물들, 메카노이드들이 버려졌습니다</LetterPawnsLostIncMechsBecauseMapClosed_Home><!-- text_todo -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>상단을 잃었습니다. 다음 사람, 동물 및 메카노이드를 함께 잃어버렸습니다.</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>다음 사람, 동물 및 메카노이드가 버려졌습니다.</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -79,26 +79,26 @@
   <!-- EN: {0_nameDef}'s baby prep -->
   <LetterLabelThirdTrimester>{0_nameDef}의 아기 준비</LetterLabelThirdTrimester>
   <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>{0_nameDef}(이)가 6일 이내에 출산할 예정입니다. 다음과 같은 방법으로 태어날 때를 준비할 수 있습니다.\n\n- 깨끗한 바닥과 좋은 침대가 있는 분만실을 만드세요.\n- 숙련된 의사를 준비하세요.\n- 작업 탭에서 적어도 한 사람을 보육에 지정하세요.\n - 아기를 위한 음식을 준비하세요. {0_nameDef}(이)가 아기에게 모유 수유를 하거나 이유식, 우유 또는 곤충 젤리를 먹일 수 있습니다.\n- 유아용 침대를 만드세요. 고품질 유아용 침대는 아기를 행복하게 합니다.\n\n스토브나 모닥불에서 이유식을 만들 수 있습니다.</LetterTextThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef}(이)가 6일 이내에 출산할 예정입니다. 다음과 같은 방법으로 태어날 때를 준비할 수 있습니다.\n\n- 깨끗한 바닥과 좋은 침대가 있는 분만실을 만드세요.\n- 숙련된 의사를 준비하세요.\n- 작업 탭에서 적어도 한 사람을 보육에 지정하세요.\n- 아기를 위한 음식을 준비하세요. {0_nameDef}(이)가 아기에게 모유 수유를 하거나 이유식, 우유 또는 곤충 젤리를 먹일 수 있습니다.\n- 유아용 침대를 만드세요. 고품질 유아용 침대는 아기를 행복하게 합니다.\n\n스토브나 모닥불에서 이유식을 만들 수 있습니다.</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
-  <LetterVatBirth>{0}(이)가 성장촉진기에서 태어남</LetterVatBirth>
+  <LetterVatBirth>{0} 성장 배양기에서 태어남</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
-  <LetterVatHealthyBaby>{0_nameDef}(와)과 {1_nameDef}의 배아가 성장촉진기 안에서 성장을 마치고 건강한 아기가 되었습니다!</LetterVatHealthyBaby>
+  <LetterVatHealthyBaby>{0_nameDef}(와)과 {1_nameDef}의 배아가 성장 배양기 안에서 성장을 마치고 건강한 아기가 되었습니다!</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
-  <LetterVatHealthyBabyNoParents>배아가 성장촉진기에서 성장을 마치고 건강한 아기가 되었습니다!</LetterVatHealthyBabyNoParents>
+  <LetterVatHealthyBabyNoParents>배아가 성장 배양기에서 성장을 마치고 건강한 아기가 되었습니다!</LetterVatHealthyBabyNoParents>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllness>{0_nameDef}(와)과 {1_nameDef}의 배아가 성장촉진기 안에서 성장을 마치고 아기가 되었습니다. 아쉽게도 건강한 아기가 아닙니다.</LetterVatInfantIllness>
+  <LetterVatInfantIllness>{0_nameDef}(와)과 {1_nameDef}의 배아가 성장 배양기 안에서 성장을 마치고 아기가 되었습니다. 아쉽게도 건강한 아기가 아닙니다.</LetterVatInfantIllness>
   <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllnessNoParents>배아가 성장촉진기 안에서 성장을 마치고 아기가 되었습니다. 아쉽게도 건강한 아기가 아닙니다.</LetterVatInfantIllnessNoParents>
+  <LetterVatInfantIllnessNoParents>배아가 성장 배양기 안에서 성장을 마치고 아기가 되었습니다. 아쉽게도 건강한 아기가 아닙니다.</LetterVatInfantIllnessNoParents>
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
-  <LetterVatStillborn>성장촉진기에서 성장하던 {0_nameDef}(와)과 {1_nameDef}의 아기가 사산되었습니다.</LetterVatStillborn>
+  <LetterVatStillborn>성장 배양기에서 성장하던 {0_nameDef}(와)과 {1_nameDef}의 아기가 사산되었습니다.</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
-  <LetterVatSillbornNoParents>성장촉진기에서 자라던 아기가 사산되었습니다.</LetterVatSillbornNoParents>
+  <LetterVatSillbornNoParents>성장 배양기에서 자라던 아기가 사산되었습니다.</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
-  <LetterColonistPregnancyLaborLabel>{0_labelShort}(이)가 분만중!</LetterColonistPregnancyLaborLabel>
+  <LetterColonistPregnancyLaborLabel>{0_labelShort}(이)가 분만 중!</LetterColonistPregnancyLaborLabel>
   <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>{0_labelShort}(이)가 아이를 낳으려 하고 있습니다! 아이를 낳기 전 몇시간동안 진통이 있을것입니다. 분만에는 여러 단계의 어려움과 위험이 있습니다.\n\n성공적인 출산의 확률을 높이기 위해 의사를 포함한 다른 사람들을 불러 그녀를 도울 수 있습니다. {0_labelShort}(을)를 선택한뒤, 출산을 위해 모임 을 선택하여 모을 수 있습니다.</LetterColonistPregnancyLabor>
+  <LetterColonistPregnancyLabor>{0_labelShort}(이)가 아이를 낳으려 하고 있습니다! 아이를 낳기 전 몇 시간 동안 진통이 있을 것입니다. 분만에는 여러 단계의 어려움과 위험이 있습니다.\n\n성공적인 출산의 확률을 높이기 위해 의사를 포함한 다른 사람들을 불러 그녀를 도울 수 있습니다. {0_labelShort}(을)를 선택한 뒤, 모임을 눌러 출산을 돕기 위해 모을 수 있습니다.</LetterColonistPregnancyLabor>
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>{0_labelShort}(은)는 출산 휴우증으로 사망했습니다.</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
@@ -113,11 +113,15 @@
   <!-- EN: immediately -->
   <Immediately>즉시</Immediately>
   <!-- EN: within -->
-  <Within>이내</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>아기의 이름을 임시로 {0_nameFull}(으)로 지어줬습니다. 출생 후 {1} 이내로 변경할 수 있습니다.</LetterPartNameBaby>
+  <Within>한 번만</Within>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>아기의 임시 이름은 {0_nameFull}입니다.</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>출생 후 {0}까지 변경할 수 있습니다.</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>아기에게 다른 이름을 지어 주시겠습니까?</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>아기의 이름을 임시로 {0_nameFull}(으)로 지어줬습니다. {1} 전까지 변경할 수 있습니다.</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>아기의 이름을 임시로 {0_nameFull}(으)로 지어줬습니다. {1} 전까지 변경할 수 있습니다.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME}의 성장 순간</BirthdayGrowthMoment>
@@ -140,7 +144,11 @@
   <BirthdayPassionArchive>{0}에 대한 열정이 증가했습니다.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>{0} 특성을 얻었습니다.</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>특성 없음</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>{0}(은)는 특성을 얻지 못했습니다.</BirthdayNoTraitChoiceTooltip>
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>닫으려면 먼저 선택을 하세요.</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -163,15 +171,23 @@
   <!-- EN: Xenogerm implantation ordered -->
   <LetterLabelXenogermOrderedImplanted>변형이식체 이식 명령함</LetterLabelXenogermOrderedImplanted>
   <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>{PAWN_nameDef}에 이식할 변형이식체를 주문했습니다. 이 절차는 의료용 침대와 {MEDICINENEEDED} 약이 필요합니다.{BEDINFO}{MEDICINEINFO}\n\n이 절차는 {PAWN_nameDef}의 건강 -> 수술 탭으로 이동하여 취소할 수 있습니다.</LetterXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>{PAWN_nameDef}에게 변형이식체 이식을 지시했습니다. 이 절차는 의료용 침대와 {MEDICINENEEDED}개의 약품이 필요합니다.{BEDINFO}{MEDICINEINFO}\n\n이 절차는 {PAWN_nameDef}의 건강 -> 수술 탭으로 이동하여 취소할 수 있습니다.</LetterXenogermOrderedImplanted>
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
   <XenogermOrderedImplantedBedNeeded>\n\n{PAWN_nameDef}에 사용할 수 있는 의료용 침대가 없습니다. 침대를 의료용으로 변경하는 것을 고려하세요.</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
   <XenogermOrderedImplantedMedicineNeeded>\n\n변형이식체를 이식할 약품이 부족합니다. {MEDICINENEEDED} 약품을 받을 때까지 이식을 시작할 수 없습니다.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>비 자발적 죽음안식</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef}(은)는 죽음안식에 빠졌습니다.</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>재생성 혼수상태</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}의 불사 유전자가 {PAWN_objective} 죽음에서 구했습니다. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>대신 {PAWN_pronoun}는 죽음안식에 빠졌습니다.</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>대신 {PAWN_pronoun}는 재생성 혼수상태에 빠졌습니다.</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>죽음안식의 외부 신경 충격으로 인해 {PAWN_nameDef}(은)는 {PAWN_possessive} {SKILL} 기술에서 {XPLOSS} 경험치를 잃었습니다.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>치명상을 입었습니다.</DeathrestLethalDamage>
 
@@ -192,5 +208,10 @@
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>본능적으로 짝을 찾고 있는 {BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 정신적으로 결속된 낭만적인 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과 정신적 연결을 통해 심리적으로 도움이 되지만 서로 다른 세계 타일로 분리되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>정신결속</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 유대감 있는 낭만적인 정신 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과의 정신결속을 통해 심리적으로 도움이 되지만, 서로 다른 세계 타일로 떨어지게 되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

@@ -6,12 +6,21 @@
   
   <!-- EN: beam graser -->
   <Gun_BeamGraser.label>광선총</Gun_BeamGraser.label>
-  <!-- EN: A high-energy gamma ray laser which fires a sweeping beam that burns and ignites targets. Because of the health risks, grasers are usually only used by mechanoids, and this one was made to interface directly with a mechanoid wielder and draw from its power source. -->
-  <Gun_BeamGraser.description>대상을 불태우는 고출력 감마선 레이저를 발사합니다. 보통 광선총은 인체에 위험하기 때문에, 메카노이드로 운용됩니다. 메카노이드의 동력원을 통해 작동하기 때문에 직접 연결되도록 만들어졌습니다.</Gun_BeamGraser.description>
+  <!-- EN: A high-energy gamma ray laser which fires a sweeping beam that pierces thick armor and burns targets. Because of the health risks, grasers are usually only used by mechanoids. This one was made to interface directly with a mechanoid wielder and draw from its power source. -->
+  <Gun_BeamGraser.description>두꺼운 장갑을 뚫고, 대상을 불태우는 고에너지 감마선 레이저를 전방에 발사합니다. 보통 광선총은 인체에 위험하기에 일반적으로 메카노이드만 사용합니다. 이것은 메카노이드 사용자가 직접 제어하고 메카노이드 동력을 사용하도록 만들어졌습니다.</Gun_BeamGraser.description>
   <!-- EN: barrel -->
   <Gun_BeamGraser.tools.barrel.label>총열</Gun_BeamGraser.tools.barrel.label>
   <!-- EN: beam graser -->
   <Gun_BeamGraser.verbs.Verb_ShootBeam.label>광선총</Gun_BeamGraser.verbs.Verb_ShootBeam.label>
+  
+  <!-- EN: needle launcher -->
+  <Gun_NeedleLauncher.label>니들 런처</Gun_NeedleLauncher.label>
+  <!-- EN: This mechanoid weapon is a compact version of the needle gun. Named after its needle-like projectiles, it fires single shots with great accuracy. The needle launcher has less range than its counterpart but is lightweight, allowing it to be wielded by fast-moving mechs. -->
+  <Gun_NeedleLauncher.description>이 메카노이드 무기는 니들건의 소형 버전입니다. 바늘 모양의 발사체에서 이름을 따온 이 무기는 매우 정확하게 한 발을 발사합니다. 니들 런처는 다른 무기에 비해 사거리가 짧지만 가볍기 때문에 경량 메카노이드가 사용할 수 있습니다.</Gun_NeedleLauncher.description>
+  <!-- EN: barrel -->
+  <Gun_NeedleLauncher.tools.barrel.label>총열</Gun_NeedleLauncher.tools.barrel.label>
+  <!-- EN: needle launcher -->
+  <Gun_NeedleLauncher.verbs.Verb_Shoot.label>니들 런처</Gun_NeedleLauncher.verbs.Verb_Shoot.label>
   
   <!-- EN: toxic needle gun -->
   <Gun_ToxicNeedle.label>독성 니들건</Gun_ToxicNeedle.label>

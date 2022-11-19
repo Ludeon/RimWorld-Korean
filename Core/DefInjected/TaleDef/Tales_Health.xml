@@ -201,7 +201,6 @@
   <HypothermiaRevealed.label>저체온증 발병함</HypothermiaRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting hypothermia</li>
-    <li>tale_noun->[PAWN_nameDef] freezing to death</li>
     <li>image->[PAWN_nameFull] trudging through snow [circumstance_group]</li>
     <li>image->[PAWN_nameFull] huddled beside a [TerrainFeature] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] searching for a warm [Apparel] [circumstance_group]</li>
@@ -221,7 +220,6 @@
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]의 저체온증</li>
-    <li>tale_noun->얼어 죽어가는 [PAWN_nameDef]</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 눈을 뚫고 가는 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] [TerrainFeature] 옆에 웅크리고 있는 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 따듯한 [Apparel](을)를 찾는 모습</li>
@@ -237,7 +235,7 @@
     <li>desc_sentence->이 장면은 눈으로 덮인 [TreeType] 숲 속에서 일어난 것 같습니다.</li>
     <li>desc_sentence->이 장면은 냉동고 안에서 일어난 일처럼 보입니다.</li>
     <li>desc_sentence->벌벌 떠는 [Quantity_adjphrase] 마리의 [Animal]들이 주위를 둘러싸고 있습니다.</li>
-    <li>desc_sentence->죽어가는 [Quantity_adjphrase] 마리의 [Animal]들이 누워있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 죽어가는 [Animal]들이 누워있습니다.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->

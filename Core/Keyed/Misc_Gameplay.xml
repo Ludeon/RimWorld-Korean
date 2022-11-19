@@ -985,7 +985,7 @@
   <!-- EN: Power output -->
   <PowerOutput>전력 출력량</PowerOutput>
   <!-- EN: {0} W when active -->
-  <PowerActiveNeeded>활성 상태일 때 {0} W</PowerActiveNeeded> <!-- text_todo -->
+  <PowerActiveNeeded>활성 상태일 때 {0} W</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>저장됨</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -1753,7 +1753,7 @@
 
   <!-- Gas types -->
   <!-- EN: blind smoke -->
-  <BlindSmoke>실명 연막</BlindSmoke>
+  <BlindSmoke>자욱한 연기</BlindSmoke>
   <!-- EN: tox gas -->
   <ToxGas>독소 가스</ToxGas>
   <!-- EN: rot stink -->
@@ -1798,5 +1798,14 @@
 
   <!-- EN: Random -->
   <Random>무작위</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>{0_label} 재배</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>선택한 구역에 {0_label}(을)를 재배합니다.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>{0_label} 재배 취소</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>{0_label} 재배를 취소합니다.</CancelPlantThingDesc>
 
 </LanguageData>

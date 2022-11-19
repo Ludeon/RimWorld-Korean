@@ -36,8 +36,8 @@
   
   <!-- EN: lactating -->
   <Lactating.label>수유 가능</Lactating.label>
-  <!-- EN: The condition of being able to breastfeed a baby. The breasts are actively producing and storing milk. The lactating state begins when a mother gives birth, and continues indefinitely as long as she breastfeeds a baby at least once every 10 days. -->
-  <Lactating.description>아기에게 모유를 먹일 수 있는 상태입니다. 유방은 계속해서 우유를 생산하고 저장합니다. 수유 상태는 산모가 출산할 때부터 시작되고, 10일에 한 번 이상 아기에게 모유 수유를 하면 무기한 지속됩니다.</Lactating.description>
+  <!-- EN: The condition of being able to breastfeed a baby. The breasts are actively producing and storing milk. The lactating state begins when a mother gives birth, and continues indefinitely as long as she breastfeeds a baby at least once every 10 days.\n\nPeople who are lactating will have a harder time becoming pregnant. -->
+  <Lactating.description>아기에게 모유 수유를 할 수 있는 상태입니다. 유방은 활발하게 우유를 생산하고 저장합니다. 수유 상태는 산모가 출산할 때 시작되며, 10일에 한 번 이상 아기에게 모유 수유를 하는 한 무한정 지속됩니다.\n\n수유 중인 사람은 임신하기가 더 어렵습니다.</Lactating.description>
   <!-- EN: {0} is no longer lactating due to not breastfeeding for 10 days. -->
   <Lactating.comps.HediffComp_MessageOnRemoval.message>{0}(은)는 10일 동안 모유 수유를 하지 않아 더 이상 수유하지 않습니다.</Lactating.comps.HediffComp_MessageOnRemoval.message>
   <!-- EN: milk fullness {CHARGEFACTOR_percentage} -->
@@ -99,7 +99,7 @@
   <!-- EN: pregnant -->
   <PregnantHuman.label>임신</PregnantHuman.label>
   <!-- EN: A baby growing inside a woman, preparing to be born. In humans, pregnancy lasts for 18 days and is divided into 3 trimesters. As the pregnancy grows it will reduce the mother's mobility. For some mothers, pregnancy may induce nausea or mood swings that can be hard to deal with. -->
-  <PregnantHuman.description>배아가 산모 안에서 자라나고 있습니다. 임신기간은 18일이며, 이는 3분기로 나뉩니다. 임신이 진행됨에 따라 산모의 움직임이 제한됩니다. 일부 산모의 경우, 임신은 견디기 힘들 수 있는 메스꺼움이나 기분변화를 겪게 됩니다.</PregnantHuman.description>
+  <PregnantHuman.description>배아가 산모 안에서 자라나고 있습니다. 인간의 경우 임신기간은 18일이며, 이는 3분기로 나뉩니다. 임신이 진행됨에 따라 산모의 움직임이 제한됩니다. 일부 산모의 경우 임신은 견디기 힘들 수 있는 메스꺼움이나 기분변화를 겪게 됩니다.</PregnantHuman.description>
   <!-- EN: {0_labelShort} pregnant -->
   <PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} 임신</PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>
   <!-- EN: {0_labelShort} is pregnant! -->
@@ -107,11 +107,11 @@
   <!-- EN: pregnancy -->
   <PregnantHuman.labelNoun>임신</PregnantHuman.labelNoun>
   <!-- EN: first trimester -->
-  <PregnantHuman.stages.first_trimester.label>제1삼분기</PregnantHuman.stages.first_trimester.label>
+  <PregnantHuman.stages.first_trimester.label>제1 삼분기</PregnantHuman.stages.first_trimester.label>
   <!-- EN: second trimester -->
-  <PregnantHuman.stages.second_trimester.label>제2삼분기</PregnantHuman.stages.second_trimester.label>
+  <PregnantHuman.stages.second_trimester.label>제2 삼분기</PregnantHuman.stages.second_trimester.label>
   <!-- EN: third trimester -->
-  <PregnantHuman.stages.third_trimester.label>제3삼분기</PregnantHuman.stages.third_trimester.label>
+  <PregnantHuman.stages.third_trimester.label>제3 삼분기</PregnantHuman.stages.third_trimester.label>
   
   <!-- EN: stillborn -->
   <Stillborn.label>사산</Stillborn.label>

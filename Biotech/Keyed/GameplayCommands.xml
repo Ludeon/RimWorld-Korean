@@ -50,4 +50,13 @@
   <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
   <CommandToggleTurretDesc>포탑이 자율사격을 할 수 있도록 설정합니다.\n\n비활성화 될 시, 포탑은 자율적으로 사격을 하지 않을 것 입니다. 이는 적에게 몰래 다가갈때 유용합니다.</CommandToggleTurretDesc>
 
+  <!-- EN: Cancel scan -->
+  <CommandCancelSubcoreScan>스캔 취소</CommandCancelSubcoreScan>
+  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
+  <CommandCancelSubcoreScanDesc>스캔 작업을 취소합니다. 내부의 사람이 배출될 것입니다.</CommandCancelSubcoreScanDesc>
+
+  <!-- EN: Force xenogerm implantation -->
+  <ForceXenogermImplantation>강제 변형이식체 이식</ForceXenogermImplantation>
+  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
+  <ForceXenogermImplantationDesc>해당 인물이 특별한 주입 기관을 사용하여 다른 사람에게 변형인자를 강제로 이식하도록 하십시오. 이 사람의 유전자가 현재 재성장 중이면 그 과정에서 죽습니다.\n\n이식되면 변형이식체가 대상의 변형인자를 덮어씁니다. 생식유전자는 영향을 받지 않습니다.</ForceXenogermImplantationDesc>
 </LanguageData>

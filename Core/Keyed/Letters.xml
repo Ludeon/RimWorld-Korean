@@ -36,7 +36,7 @@
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>{0} 세력과의 관계가 매우 가까워져 동맹이 됐습니다.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>동맹은 정착지가 적의 공격을 받을 때 가끔 지원군을 파견하기도 합니다. 또한, 언제든지 우호도를 소모하여 도움을 요청할 수 있습니다.\n\n우호도({0})가 {1}보다 높아졌기 때문에 발생했습니다. 우호도가 {2}보다 낮아지면 다시 중립 관계가 됩니다.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>동맹은 정착지가 적의 공격을 받을 때 가끔 지원군을 파견하기도 합니다. 또한 언제든지 우호도를 소모하여 도움을 요청할 수 있습니다.\n\n우호도({0})가 {1}보다 높아졌기 때문에 발생했습니다. 우호도가 {2}보다 낮아지면 다시 중립 관계가 됩니다.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>우호도</goodwill>
@@ -308,7 +308,7 @@
   <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>귀금속 발견</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>{WORKER_labelShort}(은)는 장거리 광물 탐색기를 사용하여 {0} 광맥을 발견했습니다.\n\n{1}일 동안 찾아가지 않는다면 다른 누군가 먼저 채굴해 갈지도 모릅니다.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>{WORKER_labelShort}(이)가 장거리 광물 탐색기를 사용하여 {0} 광맥을 발견했습니다.\n\n{1}일 내에 찾아가지 않으면 다른 누군가 먼저 채굴해갈 것입니다.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->

@@ -27,6 +27,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>{PAWN_nameDef}의 변형이식체를 흡수하면 {0} 세력이 분노하게 됩니다.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label}(은)는 정착민, 수감자, 혹은 노예에게만 사용할 수 있습니다.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort}(은)는 싫어하는 인종형이 되는 것을 거부했습니다.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>{OVERSEER_nameDef}(을)를 호위하기 위해 상단에 {MECH_nameDef}(을)를 자동으로 추가</MessageCaravanAddingEscortingMech> 
@@ -43,6 +45,8 @@
   <MessagePregnancyTerminated>{PAWN_nameDef}(이)가 출산하였습니다.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>{0}(이)가 화를 냈습니다 ({1})</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>오염되지 않은 지형이 필요합니다.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -103,11 +107,14 @@
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>{PAWN_nameDef}의 죽음안식을 위해 지정된 {BED_labelShort}(이)가 햇빛에 노출되어있습니다. {PAWN_nameDef}(은)는 여기서 죽음안식을 취할 수 없습니다.</MessageBedExposedToSunlight>
 
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}(이)가 전력 부족으로 인해 유전자 추출기에서 배출되었습니다.</GeneExtractorNoPowerEjectedMessage>
+
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
   <MessagePawnKilledRipscanner>{PAWN_nameDef}의 뇌가 서브코어 립스캐너에 의해 파괴됐습니다.</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}의 서브코어 소프트스캐너가 완료되었습니다.</MessageSubcoreSoftscannerCompleted><!-- text_todo -->
+  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}의 서브코어 소프트스캐너가 완료되었습니다.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>백골화된 시체는 부활할 수 없습니다.</MessageCannotResurrectDessicatedCorpse>
@@ -143,6 +150,13 @@
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>경고: {0_labelShort}(이)가 징집 중 아기를 안고 있습니다.</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
-  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}(이)가 {BABY_nameDef}(을)를 안전한 온도로 데려가고 있습니다.</MessageTakingBabyToSafeTemperature><!-- text_todo -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}(이)가 {BABY_nameDef}(을)를 안전한 온도로 데려가고 있습니다.</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>{MOTHER_nameDef}와 {FATHER_nameDef} 사이에 임신 실패</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>{PAWN_nameDef}(이)가 난자를 수정하지 못했습니다.</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>결합된 유전자가 대사 한계를 초과했습니다.</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>

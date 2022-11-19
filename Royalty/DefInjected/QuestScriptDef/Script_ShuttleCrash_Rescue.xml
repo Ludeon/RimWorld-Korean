@@ -60,7 +60,7 @@
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kind]s may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
+    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kindPlural] may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, another [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],</li>
@@ -68,12 +68,12 @@
     <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
-    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kind]s</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   -->
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->[asker_faction_name]의 왕복선이 피해를 입고 비상착륙할 장소를 찾고 있습니다. 왕복선의 사령관, [asker_nameDef](은)는 [map_definite]에 착륙하려고 합니다.\n\n탑승객을 사살하기 위한 [enemyFaction_pawnsPlural](이)가 [enemyFaction_name]에서 출발했습니다. 왕복선을 방어하세요.\n\n왕복선에는 [asker_nameDef][andOtherCivilians], [soldierCountKinds](이)가 탑승하고 있습니다. 사령관[andCivilians](은)는 반드시 구조해야 하지만 [soldiers0_kind](은)는 희생할 수 있습니다.\n\n[rescueDelay_duration] 후, 구조 왕복선이 도착해 생존자들을 이송할 것입니다. 구조 왕복선이 착륙한 후 [leaveDelay_duration] 내에 모든 생존자가 탑승해야 합니다.</li>
+    <li>questDescription->[asker_faction_name]의 수송선이 피해를 입고 착륙할 장소를 찾고 있습니다. 지휘관 [asker_nameDef](이)가 [map_definite]에 착륙하기를 원합니다.\n\n[enemyFaction_name]의 [enemyFaction_pawnsPlural]이 탑승자를 죽이기 위해 추락한 수송선이 있는 정착지를 공격할 것입니다. 당신은 그들을 방어해야 합니다.\n\n수송선에는 [asker_nameDef][andOtherCivilians]와 [soldierCountKinds]가 포함되어 있습니다. 사령관 [andCivilians](은)는 구출되어야 하지만 [soldiers0_kindPlural](은)는 희생될 수 있습니다.\n\n[rescueDelay_duration] 후에 구조용 수송선이 생존자를 데리러 올 것입니다. [leaveDelay_duration] 내에 모두 탑승해야 합니다.</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->(와)과 한 명의 [pawnLabel]</li>
     <li>andOtherCivilians(civilians_count>=3)->(와)과 [pawnLabelSingleOrPlural] [civilianCountMinusOne]명</li>
@@ -81,7 +81,7 @@
     <li>andCivilians(civilians_count==2)->(와)과 [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->(와)과 [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers0_kind] 한 명</li>
-    <li>soldierCountKinds(soldiers_count>1)->[soldiers0_kind] [soldiers_count]명</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
