@@ -33,11 +33,11 @@
     <li>teach_test->cross-examined</li>
   -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [situation] [article_tool][action_gerund]에 대해 [teach_test].</li>
-    <li>teach_test->문제 냄</li>
-    <li>teach_test->시험함</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [situation] [article_tool]의 [action_gerund]에 대해 [teach_test].</li>
+    <li>teach_test->문제를 냄</li>
+    <li>teach_test->시험을 봄</li>
     <li>teach_test->복습시킴</li>
-    <li>teach_test->검사함</li>
+    <li>teach_test->알고 있는지 확인함</li>
   </LessonInteractionQuiz.rulePack.rulesStrings>
   
   <!-- EN:
@@ -67,7 +67,7 @@
   -->
   <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
     <li>teach_adverb->침착하게</li>
-    <li>teach_adverb->활기차게</li>
+    <li>teach_adverb->생동감 있게</li>
     <li>teach_adverb->열심히</li>
     <li>teach_adverb->빠르게</li>
     <li>teach_adverb->가볍게</li>
@@ -97,10 +97,10 @@
   -->
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subject]에 대해 [teach_adverb] [talk_verb].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [subject][talk_verb].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [subject]에 대해 [talk_verb].</li>
     <li>talk_verb->이야기함</li>
-    <li>talk_verb->개요를 짚음</li>
-    <li>talk_verb->요약을 함</li>
+    <li>talk_verb->개요를 짚어줌</li>
+    <li>talk_verb->요약해줌</li>
     <li>talk_verb->강의함</li>
   </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   

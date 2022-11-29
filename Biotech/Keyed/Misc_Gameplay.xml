@@ -388,9 +388,9 @@
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
   <InsertPersonGeneExtractorDesc>유전자 추출기에 사람을 집어넣습니다. 이들의 유전 물질이 추출되어 이들이 가진 무작위의 유전자를 포함하는 유전자묶음이 생성됩니다.\n\n유전자 추출은 고통스러우며, 대상을 며칠동안 약하고 피곤한 상태로 만듭니다. 이 작업은 아직 유전자 재성장이 끝나지 않은이들에게 치명적입니다.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <ConfirmExtractXenogermWillKill>경고: {PAWN_nameDef}의 유전자가 아직 재생장중입니다. 재성장이 완료되기전에 {PAWN_possessive} 유전자를 추출하면 사망에 이르게 됩니다.\n\n계속하시겠습니까?</ConfirmExtractXenogermWillKill>
+  <ConfirmExtractXenogermWillKill>경고: {PAWN_nameDef}의 유전자가 아직 재성장 단계입니다. 재성장이 완료되기 전에 {PAWN_possessive} 유전자를 추출하면 사망에 이르게 됩니다.\n\n계속하시겠습니까?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
-  <GeneExtractionComplete>{PAWN_nameDef}에 대한 유전자 추출이 완료되었습니다. 추출됨</GeneExtractionComplete>
+  <GeneExtractionComplete>{PAWN_nameDef}에 대한 유전자 추출이 완료되었습니다. 추출됨:</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
   <InsertXenogerm>변형이식체 삽입</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->

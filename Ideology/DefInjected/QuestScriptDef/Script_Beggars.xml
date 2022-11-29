@@ -69,14 +69,14 @@
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->그들을</li>
     <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo](은)는 다른 세력 소속이 아닙니다. 아무런 외교적 문제 없이 [traverObjective] 죽이거나, 수감하거나, 노예로 팔거나, 장기를 수확할 수 있습니다</li>
-    <li>approachInfo(beggarCount==1)->가난한 [groupLabelSingle], [beggars0_nameDef](이)가 도움을 요청하기 위해 접근하고 있습니다</li>
+    <li>approachInfo(beggarCount==1)->가난한 [groupLabelSingle] [beggars0_nameDef](이)가 도움을 요청하기 위해 접근하고 있습니다</li>
     <li>approachInfo(beggarCount>=2)->가난한 [groupLabelPlural]이 도움을 요청합니다</li>
     <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->아이가 포함된 가난한 [groupLabelPlural]이 도움을 요청합니다</li>
     <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->아이 몇몇을 포함한 가난한 [groupLabelPlural]이 도움을 요청합니다</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef](이)가 [beggingForInfo](을)를 구걸합니다</li>
     <li>requestInfo(beggarCount>=2)->[groupLabelPlural](이)가 [beggingForInfo](을)를 구걸합니다</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef](은)는 [beggars0_objective] 쫓고있는 우주 해적들에게 진 빚을 갚고자 합니다</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef](은)는 우주 해적의 노예인 [beggars0_possessive] 누나의 자유를 사고자 합니다</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef](은)는 우주 해적의 노예인 친누나의 자유를 사고자 합니다</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef](은)는 주변에 상처입은 여행자를 돕기위해 약품이 필요하다 합니다</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef](은)는 근처에 부상을 입은 [beggars0_possessive] 남동생을 치료하기 위해 약품이 필요하다고 합니다</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef](은)는 여행 중 다친 [beggars0_possessive] 충성스러운 애완동물을 치료하기 위해 약품이 필요하다고 합니다</li>

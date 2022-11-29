@@ -405,7 +405,7 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}(와)과 {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>{0}에 재진입하기에는 너무 위험합니다.</EnterCooldown>
+  <EnterCooldown>{0} 후에 재진입 가능합니다.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>상단</Caravan>
   <!-- EN: there may be danger there. -->
@@ -1051,19 +1051,19 @@
 
   <!-- Plants -->
   <!-- EN: {0} grown -->
-  <PercentGrowth>{0} 성장</PercentGrowth>
+  <PercentGrowth>성장율: {0}</PercentGrowth>
   <!-- EN: Growth rate -->
   <GrowthRate>성장 속도</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>{0} 후 완전히 성장</FullyGrownIn>
   <!-- EN: Needs light level -->
-  <PlantNeedsLightLevel>빛 필요</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>빛 요구량</PlantNeedsLightLevel>
   <!-- EN: Resting -->
   <PlantResting>휴식 중</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
-  <OutOfIdealTemperatureRange>부적합한 온도. 생장온도 계수: {0}%</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>부적합한 온도로 인한 성장 계수: {0}%</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>부적합한 온도. 성장 불가.</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>부적합한 온도. 성장 불가</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>수확 가능</ReadyToHarvest>
   <!-- EN: Mature. -->
@@ -1149,7 +1149,7 @@
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>지붕을 표시합니다.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>토질을 시각화합니다.\n\n토질은 흙에 포함된 양분의 양으로, 재배할 수 있는 식물과 생장 속도에 영향을 미칩니다.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>지형의 토질을 시각화하여 표시합니다.\n\n이것은 식물의 종류나 성장 속도에 영향을 미칩니다.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
   <ShowTerrainAffordanceOverlayToggleButton>지형이 버틸 수 있는 무게를 시각화합니다.\n\n버틸 수 있는 무게는 어떤 장소에 어떤 건물을 건설할 수 있는지 결정합니다.\n\n예를 들어, 어떤 땅은 가벼운 건물을 지탱할 수 있지만 무거운 건물은 버티지 못합니다. 교량은 물 위에만 지을 수 있습니다.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->

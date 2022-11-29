@@ -399,9 +399,9 @@
   <!-- EN: Harvest yield -->
   <HarvestYield>수확량</HarvestYield>
   <!-- EN: Min growth temperature -->
-  <MinGrowthTemperature>최소 생장 온도</MinGrowthTemperature>
+  <MinGrowthTemperature>최소 성장 온도</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
-  <MaxGrowthTemperature>최대 생장 온도</MaxGrowthTemperature>
+  <MaxGrowthTemperature>최대 성장 온도</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
   <GrowingTimeDesc>이 항목은 식물이 자라는데 필요한 순수한 시간을 나타냅니다. 식물은 빛이 충분할 때만 성장하므로, 실제로는 이것의 두 배 가량의 시간이 필요할 것입니다. 적정 온도를 벗어난다면 더욱 많은 시간이 필요합니다.</GrowingTimeDesc>
   <!-- EN: days -->
@@ -1288,7 +1288,7 @@
   <!-- EN: sat -->
   <Saturation>채도</Saturation>
   <!-- EN: value -->
-  <Value>값</Value>
+  <ColorValue>명도</ColorValue>
   <!-- EN: darklight -->
   <Darklight>암광</Darklight>
   <!-- EN: not darklight -->

@@ -7,7 +7,7 @@
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
   <RelicHunt.questDescriptionRules.rulesStrings>
-    <li>questDescription(classicMode==True)->당신은 주변에 귀중한 유물이 있는 것을 알게 되었습니다.\n\n[relic_name](은)는 많은 사람들이 숭배하는 고대의 [relicGlobalCount]대 물품 중 하나입니다. 그것을 가져온다면 정착민들을 행복하게 만들고 부유한 순례자들을 끌어들일 수 있을 것 입니다.</li>
+    <li>questDescription(classicMode==True)->당신은 주변에 귀중한 유물이 있는 것을 알게 되었습니다.\n\n[relic_name](은)는 많은 사람들이 숭배하는 고대의 [relicGlobalCount]대 유물 중 하나입니다. 그것을 가져온다면 정착민들을 행복하게 만들고 부유한 순례자들을 끌어들일 수 있을 것입니다.</li>
     <li>questDescription(classicMode==False)->[ideo_name]의 유물이 근처에 있는 것을 알게 되었습니다.\n\n[relic_name](은)는 모든 [ideo_memberNamePlural](이)가 숭배하는 고대의 물건입니다. 그것을 가져온다면 [ideo_memberNamePlural](을)를 행복하게 만들고, 부유한 순례자를 끌어들이고, 더 많은 사람들을 [ideo_name]에 끌어들일 수 있을 것입니다.</li>
     <li>questDescriptionPartBeforeDiscovery->우선 [relic_name](을)를 찾아야 합니다. 관련 정보를 수집할 기회를 주시하세요.</li>
   </RelicHunt.questDescriptionRules.rulesStrings>
