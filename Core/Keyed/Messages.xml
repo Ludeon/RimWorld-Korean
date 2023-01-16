@@ -241,7 +241,7 @@
   <MessageShipChunkDrop>우주선의 일부가 추락해 근처에 떨어졌습니다. 해체하여 자원을 얻을 수 있습니다.</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>다음 이유로 인해 일부 아이템을 거래할 수 없습니다: </MessageCannotSellItemsReason>
+  <MessageCannotSellItemsReason>다음 이유로 인해 일부 물품을 거래할 수 없습니다: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{WORKER_labelShort}(이)가 {0} 건설 중 실수했습니다. 일부 자원이 낭비되었습니다.</MessageConstructionFailed>
@@ -345,7 +345,7 @@
   <MessageFinishedLoadingTransporterSingle>왕복선 적재 작업이 완료됐습니다. 출발할 준비가 되었습니다.</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>일부 아이템 또는 사용자를 사용할 수 없기 때문에 {1}에서 수송 포드 적재를 완료할 수 없습니다 ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>일부 물품 또는 사람을 사용할 수 없기 때문에 {1}(이)가 수송 포드 적재를 완료할 수 없습니다. ({2_labelShort})</MessageCantLoadMoreIntoTransporters>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>선택한 목적지를 인식할 수 없습니다.</MessageTransportPodsDestinationIsInvalid>
@@ -359,7 +359,7 @@
   <MessageCantBanishLastColonist>마지막 정착민은 추방할 수 없습니다.</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
-  <MessageCantEquipCustom>장착 불가: {0}.</MessageCantEquipCustom>
+  <MessageCantEquipCustom>장착 불가: {0}</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>장착 불가: {1_labelShort}(은)는 폭력적인 일을 할 수 없습니다.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
@@ -432,14 +432,14 @@
   <MessageMechClusterDefeated>메카 전초기지 건물이 파괴되었습니다.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
-  <MessageCompSpawnerSpawnedItem>제작한 물품: {0}.</MessageCompSpawnerSpawnedItem>
+  <MessageCompSpawnerSpawnedItem>제작한 물품: {0}</MessageCompSpawnerSpawnedItem>
 
   <!-- EN: Health condition healed: {0}. -->
-  <MessageHediffCuredByItem>치료된 상태이상: {0}.</MessageHediffCuredByItem>
+  <MessageHediffCuredByItem>치료된 상태이상: {0}</MessageHediffCuredByItem>
   <!-- EN: Body part restored: {0}. -->
-  <MessageBodyPartCuredByItem>치료된 부위: {0}.</MessageBodyPartCuredByItem>
+  <MessageBodyPartCuredByItem>치료된 부위: {0}</MessageBodyPartCuredByItem>
   <!-- EN: Technology given: {0}. -->
-  <MessageResearchProjectFinishedByItem>완료된 연구: {0}.</MessageResearchProjectFinishedByItem>
+  <MessageResearchProjectFinishedByItem>완료된 연구: {0}</MessageResearchProjectFinishedByItem>
 
   <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>{0}(이)가 다시 살아 움직입니다!</MessagePawnResurrected>
@@ -769,7 +769,7 @@
   <TooCloseToOtherSeedPlantCell>{0}(을)를 심을 위치가 너무 가깝습니다.</TooCloseToOtherSeedPlantCell>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
-  <MessageWarningCutImportantPlant>경고: {0}에 제초 명령을 지정했습니다.</MessageWarningCutImportantPlant>
+  <MessageWarningCutImportantPlant>경고: {0}(이)가 제초될 예정입니다.</MessageWarningCutImportantPlant>
 
   <!-- EN: {0_labelShort} is incapable of manipulation. -->
   <MessageIncapableOfManipulation>{0_labelShort}(은)는 조작 능력이 없습니다.</MessageIncapableOfManipulation>

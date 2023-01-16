@@ -151,9 +151,9 @@
   <!-- EN: This happened because of poor mood. -->
   <MentalStateReason_Mood>기분이 좋지 않아서 발생했습니다.</MentalStateReason_Mood>
   <!-- EN: This happened because of the trait: {0}. -->
-  <MentalStateReason_Trait>다음 특성 때문에 발생함: {0}.</MentalStateReason_Trait>
+  <MentalStateReason_Trait>다음 특성 때문에 발생함: {0}</MentalStateReason_Trait>
   <!-- EN: This happened because of: {0}. -->
-  <MentalStateReason_Hediff>다음 문제 때문에 발생함: {0}.</MentalStateReason_Hediff>
+  <MentalStateReason_Hediff>다음 문제 때문에 발생함: {0}</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
   <MentalStateReason_BondedHumanDeath>{0_definite}의 죽음 때문에 발생했습니다.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
@@ -408,7 +408,7 @@
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>상단 전투 승리</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>상단이 전투에서 승리했습니다.\n\n세계지도에서 해당 지역을 선택한 뒤 "상단 재구성"을 할 수 있습니다.\n\n상단 재구성 화면에서 즉시 아이템을 수집할 수 있으므로 직접 수집할 필요는 없습니다.\n\n{0} 후부터 적이 추가 공격을 시작합니다. 이 공격은 상단을 재구성해서 지역을 떠나기 전까지 지속됩니다.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>상단이 전투에서 승리했습니다.\n\n세계지도에서 해당 지역을 선택한 뒤 "상단 재구성"을 할 수 있습니다.\n\n상단 재구성 화면에서 즉시 물품을 수집할 수 있으므로 직접 수집할 필요는 없습니다.\n\n{0} 후부터 적이 추가 공격을 시작합니다. 이 공격은 상단을 재구성해서 지역을 떠나기 전까지 지속됩니다.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
@@ -474,9 +474,9 @@
 
   <!-- Pawns arrive -->
   <!-- EN: People arrived -->
-  <LetterLabelPawnsArrive>이방인 방문</LetterLabelPawnsArrive>
+  <LetterLabelPawnsArrive>사람들이 도착함</LetterLabelPawnsArrive>
   <!-- EN: The following people have arrived:\n\n{0} -->
-  <LetterPawnsArrive>한 무리의 이방인들이 정착지를 방문합니다.\n\n{0}</LetterPawnsArrive>
+  <LetterPawnsArrive>다음 사람들이 도착했습니다.\n\n{0}</LetterPawnsArrive>
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->

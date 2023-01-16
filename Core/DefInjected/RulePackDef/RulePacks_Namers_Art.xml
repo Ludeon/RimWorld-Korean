@@ -67,7 +67,7 @@
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef]의 [PersonalCharacteristic]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] 그리고 [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef]의 [ConceptAny]</li>
-    <li>r_art_name(p=3)->[maybe_a] [Artwork] 그리고 [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[maybe_a][Artwork] 그리고 [ANYPAWN_nameIndef]</li>
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
@@ -105,16 +105,16 @@
   <NamerArtWeapon.rulePack.rulesStrings>
     <li>r_art_name->[ConceptBadass]</li>
     <li>r_art_name->[AnimalBadass]</li>
-    <li>r_art_name->[AdjectiveBadass][AnimalBadass]</li>
-    <li>r_art_name->[ColorBadass][AnimalBadass]</li>
-    <li>r_art_name->[ConceptBadass][ColorBadass]</li>
+    <li>r_art_name->[AdjectiveBadass] [AnimalBadass]</li>
+    <li>r_art_name->[ColorBadass] [AnimalBadass]</li>
+    <li>r_art_name->[ConceptBadass] [ColorBadass]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef]의 [ConceptBadass]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef]의 [AnimalBadass]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef]의 [PersonBadass]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef]의 [PersonAlly]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef]의 [PersonFamily]</li>
     <li>r_art_name(p=3)->[ConceptBadass] 그리고 [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[ColorBadass][ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   
 </LanguageData>

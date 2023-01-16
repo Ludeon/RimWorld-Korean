@@ -171,11 +171,11 @@
   <!-- EN: Fuel -->
   <FuelLevelGizmoLabel>연료</FuelLevelGizmoLabel>
   <!-- EN: Set target fuel level to {0} -->
-  <SetTargetFuelLevel>연료 목표치 {0}(으)로 설정</SetTargetFuelLevel>
+  <SetTargetFuelLevel>연료량 설정: {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>연료 목표치 {0}(으)로 설정\n최대 거리: {1} 타일</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>연료량 설정: {0}\n이동 가능 거리: {1}타일</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
-  <ConfiguredTargetFuelLevel>연료 목표치 {0}</ConfiguredTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>연료량 설정: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
   <Enemies>적들</Enemies>
   <!-- EN: people -->
@@ -541,7 +541,7 @@
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>공격해서 제거하세요.</RemoveByAttackingTooltip>
   <!-- EN: Food -->
-  <ThoughtFoodEatenFood>먹이</ThoughtFoodEatenFood>
+  <ThoughtFoodEatenFood>음식</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>재료</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
@@ -560,6 +560,8 @@
   <Size>크기</Size>
   <!-- EN: cost -->
   <Cost>비용</Cost>
+  <!-- EN: Title -->
+  <BackstoryTitle>TODO</BackstoryTitle><!-- text_todo -->
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1231,7 +1233,7 @@
 
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
-  <CasketContains>동면</CasketContains>
+  <CasketContains>포함</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
   <CasketWarning>경고!\n\n{PAWN_nameDef}(은)는 정착지의 마지막 정착민입니다! {PAWN_nameDef}(이)가 동면관에 들어가면 플레이가 불가능할 수도 있습니다. 정말 계속하시겠습니까?</CasketWarning>
 
@@ -1279,9 +1281,9 @@
 
   <!-- Art -->
   <!-- EN: Title -->
-  <Title>배경</Title>
+  <Title>작명</Title>
   <!-- EN: Untitled -->
-  <Untitled>무제</Untitled>
+  <Untitled>제목 없음</Untitled>
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->

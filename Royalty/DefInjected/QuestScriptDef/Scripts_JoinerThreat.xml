@@ -202,7 +202,7 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction], [joiner_nameFull](이)가 연락해 왔습니다. [joiner_pronoun](은)는 [threat](을)를 피해 근처에 숨어있으며, 곧 은신처를 탈출하여 [map_definite]에 합류하려 합니다.[joiner_relationInfo]\n\n[joiner_objective] 수락하면 [joinersEnemies](이)가 근처에 초소를 세우고 정착지를 위협할 것입니다. [site/allSitePartsDescriptions]\n\n초소는 파괴될 때까지 계속 남아있습니다.</li>
+    <li>questDescription->[introduction], [joiner_nameFull](이)가 연락해 왔습니다. [joiner_pronoun](은)는 [threat](을)를 피해 근처에 숨어있으며, 곧 은신처를 탈출하여 [map_definite]에 합류하려 합니다. [joiner_relationInfo]\n\n[joiner_objective] 수락하면 [joinersEnemies](이)가 근처에 초소를 세우고 정착지를 위협할 것입니다. [site/allSitePartsDescriptions]\n\n초소는 파괴될 때까지 계속 남아있습니다.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]살의 아이</li>
     <li>introduction->[joiner_age]살의 [joiner_title]</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]의 [site/enemyFaction_pawnsPlural]</li>

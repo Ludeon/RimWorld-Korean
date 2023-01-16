@@ -46,9 +46,9 @@
   <CoverAndShooting.helpText>원거리 전투에서는 엄폐물을 활용하는 게 제일 중요합니다.\n\n엄폐물이 정착민의 바로 옆에 있을 때, 그리고 적과 정착민의 사이에 있어야만 엄폐 보너스를 받을 수 있습니다.\n\n정착민이 벽의 모퉁이 뒤에 숨게 할 수도 있으며, 적이 보이면 몸을 살짝 빼서 공격합니다.\n\n대부분의 물건은 엄폐물로 사용할 수 있지만 엄폐 성능에는 종류에 따라 차이가 있습니다. 허허벌판보단 나무 뒤에 숨는 게 좋지만, 나무 뒤보단 모래주머니 뒤에 웅크리는 게 효과적입니다.</CoverAndShooting.helpText>
   
   <!-- EN: Item deterioration -->
-  <Deterioration.label>아이템 손상</Deterioration.label>
+  <Deterioration.label>물품 손상</Deterioration.label>
   <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
-  <Deterioration.helpText>밖에 방치된 아이템은 서서히 손상됩니다.\n\n오래 보관하고 싶다면 지붕이 있는 실내에 두세요.</Deterioration.helpText>
+  <Deterioration.helpText>밖에 방치된 물품은 서서히 손상됩니다.\n\n오래 보관하고 싶다면 지붕이 있는 실내에 두세요.</Deterioration.helpText>
   
   <!-- EN: Equipping weapons -->
   <EquippingWeapons.label>무기 장착</EquippingWeapons.label>
@@ -65,7 +65,7 @@
   <!-- EN: Forbid and allow -->
   <Forbidding.label>상호작용 여부</Forbidding.label>
   <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
-  <Forbidding.helpText>정착민들은 상호작용이 금지된 아이템을 만지지 않습니다.\n\n금지된 아이템은 작은 X 표시가 붙습니다. X 표시된 아이템을 선택한 후 하단 명령 버튼으로 상호작용을 허용하세요.</Forbidding.helpText>
+  <Forbidding.helpText>정착민들은 상호작용이 금지된 물품을 만지지 않습니다.\n\n금지된 물품은 작은 X 표시가 붙습니다. X 표시된 물품을 선택한 후 하단 명령 버튼으로 상호작용을 허용하세요.</Forbidding.helpText>
   
   <!-- EN: Forbidding doors -->
   <ForbiddingDoors.label>문 상호작용</ForbiddingDoors.label>
@@ -110,7 +110,7 @@
   <!-- EN: Info card -->
   <InfoCard.label>상세 정보</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
-  <InfoCard.helpText>상세 정보에서 아이템, 사람, 건물의 자세한 능력치와 통계를 확인할 수 있습니다.\n\n사람이나 아이템을 선택한 후 왼쪽 아래 'i' 버튼을 누르세요.</InfoCard.helpText>
+  <InfoCard.helpText>상세 정보에서 물품, 사람, 건물의 자세한 능력치와 통계를 확인할 수 있습니다.\n\n사람이나 물품을 선택한 후 왼쪽 아래 'i' 버튼을 누르세요.</InfoCard.helpText>
   
   <!-- EN: Manual work priorities -->
   <ManualWorkPriorities.label>작업 우선순위 수동 설정</ManualWorkPriorities.label>
@@ -150,12 +150,12 @@
   <!-- EN: Stockpiles -->
   <Stockpiles.label>저장구역</Stockpiles.label>
   <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
-  <Stockpiles.helpText>정착민들이 아이템을 보관할 공간이 필요합니다. 저장구역을 지정해주세요.\n\n왼쪽 아래 구상-구역에서 저장구역을 찾으세요.</Stockpiles.helpText>
+  <Stockpiles.helpText>정착민들이 물품을 보관할 공간이 필요합니다. 저장구역을 지정해주세요.\n\n왼쪽 아래 구상-구역에서 저장구역을 찾으세요.</Stockpiles.helpText>
   
   <!-- EN: Storage tab -->
   <StorageTab.label>저장 설정</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
-  <StorageTab.helpText>저장구역이나 수납용 건물을 선택한 후 왼쪽 아래 '저장' 버튼을 눌러 상세설정을 할 수 있습니다.\n\n저장 설정에서 카테고리를 펼쳐 특정 아이템의 보관을 허용하거나 금지할 수 있습니다. 각 카테고리 이름 왼쪽의 삼각형을 누르세요.\n\n저장 공간의 우선순위를 바꿀 수도 있습니다. 정착민들은 높은 우선순위의 장소부터 채우며, 낮은 우선순위에서 높은 우선순위의 저장 공간으로 아이템을 옮깁니다.</StorageTab.helpText>
+  <StorageTab.helpText>저장구역이나 수납용 건물을 선택한 후 왼쪽 아래 '저장' 버튼을 눌러 상세설정을 할 수 있습니다.\n\n저장 설정에서 카테고리를 펼쳐 특정 물품의 보관을 허용하거나 금지할 수 있습니다. 각 카테고리 이름 왼쪽의 삼각형을 누르세요.\n\n저장 공간의 우선순위를 바꿀 수도 있습니다. 정착민들은 높은 우선순위의 장소부터 채우며, 낮은 우선순위에서 높은 우선순위의 저장 공간으로 물품을 옮깁니다.</StorageTab.helpText>
   
   <!-- EN: Tile inspector -->
   <TileInspector.label>칸 검사기</TileInspector.label>
