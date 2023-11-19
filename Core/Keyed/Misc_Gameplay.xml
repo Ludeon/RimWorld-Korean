@@ -561,7 +561,9 @@
   <!-- EN: cost -->
   <Cost>비용</Cost>
   <!-- EN: Title -->
-  <BackstoryTitle>TODO</BackstoryTitle><!-- text_todo -->
+  <BackstoryTitle>직함</BackstoryTitle>
+  <!-- EN: person -->
+  <Person>사람</Person>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1252,6 +1254,8 @@
   <ShipReportHibernating>비활성 상태</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>아직 준비되지 않음</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)샬론 화이트스톤(/Name)은 우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 남길 수 있다고 경고합니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다. 여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1281,7 +1285,7 @@
 
   <!-- Art -->
   <!-- EN: Title -->
-  <Title>작명</Title>
+  <Title>제목</Title>
   <!-- EN: Untitled -->
   <Untitled>제목 없음</Untitled>
 
@@ -1499,7 +1503,7 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>하락률: {0}/초 (0까지 {1}초)</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>하락률: {0} / 초 (0까지 {1}초)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>초능력을 시전한 이후 신경열이 증가합니다. 정상적인 한계를 넘어서면 정신이상이 나타날 수 있습니다.\n\n신경열은 시간이 지남에 따라 사라집니다. 이 과정은 엘텍스 의복을 착용하거나 고통을 겪으면서 가속화될 수 있습니다.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
@@ -1809,5 +1813,12 @@
   <CancelPlantThing>{0_label} 재배 취소</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
   <CancelPlantThingDesc>{0_label} 재배를 취소합니다.</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>다른 모임이 진행 중입니다.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>다음 연설 준비</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>시작</AbilitySpeechTargetsLabel>
 
 </LanguageData>

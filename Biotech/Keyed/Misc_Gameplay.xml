@@ -554,7 +554,7 @@
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>성장 배양기에 사람을 넣습니다. 20배 빠른 속도로 성장합니다.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>성장 배양기에 배아를 이식합니다. 배아는 18일 동안 성장하여 아기가 됩니다.</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>배아를 성장 배양기에 수용합니다. {0} 동안 수용한 후에, 완전한 형태의 아기가 건강하게 배양기에서 태어납니다.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>배아 삽입</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
@@ -634,8 +634,6 @@
   <Baby>아기</Baby>
   <!-- EN: babies -->
   <Babies>아기들</Babies>
-  <!-- EN: person -->
-  <Person>사람</Person>
   <!-- EN: feral child -->
   <FeralChild>어린 야인</FeralChild>
   <!-- EN: Wearable by -->
@@ -644,7 +642,7 @@
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>변형이식체 이식물</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>이 집단의 구성원 한 명이 자신의 변형이식체를 선택한 정착민에게 재이식하여 그들처럼 만듭니다. 재이식 후에도 정착민은 당신의 세력 구성원으로 남습니다.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>이 집단의 구성원 한 명이 자신의 변형이식체를, 선택한 정착민에게 재이식하여 그들처럼 만듭니다. 재이식 후에도 정착민은 당신의 세력 구성원으로 남습니다.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->

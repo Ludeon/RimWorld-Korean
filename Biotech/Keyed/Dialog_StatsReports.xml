@@ -11,9 +11,9 @@
   <StatsReport_Unclothed>옷 없음</StatsReport_Unclothed>
 
   <!-- EN: Age rate multiplier -->
-  <StatsReport_AgeRateMultiplier>나이 비율 계수</StatsReport_AgeRateMultiplier><!-- text_todo -->
+  <StatsReport_AgeRateMultiplier>나이 비율 계수</StatsReport_AgeRateMultiplier>
   <!-- EN: A multiplier on how quickly this person ages biologically based on their current age. -->
-  <StatsReport_AgeRateMultiplier_Desc>이 사람이 현재 나이 기준, 생물학적으로 얼마나 빨리 노화되는지에 대한 계수입니다.</StatsReport_AgeRateMultiplier_Desc><!-- text_todo -->
+  <StatsReport_AgeRateMultiplier_Desc>이 사람이 현재 나이 기준, 생물학적으로 얼마나 빨리 노화되는지에 대한 계수입니다.</StatsReport_AgeRateMultiplier_Desc>
 
   <!-- EN: Required weight class -->
   <StatsReport_RechargerWeightClass>요구 크기</StatsReport_RechargerWeightClass>
@@ -38,7 +38,7 @@
   <!-- EN: Growth tier -->
   <StatsReport_GrowthTier>성장 등급</StatsReport_GrowthTier>
   <!-- EN: Children progress through growth tiers over time. The higher the learning need, the faster the progress. When a growth moment comes (at age 7, 10, and 13), the child's growth tier determines how many trait and passion options you can choose from. Growth tier resets after each growth moment. -->
-  <StatsReport_GrowthTierDesc>아이들은 시간이 지남에 따라 성장 등급을 거쳐갑니다. 학습 욕구가 높을 수록 성장 등급 진행 속도도 빨라집니다. 성장의 순간(7세, 10세, 13세)이 왔을 때 아이의 성장 등급이 높으면 선택 가능한 특성과 열정의 종류가 많아집니다. 성장의 순간이 지나면 성장 등급은 다시 초기화됩니다.</StatsReport_GrowthTierDesc>
+  <StatsReport_GrowthTierDesc>아이들은 시간이 지남에 따라 성장 등급을 거쳐 갑니다. 학습 욕구가 높을수록 성장 등급 진행 속도도 빨라집니다. 성장의 순간(7세, 10세, 13세)이 왔을 때 아이의 성장 등급이 높으면 선택 가능한 특성과 열정의 종류가 많아집니다. 성장의 순간이 지나면 성장 등급은 다시 초기화됩니다.</StatsReport_GrowthTierDesc>
 
   <!-- EN: Life stage -->
   <StatsReport_DevelopmentStage>성장 단계</StatsReport_DevelopmentStage>
@@ -90,9 +90,9 @@
   <!-- EN: {0_label} addiction chance factor -->
   <AddictionChanceFactor>{0_label} 중독 확률 계수</AddictionChanceFactor>
   <!-- EN: {0_label} overdose chance factor -->
-  <OverdoseChanceFactor>{0_label} 과다복용 확률 계수</OverdoseChanceFactor><!-- text_todo -->
+  <OverdoseChanceFactor>{0_label} 과다복용 확률 계수</OverdoseChanceFactor>
   <!-- EN: {0_label} tolerance buildup factor -->
-  <ToleranceBuildupFactor>{0_label} 내성 생성 계수</ToleranceBuildupFactor><!-- text_todo -->
+  <ToleranceBuildupFactor>{0_label} 내성 생성 계수</ToleranceBuildupFactor>
   <!-- EN: Immune to {0_label} addiction. -->
   <AddictionImmune>{0_label} 중독에 면역입니다.</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
@@ -132,12 +132,12 @@
   <StatsReport_GrowthVatSpeedFactor>성장 배양기 속도</StatsReport_GrowthVatSpeedFactor>
 
   <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
-  <GeneToleranceBuildupImmune>보유자가 {0_label}에 대한 내성을 생성할 수 없습니다.</GeneToleranceBuildupImmune><!-- text_todo -->
+  <GeneToleranceBuildupImmune>보유자가 {0_label}에 대한 내성을 생성할 수 없습니다.</GeneToleranceBuildupImmune>
   <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
-  <GeneToleranceBuildupFactor>보유자가 {1} {0_label}에 대한 내성을 빠르게 생성합니다.</GeneToleranceBuildupFactor><!-- text_todo -->
+  <GeneToleranceBuildupFactor>보유자가 {1} {0_label}에 대한 내성을 빠르게 생성합니다.</GeneToleranceBuildupFactor>
   <!-- EN: Carriers cannot overdose on {0_label}. -->
-  <GeneOverdoseImmune>보유자는 {0_label}(을)를 과다 복용할 수 없습니다.</GeneOverdoseImmune><!-- text_todo -->
+  <GeneOverdoseImmune>보유자는 {0_label}(을)를 과다 복용할 수 없습니다.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
-  <GeneOverdoseFactor>보유자는 {0_label}(을)를 과다 복용할 가능성이 {1}입니다.</GeneOverdoseFactor><!-- text_todo -->
+  <GeneOverdoseFactor>보유자는 {0_label}(을)를 과다 복용할 가능성이 {1}입니다.</GeneOverdoseFactor>
 
 </LanguageData>

@@ -513,9 +513,9 @@
   <!-- EN: Never safe -->
   <NeverSafe>안전하지 않음</NeverSafe>
   <!-- EN: {0} / day -->
-  <PerDay>{0}/일</PerDay>
+  <PerDay>{0} / 일</PerDay>
   <!-- EN: {0} / hour -->
-  <PerHour>{0}/시간</PerHour>
+  <PerHour>{0} / 시간</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>짐꾼</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -540,8 +540,8 @@
   <NuzzleIntervalExplanation>동물이 우호적인 정착민들에게 얼마나 자주 애교를 부리는지 나타내는 수치입니다.\n\n대부분의 사람들은 동물의 애정어린 행동을 접하면 한동안 기분이 좋아집니다.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>보복 확률</HarmedRevengeChance>
-  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>이 생물이 피해를 입었을 때 반격 할 확률입니다.\n\n이 확률은 최대 3배까지 증가합니다.\n\n이 확률은 피해를 입을 때마다 적용됩니다. 즉 발사 속도가 느리고, 피해량이 높은 무기는 상대적으로 반격할 확률이 적습니다.</HarmedRevengeChanceExplanation>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>이 생물이 피해를 입었을 때 반격할 확률입니다.\n\n이 확률은 공격자가 가까이 있으면 최대 3배까지 증가합니다.\n\n이 확률은 피해를 입을 때마다 적용됩니다. 즉 발사 속도가 느리고, 데미지가 높은 무기는 상대적으로 반격할 확률이 적습니다.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>길들이기 실패시 보복 확률</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -813,7 +813,7 @@
   <!-- EN: Movement speed -->
   <CaravanMovementSpeed>이동 속도</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>타일/일</TilesPerDay>
+  <TilesPerDay>타일 / 일</TilesPerDay>
   <!-- EN: None - too heavy -->
   <TilesPerDayImmobile>없음 - 너무 무거움</TilesPerDayImmobile>
   <!-- EN: None -->
@@ -1190,7 +1190,7 @@
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>기타</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>우선 임신하지 않은 가장 늙은 동물을부터 도축하며, 그 후에는 가장 최근에 임신한 동물부터 도축합니다.</AutoSlaugtherTip>
+  <AutoSlaugtherTip>정착민들은 먼저 임신하지 않은 동물을 나이가 많은 순서대로 도축하고, 그 다음에 임신한 동물을 최근에 임신 횟수가 많은 순서대로 도축합니다.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>수컷 성체</AnimalMaleAdult>
   <!-- EN: Male young -->

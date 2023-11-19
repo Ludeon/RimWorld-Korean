@@ -155,7 +155,7 @@
     <li>lodgersPossessive(lodgerCount>=2)-></li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef](은)는 휴식과 재충전을 위해 [questDurationTicks_duration] 동안 [map_definite]에 머무를 수 있을지 요청했습니다.\n\n[lodgersPronoun](은)는 체류 대가로 보수를 받지 않고도 함께 일하며 싸워줄 것을 약속했습니다.\n\n[joinInfo] 합류하지 않더라도, 받은 도움에 대해 서는 보답할지도 모릅니다. 하지만 [lodgersPronoun]의 진정한 의도를 알 방법은 없습니다.\n\n[travelerInfo](은)는 어떠한 세력에도 소속되어 있지 않습니다. [lodgersPronoun](을)를 체포하거나, 팔거나, 장기를 수확하거나, 죽이더라도 외교적 불이익은 없습니다.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef](은)는 휴식과 재충전을 위해 [questDurationTicks_duration] 동안 [map_definite]에 머무를 것을 요청했습니다.\n\n[lodgersPronoun](은)는 체류 대가로 보수를 받지 않고도 함께 일하며 싸워줄 것을 약속했습니다.\n\n[joinInfo] 합류하지 않더라도, 받은 도움에 대해 서는 보답할지도 모릅니다. 하지만 [lodgersPronoun]의 진정한 의도를 알 방법은 없습니다.\n\n[travelerInfo](은)는 어떠한 세력에도 소속되어 있지 않습니다. [lodgersPronoun](을)를 체포하거나, 팔거나, 장기를 수확하거나, 죽이더라도 외교적 불이익은 없습니다.</li>
     <li>approachInfo(lodgerCount==1)->[asker_nameDef](이)라는 이름의 절박한 [faction_pawnSingular](이)가 접근하고 있습니다.</li>
     <li>approachInfo(lodgerCount==2)->절박한 [asker_nameDef](와)과 [faction_pawnSingular](이)가 접근하고 있습니다.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef](이)가 어린 아이를 데리고 접근하고 있습니다.</li>
@@ -249,6 +249,8 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Betrayal reward retracted</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] has learned that all surviving members of the [faction_name] have joined your faction! [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -263,6 +265,8 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->배신 보상: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef](은)는 [asker_nameDef][otherMembers](을)를 죽이면 보상을 주겠다고 약속했었습니다. [factionOpponent_pronoun](이)가 소식을 들었고, 수송 포드로 다음 물품을 보냈습니다. (총 가치 [betrayalRewardMarketValue_money])\n\n[betrayalRewards]\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->배신 보상 철회</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef](은)는 [faction_name]의 모든 생존 구성원이 당신의 세력에 합류했음을 알게 되었습니다! [factionOpponent_nameDef](은)는 [faction_name]의 모든 구성원이 죽기를 원했기 때문에 배신 제안을 철회했습니다.</li>
     <li>betrayalOfferFailedLetterLabel->배신 보상 철회</li>
     <li>betrayalOfferFailedLetterText->[faction_name]의 구성원 일부가 [map_definite]에서 나갔다는 소식이 [factionOpponent_nameDef](으)로도 전해졌습니다. [factionOpponent_nameDef](은)는 모든 [faction_name] 구성원의 사망을 원했으므로 배신 제안을 철회했습니다.</li>
     <li>otherLodgers(lodgerCount==1)-></li>

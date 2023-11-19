@@ -84,9 +84,9 @@
   <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
   <MeditationFocusGain.description>매일 명상할 때 얻는 초집중 양으로, 집중물체의 이점은 무시됩니다.</MeditationFocusGain.description>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatString>{0}/일</MeditationFocusGain.formatString>
+  <MeditationFocusGain.formatString>{0} / 일</MeditationFocusGain.formatString>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatStringUnfinalized>{0}/일</MeditationFocusGain.formatStringUnfinalized>
+  <MeditationFocusGain.formatStringUnfinalized>{0} / 일</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>정신이상 임계치</MentalBreakThreshold.label>
@@ -103,7 +103,7 @@
   <!-- EN: Speed of movement in cells per second. -->
   <MoveSpeed.description>1초에 몇 칸을 움직일 수 있는지에 대한 값입니다.</MoveSpeed.description>
   <!-- EN: {0} c/s -->
-  <MoveSpeed.formatString>{0}칸/초</MoveSpeed.formatString>
+  <MoveSpeed.formatString>{0}칸 / 초</MoveSpeed.formatString>
   
   <!-- EN: pain shock threshold -->
   <PainShockThreshold.label>고통 한계</PainShockThreshold.label>
@@ -120,12 +120,17 @@
   <!-- EN: The rate at which this person reduces neural heat. -->
   <PsychicEntropyRecoveryRate.description>이 사람의 신경열을 낮추는 속도입니다.</PsychicEntropyRecoveryRate.description>
   <!-- EN: {0}/s -->
-  <PsychicEntropyRecoveryRate.formatString>{0}/초</PsychicEntropyRecoveryRate.formatString>
+  <PsychicEntropyRecoveryRate.formatString>{0} / 초</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>정신 감응력</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>정신적 현상이 대상에게 얼마나 많은 영향을 끼치는지 나타냅니다. 민감할수록 부정적, 긍정적 요인을 모두 크게 받습니다.</PsychicSensitivity.description>
+  
+  <!-- EN: sleep fall rate -->
+  <RestFallRateFactor.label>피로 누적 속도</RestFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
+  <RestFallRateFactor.description>사람의 수면 욕구 충족도가 떨어지는 속도에 대한 계수입니다.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>수면 효율</RestRateMultiplier.label>

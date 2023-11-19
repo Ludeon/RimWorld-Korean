@@ -102,28 +102,6 @@
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
   <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}(이)가 {PAWN_labelShort}의 {CULPRIT} 불법 사용을 감지했습니다. (탐지될 확률 {CHANCE})\n\n{FACTION_name}의 정책에 따르면 {TITLE} 작위를 지닌 인물에게만 {CULPRIT} 사용을 허용합니다.\n\n그 때문에 진영 간 관계도가 {GOODWILL}만큼 하락합니다.</LetterLawViolationDetectedForbiddenThingUse>
 
-  <!-- Throne Speech -->
-  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>{ORGANIZER_labelShort}(이)가 연설을 마쳤습니다.</LetterFinishedSpeech>
-  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>어색한 농담과 우울한 이야기로 가득한 연설이었습니다. 정말 끔찍했습니다.</LetterTerribleSpeech>
-  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>열정이 부족하고 독창적이지도 않은 연설이었습니다.</LetterUninspiringSpeech>
-  <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>격려와 위로가 담긴 따뜻한 연설이었습니다.</LetterEncouragingSpeech>
-  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>목적성을 자극하는 강렬한 연설이었습니다. 놀라운 영감이 주어집니다.</LetterInspirationalSpeech>
-  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>연설에 감동받아 영감을 받은 사람들:</LetterSpeechInspiredListeners>
-  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>{SPEAKER_nameIndef}의 놀라운 연설은 {PAWN_nameIndef}의 영감을 자극했습니다!</LetterSpeechInspiration>
-  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>연설이 {0}에서 중단되어 별 효과를 내지 못했습니다.</LetterSpeechInterrupted>
-  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{0}의 연설이 준비한 것의 반도 넘기지 못하고 취소되었습니다. 아무 효과도 없었습니다.</LetterSpeechCancelled>
-  <!-- EN: Speech cancelled -->
-  <LetterLabelSpeechCancelled>연설 취소됨</LetterLabelSpeechCancelled>
-
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
   <WildDecree>무모한 법령</WildDecree>

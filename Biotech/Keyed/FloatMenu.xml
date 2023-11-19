@@ -130,7 +130,11 @@
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
   <BreastfeedFailReason_NoMomsAssignedToBaby>수유 중인 {BABY_factionPawnsPlural}(이)가 {BABY_labelShort}에 할당되지 않았습니다.</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
-  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort}(은)는 보육에 할당되지 않았습니다.</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort}(은)는 육아에 할당되지 않았습니다.</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort}(은)는 수용되어 있음</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort}(은)는 이송되고 있음</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>{PAWN_nameDef}에 이식 명령</OrderImplantationIntoPawn>
@@ -159,5 +163,8 @@
 
   <!-- EN: Resulting metabolism would be too low -->
   <ResultingMetTooLow>결과의 대사 효율이 너무 낮음</ResultingMetTooLow>
+
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>너무 최근에 로맨스를 시도함</RomanceOnCooldown>
 
 </LanguageData>
