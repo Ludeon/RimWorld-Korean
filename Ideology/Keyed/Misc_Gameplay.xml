@@ -456,7 +456,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>{PLANT_definite}(을)를 인공 구조물 옆에 심으면 교감 수준이 빠르게 떨어집니다. 교감 수준은 {PLANT_definite}(이)가 수용할 수 있는 나무지기의 최대 수를 결정합니다.\n\n정말 여기에 심으시겠습니까?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>{TREE_definite}의 계급을 바꾸는 데에는 시간과 에너지가 필요합니다.\n\n상호작용이 끝나면, 모든 나무지기는 {DURATION}일간 고치 속에 들어가 선택된 계급으로 변이합니다.\n\n이미 변이 중인 고치 또한 선택된 계급으로 변이하기 위해 과정을 처음부터 다시 시작합니다.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>{TREE_definite}의 계급을 바꾸는 데에는 시간과 에너지가 필요합니다.\n\n상호작용이 끝나면 모든 나무지기는 {DURATION}일간 고치에 들어가 선택한 계급으로 변이합니다.\n\n이미 변이 중인 고치 또한 선택한 계급으로 변이하기 위해, 과정을 처음부터 다시 시작합니다.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>{TREE_definite}(이)가 생성한 나무지기의 유형을 바꿉니다.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -480,7 +480,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>희망</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}(이)가 이 교감 수준 유지에 충분할 때까지 {TREE_definite}(을)를 다듬을 것입니다.\n\n높은 교감 수준에서는 더 많은 나무지기를 수용할 수 있지만 그만큼 더 자주 다듬어줘야 합니다.\n\n교감 수준 게이지를 클릭해서 희망 강도를 설정할 수 있습니다.\n\n일간 교감 수준 감소량: {FALL}\n\n교감 수준은 주변 건물의 영향을 받습니다.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}(이)가 설정된 교감 수준이 충분히 유지될 때까지 {TREE_definite}(을)를 다듬을 것입니다.\n\n높은 교감 수준에서는 더 많은 나무지기를 수용할 수 있지만 그만큼 더 자주 다듬어줘야 합니다.\n\n막대기를 클릭해서 원하는 교감 수준을 설정할 수 있습니다.\n\n일간 교감 수준 감소량: {FALL}\n\n교감 수준은 주변 건물에 영향을 받습니다.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>{CONNECTEDPAWN_nameDef}(이)가 나무지기 계급을 바꾸길 기다리는 중</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -556,7 +556,7 @@
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>초월 연결체가 움직이기 시작합니다. 온 세상이 밝은 빛으로 가득 차고, 시간이 느려지는 듯 합니다...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>기계 신이 당신의 존재를 알아차렸습니다. 이제 아무도 무슨 일이 일어날지 예상할 수 없습니다. 기계 신은 당신을 파괴할 수도, 당신과 직접 소통할 수도, 당신의 의식을 현실의 다른 차원으로 옮길 수도 있습니다.\n\n당신의 머릿속에 무한한 기하학적 인공 구조가 흘러 들어오는 것이 느껴집니다. 시간과 공간의 개념이 점차 사라집니다. 두렵지만, 아름답습니다...</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>기계 신이 당신의 존재를 알아차렸습니다. 이제 아무도 무슨 일이 일어날지 예상할 수 없습니다. 기계 신은 당신을 파괴할 수도, 당신과 직접 소통할 수도, 당신의 의식을 현실의 다른 차원으로 옮길 수도 있습니다.\n\n당신의 머릿속에 무한한 기하학적 인공 구조가 흘러 들어오는 것이 느껴집니다. 시간과 공간의 개념이 점차 사라집니다. 두렵지만 아름답습니다...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>초월한 정착민\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
@@ -624,7 +624,7 @@
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} 열량</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
-  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}(이)가 전력 부족으로 인해 생체 조율을 완전히 마치지 못하고 나왔습니다.</BiosculpterNoPowerEjectedMessage>
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}(이)가 전력 부족으로 생체 조율을 완전히 마치지 못하고 나왔습니다.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}(이)가 신체 치유 절차를 마쳤습니다.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->

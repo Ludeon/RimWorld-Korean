@@ -25,21 +25,21 @@
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->[introduction], [joiner_nameFull](이)가 도움을 요청하고 있습니다! [joiner_pronoun]는 [hidingFrom](으)로부터 숨어 있습니다. [joiner_pronoun]는 도망쳐서 [map_definite]에 합류를 원합니다.[joiner_relationInfo]\n\n[condDesc]\n\n지금 상황이 절망적이라, [joiner_nameDef](은)는 자신에 대한 정보를 더 제공하기 힘들다고 말합니다.</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->굶주린 늑대무리</li>
-    <li>condDesc(gameCondition==ToxicFallout)->그러나 [joiner_nameDef](은)는 근처의 거대한 독성 화학 폐기물에 불을 질러야만 늑대를 죽일 수 있으며, [gameConditionDuration_duration] 동안 유독성 낙진이 발생됩니다.</li>
+    <li>condDesc(gameCondition==ToxicFallout)->그러나 [joiner_nameDef](은)는 근처의 거대한 독성 화학 폐기물에 불을 질러야만 늑대 무리를 죽일 수 있으며, 이 경우 [gameConditionDuration_duration] 동안 유독성 낙진이 발생합니다.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->식인 동물무리</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->그러나 [joiner_nameDef](은)는 근처의 거대한 쓰레기장에 불을 질러야만 무리들을 죽일 수 있습니다. [joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 자욱한 먼지로 태양을 가리게 됩니다.</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->그러나 [joiner_nameDef](은)는 근처의 거대한 쓰레기장에 불을 질러야만 무리를 죽일 수 있습니다. 때문에 [joiner_pronoun]가 오게 된다면 [gameConditionDuration_duration] 동안 자욱한 먼지가 태양을 가리게 됩니다.</li>
     <li>hidingFrom(gameCondition==EMIField)->메카노이드 무리</li>
-    <li>condDesc(gameCondition==EMIField)->그러나 [joiner_nameDef](은)는 고대 EMI 발전기를 활성해야만 메카노이드를 파괴할 수 있습니다. [joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 EMI 필드가 생성되어, 전기 장치들이 꺼지게 됩니다.</li>
-    <li>hidingFrom(gameCondition==HeatWave)->오작동된 기후관제위성</li>
-    <li>condDesc(gameCondition==HeatWave)->[joiner_pronoun]가 오게 된다면, 위성이 재설정될 때까지 [gameConditionDuration_duration] 동안 강력한 폭염이 쏟아집니다.</li>
-    <li>hidingFrom(gameCondition==ColdSnap)->오작동된 기후관제위성</li>
-    <li>condDesc(gameCondition==ColdSnap)->[joiner_pronoun]가 오게 된다면, 위성이 재설정될 때까지 [gameConditionDuration_duration] 동안 강력한 한파가 몰아칩니다.</li>
-    <li>hidingFrom(gameCondition==WeatherController)->오작동된 기상관제위성</li>
-    <li>condDesc(gameCondition==WeatherController)->[joiner_pronoun]가 오게 된다면, 위성이 재설정될 때까지 [gameConditionDuration_duration] 동안 [forcedWeather_label](이)가 발생됩니다.</li>
-    <li>hidingFrom(gameCondition==PsychicDrone)->최근에 [joiner_pronoun]를 불쾌하게 만든 인격체</li>
-    <li>condDesc(gameCondition==PsychicDrone)->[joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 [psychicDroneGender]에게 맞춰진 [psychicDroneLevel] 수준의 정신파동을 일으켜, [map_definite]에 있는 모든 [psychicDroneGender]들의 기분이 나빠집니다.</li>
+    <li>condDesc(gameCondition==EMIField)->그러나 [joiner_nameDef](은)는 고대 EMI 발전기를 작동시켜야만 메카노이드를 파괴할 수 있습니다. [joiner_pronoun]가 오게 된다면 [gameConditionDuration_duration] 동안 EMI 필드가 생성되어 전기 장치들이 꺼지게 됩니다.</li>
+    <li>hidingFrom(gameCondition==HeatWave)->오작동된 기후 관제위성</li>
+    <li>condDesc(gameCondition==HeatWave)->[joiner_pronoun]가 오게 된다면 위성이 재설정될 때까지 [gameConditionDuration_duration] 동안 강력한 폭염이 쏟아집니다.</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->오작동된 기후 관제위성</li>
+    <li>condDesc(gameCondition==ColdSnap)->[joiner_pronoun]가 오게 된다면 위성이 재설정될 때까지 [gameConditionDuration_duration] 동안 강력한 한파가 몰아칩니다.</li>
+    <li>hidingFrom(gameCondition==WeatherController)->오작동된 기상 관제위성</li>
+    <li>condDesc(gameCondition==WeatherController)->[joiner_pronoun]가 오게 된다면 위성이 재설정될 때까지 [gameConditionDuration_duration] 동안 [forcedWeather_label](이)가 발생합니다.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->최근에 자신의 행동 때문에 기분이 상해 화가 난 인격체</li>
+    <li>condDesc(gameCondition==PsychicDrone)->[joiner_pronoun]가 오게 된다면 인격체가 [gameConditionDuration_duration] 동안 [psychicDroneGender]에게 맞춰진 [psychicDroneLevel] 수준의 정신파동을 일으켜, [map_definite]에 있는 모든 [psychicDroneGender]들의 기분이 나빠집니다.</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->최근에 깨어나 움직이는 기계</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->[joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 [psychicSuppressorGender]에게 맞춰진 정신파동을 일으켜, [map_definite]에 있는 모든 [psychicSuppressorGender]의 의식이 감소하게 됩니다.</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->[joiner_pronoun]가 오게 된다면 기계가 [gameConditionDuration_duration] 동안 [psychicSuppressorGender]에게 맞춰진 정신파동을 방출해, [map_definite]에 있는 모든 [psychicSuppressorGender]의 의식이 감소하게 됩니다.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]살의 아이</li>
     <li>introduction->[joiner_age]살의 [joiner_title]</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>

@@ -173,7 +173,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>연료량 설정: {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>연료량 설정: {0}\n이동 가능 거리: {1}타일</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>연료량 설정: {0}\n이동 가능 거리: {1}칸</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>연료량 설정: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -229,9 +229,9 @@
   <!-- EN: Waiting. -->
   <CaravanWaiting>대기 중</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>질병으로 인해 운반 중</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>질병 때문에 운반 중</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
-  <UsingBedrollsDueToIllness>질병으로 인해 침낭 사용 중</UsingBedrollsDueToIllness>
+  <UsingBedrollsDueToIllness>질병 때문에 침낭 사용 중</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
   <CurrentTileMovementTime>현재 이동 시간</CurrentTileMovementTime>
   <!-- EN: Visibility -->
@@ -403,7 +403,7 @@
   <!-- EN: Follow master while doing field work -->
   <CreatureFollowFieldwork>야외 작업 시 주인 따라가기</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
-  <ProximitySingleGoodwillChange>{0}(와)과 {1}</ProximitySingleGoodwillChange>
+  <ProximitySingleGoodwillChange>{1}(와)과 {0}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
   <EnterCooldown>{0} 후에 재진입 가능합니다.</EnterCooldown>
   <!-- EN: Caravan -->
@@ -983,7 +983,7 @@
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>전원이 연결되지 않음</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>송전/저장 용량: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>전력망 여유 용량/저장 용량: {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>필요 전력량</PowerNeeded>
   <!-- EN: Power output -->
@@ -1089,7 +1089,7 @@
   <!-- EN: Blighted -->
   <Blighted>감염됨</Blighted>
   <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>빛으로 인해 죽어가는 중</DyingBecauseExposedToLight>
+  <DyingBecauseExposedToLight>빛 때문에 죽어가는 중</DyingBecauseExposedToLight>
   <!-- EN: Cut now -->
   <AutoCutNow>지금 제초</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1267,13 +1267,13 @@
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>신경교육혈청 ({0})</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>신경교육 혈청 ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>신경교육혈청을 사용해 {0} 습득</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>신경교육 혈청을 사용해 {0} 습득</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>특정한 기술을 훈련시키는 고농도의 일회용 기계입자 혈청입니다.\n\n안와를 통해 뇌에 투여하면 기계입자가 스스로 신경 조직을 구성해 대상자의 특정 기술을 향상합니다.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort}(이)가 신경교육혈청을 사용해 {1} 기술이 {2}에서 {3}등급으로 향상됐습니다.</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}(이)가 신경교육 혈청을 사용해 {1} 기술이 {2}에서 {3}등급으로 향상됐습니다.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1325,11 +1325,11 @@
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>모든 정착민이 죽거나 떠났습니다. 여정은 끝났습니다.\n\n어쩌면 이곳을 지나던 다른 이들이 당신이 남긴 폐허를 활용할 수 있을지도 모릅니다.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>행성 파괴자가 아광속으로 지면에 충돌하면서 수천억개의 수소폭탄을 합친 것보다 더 강력한 폭발을 일으킵니다. 소총에 맞은 풍선처럼, 세계의 녹아내린 땅이 우주로 퍼져나갑니다.\n\n{0}의 일부는 작은 소행성대가 되었고, 나머지는 방사능에 뒤덮인 채 수 킬로미터씩 들썩이는 지옥으로 변했습니다.\n\n당신은 살아남지 못했습니다.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>행성 파괴자가 아광속으로 지면에 충돌하면서 수천억 개의 수소폭탄을 합친 것보다 더 강력한 폭발을 일으킵니다. 소총에 맞은 물풍선처럼, 세계의 녹아내린 땅이 우주로 퍼져 나갑니다.\n\n{0}의 일부는 작은 소행성대가 되었고, 나머지는 방사능에 뒤덮인 채 수 킬로미터씩 들썩이는 지옥으로 변했습니다.\n\n당신은 살아남지 못했습니다.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
   <GameOverShipLaunchedIntro>우주선이 출발했습니다!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>이제 인공지능은 가장 안전한 방향으로 우주선을 이끌 겁니다. 운이 좋다면 그저 같은 태양계 안에 있는 좀 더 번영한 행성에 도착하는 것으로 짧은 여행을 끝마칠 겁니다. 어쩌면 다른 별을 향해 수 세기 동안 항해할 수도 있습니다. 최악의 경우 엄청난 세월이 흐르는 동안 그저 소행성의 얼음층 아래 숨어 근처에 새로운 문명이 건설되기를 기다릴지도 모릅니다.\n\n깨어나면 알 수 있겠지요.</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>이제 인공지능은 가장 안전한 방향으로 우주선을 이끌 겁니다. 운이 좋다면 그저 같은 태양계 안에 있는 좀 더 번영한 행성에 도착하는 것으로 짧은 여행을 끝마칠 겁니다. 어쩌면 다른 별을 향해 수 세기 동안 항해할 수도 있습니다. 최악의 경우 엄청난 세월이 흐르는 동안 그저 소행성의 얼음층 아래에 숨어 근처에 새로운 문명이 건설되기를 기다릴지도 모릅니다.\n\n깨어나면 알 수 있겠지요.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
   <GameOverColonistsEscaped>탈출한 정착민\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
@@ -1401,7 +1401,7 @@
   <!-- EN: Due for maintenance. -->
   <DueForMaintenance>점검 예정</DueForMaintenance>
   <!-- EN: Deteriorating due to lack of maintenance. -->
-  <DeterioratingDueToLackOfMaintenance>점검 부족으로 인해 망가지는 중</DeterioratingDueToLackOfMaintenance>
+  <DeterioratingDueToLackOfMaintenance>점검 부족으로 망가지는 중</DeterioratingDueToLackOfMaintenance>
 
   <!-- Deep drill -->
   <!-- EN: Progress to next lump -->

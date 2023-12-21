@@ -11,7 +11,7 @@
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
   <MechControllerImprisoned>{PAWN_labelShort}(은)는 수감자입니다.</MechControllerImprisoned>
   <!-- EN: {PAWN_labelShort} is inside {CONTAINER} -->
-  <MechControllerInsideContainer>{PAWN_labelShort}(은)는 {CONTAINER}안에 있음</MechControllerInsideContainer>
+  <MechControllerInsideContainer>{PAWN_labelShort}(은)는 {CONTAINER} 안에 있음</MechControllerInsideContainer>
   <!-- EN: {PAWN_labelShort} has insufficient bandwidth -->
   <MechControllerInsufficientBandwidth>{PAWN_labelShort}의 대역폭이 충분하지 않습니다.</MechControllerInsufficientBandwidth>
   <!-- EN: {PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state. -->
@@ -19,7 +19,7 @@
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>정말로 {0}(을)를 영구적으로 분해 하시겠습니까?\n\n영구적으로 분해하면 얻을 수 있는 자원: {0}</ConfirmDisassemblingMech>
   <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>메카노이드를 생산하려면 메카나이터가 제련 작업을 수행할 수 있어야합니다.\n\n정말 계속하시겠습니까?</ConfirmInstallMechlink>
+  <ConfirmInstallMechlink>메카노이드를 생산하려면 메카나이터가 제작 작업을 수행할 수 있어야 합니다.\n\n정말 계속하시겠습니까?</ConfirmInstallMechlink>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>대역폭 부족</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -93,7 +93,7 @@
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
   <LockNameOff>인종형 이름 고정이 꺼져있습니다. 유전자 묶음이 바뀌면 이름을 재생성합니다.</LockNameOff>
   <!-- EN: Creating xenogerm -->
-  <CreatingXenogerm>변형이식체 생성중</CreatingXenogerm>
+  <CreatingXenogerm>변형이식체 생성 중</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
   <GenepackUnusableGenebankUnpowered>이 유전자묶음은 전원이 공급되지 않은 유전자저장고에 들어있습니다. 이 유전자묶음을 선택하면 변형이식체를 생성할때 유전자저장고에 전력이 보급될때까지 생산이 정지됩니다.</GenepackUnusableGenebankUnpowered>
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
@@ -107,7 +107,7 @@
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
   <AssemblingRequiresResearch>초월인자 유전자가 포함된 변형이식체를 조합하려면 {0_label}(을)를 연구해야 합니다.</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
-  <ConfirmStartNewXenogerm>현재 {XENOGERMNAME}(을)를 조합중입니다. 새로운 변형이식체를 조합하면 현재 진행중인 작업을 취소합니다.\n\n계속 하시겠습니까?</ConfirmStartNewXenogerm>
+  <ConfirmStartNewXenogerm>현재 {XENOGERMNAME}(을)를 조합 중입니다. 새로운 변형이식체를 조합하면 현재 진행 중인 작업을 취소합니다.\n\n계속하시겠습니까?</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
   <SelectAGeneToRandomizeName>이 인종형의 이름을 무작위로 바꾸려면 선택하십시오.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
@@ -197,13 +197,13 @@
 
   <!-- Xenogerm editor -->
   <!-- EN: Load template -->
-  <LoadXenogermTemplate>템플릿 불러오기</LoadXenogermTemplate>
+  <LoadXenogermTemplate>구성 불러오기</LoadXenogermTemplate>
   <!-- EN: Save template -->
-  <SaveXenogermTemplate>템플릿 저장</SaveXenogermTemplate>
+  <SaveXenogermTemplate>구성 저장</SaveXenogermTemplate>
   <!-- EN: Cannot save a template with no {0}. -->
-  <CannotSaveXenogermTemplate>{0} 없이 템플릿을 저장할 수 없습니다.</CannotSaveXenogermTemplate>
+  <CannotSaveXenogermTemplate>{0} 없이 구성을 저장할 수 없습니다.</CannotSaveXenogermTemplate>
   <!-- EN: {NAME} template saved -->
-  <XenogermTemplateSaved>{NAME} 설정 저장됨</XenogermTemplateSaved>
+  <XenogermTemplateSaved>{NAME} 구성 저장됨</XenogermTemplateSaved>
   <!-- EN: Missing {COUNT} genepacks for {NAME} template. -->
   <MissingGenepacksForXenogerm>{NAME} 견본에 대한 유전자 묶음 {COUNT}개가 누락되었습니다.</MissingGenepacksForXenogerm>
   <!-- EN: Missing genepack for {NAME} template -->
@@ -245,7 +245,7 @@
   <!-- EN: Any mech -->
   <AnyMech>모든 메카노이드</AnyMech>
   <!-- EN: Any human -->
-  <AnyNonMech>모든 사람</AnyNonMech>
+  <AnyNonMech>모든 인종</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
   <CaravanLacksMechMechanitorWarning>상단에 메카노이드들이 추가되었지만 이들의 통제관이 추가되지 않았습니다. 목적지 도달 시 메카노이드 조종에 제한을 받습니다.</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
@@ -265,7 +265,7 @@
 
   <!-- Pollution -->
   <!-- EN: This tile is near polluted tiles, so there will be an acidic smog here roughly every {0} days. Acidic smog slows plant growth, deteriorates exposed items, and makes people unhappy. -->
-  <ConfirmSettleNearPollution>이 칸에서는 주위의 오염으로 인해 약 {0}일에 한 번씩 산성 안개가 발생합니다. 산성 안개는 식물의 성장을 저해하고 노출된 물품을 손상시키며 사람들의 기분이 나빠집니다.</ConfirmSettleNearPollution>
+  <ConfirmSettleNearPollution>해당 칸에서는 주위의 오염 때문에 약 {0}일에 한 번씩 산성 안개가 발생합니다. 산성 안개는 식물의 성장을 저해하고 노출된 물품을 손상시키며 사람들의 기분이 나빠집니다.</ConfirmSettleNearPollution>
 
   <!-- Pregnancy -->
   <!-- EN: {PAWN_nameDef} is away. -->
@@ -300,33 +300,33 @@
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
-  <PigFactionGreetingHostile>{0}(은)는 꿰엑 거리며 욕을 퍼붙고는 통신을 종료했습니다.</PigFactionGreetingHostile>
+  <PigFactionGreetingHostile>{0}(은)는 꿰엑거리며 욕을 퍼붓고는 통신을 종료했습니다.</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
-  <PigFactionGreetingHostileAppreciative>{0}(은)는 화난듯이 꿀꿀거리며 {0_possessive} 정착지중 하나에 선물을 가져오거나 {0_possessive} 세력의 수감자를 무사히 석방하는 등의 호의를 보이라고 합니다. 그전까진 {0_pronoun}는 대화하지 않겠다고 합니다.\n\n{0_pronoun}가 킁킁 거리며 욕을 한 뒤 통신을 종료합니다</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingHostileAppreciative>{0}(은)는 화난 듯이 꿀꿀거리며 {0_possessive} 정착지 중 하나에 선물을 가져오거나 {0_possessive} 세력의 수감자를 무사히 석방하는 등의 호의를 보이라고 합니다. 그전까지는 {0_pronoun}는 대화하지 않겠다고 합니다.\n\n{0_pronoun}가 킁킁거리며 욕을 한 뒤 통신을 종료합니다.</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
-  <PigFactionGreetingWary>{0}(은)는 꿀꿀 거리며 인사를 하고 어떻게 도울 수 있는지 묻습니다.</PigFactionGreetingWary>
+  <PigFactionGreetingWary>{0}(은)는 꿀꿀거리며 인사를 하고 어떻게 도울 수 있는지 묻습니다.</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
-  <PigFactionGreetingWarm>{0}(은)는 열성적으로 꿀꿀거리며 {NEGOTIATOR_labelShort}에게 인사합니다. {LEADER_pronoun}(이)가 어떻게 도움이 될수 있는지 물어봅니다.</PigFactionGreetingWarm>
+  <PigFactionGreetingWarm>{0}(은)는 열성적으로 꿀꿀거리며 {NEGOTIATOR_labelShort}에게 인사합니다. {LEADER_pronoun}(이)가 어떻게 도움이 될 수 있는지 물어봅니다.</PigFactionGreetingWarm>
   <!-- EN: {0} agrees to send pigskin fighters to help you. -->
   <PigMilitaryAidSent>{0}(은)는 당신에게 피그스킨 투사들을 지원하기로 했습니다.</PigMilitaryAidSent>
 
   <!-- EN: {0} roars into the microphone and disconnects. -->
-  <YttakinFactionGreetingHostile>{0}(이)가 송신기에 대고 소리를 지르곤 통신을 종료합니다.</YttakinFactionGreetingHostile>
+  <YttakinFactionGreetingHostile>{0}(이)가 송신기에 대고 소리를 지르고는 통신을 종료합니다.</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>{0}의 대표자는 으르렁거리면서 당신이 먼저 자신들의 거주지 중 한 곳에 선물을 가져오거나 수감자를 석방하여 호의를 보여줄 것을 원합니다. 그러기 전에는 대화하려 하지 않을 것입니다.\n\n{0_pronoun}는 모욕적인 말을 투덜대며 통신을 종료합니다.</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>{0} 대표는 으르렁거리면서 당신이 먼저 자신들의 정착지 중 한 곳에 선물을 가져오거나 수감자를 석방하여 호의를 보여줄 것을 원합니다. 그러기 전에는 대화하려 하지 않을 것입니다.\n\n{0_pronoun}는 모욕적인 말을 투덜대며 통신을 종료합니다.</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
-  <YttakinFactionGreetingWary>{0}(은)는 {NEGOTIATOR_labelShort}에게 으르렁 하고 인사를 하며 통신의 목적을 묻습니다.</YttakinFactionGreetingWary>
+  <YttakinFactionGreetingWary>{0}(은)는 {NEGOTIATOR_labelShort}에게 으르렁거리며 인사를 하고 통신의 목적을 묻습니다.</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
-  <YttakinFactionGreetingWarm>{0}(은)는 친근한 인사를 포효하고 {LEADER_pronoun}(이)가 어떻게 도울 수 있는지를 묻습니다.</YttakinFactionGreetingWarm>
+  <YttakinFactionGreetingWarm>{0}(은)는 으르렁거리며 친근하게 인사를 건네고, {LEADER_pronoun}(이)가 어떻게 도울 수 있는지를 묻습니다.</YttakinFactionGreetingWarm>
 
   <!-- EN: {0} grunts angrily and disconnects. -->
-  <NeanderthalFactionGreetingHostile>{0}(은)는 화난채로 투덜대며 통신을 종료합니다.</NeanderthalFactionGreetingHostile>
+  <NeanderthalFactionGreetingHostile>{0}(은)는 화난 채로 투덜대며 통신을 종료합니다.</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
-  <NeanderthalFactionGreetingHostileAppreciative>{0}(은)는 공격적으로 투덜거립니다. 먼저 호의를 배풀기 전까지는 {0_pronoun}는 당신과 할말이 없다고 합니다. {0_possessive} 정착지중 하나에 선물을 보내거나 {0_possessive} 죄수를 무사히 석방 하는등의  행동으로 세력과의 우호도를 쌓을  수 있습니다.\n\n{0_pronoun}는 통신을 확 끊습니다.</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingHostileAppreciative>{0}(은)는 신경질적으로 투덜거립니다. 먼저 호의를 베풀기 전까지 {0_pronoun}는 당신과 할 말이 없다고 합니다. {0_possessive} 정착지 중 하나에 선물을 보내거나 {0_possessive} 세력 죄수를 무사히 석방하는 등의 행동으로 세력과의 우호도를 쌓을 수 있습니다.\n\n{0_pronoun}는 통신을 확 끊습니다.</NeanderthalFactionGreetingHostileAppreciative>
   <!-- EN: {0} grunts a greeting. -->
-  <NeanderthalFactionGreetingWary>{0}(은)는 인사를 투덜거립니다.</NeanderthalFactionGreetingWary>
+  <NeanderthalFactionGreetingWary>{0}(은)는 툴툴거리며 인사합니다.</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
-  <NeanderthalFactionGreetingWarm>{0}(은)는 {NEGOTIATOR_labelShort}에게 따듯한 인사를 툴툴 댑니다.</NeanderthalFactionGreetingWarm>
+  <NeanderthalFactionGreetingWarm>{0}(은)는 {NEGOTIATOR_labelShort}에게 툴툴거리면서도 따뜻한 인사를 건넵니다.</NeanderthalFactionGreetingWarm>
 
   <!-- EN: Max tier -->
   <MaxTier>최대 단계</MaxTier>
@@ -339,9 +339,9 @@
   <!-- EN: Next growth tier -->
   <NextGrowthTier>다음 성장단계</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>{1} 중에서 {0} 개의 열정을 선택하세요.</NumPassionsFromOptions>
+  <NumPassionsFromOptions>{1}개 항목 중에서 {0}개의 열정을 선택합니다.</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
-  <NumTraitsFromOptions>{1} 중에서 {0}개의 특성을 선택하세요.</NumTraitsFromOptions>
+  <NumTraitsFromOptions>{1}개 항목 중에서 {0}개의 특성을 선택합니다.</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
   <NextGrowthMomentAt>다음 성장단계 나이</NextGrowthMomentAt>
 
@@ -354,7 +354,7 @@
   <WarningPawnWillDieFromBloodfeeding>{PAWN_nameDef}(을)를 흡혈하면 {PAWN_objective} 죽일 수 있습니다.\n\n계속하시겠습니까?</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
-  <AbilityMustHaveTendableWound>{0_labelShort}(은)는 치료할 수 있는 부상이 있어야합니다.</AbilityMustHaveTendableWound>
+  <AbilityMustHaveTendableWound>{0_labelShort}(은)는 치료할 수 있는 부상이 있어야 합니다.</AbilityMustHaveTendableWound>
 
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->

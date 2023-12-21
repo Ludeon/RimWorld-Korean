@@ -182,7 +182,7 @@
   <!-- EN: Chosen name is invalid. -->
   <NameInvalid>유효하지 않은 이름입니다.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>이 정착민의 별명은 이제 {0}입니다. {PAWN_possessive} 작명은 {PAWN_title}입니다.</PawnGainsName>
+  <PawnGainsName>이 정착민의 별명은 이제 {0}입니다. {PAWN_possessive} 직함은 {PAWN_title}입니다.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>이 동물의 이름은 이제 {0}입니다.</AnimalGainsName>
   <!-- EN: rename person -->
@@ -248,7 +248,7 @@
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>경고: 얼어붙은 환경에 착륙하게 될 것이며 생존하기 매우 힘들 수 있습니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 계절을 선택하세요.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>이 게임은 기본적으로 중간 규모의 지도에서 플레이하도록 설계되었습니다!\n\n지나치게 큰 맵은 성능을 저하시킬 뿐 아니라 게임의 균형에 전체적으로 좋지 않은 영향을 줍니다. 특별한 이유 없이는 사용을 권장하지 않습니다.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>이 게임은 기본적으로 중형 지도에서 하도록 설계되었습니다. 해당 크기는 충분한 공간을 제공합니다!\n\n대형 지도는 성능을 저하할 뿐만 아니라 실제로 게임의 경험이 손상됩니다. AI는 바보 같은 결정을 내리게 되고, 게임의 균형은 다양한 방식으로 나쁜 영향을 받게 됩니다.\n\n관례상 그리고 실험 목적으로 대형 지도가 포함되어 있으므로 특별한 이유 없이는 사용을 권장하지 않습니다.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>지도 크기</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -294,7 +294,7 @@
   <!-- EN: incompatible -->
   <IncompatibleLower>호환 되지 않음</IncompatibleLower>
   <!-- EN: Any worker -->
-  <AnyWorker>모든 정착민</AnyWorker>
+  <AnyWorker>모든 작업자</AnyWorker>
   <!-- EN: Unlimited -->
   <Unlimited>제한 없음</Unlimited>
   
@@ -413,7 +413,7 @@
   <!-- EN: Fertility sensitivity -->
   <FertilitySensitivity>토질 민감도</FertilitySensitivity>
   <!-- EN: Light requirement -->
-  <LightRequirement>조명 요구량</LightRequirement>
+  <LightRequirement>빛 요구량</LightRequirement>
   <!-- EN: Attributes -->
   <Attributes>속성</Attributes>
   <!-- EN: Lifespan -->
@@ -497,7 +497,7 @@
   <!-- EN: Addiction severity per dose -->
   <AddictionSeverityPerDose>복용당 중독 심각도</AddictionSeverityPerDose>
   <!-- EN: Addiction need fill per dose -->
-  <AddictionNeedOffset>복용당 중독필요량</AddictionNeedOffset>
+  <AddictionNeedOffset>복용당 중독 필요량</AddictionNeedOffset>
   <!-- EN: Addiction need fall rate -->
   <AddictionNeedFallRate>중독필요 하락률</AddictionNeedFallRate>
   <!-- EN: Addiction need dose interval -->
@@ -541,7 +541,7 @@
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>보복 확률</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>이 생물이 피해를 입었을 때 반격할 확률입니다.\n\n이 확률은 공격자가 가까이 있으면 최대 3배까지 증가합니다.\n\n이 확률은 피해를 입을 때마다 적용됩니다. 즉 발사 속도가 느리고, 데미지가 높은 무기는 상대적으로 반격할 확률이 적습니다.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>이 생물이 피해를 입었을 때 반격할 확률입니다.\n\n이 확률은 공격자가 가까이 있으면 최대 3배까지 증가합니다.\n\n이 확률은 피해를 입을 때마다 적용됩니다. 즉 발사 속도가 느리고 피해량이 높은 무기는 상대적으로 반격할 확률이 적습니다.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>길들이기 실패시 보복 확률</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -729,9 +729,9 @@
   <!-- EN: The caravan can't carry that much. -->
   <TooBigCaravanMassUsage>상단이 그렇게 많은 양을 운반할 수 없습니다.</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
-  <CaravanMassUsageTooltip>할당된 상단의 물품 및 정착민들의 현재 장비들을 포함합니다. 최대 적재량보다 적으면 속도 보너스가 붙습니다.</CaravanMassUsageTooltip>
+  <CaravanMassUsageTooltip>상단의 물품과 정착민들의 현재 장비들을 포함합니다. 최대 적재량보다 적으면 이동속도가 추가로 증가합니다.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>식별률은 얼마나 쉽게 상단을 알아챌지 보여줍니다.\n\n상단이 적들에게 습격될 확률을 증가시킵니다.\n\n원하는 것을 찾는 능력에는 영향이 없습니다.\n\n식별률 상단의 모든 사람과 동물의 전체 신체 크기에 좌우됩니다.</CaravanVisibilityTip>
+  <CaravanVisibilityTip>식별률은 상단이 얼마나 눈에 잘 띄는지를 보여줍니다.\n\n상단이 적들에게 습격 될 확률을 증가시킵니다.\n\n원하는 것을 찾는 능력에는 영향이 없습니다.\n\n식별률은 상단의 모든 사람과 동물의 전체 신체 크기에 좌우됩니다.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>식량 소진까지</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
@@ -739,17 +739,17 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>식량 떨어질 일 없음</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>적어도 한 사람이나 동물이 음식을 소진하기까지 걸리는 대략적인 시간으로 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주릴 수 있습니다. 이 값은 경로를 선택한 뒤에 더 정확하게 계산됩니다.\n\n영향받는 대상:\n  - 운반되는 음식 종류와 양\n  - 상단 구성원과 식성\n  - 식량 채집비율\n  - 동물의 방목 가능성\n  - 음식 부패시간\n  - 날씨가 더울수록 빨리 상함</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>적어도 한 사람이나 동물이 음식을 모두 소진하기까지 걸리는 대략적인 시간으로, 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주리게 됩니다. 종마다 식단이 다르므로 일부 종이 먼저 음식이 부족할 수 있습니다. 이 값은 경로를 선택한 뒤에 더 정확하게 계산됩니다.\n\n영향받는 대상:\n  - 운반되는 음식 종류와 양\n  - 상단 구성원과 식성\n  - 식량 채집비율\n  - 동물의 방목 가능성\n  - 음식 부패시간\n  - 날씨가 더울수록 빨리 상함</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(첫번째 경유지만 고려됨)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>상단에 {0}일치의 식량밖에 없어서 금방 굶주릴 것입니다.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
-  <DaysWorthOfFoodDietWarningDialog>상단에 적재할 음식의 대부분이 몇몇 구성원의 식성과 맞지 않습니다. 굶주림으로 인해 어쩔 수 없이 먹게 되면 기분이 나빠집니다.</DaysWorthOfFoodDietWarningDialog>
+  <DaysWorthOfFoodDietWarningDialog>상단에 적재할 음식의 대부분이 몇몇 구성원의 식성과 맞지 않습니다. 굶주림으로 어쩔 수 없이 먹게 되면 기분이 나빠집니다.</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>상단에 식량이 없어서 금방 굶주릴 것입니다.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>사람들이 채집할 하루 평균 식량입니다. 이 값은 다른 지형을 가로질러 이동함에 따라 변경될 수 있습니다.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>사람들이 채집하는 하루 평균 식량입니다. 이 값은 다른 지형을 가로질러 이동함에 따라 변경될 수 있습니다.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>일일 채집량</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
@@ -813,7 +813,7 @@
   <!-- EN: Movement speed -->
   <CaravanMovementSpeed>이동 속도</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>타일 / 일</TilesPerDay>
+  <TilesPerDay>칸 / 일</TilesPerDay>
   <!-- EN: None - too heavy -->
   <TilesPerDayImmobile>없음 - 너무 무거움</TilesPerDayImmobile>
   <!-- EN: None -->
@@ -1061,7 +1061,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
-  <ConfirmSettleNearFactionBase>이 위치는 다른 세력 거주지의 {0} 타일 내에 있기 때문에 자신의 땅을 침범하고 있다고 느끼며, 이 세력과 {1}일마다 관계도가 감소됩니다.</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>이 위치는 다른 세력 거주지의 {0}칸 이내에 있기 때문에, 해당 세력은 자신의 땅을 침범한다고 느끼며 {1}일마다 관계도가 감소합니다.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1071,7 +1071,7 @@
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>빈 타일로 보내도 상단은 움직이지 않습니다. 그래도 계속하시겠습니까?</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>빈 칸으로 보내도 상단은 움직이지 않습니다. 그래도 계속하시겠습니까?</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
@@ -1155,7 +1155,7 @@
   <!-- EN: {0_labelShort} is asleep. -->
   <AbilityCantApplyAsleep>{0_labelShort}(은)는 잠든 상태입니다.</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
-  <AbilityWorldTileImpassable>이 타일은 통과할 수 없습니다.</AbilityWorldTileImpassable>
+  <AbilityWorldTileImpassable>이 칸은 통과할 수 없습니다.</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
   <AbilitySkipToRandomAlly>무작위 아군에게 도약</AbilitySkipToRandomAlly>
   <!-- EN: Skip to join caravan -->
@@ -1244,7 +1244,7 @@
   <!-- EN: no beds allowed -->
   <RoomRequirementNoBeds>침대 없음</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>방 면적: {0} 타일</RoomRequirementArea>
+  <RoomRequirementArea>방 면적: {0} 칸</RoomRequirementArea>
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>방 인상</RoomRequirementImpressiveness>
   <!-- EN: all floored -->

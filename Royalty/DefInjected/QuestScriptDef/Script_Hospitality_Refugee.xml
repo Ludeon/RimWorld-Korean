@@ -155,7 +155,7 @@
     <li>lodgersPossessive(lodgerCount>=2)-></li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef](은)는 휴식과 재충전을 위해 [questDurationTicks_duration] 동안 [map_definite]에 머무를 것을 요청했습니다.\n\n[lodgersPronoun](은)는 체류 대가로 보수를 받지 않고도 함께 일하며 싸워줄 것을 약속했습니다.\n\n[joinInfo] 합류하지 않더라도, 받은 도움에 대해 서는 보답할지도 모릅니다. 하지만 [lodgersPronoun]의 진정한 의도를 알 방법은 없습니다.\n\n[travelerInfo](은)는 어떠한 세력에도 소속되어 있지 않습니다. [lodgersPronoun](을)를 체포하거나, 팔거나, 장기를 수확하거나, 죽이더라도 외교적 불이익은 없습니다.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef](은)는 휴식과 재충전을 위해 [questDurationTicks_duration] 동안 [map_definite]에 머무를 것을 요청했습니다.\n\n[lodgersPronoun](은)는 체류 대가로 보수를 받지 않고도 함께 일하며 싸워줄 것을 약속했습니다.\n\n[joinInfo] 합류하지 않더라도 받은 도움에 대해서는 보답할지도 모릅니다. 하지만 [lodgersPronoun]의 진정한 의도를 알 방법은 없습니다.\n\n[travelerInfo](은)는 어떠한 세력에도 소속되어 있지 않습니다. [lodgersPronoun](을)를 체포 및 팔거나, 장기를 수확 또는 죽이더라도 외교적 불이익은 없습니다.</li>
     <li>approachInfo(lodgerCount==1)->[asker_nameDef](이)라는 이름의 절박한 [faction_pawnSingular](이)가 접근하고 있습니다.</li>
     <li>approachInfo(lodgerCount==2)->절박한 [asker_nameDef](와)과 [faction_pawnSingular](이)가 접근하고 있습니다.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef](이)가 어린 아이를 데리고 접근하고 있습니다.</li>

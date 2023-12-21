@@ -37,7 +37,7 @@
     <li>r_logentry(p=0.3)->[INITIATOR_definite](이)가 [skillAdvMaybe] [RECIPIENT_definite](을)를 [damaged_present]. 그러나 [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite](이)가 [skillDescMelee] [RECIPIENT_definite]의 [recipient_part0_label](을)를 [damaged_present]. 그러나 [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [implement](으)로 [damaged_inf]버리려 시도했으나 [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite](이)가 [skillAdvMaybe] [implement](으)로 [RECIPIENT_definite](을)를 [damaged_inf] 버리려고 했지만 [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite](이)가 [skillAdvMaybe] [implement](으)로 [RECIPIENT_definite](을)를 [damaged_inf]버리려고 했지만 [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>atMaybe-></li>
@@ -73,7 +73,7 @@
   -->
   <Combat_Dodge.rulePack.rulesStrings>
     <li>r_logentry(p=0.5)->[RECIPIENT_definite](이)가 [INITIATOR_definite]의 [implement](을)를 [skillAdvMaybe] 피함.</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [damaged_inf] 버리려고 했지만 [skillAdvMaybe] 피함.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [damaged_inf]버리려고 했지만 [skillAdvMaybe] 피함.</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>result->그러나 [RECIPIENT_definite](은)는 옆으로 피해버림</li>
@@ -110,7 +110,7 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [skillDescMelee] [RECIPIENT_definite]의 [recipient_part0_label](을)를 [damaged_present].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [skillDescMelee] [RECIPIENT_definite]의 [recipient_part0_label](을)를 [strikeAdv] [damaged_present].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_present].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_suffix] [destroyed_past].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_suffix] [destroyed_present].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_present].</li>
     <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [damaged_present].</li>
     <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [skillAdv] [damaged_present].</li>

@@ -185,7 +185,7 @@
     <li>memeLeaderNoun->예언자</li>
     <li>memeLeaderAdjective->눈먼</li>
     <li>memeMoralist->보는 자</li>
-    <li>memeMoralist->가우거</li>
+    <li>memeMoralist->홀로 선 자</li>
     <li>memeMoralist->눈 가리는 자</li>
   </Blindsight.generalRules.rulesStrings>
   
@@ -261,15 +261,15 @@
     <li>memeConcept->피</li>
     <li>memeConcept->육체</li>
     <li>memeConcept->살인자</li>
-    <li>memeConcept->먹는것</li>
+    <li>memeConcept->먹는 것</li>
     <li>memeConcept->고기</li>
-    <li>memeLeaderNoun->먹는자</li>
+    <li>memeLeaderNoun->먹는 자</li>
     <li>memeLeaderNoun->추장</li>
-    <li>memeLeaderNoun->피를 마시는자</li>
+    <li>memeLeaderNoun->피를 마시는 자</li>
     <li>memeLeaderNoun->이빨</li>
     <li>memeLeaderNoun->신선한 육체</li>
-    <li>memeMoralist->처음을 먹는자</li>
-    <li>memeMoralist->신선함을 아는자</li>
+    <li>memeMoralist->처음을 먹는 자</li>
+    <li>memeMoralist->신선함을 아는 자</li>
   </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
   <Cannibal.symbolPacks.0.adjective>식인주의적</Cannibal.symbolPacks.0.adjective>
@@ -357,12 +357,12 @@
     <li>memeConcept->어둠</li>
     <li>memeConcept->어두움</li>
     <li>memeConcept->검은색</li>
-    <li>memeLeaderNoun->슈라우더</li>
-    <li>memeLeaderNoun->빛을 죽이는자</li>
+    <li>memeLeaderNoun->가리는 자</li>
+    <li>memeLeaderNoun->빛을 죽이는 자</li>
     <li>memeLeaderAdjective->어두운</li>
-    <li>memeMoralist->방해하는자</li>
+    <li>memeMoralist->방해자</li>
     <li>memeMoralist->어두운 자</li>
-    <li>memeMoralist->혼란을 주는자</li>
+    <li>memeMoralist->혼란을 주는 자</li>
   </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
@@ -529,8 +529,8 @@
     <li>memeLeaderNoun->칠러</li>
     <li>memeMoralist->철학자</li>
     <li>memeMoralist->추상가</li>
-    <li>memeMoralist->웃는자</li>
-    <li>memeMoralist->킥킥거리는자</li>
+    <li>memeMoralist->웃는 자</li>
+    <li>memeMoralist->킥킥거리는 자</li>
   </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
   <HighLife.symbolPacks.0.adjective>쾌락주의적</HighLife.symbolPacks.0.adjective>
@@ -624,10 +624,10 @@
     <li>memeHyphenPrefix->피부</li>
     <li>memeConcept->나체</li>
     <li>memeConcept->피부</li>
-    <li>memeLeaderNoun->스윙거</li>
-    <li>memeLeaderNoun->숨쉬는자</li>
-    <li>memeLeaderNoun->만지는자</li>
-    <li>memeLeaderNoun->느끼는자</li>
+    <li>memeLeaderNoun->자유로운 자</li>
+    <li>memeLeaderNoun->숨쉬는 자</li>
+    <li>memeLeaderNoun->만지는 자</li>
+    <li>memeLeaderNoun->느끼는 자</li>
   </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
   <Nudism.symbolPacks.0.adjective>나체주의적</Nudism.symbolPacks.0.adjective>
@@ -833,8 +833,8 @@
     <li>memeAdjective->참된</li>
     <li>memeHyphenPrefix->진실의</li>
     <li>memeConcept->진실</li>
-    <li>memeLeaderNoun->말하는자</li>
-    <li>memeMoralist->개종시키는자</li>
+    <li>memeLeaderNoun->말하는 자</li>
+    <li>memeMoralist->개종시키는 자</li>
     <li>memeMoralist->변환자</li>
   </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
@@ -930,9 +930,9 @@
     <li>memeConcept->도둑질</li>
     <li>memeConcept->해적</li>
     <li>memeConcept->돌격</li>
-    <li>memeLeaderNoun->보스</li>
-    <li>memeLeaderNoun->캡틴</li>
-    <li>memeLeaderNoun->혼초</li>
+    <li>memeLeaderNoun->두목</li>
+    <li>memeLeaderNoun->지휘관</li>
+    <li>memeLeaderNoun->대표자</li>
     <li>memeLeaderNoun->오버시어</li>
     <li>memeLeaderNoun->중요인물</li>
     <li>memeLeaderNoun->약탈자</li>
@@ -1018,8 +1018,8 @@
     <li>ranchingAnimal->[Animal]</li>
     <li>rancherParent1->목자</li>
     <li>rancherParent1->수의사</li>
-    <li>rancherParent1->치즈 메이커</li>
-    <li>rancherParent2->카우핸드</li>
+    <li>rancherParent1->치즈 생산자</li>
+    <li>rancherParent2->목장 고용인</li>
     <li>rancherParent2->낙농업의 여왕</li>
     <li>rancherParent2->도살자</li>
   </Rancher.descriptionMaker.rules.rulesStrings>
@@ -1036,16 +1036,16 @@
     <li>memeLeaderNoun->sheepdog</li>
   -->
   <Rancher.generalRules.rulesStrings>
-    <li>memeAdjective->목장주인</li>
+    <li>memeAdjective->목장 주인</li>
     <li>memeAdjective->시골뜨기</li>
     <li>memeAdjective->국가의</li>
     <li>memeHyphenPrefix->농장</li>
     <li>memeConcept->목장</li>
-    <li>memeLeaderNoun->목장주인</li>
+    <li>memeLeaderNoun->목장 주인</li>
     <li>memeLeaderNoun->조련사</li>
     <li>memeLeaderNoun->카우보이</li>
     <li>memeLeaderNoun->목자</li>
-    <li>memeLeaderNoun->양치기개</li>
+    <li>memeLeaderNoun->양치기 개</li>
   </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
   <Rancher.symbolPacks.0.adjective>축산주의적</Rancher.symbolPacks.0.adjective>
@@ -1297,13 +1297,13 @@
     <li>memeHyphenPrefix->나무</li>
     <li>memeHyphenPrefix->수목</li>
     <li>memeHyphenPrefix->작은 가지</li>
-    <li>memeLeaderNoun->나무수호자</li>
+    <li>memeLeaderNoun->나무 수호자</li>
     <li>memeLeaderNoun->수목 재배자</li>
-    <li>memeLeaderNoun->네오드루이드</li>
+    <li>memeLeaderNoun->네오 드루이드</li>
     <li>memeLeaderAdjective->녹색의</li>
     <li>memeLeaderAdjective->뿌리의</li>
     <li>memeLeaderAdjective->천개의</li>
-    <li>memeMoralist->나무예언자</li>
+    <li>memeMoralist->나무 예언자</li>
   </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
@@ -1379,7 +1379,7 @@
   <Tunneler.generalRules.rulesStrings>
     <li>memeCreed->동굴</li>
     <li>memeCreed->벙커</li>
-    <li>memeCreed->샤프트</li>
+    <li>memeCreed->갱도</li>
     <li>memeAdjective->깊은</li>
     <li>memeHyphenPrefix->돌</li>
     <li>memeHyphenPrefix->동굴</li>

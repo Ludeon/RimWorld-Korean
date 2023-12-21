@@ -20,7 +20,7 @@
   <!-- EN: An unusual cold snap is freezing the region. -->
   <ColdSnap.description>비정상적인 한파가 이 지역을 얼려버리고 있습니다.</ColdSnap.description>
   <!-- EN: a front of cold air will cool the area around [map_definite] for [gameConditionDuration_duration], harming crops and any person or animal without adequate protection -->
-  <ColdSnap.descriptionFuture>차가운 한파가 [gameConditionDuration_duration] 동안 [map_definite] 주변 기온을 낮추고, 보호받지 못한 농작물과 사람, 동물에 피해를 줍니다</ColdSnap.descriptionFuture>
+  <ColdSnap.descriptionFuture>차가운 한파가 [gameConditionDuration_duration] 동안 [map_definite] 주변 기온을 낮추고, 보호받지 못한 농작물과 사람 및 동물에게 피해를 줍니다</ColdSnap.descriptionFuture>
   <!-- EN: The cold snap is over. -->
   <ColdSnap.endMessage>한파가 끝났습니다.</ColdSnap.endMessage>
   <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
@@ -29,7 +29,7 @@
   <!-- EN: eclipse -->
   <Eclipse.label>일식</Eclipse.label>
   <!-- EN: An eclipse is shadowing the surface. It will be dark, even during the daytime. -->
-  <Eclipse.description>일식으로 인해 행성 표면이 어두워졌습니다. 오전에도 어둠이 계속됩니다.</Eclipse.description>
+  <Eclipse.description>일식으로 행성 표면이 어두워졌습니다. 오전에도 어둠이 계속됩니다.</Eclipse.description>
   <!-- EN: The eclipse is ending. -->
   <Eclipse.endMessage>일식이 끝났습니다.</Eclipse.endMessage>
   <!-- EN: One of the moons of this planet has orbited in front of the sun. An eclipse has begun. -->
@@ -83,7 +83,7 @@
   <!-- EN: solar flare -->
   <SolarFlare.label>흑점 폭발</SolarFlare.label>
   <!-- EN: A solar flare is blasting the planet. The electromagnetic interference will prevent most electrical devices from working. -->
-  <SolarFlare.description>흑점 폭발로 발생한 강력한 전자기파가 행성을 강타합니다. 대부분의 전자기기가 간섭으로 인해 작동하지 않습니다.</SolarFlare.description>
+  <SolarFlare.description>흑점 폭발로 발생한 강력한 전자기파가 행성을 강타합니다. 대부분의 전자기기가 간섭 때문에 작동하지 않습니다.</SolarFlare.description>
   <!-- EN: The solar flare is ending. -->
   <SolarFlare.endMessage>흑점 폭발이 끝났습니다.</SolarFlare.endMessage>
   <!-- EN: A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day. -->
@@ -98,7 +98,7 @@
   <!-- EN: The worst of the toxic fallout has settled. -->
   <ToxicFallout.endMessage>대부분의 유독성 낙진이 가라앉았습니다.</ToxicFallout.endMessage>
   <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a quadrum. -->
-  <ToxicFallout.letterText>멀리서 발생한 유독성 낙진이 날아와 이 지역 전체에 독이 깃들었습니다.\n\n지붕 아래에 있지 않는 생물은 공기에 떠다니는 유독성 낙진으로 인해 서서히 중독됩니다.\n\n짧으면 며칠에서 길면 한 분기까지 지속됩니다.</ToxicFallout.letterText>
+  <ToxicFallout.letterText>멀리서 발생한 유독성 낙진이 날아와 이 지역 전체를 뒤덮었습니다.\n\n지붕 아래에 있지 않은 생물은 공기에 떠다니는 유독성 낙진 때문에 서서히 중독됩니다.\n\n짧으면 며칠에서 길면 한 분기까지 지속됩니다.</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>화산 겨울</VolcanicWinter.label>

@@ -180,7 +180,7 @@
     <li>woundname(p=0.3)->찢어지고 할퀸 상처</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에 [woundname](을)를 남김</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 [woundname](을)를 남김</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->너저분하게</li>
     <li>destroyed_suffix->갈기갈기</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->너저분하게</li>
@@ -300,7 +300,7 @@
     <li>woundname(p=0.3)->찢어지고 할퀸 상처</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에 [woundname](을)를 남김</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 [woundname](을)를 남김</li>
     <li>destroyed_past->반으로 잘림</li>
     <li>destroyed_past->갈라짐</li>
     <li>destroyed_past->반으로 갈라짐</li>
@@ -435,9 +435,9 @@
     <li>woundname->구멍</li>
     <li>woundname->자상</li>
     <li>woundname->틈</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에 피나는 [woundname](을)를 남김</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 피나는 [woundname](을)를 남김</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 몸체에 뚫린 [woundname](이)가 남음</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에 피 흐르는 [woundname](이)가 남음</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 피 흐르는 [woundname](이)가 남음</li>
     <li>destroyed_past->꿰뚫림</li>
     <li>destroyed_past->분해됨</li>
     <li>destroyed_past->꽂힘</li>

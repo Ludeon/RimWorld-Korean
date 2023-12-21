@@ -68,7 +68,7 @@
     <li>beggingForInfo->[requestedThing_label] [requestedThingCount]개</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->그들을</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo](은)는 다른 세력 소속이 아닙니다. 아무런 외교적 문제 없이 [traverObjective] 죽이거나, 수감하거나, 노예로 팔거나, 장기를 수확할 수 있습니다</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo](은)는 다른 세력 소속이 아닙니다. 아무런 외교적 문제 없이 [traverObjective] 죽이거나 수감 또는 노예로 판매, 혹은 장기를 수확할 수도 있습니다.</li>
     <li>approachInfo(beggarCount==1)->가난한 [groupLabelSingle] [beggars0_nameDef](이)가 도움을 요청하기 위해 접근하고 있습니다</li>
     <li>approachInfo(beggarCount>=2)->가난한 [groupLabelPlural]이 도움을 요청합니다</li>
     <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->아이가 포함된 가난한 [groupLabelPlural]이 도움을 요청합니다</li>
@@ -83,12 +83,12 @@
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef](은)는 병약한 친구가 치명적인 질병에 걸리는걸 예방하기 위해 [requestedThing_label](이)가 필요하다고 합니다</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef](은)는 끔찍한 사고로 동지를 잃은 슬픔을 잊고자 합니다</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef](은)는 병을 앓고있는 삼촌의 고통을 덜기위해 [requestedThing_label](이)가 필요하다고 합니다 </li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->그들은 납치된 친구의 몸값을 내기위해 금이 필요하다고 합니다</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->그들은 납치된 친구의 몸값을 내기 위해 은이 필요하다고 합니다</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->그들은 메카노이드의 습격을 받은 동지의 목숨을 살리기 위한 수술에 약품이 필요하다고 합니다</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->그들은 병에 앓아 누운 친구를 위해 치료제의 재료인 약품이 필요하다고 합니다</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->그들은 약탈자들에 의해 황폐해진 근처의 정착지에서 친구들을 도울 약이 필요합니다</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->그들은 약탈자들 때문에 황폐해진 근처의 정착지에서 친구들을 도울 약이 필요합니다</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->그들은 건강하게 새로운 정착지를 찾을 수 있도록 [requestedThing_label](을)를 원합니다</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->그들은 끔찍한 습격으로 인해 삶의 터전을 잃은 슬픔을 잊기위해 [requestedThing_label](을)를 원합니다</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->그들은 끔찍한 습격으로 삶의 터전을 잃은 슬픔을 잊기위해 [requestedThing_label](을)를 원합니다</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->그들은 친구를 노예상으로 부터 구출하기 위한 계획에 [requestedThing_label](을)를 쓰고 싶어 합니다</li>
     <li>interactionInfo(beggarCount==1)->물품을 주려면 정착민을 선택한 뒤 [beggars0_nameDef](을)를 우클릭 하세요</li>
     <li>interactionInfo(beggarCount>=2)->물품을 주려면 정착민을 선택한 뒤 [beggars0_nameDef](을)를 우클릭 하세요</li>

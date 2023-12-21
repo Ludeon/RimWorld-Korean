@@ -58,7 +58,7 @@
   <MessageBillComplete>계획 완료: {0}</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
-  <MessageFullyHealed>{1_label}(이)가 완치 되었습니다.</MessageFullyHealed>
+  <MessageFullyHealed>{1_label}(이)가 완치되었습니다.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
   <MessagePrisonerIsEscaping>수감자 {1_labelShort}(이)가 도망치고 있습니다.</MessagePrisonerIsEscaping>
@@ -171,7 +171,7 @@
   <!-- EN: {PAWN_nameDef} is pregnant! -->
   <MessageAnimalIsPregnant>{PAWN_nameDef}(이)가 임신했습니다!</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0}(이)가 굶주림으로 인해 유산했습니다.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>{0}(이)가 굶주림으로 유산했습니다.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
   <MessageMiscarriedPoorHealth>{0}(이)가 건강의 문제로 인해 유산했습니다.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
@@ -187,7 +187,7 @@
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}(이)가 정상적인 신경열 한도를 초과했습니다.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>아무도 {ANIMAL_kindBase}(을)를 길들일 수 없습니다. ({2} 기술 {1}등급필요, 최고 조련사 {HANDLER_labelShort}(은)는 {4}등급).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>아무도 {ANIMAL_kindBase}(을)를 길들일 수 없습니다. ({2} 기술 {1}등급 필요, 최고 조련사 {HANDLER_labelShort}(은)는 {4}등급).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort}(이)가 {PREDATOR}에게 잡아먹혔습니다.</MessageEatenByPredator>
@@ -228,11 +228,11 @@
   <MessageNewBondRelationNewName>{HUMAN_labelShort}(와)과 {1}(은)는 이제 각별한 사이입니다. {ANIMAL_nameFull}(이)라는 이름을 붙여주었습니다.</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalMentalBreak>{ANIMAL}의 죽음으로 인해 {HUMAN_labelShort}의 마음이 무너져 내렸습니다.</MessageBondedAnimalMentalBreak>
+  <MessageBondedAnimalMentalBreak>{ANIMAL}의 죽음 때문에 {HUMAN_labelShort}의 마음이 무너져 내렸습니다.</MessageBondedAnimalMentalBreak>
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageNamedBondedAnimalMentalBreak>{HUMAN_labelShort}의 죽음으로 인해 {ANIMAL_kindIndef}({ANIMAL_label})의 마음이 무너져 내렸습니다.</MessageNamedBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>{HUMAN_labelShort}의 죽음 때문에 {ANIMAL_kindIndef}({ANIMAL_label})의 마음이 무너져 내렸습니다.</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalsMentalBreak>{HUMAN_labelShort}의 죽음으로 인해 {0}마리 동물들의 마음이 무너져 내렸습니다.</MessageBondedAnimalsMentalBreak>
+  <MessageBondedAnimalsMentalBreak>{HUMAN_labelShort}의 죽음 때문에 {0}마리 동물들의 마음이 무너져 내렸습니다.</MessageBondedAnimalsMentalBreak>
   
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {HEDIFF}(을)를 성공적으로 제거했습니다.</MessageSuccessfullyRemovedHediff>
@@ -543,7 +543,7 @@
   <GoodwillChangeReason_CommanderLost>지휘관 실종</GoodwillChangeReason_CommanderLost>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
-  <MessageGiftGivenButNotAppreciated>{0} 세력은 선물을 받았지만 좋아하진 않았습니다.</MessageGiftGivenButNotAppreciated>
+  <MessageGiftGivenButNotAppreciated>{0} 세력은 선물을 받았지만 좋아하지는 않았습니다.</MessageGiftGivenButNotAppreciated>
 
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
   <MessageCantGiveGiftBecauseCantCarryEncumbered>상단이 이미 너무 무거운 짐을 들고 있어서 다른 것을 운반할 수 없습니다.</MessageCantGiveGiftBecauseCantCarryEncumbered>
@@ -585,7 +585,7 @@
   <MessageEnterCooldownBlocksEntering>{0} 후에 재진입 가능합니다.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
-  <MessagePermitCooldownFinished>{0_labelShort}(은)는 이제 "{1}"을 자유롭게 사용할 수 있습니다.</MessagePermitCooldownFinished>
+  <MessagePermitCooldownFinished>{0_labelShort}(은)는 이제 "{1}"(을)를 자유롭게 사용할 수 있습니다.</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
   <MessagePredatorHuntingPlayerAnimal>{PREDATOR}(은)는 먹이를 위해 {PREY_definite} ({PREY_kindBase})(을)를 사냥하고 있습니다!</MessagePredatorHuntingPlayerAnimal>
@@ -593,7 +593,7 @@
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>{WARDEN_labelShort}(이)가 수감자 {PRISONER_labelShort}의 저항심을 없앴습니다.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
-  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>포섭이 시작됩니다.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>포섭을 시작합니다.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
   <MessageModWithPackageIdAlreadyEnabled>패키지 ID가 {0}인 다른 모드가 이미 활성화되어 있습니다. 활성화하기 전에 {1}(을)를 비활성화하십시오.</MessageModWithPackageIdAlreadyEnabled>
@@ -787,6 +787,6 @@
   <!-- EN: Storage settings copied to clipboard. -->
   <StorageSettingsCopiedToClipboard>보관 설정을 클립보드로 복사했습니다.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
-  <StorageSettingsPastedFromClipboard>보관 설정을 클립보드에서 복사했습니다.</StorageSettingsPastedFromClipboard>
+  <StorageSettingsPastedFromClipboard>보관 설정을 클립보드에서 붙여 넣었습니다.</StorageSettingsPastedFromClipboard>
 
 </LanguageData>

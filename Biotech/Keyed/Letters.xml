@@ -9,10 +9,10 @@
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>메크링크 설치됨</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort}(이)가 메크링크를 설치했습니다! {PAWN_pronoun}는 이제 메카나이터가 됐으며 메카노이드를 생산하고 제어할 수 있습니다.\n\n기본 메카노이드 기술을 연구해서 시작하세요.\n\n(*SectionTitle)메카노이드 생산:(/SectionTitle) 메카나이터는 메카노이드 배양기라고 불리는 생산 건물에서 메카노이드를 만들 수 있습니다.\n\n(*SectionTitle)대역폭에 대해:(/SectionTitle) 메카나이터가 제어할 수 있는 최대 메카노이드 수는 자신의 제어 대역폭이 결정합니다. {PAWN_labelShort}(을)를 선택 후 화면 아래 '대역폭'에서 사용 가능한 대역폭을 확인할 수 있습니다. 특정 의류를 입거나 대역 증폭기를 건설해서 대역폭을 확장할 수 있습니다.\n\n(*SectionTitle)제어 그룹에 대해:(/SectionTitle) 메카나이터는 메카노이드를 그룹 단위로 제어합니다. 각각의 제어 그룹은 다음 모드 중 하나로 설정할 수 있습니다.\n\n- 작업\n- 호위\n- 충전\n- 자가충전 휴면상태\n\n각 모드의 자세한 행동은 {PAWN_labelShort}의 제어 그룹 위쪽 모드 아이콘을 클릭한 후 선택지 위에 커서를 올려두면 알 수 있습니다. 최대 제어 그룹 수는 특정 의류와 이식물로 높일 수 있습니다.\n\n(*SectionTitle)위협 호출에 대해:(/SectionTitle) 메카나이터는 고대의 메카노이드 지휘관을 호출 후 공격해서 희귀한 물품을 획득할 수 있습니다. 메카나이터의 한계를 뛰어넘으려면 반드시 필요하지만, 위험에 대비하세요.</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort}(이)가 메크링크를 설치했습니다! {PAWN_pronoun}는 이제 메카나이터가 됐으며 메카노이드를 생산하고 제어할 수 있습니다.\n\n기본 메카노이드 기술을 연구해서 시작하세요.\n\n(*SectionTitle)메카노이드 생산:(/SectionTitle) 메카나이터는 메카노이드 배양기라고 불리는 생산 건물에서 메카노이드를 만들 수 있습니다.\n\n(*SectionTitle)대역폭에 대해:(/SectionTitle) 메카나이터가 제어할 수 있는 최대 메카노이드 수는 자신의 제어 대역폭이 결정합니다. {PAWN_labelShort}(을)를 선택 후 화면 아래 '대역폭'에서 사용 가능한 대역폭을 확인할 수 있습니다. 특정 의류를 입거나 대역 증폭기를 건설해서 대역폭을 확장할 수 있습니다.\n\n(*SectionTitle)제어 그룹에 대해:(/SectionTitle) 메카나이터는 메카노이드를 그룹 단위로 제어합니다. 각각의 제어 그룹은 다음 모드 중 하나로 설정할 수 있습니다.\n\n- 작업\n- 호위\n- 재충전\n- 자가충전 휴면상태\n\n각 모드의 자세한 행동은 {PAWN_labelShort}의 제어 그룹 위쪽 모드 아이콘을 클릭한 후 선택지 위에 커서를 올려두면 알 수 있습니다. 최대 제어 그룹 수는 특정 의류와 삽입물로 높일 수 있습니다.\n\n(*SectionTitle)위협 호출에 대해:(/SectionTitle) 메카나이터는 고대의 메카노이드 지휘관을 호출 후 공격해서 희귀한 물품을 획득할 수 있습니다. 메카나이터의 한계를 뛰어넘으려면 반드시 필요하므로 위험에 대비하세요.</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
-  <MentalStateReason_Gene>이는 다음으로 인해 발생했습니다.</MentalStateReason_Gene>
+  <MentalStateReason_Gene>이는 다음 때문에 발생했습니다.</MentalStateReason_Gene>
 
   <!-- EN: {0} summoned -->
   <LetterLabelBossgroupSummoned>{0} 호출됨</LetterLabelBossgroupSummoned>
@@ -58,7 +58,7 @@
   <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
   <LetterBecameChild>아기였던 {0_nameDef}(이)가 자라나서 어린이가 되었습니다! {0_pronoun}는 이제 다음 작업을 할수 있게 되었습니다</LetterBecameChild>
   <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
-  <LetterBecameChildChanges>어린이들은 여러 작업을 할 수 있습니다. 나이가 들어갈수록 더 많은 작업을 할 수 있게됩니다.\n\n또한 어린이들은 어린이 전용 유흥활동을 할 수 있습니다.\n\n어린이들은 어린이 크기의 옷을 입어야 합니다.</LetterBecameChildChanges>
+  <LetterBecameChildChanges>어린이들은 여러 작업을 할 수 있습니다. 나이가 들수록 더 많은 작업을 할 수 있게 됩니다.\n\n또한 어린이 전용 놀이 활동을 할 수 있습니다.\n\n어린이들은 아동용 옷을 입어야 합니다.</LetterBecameChildChanges>
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
   <LetterChildLegalStatus>전통적으로 {0_parentage}인 {0_nameDef}(은)는 {0_legalStatus}입니다만, 예외도 있을 수 있습니다... {0_nameDef}(을)를 {0_legalStatus}(으)로 유지할까요?</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
@@ -165,7 +165,7 @@
   <!-- EN: Mechlink available -->
   <LetterLabelMechlinkAvailable>메크링크 획득 기회</LetterLabelMechlinkAvailable>
   <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>임무 '{0}'(을)를 통해 메크링크 이식물을 획득할 수 있습니다.\n\n정착민이 메크링크를 설치하면 메카나이터가 됩니다. 메카나이터는 메카노이드를 생산, 제어, 조작해서 작업과 전투에 활용합니다.</LetterMechlinkAvailable>
+  <LetterMechlinkAvailable>임무 '{0}'(을)를 통해 메크링크 삽입물을 획득할 수 있습니다.\n\n정착민이 메크링크를 설치하면 메카나이터가 됩니다. 메카나이터는 메카노이드를 생산, 제어, 조작해서 작업과 전투에 활용합니다.</LetterMechlinkAvailable>
 
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->
@@ -187,7 +187,7 @@
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
   <LetterTextRegenerationComa>대신 {PAWN_pronoun}는 재생성 혼수상태에 빠졌습니다.</LetterTextRegenerationComa>
   <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
-  <DeathrestLostSkill>죽음안식의 외부 신경 충격으로 인해 {PAWN_nameDef}(은)는 {PAWN_possessive} {SKILL} 기술에서 {XPLOSS} 경험치를 잃었습니다.</DeathrestLostSkill>
+  <DeathrestLostSkill>죽음안식의 외부 신경 충격으로 {PAWN_nameDef}(은)는 {PAWN_possessive} {SKILL} 기술에서 {XPLOSS} 경험치를 잃었습니다.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>치명상을 입었습니다.</DeathrestLethalDamage>
 
@@ -207,11 +207,11 @@
   <RefugeePodCrashBabyHasParent>{PAWN_nameDef}의 돌아가신 부모의 시체도 수송 포드에 같이 있습니다.</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>본능적으로 짝을 찾고 있는 {BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 정신적으로 결속된 낭만적인 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과 정신적 연결을 통해 심리적으로 도움이 되지만 서로 다른 세계 타일로 분리되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>본능적으로 짝을 찾고 있는 {BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 정신적으로 결속된 낭만적인 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과 정신적 연결을 통해 심리적으로 도움이 되지만, 다른 세계 지점으로 서로 떨어지게 되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreated>
 
   <!-- EN: Psychic bond -->
   <LetterPsychicBondCreatedLovinLabel>정신결속</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 유대감 있는 낭만적인 정신 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과의 정신결속을 통해 심리적으로 도움이 되지만, 서로 다른 세계 타일로 떨어지게 되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreatedLovinText>
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 유대감 있는 낭만적인 정신 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과의 정신결속을 통해 심리적으로 도움이 되지만, 서로 다른 세계 지점으로 떨어지게 되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

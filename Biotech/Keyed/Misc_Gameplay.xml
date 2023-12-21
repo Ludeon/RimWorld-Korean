@@ -360,7 +360,7 @@
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
   <ImplantXenogermWarningDesc>변형이식체를 이식하면 {PAWN_nameDef}(이)가 혼수상태에 빠지게 됩니다. 평균적으로 {COMADURATION} 동안 지속됩니다. 혼수상태는 의사의 의료 기술과 의료시설의 품질에 따라 다릅니다.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>추가로, 변형이식체를 이식하면 기존의 변형인자를 덮어씁니다. {PAWN_nameDef}의 현재 인종형은 '{XENOTYPE}'입니다. {PAWN_pronoun}(은)는 다음과 같은 변형인자가 있습니다.\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>추가로 변형이식체를 이식하면 기존의 변형인자를 덮어씁니다. {PAWN_nameDef}의 현재 인종형은 '{XENOTYPE}'입니다. {PAWN_pronoun}(은)는 다음과 같은 변형인자가 있습니다.\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>이식 후, {PAWN_nameDef}의 신진대사 값은 {MET}이고 배고픔 계수는 {CONSUMPTION}입니다.\n</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -390,7 +390,7 @@
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
   <ConfirmExtractXenogermWillKill>경고: {PAWN_nameDef}의 유전자가 아직 재성장 단계입니다. 재성장이 완료되기 전에 {PAWN_possessive} 유전자를 추출하면 사망에 이르게 됩니다.\n\n계속하시겠습니까?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
-  <GeneExtractionComplete>{PAWN_nameDef}에 대한 유전자 추출이 완료되었습니다. 추출됨:</GeneExtractionComplete>
+  <GeneExtractionComplete>{PAWN_nameDef}에 대한 유전자 추출이 완료되었습니다. 추출됨</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
   <InsertXenogerm>변형이식체 삽입</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->
@@ -468,11 +468,11 @@
 
   <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
-  <LactatingAddedNutritionPerDay>모유를 만들기 위해 하루에 열량을 {0} 추가로 섭취합니다. (현재 식품 수준으로 인해 모유 생산 속도는 {1_percentage})</LactatingAddedNutritionPerDay>
+  <LactatingAddedNutritionPerDay>모유를 만들기 위해 하루에 열량을 {0} 추가로 섭취합니다. (현재 식품 수준 때문에 모유 생산 속도는 {1_percentage})</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
   <LactatingStoppedBecauseFull>모유 한계에 도달해 더 분비되지 않습니다.</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
-  <LactatingStoppedBecauseHungry>굶주림으로 인해 모유가 더 분비되지 않습니다.</LactatingStoppedBecauseHungry>
+  <LactatingStoppedBecauseHungry>굶주림으로 모유가 더 분비되지 않습니다.</LactatingStoppedBecauseHungry>
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
@@ -519,7 +519,7 @@
   <!-- EN: available in {0}. -->
   <BossgroupAvailableIn>{0}에서 사용할 수 있습니다.</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
-  <RequiresMechanitor>기계공학자 필요</RequiresMechanitor>
+  <RequiresMechanitor>메카나이터 필요</RequiresMechanitor>
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
@@ -642,7 +642,7 @@
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>변형이식체 이식물</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>이 집단의 구성원 한 명이 자신의 변형이식체를, 선택한 정착민에게 재이식하여 그들처럼 만듭니다. 재이식 후에도 정착민은 당신의 세력 구성원으로 남습니다.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>이 집단의 구성원 한 명이 자신의 변형이식체를 선택한 정착민에게 재이식하여 그들처럼 만듭니다. 재이식 후에도 정착민은 당신의 세력 구성원으로 남습니다.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
@@ -652,7 +652,7 @@
   <!-- EN: Mech stun pulse on death -->
   <MechStunPulseWarning>사망 시 메카노이드 기절 파동 방출</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
-  <IsLowEnergySelfShutdown>{PAWN_nameDef}(이)가 낮은 에너지로 인해 자체적으로 작동 종료합니다.</IsLowEnergySelfShutdown>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef}(이)가 낮은 에너지 때문에 자체적으로 작동 종료합니다.</IsLowEnergySelfShutdown>
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
@@ -670,11 +670,11 @@
   <!-- EN: Nearby pollution -->
   <TilePollutionNearby>주변 오염</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>반경 {0}칸 내 오염도의 총합입니다. 이 칸에서의 거리가 멀어질수록 오염도 기여량은 줄어듭니다.\n\n{1}\n\n인근 오염이 높을수록 산성 스모그가 발생할 가능성도 높아집니다.</NearbyPollutionTip>
+  <NearbyPollutionTip>반경 {0}칸 내 오염도의 총합입니다. 해당 칸과의 거리가 멀어질수록 오염도 기여량은 줄어듭니다.\n\n{1}\n\n인근 오염이 높을수록 산성 안개가 발생할 가능성도 높아집니다.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
-  <NoxiousHazeInterval>이 칸에서는 평균 {0}일마다 산성 스모그가 발생합니다.</NoxiousHazeInterval>
+  <NoxiousHazeInterval>해당 칸에서는 평균 {0}일마다 산성 안개가 발생합니다.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
-  <NoxiousHazeNeverOccurring>이 칸에서는 산성 스모그가 발생하지 않습니다.</NoxiousHazeNeverOccurring>
+  <NoxiousHazeNeverOccurring>해당 칸에서는 산성 안개가 발생하지 않습니다.</NoxiousHazeNeverOccurring>
   <!-- EN: tiles away -->
   <NearbyPollutionTilesAway>칸 밖</NearbyPollutionTilesAway>
   <!-- EN: pollution -->
@@ -686,7 +686,7 @@
   <!-- EN: Absorbing pollution: Next in {0} -->
   <AbsorbingPollutionNext>오염 흡수 중: {0} 후</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>이 칸의 지형 오염도입니다.\n\n오염된 지형에 노출되면 서서히 중독되어 사망에 이를 수 있습니다. 대부분의 식물은 오염된 지형에서 자랄 수 없습니다.</TerrainPollutionTip>
+  <TerrainPollutionTip>해당 칸의 지형 오염도입니다.\n\n오염된 지형에 노출되면 서서히 중독되어 사망에 이를 수 있습니다. 대부분의 식물은 오염된 지형에서 자랄 수 없습니다.</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
@@ -750,7 +750,7 @@
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
   <EmbryoEjectedFromGrowthVat>{0}(은)는 성장 배양기에서 배출되어 파괴되었습니다.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
-  <EmbryoEjectedFromGrowthVatBiostarvation>{0}(이)가 영양부족으로 인해 성장 배양기에서 파괴되었습니다.</EmbryoEjectedFromGrowthVatBiostarvation>
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0}(이)가 영양부족으로 성장 배양기에서 파괴되었습니다.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0}(이)가 배아 이식을 통해 성공적으로 임신했습니다!</IvfPregnancyLetterText>
@@ -763,7 +763,7 @@
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>기계공학자에 의해 원격 제어되는 에너지 보호막 발생 장치입니다. 출력이 허락하는 한 모든 원거리 공격을 차단합니다. 내부로부터의 원거리 공격 또한 차단되므로 모든 원거리 무기는 사용할 수 없게 됩니다. 열기나 근접 무기는 막지 못하며, EMP 공격을 받으면 즉시 해제됩니다.</RemoteMechShieldTip>
+  <RemoteMechShieldTip>메카나이터에 의해 원격 제어되는 에너지 보호막 발생 장치입니다. 출력이 허락하는 한 모든 원거리 공격을 차단합니다. 내부로부터의 원거리 공격 또한 차단되므로 모든 원거리 무기는 사용할 수 없게 됩니다. 열기나 근접 무기는 막지 못하며, EMP 공격을 받으면 즉시 해제됩니다.</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->

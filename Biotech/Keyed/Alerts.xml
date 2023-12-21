@@ -4,7 +4,7 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>통제를 벗어난 메카노이드</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고있지 않습니다. 메카노이드를 충분한 대역폭을 가진 기계공학자와 연결하십시오.\n\n하루 이상 제어되지 않으면 메카노이드가 고대 통제신호와 연결될 수 있습니다. 고대 통제신호와 연결된 메카노이드는 {0}에 합류하여 당신에게 적대적이 될 것입니다. 메카노이드가 적대적이 되면 주변 메카노이드들에게도 영향을 미칩니다.\n\n적대적 메카노이드는 파괴 시 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고 있지 않습니다. 메카노이드를 충분한 대역폭을 가진 메카나이터와 연결하십시오.\n\n하루 이상 제어되지 않으면 메카노이드가 고대 통제신호와 연결될 수 있습니다. 고대 통제신호와 연결된 메카노이드는 {0}에 합류하여 당신에게 적대가 될 것입니다. 해당 메카노이드가 적대가 되면 주변 메카노이드들에게도 영향을 미칩니다.\n\n적대적 메카노이드는 파괴 시 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>다음 메카노이드가 통제되고 있지 않습니다</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
@@ -25,7 +25,7 @@
   <!-- EN: Low hemogen -->
   <AlertLowHemogen>혈액정수 낮음</AlertLowHemogen>
   <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
-  <AlertLowHemogenDesc>정착민의 혈액정수 수치가 낮습니다. 혈액정수가 바닥나면 혈액정수 갈망으로 인해 고통스러워합니다.\n\n혈액팩을 먹여 혈액정수 갈망을 예방할 수 있습니다. 혈액팩은 혈액정수를 소비하지 않는 인간에게 '혈액팩 추출' 수술을 해서 얻을 수 있습니다.\n\n혈액정수 수치가 낮은 정착민은 다음과 같습니다</AlertLowHemogenDesc>
+  <AlertLowHemogenDesc>정착민의 혈액정수 수치가 낮습니다. 혈액정수가 바닥나면 혈액정수 갈망으로 고통스러워합니다.\n\n혈액팩을 먹여 혈액정수 갈망을 예방할 수 있습니다. 혈액팩은 혈액정수를 소비하지 않는 인간에게 '혈액팩 추출' 수술을 해서 얻을 수 있습니다.\n\n혈액정수 수치가 낮은 정착민은 다음과 같습니다</AlertLowHemogenDesc>
 
   <!-- EN: Recharger full -->
   <AlertRechargerFull>충전기 가득 참</AlertRechargerFull>
@@ -103,7 +103,7 @@
   <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>정신결속 (멂)</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>초정신적 결속을 가진 일부 정착민들이 분리되어 멀리서 부정적인 영향을 느끼고 있습니다. 이것을 피하려면 초정신적 결속을 가진 정착민들이 같은 세계 타일, 상단 또는 탈 것에 있어야 합니다. 또한 동면 또는 이와 유사한 코마 상태가 아니어야 합니다.\n\n영향을 받는 사람은 다음과 같습니다.</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>초정신적 결속을 가진 일부 정착민들이 분리되어 멀리서 부정적인 영향을 느끼고 있습니다. 이것을 피하려면 초정신적 결속을 가진 정착민들이 같은 세계 칸, 상단 또는 탈 것에 있어야 합니다. 또한 동면 또는 이와 유사한 혼수상태가 아니어야 합니다.\n\n영향을 받는 사람은 다음과 같습니다.</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>유전자 저장고 전력 필요</AlertGenebankUnpowered>

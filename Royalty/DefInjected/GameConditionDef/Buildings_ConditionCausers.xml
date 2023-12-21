@@ -13,7 +13,7 @@
   <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
   <EMIField.description>전자 교란기가 전자기장을 투사하여 전자기기를 마비시킵니다.</EMIField.description>
   <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
-  <EMIField.descriptionFuture>먼 곳의 전자 교란기가 내뿜은 전자기장이 [map_definite] 주변까지 도달했습니다. [gameConditionDuration_duration] 동안 모든 전자기기가 작동을 멈춥니다.</EMIField.descriptionFuture>
+  <EMIField.descriptionFuture>먼 곳의 전자 교란기가 내뿜은 전자기장이 [map_definite] 주변까지 도달하고, [gameConditionDuration_duration] 동안 모든 전자기기가 작동을 멈춥니다</EMIField.descriptionFuture>
   <!-- EN: The EMI field has disappeared. -->
   <EMIField.endMessage>전자파가 사라졌습니다.</EMIField.endMessage>
   <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
@@ -31,7 +31,7 @@
   <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
   <PsychicSuppression.description>정신력 억제장이 {0}들의 의식을 감소시키고 있습니다. 억제장의 효과는 개인의 정신 감응력에 따라 다릅니다.</PsychicSuppression.description>
   <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
-  <PsychicSuppression.descriptionFuture>정신력 억제기는 [map_definite]의 주변에서 [gameConditionDuration_duration] 동안 [psychicSuppressorGender]들의 의식을 감소시킵니다.</PsychicSuppression.descriptionFuture>
+  <PsychicSuppression.descriptionFuture>정신력 억제기는 [map_definite]의 주변에서 [gameConditionDuration_duration] 동안 [psychicSuppressorGender]들의 의식을 감소시킵니다</PsychicSuppression.descriptionFuture>
   <!-- EN: The psychic suppressor field has dissipated. -->
   <PsychicSuppression.endMessage>정신력 억제장이 사라졌습니다.</PsychicSuppression.endMessage>
   <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
@@ -56,7 +56,7 @@
   <!-- EN: A nearby weather controller is forcing the weather into this configuration. -->
   <WeatherController.description>근처의 날씨 조절기가 이 구성으로 날씨를 강제합니다.</WeatherController.description>
   <!-- EN: a weather-control system will force the weather around [map_definite] to be [forcedWeather_indefinite] for [gameConditionDuration_duration] -->
-  <WeatherController.descriptionFuture>날씨 조절기는 [map_definite]의 주변 날씨가 [gameConditionDuration_duration] 동안 [forcedWeather_indefinite](이)가 되도록 합니다.</WeatherController.descriptionFuture>
+  <WeatherController.descriptionFuture>날씨 조절기는 [map_definite]의 주변 날씨가 [gameConditionDuration_duration] 동안 [forcedWeather_indefinite](이)가 되도록 합니다</WeatherController.descriptionFuture>
   <!-- EN: The weather controller is no longer changing the weather. -->
   <WeatherController.endMessage>날씨 조절기가 더 이상 날씨를 변경하지 않습니다.</WeatherController.endMessage>
   <!-- EN: A weather controller machine has begun affecting the weather. -->

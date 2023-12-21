@@ -78,7 +78,7 @@
   <!-- EN: tinderskin -->
   <FireWeakness.label>부싯깃 피부</FireWeakness.label>
   <!-- EN: Carriers have dry, thin skin which burns easily from fire, and their immune systems react very poorly to this kind of threat. Damage from fire is multiplied by 4. -->
-  <FireWeakness.description>이 유전자의 보유자는 불에 쉽게 건조하고 얇은 피부를 가지고 있으며, 그에 따른 면역체계또한 미흡합니다. 화염 피해가 4배가 됩니다.</FireWeakness.description>
+  <FireWeakness.description>이 유전자의 보유자는 불에 쉽게 건조해지는 얇은 피부를 가지고 있으며, 해당 면역체계 또한 미흡합니다. 화염에 4배 더 큰 피해를 당합니다.</FireWeakness.description>
   <!-- EN: tinderskin -->
   <FireWeakness.labelShortAdj>부싯깃 피부</FireWeakness.labelShortAdj>
   <!-- EN: dry -->
@@ -91,7 +91,7 @@
   <!-- EN: hemogen drain -->
   <HemogenDrain.label>정수 갈망</HemogenDrain.label>
   <!-- EN: Carriers lose an additional 8 hemogen per day from biological entropy. -->
-  <HemogenDrain.description>이 유전자의 보유자는 생물학적 무질서로 인해  매일 8 만큼의 혈액정수를 추가적으로 잃습니다.</HemogenDrain.description>
+  <HemogenDrain.description>이 유전자의 보유자는 생물학적 불안정성 때문에 매일 8 만큼의 혈액정수를 추가적으로 잃습니다.</HemogenDrain.description>
   <!-- EN: draining -->
   <HemogenDrain.labelShortAdj>정수갈망</HemogenDrain.labelShortAdj>
   <!-- EN: hemogen -->
@@ -100,11 +100,11 @@
   <!-- EN: hemogenic -->
   <Hemogenic.label>흡혈성</Hemogenic.label>
   <!-- EN: Carriers of this gene have a reserve of biological strength powered by a resource called hemogen. The resource can be gained and spent in various ways, all of which are unlocked by other genes.\n\nCarriers lose 2 hemogen per day from biological entropy. -->
-  <Hemogenic.description>이 유전자의 보유자는 혈액정수를 동력원으로 삼는 생물학적 힘을 보관할 수 있습니다. 이 자원은 다른 유전자들이 제공하는 다양한 방법으로 얻고 사용할 수 있습니다.\n\n보유자는 생물학적 작용으로 인해 매일 2만큼의 혈액정수를 잃습니다.</Hemogenic.description>
+  <Hemogenic.description>이 유전자의 보유자는 혈액정수를 동력원으로 삼는 생물학적 힘을 보관할 수 있습니다. 이 자원은 다른 유전자들이 제공하는 다양한 방법으로 얻고 사용할 수 있습니다.\n\n보유자는 생물학적 작용으로 매일 2만큼의 혈액정수를 잃습니다.</Hemogenic.description>
   <!-- EN: Gives hemogen supply. -->
   <Hemogenic.customEffectDescriptions.0>혈액정수를 제공합니다.</Hemogenic.customEffectDescriptions.0>
   <!-- EN: A reserve of biological strength which can be gained and spent in a variety of ways.\n\nHemogen can be increased by bloodfeeding from a human or consuming hemogen packs. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nIf hemogen reaches zero, {PAWN_nameDef} will become very unhappy. -->
-  <Hemogenic.resourceDescription>다양한 방법으로 얻고 사용할 수 있는 생물학적 힘의 비축분입니다.\n\n혈액정수는 다른 사람을 흡혈하거나 혈액정수 팩을 섭취함으로 올릴 수 있습니다. 혈액정수 팩은 비 흡혈성 인간에게서 혈액팩 추출 수술을 하여 얻을 수 있습니다.\n\n혈액정수량이 바닥날 경우, {PAWN_nameDef}(은)는 매우 불행해집니다.</Hemogenic.resourceDescription>
+  <Hemogenic.resourceDescription>다양한 방법으로 얻고 사용할 수 있는 생물학적 힘의 비축분입니다.\n\n혈액정수는 다른 사람을 흡혈하거나 혈액팩을 섭취함으로 올릴 수 있습니다. 혈액팩은 비 흡혈종에게서 혈액팩 추출 수술을 하여 얻을 수 있습니다.\n\n혈액정수량이 바닥나면 {PAWN_nameDef}(은)는 매우 불행해집니다.</Hemogenic.resourceDescription>
   <!-- EN: hemogen -->
   <Hemogenic.resourceLabel>혈액정수</Hemogenic.resourceLabel>
   <!-- EN: hemo -->

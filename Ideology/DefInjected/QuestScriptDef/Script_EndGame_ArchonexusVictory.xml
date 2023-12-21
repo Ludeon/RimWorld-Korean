@@ -28,7 +28,7 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->[descriptionIntro] 영역을 확장하기 위해 [playerSettlements](와)과 [itsTheir] 모든 물건 및 연구 기록을 원합니다. 총 재산 가치를 [requiredWealth_money]까지 올리면 그들이 [settlementsSingularOrPlural](을)를 받아갈 것입니다.\n\n그 대가로 그들은 고대 초월공학 연결체의 위치가 표시된 지도의 일부분을 제공하고자 합니다. 초월 연결체는 초월한 인공지능이 물리적 세계에 영향력을 투사하기 위한 수단이라고 전해집니다.\n\n[onlyHaveHas](은)는 지도의 한 조각만 가지고 있고, 나머지 부분은 다른 세력들이 소유하고 있습니다.\n\n이 제안을 받아들이면 [factionPawnsPlural](이)가 [playerSettlements]의 모든 물품과 정착민을 넘겨받습니다. 이후 그들은 정착민 [colonistsAllowed]명과 동물 [animalsAllowed]마리를 세계의 원하는 위치로 옮겨 줄 것이며, 당신은 그곳에서 새로운 터전을 일궈나가게 될 것입니다.\n\n이후에 다른 세력과 거래하여 지도의 나머지 부분 또한 얻을 수 있습니다.</li>
+    <li>questDescription->[descriptionIntro] 영역을 확장하기 위해 [playerSettlements](와)과 [itsTheir] 모든 물건 및 연구 기록을 원합니다. 총 재산 가치를 [requiredWealth_money]까지 올리면 그들이 [settlementsSingularOrPlural](을)를 받아갈 것입니다.\n\n그 대가로 그들은 고대 초월공학 연결체의 위치가 표시된 지도의 일부분을 제공하고자 합니다. 초월 연결체는 초월한 인공지능이 물리적 세계에 영향력을 투사하기 위한 수단이라고 전해집니다.\n\n[onlyHaveHas](은)는 지도의 한 조각만 가지고 있고, 나머지 부분은 다른 세력들이 소유하고 있습니다.\n\n이 제안을 받아들이면 [factionPawnsPlural](이)가 [playerSettlements]의 모든 물품과 정착민을 넘겨받습니다. 이후 그들은 정착민 [colonistsAllowed]명과 동물 [animalsAllowed]마리를 세계의 원하는 위치로 옮겨줄 것이며, 당신은 그곳에서 새로운 터전을 일궈 나가게 될 것입니다.\n\n이후에 다른 세력과 거래하여 지도의 나머지 부분 또한 얻을 수 있습니다.</li>
     <li>itsTheir(playerSettlementsCount==1)->그곳에 있는</li>
     <li>itsTheir(playerSettlementsCount>=2)->그곳들에 있는</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->정착지</li>
@@ -96,7 +96,7 @@
     <li>questAcceptedLetterLabel->초월 연결체 발견</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
     <li>questDescriptionBeforeAccepted->초월 연결체 지도 두 조각을 확보했습니다. 지도의 마지막 조각은 [factionName]의 조상이 대격변에서 살아남은 때부터 대대로 전해졌으며, 지금도 [factionName](이)가 가지고 있습니다. [factionName](은)는 지도 조각을 넘겨주는 대가로 가치가 높은 정착지와 함께 모든 연구 기록을 요구하고 있습니다.[descriptionStudyRequirement]\n\n이제 건설할 시간입니다.</li>
-    <li>questDescriptionAfterAccepted->당신은 초월 연결체 지도의 마지막 조각을 넘겨 받았습니다. 지금껏 연구한 초월공학 지식을 이용해 지도를 해독하자 초월 연결체의 정확한 위치가 나타났습니다.\n\n동맹 세력은 여정의 끝에서 당신이 돌아오지 못할 거라고 생각하고 있으므로, 당신이 떠나면 [playerSettlements](을)를 차지할 것입니다.\n\n[descriptionThreats]이제 남은 것은 초월 연결체를 찾아 기계 신의 힘을 부른 후, 소문이 사실인지 알아내는 것 뿐입니다.</li>
+    <li>questDescriptionAfterAccepted->당신은 초월 연결체 지도의 마지막 조각을 넘겨받았습니다. 지금껏 연구한 초월공학 지식을 이용해 지도를 해독하자 초월 연결체의 정확한 위치가 나타났습니다.\n\n동맹 세력은 여정의 끝에서 당신이 돌아오지 못할 거로 생각하고 있으므로, 당신이 떠나면 [playerSettlements](을)를 차지할 것입니다.\n\n[descriptionThreats]이제 남은 것은 초월 연결체를 찾아 기계 신의 힘을 부른 후, 소문이 사실인지 알아내는 것뿐입니다.</li>
     <li>factionName(factionless==false)->[roughTribe_name]</li>
     <li>factionName(factionless==true)->야인</li>
     <li>descriptionIntro(factionless==false)->[roughTribe_name]의 지도자 [roughTribe_leader_nameDef](이)가</li>

@@ -18,7 +18,7 @@
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
   <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>변형이식체는 정착민, 수감자, 혹은 노예에게만 삽입할 수 있습니다.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>변형이식체는 정착민, 수감자 혹은 노예에게만 이식할 수 있습니다.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
   <MessageCannotImplantInTempFactionMembers>임시 구성원에게 이식할 수 없습니다.</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
@@ -44,7 +44,7 @@
   <MessageNoBloodfeedersPrisonerInteractionReset>일부 수감자의 처우에 흡혈인자가 필요했습니다. 마지막 흡혈인자 보유자가 사라졌으므로 처우를 "상호작용 없음"으로 변경했습니다.</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
-  <MessagePregnancyTerminated>{PAWN_nameDef}(이)가 출산하였습니다.</MessagePregnancyTerminated>
+  <MessagePregnancyTerminated>{PAWN_nameDef}의 임신이 끝났습니다.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
   <!-- EN: {0} has been angered ({1}) -->
@@ -110,7 +110,7 @@
   <MessageBedExposedToSunlight>{PAWN_nameDef}의 죽음안식을 위해 지정된 {BED_labelShort}(이)가 햇빛에 노출되어있습니다. {PAWN_nameDef}(은)는 여기서 죽음안식을 취할 수 없습니다.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}(이)가 전력 부족으로 인해 유전자 추출기에서 배출되었습니다.</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}(이)가 전력 부족으로 유전자 추출기에서 배출되었습니다.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->

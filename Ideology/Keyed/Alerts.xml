@@ -37,7 +37,7 @@
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>{0} 희망</IdeoBuildingMissing>
   <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{IDEO_name}(을)를 사용하려면 {2} 이상 동안 정착지에 {0}(이)가 있어야 합니다.\n\n{0}(은)는 {BASEBUILDING_label}의 변형입니다.{BUILDINGINFO}\n\n이 요구 사항은 다음과 같은 경우에만 활성화됩니다. {IDEO_name}(은)는 당신 세력의 주요 이념이거나 세력에 {MINBELIEVERS}명의 믿는 사람이 있는 경우에만 활성화됩니다.{4}\n\n요건이 충족되지 않으면 해당 인원은 불행해질 것입니다.\n{3}</IdeoBuildingMissingDesc>
+  <IdeoBuildingMissingDesc>{IDEO_name}(을)를 사용하려면 {2} 또는 그 이상일 때 정착지에 {0}(이)가 있어야 합니다.\n\n{0}(은)는 {BASEBUILDING_label}의 변형입니다. {BUILDINGINFO}\n\n이 요구 사항은 다음과 같은 경우에만 활성화됩니다. {IDEO_name}(이)가 당신 세력의 주요 이념이거나 세력에서 {MINBELIEVERS}명 이상의 정착민이 믿고 있어야 합니다.{4}\n\n요건이 충족되지 않으면 해당 인원은 불행해질 것입니다.\n{3}</IdeoBuildingMissingDesc>
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
   <IdeoBuildingArchitectTabDesc>건설 메뉴의 '{TABNAME}' 항목을 열어 찾을 수 있습니다.</IdeoBuildingArchitectTabDesc>
   <!-- EN:  It can be created at:\n{0}. -->

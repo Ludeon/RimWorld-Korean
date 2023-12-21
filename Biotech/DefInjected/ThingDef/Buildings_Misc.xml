@@ -4,14 +4,14 @@
   <!-- EN: band node -->
   <BandNode.label>대역폭 확장기</BandNode.label>
   <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
-  <BandNode.description>메카노이드 대역 신호 증폭기입니다. 대역폭 확장기는 메카나이터 한 명에게 조율되어야 하며, 해당 메카나이터의 최대 대역폭을 1 확장시켜 더 많은 메카노이드를 통제할 수 있도록 합니다.\n\n대역폭 확장기를 건설한 후 첫 조율은 빠르게 가능하지만, 이미 조율한 확장기를 다른 메카나이터에게 조율할 땐 훨씬 긴 시간이 필요합니다.</BandNode.description>
+  <BandNode.description>메카노이드 대역 신호 증폭기입니다. 대역폭 확장기는 메카나이터 한 명에게 조율되어야 하며, 해당 메카나이터의 최대 대역폭을 1 확장시켜 더 많은 메카노이드를 통제할 수 있도록 합니다.\n\n대역폭 확장기를 건설한 후 첫 조율은 빠르게 가능하지만, 이미 조율한 확장기를 다른 메카나이터가 조율할 때는 훨씬 긴 시간이 필요합니다.</BandNode.description>
   
   <!-- EN: mechband antenna -->
   <BurnoutMechlinkBooster.label>메카노이드 통신대역 안테나</BurnoutMechlinkBooster.label>
   <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
   <BurnoutMechlinkBooster.description>메카노이드 대역 신호장치입니다. 작동되었을 시 강력한 메카노이드 신호 파장을 내보내어 초중량 제어불가 메카노이드와 그 호위를 유인할 것입니다. 이들을 쓰러트린다면 그 잔해에서 특수한 부품을 회수할 수 있습니다. 신호 파장은 송신기를 태워버리므로 이 건물은 한 번만 사용할 수 있습니다.</BurnoutMechlinkBooster.description>
   <!-- EN: Summon warqueen threat -->
-  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>워퀸 위협 호출</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>워 퀸 위협 호출</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
   
   <!-- EN: gene assembler -->
   <GeneAssembler.label>유전자 조합기</GeneAssembler.label>
@@ -21,17 +21,17 @@
   <!-- EN: gene bank -->
   <GeneBank.label>유전자 저장고</GeneBank.label>
   <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
-  <GeneBank.description>이 건물은 유전자 조합기 근처에 배치되었을 시, 변형이식체를 만드는데 필요한 유전자묶음을 저장하고 제공합니다. 유전자 저장고가 더 많이 지어질 수록 더 많은 양의 유전자묶음을 저장 할 수 있습니다.\n\n전력이 공급된동안 유전자 저장고는 유전자묶음의 부패를 방지하고 피해를 천천히 복구합니다.</GeneBank.description>
+  <GeneBank.description>이 건물은 유전자 조합기 근처에 배치되었을 시, 변형이식체를 만드는 데 필요한 유전자묶음을 저장하고 제공합니다. 유전자 저장고가 더 많이 지어질수록 더 많은 양의 유전자묶음을 저장할 수 있습니다.\n\n전력이 공급된 동안 유전자 저장고는 유전자묶음의 부패를 방지하고 피해를 천천히 복구합니다.</GeneBank.description>
   
   <!-- EN: gene extractor -->
   <GeneExtractor.label>유전자 추출기</GeneExtractor.label>
   <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
-  <GeneExtractor.description>사람의 유전자를 추출하여 유전자묶음을 만드는 자동 수술기계입니다. 추출되는 유전자는 대상이 가지고 있는 변형인자나 생식성 유전자 중 무작위로 선택됩니다. 강제로도 이 기계를 사용하게 할 수 있지만, 대상은 좋아하지 않을겁니다.\n\n유전자 추출은 대상에게 영구적 피해를 남기지는 않지만, 재성장이 끝나지 않은 상태에서 또다시 유전자 추출을 당하면 죽게 됩니다.\n\n초월입자 캡슐이 필요한 유전자는 너무 복잡하여 추출할 수 없습니다.</GeneExtractor.description>
+  <GeneExtractor.description>사람의 유전자를 추출하여 유전자묶음을 만드는 자동 수술 기계입니다. 추출되는 유전자는 대상이 가지고 있는 변형인자나 생식성 유전자 중 무작위로 선택됩니다. 강제로도 이 기계를 사용하게 할 수 있지만, 대상은 좋아하지 않을 겁니다.\n\n유전자 추출은 대상에게 영구적 피해를 남기지는 않지만, 재성장이 끝나지 않은 상태에서 또다시 유전자 추출을 당하면 죽게 됩니다.\n\n초월입자 캡슐이 필요한 유전자는 너무 복잡하여 추출할 수 없습니다.</GeneExtractor.description>
   
   <!-- EN: gene processor -->
   <GeneProcessor.label>유전자 처리기</GeneProcessor.label>
   <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
-  <GeneProcessor.description>유전자 분석 및 처리 장치입니다. 유전자 조합기 근처에 배치하여 변형이식체 생성시의 최대 복잡성을 늘릴 수 있습니다. 추가적인 유전자 처리기는 최대 복잡성을 더욱 높일 수 있습니다.</GeneProcessor.description>
+  <GeneProcessor.description>유전자 분석 및 처리 장치입니다. 유전자 조합기 근처에 배치하여 변형이식체 생성 시의 최대 복잡성을 늘릴 수 있습니다. 추가적인 유전자 처리기는 최대 복잡성을 더욱 높일 수 있습니다.</GeneProcessor.description>
   
   <!-- EN: growth vat -->
   <GrowthVat.label>성장 배양기</GrowthVat.label>
@@ -53,7 +53,7 @@
   <!-- EN: pollution pump -->
   <PollutionPump.label>오염물질 펌프</PollutionPump.label>
   <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
-  <PollutionPump.description>주변 오염을 서서히 청소하는 지하수 여과기가 달린 펌프입니다. 추출된 오염물질은 운반해 치워야하는 독성 폐기물로 변환됩니다.</PollutionPump.description>
+  <PollutionPump.description>주변 오염을 서서히 정화하는 지하수 여과기가 달린 펌프입니다. 추출된 오염물질은 운반해 치워야 하는 독성 폐기물로 포장됩니다.</PollutionPump.description>
   
   <!-- EN: blood torch -->
   <SanguphageMeetingTorch.label>피의 횃불</SanguphageMeetingTorch.label>
@@ -83,6 +83,6 @@
   <!-- EN: wastepack atomizer -->
   <WastepackAtomizer.label>폐기물 원자분해기</WastepackAtomizer.label>
   <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
-  <WastepackAtomizer.description>고급 분자 공정을 사용하여 독성 폐기물 팩을 불활성 가스로 분해하는 번화계 기계장치입니다. 분해과정에는 상당량의 전력이 필요합니다.</WastepackAtomizer.description>
+  <WastepackAtomizer.description>고급 분자 공정을 사용하여 독성 폐기물을 불활성 가스로 분해하는 번화계 기계장치입니다. 분해과정에는 상당량의 전력이 필요합니다.</WastepackAtomizer.description>
   
 </LanguageData>

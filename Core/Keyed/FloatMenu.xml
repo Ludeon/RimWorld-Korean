@@ -333,7 +333,7 @@
   <!-- EN: Load {1_labelShort} x{{0}} -->
   <LoadIntoCaravanCount>적재 {1_labelShort} x{{0}}</LoadIntoCaravanCount>
   <!-- EN: overweight -->
-  <OverweightLower>무게초과</OverweightLower>
+  <OverweightLower>무게 초과</OverweightLower>
 
   <!-- EN: Cannot carry {1_label} and leave the area -->
   <CannotCarryToExit>{1_label}(을)를 데리고 떠날 수 없음</CannotCarryToExit>
@@ -425,7 +425,7 @@
   <CannotGenericWorkCustom>{0} 불가</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: Incapable of {0} -->
-  <CannotMissingHealthActivities>우선시 불가 ({0} 불가능)</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>우선시 불가: {0} 불가능</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -434,31 +434,31 @@
   <CannotGenericAlreadyAmCustom>이미 {0} 중</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>우선시 불가 ({0} 불가능)</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>우선시 불가: 절대 {0} 작업하지 않음</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>필요 작위 부족</MissingTitleAbility>
 
   <!-- EN: Cannot prioritize: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>우선시 불가 (절대 {0} 하지 않음)</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>우선시 불가: 절대 {0} 하지 않음</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>{0} 불가</WillNever>
 
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>우선시 불가 ({0} 할당되지 않음)</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>우선시 불가: {0} 할당되지 않음</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>할당되지 않음</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>{0}에 할당되지 않음</NotAssignedToWorkType>
 
   <!-- EN: Cannot prioritize: Research is a long-term task -->
-  <CannotPrioritizeResearch>우선시 불가 (연구 프로젝트)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>우선시 불가: 연구는 장기적인 작업임</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>우선시 불가 ({1_label}의 상호작용 금지됨)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>우선시 불가: {1_label}의 상호작용 금지됨</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
-  <CannotPrioritizeCellForbidden>우선시 불가 (상호작용 금지됨)</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeCellForbidden>우선시 불가: 상호작용 금지됨</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
-  <CannotPrioritizeForbiddenOutsideAllowedArea>우선시 불가 (허가구역 외부)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>우선시 불가: 허가구역 외부</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
   <CannotPrioritizeBurying>매장 우선시 불가</CannotPrioritizeBurying>
 

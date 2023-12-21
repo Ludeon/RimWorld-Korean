@@ -83,7 +83,7 @@
     <li>r_logentry->[RECIPIENT_nameDef][damage_source]. [destroyed_targets](이)가 [destroyed_present].</li>
     <li>r_logentry->[RECIPIENT_nameDef][damage_source]. [destroyed_targets](이)가 [destroyed_present]. 동시에 [damaged_targets]도 [damaged_present].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_nameDef][damage_source]. [damaged_targets](이)가 [damaged_present].</li>
-    <li>r_logentry(p=0.1)->[damage_source][RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.1)->[RECIPIENT_nameDef][damage_source].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:

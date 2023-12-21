@@ -399,7 +399,7 @@
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>약물을 무작위로 과다 복용할 확률입니다. 무작위 과다 복용은 첫 복용자와 경험 많은 중독자 모두에게 발생할 수 있습니다.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>이 약의 복용당 중독확률입니다.\n\n약물 중독에 대한 최소 내성이 있다면, 내성이 이 수준을 초과해야 적용됩니다. 최소 내성이 없다면, 복용할 때마다 중독될 수 있습니다.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>이 약의 복용당 중독확률입니다.\n\n약물 중독에 대한 최소 내성이 있다면, 내성이 이 수준을 초과해야 적용됩니다. 최소 내성이 없다면 복용할 때마다 중독될 수 있습니다.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
   <Stat_Thing_Drug_AddictionSeverityInitial_Desc>이 약물 중독의 심각도 단계입니다.\n\n많은 약물을 복용하면 중독의 심각도가 증가하지만, 시간이 지나면 감소합니다.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
@@ -407,13 +407,13 @@
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
   <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>약물 복용당 기존 중독성에 얼마나 많은 심각도가 추가되는지 나타냅니다.\n\n중독 심각도는 100%를 초과할 수 없습니다.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
-  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>중독자가 금단증상을 예방하기 위해 얼마나 자주 이 약을 복용해야 하는지 나타냅니다.\n\n이는 중독필요 하락률과 복용당 중독필요량으로부터 계산됩니다.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>중독자가 금단증상을 예방하기 위해 얼마나 자주 이 약을 복용해야 하는지 나타냅니다.\n\n이는 중독필요 하락률과 복용당 중독 필요량으로부터 계산됩니다.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
   <Stat_Thing_Drug_AddictionNeedOffset_Desc>복용당 화학물질에 대한 중독자의 필요량을 얼마나 채워주는지 나타냅니다.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>중독자의 화학물질에 대한 필요량이 얼마나 떨어지는지 나타냅니다.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc>금단현상 없이 이 약물의 중독을 지원하기 위해 하루에 소비해야 하는 시장가치입니다.\n\n이 값은 중독자의 복용당 중독필요량, 중독필요 하락률, 약물의 시장가치로부터 계산됩니다.\n\n참고로 다른 비용으로 같은 화학물질을 얻는 방법이 있을 수도 있습니다.</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc>금단현상 없이 이 약물의 중독을 지원하기 위해 하루에 소비해야 하는 시장가치입니다.\n\n이 값은 중독자의 복용당 중독 필요량, 중독필요 하락률, 약물의 시장가치로부터 계산됩니다.\n\n참고로 다른 비용으로 같은 화학물질을 얻는 방법이 있을 수도 있습니다.</Stat_Thing_Drug_AddictionCost_Desc>
 
   <!-- EN: Style -->
   <Stat_Thing_StyleLabel>양식</Stat_Thing_StyleLabel>

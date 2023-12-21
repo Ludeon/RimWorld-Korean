@@ -53,7 +53,7 @@
   <!-- EN: Tynan's twitter -->
   <TynansTwitter>타이난의 트위터</TynansTwitter>
   <!-- EN: Tynan's design book -->
-  <TynansDesignBook>타이난의 디자인 북</TynansDesignBook>
+  <TynansDesignBook>타이난의 디자인 책</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
   <HelpTranslate>림월드 번역을 도와주세요!</HelpTranslate>
   <!-- EN: Buy soundtrack -->
@@ -71,7 +71,7 @@
 
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
-  <DevBuildWarning>경고: 불안정 개발 빌드입니다. 완성되지 않은 디자인 실험이나 기술적인 개발을 진행 중입니다.\n\n일부 기능의 밸런스가 무너진 상태일 수 있습니다. 의도적으로 크게 벗어난 수치를 사용해 적절한 범위를 파악하고 최종 밸런스를 맞춰나가기 위한 고전 게임 디자인법입니다.\n\n게임을 망가뜨릴 수 있는 버그도 존재할 수 있습니다. 세이브 호환성은 언제 깨질지 알 수 없습니다.\n\n이 모든 걸 감당하실 수 있다면, 테스트에 참가해 주셔서 감사합니다! 실험에 참여하고 싶지 않으시면 최신 안정화 버전을 플레이해 주세요.</DevBuildWarning>
+  <DevBuildWarning>경고: 불안정한 개발 빌드입니다. 완성되지 않은 디자인 실험이나 기술적인 개발을 진행 중입니다.\n\n일부 기능의 균형이 무너진 상태일 수 있습니다. 의도적으로 크게 벗어난 수치를 사용해 적절한 범위를 파악하고 최종 균형을 맞춰나가기 위한 고전 게임 제작법입니다.\n\n게임을 망가뜨릴 수 있는 버그도 존재할 수 있습니다. 저장 호환성은 언제 깨질지 알 수 없습니다.\n\n이 모든 걸 감당하실 수 있다면, 실험에 참가해 주셔서 감사합니다! 실험에 참여하고 싶지 않으시면 최신 안정화 버전을 플레이해 주세요.</DevBuildWarning>
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
@@ -175,7 +175,7 @@
   <!-- EN: Enabled -->
   <Enabled>활성화됨</Enabled>
   <!-- EN: Disabled -->
-  <Disabled>사용 불가</Disabled>
+  <Disabled>사용 안 함</Disabled>
   <!-- EN: Enable -->
   <Enable>활성화</Enable>
   <!-- EN: Disable -->
@@ -446,9 +446,9 @@
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
   <Difficulty_ManhunterChanceOnDamageFactor_Info>야생동물을 사냥할 때 반격할 확률을 조정합니다.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
-  <Difficulty_FriendlyFireChanceFactor_Label>아군오사</Difficulty_FriendlyFireChanceFactor_Label>
+  <Difficulty_FriendlyFireChanceFactor_Label>아군 오사</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>아군오사의 확률을 조정합니다.\n\n참고: 이 설정은 목표물을 맞출 직격탄에만 영향을 미칩니다. 폭발이나 빗맞힘 사격으로 인한 피해는 방지하지 않습니다.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>아군 오사의 확률을 조정합니다.\n\n참고: 이 설정은 목표물을 맞출 직격탄에만 영향을 미칩니다. 폭발이나 빗맞힘 사격으로 인한 피해는 방지하지 않습니다.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>정착민 즉사</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
@@ -476,7 +476,7 @@
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>지도 자연동굴 생성</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>휴면 중인 곤충군락이 자연동굴에서 생성될 수 있습니다.\n\n이 설정은 맵 생성시에만 적용되며 내산지 플레이로 인한 터널 같은 곳에는 영향을 주지 않습니다.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>휴면 중인 곤충군락이 자연동굴에서 생성될 수 있습니다.\n\n이 설정은 지도 생성 시에만 적용되며 내산지 플레이로 생긴 터널 같은 곳에는 영향을 주지 않습니다.</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
   <Difficulty_UnwaveringPrisoners_Label>확고한 수감자 추가</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
@@ -487,34 +487,34 @@
   <!-- EN: Player can build traps -->
   <Difficulty_AllowTraps_Label>함정 건설 가능</Difficulty_AllowTraps_Label>
   <!-- EN: Player can build traps like spike traps and IED traps. -->
-  <Difficulty_AllowTraps_Info>플레이어는 가시나 IED와 같은 함정을 만들 수 있습니다.</Difficulty_AllowTraps_Info>
+  <Difficulty_AllowTraps_Info>플레이어는 가시나 지뢰 같은 함정을 만들 수 있습니다.</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
   <Difficulty_AllowTurrets_Label>포탑 건설 가능</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>플레이어는 소형 기관포, 대형 기관포, 저격 포탑과 같은 고정 포탑을 만들 수 있습니다.\n\n이 설정을 비활성했더라도 포탑을 포획했다면 사용 가능합니다.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>플레이어는 소형 기관포, 대형 기관포, 저격 포탑과 같은 고정 포탑을 만들 수 있습니다.\n\n이 설정을 비활성 했더라도 포탑을 포획했다면 사용 가능합니다.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>박격포 건설 가능</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>플레이어는 박격포를 만들 수 있습니다.\n\n이 설정을 비활성했더라도 박격포를 포획했다면 사용 가능합니다.</Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>플레이어는 박격포를 만들 수 있습니다.\n\n이 설정을 비활성 했더라도 박격포를 포획했다면 사용 가능합니다.</Difficulty_AllowMortars_Info>
   <!-- EN: Classic mortars -->
   <Difficulty_ClassicMortars_Label>기존 박격포</Difficulty_ClassicMortars_Label>
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
-  <Difficulty_ClassicMortars_Info>박격포 운용에 강화 포신이 필요하지 않게 되는 대신, 그에 맞춰 밸런스가 조정됩니다.</Difficulty_ClassicMortars_Info>
+  <Difficulty_ClassicMortars_Info>박격포 운용에 강화 포신이 필요하지 않게 되며, 그에 맞추어 성능이 재조정 됩니다.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>각색</DifficultyAdaptationSection>
   <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>피해 각색 성장</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>각색이란 손실을 당하지 않은채 시간이 지날수록 이야기꾼이 게임을 더 어렵게 만드는 것을 의미합니다. 이는 재산과 인구수의 이야기 효과와는 별개입니다.\n\n도전 성장률을 조정합니다.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>각색이란 손실을 당하지 않은 채 시간이 지날수록 이야기꾼이 게임을 더 어렵게 만드는 것을 의미합니다. 이는 재산과 인구수의 이야기 효과와는 별개입니다.\n\n도전 성장률을 조정합니다.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>피해 각색 효과</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
-  <Difficulty_AdaptationEffectFactor_Info>각색이란 손실을 당하지 않은채 시간이 지날수록 이야기꾼이 게임을 더 어렵게 만드는 것을 의미합니다. 이는 재산과 인구수의 이야기 효과와는 별개입니다.\n\n실제 위협에 대한 적응값의 효과를 조정합니다.</Difficulty_AdaptationEffectFactor_Info>
+  <Difficulty_AdaptationEffectFactor_Info>각색이란 손실을 당하지 않은 채 시간이 지날수록 이야기꾼이 게임을 더 어렵게 만드는 것을 의미합니다. 이는 재산과 인구수의 이야기 효과와는 별개입니다.\n\n실제 위협에 대한 적응값의 효과를 조정합니다.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>재산 독립 진행방식</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>재산 독립 진행방식에서 플레이해보세요.\n\n일반 방식에서는 이야기꾼이 정착민 수, 재산과 기타 요인의 다양함에 따라 위협을 조정합니다. 재산 독립 진행방식에서는 재산 요인을 제거하고 시간을 기준으로 고정된 진행곡선으로 대체합니다. 시간은 각 정착지가 생성될 때부터 계산됩니다.\n\n숙련된 도전을 원하는 사람들에게만 권장됩니다. 고정 진행방식에서는 새로운 거주지를 찾지 않는 한 심각한 손실로부터 회복하기가 거의 불가능할 수도 있습니다. 또한 진행곡선에 너무 앞서서 진행하다보면 게임을 쉽게 풀어낼 수도 있습니다.</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>재산 독립 진행방식으로 플레이합니다.\n\n일반 방식에서는 이야기꾼이 정착민 수, 재산과 다양한 기타 요인에 따라 위협을 조정합니다. 재산 독립 진행방식에서는 재산 요인을 제거하고, 시간 기준으로만 고정된 진행곡선으로 대체합니다. 시간은 각 정착지가 생성된 때부터 계산됩니다.\n\n숙련된 도전을 원하는 사람들에게만 권장됩니다. 재산 독립 진행방식에서는 새로운 정착지를 찾지 않는 한 심각한 손실로부터 회복하기가 거의 불가능할 수도 있습니다. 또한 진행곡선을 너무 앞질러 발전하면 게임을 매우 쉽게 풀어낼 수도 있습니다.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
   <Difficulty_FixedWealthTimeFactor_Label>최대 위협까지 (연수)</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
@@ -547,7 +547,7 @@
   <!-- EN: You already have a base there. -->
   <YourBaseAlreadyThere>이미 해당 위치에 정착했습니다.</YourBaseAlreadyThere>
   <!-- EN: This tile is occupied. -->
-  <TileOccupied>해당 타일은 이미 점유 중입니다.</TileOccupied>
+  <TileOccupied>해당 칸은 이미 점유 중입니다.</TileOccupied>
   <!-- EN: Settlements cannot be directly adjacent to each other. -->
   <FactionBaseAdjacent>정착지는 서로 근접할 수 없습니다.</FactionBaseAdjacent>
   <!-- EN: Biome -->
@@ -730,12 +730,12 @@
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>세계의 세력을 선택하세요. {0}개까지 선택할 수 있습니다.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>{0}(을)를 비활성화하면 퀘스트 다양성과 콘텐츠가 줄어듭니다.</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>{0}(을)를 비활성화 하면 임무의 다양성과 콘텐츠가 줄어듭니다.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>{0}(을)를 비활성화하면 위협의 다양성이 줄어듭니다.</InsectsDisabledContentWarning>
+  <InsectsDisabledContentWarning>{0}(을)를 비활성화 하면 위협의 종류가 줄어듭니다.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>{0}(을)를 비활성화하면 퀘스트 다양성과 위협의 종류가 줄어듭니다.</MechanoidsDisabledContentWarning>
+  <MechanoidsDisabledContentWarning>{0}(을)를 비활성화 하면 임무의 다양성과 위협의 종류가 줄어듭니다.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>다른 세력 없이는 습격, 거래, 임무가 정상적으로 발동하지 않습니다.</FactionsDisabledWarning>
+  <FactionsDisabledWarning>다른 세력 없이는 습격, 거래, 임무가 정상적으로 작동하지 않습니다.</FactionsDisabledWarning>
 
 </LanguageData>

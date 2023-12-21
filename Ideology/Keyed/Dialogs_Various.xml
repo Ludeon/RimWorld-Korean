@@ -97,7 +97,7 @@
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>지도자 보너스</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
-  <CannotNotAddRoleApparelDueToMeme>{MEME} 가르침으로 인해 이 지위에 의복 요구사항을 추가할 수 없습니다.</CannotNotAddRoleApparelDueToMeme>
+  <CannotNotAddRoleApparelDueToMeme>{MEME} 가르침 때문에 이 지위에 의복 요구사항을 추가할 수 없습니다.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
   <CannotBeWornWith>{0_label}(와)과 착용 불가</CannotBeWornWith>
 
@@ -162,7 +162,7 @@
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
   <NegotiatorWillNotTradeSlaves>{0_nameDef}(은)는 자신의 신념 때문에 노예 매매를 거부합니다.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>협상을 맡은 {0_nameDef}(은)는 {0_possessive} 사상, {1}(으)로 인해 사람을 노예로 팔지 않을 것입니다.\n\n{0_nameDef}도 몸값을 받고 원래 세력으로 돌려보내 주는 것은 거부하지 않으며, 다른 세력에 판매하는 것만 거부합니다.</NegotiatorWillNotTradeSlavesTip>
+  <NegotiatorWillNotTradeSlavesTip>협상을 맡은 {0_nameDef}(은)는 {0_possessive} 사상, {1}(으)로 사람을 노예로 팔지 않을 것입니다.\n\n{0_nameDef}도 몸값을 받고 원래 세력으로 돌려보내 주는 것은 거부하지 않으며, 다른 세력에 판매하는 것만 거부합니다.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>마지막으로 섭취한 인육</LastHumanMeat>
@@ -197,7 +197,7 @@
   <!-- EN: Show apparel -->
   <ShowApparel>옷 표시</ShowApparel>
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
-  <PawnUnhappyWithStyleItems>다음 항목으로 인해 {PAWN_nameDef}의 기분이 나빠질 것입니다</PawnUnhappyWithStyleItems>
+  <PawnUnhappyWithStyleItems>다음 항목 때문에 {PAWN_nameDef}의 기분이 나빠질 것입니다</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
   <StyleCategoryDescription>양식 범주는 {IDEO_memberName}들이 만드는 건물과 의복, 무기의 외관을 바꿉니다. 하나의 물체에 적용할 수 있는 양식 범주가 여럿일 경우 가장 왼쪽의 양식 범주를 적용합니다.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
@@ -285,7 +285,7 @@
   <!-- EN: Confirm decisions -->
   <ConfirmDecisionsTitle>확인</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
-  <ShipEscapeWillEndDescription>AI (*Name)샬론 화이트스톤(/Name)이 보고한 우주선은 새로운 정착지가 건설될 때 날아갈 것입니다. 더 이상 이 우주선으로 여행하여 행성을 탈출할 수 없습니다.</ShipEscapeWillEndDescription>
+  <ShipEscapeWillEndDescription>AI (*Name)샬론 화이트스톤(/Name)이 보고한 우주선은 새로운 정착지가 건설될 때쯤이나 날 수 있을 것입니다. 더는 이 우주선으로 여행하여 행성에서 탈출할 수 없습니다.</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
   <ArchonexusRelicNotChosen>새로운 정착지로 가져갈 유물이 선택되지 않았습니다.</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
