@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+  <!-- Shamblers -->
+  <ShamblerRegenerating>다시 일어나기 위해 재생 중.</ShamblerRegenerating>
+  <ShamblerRising>일어나는 중.</ShamblerRising>
+  <ShamblerStanding>무기력하게 서있는 중.</ShamblerStanding>
+  <ShamblerShuffling>무기력하게 발 끌며 걷는 중.</ShamblerShuffling>
+  <LetterText_ShamblerGorehulk>조심하세요, 무리에 휘청이는 자 고어헐크가 하나 있습니다.</LetterText_ShamblerGorehulk>
+  <LetterText_ShamblerGorehulkPlural>조심하세요, 무리에 휘청이는 자 고어헐크가 여럿 있습니다.</LetterText_ShamblerGorehulkPlural>
+  <LetterText_ShamblerChimera>조심하세요, 무리에 휘청이는 자 키메라가 하나 있습니다.</LetterText_ShamblerChimera>
+  <LetterText_ShamblerChimeraPlural>조심하세요, 무리에 휘청이는 자 키메라가 여럿 있습니다.</LetterText_ShamblerChimeraPlural>
+
+  <MessageRitualCannotBeMutant>인간이 아니라면 의식에 참여할 수 없습니다.</MessageRitualCannotBeMutant>
+
+  <!-- Revenant -->
+  <LetterLabelRevenantRevealed>망령 공격</LetterLabelRevenantRevealed>
+  <LetterRevenantRevealed>망령이 스스로 모습을 드러냈습니다!</LetterRevenantRevealed>
+  <LetterRevenantRevealedFirst>망령이 스스로 모습을 드러내고 당신의 정착민 중 하나를 사냥하고 있습니다!</LetterRevenantRevealedFirst> 
+  <LetterLabelRevenantSmearDiscovered>망령 얼룩 발견됨</LetterLabelRevenantSmearDiscovered>
+  <LetterRevenantSmearDiscovered>{0}(이)가 바닥의 검은 기름 자국을 발견했습니다. 자국은 부자연스러우며 역겹고 매캐한 냄새를 풍깁니다. 아직 생긴지 얼마 안 됐고 젖어 있습니다. 섬뜩한 실체가 최근에 지나갔습니다.</LetterRevenantSmearDiscovered>
+  <LetterLabelRevenantKilled>죽은 망령</LetterLabelRevenantKilled>
+  <LetterRevenantKilled>망령이 죽었습니다! 최면에 걸린 사람들은 회복할 겁니다.\n\n망령의 몸은 소멸되어, 척추를 남겼습니다. 척추를 수집해 연구하거나, 파괴할 수 있습니다.</LetterRevenantKilled>
+  <LetterLabelPawnHypnotized>{PAWN_nameDef} 최면에 걸림</LetterLabelPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef}(이)가 망령에 의해 최면에 걸렸으며 이제 악몽 같은 이미지와 생각에 대해 두서없이 횡설수설하고 있습니다.\n\n망령을 죽이면 최면이 끝납니다.\n\n망령은 초능력을 사용해 주변에 있는 자들의 인식을 왜곡시켜, 스스로를 보이지 않게 만듭니다. 그러나, 여전히 망령이 남기는 검은 얼룩을 따라가 공격할 수 있습니다. 망령은 폭발성 무기, 소방거품, EMP, 불, 교란 신호탄에 맞으면 모습이 드러납니다.\n\n망령을 죽이지 않으면, 새로운 희생자를 계속해서 최면에 걸리게 할 겁니다.</LetterPawnHypnotized>
+  <LetterRevenantFleshChunkLabel>망령 살 덩어리</LetterRevenantFleshChunkLabel>
+  <LetterRevenantFleshChunkText>상처 입은 망령이 스스로의 일부를 뒤에 남겼습니다. 이 살 덩어리를 분석해 망령 추적 방법을 배울 수 있습니다.</LetterRevenantFleshChunkText>
+  <LetterRevenantSeenLabel>발견된 망령</LetterRevenantSeenLabel>
+  <LetterRevenantSeen>{PAWN_nameDef}(이)가 숨어 있는 망령을 봤습니다!</LetterRevenantSeen>
+  <InTrance>무아지경 상태.</InTrance>
+  <LetterLabelRevenantEmergence>망령 출현</LetterLabelRevenantEmergence>
+  <LetterRevenantEmergence>망령이 척추에서 안전하게 재출현했습니다! 탈출하기 전에 파괴하세요.\n\n이 과정에서, 망령은 변이했으며 새로운 생명신호를 선택했습니다.</LetterRevenantEmergence>
+
+  <!-- Sightstealers -->
+  <LetterLabelSightstealerRevealed>시야도둑 드러남</LetterLabelSightstealerRevealed>
+  <LetterSightstealerRevealed>뒤틀린 생물이 난데없이 나타났습니다!</LetterSightstealerRevealed>
+  <MessageSightstealerRevealed>시야도둑이 나타났습니다!</MessageSightstealerRevealed>
+  <LetterLabelSightstealerHowl>시야도둑 비명지름</LetterLabelSightstealerHowl>
+  <LetterSightstealerHowl>정착민이 멀리에서 시야도둑이 비명지르는 것을 들었습니다.\n\n시야도둑이 어디에 있는지, 얼마나 있는지 알기 어렵습니다. 바로 도착하거나 며칠 후에 도착할 수 있습니다.</LetterSightstealerHowl>
+  <LetterLabelSightstealerHowlBig>시야도둑 울부짖음</LetterLabelSightstealerHowlBig>
+  <LetterSightstealerHowlBig>정착민이 멀리에서 아주 많은 시야도둑이 뒤틀린 분노 속에 비명지르는 것을 들었습니다. 그들이 오고 있습니다.\n\n그들은 바로 도착하거나 며칠 후에 도착할 수 있습니다.</LetterSightstealerHowlBig>
+
+  <!-- Death Pall -->
+  <LetterLabelDeathPallEnded>죽음의 천 걷히는 중</LetterLabelDeathPallEnded> 
+  <LetterDeathPallEnded>죽음의 천이 들어 올려지고 있습니다. 죽음의 천에 의해 되살려진 시체는 곧 원래 상태로 돌아갈 겁니다.</LetterDeathPallEnded>
+  
+  <!-- Pit Gate -->
+  <LetterLabelGateClosing>구덩이 문 닫히는 중</LetterLabelGateClosing>
+  <LetterGateClosing>구덩이 문이 닫히고 있습니다! 입구가 허물어지려고 합니다.\n\n구덩이 문 입구는 처음부터 불안정했습니다. 결국 입구가 봉쇄됩니다.</LetterGateClosing>
+  <MustPlaceNextToPitGate>구덩이 문에 가까이 위치해야 합니다.</MustPlaceNextToPitGate>
+  <PitGateClosedHumanityNote>구덩이 문 닫힘</PitGateClosedHumanityNote>
+  <PitGateCollapsing>구덩이 문 붕괴 중</PitGateCollapsing> 
+  <PitGateSettling>구덩이 문 내려앉는 중</PitGateSettling> 
+  <ViewUndercave>지하동굴 보기</ViewUndercave> 
+  <ViewUndercaveDesc>연결된 지하동굴 지도를 봅니다.</ViewUndercaveDesc>
+  <ViewSurface>표면 보기</ViewSurface>
+  <ViewSurfaceDesc>연결된 표면 지도를 봅니다.</ViewSurfaceDesc>
+  <EmergenceWarningLabel>구덩이가 웅웅댐</EmergenceWarningLabel>
+  <EmergenceWarningText>땅이 발밑에서 흔들리며 구덩이 속에서 들리는 인간이 아닌 것들의 비명이 가까워지는 것 같습니다. 뭔가 곧 나타날 것 같습니다.</EmergenceWarningText>
+
+  <!-- Pit Burrow -->
+  <DesignatorFillIn>채우기</DesignatorFillIn>
+  <DesignatorFillInDesc>이 구덩이 굴을 채우세요.</DesignatorFillInDesc>
+
+    <!-- Undercave -->
+  <EnterPitGate>구덩이 문으로 들어가기</EnterPitGate> 
+  <ExitPitGate>표면으로 올라가기</ExitPitGate>
+  <LetterLabelGateEntered>살짐승의 집</LetterLabelGateEntered> 
+  <LetterGateEntered>구덩이 문 깊숙이에서, 살짐승으로 가득한 거대한 동굴 시스템을 발견했습니다.\n\n동굴 시스템은 살아 있는 살 덩어리로 엉겨 붙어 당신이 앞으로 가지 못하게 합니다. 살덩이를 공격해 파괴하세요.\n\n전체 동굴 시스템은 불안정해 보입니다. 이 살덩이 뒤에 무엇이 있는지 알아내면, 터널을 붕괴시키고 구덩이 문을 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
+  <LetterLabelDreadmeldWarning>꿈틀거리는 소리</LetterLabelDreadmeldWarning> 
+  <LetterDreadmeldWarning>{PAWN_nameDef}(이)가 이곳의 살덩이로 다가오는 동안, 따뜻한 표면 아래에서 무언가가 심하게 몸부림치고 고동치는 것을 느낍니다. 살아 있는 어떤 거대한 실체가 살로 된 벽 뒤에 숨겨져 있습니다.</LetterDreadmeldWarning> 
+  <LetterLabelUndercaveCollapsing>지하동굴 불안정함</LetterLabelUndercaveCollapsing> 
+  <LetterUndercaveCollapsing>드레드멜드의 죽음이 살덩이에게 충격을 주었으며 동굴 생태계를 불안정하게 만들었습니다. 동굴을 지지하던 살덩이는 벌써 약화되기 시작했습니다. 반나절 안에, 전체 동굴이 붕괴할 겁니다.\n\n너무 늦기 전에 지하동굴에서 나오세요!</LetterUndercaveCollapsing>
+
+  <!-- Holding platform -->
+  <HoldingThing>수용 중</HoldingThing>
+  <RemoveFromPlatform>{0_labelShort} 제거</RemoveFromPlatform>
+  <RemoveFromPlatformDesc>플랫폼이 현재 수용 중인 실체를 제거합니다.</RemoveFromPlatformDesc>
+  <ReleasingEntity>에서 {GERUND} {TARGETLABEL}</ReleasingEntity>
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
+  <SelectHoldingPlatform>수용 플랫폼 선택하기</SelectHoldingPlatform>
+  <LetterLabelEscapingFromHoldingPlatform>실체 탈출</LetterLabelEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>다음 실체가 억제에서 탈출했습니다.\n\n{0}\n\n더 강한 억제실을 건축해 실체들이 탈출하지 못하게 하세요. 튼튼한 벽과 문, 좋은 조명, 특수 억제 장치에서 오는 높은 억제력을 가진 수용 플랫폼이라면 시체들이 탈출할 가능성이 낮습니다.</LetterEscapingFromHoldingPlatform> 
+  <HoldingPlatformRequiresStrength>{0} 필요</HoldingPlatformRequiresStrength>
+  <NoHoldingPlatformsAvailable>사용 가능한 수용 플랫폼이 없습니다.</NoHoldingPlatformsAvailable>
+  
+  
+  <!-- Obelisks -->
+  <MutatorObeliskLetterLabel>오벨리스크 활성화</MutatorObeliskLetterLabel>
+  <MutatorObeliskLetter>오벨리스크가 활성 중입니다! 오벨리스크가 소름끼치는 에너지로 부풀며 주위의 공기가 치직거리고 있습니다. 자폭하여 엄청난 폭발을 하기 전에 오벨리스크는 감지할 수 있는 모든 생물에 흉측한 변화의 힘을 사용할 것입니다.</MutatorObeliskLetter>
+
+  <ObeliskTentacleLetterLabel>오벨리스크 돌연변이</ObeliskTentacleLetterLabel>
+  <ObeliskTentacleLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(이)가 팔이 간지럽다고 느낍니다. 잠시 후, 몸에서 살이 성장해 분출하여 {PAWN_possessive} 피부가 부풀어 터집니다. 팔이 꿈틀거리는 촉수로 대체되었습니다!\n\n{PAWN_nameDef}(은)는 혈액을 약간 잃었지만, 그 외에는 다치지 않은 것 같습니다.</ObeliskTentacleLetter>
+
+  <ObeliskFleshWhipLetterLabel>오벨리스크 돌연변이</ObeliskFleshWhipLetterLabel>
+  <ObeliskFleshWhipLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(이)가 팔이 간지럽다고 느낍니다. 잠시 후, 몸에서 파열하며 자라 {PAWN_possessive} 피부가 격렬하게 부풀어 터집니다. 팔이 끝에 뼈로 된 날이 달린 촉수로 대체되었습니다!\n\n{PAWN_nameDef}(은)는 혈액을 약간 잃었지만, 그 외에는 이 충격적인 사건으로 다치지 않은 것 같습니다. 촉수는 흉측하지만, 훌륭한 근접 무기가 될 겁니다.</ObeliskFleshWhipLetter>
+
+  <MutatorObeliskFailedArmLetterLabel>오벨리스크 상호작용</MutatorObeliskFailedArmLetterLabel>
+  <MutatorObeliskFailedArmLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 잠깐 팔이 간지럽다고 느낍니다. 그 느낌은 사라집니다.\n\n오벨리스크가 {PAWN_nameDef}(을)를 돌연변이로 만들려고 했으나 실패했습니다.</MutatorObeliskFailedArmLetter>
+
+  <ObeliskFleshmassStomachLetterLabel>오벨리스크 돌연변이</ObeliskFleshmassStomachLetterLabel>
+  <ObeliskFleshmassStomachLetter>오벨리스크과 상호작용하는 동안, {PAWN_nameDef}(은)는 갑자기 조직이 요동치고 변화하려는 것처럼 위에 날카로운 고통을 느낍니다. 위는 어느 정도 지각이 있는 살 덩어리로 변형되었습니다. 이것이 생산하는 가혹한 산성은 고통스럽지만 식중독을 막아줍니다.</ObeliskFleshmassStomachLetter>
+
+  <MutatorObeliskFailedStomachLetterLabel>오벨리스크 상호작용</MutatorObeliskFailedStomachLetterLabel>
+  <MutatorObeliskFailedStomachLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 잠깐 위가 아프다고 느낍니다. 그 느낌은 사라집니다.\n\n오벨리스크가 {PAWN_nameDef}(을)를 돌연변이로 만들려고 했으나 실패했습니다.</MutatorObeliskFailedStomachLetter>
+
+  <ObeliskFleshmassLungLetterLabel>오벨리스크 돌연변이</ObeliskFleshmassLungLetterLabel>
+  <ObeliskFleshmassLungLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 갑자기 폐가 붓고 뒤틀리려는 것처럼 가슴에 날카로운 고통을 느낍니다. 폐는 어느 정도 지각이 있는 고통스러운 살 덩어리로 변형되었습니다. 조직은 계속해서 스스로 재성장하고 대체하여, 폐렴과 천식 같은 영향에 면역력이 있도록 만듭니다.</ObeliskFleshmassLungLetter>
+
+  <MutatorObeliskFailedLungLetterLabel>오벨리스크 상호작용</MutatorObeliskFailedLungLetterLabel>
+  <MutatorObeliskFailedLungLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 잠깐 폐에 통증을 느낍니다. 그 느낌은 사라집니다.\n\n오벨리스크가 {PAWN_nameDef}(을)를 돌연변이로 만들려고 했으나 실패했습니다.</MutatorObeliskFailedLungLetter>
+
+  <ObeliskAnimalMutationLetterLabel>오벨리스크 돌연변이</ObeliskAnimalMutationLetterLabel>
+  <ObeliskAnimalMutationLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 에너지가 갑자기 튀는 것을 관찰했습니다. 오벨리스크는 격렬하게 {ANIMAL}의 살을 뒤틀어, 흉측한 살짐승으로 만들었습니다.</ObeliskAnimalMutationLetter>
+
+  <ObeliskTreeMutationLetterLabel>오벨리스크 돌연변이</ObeliskTreeMutationLetterLabel>
+  <ObeliskTreeMutationLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 에너지가 갑자기 고동치는 것을 관찰했습니다. 오벨리스크는 근처의 나무를 뒤틀어 전조의 나무로 만들었습니다. 이 괴물 같은 나무는 근처의 시체와 생고기를 먹을 수 있습니다.</ObeliskTreeMutationLetter>
+
+  <ObeliskDuplicationLetterLabel>오벨리스크 복제</ObeliskDuplicationLetterLabel>
+  <ObeliskDuplicationLetter>{PAWN_nameDef}(이)가 오벨리스크와 상호작용하는 동안, 오벨리스크가 에너지로 고동치며 섬광을 만들었습니다. {PAWN_nameDef}(은)는 자신의 복사본과 자신의 얼굴을 마주했습니다! 복사본은 자신이 진짜 {PAWN_nameDef}(이)라고 주장하며 당신의 정착지에 합류했습니다.</ObeliskDuplicationLetter>
+
+  <ObeliskDuplicationFailedLetterLabel>오벨리스크 실패</ObeliskDuplicationFailedLetterLabel>
+  <ObeliskDuplicationFailedLetter>{PAWN_nameDef}(이)가 오벨리스크를 작동시키려고 시도했지만 아무것도 일어나지 않았습니다. {PAWN_nameDef}의 무언가가 오벨리스크가 {PAWN_objective}(을)를 복사하는 걸 막고 있습니다.</ObeliskDuplicationFailedLetter>
+  
+  <ObeliskDuplicationSuccessMessage>{PAWN_nameDef}(이)가 성공적으로 오벨리스크 복제를 작동시켰습니다.</ObeliskDuplicationSuccessMessage>
+
+  <ObeliskHostileDuplicateLetterLabel>적대적 오벨리스크 복제</ObeliskHostileDuplicateLetterLabel>
+  <ObeliskHostileDuplicateLetter>{PAWN_nameDef}(이)가 오벨리스크와 상호작용하는 동안, 오벨리스크가 에너지로 고동치며 섬광을 만들었습니다. {PAWN_nameDef}(은)는 {PAWN_objective} 자신의 복사본과 {PAWN_objective} 자신의 얼굴을 마주했습니다. 복사본은 {PAWN_nameDef}에게 살의를 가지고 접근하고 있습니다!</ObeliskHostileDuplicateLetter>
+
+  <DuplicatorObeliskLetterLabel>오벨리스크 활성화</DuplicatorObeliskLetterLabel>
+  <DuplicatorObeliskLetter>오벨리스크가 활성 중입니다! 주위의 공기가 치지직대고 있습니다. 정착민의 본사본은 곧 살의를 가지고 나타날 겁니다.\n\n조심하세요, 불안정한 에너지가 오벨리스크 속을 흐르고 있으며 언제든 폭발할 수 있습니다.</DuplicatorObeliskLetter>
+
+  <ObeliskAbductorLetterLabel>정착민 사라지는 중</ObeliskAbductorLetterLabel>
+  <ObeliskAbductorLetter>비뚤어진 오벨리스크가 주위의 공간을 뒤틀며 에너지로 치직대고 있습니다. 모든 종류의 생물이 사라지기 시작하며 곧 모두 없어질 겁니다.\n\n조심하세요, 불안정한 에너지가 오벨리스크 속을 흐르고 있으며 언제든 폭발할 수 있습니다.</ObeliskAbductorLetter>
+  
+  <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} 사라지는 중</ObeliskAbductedDisappearingLetterLabel>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef}(이)가 비뚤어진 오벨리스크의 활동을 알아챘습니다. 신비한 내부 구조가 살아나, {PAWN_nameDef}(을)를 사라지게 하고 있습니다. {PAWN_pronoun}는 곧 완전히 사라질 겁니다.</ObeliskAbductedDisappearingLetter>
+  
+  <ObeliskAbductedLetterLabel>{PAWN_nameDef} 다시 나타남</ObeliskAbductedLetterLabel>
+  <ObeliskAbductedLetter>{PAWN_nameDef}(은)는 이상한 방으로 순간 이동했습니다. 벽은 정체를 알 수 없는 회색 물질이며 공기는 완전히 멈춰 있습니다. 자신이 어디에 있는지, 어떻게 집에 가야할지 모릅니다.\n\n근처의 문은 움직이지 않지만 힘을 좀 쓰면 강제로 열 수 있을 것 같습니다. 움직이지 않는 문을 우클릭해 여세요.\n\n오벨리스크를 연구해, 다른 정착민이 {PAWN_nameDef}에게 무슨 일이 일어났는지 이해하고 도울 방법을 찾을지도 모릅니다. 대신에 오벨리스크를 공격하면 더 많은 정착민을 납치하도록 할 수 있습니다.</ObeliskAbductedLetter>
+
+  <MutatorObeliskMutated>{PAWN_nameIndef}(이)가 살짐승으로 변화했습니다.</MutatorObeliskMutated>
+  <MutatorObeliskSpawned>살짐승이 땅에서 출현했습니다.</MutatorObeliskSpawned>
+
+  <ObeliskActivateDesc>비뚤어진 오벨리스크를 완전히 활성화하세요.</ObeliskActivateDesc>
+  <ObeliskActivateDescWarning>경고: 비뚤어진 오벨리스크는 불안정합니다. 완전히 활성화하면 위험한 반응을 불러일으킬 수 있으며 오벨리스크가 자폭할 수 있습니다.</ObeliskActivateDescWarning>
+
+  <ObeliskDeactivateMissingShards>비활성화를 위해 {0}개의 조각이 필요함</ObeliskDeactivateMissingShards>
+  
+  <!-- Activity / Supression -->
+  <ActivityLevel>활동 레벨</ActivityLevel>
+  <IsPsychicallySuppressed>정신 억제</IsPsychicallySuppressed>
+  <ActivityIncrease>증가율</ActivityIncrease>
+  <NotInSealedRoom>봉쇄된 방에 있지 않음</NotInSealedRoom>
+  <EnergyHarvesting>에너지 수확 중</EnergyHarvesting>
+  <Unstable>불안정</Unstable>
+  <BaseLevel>기본 레벨</BaseLevel>
+  <IsActive>활성화됨</IsActive>
+  <Resisted>저항</Resisted>
+  <HealthFactor>피해</HealthFactor>
+  <Deactivated>비활성화됨.</Deactivated> <!-- -->
+
+  <CommandSent>{PAWN_labelShort}(이)가 보내졌습니다.</CommandSent>
+  <CannotActivateEntity>실체를 활성화할 수 없음</CannotActivateEntity>
+  <CannotActivateEntityPlatform>실체가 플랫폼 위에 있어야 함</CannotActivateEntityPlatform>
+  
+  <ActivityGizmo>활동</ActivityGizmo>
+  <ActivitySuppressionTooltipTitle>자동 억제</ActivitySuppressionTooltipTitle>
+  <ActivitySuppressionTooltipDisabled>자동 억제가 현재 비활성화되어있습니다. 활성화하여 간수가 {PAWN_labelShort}(을)를 억제하도록 하세요.</ActivitySuppressionTooltipDisabled>
+  <ActivitySuppressionTooltipDesc>{0}의 활동 레벨이 시간이 지나면서 증가합니다. {0}(이)가 다쳤거나 화났다면 활동은 더 빠르게 증가합니다.\n\n만약 활동 레벨이 100%에 도달하면, {0}(이)가 활성화됩니다.\n\n간수는 {0}(을)를 억제해 활동을 안전한 레벨에 유지할 수 있습니다. 간수는 그의 활동이 지정된 레벨({LEVEL}\n\n)보다 높을 때마다 그를 억제할 겁니다.더 높은 행동 레벨을 가진 실체를 연구하면 더 많은 지식을 줍니다.</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>이는 {PAWN_labelShort}의 활동이 {LEVEL}보다 낮을 때 자동으로 억제될지를 결정합니다.\n\n자동 억제는 현재 {ONOFF} 상태입니다.</ActivitySuppressionToggleTooltipDesc>
+
+  <!-- Activity Descs -->
+  <ActivityLevelDesc>활동 레벨</ActivityLevelDesc>
+  <PsychicallySuppressedDesc>정신 억제</PsychicallySuppressedDesc>
+
+  <!-- Entity study -->
+  <CaptureEntity>포획</CaptureEntity>
+  <CaptureEntityDesc>{0_definite}(을)를 포획하세요. 이것은 수용 플랫폼 위에 억제되어 있어야 합니다. 억제되면, 연구될 수 있습니다.</CaptureEntityDesc>
+  <CancelCapture>포획 취소</CancelCapture>
+  <CancelCaptureDesc>{0_definite} 포획을 취소합니다.</CancelCaptureDesc>
+  <ReadyToStudy>연구 준비</ReadyToStudy>
+  <NoActiveResearchProject>{0} 지식 카테고리를 위해 선택된 활성 이상 현상 연구 과제가 없습니다.</NoActiveResearchProject>
+  <Capturable>포획 가능</Capturable>
+  <RequiresHoldingPlatform>수용 플랫폼에서 포획되어야 합니다.</RequiresHoldingPlatform>
+  <ChooseNociosphereDest>노셔스피어이 순간이동할 장소를 선택하세요.</ChooseNociosphereDest>
+  <TransferEntity>{0_definite} 이전</TransferEntity>
+  <TransferEntityDesc>억제된 실체를 다른 수용 플랫폼으로 이전하세요.</TransferEntityDesc>
+  <CancelTransfer>이전 취소</CancelTransfer>
+  <CancelTransferDesc>이 실체의 다른 수용 플랫폼으로의 이전을 취소하세요.</CancelTransferDesc>
+  
+  <!-- Metalhorrors -->
+  <EmergedFrom>다음의 장소에서 출현</EmergedFrom>
+  <Emerging>메탈호러 출현 중</Emerging>
+  
+  <ImplantSourceUnknown>정착지 도착 이전에 이식됨</ImplantSourceUnknown>
+  <InsectImplant>이식자 곤충</InsectImplant>
+  <SleepImplant>{SOURCE_nameDef}(이)가 수면 동안 이식됨</SleepImplant>
+  <SurgeryImplant>{SOURCE_nameDef}(이)가 수술 동안 이식됨</SurgeryImplant>
+  <FoodImplant>{SOURCE_nameDef}(이)가 조리한 식사를 통해 이식됨</FoodImplant>
+  <UnnaturalHealingImplant>{SOURCE_nameDef}(이)가 부자연적 치료 동안 이식됨</UnnaturalHealingImplant>
+  <FeedingImplant>{SOURCE_nameDef}(이)가 식사를 먹였을 때 이식됨</FeedingImplant>
+
+  <MetalhorrorEmergingLabel>메탈호러 출현 중</MetalhorrorEmergingLabel>
+  <MetalhorrorEmergingDesc>메탈호러가 출현 중입니다! 날이 달린 이 악몽 같은 생물은 살과 피부를 가르고, 숙주를 향해 베어나가고 있습니다. 메탈호러가 다음의 장소에서 출현 중입니다.</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingPluralDesc>메탈호러들이 출현 중입니다! 날이 달린 이 악몽 같은 생물들은 살과 피부를 가르고, 숙주를 향해 베어나가고 있습니다. 메탈호러들이 다음의 장소에서 출현 중입니다.</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingDescAppended>이 무서운 금속 기생충은 희생자 안에 살며, 희생자의 몸과 뇌에 퍼뜨리는 머리카락 두께의 필라멘트의 네트워크를 통해 고급 사고를 지배합니다. 희생자의 정신을 조종하며 다른 사람을 새로운 메탈호러로 감염시키도록 강제합니다.</MetalhorrorEmergingDescAppended>
+  
+  <MetalhorrorSurgicalInspectionDetails>이 의사들은 메탈호러가 들끓고 있으며 메탈호러로 조종당하고 있었습니다, 그러니 외과 검사에 대해 거짓말을 한 겁니다</MetalhorrorSurgicalInspectionDetails>
+  
+  <MetalhorrorReasonInteraction>사교 과정에서 {PAWN_nameDef}(이)가 메탈호러를 발견했기 때문에 {INFECTED_nameDef}의 메탈호러가 출현했습니다.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInterrogation>심문 과정에서 {PAWN_nameDef}(이)가 메탈호러를 발견했기 때문에 {INFECTED_nameDef}의 메탈호러가 출현했습니다.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonHostDied>{INFECTED_nameDef}(이)가 죽었기 때문에 {INFECTED_nameDef}의 메탈호러가 출현했습니다.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonSurgeryInspected>외과 검사 동안 {PAWN_nameDef}(이)가 메탈호러를 감지했기 때문에 {INFECTED_nameDef}의 메탈호러가 출현했습니다.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonRandom>{INFECTED_nameDef}의 메탈호러가 알 수 없는 이유로 출현했습니다.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonTriedToLeaveMap>{INFECTED_nameDef}의 메탈호러가 정착지에서 없어지고 있다는 것을 감지하여 출현했습니다.</MetalhorrorReasonTriedToLeaveMap>
+  
+  <MetalhorrorDetected>메탈호러 감지됨</MetalhorrorDetected>
+  <InteractionDetectedDesc>{PAWN_nameDef}(이)가 대화 동안 {INFECTED_nameDef}(이)가 무언가 이상하다는 것을 알아챘습니다. {INFECTED_nameDef}(은)는 부자연스러운 행동, 이상한 목소리, 눈 속에는 희미한 금속 벌레를 드러냈습니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 메탈호러에 감염되었다고 의심합니다.</InteractionDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef}(은)는 {INFECTED_nameDef}(을)를 심문하는 도중 뭔가 부자연스럽다고 느낍니다. {INFECTED_nameDef}(은)는 부자연스러운 행동, 이상한 목소리, 눈 속에는 희미한 금속 벌레를 드러냈습니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 메탈호러에 감염되었다고 의심합니다.</InterrogationDetectedDesc>
+  
+  <MetalhorrorNoticedDetailsAppended>메탈호러는 기생충으로 숙주를 지배하고 {INFECTED_objective}(을)를 사용해 다른 이들을 감염시킵니다.\n\n메탈호러는 시간이 지나면서 안에서 강해집니다. 메탈호러는 감지되었다는 것을 알게 되면 숙주의 몸을 베고 빠져나옵니다. 그 과정은 끔찍하지만, 숙주는 보통 살아남습니다.\n\n메탈호러에 감염되었는지 알 수 있는 유일한 방법은 메탈호러의 살 잔여물을 연구해 생명신호를 확인한 후, 믿음직한 의사로 외과 검사 작업을 사용하는 겁니다.\n\n발견한 후, 외과 검사 작업을 사용해 메탈호러가 숙주에서 벗어나게 할 수 있습니다. 전투를 준비하세요.</MetalhorrorNoticedDetailsAppended>
+  
+  <LetterGrayFleshDiscoveredLabel>회색 살</LetterGrayFleshDiscoveredLabel>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef}(이)가 살 조직 조각을 발견했습니다. 작은 금속 입자로 회색 착색이 된 인간의 피부와 비슷합니다. 살 액화 과정 중 누군가에게서 벗겨졌을 겁니다.\n\n이곳의 누군가는 보이는 것과는 다를 수 있습니다.\n\n범인을 알아내는 방법은 여러 가지가 있습니다.\n\n{METHODS}\n\n경고: 일부 기생충은 정신을 조종할 수 있고 심지어는 다른 이들에게 전염시킬 수도 있습니다.</LetterGrayFleshDiscovered>
+  
+  <LetterInterrogationUnlocked>수감자 “심문” 상호작용이 이제 잠금 해제되었습니다.</LetterInterrogationUnlocked>
+  
+  <LetterGrayFleshMethodOne>누군가를 감금한 뒤 간수를 보내 진짜 정체성에 대해 심문하세요. 이는 수일이 걸릴 수 있습니다.</LetterGrayFleshMethodOne>
+  <LetterGrayFleshMethodTwo>더 많은 회색 살을 모아 분석하여 위협의 생명신호를 알아내세요. 그리고, 외과 검사 작업을 사용해 생명신호를 찾으세요. 충분한 샘플을 모으는 데 오랜 시간이 걸릴 수 있으며, 수술은 외과적입니다.</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodThree>의심되는 사람이 누구든 처형하거나 추방하세요.</LetterGrayFleshMethodThree>
+  
+  <LetterMetalhorrorReawakeningLabel>메탈호러 깨어나는 중</LetterMetalhorrorReawakeningLabel>
+  <LetterMetalhorrorReawakening>메탈호러가 방해를 받아 다시 깨어나는 중입니다!</LetterMetalhorrorReawakening>
+
+  <MessageMetalHorrorDormant>메탈호러가 동면을 시작합니다. 방해를 받으면 다시 깨어날 겁니다.</MessageMetalHorrorDormant>
+  
+  <MetalhorrorDormant>동면 중. 방해 받으면 깨어날 것임.</MetalhorrorDormant>
+  
+  <!-- Surgical inspection -->
+  <LetterSurgicallyInspectedLabel>외과 검사 결과</LetterSurgicallyInspectedLabel>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef}(이)가 {PATIENT_nameDef}의 광범위한 외과 검사를 행했습니다.</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun}(이)가 말하길 {DOCTOR_pronoun}(은)는 아무 이상을 찾을 수 없다고 합니다. 하지만 의사가 사익을 추구하고 있다면 거짓말을 할 수도 있습니다.</LetterSurgicallyInspectedNothing>
+  
+  <!-- Death refusal -->
+  <DeathRefusalUseSingular>사용</DeathRefusalUseSingular>
+  <DeathRefusalUsePlural>사용</DeathRefusalUsePlural>
+  <SelfResurrecting>자가 부활 중</SelfResurrecting>
+
+  <!-- Harbinger Tree -->
+  <HarbingerTreeConsumption>근처 전조의 나무</HarbingerTreeConsumption>
+  <HarbingerTreeSprouted>새로운 전조의 나무가 싹을 틔웠습니다.</HarbingerTreeSprouted>
+  <HarbingerTreeConsuming>살 섭취 중.</HarbingerTreeConsuming>
+  <HarbingerTreeNotConsuming>근처에 놓인 시체와 고기를 섭취할 것입니다.</HarbingerTreeNotConsuming>
+  <ConsumedByHarbingerTree>전조의 나무에 의해 섭취되는 중입니다.</ConsumedByHarbingerTree>
+  <FleshConsumption>살 섭취</FleshConsumption>
+  <CreateCorpseStockpile>시체 저장구역 생성</CreateCorpseStockpile>
+  <CreateCorpseStockpileDesc>전조의 나무 주위에 시체를 위한 투기 저장구역을 생성하세요.\n\n전조의 나무는 근처 시체와 생고기를 섭취할 겁니다. 잘 먹으면, 나무는 더 빨리 자랄 것이며 새로운 전조의 나무를 생성할 겁니다.</CreateCorpseStockpileDesc>
+
+  <VoidNodeDisabled>공허 노드가 비활성화되었습니다.</VoidNodeDisabled>
+
+  <!-- Creepjoiners -->
+  <LetterCreeperAppearedAppended>{PAWN_pronoun}가 말을 하고 싶어합니다. 정착민을 보내 {PAWN_pronoun}가 하고 싶어하는 말이 뭔지 들을 수 있습니다.</LetterCreeperAppearedAppended>
+  <LetterCreeperInviteJoins>{PAWN_nameDef}(이)가 합류하고 싶어합니다</LetterCreeperInviteJoins>
+  <LetterCreeperInviteAppend>{PAWN_pronoun}는 아주 유용할지 몰라도, {PAWN_nameDef}(이)가 말하지 않은 무언가가 있다는 느낌이 듭니다.</LetterCreeperInviteAppend>
+  
+  <AcceptCreeper>{PAWN_nameDef} 합류 허용</AcceptCreeper>
+  <CaptureCreeper>{SPEAKER_nameDef}(을)를 보내 {PAWN_nameDef}(을)를 포획</CaptureCreeper>
+  <RejectCreeper>{PAWN_nameDef} 보내기</RejectCreeper>
+  
+  <!-- Unnatural healing ability -->
+  <LetterUnnaturalHealingLabel>부자연적 치료</LetterUnnaturalHealingLabel>
+  <LetterUnnaturalHealing>{CASTER_nameDef}(이)가 {PAWN_nameDef}에 대한 {CASTER_possessive} 초정신적 치료를 마쳤습니다.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealingTentacle>그러나, 뭔가 끔찍하게 잘못되었습니다.\n\n{PAWN_nameDef}{PAWN_possessive} 몸에서 무언가가 격렬하게 자라나와 의 팔이 부풀어 터졌습니다. {PAWN_possessive} 팔은 살로 된 촉수로 대체되었습니다!</LetterUnnaturalHealingTentacle>
+  
+  <!-- Transmutation ability -->
+  <MessageTransmutedItem>{PAWN_nameDef}(이)가 {ORIGINAL}(을)를 {TRANSMUTED}(으)로 변화시켰습니다.</MessageTransmutedItem>
+  <MessageTransmutedStuff>{PAWN_nameDef}(이)가 {ORIGINAL_labelShortIndef}(을)를 {TRANSMUTED_labelShortIndef}(으)로 변화시켰습니다.</MessageTransmutedStuff>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef}(이)가 {ORIGINAL_labelPluralIndef}(을)를 {TRANSMUTED_labelPluralIndef}(으)로 변화시켰습니다.</MessageTransmutedStuffPlural>
+  
+  <!-- Electroharvester -->
+  <ElectroharvesterNoEntity>억제된 실체 없음.</ElectroharvesterNoEntity>
+  <ElectroharvesterNoPlatform>수용 플랫폼에 연결되지 않음.</ElectroharvesterNoPlatform>
+  
+  <!-- Fleshmass Heart -->
+  <FleshmassHeartInvulnerable>취약함. 살덩이 신경 혹을 분석해 이를 파괴하세요.</FleshmassHeartInvulnerable>
+  <FleshmassHeartGrowing>성장 중인 살덩이.</FleshmassHeartGrowing>
+  <FleshmassHeartCollecting>다음 성장기를 위해 바이오매스 모으는 중...</FleshmassHeartCollecting>
+  <MessageHeartAttack>살덩이 심장이 경련 중입니다!</MessageHeartAttack>
+  <LetterLabelFleshmassHeartDestroyed>살덩이 심장 쓰러짐</LetterLabelFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>살덩이 심장이 파괴되어, 부서졌지만 여전히 기능하는 중심부를 남겼습니다. 뒤틀린 살과 초월공학의 혼합체입니다. 중심은 계속해서 자라고 주위의 살덩이가 부패하는 동안에도 살을 변형시키고 있습니다.\n\n중심을 포획해 더 연구하거나 파괴하여 이 악몽을 끝낼 수 있습니다. 혼자 내버려 두면, 새로운 살덩이 심장으로 거듭날 수도 있습니다.</LetterFleshmassHeartDestroyed>
+  <NerveBundleGrewMessage>살덩이 심장이 새로운 신경 다발을 키웠습니다.</NerveBundleGrewMessage>
+  <NeuralLumpDroppedMessage>신경 다발은 신경 혹을 떨어뜨렸습니다. 신경 혹을 분석하여 살덩이 심장에 대해 더 알아보세요.</NeuralLumpDroppedMessage>
+  <DestroyHeartDisabled>살덩이 신경 혹을 수집하고 분석해야 합니다. 분석한 혹</DestroyHeartDisabled>
+  <SpitterAttacking>살덩이 스피터가 공격 중입니다!</SpitterAttacking>
+  <SpitterGatheringSpit>산 모으는 중. 준비까지</SpitterGatheringSpit>
+  <SpitterReadyToSpit>산 뱉을 준비됨.</SpitterReadyToSpit>
+
+  <ActiveFleshmassInspect>활성 살덩이. 파괴하면 살짐승이 태어날 수 있습니다.</ActiveFleshmassInspect>
+
+  <!-- Misc -->
+  <LetterLabelFleshTentacleAttack>살 촉수 공격</LetterLabelFleshTentacleAttack>
+  <LetterFleshTentacleAttack>{PAWN_nameDef}의 작업은 성공적이었습니다. 그러나, {PAWN_possessive} 촉수였던 뒤틀리는 살 덩어리가 공격하기 시작했습니다!</LetterFleshTentacleAttack>
+  <Biosignature>생명신호</Biosignature>
+  <BlissLobotomy>환희의 전두엽 절제술</BlissLobotomy>
+  <HP>hp</HP>
+  <Analyzed>분석됨</Analyzed>
+  
+  <MessageShardDropped>{0}(이)가 어둠의 초월공학을 한 조각 떨어뜨렸습니다. 수집하여 활용할 수 있습니다.</MessageShardDropped>
+  
+  <!-- Blood rain -->
+  <Berserk_BloodRain>피의 비가 {0}(을)를 정신 광란으로 몰아넣었습니다!</Berserk_BloodRain>
+  <Manhunter_BloodRain>피의 비가 {0}(을)를 살인 광란으로 몰아넣었습니다!</Manhunter_BloodRain>
+  <MentalBreakReason_BloodRage>이는 피의 분노 축적 때문에 발생했습니다.</MentalBreakReason_BloodRage>
+  
+  <!-- Unnatural corpses -->
+  <LetterLabelCorpseDisappeared>시체 사라짐</LetterLabelCorpseDisappeared>
+  <LetterCorpseDisappeared>부자연적 시체가 사라졌습니다.</LetterCorpseDisappeared>
+  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef}(이)가 침착해지기 시작했습니다.</LetterCorpseDisappearedPawnAliveAppend>
+
+  <LetterLabelCorpseReappeared>시체 나타남</LetterLabelCorpseReappeared>
+  <LetterCorpseReappeared>난데없이 {PAWN_nameDef}의 모습을 한 시체가 또 나타났습니다.</LetterCorpseReappeared>
+  
+  <MessageCorpseEscaped>{PAWN_nameDef}의 모습을 한 시체가 어쩐지 {CONTAINER_labelShort}에서 빠져나왔습니다.</MessageCorpseEscaped>
+  <MessageUnnaturalCorpseResurrect>{PAWN_nameDef} 부활에 실패했습니다. 그냥 응답하지를 않습니다.</MessageUnnaturalCorpseResurrect>
+  <MessagePawnFainted>부자연적 시체가 {PAWN_nameDef}(을)를 실신하게 만들었습니다.</MessagePawnFainted>
+  <MessageAwokenReappeared>부자연적 시체가 {PAWN_nameDef} 근처에 나타나 접근 중입니다!</MessageAwokenReappeared>
+  <MessageAwokenVanished>부자연적 시체가 사라졌습니다. 나중에 {PAWN_nameDef}(을)를 쫓아갈 겁니다.</MessageAwokenVanished>
+  <MessageAwokenAttacking>깨어난 시체가 {PAWN_nameDef}(을)를 공격하고 있습니다!</MessageAwokenAttacking>
+  <MessageAwokenKilledVictim>깨어난 시체가 {PAWN_nameDef}의 뇌를 파괴했습니다.</MessageAwokenKilledVictim>
+  <MessageAwokenDisappeared>깨어난 시체가 사라졌습니다.</MessageAwokenDisappeared>
+
+  <MentalBreakReason_MysteriousCorpse>이는 부자연적 시체의 존재 때문에 발생했습니다.</MentalBreakReason_MysteriousCorpse>
+
+  <UnnaturalCorpseStudyLetter>부자연적 시체 연구 진행</UnnaturalCorpseStudyLetter>
+  <UnnaturalCorpseStudyLetterDesc>부자연적 시체에 대한 조사가 시체에 대해 더 많은 것을 드러내 줬습니다. 그 코어에 있는 초월공학 조각은 시체를 {VICTIM_nameDef}(와)과 정신적으로 연결합니다. 파괴하면 스스로 재건하여, {VICTIM_nameDef} 근처 아무 곳으로나 순간 이동할 겁니다. \n\n{RESEARCHER_nameDef}(은)는 시체를 영구적으로 파괴하는 방법이 있다고 생각하지만 더 많은 연구가 필요합니다.</UnnaturalCorpseStudyLetterDesc>
+
+  <UnnaturalCorpseStudyCompletedLetter>부자연적 시체 연구 완료</UnnaturalCorpseStudyCompletedLetter>
+  <UnnaturalCorpseStudyCompletedLetterDesc>부자연적 시체에 대한 조사가 초월공학 조각을 어떻게 안전하게 제거하는지를 밝혀줬습니다. 그렇게 하면 {VICTIM_nameDef}(을) 정신적으로 학대하는 일을 멈출 수 있을 겁니다. 그러나, 시체에 대한 추가 연구 또한 막게 됩니다.</UnnaturalCorpseStudyCompletedLetterDesc>
+
+  <UnnaturalCorpseDeactivatedLetter>시체 조각</UnnaturalCorpseDeactivatedLetter>
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef}(이)가 부자연적 시체에서 초월공학 조각을 뽑았더니, 시체가 격렬하게 부풀어 피를 뿌리며 터졌습니다.</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef}(은)는 벌써 상태가 나아졌습니다.</UnnaturalCorpseDeactivatedLetterDescAppended>
+  
+  <UnnaturalCorpseDeactivate>부자연적 시체 파괴</UnnaturalCorpseDeactivate>
+  <UnnaturalCorpseDeactivateDesc>부자연적 시체를 영구적으로 파괴하세요.</UnnaturalCorpseDeactivateDesc>
+  <UnnaturalCorpseGuiLabel>이를 파괴할 사람을 선택하세요.</UnnaturalCorpseGuiLabel>
+  <UnnaturalCorpseJobString>파괴</UnnaturalCorpseJobString>
+  <UnnaturalCorpseActivatingEnroute>{0} 파괴 중</UnnaturalCorpseActivatingEnroute>
+  <UnnaturalCorpseActivating>{0} 파괴 중: {1}초</UnnaturalCorpseActivating>
+  
+  <UnnaturalCorpseAwakeningLetter>부자연적 시체</UnnaturalCorpseAwakeningLetter>
+  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef}(은)는 부자연적 시체가 빠르게 강해지는 것을 느낍니다. 어떤 끔찍한 의식이 안에서 움직이고 있습니다.\n\n다음 며칠 동안 뭔가 안 좋은 일이 벌어질 것입니다.</UnnaturalCorpseAwakeningLetterDesc>
+
+  <UnnaturalCorpseAwokenLetter>시체 깨어남</UnnaturalCorpseAwokenLetter>
+  <UnnaturalCorpseAwokenLetterDesc>부자연적 시체가 일어났으며 이제 {PAWN_nameDef}(을)를 향해 움직이고 있습니다!\n\n시체는 {PAWN_nameDef}(이)가 얼마나 멀리 가든 따라갈 겁니다.\n\n지금 파괴해야 합니다.</UnnaturalCorpseAwokenLetterDesc>
+
+  <UnnaturalCorpseAwokenDefeatedLetter>부자연적 시체 파괴됨!</UnnaturalCorpseAwokenDefeatedLetter>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>{PAWN_nameDef}(을)를 향해 돌진하던 부자연적 시체가 쓰러졌습니다!\n\n시체는 더 이상 {PAWN_nameDef}(을)를 고문하지 않을 겁니다.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+
+  <!-- Golden Cube -->
+  <MessageGoldenCubeSeverityIncreased>황금 큐브를 향한 {PAWN_labelShort}의 집착이 강해졌습니다.</MessageGoldenCubeSeverityIncreased>
+  <MessageGoldenCubeWithdrawal>{PAWN_labelShort}(은)는 큐브 금단 현상을 겪고 있습니다.</MessageGoldenCubeWithdrawal>
+  <MessageGoldenCubeWithdrawalIncreased>{PAWN_labelShort}의 큐브 금단 현상이 심해졌습니다.</MessageGoldenCubeWithdrawalIncreased>
+  <MessageGoldenCubeInterest>{PAWN_labelShort}(이)가 황금 큐브를 흥미로워하고 있습니다.</MessageGoldenCubeInterest>
+  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort}(은)는 {PAWN_possessive} 큐브 조각상이 파괴되어 화가 났습니다. {PAWN_pronoun}(은)는 폭력적으로 변할 수 있습니다.</MessageGoldenCubeSculptureDestroyed>
+  
+  <CannotDisableCube>{PAWN_labelShort}(이)가 황금 큐브 비활성화를 거부합니다.</CannotDisableCube>
+  
+  <LetterLabelGoldenCubeComa>큐브 혼수 상태: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
+  <LetterGoldenCubeComa>{PAWN_labelShort}의 큐브 금단 현상이 {PAWN_objective}(을)를 혼수 상태로 만들었습니다. {PAWN_pronoun}(은)는 황금 큐브의 정신적 연결이 완전히 소멸될 때까지 혼수 상태에 있을 겁니다.</LetterGoldenCubeComa>
+  
+  <MentalBreakReason_CubeSculpting>이는 {PAWN_possessive} 큐브 집착 때문에 발생했습니다.</MentalBreakReason_CubeSculpting>
+  
+  <CubeMaterialDirt>흙</CubeMaterialDirt>
+  <CubeMaterialStone>석재</CubeMaterialStone>
+  <CubeMaterialSand>모래</CubeMaterialSand>
+  <CubeMaterialScrap>폐물</CubeMaterialScrap>
+  
+  <ReportBuildingCubeEnroute>조각상을 만드는 중.</ReportBuildingCubeEnroute>
+  
+  <!-- Slaughter ability -->
+  <MessageSlaughterNoFlesh>도축할 수 없음: {PAWN_labelShort}에게 살이 없습니다.</MessageSlaughterNoFlesh>
+  <MessageSlaughterTooBig>도축할 수 없음: {PAWN_labelShort}(이)가 너무 큽니다.</MessageSlaughterTooBig>
+  
+  <!-- Labyrinth -->
+  <GeneratingLabyrinth>미로 들어가는 중</GeneratingLabyrinth>
+  <MessagePawnVanished>{PAWN_nameDef}(이)가 사라졌습니다.</MessagePawnVanished>
+  <MessagePawnReappeared>{PAWN_nameDef}(이)가 다시 나타났습니다.</MessagePawnReappeared>
+  
+  <FloorEtchingsInspectorExit>출구 방향</FloorEtchingsInspectorExit>
+  
+  <LetterLabelObeliskDiscovered>비뚤어진 오벨리스크</LetterLabelObeliskDiscovered>
+  <LetterObeliskDiscovered>{PAWN_nameDef}(이)가 거대한 오벨리스크를 발견했습니다. 원래 {PAWN_objective}(을)를 이곳으로 데려온 것과 거의 똑같아 보입니다. 어쩌면 활성화해 {PAWN_objective}(이)가 집으로 되돌아갈 수 있을지 모릅니다.\n\n{PAWN_nameDef}(을)를 선택하고 오벨리스크를 우클릭해 활성화하세요.</LetterObeliskDiscovered>
+  
+  <LetterLabelFloorEtchings>바닥 새김</LetterLabelFloorEtchings>
+  <LetterFloorEtchings>{PAWN_nameDef}(이)가 바닥 새김을 판독하는 데 성공했습니다.\n\n{RAMBLINGS}\n\n출구가 이곳의 {DIRECTION} 어딘가에 있다는 것 같습니다.</LetterFloorEtchings>
+
+  <LetterLabelFloorEtchingRamblings>바닥 새김</LetterLabelFloorEtchingRamblings>
+  <LetterFloorEtchingsRamblings>{PAWN_nameDef}(이)가 바닥 새김을 판독하는 데 성공했습니다.</LetterFloorEtchingsRamblings>
+
+  <LetterLabelLabyrinthExit>정착민 복귀</LetterLabelLabyrinthExit>
+  <LetterLabyrinthExit>윙윙대는 오벨리스크가 납치한 정착민을 돌려주었습니다. 그렇게 한 직후, 흔적도 없이 사라졌습니다.\n\n조심하세요, 오벨리스크는 다른 생물도 돌려놨을 수 있습니다.</LetterLabyrinthExit>
+
+  <GrayDoorJammed>꽉 닫힘. 강제로 열어야 함.</GrayDoorJammed>
+  <ActivatedByProximity>근접도로 활성화됨.</ActivatedByProximity>
+
+  <!-- Void monolith -->
+  <MonolithActivateDisabledPawns>사용 가능한 정착민 없음.</MonolithActivateDisabledPawns>
+  <VoidMonolithInvestigatedText>모노리스의 어두운 금속 표면은 만지면 따뜻합니다. {PAWN_nameDef}(은)는 {PAWN_pronoun}(이)가 안에서 나오는 희미한 웅웅거림이 들리는 것 같습니다. 먼지 덮인 표면 위의 선들은 불안정한 패턴으로 꿈틀대는 것 같습니다.\n\n{PAWN_nameDef}(은)는 모양에 집중하며, 그 의미를 알아내려고 노력합니다.\n\n웅웅거림이 강해집니다. 모양이 {PAWN_nameDef}의 눈앞에 흘러 들어오기 시작하지만, 표면은 바뀌지 않습니다. 힘이 빈 공간 사방에 풀리기 시작합니다. 검은 모양이 {PAWN_possessive} 정신 속에 형성되고 있습니다.\n\n이상 현상이 시작됩니다...</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigate>이상 현상에 계속 집중하기</VoidMonolithInvestigate>
+  <VoidMonolithWalkAway>걸어서 떠나기</VoidMonolithWalkAway>
+  <VoidMonolithViewQuest>임무 보기</VoidMonolithViewQuest>
+  <VoidMonolithViewResearch>이상 현상 연구 보기</VoidMonolithViewResearch>
+  <CurrentMonolithLevel>현재 모노리스 레벨</CurrentMonolithLevel>
+  <VoidMonolithUndiscovered>조사하여 더 알아보세요.</VoidMonolithUndiscovered>
+  <VoidMonolithRequiredEntityCategory>모노리스를 다음 단계로 발전시키려면, {0} {1} 등급 실체를 발견해야 합니다.</VoidMonolithRequiredEntityCategory>
+  <DiscoveredCount>발견됨: {0}</DiscoveredCount>
+  <VoidMonolithAllEntitiesDiscovered>필요한 실체 발견됨.</VoidMonolithAllEntitiesDiscovered>
+  <VoidMonolithRequiresDiscovery>레벨 상승 위해 필요</VoidMonolithRequiresDiscovery>
+  <VoidMonolithRequiresDiscoveryShort>발견되지 않은 실체</VoidMonolithRequiresDiscoveryShort>
+  <VoidMonolithRequiresCategory>{0} {1} 모노리스 실체 발견해야 함</VoidMonolithRequiresCategory>
+  <VoidMonolithVisionLabel>불안한 환영</VoidMonolithVisionLabel>
+  <VoidMonolithVisionText>{PAWN_nameDef}(은)는 이상한 꿈을 꾸었습니다. 꿈에서, 시공간으로 펼쳐지고 커지면서 시공간을 먹어치우는 검은 형체를 보았습니다. 형상은 근처의 허물어진 모노리스에서 나왔습니다.\n\n환영에서 깨어나자, {PAWN_nameDef}(은)는 이상하게도 모노리스에 끌리는 듯한 기분이 들었습니다. 모노리스는 {PAWN_objective}(을)를 부르고 있습니다.</VoidMonolithVisionText>
+  <VoidMonolithChooseActivator>이것을 할 사람을 선택하세요</VoidMonolithChooseActivator>
+  <VoidMonolithActivatorDowned>대상이 제압되었습니다</VoidMonolithActivatorDowned>
+  <VoidMonolithActivatorMentalState>대상이 정신 상태에 있음</VoidMonolithActivatorMentalState>
+  <VoidMonolithActivatorBusy>대상이 바쁨</VoidMonolithActivatorBusy>
+  <VoidMonolithActivatorIncapable>대상이 무능력함</VoidMonolithActivatorIncapable>
+  <MonolithArrivalLabel>모노리스 도착</MonolithArrivalLabel>
+  <MonolithArrivalText>정신적 신호와 상호작용하자 이상한 구조물이 나타났습니다.</MonolithArrivalText>
+  <MonolithArrivalTextExt>이전에 마주친 모노리스와 같거나, 아니면 아주 비슷합니다.</MonolithArrivalTextExt>
+  <CantActivateMonolith>모노리스 {0} 불가능</CantActivateMonolith>
+
+  <MonolithTwistingAlert>모노리스 뒤틀림</MonolithTwistingAlert>
+  <MonolithTwistingExplanation>당신의 존재는 모노리스가 뒤틀리고 변하게 만들었습니다. 곧 이 과정이 완료될 겁니다. 다음에 일어날 일에 대비하세요.</MonolithTwistingExplanation>
+  <MonolithAutoActivatingLabel>쓰러진 모노리스</MonolithAutoActivatingLabel>
+  <MonolithAutoActivatingText>공포의 물결이 정착민을 지나갑니다. 쓰러진 모노리스가 동요하기 시작했습니다. 천천히, 모노리스는 뒤틀리고 저절로 바뀌기 시작해, 뭔가 새로운 것으로 변합니다.\n\n며칠 안에, 이 과정이 완료될 겁니다. 다음에 일어날 일에 대비하세요.</MonolithAutoActivatingText>
+  <MonolithAutoActivatedLabel>공허 모노리스</MonolithAutoActivatedLabel>
+  <MonolithAutoActivatedText>모노리스의 변화가 거의 끝났습니다...</MonolithAutoActivatedText>
+
+  <LetterLabelGrayPallDescending>회색 천</LetterLabelGrayPallDescending>
+  <LetterGrayPallDescending>모래 안개 담요가 이 지역에 내려앉았습니다. 안개는 왜인지 오래된 냄새가 나며, 피부를 찌릅니다. 그 부자연적 회색이 공포를 불러일으킵니다.</LetterGrayPallDescending>
+
+  <!-- Void Awakening -->
+  <VoidAwakeningConfirmationText>공허 모노리스를 깨우면 정착지가 오랫동안 어둠에 휩싸일 것이며 강력한 실체들을 끌어들일 겁니다. 다음을 확실히 준비하세요.\n\n- 저장구역 음식, 건축 재료, 무기.\n- 정착지의 채광이 좋은지, 충분한 힘이 있는지 확인하세요. 태양광 발전기에 의존하지 마세요.\n- 정착지가 잘 방어되고 있는지, 정착민들이 싸울 준비가 됐는지 확실히 하세요.\n\n공허 모노리스를 깨우면, 되돌릴 수 없습니다.\n\n정말 계속하시겠습니까?</VoidAwakeningConfirmationText>
+  <VoidNodeLetter>탁탁거리는 정신 에너지의 몸부림치는 구체가 {PAWN_nameDef} 앞에 떠오릅니다. 그 표면은 부풀어오르고 뒤틀리며, 주위의 공간을 왜곡합니다.\n\n{PAWN_nameDef}(은)는 그것을 다른 보통 인간보다 깊숙이 {PAWN_possessive} 마음 속에서 느낍니다. 그것은 논리를 꺾고 {PAWN_objective} 공허에 표류하도록 만듭니다. {PAWN_pronoun}(은)는 힘의 무한한 검은 바다의 해안가에 서 있으며, 그것이 {PAWN_objective} 들어오라고 손짓합니다.\n\n{PAWN_nameDef}(은)는 {PAWN_objective} 자신을 흔들어 현실로 돌아옵니다.\n\n근처의 초월공학 장치는 취약한 연결을 따라 구체를 지지하고 있습니다. {PAWN_nameDef}(은)는 이를 방해하여, 세계 간의 이 연결을 끊고 고향을 괴롭힌 무시무시한 현상을 끝낼 수 있습니다.\n\n혹은, {PAWN_pronoun}(은)는 구체로 들어가 공허와 합쳐질 수 있습니다. 그 뒤에 무엇이 있는지, 그런 비인간적인 행동으로 어떤 어둠의 힘을 얻을 수 있는지는 알 수 없습니다.</VoidNodeLetter>
+  <VoidNodeDisrupt>연결 방해하기</VoidNodeDisrupt>
+  <VoidNodeEmbrace>공허를 받아들이기</VoidNodeEmbrace>
+  <VoidNodePostpone>미루기</VoidNodePostpone>
+  <DisruptTheLinkCredits>심령 흐름이 불안정하며 초월공학 기계가 비명을 지르기 시작했습니다. 소용돌이치는 공허가 깜박거립니다. {PAWN_nameDef}(은)는 그것이 그 한계를 넘어 흐르며 갑자기 자체적으로 붕괴한다고 느낍니다.\n\n금속의 동굴은 뒤틀리기 시작하며, 거대한 심실처럼 재형성되기 시작합니다. {PAWN_nameDef}(이)가 소리를 지르기도 전에, {PAWN_pronoun}(은)는 소멸합니다.\n\n{PAWN_nameDef}(은)는 공허를 거부했습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</DisruptTheLinkCredits>
+  <EmbraceTheVoidCredits>{PAWN_nameDef}(이)가 공허로 들어가자 검은 바다가 {PAWN_objective} 안으로 흘러들어와, 모든 감각을 압도하고, {PAWN_possessive} 몸의 모든 세포와 {PAWN_possessive} 정신의 모든 생각에 퍼집니다.\n\n공허 노드는 세계에서부터 한 사람에게 다시 집중되었습니다. 공허 구조물은 그 초자연적인 토대에서 찢겨지며 비명을 지르고, 존재가 소멸됩니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들였습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</EmbraceTheVoidCredits>
+  <StructureActivatedMessage>{PAWN_nameDef}(이)가 {STRUCTURE_definite} 활성화를 마쳤습니다</StructureActivatedMessage>
+  <StructuresActivatedAlertLabel>구조물 활성화됨</StructuresActivatedAlertLabel>
+  <StructuresActivatedAlertDescription>공허 구조물을 활성화해 모노리스 깨우기를 완료하세요.</StructuresActivatedAlertDescription>
+  <GleamingMonolithInterrupted>공허 모노리스와 {PAWN_nameDef}의 연결이 깨졌습니다. 다시 활성화되어야 합니다.</GleamingMonolithInterrupted>
+
+  <!-- HediffComp_GiveLovinMTBFactor -->
+  <IncreasesChanceOfLovin>성관계 확률이 올라갑니다.</IncreasesChanceOfLovin>
+
+  <UnnaturalCorpse>부자연적 {0_label} 시체</UnnaturalCorpse>
+
+  <!-- Studiable -->
+  <KnowledgeFactorOutdoors>연구에서 얻는 지식 감소됨</KnowledgeFactorOutdoors>
+
+  <!-- Unnatural darkness -->
+  <EmergenceIn>출현까지 {0}</EmergenceIn>
+  <EmergenceInDesc>무언가가 땅에서 출현하기까지 {0}.</EmergenceInDesc>
+  
+  <!-- Bioferrite harvester -->
+  <BioferriteHarvesterContained>바이오페라이트 포함됨</BioferriteHarvesterContained>
+  <BioferriteHarvesterPerDay>/ 일</BioferriteHarvesterPerDay>
+  <BioferriteHarvesterEjectContents>내용물 배출</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContentsDesc>담겨있는 모든 {0}(을)를 바닥으로 배출합니다.</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterToggleUnloading>바이오페라이트 비우기 토글</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloadingDesc>활성화 시, 정착민이 수확기에 바이오페라이트가 채워지면서 바이오페라이트를 자동으로 비울 겁니다.</BioferriteHarvesterToggleUnloadingDesc>
+  
+  <!-- Proximity detector -->
+  <ProximityDetectorCreatureDetected>보이지 않는 생물이 감지되었습니다.</ProximityDetectorCreatureDetected>
+  
+  <!-- Frenzy inducer -->
+  <FrenzyInducerEffectDescription>광란장 생성 중.</FrenzyInducerEffectDescription>
+  <MentalBreakReason_FrenzyInducer>이는 광란 유도기의 영향 때문에 발생했습니다.</MentalBreakReason_FrenzyInducer>
+  
+  <!-- Sleep suppressor -->
+  <SleepSuppressorEffectDescription>수면 부족 정신 파동.</SleepSuppressorEffectDescription>
+  
+  <!-- Devourer -->
+  <DigestedBy>{0_labelShort}에 의해 소화 중.</DigestedBy>
+
+  <!-- Chimeras -->
+  <MessageChimeraModeChangeSingular>이 키메라는 {0}</MessageChimeraModeChangeSingular>
+  <MessageChimeraModeChangePlural>키메라들은 {0}</MessageChimeraModeChangePlural>
+  <MessageChimeraWithdrawing>철수 중입니다.</MessageChimeraWithdrawing>
+
+  <LetterChimerasAttackingLabel>키메라들이 공격 중</LetterChimerasAttackingLabel>
+  <LetterChimerasAttacking>키메라들이 공격을 시작했습니다!</LetterChimerasAttacking>\n\n</LanguageData>

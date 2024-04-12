@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: deadlife capsule -->
+  <Bullet_Shell_Deadlife.label>죽은 목숨 캡슐</Bullet_Shell_Deadlife.label>
+  
+  <!-- EN: ghoul resurrection serum -->
+  <GhoulResurrectionSerum.label>구울 부활 혈청</GhoulResurrectionSerum.label>
+  <!-- EN: A capsule of thick grey fluid containing a mixture of deadlife dust and advanced biochemicals. Inject it into the corpse of a ghoul to return them to life. The resurrection process takes several hours. -->
+  <GhoulResurrectionSerum.description>죽은 목숨 먼지와 고급 생화학 물질의 혼합물이 들어 있는 걸쭉한 회색 액체의 캡슐입니다. 구울 시체에 주입하여 되살리세요. 부활 과정은 여러 시간이 걸립니다.</GhoulResurrectionSerum.description>
+  <!-- EN: Use {0_label} -->
+  <GhoulResurrectionSerum.comps.CompUsable.useLabel>{0_label} 사용</GhoulResurrectionSerum.comps.CompUsable.useLabel>
+  
+  <!-- EN: juggernaut serum -->
+  <JuggernautSerum.label>비대한 힘 혈청</JuggernautSerum.label>
+  <!-- EN: A syringe of opaque milky-yellow liquid that increases the user's strength and speed, and allows them to recover from injuries faster. The serum is injected into the user's musculature, where it adds energy to various metabolic processes. However, the unstable substance also psychically influences the mind, provoking unsettling thoughts and severely reducing the user's mood. -->
+  <JuggernautSerum.description>사용자의 힘과 속도를 증가시키고 사용자가 부상에서 더 빨리 회복하게 하는 불투명한, 우유 같은 노란색 액체 주사기입니다. 혈청은 사용자의 근육계에 주입되어, 다양한 신진 대사 과정에 에너지를 더합니다. 그러나, 불안정한 물질 또한 정신적으로 정신에 영향을 끼쳐, 불안하게 만드는 생각을 유발하고 사용자의 기분을 심각하게 저해합니다.</JuggernautSerum.description>
+  <!-- EN: Use {0_label} -->
+  <JuggernautSerum.comps.CompUsable.useLabel>{0_label} 사용</JuggernautSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <JuggernautSerum.ingestible.ingestCommandString>{0} 투여</JuggernautSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <JuggernautSerum.ingestible.ingestReportString>{0} 투여 중.</JuggernautSerum.ingestible.ingestReportString>
+  
+  <!-- EN: metalblood serum -->
+  <MetalbloodSerum.label>금속 혈액 혈청</MetalbloodSerum.label>
+  <!-- EN: A syringe full of rust-colored liquid that constantly hardens and liquifies. When injected into the bloodstream, the metalblood substance can harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
+  <MetalbloodSerum.description>경화와 액화를 반복하는 녹빛의 액체로 가득 찬 주사기입니다. 혈류에 주입되면, 금속 혈액 물질이 살을 경화하여 공격을 예상하면, 사용자가 피해를 더 견딜 수 있도록 만듭니다. 그러나, 이 혈청의 바이오페라이트 기반 화학 작용은 또한 이 사용자를 특히 불에 취약하게 만듭니다.</MetalbloodSerum.description>
+  <!-- EN: Use {0_label} -->
+  <MetalbloodSerum.comps.CompUsable.useLabel>{0_label} 사용</MetalbloodSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <MetalbloodSerum.ingestible.ingestCommandString>{0} 투여</MetalbloodSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <MetalbloodSerum.ingestible.ingestReportString>{0} 투여 중.</MetalbloodSerum.ingestible.ingestReportString>
+  
+  <!-- EN: mind-numb serum -->
+  <MindNumbSerum.label>정신 마비 혈청</MindNumbSerum.label>
+  <!-- EN: A syringe of clear, viscous fluid. Injected near the brainstem, it deadens the mind, rendering the user unable to feel the highs and lows of human emotion. This temporarily prevents them from having mental breaks and inspirations. -->
+  <MindNumbSerum.description>맑고, 끈적거리는 액체의 주사기입니다. 뇌간 근처에 주입되면, 정신을 둔하게 만들어, 사용자가 인간 감정의 기복을 느끼지 못하게 만듭니다. 이는 일시적으로 사용자가 정신이상과 영감을 얻지 못하게 합니다.</MindNumbSerum.description>
+  <!-- EN: Use {0_label} -->
+  <MindNumbSerum.comps.CompUsable.useLabel>{0_label} 사용</MindNumbSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <MindNumbSerum.ingestible.ingestCommandString>{0} 투여</MindNumbSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <MindNumbSerum.ingestible.ingestReportString>{0} 투여 중.</MindNumbSerum.ingestible.ingestReportString>
+  
+  <!-- EN: deadlife shell -->
+  <Shell_Deadlife.label>죽은 목숨 포탄</Shell_Deadlife.label>
+  <!-- EN: An artillery shell packed with a dust-like substance that, after exploding into a cloud, will settle on nearby human and animal corpses and raise them as shamblers. The shamblers will only attack your enemies.\n\nThis can be fired from mortars or installed as a trap. Explodes when damaged. -->
+  <Shell_Deadlife.description>먼지 같은 물질로 가득한 포탄으로, 구름 속으로 폭발한 뒤 근처 인간 및 동물 시체에 내려앉아 그들을 일으켜 휘청이는 자들을 만듭니다. 휘청이는 자들은 당신의 적들만 공격할 겁니다.\n\n이것은 박격포로 사격될 수 있으며 지뢰로 설치될 수 있습니다. 피해를 입으면 폭발합니다.</Shell_Deadlife.description>
+  
+  <!-- EN: deadlife capsule -->
+  <Shell_Deadlife_Releasing.label>죽은 목숨 캡슐</Shell_Deadlife_Releasing.label>
+  
+  <!-- EN: voidsight serum -->
+  <VoidsightSerum.label>공허의 시야 혈청</VoidsightSerum.label>
+  <!-- EN: A capsule of oily black fluid that squirms endlessly inside the glass. When injected into the eye, it suppresses the inhibitory neurons that keep perception focused on the real world, thus lifting dark psychic phenomena into conscious perception. This increases the amount of knowledge gained when studying unnatural entities, as well as psychic sensitivity, but also impacts mood.\n\nThe effect is temporary and does not stack. -->
+  <VoidsightSerum.description>유리 속에서 끝없이 꿈틀대는 기름 같은 검은 액체 캡슐입니다. 눈 속에 주입되면, 억제 신경 세포를 억압하여 지각을 현실 세계에 집중시키고, 어둠의 정신 현상을 의식적 지각으로 걷어냅니다. 이것은 비정상적 실체를 연구할 때 얻는 지식의 양 및 정신 감응력을 증가시키며, 기분에도 영향을 미칩니다.\n\n영향력은 일시적이고 중첩되지 않습니다.</VoidsightSerum.description>
+  <!-- EN: Use {0_label} -->
+  <VoidsightSerum.comps.CompUsable.useLabel>{0_label} 사용</VoidsightSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <VoidsightSerum.ingestible.ingestCommandString>{0} 투여</VoidsightSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <VoidsightSerum.ingestible.ingestReportString>{0} 투여 중.</VoidsightSerum.ingestible.ingestReportString>
+  
+</LanguageData>

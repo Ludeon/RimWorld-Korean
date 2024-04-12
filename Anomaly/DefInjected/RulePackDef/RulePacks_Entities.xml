@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] leaped onto [SUBJECT_definite] and began digesting [SUBJECT_objective].</li>
+  -->
+  <Event_DevourerConsumeLeap.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]이(가) [SUBJECT_definite] 위로 뛰어올라 [SUBJECT_objective]을(를) 소화시키기 시작했습니다.</li>
+  </Event_DevourerConsumeLeap.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] vomited [SUBJECT_definite] up.</li>
+  -->
+  <Event_DevourerDigestionAborted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]이(가) [SUBJECT_definite]을(를) 토해냈습니다.</li>
+  </Event_DevourerDigestionAborted.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] digested [SUBJECT_definite].</li>
+  -->
+  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]이(가) [SUBJECT_definite]을(를) 소화시켰습니다.</li>
+  </Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] put [SUBJECT_definite] into a trance.</li>
+  -->
+  <Event_Hypnotized.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]이(가) [SUBJECT_definite]을(를) 무아지경에 빠뜨렸습니다.</li>
+  </Event_Hypnotized.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] emerged from [SUBJECT_definite].</li>
+  -->
+  <Event_MetalhorrorEmerged.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]이(가) [SUBJECT_definite]에서 출현했습니다.</li>
+  </Event_MetalhorrorEmerged.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] psychically incinerated [SUBJECT_definite]'s brain.</li>
+  -->
+  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]이(가) [SUBJECT_definite]의 뇌를 정신적으로 소각했습니다.</li>
+  </Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>verb->breathing</li>
+    <li>verb->shuddering</li>
+    <li>verb->shivering</li>
+    <li>verb->creaking</li>
+    <li>verb->rasping</li>
+    <li>verb->scraping</li>
+    <li>verb->hissing</li>
+    <li>verb->groaning</li>
+    <li>verb->grumbling</li>
+    <li>verb->chattering</li>
+    <li>verb->clicking</li>
+    <li>verb->wheezing</li>
+    <li>verb->rattling</li>
+    <li>verb->twitching</li>
+    <li>verb->gnashing</li>
+    <li>verb->coughing</li>
+  -->
+  <RevenantNoises.rulePack.rulesStrings>
+    <li>verb->호흡하며</li>
+    <li>verb->몸서리치며</li>
+    <li>verb->떨며</li>
+    <li>verb->삐걱거리며</li>
+    <li>verb->신경을 자극하며</li>
+    <li>verb->긁어내며</li>
+    <li>verb->쉭쉭 소리를 내며</li>
+    <li>verb->끙끙거리며</li>
+    <li>verb->그르렁거리며</li>
+    <li>verb->재잘거리며</li>
+    <li>verb->찰칵거리며</li>
+    <li>verb->쌕쌕거리며</li>
+    <li>verb->달가닥거리며</li>
+    <li>verb->씰룩거리며</li>
+    <li>verb->이를 갈며</li>
+    <li>verb->기침을 하며</li>
+  </RevenantNoises.rulePack.rulesStrings>
+  
+</LanguageData>

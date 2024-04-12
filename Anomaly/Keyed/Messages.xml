@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Conversion -->
+  <AbilityCannotCastHoraxian>{0_nameDef}의 확신은 확고합니다.</AbilityCannotCastHoraxian>
+
+  <!-- Entities -->
+  <MessageActivityRisingDamage>피해를 받았기 때문에 {0_definite}의 행동이 상승하고 있습니다.</MessageActivityRisingDamage>
+  <EntityDiedOnHoldingPlatform>{0_labelShort}(이)가 수용 플랫폼에서 사망했습니다.</EntityDiedOnHoldingPlatform>
+  <MessageEntityDiscovered>새로운 실체 발견</MessageEntityDiscovered>
+
+  <!-- Hate chanters -->
+  <MessageHateChantersAbsorbed>광신도들은 무아지경에 빠져 공격당해도 반응하지 않습니다.</MessageHateChantersAbsorbed>
+  <MessageHateChantIncreased>증오의 찬송의 음량이 커졌습니다.</MessageHateChantIncreased>
+
+  <!-- Self-resurrection -->
+  <SelfResurrectText>{0_nameDef}(은)는 죽음 거부를 사용하여 명령에 따라 자가 부활할 수 있습니다.</SelfResurrectText>
+  <MessageUsingSelfResurrection>{0_nameDef}(은)는 죽음 거부를 사용하여 자가 부활하고 있습니다.</MessageUsingSelfResurrection>
+
+  <!-- Pit Gate -->
+  <MessagePitGateCollapsed>구덩이 문이 붕괴했습니다.</MessagePitGateCollapsed>
+  <MessagePitBurrowCollapsed>구덩이 굴이 붕괴했습니다.</MessagePitBurrowCollapsed>
+
+  <!-- Fleshsack -->
+  <FleshmassContainedMessage>살자루에 뭔가 들었습니다</FleshmassContainedMessage>
+
+  <!-- Psychic rituals -->
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef}(이)가 공격 중입니다!</MessagePsychicRitualAssault>
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef}(이)가 초정신 의식을 시작 중입니다</MessageAIPsychicRitualBegan>
+  
+  <!-- Biomutation lance -->
+  <MessageBiomutationLanceInvalidTargetRace>목표 지정 불가: {0_nameDef}(은)는 인간 혹은 동물이 아닙니다.</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceTargetTooBig>목표 지정 불가: {0_nameDef}(은)는 너무 큽니다.</MessageBiomutationLanceTargetTooBig>
+
+  <!-- Containment -->
+  <MessageNoRoomWithMinimumContainmentStrength>경고: {0}(을)를 위한 최소한의 억제력을 가진 방이 없습니다. 곧 탈출할 겁니다.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>경고: {0}(은)는 {1}의 최소 억제력보다 낮습니다. 곧 탈출할 겁니다.</MessageTargetBelowMinimumContainmentStrength>
+  <MessageHolderReserved>다른 사람에게 예약된 {0}(을)를 이전할 수 없습니다.</MessageHolderReserved>
+  <MessageEntityExecuted>{EXECUTIONER_labelShort}(이)가 {VICTIM_kindIndef}(을)를 처형했습니다.</MessageEntityExecuted>
+  <MessageOccupiedHoldingPlatformReinstalled>경고: 차 있는 수용 플랫폼을 재설치하면 실체가 풀려날 겁니다. 먼저 실체를 다른 플랫폼으로 이전하세요.</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>경고: 차 있는 수용 플랫폼을 삭제하면 실체가 풀려날 겁니다. 먼저 실체를 다른 플랫폼으로 이전하세요.</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformDeconstructed>경고: 차 있는 수용 플랫폼을 파괴하면 실체가 풀려날 겁니다. 먼저 실체를 다른 플랫폼으로 이전하세요.</MessageOccupiedHoldingPlatformDeconstructed>
+  
+  <!-- Duplicator obelisk -->
+  <MessageHostileDuplicate>{0_nameDef}의 적대적인 복사본이 나타났습니다.</MessageHostileDuplicate>
+  
+  <!-- Proximity detector -->
+  <MessageProximityDetectorTriggered>근접 탐지기가 보이지 않는 생물을 감지했습니다.</MessageProximityDetectorTriggered>
+  
+  <!-- Unnatural darkness --> 
+  <MessagePawnAttackedInDarkness>어둠 속의 무언가가 {0_nameDef}(을)를 공격했습니다.</MessagePawnAttackedInDarkness>
+  
+  <!-- Revenant -->
+  <MessageRevenantForcedVisibility>숨은 망령이 드러났습니다!</MessageRevenantForcedVisibility>
+  <MessageRevenantHeard>{PAWN_nameDef}(이)가 근처의 망령을 들을 수 있습니다!</MessageRevenantHeard>
+  
+  <!-- Abilities -->
+  <MessageCannotUseOnNonBleeder>{ABILITY_label}(은)는 피를 흘리지 않는 생물에 쓸 수 없습니다.</MessageCannotUseOnNonBleeder>
+  
+  <MessageFingerspikeDisturbed>{WAKER_nameDef}(이)가 핑거스파이크를 하나 건드렸습니다.</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}(이)가 핑거스파이크를 여럿 건드렸습니다.</MessageFingerspikeDisturbedPlural>
+
+  <DeathPallResurrectedMessage>죽음의 천이 {0_indefinite}(을)를 부활시켰습니다.</DeathPallResurrectedMessage>
+  
+</LanguageData>

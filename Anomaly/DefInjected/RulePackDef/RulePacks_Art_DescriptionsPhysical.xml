@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_art_description->This [cubeWork] [cubeDepicts] [aCube]. [cube_style_group]</li>
+    <li>cube_style_group(p=2)->[cubeDescSentence]. [cubeExtraSentence].</li>
+    <li>cube_style_group(p=3)->[cubeDescSentence].</li>
+    <li>cube_style_group-></li>
+    <li>cubeDescSentence(p=3)->[cubeLocation], [aPawn] [worshipsTheCube]</li>
+    <li>cubeDescSentence(p=3)->[cubeLocation], [pawnsPlural] are [worshippingTheCube]</li>
+    <li>cubeDescSentence->The [cubeWork] invites the viewer to begin [worshippingTheCube]</li>
+    <li>cubeDescSentence->Figures [worshippingTheCube] form the center of this [cubeWork]</li>
+    <li>cubeWork->work</li>
+    <li>cubeWork->sculpture</li>
+    <li>cubeWork->artwork</li>
+    <li>cubeWork->piece</li>
+    <li>aCube->an abstract cube</li>
+    <li>aCube->a perfect cube</li>
+    <li>aCube->a wonky cube</li>
+    <li>aCube->a stylised cube</li>
+    <li>aCube->a multiplying cube</li>
+    <li>aCube->a crude cube</li>
+    <li>aCube->a distorted cube</li>
+    <li>aCube->a terrifying cube</li>
+    <li>aCube->a dark cube</li>
+    <li>cubeLocation->near the center</li>
+    <li>cubeLocation->on each cube face</li>
+    <li>cubeLocation->at the face centers</li>
+    <li>cubeLocation->on top of the main figure</li>
+    <li>cubeLocation->under the main figure</li>
+    <li>cubeLocation->behind the main figure</li>
+    <li>cubeLocation->near the edges</li>
+    <li>cubeLocation->along the edges</li>
+    <li>cubeLocation->along the edges</li>
+    <li>cubeDepicts->depicts</li>
+    <li>cubeDepicts->shows</li>
+    <li>cubeDepicts->displays</li>
+    <li>cubeDepicts->portrays</li>
+    <li>aPawn->a self-portrait of the artist</li>
+    <li>aPawn->a thrumbo</li>
+    <li>aPawn->an emaciated human figure with too many eyes</li>
+    <li>aPawn->one of your colonists</li>
+    <li>aPawn->a neanderthal</li>
+    <li>aPawn->a glitterworld leader</li>
+    <li>aPawn->an indistinct figure</li>
+    <li>aPawn->a tribal shaman</li>
+    <li>aPawn->a hooded sanguophage</li>
+    <li>aPawn->a medieval princess</li>
+    <li>aPawn->the leader of a distant [Community]</li>
+    <li>aPawn->a [Weapon]-wielding woman</li>
+    <li>aPawn->a robed procession</li>
+    <li>pawnsPlural->your colonists</li>
+    <li>pawnsPlural->a group of raiders</li>
+    <li>pawnsPlural->a tribal congregation</li>
+    <li>pawnsPlural->a mechanoid swarm</li>
+    <li>pawnsPlural->a pirate gang</li>
+    <li>pawnsPlural->rustic farmers</li>
+    <li>pawnsPlural->a [AnimalGroup] of [Animal]s</li>
+    <li>pawnsPlural->a group from a nearby [Community]</li>
+    <li>pawnsPlural->[Quantity_adjphrase] people</li>
+    <li>worshippingTheCube->worshipping the cube</li>
+    <li>worshippingTheCube->bowing to cube</li>
+    <li>worshippingTheCube->kneeling before cube</li>
+    <li>worshippingTheCube->circling the cube</li>
+    <li>worshippingTheCube->praising the cube</li>
+    <li>worshippingTheCube->trembling in awe of the cube</li>
+    <li>worshippingTheCube->pleading with the cube</li>
+    <li>worshippingTheCube->crying before the cube</li>
+    <li>worshippingTheCube->playing with the cube</li>
+    <li>worshippingTheCube->befriending the cube</li>
+    <li>worshippingTheCube->observing the cube</li>
+    <li>worshippingTheCube->obsessing over the cube</li>
+    <li>worshippingTheCube->sacrificing to the cube</li>
+    <li>worshippingTheCube->making offerings to the cube</li>
+    <li>worshippingTheCube->railing against the cube</li>
+    <li>worshippingTheCube->respecting the cube</li>
+    <li>worshippingTheCube->burying the cube</li>
+    <li>worshippingTheCube->placing the cube on a pedestal</li>
+    <li>worshippingTheCube->copying the cube</li>
+    <li>worshippingTheCube->taking the cube to another world</li>
+    <li>worshipsTheCube->worships the cube</li>
+    <li>worshipsTheCube->bows to the cube</li>
+    <li>worshipsTheCube->kneels before the cube</li>
+    <li>worshipsTheCube->circles the cube</li>
+    <li>worshipsTheCube->praises the cube</li>
+    <li>worshipsTheCube->trembles in awe of the cube</li>
+    <li>worshipsTheCube->pleads with the cube</li>
+    <li>worshipsTheCube->cries before the cube</li>
+    <li>worshipsTheCube->plays with the cube</li>
+    <li>worshipsTheCube->befriends the cube</li>
+    <li>worshipsTheCube->observes the cube</li>
+    <li>worshipsTheCube->obsesses over the cube</li>
+    <li>worshipsTheCube->sacrifices to the cube</li>
+    <li>worshipsTheCube->makes offerings to the cube</li>
+    <li>worshipsTheCube->rails against the cube</li>
+    <li>worshipsTheCube->attacks the cube</li>
+    <li>worshipsTheCube->burys the cube</li>
+    <li>worshipsTheCube->places the cube on a pedestal</li>
+    <li>worshipsTheCube->copies the cube</li>
+    <li>worshipsTheCube->takes the cube to another world</li>
+    <li>cubeExtraSentence->The cube seems [cubeEmotion] by this</li>
+    <li>cubeExtraSentence->[pawnsPlural] are approaching to do the same</li>
+    <li>cubeExtraSentence->[aPawn] approaches to do the same</li>
+    <li>cubeExtraSentence->[aPawn] gazes mournfully at the scene</li>
+    <li>cubeExtraSentence->[pawnsPlural] are trying to steal the cube</li>
+    <li>cubeExtraSentence->The cube seems to shimmer softly</li>
+    <li>cubeEmotion->unphased</li>
+    <li>cubeEmotion->pleased</li>
+    <li>cubeEmotion->upset</li>
+    <li>cubeEmotion->unmoved</li>
+    <li>cubeEmotion->enraged</li>
+    <li>cubeEmotion->charmed</li>
+    <li>cubeEmotion->aggravated</li>
+  -->
+  <ArtDescription_CubeSculpture.rulePack.rulesStrings>
+    <li>r_art_description->이 [cubeWork] [aCube] [cubeDepicts]. [cube_style_group]</li>
+    <li>cube_style_group(p=2)->[cubeDescSentence]. [cubeExtraSentence].</li>
+    <li>cube_style_group(p=3)->[cubeDescSentence].</li>
+    <li>cube_style_group-></li>
+    <li>cubeDescSentence(p=3)->[cubeLocation], [aPawn] [worshipsTheCube]</li>
+    <li>cubeDescSentence(p=3)->[cubeLocation], [pawnsPlural] [worshippingTheCube] 하고 있습니다</li>
+    <li>cubeDescSentence->이 [cubeWork] 구경꾼이 [worshippingTheCube] 시작하도록 청합니다</li>
+    <li>cubeDescSentence->이 [cubeWork] [worshippingTheCube] 하는 인물들이 중심을 이루고 있습니다</li>
+    <li>cubeWork->작품은</li>
+    <li>cubeWork->조각상은</li>
+    <li>cubeWork->미술품은</li>
+    <li>cubeWork->제작물은</li>
+    <li>aCube->추상적인 큐브를</li>
+    <li>aCube->완벽한 큐브를</li>
+    <li>aCube->기우뚱한 큐브를</li>
+    <li>aCube->양식화된 큐브를</li>
+    <li>aCube->증식하는 큐브를</li>
+    <li>aCube->대강 만든 큐브를</li>
+    <li>aCube->왜곡된 큐브를</li>
+    <li>aCube->끔찍한 큐브를</li>
+    <li>aCube->어두운 큐브를</li>
+    <li>cubeLocation->중앙 근처에서</li>
+    <li>cubeLocation->각 큐브 면에서</li>
+    <li>cubeLocation->면의 중앙에서</li>
+    <li>cubeLocation->주요 인물 위에서</li>
+    <li>cubeLocation->주요 인물 아래에서</li>
+    <li>cubeLocation->주요 인물 뒤에서</li>
+    <li>cubeLocation->가장자리 근처에서</li>
+    <li>cubeLocation->가장자리를 따라</li>
+    <li>cubeLocation->가장자리를 따라</li>
+    <li>cubeDepicts->묘사하고 있습니다</li>
+    <li>cubeDepicts->보여주고 있습니다</li>
+    <li>cubeDepicts->드러내고 있습니다</li>
+    <li>cubeDepicts->나타내고 있습니다</li>
+    <li>aPawn->예술가의 자화상이</li>
+    <li>aPawn->트럼보가</li>
+    <li>aPawn->눈이 너무나도 많은 쇠약한 인간의 형상이</li>
+    <li>aPawn->당신의 정착민 중 하나가</li>
+    <li>aPawn->네안데르탈인이</li>
+    <li>aPawn->번화계 지도자가</li>
+    <li>aPawn->흐릿한 형상이</li>
+    <li>aPawn->부족 주술사가</li>
+    <li>aPawn->두건을 쓴 생귀오파지가</li>
+    <li>aPawn->중세 공주가</li>
+    <li>aPawn->머나먼 [Community]의 지도자가</li>
+    <li>aPawn->[Weapon] 휘두르는 여성이</li>
+    <li>aPawn->로브를 입은 행렬이</li>
+    <li>pawnsPlural->당신의 정착민들이</li>
+    <li>pawnsPlural->침략자 무리가</li>
+    <li>pawnsPlural->부족 신자들이</li>
+    <li>pawnsPlural->메카노이드 떼가</li>
+    <li>pawnsPlural->해적 갱단이</li>
+    <li>pawnsPlural->시골 농부들이</li>
+    <li>pawnsPlural->[Animal] [AnimalGroup]이(가)</li>
+    <li>pawnsPlural->인근 [Community]에서 온 무리가</li>
+    <li>pawnsPlural->[Quantity_adjphrase]명의 사람들이</li>
+    <li>worshippingTheCube->큐브 숭배를</li>
+    <li>worshippingTheCube->큐브에게 절을</li>
+    <li>worshippingTheCube->큐브 앞에 무릎 꿇기를</li>
+    <li>worshippingTheCube->큐브 주위에서 빙빙 돌기를</li>
+    <li>worshippingTheCube->큐브 찬양을</li>
+    <li>worshippingTheCube->큐브에 대한 경외감에 떨기를</li>
+    <li>worshippingTheCube->큐브에게 간청을</li>
+    <li>worshippingTheCube->큐브 앞에서 울기를</li>
+    <li>worshippingTheCube->큐브를 갖고 놀기를</li>
+    <li>worshippingTheCube->큐브와 친구가 되기를</li>
+    <li>worshippingTheCube->큐브를 관찰하기를</li>
+    <li>worshippingTheCube->큐브에 집착하기를</li>
+    <li>worshippingTheCube->큐브에게 제물을 바치기를</li>
+    <li>worshippingTheCube->큐브에게 공양하기를</li>
+    <li>worshippingTheCube->큐브를 매도하기를</li>
+    <li>worshippingTheCube->큐브를 존경하기를</li>
+    <li>worshippingTheCube->큐브를 묻기를</li>
+    <li>worshippingTheCube->큐브를 받침대에 놓기를</li>
+    <li>worshippingTheCube->큐브를 복제하기를</li>
+    <li>worshippingTheCube->큐브를 다른 세계로 가져가기를</li>
+    <li>worshipsTheCube->큐브를 숭배합니다</li>
+    <li>worshipsTheCube->큐브에게 절합니다</li>
+    <li>worshipsTheCube->큐브 앞에 무릎 꿇습니다</li>
+    <li>worshipsTheCube->큐브 주위에서 빙빙 돕니다</li>
+    <li>worshipsTheCube->큐브를 찬양합니다</li>
+    <li>worshipsTheCube->큐브에 대한 경외감에 떨고 있습니다</li>
+    <li>worshipsTheCube->큐브에게 간청합니다</li>
+    <li>worshipsTheCube->큐브 앞에서 웁니다</li>
+    <li>worshipsTheCube->큐브를 갖고 놉니다</li>
+    <li>worshipsTheCube->큐브와 친구가 됩니다</li>
+    <li>worshipsTheCube->큐브를 관찰합니다</li>
+    <li>worshipsTheCube->큐브에 집착합니다</li>
+    <li>worshipsTheCube->큐브에게 제물을 바칩니다</li>
+    <li>worshipsTheCube->큐브에게 공양합니다</li>
+    <li>worshipsTheCube->큐브를 매도합니다</li>
+    <li>worshipsTheCube->큐브를 공격합니다</li>
+    <li>worshipsTheCube->큐브를 묻습니다</li>
+    <li>worshipsTheCube->큐브를 받침대에 놓습니다</li>
+    <li>worshipsTheCube->큐브를 복제합니다</li>
+    <li>worshipsTheCube->큐브를 다른 세계로 가져갑니다</li>
+    <li>cubeExtraSentence->큐브는 이에 [cubeEmotion] 듯 보입니다</li>
+    <li>cubeExtraSentence->[pawnsPlural] 똑같이 하기 위해 접근하고 있습니다</li>
+    <li>cubeExtraSentence->[aPawn] 똑같이 하기 위해 접근합니다</li>
+    <li>cubeExtraSentence->[aPawn] 슬픔에 잠겨 그 광경을 응시합니다</li>
+    <li>cubeExtraSentence->[pawnsPlural] 큐브를 훔치려 하고 있습니다</li>
+    <li>cubeExtraSentence->큐브는 은은하게 반짝이는 듯 보입니다</li>
+    <li>cubeEmotion->침착한</li>
+    <li>cubeEmotion->기쁜</li>
+    <li>cubeEmotion->화난</li>
+    <li>cubeEmotion->냉정한</li>
+    <li>cubeEmotion->격분한</li>
+    <li>cubeEmotion->매료된</li>
+    <li>cubeEmotion->약오른</li>
+  </ArtDescription_CubeSculpture.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_art_description->This [voidStrange] sculpture [voidVerbphrase]. [voidDesc]</li>
+    <li>voidStrange->strange</li>
+    <li>voidStrange->disturbing</li>
+    <li>voidStrange->unsettling</li>
+    <li>voidStrange->frightening</li>
+    <li>voidStrange->twisted</li>
+    <li>voidStrange->misshapen</li>
+    <li>voidStrange->inhuman</li>
+    <li>voidStrange->weird</li>
+    <li>voidVerbphrase->curls in a disturbing shape</li>
+    <li>voidVerbphrase->twists as though trying to harm the viewer</li>
+    <li>voidVerbphrase->seems to shift under the viewer's gaze</li>
+    <li>voidVerbphrase->emanates a sense of rage</li>
+    <li>voidVerbphrase->emanates a sense of depression and sadness</li>
+    <li>voidVerbphrase->provokes feelings of dread and self-doubt</li>
+    <li>voidVerbphrase->expands randomly in different directions in fits and starts</li>
+    <li>voidVerbphrase->seems to quiver until you look straight at it</li>
+    <li>voidVerbphrase->almost looks like it is breathing</li>
+    <li>voidVerbphrase->doesn't resemble any living creature</li>
+    <li>voidVerbphrase->appears to be a metaphor for suffering</li>
+    <li>voidDesc->Dozens of finger-like appendages painfully grip a central figure.</li>
+    <li>voidDesc->Globes of material crush and squeeze each other into stretched-out shapes.</li>
+    <li>voidDesc->Bladelike segments are bent together to resemble a face screaming in terror.</li>
+    <li>voidDesc->Arm-like protrusions squeeze each other, as though trying to destroy themselves.</li>
+    <li>voidDesc->Needles protruding from the surface look ready to shoot out and skewer anyone who moves nearby.</li>
+    <li>voidDesc->The surface whorls and roils, shifting from organic-like texture to machinelike edges and blades.</li>
+    <li>voidDesc->It looks as though it has sheared itself into pieces with great force, yet somehow still hangs together.</li>
+    <li>voidDesc->A hand-like appendage waits as though ready to reach out and attack.</li>
+    <li>voidDesc->A pair of figures each seem to penetrate and torture the other with curled, jagged fingers.</li>
+    <li>voidDesc->A complex shape emerges from the mouth of a screaming face.</li>
+    <li>voidDesc->An abstracted shape resembling an animal appears to rip off one of its own limbs.</li>
+    <li>voidDesc->Hundreds of tiny abstract figure-like objects swarm over a large distorted globe.</li>
+  -->
+  <ArtDescription_VoidSculpture.rulePack.rulesStrings>
+    <li>r_art_description->이 [voidStrange] 조각상은 [voidVerbphrase]. [voidDesc]</li>
+    <li>voidStrange->이상한</li>
+    <li>voidStrange->불안한</li>
+    <li>voidStrange->동요시키는</li>
+    <li>voidStrange->무서운</li>
+    <li>voidStrange->뒤틀린</li>
+    <li>voidStrange->기형</li>
+    <li>voidStrange->비인간적인</li>
+    <li>voidStrange->기괴한</li>
+    <li>voidVerbphrase->불안한 모양으로 구부러져 있습니다</li>
+    <li>voidVerbphrase->구경꾼을 해하려는 듯 뒤틀려 있습니다</li>
+    <li>voidVerbphrase->관찰자의 시선에 따라 움직이는 것처럼 보입니다</li>
+    <li>voidVerbphrase->분노의 감정을 발산하고 있습니다</li>
+    <li>voidVerbphrase->우울과 슬픔의 감정을 발산하고 있습니다</li>
+    <li>voidVerbphrase->공포와 자기 의심의 정서를 유발합니다</li>
+    <li>voidVerbphrase->무작위하게 여러 방향으로 드문드문 뻗어 있습니다</li>
+    <li>voidVerbphrase->똑바로 바라볼 때까지 떨리는 듯 보입니다</li>
+    <li>voidVerbphrase->마치 숨을 쉬고 있는 것처럼 보입니다</li>
+    <li>voidVerbphrase->어떤 생명체와도 닮지 않았습니다</li>
+    <li>voidVerbphrase->고통에 대한 은유로 보입니다</li>
+    <li>voidDesc->손가락 같은 부속물 수십 개가 중앙의 인물을 고통스럽게 붙잡고 있습니다.</li>
+    <li>voidDesc->재료 덩어리들이 서로 으스러지고 압착되어 쭉 늘어난 모양을 형성합니다.</li>
+    <li>voidDesc->칼날 같은 부분들이 함께 구부려져 공포에 비명 지르는 얼굴과 흡사해 보입니다.</li>
+    <li>voidDesc->팔과 같은 돌출부들이 마치 스스로를 파괴하려는 듯 서로 압착되어 있습니다.</li>
+    <li>voidDesc->표면에서 돌출된 바늘들이 금방이라도 튀어나와 근처에서 움직이는 누구라도 꿰뚫을 듯한 모습입니다.</li>
+    <li>voidDesc->표면이 소용돌이치고 요동치며, 유기체 같은 질감에서 기계처럼 날카로운 가장자리와 칼날로 변합니다.</li>
+    <li>voidDesc->강한 힘으로 스스로를 조각내어 놓은 것처럼 보이지만, 어떻게든 여전히 함께 매달려 있습니다.</li>
+    <li>voidDesc->손 같은 부속물이 금방이라도 달려나와 공격할 준비가 된 듯 기다립니다.</li>
+    <li>voidDesc->한 쌍의 인물이 각각 구부러지고 삐죽삐죽한 손가락으로 상대방을 관통하여 고문하는 것처럼 보입니다.</li>
+    <li>voidDesc->비명 지르는 얼굴의 입에서 복잡한 형상이 나타납니다.</li>
+    <li>voidDesc->동물을 닮은 추상화된 형상이 자신의 사지 중 하나를 찢어내는 것처럼 보입니다.</li>
+    <li>voidDesc->조그맣고 추상적인 인물 모양의 물체 수백 개가 커다랗고 왜곡된 구체 위에 몰려 있습니다.</li>
+  </ArtDescription_VoidSculpture.rulePack.rulesStrings>
+  
+</LanguageData>

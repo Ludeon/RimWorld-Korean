@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acid spit -->
+  <Bullet_Shell_AcidSpit.label>산성 타액</Bullet_Shell_AcidSpit.label>
+  
+  <!-- EN: fleshbulb -->
+  <Fleshbulb.label>살구근</Fleshbulb.label>
+  <!-- EN: A bulbous mass of flesh. These fleshbeast organs store and refine nutrients for surrounding fleshmass. The chemical process generates a soft bioluminscent glow. -->
+  <Fleshbulb.description>둥글납작한 살 덩어리입니다. 이 살짐승의 기관은 이를 둘러싼 살덩이를 위해 영양분을 저장하고 정제합니다. 화학적 과정은 부드러운 생물발광 빛을 생성합니다.</Fleshbulb.description>
+  
+  <!-- EN: fleshmass -->
+  <Fleshmass.label>살덩이</Fleshmass.label>
+  <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
+  <Fleshmass.description>뒤틀린, 단단한 살 덩어리 입니다. 끔찍한 생명으로 고동치며 떨립니다.</Fleshmass.description>
+  
+  <!-- EN: fleshmass -->
+  <Fleshmass_Active.label>살덩이</Fleshmass_Active.label>
+  <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
+  <Fleshmass_Active.description>뒤틀린, 단단한 살 덩어리 입니다. 끔찍한 생명으로 고동치며 떨립니다.</Fleshmass_Active.description>
+  
+  <!-- EN: fleshmass heart -->
+  <FleshmassHeart.label>살덩이 심장</FleshmassHeart.label>
+  <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.\n\nThe heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.\n\nUltra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
+  <FleshmassHeart.description>살덩이 무리의 주요 기관입니다. 심장은 땅으로 확장된 뿌리를 통해 재료를 모읍니다. 충분히 많은 양을 모으면, 살덩이를 자기 주위로 퍼뜨려 일순 암 같은 성장을 합니다. 모든 것을 먹어버릴 때까지 계속 자라날 겁니다.\n\n심장은 살덩이 스피터를 성장시킵니다. 이 방어 기관은 산을 먼 거리에서 뱉을 수 있습니다. 또한 심장은 살짐승 방어자를 생성하여 스스로를 보호할 겁니다.\n\n엄청나게 빠른 재생은 심장을 거의 무적으로 만듭니다. 심장은 심장의 자라나는 살덩이 내에 형성되는 신경 다발에서 채취한 샘플을 분석해야만 죽일 수 있습니다.</FleshmassHeart.description>
+  <!-- EN: Use electrical pulses to induce a tachycardiac overload and kill the fleshmass heart. -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>전기 파동을 사용해 빈맥 과부하를 일으켜 살덩이 심장을 죽이세요.</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
+  <!-- EN: Induce tachycardiac death... -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>빈맥 사망 일으키기...</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
+  <!-- EN: Inducing tachycardiac death: {1}s -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingString>빈맥 사망 일으키는 중: {1}초</FleshmassHeart.comps.CompDestroyHeart.activatingString>
+  <!-- EN: Inducing tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>빈맥 사망 일으키는 중</FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FleshmassHeart.comps.CompDestroyHeart.guiLabelString>이것을 할 사람을 선택하세요</FleshmassHeart.comps.CompDestroyHeart.guiLabelString>
+  <!-- EN: Induce tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.jobString>빈맥 사망 일으키기</FleshmassHeart.comps.CompDestroyHeart.jobString>
+  
+  <!-- EN: underground emergence -->
+  <FleshmassHeartSpawner.label>지하 출현</FleshmassHeartSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <FleshmassHeartSpawner.description>여기 땅에서 무언가가 나오고 있습니다.</FleshmassHeartSpawner.description>
+  <!-- EN: Fleshmass heart -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>살덩이 심장</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
+  <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.\n\nThe heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterText>살덩이 심장이 출현했습니다! 이 암 같은 생물은 그 살아 있는 덩어리를 표면에 걸쳐 확장할 겁니다.\n\n심장 그 자체는 일반 무기에 무적입니다. 살덩이 신경 다발이 곧 나타날 겁니다, 다발을 공격하여 샘플을 얻고 심장을 죽일 방법을 찾으세요.</FleshmassHeartSpawner.building.groundSpawnerLetterText>
+  
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.label>살덩이 침뱉기</FleshmassSpitter.label>
+  <!-- EN: A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass. -->
+  <FleshmassSpitter.description>방어 살덩이 기관으로 먼 거리에서 산을 뱉을 수 있습니다. 산은 주위의 바이오매스에서 걸러진 독소의 자연 부산물입니다.</FleshmassSpitter.description>
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.verbs.Verb_Shoot.label>살덩이 침뱉기</FleshmassSpitter.verbs.Verb_Shoot.label>
+  
+  <!-- EN: flesh sack -->
+  <FleshSack.label>살자루</FleshSack.label>
+  <!-- EN: A swollen lump of flesh with something inside. These stationary fleshbeasts act as digestive organs, supplying the surrounding fleshmass with nutrients. However, they're unable to break down non-organic matter, meaning that valuable items can occasionally be found within. -->
+  <FleshSack.description>살의 부어오른 혹으로 안에 뭔가가 있습니다. 이 움직이지 않는 살짐승은 소화 기관 역할을 하여, 주변 살덩이에 영양분을 공급합니다. 그러나, 살짐승은 유기체가 아닌 물질은 파괴할 수 없어, 그 안에서 가끔 귀중한 아이템을 찾을 수 있습니다.</FleshSack.description>
+  
+  <!-- EN: nerve bundle -->
+  <NerveBundle.label>신경 다발</NerveBundle.label>
+  <!-- EN: A junction point in the fleshmass nervous system. When destroyed, it leaves behind a lump of neural tissue that you can study. Study enough different neural lumps and you can unlock a way to kill the fleshmass heart itself. -->
+  <NerveBundle.description>살덩이 신경계의 연결점입니다. 파괴하면, 신경 조직의 혹을 남겨 연구할 수 있습니다. 충분히 다양한 신경 혹을 연구하면 살덩이 심장 그 자체를 죽일 방법을 잠금 해제할 수 있습니다.</NerveBundle.description>
+  <!-- EN: Kill to collect: Neural lump -->
+  <NerveBundle.comps.CompInspectString.inspectString>죽여서 수집하기: 신경 혹</NerveBundle.comps.CompInspectString.inspectString>
+  
+</LanguageData>

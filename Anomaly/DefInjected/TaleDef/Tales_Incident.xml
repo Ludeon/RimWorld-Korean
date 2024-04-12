@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: death pall -->
+  <DeathPall.label>죽음의 천</DeathPall.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
+    <li>image->[PAWN_nameFull] gazing in horror as the death pall blankets the land, resurrecting the dead [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] clutching [PAWN_possessive] weapon tightly, as the death pall descends, raising the dead [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] trembling with unease, witnessing the arrival of the death pall, its influence giving life to the lifeless [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] watching in horror as the death pall envelops [PAWN_possessive] peaceful home, turning it into a battleground against the dead [circumstance_group]</li>
+    <li>circumstance_phrase->and drowning out [PAWN_possessive] desperate prayers for safety</li>
+    <li>circumstance_phrase->with the scent of decay and despair filling the air</li>
+    <li>circumstance_phrase->and trapping [PAWN_pronoun] in a horde of shamblers</li>
+    <li>desc_sentence->In the centre of the death pall, [PAWN_nameDef] prepares for battle.</li>
+    <li>desc_sentence->The encroachment of the death pall fills [PAWN_nameDef]'s friends with terror.</li>
+    <li>desc_sentence->Shivers run down [PAWN_nameDef]'s spine as the death pall's influence continues to spread.</li>
+    <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
+  -->
+  <DeathPall.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef](이)가 잠식하는 죽음의 천을 마주하는 중입니다</li>
+    <li>image->[PAWN_nameFull](이)가 죽음의 천이 땅을 뒤덮고 죽은 자를 살려내자 공포에 질려 바라보는 중입니다 [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]죽음의 천이 내려앉아, 죽은 자들을 일으키는 동안 (은)는 [PAWN_possessive] 무기를 단단히 움켜쥐고 있습니다 [circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 죽음의 천이 도착하여 죽은 것들에 생명을 불어넣는 것을 보고 불안으로 떨고 있습니다 [circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 죽음의 천이 [PAWN_possessive] 평화로운 집을 감싸, 죽은 자들의 전쟁터로 바꾸는 것을 공포에 질린 채 보는 중입니다 [circumstance_group]</li>
+    <li>circumstance_phrase->그리고 안전을 위한 [PAWN_possessive] 절박한 기도를 삼키고 있습니다</li>
+    <li>circumstance_phrase->그리고 부패와 절망의 냄새가 대기를 채우고 있습니다</li>
+    <li>circumstance_phrase->그리고 [PAWN_pronoun](은)는 휘청이는 자 무리 속에 갇혀 있습니다</li>
+    <li>desc_sentence->죽음의 천 중앙에서, [PAWN_nameDef](은)는 전투를 준비합니다.</li>
+    <li>desc_sentence->죽음의 천의 잠식은 [PAWN_nameDef]의 친구들을 공포로 질리게 합니다.</li>
+    <li>desc_sentence->죽음의 천의 영향력이 계속해서 퍼지자 [PAWN_nameDef]의 등에 소름이 끼칩니다.</li>
+    <li>desc_sentence->절망의 무게가 [PAWN_nameDef] 위에 내려앉아, 죽음을 직면한 [PAWN_possessive] 결의를 시험합니다.</li>
+  </DeathPall.rulePack.rulesStrings>
+  
+  <!-- EN: unnatural darkness -->
+  <UnnaturalDarkness.label>부자연적 어둠</UnnaturalDarkness.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] confronts the unnatural darkness</li>
+    <li>image->[PAWN_nameFull] standing in awe as the world is consumed by an impenetrable darkness [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] surrounded by black pillars falling from the sky which blanket the land in darkness [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] struggling to find [PAWN_possessive] way through the suffocating darkness, noctols hounding at [PAWN_possessive] heels, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] watching the world get swallowed by an abyss of shadows [circumstance_group]</li>
+    <li>circumstance_phrase->amidst by [PAWN_possessive] friends' desperate attempts to return to the safety of the light</li>
+    <li>circumstance_phrase->with piercing screams echoing all around</li>
+    <li>circumstance_phrase->the light seemingly barely able to hold it back</li>
+    <li>circumstance_phrase->as [PAWN_pronoun] offers pleas for salvation</li>
+    <li>desc_sentence->Not even the faintest flickering of lights in the distance is visible.</li>
+    <li>desc_sentence->The situation seems utterly hopeles.</li>
+    <li>desc_sentence->Groups of shadowy creatures are visible at the edge of the darkness.</li>
+    <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li>
+  -->
+  <UnnaturalDarkness.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef](이)가 부자연적 어둠을 마주합니다</li>
+    <li>image->[PAWN_nameFull](은)는 [circumstance_group] 세계가 앞이 보이지 않는 어둠 속으로 먹히자 두려움에 차서 서 있습니다</li>
+    <li>image->[PAWN_nameFull](은)는 [circumstance_group] 땅을 어둠으로 뒤덮는, 하늘에서 떨어지는 검은 기둥에 둘러싸였습니다</li>
+    <li>image->[PAWN_nameFull](은)는 [circumstance_group] 숨이 막히는 암흑을 헤쳐나갈 방법을 찾으려고 노력 중이며, 녹톨이 [PAWN_possessive] 발밑에서 괴롭히고 있습니다</li>
+    <li>image->[PAWN_nameFull](은)는 [circumstance_group] 세상이 그림자의 심연에 먹히는 것을 보고 있습니다</li>
+    <li>circumstance_phrase->절박하게 안전한 빛 속으로 돌아가려고 하는 [PAWN_possessive] 친구들 속에서</li>
+    <li>circumstance_phrase->날카로운 비명이 사방에서 울리는</li>
+    <li>circumstance_phrase->빛도 저지할 수 없어 보이는</li>
+    <li>circumstance_phrase->[PAWN_pronoun](이)가 구원을 간청하는 동시에</li>
+    <li>desc_sentence->멀리에 있는 가장 희미한 빛의 깜박임도 보이지 않습니다.</li>
+    <li>desc_sentence->상황은 완전히 가망이 없어 보입니다.</li>
+    <li>desc_sentence->그늘이 진 생물 무리가 어둠 가장자리에서 보입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 잠식해오는 어둠 속에서 희미한 희망을 찾으려고 합니다.</li>
+  </UnnaturalDarkness.rulePack.rulesStrings>
+  
+</LanguageData>

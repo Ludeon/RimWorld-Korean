@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>\n\n<LanguageData>
+
+  <!-- ITab_Entity -->
+  <HoldingPlatformEscapeMTBDays>탈출 주기</HoldingPlatformEscapeMTBDays>
+  <HoldingPlatformEscapeMTBDaysDesc>탈출 간의 평균 시간입니다. 이는 억제력, 실체의 종류, 실체의 이동 능력, 실체의 감금 기간에 영향을 받습니다. 일부 실체는 추위에도 억제됩니다.</HoldingPlatformEscapeMTBDaysDesc>
+  <TabEntity>실체</TabEntity>
+  <StudyInterval>연구 주기</StudyInterval>
+  <StudyIntervalDesc>이 실체가 연구될 수 있는 빈도입니다.</StudyIntervalDesc>
+  <EntityStudyMode_MaintainOnly>유지만</EntityStudyMode_MaintainOnly>
+  <EntityStudyMode_MaintainOnlyDesc>간수는 이 실체에 특별한 행동을 취하지 않지만, 다른 상호작용은 여전히 사용 가능합니다.</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_Study>연구</EntityStudyMode_Study>
+  <EntityStudyMode_StudyDesc>연구자들이 실체를 연구합니다.</EntityStudyMode_StudyDesc>
+  <EntityStudyMode_Release>방출</EntityStudyMode_Release>
+  <EntityStudyMode_ReleaseDesc>간수가 실체를 수용 플랫폼에서 풀어줄 겁니다. 실체는 풀어줬을 때 적대적일 수 있습니다.</EntityStudyMode_ReleaseDesc>
+  <EntityStudyMode_Execute>처형</EntityStudyMode_Execute>
+  <EntityStudyMode_ExecuteDesc>간수가 억제된 실체를 처형할 겁니다.</EntityStudyMode_ExecuteDesc>
+  <CantBeExecuted>처형할 수 없습니다.</CantBeExecuted>
+  <StudyKnowledgeGain>지식 획득량</StudyKnowledgeGain>
+  <StudyKnowledgeGainDesc>연구 주기 당 얻은 지식의 양입니다. 더 강한 억제는 연구자가 안전 대신 연구에 집중할 수 있게 해주어, 더 많은 지식을 생산합니다.</StudyKnowledgeGainDesc>
+  <MedicineQualityDescriptionEntity>이 실체에 줄 수 있는 약의 종류입니다.</MedicineQualityDescriptionEntity>
+
+  <FactorForElectroharvester>전기 수확기계</FactorForElectroharvester>
+  <FactorForDaysInCaptivity>장기 감금</FactorForDaysInCaptivity>
+  <FactorForColdCaptivity>추운 억제 보너스</FactorForColdCaptivity>
+  <IncapableOfEscaping>탈출 불가능</IncapableOfEscaping>
+  <EntityDowned>쓰러진 실체</EntityDowned>
+  <FactorContainmentStrength>억제력</FactorContainmentStrength>
+  <FactorElectroharvester>전기 수확기계</FactorElectroharvester>
+  <FactorActivity>활동</FactorActivity>\n\n</LanguageData>

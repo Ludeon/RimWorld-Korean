@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: adrenal heart -->
+  <AdrenalHeart.label>부신의 심장</AdrenalHeart.label>
+  <!-- EN: A modified human heart that can release stress hormones and liquid energy into the bloodstream, allowing a ghoul to move and attack at incredible speeds. -->
+  <AdrenalHeart.description>개조된 인간 심장입니다. 혈류로 스트레스 호르몬과 액체 에너지를 방출하여 구울이 엄청난 속도로 움직이고 공격할 수 있게 합니다.</AdrenalHeart.description>
+  
+  <!-- EN: corrosive heart -->
+  <CorrosiveHeart.label>부식성 심장</CorrosiveHeart.label>
+  <!-- EN: A modified human heart that allows a ghoul to spray corrosive fluid. -->
+  <CorrosiveHeart.description>개조된 인간 심장으로 구울이 부식성 액체를 분사할 수 있게 합니다.</CorrosiveHeart.description>
+  
+  <!-- EN: fleshmass lung -->
+  <FleshmassLung.label>살덩이 폐</FleshmassLung.label>
+  <!-- EN: A cancerous mass of semi-sentient flesh. The tissue constantly regrows and replaces itself, making it immune to effects like lung rot and asthma.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
+  <FleshmassLung.description>어느 정도 지각이 있는 살의 암 덩어리입니다. 조직은 계속해서 재성장하며 자체적으로 대체하여, 폐렴과 천식 같은 영향에 면역력을 갖습니다.\n\n이 장기는 자체적인 신경 구조가 있어 제거되면 위험해질 수 있습니다.</FleshmassLung.description>
+  <!-- EN: Fleshmass operation -->
+  <FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterLabel>살덩이 작업</FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s fleshmass lung has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterText>{PAWN_nameDef}의 살덩이 폐를 제거하려고 하자 뒤틀린 살덩이가 공격을 해옵니다. 살덩이는 {PAWN_nameDef}에게서 분리되어 살짐승으로 변했습니다!</FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a fleshmass lung -->
+  <FleshmassLung.labelNoun>살덩이 폐</FleshmassLung.labelNoun>
+  
+  <!-- EN: fleshmass stomach -->
+  <FleshmassStomach.label>살덩이 위</FleshmassStomach.label>
+  <!-- EN: A cancerous mass of semi-sentient flesh. The harsh acid it produces is painful, but strong enough to prevent most food poisoning.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
+  <FleshmassStomach.description>어느 정도 지각이 있는 살의 암 덩어리 입니다. 이것이 생산하는 독한 산은 아프지만, 대부분의 식중독을 막을 만큼 충분히 강합니다.\n\n이 장기는 자체적인 신경 구조가 있어 제거되면 위험해질 수 있습니다.</FleshmassStomach.description>
+  <!-- EN: Fleshmass operation -->
+  <FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterLabel>살덩이 작업</FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s fleshmass stomach has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterText>{PAWN_nameDef}의 살덩이 위를 제거하려고 하자 뒤틀린 살덩이가 공격을 해옵니다. 살덩이는 {PAWN_nameDef}에게서 분리되어 살짐승으로 변했습니다!</FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a fleshmass stomach -->
+  <FleshmassStomach.labelNoun>살덩이 위</FleshmassStomach.labelNoun>
+  
+  <!-- EN: flesh whip -->
+  <FleshWhip.label>살 채찍</FleshWhip.label>
+  <!-- EN: A fleshy, muscled tentacle with a blade at the end. The flesh whip makes an excellent melee weapon.\n\nIt has its own neural structures and may become dangerous if removed. -->
+  <FleshWhip.description>끝에 칼날이 달린 살과 근육으로 된 촉수입니다. 살 채찍은 훌륭한 근접 무기입니다.\n\n자체적인 신경 구조가 있어 제거되면 위험해질 수 있습니다.</FleshWhip.description>
+  <!-- EN: blade -->
+  <FleshWhip.comps.HediffComp_VerbGiver.tools.blade.label>칼날</FleshWhip.comps.HediffComp_VerbGiver.tools.blade.label>
+  <!-- EN: Fleshmass operation -->
+  <FleshWhip.comps.HediffComp_FleshbeastEmerge.letterLabel>살덩이 작업</FleshWhip.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s flesh whip has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <FleshWhip.comps.HediffComp_FleshbeastEmerge.letterText>{PAWN_nameDef}의 살 채찍을 제거하려고 하자 뒤틀린 살덩이가 공격을 해옵니다. 살덩이는 {PAWN_nameDef}에게서 분리되어 살짐승으로 변했습니다!</FleshWhip.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a flesh whip -->
+  <FleshWhip.labelNoun>살 채찍</FleshWhip.labelNoun>
+  
+  <!-- EN: ghoul barbs -->
+  <GhoulBarbs.label>구울 미늘</GhoulBarbs.label>
+  <!-- EN: A number of barbed bioferrite spikes have been surgically attached to this ghoul. -->
+  <GhoulBarbs.description>많은 바이오페라이트 가시가 이 구울에 수술로 부착되었습니다.</GhoulBarbs.description>
+  <!-- EN: Ghoul spikes -->
+  <GhoulBarbs.renderNodeProperties.0.debugLabel>구울 가시</GhoulBarbs.renderNodeProperties.0.debugLabel>
+  <!-- EN: Ghoul spikes -->
+  <GhoulBarbs.renderNodeProperties.1.debugLabel>구울 가시</GhoulBarbs.renderNodeProperties.1.debugLabel>
+  
+  <!-- EN: ghoul plating -->
+  <GhoulPlating.label>구울 철판</GhoulPlating.label>
+  <!-- EN: A number of large bioferrite plates have been surgically attached to this ghoul. -->
+  <GhoulPlating.description>많은 거대 바이오페라이트 철판이 이 구울에 수술로 부착되었습니다.</GhoulPlating.description>
+  <!-- EN: Ghoul plates -->
+  <GhoulPlating.renderNodeProperties.0.debugLabel>구울 철판</GhoulPlating.renderNodeProperties.0.debugLabel>
+  
+  <!-- EN: metalblood heart -->
+  <MetalbloodHeart.label>금속 혈액 심장</MetalbloodHeart.label>
+  <!-- EN: A modified human heart that can pump metalblood into the bloodstream, making the ghoul more resistant to damage for a short period of time. -->
+  <MetalbloodHeart.description>개조된 인간 심장으로 금속 혈액을 혈류로 순환시킬 수 있어, 짧은 시간 동안 구울이 피해를 더 견딜 수 있게 합니다.</MetalbloodHeart.description>
+  
+  <!-- EN: revenant vertebrae -->
+  <RevenantVertebrae.label>망령 척추골</RevenantVertebrae.label>
+  <!-- EN: An installed prosthetic that allows the user to temporarily become invisible. The prosthetic is crafted from a modified revenant spine, using archotech shards to restrain the dormant revenant. The user can manipulate the visual centers of those nearby, effectively turning themself invisible for a short time. -->
+  <RevenantVertebrae.description>설치된 보철물으로 사용자를 일시적으로 보이지 않게 만들어 줍니다. 보철물은 휴면기의 망령을 억제하기 위해 초월공학 조각을 사용하여 개조된 망령 척추에서 제작되었습니다. 사용자는 근처에 있는 자들의 시각 중추를 조종해, 짧은 기간 효과적으로 스스로를 보이지 않게 만들 수 있습니다.</RevenantVertebrae.description>
+  
+  <!-- EN: flesh tentacle -->
+  <Tentacle.label>살 촉수</Tentacle.label>
+  <!-- EN: A fleshy, muscled tentacle resembling a partial transformation into a fleshbeast. The tentacle is excellent at manipulation.\n\nThe flesh tentacle has its own neural structures and may become dangerous if removed. -->
+  <Tentacle.description>살과 근육으로 된 촉수로, 살짐승으로의 변형을 일부분 닮아 있습니다. 촉수는 조작하기에 훌륭합니다.\n\n살 촉수는 자체적인 신경 구조가 있어 제거되면 위험해질 수 있습니다.</Tentacle.description>
+  <!-- EN: Fleshmass operation -->
+  <Tentacle.comps.HediffComp_FleshbeastEmerge.letterLabel>살덩이 작업</Tentacle.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s tentacle has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <Tentacle.comps.HediffComp_FleshbeastEmerge.letterText>{PAWN_nameDef}의 촉수를 제거하려고 하자 뒤틀린 살덩이가 공격을 해옵니다. 살덩이는 {PAWN_nameDef}에게서 분리되어 살짐승으로 변했습니다!</Tentacle.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a flesh tentacle -->
+  <Tentacle.labelNoun>살 촉수</Tentacle.labelNoun>
+  
+</LanguageData>

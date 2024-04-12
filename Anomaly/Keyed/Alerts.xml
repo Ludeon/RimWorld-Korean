@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ActivityMultipleDangerous>위험한 활동 레벨</ActivityMultipleDangerous>
+  <ActivityDangerousDesc>이 실체의 활동 레벨이 위험할 정도로 높습니다</ActivityDangerousDesc>  
+  <ActivityDangerousDescAppended>실체의 활동이 100%에 도달하면, 위험해집니다.\n\n간수를 보내 이 실체를 억제하거나 실체의 활동 패널을 사용해 자동 억제를 활성화하세요.</ActivityDangerousDescAppended>
+
+  <NeedAnomalyProject>이상 과제 필요함</NeedAnomalyProject>
+  <NeedAnomalyProjectDesc>연구를 위해 표시된 실체가 있지만 일치하는 이상 연구 과제가 선택되지 않았습니다.</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDescLine>{NAME} 이상 연구 과제 필요함</NeedAnomalyProjectDescLine>
+  <NeedAnomalyProjectDescAppended>연구 메뉴를 열어 이상 창에서 과제를 선택하세요.\n\n기본 및 고급 연구 과제를 동시에 선택할 수 있습니다.\n\n(클릭하여 연구 메뉴를 여세요.)</NeedAnomalyProjectDescAppended>
+
+  <CreepJoinerTimeout>무시되는 방문객</CreepJoinerTimeout>
+  <CreepJoinerTimeoutDesc>다음 방문객은 무시당했다고 느끼며 더욱 기분 상해합니다</CreepJoinerTimeoutDesc>
+  <CreepJoinerTimeoutDescAppended>정착민을 선택하고 방문객을 우클릭하세요.\n\n빠르게 행동하세요... 방문객은 무시당하는 것을 싫어합니다.</CreepJoinerTimeoutDescAppended>
+
+  <Alert_UndercaveUnstable>지하동굴 불안정함</Alert_UndercaveUnstable>
+  <Alert_UndercaveUnstableDesc>지하동굴이 불안정해져 곧 붕괴될 겁니다.\n\n너무 늦기 전에 정착민을 대피시키세요.</Alert_UndercaveUnstableDesc>
+
+  <Alert_CultistPsychicRitual>광신도 초정신 의식</Alert_CultistPsychicRitual>
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 행하기 시작했습니다. 만약 {INVOKER_objective}(을)를 방해하지 않으면, 결과가 아주 나쁠 수 있습니다.</Alert_CultistPsychicRitualDesc>
+
+  <AlertMeatHunger>구울 굶주림</AlertMeatHunger>
+  <AlertMeatHungerDesc>이 구울들은 생고기를 갈구합니다</AlertMeatHungerDesc>
+  <AlertMeatHungerDescAppended>빨리 먹지 않으면 공격할 수도 있습니다. 고기를 가져다 주세요.</AlertMeatHungerDescAppended>
+  
+  <AlertEmergingPitGate>구덩이 문 열리는 중</AlertEmergingPitGate>
+  <AlertEmergingPitGateDesc>땅이 자체적으로 붕괴하고 있습니다. 구덩이 문이 곧 형성될 겁니다.</AlertEmergingPitGateDesc>
+
+  <Alert_InsufficientContainment>억제 부족</Alert_InsufficientContainment>
+  <Alert_InsufficientContainmentDesc>다음 실체가 최소 억제력을 충족시키지 않는 방에 갇혀 있습니다</Alert_InsufficientContainmentDesc>
+  <Alert_InsufficientContainmentDescAppended>실체가 곧 탈출할 겁니다. 더 강한 벽, 문, 다른 억제 장치를 건축해 실체를 가두세요.</Alert_InsufficientContainmentDescAppended>
+
+  <AlertHoldingPlatform>수용 플랫폼 필요</AlertHoldingPlatform>
+  <AlertHoldingPlatformDesc>수용 플랫폼을 짓거나 수용 장소를 배치해 포획한 실체를 억제하고 연구하세요.</AlertHoldingPlatformDesc>
+
+  <AlertCubeWithdrawal>큐브 금단 현상</AlertCubeWithdrawal>
+  <AlertCubeWithdrawalDesc>다음 사람들이 큐브 금단 현상을 겪고 있습니다</AlertCubeWithdrawalDesc>
+  <AlertCubeWithdrawalDescAppended>이 사람들의 피부는 가렵고 정신은 바쁘게 돌아가며, 사람들은 황금 큐브와 더욱 가까워지고 싶어 합니다. 사람들의 증상은 큐브와 놀 수 있을 때까지 악화될 겁니다.\n\n자유 시간을 갖고 황금 큐브와 놀 수 있도록 하세요.</AlertCubeWithdrawalDescAppended>
+
+  <AlertDigestion>걸신의 소화</AlertDigestion>
+  <AlertDigestionDesc>다음 사람들 혹은 생물들이 걸신에게 소화되고 있습니다</AlertDigestionDesc>
+  <AlertDigestionDescAppended>걸신을 죽여 너무 늦기 전에 그들을 풀어주세요.</AlertDigestionDescAppended>
+  
+  <AlertInhibitorBlocked>억제제 차단됨</AlertInhibitorBlocked>
+  <AlertInhibitorBlockedDesc>전기 억제기 중 하나가 다른 건물에 막혀 작동하지 않고 있습니다.\n\n전기 억제기 앞의 공간을 비우세요.</AlertInhibitorBlockedDesc>
+
+  <EntityNeedsTreatment>실체 치료 필요</EntityNeedsTreatment>
+  <EntityNeedsTreatmentDesc>이 실체는 치료가 필요합니다. 치료를 하지 않으면 감금 상태에서 죽을 수도 있습니다.\n{0}\n\n의사를 보내 치료하세요.</EntityNeedsTreatmentDesc>
+
+  <AlertGhoulHypothermia>구울 저체온증</AlertGhoulHypothermia>
+  <AlertGhoulHypothermiaDesc>이 구울은 저체온증을 겪고 있습니다.\n{0}\n\n더 따뜻한 곳으로 옮기세요.</AlertGhoulHypothermiaDesc>\n\n</LanguageData>

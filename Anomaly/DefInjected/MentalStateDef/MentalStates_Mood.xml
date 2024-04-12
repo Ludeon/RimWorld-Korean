@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: dark visions -->
+  <DarkVisions.label>어둠 투시</DarkVisions.label>
+  <!-- EN: Mental state: Dark visions -->
+  <DarkVisions.baseInspectLine>정신 상태: 어둠 투시</DarkVisions.baseInspectLine>
+  <!-- EN: {PAWN_nameDef} has become overwhelmed with horrible visions, rambling about things that only {PAWN_pronoun} can see. {PAWN_pronoun} will snap out of it in a few hours. -->
+  <DarkVisions.beginLetter>{PAWN_nameDef}(은)는 끔찍한 환영에 압도되어, 자기만 볼 수 있는 것들에 대해 횡설수설하기 시작했습니다. 몇 시간 후에 정신을 차릴 겁니다.</DarkVisions.beginLetter>
+  <!-- EN: dark visions -->
+  <DarkVisions.beginLetterLabel>어둠 투시</DarkVisions.beginLetterLabel>
+  <!-- EN: {PAWN_nameDef}'s dark visions have stopped. -->
+  <DarkVisions.recoveryMessage>{PAWN_nameDef}의 어둠 투시가 멈췄습니다.</DarkVisions.recoveryMessage>
+  
+  <!-- EN: entity slayer -->
+  <EntityKiller.label>실체 학살자</EntityKiller.label>
+  <!-- EN: Mental state: Entity slayer -->
+  <EntityKiller.baseInspectLine>정신 상태: 실체 학살자</EntityKiller.baseInspectLine>
+  <!-- EN: {0} has snapped. {PAWN_pronoun} can no longer tolerate holding such dangerous entities in captivity and intends to destroy as many as {PAWN_pronoun} can. -->
+  <EntityKiller.beginLetter>{0}(은)는 무너졌습니다. 더 이상 이런 위험한 실체를 감금하여 수용하는 걸 견딜 수 없어 자신이 할 수 있는 한 많이 파괴하려고 합니다.</EntityKiller.beginLetter>
+  <!-- EN: {0} is no longer slaughtering random entities. -->
+  <EntityKiller.recoveryMessage>{0}(은)는 더 이상 무차별적으로 실체를 도살하지 않습니다.</EntityKiller.recoveryMessage>
+  
+  <!-- EN: entity liberator -->
+  <EntityLiberator.label>실체 해방자</EntityLiberator.label>
+  <!-- EN: Mental state: Entity liberator -->
+  <EntityLiberator.baseInspectLine>정신 상태: 실체 해방자</EntityLiberator.baseInspectLine>
+  <!-- EN: {0} has become suddenly allured by a captive entity and is convinced it must be freed. -->
+  <EntityLiberator.beginLetter>{0}(은)는 갑자기 감금된 실체에 끌려 실체가 자유로워야 한다는 확신이 들었습니다.</EntityLiberator.beginLetter>
+  <!-- EN: {0} is no longer freeing entities. -->
+  <EntityLiberator.recoveryMessage>{0}(은)는 더 이상 실체를 풀어주지 않습니다.</EntityLiberator.recoveryMessage>
+  
+  <!-- EN: insane ramblings -->
+  <InsaneRamblings.label>미친 듯한 횡설수설</InsaneRamblings.label>
+  <!-- EN: Mental state: Insane ramblings -->
+  <InsaneRamblings.baseInspectLine>정신 상태: 미친 듯한 횡설수설</InsaneRamblings.baseInspectLine>
+  <!-- EN: {PAWN_nameDef} has become completely untethered from reality, ranting about impossible subjects. {PAWN_pronoun} will snap out of it in a few hours. -->
+  <InsaneRamblings.beginLetter>{PAWN_nameDef}(이)가 완전히 현실에서 벗어나, 불가능한 대상에 대해 큰소리로 말하고 있습니다. 몇 시간 후에 정신을 차릴 겁니다.</InsaneRamblings.beginLetter>
+  <!-- EN: insane ramblings -->
+  <InsaneRamblings.beginLetterLabel>미친 듯한 횡설수설</InsaneRamblings.beginLetterLabel>
+  <!-- EN: {PAWN_nameDef} has stopped rambling. -->
+  <InsaneRamblings.recoveryMessage>{PAWN_nameDef}(이)가 횡설수설을 멈췄습니다.</InsaneRamblings.recoveryMessage>
+  
+  <!-- EN: terrifying hallucinations -->
+  <TerrifyingHallucinations.label>무서운 환각</TerrifyingHallucinations.label>
+  <!-- EN: Mental state: Terrifying hallucinations -->
+  <TerrifyingHallucinations.baseInspectLine>정신 상태: 무서운 환각</TerrifyingHallucinations.baseInspectLine>
+  <!-- EN: Vivid  hallucinations swirl around {0}, twisting and distorting allies into horrifying abominations. {PAWN_pronoun} will flee from anyone {PAWN_pronoun} perceives as a threat. -->
+  <TerrifyingHallucinations.beginLetter>선명한 환각이 {0} 주위를 빙빙 돌아, 동료들을 뒤틀고 왜곡해 무섭고 혐오스러운 것으로 만듭니다. 자신이 위협으로 감지하는 모두로부터 도망칠 겁니다.</TerrifyingHallucinations.beginLetter>
+  <!-- EN: terrifying hallucinations -->
+  <TerrifyingHallucinations.beginLetterLabel>무서운 환각</TerrifyingHallucinations.beginLetterLabel>
+  <!-- EN: {0} is no longer hallucinating. -->
+  <TerrifyingHallucinations.recoveryMessage>{0}(은)는 더 이상 환각을 느끼지 않습니다.</TerrifyingHallucinations.recoveryMessage>
+  
+</LanguageData>

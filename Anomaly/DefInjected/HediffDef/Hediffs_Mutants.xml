@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: awoken unnatural corpse -->
+  <AwokenCorpse.label>깨어난 부자연적 시체</AwokenCorpse.label>
+  <!-- EN: The energy building within this corpse is erupting. It has risen and is attacking with increasing power and speed. It will not stop until it reaches its victim. -->
+  <AwokenCorpse.description>이 시체 안에 쌓인 에너지가 분출하고 있습니다. 시체가 깨어나서 점점 강력해지는 힘과 속도로 공격하고 있습니다. 피해자에 도달하기 전까지는 멈추지 않을 겁니다.</AwokenCorpse.description>
+  <!-- EN: The unnatural corpse is moving faster! -->
+  <AwokenCorpse.comps.HediffComp_MessageStageIncreased.message>부자연적 시체가 더 빠르게 움직이고 있습니다!</AwokenCorpse.comps.HediffComp_MessageStageIncreased.message>
+  
+  <!-- EN: ghoul -->
+  <Ghoul.label>구울</Ghoul.label>
+  <!-- EN: This person has been implanted with an archotech shard, twisting them into a jittering murder machine. Its body is an amalgam of flesh and metal, while its mind cycles between half-conscious stupor and murderous intent.\n\nThey cannot work; they only fight. Ghouls must eat raw meat. If they go hungry, they can turn hostile.\n\nMany find ghouls' constant twitching to be disturbing, even when they aren't killing someone. -->
+  <Ghoul.description>이 사람은 초월공학 조각이 이식되어, 비틀어져 덜덜 떨리는 살인 기계가 되었습니다. 그 몸은 육체와 금속의 혼합체지만, 정신은 반의식적 인사불성과 살의 사이를 오갑니다.\n\n구울은 작업할 수 없습니다. 싸울 뿐입니다. 구울은 생고기를 먹어야 합니다. 배고파지면, 적대적으로 변할 수 있습니다.\n\n많은 사람이 구울의 지속적인 경련을 불쾌하다고 여깁니다. 구울이 누군가를 죽이고 있지 않을 때도요.</Ghoul.description>
+  
+  <!-- EN: ghoul frenzy -->
+  <GhoulFrenzy.label>구울 광란</GhoulFrenzy.label>
+  <!-- EN: This creature's blood is saturated with stress hormones and liquid energy, permitting it to move and attack at incredible speeds for a short time. -->
+  <GhoulFrenzy.description>이 생물의 피는 혈류를 스트레스 호르몬과 액체 에너지로 흠뻑 적셔져 있어, 구울이 짧은 시간 동안 엄청난 속도로 움직이고 공격할 수 있게 해줍니다.</GhoulFrenzy.description>
+  
+  <!-- EN: meat hunger -->
+  <MeatHunger.label>고기 갈망</MeatHunger.label>
+  <!-- EN: This creature is ravenously hungry for raw meat. It may become hostile if it gets too hungry. -->
+  <MeatHunger.description>이 생물은 생고기를 몹시 갈구하고 있습니다. 너무 배고파지면 적대적으로 변할 수 있습니다.</MeatHunger.description>
+  <!-- EN: initial -->
+  <MeatHunger.stages.initial.label>초기</MeatHunger.stages.initial.label>
+  <!-- EN: moderate -->
+  <MeatHunger.stages.moderate.label>보통</MeatHunger.stages.moderate.label>
+  <!-- EN: extreme -->
+  <MeatHunger.stages.extreme.label>극심함</MeatHunger.stages.extreme.label>
+  
+  <!-- EN: rapid regeneration -->
+  <RapidRegeneration.label>빠른 재생</RapidRegeneration.label>
+  <!-- EN: This creature has stored an incredible amount of healing energy. While not unlimited, it will rapidly regenerate until its energy has been exhausted. -->
+  <RapidRegeneration.description>이 생물은 엄청난 양의 치유 에너지를 저장했습니다. 무제한은 아니지만, 에너지가 고갈될 때까지 빠르게 재생될 겁니다.</RapidRegeneration.description>
+  
+  <!-- EN: resurrection coma -->
+  <ResurrectionComa.label>부활 혼수상태</ResurrectionComa.label>
+  <!-- EN: A mixture of deadlife dust and advanced biochemicals course through this creature’s veins. -->
+  <ResurrectionComa.description>죽은 목숨 먼지와 고급 생화학물의 혼합체가 이 생물의 정맥을 흐르고 있습니다.</ResurrectionComa.description>
+  
+  <!-- EN: rising -->
+  <Rising.label>일어나는 중</Rising.label>
+  <!-- EN: Mysterious archotechnological influences are reanimating this creature's corpse. -->
+  <Rising.description>신비한 초월공학 영향력이 이 생물의 시체를 되살리고 있습니다.</Rising.description>
+  
+  <!-- EN: shambler -->
+  <Shambler.label>휘청이는 자</Shambler.label>
+  <!-- EN: This dead creature has been re-animated by corrupted archites. Shamblers are slow and mindless, and will attack any living creature relentlessly. After a few days on their feet, shamblers die from metabolic exhaustion. Captured shamblers can't move and thus won't expire. -->
+  <Shambler.description>이 죽은 생물은 타락한 초월입자에 의해 되살아났습니다. 휘청이는 자는 느리며 생각이 없고, 가차없이 모든 살아 있는 생물을 공격할 겁니다. 일어난 며칠 뒤, 휘청이는 자는 대사 탈진으로 사망합니다. 포획한 휘청이는 자는 움직일 수 없어 죽지 않을 겁니다.</Shambler.description>
+  
+  <!-- EN: shambler corpse -->
+  <ShamblerCorpse.label>휘청이는 자 시체</ShamblerCorpse.label>
+  <!-- EN: This creature had previously been re-animated by corrupted archites. -->
+  <ShamblerCorpse.description>이 생물은 이전에 타락한 초월입자에 의해 되살아났습니다.</ShamblerCorpse.description>
+  <!-- EN: Shambler wounds -->
+  <ShamblerCorpse.renderNodeProperties.0.debugLabel>휘청이는 자 상처</ShamblerCorpse.renderNodeProperties.0.debugLabel>
+  <!-- EN: Shambler wounds -->
+  <ShamblerCorpse.renderNodeProperties.1.debugLabel>휘청이는 자 상처</ShamblerCorpse.renderNodeProperties.1.debugLabel>
+  
+</LanguageData>

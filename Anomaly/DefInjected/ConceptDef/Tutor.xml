@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anomaly research -->
+  <AnomalyResearch.label>이상 현상 연구</AnomalyResearch.label>
+  <!-- EN: You must advance Anomaly research by studying unnatural entities.\n\nThere are two types of Anomaly research: BASIC and ADVANCED. Basic research projects progress when you study any entity; advanced projects only progress when you study advanced entities.\n\nYou can have a basic and an advanced project active at the same time. If no advanced project is active, advanced research will contribute to a basic project instead. -->
+  <AnomalyResearch.helpText>부자연적 실체를 연구하여 이상 현상 연구를 진행해야 합니다.\n\n이상 현상 연구에는 두 가지 유형이 있습니다. 기본과 고급입니다. 기본 연구 과제는 실체를 연구하면 진행되며, 고급 과제는 고급 실체를 연구해야만 진행됩니다.\n\n동시에 기본과 고급 과제를 활성화할 수 있습니다. 만약 활성화된 고급 과제가 없다면, 고급 연구는 대신 기본 과제에 기여됩니다.</AnomalyResearch.helpText>
+  
+  <!-- EN: capturing entities -->
+  <CapturingEntities.label>실체 포획</CapturingEntities.label>
+  <!-- EN: When an entity is downed but alive, you can CAPTURE it. To capture, select a colonist, right-click on the entity, and select 'Capture'. You'll need an empty holding platform or spot.\n\nOnce the entity has been brought to the holding platform, you can study it to gain Anomaly research.\n\nTend an injured entity’s wounds to make sure it survives. -->
+  <CapturingEntities.helpText>실체가 쓰러졌으나 살아 있으면 포획할 수 있습니다. 포획하려면 정착민을 선택하고 실체를 우클릭하여 '포획'을 선택하세요. 빈 수용 플랫폼 혹은 수용 장소가 필요합니다.\n\n실체가 수용 플랫폼으로 이동되면, 실체를 연구하여 이상 현상 연구를 얻을 수 있습니다.\n\n부상 당한 실체의 상처를 간호해 생존하도록 하세요.</CapturingEntities.helpText>
+  
+  <!-- EN: ghouls -->
+  <ColonyGhouls.label>구울</ColonyGhouls.label>
+  <!-- EN: Ghouls are humans twisted by bioferrite. They can quickly regenerate injuries, making them useful as melee fighters. However, they are incapable of work.\n\nGhouls only eat corpses and raw meat. If they go hungry, they can turn hostile. -->
+  <ColonyGhouls.helpText>구울은 바이오페라이트로 뒤틀린 인간입니다. 빠르게 상처를 재생할 수 있어 근접 전투원으로 유용하지만 작업은 할 수 없습니다.\n\n구울은 시체와 생고기만을 먹습니다. 구울이 배고파지면 적대적으로 변할 수 있습니다.</ColonyGhouls.helpText>
+  
+  <!-- EN: containing entities -->
+  <ContainingEntities.label>실체 억제</ContainingEntities.label>
+  <!-- EN: It's best to hold entities in secure chambers with high CONTAINMENT STRENGTH or they'll soon escape. Containment strength is increased by:\n\n - Strong walls and doors\n - Good lighting\n - Electric inhibitors (needs research)\n - Bioferrite plate floors (needs research)\n\nOpen the entity's 'Entity' tab to configure how your colonists will interact with it. -->
+  <ContainingEntities.helpText>높은 억제력의 안전실에 실체를 수용하는 것이 최선입니다. 낮은 억제력에서는 실체가 빠르게 탈출할 겁니다. 억제력은 다음으로 인해 상승합니다.\n\n - 강한 벽과 문\n - 좋은 조명\n - 전기 억제기(연구 필요)\n - 바이오페라이트 도금 바닥(연구 필요)\n\n실체의 '실체' 창을 열어 정착민이 실체와 상호작용할 방법을 환경 설정하세요.</ContainingEntities.helpText>
+  
+  <!-- EN: entity codex -->
+  <EntityCodex.label>실체 고문서</EntityCodex.label>
+  <!-- EN: Use the entity codex to track which entities you've discovered.\n\nDiscovering new entities will reveal hidden Anomaly research projects. Once enough entities have been discovered, you can increase the void monolith's level.\n\nOpen the entity codex using the entity codex icon in the lower right of the screen. -->
+  <EntityCodex.helpText>실체 고문서를 사용해 어떤 실체를 발견했는지 추적하세요.\n\n새로운 실체를 발견하면 숨겨진 이상 현상 연구 과제가 드러납니다. 충분한 실체가 발견되면, 공허 모노리스의 레벨을 올릴 수 있습니다.\n\n화면의 하단 오른쪽에 있는 실체 고문서 아이콘을 사용해 실체 고문서를 여세요.</EntityCodex.helpText>
+  
+  <!-- EN: studying entities -->
+  <StudyingEntities.label>실체 연구</StudyingEntities.label>
+  <!-- EN: Colonists assigned to 'Dark study' work will STUDY diverse entities including creatures and structures.\n\nStudy structures like the void monolith by selecting it and toggling the 'Study' option. Some entities must be captured to a holding platform or spot before they can be studied.\n\nStudying advances Anomaly research projects. Open the 'Research' tab, then select the 'Anomaly' sub-tab to view Anomaly research projects. -->
+  <StudyingEntities.helpText>'어둠의 연구' 작업에 배정된 정착민은 생물과 구조물을 포함한 다양한 실체를 연구합니다.\n\n공허 모노리스 같은 구조물을 선택하여 '연구' 옵션을 토글하고 연구하세요. 일부 실체는 연구되기 전에 수용 플랫폼 혹은 수용 장소에 포획되어야 합니다.\n\n연구는 이상 현상 연구 과제를 진행시킵니다. '연구' 창을 열어, '이상 현상' 하부 창을 선택하여 이상 현상 연구 과제를 보세요.</StudyingEntities.helpText>
+  
+  <!-- EN: suppressing entities -->
+  <SuppressingEntities.label>실체 억제</SuppressingEntities.label>
+  <!-- EN: Some entities become more active over time, even in captivity. If an entity's activity bar fills completely, it will do something extremely dangerous.\n\nTo prevent full activation, you must periodically SUPPRESS it. Wardens will suppress entities. -->
+  <SuppressingEntities.helpText>일부 실체는 시간이 지나면 포획 중에도 더 활성화됩니다. 만약 실체의 활동 막대가 완전히 차오르면 엄청나게 위험한 일을 저지를 겁니다.\n\n완전한 활성화를 막기 위해서는 간수가 정기적으로 실체를 억제해야 합니다.</SuppressingEntities.helpText>
+  
+  <!-- EN: void provocation -->
+  <VoidProvocation.label>공허의 도발</VoidProvocation.label>
+  <!-- EN: Use the void provocation psychic ritual to discover and capture new entities.\n\nDiscovering entities will let you advance the void monolith to higher levels, and unlock new research projects. Capturing more entities will let you complete Anomaly research projects faster.\n\nPlace a psychic ritual spot in order to perform the void provocation ritual. -->
+  <VoidProvocation.helpText>공허의 도발 초정신 의식을 사용해 새로운 실체를 발견하고 포획하세요.\n\n실체를 발견하면 공허 모노리스 레벨을 더 높일 수 있으며, 새로운 연구 과제를 잠금 해제할 수 있습니다. 더 많은 실체를 포획하면 이상 현상 연구 과제를 더 빨리 완료할 수 있습니다.\n\n초정신 의식 장소를 배치하여 공허의 도발 의식을 행하세요.</VoidProvocation.helpText>
+  
+</LanguageData>

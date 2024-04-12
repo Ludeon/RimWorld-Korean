@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KnowledgeFromStudy>연구에서 획득한 지식</KnowledgeFromStudy>
+  <KnowledgeFromStudyDesc>이 실체가 연구되면 얻을 수 있는 이상 현상 지식의 유형과 양입니다. 더 정교한 실체는 더 고급의 이상 현상 연구 과제를 잠금 해제할 수 있습니다.</KnowledgeFromStudyDesc>
+  <Stat_Knowledge>{0} {1}</Stat_Knowledge>
+  <StudyFrequency>연구 주기</StudyFrequency>
+  <StudyFrequencyDesc>이 실체에 대해 가능한 연구 시기 사이의 기간입니다.</StudyFrequencyDesc>
+  
+  <Stat_Hediff_Regeneration_Name>치유</Stat_Hediff_Regeneration_Name>
+  <Stat_Hediff_Regeneration_Desc>하루당 균일한 치유량입니다.</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Stat>{0}hp/일</Stat_Hediff_Regeneration_Stat>
+
+  <Stat_ContainmentStrength_AverageLighting>평균 조명</Stat_ContainmentStrength_AverageLighting>
+  <Stat_ContainmentStrength_AverageWallHp>평균 벽 내구도</Stat_ContainmentStrength_AverageWallHp>
+  <Stat_ContainmentStrength_AverageDoorHp>평균 문 HP</Stat_ContainmentStrength_AverageDoorHp>
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>여러 개({0})의 수용 플랫폼</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_MapwideOffset>지역 오프셋</Stat_ContainmentStrength_MapwideOffset>
+  <Stat_ContainmentStrength_DoorForcedOpen>문 열림</Stat_ContainmentStrength_DoorForcedOpen>
+  <Stat_ContainmentStrength_NotFullyRoofed>지붕 완전히 덮이지 않음</Stat_ContainmentStrength_NotFullyRoofed>
+  <Stat_ContainmentStrength_Flooring>바닥</Stat_ContainmentStrength_Flooring>
+  <Stat_ContainmentStrength_Platform>건물</Stat_ContainmentStrength_Platform>
+
+  <StatsReport_BioferriteGeneration>바이오페라이트 생산</StatsReport_BioferriteGeneration>
+  <StatsReport_BioferriteGeneration_Desc>이 실체가 하루당 생산하는 바이오페라이트의 양입니다. 수용 플랫폼에 포획되면, 바이오페라이트는 바이오페라이트 수확기를 건축하여 수확될 수 있습니다.</StatsReport_BioferriteGeneration_Desc>
+  
+  <StatsReport_Offering>공물</StatsReport_Offering>
+  <StatsReport_Offering_Desc>초정신 의식을 행하려면 이 재료가 필요합니다.</StatsReport_Offering_Desc>
+
+  <StatsReport_RitualDuration>의식 지속시간</StatsReport_RitualDuration>
+  <StatsReport_RitualDuration_Desc>이 의식을 행하는 데 걸리는 시간입니다.</StatsReport_RitualDuration_Desc>
+
+  <StatsReport_RitualCooldown>재사용 대기시간</StatsReport_RitualCooldown>
+  <StatsReport_RitualCooldown_Desc>의식이 행해진 후, 이는 일정 기간 주위의 정신 에너지를 방해합니다. 이 시간 동안, 의식은 다시 행해질 수 없습니다.</StatsReport_RitualCooldown_Desc>
+
+  <StatsReport_ContainmentStrengthOffset>억제 오프셋</StatsReport_ContainmentStrengthOffset>
+  <StatsReport_ContainmentStrengthOffset_Desc>수용 플랫폼의 실체 억제력에 영향을 미치는 정도입니다. 더 잘 억제된 실체는 탈출할 가능성이 낮으며 연구되었을 때 더 많은 지식을 줍니다.</StatsReport_ContainmentStrengthOffset_Desc>
+
+  <StatsReport_SerumDuration>지속시간</StatsReport_SerumDuration>
+  <StatsReport_SerumDuration_Desc>혈청의 효과가 지속되는 시간입니다.</StatsReport_SerumDuration_Desc>
+  
+  <StatsReport_Occupied>가득 참</StatsReport_Occupied>
+  <MeditationFocusPerBuilding>근처의 {BUILDING_label} 당 {2} ({0} / {1})</MeditationFocusPerBuilding>
+  <MeditationFocusPerBuildingAbstract>근처의 {BUILDING_label} 당 {1} (최대 {0})</MeditationFocusPerBuildingAbstract>\n\n</LanguageData>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayCreepjoiner.label>장기 부패</OrganDecayCreepjoiner.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecayCreepjoiner.description>단일 장기에 영향을 미치는 퇴행성 질병으로 치료할 수 없습니다. 원인은 세균 혹은 바이러스일 수 있습니다. 질병은 알 수 없는 자연 숙주에게서 임의로 발생하는 것처럼 보입니다. 사람들 간에 직접적으로 전염되지는 않습니다.\n\n이 장기는 천천히 기능을 잃고 완전히 죽을 겁니다. 생체공학 장기 혹은 자연 장기로 대체하세요.</OrganDecayCreepjoiner.description>
+  <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
+  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}의 {1}(이)가 장기 쇠퇴에 의해 파괴되었습니다.</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
+  <!-- EN: minor -->
+  <OrganDecayCreepjoiner.stages.minor.label>가벼움</OrganDecayCreepjoiner.stages.minor.label>
+  <!-- EN: moderate -->
+  <OrganDecayCreepjoiner.stages.moderate.label>보통</OrganDecayCreepjoiner.stages.moderate.label>
+  <!-- EN: severe -->
+  <OrganDecayCreepjoiner.stages.severe.label>심함</OrganDecayCreepjoiner.stages.severe.label>
+  <!-- EN: extreme -->
+  <OrganDecayCreepjoiner.stages.extreme.label>극심함</OrganDecayCreepjoiner.stages.extreme.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayUndiagnosedCreepjoiner.label>장기 부패</OrganDecayUndiagnosedCreepjoiner.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecayUndiagnosedCreepjoiner.description>단일 장기에 영향을 미치는 퇴행성 질병으로 치료할 수 없습니다. 원인은 세균 혹은 바이러스일 수 있습니다. 질병은 알 수 없는 자연 숙주에게서 임의로 발생하는 것처럼 보입니다. 사람들 간에 직접적으로 전염되지는 않습니다.\n\n이 장기는 천천히 기능을 잃고 완전히 죽을 겁니다. 생체공학 장기 혹은 자연 장기로 대체하세요.</OrganDecayUndiagnosedCreepjoiner.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(이)가 장기가 빠르게 악화될 수 있는 심각한 상태의 조기 조짐을 보이고 있습니다. {SURGEON_nameDef}(은)는 이를 유발하는 것이 정확히 무엇인지 아직 알 수 없지만, {PAWN_nameDef}(은)는 며칠 내에 매우 아픈 상태가 될 것입니다.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. {PAWN_possessive} body is riddled with rotting organs - {PAWN_pronoun} is little more than a walking corpse. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}(은)는 {PAWN_possessive} 치명적인 상태를 더 이상 숨길 수 없습니다. {PAWN_possessive} 몸은 썩고 있는 장기로 가득 차 있습니다. 걷고 있는 시체를 겨우 면하는 정도입니다. {PAWN_nameDef}(은)는 다음 신체 부위에 장기 부패의 영향을 받고 있습니다.\n\n{ORGANS}\n\n빨리 장기를 대체하여 {PAWN_nameDef}(을)를 건강하게 만드세요. 생체공학 장기 혹은 기부자에게서 받은 자연 장기를 사용할 수 있습니다.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Organ decay: {PAWN_nameDef} -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>장기 부패: {PAWN_nameDef}</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>진단됨</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayUndiagnosedDuplicaton.label>장기 부패</OrganDecayUndiagnosedDuplicaton.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecayUndiagnosedDuplicaton.description>단일 장기에 영향을 미치는 퇴행성 질병으로 치료할 수 없습니다. 원인은 세균 혹은 바이러스일 수 있습니다. 질병은 알 수 없는 자연 숙주에게서 임의로 발생하는 것처럼 보입니다. 사람들 간에 직접적으로 전염되지는 않습니다.\n\n이 장기는 천천히 기능을 잃고 완전히 죽을 겁니다. 생체공학 장기 혹은 자연 장기로 대체하세요.</OrganDecayUndiagnosedDuplicaton.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(이)가 장기가 빠르게 악화될 수 있는 심각한 상태의 조기 조짐을 보이고 있습니다. {SURGEON_nameDef}(은)는 이를 유발하는 것이 정확히 무엇인지 아직 알 수 없지만, {PAWN_nameDef}(은)는 며칠 내에 매우 아픈 상태가 될 것입니다.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. The duplication process has left {PAWN_possessive} body riddled with rotting organs. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}(은)는 치명적인 상태를 더 이상 숨길 수 없습니다. 복제 과정은 {PAWN_possessive} 몸을 썩고 있는 장기로 가득 채웠습니다. {PAWN_nameDef}(은)는 다음 신체 부위에 장기 부패의 영향을 받고 있습니다.\n\n{ORGANS}\n\n빨리 장기를 대체하여 {PAWN_nameDef}(을)를 건강하게 만드세요. 생체공학 장기 혹은 기부자에게서 받은 자연 장기를 사용할 수 있습니다.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Organ decay: {PAWN_nameDef} -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>장기 부패: {PAWN_nameDef}</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>진단됨</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
+  
+</LanguageData>

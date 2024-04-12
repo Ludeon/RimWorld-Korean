@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: atmospheric heater -->
+  <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
+  <!-- EN: A thermal projection device powered by a scavenged shard of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
+  <AtmosphericHeater.description>긁어모은 어둠의 초월공학 조각으로 작동되는 열 투사 장치입니다. 장치는 바이오페라이트를 태워 대기 중의 가스 분자를 휘저어, 지역의 외부 온도를 높입니다. 건물은 자체적으로 많은 양의 폐열을 생산하기도 합니다.</AtmosphericHeater.description>
+  <!-- EN: Target outdoor temperature -->
+  <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>대상 외부 온도</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
+  
+  <!-- EN: tactical turret bullet -->
+  <Bullet_TacticalTurret.label>전술 포탑 탄환</Bullet_TacticalTurret.label>
+  
+  <!-- EN: delayed metalhorror emerge -->
+  <DelayedMetalhorrorEmerger.label>지연된 메탈호러 출현</DelayedMetalhorrorEmerger.label>
+  
+  <!-- EN: dirt cube sculpture -->
+  <DirtCubeSculpture.label>흙 큐브 조각상</DirtCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <DirtCubeSculpture.description>서투르게 제작된 조각상으로 큐브와 닮았습니다.</DirtCubeSculpture.description>
+  
+  <!-- EN: electric inhibitor -->
+  <ElectricInhibitor.label>전기 억제기</ElectricInhibitor.label>
+  <!-- EN: A device that emits a specially tuned electromagnetic field which numbs the neural activity of captured entities. As long as it is powered, it improves the containment strength of any holding platform that it is pointed at. The electric field does not affect humans or normal animals. -->
+  <ElectricInhibitor.description>특별히 조정된 전자기장을 방출하여 포획된 실체의 신경 활동을 마비시키는 장치입니다. 동력이 공급되는 한, 가리키고 있는 모든 수용 플랫폼의 억제력을 향상시킵니다. 전기장은 인간 혹은 일반 동물에는 영향을 주지 않습니다.</ElectricInhibitor.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit2x2c.label>끝없는 구덩이</EndlessPit2x2c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit2x2c.description>매끈한 면의 구멍으로 아래를 향해 끝없이 확장됩니다.</EndlessPit2x2c.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit3x2c.label>끝없는 구덩이</EndlessPit3x2c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit3x2c.description>매끈한 면의 구멍으로 아래를 향해 끝없이 확장됩니다.</EndlessPit3x2c.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit3x3c.label>끝없는 구덩이</EndlessPit3x3c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit3x3c.description>매끈한 면의 구멍으로 아래를 향해 끝없이 확장됩니다.</EndlessPit3x3c.description>
+  
+  <!-- EN: floor etching -->
+  <FloorEtching.label>바닥 새김</FloorEtching.label>
+  <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
+  <FloorEtching.description>바닥에 대충 그려진 스케치입니다.\n\n충분한 시간이 있으면, 판독할 수 있을지도 모릅니다. 정착민을 선택하고 새김을 우클릭해 조사하세요.</FloorEtching.description>
+  <!-- EN: Choose someone to decipher this floor etching. -->
+  <FloorEtching.comps.CompFloorEtching.activateDescString>이 바닥 새김을 판독할 사람을 선택하세요.</FloorEtching.comps.CompFloorEtching.activateDescString>
+  <!-- EN: Decipher... -->
+  <FloorEtching.comps.CompFloorEtching.activateLabelString>판독...</FloorEtching.comps.CompFloorEtching.activateLabelString>
+  <!-- EN: Deciphering floor etching: {1}s -->
+  <FloorEtching.comps.CompFloorEtching.activatingString>바닥 새김 판독 중: {1}초</FloorEtching.comps.CompFloorEtching.activatingString>
+  <!-- EN: Deciphering floor etching -->
+  <FloorEtching.comps.CompFloorEtching.activatingStringPending>바닥 새김 판독 중</FloorEtching.comps.CompFloorEtching.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FloorEtching.comps.CompFloorEtching.guiLabelString>이것을 할 사람을 선택하세요</FloorEtching.comps.CompFloorEtching.guiLabelString>
+  <!-- EN: Send a colonist to decipher this. -->
+  <FloorEtching.comps.CompFloorEtching.inspectString>정착민을 보내 이것을 판독하세요.</FloorEtching.comps.CompFloorEtching.inspectString>
+  <!-- EN: Decipher floor etching -->
+  <FloorEtching.comps.CompFloorEtching.jobString>바닥 새김 판독</FloorEtching.comps.CompFloorEtching.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
+  <FloorEtching.comps.CompFloorEtching.messageCompletedString>{PAWN_nameDef}(이)가 성공적으로 바닥 새김을 판독했습니다.</FloorEtching.comps.CompFloorEtching.messageCompletedString>
+  
+  <!-- EN: floor etching -->
+  <FloorEtchingRambling.label>바닥 새김</FloorEtchingRambling.label>
+  <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
+  <FloorEtchingRambling.description>바닥에 대충 그려진 스케치입니다.\n\n충분한 시간이 있으면, 판독할 수 있을지도 모릅니다. 정착민을 선택하고 새김을 우클릭해 조사하세요.</FloorEtchingRambling.description>
+  <!-- EN: Choose someone to decipher this floor etching. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>이 바닥 새김을 판독할 사람을 선택하세요.</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>
+  <!-- EN: Decipher... -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>판독...</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>
+  <!-- EN: Deciphering floor etching: {1}s -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>바닥 새김 판독 중: {1}초</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>
+  <!-- EN: Deciphering floor etching -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>바닥 새김 판독 중</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>이것을 할 사람을 선택하세요</FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>
+  <!-- EN: Send a colonist to decipher this. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>정착민을 보내 이것을 판독하세요.</FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>
+  <!-- EN: Decipher floor etching -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>바닥 새김 판독</FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>{PAWN_nameDef}(이)가 성공적으로 바닥 새김을 판독했습니다.</FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>
+  
+  <!-- EN: frenzy inducer -->
+  <FrenzyInducer.label>광란 유도기</FrenzyInducer.label>
+  <!-- EN: A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent. -->
+  <FrenzyInducer.description>전기 자극 프레임에 고정된 긁어모은 초월공학 조각입니다. 장치는 인근 지역에 광란의 정신 진동을 만들어 근처의 모두를 자극해 더 빠르게 이동하고 작업하도록 합니다. 그러나, 그들이 가진 모든 정신이상은 확실히 격렬해질 겁니다.</FrenzyInducer.description>
+  
+  <!-- EN: gray box -->
+  <GrayBox.label>회색 상자</GrayBox.label>
+  <!-- EN: A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. -->
+  <GrayBox.description>이상한 회색 용기입니다. 특색이 없으며 표면은 매끄럽습니다. 소재는 금속, 콘크리트, 혹은 다른 알아볼 수 있는 물질이 아닙니다.</GrayBox.description>
+  
+  <!-- EN: door -->
+  <GrayDoor.label>문</GrayDoor.label>
+  <!-- EN: A strange gray door. -->
+  <GrayDoor.description>이상한 회색 문입니다.</GrayDoor.description>
+  <!-- EN: Choose someone to force this door open. -->
+  <GrayDoor.comps.CompLabyrinthDoor.activateDescString>이 문을 강제로 열 사람을 선택하세요.</GrayDoor.comps.CompLabyrinthDoor.activateDescString>
+  <!-- EN: Force open... -->
+  <GrayDoor.comps.CompLabyrinthDoor.activateLabelString>강제로 열기...</GrayDoor.comps.CompLabyrinthDoor.activateLabelString>
+  <!-- EN: forcing door open: {1}s -->
+  <GrayDoor.comps.CompLabyrinthDoor.activatingString>강제로 문 여는 중: {1}초</GrayDoor.comps.CompLabyrinthDoor.activatingString>
+  <!-- EN: forcing door open -->
+  <GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>강제로 문 여는 중</GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <GrayDoor.comps.CompLabyrinthDoor.guiLabelString>이것을 할 사람을 선택하세요</GrayDoor.comps.CompLabyrinthDoor.guiLabelString>
+  <!-- EN: Force this door open -->
+  <GrayDoor.comps.CompLabyrinthDoor.jobString>이 문 강제로 열기</GrayDoor.comps.CompLabyrinthDoor.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully forced the door open. -->
+  <GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>{PAWN_nameDef}(이)가 성공적으로 문을 강제로 열었습니다.</GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>
+  
+  <!-- EN: gray statue -->
+  <GrayStatueDeadlifeDust.label>회색 동상</GrayStatueDeadlifeDust.label>
+  <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
+  <GrayStatueDeadlifeDust.description>충격적인 모양으로 만들어진 이상한, 뒤틀린 조각상입니다. 내부의 이상한 힘으로 은은하게 웅웅댑니다.</GrayStatueDeadlifeDust.description>
+  <!-- EN: Gray statue activated -->
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>회색 동상 활성화됨</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>
+  <!-- EN: Reacting to {PAWN_nameDef}'s presence, the strange statue has begun to release a cloud of deadlife dust!\n\nThis dust-like substance will settle on nearby corpses and raise them as dangerous shamblers. -->
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>{PAWN_nameDef}의 존재에 반응하여, 이상한 동상이 죽은 목숨 먼지 구름을 방출하기 시작했습니다!\n\n이 먼지 같은 물질은 근처 시체들에 내려앉아 그들을 위험한 휘청이는 자로 일으킬 겁니다.</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
+  
+  <!-- EN: gray statue -->
+  <GrayStatueTeleporter.label>회색 동상</GrayStatueTeleporter.label>
+  <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
+  <GrayStatueTeleporter.description>충격적인 모양으로 만들어진 이상한, 뒤틀린 조각상입니다. 내부의 이상한 힘으로 은은하게 웅웅댑니다.</GrayStatueTeleporter.description>
+  <!-- EN: {PAWN_nameDef} teleported -->
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>{PAWN_nameDef} 순간이동함</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>
+  <!-- EN: After approaching the strange statue, {PAWN_nameDef} blinked and found {PAWN_objective}self transported to a new location. -->
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>이상한 동상에 접근한 뒤, {PAWN_nameDef}(이)가 눈을 깜박이자 {PAWN_objective} 자신이 새로운 장소로 순간이동된 것을 발견했습니다.</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>
+  
+  <!-- EN: wall -->
+  <GrayWall.label>벽</GrayWall.label>
+  <!-- EN: An impassable gray wall. -->
+  <GrayWall.description>통과할 수 없는 회색 벽입니다.</GrayWall.description>
+  
+  <!-- EN: tactical turret gun -->
+  <Gun_TacticalTurret.label>전술 포탑 총</Gun_TacticalTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <Gun_TacticalTurret.description>전자동 소구경 기관총이 장착된 포탑입니다.</Gun_TacticalTurret.description>
+  <!-- EN: tactical turret gun -->
+  <Gun_TacticalTurret.verbs.Verb_Shoot.label>전술 포탑 총</Gun_TacticalTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: holding platform -->
+  <HoldingPlatform.label>수용 플랫폼</HoldingPlatform.label>
+  <!-- EN: A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for Anomaly knowledge. Increase containment strength by building strong walls and doors, and other special containment devices. -->
+  <HoldingPlatform.description>위험한 실체를 수용하기 위한 플랫폼입니다. 모서리에는 작은 구멍이 있어 강한 사슬을 붙일 수 있습니다.\n\n쓰러진 실체를 포획하여 수용 플랫폼에 확보하고, 그곳에서 이상 현상 지식을 위해 연구될 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingPlatform.description>
+  
+  <!-- EN: holding spot -->
+  <HoldingSpot.label>수용 장소</HoldingSpot.label>
+  <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
+  <HoldingSpot.description>위험한 실체를 수용하기 위한 장소입니다. 철재 수용 플랫폼만큼 좋지는 않지만, 아무것도 없는 것보단 훨씬 낫습니다.\n\n쓰러진 실체를 포획하여 수용 장소에 확보하고, 그곳에서 연구할 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingSpot.description>
+  
+  <!-- EN: noctolith -->
+  <Noctolith.label>녹톨리스</Noctolith.label>
+  <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
+  <Noctolith.description>들쭉날쭉한 칼날 같은 구조물의 뒤틀린 기둥으로, 어둡고 기름으로 덮인 금속으로 만들어 졌습니다. 에너지로 고동치며, 중심은 어둠의 초월공학으로 동력이 공급됩니다.\n\n기둥을 파괴하면, 어둠의 초월공학 조각을 되찾을 수 있습니다.</Noctolith.description>
+  <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
+  <Noctolith.comps.CompInspectString.inspectString>내용물: 알 수 없음\n녹톨리스를 파괴해 부자연적 어둠을 끝내세요.</Noctolith.comps.CompInspectString.inspectString>
+  
+  <!-- EN: pit burrow -->
+  <PitBurrow.label>구덩이 굴</PitBurrow.label>
+  <!-- EN: A small hole connecting to some unseen cave network deep under the surface. The walls are too steep to climb. It is inherently unstable and will collapse after some time. -->
+  <PitBurrow.description>작은 구멍으로, 표면 깊숙이 있는 어떤 보이지 않는 동굴 네트워크를 연결하고 있습니다. 벽이 너무 가팔라 기어오를 수 없습니다. 내재적으로 불안정하여 일정 시간이 지나면 붕괴할 겁니다.</PitBurrow.description>
+  
+  <!-- EN: underground emergence -->
+  <PitBurrowSpawner.label>지하 출현</PitBurrowSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <PitBurrowSpawner.description>여기 땅에서 무언가가 나오고 있습니다.</PitBurrowSpawner.description>
+  
+  <!-- EN: pit gate -->
+  <PitGate.label>구덩이 문</PitGate.label>
+  <!-- EN: A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below. -->
+  <PitGate.description>거대하고 불길한 구멍으로 표면을 어두운 지하 동굴 네트워크와 연결합니다. 아래에 있는 동굴 안으로 기어들어 갈 수 있습니다.</PitGate.description>
+  
+  <!-- EN: pit gate exit -->
+  <PitGateExit.label>구덩이 문 출구</PitGateExit.label>
+  <!-- EN: A rope line which links to the surface above. -->
+  <PitGateExit.description>위의 지면과 연결하는 밧줄입니다.</PitGateExit.description>
+  
+  <!-- EN: underground emergence -->
+  <PitGateSpawner.label>지하 출현</PitGateSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <PitGateSpawner.description>여기 땅에서 무언가가 나오고 있습니다.</PitGateSpawner.description>
+  <!-- EN: Pit gate opened -->
+  <PitGateSpawner.building.groundSpawnerLetterLabel>구덩이 문 열림</PitGateSpawner.building.groundSpawnerLetterLabel>
+  <!-- EN: The shifting terrain has fallen into the depths below, forming a massive hole.\n\nThis pit gate will remain open until you collapse its entrance. Explore the pit gate to find a way to collapse it from underneath and to find useful items in the undercaves. -->
+  <PitGateSpawner.building.groundSpawnerLetterText>변형되는 지형이 아래 깊이 떨어져, 거대한 구멍을 형성합니다.\n\n이 구덩이 문은 입구를 붕괴시킬 때까지 열려 있을 겁니다. 구덩이 문을 탐험하여 아래에서 붕괴할 방법을 찾고 지하동굴에서 유용한 아이템을 찾으세요.</PitGateSpawner.building.groundSpawnerLetterText>
+  
+  <!-- EN: proximity detector -->
+  <ProximityDetector.label>근접 탐지기</ProximityDetector.label>
+  <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible biosignatures within its radius. -->
+  <ProximityDetector.description>보이지 않는 생물을 감지할 수 있는 탐색기입니다. 이 장치는 범위 내에 있는 정신적으로 보이지 않는 생명신호의 존재를 감지하면 경보를 울립니다.</ProximityDetector.description>
+  
+  <!-- EN: sand cube sculpture -->
+  <SandCubeSculpture.label>모래 큐브 조각상</SandCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <SandCubeSculpture.description>서투르게 제작된 조각상으로 큐브와 닮았습니다.</SandCubeSculpture.description>
+  
+  <!-- EN: scrap cube sculpture -->
+  <ScrapCubeSculpture.label>폐물 큐브 조각상</ScrapCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <ScrapCubeSculpture.description>서투르게 제작된 조각상으로 큐브와 닮았습니다.</ScrapCubeSculpture.description>
+  
+  <!-- EN: security door -->
+  <SecurityDoor.label>보안 문</SecurityDoor.label>
+  <!-- EN: A heavily reinforced door. It is slow to open and requires electricity, but is very strong. It's a good choice if you want to keep something dangerous out - or in. The door requires walls on either side to function. -->
+  <SecurityDoor.description>튼튼하게 강화된 문입니다. 느리게 열리며 전기가 필요하지만, 매우 강합니다. 뭔가 위험한 것의 출입을 통제하고 싶다면 좋은 선택일 겁니다. 문이 기능하려면 양쪽에 벽이 필요합니다.</SecurityDoor.description>
+  
+  <!-- EN: shard inhibitor -->
+  <ShardInhibitor.label>조각 억제제</ShardInhibitor.label>
+  <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
+  <ShardInhibitor.description>정신 에너지로 공명하는 어둠의 초월공학 조각으로, 범위 내에 있는 수용 플랫폼 혹은 수용 장소의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
+  
+  <!-- EN: sleep suppressor -->
+  <SleepSuppressor.label>수면 억제기</SleepSuppressor.label>
+  <!-- EN: A scavenged archotech shard mounted in an electrical control frame. The device creates a psychic pulsation in the local area which alters the brain chemistry of those nearby, halting the buildup of fatigue toxins and removing the need for sleep. However, it also irritates anyone nearby. -->
+  <SleepSuppressor.description>전기 제어 프레임 안에 고정된 긁어모은 초월공학 조각입니다. 장치는 주위 지역에 정신 파동을 만들어, 근처에 있는 자들의 뇌 화학 구조를 바꿔 피로 독소의 축적을 막고 수면욕을 없앱니다. 그러나, 근처의 모두를 짜증나게 하기도 합니다.</SleepSuppressor.description>
+  
+  <!-- EN: stone cube sculpture -->
+  <StoneCubeSculpture.label>돌 큐브 조각상</StoneCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <StoneCubeSculpture.description>서투르게 제작된 조각상으로 큐브와 닮았습니다.</StoneCubeSculpture.description>
+  
+  <!-- EN: IED deadlife trap -->
+  <TrapIED_Deadlife.label>사제 죽은 목숨 지뢰</TrapIED_Deadlife.label>
+  <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
+  <TrapIED_Deadlife.description>접촉 또는 탄환으로 인한 충격 시 폭발하는 방아쇠에 연결된 죽은 목숨 한쌍입니다. 주변 지형에 숨겨져 있으므로 다른 지뢰와 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.\n\n죽은 목숨 먼지로 인해 일어나려면 지뢰 근처에 시체가 있어야 합니다.</TrapIED_Deadlife.description>
+  
+  <!-- EN: tactical turret -->
+  <Turret_TacticalTurret.label>전술 포탑</Turret_TacticalTurret.label>
+  <!-- EN: A short-range turret. It will stop functioning once its battery runs out. If damaged sufficiently, it may explode. -->
+  <Turret_TacticalTurret.description>단거리 포탑입니다. 배터리가 다되면 작동을 멈출 겁니다. 충분히 손상되면, 폭발할 수 있습니다.</Turret_TacticalTurret.description>
+  <!-- EN: Battery power -->
+  <Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>배터리 동력</Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>
+  <!-- EN: This turret has a limited battery life. Once it runs out, it will stop working entirely. -->
+  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>이 포탑의 배터리 수명은 제한되어 있습니다. 수명이 다되면, 완전히 멈출 겁니다.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
+  
+</LanguageData>

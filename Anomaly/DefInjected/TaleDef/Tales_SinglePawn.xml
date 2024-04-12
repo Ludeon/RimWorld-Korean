@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: closed the void node -->
+  <ClosedTheVoid.label>공허 노드를 닫음</ClosedTheVoid.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] closing the void node.</li>
+    <li>image->[PAWN_nameFull] sealing the connection to the void, ensuring the safety of the colony [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] standing defiantly before the void node, determined to protect the colony [circumstance_group]</li>
+    <li>circumstance_phrase->amidst crackling energy</li>
+    <li>circumstance_phrase->as the void node emits a haunting glow</li>
+    <li>circumstance_phrase->while the void whispers in the background</li>
+    <li>desc_sentence->The gray metal presses in from all sides.</li>
+    <li>desc_sentence->The other colonists are shown [side_position], anxiously awaiting [PAWN_nameDef]'s return.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s face betrays that [PAWN_pronoun] is agonising over the choice before [PAWN_possessive].</li>
+  -->
+  <ClosedTheVoid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef](이)가 공허 노드를 닫는 중입니다.</li>
+    <li>image->[PAWN_nameFull](이)가 공허와의 연결을 봉인하여, 정착지의 안전을 확보하는 중입니다[circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 정착지를 보호할 결심을 하고, 공허 노드 앞에 도전적으로 서 있습니다[circumstance_group]</li>
+    <li>circumstance_phrase->탁탁거리는 에너지 가운데</li>
+    <li>circumstance_phrase->공허 노드가 잊을 수 없는 빛을 발산하는 동안</li>
+    <li>circumstance_phrase->공허가 주위에서 속삭이는 동안</li>
+    <li>desc_sentence->회색 금속이모든 면에서 압력을 가합니다.</li>
+    <li>desc_sentence->다른 정착민이 [side_position](을)를 보이며, 불안하게 [PAWN_nameDef]의 귀환을 기다리고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef]의 얼굴에 [PAWN_pronoun](이)가 [PAWN_possessive] 선택에 고통을 받고 있다는 사실이 비칩니다.</li>
+  </ClosedTheVoid.rulePack.rulesStrings>
+  
+  <!-- EN: embraced the void -->
+  <EmbracedTheVoid.label>공허를 받아들임</EmbracedTheVoid.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] embracing the void</li>
+    <li>image->[PAWN_nameFull] harnessing the forbidden knowledge of the void, transcending mortal limitations, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] surrendering to the allure of the void [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] giving in to the sinister whispers of the void [circumstance_group]</li>
+    <li>circumstance_phrase->as tendrils of dark energy coil around [PAWN_possessive] limbs</li>
+    <li>circumstance_phrase->amidst a swirling vortex of energy</li>
+    <li>circumstance_phrase->with an unsettling smile</li>
+    <li>desc_sentence->[PAWN_nameDef] radiates an aura of ominous power, a testament to [PAWN_possessive] pact with the void.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes begin to gleam with an otherworldly glow.</li>
+    <li>desc_sentence->The other colonists are shown [side_position], questioning the wisdom of [PAWN_nameDef]'s choice.</li>
+  -->
+  <EmbracedTheVoid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef](이)가 공허를 받아들이는 중입니다</li>
+    <li>image->[PAWN_nameFull](이)가 공허의 금지된 지식을 이용하여, 인간의 한계를 초월 중입니다, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 공허의 매력에 항복 중입니다 [circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 공허의 사악한 속삭임에 항복 중입니다 [circumstance_group]</li>
+    <li>circumstance_phrase->어두운 에너지의 덩굴손이 [PAWN_possessive] 사지를 감는 동안</li>
+    <li>circumstance_phrase->소용돌이치는 에너지 가운데</li>
+    <li>circumstance_phrase->불안정한 미소와 함께</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 [PAWN_possessive] 공허와의 약속의 증거인 불길한 힘의 기운을 뿜습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef]의 눈이 초자연적인 빛으로 어슴푸레 빛납니다.</li>
+    <li>desc_sentence->다른 정착민은 [side_position](을)를 보이며, [PAWN_nameDef]의 선택에 대한 지혜를 의심하고 있습니다.</li>
+  </EmbracedTheVoid.rulePack.rulesStrings>
+  
+  <!-- EN: performed a psychic ritual -->
+  <PerformedPsychicRitual.label>초정신 의식 행함</PerformedPsychicRitual.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] leading a psychic ritual</li>
+    <li>image->[PAWN_nameFull] channeling energy that dances around [PAWN_objective] as [PAWN_pronoun] weaves a potent psychic ritual, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reciting dark incantations and tapping into mysterious forces to perform a psychic ritual, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] focusing [PAWN_possessive] gaze as [PAWN_pronoun] performs a psychic ritual, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tracing intricate symbols in the air, harnessing hidden energies to manifest a psychic ritual, [circumstance_group]</li>
+    <li>circumstance_phrase->while focusing intently on the tome in front of [PAWN_objective]</li>
+    <li>circumstance_phrase->with focused determination, showcasing [PAWN_possessive] mastery of the psychic arts</li>
+    <li>circumstance_phrase->with a cruel smile</li>
+    <li>circumstance_phrase->while [PAWN_possessive] voice fights to be heard over the roar of energy</li>
+    <li>desc_sentence->The chanters can be seen [side_position] lending their support</li>
+    <li>desc_sentence->The air shimmers as [PAWN_nameDef] completes the psychic ritual.</li>
+    <li>desc_sentence->The monolith shimmers in the background.</li>
+    <li>desc_sentence->The surrounding candles flicker and sputter in the swirling energy.</li>
+  -->
+  <PerformedPsychicRitual.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef](이)가 초정신 의식 이끄는 중</li>
+    <li>image->[PAWN_nameFull](이)가 강한 초정신 의식을 엮는 동안 [PAWN_pronoun](이)가 [PAWN_objective] 주위를 춤추는 에너지를 쏟는 중입니다, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 어둠의 주문을 외우고 신비한 힘을 사용하여 초정신 의식을 행하는 중입니다, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 [PAWN_possessive] 시선에 집중하며 [PAWN_pronoun](은)는 초정신 의식을 행하는 중입니다, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull](이)가 대기의 복잡한 상징을 추적하여, 숨겨진 에너지를 이용해 초정신 의식을 나타나게 하는 중입니다, [circumstance_group]</li>
+    <li>circumstance_phrase->[PAWN_objective]의 앞에 있는 서적에 골똘히 집중하는 동안</li>
+    <li>circumstance_phrase->[PAWN_possessive] 심령술 실력을 소개하며 집중된 투지로</li>
+    <li>circumstance_phrase->잔인한 미소와 함께</li>
+    <li>circumstance_phrase->[PAWN_possessive] 목소리가 에너지의 포효를 넘어 들리기 위해 싸우는 동안</li>
+    <li>desc_sentence->성가대가 [side_position]에서 돕고 있는 걸 볼 수 있습니다</li>
+    <li>desc_sentence->[PAWN_nameDef](이)가 초정신 의식을 완료하자 대기가 희미하게 빛납니다.</li>
+    <li>desc_sentence->모노리스가 배경에서 희미하게 빛납니다.</li>
+    <li>desc_sentence->둘러싸고 있는 촛불들이 소용돌이치는 에너지로 깜박거리며 바지직댑니다.</li>
+  </PerformedPsychicRitual.rulePack.rulesStrings>
+  
+</LanguageData>
