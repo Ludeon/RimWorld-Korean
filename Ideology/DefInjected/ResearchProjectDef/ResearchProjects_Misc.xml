@@ -5,15 +5,71 @@
   <Bioregeneration.label>신체 재생</Bioregeneration.label>
   <!-- EN: Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age. -->
   <Bioregeneration.description>생체 재구축기에 신체 재생 절차를 추가합니다. 이 절차는 대상이 지닌 모든 상처 및 무작위 흉터 하나를 제거하고, 손가락처럼 작은 신체 결손 부위를 복원하며, 노화로 인해 발생하는 여러 질병들을 제거합니다.</Bioregeneration.description>
+  <!-- EN:
+    <li>subject->bioregeneration</li>
+    <li>subject_story->studied Boomalope antler regrowth for parallels with human regeneration</li>
+    <li>subject_story->spliced salamander genetic data into [ANYPAWN_possessive] own body</li>
+    <li>subject_story->trained in a Glitterworld hospital</li>
+    <li>subject_story->completed a correspondence course in Glitterworld aesthetics</li>
+    <li>subject_gerund->regenerating the human form</li>
+    <li>subject_gerund->activating regeneration with biosculpters</li>
+  -->
+  <Bioregeneration.generalRules.rulesStrings>
+    <li>subject->신체 재생</li>
+    <li>subject_story->인간 재생과 폭탄사슴 뿔 재생의 유사성을 연구했습니다.</li>
+    <li>subject_story->[ANYPAWN_possessive]의 신체에 도롱뇽의 유전 데이터를 접합 하였습니다.</li>
+    <li>subject_story->번화계 병원에서 교육받았습니다</li>
+    <li>subject_story->번화계 외형 교정 통신 과정을 수료했습니다.</li>
+    <li>subject_gerund->인간 형태 재생</li>
+    <li>subject_gerund->생체 재구축기로 재생 활성화</li>
+  </Bioregeneration.generalRules.rulesStrings>
   
   <!-- EN: biosculpting -->
   <Biosculpting.label>생체 재구축</Biosculpting.label>
   <!-- EN: Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism. -->
   <Biosculpting.description>생체 재구축기를 건설하여 정착민들에게 다양한 혜택을 제공하십시오. 특히 초월주의 신봉자들에게는 중요한 의미를 갖습니다.</Biosculpting.description>
+  <!-- EN:
+    <li>subject->biosculpting</li>
+    <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
+    <li>subject_story->studied transhumanist precepts, including the necessity of biosculpture</li>
+    <li>subject_story->researched which biological alterations could be made safely</li>
+    <li>subject_story->escaped a glitterworld support farm with these plans</li>
+    <li>subject_story->was welcomed into a transhumanist colony</li>
+    <li>subject_gerund->constructing biosculpter pods</li>
+    <li>subject_gerund->sculpting the human form</li>
+  -->
+  <Biosculpting.generalRules.rulesStrings>
+    <li>subject->생체 재구축</li>
+    <li>subject_story->다양한 정착지와 거래하기 위해 생체 재구축기를 건설했습니다.</li>
+    <li>subject_story->생체조직의 필요성을 포함한 신체 증강 규율에 대해 공부했습니다</li>
+    <li>subject_story->조금 더 안전하도록 생물학적 변화를 연구했습니다.</li>
+    <li>subject_story->번화계 지원 농장에서 기술을 빼내왔습니다.</li>
+    <li>subject_story->신체 증강자의 정착지에서 좋아하던 것입니다.</li>
+    <li>subject_gerund->생체 재구축기 건설</li>
+    <li>subject_gerund->인간 신체 재구축</li>
+  </Biosculpting.generalRules.rulesStrings>
   
   <!-- EN: neural supercharger -->
   <NeuralSupercharger.label>신경 과충전기</NeuralSupercharger.label>
   <!-- EN: Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice. -->
   <NeuralSupercharger.description>신경 과충전기를 건설합니다. 신경 과충전기는 의식과 학습 효율을 증가시키지만, 허기를 증가시키고, 매일 갱신해야 합니다. 초월주의자들은 관행처럼 신경 과충전을 받곤 합니다.</NeuralSupercharger.description>
+  <!-- EN:
+    <li>subject->neural superchargers</li>
+    <li>subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school</li>
+    <li>subject_story->supercharged the neurons of farmed clones to massively accelerate their development</li>
+    <li>subject_story->attempted to ban neural supercharging in the university course [ANYPAWN_pronoun] taught</li>
+    <li>subject_story->joined a transhumanist sect where neural supercharging was mandatory</li>
+    <li>subject_gerund->supercharging a human's intellect</li>
+    <li>subject_gerund->constructing neural superchargers</li>
+  -->
+  <NeuralSupercharger.generalRules.rulesStrings>
+    <li>subject->신경 과충전기</li>
+    <li>subject_story->[ANYPAWN_possessive] 기숙학교에서 신경 과충전기를 구현했습니다.</li>
+    <li>subject_story->뉴런 복제를 통해 신경 과충전기 개발을 대폭 가속화 했습니다.</li>
+    <li>subject_story->[ANYPAWN_pronoun] 대학 과정에서 신경 과충전을 금지하려고 했던 적이 있습니다.</li>
+    <li>subject_story->신경 과충전이 필수인 신체증강자 분파에 가입했었습니다.</li>
+    <li>subject_gerund->인간 지능 초증강</li>
+    <li>subject_gerund->신경 과충전기 건설</li>
+  </NeuralSupercharger.generalRules.rulesStrings>
   
 </LanguageData>

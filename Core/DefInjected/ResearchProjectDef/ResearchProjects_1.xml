@@ -5,105 +5,413 @@
   <Brewing.label>양조</Brewing.label>
   <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
   <Brewing.description>양조 기술을 습득하여 맛있는 맥주를 만들 수 있습니다.</Brewing.description>
+  <!-- EN:
+    <li>subject->brewing</li>
+    <li>subject_story->brewed a unique stout that became famous across the system</li>
+    <li>subject_story->retired to run a public house on an animal world</li>
+    <li>subject_story->specialized in climate-controlled fermentation techniques</li>
+    <li>subject_gerund->constructing breweries</li>
+    <li>subject_gerund->brewing beer</li>
+  -->
+  <Brewing.generalRules.rulesStrings>
+    <li>subject->양조</li>
+    <li>subject_story->항성계 전역에서 유명해진 독특한 흑맥주를 양조했습니다</li>
+    <li>subject_story->동물의 세계에서 선술집을 운영하기 위해 은퇴했습니다</li>
+    <li>subject_story->공조시스템을 갖춘 발효 기술 전문가가 됐습니다</li>
+    <li>subject_gerund->양조장 건설</li>
+    <li>subject_gerund->맥주 양조</li>
+  </Brewing.generalRules.rulesStrings>
   
-  <!-- EN: carpet making -->
-  <CarpetMaking.label>양탄자</CarpetMaking.label>
+  <!-- EN: carpet-making -->
+  <CarpetMaking.label>양탄자 만들기</CarpetMaking.label>
   <!-- EN: Weave beautiful carpets from cloth. -->
   <CarpetMaking.description>아름다운 양탄자를 만들 수 있습니다.</CarpetMaking.description>
+  <!-- EN:
+    <li>subject->carpet-making</li>
+    <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
+    <li>subject_story->left behind an unparalleled collection of carpets and tapestries</li>
+    <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
+    <li>subject_gerund->weaving carpets</li>
+  -->
+  <CarpetMaking.generalRules.rulesStrings>
+    <li>subject->양탄자 만들기</li>
+    <li>subject_story->멀리 있는 황제를 위해 머리카락으로 양탄자를 짜는 법을 배웠습니다</li>
+    <li>subject_story->비할 데 없는 양탄자와 태피스트리 모음을 남겼습니다</li>
+    <li>subject_story->양탄자 직조 공예가 높이 평가되었던 중세 위성에 정착했습니다</li>
+    <li>subject_gerund->양탄자 짜기</li>
+  </CarpetMaking.generalRules.rulesStrings>
   
   <!-- EN: cocoa -->
   <Cocoa.label>코코아</Cocoa.label>
-  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation, and it's valuable on the market too. -->
+  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
   <Cocoa.description>맛좋은 초콜릿을 만들기 위한 코코아 나무를 재배할 수 있습니다. 초콜릿은 오락 욕구를 충족시키며, 가치있는 교역품이기도 합니다.</Cocoa.description>
+  <!-- EN:
+    <li>subject->cocoa</li>
+    <li>subject->chocolate</li>
+    <li>subject_story->became obsessed with chocolate and had to be restrained</li>
+    <li>subject_story->studied the fermentation process of cocoa for a thesis</li>
+    <li>subject_story->set up the best chocolate shop in the sector</li>
+    <li>subject_gerund->producing chocolate</li>
+    <li>subject_gerund->cultivating cocoa</li>
+  -->
+  <Cocoa.generalRules.rulesStrings>
+    <li>subject->코코아</li>
+    <li>subject->초콜릿</li>
+    <li>subject_story->초콜릿에 집착하게 되어 자제해야 했습니다</li>
+    <li>subject_story->논문을 위해 코코아의 발효 과정을 연구했습니다</li>
+    <li>subject_story->해당 분야에서 최고의 초콜릿 가게를 차렸습니다</li>
+    <li>subject_gerund->초콜릿 생산</li>
+    <li>subject_gerund->코코아 재배</li>
+  </Cocoa.generalRules.rulesStrings>
   
   <!-- EN: complex clothing -->
   <ComplexClothing.label>섬세한 의류</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
   <ComplexClothing.description>바지, 바람막이, 카우보이 모자 등 섬세한 의류를 만들 수 있습니다.</ComplexClothing.description>
+  <!-- EN:
+    <li>subject->complex tailoring</li>
+    <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
+    <li>subject_story->would relax by sewing and telling stories to the village children</li>
+    <li>subject_story->learned to craft clothing to be worn at their troupe's grand performances</li>
+    <li>subject_gerund->tailoring complex clothes</li>
+  -->
+  <ComplexClothing.generalRules.rulesStrings>
+    <li>subject->정교한 재봉</li>
+    <li>subject_story->도시계의 시민을 위한 맞춤 제작된 오래 입는 옷</li>
+    <li>subject_story->마을 아이들에게 바느질도 하고 이야기도 하면서 마음의 휴식을 취하겠습니다</li>
+    <li>subject_story->극단의 대공연에서 입을 옷의 제작법을 배웠습니다</li>
+    <li>subject_gerund->정교한 옷 재봉</li>
+  </ComplexClothing.generalRules.rulesStrings>
   
   <!-- EN: complex furniture -->
   <ComplexFurniture.label>가구</ComplexFurniture.label>
-  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiard tables, and poker tables, vents, sarcophagi, and more. -->
-  <ComplexFurniture.description>침대, 탁자, 식당 의자, 안락 의자, 옷장, 서랍, 당구대, 포커 테이블, 통풍구, 관 등 여러 가구를 만들 수 있습니다.</ComplexFurniture.description>
+  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
+  <ComplexFurniture.description>침대, 작은 탁자, 식탁 의자, 팔걸이 의자, 옷장, 도구 수납장, 당구대, 포커 탁자, 환풍구, 석관 등과 같은 복잡한 가구를 만드세요.</ComplexFurniture.description>
+  <!-- EN:
+    <li>subject->carpentry</li>
+    <li>subject_story->studied woodcarving under a master carpenter</li>
+    <li>subject_story->built a town of log-cabins singlehandedly</li>
+    <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
+    <li>subject_gerund->building complex furniture</li>
+  -->
+  <ComplexFurniture.generalRules.rulesStrings>
+    <li>subject->목공</li>
+    <li>subject_story->목수 장인 밑에서 목공을 공부하였습니다</li>
+    <li>subject_story->혼자서 통나무집 마을을 건설하였습니다</li>
+    <li>subject_story->공장을 설립하여 지나가는 상인들에게 고품질의 가구를 판매하였습니다</li>
+    <li>subject_gerund->복잡한 가구 생산</li>
+  </ComplexFurniture.generalRules.rulesStrings>
   
   <!-- EN: devilstrand -->
   <Devilstrand.label>악마가닥</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
   <Devilstrand.description>천천히 자라지만 튼튼한 옷감을 얻을 수 있는 악마가닥 버섯을 재배할 수 있습니다.</Devilstrand.description>
+  <!-- EN:
+    <li>subject->devilstrand cultivation</li>
+    <li>subject_story->used devilstrand as a natural firebreak</li>
+    <li>subject_story->established the techniques for cultivating devilstrand easily</li>
+    <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of their kingdom</li>
+    <li>subject_gerund->cultivating devilstrand</li>
+  -->
+  <Devilstrand.generalRules.rulesStrings>
+    <li>subject->악마가닥 재배</li>
+    <li>subject_story->악마가닥을 자연적인 방화 수단으로 사용했습니다</li>
+    <li>subject_story->악마가닥을 쉽게 재배할 수 있는 기술을 확립했습니다</li>
+    <li>subject_story->버섯에 집착하게 되었고, 스스로 버섯 왕국의 공주라고 선언하기에 이릅니다</li>
+    <li>subject_gerund->악마가닥 재배</li>
+  </Devilstrand.generalRules.rulesStrings>
   
   <!-- EN: drug production -->
   <DrugProduction.label>약물 제조</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
   <DrugProduction.description>약물 합성의 기초입니다. 약물 연구대를 건설할 수 있고 기본적인 약물 생산이 가능합니다.</DrugProduction.description>
+  <!-- EN:
+    <li>subject->drug production</li>
+    <li>subject->drug synthesis</li>
+    <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+    <li>subject_story->learned how to craft drugs from recycled chemicals, leading to many years spent in prison</li>
+    <li>subject_story->worked as a chemist, but slipped into peddling illegal drugs on the side</li>
+    <li>subject_gerund->building drug labs</li>
+    <li>subject_gerund->producing drugs</li>
+  -->
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject->약물 생산</li>
+    <li>subject->약물 합성</li>
+    <li>subject_story->우주의 가장자리에 사람이 살 수 있는 소행성의 연구실에서 일했습니다</li>
+    <li>subject_story->재활용 화학물질로 약물을 만드는 법을 배웠고, 이로 인해 수년 동안 감옥에 갇혔습니다</li>
+    <li>subject_story->약사로 일하다가 부업으로 불법 마약 판매에 빠져들었습니다</li>
+    <li>subject_gerund->약물 연구실 건설</li>
+    <li>subject_gerund->약물 생산</li>
+  </DrugProduction.generalRules.rulesStrings>
   
   <!-- EN: go-juice production -->
   <GoJuiceProduction.label>고주스 제조</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
   <GoJuiceProduction.description>전투능력 향상용 물약인 고주스를 만들 수 있습니다.</GoJuiceProduction.description>
+  <!-- EN:
+    <li>subject->go-juice production</li>
+    <li>subject_story->was expelled for taking go-juice during team sports matches</li>
+    <li>subject_story->found go-juice massively increased productivity in mines and lumberyards</li>
+    <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
+    <li>subject_gerund->synthesizing go-juice</li>
+  -->
+  <GoJuiceProduction.generalRules.rulesStrings>
+    <li>subject->고주스 생산</li>
+    <li>subject_story->팀 운동 경기 중 고주스를 마셨다가 퇴학당했습니다</li>
+    <li>subject_story->고주스가 광산과 벌목장에서 생산성을 대폭 향상시키는 것을 발견했습니다</li>
+    <li>subject_story->주머니에 고주스나 전차 없이 임무를 수행한 적이 없습니다</li>
+    <li>subject_gerund->고주스 생산</li>
+  </GoJuiceProduction.generalRules.rulesStrings>
   
   <!-- EN: greatbow -->
   <Greatbow.label>장궁</Greatbow.label>
   <!-- EN: Craft greatbows for killing enemies at great range. -->
   <Greatbow.description>긴 사거리와 강한 파괴력을 가진 장궁을 만들 수 있습니다.</Greatbow.description>
+  <!-- EN:
+    <li>subject->greatbows</li>
+    <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
+    <li>subject_story->hunted muffalos for their fur on a feral world</li>
+    <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
+    <li>subject_gerund->crafting greatbows</li>
+  -->
+  <Greatbow.generalRules.rulesStrings>
+    <li>subject->장궁</li>
+    <li>subject_story->화살을 쏘아 중세시대 왕의 철투구를 꿰뚫었습니다</li>
+    <li>subject_story->야생에서 모피를 얻기 위해 머팔로를 사냥했습니다</li>
+    <li>subject_story->울창한 숲에서 혼자 살았습니다. 숲 가장자리에서 1.6km 이내에 접근하는 모든 사람들에게는 화살비가 쏟아졌습니다</li>
+    <li>subject_gerund->장궁 생산</li>
+  </Greatbow.generalRules.rulesStrings>
   
   <!-- EN: long blades -->
   <LongBlades.label>냉병기</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
   <LongBlades.description>장검과 창을 만들 수 있습니다.</LongBlades.description>
+  <!-- EN:
+    <li>subject->medieval weaponry</li>
+    <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
+    <li>subject_story->was enslaved as a weaponsmith beneath the arena on an iron age planet</li>
+    <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
+    <li>subject_gerund->smithing medieval weapons</li>
+  -->
+  <LongBlades.generalRules.rulesStrings>
+    <li>subject->중세 무기</li>
+    <li>subject_story->후공작이 제5경량기병대로 구역을 정복할 때 함께 달렸습니다</li>
+    <li>subject_story->철기 시대 행성의 투기장에서 무기를 제작하는 노예가 되었습니다</li>
+    <li>subject_story->전쟁계의 중장보병들에게 무기 사거리 활용법을 가르쳤습니다</li>
+    <li>subject_gerund->중세 무기 단조</li>
+  </LongBlades.generalRules.rulesStrings>
   
   <!-- EN: passive cooler -->
   <PassiveCooler.label>자연냉방기</PassiveCooler.label>
   <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
   <PassiveCooler.description>전기 없이 방을 식힐 수 있는 자연냉방기를 만들 수 있습니다.</PassiveCooler.description>
+  <!-- EN:
+    <li>subject->evaporation</li>
+    <li>subject->passive coolers</li>
+    <li>subject_story->moved to a sweltering tropical world and developed unique techniques for staying cool</li>
+    <li>subject_story->researched primitive techniques for cooling areas in the comfort of a coreworld's libraries</li>
+    <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
+    <li>subject_gerund->building passive coolers</li>
+  -->
+  <PassiveCooler.generalRules.rulesStrings>
+    <li>subject->증발</li>
+    <li>subject->자연냉방기</li>
+    <li>subject_story->무더운 열대 지방에서 시원함을 유지하는 독특한 기술을 개발했습니다</li>
+    <li>subject_story->쉽고 편안하게 냉방하는 원시 기술을 중심계의 도서관에서 연구했습니다</li>
+    <li>subject_story->해양 행성의 해안에서 파도가 가라앉은 곳이 더 시원하다는 것을 알아냈습니다</li>
+    <li>subject_gerund->자연냉방기 건설</li>
+  </PassiveCooler.generalRules.rulesStrings>
   
   <!-- EN: pemmican -->
   <Pemmican.label>페미컨</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
   <Pemmican.description>고기와 야채를 섞어 오랜 시간 상하지 않는 보존식품을 만들 수 있습니다.</Pemmican.description>
+  <!-- EN:
+    <li>subject->pemmican production</li>
+    <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
+    <li>subject_story->survived solely on pemmican when a passenger liner crashed on a glassworld</li>
+    <li>subject_story->taught pemmican production to feral tribes</li>
+    <li>subject_gerund->making pemmican</li>
+  -->
+  <Pemmican.generalRules.rulesStrings>
+    <li>subject->페미컨 생산</li>
+    <li>subject_story->행성의 첨탑까지의 긴 순례 기간 동안 페미컨 제조법을 완전히 익혔습니다</li>
+    <li>subject_story->우주 여객선이 유리계 행성에 추락했을 때 페미컨만으로 살아남았습니다</li>
+    <li>subject_story->토착 원시부족에게 페미컨 제조법을 알려주었습니다</li>
+    <li>subject_gerund->페미컨 제작</li>
+  </Pemmican.generalRules.rulesStrings>
   
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>페녹시실린 제조</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
   <PenoxycylineProduction.description>각종 질병을 예방하는 약물인 페녹시실린을 만들 수 있습니다.</PenoxycylineProduction.description>
+  <!-- EN:
+    <li>subject->penoxycyline production</li>
+    <li>subject_story->lectured to the United Planets about preventative medicine</li>
+    <li>subject_story->was driven out of Dawn Falls as a quack, for selling a medicine that "doesn't do anything"</li>
+    <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
+    <li>subject_gerund->synthesizing penoxycyline</li>
+  -->
+  <PenoxycylineProduction.generalRules.rulesStrings>
+    <li>subject->페녹시실린 생산</li>
+    <li>subject_story->행성 연합에서 보건의학에 대해 강의했습니다</li>
+    <li>subject_story->"아무 효과도 없는" 약품을 판매한 일 때문에 돌팔이로 몰려, Dawn Falls에서 쫓겨났습니다</li>
+    <li>subject_story->섬세한 페녹시실린 투약으로 말라리아의 전파를 막았습니다</li>
+    <li>subject_gerund->페녹시실린 합성</li>
+  </PenoxycylineProduction.generalRules.rulesStrings>
   
   <!-- EN: plate armor -->
   <PlateArmor.label>판금 갑옷</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
   <PlateArmor.description>금속이나 나무로 된 판금 갑옷을 만들 수 있습니다. 이 무거운 갑옷은 거추장스럽지만 매우 높은 방호력을 가집니다.</PlateArmor.description>
+  <!-- EN:
+    <li>subject->plate armor</li>
+    <li>subject_story->crafted armor from scrap, when the authorities surrounded their family's shack</li>
+    <li>subject_story->became known as the Green Smith, when moss grew on the wooden armor</li>
+    <li>subject_story->started the first armorworker's collective on an urbworld</li>
+    <li>subject_gerund->smithing plate armor</li>
+  -->
+  <PlateArmor.generalRules.rulesStrings>
+    <li>subject->판금 갑옷</li>
+    <li>subject_story->정부가 그들 가족들의 오두막집을 포위했을 때, 폐허에서 갑옷을 제작했습니다</li>
+    <li>subject_story->나무 갑옷에 이끼가 자라서 초록 대장장이로 알려지게 되었습니다</li>
+    <li>subject_story->도시계에서 최초의 갑옷제작자 공동체를 창설했습니다</li>
+    <li>subject_gerund->판금 갑옷 단조</li>
+  </PlateArmor.generalRules.rulesStrings>
   
   <!-- EN: psychite refining -->
   <PsychiteRefining.label>환각성분 정제</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
   <PsychiteRefining.description>광이풀을 정제하여 야요와 플레이크를 만들 수 있습니다. 중독성이 있습니다.</PsychiteRefining.description>
+  <!-- EN:
+    <li>subject->psychite production</li>
+    <li>subject_story->used his university job as cover for his drug-dealing</li>
+    <li>subject_story->started a commune where low-dose flake was mixed into the food</li>
+    <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
+    <li>subject_gerund->refining psychite</li>
+  -->
+  <PsychiteRefining.generalRules.rulesStrings>
+    <li>subject->사이카이트 생산</li>
+    <li>subject_story->그의 마약 판매 일을 숨기는 데 자신이 대학교 직원이란 점을 이용했습니다</li>
+    <li>subject_story->저용량 플레이크를 음식에 섞는 공동체를 만들었습니다</li>
+    <li>subject_story->인근 도시계에서 야요의 합법화를 위한 캠페인을 벌였습니다</li>
+    <li>subject_gerund->사이카이트 정제</li>
+  </PsychiteRefining.generalRules.rulesStrings>
   
   <!-- EN: psychoid brewing -->
   <PsychoidBrewing.label>광이차</PsychoidBrewing.label>
   <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
   <PsychoidBrewing.description>손질한 광이풀을 우려내어 기분전환을 위한 차를 만들 수 있습니다. 약간의 중독성이 있습니다.</PsychoidBrewing.description>
+  <!-- EN:
+    <li>subject->psychoid</li>
+    <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
+    <li>subject_story->experimented with psychoid to help traumatized soldiers</li>
+    <li>subject_story->legalized psychoid for mass production across several coreworlds, when he had the power to do so</li>
+    <li>subject_gerund->brewing psychoid</li>
+  -->
+  <PsychoidBrewing.generalRules.rulesStrings>
+    <li>subject->광이풀</li>
+    <li>subject_story->종교계에서 단명하는 사이카이트 공동체에 합류했습니다</li>
+    <li>subject_story->정신적 충격을 받은 군인들을 돕기 위해 사이카이트 실험을 했습니다</li>
+    <li>subject_story->여러 중심계에서 대량 생산이 가능하도록 사이카이트를 합법화했습니다</li>
+    <li>subject_gerund->광이차 끓이기</li>
+  </PsychoidBrewing.generalRules.rulesStrings>
   
   <!-- EN: recurve bow -->
   <RecurveBow.label>곡궁</RecurveBow.label>
   <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
   <RecurveBow.description>사용하기 간편하면서도 강한 위력을 지닌 곡궁을 만들 수 있습니다.</RecurveBow.description>
+  <!-- EN:
+    <li>subject->bowyery</li>
+    <li>subject->bow-making</li>
+    <li>subject_story->tracked a rabid boomalope for four days before killing it with a single arrow</li>
+    <li>subject_story->settled near a yew forest to secure the perfect materials for bows</li>
+    <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
+    <li>subject_gerund->crafting bows</li>
+  -->
+  <RecurveBow.generalRules.rulesStrings>
+    <li>subject->활 제작</li>
+    <li>subject->곡궁</li>
+    <li>subject_story->나흘간 흉폭한 폭탄사슴을 추적하여 단 하나의 화살만으로 잡았습니다</li>
+    <li>subject_story->주목나무 숲 근처에 정착하여 활을 만드는 데 완벽한 재료들을 확보했습니다</li>
+    <li>subject_story->정착지 아이들을 수렵채집꾼으로 키웠고, 아이들은 모두 명사수가 되었습니다</li>
+    <li>subject_gerund->곡궁 제작</li>
+  </RecurveBow.generalRules.rulesStrings>
   
   <!-- EN: smithing -->
   <Smithing.label>단조</Smithing.label>
   <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
   <Smithing.description>금속 무기와 도구를 제작하는 단조작업대를 만들 수 있습니다.</Smithing.description>
+  <!-- EN:
+    <li>subject->blacksmithing</li>
+    <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
+    <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
+    <li>subject_gerund->smithing</li>
+  -->
+  <Smithing.generalRules.rulesStrings>
+    <li>subject->대장간</li>
+    <li>subject_story->중세 마을에 정착하여 간단한 금속 주조를 익혔습니다</li>
+    <li>subject_story->번화계의 르네상스 재건 길드를 위한 대장간들을 건설했습니다</li>
+    <li>subject_gerund->단조</li>
+  </Smithing.generalRules.rulesStrings>
   
   <!-- EN: stonecutting -->
   <Stonecutting.label>석재 가공</Stonecutting.label>
   <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
   <Stonecutting.description>바위 덩어리를 석재로 만드는 석재 절삭작업대를 만들 수 있습니다.</Stonecutting.description>
+  <!-- EN:
+    <li>subject->masonry</li>
+    <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
+    <li>subject_story->developed unique techniques for cutting the hardest rock with basic tools</li>
+    <li>subject_story->tiled the entirety of the viceroy's palace on a medieval world</li>
+    <li>subject_gerund->stonecutting</li>
+    <li>subject_gerund->cutting stones</li>
+  -->
+  <Stonecutting.generalRules.rulesStrings>
+    <li>subject->석공술</li>
+    <li>subject_story->같은 이름을 가진 사원 설계자 중에 첫번째였습니다</li>
+    <li>subject_story->기본 도구만을 이용하여 가장 단단한 암석을 자르는 독특한 기술을 개발했습니다</li>
+    <li>subject_story->중세계 총독궁 전체를 타일로 장식했습니다</li>
+    <li>subject_gerund->석재 절삭</li>
+    <li>subject_gerund->석재 가공</li>
+  </Stonecutting.generalRules.rulesStrings>
   
   <!-- EN: tree sowing -->
   <TreeSowing.label>나무 파종</TreeSowing.label>
   <!-- EN: Sow the local biome's natural trees in your fields. -->
   <TreeSowing.description>정착지 환경에 서식 가능한 나무를 심을 수 있습니다.</TreeSowing.description>
+  <!-- EN:
+    <li>subject->tree sowing</li>
+    <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
+    <li>subject_story->published a paper about maintaining natural ecosystems</li>
+    <li>subject_story->worked in a tree nursery on an animal world</li>
+    <li>subject_gerund->sowing trees</li>
+  -->
+  <TreeSowing.generalRules.rulesStrings>
+    <li>subject->나무 파종</li>
+    <li>subject_story->오래전에 죽은 소행성 전체에 나무를 심어 생명을 되살리려고 합니다</li>
+    <li>subject_story->자연 생태계 유지에 관한 논문을 발표했습니다</li>
+    <li>subject_story->동물계의 나무 돌보미에서 일했습니다</li>
+    <li>subject_gerund->나무 파종</li>
+  </TreeSowing.generalRules.rulesStrings>
   
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>웨이크업 제조</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
   <WakeUpProduction.description>작업능력 향상용 약물인 웨이크업을 만들 수 있습니다.</WakeUpProduction.description>
+  <!-- EN:
+    <li>subject->wake-up production</li>
+    <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>
+    <li>subject_story->treated narcoleptics and sleepwalkers with carefully timed wake-up doses</li>
+    <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
+    <li>subject_gerund->synthesizing wake-up</li>
+  -->
+  <WakeUpProduction.generalRules.rulesStrings>
+    <li>subject->웨이크업 생산</li>
+    <li>subject_story->웨이크업을 복용하는 것으로 카페인 중독을 극복해보려 했습니다</li>
+    <li>subject_story->기면증이나 몽유병이 있는 환자들을 적절한 웨이크업 복용으로 치료했습니다</li>
+    <li>subject_story->모든 사람들을 소행성의 어두운 면으로 이동시키고 웨이크업을 이용해 그들의 생체 리듬을 유지시켰습니다</li>
+    <li>subject_gerund->웨이크업 합성</li>
+  </WakeUpProduction.generalRules.rulesStrings>
   
 </LanguageData>

@@ -3,47 +3,195 @@
   
   <!-- EN: archogenetics -->
   <Archogenetics.label>초월유전학</Archogenetics.label>
-  <!-- EN: Allows a gene assembler to use archite capsules to create seemingly-impossible genes. Archite genes and archite capsules can be obtained from traders. -->
-  <Archogenetics.description>유전자 조합기가 초월입자 캡슐을 사용해 불가능해 보이는 유전자를 생성할 수 있게 합니다. 초월입자 유전자와 초월입자 캡슐은 상인에게서 얻을 수 있습니다.</Archogenetics.description>
+  <!-- EN: Allows a gene assembler to use archite capsules to create seemingly impossible genes. Archite genes and archite capsules can be obtained from traders. -->
+  <Archogenetics.description>유전자 조합기와 초월입자 캡슐을 사용해서 불가능에 가까운 유전자를 창조할 수 있습니다. 초월입자 유전자와 초월입자 캡슐은 상인에게서 얻을 수 있습니다.</Archogenetics.description>
+  <!-- EN:
+    <li>subject->archogenetics</li>
+    <li>subject_story->excavated archite genes from the transcendent moon of Ix</li>
+    <li>subject_story->made a good living as an archite gene trader</li>
+    <li>subject_story->led a research expedition to an ancient monolith and returned changed</li>
+    <li>subject_gerund->assembling archite genes</li>
+    <li>subject_gerund->creating seemingly impossible genes</li>
+  -->
+  <Archogenetics.generalRules.rulesStrings>
+    <li>subject->초월유전학</li>
+    <li>subject_story->익스의 초월 위성으로부터 초월입자 유전자를 채굴해냈습니다</li>
+    <li>subject_story->초월입자 유전자를 거래하여 거대한 부를 축적했습니다</li>
+    <li>subject_story->고대의 모노리스 연구원정을 이끌었으며, 변하지 않고 돌아왔습니다</li>
+    <li>subject_gerund->초월입자 유전자 조립</li>
+    <li>subject_gerund->불가능해보이는 유전자 제작</li>
+  </Archogenetics.generalRules.rulesStrings>
   
   <!-- EN: deathrest -->
   <Deathrest.label>죽음안식</Deathrest.label>
   <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
   <Deathrest.description>죽음안식 유전자 보유자들은 주기적으로 수일간 지속되는 죽음안식 혼수상태에 들어가야 합니다. 이 연구를 통해 죽음안식 속도를 올리고 죽음안식자에게 추가 효과를 부여하는 건물을 건설할 수 있습니다. 나중에는 거대한 죽음안식 사원도 지을 수 있습니다.</Deathrest.description>
+  <!-- EN:
+    <li>subject->deathrest</li>
+    <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
+    <li>subject_story->interviewed a celebrity who never seemed to age, eventually learning her secrets</li>
+    <li>subject_story->attempted to replicate the technology and fell into a coma, only to wake weeks later</li>
+    <li>subject_gerund->constructing deathrest facilities</li>
+    <li>subject_gerund->improving deathrest</li>
+  -->
+  <Deathrest.generalRules.rulesStrings>
+    <li>subject->죽음안식</li>
+    <li>subject_story->죽음안식 사원에서 얻은 시체를 해부하여 원리를 이해했습니다</li>
+    <li>subject_story->나이를 전혀 먹지 않는듯한 유명인사를 인터뷰했으며, 그녀의 비밀을 밝혀내었습니다</li>
+    <li>subject_story->그 기술을 복제하려다 실패하여 몇 주의 시간동안 의식불명상태에 빠졌었습니다</li>
+    <li>subject_gerund->죽음안식 시설 건설</li>
+    <li>subject_gerund->죽음안식 개선</li>
+  </Deathrest.generalRules.rulesStrings>
   
   <!-- EN: fertility procedures -->
   <FertilityProcedures.label>잉태 절차</FertilityProcedures.label>
   <!-- EN: Perform the surgeries necessary to create a test tube embryo from a fertile man and woman, then implant the embryo in a surrogate mother or growth vat. Also, perform sterilization surgeries on men and women. -->
   <FertilityProcedures.description>가임 남성과 여성으로부터 시험관 배아를 만드는 기술을 연구하며, 시험관 배아는 대리모나 성장 배양기에 넣어 배양 가능합니다. 또한 남녀에게 불임수술을 실행할 수 있게 됩니다.</FertilityProcedures.description>
+  <!-- EN:
+    <li>subject->fertility procedures</li>
+    <li>subject_story->helped families in the coreworlds achieve their dream of parenthood with test-tube embryos</li>
+    <li>subject_story->saved the rare Callopian boomrat from extinction with dangerous hand-fertilization techniques</li>
+    <li>subject_story->solved the population crisis on an urbworld with fertility interventions and growth vats</li>
+    <li>subject_gerund->altering human fertility</li>
+    <li>subject_gerund->improving or blocking human fertility</li>
+  -->
+  <FertilityProcedures.generalRules.rulesStrings>
+    <li>subject->잉태 절차</li>
+    <li>subject_story->중심계 속 시험관 아이들을 가진 부모들의 꿈을 이루어줬습니다</li>
+    <li>subject_story->다소 위험했지만, 직접수정 기술을 사용하여 칼로피안 폭탄쥐의 멸종을 막아냈습니다</li>
+    <li>subject_story->성장 배양기와 생식관련 정책을 펼쳐 한 도시계의 극심한 인구문제를 해결했습니다</li>
+    <li>subject_gerund->임신율 관리</li>
+    <li>subject_gerund->인구 조절</li>
+  </FertilityProcedures.generalRules.rulesStrings>
   
   <!-- EN: gene processor -->
   <GeneProcessor.label>유전자 처리기</GeneProcessor.label>
   <!-- EN: Build gene processors, which allow a gene assembler to create xenogerms of higher genetic complexity. -->
   <GeneProcessor.description>유전자 조합기에서 더 복잡한 변형이식체를 만들 수 있도록 지원하는 유전자 처리기를 건설할 수 있습니다.</GeneProcessor.description>
+  <!-- EN:
+    <li>subject->gene processors</li>
+    <li>subject_story->extracted Glitterworld genes from a drifting derelict</li>
+    <li>subject_story->processed an entire village to create one set of higher genes</li>
+    <li>subject_story->began the slow process of uplift by implanting xenogerms into a primitive tribe</li>
+    <li>subject_gerund->constructing gene processors</li>
+    <li>subject_gerund->processing genes</li>
+  -->
+  <GeneProcessor.generalRules.rulesStrings>
+    <li>subject->유전자 처리기</li>
+    <li>subject_story->떠돌이 노숙자에게 번화계 유전자를 추출했습니다</li>
+    <li>subject_story->한 마을을 전부 갈아넣어 한쌍의 상위유전자를 가공했습니다</li>
+    <li>subject_story->원시부족에 변형이식체를 삽입하여 완만한 속도의 문명개발을 시작했습니다</li>
+    <li>subject_gerund->유전자 처리기 건설</li>
+    <li>subject_gerund->유전자 처리</li>
+  </GeneProcessor.generalRules.rulesStrings>
   
   <!-- EN: growth vats -->
   <GrowthVats.label>성장 배양기</GrowthVats.label>
   <!-- EN: Construct growth vats which can gestate an embryo or accelerate a child's growth. -->
   <GrowthVats.description>배아를 배양하거나 아이의 성장을 가속하는 성장 배양기를 건설할 수 있습니다.</GrowthVats.description>
+  <!-- EN:
+    <li>subject->advanced gestation</li>
+    <li>subject->artificial wombs</li>
+    <li>subject_story->ran a cloning facility to supply servants for the coreworlds</li>
+    <li>subject_story->created a new army for a warworld junta</li>
+    <li>subject_story->helped families of all backgrounds have children</li>
+    <li>subject_gerund->gestating embryos in artificial wombs</li>
+    <li>subject_gerund->accelerating human growth</li>
+    <li>subject_gerund->constructing growth vats</li>
+  -->
+  <GrowthVats.generalRules.rulesStrings>
+    <li>subject->고급 배양</li>
+    <li>subject->인공 자궁</li>
+    <li>subject_story->중심계에 종복을 보충하기 위해 복제시설을 운영했습니다</li>
+    <li>subject_story->전쟁계 정권을 위해 새로운 군대를 창설했습니다</li>
+    <li>subject_story->다양한 배경의 가족들이 아이를 가질 수 있게 도왔습니다</li>
+    <li>subject_gerund->인공 자궁에서의 배아 배양</li>
+    <li>subject_gerund->인체 성장 가속</li>
+    <li>subject_gerund->성장 배양기 건설</li>
+  </GrowthVats.generalRules.rulesStrings>
   
   <!-- EN: toxin filtration -->
   <ToxFiltration.label>독소 여과</ToxFiltration.label>
   <!-- EN: Craft and install bionic organs that can filter out toxins from the environment and from enemy attacks. -->
   <ToxFiltration.description>독성 환경이나 적의 독가스 공격을 견뎌낼 수 있는 생체공학 장기를 제작하거나 설치할 수 있습니다.</ToxFiltration.description>
+  <!-- EN:
+    <li>subject->toxin filtration</li>
+    <li>subject->toxin metabolisation</li>
+    <li>subject_story->helped milworld combat survivors breathe again</li>
+    <li>subject_story->skipped chemistry practicals for extra ethics classes</li>
+    <li>subject_story->joined a mine-corp as a filtration specialist</li>
+    <li>subject_gerund->metabolising toxins</li>
+    <li>subject_gerund->crafting antitoxin organs</li>
+  -->
+  <ToxFiltration.generalRules.rulesStrings>
+    <li>subject->독소 여과</li>
+    <li>subject->독소 대사</li>
+    <li>subject_story->군사계의 생존자들이 다시 숨을 쉴 수 있도록 도왔습니다</li>
+    <li>subject_story->추가 윤리 수업을 위해 화학 실습을 생략했습니다</li>
+    <li>subject_story->광산 회사에 여과 전문가로 입사했습니다</li>
+    <li>subject_gerund->독소 대사</li>
+    <li>subject_gerund->독소 대항 장기 제작</li>
+  </ToxFiltration.generalRules.rulesStrings>
   
   <!-- EN: tox gas -->
   <ToxGas.label>독소 활용</ToxGas.label>
   <!-- EN: Produce weapons that utilize caustic tox gas. -->
   <ToxGas.description>부식성의 독소기체를 활용한 무기를 생산할 수 있습니다.</ToxGas.description>
+  <!-- EN:
+    <li>subject->gas weaponry</li>
+    <li>subject->chemical warfare</li>
+    <li>subject_story->dreamed of a weapon to end all wars</li>
+    <li>subject_story->skipped ethics classes for extra chemistry practice</li>
+    <li>subject_story->researched cloud control tech for the tyrannocracy of a deathworld</li>
+    <li>subject_gerund->crafting toxic gas weapons</li>
+  -->
+  <ToxGas.generalRules.rulesStrings>
+    <li>subject->가스 무기</li>
+    <li>subject->화학전</li>
+    <li>subject_story->모든 전쟁을 끝낼 무기를 꿈꿨습니다</li>
+    <li>subject_story->추가 화학 실습을 위해 윤리 수업을 생략했습니다</li>
+    <li>subject_story->죽음계의 독재 정부를 위하여 구름 조정 기술을 연구했습니다</li>
+    <li>subject_gerund->독성 무기 제작</li>
+  </ToxGas.generalRules.rulesStrings>
   
   <!-- EN: toxifier generator -->
   <ToxifierGenerator.label>독소 발전기</ToxifierGenerator.label>
   <!-- EN: Create toxifier generators which generate electricity, but also spread pollution around themselves. -->
   <ToxifierGenerator.description>전기를 생산하는 대신 오염을 퍼트리는 독소 발전기를 건설할 수 있습니다.</ToxifierGenerator.description>
+  <!-- EN:
+    <li>subject->toxifier generator</li>
+    <li>subject_story->led a clean-up crew to a toxic planetoid</li>
+    <li>subject_story->learned about toxifiers in the deep sump of a skyripper</li>
+    <li>subject_story->researched cheap and dirty power sources for an urbcorp</li>
+    <li>subject_gerund->constructing toxifier generators</li>
+  -->
+  <ToxifierGenerator.generalRules.rulesStrings>
+    <li>subject->독소 발전기</li>
+    <li>subject_story->청소팀을 독성 행성으로 이끌었습니다</li>
+    <li>subject_story->하늘첨탑의 깊은 갱저에 있는 독성물질에 대해 배웠습니다</li>
+    <li>subject_story->도시계의 회사를 위한 값싸고 더러운 에너지 생산수딘을 연구했습니다</li>
+    <li>subject_gerund->독소 발전기 건설</li>
+  </ToxifierGenerator.generalRules.rulesStrings>
   
   <!-- EN: xenogenetics -->
   <Xenogermination.label>변형유전학</Xenogermination.label>
   <!-- EN: Create xenogerms which can be implanted in a person to genetically modify them. Extract genepacks from living people using a gene extractor so you can reimplant their genes into someone else. -->
   <Xenogermination.description>피이식자의 유전자를 편집하는 변형이식체를 생성할 수 있습니다. 유전자 추출기를 사용해서 살아있는 사람의 유전자묶음을 추출하고 다른 사람에게 이식할 수 있습니다.</Xenogermination.description>
+  <!-- EN:
+    <li>subject->xenogermination</li>
+    <li>subject->genetic implantation</li>
+    <li>subject_story->was uplifted by a glitterworld charity that focused on the genetically disadvantaged</li>
+    <li>subject_story->had their genes stolen by a rogue biologist</li>
+    <li>subject_story->ran a genetic transfer clinic for the glitterworld elite</li>
+    <li>subject_gerund->crafting xenogerms</li>
+  -->
+  <Xenogermination.generalRules.rulesStrings>
+    <li>subject->변형이식</li>
+    <li>subject->유전자 이식</li>
+    <li>subject_story->유전적으로 취약한 계층에 초점을 맞춘 번화계 자선단체에게 향상되었습니다</li>
+    <li>subject_story->사악한 생물학자에게 그들의 유전자를 도둑맞았습니다</li>
+    <li>subject_story->번화계 엘리트를 위한 유전자 이전 진료소를 운영했습니다.</li>
+    <li>subject_gerund->변형이식체 제작</li>
+  </Xenogermination.generalRules.rulesStrings>
   
 </LanguageData>

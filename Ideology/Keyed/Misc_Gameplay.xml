@@ -29,6 +29,8 @@
   <DeleteCustom>맞춤 사상 삭제</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>새로 생성</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>만들기</CreateFluid>
   <!-- EN: Load existing -->
   <LoadExisting>기존 저장 불러오기</LoadExisting>
   <!-- EN: Create custom ideoligion -->
@@ -99,6 +101,10 @@
   <SetIdeoColor>사상 색 설정</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>좋아하는 색 설정</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>{PAWN_nameDef}(이)가 좋아하는 색입니다. 입은 옷의 60% 이상을 이 색이나 {PAWN_pronoun}가 가진 사상의 상징색으로 맞추면 기분이 약간 좋아질 것입니다.</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>{PAWN_nameDef}의 사상 색상입니다. 이 상징색이나 {PAWN_pronoun}가 좋아하는 색상의 60% 이상을 맞추면 기분이 약간 좋아질 것입니다.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>정착지의 사상 설정</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -292,8 +298,6 @@
 
   <!-- EN: For slave use -->
   <ForSlaveUse>노예용</ForSlaveUse>
-  <!-- EN: Slave -->
-  <Slave>노예</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>누군가를 그 사람이 속하지 않은 세력에 판매하면 노예가 됩니다.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
@@ -388,8 +392,8 @@
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>발견한 유물 정보</RelicInfoFound>
-  <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
-  <InactiveRoleRequiresMoreBelievers>비활성, 최소 {0}명의 {1}(이)가 필요 (현재 {2})</InactiveRoleRequiresMoreBelievers>
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
+  <InactiveRoleRequiresMoreBelievers>비활성, {1} 최소 {0}명 필요 ({2}명 있음)</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
   <Certainty>믿음</Certainty>

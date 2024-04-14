@@ -26,4 +26,9 @@
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <SurgeryOutcomeBase.outcomes.6.letterText>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {RECIPE_label}에 실패했습니다.</SurgeryOutcomeBase.outcomes.6.letterText>
   
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>{PATIENT_labelShort}의 수술 실패</SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <SurgeryOutcomeMinorFailure.outcomes.1.letterText>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 {RECIPE_label}에 실패했습니다.</SurgeryOutcomeMinorFailure.outcomes.1.letterText>
+  
 </LanguageData>

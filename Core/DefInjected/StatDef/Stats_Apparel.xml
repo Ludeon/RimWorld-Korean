@@ -55,12 +55,12 @@
   <!-- EN: Insulation - Heat (armor stat) -->
   <Insulation_Heat.labelForFullStatList>방열 (방어도 통계)</Insulation_Heat.labelForFullStatList>
   
-  <!-- EN: Smokepop pack radius -->
-  <SmokepopBeltRadius.label>연막 범위</SmokepopBeltRadius.label>
-  <!-- EN: The area obscured when a smokepop pack detonates. -->
-  <SmokepopBeltRadius.description>연막이 적용되는 범위입니다.</SmokepopBeltRadius.description>
+  <!-- EN: Effect radius -->
+  <PackRadius.label>효과 범위</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>이 팩이 폭발할 때 영향받는 지역입니다.</PackRadius.description>
   <!-- EN: {0} c -->
-  <SmokepopBeltRadius.formatString>{0}칸</SmokepopBeltRadius.formatString>
+  <PackRadius.formatString>{0}칸</PackRadius.formatString>
   
   <!-- EN: Armor - Material effect multiplier -->
   <StuffEffectMultiplierArmor.label>방어도 - 재료효과 계수</StuffEffectMultiplierArmor.label>

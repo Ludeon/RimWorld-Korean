@@ -16,6 +16,16 @@
   <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
   <MeleeArmorPenetration.description>근접전에서 상대 방어력을 무시할 확률입니다.\n\n현재 장착한 무기를 기준으로 합니다.</MeleeArmorPenetration.description>
   
+  <!-- EN: melee cooldown -->
+  <MeleeCooldownFactor.label>근접 재사용 대기시간</MeleeCooldownFactor.label>
+  <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
+  <MeleeCooldownFactor.description>근접공격을 한 후 다시 준비자세까지 돌아오는데 걸리는 시간에 대한 배수입니다.</MeleeCooldownFactor.description>
+  
+  <!-- EN: melee damage factor -->
+  <MeleeDamageFactor.label>근접 피해 계수</MeleeDamageFactor.label>
+  <!-- EN: A multiplier on the amount of melee damage inflicted by this person. -->
+  <MeleeDamageFactor.description>이 사람이 가한 근접 피해량의 계수입니다.</MeleeDamageFactor.description>
+  
   <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>근접 회피율</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
@@ -43,6 +53,11 @@
   <!-- EN: Chance to spring a trap the character is unaware of. -->
   <PawnTrapSpringChance.description>캐릭터의 부주의로 함정을 건드려 발동시킬 확률입니다.</PawnTrapSpringChance.description>
   
+  <!-- EN: ranged cooldown multiplier -->
+  <RangedCooldownFactor.label>원거리 재사용 대기시간 배수</RangedCooldownFactor.label>
+  <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
+  <RangedCooldownFactor.description>원거리 무기를 사용할 때 발사 후 재사용 대기시간 배율입니다.</RangedCooldownFactor.description>
+  
   <!-- EN: accuracy factor (long) -->
   <ShootingAccuracyFactor_Long.label>장거리 명중률 계수</ShootingAccuracyFactor_Long.label>
   <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
@@ -69,5 +84,10 @@
   <ShootingAccuracyPawn.description>발사 거리 당 적을 맞출 수 있는 확률입니다.\n\n정확도는 대상, 엄폐물, 주변 환경에도 영향을 받으며 사수를 선택하고 대상에 커서를 올려 확인할 수 있습니다.</ShootingAccuracyPawn.description>
   <!-- EN: shooting accuracy (people) -->
   <ShootingAccuracyPawn.labelForFullStatList>사격 정확도 (사람)</ShootingAccuracyPawn.labelForFullStatList>
+  
+  <!-- EN: stagger time multiplier -->
+  <StaggerDurationFactor.label>비틀거림 배수</StaggerDurationFactor.label>
+  <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
+  <StaggerDurationFactor.description>피해를 입었을 때 저지량에 따라 발생하는 감속 시간 배수입니다.</StaggerDurationFactor.description>
   
 </LanguageData>

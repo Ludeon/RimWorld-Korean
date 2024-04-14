@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: [PAWN_nameDef] grew up in a noble family's manor in the outer country. [PAWN_possessive] early years were full of lessons in horseback riding, politics, and religion.\n\n[PAWN_nameDef] and [PAWN_possessive] friends found many ways to break the rules and have fun in the fields and forests. -->
-  <CountryLordling92.baseDesc>{PAWN_nameDef}(은)는 나라 외곽에 있는 귀족 가문의 영지에서 자랐습니다. {PAWN_possessive} 어린 날은 승마, 정치, 그리고 종교에 대한 교육으로 가득 차 있었습니다.\n\n{PAWN_nameDef}(와)과 {PAWN_possessive} 친구는 규칙을 깨고 들판과 숲에서 놀 수 있는 많은 방법을 찾았습니다.</CountryLordling92.baseDesc>
+  <CountryLordling92.description>{PAWN_nameDef}(은)는 나라 외곽에 있는 귀족 가문의 영지에서 자랐습니다. {PAWN_possessive} 어린 날은 승마, 정치, 그리고 종교에 대한 교육으로 가득 차 있었습니다.\n\n{PAWN_nameDef}(와)과 {PAWN_possessive} 친구는 규칙을 깨고 들판과 숲에서 놀 수 있는 많은 방법을 찾았습니다.</CountryLordling92.description>
   <!-- EN: country lordling -->
   <CountryLordling92.title>국가 영주</CountryLordling92.title>
   <!-- EN: country lady -->
@@ -13,7 +13,7 @@
   <CountryLordling92.titleShortFemale>지역 귀부인</CountryLordling92.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s parents did not want another heir. Fearing a succession fight, they decided to neutralize [PAWN_objective] early.\n\nThey pampered [PAWN_nameDef] from birth, preventing [PAWN_objective] from developing the grit or knowledge necessary to be a threat to their favored son. [PAWN_nameDef] learned little more than how to manipulate the royal staff to get more food. -->
-  <PamperedLordling37.baseDesc>{PAWN_nameDef}의 부모님은 다른 후계자를 원하지 않았었습니다. 그들은 후계 다툼을 두려워했고, 일찍이 {PAWN_objective} 후계에서 탈락시키기로 했습니다.\n\n그들은 {PAWN_nameDef}(이)가 태어났을 때부터 애지중지하며 {PAWN_nameDef}(이)가 첫 째에게 위협이 되지 않도록 투지를 기르거나 지식을 얻는 것을 방지했습니다.</PamperedLordling37.baseDesc>
+  <PamperedLordling37.description>{PAWN_nameDef}의 부모님은 다른 후계자를 원하지 않았었습니다. 그들은 후계 다툼을 두려워했고, 일찍이 {PAWN_objective} 후계에서 탈락시키기로 했습니다.\n\n그들은 {PAWN_nameDef}(이)가 태어났을 때부터 애지중지하며 {PAWN_nameDef}(이)가 첫 째에게 위협이 되지 않도록 투지를 기르거나 지식을 얻는 것을 방지했습니다.</PamperedLordling37.description>
   <!-- EN: pampered lordling -->
   <PamperedLordling37.title>응석받이 왕자</PamperedLordling37.title>
   <!-- EN: pampered princess -->
@@ -22,7 +22,7 @@
   <PamperedLordling37.titleShort>응석받이</PamperedLordling37.titleShort>
   
   <!-- EN: [PAWN_nameDef]'s family held their power base on a grand, ancient starship. Born and raised on the ship, [PAWN_nameDef] learned all about the rigors of shipboard life, and the politics and methods of interstellar battle and orbital invasion.\n\n[PAWN_pronoun] learned to feel most at home with strong walls close on all sides and the gentle hiss of atmosphere regulators. -->
-  <ShipboundLordling12.baseDesc>{PAWN_nameDef}의 가족은 거대한 고대 우주선에 기반을 두고 있습니다. 우주선에서 나고 자란 {PAWN_nameDef}(은)는 선상의 엄격함, 정치, 성간 전투 방법과 궤도 침공 방법에 대해 배웠었습니다.\n\n{PAWN_pronoun}는 단단한 벽으로 둘러싸이고, 공기 순환기의 작동 소리가 들리는 곳을 집으로 느끼도록 배웠습니다.</ShipboundLordling12.baseDesc>
+  <ShipboundLordling12.description>{PAWN_nameDef}의 가족은 거대한 고대 우주선에 기반을 두고 있습니다. 우주선에서 나고 자란 {PAWN_nameDef}(은)는 선상의 엄격함, 정치, 성간 전투 방법과 궤도 침공 방법에 대해 배웠었습니다.\n\n{PAWN_pronoun}는 단단한 벽으로 둘러싸이고, 공기 순환기의 작동 소리가 들리는 곳을 집으로 느끼도록 배웠습니다.</ShipboundLordling12.description>
   <!-- EN: shipbound lordling -->
   <ShipboundLordling12.title>선장의 아들</ShipboundLordling12.title>
   <!-- EN: shipbound lady -->
@@ -33,14 +33,14 @@
   <ShipboundLordling12.titleShortFemale>우주선장</ShipboundLordling12.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s noble family did not want [PAWN_objective], but could not afford to be seen directly assassinating [PAWN_objective] either. They attempted to get [PAWN_objective] killed by assigning [PAWN_objective] dangerous training without proper protection at too young an age.\n\nAgainst all odds, [PAWN_nameDef] survived the jousting contests, horsewar matches, riverrun competitions and warzones. In the end, it only made [PAWN_objective] stronger. -->
-  <UnwantedSurvivor67.baseDesc>{PAWN_nameDef}의 주인인 귀족은 {PAWN_objective} 원하지 않았지만, 직접 암살할 여유도 없었습니다. 그래서 어렸을 때, 적절한 보호조치 없이 {PAWN_pronoun}에게 위험한 훈련을 할당하여, 죽이려고 시도했습니다.\n\n모든 가능성에도 {PAWN_nameDef}(은)는 마상 시합, 투기장 및 전쟁 지역에서 살아남았습니다. 결국 {PAWN_pronoun}만 강해졌습니다.</UnwantedSurvivor67.baseDesc>
+  <UnwantedSurvivor67.description>{PAWN_nameDef}의 주인인 귀족은 {PAWN_objective} 원하지 않았지만, 직접 암살할 여유도 없었습니다. 그래서 어렸을 때, 적절한 보호조치 없이 {PAWN_pronoun}에게 위험한 훈련을 할당하여, 죽이려고 시도했습니다.\n\n모든 가능성에도 {PAWN_nameDef}(은)는 마상 시합, 투기장 및 전쟁 지역에서 살아남았습니다. 결국 {PAWN_pronoun}만 강해졌습니다.</UnwantedSurvivor67.description>
   <!-- EN: unwanted survivor -->
   <UnwantedSurvivor67.title>원치않은 생존자</UnwantedSurvivor67.title>
   <!-- EN: survivor -->
   <UnwantedSurvivor67.titleShort>생존자</UnwantedSurvivor67.titleShort>
   
   <!-- EN: [PAWN_nameDef] was born to a royal house with a grand manor in a great city. [PAWN_pronoun] spent [PAWN_possessive] youth in lessons on politics.\n\nWhenever [PAWN_pronoun] could, [PAWN_pronoun] would escape with [PAWN_possessive] friends to explore the half-built substructure of the metropolis. -->
-  <UrbanLordling82.baseDesc>{PAWN_nameDef}(은)는 대도시의 웅장한 저택을 가진 왕실에서 태어났습니다. {PAWN_pronoun}는 청소년 시절을 정치에 대한 수업으로 보냈습니다.\n\n{PAWN_pronoun}는 가능할 때마다 친구들과 탈출하여, 대도시의 지하로 구조를 탐험했습니다.</UrbanLordling82.baseDesc>
+  <UrbanLordling82.description>{PAWN_nameDef}(은)는 대도시의 웅장한 저택을 가진 왕실에서 태어났습니다. {PAWN_pronoun}는 청소년 시절을 정치에 대한 수업으로 보냈습니다.\n\n{PAWN_pronoun}는 가능할 때마다 친구들과 탈출하여, 대도시의 지하로 구조를 탐험했습니다.</UrbanLordling82.description>
   <!-- EN: urban lordling -->
   <UrbanLordling82.title>도시 왕자</UrbanLordling82.title>
   <!-- EN: urban lady -->

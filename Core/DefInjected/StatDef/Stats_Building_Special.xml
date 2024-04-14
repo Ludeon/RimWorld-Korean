@@ -26,12 +26,26 @@
   <!-- EN: Medical tend quality is offset by this value. -->
   <MedicalTendQualityOffset.description>간호 품질 수치에 더해집니다.</MedicalTendQualityOffset.description>
   
+  <!-- EN: max power output -->
+  <PowerPlantMaxPowerOuput.label>최대 전력 출력량</PowerPlantMaxPowerOuput.label>
+  <!-- EN: The maximum power that this generator can output in ideal conditions. -->
+  <PowerPlantMaxPowerOuput.description>이 발전기가 최적의 상태일때 생산할 수 있는 최대 전력.</PowerPlantMaxPowerOuput.description>
+  
   <!-- EN: research speed factor -->
   <ResearchSpeedFactor.label>연구 속도 계수</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
   <ResearchSpeedFactor.description>연구 속도에 곱해집니다.</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
   <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>방 청결도</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <!-- EN: Reading bonus -->
+  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>독서 보너스</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
+  
+  <!-- EN: reading bonus -->
+  <RoomReadingBonus.label>독서 보너스</RoomReadingBonus.label>
+  <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
+  <RoomReadingBonus.description>책장과 같은 방에 있을 시 연구속도, 독서로 얻는 경험치와 흥미도에 보너스를 제공합니다. 이는 책장에 더 많고 높은 등급의 책을 배치함으로 올릴 수 있습니다.</RoomReadingBonus.description>
+  <!-- EN: Reading bonus -->
+  <RoomReadingBonus.parts.Reading_bonus.customLabel>독서 보너스</RoomReadingBonus.parts.Reading_bonus.customLabel>
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>수술 성공률 계수</SurgerySuccessChanceFactor.label>
@@ -42,8 +56,8 @@
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>덫 근접 피해량</TrapMeleeDamage.label>
-  <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>덫이 입히는 피해의 평균값입니다.\n\n실제 피해량은 약간의 오차가 있을 수 있습니다.</TrapMeleeDamage.description>
+  <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>이 함정이 입히는 평균 피해량입니다. 각 함정은 여러번 작동합니다.\n\n실제 피해량은 각각 다를 수 있습니다.</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>덫 작동 확률</TrapSpringChance.label>

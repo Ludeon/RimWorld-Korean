@@ -30,6 +30,8 @@
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>화면 가장자리 스크롤</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>마우스 커서 위치로 확대</ZoomToMouse>
   <!-- EN: Pause on load -->
   <PauseOnLoad>시작시 일시정지</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
@@ -62,12 +64,22 @@
   <DevelopmentMode>개발자 도구</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>오류 시 자동으로 모드 설정 초기화</ResetModsConfigOnCrash>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>빠른 시작 시 동면병 없음</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>게임 시작 시 개발자 팔레트 활성화</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>오류 시 기록 표시</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>취소를 눌러 기록 닫기</CloseLogWindowOnEscape>
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>로얄티 없이 시뮬레이션</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>이데올로기 없이 시뮬레이션</SimulateNotOwningIdeology>
   <!-- EN: Simulate not owning Biotech -->
   <SimulateNotOwningBiotech>바이오테크 없이 시뮬레이션</SimulateNotOwningBiotech>
+  <!-- EN: Simulate not owning Anomaly -->
+  <SimulateNotOwningAnomaly>어노말리를 소유하지 않은 상황</SimulateNotOwningAnomaly>
   <!-- EN: Verbose logging -->
   <LogVerbose>상세 기록</LogVerbose>
   <!-- EN: Save data folder -->
@@ -102,10 +114,14 @@
   <TemperatureMode>온도 단위</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>현실 시간 표시</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>12 시간제 사용</TwelveHourClockMode>
   <!-- EN: Disable tiny font -->
   <DisableTinyText>작은 글꼴 비활성화</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>최대 정착지 수: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>자동저장 개수: {0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>카메라 마우스 드래그 민감도</MapDragSensitivity>
   <!-- EN: Plant wind sway -->

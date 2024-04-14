@@ -3,12 +3,12 @@
   
   <!-- EN:
     <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
     <li>questDescription->근처에서 [faction_name](이)가 통제하는 [siteLabel](을)를 발견했습니다.\n\n주둔지를 습격하면 [loot]개를 얻을 수 있습니다. [raidConsequences]\n\n[timeout_duration] 후에는 짐을 꾸려 다른 곳으로 이동합니다.</li>
-    <li>raidConsequences(faction_temporary==false)->그러나 공격하면 [faction_name](이)가 적대할 것입니다.</li>
+    <li>raidConsequences(faction_temporary==false)->그들이 준비되지 않았을 때 공격하면 [faction_name](이)가 적대할 것입니다.</li>
     <li>raidConsequences(faction_temporary==true)->[faction_name](은)는 소규모 독립 집단이므로 외교적 문제 없이 공격할 수 있습니다.</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:

@@ -6,7 +6,7 @@
   <!-- EN: damage -->
   <DamageLower>피해</DamageLower>
   <!-- EN: seconds per attack -->
-  <SecondsPerAttackLower>초당 공격력</SecondsPerAttackLower>
+  <SecondsPerAttackLower>초마다 공격</SecondsPerAttackLower>
 
   <!-- EN: Base value -->
   <StatsReport_BaseValue>기본값</StatsReport_BaseValue>
@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>관련 건강 상태</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>성장 단계</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>휘청이는 자가 기어가는 중</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>재료</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,6 +44,8 @@
   <StatsReport_ShootingExampleDistances>사거리별 명중률은 다음과 같습니다.</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>최종값</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>최대값</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>{0}의 계수</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -158,6 +162,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>작위 요구사항 충족</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>나이</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>많은 유형의 오락 기구는 많은 유형의 오락을 만족하게 합니다. 정착민들은 같은 오락 기구를 반복해서 사용하면 지루해하므로, 다양한 유형의 오락기구를 제공하는 것이 좋습니다.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -200,6 +206,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>의류 (나체주의자)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>나체주의자가 이 장비를 의류로 취급하는지 나타냅니다. 의류로 취급하지 않는 장비는 나체주의자가 입어도 기분이 나빠지지 않습니다.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>성별</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>특정 복장은 일반적으로 성별에 따라 선호됩니다. 다른 사람이 입으면 불행할 수도 있습니다.</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>장비가 가려주는 신체 범위입니다.\n\n해당하지 않는 신체 부위는 보호하지 못합니다.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -294,6 +304,8 @@
   <Stat_Hediff_Pain_Desc>통증의 수준을 나타냅니다.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>이것에 의해 영향받는 신체 부위의 효율성입니다.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>자연적인 신체 부위와 비교할 때 이것이 얼마나 효율적인지 나타냅니다.</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>효과가 정신에 영향을 미치는 정도입니다.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -302,7 +314,7 @@
   <Stat_Hediff_HungerRateFactor_Desc>포만감 상실 계수입니다.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>포만감이 상실되는 기본 속도입니다.</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
+  <!-- EN: Sleep fall rate -->
   <Stat_Hediff_TirednessOffset_Name>피로 누적 속도</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>생명체가 수면을 필요로 하는 비율에 적용되는 속도입니다.</Stat_Hediff_TirednessOffset_Desc>
@@ -376,6 +388,14 @@
   <Stat_Building_PaintColor>색</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>이 건물을 색칠한 색입니다.</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>필요 자원</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>제작에 필요한 자원입니다.</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>해당 생물체가 가지고 있는 무기입니다.</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>이것을 만드는 데 필요한 재료입니다.</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -527,4 +547,8 @@
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>모드에서 추가함</Stat_Source_ModReport>
 
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>진열된 책의 미관</ContainedBookBeauty>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>{0}회 공격</Stat_TrapDamageHitCount>
 </LanguageData>

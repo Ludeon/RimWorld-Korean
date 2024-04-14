@@ -16,7 +16,7 @@
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort}(은)는 이미 {0_xenotype} 인종형을 가지고 있습니다.</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort}에 이식할 수 있는 변형인자가 없습니다.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>변형이식체는 정착민, 수감자 혹은 노예에게만 이식할 수 있습니다.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
@@ -63,6 +63,8 @@
   <MessageCocoonDisturbed>고치가 방해를 받아 깨어났습니다!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
   <MessageCocoonDisturbedPlural>고치가 방해를 받아 깨어났습니다!</MessageCocoonDisturbedPlural>
+  <!-- EN: {0} has rotted due to polluted terrain. -->
+  <MessagePlantDiedOfRot_PollutedTerrain>{0}(이)가 오염된 지형 때문에 썩었습니다.</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
   <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef}(은)는 {PAWN_possessive} 변형이식체를 다시 이식받기 전에 {PAWN_objective} 눕혀야 합니다.</MessageTargetMustBeDownedToForceReimplant>

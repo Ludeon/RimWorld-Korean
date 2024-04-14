@@ -11,12 +11,12 @@
   <!-- EN: A warden will execute the prisoner on the spot by cutting. This can affect the mood of other prisoners and colonists. -->
   <Execution.description>죄수를 즉시 처형합니다. 이 행동은 다른 죄수와 정착민들의 기분에 영향을 줄 수 있습니다.</Execution.description>
   
-  <!-- EN: no interaction -->
-  <NoInteraction.label>상호작용 없음</NoInteraction.label>
-  <!-- EN: Wardens will not interact with the prisoner. -->
-  <NoInteraction.description>수감자를 완전히 무시합니다.</NoInteraction.description>
+  <!-- EN: maintain only -->
+  <MaintainOnly.label>수감</MaintainOnly.label>
+  <!-- EN: Just feed the prisoner and provide for their basic needs, without attempting any other interaction. -->
+  <MaintainOnly.description>다른 상호작용 없이, 수감자에게 음식과 기본적인 욕구만 제공합니다.</MaintainOnly.description>
   
-  <!-- EN: reduce resistance -->
+  <!-- EN: reduce resistance only -->
   <ReduceResistance.label>설득</ReduceResistance.label>
   <!-- EN: If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made. -->
   <ReduceResistance.description>수감자와 대화를 시도하여 저항심을 낮춥니다. 포섭은 시도하지 않습니다.</ReduceResistance.description>

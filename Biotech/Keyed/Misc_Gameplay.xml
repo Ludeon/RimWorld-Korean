@@ -77,6 +77,8 @@
   <Groups>그룹</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>메카노이드 배양용 자원 적재 중</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>이 주기에 남은 시간</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>메카노이드 배양 절차 시작 중</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -145,7 +147,7 @@
   <AutoWakeDesc>설정하면 {PAWN_possessive} 죽음안식이 완료되었을 때 {PAWN_nameDef}(이)가 자동으로 깨어납니다.\n\n비활성화 하면 {PAWN_pronoun}는 수동으로 {PAWN_objective} 깨울 때까지 죽음안식을 계속합니다.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef}(은)는 죽음안식 중입니다.</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
+  <!-- EN: cannot deathrest -->
   <CannotDeathrest>죽음안식 불가</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>죽음안식 시작</StartDeathrest>
@@ -153,8 +155,6 @@
   <ConfirmExitDeathrestUnderMinDays>안전하게 죽음안식을 완료하는 데 {MINDURATION}이 걸리지만 {PAWN_nameDef}(은)는 {CURDURATION} 동안만 죽음안식을 취했습니다.\n\n이제 {PAWN_nameDef}(을)를 깨우면 {PAWN_possessive} 죽음안식을 방해하여 {PAWN_possessive} 신진대사의 균형을 깨고 {PAWN_objective} 앞으로 며칠 동안 아프게 만듭니다.\n\n정말로 {PAWN_objective} 깨우시겠습니까?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>죽음안식 중</Deathresting>
-  <!-- EN: complete -->
-  <Complete>완료</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>이제 안전하게 일어날 수 있습니다.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -297,7 +297,7 @@
   <ComplexityTotal>총 복잡도</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>사용 중인 모든 유전자의 복잡도 총합입니다.</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
+  <!-- EN: metabolic efficiency -->
   <Metabolism>대사 효율</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>유전자를 조합했을 때의 총 대사 효율입니다. 고효율 유전자를 보유한 사람은 음식을 적게 섭취해도 됩니다. 반대로 저효율 유전자를 보유하면 더 많이 먹어야 합니다.</MetabolismDesc>
@@ -429,8 +429,6 @@
   <LethalInjuries>치명적인 부상</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>죽음안식</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>건물</Buildings>
   <!-- EN: capacity -->
   <Capacity>능력</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>아이들은 때에 따라 다양한 활동을 배우고 싶어합니다.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>{0_nameDef}의 현재 학습 욕구:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>발달 단계는 마지막 생일 이후로 아동이 필요로 하는 학습의 평균입니다.\n\n발달 단계가 더 높은 아이들은 성장 순간에 더 많은 선택권을 갖게 될 것이고 기술에 대한 열정을 더 갖습니다.</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>{0} 배양 중</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>{0} 배양됨</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>계속 배양하기 위해 {PAWN_nameDef} 필요</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>완료를 위해 {PAWN_nameDef} 필요</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->

@@ -382,7 +382,7 @@
   <RangeTo>~</RangeTo>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>문자 없음</NoDietCategoryLetter>
-  <!-- EN: Expires in -->
+  <!-- EN: expires in -->
   <ExpiresIn>만료</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>{1_labelShort}의 상단</CaravanLeaderCaravanName>
@@ -416,6 +416,12 @@
   <PreciousLumpLabel>{0}의 덩어리</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>진행 중인 연구과제 없음</NoActiveResearchProjectToFinish>
+  <!-- EN: Current project -->
+  <CurrentProject>현재 연구</CurrentProject>
+  <!-- EN: Research progress -->
+  <ResearchProgress>연구 진행도</ResearchProgress>
+  <!-- EN: already has {0} -->
+  <AlreadyHasHediff>이미 {0}(이)가 있음</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>포탑</Turret>
   <!-- EN: turrets -->
@@ -456,8 +462,6 @@
   <GeneratesResourcesEvery>{1} 마다 {0} 생성</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
   <FoliageKillRadius>식물 제거 범위</FoliageKillRadius>
-  <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>범위 확장 속도</RadiusExpandRate>
   <!-- EN: View: {0} -->
   <ViewHyperlink>{0} 보기</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
@@ -560,11 +564,49 @@
   <Size>크기</Size>
   <!-- EN: cost -->
   <Cost>비용</Cost>
+  <!-- EN: Stunned by EMP -->
+  <StunnedByEMP>EMP에 기절함</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>직함</BackstoryTitle>
   <!-- EN: person -->
   <Person>사람</Person>
-
+  <!-- EN: activated. -->
+  <Activated>활성화되었습니다.</Activated> 
+  <!-- EN: Contains -->
+  <Contains>포함</Contains>
+  <!-- EN: Hostiles -->
+  <Hostiles>적대적</Hostiles>
+  <!-- EN: Investigate -->
+  <Investigate>조사</Investigate> 
+  <!-- EN: Activate -->
+  <Activate>활성화</Activate> 
+  <!-- EN: Activation -->
+  <Activation>활성화</Activation> 
+  <!-- EN: complete -->
+  <Complete>완료</Complete>
+  <!-- EN: Must be imprisoned. -->
+  <RequiresImprisonment>수감 중이어야 합니다.</RequiresImprisonment> 
+  <!-- EN: Prioritize hauling contents -->
+  <HaulFromSource>운반물품 우선순위</HaulFromSource>
+  <!-- EN: Use -->
+  <UseGizmo>사용</UseGizmo>
+  <!-- EN: Order someone to use the {0}. -->
+  <UseGizmoTooltip>누군가에게 {0}(을)를 사용하도록 명령하세요.</UseGizmoTooltip>
+  <!-- EN: Choose who should use this -->
+  <UseGizmoMouse>사용할 사람을 선택하세요</UseGizmoMouse>
+  <!-- EN: Select target -->
+  <TargetGizmoMouse>목표 선택</TargetGizmoMouse>
+  <!-- EN: Cannot use this -->
+  <CannotUseGizmoMouse>사용 불가</CannotUseGizmoMouse>
+  <!-- EN: Buildings -->
+  <Buildings>건물</Buildings>
+  <!-- EN: not yet discovered -->
+  <NotYetDiscovered>아직 발견되지 않았음</NotYetDiscovered>
+  <!-- EN: Crawling to safety. -->
+  <ReportStringCrawlingToSafety>안전한 곳으로 기어가는 중</ReportStringCrawlingToSafety>
+  <!-- EN: Crawling to bed. -->
+  <ReportStringCrawlingToBed>침대로 기어가는 중</ReportStringCrawlingToBed>
+  
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>사용자 탐색 속도</UserScanAbility>
@@ -582,8 +624,6 @@
   <ContainsWort>맥아즙 {0} / {1}</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>맥주 {0} / {1}</ContainsBeer>
-  <!-- EN: Contains -->
-  <Contains>포함</Contains>
   <!-- EN: Fermented -->
   <Fermented>발효됨</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -650,6 +690,12 @@
   <NewArea>새 구역</NewArea>
   <!-- EN: Invert -->
   <InvertArea>반전</InvertArea>
+  <!-- EN: Expand -->
+  <ExpandArea>확장</ExpandArea>
+  <!-- EN: Shrink -->
+  <ShrinkArea>축소</ShrinkArea>
+  <!-- EN: Maximum {0} areas allowed. -->
+  <MaxAreasReached>최대 {0}개의 구역이 허용됩니다.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -690,6 +736,9 @@
   <PenExampleAnimals>예시 동물</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>외부 접근 불가 - 동물들이 출입할 수 없습니다.</NoExteriorAccess>
+  
+  <!-- EN: Must be connected to walls on both sides to function. -->
+  <DoorMustBeEnclosedByWalls>작동하려면 양쪽에 벽이 인접해야 합니다.</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -748,6 +797,8 @@
   <IsNotDrafted>{1_labelShort}(은)는 소집되지 않았습니다.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef}(이)가 착용한 {APPAREL_label}(으)로 인해 사격할 수 없습니다.</ApparelPreventsShooting>
+  <!-- EN: Cannot use in {0} -->
+  <CannotUseReason_PocketMap>{0}에서는 사용할 수 없음</CannotUseReason_PocketMap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -784,8 +835,8 @@
   <OrderActivation>활성 명령</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
   <OrderActivationDesc>정착민에게 {THING_definite}(을)를 활성화하도록 명령합니다.</OrderActivationDesc>
-  <!-- EN: Must be activated by a colonist. -->
-  <MustBeActivatedByColonist>정착민이 활성화해야 합니다.</MustBeActivatedByColonist>
+  <!-- EN: Send a colonist to activate this. -->
+  <MustBeActivatedByColonist>이것을 활성화하려면 정착지 주민을 보내세요.</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
   <NoNearbyFire>근처에 화염 없음</NoNearbyFire>
   <!-- EN: No nearby fire. No fuel was used. -->
@@ -842,6 +893,10 @@
   <CarriedBy>{0_labelShort}에 의해 옮겨지는 중</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>{0_labelShort} 내부</InContainer> 
+  <!-- EN: downed, cannot crawl. -->
+  <DownedCannotCrawl>쓰러져서 기어갈 수 없습니다.</DownedCannotCrawl> 
+  <!-- EN: downed, unconscious. -->
+  <DownedUnconscious>쓰러지고 의식을 잃었습니다.</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -982,8 +1037,8 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>전원이 연결되지 않음</PowerNotConnected>
-  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>전력망 여유 용량/저장 용량: {0} W / {1} Wd</PowerConnectedRateStored>
+  <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
+  <PowerConnectedRateStored>전력망 여유 용량: {0} W ({1} Wd 저장됨)</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>필요 전력량</PowerNeeded>
   <!-- EN: Power output -->
@@ -1022,12 +1077,12 @@
   <RotStateRotting>썩는 중</RotStateRotting>
   <!-- EN: Dessicated -->
   <RotStateDessicated>백골화</RotStateDessicated>
-  <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>냉동 (부패하지 않음)</CurrentlyFrozen>
-  <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>냉장 ({0} 후 상함)</CurrentlyRefrigerated>
-  <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>냉장되지 않음 ({0} 후 상함)</NotRefrigerated>
+  <!-- EN: Frozen -->
+  <CurrentlyFrozen>냉동됨</CurrentlyFrozen> 
+  <!-- EN: Refrigerated, spoils in {0} -->
+  <CurrentlyRefrigerated>냉장됨, {0} 후 상함</CurrentlyRefrigerated> 
+  <!-- EN: Unrefrigerated, spoils in {0} -->
+  <NotRefrigerated>냉장되지 않음, {0} 후 상함</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>매우 긴 시간</OverADecade>
   <!-- EN: less than a day -->
@@ -1110,12 +1165,22 @@
   <Stockpile>저장구역</Stockpile>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>처리구역</DumpingStockpile>
+  <!-- EN: Corpse stockpile zone -->
+  <CorpseStockpile>시체 저장 구역</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>우선순위</Priority>
   <!-- EN: Clear all -->
   <ClearAll>모두 제거</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>모두 허용</AllowAll>
+  
+  <!-- Storage Groups -->
+  <!-- EN: Group -->
+  <StorageGroup>그룹</StorageGroup>
+  <!-- EN: Name -->
+  <StorageLabel>이름</StorageLabel>
+  <!-- EN: Storage group -->
+  <StorageGroupLabel>저장 그룹</StorageGroupLabel>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -1128,6 +1193,14 @@
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>발견되지 않음</Undiscovered>
+  
+  <!-- Animal management -->
+  <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSterilizeConfirm>정말 {PAWN_nameDef}에게 불임 시술을 하시겠습니까? {FACTION_name}(이)가 분노할 것입니다.</AnimalSterilizeConfirm>
+  <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSlaughterConfirm>정말 {PAWN_nameDef}(을)를 도축하시겠습니까? {FACTION_name}(이)가 분노할 것입니다.</AnimalSlaughterConfirm>
+  <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalReleaseConfirm>정말 {PAWN_nameDef}(을)를 야생으로 방출하시겠습니까? {FACTION_name}(이)가 분노할 것입니다.</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1167,6 +1240,10 @@
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
   <ShowTemperatureOverlayToggleButton>온도를 시각화합니다. 모든 방과 실외 공간의 기온을 볼 수 있습니다.\n\n정착민들은 온도가 너무 높거나 너무 낮으면 기분이 나빠집니다. 극한 온도에 노출된 정착민은 저체온증, 동상, 열사병, 화상을 겪거나 사망할 수 있습니다.</ShowTemperatureOverlayToggleButton>
 
+  <!-- Hotkeys -->
+  <!-- EN: Hotkey -->
+  <HotKeyTip>단축키</HotKeyTip>
+  
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
   <FireOn>{1_label}에 화재</FireOn>
@@ -1202,6 +1279,12 @@
   <MustPlaceUnroofed>지붕 아래에 배치할 수 없습니다.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
   <MustPlaceUnderThickRoof>두꺼운 지붕 아래에 배치해야 합니다.</MustPlaceUnderThickRoof>
+  <!-- EN: Must be placed against a wall. -->
+  <MustPlaceOnWall>벽에 붙여서 배치해야 됩니다.</MustPlaceOnWall>
+  <!-- EN: Something is already placed on this wall. -->
+  <SomethingPlacedOnThisWall>이 벽에는 이미 뭔가가 설치되어 있습니다.</SomethingPlacedOnThisWall>
+  <!-- EN: This building can not support attachments. -->
+  <CannotSupportAttachment>이 건물은 부속물을 달 수 없습니다.</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>앞 부분이 우주선 구조부에 붙어있어야 합니다.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1255,7 +1338,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>아직 준비되지 않음</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo>
+  <ShipNoSettlementToReturnTo>돌아갈 정착지가 없습니다. 먼저 정착지를 건설하세요.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)샬론 화이트스톤(/Name)은 우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 남길 수 있다고 경고합니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다. 여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1322,6 +1405,8 @@
   <Mood_Happy>기쁨</Mood_Happy>
 
   <!-- Game over -->
+  <!-- EN: Game Over -->
+  <GameOver>게임 끝</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>모든 정착민이 죽거나 떠났습니다. 여정은 끝났습니다.\n\n어쩌면 이곳을 지나던 다른 이들이 당신이 남긴 폐허를 활용할 수 있을지도 모릅니다.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
@@ -1336,10 +1421,20 @@
   <GameOverColonistsLeft>남겨진 정착민\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>기억 속에 남겨짐\n</GameOverInMemoryOf>
-  <!-- EN: Keep playing -->
-  <GameOverKeepPlaying>계속 진행</GameOverKeepPlaying>
+  <!-- EN: Keep watching -->
+  <GameOverKeepWatching>계속 지켜보기</GameOverKeepWatching>
+  <!-- EN: Keep watching for now -->
+  <GameOverKeepWatchingForNow>당장은 계속 지켜보기</GameOverKeepWatchingForNow>
+  <!-- EN: Create new wanderers -->
+  <GameOverCreateNewWanderers>새로운 방랑자 생성</GameOverCreateNewWanderers>
+  <!-- EN: Create new wanderers (must wait {0}h) -->
+  <GameOverCreateNewWanderersWait>새로운 방랑자 생성 ({0}시간 기다려야 함)</GameOverCreateNewWanderersWait>
+  <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
+  <GameOverCreateNewWanderersText>모두가 죽었거나 사라졌습니다. 어쩌면 누군가가 이곳의 폐허를 다시 재건할지도 모릅니다.\n\n당신의 정착지에 도착하는 새로운 방랑자를 선택하고, 이야기를 계속하십시오.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
-  <GameOverMainMenu>메인 메뉴</GameOverMainMenu>
+  <GameOverMainMenu>주 메뉴</GameOverMainMenu>
+  <!-- EN: No colony -->
+  <NoColony>정착지 없음</NoColony>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1352,6 +1447,10 @@
   <FacilityPotentiallyLinkedTo>연결됨</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>건물에 연결되지 않음</FacilityNoPotentialLinks>
+  <!-- EN: Max connected per building -->
+  <FacilityMaxSimultaneousConnections>건물당 최대 연결 가능</FacilityMaxSimultaneousConnections>
+  <!-- EN: Front of building is blocked. -->
+  <FacilityFrontBlocked>건물 앞이 막혀 있습니다.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1540,6 +1639,10 @@
   <Reward_CampLoot>주둔지에 있는 모든 것을 노획할 수 있습니다</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>주둔지 전리품</Reward_CampLoot_Label>
+  <!-- EN: It is unclear what will happen if you accept this quest -->
+  <Reward_Unknown>이 임무를 수락하면 어떤 일이 일어날지 모릅니다</Reward_Unknown> 
+  <!-- EN: Unknown -->
+  <Reward_Unknown_Label>알 수 없음</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>방문객들이 정착지에서 함께 일하고 싸워줍니다</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1603,9 +1706,16 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>{0}에 의해 발생</CausedByHediff>
   
+  <!-- EN: {DAMAGE_label} weakness -->
+  <DamageFactorWeakness>{DAMAGE_label}의 약점</DamageFactorWeakness>
+  <!-- EN: {DAMAGE_label} resistance -->
+  <DamageFactorResistance>{DAMAGE_label}의 내성</DamageFactorResistance>
+  <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
+  <DamageFactor>이 생물체가 받는 {DAMAGE_label} 피해량에 해당 계수가 곱해집니다.</DamageFactor>
+  
   <!-- Healing -->
-  <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>{0_nameDef}의 {1}(이)가 치유됐습니다.</HealingCureHediff>
+  <!-- EN: {0_nameDef}'s {1} was healed. -->
+  <HealingHealHediff>{0_nameDef}의 {1}(이)가 회복되었습니다.</HealingHealHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
   <HealingRestoreBodyPart>{0_nameDef}의 {1}(이)가 복구됐습니다.</HealingRestoreBodyPart>
 
@@ -1614,7 +1724,13 @@
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>착륙 지점 선택</ChooseLandingSite>
-  
+
+  <!-- LordJobs -->
+  <!-- EN: Outcome chances at {0} quality -->
+  <LordJobOutcomeChances>품질 {0}에서 나타날 수 있는 결과 확률</LordJobOutcomeChances>
+  <!-- EN: Expected duration -->
+  <ExpectedLordJobDuration>예상 기간</ExpectedLordJobDuration>
+
   <!-- Rituals -->
   <!-- EN: ritual -->
   <Ritual>행사</Ritual>
@@ -1673,8 +1789,6 @@
   <RitualOutcomeQualityAbstract>{0} 품질에 영향을 주는 요소</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>{0}의 총 품질은 {1}였습니다. 품질에 영향을 준 요소</RitualOutcomeQualitySpecific>
-  <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>품질 {0}에서 나타날 수 있는 결과 확률</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>최근에 실행함</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -1691,9 +1805,7 @@
   <RitualOutcomeExtraDesc_Mood>행사에 참여한 모든 사람의 기분이 {1}일간 {0}만큼 영향을 받습니다.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>이 의식에는 품질 영향이 없으므로 항상 최선의 결과를 낳습니다.</RitualOutcomeNoQuality>
-  
-  <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>{RITUAL_labelDef}에 참여해야 하는 사람을 선택하세요.</ChooseParticipants>
+
   <!-- EN: Begin -->
   <Begin>시작</Begin>
   <!-- EN: Begin {0} -->
@@ -1710,12 +1822,9 @@
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>{IDEOS} 의식 좌석</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>예상 품질</ExpectedRitualQuality>
+  <ExpectedLordJobQuality>예상 품질</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
   <StartingQuality>시작 품질</StartingQuality>
-  <!-- EN: Expected duration -->
-  <ExpectedRitualDuration>예상 기간</ExpectedRitualDuration>
-  
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}의 {1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
@@ -1764,16 +1873,22 @@
   <ToxGas>독소 가스</ToxGas>
   <!-- EN: rot stink -->
   <RotStink>부패 가스</RotStink>
+  <!-- EN: deadlife dust -->
+  <DeadlifeDust>모조생명 먼지</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>소집 중이어야 합니다.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>재사용 대기 중입니다. {0} 후 다시 사용할 수 있습니다.</AbilityOnCooldown>
+  <!-- EN: ability out of charges. -->
+  <AbilityNoCharges>능력이 충전되지 않았습니다.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>이미 대기열에 있습니다.</AbilityAlreadyQueued>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>{0} 능력이 준비되었습니다.</AbilityReadyLabel>
+  <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
+  <AbilityReadyLabel>{PAWN_nameDef}의 능력 준비됨: {0}</AbilityReadyLabel>
+  <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
+  <AbilitiesReadyLabel>{PAWN_nameDef}의 능력 준비됨: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}(이)가 {1}(을)를 사용할 준비가 되었습니다.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -1781,11 +1896,15 @@
   <!-- EN: Charges -->
   <Charges>충전</Charges>
 
+  <!-- EN: {0_nameDef} is in a mental state. -->
+  <PawnIsInMentalState>{0_nameDef}(은)는 정신이상을 앓고 있어야 합니다.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInMentalState>{0_nameDef}(은)는 공격적인 정신 이상을 겪고 있습니다.</PawnIsInMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef}(은)는 공격적인 정신 이상을 겪고 있습니다.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>비활성화된 작업</DisabledWorkLabel>
+  <!-- EN: Disabled needs -->
+  <DisabledNeedsLabel>비활성화된 욕구</DisabledNeedsLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
@@ -1820,5 +1939,88 @@
   <AbilitySpeechCooldown>다음 연설 준비</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
   <AbilitySpeechTargetsLabel>시작</AbilitySpeechTargetsLabel>
+  
+  <!-- Books -->
 
+  <!-- EN: Benefits -->
+  <Benefits>이익</Benefits>
+  <!-- EN: Dangers -->
+  <Dangers>위험</Dangers>
+  <!-- EN: already unlocked -->
+  <AlreadyUnlocked>이미 해제됨</AlreadyUnlocked>
+  <!-- EN: when discovered -->
+  <WhenDiscovered>발견했을 때</WhenDiscovered>
+  
+  <!-- EN: Was driven into a mental break after reading {0}. -->
+  <BookMentalBreakMessage>{0}(을)를 읽은 후 정신이상을 일으켰습니다.</BookMentalBreakMessage>
+  <!-- EN: {0} done (complete in {1} hours) -->
+  <BookReadProgress>{0} 완료 ({1}시간 안에 완료)</BookReadProgress>
+  
+  <!-- EN: learning speed -->
+  <BookLearningModifier>학습 속도</BookLearningModifier>
+  <!-- EN: Mental break chance -->
+  <BookMentalBreak>정신이상 가능성</BookMentalBreak>
+  
+  <!-- EN: {BOOK_labelShort} is not readable -->
+  <BookNotReadable>{BOOK_labelShort}(을)를 읽을 수 없음</BookNotReadable>
+  <!-- EN: {PAWN_nameDef} can't read -->
+  <BookCantRead>{PAWN_nameDef}을(를) 읽을 수 없음</BookCantRead>
+  <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
+  <BookCantBeStage>{PAWN_nameDef}(은)는 {STAGES}이어야 함</BookCantBeStage>
+  <!-- EN: {PAWN_nameDef} is blind -->
+  <BookBlind>{PAWN_nameDef}(은)는 앞이 보이지 않음</BookBlind>
+  
+  <!-- EN: max level {0} -->
+  <BookMaxLevel>최대 기술 {0}</BookMaxLevel>
+  
+  <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
+  <ReadingReportHeader>{0} 읽기: {1} 완료 ({2}시간 안에 완료)</ReadingReportHeader>
+  
+  <!-- EN: Assign reading -->
+  <ReadingDialogTitle>독서 할당</ReadingDialogTitle>
+  <!-- EN: Assign to {0} -->
+  <ReadingAssignTo>{0}에 할당</ReadingAssignTo>
+  <!-- EN: Assign -->
+  <ReadingAssign>할당</ReadingAssign>
+
+  <!-- EN: The books currently on this bookshelf. -->
+  <ContainedBooksDesc>현재 이 책장에 있는 책들입니다.</ContainedBooksDesc>
+  
+  <!-- EN: Books stored -->
+  <BookshelfStoredInspect>보관 중인 도서</BookshelfStoredInspect>
+  <!-- EN: Reading bonus in room -->
+  <BookshelfReadingBonusInspect>실내 읽기 이득</BookshelfReadingBonusInspect>
+
+  <!-- EN: Remove this book from the bookshelf. -->
+  <EjectBookTooltip>책장에서 이 책을 꺼냅니다.</EjectBookTooltip>
+  
+  <!-- Pushing -->
+  <!-- EN: Push to... -->
+  <CommandPushTo>밀기...</CommandPushTo>
+  <!-- EN: requires {0} -->
+  <RequiredCapacity>{0} 필요</RequiredCapacity>
+  
+  <!-- EN: Unable to enter {0}, destination is blocked -->
+  <UnableToEnterPortal>{0}에 들어갈 수 없음, 대상이 차단됨</UnableToEnterPortal>
+
+  <!-- EN: This category of research has not been discovered. -->
+  <ResearchNotDiscovered>해당 범주의 연구는 발견되지 않았습니다.</ResearchNotDiscovered>
+
+  <!-- EN: Emergence -->
+  <Emergence>출현</Emergence>
+  
+  <!-- EN: remove {0} -->
+  <RemovePart>{0} 제거</RemovePart>
+
+  <!-- EN: {GERUND} {TARGETLABEL} at -->
+  <DoWorkAtThing>에서 {GERUND} {TARGETLABEL}</DoWorkAtThing>
+  <!-- EN: can be studied in {0} -->
+  <CanBeStudiedInDuration>{0}에서 연구할 수 있습니다</CanBeStudiedInDuration>
+  
+  <!-- EN: About to explode -->
+  <AboutToExplode>곧 폭발함</AboutToExplode>
+  
+  <!-- EN: New Anomaly expansion available now! -->
+  <MainScreen_AnomalyAvailableNow>새로운 어노말리 확장팩을 지금 만나보세요!</MainScreen_AnomalyAvailableNow>
+  
 </LanguageData>

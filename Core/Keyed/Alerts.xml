@@ -10,12 +10,12 @@
   <BreakRiskMajor>심각한 정신불안</BreakRiskMajor>
   <!-- EN: Extreme break risk -->
   <BreakRiskExtreme>극심한 정신불안</BreakRiskExtreme>
-  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n\n{0} -->
-  <BreakRiskMinorDesc>다음 정착민은 가벼운 정신이상 징후를 보이고 있습니다.\n\n{0}</BreakRiskMinorDesc>
-  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0} -->
-  <BreakRiskMajorDesc>다음 정착민은 심각한 정신이상 징후를 보이고 있습니다.\n\n{0}</BreakRiskMajorDesc>
-  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
-  <BreakRiskExtremeDesc>다음 정착민은 극심하고 폭력적인 정신이상 징후를 보이고 있습니다.\n\n{0}</BreakRiskExtremeDesc>
+  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n{0} -->
+  <BreakRiskMinorDesc>다음 정착민은 가벼운 정신이상 징후를 보이고 있습니다.\n{0}</BreakRiskMinorDesc>
+  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n{0} -->
+  <BreakRiskMajorDesc>다음 정착민은 심각한 정신이상 징후를 보이고 있습니다.\n{0}</BreakRiskMajorDesc>
+  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n{0} -->
+  <BreakRiskExtremeDesc>다음 정착민은 극심하고 폭력적인 정신이상 징후를 보이고 있습니다.\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>정착민의 기분에 영향을 미치는 요소들을 확인하여 문제를 해결하세요.\n\n멋진 식사 및 더 많은 쉬는 시간과 오락 시설, 아름다운 장식물, 술 그리고 담배 등을 제공하여 정착민의 기분을 달래줄 수 있습니다.</BreakRiskDescEnding>
 
@@ -23,10 +23,10 @@
   <ColonistNeedsRescue>구조가 필요한 정착민</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>구조가 필요한 정착민들</ColonistsNeedRescue>
-  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDesc>다음 정착민들이 행동 불능 상태가 되었습니다.\n\n{0}\n다른 정착민을 보내 침대로 이송하세요.\n\n(다른 정착민을 선택하고 행동 불능 상태가 된 정착민을 우클릭하여 구조 명령을 내릴 수 있습니다.)</ColonistsNeedRescueDesc>
-  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDescController>다음 정착민들이 행동 불능 상태가 되었습니다.\n\n{0}\n다른 정착민을 보내 침대로 이송하세요.\n\n(다른 정착민을 선택하고 행동 불능 상태가 된 정착민 위에서 왼쪽 트리거를 사용해 구조 명령을 내릴 수 있습니다.)</ColonistsNeedRescueDescController>
+  <!-- EN: These colonists are incapacitated on the ground:\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
+  <ColonistsNeedRescueDesc>다음 정착민들이 행동 불능 상태가 되었습니다.\n{0}\n다른 정착민을 보내 침대로 이송하세요.\n\n(다른 정착민을 선택하고 행동 불능 상태가 된 정착민을 우클릭하여 구조 명령을 내릴 수 있습니다.)</ColonistsNeedRescueDesc>
+  <!-- EN: These colonists are incapacitated on the ground:\n{0}\n\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
+  <ColonistsNeedRescueDescController>다음 정착민들이 행동 불능 상태가 되었습니다.\n{0}\n\n다른 정착민을 보내 침대로 이송하세요.\n\n(다른 정착민을 선택하고 행동 불능 상태가 된 정착민 위에서 왼쪽 트리거를 사용해 구조 명령을 내릴 수 있습니다.)</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>방어시설 필요</NeedDefenses>
@@ -35,8 +35,8 @@
 
   <!-- EN: Need doctor -->
   <NeedDoctor>의사 필요</NeedDoctor>
-  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n\n{0}\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
-  <NeedDoctorDesc>다음 정착민이 치료를 원하지만 정착지에 의사가 없습니다.\n\n{0}\n건강한 정착민을 의사로 지정하세요. 방치된 상처는 제대로 아물지 않고 영원히 남을 수 있습니다.</NeedDoctorDesc>
+  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n{0}\n\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
+  <NeedDoctorDesc>다음 정착민이 치료를 원하지만 정착지에 의사가 없습니다.\n{0}\n\n건강한 정착민을 의사로 지정하세요. 방치된 상처는 제대로 아물지 않고 영원히 남을 수 있습니다.</NeedDoctorDesc>
 
   <!-- EN: Need miner -->
   <NeedMiner>광부 필요</NeedMiner>
@@ -70,35 +70,35 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>사망한 정착민이 매장되지 않은 채 방치되어 있습니다.\n\n방치된 시신은 다른 정착민들의 기분을 망칠 것입니다.</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks ranged weapon -->
-  <HunterLacksWeapon>사냥용 원거리 무기 필요</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
-  <HunterLacksWeaponDesc>사냥꾼으로 지정된 정착민이 원거리 무기를 가지고 있지 않습니다.\n\n사냥꾼에게 원거리 무기를 주기 전까지는 사냥을 하지 않습니다.\n\n원거리 무기가 필요한 사냥꾼은 다음과 같습니다</HunterLacksWeaponDesc>
+  <!-- EN: Hunter lacks suitable weapon -->
+  <HunterLacksWeapon>사냥에 적합한 무기 필요</HunterLacksWeapon>
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
+  <HunterLacksWeaponDesc>사냥꾼으로 지정된 정착민이 적합한 원거리 무기를 가지고 있지 않습니다.\n\n적합한 원거리 무기를 주기 전까지는 사냥을 하지 않을 것입니다.\n\n원거리 무기가 필요한 사냥꾼은 다음과 같습니다</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>낡은 옷</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>다음 정착민들이 낡은 옷 때문에 스트레스를 받고 있습니다.\n\n{0}\n더 좋은 옷이 필요합니다.\n\n옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</AlertTatteredApparelDesc>
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertTatteredApparelDesc>다음 정착민들이 낡은 옷 때문에 스트레스를 받고 있습니다.\n{0}\n\n더 좋은 옷이 필요합니다.\n\n옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>벌거벗음</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertUnhappyNudityDesc>다음 정착민들이 옷을 입지 못해 스트레스를 받고 있습니다.\n\n{0}\n옷가지를 가져다주세요.\n\n옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</AlertUnhappyNudityDesc>
+  <!-- EN: These colonists are nude and not happy about it:\n{0}\n\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertUnhappyNudityDesc>다음 정착민들이 옷을 입지 못해 스트레스를 받고 있습니다.\n{0}\n\n옷가지를 가져다주세요.\n\n옷은 재봉 작업대에서 만들거나 상인에게 살 수 있습니다.</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
   <Starvation>굶주림</Starvation>
-  <!-- EN: These colonists are starving:\n\n{0}\nGet them some food. -->
-  <StarvationDesc>다음 정착민들이 굶주리고 있습니다.\n\n{0}\n식량을 구해주세요.</StarvationDesc>
+  <!-- EN: These colonists are starving:\n{0}\n\nGet them some food. -->
+  <StarvationDesc>다음 정착민들이 굶주리고 있습니다.\n{0}\n\n식량을 구해주세요.</StarvationDesc>
 
   <!-- EN: Animal starvation -->
   <StarvationAnimals>동물 굶주림</StarvationAnimals>
-  <!-- EN: These colony animals are starving:\n\n{0}\nGet them some food. -->
-  <StarvationAnimalsDesc>다음 동물들이 굶주리고 있습니다.\n\n{0}\n식량을 구해주세요.</StarvationAnimalsDesc>
+  <!-- EN: These colony animals are starving:\n{0}\n\nGet them some food. -->
+  <StarvationAnimalsDesc>다음 동물들이 굶주리고 있습니다.\n{0}\n\n식량을 구해주세요.</StarvationAnimalsDesc>
 
   <!-- EN: Exhaustion -->
   <Exhaustion>탈진</Exhaustion>
-  <!-- EN: These colonists are exhausted and need rest:\n\n{0}\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
-  <ExhaustionDesc>다음 정착민들이 탈진하여 휴식이 필요합니다.\n\n{0}\n휴식을 위해서 정착민들이 사용할 수 있는 침대가 필요합니다. 또한 소집상태를 해제했는지 확인해주세요.</ExhaustionDesc>
+  <!-- EN: These colonists are exhausted and need rest:\n{0}\n\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
+  <ExhaustionDesc>다음 정착민들이 탈진하여 휴식이 필요합니다.\n{0}\n\n휴식을 위해서 정착민들이 사용할 수 있는 침대가 필요합니다. 또한 소집상태를 해제했는지 확인해주세요.</ExhaustionDesc>
 
   <!-- EN: Need food hopper -->
   <NeedFoodHopper>투입구 필요</NeedFoodHopper>
@@ -125,8 +125,8 @@
 
   <!-- EN: Boredom -->
   <Boredom>지루함</Boredom>
-  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
-  <BoredomDesc>오락 시설이 필요하거나 사용 가능한 모든 오락 시설에 싫증을 느끼는 사람들:\n\n{0}\n\n좀 더 다양하게 오락 시설을 설치하세요.\n\n{PAWN_labelShort}(이)가 현재 사용 가능한 오락 시설:\n\n{2}</BoredomDesc>
+  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n{2} -->
+  <BoredomDesc>오락 시설이 필요하거나 사용 가능한 모든 오락 시설에 싫증을 느끼는 사람들:\n\n{0}\n\n좀 더 다양하게 오락 시설을 설치하세요.\n\n{PAWN_labelShort}(이)가 현재 사용 가능한 오락 시설:\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>축전지 필요</NeedBatteries>
@@ -149,35 +149,35 @@
 
   <!-- EN: Need research project -->
   <NeedResearchProject>다음 연구 진행 가능</NeedResearchProject>
-  <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
-  <NeedResearchProjectDesc>설치된 연구대가 있지만 현재 진행 중인 연구가 없습니다.\n\n연구 메뉴에서 연구할 항목을 지정해 주세요.</NeedResearchProjectDesc>
+  <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
+  <NeedResearchProjectDesc>연구 설비가 있지만 진행할 연구 과제를 선택하지 않았습니다.\n\n(클릭해서 연구 메뉴를 여세요.)</NeedResearchProjectDesc>
 
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0}명의 정착민 대기 중</ColonistsIdle>
-  <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
-  <ColonistsIdleDesc>다음 정착민들이 할 일이 없어 주변을 방황하고 있습니다.\n\n{0}\n무언가 생산적인 일을 찾아주어야 할 것입니다.</ColonistsIdleDesc>
+  <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
+  <ColonistsIdleDesc>다음 정착민들이 할 일이 없어 대기 중입니다.\n\n{0}\n무언가 생산적인 일을 찾아주어야 할 것입니다.</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
   <CaravanIdle>상단 대기 중</CaravanIdle>
-  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
-  <CaravanIdleDesc>이 상단은 다음 목적지 설정을 기다리고 있습니다:\n\n{0}</CaravanIdleDesc>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n{0} -->
+  <CaravanIdleDesc>이 상단은 다음 목적지 설정을 기다리고 있습니다:\n{0}</CaravanIdleDesc>
 
   <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>치료 필요</ColonistNeedsTreatment>
-  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>다음 정착민들이 치료를 받아야 합니다. 치료를 받지 못하면 상처 때문에 사망하거나 영구적인 장애가 발생할 수 있습니다.\n\n{0}\n의료용 침대로 보내 치료하세요.\n\n(먼저 침대를 선택해서 의료용 침대로 전환하고, 상처 입은 정착민을 선택한 후 병원 침대를 마우스 오른쪽 버튼으로 클릭하세요.)</ColonistNeedsTreatmentDesc>
-  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>다음 정착민들이 치료를 받아야 합니다. 치료를 받지 못하면 상처 때문에 사망하거나 영구적인 장애가 발생할 수 있습니다.\n\n{0}\n의료용 침대로 보내 치료하세요.\n\n(먼저 침대를 선택해서 의료용 침대로 전환하고, 상처 입은 정착민을 선택한 후 병원 침대 위에서 왼쪽 버튼을 사용하세요.)</ColonistNeedsTreatmentDescController>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDesc>다음 정착민들이 치료를 받아야 합니다. 치료를 받지 못하면 상처 때문에 사망하거나 영구적인 장애가 발생할 수 있습니다.\n{0}\n\n의료용 침대로 보내 치료하세요.\n\n(먼저 침대를 선택해서 의료용 침대로 전환하고, 상처 입은 정착민을 선택한 후 병원 침대를 마우스 오른쪽 버튼으로 클릭하세요.)</ColonistNeedsTreatmentDesc>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>다음 정착민들이 치료를 받아야 합니다. 치료를 받지 못하면 상처 때문에 사망하거나 영구적인 장애가 발생할 수 있습니다.\n{0}\n\n의료용 침대로 보내 치료하세요.\n\n(먼저 침대를 선택해서 의료용 침대로 전환하고, 상처 입은 정착민을 선택한 후 병원 침대 위에서 왼쪽 버튼을 사용하세요.)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>저체온증</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
-  <AlertHypothermiaDesc>다음 정착민이 저체온증으로 고통받고 있습니다.\n\n{0}\n계절에 맞는 옷을 만들어 입히거나 따듯한 곳으로 이동해야합니다.</AlertHypothermiaDesc>
+  <!-- EN: These colonists are suffering from hypothermia:\n{0}\n\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <AlertHypothermiaDesc>다음 정착민이 저체온증을 앓고 있습니다.\n{0}\n\n계절에 맞는 옷을 입고 있는지, 내부가 적절히 난방 중인지 확인하세요.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>{0}명 수술 대기중</PatientsAwaitingMedicalOperation>
-  <!-- EN: These patients await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available. -->
-  <PatientsAwaitingMedicalOperationDesc>다음 환자들이 수술을 기다리고 있습니다.\n\n{0}\n필요한 의료기구를 가지고 있는지 확인하고, 활동 가능한 의사를 준비하세요.</PatientsAwaitingMedicalOperationDesc>
+  <!-- EN: These patients await medical operation:\n{0}\n\nMake sure you have all necessary medical tools and a free doctor available. -->
+  <PatientsAwaitingMedicalOperationDesc>다음 환자들이 수술을 기다리고 있습니다.\n{0}\n\n필요한 의료기구를 가지고 있는지 확인하고, 활동 가능한 의사를 준비하세요.</PatientsAwaitingMedicalOperationDesc>
 
   <!-- EN: Fire! -->
   <FireInHomeArea>화재!</FireInHomeArea>
@@ -186,10 +186,10 @@
 
   <!-- EN: Medical emergency -->
   <PawnsWithLifeThreateningDisease>심각한 질병</PawnsWithLifeThreateningDisease>
-  <!-- EN: People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical care possible. -->
-  <PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 사망의 위험이 있습니다.\n\n{0}\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하세요.</PawnsWithLifeThreateningDiseaseDesc>
-  <!-- EN: People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
-  <PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 사망의 위험이 있습니다.\n\n{0}\n가능하다면 생명을 유지하기 위해 절단을 하거나 감염된 부위를 교체하는 것이 좋습니다.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+  <!-- EN: People are at risk of death because of severe illness:\n{0}\n\nMake sure that they get the best medical care possible. -->
+  <PawnsWithLifeThreateningDiseaseDesc>다음 사람들은 심각한 질병으로 사망의 위험이 있습니다.\n{0}\n\n최대한 많은 의사들이 관심을 가지고 보살필 수 있도록 하세요.</PawnsWithLifeThreateningDiseaseDesc>
+  <!-- EN: People are at risk for death because of severe illness:\n{0}\n\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>다음 사람들은 심각한 질병으로 사망의 위험이 있습니다.\n{0}\n\n가능하다면 생명을 유지하기 위해 절단을 하거나 감염된 부위를 교체하는 것이 좋습니다.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
   <!-- EN: Billiards needs space -->
   <BilliardsNeedsSpace>당구대에 여유 공간 필요</BilliardsNeedsSpace>
@@ -232,25 +232,25 @@
 
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>열사병</AlertHeatstroke>
-  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>다음 정착민이 열사병으로 고통 받고 있습니다.\n\n{0}\n서늘한 곳으로 데려가십시오. 냉각기를 통해 방을 식히거나, 밀폐된 지하 공간을 활용하십시오.</AlertHeatstrokeDesc>
+  <!-- EN: The following people are suffering from heatstroke:\n{0}\n\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>다음 정착민이 열사병을 앓고 있습니다.\n{0}\n\n서늘한 곳으로 데려가세요. 냉방기를 통해 방을 식힐 수 있고, 밀폐된 지하 공간도 시원한 편입니다.</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>불쾌한 방문객</QuestPartMoodBelowThreshold>
-  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>{0} 임무를 완수하려면 방문객의 기분이 좋아야 합니다. 다음 방문객의 기분을 개선하기 위한 적당한 조치를 취하세요.\n\n{1}</QuestPartMoodBelowThresholdDesc>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>{0} 임무를 완수하려면 방문객의 기분이 좋아야 합니다. 다음 방문객의 기분을 개선하기 위한 적당한 조치를 취하세요.\n{1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
   <QuestPartShuttleLeaveDelay>{0} 후 왕복선 출발</QuestPartShuttleLeaveDelay>
-  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>왕복선이 {1} 후 출발합니다. {0} 임무를 수행하려면 출발하기 전에 다음 인물이나 물품을 왕복선으로 옮겨야 합니다.\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>왕복선이 {1} 후 출발합니다. {0} 임무를 수행하려면 출발하기 전에 다음 인물이나 물품을 왕복선으로 옮겨야 합니다.\n{2}</QuestPartShuttleLeaveDelayDesc>
   <!-- EN: The shuttle will leave in {0}. -->
   <QuestPartShuttleLeaveDelayDescHidden>왕복선이 {0} 후 출발합니다.</QuestPartShuttleLeaveDelayDescHidden>
 
   <!-- EN: Shuttle arriving in {0} -->
   <QuestPartShuttleArriveDelay>{0} 후 왕복선 도착</QuestPartShuttleArriveDelay>
-  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleArriveDelayDesc>왕복선이 {1} 후 도착합니다. {0} 임무를 수행하려면 출발하기 전에 다음 인물이나 물품을 왕복선으로 옮겨야 합니다.\n\n{2}</QuestPartShuttleArriveDelayDesc>
+  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
+  <QuestPartShuttleArriveDelayDesc>왕복선이 {1} 후 도착합니다. {0} 임무를 수행하려면 출발하기 전에 다음 인물이나 물품을 왕복선으로 옮겨야 합니다.\n{2}</QuestPartShuttleArriveDelayDesc>
   <!-- EN: A shuttle will arrive in {0}. -->
   <QuestPartShuttleArriveDelayDescHidden>왕복선이 {0} 후 도착합니다.</QuestPartShuttleArriveDelayDescHidden>
 
@@ -299,18 +299,18 @@
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>배회 중인 동물</AlertAnimalIsRoaming>
-  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
-  <AlertAnimalIsRoamingDesc>길들인 동물 일부가 떠돌이 동물로서 지금 배회 중입니다. 배회 중에 지역 경계에 도달하면 지역 밖으로 나갈 것입니다.\n\n완성한 우리가 있으면 조련사가 데려올 것입니다. 우리 안에 가둬놓은 동물은 배회하지 않습니다.\n\n다음 동물이 배회 중입니다.\n\n{0}</AlertAnimalIsRoamingDesc>
+  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n{0} -->
+  <AlertAnimalIsRoamingDesc>길들인 동물 일부가 떠돌이 동물로서 지금 배회 중입니다. 배회 중에 지역 경계에 도달하면 지역 밖으로 나갈 것입니다.\n\n완성한 우리가 있으면 조련사가 데려올 것입니다. 우리 안에 가둬놓은 동물은 배회하지 않습니다.\n\n다음 동물이 배회 중입니다.\n{0}</AlertAnimalIsRoamingDesc>
 
   <!-- EN: Hungry pen animals -->
   <AlertPennedAnimalHungry>우리 안의 동물이 굶주림</AlertPennedAnimalHungry>
-  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
-  <AlertPennedAnimalHungryDesc>우리 안의 동물이 배고픔을 느끼고 있습니다.\n\n우리 표시를 선택하고 먹이 탭을 열어 자세한 정보를 확인하세요.\n\n초식 동물이라면 더 많은 풀을 먹일 수 있는, 더 큰 우리가 필요할 수 있습니다. 다른 동물의 경우 우리 안에 저장 구역을 지정한 후, 건초 등 동물 먹이를 운반해야 할 수도 있습니다.\n\n배고픈 동물:\n\n{0}</AlertPennedAnimalHungryDesc>
+  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n{0} -->
+  <AlertPennedAnimalHungryDesc>우리 안의 동물이 배고픔을 느끼고 있습니다.\n\n우리 표시를 선택하고 먹이 탭을 열어 자세한 정보를 확인하세요.\n\n초식 동물이라면 더 많은 풀을 먹일 수 있는, 더 큰 우리가 필요할 수 있습니다. 다른 동물의 경우 우리 안에 저장 구역을 지정한 후, 건초 등 동물 먹이를 운반해야 할 수도 있습니다.\n\n배고픈 동물:\n{0}</AlertPennedAnimalHungryDesc>
 
   <!-- EN: Hungry hitched animal -->
   <AlertHitchedAnimalHungryNoFood>굶주린 동물</AlertHitchedAnimalHungryNoFood>
-  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n\n{0} -->
-  <AlertHitchedAnimalHungryNoFoodDesc>묶여있는 일부 가축들이 굶주렸습니다. 근처에 적절한 먹이가 없을 수 있습니다.\n\n먹이를 가져다 주거나, 풀어주어 스스로 먹이를 찾을 수 있도록 하세요.\n\n굶주린 가축은 다음과 같습니다.\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
+  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n{0} -->
+  <AlertHitchedAnimalHungryNoFoodDesc>묶여있는 일부 가축들이 굶주렸습니다. 근처에 적절한 먹이가 없을 수 있습니다.\n\n먹이를 가져다 주거나, 풀어주어 스스로 먹이를 찾을 수 있도록 하세요.\n\n굶주린 가축은 다음과 같습니다.\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
   <AlertTimedRaidsArrivingIn>습격 도착까지 {0}</AlertTimedRaidsArrivingIn>
@@ -321,8 +321,8 @@
 
   <!-- EN: Faction will become hostile if you stay -->
   <FactionWillBecomeHostileIfNotLeavingWithin>계속 머무르면 세력이 적대함</FactionWillBecomeHostileIfNotLeavingWithin>
-  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
-  <FactionWillBecomeHostileIfNotLeavingWithinDesc>다음 세력의 정착지나 전초기지에 계속 머무르면 적대하게 됩니다:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n{0} -->
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>다음 세력의 정착지나 전초기지에 계속 머무르면 적대하게 됩니다:\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->
   <AlertMinifiedTreeAboutToDie>나무 {0}그루가 죽어감</AlertMinifiedTreeAboutToDie>

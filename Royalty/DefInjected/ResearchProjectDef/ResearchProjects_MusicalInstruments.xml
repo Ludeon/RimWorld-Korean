@@ -5,15 +5,69 @@
   <Harp.label>하프</Harp.label>
   <!-- EN: Craft the harp, a simple stationary musical instrument popular among nobility in some cultures. -->
   <Harp.description>귀족들에게 사랑받는 간단한 고정식 악기인 하프를 만들 수 있습니다.</Harp.description>
+  <!-- EN:
+    <li>subject->harps</li>
+    <li>subject->simple string instruments</li>
+    <li>subject_story->trained in the school of music</li>
+    <li>subject_story->constructed a harp from common feral world materials</li>
+    <li>subject_story->performed a harp solo for the Imperial nobility</li>
+    <li>subject_story->practiced glissandos every day</li>
+    <li>subject_story->researched the cultural significance of stringed instrument usage</li>
+    <li>subject_gerund->playing the harp</li>
+  -->
+  <Harp.generalRules.rulesStrings>
+    <li>subject->하프</li>
+    <li>subject->간단한 현악기</li>
+    <li>subject_story->음악학교에서 훈련을 받았습니다</li>
+    <li>subject_story->일반적인 야생 세계 재료로 하프를 만들었습니다</li>
+    <li>subject_story->황실 귀족을 위해 하프 독주를 연주했습니다</li>
+    <li>subject_story->매일 글리산도를 연습했습니다</li>
+    <li>subject_story->현악기 사용의 문화적 의미를 연구했습니다</li>
+    <li>subject_gerund->하프 연주</li>
+  </Harp.generalRules.rulesStrings>
   
   <!-- EN: harpsichord -->
   <Harpsichord.label>하프시코드</Harpsichord.label>
   <!-- EN: Craft the harpsichord, a complex stationary musical instrument. -->
   <Harpsichord.description>건반식 악기인 하프시코드를 만들 수 있습니다.</Harpsichord.description>
+  <!-- EN:
+    <li>subject->harpsichord</li>
+    <li>subject_story->led a renaissance in the harpsichord in the coreworld systems</li>
+    <li>subject_story->tuned harpsichords for concert use on Glitterworlds</li>
+    <li>subject_story->took up a role as lead harpischordist for the local philharmonic</li>
+    <li>subject_story->constructed dual-keyboard harpsichords focused on harmonics</li>
+    <li>subject_gerund->playing the harpsichord</li>
+  -->
+  <Harpsichord.generalRules.rulesStrings>
+    <li>subject->하프시코드</li>
+    <li>subject_story->중심계 체계의 하프시코드 르네상스를 주도했습니다</li>
+    <li>subject_story->번화계에서 공연용으로 하프시코드를 조율했습니다</li>
+    <li>subject_story->지역 관현악 수석 하프 연주자를 맡았습니다</li>
+    <li>subject_story->고조파에 초점을 맞춘 이중 건반 하프시코드를 제작했습니다</li>
+    <li>subject_gerund->하프시코드 연주</li>
+  </Harpsichord.generalRules.rulesStrings>
   
   <!-- EN: piano -->
   <Piano.label>피아노</Piano.label>
   <!-- EN: Craft the piano, an advanced stationary musical instrument. -->
   <Piano.description>발전된 건반식 악기인 피아노를  만들 수 있습니다.</Piano.description>
+  <!-- EN:
+    <li>subject->piano</li>
+    <li>subject_story->was acquainted with the entire corpus of stringed instruments</li>
+    <li>subject_story->joined a music academy, where the students learned about composers as much as the piano itself</li>
+    <li>subject_story->transported pianos between the coreworlds</li>
+    <li>subject_story->recorded the techniques of several master pianists</li>
+    <li>subject_story->constructed a strange piano</li>
+    <li>subject_gerund->playing the piano</li>
+  -->
+  <Piano.generalRules.rulesStrings>
+    <li>subject->피아노</li>
+    <li>subject_story->현악기의 전반적인 사항을 전부 알고 있었습니다</li>
+    <li>subject_story->음악 전문학원에 입학한 학생들은 피아노뿐만 아니라 작곡가에 대해서도 배웠습니다</li>
+    <li>subject_story->중심계를 오가며 피아노를 운반했습니다</li>
+    <li>subject_story->숙달한 피아니스트 몇몇의 기교를 기록했습니다</li>
+    <li>subject_story->이상한 피아노를 만들었습니다</li>
+    <li>subject_gerund->피아노 연주</li>
+  </Piano.generalRules.rulesStrings>
   
 </LanguageData>

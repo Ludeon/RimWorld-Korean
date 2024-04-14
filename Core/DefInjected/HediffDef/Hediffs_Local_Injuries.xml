@@ -1,6 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>산성 화상</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>산성 화상입니다.</AcidBurn.description>
+  <!-- EN: tended -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>치료됨</AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>붕대 감음</AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>치료됨</AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>산성 화상 흉터</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>녹아내림</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: Dissolved -->
+  <AcidBurn.injuryProps.destroyedOutLabel>녹아내림</AcidBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>산성 화상</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>{1}의 {0}</AcidBurn.labelNounPretty>
+  
   <!-- EN: bite -->
   <Bite.label>물림</Bite.label>
   <!-- EN: A bite wound. -->
@@ -140,6 +161,38 @@
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>{1}의 {0}</Cut.labelNounPretty>
   
+  <!-- EN: decayed organ -->
+  <Decayed.label>부패한 장기</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>이 장기는 완전히 부패했습니다.</Decayed.description>
+  <!-- EN: Decayed -->
+  <Decayed.injuryProps.destroyedLabel>부패함</Decayed.injuryProps.destroyedLabel>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>부패한 장기</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>부패한 {1}</Decayed.labelNounPretty>
+  
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>전기 화상</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>전기 화상입니다.</ElectricalBurn.description>
+  <!-- EN: tended -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>치료됨</ElectricalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWell>붕대 감음</ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>치료됨</ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>전기 화상 흉터</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>불에 타버림</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>불에 타버림</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>전기 화상 흉터</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>{1}의 {0}</ElectricalBurn.labelNounPretty>
+  
   <!-- EN: cut -->
   <ExecutionCut.label>베임</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
@@ -193,9 +246,9 @@
   <!-- EN: {0} in the {1} -->
   <Gunshot.labelNounPretty>{1}의 {0}</Gunshot.labelNounPretty>
   
-  <!-- EN: misc -->
+  <!-- EN: wound -->
   <Misc.label>부상</Misc.label>
-  <!-- EN: Miscellanous injuries. -->
+  <!-- EN: Miscellaneous injuries. -->
   <Misc.description>부상입니다.</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>접합됨</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>

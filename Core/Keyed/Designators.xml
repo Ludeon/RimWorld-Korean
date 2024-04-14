@@ -53,10 +53,23 @@
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>암석 지대를 지정하여 채굴합니다.</DesignatorMineDesc>
 
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>광맥 채굴</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>채굴할 암석 구역을 지정합니다. 정착지 주민은 동일한 유형의 연결된 암석이 모두 채굴될 때까지 계속해서 채굴합니다.</DesignatorMineVeinDesc>
+
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>표면 다듬기</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>거친 돌바닥과 벽을 다듬어 부드럽게 합니다.</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>벽 다듬기</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>거친 돌벽을 다듬어 부드럽게 합니다.</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>지형 다듬기</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>거친 돌바닥을 다듬어 부드럽게 합니다.</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>계획</DesignatorPlan>
@@ -300,5 +313,10 @@
   <NoColonistWithAllSkillsForConstructing>필요한 기술을 가진 {0}(이)가 없습니다.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>{0} 기술을 가진 정착민이 {1}에 배정되지 않았습니다.</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>두개골 꺼내기</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>시체로부터 두개골을 적출합니다.</DesignatorExtractSkullDesc>
 
 </LanguageData>

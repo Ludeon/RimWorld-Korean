@@ -28,6 +28,10 @@
   <CommandCallRoyalAidWarningNonHostileFactions>제국에 지원을 요청했지만, 일부 적 세력은 {0_name}(와)과 적대적이지 않습니다. 지원 병력은 {1}에 소속된 사람들을 공격하지 않을 것입니다.</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->
   <CommandCallRoyalAidNotEnoughFavor>신임장이 부족합니다.</CommandCallRoyalAidNotEnoughFavor>
+  <!-- EN: {FACTION_name} cannot reach this area. -->
+  <CommandCallRoyalAidMapUnreachable>{FACTION_name}(은) 이곳에 도달할 수 없습니다.</CommandCallRoyalAidMapUnreachable>
+  <!-- EN: Cannot call aid here. -->
+  <CommandCallRoyalAidInvalidMap>이곳으로 지원 요청할 수 없습니다.</CommandCallRoyalAidInvalidMap>
   
   <!-- Call laborers -->
   <!-- EN: Call laborers -->
@@ -54,10 +58,14 @@
   <CommandPsycastPawnIsUnconscious>정신을 잃은 상태입니다.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
   <CommandPsycastLowPsyfocus>이 초능력을 시전하려면 적어도 {0} 초집중이 필요합니다.</CommandPsycastLowPsyfocus>
+  <!-- EN: Psychic insanity immune. -->
+  <CommandPsycastInsanityImmune>정신분열 면역.</CommandPsycastInsanityImmune>
   <!-- EN: H -->
   <NeuralHeatLetter>H</NeuralHeatLetter>
   <!-- EN: P -->
   <PsyfocusLetter>P</PsyfocusLetter>
+  <!-- EN: Psychic insanity immune -->
+  <IneffectivePsychicImmune>정신분열 면역</IneffectivePsychicImmune>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->

@@ -18,8 +18,10 @@
   <MechControllerMentalState>{PAWN_labelShort}(은)는 다음 정신 이상상태에 있습니다: {MENTALSTATE_label}</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>정말로 {0}(을)를 영구적으로 분해 하시겠습니까?\n\n영구적으로 분해하면 얻을 수 있는 자원: {0}</ConfirmDisassemblingMech>
-  <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>메카노이드를 생산하려면 메카나이터가 제작 작업을 수행할 수 있어야 합니다.\n\n정말 계속하시겠습니까?</ConfirmInstallMechlink>
+  <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Smithing>메카노이드를 생산하려면 메카나이터가 제작 작업을 수행할 수 있어야 합니다.\n\n정말 계속하시겠습니까?</ConfirmInstallMechlink_Smithing>
+  <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Intellectual>메카나이터 연구를 수행하려면 메카나이터가 연구 작업을 수행할 수 있어야 합니다.\n\n정말 계속하시겠습니까?</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>대역폭 부족</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->

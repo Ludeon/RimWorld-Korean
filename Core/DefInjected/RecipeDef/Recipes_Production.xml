@@ -3,7 +3,7 @@
   
   <!-- EN: destroy apparel -->
   <DestroyApparel.label>의류 처리</DestroyApparel.label>
-  <!-- EN: Use heat to destroy unwanted apparels. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <!-- EN: Use heat to destroy unwanted apparel. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
   <DestroyApparel.description>강력한 열로 불필요한 의복을 파괴합니다. 제련하는 것보다 빠르며 스킬이 필요하지 않지만, 자원을 얻지 못합니다.</DestroyApparel.description>
   <!-- EN: Destroying apparel. -->
   <DestroyApparel.jobString>의류 처리 중</DestroyApparel.jobString>
@@ -72,6 +72,13 @@
   <SmeltApparel.description>열과 전기를 사용하여 갑옷과 같은 금속 의류를 유용한 자원으로 분해합니다.</SmeltApparel.description>
   <!-- EN: Smelting apparel. -->
   <SmeltApparel.jobString>의류 분해 중</SmeltApparel.jobString>
+  
+  <!-- EN: smelt or destroy thing -->
+  <SmeltOrDestroyThing.label>용해 처리</SmeltOrDestroyThing.label>
+  <!-- EN: Use heat and strong electromagnets to break down metallic things like weapons and armor into useful resources, or destroy them if they are not smeltable. -->
+  <SmeltOrDestroyThing.description>강력한 전자석과 열처리를 통해 무기와 갑옷과 같은 금속물에서 유용한 자원으로 분해하거나, 제련이 불가능한 경우 파괴합니다.</SmeltOrDestroyThing.description>
+  <!-- EN: Smelting/destroying things. -->
+  <SmeltOrDestroyThing.jobString>용해 처리 중</SmeltOrDestroyThing.jobString>
   
   <!-- EN: smelt weapon -->
   <SmeltWeapon.label>무기에서 금속 용해</SmeltWeapon.label>

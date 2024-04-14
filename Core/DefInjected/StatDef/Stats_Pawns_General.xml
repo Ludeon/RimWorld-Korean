@@ -19,20 +19,32 @@
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>손, 입이나 기타 수단으로 옮길 수 있는 물건의 양입니다.\n\n세계화면에서 운반하는 능력과는 관계가 없습니다.</CarryingCapacity.description>
   
-  <!-- EN: Maximum comfortable temperature -->
-  <ComfyTemperatureMax.label>최대 적응 온도</ComfyTemperatureMax.label>
+  <!-- EN: max comfortable temperature -->
+  <ComfyTemperatureMax.label>최대 적정 온도</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>이 온도보다 덥다면 불쾌해집니다. 더 뜨거워지면 열사병으로 죽을 수 있습니다.</ComfyTemperatureMax.description>
   
-  <!-- EN: Minimum comfortable temperature -->
-  <ComfyTemperatureMin.label>최소 적응 온도</ComfyTemperatureMin.label>
+  <!-- EN: min comfortable temperature -->
+  <ComfyTemperatureMin.label>최소 적정 온도</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>이 온도보다 춥다면 불쾌해집니다. 더 차가워지면 저체온증으로 죽을 수 있습니다.</ComfyTemperatureMin.description>
+  
+  <!-- EN: crawl speed -->
+  <CrawlSpeed.label>기어가는 속도</CrawlSpeed.label>
+  <!-- EN: Speed of crawling in cells per second. -->
+  <CrawlSpeed.description>1초에 몇 칸을 기어갈 수 있는지에 대한 값입니다.</CrawlSpeed.description>
+  <!-- EN: {0} c/s -->
+  <CrawlSpeed.formatString>{0}칸 / 초</CrawlSpeed.formatString>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>섭취 속도</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>음식을 섭취하는 속도에 곱해지는 계수입니다.</EatingSpeed.description>
+  
+  <!-- EN: EMP resistance -->
+  <EMPResistance.label>EMP 저항력</EMPResistance.label>
+  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
+  <EMPResistance.description>이 메카노이드는 전자기 펄스 피해를 완화하는 특수 차폐 처리가 되어있고 충격 분산 필라멘트가 설치돼 있습니다. EMP로 말미암은 기절 시간이 이 수치만큼 감소합니다.</EMPResistance.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>오물 생산량</FilthRate.label>
@@ -58,6 +70,11 @@
   <InjuryHealingFactor.label>부상 회복 속도</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
   <InjuryHealingFactor.description>부상 회복 속도를 나타냅니다.</InjuryHealingFactor.description>
+  
+  <!-- EN: recreation fall rate -->
+  <JoyFallRateFactor.label>재미 하락률</JoyFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
+  <JoyFallRateFactor.description>사람의 재미 욕구 충족도가 떨어지는 속도에 대한 계수입니다.</JoyFallRateFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>가죽량</LeatherAmount.label>

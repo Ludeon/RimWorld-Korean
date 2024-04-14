@@ -15,8 +15,8 @@
   
   <!-- EN: filth multiplier -->
   <FilthMultiplier.label>오물 수치</FilthMultiplier.label>
-  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. -->
-  <FilthMultiplier.description>표면이 얼마나 더러워지기 쉬운지를 표시합니다. 이 값이 100% 미만일 경우 여기에 쌓이는 오물 중 일부는 즉시 사라집니다.</FilthMultiplier.description>
+  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
+  <FilthMultiplier.description>표면이 얼마나 더러워지기 쉬운지를 표시합니다. 이 값이 100% 미만일 경우 여기에 쌓이는 오물 중 일부는 즉시 사라집니다. 생물의 오물에만 적용됩니다.</FilthMultiplier.description>
   
   <!-- EN: medical potency -->
   <MedicalPotency.label>약효</MedicalPotency.label>
@@ -36,6 +36,23 @@
   <MeditationFocusStrength.formatString>{0} / 일</MeditationFocusStrength.formatString>
   <!-- EN: {0} / day -->
   <MeditationFocusStrength.formatStringUnfinalized>{0} / 일</MeditationFocusStrength.formatStringUnfinalized>
+  
+  <!-- EN: neural heat limit offset -->
+  <PsychicEntropyMaxOffset.label>신경열 한계 영향</PsychicEntropyMaxOffset.label>
+  <!-- EN: An offset applied to the user's neural heat limit. -->
+  <PsychicEntropyMaxOffset.description>사용자의 신경열 한계에 적용되는 오프셋입니다.</PsychicEntropyMaxOffset.description>
+  
+  <!-- EN: neural heat recovery rate offset -->
+  <PsychicEntropyRecoveryRateOffset.label>신경열 회복속도 영향</PsychicEntropyRecoveryRateOffset.label>
+  <!-- EN: An offset applied to the user's neural heat recovery rate. -->
+  <PsychicEntropyRecoveryRateOffset.description>사용자의 신경열 회복력에 적용되는 오프셋입니다.</PsychicEntropyRecoveryRateOffset.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRateOffset.formatString>{0} / 초</PsychicEntropyRecoveryRateOffset.formatString>
+  
+  <!-- EN: psychic sensitivity factor -->
+  <PsychicSensitivityFactor.label>정신 감응력</PsychicSensitivityFactor.label>
+  <!-- EN: A factor applied to the user's psychic sensitivity. -->
+  <PsychicSensitivityFactor.description>사용자의 정신 감응력에 적용되는 값입니다.</PsychicSensitivityFactor.description>
   
   <!-- EN: psychic sensitivity offset -->
   <PsychicSensitivityOffset.label>정신 감응력</PsychicSensitivityOffset.label>

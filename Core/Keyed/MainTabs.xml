@@ -44,8 +44,6 @@
   <WorkDisabledByQuest>'{0}' 임무로 인해 비활성</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>복장 관리</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>교체 불가</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,12 +54,16 @@
   <ApparelLockedLower>잠김</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>강제된 의복</ForcedApparel>
-  <!-- EN: Edit... -->
+  <!-- EN: Edit -->
   <AssignTabEdit>수정</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>복장 정책 관리</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>약물 정책 관리</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>식량 정책 관리</ManageFoodRestrictions>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>식량 정책 관리</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>독서 정책 관리</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -198,14 +200,22 @@
   <InProgress>연구 중</InProgress>
   <!-- EN: Locked -->
   <Locked>연구 불가</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>필요한 선행연구</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>전제 조건</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>기술청사진 필요 ({0} / {1})</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>기술청사진 부족 ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>요구조건이 충족되지 않음</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>활성화 된 프로젝트가 없습니다.</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>프로젝트 활성화</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>프로젝트 활성화</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>연구 중지</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>필요한 연구시설 누락</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>{0}시대 수준의 기술로 {1}시대 수준의 연구를 진행할 경우 {2}의 연구 속도가 적용됩니다.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>잠금 해제</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>이 프로젝트의 전제 조건 중 하나 이상을 조사하여 발견하세요.</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>알려지지 않음</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,22 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>필요 생성</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>기본값 변경...</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>클릭해서 편집</ClickToEdit>
-
+  <!-- EN: Assign -->
+  <AssignButton>할당</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>할당 취소</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>정신이상 가능성</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>재미 획득 계수</BookJoyFactor>
+  
 </LanguageData>

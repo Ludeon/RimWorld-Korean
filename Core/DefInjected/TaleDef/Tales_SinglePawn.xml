@@ -361,6 +361,37 @@
     <li>desc_sentence->머리카락이 완전히 엉망인 [PAWN_possessive] 모습이 보입니다.</li>
   </MentalStateGaveUp.rulePack.rulesStrings>
   
+  <!-- EN: read a book -->
+  <ReadBook.label>책 읽는 중</ReadBook.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
+    <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] turning the pages of [THING_title], absorbing the knowledge within [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] placing [THING_title] back on the shelf, a sense of accomplishment radiating from [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting in quiet contemplation, reflecting on the profound truths within [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->while relaxing in [PAWN_possessive] favorite reading nook</li>
+    <li>circumstance_phrase->with a cup of tea by [PAWN_possessive] side</li>
+    <li>circumstance_phrase->under the soft glow of a reading lamp</li>
+    <li>desc_sentence->[PAWN_nameDef] is surrounded by [PAWN_possessive] notes on [THING_title].</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes sparkle with newfound wisdom.</li>
+    <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
+    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
+  -->
+  <ReadBook.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [THING_title] 완독</li>
+    <li>image->[PAWN_nameFull](이)가 [THING_title](을)를 마무리 하고, 만족스러운 미소로 [PAWN_possessive] 얼굴 [circumstance_group](을)를 우아하게 표현합니다.</li>
+    <li>image->[PAWN_nameFull](은)는 [THING_title]의 책장을 넘기며 [circumstance_group] 내의 지식을 익힙니다</li>
+    <li>image->[PAWN_nameFull](은)는 [THING_title](을)를 다시 책장에 집어넣었고, [circumstance_group]의 뿜어져 나오는 성취감을 맛보았습니다</li>
+    <li>image->[PAWN_nameFull](은)는 조용히 명상하며, [THING_title] [circumstance_group]의 심오한 진실을 되새겨 보았습니다</li>
+    <li>circumstance_phrase->[PAWN_pronoun](이)가 가장 좋아하는 독서 공간에서 휴식을 취하는 동안</li>
+    <li>circumstance_phrase->[PAWN_possessive] 옆에 차 한잔을 함께 두고</li>
+    <li>circumstance_phrase->은은한 독서등 불빛 아래</li>
+    <li>desc_sentence->[PAWN_nameDef]는 [THING_title]와 관련된 [PAWN_possessive] 메모에 둘러싸여 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef]의 눈은 새로 발견한 지혜에 반짝입니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [THING_title]의 가르침 때문에 완전히 변했습니다.</li>
+    <li>desc_sentence->일부 비밀은 아직 밝혀지지 않았습니다.</li>
+  </ReadBook.rulePack.rulesStrings>
+  
   <!-- EN: struck mineable -->
   <StruckMineable.label>광물 발견</StruckMineable.label>
   <!-- EN:

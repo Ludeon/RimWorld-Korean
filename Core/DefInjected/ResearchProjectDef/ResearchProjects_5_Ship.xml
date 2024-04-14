@@ -9,30 +9,124 @@
   <ShipBasics.discoveredLetterText>이 행성에서 탈출하면 마침내 자유를 얻게 됩니다. 어쩌면 집으로 돌아갈 수 있을지도 모릅니다.\n\n하지만 탈출은 엄청나게 위험하기도 합니다.\n\n구상 메뉴에 새롭게 함선 범주가 열렸습니다. 적절한 연구를 완료하면 여기서 함선 부품들을 건설할 수 있습니다. 우주선을 발사하려면 원자로를 포함해 다양한 부품이 필요합니다.\n\n우주선 원자로는 충전하는 데 15일이 걸리는데, 충전을 시작하면 수천 킬로미터 떨어진 곳에서도 감지할 수 있는 에너지 신호를 방출하며 이 행성을 떠나고 싶은 사람은 한두 명이 아닙니다. 지금까지 겪지 못했던 세기의 습격이 계속 몰려올 것입니다. 메카노이드 또한 알려지지 않은 이유로 이런 에너지 신호에 이끌린다고 알려져 있습니다.\n\n우주선의 원자로를 활성화하기 전에는 아무것도 시작하지 않지만, 한번 시작하면 맹렬합니다. 살아서 탈출하려면 무차별 습격에 대비해 자원과 무기, 방어를 완비해야 합니다.</ShipBasics.discoveredLetterText>
   <!-- EN: About: Launching the ship -->
   <ShipBasics.discoveredLetterTitle>우주선 발사에 대해</ShipBasics.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->starship structural engineering</li>
+    <li>subject_story->recruited starship engineers for a glitterworld fleet</li>
+    <li>subject_story->was a structural designer in an urbworld skyripper district</li>
+    <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
+    <li>subject_gerund->constructing starship structures</li>
+  -->
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->우주선 구조 공학</li>
+    <li>subject_story->번화계 함대를 위해 우주선 기술자를 모집했습니다</li>
+    <li>subject_story->도시계 하늘첨탑의 구조 설계자였습니다</li>
+    <li>subject_story->죽음의 세계 잔해 속에서 난파선들을 수확했습니다</li>
+    <li>subject_gerund->우주선 골격 건설</li>
+  </ShipBasics.generalRules.rulesStrings>
   
   <!-- EN: machine persuasion -->
   <ShipComputerCore.label>기계 설득</ShipComputerCore.label>
   <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
   <ShipComputerCore.description>인공자아 핵을 설득할 수 있는 보상 신호 시스템을 설계하여 우주선의 선장으로 삼습니다. 사람들은 동면한 채로 성간 여행에 참여하므로, 장기간의 항해에 요구되는 복잡한 결정을 처리하기 위해서는 인공자아 핵이 필요합니다.</ShipComputerCore.description>
+  <!-- EN:
+    <li>subject->persona core incentivization</li>
+    <li>subject->starship AI sanity maintenance</li>
+    <li>subject_story->regained control of an aberrant ship's core with careful reconditioning</li>
+    <li>subject_story->set up colony-management simulations to occupy the ship's core during the many years of interstellar travel</li>
+    <li>subject_story->kept a ship's core company during a 'short' interstellar trip, learning much about cores in the process</li>
+    <li>subject_gerund->incentivizing persona cores</li>
+    <li>subject_gerund->maintaining starship AI sanity</li>
+    <li>subject_gerund->constructing reward-signal systems</li>
+  -->
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->인공자아 핵 보상</li>
+    <li>subject->우주선 AI 무결성 관리</li>
+    <li>subject_story->세심한 재조정을 통해 이상 함선의 핵심 통제권을 되찾았습니다</li>
+    <li>subject_story->수년간의 성간 여행 동안 우주선의 지휘부를 차지하기 위해 식민지 관리 시뮬레이션을 설정합니다</li>
+    <li>subject_story->'짧은' 성간 여행 동안 선박의 중추적인 회사를 유지하면서, 그 과정에서 핵심 사항에 대해 많은 것을 배웠습니다</li>
+    <li>subject_gerund->인공자아 핵 보상 시스템 설계</li>
+    <li>subject_gerund->우주선 AI의 인격 관리</li>
+    <li>subject_gerund->보상 신호 시스템 제작</li>
+  </ShipComputerCore.generalRules.rulesStrings>
   
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>진공 동면관</ShipCryptosleep.label>
   <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
   <ShipCryptosleep.description>별들 사이를 오가는 데는 오랜 시간이 걸리기 때문에, 진공에 노출되어도 끄떡없는 동면 캡슐이 필요합니다.</ShipCryptosleep.description>
+  <!-- EN:
+    <li>subject->starship-grade cryptosleep caskets</li>
+    <li>subject_story->replaced the failed cryptosleep caskets on the CMC Celeste, so the old generation ship could be used again</li>
+    <li>subject_story->was accidentally ejected in deep space, surviving in a self-designed casket for two months</li>
+    <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
+    <li>subject_gerund->constructing hardened cryptosleep caskets</li>
+  -->
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->우주선 동면관 등급</li>
+    <li>subject_story->CMC 셀레스트의 고장난 동면관을 교체하여 구세대 선박을 다시 사용할 수 있게 되었습니다</li>
+    <li>subject_story->실수해서 우주 너머로 방출되었지만, 스스로 설계한 관에서 두 달 동안 살아남았습니다</li>
+    <li>subject_story->행성급 장비와 우주선급 장비의 차이점을 강의했습니다</li>
+    <li>subject_gerund->강화 동면관 건설</li>
+  </ShipCryptosleep.generalRules.rulesStrings>
   
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>존슨-타나카 추진기</ShipEngine.label>
   <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
   <ShipEngine.description>우주선에 사용할 존슨-다나카 추진기를 설계합니다. JT 추진기는 양자 스케일 효과를 사용하여 우주선을 먼 별까지 이동시키는 데 필요한 추진력을 얻습니다. 물론 다른 모든 우주선과 마찬가지로 목적지에 도달하려면 엄청나게 많은 시간이 걸릴 것입니다.</ShipEngine.description>
+  <!-- EN:
+    <li>subject->Johnson-Tanaka theory</li>
+    <li>subject->exotic momentum transfer</li>
+    <li>subject_story->lectured in the university on Johnson, Tanaka and quantum-scale effects</li>
+    <li>subject_story->constructed a Johnson-Tanaka drive from first principles for a thesis</li>
+    <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
+    <li>subject_gerund->constructing starship drives</li>
+  -->
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->존슨-타나카 이론</li>
+    <li>subject->이색적인 추진력의 전달</li>
+    <li>subject_story->타나카 - 존슨의 양자 규모 역학에 대해 대학에서 강의했습니다</li>
+    <li>subject_story->논문의 첫 번째 원칙을 바탕으로 타나카 - 존슨 드라이브를 구축했습니다</li>
+    <li>subject_story->여러 별들 사이를 항해할 때, 존슨 타나카 드라이브를 이십년동안 관리했습니다</li>
+    <li>subject_gerund->우주선 추진기 건설</li>
+  </ShipEngine.generalRules.rulesStrings>
   
   <!-- EN: starship reactor -->
   <ShipReactor.label>우주선 반응로</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
   <ShipReactor.description>우주선에 동력을 공급하기 위한 반응로를 설계합니다. 원자로 가동은 오래 걸리며 습격자들을 불러 모읍니다.</ShipReactor.description>
+  <!-- EN:
+    <li>subject->starship nuclear reactor</li>
+    <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
+    <li>subject_story->defended the ship whilst the reactor span up, against raiders desperate to get off-world</li>
+    <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
+    <li>subject_gerund->constructing starship reactors</li>
+  -->
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->우주선 핵반응로</li>
+    <li>subject_story->정착지의 우주선을 위해 새 반응로를 지었지만, 끝내 함선이 날아오르는 모습을 보진 못했습니다</li>
+    <li>subject_story->반응로에 시동을 거는 중, 행성을 떠나고자 하는 적들의 습격을 지켜내었습니다</li>
+    <li>subject_story->행성의 만년설 아래에 묻혀있는 유전자은행의 예비 전력으로 우주선 원자로를 가동했습니다</li>
+    <li>subject_gerund->우주선 반응로 건설</li>
+  </ShipReactor.generalRules.rulesStrings>
   
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>우주항행 센서</ShipSensorCluster.label>
   <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
   <ShipSensorCluster.description>우주선용 장거리 센서를 설계합니다. 센서는 항해, 통신, 위협 회피에 필수적입니다.</ShipSensorCluster.description>
+  <!-- EN:
+    <li>subject->interstellar navigation</li>
+    <li>subject_story->used prototype starship sensors to detect an incoming extinction-level asteroid and evacuate the planet</li>
+    <li>subject_story->was employed as navigator and cook on a Glitterworld star-yacht</li>
+    <li>subject_story->refined the design of long-range sensors, improving their utility</li>
+    <li>subject_gerund->navigating interstellar space</li>
+    <li>subject_gerund->constructing starship sensors</li>
+  -->
+  <ShipSensorCluster.generalRules.rulesStrings>
+    <li>subject->성간 항행</li>
+    <li>subject_story->다가오는 파멸 수준의 소행성을 감지하고, 행성 전체를 대피시키기 위해 초기형 우주선 센서를 사용했습니다</li>
+    <li>subject_story->번화계 우주 쾌속선의 항해사 겸 요리사로 일했습니다</li>
+    <li>subject_story->장거리 감지기의 설계를 개선하여 유용성을 향상시켰습니다</li>
+    <li>subject_gerund->우주 항행</li>
+    <li>subject_gerund->우주선 센서 건설</li>
+  </ShipSensorCluster.generalRules.rulesStrings>
   
 </LanguageData>

@@ -48,8 +48,14 @@
   <TabFormingCaravan>상단</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>내용물</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>여행</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>내용물</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>상세</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>연구</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>자동 제초</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>붙여넣기</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>더는 추가할 수 없음</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>완료</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,10 +112,10 @@
   <NotWhileAsleep>잠든 동안에는 없음</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>지금 탈옥 중</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
-  <FactorForDoorCount>출입문의 수로 인한 계수</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
-  <FactorForMovement>이동 능력으로 인한 계수</FactorForMovement>
+  <!-- EN: Door count -->
+  <FactorForDoorCount>문 개수</FactorForDoorCount>
+  <!-- EN: Movement -->
+  <FactorForMovement>이동 능력</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>노예 가치</SlavePrice>
   <!-- EN: The base market value of this slave if sold. -->
@@ -136,8 +144,8 @@
   <NonRecruitable>확고한 충성심</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>이 수감자는 소속 세력에 너무 확고한 충성심을 갖고 있어서 포섭할 수 없습니다.</NonRecruitableTip>
-  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>충성심이 사상까지 이어지므로 교화도 불가능합니다.</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>이 수감자에게 줄 수 있는 약품의 종류입니다.</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +221,19 @@
   <PainFactor>고통</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>감염 방지</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>자가 치료</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>자가 치료 허용</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>자가 치료가 활성화된 {0}(은)는 자기 자신을 일반 효율의 {1}로 그 자리에서 바로 치료합니다.</SelfTendTip>
+  <AllowSelfTendTip>자가 치료가 활성화된 {0}(은)는 자기 자신을 일반 효율의 {1}로 그 자리에서 바로 치료합니다.</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>{0} 후 사망</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>약품 허용</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>이 사람에게 줄 수 있는 약품의 종류입니다.</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>이 사람에게 줄 수 있는 음식의 종류입니다.</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>없음</None>
@@ -268,7 +282,7 @@
   <Lent>{FACTION_name}에 빌려준 {1}(이)가 돌아옴</Lent>
   <!-- EN: Missing -->
   <Missing>실종</Missing>
-  <!-- EN: Slave -->
+  <!-- EN: slave -->
   <Slave>노예</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>세력 지도자</FactionLeader>
@@ -422,5 +436,17 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>식물 자동 제초</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>연구 진행률</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>진행 중</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>완료됨</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>연구 전환</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>아직 발견된 내용이 없음</StudyNotesTab_NoDiscoveries>
 
 </LanguageData>

@@ -11,9 +11,9 @@
   <!-- EN: A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed. -->
   <Apparel_ArmorCataphractPhoenix.description>근위대 갑옷의 변형으로, 소이탄 발사기가 내장되어 있습니다. 일반 근위대 갑옷보다는 약간 방호력이 떨어지지만, 불에 훨씬 강합니다. 발사할 수 있는 소이탄의 수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n불사조 갑옷은 제한된 실내 작전에서 적들로 가득 찬 공간을 정리하는데 특화되었습니다. 적의 화력에 노출된 복도를 정면돌파하면서, 화염으로 방을 쓸어버리고, 연기 속에서 상처 없이 빠져나올 수 있습니다.</Apparel_ArmorCataphractPhoenix.description>
   <!-- EN: incendiary -->
-  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>소이탄</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.chargeNoun>소이탄</Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>
+  <Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: launch incendiary -->
   <Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>소이탄 발사</Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>
   
@@ -42,9 +42,9 @@
   <!-- EN: A variant of recon armor with an integrated burst rocket for short-ranged flight. Locust armor is slightly less protective than standard recon armor. Each jump consumes a burst of fuel, so the armor must be reloaded after several uses.\n\nUnlike most ultratech military units, locusts train primarily with melee weapons. They usually avoid static shootouts, preferring to jump straight into enemy fortifications and fight hand-to-hand. They do poorly in static defense or confined quarters, but excel in mixed cover or shipcracking operations. -->
   <Apparel_ArmorLocust.description>정찰대 갑옷의 변형으로, 단거리 도약이 가능한 점프팩이 기본 내장되어 있습니다. 일반 정찰대 갑옷보다는 약간 방호력이 떨어집니다. 도약 횟수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n도약 갑옷은 근접무기와 잘 어울리며, 점프팩을 활용하여 적의 방어선을 우회하고 백병전을 유도할 수 있습니다. 이 전략은 거점 방어전이나 좁은 전장에서는 사용하기 어렵지만, 함선 탈취나 임기응변에 강합니다.</Apparel_ArmorLocust.description>
   <!-- EN: jump -->
-  <Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>도약</Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorLocust.comps.CompApparelReloadable.chargeNoun>도약</Apparel_ArmorLocust.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>
+  <Apparel_ArmorLocust.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorLocust.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: jump -->
   <Apparel_ArmorLocust.verbs.jump.label>도약</Apparel_ArmorLocust.verbs.jump.label>
   
@@ -53,9 +53,9 @@
   <!-- EN: A variant of marine armor with an integrated frag launcher on the shoulder. The armor is slightly less protective than standard marine armor. The launcher can only hold a limited amount of ammo and must be reloaded after use.\n\nGrenadiers usually specialize in breaching buildings or internal ship bulkheads. While not effective at very long range, grenadiers can be surprisingly deadly in confined quarters. -->
   <Apparel_ArmorMarineGrenadier.description>해병 갑옷의 변형으로, 유탄 발사기가 내장되어 있습니다. 일반 해병 갑옷보다는 약간 방호력이 떨어집니다. 발사할 수 있는 유탄의 수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n척탄 갑옷은 건물이나 함선 내부 격벽을 파괴하는 데 특화되어 있습니다. 원거리 전투에서는 효율이 떨어지지만, 제한된 구역에서는 치명적입니다.</Apparel_ArmorMarineGrenadier.description>
   <!-- EN: grenade -->
-  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>수류탄</Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.chargeNoun>수류탄</Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>
+  <Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: launch frag grenade -->
   <Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>유탄 발사</Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>
   

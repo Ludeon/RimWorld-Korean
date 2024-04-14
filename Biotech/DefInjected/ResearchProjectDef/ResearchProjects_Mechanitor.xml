@@ -5,25 +5,105 @@
   <BasicMechtech.label>기초 기계공학</BasicMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control basic-tier mechanoids. -->
   <BasicMechtech.description>메카나이터가 기초적인 수준의 메카노이드를 배양하고 제어하는 데 필요한 기술입니다.</BasicMechtech.description>
+  <!-- EN:
+    <li>subject->mechanoids</li>
+    <li>subject_story->authored a children's book covering the basic types of mechanoid</li>
+    <li>subject_story->was implanted with a prototype mechlink</li>
+    <li>subject_story->replicated basic biomech techniques independently</li>
+    <li>subject_story->was mining an ancient exostrider wreck and found a mechlink preserved in the wreckage</li>
+    <li>subject_gerund->creating basic mechanoids</li>
+  -->
+  <BasicMechtech.generalRules.rulesStrings>
+    <li>subject->메카노이드</li>
+    <li>subject_story->메카노이드 기본 유형을 다룬 아동용 책을 저술했습니다</li>
+    <li>subject_story->메크링크 시제품을 이식했습니다</li>
+    <li>subject_story->기초 생체공학 기술을 독립적으로 복제했습니다</li>
+    <li>subject_story->고대 엑소스트라이더 잔해를 채굴하던 중 보존된 메크링크를 발굴했습니다</li>
+    <li>subject_gerund->기본 메카노이드 생산</li>
+  </BasicMechtech.generalRules.rulesStrings>
   
   <!-- EN: high mechtech -->
   <HighMechtech.label>첨단 기계공학</HighMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control high-tier mechanoids.\n\nYou can get powerfocus chips by using a mechanitor to summon a war queen threat. -->
   <HighMechtech.description>메카나이터가 높은 단계의 메카노이드를 만들고 제어하는 데 필요한 기술입니다.\n\n동력집중 칩은 메카나이터로 워 퀸을 호출해서 얻을 수 있습니다.</HighMechtech.description>
+  <!-- EN:
+    <li>subject->high tier mechanoids</li>
+    <li>subject_story->survived a War Queen assault on an Imperial world</li>
+    <li>subject_story->bought a Powerfocus chip from a trader who didn't understand its worth</li>
+    <li>subject_story->interrogated mechanitors captured in planetary raids</li>
+    <li>subject_story->built prototype mechanoid micro-organs for an offworld client</li>
+    <li>subject_gerund->creating high-tier mechanoids</li>
+  -->
+  <HighMechtech.generalRules.rulesStrings>
+    <li>subject->고급 메카노이드</li>
+    <li>subject_story->제국계에서 받은 워퀸의 공격에서 살아남았습니다</li>
+    <li>subject_story->가치를 이해하지 못한 거래자로부터 동력집중 칩을 구매했습니다</li>
+    <li>subject_story->행성 습격에서 포획한 메카나이터를 심문했습니다</li>
+    <li>subject_story->우주를 떠도는 고객들을 위한 초소형 기계장기의 시제품을 만들었습니다</li>
+    <li>subject_gerund->고급 메카노이드 생산</li>
+  </HighMechtech.generalRules.rulesStrings>
   
   <!-- EN: standard mechtech -->
   <StandardMechtech.label>기본 기계공학</StandardMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control standard-tier mechanoids.\n\nYou can get signal chips by using a mechanitor to summon a diabolus threat. -->
   <StandardMechtech.description>메카나이터가 표준 등급 메카노이드를 만들고 제어하는 데 필요한 기술입니다.\n\n신호 칩은 메카나이터로 디아볼루스를 호출해서 얻을 수 있습니다.</StandardMechtech.description>
+  <!-- EN:
+    <li>subject->mechanoids</li>
+    <li>subject_story->acquired a signal chip in shady circumstances</li>
+    <li>subject_story->found an intact signal chip in a diabolus wreck</li>
+    <li>subject_story->survived a mechanoid hive assault</li>
+    <li>subject_story->collated reports of mechanoid attacks, looking for commonalities</li>
+    <li>subject_gerund->creating standard mechanoids</li>
+  -->
+  <StandardMechtech.generalRules.rulesStrings>
+    <li>subject->메카노이드</li>
+    <li>subject_story->뒤가 구린 방법으로 신호칩을 얻었습니다</li>
+    <li>subject_story->디아볼루스의 잔해에서 멀쩡한 신호칩을 찾았습니다</li>
+    <li>subject_story->메카노이드 군락의 습격에서 살아남았습니다</li>
+    <li>subject_story->메카노이드 습격들에 대한 보고들을 수집하며 공통점을 찾으려 했습니다</li>
+    <li>subject_gerund->표준 메카노이드 생산</li>
+  </StandardMechtech.generalRules.rulesStrings>
   
   <!-- EN: ultra mechtech -->
   <UltraMechtech.label>최첨단 기계공학</UltraMechtech.label>
   <!-- EN: The advanced technology needed for your mechanitor to create and control ultra-tier mechanoids, including large mechs and ultra-tier mechanitor gear.\n\nYou can get nano structuring chips by using a mechanitor to summon an apocriton threat. -->
   <UltraMechtech.description>메카나이터가 대형 메카노이드와 최상급 메카나이터 장비를 포함한 최상급 메카노이드를 만들고 제어하는 데 필요한 기술입니다.\n\n나노 구조화 칩은 메카나이터로 아포크리톤을 호출해 얻을 수 있습니다.</UltraMechtech.description>
+  <!-- EN:
+    <li>subject->ultra-tier mechanoids</li>
+    <li>subject_story->found a powered-down apocriton in the wreckage of a deadworld</li>
+    <li>subject_story->observed an apocriton resurrecting mechs from a safe distance</li>
+    <li>subject_story->tapped into the deep psychic hatred that the apocritons feel towards humanity</li>
+    <li>subject_story->found an ascension diary next to an inert archonexus</li>
+    <li>subject_gerund->creating ultra-tier mechanoids</li>
+  -->
+  <UltraMechtech.generalRules.rulesStrings>
+    <li>subject->초고급 메카노이드</li>
+    <li>subject_story->죽음계의 잔해 속에서 동력이 꺼진 아포크리톤을 찾았습니다</li>
+    <li>subject_story->안전한 거리에서 아포크리톤이 메카노이드들을 되살리는걸 관찰했습니다</li>
+    <li>subject_story->아포크리톤이 가진 인류에 대한 깊은 증오를 감지했습니다</li>
+    <li>subject_story->비활성화된 초월연결체 옆에서 초월 일기를 찾았습니다</li>
+    <li>subject_gerund->초고급 메카노이드 생산</li>
+  </UltraMechtech.generalRules.rulesStrings>
   
   <!-- EN: wastepack atomizer -->
   <WastepackAtomizer.label>폐기물 원자분해기</WastepackAtomizer.label>
   <!-- EN: Build wastepack atomizers which can safely dispose of toxic wastepacks by decomposing them at the molecular level. -->
   <WastepackAtomizer.description>독성 폐기물을 분자 수준에서 분해하여 안전하게 제거할 수 있는 원자분해기를 건설합니다.</WastepackAtomizer.description>
+  <!-- EN:
+    <li>subject->toxic waste atomization</li>
+    <li>subject_story->studied safe atomic waste disposal</li>
+    <li>subject_story->recruited disposable teams for solar waste disposal missions</li>
+    <li>subject_story->devised the theory for atomic destabilisation from first principles</li>
+    <li>subject_story->observed a toxicworld from orbit</li>
+    <li>subject_gerund->constructing wastepack atomizers</li>
+  -->
+  <WastepackAtomizer.generalRules.rulesStrings>
+    <li>subject->유독성 폐기물 분해기</li>
+    <li>subject_story->핵 폐기물의 안전한 처리방법에 대해 연구했습니다</li>
+    <li>subject_story->항성폐기물 처리 임무에 나갈 일회성 팀들을 고용했습니다</li>
+    <li>subject_story->첫번째 원칙으로부터 원자 불안정화에 대한 이론을 만들었습니다</li>
+    <li>subject_story->궤도에서 독성계 행성을 관찰했습니다</li>
+    <li>subject_gerund->폐기물 원자분해기 건설</li>
+  </WastepackAtomizer.generalRules.rulesStrings>
   
 </LanguageData>

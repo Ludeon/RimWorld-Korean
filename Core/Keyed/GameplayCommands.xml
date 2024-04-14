@@ -109,11 +109,6 @@
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
 
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>이름 변경</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>구역의 이름을 변경합니다.</CommandRenameZoneDesc>
-
   <!-- EN: Hide -->
   <CommandHideZoneLabel>숨기기</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>재배구역 생성</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>자동 재장전</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>활성화된 경우 이 함정이 사용되었을 때 자동으로 재장전 지시가 내려집니다.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>자동 재건설</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>켜져 있으면 {BUILDING_determine}(이)가 폭발한 후 자동으로 교체됩니다.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -293,7 +294,7 @@
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>조정</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>TODO</CommandSelectMineralToScanForDesc>
+  <CommandSelectMineralToScanForDesc>검색할 광물 유형을 선택하세요.</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -316,7 +317,17 @@
   <CommandReformCaravanDesc>이동할 준비를 합니다. 상단원들은 현재 지역을 벗어나 다음 명령을 기다립니다.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>이 지역에 아직 적이 남아있습니다.</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>상단 보내기</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>상단 보내기...</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>선택한 정착지에서 도달 가능한 상단을 해당 목적지로 보냅니다.</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>당신의 정착지에서 해당 위치로 갈 수 있는 경로가 없습니다.</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>분할</CommandSplitCaravan>
@@ -505,7 +516,7 @@
   <!-- EN: Rest -->
   <CommandPauseCaravan>휴식</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>휴식을 취합니다. 다음과 같은 이점이 있습니다:\n\n  - 사교활동 가능함\n  - 식량 채집 속도 {0} 향상\n  - 식별률에 {1}를 곱한 값</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>휴식을 취합니다. 다음과 같은 이점이 있습니다:\n\n  - 사교활동 가능함\n  - 식량 채집 속도 {0} 향상\n  - 식별률에 {1}를 곱함 (식별률 저하)</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
@@ -631,6 +642,8 @@
   <UnlinkStorageSettingsDesc>다른 건물과의 보관 설정 연결을 끊습니다.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>연결된 보관 설정</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1개의 건물</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0}개 건물</NumBuildings>
   <!-- EN: Stores -->
@@ -642,5 +655,15 @@
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort}(은)는 의식이 없습니다.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>연구 전환</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>소장이 자동으로 연구할지 여부를 결정합니다. 금지된 것은 결코 연구하지 않습니다.</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>여분이 없습니다.</CommandNoUsesLeft>
   
 </LanguageData>

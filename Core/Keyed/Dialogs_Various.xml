@@ -201,6 +201,10 @@
   <LastName>성</LastName>
   <!-- EN: suggested -->
   <Suggested>제안</Suggested>
+  
+  <!-- Choose new wanderers -->
+  <!-- EN: Choose new wanderers -->
+  <ChooseNewWanderers>새 방랑자 선택</ChooseNewWanderers>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -289,8 +293,8 @@
   <CountingProducts>집계 물품</CountingProducts>
   <!-- EN: Infinite -->
   <Infinite>무한</Infinite>
-  <!-- EN: Allowed {0} skill: -->
-  <AllowedSkillRange>허용된 {0} 기술:</AllowedSkillRange>
+  <!-- EN: Allowed {0} skill -->
+  <AllowedSkillRange>허용된 {0} 기술</AllowedSkillRange>
   <!-- EN: incompatible -->
   <IncompatibleLower>호환 되지 않음</IncompatibleLower>
   <!-- EN: Any worker -->
@@ -321,7 +325,7 @@
   <PauseWhenSatisfied>수량 만족시 일시정지</PauseWhenSatisfied>
   <!-- EN: Unpause at -->
   <UnpauseWhenYouHave>작업 재개 수량</UnpauseWhenYouHave>
-  <!-- EN: Paused -->
+  <!-- EN: paused -->
   <Paused>일시중지</Paused>
   <!-- EN: Unpause -->
   <Unpause>재개</Unpause>
@@ -336,6 +340,12 @@
   <IncludeFromAll>모든 저장구역 포함</IncludeFromAll>
   <!-- EN: Look in {0} -->
   <IncludeSpecific>{0}만 포함</IncludeSpecific>
+  <!-- EN: Stockpiles -->
+  <StockpilePlural>저장구역</StockpilePlural>
+  <!-- EN: Shelves -->
+  <ShelfPlural>선반</ShelfPlural>
+  <!-- EN: Groups -->
+  <GroupPlural>그룹</GroupPlural>
   
   <!-- Info card -->
   <!-- EN: Damage -->
@@ -402,8 +412,8 @@
   <MinGrowthTemperature>최소 성장 온도</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>최대 성장 온도</MaxGrowthTemperature>
-  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>이 항목은 식물이 자라는데 필요한 순수한 시간을 나타냅니다. 식물은 빛이 충분할 때만 성장하므로, 실제로는 이것의 두 배 가량의 시간이 필요할 것입니다. 적정 온도를 벗어난다면 더욱 많은 시간이 필요합니다.</GrowingTimeDesc>
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\n\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
+  <GrowingTimeDesc>식물은 낮 시간에 빛이 충분할 때만 성장합니다.\n\n이 항목은 식물이 다 자라는데 필요한 순수한 시간을 나타냅니다.\n\n실제 성장에 필요한 시간은 보통 이것의 두 배 가량 필요합니다.\n낮은 온도도 식물의 성장을 늦춥니다.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>일</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -516,6 +526,8 @@
   <PerDay>{0} / 일</PerDay>
   <!-- EN: {0} / hour -->
   <PerHour>{0} / 시간</PerHour>
+  <!-- EN: {0} XP / hour -->
+  <XpPerHour>시간 당 {0} XP</XpPerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>짐꾼</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -598,6 +610,8 @@
   <MeditationFocusEnabledByAdulthood>성년기</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
   <MeditationFocusEnabledByTrait>특성</MeditationFocusEnabledByTrait>
+  <!-- EN: has health condition -->
+  <MeditationFocusEnabledByHediff>건강상에 문제가 있음</MeditationFocusEnabledByHediff> 
   <!-- EN: does not have trait -->
   <MeditationFocusDisabledByTrait>특성 없음</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
@@ -699,6 +713,14 @@
   <!-- EN: Creatures -->
   <PawnsTabShort>동물</PawnsTabShort>
   
+  <!-- Select caravan settlement -->
+  <!-- EN: Select colony to send caravan -->
+  <SelectCaravanOrigin>상단을 보낼 정착지 선택</SelectCaravanOrigin> 
+  <!-- EN: Send a caravan from {0}. -->
+  <SelectCaravanDesc>{0}에서 상단을 보냅니다.</SelectCaravanDesc> 
+  <!-- EN: Colonists -->
+  <SelectCaravanColonists>정착민</SelectCaravanColonists>
+  
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>상단 구성</FormCaravan>
@@ -731,7 +753,7 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>상단의 물품과 정착민들의 현재 장비들을 포함합니다. 최대 적재량보다 적으면 이동속도가 추가로 증가합니다.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>식별률은 상단이 얼마나 눈에 잘 띄는지를 보여줍니다.\n\n상단이 적들에게 습격 될 확률을 증가시킵니다.\n\n원하는 것을 찾는 능력에는 영향이 없습니다.\n\n식별률은 상단의 모든 사람과 동물의 전체 신체 크기에 좌우됩니다.</CaravanVisibilityTip>
+  <CaravanVisibilityTip>식별률은 상단이 얼마나 눈에 잘 띄는지를 보여줍니다.\n\n상단이 적들에게 습격 될 확률을 증가시킵니다.\n\n원하는 것을 찾는 능력에는 영향이 없습니다.\n\n식별률은 상단의 모든 사람과 동물의 신체 크기 총합에 좌우됩니다.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>식량 소진까지</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
@@ -739,7 +761,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>식량 떨어질 일 없음</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>적어도 한 사람이나 동물이 음식을 모두 소진하기까지 걸리는 대략적인 시간으로, 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주리게 됩니다. 종마다 식단이 다르므로 일부 종이 먼저 음식이 부족할 수 있습니다. 이 값은 경로를 선택한 뒤에 더 정확하게 계산됩니다.\n\n영향받는 대상:\n  - 운반되는 음식 종류와 양\n  - 상단 구성원과 식성\n  - 식량 채집비율\n  - 동물의 방목 가능성\n  - 음식 부패시간\n  - 날씨가 더울수록 빨리 상함</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>적어도 한 사람이나 동물이 음식을 모두 소진하기까지 걸리는 대략적인 시간으로, 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주리게 됩니다. 인종과 동물마다 식단이 다르므로 일부 종이 먼저 음식이 부족할 수 있습니다. 이 값은 경로를 선택한 뒤에 더 정확하게 계산됩니다.\n\n영향 요소:\n  - 운반하는 음식의 종류와 양\n  - 상단 구성원과 식성\n  - 식량 채집 비율\n  - 동물의 방목 가능성\n  - 음식의 소비기한\n  - 날씨가 더울수록 빨리 상함</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(첫번째 경유지만 고려됨)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -894,6 +916,8 @@
   <ResearchFinished>연구 완료: {0}</ResearchFinished>
   <!-- EN: Research Screen -->
   <ResearchScreen>연구 화면</ResearchScreen>
+  <!-- EN: By researching {0} you have discovered the {1} research project. -->
+  <ResearchUnknownProjectRevealed>{0}(을)를 연구하여 {1} 연구 과제를 발견했습니다.</ResearchUnknownProjectRevealed>
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
@@ -909,41 +933,53 @@
   <!-- EN: Do not upload this time, ask me later -->
   <HistoryUploadNoOnce>나중에</HistoryUploadNoOnce>
   
+  <!-- Policies -->
+  <!-- EN: Available policies -->
+  <AvailablePolicies>가능한 정책</AvailablePolicies>
+  <!-- EN: Unnamed -->
+  <UnnamedPolicy>이름 없음</UnnamedPolicy>
+  <!-- EN: New... -->
+  <NewPolicy>생성...</NewPolicy>
+  <!-- EN: Invalid policy name -->
+  <InvalidName>올바르지 않은 정책 이름</InvalidName>
+  <!-- EN: Delete the selected policy. -->
+  <DeletePolicyTip>선택한 정책을 삭제합니다.</DeletePolicyTip>
+  <!-- EN: Create a duplicate of the selected policy. -->
+  <DuplicatePolicyTip>선택한 정책을 복사합니다.</DuplicatePolicyTip>
+  <!-- EN: Rename this policy. -->
+  <RenamePolicyTip>정책의 이름을 변경합니다.</RenamePolicyTip>
+  <!-- EN: Are you sure you want to delete the policy: {0}? -->
+  <DeletePolicyConfirm>{0} 정책을 삭제하시겠습니까?</DeletePolicyConfirm>
+  <!-- EN: Delete -->
+  <DeletePolicyConfirmButton>제거</DeletePolicyConfirmButton>
+  <!-- EN: No policy selected -->
+  <NoPolicySelected>정책 선택되지 않음</NoPolicySelected>
+  
   <!-- Outfit management -->
-  <!-- EN: Outfit -->
-  <Outfit>복장</Outfit>
-  <!-- EN: Select outfit... -->
-  <SelectOutfit>복장 선택</SelectOutfit>
-  <!-- EN: New outfit -->
-  <NewOutfit>새 복장</NewOutfit>
-  <!-- EN: Delete outfit... -->
-  <DeleteOutfit>복장 삭제</DeleteOutfit>
-  <!-- EN: Outfit is in use by {0}. -->
-  <OutfitInUse>복장이 {0}에 의해 사용 중</OutfitInUse>
-  <!-- EN: No outfit selected -->
-  <NoOutfitSelected>복장 선택되지 않음</NoOutfitSelected>
+  <!-- EN: Apparel policies -->
+  <ApparelPolicyTitle>복장 정책</ApparelPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
+  <ApparelPolicyTip>정착지 구성원의 복장을 제어하는 규칙을 생성하고 관리합니다.</ApparelPolicyTip>
+  <!-- EN: Apparel policy -->
+  <ApparelPolicy>복장 정책</ApparelPolicy>
+  <!-- EN: Apparel policy is in use by {0}. -->
+  <OutfitInUse>{0}(이)가 복장 정책을 사용 중입니다.</OutfitInUse>
   
   <!-- Drug policy management -->
+  <!-- EN: Drug policies -->
+  <DrugPolicyTitle>약물 정책</DrugPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
+  <DrugPolicyTip>정착지 구성원이 섭취할 수 있는 약물을 제어하는 규칙을 생성하고 관리합니다.</DrugPolicyTip>
   <!-- EN: Drug policy -->
   <DrugPolicy>약물 정책</DrugPolicy>
-  <!-- EN: Select policy... -->
-  <SelectDrugPolicy>정책 선택</SelectDrugPolicy>
-  <!-- EN: New policy -->
-  <NewDrugPolicy>새 정책</NewDrugPolicy>
-  <!-- EN: Delete policy... -->
-  <DeleteDrugPolicy>정책 삭제</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>{0}(이)가 정책에 따라 약물 복용 중</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>{0}(이)가 정책에 따라 음식 섭취 중</FoodRestrictionInUse>
-  <!-- EN: No drug policy selected -->
-  <NoDrugPolicySelected>약물 정책 없음</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
   <AddDrug>약물 추가</AddDrug>
   <!-- EN: Drug -->
   <DrugColumnLabel>약물</DrugColumnLabel>
-  <!-- EN: Usage -->
-  <DrugUsageColumnLabel>용도</DrugUsageColumnLabel>
   <!-- EN: Frequency -->
   <FrequencyColumnLabel>빈도</FrequencyColumnLabel>
   <!-- EN: Only if mood below -->
@@ -966,8 +1002,6 @@
   <DeleteDrugTooltip>이 약물을 삭제합니다.</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
   <DrugNameColumnDesc>약물의 이름입니다.</DrugNameColumnDesc>
-  <!-- EN: How the drug is allowed to be used. -->
-  <DrugUsageColumnDesc>약물 사용 방법입니다.</DrugUsageColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
   <FrequencyColumnDesc>약물 사용 빈도입니다.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
@@ -984,10 +1018,14 @@
   <DrugUsageTipScheduled>시간 엄수\n\n조건을 만족할 경우 지정된 일정에 따라 사용합니다.</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
-  <!-- EN: Food restriction -->
-  <FoodRestriction>식량 정책</FoodRestriction>
-  <!-- EN: Food -->
-  <FoodRestrictionShort>음식</FoodRestrictionShort>
+  <!-- EN: Food policies -->
+  <FoodPolicyTitle>식량 정책</FoodPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
+  <FoodPolicyTip>정착지 구성원이 섭취할 수 있는 식량을 제어하는 규칙을 생성하고 관리합니다.</FoodPolicyTip>
+  <!-- EN: Food policy -->
+  <FoodPolicy>식량 정책</FoodPolicy>
+  <!-- EN: Allow food -->
+  <AllowFood>식량 허용</AllowFood>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>호화로운 식사</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -1000,33 +1038,77 @@
   <FoodRestrictionRaw>생식</FoodRestrictionRaw>
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>없음</FoodRestrictionNothing>
-  <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>식량 정책 선택</SelectFoodRestriction>
-  <!-- EN: New food restriction -->
-  <NewFoodRestriction>새로운 식량 정책</NewFoodRestriction>
-  <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>식량 정책 삭제</DeleteFoodRestriction>
-  <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>선택된 식량 정책 없음</NoFoodRestrictionSelected>
+  
+  <!-- Reading management -->
+  <!-- EN: Reading policies -->
+  <ReadingPolicyTitle>독서 정책</ReadingPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
+  <ReadingPolicyTip>정착지 구성원이 읽을 수 있는 서적을 제어하는 규칙을 생성하고 관리합니다.</ReadingPolicyTip>
+  <!-- EN: Reading policy -->
+  <ReadingPolicy>독서 정책</ReadingPolicy>
+  <!-- EN: Reading policy is in use. -->
+  <ReadingPolicyInUse>독서 정책이 사용 중입니다.</ReadingPolicyInUse>
+
+  <!-- EN: Anything -->
+  <AllReadingPolicy>전체</AllReadingPolicy>
+  <!-- EN: None -->
+  <NoneReadingPolicy>없음</NoneReadingPolicy>
+  <!-- EN: Textbooks -->
+  <TextbookPolicy>교재</TextbookPolicy>
+  <!-- EN: Schematics -->
+  <SchematicPolicy>설계도</SchematicPolicy>
+  <!-- EN: Novels -->
+  <NovelPolicy>소설</NovelPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>기본 약품 설정</DefaultMedicineSettings>
+  <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
+  <DefaultMedicineSettingsDesc>그룹에 해당하는 생물이 합류할 경우, 기본으로 아래의 설정이 할당됩니다. 이후 각 개체의 건강 탭에서 직접 설정을 변경할 수 있습니다.\n\n참고: 해당 생물이 다른 그룹으로 이동할 경우, 이전에 수동으로 설정한 값이 있더라도 무시하고 그 그룹에 해당하는 정책으로 재설정됩니다.</DefaultMedicineSettingsDesc>
+  
   <!-- EN: Defaults -->
   <MedGroupDefaults>기본</MedGroupDefaults>
-  <!-- EN: Colonist -->
-  <MedGroupColonist>정착민</MedGroupColonist>
-  <!-- EN: Imprisoned colonist -->
-  <MedGroupImprisonedColonist>수감된 정착민</MedGroupImprisonedColonist>
-  <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>정착지 동물</MedGroupColonyAnimal>
-  <!-- EN: Neutral animal -->
-  <MedGroupNeutralAnimal>야생 동물</MedGroupNeutralAnimal>
-  <!-- EN: Neutral faction -->
-  <MedGroupNeutralFaction>중립 세력</MedGroupNeutralFaction>
-  <!-- EN: Hostile faction -->
-  <MedGroupHostileFaction>적대 세력</MedGroupHostileFaction>
   
+  <!-- EN: Colonists -->
+  <MedGroupColonists>정착민</MedGroupColonists>
+  <!-- EN: Free members of your colony -->
+  <MedGroupColonistsDesc>정착지의 자유 구성원</MedGroupColonistsDesc>
+  
+  <!-- EN: Prisoners -->
+  <MedGroupPrisoners>수감자들</MedGroupPrisoners>
+  <!-- EN: Prisoners in your colony, regardless of faction. -->
+  <MedGroupPrisonersDesc>세력에 상관 없이, 정착지의 수감자입니다.</MedGroupPrisonersDesc>
+
+  <!-- EN: Tamed animals -->
+  <MedGroupTamedAnimals>길들인 동물</MedGroupTamedAnimals>
+  <!-- EN: Animals which have been tamed by your colony. -->
+  <MedGroupTamedAnimalsDesc>정착지에서 길들인 동물입니다.</MedGroupTamedAnimalsDesc>
+
+  <!-- EN: Friendly faction members -->
+  <MedGroupFriendlyFaction>우호 세력 구성원</MedGroupFriendlyFaction>
+  <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
+  <MedGroupFriendlyFactionDesc>정착지에 우호적(우호도 75 이상)인 세력에 속하는 인간 또는 동물입니다.</MedGroupFriendlyFactionDesc>
+  
+  <!-- EN: Neutral faction members -->
+  <MedGroupNeutralFaction>중립 세력 구성원</MedGroupNeutralFaction>
+  <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
+  <MedGroupNeutralFactionDesc>정착지에 중립적(우호도 -75 ~ 75 사이)인 세력에 속하는 인간 또는 동물입니다.</MedGroupNeutralFactionDesc>
+
+  <!-- EN: Hostile faction members -->
+  <MedGroupHostileFaction>적대 세력 구성원</MedGroupHostileFaction>
+  <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
+  <MedGroupHostileFactionDesc>정착지에 적대적(우호도 -75 이하)인 세력에 속하는 인간 또는 동물입니다.</MedGroupHostileFactionDesc>
+
+  <!-- EN: Other humans -->
+  <MedGroupNoFaction>기타 인간</MedGroupNoFaction>
+  <!-- EN: Humans who are not members of any faction. -->
+  <MedGroupNoFactionDesc>어떤 세력에도 속하지 않은 인간입니다.</MedGroupNoFactionDesc>
+  
+  <!-- EN: Wildlife -->
+  <MedGroupWildlife>야생동물</MedGroupWildlife>
+  <!-- EN: Animals and other creatures which are not members of any faction. -->
+  <MedGroupWildlifeDesc>어떤 세력에도 속하지 않은 동물 따위의 생물입니다.</MedGroupWildlifeDesc>
+
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
   <NoGrowerCanPlant>{0}의 재배에는 최소 {1}의 재배 기술이 필요합니다.\n\n해당 기술을 가진 농부가 아무도 없으므로 식물이 심어지지 않을 것입니다.</NoGrowerCanPlant>
@@ -1122,6 +1204,8 @@
   <AbilityCantApplyDowned>{0_labelShort}(은)는 쓰러졌습니다.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>사용할 수 없음: {0}(은)는 무성애입니다.</AbilityCantApplyOnAsexual>
+  <!-- EN: {PAWN_labelShort} has no healable injuries. -->
+  <AbilityCannotCastNoHealableInjury>{PAWN_labelShort}에게는 치유 가능한 부상이 없습니다.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort}에 대한 {0_labelShort}의 성별이 잘못되었습니다.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1321,5 +1405,19 @@
   <ToggleDarklightOnDesc>조명의 색을 암광 조명색으로 바꿉니다.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>색온도로 조명의 색을 선택합니다. 참고: 조명의 색만 바뀌고 발산하는 열은 바뀌지 않습니다.</ColorTemperatureTooltip>
+
+  <!-- EN: {0_labelShort} is psychically deaf. -->
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort}(은)는 정신적으로 무감각합니다.</CannotShootPawnIsPsychicallyDeaf>
+
+  <!-- EN: Search the current map. -->
+  <SearchTheMap>현재 지역을 검색합니다.</SearchTheMap>
+  <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
+  <SearchTheMapDesc>현재 지역의 물품, 건물, 사람, 동물, 식물 등을 검색합니다.</SearchTheMapDesc>
+  <!-- EN: {0} results found -->
+  <MapSearchResults>{0}개 발견</MapSearchResults>
+  <!-- EN: 1 result found -->
+  <MapSearchResultSingular>1개 발견</MapSearchResultSingular>
+  <!-- EN: Searching -->
+  <Searching>검색 중</Searching>
 
 </LanguageData>

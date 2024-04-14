@@ -4,9 +4,11 @@
   <!-- EN: chitchat -->
   <Chitchat.label>잡담</Chitchat.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [subject] to [RECIPIENT_nameDef].</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
     <li>talkedabout(p=4)->chatted about</li>
     <li>talkedabout->shared a word about</li>
     <li>talkedabout->spoke about</li>
@@ -21,21 +23,21 @@
     <li>commentedabout->told a joke about</li>
   -->
   <Chitchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [TalkTopicLight][talkedabout] 나눔.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [TalkTopicLight][talkedabout] [RECIPIENT_nameDef](와)과 나눔.</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [TalkTopicLight][commentedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [subject][talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [subject][talkedabout].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [subject][commentedabout].</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
     <li>talkedabout(p=4)->에 대한 잡담을</li>
-    <li>talkedabout->에 대해 한마디씩</li>
-    <li>talkedabout->에 대한 이야기를</li>
+    <li>talkedabout->에 대해 한마디씩 함</li>
+    <li>talkedabout->에 대한 이야기를 함</li>
     <li>talkedabout->에 대한 잡담을</li>
-    <li>talkedabout->에 대한 대화를</li>
+    <li>talkedabout->에 대한 대화를 함</li>
     <li>talkedabout->에 대한 농담을</li>
     <li>talkedabout->에 대한 실없는 말을</li>
     <li>commentedabout->에 대해 말함</li>
     <li>commentedabout->에 대해 한마디 함</li>
     <li>commentedabout->에 대한 자신의 의견을 냄</li>
-    <li>commentedabout->에 대한 주장을 펼침</li>
-    <li>commentedabout->에 대한 농담을 함</li>
   </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
@@ -53,7 +55,8 @@
     <li>talkedabout->talked quietly about</li>
     <li>talkedabout->talked deeply about</li>
     <li>talkedabout->connected on the topic of</li>
-    <li>subject->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [subject][talkedabout].</li>
@@ -68,15 +71,20 @@
     <li>talkedabout->에 대해 조심스럽게 대화를 나눔</li>
     <li>talkedabout->에 대해 심도있는 대화를 나눔</li>
     <li>talkedabout->에 대해 주제를 관통하는 대화를 나눔</li>
-    <li>subject->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
   <Insult.label>모욕</Insult.label>
   <!-- EN:
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [target] [insultcomparison].</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] the golden cube.</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
     <li>insulted(p=3)->insulted</li>
@@ -89,13 +97,21 @@
     <li>insulted->slandered</li>
     <li>insulted->hurled invective about</li>
     <li>insulted->derided</li>
-    <li>insultcomparison(p=2)->[Animal]</li>
-    <li>insultcomparison->[Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->a [Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->a [Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a sphere</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->something totally pointless</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef](이)가 [target]의 [PersonalCharacteristic](을)를 [insulted].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef](이)가 [target]의 [characteristic](을)를 [insulted].</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [target](을)를 [insultcomparison](와)과 비교함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [target](을)를 [insultcomparison](이)라 부르며 모욕함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [target](을)를 [insultcomparison](이)라 부르며 모욕함.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef](이)가 [target](을)를 거짓된 우상 숭배자라고 함.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef](이)가 [target]의 정신이 황금 큐브에 오염된 것 아닌지 의문을 표시함.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef](이)가 황금 큐브를 [insulted].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef]의 [PersonFamily]</li>
     <li>insulted(p=3)->모욕함</li>
@@ -105,17 +121,14 @@
     <li>insulted->직접 모욕함</li>
     <li>insulted->악랄하게 모욕함</li>
     <li>insulted->심하게 경멸함</li>
-    <li>insulted->중상 모략함</li>
-    <li>insulted->욕설함</li>
-    <li>insulted->비웃음</li>
-    <li>insultcomparison(p=2)->[Animal]</li>
-    <li>insultcomparison->[Enemy]</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
   <KindWords.label>다정한 말</KindWords.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>complimented(p=3)->complimented</li>
     <li>complimented->praised</li>
     <li>complimented->commended</li>
@@ -131,7 +144,9 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]의 [PersonalCharacteristic][complimented].</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]의 [characteristic][complimented].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>complimented(p=3)->(을)를 칭찬함</li>
     <li>complimented->(을)를 치켜세움</li>
     <li>complimented->(을)를 보고 엄지를 치켜세움</li>
@@ -143,14 +158,14 @@
     <li>complimented->(을)를 보고 좋은 말로 표현해줌</li>
     <li>complimented->(을)를 좋은 단어로 표현해줌</li>
     <li>complimented->(을)를 보고 립서비스 해줌</li>
-    <li>complimented->(을)를 보고 인상깊게 감상을 표함</li>
-    <li>complimented->(을)를 보고 좋은 느낌을 받았다고 전함</li>
   </KindWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: slight -->
   <Slight.label>무시</Slight.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
     <li>madefunof->made fun of</li>
@@ -167,7 +182,9 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [target]의 [PersonalCharacteristic](을)를 [madefunof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [target]의 [characteristic](을)를 [madefunof].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef]의 [PersonFamily]</li>
     <li>madefunof->놀림</li>
@@ -180,8 +197,6 @@
     <li>madefunof->실소함</li>
     <li>madefunof->트집잡음</li>
     <li>madefunof->경시함</li>
-    <li>madefunof->경멸함</li>
-    <li>madefunof->비꼼</li>
   </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>

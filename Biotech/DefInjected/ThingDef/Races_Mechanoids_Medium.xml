@@ -1,21 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: apocriton -->
-  <Mech_Apocriton.label>아포크리톤</Mech_Apocriton.label>
-  <!-- EN: A mechanoid commander designed to coordinate and motivate other mechs during long extermination campaigns. Its most obvious power is its ability to resurrect recently-killed mechs by supercharging their self-repair processes. Less obviously, it is intelligent and psychically present, radiating hatred into the minds of anyone in a wide radius. It can also move quickly with its built-in jump launcher.\n\nWhile all mechanoids have a dim psychically-present intelligence, only the apocriton and a few others truly feel hatred for their victims and understand the suffering they inflict. -->
-  <Mech_Apocriton.description>기나긴 박멸 작전 동안 다른 메카노이드를 조정하고 동기를 부여하도록 설계된 메카노이드 사령관입니다. 가장 강력한 능력은 자가 수리 기능으로 최근에 죽은 메카노이드를 원격으로 부활시키는 능력입니다. 지적이고 정신이 존재하며, 넓은 반경에 있는 모든 사람의 마음에 영향을 미치는 다소 약한 증오를 발산합니다. 또한 내장된 도약 추진기로 빠르게 움직일 수 있습니다.\n\n모든 메카노이드는 정신적으로 미약한 지능을 가지고 있지만, 아포크리톤과 소수의 다른 개체만이 그들의 희생자들에게 진정으로 증오를 느끼고, 그들에게 가하는 고통을 이해합니다.</Mech_Apocriton.description>
-  <!-- EN: head -->
-  <Mech_Apocriton.tools.head.label>둔기</Mech_Apocriton.tools.head.label>
-  
   <!-- EN: legionary -->
   <Mech_Legionary.label>리저너리</Mech_Legionary.label>
   <!-- EN: A combat support mechanoid with a wide-range bullet shield and mid-range needle gun. Designed to support other mechanoids, the legionary is vulnerable to anyone who can get inside its shield. -->
   <Mech_Legionary.description>넓은 범위의 보호막과 바늘총을 갖춘 중거리 전투용 메카노이드입니다. 다른 메카노이드를 지원하도록 설계되었기에, 보호막 안으로 접근할 수 있는 모든 적들에게 취약합니다.</Mech_Legionary.description>
   <!-- EN: left fist -->
   <Mech_Legionary.tools.left_fist.label>왼쪽 주먹</Mech_Legionary.tools.left_fist.label>
+  <!-- EN: fist -->
+  <Mech_Legionary.tools.left_fist.labelNoLocation>주먹</Mech_Legionary.tools.left_fist.labelNoLocation>
   <!-- EN: right fist -->
   <Mech_Legionary.tools.right_fist.label>오른쪽 주먹</Mech_Legionary.tools.right_fist.label>
+  <!-- EN: fist -->
+  <Mech_Legionary.tools.right_fist.labelNoLocation>주먹</Mech_Legionary.tools.right_fist.labelNoLocation>
   <!-- EN: head -->
   <Mech_Legionary.tools.head.label>둔기</Mech_Legionary.tools.head.label>
   
@@ -25,8 +22,12 @@
   <Mech_Scorcher.description>화염 공격에 특화된 근거리 전투용 메카노이드입니다. 화염 방사 공격은 사거리가 짧지만, 일단 목표에 접근만 한다면 강렬한 화염 폭발로 불지르며 교란시킬 수 있습니다.</Mech_Scorcher.description>
   <!-- EN: front left leg -->
   <Mech_Scorcher.tools.front_left_leg.label>왼쪽 앞다리</Mech_Scorcher.tools.front_left_leg.label>
+  <!-- EN: leg -->
+  <Mech_Scorcher.tools.front_left_leg.labelNoLocation>다리</Mech_Scorcher.tools.front_left_leg.labelNoLocation>
   <!-- EN: front right leg -->
   <Mech_Scorcher.tools.front_right_leg.label>오른쪽 앞다리</Mech_Scorcher.tools.front_right_leg.label>
+  <!-- EN: leg -->
+  <Mech_Scorcher.tools.front_right_leg.labelNoLocation>다리</Mech_Scorcher.tools.front_right_leg.labelNoLocation>
   <!-- EN: head -->
   <Mech_Scorcher.tools.head.label>머리</Mech_Scorcher.tools.head.label>
   
@@ -36,8 +37,12 @@
   <Mech_Tesseron.description>중거리 전투용 메카노이드입니다. 모든 공격에 상당히 취약하지만, 전방으로 발사되는 감마선 빔 공격은 두꺼운 갑옷을 뚫을 수 있으며 보호막이 있는 대상도 불태울 수 있습니다.</Mech_Tesseron.description>
   <!-- EN: left fist -->
   <Mech_Tesseron.tools.left_fist.label>왼쪽 주먹</Mech_Tesseron.tools.left_fist.label>
+  <!-- EN: fist -->
+  <Mech_Tesseron.tools.left_fist.labelNoLocation>주먹</Mech_Tesseron.tools.left_fist.labelNoLocation>
   <!-- EN: right fist -->
   <Mech_Tesseron.tools.right_fist.label>오른쪽 주먹</Mech_Tesseron.tools.right_fist.label>
+  <!-- EN: fist -->
+  <Mech_Tesseron.tools.right_fist.labelNoLocation>주먹</Mech_Tesseron.tools.right_fist.labelNoLocation>
   <!-- EN: head -->
   <Mech_Tesseron.tools.head.label>머리</Mech_Tesseron.tools.head.label>
   

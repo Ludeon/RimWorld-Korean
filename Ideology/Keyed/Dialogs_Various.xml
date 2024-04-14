@@ -88,6 +88,8 @@
   <ChooseRoleHint>정착지가 자리를 잡을 때까지는 지위를 할당하지 않는 것이 더 좋을 수도 있습니다.</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>필요한 가르침</UnlockedByMeme>
+  <!-- EN: Origin -->
+  <Origin>출신지</Origin>
   <!-- EN: Unlocked roles -->
   <MemeUnlocksRoles>사용 가능한 지위</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
@@ -113,6 +115,8 @@
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort}(이)가 {ROLE_labelDef}임</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>{TRAIT} 특성</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: Precept {PRECEPT} -->
+  <AbilityIdeoConvertBreakdownPercept>{PRECEPT} 규율</AbilityIdeoConvertBreakdownPercept>
   <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>지역에 {RELICCOUNT}개의 유물 설치함</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
@@ -148,7 +152,7 @@
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
   <ReformIdeoRelicHuntQuestEnd>이 사상을 개혁하게 되면 유물 {0}(을)를 정착민들이 더 이상 숭배하지 않습니다. 이 유물을 찾기 위한 임무 '{0}'(이)가 비활성 됩니다.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
-  <ReformIdeoCancelRituals>진행 중인 행사 {0}이(가) 취소됩니다.</ReformIdeoCancelRituals>
+  <ReformIdeoCancelRituals>진행 중인 행사 {0}(이)가 취소됩니다.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
   <ReformIdeoContinue>계속하시겠습니까?</ReformIdeoContinue>
 
@@ -248,8 +252,10 @@
   <ReLoadShuttle>다시 선택</ReLoadShuttle>
 
   <!-- Medical settings -->
-  <!-- EN: Enslaved colonist -->
-  <MedGroupEnslavedColonist>노예가 된 정착민</MedGroupEnslavedColonist>
+  <!-- EN: Slaves -->
+  <MedGroupSlaves>노예</MedGroupSlaves>
+  <!-- EN: Enslaved members of your colony. -->
+  <MedGroupSlavesDesc>정착지의 노예가 된 구성원입니다.</MedGroupSlavesDesc>
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->

@@ -67,16 +67,16 @@
     <li>manhuntingBeastIndef(animalCount==1)->a (*Threat)manhunting [animalKind_label](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat)</li>
     <li>endSection->[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->The [animalKind_labelPlural] were hunting a nearby trader.</li>
-    <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans.[endSection]</li>
+    <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->The [animalKind_label] was harassing caravans from [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->The [animalKind_labelPlural] were harassing caravans from [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to (*Threat)a manhunting [animalKind_label](/Threat). [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to (*Threat)a manhunting [animalKind_label](/Threat). [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->This is the [animalKind_label] that killed the scout of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat). [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat). [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These are the [animalKind_labelPlural] that killed the scouting party of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
@@ -85,16 +85,16 @@
     <li>manhuntingBeastIndef(animalCount==1)->(*Threat)식인 [animalKind_label](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->(*Threat)[animalCount]마리의 식인 [animalKind_labelPlural](/Threat) 무리</li>
     <li>endSection->[helpersParagraph] 수락을 하면 [manhuntersDelayTicks_duration]이 지난 후 [map_definite]에 [animalKindLabelCorrect](이)가 도착합니다.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->근처에서 상인에게 연락이 왔습니다. 한 (*Threat)야생 [animalKind_label](/Threat)에게 쫓기고 있답니다! 그는 이 짐승에게 벗어나고 싶어합니다.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->(*Threat)야생 [animalKind_label](/Threat)에게 쫓기고 있는 한 상인에게 호출받았습니다! 이 짐승들로부터 벗어나고 싶어합니다. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label](이)가 근처에서 상인을 쫓고 있습니다.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->근처에서 상인에게 연락이 왔습니다. (*Threat)[animalCount]마리의 야생 [animalKind_labelPlural](/Threat)에게 쫓기고 있답니다! 그는 이 동물들에게 벗어나고 싶어합니다.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->(*Threat)[animalCount] 마리의 야생 [animalKind_labelPlural](/Threat)에게 쫓기고 있는 한 상인에게 호출받았습니다! 이 짐승들로부터 벗어나고 싶어합니다. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural](이)가 근처에서 상인을 쫓고 있습니다.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 상단이 [manhuntingBeastIndef]에게 시달리고 있습니다. [asker_faction_leaderTitle] [asker_nameFull](은)는 이 짐승들로부터 벗어나고 싶어합니다.[endSection]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 상단이 [manhuntingBeastIndef]에게 시달리고 있습니다. [asker_faction_leaderTitle] [asker_nameFull](은)는 이 짐승들로부터 벗어나고 싶어합니다. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label](이)가 [asker_faction_name]의 상단을 쫓고 있습니다.</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural](이)가 [asker_faction_name]의 상단을 쫓고 있습니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 최근에 (*Threat)식인 [animalKind_label](/Threat)에게 정찰병을 잃었습니다. [asker_possessive] 명예를 지키기 위해 짐승을 당신쪽으로 보내 죽이려고 합니다.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 최근에 (*Threat)식인 [animalKind_label](/Threat)에게 정찰병을 잃었습니다. [asker_possessive] 명예를 지키기 위해 짐승을 당신쪽으로 보내 죽이려고 합니다. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull]의 정찰병을 죽인 [animalKind_label] 입니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 최근에 (*Threat)[animalCount]마리의 식인 [animalKind_labelPlural](/Threat) 무리들에게 정찰조를 잃었습니다. [asker_possessive] 명예를 지키기 위해 짐승을 당신쪽으로 보내 죽이려고 합니다.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 최근에 (*Threat)[animalCount]마리의 식인 [animalKind_labelPlural](/Threat) 무리들에게 정찰조를 잃었습니다. [asker_possessive] 명예를 지키기 위해 짐승을 당신쪽으로 보내 죽이려고 합니다. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull]의 정찰조를 죽인 [animalKind_labelPlural] 입니다.</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:

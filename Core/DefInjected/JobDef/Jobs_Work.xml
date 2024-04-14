@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: Analyzing TargetA. -->
+  <AnalyzeItem.reportString>TargetA 분석 중</AnalyzeItem.reportString>
+  
   <!-- EN: arresting TargetA. -->
   <Arrest.reportString>TargetA 체포 중</Arrest.reportString>
   
@@ -15,6 +18,9 @@
   
   <!-- EN: carrying TargetA. -->
   <CarryDownedPawnToExit.reportString>TargetA 옮기는 중</CarryDownedPawnToExit.reportString>
+  
+  <!-- EN: carrying TargetA. -->
+  <CarryDownedPawnToPortal.reportString>TargetA 옮기는 중</CarryDownedPawnToPortal.reportString>
   
   <!-- EN: carrying TargetA to cryptosleep casket. -->
   <CarryToCryptosleepCasket.reportString>TargetA 동면장치로 옮기는 중</CarryToCryptosleepCasket.reportString>
@@ -45,6 +51,9 @@
   
   <!-- EN: escorting prisoner TargetA. -->
   <EscortPrisonerToBed.reportString>TargetA 이송 중</EscortPrisonerToBed.reportString>
+  
+  <!-- EN: extracting skull from TargetA. -->
+  <ExtractSkull.reportString>TargetA의 두개골을 뽑는 중</ExtractSkull.reportString>
   
   <!-- EN: extracting TargetA. -->
   <ExtractTree.reportString>TargetA 추출 중</ExtractTree.reportString>
@@ -101,7 +110,7 @@
   <PlaceNoCostFrame.reportString>TargetA 건설 중</PlaceNoCostFrame.reportString>
   
   <!-- EN: planting TargetA. -->
-  <PlantSeed.reportString>{TargetA} 심는 중</PlantSeed.reportString>
+  <PlantSeed.reportString>TargetA 심는 중</PlantSeed.reportString>
   
   <!-- EN: attempting to recruit TargetA. -->
   <PrisonerAttemptRecruit.reportString>TargetA 포섭 중</PrisonerAttemptRecruit.reportString>
@@ -140,7 +149,7 @@
   <Research.reportString>연구 중</Research.reportString>
   
   <!-- EN: leading TargetA to hitching spot. -->
-  <RopeRoamerToHitchingPost.reportString>{TargetA}(을)를 데려오는 중</RopeRoamerToHitchingPost.reportString>
+  <RopeRoamerToHitchingPost.reportString>TargetA(을)를 데려오는 중</RopeRoamerToHitchingPost.reportString>
   
   <!-- EN: leading TargetA to TargetC. -->
   <RopeRoamerToUnenclosedPen.reportString>TargetA(을)를 TargetC에 유도 중</RopeRoamerToUnenclosedPen.reportString>
@@ -167,7 +176,10 @@
   <Steal.reportString>TargetA 훔치는 중</Steal.reportString>
   
   <!-- EN: Studying TargetA. -->
-  <StudyBuilding.reportString>TargetA 학습 중</StudyBuilding.reportString>
+  <StudyInteract.reportString>TargetA 학습 중</StudyInteract.reportString>
+  
+  <!-- EN: Studying TargetA. -->
+  <StudyItem.reportString>TargetA 학습 중</StudyItem.reportString>
   
   <!-- EN: taking TargetA to bed. -->
   <TakeDownedPawnToBedDrafted.reportString>침대로 TargetA 옮기는 중</TakeDownedPawnToBedDrafted.reportString>

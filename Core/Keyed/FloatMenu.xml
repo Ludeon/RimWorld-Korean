@@ -22,8 +22,8 @@
   <!-- EN: Not allowed -->
   <NotAllowed>허용되지 않음</NotAllowed>
   
-  <!-- EN: Fire at {1_label} -->
-  <FireAt>{1_label}에게 사격</FireAt>
+  <!-- EN: Fire at {1_labelShort} -->
+  <FireAt>{1_labelShort}에게 사격</FireAt>
 
   <!-- EN: out of range -->
   <OutOfRange>범위를 벗어남</OutOfRange>
@@ -51,10 +51,10 @@
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>{1_labelShort} 조작</OrderManThing>
   
-  <!-- EN: Melee attack {1_label} -->
-  <MeleeAttack>{1_label} 근접 공격</MeleeAttack>
-  <!-- EN: Melee attack {1_label} to death -->
-  <MeleeAttackToDeath>{1_label}(이)가 죽을 때까지 근접 공격</MeleeAttackToDeath>
+  <!-- EN: Melee attack {1_labelShort} -->
+  <MeleeAttack>{1_labelShort} 근접 공격</MeleeAttack>
+  <!-- EN: Melee attack {1_labelShort} to death -->
+  <MeleeAttackToDeath>{1_labelShort}(이)가 죽을 때까지 근접 공격</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>경로 없음</NoPath>
   <!-- EN: burying -->
@@ -96,8 +96,8 @@
   <PrisonerInteractedTooRecently>최근에 상호작용</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>사용 가능한 식량 없음</NoUsableFood>
-  <!-- EN: no food -->
-  <NoFood>식량 없음</NoFood>
+  <!-- EN: not enough food -->
+  <NoFood>음식이 충분하지 않음</NoFood>
   <!-- EN: no food matching restrictions -->
   <NoFoodMatchingRestrictions>정책을 만족하는 식량 없음</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
@@ -158,6 +158,8 @@
   <IncapableOfDeconstruction>해체 불가능</IncapableOfDeconstruction>
   <!-- EN: incapable of mining -->
   <IncapableOfMining>채굴 불가능</IncapableOfMining>
+  <!-- EN: tree marked for extraction -->
+  <TreeMarkedForExtraction>뽑기 대상으로 표시된 나무</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>세력 분노</AngersFaction>
   <!-- EN: no body part -->
@@ -192,39 +194,48 @@
   <CannotGoNoPath>갈 수 없음 (경로 없음)</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>여기로 이동</GoHere>
+
+  <!-- EN: Clean {0} -->
+  <CleanRoom>{0} 청소</CleanRoom>
   
   <!-- EN: Arrest {0} -->
   <Arrest>{0} 체포</Arrest>
-  <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>{1_label} 체포 시도 ({2} 확률)</TryToArrest>
+  <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
+  <TryToArrest>{1_labelShort} 체포 시도 ({2} 확률)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>체포 불가</CannotArrest>
   <!-- EN: {0} chance of arrest -->
   <ArrestChance>체포 확률 {0}</ArrestChance>
 
-  <!-- EN: Capture {1_label} -->
-  <Capture>{1_label} 포획</Capture>
+  <!-- EN: Capture {1_labelShort} -->
+  <Capture>{1_labelShort} 포획</Capture>
+  <!-- EN: capture {0_labelShort} -->
+  <CaptureLower>{0_labelShort} 포획</CaptureLower>
   <!-- EN: Cannot capture -->
   <CannotCapture>포획 불가</CannotCapture>
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>확고한 충성심</Unrecruitable>
+  <!-- EN: not recruitable -->
+  <UnrecruitableNoFaction>포섭 불가</UnrecruitableNoFaction> 
+  <!-- EN: Transfer {0_label} -->
+  <TransferEntity>{0_definite} 이전</TransferEntity> 
 
-  <!-- EN: Rescue {1_label} -->
-  <Rescue>{1_label} 구조</Rescue>
-  <!-- EN: Put {1_label} somewhere safe -->
-  <PutSomewhereSafe>{1_label}(을)를 안전한 곳으로 이송</PutSomewhereSafe>
+  <!-- EN: Rescue {1_labelShort} -->
+  <Rescue>{1_labelShort} 구조</Rescue>
+  <!-- EN: Put {1_labelShort} somewhere safe -->
+  <PutSomewhereSafe>{1_labelShort}(을)를 안전한 곳으로 이송</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
   <TakingToBed>{0_labelShort}(을)를 침대로 이송 중</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>구조 불가</CannotRescue>
 
-  <!-- EN: Carry {1_label} to cryptosleep casket -->
-  <CarryToCryptosleepCasket>{1_label}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
+  <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>{1_labelShort}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>동면장치로 운반 불가</CannotCarryToCryptosleepCasket>
 
-  <!-- EN: Carry {0_label} to shuttle -->
-  <CarryToShuttle>{0_label}(을)를 왕복선으로 운반</CarryToShuttle>
+  <!-- EN: Carry {0_labelShort} to shuttle -->
+  <CarryToShuttle>{0_labelShort}(을)를 왕복선으로 운반</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>사용 가능한 동면장치가 없음</NoCryptosleepCasket>
@@ -236,10 +247,16 @@
   <CryptosleepCasketOccupied>이미 사용 중</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>도달 가능하고, 사용 중이지 않고, 닫혀있는 안전한 온도의 수감용 침대 없음</NoPrisonerBed>
+  <!-- EN: No prisoner bed available. -->
+  <NoPrisonerBedShort>수감자용 침대가 없습니다.</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>도달 가능하고, 사용 중이지 않고, 안전한 온도의 침대 없음</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>도달 가능하고, 사용 중이지 않고, 안전한 온도의 동물 침대 없음</NoAnimalBed>
+  <!-- EN: No reachable, unforbidden, un-reserved {0} -->
+  <NoItemReservedOrReachable>접근 가능하고, 금지되지 않았고, 예약되지 않은 {0} 없음</NoItemReservedOrReachable>
+  <!-- EN: No unforbidden, un-reserved {0} -->
+  <NoItemReserved>금지되지 않았고, 예약되지 않은 {0} 없음</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
   <Reserved>누군가에게 예약됨</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -335,23 +352,25 @@
   <!-- EN: overweight -->
   <OverweightLower>무게 초과</OverweightLower>
 
-  <!-- EN: Cannot carry {1_label} and leave the area -->
-  <CannotCarryToExit>{1_label}(을)를 데리고 떠날 수 없음</CannotCarryToExit>
-  <!-- EN: Carry {1_label} and leave the area -->
-  <CarryToExit>{1_label}(을)를 들쳐 메고 지역 떠나기</CarryToExit>
-  <!-- EN: Capture {1_label} and leave the area -->
-  <CarryToExitAndCapture>{1_label}(을)를 포획 후 지역 떠나기</CarryToExitAndCapture>
+  <!-- EN: Cannot carry {1_labelShort} and leave the area -->
+  <CannotCarryToExit>{1_labelShort}(을)를 데리고 떠날 수 없음</CannotCarryToExit>
+  <!-- EN: Carry {1_labelShort} and leave the area -->
+  <CarryToExit>{1_labelShort}(을)를 들쳐 메고 지역 떠나기</CarryToExit>
+  <!-- EN: Capture {1_labelShort} and leave the area -->
+  <CarryToExitAndCapture>{1_labelShort}(을)를 포획 후 지역 떠나기</CarryToExitAndCapture>
   
-  <!-- EN: Strip {1_label} -->
-  <Strip>{1_label} 벗기기</Strip>
-  <!-- EN: Cannot strip {1_label} -->
-  <CannotStrip>{1_label} 벗기기 불가</CannotStrip>
-  <!-- EN: Cannot drop {1_label} -->
-  <CannotDrop>{1_label} 제거 불가</CannotDrop>
-  <!-- EN: Carry {0_label} -->
-  <Carry>{0_label} 들쳐 메기</Carry>
-  <!-- EN: Cannot carry {0_label} -->
-  <CannotCarry>{0_label}(을)를 들쳐 멜 수 없음</CannotCarry>
+  <!-- EN: Strip {1_labelShort} -->
+  <Strip>{1_labelShort} 벗기기</Strip>
+  <!-- EN: Cannot strip {1_labelShort} -->
+  <CannotStrip>{1_labelShort} 벗기기 불가</CannotStrip>
+  <!-- EN: Cannot drop {1_labelShort} -->
+  <CannotDrop>{1_labelShort} 제거 불가</CannotDrop>
+  <!-- EN: Carry {0_labelShort} -->
+  <Carry>{0_labelShort} 들쳐 메기</Carry>
+  <!-- EN: Cannot carry {0_labelShort} -->
+  <CannotCarry>{0_labelShort}(을)를 들쳐 멜 수 없음</CannotCarry>
+  <!-- EN: hostile -->
+  <CarriedPawnHostile>적대</CarriedPawnHostile>
   <!-- EN: temporary faction member -->
   <QuestRelated>임시 정착민</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -367,8 +386,8 @@
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>여기서 자폭</SelfDestructHere>
   
-  <!-- EN: Drop {1_label} -->
-  <Drop>{1_label} 버리기</Drop>
+  <!-- EN: Drop {1_labelShort} -->
+  <Drop>{1_labelShort} 내려놓기</Drop>
 
   <!-- EN: Rest until healed -->
   <UseMedicalBed>완전히 치료될 때까지 휴식</UseMedicalBed>
@@ -383,8 +402,12 @@
   
   <!-- EN: Trade with {0} -->
   <TradeWith>{0}(와)과 거래</TradeWith>
+  <!-- EN: Dismiss trader -->
+  <DismissTrader>상단 해산</DismissTrader>
   <!-- EN: Cannot trade -->
   <CannotTrade>거래 불가</CannotTrade>
+  <!-- EN: Trader dismissed -->
+  <TraderDismissed>상단이 해산됨</TraderDismissed>
 
   <!-- EN: Open {0_label} -->
   <Open>{0_label} 열기</Open>
@@ -409,6 +432,19 @@
   <OfferGifts>선물 제공</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>{0}(와)과 거래</TradeWithSettlement>
+  
+  <!-- EN: Enter {0} -->
+  <EnterPortal>{0} 탑승</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>{0} 진입 중</EnteringPortal>
+  <!-- EN: Enter {0} -->
+  <CommandEnterPortal>{0} 탑승</CommandEnterPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>{0}에 입장 및 적재할 사용자 또는 물품을 선택하십시오.</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>입장 및 적재 취소</CommandCancelEnterPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>사용자와 물품의 입장 및 적재를 취소합니다.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -553,6 +589,11 @@
 
   <!-- EN: Cannot enter -->
   <CannotEnter>진입 불가</CannotEnter>
+  
+  <!-- EN: Cannot enter {0} -->
+  <CannotEnterPortal>{0} 진입 불가</CannotEnterPortal>
+  <!-- EN: closed -->
+  <PortalClosed>닫힘</PortalClosed>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
@@ -563,5 +604,26 @@
   <!-- Feeding -->
   <!-- EN: disliked food -->
   <WarningFoodDisliked>싫어하는 음식</WarningFoodDisliked>
+  <!-- EN: Unsuitable food -->
+  <FoodNotSuitable>부적합한 음식</FoodNotSuitable>
 
+  <!-- EN: Unsuitable drug -->
+  <DrugNotSuitable>부적합한 약물</DrugNotSuitable>
+  
+  <!-- Books -->
+  <!-- EN: Assign reading... -->
+  <AssignReading>독서 할당</AssignReading>
+  <!-- EN: Read {0} -->
+  <AssignReadNow>{0} 읽기</AssignReadNow>
+  <!-- EN: Cannot read {0} -->
+  <AssignCannotReadNow>{0}(을)를 읽을 수 없음</AssignCannotReadNow>
+
+  <!-- EN: Prioritize extinguishing fires -->
+  <ExtinguishFiresNearby>화재진압 우선순위</ExtinguishFiresNearby>
+
+  <!-- Analysis -->
+  <!-- EN: already analyzed -->
+  <AlreadyAnalyzed>이미 분석됨</AlreadyAnalyzed>
+  <!-- EN: no reachable, un-reserved research bench available -->
+  <NoResearchBench>도달 가능하고 사용 중이지 않은 연구 작업대 없음</NoResearchBench>
 </LanguageData>

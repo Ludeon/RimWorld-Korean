@@ -34,8 +34,8 @@
 
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>메카노이드 충전기 필요</AlertNeedMechChargers>
-  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>메카노이드에 비해 충전기가 부족합니다. 메카노이드의 전력이 바닥나면 자가 충전 휴면상태에 들어가 매우 느린 속도로 충전할 것입니다.\n\n다음의 충전기가 추가로 필요합니다:\n\n{0}\n\n참고: 일반 충전기는 소형 메카노이드만 사용할 수 있습니다. 중형 이상의 메카노이드는 대형 충전기가 필요합니다.</AlertNeedMechChargersDesc>
+  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
+  <AlertNeedMechChargersDesc>메카노이드에 비해 충전기가 부족합니다. 메카노이드의 전력이 바닥나면 자가 충전 휴면상태에 들어가 매우 느린 속도로 충전할 것입니다.\n\n다음의 충전기가 추가로 필요합니다.\n{0}\n\n참고: 일반 충전기는 소형 메카노이드만 사용할 수 있습니다. 중형 이상의 메카노이드는 대형 충전기가 필요합니다.</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
   <AlertNeedMechChargerBasicMechtech>충전기를 건설하려면 기본 기계공학 이상의 기술을 연구해야 합니다.</AlertNeedMechChargerBasicMechtech>
 
@@ -54,8 +54,8 @@
   <AlertNoBabyFeederDesc>이 아기들에게 음식을 줄 {FACTION_pawnsPlural}(이)가 할당되지 않았거나 모두 쓰러졌습니다.\n\n{FACTION_pawnsPlural} 중 하나를 육아에 할당하거나, 수유가 가능한 {FACTION_pawnSingular}(을)를 할당하여 아기의 돌보기 탭에서 긴급 우선순위로 이 아기에게 먹을 것을 주세요. 그리고 그들 중 적어도 하나가 쓰러지지 않았는지 확인하십시오.</AlertNoBabyFeederDesc>
   <!-- EN: Abandoned baby -->
   <AlertAbandonedBaby>버려진 아기</AlertAbandonedBaby>
-  <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don’t adopt the babies, it’s likely they'll starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
-  <AlertAbandonedBabyDesc>근처에 돌봐줄 사람아 없는 버려진 아기들이 있습니다. 아기를 입양하지 않으면 굶어 죽을 가능성이 높습니다.\n\n아기를 입양하려면 아기를 선택한 다음 "{0}"을(를) 선택하세요.</AlertAbandonedBabyDesc>
+  <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
+  <AlertAbandonedBabyDesc>근처에 돌봐줄 사람이 없는 버려진 아기들이 있습니다. 아기를 입양하지 않으면 굶어 죽을 가능성이 높습니다.\n\n아기를 입양하려면 아기를 선택한 다음 "{0}"을(를) 선택하세요.</AlertAbandonedBabyDesc>
 
   <!-- EN: No baby food in caravan -->
   <AlertNoBabyFoodCaravan>상단 내 이유식 없음</AlertNoBabyFoodCaravan>

@@ -5,21 +5,83 @@
   <AdvancedFabrication.label>고급 부품</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
   <AdvancedFabrication.description>고급 부품을 만들 수 있습니다.</AdvancedFabrication.description>
+  <!-- EN:
+    <li>subject->advanced component fabrication</li>
+    <li>subject_story->traded advanced components to desperate rimworlders</li>
+    <li>subject_story->learned the secrets of fabricating advanced components and died without revealing them</li>
+    <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
+    <li>subject_gerund->fabricating advanced components</li>
+  -->
+  <AdvancedFabrication.generalRules.rulesStrings>
+    <li>subject->고급 부품 제작</li>
+    <li>subject_story->절박한 변경계 사람들과 고급 부품을 거래했습니다</li>
+    <li>subject_story->고급 부품 제조의 비밀을 알아냈고, 이를 공개하지 않은 채 사망했습니다</li>
+    <li>subject_story->고급 부품을 제작하는 데 드는 엄청난 비용 때문에, 보다 단순한 삶의 방식을 선택했습니다</li>
+    <li>subject_gerund->고급 부품 제작</li>
+  </AdvancedFabrication.generalRules.rulesStrings>
   
   <!-- EN: bionic replacements -->
   <Bionics.label>생체공학</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
   <Bionics.description>손상된 팔과 다리, 눈을 대체할 수 있는 생체공학 신체를 만들 수 있습니다.</Bionics.description>
+  <!-- EN:
+    <li>subject->bionic prosthesis</li>
+    <li>subject_story->worked primarily with disfigured soldiers, crafting bespoke bionic facial elements so they could return to their loved ones</li>
+    <li>subject_story->studied slowed vids of human motion to better craft bionic prosthetics</li>
+    <li>subject_story->was volunteered to have the various prototype bionics  implanted, ending up as more machine than man</li>
+    <li>subject_gerund->constructing bionic prosthetics</li>
+    <li>subject_gerund->utilizing bionic body parts</li>
+  -->
+  <Bionics.generalRules.rulesStrings>
+    <li>subject->생체공학 보철물</li>
+    <li>subject_story->사랑하는 사람에게 돌아갈 수 있도록 주로 심각하게 다친 군인들에게 맞춤형 생체공학 얼굴 요소를 제작했습니다</li>
+    <li>subject_story->생체공학 보철물을 더 잘 제작하기 위해, 인간의 움직임을 느린 비디오로 연구했습니다</li>
+    <li>subject_story->다양한 생체공학 견본품을 이식하는 데 자원하여, 인간보다 기계에 더 가까운 존재가 되었습니다</li>
+    <li>subject_gerund->생체공학 보철물 제작</li>
+    <li>subject_gerund->생체공학 신체 부위 활용</li>
+  </Bionics.generalRules.rulesStrings>
   
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>펄스 충전 탄환</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
   <ChargedShot.description>피해 극대를 위해 투사체에 펄스 충전을 하는 무기를 제작할 수 있습니다. 고급 부품이 필요합니다.</ChargedShot.description>
+  <!-- EN:
+    <li>subject->pulse munitions</li>
+    <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
+    <li>subject_story->killed a mechanical crawler by kiting it with a charge lance</li>
+    <li>subject_story->learned how to imbue rifle ammunition with retained charge, heavily increasing its lethality</li>
+    <li>subject_gerund->constructing pulse munitions</li>
+    <li>subject_gerund->utilising pulse munitions</li>
+  -->
+  <ChargedShot.generalRules.rulesStrings>
+    <li>subject->펄스 탄환</li>
+    <li>subject_story->번화계의 단선을 연구하고 무기 기술을 개선했습니다</li>
+    <li>subject_story->차지 랜스로 메카노이드 크롤러를 집중 사격하여 죽였습니다</li>
+    <li>subject_story->소총 탄약에 충전 에너지를 주입하여 치사율을 크게 높이는 방법을 배웠습니다</li>
+    <li>subject_gerund->펄스 탄환 제작</li>
+    <li>subject_gerund->펄스 탄환 활용</li>
+  </ChargedShot.generalRules.rulesStrings>
   
   <!-- EN: cryptosleep casket -->
   <Cryptosleep.label>동면관</Cryptosleep.label>
   <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
   <Cryptosleep.description>생물을 영원히 보존하는 동면관을 만들 수 있습니다.</Cryptosleep.description>
+  <!-- EN:
+    <li>subject->cryptosleep</li>
+    <li>subject_story->intended to test a prototype cryptosleep casket and woke a generation later, alone</li>
+    <li>subject_story->sentenced the system's worst criminal to indefinite cryptosleep rather than death</li>
+    <li>subject_story->used a cryptosleep capsule to suspend the terminally ill, so they could see their children once they'd grown up</li>
+    <li>subject_gerund->constructing cryptosleep caskets</li>
+    <li>subject_gerund->inducing cryptosleep</li>
+  -->
+  <Cryptosleep.generalRules.rulesStrings>
+    <li>subject->동면</li>
+    <li>subject_story->동면관 초기작을 실험하려고 했으나, 한 세대 후에 혼자 깨어났습니다</li>
+    <li>subject_story->시스템 최악의 범죄자에게 사형 대신 무기한 동면을 선고했습니다</li>
+    <li>subject_story->불치병의 진행을 멈추기 위해 동면관을 사용하였고, 자녀가 성장한 후에 깨어나 볼 수 있도록 했습니다.</li>
+    <li>subject_gerund->동면관 건설</li>
+    <li>subject_gerund->동면 유도</li>
+  </Cryptosleep.generalRules.rulesStrings>
   
   <!-- EN: fabrication -->
   <Fabrication.label>정밀 조립</Fabrication.label>
@@ -29,35 +91,143 @@
   <Fabrication.discoveredLetterText>이제 조립 작업대를 설치할 수 있는 기술이 있지만, 고급 부품이 필요합니다. 고급 부품은 여러 가지 방법으로 습득할 수 있습니다.\n\n  -모든 외부세력의 정착지가 고급 부품을 판매합니다. 상단을 보내 일부를 구매할 수 있습니다.\n  -일부 상단은 고급 부품을 판매합니다. 상단을 초대하거나 방문할 때까지 기다리세요.\n  -일부 임무를 수행하는 것으로 얻을 수 있습니다.</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
   <Fabrication.discoveredLetterTitle>정보: 고급 부품 얻기</Fabrication.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->high-tech fabrication benches</li>
+    <li>subject_story->spent many years crafting advanced components, to make fabrication benches to make more advanced components</li>
+    <li>subject_story->traded everything to build a single fabrication bench</li>
+    <li>subject_story->constructed technological marvels which the feral villagers worshipped as magical</li>
+    <li>subject_gerund->constructing high-tech projects</li>
+    <li>subject_gerund->building high-tech fabrication stations</li>
+  -->
+  <Fabrication.generalRules.rulesStrings>
+    <li>subject->첨단 조립 작업대</li>
+    <li>subject_story->고급 부품을 제작하고, 더욱 발전된 부품을 만들기 위한 작업대를 만들기 위해 수년을 보냈습니다</li>
+    <li>subject_story->하나의 조립 작업대를 만들기 위해, 가지고 있는 모든 것을 거래했습니다</li>
+    <li>subject_story->야생 부족민들이 마법처럼 숭배하는 놀라운 기술을 구축했습니다</li>
+    <li>subject_gerund->하이테크 물품 생산</li>
+    <li>subject_gerund->하이테크 작업대 건설</li>
+  </Fabrication.generalRules.rulesStrings>
   
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>복합 분석기</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
   <MultiAnalyzer.description>진보된 기술 연구에 필요하고, 연구 속도에도 도움을 주는 복합 분석기를 연구대 근처에 만들 수 있습니다.</MultiAnalyzer.description>
+  <!-- EN:
+    <li>subject->multi-analysis</li>
+    <li>subject_story->automated a research laboratory</li>
+    <li>subject_story->unlocked the trans-spectrum secrets of the universe</li>
+    <li>subject_story->helped identify new stable isotopes</li>
+    <li>subject_gerund->constructing multi-analyzers</li>
+  -->
+  <MultiAnalyzer.generalRules.rulesStrings>
+    <li>subject->다중 분석</li>
+    <li>subject_story->연구실을 자동화 시켰습니다</li>
+    <li>subject_story->우주의 빛 굴절 횡단 비밀을 풀었습니다</li>
+    <li>subject_story->새로운 안정 동위원소를 식별하는 데 도움이 됩니다</li>
+    <li>subject_gerund->복합 분석기 건설</li>
+  </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
   <PoweredArmor.label>해병대 갑옷</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
   <PoweredArmor.description>해병대가 사용하는 무거운 강화 갑옷과 헬멧을 만들 수 있습니다. 고급 부품이 필요합니다.</PoweredArmor.description>
+  <!-- EN:
+    <li>subject->marine armor</li>
+    <li>subject_story->was employed by the shock troops to maintain their armor</li>
+    <li>subject_story->tested the armor by walking, unarmed, through a hostile feral village without receiving a scratch</li>
+    <li>subject_story->intended the armor as protection against the planet's hostile weather, but it worked well against the pirates too</li>
+    <li>subject_gerund->constructing shock troop armor</li>
+    <li>subject_gerund->constructing marine armor</li>
+    <li>subject_gerund->constructing general-use advanced armor</li>
+  -->
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject->해병 갑옷</li>
+    <li>subject_story->그들의 방어를 유지하기 위해 특공 기습군에 고용되었습니다</li>
+    <li>subject_story->특별히 무장하지 않고 적대적인 야생 마을에서 갑옷을 시험했는데, 아무런 상처도 입지 않은 채 걸어다닐 수 있었습니다</li>
+    <li>subject_story->이 갑옷은 행성의 악천후로부터 보호하기 위한 것었지만, 불행하게도 해적이 이용하기에도 효과적이었습니다</li>
+    <li>subject_gerund->강습대 갑옷 제작</li>
+    <li>subject_gerund->해병대 갑옷 제작</li>
+    <li>subject_gerund->범용 고급 갑옷 제작</li>
+  </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
   <ReconArmor.label>정찰대 갑옷</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
   <ReconArmor.description>정찰대가 사용하는 가벼운 강화 갑옷과 헬멧을 만들 수 있습니다. 고급 부품이 필요합니다.</ReconArmor.description>
+  <!-- EN:
+    <li>subject->recon armor</li>
+    <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
+    <li>subject_story->crafted powered armor light and resilient enough for the hammer-users to close with the enemy</li>
+    <li>subject_story->intended recon armor more for hunters than soldiers. It sold well, regardless</li>
+    <li>subject_gerund->crafting recon armor</li>
+    <li>subject_gerund->reducing armor weight</li>
+  -->
+  <ReconArmor.generalRules.rulesStrings>
+    <li>subject->정찰대 갑옷</li>
+    <li>subject_story->포로가 될 때까지 제국군에 맞서 반란군 정찰대를 이끌었습니다</li>
+    <li>subject_story->망치 사용자가 적에게 충분히 접근할 수 있을 만큼 가볍고 탄력 있게 제작된 동력 갑옷입니다</li>
+    <li>subject_story->정찰용 갑옷은 군인보다는 사냥꾼을 위해 만들어졌습니다. 어쨋든 잘 팔렸어요</li>
+    <li>subject_gerund->정찰대 갑옷 제작</li>
+    <li>subject_gerund->갑옷 무게 감량</li>
+  </ReconArmor.generalRules.rulesStrings>
   
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>로켓탄막 발사기</RocketswarmLauncher.label>
   <!-- EN: Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle. -->
   <RocketswarmLauncher.description>중요한 순간에 발동해서 전장의 넓은 범위를 초토화할 수 있는 단발성 로켓탄막 발사기를 만들 수 있습니다.</RocketswarmLauncher.description>
+  <!-- EN:
+    <li>subject->rocket turrets</li>
+    <li>subject_story->testified about the use of rocketswarm launchers against civilian targets</li>
+    <li>subject_story->constructed last-ditch defenses, including traps and launchers, in case the settlement was ever threatened</li>
+    <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
+    <li>subject_gerund->constructing rocket turrets</li>
+  -->
+  <RocketswarmLauncher.generalRules.rulesStrings>
+    <li>subject->로켓 터렛</li>
+    <li>subject_story->민간 표적에 대한 로켓 발사기의 사용을 증언했습니다</li>
+    <li>subject_story->정착지가 위협받을 경우를 대비해 함정과 발사대를 포함한 최후의 방어 시설을 구축했습니다</li>
+    <li>subject_story->우주에 도달하기 위해 원시적인 로켓을 만드는 것부터 시작했지만, 높은 실패율로 인해 용도가 무기로 변경되었습니다</li>
+    <li>subject_gerund->로켓탄막 발사기 건설</li>
+  </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>저격 포탑</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
   <SniperTurret.description>장거리 공격용 포탑을 만들 수 있습니다. 플라스틸을 종이처럼 찢는 우라늄 탄을 발사하지만, 근거리에서는 덜 효과적입니다.</SniperTurret.description>
+  <!-- EN:
+    <li>subject->sniper turrets</li>
+    <li>subject_story->led the clean-up after the war, collecting spent radioactive uranium slugs from the front line</li>
+    <li>subject_story->saw a turret shoot straight through an assault mechanoid and needed to understand how</li>
+    <li>subject_story->researched the effects of ammunition density on armor</li>
+    <li>subject_gerund->constructing sniper turrets</li>
+  -->
+  <SniperTurret.generalRules.rulesStrings>
+    <li>subject->저격 터렛</li>
+    <li>subject_story->전쟁이 끝난 후 최전선에서 사용된 방사성 우라늄 덩어리들을 수거하며 정화작업을 주도했습니다</li>
+    <li>subject_story->포탑이 공격용 메카노이드를 똑바로 관통하는 것을 보았고, 어떻게 작동하는지 이해했습니다</li>
+    <li>subject_story->탄약의 밀도가 갑옷에 미치는 영향을 연구했습니다</li>
+    <li>subject_gerund->저격 포탑 건설</li>
+  </SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>생체신호 모니터</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
   <VitalsMonitor.description>회복 침대 옆에 배치하여 환자의 치료에 도움을 주는 장치를 만들 수 있습니다.</VitalsMonitor.description>
+  <!-- EN:
+    <li>subject->vital signs monitoring</li>
+    <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>
+    <li>subject_story->nursed a glassworld survivor back to health</li>
+    <li>subject_story->monitored the isolation ward remotely, sending mechanoids in for treatments</li>
+    <li>subject_gerund->monitoring vital signs</li>
+    <li>subject_gerund->constructing vital signs monitors</li>
+  -->
+  <VitalsMonitor.generalRules.rulesStrings>
+    <li>subject->생명신호 관찰</li>
+    <li>subject_story->혼잡한 병원에서 고생스럽게 일하며, 이곳을 변화시키겠다고 다짐했습니다</li>
+    <li>subject_story->유리계 생존자가 건강해질 때까지 간호했습니다</li>
+    <li>subject_story->격리 병동을 원격으로 감시하고 치료를 위해 메카노이드를 보냈습니다</li>
+    <li>subject_gerund->생체신호 모니터링</li>
+    <li>subject_gerund->생체신호 모니터 건설</li>
+  </VitalsMonitor.generalRules.rulesStrings>
   
 </LanguageData>

@@ -5,55 +5,213 @@
   <ArtificialMetabolism.label>인공 소화</ArtificialMetabolism.label>
   <!-- EN: Craft bionics that process food more safely or efficiently than a biological stomach. -->
   <ArtificialMetabolism.description>단순한 인공 위보다 더욱 효율적이고 안전한 생체공학 내장 기관을 만들 수 있습니다.</ArtificialMetabolism.description>
+  <!-- EN:
+    <li>subject->artificial metabolism</li>
+    <li>subject_story->developed a hunger so all-consuming that the installation of an artificial stomach was the only solution</li>
+    <li>subject_story->did not tell the Queen about the installation of the sterilizing stomach, but continued as her food tester all the same</li>
+    <li>subject_story->developed a loathing for food. A nuclear stomach heavily reduced food consumption, though the radioactivity was a nuisance</li>
+    <li>subject_gerund->crafting digestion-related bionics</li>
+    <li>subject_gerund->crafting artificial guts</li>
+  -->
+  <ArtificialMetabolism.generalRules.rulesStrings>
+    <li>subject->인공 소화</li>
+    <li>subject_story->배고픔이 너무 심해 인공 위를 설치하는 것만이 유일한 해결책이었습니다</li>
+    <li>subject_story->위 살균 장치를 설치한 것을 여왕에게 알리지 않고, 계속 음식에 독이 있는지 먼저 먹어보는 일을 하였습니다</li>
+    <li>subject_story->음식에 대한 혐오감을 갖게 되었습니다. 방사능은 골치 아픈 문제였지만 핵분열 위는 음식 섭취량을 크게 줄였습니다</li>
+    <li>subject_gerund->소화 관련 생체공학 기관 제작</li>
+    <li>subject_gerund->인공 위장 제작</li>
+  </ArtificialMetabolism.generalRules.rulesStrings>
   
   <!-- EN: brain wiring -->
   <BrainWiring.label>뇌 해석</BrainWiring.label>
   <!-- EN: Craft brain implants that induce or prevent blunt sensations like joy or pain. -->
   <BrainWiring.description>쾌락이나 고통 등의 감정을 느끼는 영역을 자극하거나 차단하는 뇌 삽입물을 만들 수 있습니다.</BrainWiring.description>
+  <!-- EN:
+    <li>subject->brain implants</li>
+    <li>subject_story->wrote a paper about the masochist cults use of mindscrews to improve their morale</li>
+    <li>subject_story->implanted painstoppers in an assault squad. They eliminated a much larger force, but were all mortally wounded or killed</li>
+    <li>subject_story->had a joywire installed and, though happy after that, stumbled simply through life</li>
+    <li>subject_gerund->crafting brain implants</li>
+  -->
+  <BrainWiring.generalRules.rulesStrings>
+    <li>subject->뇌 삽입물</li>
+    <li>subject_story->사기를 높이기 정신 압박기를 사용하는 피학성애 문화에 대한 논문을 썼습니다</li>
+    <li>subject_story->돌격대에 진통제를 투여했습니다. 그들은 훨씬 더 많은 적 병력을 제거했지만, 모두 치명적인 부상을 입거나 사망했습니다</li>
+    <li>subject_story->쾌락회로를 설치하고 행복했지만, 이후에는 정상적으로 삶을 살지 못했습니다</li>
+    <li>subject_gerund->뇌 삽입물 제작</li>
+  </BrainWiring.generalRules.rulesStrings>
   
   <!-- EN: circadian influence -->
   <CircadianInfluence.label>생체 리듬</CircadianInfluence.label>
   <!-- EN: Craft brain implants that chemically manipulate the circadian rhythm, reducing or altering the need to sleep. -->
   <CircadianInfluence.description>생체 리듬을 화학적으로 조작하여, 수면의 필요성을 줄이거나 없앨 수 있는 뇌 이식물을 만들 수 있습니다.</CircadianInfluence.description>
+  <!-- EN:
+    <li>subject->sleep reduction implant</li>
+    <li>subject_story->studied unihemispheric sleep patterns in cetaceans and proposed a new form of circadian half-cycler</li>
+    <li>subject_story->forced any applicants for city guard to receive a half-cycler, so they could stay at post indefinitely, if necessary</li>
+    <li>subject_story->studied bullfrogs and giraffes to ascertain what  xenogerms would be necessary for a circadian assistance gland</li>
+    <li>subject_gerund->crafting sleep reduction implants</li>
+  -->
+  <CircadianInfluence.generalRules.rulesStrings>
+    <li>subject->수면욕 감소 이식물</li>
+    <li>subject_story->고래류의 단반구 수면 패턴을 연구하고, 새로운 형태의 생체리듬 반감기 수면을 제안했습니다</li>
+    <li>subject_story->필요한 경우 무기한으로 근무할 수 있도록 도시 경비대 지원자에게 생체리듬 반감기를 지급하도록 강요했습니다</li>
+    <li>subject_story->일주기 보조선에 필요한 변형이식체가 무엇인지 확인하기 위해 황소개구리와 기린을 연구했습니다</li>
+    <li>subject_gerund->수면욕 감소 이식물 제작</li>
+  </CircadianInfluence.generalRules.rulesStrings>
   
   <!-- EN: compact weaponry -->
   <CompactWeaponry.label>생체 무장</CompactWeaponry.label>
   <!-- EN: Craft compact, concealable bionic weapons which can be embedded in various body parts. -->
   <CompactWeaponry.description>신체 내부에 숨길 수 있는 생체공학 무기를 만들 수 있습니다.</CompactWeaponry.description>
+  <!-- EN:
+    <li>subject->compact weaponry</li>
+    <li>subject_story->was employed as a detective and was saved more than once by the concealed knee spike</li>
+    <li>subject_story->spent a summer recovering from being slashed by an escaped slave's hand talon</li>
+    <li>subject_story->was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
+    <li>subject_gerund->crafting compact bionic weapons</li>
+  -->
+  <CompactWeaponry.generalRules.rulesStrings>
+    <li>subject->생체 무장</li>
+    <li>subject_story->탐정으로 고용되었을 때, 숨겨놓은 무릎 송곳 때문에 두 번 이상 위기에서 벗어났습니다</li>
+    <li>subject_story->탈출한 노예의 칼날 손톱에 베인 후 치료하면서 여름을 보냈습니다</li>
+    <li>subject_story->경호실에서 방문객을 수색하고 있던 중, 사이보그가 진입을 시도했습니다</li>
+    <li>subject_gerund->소형 생체공학 무기 제작</li>
+  </CompactWeaponry.generalRules.rulesStrings>
   
   <!-- EN: flesh shaping -->
   <FleshShaping.label>신체 성형</FleshShaping.label>
   <!-- EN: Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure. -->
   <FleshShaping.description>아름다운 외모를 가꾸기 위한 생체공학 제품을 만들 수 있습니다.</FleshShaping.description>
+  <!-- EN:
+    <li>subject->aesthetic surgery</li>
+    <li>subject_story->halted the population decline on the urbworld, by distributing free love enhancers and lavish drugs</li>
+    <li>subject_story->was hired as chief flesh-shaper for an aesthetics clinic, spending their days making shapely limbs</li>
+    <li>subject_story->gathered the glitterworld children around the campfire and told horror stories about getting their non-aesthetic noses back</li>
+    <li>subject_gerund->crafting aesthetic bionics</li>
+  -->
+  <FleshShaping.generalRules.rulesStrings>
+    <li>subject->미형 수술</li>
+    <li>subject_story->무료로 사랑 유발제와 사치스러운 약물을 배포하여 도시계의 인구 감소가 중단됐습니다</li>
+    <li>subject_story->미용외과의 성형사로 채용되어 날씬한 팔다리를 만들며 하루를 보내고 있습니다</li>
+    <li>subject_story->번화계 아이들을 모닥불 주위에 모아놓고, 아름답지 않은 코로 되돌아 가는 것에 대한 공포 이야기를 들려주었습니다</li>
+    <li>subject_gerund->미형 생체공학 기관 제작</li>
+  </FleshShaping.generalRules.rulesStrings>
   
   <!-- EN: healing factors -->
   <HealingFactors.label>신체 치유</HealingFactors.label>
   <!-- EN: Craft bionics that enhance natural healing processes. -->
   <HealingFactors.description>자연 치유 능력을 향상시키는 생체공학 기관을 만들 수 있습니다.</HealingFactors.description>
+  <!-- EN:
+    <li>subject->healing bionics</li>
+    <li>subject_story->studied the Imperial royalty, to see if they had blue blood. They did not, but it did coagulate implausibly quickly</li>
+    <li>subject_story->ensured that all the pit fighters had Healing Enhancers and appropriate xenogerms, so that they could fight more often</li>
+    <li>subject_story->studied the ancient corpses found in a cryptosleep shrine and harvested rapid healing devices from them</li>
+    <li>subject_gerund->crafting regeneration bionics</li>
+  -->
+  <HealingFactors.generalRules.rulesStrings>
+    <li>subject->생체공학 치유</li>
+    <li>subject_story->제국 왕족을 연구하여 그들이 푸른 피를 가지고 있는지 알아보았습니다. 그렇지는 않았지만 믿을 수 없을 정도로 빠르게 응고되었습니다</li>
+    <li>subject_story->모든 투기장 전사들이 치유 강화제와 적절한 변형이식체를 보유함으로써 더 자주 싸울 수 있도록 보장합니다</li>
+    <li>subject_story->납골당 성소에서 발견된 고대 시체를 연구하고, 그로부터 신속 치유장치를 발견했습니다</li>
+    <li>subject_gerund->재생 강화 생체공학 기관 제작</li>
+  </HealingFactors.generalRules.rulesStrings>
   
   <!-- EN: molecular analysis -->
   <MolecularAnalysis.label>분자 분석</MolecularAnalysis.label>
   <!-- EN: Craft bionics with molecular analyzers for assisting the immune system or analyzing food. -->
   <MolecularAnalysis.description>면역계를 보조하거나 음식을 분석하기 위한 생체공학 기관을 만들 수 있습니다.</MolecularAnalysis.description>
+  <!-- EN:
+    <li>subject->molecular analysis bionics</li>
+    <li>subject_story->explained to the chefs of the cooking school that they must never get aesthetic noses, lest their gastro-analyzers fail</li>
+    <li>subject_story->had an immunoenhancer installed and so was able to walk freely in the isolation colony</li>
+    <li>subject_story->lectured on the potential hardware conflicts between bionic parts and molecular analysis implants</li>
+    <li>subject_gerund->crafting molecular analysis bionics</li>
+  -->
+  <MolecularAnalysis.generalRules.rulesStrings>
+    <li>subject->분자 분석 생체공학</li>
+    <li>subject_story->요리 학교의 요리사들에게 위장 분석기가 오작동하지 않도록, 아름다운 코를 가지면 안 된다고 설명했습니다</li>
+    <li>subject_story->면역 증진기를 삽입하여 격리 정착지에서 자유롭게 걸어다닐 수 있었습니다</li>
+    <li>subject_story->생체공학 부품과 분자분석 삽입물 간의 잠재적인 하드웨어 충돌에 대해 강의했습니다</li>
+    <li>subject_gerund->분자 분석 생체공학 기관 제작</li>
+  </MolecularAnalysis.generalRules.rulesStrings>
   
   <!-- EN: neural computation -->
   <NeuralComputation.label>신경 보조</NeuralComputation.label>
   <!-- EN: Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface. -->
   <NeuralComputation.description>사고와 학습을 보조하는 뇌 이식물을 만들 수 있습니다.</NeuralComputation.description>
+  <!-- EN:
+    <li>subject->brain implants</li>
+    <li>subject->neural computation</li>
+    <li>subject_story->knew exactly how to take out the jailor, with an EMP attack that would brain shock their learning assistant, buying time to free the prisoners</li>
+    <li>subject_story->mandated the installation of learning assistants or neurocalculators through the entire faculty</li>
+    <li>subject_story->had a learning assistant installed. It proved to be a problem later, when captured by pirates, who halted any escape attempts with EMP attacks</li>
+    <li>subject_gerund->crafting brain implants</li>
+  -->
+  <NeuralComputation.generalRules.rulesStrings>
+    <li>subject->뇌 삽입물</li>
+    <li>subject->신경 보조</li>
+    <li>subject_story->뇌 충격을 줄 수 있는 EMP 공격으로 간수를 제거하는 방법을 학습 보조기 덕분에 정확히 알게 되었고, 수감자들을 풀어줄 시간을 벌었습니다</li>
+    <li>subject_story->교수진 전체에 학습 보조기나 신경 연산보조기 설치를 의무화했습니다</li>
+    <li>subject_story->학습 보조기가 삽입되어 있었습니다. 나중에 EMP 공격 때문에 탈출 시도를 중단한 해적들에게 붙잡혀 문제가 된 것으로 드러났습니다</li>
+    <li>subject_gerund->뇌 삽입물 제작</li>
+  </NeuralComputation.generalRules.rulesStrings>
   
   <!-- EN: skin hardening -->
   <SkinHardening.label>신체 경화</SkinHardening.label>
   <!-- EN: Craft bionic implants which induce the toughening of natural skin, producing an armor-like effect. -->
   <SkinHardening.description>피부를 강화하여 갑옷처럼 만들어주는 생체공학 이식물을 만들 수 있습니다.</SkinHardening.description>
+  <!-- EN:
+    <li>subject->subdermal implants</li>
+    <li>subject_story->researched the glands of the barkskin dryads and reasoned they could be adapted to humanity</li>
+    <li>subject_story->traveled among the stoneskin tamers of the dinoworld, studying the thick keratin plates that covered them</li>
+    <li>subject_story->worked with nanonmachine glands to thicken the human epidermis, at the expense of meeting traditional standards of beauty</li>
+    <li>subject_gerund->crafting subdermal armor implants</li>
+  -->
+  <SkinHardening.generalRules.rulesStrings>
+    <li>subject->피하 삽입물</li>
+    <li>subject_story->나무지기의 분비선을 연구하여, 이것을 인류에 적용할 수 있다고 추론했습니다</li>
+    <li>subject_story->공룡세계의 돌가죽 조련사들 사이를 여행하며, 그들을 덮고 있는 두꺼운 각질판을 연구했습니다</li>
+    <li>subject_story->전통적인 미의 기준을 충족하는 대신에, 나노머신 땀샘을 이용해 인간의 표피를 두껍게 만들었습니다</li>
+    <li>subject_gerund->피하 갑옷 삽입물</li>
+  </SkinHardening.generalRules.rulesStrings>
   
   <!-- EN: specialized limbs -->
   <SpecializedLimbs.label>팔다리 전문화</SpecializedLimbs.label>
   <!-- EN: Craft specialized bionic limbs built for specific purposes - both combat and labor. -->
   <SpecializedLimbs.description>전투나 노동 등 특정 목적에 맞춰 설계된 특수 생체공학 팔다리를 만들 수 있습니다.</SpecializedLimbs.description>
+  <!-- EN:
+    <li>subject->specialized prosthetics</li>
+    <li>subject_story->interviewed the indentured farmers of a feudal world, before and after their field hand installations</li>
+    <li>subject_story->watched a pit fighter equipped with a power claw face off against a miner with two drill arms</li>
+    <li>subject_story->worked as a surgeon on the rim, replacing missing arms with everything from a woodhand to a power claw</li>
+    <li>subject_gerund->crafting specialized bionic arms</li>
+  -->
+  <SpecializedLimbs.generalRules.rulesStrings>
+    <li>subject->특화된 보철물</li>
+    <li>subject_story->막 현장에서 설치한 봉건 세계의 계약 농민을 인터뷰했습니다</li>
+    <li>subject_story->강화 발톱을 장착한 투기장 전사가 두 개의 드릴 팔을 가진 광부와 대결하는 것을 보았습니다</li>
+    <li>subject_story->변경계에서 외과의사로 일하면서, 손실된 팔을 나무손부터 강화 발톱까지 모든 것으로 교체해 봤습니다</li>
+    <li>subject_gerund->특수 생체공학 팔 제작</li>
+  </SpecializedLimbs.generalRules.rulesStrings>
   
   <!-- EN: poison synthesis -->
   <VenomSynthesis.label>독성 기관</VenomSynthesis.label>
   <!-- EN: Craft bionics that synthesize venom from internal chemical reactors for use in toxifying attacks. -->
   <VenomSynthesis.description>전투에 사용하기 위한 맹독 합성 기관을 만들 수 있습니다.</VenomSynthesis.description>
+  <!-- EN:
+    <li>subject->venomous bionics</li>
+    <li>subject_story->worked on chemical reactors at small scales, which could be shrunk and stored internally</li>
+    <li>subject_story->studied the waste rats of a trash world and wrote a paper on the unique toxins in their bite</li>
+    <li>subject_story->learned to love sharp little cutting edges, which could kill with a mere nick</li>
+    <li>subject_gerund->crafting poisonous bionic weapons</li>
+  -->
+  <VenomSynthesis.generalRules.rulesStrings>
+    <li>subject->독성 생체공학</li>
+    <li>subject_story->소형화하여 내부에 보관할 수 있는 소규모 화학 반응기를 연구했습니다</li>
+    <li>subject_story->쓰레기 세계의 오염된 쥐들을 연구하고, 그들이 가진 독특한 독소에 관한 논문을 썼습니다</li>
+    <li>subject_story->날카롭고 작은 칼날을 좋아하는 법을 배웠고, 작은 상처로도 죽일 수 있습니다</li>
+    <li>subject_gerund->독성 생체공학 무기 제작</li>
+  </VenomSynthesis.generalRules.rulesStrings>
   
 </LanguageData>

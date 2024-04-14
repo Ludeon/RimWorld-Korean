@@ -5,65 +5,261 @@
   <DeepDrilling.label>심층 굴착</DeepDrilling.label>
   <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
   <DeepDrilling.description>이동 가능한 굴착 장비입니다. 지면 투과 탐색기를 이용해 찾아낸 지하 자원을 추출하기 위해 사용됩니다. 자원이 없는 곳에서는 암석 덩어리를 생산합니다.</DeepDrilling.description>
+  <!-- EN:
+    <li>subject->deep mining</li>
+    <li>subject_story->moved in with a dirtmole-led corp, studying its deepest excavations</li>
+    <li>subject_story->drilled down to the ice cap's root to discover the world's extinct prehuman biome</li>
+    <li>subject_story->became wealthy from the resources dug out of the world's core</li>
+    <li>subject_gerund->mining deeply</li>
+  -->
+  <DeepDrilling.generalRules.rulesStrings>
+    <li>subject->심층 채굴</li>
+    <li>subject_story->더트몰이 이끄는 회사에 합류하여 가장 깊은 곳의 발굴을 연구했습니다</li>
+    <li>subject_story->세계에서 멸종된 인류 이전의 생물 군계를 발견하기 위해 만년설 깊숙이까지 뚫고 들어갔습니다</li>
+    <li>subject_story->행성의 핵에서 뽑아낸 자원으로 큰 재산을 쌓았습니다</li>
+    <li>subject_gerund->심층 굴착</li>
+  </DeepDrilling.generalRules.rulesStrings>
   
   <!-- EN: flatscreen television -->
   <FlatscreenTelevision.label>평면 TV</FlatscreenTelevision.label>
   <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
   <FlatscreenTelevision.description>더 많은 즐길 거리를 제공하는 고해상도 평면 TV를 만들 수 있습니다.</FlatscreenTelevision.description>
+  <!-- EN:
+    <li>subject->flatscreen televisions</li>
+    <li>subject_story->experimented with removing tubes from televisions</li>
+    <li>subject_story->agitated for galaxy-wide, high-resolution broadcasts of [tv_content]</li>
+    <li>tv_content->soap operas</li>
+    <li>tv_content->news programmes</li>
+    <li>tv_content->revolutionary propaganda</li>
+    <li>tv_content->glitterworld fashion</li>
+    <li>tv_content->docartoons</li>
+    <li>subject_story->became a television executive, in charge of [tv_content]</li>
+    <li>subject_gerund->producing flatscreen televisions</li>
+  -->
+  <FlatscreenTelevision.generalRules.rulesStrings>
+    <li>subject->평면 텔레비전</li>
+    <li>subject_story->텔레비전에서 관을 제거하는 실험을 했습니다</li>
+    <li>subject_story->[tv_content]의 은하계 전역 고해상도 방송에 흥분했습니다</li>
+    <li>tv_content->연속극</li>
+    <li>tv_content->뉴스 프로그램</li>
+    <li>tv_content->혁명 선전</li>
+    <li>tv_content->번화계 패션</li>
+    <li>tv_content->만화 제작</li>
+    <li>subject_story->[tv_content](을)를 담당하는 텔레비전 임원이 되었습니다</li>
+    <li>subject_gerund->평면 텔레비전 생산</li>
+  </FlatscreenTelevision.generalRules.rulesStrings>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>지면 투과 탐색기</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
   <GroundPenetratingScanner.description>지하 자원을 찾아내는 지면 투과 탐색기를 지을 수 있습니다.</GroundPenetratingScanner.description>
+  <!-- EN:
+    <li>subject->geophysics</li>
+    <li>subject->ground-penetrating scanners</li>
+    <li>subject_story->discovered the bones of ancient giants, far below the planet's surface</li>
+    <li>subject_story->stumbled across a rich gold seam whilst scanning for tin and became fabulously wealthy</li>
+    <li>subject_story->scanned the ground for ancient minefields, to protect the people</li>
+    <li>subject_gerund->constructing geophysical scanners</li>
+  -->
+  <GroundPenetratingScanner.generalRules.rulesStrings>
+    <li>subject->지구역학</li>
+    <li>subject->지면 투과 탐색기</li>
+    <li>subject_story->지표 아래 아주 깊은 곳에서 고대 거인들의 뼈를 발견했습니다</li>
+    <li>subject_story->주석을 찾아 스캐너를 사용하던 중 풍부한 금광맥을 찾아 매우 많은 양의 재산을 얻게되었습니다</li>
+    <li>subject_story->사람들을 지키고자 고대의 지뢰매립지를 스캔했습니다</li>
+    <li>subject_gerund->물리지질학적 탐색기 건설</li>
+  </GroundPenetratingScanner.generalRules.rulesStrings>
   
   <!-- EN: autocannon turret -->
   <HeavyTurrets.label>대형 포탑</HeavyTurrets.label>
   <!-- EN: Produce the heavy autocannon turret. -->
   <HeavyTurrets.description>소형 포탑보다 강력하고 긴 거리를 가진 포탑을 만들 수 있습니다.</HeavyTurrets.description>
+  <!-- EN:
+    <li>subject->autocannon turrets</li>
+    <li>subject_story->held off a cultist assault alone, hiding behind a wall of turrets</li>
+    <li>subject_story->was hired to establish a defensive perimeter of sandbags and turrets for the locals</li>
+    <li>subject_story->built turret after turret, never asking who was buying them</li>
+    <li>subject_gerund->crafting heavy autocannon turrets</li>
+  -->
+  <HeavyTurrets.generalRules.rulesStrings>
+    <li>subject->자동포탑 터렛</li>
+    <li>subject_story->터렛으로 벽을 쌓아, 홀로 광신도들의 습격을 버텨낼 수 있었습니다</li>
+    <li>subject_story->지역주민들에게 고용되어 모래주머니와 자동포탑으로 방호구역을 구축했습니다</li>
+    <li>subject_story->누가 사는지 묻지도 않고, 계속해서 터렛을 만들었습니다</li>
+    <li>subject_gerund->대형 자동포탑 건설</li>
+  </HeavyTurrets.generalRules.rulesStrings>
   
   <!-- EN: hospital bed -->
   <HospitalBed.label>회복 침대</HospitalBed.label>
   <!-- EN: Construct hospital beds which improve medical outcomes. -->
   <HospitalBed.description>성공적인 치료를 돕는 회복 침대를 만들 수 있습니다.</HospitalBed.description>
+  <!-- EN:
+    <li>subject->hospitalization</li>
+    <li>subject_story->oversaw a revolution in the standards of medical care</li>
+    <li>subject_story->constructed the first of the system's public hospitals</li>
+    <li>subject_story->focused on profit, selling their superior medical suites to the wealthy</li>
+    <li>subject_gerund->constructing hospital beds</li>
+  -->
+  <HospitalBed.generalRules.rulesStrings>
+    <li>subject->입원</li>
+    <li>subject_story->의료 표준의 혁명을 주도했습니다</li>
+    <li>subject_story->체계적인 첫 번째 공립 병원을 건설했습니다</li>
+    <li>subject_story->이익에 초점을 맞추어 우수한 의료 제품을 부유한 사람들에게 판매합니다</li>
+    <li>subject_gerund->회복 침대 건설</li>
+  </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>장거리 광물 탐색기</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
   <LongRangeMineralScanner.description>행성의 귀중한 자원을 탐지하는 데 사용하는 장비입니다. 특정 광물만을 찾도록 조정할 수 있습니다. 건설하려면 고급 부품이 필요합니다.</LongRangeMineralScanner.description>
+  <!-- EN:
+    <li>subject->long-range mineral detection</li>
+    <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>
+    <li>subject_story->discovered with a scanner what the other settlements were mining and made huge profits through trading</li>
+    <li>subject_story->mined out the entirety of the planet's jade for religious effigies</li>
+    <li>subject_gerund->constructing long-range mineral scanners</li>
+  -->
+  <LongRangeMineralScanner.generalRules.rulesStrings>
+    <li>subject->장거리 광물 탐색기</li>
+    <li>subject_story->행성의 전체 지형이 드러날 정도로 많은 탐색기를 만들었습니다</li>
+    <li>subject_story->다른 정착지에서 채굴하고 있는 것을 탐색기로 발견하고, 거래를 통해 막대한 이익을 얻었습니다</li>
+    <li>subject_story->종교적 조각상을 만들기 위해 행성의 옥 전체를 채굴했습니다</li>
+    <li>subject_gerund->장거리 광물 탐색기 건설</li>
+  </LongRangeMineralScanner.generalRules.rulesStrings>
   
   <!-- EN: medicine production -->
   <MedicineProduction.label>약품 생산</MedicineProduction.label>
   <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
   <MedicineProduction.description>생약, 뉴트로아민, 천을 이용하여 약품 키트를 만들 수 있습니다.</MedicineProduction.description>
+  <!-- EN:
+    <li>subject->medical synthesis</li>
+    <li>subject->medicine production</li>
+    <li>subject_story->researched urbworld medicine, aiming to distribute the knowledge more widely</li>
+    <li>subject_story->was puzzled by the origins of neutroamine and determined to find out more</li>
+    <li>subject_story->seized the resources of a drug-dealer and produced useful medicines instead</li>
+    <li>subject_gerund->producing industrial-tech medicine</li>
+  -->
+  <MedicineProduction.generalRules.rulesStrings>
+    <li>subject->종합 의학</li>
+    <li>subject->의약품 생산</li>
+    <li>subject_story->지식을 더 널리 퍼뜨리는 것을 목표로 도시계 의약품을 연구했습니다</li>
+    <li>subject_story->뉴트로아민의 기원에 대해 의아해했고, 더 많은 것을 알아내기로 결심했습니다</li>
+    <li>subject_story->마약 상인의 자원을 빼앗아 대신 유용한 의약품을 생산했습니다</li>
+    <li>subject_gerund->산업시대급 약품 생산</li>
+  </MedicineProduction.generalRules.rulesStrings>
   
   <!-- EN: microelectronics -->
   <MicroelectronicsBasics.label>미소전자공학</MicroelectronicsBasics.label>
   <!-- EN: Work with complex microelectronics. This unlocks the hi-tech research bench and comms console. -->
   <MicroelectronicsBasics.description>섬세하고 복잡한 전자제품을 다루는 기초 기술입니다. 고급 연구 작업대, 통신 제어반을 건설할 수 있으며 음극선관 및 동면을 포함한 다른 연구과제들의 잠금을 해제합니다.</MicroelectronicsBasics.description>
+  <!-- EN:
+    <li>subject->microelectronics</li>
+    <li>subject_story->moved into the development of microelectronics</li>
+    <li>subject_story->constructed the first of many research bench variants</li>
+    <li>subject_story->moved from town to town, praising the virtues of pure research</li>
+    <li>subject_gerund->crafting microelectronics</li>
+  -->
+  <MicroelectronicsBasics.generalRules.rulesStrings>
+    <li>subject->미소전자공학</li>
+    <li>subject_story->미소전자공학 개발에 투신했습니다</li>
+    <li>subject_story->많은 연구 작업대 변형 중 첫 번째를 만들어 냈습니다</li>
+    <li>subject_story->순수한 학구열을 찬양하며 이 도시 저 도시를 전전했습니다</li>
+    <li>subject_gerund->미소전자제품 생산</li>
+  </MicroelectronicsBasics.generalRules.rulesStrings>
   
   <!-- EN: moisture pump -->
   <MoisturePump.label>습도 조정 펌프</MoisturePump.label>
   <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
   <MoisturePump.description>주변 땅의 습도를 매우 천천히 정상화하는 조정 펌프를 건설합니다. 젖은 땅을 건조하게 하고, 고운 모래를 일반 모래로 바꿀 수 있습니다.</MoisturePump.description>
+  <!-- EN:
+    <li>subject->moisture pumps</li>
+    <li>subject_story->studied the ancient windmill moisture pumps of Earth</li>
+    <li>subject_story->drained the great swamps that bred disease</li>
+    <li>subject_story->tried to drain the seas, foolishly</li>
+    <li>subject_gerund->constructing moisture pumps</li>
+  -->
+  <MoisturePump.generalRules.rulesStrings>
+    <li>subject->습도 조정 펌프</li>
+    <li>subject_story->고대 지구의 풍차를 사용한 습지 제어를 연구했습니다</li>
+    <li>subject_story->질병을 일으키는 큰 늪의 물을 빼냈습니다</li>
+    <li>subject_story->어리석게도 바다의 물을 빼내려고 했습니다</li>
+    <li>subject_gerund->습도 조정 펌프 건설</li>
+  </MoisturePump.generalRules.rulesStrings>
   
   <!-- EN: multibarrel weapons -->
   <MultibarrelWeapons.label>다중 총열</MultibarrelWeapons.label>
   <!-- EN: Assemble miniguns. -->
   <MultibarrelWeapons.description>미니건을 만들 수 있습니다.</MultibarrelWeapons.description>
+  <!-- EN:
+    <li>subject->miniguns</li>
+    <li>subject_story->constructed a unique portable minigun, which was the only thing found after the squad's disappearance</li>
+    <li>subject_story->designed massive hoppers to ensure the minigun ammo didn't run out</li>
+    <li>subject_story->built guns explicitly to kill every last person in a room</li>
+    <li>subject_gerund->crafting multibarrel weapons</li>
+  -->
+  <MultibarrelWeapons.generalRules.rulesStrings>
+    <li>subject->미니건</li>
+    <li>subject_story->독특한 휴대용 미니건을 제작했습니다. 분대가 전멸한 후 그 미니건이 남은 전부였습니다</li>
+    <li>subject_story->미니건 탄약이 떨어지지 않도록 대형 급탄기를 설계했습니다</li>
+    <li>subject_story->방에 있는 모든 사람을 죽이기 위한 총을 만들었습니다</li>
+    <li>subject_gerund->다중 총열 무기 생산</li>
+  </MultibarrelWeapons.generalRules.rulesStrings>
   
   <!-- EN: precision rifling -->
   <PrecisionRifling.label>정교한 강선</PrecisionRifling.label>
   <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
   <PrecisionRifling.description>돌격소총, 저격소총을 만들 수 있습니다.</PrecisionRifling.description>
+  <!-- EN:
+    <li>subject->rifles</li>
+    <li>subject_story->improved the tolerances of a foundry's processes, enabling the production of quality rifling</li>
+    <li>subject_story->was hunted by neanderthals but constructed a sniper rifle to safely kill their leader</li>
+    <li>subject_story->became briefly famous for shooting an ambrosia fruit out of the overlord's hand</li>
+    <li>subject_gerund->crafting rifles</li>
+  -->
+  <PrecisionRifling.generalRules.rulesStrings>
+    <li>subject->소총</li>
+    <li>subject_story->주조 공장 공정의 허용 오차를 개선하여, 고품질 강선 생산을 가능하게 했습니다</li>
+    <li>subject_story->네안데르탈인에게 쫓기는 와중에도 그들의 지도자를 안전하게 죽이기 위해 저격소총을 만들었습니다</li>
+    <li>subject_story->대군주가 손에 들고 있는 암브로시아 열매를 쏘아 떨어뜨려 잠시 유명해졌습니다</li>
+    <li>subject_gerund->강선 제작</li>
+  </PrecisionRifling.generalRules.rulesStrings>
   
   <!-- EN: shields -->
   <ShieldBelt.label>보호막</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary. -->
   <ShieldBelt.description>원거리 투사체를 막는 휴대용 보호막 발생 장치를 만들 수 있습니다.</ShieldBelt.description>
+  <!-- EN:
+    <li>subject->personal shielding</li>
+    <li>subject_story->survived an assassination attempt, thanks to a prototype shield</li>
+    <li>subject_story->hustled at billiards, using a hidden momentum repeller</li>
+    <li>subject_story->killed an enemy by advancing a blade slowly enough to bypass their shield</li>
+    <li>subject_gerund->crafting personal shields</li>
+  -->
+  <ShieldBelt.generalRules.rulesStrings>
+    <li>subject->개인 보호막</li>
+    <li>subject_story->견본 방패 덕분에 암살 시도에서 살아남았습니다</li>
+    <li>subject_story->숨겨진 추진력 리펠러를 사용하여 당구장에서 이겼습니다</li>
+    <li>subject_story->방패를 피해서 여유있게 칼을 휘둘러 적을 죽였습니다</li>
+    <li>subject_gerund->개인용 보호막 투사기 제작</li>
+  </ShieldBelt.generalRules.rulesStrings>
   
   <!-- EN: transport pod -->
   <TransportPod.label>수송 포드</TransportPod.label>
   <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
   <TransportPod.description>사람이나 물건을 태우고 행성의 먼 거리를 빠르게 이동하는 수송 포드를 만들 수 있습니다.</TransportPod.description>
+  <!-- EN:
+    <li>subject->transport pods</li>
+    <li>subject_story->landed a pod in the middle of a feral tribe and barely escaped alive</li>
+    <li>subject_story->spent a fortune sending a transport pod to the object of their affection, carrying a single wedding ring</li>
+    <li>subject_story->staved off famine through judicious pod deployment</li>
+    <li>subject_gerund->constructing transport pods</li>
+  -->
+  <TransportPod.generalRules.rulesStrings>
+    <li>subject->수송 포드</li>
+    <li>subject_story->야생부족 한가운데에 착륙하고 겨우 살아서 탈출했습니다</li>
+    <li>subject_story->결혼반지 한 개를 사랑하는 사람에게 수송 포드로 보내는 데 많은 돈을 썼습니다</li>
+    <li>subject_story->현명한 수송포드 배치 운용으로 기근을 막았습니다</li>
+    <li>subject_gerund->수송 포드 건설</li>
+  </TransportPod.generalRules.rulesStrings>
   
 </LanguageData>

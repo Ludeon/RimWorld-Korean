@@ -29,12 +29,24 @@
   <!-- EN: {0_pawnsPluralDef} will arrive on foot. -->
   <EdgeWalkIn.textWillArrive>{0_pawnsPluralDef}(이)가 걸어서 도착했습니다.</EdgeWalkIn.textWillArrive>
   
+  <!-- EN: A group of {0} from {1} have arrived from every direction. -->
+  <EdgeWalkInDistributed.textEnemy>{1}에서 온 {0}의 무리가 여기저기서 도착했습니다.</EdgeWalkInDistributed.textEnemy>
+  <!-- EN: A group of friendly {0} from {1} have arrived from every direction. -->
+  <EdgeWalkInDistributed.textFriendly>우호적인 {1}에서 온 {0}의 무리가 여기저기서 도착했습니다.</EdgeWalkInDistributed.textFriendly>
+  <!-- EN: {0_pawnsPluralDef} will arrive on foot from every direction. -->
+  <EdgeWalkInDistributed.textWillArrive>{0_pawnsPluralDef}(이)가 곳곳에서 걸어옵니다.</EdgeWalkInDistributed.textWillArrive>
+  
   <!-- EN: {0} from {1} have arrived nearby, approaching from multiple angles. -->
   <EdgeWalkInGroups.textEnemy>각기 떨어진 {1}의 {0} 무리가 근처에 도착했습니다.</EdgeWalkInGroups.textEnemy>
   <!-- EN: Friendly {0} from {1} have arrived nearby, approaching from multiple angles. -->
   <EdgeWalkInGroups.textFriendly>각기 떨어진 우호적인 {1}의 {0} 무리가 근처에 도착했습니다.</EdgeWalkInGroups.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot, approaching from several angles at once. -->
   <EdgeWalkInGroups.textWillArrive>{0_pawnsPluralDef}(이)가 걸어서 도착하여, 한번에 여러 갈래에서 접근합니다.</EdgeWalkInGroups.textWillArrive>
+  
+  <!-- EN: Several {0} are emerging from the water. -->
+  <EmergeFromWater.textEnemy>몇몇 {0}들이 물속에서 나타났습니다.</EmergeFromWater.textEnemy>
+  <!-- EN: {0_pawnsPluralDef} will emerge from the water. -->
+  <EmergeFromWater.textWillArrive>{0_pawnsPluralDef}(이)가 물속에서 나타났습니다.</EmergeFromWater.textWillArrive>
   
   <!-- EN: A cluster of {0} have landed in drop pods nearby. -->
   <MechClusterDrop.textEnemy>{0}의 무리가 근처에 수송포드로 착륙했습니다.</MechClusterDrop.textEnemy>

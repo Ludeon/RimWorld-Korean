@@ -5,25 +5,105 @@
   <CataphractArmor.label>근위대 갑옷</CataphractArmor.label>
   <!-- EN: Craft cataphract armor, heavy powered armor that slows the user but which can absorb extreme punishment. Note that these also require advanced components. -->
   <CataphractArmor.description>근위대가 사용하는 두터운 갑옷과 헬멧을 만들 수 있습니다. 착용자의 몸을 둔하게 만들지만, 극도의 방어력을 자랑합니다. 고급 부품이 필요합니다.</CataphractArmor.description>
+  <!-- EN:
+    <li>subject->cataphract armor</li>
+    <li>subject_story->first developed their cataphract-equivalent armor as a method of exploring active volcanoes</li>
+    <li>subject_story->was commissioned to produce custom sets of cataphract armor for Imperial boarding parties</li>
+    <li>subject_story->fought with the rebels and studied the armor of a captured cataphract</li>
+    <li>subject_gerund->crafting cataphract armor</li>
+  -->
+  <CataphractArmor.generalRules.rulesStrings>
+    <li>subject->근위대 갑옷</li>
+    <li>subject_story->활화산을 탐험할 때의 방법을 응용해서 최초로 근위대 갑옷을 개발했습니다</li>
+    <li>subject_story->황실 탑승자를 위한 맞춤형 근위대 갑옷 세트를 생산하도록 의뢰받았습니다</li>
+    <li>subject_story->반군과 싸우고 포획한 근위대 갑옷을 연구했습니다</li>
+    <li>subject_gerund->근위대 갑옷 제작</li>
+  </CataphractArmor.generalRules.rulesStrings>
   
   <!-- EN: gunlink -->
   <Gunlink.label>조준 보조기</Gunlink.label>
   <!-- EN: Build wearable gunlinks to enhance your soldiers' shooting accuracy. -->
   <Gunlink.description>착용자의 사격 정확도를 높여주는 조준 보조기를 만들 수 있습니다.</Gunlink.description>
+  <!-- EN:
+    <li>subject->accuracy enhancement</li>
+    <li>subject_story->converted a glitterworld ocular implant into a more generic targeting computer</li>
+    <li>subject_story->was happy at the performance of the factory's gunlinks, though the increased death rate due to helmet loss was troubling</li>
+    <li>subject_story->bulk-purchased gunlinks for the snipers in the army, forbidding them to front-line soldiers</li>
+    <li>subject_gerund->enhancing accuracy with gunlinks</li>
+  -->
+  <Gunlink.generalRules.rulesStrings>
+    <li>subject->명중률 향상</li>
+    <li>subject_story->번화계 인공 눈 삽입물을 보다 일반적인 컴퓨터로 변환했습니다</li>
+    <li>subject_story->헬멧 분실로 인한 사망률 증가가 문제였지만, 공장의 총기 성능에는 만족했습니다</li>
+    <li>subject_story->bulk-군대에서 저격수들을 위해 총기 접속기를 구입했고, 최전방 병사들에게는 금지시켰습니다</li>
+    <li>subject_gerund->조준 보조기를 통한 명중률 향상</li>
+  </Gunlink.generalRules.rulesStrings>
   
   <!-- EN: jump packs -->
   <JumpPack.label>점프팩</JumpPack.label>
   <!-- EN: Build jump packs to perform aerial assaults during combat. -->
   <JumpPack.description>먼 거리를 순간적으로 도약할 수 있는 휴대용 점프팩을 만들 수 있습니다.</JumpPack.description>
+  <!-- EN:
+    <li>subject->jump packs</li>
+    <li>subject->short-distance flight</li>
+    <li>subject_story->operated an entertainment park focused on extreme experiences, including boomrat petting and jump pack courses</li>
+    <li>subject_story->ran mountaineering tours on low-grav planets, where jump packs and oxygen masks were mandatory</li>
+    <li>subject_story->bypassed the turret defenses of officer training with a jump pack assault</li>
+    <li>subject_gerund->performing aerial assaults</li>
+    <li>subject_gerund->crafting jump packs</li>
+  -->
+  <JumpPack.generalRules.rulesStrings>
+    <li>subject->점프팩</li>
+    <li>subject->단거리 비행</li>
+    <li>subject_story->폭탄쥐 쓰다듬기, 점프팩 코스 등 극한 체험 중심의 놀이공원을 운영했습니다</li>
+    <li>subject_story->점프팩과 산소마스크가 필수인 저중력 행성에서 산악 관광여행을 운영했습니다</li>
+    <li>subject_story->장교 훈련 때 점프팩 돌격으로 포탑 방어를 우회했습니다</li>
+    <li>subject_gerund->공중 강습 실행</li>
+    <li>subject_gerund->점프팩 제작</li>
+  </JumpPack.generalRules.rulesStrings>
   
   <!-- EN: noble apparel -->
   <NobleApparel.label>귀족 의류</NobleApparel.label>
-  <!-- EN: Tailor noble-specific apparel like formal shirts and royal robes. -->
-  <NobleApparel.description>예복 셔츠, 망토 등의 화려한 귀족 의류를 만들 수 있습니다.</NobleApparel.description>
+  <!-- EN: Tailor noble-specific apparel like formal shirts and top hats. -->
+  <NobleApparel.description>예복 셔츠, 높은 모자 등의 화려한 귀족 의류를 만들 수 있습니다.</NobleApparel.description>
+  <!-- EN:
+    <li>subject->formal apparel</li>
+    <li>subject->noble apparel</li>
+    <li>subject_story->crafted formal corsetry for urbworld student graduations</li>
+    <li>subject_story->was employed by a noble house to shape its top hats</li>
+    <li>subject_story->invented a new style of beret that was all the rage for an entire season</li>
+    <li>subject_gerund->tailoring for the nobility</li>
+    <li>subject_gerund->crafting noble apparel</li>
+  -->
+  <NobleApparel.generalRules.rulesStrings>
+    <li>subject->예식 복장</li>
+    <li>subject->귀족 복장</li>
+    <li>subject_story->도시계 학생 졸업식을 위해 예식 코르셋을 만들었습니다</li>
+    <li>subject_story->귀족 가문에 고용되어 실크해트를 만들었습니다</li>
+    <li>subject_story->한 시즌내내 유행했던 새로운 형태의 베레모를 만들었습니다</li>
+    <li>subject_gerund->귀족용 의류 제작</li>
+    <li>subject_gerund->귀족 복장 제작</li>
+  </NobleApparel.generalRules.rulesStrings>
   
   <!-- EN: royal apparel -->
   <RoyalApparel.label>왕실 의류</RoyalApparel.label>
   <!-- EN: Tailor royal apparel of the highest tier, like royal robes and crowns. -->
   <RoyalApparel.description>왕실 예복, 왕관 등 최고급 왕실 의류를 만들 수 있습니다.</RoyalApparel.description>
+  <!-- EN:
+    <li>subject->royal apparel</li>
+    <li>subject_story->worked for an entire year to create royal robes for a coronation</li>
+    <li>subject_story->studied the heraldric requirements of different noble groups to ensure any outfits were appropriate</li>
+    <li>subject_story->was raised to the Imperial nobility and commissioned their own robes and coronet</li>
+    <li>subject_gerund->tailoring for monarchs</li>
+    <li>subject_gerund->crafting royal apparel</li>
+  -->
+  <RoyalApparel.generalRules.rulesStrings>
+    <li>subject->왕실 복장</li>
+    <li>subject_story->즉위식을 위한 왕실 예복을 만들기 위해 1년 내내 일했습니다</li>
+    <li>subject_story->어떤 의상이 적절한지 확인하기 위해 다양한 귀족들의 문장학적 요구 사항을 연구했습니다</li>
+    <li>subject_story->황실 귀족으로 승격되었고, 그들의 예복과 제관을 위임받았습니다</li>
+    <li>subject_gerund->왕족용 의류 제작</li>
+    <li>subject_gerund->왕실 복장 제작</li>
+  </RoyalApparel.generalRules.rulesStrings>
   
 </LanguageData>

@@ -1,42 +1,77 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- Main menu-->
   <!-- EN: A story generator by Tynan Sylvester -->
   <MainPageCredit>타이난 실베스터의 이야기 생성기</MainPageCredit>
 
+  <!-- Credits -->
+  <!-- EN: Design -->
+  <Credits_Design>디자인</Credits_Design>
   <!-- EN: Engineering -->
   <Credits_Developers>엔지니어링</Credits_Developers>
   <!-- EN: Audio -->
   <Credit_MusicAndSound>음향</Credit_MusicAndSound>
   <!-- EN: Art -->
   <Credit_GameArt>아트</Credit_GameArt>
-  <!-- EN: Menu art -->
-  <Credit_MenuArt>메뉴 아트</Credit_MenuArt>
-  <!-- EN: Additional engineering -->
-  <Credits_AdditionalDevelopment>추가 엔지니어링</Credits_AdditionalDevelopment>
-  <!-- EN: Community volunteers -->
-  <Credits_TitleCommunity>커뮤니티 자원자</Credits_TitleCommunity>
-  <!-- EN: Community testers -->
-  <Credits_TitleTester>커뮤니티 테스터</Credits_TitleTester>
+  <!-- EN: Testers -->
+  <Credit_Testers>테스터</Credit_Testers>
+  <!-- EN: Additional development -->
+  <Credits_AdditionalDevelopment>추가 개발</Credits_AdditionalDevelopment>
+
+  <!-- EN: Volunteer testers -->
+  <Credits_TitleTester>자원 테스터</Credits_TitleTester>
+
   <!-- EN: Mods -->
   <Credits_TitleMods>모드</Credits_TitleMods>
-  <!-- EN: Mod donor -->
+
+  <!-- EN: {0} language -->
+  <Credits_TitleLanguage>{0} 번역</Credits_TitleLanguage>
+  <!-- EN: Anomaly localization -->
+  <Credits_Localization_Anomaly>아노말리 지역화</Credits_Localization_Anomaly><!-- text_todo -->
+  <!-- EN: Lead Localization Project Manager -->
+  <Credits_LeadLocalizationProjectManager>지역화 리드 프로젝트 매니저</Credits_LeadLocalizationProjectManager><!-- text_todo -->
+  <!-- EN: Localization Project Manager -->
+  <Credits_LocalizationProjectManager>지역화 프로젝트 매니저</Credits_LocalizationProjectManager><!-- text_todo -->
+  <!-- EN: Project Manager -->
+  <Credits_ProjectManager>프로젝트 매니저</Credits_ProjectManager><!-- text_todo -->
+  <!-- EN: Translator -->
+  <Credits_Translator>번역</Credits_Translator><!-- text_todo -->
+  <!-- EN: Editor -->
+  <Credits_Editor>편집자</Credits_Editor><!-- text_todo -->
+  <!-- EN: French -->
+  <Credits_French>프랑스어</Credits_French><!-- text_todo -->
+  <!-- EN: Japanese -->
+  <Credits_Japanese>일본어</Credits_Japanese><!-- text_todo -->
+  <!-- EN: Korean -->
+  <Credits_Korean>한국어</Credits_Korean><!-- text_todo -->
+  <!-- EN: Polish -->
+  <Credits_Polish>폴란드어</Credits_Polish><!-- text_todo -->
+  <!-- EN: Russian -->
+  <Credits_Russian>러시아어</Credits_Russian><!-- text_todo -->
+  <!-- EN: Simplified Chinese -->
+  <Credits_ChineseSimplified>중국어 (간체)</Credits_ChineseSimplified><!-- text_todo -->
+  <!-- EN: Traditional Chinese -->
+  <Credits_ChineseTraditional>중국어 (번체)</Credits_ChineseTraditional><!-- text_todo -->
+
+  <!-- Credits - Currently unused -->
+  <!-- EN: Special thanks -->
+  <Credit_SpecialThanks>고마운 분들</Credit_SpecialThanks>
+  <!-- EN: Test lead -->
+  <Credit_TestLead>테스트 리드</Credit_TestLead>
+  <!-- EN: Community donations -->
+  <Credits_TitleCommunity>커뮤니티 기부</Credits_TitleCommunity>
+  <!-- EN: Mod donors -->
   <Credit_ModDonation>모드 기증</Credit_ModDonation>
   <!-- EN: Writing donor -->
   <Credit_WritingDonation>이야기 기증</Credit_WritingDonation>
-  <!-- EN: Moderator -->
-  <Credit_Moderator>포럼 관리</Credit_Moderator>
-  <!-- EN: Wiki master -->
-  <Credit_WikiMaster>위키 관리</Credit_WikiMaster>
-  <!-- EN: Test lead -->
-  <Credit_TestLead>테스트 리드</Credit_TestLead>
-  <!-- EN: {0} language -->
-  <Credits_TitleLanguage>{0} 번역</Credits_TitleLanguage>
+
+  <!-- Meta -->
   <!-- EN: Thanks for playing! -->
   <ThanksForPlaying>플레이해 주셔서 감사합니다!</ThanksForPlaying>
+  <!-- EN: Skip credits -->
+  <SkipCredits>넘기기</SkipCredits>
 
-  <!-- Currently unused -->
-  <!-- EN: Special thanks -->
-  <Credit_SpecialThanks>고마운 분들</Credit_SpecialThanks>
+
 
 </LanguageData>

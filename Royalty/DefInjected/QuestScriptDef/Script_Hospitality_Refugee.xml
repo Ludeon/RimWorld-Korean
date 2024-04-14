@@ -40,8 +40,15 @@
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
     <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violated: Revenge</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] arrested: Departure</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violated: Departure</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violated: Anger</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violated: Revenge</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violated: Departure</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Betrayal</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] turning against you!\n\nIt seems [lodgersPronoun] had this treachery planned all along.</li>
     <li>areIs(lodgerCount==1)->is</li>
@@ -88,14 +95,14 @@
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
     <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 유린: 복수</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 체포: 이탈</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 위반: 이탈</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
-    <li>mutinyLetterLabel->배신</li>
-    <li>mutinyLetterText->[whoAskedToStay] [lodgersSingularOrPluralDef](이)가 당신을 배신했습니다!\n\n[lodgersPronoun](은)는 처음부터 배신할 생각이었던 것 같습니다.</li>
-    <li>areIs(lodgerCount==1)-></li>
-    <li>areIs(lodgerCount>=2)-></li>
-    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural](이)가 떠나는 중</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef}(이)가 [map_definite]에 [questDurationTicks_duration]간 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표하고, {FACTION_leaderPossessive} 사람들과 떠나는 중입니다.\n\n{FACTION_leaderNameDef}(은)는 이 일을 잊지 않겠다고 말했습니다.</li>
+    <li>letterIntroPsychicRitualTarget->[oneOfThe] {SUBJECT_definite}(은)는 초정신 의식 대상자입니다.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] 위반: 분노</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] 위반: 복수</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] 위반: 이탈</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>

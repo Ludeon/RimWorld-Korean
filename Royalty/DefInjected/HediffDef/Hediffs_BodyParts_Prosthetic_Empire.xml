@@ -3,8 +3,8 @@
   
   <!-- EN: drill arm -->
   <DrillArm.label>드릴 팔</DrillArm.label>
-  <!-- EN: An installed drill arm. -->
-  <DrillArm.description>드릴 팔을 설치했습니다.</DrillArm.description>
+  <!-- EN: An installed drill arm. Allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly. -->
+  <DrillArm.description>설치된 드릴 팔로 광맥을 빠르게 채굴할 수 있습니다. 또한 범용 조작기가 있지만, 거추장스러워서 이동속도가 약간 느려집니다.</DrillArm.description>
   <!-- EN: drill -->
   <DrillArm.comps.HediffComp_VerbGiver.tools.drill.label>드릴</DrillArm.comps.HediffComp_VerbGiver.tools.drill.label>
   <!-- EN: a drill arm -->
@@ -12,8 +12,8 @@
   
   <!-- EN: elbow blade -->
   <ElbowBlade.label>팔꿈치 칼날</ElbowBlade.label>
-  <!-- EN: An installed elbow blade. -->
-  <ElbowBlade.description>팔꿈치 칼날을 설치했습니다.</ElbowBlade.description>
+  <!-- EN: An installed elbow blade. Extends at will from a hidden opening at the end of the ulna. Appearing without warning, it can be used for devastating slice attacks. -->
+  <ElbowBlade.description>설치된 팔꿈치 칼날로 팔꿈치 아래 숨겨진 구멍으로부터 자유자재로 뻗어낼 수 있습니다. 상대가 알아차리기도 전에 튀어나와 치명적인 베기 공격을 가능하게 합니다.</ElbowBlade.description>
   <!-- EN: blade -->
   <ElbowBlade.comps.HediffComp_VerbGiver.tools.blade.label>칼날</ElbowBlade.comps.HediffComp_VerbGiver.tools.blade.label>
   <!-- EN: an elbow blade -->
@@ -21,8 +21,8 @@
   
   <!-- EN: field hand -->
   <FieldHand.label>농업용 기계손</FieldHand.label>
-  <!-- EN: An installed field hand. -->
-  <FieldHand.description>농업용 기계손을 설치했습니다.</FieldHand.description>
+  <!-- EN: An installed field hand. Made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly. -->
+  <FieldHand.description>설치된 농업용 기계손으로 수확과 파종 속도를 높이고, 망원경 자루처럼 생긴 여러 개의 손가락으로 한 작물의 여러 지점을 동시에 수확하거나, 동시에 파종할 수 있습니다. 또한 범용 조작기가 있어 다른 작업도 문제없지만, 거추장스러워서 이동속도가 약간 느려집니다.</FieldHand.description>
   <!-- EN: knuckle -->
   <FieldHand.comps.HediffComp_VerbGiver.tools.knuckle.label>주먹</FieldHand.comps.HediffComp_VerbGiver.tools.knuckle.label>
   <!-- EN: a field hand -->
@@ -30,8 +30,8 @@
   
   <!-- EN: hand talon -->
   <HandTalon.label>칼날 손톱</HandTalon.label>
-  <!-- EN: An installed hand talon. -->
-  <HandTalon.description>칼날 손톱을 설치했습니다.</HandTalon.description>
+  <!-- EN: An installed hand talon. Extends from a hidden opening between the middle and ring fingers. The talon is longer than the palm, but it becomes flexible upon retracting, allowing the user to curl it up and conceal it inside the hand. It can perform rapid slashing attacks, but is poor at penetrating armor. -->
+  <HandTalon.description>중지와 약지 사이에서 설치된 기다란 손 칼날입니다. 손바닥보다 길지만, 유연해서 평소에는 손안에 말아 숨길 수 있습니다. 빠른 공격이 가능하지만, 갑옷을 뚫기는 힘듭니다.</HandTalon.description>
   <!-- EN: talon -->
   <HandTalon.comps.HediffComp_VerbGiver.tools.talon.label>칼날 손톱</HandTalon.comps.HediffComp_VerbGiver.tools.talon.label>
   <!-- EN: a hand talon -->
@@ -39,8 +39,8 @@
   
   <!-- EN: knee spike -->
   <KneeSpike.label>무릎 송곳</KneeSpike.label>
-  <!-- EN: An installed knee spike. -->
-  <KneeSpike.description>무릎 송곳을 설치했습니다.</KneeSpike.description>
+  <!-- EN: An installed knee spike. Extends at will from a hidden opening on the front of the knee. Appearing without warning, it can be used for devastating stabbing attacks which penetrate even thick armor. -->
+  <KneeSpike.description>설치된 무릎 송곳입니다. 무릎 앞쪽에 숨겨진 구멍으로부터 자유자재로 뻗어낼 수 있습니다. 상대가 알아차리기도 전에 튀어나와 두꺼운 갑옷까지 관통하는 치명적인 찌르기 공격을 합니다.</KneeSpike.description>
   <!-- EN: spike -->
   <KneeSpike.comps.HediffComp_VerbGiver.tools.spike.label>송곳</KneeSpike.comps.HediffComp_VerbGiver.tools.spike.label>
   <!-- EN: a knee spike -->
@@ -48,15 +48,15 @@
   
   <!-- EN: mindscrew -->
   <Mindscrew.label>정신 압박기</Mindscrew.label>
-  <!-- EN: An installed mindscrew. -->
-  <Mindscrew.description>정신 압박기를 설치했습니다.</Mindscrew.description>
+  <!-- EN: An installed mindscrew. Inflicts continuous pain on the user. Mindscrews are used by some authorities as a long-term punishment. Some even install them voluntarily as a demonstration of ideological or religious devotion. -->
+  <Mindscrew.description>이식된 정신 압박기입니다. 사용자에게 지속적인 통증을 유발하는 장치입니다. 정신 압박기는 일부 세력권에서 장기적인 처벌을 가할 때 사용합니다. 어떤 이들은 이념이나 종교적인 신념 때문에 자발적으로 설치하기도 합니다.</Mindscrew.description>
   <!-- EN: a mindscrew -->
   <Mindscrew.labelNoun>정신 압박기</Mindscrew.labelNoun>
   
   <!-- EN: venom fangs -->
   <VenomFangs.label>독니</VenomFangs.label>
-  <!-- EN: An installed set of venom fangs. -->
-  <VenomFangs.description>독니를 설치했습니다.</VenomFangs.description>
+  <!-- EN: An installed set of venom fangs. The user can bite an enemy, extend the injectors, and pump venom into the target. -->
+  <VenomFangs.description>착용자가 넓게 확장된 독니를 사용해 적을 물어 독을 주입할 수 있습니다.</VenomFangs.description>
   <!-- EN: venom fangs -->
   <VenomFangs.comps.HediffComp_VerbGiver.tools.venom_fangs.label>독니</VenomFangs.comps.HediffComp_VerbGiver.tools.venom_fangs.label>
   <!-- EN: a set of venom fangs -->
@@ -64,8 +64,8 @@
   
   <!-- EN: venom talon -->
   <VenomTalon.label>맹독 손톱</VenomTalon.label>
-  <!-- EN: An installed venom talon. -->
-  <VenomTalon.description>맹독 손톱을 설치했습니다.</VenomTalon.description>
+  <!-- EN: An installed venom talon. The user can scratch an enemy while squirting venom into the wound. The talon is designed to be installed in the middle finger. It's fast, but poor at penetrating armor. -->
+  <VenomTalon.description>설치된 맹독 손톱으로 적을 할퀴어 상처를 낸 후 독을 주입합니다. 빠른 공격이 가능하지만 갑옷을 뚫기는 힘듭니다.</VenomTalon.description>
   <!-- EN: venom talon -->
   <VenomTalon.comps.HediffComp_VerbGiver.tools.venom_talon.label>맹독 손톱</VenomTalon.comps.HediffComp_VerbGiver.tools.venom_talon.label>
   <!-- EN: a venom talon -->

@@ -11,6 +11,11 @@
   <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
   <BillsTab.helpText>작업대에서 일을 시키려면 우선 해당 작업대를 선택 후 계획서 창을 열어야 합니다. 그 후에 뭘 요리할지, 뭘 만들지, 뭘 도축할지 등을 정할 수 있습니다.</BillsTab.helpText>
   
+  <!-- EN: books -->
+  <Books.label>책</Books.label>
+  <!-- EN: Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\n\nTo choose what colonists will read, open the ASSIGN tab and configure READING POLICIES.\n\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room. -->
+  <Books.helpText>정착민들은 재미를 위해, 기술을 향상하기 위해, 연구를 해제하기 위해 등 다양한 이유로 책을 읽을 수 있습니다. 특정 책의 독서 효과를 보려면 먼저 책을 선택한 후 '상세' 탭을 여세요.\n\n정착민들이 읽을 책의 종류를 선택하려면 정책 창의 독서 정책을 설정하세요.\n\n책을 책꽂이에 보관하면 책꽂이 근처의 연구 작업 속도가 빨라지고 미관도 좋아집니다. 또한 같은 방에서 행해지는 독서의 연구, 기술 경험치, 재미 습득량이 증가합니다.</Books.helpText>
+  
   <!-- EN: Build orbital trade beacon -->
   <BuildOrbitalTradeBeacon.label>무역 송신기 건설</BuildOrbitalTradeBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
@@ -39,9 +44,9 @@
   <DrugAddiction.helpText>정착민의 약물에 대한 갈망을 필요 창에서 확인할 수 있습니다.\n\n약물 수치가 0에 머물면 중독 상태는 "금단 현상"으로 바뀌며 다양한 부작용을 받습니다.\n\n그러나 시간이 충분히 지난 후에는 약물 필요가 사라집니다.</DrugAddiction.helpText>
   
   <!-- EN: Drug burning -->
-  <DrugBurning.label>마약 불태우기</DrugBurning.label>
+  <DrugBurning.label>약물 불태우기</DrugBurning.label>
   <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
-  <DrugBurning.helpText>마약은 유용할 수 있지만 중독의 위험도 가지고 있습니다.\n\n정착지를 마약 청정 구역으로 만들고 싶다면 모닥불에서 태워버릴 수 있습니다.</DrugBurning.helpText>
+  <DrugBurning.helpText>약물은 유용할 수 있지만 중독의 위험도 가지고 있습니다.\n\n정착지를 약물 청정 구역으로 만들고 싶다면 모닥불에서 태워버릴 수 있습니다.</DrugBurning.helpText>
   
   <!-- EN: Drug policies -->
   <DrugPolicies.label>약물 정책</DrugPolicies.label>
@@ -71,8 +76,8 @@
   
   <!-- EN: Prisoner tab -->
   <PrisonerTab.label>수감자 관리</PrisonerTab.label>
-  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored or executed, whether they eat, and what kind of medical care they get.\n\nColonists with the Warden work type will interact with the prisoner. -->
-  <PrisonerTab.helpText>수감자의 "죄수" 창에서 각자의 처우를 정할 수 있습니다.\n\n포섭을 시도하거나, 무시하거나, 처형할 수 있고 음식을 받을지, 어떤 치료를 받을지도 정할 수 있습니다.\n\n간수 작업을 할당받은 정착민이 수감자와 상호작용합니다.</PrisonerTab.helpText>
+  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner. -->
+  <PrisonerTab.helpText>수감자 탭에서 대상의 처우를 정할 수 있습니다.\n\n포섭 시도나 무시 또는 처형할 수 있고, 어떤 치료를 받을지도 정할 수 있습니다. 수감자의 건강 탭에서 음식 정책을 설정할 수 있습니다.\n\n간수 작업을 할당 받은 정착민만 수감자와 상호작용할 수 있습니다.</PrisonerTab.helpText>
   
   <!-- EN: Order queueing -->
   <QueueOrders.label>명령 대기열</QueueOrders.label>
