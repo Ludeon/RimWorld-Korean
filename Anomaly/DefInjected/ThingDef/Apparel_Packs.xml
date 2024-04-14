@@ -2,20 +2,22 @@
 <LanguageData>
   
   <!-- EN: deadlife pack -->
-  <Apparel_DeadlifePack.label>죽은 목숨 팩</Apparel_DeadlifePack.label>
-  <!-- EN: A single-use pack that launches a capsule which explodes into deadlife dust. The dust animates human and animal corpses as shamblers that will only attack your enemies.\n\nDeadlife dust is composed of microscopic machine-like archites which hang in the air. The archites are similar to those in archotech resurrector serums, but are overpowered and chaotic. Where they touch a corpse, they induce a chaotic and violent resurrection. -->
-  <Apparel_DeadlifePack.description>터져서 죽은 목숨 먼지가 되는 캡슐을 발사하는 일회용 팩입니다. 먼지는 인간과 동물 시체를 살려 휘청이는 자로 만들고, 휘청이는 자는 당신의 적만을 공격합니다.\n\n죽은 목숨 먼지는 공중에 감도는, 미세한 기계 같은 초월입자로 구성되어 있습니다. 초월입자는 초월공학 부활 혈청과 비슷하지만, 압도적으로 강하고 무질서합니다. 초월입자가 시체에 닿으면, 무질서하고 격렬한 부활을 유발합니다.</Apparel_DeadlifePack.description>
+  <Apparel_DeadlifePack.label>모조생명 등짐</Apparel_DeadlifePack.label>
+  <!-- EN: A single-use pack that launches a capsule which explodes into deadlife dust. The dust animates human and animal corpses as shamblers that will only attack your enemies.\n\nDeadlife dust is composed of microscopic machine-like archites which hang in the air. Where they touch a corpse, they induce a chaotic and violent resurrection. -->
+  <Apparel_DeadlifePack.description>터져서 모조생명 먼지가 되는 구체를 발사하는 일회용 등짐입니다. 먼지는 인간과 동물 시체를 살려 휘청이는 자로 만들고, 휘청이는 자는 당신의 적만을 공격합니다.\n\n모조생명 먼지는 공중에 감도는, 미세한 기계 같은 초월입자로 구성되어 있습니다. 초월입자는 초월공학 부활 혈청과 비슷하지만, 압도적으로 강하고 무질서합니다. 초월입자가 시체에 닿으면, 무질서하고 격렬한 부활을 유발합니다.</Apparel_DeadlifePack.description>
   <!-- EN: charge -->
   <Apparel_DeadlifePack.comps.CompApparelVerbOwner_Charged.chargeNoun>충전</Apparel_DeadlifePack.comps.CompApparelVerbOwner_Charged.chargeNoun>
   <!-- EN: deploy deadlife dust -->
-  <Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>죽은 목숨 먼지 배치</Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>
+  <Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>모조생명 먼지 배치</Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>
   
   <!-- EN: disruptor flare pack -->
   <Apparel_DisruptorFlarePack.label>교란 신호탄 팩</Apparel_DisruptorFlarePack.label>
   <!-- EN: A utility pack that shoots disruptor flares. On impact, the flare burns a capsule of bioferrite, which creates a bright flash and a local psychic disruption. This stuns psychically sensitive creatures, revealing those that are invisible, and reducing their consciousness and movement speed for a short while. Afterwards, the flare continues to burn, lighting up a wide area for some time. -->
   <Apparel_DisruptorFlarePack.description>교란 신호탄을 발사하는 다용도구 팩입니다. 충격을 받으면, 신호탄은 바이오페라이트 캡슐을 태워, 밝은 섬광과 지역의 정신 지장을 만듭니다. 이것은 민감한 정신의 생물을 기절시켜, 보이지 않는 것을 드러내고, 그것들의 의식과 이동 속도를 짧은 기간 저하시킵니다. 후에, 신호탄은 계속해서 타고, 일정 기간 넓은 지역을 밝힙니다.</Apparel_DisruptorFlarePack.description>
-  <!-- EN: charge -->
-  <Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>충전</Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  <!-- EN: flare -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelReloadable.chargeNoun>신호탄</Apparel_DisruptorFlarePack.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelReloadable.cooldownGerund>재사용 대기시간 중</Apparel_DisruptorFlarePack.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: deploy flare -->
   <Apparel_DisruptorFlarePack.verbs.deploy_flare.label>신호탄 배치</Apparel_DisruptorFlarePack.verbs.deploy_flare.label>
   
@@ -32,7 +34,7 @@
   <DisruptorFlare.label>교란 신호탄</DisruptorFlare.label>
   
   <!-- EN: deadlife capsule -->
-  <Grenade_Deadlife.label>죽은 목숨 캡슐</Grenade_Deadlife.label>
+  <Grenade_Deadlife.label>모조생명 구체</Grenade_Deadlife.label>
   
   <!-- EN: disruptor flare -->
   <Grenade_DisruptorFlare.label>교란 신호탄</Grenade_DisruptorFlare.label>

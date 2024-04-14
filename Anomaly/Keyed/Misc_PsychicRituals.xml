@@ -1,121 +1,215 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: psychic ritual -->
   <PsychicRitual>초정신 의식</PsychicRitual>
+  <!-- EN: Begin psychic ritual -->
   <CastPsychicRitual>초정신 의식 시작</CastPsychicRitual>
+  <!-- EN: Select a psychic ritual to perform -->
   <CastPsychicRitualDesc>초정신 의식을 선택하여 행하기</CastPsychicRitualDesc>
+  <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
   <CannotCastPsychicRitual>{2} 때문에 {0_labelShort}(이)가 {1} 초정신 의식을 행할 수 없습니다.</CannotCastPsychicRitual>
+  <!-- EN: The {0} psychic ritual has begun. -->
   <PsychicRitualBegun>{0} 초정신 의식이 시작했습니다.</PsychicRitualBegun>
+  <!-- EN: The {0} psychic ritual has been completed. -->
   <PsychicRitualCompleted>{0} 초정신 의식이 끝났습니다.</PsychicRitualCompleted>
+  <!-- EN: attending {RITUALNAME} psychic ritual -->
   <PsychicRitualAttending>{RITUALNAME} 초정신 의식 참여 중</PsychicRitualAttending>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
   <ParticipatingInPsychicRitual>{0_labelShort}(이)가 {1} 초정신 의식에 참여 중입니다.</ParticipatingInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
   <AbilityDisabledInPsychicRitual>{0_labelShort}(이)가 {1} 초정신 의식에 참여 중입니다.</AbilityDisabledInPsychicRitual>
+  <!-- EN: choose a location -->
   <PsychicRitual_LocationTargetting>위치 선택</PsychicRitual_LocationTargetting>
+  <!-- EN: total quality -->
   <PsychicRitualExpectedQualityLabel>총 품질</PsychicRitualExpectedQualityLabel>
+  <!-- EN: quality factors -->
   <PsychicRitualQualityFactorLabel>품질 요소</PsychicRitualQualityFactorLabel>
+  <!-- EN: duration -->
   <PsychicRitualExpectedDurationLabel>지속시간</PsychicRitualExpectedDurationLabel>
+  <!-- EN: required offering -->
   <PsychicRitualRequiredOffering>요구 공물</PsychicRitualRequiredOffering>
+  <!-- EN: Caused by psychic ritual -->
   <CausedByPsychicRitual>초정신 의식에 의해 유발됨</CausedByPsychicRitual>
+  <!-- EN: Cooldown -->
   <PsychicRitualCooldownLabel>재사용 대기시간</PsychicRitualCooldownLabel>
 
+  <!-- EN: Psychic ritual area obstructed. -->
   <PsychicRitualSpotObstructed>초정신 의식 지역 방해됨.</PsychicRitualSpotObstructed>
+  <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
   <PsychicRitualOnCooldown>초정신 의식 재사용 대기시간 중. {0} 후에 다시 사용할 수 있습니다.</PsychicRitualOnCooldown>
+  <!-- EN: The {0} psychic ritual can be performed again. -->
   <PsychicRitualCanBeCastAgain>{0} 초정신 의식을 다시 행할 수 있습니다.</PsychicRitualCanBeCastAgain>
+  <!-- EN: No basic anomaly research project selected. -->
   <NoBasicResearchForPsychicRitual>선택된 기본 이상 현상 연구 과제 없음.</NoBasicResearchForPsychicRitual>
+  <!-- EN: Must perform {0} psychic ritual on the surface. -->
   <CantCastOnPocketMap>지면에서 {0} 초정신 의식 행해야 함.</CantCastOnPocketMap>
 
+  <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
   <PsychicRitualFactionWarning>경고: {PAWN_nameDef}에게 의식을 행하면 {PAWN_possessive} 세력({FACTION_name})을 화나게 할 것입니다</PsychicRitualFactionWarning>
 
+  <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnWarning>{0}(은)는 현재 수면 중이므로 초정신 의식이 시작되면 깨어날 겁니다.</PsychicRitualWakingPawnWarning>
+  <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
   <PsychicRitualUndraftPawnWarning>{0}(은)는 현재 소집 중이므로 초정신 의식이 시작되면 소집 해제될 겁니다.</PsychicRitualUndraftPawnWarning>
+  <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnsWarning>{0}(은)는 현재 수면 중이므로 초정신 의식이 시작되면 깨어날 겁니다.</PsychicRitualWakingPawnsWarning>
+  <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
   <PsychicRitualUndraftPawnsWarning>{0}(은)는 현재 소집 중이므로 초정신 의식이 시작되면 소집 해제될 겁니다.</PsychicRitualUndraftPawnsWarning>
 
+  <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>{0_labelShort}(이)가 {1} 초정신 의식을 떠났습니다.</PsychicRitualLeft>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
   <PsychicRitualLeftBecause>{2} 때문에 {0_labelShort}(이)가 {1} 초정신 의식을 떠났습니다.</PsychicRitualLeftBecause>
+  <!-- EN: The {0} psychic ritual has been canceled. -->
   <PsychicRitualCanceled>{0} 초정신 의식이 취소됐습니다.</PsychicRitualCanceled>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
   <PsychicRitualCanceledBecause>{1} 때문에 {0} 초정신 의식이 취소됐습니다.</PsychicRitualCanceledBecause>
 
+  <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>{0}(이)가 필요하지만 {1}만 사용 가능합니다</PsychicRitualOfferingsInsufficient>
+  <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
+  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort}에 의해 {TARGET_labelShort} 도달 불가</PsychicRitualTargetUnreachableByInvoker>
 
+  <!-- EN: leave the {0} psychic ritual -->
   <CommandLeavePsychicRitual>{0} 초정신 의식 떠나기</CommandLeavePsychicRitual>
+  <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
   <CommandLeavePsychicRitualDesc>{0} 초정신 의식에 참여하는 것을 그만둡니다. 한 명의 참여자라도 남아있으면 초정신 의식은 계속됩니다.</CommandLeavePsychicRitualDesc>
 
+  <!-- EN: cancel the {0} psychic ritual -->
   <CommandCancelPsychicRitual>{0} 초정신 의식 취소</CommandCancelPsychicRitual>
+  <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
   <CommandCancelPsychicRitualDesc>{0} 초정신 의식을 즉시 끝냅니다. 초정신 의식은 나중에 재시작할 수 있습니다.</CommandCancelPsychicRitualDesc>
+  <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
   <CommandCancelPsychicRitualConfirm>정말 {0} 초정신 의식을 취소하시겠습니까?</CommandCancelPsychicRitualConfirm>
 
+  <!-- EN: {PAWN_labelShort} vanished -->
   <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} 사라짐</PsychicRitualLeaveReason_Vanished>
+  <!-- EN: {PAWN_labelShort} is incapacitated -->
   <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} 무력화됨</PsychicRitualLeaveReason_Incapped>
+  <!-- EN: {PAWN_labelShort} is dead -->
   <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} 사망</PsychicRitualLeaveReason_Killed>
+  <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
   <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort}(은)는 {FACTION_name} 소속이 아닙니다</PsychicRitualLeaveReason_WrongFaction>
+  <!-- EN: {PAWN_labelShort} is no longer on the map -->
   <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort}(이)가 더 이상 지도에 없습니다</PsychicRitualLeaveReason_ExitedMap>
+  <!-- EN: {PAWN_labelShort} had better things to do -->
   <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort}(은)는 할 일이 있습니다</PsychicRitualLeaveReason_LeftVoluntarily>
+  <!-- EN: {PAWN_labelShort} is drafted -->
   <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort}(은)는 소집되었습니다</PsychicRitualLeaveReason_Drafted>
+  <!-- EN: {PAWN_labelShort} is in a mental state -->
   <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort}(은)는 정신 상태에 있습니다</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is bleeding -->
   <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort}(은)는 출혈 중입니다</PsychicRitualLeaveReason_Bleeding>
+  <!-- EN: {PAWN_labelShort} is on fire -->
   <PsychicRitualLeaveReason_Burning>{PAWN_labelShort}(은) 는 불에 타고 있습니다</PsychicRitualLeaveReason_Burning>
+  <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
   <PsychicRitualLeaveReason_ExtremeTemperature>대상 근처의 온도가 {PAWN_labelShort}에게 안전하지 않습니다</PsychicRitualLeaveReason_ExtremeTemperature>
+  <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
   <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort}(이)가 {BUILDING} 안에서 참여할 수 없습니다</PsychicRitualLeaveReason_InsideBuilding>
+  <!-- EN: {PAWN_labelShort} is humanlike -->
   <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort}(은)는 인간형입니다</PsychicRitualLeaveReason_Humanlike>
+  <!-- EN: {PAWN_labelShort} is not humanlike -->
   <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort}(은)는 인간형이 아닙니다</PsychicRitualLeaveReason_NonHumanlike>
+  <!-- EN: {PAWN_labelShort} is a prisoner -->
   <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort}(은)는 수감자입니다</PsychicRitualLeaveReason_Prisoner>
+  <!-- EN: {PAWN_labelShort} is a slave -->
   <PsychicRitualLeaveReason_Slave>{PAWN_labelShort}(은)는 노예입니다</PsychicRitualLeaveReason_Slave>
+  <!-- EN: {PAWN_labelShort} is free -->
   <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort}(은)는 자유입니다</PsychicRitualLeaveReason_Freeman>
+  <!-- EN: {PAWN_labelShort} is a {STAGE} -->
   <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort}(은)는 {STAGE} 상태입니다</PsychicRitualLeaveReason_DevelopmentalStage>
+  <!-- EN: {PAWN_labelShort} cannot reach the target location -->
   <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort}(이)가 목표 위치에 도달할 수 없습니다</PsychicRitualLeaveReason_CannotReachTarget>
+  <!-- EN: {PAWN_labelShort} is asleep -->
   <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort}(은)는 잠든 상태입니다</PsychicRitualLeaveReason_Sleeping>
+  <!-- EN: {PAWN_labelShort} is not a human -->
   <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort}(은)는 인간이 아닙니다</PsychicRitualLeaveReason_Mutant>
+  <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
   <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}의 {IDEO_name}에 대한 믿음이 참여를 막습니다</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
   <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort}(은)는 민감한 정신을 가지지 않았습니다</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is a temporary faction member -->
   <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort}(은)는 임시 세력 구성원입니다</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
   <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort}(은)는 참여해야 할 다른 업무가 있습니다</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
   <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort}(은)는 참여해야 할 다른 업무가 있습니다</PsychicRitualLeaveReason_ForcedByQuest>
 
   <!-- PsychicRitualToils-->
+  <!-- EN: moving into position -->
   <PsychicRitualToil_Goto_JobReport_Moving>위치로 이동 중</PsychicRitualToil_Goto_JobReport_Moving>
+  <!-- EN: waiting for everyone to get into position -->
   <PsychicRitualToil_Goto_JobReport_Waiting>모두가 위치로 이동하기를 기다리는 중</PsychicRitualToil_Goto_JobReport_Waiting>
 
+  <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
   <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort}(이)가 충분한 {1}(을)를 찾을 수 없었습니다</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <!-- EN: gathering offering -->
   <PsychicRitualToil_GatherOfferings_JobReport>공물 수집 중</PsychicRitualToil_GatherOfferings_JobReport>
 
+  <!-- EN: leading psychic ritual -->
   <PsychicRitualToil_InvokeHorax_JobReport_Invoker>초정신 의식 이끄는 중</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <!-- EN: channeling power to psychic ritual -->
   <PsychicRitualToil_InvokeHorax_JobReport_Chanter>초정신 의식으로 힘 쏟는 중</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <!-- EN: psychic ritual target -->
   <PsychicRitualToil_InvokeHorax_JobReport_Target>초정신 의식 대상</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: {0} doesn't have enough {1} -->
   <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0}에게 충분한 {1}(이)가 없습니다</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <!-- EN: {PAWN_labelShort} is out of position -->
   <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort}(이)가 위치에서 벗어나 있습니다</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <!-- EN: defending psychic ritual -->
   <PsychicRitualToil_InvokeHorax_JobReport_Defender>초정신 의식 방어 중</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
 
+  <!-- EN: waiting on -->
   <PsychicRitualToil_GatherForInvocation_Report>섬기는 중</PsychicRitualToil_GatherForInvocation_Report>
+  <!-- EN: invoking the void -->
   <PsychicRitualToil_InvokeHorax_Report>공허를 부르는 중</PsychicRitualToil_InvokeHorax_Report>
 
+  <!-- EN: {TARGET_labelShort} was destroyed -->
   <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort}(이)가 파괴되었습니다</PsychicRitualDef_TargetDestroyed>
 
+  <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>대상 현장 근처의 지역에 방해물이 없어야 합니다</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>{PAWN_labelShort}의 정신 감응력</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>{PAWN_labelShort}(이)가 정신 현상과 조화되는 정도입니다.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <!-- EN: These objects help focus the psychic power of the ritual. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>이 물체는 의식의 초능력을 집중하는 것을 도와줍니다.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <!-- EN: Ideoligion offset -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>사상 오프셋</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>초정신 의식이 사상적 믿음에 영향받는 정도입니다.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 
   <!-- PsychicRitualDef_InvokationCircle messages -->
+  <!-- EN: {0} has begun performing the {1} psychic ritual. -->
   <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0}(이)가 {1} 초정신 의식을 행하기 시작했습니다.</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <!-- EN: psychic ritual area is obstructed -->
   <PsychicRitualAreaObstructed>초정신 의식 지역이 방해되었습니다</PsychicRitualAreaObstructed>
 
   <!-- Animal summoning -->
+  <!-- EN: Not enough animals in this biome. -->
   <NotEnoughAnimals>이 생물군계에 동물이 충분하지 않습니다.</NotEnoughAnimals>
 
   <!-- Shambler summoning -->
+  <!-- EN: No nearby shamblers. -->
   <NoNearbyShamblers>근처에 휘청이는 자가 없습니다.</NoNearbyShamblers>
 
   <!-- Pit gate summoning -->
+  <!-- EN: There is already a pit gate on the map. -->
   <PitGateAlreadyExists>지도에 이미 구덩이 문이 있습니다.</PitGateAlreadyExists>
   
   <!-- Chronophagy -->
+  <!-- EN: The invoker must be at least {0} years old. -->
   <InvokerTooYoung>수행자가 최소한 {0}살이어야 합니다.</InvokerTooYoung>
+  <!-- EN: The target must be at least {0} years old. -->
   <PsychicRitualTargetTooYoung>대상이 최소한 {0}살이어야 합니다.</PsychicRitualTargetTooYoung>
+  <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
   <CronophagyAgeChange>{INVOKER_labelShort}(은)는 {1}살이 될 것이며, {TARGET_labelShort}(은)는 {3}살이 될 것입니다.</CronophagyAgeChange>
   
   <!-- Philophagy -->
+  <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
   <PhilophagyTransferReport>{INVOKER_labelShort}(은)는 {TARGET_labelShort}에게서 {1} {SKILL_label}XP를 빼앗을 것입니다.</PhilophagyTransferReport>
+  <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
+  <NoSkillsToTransfer>{TARGET_labelShort}에게 이전 가능한 기술이 없습니다.</NoSkillsToTransfer>
 </LanguageData>

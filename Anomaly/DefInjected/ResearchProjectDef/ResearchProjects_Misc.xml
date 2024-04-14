@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: security door -->
-  <SecurityDoor.label>보안 문</SecurityDoor.label>
+  <SecurityDoor.label>보안문</SecurityDoor.label>
   <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
   <SecurityDoor.description>튼튼하게 강화된 문을 건설하세요. 느리게 열리며 동력이 필요하지만, 매우 강합니다. 뭔가 위험한 것의 출입을 통제하고 싶다면 좋은 선택일 겁니다.</SecurityDoor.description>
   <!-- EN:
@@ -14,12 +14,12 @@
     <li>subject_gerund->constructing security doors</li>
   -->
   <SecurityDoor.generalRules.rulesStrings>
-    <li>subject->보안 문</li>
-    <li>subject_story->(이)가 봉인된 연구 시설에서 보안 일꾼으로 일했습니다</li>
-    <li>subject_story->(이)가 성간 상인을 위한 보안 장치를 제작했습니다</li>
-    <li>subject_story->(이)가 용병 회사를 위해 재료 과학을 연구했습니다</li>
-    <li>subject_story->(이)가 번화계 동물원에서 일했습니다</li>
-    <li>subject_gerund->보안 문 건설 중</li>
+    <li>subject->보안문</li>
+    <li>subject_story->밀폐 연구시설에서 보안드론으로서 일했습니다</li>
+    <li>subject_story->성간상인들을 위한 보안장비들을 개발했습니다</li>
+    <li>subject_story->용병단을 위해 재료과학 연구를 했습니다</li>
+    <li>subject_story->번화계 동물원에서 일했습니다</li>
+    <li>subject_gerund->보안문 건설</li>
   </SecurityDoor.generalRules.rulesStrings>
   
   <!-- EN: turret pack -->
@@ -29,18 +29,18 @@
   <!-- EN:
     <li>subject->deployable turrets</li>
     <li>subject_story->defended a feralworld castle from assault</li>
-    <li>subject_story->manned a tailgun on a Imperial dropship</li>
+    <li>subject_story->manned a tailgun on an Imperial dropship</li>
     <li>subject_story->researched deployable military technology</li>
     <li>subject_story->fought in the trench battles of the [worldname] War</li>
     <li>subject_gerund->crafting deployable gun turrets</li>
   -->
   <TurretPack.generalRules.rulesStrings>
-    <li>subject->배치 가능 포탑</li>
-    <li>subject_story->(이)가 야생계 성을 공격에서 방어했습니다</li>
-    <li>subject_story->(이)가 제국 상륙정에서 미포를 조종했습니다</li>
-    <li>subject_story->(이)가 배치 가능한 군사 기술을 연구했습니다</li>
-    <li>subject_story->(이)가 [worldname] 전쟁의 참호 전투에서 싸웠습니다</li>
-    <li>subject_gerund->배치 가능 포탑 제작 중</li>
+    <li>subject->배치형 포탑</li>
+    <li>subject_story->습격을 받고있던 야생계의 성을 수비했습니다</li>
+    <li>subject_story->제국 수송선의 후미포에 배치되었습니다</li>
+    <li>subject_story->배치가능한 군사 기술을 연구했습니다</li>
+    <li>subject_story->[worldname] 전쟁의 참호전투에 참여했습니다</li>
+    <li>subject_gerund->배치형 포탑 제작</li>
   </TurretPack.generalRules.rulesStrings>
   
 </LanguageData>

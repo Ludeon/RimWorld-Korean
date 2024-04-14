@@ -1,32 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Reading management -->
+  <!-- EN: {0} max mental break chance -->
   <MaxMentalBreakChance>{0} 최대 정신이상 확률</MaxMentalBreakChance>
+  <!-- EN: Tomes -->
   <TomePolicy>서적</TomePolicy>
 
   <!-- Caravan -->
+  <!-- EN: Entities -->
   <EntitiesSection>실체</EntitiesSection>
   
   <!-- Hidden items filter -->
+  <!-- EN: Undiscovered -->
   <UndiscoveredItemLabel>발견되지 않음</UndiscoveredItemLabel>
+  <!-- EN: This item has not been discovered yet. -->
   <UndiscoveredItemDesc>이 아이템은 아직 발견되지 않았습니다.</UndiscoveredItemDesc>
 
   <!-- Medical settings -->
+  <!-- EN: Entities -->
   <MedGroupEntities>실체</MedGroupEntities>
+  <!-- EN: Anomalous entities and their variations. -->
   <MedGroupEntitiesDesc>이상 현상 실체 및 그 변형입니다.</MedGroupEntitiesDesc>
 
+  <!-- EN: Ghouls -->
   <MedGroupGhouls>구울</MedGroupGhouls>
+  <!-- EN: Ghouls belonging to your colony. -->
   <MedGroupGhoulsDesc>정착지에 속한 구울입니다.</MedGroupGhoulsDesc>
 
+  <!-- EN: Turning {PAWN_nameDef} into a ghoul is irreversible. {PAWN_pronoun} will be left in a half-conscious stupor and be incapable of work.\n\nAre you sure you want to turn {PAWN_nameDef} into a ghoul? -->
   <GhoulConfirmation>{PAWN_nameDef}(을)를 구울로 만들면 되돌릴 수 없습니다. 반의식적 인사불성 상태가 될 것이며 작업을 할 수 없게 됩니다.\n\n정말 {PAWN_nameDef}(을)를 구울로 만드시겠습니까?</GhoulConfirmation>
 
+  <!-- EN: no anomaly buildings allowed -->
   <RoomRequirementNoAnomalyBuildings>이상 현상 건물이 허용되지 않습니다</RoomRequirementNoAnomalyBuildings>
 
-  <EntityCodex>실체 고문서</EntityCodex>
-  <EntityCodexGizmoTip>발견한 모든 실체를 보세요. 새로운 실체를 발견하여 모노리스를 진전시키고 새로운 연구 과제를 밝혀내세요.</EntityCodexGizmoTip>
+  <!-- EN: Entity codex -->
+  <EntityCodex>실체 도감</EntityCodex>
+  <!-- EN: View all discovered entities. Discover new entities to advance the monolith and reveal new research projects. -->
+  <EntityCodexGizmoTip>발견한 모든 실체를 살펴보세요. 새로운 실체를 발견하여 모노리스 등급을 올리고 새로운 연구 과제를 밝혀내세요.</EntityCodexGizmoTip>
+  <!-- EN: Research unlocks -->
   <ResearchUnlocks>연구 잠금 해제</ResearchUnlocks>
+  <!-- EN: This page lists all known entities which are related to the dark void. Discover new entities using the “void provocation” psychic ritual. Discovering new entities reveals new research projects, and allows you to advance the void monolith. -->
   <EntityCodexDesc>이 페이지는 어두운 공허와 관련되어 알려진 모든 실체를 열거합니다. “공허의 도발” 초정신 의식을 사용해 새로운 실체를 발견하세요. 새로운 실체를 발견하면 새로운 연구 과제가 드러나며 공허 모노리스를 진전시킬 수 있습니다.</EntityCodexDesc>
+  <!-- EN: Undiscovered entity -->
   <UndiscoveredEntity>발견되지 않은 실체</UndiscoveredEntity>
-  <UndiscoveredEntityDesc>이 실체는 발견되지 않았습니다. “공허의 도발” 초정신 의식을 사용해 새로운 실체를 발견할 수 있습니다.</UndiscoveredEntityDesc>
-  <ViewEntityCodex>실체 고문서 보기</ViewEntityCodex>\n\n</LanguageData>
+  <!-- EN: You have not discovered this entity. -->
+  <UndiscoveredEntityDesc>아직 발견하지 못한 실체입니다.</UndiscoveredEntityDesc>
+  <!-- EN: View entity codex -->
+  <ViewEntityCodex>실체 도감 보기</ViewEntityCodex>
+
+</LanguageData>

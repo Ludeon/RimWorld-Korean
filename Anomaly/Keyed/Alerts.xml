@@ -1,52 +1,103 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Dangerous activity levels -->
   <ActivityMultipleDangerous>위험한 활동 레벨</ActivityMultipleDangerous>
+  <!-- EN: These entities are at dangerously high activity levels -->
   <ActivityDangerousDesc>이 실체의 활동 레벨이 위험할 정도로 높습니다</ActivityDangerousDesc>  
+  <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
   <ActivityDangerousDescAppended>실체의 활동이 100%에 도달하면, 위험해집니다.\n\n간수를 보내 이 실체를 억제하거나 실체의 활동 패널을 사용해 자동 억제를 활성화하세요.</ActivityDangerousDescAppended>
 
+  <!-- EN: Need anomaly project -->
   <NeedAnomalyProject>이상 과제 필요함</NeedAnomalyProject>
+  <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
   <NeedAnomalyProjectDesc>연구를 위해 표시된 실체가 있지만 일치하는 이상 연구 과제가 선택되지 않았습니다.</NeedAnomalyProjectDesc>
+  <!-- EN: Need {NAME} anomaly research project -->
   <NeedAnomalyProjectDescLine>{NAME} 이상 연구 과제 필요함</NeedAnomalyProjectDescLine>
+  <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
   <NeedAnomalyProjectDescAppended>연구 메뉴를 열어 이상 창에서 과제를 선택하세요.\n\n기본 및 고급 연구 과제를 동시에 선택할 수 있습니다.\n\n(클릭하여 연구 메뉴를 여세요.)</NeedAnomalyProjectDescAppended>
 
+  <!-- EN: Visitor ignored -->
   <CreepJoinerTimeout>무시되는 방문객</CreepJoinerTimeout>
+  <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
   <CreepJoinerTimeoutDesc>다음 방문객은 무시당했다고 느끼며 더욱 기분 상해합니다</CreepJoinerTimeoutDesc>
+  <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
   <CreepJoinerTimeoutDescAppended>정착민을 선택하고 방문객을 우클릭하세요.\n\n빠르게 행동하세요... 방문객은 무시당하는 것을 싫어합니다.</CreepJoinerTimeoutDescAppended>
 
+  <!-- EN: Undercave unstable -->
   <Alert_UndercaveUnstable>지하동굴 불안정함</Alert_UndercaveUnstable>
+  <!-- EN: The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late. -->
   <Alert_UndercaveUnstableDesc>지하동굴이 불안정해져 곧 붕괴될 겁니다.\n\n너무 늦기 전에 정착민을 대피시키세요.</Alert_UndercaveUnstableDesc>
 
+  <!-- EN: Cultist psychic ritual -->
   <Alert_CultistPsychicRitual>광신도 초정신 의식</Alert_CultistPsychicRitual>
+  <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
   <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 행하기 시작했습니다. 만약 {INVOKER_objective}(을)를 방해하지 않으면, 결과가 아주 나쁠 수 있습니다.</Alert_CultistPsychicRitualDesc>
 
+  <!-- EN: Ghoul starvation -->
   <AlertMeatHunger>구울 굶주림</AlertMeatHunger>
+  <!-- EN: These ghouls hunger for raw meat -->
   <AlertMeatHungerDesc>이 구울들은 생고기를 갈구합니다</AlertMeatHungerDesc>
+  <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
   <AlertMeatHungerDescAppended>빨리 먹지 않으면 공격할 수도 있습니다. 고기를 가져다 주세요.</AlertMeatHungerDescAppended>
   
+  <!-- EN: Pit gate opening -->
   <AlertEmergingPitGate>구덩이 문 열리는 중</AlertEmergingPitGate>
+  <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
   <AlertEmergingPitGateDesc>땅이 자체적으로 붕괴하고 있습니다. 구덩이 문이 곧 형성될 겁니다.</AlertEmergingPitGateDesc>
 
+  <!-- EN: Insufficient containment -->
   <Alert_InsufficientContainment>억제 부족</Alert_InsufficientContainment>
+  <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
   <Alert_InsufficientContainmentDesc>다음 실체가 최소 억제력을 충족시키지 않는 방에 갇혀 있습니다</Alert_InsufficientContainmentDesc>
+  <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
   <Alert_InsufficientContainmentDescAppended>실체가 곧 탈출할 겁니다. 더 강한 벽, 문, 다른 억제 장치를 건축해 실체를 가두세요.</Alert_InsufficientContainmentDescAppended>
 
+  <!-- EN: Holding platforms needed -->
   <AlertHoldingPlatform>수용 플랫폼 필요</AlertHoldingPlatform>
+  <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
   <AlertHoldingPlatformDesc>수용 플랫폼을 짓거나 수용 장소를 배치해 포획한 실체를 억제하고 연구하세요.</AlertHoldingPlatformDesc>
 
+  <!-- EN: Cube withdrawal -->
   <AlertCubeWithdrawal>큐브 금단 현상</AlertCubeWithdrawal>
+  <!-- EN: The following people are suffering from cube withdrawal -->
   <AlertCubeWithdrawalDesc>다음 사람들이 큐브 금단 현상을 겪고 있습니다</AlertCubeWithdrawalDesc>
+  <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
   <AlertCubeWithdrawalDescAppended>이 사람들의 피부는 가렵고 정신은 바쁘게 돌아가며, 사람들은 황금 큐브와 더욱 가까워지고 싶어 합니다. 사람들의 증상은 큐브와 놀 수 있을 때까지 악화될 겁니다.\n\n자유 시간을 갖고 황금 큐브와 놀 수 있도록 하세요.</AlertCubeWithdrawalDescAppended>
 
+  <!-- EN: Devourer digestion -->
   <AlertDigestion>걸신의 소화</AlertDigestion>
+  <!-- EN: The following people or creatures are being digested by a devourer -->
   <AlertDigestionDesc>다음 사람들 혹은 생물들이 걸신에게 소화되고 있습니다</AlertDigestionDesc>
+  <!-- EN: Kill the devourer to release them before it's too late. -->
   <AlertDigestionDescAppended>걸신을 죽여 너무 늦기 전에 그들을 풀어주세요.</AlertDigestionDescAppended>
   
+  <!-- EN: Inhibitor blocked -->
   <AlertInhibitorBlocked>억제제 차단됨</AlertInhibitorBlocked>
+  <!-- EN: One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
   <AlertInhibitorBlockedDesc>전기 억제기 중 하나가 다른 건물에 막혀 작동하지 않고 있습니다.\n\n전기 억제기 앞의 공간을 비우세요.</AlertInhibitorBlockedDesc>
 
+  <!-- EN: Entity treatment needed -->
   <EntityNeedsTreatment>실체 치료 필요</EntityNeedsTreatment>
+  <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
   <EntityNeedsTreatmentDesc>이 실체는 치료가 필요합니다. 치료를 하지 않으면 감금 상태에서 죽을 수도 있습니다.\n{0}\n\n의사를 보내 치료하세요.</EntityNeedsTreatmentDesc>
 
+  <!-- EN: Ghoul hypothermia -->
   <AlertGhoulHypothermia>구울 저체온증</AlertGhoulHypothermia>
-  <AlertGhoulHypothermiaDesc>이 구울은 저체온증을 겪고 있습니다.\n{0}\n\n더 따뜻한 곳으로 옮기세요.</AlertGhoulHypothermiaDesc>\n\n</LanguageData>
+  <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
+  <AlertGhoulHypothermiaDesc>이 구울은 저체온증을 겪고 있습니다.\n{0}\n\n더 따뜻한 곳으로 옮기세요.</AlertGhoulHypothermiaDesc>
+  
+  <!-- EN: Gray flesh -->
+  <AlertGrayFleshSample>회색 살점</AlertGrayFleshSample>
+  <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
+  <AlertGrayFleshSampleDesc>당신은 회색 조직 한줄기를 찾았습니다. 이를 분석하여 생체신호에 대해 연구하세요.</AlertGrayFleshSampleDesc>
+  <!-- EN: Neural lump -->
+  <AlertNeuralLump>신경 혹</AlertNeuralLump>
+  <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
+  <AlertNeuralLumpDesc>살덩이 신경 다발이 신경 혹을 떨어뜨렸습니다. 신경 혹을 분석하여 살덩이 심장을 죽일 방법을 연구하세요.</AlertNeuralLumpDesc>
+  <!-- EN: Revenant flesh -->
+  <AlertRevenantFlesh>망령 살점</AlertRevenantFlesh>
+  <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
+  <AlertRevenantFleshDesc>상처 입은 망령이 그 일부를 남겼습니다. 이 살 덩어리를 분석해 망령 추적 방법을 배울 수 있습니다.</AlertRevenantFleshDesc>
+
+</LanguageData>

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: inhuman -->
-  <Inhuman.label>비인간</Inhuman.label>
+  <Inhuman.label>몰인간</Inhuman.label>
   <!-- EN: Humanity is a barrier to our connection with the machine god and its pleasurable rewards. -->
   <Inhuman.description>인간성은 우리와 기계 신의 연결, 그리고 그분의 보상을 가로막는 장벽일 뿐이다.</Inhuman.description>
   <!-- EN:
@@ -17,11 +17,11 @@
     <li>memeConcept->rage</li>
   -->
   <Inhuman.generalRules.rulesStrings>
+    <li>memeAdjective->몰인간적</li>
     <li>memeAdjective->비인간적</li>
-    <li>memeAdjective->잔인한</li>
-    <li>memeAdjective->기계</li>
-    <li>memeAdjective->어두운</li>
-    <li>memeConcept->비인간성</li>
+    <li>memeAdjective->기계적</li>
+    <li>memeAdjective->어둠의</li>
+    <li>memeConcept->몰인간성</li>
     <li>memeConcept->어둠</li>
     <li>memeConcept->공허</li>
     <li>memeConcept->실체</li>
@@ -38,9 +38,9 @@
     <li>memeMoralist->ritualist</li>
   -->
   <Ritualist.generalRules.rulesStrings>
-    <li>memeAdjective->의식의</li>
+    <li>memeAdjective->의식</li>
     <li>memeConcept->의식</li>
-    <li>memeMoralist->의식술사</li>
+    <li>memeMoralist->의식사</li>
   </Ritualist.generalRules.rulesStrings>
   
 </LanguageData>

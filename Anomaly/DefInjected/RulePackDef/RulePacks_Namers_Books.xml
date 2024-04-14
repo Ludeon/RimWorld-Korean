@@ -190,16 +190,16 @@
     <li>suffixEvil->vix</li>
   -->
   <Namer_Tome.rulePack.rulesStrings>
-    <li>title->[maybeThe][nounEvilUncountable]의 [bookEvil]</li>
-    <li>title->[maybeThe][nounEvilCountable]들의 [bookEvil]</li>
-    <li>title->[maybeThe][nounEvilCountable]의 [bookEvil]</li>
-    <li>title->[maybeThe][placeEvil] [inThe] [nounEvilCountable]들</li>
-    <li>title->[maybeThe][ANYPAWN_nameIndef]의 [bookEvil]</li>
-    <li>title->[maybeThe][placeEvil] [inThe] [nounEvilAny]</li>
-    <li>title->[maybeThe][ANYPAWN_nameIndef]의 [nounEvilAny]</li>
-    <li>title->[maybeThe][adjectiveEvil] [nounEvilAny]</li>
+    <li>title->[nounEvilUncountable]의 [bookEvil]</li>
+    <li>title->[nounEvilCountable]들의 [bookEvil]</li>
+    <li>title->[nounEvilCountable]의 [bookEvil]</li>
+    <li>title->[placeEvil][inThe] [nounEvilCountable]들</li>
     <li>title->[ANYPAWN_nameIndef]의 [bookEvil]</li>
-    <li>title->[maybeThe][bookCompound]</li>
+    <li>title->[placeEvil][inThe] [nounEvilAny]</li>
+    <li>title->[ANYPAWN_nameIndef]의 [nounEvilAny]</li>
+    <li>title->[adjectiveEvil] [nounEvilAny]</li>
+    <li>title->[ANYPAWN_nameIndef]의 [bookEvil]</li>
+    <li>title->[bookCompound]</li>
     <li>title->[ANYPAWN_nameIndef]의 [bookCompound]</li>
     <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
     <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
@@ -213,136 +213,136 @@
     <li>maybeThe-></li>
     <li>bookEvil(p=2)->책</li>
     <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
-    <li>bookEvil->저서</li>
+    <li>bookEvil->경전</li>
     <li>bookEvil->고문서</li>
-    <li>bookEvil->저술</li>
+    <li>bookEvil->글</li>
     <li>bookEvil->기록</li>
-    <li>bookEvil->비밀</li>
+    <li>bookEvil->비밀들</li>
     <li>bookEvil->연대기</li>
-    <li>bookEvil->암호</li>
-    <li>bookEvil->소문</li>
-    <li>bookEvil->증언</li>
-    <li>bookEvil->애가</li>
-    <li>bookEvil->마법서</li>
-    <li>bookEvil->연감</li>
-    <li>bookEvil->원고</li>
+    <li>bookEvil->해독서</li>
+    <li>bookEvil->속삭임</li>
+    <li>bookEvil->증거</li>
+    <li>bookEvil->글 모음</li>
+    <li>bookEvil->마도서</li>
+    <li>bookEvil->계시록</li>
+    <li>bookEvil->필사본</li>
     <li>bookEvil->연보</li>
-    <li>bookEvil->주문</li>
-    <li>bookEvil->계시</li>
+    <li>bookEvil->주문서</li>
+    <li>bookEvil->묵시록</li>
     <li>bookEvil->성명서</li>
-    <li>bookEvil->유언장</li>
-    <li>bookEvil->파편</li>
+    <li>bookEvil->증언서</li>
     <li>bookEvil->조각</li>
-    <li>inThe->내의</li>
+    <li>bookEvil->파편</li>
     <li>inThe->속의</li>
-    <li>inThe->밑의</li>
+    <li>inThe->안의</li>
     <li>inThe->아래의</li>
-    <li>inThe->옆의</li>
-    <li>inThe->위의</li>
-    <li>inThe->건너편의</li>
+    <li>inThe-> 밑</li>
+    <li>inThe-> 주변의</li>
+    <li>inThe-> 위의</li>
+    <li>inThe-> 건너편의</li>
     <li>adjectiveEvil(p=3)->공허</li>
     <li>adjectiveEvil->황금</li>
-    <li>adjectiveEvil->부자연적</li>
+    <li>adjectiveEvil->부자연스러운</li>
     <li>adjectiveEvil->어두운</li>
     <li>adjectiveEvil->검은</li>
     <li>adjectiveEvil->깊은</li>
-    <li>adjectiveEvil->고대의</li>
-    <li>adjectiveEvil->부패한</li>
-    <li>adjectiveEvil->피</li>
-    <li>adjectiveEvil->혼돈</li>
-    <li>adjectiveEvil->심해의</li>
-    <li>adjectiveEvil->묘한</li>
-    <li>adjectiveEvil->혼령 같은</li>
-    <li>adjectiveEvil->수수께끼 같은</li>
+    <li>adjectiveEvil->고대</li>
+    <li>adjectiveEvil->타락한</li>
+    <li>adjectiveEvil->피의</li>
+    <li>adjectiveEvil->혼돈의</li>
+    <li>adjectiveEvil->심연의</li>
+    <li>adjectiveEvil->불쾌한</li>
+    <li>adjectiveEvil->유령</li>
+    <li>adjectiveEvil->수수께기의</li>
     <li>adjectiveEvil->속삭이는</li>
     <li>adjectiveEvil->잊혀진</li>
-    <li>adjectiveEvil->베일에 싸인</li>
+    <li>adjectiveEvil->감춰진</li>
     <li>adjectiveEvil->금지된</li>
-    <li>adjectiveEvil->지표 밑</li>
-    <li>adjectiveEvil->뱀</li>
+    <li>adjectiveEvil->가려진</li>
+    <li>adjectiveEvil->독이빨의</li>
     <li>nounEvilAny->[nounEvilCountable]</li>
     <li>nounEvilAny->[nounEvilUncountable]</li>
     <li>nounEvilUncountable->살덩이</li>
-    <li>nounEvilUncountable->바이오페라이트</li>
-    <li>nounEvilUncountable->죽은 목숨</li>
+    <li>nounEvilUncountable->살아있는 금속의</li>
+    <li>nounEvilUncountable->망자의</li>
     <li>nounEvilUncountable->초월공학</li>
-    <li>nounEvilUncountable->사망공학</li>
-    <li>nounEvilUncountable->호락스</li>
+    <li>nounEvilUncountable->죽음공학</li>
+    <li>nounEvilUncountable->호랙스</li>
     <li>nounEvilUncountable->피</li>
-    <li>nounEvilUncountable->언데드</li>
+    <li>nounEvilUncountable->부활</li>
     <li>nounEvilUncountable->힘</li>
-    <li>nounEvilUncountable->소문</li>
+    <li>nounEvilUncountable->귓속말</li>
     <li>nounEvilUncountable->지식</li>
-    <li>nounEvilUncountable->두려움</li>
+    <li>nounEvilUncountable->공포</li>
     <li>nounEvilUncountable->곰팡이</li>
     <li>nounEvilUncountable->부패</li>
     <li>nounEvilUncountable->의식</li>
     <li>nounEvilUncountable->살인</li>
-    <li>nounEvilUncountable->어둠</li>
+    <li>nounEvilUncountable->암흑</li>
     <li>nounEvilUncountable->광기</li>
     <li>nounEvilUncountable->혼돈</li>
     <li>nounEvilUncountable->절망</li>
-    <li>nounEvilUncountable->고난</li>
+    <li>nounEvilUncountable->고통</li>
     <li>nounEvilUncountable->악몽</li>
-    <li>nounEvilUncountable->부패</li>
-    <li>nounEvilUncountable->파멸</li>
-    <li>nounEvilUncountable->공포</li>
+    <li>nounEvilUncountable->타락</li>
+    <li>nounEvilUncountable->멸망</li>
+    <li>nounEvilUncountable->두려움</li>
     <li>nounEvilUncountable->악의</li>
     <li>nounEvilUncountable->그림자</li>
     <li>nounEvilUncountable->공허</li>
-    <li>nounEvilUncountable->금</li>
+    <li>nounEvilUncountable->황금</li>
     <li>nounEvilCountable->구울</li>
     <li>nounEvilCountable->고어헐크</li>
     <li>nounEvilCountable->녹톨</li>
-    <li>nounEvilCountable->휘청이는 자</li>
+    <li>nounEvilCountable->쉠블러</li>
     <li>nounEvilCountable->살짐승</li>
-    <li>nounEvilCountable->노셔스피어</li>
+    <li>nounEvilCountable->노시오스피어</li>
     <li>nounEvilCountable->시체</li>
     <li>nounEvilCountable->큐브</li>
     <li>nounEvilCountable->망령</li>
     <li>nounEvilCountable->메탈호러</li>
-    <li>nounEvilCountable->유괴범</li>
-    <li>nounEvilCountable->복제자</li>
-    <li>nounEvilCountable->변이 유발자</li>
+    <li>nounEvilCountable->납치자</li>
+    <li>nounEvilCountable->복사자</li>
+    <li>nounEvilCountable->변형자</li>
     <li>nounEvilCountable->전조</li>
     <li>nounEvilCountable->시야도둑</li>
     <li>nounEvilCountable->키메라</li>
     <li>nounEvilCountable->걸신</li>
-    <li>nounEvilCountable->조각</li>
+    <li>nounEvilCountable->파편</li>
     <li>nounEvilCountable->조각상</li>
     <li>nounEvilCountable->혈청</li>
-    <li>nounEvilCountable->사이비</li>
-    <li>nounEvilCountable->광신도</li>
+    <li>nounEvilCountable->추종교단</li>
+    <li>nounEvilCountable->추종자</li>
     <li>nounEvilCountable->염소</li>
     <li>nounEvilCountable->그림자</li>
-    <li>nounEvilCountable->도사리는 자</li>
-    <li>nounEvilCountable->의례</li>
-    <li>nounEvilCountable->저주</li>
+    <li>nounEvilCountable->매복자</li>
+    <li>nounEvilCountable->의식들</li>
+    <li>nounEvilCountable->주술</li>
     <li>nounEvilCountable->뱀</li>
-    <li>nounEvilCountable->연회 손님</li>
+    <li>nounEvilCountable->포식자</li>
     <li>placeEvil->바다</li>
     <li>placeEvil->공허</li>
     <li>placeEvil->심연</li>
-    <li>placeEvil->대양</li>
+    <li>placeEvil->깊은 곳</li>
     <li>placeEvil->그림자</li>
-    <li>placeEvil->무덤</li>
+    <li>placeEvil->묘지</li>
     <li>placeEvil->어둠</li>
     <li>placeEvil->산</li>
-    <li>placeEvil->방</li>
-    <li>placeEvil->지하 묘지</li>
+    <li>placeEvil->비밀의 방</li>
+    <li>placeEvil->지하무덤</li>
     <li>placeEvil->성소</li>
-    <li>placeEvil->관목</li>
-    <li>placeEvil->땅</li>
-    <li>placeEvil->별</li>
-    <li>placeEvil->바다</li>
-    <li>placeEvil->깊은 곳</li>
-    <li>placeEvil->대체 우주</li>
+    <li>placeEvil->작은 숲</li>
+    <li>placeEvil->대지</li>
+    <li>placeEvil->별들</li>
+    <li>placeEvil->연안</li>
+    <li>placeEvil->지하 깊은곳</li>
+    <li>placeEvil->사후세계</li>
     <li>placeEvil->동굴</li>
     <li>firstHalfEvil->바이브로</li>
     <li>firstHalfEvil->켈노</li>
     <li>firstHalfEvil->네크로</li>
     <li>firstHalfEvil->크로노</li>
-    <li>firstHalfEvil->드라고</li>
+    <li>firstHalfEvil->드래고</li>
     <li>firstHalfEvil->크리미</li>
     <li>firstHalfEvil->바디</li>
     <li>firstHalfEvil->호러</li>
@@ -368,9 +368,9 @@
     <li>suffixEvil->녹스</li>
     <li>suffixEvil->사이벡스</li>
     <li>suffixEvil->보론</li>
-    <li>suffixEvil->카닉스</li>
+    <li>suffixEvil->카르닉스</li>
     <li>suffixEvil->네멕스</li>
-    <li>suffixEvil->벡소르</li>
+    <li>suffixEvil->벡서</li>
     <li>suffixEvil->트로닉스</li>
     <li>suffixEvil->크립텍스</li>
     <li>suffixEvil->카오닉스</li>

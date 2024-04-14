@@ -22,7 +22,7 @@
   <!-- EN: Analysis progress -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>분석 진행</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural lump. The sample carries the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} is convinced that {PAWN_pronoun} can find a way to kill the fleshmass heart, but {PAWN_pronoun} needs to study more neural samples first. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 살덩이 신경 혹 분석을 끝냈습니다. 샘플은 {BIOSIGNATURE} 생명신호를 지니고 있습니다.\n\n{PAWN_nameDef}(은)는 자신이 살덩이 심장을 죽일 방법을 찾을 수 있다고 확신하지만, 먼저 신경 샘플을 더 연구해야 합니다.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural tissue. This tissue belongs to the previously studied biosignature {BIOSIGNATURE}, so you didn't gain any new knowledge.\n\nYou can destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly and inducing a tachycardiac overload. -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 살덩이 신경 조직 분석을 끝냈습니다. 이 조직은 이전에 연구된 {BIOSIGNATURE} 생명신호에 속해 있으므로, 새로운 지식을 얻지 못했습니다.\n\n{BIOSIGNATURE} 살덩이 심장과 직접 상호작용하여 빈맥 과부하를 일으켜 파괴할 수 있습니다.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
@@ -38,9 +38,9 @@
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef}의 황금 큐브 조사가 더 많은 것을 드러냈습니다. 큐브는 상호작용하는 누구든 정신적으로 영향을 줄 수 있습니다. 큐브의 영향력 아래에 있는 자들은 큐브에서 분리되면 극심한 금단 현상을 경험하게 될 겁니다.\n\n{PAWN_nameDef}(은)는 큐브를 비활성화할 방법이 있을 수 있다고 생각하지만, 직접 추가 연구를 해야 할 겁니다.</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>황금 큐브 연구 완료</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
-  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be safely deactivated using an archotech shard. Deactivating the cube will break its psychic hold over people. However, it will also prevent further study of the cube.\n\nSelect the golden cube to deactivate it. -->
+  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube’s destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef}의 황금 큐브 조사가 황금 큐브를 초월공학 조각을 사용하여 안전하게 비활성화될 수 있다는 것을 밝혀냈습니다. 큐브를 비활성화하면 사람들에 대한 큐브의 정신적 장악이 중단될 겁니다. 하지만, 그렇게 하면 큐브의 추가 연구 또한 막을 겁니다.\n\n황금 큐브를 선택하여 비활성화하세요.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
-  <!-- EN: Permanently disable the golden cube, breaking its psychic hold. This will prevent the cube from being studied further.\n\nRequires 1 shard. -->
+  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they’re in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
   <GoldenCube.comps.CompGoldenCube.activateDescString>영구적으로 황금 큐브를 비활성화하여, 그 정신적 장악을 깨뜨립니다. 이렇게 하면 큐브의 추가 연구를 하지 못하게 됩니다.\n\n조각 1개가 필요합니다.</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
   <GoldenCube.comps.CompGoldenCube.activateLabelString>황금 큐브 비활성화</GoldenCube.comps.CompGoldenCube.activateLabelString>
@@ -52,12 +52,6 @@
   <GoldenCube.comps.CompGoldenCube.guiLabelString>비활성화할 사람을 선택합니다.</GoldenCube.comps.CompGoldenCube.guiLabelString>
   <!-- EN: deactivate -->
   <GoldenCube.comps.CompGoldenCube.jobString>비활성화</GoldenCube.comps.CompGoldenCube.jobString>
-  <!-- EN: The following people have recovered from the cube's psychic effects: -->
-  <GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>큐브의 정신적 효과에서 벗어난 사람:</GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>
-  <!-- EN: {PAWN_nameDef} has deactivated the golden cube. After its animating force was removed, the cube crumbled into a small pile of gold. -->
-  <GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>{PAWN_nameDef}(이)가 황금 큐브를 비활성화했습니다. 그 고무적인 힘이 사라지자, 큐브가 작은 황금 더미로 산산이 부서졌습니다.</GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>
-  <!-- EN: Golden cube deactivated -->
-  <GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>황금 큐브 비활성화됨</GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>
   
   <!-- EN: gray flesh sample -->
   <GrayFleshSample.label>회색 살 샘플</GrayFleshSample.label>
@@ -79,8 +73,8 @@
   <GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>회색 살 샘플 분석</GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>분석 진행</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more grey flesh samples. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 회색 살 샘플 분석을 끝냈습니다. 샘플은 {BIOSIGNATURE} 생명신호를 지니고 있습니다.\n\n{PAWN_nameDef}(은)는 살아 있는 대상의 이 생명신호를 알아내는 방법을 배우는 중이지만, 작업을 완료하려면 더 많은 샘플이 필요합니다. 그때까지, 당신의 외과 검사는 {BIOSIGNATURE}(을)를 감지하지 못할 겁니다.\n\n더 많은 회색 살 샘플을 모으고 분석하세요.</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more gray flesh samples. -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} analysis of the gray flesh sample. It carries the previously discovered biosignature {BIOSIGNATURE}.\n\nYour colonists now understand this biosignature well enough to detect it with the surgical inspection operation. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 {PAWN_possessive} 회색 살 샘플 분석을 끝냈습니다. 그것은 이전에 발견된 {BIOSIGNATURE} 생명신호를 지니고 있습니다.\n\n정착민은 이제 이 생명신호를 충분히 이해하여 외과 검사 작업으로 이를 감지할 수 있습니다.</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
@@ -117,10 +111,10 @@
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>분석 진행</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 망령 살 덩어리를 {BIOSIGNATURE} 생명신호로 분석하는 일을 끝냈습니다.\n\n{PAWN_pronoun}(은)는 이 특정한 망령의 생명 작용과 그것이 뒤에 남기는 액체를 알아내는 방법에 대해 더 많이 배웠습니다.\n\n이 망령은 이제 도망칠 때 보이는 자국을 더 길게 남길 겁니다.\n\n어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다. 망령이 뒤에 남기는 얼룩으로 망령을 추적하여, 교란 신호탄, 폭발물, EMP, 불으로 망령을 드러나게 할 수 있습니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}(이)가 망령 살 덩어리를 {BIOSIGNATURE} 생명신호로 분석하는 일을 끝냈습니다.\n\n{PAWN_pronoun}(은)는 이 특정 망령의 생명 작용과 망령이 내는 소리에 대해 더 많이 배웠습니다. 정착민은 이제 이 망령이 근처에 있으면 들을 수 있습니다. 망령을 사냥하러 가서 가까이 가게 되면, 어떤 정착민이 들을 수 있는지 알림을 받게 될 겁니다.\n\n어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다. 망령이 뒤에 남기는 얼룩으로 망령을 추적하여, 교란 신호탄, 폭발물, EMP, 불으로 망령을 드러나게 할 수 있습니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\n Your colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 망령 살 덩어리를 이전에 연구된 {BIOSIGNATURE} 생명신호로 분석하는 일을 끝냈습니다.\n\n정착민은 이제 이 망령이 근처에 있으면 볼 수 있습니다.어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>분석 완료</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>

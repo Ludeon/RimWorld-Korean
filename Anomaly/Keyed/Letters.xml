@@ -1,172 +1,294 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Inhumanization -->
+  <!-- EN: Rehumanized -->
   <ReHumanizedLabel>인간성 회복</ReHumanizedLabel>
+  <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
   <ReHumanizedText>{0_nameDef}(이)가 인간성과 {0_possessive} 연결을 다시 회복했습니다. {0_nameDef}의 '비인간화' 건강 상태가 제거되었습니다.</ReHumanizedText>
+  <!-- EN: Warning from {0_nameDef} -->
   <WarningFromLabel>{0_nameDef}의 경고</WarningFromLabel>
 
   <!-- Hate chanters -->
+  <!-- EN: Cultist hate chanters -->
   <HateChantersLabel>광신도 증오의 찬송</HateChantersLabel>
+  <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
   <HateChantersText>광신도 증오의 찬송을 외치는 자들이 도착했습니다. 그들은 증오의 찬송 의식을 행해 초정신적 분노를 정착민에 억지로 넣어 화나게 만들려고 합니다. 광신도를 멈추지 않으면 찬송은 점점 커질 것입니다.</HateChantersText>
+  <!-- EN: Cultists attacking -->
   <HateChantersAttackingLabel>광신도 공격</HateChantersAttackingLabel>
+  <!-- EN: The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend. -->
   <HateChantersAttackingText>광신도들이 증오의 찬송을 끝내고 의식 무아지경에서 나오기 시작했습니다.\n\n방어할 준비를 하세요.</HateChantersAttackingText>
 
   <!-- Psychic rituals -->
+  <!-- EN: {0} complete -->
   <PsychicRitualCompleteLabel>{0} 완료</PsychicRitualCompleteLabel>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
   <VoidProvocationCompletedText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 행하고, 실체를 끌어들이는 정신파동을 방출하는 일을 끝냈습니다.</VoidProvocationCompletedText>
+  <!-- EN: Prepare for what comes next. -->
   <VoidProvocationSucceeded>다음에 일어날 일에 대비하세요.</VoidProvocationSucceeded>
+  <!-- EN: Unfortunately, your call has been left unanswered. -->
   <VoidProvocationFailed>유감스럽게도, 당신의 외침은 대답을 듣지 못했습니다.</VoidProvocationFailed>
+  <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
   <VoidProvocationDarkPsychicShock>그 과정에서, {INVOKER_nameDef}(이)가 인간의 이해를 뛰어넘는 무언가를 얼핏 보았습니다. 초정신적 어둠이 {INVOKER_objective}에 충격을 주어 단기간의 혼수 상태에 빠져들게 했습니다.</VoidProvocationDarkPsychicShock>
+  <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
   <PhilophagyCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}의 기술과 기억을 흡수하는 {RITUAL_definite} 의식을 완료했습니다.</PhilophagyCompleteText>
+  <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
   <PawnGainedXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1}XP를 얻었습니다</PawnGainedXPInSkill>
+  <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
   <PawnLostXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1}XP를 잃었습니다</PawnLostXPInSkill>
+  <!-- EN: rising from skill level {0} to {1}. -->
   <PhilophagySkillLevelGained>기술 레벨 {0}에서 {1}로 상승 중.</PhilophagySkillLevelGained>
+  <!-- EN: falling from skill level {0} to {1}. -->
   <PhilophagySkillLevelLost>기술 레벨 {0}에서 {1}로 하강 중.</PhilophagySkillLevelLost>
+  <!-- EN: remaining at skill level {0}. -->
   <PhilophagySkillLevelRemains>기술 레벨 {0}에서 머무름.</PhilophagySkillLevelRemains>
+  <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   <PhilophagyDamagedTarget>그 과정은 {TARGET_nameDef}의 뇌를 손상시켜, {TARGET_objective}(을)를 혼수 상태에 빠지게 만들었습니다.</PhilophagyDamagedTarget>
 
+  <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
   <ImbueDeathRefuralCompleteText>{0_nameDef}(이)가 죽음 거부로 가득 찼습니다. {0_pronoun}(은)는 이제 죽은 후 자가 부활할 수 있습니다.\n\n이 과정은 {0_nameDef}의 뇌를 위축시켜, {0_objective}가 {0_possessive} 기술에서 총 {1}XP를 잃게 만들었습니다.</ImbueDeathRefuralCompleteText>
 
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
   <SummonAnimalsSuccessText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 끝냈습니다. 곧 동물 무리가 올 겁니다.</SummonAnimalsSuccessText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
   <SummonAnimalsFailureText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 끝냈지만 뭔가 끔찍하게 잘못됐습니다! 의식이 동물들을 화나게 만들었습니다. 식인 동물이 당신 방향으로 가고 있습니다!</SummonAnimalsFailureText>
   
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
   <SummonShamblersCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 성공적으로 마쳤습니다. 그들의 도착을 기다리세요.</SummonShamblersCompleteText>
 
+  <!-- EN: They are attacking from multiple directions. -->
   <AttackingFromMultipleDirections>그들이 여러 방향에서 공격하고 있습니다.</AttackingFromMultipleDirections> 
 
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
   <ChronophagyCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 성공적으로 마쳤습니다. 의식에는 다음 효과가 있습니다.</ChronophagyCompleteText>
+  <!-- EN: {0_nameDef} aged {1} years -->
   <ChronophagyTargetAged>{0_nameDef}(이)가 {1}살 늙었습니다</ChronophagyTargetAged>
+  <!-- EN: {0_nameDef} became {1} years younger -->
   <ChronophagyInvokerRejuvenated>{0_nameDef}(이)가 {1}살 어려졌습니다</ChronophagyInvokerRejuvenated>
+  <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
   <ChronophagyTargetDiedOfOldAge>{0_nameDef}(은)는 시간포식 의식에서 노화를 버티지 못해 늙어 죽었습니다.</ChronophagyTargetDiedOfOldAge>
+  <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
   <ChronophagyTargetOldAgeDiseases>{0_nameDef}(은)는 시간포식 의식에서 살아남았지만, 다음 상태를 얻었습니다</ChronophagyTargetOldAgeDiseases>
+  <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
   <ChronophagyInvokerCuredDiseases>추가로, 해당 과정은 다음의 질병 중 {0_nameDef}(을)를 치료했습니다.</ChronophagyInvokerCuredDiseases>
+  <!-- EN: and is now {0} years old -->
   <ChronophagyCurrentAge>그리고 이제 {0}살입니다</ChronophagyCurrentAge>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
   <PleasurePulseCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 다음 {1} 동안, {RITUAL_definite}에 영향 받는 모두는 더 행복해지지만 느리게 작업할 겁니다.</PleasurePulseCompleteText>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
   <NeurosisPulseCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 다음 {1} 동안, 파동을 듣는 모두는 더 빠르게 일하지만 짜증이 날 겁니다.</NeurosisPulseCompleteText>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
   <BloodRainCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 걸쭉한 빨간 물방울이 하늘에서 떨어지기 시작했습니다. 모두를 실내에 있게 하여 광란에서 지키세요.</BloodRainCompleteText>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
   <BrainwipeCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 완료하여, {TARGET_nameDef}의 기억을 무질서하게 삭제했습니다.</BrainwipeCompleteText>
+  <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
   <BrainwipeTargetComa>{TARGET_pronoun}(이)가 {1} 동안 혼수상태에 있을 겁니다.</BrainwipeTargetComa>
+  <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
   <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef}에게는 이제 확고한 충성심이 없습니다.</BrainwipeUnwaveringlyLoyal>
+  <!-- EN: {TARGET_nameDef} has been re-humanized. -->
   <BrainwipeRehumanized>{TARGET_nameDef}(이)가 인간성을 회복했습니다.</BrainwipeRehumanized>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
   <PsychophagyCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 완료하여 {TARGET_nameDef}의 정신체를 먹었습니다.</PsychophagyCompleteText>
+  <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   <PsychophagyTargetSurvived>{TARGET_nameDef}은 이제 정신적 무감각 상태입니다. 그 과정은 {TARGET_nameDef}의 뇌를 손상시켜, {TARGET_objective}(을)를 혼수 상태에 빠지게 만들었습니다.</PsychophagyTargetSurvived>
   
+  <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
   <PsychicRitualTargetBrainLiquified>이 과정은 {TARGET_nameDef}의 뇌를 액화해, {TARGET_objective}(을)를 죽였습니다.</PsychicRitualTargetBrainLiquified>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 살짐승이 땅에서 출현 중입니다!</SummonFleshbeastsPlayerCompleteText>
 
+  <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
   <GhoulInfusionCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}에 바이오페라이트 주입을 끝냈습니다. 의식은 {TARGET_nameDef}의 정신을 왜곡하고 {TARGET_possessive}의 몸을 변형시켜, 구울이라고 알려진 무서운 생물을 만들었습니다. {INVOKER_nameDef}(은)는 {TARGET_nameDef}(와)과의 정신적 연결을 공유하며, {INVOKER_objective}(이)가 {TARGET_nameDef}(을)를 조종할 수 있게 합니다.\n\n구울은 생존하기 위해 생고기를 먹습니다. 구울이 배고파지면, 적대적으로 변합니다.</GhoulInfusionCompleteText>
   
+  <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>그들이 의식을 여러 차례 행할 수 있습니다. 그들을 멈춰야 합니다.</AttackersMayCastRitualMultipleTimes>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
   <SkipAbductionPlayerCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 끝냈습니다. 시공간을 조종하여, {INVOKER_nameDef}(은)는 {FACTION_name} 세력의 {TARGET_nameDef}(을)를 납치했습니다. 의식의 무서운 본성이 {TARGET_nameDef}(을)를 단기간의 혼수 상태에 빠지게 했습니다.</SkipAbductionPlayerCompleteText>
 
+  <!-- EN: Fleshmass response -->
   <FleshmassResponseLabel>살덩이 반응</FleshmassResponseLabel> 
+  <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
   <FleshmassResponseText>살덩이의 죽음이 격렬한 반응을 촉발했습니다! 살덩이는 스스로를 보호하기 위해 새로운 살짐승을 탄생시키며 몸을 떨고 있습니다.</FleshmassResponseText> 
 
   <!-- Void awakening -->
+  <!-- EN: Dimming sky -->
   <VoidAwakeningStageOneStructuresActivatedLabel>어두운 하늘</VoidAwakeningStageOneStructuresActivatedLabel>
+  <!-- EN: Structures activated -->
   <VoidAwakeningStageTwoStructuresActivatedLabel>구조물 활성화됨</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
   <VoidAwakeningStageOneStructuresActivatedText>두 번째 구조물이 활성화되자, 더욱 어두워지기 시작합니다. 부자연적 어둠이 곧 내려앉을 겁니다. 당신의 정착지를 단단히 대비하세요. 자원을 비축하고, 조명을 만들고, 교란 신호탄을 제작하고, 방어를 강화하세요. 빛 아래에 있는 사람만 안전할 겁니다.\n\n더 뒤틀린 구조물이 곧 나타날 겁니다.</VoidAwakeningStageOneStructuresActivatedText>
+  <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
   <VoidAwakeningStageTwoStructuresActivatedText>모든 공허 구조물이 활성화되었습니다. 공허 모노리스 주위의 공간이 희미하게 빛나기 시작했습니다. 준비하세요.</VoidAwakeningStageTwoStructuresActivatedText> 
+  <!-- EN: {STUDIER_nameDef} teleported -->
   <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} 순간이동함</VoidAwakeningFinalStructuresActivatedLabel> 
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence. -->
   <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef}(이)가 모노리스를 활성화하고 우리의 시공간에서 떨어져 나와 다른 공간으로 도착했습니다.\n\n{STUDIER_pronoun}(은)는 {STUDIER_objective}(이)가 삐죽삐죽한 금속 못이 있는 방에 있음을 깨달았습니다. 모든 표면은 어두운 액체로 번드르르하고, 공기는 힘으로 진동합니다. 이 금속의 지옥은 비인간적 초지능과의 연결 통로입니다.\n\n{STUDIER_nameDef}(이)가 악몽 같은 정신의 영향력을 우리 세계에 흘려보내는 공허 노드를 찾았습니다. 노드와 상호작용해 그 힘을 받아들이거나, 파괴하여 연결을 완전히 끊어내세요.</VoidAwakeningFinalStructuresActivatedText> 
+  <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>휘청이는 자 공격</VoidAwakeningShamblerArrivalLabel>
+  <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
   <VoidAwakeningShamblerArrivalText>휘청이는 자 무리가 공허 구조물에 이끌렸습니다. 준비하세요!</VoidAwakeningShamblerArrivalText>
+  <!-- EN: Fleshbeast tunneling -->
   <VoidAwakeningFleshbeastBurrowLabel>살짐승 굴 뚫는 중</VoidAwakeningFleshbeastBurrowLabel>
+  <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
   <VoidAwakeningFleshbeastBurrowText>모노리스가 강력한 정신파동을 생성해, 근처 실체를 끌어들였습니다.\n\n땅 아래에서, 고기의 비명과 할퀴어대는 발톱 소리가 들립니다. 살짐승이 당신을 향해 굴을 뚫고 있습니다. 준비하세요!</VoidAwakeningFleshbeastBurrowText>
+  <!-- EN: Metalhorror attack -->
   <VoidAwakeningMetalhorrorArrivalLabel>메탈호러 공격</VoidAwakeningMetalhorrorArrivalLabel>
+  <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
   <VoidAwakeningMetalhorrorArrivalText>메탈호러가 공허 모노리스 근처에서 나타나고 있습니다. 준비하세요!</VoidAwakeningMetalhorrorArrivalText>
+  <!-- EN: Entity attack -->
   <VoidAwakeningEntityArrivalLabel>실체 공격</VoidAwakeningEntityArrivalLabel> 
+  <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
   <VoidAwakeningEntityArrivalText>활성화된 공허 구조물이 뒤틀린 정신파동을 생성하여, 근처 실체를 끌어들이는 중입니다. 준비하세요!</VoidAwakeningEntityArrivalText>
+  <!-- EN: Embrace the void -->
   <VoidAwakeningBreadcrumbLetterLabel>공허를 받아들이기</VoidAwakeningBreadcrumbLetterLabel>
+  <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
   <VoidAwakeningBreadcrumbLetterText>공허 구조물과 상호작용하는 동안, {PAWN_nameDef}(이)가 공허의 환영을 봤습니다. 잠깐 동안 끝없이 깊은 검은 바다를 수영했고 그 끝없는 비인간적인 힘을 느꼈습니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들여 그 힘을 통제할 방법이 있을 수도 있다고 생각합니다. 공허로의 도관을 닫지 않고 영구적으로 연다면, 말로 다할 수 없는 가능성이 생길 수 있습니다.</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
+  <!-- EN: {PAWN_nameDef} returns -->
   <VoidNodeReturnedLabel>{PAWN_nameDef}(이)가 돌아옵니다</VoidNodeReturnedLabel>
+  <!-- EN: {PAWN_nameDef} has reappeared. -->
   <VoidNodeReturnedMessage>{PAWN_nameDef}(이)가 다시 나타났습니다.</VoidNodeReturnedMessage>
+  <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
   <EmbracedVoidText>{PAWN_nameDef}(이)가 다시 나타났습니다.\n\n{PAWN_pronoun}(은)는 공허의 비인간적인 사고방식에 메말라 보입니다. 인간성의 모든 흔적이 눈을 떠났습니다.\n\n{PAWN_nameDef}의 정신과 몸은 이제 비인간적인 분노의 어두운 공허와 영구적으로 연결되었습니다. 이 새로운 연결을 이용해, {PAWN_nameDef}(은)는 더 이상 식욕이나 수면욕 같은 인간의 욕구에 묶이지 않습니다. 공허의 힘을 사용해 다른 사람들에게 공포를 유발하는 능력을 얻었습니다.\n\n모노리스가 깨어났습니다. {PAWN_nameDef}(이)가 다시 나타나자 더 크게 웅웅대며, 공허와의 연결이 열렸으며 영구화되었다는 것을 일깨워줍니다.</EmbracedVoidText>
+  <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
   <DisruptedLinkText>{PAWN_nameDef}(이)가 다시 나타났습니다. {PAWN_pronoun}(은)는 많은 노력 때문에 지쳤지만, 그 외에는 건강합니다.\n\n공허와의 통로를 닫음으로써, {PAWN_nameDef}(은)는 추가적인 부자연적 현상이 우리 세계에 들어오는 것을 막게 되었습니다. 지역의 적대적인 실체가 모두 죽은 채, 땅에 쓰러졌습니다.\n\n그 영웅담은 정말 멀리 멀리 퍼질 겁니다.</DisruptedLinkText>
+  <!-- EN: fleshcrafting -->
   <RewardFleshcraftingAbility>살가공</RewardFleshcraftingAbility>
+  <!-- EN: slaughter -->
   <RewardSlaughterAbility>도축</RewardSlaughterAbility>
+  <!-- EN: shambler control -->
   <RewardShamblerControlAbility>도축 조절</RewardShamblerControlAbility>
 
   <!-- Duplicate sickness -->
+  <!-- EN: Duplicate sickness -->
   <DuplicateSicknessLabel>복사본 후유증</DuplicateSicknessLabel>
+  <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
   <DuplicateSicknessText>{0_nameDef}(와)과 {0_possessive} 복사본의 상태가 좋지 않습니다. 그들의 상태는 복사 과정과 연관이 있어 보이며 악화되고 있습니다. 그들을 묶는 저신적 교감은 그들이 천천히 의식을 잃게 만듭니다. 그들 중 하나가 죽기 전까지는 상태가 나아지지 않을 겁니다.</DuplicateSicknessText>
 
   <!-- Frenzied animals -->
+  <!-- EN: Frenzied animals -->
   <FrenziedAnimalsLabel>광분한 동물들</FrenziedAnimalsLabel>
+  <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
   <FrenziedAnimalsText>식인 {0} 무리가 지역에 도착했습니다! 당신의 의식 때문에 동물들이 미쳐버렸습니다.인간형 살을 사냥하며 지역을 돌아다닐 겁니다.\n\n누군가 문을 통과하는 것을 못 봤다면 문을 공격하지 않을 겁니다. 실내에 있으면 안전할 겁니다. 작동하지 않는 포탑도 공격하지 않으므로 전원을 꺼서 포탑을 지키세요.\n\n{0}(은)는 하루나 이틀 후 지역을 떠납니다. 숨어서 기다리거나, 그들과 싸우세요.</FrenziedAnimalsText>
 
   <!-- Ghouls -->
+  <!-- EN: Ghoul betrayal -->
   <GhoulBetrayalLabel>구울 배신</GhoulBetrayalLabel>
+  <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
   <GhoulBetrayalText>{PAWN_nameDef}(이)가 생고기를 향한 {PAWN_possessive} 엄청난 허기 때문에 미쳐버렸습니다!</GhoulBetrayalText>
   
   <!-- Distress signal -->
+  <!-- EN: Distress signal -->
   <DistressSignalLabel>조난 신호</DistressSignalLabel>
+  <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
   <DistressSignalText>{FACTION_name}의 근처 야영지에서 조난 신호를 도청했습니다.\n\n제정신이 아닌 목소리로 위협에서 보호해달라는 즉각적인 도움을 요청하고 있습니다. 그들은 도움의 대가로 강력한 초월공학 조각을 포함한, 야영지의 뭐든 주겠다고 합니다.\n\n목소리의 주인이 어떤 위협을 받고 있는지 설명하려고 하자, 신호가 끊어집니다.</DistressSignalText>
+  <!-- EN: Ambush -->
   <DistressSignalAmbushLabel>매복</DistressSignalAmbushLabel>
+  <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
   <DistressSignalAmbushText>살짐승이 근처 구덩이 굴에서 출현 중입니다!</DistressSignalAmbushText>
 
   <!-- Chimeras -->
+  <!-- EN: Chimeras approach -->
   <ChimeraAssaultLabel>키메라 접근</ChimeraAssaultLabel>
+  <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
   <ChimeraAssaultText>뒤틀린 동물 같은 키메라 괴물 무리가 근처에 나타났습니다.\n\n기형의 짐승들은 당신의 정착지를 감시하고, 공격할 기회를 기다릴 겁니다. 그들은 겁이 많고 도발하면 보복합니다.</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
+  <!-- EN: Darkness lifting -->
   <DarknessLiftingEarlyLetterLabel>걷히는 어둠</DarknessLiftingEarlyLetterLabel>
+  <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
   <DarknessLiftingEarlyLetterText>마지막 악몽 같은 기둥이 붕괴했습니다. 부자연적 어둠이 소멸하기 시작했습니다. 정착민이 맑은 공기 속에서 안도의 한숨을 내쉽니다.</DarknessLiftingEarlyLetterText>
+  <!-- EN: {0_nameDef} attacked -->
   <PawnAttackedInDarknessLabel>{0_nameDef} 공격받음</PawnAttackedInDarknessLabel>
+  <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
   <PawnAttackedInDarknessText>어둠 속의 무언가가 {0_nameDef}(을)를 공격했습니다!\n\n이 공격은 {0_pronoun}(이)가 빛 속에 안전하게 있을 때까지 계속될 겁니다.</PawnAttackedInDarknessText>
+  <!-- EN: Noctol attack -->
   <NoctolAttackLetterLabel>녹톨 공격</NoctolAttackLetterLabel>
+  <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
   <NoctolAttackLetterText>어둠이 동요하기 시작했습니다. 비인간적인 떨리는 소리가 새까만 암흑 어딘가에서 나오고 있습니다.\n\n검은, 곤충 같은 녹톨들이 곧 어둠에서 공격해올 겁니다.</NoctolAttackLetterText>
+  <!-- EN: Darkness soon -->
   <DarknessWarningLetterLabel>머지않은 어둠</DarknessWarningLetterLabel>
+  <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
   <DarknessWarningLetterText>어둠이 이곳에 거의 다 왔습니다. 조명, 횃불, 신호탄에서 직접 빛을 받고 있는 자들만 안전할 겁니다.\n\n정착민을 빛 속에 두기 위해, 스케쥴 창에서 허용되는 지역을 배정하여 그들의 움직임을 제한할 수 있습니다.</DarknessWarningLetterText>
+  <!-- EN: Darkness wavering -->
   <DarknessWaveringLetterLabel>떨리는 어둠</DarknessWaveringLetterLabel>
+  <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
   <DarknessWaveringLetterText>녹톨리스의 파괴와 함께, 어둠 속에서 희미한 틈이 나타나고, 틈은 더 많은 검은색으로 채워집니다.\n\n남은 녹톨리스를 파괴해 부자연적 어둠을 끝내세요.</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
+  <!-- EN: Shamblers approach -->
   <LetterLabelShamblerSwarmArrived>휘청이는 자 접근</LetterLabelShamblerSwarmArrived>
+  <!-- EN: Shambler approaches -->
   <LetterLabelShamblerArrived>휘청이는 자 접근</LetterLabelShamblerArrived>
+  <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerSwarmArrived>휘청이며 썩어 가는 시체 {0}명의 무리가 접근 중입니다. 어떤 비인간적 힘이 이 생명 없는 시체를 되살렸고 살인을 하도록 만들었습니다.\n\n그들은 이제 지역을 돌아다닐 겁니다. 그들이 인간을 보면, 공격하게 됩니다. 그렇지 않으면, 그들은 며칠 안에 떠납니다.\n\n한 개체를 포획할 수 있다면, 이상 현상 지식을 위해 연구할 수 있습니다.</LetterShamblerSwarmArrived>
+  <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
   <LetterShamblerArrived>휘청이며 썩어 가는 시체 하나가 접근 중입니다. 어떤 비인간적 힘이 이 생명 없는 시체를 되살렸고 살인을 하도록 만들었습니다.\n\n이것은 이제 지역을 돌아다닐 겁니다. 이것이 인간을 보면, 공격하게 됩니다. 그렇지 않으면, 이것은 며칠 안에 떠납니다.\n\n이것을 포획할 수 있다면, 이상 현상 지식을 위해 연구할 수 있습니다.</LetterShamblerArrived>
+  <!-- EN: {ANIMALKIND_label} shamblers -->
   <LetterLabelShamblerAnimalsArrived>{0} 휘청이는 자</LetterLabelShamblerAnimalsArrived>
+  <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerAnimalsArrived>휘청이며 썩어 가는 시체 {0}명의 무리가 접근 중입니다. 어떤 비인간적 힘이 이 생명 없는 시체를 되살렸고 살인을 하도록 만들었습니다.\n\n그들은 이제 지역을 돌아다닐 겁니다. 그들이 인간을 보면, 공격하게 됩니다. 그렇지 않으면, 그들은 며칠 안에 떠납니다.\n\n한 개체를 포획할 수 있다면, 이상 현상 지식을 위해 연구할 수 있습니다.</LetterShamblerAnimalsArrived>
 
   <!-- Ghoul pod crash -->
+  <!-- EN: Transport pod crash -->
   <GhoulPodCrashLabel>수송 포드 추락</GhoulPodCrashLabel>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
   <GhoulPodCrashText>걸신들린 듯한 적대적 구울을 싣고 있는 수송 포드가 근처에 착륙했습니다.\n\n구울은 현재 쇼크에 빠져 있지만, 곧 회복하여 보이는 누구든 공격할 겁니다. 추가 연구를 위해 수용 플랫폼에 포획할 수 있습니다.\n\n깨어나기 전에 포획하거나 죽이세요.</GhoulPodCrashText>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
   <GhoulPodCrashStartingPawnText>걸신들린 듯한 적대적 구울을 싣고 있는 수송 포드가 근처에 착륙했습니다. 가까이서 보니, 우리와 한 무리였던 {PAWN_nameDef} 같아 보입니다.\n\n구울은 현재 쇼크에 빠져 있지만, 곧 회복하여 보이는 누구든 공격할 겁니다. 추가 연구를 위해 수용 플랫폼에 포획할 수 있습니다.\n\n깨어나기 전에 포획하거나 죽이세요.</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
+  <!-- EN: New research available -->
   <LetterLabelEntityDiscovery>새로운 연구 가능</LetterLabelEntityDiscovery>
+  <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
   <LetterTextEntityDiscoveryResearch>당신이 {ENTITY_definite}(을)를 발견하여 새로운 통찰을 얻었습니다. 이제 다음 이상 현상 과제를 연구할 수 있습니다</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
+  <!-- EN: Nociosphere defeated -->
   <NociosphereDefeatedLabel>노셔스피어 파괴됨</NociosphereDefeatedLabel>
+  <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
   <NociosphereDefeatedText>노셔스피어이 파괴되며, 많은 귀중한 자원을 뒤에 남겼습니다.</NociosphereDefeatedText>
+  <!-- EN: Nociosphere destabilising -->
   <NociosphereBecomingUnstableLabel>불안정한 노셔스피어</NociosphereBecomingUnstableLabel> 
+  <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
   <NociosphereBecomingUnstableText>노셔스피어의 에너지 패턴이 변화하고 조정되기 시작했습니다. 10일 내면, 더 이상 억제에 반응하지 않을 겁니다.\n\n노셔스피어은 억제되지 않으면 활성화될 겁니다.</NociosphereBecomingUnstableText> 
-  <NociosphereBecomingUnstableTextExtraSendable>노셔스피어을 적대적인 위협을 공격하도록 보내 노셔스피어에 피해를 입히세요. 노셔스피어을 보내면, 짧은 시간 동안 살아 있는 모든 생물을 뒤쫓을 겁니다.</NociosphereBecomingUnstableTextExtraSendable>
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereBecomingUnstableTextExtraSendable>노셔스피어이 거대한 적대적 힘을 공격하도록 보내 노셔스피어을 처리하세요. 노셔스피어의 맹습이 끝나면, 영원히 끝날 겁니다.</NociosphereBecomingUnstableTextExtraSendable>
+  <!-- EN: Study the nociosphere to find a way to dispose of it. -->
   <NociosphereBecomingUnstableTextExtraNotSendable>노셔스피어을 연구해 처리할 방법을 찾으세요.</NociosphereBecomingUnstableTextExtraNotSendable>
+  <!-- EN: Nociosphere unstable -->
   <NociosphereUnstableLabel>노셔스피어 불안정함</NociosphereUnstableLabel>
+  <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
   <NociosphereUnstableText>노셔스피어이 불안정해져 억제에 더 이상 반응하지 않습니다. 노셔스피어의 활동이 100%에 도달하면, 깨어날 겁니다.</NociosphereUnstableText>
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereUnstableTextExtraSendable>노셔스피어이 거대한 적대적 힘을 공격하도록 보내 노셔스피어을 처리하세요. 노셔스피어의 맹습이 끝나면, 영원히 끝날 겁니다.</NociosphereUnstableTextExtraSendable> 
-  <NociosphereUnstableTextExtraNotSendable>노셔스피어의 맹습에 대비하세요.</NociosphereUnstableTextExtraNotSendable>>
+  <!-- EN: Prepare for the nociosphere’s onslaught. -->
+  <NociosphereUnstableTextExtraNotSendable>노셔스피어의 맹습에 대비하세요.</NociosphereUnstableTextExtraNotSendable>
 
+  <!-- EN: Strange corpse -->
   <UnnaturalCorpseArrivalLabel>이상한 시체</UnnaturalCorpseArrivalLabel>
+  <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
   <UnnaturalCorpseArrivalText>난데없이 부자연적 인간 시체가 나타났습니다.\n\n추가적인 조사를 하니, 시체는 {PAWN_nameDef}(와)과 똑같아 보입니다. 피부는 왁스 같으며 따뜻합니다.\n\n시체를 연구해 더 알아보세요.</UnnaturalCorpseArrivalText>
 
+  <!-- EN: Golden cube -->
   <GoldenCubeArrivalLabel>황금 큐브</GoldenCubeArrivalLabel>
+  <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
   <GoldenCubeArrivalText>이상한 큐브가 근처에 착륙했습니다. 황금처럼 빛나지만 흠집을 낼 수 없습니다. 가벼우며 따뜻합니다. 빛이 표면을 돌아다니는 모습이 매혹적입니다.\n\n{PAWN_nameDef}(은)는 설명할 수 없이 큐브에 끌립니다.\n\n큐브를 연구해 더 알아보세요.</GoldenCubeArrivalText>
 
+  <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>공허 호기심</VoidCuriosityLabel>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
   <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 바이오페라이트 수확기에 연결해 바이오페라이트를 생성할 수 있습니다.\n\n초정신적 의식 자리를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_Researched>
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 바이오페라이트 수확기에 연결해 바이오페라이트를 생성할 수 있습니다.\n\n공허 도발을 연구하고, 초정신적 의식 자리를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_NotResearched>\n\n</LanguageData>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 바이오페라이트 수확기에 연결해 바이오페라이트를 생성할 수 있습니다.\n\n공허 도발을 연구하고, 초정신적 의식 자리를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_NotResearched>
+
+</LanguageData>

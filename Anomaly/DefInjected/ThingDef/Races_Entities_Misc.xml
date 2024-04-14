@@ -117,7 +117,7 @@
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>노셔스피어를 연구하여, 당신은 노셔스피어를 의도적으로 활성화하는 방법을 알았습니다.\n\n활성화되면, 노셔스피어는 당신이 선택한 먼 장소로 순간 이동하여 근처의 모두에게 고통 세례를 개시할 겁니다. 노셔스피어는 되돌아올 것을 선택하지 않는 이상 살아 있는 생물이 파괴될 때까지 주위의 모든 것을 사냥할 겁니다. 노셔스피어를 선택하여 활성화하세요.</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Nociosphere study complete -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>노셔스피어 연구 완료</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>
-  <!-- EN: {PAWN_nameDef} has made an alarming discovery about the nociosphere. The entity is showing early signs of instability.\n\nOnce the nociosphere starts to become unstable, you can dispose of it by sending it to attack a hostile threat. Once its onslaught is complete, it will permanently depart. If it becomes fully unstable, it will no longer respond to suppression. -->
+  <!-- EN: {PAWN_nameDef} has made an alarming discovery about the nociosphere. The entity is showing early signs of instability.\n\nOnce the nociosphere starts to become unstable, you can dispose of it by sending it to attack a hostile threat. For a short period, the nociosphere will hunt down anything nearby - friend or foe.\n\nOnce its onslaught is complete, it will permanently depart. If it becomes fully unstable, it will no longer respond to suppression. -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>{PAWN_nameDef}(이)가 노셔스피어에 대해 두려운 발견을 했습니다. 해당 시체는 불안정의 조기 조짐을 보이고 있습니다.\n\n노셔스피어가 불안정해지기 시작하면, 적대적인 위협을 공격하도록 보내서 처리할 수 있습니다. 노셔스피어의 맹습이 끝나면, 영원히 떠날 겁니다. 완전히 불안정해지면, 더 이상 억제에 반응하지 않을 겁니다.</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>
   <!-- EN: Teleport the nociosphere to a nearby location. It will then unleash an onslaught of murder and pain on everyone nearby for a short time. The nociosphere will hunt down any creature, including allies and other entities.\n\nThe nociosphere can be sent multiple times. -->
   <Nociosphere.comps.CompNociosphere.activateDescString>노셔스피어를 근처 장소로 순간 이동 시키세요. 그러면 근처의 모두에게 짧은 시간 동안 살해와 고통의 맹습을 개시할 겁니다. 노셔스피어는 아군과 다른 실체를 포함한 모든 생물을 추적할 겁니다.\n\n노셔스피어는 여러 번 보낼 수 있습니다.</Nociosphere.comps.CompNociosphere.activateDescString>
@@ -128,23 +128,23 @@
   <!-- EN: Becoming unstable -->
   <Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>불안정해지는 중</Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>
   <!-- EN: The nociosphere is departing. -->
-  <Nociosphere.comps.CompNociosphere.departingMessage>노셔스피어이 떠나고 있습니다.</Nociosphere.comps.CompNociosphere.departingMessage>
+  <Nociosphere.comps.CompNociosphere.departingMessage>노셔스피어가 떠나고 있습니다.</Nociosphere.comps.CompNociosphere.departingMessage>
   <!-- EN: send nociosphere -->
   <Nociosphere.comps.CompNociosphere.jobString>노셔스피어 보내기</Nociosphere.comps.CompNociosphere.jobString>
   <!-- EN: Nociosphere departed -->
   <Nociosphere.comps.CompNociosphere.leftLetterLabel>노셔스피어 떠남</Nociosphere.comps.CompNociosphere.leftLetterLabel>
   <!-- EN: The nociosphere has disappeared, ending its onslaught.\n\nIt's unclear where the nociosphere has gone or if it will return. -->
-  <Nociosphere.comps.CompNociosphere.leftLetterText>노셔스피어이 떠나며, 맹습을 끝냈습니다.\n\n노셔스피어이 어디로 갔는지 혹은 돌아올지는 불분명합니다.</Nociosphere.comps.CompNociosphere.leftLetterText>
+  <Nociosphere.comps.CompNociosphere.leftLetterText>노셔스피어가 떠나며, 맹습을 끝냈습니다.\n\n노셔스피어가 어디로 갔는지 혹은 돌아올지는 불분명합니다.</Nociosphere.comps.CompNociosphere.leftLetterText>
   <!-- EN: Nociosphere onslaught cooldown -->
   <Nociosphere.comps.CompNociosphere.onCooldownString>노셔스피어 맹습 재사용 대기시간</Nociosphere.comps.CompNociosphere.onCooldownString>
   <!-- EN: The nociosphere has ended its onslaught and has returned to its initial location. -->
-  <Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>노셔스피어이 그 맹습을 끝냈으며 초기 장소로 돌아왔습니다.</Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>
+  <Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>노셔스피어가 그 맹습을 끝냈으며 초기 장소로 돌아왔습니다.</Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>
   <!-- EN: Onslaught mode: {0} seconds left -->
   <Nociosphere.comps.CompNociosphere.onslaughtInspectText>맹습 모드: {0}초 남음</Nociosphere.comps.CompNociosphere.onslaughtInspectText>
   <!-- EN: Unstable: cannot be suppressed -->
   <Nociosphere.comps.CompNociosphere.unstableInspectText>불안정함: 억제될 수 없음</Nociosphere.comps.CompNociosphere.unstableInspectText>
   <!-- EN: Warning: the nociosphere will resist suppression in {0} days. -->
-  <Nociosphere.comps.CompNociosphere.unstableWarning>경고: 노셔스피어이 {0}일 후 억제에 저항할 겁니다.</Nociosphere.comps.CompNociosphere.unstableWarning>
+  <Nociosphere.comps.CompNociosphere.unstableWarning>경고: 노셔스피어가 {0}일 후 억제에 저항할 겁니다.</Nociosphere.comps.CompNociosphere.unstableWarning>
   
   <!-- EN: noctol -->
   <Noctol.label>녹톨</Noctol.label>
@@ -163,7 +163,7 @@
   
   <!-- EN: revenant -->
   <Revenant.label>망령</Revenant.label>
-  <!-- EN: A spindly figure of desiccated skin stretched over an impossibly tall humanoid frame. The revenant's name comes from its pattern of returning to hypnotize new people each night.\n\nOutlander folklore describes an invisible spectre that captures the minds of sinners, placing them in a living hell. In the story, the victims can only be returned to life by hunting the creature as it sleeps and killing it. -->
+  <!-- EN: A spindly figure of desiccated skin stretched over an impossibly tall humanoid frame. The revenant's name comes from its pattern of returning to hypnotize new people each night.\n\nOutlander folklore describes an invisible spectre that captures the minds of sinners, placing them in a living hell. In the story, the victims can only be returned to life by hunting the creature as it sleeps and killing it.\n\nA hidden revenant can be revealed with disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
   <Revenant.description>불가능할 정도로 긴 인간형 뼈대에 걸쳐 말린 피부를 늘린 홀쭉한 형상입니다. 망령의 이름은 매일 밤 새로운 사람을 최면에 빠뜨리는 것으로 돌아오는 패턴에서 유래했습니다.\n\n외지인 민속은 죄인의 정신을 사로잡아 그들을 생지옥으로 보내는, 눈에 보이지 않는 유령으로 묘사합니다. 이야기 속에서, 희생자들은 자고 있는 생물을 사냥하여 죽여야만 살아 돌아올 수 있습니다.</Revenant.description>
   <!-- EN: head -->
   <Revenant.tools.head.label>머리</Revenant.tools.head.label>

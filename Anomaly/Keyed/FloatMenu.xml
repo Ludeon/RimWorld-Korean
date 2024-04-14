@@ -1,12 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: No empty containment destination -->
   <NoEmptyEntityHolders>빈 억제 목적지 없음</NoEmptyEntityHolders>
+  <!-- EN: choose containment destination -->
   <ChooseEntityHolder>억제 목적지 선택</ChooseEntityHolder>
+  <!-- EN: Containment strength -->
   <FloatMenuContainmentStrength>억제력</FloatMenuContainmentStrength>
+  <!-- EN: {0_label} requires -->
   <FloatMenuContainmentRequires>{0_label}(이)가 필요로 하는 것:</FloatMenuContainmentRequires>
+  <!-- EN: Reserved by -->
   <EntityHolderReservedBy>예약한 사람:</EntityHolderReservedBy>
 
+  <!-- EN: Talk to {0_nameDef} -->
   <TalkTo>{0_nameDef}(와)과 대화하기</TalkTo>
+  <!-- EN: Cannot talk to {0_nameDef} -->
   <CannotTalkTo>{0_nameDef}(와)과 대화할 수 없음</CannotTalkTo>
-  <ZeroSuppressionRate>억제 불가능</ZeroSuppressionRate>\n\n</LanguageData>
+  <!-- EN: incapable of suppression -->
+  <ZeroSuppressionRate>억제 불가능</ZeroSuppressionRate>
+
+</LanguageData>

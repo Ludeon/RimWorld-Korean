@@ -8,8 +8,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <CreepyWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [rambled]하였습니다.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [darkSpeechAdverb] [rambled]하였습니다.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [rambled].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [darkSpeechAdverb] [rambled].</li>
   </CreepyWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: strange chat -->
@@ -47,35 +47,35 @@
     <li>talkingAbout->going into detail about</li>
   -->
   <DisturbingChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectDisturbing]에 대해 [talkingAbout]하여 [RECIPIENT_nameDef](을)를 [disturbed] 상태로 만들었습니다.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDisturbing]에 대해 [darkSpeechAdverb] [spoke]했습니다.</li>
-    <li>spoke->말</li>
-    <li>spoke->버벅이면서 말</li>
-    <li>spoke->더듬으면서 말</li>
-    <li>spoke->징징대며 말</li>
-    <li>spoke->끙끙대며 말</li>
-    <li>spoke->중얼거렸습니다</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectDisturbing]에 대해 [talkingAbout]하여 [RECIPIENT_nameDef](을)를 [disturbed].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDisturbing]에 대해 [darkSpeechAdverb] [spoke].</li>
+    <li>spoke->말함</li>
+    <li>spoke->웅얼거림</li>
+    <li>spoke->더듬거림</li>
+    <li>spoke->징징댐</li>
+    <li>spoke->끙끙댐</li>
+    <li>spoke->중얼댐</li>
     <li>spoke(p=5)->[rambled]</li>
     <li>subjectDisturbing->[subjectDarkStudy]</li>
     <li>subjectDisturbing->[subjectInsane]</li>
-    <li>disturbed->불안한</li>
-    <li>disturbed->겁에 질린</li>
-    <li>disturbed->무서워하는</li>
-    <li>disturbed->화난</li>
-    <li>disturbed->당황한</li>
-    <li>disturbed->불안정한</li>
-    <li>disturbed->혼란스러운</li>
-    <li>disturbed->안절부절 못하는</li>
-    <li>disturbed->걱정스러운</li>
-    <li>disturbed->괴로운</li>
-    <li>disturbed->실망한</li>
+    <li>disturbed->불안하게 함</li>
+    <li>disturbed->겁에 질리게 함</li>
+    <li>disturbed->두려움에 빠트림</li>
+    <li>disturbed->화나게 함</li>
+    <li>disturbed->당황케 함</li>
+    <li>disturbed->당혹스럽게 함</li>
+    <li>disturbed->혼란스럽게 함</li>
+    <li>disturbed->안절부절 못하게 함</li>
+    <li>disturbed->걱정스럽게 함</li>
+    <li>disturbed->괴롭게 함</li>
+    <li>disturbed->실망토록 함</li>
     <li>maybeDarkSpeechAdverb-></li>
-    <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
+    <li>maybeDarkSpeechAdverb->[darkSpeechAdverb] </li>
     <li>talkingAbout->묘사</li>
     <li>talkingAbout->설명</li>
-    <li>talkingAbout->[maybeDarkSpeechAdverb] 불평</li>
-    <li>talkingAbout->[maybeDarkSpeechAdverb] 말</li>
-    <li>talkingAbout->[maybeDarkSpeechAdverb] 크게 불평</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb]불평</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb]말</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb]크게 불평</li>
     <li>talkingAbout->자세히 기술</li>
   </DisturbingChat.logRulesInitiator.rulesStrings>
   
@@ -86,8 +86,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <InhumanRambling.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [rambled]하였습니다.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [darkSpeechAdverb] [rambled]하였습니다.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [rambled].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectInsane]에 대해 [darkSpeechAdverb] [rambled].</li>
   </InhumanRambling.logRulesInitiator.rulesStrings>
   
   <!-- EN: interrogate identity -->
@@ -134,44 +134,44 @@
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
   <InterrogateIdentity.logRulesInitiator.rulesStrings>
-    <li>askedAbout->[RECIPIENT_nameDef](을)를 심문했습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef]에게 물었습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef]에게 세부사항을 요구했습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef]에게 문의했습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef](을)를 다그쳤습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef]에게 대답을 요구했습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef]에게 까다로운 질문을 했습니다</li>
-    <li>askedAbout->질문으로 [RECIPIENT_nameDef]의 허를 찌르려고 했습니다</li>
-    <li>askedAbout->정보를 요구하며 [RECIPIENT_nameDef]에 소리를 질렀습니다</li>
-    <li>askedAbout->취조를 [RECIPIENT_nameDef]에게 퍼부었습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef] 상대로 맞섰습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef](을)를 성가시게 했습니다</li>
-    <li>askedAbout->[RECIPIENT_nameDef]에게 캐물었습니다</li>
-    <li>identityTopic->[RECIPIENT_possessive] 이전 작업</li>
-    <li>identityTopic->[RECIPIENT_possessive] 다른 세력과의 이전 관계</li>
-    <li>identityTopic->[RECIPIENT_possessive] 출생</li>
-    <li>identityTopic->[RECIPIENT_possessive] 양육</li>
-    <li>identityTopic->[RECIPIENT_possessive] 부모</li>
-    <li>identityTopic->[RECIPIENT_possessive] 오래된 친구들</li>
-    <li>identityTopic->[RECIPIENT_possessive] 연애 이력</li>
-    <li>identityTopic->[RECIPIENT_possessive] 호불호</li>
-    <li>identityTopic->[RECIPIENT_possessive] 불편한 상황에 대한 감정 반응</li>
-    <li>identityTopic->[RECIPIENT_possessive] 음식 선호</li>
-    <li>identityTopic->[RECIPIENT_possessive] 가장 깊은 공포</li>
-    <li>identityTopic->[RECIPIENT_possessive] 소중한 기억</li>
-    <li>identityTopic->[RECIPIENT_possessive] 개인적인 후회</li>
-    <li>identityTopic->[RECIPIENT_possessive] 꿈과 열망</li>
-    <li>identityTopic->[RECIPIENT_possessive] 현재 세력에 합류한 [RECIPIENT_possessive] 이유</li>
-    <li>identityTopic->과거 중요한 사건에서 [RECIPIENT_possessive] 역할</li>
-    <li>identityTopic->[RECIPIENT_possessive] 취미와 심심풀이</li>
-    <li>identityTopic->[RECIPIENT_possessive] 도덕적 가치와 원칙</li>
-    <li>identityTopic->[RECIPIENT_possessive] 동기</li>
-    <li>identityTopic->[RECIPIENT_possessive]주된 결정 뒤의 이유</li>
-    <li>identityTopic->과거 정신적 외상의 원인이 되는 사건</li>
-    <li>identityTopic->인간 사고 과정</li>
-    <li>identityTopic->유년기 경험</li>
-    <li>identityTopic->학교 경험</li>
-    <li>identityTopic->문화 경험</li>
+    <li>askedAbout->에 대해 심문함</li>
+    <li>askedAbout->에 대해 질문함</li>
+    <li>askedAbout->에 대한 세부사항을 요구함</li>
+    <li>askedAbout->(을)를 물어봄</li>
+    <li>askedAbout->에 대해 다그침</li>
+    <li>askedAbout->에 대한 답변을 요구함</li>
+    <li>askedAbout->에 대한 까다로운 질문을 던짐</li>
+    <li>askedAbout->에 대한 질문으로 허를 찌르려고 시도함</li>
+    <li>askedAbout->에 대한 정보를 요구하며 소리지름</li>
+    <li>askedAbout->에 대해 취조함</li>
+    <li>askedAbout->(을)를 묻기 위해 대면함</li>
+    <li>askedAbout->에 대해 괴롭힘</li>
+    <li>askedAbout->(을)를 캐물음</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 이전 작업물</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 다른 세력과의 이전 관계</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 출생</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 양육</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 부모</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 오래된 친구들</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 연애 이력</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 취향</li>
+    <li>identityTopic->불편한 상황에 대해 [RECIPIENT_nameDef](이)가 보이는 감정 반응</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 선호 음식</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 가장 깊은 공포</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 소중한 기억</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 개인적인 후회</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 꿈과 열망</li>
+    <li>identityTopic->현재 세력에 합류한 [RECIPIENT_nameDef]의 이유</li>
+    <li>identityTopic->과거 중요한 사건에서 [RECIPIENT_nameDef]의 역할</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 취미</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 도덕적 가치와 원칙</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 동기</li>
+    <li>identityTopic->[RECIPIENT_nameDef](이)가 내린 과거 결정들의 이유</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 과거 트라우마</li>
+    <li>identityTopic->인간의 사고 과정</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 유년기 경험</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 학교 경험</li>
+    <li>identityTopic->[RECIPIENT_nameDef]의 문화 경험</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [identityTopic][askedAbout].</li>
   </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
@@ -179,17 +179,17 @@
   <OccultTeaching.label>오컬트 교육</OccultTeaching.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] explained [INITIATOR_possessive] theories about [subjectDarkStudy] to [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] spoke about [subjectDarkStudy].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] went over the subject of [subjectDarkStudy].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] taught a lesson on [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] spoke about [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] went over the subject of [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
   <OccultTeaching.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDarkStudy]에 관한 [INITIATOR_possessive] 이론에 대해 설명했습니다.</li>
-    <li>r_logentry->[RECIPIENT_nameDef](이)가 [RECIPIENT_nameDef](와)과 [subjectDarkStudy]에 대한 [INITIATOR_possessive] 아이디어를 공유했습니다.</li>
-    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectDarkStudy]에 대해 말했습니다.</li>
-    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectDarkStudy]의 주제를 조사했습니다.</li>
-    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectDarkStudy]에 대한 수업을 가르쳤습니다.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDarkStudy]에 관한 자신의 이론을 설명함.</li>
+    <li>r_logentry->[RECIPIENT_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDarkStudy]에 대한 아이디어를 공유함.</li>
+    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectDarkStudy]에 대해 말함.</li>
+    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectDarkStudy]의 주제를 꺼냄.</li>
+    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectDarkStudy](을)를 가르침.</li>
   </OccultTeaching.logRulesInitiator.rulesStrings>
   
   <!-- EN: prisoner study -->
@@ -200,9 +200,9 @@
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
   <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDarkStudy]에 대해 물어봤습니다.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectDarkStudy]에 대해 물어봤습니다.</li>
-    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectInsane]에 대해 중얼거렸습니다.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDarkStudy]에 대해 물어봄.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [subjectDarkStudy]에 대해 물어봄.</li>
+    <li>r_logentry->[RECIPIENT_nameDef](이)가 [subjectInsane]에 대해 중얼거림.</li>
   </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
   
 </LanguageData>

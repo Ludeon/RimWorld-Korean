@@ -49,11 +49,11 @@
   <PsychicSlaughter.description>어둠의 초능력을 사용해 육체의 구조를 무질서하게 뒤틀어버립니다. 이는 육체가 있는 생물체를 몇 초 안에 죽이며 그 몸을 뒤틀린 살 더미로 전환합니다.</PsychicSlaughter.description>
   
   <!-- EN: release deadlife dust -->
-  <ReleaseDeadlifeDust.label>죽은 목숨 먼지 방출</ReleaseDeadlifeDust.label>
+  <ReleaseDeadlifeDust.label>모조생명 먼지 방출</ReleaseDeadlifeDust.label>
   <!-- EN: Release a cloud of dust-like substance that will settle on nearby corpses and raise them as shamblers. The shamblers will only attack your enemies. Deadlife dust is made of nano-scale archites that penetrate and reanimate dead tissue at the cellular level. -->
-  <ReleaseDeadlifeDust.description>근처 시체에 닿으면 휘청이는 자로서 시체를 일으키는 먼지 같은 물질의 구름을 방출합니다. 휘청이는 자는 당신의 적만 공격합니다. 죽은 목숨 먼지는 나노 단위 초월입자로 만들어져, 세포 단계에서 죽은 조직을 뚫고 되살립니다.</ReleaseDeadlifeDust.description>
+  <ReleaseDeadlifeDust.description>근처 시체에 닿으면 휘청이는 자로서 시체를 일으키는 먼지 같은 물질의 구름을 방출합니다. 휘청이는 자는 당신의 적만 공격합니다. 모조생명 먼지는 나노 단위 초월입자로 만들어져, 세포 단계에서 죽은 조직을 뚫고 되살립니다.</ReleaseDeadlifeDust.description>
   <!-- EN: release deadlife dust -->
-  <ReleaseDeadlifeDust.verbProperties.label>죽은 목숨 먼지 방출</ReleaseDeadlifeDust.verbProperties.label>
+  <ReleaseDeadlifeDust.verbProperties.label>모조생명 먼지 방출</ReleaseDeadlifeDust.verbProperties.label>
   
   <!-- EN: revenant invisibility -->
   <RevenantInvisibility.label>망령 투명화</RevenantInvisibility.label>
@@ -86,6 +86,11 @@
   <TransmuteSteel.description>강철을 원자 단계에서 변화시켜, 임의의 귀중한 재료로 바꿉니다. 강철 고철 덩어리 혹은 강철 무더기를 대상으로 할 수 있습니다.</TransmuteSteel.description>
   <!-- EN: Must target steel, steel slag chunks, steel buildings, or steel items. -->
   <TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>강철, 강철 고철 덩어리, 강철 건물, 강철 아이템을 대상으로 해야 합니다.</TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>
+  
+  <!-- EN: entity skip -->
+  <UnnaturalCorpseSkip.label>실체의 도약</UnnaturalCorpseSkip.label>
+  <!-- EN: Teleport to a target destination. -->
+  <UnnaturalCorpseSkip.description>대상 위치로 순간 이동합니다.</UnnaturalCorpseSkip.description>
   
   <!-- EN: unnatural healing -->
   <UnnaturalHealing.label>부자연적 치료</UnnaturalHealing.label>

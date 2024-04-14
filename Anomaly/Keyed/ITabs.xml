@@ -1,29 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>\n\n<LanguageData>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
 
   <!-- ITab_Entity -->
+  <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>탈출 주기</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
   <HoldingPlatformEscapeMTBDaysDesc>탈출 간의 평균 시간입니다. 이는 억제력, 실체의 종류, 실체의 이동 능력, 실체의 감금 기간에 영향을 받습니다. 일부 실체는 추위에도 억제됩니다.</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
   <TabEntity>실체</TabEntity>
+  <!-- EN: Study interval -->
   <StudyInterval>연구 주기</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
   <StudyIntervalDesc>이 실체가 연구될 수 있는 빈도입니다.</StudyIntervalDesc>
+  <!-- EN: Maintain only -->
   <EntityStudyMode_MaintainOnly>유지만</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
   <EntityStudyMode_MaintainOnlyDesc>간수는 이 실체에 특별한 행동을 취하지 않지만, 다른 상호작용은 여전히 사용 가능합니다.</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
   <EntityStudyMode_Study>연구</EntityStudyMode_Study>
+  <!-- EN: Researchers will study the entity. -->
   <EntityStudyMode_StudyDesc>연구자들이 실체를 연구합니다.</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
   <EntityStudyMode_Release>방출</EntityStudyMode_Release>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
   <EntityStudyMode_ReleaseDesc>간수가 실체를 수용 플랫폼에서 풀어줄 겁니다. 실체는 풀어줬을 때 적대적일 수 있습니다.</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
   <EntityStudyMode_Execute>처형</EntityStudyMode_Execute>
+  <!-- EN: A warden will execute the restrained entity. -->
   <EntityStudyMode_ExecuteDesc>간수가 억제된 실체를 처형할 겁니다.</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Can't be executed. -->
   <CantBeExecuted>처형할 수 없습니다.</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>지식 획득량</StudyKnowledgeGain>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
   <StudyKnowledgeGainDesc>연구 주기 당 얻은 지식의 양입니다. 더 강한 억제는 연구자가 안전 대신 연구에 집중할 수 있게 해주어, 더 많은 지식을 생산합니다.</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
   <MedicineQualityDescriptionEntity>이 실체에 줄 수 있는 약의 종류입니다.</MedicineQualityDescriptionEntity>
 
+  <!-- EN: Electroharvester -->
   <FactorForElectroharvester>전기 수확기계</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
   <FactorForDaysInCaptivity>장기 감금</FactorForDaysInCaptivity>
-  <FactorForColdCaptivity>추운 억제 보너스</FactorForColdCaptivity>
+  <!-- EN: Cold containment bonus -->
+  <FactorForColdCaptivity>추위 억제 보너스</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
   <IncapableOfEscaping>탈출 불가능</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
   <EntityDowned>쓰러진 실체</EntityDowned>
+  <!-- EN: Containment strength -->
   <FactorContainmentStrength>억제력</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
   <FactorElectroharvester>전기 수확기계</FactorElectroharvester>
-  <FactorActivity>활동</FactorActivity>\n\n</LanguageData>
+  <!-- EN: Activity -->
+  <FactorActivity>활동</FactorActivity>
+
+</LanguageData>

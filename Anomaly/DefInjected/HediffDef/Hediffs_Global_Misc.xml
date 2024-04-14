@@ -22,7 +22,7 @@
   
   <!-- EN: blood rage -->
   <BloodRage.label>피의 분노</BloodRage.label>
-  <!-- EN: This person has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
+  <!-- EN: This creature has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
   <BloodRage.description>이 사람은 분노를 유발하는 정신 액체, 피의 비에 노출되었습니다. 이 분노는 이 사람이 피의 비에 노출되는 한 계속해서 커지다가 결국에는 폭력적인 정신이상을 일으킬 것입니다. 분노가 커지는 속도는 개인의 특성, 정신 감응력, 임의의 개인적 차이에 따라 다릅니다.</BloodRage.description>
   <!-- EN: very mild -->
   <BloodRage.stages.very_mild.label>아주 약함</BloodRage.stages.very_mild.label>
@@ -92,12 +92,24 @@
   <!-- EN: cube coma -->
   <CubeComa.label>큐브 혼수상태</CubeComa.label>
   <!-- EN: This person was connected to a golden cube and then separated from it. Severing the link this way has put them in a coma. -->
-  <CubeComa.description>이 사람은 황금 큐브에 연결된 후 분리되었습니다. 이 방식으로 연결을 끊자 이 사람은 혼수상태가 되었습니다.</CubeComa.description>
+  <CubeComa.description>이 사람은 황금 큐브에 연결된 후 분리되었습니다. 이런 식의 분리에 의해 혼수상태에 빠졌습니다.</CubeComa.description>
   
   <!-- EN: cube interest -->
   <CubeInterest.label>큐브 선호</CubeInterest.label>
   <!-- EN: This person is drawn to the golden cube. If separated from the cube for too long, they'll start to experience negative effects. -->
   <CubeInterest.description>이 사람은 황금 큐브에 끌립니다. 만약 큐브와 너무 오래 분리되어 있으면, 부정적인 영향을 경험하기 시작할 겁니다.</CubeInterest.description>
+  <!-- EN: Wandering and thinking about the cube. -->
+  <CubeInterest.reportStringOverrides.0.reportString>돌아다니며 큐브에 대해 생각하는 중</CubeInterest.reportStringOverrides.0.reportString>
+  <!-- EN: Wandering and thinking about the cube. -->
+  <CubeInterest.reportStringOverrides.1.reportString>돌아다니며 큐브에 대해 생각하는 중</CubeInterest.reportStringOverrides.1.reportString>
+  <!-- EN: Asleep, dreaming about the cube. -->
+  <CubeInterest.reportStringOverrides.2.reportString>큐브에 대해 꿈꾸는 중</CubeInterest.reportStringOverrides.2.reportString>
+  <!-- EN: Meditating on the cube. -->
+  <CubeInterest.reportStringOverrides.3.reportString>큐브에 대한 명상 중</CubeInterest.reportStringOverrides.3.reportString>
+  <!-- EN: Praying for the cube. -->
+  <CubeInterest.reportStringOverrides.4.reportString>큐브를 위해 기도 중</CubeInterest.reportStringOverrides.4.reportString>
+  <!-- EN: Praying for the cube. -->
+  <CubeInterest.reportStringOverrides.5.reportString>큐브를 위해 기도 중</CubeInterest.reportStringOverrides.5.reportString>
   <!-- EN: curious -->
   <CubeInterest.stages.curious.label>호기심</CubeInterest.stages.curious.label>
   <!-- EN: fascinated -->
@@ -132,7 +144,7 @@
   
   <!-- EN: dark psychic shock -->
   <DarkPsychicShock.label>어둠의 정신 충격</DarkPsychicShock.label>
-  <!-- EN: Part of this person's neutral pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
+  <!-- EN: Part of this person's neural pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
   <DarkPsychicShock.description>이 사람의 중립적인 패턴 일부가 어둠의 정신적 힘에 의해 방해되었습니다. 이 과정에서 오는 충격은 이 사람을 일시적인 혼수상태에 빠뜨렸습니다.</DarkPsychicShock.description>
   
   <!-- EN: death refusal -->
@@ -193,9 +205,9 @@
   <HoraxianInvisibility.description>이 생물은 부근의 인간, 동물, 기계의 인식을 보이지 않는 것처럼 정신적으로 왜곡합니다. 눈은 그 상을 정상적으로 받아들이지만 정신은 감지하지 못합니다.</HoraxianInvisibility.description>
   
   <!-- EN: inhumanization -->
-  <Inhumanized.label>비인간화</Inhumanized.label>
+  <Inhumanized.label>몰인간화</Inhumanized.label>
   <!-- EN: This person's mind is dominated by the psychic patterns of the void. They are completely disconnected from human concerns of family, friendship, and love. Their experience of reality is distant and muted, guided by the psychic rhythm of a dark hyperintelligence. -->
-  <Inhumanized.description>이 사람의 정신은 공허의 정신 패턴에 의해 지배됩니다. 가족, 우정, 사랑의 인간적 관심에서 완전히 끊어져 있습니다. 현실의 경험은 동떨어져 있으며 조용하고, 어둠의 초지능의 정신 리듬에 인도됩니다.</Inhumanized.description>
+  <Inhumanized.description>이 사람의 정신은 공허의 정신 패턴에 의해 지배됐습니다. 가족, 우정, 사랑 등 인간적인 관심에서 완전히 단절됐습니다. 현실은 멀리 떨어진 듯 묵묵하게 느껴지고, 오직 어둠의 초지능이 발산하는 정신 리듬의 인도를 따라갑니다.</Inhumanized.description>
   
   <!-- EN: juggernaut serum -->
   <JuggernautSerum.label>비대한 힘 혈청</JuggernautSerum.label>
@@ -216,9 +228,9 @@
   <LightExposure.stages.extreme.label>극심함</LightExposure.stages.extreme.label>
   
   <!-- EN: metalblood -->
-  <Metalblood.label>금속 혈액</Metalblood.label>
+  <Metalblood.label>금속혈액</Metalblood.label>
   <!-- EN: This creature has the metalblood compound in their bloodstream. This substance can rapidly harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
-  <Metalblood.description>이 생물의 혈류 속에는 금속 혈액 복합체가 있습니다. 이 물질은 공격을 예상할 때 빠르게 육체를 단단하게 만들 수 있어, 사용자가 피해를 더 견딜 수 있게 해줍니다. 그러나, 이 혈청의 바이오페라이트 기반 화학 반응 또한 사용자가 특히 불에 취약하도록 만듭니다.</Metalblood.description>
+  <Metalblood.description>이 생물의 혈류에 금속혈액 복합체가 존재합니다. 이 물질은 공격을 예상할 때 빠르게 육체를 단단하게 만들 수 있어, 사용자가 피해를 더 견딜 수 있게 해줍니다. 그러나, 이 혈청의 바이오페라이트 기반 화학 반응 또한 사용자가 특히 불에 취약하도록 만듭니다.</Metalblood.description>
   
   <!-- EN: metalhorror implantation -->
   <MetalhorrorImplant.label>메탈호러 이식물</MetalhorrorImplant.label>
@@ -232,7 +244,7 @@
   <MetalhorrorImplant.possiblePathways.2.explanation>최면 동안 망령에 의해 의식됨</MetalhorrorImplant.possiblePathways.2.explanation>
   
   <!-- EN: machine speed -->
-  <MetalhorrorSpeedBoost.label>기계 속도</MetalhorrorSpeedBoost.label>
+  <MetalhorrorSpeedBoost.label>기계적 속도</MetalhorrorSpeedBoost.label>
   <!-- EN: Rapid movement driven by a surge of unnatural archotechnological strength. This burst of speed cannot last long. -->
   <MetalhorrorSpeedBoost.description>부자연적 초월공학 힘 급증에 의해 이끌린 빠른 움직임입니다. 이 폭발적인 속도는 오래 지속되지 않습니다.</MetalhorrorSpeedBoost.description>
   
@@ -320,7 +332,7 @@
   
   <!-- EN: void touched -->
   <VoidTouched.label>공허 만짐</VoidTouched.label>
-  <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need food or sleep. The void provides for them. -->
+  <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need sleep or comfort. The void provides for them. -->
   <VoidTouched.description>이 사람은 공허의 깊이를 보았으며 공허의 정수를 마셨습니다. 공허는 아직도 이 사람 안에 살며, 행동을 인도하고 육체를 왜곡합니다. 또한 머리카락을 부러지기 쉽고 하얗게 만들었습니다. 이 사람은 더 이상 식욕 혹은 수면욕이 없습니다. 공허가 이를 공급해 줍니다.</VoidTouched.description>
   
 </LanguageData>

@@ -3,7 +3,7 @@
   
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
-  <!-- EN: A thermal projection device powered by a scavenged shard of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
+  <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
   <AtmosphericHeater.description>긁어모은 어둠의 초월공학 조각으로 작동되는 열 투사 장치입니다. 장치는 바이오페라이트를 태워 대기 중의 가스 분자를 휘저어, 지역의 외부 온도를 높입니다. 건물은 자체적으로 많은 양의 폐열을 생산하기도 합니다.</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>대상 외부 온도</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
@@ -117,7 +117,7 @@
   <!-- EN: Gray statue activated -->
   <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>회색 동상 활성화됨</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>
   <!-- EN: Reacting to {PAWN_nameDef}'s presence, the strange statue has begun to release a cloud of deadlife dust!\n\nThis dust-like substance will settle on nearby corpses and raise them as dangerous shamblers. -->
-  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>{PAWN_nameDef}의 존재에 반응하여, 이상한 동상이 죽은 목숨 먼지 구름을 방출하기 시작했습니다!\n\n이 먼지 같은 물질은 근처 시체들에 내려앉아 그들을 위험한 휘청이는 자로 일으킬 겁니다.</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>{PAWN_nameDef}의 존재에 반응하여, 이상한 동상이 모조생명 먼지 구름을 방출하기 시작했습니다!\n\n이 먼지 같은 물질은 근처 시체들에 내려앉아 그들을 위험한 휘청이는 자로 일으킬 겁니다.</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
   
   <!-- EN: gray statue -->
   <GrayStatueTeleporter.label>회색 동상</GrayStatueTeleporter.label>
@@ -207,7 +207,7 @@
   <SecurityDoor.description>튼튼하게 강화된 문입니다. 느리게 열리며 전기가 필요하지만, 매우 강합니다. 뭔가 위험한 것의 출입을 통제하고 싶다면 좋은 선택일 겁니다. 문이 기능하려면 양쪽에 벽이 필요합니다.</SecurityDoor.description>
   
   <!-- EN: shard inhibitor -->
-  <ShardInhibitor.label>조각 억제제</ShardInhibitor.label>
+  <ShardInhibitor.label>조각 억제기</ShardInhibitor.label>
   <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
   <ShardInhibitor.description>정신 에너지로 공명하는 어둠의 초월공학 조각으로, 범위 내에 있는 수용 플랫폼 혹은 수용 장소의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
   
@@ -222,9 +222,9 @@
   <StoneCubeSculpture.description>서투르게 제작된 조각상으로 큐브와 닮았습니다.</StoneCubeSculpture.description>
   
   <!-- EN: IED deadlife trap -->
-  <TrapIED_Deadlife.label>사제 죽은 목숨 지뢰</TrapIED_Deadlife.label>
+  <TrapIED_Deadlife.label>사제 모조생명 지뢰</TrapIED_Deadlife.label>
   <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
-  <TrapIED_Deadlife.description>접촉 또는 탄환으로 인한 충격 시 폭발하는 방아쇠에 연결된 죽은 목숨 한쌍입니다. 주변 지형에 숨겨져 있으므로 다른 지뢰와 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.\n\n죽은 목숨 먼지로 인해 일어나려면 지뢰 근처에 시체가 있어야 합니다.</TrapIED_Deadlife.description>
+  <TrapIED_Deadlife.description>접촉 또는 탄환으로 인한 충격 시 폭발하는 방아쇠에 연결된 모조생명 한쌍입니다. 주변 지형에 숨겨져 있으므로 다른 지뢰와 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.\n\n모조생명 먼지로 인해 일어나려면 지뢰 근처에 시체가 있어야 합니다.</TrapIED_Deadlife.description>
   
   <!-- EN: tactical turret -->
   <Turret_TacticalTurret.label>전술 포탑</Turret_TacticalTurret.label>
