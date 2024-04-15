@@ -105,7 +105,7 @@
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 살짐승이 땅에서 출현 중입니다!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}에 바이오페라이트 주입을 끝냈습니다. 의식은 {TARGET_nameDef}의 정신을 왜곡하고 {TARGET_possessive}의 몸을 변형시켜, 구울이라고 알려진 무서운 생물을 만들었습니다. {INVOKER_nameDef}(은)는 {TARGET_nameDef}(와)과의 정신적 연결을 공유하며, {INVOKER_objective}(이)가 {TARGET_nameDef}(을)를 조종할 수 있게 합니다.\n\n구울은 생존하기 위해 생고기를 먹습니다. 구울이 배고파지면, 적대적으로 변합니다.</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}에 생체강철 주입을 끝냈습니다. 의식은 {TARGET_nameDef}의 정신을 왜곡하고 {TARGET_possessive}의 몸을 변형시켜, 구울이라고 알려진 무서운 생물을 만들었습니다. {INVOKER_nameDef}(은)는 {TARGET_nameDef}(와)과의 정신적 연결을 공유하며, {INVOKER_objective}(이)가 {TARGET_nameDef}(을)를 조종할 수 있게 합니다.\n\n구울은 생존하기 위해 생고기를 먹습니다. 구울이 배고파지면, 적대적으로 변합니다.</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>그들이 의식을 여러 차례 행할 수 있습니다. 그들을 멈춰야 합니다.</AttackersMayCastRitualMultipleTimes>
@@ -242,9 +242,9 @@
   <!-- EN: Transport pod crash -->
   <GhoulPodCrashLabel>수송 포드 추락</GhoulPodCrashLabel>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashText>걸신들린 듯한 적대적 구울을 싣고 있는 수송 포드가 근처에 착륙했습니다.\n\n구울은 현재 쇼크에 빠져 있지만, 곧 회복하여 보이는 누구든 공격할 겁니다. 추가 연구를 위해 수용 플랫폼에 포획할 수 있습니다.\n\n깨어나기 전에 포획하거나 죽이세요.</GhoulPodCrashText>
+  <GhoulPodCrashText>걸신들린 듯한 적대적 구울을 싣고 있는 수송 포드가 근처에 착륙했습니다.\n\n구울은 현재 쇼크에 빠져 있지만, 곧 회복하여 보이는 누구든 공격할 겁니다. 추가 연구를 위해 구속대에 포획할 수 있습니다.\n\n깨어나기 전에 포획하거나 죽이세요.</GhoulPodCrashText>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashStartingPawnText>걸신들린 듯한 적대적 구울을 싣고 있는 수송 포드가 근처에 착륙했습니다. 가까이서 보니, 우리와 한 무리였던 {PAWN_nameDef} 같아 보입니다.\n\n구울은 현재 쇼크에 빠져 있지만, 곧 회복하여 보이는 누구든 공격할 겁니다. 추가 연구를 위해 수용 플랫폼에 포획할 수 있습니다.\n\n깨어나기 전에 포획하거나 죽이세요.</GhoulPodCrashStartingPawnText>
+  <GhoulPodCrashStartingPawnText>걸신들린 듯한 적대적 구울을 싣고 있는 수송 포드가 근처에 착륙했습니다. 가까이서 보니, 우리와 한 무리였던 {PAWN_nameDef} 같아 보입니다.\n\n구울은 현재 쇼크에 빠져 있지만, 곧 회복하여 보이는 누구든 공격할 겁니다. 추가 연구를 위해 구속대에 포획할 수 있습니다.\n\n깨어나기 전에 포획하거나 죽이세요.</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
   <!-- EN: New research available -->
@@ -287,8 +287,8 @@
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>공허 호기심</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 바이오페라이트 수확기에 연결해 바이오페라이트를 생성할 수 있습니다.\n\n초정신적 의식 자리를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강철 수확기에 연결해 생체강철을 생성할 수 있습니다.\n\n초정신적 의식 자리를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 바이오페라이트 수확기에 연결해 바이오페라이트를 생성할 수 있습니다.\n\n공허 도발을 연구하고, 초정신적 의식 자리를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강철 수확기에 연결해 생체강철을 생성할 수 있습니다.\n\n공허 도발을 연구하고, 초정신적 의식 자리를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_NotResearched>
 
 </LanguageData>

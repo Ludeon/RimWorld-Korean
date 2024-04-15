@@ -25,7 +25,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>바이오페라이트로 작동되는 난로를 건설하여 전체 지역을 덥힐 충분한 열을 생산하세요.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>생체강철로 작동되는 난로를 건설하여 전체 지역을 덥힐 충분한 열을 생산하세요.</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -36,13 +36,13 @@
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
   <AtmosphericHeater.generalRules.rulesStrings>
-    <li>subject->바이오페라이트 난방</li>
+    <li>subject->생체강철 난방</li>
     <li>subject_story->고대 지열 발전소의 기능을 향상시켰습니다</li>
     <li>subject_story->생체금속의 열 방출을 연구했습니다</li>
     <li>subject_story->초월공학의 불가능한 수준의 에너지 저장량에 대해 연구했습니다</li>
     <li>subject_story->인구 밀도가 높은 얼음계의 난방 시스템을 조사했습니다</li>
-    <li>subject_gerund->바이오페라이트 난방</li>
-    <li>subject_gerund->바이오페라이트 난방기 건설</li>
+    <li>subject_gerund->생체강철 난방</li>
+    <li>subject_gerund->생체강철 난방기 건설</li>
   </AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
@@ -73,9 +73,9 @@
   </BasicPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: bioferrite generator -->
-  <BioferriteGenerator.label>바이오페라이트 발전기</BioferriteGenerator.label>
+  <BioferriteGenerator.label>생체강철 발전기</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
-  <BioferriteGenerator.description>바이오페라이트를 연료로 태우는 전력 발전기를 건설하세요.</BioferriteGenerator.description>
+  <BioferriteGenerator.description>생체강철을 연료로 태우는 전력 발전기를 건설하세요.</BioferriteGenerator.description>
   <!-- EN:
     <li>subject->bioferrite power generation</li>
     <li>subject_story->was trained in the use of innovative power sources</li>
@@ -87,20 +87,20 @@
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
   <BioferriteGenerator.generalRules.rulesStrings>
-    <li>subject->바이오페라이트 발전</li>
+    <li>subject->생체강철 발전</li>
     <li>subject_story->혁신적인 동력원을 사용하는 방법에 대한 교육을 받았습니다</li>
     <li>subject_story->금속 및 섬유 기반 연료의 사용을 탐구했습니다</li>
     <li>subject_story->불과 타는 것에 대한 사랑을 깨달았습니다</li>
     <li>subject_story->궤도 에너지 시스템을 유지 관리하는 기술자로 일했습니다</li>
     <li>subject_story->연료를 얻기 위해 야생동물들을 사냥했습니다</li>
-    <li>subject_gerund->바이오페라이트 발전기 건설</li>
-    <li>subject_gerund->바이오페라이트의 연료 활용</li>
+    <li>subject_gerund->생체강철 발전기 건설</li>
+    <li>subject_gerund->생체강철의 연료 활용</li>
   </BioferriteGenerator.generalRules.rulesStrings>
   
   <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>바이오페라이트 수확</BioferriteHarvesting.label>
+  <BioferriteHarvesting.label>생체강철 수확</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>바이오페라이트 수확기를 건설하여 수용 플랫폼에 억제된 포획 실체에서 바이오페라이트를 생성하세요.</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>생체강철 수확기를 건설하여 구속대에 억제된 포획 실체에서 생체강철을 생성하세요.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -110,18 +110,18 @@
     <li>subject_gerund->harvesting bioferrite</li>
   -->
   <BioferriteHarvesting.generalRules.rulesStrings>
-    <li>subject->바이오페라이트</li>
+    <li>subject->생체강철</li>
     <li>subject_story->생소한 금속 같은 섬유질 물질을 조사했습니다</li>
     <li>subject_story->끔찍한 시체를 해부했습니다</li>
     <li>subject_story->유기금속의 은닉처를 발견했습니다</li>
     <li>subject_story->이상한 금속에 감염된 야생동물을 관찰했습니다</li>
-    <li>subject_gerund->바이오페라이트 수확</li>
+    <li>subject_gerund->생체강철 수확</li>
   </BioferriteHarvesting.generalRules.rulesStrings>
   
   <!-- EN: bioferrite weaponry -->
-  <BioferriteIgnition.label>바이오페라이트 무기</BioferriteIgnition.label>
+  <BioferriteIgnition.label>생체강철 무기</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
-  <BioferriteIgnition.description>바이오페라이트를 연료원으로 사용하는 고급 무기를 만드세요.</BioferriteIgnition.description>
+  <BioferriteIgnition.description>생체강철을 연료원으로 사용하는 고급 무기를 만드세요.</BioferriteIgnition.description>
   <!-- EN:
     <li>subject->bioferrite combustion</li>
     <li>subject->bioferrite weaponry</li>
@@ -132,19 +132,19 @@
     <li>subject_gerund->building bioferrite-based weapons</li>
   -->
   <BioferriteIgnition.generalRules.rulesStrings>
-    <li>subject->바이오페라이트 연소</li>
-    <li>subject->바이오페라이트 무기</li>
+    <li>subject->생체강철 연소</li>
+    <li>subject->생체강철 무기</li>
     <li>subject_story->초월공학 소행성에서 추출 작업을 했습니다</li>
     <li>subject_story->생소한 물질의 연소점을 연구했습니다</li>
     <li>subject_story->중간계 무기 회사의 연구소에 입사했습니다</li>
     <li>subject_story->초월공학 사막에서 생체지뢰를 제거했습니다</li>
-    <li>subject_gerund->바이오페라이트 기반 무기 제작</li>
+    <li>subject_gerund->생체강철 기반 무기 제작</li>
   </BioferriteIgnition.generalRules.rulesStrings>
   
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>바이오페라이트 성형</BioferriteShaping.label>
+  <BioferriteShaping.label>생체강철 성형</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
-  <BioferriteShaping.description>바이오페라이트를 성형하고 재구성해 유용한 도구, 무기, 바닥 등으로 만듭니다.</BioferriteShaping.description>
+  <BioferriteShaping.description>생체강철을 성형하고 재구성해 유용한 도구, 무기, 바닥 등으로 만듭니다.</BioferriteShaping.description>
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -155,13 +155,13 @@
     <li>subject_gerund->shaping bioferrite</li>
   -->
   <BioferriteShaping.generalRules.rulesStrings>
-    <li>subject->바이오페라이트 성형</li>
+    <li>subject->생체강철 성형</li>
     <li>subject_story->조형과 조각에 대한 독특한 기술을 배웠습니다</li>
     <li>subject_story->열 제어 요령을 훈련받았습니다</li>
     <li>subject_story->이국적인 재료 주조 공장에서 일했습니다</li>
     <li>subject_story->초월공학 재료 전문 과학자를 도왔습니다 </li>
     <li>subject_story->초월공학 유물들의 생성과정을 공부했습니다</li>
-    <li>subject_gerund->바이오페라이트 성형</li>
+    <li>subject_gerund->생체강철 성형</li>
   </BioferriteShaping.generalRules.rulesStrings>
   
   <!-- EN: bliss lobotomy -->
@@ -303,7 +303,7 @@
   <!-- EN: disruptor flares -->
   <DisruptorFlares.label>교란 신호탄</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>보이지 않는 생명체를 드러내고 구역을 밝히는 바이오페라이트 기반 신호탄 가방을 만드세요.</DisruptorFlares.description>
+  <DisruptorFlares.description>보이지 않는 생명체를 드러내고 구역을 밝히는 생체강철 기반 신호탄 가방을 만드세요.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -351,7 +351,7 @@
   <!-- EN: entity containment -->
   <EntityContainment.label>실체 억제</EntityContainment.label>
   <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
-  <EntityContainment.description>수용 플랫폼과 억제제를 건설해 실체를 더 잘 억제하도록 하세요.</EntityContainment.description>
+  <EntityContainment.description>구속대와 억제제를 건설해 실체를 더 잘 억제하도록 하세요.</EntityContainment.description>
   <!-- EN:
     <li>subject->entity containment</li>
     <li>subject_story->worked in a prisonworld research facility</li>
@@ -397,7 +397,7 @@
   <!-- EN: ghoul enhancements -->
   <GhoulEnhancements.label>구울 강화품</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>바이오페라이트 보철물을 제작해 구울을 더 강하게 만드세요.</GhoulEnhancements.description>
+  <GhoulEnhancements.description>생체강철 보철물을 제작해 구울을 더 강하게 만드세요.</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -410,7 +410,7 @@
     <li>subject_story->죽은 자와 두 번 죽은 자를 실험했습니다</li>
     <li>subject_story->점점 더 이상한 삽입물을 구울에 이식했습니다</li>
     <li>subject_story->좀 더 복잡한 구울 보철물을 연구했습니다</li>
-    <li>subject_gerund->바이오페라이트 보철물로 구울을 강화하기</li>
+    <li>subject_gerund->생체강철 보철물로 구울을 강화하기</li>
   </GhoulEnhancements.generalRules.rulesStrings>
   
   <!-- EN: ghoul infusion -->
@@ -878,7 +878,7 @@
   <!-- EN: void sculptures -->
   <VoidSculptures.label>공허 조각상</VoidSculptures.label>
   <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
-  <VoidSculptures.description>바이오페라이트로 특별한 공허 조각상을 제작하여 초정신 의식의 품질을 향상하세요.</VoidSculptures.description>
+  <VoidSculptures.description>생체강철로 특별한 공허 조각상을 제작하여 초정신 의식의 품질을 향상하세요.</VoidSculptures.description>
   <!-- EN:
     <li>subject->void sculptures</li>
     <li>subject->bioferrite sculpture</li>
@@ -892,14 +892,14 @@
   -->
   <VoidSculptures.generalRules.rulesStrings>
     <li>subject->공허 조각상</li>
-    <li>subject->바이오페라이트 조각</li>
+    <li>subject->생체강철 조각</li>
     <li>subject_story->컴퓨터로 모델링된 초월공학 공간입니다.</li>
     <li>subject_story->무녀에게 고용받아 그녀의 꿈을 조각하였습니다</li>
     <li>subject_story->조각상을 삶 속으로 가져오고자 했습니다.</li>
     <li>subject_story->인간의 손으로 끝없는 바다를 꿈꾸는 것을 빚어냈습니다.</li>
     <li>subject_story->제국 초능력자들이 일하는 모습을 관찰했습니다.</li>
-    <li>subject_gerund->바이오페라이트 조각</li>
-    <li>subject_gerund->바이오페라이트로 만들어진 의식용 조각상 제작</li>
+    <li>subject_gerund->생체강철 조각</li>
+    <li>subject_gerund->생체강철로 만들어진 의식용 조각상 제작</li>
   </VoidSculptures.generalRules.rulesStrings>
   
 </LanguageData>

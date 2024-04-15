@@ -22,7 +22,7 @@
   <!-- EN: Analysis progress -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>분석 진행</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural lump. The sample carries the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} is convinced that {PAWN_pronoun} can find a way to kill the fleshmass heart, but {PAWN_pronoun} needs to study more neural samples first. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 살덩이 신경 혹 분석을 끝냈습니다. 샘플은 {BIOSIGNATURE} 생명신호를 지니고 있습니다.\n\n{PAWN_nameDef}(은)는 자신이 살덩이 심장을 죽일 방법을 찾을 수 있다고 확신하지만, 먼저 신경 샘플을 더 연구해야 합니다.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural tissue. This tissue belongs to the previously studied biosignature {BIOSIGNATURE}, so you didn't gain any new knowledge.\n\nYou can destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly and inducing a tachycardiac overload. -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 살덩이 신경 조직 분석을 끝냈습니다. 이 조직은 이전에 연구된 {BIOSIGNATURE} 생명신호에 속해 있으므로, 새로운 지식을 얻지 못했습니다.\n\n{BIOSIGNATURE} 살덩이 심장과 직접 상호작용하여 빈맥 과부하를 일으켜 파괴할 수 있습니다.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
@@ -62,7 +62,7 @@
   <!-- EN: Analyze... -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>분석...</GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: While analyzing the gray flesh sample, {PAWN_nameDef} finally isolated the biosignature {BIOSIGNATURE}!\n\nThe signature emerges from the fusing of human tissue and metallic bioferrite filaments which spider through the flesh and take control of the nervous system.\n\nYou can now use the surgical inspection operation to detect {BIOSIGNATURE} in living subjects. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>회색 살 샘플을 분석하는 동안, {PAWN_nameDef}(은)는 드디어 {BIOSIGNATURE} 생명신호를 분리했습니다!\n\n신호는 육체를 통해 기어가 신경계를 지배하는 금속 바이오페라이트 필라민트와 인간 조직의 융합에서 나옵니다.\n\n이제 외과 검사 작업을 사용해 살아 있는 대상에서 {BIOSIGNATURE}(을)를 감지할 수 있습니다.</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>회색 살 샘플을 분석하는 동안, {PAWN_nameDef}(은)는 드디어 {BIOSIGNATURE} 생명신호를 분리했습니다!\n\n신호는 육체를 통해 기어가 신경계를 지배하는 금속 생체강철 필라민트와 인간 조직의 융합에서 나옵니다.\n\n이제 외과 검사 작업을 사용해 살아 있는 대상에서 {BIOSIGNATURE}(을)를 감지할 수 있습니다.</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis complete -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>분석 완료</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -74,7 +74,7 @@
   <!-- EN: Analysis progress -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>분석 진행</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more gray flesh samples. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 회색 살 샘플 분석을 끝냈습니다. 샘플은 {BIOSIGNATURE} 생명신호를 지니고 있습니다.\n\n{PAWN_nameDef}(은)는 살아 있는 대상의 이 생명신호를 알아내는 방법을 배우는 중이지만, 작업을 완료하려면 더 많은 샘플이 필요합니다. 그때까지, 당신의 외과 검사는 {BIOSIGNATURE}(을)를 감지하지 못할 겁니다.\n\n더 많은 회색 살 샘플을 모으고 분석하세요.</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} analysis of the gray flesh sample. It carries the previously discovered biosignature {BIOSIGNATURE}.\n\nYour colonists now understand this biosignature well enough to detect it with the surgical inspection operation. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 {PAWN_possessive} 회색 살 샘플 분석을 끝냈습니다. 그것은 이전에 발견된 {BIOSIGNATURE} 생명신호를 지니고 있습니다.\n\n정착민은 이제 이 생명신호를 충분히 이해하여 외과 검사 작업으로 이를 감지할 수 있습니다.</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
@@ -111,9 +111,9 @@
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>분석 진행</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 망령 살 덩어리를 {BIOSIGNATURE} 생명신호로 분석하는 일을 끝냈습니다.\n\n{PAWN_pronoun}(은)는 이 특정한 망령의 생명 작용과 그것이 뒤에 남기는 액체를 알아내는 방법에 대해 더 많이 배웠습니다.\n\n이 망령은 이제 도망칠 때 보이는 자국을 더 길게 남길 겁니다.\n\n어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다. 망령이 뒤에 남기는 얼룩으로 망령을 추적하여, 교란 신호탄, 폭발물, EMP, 불으로 망령을 드러나게 할 수 있습니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}(이)가 망령 살 덩어리를 {BIOSIGNATURE} 생명신호로 분석하는 일을 끝냈습니다.\n\n{PAWN_pronoun}(은)는 이 특정 망령의 생명 작용과 망령이 내는 소리에 대해 더 많이 배웠습니다. 정착민은 이제 이 망령이 근처에 있으면 들을 수 있습니다. 망령을 사냥하러 가서 가까이 가게 되면, 어떤 정착민이 들을 수 있는지 알림을 받게 될 겁니다.\n\n어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다. 망령이 뒤에 남기는 얼룩으로 망령을 추적하여, 교란 신호탄, 폭발물, EMP, 불으로 망령을 드러나게 할 수 있습니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 망령 살 덩어리를 이전에 연구된 {BIOSIGNATURE} 생명신호로 분석하는 일을 끝냈습니다.\n\n정착민은 이제 이 망령이 근처에 있으면 볼 수 있습니다.어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
@@ -122,11 +122,11 @@
   <!-- EN: revenant spine -->
   <RevenantSpine.label>망령 척추</RevenantSpine.label>
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
-  <RevenantSpine.description>죽은 망령에서 나온, 연결된 척추 같은 물체입니다. 뾰족한 금속 막대의 그물망으로, 휘어진 우리 안에 뒤틀려 있습니다. 이 물체는 거친 주물로 된 검은 철이 어둡고 미끄러운 액채로 더럽혀진 것 같아 보입니다. 그 들쭉날쭉한 모양을 너무 자세히 보는 누구든 머리가 쪼개지는 두통을 앓게 될 겁니다.\n\n척추를 파괴하여 망령을 영구적으로 죽일 수 있습니다.\n\n대신, 척추를 수용 플랫폼에 확보하여 망령이 다시 나타나는 것을 기다리고, 포획된 실체를 연구할 수 있습니다.</RevenantSpine.description>
+  <RevenantSpine.description>죽은 망령에서 나온, 연결된 척추 같은 물체입니다. 뾰족한 금속 막대의 그물망으로, 휘어진 우리 안에 뒤틀려 있습니다. 이 물체는 거친 주물로 된 검은 철이 어둡고 미끄러운 액채로 더럽혀진 것 같아 보입니다. 그 들쭉날쭉한 모양을 너무 자세히 보는 누구든 머리가 쪼개지는 두통을 앓게 될 겁니다.\n\n척추를 파괴하여 망령을 영구적으로 죽일 수 있습니다.\n\n대신, 척추를 구속대에 확보하여 망령이 다시 나타나는 것을 기다리고, 포획된 실체를 연구할 수 있습니다.</RevenantSpine.description>
   <!-- EN: Revenant reformed -->
   <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>망령 재형성됨</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
-  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>{PAWN_nameDef}(이)가 망령 척추를 수용 플랫폼에 묶은 뒤, 망령이 다시 출현했습니다.\n\n죽이면, 망령의 몸은 녹아 초월공학적 척추만을 남길 것입니다. 이 번드르르한 철 우리는 새로운 몸을 키울 기회를 기다리고 있습니다.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>{PAWN_nameDef}(이)가 망령 척추를 구속대에 묶은 뒤, 망령이 다시 출현했습니다.\n\n죽이면, 망령의 몸은 녹아 초월공학적 척추만을 남길 것입니다. 이 번드르르한 철 우리는 새로운 몸을 키울 기회를 기다리고 있습니다.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
   <!-- EN: Smash {0_label} -->
   <RevenantSpine.comps.CompUsable.useLabel>{0_label} 부수기</RevenantSpine.comps.CompUsable.useLabel>
   <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->

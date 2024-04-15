@@ -5,25 +5,25 @@
   <!-- EN: Audiovisuals -->
   <Audiovisuals>소리 및 화면</Audiovisuals>
   <!-- EN: Master volume -->
-  <MasterVolume>마스터 볼륨</MasterVolume>
+  <MasterVolume>전체</MasterVolume>
   <!-- EN: Game volume -->
-  <GameVolume>게임 볼륨</GameVolume>
+  <GameVolume>게임</GameVolume>
   <!-- EN: Music volume -->
-  <MusicVolume>음악 볼륨</MusicVolume>
+  <MusicVolume>음악</MusicVolume>
   <!-- EN: Ambience volume -->
-  <AmbientVolume>환경 볼륨</AmbientVolume>
+  <AmbientVolume>환경</AmbientVolume>
   <!-- EN: UI volume -->
-  <UIVolume>UI 볼륨</UIVolume>
+  <UIVolume>UI</UIVolume>
   <!-- EN: Affects all sounds. -->
-  <MasterVolumeTooltip>모든 소리에 영향을 줍니다.</MasterVolumeTooltip>
+  <MasterVolumeTooltip>모든 소리를 조절합니다.</MasterVolumeTooltip>
   <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
-  <GameVolumeTooltip>모든 월드 소리를 조절합니다. 예시: 벌목, 건설 효과음</GameVolumeTooltip>
+  <GameVolumeTooltip>모든 세계 소리를 조절합니다.\n예시: 벌목, 건설 효과음</GameVolumeTooltip>
   <!-- EN: Affects music. -->
   <MusicVolumeTooltip>음악을 조절합니다.</MusicVolumeTooltip>
   <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
-  <AmbientVolumeTooltip>모든 배경 소리를 조절합니다. 예시: 바람, 곤충</AmbientVolumeTooltip>
+  <AmbientVolumeTooltip>모든 배경 소리를 조절합니다.\n예시: 바람, 곤충</AmbientVolumeTooltip>
   <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
-  <UIVolumeTooltip>모든 인터페이스 소리를 조절합니다. 예시: 버튼 클릭, 메시지</UIVolumeTooltip>
+  <UIVolumeTooltip>모든 인터페이스 소리를 조절합니다.\n예시: 버튼 클릭, 메시지</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>그래픽 계단현상 방지</Antialiasing>
 
@@ -73,13 +73,13 @@
   <!-- EN: Close log by pressing cancel -->
   <CloseLogWindowOnEscape>취소를 눌러 기록 닫기</CloseLogWindowOnEscape>
   <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>로얄티 없이 시뮬레이션</SimulateNotOwningRoyalty>
+  <SimulateNotOwningRoyalty>로얄티가 없다고 가정</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>이데올로기 없이 시뮬레이션</SimulateNotOwningIdeology>
+  <SimulateNotOwningIdeology>이데올로기가 없다고 가정</SimulateNotOwningIdeology>
   <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>바이오테크 없이 시뮬레이션</SimulateNotOwningBiotech>
+  <SimulateNotOwningBiotech>바이오테크가 없다고 가정</SimulateNotOwningBiotech>
   <!-- EN: Simulate not owning Anomaly -->
-  <SimulateNotOwningAnomaly>어노말리를 소유하지 않은 상황</SimulateNotOwningAnomaly>
+  <SimulateNotOwningAnomaly>아노말리가 없다고 가정</SimulateNotOwningAnomaly>
   <!-- EN: Verbose logging -->
   <LogVerbose>상세 기록</LogVerbose>
   <!-- EN: Save data folder -->
@@ -127,7 +127,7 @@
   <!-- EN: Plant wind sway -->
   <PlantWindSway>식물 흔들림 효과</PlantWindSway>
   <!-- EN: Enable test map sizes -->
-  <EnableTestMapSizes>테스트 맵 크기 활성화</EnableTestMapSizes>
+  <EnableTestMapSizes>실험용 지도 크기 활성화</EnableTestMapSizes>
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
   <MaxPermadeathAutosaveIntervalInfo>철인 모드에서 사용 가능한 자동저장 최대 간격은 {0}일 입니다.</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->

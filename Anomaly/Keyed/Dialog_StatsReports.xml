@@ -26,7 +26,7 @@
   <!-- EN: Average door HP -->
   <Stat_ContainmentStrength_AverageDoorHp>평균 문 HP</Stat_ContainmentStrength_AverageDoorHp>
   <!-- EN: Multiple ({0}) holding platforms -->
-  <Stat_ContainmentStrength_OtherHoldingPlatforms>여러 개({0})의 수용 플랫폼</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>여러 개({0})의 구속대</Stat_ContainmentStrength_OtherHoldingPlatforms>
   <!-- EN: Map-wide offset -->
   <Stat_ContainmentStrength_MapwideOffset>지역 오프셋</Stat_ContainmentStrength_MapwideOffset>
   <!-- EN: door open -->
@@ -39,11 +39,11 @@
   <Stat_ContainmentStrength_Platform>건물</Stat_ContainmentStrength_Platform>
 
   <!-- EN: Bioferrite generation -->
-  <StatsReport_BioferriteGeneration>바이오페라이트 생산</StatsReport_BioferriteGeneration>
+  <StatsReport_BioferriteGeneration>생체강철 생산</StatsReport_BioferriteGeneration>
   <!-- EN: How much bioferrite this entity generates per day. When captured on a holding platform, bioferrite can be gathered from it by building a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>이 실체가 하루당 생산하는 바이오페라이트의 양입니다. 수용 플랫폼에 포획되면, 바이오페라이트는 바이오페라이트 수확기를 건축하여 수확될 수 있습니다.</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration_Desc>이 실체가 하루당 생산하는 생체강철의 양입니다. 구속대에 포획되면, 생체강철은 생체강철 수확기를 건축하여 수확할 수 있습니다.</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
-  <StatsReport_BioferriteDensityMultiplier>바이오페라이트 밀도 계수</StatsReport_BioferriteDensityMultiplier>
+  <StatsReport_BioferriteDensityMultiplier>생체강철 밀도 계수</StatsReport_BioferriteDensityMultiplier>
   
   <!-- EN: Offering -->
   <StatsReport_Offering>공물</StatsReport_Offering>
@@ -63,7 +63,7 @@
   <!-- EN: Containment offset -->
   <StatsReport_ContainmentStrengthOffset>억제 오프셋</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
-  <StatsReport_ContainmentStrengthOffset_Desc>수용 플랫폼의 실체 억제력에 영향을 미치는 정도입니다. 더 잘 억제된 실체는 탈출할 가능성이 낮으며 연구되었을 때 더 많은 지식을 줍니다.</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>구속대의 실체 억제력에 영향을 미치는 정도입니다. 더 잘 억제된 실체는 탈출할 가능성이 낮으며 연구되었을 때 더 많은 지식을 줍니다.</StatsReport_ContainmentStrengthOffset_Desc>
 
   <!-- EN: Duration -->
   <StatsReport_SerumDuration>지속시간</StatsReport_SerumDuration>

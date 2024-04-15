@@ -4,7 +4,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
   <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
-  <AtmosphericHeater.description>긁어모은 어둠의 초월공학 조각으로 작동되는 열 투사 장치입니다. 장치는 바이오페라이트를 태워 대기 중의 가스 분자를 휘저어, 지역의 외부 온도를 높입니다. 건물은 자체적으로 많은 양의 폐열을 생산하기도 합니다.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>긁어모은 어둠의 초월공학 조각으로 작동되는 열 투사 장치입니다. 장치는 생체강철을 태워 대기 중의 가스 분자를 휘저어, 지역의 외부 온도를 높입니다. 건물은 자체적으로 많은 양의 폐열을 생산하기도 합니다.</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>대상 외부 온도</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
@@ -22,7 +22,7 @@
   <!-- EN: electric inhibitor -->
   <ElectricInhibitor.label>전기 억제기</ElectricInhibitor.label>
   <!-- EN: A device that emits a specially tuned electromagnetic field which numbs the neural activity of captured entities. As long as it is powered, it improves the containment strength of any holding platform that it is pointed at. The electric field does not affect humans or normal animals. -->
-  <ElectricInhibitor.description>특별히 조정된 전자기장을 방출하여 포획된 실체의 신경 활동을 마비시키는 장치입니다. 동력이 공급되는 한, 가리키고 있는 모든 수용 플랫폼의 억제력을 향상시킵니다. 전기장은 인간 혹은 일반 동물에는 영향을 주지 않습니다.</ElectricInhibitor.description>
+  <ElectricInhibitor.description>특별히 조정된 전자기장을 방출하여 포획된 실체의 신경 활동을 마비시키는 장치입니다. 동력이 공급되는 한, 가리키고 있는 모든 구속대의 억제력을 향상시킵니다. 전기장은 인간 혹은 일반 동물에는 영향을 주지 않습니다.</ElectricInhibitor.description>
   
   <!-- EN: endless pit -->
   <EndlessPit2x2c.label>끝없는 구덩이</EndlessPit2x2c.label>
@@ -141,14 +141,14 @@
   <Gun_TacticalTurret.verbs.Verb_Shoot.label>전술 포탑 총</Gun_TacticalTurret.verbs.Verb_Shoot.label>
   
   <!-- EN: holding platform -->
-  <HoldingPlatform.label>수용 플랫폼</HoldingPlatform.label>
+  <HoldingPlatform.label>구속대</HoldingPlatform.label>
   <!-- EN: A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for Anomaly knowledge. Increase containment strength by building strong walls and doors, and other special containment devices. -->
-  <HoldingPlatform.description>위험한 실체를 수용하기 위한 플랫폼입니다. 모서리에는 작은 구멍이 있어 강한 사슬을 붙일 수 있습니다.\n\n쓰러진 실체를 포획하여 수용 플랫폼에 확보하고, 그곳에서 이상 현상 지식을 위해 연구될 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingPlatform.description>
+  <HoldingPlatform.description>위험한 실체를 수용하기 위한 구속대입니다. 모서리에는 작은 구멍이 있어 강한 사슬을 붙일 수 있습니다.\n\n쓰러진 실체를 포획하여 구속대에 확보하고, 그곳에서 이상 현상 지식을 위해 연구할 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingPlatform.description>
   
   <!-- EN: holding spot -->
-  <HoldingSpot.label>수용 장소</HoldingSpot.label>
+  <HoldingSpot.label>간이 구속대</HoldingSpot.label>
   <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
-  <HoldingSpot.description>위험한 실체를 수용하기 위한 장소입니다. 철재 수용 플랫폼만큼 좋지는 않지만, 아무것도 없는 것보단 훨씬 낫습니다.\n\n쓰러진 실체를 포획하여 수용 장소에 확보하고, 그곳에서 연구할 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingSpot.description>
+  <HoldingSpot.description>위험한 실체를 수용하기 위한 장소입니다. 철재 구속대만큼 좋지는 않지만, 아무것도 없는 것보단 훨씬 낫습니다.\n\n쓰러진 실체를 포획하여 간이 구속대에 확보하고, 그곳에서 연구할 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingSpot.description>
   
   <!-- EN: noctolith -->
   <Noctolith.label>녹톨리스</Noctolith.label>
@@ -209,7 +209,7 @@
   <!-- EN: shard inhibitor -->
   <ShardInhibitor.label>조각 억제기</ShardInhibitor.label>
   <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
-  <ShardInhibitor.description>정신 에너지로 공명하는 어둠의 초월공학 조각으로, 범위 내에 있는 수용 플랫폼 혹은 수용 장소의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
+  <ShardInhibitor.description>정신 에너지로 공명하는 어둠의 초월공학 조각으로, 범위 내에 있는 구속대 혹은 간이 구속대의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
   
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>수면 억제기</SleepSuppressor.label>
@@ -222,17 +222,17 @@
   <StoneCubeSculpture.description>서투르게 제작된 조각상으로 큐브와 닮았습니다.</StoneCubeSculpture.description>
   
   <!-- EN: IED deadlife trap -->
-  <TrapIED_Deadlife.label>사제 모조생명 지뢰</TrapIED_Deadlife.label>
+  <TrapIED_Deadlife.label>모조생명 지뢰</TrapIED_Deadlife.label>
   <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
-  <TrapIED_Deadlife.description>접촉 또는 탄환으로 인한 충격 시 폭발하는 방아쇠에 연결된 모조생명 한쌍입니다. 주변 지형에 숨겨져 있으므로 다른 지뢰와 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.\n\n모조생명 먼지로 인해 일어나려면 지뢰 근처에 시체가 있어야 합니다.</TrapIED_Deadlife.description>
+  <TrapIED_Deadlife.description>접촉 또는 탄환으로 인한 충격 시 폭발하는 방아쇠에 연결된 모조생명탄 한쌍입니다. 주변 지형에 숨겨져 있으므로 다른 지뢰와 인접하여 배치할 수 없습니다. 동물들은 평화시 이것을 감지할 수 있습니다.\n\n모조생명 먼지로 인해 일어나려면 지뢰 근처에 시체가 있어야 합니다.</TrapIED_Deadlife.description>
   
   <!-- EN: tactical turret -->
   <Turret_TacticalTurret.label>전술 포탑</Turret_TacticalTurret.label>
   <!-- EN: A short-range turret. It will stop functioning once its battery runs out. If damaged sufficiently, it may explode. -->
-  <Turret_TacticalTurret.description>단거리 포탑입니다. 배터리가 다되면 작동을 멈출 겁니다. 충분히 손상되면, 폭발할 수 있습니다.</Turret_TacticalTurret.description>
+  <Turret_TacticalTurret.description>단거리 포탑입니다. 동력원이 모두 소모되면 작동을 멈춥니다. 일정 이상 손상되면 폭발할 수 있습니다.</Turret_TacticalTurret.description>
   <!-- EN: Battery power -->
-  <Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>배터리 동력</Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>
+  <Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>동력원</Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>
   <!-- EN: This turret has a limited battery life. Once it runs out, it will stop working entirely. -->
-  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>이 포탑의 배터리 수명은 제한되어 있습니다. 수명이 다되면, 완전히 멈출 겁니다.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
+  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>이 포탑의 동력원 수명은 제한되어 있습니다. 수명이 다 되면 완전히 작동을 멈춥니다.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
   
 </LanguageData>
