@@ -72,11 +72,6 @@ namespace RimWorld_Korean
       return ReplaceJosa(base.PostProcessed(str));
     }
 
-    public override string PostProcessedKeyedTranslation(string translation)
-    {
-      return ReplaceJosa(base.PostProcessedKeyedTranslation(translation));
-    }
-
     private string ReplaceJosa(string src)
     {
       tmpStringBuilder.Length = 0;
@@ -85,6 +80,11 @@ namespace RimWorld_Korean
 
       var matches = JosaPattern.Matches(src);
       var matchesStripped = JosaPattern.Matches(stripped);
+      
+      if (matchesStripped.Count < matches.Count)
+      {
+        return src;
+      }
 
       var lastHeadIndex = 0;
 
@@ -177,14 +177,13 @@ namespace RimWorld_Korean
 
     private string StripTags(string inString)
     {
-      var outString = inString;
       // Find an opening since it's much easier
-      if (TagOrNodeOpeningPattern.IsMatch(outString))
+      if (TagOrNodeOpeningPattern.IsMatch(inString))
       {
         // Only need to strip closings, we only care about the word before josa
-        return TagOrNodeClosingPattern.Replace(outString, String.Empty);
+        return TagOrNodeClosingPattern.Replace(inString, String.Empty);
       }
-      return outString;
+      return inString;
     }
 
     private bool HasJong(char inChar)
