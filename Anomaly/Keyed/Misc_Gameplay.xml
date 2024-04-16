@@ -11,13 +11,13 @@
   <!-- EN: Shuffling listlessly. -->
   <ShamblerShuffling>무기력하게 발 끌며 걷는 중.</ShamblerShuffling>
   <!-- EN: Be careful, the group contains a shambler gorehulk. -->
-  <LetterText_ShamblerGorehulk>조심하세요, 무리에 휘청이는 자 고어헐크가 하나 있습니다.</LetterText_ShamblerGorehulk>
+  <LetterText_ShamblerGorehulk>조심하세요, 무리에 휘청이는 고어헐크가 있습니다.</LetterText_ShamblerGorehulk>
   <!-- EN: Be careful, the group contains several shambler gorehulks. -->
-  <LetterText_ShamblerGorehulkPlural>조심하세요, 무리에 휘청이는 자 고어헐크가 여럿 있습니다.</LetterText_ShamblerGorehulkPlural>
+  <LetterText_ShamblerGorehulkPlural>조심하세요, 무리에 휘청이는 고어헐크가 여럿 있습니다.</LetterText_ShamblerGorehulkPlural>
   <!-- EN: Be careful, the group contains a shambler chimera. -->
-  <LetterText_ShamblerChimera>조심하세요, 무리에 휘청이는 자 키메라가 하나 있습니다.</LetterText_ShamblerChimera>
+  <LetterText_ShamblerChimera>조심하세요, 무리에 휘청이는 키메라가 있습니다.</LetterText_ShamblerChimera>
   <!-- EN: Be careful, the group contains several shambler chimeras. -->
-  <LetterText_ShamblerChimeraPlural>조심하세요, 무리에 휘청이는 자 키메라가 여럿 있습니다.</LetterText_ShamblerChimeraPlural>
+  <LetterText_ShamblerChimeraPlural>조심하세요, 무리에 휘청이는 키메라가 여럿 있습니다.</LetterText_ShamblerChimeraPlural>
 
   <!-- EN: Non-humans cannot participate in rituals. -->
   <MessageRitualCannotBeMutant>인간이 아니라면 의식에 참여할 수 없습니다.</MessageRitualCannotBeMutant>
@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef} 최면에 걸림</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>{PAWN_nameDef}(이)가 망령에 의해 최면에 걸렸으며 이제 악몽 같은 이미지와 생각에 대해 두서없이 횡설수설하고 있습니다.\n\n망령을 죽이면 최면이 끝납니다.\n\n망령은 초능력을 사용해 주변에 있는 자들의 인식을 왜곡시켜, 스스로를 보이지 않게 만듭니다. 그러나, 여전히 망령이 남기는 검은 얼룩을 따라가 공격할 수 있습니다. 망령은 폭발성 무기, 소방거품, EMP, 불, 교란 신호탄에 맞으면 모습이 드러납니다.\n\n망령을 죽이지 않으면, 새로운 희생자를 계속해서 최면에 걸리게 할 겁니다.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef}(이)가 망령에 의해 최면에 걸렸으며 이제 악몽 같은 이미지와 생각에 대해 두서없이 횡설수설하고 있습니다.\n\n망령을 죽이면 최면이 끝납니다.\n\n망령은 초능력을 사용해 주변에 있는 자들의 인식을 왜곡시켜, 스스로를 보이지 않게 만듭니다. 그러나 여전히 망령이 남기는 검은 얼룩을 따라가 공격할 수 있습니다. 망령은 폭발성 무기, 소방거품, EMP, 불, 교란 신호탄에 맞으면 모습이 드러납니다.\n\n망령을 죽이지 않으면, 새로운 희생자를 계속해서 최면에 걸리게 할 겁니다.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>망령 살점 덩어리</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -116,17 +116,17 @@
   <!-- EN: Climb to surface -->
   <ExitPitGate>표면으로 올라가기</ExitPitGate>
   <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>살짐승의 집</LetterLabelGateEntered> 
+  <LetterLabelGateEntered>살짐승의 둥지</LetterLabelGateEntered> 
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>구덩이 문 깊숙이에서, 살짐승으로 가득한 거대한 동굴 시스템을 발견했습니다.\n\n동굴 시스템은 살아 있는 살 덩어리로 엉겨 붙어 당신이 앞으로 가지 못하게 합니다. 살덩이를 공격해 파괴하세요.\n\n전체 동굴 시스템은 불안정해 보입니다. 이 살덩이 뒤에 무엇이 있는지 알아내면, 터널을 붕괴시키고 구덩이 문을 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
+  <LetterGateEntered>구덩이 문 깊숙한 곳에서, 살짐승으로 가득한 거대한 동굴계를 발견했습니다.\n\n동굴 속은 사방이 살아있는 살 덩어리로 막혀있어 앞으로 나아갈 수 없습니다. 살덩이를 공격해 파괴하세요.\n\n동굴계 전체가 불안정해 보입니다. 이 살덩이 뒤에 무엇이 있는지 알아내면, 터널을 붕괴시키고 구덩이 문을 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
   <LetterLabelDreadmeldWarning>꿈틀거리는 소리</LetterLabelDreadmeldWarning> 
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
-  <LetterDreadmeldWarning>{PAWN_nameDef}(이)가 이곳의 살덩이로 다가오는 동안, 따뜻한 표면 아래에서 무언가가 심하게 몸부림치고 고동치는 것을 느낍니다. 살아 있는 어떤 거대한 실체가 살로 된 벽 뒤에 숨겨져 있습니다.</LetterDreadmeldWarning> 
+  <LetterDreadmeldWarning>{PAWN_nameDef}(이)가 살덩이 근처로 다가가자, 따뜻한 표면 아래에서 무언가가 심하게 몸부림치고 고동치는 것을 느낍니다. 살아있는 어떤 거대한 실체가 살로 된 벽 뒤에 숨어있습니다.</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
   <LetterLabelUndercaveCollapsing>지하동굴 불안정함</LetterLabelUndercaveCollapsing> 
   <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
-  <LetterUndercaveCollapsing>드레드멜드의 죽음이 살덩이에게 충격을 주었으며 동굴 생태계를 불안정하게 만들었습니다. 동굴을 지지하던 살덩이는 벌써 약화되기 시작했습니다. 반나절 안에, 전체 동굴이 붕괴할 겁니다.\n\n너무 늦기 전에 지하동굴에서 나오세요!</LetterUndercaveCollapsing>
+  <LetterUndercaveCollapsing>드레드멜드의 죽음이 살덩이에게 충격을 가하여 동굴계가 불안정해졌습니다. 동굴을 지지하던 살덩이는 벌써 약화되기 시작했습니다. 반나절 안에 동굴 전체가 붕괴할 것입니다.\n\n너무 늦기 전에 지하동굴에서 빠져나오세요!</LetterUndercaveCollapsing>
 
   <!-- Holding platform -->
   <!-- EN: Holding -->
@@ -134,7 +134,7 @@
   <!-- EN: Remove {0_labelShort} -->
   <RemoveFromPlatform>{0_labelShort} 제거</RemoveFromPlatform>
   <!-- EN: Remove the current entity held on the platform. -->
-  <RemoveFromPlatformDesc>구속대에 현재 수용 중인 실체를 제거합니다.</RemoveFromPlatformDesc>
+  <RemoveFromPlatformDesc>구속대가 수용 중인 실체를 제거합니다.</RemoveFromPlatformDesc>
   <!-- EN: {GERUND} {TARGETLABEL} from -->
   <ReleasingEntity>에서 {GERUND} {TARGETLABEL}</ReleasingEntity>
   <!-- EN: {GERUND} {TARGETLABEL} -->
@@ -238,7 +238,7 @@
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef} 다시 나타남</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
-  <ObeliskAbductedLetter>{PAWN_nameDef}(은)는 이상한 방으로 순간 이동했습니다. 벽은 정체를 알 수 없는 회색 물질이며 공기는 완전히 멈춰 있습니다. 자신이 어디에 있는지, 어떻게 집에 가야할지 모릅니다.\n\n근처의 문은 움직이지 않지만 힘을 좀 쓰면 강제로 열 수 있을 것 같습니다. 움직이지 않는 문을 우클릭해 여세요.\n\n오벨리스크를 연구해, 다른 정착민이 {PAWN_nameDef}에게 무슨 일이 일어났는지 이해하고 도울 방법을 찾을지도 모릅니다. 대신에 오벨리스크를 공격하면 더 많은 정착민을 납치하도록 할 수 있습니다.</ObeliskAbductedLetter>
+  <ObeliskAbductedLetter>{PAWN_nameDef}(은)는 이상한 방으로 순간이동했습니다. 이 방의 벽은 정체를 알 수 없는 회색 물질이며 공기는 완전히 정체됐습니다. {PAWN_nameDef}(은)는 여기가 어디고, 어떻게 다시 돌아가야 하는지 알 수가 없습니다.\n\n근처의 문은 움직이지 않습니다. 하지만 힘을 좀 쓰면 강제로 열 수 있을 것 같습니다. 움직이지 않는 문을 오른쪽 클릭해서 개방하세요.\n\n다른 정착민으로 오벨리스크를 연구하면 {PAWN_nameDef}에게 무슨 일이 일어났는지 파악하고 도울 방법을 찾을 수 있을 겁니다. 아니면, 오벨리스크를 공격해서 자극하면 더 많은 정착민을 방으로 납치할지도 모릅니다.</ObeliskAbductedLetter>
 
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
   <MutatorObeliskMutated>{PAWN_nameIndef}(이)가 살짐승으로 변화했습니다.</MutatorObeliskMutated>
@@ -319,15 +319,15 @@
   <!-- EN: Must be captured in a holding platform. -->
   <RequiresHoldingPlatform>구속대에서 포획되어야 합니다.</RequiresHoldingPlatform>
   <!-- EN: Choose a location for the nociosphere to teleport to. -->
-  <ChooseNociosphereDest>노셔스피어이 순간이동할 장소를 선택하세요.</ChooseNociosphereDest>
+  <ChooseNociosphereDest>노셔스피어가 순간이동할 장소를 선택하세요.</ChooseNociosphereDest>
   <!-- EN: Transfer {0_definite} -->
-  <TransferEntity>{0_definite} 이전</TransferEntity>
+  <TransferEntity>{0_definite} 이송</TransferEntity>
   <!-- EN: Transfer the contained entity to another holding platform. -->
-  <TransferEntityDesc>억제된 실체를 다른 구속대로 이전하세요.</TransferEntityDesc>
+  <TransferEntityDesc>억제된 실체를 다른 구속대로 이송합니다.</TransferEntityDesc>
   <!-- EN: Cancel transfer -->
-  <CancelTransfer>이전 취소</CancelTransfer>
+  <CancelTransfer>이송 취소</CancelTransfer>
   <!-- EN: Cancel transferring this entity to another holding platform. -->
-  <CancelTransferDesc>이 실체의 다른 구속대로의 이전을 취소하세요.</CancelTransferDesc>
+  <CancelTransferDesc>이 실체의 이송을 취소합니다.</CancelTransferDesc>
   
   <!-- Metalhorrors -->
   <!-- EN: Emerged from -->
@@ -357,10 +357,10 @@
   <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
   <MetalhorrorEmergingPluralDesc>메탈호러가 나타나는 중입니다! 날이 달린 이 악몽 같은 생물이 숙주의 살과 피부를 가르며 빠져나오고  있습니다. 메탈호러가 다음의 장소에서 출현합니다.</MetalhorrorEmergingPluralDesc>
   <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
-  <MetalhorrorEmergingDescAppended>이 무서운 금속 기생충은 희생자 안에 살며, 희생자의 몸과 뇌에 퍼뜨리는 머리카락 두께의 필라멘트의 네트워크를 통해 고급 사고를 지배합니다. 희생자의 정신을 조종하며 다른 사람을 새로운 메탈호러로 감염시키도록 강제합니다.</MetalhorrorEmergingDescAppended>
+  <MetalhorrorEmergingDescAppended>이 끔찍한 금속 기생충은 몸과 뇌에 퍼뜨리는 머리카락 두께의 필라멘트 네트워크를 통해 숙주의 고차 사고 과정을 지배합니다. 메탈호러는 숙주의 정신을 조종하여 다른 사람들에게도 새로운 메탈호러를 감염시키도록 유도합니다.</MetalhorrorEmergingDescAppended>
   
   <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
-  <MetalhorrorSurgicalInspectionDetails>아래 의사들은 메탈호러에 감염되어 조종당했으므로 외과 검사 결과에 대해 거짓말을 했습니다</MetalhorrorSurgicalInspectionDetails>
+  <MetalhorrorSurgicalInspectionDetails>아래 의사들은 메탈호러에 감염되어 조종당했으므로 외과적 검사 결과에 대해 거짓말을 했습니다</MetalhorrorSurgicalInspectionDetails>
   
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
   <MetalhorrorReasonInteraction>{PAWN_nameDef}(이)가 사교 과정에서 {INFECTED_nameDef}의 메탈호러를 눈치챘기 때문에 출현했습니다.</MetalhorrorReasonInteraction>
@@ -467,9 +467,9 @@
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>부자연적 치료</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>{CASTER_nameDef}(이)가 {PAWN_nameDef}에 대한 {CASTER_possessive} 초정신적 치료를 마쳤습니다.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealing>{CASTER_nameDef}(이)가 {PAWN_nameDef}의 초정신적 치료를 마쳤습니다.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
-  <LetterUnnaturalHealingTentacle>그러나, 뭔가 끔찍하게 잘못되었습니다.\n\n{PAWN_nameDef}{PAWN_possessive} 몸에서 무언가가 격렬하게 자라나와 의 팔이 부풀어 터졌습니다. {PAWN_possessive} 팔은 살로 된 촉수로 대체되었습니다!</LetterUnnaturalHealingTentacle>
+  <LetterUnnaturalHealingTentacle>그러나 뭔가 끔찍하게 잘못되었습니다.\n\n{PAWN_nameDef}의 몸에서 무언가가 급격하게 자라나더니 {PAWN_possessive} 팔이 부풀어 터졌습니다. {PAWN_possessive} 팔은 살로 된 촉수로 대체되었습니다!</LetterUnnaturalHealingTentacle>
   
   <!-- Transmutation ability -->
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
@@ -518,7 +518,7 @@
   <!-- EN: Flesh tentacle attack -->
   <LetterLabelFleshTentacleAttack>살 촉수 공격</LetterLabelFleshTentacleAttack>
   <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
-  <LetterFleshTentacleAttack>{PAWN_nameDef}의 작업은 성공적이었습니다. 그러나, {PAWN_possessive} 촉수였던 뒤틀리는 살 덩어리가 공격하기 시작했습니다!</LetterFleshTentacleAttack>
+  <LetterFleshTentacleAttack>{PAWN_nameDef}의 작업은 성공적이었습니다. 그러나 {PAWN_possessive} 촉수였던 뒤틀리는 살 덩어리가 공격하기 시작했습니다!</LetterFleshTentacleAttack>
   <!-- EN: Biosignature -->
   <Biosignature>생명신호</Biosignature>
   <!-- EN: Bliss lobotomy -->
@@ -582,7 +582,7 @@
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>부자연적 시체 연구 완료</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>부자연적 시체에 대한 조사가 초월공학 조각을 어떻게 안전하게 제거하는지를 밝혀줬습니다. 그렇게 하면 {VICTIM_nameDef}(을) 정신적으로 학대하는 일을 멈출 수 있을 겁니다. 그러나, 시체에 대한 추가 연구 또한 막게 됩니다.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>부자연적 시체에 대한 조사가 초월공학 조각을 어떻게 안전하게 제거하는지를 밝혀줬습니다. 그렇게 하면 {VICTIM_nameDef}(을) 정신적으로 학대하는 일을 멈출 수 있을 겁니다. 그러나 시체에 대한 추가 연구 또한 막게 됩니다.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>시체 조각</UnnaturalCorpseDeactivatedLetter>

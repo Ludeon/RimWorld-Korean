@@ -38,6 +38,8 @@
     <li>commentedabout->에 대해 말함</li>
     <li>commentedabout->에 대해 한마디 함</li>
     <li>commentedabout->에 대한 자신의 의견을 냄</li>
+    <li>commentedabout->에 대한 주장을 펼침</li>
+    <li>commentedabout->에 대한 농담을 함</li>
   </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
@@ -72,6 +74,7 @@
     <li>talkedabout->에 대해 심도있는 대화를 나눔</li>
     <li>talkedabout->에 대해 주제를 관통하는 대화를 나눔</li>
     <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
@@ -121,6 +124,14 @@
     <li>insulted->직접 모욕함</li>
     <li>insulted->악랄하게 모욕함</li>
     <li>insulted->심하게 경멸함</li>
+    <li>insulted->중상 모략함</li>
+    <li>insulted->욕설함</li>
+    <li>insulted->비웃음</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->구체</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->아무 의미도 없는 무언가</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->육면체를 제외한 영적 다면체</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
@@ -158,6 +169,8 @@
     <li>complimented->(을)를 보고 좋은 말로 표현해줌</li>
     <li>complimented->(을)를 좋은 단어로 표현해줌</li>
     <li>complimented->(을)를 보고 립서비스 해줌</li>
+    <li>complimented->(을)를 보고 인상깊게 감상을 표함</li>
+    <li>complimented->(을)를 보고 좋은 느낌을 받았다고 전함</li>
   </KindWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: slight -->
@@ -197,6 +210,8 @@
     <li>madefunof->실소함</li>
     <li>madefunof->트집잡음</li>
     <li>madefunof->경시함</li>
+    <li>madefunof->경멸함</li>
+    <li>madefunof->비꼼</li>
   </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>

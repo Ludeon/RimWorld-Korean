@@ -72,7 +72,7 @@
   <!-- EN: gorehulk -->
   <Gorehulk.label>고어헐크</Gorehulk.label>
   <!-- EN: A monstrous creature that resembles a massive, painfully swollen human with randomly reconfigured body parts. Near its top is a stretched face that watches its victim with dead eyes.\n\nHundreds of sharp keratin spines protrude from the gorehulk's skin. It can launch these spines to spear its victims at a distance. However, its awkward fleshy body is less effective at causing harm up close.\n\nIt's hard to know whether this is a human that was horribly distorted by the influence of the void or a poor imitation of humanity created from scratch by some evil intelligence. -->
-  <Gorehulk.description>괴물 같은 생물로 거대하고 임의로 신체 기관이 변경되었으며 고통스럽게 부풀어 있는 인간과 닮아 있습니다. 꼭대기 근처의 늘어난 얼굴은 죽은 눈으로 희생자를 바라봅니다.\n\n수백의 뾰족한 케라틴 척추가 고어헐크의 피부에서 튀어나옵니다. 고어헐크는 이 척추를 발사하여 멀리에서 희생자를 찌를 수 있습니다. 그러나, 그 어색한 살집 있는 육체는 가까이에서 해를 끼치기에는 덜 효과적입니다.\n\n이것이 공허의 영향으로 인해 끔찍하게 왜곡된 사람인지 아니면 사악한 지성체가 처음부터 만든 형편 없는 인류의 복제품인지 알기가 어렵습니다.</Gorehulk.description>
+  <Gorehulk.description>괴물 같은 생물로 거대하고 임의로 신체 기관이 변경되었으며 고통스럽게 부풀어 있는 인간과 닮아 있습니다. 꼭대기 근처의 늘어난 얼굴은 죽은 눈으로 희생자를 바라봅니다.\n\n수백의 뾰족한 케라틴 척추가 고어헐크의 피부에서 튀어나옵니다. 고어헐크는 이 척추를 발사하여 멀리에서 희생자를 찌를 수 있습니다. 그러나 그 어색한 살집 있는 육체는 가까이에서 해를 끼치기에는 덜 효과적입니다.\n\n이것이 공허의 영향으로 인해 끔찍하게 왜곡된 사람인지 아니면 사악한 지성체가 처음부터 만든 형편 없는 인류의 복제품인지 알기가 어렵습니다.</Gorehulk.description>
   <!-- EN: left flesh club -->
   <Gorehulk.tools.left_flesh_club.label>왼쪽 살 몽둥이</Gorehulk.tools.left_flesh_club.label>
   <!-- EN: flesh club -->
@@ -121,8 +121,8 @@
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>{PAWN_nameDef}(이)가 노셔스피어에 대해 두려운 발견을 했습니다. 해당 시체는 불안정의 조기 조짐을 보이고 있습니다.\n\n노셔스피어가 불안정해지기 시작하면, 적대적인 위협을 공격하도록 보내서 처리할 수 있습니다. 노셔스피어의 맹습이 끝나면, 영원히 떠날 겁니다. 완전히 불안정해지면, 더 이상 억제에 반응하지 않을 겁니다.</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>
   <!-- EN: Teleport the nociosphere to a nearby location. It will then unleash an onslaught of murder and pain on everyone nearby for a short time. The nociosphere will hunt down any creature, including allies and other entities.\n\nThe nociosphere can be sent multiple times. -->
   <Nociosphere.comps.CompNociosphere.activateDescString>노셔스피어를 근처 장소로 순간 이동 시키세요. 그러면 근처의 모두에게 짧은 시간 동안 살해와 고통의 맹습을 개시할 겁니다. 노셔스피어는 아군과 다른 실체를 포함한 모든 생물을 추적할 겁니다.\n\n노셔스피어는 여러 번 보낼 수 있습니다.</Nociosphere.comps.CompNociosphere.activateDescString>
-  <!-- EN: Send nociosphere -->
-  <Nociosphere.comps.CompNociosphere.activateLabelString>노셔스피어 보내기</Nociosphere.comps.CompNociosphere.activateLabelString>
+  <!-- EN: Send the nociosphere... -->
+  <Nociosphere.comps.CompNociosphere.activateLabelString>노셔스피어 보내기...</Nociosphere.comps.CompNociosphere.activateLabelString>
   <!-- EN: sending {0}: {1}s -->
   <Nociosphere.comps.CompNociosphere.activatingString>{0} 보내는 중: {1}초</Nociosphere.comps.CompNociosphere.activatingString>
   <!-- EN: Becoming unstable -->
@@ -171,7 +171,7 @@
   <!-- EN: sightstealer -->
   <Sightstealer.label>시야도둑</Sightstealer.label>
   <!-- EN: Emaciated and misshapen humanoids. Their arms end in sharp, curled claws formed from bioferrite. Sightstealers are fragile, but use psychic influence to render themselves invisible until they get close to their victims. They are known to emit haunting screams as they gather on their terrible hunts. -->
-  <Sightstealer.description>수척한 기형의 인간형 생물입니다. 그들의 팔 끝은 뾰족하고, 구부러진 발톱은 생체강철로 형성되어 있습니다. 시야도둑은 취약하지만, 심령 영향력을 사용하여 희생자에 가까이 다가갈 때까지 스스로를 투명하게 만들 수 있습니다. 끔찍한 사냥을 위해 모이면서 잊을 수 없는 비명을 내는 것으로 알려져 있습니다.</Sightstealer.description>
+  <Sightstealer.description>수척한 기형의 인간형 생물입니다. 그들의 팔 끝은 뾰족하고, 구부러진 발톱은 생체강철로 형성되어 있습니다. 시야도둑은 취약하지만, 심령 영향력을 사용하여 희생자에게 가까이 다가갈 때까지 스스로를 투명하게 만들 수 있습니다. 끔찍한 사냥을 위해 모이면서, 들으면 잊을 수 없는 비명을 내는 것으로 알려져 있습니다.</Sightstealer.description>
   <!-- EN: left claw -->
   <Sightstealer.tools.left_claw.label>왼쪽 발톱</Sightstealer.tools.left_claw.label>
   <!-- EN: claw -->
