@@ -1,19 +1,32 @@
 #!/usr/bin/node
+import { createRequire } from 'node:module'
 import path from 'node:path'
-import readline from 'node:readline'
+import { pipeline } from 'node:stream/promises'
 
 import { execa } from 'execa'
 import fs from 'fs-extra'
 import got from 'got'
+import { rimraf } from 'rimraf'
 import { getGamePath } from 'steam-game-path'
+import unzipper from 'unzipper'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
-import { createRequire } from 'node:module'
 
 const AVAILABLE_DLCS = ['Core', 'Royalty', 'Ideology', 'Biotech', 'Anomaly']
-const AVAILABLE_TRANSLATIONS = ['Core', 'Royalty', 'Ideology', 'Biotech', 'Anomaly']
 
 const timeout = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+
+const clearTranslations = async () => {
+  const gamePath = path.join(getGamePath(294100).game.path, 'Data')
+
+  return Promise.all(
+    AVAILABLE_DLCS.map((dlc) => {
+      const dlcLangPath = path.join(gamePath, dlc, 'Languages')
+
+      return rimraf(`${dlcLangPath}/*.tar`, { glob: true })
+    })
+  )
+}
 
 yargs(hideBin(process.argv))
   .scriptName('cli')
@@ -119,48 +132,106 @@ yargs(hideBin(process.argv))
       return fs.writeFile(path.join(process.cwd(), 'Core/LanguageInfo.xml'), builtLanguageInfo)
     }
   )
+  .command('clear', 'clear all language files from RimWorld', (ins) => ins.help(), clearTranslations)
   .command(
-    'clear',
-    'clear all language files from RimWorld',
-    (ins) => ins.help(),
-    () => {
-      const gamePath = path.join(getGamePath(294100).game.path, 'Data')
-
-      return Promise.all(
-        AVAILABLE_DLCS.map((dlc) => {
-          const dlcLangPath = path.join(gamePath, dlc, 'Languages')
-
-          // get all tar files
-          const tarFiles = fs.readdirSync(dlcLangPath).filter((file) => file.endsWith('.tar'))
-
-          // remove them all
-          return Promise.all(tarFiles.map((tarFile) => fs.remove(path.join(dlcLangPath, tarFile))))
+    'download',
+    'download Crowdin build',
+    (ins) =>
+      ins
+        .option('build', {
+          boolean: true,
+          default: true,
+          description: 'Generate a new build. Set this to false to use existing builds.',
         })
-      )
-    }
-  )
-  .command(
-    'deploy',
-    'deploy language data to RimWorld installation path',
-    (ins) => ins.help(),
-    () => {
-      const gamePath = path.join(getGamePath(294100).game.path, 'Data')
+        .help(),
+    async (argv) => {
+      const require = createRequire(import.meta.url)
+      const { host, token } = require(path.join(process.cwd(), '.crowdin.json'))
 
-      return Promise.all(
-        AVAILABLE_TRANSLATIONS.map(async (dlc) => {
-          const sourcePath = path.join(process.cwd(), dlc)
-          const dlcLangPath = path.join(gamePath, dlc, 'Languages/Korean (한국어)')
+      let needNewBuild = argv.build
+      let lastBuildID
 
-          await fs.remove(dlcLangPath)
-          await fs.ensureDir(dlcLangPath)
+      while (true) {
+        if (needNewBuild) {
+          console.log('Requesting build...')
 
-          // get all files and directories of sourcePath
-          const entries = fs.readdirSync(sourcePath)
+          lastBuildID = await got
+            .post(`${host}/api/v2/projects/2/translations/builds`, {
+              headers: {
+                Authorization: `Bearer ${token}`,
+              },
+              json: {
+                targetLanguageIds: ['ko'],
+              },
+            })
+            .json()
+            .then((res) => res.data.id)
+          break
+        }
 
-          // copy them under dlcLangPath
-          return Promise.all(entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(dlcLangPath, name))))
+        const maybeLastBuildID = await got
+          .get(`${host}/api/v2/projects/2/translations/builds`, {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          })
+          .json()
+          .then((res) => res.data.find((build) => build.data.attributes.targetLanguageIds.length === 1)?.data.id)
+
+        if (maybeLastBuildID) {
+          lastBuildID = maybeLastBuildID
+          break
+        }
+
+        console.log('No previous build found.')
+        needNewBuild = true
+      }
+
+      console.log(`Build ID was ${lastBuildID}.`)
+
+      while ((await timeout(1000), true)) {
+        const response = await got.get(`${host}/api/v2/projects/2/translations/builds/${lastBuildID}/download`, {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
         })
-      )
+
+        const body = JSON.parse(response.body)
+
+        if (response.statusCode === 202) {
+          const progress = body.data.progress
+          console.log(`${progress}%...`)
+          continue
+        }
+
+        const downloadURL = body.data.url
+
+        console.log('Clearing existing files...')
+        await Promise.all([
+          rimraf(path.join(process.cwd(), 'Core'), {
+            filter: (p) => !p.endsWith('LanguageInfo.xml') && !p.endsWith('LangIcon.png'),
+          }),
+          ...AVAILABLE_DLCS.slice(1).map((dlc) => rimraf(path.join(process.cwd(), dlc))),
+        ])
+
+        console.log('Extracting...')
+
+        // unzipper.Extract is broken (at least on Windows), need to Parse and write manually
+        const stream = got.stream(downloadURL).pipe(unzipper.Parse({ forceStream: true }))
+        for await (const entry of stream) {
+          const fileName = entry.path
+          const type = entry.type
+
+          if (type === 'Directory') {
+            await fs.ensureDir(path.join(process.cwd(), fileName))
+            continue
+          }
+
+          await pipeline(entry, fs.createWriteStream(path.join(process.cwd(), fileName)))
+        }
+
+        break
+      }
     }
   )
   .command(
@@ -171,7 +242,7 @@ yargs(hideBin(process.argv))
       const gamePath = path.join(getGamePath(294100).game.path, 'Data')
 
       return Promise.all(
-        AVAILABLE_TRANSLATIONS.map(async (dlc) => {
+        AVAILABLE_DLCS.map(async (dlc) => {
           const sourcePath = path.join(gamePath, dlc, 'Languages/Korean (한국어)')
           const translationPath = path.join(process.cwd(), dlc)
 
@@ -185,6 +256,32 @@ yargs(hideBin(process.argv))
           return Promise.all(
             entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(translationPath, name)))
           )
+        })
+      )
+    }
+  )
+  .command(
+    'push',
+    'push language data to RimWorld installation path',
+    (ins) => ins.help(),
+    async () => {
+      await clearTranslations()
+
+      const gamePath = path.join(getGamePath(294100).game.path, 'Data')
+
+      return Promise.all(
+        AVAILABLE_DLCS.map(async (dlc) => {
+          const sourcePath = path.join(process.cwd(), dlc)
+          const dlcLangPath = path.join(gamePath, dlc, 'Languages/Korean (한국어)')
+
+          await fs.remove(dlcLangPath)
+          await fs.ensureDir(dlcLangPath)
+
+          // get all files and directories of sourcePath
+          const entries = fs.readdirSync(sourcePath)
+
+          // copy them under dlcLangPath
+          return Promise.all(entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(dlcLangPath, name))))
         })
       )
     }

@@ -17,10 +17,9 @@ https://discord.gg/6PyAxGU
 
 ### 번역 업데이트
 
-1. Crowdin에서 파일 빌드
-1. 저장소에 올바르게 배치
-1. `pnpm cli clear`로 `.tar` 파일 제거
-1. `pnpm cli deploy`로 설치
+1. `pnpm i`
+1. `pnpm cli download [--no-build]`로 다운로드
+1. `pnpm cli push`로 설치
 1. RimWorld 실행 후 번역 파일 정리
 1. `pnpm cli pull`로 정리된 파일 가져오기
 
@@ -33,6 +32,7 @@ https://discord.gg/6PyAxGU
 
 ### `LanguageWorker` 빌드
 
+1. `pnpm i`
 1. [.NET Framework 4.7.2 Developer Pack](https://dotnet.microsoft.com/download/dotnet-framework/net472)
 1. [.NET CLI](https://docs.microsoft.com/ko-kr/dotnet/core/tools/)
 1. `./LanguageWorker/libs/Assembly-CSharp.dll`
