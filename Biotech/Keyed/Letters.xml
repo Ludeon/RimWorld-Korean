@@ -107,7 +107,7 @@
   <InbredBabyBorn>아기가 근친 교배로 인한 유전적 기형의 징후를 보입니다.</InbredBabyBorn>
 
   <!-- EN: {0_nameDef} has already been named. -->
-  <BabyAlreadyNamed>{0_nameDef}(은)는 이미 이름이 있습니다.</BabyAlreadyNamed>
+  <BabyAlreadyNamed>{0_nameDef}에게는 이미 이름을 지어줬습니다.</BabyAlreadyNamed>
   <!-- EN: name baby -->
   <NameBaby>아기 이름짓기</NameBaby>
   <!-- EN: immediately -->
@@ -119,7 +119,7 @@
   <!-- EN: You can change it until {0} after birth. -->
   <LetterPartLiveBirthNameDeadline>출생 후 {0} 이내로 변경할 수 있습니다.</LetterPartLiveBirthNameDeadline>
   <!-- EN: Would you like to give the baby another name? -->
-  <LetterPartStillbirthNameDeadline>아기에게 다른 이름을 지어 주시겠습니까?</LetterPartStillbirthNameDeadline>
+  <LetterPartStillbirthNameDeadline>아기에게 다른 이름을 지어주시겠습니까?</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
   <LetterPartNameBabyAdopt>아기의 이름을 임시로 {0_nameFull}(으)로 지어줬습니다. {1} 이내로 변경할 수 있습니다.</LetterPartNameBabyAdopt>
 
@@ -130,13 +130,13 @@
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
   <BirthdayBiologicalAgeWorkTypes>{0_nameDef}(은)는 다음 작업을 수행할 수 있을 만큼 성장했습니다</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>{0_nameDef}의 기술 하나를 선택해 {0_possessive} 열정을 키웁니다</BirthdayPickPassion>
+  <BirthdayPickPassion>{0_nameDef}(이)가 열정을 키울 기술 1개 선택</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>{0_nameDef}의 기술 {1}개를 선택해 {0_possessive} 열정을 키웁니다</BirthdayPickPassions>
+  <BirthdayPickPassions>{0_nameDef}(이)가 열정을 키울 기술 {1}개 선택</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>{0_nameDef}(이)가 얻을 특성 선택</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>해당 성장 순간이 발생했을 때 {0_nameDef}(은)는 성장 단계 {1}에 있었습니다. 더 높은 성장 단계의 어린이는 선택할 수 있는 특성 및 열정 항목이 더 많고 전반적으로 더 많은 열정을 가집니다. 학습 요구 사항을 충족하면 아동이 성장 단계에 더 빨리 진입할 수 있습니다. 성장 단계는 성장 순간마다 재설정됩니다.</BirthdayGrowthTier>
+  <BirthdayGrowthTier>{0_nameDef}(이)가 성장 단계 {1}일 때 성장 순간을 맞이했습니다. 더 높은 성장 단계의 어린이는 특성과 열정 선택지가 더 넓고 선택할 수 있는 열정의 수도 많습니다. 학습 요구 사항을 충족하면 아동이 성장 단계에 더 빨리 진입할 수 있습니다. 성장 단계는 성장 순간마다 재설정됩니다.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>이 편지를 열어 {0_nameDef}의 성장 방식을 선택하세요.</BirthdayChooseHowPawnWillGrow>
 
@@ -150,7 +150,7 @@
   <BirthdayNoTraitChoiceTooltip>{0}(은)는 특성을 얻지 못했습니다.</BirthdayNoTraitChoiceTooltip>
 
   <!-- EN: Make choices to close -->
-  <BirthdayMakeChoices>닫으려면 먼저 선택을 하세요.</BirthdayMakeChoices>
+  <BirthdayMakeChoices>닫으려면 선택</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
   <BirthdayNickname>{0}(은)는 {1}(이)라는 별명을 얻었습니다.</BirthdayNickname>
   <!-- EN: Select a trait. -->
@@ -177,7 +177,7 @@
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
   <XenogermOrderedImplantedMedicineNeeded>\n\n변형이식체를 이식할 약품이 부족합니다. {MEDICINENEEDED} 약품을 받을 때까지 이식을 시작할 수 없습니다.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
-  <LetterLabelInvoluntaryDeathrest>비 자발적 죽음안식</LetterLabelInvoluntaryDeathrest>
+  <LetterLabelInvoluntaryDeathrest>비자발적 죽음안식</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->
   <LetterLabelRegenerationComa>재생성 혼수상태</LetterLabelRegenerationComa>
   <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
@@ -199,7 +199,7 @@
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>재이식된 유전자</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>{CASTER_nameDef}(이)가 {CASTER_possessive} 변형이식체의 복사본을 {TARGET_nameDef}에 이식하여 모든 변형이식체를 {TARGET_objective}에 전달했습니다.\n\n{TARGET_nameDef}(은)는 다음 {COMADURATION} 동안 변형이식 혼수상태에 있을 것입니다. 동시에 {TARGET_possessive} 변경 사항에 맞게 조정됩니다.\n\n{CASTER_nameDef}(은)는 다음 {SHOCKDURATION} 동안 유전자 상실 충격을 겪을 것입니다. {CASTER_possessive} 유전자도 다시 자라야 합니다. 이 과정은 시간이 걸립니다. {CASTER_possessive} 유전자가 다시 자라기 전에 {CASTER_nameDef}(이)가 {CASTER_possessive} 변형이식체를 다시 이식하면 {CASTER_pronoun}(은)는 죽습니다.</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef}(이)가 {CASTER_possessive} 변형이식체의 복제본을 {TARGET_nameDef}에 이식하여 모든 변형이식체를 {TARGET_objective}에 전달했습니다.\n\n{TARGET_nameDef}(은)는 다음 {COMADURATION} 동안 변형이식 혼수상태에 있을 것입니다. 동시에 {TARGET_possessive} 변경 사항에 맞게 조정됩니다.\n\n{CASTER_nameDef}(은)는 다음 {SHOCKDURATION} 동안 유전자 상실 충격을 겪을 것입니다. {CASTER_possessive} 유전자도 다시 자라야 합니다. 이 과정은 시간이 걸립니다. {CASTER_possessive} 유전자가 다시 자라기 전에 {CASTER_nameDef}(이)가 {CASTER_possessive} 변형이식체를 다시 이식하면 {CASTER_pronoun}(은)는 죽습니다.</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
   <RefugeePodCrashBaby>{PAWN_factionName}의 {PAWN_nameDef}(이)라는 이름의 아기가 탄 수송 포드가 근처에 추락했습니다.\n\n'입양' 명령으로 {PAWN_objective}를 입양하거나 {PAWN_objective} 무시하도록 선택할 수 있습니다.</RefugeePodCrashBaby>
@@ -212,6 +212,6 @@
   <!-- EN: Psychic bond -->
   <LetterPsychicBondCreatedLovinLabel>정신결속</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 유대감 있는 낭만적인 정신 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과의 정신결속을 통해 심리적으로 도움이 되지만, 서로 다른 세계 지점으로 떨어지게 되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreatedLovinText>
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}(은)는 {OTHERPAWN_nameDef}(와)과 정신적으로 묶인 낭만적 관계를 형성했습니다. {OTHERPAWN_nameDef}(은)는 {BONDPAWN_nameDef}(와)과의 정신결속을 통해 심리적으로 안정을 찾을 수 있지만, 두 명이 세계의 서로 다른 지역으로 나뉘게 되면 둘 다 정신적 스트레스를 받게 됩니다. 하나가 죽으면 다른 하나는 광기에 휩싸일 것입니다.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

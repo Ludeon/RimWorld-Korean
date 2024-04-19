@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: cold containment bonus -->
-  <ColdContainmentBonus.label>추운 억제 보너스</ColdContainmentBonus.label>
+  <ColdContainmentBonus.label>영하(온도) 억제 계수</ColdContainmentBonus.label>
   <!-- EN: This entity is less likely to escape if kept in a very cold room. -->
   <ColdContainmentBonus.description>이 실체를 아주 추운 방에 두면 탈출할 가능성이 더 낮습니다.</ColdContainmentBonus.description>
   
@@ -11,11 +11,11 @@
   <!-- EN: How securely this can contain an entity. This is improved by stronger walls and doors, more light, fewer other entities in the room, and special containment devices. Some entities are easier to contain in cold temperatures. -->
   <ContainmentStrength.description>실체를 확실히 억제할 수 있는 정도입니다. 강한 문과 벽, 더 많은 빛이 있고, 특수 억제 장치가 있으며 방 안에 다른 실체가 더 적을 때 향상됩니다. 일부 실체는 낮은 온도에서 억제하기 더 쉽습니다.</ContainmentStrength.description>
   <!-- EN: containment offset -->
-  <ContainmentStrength.offsetLabel>억제 오프셋</ContainmentStrength.offsetLabel>
+  <ContainmentStrength.offsetLabel>억제 영향 계수</ContainmentStrength.offsetLabel>
   
   <!-- EN: min containment strength -->
   <MinimumContainmentStrength.label>최소 억제력</MinimumContainmentStrength.label>
   <!-- EN: The containment strength needed to contain this entity properly. An entity in a chamber below its minimum containment strength will have a very high chance to escape. -->
-  <MinimumContainmentStrength.description>이 실체를 적절하게 억제하기 위해 필요한 억제력입니다. 최소 억제력 미만의 방에 있는 실체는 아주 높은 확률로 탈출할 겁니다.</MinimumContainmentStrength.description>
+  <MinimumContainmentStrength.description>이 실체를 적절하게 구속하기 위해 필요한 억제력입니다. 최소 억제력 미만의 방에 있는 실체는 아주 높은 확률로 탈출합니다.</MinimumContainmentStrength.description>
   
 </LanguageData>

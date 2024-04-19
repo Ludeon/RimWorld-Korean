@@ -16,8 +16,8 @@
   <HateChantersText>광신도 증오의 찬송을 외치는 자들이 도착했습니다. 그들은 증오의 찬송 의식을 행해 초정신적 분노를 정착민에 억지로 넣어 화나게 만들려고 합니다. 광신도를 멈추지 않으면 찬송은 점점 커질 것입니다.</HateChantersText>
   <!-- EN: Cultists attacking -->
   <HateChantersAttackingLabel>광신도 공격</HateChantersAttackingLabel>
-  <!-- EN: The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend. -->
-  <HateChantersAttackingText>광신도들이 증오의 찬송을 끝내고 의식 무아지경에서 나오기 시작했습니다.\n\n방어할 준비를 하세요.</HateChantersAttackingText>
+  <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
+  <HateChantersAttackingText>광신도들이 증오의 찬송을 끝내고, 의식으로 인한 무아지경에서 빠져나오기 시작했습니다.\n\n방어할 준비를 하세요.</HateChantersAttackingText>
 
   <!-- Psychic rituals -->
   <!-- EN: {0} complete -->
@@ -28,21 +28,21 @@
   <!-- EN: Prepare for what comes next. -->
   <VoidProvocationSucceeded>다음에 일어날 일에 대비하세요.</VoidProvocationSucceeded>
   <!-- EN: Unfortunately, your call has been left unanswered. -->
-  <VoidProvocationFailed>유감스럽게도, 당신의 외침은 대답을 듣지 못했습니다.</VoidProvocationFailed>
+  <VoidProvocationFailed>유감스럽게도, 당신의 부름은 응답받지 못했습니다.</VoidProvocationFailed>
   <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
   <VoidProvocationDarkPsychicShock>그 과정에서, {INVOKER_nameDef}(이)가 인간의 이해를 뛰어넘는 무언가를 얼핏 보았습니다. 초정신적 어둠이 {INVOKER_objective}에 충격을 주어 단기간의 혼수 상태에 빠져들게 했습니다.</VoidProvocationDarkPsychicShock>
   <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
   <PhilophagyCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}의 기술과 기억을 흡수하는 {RITUAL_definite} 의식을 완료했습니다.</PhilophagyCompleteText>
   <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
-  <PawnGainedXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1}XP를 얻었습니다</PawnGainedXPInSkill>
+  <PawnGainedXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1} 경험치를 얻었습니다</PawnGainedXPInSkill>
   <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
-  <PawnLostXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1}XP를 잃었습니다</PawnLostXPInSkill>
+  <PawnLostXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1} 경험치를 잃었습니다</PawnLostXPInSkill>
   <!-- EN: rising from skill level {0} to {1}. -->
-  <PhilophagySkillLevelGained>기술 레벨 {0}에서 {1}로 상승 중.</PhilophagySkillLevelGained>
+  <PhilophagySkillLevelGained>기술 등급 {0}에서 {1}로 상승 중.</PhilophagySkillLevelGained>
   <!-- EN: falling from skill level {0} to {1}. -->
-  <PhilophagySkillLevelLost>기술 레벨 {0}에서 {1}로 하강 중.</PhilophagySkillLevelLost>
+  <PhilophagySkillLevelLost>기술 등급 {0}에서 {1}로 하강 중.</PhilophagySkillLevelLost>
   <!-- EN: remaining at skill level {0}. -->
-  <PhilophagySkillLevelRemains>기술 레벨 {0}에서 머무름.</PhilophagySkillLevelRemains>
+  <PhilophagySkillLevelRemains>기술 등급 {0}에서 머무름.</PhilophagySkillLevelRemains>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   <PhilophagyDamagedTarget>그 과정은 {TARGET_nameDef}의 뇌를 손상시켜, {TARGET_objective}(을)를 혼수 상태에 빠지게 만들었습니다.</PhilophagyDamagedTarget>
 
@@ -105,7 +105,7 @@
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 살짐승이 땅에서 출현 중입니다!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}에 생체강철 주입을 끝냈습니다. 의식은 {TARGET_nameDef}의 정신을 왜곡하고 {TARGET_possessive}의 몸을 변형시켜, 구울이라고 알려진 무서운 생물을 만들었습니다. {INVOKER_nameDef}(은)는 {TARGET_nameDef}(와)과의 정신적 연결을 공유하며, {INVOKER_objective}(이)가 {TARGET_nameDef}(을)를 조종할 수 있게 합니다.\n\n구울은 생존하기 위해 생고기를 먹습니다. 구울이 배고파지면, 적대적으로 변합니다.</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}에 실체강 주입을 끝냈습니다. 의식은 {TARGET_nameDef}의 정신을 왜곡하고 {TARGET_possessive}의 몸을 변형시켜, 구울이라고 알려진 무서운 생물을 만들었습니다. {INVOKER_nameDef}(은)는 {TARGET_nameDef}(와)과의 정신적 연결을 공유하며, {INVOKER_objective}(이)가 {TARGET_nameDef}(을)를 조종할 수 있게 합니다.\n\n구울은 생존하기 위해 생고기를 먹습니다. 구울이 배고파지면, 적대적으로 변합니다.</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>그들이 의식을 여러 차례 행할 수 있습니다. 그들을 멈춰야 합니다.</AttackersMayCastRitualMultipleTimes>
@@ -140,9 +140,9 @@
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
   <VoidAwakeningFleshbeastBurrowText>모노리스가 강력한 정신파동을 생성해, 근처 실체를 끌어들였습니다.\n\n땅 아래에서, 고기의 비명과 할퀴어대는 발톱 소리가 들립니다. 살짐승이 당신을 향해 굴을 뚫고 있습니다. 준비하세요!</VoidAwakeningFleshbeastBurrowText>
   <!-- EN: Metalhorror attack -->
-  <VoidAwakeningMetalhorrorArrivalLabel>메탈호러 공격</VoidAwakeningMetalhorrorArrivalLabel>
+  <VoidAwakeningMetalhorrorArrivalLabel>기생철충 공격</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
-  <VoidAwakeningMetalhorrorArrivalText>메탈호러가 공허 모노리스 근처에서 나타나고 있습니다. 준비하세요!</VoidAwakeningMetalhorrorArrivalText>
+  <VoidAwakeningMetalhorrorArrivalText>기생철충이 공허 모노리스 근처에서 나타나고 있습니다. 준비하세요!</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
   <VoidAwakeningEntityArrivalLabel>실체 공격</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
@@ -150,7 +150,7 @@
   <!-- EN: Embrace the void -->
   <VoidAwakeningBreadcrumbLetterLabel>공허를 받아들이기</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
-  <VoidAwakeningBreadcrumbLetterText>공허 구조물과 상호작용하는 동안, {PAWN_nameDef}(이)가 공허의 환영을 봤습니다. 잠깐 동안 끝없이 깊은 검은 바다를 수영했고 그 끝없는 비인간적인 힘을 느꼈습니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들여 그 힘을 통제할 방법이 있을 수도 있다고 생각합니다. 공허로의 도관을 닫지 않고 영구적으로 연다면, 말로 다할 수 없는 가능성이 생길 수 있습니다.</VoidAwakeningBreadcrumbLetterText>
+  <VoidAwakeningBreadcrumbLetterText>공허 구조물과 상호작용하는 동안, {PAWN_nameDef}(이)가 공허의 환영을 봤습니다. 잠깐 동안 끝없이 깊은 검은 바다를 수영했고 그 끝없는 비인간적인 힘을 느꼈습니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들여 그 힘을 통제할 방법이 있을 수도 있다고 생각합니다. 공허로의 통로를 닫지 않고 영구적으로 연다면, 말로 다할 수 없는 가능성이 생길 수 있습니다.</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
   <!-- EN: {PAWN_nameDef} returns -->
@@ -170,9 +170,9 @@
 
   <!-- Duplicate sickness -->
   <!-- EN: Duplicate sickness -->
-  <DuplicateSicknessLabel>복사본 후유증</DuplicateSicknessLabel>
+  <DuplicateSicknessLabel>복제본 후유증</DuplicateSicknessLabel>
   <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
-  <DuplicateSicknessText>{0_nameDef}(와)과 {0_possessive} 복사본의 상태가 좋지 않습니다. 그들의 상태는 복사 과정과 연관이 있어 보이며 악화되고 있습니다. 그들을 묶는 저신적 교감은 그들이 천천히 의식을 잃게 만듭니다. 그들 중 하나가 죽기 전까지는 상태가 나아지지 않을 겁니다.</DuplicateSicknessText>
+  <DuplicateSicknessText>{0_nameDef}(와)과 {0_possessive} 복제본 모두 상태가 좋지 않습니다. 그들의 상태는 복제 과정과 연관이 있어 보이며 악화되고 있습니다. 서로를 묶는 정신적 교감 때문에 의식을 천천히 잃어 가며, 그들 중 하나가 죽기 전까지는 상태가 나아지지 않을 것입니다.</DuplicateSicknessText>
 
   <!-- Frenzied animals -->
   <!-- EN: Frenzied animals -->
@@ -190,7 +190,7 @@
   <!-- EN: Distress signal -->
   <DistressSignalLabel>조난 신호</DistressSignalLabel>
   <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
-  <DistressSignalText>{FACTION_name}의 근처 야영지에서 조난 신호를 도청했습니다.\n\n제정신이 아닌 목소리로 위협에서 보호해달라는 즉각적인 도움을 요청하고 있습니다. 그들은 도움의 대가로 강력한 초월공학 조각을 포함한, 야영지의 뭐든 주겠다고 합니다.\n\n목소리의 주인이 어떤 위협을 받고 있는지 설명하려고 하자, 신호가 끊어집니다.</DistressSignalText>
+  <DistressSignalText>근처의 {FACTION_name} 야영지에서 조난 신호가 들어왔습니다.\n\n상대는 제정신이 아닌 듯 횡설수설하며 즉각적인 도움을 요청하고 있습니다. 또한 그 대가로 강력한 초월공학 파편을 포함해 야영지의 어떤 재산이든 주겠다고 약속합니다.\n\n야영지가 어떤 위협을 받고 있는지 상대가 설명하기 직전, 신호가 끊어집니다.</DistressSignalText>
   <!-- EN: Ambush -->
   <DistressSignalAmbushLabel>매복</DistressSignalAmbushLabel>
   <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
@@ -254,25 +254,25 @@
 
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
-  <NociosphereDefeatedLabel>노셔스피어 파괴됨</NociosphereDefeatedLabel>
+  <NociosphereDefeatedLabel>고통구체 파괴됨</NociosphereDefeatedLabel>
   <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
-  <NociosphereDefeatedText>노셔스피어이 파괴되며, 많은 귀중한 자원을 뒤에 남겼습니다.</NociosphereDefeatedText>
+  <NociosphereDefeatedText>고통구체가 파괴되며, 많은 귀중한 자원을 뒤에 남겼습니다.</NociosphereDefeatedText>
   <!-- EN: Nociosphere destabilising -->
-  <NociosphereBecomingUnstableLabel>불안정한 노셔스피어</NociosphereBecomingUnstableLabel> 
+  <NociosphereBecomingUnstableLabel>불안정한 고통구체</NociosphereBecomingUnstableLabel> 
   <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
-  <NociosphereBecomingUnstableText>노셔스피어의 에너지 패턴이 변화하고 조정되기 시작했습니다. 10일 내면, 더 이상 억제에 반응하지 않을 겁니다.\n\n노셔스피어은 억제되지 않으면 활성화될 겁니다.</NociosphereBecomingUnstableText> 
+  <NociosphereBecomingUnstableText>고통구체의 에너지 패턴이 변화하고 조정되기 시작했습니다. 10일 내면, 더 이상 억제에 반응하지 않을 겁니다.\n\n고통구체은 억제되지 않으면 활성화될 겁니다.</NociosphereBecomingUnstableText> 
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereBecomingUnstableTextExtraSendable>노셔스피어이 거대한 적대적 힘을 공격하도록 보내 노셔스피어을 처리하세요. 노셔스피어의 맹습이 끝나면, 영원히 끝날 겁니다.</NociosphereBecomingUnstableTextExtraSendable>
+  <NociosphereBecomingUnstableTextExtraSendable>대규모 적대 세력에 고통구체를 보내어 처치하세요. 맹습을 완료하면 영구적으로 이탈합니다.</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
-  <NociosphereBecomingUnstableTextExtraNotSendable>노셔스피어을 연구해 처리할 방법을 찾으세요.</NociosphereBecomingUnstableTextExtraNotSendable>
+  <NociosphereBecomingUnstableTextExtraNotSendable>고통구체를 연구해 처리할 방법을 찾으세요.</NociosphereBecomingUnstableTextExtraNotSendable>
   <!-- EN: Nociosphere unstable -->
-  <NociosphereUnstableLabel>노셔스피어 불안정함</NociosphereUnstableLabel>
+  <NociosphereUnstableLabel>고통구체 불안정함</NociosphereUnstableLabel>
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
-  <NociosphereUnstableText>노셔스피어이 불안정해져 억제에 더 이상 반응하지 않습니다. 노셔스피어의 활동이 100%에 도달하면, 깨어날 겁니다.</NociosphereUnstableText>
+  <NociosphereUnstableText>고통구체가 불안정해져 억제에 더 이상 반응하지 않습니다. 고통구체의 활동이 100%에 도달하면 깨어날 겁니다.</NociosphereUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereUnstableTextExtraSendable>노셔스피어이 거대한 적대적 힘을 공격하도록 보내 노셔스피어을 처리하세요. 노셔스피어의 맹습이 끝나면, 영원히 끝날 겁니다.</NociosphereUnstableTextExtraSendable> 
+  <NociosphereUnstableTextExtraSendable>대규모 적대 세력에 고통구체를 보내어 처치하세요. 맹습을 완료하면 영구적으로 이탈합니다.</NociosphereUnstableTextExtraSendable> 
   <!-- EN: Prepare for the nociosphere’s onslaught. -->
-  <NociosphereUnstableTextExtraNotSendable>노셔스피어의 맹습에 대비하세요.</NociosphereUnstableTextExtraNotSendable>
+  <NociosphereUnstableTextExtraNotSendable>고통구체의 맹습에 대비하세요.</NociosphereUnstableTextExtraNotSendable>
 
   <!-- EN: Strange corpse -->
   <UnnaturalCorpseArrivalLabel>이상한 시체</UnnaturalCorpseArrivalLabel>
@@ -287,8 +287,8 @@
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>공허 호기심</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강철 수확기에 연결해 생체강철을 생성할 수 있습니다.\n\n초정신 의식 장소를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 실체강 수확기에 연결해 실체강을 생성할 수 있습니다.\n\n초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 도발 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 도발 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강철 수확기에 연결해 생체강철을 생성할 수 있습니다.\n\n공허 도발을 연구하고, 초정신 의식 장소를 배치해 공허 도발 의식을 행하세요.</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 실체강 수확기에 연결해 실체강을 생성할 수 있습니다.\n\n공허 소환을 연구하고, 초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_NotResearched>
 
 </LanguageData>

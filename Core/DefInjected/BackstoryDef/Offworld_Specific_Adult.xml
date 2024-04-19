@@ -9,14 +9,14 @@
   <Castaway57.titleShort>조난자</Castaway57.titleShort>
   
   <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]'s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
-  <CaveworldIlluminator95.description>땅굴 거주자 중에서도 {PAWN_nameDef}만큼 시력이 강한 사람은 현자로 존경받습니다. {PAWN_pronoun}는 맨 앞에서 길을 인도하면서 발광 곰팡이로 위험한 지점을 경고했습니다.</CaveworldIlluminator95.description>
+  <CaveworldIlluminator95.description>땅굴 거주자 중에서도 {PAWN_nameDef}만큼 시력이 강한 사람은 현자로 존경받습니다. {PAWN_nameDef}(은)는 앞장서서 길을 인도하며 땅굴을 파야 할 위치를 발광 곰팡이로 표시하고, 위험이 가까워지면 먼저 경고했습니다.</CaveworldIlluminator95.description>
   <!-- EN: caveworld illuminator -->
-  <CaveworldIlluminator95.title>동굴계 인도자</CaveworldIlluminator95.title>
+  <CaveworldIlluminator95.title>동굴계 빛길잡이</CaveworldIlluminator95.title>
   <!-- EN: illuminator -->
-  <CaveworldIlluminator95.titleShort>인도자</CaveworldIlluminator95.titleShort>
+  <CaveworldIlluminator95.titleShort>빛길잡이</CaveworldIlluminator95.titleShort>
   
   <!-- EN: [PAWN_nameDef] was a settler on a new colony world.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks. -->
-  <ColonySettler53.description>{PAWN_nameDef}(은)는 새로운 세계의 정착민이었습니다.\n\n이런 인생을 살려면 모든 기본적인 기술에 익숙해야 합니다.</ColonySettler53.description>
+  <ColonySettler53.description>{PAWN_nameDef}(은)는 새로 개척한 행성의 정착민이었습니다.\n\n새로운 행성에서 정착민으로 살아가려면 실용적인 기술에 두루 능통해야 합니다.</ColonySettler53.description>
   <!-- EN: colony settler -->
   <ColonySettler53.title>정착민</ColonySettler53.title>
   <!-- EN: settler -->
@@ -48,7 +48,7 @@
   <!-- EN: joywire artist -->
   <JoywireArtist8.title>쾌락회로 예술가</JoywireArtist8.title>
   <!-- EN: joywirer -->
-  <JoywireArtist8.titleShort>쾌락회로가</JoywireArtist8.titleShort>
+  <JoywireArtist8.titleShort>회로 편집자</JoywireArtist8.titleShort>
   
   <!-- EN: [PAWN_nameDef] was a high-ranking member of an urbworld crime syndicate.\n\n[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary. -->
   <MafiaBoss17.description>{PAWN_nameDef}(은)는 도시계 범죄 조직의 고위 간부였습니다.\n\n{PAWN_pronoun}는 공무원들에게는 뇌물을 먹이고, 부하들의 충성심을 관리하고, 필요한 방법은 모두 동원해서 연체된 납부금을 뜯어냈습니다.</MafiaBoss17.description>
@@ -58,21 +58,21 @@
   <MafiaBoss17.titleShort>두목</MafiaBoss17.titleShort>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] adult life in an insane asylum. [PAWN_possessive] industrial homeworld had a poor understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a person.\n\nThough [PAWN_pronoun] eventually recovered and was released, [PAWN_possessive] experience dampened many of [PAWN_possessive] basic life skills. -->
-  <PsychiatricPatient94.description>{PAWN_nameDef}(은)는 성인이 된 후 대부분의 시간을 정신 병동에서 보냈습니다. {PAWN_possessive} 고향 산업계 행성에서는 정신질환에 대한 이해가 부족했기 때문에 {PAWN_pronoun}는 사람보다 동물에 가까운 취급을 받았습니다.\n\n{PAWN_pronoun}는 결국 완쾌돼 석방되긴 했지만, 폐쇄적 환경에서 너무 오랜 시간을 살아서 기본적인 생활력이 매우 부족합니다.</PsychiatricPatient94.description>
+  <PsychiatricPatient94.description>{PAWN_nameDef}(은)는 성인이 된 후 대부분의 시간을 정신 병동에서 보냈습니다. {PAWN_possessive} 고향 산업계 행성에서는 정신질환에 대한 이해가 부족했고, 사람보다는 동물에 가까운 취급을 받아야 했습니다.\n\n{PAWN_nameDef}는 결국 완쾌해 퇴원하긴 했지만, 폐쇄적 환경에서 너무 오랜 시간을 살아서 기본적인 생활력이 매우 부족합니다.</PsychiatricPatient94.description>
   <!-- EN: psychiatric patient -->
   <PsychiatricPatient94.title>정신병자</PsychiatricPatient94.title>
   <!-- EN: patient -->
   <PsychiatricPatient94.titleShort>정신병자</PsychiatricPatient94.titleShort>
   
   <!-- EN: [PAWN_nameDef] was the law enforcer in an isolated industrial town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout. -->
-  <Sheriff52.description>{PAWN_nameDef}(은)는 외딴 산업 도시의 보안관이었습니다. {PAWN_pronoun}는 사소한 범죄들과 각종 분쟁들 그리고 술집에서 가끔 발생하는 총기 난사 사건을 처리했습니다.</Sheriff52.description>
+  <Sheriff52.description>{PAWN_nameDef}(은)는 외딴 산업 도시의 보안관으로서 사소한 범죄들과 각종 분쟁, 가끔 발생하는 취객의 술집 총기 난사를 처리했습니다.</Sheriff52.description>
   <!-- EN: sheriff -->
   <Sheriff52.title>보안관</Sheriff52.title>
   <!-- EN: sheriff -->
   <Sheriff52.titleShort>보안관</Sheriff52.titleShort>
   
   <!-- EN: [PAWN_nameDef] joined the space navy in an unstable system, fraught with large-scale interplanetary wars. [PAWN_pronoun] turned out to have a sharp mind for battle, and became adept at commanding combat units to great effect. -->
-  <SpaceTactician28.description>{PAWN_nameDef}(은)는 행성 간에 발생한 대규모 전쟁으로 불안정해진 항성계에서 우주 해병에 입대했습니다. {PAWN_pronoun}의 전투 감각이 타고났다는 사실은 곧 밝혀졌고, 부대원들을 능숙하게 다룰 수 있게 됐습니다.</SpaceTactician28.description>
+  <SpaceTactician28.description>{PAWN_nameDef}(은)는 행성 간 대규모 전쟁으로 불안정해진 항성계에서 우주 해병에 입대했고, 얼마 지나지 않아 타고난 전투 감각이 밝혀졌습니다. {PAWN_nameDef}(은)는 전투 부대를 능숙하게 지휘하여 큰 성과를 거두게 되었습니다.</SpaceTactician28.description>
   <!-- EN: space tactician -->
   <SpaceTactician28.title>우주 전술가</SpaceTactician28.title>
   <!-- EN: tactician -->
@@ -81,12 +81,12 @@
   <!-- EN: While other passengers pass the years between star systems in cryptosleep sarcophagi, [PAWN_nameDef] had to wake up at periodic intervals to perform inspections, check the navigation systems, and to oil the mechanoids. -->
   <StarshipJanitor33.description>다른 여행객들이 동면관 안에서 오랜 기간 잠든 상태로 우주를 항해하는 동안, {PAWN_nameDef}(은)는 주기적으로 깨어나 우주선을 점검하고, 운항 시스템을 확인하고, 메카노이드에 윤활유를 발랐습니다.</StarshipJanitor33.description>
   <!-- EN: starship janitor -->
-  <StarshipJanitor33.title>우주선 관리자</StarshipJanitor33.title>
+  <StarshipJanitor33.title>우주선 관리인</StarshipJanitor33.title>
   <!-- EN: janitor -->
   <StarshipJanitor33.titleShort>관리인</StarshipJanitor33.titleShort>
   
   <!-- EN: [PAWN_nameDef] traveled between star systems, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue. -->
-  <Taxonomist0.description>{PAWN_nameDef}(은)는 여러 행성들을 여행하면서, 완벽한 분류학 서적을 만들기 위하여 여러 동식물의 삶을 연구했습니다.</Taxonomist0.description>
+  <Taxonomist0.description>{PAWN_nameDef}(은)는 여러 성계를 여행하면서 여러 동식물의 삶을 연구하고 분류 했습니다. {PAWN_pronoun}는 이 분류 체계를 완성하고 싶어 합니다.</Taxonomist0.description>
   <!-- EN: taxonomist -->
   <Taxonomist0.title>분류학자</Taxonomist0.title>
   <!-- EN: taxonomist -->

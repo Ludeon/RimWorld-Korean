@@ -5,7 +5,7 @@
   <!-- EN: Any mechanitor -->
   <AnyMechanitor>모든 메카나이터</AnyMechanitor>
   <!-- EN: Summoning the {LEADERKIND_label} threat will summon the following hostile mechanoids:\n\n{PAWNS}\n\nThe mechanoids will arrive in the next few hours or days. Are you ready to fight? -->
-  <BossgroupWarningDialog>{LEADERKIND_label} 위협을 호출하면 다음 메카노이드를 호출합니다:\n\n{PAWNS}\n\n메카노이드들은 수 시간에서 며칠의 시간 뒤에 도착합니다. 싸울 준비가 되셨습니까?</BossgroupWarningDialog>
+  <BossgroupWarningDialog>{LEADERKIND_label} 위협을 호출하면 다음 메카노이드를 호출합니다.\n\n{PAWNS}\n\n메카노이드들은 수 시간에서 며칠의 시간 뒤에 도착합니다. 전투 준비를 끝내셨나요?</BossgroupWarningDialog>
   <!-- EN: {PAWN_labelShort} is downed. -->
   <MechControllerDowned>{PAWN_labelShort}(은)는 쓰러졌습니다.</MechControllerDowned>
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
@@ -13,7 +13,7 @@
   <!-- EN: {PAWN_labelShort} is inside {CONTAINER} -->
   <MechControllerInsideContainer>{PAWN_labelShort}(은)는 {CONTAINER} 안에 있음</MechControllerInsideContainer>
   <!-- EN: {PAWN_labelShort} has insufficient bandwidth -->
-  <MechControllerInsufficientBandwidth>{PAWN_labelShort}의 대역폭이 충분하지 않습니다.</MechControllerInsufficientBandwidth>
+  <MechControllerInsufficientBandwidth>{PAWN_labelShort}의 대역폭이 충분하지 않음</MechControllerInsufficientBandwidth>
   <!-- EN: {PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state. -->
   <MechControllerMentalState>{PAWN_labelShort}(은)는 다음 정신 이상상태에 있습니다: {MENTALSTATE_label}</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
@@ -25,7 +25,7 @@
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>대역폭 부족</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
-  <MechanitorLeftMapWithoutMechs>해당 기계는 {PAWN_labelShort}에 의해 남겨졌습니다:\n\n{MECHS}\n\n기계는 회수될 때까지 여기에 남아 있습니다.\n\n그들이 지도에서 {PAWN_labelShort}(을)를 따라갈 수 있도록 작업 모드를 호위로 설정하시겠습니까?</MechanitorLeftMapWithoutMechs>
+  <MechanitorLeftMapWithoutMechs>{PAWN_labelShort}(이)가 다음 메카노이드를 남기고 떠났습니다.\n\n{MECHS}\n\n메카노이드들은 회수할 때까지 여기에 남아 있습니다.\n\n메카노이드들이 {PAWN_labelShort}(을)를 따라서 지역을 이탈하도록 호위 작업 모드로 설정하시겠습니까?</MechanitorLeftMapWithoutMechs>
 
   <!-- Apparel -->
   <!-- EN: Any mechlord apparel -->
@@ -63,13 +63,13 @@
   <!-- EN: No genepacks -->
   <NoGenePacks>유전자묶음 없음</NoGenePacks>
   <!-- EN: Start combining -->
-  <StartCombining>유전자 조합 시작</StartCombining>
+  <StartCombining>조합 시작</StartCombining>
   <!-- EN: Selected genepacks -->
   <SelectedGenepacks>선택된 유전자묶음</SelectedGenepacks>
   <!-- EN: Genepack library -->
   <GenepackLibrary>저장된 유전자묶음</GenepackLibrary>
   <!-- EN: Click to add or remove -->
-  <ClickToAddOrRemove>추가 또는 제거하려면 클릭하세요.</ClickToAddOrRemove>
+  <ClickToAddOrRemove>클릭해서 추가 또는 제거</ClickToAddOrRemove>
   <!-- EN: Click to add -->
   <ClickToAdd>클릭해서 추가</ClickToAdd>
   <!-- EN: Click to remove -->
@@ -77,11 +77,11 @@
   <!-- EN: Select xenogerm -->
   <SelectXenogerm>변형이식체 선택</SelectXenogerm>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <WarningPawnWillDieFromReimplanting>경고: {PAWN_nameDef}의 유전자가 재성장중 입니다. {PAWN_possessive} 유전자가 완전히 재성장 되기 전에 변형이식체를 심게 되면 {PAWN_pronoun}는 죽습니다.\n\n계속하시겠습니까?</WarningPawnWillDieFromReimplanting>
+  <WarningPawnWillDieFromReimplanting>경고: {PAWN_nameDef}의 유전자가 재성장 중 입니다. 유전자가 완전히 성장하기 전에 변형이식체를 심게 되면 {PAWN_nameDef}(은)는 죽습니다.\n\n정말 계속하시겠습니까?</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
   <NotEnoughArchites>초월입자 캡슐이 부족합니다.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
-  <XenogenesDesc>변형인자는 변형이식체에서 나오는 유전자 입니다. 변형이식체가 제거되거나 교체되면 변형인자 또한 사라집니다. 변형인자는 생식유전정보의 일부가 아니기에 그 후손에게 물려줄 수 없습니다.</XenogenesDesc>
+  <XenogenesDesc>변형인자는 변형이식체에서 나오는 유전자 입니다. 변형이식체가 제거되거나 교체되면 변형인자 또한 사라집니다. 변형인자는 생식 유전정보의 일부가 아니기에 후손에게 물려줄 수 없습니다.</XenogenesDesc>
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
   <EndogenesDesc>생식성 유전자는 유기체 신체의 모든 세포에 존재하며, 외부적 요인이 필요하지 않는 자연적으로 이어지는 유전자입니다. 해당 유전자는 부모에서 자식으로 전해집니다.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
@@ -290,7 +290,7 @@
   <PawnIsDead>{PAWN_nameDef}(은)는 죽었습니다.</PawnIsDead>
 
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
-  <PsychicBondDistanceWillBeActive_Cryptosleep>{PAWN_nameDef}(을)를 동면장치에 넣으면 {BOND_nameDef}(와)과 {PAWN_possessive} 정신적 유대에 지장이 생겨 두 사람 모두에게 스트레스를 줍니다.\n\n계속하시겠습니까?</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Cryptosleep>{PAWN_nameDef}(을)를 동면장치에 넣으면 {BOND_nameDef}(와)과의 정신결속에 지장이 생겨 두 사람 모두가 스트레스를 받습니다.\n\n정말 계속하시겠습니까?</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
   <PsychicBondDistanceWillBeActive_Caravan>이 상단에 정신결속으로 이어진 사람의 대상이 포함되어있지 않습니다. 정신결속된 사람들은 거리가 멀어지게되면 스트레스를 받게됩니다.</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->

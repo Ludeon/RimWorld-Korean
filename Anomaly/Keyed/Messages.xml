@@ -23,7 +23,7 @@
 
   <!-- Pit Gate -->
   <!-- EN: The pit gate has collapsed. -->
-  <MessagePitGateCollapsed>구덩이 문이 붕괴했습니다.</MessagePitGateCollapsed>
+  <MessagePitGateCollapsed>지하 통로가 붕괴했습니다.</MessagePitGateCollapsed>
   <!-- EN: A pit burrow has collapsed. -->
   <MessagePitBurrowCollapsed>구덩이 굴이 붕괴했습니다.</MessagePitBurrowCollapsed>
 
@@ -45,9 +45,9 @@
 
   <!-- Containment -->
   <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>경고: {0}(을)를 위한 최소한의 억제력을 가진 방이 없습니다. 곧 탈출할 겁니다.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageNoRoomWithMinimumContainmentStrength>경고: {0}(을)를 위한 최소한의 억제력을 가진 방이 없습니다. 곧 탈출할 것입니다.</MessageNoRoomWithMinimumContainmentStrength>
   <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
-  <MessageTargetBelowMinimumContainmentStrength>경고: {0}(은)는 {1}의 최소 억제력보다 낮습니다. 곧 탈출할 겁니다.</MessageTargetBelowMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>경고: {0}(은)는 {1}의 최소 억제력보다 낮습니다. 곧 탈출할 것입니다.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
   <MessageHolderReserved>다른 사람에게 예약된 {0}(을)를 이전할 수 없습니다.</MessageHolderReserved>
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
@@ -61,11 +61,11 @@
   
   <!-- Duplicator obelisk -->
   <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
-  <MessageHostileDuplicate>{0_nameDef}의 적대적인 복사본이 나타났습니다.</MessageHostileDuplicate>
+  <MessageHostileDuplicate>{0_nameDef}의 적대적인 복제본이 나타났습니다.</MessageHostileDuplicate>
   
   <!-- Proximity detector -->
   <!-- EN: A proximity detector has detected an invisible creature. -->
-  <MessageProximityDetectorTriggered>근접 탐지기가 보이지 않는 생물을 감지했습니다.</MessageProximityDetectorTriggered>
+  <MessageProximityDetectorTriggered>접근 탐지기가 보이지 않는 생물을 감지했습니다.</MessageProximityDetectorTriggered>
   
   <!-- Unnatural darkness --> 
   <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
@@ -82,11 +82,11 @@
   <MessageCannotUseOnNonBleeder>{ABILITY_label}(은)는 피를 흘리지 않는 생물에 쓸 수 없습니다.</MessageCannotUseOnNonBleeder>
   
   <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
-  <MessageFingerspikeDisturbed>{WAKER_nameDef}(이)가 핑거스파이크를 하나 건드렸습니다.</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbed>{WAKER_nameDef}(이)가 쐐기촉수를 하나 건드렸습니다.</MessageFingerspikeDisturbed>
   <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}(이)가 핑거스파이크를 여럿 건드렸습니다.</MessageFingerspikeDisturbedPlural>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}(이)가 쐐기촉수를 여럿 건드렸습니다.</MessageFingerspikeDisturbedPlural>
 
   <!-- EN: The death pall has resurrected {0_indefinite}. -->
-  <DeathPallResurrectedMessage>죽음의 천이 {0_indefinite}(을)를 부활시켰습니다.</DeathPallResurrectedMessage>
+  <DeathPallResurrectedMessage>잿빛안개가 {0_indefinite}(을)를 부활시켰습니다.</DeathPallResurrectedMessage>
   
 </LanguageData>

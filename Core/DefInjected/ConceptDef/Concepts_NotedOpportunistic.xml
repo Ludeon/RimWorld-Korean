@@ -75,16 +75,16 @@
   <OpeningComms.helpTextController>정착민을 선택한 후 통신 콘솔 위에서 왼쪽 트리거를 사용해 통신할 수 있습니다.</OpeningComms.helpTextController>
   
   <!-- EN: Prisoner tab -->
-  <PrisonerTab.label>수감자 관리</PrisonerTab.label>
+  <PrisonerTab.label>수감자 탭</PrisonerTab.label>
   <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner. -->
   <PrisonerTab.helpText>수감자 탭에서 대상의 처우를 정할 수 있습니다.\n\n포섭 시도나 무시 또는 처형할 수 있고, 어떤 치료를 받을지도 정할 수 있습니다. 수감자의 건강 탭에서 음식 정책을 설정할 수 있습니다.\n\n간수 작업을 할당 받은 정착민만 수감자와 상호작용할 수 있습니다.</PrisonerTab.helpText>
   
   <!-- EN: Order queueing -->
   <QueueOrders.label>명령 대기열</QueueOrders.label>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
-  <QueueOrders.helpText>정착민에게 명령을 내릴 때 "shift"를 누른 상태로 여러 명령을 대기열에 넣을 수 있습니다. 할 일이 없는 정착민에게 일을 시킬 때 유용합니다.</QueueOrders.helpText>
+  <QueueOrders.helpText>정착민에게 명령을 내릴 때 "shift"를 누르고 유지하면 여러 개의 명령을 대기열에 추가할 수 있습니다. 소집하지 않은 정착민에게 작업을 할당할 때도 쓸 수 있습니다.</QueueOrders.helpText>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns. -->
-  <QueueOrders.helpTextController>정착민에게 명령을 내릴 때 {Key:QueueOrder}(을)를 누른 상태로 여러 명령을 대기열에 넣을 수 있습니다. 할 일이 없는 정착민에게 일을 시킬 때 유용합니다.</QueueOrders.helpTextController>
+  <QueueOrders.helpTextController>정착민에게 명령을 내릴 때 {Key:QueueOrder}(을)를 누르고 유지하면 여러 개의 명령을 대기열에 추가할 수 있습니다. 소집하지 않은 정착민에게 작업을 할당할 때도 쓸 수 있습니다.</QueueOrders.helpTextController>
   
   <!-- EN: Reforming caravans -->
   <ReformCaravan.label>상단 재구성</ReformCaravan.label>
@@ -106,12 +106,12 @@
   <!-- EN: Shelves -->
   <Shelves.label>선반</Shelves.label>
   <!-- EN: Shelves store three times as much as empty ground. Items on shelves will also never deteriorate and don't affect the beauty of their surroundings.\n\nYou can link shelves into groups and configure them as one. First, select two or more shelves, then click 'Link storage settings'. -->
-  <Shelves.helpText>선반에는 맨 땅의 세 배에 달하는 물품을 보관할 수 있습니다. 선반에 보관한 물건은 절대 손상되지 않고 주변 미관에도 영향을 주지 않습니다.\n\n여러 개의 선반을 그룹으로 묶어서 한꺼번에 설정할 수 있습니다. 우선 두 개 이상의 선반을 선택하고, '보관 설정 연결'을 클릭하세요.</Shelves.helpText>
+  <Shelves.helpText>선반에는 맨땅의 세 배에 달하는 물품을 보관할 수 있습니다. 선반에 보관한 물건은 절대 손상되지 않고 주변 미관에도 영향을 주지 않습니다.\n\n여러 개의 선반을 그룹으로 묶어서 한꺼번에 설정할 수 있습니다. 우선 두 개 이상의 선반을 선택하고, '보관 설정 연결'을 클릭하세요.</Shelves.helpText>
   
   <!-- EN: Shield belts -->
-  <ShieldBelts.label>방어 벨트</ShieldBelts.label>
+  <ShieldBelts.label>보호막 벨트</ShieldBelts.label>
   <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
-  <ShieldBelts.helpText>방어 벨트의 보호막은 드나드는 모든 원거리 공격을 방어합니다. 근접 공격에는 소용이 없습니다.\n\n방어 벨트를 장착한 적에 맞서려면 화력을 집중하거나 근접전을 벌이세요.</ShieldBelts.helpText>
+  <ShieldBelts.helpText>보호막 벨트는 드나드는 모든 원거리 공격을 막습니다. 근접 공격에는 소용이 없습니다.\n\n보호막 벨트를 장착한 적에 맞서려면 화력을 집중하거나 근접전을 벌이세요.</ShieldBelts.helpText>
   
   <!-- EN: TV for sick people -->
   <TVForSickPeople.label>병실 TV</TVForSickPeople.label>

@@ -227,7 +227,7 @@
   <!-- EN: shields -->
   <ShieldBelt.label>보호막</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary. -->
-  <ShieldBelt.description>원거리 투사체를 막는 휴대용 보호막 발생 장치를 만들 수 있습니다.</ShieldBelt.description>
+  <ShieldBelt.description>장착형 보호막 발생 장치를 만들 수 있습니다. 보호막은 관성 반발 기술을 사용해 투사체가 경계를 넘을 수 없도록 합니다.</ShieldBelt.description>
   <!-- EN:
     <li>subject->personal shielding</li>
     <li>subject_story->survived an assassination attempt, thanks to a prototype shield</li>
@@ -237,9 +237,9 @@
   -->
   <ShieldBelt.generalRules.rulesStrings>
     <li>subject->개인 보호막</li>
-    <li>subject_story->견본 방패 덕분에 암살 시도에서 살아남았습니다</li>
-    <li>subject_story->숨겨진 추진력 리펠러를 사용하여 당구장에서 이겼습니다</li>
-    <li>subject_story->방패를 피해서 여유있게 칼을 휘둘러 적을 죽였습니다</li>
+    <li>subject_story->보호막 시제품 덕분에 암살 시도에서 살아남았습니다</li>
+    <li>subject_story->숨겨놓은 관성 반발기를 사용해 당구에서 이겼습니다</li>
+    <li>subject_story->보호막을 뚫을 수 있을 정도로 충분히 힘을 주어 칼을 휘둘러서 적을 죽였습니다</li>
     <li>subject_gerund->개인용 보호막 투사기 제작</li>
   </ShieldBelt.generalRules.rulesStrings>
   

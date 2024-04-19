@@ -43,7 +43,7 @@
   <!-- EN: corpse torment -->
   <CorpseTorment.label>시체 고문</CorpseTorment.label>
   <!-- EN: This person shares a psychic link with a corpse that appears to be their exact duplicate. They have done something to anger it, causing them to fall unconscious. -->
-  <CorpseTorment.description>이 사람은 동일한 복사본으로 보이는 시체와 정신적으로 연결돼 있습니다. 그는 시체를 화나게 한 행동을 하여 무의식 상태에 빠졌습니다.</CorpseTorment.description>
+  <CorpseTorment.description>이 사람은 동일한 복제본으로 보이는 시체와 정신적으로 연결돼 있습니다. 그는 시체를 화나게 한 행동을 하여 무의식 상태에 빠졌습니다.</CorpseTorment.description>
   
   <!-- EN: crumbled mind -->
   <CrumbledMind.label>허물어진 정신</CrumbledMind.label>
@@ -65,7 +65,7 @@
   
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedCreepjoiner.label>허물어지는 정신</CrumblingMindUndiagnosedCreepjoiner.label>
-  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
   <CrumblingMindUndiagnosedCreepjoiner.description>이 사람의 정신이 급속도로 무너지고 있습니다. 며칠 내에, 이 사람은 대부분의 작업을 할 수 없게 됩니다. 회복 혈청 같은 충분한 기술이 있으면 상태를 역전할 수 있습니다. 그러나 곧 영구적인 상태가 됩니다.</CrumblingMindUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(이)가 곧 중증 정신 저하를 일으킬 수 있는 심각한 상태의 조기 조짐을 보이고 있습니다. {SURGEON_nameDef}(은)는 이 상태의 원인을 아직 정확히 알 수 없지만, {PAWN_nameShort}(은)는 며칠 내에 매우 아픈 상태가 될 것입니다.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
@@ -78,7 +78,7 @@
   
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedDuplication.label>허물어지는 정신</CrumblingMindUndiagnosedDuplication.label>
-  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
   <CrumblingMindUndiagnosedDuplication.description>이 사람의 정신이 급속도로 무너지고 있습니다. 며칠 내에, 이 사람은 대부분의 작업을 할 수 없게 됩니다. 회복 혈청 같은 충분한 기술이 있으면 상태를 역전할 수 있습니다. 그러나 곧 영구적인 상태가 됩니다.</CrumblingMindUndiagnosedDuplication.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(이)가 곧 중증 정신 저하를 일으킬 수 있는 심각한 상태의 조기 조짐을 보이고 있습니다. {SURGEON_nameDef}(은)는 이 상태의 원인을 아직 정확히 알 수 없지만, {PAWN_nameShort}(은)는 며칠 내에 매우 아픈 상태가 될 것입니다.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
@@ -168,13 +168,13 @@
   <DisruptorFlash.description>교란 신호탄의 초기 정신 파열이 이 생물을 멍하게 만들었습니다.</DisruptorFlash.description>
   
   <!-- EN: duplicate sickness -->
-  <DuplicateSickness.label>복사본 후유증</DuplicateSickness.label>
+  <DuplicateSickness.label>복제본 후유증</DuplicateSickness.label>
   <!-- EN: Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. However, the condition will not be lethal. -->
-  <DuplicateSickness.description>이 사람과 복사본 사이의 정신 간섭이 느린 정신적 악화를 초래하고 있습니다. 이 사람의 복사본 여러 개가 살아 있는 한, 상태는 계속 악화될 겁니다. 그러나 치명적이지는 않습니다.</DuplicateSickness.description>
+  <DuplicateSickness.description>이 사람과 복제본 사이의 정신적 간섭으로, 정신이 서서히 악화되고 있습니다. 이 사람의 복제본 여러 개가 살아 있는 한 상태는 계속 악화될 것입니다. 그러나 치명적이지는 않습니다.</DuplicateSickness.description>
   <!-- EN: {0_nameDef} is now suffering from duplicate sickness. -->
-  <DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>{0_nameDef}(은)는 이제 복사본 후유증에 시달리고 있습니다.</DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>
+  <DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>{0_nameDef}(은)는 현재 복제본 후유증에 시달리고 있습니다.</DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>
   <!-- EN: {PAWN_nameDef} is suffering from duplicate sickness. Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. -->
-  <DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(은)는 복사본 후유증에 시달리고 있습니다. 이 사람과 복사본 사이의 정신 간섭이 느린 정신적 악화를 초래하고 있습니다. 이 사람의 복사본 여러 개가 살아 있는 한, 상태는 계속 악화될 겁니다.</DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(은)는 복제본 후유증에 시달리고 있습니다. 이 사람과 복제본 사이의 정신적 간섭으로, 정신이 서서히 악화되고 있습니다. 이 사람의 복제본 여러 개가 살아 있는 한, 상태는 계속 악화될 것입니다.</DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: initial -->
   <DuplicateSickness.stages.initial-0.label>초기</DuplicateSickness.stages.initial-0.label>
   <!-- EN: initial -->
@@ -230,12 +230,12 @@
   <!-- EN: metalblood -->
   <Metalblood.label>금속혈액</Metalblood.label>
   <!-- EN: This creature has the metalblood compound in their bloodstream. This substance can rapidly harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
-  <Metalblood.description>이 생물의 혈류에 금속혈액 복합체가 존재합니다. 이 물질은 공격을 예상할 때 빠르게 육체를 단단하게 만들 수 있어, 사용자가 피해를 더 견딜 수 있게 해줍니다. 그러나 이 혈청의 생체강철 기반 화학 반응 또한 사용자가 특히 불에 취약하도록 만듭니다.</Metalblood.description>
+  <Metalblood.description>이 생물의 혈류에 금속혈액 복합체가 존재합니다. 이 물질은 공격을 예상할 때 빠르게 육체를 단단하게 만들 수 있어, 사용자가 피해를 더 견딜 수 있게 해줍니다. 그러나 이 혈청의 실체강 기반 화학 반응 또한 사용자가 특히 불에 취약하도록 만듭니다.</Metalblood.description>
   
   <!-- EN: metalhorror implantation -->
-  <MetalhorrorImplant.label>메탈호러 이식물</MetalhorrorImplant.label>
+  <MetalhorrorImplant.label>기생철충 기생체</MetalhorrorImplant.label>
   <!-- EN: A gestating creature of metallic horror. Starting from a tiny archometallic seed, it will quickly take control of the nervous system, grow, and extend throughout the host's body until it is ready to reveal itself. Once discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorImplant.description>메탈호러를 잉태한 생물입니다. 작은 초금속 씨앗에서 시작한 이것은 빠르게 신경계를 지배하고, 스스로 드러낼 준비가 될 때까지 숙주의 몸 전체로 퍼질 것입니다. 발견하면 외과 검사를 통해 메탈호러가 숙주에서 나오도록 할 수 있습니다. 싸울 준비를 하세요.</MetalhorrorImplant.description>
+  <MetalhorrorImplant.description>기생철충이 들어 있는 조직입니다. 이것은 작은 초금속 씨앗에서 시작하여 빠르게 숙주의 신경계를 지배하고, 스스로를 드러낼 준비가 될 때까지 성장할 것입니다. 발견하면 외과 검사를 통해 기생철충을 숙주에게서 꺼낼 수 있습니다. 그리고 싸울 준비를 하세요.</MetalhorrorImplant.description>
   <!-- EN: Implanted before arrival at your colony -->
   <MetalhorrorImplant.possiblePathways.0.explanation>정착지 도착 이전에 이식됨</MetalhorrorImplant.possiblePathways.0.explanation>
   <!-- EN: Implanted through {SOURCEKIND_label} attack -->
@@ -291,7 +291,7 @@
   <!-- EN: regeneration -->
   <Regeneration.label>재생</Regeneration.label>
   <!-- EN: This creature is experiencing an impossibly fast rate of regeneration supported by a distant archotechnological engine. They will heal nearly any wound in a short time. -->
-  <Regeneration.description>이 생물은 멀리 떨어진 초월공학 엔진이 공급하는 에너지 때문에, 일반적으로 불가능한 빠른 속도의 재생을 보이고 있습니다. 곧 거의 모든 상처를 치유할 겁니다.</Regeneration.description>
+  <Regeneration.description>이 생물은 멀리 떨어진 초월공학 엔진이 공급하는 에너지 때문에, 일반적으로 불가능한 빠른 속도의 재생을 보이고 있습니다. 곧 거의 모든 상처를 치유할 것입니다.</Regeneration.description>
   <!-- EN: unnatural -->
   <Regeneration.stages.unnatural.label>부자연적</Regeneration.stages.unnatural.label>
   <!-- EN: impossible -->
@@ -303,9 +303,9 @@
   <RevenantHypnosis.description>이 사람은 망령에 의해 최면 상태에 빠졌으며 망령에 연결된 상태입니다. 눈을 깜박이지 않고 보이지 않는 공포를 응시하는 동안 악몽 같은 생물에 대해 횡설수설합니다.\n\n희생자를 최면에 건 후, 망령은 희생자와 같은 맵 어딘가에서 동면하게 될 겁니다.\n\n망령을 죽이면 최면이 끝납니다. 숨은 망령은 교란 신호탄, 폭발물, EMP, 소방거품, 혹은 불을 붙여 드러낼 수 있습니다.</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->
-  <ShardHolder.label>조각 보유자</ShardHolder.label>
+  <ShardHolder.label>파편 보유자</ShardHolder.label>
   <!-- EN: This creature will drop a shard when defeated. This text is visible in dev mode only. -->
-  <ShardHolder.description>이 생물은 처치하면 조각을 떨어뜨릴 겁니다. 이 텍스트는 개발자 모드에서만 볼 수 있습니다.</ShardHolder.description>
+  <ShardHolder.description>대상을 처치하면 파편을 떨어뜨립니다. 이 문구는 개발자 모드에서만 볼 수 있습니다.</ShardHolder.description>
   
   <!-- EN: sleep suppression -->
   <SleepSuppression.label>수면 억제</SleepSuppression.label>

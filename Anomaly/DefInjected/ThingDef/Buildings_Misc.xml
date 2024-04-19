@@ -4,7 +4,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
   <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
-  <AtmosphericHeater.description>긁어모은 어둠의 초월공학 조각으로 작동되는 열 투사 장치입니다. 장치는 생체강철을 태워 대기 중의 가스 분자를 휘저어, 지역의 외부 온도를 높입니다. 건물은 자체적으로 많은 양의 폐열을 생산하기도 합니다.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>긁어모은 어둠의 초월공학 파편으로 작동되는 열 분사 장치입니다. 실체강을 태움으로서 대기 분자를 휘저어 지역의 외부 온도를 높입니다. 건물 자체적으로도 많은 양의 폐열을 생산합니다.</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>대상 외부 온도</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
@@ -12,7 +12,7 @@
   <Bullet_TacticalTurret.label>전술 포탑 탄환</Bullet_TacticalTurret.label>
   
   <!-- EN: delayed metalhorror emerge -->
-  <DelayedMetalhorrorEmerger.label>지연된 메탈호러 출현</DelayedMetalhorrorEmerger.label>
+  <DelayedMetalhorrorEmerger.label>지연된 기생철충 출현</DelayedMetalhorrorEmerger.label>
   
   <!-- EN: dirt cube sculpture -->
   <DirtCubeSculpture.label>흙 큐브 조각상</DirtCubeSculpture.label>
@@ -84,7 +84,7 @@
   <!-- EN: frenzy inducer -->
   <FrenzyInducer.label>광란 유도기</FrenzyInducer.label>
   <!-- EN: A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent. -->
-  <FrenzyInducer.description>전기 자극 프레임에 고정된 긁어모은 초월공학 조각입니다. 장치는 인근 지역에 광란의 정신 진동을 만들어 근처의 모두를 자극해 더 빠르게 이동하고 작업하도록 합니다. 그러나 그들이 가진 모든 정신이상은 확실히 격렬해질 겁니다.</FrenzyInducer.description>
+  <FrenzyInducer.description>초월공학 파편을 긁어모아 만든 전기 자극 프레임입니다. 인근 지역에 광란의 정신 진동을 만들어근처 정착민들을 자극해 더 빠르게 이동하고 작업하도록 합니다. 대신, 영향권 내에서 발생되는 모든 정신이상은 폭력적인 형태로만 나타납니다.</FrenzyInducer.description>
   
   <!-- EN: gray box -->
   <GrayBox.label>회색 상자</GrayBox.label>
@@ -153,41 +153,41 @@
   <!-- EN: noctolith -->
   <Noctolith.label>녹톨리스</Noctolith.label>
   <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
-  <Noctolith.description>들쭉날쭉한 칼날 같은 구조물의 뒤틀린 기둥으로, 어둡고 기름으로 덮인 금속으로 만들어 졌습니다. 에너지로 고동치며, 중심은 어둠의 초월공학으로 동력이 공급됩니다.\n\n기둥을 파괴하면, 어둠의 초월공학 조각을 되찾을 수 있습니다.</Noctolith.description>
+  <Noctolith.description>어둡고 기름진 금속으로 만들어진 들쭉날쭉한 칼날 모양의 뒤틀린 기둥입니다. 그것의 핵심부는 어둠의 초월공학 기술로 구동되는 에너지로 고동칩니다.\n\n기둥을 파괴하면 어둠의 초월공학 파편을 회수할 수 있습니다.</Noctolith.description>
   <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
   <Noctolith.comps.CompInspectString.inspectString>내용물: 알 수 없음\n녹톨리스를 파괴해 부자연적 어둠을 끝내세요.</Noctolith.comps.CompInspectString.inspectString>
   
   <!-- EN: pit burrow -->
   <PitBurrow.label>구덩이 굴</PitBurrow.label>
   <!-- EN: A small hole connecting to some unseen cave network deep under the surface. The walls are too steep to climb. It is inherently unstable and will collapse after some time. -->
-  <PitBurrow.description>작은 구멍으로, 표면 깊숙이 있는 어떤 보이지 않는 동굴 네트워크를 연결하고 있습니다. 벽이 너무 가팔라 기어오를 수 없습니다. 내재적으로 불안정하여 일정 시간이 지나면 붕괴할 겁니다.</PitBurrow.description>
+  <PitBurrow.description>표면 깊숙이 있는 알 수 없는 동굴 연결망과 연결된 작은 구멍입니다. 벽이 너무 가팔라 기어오를 수 없습니다. 내재적으로 불안정하여 일정 시간이 지나면 붕괴할 겁니다.</PitBurrow.description>
   
   <!-- EN: underground emergence -->
   <PitBurrowSpawner.label>지하 출현</PitBurrowSpawner.label>
   <!-- EN: Something is emerging from the ground here. -->
-  <PitBurrowSpawner.description>여기 땅에서 무언가가 나오고 있습니다.</PitBurrowSpawner.description>
+  <PitBurrowSpawner.description>땅 아래에서 무언가가 나오고 있습니다.</PitBurrowSpawner.description>
   
   <!-- EN: pit gate -->
-  <PitGate.label>구덩이 문</PitGate.label>
+  <PitGate.label>지하 통로</PitGate.label>
   <!-- EN: A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below. -->
   <PitGate.description>거대하고 불길한 구멍으로 표면을 어두운 지하 동굴 네트워크와 연결합니다. 아래에 있는 동굴 안으로 기어들어 갈 수 있습니다.</PitGate.description>
   
   <!-- EN: pit gate exit -->
-  <PitGateExit.label>구덩이 문 출구</PitGateExit.label>
+  <PitGateExit.label>지하 통로 출구</PitGateExit.label>
   <!-- EN: A rope line which links to the surface above. -->
   <PitGateExit.description>위의 지면과 연결하는 밧줄입니다.</PitGateExit.description>
   
   <!-- EN: underground emergence -->
   <PitGateSpawner.label>지하 출현</PitGateSpawner.label>
   <!-- EN: Something is emerging from the ground here. -->
-  <PitGateSpawner.description>여기 땅에서 무언가가 나오고 있습니다.</PitGateSpawner.description>
+  <PitGateSpawner.description>땅 아래에서 무언가가 나오고 있습니다.</PitGateSpawner.description>
   <!-- EN: Pit gate opened -->
-  <PitGateSpawner.building.groundSpawnerLetterLabel>구덩이 문 열림</PitGateSpawner.building.groundSpawnerLetterLabel>
+  <PitGateSpawner.building.groundSpawnerLetterLabel>지하 통로 열림</PitGateSpawner.building.groundSpawnerLetterLabel>
   <!-- EN: The shifting terrain has fallen into the depths below, forming a massive hole.\n\nThis pit gate will remain open until you collapse its entrance. Explore the pit gate to find a way to collapse it from underneath and to find useful items in the undercaves. -->
-  <PitGateSpawner.building.groundSpawnerLetterText>변형되는 지형이 아래 깊이 떨어져, 거대한 구멍을 형성합니다.\n\n이 구덩이 문은 입구를 붕괴시킬 때까지 열려 있을 겁니다. 구덩이 문을 탐험하여 아래에서 붕괴할 방법을 찾고 지하동굴에서 유용한 아이템을 찾으세요.</PitGateSpawner.building.groundSpawnerLetterText>
+  <PitGateSpawner.building.groundSpawnerLetterText>지형이 변형하여 거대한 구멍을 형성합니다.\n\n이 지하 통로는 붕괴되기 전까지 열려 있을 겁니다. 지하 통로를 탐험하여 이것을 붕괴시킬 방법을 찾고, 유용한 아이템을 찾으세요.</PitGateSpawner.building.groundSpawnerLetterText>
   
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>근접 탐지기</ProximityDetector.label>
+  <ProximityDetector.label>접근 탐지기</ProximityDetector.label>
   <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible biosignatures within its radius. -->
   <ProximityDetector.description>보이지 않는 생물을 감지할 수 있는 탐색기입니다. 이 장치는 범위 내에 있는 정신적으로 보이지 않는 생명신호의 존재를 감지하면 경보를 울립니다.</ProximityDetector.description>
   
@@ -207,14 +207,14 @@
   <SecurityDoor.description>튼튼하게 강화된 문입니다. 느리게 열리며 전기가 필요하지만, 매우 강합니다. 뭔가 위험한 것의 출입을 통제하고 싶다면 좋은 선택일 겁니다. 문이 기능하려면 양쪽에 벽이 필요합니다.</SecurityDoor.description>
   
   <!-- EN: shard inhibitor -->
-  <ShardInhibitor.label>조각 억제기</ShardInhibitor.label>
+  <ShardInhibitor.label>파편 억제기</ShardInhibitor.label>
   <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
-  <ShardInhibitor.description>정신 에너지로 공명하는 어둠의 초월공학 조각으로, 범위 내에 있는 구속대 혹은 간이 구속대의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
+  <ShardInhibitor.description>어둠의 초월공학 파편을 이용하여 정신에 간섭하는 장치로, 범위 내의 구속대 혹은 간이 구속대의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
   
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>수면 억제기</SleepSuppressor.label>
   <!-- EN: A scavenged archotech shard mounted in an electrical control frame. The device creates a psychic pulsation in the local area which alters the brain chemistry of those nearby, halting the buildup of fatigue toxins and removing the need for sleep. However, it also irritates anyone nearby. -->
-  <SleepSuppressor.description>전기 제어 프레임 안에 고정된 긁어모은 초월공학 조각입니다. 장치는 주위 지역에 정신 파동을 만들어, 근처에 있는 자들의 뇌 화학 구조를 바꿔 피로 독소의 축적을 막고 수면욕을 없앱니다. 그러나 근처의 모두를 짜증나게 하기도 합니다.</SleepSuppressor.description>
+  <SleepSuppressor.description>긁어모은 초월공학 파편으로 만들어진 전기 제어 장치입니다. 장치는 주위 지역에 정신 파동을 만들어, 근처 정착민둘의 뇌의 화학 구조를 바꿔 피로 독소의 축적을 막고 수면욕을 없앱니다. 대신, 격한 짜증을 동반합니다.</SleepSuppressor.description>
   
   <!-- EN: stone cube sculpture -->
   <StoneCubeSculpture.label>돌 큐브 조각상</StoneCubeSculpture.label>

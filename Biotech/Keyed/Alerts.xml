@@ -4,11 +4,11 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>통제를 벗어난 메카노이드</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고 있지 않습니다. 메카노이드를 충분한 대역폭을 가진 메카나이터와 연결하십시오.\n\n하루 이상 제어되지 않으면 메카노이드가 고대 통제신호와 연결될 수 있습니다. 고대 통제신호와 연결된 메카노이드는 {0}에 합류하여 당신에게 적대가 될 것입니다. 해당 메카노이드가 적대가 되면 주변 메카노이드들에게도 영향을 미칩니다.\n\n적대적 메카노이드는 파괴 시 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고 있지 않습니다. 메카노이드를 충분한 대역폭의 메카나이터와 연결하세요.\n\n하루 이상 제어되지 않으면 메카노이드가 제어 불가에 빠질 수 있습니다. 제어 불가 메카노이드는 {0}에 합류하여 적대적으로 돌아서며, 주위 메카노이드들도 영향을 받아 함께 적대적이 될 수 있습니다.\n\n제어 불가에 빠진 메카노이드는 파괴되면 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>다음 메카노이드가 통제되고 있지 않습니다</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
-  <AlertMechLacksOverseerMayGoFeral>다음 메카노이드가 통제되고 있지 않으며 언제든지 폭주할 수 있습니다</AlertMechLacksOverseerMayGoFeral>
+  <AlertMechLacksOverseerMayGoFeral>다음 메카노이드가 통제되고 있지 않으며 언제든지 제어 불가에 빠질 수 있습니다</AlertMechLacksOverseerMayGoFeral>
 
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{0} 자원 부족</AlertWarqueenHasLowResources>
@@ -20,7 +20,7 @@
   <!-- EN: {NUMCULPRITS} colonists need deathrest -->
   <AlertLowDeathrestPawns>정착민 {NUMCULPRITS}명이 죽음안식 필요</AlertLowDeathrestPawns>
   <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
-  <AlertLowDeathrestDesc>정착민이 오랜 시간 죽음안식을 취하지 않았습니다. 너무 오래 죽음안식을 취하지 않으면 죽음안식 탈진을 겪습니다.\n\n죽음안식을 취하려면 정착민을 선택한 후 할당된 침대나 죽음안식 관을 오른쪽 클릭하세요.\n\n죽음안식이 필요한 사람은 다음과 같습니다:\n{CULPRITS}</AlertLowDeathrestDesc>
+  <AlertLowDeathrestDesc>정착민이 오랜 시간 죽음안식을 취하지 않았습니다. 너무 오래 죽음안식을 취하지 않으면 죽음안식 탈진을 겪습니다.\n\n죽음안식을 취하려면 정착민을 선택한 후 할당된 침대나 죽음안식 관을 오른쪽 클릭하세요.\n\n죽음안식이 필요한 사람은 다음과 같습니다.\n{CULPRITS}</AlertLowDeathrestDesc>
 
   <!-- EN: Low hemogen -->
   <AlertLowHemogen>혈액정수 낮음</AlertLowHemogen>
@@ -35,7 +35,7 @@
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>메카노이드 충전기 필요</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>메카노이드에 비해 충전기가 부족합니다. 메카노이드의 전력이 바닥나면 자가 충전 휴면상태에 들어가 매우 느린 속도로 충전할 것입니다.\n\n다음의 충전기가 추가로 필요합니다.\n{0}\n\n참고: 일반 충전기는 소형 메카노이드만 사용할 수 있습니다. 중형 이상의 메카노이드는 대형 충전기가 필요합니다.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>메카노이드에 비해 충전기가 부족합니다. 메카노이드의 전력이 바닥나면 자가 충전 휴면상태에 들어가 매우 느린 속도로 충전합니다.\n\n다음 충전기를 추가로 건설하세요.\n{0}\n\n참고: 일반 충전기는 소형 메카노이드만 사용할 수 있습니다. 중형 이상의 메카노이드는 대형 충전기가 필요합니다.</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
   <AlertNeedMechChargerBasicMechtech>충전기를 건설하려면 기본 기계공학 이상의 기술을 연구해야 합니다.</AlertNeedMechChargerBasicMechtech>
 
@@ -103,7 +103,7 @@
   <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>정신결속 (멂)</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>초정신적 결속을 가진 일부 정착민들이 분리되어 멀리서 부정적인 영향을 느끼고 있습니다. 이것을 피하려면 초정신적 결속을 가진 정착민들이 같은 세계 칸, 상단 또는 탈 것에 있어야 합니다. 또한 동면 또는 이와 유사한 혼수상태가 아니어야 합니다.\n\n영향을 받는 사람은 다음과 같습니다.</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>정신결속된 정착민들이 분리되어 거리로 인한 부정적인 기분을 겪고 있습니다. 문제를 해결하려면 정신결속된 정착민 쌍이 같은 세계 칸, 상단, 또는 탈것에 있어야 하며, 동면 또는 이와 유사한 혼수상태가 아니어야 합니다.\n\n영향을 받는 사람은 다음과 같습니다</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>유전자 저장고 전력 필요</AlertGenebankUnpowered>

@@ -25,7 +25,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>생체강철로 작동되는 난로를 건설하여 전체 지역을 덥힐 충분한 열을 생산하세요.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>실체강으로 작동되는 난로를 건설하여 전체 지역을 덥힐 충분한 열을 생산하세요.</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -36,19 +36,19 @@
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
   <AtmosphericHeater.generalRules.rulesStrings>
-    <li>subject->생체강철 난방</li>
+    <li>subject->실체강 난방</li>
     <li>subject_story->고대 지열 발전소의 기능을 향상시켰습니다</li>
     <li>subject_story->생체금속의 열 방출을 연구했습니다</li>
     <li>subject_story->초월공학의 불가능한 수준의 에너지 저장량에 대해 연구했습니다</li>
     <li>subject_story->인구 밀도가 높은 얼음계의 난방 시스템을 조사했습니다</li>
-    <li>subject_gerund->생체강철 난방</li>
-    <li>subject_gerund->생체강철 난방기 건설</li>
+    <li>subject_gerund->실체강 난방</li>
+    <li>subject_gerund->실체강 난방기 건설</li>
   </AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
-  <BasicPsychicRituals.label>공허 도발</BasicPsychicRituals.label>
+  <BasicPsychicRituals.label>공허 소환</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
-  <BasicPsychicRituals.description>초정신 의식 장소를 건설하고 초정신 의식을 행하세요. 공허 도발 의식을 통해 새로운 실체를 발견하세요.</BasicPsychicRituals.description>
+  <BasicPsychicRituals.description>초정신 의식 장소를 건설하고 초정신 의식을 행하세요. 공허 소환 의식을 통해 새로운 실체를 발견하세요.</BasicPsychicRituals.description>
   <!-- EN:
     <li>subject->psychic rituals</li>
     <li>subject_story->studied the rituals of Horax cultists</li>
@@ -73,9 +73,9 @@
   </BasicPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: bioferrite generator -->
-  <BioferriteGenerator.label>생체강철 발전기</BioferriteGenerator.label>
+  <BioferriteGenerator.label>실체강 발전기</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
-  <BioferriteGenerator.description>생체강철을 연료로 태우는 전력 발전기를 건설하세요.</BioferriteGenerator.description>
+  <BioferriteGenerator.description>실체강을 연료로 태우는 전력 발전기를 건설하세요.</BioferriteGenerator.description>
   <!-- EN:
     <li>subject->bioferrite power generation</li>
     <li>subject_story->was trained in the use of innovative power sources</li>
@@ -87,20 +87,20 @@
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
   <BioferriteGenerator.generalRules.rulesStrings>
-    <li>subject->생체강철 발전</li>
+    <li>subject->실체강 발전</li>
     <li>subject_story->혁신적인 동력원을 사용하는 방법에 대한 교육을 받았습니다</li>
     <li>subject_story->금속 및 섬유 기반 연료의 사용을 탐구했습니다</li>
     <li>subject_story->불과 타는 것에 대한 사랑을 깨달았습니다</li>
     <li>subject_story->궤도 에너지 시스템을 유지 관리하는 기술자로 일했습니다</li>
     <li>subject_story->연료를 얻기 위해 야생동물들을 사냥했습니다</li>
-    <li>subject_gerund->생체강철 발전기 건설</li>
-    <li>subject_gerund->생체강철의 연료 활용</li>
+    <li>subject_gerund->실체강 발전기 건설</li>
+    <li>subject_gerund->실체강의 연료 활용</li>
   </BioferriteGenerator.generalRules.rulesStrings>
   
   <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>생체강철 수확</BioferriteHarvesting.label>
+  <BioferriteHarvesting.label>실체강 수확</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>생체강철 수확기를 건설하여 구속대에 억제된 포획 실체에서 생체강철을 생성하세요.</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>실체강 수확기를 건설하여 구속대에 억제된 포획 실체에게서 실체강을 생산하세요.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -110,18 +110,18 @@
     <li>subject_gerund->harvesting bioferrite</li>
   -->
   <BioferriteHarvesting.generalRules.rulesStrings>
-    <li>subject->생체강철</li>
+    <li>subject->실체강</li>
     <li>subject_story->생소한 금속 같은 섬유질 물질을 조사했습니다</li>
     <li>subject_story->끔찍한 시체를 해부했습니다</li>
     <li>subject_story->유기금속의 은닉처를 발견했습니다</li>
     <li>subject_story->이상한 금속에 감염된 야생동물을 관찰했습니다</li>
-    <li>subject_gerund->생체강철 수확</li>
+    <li>subject_gerund->실체강 수확</li>
   </BioferriteHarvesting.generalRules.rulesStrings>
   
   <!-- EN: bioferrite weaponry -->
-  <BioferriteIgnition.label>생체강철 무기</BioferriteIgnition.label>
+  <BioferriteIgnition.label>실체강 무기</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
-  <BioferriteIgnition.description>생체강철을 연료원으로 사용하는 고급 무기를 만드세요.</BioferriteIgnition.description>
+  <BioferriteIgnition.description>실체강을 연료원으로 사용하는 고급 무기를 만드세요.</BioferriteIgnition.description>
   <!-- EN:
     <li>subject->bioferrite combustion</li>
     <li>subject->bioferrite weaponry</li>
@@ -132,19 +132,19 @@
     <li>subject_gerund->building bioferrite-based weapons</li>
   -->
   <BioferriteIgnition.generalRules.rulesStrings>
-    <li>subject->생체강철 연소</li>
-    <li>subject->생체강철 무기</li>
+    <li>subject->실체강 연소</li>
+    <li>subject->실체강 무기</li>
     <li>subject_story->초월공학 소행성에서 추출 작업을 했습니다</li>
     <li>subject_story->생소한 물질의 연소점을 연구했습니다</li>
     <li>subject_story->중간계 무기 회사의 연구소에 입사했습니다</li>
     <li>subject_story->초월공학 사막에서 생체지뢰를 제거했습니다</li>
-    <li>subject_gerund->생체강철 기반 무기 제작</li>
+    <li>subject_gerund->실체강 기반 무기 제작</li>
   </BioferriteIgnition.generalRules.rulesStrings>
   
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>생체강철 성형</BioferriteShaping.label>
+  <BioferriteShaping.label>실체강 성형</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
-  <BioferriteShaping.description>생체강철을 성형하고 재구성해 유용한 도구, 무기, 바닥 등으로 만듭니다.</BioferriteShaping.description>
+  <BioferriteShaping.description>실체강을 성형하고 재구성해 유용한 도구와 무기, 바닥 등으로 만듭니다.</BioferriteShaping.description>
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -155,13 +155,13 @@
     <li>subject_gerund->shaping bioferrite</li>
   -->
   <BioferriteShaping.generalRules.rulesStrings>
-    <li>subject->생체강철 성형</li>
+    <li>subject->실체강 성형</li>
     <li>subject_story->조형과 조각에 대한 독특한 기술을 배웠습니다</li>
     <li>subject_story->열 제어 요령을 훈련받았습니다</li>
     <li>subject_story->이국적인 재료 주조 공장에서 일했습니다</li>
     <li>subject_story->초월공학 재료 전문 과학자를 도왔습니다 </li>
     <li>subject_story->초월공학 유물들의 생성과정을 공부했습니다</li>
-    <li>subject_gerund->생체강철 성형</li>
+    <li>subject_gerund->실체강 성형</li>
   </BioferriteShaping.generalRules.rulesStrings>
   
   <!-- EN: bliss lobotomy -->
@@ -303,7 +303,7 @@
   <!-- EN: disruptor flares -->
   <DisruptorFlares.label>교란 신호탄</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>보이지 않는 생명체를 드러내고 구역을 밝히는 생체강철 기반 신호탄 가방을 만드세요.</DisruptorFlares.description>
+  <DisruptorFlares.description>보이지 않는 생명체를 드러내고 구역을 밝히는 실체강 기반 신호탄 가방을 만드세요.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -374,7 +374,7 @@
   <!-- EN: frenzy inducer -->
   <FrenzyInducer.label>광란 유도기</FrenzyInducer.label>
   <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
-  <FrenzyInducer.description>열광적인 심령 파동을 생성하는 파편 동력 구조물을 만들어, 주변에 있는 사람들이 더 빨리 움직이고 일하게 합니다. 그렇지만 불안정한 감정 에너지가 근처 모두의 폭력적인 경향을 부추깁니다.</FrenzyInducer.description>
+  <FrenzyInducer.description>열광적인 심령 파동을 생성하는 파편 동력 구조물을 만들어, 주변에 있는 사람들이 더 빨리 움직이고 일하게 합니다. 그렇지만 불안정한 감정 에너지가 근처 모두의 폭력적인 성향을 부추깁니다.</FrenzyInducer.description>
   <!-- EN:
     <li>subject->archotech frenzy inducers</li>
     <li>subject_story->worked as a motivational therapist</li>
@@ -397,7 +397,7 @@
   <!-- EN: ghoul enhancements -->
   <GhoulEnhancements.label>구울 강화품</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>생체강철 보철물을 제작해 구울을 더 강하게 만드세요.</GhoulEnhancements.description>
+  <GhoulEnhancements.description>실체강 보철물을 제작해 구울을 더 강하게 만드세요.</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -410,13 +410,13 @@
     <li>subject_story->죽은 자와 두 번 죽은 자를 실험했습니다</li>
     <li>subject_story->점점 더 이상한 삽입물을 구울에 이식했습니다</li>
     <li>subject_story->좀 더 복잡한 구울 보철물을 연구했습니다</li>
-    <li>subject_gerund->생체강철 보철물로 구울을 강화하기</li>
+    <li>subject_gerund->실체강 보철물로 구울을 강화하기</li>
   </GhoulEnhancements.generalRules.rulesStrings>
   
   <!-- EN: ghoul infusion -->
   <GhoulInfusion.label>구울 주입</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>살아 있는 사람에게 초월공학 조각을 주입하여, 사람을 무서운 구울로 만드는 수술을 행하세요. 구울은 강한 근접 전투원이지만 작업을 할 수 없습니다. 충분한 생고기를 먹지 않으면 구울은 화가 날 겁니다.</GhoulInfusion.description>
+  <GhoulInfusion.description>살아 있는 사람에게 초월공학 파편을 주입하여, 사람을 무서운 구울로 만드는 수술을 행하세요. 구울은 강한 근접 전투원이지만 작업을 할 수 없습니다. 충분한 생고기를 먹지 않으면 구울은 화가 날 겁니다.</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -460,7 +460,7 @@
   <!-- EN: insanity weaponry -->
   <InsanityWeaponry.label>정신 이상 무기</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
-  <InsanityWeaponry.description>초월공학 조각을 재구성하여 초월공학을 사용해 적에게 충격을 주고, 적을 조종하고, 파괴하는, 사용이 제한된 무기를 만드세요.</InsanityWeaponry.description>
+  <InsanityWeaponry.description>초월공학 파편을 재구성하여 적의 신경계에 충격을 주고 파괴하는 소모성 무기를 만듭니다.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
     <li>subject_story->explored psychological warfare for their dissertation</li>
@@ -544,7 +544,7 @@
   <!-- EN: mutation weaponry -->
   <MutationWeaponry.label>돌연변이 무기</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
-  <MutationWeaponry.description>초월공학 조각을 재구성하여 살아 있는 대상을 무서운 생물로 전환시키는, 사용이 제한된 무기를 만드세요.</MutationWeaponry.description>
+  <MutationWeaponry.description>초월공학 파편을 재구성하여 살아 있는 대상을 무서운 생물로 전환시키는, 사용이 제한된 무기를 만드세요.</MutationWeaponry.description>
   <!-- EN:
     <li>subject->mutation induction</li>
     <li>subject->archotech mutation weaponry</li>
@@ -642,7 +642,7 @@
   </PleasurePulse.generalRules.rulesStrings>
   
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>근접 탐지기</ProximityDetector.label>
+  <ProximityDetector.label>접근 탐지기</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
   <ProximityDetector.description>보이지 않는 생물을 탐지할 수 있는 장치를 만드세요.</ProximityDetector.description>
   <!-- EN:
@@ -656,7 +656,7 @@
     <li>subject_gerund->detecting invisible creatures</li>
   -->
   <ProximityDetector.generalRules.rulesStrings>
-    <li>subject->근접 탐지기</li>
+    <li>subject->접근 탐지기</li>
     <li>subject->동작센서</li>
     <li>subject_story->고대의 유흥영상을 보고 영감을 받았습니다</li>
     <li>subject_story->간단한 구조의 정신에 반응하는 장치의 시제품을 제작했습니다</li>
@@ -761,7 +761,7 @@
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>수면 억제기</SleepSuppressor.label>
   <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
-  <SleepSuppressor.description>조각으로 작동되는 구조물을 건설하여 근처의 사람들을 자극해 피로를 예방하세요. 장치는 근처의 모두를 짜증나게 만들 겁니다.</SleepSuppressor.description>
+  <SleepSuppressor.description>초월공학 파편으로 작동하는 장치를 건설하여 근처의 사람들의 피로를 풀어줍니다. 대신 예민해지는 부작용도 있습니다.</SleepSuppressor.description>
   <!-- EN:
     <li>subject->sleep suppression</li>
     <li>subject_story->studied sleep deprivation in factory workers</li>
@@ -805,7 +805,7 @@
   </SummonAnimals.generalRules.rulesStrings>
   
   <!-- EN: summon fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>살짐승 소환 중</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>살짐승 소환</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
   <SummonFleshbeastsPlayer.description>살짐승이 적 근처 땅에서 출현해, 근처의 모두를 공격하게 하는 초정신 의식을 행하세요.</SummonFleshbeastsPlayer.description>
   <!-- EN:
@@ -830,7 +830,7 @@
   </SummonFleshbeastsPlayer.generalRules.rulesStrings>
   
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>구덩이 문 자극</SummonPitGate.label>
+  <SummonPitGate.label>지하 통로 자극</SummonPitGate.label>
   <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
   <SummonPitGate.description>지하의 살짐승이 땅에 거대한 구멍을 열게 하는 초정신 의식을 행하세요. 구멍은 살짐승이 들끓는 동굴로 연결되며 탐험하여 자원을 얻을 수 있습니다.</SummonPitGate.description>
   <!-- EN:
@@ -843,13 +843,13 @@
     <li>subject_gerund->summoning a pit gate</li>
   -->
   <SummonPitGate.generalRules.rulesStrings>
-    <li>subject->구덩이 문 기원</li>
+    <li>subject->지하 통로 기원</li>
     <li>subject_story->살덩어리 감염을 연구했습니다</li>
     <li>subject_story->통합된 의식을 가진 생명체의 이야기를 수집했습니다</li>
     <li>subject_story->죽음계 종교 학교의 도서관을 관리했습니다</li>
     <li>subject_story->진정의식을 거행했습니다</li>
-    <li>subject_gerund->구덩이 문을 만드는 의식 거행</li>
-    <li>subject_gerund->구덩이 문 소환</li>
+    <li>subject_gerund->지하 통로를 만드는 의식 거행</li>
+    <li>subject_gerund->지하 통로 소환</li>
   </SummonPitGate.generalRules.rulesStrings>
   
   <!-- EN: draw shamblers -->
@@ -878,7 +878,7 @@
   <!-- EN: void sculptures -->
   <VoidSculptures.label>공허 조각상</VoidSculptures.label>
   <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
-  <VoidSculptures.description>생체강철로 특별한 공허 조각상을 제작하여 초정신 의식의 품질을 향상하세요.</VoidSculptures.description>
+  <VoidSculptures.description>실체강으로 특별한 공허 조각상을 제작하여 초정신 의식의 품질을 향상하세요.</VoidSculptures.description>
   <!-- EN:
     <li>subject->void sculptures</li>
     <li>subject->bioferrite sculpture</li>
@@ -892,14 +892,14 @@
   -->
   <VoidSculptures.generalRules.rulesStrings>
     <li>subject->공허 조각상</li>
-    <li>subject->생체강철 조각</li>
+    <li>subject->실체강 조각</li>
     <li>subject_story->컴퓨터로 모델링된 초월공학 공간입니다.</li>
     <li>subject_story->무녀에게 고용받아 그녀의 꿈을 조각하였습니다</li>
     <li>subject_story->조각상을 삶 속으로 가져오고자 했습니다.</li>
     <li>subject_story->인간의 손으로 끝없는 바다를 꿈꾸는 것을 빚어냈습니다.</li>
     <li>subject_story->제국 초능력자들이 일하는 모습을 관찰했습니다.</li>
-    <li>subject_gerund->생체강철 조각</li>
-    <li>subject_gerund->생체강철로 만들어진 의식용 조각상 제작</li>
+    <li>subject_gerund->실체강 조각</li>
+    <li>subject_gerund->실체강으로 만들어진 의식용 조각상 제작</li>
   </VoidSculptures.generalRules.rulesStrings>
   
 </LanguageData>

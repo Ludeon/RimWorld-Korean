@@ -4,9 +4,9 @@
   <!-- EN: Knowledge gain from study -->
   <KnowledgeFromStudy>연구에서 획득한 지식</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
-  <KnowledgeFromStudyDesc>이 실체가 연구되면 얻을 수 있는 이상 현상 지식의 유형과 양입니다. 더 정교한 실체는 더 고급의 이상 현상 연구 과제를 잠금 해제할 수 있습니다.</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>이 실체를 연구하면 얻을 수 있는 이상 현상 지식의 유형과 양입니다. 더 정교한 실체는 보다 고급의 이상 현상 연구 과제를 잠금 해제할 수 있습니다.</KnowledgeFromStudyDesc>
   <!-- EN: {0} {1} -->
-  <Stat_Knowledge>{0} {1}</Stat_Knowledge>
+  <Stat_Knowledge>{1} {0}</Stat_Knowledge>
   <!-- EN: Study interval -->
   <StudyFrequency>연구 주기</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
@@ -15,7 +15,7 @@
   <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>치유</Stat_Hediff_Regeneration_Name>
   <!-- EN: A flat amount of healing per day. -->
-  <Stat_Hediff_Regeneration_Desc>하루당 균일한 치유량입니다.</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Desc>시간의 흐름에 따라 신체가 얼마나 치유되는지 알 수 있습니다.</Stat_Hediff_Regeneration_Desc>
   <!-- EN: {0} hp/day -->
   <Stat_Hediff_Regeneration_Stat>{0} 체력/일</Stat_Hediff_Regeneration_Stat>
 
@@ -24,9 +24,9 @@
   <!-- EN: Average wall HP -->
   <Stat_ContainmentStrength_AverageWallHp>평균 벽 내구도</Stat_ContainmentStrength_AverageWallHp>
   <!-- EN: Average door HP -->
-  <Stat_ContainmentStrength_AverageDoorHp>평균 문 HP</Stat_ContainmentStrength_AverageDoorHp>
+  <Stat_ContainmentStrength_AverageDoorHp>평균 문 내구도</Stat_ContainmentStrength_AverageDoorHp>
   <!-- EN: Multiple ({0}) holding platforms -->
-  <Stat_ContainmentStrength_OtherHoldingPlatforms>여러 개({0})의 구속대</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>({0})개의 구속대</Stat_ContainmentStrength_OtherHoldingPlatforms>
   <!-- EN: Map-wide offset -->
   <Stat_ContainmentStrength_MapwideOffset>지역 오프셋</Stat_ContainmentStrength_MapwideOffset>
   <!-- EN: door open -->
@@ -39,16 +39,16 @@
   <Stat_ContainmentStrength_Platform>건물</Stat_ContainmentStrength_Platform>
 
   <!-- EN: Bioferrite generation -->
-  <StatsReport_BioferriteGeneration>생체강철 생산</StatsReport_BioferriteGeneration>
+  <StatsReport_BioferriteGeneration>실체강 생산</StatsReport_BioferriteGeneration>
   <!-- EN: How much bioferrite this entity generates per day. When captured on a holding platform, bioferrite can be gathered from it by building a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>이 실체가 하루당 생산하는 생체강철의 양입니다. 구속대에 포획되면, 생체강철은 생체강철 수확기를 건축하여 수확할 수 있습니다.</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration_Desc>이 실체가 하루당 생산하는 실체강의 양입니다. 실체강은 구속대에 포획한 후 실체강 수확기를 통해 얻을 수 있습니다.</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
-  <StatsReport_BioferriteDensityMultiplier>생체강철 밀도 계수</StatsReport_BioferriteDensityMultiplier>
+  <StatsReport_BioferriteDensityMultiplier>실체강 밀도 계수</StatsReport_BioferriteDensityMultiplier>
   
   <!-- EN: Offering -->
   <StatsReport_Offering>공물</StatsReport_Offering>
   <!-- EN: The ingredients required to perform the psychic ritual. -->
-  <StatsReport_Offering_Desc>초정신 의식을 행하려면 이 재료가 필요합니다.</StatsReport_Offering_Desc>
+  <StatsReport_Offering_Desc>초정신 의식을 진행하려면 해당 재료가 필요합니다.</StatsReport_Offering_Desc>
 
   <!-- EN: Ritual duration -->
   <StatsReport_RitualDuration>의식 지속시간</StatsReport_RitualDuration>
@@ -61,9 +61,9 @@
   <StatsReport_RitualCooldown_Desc>의식이 행해진 후, 이는 일정 기간 주위의 정신 에너지를 방해합니다. 이 시간 동안, 의식은 다시 행해질 수 없습니다.</StatsReport_RitualCooldown_Desc>
 
   <!-- EN: Containment offset -->
-  <StatsReport_ContainmentStrengthOffset>억제 오프셋</StatsReport_ContainmentStrengthOffset>
+  <StatsReport_ContainmentStrengthOffset>억제 영향 계수</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
-  <StatsReport_ContainmentStrengthOffset_Desc>구속대의 실체 억제력에 영향을 미치는 정도입니다. 더 잘 억제된 실체는 탈출할 가능성이 낮으며 연구되었을 때 더 많은 지식을 줍니다.</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>구속대의 실체 억제력에 영향을 미치는 정도입니다. 실체가 잘 억제되었을수록 탈출할 가능성이 낮아지며, 연구했을 때 더 많은 지식을 줍니다.</StatsReport_ContainmentStrengthOffset_Desc>
 
   <!-- EN: Duration -->
   <StatsReport_SerumDuration>지속시간</StatsReport_SerumDuration>
