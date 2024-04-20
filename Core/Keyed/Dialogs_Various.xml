@@ -76,7 +76,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>Steam API를 초기화 하지 못했습니다. 가능한 원인:\n\n-스팀이 실행 중\n-steam_appid.txt 파일 없이 스팀 외부에서 실행\n-스팀 클라이언트와 다른 권한(예: 관리자 모드로 실행)으로 실행\n\n대부분의 경우 컴퓨터를 재부팅을 하면 해결됩니다.\n\n플레이는 가능하지만 스팀 통계는 기록되지 않으며 스팀 기능을 사용할 수 없습니다.</SteamClientMissing>
+  <SteamClientMissing>Steam API를 초기화 하지 못했습니다. 가능한 원인:\n\n-스팀이 실행 중이 아님\n-steam_appid.txt 파일 없이 스팀 외부에서 실행\n-스팀 클라이언트와 다른 권한(예: 관리자 모드로 실행)으로 실행\n\n대부분의 경우 컴퓨터를 재부팅하면 해결됩니다.\n\n이 상태로도 플레이는 가능하지만 스팀 통계가 기록되지 않으며 다른 스팀 기능도 사용할 수 없습니다.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -114,9 +114,9 @@
   <!-- EN: Delete this savegame. -->
   <DeleteThisSavegame>저장된 게임을 삭제합니다.</DeleteThisSavegame>
   <!-- EN: Saved as {0}. -->
-  <SavedAs>진행 사항이 {0} 파일에 저장되었습니다.</SavedAs>
+  <SavedAs>{0} 파일에 저장했습니다.</SavedAs>
   <!-- EN: Please enter a name. -->
-  <NeedAName>저장될 파일의 이름을 입력해 주세요.</NeedAName>
+  <NeedAName>저장 파일의 이름을 입력해 주세요.</NeedAName>
   <!-- EN: Loading -->
   <LoadingLongEvent>불러오는 중</LoadingLongEvent>
   <!-- EN: Saving -->
@@ -150,7 +150,7 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>한동안 이곳에 머물러야 하므로 주변에 알릴 이름을 정해야 한다는 {0}의 제안이 들어왔습니다. 어떤 이름이 좋을까요?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>한동안 이곳에 머물러야 할 것 같으니, 주변에 알릴 세력 이름을 정해야 한다는 {0}의 제안이 들어왔습니다. 어떤 이름이 좋을까요?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>당신의 세력은 이제부터 {0}의 이름으로 알려집니다.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
@@ -168,7 +168,7 @@
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>{0}(은)는 이 정착지의 이름도 같이 정하자고 제안했습니다. 어떤 이름이 좋을까요?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>이제부터 당신의 세력은 {0}, 이 장소는 {1}의 이름으로 알려집니다.</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>이제부터 당신의 세력은 {0}, 이 정착지는 {1}의 이름으로 알려집니다.</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -242,7 +242,7 @@
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
-  <RestartAfterImportingLegacyBackstoryTanslations>성장 환경도 이제 def로 구현되므로 구버전 성장 환경 번역을 def 번역으로 이전했습니다. 파일 {0}(을)를 변환해 {1}(으)로 이동했습니다. {0}(은)는 이제 삭제해도 괜찮습니다.\n\n게임을 다시 시작해서 변경점을 적용하세요.</RestartAfterImportingLegacyBackstoryTanslations>
+  <RestartAfterImportingLegacyBackstoryTanslations>성장 환경도 이제 정의 파일(Def)로 구현되므로 구버전 성장 환경 번역을 정의 파일 번역으로 이전했습니다. 파일 {0}(이)가 변환돼 {1}(으)로 이동했습니다. {0}(은)는 이제 삭제해도 괜찮습니다.\n\n변경사항을 적용하시려면 게임을 다시 시작해 주세요.</RestartAfterImportingLegacyBackstoryTanslations>
 
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
@@ -250,9 +250,9 @@
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>경고: 얼어붙은 환경에 착륙하게 될 것이며 생존하기 매우 힘들 수 있습니다. 만약 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역 또는 계절을 선택하세요.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>경고: 얼어붙은 환경에 착륙하게 됩니다. 생존이 매우 힘들거나 불가능할 수 있습니다. 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역이나 계절을 선택하세요.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>이 게임은 기본적으로 중형 지도에서 하도록 설계되었습니다. 해당 크기는 충분한 공간을 제공합니다!\n\n대형 지도는 성능을 저하할 뿐만 아니라 실제로 게임의 경험이 손상됩니다. AI는 바보 같은 결정을 내리게 되고, 게임의 균형은 다양한 방식으로 나쁜 영향을 받게 됩니다.\n\n관례상 그리고 실험 목적으로 대형 지도가 포함되어 있으므로 특별한 이유 없이는 사용을 권장하지 않습니다.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>림월드는 중형 지도 플레이를 기준으로 설계됐습니다. 중형 크기도 공간이 충분합니다!\n\n대형 지도는 성능을 저하할 뿐만 아니라 게임의 디자인도 손상시킵니다. AI는 바보 같은 결정을 내리게 되고, 게임의 밸런스가 다양한 방식으로 나쁜 영향을 받게 됩니다. 대형 지도는 관례상, 그리고 실험 목적을 위해서 포함된 것이므로 특별한 이유 없이는 사용하지 말아주세요.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>지도 크기</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -353,7 +353,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>관통력</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>관통력이 있는 무기는 대상이 지닌 방어도를 무시할 수 있습니다.\n\n관통력이 목표물의 방어도보다 작다면 상쇄 후 남은 방어력을 기준으로 피해가 계산됩니다. 관통력이 목표물의 방어도보다 높다면 알몸의 대상을 공격한 것과 같은 결과를 냅니다.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>관통력은 이 무기가 대상에 적중할 때 무시할 방어도의 양입니다.\n\n관통력이 목표물의 방어도보다 높다면 알몸의 대상을 공격한 것과 같은 결과를 냅니다. 반대로, 관통력이 목표물의 방어도보다 작다면 방어도 상쇄 후 남은 양을 기준으로 피해를 계산합니다.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
   <BuildingDamageFactor>건물 피해 계수</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
@@ -371,15 +371,15 @@
   <!-- EN: Burst shot count -->
   <BurstShotCount>연발 횟수</BurstShotCount>
   <!-- EN: Warmup -->
-  <WarmupTime>조준 시간</WarmupTime>
+  <WarmupTime>준비 시간</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>근거리 조준 시간</MeleeWarmupTime>
   <!-- EN: Aiming time -->
-  <RangedWarmupTime>조준 지연</RangedWarmupTime>
+  <RangedWarmupTime>조준 시간</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>대기시간</CooldownTime>
   <!-- EN: Disarmed -->
-  <DisarmedTime>무장해제시간</DisarmedTime>
+  <DisarmedTime>무장해제 시간</DisarmedTime>
   <!-- EN: Charging -->
   <ChargingTime>충전 중</ChargingTime>
   <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
@@ -393,9 +393,9 @@
   <!-- EN: Stopping power -->
   <StoppingPower>저지력</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>저지력이 있는 무기는 대상의 움직임을 느리게 합니다. 저지력보다 크기가 큰 대상은 영향을 받지 않습니다.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>이 무기에 적중한 대상은 몇 초간 이동속도가 느려집니다.\n\n저지력보다 신체 크기가 큰 대상은 영향을 받지 않습니다.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>명중률</DirectHitChance>
+  <DirectHitChance>직접명중률</DirectHitChance>
   <!-- EN: Miss radius -->
   <MissRadius>명중 오차 범위</MissRadius>
   <!-- EN: Grows wild -->
@@ -425,7 +425,7 @@
   <!-- EN: Light requirement -->
   <LightRequirement>빛 요구량</LightRequirement>
   <!-- EN: Attributes -->
-  <Attributes>속성</Attributes>
+  <Attributes>특성</Attributes>
   <!-- EN: Lifespan -->
   <LifeSpan>수명</LifeSpan>
   <!-- EN: Nutrition -->
@@ -461,7 +461,7 @@
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>엄폐율</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>숫자가 높을수록 총격전에서 엄폐물로 사용할 때 효과적으로 총알을 막아냅니다.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>총격전에서 엄폐물로 사용했을 때의 효과입니다.\n\n높으면 더 효과적으로 총알을 막아냅니다.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>경험치 획득 계수</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -471,11 +471,11 @@
   <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
   <WildnessExplanation>야성이 높을수록 길들이거나 훈련하기 어렵습니다.</WildnessExplanation>
   <!-- EN: Training decay interval -->
-  <TrainingDecayInterval>훈련수치 감소 간격</TrainingDecayInterval>
+  <TrainingDecayInterval>훈련 수치 감소 간격</TrainingDecayInterval>
   <!-- EN: Tameness will never decay for animals of very low wildness. -->
-  <TamenessWillNotDecay>매우 낮은 야성을 가진 동물의 유대감은 감소하지 않습니다.</TamenessWillNotDecay>
+  <TamenessWillNotDecay>야성이 매우 낮은 동물은 유대감이 감소하지 않습니다.</TamenessWillNotDecay>
   <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
-  <TamenessWillNotDecayFenceBlocked>울타리를 넘지 못하는 동물의 유대감은 감소하지 않습니다.</TamenessWillNotDecayFenceBlocked>
+  <TamenessWillNotDecayFenceBlocked>울타리를 넘지 못하는 동물은 유대감이 감소하지 않습니다.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>시간</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -493,13 +493,13 @@
   <!-- EN: Tolerance fall rate -->
   <ToleranceFallRate>내성 하락률</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
-  <MinimumToleranceForAddiction>중독성 최소 내성</MinimumToleranceForAddiction>
+  <MinimumToleranceForAddiction>중독 최소 내성</MinimumToleranceForAddiction>
   <!-- EN: Safe dose interval for adults -->
-  <SafeDoseInterval>성인 복용 적절 간격</SafeDoseInterval>
+  <SafeDoseInterval>성인 복용 시 안전 간격</SafeDoseInterval>
   <!-- EN: age {0}-{1} -->
-  <AgeXToY>나이 {0}-{1}</AgeXToY>
+  <AgeXToY>{0}-{1}살</AgeXToY>
   <!-- EN: age {0}+ -->
-  <AgePlus>나이 {0}+</AgePlus>
+  <AgePlus>{0}살 이상</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>중독성</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -517,7 +517,7 @@
   <!-- EN: Addiction cost -->
   <AddictionCost>중독 비용</AddictionCost>
   <!-- EN: Random overdose chance -->
-  <RandomODChance>무작위 과다복용 확률</RandomODChance>
+  <RandomODChance>무작위 과다 복용 확률</RandomODChance>
   <!-- EN: Always safe -->
   <AlwaysSafe>항상 안전함</AlwaysSafe>
   <!-- EN: Never safe -->
@@ -545,17 +545,17 @@
   <!-- EN: {0} skill required -->
   <SkillRequiredToBuild>{0} 기술 필요</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
-  <SkillRequiredToBuildExplanation>{0} 기술이 필요합니다.</SkillRequiredToBuildExplanation>
+  <SkillRequiredToBuildExplanation>건설하려면 {0} 기술 등급이 이보다 높아야 합니다.</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>애교 빈도</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>동물이 우호적인 정착민들에게 얼마나 자주 애교를 부리는지 나타내는 수치입니다.\n\n대부분의 사람들은 동물의 애정어린 행동을 접하면 한동안 기분이 좋아집니다.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>보복 확률</HarmedRevengeChance>
+  <HarmedRevengeChance>피해 시 보복 확률</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
   <HarmedRevengeChanceExplanation>이 생물이 피해를 입었을 때 반격할 확률입니다.\n\n이 확률은 공격자가 가까이 있으면 최대 3배까지 증가합니다.\n\n이 확률은 피해를 입을 때마다 적용됩니다. 즉 발사 속도가 느리고 피해량이 높은 무기는 상대적으로 반격할 확률이 적습니다.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
-  <TameFailedRevengeChance>길들이기 실패시 보복 확률</TameFailedRevengeChance>
+  <TameFailedRevengeChance>길들이기 실패 시 보복 확률</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
   <TerrainRequirement>지형 요구사항</TerrainRequirement>
   <!-- EN: Supports -->
@@ -565,11 +565,11 @@
   <!-- EN: Rearm cost -->
   <RearmCost>재장전 비용</RearmCost>
   <!-- EN: Resources needed to rearm this turret -->
-  <RearmCostExplanation>포탑을 재장전하는 데 필요한 자원</RearmCostExplanation>
+  <RearmCostExplanation>포탑을 재장전하는 데 필요한 자원입니다</RearmCostExplanation>
   <!-- EN: affected by difficulty -->
-  <RearmCostExplanationDifficulty>난이도에 영향을 받음</RearmCostExplanationDifficulty>
+  <RearmCostExplanationDifficulty>난이도에 영향받음</RearmCostExplanationDifficulty>
   <!-- EN: Shots before rearm -->
-  <ShotsBeforeRearm>공격 가능 횟수</ShotsBeforeRearm>
+  <ShotsBeforeRearm>장전 당 공격 횟수</ShotsBeforeRearm>
   <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
   <ShotsBeforeRearmExplanation>재장전되기 전까지 포탑이 얼마나 많이 공격할 수 있는지를 나타냅니다.</ShotsBeforeRearmExplanation>
   <!-- EN: Power consumption -->
@@ -587,9 +587,9 @@
   <!-- EN: ground -->
   <TargetGround>지상</TargetGround>
   <!-- EN: Click to learn more. -->
-  <ClickToLearnMore>자세한 내용을 보려면 클릭하십시오.</ClickToLearnMore>
+  <ClickToLearnMore>자세한 내용을 보려면 클릭하세요.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
-  <ClickToViewFactions>세력들을 확인하려면 클릭하십시오.</ClickToViewFactions>
+  <ClickToViewFactions>세력들을 확인하려면 클릭하세요.</ClickToViewFactions>
   <!-- EN: meditation focus types -->
   <MeditationFocuses>집중명상 유형</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
@@ -621,15 +621,15 @@
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
   <PositiveBuysNegativeSells>양수: 구매\n음수: 판매</PositiveBuysNegativeSells>
   <!-- EN: Price you pay to buy this. -->
-  <BuyPriceDesc>구매하기 위해 지불해야 할 가격</BuyPriceDesc>
+  <BuyPriceDesc>구매하려면 지불해야 하는 가격입니다.</BuyPriceDesc>
   <!-- EN: Price you receive for selling this. -->
-  <SellPriceDesc>판매하여 받는 대금</SellPriceDesc>
+  <SellPriceDesc>판매하면 받는 대금입니다.</SellPriceDesc>
   <!-- EN: For this item, this price is {0}. -->
   <PriceTypeDesc>해당 물품의 가격은 {0}입니다.</PriceTypeDesc>
   <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
-  <ColonyCount>정착지가 지닌 거래 가능한 수량.\n\n판매하기 위해서는 물품이 무역 송신기 근처에 있어야 합니다.</ColonyCount>
+  <ColonyCount>정착지가 지닌 거래 가능한 수량입니다.\n\n무역 송신기 근처에 있는 물품만 판매할 수 있습니다.</ColonyCount>
   <!-- EN: How many of this item the trader has to trade. -->
-  <TraderCount>상인이 보유한 수량</TraderCount>
+  <TraderCount>상인이 보유한 수량입니다.</TraderCount>
   <!-- EN: Accept -->
   <AcceptButton>수락</AcceptButton>
   <!-- EN: Load selected -->
@@ -655,13 +655,13 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>협상가: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>{1_labelShort}의 건강이 좋지 않아 말을 제대로 할 수 없습니다.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>{1_labelShort}의 건강이 좋지 않아 제대로 말을 할 수 없습니다.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>{1_labelShort}의 건강이 좋지 않아 제대로 들을 수 없습니다.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>거래 가격에 악영향을 끼칠 수 있습니다.\n\n더 건강한 협상가로 대체하는걸 고려하세요.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
-  <ConfirmTraderShortFunds>상인이 거래하기에 충분한 양의 은을 보유하고 있지 않습니다. 계속 하시겠습니까?</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>상인이 거래를 감당할 만큼 충분한 은을 보유하고 있지 않습니다. 계속하시겠습니까?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
   <SortBy>정렬</SortBy>
   <!-- EN: trader type -->
@@ -675,7 +675,7 @@
   <!-- EN: difficulty level -->
   <DifficultyLevel>난이도</DifficultyLevel>
   <!-- EN: global post-process curve -->
-  <PostCurve>후처리 비용</PostCurve>
+  <PostCurve>전역 후처리</PostCurve>
   <!-- EN: Your negotiator bonus -->
   <YourNegotiatorBonus>협상가 보너스</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
@@ -685,9 +685,9 @@
   <!-- EN: Joins as colonist -->
   <JoinsAsColonist>정착민으로 합류</JoinsAsColonist>
   <!-- EN: If purchased, this person will join your colony as a slave. -->
-  <JoinsAsSlaveDesc>구입하면 이 사람이 노예로 정착지에 합류합니다.</JoinsAsSlaveDesc> <!--  -->
+  <JoinsAsSlaveDesc>구입하면 이 사람이 정착지에 노예로 합류합니다.</JoinsAsSlaveDesc> <!--  -->
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
-  <JoinsAsColonistDesc>구입하면 이 사람이 정착민으로 정착지에 합류합니다.</JoinsAsColonistDesc>
+  <JoinsAsColonistDesc>구입하면 이 사람이 정착지에 정착민으로 합류합니다.</JoinsAsColonistDesc>
   <!-- EN: Trading drugs bonus -->
   <TradingDrugsBonus>약물 거래 보너스</TradingDrugsBonus>
   <!-- EN: minimum -->
@@ -707,9 +707,9 @@
   <!-- EN: Never visited - stock unknown -->
   <TraderNotVisitedYet>방문 기록 없음 - 재고 추정 불가</TraderNotVisitedYet>
   <!-- EN: Restocked since your last visit -->
-  <TraderRestockedSinceLastVisit>방문 이후 재보충됨</TraderRestockedSinceLastVisit>
+  <TraderRestockedSinceLastVisit>방문 이후 보충됨</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
-  <NextTraderRestock>재보충까지 {0}일 남음</NextTraderRestock>
+  <NextTraderRestock>재고 보충까지 {0}일 남음</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>동물</PawnsTabShort>
   
@@ -951,9 +951,9 @@
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>{0} 정책을 삭제하시겠습니까?</DeletePolicyConfirm>
   <!-- EN: Delete -->
-  <DeletePolicyConfirmButton>제거</DeletePolicyConfirmButton>
+  <DeletePolicyConfirmButton>삭제</DeletePolicyConfirmButton>
   <!-- EN: No policy selected -->
-  <NoPolicySelected>정책 선택되지 않음</NoPolicySelected>
+  <NoPolicySelected>정책이 선택되지 않음</NoPolicySelected>
   
   <!-- Outfit management -->
   <!-- EN: Apparel policies -->
@@ -973,11 +973,11 @@
   <!-- EN: Drug policy -->
   <DrugPolicy>약물 정책</DrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>{0}(이)가 정책에 따라 약물 복용 중</DrugPolicyInUse>
+  <DrugPolicyInUse>{0}(이)가 약물 정책을 사용 중입니다.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
-  <FoodRestrictionInUse>{0}(이)가 정책에 따라 음식 섭취 중</FoodRestrictionInUse>
+  <FoodRestrictionInUse>{0}(이)가 식량 정책을 사용 중입니다.</FoodRestrictionInUse>
   <!-- EN: Add drug... -->
-  <AddDrug>약물 추가</AddDrug>
+  <AddDrug>약물 추가...</AddDrug>
   <!-- EN: Drug -->
   <DrugColumnLabel>약물</DrugColumnLabel>
   <!-- EN: Frequency -->
@@ -1037,7 +1037,7 @@
   <!-- EN: Raw -->
   <FoodRestrictionRaw>생식</FoodRestrictionRaw>
   <!-- EN: Nothing -->
-  <FoodRestrictionNothing>없음</FoodRestrictionNothing>
+  <FoodRestrictionNothing>금식</FoodRestrictionNothing>
   
   <!-- Reading management -->
   <!-- EN: Reading policies -->

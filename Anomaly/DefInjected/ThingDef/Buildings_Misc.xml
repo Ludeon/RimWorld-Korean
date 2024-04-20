@@ -4,7 +4,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
   <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
-  <AtmosphericHeater.description>긁어모은 어둠의 초월공학 파편으로 작동되는 열 분사 장치입니다. 실체강을 태움으로서 대기 분자를 휘저어 지역의 외부 온도를 높입니다. 건물 자체적으로도 많은 양의 폐열을 생산합니다.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>긁어모은 어둠의 초월공학 파편으로 작동되는 열 분사 장치입니다. 생체강을 태움으로서 대기 분자를 휘저어 지역의 외부 온도를 높입니다. 건물 자체적으로도 많은 양의 폐열을 생산합니다.</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>대상 외부 온도</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
@@ -12,7 +12,7 @@
   <Bullet_TacticalTurret.label>전술 포탑 탄환</Bullet_TacticalTurret.label>
   
   <!-- EN: delayed metalhorror emerge -->
-  <DelayedMetalhorrorEmerger.label>지연된 기생철충 출현</DelayedMetalhorrorEmerger.label>
+  <DelayedMetalhorrorEmerger.label>지연된 메탈호러 출현</DelayedMetalhorrorEmerger.label>
   
   <!-- EN: dirt cube sculpture -->
   <DirtCubeSculpture.label>흙 큐브 조각상</DirtCubeSculpture.label>
@@ -151,16 +151,16 @@
   <HoldingSpot.description>위험한 실체를 수용하기 위한 장소입니다. 철재 구속대만큼 좋지는 않지만, 아무것도 없는 것보단 훨씬 낫습니다.\n\n쓰러진 실체를 포획하여 간이 구속대에 확보하고, 그곳에서 연구할 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingSpot.description>
   
   <!-- EN: noctolith -->
-  <Noctolith.label>녹톨리스</Noctolith.label>
+  <Noctolith.label>암귀석</Noctolith.label>
   <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
   <Noctolith.description>어둡고 기름진 금속으로 만들어진 들쭉날쭉한 칼날 모양의 뒤틀린 기둥입니다. 그것의 핵심부는 어둠의 초월공학 기술로 구동되는 에너지로 고동칩니다.\n\n기둥을 파괴하면 어둠의 초월공학 파편을 회수할 수 있습니다.</Noctolith.description>
   <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
-  <Noctolith.comps.CompInspectString.inspectString>내용물: 알 수 없음\n녹톨리스를 파괴해 부자연적 어둠을 끝내세요.</Noctolith.comps.CompInspectString.inspectString>
+  <Noctolith.comps.CompInspectString.inspectString>내용물: 알 수 없음\n암귀석을 파괴해 부자연적 어둠을 끝내세요.</Noctolith.comps.CompInspectString.inspectString>
   
   <!-- EN: pit burrow -->
   <PitBurrow.label>구덩이 굴</PitBurrow.label>
   <!-- EN: A small hole connecting to some unseen cave network deep under the surface. The walls are too steep to climb. It is inherently unstable and will collapse after some time. -->
-  <PitBurrow.description>표면 깊숙이 있는 알 수 없는 동굴 연결망과 연결된 작은 구멍입니다. 벽이 너무 가팔라 기어오를 수 없습니다. 내재적으로 불안정하여 일정 시간이 지나면 붕괴할 겁니다.</PitBurrow.description>
+  <PitBurrow.description>지표면 깊숙한 곳의 알 수 없는 동굴들과 연결된 작은 구멍입니다. 벽이 너무 가팔라 기어오를 수 없습니다. 내부적으로 불안정하여 일정 시간이 지나면 붕괴할 것입니다.</PitBurrow.description>
   
   <!-- EN: underground emergence -->
   <PitBurrowSpawner.label>지하 출현</PitBurrowSpawner.label>
@@ -214,7 +214,7 @@
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>수면 억제기</SleepSuppressor.label>
   <!-- EN: A scavenged archotech shard mounted in an electrical control frame. The device creates a psychic pulsation in the local area which alters the brain chemistry of those nearby, halting the buildup of fatigue toxins and removing the need for sleep. However, it also irritates anyone nearby. -->
-  <SleepSuppressor.description>긁어모은 초월공학 파편으로 만들어진 전기 제어 장치입니다. 장치는 주위 지역에 정신 파동을 만들어, 근처 정착민둘의 뇌의 화학 구조를 바꿔 피로 독소의 축적을 막고 수면욕을 없앱니다. 대신, 격한 짜증을 동반합니다.</SleepSuppressor.description>
+  <SleepSuppressor.description>긁어모은 초월공학 파편으로 만들어진 전기 제어 장치입니다. 장치는 주위 지역에 정신 파동을 만들어, 근처 정착민들의 뇌의 화학 구조를 바꿔 피로 독소의 축적을 막고 수면욕을 없앱니다. 대신 격한 짜증을 동반합니다.</SleepSuppressor.description>
   
   <!-- EN: stone cube sculpture -->
   <StoneCubeSculpture.label>돌 큐브 조각상</StoneCubeSculpture.label>

@@ -74,9 +74,9 @@
 
   <!-- Death Pall -->
   <!-- EN: Death pall clearing -->
-  <LetterLabelDeathPallEnded>잿빛안개 걷히는 중</LetterLabelDeathPallEnded> 
+  <LetterLabelDeathPallEnded>죽음의 안개 걷히는 중</LetterLabelDeathPallEnded> 
   <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
-  <LetterDeathPallEnded>잿빛안개가 걷히고 있습니다. 잿빛안개가 되살린 시체는 곧 원래 상태로 돌아갑니다.</LetterDeathPallEnded>
+  <LetterDeathPallEnded>죽음의 안개가 걷히고 있습니다. 죽음의 안개가 되살린 시체는 곧 원래 상태로 돌아갑니다.</LetterDeathPallEnded>
   
   <!-- Pit Gate -->
   <!-- EN: Pit gate closing -->
@@ -333,7 +333,7 @@
   <!-- EN: Emerged from -->
   <EmergedFrom>다음의 장소에서 출현</EmergedFrom>
   <!-- EN: Metalhorror emerging -->
-  <Emerging>기생철충 출현 중</Emerging>
+  <Emerging>메탈호러 출현 중</Emerging>
   
   <!-- EN: Implanted before arrival at your colony -->
   <ImplantSourceUnknown>정착지 도착 전에 이식됨</ImplantSourceUnknown>
@@ -351,39 +351,39 @@
   <FeedingImplant>{SOURCE_nameDef}(이)가 식사를 먹였을 때 이식됨</FeedingImplant>
 
   <!-- EN: Metalhorror emerging -->
-  <MetalhorrorEmergingLabel>기생철충 출현 중</MetalhorrorEmergingLabel>
+  <MetalhorrorEmergingLabel>메탈호러 출현 중</MetalhorrorEmergingLabel>
   <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
-  <MetalhorrorEmergingDesc>기생철충이 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 숙주의 살과 피부를 가르며 빠져나옵니다.</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingDesc>메탈호러가 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 숙주의 살과 피부를 가르며 빠져나옵니다.</MetalhorrorEmergingDesc>
   <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
-  <MetalhorrorEmergingPluralDesc>기생철충들이 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 다음 숙주들의 살과 피부를 가르며 일제히 빠져나옵니다.</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingPluralDesc>메탈호러들이 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 다음 숙주들의 살과 피부를 가르며 일제히 빠져나옵니다.</MetalhorrorEmergingPluralDesc>
   <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
-  <MetalhorrorEmergingDescAppended>이 끔찍한 금속 기생충은 머리카락 두께의 금속 섬유를 전신에 퍼뜨려 숙주의 사고 과정을 지배합니다. 조종당하는 숙주는 다른 사람들에게 새로운 기생철충을 감염시키도록 유도됩니다.</MetalhorrorEmergingDescAppended>
+  <MetalhorrorEmergingDescAppended>이 끔찍한 금속 기생충은 머리카락 두께의 금속 섬유를 전신에 퍼뜨려 숙주의 사고 과정을 지배합니다. 조종당하는 숙주는 다른 사람들에게 새로운 메탈호러를 감염시키도록 유도됩니다.</MetalhorrorEmergingDescAppended>
   
   <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
-  <MetalhorrorSurgicalInspectionDetails>아래 의사들은 기생철충에 감염되어 조종당해서 검사 결과를 속였습니다.</MetalhorrorSurgicalInspectionDetails>
+  <MetalhorrorSurgicalInspectionDetails>아래 의사들은 메탈호러에 감염되어 조종당해서 검사 결과를 속였습니다.</MetalhorrorSurgicalInspectionDetails>
   
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
-  <MetalhorrorReasonInteraction>{PAWN_nameDef}(이)가 사교 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챘습니다. 몸 속의 기생철충이 튀어나옵니다.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInteraction>{PAWN_nameDef}(이)가 사교 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챘습니다. 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonInteraction>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
-  <MetalhorrorReasonInterrogation>{PAWN_nameDef}(이)가 심문 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챘습니다. 몸 속의 기생철충이 튀어나옵니다.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonInterrogation>{PAWN_nameDef}(이)가 심문 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챘습니다. 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonInterrogation>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because {INFECTED_nameDef} died. -->
-  <MetalhorrorReasonHostDied>{INFECTED_nameDef}(이)가 사망하여 몸 속의 기생철충이 튀어나옵니다.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonHostDied>{INFECTED_nameDef}(이)가 사망하여 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonHostDied>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
-  <MetalhorrorReasonSurgeryInspected>{PAWN_nameDef}(이)가 검사 과정에서 {INFECTED_nameDef}의 이상 조직을 검출했습니다. 몸 속의 기생철충이 튀어나옵니다.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonSurgeryInspected>{PAWN_nameDef}(이)가 검사 과정에서 {INFECTED_nameDef}의 이상 조직을 검출했습니다. 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonSurgeryInspected>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
-  <MetalhorrorReasonRandom>알 수 없는 이유로 {INFECTED_nameDef}의 몸 속에서 기생철충이 튀어나옵니다.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonRandom>알 수 없는 이유로 {INFECTED_nameDef}의 몸 속에서 메탈호러가 튀어나옵니다.</MetalhorrorReasonRandom>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
-  <MetalhorrorReasonTriedToLeaveMap>정착지에서 멀어지자 {INFECTED_nameDef}의 몸 속에서 기생철충이 튀어나옵니다.</MetalhorrorReasonTriedToLeaveMap>
+  <MetalhorrorReasonTriedToLeaveMap>정착지에서 멀어지자 {INFECTED_nameDef}의 몸 속에서 메탈호러가 튀어나옵니다.</MetalhorrorReasonTriedToLeaveMap>
   
   <!-- EN: Metalhorror detected -->
-  <MetalhorrorDetected>기생철충 감지됨</MetalhorrorDetected>
+  <MetalhorrorDetected>메탈호러 감지됨</MetalhorrorDetected>
   <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InteractionDetectedDesc>{PAWN_nameDef}(이)가 {INFECTED_nameDef}(와)과 대화하던 도중 이상한 점을 알아챘습니다. {INFECTED_nameDef}의 행동이 부자연스럽고, 목소리가 이상하고, 동공 속으로 희미한 금속 벌레의 모습이 비칩니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 기생철충에 감염되었다고 의심합니다.</InteractionDetectedDesc>
+  <InteractionDetectedDesc>{PAWN_nameDef}(이)가 {INFECTED_nameDef}(와)과 대화하던 도중 이상한 점을 알아챘습니다. {INFECTED_nameDef}의 행동이 부자연스럽고, 목소리가 이상하고, 동공 속으로 희미한 금속 벌레의 모습이 비칩니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 메탈호러에 감염되었다고 의심합니다.</InteractionDetectedDesc>
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InterrogationDetectedDesc>{PAWN_nameDef}(이)가 {INFECTED_nameDef}(을)를 심문하던 도중 뭔가 이상한 점을 알아챘습니다. {INFECTED_nameDef}의 행동이 부자연스럽고, 목소리가 이상하고, 동공 속으로 희미한 금속 벌레의 모습이 비칩니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 기생철충에 감염되었다고 의심합니다.</InterrogationDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef}(이)가 {INFECTED_nameDef}(을)를 심문하던 도중 뭔가 이상한 점을 알아챘습니다. {INFECTED_nameDef}의 행동이 부자연스럽고, 목소리가 이상하고, 동공 속으로 희미한 금속 벌레의 모습이 비칩니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 메탈호러에 감염되었다고 의심합니다.</InterrogationDetectedDesc>
   
   <!-- EN: Metalhorrors are parasites that control the host and use {INFECTED_objective} to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>기생철충은 숙주를 지배하는 기생체로, {INFECTED_objective}(을)를 사용해 다른 이들을 감염시킵니다.\n\n기생철충은 체내에서 점차 성장하며, 감지되면 숙주의 몸을 베고 빠져나옵니다. 그 과정은 끔찍하지만 숙주는 보통 살아남습니다.\n\n기생철충에 감염되었는지 알 수 있는 유일한 방법은 기생철충의 잔여물을 연구해 생명신호를 확인한 후, 믿음직한 의사에게 외과 검사 작업을 맡기는 것입니다.\n\n이를 통해 기생철충이 숙주에서 나오도록 유도할 수 있습니다. 그리고 전투를 준비하세요.</MetalhorrorNoticedDetailsAppended>
+  <MetalhorrorNoticedDetailsAppended>메탈호러는 숙주를 지배하는 기생체로, {INFECTED_objective}(을)를 사용해 다른 이들을 감염시킵니다.\n\n메탈호러는 체내에서 점차 성장하며, 감지되면 숙주의 몸을 베고 빠져나옵니다. 그 과정은 끔찍하지만 숙주는 보통 살아남습니다.\n\n메탈호러에 감염되었는지 알 수 있는 유일한 방법은 메탈호러의 잔여물을 연구해 생명신호를 확인한 후, 믿음직한 의사에게 외과 검사 작업을 맡기는 것입니다.\n\n이를 통해 메탈호러가 숙주에서 나오도록 유도할 수 있습니다. 그리고 전투를 준비하세요.</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>회색 살점</LetterGrayFleshDiscoveredLabel>
@@ -401,12 +401,12 @@
   <LetterGrayFleshMethodThree>의심되는 사람은 누구나 처형하거나 추방하세요.</LetterGrayFleshMethodThree>
   
   <!-- EN: Metalhorrors awakening -->
-  <LetterMetalhorrorReawakeningLabel>기생철충 깨어나는 중</LetterMetalhorrorReawakeningLabel>
+  <LetterMetalhorrorReawakeningLabel>메탈호러 깨어나는 중</LetterMetalhorrorReawakeningLabel>
   <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
-  <LetterMetalhorrorReawakening>기생철충이 방해를 받아 다시 깨어나는 중입니다!</LetterMetalhorrorReawakening>
+  <LetterMetalhorrorReawakening>메탈호러가 방해를 받아 다시 깨어나는 중입니다!</LetterMetalhorrorReawakening>
 
   <!-- EN: The metalhorrors are beginning to hibernate. They will awaken again if disturbed. -->
-  <MessageMetalHorrorDormant>기생철충이 동면을 시작합니다. 방해를 받으면 다시 깨어납니다.</MessageMetalHorrorDormant>
+  <MessageMetalHorrorDormant>메탈호러가 동면을 시작합니다. 방해를 받으면 다시 깨어납니다.</MessageMetalHorrorDormant>
   
   <!-- EN: Hibernating. Will awaken if disturbed. -->
   <MetalhorrorDormant>동면 중. 방해 받으면 깨어남.</MetalhorrorDormant>
@@ -783,7 +783,7 @@
   <MonolithAutoActivatedText>모노리스의 변화가 거의 끝났습니다...</MonolithAutoActivatedText>
 
   <!-- EN: Gray pall -->
-  <LetterLabelGrayPallDescending>회색 막</LetterLabelGrayPallDescending>
+  <LetterLabelGrayPallDescending>잿빛 안개</LetterLabelGrayPallDescending>
   <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
   <LetterGrayPallDescending>거친 안개의 막이 이 지역에 내려앉았습니다. 안개에선 어째선지 피부를 찌를듯한 고대의 냄새가 납니다. 이 부자연스러운 회색은 공포를 불러일으킵니다.</LetterGrayPallDescending>
 
@@ -830,7 +830,7 @@
   
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
-  <BioferriteHarvesterContained>실체강 생산됨</BioferriteHarvesterContained>
+  <BioferriteHarvesterContained>생체강 생산됨</BioferriteHarvesterContained>
   <!-- EN: per day -->
   <BioferriteHarvesterPerDay>/ 일</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
@@ -838,9 +838,9 @@
   <!-- EN: Eject all contained {0} onto the ground. -->
   <BioferriteHarvesterEjectContentsDesc>담겨있는 모든 {0}(을)를 바닥으로 배출합니다.</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>실체강 비우기 토글</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>생체강 비우기 토글</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>활성화 시, 정착민이 수확기에 실체강이 가득 차면 자동으로 비울 겁니다.</BioferriteHarvesterToggleUnloadingDesc>
+  <BioferriteHarvesterToggleUnloadingDesc>활성화 시, 정착민이 수확기에 생체강이 가득 차면 자동으로 비울 겁니다.</BioferriteHarvesterToggleUnloadingDesc>
   
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->

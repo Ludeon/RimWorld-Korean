@@ -79,44 +79,44 @@
   <PleasurePulseCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 다음 {1} 동안, {RITUAL_definite}에 영향 받는 모두는 더 행복해지지만 느리게 작업할 겁니다.</PleasurePulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
-  <NeurosisPulseCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 다음 {1} 동안, 파동을 듣는 모두는 더 빠르게 일하지만 짜증이 날 겁니다.</NeurosisPulseCompleteText>
+  <NeurosisPulseCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 파동을 받은 사람들은 다음 {1} 동안 짜증이 심해지지만 더 빠르게 일합니다.</NeurosisPulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
-  <BloodRainCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 걸쭉한 빨간 물방울이 하늘에서 떨어지기 시작했습니다. 모두를 실내에 있게 하여 광란에서 지키세요.</BloodRainCompleteText>
+  <BloodRainCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 걸쭉한 빨간 물방울이 하늘에서 떨어지기 시작했습니다. 실내에 있는 사람들은 광란의 영향에서 안전합니다.</BloodRainCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
   <BrainwipeCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 완료하여, {TARGET_nameDef}의 기억을 무질서하게 삭제했습니다.</BrainwipeCompleteText>
   <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
-  <BrainwipeTargetComa>{TARGET_pronoun}(이)가 {1} 동안 혼수상태에 있을 겁니다.</BrainwipeTargetComa>
+  <BrainwipeTargetComa>{TARGET_pronoun}(이)가 {1} 동안 혼수상태에 빠집니다.</BrainwipeTargetComa>
   <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
-  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef}에게는 이제 확고한 충성심이 없습니다.</BrainwipeUnwaveringlyLoyal>
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef}의 확고한 충성심이 사라집니다.</BrainwipeUnwaveringlyLoyal>
   <!-- EN: {TARGET_nameDef} has been re-humanized. -->
   <BrainwipeRehumanized>{TARGET_nameDef}(이)가 인간성을 회복했습니다.</BrainwipeRehumanized>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
-  <PsychophagyCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 완료하여 {TARGET_nameDef}의 정신체를 먹었습니다.</PsychophagyCompleteText>
+  <PsychophagyCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 완료하여 {TARGET_nameDef}의 초정신 능력을 흡수합니다.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PsychophagyTargetSurvived>{TARGET_nameDef}은 이제 정신적 무감각 상태입니다. 그 과정은 {TARGET_nameDef}의 뇌를 손상시켜, {TARGET_objective}(을)를 혼수 상태에 빠지게 만들었습니다.</PsychophagyTargetSurvived>
+  <PsychophagyTargetSurvived>{TARGET_nameDef}은 이제 정신적 무감각 상태입니다. 진행 과정에서 {TARGET_nameDef}의 뇌가 손상되어, {TARGET_pronoun}가 혼수 상태에 빠집니다.</PsychophagyTargetSurvived>
   
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
-  <PsychicRitualTargetBrainLiquified>이 과정은 {TARGET_nameDef}의 뇌를 액화해, {TARGET_objective}(을)를 죽였습니다.</PsychicRitualTargetBrainLiquified>
+  <PsychicRitualTargetBrainLiquified>진행 과정에서 {TARGET_nameDef}의 뇌가 녹아내려 {TARGET_objective}(이)가 사망합니다.</PsychicRitualTargetBrainLiquified>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
-  <SummonFleshbeastsPlayerCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 살짐승이 땅에서 출현 중입니다!</SummonFleshbeastsPlayerCompleteText>
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 땅속에서 살짐승이 나타납니다.</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}에 실체강 주입을 끝냈습니다. 의식은 {TARGET_nameDef}의 정신을 왜곡하고 {TARGET_possessive}의 몸을 변형시켜, 구울이라고 알려진 무서운 생물을 만들었습니다. {INVOKER_nameDef}(은)는 {TARGET_nameDef}(와)과의 정신적 연결을 공유하며, {INVOKER_objective}(이)가 {TARGET_nameDef}(을)를 조종할 수 있게 합니다.\n\n구울은 생존하기 위해 생고기를 먹습니다. 구울이 배고파지면, 적대적으로 변합니다.</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}에 대한 생체강 주입을 끝냈습니다. 의식은 {TARGET_nameDef}의 정신을 왜곡하고 몸을 변형시켜, 구울이라고 알려진 무서운 생물을 만들었습니다. {INVOKER_nameDef}(은)는 정신적 연결을 이용하여 {TARGET_nameDef}(을)를 자신의 뜻대로 조종할 수 있습니다.\n\n구울은 생존하기 위해 생고기를 필요로 합니다. 굶주린 구울은 적대적으로 변합니다.</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
-  <AttackersMayCastRitualMultipleTimes>그들이 의식을 여러 차례 행할 수 있습니다. 그들을 멈춰야 합니다.</AttackersMayCastRitualMultipleTimes>
+  <AttackersMayCastRitualMultipleTimes>그들은 의식을 여러 차례 진행할 수 있습니다. 그들을 멈춰야 합니다.</AttackersMayCastRitualMultipleTimes>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
-  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 끝냈습니다. 시공간을 조종하여, {INVOKER_nameDef}(은)는 {FACTION_name} 세력의 {TARGET_nameDef}(을)를 납치했습니다. 의식의 무서운 본성이 {TARGET_nameDef}(을)를 단기간의 혼수 상태에 빠지게 했습니다.</SkipAbductionPlayerCompleteText>
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 끝마쳤습니다. 시공간을 조종하여, {INVOKER_nameDef}(은)는 {FACTION_name} 세력의 {TARGET_nameDef}(을)를 불러들였습니다. 의식의 끔찍한 요소 때문에 {TARGET_nameDef}(은)는 짧은 혼수 상태에 빠집니다.</SkipAbductionPlayerCompleteText>
 
   <!-- EN: Fleshmass response -->
   <FleshmassResponseLabel>살덩이 반응</FleshmassResponseLabel> 
   <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
-  <FleshmassResponseText>살덩이의 죽음이 격렬한 반응을 촉발했습니다! 살덩이는 스스로를 보호하기 위해 새로운 살짐승을 탄생시키며 몸을 떨고 있습니다.</FleshmassResponseText> 
+  <FleshmassResponseText>죽은 살덩이가 격렬한 반응을 일으킵니다! 살덩이는 스스로 보호하기 위해 몸을 경련하며 새로운 살짐승을 탄생시킵니다.</FleshmassResponseText> 
 
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
@@ -132,21 +132,21 @@
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence. -->
   <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef}(이)가 모노리스를 활성화하고 우리의 시공간에서 떨어져 나와 다른 공간으로 도착했습니다.\n\n{STUDIER_pronoun}(은)는 {STUDIER_objective}(이)가 삐죽삐죽한 금속 못이 있는 방에 있음을 깨달았습니다. 모든 표면은 어두운 액체로 번드르르하고, 공기는 힘으로 진동합니다. 이 금속의 지옥은 비인간적 초지능과의 연결 통로입니다.\n\n{STUDIER_nameDef}(이)가 악몽 같은 정신의 영향력을 우리 세계에 흘려보내는 공허 노드를 찾았습니다. 노드와 상호작용해 그 힘을 받아들이거나, 파괴하여 연결을 완전히 끊어내세요.</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
-  <VoidAwakeningShamblerArrivalLabel>휘청이는 자 공격</VoidAwakeningShamblerArrivalLabel>
+  <VoidAwakeningShamblerArrivalLabel>휘청이는 자의 습격</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
-  <VoidAwakeningShamblerArrivalText>휘청이는 자 무리가 공허 구조물에 이끌렸습니다. 준비하세요!</VoidAwakeningShamblerArrivalText>
+  <VoidAwakeningShamblerArrivalText>휘청이는 자들의 무리가 공허 구조물에 이끌렸습니다. 전투를 준비하세요!</VoidAwakeningShamblerArrivalText>
   <!-- EN: Fleshbeast tunneling -->
-  <VoidAwakeningFleshbeastBurrowLabel>살짐승 굴 뚫는 중</VoidAwakeningFleshbeastBurrowLabel>
+  <VoidAwakeningFleshbeastBurrowLabel>살짐승의 땅굴 공격</VoidAwakeningFleshbeastBurrowLabel>
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
-  <VoidAwakeningFleshbeastBurrowText>모노리스가 강력한 정신파동을 생성해, 근처 실체를 끌어들였습니다.\n\n땅 아래에서, 고기의 비명과 할퀴어대는 발톱 소리가 들립니다. 살짐승이 당신을 향해 굴을 뚫고 있습니다. 준비하세요!</VoidAwakeningFleshbeastBurrowText>
+  <VoidAwakeningFleshbeastBurrowText>모노리스가 강력한 정신파동을 생성하여 근처의 실체를 블러들이고 있습니다.\n\n땅 아래에서 고기의 비명과 할퀴어대는 발톱 소리가 들립니다. 살짐승이 당신을 향해 굴을 뚫고 있습니다. 전투를 준비하세요!</VoidAwakeningFleshbeastBurrowText>
   <!-- EN: Metalhorror attack -->
-  <VoidAwakeningMetalhorrorArrivalLabel>기생철충 공격</VoidAwakeningMetalhorrorArrivalLabel>
+  <VoidAwakeningMetalhorrorArrivalLabel>메탈호러 공격</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
-  <VoidAwakeningMetalhorrorArrivalText>기생철충이 공허 모노리스 근처에서 나타나고 있습니다. 준비하세요!</VoidAwakeningMetalhorrorArrivalText>
+  <VoidAwakeningMetalhorrorArrivalText>메탈호러가 공허 모노리스 근처에서 나타나고 있습니다. 준비하세요!</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
   <VoidAwakeningEntityArrivalLabel>실체 공격</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
-  <VoidAwakeningEntityArrivalText>활성화된 공허 구조물이 뒤틀린 정신파동을 생성하여, 근처 실체를 끌어들이는 중입니다. 준비하세요!</VoidAwakeningEntityArrivalText>
+  <VoidAwakeningEntityArrivalText>활성화된 공허 구조물이 뒤틀린 정신파동을 생성하여, 근처의 실체를 불러들이고 있습니다. 전투를 준비하세요!</VoidAwakeningEntityArrivalText>
   <!-- EN: Embrace the void -->
   <VoidAwakeningBreadcrumbLetterLabel>공허를 받아들이기</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
@@ -222,7 +222,7 @@
   <!-- EN: Darkness wavering -->
   <DarknessWaveringLetterLabel>떨리는 어둠</DarknessWaveringLetterLabel>
   <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
-  <DarknessWaveringLetterText>녹톨리스의 파괴와 함께, 어둠 속에서 희미한 틈이 나타나고, 틈은 더 많은 검은색으로 채워집니다.\n\n남은 녹톨리스를 파괴해 부자연적 어둠을 끝내세요.</DarknessWaveringLetterText>
+  <DarknessWaveringLetterText>암귀석의 파괴와 함께, 어둠 속에서 희미한 틈이 나타나고, 틈은 더 많은 검은색으로 채워집니다.\n\n남은 암귀석을 파괴해 부자연적 어둠을 끝내세요.</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
   <!-- EN: Shamblers approach -->
@@ -287,8 +287,8 @@
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>공허 호기심</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 실체강 수확기에 연결해 실체강을 생성할 수 있습니다.\n\n초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강 수확기에 연결해 생체강을 생성할 수 있습니다.\n\n초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 실체강 수확기에 연결해 실체강을 생성할 수 있습니다.\n\n공허 소환을 연구하고, 초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강 수확기에 연결해 생체강을 생성할 수 있습니다.\n\n공허 소환을 연구하고, 초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_NotResearched>
 
 </LanguageData>

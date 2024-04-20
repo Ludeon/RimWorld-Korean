@@ -113,7 +113,7 @@
   <!-- EN: Randomize seed -->
   <RandomizeSeed>무작위 초기 시드값</RandomizeSeed>
   <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
-  <PlanetCoverageTip>행성의 지름은 언제나 같지만, 실제 플레이 영역보다는 훨씬 거대하기 때문에 시간을 아끼기 위해 전체 표면을 생성하지는 않습니다. 이 설정을 통해 플레이 영역을 선택할 수 있습니다.</PlanetCoverageTip>
+  <PlanetCoverageTip>생성되는 행성의 지름은 언제나 같지만 전체 지표면의 넓이가 실제 플레이에 필요한 영역보다 훨씬 거대하기 때문에, 시간을 아끼기 위해 행성 표면 전체를 생성하지 않습니다. 이 설정으로 생성할 지표면의 백분율을 설정할 수 있습니다.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>세력</WorldFactionsTab>
 
@@ -595,7 +595,7 @@
   <!-- EN: per year -->
   <PerYear>매년</PerYear>
   <!-- EN: Forageability -->
-  <Forageability>수렵능력</Forageability>
+  <Forageability>채집력</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>선택된 구성원 중 다음 작업을 수행할 수 없습니다:\n\n{0}\n\n평소보다 게임이 더 어려울 수 있습니다. 계속 하시겠습니까?</ConfirmRequiredWorkTypeDisabledForEveryone>
   <!-- EN: temperature -->
