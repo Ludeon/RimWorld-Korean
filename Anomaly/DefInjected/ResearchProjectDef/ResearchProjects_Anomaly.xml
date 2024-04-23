@@ -16,7 +16,7 @@
   <AdvancedPsychicRituals.generalRules.rulesStrings>
     <li>subject->고급 초정신 의식</li>
     <li>subject_story->오컬트 모임에 초대되었습니다</li>
-    <li>subject_story->추방된 오컬트 마스터를 만났는데, 그는 그의 비밀들을 행복하게 뽐냈습니다</li>
+    <li>subject_story->자신의 여러 비밀들을 자랑스레 뽐내는 추방된 광신도 사제를 만났습니다. </li>
     <li>subject_story->의식의 제물에 대한 이해가 깊어졌습니다</li>
     <li>subject_story->Ix 대학의 초능력 역사 교수로 임명되었습니다</li>
     <li>subject_gerund->고급 초정신 의식 수행</li>
@@ -62,7 +62,7 @@
   -->
   <BasicPsychicRituals.generalRules.rulesStrings>
     <li>subject->초정신 의식</li>
-    <li>subject_story->호락스 숭배자들의 의식을 연구했습니다</li>
+    <li>subject_story->호락스 광신도들의 의식을 연구했습니다</li>
     <li>subject_story->재건된 원시제단입니다</li>
     <li>subject_story->정신적 의사소통의 기초를 확립했습니다</li>
     <li>subject_story->죽음계에서 실패한 공허 소환 의식을 지켜봤습니다</li>
@@ -100,7 +100,7 @@
   <!-- EN: bioferrite harvesting -->
   <BioferriteHarvesting.label>생체강 수확</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>생체강 수확기를 건설하여 구속대에 억제된 포획 실체에게서 생체강을 생산하세요.</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>생체강 수확기를 건설하여 구속대에 억제된 실체로부터 생체강을 생산하세요.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -278,9 +278,9 @@
   </DeadlifeDust.generalRules.rulesStrings>
   
   <!-- EN: death refusal -->
-  <DeathRefusal.label>죽음 거부</DeathRefusal.label>
+  <DeathRefusal.label>죽음 거부권</DeathRefusal.label>
   <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
-  <DeathRefusal.description>초정신 의식을 행하여 개인에게 죽음 거부를 부여하고 죽은 뒤 한 번 자가 부활할 수 있게 하세요.</DeathRefusal.description>
+  <DeathRefusal.description>죽음 거부권을 부여하는 초정신 의식을 행하여, 정착민이 죽은 뒤에도 스스로 부활할 수 있게 하세요.</DeathRefusal.description>
   <!-- EN:
     <li>subject->death refusal invocation</li>
     <li>subject_story->investigated tales of impossible survival</li>
@@ -291,19 +291,19 @@
     <li>subject_gerund->performing a ritual to rebuke death</li>
   -->
   <DeathRefusal.generalRules.rulesStrings>
-    <li>subject->죽음 거부의 기원</li>
+    <li>subject->죽음 거부권의 기원</li>
     <li>subject_story->불가능한 생존 이야기를 조사했습니다</li>
     <li>subject_story->VII의 최후의 전투에서 발생한 수많은 사상자의 마지막 순간을 관찰했습니다</li>
     <li>subject_story->에스허의 우르 예언자의 부활 시도에 참여했습니다</li>
-    <li>subject_story->중심계의 도서관에서 죽음 거부를 시행했다는 증거를 수집했습니다</li>
+    <li>subject_story->중심계의 도서관에서 죽음 거부권과 관련된 자료를 수집했습니다</li>
     <li>subject_gerund->죽음을 막았습니다</li>
     <li>subject_gerund->죽음을 책망하는 의식을 진행했습니다</li>
   </DeathRefusal.generalRules.rulesStrings>
   
   <!-- EN: disruptor flares -->
-  <DisruptorFlares.label>교란 신호탄</DisruptorFlares.label>
+  <DisruptorFlares.label>교란 조명탄</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>보이지 않는 생명체를 드러내고 구역을 밝히는 생체강 기반 신호탄 가방을 만드세요.</DisruptorFlares.description>
+  <DisruptorFlares.description>보이지 않는 생명체를 드러내고 구역을 밝히는 생체강 기반 조명탄 배낭을 만드세요.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -315,20 +315,20 @@
     <li>subject_gerund->crafting bioferrite flares</li>
   -->
   <DisruptorFlares.generalRules.rulesStrings>
-    <li>subject->생철석 폭발</li>
-    <li>subject->짧은 기간 한정 채광</li>
-    <li>subject_story->비시각적 전자기 빛 굴절을 연구했습니다</li>
+    <li>subject->생체강 폭발</li>
+    <li>subject->임시 광원</li>
+    <li>subject_story->비가시광선 전자기 스펙트럼을 연구했습니다</li>
     <li>subject_story->실험 대상의 시야 중심을 비활성화했습니다</li>
     <li>subject_story->어둠계 동물군의 생체발광 기술을 연구했습니다</li>
-    <li>subject_story->초월입자 에너지 방출의 전자기 빛 굴절을 좁혔습니다</li>
+    <li>subject_story->초월입자가 에너지를 방출할 때 발생하는 전자기 스펙트럼을 좁혔습니다</li>
     <li>subject_gerund->일시적 가시성 상승</li>
-    <li>subject_gerund->생철석 조명탄 제작</li>
+    <li>subject_gerund->생체강 조명탄 제작</li>
   </DisruptorFlares.generalRules.rulesStrings>
   
   <!-- EN: electroharvester -->
-  <Electroharvester.label>전기 수확기계</Electroharvester.label>
+  <Electroharvester.label>전기 수확기</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
-  <Electroharvester.description>억제된 상태의 실체에서 전력을 끌어내는 발전기를 건설합니다. 이 과정은 실체를 악화시켜, 실체를 억제하기 힘들게 합니다.</Electroharvester.description>
+  <Electroharvester.description>억제된 실체로부터 전력을 끌어내는 발전기를 건설합니다. 이 과정은 실체를 분노하게 하므로, 억제하기 더 어려워집니다.</Electroharvester.description>
   <!-- EN:
     <li>subject->entity-derived power generation</li>
     <li>subject_story->researched ion pumps in cell membranes</li>
@@ -342,10 +342,10 @@
     <li>subject->실체-기반 전력생산</li>
     <li>subject_story->세포막의 아이온펌프를 연구했습니다</li>
     <li>subject_story->지구의 희귀한 전기뱀장어를 연구했습니다</li>
-    <li>subject_story->초월입자를 자극시키고 그에대한 열 출력량을 연구했습니다</li>
+    <li>subject_story->초월입자를 자극하고 그것의 방출열에 관해 연구했습니다</li>
     <li>subject_story->초월공학의 에너지 포텐셜에 관한 이론을 설립했습니다</li>
     <li>subject_gerund->실체로부터 수확</li>
-    <li>subject_gerund->전기추출기 건설</li>
+    <li>subject_gerund->전기 수확기 건설</li>
   </Electroharvester.generalRules.rulesStrings>
   
   <!-- EN: entity containment -->
@@ -416,7 +416,7 @@
   <!-- EN: ghoul infusion -->
   <GhoulInfusion.label>구울 주입</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>살아 있는 사람에게 초월공학 파편을 주입하여, 사람을 무서운 구울로 만드는 수술을 행하세요. 구울은 강한 근접 전투원이지만 작업을 할 수 없습니다. 충분한 생고기를 먹지 않으면 구울은 화가 날 겁니다.</GhoulInfusion.description>
+  <GhoulInfusion.description>살아 있는 사람에게 초월공학 파편을 주입하여, 사람을 무서운 구울로 만드는 수술을 행하세요. 구울은 강한 근접 전투원이지만 작업을 할 수 없습니다. 충분한 생고기를 먹지 않으면 구울은 미쳐버릴 것입니다.</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -661,7 +661,7 @@
     <li>subject_story->고대의 유흥영상을 보고 영감을 받았습니다</li>
     <li>subject_story->간단한 구조의 정신에 반응하는 장치의 시제품을 제작했습니다</li>
     <li>subject_story->죽음계 초소의 초기 경보 시스템을 관리했습니다</li>
-    <li>subject_story->교차시스템 패턴 감지를 위한 다중밴드 탐지기를 연구했습니다</li>
+    <li>subject_story->교차시스템 패턴 감지를 위한 다중 대역 탐지기를 연구했습니다</li>
     <li>subject_gerund->보이지 않는것을 밝히는 것</li>
     <li>subject_gerund->투명한 생명체를 감지하기</li>
   </ProximityDetector.generalRules.rulesStrings>
@@ -692,7 +692,7 @@
   <!-- EN: revenant invisibility -->
   <RevenantInvisibility.label>망령 투명화</RevenantInvisibility.label>
   <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
-  <RevenantInvisibility.description>망령 척추를 수정해 인간에게 이식하여 인간이 일시적으로 투명해질 수 있게 하세요.</RevenantInvisibility.description>
+  <RevenantInvisibility.description>망령 척추를 조정해 인간에게 이식하여 일시적으로 투명해질 수 있게 합니다.</RevenantInvisibility.description>
   <!-- EN:
     <li>subject->invisibility</li>
     <li>subject_story->implanted a monster's spine into a human, without considering the consequences</li>
@@ -752,7 +752,7 @@
     <li>subject->도약 납치</li>
     <li>subject_story->황실 귀족 납치 시도를 목격했습니다</li>
     <li>subject_story->약탈자들이 몸값을 지불했습니다</li>
-    <li>subject_story->종교 지도자가 수행한 실패한 이동 의식을 관찰했습니다</li>
+    <li>subject_story->광신도 지도자가 이동 의식이 실패하는 모습을 관찰했습니다</li>
     <li>subject_story->초월공학을 매개로 한 초공간 전이를 연구했습니다</li>
     <li>subject_gerund->초집중 의식으로 적을 납치</li>
     <li>subject_gerund->도약 납치 의식 수행</li>

@@ -6,23 +6,23 @@
   <!-- EN: These entities are at dangerously high activity levels -->
   <ActivityDangerousDesc>다음 실체의 활성 등급이 위험할 정도로 높습니다</ActivityDangerousDesc>  
   <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
-  <ActivityDangerousDescAppended>실체의 활동이 100%에 도달하면, 위험해집니다.\n\n간수를 보내 이 실체를 억제하거나 실체의 활동 패널을 사용해 자동 억제를 활성화하세요.</ActivityDangerousDescAppended>
+  <ActivityDangerousDescAppended>실체의 활성 등급이 100%에 도달하면 위험한 일이 일어납니다.\n\n간수를 보내 실체를 억제하거나, 자동 억제를 활성화하세요.</ActivityDangerousDescAppended>
 
   <!-- EN: Need anomaly project -->
-  <NeedAnomalyProject>이상 과제 필요함</NeedAnomalyProject>
+  <NeedAnomalyProject>이상 현상 연구 과제 필요</NeedAnomalyProject>
   <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
-  <NeedAnomalyProjectDesc>연구를 위해 표시된 실체가 있지만 일치하는 이상 연구 과제가 선택되지 않았습니다.</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDesc>연구 중인 실체와 연관된 이상 현상 연구 과제가 선택되지 않았습니다.</NeedAnomalyProjectDesc>
   <!-- EN: Need {NAME} anomaly research project -->
-  <NeedAnomalyProjectDescLine>{NAME} 이상 연구 과제 필요함</NeedAnomalyProjectDescLine>
+  <NeedAnomalyProjectDescLine>{NAME} 이상 현상 연구 과제 필요</NeedAnomalyProjectDescLine>
   <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
-  <NeedAnomalyProjectDescAppended>연구 메뉴를 열어 이상 창에서 과제를 선택하세요.\n\n기본 및 고급 연구 과제를 동시에 선택할 수 있습니다.\n\n(클릭하여 연구 메뉴를 여세요.)</NeedAnomalyProjectDescAppended>
+  <NeedAnomalyProjectDescAppended>연구 메뉴를 열고 이상 현상 탭에서 원하는 연구 과제를 선택하세요.\n\n기본 및 고급 연구 과제를 동시에 선택할 수 있습니다.\n\n(클릭하여 연구 메뉴를 여세요.)</NeedAnomalyProjectDescAppended>
 
   <!-- EN: Visitor ignored -->
-  <CreepJoinerTimeout>무시되는 방문객</CreepJoinerTimeout>
+  <CreepJoinerTimeout>무시당한 방문객</CreepJoinerTimeout>
   <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
-  <CreepJoinerTimeoutDesc>다음 방문객은 무시당했다고 느끼며 더욱 화를 냅니다.</CreepJoinerTimeoutDesc>
+  <CreepJoinerTimeoutDesc>다음 방문객은 무시당했다고 느끼며 분노합니다.</CreepJoinerTimeoutDesc>
   <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
-  <CreepJoinerTimeoutDescAppended>정착민을 선택하고 방문객을 우클릭하세요.\n\n빠르게 행동하세요... 방문객은 무시당하는 것을 싫어합니다.</CreepJoinerTimeoutDescAppended>
+  <CreepJoinerTimeoutDescAppended>정착민을 선택하고 방문객을 우클릭하세요.\n\n서두르세요... 방문객은 무시당하는 것을 싫어합니다.</CreepJoinerTimeoutDescAppended>
 
   <!-- EN: Undercave unstable -->
   <Alert_UndercaveUnstable>불안정한 지하동굴</Alert_UndercaveUnstable>
@@ -32,7 +32,7 @@
   <!-- EN: Cultist psychic ritual -->
   <Alert_CultistPsychicRitual>광신도 초정신 의식</Alert_CultistPsychicRitual>
   <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
-  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 행하기 시작했습니다. 만약 {INVOKER_objective}(을)를 방해하지 않으면 나쁜 일이 일어날 겁니다.</Alert_CultistPsychicRitualDesc>
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 행하기 시작했습니다. 의식이 성공하면 좋지 않은 일이 일어날 겁니다.</Alert_CultistPsychicRitualDesc>
 
   <!-- EN: Ghoul starvation -->
   <AlertMeatHunger>굶주린 구울</AlertMeatHunger>
@@ -51,12 +51,12 @@
   <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
   <Alert_InsufficientContainmentDesc>다음 실체가 최소 억제력을 충족시키지 않는 방에 갇혀 있습니다</Alert_InsufficientContainmentDesc>
   <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
-  <Alert_InsufficientContainmentDescAppended>실체가 곧 탈출할 것입니다. 더 강한 벽과 문, 억제 장치를 설치하여 실체를 가두세요.</Alert_InsufficientContainmentDescAppended>
+  <Alert_InsufficientContainmentDescAppended>실체가 곧 탈출할 것입니다. 더 강한 벽과 문, 억제 장치를 설치하여 실체를 격리하세요.</Alert_InsufficientContainmentDescAppended>
 
   <!-- EN: Holding platforms needed -->
   <AlertHoldingPlatform>구속대 필요</AlertHoldingPlatform>
   <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
-  <AlertHoldingPlatformDesc>구속대를 짓거나 간이 구속대를 배치해 포획한 실체를 억제하고 연구하세요.</AlertHoldingPlatformDesc>
+  <AlertHoldingPlatformDesc>구속대나 간이 구속대를 설치해, 포획한 실체를 억제하고 연구하세요.</AlertHoldingPlatformDesc>
 
   <!-- EN: Cube withdrawal -->
   <AlertCubeWithdrawal>큐브 금단 현상</AlertCubeWithdrawal>
@@ -80,7 +80,7 @@
   <!-- EN: Entity treatment needed -->
   <EntityNeedsTreatment>실체 치료 필요</EntityNeedsTreatment>
   <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
-  <EntityNeedsTreatmentDesc>이 실체는 치료가 필요합니다. 치료를 하지 않으면 감금 상태에서 죽을 수도 있습니다.\n{0}\n\n의사를 보내 치료하세요.</EntityNeedsTreatmentDesc>
+  <EntityNeedsTreatmentDesc>이 실체는 치료가 필요합니다. 치료를 하지 않으면 구속 상태에서 죽을 수도 있습니다.\n{0}\n\n의사를 보내 치료하세요.</EntityNeedsTreatmentDesc>
 
   <!-- EN: Ghoul hypothermia -->
   <AlertGhoulHypothermia>구울 저체온증</AlertGhoulHypothermia>
@@ -90,7 +90,7 @@
   <!-- EN: Gray flesh -->
   <AlertGrayFleshSample>회색 살점</AlertGrayFleshSample>
   <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
-  <AlertGrayFleshSampleDesc>회색의 생체 조직이 발견됐습니다. 이것을 분석하여 생체신호에 대해 연구하세요.</AlertGrayFleshSampleDesc>
+  <AlertGrayFleshSampleDesc>회색의 살점 조직이 발견됐습니다. 이것을 분석하여 생체신호에 대해 연구하세요.</AlertGrayFleshSampleDesc>
   <!-- EN: Neural lump -->
   <AlertNeuralLump>신경 혹</AlertNeuralLump>
   <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
@@ -98,6 +98,6 @@
   <!-- EN: Revenant flesh -->
   <AlertRevenantFlesh>망령 살점</AlertRevenantFlesh>
   <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
-  <AlertRevenantFleshDesc>상처 입은 망령이 신체의 일부를 남겼습니다. 이 살 덩어리를 분석해 망령 추적 방법을 배울 수 있습니다.</AlertRevenantFleshDesc>
+  <AlertRevenantFleshDesc>상처 입은 망령이 신체의 일부를 남겼습니다. 이 살 덩어리를 분석해 망령을 추적할 방법을 배울 수 있습니다.</AlertRevenantFleshDesc>
 
 </LanguageData>

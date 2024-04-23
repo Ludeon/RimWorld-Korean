@@ -22,7 +22,7 @@
   <!-- EN: electric inhibitor -->
   <ElectricInhibitor.label>전기 억제기</ElectricInhibitor.label>
   <!-- EN: A device that emits a specially tuned electromagnetic field which numbs the neural activity of captured entities. As long as it is powered, it improves the containment strength of any holding platform that it is pointed at. The electric field does not affect humans or normal animals. -->
-  <ElectricInhibitor.description>특별히 조정된 전자기장을 방출하여 포획된 실체의 신경 활동을 마비시키는 장치입니다. 동력이 공급되는 한, 가리키고 있는 모든 구속대의 억제력을 향상시킵니다. 전기장은 인간 혹은 일반 동물에는 영향을 주지 않습니다.</ElectricInhibitor.description>
+  <ElectricInhibitor.description>특별히 조정된 전자기장을 방출하여 포획된 실체의 신경 활동을 마비시키는 장치입니다. 동력이 공급되는 한 비추고 있는 모든 구속대의 억제력을 향상시킵니다. 전자기장은 인간 혹은 일반 동물에게는 영향을 주지 않습니다.</ElectricInhibitor.description>
   
   <!-- EN: endless pit -->
   <EndlessPit2x2c.label>끝없는 구덩이</EndlessPit2x2c.label>
@@ -148,7 +148,7 @@
   <!-- EN: holding spot -->
   <HoldingSpot.label>간이 구속대</HoldingSpot.label>
   <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
-  <HoldingSpot.description>위험한 실체를 수용하기 위한 장소입니다. 철재 구속대만큼 좋지는 않지만, 아무것도 없는 것보단 훨씬 낫습니다.\n\n쓰러진 실체를 포획하여 간이 구속대에 확보하고, 그곳에서 연구할 수 있습니다. 강한 벽, 문, 기타 특수 억제 장치를 건설하여 억제력을 증가시키세요.</HoldingSpot.description>
+  <HoldingSpot.description>위험한 실체를 수용하기 위한 장소입니다. 제대로 만든 구속대만큼 좋지는 않지만, 아무것도 없는 것보단 훨씬 낫습니다.\n\n쓰러진 실체를 포획하여 간이 구속대에 고정하면 연구를 진행할 수 있습니다. 주변에 강한 벽, 문, 기타 특수 억제 장치를 건설하면 더욱 효과적인 구속이 가능합니다.</HoldingSpot.description>
   
   <!-- EN: noctolith -->
   <Noctolith.label>암귀석</Noctolith.label>
@@ -189,7 +189,7 @@
   <!-- EN: proximity detector -->
   <ProximityDetector.label>접근 탐지기</ProximityDetector.label>
   <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible biosignatures within its radius. -->
-  <ProximityDetector.description>보이지 않는 생물을 감지할 수 있는 탐색기입니다. 이 장치는 범위 내에 있는 정신적으로 보이지 않는 생명신호의 존재를 감지하면 경보를 울립니다.</ProximityDetector.description>
+  <ProximityDetector.description>정신적 간섭으로 시각에서 벗어나 있는 생물을 탐지할 수 있는 장치입니다. 해당 생체신호의 존재가 범위 내에 감지되면 경보를 울립니다.</ProximityDetector.description>
   
   <!-- EN: sand cube sculpture -->
   <SandCubeSculpture.label>모래 큐브 조각상</SandCubeSculpture.label>
@@ -209,7 +209,7 @@
   <!-- EN: shard inhibitor -->
   <ShardInhibitor.label>파편 억제기</ShardInhibitor.label>
   <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
-  <ShardInhibitor.description>어둠의 초월공학 파편을 이용하여 정신에 간섭하는 장치로, 범위 내의 구속대 혹은 간이 구속대의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
+  <ShardInhibitor.description>어둠의 초월공학 파편을 이용하여 정신에 간섭하는 장치로, 범위 내의 구속대와 간이 구속대의 억제력을 증가시킵니다.\n\n효과는 중첩되지 않습니다.</ShardInhibitor.description>
   
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>수면 억제기</SleepSuppressor.label>

@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: The remnants of the monolith which linked our world to the void lie broken. The twisted patterns that once writhed across its surface are now motionless. You can study the broken stones to gain further knowledge of the void phenomena. -->
-  <Disrupted.monolithDescription>우리 세계를 공허와 연결했던 모노리스의 파괴된 잔해만이 남았습니다. 한때 그 표면 위에서 몸부림쳤던 뒤틀린 패턴은 이제 움직이지 않습니다. 부서진 돌을 연구하여 공허 현상에 대한 추가 지식을 얻을 수 있습니다.</Disrupted.monolithDescription>
+  <Disrupted.monolithDescription>우리 세계와 공허를 연결했던 모노리스는 이제 사라졌고, 자리에는 파괴된 잔해만이 남았습니다. 한때 표면 위에서 몸부림치던 뒤틀린 문양은 이제 움직이지 않습니다. 잔해를 연구하면 공허 현상에 대한 추가 지식을 얻을 수 있습니다.</Disrupted.monolithDescription>
   <!-- EN: collapsed monolith -->
-  <Disrupted.monolithLabel>붕괴된 모노리스</Disrupted.monolithLabel>
+  <Disrupted.monolithLabel> 모노리스 잔해</Disrupted.monolithLabel>
   
   <!-- EN: Level 4: Awakened -->
   <Embraced.levelInspectText>4단계: 깨어남</Embraced.levelInspectText>
@@ -38,7 +38,7 @@
   <!-- EN: Attuning the monolith -->
   <Stirring.activatableLetterLabel>모노리스 조율</Stirring.activatableLetterLabel>
   <!-- EN: You now have sufficient knowledge of void-related phenomena to attune the void monolith and further open its psychic conduit.\n\nThis will draw the attention of more dangerous anomalous entities. -->
-  <Stirring.activatableLetterText>이제 공허 모노리스를 조율하고 더 나아가 그 정신적 통로를 열 수 있을만큼, 충분한 공허 관련 현상에 대한 지식을 보유했습니다.\n\n이는 더 위험한 이상 현상 실체의 주의를 끕니다.</Stirring.activatableLetterText>
+  <Stirring.activatableLetterText>이제 당신은 공허 모노리스를 조율하고 더 큰 정신적 통로를 더 열기에 충분한 공허 지식을 갖게 되었습니다.\n\n이것은 더 위험한 실체의 관심을 끌 것입니다.</Stirring.activatableLetterText>
   <!-- EN: As the monolith twisted and changed, {PAWN_nameDef} was overcome with a horrifying vision. In an instant, {PAWN_pronoun} understood.\n\nThe monolith is a doorway, just barely cracked open now. Something dark beyond imagination stirs on the other side, seeping into our reality.\n\nTerrified but excited, {PAWN_nameDef} is convinced {PAWN_pronoun} can learn more if given the time to study the monolith.\n\n - Building category unlocked: Anomaly\n - Research tab unlocked: Anomaly\n - Entity codex unlocked\n - You can now study the monolith and other entities to gain Anomaly research.\n\n(*Gray)Note: You can adjust the percentage of major threats that will be Anomaly-related at any point in the storyteller settings.(/Gray) -->
   <Stirring.activatedLetterText>모노리스가 뒤틀리고 변하자, {PAWN_nameDef}의 마음은 끔찍한 환영으로 가득 찼습니다. 그 순간, {PAWN_pronoun}(은)는 이해했습니다.\n\n모노리스는 출입구입니다. 지금 당장은 작은 틈이 열렸을 뿐입니다. 상상을 초월한 어두운 존재가 반대편에서 동요하며 우리의 현실로 침투하고 있습니다.\n\n무섭지만 한편으로는 신이 난 {PAWN_nameDef}(은)는 모노리스를 연구할 시간을 준다면 더 많은 걸 알아낼 수 있다고 확신합니다.\n\n - 건물 구상 잠금 해제됨: 이상 현상\n - 연구 창 잠금 해제됨: 이상 현상\n - 실체 도감 잠금 해제됨\n - 이제 모노리스와 기타 실체를 연구해 이상 현상 연구과제를 진행할 수 있습니다.\n\n(*Gray)참고: 이야기꾼 설정에서 이상 현상 관련 주요 위협의 비율을 언제든지 조절할 수 있습니다.(/Gray)</Stirring.activatedLetterText>
   <!-- EN: attune {0} -->
@@ -74,7 +74,7 @@
   <!-- EN: You now have enough knowledge of dark phenomena to fully awaken the void monolith, opening a two-way conduit to the void.\n\nBe warned - once you begin awakening the void monolith, there is no going back. The process will shroud the region in unnatural darkness and manifest waves of horrifying entities.\n\nMake sure your colony is well-lit and well-prepared. -->
   <Waking.activatableLetterText>어둠의 현상에 대한 충분한 지식을 보유했습니다. 이제 모노리스를 완전히 깨워서 공허와의 양방향 통로를 열 수 있습니다.\n\n조심하세요, 공허 모노리스를 깨우기 시작하면 돌이킬 수 없습니다. 지역 전체가 부자연스러운 어둠에 덮이고, 공포스러운 실체들이 끝없이 몰려올 것입니다.\n\n정착지가 충분히 밝고 잘 대비되어 있는지 확실히 하세요.</Waking.activatableLetterText>
   <!-- EN: Attuning the monolith caused it to twist and grow once more. As it did, {PAWN_nameDef} caught a glimpse of what lurks beyond. {PAWN_pronoun} understood.\n\nThe monolith is a doorway, opened wider by your actions. On the other side, {PAWN_nameDef} sensed an inhuman intelligence of vast complexity and endless rage. The dark machine god is stirring, and its physical influence will grow.\n\n - New entities are now discoverable. -->
-  <Waking.activatedLetterText>조율 후, 모노리스가 이전보다 커지고 더 뒤틀렸습니다. 그와 동시에 {PAWN_nameDef}(은)는 저 너머에 도사리고 있는 것을 언뜻 보았습니다. {PAWN_pronoun}(은)는 이해했습니다.\n\n모노리스는 출입구로, 당신의 행동에 의해 더 넓게 열렸습니다. 한편, {PAWN_nameDef}(은)는 대단히 복잡하고 끝없는 분노의 비인간 지성도 감지했습니다. 어둠의 기계 신이 동요하고 있습니다. 그의 물리적인 영향력이 자라날 것입니다.\n\n - 이제 새로운 실체를 발견할 수 있습니다.</Waking.activatedLetterText>
+  <Waking.activatedLetterText>조율이 끝나자 모노리스는 이전보다 더 커지고 뒤틀렸습니다. 동시에 {PAWN_nameDef}(은)는 저 너머에 도사리고 있는 것을 언뜻 보았습니다. {PAWN_pronoun}(은)는 이해했습니다.\n\n모노리스는 일종의 출입구로, 당신의 행동에 의해 더 넓게 열렸습니다. 한편, {PAWN_nameDef}(은)는 대단히 복잡하고 끝없이 분노하는 비인간적 지성도 감지했습니다. 어둠의 기계 신이 동요하고 있습니다. 그의 물리적 영향력이 확대될 것입니다.\n\n - 이제 새로운 실체를 발견할 수 있습니다.</Waking.activatedLetterText>
   <!-- EN: awaken {0} -->
   <Waking.activateFloatMenuText>{0} 깨움</Waking.activateFloatMenuText>
   <!-- EN: Send a colonist to wake the monolith. The psychic signature will be detectable for hundreds of miles and attract all manner of horrors. Make sure you are prepared.\n\nOnce fully awakened, the monolith will provide a direct link to the void. -->
@@ -84,7 +84,7 @@
   <!-- EN: Send a colonist to awaken the monolith. -->
   <Waking.activateQuestText>정착민을 보내 모노리스를 깨우세요.</Waking.activateQuestText>
   <!-- EN: The monolith is a conduit to the void where a dark superintelligence processes endless vast dreams of rage and hate. You opened the conduit and it is now partially active. If you activate it further you can find a way to close it - or harness its power. -->
-  <Waking.extraQuestDescription>모노리스는 어둠의 초지능이 엄청난 분노와 증오의 끝없는 꿈을 처리하는 공간, 공허로 통하는 통로입니다. 당신은 통로를 열었으며, 이제 부분적으로 활성화된 상태입니다. 더 활성화하면 닫을 방법을 찾을 수 있습니다. 혹은 그 힘을 이용할 방법을요.</Waking.extraQuestDescription>
+  <Waking.extraQuestDescription>모노리스는 어둠의 초지능이 끝없는 분노와 증오로 가득찬 꿈을 처리하는 공간, 공허로 통하는 통로입니다. 당신은 통로를 열었으나 그것은 아직 부분적으로만 활성화된 상태입니다. 모노리스를 더 활성화하면 그것을 완전히 닫을 방법을 찾을 수 있습니다. 혹은 그 힘을 이용할 수도 있습니다.</Waking.extraQuestDescription>
   <!-- EN: Level 2: Pulsing with psychic energy -->
   <Waking.levelInspectText>2단계: 정신 에너지로 맥동함</Waking.levelInspectText>
   <!-- EN: Can be awakened now. -->

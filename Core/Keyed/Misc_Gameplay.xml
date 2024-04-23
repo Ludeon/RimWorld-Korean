@@ -996,9 +996,9 @@
   <!-- EN: Unconscious -->
   <Unconscious>의식 없음</Unconscious>
   <!-- EN: In shock due to pain -->
-  <PainShock>고통에 의한 쇼크</PainShock>
+  <PainShock>고통에 의한 실신</PainShock>
   <!-- EN: Pain shock -->
-  <PainShockShort>고통에 의한 쇼크</PainShockShort>
+  <PainShockShort>고통에 의한 실신</PainShockShort>
   <!-- EN: Incapacitated -->
   <Incapacitated>무력화됨</Incapacitated>
   <!-- EN: In restraints (slowed) -->
@@ -1340,7 +1340,7 @@
   <!-- EN: No settlement to return to. Form a settlement first. -->
   <ShipNoSettlementToReturnTo>돌아갈 정착지가 없습니다. 먼저 정착지를 건설하세요.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)샬론 화이트스톤(/Name)은 우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 남길 수 있다고 경고합니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다. 여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarning>
+  <HibernateWarning>(*Name)샬론 화이트스톤(/Name)이 보낸 좌표에 도착하여 숨겨진 함선을 찾았습니다.\n\n우주선의 원자로는 오랫동안 가동되지 않아 바로 비행할 수 없습니다. 인공지능 핵과 상호작용하여 시동을 걸 수 있습니다.\n\n샬론 화이트스톤은 시동까지 약 15일이 걸리며, 우주선의 에너지 파동이 먼 거리까지 퍼져 나가 침입자와 보물사냥꾼들을 끌어들일 거라고 경고합니다. 방어체계가 구축되었는지 확인하세요.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>우주선 원자로를 활성화할 준비를 마쳤습니다.\n\n모든 절차가 끝날 때까지는 15일이 소요되며, 이 과정에서 멀리 떨어진 곳까지도 에너지 흔적을 남길 것입니다. 이는 치명적인 성간 습격자와 메카노이드 무리를 끌어들인다는 것을 의미합니다.\n\n여태껏 한번도 경험해보지 못한 강력한 습격이 예상됩니다. 방어 태세를 점검하십시오.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
@@ -1410,7 +1410,7 @@
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>모든 정착민이 죽거나 떠났습니다. 여정은 끝났습니다.\n\n어쩌면 이곳을 지나던 다른 이들이 당신이 남긴 폐허를 활용할 수 있을지도 모릅니다.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>행성 파괴자가 아광속으로 지면에 충돌하면서 수천억 개의 수소폭탄을 합친 것보다 더 강력한 폭발을 일으킵니다. 소총에 맞은 물풍선처럼, 세계의 녹아내린 땅이 우주로 퍼져 나갑니다.\n\n{0}의 일부는 작은 소행성대가 되었고, 나머지는 방사능에 뒤덮인 채 수 킬로미터씩 들썩이는 지옥으로 변했습니다.\n\n당신은 살아남지 못했습니다.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>행성 파괴자가 아광속으로 지면에 충돌하면서 수천억 개의 수소폭탄을 합친 것보다 더 강력한 폭발을 일으킵니다. 소총에 맞은 물풍선처럼, 세계의 녹아내린 땅이 우주로 퍼져 나갑니다.\n\n{0}의 일부는 작은 소행성대가 되었고, 나머지는 방사능에 뒤덮인 채 지진으로 수 킬로미터씩 요동치는 지옥으로 변했습니다.\n\n당신은 살아남지 못했습니다.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
   <GameOverShipLaunchedIntro>우주선이 출발했습니다!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->

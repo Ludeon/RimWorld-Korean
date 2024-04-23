@@ -10,10 +10,10 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 이별을 통보함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 접근하지 말라고 통보함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 더 이상 함께 할 이유가 없다고 통보함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 우리는 어울리지 않는다고 통보함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 이별을 통보함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 거리를 두자고 부탁함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 서로 잘 맞지 않는 것 같다고 말함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 서로 더 잘 어울리는 사람을 찾자고 말함.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -24,9 +24,9 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 결혼을 제안함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 평생 헌신하겠다고 약속함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 삶을 함께 해달라고 프로포즈함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 결혼을 제안함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 평생 헌신하겠다고 약속함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 남은 삶을 함께 해달라고 프로포즈함.</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -94,47 +94,47 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [wootactic] [wooed].</li>
-    <li>wooed->가볍게 접근함</li>
-    <li>wooed->들뜬 마음을 표현함</li>
-    <li>wooed->마음을 떠봄</li>
-    <li>wooed->연애를 시도함</li>
-    <li>wooed->사랑을 구애함</li>
-    <li>wooed->기댐</li>
-    <li>wooed->접근함</li>
-    <li>wooed->매혹함</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [wootactic] [RECIPIENT_nameDef][wooed].</li>
+    <li>wooed->(을)를 유혹함</li>
+    <li>wooed->에게 자신의 마음을 표현함</li>
+    <li>wooed->의 마음을 떠봄</li>
+    <li>wooed->에게 고백함</li>
+    <li>wooed->의 사랑을 표현함</li>
+    <li>wooed->에게 기댐</li>
+    <li>wooed->에게 접근함</li>
+    <li>wooed->(을)를 유혹하려 함</li>
     <li>wooed->구애를 시도함</li>
-    <li>wootactic(p=4)->[RECIPIENT_possessive] [PersonalCharacteristic](을)를 [complimenting]</li>
+    <li>wootactic(p=4)->[PersonalCharacteristic](을)를 [complimenting]</li>
     <li>wootactic->[TalkTopicAny]에 대한 이야기를 하며</li>
     <li>wootactic->[TalkTopicAny]에 관한 이야기를 하며</li>
     <li>wootactic->[TalkTopicAny]에 대한 농담을 건네며</li>
-    <li>wootactic->[TalkTopicAny]에 대한 정보를 건네며</li>
+    <li>wootactic->[TalkTopicAny]에 대한 평가를 내리며</li>
     <li>wootactic(p=2)-> [INITIATOR_possessive] [PersonalCharacteristic][boasting]</li>
-    <li>wootactic->[RECIPIENT_objective] [romantic_adj] [romantic_noun]에 비교하며</li>
-    <li>wootactic->[RECIPIENT_objective] [romantic_adj] [romantic_noun]처럼 묘사하며</li>
+    <li>wootactic->[RECIPIENT_nameDef](을)를 [romantic_adj] [romantic_noun]에 빗대며</li>
+    <li>wootactic->[RECIPIENT_nameDef](을)를 [romantic_adj] [romantic_noun]처럼 표현하며</li>
     <li>boasting->(을)를 자랑하며</li>
     <li>boasting->(을)를 언급하며</li>
     <li>boasting->(을)를 어필하며</li>
     <li>boasting->(을)를 과시하며</li>
     <li>boasting->에 대해 대화하며</li>
-    <li>boasting->주의를 끌며</li>
+    <li>boasting->(으)로 주의를 끌며</li>
     <li>complimenting(p=3)->칭찬하며</li>
-    <li>complimenting->조용히 칭찬하며</li>
+    <li>complimenting->은근히 칭찬하며</li>
     <li>complimenting->극찬하며</li>
-    <li>complimenting->주위에 들리도록 칭찬하며</li>
+    <li>complimenting->큰 소리로 칭찬하며</li>
     <li>complimenting->좋은 말로 치장하며</li>
-    <li>complimenting(p=2)->장난으로 분위기를 재미있게 이끌며</li>
+    <li>complimenting(p=2)->장난스럽게 평가하며</li>
     <li>complimenting->농담으로 파고 들며</li>
-    <li>complimenting->반쯤 농담으로 칭찬하며</li>
-    <li>complimenting->장난스럽게 질문하며</li>
+    <li>complimenting->장난으로 칭찬할 듯 말 듯 하며</li>
+    <li>complimenting->장난스럽게 언급하며</li>
     <li>complimenting->유쾌하고 재미있게 표현하며</li>
     <li>romantic_adj->산뜻한</li>
     <li>romantic_adj->빛나는</li>
-    <li>romantic_adj->은은하게 빛나는</li>
-    <li>romantic_adj->천국같은</li>
+    <li>romantic_adj->반짝이는</li>
+    <li>romantic_adj->아름다운</li>
     <li>romantic_adj->황금같은</li>
     <li>romantic_adj->선명한</li>
-    <li>romantic_adj->아슬아슬한</li>
+    <li>romantic_adj->숨막히는</li>
     <li>romantic_adj->매혹적인</li>
     <li>romantic_adj->눈부신</li>
     <li>romantic_adj->섬세한</li>

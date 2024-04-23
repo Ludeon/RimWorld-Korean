@@ -53,7 +53,7 @@
   <!-- EN: crumbling mind -->
   <CrumblingMind.label>허물어지는 정신</CrumblingMind.label>
   <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
-  <CrumblingMind.description>이 사람의 정신이 급속도로 무너지고 있습니다. 며칠 내에, 이 사람은 대부분의 작업을 할 수 없게 됩니다. 회복 혈청 같은 충분한 기술이 있으면 상태를 역전할 수 있습니다. 그러나 곧 영구적인 상태가 됩니다.</CrumblingMind.description>
+  <CrumblingMind.description>이 사람의 정신이 급속도로 무너지고 있습니다. 며칠 내에 이 사람은 대부분의 작업을 할 수 없게 됩니다. 회복 혈청 같은 충분한 기술이 있으면 상태를 호전시킬 수 있습니다. 하지만 곧 영구적인 상태가 됩니다.</CrumblingMind.description>
   <!-- EN: {PAWN_nameDef}'s cognitive condition has become permanent. -->
   <CrumblingMind.comps.HediffComp_ReplaceHediff.message>{PAWN_nameDef}의 인지 상태가 영구적으로 되었습니다.</CrumblingMind.comps.HediffComp_ReplaceHediff.message>
   <!-- EN: mild -->
@@ -70,7 +70,7 @@
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(이)가 곧 중증 정신 저하를 일으킬 수 있는 심각한 상태의 조기 조짐을 보이고 있습니다. {SURGEON_nameDef}(은)는 이 상태의 원인을 아직 정확히 알 수 없지만, {PAWN_nameShort}(은)는 며칠 내에 매우 아픈 상태가 될 것입니다.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches and begs for help. {PAWN_pronoun} can't think straight and is losing {PAWN_possessive} cognitive function. {PAWN_nameDef} claims that {PAWN_pronoun} has seen a vision of the future. Within a matter of days, {PAWN_possessive} mind will crumble and {PAWN_pronoun} will become incapable of most tasks.\n\nThe condition is currently reversible with sufficient technology, like a healer mech serum, but will soon become permanent. -->
-  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}(이)가 지끈거리는 두통을 경험하기 시작했으며 도움을 요청하고 있습니다. 제대로 된 생각을 할 수 없으며 인지 기능을 잃고 있습니다. {PAWN_nameDef}(은)는 미래의 환영을 보았다고 주장합니다. 정신이 허물어지고 대부분의 작업을 할 수 없어지는 것은 시간 문제입니다.\n\n이 상태는 현재 회복 혈청 같은 충분한 기술로 되돌릴 수 있지만, 곧 영구적인 상태가 될 것입니다.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}(이)가 지끈거리는 두통을 겪으며 도움을 빌고 있습니다. 제대로 된 생각은 어려워졌고, 인지 능력은 상실 중입니다. {PAWN_nameDef}(은)는 미래의 환영을 보았다고 주장합니다. 불과 며칠 내로 {PAWN_nameDef}의 정신이 허물어지고 대부분의 작업을 할 수 없을 것입니다.\n\n지금은 회복 혈청 같은 충분한 기술이 있다면 상태를 되돌릴 수 있습니다. 하지만 곧 영구적인 상태가 됩니다.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Crumbling mind: {PAWN_nameDef} -->
   <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>허물어지는 정신: {PAWN_nameDef}</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
@@ -83,7 +83,7 @@
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(이)가 곧 중증 정신 저하를 일으킬 수 있는 심각한 상태의 조기 조짐을 보이고 있습니다. {SURGEON_nameDef}(은)는 이 상태의 원인을 아직 정확히 알 수 없지만, {PAWN_nameShort}(은)는 며칠 내에 매우 아픈 상태가 될 것입니다.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches. {PAWN_pronoun} can't seem to think straight and is quickly losing {PAWN_possessive} cognitive function. Something has gone wrong in the duplication process.\n\nWith sufficient technology, like a healer mech serum, the condition can still be reversed. However, if not treated, it will soon become permanent. -->
-  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}의 정신이 급속도로 무너지고 있습니다. 제대로 생각할 수 없으며 빠르게 인지 기능을 잃고 있는 것처럼 보입니다. 복제 과정에서 뭔가 잘못되었습니다.\n\n회복 혈청 같은 충분한 기술이 있으면 상태를 역전할 수 있습니다. 그러나 조치를 취하지 않으면 곧 영구적인 상태가 됩니다.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}의 정신이 급속도로 무너지고 있습니다. 제대로 생각할 수 없으며 빠르게 인지 기능을 잃고 있는 것처럼 보입니다. 복제 과정에서 뭔가 잘못되었습니다.\n\n회복 혈청 같은 충분한 기술이 있으면 상태를 호전시킬 수 있습니다. 그러나 조치를 취하지 않으면 곧 영구적인 상태가 됩니다.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Crumbling mind: {PAWN_nameDef} -->
   <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>허물어지는 정신: {PAWN_nameDef}</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
@@ -145,27 +145,27 @@
   <!-- EN: dark psychic shock -->
   <DarkPsychicShock.label>어둠의 정신 충격</DarkPsychicShock.label>
   <!-- EN: Part of this person's neural pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
-  <DarkPsychicShock.description>이 사람의 중립적인 패턴 일부가 어둠의 정신적 힘에 의해 방해되었습니다. 이 과정에서 오는 충격은 이 사람을 일시적인 혼수상태에 빠뜨렸습니다.</DarkPsychicShock.description>
+  <DarkPsychicShock.description>대상의 신경 패턴 일부가 어둠의 정신적 힘에 의해 교란되었습니다. 그 충격 때문에 대상은 일시적인 혼수상태에 빠졌습니다.</DarkPsychicShock.description>
   
   <!-- EN: death refusal -->
-  <DeathRefusal.label>죽음 거부</DeathRefusal.label>
+  <DeathRefusal.label>죽음 거부권</DeathRefusal.label>
   <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
-  <DeathRefusal.description>생명을 다시 창조할 수 있는 나노단위 초월공학 기계의 씨앗이 이 사람에 주입되었습니다. 이 사람이 죽으면 초월입자에 의해 정신이 유지되고, 원하는 때에 몸을 재생성할 수 있습니다. 육체가 빠르게 재구성되어 사라진 장기를 대체하고 상처가 치유됩니다. 이 과정은 완벽하지 않으며 흉터 혹은 기타 건강 합병증을 야기할 수 있습니다. 죽음 거부는 일정 횟수만 행해질 수 있습니다.</DeathRefusal.description>
+  <DeathRefusal.description>생명을 다시 창조할 수 있는 나노 초월공학 기계의 씨앗이 이 사람에 주입되었습니다. 대상이 죽으면 초월입자에 의해 정신이 유지되고, 원하는 때에 몸을 재생성할 수 있습니다. 육체가 빠르게 재구성되어 사라진 장기를 대체하고 상처가 치유됩니다. 이 과정은 완벽하지 않으며 흉터 혹은 기타 합병증을 야기할 수 있습니다. 죽음 거부는 일정 횟수만 행해질 수 있습니다.</DeathRefusal.description>
   
   <!-- EN: death refusal -->
-  <DeathRefusalCreepJoiner.label>죽음 거부</DeathRefusalCreepJoiner.label>
+  <DeathRefusalCreepJoiner.label>죽음 거부권</DeathRefusalCreepJoiner.label>
   <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
-  <DeathRefusalCreepJoiner.description>생명을 다시 창조할 수 있는 나노단위 초월공학 기계의 씨앗이 이 사람에 주입되었습니다. 이 사람이 죽으면 초월입자에 의해 정신이 유지되고, 원하는 때에 몸을 재생성할 수 있습니다. 육체가 빠르게 재구성되어 사라진 장기를 대체하고 상처가 치유됩니다. 이 과정은 완벽하지 않으며 흉터 혹은 기타 건강 합병증을 야기할 수 있습니다. 죽음 거부는 일정 횟수만 행해질 수 있습니다.</DeathRefusalCreepJoiner.description>
+  <DeathRefusalCreepJoiner.description>생명을 다시 창조할 수 있는 나노 초월공학 기계의 씨앗이 이 사람에 주입되었습니다. 대상이 죽으면 초월입자에 의해 정신이 유지되고, 원하는 때에 몸을 재생성할 수 있습니다. 육체가 빠르게 재구성되어 사라진 장기를 대체하고 상처가 치유됩니다. 이 과정은 완벽하지 않으며 흉터 혹은 기타 합병증을 야기할 수 있습니다. 죽음 거부는 일정 횟수만 행해질 수 있습니다.</DeathRefusalCreepJoiner.description>
   
   <!-- EN: death refusal sickness -->
   <DeathRefusalSickness.label>죽음 거부 후유증</DeathRefusalSickness.label>
   <!-- EN: After-effects of death refusal. This person has returned from the dead. -->
-  <DeathRefusalSickness.description>죽음 거부의 후유증입니다. 이 사람은 죽음에서 돌아왔습니다.</DeathRefusalSickness.description>
+  <DeathRefusalSickness.description>죽음을 거부한 후유증입니다. 이 사람은 죽음에서 돌아왔습니다.</DeathRefusalSickness.description>
   
   <!-- EN: disruptor flash -->
   <DisruptorFlash.label>교란 섬광</DisruptorFlash.label>
   <!-- EN: The initial psychic burst from a disruptor flare has left this creature dazed. -->
-  <DisruptorFlash.description>교란 신호탄의 초기 정신 파열이 이 생물을 멍하게 만들었습니다.</DisruptorFlash.description>
+  <DisruptorFlash.description>교란 조명탄의 초기 정신 파열이 이 생물을 멍하게 만들었습니다.</DisruptorFlash.description>
   
   <!-- EN: duplicate sickness -->
   <DuplicateSickness.label>복제본 후유증</DuplicateSickness.label>
@@ -200,14 +200,14 @@
   <FrenzyField.stages.extreme.label>극심함</FrenzyField.stages.extreme.label>
   
   <!-- EN: dark psychic invisibility -->
-  <HoraxianInvisibility.label>어둠의 정신 투명</HoraxianInvisibility.label>
+  <HoraxianInvisibility.label>인식 저해 투명화</HoraxianInvisibility.label>
   <!-- EN: This creature is psychically twisting the perceptions of humans, animals, and machines in the vicinity in such a way as to seem invisible. The eye receives their image as normal but the mind cannot perceive it. -->
-  <HoraxianInvisibility.description>이 생물은 부근의 인간, 동물, 기계의 인식을 보이지 않는 것처럼 정신적으로 왜곡합니다. 눈은 그 상을 정상적으로 받아들이지만 정신은 감지하지 못합니다.</HoraxianInvisibility.description>
+  <HoraxianInvisibility.description>이 생물은 마치 자신이 보이지 않는 것처럼 근처의 인간과 동물, 기계의 인지를 왜곡합니다. 눈이 그 형상을 담더라도 정신적으로 인식하지 못하게 됩니다.</HoraxianInvisibility.description>
   
   <!-- EN: inhumanization -->
   <Inhumanized.label>몰인간화</Inhumanized.label>
   <!-- EN: This person's mind is dominated by the psychic patterns of the void. They are completely disconnected from human concerns of family, friendship, and love. Their experience of reality is distant and muted, guided by the psychic rhythm of a dark hyperintelligence. -->
-  <Inhumanized.description>이 사람의 정신은 공허의 정신 패턴에 의해 지배됐습니다. 가족, 우정, 사랑 등 인간적인 관심에서 완전히 단절됐습니다. 현실은 멀리 떨어진 듯 묵묵하게 느껴지고, 오직 어둠의 초지능이 발산하는 정신 리듬의 인도를 따라갑니다.</Inhumanized.description>
+  <Inhumanized.description>이 사람의 정신은 공허에 오염되어 가족과 우정, 사랑 등 인간적인 관심에서 완전히 단절됐습니다. 현실은 아득히 멀고 묵묵하게만 느껴지고, 오직 어둠의 초지능이 발산하는 정신적 신호만이 그를 인도합니다.</Inhumanized.description>
   
   <!-- EN: juggernaut serum -->
   <JuggernautSerum.label>비대한 힘 혈청</JuggernautSerum.label>
@@ -241,7 +241,7 @@
   <!-- EN: Implanted through {SOURCEKIND_label} attack -->
   <MetalhorrorImplant.possiblePathways.1.explanation>{SOURCEKIND_label} 공격을 통해 이식됨</MetalhorrorImplant.possiblePathways.1.explanation>
   <!-- EN: Implanted by revenant during hypnosis -->
-  <MetalhorrorImplant.possiblePathways.2.explanation>최면 동안 망령에 의해 의식됨</MetalhorrorImplant.possiblePathways.2.explanation>
+  <MetalhorrorImplant.possiblePathways.2.explanation>최면에 걸린 동안 망령이 이식함</MetalhorrorImplant.possiblePathways.2.explanation>
   
   <!-- EN: machine speed -->
   <MetalhorrorSpeedBoost.label>기계적 속도</MetalhorrorSpeedBoost.label>
@@ -300,7 +300,7 @@
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>망령 최면</RevenantHypnosis.label>
   <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
-  <RevenantHypnosis.description>이 사람은 망령에 의해 최면 상태에 빠졌으며 망령에 연결된 상태입니다. 눈을 깜박이지 않고 보이지 않는 공포를 응시하는 동안 악몽 같은 생물에 대해 횡설수설합니다.\n\n희생자를 최면에 건 후, 망령은 희생자와 같은 맵 어딘가에서 동면하게 될 겁니다.\n\n망령을 죽이면 최면이 끝납니다. 숨은 망령은 교란 신호탄, 폭발물, EMP, 소방거품, 혹은 불을 붙여 드러낼 수 있습니다.</RevenantHypnosis.description>
+  <RevenantHypnosis.description>이 사람은 망령에 의해 최면 상태에 빠졌으며 망령과 연결된 상태입니다. 눈도 깜박이지 않고 알 수 없는 공포가 보이는 듯이, 악몽 같은 생물에 대해 횡설수설합니다.\n\n희생자를 최면에 건 후, 망령은 희생자와 같은 지역 어딘가에서 동면합니다.\n\n망령을 죽이면 최면이 끝납니다. 숨은 망령은 교란 조명탄, 폭발물, EMP, 소방거품, 혹은 불을 붙여 드러낼 수 있습니다.</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->
   <ShardHolder.label>파편 보유자</ShardHolder.label>
@@ -328,11 +328,11 @@
   <!-- EN: voidsight -->
   <Voidsight.label>공허의 시야</Voidsight.label>
   <!-- EN: This person has ingested a drug which enhanced their perception of dark psychic phenomena. They will gain more knowledge when studying dark psychic phenomena and entities. Their psychic sensitivity is also increased. -->
-  <Voidsight.description>이 사람은 어둠의 정신 현상 지각력을 강화시키는 약물을 섭취했습니다. 이 사람은 더 어둠의 정신 현상 및 실체를 연구할 때 더 많은 지식을 얻을 겁니다. 정신 감응력 또한 증가했습니다.</Voidsight.description>
+  <Voidsight.description>이 사람은 어둠의 정신 현상 지각력을 강화시키는 약물을 섭취했습니다. 이 사람은 어둠의 정신 현상 및 실체를 연구할 때 더 많은 지식을 얻을 겁니다. 정신 감응력 또한 증가했습니다.</Voidsight.description>
   
   <!-- EN: void touched -->
-  <VoidTouched.label>공허 만짐</VoidTouched.label>
+  <VoidTouched.label>공허 접촉</VoidTouched.label>
   <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need sleep or comfort. The void provides for them. -->
-  <VoidTouched.description>이 사람은 공허의 깊이를 보았으며 공허의 정수를 마셨습니다. 공허는 아직도 이 사람 안에 살며, 행동을 인도하고 육체를 왜곡합니다. 또한 머리카락을 부러지기 쉽고 하얗게 만들었습니다. 이 사람은 더 이상 식욕 혹은 수면욕이 없습니다. 공허가 이를 공급해 줍니다.</VoidTouched.description>
+  <VoidTouched.description>대상은 공허의 깊숙한 곳을 보고 공허의 정수를 마셨습니다. 공허는 계속 대상과 함께 하며 행동을 인도하고 육체를 왜곡합니다. 또한 머리카락은 하얗게 세고 부러지기 쉬워졌습니다. 대상은 더 이상 수면 욕구와 편안 욕구를 느끼지 않습니다. 공허가 그것들을 공급해 줍니다.</VoidTouched.description>
   
 </LanguageData>

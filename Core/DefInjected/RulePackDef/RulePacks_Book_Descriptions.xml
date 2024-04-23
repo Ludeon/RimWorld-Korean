@@ -209,8 +209,8 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->이 [writingQualityAdjective] [bookType](은)는 한 [PersonJob](이)가 [storyStruggles][follows]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->이 [writingQualityAdjective] [bookType]에서 [author](은)는 [ANYPAWN_possessive] [storySource][tellsAStoryOf]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->[writingQualityAdjective] [bookType]입니다. 한 [PersonJob](이)가 [storyStruggles][follows]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->[writingQualityAdjective] [bookType](으)로, [author](은)는 [storySource][tellsAStoryOf]. [writingQualitySentence]. [maybe_date]</li>
     <li>follows->(을)를 서술합니다</li>
     <li>follows->(을)를 설명합니다</li>
     <li>follows->(을)를 그려냅니다</li>
@@ -310,42 +310,42 @@
     <li>authorTitle->작가</li>
     <li>authorTitle->저자</li>
     <li>authorTitle->글쓴이</li>
-    <li>authorTitle->시인</li>
-    <li>authorTitle->이야기꾼</li>
-    <li>storySource->개인적인 경험</li>
-    <li>storySource->젊은 시절</li>
-    <li>storySource->어린 시절</li>
-    <li>storySource->국가</li>
-    <li>storySource->고향 행성</li>
-    <li>storySource->할아버지</li>
-    <li>storySource->할머니</li>
-    <li>storySource->전쟁 속 경험</li>
-    <li>storySource->가장 깊은 두려움</li>
-    <li>storySource->꿈인 항성여행</li>
-    <li>storySource->신선한 [Vegetable]에 대한 열정</li>
-    <li>storySource->[PersonJob] 시절</li>
-    <li>storySource->최애 [Weapon]</li>
-    <li>storySource->[Mechanoid]들과의 전투 경험</li>
+    <li>authorTitle->글을 쓴 시인</li>
+    <li>authorTitle->글의 이야기꾼</li>
+    <li>storySource->본인의 개인적인 경험</li>
+    <li>storySource->자신의 젊은 시절</li>
+    <li>storySource->자신의 어린 시절</li>
+    <li>storySource->자신의 국가</li>
+    <li>storySource->자신의 고향 행성</li>
+    <li>storySource->자신의 할아버지</li>
+    <li>storySource->자신의 할머니</li>
+    <li>storySource->본인이 겪었던 전쟁</li>
+    <li>storySource->자신의 가장 깊은 두려움</li>
+    <li>storySource->항성 사이를 누비는 꿈</li>
+    <li>storySource->자신이 가진 신선한 [Vegetable]에 대한 열정</li>
+    <li>storySource->본인의 [PersonJob] 시절</li>
+    <li>storySource->본인이 가장 아끼는 [Weapon]</li>
+    <li>storySource->[Mechanoid](와)과 교전했을 때의 경험</li>
     <li>storySource->어릴 적 [Community]에서 자라던 시절</li>
-    <li>storySource->거대한 [BodyPart]</li>
-    <li>storySource->잃어버린 친구</li>
+    <li>storySource->자신의 거대한 [BodyPart]</li>
+    <li>storySource->자신의 잃어버린 친구</li>
     <li>storySource->음악에 대한 열정</li>
-    <li>storySource->고대유적에 대한 호기심</li>
+    <li>storySource->고대 유적에 대한 자신의 호기심</li>
     <li>storySource->가보에 대한 애착</li>
-    <li>storySource->미스터리한 모양에 대한 열정</li>
-    <li>storySource->죽어가는 언어를 살리기 위한 노력</li>
+    <li>storySource->우연히 마주친 신비한 인물</li>
+    <li>storySource->죽어가는 언어를 살리기 위해 들인 자신의 노력</li>
     <li>storySource->엄청난 발명을 하는 꿈</li>
-    <li>storySource->환상의 생명체와의 연결고리</li>
+    <li>storySource->자신이 가진 신비한 동물과의 연결 고리</li>
     <li>storySource->특정 지형에 대한 애정</li>
     <li>storySource->[PersonJob](으)로서 유명해 지는 것</li>
     <li>storySource->사회적 불안감으로 인한 고통</li>
     <li>storySource->머나먼 곳으로 떠나고자 하는 열망</li>
-    <li>storySource->기계친구와의 유대감</li>
-    <li>storySource->과거 해적으로서의 모험</li>
+    <li>storySource->기계 친구와의 유대감</li>
+    <li>storySource->과거 해적으로서 겪었던 모험</li>
     <li>storySource->비밀스러운 조직과의 깊은 관계</li>
     <li>storySource->방랑자 시절 삶</li>
-    <li>storySource->시간여행에 대한 열정</li>
-    <li>storySource->전설적인 유물과의 연결</li>
+    <li>storySource->시간 여행에 대한 열정</li>
+    <li>storySource->전설적인 유물과 자신의 관계</li>
     <li>writingQualityAdjective(quality==6)->굉장히 잘 쓰인</li>
     <li>writingQualityAdjective(quality==5)->지적이고 통찰력 있는</li>
     <li>writingQualityAdjective(quality==4)->사려 깊고 유창한</li>

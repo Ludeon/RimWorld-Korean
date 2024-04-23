@@ -218,7 +218,7 @@
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>모드 불일치</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
-  <ModsMismatchWarningText>이 파일은 현재 활성화된 모드와 다른 모드 목록을 사용합니다. 모드의 기능에 따라 문제가 생길 수도, 아무 문제도 없을 수도 있습니다.</ModsMismatchWarningText>
+  <ModsMismatchWarningText>이 파일은 현재 활성화된 모드와 다른 모드 목록을 사용합니다. 모드의 기능에 따라 문제가 생길 수도, 아무 문제 없을 수도 있습니다.</ModsMismatchWarningText>
   <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
   <ModsMismatchOrderChanged>추가했거나 제거한 모드는 없지만 모드의 순서가 달라졌습니다.</ModsMismatchOrderChanged>
   <!-- EN: Are you sure you want to load the mod list from this save file? -->
@@ -595,11 +595,11 @@
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>집중명상 유형 해제</MeditationFocusesUnlocked>
   <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
-  <MeditationFocusesPawnDesc>사용할 수 있는 집중명상의 종류입니다. 명상할 때 물체에 맞춰 초집중을 얻을 수 있지만, 해당 물체가 집중 유형이 있어야만 가능합니다. 명상유형은 각 사람의 배경, 특성, 작위에 따라 달라집니다.</MeditationFocusesPawnDesc>
+  <MeditationFocusesPawnDesc>사용할 수 있는 집중명상의 종류입니다. 명상할 때 주위의 특정 물체에 집중하고 초집중을 추가로 획득할 수 있지만, 그 물체가 제공하는 집중명상 유형이 명상하는 사람의 집중명상 유형과 맞아야 합니다. 집중명상 유형은 각자의 배경, 특성, 작위에 따라 달라집니다.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>물체가 제공하는 집중명상의 종류입니다. 명상할 때 이 물체에 집중하여 초집중을 얻을 수 있지만, 명상 유형 중 하나 이상을 사용할 수 있을 때만 가능합니다. 명상유형은 각 사람의 배경, 특성, 작위에 따라 달라집니다.</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
-  <MeditationFocusCanUse>{0} 집중유형을 사용할 수 있음</MeditationFocusCanUse>
+  <MeditationFocusCanUse>{0} 집중명상 유형 사용 가능</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
   <MeditationFocusObjects>{0} 집중 물체</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->

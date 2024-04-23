@@ -11,7 +11,7 @@
   <!-- EN: brainwipe -->
   <Brainwipe.label>뇌세척</Brainwipe.label>
   <!-- EN: Erase a person's memories. Traumatic events will be forgotten. Prisoners will forget their allegiance and become easier to recruit, even if they were unwavering before. Inhumanized individuals will forget their connection to the void. Unfortunately, the disruptive effect of the ritual will induce a coma that could last a long time, especially if the ritual is of poor quality. -->
-  <Brainwipe.description>사람의 기억을 지웁니다. 정신적 외상이 잊혀지고, 확고한 수감자가 충성을 망각하여 포섭하기 쉬워집니다. 비인간화된 사람은 공허와의 연결을 잊게 됩니다. 불행히도, 의식의 파괴적인 효과로 인해 대상이 긴 시간 혼수상태에 빠집니다. 의식의 품질이 낮으면 혼수상태가 더 오래 지속됩니다.</Brainwipe.description>
+  <Brainwipe.description>사람의 기억을 지웁니다. 정신적 외상은 물론, 확고한 충성심조차 잊혀져 포섭하기 쉬워집니다. 몰인간화된 사람은 공허와의 연결을 잃게 됩니다. 불행히도, 의식의 파괴적인 효과로 인해 대상은 긴 시간 혼수상태에 빠집니다. 의식의 품질이 낮으면 혼수상태가 더 오래 지속됩니다.</Brainwipe.description>
   <!-- EN: The target will be brainwiped.\n\nWith the current ritual quality, the target will also enter a coma for {0}. -->
   <Brainwipe.outcomeDescription>현재 의식 품질로는 대상이 {0} 동안 혼수상태에 빠집니다.</Brainwipe.outcomeDescription>
   
@@ -23,11 +23,11 @@
   <Chronophagy.outcomeDescription>현재 의식 품질로는 수행자는 {0}년 어려지고 대상은 {1}년 늙습니다.\n\n대상은 뇌손상으로 인해 혼수상태에 빠집니다.</Chronophagy.outcomeDescription>
   
   <!-- EN: imbue death refusal -->
-  <ImbueDeathRefusal.label>죽음 거부로 채우기</ImbueDeathRefusal.label>
+  <ImbueDeathRefusal.label>죽음 거부권 부여</ImbueDeathRefusal.label>
   <!-- EN: Link a target with a distant archotechnological engine that can bring them back from the dead in seconds. This process is not without side-effects. -->
   <ImbueDeathRefusal.description>죽음을 수 초 만에 되돌릴 수 있는, 멀리 떨어진 초월공학 엔진을 대상과 연결합니다. 부활에는 부작용이 존재할 수 있습니다.</ImbueDeathRefusal.description>
   <!-- EN: The target will gain death refusal.\n\nWith the current quality, all the target's skills will also be reduced by {0}. -->
-  <ImbueDeathRefusal.outcomeDescription>대상은 죽음 거부를 얻습니다.\n\n현재 의식 품질로는 대상의 모든 기술이 {0} 감소합니다.</ImbueDeathRefusal.outcomeDescription>
+  <ImbueDeathRefusal.outcomeDescription>대상이 죽음 거부권을 얻습니다.\n\n현재 의식 품질로는 대상의 모든 기술이 {0} 감소합니다.</ImbueDeathRefusal.outcomeDescription>
   
   <!-- EN: neurosis pulse -->
   <NeurosisPulse.label>신경증의 파동</NeurosisPulse.label>
@@ -87,7 +87,7 @@
   <!-- EN: draw fleshbeasts -->
   <SummonFleshbeasts.label>살짐승 유인</SummonFleshbeasts.label>
   <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonFleshbeasts.description>살짐승들이 적의 근처로 굴을 파서 출현하도록 유인하는 정신 파동을 생성합니다. 살짐승은 당신의 적과 아군을 포함하여 모두 공격하며, 포획하여 연구하거나, 도축하여 뒤틀린 고기로 만들 수 있습니다.</SummonFleshbeasts.description>
+  <SummonFleshbeasts.description>살짐승들이 굴을 파 적들 근처에서 출현하도록 유인하는 정신 파동을 생성합니다. 살짐승은 당신의 적과 아군을 포함하여 누구든 공격하며, 포획하여 연구하거나, 도축하여 뒤틀린 고기로 만들 수 있습니다.</SummonFleshbeasts.description>
   <!-- EN: They intend to use a psychic ritual to summon hideous fleshbeasts to attack you. -->
   <SummonFleshbeasts.letterAIArrivedText>그들이 초정신 의식을 사용하여 흉측한 살짐승을 소환해 당신을 공격하려 합니다.</SummonFleshbeasts.letterAIArrivedText>
   <!-- EN: Fleshbeasts emerging -->
@@ -100,7 +100,7 @@
   <!-- EN: draw fleshbeasts -->
   <SummonFleshbeastsPlayer.label>살짐승 유인</SummonFleshbeastsPlayer.label>
   <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonFleshbeastsPlayer.description>여러 살짐승이 위로 굴을 파 당신 적 근처로 출현하도록 유인하는 정신 파동을 생성합니다. 살짐승은 당신의 적과 아군을 포함하여 누구든 공격하며, 포획하여 연구하거나, 도축하여 뒤틀린 고기로 만들 수 있습니다.</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>살짐승들이 굴을 파 적들 근처에서 출현하도록 유인하는 정신 파동을 생성합니다. 살짐승은 당신의 적과 아군을 포함하여 누구든 공격하며, 포획하여 연구하거나, 도축하여 뒤틀린 고기로 만들 수 있습니다.</SummonFleshbeastsPlayer.description>
   <!-- EN: A higher quality ritual will attract more fleshbeasts. -->
   <SummonFleshbeastsPlayer.outcomeDescription>더 높은 품질의 의식은 더 많은 살짐승을 유인합니다.</SummonFleshbeastsPlayer.outcomeDescription>
   

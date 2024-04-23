@@ -274,12 +274,12 @@
     <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
   -->
   <Description_Tome.rulePack.rulesStrings>
-    <li>desc->[inThisBook], [author](이)가 [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
+    <li>desc->[inThisBook] [author](이)가 [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
     <li>inThisBook->이 [writingQualityAdjective] [bookTypeSingle](은)는</li>
     <li>inThisBook->이 [writingQualityAdjective] [bookTypePlural]에서는</li>
     <li>bookTypeSingle->설명문</li>
-    <li>bookTypeSingle->책력</li>
-    <li>bookTypeSingle->분석 결과</li>
+    <li>bookTypeSingle->연감</li>
+    <li>bookTypeSingle->분석 보고서</li>
     <li>bookTypeSingle->기사</li>
     <li>bookTypeSingle->책</li>
     <li>bookTypeSingle->해설</li>
@@ -292,10 +292,10 @@
     <li>bookTypeSingle->사설</li>
     <li>bookTypeSingle->에세이</li>
     <li>bookTypeSingle->폭로</li>
-    <li>bookTypeSingle->조사결과</li>
+    <li>bookTypeSingle->조사 보고서</li>
     <li>bookTypeSingle->마도서</li>
     <li>bookTypeSingle->연구</li>
-    <li>bookTypeSingle->조사자료</li>
+    <li>bookTypeSingle->조사 자료</li>
     <li>bookTypeSingle->성명서</li>
     <li>bookTypeSingle->원고</li>
     <li>bookTypeSingle->작품</li>
@@ -305,12 +305,12 @@
     <li>bookTypeSingle->기록</li>
     <li>bookTypeSingle->보고서</li>
     <li>bookTypeSingle->감상평</li>
-    <li>bookTypeSingle->설문</li>
-    <li>bookTypeSingle->증거</li>
+    <li>bookTypeSingle->분석 자료</li>
+    <li>bookTypeSingle->증거문</li>
     <li>bookTypeSingle->증언서</li>
     <li>bookTypeSingle->글</li>
     <li>bookTypeSingle->가설</li>
-    <li>bookTypeSingle->소책자</li>
+    <li>bookTypeSingle->책자</li>
     <li>bookTypeSingle->학술지</li>
     <li>bookTypeSingle->논의</li>
     <li>bookTypeSingle->두터운 책</li>
@@ -326,8 +326,8 @@
     <li>author->[anAuthorDesc] 심령술사</li>
     <li>author->[anAuthorDesc] 마도사</li>
     <li>author->[anAuthorDesc] 광신도</li>
-    <li>author->[anAuthorDesc] 광신교단원</li>
-    <li>author->[anAuthorDesc] 광신교단 도망자</li>
+    <li>author->[anAuthorDesc] 교단원</li>
+    <li>author->[anAuthorDesc] 교단 이탈자</li>
     <li>author->[anAuthorDesc] 골동품상</li>
     <li>author->[anAuthorDesc] 도굴꾼</li>
     <li>author->[anAuthorDesc] 공허 연구자</li>
@@ -348,7 +348,7 @@
     <li>author->[anAuthorDesc] 요원</li>
     <li>author->[anAuthorDesc] 영웅</li>
     <li>author->[anAuthorDesc] 작가</li>
-    <li>anAuthorDesc(p=2)->어느 한</li>
+    <li>anAuthorDesc(p=2)->한</li>
     <li>anAuthorDesc->어린</li>
     <li>anAuthorDesc->나이 많은</li>
     <li>anAuthorDesc->겁에 질린</li>
@@ -370,36 +370,36 @@
     <li>anAuthorDesc->음침한</li>
     <li>tellsAStoryOf->의 이야기를 합니다</li>
     <li>tellsAStoryOf->(을)를 밝힙니다</li>
-    <li>tellsAStoryOf->에 대해 토론합니다</li>
+    <li>tellsAStoryOf->에 대해 논합니다</li>
     <li>tellsAStoryOf->(을)를 설명합니다</li>
     <li>tellsAStoryOf->에 대한 세부사항을 서술합니다</li>
-    <li>tellsAStoryOf->에 심도있는 관찰을 서술합니다</li>
-    <li>tellsAStoryOf->에 심도있게 다룹니다</li>
+    <li>tellsAStoryOf->(을)를 자세히 말합니다</li>
+    <li>tellsAStoryOf->(을)를 심도 있게 다룹니다</li>
     <li>tellsAStoryOf->(을)를 회자합니다</li>
     <li>tellsAStoryOf->(을)를 다시 떠올립니다</li>
     <li>tellsAStoryOf->(을)를 보고합니다</li>
-    <li>tellsAStoryOf->의 모험을 떠납니다</li>
+    <li>tellsAStoryOf->(을)를 회고합니다</li>
     <li>tellsAStoryOf->(을)를 그려냅니다</li>
     <li>tellsAStoryOf->(을)를 풀어냅니다</li>
-    <li>experiencesWithMonsters->[ANYPAWN_pronoun]가 [entities](와)과 함께 한 경험[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->먼 [TerrainFeature] 아래 숨겨져 있던 이교도 무리에 떠난 모험[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->불가사의한 황금큐브를 쫓던 이야기[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->초월공학 숭배자의 고위 신도가 인도하는 깊은 명상[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->호락스 종교의 정신적 영향으로 [ANYPAWN_possessive] 생명이 붕괴된 것[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->연구원들이 하나둘 극도로 미쳐가는 외딴 고고학 발굴지[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->피의 쾌락 어둠의 신을 섬기기 위해 기괴하게 변형된 부족[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->녹슨 칼날을 사용하여 불빛 속에서 행해지는 절단 의식 전통을 지닌 부족</li>
-    <li>experiencesWithMonsters->학생 자신이 알 수 없는 치명적인 진실을 말하는 교사[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->죽은 아내를 되살리기 위해 고대 고고학적 수단을 사용하려는 과학자[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->한 외지인이 탐사원정 중 겪은 비처럼 내리는 피와, 하늘이 먹과같은 어둠으로 짓뭉개던 일[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->한 탐사대가 섬뜩한 살점으로 된 괴물들로 가득 찬 고대의 구덩이를 조사하던 일[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->되살아난 죽은 [Animal]들이 밤에 마을을 공격하는 것을 막으려는 부족 주술사의 시도[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->근처 부족의 전염되는 분노의 신과 그를 작은 돌감옥에 봉인한 영웅들의 이야기[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->사로잡은 [entity](을)를 대상으로한 [ANYPAWN_possessive] 가혹한 실험들[tellsAStoryOf]</li>
-    <li>experiencesWithMonsters->[vision](이)가 반복되는 [ANYPAWN_possessive] 환상[tellsAStoryOf]</li>
-    <li>vision->어둠의 형상이 [ANYPAWN_possessive] 정신에 도달하여 기억을 가져가는 장면</li>
-    <li>vision->[ANYPAWN_pronoun]는 [ANYPAWN_pronoun] 자신에게 쫓기고 있으며, 아무리 멀리 이동해도 벗어날 수 없는 현상</li>
-    <li>vision->[ANYPAWN_pronoun]가 [entity]에게 찢기는 장면</li>
+    <li>experiencesWithMonsters->[entities](와)과 함께 지낸 경험[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->멀리 떨어진 [TerrainFeature] 아래 숨어있던 광신도 교단을 찾았던 일[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->불가사의한 황금 큐브를 쫓던 이야기[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->초월공학 교단의 고위 추종자가 인도하는 깊은 명상[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->호락스라 불리는 무언가의 정신적 영향으로 자신의 생명이 붕괴된 것[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->외딴 고고학 발굴지에서 연구원이 하나씩 폭력적으로 미쳐가는 모습을 목격한 일[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->피의 쾌락을 좇는 이교도들과, 그들의 어두운 신을 위해 기괴하게 변형된 부족[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->불빛 속에서, 녹슨 칼날로 살을 자르는 의식을 전통으로 유지해온 부족을 묘사하려 시도합니다</li>
+    <li>experiencesWithMonsters->알아서는 안되는 진실을 말하는 학생을 가르치지만, 그것이 진실인지조차 알 방법이 없는 교사[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->죽은 아내를 되살리기 위해 고대 초월공학까지 손을 대려는 과학자[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->어느 외지 탐사대가 비처럼 내리는 피와 칠흑같은 어둠의 하늘을 뚫고 생존한 이야기[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->탐사대와 함께 섬뜩한 살점의 짐승들로 가득 찬 고대의 구덩이를 조사한 이야기[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->목격한, 죽은 [Animal]들이 밤에 되살아나 마을을 공격하는 것을 막으려던 부족 주술사의 시도[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->어느 부족에서 들었던, 그 손이 모든 곳에 닿았던 분노의 신과, 그 신을 작은 돌감옥에 봉인한 영웅들의 전설[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->사로잡은 [entity](을)를 대상으로 수행한 가혹한 실험들[tellsAStoryOf]</li>
+    <li>experiencesWithMonsters->계속해서 눈앞에 나타나는, [vision][tellsAStoryOf]</li>
+    <li>vision->어둠의 형상이 자신의 정신에 도달하여 기억을 가져가는 환상</li>
+    <li>vision->스스로에게 쫓기고 있는데 아무리 멀리 달려도 거리가 벌어지지 않는 환상</li>
+    <li>vision->자신이 [entity]에게 갈기갈기 찢기는 환상</li>
     <li>experiencesWithMonsters->[objective]에 대한 [ANYPAWN_possessive] [findings][tellsAStoryOf]</li>
     <li>findings->경험</li>
     <li>findings->조사결과</li>
@@ -474,21 +474,21 @@
     <li>writingQualityAdjective(quality==1)->보잘것없는</li>
     <li>writingQualityAdjective(quality==1)->대충 쓴</li>
     <li>writingQualityAdjective(quality==1)->지겨운</li>
-    <li>writingQualityAdjective(quality==1)->변덕스러운</li>
+    <li>writingQualityAdjective(quality==1)->일관적이지 않은</li>
     <li>writingQualityAdjective(quality==1)->난잡한</li>
     <li>writingQualityAdjective(quality==2)->엉성한</li>
     <li>writingQualityAdjective(quality==2)->진부한</li>
-    <li>writingQualityAdjective(quality==2)->평범한</li>
-    <li>writingQualityAdjective(quality==2)->그럭저럭인</li>
+    <li>writingQualityAdjective(quality==2)->흔해빠진</li>
+    <li>writingQualityAdjective(quality==2)->그저 그런</li>
     <li>writingQualityAdjective(quality==2)->흔한</li>
     <li>writingQualityAdjective(quality==2)->무난한</li>
-    <li>writingQualityAdjective(quality==3)->흔해빠진</li>
-    <li>writingQualityAdjective(quality==3)->꽤 잘쓴</li>
-    <li>writingQualityAdjective(quality==3)->짜임새있는</li>
+    <li>writingQualityAdjective(quality==3)->평범한</li>
+    <li>writingQualityAdjective(quality==3)->꽤 잘 쓴</li>
+    <li>writingQualityAdjective(quality==3)->짜임새 있는</li>
     <li>writingQualityAdjective(quality==3)->세심한</li>
-    <li>writingQualityAdjective(quality==3)->읽기 쉬운</li>
+    <li>writingQualityAdjective(quality==3)->읽을만한</li>
     <li>writingQualityAdjective(quality==3)->유별난</li>
-    <li>writingQualityAdjective(quality==4)->재밌는</li>
+    <li>writingQualityAdjective(quality==4)->흥미로운</li>
     <li>writingQualityAdjective(quality==4)->매끄러운</li>
     <li>writingQualityAdjective(quality==4)->감성적인</li>
     <li>writingQualityAdjective(quality==4)->정확한</li>
@@ -496,7 +496,7 @@
     <li>writingQualityAdjective(quality==4)->훌륭한</li>
     <li>writingQualityAdjective(quality==5)->알찬</li>
     <li>writingQualityAdjective(quality==5)->뛰어난</li>
-    <li>writingQualityAdjective(quality==5)->통찰력있는</li>
+    <li>writingQualityAdjective(quality==5)->허를 찌르는</li>
     <li>writingQualityAdjective(quality==5)->가치있는</li>
     <li>writingQualityAdjective(quality==5)->굉장한</li>
     <li>writingQualityAdjective(quality==5)->감동적인</li>

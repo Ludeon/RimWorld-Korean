@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef} 최면에 걸림</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>{PAWN_nameDef}(이)가 망령에 의해 최면에 걸렸으며 이제 악몽 같은 이미지와 생각에 대해 두서없이 횡설수설하고 있습니다.\n\n망령을 죽이면 최면이 끝납니다.\n\n망령은 초능력을 사용해 주변에 있는 자들의 인식을 왜곡시켜, 스스로를 보이지 않게 만듭니다. 그러나 여전히 망령이 남기는 검은 얼룩을 따라가 공격할 수 있습니다. 망령은 폭발성 무기, 소방거품, EMP, 불, 교란 신호탄에 맞으면 모습이 드러납니다.\n\n망령을 죽이지 않으면, 새로운 희생자를 계속해서 최면에 걸리게 할 겁니다.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef}(이)가 망령에 의해 최면에 걸렸으며 이제 악몽 같은 이미지와 생각에 대해 두서없이 횡설수설하고 있습니다.\n\n망령을 죽이면 최면이 끝납니다.\n\n망령은 초능력을 사용해 주변에 있는 자들의 인식을 왜곡시켜, 스스로를 보이지 않게 만듭니다. 그러나 여전히 망령이 남기는 검은 얼룩을 따라가 공격할 수 있습니다. 망령은 폭발성 무기, 소방거품, EMP, 불, 교란 조명탄에 맞으면 모습이 드러납니다.\n\n망령을 죽이지 않으면, 새로운 희생자를 계속해서 최면에 걸리게 할 겁니다.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>망령 살점 덩어리</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -54,7 +54,7 @@
   <!-- EN: Revenant emergence -->
   <LetterLabelRevenantEmergence>망령 출현</LetterLabelRevenantEmergence>
   <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
-  <LetterRevenantEmergence>망령이 척추에서의 은신을 끝내고 다시 나타났습니다! 탈출하기 전에 파괴하세요.\n\n이 과정에서 망령은 변이했으며 새로운 생명신호를 선택했습니다.</LetterRevenantEmergence>
+  <LetterRevenantEmergence>망령이 척추에서의 은신을 끝내고 다시 나타났습니다! 탈출하기 전에 파괴하세요.\n\n이 과정에서 망령은 변이했으며 새로운 생체신호를 선택했습니다.</LetterRevenantEmergence>
 
   <!-- Sightstealers -->
   <!-- EN: Sightstealer revealed -->
@@ -144,7 +144,7 @@
   <!-- EN: Entity escape -->
   <LetterLabelEscapingFromHoldingPlatform>실체 탈출</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>다음 실체가 억제에서 탈출했습니다.\n\n{0}\n\n더 강한 억제실을 건축해 실체들이 탈출하지 못하게 하세요. 튼튼한 벽과 문, 좋은 조명, 특수 억제 장치에서 오는 높은 억제력을 가진 구속대라면 시체들이 탈출할 가능성이 낮습니다.</LetterEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>다음 실체가 탈출했습니다.\n\n{0}\n\n더 강한 억제실을 건축해 실체들이 탈출하지 못하게 하세요. 튼튼한 벽과 문, 좋은 조명, 특수 억제 장치에서 오는 높은 억제력을 가진 구속대는 실체들이 탈출할 가능성이 낮습니다.</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>{0} 필요</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
@@ -321,13 +321,13 @@
   <!-- EN: Choose a location for the nociosphere to teleport to. -->
   <ChooseNociosphereDest>고통구체가 순간이동할 장소를 선택하세요.</ChooseNociosphereDest>
   <!-- EN: Transfer {0_definite} -->
-  <TransferEntity>{0_definite} 이송</TransferEntity>
+  <TransferEntity>{0_definite} 이전</TransferEntity>
   <!-- EN: Transfer the contained entity to another holding platform. -->
-  <TransferEntityDesc>억제된 실체를 다른 구속대로 이송합니다.</TransferEntityDesc>
+  <TransferEntityDesc>억제된 실체를 다른 구속대로 이전합니다.</TransferEntityDesc>
   <!-- EN: Cancel transfer -->
-  <CancelTransfer>이송 취소</CancelTransfer>
+  <CancelTransfer>이전 취소</CancelTransfer>
   <!-- EN: Cancel transferring this entity to another holding platform. -->
-  <CancelTransferDesc>이 실체의 이송을 취소합니다.</CancelTransferDesc>
+  <CancelTransferDesc>이 실체의 이전을 취소합니다.</CancelTransferDesc>
   
   <!-- Metalhorrors -->
   <!-- EN: Emerged from -->
@@ -353,9 +353,9 @@
   <!-- EN: Metalhorror emerging -->
   <MetalhorrorEmergingLabel>메탈호러 출현 중</MetalhorrorEmergingLabel>
   <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
-  <MetalhorrorEmergingDesc>메탈호러가 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 숙주의 살과 피부를 가르며 빠져나옵니다.</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingDesc>메탈호러가 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 다음 숙주의 살과 피부를 가르며 빠져나오고 있습니다.</MetalhorrorEmergingDesc>
   <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
-  <MetalhorrorEmergingPluralDesc>메탈호러들이 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 다음 숙주들의 살과 피부를 가르며 일제히 빠져나옵니다.</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingPluralDesc>메탈호러들이 나타났습니다! 전신에 날이 달린 악몽 같은 생물이 다음 숙주들의 살과 피부를 가르며 일제히 빠져나오고 있습니다.</MetalhorrorEmergingPluralDesc>
   <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
   <MetalhorrorEmergingDescAppended>이 끔찍한 금속 기생충은 머리카락 두께의 금속 섬유를 전신에 퍼뜨려 숙주의 사고 과정을 지배합니다. 조종당하는 숙주는 다른 사람들에게 새로운 메탈호러를 감염시키도록 유도됩니다.</MetalhorrorEmergingDescAppended>
   
@@ -363,17 +363,17 @@
   <MetalhorrorSurgicalInspectionDetails>아래 의사들은 메탈호러에 감염되어 조종당해서 검사 결과를 속였습니다.</MetalhorrorSurgicalInspectionDetails>
   
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
-  <MetalhorrorReasonInteraction>{PAWN_nameDef}(이)가 사교 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챘습니다. 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInteraction>{PAWN_nameDef}(이)가 사교 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챈 것이 원인입니다.</MetalhorrorReasonInteraction>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
-  <MetalhorrorReasonInterrogation>{PAWN_nameDef}(이)가 심문 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챘습니다. 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonInterrogation>{PAWN_nameDef}(이)가 심문 과정에서 {INFECTED_nameDef}의 이상 반응을 눈치챈 것이 원인입니다.</MetalhorrorReasonInterrogation>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because {INFECTED_nameDef} died. -->
-  <MetalhorrorReasonHostDied>{INFECTED_nameDef}(이)가 사망하여 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonHostDied>{INFECTED_nameDef}(이)가 사망한 것이 원인입니다.</MetalhorrorReasonHostDied>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
-  <MetalhorrorReasonSurgeryInspected>{PAWN_nameDef}(이)가 검사 과정에서 {INFECTED_nameDef}의 이상 조직을 검출했습니다. 몸 속의 메탈호러가 튀어나옵니다.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonSurgeryInspected>{PAWN_nameDef}(이)가 외과 검사 과정에서 {INFECTED_nameDef}의 이상 조직을 검출한 것이 원인입니다.</MetalhorrorReasonSurgeryInspected>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
-  <MetalhorrorReasonRandom>알 수 없는 이유로 {INFECTED_nameDef}의 몸 속에서 메탈호러가 튀어나옵니다.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonRandom>{INFECTED_nameDef}의 몸에서 이탈한 이유는 알 수 없습니다.</MetalhorrorReasonRandom>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
-  <MetalhorrorReasonTriedToLeaveMap>정착지에서 멀어지자 {INFECTED_nameDef}의 몸 속에서 메탈호러가 튀어나옵니다.</MetalhorrorReasonTriedToLeaveMap>
+  <MetalhorrorReasonTriedToLeaveMap>{INFECTED_nameDef}(이)가 정착지에서 멀어진 것이 뭔인입니다.</MetalhorrorReasonTriedToLeaveMap>
   
   <!-- EN: Metalhorror detected -->
   <MetalhorrorDetected>메탈호러 감지됨</MetalhorrorDetected>
@@ -383,22 +383,22 @@
   <InterrogationDetectedDesc>{PAWN_nameDef}(이)가 {INFECTED_nameDef}(을)를 심문하던 도중 뭔가 이상한 점을 알아챘습니다. {INFECTED_nameDef}의 행동이 부자연스럽고, 목소리가 이상하고, 동공 속으로 희미한 금속 벌레의 모습이 비칩니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 메탈호러에 감염되었다고 의심합니다.</InterrogationDetectedDesc>
   
   <!-- EN: Metalhorrors are parasites that control the host and use {INFECTED_objective} to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>메탈호러는 숙주를 지배하는 기생체로, {INFECTED_objective}(을)를 사용해 다른 이들을 감염시킵니다.\n\n메탈호러는 체내에서 점차 성장하며, 감지되면 숙주의 몸을 베고 빠져나옵니다. 그 과정은 끔찍하지만 숙주는 보통 살아남습니다.\n\n메탈호러에 감염되었는지 알 수 있는 유일한 방법은 메탈호러의 잔여물을 연구해 생명신호를 확인한 후, 믿음직한 의사에게 외과 검사 작업을 맡기는 것입니다.\n\n이를 통해 메탈호러가 숙주에서 나오도록 유도할 수 있습니다. 그리고 전투를 준비하세요.</MetalhorrorNoticedDetailsAppended>
+  <MetalhorrorNoticedDetailsAppended>메탈호러는 숙주의 정신을 지배하여 다른 이들을 감염시키는 기생체입니다.\n\n메탈호러는 체내에서 점차 성장하며, 감지되면 숙주의 몸을 베고 빠져나옵니다. 그 과정은 끔찍하지만 숙주는 보통 살아남습니다.\n\n메탈호러에 감염되었는지 확인할 수 있는 유일한 방법은 메탈호러의 잔여물을 연구해 생체신호를 확인한 후, 믿음직한 의사에게 외과 검사 작업을 맡기는 것입니다.\n\n이를 통해 메탈호러가 숙주에서 나오도록 유도할 수 있습니다. 그리고 전투를 준비하세요.</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>회색 살점</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
-  <LetterGrayFleshDiscovered>{PAWN_nameDef}(이)가 살 조직 조각을 발견했습니다. 작은 금속 입자로 회색 착색이 된 인간의 피부와 비슷합니다. 살 액화 과정 중 누군가에게서 벗겨졌을 겁니다.\n\n이곳의 누군가는 보이는 것과는 다를 수 있습니다.\n\n범인을 알아내는 방법은 여러 가지가 있습니다.\n\n{METHODS}\n\n경고: 일부 기생충은 정신을 조종할 수 있고 심지어 다른 이들에게 전염시킬 수도 있습니다.</LetterGrayFleshDiscovered>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef}(이)가 살점 조각을 발견했습니다. 작은 금속 입자들로 인해 회색으로 변색된 인간의 피부처럼 보입니다. 누군가의 살이 액화되는 과정에서 벗겨진 것이 분명합니다.\n\n이곳의 누군가는 보이는 것과 다를지도 모릅니다.\n\n사칭자를 찾아내는 방법은 여러 가지가 있습니다.\n\n{METHODS}\n\n경고: 일부 기생충은 숙주의 정신을 조종할 수 있고, 심지어 다른 이들에게 전파될 수도 있습니다.</LetterGrayFleshDiscovered>
   
   <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
-  <LetterInterrogationUnlocked>수감자 “심문” 상호작용이 이제 잠금 해제되었습니다.</LetterInterrogationUnlocked>
+  <LetterInterrogationUnlocked>수감자 “심문” 상호작용을 사용할 수 있습니다.</LetterInterrogationUnlocked>
   
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
-  <LetterGrayFleshMethodOne>누군가를 감금한 뒤 간수를 보내 진짜 정체성에 대해 심문하세요. 며칠 걸릴 수 있습니다.</LetterGrayFleshMethodOne>
+  <LetterGrayFleshMethodOne>의심되는 사람을 감금하고 간수를 보내 진짜 정체에 대해 심문하세요. 이 과정은 오랜 시간이 걸릴 수 있습니다.</LetterGrayFleshMethodOne>
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
-  <LetterGrayFleshMethodTwo>더 많은 회색 살을 모아 분석하여 이 위협의 생체신호를 알아내세요. 그 후 외과적 검사를 시행해 생체신호를 추적하세요. 충분한 샘플을 모으는 데 오랜 시간이 걸릴 수 있으며, 침습적 수술이 필요합니다.</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodTwo>더 많은 회색 살점을 수집하여 분석하고, 이 위협의 생체신호를 확인하세요. 그 후 외과적 검사를 시행해 해당 생체신호를 찾아내세요. 충분한 샘플을 모으는 데에는 오랜 시간이 걸릴 수 있으며, 검사에는 침습적 수술이 필요합니다.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
-  <LetterGrayFleshMethodThree>의심되는 사람은 누구나 처형하거나 추방하세요.</LetterGrayFleshMethodThree>
+  <LetterGrayFleshMethodThree>의심되는 사람은 모두 처형하거나 추방하세요.</LetterGrayFleshMethodThree>
   
   <!-- EN: Metalhorrors awakening -->
   <LetterMetalhorrorReawakeningLabel>메탈호러 깨어나는 중</LetterMetalhorrorReawakeningLabel>
@@ -413,9 +413,9 @@
   
   <!-- Surgical inspection -->
   <!-- EN: Surgical inspection results -->
-  <LetterSurgicallyInspectedLabel>외과적 검사 결과</LetterSurgicallyInspectedLabel>
+  <LetterSurgicallyInspectedLabel>외과 검사 결과</LetterSurgicallyInspectedLabel>
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
-  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef}(이)가 {PATIENT_nameDef}에 대해 광범위한 외과적 검사를 시행했습니다.</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef}(이)가 {PATIENT_nameDef}에게 광범위한 외과 검사를 시행했습니다.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
   <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun}에 따르면 아무 이상도 없었습니다. 하지만 {DOCTOR_nameDef}(이)가 사익을 추구하여 거짓말을 할 가능성도 있습니다.</LetterSurgicallyInspectedNothing>
   
@@ -454,7 +454,7 @@
   <!-- EN: {PAWN_nameDef} wants to join -->
   <LetterCreeperInviteJoins>{PAWN_nameDef}의 합류 요청</LetterCreeperInviteJoins>
   <!-- EN: {PAWN_pronoun} may be very useful, but you also sense there is something {PAWN_nameDef} is not telling you. -->
-  <LetterCreeperInviteAppend>{PAWN_pronoun}는 아주 유용할지 몰라도, {PAWN_nameDef}(이)가 말하지 않은 무언가가 있다는 느낌이 듭니다.</LetterCreeperInviteAppend>
+  <LetterCreeperInviteAppend>{PAWN_nameDef}(은)는 아주 유용한 인재로 보입니다. 하지만 {PAWN_nameDef}(이)가 아직 말하지 않은 게 남아있음을 느낄 수 있습니다.</LetterCreeperInviteAppend>
   
   <!-- EN: Allow {PAWN_nameDef} to join -->
   <AcceptCreeper>{PAWN_nameDef} 합류 허용</AcceptCreeper>
@@ -481,9 +481,9 @@
   
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
-  <ElectroharvesterNoEntity>억제된 실체 없음.</ElectroharvesterNoEntity>
+  <ElectroharvesterNoEntity>억제된 실체 없음</ElectroharvesterNoEntity>
   <!-- EN: Not connected to a holding platform. -->
-  <ElectroharvesterNoPlatform>구속대에 연결되지 않음.</ElectroharvesterNoPlatform>
+  <ElectroharvesterNoPlatform>구속대에 연결되지 않음</ElectroharvesterNoPlatform>
   
   <!-- Fleshmass Heart -->
   <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
@@ -505,7 +505,7 @@
   <!-- EN: Must collect and analyze fleshmass neural lumps. Lumps analyzed -->
   <DestroyHeartDisabled>살덩이 신경 혹을 수집하고 분석해야 합니다. 분석한 혹</DestroyHeartDisabled>
   <!-- EN: A fleshmass spitter is attacking! -->
-  <SpitterAttacking>살덩이 스피터가 공격 중입니다!</SpitterAttacking>
+  <SpitterAttacking>살덩이가 공격하고 있습니다!</SpitterAttacking>
   <!-- EN: Gathering acid. Ready in -->
   <SpitterGatheringSpit>산 모으는 중. 준비까지</SpitterGatheringSpit>
   <!-- EN: Ready to spit acid. -->
@@ -520,7 +520,7 @@
   <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
   <LetterFleshTentacleAttack>{PAWN_nameDef}의 작업은 성공적이었습니다. 그러나 {PAWN_possessive} 촉수였던 뒤틀리는 살 덩어리가 공격하기 시작했습니다!</LetterFleshTentacleAttack>
   <!-- EN: Biosignature -->
-  <Biosignature>생명신호</Biosignature>
+  <Biosignature>생체신호</Biosignature>
   <!-- EN: Bliss lobotomy -->
   <BlissLobotomy>환희의 전두엽 절제술</BlissLobotomy>
   <!-- EN: hp -->
@@ -666,18 +666,18 @@
   <!-- EN: dirt -->
   <CubeMaterialDirt>흙</CubeMaterialDirt>
   <!-- EN: stone -->
-  <CubeMaterialStone>석재</CubeMaterialStone>
+  <CubeMaterialStone>돌</CubeMaterialStone>
   <!-- EN: sand -->
   <CubeMaterialSand>모래</CubeMaterialSand>
   <!-- EN: scrap -->
-  <CubeMaterialScrap>폐물</CubeMaterialScrap>
+  <CubeMaterialScrap>폐품</CubeMaterialScrap>
   
   <!-- EN: building a sculpture. -->
   <ReportBuildingCubeEnroute>조각상을 만드는 중.</ReportBuildingCubeEnroute>
   
   <!-- Slaughter ability -->
   <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
-  <MessageSlaughterNoFlesh>도축할 수 없음: {PAWN_labelShort}에게 살이 없습니다.</MessageSlaughterNoFlesh>
+  <MessageSlaughterNoFlesh>도축할 수 없음: {PAWN_labelShort}에게 살점이 없습니다.</MessageSlaughterNoFlesh>
   <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
   <MessageSlaughterTooBig>도축할 수 없음: {PAWN_labelShort}(이)가 너무 큽니다.</MessageSlaughterTooBig>
   
@@ -772,7 +772,7 @@
   <!-- EN: Monolith twisting -->
   <MonolithTwistingAlert>모노리스 뒤틀림</MonolithTwistingAlert>
   <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithTwistingExplanation>당신의 존재는 모노리스가 뒤틀리고 변하게 만들었습니다. 곧 이 과정이 완료될 겁니다. 다음에 일어날 일에 대비하세요.</MonolithTwistingExplanation>
+  <MonolithTwistingExplanation>당신의 존재 때문에 모노리스가 뒤틀리며 변화하고 있습니다. 이 과정은 곧 완료될 겁니다. 다음에 일어날 일에 대비하세요.</MonolithTwistingExplanation>
   <!-- EN: Fallen monolith -->
   <MonolithAutoActivatingLabel>쓰러진 모노리스</MonolithAutoActivatingLabel>
   <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
@@ -785,13 +785,13 @@
   <!-- EN: Gray pall -->
   <LetterLabelGrayPallDescending>잿빛 안개</LetterLabelGrayPallDescending>
   <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
-  <LetterGrayPallDescending>거친 안개의 막이 이 지역에 내려앉았습니다. 안개에선 어째선지 피부를 찌를듯한 고대의 냄새가 납니다. 이 부자연스러운 회색은 공포를 불러일으킵니다.</LetterGrayPallDescending>
+  <LetterGrayPallDescending>거친 안개의 장막이 내려앉았습니다. 안개 속에서 어째선지 피부를 찌르는 듯한 고대의 냄새가 풍겨옵니다. 부자연스러운 회색으로부터 공포가 스며듭니다.</LetterGrayPallDescending>
 
   <!-- Void Awakening -->
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for a number of days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
   <VoidAwakeningConfirmationText>공허 모노리스를 깨우면 정착지가 수 일간 어둠에 휩싸이며 강력한 실체들을 끌어들입니다. 준비가 됐는지 다시 확인하세요.\n\n- 식량과 건설 자재, 무기를 확보하세요.\n- 정착지에 조명과 전력이 충분해야 합니다. 태양광 발전에 의존하지 마세요.\n- 정착지의 방비를 다시 확인하세요. 정착민들이 싸울 준비가 되어야 합니다.\n\n공허 모노리스를 깨우면 돌이킬 수 없습니다.\n\n정말 계속하시겠습니까?</VoidAwakeningConfirmationText>
   <!-- EN: A writhing sphere of crackling psychic energy rises before {PAWN_nameDef}. Its surface swells and twists, warping the space around it.\n\n{PAWN_nameDef} feels it inside {PAWN_possessive} mind, deeper than any normal human sense. It defeats logic and sets {PAWN_objective} adrift in the void. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power, and it beckons {PAWN_objective} in.\n\n{PAWN_nameDef} shakes {PAWN_objective}self back to reality.\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds and putting an end to the terrifying phenomena that have plagued your home.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what lies beyond, or what dark powers could be gained from such an inhuman act. -->
-  <VoidNodeLetter>탁탁거리는 정신 에너지의 몸부림치는 구체가 {PAWN_nameDef} 앞에 떠오릅니다. 그 표면은 부풀어오르고 뒤틀리며, 주위의 공간을 왜곡합니다.\n\n{PAWN_nameDef}(은)는 그것을 다른 보통 인간보다 깊숙이 {PAWN_possessive} 마음 속에서 느낍니다. 그것은 논리를 꺾고 {PAWN_objective} 공허에 표류하도록 만듭니다. {PAWN_pronoun}(은)는 힘의 무한한 검은 바다의 해안가에 서 있으며, 그것이 {PAWN_objective} 들어오라고 손짓합니다.\n\n{PAWN_nameDef}(은)는 {PAWN_objective} 자신을 흔들어 현실로 돌아옵니다.\n\n근처의 초월공학 장치는 취약한 연결을 따라 구체를 지지하고 있습니다. {PAWN_nameDef}(은)는 이를 방해하여, 세계 간의 이 연결을 끊고 고향을 괴롭힌 무시무시한 현상을 끝낼 수 있습니다.\n\n혹은, {PAWN_pronoun}(은)는 구체로 들어가 공허와 합쳐질 수 있습니다. 그 뒤에 무엇이 있는지, 그런 비인간적인 행동으로 어떤 어둠의 힘을 얻을 수 있는지는 알 수 없습니다.</VoidNodeLetter>
+  <VoidNodeLetter>정신 에너지가 찌그러지듯이 요동치는 구체가 {PAWN_nameDef} 앞에 떠오릅니다. 구체의 표면은 부풀어 오르고 뒤틀리며 주위의 공간을 왜곡합니다.\n\n{PAWN_nameDef}(은)는 일반적이지 않은 생소한 느낌으로 {PAWN_possessive} 마음 깊숙이 그것을 느낍니다. 그것은 상식과 논리를 무너뜨리고 {PAWN_pronoun}가 공허에 표류하게 합니다. {PAWN_pronoun}는 무한한 힘의 검은 바닷가에 서 있었고, 그것은 어서 들어오라고 손짓합니다.\n\n{PAWN_nameDef}(은)는 자신을 채찍질하며, 흔들어 깨워 현실로 돌아옵니다.\n\n근처의 초월공학 장치는 취약한 연결부로 구체를 지지하고 있습니다. {PAWN_nameDef}(은)는 이를 부수어 세계 간의 연결을 끊고, 고향을 괴롭힌 무시무시한 현상을 끝낼 수 있습니다.\n\n혹은 {PAWN_pronoun}는 구체로 들어가 공허를 받아들일 수 있습니다. 그 뒤에 무엇이 있는지, 그런 비인간적인 행동으로 어떤 어둠의 힘을 얻을 수 있는지는 알 수 없습니다.</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>연결 방해하기</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
@@ -799,9 +799,9 @@
   <!-- EN: Postpone -->
   <VoidNodePostpone>미루기</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the archotech machinery begins to scream. The swirling void flickers. {PAWN_nameDef} feels it spilling beyond its limits and collapsing into itself, all at once.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>심령 흐름이 불안정하며 초월공학 기계가 비명을 지르기 시작했습니다. 소용돌이치는 공허가 깜박거립니다. {PAWN_nameDef}(은)는 그것이 그 한계를 넘어 흐르며 갑자기 자체적으로 붕괴한다고 느낍니다.\n\n금속의 동굴은 뒤틀리기 시작하며, 거대한 심실처럼 재형성되기 시작합니다. {PAWN_nameDef}(이)가 소리를 지르기도 전에, {PAWN_pronoun}(은)는 소멸합니다.\n\n{PAWN_nameDef}(은)는 공허를 거부했습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</DisruptTheLinkCredits>
+  <DisruptTheLinkCredits>정신 에너지 흐름이 불안정해지며 초월공학 기계가 비명을 지르기 시작했습니다. 소용돌이치는 공허가 깜박거립니다. {PAWN_nameDef}(은)는 그것이 한계를 넘어 폭주하다가 스스로 붕괴되는 것을 느낍니다.\n\n금속의 동굴은 뒤틀리기 시작하더니, 거대한 심실처럼 재형성되기 시작합니다. {PAWN_nameDef}(이)가 소리를 지르기도 전에 {PAWN_pronoun}는 소멸합니다.\n\n{PAWN_nameDef}(은)는 공허를 거부했습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every cell in {PAWN_possessive} body and every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, torn from their otherworldly foundation, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
-  <EmbraceTheVoidCredits>{PAWN_nameDef}(이)가 공허로 들어가자 검은 바다가 {PAWN_objective} 안으로 흘러들어와, 모든 감각을 압도하고, {PAWN_possessive} 몸의 모든 세포와 {PAWN_possessive} 정신의 모든 생각에 퍼집니다.\n\n공허 노드는 세계에서부터 한 사람에게 다시 집중되었습니다. 공허 구조물은 그 초자연적인 토대에서 찢겨지며 비명을 지르고, 존재가 소멸됩니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들였습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</EmbraceTheVoidCredits>
+  <EmbraceTheVoidCredits>{PAWN_nameDef}(이)가 공허로 들어가자 검은 바다가 {PAWN_possessive} 안으로 흘러들어와, 모든 감각을 압도하고 모든 세포, 모든 생각에까지 퍼집니다.\n\n그 순간 공허는 세계에서 한 사람에게 집중되었습니다. 공허 구조물은 그 초자연적인 토대에서 찢기며 비명을 지르고 소멸합니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들였습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
   <StructureActivatedMessage>{PAWN_nameDef}(이)가 {STRUCTURE_definite} 활성화를 마쳤습니다</StructureActivatedMessage>
   <!-- EN: Structures activated -->
@@ -830,17 +830,17 @@
   
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
-  <BioferriteHarvesterContained>생체강 생산됨</BioferriteHarvesterContained>
+  <BioferriteHarvesterContained>생체강 적재됨</BioferriteHarvesterContained>
   <!-- EN: per day -->
-  <BioferriteHarvesterPerDay>/ 일</BioferriteHarvesterPerDay>
+  <BioferriteHarvesterPerDay>/일</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
-  <BioferriteHarvesterEjectContents>내용물 배출</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContents>내용물 꺼내기</BioferriteHarvesterEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>담겨있는 모든 {0}(을)를 바닥으로 배출합니다.</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterEjectContentsDesc>적재된 모든 {0}(을)를 바닥으로 꺼냅니다.</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>생체강 비우기 토글</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>생체강 비우기</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>활성화 시, 정착민이 수확기에 생체강이 가득 차면 자동으로 비울 겁니다.</BioferriteHarvesterToggleUnloadingDesc>
+  <BioferriteHarvesterToggleUnloadingDesc>활성화 시, 수확기에 생체강이 가득 차면 정착민이 자동으로 회수합니다.</BioferriteHarvesterToggleUnloadingDesc>
   
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->

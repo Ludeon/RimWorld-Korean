@@ -65,7 +65,7 @@
   <!-- EN: Barrel durability -->
   <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>포신 내구도</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>포신 교체 전까지 발사 가능한 포탄</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
   <!-- EN: Needs new barrel -->
   <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>새 포신 필요</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
   
@@ -89,9 +89,9 @@
   <!-- EN: A portable automatic turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
   <Turret_MiniTurret.description>휴대 가능한 자동포탑입니다. 많이 발사한 후에는 강철을 사용해서 포신을 수리해야 합니다. 크게 손상되면 폭발할 수 있습니다. 사격 인공지능의 신뢰도가 떨어지므로 직접 통제할 수 없습니다. 빗나간 총알을 맞지 않도록 주의하세요.</Turret_MiniTurret.description>
   <!-- EN: Barrel durability -->
-  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>남은 포탄</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>포신 내구도</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>포신 교체 전까지 발사 가능한 포탄</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
   <!-- EN: Needs new barrel -->
   <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>새 포신 필요</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
   
@@ -100,11 +100,11 @@
   <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
   <Turret_Mortar.description>모든 종류의 포탄을 발사할 수 있는 유인 박격포입니다. 파괴적인 피해를 입힐 수 있지만, 고유의 부정확성 때문에 개방된 지역의 적 집단보다는 요새화된 구조물 공격 시 더 유용합니다.</Turret_Mortar.description>
   <!-- EN: Barrel durability -->
-  <Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>남은 포탄</Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>포신 내구도</Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_Mortar.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_Mortar.comps.CompRefuelable.fuelLabel>
+  <Turret_Mortar.comps.CompRefuelable.fuelLabel>포신 교체 전까지 발사 가능한 횟수</Turret_Mortar.comps.CompRefuelable.fuelLabel>
   <!-- EN: Needs new reinforced barrel -->
-  <Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>새 강화 포신 필</Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>
+  <Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>새 강화 포신 필요</Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>
   
   <!-- EN: rocketswarm launcher -->
   <Turret_RocketswarmLauncher.label>로켓탄막 발사기</Turret_RocketswarmLauncher.label>
