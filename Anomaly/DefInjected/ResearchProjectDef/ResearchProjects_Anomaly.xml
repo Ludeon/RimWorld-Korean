@@ -46,9 +46,9 @@
   </AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
-  <BasicPsychicRituals.label>공허 소환</BasicPsychicRituals.label>
+  <BasicPsychicRituals.label>공허 유인</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
-  <BasicPsychicRituals.description>초정신 의식 장소를 건설하고 초정신 의식을 행하세요. 공허 소환 의식을 통해 새로운 실체를 발견하세요.</BasicPsychicRituals.description>
+  <BasicPsychicRituals.description>초정신 의식 장소를 건설하고 초정신 의식을 행하세요. 공허 유인 의식을 통해 새로운 실체를 발견하세요.</BasicPsychicRituals.description>
   <!-- EN:
     <li>subject->psychic rituals</li>
     <li>subject_story->studied the rituals of Horax cultists</li>
@@ -65,7 +65,7 @@
     <li>subject_story->호락스 광신도들의 의식을 연구했습니다</li>
     <li>subject_story->재건된 원시제단입니다</li>
     <li>subject_story->정신적 의사소통의 기초를 확립했습니다</li>
-    <li>subject_story->죽음계에서 실패한 공허 소환 의식을 지켜봤습니다</li>
+    <li>subject_story->죽음계에서 실패한 공허 유인 의식을 지켜봤습니다</li>
     <li>subject_story->사막의 기둥 꼭대기에 있는 초월공학 파편과 대화했습니다</li>
     <li>subject_gerund->초정신 의식 수행</li>
     <li>subject_gerund->의식 장소 확보</li>
@@ -200,8 +200,8 @@
   <BloodRain.generalRules.rulesStrings>
     <li>subject->피의 비</li>
     <li>subject_story->유기물이 포함된 강수에 관한 고대 신들의 전설을 조사했습니다</li>
-    <li>subject_story->분노조절장애를 가진이들의 신경 회로를 연구했습니다</li>
-    <li>subject_story->익스 행성에서 흐르는 정신감응액체를 채취했습니다</li>
+    <li>subject_story->분노 조절 장애를 가진 사람들의 신경 회로를 연구했습니다</li>
+    <li>subject_story->익스 행성에서 흐르는 정신 감응 액체를 채취했습니다</li>
     <li>subject_story->쏟아지는 사이코플루이드에 노출되어 통제 불가능한 분노로 가득차게 되었습니다</li>
     <li>subject_gerund->피의 비 유도</li>
   </BloodRain.generalRules.rulesStrings>
@@ -209,7 +209,7 @@
   <!-- EN: brainwipe -->
   <Brainwipe.label>뇌세척</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
-  <Brainwipe.description>사람의 삽화적인 기억의 많이 지워버리는 초정신 의식을 행하세요. 정신적 외상의 원인이 되는 사건이 잊힐 겁니다. 저항하는 수감자를 포섭하기 더 쉬워질 겁니다.</Brainwipe.description>
+  <Brainwipe.description>사람의 일화기억을 대부분 지워버리는 초정신 의식을 행하세요. 정신적 외상의 원인이 되는 사건이 잊힙니다. 수감자의 저항 의지가 약해져 포섭이 쉬워집니다. 확고한 충성심을 망각합니다.</Brainwipe.description>
   <!-- EN:
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodice amnesia</li>
@@ -232,7 +232,7 @@
   <!-- EN: chronophagy -->
   <Chronophagy.label>시간포식</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>대상이 빠르게 늙게 하는 초정신 의식을 행하세요. 과정에서 의식 수행자는 어려집니다. 결과적으로 대상은 뇌 손상을 입게 되며, 이는 나이가 많은 대상에게 치명적입니다.</Chronophagy.description>
+  <Chronophagy.description>대상을 빠르게 늙게 하는 초정신 의식을 행하세요. 해당 과정에서 의식 수행자는 어려집니다. 결과적으로 대상은 뇌 손상을 입게 되며, 이는 나이가 많은 대상에게는 치명적일 수 있습니다.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -521,7 +521,7 @@
   </MetalbloodSerum.generalRules.rulesStrings>
   
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>정신 마비 혈청</MindNumbSerum.label>
+  <MindNumbSerum.label>감정마비 혈청</MindNumbSerum.label>
   <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
   <MindNumbSerum.description>사람의 기분을 안정시켜 정신이상을 막는 혈청을 합성하세요.</MindNumbSerum.description>
   <!-- EN:
@@ -533,12 +533,12 @@
     <li>subject_gerund->synthesizing mind-numb serums</li>
   -->
   <MindNumbSerum.generalRules.rulesStrings>
-    <li>subject->정신 마비 혈청</li>
+    <li>subject->감정마비 혈청</li>
     <li>subject_story->리드 싱어를 몰래 마비시켜 극적인 공연을 방해했습니다</li>
-    <li>subject_story->저용량 정신 마비 혈청을 정신병원 수돗물에 투여했습니다</li>
-    <li>subject_story->전투 전후에 후배 병사들에게 정신 마비 혈청을 배포했습니다</li>
+    <li>subject_story->저용량 감정마비 혈청을 정신병원 수돗물에 투여했습니다</li>
+    <li>subject_story->전투 전후에 후배 병사들에게 감정마비 혈청을 배포했습니다</li>
     <li>subject_story->고통을 없애기 위한 초월공학 사용을 조사했습니다</li>
-    <li>subject_gerund->정신마비 혈청 합성</li>
+    <li>subject_gerund->감정마비 혈청 합성</li>
   </MindNumbSerum.generalRules.rulesStrings>
   
   <!-- EN: mutation weaponry -->
@@ -801,11 +801,11 @@
     <li>subject_story->들판의 짐승들과 교감하는 법을 배웠습니다</li>
     <li>subject_story->다양한 동물 품종에 초월입자의 영향을 실험했습니다</li>
     <li>subject_story->자연 숭배가 무리가 그들의 가축들과 교감하는 모습을 지켜보았습니다</li>
-    <li>subject_gerund->동물 무리 소환</li>
+    <li>subject_gerund->동물 무리 유인</li>
   </SummonAnimals.generalRules.rulesStrings>
   
   <!-- EN: summon fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>살짐승 소환</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>살짐승 유인</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
   <SummonFleshbeastsPlayer.description>살짐승이 적 근처 땅에서 출현해, 근처의 모두를 공격하게 하는 초정신 의식을 행하세요.</SummonFleshbeastsPlayer.description>
   <!-- EN:
@@ -819,14 +819,14 @@
     <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
   -->
   <SummonFleshbeastsPlayer.generalRules.rulesStrings>
-    <li>subject->살짐승 소환</li>
+    <li>subject->살짐승 유인</li>
     <li>subject_story->생명의 기원에 관한 고대 서적을 읽어보세요</li>
     <li>subject_story->사헤의 폭발쥐가 자연적으로 변형되는 걸 직접 목격했습니다</li>
     <li>subject_story->살을 녹이는 것에 관한 고대 영화를 보고 영감을 받았습니다</li>
     <li>subject_story->유기적 융합에서 의식의 전달과 분리를 연구했습니다</li>
     <li>subject_story->지하에서 끔찍한 짐승을 만난 더트몰 공동체를 관찰했습니다</li>
-    <li>subject_gerund->소환된 살짐승들</li>
-    <li>subject_gerund->살짐승을 소환하는 의식 거행 중</li>
+    <li>subject_gerund->유인된 살짐승들</li>
+    <li>subject_gerund->살짐승을 유인하는 의식 거행 중</li>
   </SummonFleshbeastsPlayer.generalRules.rulesStrings>
   
   <!-- EN: provoke pit gate -->
@@ -849,7 +849,7 @@
     <li>subject_story->죽음계 종교 학교의 도서관을 관리했습니다</li>
     <li>subject_story->진정의식을 거행했습니다</li>
     <li>subject_gerund->지하 통로를 만드는 의식 거행</li>
-    <li>subject_gerund->지하 통로 소환</li>
+    <li>subject_gerund->지하 통로 열기</li>
   </SummonPitGate.generalRules.rulesStrings>
   
   <!-- EN: draw shamblers -->
@@ -866,12 +866,12 @@
     <li>subject_gerund->calling shamblers through ritual</li>
   -->
   <SummonShamblers.generalRules.rulesStrings>
-    <li>subject->휘청이는 자 소환 의식</li>
+    <li>subject->휘청이는 자 유인 의식</li>
     <li>subject_story->안전한 대학 도서관에서 죽음계의 심령학을 연구했습니다</li>
     <li>subject_story->휘청이는 자의 공격 관련 이야기를 수집했습니다</li>
     <li>subject_story->죽은 유기체에서 초월입자 밀도 형성을 연구했습니다</li>
     <li>subject_story->죽음계 관리자로서 온갖 이상한 것들을 보았습니다</li>
-    <li>subject_gerund->소환된 휘청이는 자들</li>
+    <li>subject_gerund->유인된 휘청이는 자들</li>
     <li>subject_gerund->의식을 통해 휘청이는 자를 부름</li>
   </SummonShamblers.generalRules.rulesStrings>
   

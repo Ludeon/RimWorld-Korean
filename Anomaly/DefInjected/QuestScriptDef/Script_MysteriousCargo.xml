@@ -17,7 +17,7 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoCube.questDescriptionRules.rulesStrings>
-    <li>익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(askerIsNull==true)->익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
   </MysteriousCargoCube.questDescriptionRules.rulesStrings>
@@ -42,7 +42,7 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
-    <li>익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(askerIsNull==true)->익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
   </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
@@ -61,7 +61,7 @@
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->신비한 화물</li>
     <li>deliveredLetterText(pawnOnMap==true)->신비한 화물이 도착했습니다. 인간의 시체같습니다.\n\n더 자세히 조사해보니, 이 시체는 [pawn_nameDef](와)과 동일하게 생겼습니다. 다만 피부는 왁스같은 재질이고, 따뜻합니다. 이 시체때문에 [pawn_nameDef](이)가 굉장히 불안해합니다.\n\n시체를 연구하여 더 알아볼 수 있습니다.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->신비한 화물이 도착했습니다. 인간의 시체같습니다.\n\n더 자세히 조사해보니, 이 시체는 [pawn_nameDef](와)과 동일하게 생겼습니다. 다만 피부는 왁스같은 재질이고, 따뜻합니다. 이 시체는 [pawn_nameDef](을)를 굉장히 불안하게 만들 것입니다.\n\n시체를 연구하여 더 알아볼 수 있습니다.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->신비한 화물이 도착했습니다. 인간의 시체같습니다.\n\n더 자세히 조사해보니, 이 시체는 [pawn_nameDef](와)과 똑같이 생겼습니다. 다만 피부는 왁스같은 재질이고, 만지면 따뜻합니다. 이 시체는 [pawn_nameDef](을)를 굉장히 불안하게 만들 것입니다.\n\n시체를 연구하여 더 알아볼 수 있습니다.</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -69,7 +69,7 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
-    <li>익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(askerIsNull==true)->익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
   </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>

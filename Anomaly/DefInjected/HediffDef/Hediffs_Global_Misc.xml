@@ -23,7 +23,7 @@
   <!-- EN: blood rage -->
   <BloodRage.label>피의 분노</BloodRage.label>
   <!-- EN: This creature has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
-  <BloodRage.description>이 사람은 분노를 유발하는 정신 액체, 피의 비에 노출되었습니다. 이 분노는 이 사람이 피의 비에 노출되는 한 계속해서 커지다가 결국에는 폭력적인 정신이상을 일으킬 것입니다. 분노가 커지는 속도는 개인의 특성, 정신 감응력, 임의의 개인적 차이에 따라 다릅니다.</BloodRage.description>
+  <BloodRage.description>대상은 피의 비에 노출되었습니다. 이것은 대상의 분노를 자극하여 점차 증가시키는 정신 액체로, 결국에는 폭력적인 정신이상을 유발할 것입니다. 분노가 커지는 속도는 대상의 특성, 정신 감응력, 개인적 건강 상태에 따라 달라집니다.</BloodRage.description>
   <!-- EN: very mild -->
   <BloodRage.stages.very_mild.label>아주 약함</BloodRage.stages.very_mild.label>
   <!-- EN: mild -->
@@ -33,7 +33,9 @@
   <!-- EN: severe -->
   <BloodRage.stages.severe.label>심함</BloodRage.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme.label>극심함</BloodRage.stages.extreme.label>
+  <BloodRage.stages.extreme-0.label>극심함</BloodRage.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <BloodRage.stages.extreme-1.label>TODO</BloodRage.stages.extreme-1.label>
   
   <!-- EN: brainwipe coma -->
   <BrainwipeComa.label>뇌세척 혼수상태</BrainwipeComa.label>
@@ -249,9 +251,9 @@
   <MetalhorrorSpeedBoost.description>부자연적 초월공학 힘 급증에 의해 이끌린 빠른 움직임입니다. 이 폭발적인 속도는 오래 지속되지 않습니다.</MetalhorrorSpeedBoost.description>
   
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>정신 마비 혈청</MindNumbSerum.label>
+  <MindNumbSerum.label>감정마비 혈청</MindNumbSerum.label>
   <!-- EN: This person's neural patterns are being moderated by an exotic serum. They're unaffected by the highs and lows of human emotion. They will never have a mental break but they will also never feel inspired. -->
-  <MindNumbSerum.description>이 사람의 신경 패턴은 이국적인 혈청에 의해 조정되고 있습니다. 이 사람은 인간 감정의 기복에 영향받지 않습니다. 이 사람은 절대 정신이상 상태가 되지 않지만 영감 받은 상태도 절대 되지 않습니다.</MindNumbSerum.description>
+  <MindNumbSerum.description>대상의 신경 패턴은 특별한 혈청에 의해 조정되고 있습니다. 이 사람은 감정의 기복에 영향받지 않습니다. 절대 정신이상 상태가 되지 않지만 영감 상태도 되지 않습니다.</MindNumbSerum.description>
   
   <!-- EN: neurosis pulse -->
   <NeurosisPulse.label>신경증의 파동</NeurosisPulse.label>
@@ -299,7 +301,7 @@
   
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>망령 최면</RevenantHypnosis.label>
-  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
+  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantHypnosis.description>이 사람은 망령에 의해 최면 상태에 빠졌으며 망령과 연결된 상태입니다. 눈도 깜박이지 않고 알 수 없는 공포가 보이는 듯이, 악몽 같은 생물에 대해 횡설수설합니다.\n\n희생자를 최면에 건 후, 망령은 희생자와 같은 지역 어딘가에서 동면합니다.\n\n망령을 죽이면 최면이 끝납니다. 숨은 망령은 교란 조명탄, 폭발물, EMP, 소방거품, 혹은 불을 붙여 드러낼 수 있습니다.</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->

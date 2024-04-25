@@ -25,7 +25,7 @@
   <!-- EN: imbue death refusal -->
   <ImbueDeathRefusal.label>죽음 거부권 부여</ImbueDeathRefusal.label>
   <!-- EN: Link a target with a distant archotechnological engine that can bring them back from the dead in seconds. This process is not without side-effects. -->
-  <ImbueDeathRefusal.description>죽음을 수 초 만에 되돌릴 수 있는, 멀리 떨어진 초월공학 엔진을 대상과 연결합니다. 부활에는 부작용이 존재할 수 있습니다.</ImbueDeathRefusal.description>
+  <ImbueDeathRefusal.description>대상의 생명을 멀리 떨어진 초월공학 기계와 연결하여, 죽더라도 수 초 안에 돌아올 수 있게 합니다. 부활 과정에서 부작용이 발생할 수 있습니다.</ImbueDeathRefusal.description>
   <!-- EN: The target will gain death refusal.\n\nWith the current quality, all the target's skills will also be reduced by {0}. -->
   <ImbueDeathRefusal.outcomeDescription>대상이 죽음 거부권을 얻습니다.\n\n현재 의식 품질로는 대상의 모든 기술이 {0} 감소합니다.</ImbueDeathRefusal.outcomeDescription>
   
@@ -89,7 +89,7 @@
   <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
   <SummonFleshbeasts.description>살짐승들이 굴을 파 적들 근처에서 출현하도록 유인하는 정신 파동을 생성합니다. 살짐승은 당신의 적과 아군을 포함하여 누구든 공격하며, 포획하여 연구하거나, 도축하여 뒤틀린 고기로 만들 수 있습니다.</SummonFleshbeasts.description>
   <!-- EN: They intend to use a psychic ritual to summon hideous fleshbeasts to attack you. -->
-  <SummonFleshbeasts.letterAIArrivedText>그들이 초정신 의식을 사용하여 흉측한 살짐승을 소환해 당신을 공격하려 합니다.</SummonFleshbeasts.letterAIArrivedText>
+  <SummonFleshbeasts.letterAIArrivedText>그들이 초정신 의식을 사용하여 흉측한 살짐승을 유인해 당신을 공격하려 합니다.</SummonFleshbeasts.letterAIArrivedText>
   <!-- EN: Fleshbeasts emerging -->
   <SummonFleshbeasts.letterAICompleteLabel>살짐승 출현 중</SummonFleshbeasts.letterAICompleteLabel>
   <!-- EN: Fleshbeasts are clawing their way out of the ground. Prepare for their attack! -->
@@ -119,7 +119,7 @@
   <SummonShamblers.outcomeDescription>의식 품질이 더 높을수록 더 많은 휘청이는 자를 유인합니다.</SummonShamblers.outcomeDescription>
   
   <!-- EN: void provocation -->
-  <VoidProvocation.label>공허 소환</VoidProvocation.label>
+  <VoidProvocation.label>공허 유인</VoidProvocation.label>
   <!-- EN: Psychically commune with the void, attracting an entity which can be captured and studied. There’s a chance that the invoker will fall into a coma for several hours. -->
   <VoidProvocation.description>공허에 정신적으로 접촉하여, 포획하고 연구할 수 있는 실체를 정착지로 유인합니다. 접촉자는 일정 확률로 몇 시간 동안 혼수상태에 빠질 수 있습니다.</VoidProvocation.description>
   <!-- EN: With the current quality, there's a {0} chance the invoker will receive dark psychic shock. -->

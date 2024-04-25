@@ -11,13 +11,13 @@
 
   <!-- Hate chanters -->
   <!-- EN: Cultist hate chanters -->
-  <HateChantersLabel>광신도 증오의 찬송</HateChantersLabel>
+  <HateChantersLabel>찬송하는 광신도</HateChantersLabel>
   <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
-  <HateChantersText>광신도 증오의 찬송을 외치는 자들이 도착했습니다. 그들은 증오의 찬송 의식을 행해 초정신적 분노를 정착민에 억지로 넣어 화나게 만들려고 합니다. 광신도를 멈추지 않으면 찬송은 점점 커질 것입니다.</HateChantersText>
+  <HateChantersText>찬송하는 광신도들이 도착했습니다. 그들은 증오의 찬송 의식을 행해 초정신적 분노를 정착민에 억지로 넣어 화나게 만들려고 합니다. 광신도를 멈추지 않으면 찬송은 점점 커질 것입니다.</HateChantersText>
   <!-- EN: Cultists attacking -->
   <HateChantersAttackingLabel>광신도 공격</HateChantersAttackingLabel>
   <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
-  <HateChantersAttackingText>광신도들이 증오의 찬송을 끝내고, 의식으로 인한 무아지경에서 빠져나오기 시작했습니다.\n\n방어할 준비를 하세요.</HateChantersAttackingText>
+  <HateChantersAttackingText>광신도들이 증오의 찬송을 멈추고 무의식에서 빠져나오기 시작했습니다.\n\n방어할 준비를 하세요.</HateChantersAttackingText>
 
   <!-- Psychic rituals -->
   <!-- EN: {0} complete -->
@@ -129,7 +129,7 @@
   <VoidAwakeningStageTwoStructuresActivatedText>모든 공허 구조물이 활성화되었습니다. 공허 모노리스 주위의 공간이 희미하게 빛나기 시작했습니다. 준비하세요.</VoidAwakeningStageTwoStructuresActivatedText> 
   <!-- EN: {STUDIER_nameDef} teleported -->
   <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} 순간이동됨</VoidAwakeningFinalStructuresActivatedLabel> 
-  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence. -->
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
   <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef}(이)가 모노리스를 활성화하고 우리의 시공간에서 떨어져 나와 다른 공간으로 도착했습니다.\n\n{STUDIER_pronoun}(은)는 {STUDIER_objective}(이)가 삐죽삐죽한 금속 못이 있는 방에 있음을 깨달았습니다. 모든 표면은 어두운 액체로 번드르르하고, 공기는 힘으로 진동합니다. 이 금속의 지옥은 비인간적 초지능과의 연결 통로입니다.\n\n{STUDIER_nameDef}(이)가 악몽 같은 정신의 영향력을 우리 세계에 흘려보내는 공허 노드를 찾았습니다. 노드와 상호작용해 그 힘을 받아들이거나, 파괴하여 연결을 완전히 끊어내세요.</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>휘청이는 자의 습격</VoidAwakeningShamblerArrivalLabel>
@@ -194,7 +194,7 @@
   <!-- EN: Ambush -->
   <DistressSignalAmbushLabel>매복</DistressSignalAmbushLabel>
   <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
-  <DistressSignalAmbushText>살짐승이 근처 구덩이 굴에서 출현 중입니다!</DistressSignalAmbushText>
+  <DistressSignalAmbushText>살짐승이 가까운 구덩이에서 출현 중입니다!</DistressSignalAmbushText>
 
   <!-- Chimeras -->
   <!-- EN: Chimeras approach -->
@@ -287,8 +287,8 @@
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>공허 호기심</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강 수확기에 연결해 생체강을 생성할 수 있습니다.\n\n초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 유인 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 유인 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강 수확기에 연결해 생체강을 생성할 수 있습니다.\n\n초정신 의식 장소를 배치해 공허 유인 의식을 행하세요.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 소환 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 소환 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강 수확기에 연결해 생체강을 생성할 수 있습니다.\n\n공허 소환을 연구하고, 초정신 의식 장소를 배치해 공허 소환 의식을 행하세요.</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef}(이)가 공허에 집착하며, 공허 유인 의식을 사용해 공허를 조사하고 싶어 합니다.\n\n공허 유인 의식을 사용해 실체를 발견하고 포획하세요. 포획된 실체를 연구하여 이상 현상 연구 과제를 완료할 수 있습니다. 혹은 포획된 실체를 생체강 수확기에 연결해 생체강을 생성할 수 있습니다.\n\n공허 소환을 연구하고, 초정신 의식 장소를 배치해 공허 유인 의식을 행하세요.</VoidCuriosityText_NotResearched>
 
 </LanguageData>

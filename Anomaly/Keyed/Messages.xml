@@ -25,7 +25,7 @@
   <!-- EN: The pit gate has collapsed. -->
   <MessagePitGateCollapsed>지하 통로가 붕괴했습니다.</MessagePitGateCollapsed>
   <!-- EN: A pit burrow has collapsed. -->
-  <MessagePitBurrowCollapsed>구덩이 굴이 붕괴했습니다.</MessagePitBurrowCollapsed>
+  <MessagePitBurrowCollapsed>구덩이가 붕괴했습니다.</MessagePitBurrowCollapsed>
 
   <!-- Fleshsack -->
   <!-- EN: The flesh sack contained something -->
@@ -44,9 +44,9 @@
   <MessageBiomutationLanceTargetTooBig>목표 지정 불가: {0_nameDef}(은)는 너무 큽니다.</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
-  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
   <MessageNoRoomWithMinimumContainmentStrength>경고: {0}(을)를 위한 최소한의 억제력을 가진 방이 없습니다. 곧 탈출할 것입니다.</MessageNoRoomWithMinimumContainmentStrength>
-  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
   <MessageTargetBelowMinimumContainmentStrength>경고: {0}(은)는 {1}의 최소 억제력보다 낮습니다. 곧 탈출할 것입니다.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
   <MessageHolderReserved>다른 사람에게 예약된 {0}(을)를 이전할 수 없습니다.</MessageHolderReserved>
