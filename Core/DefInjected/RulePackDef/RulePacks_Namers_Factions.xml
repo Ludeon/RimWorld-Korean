@@ -237,8 +237,8 @@
     <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][townend]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
-    <li>townname_wordgen->[TerrainFeature][townend]</li>
-    <li>townname_wordgen->[topicalnoun][townend]</li>
+    <li>townname_wordgen->[TerrainFeature] [townend]</li>
+    <li>townname_wordgen->[topicalnoun] [townend]</li>
     <li>townend->마을</li>
     <li>townend->도시</li>
     <li>townend->숲</li>
@@ -247,18 +247,18 @@
     <li>townend->계곡</li>
     <li>townend->계곡</li>
     <li>townend->마을</li>
-    <li>townend->지역</li>
+    <li>townend->공동체</li>
     <li>townend->호수</li>
     <li>townend->우거진 숲</li>
     <li>townend->낙농장</li>
-    <li>townend->지대</li>
-    <li>townend->암석지대</li>
+    <li>townend->공동체</li>
+    <li>townend->마을</li>
     <li>townend->구멍</li>
     <li>townend->소굴</li>
-    <li>townend->구역</li>
+    <li>townend->요충지</li>
     <li>townend->숲</li>
-    <li>townend->지역</li>
-    <li>townend->비옥지</li>
+    <li>townend->거점</li>
+    <li>townend->요새</li>
     <li>townend->개척지</li>
     <li>townend->요충지</li>
     <li>townend->낙원</li>
@@ -357,8 +357,8 @@
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name->[WordTribal] [Color]</li>
-    <li>r_name->[TerrainFeature] [Color]</li>
+    <li>r_name->[Color] [WordTribal]</li>
+    <li>r_name->[Color] [TerrainFeature]</li>
     <li>r_name->[TerrainFeature] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   

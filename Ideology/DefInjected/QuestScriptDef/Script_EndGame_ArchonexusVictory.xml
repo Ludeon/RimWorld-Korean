@@ -68,7 +68,7 @@
     <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
     <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
     <li>wildPeople->야인들</li>
-    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n지도 조각은 대단히 어려운 방식으로 암호화된 상태입니다. 조각을 해독하려면 우선 이곳의 초월공학 구조물을 연구해서 작동 원리를 익혀야 합니다.</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n지도 조각은 대단히 어려운 방식으로 암호화된 상태입니다. 조각을 해독하려면 우선 이곳의 초월공학 구조물을 조사해서 작동 원리를 익혀야 합니다.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -101,7 +101,7 @@
     <li>factionName(factionless==true)->야인</li>
     <li>descriptionIntro(factionless==false)->[roughTribe_name]의 지도자 [roughTribe_leader_nameDef](이)가</li>
     <li>descriptionIntro(factionless==true)->야인들이</li>
-    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n이전과 마찬가지로, 지도 조각이 부호화된 상태입니다. 조각을 복호화하려면 우선 이곳의 초월공학 구조물을 연구해야 합니다.</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n이전과 마찬가지로, 지도 조각이 부호화된 상태입니다. 조각을 복호화하려면 우선 이곳의 초월공학 구조물을 조사해야 합니다.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
     <li>descriptionThreats(threatsEnabled==true)->메카노이드 부대가 초월 연결체 주변을 지키고 있을 가질 가능성이 높습니다. 전투를 준비하십시오.\n\n</li>
     <li>descriptionThreats(threatsEnabled==false)-></li>

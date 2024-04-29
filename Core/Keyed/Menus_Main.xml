@@ -374,7 +374,7 @@
   <!-- EN: Quest threats -->
   <Difficulty_AllowViolentQuests_Label>임무 위협</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>임무가 난폭한 위협과 도전을 제시하도록 허용합니다. 비활성한다면 임무는 평화적으로 수정됩니다.</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>임무가 폭력을 포함한 위협과 도전을 제시하도록 허용합니다. 비활성화하면 평화적인 임무만 생성됩니다.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
   <Difficulty_AllowIntroThreats_Label>시작시 위협</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
@@ -491,11 +491,11 @@
   <!-- EN: Player can build turrets -->
   <Difficulty_AllowTurrets_Label>포탑 건설 가능</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>플레이어는 소형 기관포, 대형 기관포, 저격 포탑과 같은 고정 포탑을 만들 수 있습니다.\n\n이 설정을 비활성 했더라도 포탑을 포획했다면 사용 가능합니다.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>플레이어가 소형 기관포, 대형 기관포, 저격 포탑과 같은 고정식 포탑을 건설할 수 있습니다.\n\n이 설정을 비활성화하더라도 포탑을 노획했다면 사용 가능합니다.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>박격포 건설 가능</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>플레이어는 박격포를 만들 수 있습니다.\n\n이 설정을 비활성 했더라도 박격포를 포획했다면 사용 가능합니다.</Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>플레이어가 박격포를 건설할 수 있습니다.\n\n이 설정을 비활성화하더라도 박격포를 노획했다면 사용 가능합니다.</Difficulty_AllowMortars_Info>
   <!-- EN: Classic mortars -->
   <Difficulty_ClassicMortars_Label>기존 박격포</Difficulty_ClassicMortars_Label>
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
@@ -732,11 +732,11 @@
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>세계의 세력을 선택하세요. {0}개까지 선택할 수 있습니다.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>{0}(을)를 비활성화 하면 임무의 다양성과 콘텐츠가 줄어듭니다.</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>{0}(을)를 비활성화하면 임무의 다양성과 콘텐츠가 줄어듭니다.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>{0}(을)를 비활성화 하면 위협의 종류가 줄어듭니다.</InsectsDisabledContentWarning>
+  <InsectsDisabledContentWarning>{0}(을)를 비활성화하면 위협의 종류가 줄어듭니다.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>{0}(을)를 비활성화 하면 임무의 다양성과 위협의 종류가 줄어듭니다.</MechanoidsDisabledContentWarning>
+  <MechanoidsDisabledContentWarning>{0}(을)를 비활성화하면 임무의 다양성과 위협의 종류가 줄어듭니다.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>다른 세력 없이는 습격, 거래, 임무가 정상적으로 작동하지 않습니다.</FactionsDisabledWarning>
 

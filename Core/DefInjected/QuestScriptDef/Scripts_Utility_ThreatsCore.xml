@@ -10,7 +10,7 @@
       <li>root(priority=1,sitePart==WeatherController)->지역의 날씨를 [weather_label](으)로 강제 지정하는 (*Threat)날씨 조정장치(/Threat)</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->지역에 연기를 뿜어내는 (*Threat)연기 발생장치(/Threat)</li>
       <li>root(priority=1,sitePart==SunBlocker)->한 지역의 빛을 차단하는 (*Threat)태양 차단장치(/Threat)</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->전기장치들을 비활성화 할 수 있는 (*Threat)전자 교란기(/Threat)</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->전기장치들을 비활성화할 수 있는 (*Threat)전자 교란기(/Threat)</li>
       <li>root(priority=1,sitePart==ToxicSpewer)->독으로 지역을 뒤덮을 수 있는 (*Threat)유독성 살포장치(/Threat)</li>
       <li>root(priority=1,sitePart==RaidSource)->[mtbDays]마다 습격하러 오는 (*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 군사 구역</li>
       <li>root(priority=1,sitePart==Outpost)->(*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 전초기지</li>

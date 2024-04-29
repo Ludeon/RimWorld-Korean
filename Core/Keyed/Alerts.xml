@@ -17,7 +17,7 @@
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n{0} -->
   <BreakRiskExtremeDesc>다음 정착민은 극심하고 폭력적인 정신이상 징후를 보이고 있습니다.\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
-  <BreakRiskDescEnding>정착민의 기분에 영향을 미치는 요소들을 확인하여 문제를 해결하세요.\n\n멋진 식사 및 더 많은 쉬는 시간과 오락 시설, 아름다운 장식물, 술 그리고 담배 등을 제공하여 정착민의 기분을 달래줄 수 있습니다.</BreakRiskDescEnding>
+  <BreakRiskDescEnding>정착민의 기분을 좌우하는 요소들을 파악하고 문제를 해결하세요.\n\n멋진 식사와 휴식 시간, 오락 시설 및 아름다운 장식, 술과 담배 등을 제공하여 정착민의 기분을 달래줄 수 있습니다.</BreakRiskDescEnding>
 
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>구조가 필요한 정착민</ColonistNeedsRescue>
@@ -26,7 +26,7 @@
   <!-- EN: These colonists are incapacitated on the ground:\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>다음 정착민들이 행동 불능 상태가 되었습니다.\n{0}\n다른 정착민을 보내 침대로 이송하세요.\n\n(다른 정착민을 선택하고 행동 불능 상태가 된 정착민을 우클릭하여 구조 명령을 내릴 수 있습니다.)</ColonistsNeedRescueDesc>
   <!-- EN: These colonists are incapacitated on the ground:\n{0}\n\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDescController>다음 정착민들이 행동 불능 상태가 되었습니다.\n{0}\n\n다른 정착민을 보내 침대로 이송하세요.\n\n(다른 정착민을 선택하고 행동 불능 상태가 된 정착민 위에서 왼쪽 트리거를 사용해 구조 명령을 내릴 수 있습니다.)</ColonistsNeedRescueDescController>
+  <ColonistsNeedRescueDescController>다음 정착민들이 행동 불능 상태에 빠졌습니다.\n{0}\n\n다른 정착민을 보내 침대로 옮기세요.\n\n(다른 정착민을 선택하고, 행동 불능 상태에 있는 정착민 위에서 왼쪽 트리거 버튼을 사용하여 구조 명령을 내리세요.)</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>방어시설 필요</NeedDefenses>
@@ -285,12 +285,12 @@
   <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
   <AlertAnimalPenNeededNoHandlers>동물을 우리로 끌고 갈 조련사가 없습니다.\n\n정착민을 조련 작업에 할당하세요.</AlertAnimalPenNeededNoHandlers>
   <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
-  <AlertAnimalPenNeededDescExplanation>울타리, 방어벽, 벽으로 둘러싸인 곳 안에 우리 표시를 설치해 동물 우리를 만드세요. 우리 표시를 선택하면 어떤 동물을 받을 수 있는지, 얼마나 많이 수용할 수 있는지 볼 수 있습니다.\n\n조련사가 동물을 할당한 우리로 끌고 갈 것입니다.\n\n우리 안에 동물을 넣으려면 문이나 울타리 문이 필요합니다.</AlertAnimalPenNeededDescExplanation>
+  <AlertAnimalPenNeededDescExplanation>울타리, 방어벽, 벽으로 둘러싸인 곳 안에 우리 표시를 설치해 동물 우리를 만드세요. 우리 표시를 선택하면 어떤 동물을 수용할 수 있는지와 그 수용량을 확인할 수 있습니다.\n\n조련사는 동물을 지정된 우리로 이동시킬 것입니다.\n\n우리 안에 동물을 넣으려면 문이나 울타리 문이 필요합니다.</AlertAnimalPenNeededDescExplanation>
   
   <!-- EN: Pen not enclosed -->
   <AlertAnimalPenNotEnclosed>개방된 동물 우리</AlertAnimalPenNotEnclosed>
   <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
-  <AlertAnimalPenNotEnclosedDesc>밀폐되지 않은 동물 우리가 있습니다.\n\n우리 표시는 동물이 밖으로 나가지 못하도록 울타리, 울타리 문, 방어벽, 벽, 문으로 둘러싼 영역 안에 위치해야 합니다.\n\n미완성 우리만 있더라도 조련사가 배회하는 동물을 집으로 데려오기는 하지만, 동물이 밖으로 나갈 때마다 반복해서 끌고 와야 합니다.</AlertAnimalPenNotEnclosedDesc>
+  <AlertAnimalPenNotEnclosedDesc>밀폐되지 않은 동물 우리가 존재합니다.\n\n우리 표시는 동물이 밖으로 나가지 못하도록 울타리, 울타리 문, 방어벽, 벽, 문으로 둘러싼 영역 안에 있어야 합니다.\n\n미완성 우리가 있을지라도 조련사는 배회하는 동물을 집으로 데려올 수 있지만, 동물이 밖으로 나갈 때마다 다시 데려와야 합니다.</AlertAnimalPenNotEnclosedDesc>
 
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
   <AlertPredatorInAnimalPen>동물 우리 안의 {ANIMAL_labelShort}</AlertPredatorInAnimalPen>
@@ -300,7 +300,7 @@
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>배회 중인 동물</AlertAnimalIsRoaming>
   <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n{0} -->
-  <AlertAnimalIsRoamingDesc>길들인 동물 일부가 떠돌이 동물로서 지금 배회 중입니다. 배회 중에 지역 경계에 도달하면 지역 밖으로 나갈 것입니다.\n\n완성한 우리가 있으면 조련사가 데려올 것입니다. 우리 안에 가둬놓은 동물은 배회하지 않습니다.\n\n다음 동물이 배회 중입니다.\n{0}</AlertAnimalIsRoamingDesc>
+  <AlertAnimalIsRoamingDesc>일부 길든 동물들이 현재 떠돌이 상태로 배회하고 있습니다. 이들이 지역 경계에 도달하면 그 지역을 벗어납니다.\n\n만약 완성된 우리가 있다면, 조련사가 동물을 데려갈 것입니다. 우리 안에 있는 동물은 배회하지 않습니다.\n\n현재 다음 동물이 배회하고 있습니다.\n{0}</AlertAnimalIsRoamingDesc>
 
   <!-- EN: Hungry pen animals -->
   <AlertPennedAnimalHungry>우리 안의 동물이 굶주림</AlertPennedAnimalHungry>

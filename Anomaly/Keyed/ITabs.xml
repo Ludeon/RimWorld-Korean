@@ -9,17 +9,17 @@
   <!-- EN: Entity -->
   <TabEntity>실체</TabEntity>
   <!-- EN: Study interval -->
-  <StudyInterval>연구 주기</StudyInterval>
+  <StudyInterval>조사 주기</StudyInterval>
   <!-- EN: How often this entity can be studied. -->
-  <StudyIntervalDesc>이 실체를 연구할 수 있는 빈도입니다.</StudyIntervalDesc>
+  <StudyIntervalDesc>이 실체를 조사할 수 있는 빈도입니다.</StudyIntervalDesc>
   <!-- EN: Maintain only -->
-  <EntityStudyMode_MaintainOnly>유지만</EntityStudyMode_MaintainOnly>
+  <EntityStudyMode_MaintainOnly>유지</EntityStudyMode_MaintainOnly>
   <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
-  <EntityStudyMode_MaintainOnlyDesc>간수는 이 실체에 특별한 행동을 취하지 않지만, 다른 상호작용은 여전히 사용 가능합니다.</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_MaintainOnlyDesc>간수는 이 실체에 특별한 행동을 취하지 않지만, 다른 상호작용은 여전히 가능합니다.</EntityStudyMode_MaintainOnlyDesc>
   <!-- EN: Study -->
-  <EntityStudyMode_Study>연구</EntityStudyMode_Study>
+  <EntityStudyMode_Study>조사</EntityStudyMode_Study>
   <!-- EN: Researchers will study the entity. -->
-  <EntityStudyMode_StudyDesc>연구자들이 실체를 연구합니다.</EntityStudyMode_StudyDesc>
+  <EntityStudyMode_StudyDesc>연구자들이 실체를 조사합니다.</EntityStudyMode_StudyDesc>
   <!-- EN: Release -->
   <EntityStudyMode_Release>방출</EntityStudyMode_Release>
   <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
@@ -33,7 +33,7 @@
   <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>지식 획득량</StudyKnowledgeGain>
   <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
-  <StudyKnowledgeGainDesc>연구 주기 당 얻은 지식의 양입니다. 더 강한 억제는 연구자가 안전 대신 연구에 집중할 수 있게 해주어, 더 많은 지식을 생산합니다.</StudyKnowledgeGainDesc>
+  <StudyKnowledgeGainDesc>조사 주기 당 얻는 지식의 양입니다. 실체가 강하게 억제되어 있을수록 연구자가 업무에 집중할 수 있게 해주어, 더 많은 지식을 생산합니다.</StudyKnowledgeGainDesc>
   <!-- EN: What type of medicine can be given to this entity. -->
   <MedicineQualityDescriptionEntity>이 실체에 제공할 약의 종류입니다.</MedicineQualityDescriptionEntity>
 

@@ -36,11 +36,11 @@
   <!-- EN: Revenant killed -->
   <LetterLabelRevenantKilled>죽은 망령</LetterLabelRevenantKilled>
   <!-- EN: The revenant is dead! Those who were hypnotized will recover.\n\nIts body has dissipated, leaving behind its spine. You can gather and study the spine, or destroy it. -->
-  <LetterRevenantKilled>망령이 죽었습니다! 최면에 걸린 사람들은 회복할 겁니다.\n\n망령의 몸은 소멸되어, 척추를 남겼습니다. 척추를 수집해 연구하거나, 파괴할 수 있습니다.</LetterRevenantKilled>
+  <LetterRevenantKilled>망령이 죽었습니다! 최면에 걸렸던 사람들이 회복됩니다.\n\n망령의 몸은 소멸되고 척추 하나만이 남았습니다. 척추를 수집해 조사하거나 파괴할 수 있습니다.</LetterRevenantKilled>
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef} 최면에 걸림</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>{PAWN_nameDef}(이)가 망령에 의해 최면에 걸렸으며 이제 악몽 같은 이미지와 생각에 대해 두서없이 횡설수설하고 있습니다.\n\n망령을 죽이면 최면이 끝납니다.\n\n망령은 초능력을 사용해 주변에 있는 자들의 인식을 왜곡시켜, 스스로를 보이지 않게 만듭니다. 그러나 여전히 망령이 남기는 검은 얼룩을 따라가 공격할 수 있습니다. 망령은 폭발성 무기, 소방거품, EMP, 불, 교란 조명탄에 맞으면 모습이 드러납니다.\n\n망령을 죽이지 않으면, 새로운 희생자를 계속해서 최면에 걸리게 할 겁니다.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef}(이)가 망령에 의해 최면에 걸렸으며 이제 악몽 같은 이미지와 생각에 대해 두서없이 횡설수설하고 있습니다.\n\n망령을 죽이면 최면이 끝납니다.\n\n망령은 초능력을 사용해 주변에 있는 자들의 인식을 왜곡시켜, 스스로를 보이지 않게 만듭니다. 그러나 여전히 망령이 남기는 검은 얼룩을 따라가 공격할 수 있습니다. 숨은 망령은 교란용 조명탄, 폭발 무기, 펄스 무기, 소방 거품, 불로 드러나게 할 수 있습니다.\n\n망령을 죽이지 않으면 계속해서 새로운 희생자가 최면에 걸리게 됩니다.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>망령 살점 덩어리</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -118,7 +118,7 @@
   <!-- EN: Fleshbeast lair -->
   <LetterLabelGateEntered>살짐승의 둥지</LetterLabelGateEntered> 
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>지하 통로 깊숙한 곳에서, 살짐승으로 가득한 거대한 동굴계를 발견했습니다.\n\n동굴 속은 사방이 살아있는 살 덩어리로 막혀있어 앞으로 나아갈 수 없습니다. 살덩이를 공격해 파괴하세요.\n\n동굴계 전체가 불안정해 보입니다. 이 살덩이 뒤에 무엇이 있는지 알아내면, 터널을 붕괴시키고 지하 통로를 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
+  <LetterGateEntered>지하 통로 깊숙한 곳에서, 살짐승으로 가득한 거대한 동굴을 발견했습니다.\n\n동굴 속은 사방이 살아있는 살 덩어리로 막혀있어 앞으로 나아갈 수 없습니다. 살덩이를 공격해 파괴하세요.\n\n동굴의구조는 불안정해 보입니다. 살덩이 뒤에 무엇이 있는지 알아내면, 굴을 붕괴시키고 지하 통로를 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
   <LetterLabelDreadmeldWarning>꿈틀거리는 소리</LetterLabelDreadmeldWarning> 
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
@@ -126,7 +126,7 @@
   <!-- EN: Undercave unstable -->
   <LetterLabelUndercaveCollapsing>지하동굴 불안정함</LetterLabelUndercaveCollapsing> 
   <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
-  <LetterUndercaveCollapsing>마귀종양의 죽음이 살덩이에게 충격을 가하여 동굴계가 불안정해졌습니다. 동굴을 지지하던 살덩이는 벌써 약화되기 시작했습니다. 반나절 안에 동굴 전체가 붕괴할 것입니다.\n\n너무 늦기 전에 지하동굴에서 빠져나오세요!</LetterUndercaveCollapsing>
+  <LetterUndercaveCollapsing>마귀종양의 죽음이 살덩이에게 충격을 가하면서 동굴계가 불안정해졌습니다. 동굴을 지지하던 살덩이는 벌써 약화되기 시작했습니다. 반나절 안에 동굴 전체가 붕괴할 것입니다.\n\n너무 늦기 전에 지하동굴에서 빠져나오세요!</LetterUndercaveCollapsing>
 
   <!-- Holding platform -->
   <!-- EN: Holding -->
@@ -165,7 +165,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshWhipLetterLabel>오벨리스크 돌연변이</ObeliskFleshWhipLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
-  <ObeliskFleshWhipLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(이)가 팔이 간지럽다고 느낍니다. 잠시 후, 몸에서 파열하며 자라 {PAWN_possessive} 피부가 격렬하게 부풀어 터집니다. 팔이 끝에 뼈로 된 날이 달린 촉수로 대체되었습니다!\n\n{PAWN_nameDef}(은)는 혈액을 약간 잃었지만, 그 외에는 이 충격적인 사건으로 다치지 않은 것 같습니다. 촉수는 흉측하지만, 훌륭한 근접 무기가 될 겁니다.</ObeliskFleshWhipLetter>
+  <ObeliskFleshWhipLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(이)가 팔이 간지럽다고 느낍니다. 잠시 후, 몸에서 파열하며 자라 {PAWN_possessive} 피부가 격렬하게 부풀어 터집니다. 팔이 끝에 뼈로 된 날이 달린 촉수로 대체되었습니다!\n\n{PAWN_nameDef}(은)는 혈액을 약간 잃었지만, 그 외에는 이 충격적인 사건으로 다치지 않은 것 같습니다. 촉수는 흉측하지만, 훌륭한 근접 무기가 될 것입니다.</ObeliskFleshWhipLetter>
 
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedArmLetterLabel>오벨리스크 상호작용</MutatorObeliskFailedArmLetterLabel>
@@ -223,22 +223,22 @@
   <!-- EN: Obelisk activation -->
   <DuplicatorObeliskLetterLabel>오벨리스크 활성화</DuplicatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <DuplicatorObeliskLetter>오벨리스크가 활성 중입니다! 주위의 공기가 치지직대고 있습니다. 정착민의 본사본은 곧 살의를 가지고 나타날 겁니다.\n\n조심하세요, 불안정한 에너지가 오벨리스크 속을 흐르고 있으며 언제든 폭발할 수 있습니다.</DuplicatorObeliskLetter>
+  <DuplicatorObeliskLetter>오벨리스크가 활성 중입니다! 주위의 공기가 치지직대고 있습니다. 정착민의 본사본은 곧 살의를 가지고 나타날 것입니다.\n\n조심하세요, 불안정한 에너지가 오벨리스크 속을 흐르고 있으며 언제든 폭발할 수 있습니다.</DuplicatorObeliskLetter>
 
   <!-- EN: Colonists disappearing -->
   <ObeliskAbductorLetterLabel>정착민 사라지는 중</ObeliskAbductorLetterLabel>
   <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <ObeliskAbductorLetter>비뚤어진 오벨리스크가 주위의 공간을 뒤틀며 에너지로 치직대고 있습니다. 모든 종류의 생물이 사라지기 시작하며 곧 모두 없어질 겁니다.\n\n조심하세요, 불안정한 에너지가 오벨리스크 속을 흐르고 있으며 언제든 폭발할 수 있습니다.</ObeliskAbductorLetter>
+  <ObeliskAbductorLetter>비뚤어진 오벨리스크가 주위의 공간을 뒤틀며 에너지로 치직대고 있습니다. 모든 종류의 생물이 사라지기 시작하며 곧 모두 없어질 것입니다.\n\n조심하세요, 불안정한 에너지가 오벨리스크 속을 흐르고 있으며 언제든 폭발할 수 있습니다.</ObeliskAbductorLetter>
   
   <!-- EN: {PAWN_nameDef} is disappearing -->
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} 사라지는 중</ObeliskAbductedDisappearingLetterLabel>
   <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
-  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef}(이)가 비뚤어진 오벨리스크의 활동을 알아챘습니다. 신비한 내부 구조가 살아나, {PAWN_nameDef}(을)를 사라지게 하고 있습니다. {PAWN_pronoun}는 곧 완전히 사라질 겁니다.</ObeliskAbductedDisappearingLetter>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef}(이)가 비뚤어진 오벨리스크의 활동을 알아챘습니다. 신비한 내부 구조가 살아나, {PAWN_nameDef}(을)를 사라지게 하고 있습니다. {PAWN_pronoun}는 곧 완전히 사라질 것입니다.</ObeliskAbductedDisappearingLetter>
   
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef} 다시 나타남</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
-  <ObeliskAbductedLetter>{PAWN_nameDef}(은)는 이상한 방으로 순간이동했습니다. 이 방의 벽은 정체를 알 수 없는 회색 물질이며 공기는 완전히 정체됐습니다. {PAWN_nameDef}(은)는 여기가 어디고, 어떻게 다시 돌아가야 하는지 알 수가 없습니다.\n\n근처의 문은 움직이지 않습니다. 하지만 힘을 좀 쓰면 강제로 열 수 있을 것 같습니다. 움직이지 않는 문을 오른쪽 클릭해서 개방하세요.\n\n다른 정착민으로 오벨리스크를 연구하면 {PAWN_nameDef}에게 무슨 일이 일어났는지 파악하고 도울 방법을 찾을 수 있을 겁니다. 아니면, 오벨리스크를 공격해서 자극하면 더 많은 정착민을 방으로 납치할지도 모릅니다.</ObeliskAbductedLetter>
+  <ObeliskAbductedLetter>{PAWN_nameDef}(은)는 이상한 방으로 순간이동했습니다. 이 방의 벽은 정체를 알 수 없는 회색 물질이며 공기는 완전히 정체됐습니다. {PAWN_nameDef}(은)는 여기가 어디고, 어떻게 다시 돌아가야 하는지 알 수가 없습니다.\n\n근처의 문은 움직이지 않습니다. 하지만 힘을 좀 쓰면 강제로 열 수 있을 것 같습니다. 움직이지 않는 문을 오른쪽 클릭해서 개방하세요.\n\n다른 정착민으로 오벨리스크를 조사하면 {PAWN_nameDef}에게 무슨 일이 일어났는지 파악하고 도울 방법을 찾을 수 있을 것입니다. 아니면, 오벨리스크를 공격해서 자극하면 더 많은 정착민을 방으로 납치할지도 모릅니다.</ObeliskAbductedLetter>
 
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
   <MutatorObeliskMutated>{PAWN_nameIndef}(이)가 살짐승으로 변화했습니다.</MutatorObeliskMutated>
@@ -291,7 +291,7 @@
   <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {PAWN_labelShort}. -->
   <ActivitySuppressionTooltipDisabled>자동 억제가 현재 비활성화되어있습니다. 활성화하여 간수가 {PAWN_labelShort}(을)를 억제하도록 하세요.</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>{0}의 활성 등급은 시간에 따라 증가합니다. {0}(이)가 다쳤거나 화났다면 활동은 더 빠르게 증가합니다.\n\n만약 활성 등급이 100%에 도달하면, {0}(이)가 활성화됩니다.\n\n간수는 {0}(을)를 억제하여 활성 등급을 안전한 상태로 유지할 수 있습니다.\n\n간수는 실체의 활성 등급이 지정된 수치({LEVEL})보다 높아지면 억제를 시도합니다. 높은 활성 등급을 가진 실체를 연구하면 더 많은 지식을 얻게 됩니다.</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionTooltipDesc>{0}의 활성 등급은 시간에 따라 증가합니다. {0}(이)가 다쳤거나 화났다면 활동은 더 빠르게 증가합니다.\n\n만약 활성 등급이 100%에 도달하면, {0}(이)가 활성화됩니다.\n\n간수는 {0}(을)를 억제하여 활성 등급을 안전한 상태로 유지할 수 있습니다.\n\n간수는 실체의 활성 등급이 지정된 수치({LEVEL})보다 높아지면 억제를 시도합니다. 높은 활성 등급을 가진 실체를 조사하면 더 많은 지식을 얻게 됩니다.</ActivitySuppressionTooltipDesc>
   <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
   <ActivitySuppressionToggleTooltipDesc>{PAWN_labelShort}의 활성 등급이 {LEVEL}보다 높아진 경우 자동으로 억제할지를 결정합니다.\n\n자동 억제는 현재 {ONOFF} 상태입니다.</ActivitySuppressionToggleTooltipDesc>
 
@@ -305,13 +305,13 @@
   <!-- EN: Capture -->
   <CaptureEntity>포획</CaptureEntity>
   <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
-  <CaptureEntityDesc>{0_definite}(을)를 포획하세요. 이것은 구속대 위에 억제되어 있어야 합니다. 억제되면, 연구할 수 있습니다.</CaptureEntityDesc>
+  <CaptureEntityDesc>{0_definite}(을)를 포획하세요. 이것은 구속대 위에 억제되어 있어야 합니다. 억제된 실체는 조사할 수 있습니다.</CaptureEntityDesc>
   <!-- EN: Cancel capture -->
   <CancelCapture>포획 취소</CancelCapture>
   <!-- EN: Cancel capturing {0_definite}. -->
   <CancelCaptureDesc>{0_definite} 포획을 취소합니다.</CancelCaptureDesc>
   <!-- EN: ready to study -->
-  <ReadyToStudy>연구 준비</ReadyToStudy>
+  <ReadyToStudy>조사 준비</ReadyToStudy>
   <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
   <NoActiveResearchProject>{0} 지식 카테고리를 위해 선택된 활성 이상 현상 연구 과제가 없습니다.</NoActiveResearchProject>
   <!-- EN: Capturable -->
@@ -383,7 +383,7 @@
   <InterrogationDetectedDesc>{PAWN_nameDef}(이)가 {INFECTED_nameDef}(을)를 심문하던 도중 뭔가 이상한 점을 알아챘습니다. {INFECTED_nameDef}의 행동이 부자연스럽고, 목소리가 이상하고, 동공 속으로 희미한 금속 벌레의 모습이 비칩니다. {PAWN_nameDef}(은)는 {INFECTED_nameDef}(이)가 메탈호러에 감염되었다고 의심합니다.</InterrogationDetectedDesc>
   
   <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>메탈호러는 숙주의 정신을 지배하여 다른 이들을 감염시키는 기생체입니다.\n\n메탈호러는 체내에서 점차 성장하며, 감지되면 숙주의 몸을 베고 빠져나옵니다. 그 과정은 끔찍하지만 숙주는 보통 살아남습니다.\n\n메탈호러에 감염되었는지 확인할 수 있는 유일한 방법은 메탈호러의 잔여물을 연구해 생체신호를 확인한 후, 믿음직한 의사에게 외과 검사 작업을 맡기는 것입니다.\n\n이를 통해 메탈호러가 숙주에서 나오도록 유도할 수 있습니다. 그리고 전투를 준비하세요.</MetalhorrorNoticedDetailsAppended>
+  <MetalhorrorNoticedDetailsAppended>메탈호러는 숙주의 정신을 지배하여 다른 이들을 감염시키는 기생체입니다.\n\n메탈호러는 체내에서 점차 성장하며, 감지되면 숙주의 몸을 베고 빠져나옵니다. 그 과정은 끔찍하지만 숙주는 보통 살아남습니다.\n\n메탈호러에 감염되었는지 확인할 수 있는 유일한 방법은 메탈호러의 잔여물을 조사해 생체신호를 확인한 후, 믿음직한 의사에게 외과 검사 작업을 맡기는 것입니다.\n\n이를 통해 메탈호러가 숙주에서 나오도록 유도할 수 있습니다. 그리고 전투를 준비하세요.</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>회색 살점</LetterGrayFleshDiscoveredLabel>
@@ -421,9 +421,9 @@
   
   <!-- Death refusal -->
   <!-- EN: use -->
-  <DeathRefusalUseSingular>사용</DeathRefusalUseSingular>
+  <DeathRefusalUseSingular>사용 가능</DeathRefusalUseSingular>
   <!-- EN: uses -->
-  <DeathRefusalUsePlural>사용</DeathRefusalUsePlural>
+  <DeathRefusalUsePlural>회 사용 가능</DeathRefusalUsePlural>
   <!-- EN: Self-resurrecting -->
   <SelfResurrecting>자가 부활 중</SelfResurrecting>
 
@@ -443,7 +443,7 @@
   <!-- EN: Create corpse stockpile -->
   <CreateCorpseStockpile>시체 저장구역 생성</CreateCorpseStockpile>
   <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
-  <CreateCorpseStockpileDesc>전조의 나무 주위에 시체를 위한 투기 저장구역을 생성하세요.\n\n전조의 나무는 근처 시체와 생고기를 섭취할 겁니다. 잘 먹으면 나무는 더 빨리 자랄 것이며 새로운 전조의 나무를 생성할 겁니다.</CreateCorpseStockpileDesc>
+  <CreateCorpseStockpileDesc>전조의 나무 주위에 시체를 위한 투기 저장구역을 생성하세요.\n\n전조의 나무는 근처 시체와 생고기를 섭취할 것입니다. 잘 먹으면 나무는 더 빨리 자랄 것이며 새로운 전조의 나무를 생성할 것입니다.</CreateCorpseStockpileDesc>
 
   <!-- EN: Void node has been disabled. -->
   <VoidNodeDisabled>공허 노드가 비활성화되었습니다.</VoidNodeDisabled>
@@ -467,7 +467,7 @@
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>부자연적 치료</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>{CASTER_nameDef}(이)가 {PAWN_nameDef}의 초정신적 치료를 마쳤습니다.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealing>{CASTER_nameDef}(이)가 {PAWN_nameDef}에 대한 초정신적 치료를 마쳤습니다.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
   <LetterUnnaturalHealingTentacle>그러나 뭔가 끔찍하게 잘못되었습니다.\n\n{PAWN_nameDef}의 몸에서 무언가가 급격하게 자라나더니 {PAWN_possessive} 팔이 부풀어 터졌습니다. {PAWN_possessive} 팔은 살로 된 촉수로 대체되었습니다!</LetterUnnaturalHealingTentacle>
   
@@ -497,7 +497,7 @@
   <!-- EN: Fleshmass heart defeated -->
   <LetterLabelFleshmassHeartDestroyed>살덩이 심장 쓰러짐</LetterLabelFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
-  <LetterFleshmassHeartDestroyed>살덩이 심장이 파괴되어, 부서졌지만 여전히 기능하는 중심부를 남겼습니다. 뒤틀린 살과 초월공학의 혼합체입니다. 중심은 계속해서 자라고 주위의 살덩이가 부패하는 동안에도 살을 변형시키고 있습니다.\n\n중심을 포획해 더 연구하거나 파괴하여 이 악몽을 끝낼 수 있습니다. 혼자 내버려 두면, 새로운 살덩이 심장으로 거듭날 수도 있습니다.</LetterFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>살덩이 심장이 파괴되어 부서졌지만 여전히 기능하는 중심핵이 남아있습니다. 뒤틀린 살과 초월공학의 혼합체인 그것은 계속해서 자라나며, 주위의 살덩이가 부패하는 동안에도 살을 변형시키고 있습니다.\n\n중심핵을 포획해 더 조사하거나, 파괴하여 이 악몽을 끝낼 수 있습니다. 방치하면 새로운 살덩이 심장이 자라날 것입니다.</LetterFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
   <NerveBundleGrewMessage>살덩이 심장이 새로운 신경 다발을 키웠습니다.</NerveBundleGrewMessage>
   <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
@@ -563,7 +563,7 @@
   <!-- EN: The unnatural corpse has appeared near {PAWN_nameDef} and is approaching! -->
   <MessageAwokenReappeared>부자연적 시체가 {PAWN_nameDef} 근처에 나타나 접근 중입니다!</MessageAwokenReappeared>
   <!-- EN: The unnatural corpse has vanished. It will come for {PAWN_nameDef} later. -->
-  <MessageAwokenVanished>부자연적 시체가 사라졌습니다. 나중에 {PAWN_nameDef}(을)를 쫓아갈 겁니다.</MessageAwokenVanished>
+  <MessageAwokenVanished>부자연적 시체가 사라졌습니다. 나중에 {PAWN_nameDef}(을)를 쫓아갈 것입니다.</MessageAwokenVanished>
   <!-- EN: The awoken corpse is attacking {PAWN_nameDef}! -->
   <MessageAwokenAttacking>깨어난 시체가 {PAWN_nameDef}(을)를 공격하고 있습니다!</MessageAwokenAttacking>
   <!-- EN: The awoken corpse has destroyed {PAWN_nameDef}'s brain. -->
@@ -575,14 +575,14 @@
   <MentalBreakReason_MysteriousCorpse>이는 부자연적 시체의 존재 때문에 발생했습니다.</MentalBreakReason_MysteriousCorpse>
 
   <!-- EN: Unnatural corpse study progress -->
-  <UnnaturalCorpseStudyLetter>부자연적 시체 연구 진행</UnnaturalCorpseStudyLetter>
+  <UnnaturalCorpseStudyLetter>부자연적 시체 조사 진행</UnnaturalCorpseStudyLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
-  <UnnaturalCorpseStudyLetterDesc>부자연스러운 시체를 조사한 결과, 그것에 대해 더 많은 사실이 밝혀졌습니다. 그것의 핵심에 있는 초월공학 파편은 {VICTIM_nameDef}와 정신적으로 연결되어 있습니다. 그것은 파괴되더라도 스스로 재생하며, 무슨 수를 써서든 {VICTIM_nameDef}에게 순간이동하려 할 것입니다. \n\n{RESEARCHER_nameDef}는 이 시체를 영구적으로 파괴할 수 있는 방법이 있을 것이라 생각하지만, 그러려면 더 깊은 연구가 필요합니다.</UnnaturalCorpseStudyLetterDesc>
+  <UnnaturalCorpseStudyLetterDesc>부자연스러운 시체를 조사한 결과, 그것에 대해 더 많은 사실이 밝혀졌습니다. 그것의 핵심에 있는 초월공학 파편은 {VICTIM_nameDef}와 정신적으로 연결되어 있습니다. 그것은 파괴되더라도 스스로 재생하며, 무슨 수를 써서든 {VICTIM_nameDef}에게 순간이동하려 할 것입니다. \n\n{RESEARCHER_nameDef}는 이 시체를 영구적으로 파괴할 수 있는 방법이 있을 것이라 생각하지만, 그러려면 더 깊은 조사가 필요합니다.</UnnaturalCorpseStudyLetterDesc>
 
   <!-- EN: Unnatural corpse study complete -->
-  <UnnaturalCorpseStudyCompletedLetter>부자연적 시체 연구 완료</UnnaturalCorpseStudyCompletedLetter>
+  <UnnaturalCorpseStudyCompletedLetter>부자연적 시체 조사 완료</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>부자연스러운 시체를 면밀히 조사한 결과, 그것의 초월공학 파편을 안전하게 제거하는 방법이 밝혀졌습니다. 그렇게 하면 {VICTIM_nameDef}이 더 이상 시달리는 것을 방지하고 생명을 구할 수 있습니다. 그러나 이는 시체에 대한 추가 연구를 방해할 것입니다.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>부자연스러운 시체를 면밀히 조사한 결과, 그것의 초월공학 파편을 안전하게 제거하는 방법이 밝혀졌습니다. 그렇게 하면 {VICTIM_nameDef}이 더 이상 시달리는 것을 방지하고 생명을 구할 수 있습니다. 그러나 이는 시체에 대한 추가 조사를 방해할 것입니다.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>시체 조각</UnnaturalCorpseDeactivatedLetter>
@@ -609,19 +609,19 @@
   <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
   <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef}(은)는 부자연적 시체가 빠르게 강해지는 것을 느낍니다. 어떤 끔찍한 의식이 안에서 움직이고 있습니다.\n\n다음 며칠 동안 뭔가 안 좋은 일이 벌어질 것입니다.</UnnaturalCorpseAwakeningLetterDesc>
   <!-- EN: Destroy the corpse before it's too late. -->
-  <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>너무 늦기전에 시체를 파괴하세요.</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
+  <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>너무 늦기 전에 시체를 파괴하세요.</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
   <!-- EN: Study the corpse to learn how to destroy it. -->
-  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>시체를 연구하여 파괴할 방법을 찾으십시오.</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
+  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>시체를 조사하여 파괴할 방법을 찾으십시오.</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
 
   <!-- EN: Corpse awakened -->
   <UnnaturalCorpseAwokenLetter>시체 깨어남</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
-  <UnnaturalCorpseAwokenLetterDesc>부자연적 시체가 일어났으며 이제 {PAWN_nameDef}(을)를 향해 움직이고 있습니다!\n\n시체는 {PAWN_nameDef}(이)가 얼마나 멀리 가든 따라갈 겁니다.\n\n지금 파괴해야 합니다.</UnnaturalCorpseAwokenLetterDesc>
+  <UnnaturalCorpseAwokenLetterDesc>부자연적 시체가 일어났으며 이제 {PAWN_nameDef}(을)를 향해 움직이고 있습니다!\n\n시체는 {PAWN_nameDef}(이)가 얼마나 멀리 가든 따라갈 것입니다.\n\n지금 파괴해야 합니다.</UnnaturalCorpseAwokenLetterDesc>
 
   <!-- EN: Unnatural corpse destroyed! -->
   <UnnaturalCorpseAwokenDefeatedLetter>부자연적 시체 파괴됨!</UnnaturalCorpseAwokenDefeatedLetter>
   <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
-  <UnnaturalCorpseAwokenDefeatedLetterDesc>{PAWN_nameDef}(을)를 향해 돌진하던 부자연적 시체가 쓰러졌습니다!\n\n시체는 더 이상 {PAWN_nameDef}(을)를 고문하지 않을 겁니다.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>{PAWN_nameDef}(을)를 향해 돌진하던 부자연적 시체가 쓰러졌습니다!\n\n시체는 더 이상 {PAWN_nameDef}(을)를 고문하지 않을 것입니다.</UnnaturalCorpseAwokenDefeatedLetterDesc>
 
   <!-- Golden Cube -->
   <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
@@ -641,7 +641,7 @@
   <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>큐브 혼수 상태: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
-  <LetterGoldenCubeComa>{PAWN_labelShort}의 큐브 금단 현상이 {PAWN_objective}(을)를 혼수 상태로 만들었습니다. {PAWN_pronoun}(은)는 황금 큐브의 정신적 연결이 완전히 소멸될 때까지 혼수 상태에 있을 겁니다.</LetterGoldenCubeComa>
+  <LetterGoldenCubeComa>{PAWN_labelShort}의 큐브 금단 현상이 {PAWN_objective}(을)를 혼수 상태로 만들었습니다. {PAWN_pronoun}(은)는 황금 큐브의 정신적 연결이 완전히 소멸될 때까지 혼수 상태에 있을 것입니다.</LetterGoldenCubeComa>
 
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
   <CubeDeactivationConfirmation>황금 큐브를 비활성화하면 큐브에 매료된 모든 사람이 폭력적인 광분에 빠집니다. 큐브에 매료된 상단 구성원은 정착지를 영구히 이탈합니다.</CubeDeactivationConfirmation>
@@ -772,11 +772,11 @@
   <!-- EN: Monolith twisting -->
   <MonolithTwistingAlert>모노리스 뒤틀림</MonolithTwistingAlert>
   <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithTwistingExplanation>당신의 존재 때문에 모노리스가 뒤틀리며 변화하고 있습니다. 이 과정은 곧 완료될 겁니다. 다음에 일어날 일에 대비하세요.</MonolithTwistingExplanation>
+  <MonolithTwistingExplanation>당신의 존재 때문에 모노리스가 뒤틀리며 변화하고 있습니다. 이 과정은 곧 완료될 것입니다. 다음에 일어날 일에 대비하세요.</MonolithTwistingExplanation>
   <!-- EN: Fallen monolith -->
   <MonolithAutoActivatingLabel>쓰러진 모노리스</MonolithAutoActivatingLabel>
   <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithAutoActivatingText>공포의 물결이 정착민을 훑고 지나갑니다. 쓰러진 모노리스가 동요하기 시작했습니다. 천천히 모노리스는 뒤틀리고 저절로 바뀌기 시작해, 뭔가 새로운 것으로 변합니다.\n\n며칠 안에 이 과정이 완료될 겁니다. 다음에 일어날 일에 대비하세요.</MonolithAutoActivatingText>
+  <MonolithAutoActivatingText>공포의 물결이 정착민을 훑고 지나갑니다. 쓰러진 모노리스가 동요하기 시작했습니다. 천천히 모노리스는 뒤틀리고 저절로 바뀌기 시작해, 뭔가 새로운 것으로 변합니다.\n\n며칠 안에 이 과정이 완료될 것입니다. 다음에 일어날 일에 대비하세요.</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>공허 모노리스</MonolithAutoActivatedLabel>
   <!-- EN: The monolith’s transformation is almost complete... -->
@@ -789,9 +789,9 @@
 
   <!-- Void Awakening -->
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
-  <VoidAwakeningConfirmationText>공허 모노리스를 깨우면 정착지가 수 일간 어둠에 휩싸이며 강력한 실체들을 끌어들입니다. 준비가 됐는지 다시 확인하세요.\n\n- 식량과 건설 자재, 무기를 확보하세요.\n- 정착지에 조명과 전력이 충분해야 합니다. 태양광 발전에 의존하지 마세요.\n- 정착지의 방비를 다시 확인하세요. 정착민들이 싸울 준비가 되어야 합니다.\n\n공허 모노리스를 깨우면 돌이킬 수 없습니다.\n\n정말 계속하시겠습니까?</VoidAwakeningConfirmationText>
+  <VoidAwakeningConfirmationText>공허 모노리스를 깨우면 정착지가 며칠간 어둠에 잠기고 강력한 실체들이 유인됩니다. 준비 상태를 재확인하세요.\n\n- 식량과 건설 자재, 무기를 확보하세요.\n- 정착지에 충분한 조명과 전력을 확보하세요. 태양광 발전만으로는 부족합니다.\n- 정착지의 방어를 강화하세요. 정착민들이 전투 준비를 해야 합니다.\n\n공허 모노리스를 깨우면 되돌릴 수 없습니다.\n\n진행하시겠습니까?</VoidAwakeningConfirmationText>
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
-  <VoidNodeLetter>정신 에너지가 찌그러지듯이 요동치는 구체가 {PAWN_nameDef} 앞에 떠오릅니다. 구체의 표면은 부풀어 오르고 뒤틀리며 주위의 공간을 왜곡합니다.\n\n{PAWN_nameDef}(은)는 일반적이지 않은 생소한 느낌으로 {PAWN_possessive} 마음 깊숙이 그것을 느낍니다. 그것은 상식과 논리를 무너뜨리고 {PAWN_pronoun}가 공허에 표류하게 합니다. {PAWN_pronoun}는 무한한 힘의 검은 바닷가에 서 있었고, 그것은 어서 들어오라고 손짓합니다.\n\n{PAWN_nameDef}(은)는 자신을 채찍질하며, 흔들어 깨워 현실로 돌아옵니다.\n\n근처의 초월공학 장치는 취약한 연결부로 구체를 지지하고 있습니다. {PAWN_nameDef}(은)는 이를 부수어 세계 간의 연결을 끊고, 고향을 괴롭힌 무시무시한 현상을 끝낼 수 있습니다.\n\n혹은 {PAWN_pronoun}는 구체로 들어가 공허를 받아들일 수 있습니다. 그 뒤에 무엇이 있는지, 그런 비인간적인 행동으로 어떤 어둠의 힘을 얻을 수 있는지는 알 수 없습니다.</VoidNodeLetter>
+  <VoidNodeLetter>정신 에너지가 몸부림치듯이 요동치는 구체가 {PAWN_nameDef} 앞에 떠오릅니다.\n\n{PAWN_nameDef}(은)는 일반적이지 않은 생소한 느낌으로 {PAWN_possessive} 마음 깊숙이 그것을 느낍니다. {PAWN_pronoun}는 무한한 힘의 검은 바닷가에 서 있었고, 그것은 어서 들어오라고 손짓합니다.\n\n근처의 초월공학 장치는 취약한 연결부로 구체를 지지하고 있습니다. {PAWN_nameDef}(은)는 이를 부수어 세계 간의 연결을 끊을 수 있습니다.\n\n혹은 {PAWN_pronoun}는 구체로 들어가 공허를 받아들일 수 있습니다. 그 뒤에 무엇이 있는지, 그런 비인간적인 행동으로 어떤 어둠의 힘을 얻을 수 있는지는 알 수 없습니다.</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>연결 방해하기</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
@@ -799,9 +799,9 @@
   <!-- EN: Postpone -->
   <VoidNodePostpone>미루기</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>정신 에너지 흐름이 불안정해지며 초월공학 기계가 비명을 지르기 시작했습니다. 소용돌이치는 공허가 깜박거립니다. {PAWN_nameDef}(은)는 그것이 한계를 넘어 폭주하다가 스스로 붕괴되는 것을 느낍니다.\n\n금속의 동굴은 뒤틀리기 시작하더니, 거대한 심실처럼 재형성되기 시작합니다. {PAWN_nameDef}(이)가 소리를 지르기도 전에 {PAWN_pronoun}는 소멸합니다.\n\n{PAWN_nameDef}(은)는 공허를 거부했습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</DisruptTheLinkCredits>
+  <DisruptTheLinkCredits>정신 에너지 흐름이 불안정해지며 뒤틀린 기계가 비명을 지릅니다. 공허가 소용돌이치며 깜박거립니다. {PAWN_nameDef}(은)는 그것이 몸서리치며 스스로 붕괴되는 것을 느낍니다.\n\n금속의 동굴은 뒤틀리기 시작하더니, 거대한 심실처럼 재형성되기 시작합니다. {PAWN_nameDef}(이)가 소리를 지르기도 전에 사라졌습니다.\n\n{PAWN_nameDef}(은)는 공허를 거부했습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
-  <EmbraceTheVoidCredits>{PAWN_nameDef}(이)가 공허로 들어가자 검은 바다가 {PAWN_possessive} 안으로 흘러들어와, 모든 감각을 압도하고 모든 세포, 모든 생각에까지 퍼집니다.\n\n그 순간 공허는 세계에서 한 사람에게 집중되었습니다. 공허 구조물은 그 초자연적인 토대에서 찢기며 비명을 지르고 소멸합니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들였습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</EmbraceTheVoidCredits>
+  <EmbraceTheVoidCredits>{PAWN_nameDef}(이)가 공허로 들어가자 검은 바다가 {PAWN_possessive} 안으로 흘러들어와, 모든 감각을 압도하고 영혼의 모든 곳까지 퍼집니다.\n\n그 순간 공허는 세계에서 한 사람에게 집중되었습니다. 공허 구조물은 비명을 지르더니 사라져 버립니다.\n\n{PAWN_nameDef}(은)는 공허를 받아들였습니다.\n\n{PAWN_possessive} 이야기는 계속됩니다...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
   <StructureActivatedMessage>{PAWN_nameDef}(이)가 {STRUCTURE_definite} 활성화를 마쳤습니다</StructureActivatedMessage>
   <!-- EN: Structures activated -->
@@ -820,7 +820,7 @@
 
   <!-- Studiable -->
   <!-- EN: Knowledge from study reduced -->
-  <KnowledgeFactorOutdoors>연구에서 얻는 지식 감소됨</KnowledgeFactorOutdoors>
+  <KnowledgeFactorOutdoors>조사에서 얻는 지식 감소됨</KnowledgeFactorOutdoors>
 
   <!-- Unnatural darkness -->
   <!-- EN: Emergence in {0} -->

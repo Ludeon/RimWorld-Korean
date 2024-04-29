@@ -6,7 +6,7 @@
   <!-- EN: A horrid oozing amalgamation of many smaller fleshbeasts, all controlled by a linked nervous system. It has two large claws which it uses to tear through its victims. Bulbfreaks are often smelled before they are seen, giving off an overwhelming odor of rancid meat. They are relatively slow and easy to kill, but once they die, they explode into a horde of smaller fleshbeasts. -->
   <Bulbfreak.description>더 작은 크기의 여러 살짐승의 지독한 삼출성 혼합체로, 전체가 연결된 신경계에 의해 통제됩니다. 두 개의 거대한 발톱을 사용하여 희생자를 찢습니다. 살종양은 목격되기 전에 냄새부터 나는데, 썩은 고기의 압도적인 냄새를 풍깁니다. 상대적으로 느려서 죽이기 쉽지만, 한 번 죽으면, 폭발하여 더 작은 살짐승들의 무리가 됩니다.</Bulbfreak.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Bulbfreak.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}에서 출현됨.</Bulbfreak.comps.CompInspectStringEmergence.inspectString>
+  <Bulbfreak.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}의 분열체</Bulbfreak.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: tentacle -->
   <Bulbfreak.tools.tentacle-0.label>촉수</Bulbfreak.tools.tentacle-0.label>
   <!-- EN: tentacle -->
@@ -25,7 +25,7 @@
   <!-- EN: A gargantuan amalgamation of dozens of smaller fleshbeasts linked together by a loosely shared central nervous system. It uses its massive claws to dig tunnels through solid rock. Fleshbeast dreadmelds are rarely seen above ground, instead sheltering in caverns built from living flesh. They share a psychic connection with the flesh used to create their burrow. -->
   <Dreadmeld.description>느슨하게 공유되는 중앙 신경계에 의해 함께 연결된 작은 크기의 여러 살짐승의 엄청난 혼합체입니다. 거대한 발톱을 사용해 단단한 바위를 뚫습니다. 살짐승 마귀종양은 지상에서는 쉽게 보이지않고, 살아 있는 육체로 지어진 동굴 안에 피신해 있습니다. 마귀종양은 굴을 만드는 데 사용된 육체와 정신 연결을 공유합니다.</Dreadmeld.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Dreadmeld.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}에서 출현됨.</Dreadmeld.comps.CompInspectStringEmergence.inspectString>
+  <Dreadmeld.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}의 분열체</Dreadmeld.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: Dreadmeld released -->
   <Dreadmeld.comps.CompLetterOnRevealed.label>마귀종양 방출됨</Dreadmeld.comps.CompLetterOnRevealed.label>
   <!-- EN: You've discovered a fleshbeast dreadmeld! This mammoth creature seems to be made up of dozens of smaller fleshbeasts.\n\nIt appears to have some psychic connection to the fleshmass that supports this cavern. Killing it may destabilize the entire cave system. -->
@@ -46,7 +46,7 @@
   <!-- EN: A fleshy dog-sized creature with a single spiked limb. Despite their short legs, fingerspikes can move remarkably fast. -->
   <Fingerspike.description>개 정도 크기의 이 생물은 살로 이루어져있으며, 가시가 달린 다리가 하나 더 자라나있습니다. 다리는 짧지만, 매우 빠르게 이동할 수 있습니다.</Fingerspike.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Fingerspike.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}에서 출현됨.</Fingerspike.comps.CompInspectStringEmergence.inspectString>
+  <Fingerspike.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}의 분열체</Fingerspike.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: spike -->
   <Fingerspike.tools.spike.label>가시</Fingerspike.tools.spike.label>
   <!-- EN: spike -->
@@ -59,7 +59,7 @@
   <!-- EN: A fleshy man-sized creature with two spiked limbs and an armored carapace. Toughspikes throw hardened keratin spikes to take down victims from a distance.\n\nToughspike corpses will dissolve into puddles of liquefied flesh if they're not butchered quickly. -->
   <Toughspike.description>살점으로 이뤄진 인간 크기의 생물로, 두 개의 가시 촉수와 갑옷 같은 껍질을 지니고 있습니다. 갑옷촉수는 경화 단백질 가시를 던져 멀리서 피해자를 공격합니다.\n\n갑옷촉수 시체는 빨리 도축하지 않으면 녹아 사라집니다.</Toughspike.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Toughspike.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}에서 출현됨.</Toughspike.comps.CompInspectStringEmergence.inspectString>
+  <Toughspike.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}의 분열체</Toughspike.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: left spike -->
   <Toughspike.tools.left_spike.label>왼쪽 가시</Toughspike.tools.left_spike.label>
   <!-- EN: spike -->
@@ -76,7 +76,7 @@
   <!-- EN: A man-sized amalgamation of several smaller fleshbeasts. Each of the creature's limbs is capable of surviving independently. On death, trispikes may split into separate fingerspikes as each limb rips free and attacks. -->
   <Trispike.description>인간 크기의, 여러 작은 살짐승의 혼합체입니다. 생물의 각 사지는 독립적으로 생존할 수 있습니다. 사망 시, 삼발촉수의 사지는 각자 자유롭게 찢어지고 공격하며 분리된 쐐기촉수로 갈라집니다.</Trispike.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Trispike.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}에서 출현됨.</Trispike.comps.CompInspectStringEmergence.inspectString>
+  <Trispike.comps.CompInspectStringEmergence.inspectString>{SOURCEPAWN_labelShort}의 분열체</Trispike.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: left spike -->
   <Trispike.tools.left_spike.label>왼쪽 가시</Trispike.tools.left_spike.label>
   <!-- EN: spike -->

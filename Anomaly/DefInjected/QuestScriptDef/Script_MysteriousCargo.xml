@@ -34,7 +34,7 @@
   -->
   <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->신비한 화물</li>
-    <li>deliveredLetterText->신비한 화물이 배달되었습니다. 두껍고 들쭉날쭉하지만 인간의 척추와 닮았고, 거친 주물로 되어있습니다. 마치 어두운 액체에 덮여있는 것 같기도 합니다.\n\n만지면 반응하여 강하게 떨리고 분노한 듯 뒤틀립니다. 구속대에서 연구하여 더 알아볼 수 있습니다.</li>
+    <li>deliveredLetterText->신비한 화물이 배달되었습니다. 두껍고 들쭉날쭉하지만 인간의 척추와 닮았고, 거친 주물로 되어있습니다. 마치 어두운 액체에 덮여있는 것 같기도 합니다.\n\n만지면 반응하여 강하게 떨리고 분노한 듯 뒤틀립니다. 구속대에서 조사하여 더 알아볼 수 있습니다.</li>
   </MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -60,8 +60,8 @@
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->신비한 화물</li>
-    <li>deliveredLetterText(pawnOnMap==true)->신비한 화물이 도착했습니다. 인간의 시체같습니다.\n\n더 자세히 조사해보니, 이 시체는 [pawn_nameDef](와)과 동일하게 생겼습니다. 다만 피부는 왁스같은 재질이고, 따뜻합니다. 이 시체때문에 [pawn_nameDef](이)가 굉장히 불안해합니다.\n\n시체를 연구하여 더 알아볼 수 있습니다.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->신비한 화물이 도착했습니다. 인간의 시체같습니다.\n\n더 자세히 조사해보니, 이 시체는 [pawn_nameDef](와)과 똑같이 생겼습니다. 다만 피부는 왁스같은 재질이고, 만지면 따뜻합니다. 이 시체는 [pawn_nameDef](을)를 굉장히 불안하게 만들 것입니다.\n\n시체를 연구하여 더 알아볼 수 있습니다.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->신비한 화물이 도착했습니다. 인간의 시체같습니다.\n\n더 자세히 조사해보니, 이 시체는 [pawn_nameDef](와)과 동일하게 생겼습니다. 다만 피부는 왁스같은 재질이고 따뜻합니다. 이 시체때문에 [pawn_nameDef](이)가 굉장히 불안해합니다.\n\n시체를 조사하여 더 알아볼 수 있습니다.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->신비한 화물이 도착했습니다. 인간의 시체같습니다.\n\n더 자세히 조사해보니, 이 시체는 [pawn_nameDef](와)과 똑같이 생겼습니다. 다만 피부는 왁스같은 재질이고 만지면 따뜻합니다. 이 시체는 [pawn_nameDef](을)를 굉장히 불안하게 만들 것입니다.\n\n시체를 조사하여 더 알아볼 수 있습니다.</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>

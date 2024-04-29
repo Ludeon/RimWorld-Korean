@@ -13,7 +13,7 @@
   <!-- EN: awoken hypnosis -->
   <AwokenHypnosis.label>깨어난 자의 최면</AwokenHypnosis.label>
   <!-- EN: This person has been hypnotized by an awoken unnatural corpse. The trance is absolute, but if the awoken corpse breaks its gaze then the hypnosis will end. -->
-  <AwokenHypnosis.description>이 사람은 깨어난 부자연적 시체에 의해 최면에 빠졌습니다. 무아지경 상태는 절대적이지만, 깨어난 시체가 응시를 멈추면 최면은 끝날 겁니다.</AwokenHypnosis.description>
+  <AwokenHypnosis.description>이 사람은 깨어난 부자연적 시체에 의해 최면에 빠졌습니다. 무아지경 상태는 절대적이지만, 깨어난 시체가 응시를 멈추면 최면은 끝날 것입니다.</AwokenHypnosis.description>
   
   <!-- EN: bliss lobotomy -->
   <BlissLobotomy.label>환희의 전두엽 절제술</BlissLobotomy.label>
@@ -33,9 +33,9 @@
   <!-- EN: severe -->
   <BloodRage.stages.severe.label>심함</BloodRage.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme-0.label>극심함</BloodRage.stages.extreme-0.label>
+  <BloodRage.stages.extreme-0.label>극도의</BloodRage.stages.extreme-0.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme-1.label>TODO</BloodRage.stages.extreme-1.label>
+  <BloodRage.stages.extreme-1.label>극도의</BloodRage.stages.extreme-1.label>
   
   <!-- EN: brainwipe coma -->
   <BrainwipeComa.label>뇌세척 혼수상태</BrainwipeComa.label>
@@ -55,7 +55,7 @@
   <!-- EN: crumbling mind -->
   <CrumblingMind.label>허물어지는 정신</CrumblingMind.label>
   <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
-  <CrumblingMind.description>이 사람의 정신이 급속도로 무너지고 있습니다. 며칠 내에 이 사람은 대부분의 작업을 할 수 없게 됩니다. 회복 혈청 같은 충분한 기술이 있으면 상태를 호전시킬 수 있습니다. 하지만 곧 영구적인 상태가 됩니다.</CrumblingMind.description>
+  <CrumblingMind.description>대상의 정신이 급속도로 무너지고 있습니다. 며칠 내로 대부분의 활동을 할 수 없게 됩니다. 회복 혈청 등의 치료 수단이 있으면 상태를 되돌릴 수 있습니다. 하지만 방치하면 곧 영구적인 장애 상태가 됩니다.</CrumblingMind.description>
   <!-- EN: {PAWN_nameDef}'s cognitive condition has become permanent. -->
   <CrumblingMind.comps.HediffComp_ReplaceHediff.message>{PAWN_nameDef}의 인지 상태가 영구적으로 되었습니다.</CrumblingMind.comps.HediffComp_ReplaceHediff.message>
   <!-- EN: mild -->
@@ -99,7 +99,7 @@
   <!-- EN: cube interest -->
   <CubeInterest.label>큐브 선호</CubeInterest.label>
   <!-- EN: This person is drawn to the golden cube. If separated from the cube for too long, they'll start to experience negative effects. -->
-  <CubeInterest.description>이 사람은 황금 큐브에 끌립니다. 만약 큐브와 너무 오래 분리되어 있으면, 부정적인 영향을 경험하기 시작할 겁니다.</CubeInterest.description>
+  <CubeInterest.description>이 사람은 황금 큐브에 끌립니다. 만약 큐브와 너무 오래 분리되어 있으면, 부정적인 영향을 경험하기 시작할 것입니다.</CubeInterest.description>
   <!-- EN: Wandering and thinking about the cube. -->
   <CubeInterest.reportStringOverrides.0.reportString>돌아다니며 큐브에 대해 생각하는 중</CubeInterest.reportStringOverrides.0.reportString>
   <!-- EN: Wandering and thinking about the cube. -->
@@ -124,14 +124,14 @@
   <!-- EN: This person is upset that their cube sculptures have been destroyed. Continuing to destroy their sculptures may cause them to become violent. -->
   <CubeRage.description>이 사람은 자신의 큐브 조각상이 파괴되어 화가 났습니다. 그의 조각상을 계속해서 파괴하면 폭력적인 상태가 될 수 있습니다.</CubeRage.description>
   <!-- EN: {PAWN_nameDef} can no longer control {PAWN_possessive} anger. Too many of {PAWN_possessive} precious cube sculptures have been destroyed.\n\n{PAWN_nameDef} has flown into a berserk rage! -->
-  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>{PAWN_nameDef}(은)는 자신의 분노를 더 이상 통제할 수 없습니다. {PAWN_possessive} 소중한 큐브 조각상이 너무 많이 파괴되었습니다.\n\n{PAWN_nameDef}(은)는 정신 광란 상태가 되었습니다!</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>
+  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>{PAWN_nameDef}(은)는 치솟는 분노를 더 이상 통제할 수 없습니다. {PAWN_possessive} 소중한 큐브 조각상이 너무 많이 파괴되었습니다.\n\n{PAWN_nameDef}(은)는 정신 광란 상태가 되었습니다!</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>
   <!-- EN: Cube rage: {PAWN_nameDef} -->
   <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>큐브 분노: {PAWN_nameDef}</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>
   
   <!-- EN: cube withdrawal -->
   <CubeWithdrawal.label>큐브 금단 현상</CubeWithdrawal.label>
   <!-- EN: This person obsessively wants to find their golden cube. Their skin itches and their mind races, thinking of ways to get closer to the cube. Their symptoms will get worse until they play with the cube. -->
-  <CubeWithdrawal.description>이 사람은 강박적으로 자신의 황금 큐브를 찾고 싶어합니다. 피부는 가렵고 정신은 바쁘게 돌아가며, 큐브에 가까이 갈 수 있는 방법을 생각합니다. 큐브와 놀 수 있을 때까지 증상은 악화될 겁니다.</CubeWithdrawal.description>
+  <CubeWithdrawal.description>이 사람은 강박적으로 자신의 황금 큐브를 찾고 싶어합니다. 피부는 가렵고 정신은 바쁘게 돌아가며, 큐브에 가까이 갈 수 있는 방법을 생각합니다. 큐브와 놀 수 있을 때까지 증상은 악화될 것입니다.</CubeWithdrawal.description>
   <!-- EN: inital -->
   <CubeWithdrawal.stages.inital.label>초기</CubeWithdrawal.stages.inital.label>
   <!-- EN: moderate -->
@@ -167,7 +167,7 @@
   <!-- EN: disruptor flash -->
   <DisruptorFlash.label>교란 섬광</DisruptorFlash.label>
   <!-- EN: The initial psychic burst from a disruptor flare has left this creature dazed. -->
-  <DisruptorFlash.description>교란 조명탄의 초기 정신 파열이 이 생물을 멍하게 만들었습니다.</DisruptorFlash.description>
+  <DisruptorFlash.description>이 생물은 교란용 조명탄의 섬광 때문에 멍해졌습니다.</DisruptorFlash.description>
   
   <!-- EN: duplicate sickness -->
   <DuplicateSickness.label>복제본 후유증</DuplicateSickness.label>
@@ -191,7 +191,7 @@
   <!-- EN: frenzy field -->
   <FrenzyField.label>광란장</FrenzyField.label>
   <!-- EN: This person is under the influence of a psychic field which sharpens their mental energy. They're channeling the nervous anger to move and work faster. However, any mental breaks will be violent. -->
-  <FrenzyField.description>이 사람은 정신 에너지를 날카롭게 하는 정신장의 영향력을 받고 있습니다. 집중된 신경 분노로 인해 이동과 작업 속도가 빨라졌습니다. 그러나 모든 정신이상은 폭력적이 될 겁니다.</FrenzyField.description>
+  <FrenzyField.description>이 사람은 정신 에너지를 날카롭게 하는 정신장의 영향력을 받고 있습니다. 집중된 신경 분노로 인해 이동과 작업 속도가 빨라졌습니다. 그러나 모든 정신이상은 폭력적이 될 것입니다.</FrenzyField.description>
   <!-- EN: very mild -->
   <FrenzyField.stages.very_mild.label>아주 약함</FrenzyField.stages.very_mild.label>
   <!-- EN: mild -->
@@ -263,7 +263,7 @@
   <!-- EN: pain field -->
   <PainField.label>고통장</PainField.label>
   <!-- EN: A searing pain caused by the presence of a psychically active entity nearby. The effect intensifies when the entity is more active. -->
-  <PainField.description>근처의 정신적으로 활성화된 실체의 존재에 의해 유발된 혹독한 고통입니다. 실체가 더 활성화될수록 영향은 심화됩니다.</PainField.description>
+  <PainField.description>근처의 정신적으로 활성화된 실체 때문에 유발된 혹독한 고통입니다. 실체가 더 활성화될수록 영향은 강해집니다.</PainField.description>
   
   <!-- EN: pleasure pulse -->
   <PleasurePulse.label>쾌락의 파동</PleasurePulse.label>
@@ -302,7 +302,7 @@
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>망령 최면</RevenantHypnosis.label>
   <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantHypnosis.description>이 사람은 망령에 의해 최면 상태에 빠졌으며 망령과 연결된 상태입니다. 눈도 깜박이지 않고 알 수 없는 공포가 보이는 듯이, 악몽 같은 생물에 대해 횡설수설합니다.\n\n희생자를 최면에 건 후, 망령은 희생자와 같은 지역 어딘가에서 동면합니다.\n\n망령을 죽이면 최면이 끝납니다. 숨은 망령은 교란 조명탄, 폭발물, EMP, 소방거품, 혹은 불을 붙여 드러낼 수 있습니다.</RevenantHypnosis.description>
+  <RevenantHypnosis.description>이 사람은 망령에 의해 최면 상태에 빠졌으며 망령과 연결된 상태입니다. 눈도 깜박이지 않고 알 수 없는 공포가 보이는 듯이, 악몽 같은 생물에 대해 횡설수설합니다.\n\n희생자를 최면에 건 후, 망령은 희생자와 같은 지역 어딘가에서 동면합니다.\n\n망령을 죽이면 최면이 끝납니다. 숨은 망령은 교란용 조명탄, 폭발 무기, 펄스 무기, 소방 거품, 불로 드러나게 할 수 있습니다.</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->
   <ShardHolder.label>파편 보유자</ShardHolder.label>
@@ -330,7 +330,7 @@
   <!-- EN: voidsight -->
   <Voidsight.label>공허의 시야</Voidsight.label>
   <!-- EN: This person has ingested a drug which enhanced their perception of dark psychic phenomena. They will gain more knowledge when studying dark psychic phenomena and entities. Their psychic sensitivity is also increased. -->
-  <Voidsight.description>이 사람은 어둠의 정신 현상 지각력을 강화시키는 약물을 섭취했습니다. 이 사람은 어둠의 정신 현상 및 실체를 연구할 때 더 많은 지식을 얻을 겁니다. 정신 감응력 또한 증가했습니다.</Voidsight.description>
+  <Voidsight.description>이 사람은 어둠의 정신 현상 지각력을 강화시키는 약물을 섭취했습니다. 이 사람은 어둠의 정신 현상 및 실체를 조사할 때 더 많은 지식을 얻을 것입니다. 정신 감응력 또한 증가했습니다.</Voidsight.description>
   
   <!-- EN: void touched -->
   <VoidTouched.label>공허 접촉</VoidTouched.label>

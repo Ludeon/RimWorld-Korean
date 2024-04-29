@@ -49,13 +49,13 @@
   <PsychicRitualFactionWarning>경고: {PAWN_nameDef}에게 의식을 행하면 {PAWN_possessive} 세력({FACTION_name})을 화나게 할 것입니다</PsychicRitualFactionWarning>
 
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
-  <PsychicRitualWakingPawnWarning>{0}(은)는 현재 수면 중이므로 초정신 의식이 시작되면 깨어날 겁니다.</PsychicRitualWakingPawnWarning>
+  <PsychicRitualWakingPawnWarning>{0}(은)는 현재 수면 중이므로 초정신 의식이 시작되면 깨어날 것입니다.</PsychicRitualWakingPawnWarning>
   <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnWarning>{0}(은)는 현재 소집 중이므로 초정신 의식이 시작되면 소집 해제될 겁니다.</PsychicRitualUndraftPawnWarning>
+  <PsychicRitualUndraftPawnWarning>{0}(은)는 현재 소집 중이므로 초정신 의식이 시작되면 소집 해제될 것입니다.</PsychicRitualUndraftPawnWarning>
   <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
-  <PsychicRitualWakingPawnsWarning>{0}(은)는 현재 수면 중이므로 초정신 의식이 시작되면 깨어날 겁니다.</PsychicRitualWakingPawnsWarning>
+  <PsychicRitualWakingPawnsWarning>{0}(은)는 현재 수면 중이므로 초정신 의식이 시작되면 깨어날 것입니다.</PsychicRitualWakingPawnsWarning>
   <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnsWarning>{0}(은)는 현재 소집 중이므로 초정신 의식이 시작되면 소집 해제될 겁니다.</PsychicRitualUndraftPawnsWarning>
+  <PsychicRitualUndraftPawnsWarning>{0}(은)는 현재 소집 중이므로 초정신 의식이 시작되면 소집 해제될 것입니다.</PsychicRitualUndraftPawnsWarning>
 
   <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>{0_labelShort}(이)가 {1} 초정신 의식을 떠났습니다.</PsychicRitualLeft>
@@ -98,7 +98,7 @@
   <!-- EN: {PAWN_labelShort} is drafted -->
   <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort}(은)는 소집되었습니다</PsychicRitualLeaveReason_Drafted>
   <!-- EN: {PAWN_labelShort} is in a mental state -->
-  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort}(은)는 정신 상태에 있습니다</PsychicRitualLeaveReason_InMentalState>
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort}(은)는 정신 이상 상태입니다</PsychicRitualLeaveReason_InMentalState>
   <!-- EN: {PAWN_labelShort} is bleeding -->
   <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort}(은)는 출혈 중입니다</PsychicRitualLeaveReason_Bleeding>
   <!-- EN: {PAWN_labelShort} is on fire -->
@@ -168,7 +168,7 @@
   <!-- EN: {TARGET_labelShort} was destroyed -->
   <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort}(이)가 파괴되었습니다</PsychicRitualDef_TargetDestroyed>
   <!-- EN: {INVOKER_labelShort} cannot continue the psychic ritual -->
-  <PsychicRitualDef_InvocationCircle_InvokerLost>TODO</PsychicRitualDef_InvocationCircle_InvokerLost><!-- text_todo -->
+  <PsychicRitualDef_InvocationCircle_InvokerLost>{INVOKER_labelShort}(이)가 초정신 의식을 계속할 수 없습니다</PsychicRitualDef_InvocationCircle_InvokerLost><!-- text_todo -->
 
   <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>대상 현장 근처의 지역에 방해물이 없어야 합니다</PsychicRitualDef_InvocationCircle_AreaMustBeClear>

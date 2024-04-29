@@ -11,7 +11,7 @@
   <!-- EN: Need anomaly project -->
   <NeedAnomalyProject>이상 현상 연구 과제 필요</NeedAnomalyProject>
   <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
-  <NeedAnomalyProjectDesc>연구 중인 실체와 연관된 이상 현상 연구 과제가 선택되지 않았습니다.</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDesc>조사 중인 실체와 연관된 이상 현상 연구 과제가 선택되지 않았습니다.</NeedAnomalyProjectDesc>
   <!-- EN: Need {NAME} anomaly research project -->
   <NeedAnomalyProjectDescLine>{NAME} 이상 현상 연구 과제 필요</NeedAnomalyProjectDescLine>
   <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
@@ -32,7 +32,7 @@
   <!-- EN: Cultist psychic ritual -->
   <Alert_CultistPsychicRitual>광신도 초정신 의식</Alert_CultistPsychicRitual>
   <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
-  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 행하기 시작했습니다. 의식이 성공하면 좋지 않은 일이 일어날 겁니다.</Alert_CultistPsychicRitualDesc>
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 행하기 시작했습니다. 의식이 성공하면 좋지 않은 일이 일어날 것입니다.</Alert_CultistPsychicRitualDesc>
 
   <!-- EN: Ghoul starvation -->
   <AlertMeatHunger>굶주린 구울</AlertMeatHunger>
@@ -56,14 +56,14 @@
   <!-- EN: Holding platforms needed -->
   <AlertHoldingPlatform>구속대 필요</AlertHoldingPlatform>
   <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
-  <AlertHoldingPlatformDesc>구속대나 간이 구속대를 설치해, 포획한 실체를 억제하고 연구하세요.</AlertHoldingPlatformDesc>
+  <AlertHoldingPlatformDesc>구속대나 간이 구속대를 설치해, 포획한 실체를 억제하고 조사하세요.</AlertHoldingPlatformDesc>
 
   <!-- EN: Cube withdrawal -->
   <AlertCubeWithdrawal>큐브 금단 현상</AlertCubeWithdrawal>
   <!-- EN: The following people are suffering from cube withdrawal -->
   <AlertCubeWithdrawalDesc>다음 사람들이 큐브 금단 현상을 겪고 있습니다</AlertCubeWithdrawalDesc>
   <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
-  <AlertCubeWithdrawalDescAppended>사람들은 가려움증과 조금함을 느끼며, 황금 큐브와 접촉하고 싶어합니다. 증상은 큐브를 가지고 놀기 전까지 계속 악화될 겁니다.\n\n그들에게 자유 시간을 주고 황금 큐브와 놀 수 있는 자유 시간을 제공하세요.</AlertCubeWithdrawalDescAppended>
+  <AlertCubeWithdrawalDescAppended>사람들은 가려움증과 조금함을 느끼며, 황금 큐브와 접촉하고 싶어합니다. 증상은 큐브를 가지고 놀기 전까지 계속 악화될 것입니다.\n\n그들에게 자유 시간을 주고 황금 큐브와 놀 수 있는 자유 시간을 제공하세요.</AlertCubeWithdrawalDescAppended>
 
   <!-- EN: Devourer digestion -->
   <AlertDigestion>걸신에게 삼켜짐</AlertDigestion>

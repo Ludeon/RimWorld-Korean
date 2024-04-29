@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Dormant self-charging -->
-  <SelfShutdown>자가충전 휴면상태</SelfShutdown>
+  <SelfShutdown>휴면 충전 상태</SelfShutdown>
   <!-- EN: Carry to recharger -->
   <CarryToRecharger>충전기로 운반</CarryToRecharger>
   <!-- EN: Must be carried to recharger. -->
@@ -170,7 +170,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef}(은)는 탈진을 피하기 위해 곧 죽음안식을 취해야 합니다.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>이것은 {PAWN_possessive} 혈액 정수가 {MIN} 미만일 때 {PAWN_nameDef}(이)가 혈액팩을 자동으로 섭취할지 여부를 결정합니다.\n\n자동 섭취는 현재 {ONOFF}입니다.</AutoTakeHemogenDesc>
+  <AutoTakeHemogenDesc>혈액 정수가 {MIN} 미만일 때 {PAWN_nameDef}(이)가 혈액팩을 자동으로 섭취할지를 결정합니다.\n\n자동 섭취는 현재 {ONOFF}입니다.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>이하일 경우 혈액정수 섭취</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -650,7 +650,7 @@
   <!-- EN: Mech stun pulse on death -->
   <MechStunPulseWarning>사망 시 메카노이드 기절 파동 방출</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
-  <IsLowEnergySelfShutdown>{PAWN_nameDef}(이)가 낮은 에너지 때문에 자체적으로 작동 종료합니다.</IsLowEnergySelfShutdown>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef}(은)는 덜 충전되어 작동할 수 없습니다.</IsLowEnergySelfShutdown>
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->

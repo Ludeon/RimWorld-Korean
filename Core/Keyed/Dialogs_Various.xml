@@ -56,7 +56,7 @@
   <!-- EN: An error occurred while loading game assets. See error log for more information. -->
   <ErrorWhileLoadingAssets>게임 자산을 불러오던 중에 오류가 발생했습니다. 오류 로그에서 자세한 정보를 확인하세요.</ErrorWhileLoadingAssets>
   <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
-  <ErrorWhileLoadingAssets_ModsInfo>게임에 모드가 포함돼있습니다. 오류의 원인일 수 있습니다.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>게임에 모드가 포함되어 있으며, 오류의 원인일 수도 있습니다.</ErrorWhileLoadingAssets_ModsInfo>
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>지도를 생성하지 못함</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
@@ -1332,15 +1332,15 @@
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>방 인상</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
-  <RoomRequirementAllFloored>모든 바닥재</RoomRequirementAllFloored>
+  <RoomRequirementAllFloored>모든 칸에 바닥 깔림</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
   <RoomRequirementAllBraziersMustBeLit>모든 화로에 불이 붙어있어야 함</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>모든 고급 바닥재</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>모든 칸에 고급 바닥 깔림</RoomRequirementAllFineFloored>
   <!-- EN: no work facilities allowed -->
   <RoomRequirementNoProductionFacilities>생산시설 없음</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
-  <RoomRequirementNoAltars>제단 허용되지 않음</RoomRequirementNoAltars>
+  <RoomRequirementNoAltars>제단 없음</RoomRequirementNoAltars>
 
   <!-- EN: Lifestage max food factor -->
   <LifeStageMaxFood>성장 단계에 대한 계수</LifeStageMaxFood>
@@ -1400,9 +1400,9 @@
   <!-- EN: Change the light color to its normal color. -->
   <ToggleDarklightOffDesc>조명의 색을 일반 조명색으로 바꿉니다.</ToggleDarklightOffDesc>
   <!-- EN: Change to darklight -->
-  <ToggleDarklightOn>암광 조명으로 변경</ToggleDarklightOn>
+  <ToggleDarklightOn>암광으로 변경</ToggleDarklightOn>
   <!-- EN: Change the light color to darklight. -->
-  <ToggleDarklightOnDesc>조명의 색을 암광 조명색으로 바꿉니다.</ToggleDarklightOnDesc>
+  <ToggleDarklightOnDesc>조명의 색을 암광색으로 바꿉니다.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>색온도로 조명의 색을 선택합니다. 참고: 조명의 색만 바뀌고 발산하는 열은 바뀌지 않습니다.</ColorTemperatureTooltip>
 
