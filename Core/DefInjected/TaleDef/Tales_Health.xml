@@ -41,41 +41,41 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Downed.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](와)과 [wound_name_present] 이야기</li>
-    <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [WEAPON_label](으)로 [wound_name_present] 이야기</li>
-    <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [wound_name_present] 이야기</li>
-    <li>tale_noun->[VICTIM_nameDef](을)를 [WEAPON_label](으)로 [wound_name_present] 이야기</li>
-    <li>tale_noun->[VICTIM_nameDef](을)를 [wound_name_present] 이야기</li>
-    <li>image->[VICTIM_nameFull](이)가 [KILLER_nameFull]의 [with_weapon_optional] [wound_name_past] 모습</li>
+    <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [wound_name_present] 모습</li>
+    <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [WEAPON_label](으)로 [wound_name_present] 모습</li>
+    <li>tale_noun->[KILLER_nameDef]에 의해 [wound_name_past] [VICTIM_nameDef]의 모습</li>
+    <li>tale_noun->[VICTIM_nameDef](이)가 [WEAPON_label](으)로 [wound_name_past] 모습</li>
+    <li>tale_noun->[VICTIM_nameDef](이)가 [wound_name_past] 모습</li>
+    <li>image->[VICTIM_nameFull](이)가 [KILLER_nameFull]에 의해 [wound_name_past] 모습</li>
     <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 [wound_name_present] 모습</li>
-    <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 잔혹하게 [wound_name_present] 모습</li>
-    <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [wound_name_present] 모습</li>
-    <li>wound_name_past->옴짝달싹 못하는</li>
+    <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 [wound_name_present] 모습</li>
+    <li>image->[VICTIM_nameFull](이)가 [wound_name_past] 모습</li>
     <li>wound_name_past->무력화된</li>
+    <li>wound_name_past->쓰러진</li>
     <li>wound_name_past->기절한</li>
-    <li>wound_name_past->굴복한</li>
-    <li>wound_name_present->무력화시키는</li>
-    <li>wound_name_present->해치는</li>
+    <li>wound_name_past->제압된</li>
+    <li>wound_name_present->무력화하는</li>
+    <li>wound_name_present->쓰러트리는</li>
     <li>wound_name_present->기절시키는</li>
-    <li>wound_name_present->굴복시키는</li>
-    <li>with_weapon_optional->[WEAPON_label](을)를 사용해 [circumstance_group]</li>
+    <li>wound_name_present->제압하는</li>
+    <li>with_weapon_optional->[WEAPON_label](으)로 [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->무심한 손길로</li>
-    <li>circumstance_phrase->차가운 손길로</li>
-    <li>circumstance_phrase->분노에 찬 손길로</li>
-    <li>circumstance_phrase->빠르고 정확한 움직임으로</li>
-    <li>circumstance_phrase->무표정하게</li>
+    <li>circumstance_phrase->냉혹하게</li>
+    <li>circumstance_phrase->차갑게</li>
+    <li>circumstance_phrase->잔혹하게</li>
+    <li>circumstance_phrase->빠르고 정확하게</li>
+    <li>circumstance_phrase->무감정하게</li>
     <li>circumstance_phrase->불가피하게</li>
-    <li>circumstance_phrase->겁먹은 채 머뭇거리며</li>
+    <li>circumstance_phrase->서투르게</li>
     <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 지켜보고 있습니다.</li>
-    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position](을)를 조용히 바라보고 있습니다.</li>
-    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 것처럼 보입니다.</li>
+    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position]에서 조용히 바라보고 있습니다.</li>
+    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 모습입니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 눈을 감고 있습니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 자신의 손톱을 물어뜯고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 입을 꽉 다물고 있습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 만족한 듯 보입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 자신이 한 일로 충격받은 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황에 만족한 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 미소 짓고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황이 맘에 드는 듯한 모습입니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 승리를 만끽하는 듯한 모습입니다.</li>
   </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
@@ -98,7 +98,7 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <Exhausted.rulePack.rulesStrings>
-    <li>tale_noun->탈진해서 쓰러지는 [PAWN_nameDef]의 모습</li>
+    <li>tale_noun->탈진해서 쓰러진 [PAWN_nameDef]의 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 땅에 쓰러진 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 땅에 누워있는 모습</li>
     <li>image->[PAWN_nameFull](이)가 [circumstance_group] 침대에 누워있는 모습</li>
@@ -334,18 +334,18 @@
     <li>wound_name_present->제거하는 모습</li>
     <li>with_weapon_optional->[WEAPON_label](을)를 사용해 [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->무심한 손길로</li>
-    <li>circumstance_phrase->차가운 손길로</li>
-    <li>circumstance_phrase->빠르고 정확한 움직임으로</li>
-    <li>circumstance_phrase->무표정하게</li>
+    <li>circumstance_phrase->냉혹하게</li>
+    <li>circumstance_phrase->차갑게</li>
+    <li>circumstance_phrase->빠르고 정확하게</li>
+    <li>circumstance_phrase->무감정하게</li>
     <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 지켜보고 있습니다.</li>
-    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position](을)를 조용히 바라보고 있습니다.</li>
-    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 것처럼 보입니다.</li>
+    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position]에서 조용히 바라보고 있습니다.</li>
+    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 모습입니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 눈을 감고 있습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 만족한 듯 보입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 자신이 한 일로 충격받은 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황에 만족한 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 미소 짓고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황이 맘에 드는 듯한 모습입니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 승리를 만끽하는 듯한 모습입니다.</li>
   </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
@@ -403,26 +403,26 @@
     <li>wound_name_present->제거하는 모습</li>
     <li>with_weapon_optional->[WEAPON_label](을)를 사용해 [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->무심한 손길로</li>
-    <li>circumstance_phrase->차가운 손길로</li>
+    <li>circumstance_phrase->냉혹하게</li>
+    <li>circumstance_phrase->차갑게</li>
     <li>circumstance_phrase->원거리에서</li>
     <li>circumstance_phrase->높은 곳에서</li>
-    <li>circumstance_phrase->무표정하게</li>
-    <li>circumstance_phrase->겁먹은 채 머뭇거리며</li>
+    <li>circumstance_phrase->무감정하게</li>
+    <li>circumstance_phrase->서투르게</li>
     <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 지켜보고 있습니다.</li>
-    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position](을)를 조용히 바라보고 있습니다.</li>
-    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 것처럼 보입니다.</li>
+    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position]에서 조용히 바라보고 있습니다.</li>
+    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 모습입니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 눈을 감고 있습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 [Gore]에 뒤덮였습니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 자신의 손톱을 물어뜯고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 입을 꽉 다물고 있습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 만족한 듯 보입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 자신이 한 일로 충격받은 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황에 만족한 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 미소 짓고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황이 맘에 드는 듯한 모습입니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 승리를 만끽하는 듯한 모습입니다.</li>
   </KilledLongRange.rulePack.rulesStrings>
   
   <!-- EN: killed major threat -->
-  <KilledMajorThreat.label>주요위협 제거</KilledMajorThreat.label>
+  <KilledMajorThreat.label>주요 위협 제거</KilledMajorThreat.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -478,14 +478,14 @@
     <li>wound_name_present->압도하는 모습</li>
     <li>with_weapon_optional->[WEAPON_label](을)를 사용해 [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->차가운 손길로</li>
-    <li>circumstance_phrase->빠르고 정확한 움직임으로</li>
-    <li>circumstance_phrase->무표정하게</li>
+    <li>circumstance_phrase->차갑게</li>
+    <li>circumstance_phrase->빠르고 정확하게</li>
+    <li>circumstance_phrase->무감정하게</li>
     <li>circumstance_phrase->대단한 영웅심으로</li>
     <li>circumstance_phrase->놀라운 힘으로</li>
     <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 지켜보고 있습니다.</li>
-    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position](을)를 조용히 바라보고 있습니다.</li>
-    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 것처럼 보입니다.</li>
+    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position]에서 조용히 바라보고 있습니다.</li>
+    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 모습입니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 눈을 감고 있습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 [Gore]에 뒤덮였습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](와)과 [KILLER_nameDef] 모두 [Gore]에 뒤덮였습니다.</li>
@@ -493,11 +493,11 @@
     <li>desc_sentence->[VICTIM_nameDef]의 거대한 시체가 [TerrainFeature](을)를 덮고 있습니다.</li>
     <li>desc_sentence->[Color](으)로 번뜩이는 [VICTIM_nameDef]의 눈이 보입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 [Gore]에 뒤덮였습니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 자신의 손톱을 물어뜯고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 입을 꽉 다물고 있습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 만족한 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 미소 짓고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 승리를 만끽하는 듯한 모습입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 [AdjectiveBadass] 것처럼 보입니다.</li>
-    <li>desc_sentence->아우라에 감싸인 [KILLER_nameDef]의 모습이 보입니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 영웅적인 기운을 발산하는 모습입니다.</li>
   </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
@@ -559,23 +559,23 @@
     <li>wound_name_present->살해하는 모습</li>
     <li>with_weapon_optional->[WEAPON_label](을)를 사용해 [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->무심한 손길로</li>
-    <li>circumstance_phrase->차가운 손길로</li>
-    <li>circumstance_phrase->빠르고 정확한 움직임으로</li>
-    <li>circumstance_phrase->무표정하게</li>
-    <li>circumstance_phrase->겁먹은 채 머뭇거리며</li>
+    <li>circumstance_phrase->냉혹하게</li>
+    <li>circumstance_phrase->차갑게</li>
+    <li>circumstance_phrase->빠르고 정확하게</li>
+    <li>circumstance_phrase->무감정하게</li>
+    <li>circumstance_phrase->서투르게</li>
     <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 지켜보고 있습니다.</li>
-    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position](을)를 조용히 바라보고 있습니다.</li>
-    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 것처럼 보입니다.</li>
+    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position]에서 조용히 바라보고 있습니다.</li>
+    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 모습입니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 눈을 감고 있습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 [Gore]에 뒤덮였습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](와)과 [KILLER_nameDef] 모두 [Gore]에 뒤덮였습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 [Gore]에 뒤덮였습니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 자신의 손톱을 물어뜯고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 입을 꽉 다물고 있습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 만족한 듯 보입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 자신이 한 일로 충격받은 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황에 만족한 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 미소 짓고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황이 맘에 드는 듯한 모습입니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 승리를 만끽하는 듯한 모습입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 흉폭한 표정을 짓고 있습니다.</li>
   </KilledMelee.rulePack.rulesStrings>
   
@@ -615,15 +615,15 @@
     <li>circumstance_phrase->[VICTIM_nameFull](이)가 아무것도 알아차리지 못하는 동안</li>
     <li>circumstance_phrase->전력으로 질주하는 [VICTIM_nameFull](을)를 향해</li>
     <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 지켜보고 있습니다.</li>
-    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position](을)를 조용히 바라보고 있습니다.</li>
-    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 것처럼 보입니다.</li>
+    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position]에서 조용히 바라보고 있습니다.</li>
+    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 모습입니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 [Gore]에 뒤덮였습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 폭발로 둘러싸였습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 포탄 구멍에 둘러싸여 있습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 만족한 듯 보입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 자신이 한 일로 충격받은 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황에 만족한 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 미소 짓고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황이 맘에 드는 듯한 모습입니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 승리를 만끽하는 듯한 모습입니다.</li>
   </KilledMortar.rulePack.rulesStrings>
   
   <!-- EN: toxicity revealed -->
@@ -737,27 +737,27 @@
     <li>wound_name_present->다치게 하는 모습</li>
     <li>wound_name_present->공격하는 모습</li>
     <li>wound_name_present->공격하는 모습</li>
-    <li>with_weapon_optional->[WEAPON_label](을)를 사용해 [circumstance_group]</li>
+    <li>with_weapon_optional->[WEAPON_label](으)로 [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->무심한 손길로</li>
-    <li>circumstance_phrase->차가운 손길로</li>
-    <li>circumstance_phrase->분노에 찬 손길로</li>
-    <li>circumstance_phrase->빠르고 정확한 움직임으로</li>
-    <li>circumstance_phrase->무표정하게</li>
+    <li>circumstance_phrase->냉혹하게</li>
+    <li>circumstance_phrase->차갑게</li>
+    <li>circumstance_phrase->잔혹하게</li>
+    <li>circumstance_phrase->빠르고 정확하게</li>
+    <li>circumstance_phrase->무감정하게</li>
     <li>circumstance_phrase->불가피하게</li>
-    <li>circumstance_phrase->겁먹은 채 머뭇거리며</li>
+    <li>circumstance_phrase->서투르게</li>
     <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 지켜보고 있습니다.</li>
-    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position](을)를 조용히 바라보고 있습니다.</li>
+    <li>desc_sentence->한 명의 [PersonJob](이)가 [side_position]에서 조용히 바라보고 있습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef]의 몸에서 나온 피가 주변을 적십니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 [Gore]에 뒤덮였습니다.</li>
-    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 것처럼 보입니다.</li>
+    <li>desc_sentence->[VICTIM_nameDef](은)는 [AdjectiveAngsty] 모습입니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 고통으로 몸부림치고 있습니다.</li>
     <li>desc_sentence->[VICTIM_nameDef](은)는 격통으로 몸부림치고 있습니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 자신의 손톱을 물어뜯고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 입을 꽉 다물고 있습니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 만족한 듯 보입니다.</li>
     <li>desc_sentence->[KILLER_nameDef](은)는 자신이 한 일로 충격받은 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황에 만족한 듯 보입니다.</li>
-    <li>desc_sentence->[KILLER_nameDef](은)는 미소 짓고 있습니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 이 상황이 맘에 드는 듯한 모습입니다.</li>
+    <li>desc_sentence->[KILLER_nameDef](은)는 승리를 만끽하는 듯한 모습입니다.</li>
   </Wounded.rulePack.rulesStrings>
   
 </LanguageData>

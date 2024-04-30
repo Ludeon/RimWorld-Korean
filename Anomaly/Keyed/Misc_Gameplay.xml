@@ -340,15 +340,15 @@
   <!-- EN: Implanter insectoid -->
   <InsectImplant>이식자 곤충</InsectImplant>
   <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
-  <SleepImplant>수면 중 {SOURCE_nameDef}에 의해 이식됨</SleepImplant>
+  <SleepImplant>수면 중 {SOURCE_nameDef}에 의해 감염됨</SleepImplant>
   <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
-  <SurgeryImplant>수술 중 {SOURCE_nameDef}에 의해 이식됨</SurgeryImplant>
+  <SurgeryImplant>수술 중 {SOURCE_nameDef}에 의해 감염됨</SurgeryImplant>
   <!-- EN: Implanted through a meal cooked by {SOURCE_nameDef} -->
-  <FoodImplant>{SOURCE_nameDef}(이)가 조리한 식사를 통해 이식됨</FoodImplant>
+  <FoodImplant>{SOURCE_nameDef}(이)가 조리한 식사를 통해 감염됨</FoodImplant>
   <!-- EN: Implanted during unnatural healing by {SOURCE_nameDef} -->
-  <UnnaturalHealingImplant>{SOURCE_nameDef}의 부자연스러운 치료에 의해 이식됨</UnnaturalHealingImplant>
+  <UnnaturalHealingImplant>{SOURCE_nameDef}의 부자연적 치료에 의해 감염됨</UnnaturalHealingImplant>
   <!-- EN: Implanted when fed a meal by {SOURCE_nameDef} -->
-  <FeedingImplant>{SOURCE_nameDef}(이)가 식사를 먹였을 때 이식됨</FeedingImplant>
+  <FeedingImplant>{SOURCE_nameDef}(이)가 식사를 먹였을 때 감염됨</FeedingImplant>
 
   <!-- EN: Metalhorror emerging -->
   <MetalhorrorEmergingLabel>메탈호러 출현 중</MetalhorrorEmergingLabel>
@@ -417,7 +417,7 @@
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
   <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef}(이)가 {PATIENT_nameDef}에게 광범위한 외과 검사를 시행했습니다.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
-  <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun}에 따르면 아무 이상도 없었습니다. 하지만 {DOCTOR_nameDef}(이)가 사익을 추구하여 거짓말을 할 가능성도 있습니다.</LetterSurgicallyInspectedNothing>
+  <LetterSurgicallyInspectedNothing>검사 결과로는 아무 이상도 없었습니다. 하지만 {DOCTOR_nameDef}(이)가 어떠한 이유로 거짓말을 하고 있을 가능성도 있습니다.</LetterSurgicallyInspectedNothing>
   
   <!-- Death refusal -->
   <!-- EN: use -->
@@ -866,10 +866,10 @@
   <!-- EN: The chimeras are {0} -->
   <MessageChimeraModeChangePlural>키메라들은 {0}</MessageChimeraModeChangePlural>
   <!-- EN: temporarily withdrawing. -->
-  <MessageChimeraWithdrawing>철수 중입니다.</MessageChimeraWithdrawing>
+  <MessageChimeraWithdrawing>공격을 포기했습니다.</MessageChimeraWithdrawing>
 
   <!-- EN: Chimeras attacking -->
-  <LetterChimerasAttackingLabel>키메라들이 공격 중</LetterChimerasAttackingLabel>
+  <LetterChimerasAttackingLabel>키메라의 공격</LetterChimerasAttackingLabel>
   <!-- EN: The chimeras have begun their attack! -->
   <LetterChimerasAttacking>키메라들이 공격을 시작했습니다!</LetterChimerasAttacking>
 
