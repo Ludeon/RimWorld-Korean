@@ -263,7 +263,7 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>야외</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>비</DeterioratingRaining>
+  <DeterioratingRaining>비</DeterioratingRaining> 
   <!-- EN: protected -->
   <Protected>보호됨</Protected>
   <!-- EN: Deteriorating -->
@@ -571,21 +571,21 @@
   <!-- EN: person -->
   <Person>사람</Person>
   <!-- EN: activated. -->
-  <Activated>활성화되었습니다.</Activated>
+  <Activated>활성화되었습니다.</Activated> 
   <!-- EN: Contains -->
   <Contains>포함</Contains>
   <!-- EN: Hostiles -->
   <Hostiles>적대적</Hostiles>
   <!-- EN: Investigate -->
-  <Investigate>조사</Investigate>
+  <Investigate>조사</Investigate> 
   <!-- EN: Activate -->
-  <Activate>활성화</Activate>
+  <Activate>활성화</Activate> 
   <!-- EN: Activation -->
-  <Activation>활성화</Activation>
+  <Activation>활성화</Activation> 
   <!-- EN: complete -->
   <Complete>완료</Complete>
   <!-- EN: Must be imprisoned. -->
-  <RequiresImprisonment>수감 중이어야 합니다.</RequiresImprisonment>
+  <RequiresImprisonment>수감 중이어야 합니다.</RequiresImprisonment> 
   <!-- EN: Prioritize hauling contents -->
   <HaulFromSource>운반물품 우선순위</HaulFromSource>
   <!-- EN: Use -->
@@ -606,7 +606,7 @@
   <ReportStringCrawlingToSafety>안전한 곳으로 기어가는 중</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>침대로 기어가는 중</ReportStringCrawlingToBed>
-
+  
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>사용자 탐색 속도</UserScanAbility>
@@ -614,7 +614,7 @@
   <ScanAverageInterval>무작위 발견 간격</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>확실한 발견으로 진행</ScanningProgressToGuaranteedFind>
-
+  
   <!-- Meditation -->
   <!-- EN: meditating at -->
   <MeditatingAt>명상</MeditatingAt>
@@ -736,7 +736,7 @@
   <PenExampleAnimals>예시 동물</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>외부 접근 불가 - 동물들이 출입할 수 없습니다.</NoExteriorAccess>
-
+  
   <!-- EN: Must be connected to walls on both sides to function. -->
   <DoorMustBeEnclosedByWalls>작동하려면 양쪽에 벽이 인접해야 합니다.</DoorMustBeEnclosedByWalls>
 
@@ -766,14 +766,14 @@
   <!-- EN: Road -->
   <Road_Label>도로</Road_Label>
   <!-- EN: River -->
-  <River_Label>강</River_Label>
+  <River_Label>강</River_Label> 
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>이동 난이도</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>오염</Pollution_Label>
   <!-- EN: Filth -->
   <Filth_Label>오물</Filth_Label>
-
+  
   <!-- EN: Faction -->
   <Faction_Label>세력</Faction_Label>
   <!-- EN: Relationship -->
@@ -784,7 +784,7 @@
   <CaravanStatus_Label>상태</CaravanStatus_Label>
   <!-- EN: Time to destination -->
   <CaravanTTD_Label>목적지까지 남은 시간</CaravanTTD_Label>
-
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -890,13 +890,13 @@
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>시체 파내는 중</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>{0_labelShort}에 의해 옮겨지는 중</CarriedBy>
+  <CarriedBy>{0_labelShort}에 의해 옮겨지는 중</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>{0_labelShort} 내부</InContainer>
+  <InContainer>{0_labelShort} 내부</InContainer> 
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>쓰러져서 기어갈 수 없음</DownedCannotCrawl>
+  <DownedCannotCrawl>쓰러져서 기어갈 수 없음</DownedCannotCrawl> 
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>쓰러져서 의식을 잃음</DownedUnconscious>
+  <DownedUnconscious>쓰러져서 의식을 잃음</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1078,11 +1078,11 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>백골화</RotStateDessicated>
   <!-- EN: Frozen -->
-  <CurrentlyFrozen>냉동됨</CurrentlyFrozen>
+  <CurrentlyFrozen>냉동됨</CurrentlyFrozen> 
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>냉장됨, {0} 후 상함</CurrentlyRefrigerated>
+  <CurrentlyRefrigerated>냉장됨, {0} 후 상함</CurrentlyRefrigerated> 
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>냉장되지 않음, {0} 후 상함</NotRefrigerated>
+  <NotRefrigerated>냉장되지 않음, {0} 후 상함</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>매우 긴 시간</OverADecade>
   <!-- EN: less than a day -->
@@ -1173,7 +1173,7 @@
   <ClearAll>모두 제거</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>모두 허용</AllowAll>
-
+  
   <!-- Storage Groups -->
   <!-- EN: Group -->
   <StorageGroup>목록</StorageGroup>
@@ -1193,7 +1193,7 @@
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>발견되지 않음</Undiscovered>
-
+  
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
   <AnimalSterilizeConfirm>정말 {PAWN_nameDef}에게 불임 시술을 하시겠습니까? {FACTION_name}(이)가 분노할 것입니다.</AnimalSterilizeConfirm>
@@ -1243,7 +1243,7 @@
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
   <HotKeyTip>단축키</HotKeyTip>
-
+  
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
   <FireOn>{1_label}에 화재</FireOn>
@@ -1338,7 +1338,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>아직 준비되지 않음</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>돌아갈 정착지가 없습니다. 먼저 정착지를 건설하세요.</ShipNoSettlementToReturnTo>
+  <ShipNoSettlementToReturnTo>돌아갈 정착지가 없습니다. 먼저 정착지를 건설하세요.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)샬론 화이트스톤(/Name)이 보낸 좌표에 도착하여 숨겨진 함선을 찾았습니다.\n\n우주선의 원자로는 오랫동안 가동되지 않아 바로 비행할 수 없습니다. 인공지능 핵과 상호작용하여 시동을 걸 수 있습니다.\n\n샬론 화이트스톤은 시동까지 약 15일이 걸리며, 우주선의 에너지 파동이 먼 거리까지 퍼져 나가 침입자와 보물사냥꾼들을 끌어들일 거라고 경고합니다. 방어체계가 구축되었는지 확인하세요.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1519,7 +1519,7 @@
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
   <ChargesRemaining>잔탄</ChargesRemaining>
-
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>도우미</LearningHelper>
@@ -1591,7 +1591,7 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}: 사용 가능한 명령</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>사용 가능한 명령</ClickToSeeAvailableOrders_Empty>
-
+  
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
   <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
@@ -1611,7 +1611,7 @@
   <PawnTooltipPsychicEntropyLimit>신경열 한계 전환\n\n신경열 한계를 초과하면 장기적인 정신적 장애와 과잉에 대한 뇌손상을 포함하여 심각한 건강상의 문제가 발생될 수 있습니다. 신경열 한계보다 지나치게 높아질수록, 그 위험은 더 커집니다.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>초집중: {0}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
@@ -1640,9 +1640,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>주둔지 전리품</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>이 임무를 수락하면 어떤 일이 일어날지 모릅니다</Reward_Unknown>
+  <Reward_Unknown>이 임무를 수락하면 어떤 일이 일어날지 모릅니다</Reward_Unknown> 
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>알 수 없음</Reward_Unknown_Label>
+  <Reward_Unknown_Label>알 수 없음</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>방문객들이 정착지에서 함께 일하고 싸워줍니다</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1665,7 +1665,7 @@
   <Reward_Title>{PAWNNAME}(이)가 {FACTION}의 작위 {TITLE}(을)를 획득합니다</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>가치 {0}</TotalValue>
-
+  
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
   <BondedWith>유대관계 형성: {0}</BondedWith>
@@ -1705,14 +1705,14 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>{0}에 의해 발생</CausedByHediff>
-
+  
   <!-- EN: {DAMAGE_label} weakness -->
   <DamageFactorWeakness>{DAMAGE_label}의 약점</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
   <DamageFactorResistance>{DAMAGE_label}의 내성</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
   <DamageFactor>이 생물체가 받는 {DAMAGE_label} 피해량에 해당 계수가 곱해집니다.</DamageFactor>
-
+  
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
   <HealingHealHediff>{0_nameDef}의 {1}(이)가 회복되었습니다.</HealingHealHediff>
@@ -1874,7 +1874,7 @@
   <!-- EN: rot stink -->
   <RotStink>부패 가스</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>모조생명 먼지</DeadlifeDust>
+  <DeadlifeDust>모조생명 먼지</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1939,7 +1939,7 @@
   <AbilitySpeechCooldown>다음 연설 준비</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
   <AbilitySpeechTargetsLabel>시작</AbilitySpeechTargetsLabel>
-
+  
   <!-- Books -->
 
   <!-- EN: Benefits -->
@@ -1950,17 +1950,17 @@
   <AlreadyUnlocked>이미 해제됨</AlreadyUnlocked>
   <!-- EN: when discovered -->
   <WhenDiscovered>발견 시</WhenDiscovered>
-
+  
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>{0}(을)를 읽은 후 정신이상을 일으켰습니다.</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
   <BookReadProgress>{0} 완료 ({1}시간 안에 완료)</BookReadProgress>
-
+  
   <!-- EN: learning speed -->
   <BookLearningModifier>학습 속도</BookLearningModifier>
   <!-- EN: Mental break chance -->
   <BookMentalBreak>정신이상 가능성</BookMentalBreak>
-
+  
   <!-- EN: {BOOK_labelShort} is not readable -->
   <BookNotReadable>{BOOK_labelShort}(을)를 읽을 수 없음</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
@@ -1969,13 +1969,13 @@
   <BookCantBeStage>{PAWN_nameDef}(은)는 {STAGES}이어야 함</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
   <BookBlind>{PAWN_nameDef}(은)는 앞이 보이지 않음</BookBlind>
-
+  
   <!-- EN: max level {0} -->
   <BookMaxLevel>최대 기술 {0}</BookMaxLevel>
-
+  
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>{0} 읽기: {1} 완료 ({2}시간 안에 완료)</ReadingReportHeader>
-
+  
   <!-- EN: Assign reading -->
   <ReadingDialogTitle>독서 할당</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
@@ -1985,7 +1985,7 @@
 
   <!-- EN: The books currently on this bookshelf. -->
   <ContainedBooksDesc>현재 이 책장에 있는 책들입니다.</ContainedBooksDesc>
-
+  
   <!-- EN: Books stored -->
   <BookshelfStoredInspect>보관 중인 도서</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
@@ -1993,13 +1993,13 @@
 
   <!-- EN: Remove this book from the bookshelf. -->
   <EjectBookTooltip>책장에서 이 책을 꺼냅니다.</EjectBookTooltip>
-
+  
   <!-- Pushing -->
   <!-- EN: Push to... -->
   <CommandPushTo>밀기...</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>{0} 필요</RequiredCapacity>
-
+  
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>{0}에 들어갈 수 없음, 대상이 차단됨</UnableToEnterPortal>
 
@@ -2008,7 +2008,7 @@
 
   <!-- EN: Emergence -->
   <Emergence>출현</Emergence>
-
+  
   <!-- EN: remove {0} -->
   <RemovePart>{0} 제거</RemovePart>
 
@@ -2016,14 +2016,14 @@
   <DoWorkAtThing>에서 {TARGETLABEL} {GERUND}</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
   <CanBeStudiedInDuration>{0} 뒤에 조사할 수 있음</CanBeStudiedInDuration>
-
+  
   <!-- EN: About to explode -->
   <AboutToExplode>곧 폭발함</AboutToExplode>
-
+  
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>새로운 아노말리 확장팩을 지금 만나보세요!</MainScreen_AnomalyAvailableNow>
 
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>시나리오에 의해 비활성</DisabledByScenario>
-
+  <DisabledByScenario>TODO</DisabledByScenario>
+  
 </LanguageData>
