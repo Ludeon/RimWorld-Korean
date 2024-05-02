@@ -195,11 +195,11 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [target]의 [characteristic](을)를 [madefunof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [target] [characteristic](을)를 [madefunof].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
-    <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[RECIPIENT_nameDef]의 [PersonFamily]</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]의</li>
+    <li>target->[RECIPIENT_nameDef] [PersonFamily]의</li>
     <li>madefunof->놀림</li>
     <li>madefunof->무례하게 굼</li>
     <li>madefunof->무시함</li>

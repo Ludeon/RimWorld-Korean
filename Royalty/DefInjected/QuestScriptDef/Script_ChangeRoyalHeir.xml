@@ -5,7 +5,7 @@
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-    <li>questDescription->\n[titleHeir_nameFull](을)를 [titleHolder_nameFull] 작위의 정당한 상속자로 만들기 위해 기념비를 건설해야 합니다.\n\n기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다. ([monumentRequiredResourcesMarketValue_money])\n\n[monumentRequiredResources]\n\n20일 이내로 완료하지 못하면 제국의 권위를 모독하는 것으로 간주되어 [asker_factionName](와)과의 관계가 25 떨어집니다.\n\n기념비가 건설된 후 [keepMonumentTicks_duration] 내로 파괴된다면, [asker_factionName](와)과의 관계도가 [goodwillChangeIfMonumentDestroyed] 만큼 떨어집니다.</li>
+    <li>questDescription->\n[titleHeir_nameFull](을)를 [titleHolder_nameFull] 작위의 정당한 상속자로 만들기 위해 기념비를 건설해야 합니다.\n\n기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다. ([monumentRequiredResourcesMarketValue_money])\n\n[monumentRequiredResources]\n\n20일 이내로 완료하지 못하면 제국의 권위를 모독하는 것으로 간주되어 [asker_factionName]의 우호도가 25 떨어지고 상속자도 바뀌지 않습니다.\n\n기념비가 건설된 후 [keepMonumentTicks_duration] 내로 파괴된다면, [asker_factionName]의 우호도가 [goodwillChangeIfMonumentDestroyed] 만큼 떨어집니다.</li>
   </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>

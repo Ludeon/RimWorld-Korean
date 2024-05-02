@@ -1143,7 +1143,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
-  <ConfirmSettleNearFactionBase>이 위치는 다른 세력 거주지의 {0}칸 이내에 있기 때문에, 해당 세력은 자신의 땅을 침범한다고 느끼며 {1}일마다 관계도가 감소합니다.</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>이 위치는 다른 세력 거주지의 {0}칸 이내에 있기 때문에, 해당 세력은 자신의 땅을 침범한다고 느끼며 {1}일마다 우호도가 감소합니다.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: advanced psychic rituals -->
   <AdvancedPsychicRituals.label>고급 초정신 의식</AdvancedPsychicRituals.label>
   <!-- EN: Perform advanced psychic rituals. -->
@@ -21,7 +21,7 @@
     <li>subject_story->Ix 대학의 초능력 역사 교수로 임명되었습니다</li>
     <li>subject_gerund->고급 초정신 의식 수행</li>
   </AdvancedPsychicRituals.generalRules.rulesStrings>
-  
+
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>대기 난로</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
@@ -44,7 +44,7 @@
     <li>subject_gerund->생체강 난방</li>
     <li>subject_gerund->생체강 난방기 건설</li>
   </AtmosphericHeater.generalRules.rulesStrings>
-  
+
   <!-- EN: void provocation -->
   <BasicPsychicRituals.label>공허 유인</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
@@ -71,7 +71,28 @@
     <li>subject_gerund->의식 장소 확보</li>
     <li>subject_gerund->공허 실체 자극</li>
   </BasicPsychicRituals.generalRules.rulesStrings>
-  
+
+  <!-- EN: bioferrite extraction -->
+  <BioferriteExtraction.label>생체강 추출</BioferriteExtraction.label>
+  <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
+  <BioferriteExtraction.description>구속한 실체들에게서 생체강을 직접 추출할 수 있습니다. 간이 제작 장소와 생체강 성형 작업대에서 무기와 의류를 제작할 수 있습니다.</BioferriteExtraction.description>
+  <!-- EN:
+    <li>subject->bioferrite extraction</li>
+    <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
+    <li>subject_story->stripped and boiled the flesh of a harbinger tree</li>
+    <li>subject_story->investigated reports of an archotech phenomenon</li>
+    <li>subject_story->discovered a novel organic metal</li>
+    <li>subject_gerund->extracting bioferrite</li>
+  -->
+  <BioferriteExtraction.generalRules.rulesStrings>
+    <li>subject->생체강 추출</li>
+    <li>subject_story->급속도로 변이하는 살점 샘플에서 유기복합물을 추출했습니다</li>
+    <li>subject_story->전조나무의 살점을 벗겨 끓였습니다</li>
+    <li>subject_story->초월공학 현상에 대한 보고를 조사했습니다</li>
+    <li>subject_story->새로운 유기금속을 발견했습니다</li>
+    <li>subject_gerund->생체강 추출</li>
+  </BioferriteExtraction.generalRules.rulesStrings>
+
   <!-- EN: bioferrite generator -->
   <BioferriteGenerator.label>생체강 발전기</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
@@ -96,10 +117,10 @@
     <li>subject_gerund->생체강 발전기 건설</li>
     <li>subject_gerund->생체강의 연료 활용</li>
   </BioferriteGenerator.generalRules.rulesStrings>
-  
-  <!-- EN: bioferrite harvesting -->
+
+  <!-- EN: bioferrite harvester -->
   <BioferriteHarvesting.label>생체강 수확</BioferriteHarvesting.label>
-  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
+  <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
   <BioferriteHarvesting.description>생체강 수확기를 건설하여 구속대에 억제된 실체로부터 생체강을 생산하세요.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
@@ -117,7 +138,7 @@
     <li>subject_story->이상한 금속에 감염된 야생동물을 관찰했습니다</li>
     <li>subject_gerund->생체강 수확</li>
   </BioferriteHarvesting.generalRules.rulesStrings>
-  
+
   <!-- EN: bioferrite weaponry -->
   <BioferriteIgnition.label>생체강 무기</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
@@ -140,7 +161,7 @@
     <li>subject_story->초월공학 사막에서 생체지뢰를 제거했습니다</li>
     <li>subject_gerund->생체강 기반 무기 제작</li>
   </BioferriteIgnition.generalRules.rulesStrings>
-  
+
   <!-- EN: bioferrite shaping -->
   <BioferriteShaping.label>생체강 성형</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
@@ -163,7 +184,7 @@
     <li>subject_story->초월공학 유물들의 생성과정을 조사했습니다</li>
     <li>subject_gerund->생체강 성형</li>
   </BioferriteShaping.generalRules.rulesStrings>
-  
+
   <!-- EN: bliss lobotomy -->
   <BlissLobotomy.label>환희의 전두엽 절제술</BlissLobotomy.label>
   <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
@@ -184,7 +205,7 @@
     <li>subject_gerund->전두엽 절제</li>
     <li>subject_gerund->뇌 조직 절제</li>
   </BlissLobotomy.generalRules.rulesStrings>
-  
+
   <!-- EN: blood rain -->
   <BloodRain.label>피의 비</BloodRain.label>
   <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
@@ -205,7 +226,7 @@
     <li>subject_story->쏟아지는 사이코플루이드에 노출되어 통제 불가능한 분노로 가득차게 되었습니다</li>
     <li>subject_gerund->피의 비 유도</li>
   </BloodRain.generalRules.rulesStrings>
-  
+
   <!-- EN: brainwipe -->
   <Brainwipe.label>뇌세척</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
@@ -228,7 +249,7 @@
     <li>subject_gerund->대상의 기억 지우기</li>
     <li>subject_gerund->대상의 기억을 지우는 의식을 치루는 것</li>
   </Brainwipe.generalRules.rulesStrings>
-  
+
   <!-- EN: chronophagy -->
   <Chronophagy.label>시간포식</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
@@ -253,7 +274,7 @@
     <li>subject_gerund->시간포식을 일으켰습니다</li>
     <li>subject_gerund->시간포식 의식을 수행했습니다</li>
   </Chronophagy.generalRules.rulesStrings>
-  
+
   <!-- EN: deadlife dust -->
   <DeadlifeDust.label>모조생명 먼지</DeadlifeDust.label>
   <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
@@ -276,7 +297,7 @@
     <li>subject_gerund->망자 가루 제작</li>
     <li>subject_gerund->휘청이는 자를 만들기 위해 초월입자를 배포했습니다</li>
   </DeadlifeDust.generalRules.rulesStrings>
-  
+
   <!-- EN: death refusal -->
   <DeathRefusal.label>죽음 거부권</DeathRefusal.label>
   <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
@@ -299,7 +320,7 @@
     <li>subject_gerund->죽음을 막았습니다</li>
     <li>subject_gerund->죽음을 책망하는 의식을 진행했습니다</li>
   </DeathRefusal.generalRules.rulesStrings>
-  
+
   <!-- EN: disruptor flares -->
   <DisruptorFlares.label>교란용 조명탄</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
@@ -324,7 +345,7 @@
     <li>subject_gerund->일시적 가시성 상승</li>
     <li>subject_gerund->생체강 조명탄 제작</li>
   </DisruptorFlares.generalRules.rulesStrings>
-  
+
   <!-- EN: electroharvester -->
   <Electroharvester.label>전기 수확기</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
@@ -347,7 +368,7 @@
     <li>subject_gerund->실체로부터 수확</li>
     <li>subject_gerund->전기 수확기 건설</li>
   </Electroharvester.generalRules.rulesStrings>
-  
+
   <!-- EN: entity containment -->
   <EntityContainment.label>실체 억제</EntityContainment.label>
   <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
@@ -370,7 +391,7 @@
     <li>subject_gerund->실체 격리</li>
     <li>subject_gerund->실체 격리시설 건물</li>
   </EntityContainment.generalRules.rulesStrings>
-  
+
   <!-- EN: frenzy inducer -->
   <FrenzyInducer.label>광란 유도기</FrenzyInducer.label>
   <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
@@ -393,7 +414,7 @@
     <li>subject_gerund->광란 유도</li>
     <li>subject_gerund->초월공학으로 광란유도기 건설</li>
   </FrenzyInducer.generalRules.rulesStrings>
-  
+
   <!-- EN: ghoul enhancements -->
   <GhoulEnhancements.label>구울 강화</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
@@ -412,7 +433,7 @@
     <li>subject_story->좀 더 복잡한 구울 보철물을 연구했습니다</li>
     <li>subject_gerund->생체강 보철물로 구울 강화하기</li>
   </GhoulEnhancements.generalRules.rulesStrings>
-  
+
   <!-- EN: ghoul infusion -->
   <GhoulInfusion.label>구울화</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
@@ -433,7 +454,7 @@
     <li>subject_gerund->살아있는 사람에게 초월공학 파편 주입</li>
     <li>subject_gerund->구울 창조</li>
   </GhoulInfusion.generalRules.rulesStrings>
-  
+
   <!-- EN: ghoul resurrection -->
   <GhoulResurrection.label>구울 부활</GhoulResurrection.label>
   <!-- EN: Synthesize a serum that can bring dead ghouls back to life. -->
@@ -456,7 +477,7 @@
     <li>subject_gerund->구울을 부활시키다</li>
     <li>subject_gerund->구울을 부활시키기 위한 혈청 합성</li>
   </GhoulResurrection.generalRules.rulesStrings>
-  
+
   <!-- EN: insanity weaponry -->
   <InsanityWeaponry.label>정신 이상 무기</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
@@ -477,7 +498,7 @@
     <li>subject_story->포유류의 뇌에 미치는 영향을 이해하기 위해 초월입자에 감염된 야생동물을 관찰했습니다</li>
     <li>subject_gerund->초월공학으로 정신이상 유발 무기로 개조</li>
   </InsanityWeaponry.generalRules.rulesStrings>
-  
+
   <!-- EN: juggernaut serum -->
   <JuggernautSerum.label>비대한 힘 혈청</JuggernautSerum.label>
   <!-- EN: Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood. -->
@@ -498,7 +519,7 @@
     <li>subject_story->비대한 힘 혈청을 보관한 통에 빠졌습니다</li>
     <li>subject_gerund->비대한 힘 혈청 합성</li>
   </JuggernautSerum.generalRules.rulesStrings>
-  
+
   <!-- EN: metalblood serum -->
   <MetalbloodSerum.label>금속 혈액 혈청</MetalbloodSerum.label>
   <!-- EN: Synthesize metalblood serums that make the user more resistant to damage. -->
@@ -519,7 +540,7 @@
     <li>subject_story->금속혈액을 사용하는 민병대를 상대하기 위해 화염방사기를 배치했습니다</li>
     <li>subject_gerund->금속혈액 혈청 합성</li>
   </MetalbloodSerum.generalRules.rulesStrings>
-  
+
   <!-- EN: mind-numb serum -->
   <MindNumbSerum.label>감정마비 혈청</MindNumbSerum.label>
   <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
@@ -540,7 +561,7 @@
     <li>subject_story->고통을 없애기 위한 초월공학 사용을 조사했습니다</li>
     <li>subject_gerund->감정마비 혈청 합성</li>
   </MindNumbSerum.generalRules.rulesStrings>
-  
+
   <!-- EN: mutation weaponry -->
   <MutationWeaponry.label>돌연변이 무기</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
@@ -567,7 +588,7 @@
     <li>subject_gerund->돌연변이 유발</li>
     <li>subject_gerund->초월공학을 이용해 돌연변이 유발 무기로 재편성 했습니다</li>
   </MutationWeaponry.generalRules.rulesStrings>
-  
+
   <!-- EN: neurosis pulse -->
   <NeurosisPulse.label>신경증의 파동</NeurosisPulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
@@ -592,7 +613,7 @@
     <li>subject_gerund->정신적 신경증 유발</li>
     <li>subject_gerund->근로자의 생산성을 높이기 위한 의식 수행</li>
   </NeurosisPulse.generalRules.rulesStrings>
-  
+
   <!-- EN: philophagy -->
   <Philophagy.label>기억포식</Philophagy.label>
   <!-- EN: Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage. -->
@@ -617,7 +638,7 @@
     <li>subject_gerund->지식 전수</li>
     <li>subject_gerund->피해자의 기술을 훔치는 의식 거행</li>
   </Philophagy.generalRules.rulesStrings>
-  
+
   <!-- EN: pleasure pulse -->
   <PleasurePulse.label>쾌락의 파동</PleasurePulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work. -->
@@ -640,7 +661,7 @@
     <li>subject_gerund->정신적 즐거움 유도</li>
     <li>subject_gerund->즐거움 유도를 위해 정신적 의식 수행</li>
   </PleasurePulse.generalRules.rulesStrings>
-  
+
   <!-- EN: proximity detector -->
   <ProximityDetector.label>접근 탐지기</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
@@ -665,7 +686,7 @@
     <li>subject_gerund->보이지 않는것을 밝히는 것</li>
     <li>subject_gerund->투명한 생명체를 감지하기</li>
   </ProximityDetector.generalRules.rulesStrings>
-  
+
   <!-- EN: psychophagy -->
   <Psychophagy.label>정신포식</Psychophagy.label>
   <!-- EN: Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect. -->
@@ -688,7 +709,7 @@
     <li>subject_gerund->정신 능력 훔치기</li>
     <li>subject_gerund->정신포식 의식을 거행</li>
   </Psychophagy.generalRules.rulesStrings>
-  
+
   <!-- EN: revenant invisibility -->
   <RevenantInvisibility.label>망령 투명화</RevenantInvisibility.label>
   <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
@@ -711,7 +732,7 @@
     <li>subject_gerund->망령 척추 적응</li>
     <li>subject_gerund->인간에게 망령의 척추 이식</li>
   </RevenantInvisibility.generalRules.rulesStrings>
-  
+
   <!-- EN: serum synthesis -->
   <SerumSynthesis.label>혈청 합성</SerumSynthesis.label>
   <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
@@ -732,7 +753,7 @@
     <li>subject_story->중심계 여단의 혈청 실험 프로그램을 관리했습니다</li>
     <li>subject_gerund->혈청 합성</li>
   </SerumSynthesis.generalRules.rulesStrings>
-  
+
   <!-- EN: skip abduction -->
   <SkipAbductionPlayer.label>도약 납치</SkipAbductionPlayer.label>
   <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture. -->
@@ -757,7 +778,7 @@
     <li>subject_gerund->초집중 의식으로 적을 납치</li>
     <li>subject_gerund->도약 납치 의식 수행</li>
   </SkipAbductionPlayer.generalRules.rulesStrings>
-  
+
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>수면 억제기</SleepSuppressor.label>
   <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
@@ -782,7 +803,7 @@
     <li>subject_gerund->초월공학 수면 억제장치 제작</li>
     <li>subject_gerund->초월공학으로 수면 억제</li>
   </SleepSuppressor.generalRules.rulesStrings>
-  
+
   <!-- EN: draw animals -->
   <SummonAnimals.label>동물 유인</SummonAnimals.label>
   <!-- EN: Perform a psychic ritual which will draw a herd of animals. -->
@@ -803,7 +824,7 @@
     <li>subject_story->자연 숭배가 무리가 그들의 가축들과 교감하는 모습을 지켜보았습니다</li>
     <li>subject_gerund->동물 무리 유인</li>
   </SummonAnimals.generalRules.rulesStrings>
-  
+
   <!-- EN: summon fleshbeasts -->
   <SummonFleshbeastsPlayer.label>살짐승 유인</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
@@ -828,7 +849,7 @@
     <li>subject_gerund->유인된 살짐승들</li>
     <li>subject_gerund->살짐승을 유인하는 의식 거행 중</li>
   </SummonFleshbeastsPlayer.generalRules.rulesStrings>
-  
+
   <!-- EN: provoke pit gate -->
   <SummonPitGate.label>지하 통로 유도</SummonPitGate.label>
   <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
@@ -851,7 +872,7 @@
     <li>subject_gerund->지하 통로를 만드는 의식 거행</li>
     <li>subject_gerund->지하 통로 열기</li>
   </SummonPitGate.generalRules.rulesStrings>
-  
+
   <!-- EN: draw shamblers -->
   <SummonShamblers.label>휘청이는 자 유인</SummonShamblers.label>
   <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
@@ -874,7 +895,7 @@
     <li>subject_gerund->유인된 휘청이는 자들</li>
     <li>subject_gerund->의식을 통해 휘청이는 자를 부름</li>
   </SummonShamblers.generalRules.rulesStrings>
-  
+
   <!-- EN: void sculptures -->
   <VoidSculptures.label>공허 조각상</VoidSculptures.label>
   <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
@@ -901,5 +922,5 @@
     <li>subject_gerund->생체강 조각</li>
     <li>subject_gerund->생체강으로 만들어진 의식용 조각상 제작</li>
   </VoidSculptures.generalRules.rulesStrings>
-  
+
 </LanguageData>

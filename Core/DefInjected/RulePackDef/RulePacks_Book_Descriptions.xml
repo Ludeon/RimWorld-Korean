@@ -2062,7 +2062,7 @@
     <li>detail(quality[greater_than]3)->주제에 대한 포괄적인 접근을 제공하므로 시야를 넓힐 수 있을 것입니다</li>
     <li>detail->[precis_synonym]에 적힌 저자의 말에 따르면 이 책의 불법 복제판이 시장에 많으나, 바로 이 책은 정품이라고 합니다</li>
     <li>detail(quality[less_than]4)->그러나 주제에 대한 설명을 가상의 대화로 풀어나가려던 시도는 썩 좋지 않은 선택이었던 것 같습니다</li>
-    <li>detail->[precis_synonym] 속 저자의 미사여구는 중요 주제로부터 주의를 분산시키지 않습니다</li>
+    <li>detail->[precis_synonym]에서는 저자가 미사여구를 늘어놨지만, 본론은 중요 주제에 충실합니다</li>
     <li>production->이 책의 [precis_synonym](은)는 [worldname](에)서 수기로 작성되었다고 합니다</li>
     <li>production->이 책은 [worldname] 대학에서 출간했다고 합니다</li>
     <li>production->이 책의 [precis_synonym]엔 [ANYPAWN_label]의 개인용 자료라고 적혀있음에도 불구하고 이미 많은 사람들의 손을 탔습니다</li>
@@ -2073,7 +2073,7 @@
     <li>production->[note_location](을)를 보니 [subject](을)를 숭배하는 [worldname]의 사람들이 이 책의 사본을 인쇄하여 널리 배포하는 데 막대한 돈을 쓴 것은 분명합니다</li>
     <li>production->[note_location]의 [note]에 따르면 이 책의 초기 판본은 [ANYPAWN_label](이)가 직접 수기로 작성했다고 합니다</li>
     <li>production->이 [textbook](은)는 [worldname]의 공작부인의 후원을 받은 대신 누구나 무료로 볼 수 있습니다</li>
-    <li>production->[note]에는 [coreworld] 서점의 구독으로 이 책의 초판이 제작되었다고 나와 있습니다</li>
+    <li>production->[note]에는 [coreworld] 서점들의 신청으로 이 책의 초판을 제작할 수 있었다고 적혀있습니다</li>
     <li>production->책의 뒤표지에는 변경계에서 생존하는 법을 아우르는 더 큰 시리즈에 대한 출판사 광고가 붙어있습니다</li>
     <li>production->엉성한 문법을 고려하면 출판사는 편집 과정에서 저자에게 좀 더 솔직했어야 할 것 같습니다</li>
     <li>quality_statement->[exterior_quality] [page_quality]</li>
@@ -2082,7 +2082,7 @@
     <li>anecdote->[precis_synonym](을)를 보니, 이 책은 [urbworld]의 공공도서관을 거쳐왔음이 드러납니다</li>
     <li>anecdote->[note_location]에 의하면, [ANYPAWN_nameFull](은)는 여러 주제에 통달한 것으로 유명하다고 합니다</li>
     <li>anecdote->[note_location]에 따르면, [worldname]의 사람들은 아직도 [ANYPAWN_nameFull]의 이야기를 하며 [subject]에 대한 [ANYPAWN_possessive] 사랑을 회자합니다</li>
-    <li>anecdote->[note_location]에 따르면 책이 시장에 나온지 얼마 되지 않아, 저자인 [ANYPAWN_nameFull](은)는 괴상한 양자 얽힘 사고로 인해 목숨을 잃었다고 합니다</li>
+    <li>anecdote->[note_location]에 따르면, 저자인 [ANYPAWN_nameFull](은)는 책이 시장에 나온 지 얼마 되지 않아 괴상한 양자 얽힘 사고 때문에 목숨을 잃었다고 합니다</li>
     <li>anecdote->[precis_synonym]에 따르면, [ANYPAWN_nameFull](은)는 [coreworld] 전문 학교에서 [subject](을)를 가르치는 일에 평생을 투자했습니다. 이 책은 [ANYPAWN_possessive] 강의를 모아 정리한 것입니다</li>
     <li>anecdote->[precis_synonym]에 따르면 [ANYPAWN_nameFull]의 [subject]에 대한 지식은 너무나 유명해서, 사람들이 거리에서 [ANYPAWN_objective] 멈춰 세워놓고 질문할 정도였습니다</li>
     <li>anecdote->[note_location]에 따르면 [ANYPAWN_nameFull](은)는 너무나 가난한 나머지 이 책에 대한 권리를 헐값에 매각해야 했습니다</li>
@@ -2111,7 +2111,7 @@
     <li>precis_synonym1->서론</li>
     <li>precis_synonym1->초록</li>
     <li>precis_synonym1->개요</li>
-    <li>precis_synonym1->요약</li>
+    <li>precis_synonym1->소개말</li>
     <li>precis_synonym2->들어가는 말</li>
     <li>precis_synonym2->머릿말</li>
     <li>note_location->앞쪽 표지</li>

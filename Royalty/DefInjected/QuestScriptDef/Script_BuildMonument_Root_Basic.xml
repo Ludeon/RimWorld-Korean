@@ -9,7 +9,7 @@
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
     <li>commonEnding->기념비의 크기는 [monumentSize]이며, 다음의 자원이 필요합니다.\n\n[monumentRequiredResources] (총 가치 [monumentRequiredResourcesMarketValue_money])\n\n작업을 수락한 후 [constructionTimeoutTicks_duration] 내에 건설 완료해야 합니다. 건설을 완료하면 보상을 받을 수 있습니다.[dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\n기념비가 건설된 후 [keepMonumentTicks_duration] 내로 파괴된다면, [asker_factionName](와)과 관계도가 [goodwillChangeIfMonumentDestroyed]만큼 떨어집니다.</li>
+    <li>dontDestroyMonument->\n\n기념비가 건설된 후 [keepMonumentTicks_duration] 내로 파괴된다면, [asker_factionName]의 우호도가 [goodwillChangeIfMonumentDestroyed]만큼 떨어집니다.</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>

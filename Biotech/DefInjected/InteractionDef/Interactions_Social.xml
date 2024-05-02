@@ -36,30 +36,30 @@
     <li>babyGame->fingerpuppets</li>
   -->
   <BabyPlay.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 [reaction] 만들었습니다.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [interaction].</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](와)과 함께 [babyGame](을)를 하며 놀았음.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 [reaction] 함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef][interaction].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](와)과 함께 [babyGame](을)를 하며 놂.</li>
     <li>reaction->킥킥 웃게</li>
     <li>reaction->웃음 짓게</li>
-    <li>reaction->신나서 춤추게</li>
+    <li>reaction->신나게</li>
     <li>reaction->웃게</li>
     <li>reaction->장난으로 침을 흘리게</li>
     <li>reaction->꺄르르 웃게</li>
     <li>reaction->재밌어서 소리를 지르게</li>
     <li>reaction->트림을 하게</li>
     <li>reaction->마음을 사로잡아 집중하게</li>
-    <li>interaction->즐겁게 놀음</li>
-    <li>interaction->같이 놀음</li>
-    <li>interaction->심심하지 않게 놀음</li>
-    <li>interaction->재미있게 놀음</li>
-    <li>interaction->간지럼 태우면서 놀음</li>
-    <li>interaction->볼뽀뽀 함</li>
-    <li>interaction->배방구를 함</li>
-    <li>interaction->서로 껴안음</li>
-    <li>interaction->던지기 놀이를 함</li>
-    <li>interaction->노래를 부름</li>
-    <li>interaction->이야기를 함</li>
-    <li>interaction->마술 놀이를 함</li>
+    <li>interaction->(와)과 즐겁게 놂</li>
+    <li>interaction->(와)과 같이 놂</li>
+    <li>interaction->(와)과 신나게 놂</li>
+    <li>interaction->(와)과 재밌게 놂</li>
+    <li>interaction->(을)를 간지럼 태우면서 놂</li>
+    <li>interaction->의 볼에 뽀뽀함</li>
+    <li>interaction->에게 배방구를 함</li>
+    <li>interaction->(을)를 껴안음</li>
+    <li>interaction->(을)를 비행기 태움</li>
+    <li>interaction->에게 노래를 불러줌</li>
+    <li>interaction->에게 이야기를 들려줌</li>
+    <li>interaction->에게 마술을 보여줌</li>
     <li>babyGame->숨바꼭질</li>
     <li>babyGame->까꿍놀이</li>
     <li>babyGame->손가락 찾기</li>
@@ -69,7 +69,7 @@
   </BabyPlay.logRulesInitiator.rulesStrings>
   
   <!-- EN: animal lesson -->
-  <LessonAnimals.label>동물 수업</LessonAnimals.label>
+  <LessonAnimals.label>조련 수업</LessonAnimals.label>
   <!-- EN:
     <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
     <li>article_animal->a megasloth</li>
@@ -99,12 +99,12 @@
     <li>subject->kibble</li>
   -->
   <LessonAnimals.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=4)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [article_animal](을)를 [animal_verb](은)는 방법을 [teach_verb].</li>
-    <li>article_animal->거대나무늘보</li>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [article_animal][animal_verb](을)를 [teach_verb].</li>
+    <li>article_animal->거대늘보</li>
     <li>article_animal->메가스파이더</li>
     <li>article_animal->트럼보</li>
     <li>article_animal->폭탄쥐</li>
-    <li>article_animal->친칠라</li>
+    <li>article_animal->털실쥐</li>
     <li>article_animal->기니피그</li>
     <li>article_animal->코브라</li>
     <li>article_animal->에뮤</li>
@@ -114,17 +114,17 @@
     <li>article_animal->야크</li>
     <li>article_animal->다람쥐</li>
     <li>article_animal->머팔로</li>
-    <li>animal_verb->길들이</li>
-    <li>animal_verb->밥을 먹이</li>
-    <li>animal_verb->진정시키</li>
-    <li>animal_verb->놀래키</li>
-    <li>animal_verb->공격하지 않게 만드</li>
-    <li>subject->동물 심리학</li>
-    <li>subject->길들이기 기술</li>
-    <li>subject->위험한 야생 동물</li>
-    <li>subject->파충류</li>
+    <li>animal_verb->(을)를 길들이는 법</li>
+    <li>animal_verb->에게 먹이를 주는 법</li>
+    <li>animal_verb->(을)를 진정시키는 법</li>
+    <li>animal_verb->(을)를 놀래키는 법</li>
+    <li>animal_verb->의 신뢰를 얻는 법</li>
+    <li>subject->동물 행동</li>
+    <li>subject->조련 기법</li>
+    <li>subject->위험한 야생동물</li>
+    <li>subject->파충류의 생태</li>
     <li>subject->스카리아</li>
-    <li>subject->동물 사료</li>
+    <li>subject->사료 배합</li>
   </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
@@ -151,23 +151,23 @@
   -->
   <LessonArtistic.logRulesInitiator.rulesStrings>
     <li>article_tool->붓</li>
-    <li>article_tool->목탄 연필</li>
+    <li>article_tool->목탄</li>
     <li>article_tool->끌</li>
     <li>article_tool->캔버스</li>
-    <li>article_tool->점토 덩어리</li>
-    <li>action->예술</li>
+    <li>article_tool->점토</li>
+    <li>action->활용법</li>
     <li>action->사용법</li>
-    <li>action->자기 자신 표현하기</li>
-    <li>action_gerund->공예</li>
-    <li>action_gerund->사용법</li>
-    <li>action_gerund->표현 방법</li>
+    <li>action->표현법</li>
+    <li>action_gerund->다루는 법</li>
+    <li>action_gerund->사용하는 법</li>
+    <li>action_gerund->활용하는 법</li>
     <li>subject->조각 재료</li>
     <li>subject->유명한 예술가들</li>
     <li>subject->유명한 그림들</li>
     <li>subject->번화계 전시회</li>
     <li>subject->초상화</li>
     <li>subject->추상 미술</li>
-    <li>subject->물감 섞는 법</li>
+    <li>subject->물감 혼합법</li>
   </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
@@ -194,15 +194,15 @@
   <LessonConstruction.logRulesInitiator.rulesStrings>
     <li>article_tool->망치</li>
     <li>article_tool->원형 톱</li>
-    <li>article_tool->자</li>
+    <li>article_tool->줄자</li>
     <li>article_tool->사다리</li>
     <li>article_tool->수평자</li>
     <li>action->사용법</li>
-    <li>action->작업</li>
-    <li>action->검사방법</li>
-    <li>action_gerund->사용법</li>
-    <li>action_gerund->작업법</li>
-    <li>action_gerund->검사방법</li>
+    <li>action->다루는 법</li>
+    <li>action->점검 방법</li>
+    <li>action_gerund->사용하는 법</li>
+    <li>action_gerund->다루는 법</li>
+    <li>action_gerund->점검하는 법</li>
     <li>subject->건축학</li>
     <li>subject->건설 기술</li>
     <li>subject->해체 기술</li>
@@ -236,21 +236,21 @@
     <li>situation->safely</li>
   -->
   <LessonCooking.logRulesInitiator.rulesStrings>
-    <li>article_tool->조리대</li>
+    <li>article_tool->스토브</li>
     <li>article_tool->뒤집개</li>
     <li>article_tool->오븐</li>
-    <li>article_tool->작은 냄비</li>
+    <li>article_tool->냄비</li>
     <li>article_tool->영양죽 배급기</li>
     <li>article_tool->도축 작업대</li>
-    <li>action->정리 정돈</li>
-    <li>action->요리</li>
+    <li>action->관리법</li>
+    <li>action->활용법</li>
     <li>action_gerund->정리 정돈</li>
     <li>action_gerund->요리</li>
     <li>subject->향신료</li>
     <li>subject->보존식량</li>
-    <li>subject->알 종류</li>
+    <li>subject->알의 종류</li>
     <li>subject->고기의 종류</li>
-    <li>subject->맛</li>
+    <li>subject->맛과 향</li>
     <li>subject->조리법</li>
     <li>situation->상단 이동 중에</li>
     <li>situation->보지 않고</li>
@@ -287,26 +287,26 @@
     <li>situation(p=0.1)->while drunk</li>
   -->
   <LessonCrafting.logRulesInitiator.rulesStrings>
-    <li>article_tool->스크류 드라이버</li>
+    <li>article_tool->스크루드라이버</li>
     <li>article_tool->펜치</li>
     <li>article_tool->회로 기판</li>
-    <li>article_tool->재단 작업대</li>
+    <li>article_tool->재봉 작업대</li>
     <li>article_tool->기계 작업대</li>
-    <li>article_tool->조립작업대</li>
+    <li>article_tool->조립 작업대</li>
     <li>action->사용법</li>
-    <li>action->작업</li>
-    <li>action->검사방법</li>
-    <li>action_gerund->사용법</li>
-    <li>action_gerund->작업</li>
-    <li>action_gerund->검사방법</li>
+    <li>action->다루는 법</li>
+    <li>action->점검 방법</li>
+    <li>action_gerund->사용하는 법</li>
+    <li>action_gerund->다루는 법</li>
+    <li>action_gerund->점검하는 법</li>
     <li>subject->도구 정리</li>
-    <li>subject->땜장이질 업적</li>
+    <li>subject->제작</li>
     <li>subject->도구</li>
     <li>subject->직물의 종류</li>
-    <li>subject->천을 짜는 기술</li>
+    <li>subject->직조의 기법</li>
     <li>subject->판금 갑옷</li>
     <li>subject->도구 벨트</li>
-    <li>subject->생체 공학</li>
+    <li>subject->생체공학</li>
     <li>situation->안전하게</li>
     <li>situation->설명서 없이</li>
     <li>situation->어두운 곳에서</li>
@@ -323,7 +323,7 @@
   </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
-  <LessonIntellectual.label>지적 수업</LessonIntellectual.label>
+  <LessonIntellectual.label>연구 수업</LessonIntellectual.label>
   <!-- EN:
     <li>subject->genetics</li>
     <li>subject->techprints</li>
@@ -346,11 +346,11 @@
     <li>subject->수학</li>
     <li>subject->생물학</li>
     <li>subject->화학</li>
-    <li>subject->초월공학 미스테리</li>
+    <li>subject->초월공학 수수께끼</li>
     <li>subject->우주선 원자로</li>
     <li>subject->과학적 방법</li>
-    <li>subject->중대한 백지</li>
-    <li>subject->존슨 - 타나카 추진기</li>
+    <li>subject->중요한 논문</li>
+    <li>subject->존슨-타나카 추진기</li>
   </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
@@ -397,14 +397,14 @@
     <li>article_tool->약뿌리</li>
     <li>article_tool->생체신호 모니터</li>
     <li>article_tool->메스</li>
-    <li>article_tool->회복 혈청 사용</li>
+    <li>article_tool->회복 혈청</li>
     <li>article_tool->진통제</li>
     <li>action->사용법</li>
-    <li>action->검사방법</li>
-    <li>action_gerund->사용법</li>
-    <li>action_gerund->검사방법</li>
+    <li>action->점검 방법</li>
+    <li>action_gerund->사용하는 법</li>
+    <li>action_gerund->검사하는 법</li>
     <li>hediff->출혈</li>
-    <li>hediff->심장 마비</li>
+    <li>hediff->심근경색</li>
     <li>hediff->열사병</li>
     <li>hediff->식중독</li>
     <li>hediff->암</li>
@@ -413,19 +413,19 @@
     <li>hediff->운동마비</li>
     <li>hediff->말라리아</li>
     <li>hediff->독감</li>
-    <li>hediff->경화증</li>
+    <li>hediff->간경변</li>
     <li>medical_verb->진단하는</li>
     <li>medical_verb->분류하는</li>
     <li>medical_verb->치료하는</li>
     <li>subject->마취제 투여량</li>
     <li>subject->암의 종류</li>
     <li>subject->수술 절차</li>
-    <li>subject->침대 머리맡 매너</li>
+    <li>subject->환자 관리</li>
     <li>subject->살균 방법</li>
   </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
-  <LessonMelee.label>근접전투 수업</LessonMelee.label>
+  <LessonMelee.label>격투 수업</LessonMelee.label>
   <!-- EN:
     <li>article_tool->an axe</li>
     <li>article_tool->a club</li>
@@ -454,7 +454,7 @@
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
     <li>article_tool->도끼</li>
-    <li>article_tool->둔기</li>
+    <li>article_tool->곤봉</li>
     <li>article_tool->검</li>
     <li>article_tool->팔꿈치 칼날</li>
     <li>article_tool->칼날 손톱</li>
@@ -464,19 +464,19 @@
     <li>article_tool->창</li>
     <li>article_tool->철퇴</li>
     <li>article_tool->전투망치</li>
-    <li>article_tool->주먹</li>
-    <li>action->흘려치기</li>
+    <li>article_tool->맨손</li>
+    <li>action->방어법</li>
     <li>action->싸우는 방법</li>
-    <li>action->반격하는 방법</li>
+    <li>action->반격법</li>
     <li>action->손질 방법</li>
     <li>action->사용법</li>
-    <li>action->휘두르기</li>
-    <li>action_gerund->흘려치기</li>
-    <li>action_gerund->싸우는 방법</li>
-    <li>action_gerund->반격하는 방법</li>
-    <li>action_gerund->사용시의 유의사항</li>
-    <li>action_gerund->사용법</li>
-    <li>action_gerund->휘두르기</li>
+    <li>action->공격법</li>
+    <li>action_gerund->흘려치는 법</li>
+    <li>action_gerund->활용하는 법</li>
+    <li>action_gerund->반격하는 법</li>
+    <li>action_gerund->관리하는 법</li>
+    <li>action_gerund->사용하는 법</li>
+    <li>action_gerund->휘두르는 법</li>
   </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
@@ -510,18 +510,18 @@
     <li>article_tool->장거리 광물 탐색기</li>
     <li>article_tool->지면 투과 탐색기</li>
     <li>action->사용법</li>
-    <li>action->채굴</li>
-    <li>action->작업</li>
-    <li>action->검사방법</li>
-    <li>action_gerund->사용법</li>
-    <li>action_gerund->채굴</li>
-    <li>action_gerund->작업</li>
-    <li>action_gerund->검사방법</li>
+    <li>action->활용법</li>
+    <li>action->다루는 법</li>
+    <li>action->점검 방법</li>
+    <li>action_gerund->사용하는 법</li>
+    <li>action_gerund->관리하는 법</li>
+    <li>action_gerund->다루는 법</li>
+    <li>action_gerund->점검하는 법</li>
     <li>subject->광맥</li>
     <li>subject->귀중한 보석</li>
     <li>subject->지질학</li>
     <li>subject->굴착</li>
-    <li>subject->침전물 분석</li>
+    <li>subject->퇴적층 분석</li>
     <li>subject->동굴에 사는 곤충</li>
     <li>situation(p=2)->땅 속에서</li>
   </LessonMining.logRulesInitiator.rulesStrings>
@@ -553,12 +553,12 @@
     <li>article_tool->스프링클러</li>
     <li>article_tool->삽</li>
     <li>article_tool->원예 가위</li>
-    <li>action->정원 가꾸기</li>
+    <li>action->활용법</li>
     <li>action->사용법</li>
-    <li>action->검사방법</li>
-    <li>action_gerund->사용법</li>
-    <li>action_gerund->정원 가꾸기</li>
-    <li>action_gerund->검사방법</li>
+    <li>action->점검 방법</li>
+    <li>action_gerund->사용하는 법</li>
+    <li>action_gerund->활용하는 법</li>
+    <li>action_gerund->점검하는 법</li>
     <li>subject->토양의 종류</li>
     <li>subject->살충제</li>
     <li>subject->관개 기술</li>
@@ -598,18 +598,18 @@
     <li>article_tool->단궁</li>
     <li>article_tool->곡궁</li>
     <li>article_tool->장궁</li>
-    <li>action->조준하는 것</li>
+    <li>action->조준 방법</li>
     <li>action->쏘는 법</li>
     <li>action->손질 방법</li>
-    <li>action->재장전</li>
-    <li>action_gerund->조준법</li>
+    <li>action->장전 방법</li>
+    <li>action_gerund->조준하는 법</li>
     <li>action_gerund->쏘는 법</li>
-    <li>action_gerund->손질법</li>
-    <li>action_gerund->재장전 방법</li>
+    <li>action_gerund->관리하는 법</li>
+    <li>action_gerund->재장전하는 법</li>
   </LessonShooting.logRulesInitiator.rulesStrings>
   
   <!-- EN: social lesson -->
-  <LessonSocial.label>사회 수업</LessonSocial.label>
+  <LessonSocial.label>사교 수업</LessonSocial.label>
   <!-- EN:
     <li>subject->public speaking</li>
     <li>subject->faction relations</li>
@@ -622,14 +622,14 @@
     <li>subject->sign language</li>
   -->
   <LessonSocial.logRulesInitiator.rulesStrings>
-    <li>subject->대중 연설</li>
+    <li>subject->연설 기술</li>
     <li>subject->세력 관계</li>
     <li>subject->수감자 포섭</li>
     <li>subject->흥정 기술</li>
     <li>subject->관계 유지 요령</li>
     <li>subject->통신기 예절</li>
     <li>subject->사기 증진 방법</li>
-    <li>subject->쓰면 안 되는 말들</li>
+    <li>subject->쓰면 안 되는 말</li>
     <li>subject->수화</li>
   </LessonSocial.logRulesInitiator.rulesStrings>
   
@@ -708,17 +708,17 @@
     <li>planType->enjoying endless life</li>
   -->
   <SanguophageChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](은)는 [subject][talkedabout].</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [subject][talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](이)가 [subject][talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](와)과 [subject][talkedabout].</li>
     <li>talkedabout->에 대한 이야기를 함</li>
     <li>talkedabout->에 대한 대화를 함</li>
     <li>talkedabout->에 대해 속삭임</li>
-    <li>talkedabout(p=0.5)->에 대해 [adverb] 말함</li>
     <li>talkedabout(p=0.5)->에 대해 [adverb] 이야기함</li>
+    <li>talkedabout(p=0.5)->에 대해 [adverb] 대화함</li>
     <li>talkedabout(p=0.5)->에 대해 [adverb] 속삭임</li>
     <li>talkedabout->에 대해 한마디씩 함</li>
-    <li>talkedabout->에 대해 의견을 주고 받음</li>
-    <li>talkedabout->에 대해 아이디어를 주고 받음</li>
+    <li>talkedabout->에 대해 의견을 주고받음</li>
+    <li>talkedabout->에 대해 아이디어를 주고받음</li>
     <li>talkedabout->에 공통된 관심을 표현함</li>
     <li>talkedabout->에 대해 토론함</li>
     <li>talkedabout->에 대해 논쟁함</li>
@@ -733,7 +733,7 @@
     <li>adverb->냉정하게</li>
     <li>adverb->진지하게</li>
     <li>adverb->엄숙하게</li>
-    <li>subject(p=20)->[planType]에 대한 계획</li>
+    <li>subject(p=20)->[planType] 계획</li>
     <li>subject(p=0.1)->[TalkTopicHeavy]</li>
     <li>subject->혈액정수</li>
     <li>subject->혈액의 질</li>
@@ -752,7 +752,7 @@
     <li>subject->고통</li>
     <li>subject->고뇌</li>
     <li>subject->참수</li>
-    <li>subject->적들을 도륙</li>
+    <li>subject->적의 도륙</li>
     <li>subject->고문</li>
     <li>subject->초월입자</li>
     <li>subject->유전학</li>
@@ -768,16 +768,16 @@
     <li>subject->웨이스터들</li>
     <li>subject->깊은 역사</li>
     <li>subject->미래의 역사</li>
-    <li>planType->지배</li>
-    <li>planType->탈출</li>
-    <li>planType->섞여들기</li>
-    <li>planType->영향력 행사</li>
-    <li>planType->혈액정수 수급</li>
-    <li>planType->기술 숙달</li>
-    <li>planType->다른 세계로 가는 것</li>
-    <li>planType->인간을 지배하기</li>
-    <li>planType->흡혈자 사냥꾼 절멸</li>
-    <li>planType->무한한 삶을 즐기기</li>
+    <li>planType->지배할</li>
+    <li>planType->탈출할</li>
+    <li>planType->숨어들</li>
+    <li>planType->영향력을 행사할</li>
+    <li>planType->혈액정수를 수급할</li>
+    <li>planType->기술을 숙달할</li>
+    <li>planType->다른 세계로 이주할</li>
+    <li>planType->인간을 지배할</li>
+    <li>planType->생귀오파지 사냥꾼을 절멸시킬</li>
+    <li>planType->무한한 삶을 즐길</li>
   </SanguophageChat.logRulesInitiator.rulesStrings>
   
 </LanguageData>
