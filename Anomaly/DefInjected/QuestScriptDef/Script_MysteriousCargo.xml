@@ -18,8 +18,8 @@
   -->
   <MysteriousCargoCube.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_nameDef](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_nameDef](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
   </MysteriousCargoCube.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -43,8 +43,8 @@
   -->
   <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_nameDef](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_nameDef](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
   </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -70,8 +70,8 @@
   -->
   <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->익명의 인공지능이 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 화물에 대한 모든 질문은 회피하고 있습니다.\n\n수락하면 인공지능이 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_labelShort](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_nameDef](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 어떤 명시되지 않은 화물을 받아달라는 이상한 요청을 해왔습니다. 상세한 설명을 요구해도 [asker_nameDef](은)는 질문을 회피합니다. [asker_possessive] 목소리에는 절박함이 묻어납니다.\n\n수락하면 [asker_nameFull](이)가 수수께끼의 화물을 수송 포드로 배송할 것입니다.</li>
   </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>

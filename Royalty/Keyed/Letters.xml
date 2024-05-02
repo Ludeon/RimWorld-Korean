@@ -13,7 +13,7 @@
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>이 작위에는 {1} 품질 이상의 의복이 필요합니다.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>이 작위에는 {PAWN_possessive} 품위에 어울리는 훌륭한 의복을 원합니다.</LetterRoyalTitleApparelRequirement>
+  <LetterRoyalTitleApparelRequirement>이 작위에는 적합한 의복이 필요합니다.</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
   <LetterRoyalTitleExpectation>{PAWN_possessive} 기대치는 {1} 보다 높은 수준의 의복만으로 만족시킬 수 있습니다.</LetterRoyalTitleExpectation>
   
@@ -55,11 +55,11 @@
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
   <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}는 이제 왕좌에서 연설할 수 있습니다. 결과가 좋다면 참석자들은 영감을 얻고 연설자에게 존경심을 느낄 것입니다. 결과가 좋지 않으면 사교적 불이익을 얻습니다. 결과는 연설자의 사교 기술의 영향을 받습니다.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>{PAWN_pronoun}는 다음 요구 사항을 충족하는 알현실을 요구합니다: {1}</LetterRoyalTitleThroneroomRequirements>
+  <LetterRoyalTitleThroneroomRequirements>이 작위는 다음 요구사항을 만족하는 알현실이 필요합니다.{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>{PAWN_pronoun}는 다음 요구 사항을 충족하는 침실을 요구합니다: {1}</LetterRoyalTitleBedroomRequirements>
+  <LetterRoyalTitleBedroomRequirements>이 작위는 다음 요구사항을 만족하는 침실이 필요합니다.{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>{PAWN_pronoun}는 오직 다음 요구 사항을 충족하는 음식만을 섭취합니다:{1}</LetterRoyalTitleFoodRequirements>
+  <LetterRoyalTitleFoodRequirements>{PAWN_nameDef}(은)는 작위에 맞춰 다음 음식만 섭취해야 합니다.{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun}를 위하여 수송 포드로 다음 물품이 제공됩니다: {1}</LetterRoyalTitleRewardGranted>
@@ -68,9 +68,9 @@
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>{PAWN_pronoun}가 사망할 경우 {HEIR_nameFull}에게 작위가 계승됩니다.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>{PAWN_nameDef}(이)가 사망할 경우 {HEIR_nameFull}에게 작위가 계승됩니다.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>{PAWN_pronoun}가 사망할 경우 작위를 계승할 인물이 없습니다.</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>{PAWN_nameDef}(이)가 사망할 경우 아무도 작위를 계승하지 않습니다.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
   <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull}(은)는 {FACTION_name}의 구성원입니다.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
@@ -126,7 +126,7 @@
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
   <LetterPsylinkLevelGained_First>{USER_labelShort}(은)는 정신력 증폭기를 이식받아 초집중 능력자가 되었습니다.\n\n기술을 시전하려면 우선 명상을 통해 초집중을 축적해야 합니다. 특정한 매개채를 활용하면 더 쉽게 명상에 들 수 있습니다.\n\n매개채는 개인의 배경, 특성, 작위에 따라 달라집니다. 예를 들어:\n\n- 귀족 능력자는 자신의 왕좌에서 명상합니다.\n- 부족민 능력자는 영혼나무나 자연의 성지에서 명상합니다.\n- 검소한 능력자는 빈 벽만 보면서도 명상할 수 있습니다.\n- 사이코패스 능력자는 무덤에서 명상하는 것을 좋아합니다.\n\n정보 창을 통해 정착민의 집중 유형을 확인할 수 있습니다.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}(은)는 더 높은 정신력 증폭 단계를 획득했습니다! 이제 {USER_pronoun}(은)는 더 높은 단계의 초집중 기술을 배우고 사용할 수 있습니다.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}(이 더 높은 정신력 증폭 단계를 획득했습니다! 이제 {USER_labelShort}(은)는 더 높은 단계의 초집중 기술을 배우고 사용할 수 있습니다.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>{USER_labelShort}(은)는 새로운 정신력 증폭 단계에 도달하여 {2} 기술을 자동으로 습득했습니다.</LetterPsylinkLevelGained_PsycastLearned>
   
@@ -145,7 +145,7 @@
   <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}(은)는 예정되어 있던 수여식이 진행되기 전에 더 높은 작위를 얻었습니다. 이에 따라 새로운 작위를 위한 수여식이 다시 준비됩니다.\n\n받게 될 예정이었던 정신력 증폭기 또한 새로운 수여식에서 함께 지급됩니다.</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>{PAWN_labelShort}(은)는 {3}명의 관전자를 모은 것에 대한 존경의 의미로 {FACTION_name}에서 {1}의 신임장을 추가로 받았습니다.</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort}(이)가 {3}명의 관전자를 모은 것에 대한 존경의 의미로 {FACTION_name}에서 {1} 신임장을 추가로 부여했습니다.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
   <LetterPartNoExtraHonor>{PAWN_labelShort}(은)는 관전자가 많지 않아서 신임장을 추가로 받지 못했습니다.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
