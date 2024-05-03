@@ -12,7 +12,7 @@
     <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
   -->
   <Util_Infestation.questDescriptionRules.rulesStrings>
-    <li>threatDescription->(*Threat)[hivesCount]개의 곤충군락(/Threat)이 지하에서 솟아오릅니다.</li>
+    <li>threatDescription->(*Threat)[hivesCount]개의 곤충 군락(/Threat)이 지하에서 솟아오릅니다.</li>
   </Util_Infestation.questDescriptionRules.rulesStrings>
   
   <!-- EN:
@@ -28,7 +28,7 @@
     <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li>
   -->
   <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
-    <li>threatDescription->근처에 새로운 지역이 나타났으며, [allSitePartsDescriptions] 이 지역은 파괴될 때까지 남게 됩니다.</li>
+    <li>threatDescription->근처에 [allSitePartsDescriptions](을)를 포함하는 새로운 지역이 나타나서 파괴될 때까지 남아있습니다.</li>
     <li>defaultSiteAppearedLetterText->근처에 새로운 지역이 나타났습니다.\n\n[allSitePartsDescriptions]</li>
     <li>defaultSiteAppearedLetterLabel->지역 출현: [site_label]</li>
   </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
