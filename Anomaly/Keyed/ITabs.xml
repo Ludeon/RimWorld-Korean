@@ -31,11 +31,11 @@
   <!-- EN: Extract bioferrite -->
   <EntityStudyMode_Extract>생체강 추출</EntityStudyMode_Extract>
   <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
-  <EntityStudyMode_ExtractDesc>생체강 추출이 가능해지면 의사가 추출합니다. 생체강의 직접적 추출은 단순하지만 비효율적입니다. 실체가 이미 생체강 수확기에 연결된 경우 추출할 수 없습니다.</EntityStudyMode_ExtractDesc>
+  <EntityStudyMode_ExtractDesc>의사들은 가능할 때마다 포획된 실체로부터 생체강을 추출합니다. 이 추출 방법은 간단하지만 비효율적입니다. 실체가 생체강 수확기에 연결되어 있으면 수행할 수 없습니다.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
   <RequiresBioferriteExtraction>생체강 추출이 필요합니다.</RequiresBioferriteExtraction>
   <!-- EN: Blocked by bioferrite harvester. -->
-  <BioferriteHarvesterAttached>생체강 수확기가 이미 연결됐습니다.</BioferriteHarvesterAttached>
+  <BioferriteHarvesterAttached>생체강 수확기에 막혔습니다.</BioferriteHarvesterAttached>
   <!-- EN: Can't be executed. -->
   <CantBeExecuted>처형할 수 없습니다.</CantBeExecuted>
   <!-- EN: Knowledge gain -->

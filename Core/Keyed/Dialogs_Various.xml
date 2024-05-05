@@ -395,7 +395,7 @@
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
   <StoppingPowerExplanation>이 무기에 적중한 대상은 몇 초간 이동속도가 느려집니다.\n\n저지력보다 신체 크기가 큰 대상은 영향을 받지 않습니다.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>직접명중률</DirectHitChance>
+  <DirectHitChance>직접 명중률</DirectHitChance>
   <!-- EN: Miss radius -->
   <MissRadius>명중 오차 범위</MissRadius>
   <!-- EN: Grows wild -->
@@ -761,7 +761,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>식량 떨어질 일 없음</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>적어도 한 사람이나 동물이 음식을 모두 소진하기까지 걸리는 대략적인 시간으로, 이 날짜가 지나면 인간이나 동물 중 누군가는 굶주리게 됩니다. 인종과 동물마다 식단이 다르므로 일부 종이 먼저 음식이 부족할 수 있습니다. 이 값은 경로를 선택한 뒤에 더 정확하게 계산됩니다.\n\n영향 요소:\n  - 운반하는 음식의 종류와 양\n  - 상단 구성원과 식성\n  - 식량 채집 비율\n  - 동물의 방목 가능성\n  - 음식의 소비기한\n  - 날씨가 더울수록 빨리 상함</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>최소 한 사람이나 동물의 식량을 소진하는 데 걸리는 대략적인 날짜를 나타냅니다. 종에 따라 식단이 다르므로 일부 종은 더 빨리 음식이 부족할 수 있습니다. 이 추정치는 경로가 결정된 후에 더 정확하게 산출됩니다.\n\n영향 요소:\n  - 현재 정착민의 소지품\n  - 운반하는 음식의 종류와 양\n  - 상단 구성원과 식성\n  - 식량 채집 비율\n  - 동물의 방목 가능 여부\n  - 음식의 소비기한\n  - 날씨가 더울수록 빨리 상함</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(첫번째 경유지만 고려됨)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->

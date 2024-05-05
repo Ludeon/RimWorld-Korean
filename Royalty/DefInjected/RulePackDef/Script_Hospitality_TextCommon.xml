@@ -65,31 +65,31 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[areIs][lodgersLabelSingOrPluralDef](은)는 운동마비 상태이므로 침대에 누워 있어야 합니다.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef](은)는 운동마비 상태이므로 침대에 누워 있어야 합니다.</li>
     <li>bloodRotInfo->[lodgersLabelSingOrPluralDef](은)는 패혈증에 시달리고 있어 매일 치료를 받아야 합니다. 패혈증은 높은 수준의 의료환경과 약품으로 진행을 늦출 수는 있지만, 완전히 치료하기는 어렵습니다. 질병이 심각해지면 [lodgersLabelSingOrPluralDef](은)는 사망하므로, 필요한 의료용품이 있는지 확인하세요.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]의 기분을 [lodgersMoodThreshold_percent] 이상으로 유지해야 합니다.</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef](은)는 아무런 일을 할 수 없습니다.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef](은)는 아무런 일도 하지 않을 것입니다.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->\n\n대략 다음 규모의 (*Threat)습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->\n\n대략 다음 규모의 [threatSize]배 강력한 (*Threat)습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->\n\n대략 다음 규모의 (*Threat)[threatCount]갈래 습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->\n\n대략 다음 규모의 [threatSize]배 강력한 (*Threat)[threatCount]갈래 습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->\n\n(*Threat)메카노이드 전초기지(/Threat)가 근처에 배치됩니다.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->\n\n(*Threat)메카노이드 전초기지 2개(/Threat)가 근처에 배치됩니다.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->\n\n[threatSize]배 크기의 (*Threat)메카노이드 전초기지(/Threat)가 근처에 배치됩니다.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->\n\n[threatSize]배 크기의 (*Threat)메카노이드 전초기지 2개(/Threat)가 근처에 배치됩니다.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef](은)는 최근에 [mechViolation]고, 궤도상의 메카노이드 무리의 표적이 되었습니다.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->수감자들은 최근에 [mechViolation]고, 궤도상의 메카노이드 무리의 표적이 되었습니다.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef](은)는 최근에 [mechViolation]고, 메카노이드 군락의 표적이 되었습니다.</li>
-    <li>threatsInfoMechRaidsMultiHuman->그들은 최근에 [mechViolation]고, 메카노이드 군락의 표적이 되었습니다.</li>
-    <li>mechViolation->자아 인공지능을 화나게 만들었</li>
-    <li>mechViolation->고대 슈퍼컴퓨터 단말기를 훼손하였</li>
-    <li>mechViolation->초월공학의 총애를 받은 인간 아이를 살해하였</li>
-    <li>mechViolation->메카노이드 연결망을 해킹하려고 시도하였</li>
-    <li>mechViolation->고대 저장구역에서 절도를 시도하였</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->대략 다음 규모의 (*Threat)습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->대략 다음 규모의 [threatSize]배 강력한 (*Threat)습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->대략 다음 규모의 (*Threat)[threatCount]갈래 습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->대략 다음 규모의 [threatSize]배 강력한 (*Threat)[threatCount]갈래 습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)메카노이드 전초기지(/Threat)가 근처에 배치될 것입니다.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)메카노이드 전초기지 2개(/Threat)가 근처에 배치될 것입니다.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->[threatSize]배 크기의 (*Threat)메카노이드 전초기지(/Threat)가 근처에 배치될 것입니다.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->[threatSize]배 크기의 (*Threat)메카노이드 전초기지 2개(/Threat)가 근처에 배치될 것입니다.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef](은)는 최근에 [mechViolation], 궤도 위 메카노이드 무리의 표적이 되었습니다.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->수감자들은 최근에 [mechViolation], 궤도 위 메카노이드 무리의 표적이 되었습니다.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef](은)는 최근에 [mechViolation], 메카노이드 군락의 표적이 되었습니다.</li>
+    <li>threatsInfoMechRaidsMultiHuman->그들은 최근에 [mechViolation], 메카노이드 군락의 표적이 되었습니다.</li>
+    <li>mechViolation->자아 인공지능을 화나게 만들었고</li>
+    <li>mechViolation->고대 슈퍼컴퓨터 단말기를 훼손했고</li>
+    <li>mechViolation->초월공학의 총애를 받은 인간 아이를 살해했고</li>
+    <li>mechViolation->메카노이드 연결망을 해킹하려고 시도했고</li>
+    <li>mechViolation->고대 저장구역에서 절도를 시도했고</li>
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)-></li>
     <li>lodgersHasHave(lodgersCount>=2)-></li>
@@ -101,7 +101,7 @@
     <li>remainingWillNowLeave(lodgersCount>=2)->남아있던 모든 [lodgersLabelPlural]은 떠날 것입니다. </li>
     <li>failLetterEndingQuest->'[resolvedQuestName]' 임무에 실패했습니다.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
-    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n[asker_faction_name](와)과의 관계가 [goodwillPenalty] 만큼 감소했습니다.</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n[asker_faction_name]의 우호도가 [goodwillPenalty] 감소했습니다.</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

@@ -64,9 +64,9 @@
   <!-- EN: Retune -->
   <BandNodeRetuneTo>재조정</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>지정한 메카나이터에 맞춰 대역폭 확장기를 조율합니다. 조율에는 {0}의 시간이 소요됩니다.</BandNodeTuningDesc>
+  <BandNodeTuningDesc>지정한 메카나이터에 맞춰 대역폭 확장기를 조율합니다. 조율에는 {0}의 시간이 걸립니다.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>대역폭 확장기를 다른 메카나이터에 맞춰 조율합니다. 재조율에는 {0}의 시간이 소요됩니다.</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>대역폭 확장기를 다른 메카나이터에 맞춰 조율합니다. 재조율에는 {0}의 시간이 걸립니다.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>{0}의 장비를 해제하면 {1_labelShort}의 대역폭이 감소합니다({2}에서 {3}). 따라서 다음 메카노이드를 더는 제어할 수 없습니다</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
@@ -92,7 +92,7 @@
   <!-- EN: Bandwidth usage -->
   <BandwidthUsage>대역폭 사용량</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
-  <MechGestationBandwidthUsed>메카노이드 잉태 대역폭</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>잉태 중인 메카노이드 대역폭</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
   <CannotSummon>{0} 위협 호출 불가</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
@@ -136,7 +136,7 @@
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
   <WakeDesc>죽음안식에서 깨어납니다.\n\n{PAWN_nameDef}(은)는 죽음안식을 {DURATION} 동안 했습니다.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef}(은)는 최소 {TOTAL} 동안 죽음안식을 해야 합니다. {PAWN_objective} 일찍 깨우면 {PAWN_pronoun}가 아플 것이며 {PAWN_pronoun}는 죽음안식 장치의 혜택을 받지 못할 것입니다.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef}(은)는 적어도 {TOTAL} 동안 죽음안식을 해야 합니다. 이보다 빨리 깨우면 후유증을 겪으며 연결된 죽음안식 장치의 혜택도 받지 못합니다.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef}(은)는 이제 안전하게 깨어날 수 있습니다.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -186,7 +186,7 @@
   <!-- EN: Bound to -->
   <BoundTo>다음에게 종속됨</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
-  <WillBindOnFirstUse>처음 사용시 영구적으로 종속됩니다.</WillBindOnFirstUse>
+  <WillBindOnFirstUse>최초 사용자에게 영구히 종속됨</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
   <TimeActiveThisDeathrest>해당 죽음안식이 활성화 된 시간</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
@@ -515,7 +515,7 @@
 
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
-  <BossgroupAvailableIn>{0}에서 사용할 수 있습니다.</BossgroupAvailableIn>
+  <BossgroupAvailableIn>{0} 후 사용할 수 있습니다.</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
   <RequiresMechanitor>메카나이터 필요</RequiresMechanitor>
 

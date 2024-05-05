@@ -11,7 +11,7 @@
   <StudyFrequency>조사 주기</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
   <StudyFrequencyDesc>이 실체에 대한 조사 시기 간격입니다.</StudyFrequencyDesc>
-
+  
   <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>치유</Stat_Hediff_Regeneration_Name>
   <!-- EN: A flat amount of healing per day. -->
@@ -41,11 +41,11 @@
   <!-- EN: Bioferrite generation -->
   <StatsReport_BioferriteGeneration>생체강 생산</StatsReport_BioferriteGeneration>
   <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>이 실체가 하루에 생산하는 생체강의 양입니다. 생체강은 실체가 구속된 방에 생체강 수확기를 설치해 얻을 수 있습니다.</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration_Desc>생체강 수확기에 연결되어 있을 때 이 실체가 하루에 생산하는 생체강의 양입니다.</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
   <StatsReport_BioferriteDensityMultiplier>생체강 밀도 계수</StatsReport_BioferriteDensityMultiplier>
   <!-- EN: Multiplier for bioferrite extracted recently -->
-  <StatsReport_BioferriteExtractedMultiplier>생체강 추출에 의한 계수</StatsReport_BioferriteExtractedMultiplier>
+  <StatsReport_BioferriteExtractedMultiplier>최근 생체강 추출로 인한 계수</StatsReport_BioferriteExtractedMultiplier>
 
   <!-- EN: Offering -->
   <StatsReport_Offering>공물</StatsReport_Offering>
@@ -71,7 +71,7 @@
   <StatsReport_SerumDuration>지속시간</StatsReport_SerumDuration>
   <!-- EN: How long the effects of a serum last. -->
   <StatsReport_SerumDuration_Desc>혈청의 효과가 지속되는 시간입니다.</StatsReport_SerumDuration_Desc>
-
+  
   <!-- EN: Occupied -->
   <StatsReport_Occupied>가득 참</StatsReport_Occupied>
   <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->

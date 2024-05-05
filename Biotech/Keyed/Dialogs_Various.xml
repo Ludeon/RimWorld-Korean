@@ -219,7 +219,7 @@
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>{MINDURATION}이 지나기 전에 {PAWN_nameDef}(을)를 깨우면 {PAWN_possessive} 죽음안식을 중단시키고 {PAWN_pronoun}가 회복되는 동안 {PAWN_pronoun}가 며칠 동안 아프게 됩니다. 일찍 깨우면 {PAWN_nameDef}(이)가 죽음안식 장치로부터 혜택을 받지 못합니다. {PAWN_pronoun}는 {CURDURATION} 동안 죽음안식을 취했습니다.\n\n{PAWN_nameDef}(을)를 깨우시겠습니까?</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>{MINDURATION}(이)가 지나기 전에 {PAWN_nameDef}(을)를 죽음안식에서 깨우면 며칠 동안 후유증을 겪게 되며, 죽음안식 장치의 혜택도 받지 못합니다. {PAWN_nameDef}(이)가 죽음안식에 들어간 후 {CURDURATION}(이)가 지났습니다.\n\n정말 {PAWN_nameDef}(을)를 깨우시겠습니까?</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->

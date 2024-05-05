@@ -4,7 +4,7 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>통제를 벗어난 메카노이드</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고 있지 않습니다. 메카노이드를 충분한 대역폭의 메카나이터와 연결하세요.\n\n하루 이상 제어되지 않으면 메카노이드가 제어 불가에 빠질 수 있습니다. 제어 불가 메카노이드는 {0}에 합류하여 적대적으로 돌아서며, 주위 메카노이드들도 영향을 받아 함께 적대적이 될 수 있습니다.\n\n제어 불가에 빠진 메카노이드는 파괴되면 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고 있지 않습니다. 메카노이드를 대역폭이 충분한 메카나이터와 연결하세요.\n\n하루 이상 제어되지 않으면 메카노이드가 제어 불가에 빠질 수 있습니다. 제어 불가 메카노이드는 {0}에 합류하여 적대적으로 돌아서며, 주위 메카노이드들도 영향을 받아 함께 적대적이 될 수 있습니다.\n\n제어 불가에 빠진 메카노이드는 파괴되면 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>다음 메카노이드가 통제되고 있지 않습니다</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
@@ -35,7 +35,7 @@
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>메카노이드 충전기 필요</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>메카노이드에 비해 충전기가 부족합니다. 메카노이드의 전력이 바닥나면 자가 충전 휴면상태에 들어가 매우 느린 속도로 충전합니다.\n\n다음 충전기를 추가로 건설하세요.\n{0}\n\n참고: 일반 충전기는 소형 메카노이드만 사용할 수 있습니다. 중형 이상의 메카노이드는 대형 충전기가 필요합니다.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>메카노이드에 비해 충전기가 부족합니다. 메카노이드는 전력이 바닥나면 휴면에 들어가고 매우 느린 속도로 충전합니다.\n\n다음 충전기를 추가로 건설하세요.\n{0}\n\n참고: 일반 충전기는 소형 메카노이드만 사용할 수 있습니다. 중형 이상의 메카노이드는 대형 충전기가 필요합니다.</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
   <AlertNeedMechChargerBasicMechtech>충전기를 건설하려면 기본 기계공학 이상의 기술을 연구해야 합니다.</AlertNeedMechChargerBasicMechtech>
 

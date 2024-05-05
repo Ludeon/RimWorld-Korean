@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\n[asker_nameDef](은)는 [helperKind_label](을)를 지원하기로 했습니다. [helpers0_pronoun](은)는 당신의 지휘를 받으며 숙식이 필요합니다. 하지만 전투 중에 죽더라도 외교적인 문제는 발생하지 않을 것입니다.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->\n\n[asker_nameDef](은)는 [helpersCount]명의 [helperKind_labelPlural](을)를 지원하기로 했습니다. 그들은 당신의 지휘를 받으며 숙식이 필요합니다. 하지만 전투 중에 죽더라도 외교적인 문제는 발생하지 않을 것입니다.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\n[asker_nameDef](은)는 [helperKind_label](을)를 지원하기로 했습니다. 이 [helperKind_label](은)는 당신의 지휘를 받으며 숙식이 필요합니다. 하지만 전투 중에 죽더라도 외교적인 문제는 발생하지 않을 것입니다.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[asker_nameDef](은)는 [helpersCount]명의 [helperKind_label](을)를 지원하기로 했습니다. [helperKind_label]들은 당신의 지휘를 받으며 숙식이 필요합니다. 하지만 전투 중에 죽더라도 외교적인 문제는 발생하지 않을 것입니다.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersLabelSingOrPlural] [helpersHasHave][helpersCount]명이 도와주러 왔습니다.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
