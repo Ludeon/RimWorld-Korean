@@ -49,7 +49,7 @@
   <!-- EN: An extreme wave of heat is baking the area. -->
   <HeatWave.description>극한의 열기가 이 지역을 구워버리고 있습니다.</HeatWave.description>
   <!-- EN: a heat wave will bake the area around [map_definite] for [gameConditionDuration_duration], harming crops and possibly killing people or animals in uncooled areas -->
-  <HeatWave.descriptionFuture>폭염은 [gameConditionDuration_duration] 동안 [map_definite] 주변 기온을 높여 농작물을 손상시키고, 사람이나 동물을 죽음에 이르게 할 수 있습니다</HeatWave.descriptionFuture>
+  <HeatWave.descriptionFuture>폭염이 [gameConditionDuration_duration] 동안 [map_definite] 주변 기온을 높이고, 냉각되지 않는 곳의 농작물과 사람 및 동물에게 피해를 줍니다</HeatWave.descriptionFuture>
   <!-- EN: The heat wave is over. -->
   <HeatWave.endMessage>폭염이 끝났습니다.</HeatWave.endMessage>
   <!-- EN: An unusual heat wave has begun.\n\nHeat waves can induce deadly heatstroke. Stay cool by building either a passive or electric cooler, or by getting deep underground where the rocks are naturally cool. -->
@@ -65,7 +65,7 @@
   <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
   <PsychicDrone.description>어딘가 멀리 위치한 초월공학체가 궤도 증폭기를 통해 정신파동을 방출하고 있습니다. 사람들이 광기에 휩싸입니다.</PsychicDrone.description>
   <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
-  <PsychicDrone.descriptionFuture>[psychicDroneLevel] 수준의 정신파동이 [gameConditionDuration_duration] 동안 [map_definite] 주변에 울려 성별이 [psychicDroneGender]인 모든 사람을 광기로 빠져들게 합니다</PsychicDrone.descriptionFuture>
+  <PsychicDrone.descriptionFuture>[psychicDroneLevel] 수준의 정신파동이 [gameConditionDuration_duration] 동안 [map_definite] 주변에 울려 모든 [psychicDroneGender](을)를 광기에 물들게 합니다</PsychicDrone.descriptionFuture>
   <!-- EN: The psychic drone is ending. -->
   <PsychicDrone.endMessage>괴로운 정신파동이 끝났습니다.</PsychicDrone.endMessage>
   <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
@@ -94,7 +94,7 @@
   <!-- EN: A plume of toxic dust from some distant source is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
   <ToxicFallout.description>멀리서 발생한 유독성 먼지 구름이 이 지역을 완전히 덮고 있습니다. 지붕 아래로 피하지 못한 생명체는 서서히 중독되고, 밖에 방치된 물품은 부식됩니다.</ToxicFallout.description>
   <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
-  <ToxicFallout.descriptionFuture>독성 낙하 구름이 [gameConditionDuration_duration] 동안 [map_definite] 주변을 뒤덮어 야외 식물과 생명을 죽입니다</ToxicFallout.descriptionFuture>
+  <ToxicFallout.descriptionFuture>유독성 낙진이 [gameConditionDuration_duration] 동안 [map_definite] 주변을 뒤덮어 야외의 동식물을 죽입니다</ToxicFallout.descriptionFuture>
   <!-- EN: The worst of the toxic fallout has settled. -->
   <ToxicFallout.endMessage>대부분의 유독성 낙진이 가라앉았습니다.</ToxicFallout.endMessage>
   <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to nearly a quadrum. -->
@@ -105,7 +105,7 @@
   <!-- EN: Some distant volcano or fire is choking the atmosphere with ash, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower. -->
   <VolcanicWinter.description>화산재가 대기를 가득 채웠습니다. 지표면에 도달하는 빛의 양이 대폭 줄어들어 기온이 낮아지며 식물의 성장 속도가 줄어듭니다.</VolcanicWinter.description>
   <!-- EN: a layer of ash will be desposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration], seriously harming the local ecosystem -->
-  <VolcanicWinter.descriptionFuture>[gameConditionDuration_duration] 동안 [map_definite] 주변을 화산재가 하늘을 뒤덮어 빛을 차단하여 생태계에 심각한 피해를 끼칩니다</VolcanicWinter.descriptionFuture>
+  <VolcanicWinter.descriptionFuture>화산재가 [gameConditionDuration_duration] 동안 [map_definite] 주변 하늘을 가려 빛을 차단하고, 생태계에 심각한 피해를 끼칩니다</VolcanicWinter.descriptionFuture>
   <!-- EN: Most of the ash has settled. -->
   <VolcanicWinter.endMessage>대부분의 화산재가 가라앉았습니다.</VolcanicWinter.endMessage>
   <!-- EN: Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
