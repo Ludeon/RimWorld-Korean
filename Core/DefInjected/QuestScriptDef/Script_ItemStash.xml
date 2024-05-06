@@ -6,8 +6,8 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[map_definite]에서 멀지 않은 곳에 [itemStashContentsValue] 만큼의 가치를 지닌 물품이 보관된 장소가 있다는 메시지를 가로챘습니다.\n\n구성 물품:\n\n[itemStashContents]\n\n위협: [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameDef](이)가 우리 정착지에서 그리 멀지 않은 곳에 있는, [itemStashContentsValue] 만큼의 가치를 지닌 물품이 보관된 장소를 알려줬습니다.\n\n구성 물품:\n\n[itemStashContents]\n\n[asker_label](이)가 알려준 위협: [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->[map_definite]에서 멀지 않은 곳에 [itemStashContentsValue] 만큼의 가치를 지닌 물품이 보관된 장소가 있다는 메시지를 가로챘습니다.\n\n구성 물품:\n\n[itemStashContents]\n\n{replace: [allSitePartsDescriptionsExceptFirst]; "."-""}(이)가 존재하는 걸로 보입니다.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameDef](이)가 우리 정착지에서 그리 멀지 않은 곳에 있는, [itemStashContentsValue] 만큼의 가치를 지닌 물품이 보관된 장소를 알려줬습니다.\n\n구성 물품:\n\n[itemStashContents]\n\n[asker_label]에 의하면 {replace: [allSitePartsDescriptionsExceptFirst]; "."-""}(이)가 존재합니다.</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>

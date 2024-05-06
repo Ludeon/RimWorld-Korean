@@ -6,8 +6,8 @@
     <li>questDescription(siteFaction==Mechanoids)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
-    <li>questDescription(siteFaction==Pirate)->해적이 당신을 괴롭히기 위해 [map_definite] 근처에 전초기지를 세웠습니다.\n[allSitePartsDescriptions]\n\n전초기지는 정착민을 보내 파괴할 때까지 계속 남아있게 됩니다.</li>
-    <li>questDescription(siteFaction==Mechanoids)->메카노이드 전초기지가 [map_definite]에서 멀지 않은 곳에 착륙했습니다.\n[allSitePartsDescriptions]\n\n메카노이드 전초기지는 정착민을 보내 파괴할 때까지 계속 남아있게 됩니다.</li>
+    <li>questDescription(siteFaction==Pirate)->해적이 당신을 괴롭히기 위해 [map_definite] 근처에 전초기지를 세웠습니다.\n{replace: [allSitePartsDescriptions]; "."-""}(이)가 존재합니다.\n\n전초기지는 정착민을 보내 파괴할 때까지 계속 남아있게 됩니다.</li>
+    <li>questDescription(siteFaction==Mechanoids)->메카노이드 전초기지가 [map_definite]에서 멀지 않은 곳에 착륙했습니다.\n{replace: [allSitePartsDescriptions]; "."-""}(이)가 존재합니다.\n\n메카노이드 전초기지는 정착민을 보내 파괴할 때까지 계속 남아있게 됩니다.</li>
   </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>

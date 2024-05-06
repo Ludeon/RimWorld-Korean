@@ -9,7 +9,7 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription->[siteFaction_name]에 수용된 죄수가 라디오를 훔쳐서 연락을 했습니다!\n\n[prisoner_nameDef](은)는 [map_definite] 근처에 있는[underArmedGuard]에게 잡혀 있다고 말합니다. 자신을 구조해 준다면 [prisoner_pronoun]는 당신의 정착지에 합류하여 도움을 주겠다고 약속합니다. [prisoner_pronoun]는 [prisoner_age]살 [prisoner_title] 입니다.\n\n[prisoner_pronoun](이)가 알려준 위협: [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\n이 기회를 놓치면 [prisoner_nameDef](으)로부터 다시는 연락을 받을 수 없을 것입니다.</li>
+    <li>questDescription->[siteFaction_name]에 수용된 죄수가 라디오를 훔쳐서 연락을 했습니다!\n\n[prisoner_nameDef](은)는 [map_definite] 근처에 있는[underArmedGuard]에게 잡혀 있다고 말합니다. 자신을 구조해 준다면 [prisoner_pronoun]는 당신의 정착지에 합류하여 도움을 주겠다고 약속합니다. [prisoner_pronoun]는 [prisoner_age]살 [prisoner_title] 입니다. [prisoner_nameDef]에 의하면 {replace: [allSitePartsDescriptionsExceptFirst]; "."-""}(이)가 존재합니다.[formerColonistInfo][prisonerFullRelationInfo]\n\n이 기회를 놓치면 [prisoner_nameDef](으)로부터 다시는 연락을 받을 수 없을 것입니다.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> 무장 경비</li>

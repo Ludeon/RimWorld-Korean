@@ -4,24 +4,24 @@
   <!-- EN: <rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->there's (*Threat)a climate adjuster machine(/Threat) there shifting the regional temperature by [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->there's (*Threat)a psychic droner machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==PsychicSuppressor)->there's (*Threat)a psychic suppressor machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==WeatherController)->there's (*Threat)a weather controller machine(/Threat) there forcing weather in the whole region to [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->there's (*Threat)a smoke spewer machine(/Threat) there belching smoke over the whole region</li><li>root(priority=1,sitePart==SunBlocker)->there's (*Threat)a sun blocker machine(/Threat) there shadowing the whole region</li><li>root(priority=1,sitePart==EMIDynamo)->there's (*Threat)an EMI dynamo machine(/Threat) there which can disable electrical devices across the region</li><li>root(priority=1,sitePart==ToxicSpewer)->there's (*Threat)a toxic spewer machine(/Threat) there blanketing the whole region in poison</li><li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat) that will launch raids on you every [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)a manhunting [kindLabel](/Threat) is wandering nearby</li><li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] manhunting [kindLabel](/Threat) are wandering nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)a mechanoid(/Threat) is sleeping nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mechanoids(/Threat) are sleeping nearby</li><li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defend the site</li><li>root(priority=1,sitePart==AmbushEdge)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==AmbushHidden)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==MechCluster)->there's (*Threat)a cluster of hostile mechanoid structures(/Threat)</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an (*Threat)unknown threat(/Threat)</li><li>root->there's a [label]</li></rulesStrings> -->
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
-      <li>root(priority=1,sitePart==ClimateAdjuster)->지역 온도를 [temperatureOffset]로 조정하는 (*Threat)기후 조정장치(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->[affectedGender] 성별에 영향을 주는 (*Threat)정신 조작기(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->[affectedGender] 성별에 영향을 주는 (*Threat)정신 억제기(/Threat)</li>
-      <li>root(priority=1,sitePart==WeatherController)->지역의 날씨를 [weather_label](으)로 강제 지정하는 (*Threat)날씨 조정장치(/Threat)</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->지역에 연기를 뿜어내는 (*Threat)연기 발생장치(/Threat)</li>
-      <li>root(priority=1,sitePart==SunBlocker)->한 지역의 빛을 차단하는 (*Threat)태양 차단장치(/Threat)</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->전기장치들을 비활성화할 수 있는 (*Threat)전자 교란기(/Threat)</li>
-      <li>root(priority=1,sitePart==ToxicSpewer)->독으로 지역을 뒤덮을 수 있는 (*Threat)유독성 살포장치(/Threat)</li>
-      <li>root(priority=1,sitePart==RaidSource)->[mtbDays]마다 습격하러 오는 (*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 군사 구역</li>
+      <li>root(priority=1,sitePart==ClimateAdjuster)->온도를 [temperatureOffset] 조정하는 (*Threat)기후 조정기(/Threat)</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->[affectedGender]에 영향을 주는 (*Threat)정신 조종장치(/Threat)</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->[affectedGender]에 영향을 주는 (*Threat)정신 억제기(/Threat)</li>
+      <li>root(priority=1,sitePart==WeatherController)->날씨를 [weather_label](으)로 강제 지정하는 (*Threat)날씨 조정장치(/Threat)</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->연기를 뿜어내는 (*Threat)연기 발생장치(/Threat)</li>
+      <li>root(priority=1,sitePart==SunBlocker)->빛을 차단하는 (*Threat)태양 차단장치(/Threat)</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->전기 장치들을 비활성화할 수 있는 (*Threat)전자 교란기(/Threat)</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->독으로 뒤덮는 (*Threat)유독성 살포장치(/Threat)</li>
+      <li>root(priority=1,sitePart==RaidSource)->[mtbDays]마다 습격을 보내며 (*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키는 군사 거점</li>
       <li>root(priority=1,sitePart==Outpost)->(*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 전초기지</li>
       <li>root(priority=1,sitePart==BanditCamp)->(*Threat)[enemiesLabel] [enemiesCount]명(/Threat)이 지키고 있는 도적 주둔지</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->근처를 방황하는 (*Threat)식인 [kindLabel](/Threat)</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->근처를 방황하는 (*Threat)식인 [kindLabel] 한 마리(/Threat)</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->근처를 방황하는 (*Threat)[count]마리의 식인 [kindLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->근처에서 휴면 중인 (*Threat)메카노이드(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->근처에서 휴면 중인 (*Threat)메카노이드 한 대(/Threat)</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->근처에서 휴면 중인 (*Threat)[count]마리의 메카노이드(/Threat)</li>
-      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat)의 방어 거점</li>
-      <li>root(priority=1,sitePart==AmbushEdge)->타 세력을 기습하기 위해 매복 중인 (*Threat)적대적인 세력(/Threat)</li>
-      <li>root(priority=1,sitePart==AmbushHidden)->타 세력을 기습하기 위해 매복 중인 (*Threat)적대적인 세력(/Threat)</li>
+      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat)의 방어 병력</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->누구라도 접근하면 기습하기 위해 매복 중인 (*Threat)적대 세력(/Threat)</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->누구라도 접근하면 기습하기 위해 매복 중인 (*Threat)적대 세력(/Threat)</li>
       <li>root(priority=1,sitePart==MechCluster)->(*Threat)메카노이드 전초기지(/Threat)</li>
       <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->(*Threat)알려지지 않은 위협(/Threat)</li>
       <li>root->[label]</li>

@@ -28,8 +28,8 @@
     <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li>
   -->
   <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
-    <li>threatDescription->근처에 [allSitePartsDescriptions](을)를 포함하는 새로운 지역이 나타나서 파괴될 때까지 남아있습니다.</li>
-    <li>defaultSiteAppearedLetterText->근처에 새로운 지역이 나타났습니다.\n\n[allSitePartsDescriptions]</li>
+    <li>threatDescription->근처에 {replace: [allSitePartsDescriptions]; "."-""}(을)를 포함하는 새로운 지역이 나타나서 파괴될 때까지 남아있습니다.</li>
+    <li>defaultSiteAppearedLetterText->근처에 새로운 지역이 나타났습니다.\n\n{replace: [allSitePartsDescriptions]; "."-""}(이)가 존재합니다.</li>
     <li>defaultSiteAppearedLetterLabel->지역 출현: [site_label]</li>
   </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
   
