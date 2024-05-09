@@ -63,17 +63,17 @@
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
   <ChronophagyCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 성공적으로 마쳤습니다. 의식에는 다음 효과가 있습니다.</ChronophagyCompleteText>
   <!-- EN: {0_nameDef} aged {1} years -->
-  <ChronophagyTargetAged>{0_nameDef}(이)가 {1}살 늙었습니다</ChronophagyTargetAged>
+  <ChronophagyTargetAged>{0_nameDef}(이)가 {1}살 늙어서</ChronophagyTargetAged>
   <!-- EN: {0_nameDef} became {1} years younger -->
-  <ChronophagyInvokerRejuvenated>{0_nameDef}(이)가 {1}살 어려졌습니다</ChronophagyInvokerRejuvenated>
+  <ChronophagyInvokerRejuvenated>{0_nameDef}(이)가 {1}살 어려져서</ChronophagyInvokerRejuvenated>
   <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
-  <ChronophagyTargetDiedOfOldAge>{0_nameDef}(은)는 시간포식 의식에서 노화를 버티지 못해 늙어 죽었습니다.</ChronophagyTargetDiedOfOldAge>
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef}(은)는 시간포식에 의한 노화를 버티지 못해 늙어 죽었습니다.</ChronophagyTargetDiedOfOldAge>
   <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
-  <ChronophagyTargetOldAgeDiseases>{0_nameDef}(은)는 시간포식 의식에서 살아남았지만, 다음 상태를 얻었습니다</ChronophagyTargetOldAgeDiseases>
+  <ChronophagyTargetOldAgeDiseases>{0_nameDef}(은)는 시간포식에서 살아남았지만 다음 상태를 얻었습니다</ChronophagyTargetOldAgeDiseases>
   <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
-  <ChronophagyInvokerCuredDiseases>추가로, 해당 과정은 다음의 질병 중 {0_nameDef}(을)를 치료했습니다.</ChronophagyInvokerCuredDiseases>
+  <ChronophagyInvokerCuredDiseases>{0_nameDef}의 다음 상태가 시간포식으로 치유됐습니다.</ChronophagyInvokerCuredDiseases>
   <!-- EN: and is now {0} years old -->
-  <ChronophagyCurrentAge>그리고 이제 {0}살입니다</ChronophagyCurrentAge>
+  <ChronophagyCurrentAge>이제 {0}살입니다.</ChronophagyCurrentAge>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
   <PleasurePulseCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 다음 {1} 동안, {RITUAL_definite}에 영향 받는 모두는 더 행복해지지만 느리게 작업합니다.</PleasurePulseCompleteText>
@@ -85,7 +85,7 @@
   <BloodRainCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 걸쭉한 빨간 물방울이 하늘에서 떨어지기 시작했습니다. 실내에 있는 사람들은 광란의 영향에서 안전합니다.</BloodRainCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
-  <BrainwipeCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 완료하여, {TARGET_nameDef}의 기억을 무질서하게 삭제했습니다.</BrainwipeCompleteText>
+  <BrainwipeCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite} 의식을 완료하여, {TARGET_nameDef}의 기억을 헤집어 지웠습니다.</BrainwipeCompleteText>
   <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
   <BrainwipeTargetComa>{TARGET_pronoun}(이)가 {1} 동안 혼수상태에 빠집니다.</BrainwipeTargetComa>
   <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
@@ -99,7 +99,7 @@
   <PsychophagyTargetSurvived>{TARGET_nameDef}은 이제 정신적 무감각 상태입니다. 진행 과정에서 {TARGET_nameDef}의 뇌가 손상되어, {TARGET_pronoun}가 혼수 상태에 빠집니다.</PsychophagyTargetSurvived>
   
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
-  <PsychicRitualTargetBrainLiquified>진행 과정에서 {TARGET_nameDef}의 뇌가 녹아내려 {TARGET_objective}(이)가 사망합니다.</PsychicRitualTargetBrainLiquified>
+  <PsychicRitualTargetBrainLiquified>의식 과정에서 {TARGET_nameDef}의 뇌가 녹아내려 사망했습니다.</PsychicRitualTargetBrainLiquified>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef}(이)가 {RITUAL_definite} 의식을 완료했습니다. 땅속에서 살짐승이 나타납니다.</SummonFleshbeastsPlayerCompleteText>

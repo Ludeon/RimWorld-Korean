@@ -118,7 +118,7 @@
   <!-- EN: Fleshbeast lair -->
   <LetterLabelGateEntered>살짐승의 둥지</LetterLabelGateEntered> 
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>지하 통로 깊숙한 곳에서, 살짐승으로 가득한 거대한 동굴을 발견했습니다.\n\n동굴 속은 사방이 살아있는 살 덩어리로 막혀있어 앞으로 나아갈 수 없습니다. 살덩이를 공격해 파괴하세요.\n\n동굴의구조는 불안정해 보입니다. 살덩이 뒤에 무엇이 있는지 알아내면, 굴을 붕괴시키고 지하 통로를 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
+  <LetterGateEntered>지하 통로 깊숙한 곳에서 살짐승으로 가득한 거대한 동굴을 발견했습니다.\n\n동굴 속은 사방이 살아있는 살덩어리로 막혀있어 앞으로 나아갈 수 없습니다. 살덩이를 공격해 파괴하세요.\n\n동굴의 구조는 불안정해 보입니다. 살덩이 뒤에 무엇이 있는지 알아내면, 굴을 붕괴시키고 지하 통로를 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
   <LetterLabelDreadmeldWarning>꿈틀거리는 소리</LetterLabelDreadmeldWarning> 
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
@@ -336,9 +336,9 @@
   <Emerging>메탈호러 출현 중</Emerging>
   
   <!-- EN: Implanted before arrival at your colony -->
-  <ImplantSourceUnknown>정착지 도착 전에 이식됨</ImplantSourceUnknown>
+  <ImplantSourceUnknown>정착지 도착 전에 감염됨</ImplantSourceUnknown>
   <!-- EN: Implanter insectoid -->
-  <InsectImplant>이식자 곤충</InsectImplant>
+  <InsectImplant>곤충으로부터 감염됨</InsectImplant>
   <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
   <SleepImplant>수면 중 {SOURCE_nameDef}에 의해 감염됨</SleepImplant>
   <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
@@ -394,7 +394,7 @@
   <LetterInterrogationUnlocked>수감자 “심문” 상호작용을 사용할 수 있습니다.</LetterInterrogationUnlocked>
   
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
-  <LetterGrayFleshMethodOne>의심되는 사람을 감금하고 간수를 보내 진짜 정체에 대해 심문하세요. 이 과정은 오랜 시간이 걸릴 수 있습니다.</LetterGrayFleshMethodOne>
+  <LetterGrayFleshMethodOne>수상한 사람을 감금하고 간수를 보내 심문하세요. 이상 현상을 알아내는 과정에는 오랜 시간이 걸릴 수 있습니다.</LetterGrayFleshMethodOne>
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
   <LetterGrayFleshMethodTwo>더 많은 회색 살점을 수집하여 분석하고, 이 위협의 생체신호를 확인하세요. 그 후 외과적 검사를 시행해 해당 생체신호를 찾아내세요. 충분한 샘플을 모으는 데에는 오랜 시간이 걸릴 수 있으며, 검사에는 침습적 수술이 필요합니다.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
@@ -437,7 +437,7 @@
   <!-- EN: Will consume corpses and meat placed nearby. -->
   <HarbingerTreeNotConsuming>근처에 놓인 시체와 고기를 섭취합니다.</HarbingerTreeNotConsuming>
   <!-- EN: Being consumed by harbinger tree. -->
-  <ConsumedByHarbingerTree>전조의 나무에 의해 섭취되는 중입니다.</ConsumedByHarbingerTree>
+  <ConsumedByHarbingerTree>전조의 나무에 섭취되는 중입니다.</ConsumedByHarbingerTree>
   <!-- EN: flesh consumption -->
   <FleshConsumption>살 섭취</FleshConsumption>
   <!-- EN: Create corpse stockpile -->
