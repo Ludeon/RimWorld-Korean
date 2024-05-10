@@ -203,8 +203,14 @@
   <RitualTargetConnectedGauranlenTree>이미 {PAWN_nameDef}(와)과 교감함</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite}의 교감이 최근 끊어졌습니다. {1} 후 다시 교감할 수 있습니다.</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>각 참여자마다 {0}개의 목재가 필요합니다(총 {2}명). 보유 중인 목재는 {1}개입니다.</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>참여자마다 {0} 목재가 필요합니다(총 {1}개).</RitualTargetWoodInfo> <!-- text_todo -->
+  <!-- EN: {0} participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>참여자 {0}명이 충분한 목재에 접근할 수 없습니다.</RitualTargetWoodInfoAppend> <!-- text_todo -->
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>참여자 {0}명이 충분한 목재에 접근할 수 없습니다.</RitualTargetWoodInfoAppendMultiple> <!-- text_todo -->
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort}(이)가 충분한 목재에 접근할 수 없습니다.</RitualTargetWoodInfoWarning> <!-- text_todo -->
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0}(이)가 의식 대상에 접근할 수 있어야 합니다.</RitualTargetUnreachable>
   <!-- EN: Accuse -->

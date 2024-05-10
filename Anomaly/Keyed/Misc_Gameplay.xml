@@ -288,8 +288,8 @@
   <ActivityGizmo>활성</ActivityGizmo>
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>자동 억제</ActivitySuppressionTooltipTitle>
-  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {PAWN_labelShort}. -->
-  <ActivitySuppressionTooltipDisabled>자동 억제가 현재 비활성화되어있습니다. 활성화하여 간수가 {PAWN_labelShort}(을)를 억제하도록 하세요.</ActivitySuppressionTooltipDisabled>
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
+  <ActivitySuppressionTooltipDisabled>자동 억제가 현재 비활성화되어있습니다. 활성화하여 간수가 {0}(을)를 억제하도록 하세요.</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
   <ActivitySuppressionTooltipDesc>{0}의 활성 등급은 시간에 따라 증가합니다. {0}(이)가 다쳤거나 화났다면 활동은 더 빠르게 증가합니다.\n\n만약 활성 등급이 100%에 도달하면, {0}(이)가 활성화됩니다.\n\n간수는 {0}(을)를 억제하여 활성 등급을 안전한 상태로 유지할 수 있습니다.\n\n간수는 실체의 활성 등급이 지정된 수치({LEVEL})보다 높아지면 억제를 시도합니다. 높은 활성 등급을 가진 실체를 조사하면 더 많은 지식을 얻게 됩니다.</ActivitySuppressionTooltipDesc>
   <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
@@ -388,7 +388,7 @@
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>회색 살점</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
-  <LetterGrayFleshDiscovered>{PAWN_nameDef}(이)가 살점 조각을 발견했습니다. 작은 금속 입자들로 인해 회색으로 변색된 인간의 피부처럼 보입니다. 누군가의 살이 액화되는 과정에서 벗겨진 것이 분명합니다.\n\n이곳의 누군가는 보이는 것과 다를지도 모릅니다.\n\n사칭자를 찾아내는 방법은 여러 가지가 있습니다.\n\n{METHODS}\n\n경고: 일부 기생충은 숙주의 정신을 조종할 수 있고, 심지어 다른 이들에게 전파될 수도 있습니다.</LetterGrayFleshDiscovered>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef}(이)가 살점 조각을 발견했습니다. 작은 금속 입자들로 회색으로 변색된 인간의 피부처럼 보입니다. 누군가의 살이 액화되는 과정에서 벗겨진 것이 분명합니다.\n\n이곳의 누군가는 보이는 것과 다를지도 모릅니다.\n\n사칭자를 찾아내는 방법은 여러 가지가 있습니다.\n\n{METHODS}\n\n경고: 일부 기생충은 숙주의 정신을 조종할 수 있고, 심지어 다른 이들에게 전파될 수도 있습니다.</LetterGrayFleshDiscovered>
   
   <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
   <LetterInterrogationUnlocked>수감자 “심문” 상호작용을 사용할 수 있습니다.</LetterInterrogationUnlocked>
