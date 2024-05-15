@@ -358,12 +358,12 @@
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>일부 대상에 접근할 수 없어 {1}(이)가 수송 포드 적재를 완료할 수 없습니다. ({2_labelShort})</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>일부 물품 또는 사람을 사용할 수 없기 때문에 {1}(이)가 {0} 입장 및 적재를 완료할 수 없습니다. ({2_labelShort})</MessageCantLoadMoreIntoPortal>
+  <MessageCantLoadMoreIntoPortal>일부 대상에 접근할 수 없어 {1}(이)가 {0}에 들어갈 수 없습니다. ({2_labelShort})</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>선택한 목적지를 인식할 수 없습니다.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>수송 포드를 목적지까지 보내기 위해서는 각각의 발사대에 적어도 {0}개의 화학연료가 필요합니다.</MessageTransportPodsDestinationIsTooFar>
+  <MessageTransportPodsDestinationIsTooFar>목적지까지 수송 포드를 보내려면, 각 발사대마다 최소 {0}개의 화학 연료를 필요로 합니다.</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>상단을 재구성했습니다.</MessageReformedCaravan>
@@ -374,17 +374,17 @@
   <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>장착 불가: {0}</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
-  <MessageCantEquipIncapableOfViolence>장착 불가: {1_labelShort}(은)는 폭력적인 일을 할 수 없습니다.</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfViolence>장착 불가: {1_labelShort}(은)는 싸울 수 없습니다.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
   <MessageCantEquipIncapableOfShooting>장착 불가: {1_labelShort}(은)는 사격할 수 없습니다.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>장착 불가: 조작이 불가능합니다.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
-  <MessageCantWearApparelMissingBodyParts>착용 불가. {1_labelShort}(은)는 필요한 신체 부위가 없습니다.</MessageCantWearApparelMissingBodyParts>
+  <MessageCantWearApparelMissingBodyParts>착용 불가: {1_labelShort}(은)는 필요한 신체 부위가 없습니다.</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
   <MessageCantUnequipLockedApparel>정착민이 장비 해제를 거부합니다.</MessageCantUnequipLockedApparel>
   <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
-  <MessageWouldReplaceLockedApparel>착용 불가. {1_labelShort}(이)가 장비 대체를 거부합니다.</MessageWouldReplaceLockedApparel>
+  <MessageWouldReplaceLockedApparel>착용 불가: {1_labelShort}(이)가 장비 대체를 거부합니다.</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>{DESIGNATED_labelShort}(을)를 도축하면 {BONDED_labelShort}(이)가 좋아하지 않을 것입니다.</MessageSlaughteringBondedAnimal>

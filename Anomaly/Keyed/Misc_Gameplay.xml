@@ -200,7 +200,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskTreeMutationLetterLabel>오벨리스크 돌연변이</ObeliskTreeMutationLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden pulse of energy. The obelisk has twisted a nearby tree into a harbinger tree. These monstrous trees are capable of feeding on nearby corpses and raw meat. -->
-  <ObeliskTreeMutationLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 에너지가 갑자기 고동치는 것을 관찰했습니다. 오벨리스크는 근처의 나무를 뒤틀어 전조의 나무로 만들었습니다. 이 괴물 같은 나무는 근처의 시체와 생고기를 먹을 수 있습니다.</ObeliskTreeMutationLetter>
+  <ObeliskTreeMutationLetter>오벨리스크와 상호작용하는 동안, {PAWN_nameDef}(은)는 에너지가 갑자기 고동치는 것을 관찰했습니다. 오벨리스크는 근처의 나무를 뒤틀어 전조나무로 만들었습니다. 이 괴물 같은 나무는 근처의 시체와 생고기를 먹을 수 있습니다.</ObeliskTreeMutationLetter>
 
   <!-- EN: Obelisk duplicate -->
   <ObeliskDuplicationLetterLabel>오벨리스크 복제</ObeliskDuplicationLetterLabel>
@@ -210,7 +210,7 @@
   <!-- EN: Obelisk failure -->
   <ObeliskDuplicationFailedLetterLabel>오벨리스크 실패</ObeliskDuplicationFailedLetterLabel>
   <!-- EN: {PAWN_nameDef} attempted to trigger the obelisk but nothing occurred. Something about {PAWN_nameDef} is preventing the obelisk from duplicating {PAWN_objective}. -->
-  <ObeliskDuplicationFailedLetter>{PAWN_nameDef}(이)가 오벨리스크를 작동시키려고 시도했지만 아무것도 일어나지 않았습니다. {PAWN_nameDef}의 무언가가 오벨리스크가 {PAWN_objective}(을)를 복사하는 걸 막고 있습니다.</ObeliskDuplicationFailedLetter>
+  <ObeliskDuplicationFailedLetter>{PAWN_nameDef}(이)가 오벨리스크를 활성화하려 했으나 아무 반응이 없었습니다. 오벨리스크가 {PAWN_nameDef}(을)를 복제하지 못하게 하는 무언가가 있습니다.</ObeliskDuplicationFailedLetter>
   
   <!-- EN: {PAWN_nameDef} has successfully triggered obelisk duplication. -->
   <ObeliskDuplicationSuccessMessage>{PAWN_nameDef}(이)가 성공적으로 오벨리스크 복제를 작동시켰습니다.</ObeliskDuplicationSuccessMessage>
@@ -288,12 +288,12 @@
   <ActivityGizmo>활성</ActivityGizmo>
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>자동 억제</ActivitySuppressionTooltipTitle>
-  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
-  <ActivitySuppressionTooltipDisabled>자동 억제가 현재 비활성화되어있습니다. 활성화하여 간수가 {0}(을)를 억제하도록 하세요.</ActivitySuppressionTooltipDisabled>
-  <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>{0}의 활성 등급은 시간에 따라 증가합니다. {0}(이)가 다쳤거나 화났다면 활동은 더 빠르게 증가합니다.\n\n만약 활성 등급이 100%에 도달하면, {0}(이)가 활성화됩니다.\n\n간수는 {0}(을)를 억제하여 활성 등급을 안전한 상태로 유지할 수 있습니다.\n\n간수는 실체의 활성 등급이 지정된 수치({LEVEL})보다 높아지면 억제를 시도합니다. 높은 활성 등급을 가진 실체를 조사하면 더 많은 지식을 얻게 됩니다.</ActivitySuppressionTooltipDesc>
-  <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>{PAWN_labelShort}의 활성 등급이 {LEVEL}보다 높아진 경우 자동으로 억제할지를 결정합니다.\n\n자동 억제는 현재 {ONOFF} 상태입니다.</ActivitySuppressionToggleTooltipDesc>
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress {THING_labelNoParenthesisDef}. -->
+  <ActivitySuppressionTooltipDisabled>자동 억제가 현재 비활성화되어있습니다. 활성화하여 간수가 {THING_labelNoParenthesisDef}(을)를 억제하도록 하세요.</ActivitySuppressionTooltipDisabled>
+  <!-- EN: {THING_labelNoParenthesisDef}'s activity level rises over time. Activity rises faster if {THING_labelNoParenthesisDef} is damaged or provoked.\n\nIf the activity level reaches 100%, {THING_labelNoParenthesisDef} will activate.\n\nWardens can suppress {THING_labelNoParenthesisDef} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
+  <ActivitySuppressionTooltipDesc>{THING_labelNoParenthesisDef}의 활성 등급은 시간에 따라 증가합니다. {THING_labelNoParenthesisDef}(이)가 다쳤거나 화났다면 활동은 더 빠르게 증가합니다.\n\n만약 활성 등급이 100%에 도달하면, {THING_labelNoParenthesisDef}(이)가 활성화됩니다.\n\n간수는 {THING_labelNoParenthesisDef}(을)를 억제하여 활성 등급을 안전한 상태로 유지할 수 있습니다. 실체의 활성 등급이 지정된 수치({LEVEL})보다 높아지면 억제할 것입니다.\n\n높은 활성 등급을 가진 실체를 조사하면 더 많은 지식을 얻게 됩니다.</ActivitySuppressionTooltipDesc>
+  <!-- EN: This determines whether {THING_labelNoParenthesisDef} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
+  <ActivitySuppressionToggleTooltipDesc>{THING_labelNoParenthesisDef}의 활성 등급이 {LEVEL}보다 높아진 경우 자동으로 억제할지를 결정합니다.\n\n자동 억제는 현재 {ONOFF} 상태입니다.</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
@@ -429,21 +429,21 @@
 
   <!-- Harbinger Tree -->
   <!-- EN: near harbinger tree -->
-  <HarbingerTreeConsumption>근처 전조의 나무</HarbingerTreeConsumption>
+  <HarbingerTreeConsumption>근처 전조나무</HarbingerTreeConsumption>
   <!-- EN: A new harbinger tree has sprouted. -->
-  <HarbingerTreeSprouted>새로운 전조의 나무가 싹을 틔웠습니다.</HarbingerTreeSprouted>
+  <HarbingerTreeSprouted>새로운 전조나무가 싹을 틔웠습니다.</HarbingerTreeSprouted>
   <!-- EN: Consuming flesh. -->
   <HarbingerTreeConsuming>살 섭취 중.</HarbingerTreeConsuming>
   <!-- EN: Will consume corpses and meat placed nearby. -->
   <HarbingerTreeNotConsuming>근처에 놓인 시체와 고기를 섭취합니다.</HarbingerTreeNotConsuming>
   <!-- EN: Being consumed by harbinger tree. -->
-  <ConsumedByHarbingerTree>전조의 나무에 섭취되는 중입니다.</ConsumedByHarbingerTree>
+  <ConsumedByHarbingerTree>전조나무에 섭취되는 중입니다.</ConsumedByHarbingerTree>
   <!-- EN: flesh consumption -->
   <FleshConsumption>살 섭취</FleshConsumption>
   <!-- EN: Create corpse stockpile -->
   <CreateCorpseStockpile>시체 저장구역 생성</CreateCorpseStockpile>
   <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
-  <CreateCorpseStockpileDesc>전조의 나무 주위에 시체를 위한 투기 저장구역을 생성하세요.\n\n전조의 나무는 근처 시체와 생고기를 섭취할 것입니다. 잘 먹으면 나무는 더 빨리 자랄 것이며 새로운 전조의 나무를 생성할 것입니다.</CreateCorpseStockpileDesc>
+  <CreateCorpseStockpileDesc>전조나무 주위에 시체를 위한 투기 저장구역을 생성하세요.\n\n전조나무는 근처 시체와 생고기를 섭취할 것입니다. 잘 먹으면 나무는 더 빨리 자랄 것이며 새로운 전조나무를 생성할 것입니다.</CreateCorpseStockpileDesc>
 
   <!-- EN: Void node has been disabled. -->
   <VoidNodeDisabled>공허 노드가 비활성화되었습니다.</VoidNodeDisabled>
@@ -633,7 +633,7 @@
   <!-- EN: {PAWN_labelShort} has become intrigued by the golden cube. -->
   <MessageGoldenCubeInterest>{PAWN_labelShort}(이)가 황금 큐브를 흥미로워하고 있습니다.</MessageGoldenCubeInterest>
   <!-- EN: {PAWN_labelShort} is enraged that {PAWN_possessive} cube sculpture was removed. {PAWN_pronoun} might become violent. -->
-  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort}(은)는 {PAWN_possessive} 큐브 조각상이 파괴되어 화가 났습니다. {PAWN_pronoun}(은)는 폭력적으로 변할 수 있습니다.</MessageGoldenCubeSculptureDestroyed>
+  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort}(은)는 {PAWN_possessive} 큐브 조각상이 파괴되어 화가 났습니다. {PAWN_pronoun}는 폭력적으로 변할 수 있습니다.</MessageGoldenCubeSculptureDestroyed>
 
   <!-- EN: {PAWN_labelShort} refuses to deactivate the golden cube. -->
   <CannotDisableCube>{PAWN_labelShort}(이)가 황금 큐브 비활성화를 거부합니다.</CannotDisableCube>
@@ -641,7 +641,7 @@
   <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>큐브 혼수 상태: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
-  <LetterGoldenCubeComa>{PAWN_labelShort}의 큐브 금단 현상이 {PAWN_objective}(을)를 혼수 상태로 만들었습니다. {PAWN_pronoun}(은)는 황금 큐브의 정신적 연결이 완전히 소멸될 때까지 혼수 상태에 있을 것입니다.</LetterGoldenCubeComa>
+  <LetterGoldenCubeComa>{PAWN_labelShort}의 큐브 금단 현상이 {PAWN_objective} 혼수 상태로 만들었습니다. {PAWN_pronoun}는 황금 큐브의 정신적 연결이 완전히 소멸될 때까지 혼수 상태에 있을 것입니다.</LetterGoldenCubeComa>
 
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
   <CubeDeactivationConfirmation>황금 큐브를 비활성화하면 큐브에 매료된 모든 사람이 폭력적인 광분에 빠집니다. 큐브에 매료된 상단 구성원은 정착지를 영구히 이탈합니다.</CubeDeactivationConfirmation>

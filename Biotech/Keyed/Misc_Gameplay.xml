@@ -144,7 +144,7 @@
   <!-- EN: Auto-wake -->
   <AutoWake>자동 기상</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>설정하면 {PAWN_possessive} 죽음안식이 완료되었을 때 {PAWN_nameDef}(이)가 자동으로 깨어납니다.\n\n비활성화 하면 {PAWN_pronoun}는 수동으로 {PAWN_objective} 깨울 때까지 죽음안식을 계속합니다.</AutoWakeDesc>
+  <AutoWakeDesc>설정하면 {PAWN_possessive} 죽음안식이 완료되었을 때 {PAWN_nameDef}(이)가 자동으로 깨어납니다.\n\n비활성화 하면 {PAWN_pronoun}는 수동으로 깨울 때까지 죽음안식을 계속합니다.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef}(은)는 죽음안식 중입니다.</IsDeathresting>
   <!-- EN: cannot deathrest -->
@@ -322,7 +322,7 @@
   <!-- EN: Stop all work on the current xenogerm. -->
   <CancelXenogermDesc>현재 변형이식체에 대한 모든 작업을 중지합니다.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>모든 유전자팩 허용</AllowAllGenepacks> 
+  <AllowAllGenepacks>모든 유전자묶음 허용</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
   <AllowAllGenepacksDesc>정착민들이 여기에 아무 유전자 묶음을 보관 할 수 있는지에 대한 여부입니다. 이 설정을 해제하면 원하는 유전자 묶음만 보관되도록 할 수 있습니다.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
@@ -332,9 +332,9 @@
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
   <GenepacksIgnoredDesc>보관함에 지정되지 않은 모든 유전자 묶음을 꺼냅니다.</GenepacksIgnoredDesc> 
   <!-- EN: Genepacks to load -->
-  <GenepacksToLoad>탑재할 유전자팩</GenepacksToLoad> 
+  <GenepacksToLoad>탑재할 유전자묶음</GenepacksToLoad> 
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>무시할 유전자팩</GenepacksToIgnore> 
+  <GenepacksToIgnore>무시할 유전자묶음</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
   <EjectGenepackDesc>이 유전자묶음을 보관함에서 꺼냅니다.</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
@@ -360,7 +360,7 @@
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
   <ImplantXenogermWarningDesc>변형이식체를 이식하면 {PAWN_nameDef}(이)가 혼수상태에 빠지게 됩니다. 평균적으로 {COMADURATION} 동안 지속됩니다. 혼수상태는 의사의 의료 기술과 의료시설의 품질에 따라 다릅니다.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>추가로 변형이식체를 이식하면 기존의 변형인자를 덮어씁니다. {PAWN_nameDef}의 현재 인종형은 '{XENOTYPE}'입니다. {PAWN_pronoun}(은)는 다음과 같은 변형인자가 있습니다.\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>추가로 변형이식체를 이식하면 기존의 변형인자를 덮어씁니다. {PAWN_nameDef}의 현재 인종형은 '{XENOTYPE}'입니다. {PAWN_pronoun}는 다음과 같은 변형인자가 있습니다.\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>이식 후, {PAWN_nameDef}의 신진대사 값은 {MET}이고 배고픔 계수는 {CONSUMPTION}입니다.\n</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -384,7 +384,7 @@
   <!-- EN: {0_labelShort} is exposed to the sky. -->
   <ThingIsSkyExposed>{0_labelShort}(이)가 태양에 노출됐습니다.</ThingIsSkyExposed>
   <!-- EN: Insert person -->
-  <InsertPerson>사람 삽입</InsertPerson>
+  <InsertPerson>인간 투입</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
   <InsertPersonGeneExtractorDesc>유전자 추출기에 사람을 집어넣습니다. 이들의 유전 물질이 추출되어 이들이 가진 무작위의 유전자를 포함하는 유전자묶음이 생성됩니다.\n\n유전자 추출은 고통스러우며, 대상을 며칠동안 약하고 피곤한 상태로 만듭니다. 이 작업은 아직 유전자 재성장이 끝나지 않은이들에게 치명적입니다.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
@@ -434,7 +434,7 @@
   <!-- EN: Non-{GENE} romance chance -->
   <MissingGeneRomanceChance>비{GENE} 사랑할 기회</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
-  <NotInGeneBank>유전자 저장고에 없음</NotInGeneBank>
+  <NotInGeneBank>유전자 저장고에 보관되지 않음</NotInGeneBank>
 
   <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
@@ -614,7 +614,7 @@
   <!-- EN: Babies are not allowed -->
   <SubcoreScannerBabyNotAllowed>아기 사용 불가</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
-  <InsertPersonSubcoreScannerDesc>{0}에 사람을 넣습니다.</InsertPersonSubcoreScannerDesc>
+  <InsertPersonSubcoreScannerDesc>{0}에 희생자를 투입합니다. 대상은 죽습니다.</InsertPersonSubcoreScannerDesc>
 
   <!-- EN: Duration (hours) -->
   <DurationHours>기간</DurationHours>
