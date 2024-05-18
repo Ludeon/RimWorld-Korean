@@ -195,23 +195,23 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [target] [characteristic](을)를 [madefunof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [target] [characteristic][madefunof].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]의</li>
     <li>target->[RECIPIENT_nameDef] [PersonFamily]의</li>
-    <li>madefunof->놀림</li>
-    <li>madefunof->무례하게 굼</li>
-    <li>madefunof->무시함</li>
-    <li>madefunof->수치를 줌</li>
-    <li>madefunof->나쁘게 말함</li>
-    <li>madefunof->부정적으로 말함</li>
-    <li>madefunof->비웃음</li>
-    <li>madefunof->실소함</li>
-    <li>madefunof->트집잡음</li>
-    <li>madefunof->경시함</li>
-    <li>madefunof->경멸함</li>
-    <li>madefunof->비꼼</li>
+    <li>madefunof->(을)를 얕잡아봄</li>
+    <li>madefunof->에 대해 무례하게 말함</li>
+    <li>madefunof->(을)를 슬며시 무시함</li>
+    <li>madefunof->(을)를 욕함</li>
+    <li>madefunof->에 대해 나쁘게 말함</li>
+    <li>madefunof->에 대해 부정적으로 말함</li>
+    <li>madefunof->(을)를 비웃음</li>
+    <li>madefunof->(을)를 무시함</li>
+    <li>madefunof->(을)를 트집 잡음</li>
+    <li>madefunof->(을)를 경시함</li>
+    <li>madefunof->(을)를 경멸함</li>
+    <li>madefunof->(을)를 비꼼</li>
   </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>

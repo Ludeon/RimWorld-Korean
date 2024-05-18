@@ -14,7 +14,7 @@
   <!-- EN: cleaning speed multiplier -->
   <CleaningSpeed.label>청소 속도 계수</CleaningSpeed.label>
   <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
-  <CleaningSpeed.description>땅에서 오물을 청소하는 속도에 곱해집니다.</CleaningSpeed.description>
+  <CleaningSpeed.description>땅에서 오물을 청소하는 속도의 계수입니다.</CleaningSpeed.description>
   
   <!-- EN: construction speed -->
   <ConstructionSpeed.label>건설 속도</ConstructionSpeed.label>
@@ -74,7 +74,7 @@
   <!-- EN: research speed -->
   <ResearchSpeed.label>연구 속도</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
-  <ResearchSpeed.description>연구 과제를 수행하는 속도와 탐색 장비를 사용하여 빠르게 발견할 수 있는 속도입니다.</ResearchSpeed.description>
+  <ResearchSpeed.description>연구하는 속도와 탐색 장비를 사용해 대상을 발견하는 속도입니다.</ResearchSpeed.description>
   
   <!-- EN: smoothing speed -->
   <SmoothingSpeed.label>표면 다듬는 속도</SmoothingSpeed.label>
@@ -84,7 +84,7 @@
   <!-- EN: global work speed -->
   <WorkSpeedGlobal.label>전역 작업 속도</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
-  <WorkSpeedGlobal.description>모든 종류의 작업 속도에 곱해집니다.</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.description>모든 종류의 작업 속도 계수입니다.</WorkSpeedGlobal.description>
   <!-- EN: Offset from mechanitor -->
   <WorkSpeedGlobal.parts.2.label>메카나이터 영향</WorkSpeedGlobal.parts.2.label>
   
