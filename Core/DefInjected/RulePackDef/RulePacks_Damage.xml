@@ -15,17 +15,17 @@
     <li>destroyed_past->detonated</li>
   -->
   <Damage_Bomb.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->불탐</li>
-    <li>damaged_past(p=2)->폭파됨</li>
-    <li>damaged_past->상처 입음</li>
-    <li>damaged_past->피해를 받음</li>
-    <li>damaged_past->부상 당함</li>
-    <li>damaged_past->다침</li>
-    <li>destroyed_past->박살남</li>
-    <li>destroyed_past->짓이겨짐</li>
-    <li>destroyed_past->뭉개짐</li>
-    <li>destroyed_past->파괴됨</li>
-    <li>destroyed_past->사라짐</li>
+    <li>damaged_past(p=2)->불태움</li>
+    <li>damaged_past(p=2)->폭파시킴</li>
+    <li>damaged_past->상처 입힘</li>
+    <li>damaged_past->부상 입힘</li>
+    <li>damaged_past->부상 입힘</li>
+    <li>damaged_past->다치게 함</li>
+    <li>destroyed_past->박살냄</li>
+    <li>destroyed_past->짓이김</li>
+    <li>destroyed_past->뭉개버림</li>
+    <li>destroyed_past->파괴함</li>
+    <li>destroyed_past->제거함</li>
   </Damage_Bomb.rulePack.rulesStrings>
   
   <!-- EN:
@@ -35,9 +35,9 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_EMP.rulePack.rulesStrings>
-    <li>damaged_past->감전됨</li>
-    <li>damaged_past->충격받음</li>
-    <li>damaged_past->경직됨</li>
+    <li>damaged_past->감전시킴</li>
+    <li>damaged_past->충격을 줌</li>
+    <li>damaged_past->경직시킴</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_EMP.rulePack.rulesStrings>
   
@@ -49,10 +49,10 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Extinguish.rulePack.rulesStrings>
-    <li>damaged_past->소화됨</li>
-    <li>damaged_past->뒤덮여짐</li>
-    <li>damaged_past->거품이 임</li>
-    <li>damaged_past->불이 꺼짐</li>
+    <li>damaged_past->구하기 위해 불을 진압함</li>
+    <li>damaged_past->물에 적심</li>
+    <li>damaged_past->소방거품이 덮음</li>
+    <li>damaged_past->물로 식힘</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Extinguish.rulePack.rulesStrings>
   
@@ -91,38 +91,38 @@
     <li>destroyed_present->detonating</li>
   -->
   <Damage_Flame.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->불탐</li>
-    <li>damaged_past(p=2)->타오름</li>
-    <li>damaged_past(p=2)->불탐</li>
-    <li>damaged_past(p=2)->화상을 입음</li>
-    <li>damaged_past(p=2)->불타오름</li>
-    <li>damaged_past(p=2)->그슬림</li>
+    <li>damaged_past(p=2)->불태움</li>
+    <li>damaged_past(p=2)->태움</li>
+    <li>damaged_past(p=2)->불타게 함</li>
+    <li>damaged_past(p=2)->화상 입힘</li>
+    <li>damaged_past(p=2)->불태워버림</li>
+    <li>damaged_past(p=2)->그슬리게 함</li>
     <li>damaged_past->상처 입음</li>
-    <li>damaged_past->피해를 받음</li>
-    <li>damaged_past->부상 당함</li>
-    <li>damaged_past->다침</li>
-    <li>damaged_present(p=2)->불태움</li>
+    <li>damaged_past->부상 입힘</li>
+    <li>damaged_past->부상 입힘</li>
+    <li>damaged_past->다치게 함</li>
+    <li>damaged_present(p=2)->불탐</li>
     <li>damaged_present(p=2)->그슬림</li>
-    <li>damaged_present(p=2)->불태움</li>
+    <li>damaged_present(p=2)->불탐</li>
     <li>damaged_present(p=2)->그슬림</li>
-    <li>damaged_present(p=2)->태움</li>
-    <li>damaged_present(p=2)->그슬림</li>
-    <li>damaged_present->상처 줌</li>
-    <li>damaged_present->손상시킴</li>
-    <li>damaged_present->상처 입힘</li>
-    <li>damaged_present->상처 줌</li>
-    <li>destroyed_past->불타 없어짐</li>
-    <li>destroyed_past->소각됨</li>
-    <li>destroyed_past->탄화됨</li>
-    <li>destroyed_past->뭉개짐</li>
-    <li>destroyed_past->파괴됨</li>
-    <li>destroyed_past->사라짐</li>
+    <li>damaged_present(p=2)->태워짐</li>
+    <li>damaged_present(p=2)->그을림</li>
+    <li>damaged_present->상처 입음</li>
+    <li>damaged_present->손상됨</li>
+    <li>damaged_present->상처 입음</li>
+    <li>damaged_present->부상 입음</li>
+    <li>destroyed_past->불태워버림</li>
+    <li>destroyed_past->소각함</li>
+    <li>destroyed_past->숯덩이로 만듦</li>
+    <li>destroyed_past->뭉개버림</li>
+    <li>destroyed_past->파괴함</li>
+    <li>destroyed_past->제거함</li>
     <li>destroyed_present->불타 없어짐</li>
-    <li>destroyed_present->소각시킴</li>
-    <li>destroyed_present->탄화됨</li>
+    <li>destroyed_present->소각됨</li>
+    <li>destroyed_present->숯덩이가 됨</li>
     <li>destroyed_present->파괴됨</li>
-    <li>destroyed_present->파괴함</li>
-    <li>destroyed_present->없애버림</li>
+    <li>destroyed_present->파괴됨</li>
+    <li>destroyed_present->제거됨</li>
   </Damage_Flame.rulePack.rulesStrings>
   
   <!-- EN:
@@ -132,9 +132,9 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Smoke.rulePack.rulesStrings>
-    <li>damaged_past->연막이 낌</li>
-    <li>damaged_past->연막이 낌</li>
-    <li>damaged_past->연막이 낌</li>
+    <li>damaged_past->연막으로 앞이 안 보이게 함</li>
+    <li>damaged_past->연막으로 흐리게 앞을 가림</li>
+    <li>damaged_past->연막으로 방해함</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Smoke.rulePack.rulesStrings>
   
@@ -146,10 +146,10 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Stun.rulePack.rulesStrings>
-    <li>damaged_past->기절함</li>
-    <li>damaged_past->혼란스러워짐</li>
-    <li>damaged_past->동작을 멈춤</li>
-    <li>damaged_past->현기증을 느낌</li>
+    <li>damaged_past->기절시킴</li>
+    <li>damaged_past->혼란스럽게 함</li>
+    <li>damaged_past->꼼짝 못하게 함</li>
+    <li>damaged_past->현기증 나게 함</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Stun.rulePack.rulesStrings>
   

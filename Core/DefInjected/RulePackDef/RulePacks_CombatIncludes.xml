@@ -20,14 +20,14 @@
     <li>scraped_present->튕겨나감</li>
     <li>scraped_present->표면만 긁음</li>
     <li>scraped_present->튕겨나감</li>
-    <li>scraped_present->긁고 지나감</li>
+    <li>scraped_present->긁고만 지나감</li>
     <li>scraped_present->미끄러짐</li>
-    <li>scraped_past->튕겼음</li>
+    <li>scraped_past->튕겨짐</li>
     <li>scraped_past->튕겨나갔음</li>
     <li>scraped_past->표면만 긁었음</li>
     <li>scraped_past->튕겨나갔음</li>
-    <li>scraped_past->긁고 지나갔음</li>
-    <li>scraped_past->미끄러짐</li>
+    <li>scraped_past->긁고만 지나갔음</li>
+    <li>scraped_past->휘어맞음</li>
   </Combat_DeflectIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -77,9 +77,9 @@
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
-    <li>result(p=1)->[RECIPIENT_possessive] [targetlist](을)를 [damaged_present]</li>
-    <li>result(p=0.2)->[RECIPIENT_possessive] [targetlist](을)를 [damaged_present]. [flavortext_consequence]</li>
-    <li>result(p=0.1)->[RECIPIENT_possessive] [targetlist](을)를 [strikeAdv] [damaged_present]</li>
+    <li>result(p=1)->[RECIPIENT_possessive] [targetlist](이)가 [damaged_present]</li>
+    <li>result(p=0.2)->[RECIPIENT_possessive] [targetlist](이)가 [damaged_present]. [flavortext_consequence]</li>
+    <li>result(p=0.1)->[RECIPIENT_possessive] [targetlist](이)가 [strikeAdv] [damaged_present]</li>
     <li>strikeAdv->고통스럽게</li>
     <li>strikeAdv->끔찍하게</li>
     <li>strikeAdv->잔인하게</li>
@@ -145,8 +145,8 @@
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label](와)과 [recipient_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label]</li>
     <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], [recipient_part3_label]</li>
-    <li>damaged_present(deflected!=True)->상처 입힘</li>
-    <li>damaged_present(deflected!=True)->부상 입힘</li>
+    <li>damaged_present(deflected!=True)->상처 입음</li>
+    <li>damaged_present(deflected!=True)->부상 입음</li>
     <li>destroyed(p=0.5)->부숴버림</li>
     <li>destroyed(p=0.5)->붕괴시켜버림</li>
     <li>destroyed(p=0.5)->파괴함</li>
@@ -166,7 +166,7 @@
     <li>painevent(recipient_flesh!=Mechanoid)->격통으로</li>
     <li>painevent(recipient_flesh==Normal)->부상 때문에</li>
     <li>painevent->부상 때문에</li>
-    <li>painevent->부상 때문에</li>
+    <li>painevent->상처 때문에</li>
     <li>to-></li>
     <li>to-></li>
   </Combat_MeleeIncludes.rulePack.rulesStrings>

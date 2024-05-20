@@ -142,19 +142,19 @@
     <li>askerEnemies(priority=-1)->his enemies</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->근처에 있던 상인에게 호출이 왔습니다. [threat](이)가 뒤쫓고 있습니다! 당신이 신호를 보내 [map_definite] 쪽으로 유도해서 탈출할 수 있게 도와달라고 합니다.\n\n수락하면 [askerEnemies](이)가 근처 지역을 점령해 당신을 괴롭힙니다. {replace: [site/allSitePartsDescriptions]; "."-""}(이)가 파괴할 때까지 해당 지역에 계속 남아있을 것입니다.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 도움을 요청합니다. [askerEnemies](이)가 [asker_possessive] 정착지를 괴롭히고 있습니다. [asker_pronoun]는 신호를 보내 [map_definite] 쪽으로 유도하여 [asker_possessive] 사람들이 벗어날 수 있도록 도와달라고 합니다.\n\n수락하면 [askerEnemies](이)가 근처 지역을 점령해 당신을 괴롭힙니다. {replace: [site/allSitePartsDescriptions]; "."-""}(이)가 파괴할 때까지 해당 지역에 계속 남아있을 것입니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[map_definite] 근처를 여행 중인 [asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 도움을 요청합니다. [threat]에게 쫓기고 있으니 [map_definite]에서 신호를 보내 유인해달라고 합니다.\n\n수락하면 [askerEnemies](이)가 근처 지역을 점령해 당신을 괴롭힙니다. {replace: [site/allSitePartsDescriptions]; "."-""}(이)가 파괴할 때까지 해당 지역에 계속 남아있을 것입니다.</li>
+    <li>questDescription(askerIsNull==true)->근처에 있던 상인이 호출합니다. [threat]에게 쫓기고 있다 합니다! [map_definite]에서 신호를 보내 유인해주면 그 사이 도망가겠다고 합니다.\n\n수락하면 [askerEnemies](이)가 근처 지역을 점령하고 격퇴하기 전까지 당신을 계속 괴롭힙니다. {replace: [site/allSitePartsDescriptions]; "."-""}(을)를 주의하세요.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 도움을 요청합니다. [askerEnemies](이)가 [asker_faction_name]의 정착지를 괴롭히고 있다고 합니다. [asker_nameDef](은)는 당신이 신호를 보내 [askerEnemies](을)를 [map_definite] 쪽으로 유도해주길 바랍니다.\n\n수락하면 [askerEnemies](이)가 근처 지역을 점령하고 격퇴하기 전까지 당신을 계속 괴롭힙니다. {replace: [site/allSitePartsDescriptions]; "."-""}(을)를 주의하세요.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 도움을 요청합니다. [map_definite] 근처를 여행하다가 [threat]에게 쫓기고 있으니 신호를 보내 [map_definite] 쪽으로 유인해달라고 합니다.\n\n수락하면 [askerEnemies](이)가 근처 지역을 점령하고 격퇴하기 전까지 당신을 계속 괴롭힙니다. {replace: [site/allSitePartsDescriptions]; "."-""}(을)를 주의하세요.</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]의 [site/enemyFaction_pawnsPlural]</li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->메카노이드들</li>
-    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->메카노이드들</li>
-    <li>threat->[asker_possessive] 적들</li>
-    <li>threat(priority=-1)->그의 적들</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->메카노이드</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->메카노이드</li>
+    <li>threat->[asker_possessive] 적</li>
+    <li>threat(priority=-1)->그의 적</li>
     <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->메카노이드들</li>
-    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->메카노이드들</li>
-    <li>askerEnemies->[asker_possessive] 적들</li>
-    <li>askerEnemies(priority=-1)->그의 적들</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->메카노이드</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->메카노이드</li>
+    <li>askerEnemies->[asker_possessive] 적</li>
+    <li>askerEnemies(priority=-1)->그의 적</li>
   </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [site/site_label]</li>
