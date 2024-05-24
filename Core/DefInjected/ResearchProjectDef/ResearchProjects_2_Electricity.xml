@@ -66,14 +66,14 @@
   <BiofuelRefining.description>나무를 화학연료로 바꾸는 연료 정제기를 만들 수 있습니다.</BiofuelRefining.description>
   <!-- EN:
     <li>subject->biofuel</li>
-    <li>subject_story->was trapped when a generation ship lost power. She used her knowledge of refining to turn human remains into biofuel and restart the engines</li>
+    <li>subject_story->was trapped when a generation ship lost power. [ANYPAWN_pronoun] used [ANYPAWN_possessive] knowledge of refining to turn human remains into biofuel and restart the engines</li>
     <li>subject_story->used automated biorefineries to begin the long terraforming process on an iceworld</li>
     <li>subject_story->started a distillery to make moonshine but, realizing it was undrinkable, sold it as chemfuel instead</li>
     <li>subject_gerund->refining biofuel</li>
   -->
   <BiofuelRefining.generalRules.rulesStrings>
     <li>subject->생화학연료</li>
-    <li>subject_story->발전선이 동력을 잃었을 때 안에 갇혔습니다. 그녀는 인간의 잔해를 바이오 연료로 바꾸는 정제 지식을 이용하여 엔진을 재가동했습니다</li>
+    <li>subject_story->발전선이 동력을 잃었을 때 안에 갇혔습니다. [ANYPAWN_pronoun]는 인간의 유해를 생체 연료로 바꾸는 정제 지식을 이용하여 엔진을 재가동했습니다</li>
     <li>subject_story->자동 생체정제기를 이용하여 얼음계 행성에 대한 긴 테라포밍 과정을 시작했습니다</li>
     <li>subject_story->밀주를 만들기 위한 양조를 시작했으나, 마실 수 없다는 걸 깨닫고, 화학연료로 팔아버렸습니다</li>
     <li>subject_gerund->연료 정제</li>
@@ -380,14 +380,14 @@
   <!-- EN:
     <li>subject->nutrient paste</li>
     <li>subject_story->worked in a factory canteen and devised nutrient paste as a way to avoid all labor</li>
-    <li>subject_story->lost their taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
+    <li>subject_story->lost [ANYPAWN_possessive] taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
     <li>subject_story->advocated for the recycling of all organic matter into nutrient paste, even corpses</li>
     <li>subject_gerund->building nutrient paste dispensers</li>
   -->
   <NutrientPaste.generalRules.rulesStrings>
     <li>subject->영양죽</li>
     <li>subject_story->공장 구내식당 영양사로서 아무 일도 하지 않기 위해 영양죽을 고안했습니다</li>
-    <li>subject_story->병으로 후각을 잃은 후, 값싸고 맛없는 영양죽을 고안했습니다</li>
+    <li>subject_story->병으로 [ANYPAWN_possessive] 후각을 잃은 후, 값싸고 맛없는 영양죽을 고안했습니다</li>
     <li>subject_story->모든 유기물을 영양죽으로 재활용하는 것을 선호했습니다. 심지어 시체까지도요</li>
     <li>subject_gerund->영양죽 배급기 건설</li>
   </NutrientPaste.generalRules.rulesStrings>

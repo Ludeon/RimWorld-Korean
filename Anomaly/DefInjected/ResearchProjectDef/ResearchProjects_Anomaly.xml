@@ -9,7 +9,7 @@
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
     <li>subject_story->encountered an exiled cult master, who happily boasted about his secrets</li>
-    <li>subject_story->deepened his understanding of ritual sacrifice</li>
+    <li>subject_story->deepened [ANYPAWN_possessive] understanding of ritual sacrifice</li>
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
@@ -17,7 +17,7 @@
     <li>subject->고급 초정신 의식</li>
     <li>subject_story->오컬트 모임에 초대되었습니다</li>
     <li>subject_story->자신의 여러 비밀들을 자랑스레 뽐내는 추방된 광신도 사제를 만났습니다. </li>
-    <li>subject_story->의식의 제물에 대한 이해가 깊어졌습니다</li>
+    <li>subject_story->[ANYPAWN_possessive] 희생제에 대한 이해가 깊어졌습니다</li>
     <li>subject_story->Ix 대학의 초능력 역사 교수로 임명되었습니다</li>
     <li>subject_gerund->고급 초정신 의식 수행</li>
   </AdvancedPsychicRituals.generalRules.rulesStrings>
@@ -484,7 +484,7 @@
   <InsanityWeaponry.description>초월공학 파편을 재구성하여 적의 신경계에 충격을 주고 파괴하는 소모성 무기를 만듭니다.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
-    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
     <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
     <li>subject_story->worked in an asylum of archotech victims</li>
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
@@ -492,7 +492,7 @@
   -->
   <InsanityWeaponry.generalRules.rulesStrings>
     <li>subject->초월공학 정신이상 무기</li>
-    <li>subject_story->논문을 위해 심리전을 연구했습니다</li>
+    <li>subject_story->[ANYPAWN_possessive] 논문을 위해 심리전을 연구했습니다</li>
     <li>subject_story->제국군 대대의 패배를 지켜보고, 두려움의 가치를 배웠습니다</li>
     <li>subject_story->초월공학 피해자 정신병원에서 일했습니다</li>
     <li>subject_story->포유류의 뇌에 미치는 영향을 이해하기 위해 초월입자에 감염된 야생동물을 관찰했습니다</li>
@@ -505,7 +505,7 @@
   <JuggernautSerum.description>사용자의 힘과 속도를 일시적으로 증가시키는 혈청을 합성하고, 사용자가 상처에서 더 빨리 회복하도록 합니다. 하지만 기분을 저하시킵니다.</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
-    <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
+    <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
     <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
     <li>subject_story->researched serum use among indentured building sectors</li>
     <li>subject_story->fell into a barrel of juggernaut serum</li>
@@ -513,7 +513,7 @@
   -->
   <JuggernautSerum.generalRules.rulesStrings>
     <li>subject->비대한 힘 혈청</li>
-    <li>subject_story->비대한 힘 혈청으로 팀 전체가 도핑한 사건 이후 중심계 경기에서 금지되었습니다</li>
+    <li>subject_story->[ANYPAWN_pronoun]가 비대한 힘 혈청으로 팀 전체를 도핑시킨 사건 이후 중심계 경기에서 금지되었습니다</li>
     <li>subject_story->탄약이 떨어지자 병사들에게 비대한 힘 혈청을 사용하게 했습니다</li>
     <li>subject_story->계약된 건물 구역에서 혈청 사용을 연구했습니다</li>
     <li>subject_story->비대한 힘 혈청을 보관한 통에 빠졌습니다</li>
@@ -624,7 +624,7 @@
     <li>subject_story->followed a trail of victims left by a philophage</li>
     <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
     <li>subject_story->investigated the damaged minds of cult victims</li>
-    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault</li>
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
@@ -634,7 +634,7 @@
     <li>subject_story->기억포식의 희생자들이 남긴 흔적을 따라갔습니다</li>
     <li>subject_story->번화계 연구실에서 신경 복제 과정을 연구했습니다</li>
     <li>subject_story->사이비 피해자들의 손상된 정신을 조사했습니다</li>
-    <li>subject_story->정신적 공격을 받은 후 자신의 능력이 약해진 것을 알았습니다</li>
+    <li>subject_story->정신적 공격을 받은 후 [ANYPAWN_possessive] 능력이 약해진 것을 알았습니다</li>
     <li>subject_gerund->지식 전수</li>
     <li>subject_gerund->피해자의 기술을 훔치는 의식 거행</li>
   </Philophagy.generalRules.rulesStrings>

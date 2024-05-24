@@ -475,9 +475,9 @@
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
   <MessageTransmutedItem>{PAWN_nameDef}(이)가 {ORIGINAL}(을)를 {TRANSMUTED}(으)로 변화시켰습니다.</MessageTransmutedItem>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
-  <MessageTransmutedStuff>{PAWN_nameDef}(이)가 {ORIGINAL_labelShortIndef}(을)를 {TRANSMUTED_labelShortIndef}(으)로 변화시켰습니다.</MessageTransmutedStuff>
+  <MessageTransmutedStuff>{PAWN_nameDef}(이)가 {1}(을)를 {TRANSMUTED_labelShortIndef}(으)로 변화시켰습니다.</MessageTransmutedStuff>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
-  <MessageTransmutedStuffPlural>{PAWN_nameDef}(이)가 {ORIGINAL_labelPluralIndef}(을)를 {TRANSMUTED_labelPluralIndef}(으)로 변화시켰습니다.</MessageTransmutedStuffPlural>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef}(이)가 {1}(을)를 {TRANSMUTED_labelPluralIndef}(으)로 변화시켰습니다.</MessageTransmutedStuffPlural>
   
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
@@ -888,6 +888,6 @@
   <AnomalyFrequency_Overwhelming>압도적</AnomalyFrequency_Overwhelming>
   
   <!-- EN: Security doors only -->
-  <SecurityDoorsOnly>보안문만 해당됨</SecurityDoorsOnly><!-- text_todo -->
+  <SecurityDoorsOnly>보안문만 해당됨</SecurityDoorsOnly>
   
 </LanguageData>
