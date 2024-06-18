@@ -311,7 +311,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_faction_name]의 [factionOpponent_faction_pawnSingular] [factionOpponent_nameDef](이)가 [map_definite]에 [asker_nameDef][otherLodgers](이)가 머물고 있다는 것을 알게 됐습니다. [factionOpponent_pronoun](은)는 [asker_nameDef]의 적으로, [asker_pronoun]를 제거하고 싶어합니다.\n\n[faction_name]을 배신하고, 모든 구성원을 죽이면 [factionOpponent_nameDef](이)가 다음 보상을 제공할 것입니다. (총 가치 [betrayalRewardMarketValue_money])\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_faction_name]의 [factionOpponent_faction_pawnSingular] [factionOpponent_nameDef](이)가 [map_definite]에 [asker_nameDef][otherLodgers](이)가 머물고 있다는 것을 알게 됐습니다. [factionOpponent_nameDef](은)는 [asker_nameDef]의 적으로, [asker_pronoun]를 제거하고 싶어합니다.\n\n[faction_name](을)를 배신하고, 모든 구성원을 죽이면 [factionOpponent_nameDef](이)가 다음 보상을 제공할 것입니다. (총 가치 [betrayalRewardMarketValue_money])\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
