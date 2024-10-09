@@ -128,10 +128,12 @@
   <On>켜기</On>
   <!-- EN: Off -->
   <Off>끄기</Off>
+  <!-- EN: {0} {1} -->
+  <SourceToolLabel>{1} {0}</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>전원</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
-  <JoyTolerances>질림</JoyTolerances>
+  <JoyTolerances>질림 여부</JoyTolerances>
   <!-- EN: Milk fullness -->
   <MilkFullness>유량</MilkFullness>
   <!-- EN: Wool growth -->
@@ -380,6 +382,8 @@
   <MovementDifficultyOffsetInWinter>겨울에 {0}</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
   <RangeTo>~</RangeTo>
+  <!-- EN: Caused by -->
+  <CausedBy>원인</CausedBy>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>문자 없음</NoDietCategoryLetter>
   <!-- EN: expires in -->
@@ -1050,7 +1054,7 @@
   <!-- EN: Efficiency -->
   <PowerBatteryEfficiency>전력 효율</PowerBatteryEfficiency>
   <!-- EN: Self-discharging -->
-  <SelfDischarging>자가방전 중</SelfDischarging>
+  <SelfDischarging>자가방전</SelfDischarging>
 
   <!-- Temperature control -->
   <!-- EN: Target temperature -->
@@ -1266,7 +1270,7 @@
   <!-- EN: Click to jump to the flashstorm. -->
   <ClickToJumpToFlashstorm>섬광폭풍으로 이동하려면 클릭하세요.</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
-  <CausedByQuest>{0} 임무로 인해 발생</CausedByQuest>
+  <CausedByQuest>{0} 임무 때문에 발생</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
@@ -1704,7 +1708,7 @@
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>{0}에 의해 발생</CausedByHediff>
+  <CausedByHediff>{0} 때문에 발생</CausedByHediff>
   
   <!-- EN: {DAMAGE_label} weakness -->
   <DamageFactorWeakness>{DAMAGE_label}의 약점</DamageFactorWeakness>

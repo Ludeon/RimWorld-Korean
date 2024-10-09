@@ -8,7 +8,7 @@
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->한 궤도선의 인공 인격체가 행성 실험을 진행하고 싶어 합니다. 하지만 실험을 진행하게 되면 [gameConditionDescriptionFuture].\n\n그녀는 윤리 검토 위원회에서 실험을 문제 삼지 않을까 걱정하여 먼저 당신의 동의를 구합니다.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_pawnsPlural]들은 악성 인공 인격체에게 위협받고 있습니다. [asker_faction_leaderTitle] [asker_nameFull](은)는 당신이 인격체에게 범법 행위에 대한 책임을 촉구하는 메시지를 보내길 원합니다.\n\n메시지를 전송하면 인격체의 분노가 당신을 향합니다. [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_pawnsPlural]들은 악성 인공 인격체에게 위협받고 있습니다. [asker_faction_leaderTitle] [asker_nameFull](은)는 당신이 인격체에게 범법 행위의 책임을 촉구하는 메시지를 보내길 원합니다.\n\n메시지를 전송하면 인격체의 분노가 당신을 향합니다. [gameConditionDescriptionFuture].</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 함선의 광범위 공격 무기를 저위력으로 시험하고 싶어합니다. [asker_nameDef](이)가 실험을 진행하면 [gameConditionDescriptionFuture].\n\n당신은 제국에 소속된 지역 영주이므로, [asker_nameDef](은)는 당신의 동의를 받아야 합니다.</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
