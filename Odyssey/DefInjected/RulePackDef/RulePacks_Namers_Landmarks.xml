@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -10,7 +10,7 @@
   <NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[NamePerson]의 저주</li>
     <li>terrain_word(p=2)->마을</li>
-    <li>terrain_word->전초 기지</li>
+    <li>terrain_word->전초기지</li>
     <li>terrain_word->유령 마을</li>
   </NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
   
@@ -31,9 +31,9 @@
     <li>terrain_word->heat ducts</li>
   -->
   <NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
-    <li>terrain_word(p=2)->열기 통풍구</li>
-    <li>terrain_word->지열 통풍구</li>
-    <li>terrain_word->지옥의 통풍구</li>
+    <li>terrain_word(p=2)->열기 배출구</li>
+    <li>terrain_word->지열 배출구</li>
+    <li>terrain_word->지옥 배출구</li>
     <li>terrain_word->지옥 구멍</li>
     <li>terrain_word->열기 구멍</li>
   </NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
@@ -45,7 +45,7 @@
     <li>terrain_word->rock pits</li>
   -->
   <NamerLandmark_AncientQuarry.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->발굴 현장</li>
+    <li>r_name(p=0.2)->채굴 현장</li>
     <li>terrain_word->채석장</li>
     <li>terrain_word->광산</li>
     <li>terrain_word->암석 구덩이</li>
@@ -59,9 +59,9 @@
     <li>terrain_word->smokestacks</li>
   -->
   <NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>
-    <li>terrain_word(p=2)->배기 통로</li>
+    <li>terrain_word(p=2)->배기구</li>
+    <li>terrain_word->배출구</li>
     <li>terrain_word->통풍구</li>
-    <li>terrain_word->분기공</li>
     <li>terrain_word->굴뚝</li>
     <li>terrain_word->연기 굴뚝</li>
   </NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>
@@ -74,11 +74,11 @@
     <li>terrain_word->fume vents</li>
   -->
   <NamerLandmark_AncientToxVent.rulePack.rulesStrings>
-    <li>terrain_word(p=2)->독소 통풍구</li>
-    <li>terrain_word->독기 통풍구</li>
-    <li>terrain_word->유해 통풍구</li>
+    <li>terrain_word(p=2)->독소 배출구</li>
+    <li>terrain_word->독기 배출구</li>
+    <li>terrain_word->유해 배출구</li>
     <li>terrain_word->유독 배관</li>
-    <li>terrain_word->연기 통풍구</li>
+    <li>terrain_word->연기 배출구</li>
   </NamerLandmark_AncientToxVent.rulePack.rulesStrings>
   
   <!-- EN:
@@ -93,15 +93,15 @@
     <li>terrain_word->chain</li>
   -->
   <NamerLandmark_Archipelago.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->섬 [narrative_name]</li>
-    <li>terrain_word(p=4)->섬들</li>
-    <li>terrain_word(p=3)->도서</li>
+    <li>r_name(p=0.2)->[narrative_name] 섬</li>
+    <li>terrain_word(p=4)->섬</li>
+    <li>terrain_word(p=3)->섬들</li>
     <li>terrain_word(p=3)->군도</li>
     <li>terrain_word->암초</li>
     <li>terrain_word->암반</li>
-    <li>terrain_word->작은 섬들</li>
-    <li>terrain_word->곶</li>
-    <li>terrain_word->연쇄</li>
+    <li>terrain_word->점</li>
+    <li>terrain_word->선</li>
+    <li>terrain_word->체인</li>
   </NamerLandmark_Archipelago.rulePack.rulesStrings>
   
   <!-- EN:
@@ -175,7 +175,7 @@
     <li>r_name(p=0.2)->[NamePerson]의 [terrain_word]</li>
     <li>terrain_word(p=2)->정제소</li>
     <li>terrain_word->플랜트</li>
-    <li>terrain_word->화학 플랜트</li>
+    <li>terrain_word->화학공장</li>
   </NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
   
   <!-- EN:
@@ -198,10 +198,10 @@
     <li>terrain_word->islet</li>
   -->
   <NamerLandmark_CoastalIsland.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->섬 [narrative_name]</li>
+    <li>r_name(p=0.2)->[narrative_name] 섬</li>
     <li>terrain_word(p=4)->섬</li>
     <li>terrain_word(p=2)->작은 섬</li>
-    <li>terrain_word->섬꼬마</li>
+    <li>terrain_word->암초</li>
   </NamerLandmark_CoastalIsland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -245,8 +245,8 @@
     <li>terrain_word->sound</li>
   -->
   <NamerLandmark_Fjord.rulePack.rulesStrings>
-    <li>terrain_word(p=2)->피오르</li>
-    <li>terrain_word->만(灣)</li>
+    <li>terrain_word(p=2)->피오르드</li>
+    <li>terrain_word->만</li>
     <li>terrain_word->해협</li>
   </NamerLandmark_Fjord.rulePack.rulesStrings>
   
@@ -279,14 +279,14 @@
     <li>terrain_word(p=0.5)->military base</li>
   -->
   <NamerLandmark_Garrison.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->요새 [narrative_name]</li>
+    <li>r_name(p=0.4)->[narrative_name] 성채</li>
     <li>r_name(p=0.4)->[NamePerson]의 [terrain_word]</li>
     <li>terrain_word(p=2)->주둔지</li>
     <li>terrain_word->무기고</li>
     <li>terrain_word->기지</li>
-    <li>terrain_word->기반시설</li>
+    <li>terrain_word->기지</li>
     <li>terrain_word->요새</li>
-    <li>terrain_word(p=0.5)->요새화 기지</li>
+    <li>terrain_word(p=0.5)->요새</li>
     <li>terrain_word(p=0.5)->군사 기지</li>
   </NamerLandmark_Garrison.rulePack.rulesStrings>
   
@@ -307,7 +307,7 @@
   -->
   <NamerLandmark_Hollow.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[NamePerson]의 은신처</li>
-    <li>terrain_word->움푹한 곳</li>
+    <li>terrain_word->와지</li>
   </NamerLandmark_Hollow.rulePack.rulesStrings>
   
   <!-- EN:
@@ -346,14 +346,14 @@
   </NamerLandmark_IceDunes.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_name(p=0.2)->[fallen] [townname_wordgen]</li>
-    <li>r_name(p=0.2)->[townname_wordgen] hive</li>
+    <li>r_name(p=18)->[fallen] [townname_wordgen]</li>
+    <li>r_name(p=18)->[townname_wordgen] hive</li>
     <li>fallen->fallen</li>
     <li>fallen->infested</li>
   -->
   <NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[fallen] [townname_wordgen]</li>
-    <li>r_name(p=0.2)->[townname_wordgen] 군집</li>
+    <li>r_name(p=0.2)->[townname_wordgen] 군락</li>
     <li>fallen->몰락한</li>
     <li>fallen->감염된</li>
   </NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
@@ -366,18 +366,18 @@
   <NamerLandmark_Lake.rulePack.rulesStrings>
     <li>terrain_word(p=4)->호수</li>
     <li>terrain_word->저수지</li>
-    <li>terrain_word->록(호)</li>
+    <li>terrain_word->호</li>
   </NamerLandmark_Lake.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_name(p=0.4)->[narrative_name] [terrain_word]</li>
+    <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
     <li>terrain_word(p=2)->launch site</li>
     <li>terrain_word->launch pads</li>
   -->
   <NamerLandmark_LaunchSite.rulePack.rulesStrings>
     <li>r_name(p=0.4)->[narrative_name] [terrain_word]</li>
-    <li>terrain_word(p=2)->발사대</li>
-    <li>terrain_word->출발대</li>
+    <li>terrain_word(p=2)->발사장</li>
+    <li>terrain_word->발사대</li>
   </NamerLandmark_LaunchSite.rulePack.rulesStrings>
   
   <!-- EN:
@@ -427,12 +427,12 @@
     <li>terrain_word->horn</li>
   -->
   <NamerLandmark_Peninsula.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->곶 [narrative_name]</li>
+    <li>r_name(p=0.2)->[narrative_name] 곶</li>
     <li>r_name(p=0.2)->케이프 [narrative_name]</li>
     <li>terrain_word(p=5)->반도</li>
     <li>terrain_word(p=2)->곶</li>
     <li>terrain_word->케이프</li>
-    <li>terrain_word->두각</li>
+    <li>terrain_word->곶</li>
     <li>terrain_word->호른</li>
   </NamerLandmark_Peninsula.rulePack.rulesStrings>
   
@@ -448,7 +448,7 @@
     <li>terrain_word->메사</li>
     <li>terrain_word->산</li>
     <li>terrain_word->융기</li>
-    <li>terrain_word->뷰트</li>
+    <li>terrain_word->언덕</li>
   </NamerLandmark_Plateau.rulePack.rulesStrings>
   
   <!-- EN:
@@ -461,7 +461,7 @@
     <li>terrain_word(p=4)->연못</li>
     <li>terrain_word->웅덩이</li>
     <li>terrain_word->물웅덩이</li>
-    <li>terrain_word->수혈</li>
+    <li>terrain_word->물</li>
   </NamerLandmark_Pond.rulePack.rulesStrings>
   
   <!-- EN:
@@ -509,15 +509,15 @@
   <NamerLandmark_TerraformingScar.rulePack.rulesStrings>
     <li>r_name(p=0.3)->[NamePerson]의 [terrain_word]</li>
     <li>r_name(p=0.2)->[NamePerson]의 [mistake]</li>
-    <li>r_name(p=0.2)->그 [large] [terrain_word]</li>
+    <li>r_name(p=0.2)->[large] [terrain_word]</li>
     <li>r_name(p=0.1)->[dread] [terrain_word]</li>
-    <li>r_name(p=0.05)->그 [terrain_word]</li>
+    <li>r_name(p=0.05)->[terrain_word]</li>
     <li>terrain_word(p=3)->흉터</li>
     <li>terrain_word->균열</li>
     <li>terrain_word->분절</li>
     <li>terrain_word->상처</li>
     <li>terrain_word->단층</li>
-    <li>terrain_word->울부짖음</li>
+    <li>terrain_word->포효</li>
     <li>mistake->실수</li>
     <li>mistake->어리석음</li>
     <li>mistake->망상</li>
@@ -539,7 +539,7 @@
   -->
   <NamerLandmark_ToxicLake.rulePack.rulesStrings>
     <li>r_name(p=0.05)->[NamePerson]의 독</li>
-    <li>r_name(p=0.05)->[NamePerson]의 황폐</li>
+    <li>r_name(p=0.05)->[NamePerson]의 황무지</li>
     <li>r_name(p=0.05)->[NamePerson]의 투기장</li>
     <li>terrain_word->독성 호수</li>
     <li>terrain_word->독 호수</li>
@@ -557,11 +557,11 @@
   -->
   <NamerLandmark_Valley.rulePack.rulesStrings>
     <li>terrain_word(p=4)->계곡</li>
-    <li>terrain_word(p=3)->개울골</li>
+    <li>terrain_word(p=3)->골짜기</li>
     <li>terrain_word(p=3)->협곡</li>
-    <li>terrain_word->계곡지</li>
-    <li>terrain_word->와지</li>
-    <li>terrain_word->골짜기</li>
+    <li>terrain_word->강</li>
+    <li>terrain_word->균열</li>
+    <li>terrain_word->개울</li>
     <li>terrain_word->곡</li>
     <li>terrain_word->분수령</li>
   </NamerLandmark_Valley.rulePack.rulesStrings>
@@ -592,7 +592,7 @@
     <li>terrain_word(p=2)->습지대</li>
     <li>terrain_word->늪지</li>
     <li>terrain_word->늪지대</li>
-    <li>terrain_word->이탄습지</li>
+    <li>terrain_word->습지</li>
     <li>terrain_word->습원</li>
   </NamerLandmark_Wetland.rulePack.rulesStrings>
   

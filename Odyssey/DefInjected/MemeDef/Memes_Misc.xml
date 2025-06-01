@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: shipborn -->
-  <Shipborn.label>쉽본</Shipborn.label>
+  <Shipborn.label>우주인</Shipborn.label>
   <!-- EN: Humans were destined to live among the stars. -->
-  <Shipborn.description>인류는 별들 사이에서 살아가도록 운명지어졌다.</Shipborn.description>
+  <Shipborn.description>인류는 별들 사이에서 살아갈 운명이다.</Shipborn.description>
   <!-- EN:
     <li>creation(tag=meme_Shipborn)        ->[deity0_name] shaped humanity from the dust of [celestialComponents], breathing life into mankind with [deity0_possessive] stellar winds.</li>
     <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] dispersed the great people of [place_name], sending them into the void so that they may witness the convergence of star and soul.</li>
@@ -12,7 +12,7 @@
     <li>conflict(tag=meme_Shipborn)        ->When [memberNamePlural] began to fulfill [deity0_name]'s vision, a traitorous [foeLeader] moved to prevent them. [foeLeader_possessive] [foeSoldiers] wielded cruel [place_personalWeapon]s against those who tried to board the holy ships.</li>
     <li>founderJoin(tag=meme_Shipborn)     ->A [place_job] named [founderName] gathered the true believers, leading them to a hidden [altarRoomLabel]. There [founder_pronoun] became their [veneratedRole].</li>
     <li>victory(tag=meme_Shipborn)         ->Then [founderName] spoke with [deity0_name]'s voice. In a brilliant convergence of light and energy, [founderName] overwhelmed [founder_possessive] enemies and led [founder_possessive] people to the holy ships.</li>
-    <li>setup(tag=meme_Shipborn)           ->In his divine ship, [founderName] journeyed the stellar seas for one thousand years, communing with celestial spirits and unlocking the secrets of the cosmos.</li>
+    <li>setup(tag=meme_Shipborn)           ->In [founder_possessive] divine ship, [founderName] journeyed the stellar seas for one thousand years, communing with celestial spirits and unlocking the secrets of the cosmos.</li>
     <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] saw that the destiny of humanity could only be fulfilled amongst the stars.</li>
     <li>lessonIntro(tag=meme_Shipborn)         ->In my observances of [celestialComponents], I have found one truth above all else:</li>
     <li>lesson(tag=meme_Shipborn)              ->the stars are our true [veneratedRole], and it's our duty to seek their wisdom and travel among them</li>
@@ -31,25 +31,25 @@
     <li>veneratedRole->captain</li>
   -->
   <Shipborn.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Shipborn)->[deity0_name]이(가) [celestialComponents]의 먼지에서 인류를 빚고, [deity0_possessive]의 별의 바람으로 생명을 불어넣었다.</li>
-    <li>episode(uses=1,tag=meme_Shipborn)->[deity0_name]이(가) [place_name]의 위대한 사람들을 흩어, 그들이 별과 영혼의 융합을 목격할 수 있도록 공허로 보냈다.</li>
-    <li>intro(tag=meme_Shipborn)->어둠의 시기, [deity0_name]은(는) 인류가 인도를 필요로 함을 보고 [deity0_possessive] [memberNamePlural]에게 거대한 선박을 만들라고 명했다.</li>
-    <li>conflict(tag=meme_Shipborn)->[memberNamePlural]이(가) [deity0_name]의 비전을 실현하기 시작하자, 반역자 [foeLeader]이(가) 이를 막으려 했다. [foeLeader_possessive] [foeSoldiers]은(는) 거룩한 배에 오르려는 이들을 잔혹한 [place_personalWeapon]로 공격했다.</li>
-    <li>founderJoin(tag=meme_Shipborn)->[founderName]라는 [place_job]이(가) 진정한 신도들을 모아 숨겨진 [altarRoomLabel]로 이끌었다. 그곳에서 [founder_pronoun]은(는) 그들의 [veneratedRole](이)가 되었다.</li>
-    <li>victory(tag=meme_Shipborn)->그 후 [founderName]이(가) [deity0_name]의 목소리로 말했다. 찬란한 빛과 에너지의 융합 속에서 [founderName]은(는) [founder_possessive] 적을 압도하고, [founder_possessive] 사람들을 거룩한 선박으로 이끌었다.</li>
-    <li>setup(tag=meme_Shipborn)->신성한 함선에서 [founderName]은(는) 천년 동안 별의 바다를 여행하며 천상의 영들과 교감하고 우주의 비밀을 밝혀냈다.</li>
-    <li>story(uses=1,tag=meme_Shipborn)->[founderName]은(는) 인류의 운명이 오직 별들 사이에서만 이루어진다는 것을 알았다.</li>
-    <li>lessonIntro(tag=meme_Shipborn)->내가 [celestialComponents]를 관찰하며 하나의 진리를 찾았다:</li>
-    <li>lesson(tag=meme_Shipborn)->별들은 우리의 진정한 [veneratedRole](이)며, 그들의 지혜를 구하고 그 사이를 여행하는 것이 우리의 의무이다</li>
-    <li>lesson(tag=meme_Shipborn)->인류는 절대 바위에 갇힌 죄수가 되어서는 안 된다. 우리는 하늘에서 살아야 한다</li>
-    <li>lesson(tag=meme_Shipborn)->우리의 함선은 거룩한 어머니와 신성한 아버지이다. 그들이 우리를 보살핀 것처럼 우리도 그들을 보살펴야 한다</li>
-    <li>lessonReinforcement(tag=meme_Shipborn)->당신의 발이 땅을 다시는 밟지 않기를.</li>
-    <li>archistBasis(tag=meme_Shipborn)->아르코테크는 출현한 이후 의식을 별들 사이로 확장해왔다.</li>
-    <li>archistFact(tag=meme_Shipborn)->아르코테크는 행성에 얽매인 삶의 한계를 초월한다.</li>
-    <li>archistProphecy(tag=meme_Shipborn)->[inTheEnd] 아르코테크는 우리가 그들의 우주적 지혜를 따른다면 별들 사이를 자유롭게 이동하는 방법을 가르쳐 줄 것이다.</li>
-    <li>animistBasis(tag=meme_Shipborn)->우리 조상들은 [celestialComponents]를 여행했고, 인류와 천상 엔티티들을 동반자로 여겨야 한다고 가르친다.</li>
+    <li>creation(tag=meme_Shipborn)->[deity0_name]께서 [celestialComponents]의 먼지에서 인간을 빚으시고 별바람으로 생명을 불어넣으시니라.</li>
+    <li>episode(uses=1,tag=meme_Shipborn)->이에 [deity0_name]께서 [place_name]의 위대한 백성들을 공허로 보내시니, 이는 별과 영혼의 융합을 목도케 하려 하심이더라.</li>
+    <li>intro(tag=meme_Shipborn)->어둠의 날이 임하매 [deity0_name]께서 보시기에 인류가 인도를 필요로 하여, [deity0_possessive] [memberName]들에게 거대한 배를 지으라 명하시니라.</li>
+    <li>conflict(tag=meme_Shipborn)->[memberName]들이 [deity0_name]의 뜻을 이루려 하니 반역자 [foeLeader](이)가 이를 막으려 하였더라. [foeLeader]의 [foeSoldiers]들이 거룩한 배에 오르려는 자들을 잔혹한 [place_personalWeapon](으)로 치니라.</li>
+    <li>founderJoin(tag=meme_Shipborn)->이때 [founderName](이)라 불리는 [place_job](이)가 참된 믿는 자들을 모아 숨겨진 [altarRoomLabel](으)로 인도하니 그곳에서 [founderName](은)는 [veneratedRole]의 자리에 올랐도다.</li>
+    <li>victory(tag=meme_Shipborn)->그리하여 [founderName](이)가 그분의 음성으로 말하니 빛과 능력이 찬란히 모이고 원수들이 흩어졌더라. [founderName](은)는 따르는 백성들을 거룩한 배로 인도하였도다.</li>
+    <li>setup(tag=meme_Shipborn)->[founderName](이)가 신성한 배로 별바다를 천 년간 항해하며 천상의 영들과 교통하고 우주의 비밀을 깨우치니라.</li>
+    <li>story(uses=1,tag=meme_Shipborn)->[founderName](은)는 인류의 운명이 오직 별들 사이에서만 성취됨을 알게 되었도다.</li>
+    <li>lessonIntro(tag=meme_Shipborn)->내가 [celestialComponents](을)를 관찰하며 하나의 진리를 찾았다.</li>
+    <li>lesson(tag=meme_Shipborn)->별들이야말로 우리의 진정한 [veneratedRole](이)며, 그들의 지혜를 구하고 그 사이를 거니는 것이 우리의 의무라는 것을</li>
+    <li>lesson(tag=meme_Shipborn)->인류는 절대 바위에 갇힌 죄수가 되어서는 안 되며, 우리는 하늘에서 살아야만 한다는 것을</li>
+    <li>lesson(tag=meme_Shipborn)->우리의 함선은 거룩한 어머니와 신성한 아버지니 그들이 우리를 보살폈듯 우리도 그들을 보살펴야 한다는 사실을</li>
+    <li>lessonReinforcement(tag=meme_Shipborn)->그대의 두 발이 다시는 땅을 밟지 않기를.</li>
+    <li>archistBasis(tag=meme_Shipborn)->초월기술은 출현 후 그 의식을 별들 사이로 확장해왔다.</li>
+    <li>archistFact(tag=meme_Shipborn)->초월기술은 행성에 얽매인 삶의 한계를 초월한다.</li>
+    <li>archistProphecy(tag=meme_Shipborn)->우리가 초월기술의 우주적 지혜를 따른다면, 초월기술은 [inTheEnd] 우리에게 별들 사이를 자유롭게 이동하는 방법을 가르쳐 줄 것이다.</li>
+    <li>animistBasis(tag=meme_Shipborn)->우리 조상들은 [celestialComponents] 사이를 오가며, 인류와 천상의 존재들을 동반자로 여겨야 한다고 가르쳤다.</li>
     <li>animistFact(tag=meme_Shipborn)->천체에 깃든 바로 그 영들이 인류의 운명을 인도한다.</li>
-    <li>celestialComponents->별, 달, 혜성</li>
+    <li>celestialComponents->별과 달과 혜성</li>
     <li>celestialComponents->우주</li>
     <li>celestialComponents->천 개의 태양</li>
     <li>veneratedRole->항해사</li>
@@ -79,21 +79,21 @@
   -->
   <Shipborn.generalRules.rulesStrings>
     <li>memeCreed->승무원</li>
-    <li>memeCreed->선박</li>
+    <li>memeCreed->함선</li>
     <li>memeCreed->우주선</li>
     <li>memeAdjective->별의</li>
     <li>memeAdjective->공허한</li>
     <li>memeAdjective->우주의</li>
     <li>memeAdjective->천상의</li>
-    <li>memeAdjective->성간의</li>
-    <li>memeHyphenPrefix->아스트로</li>
-    <li>memeHyphenPrefix->암흑</li>
+    <li>memeAdjective->성간</li>
+    <li>memeHyphenPrefix->별빛</li>
+    <li>memeHyphenPrefix->공허</li>
     <li>memeConcept->우주</li>
     <li>memeConcept->별들</li>
     <li>memeConcept->우주선들</li>
     <li>memeLeaderNoun->선장</li>
-    <li>memeLeaderNoun->쉽본</li>
-    <li>memeLeaderNoun->파일럿</li>
+    <li>memeLeaderNoun->우주인</li>
+    <li>memeLeaderNoun->조종사</li>
     <li>memeLeaderAdjective->빛나는</li>
     <li>memeMoralist->길잡이</li>
     <li>memeMoralist->항해사</li>

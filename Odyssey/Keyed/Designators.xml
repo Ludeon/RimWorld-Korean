@@ -3,29 +3,29 @@
 
   <!-- Fishing -->
   <!-- EN: Fishing zone -->
-  <Zone_Fishing>낚시 구역</Zone_Fishing>
+  <Zone_Fishing>낚시구역</Zone_Fishing>
   <!-- EN: fishing -->
   <FishingGroup>낚시</FishingGroup>
   <!-- EN: Create an area where your hunters will fish. Must be placed over water containing fish. Larger bodies of water are generally better for fishing. -->
-  <DesignatorFishingZoneDesc>헌터들이 낚시할 구역을 생성합니다. 반드시 물고기가 있는 물 위에 배치해야 합니다. 더 큰 물가가 보통 낚시에 더 적합합니다.</DesignatorFishingZoneDesc>
+  <DesignatorFishingZoneDesc>사냥꾼들이 낚시할 구역을 지정합니다. 반드시 물고기가 서식하는 물 위에 배치해야 합니다. 보통 더 큰 물가가 낚시에 더 적합합니다.</DesignatorFishingZoneDesc>
 
   <!-- Override snow clearing => snow and sand clearing -->
   <!-- EN: Snow and sand removal area -->
-  <DesignatorAreaSnowClearExpand>제설구역</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowOrSandClearExpand>눈/모래 제거구역</DesignatorAreaSnowOrSandClearExpand>
   <!-- EN: Create an area which colonists will try to keep clear of snow and sand. -->
-  <DesignatorAreaSnowClearExpandDesc>정착민들이 눈을 치울 구역을 설정합니다.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowOrSandClearExpandDesc>정착민들이 눈과 모래를 치울 구역을 해제합니다.</DesignatorAreaSnowOrSandClearExpandDesc>
   <!-- EN: Clear snow and sand removal area -->
-  <DesignatorAreaSnowClearClear>제설구역 제거</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowOrSandClearClear>눈/모래 제거구역 해제</DesignatorAreaSnowOrSandClearClear>
   <!-- EN: Removes a snow and sand removal area. Colonists will no longer try to keep this area clear of snow and sand. -->
-  <DesignatorAreaSnowClearClearDesc>정착민들이 눈을 치울 구역을 해제합니다.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowOrSandClearClearDesc>정착민들이 눈과 모래를 치울 구역을 해제합니다.</DesignatorAreaSnowOrSandClearClearDesc>
 
   <!-- EN: Remove foundation -->
   <DesignatorRemoveFoundation>기초 제거</DesignatorRemoveFoundation>
   <!-- EN: Remove bridges or gravship substructure to reveal the terrain underneath. -->
-  <DesignatorRemoveFoundationDesc>다리나 그래브쉽 하부 구조를 제거하여 아래 지형을 드러냅니다.</DesignatorRemoveFoundationDesc>
+  <DesignatorRemoveFoundationDesc>다리나 중력부양선 하부구조를 제거하여 아래 지형을 드러냅니다.</DesignatorRemoveFoundationDesc>
 
   <!-- EN: Move landing zone -->
-  <DesignatorMoveGravship>착륙 구역 이동</DesignatorMoveGravship>
+  <DesignatorMoveGravship>착륙 지점 이동</DesignatorMoveGravship>
   <!-- EN: Reposition the gravship's landing spot. -->
-  <DesignatorMoveGravshipDesc>그래브쉽의 착륙 지점을 재배치합니다.</DesignatorMoveGravshipDesc>
+  <DesignatorMoveGravshipDesc>중력부양선의 착륙 지점을 재배치합니다.</DesignatorMoveGravshipDesc>
 </LanguageData>

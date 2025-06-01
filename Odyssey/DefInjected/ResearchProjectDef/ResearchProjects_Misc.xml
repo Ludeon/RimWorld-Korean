@@ -1,57 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: advanced gravtech -->
-  <AdvancedGravtech.label>고급 그래브테크</AdvancedGravtech.label>
+  <AdvancedGravtech.label>고급 중력기술</AdvancedGravtech.label>
   <!-- EN: Build advanced gravship parts. -->
-  <AdvancedGravtech.description>고급 그래브쉽 부품을 제작합니다.</AdvancedGravtech.description>
+  <AdvancedGravtech.description>고급 중력부양선 부품을 제작하세요.</AdvancedGravtech.description>
   <!-- EN:
     <li>subject->advanced gravtech</li>
     <li>subject_story->researched advanced gravship components</li>
     <li>subject_gerund->researching signal jamming</li>
   -->
   <AdvancedGravtech.generalRules.rulesStrings>
-    <li>subject->고급 그래브테크</li>
-    <li>subject_story->고급 그래브쉽 부품을 연구함</li>
-    <li>subject_gerund->신호 방해 기술을 연구하는 중</li>
+    <li>subject->고급 중력기술</li>
+    <li>subject_story->고급 중력부양선 부품을 연구했습니다</li>
+    <li>subject_gerund->신호 방해 기술 연구</li>
   </AdvancedGravtech.generalRules.rulesStrings>
   
   <!-- EN: basic gravtech -->
-  <BasicGravtech.label>기초 그래브테크</BasicGravtech.label>
+  <BasicGravtech.label>기초 중력기술</BasicGravtech.label>
   <!-- EN: Build a gravship and use it to travel the planet. Launching a gravship will abandon your current map. You won't be able to return. -->
-  <BasicGravtech.description>그래브쉽을 만들어 행성을 여행하세요. 그래브쉽을 발사하면 현재 맵을 포기하게 되며, 다시 돌아올 수 없습니다.</BasicGravtech.description>
+  <BasicGravtech.description>중력부양선을 만들어 행성을 여행하세요. 중력부양선을 발사하면 현재 지역을 포기하게 되며 다시 돌아올 수 없습니다.</BasicGravtech.description>
   <!-- EN:
     <li>subject->gravship</li>
     <li>subject_story->flew a gravship for a tourism company</li>
     <li>subject_gerund->constructing gravships</li>
   -->
   <BasicGravtech.generalRules.rulesStrings>
-    <li>subject->그래브쉽</li>
-    <li>subject_story->관광 회사를 위해 그래브쉽을 조종함</li>
-    <li>subject_gerund->그래브쉽을 건설하는 중</li>
+    <li>subject->중력부양선</li>
+    <li>subject_story->관광사 직원으로 중력부양선을 조종했습니다</li>
+    <li>subject_gerund->중력부양선 건설</li>
   </BasicGravtech.generalRules.rulesStrings>
   
   <!-- EN: beam weapons -->
-  <BeamWeapons.label>빔 무기</BeamWeapons.label>
+  <BeamWeapons.label>광선 무기</BeamWeapons.label>
   <!-- EN: Construct weapons that use gamma ray beams to burn through armor and ignite targets. -->
-  <BeamWeapons.description>감마선 빔을 사용해 방어구를 관통하고 목표물을 점화할 수 있는 무기를 제작합니다.</BeamWeapons.description>
+  <BeamWeapons.description>감마선 무기를 제작해 방어구를 뚫고 적을 불태우세요.</BeamWeapons.description>
   <!-- EN:
     <li>subject->beam weapons</li>
     <li>subject_story->made gamma-ray beam weaponry</li>
     <li>subject_gerund->making beam weapons</li>
   -->
   <BeamWeapons.generalRules.rulesStrings>
-    <li>subject->빔 무기</li>
-    <li>subject_story->감마선 빔 무기를 제작함</li>
-    <li>subject_gerund->빔 무기를 제작하는 중</li>
+    <li>subject->광선 무기</li>
+    <li>subject_story->감마선 무기를 제작했습니다</li>
+    <li>subject_gerund->광선 무기 제작</li>
   </BeamWeapons.generalRules.rulesStrings>
   
   <!-- EN: fishing -->
   <Fishing.label>낚시</Fishing.label>
   <!-- EN: Place zones where your colonists can go fishing. -->
-  <Fishing.description>식민자들이 낚시할 수 있는 구역을 설정하세요.</Fishing.description>
+  <Fishing.description>정착민들이 낚시할 구역을 설정하세요.</Fishing.description>
   <!-- EN: Fishing zone -->
-  <Fishing.customUnlockTexts.0>낚시 구역</Fishing.customUnlockTexts.0>
+  <Fishing.customUnlockTexts.0>낚시구역</Fishing.customUnlockTexts.0>
   <!-- EN:
     <li>subject->fishing</li>
     <li>subject_story->fished for a living</li>
@@ -59,14 +59,14 @@
   -->
   <Fishing.generalRules.rulesStrings>
     <li>subject->낚시</li>
-    <li>subject_story->생계를 위해 낚시함</li>
-    <li>subject_gerund->낚시하는 중</li>
+    <li>subject_story->생계를 위해 낚시했습니다</li>
+    <li>subject_gerund->낚시</li>
   </Fishing.generalRules.rulesStrings>
   
   <!-- EN: heavy bridges -->
-  <HeavyBridges.label>중형 다리</HeavyBridges.label>
+  <HeavyBridges.label>중량 다리</HeavyBridges.label>
   <!-- EN: Build heavy bridges that support heavy buildings. You can use this to build whole colonies on the water. -->
-  <HeavyBridges.description>중장비 건물을 지탱할 수 있는 튼튼한 다리를 건설합니다. 이를 이용해 물 위에 전체 식민지를 꾸릴 수 있습니다.</HeavyBridges.description>
+  <HeavyBridges.description>무거운 건물도 지탱할 수 있는 튼튼한 다리를 건설하세요. 중량 다리를 활용하면 정착지의 모든 건물을 물 위에 건설할 수 있습니다.</HeavyBridges.description>
   <!-- EN:
     <li>subject->construction</li>
     <li>subject_story->built bridges</li>
@@ -74,29 +74,29 @@
   -->
   <HeavyBridges.generalRules.rulesStrings>
     <li>subject->건설</li>
-    <li>subject_story->다리를 건설함</li>
-    <li>subject_gerund->건설 중</li>
+    <li>subject_story->다리를 건설했습니다</li>
+    <li>subject_gerund->건설</li>
   </HeavyBridges.generalRules.rulesStrings>
   
   <!-- EN: hunter drone -->
-  <HunterDrones.label>헌터드론</HunterDrones.label>
+  <HunterDrones.label>헌터 드론</HunterDrones.label>
   <!-- EN: Build traps and wearable packs that release hunter drones. These explosive drones pursue hostiles and detonate when within range. -->
-  <HunterDrones.description>헌터드론을 방출하는 함정과 착용팩을 제작합니다. 이 폭발성 드론들은 적을 추적해 사거리 내에서 폭발합니다.</HunterDrones.description>
+  <HunterDrones.description>헌터 드론을 방출하는 함정과 등짐을 제작하세요. 헌터 드론은 적을 추적해 사거리 내로 들어오면 폭발합니다.</HunterDrones.description>
   <!-- EN:
     <li>subject->hunter drones</li>
     <li>subject_story->made self-detonating drones</li>
     <li>subject_gerund->making hunter drones</li>
   -->
   <HunterDrones.generalRules.rulesStrings>
-    <li>subject->헌터드론</li>
-    <li>subject_story->자폭 드론을 제작함</li>
-    <li>subject_gerund->헌터드론 제작 중</li>
+    <li>subject->헌터 드론</li>
+    <li>subject_story->자폭 드론을 제작했습니다</li>
+    <li>subject_gerund->헌터 드론 제작</li>
   </HunterDrones.generalRules.rulesStrings>
   
   <!-- EN: orbital tech -->
   <OrbitalTech.label>궤도 기술</OrbitalTech.label>
   <!-- EN: Construct buildings and apparel that can protect against the harsh vacuum of space. -->
-  <OrbitalTech.description>우주의 극한 진공으로부터 보호할 건물과 의복을 제작합니다.</OrbitalTech.description>
+  <OrbitalTech.description>우주의 극한 진공으로부터 보호할 건물과 의복을 제작하세요.</OrbitalTech.description>
   <!-- EN:
     <li>subject->orbital apparel</li>
     <li>subject_story->assembled liners for vacsuits</li>
@@ -109,19 +109,19 @@
   -->
   <OrbitalTech.generalRules.rulesStrings>
     <li>subject->궤도용 장비</li>
-    <li>subject_story->백슈트용 라이너를 조립함</li>
-    <li>subject_story->백슈트를 테스트함</li>
-    <li>subject_story->재호흡기 기술을 개발함</li>
-    <li>subject_story->우주 방사선이 인체 조직에 미치는 영향을 연구함</li>
-    <li>subject_gerund->백슈트 조립 중</li>
-    <li>subject_gerund->재호흡기 조립 중</li>
-    <li>subject_gerund->백슈트 테스트 중</li>
+    <li>subject_story->진공 방호복용 내피를 조립했습니다</li>
+    <li>subject_story->진공 방호복을 테스트했습니다</li>
+    <li>subject_story->재호흡기를 개발했습니다</li>
+    <li>subject_story->우주 방사선이 인체 조직에 미치는 영향을 연구했습니다</li>
+    <li>subject_gerund->진공 방호복 조립</li>
+    <li>subject_gerund->재호흡기 조립</li>
+    <li>subject_gerund->진공 방호복 테스트</li>
   </OrbitalTech.generalRules.rulesStrings>
   
   <!-- EN: shuttle -->
-  <Shuttles.label>셔틀</Shuttles.label>
-  <!-- EN: Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can only be obtained from orbital traders and quests. -->
-  <Shuttles.description>장거리 이동이나 궤도 진입에 사용할 수 있는 셔틀을 제작합니다. 셔틀 엔진은 궤도 무역상이나 퀘스트로만 얻을 수 있습니다.</Shuttles.description>
+  <Shuttles.label>왕복선</Shuttles.label>
+  <!-- EN: Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can be bought from orbital traders, salvaged from other shuttles, or obtained through quests. -->
+  <Shuttles.description>장거리 이동이나 궤도 진입에 사용할 수 있는 왕복선을 건설하세요. 건설에 필요한 왕복선 엔진은 궤도 무역상에게 구매하거나, 다른 왕복선을 분해하거나, 임무 보상으로 얻을 수 있습니다.</Shuttles.description>
   <!-- EN:
     <li>subject->shuttles</li>
     <li>subject_story->flew in a shuttle</li>
@@ -130,30 +130,30 @@
     <li>subject_gerund->piloting shuttles</li>
   -->
   <Shuttles.generalRules.rulesStrings>
-    <li>subject->셔틀</li>
-    <li>subject_story->셔틀을 조종함</li>
-    <li>subject_story->셔틀을 설계함</li>
-    <li>subject_gerund->셔틀 엔지니어링 중</li>
-    <li>subject_gerund->셔틀 조종 중</li>
+    <li>subject->왕복선</li>
+    <li>subject_story->왕복선을 조종했습니다</li>
+    <li>subject_story->왕복선을 설계했습니다</li>
+    <li>subject_gerund->왕복선 설계</li>
+    <li>subject_gerund->왕복선 조종</li>
   </Shuttles.generalRules.rulesStrings>
   
   <!-- EN: standard gravtech -->
-  <StandardGravtech.label>표준 그래브테크</StandardGravtech.label>
+  <StandardGravtech.label>표준 중력기술</StandardGravtech.label>
   <!-- EN: Build complex gravship parts. -->
-  <StandardGravtech.description>복잡한 그래브쉽 부품을 제작합니다.</StandardGravtech.description>
-  <!-- EN: You now have the technology to build large thrusters. These require stellite blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
-  <StandardGravtech.discoveredLetterText>이제 대형 추력을 가진 엔진을 제작할 수 있는 기술을 보유하게 되었습니다. 이 엔진은 궤도 소행성에서 얻을 수 있는 스텔라이트 블록이 필요합니다.\n\n수송 포드, 셔틀, 그래브쉽을 이용해 궤도 지역으로 이동할 수 있습니다. 우주에서 생존하려면 식민자들에게 백슈트나 다른 고급 방어구를 꼭 착용시키세요.</StandardGravtech.discoveredLetterText>
-  <!-- EN: About: Getting stellite -->
-  <StandardGravtech.discoveredLetterTitle>정보: 스텔라이트 확보</StandardGravtech.discoveredLetterTitle>
+  <StandardGravtech.description>복잡한 중력부양선 부품을 제작하세요.</StandardGravtech.description>
+  <!-- EN: You now have the technology to build large thrusters. These require vacstone blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
+  <StandardGravtech.discoveredLetterText>이제 대형 추진기를 건설할 수 있습니다. 대형 추진기 건설에는 궤도 소행성에서만 획득할 수 있는 진공암 석재가 필요합니다.\n\n궤도 지역으로는 수송 포드, 왕복선, 중력부양선을 이용해 이동할 수 있습니다. 우주에서 생존하려면 정착민들에게 진공 방호복이나 다른 고급 방어구를 꼭 착용시키세요.</StandardGravtech.discoveredLetterText>
+  <!-- EN: About: Getting vacstone -->
+  <StandardGravtech.discoveredLetterTitle>정보: 진공암 확보하기</StandardGravtech.discoveredLetterTitle>
   <!-- EN:
     <li>subject->gravtech</li>
     <li>subject_story->researched complex gravship components</li>
     <li>subject_gerund->researching gravships</li>
   -->
   <StandardGravtech.generalRules.rulesStrings>
-    <li>subject->그래브테크</li>
-    <li>subject_story->복잡한 그래브쉽 부품을 연구함</li>
-    <li>subject_gerund->그래브쉽을 연구하는 중</li>
+    <li>subject->중력기술</li>
+    <li>subject_story->복잡한 중력부양선 부품을 연구했습니다</li>
+    <li>subject_gerund->중력부양선 연구</li>
   </StandardGravtech.generalRules.rulesStrings>
   
 </LanguageData>

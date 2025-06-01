@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -18,18 +18,18 @@
   -->
   <NamerGlacialPlain.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[glacialPlain_adjective] [narrative_name]</li>
-    <li>glacialPlain_adjective(p=2)->빙하의</li>
+    <li>glacialPlain_adjective(p=2)->빙하</li>
     <li>glacialPlain_adjective->혹한의</li>
     <li>glacialPlain_adjective->얼어붙은</li>
     <li>glacialPlain_adjective->장엄한</li>
-    <li>glacialPlain_adjective->동결된</li>
+    <li>glacialPlain_adjective->동결</li>
     <li>terrain_word->빙하</li>
     <li>terrain_word(p=0.5)->빙원</li>
     <li>terrain_word(p=0.5)->얼음지대</li>
     <li>terrain_word(p=0.3)->평야</li>
-    <li>terrain_word(p=0.3)->빙하 평원</li>
+    <li>terrain_word(p=0.3)->빙식평원</li>
     <li>terrain_word(p=0.3)->지대</li>
-    <li>terrain_word(p=0.3)->지구</li>
+    <li>terrain_word(p=0.3)->땅</li>
   </NamerGlacialPlain.rulePack.rulesStrings>
   
   <!-- EN:
@@ -47,16 +47,16 @@
   -->
   <NamerGlowforest.rulePack.rulesStrings>
     <li>r_name(p=0.3)->[glowForest_adjective] [narrative_name]</li>
-    <li>glowForest_adjective(p=2)->균류의</li>
+    <li>glowForest_adjective(p=2)->버섯</li>
     <li>glowForest_adjective->만개한</li>
     <li>glowForest_adjective->어두운</li>
     <li>glowForest_adjective->우거진</li>
     <li>glowForest_adjective->비틀린</li>
-    <li>terrain_word(p=3)->글로우포레스트</li>
-    <li>terrain_word->균사체 지대</li>
-    <li>terrain_word->균류 숲</li>
-    <li>terrain_word->암야지대</li>
-    <li>terrain_word->어두운 숲</li>
+    <li>terrain_word(p=3)->어둠숲</li>
+    <li>terrain_word->균사 지대</li>
+    <li>terrain_word->버섯숲</li>
+    <li>terrain_word->그늘</li>
+    <li>terrain_word->숲</li>
   </NamerGlowforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -80,7 +80,7 @@
     <li>grasslands_adjective->바람부는</li>
     <li>grasslands_adjective->완만한</li>
     <li>grasslands_adjective->끝없는</li>
-    <li>terrain_word(p=2)->초원지대</li>
+    <li>terrain_word(p=2)->초원</li>
     <li>terrain_word(p=2)->대초원</li>
     <li>terrain_word(p=2)->평원</li>
     <li>terrain_word->사바나</li>
@@ -106,18 +106,18 @@
   -->
   <NamerLavaField.rulePack.rulesStrings>
     <li>r_name(p=0.3)->[lavaField_adjective] [narrative_name]</li>
-    <li>lavaField_adjective(p=2)->화산의</li>
+    <li>lavaField_adjective(p=2)->화산</li>
     <li>lavaField_adjective->불타는</li>
     <li>lavaField_adjective->지옥의</li>
     <li>lavaField_adjective->타오르는</li>
     <li>lavaField_adjective->이글거리는</li>
     <li>terrain_word(p=3)->화산지대</li>
     <li>terrain_word->균열</li>
-    <li>terrain_word->고지대</li>
-    <li>terrain_word->용암 평원</li>
+    <li>terrain_word->고지</li>
+    <li>terrain_word->용암평원</li>
     <li>terrain_word->분출구</li>
     <li>terrain_word->화로</li>
-    <li>terrain_word->지옥불</li>
+    <li>terrain_word->지옥</li>
     <li>terrain_word->산맥</li>
   </NamerLavaField.rulePack.rulesStrings>
   
@@ -143,22 +143,22 @@
   -->
   <NamerScarlands.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[ruin_adjective] [narrative_name]</li>
-    <li>r_name(p=0.2)->그 [narrative_name] [terrain_word]</li>
+    <li>r_name(p=0.2)->[narrative_name] [terrain_word]</li>
     <li>ruin_adjective(p=2)->폐허가 된</li>
     <li>ruin_adjective->고대의</li>
     <li>ruin_adjective->오래된</li>
-    <li>ruin_adjective->산산조각난</li>
+    <li>ruin_adjective->파괴된</li>
     <li>ruin_adjective->황폐한</li>
-    <li>ruin_adjective->잿빛의</li>
+    <li>ruin_adjective->잿빛</li>
     <li>terrain_word(p=6)->폐허</li>
-    <li>terrain_word(p=3)->흉터지대</li>
-    <li>terrain_word->메가스트럭처</li>
+    <li>terrain_word(p=3)->흉터</li>
+    <li>terrain_word->구조물</li>
     <li>terrain_word->황무지</li>
     <li>terrain_word->폐지대</li>
     <li>terrain_word->불모지</li>
     <li>terrain_word->잔재</li>
-    <li>terrain_word->독지대</li>
-    <li>terrain_word->지대</li>
+    <li>terrain_word->오염지대</li>
+    <li>terrain_word->땅</li>
     <li>terrain_word->요새</li>
   </NamerScarlands.rulePack.rulesStrings>
   

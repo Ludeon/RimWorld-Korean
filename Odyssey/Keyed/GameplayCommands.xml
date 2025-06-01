@@ -3,63 +3,76 @@
 
   <!-- Grav engine -->
   <!-- EN: Show substructure overlay -->
-  <CommandShowSubstructureOverlay>하부 구조 오버레이 표시</CommandShowSubstructureOverlay>
+  <CommandShowSubstructureOverlay>하부구조 오버레이 표시</CommandShowSubstructureOverlay>
   <!-- EN: Display valid substructure in blue and invalid substructure in red. -->
-  <CommandShowSubstructureOverlayDesc>유효한 하부 구조는 파란색으로, 잘못된 하부 구조는 빨간색으로 표시합니다.</CommandShowSubstructureOverlayDesc>
+  <CommandShowSubstructureOverlayDesc>유효한 하부구조는 파란색으로, 잘못된 하부구조는 빨간색으로 표시합니다.</CommandShowSubstructureOverlayDesc>
   <!-- EN: Inspect {0_labelShort} -->
-  <CommandInspectGravEngine>{0_labelShort} 검사</CommandInspectGravEngine>
+  <CommandInspectGravEngine>{0_labelShort} 조사</CommandInspectGravEngine>
   <!-- EN: Choose a colonist to inspect the mysterious grav engine. -->
-  <CommandInspectGravEngineDesc>신비로운 그래브 엔진을 조사할 식민지를 선택하세요.</CommandInspectGravEngineDesc>
+  <CommandInspectGravEngineDesc>신비로운 중력구동기를 조사할 정착민을 선택하세요.</CommandInspectGravEngineDesc>
   <!-- EN: Choose navigator -->
-  <CommandChooseNavigator>항해자 선택</CommandChooseNavigator>
+  <CommandChooseNavigator>항해사 선택</CommandChooseNavigator>
   <!-- EN: Cannot navigate -->
   <CannotChooseNavigator>항해할 수 없음</CannotChooseNavigator>
 
   <!-- EN: Launch -->
   <CommandLaunchGravship>발사</CommandLaunchGravship>
-  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned. -->
-  <CommandLaunchGravshipDesc>그래브쉽을 조종할 식민지를 선택하세요. 그래브쉽 하부 구조에 있는 모든 것은 새 지도에 옮겨지며, 현재 지도는 버려집니다.</CommandLaunchGravshipDesc>
+  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
+  <CommandLaunchGravshipDesc>중력부양선을 조종할 정착민을 선택하세요. 중력부양선 하부구조 위의 모든 것은 새 지역으로 옮겨지며, 중력닻이 없으면 현재 지역은 파괴됩니다.</CommandLaunchGravshipDesc>
 
   <!-- EN: Allow fishing -->
   <CommandAllowFish>낚시 허용</CommandAllowFish>
   <!-- EN: When disabled, colonists will never fish in this zone. -->
-  <CommandAllowFishDesc>비활성화 시, 식민지는 이 구역에서 절대 낚시하지 않습니다.</CommandAllowFishDesc>
+  <CommandAllowFishDesc>비활성화 시, 정착민들은 이 구역에서 절대 낚시하지 않습니다.</CommandAllowFishDesc>
   
-  <!-- EN: Allow hauling -->
-  <CommandAllowHaul>운반 허용</CommandAllowHaul>
-  <!-- EN: When disabled, haulers won't take new apparel to the outfit stand or remove existing apparel. -->
-  <CommandAllowHaulDesc>비활성화 시, 운반자는 새 의류를 복장대에 놓거나 기존 의류를 제거하지 않습니다.</CommandAllowHaulDesc>
+  <!-- EN: Allow removing items -->
+  <CommandAllowRemovingApparel>물품 제거 허용</CommandAllowRemovingApparel>
+  <!-- EN: When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <CommandAllowRemovingApparelDesc>비활성화 시, 운반자가 복장대에서 의류를 제거하지 않고, 정착민들도 직접 명령하지 않으면 착용하지 않습니다.</CommandAllowRemovingApparelDesc>
 
   <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
-  <CommandShuttleNoPilot>셔틀을 조종할 수 있는 식민지가 없습니다. 최소 조종 능력 10%가 필요합니다.</CommandShuttleNoPilot>
+  <CommandShuttleNoPilot>왕복선을 조종할 수 있는 정착민이 없습니다. 최소 조종 능력 10%가 필요합니다.</CommandShuttleNoPilot>
 
   <!-- EN: Confirm landing zone -->
-  <ConfirmLandGravship>착륙 지대 확인</ConfirmLandGravship>
+  <ConfirmLandGravship>착륙 지점 확정</ConfirmLandGravship>
   <!-- EN: Land your gravship in the landing zone. -->
-  <ConfirmLandGravshipDesc>그래브쉽을 착륙 지대로 착륙시키세요.</ConfirmLandGravshipDesc>
+  <ConfirmLandGravshipDesc>중력부양선이 선택된 위치로 착륙합니다.</ConfirmLandGravshipDesc>
+  <!-- EN: Abort landing -->
+  <AbortLandGravship>착륙 중단</AbortLandGravship>
+  <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
+  <AbortLandGravshipDesc>이 지역으로의 착륙을 중단하고, 인근의 다른 지역에 강제로 착륙합니다. 적절한 착륙 지점을 찾을 수 없을 때 사용하세요.\n\n경고: 착륙 중 사고 발생 확률이 증가합니다.</AbortLandGravshipDesc>
+  <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
+  <AbortLandConfirmation>착륙을 중단하면 중력부양선은 인근의 다른 무작위 지역에 강제로 착륙합니다. 또한 착륙 중 사고 발생 확률이 증가합니다.\n\n정말 계속하시겠습니까?</AbortLandConfirmation>
+  <!-- EN: Failed to find crash site. -->
+  <FailedToFindCrashSite>추락 지점을 찾을 수 없습니다.</FailedToFindCrashSite>
+  <!-- EN: You must designate a landing area for your gravship. -->
+  <GravshipLandingMarkerNotPlaced>중력부양선의 착륙 지점을 지정해야 합니다.</GravshipLandingMarkerNotPlaced>
 
   <!-- EN: Refuel from cargo -->
   <CommandRefuelShuttleFromCargo>화물에서 연료 보급</CommandRefuelShuttleFromCargo>
   <!-- EN: Refuel the passenger shuttle using chemfuel stored within. -->
-  <CommandRefuelShuttleFromCargoDesc>내부에 저장된 케미연료를 사용해 승객 셔틀에 연료를 보급합니다.</CommandRefuelShuttleFromCargoDesc>
+  <CommandRefuelShuttleFromCargoDesc>내부에 저장된 화학연료를 사용해 승객 왕복선에 연료를 보급합니다.</CommandRefuelShuttleFromCargoDesc>
   <!-- EN: No fuel in caravan. -->
-  <NoFuelInCaravan>카라반에 연료 없음.</NoFuelInCaravan>
+  <NoFuelInCaravan>상단에 연료가 없습니다.</NoFuelInCaravan>
   <!-- EN: No fuel in shuttle. -->
-  <NoFuelInShuttle>셔틀에 연료 없음.</NoFuelInShuttle>
+  <NoFuelInShuttle>왕복선에 연료가 없습니다.</NoFuelInShuttle>
   <!-- EN: Shuttle is already fully fueled -->
-  <ShuttleFullyFueled>셔틀이 이미 연료로 가득 차 있습니다</ShuttleFullyFueled>
+  <ShuttleFullyFueled>왕복선이 이미 연료로 가득 참</ShuttleFullyFueled>
 
-  <!-- EN: Seal entrance -->
-  <SealHatch>입구 봉인</SealHatch>
-  <!-- EN: Permanently seal the entrance. Anything or anyone left below will be lost forever. -->
-  <SealHatchDesc>입구를 영구적으로 봉인합니다. 안에 남겨진 모든 사람이나 물건은 영원히 사라집니다.</SealHatchDesc>
+  <!-- EN: Seal entrance... -->
+  <SealHatch>입구 봉인...</SealHatch>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <SealHatchDesc>입구를 영구적으로 봉인합니다. 안에 남겨진 모든 사람과 물건은 영원히 사라집니다.</SealHatchDesc>
 
   <!-- EN: Activate -->
   <GravshipShieldOrderActivation>활성화</GravshipShieldOrderActivation>
   <!-- EN: Deactivate -->
   <GravshipShieldOrderDeactivation>비활성화</GravshipShieldOrderDeactivation>
   <!-- EN: Order a pawn to activate the gravship shield generator. -->
-  <GravshipShieldOrderActivationDesc>그래브쉽 방어막 발생기를 작동하도록 폰에게 명령합니다.</GravshipShieldOrderActivationDesc>
+  <GravshipShieldOrderActivationDesc>중력부양선 방어막 발생기를 작동하도록 명령합니다.</GravshipShieldOrderActivationDesc>
   <!-- EN: Order a pawn to deactivate the gravship shield generator. -->
-  <GravshipShieldOrderDeactivationDesc>그래브쉽 방어막 발생기를 비활성화하도록 폰에게 명령합니다.</GravshipShieldOrderDeactivationDesc>
+  <GravshipShieldOrderDeactivationDesc>중력부양선 방어막 발생기를 비활성화하도록 명령합니다.</GravshipShieldOrderDeactivationDesc>
+
+  <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
+  <ConfirmMergeShuttles>상단을 합치면 다음 항목이 사라집니다.\n{0}\n\n정말 계속하시겠습니까?</ConfirmMergeShuttles>
 </LanguageData>

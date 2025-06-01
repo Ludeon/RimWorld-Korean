@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
     <li>r_name(p=2)->The [narrative_name]</li>
     <li>r_name(p=1)->[narrative_name] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefex] [Color] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefex] [AdjectiveBadass] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefex] [AdjectiveBadass] [bird]</li>
-    <li>r_name(p=0.5)->[ship_prefex] [AdjectiveFriendly] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefex] [flying_adjective] [AnimalBadass]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [Color] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [bird]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveFriendly] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [flying_adjective] [AnimalBadass]</li>
     <li>r_name(p=0.5)->[storyname]</li>
     <li>r_name(p=0.2)->[Color] [greekmyth_noun]</li>
-    <li>r_name(p=0.2)->[ship_prefex] [greekmyth_noun]</li>
-    <li>ship_prefex(p=2)->the</li>
-    <li>ship_prefex(p=2)-></li>
+    <li>r_name(p=0.2)->[ship_prefix] [greekmyth_noun]</li>
+    <li>ship_prefix(p=2)->the</li>
+    <li>ship_prefix(p=2)-></li>
     <li>narrative_name->[AdjectiveNatural] [thing_badass]</li>
     <li>narrative_name->[AdjectiveLarge] [thing_badass]</li>
-    <li>narrative_name->[CompassDirections] [thing_badass]</li>
+    <li>narrative_name->[Direction] [thing_badass]</li>
     <li>narrative_name->[thing_badass]</li>
     <li>thing_badass->[AnimalBadass]</li>
     <li>thing_badass->[AnimalBadass]-hunter</li>
@@ -108,14 +108,14 @@
     <li>r_name(p=0.5)->[storyname]</li>
     <li>r_name(p=0.2)->[Color] [greekmyth_noun]</li>
     <li>r_name(p=0.2)->[ship_prefex] [greekmyth_noun]</li>
-    <li>ship_prefex(p=2)->the</li>
+    <li>ship_prefex(p=2)-></li>
     <li>ship_prefex(p=2)-></li>
     <li>narrative_name->[AdjectiveNatural] [thing_badass]</li>
     <li>narrative_name->[AdjectiveLarge] [thing_badass]</li>
     <li>narrative_name->[CompassDirections] [thing_badass]</li>
     <li>narrative_name->[thing_badass]</li>
     <li>thing_badass->[AnimalBadass]</li>
-    <li>thing_badass->[AnimalBadass]-사냥꾼</li>
+    <li>thing_badass->[AnimalBadass]사냥꾼</li>
     <li>thing_badass->승리</li>
     <li>thing_badass->복수</li>
     <li>thing_badass->앙갚음</li>
@@ -127,7 +127,7 @@
     <li>thing_badass->폭정</li>
     <li>thing_badass->공포</li>
     <li>thing_badass->혼돈</li>
-    <li>thing_badass->무정부</li>
+    <li>thing_badass->아나키즘</li>
     <li>storyname(p=50)->[subject]의 [story_result]</li>
     <li>storyname(p=2)->[subject]의 [BodyPart]</li>
     <li>storyname->[subject]의 [Gore]</li>
@@ -143,7 +143,7 @@
     <li>story_result->상</li>
     <li>story_result->수확</li>
     <li>story_result->명예</li>
-    <li>story_result->대박</li>
+    <li>story_result->잭팟</li>
     <li>story_result->트로피</li>
     <li>story_result->파괴</li>
     <li>story_result->대재앙</li>
@@ -159,7 +159,7 @@
     <li>greekmyth_noun->포세이돈</li>
     <li>greekmyth_noun->스킬라</li>
     <li>greekmyth_noun->헤르메스</li>
-    <li>greekmyth_noun->아르고호 대원</li>
+    <li>greekmyth_noun->아르고스</li>
     <li>greekmyth_noun->헤르메스</li>
     <li>greekmyth_noun->헬리오스</li>
     <li>greekmyth_noun->아킬레스</li>
@@ -167,30 +167,30 @@
     <li>greekmyth_noun->사이클롭스</li>
     <li>greekmyth_noun->메두사</li>
     <li>greekmyth_noun->고르곤</li>
-    <li>bird->매</li>
-    <li>bird->독수리</li>
     <li>bird->송골매</li>
-    <li>bird->종다리</li>
-    <li>bird->대머리독수리</li>
+    <li>bird->독수리</li>
+    <li>bird->참매</li>
+    <li>bird->맹금</li>
+    <li>bird->콘도르</li>
     <li>flying_adjective(p=2)->비행하는</li>
-    <li>flying_adjective->공중의</li>
-    <li>flying_adjective->떠있는</li>
+    <li>flying_adjective->공중</li>
+    <li>flying_adjective->부유하는</li>
     <li>flying_adjective->날개달린</li>
-    <li>ship_word(p=5)->선박</li>
-    <li>ship_word(p=5)->그래브쉽</li>
-    <li>ship_word(p=2)->[AdjectiveNatural]선</li>
+    <li>ship_word(p=5)->함선</li>
+    <li>ship_word(p=5)->부양선</li>
+    <li>ship_word(p=2)->[AdjectiveNatural] 것</li>
     <li>ship_word->전함</li>
     <li>ship_word->호위함</li>
     <li>ship_word->함선</li>
-    <li>ship_word->셔틀</li>
+    <li>ship_word->왕복선</li>
     <li>ship_word->순양함</li>
     <li>ship_word->수송선</li>
-    <li>ship_word->갤리선</li>
+    <li>ship_word->갤리</li>
     <li>ship_word->갈레온</li>
-    <li>ship_word->롱쉽</li>
+    <li>ship_word->롱십</li>
     <li>ship_word->화물선</li>
-    <li>ship_word->폐선</li>
-    <li>ship_word->삼노선</li>
+    <li>ship_word->인양선</li>
+    <li>ship_word->트라이림</li>
     <li>ship_word->제피르</li>
   </NamerGravship.rulePack.rulesStrings>
   

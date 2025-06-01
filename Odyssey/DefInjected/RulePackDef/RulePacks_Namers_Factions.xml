@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -38,24 +38,24 @@
     <li>spaceCollectiveNoun->Reapers</li>
   -->
   <NamerFactionSalvagers.rulePack.rulesStrings>
-    <li>r_name->The [spaceAdj] 구조자들</li>
-    <li>r_name->The [spaceAdj] 청소부들</li>
-    <li>r_name->[spaceAdj] [AnimalBadass]들</li>
-    <li>r_name->The [spaceAdj] [AnimalBadass]들</li>
-    <li>r_name->The [spaceAdj] [Enemy]들</li>
-    <li>r_name->The [spaceNoun] [Enemy]들</li>
-    <li>r_name->The [spaceNoun] [groupname]</li>
-    <li>r_name->The [spaceAdj] [groupname]</li>
-    <li>r_name->The [ColorBadass] [spaceNoun]</li>
-    <li>r_name->The [AdjectiveBadass] [spaceNoun]</li>
-    <li>r_name->The [ColorBadass] [spaceCollectiveNoun]</li>
-    <li>r_name->The [AdjectiveBadass] [spaceCollectiveNoun]</li>
-    <li>r_name->The [spaceNoun]들 of [ConceptBadass]</li>
-    <li>r_name(p=2)->[NamePerson]의 [spaceNoun]들</li>
+    <li>r_name->[spaceAdj] 인양단</li>
+    <li>r_name->[spaceAdj] 청소부</li>
+    <li>r_name->[spaceAdj] [AnimalBadass]</li>
+    <li>r_name->[spaceAdj] [AnimalBadass]</li>
+    <li>r_name->[spaceAdj] [Enemy]</li>
+    <li>r_name->[spaceNoun]의 [Enemy]</li>
+    <li>r_name->[spaceNoun]의 [groupname]</li>
+    <li>r_name->[spaceAdj] [groupname]</li>
+    <li>r_name->[ColorBadass] [spaceNoun]</li>
+    <li>r_name->[AdjectiveBadass] [spaceNoun]</li>
+    <li>r_name->[ColorBadass] [spaceCollectiveNoun]</li>
+    <li>r_name->[AdjectiveBadass] [spaceCollectiveNoun]</li>
+    <li>r_name->[ConceptBadass] [spaceNoun]</li>
+    <li>r_name(p=2)->[NamePerson]의 [spaceNoun]</li>
     <li>r_name(p=2)->[NamePerson]의 [spaceCollectiveNoun]</li>
     <li>r_name(p=2)->[NamePerson]의 [spaceAdj] [spaceCollectiveNoun]</li>
     <li>spaceAdj->궤도</li>
-    <li>spaceAdj->코스믹</li>
+    <li>spaceAdj->천계</li>
     <li>spaceAdj->천상</li>
     <li>spaceAdj->태양</li>
     <li>spaceAdj->천체</li>
@@ -66,11 +66,11 @@
     <li>spaceNoun->일식</li>
     <li>spaceCollectiveNoun->함대</li>
     <li>spaceCollectiveNoun->선단</li>
-    <li>spaceCollectiveNoun->대집단</li>
-    <li>spaceCollectiveNoun->플리트</li>
+    <li>spaceCollectiveNoun->플로틸라</li>
+    <li>spaceCollectiveNoun->선단</li>
     <li>spaceCollectiveNoun->해적단</li>
-    <li>spaceCollectiveNoun->마라더즈</li>
-    <li>spaceCollectiveNoun->리퍼즈</li>
+    <li>spaceCollectiveNoun->약탈자</li>
+    <li>spaceCollectiveNoun->리퍼</li>
   </NamerFactionSalvagers.rulePack.rulesStrings>
   
   <!-- EN:
@@ -101,31 +101,31 @@
     <li>tradeNoun->nexus</li>
   -->
   <NamerFactionTradersGuild.rulePack.rulesStrings>
-    <li>r_name->[tradeAdj] [tradeNoun]</li>
-    <li>tradeAdj->상인의</li>
+    <li>r_name->[tradeAdj][tradeNoun]</li>
+    <li>tradeAdj->상인</li>
     <li>tradeAdj->궤도</li>
     <li>tradeAdj->교역</li>
     <li>tradeAdj->우주인</li>
     <li>tradeAdj->우주</li>
-    <li>tradeAdj->코스믹</li>
-    <li>tradeAdj->하늘비행</li>
-    <li>tradeAdj->공허 출신</li>
-    <li>tradeAdj->엑소</li>
-    <li>tradeNoun->길드</li>
-    <li>tradeNoun->컨소시엄</li>
-    <li>tradeNoun->신디케이트</li>
+    <li>tradeAdj->공중</li>
+    <li>tradeAdj->비행</li>
+    <li>tradeAdj->공허</li>
+    <li>tradeAdj->외계</li>
+    <li>tradeNoun->조합</li>
+    <li>tradeNoun-> 컨소시엄</li>
+    <li>tradeNoun->협동</li>
     <li>tradeNoun->동맹</li>
-    <li>tradeNoun->카르텔</li>
+    <li>tradeNoun-> 카르텔</li>
     <li>tradeNoun->연합</li>
     <li>tradeNoun->연방</li>
-    <li>tradeNoun->콩글로메리트</li>
-    <li>tradeNoun->코퍼레이션</li>
-    <li>tradeNoun->컴퍼니</li>
-    <li>tradeNoun->네트워크</li>
-    <li>tradeNoun->거래소</li>
-    <li>tradeNoun->시장</li>
-    <li>tradeNoun->상점</li>
-    <li>tradeNoun->넥서스</li>
+    <li>tradeNoun->회사</li>
+    <li>tradeNoun->사업</li>
+    <li>tradeNoun->유통</li>
+    <li>tradeNoun-> 네트워크</li>
+    <li>tradeNoun-> 거래소</li>
+    <li>tradeNoun-> 시장</li>
+    <li>tradeNoun-> 엠포리움</li>
+    <li>tradeNoun-> 넥서스</li>
   </NamerFactionTradersGuild.rulePack.rulesStrings>
   
   <!-- EN:
@@ -170,7 +170,7 @@
     <li>platAdj->별빛</li>
     <li>platAdj->햇살</li>
     <li>platAdj->성운</li>
-    <li>platAdj->별가루</li>
+    <li>platAdj->성진</li>
     <li>platAdj->오리온</li>
     <li>platAdj->지평선</li>
     <li>platAdj->은하</li>
@@ -180,16 +180,16 @@
     <li>platAdj->혜성</li>
     <li>platAdj->일식</li>
     <li>platAdj->퀘이사</li>
-    <li>platAdj->펄서</li>
+    <li>platAdj->펄사</li>
     <li>platAdj->유성</li>
-    <li>platAdj->정점</li>
+    <li>platAdj->정점의</li>
     <li>platAdj->달빛</li>
     <li>platAdj->태양</li>
     <li>platAdj->천체</li>
-    <li>platAdj->문빔</li>
-    <li>platAdj->썬버스트</li>
-    <li>platAdj->별밭</li>
-    <li>platAdj->코스믹</li>
+    <li>platAdj->초승달</li>
+    <li>platAdj->햇빛</li>
+    <li>platAdj->별바다</li>
+    <li>platAdj->천계</li>
     <li>platAdj->천상</li>
     <li>platAdj->오로라</li>
     <li>platAdj->루미너리</li>
@@ -199,8 +199,8 @@
     <li>platform->허브</li>
     <li>platform->스테이션</li>
     <li>platform->기지</li>
-    <li>platform->독</li>
-    <li>platform->반지</li>
+    <li>platform->정박장</li>
+    <li>platform->링</li>
   </NamerSettlementTradersGuild.rulePack.rulesStrings>
   
 </LanguageData>

@@ -2,128 +2,144 @@
 <LanguageData>
 
   <!-- Gravship -->
+  <!-- EN: Gravship -->
+  <Gravship>중력부양선</Gravship>
   <!-- EN: no grav engine -->
-  <CannotLaunchNoEngine>그래브 엔진 없음</CannotLaunchNoEngine>
+  <CannotLaunchNoEngine>중력구동기 없음</CannotLaunchNoEngine>
   <!-- EN: not enough fuel -->
   <CannotLaunchNotEnoughFuel>연료 부족</CannotLaunchNotEnoughFuel>
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>이 목적지에 도달할 수 없습니다</CannotLaunchDestination>
+  <!-- EN: Cannot land on the same tile -->
+  <CannotLandOnSameTile>같은 칸에 착륙할 수 없음</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
-  <ConnectedSubstructure>연결된 하위 구조물</ConnectedSubstructure>
+  <ConnectedSubstructure>연결된 하부구조</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
-  <SubstructureBlueprintsCount>하위 구조물 설계도 배치됨</SubstructureBlueprintsCount>
+  <SubstructureBlueprintsCount>하부구조 설계도 배치됨</SubstructureBlueprintsCount>
   <!-- EN: not connected to grav engine -->
-  <CannotLaunchDisconnected>그래브 엔진에 연결되어 있지 않음</CannotLaunchDisconnected>
+  <CannotLaunchDisconnected>중력구동기에 연결되지 않음</CannotLaunchDisconnected>
   <!-- EN: no substructure -->
-  <CannotLaunchNoSubstructure>하위 구조물 없음</CannotLaunchNoSubstructure>
+  <CannotLaunchNoSubstructure>하부구조 없음</CannotLaunchNoSubstructure>
   <!-- EN: no unblocked functioning thrusters -->
-  <CannotLaunchNoThrusters>작동하는 추진기가 차단됨</CannotLaunchNoThrusters>
-  <!-- EN: on cooldown for {0} -->
-  <CannotLaunchOnCooldown>{0} 동안 재사용 대기 중</CannotLaunchOnCooldown>
+  <CannotLaunchNoThrusters>막히지 않은 추진기 없음</CannotLaunchNoThrusters>
+  <!-- EN: engine cooldown: {0} -->
+  <CannotLaunchOnCooldown>구동기 재사용 대기 중: {0}</CannotLaunchOnCooldown>
   <!-- EN: Choose where to land -->
   <ChooseWhereToLand>착륙 지점 선택</ChooseWhereToLand>
-  <!-- EN: Right-click to inspect. -->
-  <GravEngineNotInspected>우클릭하여 점검하세요.</GravEngineNotInspected>
+  <!-- EN: Send a colonist to inspect this. -->
+  <GravEngineNotInspected>정착민을 보내 조사하세요.</GravEngineNotInspected>
   <!-- EN: Choose who should inspect {0_definite} -->
-  <ChooseWhoShouldInspect>{0}을(를) 누가 조사할지 선택하세요</ChooseWhoShouldInspect>
+  <ChooseWhoShouldInspect>{0}(을)를 누가 조사할지 선택하세요</ChooseWhoShouldInspect>
   <!-- EN: Cannot launch gravship -->
-  <CannotPilotGravship>그래브쉽을 발진할 수 없습니다</CannotPilotGravship>
+  <CannotPilotGravship>중력부양선을 발진할 수 없습니다</CannotPilotGravship>
   <!-- EN: Launch gravship -->
-  <PilotGravship>그래브쉽 발진</PilotGravship>
+  <PilotGravship>중력부양선 발진</PilotGravship>
   <!-- EN: {0} {1_label} -->
   <FuelAmount>{0} {1_label}</FuelAmount>
-  <!-- EN: Must be outside -->
-  <MustBeOutside>야외에 있어야 합니다</MustBeOutside>
   <!-- EN: gravship name -->
-  <GravshipName>그래브쉽 이름</GravshipName>
+  <GravshipName>중력부양선 이름</GravshipName>
   <!-- EN: gravship range -->
-  <GravshipRange>그래브쉽 범위</GravshipRange>
+  <GravshipRange>중력부양선 범위</GravshipRange>
   <!-- EN: stored chemfuel -->
-  <StoredChemfuel>저장된 케미연료</StoredChemfuel>
+  <StoredChemfuel>저장된 화학연료</StoredChemfuel>
   <!-- EN: thruster blocked -->
   <ThrusterBlocked>추진기 차단됨</ThrusterBlocked>
   <!-- EN: fuel consumption -->
   <FuelConsumption>연료 소모</FuelConsumption>
   <!-- EN: {0} chemfuel per tile -->
-  <FuelPerTile>타일당 케미연료 {0}</FuelPerTile>
+  <FuelPerTile>타일당 화학연료 {0}</FuelPerTile>
   <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
-  <RequiresSignalJammer>중화기 시스템: 접근하려면 신호 차단기가 필요합니다</RequiresSignalJammer>
+  <RequiresSignalJammer>중화기 시스템: 접근하려면 신호 교란기 필요</RequiresSignalJammer>
   <!-- EN: {0} landing site -->
   <GravshipLandingSite>{0} 착륙 지점</GravshipLandingSite>
   <!-- EN: Confirm landing area -->
-  <ConfirmLandingArea>착륙 구역 확인</ConfirmLandingArea>
+  <ConfirmLandingArea>착륙 지점 확정</ConfirmLandingArea>
   <!-- EN: Blocked by {0_label} -->
   <GravshipBlockedBy>{0_label}에 의해 차단됨</GravshipBlockedBy>
-  <!-- EN: Can't place in fogged area -->
-  <GravshipBlockedByFog>안개 지역에는 설치할 수 없습니다</GravshipBlockedByFog>
+  <!-- EN: Can't place in undiscovered area -->
+  <GravshipBlockedByFog>발견하지 않은 곳에는 설치할 수 없음</GravshipBlockedByFog>
+  <!-- EN: Blocked by roof -->
+  <GravshipBlockedByRoof>지붕에 막힘</GravshipBlockedByRoof> <!-- text_todo -->
   <!-- EN: Can't place outside map bounds -->
-  <GravshipOutOfBounds>맵 경계 밖에는 설치할 수 없습니다</GravshipOutOfBounds>
+  <GravshipOutOfBounds>지역 경계 밖에는 설치할 수 없음</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
-  <GravshipInNoBuildArea>맵 가장자리 근처에는 설치할 수 없습니다</GravshipInNoBuildArea>
+  <GravshipInNoBuildArea>지역 경계 근처에는 설치할 수 없음</GravshipInNoBuildArea>
+  <!-- EN: Can't place in blocked area -->
+  <GravshipInBlockedArea>막힌 지역에는 설치할 수 없음</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
-  <GravshipBlockedByTerrain>{0_label} 위에는 설치할 수 없습니다</GravshipBlockedByTerrain>
+  <GravshipBlockedByTerrain>{0_label} 위에는 설치할 수 없음</GravshipBlockedByTerrain>
+  <!-- EN: Must be connected to solid ground -->
+  <GravshipMustBeConnectedToLand>단단한 지면에 연결되어야 함</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
   <ConfirmLandingToContinue>계속하려면 착륙 구역을 확인하세요</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
   <RitualTargetPilotConsole>유효한 조종석 콘솔</RitualTargetPilotConsole>
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
-  <GravshipOutcomeChanceLetterExtra>그래브쉽의 발진에 따라 부정적인 결과가 발생할 확률이 {0_percentage}였습니다.</GravshipOutcomeChanceLetterExtra>
+  <GravshipOutcomeChanceLetterExtra>중력부양선의 발진에 따라 부정적인 결과가 발생할 확률이 {0_percentage}였습니다.</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
   <ThrustersBrokeDown>다음 추진기들이 영향을 받았습니다</ThrustersBrokeDown>
   <!-- EN: No path to gravship -->
-  <NoPathToGravship>그래브쉽까지 이동 경로가 없습니다</NoPathToGravship>
+  <NoPathToGravship>중력부양선까지 경로 없음</NoPathToGravship>
   <!-- EN: No path to pilot console -->
-  <NoPathToPilotConsole>조종석까지 이동 경로가 없습니다</NoPathToPilotConsole>
+  <NoPathToPilotConsole>조종석까지 경로 없음</NoPathToPilotConsole>
   <!-- EN: Pilot console is not accessible from gravship -->
-  <PilotConsoleInaccessible>그래브쉽에서 조종석에 접근할 수 없습니다</PilotConsoleInaccessible>
+  <PilotConsoleInaccessible>중력부양선에서 조종석에 접근할 수 없음</PilotConsoleInaccessible>
   <!-- EN: Launch date -->
   <LaunchDate>발진 날짜</LaunchDate>
-  <!-- EN: Blocked by substructure -->
-  <BlockedBySubstructure>하위 구조물에 의해 차단됨</BlockedBySubstructure>
   <!-- EN: Warning: {0} will be blocked by {1}. -->
-  <WarningThrusterBlocked>경고: {0}이(가) {1}에 의해 차단될 예정입니다.</WarningThrusterBlocked>
+  <WarningThrusterBlocked>경고: {0}(이)가 {1}에 의해 차단될 예정입니다.</WarningThrusterBlocked>
   <!-- EN: Warning: {0} will be blocked due to being indoors. -->
-  <WarningThrusterInside>경고: {0}이(가) 실내에 있어 차단될 예정입니다.</WarningThrusterInside>
+  <WarningThrusterInside>경고: {0}(이)가 실내에 있어 차단될 예정입니다.</WarningThrusterInside>
   <!-- EN: Max per gravship -->
-  <GravFacilityMaxSimultaneousConnections>그래브쉽당 최대 설치 수</GravFacilityMaxSimultaneousConnections>
+  <GravFacilityMaxSimultaneousConnections>중력부양선당 최대 설치 수</GravFacilityMaxSimultaneousConnections>
+  <!-- EN: Not connected to gravship -->
+  <ShieldNotConnectedToGravship>중력부양선에 연결되지 않음</ShieldNotConnectedToGravship>
+  <!-- EN: Gravship launch called off -->
+  <GravshipLaunchInterrupted>중력부양선 발진 취소됨</GravshipLaunchInterrupted>
+  <!-- EN: Not connected to grav engine. -->
+  <NotConnectedToGravEngine>중력구동기에 연결되어 있지 않습니다.</NotConnectedToGravEngine>
+  <!-- EN: Not functional -->
+  <ThrusterNotFunctional>작동하지 않음</ThrusterNotFunctional>
+  <!-- EN: not connected to grav engine -->
+  <ThrusterNotConnected>중력구동기에 연결되지 않음</ThrusterNotConnected>
+  <!-- EN: blocked by {0_label} -->
+  <ThrusterBlockedBy>{0_label}에 의해 막힘</ThrusterBlockedBy>
+  <!-- EN: must be outside -->
+  <MustBeOutside>야외에 있어야 함</MustBeOutside>
+  <!-- EN: blocked by substructure -->
+  <BlockedBySubstructure>하부구조에 의해 막힘</BlockedBySubstructure>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
   <Landmark>랜드마크</Landmark>
-  <!-- EN: {0} habitat -->
-  <AnimalHabitat>{0} 서식지</AnimalHabitat>
+  <!-- EN: {ANIMALKIND_label} habitat -->
+  <AnimalHabitat>{ANIMALKIND_label} 서식지</AnimalHabitat>
   <!-- EN: {0} grove -->
   <PlantGrove>{0} 숲</PlantGrove>
   <!-- EN: {0} -->
   <WildPlants>{0}</WildPlants>
   <!-- EN: {MINERAL_label} rich -->
   <MineralRich>{MINERAL_label} 풍부</MineralRich>
-  <!-- EN: This area has a number of large {MINERAL_label} deposits. -->
-  <MineralRichDescription>이 지역에는 대형 {MINERAL_label} 매장지가 다수 있습니다.</MineralRichDescription>
-
-  <!-- Quests -->
-  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>이 퀘스트를 {LAYER}에서 {GERUND} 상태로 수락할 수 없습니다.</CannotAcceptQuestFromLayer>
-  <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>영구 거주지가 없으면 이 퀘스트를 수락할 수 없습니다.</CannotAcceptQuestNoMap>
+  <!-- EN: This area has more {MINERAL_label} deposits than normal. -->
+  <MineralRichDescription>이 지역에는 {MINERAL_label} 매장지가 더 많습니다.</MineralRichDescription>
 
   <!-- Insect Lair -->
   <!-- EN: Cave entrance -->
   <CaveEntranceLetter>동굴 입구</CaveEntranceLetter>
   <!-- EN: The gravcore energy signature is coming from a nearby cave network. The entrance is guarded by insect hives.\n\nExplore the cave network to find the gravcore. -->
-  <CaveEntranceLetterText>그래브코어의 에너지 신호가 인근 동굴 네트워크에서 감지됩니다. 입구는 곤충 둥지들이 지키고 있습니다.\n\n그래브코어를 찾기 위해 동굴을 탐험하세요.</CaveEntranceLetterText>
+  <CaveEntranceLetterText>중력 코어의 에너지 신호가 인근 동굴망에서 감지됩니다. 입구는 곤충 둥지들이 지키고 있습니다.\n\n중력 코어를 찾으려면 동굴을 탐험하세요.</CaveEntranceLetterText>
   <!-- EN: Insect ambush -->
   <InsectAmbushLetter>곤충 매복</InsectAmbushLetter>
   <!-- EN: Insects are tunneling up from underneath the ground. Be prepared! -->
-  <InsectAmbushLetterText>곤충들이 지하에서 땅을 뚫고 올라오고 있습니다. 주의하세요!</InsectAmbushLetterText>
+  <InsectAmbushLetterText>곤충들이 지하에서 땅을 뚫고 올라오고 있습니다. 조심하세요!</InsectAmbushLetterText>
   <!-- EN: Muffled chittering -->
   <LetterLabelInsectQueenWarning>웅웅거리는 소리</LetterLabelInsectQueenWarning>
-  <!-- EN: Behind a nearby wall {PAWN_nameDef} can hear muffled pulsations accompanied by a low chittering noise. Something massive lies behind the wall. -->
-  <LetterInsectQueenWarning>근처 벽 너머에서 {PAWN_nameDef}이(가) 낮고 웅웅거리는 맥동 소리를 듣습니다. 벽 뒤에는 거대한 무언가가 있습니다.</LetterInsectQueenWarning>
+  <!-- EN: Behind a nearby wall, {PAWN_nameDef} can hear muffled pulsations accompanied by a low chittering noise. Something massive lies behind the wall. -->
+  <LetterInsectQueenWarning>근처 벽 너머에서 {PAWN_nameDef}(이)가 낮고 웅웅거리는 맥동 소리를 들었습니다. 벽 뒤에 거대한 무언가가 있습니다.</LetterInsectQueenWarning>
   
   <!-- Overlay -->
   <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
-  <ShowVacuumOverlayToggleButton>진공 오버레이 켜기/끄기. 이 기능은 진공이 존재하는 구역과 누수 지점을 표시합니다.\n\n적절한 장비 없이 진공에 노출되면 치명적일 수 있습니다.</ShowVacuumOverlayToggleButton>
+  <ShowVacuumOverlayToggleButton>진공을 표시합니다. 진공 구역과 누수 지점을 시각화합니다.\n\n적절한 장비 없이 진공에 노출되면 치명적일 수 있습니다.</ShowVacuumOverlayToggleButton>
   <!-- EN: vacuum -->
   <Vacuum>진공</Vacuum>
   
@@ -131,15 +147,15 @@
   <!-- EN: No discovered orbital locations. -->
   <CannotSelectOrbitReason>발견된 궤도 위치가 없습니다.</CannotSelectOrbitReason>
   <!-- EN: Dying from vacuum exposure -->
-  <DyingBecauseExposedToVacuum>진공 노출로 사망 중</DyingBecauseExposedToVacuum>
-  <!-- EN: Stellite with traces of -->
-  <TracesOfPreciousResource>희귀 자원이 포함된 스텔라이트</TracesOfPreciousResource>
+  <DyingBecauseExposedToVacuum>진공 노출로 죽어가는 중</DyingBecauseExposedToVacuum>
+  <!-- EN: Vacstone with traces of {RESOURCE_label} -->
+  <TracesOfPreciousResource>{RESOURCE_label} 흔적이 있는 진공암</TracesOfPreciousResource>
   <!-- EN: Requires signal jammer -->
-  <TransportPodDestinationRequiresSignalJammer>신호 차단기가 필요합니다</TransportPodDestinationRequiresSignalJammer>
+  <TransportPodDestinationRequiresSignalJammer>신호 교란기가 필요합니다</TransportPodDestinationRequiresSignalJammer>
   <!-- EN: cannot function in vacuum. -->
   <CannotFunctionInVacuum>진공에서는 작동하지 않습니다.</CannotFunctionInVacuum>
   <!-- EN: Gravship -->
-  <GravshipOnTileInspectString>그래브쉽</GravshipOnTileInspectString>
+  <GravshipOnTileInspectString>중력부양선</GravshipOnTileInspectString>
   
   <!-- Ruins -->
   <!-- EN: Hack to open. -->
@@ -152,16 +168,18 @@
   <Fishing>낚시</Fishing>
   <!-- EN: Cannot fish -->
   <CannotFish>낚시 불가</CannotFish>
-  <!-- EN: Blocked -->
-  <FishingSpotBlocked>차단됨</FishingSpotBlocked>
-  <!-- EN: Frozen -->
+  <!-- EN: blocked -->
+  <FishingSpotBlocked>막힘</FishingSpotBlocked>
+  <!-- EN: frozen -->
   <FishingSpotFrozen>얼어붙음</FishingSpotFrozen>
-  <!-- EN: Below minimum fish population -->
+  <!-- EN: below minimum fish population -->
   <FishingSpotUnderTargetPopulation>최소 어류 개체수 미만</FishingSpotUnderTargetPopulation>
+  <!-- EN: stored fish exceed fishing zone settings -->
+  <FishingSpotOverTargetResourceCount>물고기 재고가 낚시구역 설정 초과</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>낚시</TabFishing>
   <!-- EN: Fish population -->
-  <FishPopulation>어군 개체수</FishPopulation>
+  <FishPopulation>어류 개체수</FishPopulation>
   <!-- EN: Population declining -->
   <FishPopulationDecline>개체수 감소</FishPopulationDecline>
   <!-- EN: very low -->
@@ -189,15 +207,15 @@
   <!-- EN: Windswept sand -->
   <Sand_Label>바람에 휩쓸린 모래</Sand_Label>
   <!-- EN: clearing sand. -->
-  <JobClearingSand>모래 치우는 중.</JobClearingSand>
+  <JobClearingSand>모래 치우는 중</JobClearingSand>
   <!-- EN: clearing sand -->
   <ClearingSandGerund>모래 치우기</ClearingSandGerund>
 
   <!-- Stockpile -->
   <!-- EN: medicine stockpile -->
-  <StockpileMedicine>약 저장소</StockpileMedicine>
+  <StockpileMedicine>약품 저장소</StockpileMedicine>
   <!-- EN: chemfuel stockpile -->
-  <StockpileChemfuel>케미연료 저장소</StockpileChemfuel>
+  <StockpileChemfuel>화학연료 저장소</StockpileChemfuel>
   <!-- EN: component stockpile -->
   <StockpileComponent>부품 저장소</StockpileComponent>
   <!-- EN: weapons stockpile -->
@@ -206,25 +224,27 @@
   <StockpileDrugs>약물 저장소</StockpileDrugs>
   
   <!-- Outfit Stand -->
-  <!-- EN: swap outfit -->
+  <!-- EN: equip outfit -->
   <SwapOutfit>의상 교체</SwapOutfit>
+  <!-- EN: equip outfit... -->
+  <SwapOutfitGizmo>의상 장착...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
-  <SwapOutfitDesc>개척민에게 스탠드에 있는 모든 옷을 입도록 명령합니다. 착용하지 않은 옷은 스탠드에 다시 놓습니다.</SwapOutfitDesc>
-  <!-- EN: cannot swap outfit -->
+  <SwapOutfitDesc>정착민에게 거치대의 모든 옷을 입도록 명령합니다. 착용하지 않은 옷은 거치대에 다시 놓습니다.</SwapOutfitDesc>
+  <!-- EN: cannot equip outfit -->
   <CannotSwapOutfit>의상 교체 불가</CannotSwapOutfit>
   <!-- EN: outfit stand is empty -->
-  <OutfitStandEmpty>의상 스탠드가 비어 있습니다</OutfitStandEmpty>
+  <OutfitStandEmpty>의상 거치대가 비어있음</OutfitStandEmpty>
   <!-- EN: Remove this from the outfit stand. -->
-  <EjectApparelTooltip>이 아이템을 의상 스탠드에서 제거</EjectApparelTooltip>
+  <EjectApparelTooltip>이 아이템을 의상 스탠드에서 제거합니다.</EjectApparelTooltip>
   
   <!-- Orbital mechanoid platform -->
   <!-- EN: Ancient grav engine -->
-  <LetterAncientGravEngineDiscoveredLabel>고대 그래브 엔진</LetterAncientGravEngineDiscoveredLabel>
+  <LetterAncientGravEngineDiscoveredLabel>고대 중력구동기</LetterAncientGravEngineDiscoveredLabel>
   <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
-  <LetterAncientGravEngineDiscovered>고대 그래브 엔진을 발견했습니다. 파괴하면 그래브코어를 얻을 수 있습니다.</LetterAncientGravEngineDiscovered>
+  <LetterAncientGravEngineDiscovered>고대 중력구동기를 발견했습니다. 파괴하면 중력 코어를 얻을 수 있습니다.</LetterAncientGravEngineDiscovered>
 
   <!-- EN: Gravship -->
-  <PlayerPawnsArriveMethod_Gravship>그래브쉽</PlayerPawnsArriveMethod_Gravship>
+  <PlayerPawnsArriveMethod_Gravship>중력부양선</PlayerPawnsArriveMethod_Gravship>
 
   <!-- Misc -->
   <!-- EN: Toggle displaying expanding icons for landmarks. -->
@@ -232,7 +252,7 @@
 
   <!-- Mechive -->
   <!-- EN: Before {PAWN_nameDef} stands the cerebrex core - a massive brain-like neural mesh that commands mechanoids across the planet.\n\nWith its stabilizers destroyed, {PAWN_nameDef} can now access it directly... but what should {PAWN_pronoun} do with that power? -->
-  <CerebrexCoreDialog>{PAWN_nameDef} 앞에는 세레브렉스 코어가 있습니다. 이 거대한 뇌 같은 신경망은 행성 전체의 메카노이드를 지휘합니다.\n\n안정장치가 부서져 이제 {PAWN_nameDef}은(는) 코어에 직접 접근할 수 있습니다... 이제 이 힘을 어떻게 사용할까요?</CerebrexCoreDialog>
+  <CerebrexCoreDialog>{PAWN_nameDef}의 눈앞에 세레브렉스 코어가 있습니다. 행성 전체의 메카노이드를 지휘하는, 거대한 뇌와 같은 신경망입니다.\n\n안정장치가 모두 부서졌으므로 {PAWN_nameDef}(은)는 이제 코어에 직접 접근할 수 있습니다... 하지만 이 힘을 어떻게 사용해야 좋을까요?</CerebrexCoreDialog>
   <!-- EN: Destroy the core -->
   <CerebrexCoreOption_Destroy>코어 파괴</CerebrexCoreOption_Destroy>
   <!-- EN: Scavenge technology -->
@@ -241,13 +261,13 @@
   <CerebrexCoreOption_Postpone>미루기</CerebrexCoreOption_Postpone>
   <!-- EN: Stabilizers remaining -->
   <StabilizersRemaining>남은 안정장치</StabilizersRemaining>
-  <!-- EN: Producing mechanoids. -->
-  <ProducingMechanoids>메카노이드 생성 중.</ProducingMechanoids>
+  <!-- EN: Gestating mechanoids. -->
+  <ProducingMechanoids>메카노이드 배양 중</ProducingMechanoids>
 
   <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
-  <OdysseyDestroyedCredits>{PAWN_nameDef}이(가) 세레브렉스 코어 내의 머리카락처럼 가는 신경망을 찢기 시작합니다. 그 망은 살아있는 듯 틀어지고 신음합니다. 격자 틀에는 전기가 튀며, 순식간에 모든 것이 어두워지고 생명이 사라집니다.\n\n메카노이드의 윙윙거림이 멈춥니다. 이곳 뿐 아니라 전 행성의 메카노이드가 영구적으로 비활성화되어 더 이상 메크하이브의 통제를 받지 않게 됩니다.\n\n메카노이드의 위협은 끝났지만, 당신의 이야기는 계속됩니다...</OdysseyDestroyedCredits>
+  <OdysseyDestroyedCredits>{PAWN_nameDef}(이)가 세레브렉스 코어 내부의 머리카락처럼 가는 신경망을 찢기 시작합니다. 신경망이 마치 살아있는 듯 뒤틀리며 신음합니다. 격자 프레임을 따라 전기 불꽃이 튀어오르다가, 순식간에 모든 것이 어두워지고 조용해집니다.\n\n메카노이드의 기계음이 멈춥니다. 이곳, 그리고 이 행성 전역의 모든 메카노이드가 군락의 통제에서 벗어나 영구적으로 비활성화됩니다.\n\n메카노이드의 위협은 끝났습니다. 하지만 당신의 이야기는 계속됩니다...</OdysseyDestroyedCredits>
   <!-- EN: {PAWN_nameDef} begins working to free a processing node buried within the core. The latticework frame convulses as if in agony. As {PAWN_nameDef} pulls the node free, the mesh begins to mend, repairing the damage. The core rebuilds its defences and closes.\n\nTurning the node over, {PAWN_nameDef} recoils as it sparks to life, pulsing in time with the core. In {PAWN_possessive} hand, {PAWN_nameDef} holds a weapon of untold power.\n\nThe story continues... -->
-  <OdysseyScavengedCredits>{PAWN_nameDef}이(가) 코어 속에 묻힌 프로세싱 노드를 꺼내기 시작합니다. 격자가 고통에 의해 경련하며, 노드를 꺼내자 신경망이 손상을 스스로 복구합니다. 코어는 방어 기능을 재구축하며 닫힙니다.\n\n노드를 뒤집자, 생명이 깃든 듯 그것이 불꽃을 튀기며 코어와 박동을 맞춥니다. {PAWN_nameDef}의 손에는 강력한 무기가 쥐어져 있습니다.\n\n이야기는 계속됩니다...</OdysseyScavengedCredits>
+  <OdysseyScavengedCredits>{PAWN_nameDef}(이)가 코어 속에 묻힌 연산 노드를 꺼내기 시작합니다. 격자 프레임이 마치 고통을 겪는 듯 경련합니다. {PAWN_nameDef}(이)가 노드를 꺼내자 신경망은 스스로 손상을 복구하며 닫힙니다.\n\n노드를 뒤집자, 그것이 코어와 함께 박동하며 불꽃을 일으킵니다. {PAWN_nameDef}(은)는 화들짝 놀라 물러섭니다. 이제 {PAWN_possessive} 손에는 헤아릴 수 없는 힘을 지닌 무기가 들려있습니다.\n\n이야기는 계속됩니다...</OdysseyScavengedCredits>
 
   <!-- EN: {0} stabilizers remaining -->
   <CoreNotInteractableStabilizersRemaining>남은 안정장치: {0}</CoreNotInteractableStabilizersRemaining>
@@ -255,10 +275,10 @@
   <CoreNotInteractableDeactivated>비활성화됨</CoreNotInteractableDeactivated>
 
   <!-- EN: Shuttle fuel -->
-  <CaravanShuttleFuel>셔틀 연료</CaravanShuttleFuel>
+  <CaravanShuttleFuel>왕복선 연료</CaravanShuttleFuel>
 
   <!-- EN: Passively scanning for orbital signals. -->
-  <OrbitalScannerScanning>궤도 신호 수동 스캔 중.</OrbitalScannerScanning>
+  <OrbitalScannerScanning>궤도 신호 탐지 중</OrbitalScannerScanning>
   <!-- EN: Locating orbital signal -->
   <OrbitalScannerLocating>궤도 신호 위치 확인 중</OrbitalScannerLocating>
 
@@ -268,30 +288,31 @@
   <UniqueWeapon>고유 무기</UniqueWeapon>
 
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
-  <ConfirmLoseShuttle>대열을 재정비하면 셔틀이 버려집니다. 계속하시겠습니까?\n\n셔틀과 함께 떠나려면 셔틀을 선택한 후 '발진'을 누르세요.</ConfirmLoseShuttle>
+  <ConfirmLoseShuttle>상단을 재구성하면 왕복선이 버려집니다. 계속하시겠습니까?\n\n왕복선과 함께 떠나려면 왕복선을 선택한 후 '발진'을 누르세요.</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
-  <BookHasQuest>퀘스트 발견</BookHasQuest>
+  <BookHasQuest>임무 발견</BookHasQuest>
   <!-- EN: discovered -->
   <DiscoveredQuest>발견됨</DiscoveredQuest>
 
   <!-- EN: Your orbital scanner has detected -->
-  <QuestDiscoveredFromOrbitalScanner>궤도 스캐너가 탐지함</QuestDiscoveredFromOrbitalScanner>
+  <QuestDiscoveredFromOrbitalScanner>궤도 탐지기가 우주에서 뭔가 찾아냈습니다.</QuestDiscoveredFromOrbitalScanner>
   <!-- EN: {HACKER_nameDef} hacked an uplink and discovered -->
-  <QuestDiscoveredFromUplink>{HACKER_nameDef}이(가) 업링크를 해킹하여 발견함</QuestDiscoveredFromUplink>
-
-  <!-- EN: Not connected to grav engine. -->
-  <NotConnectedToGravEngine>그래브 엔진에 연결되어 있지 않습니다.</NotConnectedToGravEngine>
+  <QuestDiscoveredFromUplink>{HACKER_nameDef}(이)가 업링크를 해킹해 정보를 획득했습니다.</QuestDiscoveredFromUplink>
 
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>공격</AnimalAttackTarget>
   <!-- EN: Command this animal to attack a specific target that its master can see. -->
-  <AnimalAttackTargetDesc>이 동물이 주인이 볼 수 있는 특정 대상을 공격하도록 지시합니다.</AnimalAttackTargetDesc>
+  <AnimalAttackTargetDesc>주인이 볼 수 있는 특정 대상을 공격하도록 지시합니다.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
-  <AnimalsAttackTarget>동물들 공격 명령</AnimalsAttackTarget>
+  <AnimalsAttackTarget>동물 공격 명령</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
   <AnimalsAttackTargetDesc>모든 훈련된 동물이 특정 대상을 공격하도록 지시합니다.</AnimalsAttackTargetDesc>
+  <!-- EN: Cancel attack -->
+  <CancelAttack>공격 취소</CancelAttack>
+  <!-- EN: Clear this animal's current target. -->
+  <CancelAttackDesc>이 동물의 현재 공격 대상을 해제합니다.</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>이 동물은 주인이 없습니다</NoMaster>
   <!-- EN: This animal's master is not on this map -->
@@ -299,23 +320,26 @@
   <!-- EN: Not in range of master. -->
   <MessageNotInRangeOfMaster>주인과의 거리가 멉니다.</MessageNotInRangeOfMaster>
   <!-- EN: {ANIMAL_nameDef} found {FOOD_label} while foraging. -->
-  <MessageAnimalForagedFood>{ANIMAL_nameDef}이(가) 채집 중 {FOOD_label}을(를) 발견했습니다.</MessageAnimalForagedFood>
+  <MessageAnimalForagedFood>{ANIMAL_nameDef}(이)가 채집 중 {FOOD_label}(을)를 발견했습니다.</MessageAnimalForagedFood>
   <!-- EN: Forage trained -->
   <ForageTrained>채집 훈련됨</ForageTrained>
   <!-- EN: Allow foraging -->
   <ForageEnabled>채집 허용</ForageEnabled>
   <!-- EN: Allow digging -->
-  <DigEnabled>굴착 허용</DigEnabled>
+  <DigEnabled>채굴 허용</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>고대 저장실 입구를 봉인하면 영구적으로 해제할 수 없습니다. 아래 남겨진 모든 것은 영원히 사라집니다.\n\n계속하시겠습니까?</ConfirmSealHatch>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <ConfirmSealHatch>고대 저장고 입구를 영원히 봉인하게 됩니다. 아래 남겨진 모든 것은 영원히 사라집니다.{0}\n\n계속하시겠습니까?</ConfirmSealHatch>
   <!-- EN: Cannot seal -->
-  <CannotChooseSealer>봉인할 수 없습니다</CannotChooseSealer>
+  <CannotChooseSealer>봉인할 수 없음</CannotChooseSealer>
   <!-- EN: Sealed -->
   <Sealed>봉인됨</Sealed>
   <!-- EN: Permanently sealed. -->
-  <HatchSealed>영구적으로 봉인됨.</HatchSealed>
+  <HatchSealed>영구적으로 봉인됨</HatchSealed>
   <!-- EN: Unlocked. -->
-  <HatchUnlocked>해제됨.</HatchUnlocked>
+  <HatchUnlocked>해제됨</HatchUnlocked>
+
+  <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
+  <GravshipShieldTip>짧은 시간 유지되는 관성 반발장입니다. 일반 탄환과 박격포탄에 유효합니다. 전자기 펄스에 피격되면 즉시 비활성화됩니다.</GravshipShieldTip>
 
 </LanguageData>

@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: call drop pods -->
-  <CallDropPods.label>드롭포드 호출</CallDropPods.label>
+  <CallDropPods.label>수송 포드 호출</CallDropPods.label>
   <!-- EN: Summon drop pods that you can use to travel to another location. -->
-  <CallDropPods.description>다른 위치로 이동할 수 있는 드롭포드를 소환합니다.</CallDropPods.description>
+  <CallDropPods.description>다른 지역으로 이동할 때 사용할 수 있는 수송 포드를 소환합니다.</CallDropPods.description>
   
   <!-- EN: call mechanoids -->
   <CallMechanoids.label>메카노이드 호출</CallMechanoids.label>
   <!-- EN: Summon hostile mechanoids to a location using drop pods. They will attack all nearby humans - friend or foe. -->
-  <CallMechanoids.description>드롭포드를 이용해 적대적인 메카노이드를 해당 위치에 소환합니다. 이들은 근처의 모든 인간(아군이든 적군이든)을 공격합니다.</CallMechanoids.description>
+  <CallMechanoids.description>수송 포드를 이용해 적대적인 메카노이드를 해당 위치에 소환합니다. 메카노이드들은 피아를 가리지 않고 근처의 모든 인간을 공격합니다.</CallMechanoids.description>
   
   <!-- EN: deactivate mechanoid -->
   <DeactivateMechanoid.label>메카노이드 비활성화</DeactivateMechanoid.label>
@@ -19,21 +19,26 @@
   <!-- EN: egg spew -->
   <EggSpew.label>알 분출</EggSpew.label>
   <!-- EN: Launch an egg sac and a spray of acidic sludge at the target area. The sludge will stick to targets and burn them. -->
-  <EggSpew.description>대상 지역에 알 주머니와 산성 오물을 분사합니다. 오물은 목표에 달라붙어 데미지를 입힙니다.</EggSpew.description>
+  <EggSpew.description>대상 지역에 알주머니와 산성 진흙을 분사합니다. 진흙은 목표에 달라붙어 피해를 입힙니다.</EggSpew.description>
   
   <!-- EN: sludge spew -->
-  <SludgeSpew.label>오물 분사</SludgeSpew.label>
+  <SludgeSpew.label>진흙 분사</SludgeSpew.label>
   <!-- EN: Spray an acidic sludge all over the target area. The sludge will stick to targets and burn them. -->
-  <SludgeSpew.description>목표 지역 전체에 산성 오물을 분사합니다. 오물은 목표에 달라붙어 데미지를 입힙니다.</SludgeSpew.description>
+  <SludgeSpew.description>대상 지역에 산성 진흙을 분사합니다. 진흙은 목표에 달라붙어 피해를 입힙니다.</SludgeSpew.description>
   
   <!-- EN: terror roar -->
   <TerrorRoar.label>공포의 포효</TerrorRoar.label>
   <!-- EN: Release a terrifying roar which has a chance to send nearby hostile humans and animals fleeing in terror. -->
-  <TerrorRoar.description>근처의 적대적인 인간과 동물들이 공포에 질려 달아날 수 있는 무서운 포효를 내지릅니다.</TerrorRoar.description>
+  <TerrorRoar.description>적대적인 인간과 동물이 두려움에 빠져 도망칠 수 있는 무시무시한 포효를 내지릅니다.</TerrorRoar.description>
+  
+  <!-- EN: thrumbo roar -->
+  <ThrumboRoar.label>트럼보 포효</ThrumboRoar.label>
+  <!-- EN: Release a powerful roar which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation. -->
+  <ThrumboRoar.description>적대적인 인간과 동물이 두려움에 빠져 이동 속도와 조작 능력이 감소할 수 있는 강력한 포효를 내지릅니다.</ThrumboRoar.description>
   
   <!-- EN: war trumpet -->
-  <WarTrumpet.label>전쟁 나팔</WarTrumpet.label>
+  <WarTrumpet.label>전투 포효</WarTrumpet.label>
   <!-- EN: Release a powerful roar which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation. -->
-  <WarTrumpet.description>적대적인 인간과 동물들이 두려움에 떨게 하여 이동 속도와 조작 능력을 감소시킬 수 있는 강력한 포효를 내지릅니다.</WarTrumpet.description>
+  <WarTrumpet.description>적대적인 인간과 동물이 두려움에 빠져 이동 속도와 조작 능력이 감소할 수 있는 강력한 포효를 내지릅니다.</WarTrumpet.description>
   
 </LanguageData>

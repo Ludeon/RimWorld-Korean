@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] an ancient complex nearby that is said to contain treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
   -->
-  <OpportunitySite_AnicentComplex_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 근처에 보물이 있다고 전해지는 고대 복합체가 있습니다.\n\n내부에 침입해 전리품을 획득할 수 있습니다.\n\n주의하세요 - 이러한 구조물에는 다양한 위협이 존재할 수 있습니다. 또한, 복합체에서의 행동이 원치 않는 관심을 끌 수 있습니다.</li>
-  </OpportunitySite_AnicentComplex_Giver.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] 보물이 있다고 전해지는 고대 시설입니다.\n\n내부에 침입해 전리품을 획득할 수 있습니다.\n\n조심하세요. 이런 구조물에는 다양한 위협이 존재하기 마련입니다. 또한, 시설 내에서의 행동이 원치 않는 관심을 끌 수 있습니다.</li>
+  </OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
     <li>questName->[complex] [finalWord]</li>
@@ -32,31 +32,31 @@
     <li>finalWord->caper</li>
     <li>finalWord->booty</li>
   -->
-  <OpportunitySite_AnicentComplex_Giver.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
-    <li>questName->[complex] [finalWord]</li>
+  <OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj] [complex]의 [finalWord]</li>
+    <li>questName->[complex]의 [finalWord]</li>
     <li>complexAdj->비밀의</li>
     <li>complexAdj->수수께끼의</li>
     <li>complexAdj->고대의</li>
     <li>complexAdj->오래된</li>
     <li>complexAdj->숨겨진</li>
     <li>complexAdj->죽음의</li>
-    <li>complex->복합체</li>
     <li>complex->시설</li>
+    <li>complex->설비</li>
     <li>complex->구조물</li>
-    <li>finalWord->의 보물</li>
-    <li>finalWord->의 재화</li>
-    <li>finalWord->의 보관소</li>
-    <li>finalWord->의 비축</li>
-    <li>finalWord->의 전리품</li>
-    <li>finalWord->의 약탈</li>
-    <li>finalWord->의 약탈물</li>
-    <li>finalWord->의 습격</li>
-    <li>finalWord->의 절도</li>
-    <li>finalWord->의 습격 사건</li>
-    <li>finalWord->의 모험</li>
-    <li>finalWord->의 전리품</li>
-  </OpportunitySite_AnicentComplex_Giver.questNameRules.rulesStrings>
+    <li>finalWord->보물</li>
+    <li>finalWord->재화</li>
+    <li>finalWord->보관소</li>
+    <li>finalWord->비축</li>
+    <li>finalWord->전리품</li>
+    <li>finalWord->약탈</li>
+    <li>finalWord->약탈물</li>
+    <li>finalWord->습격</li>
+    <li>finalWord->절도</li>
+    <li>finalWord->습격 사건</li>
+    <li>finalWord->모험</li>
+    <li>finalWord->전리품</li>
+  </OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->complexes</li>
     <li>subject->complex</li>
@@ -64,16 +64,16 @@
     <li>questMapFeature->small complex</li>
     <li>questMapFeature->facility</li>
     <li>questMapText->ancient treasures</li>
-    <li>questMapText->missing scavangers</li>
+    <li>questMapText->missing scavengers</li>
   -->
-  <OpportunitySite_AnicentComplex_Giver.questSubjectRules.rulesStrings>
-    <li>subject->복합체들</li>
-    <li>subject->복합체</li>
-    <li>subject->복합체 신호</li>
-    <li>questMapFeature->작은 복합체</li>
+  <OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
+    <li>subject->시설</li>
+    <li>subject->설비</li>
+    <li>subject->시설 신호</li>
+    <li>questMapFeature->작은 시설</li>
     <li>questMapFeature->시설</li>
     <li>questMapText->고대의 보물</li>
-    <li>questMapText->실종된 수색자들</li>
-  </OpportunitySite_AnicentComplex_Giver.questSubjectRules.rulesStrings>
+    <li>questMapText->실종된 약탈자들</li>
+  </OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
   
 </LanguageData>

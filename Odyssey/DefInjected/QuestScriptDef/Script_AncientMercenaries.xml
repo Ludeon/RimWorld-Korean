@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -7,9 +7,9 @@
     <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
   -->
   <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 악명 높은 용병 집단의 위치를 발견했습니다. 이 고대 병사들은 행성 역사의 오래전에 잊혀진 시대에서 온 자들입니다. 이들은 최근 크립토슬립에서 깨어나 근처에서 문제를 일으키고 있습니다.\n\n이 집단은 독특한 [WEAPON_quality] 무기를 지닌 [LEADER_nameDef]이(가) 이끌고 있습니다. 집단의 구성원:\n\n[mercenaryList]\n\n지도자를 사로잡거나 처치하면 해당 유니크 무기를 획득할 수 있습니다.\n\n[location]</li>
-    <li>location(atLandmark==true)->병사들은 [landmarkName]의 고대 구조물에 숨어 있습니다.</li>
-    <li>location(atLandmark==false)->병사들은 고대 구조물에 숨어 있습니다.</li>
+    <li>questDescription->[discoveryMethod] 악명 높은 용병 집단의 위치입니다. 이 고대 병사들은 행성의 역사에서 이미 오래전에 지워진 시대의 사람들로, 최근 동면에서 깨어나 근처에서 문제를 일으키고 있습니다.\n\n이 집단은 [WEAPON_quality] 고유 무기를 지닌 [LEADER_nameDef](이)가 이끌고 있습니다. 집단의 구성원은 다음과 같습니다.\n\n[mercenaryList]\n\n지도자를 사로잡거나 처치하면 해당 고유 무기를 획득할 수 있습니다.\n\n[location]</li>
+    <li>location(atLandmark==true)->용병들은 [landmarkName]의 고대 구조물에 숨어 있습니다.</li>
+    <li>location(atLandmark==false)->용병들은 고대 구조물에 숨어 있습니다.</li>
   </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [mercenaries]</li>
@@ -25,9 +25,9 @@
   <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
     <li>questName->고대 [mercenaries]</li>
     <li>questName->[ancient] [mercenaries]</li>
-    <li>ancient->고대</li>
+    <li>ancient->잊혀진</li>
     <li>ancient->깨어난</li>
-    <li>ancient->크립토슬립</li>
+    <li>ancient->동면</li>
     <li>mercenaries->용병들</li>
     <li>mercenaries->병사들</li>
     <li>mercenaries->전사들</li>
@@ -53,7 +53,7 @@
     <li>questMapFeature->다른 시대의 남자 스케치</li>
     <li>questMapText->그들이 깨어났다</li>
     <li>questMapText->위험한 고대인들</li>
-    <li>questMapText->고대 무기들</li>
+    <li>questMapText->고대 무기</li>
   </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
   
 </LanguageData>

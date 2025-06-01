@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: fire EMP pulse -->
-  <EMPPulse.label>EMP 펄스 발사</EMPPulse.label>
-  <!-- EN: Emit an EMP pulse centered on the user. This burst of energy will stun nearby mechanical targets like mechanoids or turrets. -->
-  <EMPPulse.description>사용자를 중심으로 EMP 펄스를 방출합니다. 이 에너지 파동은 주변의 메카노이드나 터렛 같은 기계 목표물을 기절시킵니다.</EMPPulse.description>
+  <!-- EN: fire EMP -->
+  <EMPPulse.label>전자기 펄스 발사</EMPPulse.label>
+  <!-- EN: Emit a burst of electromagnetic energy centered on the user. The burst will stun nearby mechanical targets like mechanoids or turrets. -->
+  <EMPPulse.description>사용자를 중심으로 전자기 펄스를 방출하여 포탑과 메카노이드 등 전자기기를 일시적으로 무력화합니다.</EMPPulse.description>
   
   <!-- EN: launch EMP shell -->
-  <LaunchEMPShell.label>EMP 포탄 발사</LaunchEMPShell.label>
+  <LaunchEMPShell.label>전자기 펄스탄 발사</LaunchEMPShell.label>
   <!-- EN: Launch a shell that releases a burst of electromagnetic energy, stunning mechanical targets. Can be reloaded using steel. -->
-  <LaunchEMPShell.description>기계 목표물을 기절시키는 전자기 에너지를 방출하는 포탄을 발사합니다. 강철로 재장전할 수 있습니다.</LaunchEMPShell.description>
+  <LaunchEMPShell.description>착탄 시 전자기 펄스를 방출해 포탑과 메카노이드 등 전자기기를 일시적으로 무력화하는 포탄을 발사합니다. 강철로 재장전할 수 있습니다.</LaunchEMPShell.description>
   
   <!-- EN: launch frag grenade -->
   <LaunchFragGrenade.label>파편 수류탄 발사</LaunchFragGrenade.label>
@@ -19,11 +19,11 @@
   <!-- EN: launch incendiary shell -->
   <LaunchIncendiaryShell.label>소이탄 발사</LaunchIncendiaryShell.label>
   <!-- EN: Launch a shell that creates an explosion on impact, igniting everything nearby. Can be reloaded using chemfuel. -->
-  <LaunchIncendiaryShell.description>충돌 시 폭발을 일으켜 주변의 모든 것을 점화하는 포탄을 발사합니다. 케미연료로 재장전할 수 있습니다.</LaunchIncendiaryShell.description>
+  <LaunchIncendiaryShell.description>착탄 시 작은 폭발을 일으켜 주위를 불태우는 포탄을 발사합니다. 화학연료로 재장전할 수 있습니다.</LaunchIncendiaryShell.description>
   
   <!-- EN: launch smoke shell -->
   <LaunchSmokeShell.label>연막탄 발사</LaunchSmokeShell.label>
   <!-- EN: Launch a smoke shell that obscures incoming shots and prevents turrets from locking on. Can be reloaded using steel. -->
-  <LaunchSmokeShell.description>공격을 흐리게 하고 터렛의 조준을 방해하는 연막탄을 발사합니다. 강철로 재장전할 수 있습니다.</LaunchSmokeShell.description>
+  <LaunchSmokeShell.description>착탄 시 연막 구름을 생성하여 포탑의 조준을 방해하고 발사체의 정확도를 떨어뜨리는 연막탄을 발사합니다. 강철로 재장전할 수 있습니다.</LaunchSmokeShell.description>
   
 </LanguageData>

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an abandoned orbital platform. You don't detect any signs of life.\n\nYou can break in to obtain the loot inside, but the platform probably has defense systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 버려진 궤도 플랫폼의 위치를 발견했습니다. 생명체의 징후는 감지되지 않습니다.\n\n내부의 전리품을 얻기 위해 침입할 수 있으나, 플랫폼에는 방어 시스템이 있을 수 있습니다.\n\n궤도 지역은 그래브쉽, 셔틀 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
+    <li>questDescription->[discoveryMethod] 버려진 궤도 플랫폼의 위치입니다. 생명 반응은 감지되지 않습니다.\n\n침입하면 전리품을 얻을 수 있지만, 플랫폼에는 방어 시스템이 존재할 것입니다.\n\n궤도 지역으로는 중력부양선, 왕복선, 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
   </OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
@@ -73,16 +73,16 @@
     <li>ancientPlatAdj->버려진</li>
     <li>ancientPlatAdj->고대의</li>
     <li>ancientPlatAdj->[platAdj]</li>
-    <li>platAdj->별빛</li>
-    <li>platAdj->성운</li>
-    <li>platAdj->지평선</li>
-    <li>platAdj->일식</li>
-    <li>platAdj->정점</li>
+    <li>platAdj->스텔라</li>
+    <li>platAdj->네뷸러스</li>
+    <li>platAdj->호라이즌</li>
+    <li>platAdj->이클립틱</li>
+    <li>platAdj->제니스</li>
     <li>platAdj->오로라</li>
     <li>platAdj->코로나</li>
     <li>platAdj->노바</li>
-    <li>platAdj->이온</li>
-    <li>platAdj->위안</li>
+    <li>platAdj->이언</li>
+    <li>platAdj->솔라스</li>
     <li>platAdj->루미나</li>
     <li>platAdj->이온</li>
     <li>platAdj->아스트랄리스</li>
@@ -101,7 +101,7 @@
     <li>platAdj->헬리오스</li>
     <li>platAdj->헤파이스토스</li>
     <li>platAdj->탈로스</li>
-    <li>platAdj->방패</li>
+    <li>platAdj->뱅가드</li>
     <li>platAdj->이지스</li>
     <li>platAdj->할시온</li>
     <li>platAdj->스카이포지</li>
@@ -110,8 +110,8 @@
     <li>platform->플랫폼</li>
     <li>platform->궤도 플랫폼</li>
     <li>platform->궤도 허브</li>
-    <li>platform(p=0.5)->스카이게이트</li>
-    <li>platform(p=0.5)->우주독</li>
+    <li>platform(p=0.5)->관문</li>
+    <li>platform(p=0.5)->우주항구</li>
     <li>platform(p=0.5)->게이트웨이</li>
     <li>greekLetter->알파</li>
     <li>greekLetter->베타</li>
@@ -124,17 +124,17 @@
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   </OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견하였습니다</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견했습니다</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_AbandonedPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</OpportunitySite_AbandonedPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_AbandonedPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>가로챈 통신에 따르면 이 플랫폼은 다른 이가 이미 점거한 것으로 보입니다. 퀘스트 [resolvedQuestName]이(가) 만료되었습니다.</OpportunitySite_AbandonedPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>가로챈 교신에 따르면 다른 세력이 플랫폼을 점거한 것으로 보입니다. [resolvedQuestName] 임무가 만료되었습니다.</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an asteroid orbiting the planet. It contains significant amounts of [resource], and potentially other resources as well.\n\nOrbital miners steer asteroids into orbit so that they can be mined and the ore sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing.</li>
   -->
   <OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 행성을 도는 소행성의 위치를 확인했습니다. 이 소행성에는 [resource]와(과) 그 외 다양한 자원이 풍부하게 들어 있습니다.\n\n궤도 광부들은 소행성을 궤도로 유도해 채굴하고, 그 광석을 궤도 상인에게 판매합니다. 생명체의 징후는 감지되지 않습니다.\n\n소행성에는 수송 포드, 셔틀, 또는 그래브쉽을 이용해 도달할 수 있습니다. 출발 전에 콜로니스트에게 적합한 궤도 복장을 갖추도록 하세요.</li>
+    <li>questDescription->[discoveryMethod] 행성 궤도를 도는 소행성의 위치입니다. 이 소행성에는 상당량의 [resource](이)가 포함돼있고, 다른 자원들도 존재할 수 있습니다.\n\n이 소행성은 궤도 광부들이 자원을 채취하고 궤도 상인들에게 판매하기 쉽게 행성 궤도로 끌어온 소행성입니다. 생명 반응은 감지되지 않습니다.\n\n궤도 지역으로는 중력부양선, 왕복선, 또는 수송 포드를 이용해 이동할 수 있습니다. 출발 전에 정착민들에게 궤도에 적합한 복장을 입히세요.</li>
   </OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[resource] Asteroid</li>
@@ -143,13 +143,13 @@
     <li>questName->[resource] 소행성</li>
   </OpportunitySite_Asteroid.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견하였습니다</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견했습니다</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital platform. You detect high levels of mechanoid activity.\n\nYou can scavenge valuables from the platform.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 궤도 플랫폼의 위치를 발견했습니다. 메카노이드 활동이 매우 활발하게 감지됩니다.\n\n플랫폼에서 귀중품을 회수할 수 있습니다.\n\n궤도 지역은 그래브쉽, 셔틀 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
+    <li>questDescription->[discoveryMethod] 궤도 플랫폼의 위치입니다. 많은 수의 메카노이드 활동이 감지됩니다.\n\n플랫폼에서 귀중품을 획득할 수 있습니다.\n\n궤도 지역으로는 중력부양선, 왕복선, 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
   </OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[platAdj] [platform] [designation]</li>
@@ -176,9 +176,9 @@
     <li>platAdj(p=3)->메카노이드</li>
     <li>platAdj(p=3)->[mechanoid]</li>
     <li>platAdj->제네시스</li>
-    <li>platAdj->신시시스</li>
+    <li>platAdj->합성</li>
     <li>platAdj->조립</li>
-    <li>platAdj->형성</li>
+    <li>platAdj->제조</li>
     <li>platform->플랫폼</li>
     <li>platform->스테이션</li>
     <li>platform->허브</li>
@@ -190,17 +190,17 @@
     <li>mechanoid->사이클롭스</li>
   </OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견하였습니다</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견했습니다</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_MechanoidPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</OpportunitySite_MechanoidPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_MechanoidPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>가로챈 통신에 따르면 이 플랫폼은 다른 이가 이미 점거한 것으로 보입니다. 퀘스트 [resolvedQuestName]이(가) 만료되었습니다.</OpportunitySite_MechanoidPlatform.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>가로챈 교신에 따르면 다른 세력이 플랫폼을 점거한 것으로 보입니다. [resolvedQuestName] 임무가 만료되었습니다.</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] an unusual asteroid orbiting the planet. The asteroid has a hollow core which contains several structures.\n\nYou can break in to obtain the loot inside.\n\nBe warned - the buildings may contain defense systems.</li>
   -->
   <OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 행성을 도는 이례적인 소행성을 발견했습니다. 이 소행성의 속은 비어 있으며, 그 내부에 여러 구조물이 있습니다.\n\n내부의 전리품을 얻기 위해 침입할 수 있습니다.\n\n주의 - 건물 내부에는 방어 시스템이 있을 수 있습니다.</li>
+    <li>questDescription->[discoveryMethod] 행성 궤도를 도는 특이한 소행성입니다. 소행성의 빈 내부에 여러 구조물이 존재합니다.\n\n침입하면 전리품을 얻을 수 있습니다.\n\n조심하세요. 구조물 내부에는 방어 시스템이 존재할 수 있습니다.</li>
   </OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[adjective] [orbital] [stash_noun]</li>
@@ -220,16 +220,16 @@
     <li>orbital->궤도</li>
     <li>orbital->소행성</li>
     <li>stash_noun->은닉처</li>
-    <li>stash_noun->캐시</li>
+    <li>stash_noun->비축품</li>
   </OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견하였습니다</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견했습니다</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the coordinates of a massive piece of wreckage in orbit. It could contain valuable resources. Orbital debris fields are often occupied by hostile scavengers.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 궤도에 떠도는 거대한 잔해의 좌표를 입수했습니다. 이곳에는 귀중한 자원이 있을지도 모릅니다. 궤도 잔해 지대에는 적대적인 청소부들이 종종 점거하고 있습니다.\n\n궤도 지역은 그래브쉽, 셔틀 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
+    <li>questDescription->[discoveryMethod] 궤도를 떠도는 거대한 잔해의 좌표입니다. 귀중한 자원이 있을지도 모릅니다. 궤도 잔해는 보통 적대적인 약탈꾼들이 점거하고 있습니다.\n\n궤도 지역으로는 중력부양선, 왕복선, 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
   </OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
@@ -291,16 +291,16 @@
     <li>questName->[platAdj] [wreckage]</li>
     <li>questName->[PlaceOutlander] [wreckage]</li>
     <li>questName->[ruined] [platAdj] [platform]</li>
-    <li>platAdj->별빛</li>
-    <li>platAdj->성운</li>
-    <li>platAdj->지평선</li>
-    <li>platAdj->일식</li>
-    <li>platAdj->정점</li>
+    <li>platAdj->스텔라</li>
+    <li>platAdj->네뷸러스</li>
+    <li>platAdj->호라이즌</li>
+    <li>platAdj->이클립틱</li>
+    <li>platAdj->제니스</li>
     <li>platAdj->오로라</li>
     <li>platAdj->코로나</li>
     <li>platAdj->노바</li>
-    <li>platAdj->이온</li>
-    <li>platAdj->위안</li>
+    <li>platAdj->이언</li>
+    <li>platAdj->솔라스</li>
     <li>platAdj->루미나</li>
     <li>platAdj->이온</li>
     <li>platAdj->아스트랄리스</li>
@@ -319,7 +319,7 @@
     <li>platAdj->헬리오스</li>
     <li>platAdj->헤파이스토스</li>
     <li>platAdj->탈로스</li>
-    <li>platAdj->방패</li>
+    <li>platAdj->뱅가드</li>
     <li>platAdj->이지스</li>
     <li>platAdj->할시온</li>
     <li>platAdj->스카이포지</li>
@@ -330,8 +330,8 @@
     <li>wreckage->잔해 지대</li>
     <li>platform(p=2)->스테이션</li>
     <li>platform->플랫폼</li>
-    <li>platform(p=0.5)->스카이게이트</li>
-    <li>platform(p=0.5)->우주독</li>
+    <li>platform(p=0.5)->관문</li>
+    <li>platform(p=0.5)->우주항구</li>
     <li>platform(p=0.5)->게이트웨이</li>
     <li>ruined->폐허</li>
     <li>ruined->파괴된</li>
@@ -342,17 +342,17 @@
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   </OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견하였습니다</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견했습니다</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_OrbitalWreck.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</OpportunitySite_OrbitalWreck.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the orbital wreck has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_OrbitalWreck.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>가로챈 통신에 따르면 이 궤도 잔해는 다른 이가 이미 점거한 것으로 보입니다. 퀘스트 [resolvedQuestName]이(가) 만료되었습니다.</OpportunitySite_OrbitalWreck.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>가로챈 교신에 따르면 다른 세력이 잔해를 점거한 것으로 보입니다. [resolvedQuestName] 임무가 만료되었습니다.</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital satellite. These satellites are unmanned and often incapable of supporting life. Satellites serve a wide variety of purposes, from power collection to weapons platforms.\n\nYou can scavenge valuable technology from the satellites but be warned, satellites are heavily guarded by ancient security systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] 궤도 위성의 위치를 입수했습니다. 이런 위성들은 무인으로, 일반적으로 생명체가 거주할 수 없습니다. 위성들은 에너지 집합부터 무기 플랫폼 등 다양한 용도로 사용됩니다.\n\n위성에서 귀중한 기술을 회수할 수 있지만, 고대 보안 시스템에 의해 철저히 방호되고 있으니 주의하십시오.\n\n궤도 지역은 그래브쉽, 셔틀 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
+    <li>questDescription->[discoveryMethod] 궤도 위성의 위치입니다. 위성들은 무인으로 동작하며 일반적으로 생명체가 장기간 머무를 수 없습니다. 위성은 전력 생산에서 무기 플랫폼에 이르기까지 다양한 용도에 의해 제작됐습니다.\n\n침입하면 귀중한 기술을 획득할 수 있지만, 위성들은 고대 보안 시스템이 철저히 방어하고 있어 조심해야 합니다.\n\n궤도 지역으로는 중력부양선, 왕복선, 또는 수송 포드를 이용해 이동할 수 있습니다.</li>
   </OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[PlaceOutlander] [platform]</li>
@@ -403,28 +403,28 @@
     <li>platAdj->오로라</li>
     <li>platAdj->코로나</li>
     <li>platAdj->노바</li>
-    <li>platAdj->이온</li>
-    <li>platAdj->위안</li>
+    <li>platAdj->이언</li>
+    <li>platAdj->솔라스</li>
     <li>platAdj->루미나</li>
     <li>platAdj->이온</li>
     <li>platAdj->아스트랄리스</li>
     <li>platAdj->에코</li>
     <li>platform(p=4)->위성</li>
+    <li>platform->중계기</li>
+    <li>platform->통신기</li>
     <li>platform->릴레이</li>
-    <li>platform->링</li>
-    <li>platform->새틀링크</li>
-    <li>platform->센티넬</li>
-    <li>platform->프라임</li>
-    <li>platform->비콘</li>
+    <li>platform->감시기</li>
+    <li>platform->제어기</li>
+    <li>platform->신호기</li>
     <li>platform->폭격기</li>
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   </OpportunitySite_Satellite.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견하였습니다</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>발견했습니다</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_Satellite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</OpportunitySite_Satellite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>
   <!-- EN: Scanner readings indicate the satellite has boosted itself into a higher, unreachable orbit. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_Satellite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>스캐너 판독 결과, 위성이 더 높은 궤도로 상승하여 접근이 불가능해졌습니다. 퀘스트 [resolvedQuestName]이(가) 만료되었습니다.</OpportunitySite_Satellite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>스캐너 판독 결과, 위성이 더 높은 궤도로 상승하여 접근이 불가능해졌습니다. [resolvedQuestName] 임무가 만료되었습니다.</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

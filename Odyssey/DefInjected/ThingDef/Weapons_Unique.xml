@@ -2,17 +2,21 @@
 <LanguageData>
   
   <!-- EN: unique greatbow -->
-  <Bow_Great_Unique.label>특제 그레이트보우</Bow_Great_Unique.label>
+  <Bow_Great_Unique.label>특제 장궁</Bow_Great_Unique.label>
   <!-- EN: A greatbow with customized parts. -->
-  <Bow_Great_Unique.description>맞춤형 부품이 장착된 그레이트보우입니다.</Bow_Great_Unique.description>
+  <Bow_Great_Unique.description>맞춤형 부품이 장착된 장궁입니다.</Bow_Great_Unique.description>
   <!-- EN: charge -->
   <Bow_Great_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Bow_Great_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Bow_Great_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Bow_Great_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <!-- EN: greatbow -->
+  <Bow_Great_Unique.comps.CompUniqueWeapon.namerLabels.0>장궁</Bow_Great_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: bow -->
+  <Bow_Great_Unique.comps.CompUniqueWeapon.namerLabels.1>활</Bow_Great_Unique.comps.CompUniqueWeapon.namerLabels.1>
   <!-- EN: limb -->
   <Bow_Great_Unique.tools.limb.label>활대</Bow_Great_Unique.tools.limb.label>
   <!-- EN: unique greatbow -->
-  <Bow_Great_Unique.verbs.Verb_Shoot.label>특제 그레이트보우</Bow_Great_Unique.verbs.Verb_Shoot.label>
+  <Bow_Great_Unique.verbs.Verb_Shoot.label>특제 장궁</Bow_Great_Unique.verbs.Verb_Shoot.label>
   
   <!-- EN: unique assault rifle -->
   <Gun_AssaultRifle_Unique.label>특제 돌격소총</Gun_AssaultRifle_Unique.label>
@@ -24,10 +28,16 @@
   <Gun_AssaultRifle_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_AssaultRifle_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
   <!-- EN: assault rifle -->
   <Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>돌격소총</Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: carbine -->
+  <Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>카빈</Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>
   <!-- EN: battle rifle -->
   <Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>전투소총</Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>
   <!-- EN: war rifle -->
   <Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>전쟁소총</Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>
+  <!-- EN: wargun -->
+  <Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>공격소총</Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>
+  <!-- EN: fusil -->
+  <Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>소총</Gun_AssaultRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>
   <!-- EN: stock -->
   <Gun_AssaultRifle_Unique.tools.stock.label>개머리판</Gun_AssaultRifle_Unique.tools.stock.label>
   <!-- EN: barrel -->
@@ -43,46 +53,72 @@
   <Gun_BeamRepeater_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Gun_BeamRepeater_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_BeamRepeater_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_BeamRepeater_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <!-- EN: repeater -->
+  <Gun_BeamRepeater_Unique.comps.CompUniqueWeapon.namerLabels.0>리피터</Gun_BeamRepeater_Unique.comps.CompUniqueWeapon.namerLabels.0>
   <!-- EN: beam repeater -->
   <Gun_BeamRepeater_Unique.comps.CompUniqueWeapon.namerLabels.1>빔 리피터</Gun_BeamRepeater_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: beamgun -->
+  <Gun_BeamRepeater_Unique.comps.CompUniqueWeapon.namerLabels.2>광선총</Gun_BeamRepeater_Unique.comps.CompUniqueWeapon.namerLabels.2>
   <!-- EN: barrels -->
-  <Gun_BeamRepeater_Unique.tools.barrels.label>총열들</Gun_BeamRepeater_Unique.tools.barrels.label>
+  <Gun_BeamRepeater_Unique.tools.barrels.label>총열</Gun_BeamRepeater_Unique.tools.barrels.label>
   <!-- EN: unique beam repeater -->
   <Gun_BeamRepeater_Unique.verbs.Verb_Shoot.label>특제 빔 리피터</Gun_BeamRepeater_Unique.verbs.Verb_Shoot.label>
   
   <!-- EN: unique bolt-action rifle -->
-  <Gun_BoltActionRifle_Unique.label>특제 볼트액션 소총</Gun_BoltActionRifle_Unique.label>
+  <Gun_BoltActionRifle_Unique.label>특제 사냥용 소총</Gun_BoltActionRifle_Unique.label>
   <!-- EN: A bolt-action rifle with customized parts. -->
-  <Gun_BoltActionRifle_Unique.description>맞춤형 부품이 장착된 볼트액션 소총입니다.</Gun_BoltActionRifle_Unique.description>
+  <Gun_BoltActionRifle_Unique.description>맞춤형 부품이 장착된 사냥용 소총입니다.</Gun_BoltActionRifle_Unique.description>
   <!-- EN: charge -->
   <Gun_BoltActionRifle_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Gun_BoltActionRifle_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_BoltActionRifle_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_BoltActionRifle_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
   <!-- EN: bolt-action rifle -->
-  <Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>볼트액션 소총</Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>사냥용 소총</Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: thumper -->
+  <Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>엽총</Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: bolt-gun -->
+  <Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>볼트액션</Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <!-- EN: rifle -->
+  <Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>소총</Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>
+  <!-- EN: longshot -->
+  <Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>롱샷</Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>
+  <!-- EN: longshooter -->
+  <Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>정밀소총</Gun_BoltActionRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>
   <!-- EN: stock -->
   <Gun_BoltActionRifle_Unique.tools.stock.label>개머리판</Gun_BoltActionRifle_Unique.tools.stock.label>
   <!-- EN: barrel -->
   <Gun_BoltActionRifle_Unique.tools.barrel.label>총열</Gun_BoltActionRifle_Unique.tools.barrel.label>
   <!-- EN: unique bolt-action rifle -->
-  <Gun_BoltActionRifle_Unique.verbs.Verb_Shoot.label>특제 볼트액션 소총</Gun_BoltActionRifle_Unique.verbs.Verb_Shoot.label>
+  <Gun_BoltActionRifle_Unique.verbs.Verb_Shoot.label>특제 사냥용 소총</Gun_BoltActionRifle_Unique.verbs.Verb_Shoot.label>
   
   <!-- EN: unique chain shotgun -->
-  <Gun_ChainShotgun_Unique.label>특제 체인 산탄총</Gun_ChainShotgun_Unique.label>
+  <Gun_ChainShotgun_Unique.label>특제 전투 산탄총</Gun_ChainShotgun_Unique.label>
   <!-- EN: A chain shotgun with customized parts. -->
-  <Gun_ChainShotgun_Unique.description>맞춤형 부품이 장착된 체인 산탄총입니다.</Gun_ChainShotgun_Unique.description>
+  <Gun_ChainShotgun_Unique.description>맞춤형 부품이 장착된 전투 산탄총입니다.</Gun_ChainShotgun_Unique.description>
   <!-- EN: charge -->
   <Gun_ChainShotgun_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Gun_ChainShotgun_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_ChainShotgun_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_ChainShotgun_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
   <!-- EN: chain shotgun -->
-  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.0>체인 산탄총</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.0>전투 산탄총</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: shotgun -->
+  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.1>산탄총</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: chainshot -->
+  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.2>연발 산탄총</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <!-- EN: blaster -->
+  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.3>블래스터</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.3>
+  <!-- EN: blaststick -->
+  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.4>샷건</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.4>
+  <!-- EN: sweeper -->
+  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.5>스위퍼</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.5>
+  <!-- EN: gutspewer -->
+  <Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.6>내장분쇄기</Gun_ChainShotgun_Unique.comps.CompUniqueWeapon.namerLabels.6>
   <!-- EN: stock -->
   <Gun_ChainShotgun_Unique.tools.stock.label>개머리판</Gun_ChainShotgun_Unique.tools.stock.label>
   <!-- EN: barrel -->
   <Gun_ChainShotgun_Unique.tools.barrel.label>총열</Gun_ChainShotgun_Unique.tools.barrel.label>
   <!-- EN: unique chain shotgun -->
-  <Gun_ChainShotgun_Unique.verbs.Verb_Shoot.label>특제 체인 산탄총</Gun_ChainShotgun_Unique.verbs.Verb_Shoot.label>
+  <Gun_ChainShotgun_Unique.verbs.Verb_Shoot.label>특제 전투 산탄총</Gun_ChainShotgun_Unique.verbs.Verb_Shoot.label>
   
   <!-- EN: unique charge lance -->
   <Gun_ChargeLance_Unique.label>특제 차지 랜스</Gun_ChargeLance_Unique.label>
@@ -117,38 +153,52 @@
   <Gun_ChargeRifle_Unique.verbs.Verb_Shoot.label>특제 차지 라이플</Gun_ChargeRifle_Unique.verbs.Verb_Shoot.label>
   
   <!-- EN: unique heavy SMG -->
-  <Gun_HeavySMG_Unique.label>특제 중기관단총</Gun_HeavySMG_Unique.label>
+  <Gun_HeavySMG_Unique.label>특제 기관단총</Gun_HeavySMG_Unique.label>
   <!-- EN: A heavy SMG with customized parts. -->
-  <Gun_HeavySMG_Unique.description>맞춤형 부품이 장착된 중기관단총입니다.</Gun_HeavySMG_Unique.description>
+  <Gun_HeavySMG_Unique.description>맞춤형 부품이 장착된 기관단총입니다.</Gun_HeavySMG_Unique.description>
   <!-- EN: charge -->
   <Gun_HeavySMG_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Gun_HeavySMG_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_HeavySMG_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_HeavySMG_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
   <!-- EN: heavy SMG -->
-  <Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.0>중기관단총</Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.0>기관단총</Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: SMG -->
+  <Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.1>SMG</Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: chugger -->
+  <Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.2>기관단총</Gun_HeavySMG_Unique.comps.CompUniqueWeapon.namerLabels.2>
   <!-- EN: grip -->
   <Gun_HeavySMG_Unique.tools.grip.label>손잡이</Gun_HeavySMG_Unique.tools.grip.label>
   <!-- EN: barrel -->
   <Gun_HeavySMG_Unique.tools.barrel.label>총열</Gun_HeavySMG_Unique.tools.barrel.label>
   <!-- EN: unique heavy SMG -->
-  <Gun_HeavySMG_Unique.verbs.Verb_Shoot.label>특제 중기관단총</Gun_HeavySMG_Unique.verbs.Verb_Shoot.label>
+  <Gun_HeavySMG_Unique.verbs.Verb_Shoot.label>특제 기관단총</Gun_HeavySMG_Unique.verbs.Verb_Shoot.label>
   
   <!-- EN: unique hellcat rifle -->
-  <Gun_HellcatRifle_Unique.label>특제 헬캣라이플</Gun_HellcatRifle_Unique.label>
+  <Gun_HellcatRifle_Unique.label>특제 헬캣 소총</Gun_HellcatRifle_Unique.label>
   <!-- EN: A hellcat rifle with customized parts. -->
-  <Gun_HellcatRifle_Unique.description>맞춤형 부품이 장착된 헬캣라이플입니다.</Gun_HellcatRifle_Unique.description>
+  <Gun_HellcatRifle_Unique.description>맞춤형 부품이 장착된 헬캣 소총입니다.</Gun_HellcatRifle_Unique.description>
   <!-- EN: burner charge -->
   <Gun_HellcatRifle_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>버너 충전</Gun_HellcatRifle_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_HellcatRifle_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_HellcatRifle_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
   <!-- EN: hellcat rifle -->
-  <Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>헬캣라이플</Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>헬캣 소총</Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: hellcat -->
+  <Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>헬캣</Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: flamer -->
+  <Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>화염방사기</Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <!-- EN: flamegun -->
+  <Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>플레이머</Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>
+  <!-- EN: burner -->
+  <Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>버너</Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>
+  <!-- EN: burngun -->
+  <Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>연소기</Gun_HellcatRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>
   <!-- EN: stock -->
   <Gun_HellcatRifle_Unique.tools.stock.label>개머리판</Gun_HellcatRifle_Unique.tools.stock.label>
   <!-- EN: barrel -->
   <Gun_HellcatRifle_Unique.tools.barrel.label>총열</Gun_HellcatRifle_Unique.tools.barrel.label>
   <!-- EN: unique hellcat rifle -->
-  <Gun_HellcatRifle_Unique.verbs.Verb_Shoot.label>특제 헬캣라이플</Gun_HellcatRifle_Unique.verbs.Verb_Shoot.label>
+  <Gun_HellcatRifle_Unique.verbs.Verb_Shoot.label>특제 헬캣 소총</Gun_HellcatRifle_Unique.verbs.Verb_Shoot.label>
   
   <!-- EN: unique LMG -->
   <Gun_LMG_Unique.label>특제 경기관총</Gun_LMG_Unique.label>
@@ -158,6 +208,8 @@
   <Gun_LMG_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Gun_LMG_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_LMG_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_LMG_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <!-- EN: LMG -->
+  <Gun_LMG_Unique.comps.CompUniqueWeapon.namerLabels.0>LMG</Gun_LMG_Unique.comps.CompUniqueWeapon.namerLabels.0>
   <!-- EN: machine gun -->
   <Gun_LMG_Unique.comps.CompUniqueWeapon.namerLabels.1>기관총</Gun_LMG_Unique.comps.CompUniqueWeapon.namerLabels.1>
   <!-- EN: light machine gun -->
@@ -177,8 +229,12 @@
   <Gun_Minigun_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Gun_Minigun_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_Minigun_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_Minigun_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <!-- EN: minigun -->
+  <Gun_Minigun_Unique.comps.CompUniqueWeapon.namerLabels.0>미니건</Gun_Minigun_Unique.comps.CompUniqueWeapon.namerLabels.0>
   <!-- EN: gatling gun -->
   <Gun_Minigun_Unique.comps.CompUniqueWeapon.namerLabels.1>개틀링건</Gun_Minigun_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: six-barrel -->
+  <Gun_Minigun_Unique.comps.CompUniqueWeapon.namerLabels.2>빅건</Gun_Minigun_Unique.comps.CompUniqueWeapon.namerLabels.2>
   <!-- EN: barrels -->
   <Gun_Minigun_Unique.tools.barrels.label>총열들</Gun_Minigun_Unique.tools.barrels.label>
   <!-- EN: unique minigun -->
@@ -192,6 +248,14 @@
   <Gun_Revolver_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>충전</Gun_Revolver_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
   <Gun_Revolver_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>재사용 대기 중</Gun_Revolver_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <!-- EN: revolver -->
+  <Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.0>리볼버</Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: six-shooter -->
+  <Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.1>식스슈터</Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: iron -->
+  <Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.2>아이언</Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <!-- EN: hammer -->
+  <Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.3>해머</Gun_Revolver_Unique.comps.CompUniqueWeapon.namerLabels.3>
   <!-- EN: grip -->
   <Gun_Revolver_Unique.tools.grip.label>손잡이</Gun_Revolver_Unique.tools.grip.label>
   <!-- EN: barrel -->
@@ -210,9 +274,19 @@
   <!-- EN: sniper rifle -->
   <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>저격소총</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.0>
   <!-- EN: precision rifle -->
-  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>정밀 소총</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>정밀소총</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.1>
   <!-- EN: marksman rifle -->
-  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>마크스맨 라이플</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>명사수</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <!-- EN: sniper -->
+  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>스나이퍼</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.3>
+  <!-- EN: headshotter -->
+  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>저격수</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.4>
+  <!-- EN: snipegun -->
+  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>저격총</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.5>
+  <!-- EN: stalker -->
+  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.6>추적자</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.6>
+  <!-- EN: assassinator -->
+  <Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.7>암살자</Gun_SniperRifle_Unique.comps.CompUniqueWeapon.namerLabels.7>
   <!-- EN: stock -->
   <Gun_SniperRifle_Unique.tools.stock.label>개머리판</Gun_SniperRifle_Unique.tools.stock.label>
   <!-- EN: barrel -->

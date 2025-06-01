@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -102,7 +102,7 @@
     <li>questInfo->Next to a [Color] [mapSymbol] are the words '[mapText].'</li>
     <li>questInfo->Burned into the map are the words '[mapText].'</li>
     <li>questInfo->A large [mapSymbol] is drawn near a [mapFeature]. It is labeled '[mapText].'</li>
-    <li>questInfo->A [Color] compass rose is etched into the map. Strangely, north and south are mislabled. In the center of the compass are the words: '[mapText].'</li>
+    <li>questInfo->A [Color] compass rose is etched into the map. Strangely, north and south are mislabeled. In the center of the compass are the words: '[mapText].'</li>
     <li>questInfo->The map's previous owner has clearly been looking for something. An area is circled next to the words: '[mapText].'</li>
     <li>questInfo->Holding the map up to the light, you can see the words '[mapText].'</li>
     <li>questInfo->[noteLocation], a [Color] [mapSymbol] is labeled '[mapText]!'</li>
@@ -217,219 +217,219 @@
     <li>noteLocation->along the edge of the map</li>
   -->
   <Description_Map.rulePack.rulesStrings>
-    <li>desc->[physicalDescription]의 지도로, 흥미로운 위치를 보여 줍니다. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc->[physicalDescription]에 그려진 이 [mapType][has][mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc>이 [mapType]은 [physicalDescription]이고, [has][mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc>[mapContents]를 담은 [mapType]입니다. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc>[mapContents]가 포함된 지도 모음입니다. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc>[place]에서 온 지도에 [mapContents]가 그려져 있습니다. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>physicalDescription>얇고 내열성이 강한 폴리머에 인쇄됨</li>
-    <li>physicalDescription>하이퍼위브 위에 레이저 인쇄됨</li>
-    <li>physicalDescription>마른 피로 그려진 것으로 보임</li>
-    <li>physicalDescription>끈으로 묶여 있음</li>
-    <li>physicalDescription>닳은 가죽으로 제본됨</li>
-    <li>physicalDescription>얇은 가죽에 그려짐</li>
-    <li>physicalDescription>비닐로 제본됨</li>
-    <li>physicalDescription>얇은 양피지에 새겨짐</li>
-    <li>physicalDescription>숯으로 새겨짐</li>
-    <li>physicalDescription>물에 젖은 캔버스에 새겨짐</li>
-    <li>physicalDescription>악취나는 동물 가죽에 새겨짐</li>
-    <li>physicalDescription>검은 잉크로 휘갈겨 써짐</li>
-    <li>physicalDescription>엘크 가죽에 바느질됨</li>
-    <li>physicalDescription>마른 [Animal] 가죽에 씌어짐</li>
-    <li>physicalDescription>그을린 양피지로 제작됨</li>
-    <li>physicalDescription>16면으로 섬세하게 접힘</li>
-    <li>physicalDescription>산업용 프레스로 인쇄됨</li>
-    <li>physicalDescription>하이퍼위브에 인쇄됨</li>
-    <li>physicalDescription>고급 하이퍼위브에 정교하게 제작됨</li>
-    <li>physicalDescription>홀로그램 데칼로 장식됨</li>
-    <li>physicalDescription>거미줄 같은 필체로 써짐</li>
-    <li>physicalDescription>누렇게 변한 종이에 잉크로 작성됨</li>
-    <li>physicalDescription>선명한 색상으로 잉크 처리됨</li>
-    <li>physicalDescription>불에 타서 손상된 게 분명함</li>
-    <li>physicalDescription>튼튼한 캔버스에 그려짐</li>
-    <li>physicalDescription>여러 번 접혀서 흙과 숯으로 얼룩져 있음</li>
-    <li>physicalDescription>거미줄 같은 희미한 글씨와 함께 무너지고 있는 양피지에 그려짐</li>
-    <li>physicalDescription>노랗게 변색된 가장자리와 찢어진 부분이 있는 양피지에 새겨짐</li>
-    <li>mapContents>수백 개의 [mapSubjectAdj][mapSubject] 작은 그림</li>
-    <li>mapContents>[mapSubjectAdj][mapSubject]의 빠른 스케치</li>
-    <li>mapContents>주요 [mapSubject] 목록. 가장 긴 목록 제목이 '[AdjectiveBadass]!'로 빨간 잉크로 동그라미 쳐져 있음</li>
-    <li>mapContents>그을린 가장자리와 번진 선. 중앙 지도가 [mapSubjectAdj][mapSubject]를 보여주지만, 선들이 [stain] 얼룩으로 가려져 있음</li>
-    <li>mapContents>모든 페이지마다 새로운 도해. 몇몇 도해에서는 [mapSubject]를 매우 자세하게 나타내며, 그 중 가장 큰 것이 확실히 [mapSubjectAdj]임</li>
-    <li>mapContents>환상적인 [mapSubject]와 역사적인 [mapSubject]의 혼합</li>
-    <li>mapContents>[mapSubjectAdj][mapSubject]의 고대 도면 수십 장</li>
-    <li>mapContents>테마가 있는 그림들. 중앙의 큰 [depiction]은 [Animal]을 [artstyle_adj] 스타일로 그림</li>
-    <li>mapContents>수천 개의 낯선 기호. 많은 것들이 [mapSubject]와 닮았다. 가장 흔한 기호는 [artstyle_adj] 스타일로 그려진 [emotionalState][Animal]이다</li>
-    <li>mapContents>분명한 노화의 흔적. 다른 사람이 그린 한 도해에는 [place]의 고대 [mapSubject]가 보임</li>
-    <li>mapContents>[place][mapSubject]의 상세한 도해와 [mapSubjectAdj][mapSubject]와의 관계</li>
-    <li>mapContents>[place][mapSubject]의 큰 스케치 4개</li>
-    <li>mapContents>많은 작은 도면들. 한 도면에는 '[place][RomanNumeral]'이 표시되어 있고, [place][mapSubject]의 세부 조사가 포함되어 있음</li>
-    <li>mapContents>[mapSubjectAdj][mapSubject]와 [mapSubjectAdj][mapSubject]의 작은 그림 다수</li>
-    <li>mapContents>행성의 상세한 그림. 근처의 몇몇 위치는 빨간 잉크로 '[Enemy]s'라고 표시되어 있음</li>
-    <li>mapContents>[mapSubjectAdj][mapSubject]의 좌표 여러 개</li>
-    <li>mapContents>노란 형광펜으로 표시된 좌표</li>
-    <li>mapContents>인근 영토의 그림. 조잡한 기호가 안전지대와 숨겨진 은닉처를 표시함</li>
-    <li>mapContents>[Quantity_adjphrase][Animal] 보호구역의 위치들. 빨간 'X' 역시 여러 무덤을 표시함</li>
-    <li>mapContents>중요한 것은 없음. 그렇게 보일 뿐임</li>
-    <li>mapContents>희미한 그리드선. 각 사분면에는 [mapSubjectAdj][mapSubject]가 들어 있음</li>
-    <li>mapContents>[Quantity_adjphrase][mapSubject]가 [artstyle_adj] 스타일로 그려짐. 각각 아래에 [AdjectiveAny][Animal]이 있음</li>
-    <li>maybe_specialFact></li>
-    <li>maybe_specialFact>[specialFact]</li>
-    <li>specialFact>이 자국들은 보통 빛에서는 보이지 않지만 완전한 어둠에서는 유령 같은 기호와 스펙트럼 선이 창백한 은빛으로 빛나며 나타납니다.</li>
-    <li>specialFact>빛의 각도에 따라 자국이 나타났다 사라졌다 합니다.</li>
-    <li>specialFact>페이지가 옅게 빛나며, 불꽃에 가까이하면 적색 문양이 꿈틀거리며 변형됩니다.</li>
-    <li>specialFact>주석이 지역 방언으로 되어 있어 저자가 [place] 출신임을 시사합니다.</li>
-    <li>specialFact>각 접힌 부분마다 글자와 숫자가 들어 있으나 그 의미는 알 수 없습니다.</li>
-    <li>specialFact>이 자국에는 뭔가 불안한 기운이 있습니다.</li>
-    <li>specialFact>오래 전에 잊힌 언어로 된 주석이 담겨 있습니다.</li>
-    <li>specialFact>거칠고 들쭉날쭉한 자국들이 시간이 지남에 따라 천천히 변하며 숨겨진 의미를 드러냅니다.</li>
-    <li>specialFact>이 지도는 땅의 생명력을 밝혀내며, 독자에게 강력한 자연의 힘이 깃든 장소로 안내한다고 주장합니다.</li>
-    <li>specialFact>많은 접힌 부분 중에 [emotionalState][Animal] 그림이 그려진 쪽지가 숨겨져 있습니다.</li>
-    <li>specialFact>지도를 너무 오래 만지면 독자의 손끝에 옅은 붉은 얼룩이 남습니다.</li>
-    <li>specialFact>지도의 접힌 부분 사이에서 모래알이 발견됩니다.</li>
-    <li>specialFact>지도 주석에 더 큰 비밀의 핵심이 담겨 있음을 시사하는 내용이 있습니다.</li>
-    <li>specialFact>[place] 출신의 여러 [mapSubject]가 가장자리에 조잡하게 그려져 있습니다.</li>
-    <li>specialFact>잉크가 바래고 희미한 얼룩이 일부 세부 정보를 가려 해독이 어렵게 만듭니다.</li>
-    <li>specialFact>미묘한 바느질 자국이 여러 더 큰 지도에서 재활용되었음을 암시합니다.</li>
-    <li>specialFact>이 지도는 안내서이자 경고일 수도 있습니다.</li>
-    <li>specialFact>자국 일부가 허술하게 되어 있어 급하게 만들어졌음을 알 수 있습니다.</li>
-    <li>specialFact>상세함으로 보아 자금이 넉넉한 사람에 의해 의뢰 제작된 것이며, 그 비밀스러움은 숨길 가치가 있는 무언가가 담겨 있음을 시사합니다.</li>
-    <li>specialFact>[Quantity_adjphrase][Character]가 [noteLocation]에 그려져 있습니다. 그들은 [emotionalState]해 보입니다.</li>
-    <li>specialFact>몇몇 [mapSubject]에 우아한 서예가 붙어 있으나, 외따로 있는 한 그림에는 기호만 있을 뿐 - [mapSymbol]의 문양입니다.</li>
-    <li>specialFact>지도에는 저자에 대한 짤막한 전기가 실려 있으며, 이는 [place] 출신의 유명한 [PersonJob]입니다.</li>
-    <li>specialFact>악명높은 [PersonBadass]가 이 지도를 저술했습니다.</li>
-    <li>specialFact>[emotionalState][PersonBadass]가 저술한 지도입니다.</li>
-    <li>specialFact>지도의 단순성으로 보아 [PersonBadass]가 당국을 따돌리기 위해 급히 만든 것으로 보입니다.</li>
-    <li>specialFact>중요 구역이 동그라미로 표시되었고 'avoid [Enemy]s', 'strong like a [Animal].' 같은 주석이 있습니다.</li>
-    <li>specialFact>지도에 [mapSymbol]이 표시되어 있고, '[smell] 및 [stain]'이라는 라벨이 붙어 있습니다.</li>
-    <li>specialFact>가장자리에는 'Diabolus'라는 천 년 된 시가 적혀 있습니다.</li>
-    <li>specialFact>지도의 범례에 따르면 [Color][mapSymbol]는 [Enemy] 소굴, [Color][mapSymbol]는 [Animal] 사냥터입니다.</li>
-    <li>specialFact>지도의 축척이 명백히 잘못되어 있습니다.</li>
-    <li>specialFact>[noteLocation]에 바랜 왁스 봉인이 있습니다. [emotionalState][Animal]을 닮았습니다.</li>
-    <li>maybe_questInfo></li>
-    <li>maybe_questInfo(p=3)>[questInfo]</li>
-    <li>questInfo>지도 한 구역에 동그라미가 쳐지고 '[mapText]!'라고 쓰여 있습니다.</li>
-    <li>questInfo>붙어 있는 쪽지에 '[mapText]?'라고 표시되어 있습니다.</li>
-    <li>questInfo>[noteLocation]에 '[mapText]'라는 문구가 희미한 잉크로 쓰여 있습니다.</li>
-    <li>questInfo>[noteLocation]에 있는 쪽지: '[mapText].'</li>
-    <li>questInfo>[noteLocation]에 급히 쓴 쪽지에는 '[mapText]!'라고 적혀 있습니다.</li>
-    <li>questInfo>[noteLocation]에 난해한 수수께끼가 휘갈겨져 있습니다. 마지막에는 '...[mapText].'</li>
-    <li>questInfo>[Color][mapSymbol] 옆에는 '[mapText].'라는 단어가 있습니다.</li>
-    <li>questInfo>지도에 불에 그을려 '[mapText].'라는 문구가 새겨져 있습니다.</li>
-    <li>questInfo>큰 [mapSymbol]이 [mapFeature] 근처에 그려져 있고 '[mapText].'라고 표시되어 있습니다.</li>
-    <li>questInfo>지도에 [Color] 나침반이 새겨져 있습니다. 이상하게도 북쪽과 남쪽이 잘못 표시되어 있습니다. 나침반 중앙에는 '[mapText].'라는 단어가 있습니다.</li>
-    <li>questInfo>지도 이전 소유자가 무언가를 찾고 있었던 것이 분명합니다. 한 구역이 '[mapText].'라며 동그라미 쳐져 있습니다.</li>
-    <li>questInfo>지도를 빛에 비추면 '[mapText].'라는 문구가 보입니다.</li>
-    <li>questInfo>[noteLocation]에 [Color][mapSymbol]이 '[mapText]!'라고 표시돼 있습니다.</li>
-    <li>questInfo>[noteLocation]에 [mapSymbol]이 '[mapText]?'라고 표시돼 있습니다.</li>
-    <li>questInfo>[noteLocation]에는 번진 메모가 있습니다. 유일하게 읽을 수 있는 것은: 'confirmed - [mapText].'</li>
-    <li>questInfo>[noteLocation]에는 조잡하게 그려진 [emotionalState][PersonBadass]이 있습니다. 그 밑에는 '[mapText].'</li>
-    <li>questInfo>[noteLocation]에 연필로 그려진 [Animal]과, 그 아래 '[mapText].'</li>
-    <li>questInfo>지도 범례에 따르면 [Color][mapSymbol]은 '[mapText].'</li>
-    <li>questInfo>한 위치에 두꺼운 빨간 X 표시가 있습니다. 그 옆에 작은 글씨로 '[mapText]'라 쓰여 있습니다.</li>
-    <li>questInfo>자세히 보면 누군가 '[mapText]'라는 단어를 지도에서 지우려고 한 것 같습니다.</li>
-    <li>questInfo>[Color] 해골 아이콘 근처에 굵은 글씨로 '[mapText].'라고 누군가 적어 놓았습니다.</li>
-    <li>questInfo>[noteLocation]에 이상한 문양이 그려져 있으며, 그 아래 '[mapText].'</li>
-    <li>questInfo>지도에 [Color] 단검이 새겨져 있고, '[mapText].'라는 쪽을 가리키고 있습니다.</li>
-    <li>questInfo>[noteLocation]에는 체크리스트가 있습니다. 목록의 항목들은 모두 지워졌고, 마지막에 '[mapText].'</li>
-    <li>maybe_condition></li>
-    <li>maybe_condition>[conditionSmell]</li>
-    <li>maybe_condition>[conditionStains]</li>
-    <li>maybe_condition>[conditionTouch]</li>
-    <li>conditionSmell>[smell] 냄새가 진하게 납니다.</li>
-    <li>conditionSmell>희미하게 [smell] 냄새가 납니다.</li>
-    <li>conditionSmell>지도에서 [smell] 냄새가 희미하게 풍깁니다. 이전 소유자의 흔적일 수 있습니다.</li>
-    <li>smell>소금물과 해초</li>
-    <li>smell>장미</li>
-    <li>smell>유황</li>
-    <li>smell>케미연료</li>
-    <li>smell>건초와 거름</li>
-    <li>smell>불에 탄 살코기</li>
-    <li>smell>벌레 젤리</li>
-    <li>smell>향수</li>
-    <li>smell>기름과 화약</li>
-    <li>smell>썩은 톡시포테이토</li>
-    <li>smell>아몬드</li>
-    <li>smell>표백제</li>
-    <li>smell>[Animal] 배설물</li>
-    <li>conditionStains>긁힌 자국과 [stain] 얼룩으로 일부 내용을 알아보기가 어렵습니다.</li>
-    <li>conditionStains>[stain] 얼룩과 불탄 자국에서 혹독한 환경에서 자주 쓰였음을 알 수 있습니다.</li>
-    <li>conditionStains>도해가 [stain]으로 가려져 있습니다.</li>
-    <li>conditionStains>지도가 불완전하며 [stain] 얼룩이 남아 있습니다.</li>
-    <li>conditionTouch>[stain] 얼룩과 해진 가장자리에서 오래 쓰인 실용적 인상이 느껴집니다.</li>
-    <li>stain>피</li>
-    <li>stain>기름</li>
-    <li>stain>그리스</li>
-    <li>stain>빨간 잉크</li>
-    <li>stain>소금물</li>
-    <li>stain>밀랍</li>
-    <li>stain>커피</li>
-    <li>stain>녹</li>
-    <li>stain>케미연료</li>
-    <li>conditionTouch>페이지가 거칠게 느껴집니다.</li>
-    <li>conditionTouch>지도가 만지면 부서질 듯 약합니다.</li>
-    <li>conditionTouch>가장자리의 불에 탄 흔적으로 실패한 작전에서 구해낸 지도임을 알 수 있습니다.</li>
-    <li>conditionTouch>지도는 연약하지만 오랜 세월의 지식을 담고 있습니다.</li>
-    <li>conditionTouch>가장자리가 긁히고 색이 바랬습니다. 한 모서리는 접착제로 덧대져 있습니다.</li>
-    <li>maybe_authorInfo></li>
-    <li>maybe_authorInfo>\n\n[authorInfo]</li>
-    <li>authorInfo>누가 이 지도를 만들었는지는 알 수 없습니다.</li>
-    <li>authorInfo>[ANYPAWN_factionName] 출신의 유명한 [ANYPAWN_kind] [ANYPAWN_nameFull]이 만든 지도입니다.</li>
-    <li>authorInfo>[noteLocation]에 [PersonJob][ANYPAWN_nameIndef]의 서명이 있습니다.</li>
-    <li>authorInfo>지도에는 저자 [ANYPAWN_nameIndef][ANYPAWN_kind]의 짤막한 전기가 포함돼 있습니다.</li>
-    <li>authorInfo>이전 소유자는 [ANYPAWN_nameIndef]라는 이름의 사람이었던 것으로 보입니다.</li>
-    <li>authorInfo>지도는 신분을 밝히지 않은 [ANYPAWN_kind]가 소유했었습니다. 자국을 보아 [ANYPAWN_pronoun]는 [ANYPAWN_factionName] 소속이었음을 추정할 수 있습니다.</li>
-    <li>has>있음</li>
-    <li>has>포함</li>
-    <li>has>특징</li>
-    <li>emotionalState>행복한</li>
-    <li>emotionalState>우울한</li>
-    <li>emotionalState>화난</li>
-    <li>emotionalState>관능적인</li>
-    <li>mapType(p=4)>지도</li>
-    <li>mapType>차트</li>
-    <li>mapType>아틀라스</li>
-    <li>mapType>측량도</li>
-    <li>mapSymbol>열쇠</li>
-    <li>mapSymbol>'X'</li>
-    <li>mapSymbol>별</li>
-    <li>mapSymbol>달</li>
-    <li>mapSymbol>탑</li>
-    <li>mapSymbol>해골</li>
-    <li>mapSymbol>[Animal]</li>
-    <li>mapText(p=10)>[questMapText]</li>
-    <li>mapText(p=2)>[subject]</li>
-    <li>mapText>극도의 위험</li>
-    <li>mapText>[Enemy] 주의</li>
-    <li>mapText>굶주림이 기다린다</li>
-    <li>mapText>흔적을 남기지 마라</li>
-    <li>mapText>광란의 [Animal]</li>
-    <li>mapText>습격자 공격</li>
-    <li>mapText>우리의 마지막 캐러밴</li>
-    <li>mapText>생존자 없음</li>
-    <li>mapText>여기에 있다</li>
-    <li>mapText>여기에 [ANYPAWN_nameIndef] 잠들다</li>
-    <li>mapText>[ANYPAWN_nameIndef]의 무덤</li>
-    <li>mapText>[ANYPAWN_factionName] 소유</li>
-    <li>mapFeature(p=8)>[questMapFeature]</li>
-    <li>mapFeature>강</li>
-    <li>mapFeature>두 강이 합쳐지는 곳</li>
-    <li>mapFeature>교차로</li>
-    <li>mapFeature>산맥</li>
-    <li>mapFeature>해안선</li>
-    <li>mapFeature>호수</li>
-    <li>mapFeature>해안 만</li>
-    <li>mapFeature>연안 섬</li>
-    <li>noteLocation>구석에</li>
-    <li>noteLocation>지도 한 구석에</li>
-    <li>noteLocation>한 모퉁이에</li>
-    <li>noteLocation>왼쪽에</li>
-    <li>noteLocation>뒷면에</li>
-    <li>noteLocation>아래쪽에</li>
-    <li>noteLocation>[mapFeature] 근처에</li>
-    <li>noteLocation>[mapFeature] 옆에</li>
-    <li>noteLocation>큰 [mapFeature] 아래에</li>
-    <li>noteLocation>지도 가장자리를 따라</li>
+    <li>desc->[physicalDescription] 지도로, 흥미로운 위치를 보여줍니다. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[physicalDescription] 이 [mapType]에는 [mapContents_sentence]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[physicalDescription] [mapType](으)로, [mapContents_sentence]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[mapContents](이)가 담긴 [mapType]입니다. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[mapContents](이)가 포함된 지도 모음입니다. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[place]에서 온 지도로, [mapContents_sentence]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>physicalDescription->얇고 내열성이 강한 폴리머에 인쇄한</li>
+    <li>physicalDescription->초경조직 천 위에 레이저로 인쇄한</li>
+    <li>physicalDescription->마른 피로 그린 듯한</li>
+    <li>physicalDescription->끈으로 묶은</li>
+    <li>physicalDescription->닳은 가죽으로 제본한</li>
+    <li>physicalDescription->얇은 가죽에 그린</li>
+    <li>physicalDescription->비닐로 제본한</li>
+    <li>physicalDescription->얇은 양피지에 새긴</li>
+    <li>physicalDescription->숯으로 새긴</li>
+    <li>physicalDescription->물에 젖은 캔버스에 새긴</li>
+    <li>physicalDescription->악취 나는 동물 가죽에 새긴</li>
+    <li>physicalDescription->검은 잉크로 휘갈겨 쓴</li>
+    <li>physicalDescription->엘크 가죽에 바느질한</li>
+    <li>physicalDescription->마른 [Animal] 가죽에 쓴</li>
+    <li>physicalDescription->그을린 양피지로 제작한</li>
+    <li>physicalDescription->16면으로 섬세하게 접은</li>
+    <li>physicalDescription->산업용 프레스로 인쇄한</li>
+    <li>physicalDescription->초경조직 천에 인쇄한</li>
+    <li>physicalDescription->고급 초경조직 천에 정교하게 제작한</li>
+    <li>physicalDescription->홀로그램 데칼로 장식한</li>
+    <li>physicalDescription->거미줄 같은 필체로 쓴</li>
+    <li>physicalDescription->누렇게 변한 종이에 잉크로 작성한</li>
+    <li>physicalDescription->선명한 색상으로 잉크 처리한</li>
+    <li>physicalDescription->불에 타 손상된 것이 분명한</li>
+    <li>physicalDescription->튼튼한 캔버스에 그린</li>
+    <li>physicalDescription->여러 번 접어 흙과 숯으로 얼룩진</li>
+    <li>physicalDescription->거미줄 같은 희미한 글씨와 함께 무너져가는 양피지에 그린</li>
+    <li>physicalDescription->노랗게 변색된 가장자리와 찢어진 부분이 있는 양피지에 새긴</li>
+    <li>mapContents->수백 개의 작은 [mapSubjectAdj] [mapSubject] 그림들</li>
+    <li>mapContents->주요 [mapSubject] 목록과 빨간 잉크로 동그라미 쳐진 '[ConceptBadass]!' 항목</li>
+    <li>mapContents->[mapSubject]에 대한 상세한 그림들과 특히 [mapSubjectAdj] 모습을 크게 그린 도해들</li>
+    <li>mapContents->[mapSubjectAdj] [mapSubject]의 고대 도면 수십 장</li>
+    <li>mapContents->[mapSubject] 모양을 닮은 수천 개의 기이한 기호들과 [artstyle_adj] 기법으로 그린 [emotionalState] [Animal] 형상</li>
+    <li>mapContents->[place] [mapSubject]들의 상세 지도와 [mapSubjectAdj] [mapSubject]들과의 연관성을 보여주는 도표</li>
+    <li>mapContents->'[place] [RomanNumeral]'라고 표기된 여러 소형 도면들과 정밀 조사 결과</li>
+    <li>mapContents->행성 전체의 정밀 지도와 빨간 잉크로 '[Enemy] 세력권'이라고 표시된 위험 구역들</li>
+    <li>mapContents->노란 형광펜으로 표시된 좌표들</li>
+    <li>mapContents->[Quantity_adjphrase] [Animal] 보호 구역의 위치 정보와 빨간 X표로 표시된 여러 매장지</li>
+    <li>mapContents->희미한 격자 무늬와 각 구역마다 [mapSubjectAdj] [mapSubject]에 대한 표기</li>
+    <li>mapContents_sentence->[mapSubjectAdj] [mapSubject]의 간단한 스케치들이 포함되어 있습니다</li>
+    <li>mapContents_sentence->가장자리가 그을리고 선들이 번져 있으며, 중앙의 [mapSubjectAdj] [mapSubject] 지도는 [stain] 얼룩에 가려져 보기 어려운 상태입니다</li>
+    <li>mapContents_sentence->상상의 [mapSubject]와 실존하는 [mapSubject]의 혼합된 내용이 담겨 있습니다</li>
+    <li>mapContents_sentence->테마별로 분류된 그림들과 함께, [Animal]을 [artstyle_adj] 화풍으로 묘사한 그림이 그려져 있습니다</li>
+    <li>mapContents_sentence->세월의 흔적이 역력하며, 다른 필체로 그려진 도해에는 [place]의 고대 [mapSubject](이)가 기록되어 있습니다</li>
+    <li>mapContents_sentence->[place] [mapSubject]의 큰 스케치 4개가 그려져 있습니다</li>
+    <li>mapContents_sentence->[mapSubjectAdj] [mapSubject]와 [mapSubjectAdj] [mapSubject]의 작은 그림들이 다수 그려져 있습니다</li>
+    <li>mapContents_sentence->[mapSubjectAdj] [mapSubject]의 좌표 여러 개가 기록되어 있습니다</li>
+    <li>mapContents_sentence->주변 영토의 개략도와 안전한 피난처, 숨겨진 보급고를 나타내는 간단한 기호들이 그려져 있습니다</li>
+    <li>mapContents_sentence->특별히 중요한 것은 없어 보이는 내용이 담겨 있습니다</li>
+    <li>mapContents_sentence->[Quantity_adjphrase] [mapSubject]를 [artstyle_adj] 화풍으로 묘사한 그림들이 있으며, 각각 아래에는 [AdjectiveAny] [Animal] 삽화가 그려져 있습니다</li>
+    <li>maybe_specialFact-></li>
+    <li>maybe_specialFact->[specialFact]</li>
+    <li>specialFact->지도의 표식들은 평소에는 보이지 않지만, 완전한 어둠에서는 창백한 은빛으로 빛나며 나타납니다.</li>
+    <li>specialFact->빛의 각도에 따라 표시가 나타났다 사라졌다 합니다.</li>
+    <li>specialFact->페이지가 희미하게 빛나며, 불꽃에 가까이하면 적색 문양이 꿈틀거리고 변형됩니다.</li>
+    <li>specialFact->주석이 지역 방언으로 작성되어 있어 저자가 [place] 출신임을 시사합니다.</li>
+    <li>specialFact->각 접힌 부분마다 글자와 숫자가 적혀 있지만 그 의미는 불분명합니다.</li>
+    <li>specialFact->지도의 표시들에서 뭔가 불안한 기운이 느껴집니다.</li>
+    <li>specialFact->오래전에 잊힌 언어로 된 주석들이 곳곳에 있습니다.</li>
+    <li>specialFact->거칠고 들쭉날쭉한 표시들이 시간이 흐르면서 천천히 변해 숨겨진 의미를 드러냅니다.</li>
+    <li>specialFact->이 지도는 대지의 생명력을 나타내며, 독자를 강력한 자연의 힘이 깃든 곳으로 이끈다고 주장합니다.</li>
+    <li>specialFact->여러 접힌 부분 중 하나에 [emotionalState] [Animal] 그림이 그려진 쪽지가 숨어 있습니다.</li>
+    <li>specialFact->지도를 너무 오래 만지고 있으면 손끝에 희미한 붉은 자국이 남습니다.</li>
+    <li>specialFact->지도의 접힌 틈새에서 모래알들이 떨어져 나옵니다.</li>
+    <li>specialFact->지도의 주석들은 더 큰 비밀이 담겨 있음을 암시하는 것 같습니다.</li>
+    <li>specialFact->[place] 출신의 여러 [mapSubject]들이 가장자리에 서툰 솜씨로 그려져 있습니다.</li>
+    <li>specialFact->잉크가 바래고 얼룩이 져서 일부 세부사항을 알아보기 어렵습니다.</li>
+    <li>specialFact->섬세한 바느질 자국을 보면 여러 개의 큰 지도를 재활용해서 만든 것 같습니다.</li>
+    <li>specialFact->이 지도는 안내서인 동시에 경고문일지도 모릅니다.</li>
+    <li>specialFact->표시 일부가 성의없이 그려져 있어 급하게 제작했음을 알 수 있습니다.</li>
+    <li>specialFact->정교한 세부사항으로 보아 자금력 있는 누군가가 의뢰한 것이며, 비밀스러운 내용이 숨겨진 가치 있는 무언가를 담고 있음을 시사합니다.</li>
+    <li>specialFact->[Quantity_adjphrase] [Character]들이 [noteLocation]에 그려져 있는데, [emotionalState] 표정을 하고 있습니다.</li>
+    <li>specialFact->몇몇 [mapSubject]에는 우아한 글씨가 적혀 있지만, 떨어져 있는 한 그림에는 [mapSymbol] 기호만 덩그러니 그려져 있습니다.</li>
+    <li>specialFact->지도에는 저자의 간략한 소개가 있는데, [place] 출신의 유명한 [PersonJob](이)라고 합니다.</li>
+    <li>specialFact->악명 높은 [PersonBadass](이)가 이 지도를 제작했습니다.</li>
+    <li>specialFact->[emotionalState] [PersonBadass](이)가 제작한 지도입니다.</li>
+    <li>specialFact->지도가 단순한 것으로 보아 [PersonBadass](이)가 당국의 추적을 피해 급히 만든 것 같습니다.</li>
+    <li>specialFact->주요 구역이 원으로 표시되어 있고 '[Enemy]', '[Animal]처럼 강력함' 같은 메모가 적혀 있습니다.</li>
+    <li>specialFact->지도에 [mapSymbol] 표시가 있고, '[smell](와)과 [stain]'이라는 라벨이 붙어 있습니다.</li>
+    <li>specialFact->가장자리에는 '디아볼루스'라는 제목의 천년 된 시가 적혀 있습니다.</li>
+    <li>specialFact->지도 범례에 따르면 [Color] [mapSymbol](은)는 [Enemy] 거점, [Color] [mapSymbol](은)는 [Animal] 서식지를 나타냅니다.</li>
+    <li>specialFact->지도의 축척이 명백히 틀려 있습니다.</li>
+    <li>specialFact->[noteLocation] 색 바랜 왁스 봉인이 있는데, [emotionalState] [Animal] 모양을 하고 있습니다.</li>
+    <li>maybe_questInfo-></li>
+    <li>maybe_questInfo(p=3)->[questInfo]</li>
+    <li>questInfo->지도 한 구역에 동그라미가 쳐진 '[mapText]!' 문구가 쓰여 있습니다.</li>
+    <li>questInfo->붙어 있는 쪽지에 '[mapText]?' 문구가 쓰여 있습니다.</li>
+    <li>questInfo->[noteLocation] '[mapText]' 문구가 희미한 잉크로 쓰여 있습니다.</li>
+    <li>questInfo->[noteLocation] 붙은 쪽지에 '[mapText].' 문구가 쓰여 있습니다.</li>
+    <li>questInfo->[noteLocation] 급히 쓴 쪽지에는 '[mapText]!'라고 적혀 있습니다.</li>
+    <li>questInfo->[noteLocation] 난해한 수수께끼가 휘갈겨져 있습니다. 마지막에는 '...[mapText].' 문구가 보입니다.</li>
+    <li>questInfo->[Color] [mapSymbol] 옆에는 '[mapText].' 문구가 쓰여 있습니다.</li>
+    <li>questInfo->불에 그을린 '[mapText]'(이)가 보입니다.</li>
+    <li>questInfo->큰 [mapSymbol](이)가 [mapFeature] 근처에 그려져 있고 '[mapText]'(이)라고 적혀 있습니다.</li>
+    <li>questInfo->지도에 [Color] 나침반이 새겨져 있습니다. 이상하게도 북쪽과 남쪽이 잘못 표시되어 있습니다. 나침반 중앙에는 '[mapText]'(이)가 쓰여 있습니다.</li>
+    <li>questInfo->지도 이전 소유자가 무언가를 찾고 있었던 것이 분명합니다. 한쪽 구석 위에 '[mapText].' 문구가 쓰여 있고 동그라미가 쳐져 있습니다.</li>
+    <li>questInfo->지도를 빛에 비추면 '[mapText].' 문구가 보입니다.</li>
+    <li>questInfo->[noteLocation] [Color] [mapSymbol] 옆에 '[mapText]!' 문구가 적혀 있습니다.</li>
+    <li>questInfo->[noteLocation] [mapSymbol] 옆에 '[mapText]?' 문구가 표시되어 있습니다.</li>
+    <li>questInfo->[noteLocation]는 번진 메모가 있습니다. 유일하게 읽을 수 있는 것은 '확인됨 - [mapText]' 뿐입니다.</li>
+    <li>questInfo->[noteLocation]는 조잡하게 그려진 [emotionalState] [PersonBadass]이 있습니다. 그 밑에는 '[mapText]'(이)가 쓰여 있습니다.</li>
+    <li>questInfo->[noteLocation] 연필로 그려진 [Animal](와)과, 그 아래 '[mapText]'(이)가 쓰여 있습니다.</li>
+    <li>questInfo->지도 범례에 따르면 [Color] [mapSymbol](은)는 '[mapText]'입니다.</li>
+    <li>questInfo->한 위치에 두꺼운 빨간 X 표시가 있습니다. 그 옆에 작은 글씨로 '[mapText]'(이)가 쓰여 있습니다.</li>
+    <li>questInfo->자세히 보면 누군가 '[mapText]'(이)라는 글을 지도에서 지우려고 한 것 같습니다.</li>
+    <li>questInfo->[Color] 해골 아이콘 근처에 굵은 글씨로 '[mapText]'(이)가 쓰여 있습니다.</li>
+    <li>questInfo->[noteLocation] 이상한 문양이 그려져 있으며, 그 아래에 '[mapText]'(이)가 쓰여 있습니다.</li>
+    <li>questInfo->지도에 [Color] 단검이 새겨져 있고, '[mapText]'(이)라고 쓰인 쪽을 가리키고 있습니다.</li>
+    <li>questInfo->[noteLocation]는 체크리스트가 있습니다. 목록의 항목들은 모두 지워졌고, 남은 것은 마지막의 '[mapText].' 뿐입니다.</li>
+    <li>maybe_condition-></li>
+    <li>maybe_condition->[conditionSmell]</li>
+    <li>maybe_condition->[conditionStains]</li>
+    <li>maybe_condition->[conditionTouch]</li>
+    <li>conditionSmell->[smell] 냄새가 진하게 납니다.</li>
+    <li>conditionSmell->희미하게 [smell] 냄새가 납니다.</li>
+    <li>conditionSmell->지도에서 [smell] 냄새가 희미하게 풍깁니다. 이전 소유자의 흔적일 수 있습니다.</li>
+    <li>smell->소금물과 해초</li>
+    <li>smell->장미</li>
+    <li>smell->유황</li>
+    <li>smell->화학연료</li>
+    <li>smell->건초와 거름</li>
+    <li>smell->불에 탄 살코기</li>
+    <li>smell->벌레 젤리</li>
+    <li>smell->향수</li>
+    <li>smell->기름과 화약</li>
+    <li>smell->썩은 톡시포테이토</li>
+    <li>smell->아몬드</li>
+    <li>smell->표백제</li>
+    <li>smell->[Animal] 배설물</li>
+    <li>conditionStains->긁힌 자국과 [stain] 얼룩 때문에 일부 내용을 읽기가 어렵습니다.</li>
+    <li>conditionStains->[stain] 얼룩과 그을린 흔적으로 보아 혹독한 환경에서 자주 사용되었음을 알 수 있습니다.</li>
+    <li>conditionStains->도해가 [stain](으)로 가려져 있습니다.</li>
+    <li>conditionStains->지도는 불완전한 상태이며 [stain] 얼룩이 여기저기 남아 있습니다.</li>
+    <li>conditionTouch->[stain] 얼룩과 해진 가장자리에서 오래 쓰인 실용적 인상이 느껴집니다.</li>
+    <li>stain->피</li>
+    <li>stain->기름</li>
+    <li>stain->윤활유</li>
+    <li>stain->붉은 잉크</li>
+    <li>stain->소금물</li>
+    <li>stain->밀랍</li>
+    <li>stain->커피</li>
+    <li>stain->녹</li>
+    <li>stain->화학연료</li>
+    <li>conditionTouch->페이지 질감이 상당히 거칠게 느껴집니다.</li>
+    <li>conditionTouch->지도는 만지면 금세 부서질 것처럼 연약합니다.</li>
+    <li>conditionTouch->가장자리의 그을린 흔적으로 보아 실패한 임무에서 간신히 구해낸 지도인 것 같습니다.</li>
+    <li>conditionTouch->연약해 보이지만 오랜 세월의 귀중한 지식이 담겨 있습니다.</li>
+    <li>conditionTouch->가장자리가 해지고 색이 바래 있으며, 한쪽 모서리는 접착제로 보수되어 있습니다.</li>
+    <li>maybe_authorInfo-></li>
+    <li>maybe_authorInfo->\n\n[authorInfo]</li>
+    <li>authorInfo->누가 이 지도를 만들었는지는 알 수 없습니다.</li>
+    <li>authorInfo->[ANYPAWN_factionName] 출신의 유명한 [ANYPAWN_kind] [ANYPAWN_nameFull]이 만든 지도입니다.</li>
+    <li>authorInfo->[noteLocation]에 [PersonJob] [ANYPAWN_nameIndef]의 서명이 있습니다.</li>
+    <li>authorInfo->지도에는 저자 [ANYPAWN_nameIndef] [ANYPAWN_kind]의 짤막한 전기가 포함되어 있습니다.</li>
+    <li>authorInfo->이전 소유자는 [ANYPAWN_nameIndef](이)라는 이름의 사람이었던 것으로 보입니다.</li>
+    <li>authorInfo->지도는 익명의 [ANYPAWN_kind](이)가 소유했었습니다. 자국을 보아 [ANYPAWN_pronoun](은)는 [ANYPAWN_factionName] 소속이었음을 추정할 수 있습니다.</li>
+    <li>has-></li>
+    <li>has-></li>
+    <li>has-></li>
+    <li>emotionalState->행복한</li>
+    <li>emotionalState->우울한</li>
+    <li>emotionalState->화난</li>
+    <li>emotionalState->관능적인</li>
+    <li>mapType(p=4)->지도</li>
+    <li>mapType->차트</li>
+    <li>mapType->아틀라스</li>
+    <li>mapType->측량도</li>
+    <li>mapSymbol->열쇠</li>
+    <li>mapSymbol->'X'</li>
+    <li>mapSymbol->별</li>
+    <li>mapSymbol->달</li>
+    <li>mapSymbol->탑</li>
+    <li>mapSymbol->해골</li>
+    <li>mapSymbol->[Animal]</li>
+    <li>mapText(p=10)->[questMapText]</li>
+    <li>mapText(p=2)->[subject]</li>
+    <li>mapText->극도의 위험</li>
+    <li>mapText->[Enemy] 주의</li>
+    <li>mapText->굶주림이 기다린다</li>
+    <li>mapText->흔적을 남기지 마라</li>
+    <li>mapText->광란의 [Animal]</li>
+    <li>mapText->습격자 공격</li>
+    <li>mapText->마지막 상단</li>
+    <li>mapText->생존자 없음</li>
+    <li>mapText->여기에 있어</li>
+    <li>mapText->[ANYPAWN_nameIndef] 여기에 잠들다</li>
+    <li>mapText->[ANYPAWN_nameIndef]의 무덤</li>
+    <li>mapText->[ANYPAWN_factionName]의 것</li>
+    <li>mapFeature(p=8)->[questMapFeature]</li>
+    <li>mapFeature->강</li>
+    <li>mapFeature->두 강이 합쳐지는 곳</li>
+    <li>mapFeature->교차로</li>
+    <li>mapFeature->산맥</li>
+    <li>mapFeature->해안선</li>
+    <li>mapFeature->호수</li>
+    <li>mapFeature->해안 만</li>
+    <li>mapFeature->연안 섬</li>
+    <li>noteLocation->구석에</li>
+    <li>noteLocation->지도 한 구석에</li>
+    <li>noteLocation->한 모퉁이에</li>
+    <li>noteLocation->왼쪽에</li>
+    <li>noteLocation->뒷면에</li>
+    <li>noteLocation->아래쪽에</li>
+    <li>noteLocation->[mapFeature] 근처에</li>
+    <li>noteLocation->[mapFeature] 옆에</li>
+    <li>noteLocation->큰 [mapFeature] 아래에</li>
+    <li>noteLocation->지도 가장자리를 따라</li>
   </Description_Map.rulePack.rulesStrings>
   
   <!-- EN:
@@ -455,7 +455,7 @@
     <li>mapSubjectAdj->odd</li>
     <li>mapSubjectAdj->strange</li>
     <li>mapSubjectAdj->wonderful</li>
-    <li>mapSubjectAdj->worthwile</li>
+    <li>mapSubjectAdj->worthwhile</li>
     <li>mapSubjectAdj->precious</li>
     <li>mapSubjectAdj->enchanting</li>
     <li>mapSubjectAdj->glamorous</li>
@@ -624,177 +624,177 @@
     <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
     <li>PlaceOutlander->[CapSylE][SylE][SylE][place_end]</li>
     <li>mapSubjectAdj(p=6)->[direction]</li>
-    <li>mapSubjectAdj>고대의</li>
-    <li>mapSubjectAdj>역사적인</li>
-    <li>mapSubjectAdj>오래된</li>
-    <li>mapSubjectAdj>잊혀진</li>
-    <li>mapSubjectAdj>비밀의</li>
-    <li>mapSubjectAdj>사적인</li>
-    <li>mapSubjectAdj>숨겨진</li>
-    <li>mapSubjectAdj>은밀한</li>
-    <li>mapSubjectAdj>알려지지 않은</li>
-    <li>mapSubjectAdj>특이한</li>
-    <li>mapSubjectAdj>기이한</li>
-    <li>mapSubjectAdj>이상한</li>
-    <li>mapSubjectAdj>경이로운</li>
-    <li>mapSubjectAdj>가치있는</li>
-    <li>mapSubjectAdj>귀중한</li>
-    <li>mapSubjectAdj>매혹적인</li>
-    <li>mapSubjectAdj>화려한</li>
-    <li>mapSubjectAdj>터무니없는</li>
-    <li>mapSubjectAdj>야성의</li>
-    <li>mapSubjectAdj>위대한</li>
-    <li>mapSubjectAdj>웅대한</li>
-    <li>mapSubjectAdj>작은</li>
-    <li>mapSubjectAdj>적은</li>
-    <li>mapSubjectAdj>나쁜</li>
-    <li>mapSubjectAdj>끔찍한</li>
-    <li>mapSubjectAdj>신비로운</li>
-    <li>mapSubjectAdj>성스러운</li>
-    <li>mapSubjectAdj>지역의</li>
-    <li>mapSubjectAdj>지방의</li>
-    <li>mapSubjectAdj>토착의</li>
-    <li>mapSubjectAdj>인근의</li>
-    <li>mapSubjectAdj>행성의</li>
-    <li>mapSubjectAdj>위험한</li>
-    <li>mapSubjectAdj>치명적인</li>
-    <li>mapSubjectAdj>독성의</li>
-    <li>mapSubjectAdj>선별된</li>
-    <li>mapSubjectAdj>특이한</li>
-    <li>mapSubjectAdj>중요한</li>
-    <li>direction>북부</li>
-    <li>direction>동부</li>
-    <li>direction>남부</li>
-    <li>direction>서부</li>
-    <li>direction(p=0.2)>지하의</li>
-    <li>direction(p=0.2)>언더그라운드</li>
-    <li>mapSubject>도로</li>
-    <li>mapSubject>오솔길</li>
-    <li>mapSubject>길</li>
-    <li>mapSubject>동굴</li>
-    <li>mapSubject>언덕</li>
-    <li>mapSubject>산</li>
-    <li>mapSubject>강</li>
-    <li>mapSubject>숲</li>
-    <li>mapSubject>늪지</li>
-    <li>mapSubject>황무지</li>
-    <li>mapSubject>랜드마크</li>
-    <li>mapSubject>유역</li>
-    <li>mapSubject>호수</li>
-    <li>mapSubject>계곡</li>
-    <li>mapSubject>장소</li>
-    <li>mapSubject>유적지</li>
-    <li>mapSubject>전설</li>
-    <li>mapSubject>비밀</li>
-    <li>mapSubject>경계</li>
-    <li>mapSubject>개척지</li>
-    <li>mapSubject>위치</li>
-    <li>mapSubject>자원</li>
-    <li>mapSubject>유물</li>
-    <li>mapSubject>고대 유물</li>
-    <li>mapSubject>마을</li>
-    <li>mapSubject>정착지</li>
-    <li>mapSubject>요새</li>
-    <li>mapSubject>폐허</li>
-    <li>mapSubject>씨족</li>
-    <li>mapSubject>민족</li>
-    <li>mapSubject>역사</li>
-    <li>mapSubject>영토</li>
-    <li>mapSubject>육지</li>
-    <li>CapSylE>Al</li>
-    <li>CapSylE>All</li>
-    <li>CapSylE>An</li>
-    <li>CapSylE>And</li>
-    <li>CapSylE>Ar</li>
-    <li>CapSylE>Are</li>
-    <li>CapSylE>As</li>
-    <li>CapSylE>At</li>
-    <li>CapSylE>Ban</li>
-    <li>CapSylE>Bin</li>
-    <li>CapSylE>Bon</li>
-    <li>CapSylE>But</li>
-    <li>CapSylE>Ca</li>
-    <li>CapSylE>Co</li>
-    <li>CapSylE>Da</li>
-    <li>CapSylE>Del</li>
-    <li>CapSylE>Din</li>
-    <li>CapSylE>Do</li>
-    <li>CapSylE>Ea</li>
-    <li>CapSylE>Ed</li>
-    <li>CapSylE>En</li>
-    <li>CapSylE>Ent</li>
-    <li>CapSylE>Er</li>
-    <li>CapSylE>Era</li>
-    <li>CapSylE>Ere</li>
-    <li>CapSylE>Es</li>
-    <li>CapSylE>Eve</li>
-    <li>CapSylE>Far</li>
-    <li>CapSylE>Fen</li>
-    <li>CapSylE>Fin</li>
-    <li>CapSylE>For</li>
-    <li>CapSylE>Fun</li>
-    <li>CapSylE>Ga</li>
-    <li>CapSylE>Go</li>
-    <li>CapSylE>Ha</li>
-    <li>CapSylE>Had</li>
-    <li>CapSylE>Hat</li>
-    <li>CapSylE>He</li>
-    <li>CapSylE>Hen</li>
-    <li>CapSylE>Her</li>
-    <li>CapSylE>Hi</li>
-    <li>CapSylE>Hi</li>
-    <li>CapSylE>Hin</li>
-    <li>CapSylE>His</li>
-    <li>CapSylE>In</li>
-    <li>CapSylE>Is</li>
-    <li>CapSylE>It</li>
-    <li>CapSylE>Ith</li>
-    <li>CapSylE>Ja</li>
-    <li>CapSylE>Ka</li>
-    <li>CapSylE>Ko</li>
-    <li>CapSylE>La</li>
-    <li>CapSylE>Lan</li>
-    <li>CapSylE>Le</li>
-    <li>CapSylE>Len</li>
-    <li>CapSylE>Lon</li>
-    <li>CapSylE>Ma</li>
-    <li>CapSylE>Me</li>
-    <li>CapSylE>Men</li>
-    <li>CapSylE>Min</li>
-    <li>CapSylE>Mon</li>
-    <li>CapSylE>Na</li>
-    <li>CapSylE>Ne</li>
-    <li>CapSylE>Not</li>
-    <li>CapSylE>Ome</li>
-    <li>CapSylE>On</li>
-    <li>CapSylE>Or</li>
-    <li>CapSylE>Ou</li>
-    <li>CapSylE>Oul</li>
-    <li>CapSylE>Our</li>
-    <li>CapSylE>Pa</li>
-    <li>CapSylE>Qua</li>
-    <li>CapSylE>Ra</li>
-    <li>CapSylE>Re</li>
-    <li>CapSylE>Ro</li>
-    <li>CapSylE>Se</li>
-    <li>CapSylE>Sho</li>
-    <li>CapSylE>St</li>
-    <li>CapSylE>Te</li>
-    <li>CapSylE>Ted</li>
-    <li>CapSylE>Ter</li>
-    <li>CapSylE>Tha</li>
-    <li>CapSylE>The</li>
-    <li>CapSylE>Thi</li>
-    <li>CapSylE>Thi</li>
-    <li>CapSylE>Ti</li>
-    <li>CapSylE>To</li>
-    <li>CapSylE>Un</li>
-    <li>CapSylE>Ve</li>
-    <li>CapSylE>Ver</li>
-    <li>CapSylE>Wa</li>
-    <li>CapSylE>Was</li>
-    <li>CapSylE>Wit</li>
-    <li>CapSylE>You</li>
+    <li>mapSubjectAdj->고대의</li>
+    <li>mapSubjectAdj->역사적인</li>
+    <li>mapSubjectAdj->오래된</li>
+    <li>mapSubjectAdj->잊혀진</li>
+    <li>mapSubjectAdj->비밀의</li>
+    <li>mapSubjectAdj->사적인</li>
+    <li>mapSubjectAdj->숨겨진</li>
+    <li>mapSubjectAdj->은밀한</li>
+    <li>mapSubjectAdj->알려지지 않은</li>
+    <li>mapSubjectAdj->독특한</li>
+    <li>mapSubjectAdj->기이한</li>
+    <li>mapSubjectAdj->이상한</li>
+    <li>mapSubjectAdj->경이로운</li>
+    <li>mapSubjectAdj->가치있는</li>
+    <li>mapSubjectAdj->귀중한</li>
+    <li>mapSubjectAdj->매혹적인</li>
+    <li>mapSubjectAdj->화려한</li>
+    <li>mapSubjectAdj->놀라운</li>
+    <li>mapSubjectAdj->야성의</li>
+    <li>mapSubjectAdj->위대한</li>
+    <li>mapSubjectAdj->웅대한</li>
+    <li>mapSubjectAdj->작은</li>
+    <li>mapSubjectAdj->적은</li>
+    <li>mapSubjectAdj->나쁜</li>
+    <li>mapSubjectAdj->끔찍한</li>
+    <li>mapSubjectAdj->신비로운</li>
+    <li>mapSubjectAdj->성스러운</li>
+    <li>mapSubjectAdj->지역의</li>
+    <li>mapSubjectAdj->지방의</li>
+    <li>mapSubjectAdj->토착의</li>
+    <li>mapSubjectAdj->인근의</li>
+    <li>mapSubjectAdj->행성의</li>
+    <li>mapSubjectAdj->위험한</li>
+    <li>mapSubjectAdj->치명적인</li>
+    <li>mapSubjectAdj->독성의</li>
+    <li>mapSubjectAdj->선별된</li>
+    <li>mapSubjectAdj->독특한</li>
+    <li>mapSubjectAdj->중요한</li>
+    <li>direction->북부</li>
+    <li>direction->동부</li>
+    <li>direction->남부</li>
+    <li>direction->서부</li>
+    <li>direction(p=0.2)->지하의</li>
+    <li>direction(p=0.2)->언더그라운드</li>
+    <li>mapSubject->도로</li>
+    <li>mapSubject->오솔길</li>
+    <li>mapSubject->길</li>
+    <li>mapSubject->동굴</li>
+    <li>mapSubject->언덕</li>
+    <li>mapSubject->산</li>
+    <li>mapSubject->강</li>
+    <li>mapSubject->숲</li>
+    <li>mapSubject->늪지</li>
+    <li>mapSubject->황무지</li>
+    <li>mapSubject->랜드마크</li>
+    <li>mapSubject->유역</li>
+    <li>mapSubject->호수</li>
+    <li>mapSubject->계곡</li>
+    <li>mapSubject->장소</li>
+    <li>mapSubject->유적지</li>
+    <li>mapSubject->전설</li>
+    <li>mapSubject->비밀</li>
+    <li>mapSubject->경계</li>
+    <li>mapSubject->개척지</li>
+    <li>mapSubject->위치</li>
+    <li>mapSubject->자원</li>
+    <li>mapSubject->유물</li>
+    <li>mapSubject->고대 유물</li>
+    <li>mapSubject->마을</li>
+    <li>mapSubject->정착지</li>
+    <li>mapSubject->요새</li>
+    <li>mapSubject->폐허</li>
+    <li>mapSubject->씨족</li>
+    <li>mapSubject->민족</li>
+    <li>mapSubject->역사</li>
+    <li>mapSubject->영토</li>
+    <li>mapSubject->육지</li>
+    <li>CapSylE->알</li>
+    <li>CapSylE->올</li>
+    <li>CapSylE->안</li>
+    <li>CapSylE->앤드</li>
+    <li>CapSylE->아르</li>
+    <li>CapSylE->아</li>
+    <li>CapSylE->애스</li>
+    <li>CapSylE->앳</li>
+    <li>CapSylE->벗</li>
+    <li>CapSylE->반</li>
+    <li>CapSylE->빈</li>
+    <li>CapSylE->본</li>
+    <li>CapSylE->카</li>
+    <li>CapSylE->코</li>
+    <li>CapSylE->다</li>
+    <li>CapSylE->딘</li>
+    <li>CapSylE->델</li>
+    <li>CapSylE->도</li>
+    <li>CapSylE->에아</li>
+    <li>CapSylE->에드</li>
+    <li>CapSylE->엔</li>
+    <li>CapSylE->엔트</li>
+    <li>CapSylE->에르</li>
+    <li>CapSylE->에라</li>
+    <li>CapSylE->에레</li>
+    <li>CapSylE->에스</li>
+    <li>CapSylE->에비</li>
+    <li>CapSylE->포</li>
+    <li>CapSylE->펜</li>
+    <li>CapSylE->핀</li>
+    <li>CapSylE->포</li>
+    <li>CapSylE->펀</li>
+    <li>CapSylE->가</li>
+    <li>CapSylE->고</li>
+    <li>CapSylE->하</li>
+    <li>CapSylE->해드</li>
+    <li>CapSylE->햇</li>
+    <li>CapSylE->히</li>
+    <li>CapSylE->헨</li>
+    <li>CapSylE->허</li>
+    <li>CapSylE->하이</li>
+    <li>CapSylE->하이</li>
+    <li>CapSylE->힌</li>
+    <li>CapSylE->히즈</li>
+    <li>CapSylE->인</li>
+    <li>CapSylE->이즈</li>
+    <li>CapSylE->잇</li>
+    <li>CapSylE->이스</li>
+    <li>CapSylE->자</li>
+    <li>CapSylE->카</li>
+    <li>CapSylE->코</li>
+    <li>CapSylE->레</li>
+    <li>CapSylE->란</li>
+    <li>CapSylE->레</li>
+    <li>CapSylE->렌</li>
+    <li>CapSylE->론</li>
+    <li>CapSylE->메</li>
+    <li>CapSylE->마</li>
+    <li>CapSylE->멘</li>
+    <li>CapSylE->민</li>
+    <li>CapSylE->몬</li>
+    <li>CapSylE->네</li>
+    <li>CapSylE->나</li>
+    <li>CapSylE->낫</li>
+    <li>CapSylE->오메</li>
+    <li>CapSylE->온</li>
+    <li>CapSylE->오르</li>
+    <li>CapSylE->오우</li>
+    <li>CapSylE->오울</li>
+    <li>CapSylE->아워</li>
+    <li>CapSylE->파</li>
+    <li>CapSylE->콰</li>
+    <li>CapSylE->레</li>
+    <li>CapSylE->라</li>
+    <li>CapSylE->로</li>
+    <li>CapSylE->세</li>
+    <li>CapSylE->소</li>
+    <li>CapSylE->스</li>
+    <li>CapSylE->테</li>
+    <li>CapSylE->테드</li>
+    <li>CapSylE->테르</li>
+    <li>CapSylE->차</li>
+    <li>CapSylE->더</li>
+    <li>CapSylE->티</li>
+    <li>CapSylE->티</li>
+    <li>CapSylE->티</li>
+    <li>CapSylE->토</li>
+    <li>CapSylE->언</li>
+    <li>CapSylE->베</li>
+    <li>CapSylE->베르</li>
+    <li>CapSylE->와</li>
+    <li>CapSylE->워즈</li>
+    <li>CapSylE->위트</li>
+    <li>CapSylE->유</li>
   </MapUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -844,50 +844,49 @@
     <li>mapType->holographic</li>
   -->
   <Namer_Map.rulePack.rulesStrings>
-    <li>title(p=2)->[mapType][mapNoun] - [subject]의 지도</li>
-    <li>title(p=2)->[maybeThe][mapType][map]</li>
+    <li>title(p=2)->[mapType] [mapNoun] - [subject] 지도</li>
+    <li>title(p=2)->[mapType] [map]</li>
     <li>title(p=2)->[maybeAdjective][ANYPAWN_nameIndef]의 [maybeAdjective][map]</li>
-    <li>title->[mapType][mapNoun]: [subject]</li>
-    <li>title>[mapNoun] - [mapSubjectAdj][mapSubject]의 지도</li>
-    <li>title->[maybeThe][AdjectiveAny][map]</li>
-    <li>title(p=0.5)->[mapSubjectAdj][mapSubject]용 지도</li>
-    <li>title(p=0.5)->[place][mapNoun]</li>
-    <li>maybeAdjective></li>
-    <li>maybeAdjective>[adjective]</li>
-    <li>adjective>[AdjectiveAny]</li>
-    <li>adjective>[Color]</li>
-    <li>adjective>[AdjectiveLarge]</li>
-    <li>maybeThe></li>
-    <li>maybeThe>the</li>
-    <li>map>[mapNoun]</li>
-    <li>map(p=2)>[place][mapNoun]</li>
-    <li>map>[mapSubject][mapNoun]</li>
-    <li>map>[mapSubjectAdj][mapSubject][mapNoun]</li>
-    <li>mapNoun(p=5)>지도</li>
-    <li>mapNoun(p=2)>아틀라스</li>
-    <li>mapNoun>연감</li>
-    <li>mapNoun>차트</li>
-    <li>mapNoun>측량도</li>
-    <li>mapNoun>연구서</li>
-    <li>mapNoun>팸플릿</li>
-    <li>mapType(p=2)>[Animal]</li>
-    <li>mapType(p=2)>[TreeType]</li>
-    <li>mapType>등고선</li>
-    <li>mapType>지형</li>
-    <li>mapType>지형도</li>
-    <li>mapType>인구</li>
-    <li>mapType>보물</li>
-    <li>mapType>주석</li>
-    <li>mapType>삽화</li>
-    <li>mapType>연합</li>
-    <li>mapType>동맹</li>
-    <li>mapType>연방</li>
-    <li>mapType>역사</li>
-    <li>mapType>종이</li>
-    <li>mapType>가죽</li>
-    <li>mapType>돼지가죽</li>
-    <li>mapType>코팅</li>
-    <li>mapType>홀로그램</li>
+    <li>title->[mapType] [mapNoun]: [subject]</li>
+    <li>title->[mapNoun] - [mapSubjectAdj] [mapSubject]의 지도</li>
+    <li>title->[AdjectiveAny] [map]</li>
+    <li>title(p=0.5)->[mapSubjectAdj] [mapSubject]용 지도</li>
+    <li>title(p=0.5)->[place] [mapNoun]</li>
+    <li>maybeAdjective-></li>
+    <li>maybeAdjective->[adjective] </li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>adjective->[Color]</li>
+    <li>adjective->[AdjectiveLarge]</li>
+    <li>maybeThe-></li>
+    <li>maybeThe-></li>
+    <li>map->[mapNoun]</li>
+    <li>map(p=2)->[place][mapNoun]</li>
+    <li>map->[mapSubject][mapNoun]</li>
+    <li>map->[mapSubjectAdj] [mapSubject][mapNoun]</li>
+    <li>mapNoun(p=5)->지도</li>
+    <li>mapNoun(p=2)->지도책</li>
+    <li>mapNoun->연감</li>
+    <li>mapNoun->도표</li>
+    <li>mapNoun->측량도</li>
+    <li>mapNoun->연구서</li>
+    <li>mapNoun->소책자</li>
+    <li>mapType(p=2)->[Animal]</li>
+    <li>mapType(p=2)->[TreeType]</li>
+    <li>mapType->등고선</li>
+    <li>mapType->지형</li>
+    <li>mapType->인구 분포</li>
+    <li>mapType->보물 탐사</li>
+    <li>mapType->주석이 달린</li>
+    <li>mapType->삽화가 있는</li>
+    <li>mapType->연합</li>
+    <li>mapType->동맹</li>
+    <li>mapType->연방</li>
+    <li>mapType->역사적</li>
+    <li>mapType->종이</li>
+    <li>mapType->가죽</li>
+    <li>mapType->돼지가죽</li>
+    <li>mapType->코팅된</li>
+    <li>mapType->홀로그램</li>
   </Namer_Map.rulePack.rulesStrings>
   
 </LanguageData>

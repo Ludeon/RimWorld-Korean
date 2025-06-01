@@ -3,95 +3,105 @@
   
   <!-- EN: animal habitat -->
   <AnimalHabitat.label>동물 서식지</AnimalHabitat.label>
-  <!-- EN: A natural habitat for {0}. They appear in greater numbers here. -->
-  <AnimalHabitat.description>{0}의 자연 서식지입니다. 이 지역에서는 더 많이 볼 수 있습니다.</AnimalHabitat.description>
+  <!-- EN: A natural habitat for {ANIMALKIND_labelPlural}. They appear in greater numbers here. -->
+  <AnimalHabitat.description>{ANIMALKIND_label}의 자연 서식지입니다. 다른 곳보다 더 많은 개체를 발견할 수 있습니다.</AnimalHabitat.description>
   
   <!-- EN: decreased animal life -->
   <AnimalLife_Decreased.label>동물 개체수 감소</AnimalLife_Decreased.label>
   <!-- EN: Animals are less abundant here than normal. -->
-  <AnimalLife_Decreased.description>이곳은 동물이 평소보다 적게 서식합니다.</AnimalLife_Decreased.description>
+  <AnimalLife_Decreased.description>동물이 적게 서식합니다.</AnimalLife_Decreased.description>
   
   <!-- EN: increased animal life -->
   <AnimalLife_Increased.label>동물 개체수 증가</AnimalLife_Increased.label>
   <!-- EN: Animals are more abundant here. -->
-  <AnimalLife_Increased.description>이곳은 동물이 더 많이 서식합니다.</AnimalLife_Increased.description>
+  <AnimalLife_Increased.description>동물이 더 많이 서식합니다.</AnimalLife_Increased.description>
   
   <!-- EN: archean trees -->
-  <ArcheanTrees.label>아르케안나무</ArcheanTrees.label>
+  <ArcheanTrees.label>시생나무</ArcheanTrees.label>
   <!-- EN: This area contains ancient archean trees. These trees host a special microbial community in their roots which converts nearby terrain into rich soil. Their delicate root system makes it impossible to replant them. -->
-  <ArcheanTrees.description>이 지역에는 고대 아르케안나무가 자라고 있습니다. 이 나무들은 뿌리에 특수 미생물 군집이 있어 주변 토양을 비옥하게 만듭니다. 섬세한 뿌리 구조로 인해 재이식이 불가능합니다.</ArcheanTrees.description>
+  <ArcheanTrees.description>이 지역에는 고대 시생나무가 자라고 있습니다. 시생나무는 뿌리에 특수 미생물 군집을 가지고 있어 주변 토양을 비옥하게 만듭니다. 섬세한 뿌리 구조로 인해 재이식은 불가능합니다.</ArcheanTrees.description>
+  
+  <!-- EN: dry ground -->
+  <DryGround.label>마른 땅</DryGround.label>
+  <!-- EN: The ground in this area is drier than normal. There are no small ponds or bodies of water. -->
+  <DryGround.description>이 지역의 땅은 건조합니다. 작은 연못이나 수역이 존재하지 않습니다.</DryGround.description>
   
   <!-- EN: decreased fish -->
   <Fish_Decreased.label>어류 감소</Fish_Decreased.label>
   <!-- EN: This area has fewer fish than normal. -->
-  <Fish_Decreased.description>이 지역에는 평소보다 물고기가 적습니다.</Fish_Decreased.description>
+  <Fish_Decreased.description>물고기가 적게 서식합니다.</Fish_Decreased.description>
   
   <!-- EN: increased fish -->
   <Fish_Increased.label>어류 증가</Fish_Increased.label>
   <!-- EN: This area has more fish than normal. -->
-  <Fish_Increased.description>이 지역에는 물고기가 평소보다 많습니다.</Fish_Increased.description>
+  <Fish_Increased.description>물고기가 더 많이 서식합니다.</Fish_Increased.description>
   
   <!-- EN: foggy -->
-  <FoggyMutator.label>안개 낀</FoggyMutator.label>
+  <FoggyMutator.label>안개</FoggyMutator.label>
   <!-- EN: Fog is common in this area. -->
-  <FoggyMutator.description>이 지역에는 안개가 자주 낍니다.</FoggyMutator.description>
+  <FoggyMutator.description>안개가 자주 낍니다.</FoggyMutator.description>
   
   <!-- EN: junkyard -->
-  <Junkyard.label>고철 더미</Junkyard.label>
+  <Junkyard.label>고철 야적장</Junkyard.label>
   <!-- EN: An old dumping ground for various kinds of junk. -->
   <Junkyard.description>다양한 종류의 폐기물이 쌓여 있는 오래된 폐기장입니다.</Junkyard.description>
   
   <!-- EN: mineral rich -->
-  <MineralRich.label>TODO</MineralRich.label>
+  <MineralRich.label>광물 풍부</MineralRich.label>
+  
+  <!-- EN: obsidian deposits -->
+  <ObsidianDeposits.label>흑요석 매장지</ObsidianDeposits.label>
+  <!-- EN: This area has deposits of volcanic obsidian, which can be mined for obsidian glass. -->
+  <ObsidianDeposits.description>이 지역에서는 흑요석 유리를 채굴할 수 있습니다.</ObsidianDeposits.description>
   
   <!-- EN: plant grove -->
   <PlantGrove.label>식물 군락지</PlantGrove.label>
   <!-- EN: This area contains a large number of {0}. -->
-  <PlantGrove.description>이 지역에는 많은 수의 {0}가(이) 자라고 있습니다.</PlantGrove.description>
+  <PlantGrove.description>많은 수의 {0}(이)가 자라고 있습니다.</PlantGrove.description>
   
   <!-- EN: decreased plant life -->
-  <PlantLife_Decreased.label>식생 감소</PlantLife_Decreased.label>
+  <PlantLife_Decreased.label>식물 감소</PlantLife_Decreased.label>
   <!-- EN: Plant life is less abundant here. -->
-  <PlantLife_Decreased.description>이곳은 식물 생명이 평소보다 적게 존재합니다.</PlantLife_Decreased.description>
+  <PlantLife_Decreased.description>식물이 적게 서식합니다.</PlantLife_Decreased.description>
   
   <!-- EN: increased plant life -->
-  <PlantLife_Increased.label>식생 증가</PlantLife_Increased.label>
+  <PlantLife_Increased.label>식물 증가</PlantLife_Increased.label>
   <!-- EN: Plant life is more abundant here. -->
-  <PlantLife_Increased.description>이곳은 식물 생명이 풍부합니다.</PlantLife_Increased.description>
+  <PlantLife_Increased.description>식물이 더 많이 서식합니다.</PlantLife_Increased.description>
   
   <!-- EN: increased pollution -->
   <Pollution_Increased.label>오염 증가</Pollution_Increased.label>
   <!-- EN: This area is contaminated with toxic pollutants. -->
-  <Pollution_Increased.description>이 지역은 유독 오염물질로 오염되어 있습니다.</Pollution_Increased.description>
+  <Pollution_Increased.description>독성 오염물질로 오염됐습니다.</Pollution_Increased.description>
   
   <!-- EN: high geothermal activity -->
-  <SteamGeysers_Increased.label>지열 활동 증가</SteamGeysers_Increased.label>
+  <SteamGeysers_Increased.label>지열 활동 활발</SteamGeysers_Increased.label>
   <!-- EN: Steam geysers are more common in this area. -->
-  <SteamGeysers_Increased.description>이 지역에는 증기 간헐천이 많이 분포하고 있습니다.</SteamGeysers_Increased.description>
+  <SteamGeysers_Increased.description>증기 간헐천이 더 흔합니다.</SteamGeysers_Increased.description>
   
   <!-- EN: sunny -->
-  <SunnyMutator.label>맑음</SunnyMutator.label>
+  <SunnyMutator.label>화창함</SunnyMutator.label>
   <!-- EN: Clear weather is much more common here. -->
-  <SunnyMutator.description>이 지역은 맑은 날씨가 훨씬 더 자주 나타납니다.</SunnyMutator.description>
+  <SunnyMutator.description>다른 곳보다 맑은 날이 더 오래 지속됩니다.</SunnyMutator.description>
   
   <!-- EN: wet climate -->
   <WetClimate.label>습한 기후</WetClimate.label>
   <!-- EN: Precipitation is much more common here. -->
-  <WetClimate.description>이 지역은 강수 현상이 매우 빈번합니다.</WetClimate.description>
+  <WetClimate.description>다른 곳보다 강수 현상이 훨씬 빈번합니다.</WetClimate.description>
   
   <!-- EN: wild plants -->
   <WildPlants.label>야생 식물</WildPlants.label>
   <!-- EN: When warm enough, this area can grow a large number of {0}. -->
-  <WildPlants.description>충분히 따뜻하다면, 이 지역에는 많은 수의 {0}가(이) 자랄 수 있습니다.</WildPlants.description>
+  <WildPlants.description>충분히 따뜻하다면 {0}(이)가 많이 자라날 수 있습니다.</WildPlants.description>
   
   <!-- EN: wild plants -->
-  <WildTropicalPlants.label>야생 열대 식물</WildTropicalPlants.label>
+  <WildTropicalPlants.label>야생 식물</WildTropicalPlants.label>
   <!-- EN: This area can grow a large number of {0}s. -->
-  <WildTropicalPlants.description>이 지역에는 많은 {0}가(이) 자랄 수 있습니다.</WildTropicalPlants.description>
+  <WildTropicalPlants.description>{0}(이)가 많이 자라날 수 있습니다.</WildTropicalPlants.description>
   
   <!-- EN: windy -->
-  <WindyMutator.label>바람이 강한</WindyMutator.label>
+  <WindyMutator.label>강풍</WindyMutator.label>
   <!-- EN: Winds are much stronger in this area. -->
-  <WindyMutator.description>이 지역에는 바람이 훨씬 더 강하게 붑니다.</WindyMutator.description>
+  <WindyMutator.description>바람이 훨씬 더 강하게 붑니다.</WindyMutator.description>
   
 </LanguageData>

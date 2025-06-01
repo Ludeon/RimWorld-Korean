@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: hunter drone -->
-  <Drone_Hunter.label>헌터드론</Drone_Hunter.label>
-  <!-- EN: An automated kill drone. The hunter drone pursues its target and detonate when it gets close. -->
-  <Drone_Hunter.description>자동화된 살상 드론입니다. 헌터드론은 목표를 추적하여 가까이 접근하면 폭발합니다.</Drone_Hunter.description>
+  <Drone_Hunter.label>헌터 드론</Drone_Hunter.label>
+  <!-- EN: An automated kill drone. The hunter drone pursues its target and detonates when it gets close. -->
+  <Drone_Hunter.description>자동화된 살상 드론입니다. 목표를 향해 이동하다가 근접하면 폭발합니다.</Drone_Hunter.description>
   <!-- EN: Battery power -->
   <Drone_Hunter.comps.CompMechPowerCell.labelOverride>배터리 전력</Drone_Hunter.comps.CompMechPowerCell.labelOverride>
   <!-- EN: Drones have limited battery life. When the battery runs dry, the drone dies. -->
-  <Drone_Hunter.comps.CompMechPowerCell.tooltipOverride>드론은 제한된 배터리 수명을 가집니다. 배터리가 모두 소모되면 드론은 파괴됩니다.</Drone_Hunter.comps.CompMechPowerCell.tooltipOverride>
+  <Drone_Hunter.comps.CompMechPowerCell.tooltipOverride>드론은 제한된 배터리 수명을 가지고 있습니다. 배터리가 모두 소모되면 드론이 파괴됩니다.</Drone_Hunter.comps.CompMechPowerCell.tooltipOverride>
   <!-- EN: shell spike -->
-  <Drone_Hunter.tools.shell_spike.label>셸 스파이크</Drone_Hunter.tools.shell_spike.label>
+  <Drone_Hunter.tools.shell_spike.label>껍질 가시</Drone_Hunter.tools.shell_spike.label>
   
   <!-- EN: sentry drone -->
-  <Drone_Sentry.label>센트리드론</Drone_Sentry.label>
+  <Drone_Sentry.label>센트리 드론</Drone_Sentry.label>
   <!-- EN: An automated security drone. It continuously patrols an area, looking for intruders. Once an intruder is found, it will relentlessly attack with a short-range scattergun. Its long-lasting battery can keep it going for centuries. -->
-  <Drone_Sentry.description>자동화된 보안 드론입니다. 센트리드론은 구역을 지속적으로 순찰하며 침입자를 탐지합니다. 침입자를 발견하면 단거리 산탄총으로 집요하게 공격합니다. 오래가는 배터리 덕분에 수세기 동안 작동할 수 있습니다.</Drone_Sentry.description>
+  <Drone_Sentry.description>자동화된 보안 드론입니다. 주변을 순찰하다가 침입자를 발견하면 단거리 산탄총으로 집요하게 공격합니다. 반영구적인 배터리가 탑재되어 있어, 수 세기 동안 임무 수행이 가능합니다.</Drone_Sentry.description>
   <!-- EN: shell spike -->
-  <Drone_Sentry.tools.shell_spike.label>셸 스파이크</Drone_Sentry.tools.shell_spike.label>
+  <Drone_Sentry.tools.shell_spike.label>껍질 가시</Drone_Sentry.tools.shell_spike.label>
   
   <!-- EN: wasp -->
-  <Drone_Wasp.label>와스프</Drone_Wasp.label>
+  <Drone_Wasp.label>와습</Drone_Wasp.label>
   <!-- EN: A small drone used for defense and situation control. The drone injects a small amount of paralytic biotoxin, stunning organic targets. While designed to be non-lethal, wasps may occasionally kill their target by accident. Wasps are powered by a long-lasting battery. -->
-  <Drone_Wasp.description>방어와 상황 통제를 위해 사용되는 소형 드론입니다. 이 드론은 소량의 마비 바이오톡신을 주입하여 유기체 대상을 기절시킵니다. 비치명적으로 설계되었지만, 가끔 우발적으로 대상을 사망시킬 수도 있습니다. 와스프는 장시간 지속되는 배터리로 구동됩니다.</Drone_Wasp.description>
+  <Drone_Wasp.description>방어와 현장 통제를 위한 소형 드론입니다. 소량의 마비성 생체독소를 주입하여 생체 목표를 무력화시킵니다. 비살상용이지만, 목표를 사망에 이르게 하는 사고가 드물게 발생합니다. 오래 지속되는 배터리로 구동됩니다.</Drone_Wasp.description>
   <!-- EN: stinger -->
-  <Drone_Wasp.tools.stinger.label>스팅거</Drone_Wasp.tools.stinger.label>
+  <Drone_Wasp.tools.stinger.label>스팅어</Drone_Wasp.tools.stinger.label>
   
 </LanguageData>

@@ -4,235 +4,501 @@
   <!-- EN: aim assistance -->
   <AimAssistance.label>조준 보조</AimAssistance.label>
   <!-- EN: This weapon contains a rudimentary aim assistant computer which helps track targets, increasing accuracy at all ranges. The device can account for environmental challenges, allowing the weapon to ignore the accuracy penalty from bad weather and smoke. -->
-  <AimAssistance.description>이 무기에는 기본적인 조준 보조 컴퓨터가 내장되어 있어, 목표물을 추적하여 전 범위에서 명중률을 높여줍니다. 이 장치는 악천후나 연기 등 환경적 문제로 인한 명중률 페널티를 무시할 수 있게 해줍니다.</AimAssistance.description>
+  <AimAssistance.description>목표 추적을 도와주는 기초적인 조준 보조 컴퓨터가 내장돼있습니다. 모든 거리에서의 명중률이 개선됩니다. 악천후나 연기 등 환경으로 인한 명중률 감소를 무시할 수 있습니다.</AimAssistance.description>
+  <!-- EN: seeking -->
+  <AimAssistance.traitAdjectives.0>추적하는</AimAssistance.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <AimAssistance.traitAdjectives.1>정확한</AimAssistance.traitAdjectives.1>
+  <!-- EN: precise -->
+  <AimAssistance.traitAdjectives.2>정밀한</AimAssistance.traitAdjectives.2>
+  <!-- EN: auto-aim -->
+  <AimAssistance.traitAdjectives.3>자동 조준</AimAssistance.traitAdjectives.3>
+  <!-- EN: self-aim -->
+  <AimAssistance.traitAdjectives.4>조준 보조</AimAssistance.traitAdjectives.4>
   
   <!-- EN: bioferrite burner -->
-  <BioferriteBurner.label>바이오페라이트 버너</BioferriteBurner.label>
+  <BioferriteBurner.label>바이오페라이트 연소기</BioferriteBurner.label>
   <!-- EN: This weapon has a bioferrite-powered flamethrower unit. The burner generates a blast of flame from a pressurized bioferrite charge. Once used, it must be reloaded using bioferrite. -->
-  <BioferriteBurner.description>이 무기에는 바이오페라이트로 동작하는 화염방사기 유닛이 달려 있습니다. 버너는 압축된 바이오페라이트를 사용해 화염을 분사합니다. 사용 후에는 바이오페라이트로 재장전해야 합니다.</BioferriteBurner.description>
+  <BioferriteBurner.description>바이오페라이트로 동작하는 화염방사기가 부착돼있습니다. 가압 생체강을 소모해 화염을 분사할 수 있습니다. 사용 후 생체강으로 재장전해야 합니다.</BioferriteBurner.description>
   <!-- EN: burner charge -->
-  <BioferriteBurner.abilityProps.chargeNoun>버너 충전</BioferriteBurner.abilityProps.chargeNoun>
+  <BioferriteBurner.abilityProps.chargeNoun>연소기</BioferriteBurner.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
   <BioferriteBurner.abilityProps.cooldownGerund>재사용 대기 중</BioferriteBurner.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <BioferriteBurner.traitAdjectives.0>불타는</BioferriteBurner.traitAdjectives.0>
+  <!-- EN: flame -->
+  <BioferriteBurner.traitAdjectives.1>화염</BioferriteBurner.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <BioferriteBurner.traitAdjectives.2>타오르는</BioferriteBurner.traitAdjectives.2>
+  <!-- EN: burning -->
+  <BioferriteBurner.traitAdjectives.3>태우는</BioferriteBurner.traitAdjectives.3>
   
   <!-- EN: birdshot pellets -->
-  <BirdshotPellets.label>버드샷 탄환</BirdshotPellets.label>
+  <BirdshotPellets.label>버드샷 펠릿</BirdshotPellets.label>
   <!-- EN: This weapon fires shells containing smaller pellets than normal. It's much more accurate at close range, but less effective at long range. -->
-  <BirdshotPellets.description>이 무기는 일반보다 작은 펠릿이 들어 있는 탄환을 발사합니다. 근거리에서 훨씬 정확하지만 장거리에서는 덜 효과적입니다.</BirdshotPellets.description>
+  <BirdshotPellets.description>작은 펠릿들이 들어 있는 탄환을 발사합니다. 근거리에서 훨씬 정확하지만 멀리 떨어지면 덜 효과적입니다.</BirdshotPellets.description>
+  <!-- EN: birdshot -->
+  <BirdshotPellets.traitAdjectives.0>버드샷</BirdshotPellets.traitAdjectives.0>
+  <!-- EN: nearshot -->
+  <BirdshotPellets.traitAdjectives.1>근거리</BirdshotPellets.traitAdjectives.1>
   
   <!-- EN: broadhead arrows -->
   <BroadheadArrows.label>브로드헤드 화살</BroadheadArrows.label>
   <!-- EN: This bow shoots arrows tipped with sharp blades, increasing its damage. -->
-  <BroadheadArrows.description>이 활은 날카로운 칼날이 달린 화살을 쏘아 피해량을 높입니다.</BroadheadArrows.description>
+  <BroadheadArrows.description>날카로운 칼날이 달린 화살을 쏘아 피해량이 높습니다.</BroadheadArrows.description>
+  <!-- EN: strong -->
+  <BroadheadArrows.traitAdjectives.0>강한</BroadheadArrows.traitAdjectives.0>
+  <!-- EN: broadhead -->
+  <BroadheadArrows.traitAdjectives.1>브로드헤드</BroadheadArrows.traitAdjectives.1>
   
   <!-- EN: charge capacitor -->
-  <ChargeCapacitor.label>충전 커패시터</ChargeCapacitor.label>
+  <ChargeCapacitor.label>펄스 축전기</ChargeCapacitor.label>
   <!-- EN: This weapon amplifies pulse-charge technology with a massive capacitor, increasing damage and armor penetration. -->
-  <ChargeCapacitor.description>이 무기는 대형 커패시터로 펄스 차지 기술을 증폭시켜, 피해량과 방호구 관통력을 높입니다.</ChargeCapacitor.description>
+  <ChargeCapacitor.description>대형 축전기가 펄스 충전을 증폭시켜 피해량과 방어 관통력을 높입니다.</ChargeCapacitor.description>
+  <!-- EN: overcharged -->
+  <ChargeCapacitor.traitAdjectives.0>과충전</ChargeCapacitor.traitAdjectives.0>
   
   <!-- EN: cumbersome -->
-  <Cumbersome.label>다루기 불편함</Cumbersome.label>
+  <Cumbersome.label>불편</Cumbersome.label>
   <!-- EN: This weapon is unwieldy to use, making it slower to aim. -->
-  <Cumbersome.description>이 무기는 다루기 불편해 조준 속도가 느려집니다.</Cumbersome.description>
+  <Cumbersome.description>다루기 불편해 조준 속도가 느립니다.</Cumbersome.description>
+  <!-- EN: cumbersome -->
+  <Cumbersome.traitAdjectives.0>불편한</Cumbersome.traitAdjectives.0>
+  <!-- EN: bulky -->
+  <Cumbersome.traitAdjectives.1>무거운</Cumbersome.traitAdjectives.1>
+  <!-- EN: awkward -->
+  <Cumbersome.traitAdjectives.2>투박한</Cumbersome.traitAdjectives.2>
   
   <!-- EN: custom grip -->
-  <CustomGrip.label>커스텀 그립</CustomGrip.label>
+  <CustomGrip.label>맞춤형 그립</CustomGrip.label>
   <!-- EN: This weapon contains a customized grip that handles recoil better, improving accuracy at short range. It looks cool too. -->
-  <CustomGrip.description>이 무기는 반동을 더 잘 제어하는 맞춤형 그립이 장착되어 있어 근거리 명중률이 개선됩니다. 보기도 멋집니다.</CustomGrip.description>
+  <CustomGrip.description>맞춤형 그립이 장착돼 반동을 더 잘 제어할 수 있습니다. 근거리 명중률이 개선되며 보기에도 멋집니다.</CustomGrip.description>
+  <!-- EN: custom -->
+  <CustomGrip.traitAdjectives.0>맞춤</CustomGrip.traitAdjectives.0>
+  <!-- EN: customized -->
+  <CustomGrip.traitAdjectives.1>맞춤형</CustomGrip.traitAdjectives.1>
+  <!-- EN: gripped -->
+  <CustomGrip.traitAdjectives.2>안정적인</CustomGrip.traitAdjectives.2>
+  <!-- EN: hi-grip -->
+  <CustomGrip.traitAdjectives.3>편리한</CustomGrip.traitAdjectives.3>
   
   <!-- EN: EMP cannon -->
-  <EMPLauncher.label>EMP 캐논</EMPLauncher.label>
-  <!-- EN: This weapon has an attached EMP shell launcher. The shell emits an EMP pulse that stuns electronic targets like turrets and mechanoids. Once fired, it must be reloaded using steel. -->
-  <EMPLauncher.description>이 무기는 EMP 포탄 발사기가 장착되어 있습니다. 포탄은 EMP 펄스를 방출해 터릿이나 메카노이드와 같은 전자 목표물을 기절시킵니다. 발사 후에는 강철로 재장전해야 합니다.</EMPLauncher.description>
+  <EMPLauncher.label>펄스 발사기</EMPLauncher.label>
+  <!-- EN: This weapon has an attached EMP shell launcher. The shell emits a burst of electromagnetic energy that stuns electronic targets like turrets and mechanoids. Once fired, it must be reloaded using steel. -->
+  <EMPLauncher.description>전자기 펄스탄 발사기가 부착돼있습니다. 펄스탄은 착탄 시 전자기 펄스를 방출해 포탑과 메카노이드 등 전자기기를 일시적으로 무력화합니다. 발사 후 강철로 재장전해야 합니다.</EMPLauncher.description>
   <!-- EN: shell -->
   <EMPLauncher.abilityProps.chargeNoun>포탄</EMPLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
   <EMPLauncher.abilityProps.cooldownGerund>재사용 대기 중</EMPLauncher.abilityProps.cooldownGerund>
+  <!-- EN: EMP -->
+  <EMPLauncher.traitAdjectives.0>펄스</EMPLauncher.traitAdjectives.0>
+  <!-- EN: disabling -->
+  <EMPLauncher.traitAdjectives.1>무력화</EMPLauncher.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <EMPLauncher.traitAdjectives.2>기절</EMPLauncher.traitAdjectives.2>
   
   <!-- EN: EMP pulser -->
-  <EMPPulser.label>EMP 펄서</EMPPulser.label>
-  <!-- EN: This weapon can emit an EMP pulse centered on the user. This pulse will stun nearby electronic targets like mechanoids or turrets. Once used, the pulser takes some time to recharge. -->
-  <EMPPulser.description>이 무기는 사용자를 중심으로 EMP 펄스를 발산할 수 있습니다. 이 펄스는 주변의 메카노이드나 터릿과 같은 전자 목표물을 기절시킵니다. 사용 후 재충전 시간이 필요합니다.</EMPPulser.description>
+  <EMPPulser.label>펄스 방출기</EMPPulser.label>
+  <!-- EN: This weapon can emit a burst of energy centered on the user. The burst will stun nearby electronic targets like mechanoids or turrets. Once used, the pulser takes some time to recharge. -->
+  <EMPPulser.description>사용자를 중심으로 전자기 펄스를 방출할 수 있습니다. 전자기 펄스는 포탑과 메카노이드 등 전자기기를 일시적으로 무력화합니다. 사용 후 재충전 시간이 필요합니다.</EMPPulser.description>
   <!-- EN: charge -->
   <EMPPulser.abilityProps.chargeNoun>충전</EMPPulser.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
   <EMPPulser.abilityProps.cooldownGerund>재사용 대기 중</EMPPulser.abilityProps.cooldownGerund>
+  <!-- EN: pulse -->
+  <EMPPulser.traitAdjectives.0>방출</EMPPulser.traitAdjectives.0>
+  <!-- EN: EMP -->
+  <EMPPulser.traitAdjectives.1>전자기</EMPPulser.traitAdjectives.1>
   
   <!-- EN: EMP rounds -->
-  <EMPRounds.label>EMP 탄환</EMPRounds.label>
-  <!-- EN: This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and  mechanoids. -->
-  <EMPRounds.description>이 무기는 EMP 커패시터가 내장된 탄환을 발사해, 전자기기와 메카노이드를 일시적으로 무력화합니다.</EMPRounds.description>
+  <EMPRounds.label>펄스 탄환</EMPRounds.label>
+  <!-- EN: This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and mechanoids. -->
+  <EMPRounds.description>탄환이 전자기 펄스 축전기를 내장하고 있습니다. 피격된 전자기기와 메카노이드를 일시적으로 무력화합니다.</EMPRounds.description>
+  <!-- EN: EMP -->
+  <EMPRounds.traitAdjectives.0>펄스</EMPRounds.traitAdjectives.0>
+  <!-- EN: electric -->
+  <EMPRounds.traitAdjectives.1>전기</EMPRounds.traitAdjectives.1>
+  <!-- EN: shocking -->
+  <EMPRounds.traitAdjectives.2>마비</EMPRounds.traitAdjectives.2>
+  <!-- EN: sparky -->
+  <EMPRounds.traitAdjectives.3>찌릿한</EMPRounds.traitAdjectives.3>
+  <!-- EN: zapping -->
+  <EMPRounds.traitAdjectives.4>짜릿한</EMPRounds.traitAdjectives.4>
   
   <!-- EN: extended barrel -->
   <ExtendedBarrel.label>연장 총열</ExtendedBarrel.label>
   <!-- EN: This weapon has a longer range than normal. -->
-  <ExtendedBarrel.description>이 무기는 일반보다 사거리가 더 깁니다.</ExtendedBarrel.description>
+  <ExtendedBarrel.description>사거리가 더 깁니다.</ExtendedBarrel.description>
+  <!-- EN: long -->
+  <ExtendedBarrel.traitAdjectives.0>긴</ExtendedBarrel.traitAdjectives.0>
+  <!-- EN: extended -->
+  <ExtendedBarrel.traitAdjectives.1>확장형</ExtendedBarrel.traitAdjectives.1>
   
   <!-- EN: extended magazine -->
   <ExtendedMagazine.label>확장 탄창</ExtendedMagazine.label>
   <!-- EN: This weapon fires 50% more shots in a single burst than normal. -->
-  <ExtendedMagazine.description>이 무기는 한 번에 50% 더 많은 탄환을 연사할 수 있습니다.</ExtendedMagazine.description>
+  <ExtendedMagazine.description>한 번에 50% 더 많은 탄환을 연사할 수 있습니다.</ExtendedMagazine.description>
+  <!-- EN: high-capacity -->
+  <ExtendedMagazine.traitAdjectives.0>고용량</ExtendedMagazine.traitAdjectives.0>
+  <!-- EN: extendo-clip -->
+  <ExtendedMagazine.traitAdjectives.1>확장 탄창</ExtendedMagazine.traitAdjectives.1>
   
   <!-- EN: frequency amplifier -->
-  <FrequencyAmplifier.label>주파수 증폭기</FrequencyAmplifier.label>
+  <FrequencyAmplifier.label>진동 증폭기</FrequencyAmplifier.label>
   <!-- EN: This weapon passes the beam through a crystal amplifier, dramatically increasing the weapon's damage and range. The weapon needs to cool down between uses. -->
-  <FrequencyAmplifier.description>이 무기는 크리스탈 증폭기를 통해 빔을 증폭시켜 피해량과 사거리를 대폭 증가시킵니다. 사용 후에는 냉각 시간이 필요합니다.</FrequencyAmplifier.description>
+  <FrequencyAmplifier.description>결정 증폭기가 광선의 피해량과 사거리를 크게 향상합니다. 발사 후 다시 사용하려면 냉각해야 합니다.</FrequencyAmplifier.description>
+  <!-- EN: amplified -->
+  <FrequencyAmplifier.traitAdjectives.0>증폭된</FrequencyAmplifier.traitAdjectives.0>
   
   <!-- EN: gold inlay -->
-  <GoldInlay.label>금 인레이</GoldInlay.label>
+  <GoldInlay.label>금 상감</GoldInlay.label>
   <!-- EN: This weapon is inlaid with gold. Traders will pay more for it. -->
-  <GoldInlay.description>이 무기에는 금으로 장식이 되어 있습니다. 상인들이 더 높은 값을 쳐줍니다.</GoldInlay.description>
+  <GoldInlay.description>금으로 장식돼있습니다. 상인들이 더 높은 값을 쳐줍니다.</GoldInlay.description>
+  <!-- EN: gold -->
+  <GoldInlay.traitAdjectives.0>황금</GoldInlay.traitAdjectives.0>
+  <!-- EN: golden -->
+  <GoldInlay.traitAdjectives.1>금빛</GoldInlay.traitAdjectives.1>
   
   <!-- EN: grenade launcher -->
-  <GrenadeLauncher.label>유탄 발사기</GrenadeLauncher.label>
+  <GrenadeLauncher.label>파편 유탄 발사기</GrenadeLauncher.label>
   <!-- EN: This weapon has an attached frag grenade launcher. Once fired, it must be reloaded using steel. -->
-  <GrenadeLauncher.description>이 무기에는 파편 유탄 발사기가 장착되어 있습니다. 발사 후에는 강철로 재장전해야 합니다.</GrenadeLauncher.description>
+  <GrenadeLauncher.description>파편 유탄 발사기가 장착돼있습니다. 발사 후 강철로 재장전해야 합니다.</GrenadeLauncher.description>
   <!-- EN: grenade -->
   <GrenadeLauncher.abilityProps.chargeNoun>유탄</GrenadeLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
   <GrenadeLauncher.abilityProps.cooldownGerund>재사용 대기 중</GrenadeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: explosive -->
+  <GrenadeLauncher.traitAdjectives.0>폭발성</GrenadeLauncher.traitAdjectives.0>
   
   <!-- EN: high-power rounds -->
   <HighPowerRounds.label>고위력 탄환</HighPowerRounds.label>
   <!-- EN: Special ammunition makes this weapon more powerful than normal. The heavy recoil makes it less accurate. -->
-  <HighPowerRounds.description>특수 탄약으로 이 무기는 일반보다 더 강력하지만, 강한 반동으로 명중률이 떨어집니다.</HighPowerRounds.description>
+  <HighPowerRounds.description>특수 탄약 덕분에 더 강력하지만, 강한 반동에 의해 명중률이 떨어집니다.</HighPowerRounds.description>
+  <!-- EN: atlas -->
+  <HighPowerRounds.traitAdjectives.0>강한</HighPowerRounds.traitAdjectives.0>
+  <!-- EN: hi-power -->
+  <HighPowerRounds.traitAdjectives.1>고위력</HighPowerRounds.traitAdjectives.1>
+  <!-- EN: heavy-shot -->
+  <HighPowerRounds.traitAdjectives.2>강력한</HighPowerRounds.traitAdjectives.2>
+  <!-- EN: hardpunch -->
+  <HighPowerRounds.traitAdjectives.3>강타하는</HighPowerRounds.traitAdjectives.3>
+  <!-- EN: heavy-hit -->
+  <HighPowerRounds.traitAdjectives.4>파괴적인</HighPowerRounds.traitAdjectives.4>
   
   <!-- EN: hollow-point rounds -->
-  <HollowPointRounds.label>할로포인트 탄환</HollowPointRounds.label>
+  <HollowPointRounds.label>할로 포인트 탄환</HollowPointRounds.label>
   <!-- EN: This weapon fires bullets that expand on impact, dealing more damage than normal. -->
-  <HollowPointRounds.description>이 무기는 충돌 시 팽창하는 총알을 발사하여 일반보다 더 큰 피해를 입힙니다.</HollowPointRounds.description>
+  <HollowPointRounds.description>충돌 시 팽창하는 총알을 발사하여 더 큰 피해를 입힙니다.</HollowPointRounds.description>
+  <!-- EN: shredding -->
+  <HollowPointRounds.traitAdjectives.0>분쇄하는</HollowPointRounds.traitAdjectives.0>
+  <!-- EN: hollowpoint -->
+  <HollowPointRounds.traitAdjectives.1>할로포인트</HollowPointRounds.traitAdjectives.1>
+  <!-- EN: hardpunch -->
+  <HollowPointRounds.traitAdjectives.2>강타하는</HollowPointRounds.traitAdjectives.2>
+  <!-- EN: meatrip -->
+  <HollowPointRounds.traitAdjectives.3>파쇄하는</HollowPointRounds.traitAdjectives.3>
+  <!-- EN: grinder -->
+  <HollowPointRounds.traitAdjectives.4>분쇄하는</HollowPointRounds.traitAdjectives.4>
   
   <!-- EN: tactical sight -->
   <ImprovedSights.label>전술 조준경</ImprovedSights.label>
   <!-- EN: This weapon has a custom sight, increasing its accuracy at long range. -->
-  <ImprovedSights.description>이 무기는 맞춤형 조준경이 장착되어 장거리 명중률이 상승합니다.</ImprovedSights.description>
+  <ImprovedSights.description>맞춤형 조준경이 장착돼 장거리 명중률이 개선됩니다.</ImprovedSights.description>
+  <!-- EN: accurate -->
+  <ImprovedSights.traitAdjectives.0>정확한</ImprovedSights.traitAdjectives.0>
+  <!-- EN: precise -->
+  <ImprovedSights.traitAdjectives.1>정밀한</ImprovedSights.traitAdjectives.1>
+  <!-- EN: sniper -->
+  <ImprovedSights.traitAdjectives.2>저격</ImprovedSights.traitAdjectives.2>
   
   <!-- EN: incendiary launcher -->
   <IncendiaryLauncher.label>화염 유탄 발사기</IncendiaryLauncher.label>
   <!-- EN: This weapon has an attached incendiary shell launcher. The shell creates a small flame explosion that ignites everything nearby. Once fired, it must be reloaded using chemfuel. -->
-  <IncendiaryLauncher.description>이 무기에는 소이탄 발사기가 달려 있습니다. 포탄이 터지면 주변을 작게 폭발시키며 모두 불태웁니다. 발사 후에는 케미연료로 재장전해야 합니다.</IncendiaryLauncher.description>
+  <IncendiaryLauncher.description>소이탄 발사기가 장착돼있습니다. 착탄 시 작은 폭발을 일으켜 주위를 불태웁니다. 발사 후 화학연료로 재장전해야 합니다.</IncendiaryLauncher.description>
   <!-- EN: shell -->
   <IncendiaryLauncher.abilityProps.chargeNoun>포탄</IncendiaryLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
   <IncendiaryLauncher.abilityProps.cooldownGerund>재사용 대기 중</IncendiaryLauncher.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <IncendiaryLauncher.traitAdjectives.0>불타는</IncendiaryLauncher.traitAdjectives.0>
+  <!-- EN: flame -->
+  <IncendiaryLauncher.traitAdjectives.1>화염</IncendiaryLauncher.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryLauncher.traitAdjectives.2>화염의</IncendiaryLauncher.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryLauncher.traitAdjectives.3>태우는</IncendiaryLauncher.traitAdjectives.3>
   
   <!-- EN: incendiary pellets -->
   <IncendiaryPellets.label>소이 펠릿</IncendiaryPellets.label>
   <!-- EN: This weapon fires phosphorus pellets that have a chance to ignite targets. -->
-  <IncendiaryPellets.description>이 무기는 목표물을 점화시킬 수 있는 인 펠릿을 발사합니다.</IncendiaryPellets.description>
+  <IncendiaryPellets.description>목표물에 불을 붙일 가능성이 있는 인화성 펠릿을 발사합니다.</IncendiaryPellets.description>
+  <!-- EN: red -->
+  <IncendiaryPellets.traitAdjectives.0>붉은</IncendiaryPellets.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryPellets.traitAdjectives.1>불타는</IncendiaryPellets.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryPellets.traitAdjectives.2>화염의</IncendiaryPellets.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryPellets.traitAdjectives.3>태우는</IncendiaryPellets.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryPellets.traitAdjectives.4>뜨거운</IncendiaryPellets.traitAdjectives.4>
+  <!-- EN: volcanic -->
+  <IncendiaryPellets.traitAdjectives.5>화산</IncendiaryPellets.traitAdjectives.5>
+  <!-- EN: promethean -->
+  <IncendiaryPellets.traitAdjectives.6>점화</IncendiaryPellets.traitAdjectives.6>
   
   <!-- EN: incendiary rounds -->
   <IncendiaryRounds.label>소이탄</IncendiaryRounds.label>
   <!-- EN: This weapon fires ammunition that contains a flammable chemical. It has a chance to ignite targets. -->
-  <IncendiaryRounds.description>이 무기는 인화성 화학약품이 들어간 탄환을 발사하며, 목표물을 점화시킬 확률이 있습니다.</IncendiaryRounds.description>
+  <IncendiaryRounds.description>목표물에 불을 붙일 가능성이 있는 인화성 탄환을 발사합니다.</IncendiaryRounds.description>
+  <!-- EN: red -->
+  <IncendiaryRounds.traitAdjectives.0>붉은</IncendiaryRounds.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryRounds.traitAdjectives.1>불타는</IncendiaryRounds.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryRounds.traitAdjectives.2>화염</IncendiaryRounds.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryRounds.traitAdjectives.3>태우는</IncendiaryRounds.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryRounds.traitAdjectives.4>뜨거운</IncendiaryRounds.traitAdjectives.4>
+  <!-- EN: igniting -->
+  <IncendiaryRounds.traitAdjectives.5>점화하는</IncendiaryRounds.traitAdjectives.5>
+  <!-- EN: napalm -->
+  <IncendiaryRounds.traitAdjectives.6>네이팜</IncendiaryRounds.traitAdjectives.6>
   
   <!-- EN: jade inlay -->
-  <JadeInlay.label>옥 인레이</JadeInlay.label>
+  <JadeInlay.label>옥 상감</JadeInlay.label>
   <!-- EN: This weapon is adorned with jade. Traders will pay more for it. -->
-  <JadeInlay.description>이 무기는 옥으로 장식되어 있습니다. 상인들이 더 높은 가격을 쳐줍니다.</JadeInlay.description>
+  <JadeInlay.description>옥으로 장식돼있습니다. 상인들이 더 높은 가격을 쳐줍니다.</JadeInlay.description>
+  <!-- EN: jade -->
+  <JadeInlay.traitAdjectives.0>옥빛</JadeInlay.traitAdjectives.0>
   
   <!-- EN: lightweight -->
-  <Lightweight.label>경량화</Lightweight.label>
+  <Lightweight.label>경량</Lightweight.label>
   <!-- EN: This weapon is much lighter than normal, lowering its aiming time. -->
-  <Lightweight.description>이 무기는 일반보다 훨씬 가벼워서 조준 시간이 짧아집니다.</Lightweight.description>
+  <Lightweight.description>일반적인 무기보다 훨씬 가벼워 조준 시간이 짧습니다.</Lightweight.description>
+  <!-- EN: light -->
+  <Lightweight.traitAdjectives.0>가벼운</Lightweight.traitAdjectives.0>
+  <!-- EN: quickdraw -->
+  <Lightweight.traitAdjectives.1>신속</Lightweight.traitAdjectives.1>
   
   <!-- EN: lightweight arrows -->
   <LightweightArrows.label>경량 화살</LightweightArrows.label>
   <!-- EN: This bow is adept at firing lightweight arrows. They fly farther but deal less damage. -->
-  <LightweightArrows.description>이 활은 경량 화살을 멀리 쏠 수 있지만, 피해는 적습니다.</LightweightArrows.description>
+  <LightweightArrows.description>가벼운 화살을 멀리 쏠 수 있지만, 피해량은 적습니다.</LightweightArrows.description>
+  <!-- EN: light -->
+  <LightweightArrows.traitAdjectives.0>가벼운</LightweightArrows.traitAdjectives.0>
+  <!-- EN: longreach -->
+  <LightweightArrows.traitAdjectives.1>장거리</LightweightArrows.traitAdjectives.1>
   
   <!-- EN: ornamental -->
   <Ornamental.label>장식용</Ornamental.label>
   <!-- EN: This weapon was crafted for aesthetics over functionality. It deals less damage but looks great. -->
-  <Ornamental.description>이 무기는 실용성보다 외관을 중시해 제작되었습니다. 피해는 적지만 멋있게 보입니다.</Ornamental.description>
+  <Ornamental.description>실용성보다 심미성을 중시해 제작됐습니다. 피해량은 적지만 멋있게 보입니다.</Ornamental.description>
+  <!-- EN: beautiful -->
+  <Ornamental.traitAdjectives.0>아름다운</Ornamental.traitAdjectives.0>
+  <!-- EN: elegant -->
+  <Ornamental.traitAdjectives.1>우아한</Ornamental.traitAdjectives.1>
+  <!-- EN: ornamental -->
+  <Ornamental.traitAdjectives.2>화려한</Ornamental.traitAdjectives.2>
   
   <!-- EN: heavy rounds -->
   <OversizedRounds.label>중형 탄환</OversizedRounds.label>
   <!-- EN: This weapon deals more damage and has a much higher stopping power than normal. -->
-  <OversizedRounds.description>이 무기는 일반보다 더 큰 피해와 높은 정지력을 가집니다.</OversizedRounds.description>
+  <OversizedRounds.description>더 큰 피해량과 높은 저지력을 가집니다.</OversizedRounds.description>
+  <!-- EN: hammering -->
+  <OversizedRounds.traitAdjectives.0>타격하는</OversizedRounds.traitAdjectives.0>
+  <!-- EN: forceful -->
+  <OversizedRounds.traitAdjectives.1>강력한</OversizedRounds.traitAdjectives.1>
+  <!-- EN: oversized -->
+  <OversizedRounds.traitAdjectives.2>대형</OversizedRounds.traitAdjectives.2>
+  <!-- EN: knockout -->
+  <OversizedRounds.traitAdjectives.3>일격의</OversizedRounds.traitAdjectives.3>
   
   <!-- EN: paralytic arrows -->
   <ParalyticArrows.label>마비 화살</ParalyticArrows.label>
   <!-- EN: This bow shoots arrows embedded with a paralytic biotoxin, which briefly stuns targets. -->
-  <ParalyticArrows.description>이 활은 마비성 생물 독소가 들어간 화살을 쏘아 목표를 일시적으로 기절시킵니다.</ParalyticArrows.description>
+  <ParalyticArrows.description>마비성 생물 독소가 들어간 화살을 쏘아 목표를 일시적으로 기절시킵니다.</ParalyticArrows.description>
+  <!-- EN: paralyzing -->
+  <ParalyticArrows.traitAdjectives.0>마비성</ParalyticArrows.traitAdjectives.0>
+  <!-- EN: paralytic -->
+  <ParalyticArrows.traitAdjectives.1>마비</ParalyticArrows.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <ParalyticArrows.traitAdjectives.2>기절</ParalyticArrows.traitAdjectives.2>
   
   <!-- EN: piercing arrows -->
   <PiercingArrows.label>관통 화살</PiercingArrows.label>
   <!-- EN: This bow shoots bodkin-tipped arrows, making it more effective against armored targets. -->
-  <PiercingArrows.description>이 활은 보드킨 팁이 달린 화살을 쏘아, 방어구가 있는 대상에게 더 효과적입니다.</PiercingArrows.description>
+  <PiercingArrows.description>보드킨촉이 달린 화살을 쏘아, 방어구를 갖춘 대상에게도 효과적으로 피해를 입힙니다.</PiercingArrows.description>
+  <!-- EN: piercing -->
+  <PiercingArrows.traitAdjectives.0>관통</PiercingArrows.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingArrows.traitAdjectives.1>날카로운</PiercingArrows.traitAdjectives.1>
+  <!-- EN: penetrating -->
+  <PiercingArrows.traitAdjectives.2>관통하는</PiercingArrows.traitAdjectives.2>
+  <!-- EN: bodkin -->
+  <PiercingArrows.traitAdjectives.3>보드킨</PiercingArrows.traitAdjectives.3>
+  <!-- EN: anti-armor -->
+  <PiercingArrows.traitAdjectives.4>철갑</PiercingArrows.traitAdjectives.4>
   
   <!-- EN: piercing rounds -->
   <PiercingRounds.label>관통탄</PiercingRounds.label>
   <!-- EN: This weapon fires rounds designed to penetrate thick armor. -->
-  <PiercingRounds.description>이 무기는 두꺼운 갑옷을 관통하도록 설계된 탄환을 발사합니다.</PiercingRounds.description>
+  <PiercingRounds.description>두꺼운 장갑도 관통하도록 설계된 탄환을 발사합니다.</PiercingRounds.description>
+  <!-- EN: piercing -->
+  <PiercingRounds.traitAdjectives.0>뚫는</PiercingRounds.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingRounds.traitAdjectives.1>예리한</PiercingRounds.traitAdjectives.1>
+  <!-- EN: sabot -->
+  <PiercingRounds.traitAdjectives.2>철갑</PiercingRounds.traitAdjectives.2>
+  <!-- EN: penetrating -->
+  <PiercingRounds.traitAdjectives.3>관통하는</PiercingRounds.traitAdjectives.3>
   
   <!-- EN: tracking scope -->
-  <PrecisionScope.label>추적 스코프</PrecisionScope.label>
+  <PrecisionScope.label>추적 조준경</PrecisionScope.label>
   <!-- EN: This weapon's scope uses target recognition software to automate target tracking, making it faster to fire. -->
-  <PrecisionScope.description>이 무기의 스코프는 타겟 인식 소프트웨어를 이용해 자동으로 추적하여 발사 속도를 높입니다.</PrecisionScope.description>
+  <PrecisionScope.description>조준경의 인식 소프트웨어가 목표를 자동으로 추적하여 발사 속도를 높입니다.</PrecisionScope.description>
+  <!-- EN: trackscope -->
+  <PrecisionScope.traitAdjectives.0>추적</PrecisionScope.traitAdjectives.0>
+  <!-- EN: fastfire -->
+  <PrecisionScope.traitAdjectives.1>고속</PrecisionScope.traitAdjectives.1>
   
   <!-- EN: pulse charger -->
-  <PulseCharger.label>펄스 차저</PulseCharger.label>
+  <PulseCharger.label>펄스 충전기</PulseCharger.label>
   <!-- EN: This weapon is retrofitted with pulse-charge technology, imbuing bullets with unstable energy. The weapon was clearly not designed for this, dramatically lowering its accuracy. -->
-  <PulseCharger.description>이 무기는 원래 설계에 없던 펄스 차지 기술이 적용되어, 불안정한 에너지가 탄환에 주입됩니다. 결과적으로 명중률이 크게 떨어집니다.</PulseCharger.description>
+  <PulseCharger.description>펄스 충전 기술로 개조됐습니다. 탄환에 불안정한 에너지가 주입됩니다. 원래 설계에서 너무 달라져서 명중률이 크게 떨어집니다.</PulseCharger.description>
+  <!-- EN: charged-shot -->
+  <PulseCharger.traitAdjectives.0>충전탄</PulseCharger.traitAdjectives.0>
+  <!-- EN: charged -->
+  <PulseCharger.traitAdjectives.1>충전된</PulseCharger.traitAdjectives.1>
+  <!-- EN: pulse-charged -->
+  <PulseCharger.traitAdjectives.2>펄스</PulseCharger.traitAdjectives.2>
   
   <!-- EN: quick reload -->
   <QuickReload.label>신속 재장전</QuickReload.label>
   <!-- EN: This weapon has a quick release-and-replace mechanism that makes it faster to reload. -->
-  <QuickReload.description>이 무기는 빠른 교체 메커니즘이 적용되어 재장전 속도가 빨라집니다.</QuickReload.description>
+  <QuickReload.description>빠른 탄창 교체 기능이 적용되어 재장전 속도가 빠릅니다.</QuickReload.description>
+  <!-- EN: quick -->
+  <QuickReload.traitAdjectives.0>빠른</QuickReload.traitAdjectives.0>
+  <!-- EN: nimble -->
+  <QuickReload.traitAdjectives.1>민첩한</QuickReload.traitAdjectives.1>
+  <!-- EN: quickload -->
+  <QuickReload.traitAdjectives.2>신속</QuickReload.traitAdjectives.2>
+  <!-- EN: quickshot -->
+  <QuickReload.traitAdjectives.3>속사</QuickReload.traitAdjectives.3>
+  <!-- EN: fastload -->
+  <QuickReload.traitAdjectives.4>편리한</QuickReload.traitAdjectives.4>
   
   <!-- EN: rangefinder -->
-  <RangefinderScope.label>거리 측정 조준경</RangefinderScope.label>
+  <RangefinderScope.label>거리측정기</RangefinderScope.label>
   <!-- EN: This weapon's scope contains an advanced rangefinder, allowing it to fire further. -->
-  <RangefinderScope.description>이 무기의 조준경에는 첨단 거리 측정기가 내장되어 있어 더 멀리 사격할 수 있습니다.</RangefinderScope.description>
+  <RangefinderScope.description>조준경에 첨단 거리측정기가 내장돼 더 멀리 사격할 수 있습니다.</RangefinderScope.description>
+  <!-- EN: eagle -->
+  <RangefinderScope.traitAdjectives.0>망원</RangefinderScope.traitAdjectives.0>
+  <!-- EN: farsight -->
+  <RangefinderScope.traitAdjectives.1>천리안</RangefinderScope.traitAdjectives.1>
   
   <!-- EN: rapid fire -->
   <RapidFire.label>연사</RapidFire.label>
   <!-- EN: This weapon contains an improved self-loading mechanism. When firing bursts of multiple rounds, the time between each round is dramatically reduced. -->
-  <RapidFire.description>이 무기에는 향상된 자동장전 메커니즘이 내장되어 있어, 연사시 각 탄환 사이의 시간이 크게 단축됩니다.</RapidFire.description>
+  <RapidFire.description>향상된 급탄 방식을 적용하여 연사 속도가 크게 증가합니다.</RapidFire.description>
+  <!-- EN: rapid -->
+  <RapidFire.traitAdjectives.0>신속한</RapidFire.traitAdjectives.0>
+  <!-- EN: burst -->
+  <RapidFire.traitAdjectives.1>연발</RapidFire.traitAdjectives.1>
+  <!-- EN: rapid-fire -->
+  <RapidFire.traitAdjectives.2>연사</RapidFire.traitAdjectives.2>
   
   <!-- EN: reinforced bow limbs -->
-  <ReinforcedLimbs.label>강화된 활팔다리</ReinforcedLimbs.label>
+  <ReinforcedLimbs.label>강화된 활대</ReinforcedLimbs.label>
   <!-- EN: The limbs of this bow have been strengthened, allowing it to shoot further. -->
-  <ReinforcedLimbs.description>이 활의 팔다리가 강화되어 더 멀리 쏠 수 있습니다.</ReinforcedLimbs.description>
+  <ReinforcedLimbs.description>강화 활대 덕분에 더 멀리 쏠 수 있습니다.</ReinforcedLimbs.description>
+  <!-- EN: reinforced -->
+  <ReinforcedLimbs.traitAdjectives.0>강화된</ReinforcedLimbs.traitAdjectives.0>
   
   <!-- EN: shoddy sights -->
-  <ShoddySights.label>조악한 조준경</ShoddySights.label>
+  <ShoddySights.label>조악한 조준기</ShoddySights.label>
   <!-- EN: Defects in this weapon's sights decrease its accuracy at long ranges. -->
-  <ShoddySights.description>이 무기의 조준경 결함으로 장거리에서 명중률이 떨어집니다.</ShoddySights.description>
+  <ShoddySights.description>조준기에 결함이 있어 장거리 명중률이 떨어집니다.</ShoddySights.description>
+  <!-- EN: inaccurate -->
+  <ShoddySights.traitAdjectives.0>빗나가는</ShoddySights.traitAdjectives.0>
+  <!-- EN: imprecise -->
+  <ShoddySights.traitAdjectives.1>부정확한</ShoddySights.traitAdjectives.1>
   
   <!-- EN: shortened barrel -->
   <ShortenedBarrel.label>단축 총열</ShortenedBarrel.label>
   <!-- EN: This weapon's barrel has been sawn off, reducing its range but making it quicker to aim and fire. -->
-  <ShortenedBarrel.description>이 무기는 총열이 잘려 사거리가 짧아졌지만 조준 및 발사 속도가 빨라집니다.</ShortenedBarrel.description>
+  <ShortenedBarrel.description>총열을 잘라내 사거리가 짧아졌지만 조준 및 발사 속도가 빨라집니다.</ShortenedBarrel.description>
+  <!-- EN: shortened -->
+  <ShortenedBarrel.traitAdjectives.0>짧은</ShortenedBarrel.traitAdjectives.0>
+  <!-- EN: sawn-off -->
+  <ShortenedBarrel.traitAdjectives.1>단축된</ShortenedBarrel.traitAdjectives.1>
   
   <!-- EN: smoke launcher -->
   <SmokeLauncher.label>연막 발사기</SmokeLauncher.label>
   <!-- EN: This weapon has an attached smoke shell launcher. The shell releases smoke that obscures incoming shots and prevents turrets from locking on. Once fired, it must be reloaded using steel. -->
-  <SmokeLauncher.description>이 무기에는 연막 포탄 발사기가 장착되어 있습니다. 포탄은 연기를 방출해 들어오는 사격을 방해하고 터릿이 잠금하지 못하게 합니다. 발사 후에는 강철로 재장전해야 합니다.</SmokeLauncher.description>
+  <SmokeLauncher.description>연막탄 발사기가 장착돼있습니다. 착탄 시 연막 구름을 생성하여 포탑의 조준을 방해하고 발사체의 정확도를 떨어뜨립니다. 발사 후 강철로 재장전해야 합니다.</SmokeLauncher.description>
   <!-- EN: shell -->
   <SmokeLauncher.abilityProps.chargeNoun>포탄</SmokeLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
   <SmokeLauncher.abilityProps.cooldownGerund>재사용 대기 중</SmokeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: smoke -->
+  <SmokeLauncher.traitAdjectives.0>연막</SmokeLauncher.traitAdjectives.0>
+  <!-- EN: concealing -->
+  <SmokeLauncher.traitAdjectives.1>숨기는</SmokeLauncher.traitAdjectives.1>
+  <!-- EN: clouding -->
+  <SmokeLauncher.traitAdjectives.2>가리는</SmokeLauncher.traitAdjectives.2>
   
   <!-- EN: pistol brace -->
   <StabilizerBrace.label>권총 브레이스</StabilizerBrace.label>
   <!-- EN: This weapon has a stabilizing brace that connects to the user's arm, increasing its accuracy. -->
-  <StabilizerBrace.description>이 무기에는 착용자의 팔과 연결되는 안정화 브레이스가 달려 있어 명중률이 증가합니다.</StabilizerBrace.description>
+  <StabilizerBrace.description>사용자의 팔에 끼우는 안정 브레이스가 달려 있어 명중률이 증가합니다.</StabilizerBrace.description>
+  <!-- EN: stable -->
+  <StabilizerBrace.traitAdjectives.0>안정적인</StabilizerBrace.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <StabilizerBrace.traitAdjectives.1>정확한</StabilizerBrace.traitAdjectives.1>
+  <!-- EN: precise -->
+  <StabilizerBrace.traitAdjectives.2>정밀한</StabilizerBrace.traitAdjectives.2>
+  <!-- EN: braced -->
+  <StabilizerBrace.traitAdjectives.3>지지된</StabilizerBrace.traitAdjectives.3>
   
   <!-- EN: toxic pellets -->
   <ToxPellets.label>독성 펠릿</ToxPellets.label>
   <!-- EN: This weapon fires chemical pellets which cause toxic buildup. -->
-  <ToxPellets.description>이 무기는 독성 축적을 유발하는 화학 펠릿을 발사합니다.</ToxPellets.description>
+  <ToxPellets.description>대상을 중독시키는 화학 펠릿을 발사합니다.</ToxPellets.description>
+  <!-- EN: green -->
+  <ToxPellets.traitAdjectives.0>녹빛</ToxPellets.traitAdjectives.0>
+  <!-- EN: toxic -->
+  <ToxPellets.traitAdjectives.1>독성</ToxPellets.traitAdjectives.1>
+  <!-- EN: poisonous -->
+  <ToxPellets.traitAdjectives.2>맹독</ToxPellets.traitAdjectives.2>
+  <!-- EN: poison -->
+  <ToxPellets.traitAdjectives.3>맹독성</ToxPellets.traitAdjectives.3>
   
   <!-- EN: tox rounds -->
   <ToxRounds.label>독성 탄환</ToxRounds.label>
   <!-- EN: This weapon fires rounds coated with toxic chemicals, which sicken wounded targets. -->
-  <ToxRounds.description>이 무기는 독성 화학물질로 코팅된 탄환을 발사해, 부상당한 대상이 중독되게 만듭니다.</ToxRounds.description>
+  <ToxRounds.description>대상을 중독시키는 화학 펠릿을 발사합니다.</ToxRounds.description>
+  <!-- EN: green -->
+  <ToxRounds.traitAdjectives.0>녹빛</ToxRounds.traitAdjectives.0>
+  <!-- EN: poison -->
+  <ToxRounds.traitAdjectives.1>독성</ToxRounds.traitAdjectives.1>
+  <!-- EN: venom -->
+  <ToxRounds.traitAdjectives.2>맹독</ToxRounds.traitAdjectives.2>
+  <!-- EN: venomous -->
+  <ToxRounds.traitAdjectives.3>맹독성</ToxRounds.traitAdjectives.3>
+  <!-- EN: snakebite -->
+  <ToxRounds.traitAdjectives.4>독니</ToxRounds.traitAdjectives.4>
   
   <!-- EN: ugly -->
   <Ugly.label>추한 외관</Ugly.label>
   <!-- EN: This weapon was crafted with no respect for aesthetics. It looks like junk but gets the job done. Traders will pay less for it. -->
-  <Ugly.description>이 무기는 외관을 전혀 고려하지 않고 제작되었습니다. 쓰레기처럼 보이지만 제 역할은 합니다. 상인들은 더 적은 돈을 쳐줍니다.</Ugly.description>
+  <Ugly.description>외관을 전혀 고려하지 않고 제작된 무기입니다. 쓰레기처럼 보이지만 제 역할은 합니다. 상인들은 더 적은 돈을 쳐줍니다.</Ugly.description>
+  <!-- EN: monstrous -->
+  <Ugly.traitAdjectives.0>끔찍한</Ugly.traitAdjectives.0>
+  <!-- EN: crude -->
+  <Ugly.traitAdjectives.1>조잡한</Ugly.traitAdjectives.1>
+  <!-- EN: ugly -->
+  <Ugly.traitAdjectives.2>추한</Ugly.traitAdjectives.2>
   
 </LanguageData>

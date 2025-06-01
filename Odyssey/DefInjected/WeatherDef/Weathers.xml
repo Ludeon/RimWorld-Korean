@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: blind fog -->
-  <BlindFog.label>맹안개</BlindFog.label>
+  <BlindFog.label>짙은 안개</BlindFog.label>
   <!-- EN: A heavy fog that reduces the accuracy of ranged weapons, as well as their maximum range. -->
-  <BlindFog.description>짙은 안개로 인해 원거리 무기의 정확도와 최대 사거리가 감소합니다.</BlindFog.description>
+  <BlindFog.description>짙은 안개로 인해 원거리 무기의 명중률과 최대 사거리가 감소합니다.</BlindFog.description>
   <!-- EN: Blind fog -->
-  <BlindFog.letterLabel>맹안개</BlindFog.letterLabel>
+  <BlindFog.letterLabel>짙은 안개</BlindFog.letterLabel>
   <!-- EN: A thick fog is setting in, dramatically reducing vision. Ranged weapons will be less accurate and their maximum range will be reduced. -->
-  <BlindFog.letterText>짙은 안개가 끼기 시작하여 시야가 크게 감소합니다. 원거리 무기 사용 시 정확도가 떨어지고 최대 사거리도 줄어듭니다.</BlindFog.letterText>
+  <BlindFog.letterText>짙은 안개가 끼기 시작하여 가시거리가 크게 감소합니다. 원거리 무기의 명중률이 떨어지고 최대 사거리가 줄어듭니다.</BlindFog.letterText>
   
   <!-- EN: blizzard -->
   <Blizzard.label>눈보라</Blizzard.label>
   <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <Blizzard.description>눈이 내리면 원거리 무기의 정확도가 낮아지고, 불이 꺼지며, 사람의 이동이 느려집니다.</Blizzard.description>
+  <Blizzard.description>눈에 의해 이동 속도와 원거리 무기의 명중률이 감소하고 불이 진압됩니다.</Blizzard.description>
   
   <!-- EN: orbit -->
   <Orbit.label>궤도</Orbit.label>
   <!-- EN: There is no weather in orbit. -->
-  <Orbit.description>궤도에는 날씨가 존재하지 않습니다.</Orbit.description>
+  <Orbit.description>궤도에는 날씨가 없습니다.</Orbit.description>
   
   <!-- EN: overcast -->
   <Overcast.label>흐림</Overcast.label>
@@ -28,29 +28,29 @@
   <!-- EN: sandstorm -->
   <Sandstorm.label>모래폭풍</Sandstorm.label>
   <!-- EN: Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere. -->
-  <Sandstorm.description>모래폭풍은 원거리 무기의 정확도를 낮추고, 이동 속도를 느리게 하며, 먼지가 곳곳에 쌓입니다.</Sandstorm.description>
+  <Sandstorm.description>모래폭풍으로 인해 이동 속도와 원거리 무기의 명중률이 감소하고, 먼지가 곳곳에 쌓입니다.</Sandstorm.description>
   
   <!-- EN: torrential rain -->
   <TorrentialRain.label>폭우</TorrentialRain.label>
   <!-- EN: Torrential rain causes flooding. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <TorrentialRain.description>폭우로 인해 홍수가 발생할 수 있으며, 원거리 무기의 정확도를 낮추고, 불을 끄고, 이동 속도가 느려집니다.</TorrentialRain.description>
+  <TorrentialRain.description>홍수를 일으키는 폭우입니다. 이동 속도와 원거리 무기의 명중률이 감소하고, 불이 진압됩니다.</TorrentialRain.description>
   <!-- EN: Torrential rain -->
   <TorrentialRain.letterLabel>폭우</TorrentialRain.letterLabel>
   <!-- EN: Heavy rain is beginning to pour from the sky. It will cause temporary flooding around bodies of water. Build barriers to prevent floodwater from spreading. -->
-  <TorrentialRain.letterText>하늘에서 굵은 비가 쏟아지기 시작했습니다. 물 근처 지역에는 일시적으로 홍수가 발생할 수 있습니다. 범람을 막으려면 장벽을 설치하세요.</TorrentialRain.letterText>
+  <TorrentialRain.letterText>하늘에서 굵은 비가 쏟아지기 시작했습니다. 물 근처에 일시적으로 홍수가 발생할 수 있습니다. 범람을 막으려면 장벽을 설치하세요.</TorrentialRain.letterText>
   
   <!-- EN: tox rain -->
   <ToxRain.label>독성비</ToxRain.label>
   <!-- EN: Tox rain makes creatures sick with toxic buildup. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <ToxRain.description>독성비는 생물에게 독성 축적을 일으키며, 원거리 무기의 정확도를 낮추고, 불을 끄고, 이동 속도를 느리게 합니다.</ToxRain.description>
+  <ToxRain.description>비에 닿는 생명체를 중독시키는 비입니다. 이동 속도와 원거리 무기의 명중률이 감소하고, 불이 진압됩니다.</ToxRain.description>
   <!-- EN: Tox rain -->
   <ToxRain.letterLabel>독성비</ToxRain.letterLabel>
   <!-- EN: Toxic rain has begun to fall from the sky. It will slowly sicken anyone it touches. Keep your colonists under a roof. -->
-  <ToxRain.letterText>하늘에서 독성비가 내리기 시작했습니다. 이 비에 닿은 모든 생명체는 점차 병들게 됩니다. 식민지 주민들을 실내에 대피시키세요.</ToxRain.letterText>
+  <ToxRain.letterText>하늘에서 독성비가 내리기 시작했습니다. 비에 닿는 모든 생명체는 점차 병이 듭니다. 정착민들을 지붕 아래로 대피시키세요.</ToxRain.letterText>
   
   <!-- EN: windy -->
-  <Windy.label>바람</Windy.label>
+  <Windy.label>강풍</Windy.label>
   <!-- EN: Strong winds reduce movement speed. -->
-  <Windy.description>강한 바람이 이동 속도를 감소시킵니다.</Windy.description>
+  <Windy.description>강한 바람에 의해 이동 속도가 감소합니다.</Windy.description>
   
 </LanguageData>

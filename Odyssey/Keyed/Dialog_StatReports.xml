@@ -3,17 +3,17 @@
 
   <!-- Gravship -->
   <!-- EN: Gravship range offset -->
-  <StatsReport_GravshipRangeOffset>그래브쉽 사정거리 보정치</StatsReport_GravshipRangeOffset>
+  <StatsReport_GravshipRangeOffset>중력부양선 이동거리 보정치</StatsReport_GravshipRangeOffset>
   <!-- EN: How much further this building lets a gravship travel on the world map. -->
-  <StatsReport_GravshipRangeOffset_Desc>이 건물이 그래브쉽이 월드 맵에서 이동할 수 있는 거리를 얼마나 더 늘려주는지 나타냅니다.</StatsReport_GravshipRangeOffset_Desc>
+  <StatsReport_GravshipRangeOffset_Desc>이 건물이 중력부양선의 이동 거리를 얼마나 더 늘려주는지 나타냅니다.</StatsReport_GravshipRangeOffset_Desc>
   <!-- EN: Fuel savings -->
   <StatsReport_GravshipFuelSavings>연료 절감</StatsReport_GravshipFuelSavings>
   <!-- EN: How much this building reduces fuel needed for gravship travel. -->
-  <StatsReport_GravshipFuelSavings_Desc>이 건물이 그래브쉽 이동 시 필요한 연료를 얼마나 절감해주는지를 나타냅니다.</StatsReport_GravshipFuelSavings_Desc>
+  <StatsReport_GravshipFuelSavings_Desc>이 건물이 중력부양선의 이동 시 필요한 연료를 얼마나 절감해주는지 나타냅니다.</StatsReport_GravshipFuelSavings_Desc>
   <!-- EN: Fuel consumption -->
   <StatsReport_GravEngineFuelConsumption>연료 소모량</StatsReport_GravEngineFuelConsumption>
-  <!-- EN: A multiplier on much fuel is needed during gravship travel. -->
-  <StatsReport_GravEngineFuelConsumption_Desc>그래브쉽 이동 중 필요 연료량에 적용되는 배율입니다.</StatsReport_GravEngineFuelConsumption_Desc>
+  <!-- EN: A multiplier on how much fuel is needed during gravship travel. -->
+  <StatsReport_GravEngineFuelConsumption_Desc>중력부양선 이동 중 필요 연료량에 적용되는 배율입니다.</StatsReport_GravEngineFuelConsumption_Desc>
 
   <!-- EN: Traits -->
   <Stat_ThingUniqueWeaponTrait_Label>무기 특성</Stat_ThingUniqueWeaponTrait_Label>
@@ -23,21 +23,21 @@
   <!-- EN: Weapon traits -->
   <StatsReport_WeaponTraits>무기 특성</StatsReport_WeaponTraits>
   <!-- EN: Burst shot count multiplier -->
-  <StatsReport_BurstShotCountMultiplier>연발 사격수 배율</StatsReport_BurstShotCountMultiplier>
-  <!-- EN: Burst shot speed multiplier -->
-  <StatsReport_BurstShotSpeedMultiplier>연발 사격 속도 배율</StatsReport_BurstShotSpeedMultiplier>
-  <!-- EN: Additional stopping power -->
+  <StatsReport_BurstShotCountMultiplier>연발 사격 배율</StatsReport_BurstShotCountMultiplier>
+  <!-- EN: Fire rate multiplier -->
+  <StatsReport_BurstShotSpeedMultiplier>사격 속도 배율</StatsReport_BurstShotSpeedMultiplier>
+  <!-- EN: Stopping power offset -->
   <StatsReport_AdditionalStoppingPower>추가 제압력</StatsReport_AdditionalStoppingPower>
 
   <!-- EN: Airtight -->
   <Stat_Airtight>밀폐</Stat_Airtight>
   <!-- EN: Airtight walls prevent a room from depressurizing in the vacuum of space. -->
-  <Stat_Airtight_Desc>밀폐된 벽은 우주의 진공 상태에서 방이 감압되는 것을 방지합니다.</Stat_Airtight_Desc>
+  <Stat_Airtight_Desc>밀폐된 벽은 우주의 진공 상태에서 방의 감압을 방지합니다.</Stat_Airtight_Desc>
 
   <!-- EN: Contained apparel beauty -->
   <ContainedApparelBeauty>보관 중인 의복의 아름다움</ContainedApparelBeauty>
 
   <!-- EN: Sentience catalyst installed. -->
-  <StatsReport_SentienceCatalystInstalled>지성 촉매 장착됨</StatsReport_SentienceCatalystInstalled>
+  <StatsReport_SentienceCatalystInstalled>지능 강화제 적용됨.</StatsReport_SentienceCatalystInstalled>
 
 </LanguageData>
