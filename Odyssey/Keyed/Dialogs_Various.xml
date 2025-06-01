@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
+  <ConfirmGravEngineLaunch>정말로 발사하시겠습니까?\n\n현재 지도와 그래브쉽 하부 구조에 있지 않은 모든 것은 영구적으로 사라집니다. 발사 과정은 파괴적이어서, 다시 돌아올 수 없습니다.</ConfirmGravEngineLaunch>
+  <!-- EN: Warning -->
+  <GravEngineWarning>경고</GravEngineWarning>
+  <!-- EN: The following people will be left behind -->
+  <PeopleWillBeLeftBehind>다음 인원들은 남겨집니다</PeopleWillBeLeftBehind>
+  <!-- EN: The following animals will be left behind -->
+  <AnimalsWillBeLeftBehind>다음 동물들은 남겨집니다</AnimalsWillBeLeftBehind>
+  <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
+  <PawnsKidnappedOnGravship>다음 다른 세력의 인원 및 동물들이 함께 이동합니다. 그들의 세력이 격분하여 적대적으로 변할 수 있습니다.</PawnsKidnappedOnGravship>
+  <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
+  <BuildingsWillBeLeftBehind>다음 건물들은 그래브쉽에 완전히 실려 있지 않아 남겨집니다</BuildingsWillBeLeftBehind>
+  <!-- EN: Some substructure has invalid placement and will be left behind -->
+  <SubstructureWillBeLeftBehind>일부 하부 구조가 잘못 배치되어 남겨집니다</SubstructureWillBeLeftBehind>
+  <!-- EN: Disconnected from grav engine -->
+  <DisconnectedSubstructure>그래브 엔진과 분리됨</DisconnectedSubstructure>
+  <!-- EN: Under rock roof -->
+  <SubstructureUnderRockRoof>암석 지붕 아래에 있음</SubstructureUnderRockRoof>
+  <!-- EN: Out of range -->
+  <SubstructureOutsideFootprint>범위 밖에 있음</SubstructureOutsideFootprint>
+
+  <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
+  <NamePlayerGravshipMessage>{0}님이 새 그래브쉽에 큰 기대를 걸고 좋은 이름을 붙이고자 합니다. 그래브쉽의 이름은 무엇으로 하시겠습니까?</NamePlayerGravshipMessage> 
+  <!-- EN: The gravship is now known as {0}. -->
+  <PlayerGravshipGainsName>그래브쉽의 이름이 이제 {0}(으)로 정해졌습니다.</PlayerGravshipGainsName> 
+  <!-- EN: That name isn't valid. -->
+  <PlayerGravshipNameIsInvalid>해당 이름은 유효하지 않습니다.</PlayerGravshipNameIsInvalid> 
+
+  <!-- EN: {0} are hostile. If you land here they will attack you. -->
+  <ConfirmLandOnHostileFactionBase>{0}은(는) 적대적입니다. 여기에 착륙하면 공격을 받을 것입니다.</ConfirmLandOnHostileFactionBase> 
+  <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
+  <ConfirmLandOnNeutralFactionBase>여기에 착륙하면 {0}에서 공격적인 행위로 간주되어, 적대적이 되어 공격할 것입니다.</ConfirmLandOnNeutralFactionBase> 
+
+  <!-- EN: Land here anyway? -->
+  <ConfirmLand>그래도 착륙하시겠습니까?</ConfirmLand> 
+
+  <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
+  <ConfirmShuttleNotEnoughFuelToReturn>셔틀에 이 목적지에서 돌아올 연료가 충분하지 않습니다. 고립될 수 있습니다.\n\n현재 연료는 {0}이지만, 귀환 비행에는 {1}의 연료가 필요합니다.\n\n계속 진행하시겠습니까?</ConfirmShuttleNotEnoughFuelToReturn>
+  <!-- EN: Caravan is immobile due to shuttle -->
+  <CaravanMovementSpeedShuttle>셔틀로 인해 캐러밴 이동 불가</CaravanMovementSpeedShuttle>
+  <!-- EN: Refuel {0}x chemfuel -->
+  <RefuelShuttleCount>케미연료 {0}개 보충</RefuelShuttleCount>
+  <!-- EN: Zoom range (gravship) {0} -->
+  <ZoomRangeGravshipCutscene>줌 범위(그래브쉽) {0}</ZoomRangeGravshipCutscene>
+
+</LanguageData>

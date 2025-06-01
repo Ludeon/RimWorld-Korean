@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: orbital debris -->
+  <OrbitalDebris.label>궤도 파편</OrbitalDebris.label>
+  <!-- EN:
+    <li>tale_noun->a micrometeorite storm sweeping over [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->micrometeorite fragments peppering the area around [PAWN_nameDef]'s [Community]</li>
+    <li>image->a cascade of micrometeorites glimmering with [Color] sparks [airborne_circumstance]</li>
+    <li>image->a scattering of brightly-glowing micrometeorites [airborne_circumstance]</li>
+    <li>image->a shower of [Color] sparks as micrometeorites blaze [airborne_circumstance]</li>
+    <li>airborne_circumstance->racing across the sky</li>
+    <li>airborne_circumstance->tumbling down in a flurry of light</li>
+    <li>airborne_circumstance->dissipating into shimmering dust as they fall</li>
+    <li>image->a cluster of smoldering impact marks, [ground_circumstance]</li>
+    <li>image->a [Color] scorched fragment, [ground_circumstance]</li>
+    <li>image->a [Color] scatter of tiny stones, [ground_circumstance]</li>
+    <li>ground_circumstance->surrounded by a haze of fine dust</li>
+    <li>ground_circumstance->glowing faintly from residual heat</li>
+    <li>ground_circumstance->embedded in a blanket of cracked ground</li>
+    <li>ground_circumstance->scattered across the landscape</li>
+    <li>ground_circumstance->dotted amidst a field of minor craters</li>
+    <li>desc_sentence->[PAWN_nameDef] watches the shower in awe.</li>
+    <li>desc_sentence->[PAWN_nameDef] gazes up in wonder.</li>
+    <li>desc_sentence->[PAWN_nameDef] is startled by the relentless barrage.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures emerge from a nearby [TerrainFeature] to take shelter.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures scramble to secure their belongings.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s scurry about, seeking cover.</li>
+    <li>desc_sentence->Space is charged with an eerie power.</li>
+  -->
+  <OrbitalDebris.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 위를 휩쓸고 지나가는 마이크로 운석 폭풍</li>
+    <li>tale_noun->[PAWN_nameDef]의 [Community] 주변을 쏟아지는 마이크로 운석 파편</li>
+    <li>image->[Color] 불꽃을 내며 반짝이는 마이크로 운석이 폭포처럼 떨어진다 [airborne_circumstance]</li>
+    <li>image->밝게 빛나는 마이크로 운석들이 흩어지는 장면 [airborne_circumstance]</li>
+    <li>image->[Color] 불꽃이 비처럼 쏟아지는 마이크로 운석 [airborne_circumstance]</li>
+    <li>airborne_circumstance->하늘을 가로질러 질주하는 중</li>
+    <li>airborne_circumstance->빛의 소용돌이 속에서 굴러 떨어지는 중</li>
+    <li>airborne_circumstance->떨어지며 반짝이는 먼지로 흩어지는 중</li>
+    <li>image->연기가 나는 충돌 자국 무더기, [ground_circumstance]</li>
+    <li>image->[Color] 색으로 그을린 파편, [ground_circumstance]</li>
+    <li>image->[Color] 색의 작은 돌 조각이 흩뿌려진 모습, [ground_circumstance]</li>
+    <li>ground_circumstance->고운 먼지 안개로 둘러싸여 있음</li>
+    <li>ground_circumstance->남은 열기로 은은히 빛남</li>
+    <li>ground_circumstance->금이 간 땅 위에 박혀 있음</li>
+    <li>ground_circumstance->지형 곳곳에 흩어져 있음</li>
+    <li>ground_circumstance->작은 크레이터가 흩어진 들판에 점점이 박혀 있음</li>
+    <li>desc_sentence->[PAWN_nameDef](이/가) 경외심을 안고 운석우를 바라본다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이/가) 신기한 듯 하늘을 올려다본다.</li>
+    <li>desc_sentence->[PAWN_nameDef](이/가) 멈추지 않는 집중 폭격에 깜짝 놀란다.</li>
+    <li>desc_sentence->[Quantity_adjphrase]명의 이들이 근처 [TerrainFeature]에서 대피하려 나타난다.</li>
+    <li>desc_sentence->[Quantity_adjphrase]명의 이들이 그들의 소지품을 지키기 위해 달려간다.</li>
+    <li>desc_sentence->[Quantity_adjphrase]마리의 [Animal](이/가) 대피처를 찾아 정신없이 돌아다닌다.</li>
+    <li>desc_sentence->우주 공간에는 오싹한 기운이 감돈다.</li>
+  </OrbitalDebris.rulePack.rulesStrings>
+  
+</LanguageData>

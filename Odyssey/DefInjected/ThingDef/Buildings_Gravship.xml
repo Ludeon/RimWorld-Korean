@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: small chemfuel tank -->
+  <ChemfuelTank.label>작은 케미연료 탱크</ChemfuelTank.label>
+  <!-- EN: A chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
+  <ChemfuelTank.description>그래브쉽의 추력 장치에 연료를 공급하는 케미연료 저장 탱크입니다.</ChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>케미연료</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <ChemfuelTank.comps.CompRefuelable.fuelLabel>케미연료</ChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: fuel optimizer -->
+  <FuelOptimizer.label>연료 최적화기</FuelOptimizer.label>
+  <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
+  <FuelOptimizer.description>그래브 엔진 상승력을 기존 추력 장치와 더 효율적으로 조정할 수 있게 해주는 그래브테크 장치입니다. 그래브쉽의 비행에 필요한 연료를 줄여줍니다.\n\n그래브쉽에는 최대 두 개의 연료 최적화기를 장착할 수 있습니다.</FuelOptimizer.description>
+  
+  <!-- EN: gravcore power cell -->
+  <GravcorePowerCell.label>그래브코어 전력셀</GravcorePowerCell.label>
+  <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
+  <GravcorePowerCell.description>그래브쉽을 통과하는 중력파에서 소량의 에너지를 수동적으로 끌어오는 발전기입니다.</GravcorePowerCell.description>
+  
+  <!-- EN: grav engine -->
+  <GravEngine.label>그래브 엔진</GravEngine.label>
+  <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
+  <GravEngine.description>그래브쉽의 울트라테크 핵심 부품입니다. 그래브 엔진은 주변 필드의 중력을 반전시키고 증폭해 양력을 발생시킵니다. 이 엔진은 수직 상승만 가능하며 추진력은 제공하지 않습니다. 행성같이 큰 중력원이 없는 곳에서는 작동하지 않아 행성 간 여행엔 사용할 수 없습니다.\n\n발사 시, 그래브 엔진과 연결된 하부 구조물 위의 모든 것은 새로운 맵으로 이동됩니다. 그래브쉽을 발사하면 현재 맵을 버리게 됩니다.\n\n글리터월드의 엔지니어들은 오비탈 플랫폼 발사와 스카이리퍼 건설에 그래브쉽을 사용합니다. 생산에 대규모·특수화된 시설이 필요하기 때문에 글리터월드 밖에선 매우 보기 드문 기술입니다.</GravEngine.description>
+  
+  <!-- EN: grav field extender -->
+  <GravFieldExtender.label>그래브 필드 확장기</GravFieldExtender.label>
+  <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to six grav field extenders. -->
+  <GravFieldExtender.description>그래브쉽의 크기를 확장하는 데 사용되는 울트라테크 장치입니다. 하부 구조물을 건설할 수 있는 영역을 넓혀주며, 그래브쉽이 지탱할 수 있는 하부 구조물의 총량도 증가시켜줍니다. 반드시 그래브 엔진 근처에 설치해야 합니다.\n\n그래브쉽은 최대 6개의 그래브 필드 확장기를 설치할 수 있습니다.</GravFieldExtender.description>
+  
+  <!-- EN: gravship hull -->
+  <GravshipHull.label>그래브쉽 외벽</GravshipHull.label>
+  <!-- EN: A strong airtight wall that prevents oxygen leaks in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship. -->
+  <GravshipHull.description>우주 진공에서 산소 유출을 방지하는 강력한 밀폐 벽입니다. 이 벽은 하부 구조물과 직접 연결되므로 그래브쉽 위에만 건설할 수 있습니다.</GravshipHull.description>
+  
+  <!-- EN: gravship shield generator -->
+  <GravshipShieldGenerator.label>그래브쉽 실드 생성기</GravshipShieldGenerator.label>
+  <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
+  <GravshipShieldGenerator.description>그래브쉽을 보호하는 실드 장치입니다. 그래브 필드를 변조하여 단시간 유지되는 운동 반발 표면을 형성해 투사체를 막아냅니다. 일반 사격과 박격포에도 효과적입니다. 내부에서는 외부로 자유롭게 사격할 수 있습니다.\n\n사용 전 충전이 필요하며, 그래브쉽 하나당 두 개의 실드 생성기만 지원됩니다.</GravshipShieldGenerator.description>
+  <!-- EN: activate -->
+  <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>작동</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
+  
+  <!-- EN: large chemfuel tank -->
+  <LargeChemfuelTank.label>대형 케미연료 탱크</LargeChemfuelTank.label>
+  <!-- EN: A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
+  <LargeChemfuelTank.description>그래브쉽의 추력 장치에 연료를 공급하는 대형 케미연료 저장 탱크입니다.</LargeChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>케미연료</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <LargeChemfuelTank.comps.CompRefuelable.fuelLabel>케미연료</LargeChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: large thruster -->
+  <LargeThruster.label>대형 추력기</LargeThruster.label>
+  <!-- EN: An advanced chemfuel thruster with a heat-resistant stellite liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires stellite blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
+  <LargeThruster.description>내열성 스텔라이트 라이너가 적용된 고급 케미연료 추력기입니다. 그래브쉽의 비행 거리를 크게 늘려줍니다. 이 추력기는 큰 건물이나 그래브쉽 하부 구조물이 없는 장애물 없는 공간이 필요합니다.\n\n궤도 소행성에서 얻을 수 있는 스텔라이트 블록이 필요합니다.\n\n그래브쉽은 최대 6개의 대형 추력기를 장착할 수 있습니다.</LargeThruster.description>
+  
+  <!-- EN: minified thing -->
+  <MinifiedGravEngine.label>소형화된 물체</MinifiedGravEngine.label>
+  
+  <!-- EN: pilot console -->
+  <PilotConsole.label>조종석 콘솔</PilotConsole.label>
+  <!-- EN: An interface that allows launching and piloting a gravship. It draws power directly from the grav engine. -->
+  <PilotConsole.description>그래브쉽의 발사 및 조종을 담당하는 인터페이스입니다. 그래브 엔진에서 직접 전력을 공급받습니다.</PilotConsole.description>
+  
+  <!-- EN: pilot subpersona core -->
+  <PilotSubpersonaCore.label>조종 서브페르소나 코어</PilotSubpersonaCore.label>
+  <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nIt must be installed near a pilot console. A pilot console can support up to two pilot subpersona cores. -->
+  <PilotSubpersonaCore.description>그래브쉽 비행에 특화된 저등급 서브페르소나입니다. 그래브쉽 조종 시 사고 확률을 낮춰주지만, 인간의 실수까지 완전히 방지하진 못합니다.\n\n조종석 콘솔 근처에 설치해야 하며, 콘솔 하나당 최대 두 개의 조종 서브페르소나 코어만 장착할 수 있습니다.</PilotSubpersonaCore.description>
+  
+  <!-- EN: mechanoid ship chunk -->
+  <ShipChunk_Mech.label>메카노이드 함선 청크</ShipChunk_Mech.label>
+  <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
+  <ShipChunk_Mech.description>강철과 그래브라이트 패널로 이루어진 메카노이드 우주선의 청크입니다. 통제되지 않은 재진입의 힘이나 어떤 무기에 의해 떨어져 나간 것으로 보입니다.\n\n해체하면 귀중한 자원을 얻을 수 있습니다.</ShipChunk_Mech.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <ShipChunk_Mech.comps.CompInspectString.inspectString>해체하여 귀중한 자원을 얻으세요.</ShipChunk_Mech.comps.CompInspectString.inspectString>
+  
+  <!-- EN: signal jammer -->
+  <SignalJammer.label>신호 교란기</SignalJammer.label>
+  <!-- EN: A signal emitter that disguises the electromagnetic signature of your gravship, allowing it to approach heavily-defended landing sites. -->
+  <SignalJammer.description>그래브쉽의 전자기 신호를 위장해, 방어가 삼엄한 착륙 지점에 접근할 수 있게 해주는 신호 방출기입니다.</SignalJammer.description>
+  
+  <!-- EN: small thruster -->
+  <SmallThruster.label>소형 추력기</SmallThruster.label>
+  <!-- EN: A chemfuel thruster that increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nA gravship can support up to four small thrusters. -->
+  <SmallThruster.description>그래브쉽의 비행 거리를 늘려주는 케미연료 추력기입니다. 추력기는 큰 건물이나 그래브쉽 하부 구조물이 없는 장애물 없는 공간이 필요합니다.\n\n그래브쉽에는 최대 4개의 소형 추력기를 장착할 수 있습니다.</SmallThruster.description>
+  
+</LanguageData>

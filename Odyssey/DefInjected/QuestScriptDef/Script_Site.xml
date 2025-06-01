@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>attackReason->claim the surveying scanner was sent to spy on their secret rituals</li>
+    <li>attackReason->say the surveying site infringes on their territory</li>
+    <li>attackReason->say they were sent to destroy the scanner as payback</li>
+    <li>attackReason->claim the surveying scanner is too close to one of their hidden stashes</li>
+    <li>attackReason->want to scrap the surveying equipment for parts</li>
+    <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
+  -->
+  <SurveySite.questContentRules.rulesStrings>
+    <li>attackReason->조사 스캐너가 그들의 비밀 의식을 염탐하려고 보내졌다고 주장한다</li>
+    <li>attackReason->조사 기지가 그들의 영토를 침범했다고 말한다</li>
+    <li>attackReason->복수로 스캐너를 파괴하라는 명령을 받았다고 말한다</li>
+    <li>attackReason->조사 스캐너가 그들의 숨겨진 은닉처 중 하나에 너무 가깝다고 주장한다</li>
+    <li>attackReason->부품을 얻기 위해 조사 장비를 해체하고 싶어 한다</li>
+    <li>attackReason->조사 스캐너가 비밀스럽게 무기이고, 가동이 사이킥 교란을 일으켰다고 주장한다</li>
+  </SurveySite.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has heard rumors of your gravship. [asker_pronoun] wants to survey a distant region and asks that you protect [asker_possessive] surveying equipment.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+  -->
+  <SurveySite.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->익명의 AI가 외딴 지역의 조사 장비를 방어해 달라고 요청했습니다.\n\n조사 작업은 10~15일이 소요되며, 외부 목적지로 이동해야 합니다.\n\n당신의 도움에 대한 대가로 AI는 귀중한 그래브테크 장치를 제공합니다.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull]이(가) 당신의 그래브쉽 소문을 들었습니다. [asker_pronoun]는 먼 지역을 조사하고 싶어 하며, 당신이 [asker_possessive] 조사 장비를 지켜주길 요청합니다.\n\n조사 작업은 10~15일이 소요되며, 외부 목적지로 이동해야 합니다.\n\n당신의 도움에 대한 대가로 [asker_nameDef]이(가) 귀중한 그래브테크 장치를 제공합니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction]인 [asker_nameFull]이(가) 당신이 [asker_possessive] 조사 작업을 지켜주길 요청합니다. 그렇게 하면 [asker_pronoun]은(는) 훌륭한 보상을 약속합니다.\n\n조사 작업은 10~15일이 소요되며, 외부 목적지로 이동해야 합니다.\n\n당신의 도움에 대한 대가로 [asker_nameDef]이(가) 귀중한 그래브테크 장치를 제공합니다.</li>
+  </SurveySite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Surveying [site]</li>
+    <li>questName->[remote] Survey</li>
+    <li>questName(p=0.5)->Defending the Scanner</li>
+    <li>questName(p=0.5)->Remote Protection</li>
+    <li>site->Site</li>
+    <li>site->Station</li>
+    <li>site->Defense</li>
+    <li>site->Operation</li>
+    <li>remote->Remote</li>
+    <li>remote->Regional</li>
+    <li>remote->Distant</li>
+  -->
+  <SurveySite.questNameRules.rulesStrings>
+    <li>questName->[site] 조사</li>
+    <li>questName->[remote] 조사</li>
+    <li>questName(p=0.5)->스캐너 방어</li>
+    <li>questName(p=0.5)->원거리 방호</li>
+    <li>site->현장</li>
+    <li>site->기지</li>
+    <li>site->방어전</li>
+    <li>site->작전</li>
+    <li>remote->원거리</li>
+    <li>remote->광역</li>
+    <li>remote->외진</li>
+  </SurveySite.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <SurveySite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>임무 만료: [resolvedQuestName]</SurveySite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
+  <SurveySite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>스캐너가 오프라인 상태가 되었습니다. 임무 [resolvedQuestName]이(가) 만료되었습니다.</SurveySite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
+  <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{BASETEXT}\n\n[enemyFaction_pawnsPlural]이(가) [attackReason].</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
+  
+</LanguageData>

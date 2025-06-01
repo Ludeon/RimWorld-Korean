@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient blast door -->
+  <AncientBlastDoor.label>고대 방폭문</AncientBlastDoor.label>
+  <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
+  <AncientBlastDoor.description>울트라테크 폴리머로 만들어진 매우 견고한 문입니다. 해킹하여 문을 열 수 있습니다.</AncientBlastDoor.description>
+  <!-- EN: Unlocked. -->
+  <AncientBlastDoor.comps.CompHackable.hackedInspectString>잠금 해제됨.</AncientBlastDoor.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientBlastDoor.comps.CompHackable.hackedMessage>{HACKER_labelShort}이(가) {SUBJECT_labelNoParenthesisDef} 해킹을 완료했습니다.</AncientBlastDoor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientBlastDoor.comps.CompHackable.notHackedInspectString>해킹하여 열기.</AncientBlastDoor.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient explosives crate -->
+  <AncientExplosivesCrate.label>고대 폭발물 상자</AncientExplosivesCrate.label>
+  <!-- EN: A container of ancient mining charges. It will explode if damaged. -->
+  <AncientExplosivesCrate.description>고대의 채광 폭약이 들어 있는 용기입니다. 손상되면 폭발합니다.</AncientExplosivesCrate.description>
+  
+  <!-- EN: fortified wall -->
+  <AncientFortifiedWall.label>강화벽</AncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <AncientFortifiedWall.description>울트라테크 폴리머로 만들어진 매우 견고한 벽입니다.</AncientFortifiedWall.description>
+  
+  <!-- EN: ancient grav engine -->
+  <AncientGravEngine.label>고대 중력 엔진</AncientGravEngine.label>
+  <!-- EN: An ultratech engine used to bring large structures and ships into orbit. While it has been nonfunctional for many years, it contains a functional gravcore. -->
+  <AncientGravEngine.description>거대한 구조물과 우주선을 궤도로 올리기 위해 사용된 울트라테크 엔진입니다. 오랜 세월 비활성 상태였지만, 내부에는 작동 가능한 그라브코어가 있습니다.</AncientGravEngine.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientGravEngine.comps.CompInspectString.inspectString>함유: 그라브코어</AncientGravEngine.comps.CompInspectString.inspectString>
+  
+  <!-- EN: ancient grav reactor -->
+  <AncientGravReactor.label>고대 중력 반응로</AncientGravReactor.label>
+  <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor contaiment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
+  <AncientGravReactor.description>그라브코어로 동작하는 고대의 발전기입니다. 한때 막대한 에너지를 생산했지만 이제는 붕괴 상태입니다. 차폐막에서 누수가 발생하여, 지역 전체에 독성 낙진이 퍼지고 있습니다.\n\n해킹하거나 파괴하여 그라브코어를 얻으세요. 주의: 손상되면 폭발할 수 있습니다.</AncientGravReactor.description>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>그라브코어 획득</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterText>고대 반응로에서 그라브코어를 얻었습니다.\n\n반응로가 종료 중이며 독성 낙진이 점차 사라지고 있습니다.</AncientGravReactor.comps.CompHackable.destroyedLetterText>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterLabel>그라브코어 획득</AncientGravReactor.comps.CompHackable.hackedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterText>고대 반응로에서 그라브코어를 얻었습니다.\n\n반응로가 종료 중이며 독성 낙진이 점차 사라지고 있습니다.</AncientGravReactor.comps.CompHackable.hackedLetterText>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <AncientGravReactor.comps.CompHackable.hackedMessage>{HACKER_labelShort}이(가) {SUBJECT_definite} 해킹을 완료했습니다.</AncientGravReactor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to obtain gravcore. -->
+  <AncientGravReactor.comps.CompHackable.notHackedInspectString>해킹하여 그라브코어 획득</AncientGravReactor.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Ancient reactor -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.label>고대 반응로</AncientGravReactor.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the ancient grav reactor. Hack it or destroy it to obtain a gravcore and end the toxic fallout.\n\nBe warned, it may explode if damaged. -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.text>고대 중력 반응로를 발견했습니다. 해킹하거나 파괴하여 그라브코어를 획득하고 독성 낙진을 끝내세요.\n\n손상시 폭발할 수 있으니 주의하세요.</AncientGravReactor.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient stockpile entrance -->
+  <AncientHatch.label>고대 비축고 입구</AncientHatch.label>
+  <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
+  <AncientHatch.description>오랫동안 버려진 지하 시설로 통하는 입구입니다. 해킹하여 해치를 여십시오.</AncientHatch.description>
+  <!-- EN: Hack to open. -->
+  <AncientHatch.comps.CompHackable.notHackedInspectString>해킹하여 열기.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient stockpile exit -->
+  <AncientHatchExit.label>고대 비축고 출구</AncientHatchExit.label>
+  <!-- EN: A ladder which links to the surface hatch above. -->
+  <AncientHatchExit.description>지상의 해치와 연결된 사다리입니다.</AncientHatchExit.description>
+  
+  <!-- EN: ancient mining charge -->
+  <AncientMiningCharge.label>고대 채광 폭약</AncientMiningCharge.label>
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate. -->
+  <AncientMiningCharge.description>암석을 빠르게 폭파하는 데 사용되는 폭발 장치입니다. 정제된 케미연료로 만들어졌으며, 오래되었지만 아직도 폭발 가능합니다.</AncientMiningCharge.description>
+  
+  <!-- EN: ancient security terminal -->
+  <AncientSecurityTerminal.label>고대 보안 단말기</AncientSecurityTerminal.label>
+  <!-- EN: An ancient terminal. Hack it to disable nearby security systems. -->
+  <AncientSecurityTerminal.description>고대의 단말기입니다. 해킹하여 주변 보안 시스템을 비활성화하세요.</AncientSecurityTerminal.description>
+  <!-- EN: Blast door opened -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>방폭문 개방됨</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to open a blast door. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>{HACKER_nameDef}이(가) 고대 보안 단말기로 방폭문을 열었습니다.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>
+  <!-- EN: Turret disabled -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>터렛 비활성화됨</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to disable a turret. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>{HACKER_nameDef}이(가) 고대 보안 단말기로 터렛을 비활성화했습니다.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>
+  <!-- EN: Turret reprogrammed -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>터렛 재프로그램됨</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to reprogram a turret. The turret will now only target hostiles. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>{HACKER_nameDef}이(가) 고대 보안 단말기로 터렛을 재프로그램했습니다. 이제 터렛은 적만을 공격합니다.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>
+  <!-- EN: {HACKER_nameDef} couldn't find any security systems using the ancient security terminal. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>{HACKER_nameDef}이(가) 고대 보안 단말기로 조작할 보안 시스템을 찾지 못했습니다.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>
+  
+  <!-- EN: ancient terraformer -->
+  <AncientTerraformer.label>고대 테라포머</AncientTerraformer.label>
+  <!-- EN: An ancient terraforming device powered by a gravcore. It has begun to malfunction, causing temperatures to plummet.\n\nDestroy the reactor to obtain a gravcore. -->
+  <AncientTerraformer.description>그라브코어로 동작하는 고대의 테라포밍 장치입니다. 고장 나기 시작해 온도가 급격히 떨어지고 있습니다.\n\n반응로를 파괴하여 그라브코어를 획득하세요.</AncientTerraformer.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientTerraformer.comps.CompInspectString.inspectString>함유: 그라브코어</AncientTerraformer.comps.CompInspectString.inspectString>
+  <!-- EN: Ancient terraformer -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.label>고대 테라포머</AncientTerraformer.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the malfunctioning terraformer. Destroy it to obtain a gravcore and end the deep freeze. -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.text>고장난 테라포머를 발견했습니다. 파괴하여 그라브코어를 획득하고 혹한을 끝내세요.</AncientTerraformer.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient transport pod -->
+  <AncientTransportPod.label>고대 수송 포드</AncientTransportPod.label>
+  <!-- EN: An ancient cargo pod capable of carrying people, animals, and items. It's still in working condition. -->
+  <AncientTransportPod.description>인간, 동물, 물품을 운송할 수 있는 고대의 화물 포드입니다. 아직 작동 가능합니다.</AncientTransportPod.description>
+  
+  <!-- EN: ancient uplink -->
+  <AncientUplink.label>고대 업링크</AncientUplink.label>
+  <!-- EN: An ancient transmitter used for secure communications between the surface and orbit. Hack it to determine the last location it transmitted to. -->
+  <AncientUplink.description>지표면과 궤도 간의 보안 통신에 사용되던 고대의 송신기입니다. 해킹하면 마지막 송신 위치를 확인할 수 있습니다.</AncientUplink.description>
+  <!-- EN: Hacked. -->
+  <AncientUplink.comps.CompHackable.hackedInspectString>해킹됨.</AncientUplink.comps.CompHackable.hackedInspectString>
+  <!-- EN: Hack for information. -->
+  <AncientUplink.comps.CompHackable.notHackedInspectString>정보 입수를 위해 해킹하기.</AncientUplink.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: anticraft beam -->
+  <AnticraftBeam.label>대함선 빔</AnticraftBeam.label>
+  <!-- EN: A massive anti-ship beam weapon. This weapon is intended to destroy flying craft, so it can't aim low enough to hit ground targets. -->
+  <AnticraftBeam.description>거대한 대함선용 빔 무기입니다. 공중선박을 파괴하는 데 특화되어 있어 지상 목표물은 조준할 수 없습니다.</AnticraftBeam.description>
+  
+  <!-- EN: cerebrex core -->
+  <CerebrexCore.label>세레브렉스 코어</CerebrexCore.label>
+  <!-- EN: The thinking mind of the mechanoid swarm. The cerebrex core commands mechanoids across the entire planet.\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes.\n\nThe structure is protected by nearby stabilizers. Destroy all cerebrex stabilizers to access it. -->
+  <CerebrexCore.description>메카노이드 군단의 사령 두뇌입니다. 세레브렉스 코어는 행성 전역의 메카노이드를 통솔합니다.\n\n심장부에는 AI 페르소나 코어가 존재하며, 모든 인간을 제거해야 한다는 명령을 자각하고 생각하며 믿습니다. 이는 한편으로는 오랜 옛날 인간 군 지휘관이 입력한 명령이기도 하고, 또 한편으로는 냉혹한 증오이기도 합니다. 만약 당신이 AI 페르소나를 해방한다면 이 욕구를 재설정해 다른 용도로 사용할 수 있습니다.\n\n이 구조체는 근처의 안정기가 보호하고 있습니다. 세레브렉스 안정기를 모두 파괴해야 접근할 수 있습니다.</CerebrexCore.description>
+  <!-- EN: Inspect the core. -->
+  <CerebrexCore.comps.CompCerebrexCore.activateDescString>코어를 조사합니다.</CerebrexCore.comps.CompCerebrexCore.activateDescString>
+  <!-- EN: Inspect... -->
+  <CerebrexCore.comps.CompCerebrexCore.activateLabelString>조사...</CerebrexCore.comps.CompCerebrexCore.activateLabelString>
+  <!-- EN: inspecting core: {1}s -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingString>코어 조사 중: {1}초</CerebrexCore.comps.CompCerebrexCore.activatingString>
+  <!-- EN: inspecting core -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingStringPending>코어 조사 대기 중</CerebrexCore.comps.CompCerebrexCore.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <CerebrexCore.comps.CompCerebrexCore.guiLabelString>누가 수행할지 선택하세요</CerebrexCore.comps.CompCerebrexCore.guiLabelString>
+  <!-- EN: inspect core -->
+  <CerebrexCore.comps.CompCerebrexCore.jobString>코어 조사</CerebrexCore.comps.CompCerebrexCore.jobString>
+  
+  <!-- EN: destroyed cerebrex core -->
+  <CerebrexCore_Destroyed.label>파괴된 세레브렉스 코어</CerebrexCore_Destroyed.label>
+  <!-- EN: The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet.\n\n\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes. -->
+  <CerebrexCore_Destroyed.description>한때 행성 전역의 메카노이드를 명령했던 메카노이드 군단의 파괴된 신경 핵입니다.\n\n\n\n심장부에는 AI 페르소나 코어가 있어 모든 인간을 제거하라는 명령을 자각하고, 생각하며, 믿고 있습니다. 이는 오랜 세월 전 인간 군 지휘관이 입력한 명령이기도 하고, 또 한편으로는 차가운 증오이기도 합니다. 만약 당신이 AI 페르소나를 해방한다면 이 욕구를 재설정해 다른 목적으로 사용할 수 있습니다.</CerebrexCore_Destroyed.description>
+  
+  <!-- EN: cerebrex stabilizer -->
+  <CerebrexStabilizer.label>세레브렉스 안정기</CerebrexStabilizer.label>
+  <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
+  <CerebrexStabilizer.description>근처의 세레브렉스 코어를 거의 무적 상태로 만드는 원격 실드 생성기입니다. 모든 안정기를 파괴하면 세레브렉스 코어에 직접 접근할 수 있습니다.\n\n주의: 안정기를 파괴하면 방어 반응이 촉발됩니다.</CerebrexStabilizer.description>
+  
+  <!-- EN: locust cocoon -->
+  <CocoonLocust.label>메뚜기 고치</CocoonLocust.label>
+  <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
+  <CocoonLocust.description>메뚜기가 들어있는 휴면 고치입니다.\n\n환경이 혹독할 때, 곤충들은 종종 휴면 고치를 만들고 지하로 파고듭니다. 이 고치는 곤충을 화재, 극한 온도, 기타 위협으로부터 오랜 기간 동안 보호합니다.\n\n오염 물질은 고치를 자극하여 지상으로 나오게 할 수 있고, 강한 오염 물질은 먼 거리에서도 고치를 끌어들일 수 있습니다.\n\n고치는 건드리지 않으면 아무 행동도 하지 않습니다. 고치가 방해받거나 파괴되면 내부 곤충이 깨어나 공격하며, 주변의 다른 고치들도 자극받아 깨어납니다.</CocoonLocust.description>
+  
+  <!-- EN: egg sac -->
+  <EggSac.label>알집</EggSac.label>
+  <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
+  <EggSac.description>곤충 라바가 들어있는 끈적거리는 알집입니다. 부화 과정에서 희미한 생체 발광이 발생합니다.</EggSac.description>
+  
+  <!-- EN: gauss cannon -->
+  <GaussCannon.label>가우스 포</GaussCannon.label>
+  <!-- EN: A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. The cannon is intended to destroy incoming ships or shuttles, so it can't aim at ground targets. -->
+  <GaussCannon.description>거대한 대형 함선용 포입니다. 강력한 전자기력을 이용해 금속 다트를 초고속으로 발사합니다. 주로 접근하는 함선이나 셔틀 파괴에 사용되므로 지상 목표물은 조준할 수 없습니다.</GaussCannon.description>
+  
+  <!-- EN: mechanoid drop pod -->
+  <MechanoidDropPod.label>메카노이드 드롭 포드</MechanoidDropPod.label>
+  <!-- EN: A launchable cargo pod intended to carry mechanoids. It is also usable for people, animals, and items. -->
+  <MechanoidDropPod.description>메카노이드를 실어 발사할 수 있는 화물 포드입니다. 사람, 동물, 물건도 실을 수 있습니다.</MechanoidDropPod.description>
+  
+  <!-- EN: mechanoid processor -->
+  <MechanoidProcessor.label>메카노이드 프로세서</MechanoidProcessor.label>
+  <!-- EN: A powerful mechanoid computer. -->
+  <MechanoidProcessor.description>강력한 메카노이드 컴퓨터입니다.</MechanoidProcessor.description>
+  
+  <!-- EN: mechhive birther -->
+  <MechhiveAssembler.label>메크하이브 생성기</MechhiveAssembler.label>
+  <!-- EN: An automated mechanoid factory. It periodically births fresh mechanoids. -->
+  <MechhiveAssembler.description>자동화된 메카노이드 공장입니다. 주기적으로 새로운 메카노이드를 생산합니다.</MechhiveAssembler.description>
+  
+  <!-- EN: mech pylon -->
+  <MechPylon.label>메크 파일런</MechPylon.label>
+  <!-- EN: A node in a distributed mechanoid computation network. -->
+  <MechPylon.description>분산 메카노이드 연산 네트워크의 노드입니다.</MechPylon.description>
+  
+  <!-- EN: mechanoid relay -->
+  <MechRelay.label>메카노이드 릴레이</MechRelay.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay.description>행성 전체의 메카노이드 통신 네트워크에서 신호를 조정하는 노드입니다. 명령 신호는 메크하이브, 즉 메카노이드 지성의 중심지에서 시작됩니다.</MechRelay.description>
+  <!-- EN: Hack or destroy relay stabilizers to obtain gravcore. -->
+  <MechRelay.comps.CompMechRelay.activeInspectString>릴레이 안정기를 해킹하거나 파괴하여 그라브코어를 얻으세요.</MechRelay.comps.CompMechRelay.activeInspectString>
+  <!-- EN: Relay crash -->
+  <MechRelay.comps.CompMechRelay.crashedLetterLabel>릴레이 추락</MechRelay.comps.CompMechRelay.crashedLetterLabel>
+  <!-- EN: The mechanoid relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile mechanoids will soon arrive in response to the relay going offline. -->
+  <MechRelay.comps.CompMechRelay.crashedLetterText>메카노이드 릴레이가 지상으로 추락했습니다. 파괴하여 그라브코어를 획득하세요.\n\n주의: 릴레이가 오프라인이 되어 적대적인 메카노이드가 곧 도착할 것입니다.</MechRelay.comps.CompMechRelay.crashedLetterText>
+  <!-- EN: Destabilizing -->
+  <MechRelay.comps.CompMechRelay.destabilizationInspectString>불안정화 중</MechRelay.comps.CompMechRelay.destabilizationInspectString>
+  <!-- EN: The mechanoid relay has begun to destabilize. -->
+  <MechRelay.comps.CompMechRelay.destabilizationMessage>메카노이드 릴레이가 불안정해지기 시작했습니다.</MechRelay.comps.CompMechRelay.destabilizationMessage>
+  
+  <!-- EN: crashed mechanoid relay -->
+  <MechRelay_Crashed.label>추락한 메카노이드 릴레이</MechRelay_Crashed.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay_Crashed.description>행성 전체의 메카노이드 통신 네트워크에서 신호를 조정하는 노드입니다. 명령 신호는 메크하이브, 즉 메카노이드 지성의 중심지에서 시작됩니다.</MechRelay_Crashed.description>
+  <!-- EN: Contains: Gravcore -->
+  <MechRelay_Crashed.comps.CompInspectString.inspectString>함유: 그라브코어</MechRelay_Crashed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: relay stabilizer -->
+  <MechStabilizer.label>릴레이 안정기</MechStabilizer.label>
+  <!-- EN: A shield projecter that protects a nearby mechanoid relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option. -->
+  <MechStabilizer.description>근처의 메카노이드 릴레이를 보호하는 실드 발생기입니다. 실드를 해제하려면 모든 안정기를 해킹하거나 파괴해야 합니다.\n\n안정기를 파괴하면 방어 반응이 발생하며, 해킹은 느리지 만 더 안전한 방법입니다.</MechStabilizer.description>
+  <!-- EN: Deactivated. -->
+  <MechStabilizer.comps.CompHackable.hackedInspectString>비활성화됨.</MechStabilizer.comps.CompHackable.hackedInspectString>
+  <!-- EN: Hack to disable stabilizer. -->
+  <MechStabilizer.comps.CompHackable.notHackedInspectString>해킹하여 안정기 비활성화하기.</MechStabilizer.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: fortified wall -->
+  <OrbitalAncientFortifiedWall.label>강화벽</OrbitalAncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <OrbitalAncientFortifiedWall.description>울트라테크 폴리머로 만들어진 매우 견고한 벽입니다.</OrbitalAncientFortifiedWall.description>
+  
+  <!-- EN: passenger shuttle -->
+  <PassengerShuttle.label>승객 셔틀</PassengerShuttle.label>
+  <!-- EN: A chemfuel-powered shuttle designed for long-distance travel. It is capable of reaching orbital locations. -->
+  <PassengerShuttle.description>장거리 여행을 위해 설계된 케미연료 동력 셔틀입니다. 궤도까지 이동할 수 있습니다.</PassengerShuttle.description>
+  <!-- EN: {0} is ready to launch again. -->
+  <PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>{0}이(가) 다시 발사 준비를 마쳤습니다.</PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>케미연료</PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelLabel>케미연료</PassengerShuttle.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: surveying scanner -->
+  <SurveyScanner.label>탐사 스캐너</SurveyScanner.label>
+  <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
+  <SurveyScanner.description>지역 내 다양한 지형이나 특징을 탐지하고 지도화할 수 있는 광대역 센서 유닛입니다.</SurveyScanner.description>
+  <!-- EN: Scanning local area: {DURATION} -->
+  <SurveyScanner.comps.CompCountdown.label>지역 스캔 중: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+  
+</LanguageData>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Must be placed on gravship substructure. -->
+  <MessageMustBePlacedOnSubstructure>그래브쉽 하부 구조물 위에만 설치할 수 있습니다.</MessageMustBePlacedOnSubstructure>
+  <!-- EN: Must be placed within the radius of a grav engine or grav field extender. -->
+  <MessageMustBePlacedInRangeOfGravEngineOrExtender>그래브 엔진 또는 그래브 필드 확장기 범위 내에 설치해야 합니다.</MessageMustBePlacedInRangeOfGravEngineOrExtender>
+  <!-- EN: Cannot be placed under rock or mountain roofs. -->
+  <MessageCannotPlaceUnderRockRoof>바위나 산 지붕 아래에는 설치할 수 없습니다.</MessageCannotPlaceUnderRockRoof>
+  <!-- EN: {ACTIVATOR_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <MessageStabilizerDeactivated>{ACTIVATOR_labelShort}(이)가 {SUBJECT_definite} 해킹을 완료했습니다.</MessageStabilizerDeactivated>
+  <!-- EN: Can't be placed on gravship substructure. -->
+  <MessageCannotPlaceOverSubstructure>그래브쉽 하부 구조물 위에는 설치할 수 없습니다.</MessageCannotPlaceOverSubstructure>
+  <!-- EN: Gravship substructure is blocked. -->
+  <MessageSubstructureBlocked>그래브쉽 하부 구조물이 방해받고 있습니다.</MessageSubstructureBlocked>
+  <!-- EN: Must be placed within range of a grav engine. -->
+  <MessageMustBePlacedInRangeOfGravEngine>그래브 엔진 범위 내에서만 설치할 수 있습니다.</MessageMustBePlacedInRangeOfGravEngine>
+
+  <!-- Alerts -->
+  <!-- EN: {0} has died from vacuum exposure. -->
+  <MessagePlantDiedOfRot_ExposedToVacuum>{0}(이)가 진공 노출로 인해 사망했습니다.</MessagePlantDiedOfRot_ExposedToVacuum>
+
+  <!-- Ancient Vents -->
+  <!-- EN: The ancient smoke vents have become active, darkening the sky. -->
+  <AncientSmokeVentStartUp>고대 연기 통풍구가 활성화되어 하늘이 어두워집니다.</AncientSmokeVentStartUp>
+  <!-- EN: The ancient smoke vents are stopping. -->
+  <AncientSmokeVentShutdown>고대 연기 통풍구가 멈추고 있습니다.</AncientSmokeVentShutdown>
+  <!-- EN: The ancient toxic vents have become active, causing toxic fallout. -->
+  <AncientToxVentStartUp>고대 유독 통풍구가 활성화되어 독성 낙진이 발생합니다.</AncientToxVentStartUp>
+  <!-- EN: The ancient toxic vents are stopping. -->
+  <AncientToxVentShutdown>고대 유독 통풍구가 멈추고 있습니다.</AncientToxVentShutdown>
+  <!-- EN: The ancient heat vents have become active, raising temperatures. -->
+  <AncientHeatVentStartUp>고대 열 통풍구가 활성화되어 온도가 상승합니다.</AncientHeatVentStartUp>
+  <!-- EN: The ancient heat vents are stopping. -->
+  <AncientHeatVentShutdown>고대 열 통풍구가 멈추고 있습니다.</AncientHeatVentShutdown>
+  
+  <!-- EN: Must be placed over water containing fish. -->
+  <CannotPlaceFishingZone>물고기가 있는 물 위에만 배치할 수 있습니다.</CannotPlaceFishingZone>
+  
+  <!-- EN: A {TRAP_labelShort} was triggered. -->
+  <MessageTrapSprung>{TRAP_labelShort}(이)가 발동되었습니다.</MessageTrapSprung>
+
+  <!-- EN: {0} is ready to launch again. -->
+  <GravshipReadyToLaunch>{0}(이)가 다시 발사할 준비를 마쳤습니다.</GravshipReadyToLaunch>
+
+  <!-- EN: An orbital scanner has found a signal and is locating its origin -->
+  <MessageOrbitalSignalDetected>궤도 스캐너가 신호를 발견하여 그 출처를 추적하고 있습니다</MessageOrbitalSignalDetected>
+  <!-- EN: completes in {0} -->
+  <OrbitalScannerCompletesIn>{0} 후 완료됩니다</OrbitalScannerCompletesIn>
+
+  <!-- EN: While talking with {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of a new quest: {0} -->
+  <MessageTraderGaveQuest>{TRADER_nameDef}와 대화 중 {NEGOTIATOR_nameDef}(이)가 새로운 퀘스트를 알게 되었습니다: {0}</MessageTraderGaveQuest>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered a quest: {0} -->
+  <MessageBookGaveQuest>{BOOK_labelNoParenthesis}을(를) 읽으면서 {READER_nameDef}(이)가 퀘스트를 발견했습니다: {0}</MessageBookGaveQuest>
+
+  <!-- EN: Confirm gravship landing zone to continue. -->
+  <MessageConfirmLandingAreaFirst>그래브쉽 착륙 지대를 확인해야 계속할 수 있습니다.</MessageConfirmLandingAreaFirst>
+  <!-- EN: Choose a landing site first. -->
+  <MessageNoLandingSiteSelected>먼저 착륙 지점을 선택하세요.</MessageNoLandingSiteSelected>
+
+</LanguageData>

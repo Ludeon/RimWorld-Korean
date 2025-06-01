@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Fishing -->
+  <!-- EN: do X times -->
+  <FishRepeatMode_RepeatCount>X번 실행</FishRepeatMode_RepeatCount>
+  <!-- EN: do until you have X -->
+  <FishRepeatMode_TargetCount>X개를 가질 때까지 실행</FishRepeatMode_TargetCount>
+  <!-- EN: do forever -->
+  <FishRepeatMode_Forever>무한 반복</FishRepeatMode_Forever>
+  <!-- EN: Fish population -->
+  <FishPopulation>어류 개체수</FishPopulation>
+  <!-- EN: How many fish are in this body of water. Larger bodies of water have more fish and will recover fish populations faster. -->
+  <FishPopulationDesc>이 수역에 서식하는 물고기의 수입니다. 더 큰 물에서는 더 많은 물고기가 살며, 개체수 회복도 더 빠릅니다.</FishPopulationDesc>
+  <!-- EN: Minimum population -->
+  <MinimumPopulation>최소 개체수</MinimumPopulation>
+  <!-- EN: Colonists won't fish if the fish population is under this limit. Fishing yields are lower if there are less than 300 fish. -->
+  <MinimumPopulationDesc>어류 개체수가 이 수치 이하일 경우, 식민지 주민들은 낚시를 하지 않습니다. 물고기가 300마리보다 적으면 낚시 수확량이 줄어듭니다.</MinimumPopulationDesc>
+  <!-- EN: uncommon -->
+  <Uncommon>비범함</Uncommon>
+  <!-- EN: When toggled off, colonists will avoid catching this fish. -->
+  <ToggleFishAvoid>비활성화하면 식민지 주민들이 이 물고기를 잡지 않습니다.</ToggleFishAvoid>
+  
+</LanguageData>

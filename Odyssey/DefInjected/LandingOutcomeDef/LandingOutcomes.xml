@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: grav nausea -->
+  <GravNausea.letterLabel>그래브 구역질</GravNausea.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} was forced to do an emergency maneuver, resulting in an intense and prolonged deceleration. The experience has left your colonists feeling extremely nauseous. The effects will quickly fade. -->
+  <GravNausea.letterText>{GRAVSHIP}가 착륙하는 동안, {PILOT_nameDef}이(가) 긴급 회피 기동을 해야 했습니다. 그로 인해 강하고 오랜 시간의 제동이 발생했습니다. 이 경험으로 인해 여러분의 식민지 주민들이 심한 구역질을 느끼고 있습니다. 하지만 이러한 영향은 곧 사라질 것입니다.</GravNausea.letterText>
+  
+  <!-- EN: minor gravship crash -->
+  <MinorGravshipCrash.letterLabel>경미한 그래브쉽 추락</MinorGravshipCrash.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} accidentally disengaged the grav engine too early, causing the gravship to free-fall for several feet. Some buildings on the gravship have sustained light damage from the crash. -->
+  <MinorGravshipCrash.letterText>{GRAVSHIP}가 착륙하는 동안, {PILOT_nameDef}이(가) 실수로 그래브 엔진의 작동을 너무 일찍 해제하여, 그래브쉽이 몇 미터간 자유 낙하하였습니다. 이로 인해 그래브쉽 내의 일부 건물들이 경미한 피해를 입었습니다.</MinorGravshipCrash.letterText>
+  
+  <!-- EN: overheated grav engine -->
+  <OverheatedGravEngine.letterLabel>그래브 엔진 과열</OverheatedGravEngine.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} over-engaged the grav engine, causing it to overheat. The grav engine will take longer than normal to cool down. In the meantime, the gravship can't be launched. -->
+  <OverheatedGravEngine.letterText>{GRAVSHIP}가 착륙하는 동안, {PILOT_nameDef}이(가) 그래브 엔진을 과도하게 작동시켜 과열이 발생했습니다. 그래브 엔진이 정상 온도로 식는 데 평소보다 더 오래 걸릴 것입니다. 그동안 그래브쉽은 출발할 수 없습니다.</OverheatedGravEngine.letterText>
+  
+  <!-- EN: thruster breakdown -->
+  <ThrusterBreakdown.letterLabel>추진기 고장</ThrusterBreakdown.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} overheated the ship's thrusters, frying valuable components. The thrusters will need to be repaired before they can be used again. -->
+  <ThrusterBreakdown.letterText>{GRAVSHIP}가 착륙하는 동안, {PILOT_nameDef}이(가) 우주선의 추진기를 과열시켜 중요한 부품이 손상되었습니다. 추진기를 다시 사용하려면 수리가 필요합니다.</ThrusterBreakdown.letterText>
+  
+</LanguageData>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an infested settlement</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] [structureNameWithArticle]의 위치를 찾아냈습니다. 그 구조물에서 귀중한 자원을 약탈할 수 있습니다.\n\n경고: 고대 구조물에는 다양한 위협이 도사리고 있을 수 있습니다.</li>
+    <li>structureNameWithArticle->감염된 거주지</li>
+  </Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->infested settlement</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+    <li>questName->the [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->발견된 [structureName]</li>
+    <li>questName->[structureName] 발견</li>
+    <li>ancient(p=2)->고대</li>
+    <li>ancient->잃어버린</li>
+    <li>structureName->감염된 거주지</li>
+  </Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->insect hives</li>
+    <li>subject->infestations</li>
+    <li>questMapFeature->insect hive</li>
+    <li>questMapFeature->anatomical drawing of a megaspider</li>
+    <li>questMapText->insects everywhere</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+    <li>subject->고대 건축물</li>
+    <li>subject->잃어버린 명소</li>
+    <li>subject->고대 구조물</li>
+    <li>questMapFeature->오래된 건물의 그림</li>
+    <li>questMapText->수색 대상</li>
+    <li>questMapText->탐사 장소</li>
+    <li>questMapText->위험한 고대 구조물</li>
+    <li>questMapText->함정 주의</li>
+    <li>subject->곤충 둥지</li>
+    <li>subject->감염지</li>
+    <li>questMapFeature->곤충 둥지</li>
+    <li>questMapFeature->메가스파이더 해부 그림</li>
+    <li>questMapText->곤충이 가득함</li>
+  </Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient chemfuel refinery</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] [structureNameWithArticle]의 위치를 찾아냈습니다. 그 구조물에서 귀중한 자원을 약탈할 수 있습니다.\n\n경고: 고대 구조물에는 다양한 위협이 도사리고 있을 수 있습니다.</li>
+    <li>structureNameWithArticle->고대 케미연료 정제소</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->chemfuel refinery</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+    <li>questName->the [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->발견된 [structureName]</li>
+    <li>questName->[structureName] 발견</li>
+    <li>ancient(p=2)->고대</li>
+    <li>ancient->잃어버린</li>
+    <li>structureName->케미연료 정제소</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient refineries</li>
+    <li>subject->chemplants</li>
+    <li>questMapFeature->chemfuel refinery</li>
+    <li>questMapFeature->picture of a chemfuel tank</li>
+    <li>questMapFeature->sketch of refinery equipment</li>
+    <li>questMapText->chemfuel depot</li>
+    <li>questMapText->chemfuel here</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+    <li>subject->고대 건축물</li>
+    <li>subject->잃어버린 명소</li>
+    <li>subject->고대 구조물</li>
+    <li>questMapFeature->오래된 건물의 그림</li>
+    <li>questMapText->수색 대상</li>
+    <li>questMapText->탐사 장소</li>
+    <li>questMapText->위험한 고대 구조물</li>
+    <li>questMapText->함정 주의</li>
+    <li>subject->고대 정제소</li>
+    <li>subject->화학 공장</li>
+    <li>questMapFeature->케미연료 정제소</li>
+    <li>questMapFeature->케미연료 탱크 그림</li>
+    <li>questMapFeature->정제소 장비 스케치</li>
+    <li>questMapText->케미연료 저장소</li>
+    <li>questMapText->여기에 케미연료 있음</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient garrison</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] [structureNameWithArticle]의 위치를 찾아냈습니다. 그 구조물에서 귀중한 자원을 약탈할 수 있습니다.\n\n경고: 고대 구조물에는 다양한 위협이 도사리고 있을 수 있습니다.</li>
+    <li>structureNameWithArticle->고대 주둔지</li>
+  </Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->garrison</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+    <li>questName->the [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->발견된 [structureName]</li>
+    <li>questName->[structureName] 발견</li>
+    <li>ancient(p=2)->고대</li>
+    <li>ancient->잃어버린</li>
+    <li>structureName->주둔지</li>
+  </Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient military sites</li>
+    <li>subject->ancient garrisons</li>
+    <li>questMapFeature->garrison</li>
+    <li>questMapFeature->picture of weapon racks</li>
+    <li>questMapFeature->charcoal sketch of an assault rifle</li>
+    <li>questMapText->weapons facility</li>
+    <li>questMapText->ancient armory</li>
+    <li>questMapText->lots of military equipment</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+    <li>subject->고대 건축물</li>
+    <li>subject->잃어버린 명소</li>
+    <li>subject->고대 구조물</li>
+    <li>questMapFeature->오래된 건물의 그림</li>
+    <li>questMapText->수색 대상</li>
+    <li>questMapText->탐사 장소</li>
+    <li>questMapText->위험한 고대 구조물</li>
+    <li>questMapText->함정 주의</li>
+    <li>subject->고대 군사 시설</li>
+    <li>subject->고대 주둔지</li>
+    <li>questMapFeature->주둔지</li>
+    <li>questMapFeature->무기 선반 그림</li>
+    <li>questMapFeature->돌격소총 스케치</li>
+    <li>questMapText->무기 시설</li>
+    <li>questMapText->고대 무기고</li>
+    <li>questMapText->수많은 군수품</li>
+  </Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient launch site</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] [structureNameWithArticle]의 위치를 찾아냈습니다. 그 구조물에서 귀중한 자원을 약탈할 수 있습니다.\n\n경고: 고대 구조물에는 다양한 위협이 도사리고 있을 수 있습니다.</li>
+    <li>structureNameWithArticle->고대 발사장</li>
+  </Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->launch site</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+    <li>questName->the [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->발견된 [structureName]</li>
+    <li>questName->[structureName] 발견</li>
+    <li>ancient(p=2)->고대</li>
+    <li>ancient->잃어버린</li>
+    <li>structureName->발사장</li>
+  </Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient launch sites</li>
+    <li>subject->spaceports</li>
+    <li>questMapFeature->launch site</li>
+    <li>questMapFeature->diagram of shuttle refueling apparatus</li>
+    <li>questMapFeature->sketch of treasure being loaded into transport pods</li>
+    <li>questMapText->they have fuel</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+    <li>subject->고대 건축물</li>
+    <li>subject->잃어버린 명소</li>
+    <li>subject->고대 구조물</li>
+    <li>questMapFeature->오래된 건물의 그림</li>
+    <li>questMapText->수색 대상</li>
+    <li>questMapText->탐사 장소</li>
+    <li>questMapText->위험한 고대 구조물</li>
+    <li>questMapText->함정 주의</li>
+    <li>subject->고대 발사장</li>
+    <li>subject->우주항</li>
+    <li>questMapFeature->발사장</li>
+    <li>questMapFeature->셔틀 급유 장치 도면</li>
+    <li>questMapFeature->수송 포드에 보물이 실리는 스케치</li>
+    <li>questMapText->연료 보유</li>
+  </Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient warehouse</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] [structureNameWithArticle]의 위치를 찾아냈습니다. 그 구조물에서 귀중한 자원을 약탈할 수 있습니다.\n\n경고: 고대 구조물에는 다양한 위협이 도사리고 있을 수 있습니다.</li>
+    <li>structureNameWithArticle->고대 창고</li>
+  </Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->warehouse</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+    <li>questName->the [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->발견된 [structureName]</li>
+    <li>questName->[structureName] 발견</li>
+    <li>ancient(p=2)->고대</li>
+    <li>ancient->잃어버린</li>
+    <li>structureName->창고</li>
+  </Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient storehouses</li>
+    <li>subject->warehouses</li>
+    <li>questMapFeature->warehouse</li>
+    <li>questMapFeature->diagram of shelves filled with boxes</li>
+    <li>questMapFeature->sketch of a forklift</li>
+    <li>questMapText->massive ancient building</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+    <li>subject->고대 건축물</li>
+    <li>subject->잃어버린 명소</li>
+    <li>subject->고대 구조물</li>
+    <li>questMapFeature->오래된 건물의 그림</li>
+    <li>questMapText->수색 대상</li>
+    <li>questMapText->탐사 장소</li>
+    <li>questMapText->위험한 고대 구조물</li>
+    <li>questMapText->함정 주의</li>
+    <li>subject->고대 저장고</li>
+    <li>subject->창고</li>
+    <li>questMapFeature->창고</li>
+    <li>questMapFeature->상자로 가득 찬 선반 도면</li>
+    <li>questMapFeature->지게차 스케치</li>
+    <li>questMapText->거대한 고대 건물</li>
+  </Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+  
+</LanguageData>

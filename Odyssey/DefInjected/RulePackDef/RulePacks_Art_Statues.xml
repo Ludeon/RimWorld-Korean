@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_statue_description->This statue [statueDepicts] [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [statueAdj] statue depicting [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [carvedAdverb] [carvedVerb] statue of [SUBJECT_nameFull]. It [statueDepicts] [SUBJECT_indefinite] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A statue showing [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [statueAdj] statue of [SUBJECT_nameFull]. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc->standing upright holding a [prop] with both hands</li>
+    <li>statueSubjectDesc->standing tall and gazing nobly into the distance</li>
+    <li>statueSubjectDesc->thrusting a fist towards the sky</li>
+    <li>statueSubjectDesc->reaching upward, grasping for something unseen</li>
+    <li>statueSubjectDesc->leaning to the side as if about to topple[maybeInsult]</li>
+    <li>statueSubjectDesc->standing on one-foot[maybeInsult]</li>
+    <li>statueSubjectDesc->bowing deeply</li>
+    <li>statueSubjectDesc->bracing against the wind</li>
+    <li>statueSubjectDesc->kneeling in prayer</li>
+    <li>statueSubjectDesc->with hands raised as if in prayer</li>
+    <li>statueSubjectDesc->with hands pressed together in gratitude</li>
+    <li>statueSubjectDesc->running at top speed</li>
+    <li>statueSubjectDesc->with arms open, looking towards the sky</li>
+    <li>statueSubjectDesc->with hands resting on hips</li>
+    <li>statueSubjectDesc->with arms raised in triumph</li>
+    <li>statueSubjectDesc->holding a [prop] in one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->saluting with one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointing towards the horizon[maybeOtherHand]</li>
+    <li>statueSubjectDesc->extending a hand in welcome[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointing at the horizon with one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->dancing seductively</li>
+    <li>statueSubjectDesc->relaxing in an alluring fashion</li>
+    <li>statueSubjectDesc->getting ready to fight</li>
+    <li>statueSubjectDesc->leaping into the air, frozen mid-jump</li>
+    <li>statueSubjectDesc->casting a fish net into unseen waters</li>
+    <li>statueSubjectDesc->eating a luxurious meal</li>
+    <li>statueSubjectDesc->mid-struggle, breaking free from chains</li>
+    <li>statueSubjectDesc->whispering a silent secret</li>
+    <li>statueSubjectDesc->gazing up at the stars, eyes filled with wonder</li>
+    <li>statueSubjectDesc->throwing an unseen spear</li>
+    <li>statueSubjectDesc->tearing a piece of paper in an act of defiance</li>
+    <li>statueSubjectDesc->wading through deep waters</li>
+    <li>statueSubjectDesc->holding a large [prop] in both hands</li>
+    <li>statueSubjectDesc->with no teeth[maybeInsult]</li>
+    <li>statueSubjectDesc->squinting into the sun[maybeInsult]</li>
+    <li>statueSubjectDesc->smelling a boquet of flowers[maybeNoNose]</li>
+    <li>maybeOtherHand->. [otherHand]</li>
+    <li>maybeOtherHand-></li>
+    <li>otherHand->The statue's other hand holds a [prop]</li>
+    <li>otherHand->The statue's other hand rests on its hip</li>
+    <li>otherHand->The statue's other hand is making an obscene gesture</li>
+    <li>otherHand->The statue's other hand is missing[maybeInsult]</li>
+    <li>maybeNoNose->. The statue has no nose[maybeInsult]</li>
+    <li>maybeNoNose-></li>
+    <li>maybeInsult->. This is a clear insult</li>
+    <li>maybeInsult->. It is unclear if this is a slight by the artist or a simple mistake</li>
+    <li>maybeInsult->. This suggests the artist is insulting the subject</li>
+    <li>maybeInsult(p=3)-></li>
+    <li>statueFaceDesc(p=2)->The statue's face has a look of [facialLook].</li>
+    <li>statueFaceDesc(p=2)->[facialLook] can be seen in [SUBJECT_indefinite]'s face.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has a look of [facialLook].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite]'s face [depicts] [facialLook].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has a wise and thoughtful countenance.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] is crying out, mouth agape in a silent scream.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] looks mournfully into the distance.</li>
+    <li>statueFaceDesc->The statue [depicts] [SUBJECT_indefinite] with a signature look of determination.</li>
+    <li>statueFaceDesc->The statue [depicts] [SUBJECT_indefinite] laughing maniacally.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has [facialFeature].</li>
+    <li>statueFaceDesc->The statue has [facialFeature].</li>
+    <li>statueFaceDesc->Notably, the statue has [facialFeature].</li>
+    <li>facialLook->true joy</li>
+    <li>facialLook->pure terror</li>
+    <li>facialLook->pure ecstasy</li>
+    <li>facialLook->pure bliss</li>
+    <li>facialLook->shock and embarrassment</li>
+    <li>facialLook->amusement</li>
+    <li>facialLook->untold grief</li>
+    <li>facialLook->deep contemplation</li>
+    <li>facialLook->confusion</li>
+    <li>facialLook->pride and contentment</li>
+    <li>facialLook->amusement</li>
+    <li>facialLook->disgust</li>
+    <li>facialLook->defiance</li>
+    <li>facialFeature->a playful smirk</li>
+    <li>facialFeature->a furrowed brow</li>
+    <li>facialFeature->a raised eyebrow, as if questioning the artist</li>
+    <li>facialFeature->a long tongue sticking out</li>
+    <li>facialFeature->a face twisted in anguish</li>
+    <li>facialFeature->eyes that appear to twinkle</li>
+    <li>facialFeature->both eyes closed, as if in peace</li>
+    <li>facialFeature->cheeks puffed as if blowing air</li>
+    <li>facialFeature->beady eyes and snarling lips</li>
+    <li>style_group_statue->[artextra_clause_statue]. [style_clause].</li>
+    <li>style_group_statue->[style_clause]. [artextra_clause_statue].</li>
+    <li>style_group_statue->[style_clause].</li>
+    <li>style_group_statue->[artextra_clause_statue].</li>
+    <li>style_group_statue-></li>
+    <li>artextra_clause_statue->the pedestal of the statue is bordered by [subimageplural]</li>
+    <li>artextra_clause_statue->carved into the subject's skin are [subimageplural]</li>
+    <li>artextra_clause_statue->several smaller carvings surround the statue. Each resembles [subimagesingle]</li>
+    <li>artextra_clause_statue->the statue's legs are obscured by [subimageplural]</li>
+    <li>artextra_clause_statue->[carvedVerb] into the statue's face is an image of [subimageany]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] stands in the middle of a [Community]</li>
+    <li>artextra_clause_statue->the statue's base appears to be a [TerrainFeature]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] appears to be rising out of a [TerrainFeature]</li>
+    <li>artextra_clause_statue->a small [Character] appears [side_position_statue]</li>
+    <li>artextra_clause_statue->a [PAWN_adj] [Character] appears [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character]s appear [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [PAWN_adj] [Character]s appear [side_position_statue]</li>
+    <li>artextra_clause_statue->a [Animal] is carved [side_position_statue]</li>
+    <li>artextra_clause_statue->from a distance, the [composition] composition of the statue reveals the outline of [subimageany]</li>
+    <li>artextra_clause_statue->the statue holds a [Animal] under one arm</li>
+    <li>artextra_clause_statue->the statue is holding [Quantity_adjphrase] [PAWN_adj] [Character]s</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite]'s [statueBodyPart] is split open. Within you can see [subimageplural]</li>
+    <li>carvedAdverb->carefully</li>
+    <li>carvedAdverb->quickly</li>
+    <li>carvedAdverb->roughly</li>
+    <li>carvedAdverb->meticulously</li>
+    <li>carvedAdverb->meticulously</li>
+    <li>carvedVerb->carved</li>
+    <li>carvedVerb->sculpted</li>
+    <li>carvedVerb->chiseled</li>
+    <li>statueAdj->larger-than-life</li>
+    <li>statueAdj->towering</li>
+    <li>statueAdj->grand</li>
+    <li>statueAdj->large</li>
+    <li>statueAdj->lifelike</li>
+    <li>statueAdj->solemn</li>
+    <li>statueAdj->dignified</li>
+    <li>statueAdj->solemn</li>
+    <li>statueAdj->noble</li>
+    <li>statueAdj->serene</li>
+    <li>statueAdj->crumbling</li>
+    <li>statueAdj->modest</li>
+    <li>statueAdj->revealing</li>
+    <li>statueAdj->crude</li>
+    <li>statueAdj->titillating</li>
+    <li>statueAdj->provocative</li>
+    <li>statueAdj->suggestive</li>
+    <li>statueAdj->grotesque</li>
+    <li>statueAdj->frightful</li>
+    <li>statueAdj->majestic</li>
+    <li>statueDepicts->depicts</li>
+    <li>statueDepicts->shows</li>
+    <li>statueDepicts->portrays</li>
+    <li>side_position_statue->at the base</li>
+    <li>side_position_statue->on the pedestal beside [SUBJECT_indefinite]</li>
+    <li>side_position_statue->under [SUBJECT_indefinite]'s heel</li>
+    <li>side_position_statue->in [SUBJECT_indefinite]'s arms</li>
+    <li>side_position_statue->atop [SUBJECT_indefinite]'s head</li>
+    <li>side_position_statue->on [SUBJECT_indefinite]'s shoulders</li>
+    <li>side_position_statue->behind the central statue</li>
+    <li>side_position_statue->in a hollow carved into the figure's [statueBodyPart]</li>
+    <li>side_position_statue->in [SUBJECT_indefinite]'s palm</li>
+    <li>side_position_statue->bursting from [SUBJECT_indefinite]'s [statueBodyPart]</li>
+    <li>side_position_statue->emerging from [SUBJECT_indefinite]'s mouth</li>
+    <li>side_position_statue->on [SUBJECT_indefinite]'s back</li>
+    <li>statueBodyPart->chest</li>
+    <li>statueBodyPart->stomach</li>
+    <li>statueBodyPart->back</li>
+    <li>statueBodyPart->head</li>
+    <li>statueBodyPart->eye</li>
+    <li>prop->book</li>
+    <li>prop->sword</li>
+    <li>prop->spear</li>
+    <li>prop->gun</li>
+    <li>prop->psychic relic</li>
+    <li>prop->human heart</li>
+  -->
+  <ArtDescription_Statue.rulePack.rulesStrings>
+    <li>r_statue_description>이 조각상은 [SUBJECT_nameFull]을 [statueDepicts] [statueSubjectDesc] 모습으로 표현합니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description>[statueAdj] 조각상으로, [SUBJECT_nameFull]을 [statueSubjectDesc] 모습으로 묘사합니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description>[carvedAdverb][으로/로] [carvedVerb] [SUBJECT_nameFull]의 조각상입니다. 이것은 [statueDepicts] [SUBJECT_indefinite][을/를] [statueSubjectDesc] 모습으로 보여줍니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description>[SUBJECT_nameFull]을 [statueSubjectDesc] 모습으로 보여주는 조각상입니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description>[statueAdj] [SUBJECT_nameFull]의 조각상입니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc>두 손으로 [prop][을/를] 들고 똑바로 서 있다</li>
+    <li>statueSubjectDesc>우뚝 서서 고귀하게 먼 곳을 응시한다</li>
+    <li>statueSubjectDesc>주먹을 하늘을 향해 내뻗고 있다</li>
+    <li>statueSubjectDesc>위로 손을 뻗으며 보이지 않는 무언가를 잡으려 한다</li>
+    <li>statueSubjectDesc>옆으로 기울어져 곧 넘어질 듯한 모습이다[maybeInsult]</li>
+    <li>statueSubjectDesc>한 발로 서 있다[maybeInsult]</li>
+    <li>statueSubjectDesc>깊이 절하고 있다</li>
+    <li>statueSubjectDesc>바람을 견디며 선 자세다</li>
+    <li>statueSubjectDesc>무릎을 꿇고 기도하고 있다</li>
+    <li>statueSubjectDesc>기도하듯 손을 들어 올리고 있다</li>
+    <li>statueSubjectDesc>감사함에 두 손을 모았다</li>
+    <li>statueSubjectDesc>빠르게 달리고 있다</li>
+    <li>statueSubjectDesc>팔을 벌린 채 하늘을 바라보고 있다</li>
+    <li>statueSubjectDesc>양손을 허리에 얹고 있다</li>
+    <li>statueSubjectDesc>두 팔을 들어올려 승리의 포즈를 취하다</li>
+    <li>statueSubjectDesc>한 손에 [prop][을/를] 들고 있다[maybeOtherHand]</li>
+    <li>statueSubjectDesc>한 손으로 경례하고 있다[maybeOtherHand]</li>
+    <li>statueSubjectDesc>수평선을 가리키고 있다[maybeOtherHand]</li>
+    <li>statueSubjectDesc>환영하듯 한 손을 내밀고 있다[maybeOtherHand]</li>
+    <li>statueSubjectDesc>한 손으로 수평선을 가리키고 있다[maybeOtherHand]</li>
+    <li>statueSubjectDesc>유혹적으로 춤추고 있다</li>
+    <li>statueSubjectDesc>매혹적으로 쉬고 있다</li>
+    <li>statueSubjectDesc>싸움을 준비하는 모습이다</li>
+    <li>statueSubjectDesc>공중에서 점프한 채 멈춘 포즈이다</li>
+    <li>statueSubjectDesc>보이지 않는 물에 그물을 던지고 있다</li>
+    <li>statueSubjectDesc>호화로운 식사를 하고 있다</li>
+    <li>statueSubjectDesc>사슬에서 벗어나려고 몸부림치고 있다</li>
+    <li>statueSubjectDesc>조용히 속삭이고 있다</li>
+    <li>statueSubjectDesc>경이로 가득 찬 눈으로 별을 올려보고 있다</li>
+    <li>statueSubjectDesc>보이지 않는 창을 던지고 있다</li>
+    <li>statueSubjectDesc>반항적으로 종이를 찢고 있다</li>
+    <li>statueSubjectDesc>깊은 물을 헤치고 나아가고 있다</li>
+    <li>statueSubjectDesc>두 손으로 커다란 [prop][을/를] 들고 있다</li>
+    <li>statueSubjectDesc>이(가) 없다[maybeInsult]</li>
+    <li>statueSubjectDesc>햇빛을 찡그리고 바라본다[maybeInsult]</li>
+    <li>statueSubjectDesc>꽃다발 냄새를 맡는다[maybeNoNose]</li>
+    <li>maybeOtherHand>. [otherHand]</li>
+    <li>maybeOtherHand></li>
+    <li>otherHand>조각상의 다른 손은 [prop][을/를] 들고 있다</li>
+    <li>otherHand>조각상의 다른 손은 허리에 얹혀 있다</li>
+    <li>otherHand>조각상의 다른 손은 음란한 제스처를 하고 있다</li>
+    <li>otherHand>조각상의 다른 손이 없다[maybeInsult]</li>
+    <li>maybeNoNose>. 조각상에 코가 없다[maybeInsult]</li>
+    <li>maybeNoNose></li>
+    <li>maybeInsult>. 이것은 명백한 모욕이다</li>
+    <li>maybeInsult>. 예술가의 조롱인지 단순 실수인지는 불분명하다</li>
+    <li>maybeInsult>. 예술가가 대상을 조롱하는 것처럼 보인다</li>
+    <li>maybeInsult(p=3)></li>
+    <li>statueFaceDesc(p=2)>조각상의 얼굴에는 [facialLook]이(가) 드러난다.</li>
+    <li>statueFaceDesc(p=2)>[SUBJECT_indefinite]의 얼굴에서 [facialLook]을(를) 볼 수 있다.</li>
+    <li>statueFaceDesc>[SUBJECT_indefinite]는 [facialLook] 표정을 하고 있다.</li>
+    <li>statueFaceDesc>[SUBJECT_indefinite]의 얼굴에서 [depicts] [facialLook]이(가) 보인다.</li>
+    <li>statueFaceDesc>[SUBJECT_indefinite]에게는 현명하고 사려 깊은 표정이 있다.</li>
+    <li>statueFaceDesc>[SUBJECT_indefinite]는 입을 벌리고 소리 없는 비명을 지른다.</li>
+    <li>statueFaceDesc>[SUBJECT_indefinite]는 건조하게 먼 곳을 바라본다.</li>
+    <li>statueFaceDesc>조각상은 결연한 표정의 [SUBJECT_indefinite]을(를) 묘사한다.</li>
+    <li>statueFaceDesc>조각상은 광기 어린 웃음을 짓는 [SUBJECT_indefinite]을(를) 그려낸다.</li>
+    <li>statueFaceDesc>[SUBJECT_indefinite]는 [facialFeature]을/를 지니고 있다.</li>
+    <li>statueFaceDesc>조각상에 [facialFeature]이(가) 있다.</li>
+    <li>statueFaceDesc>특히 조각상에 [facialFeature]이(가) 두드러진다.</li>
+    <li>facialLook>진정한 기쁨</li>
+    <li>facialLook>순수한 공포</li>
+    <li>facialLook>순수한 황홀경</li>
+    <li>facialLook>순수한 행복</li>
+    <li>facialLook>충격과 당황</li>
+    <li>facialLook>재미</li>
+    <li>facialLook>말로 다 할 수 없는 슬픔</li>
+    <li>facialLook>깊은 사색</li>
+    <li>facialLook>혼란</li>
+    <li>facialLook>자부심과 만족</li>
+    <li>facialLook>재미</li>
+    <li>facialLook>혐오</li>
+    <li>facialLook>반항</li>
+    <li>facialFeature>장난스러운 미소</li>
+    <li>facialFeature>찌푸린 눈썹</li>
+    <li>facialFeature>예술가를 의심하듯 치켜뜬 눈썹</li>
+    <li>facialFeature>길게 내민 혀</li>
+    <li>facialFeature>고통에 찌든 얼굴</li>
+    <li>facialFeature>반짝이는 듯한 눈동자</li>
+    <li>facialFeature>평화롭게 감긴 두 눈</li>
+    <li>facialFeature>입김을 내뿜듯 부푼 볼</li>
+    <li>facialFeature>구슬 같은 눈과 움푹 들어간 입술</li>
+    <li>style_group_statue>[artextra_clause_statue]. [style_clause].</li>
+    <li>style_group_statue>[style_clause]. [artextra_clause_statue].</li>
+    <li>style_group_statue>[style_clause].</li>
+    <li>style_group_statue>[artextra_clause_statue].</li>
+    <li>style_group_statue></li>
+    <li>artextra_clause_statue>조각상의 받침대는 [subimageplural](으)로 장식되어 있다</li>
+    <li>artextra_clause_statue>조각 주인공의 피부에 [subimageplural]이(가) 새겨져 있다</li>
+    <li>artextra_clause_statue>여러 개의 작은 조각품들이 조각상 주변에 있다. 각각은 [subimagesingle]을(를) 닮았다</li>
+    <li>artextra_clause_statue>조각상 다리가 [subimageplural]에 가려져 있다</li>
+    <li>artextra_clause_statue>조각상의 얼굴에 [carvedVerb]된 [subimageany]의 이미지가 새겨져 있다</li>
+    <li>artextra_clause_statue>[SUBJECT_indefinite]는 [Community]의 한가운데에 서 있다</li>
+    <li>artextra_clause_statue>조각상의 받침대는 [TerrainFeature]처럼 보인다</li>
+    <li>artextra_clause_statue>[SUBJECT_indefinite]가 [TerrainFeature]에서 솟아오르는 모습이다</li>
+    <li>artextra_clause_statue>작은 [Character]이(가) [side_position_statue]에 나타난다</li>
+    <li>artextra_clause_statue>[PAWN_adj] [Character]이(가) [side_position_statue]에 나타난다</li>
+    <li>artextra_clause_statue>[Quantity_adjphrase] [Character]이(가) [side_position_statue]에 나타난다</li>
+    <li>artextra_clause_statue>[Quantity_adjphrase] [PAWN_adj] [Character]이(가) [side_position_statue]에 나타난다</li>
+    <li>artextra_clause_statue>[Animal]이(가) [side_position_statue]에 새겨져 있다</li>
+    <li>artextra_clause_statue>멀리서 보면, 조각상의 [composition] 구성이 [subimageany]의 윤곽을 드러낸다</li>
+    <li>artextra_clause_statue>조각상이 한 쪽 팔 아래로 [Animal]을(를) 안고 있다</li>
+    <li>artextra_clause_statue>조각상이 [Quantity_adjphrase] [PAWN_adj] [Character]을(를) 들고 있다</li>
+    <li>artextra_clause_statue>[SUBJECT_indefinite]의 [statueBodyPart]가 갈라져 있다. 안에는 [subimageplural]이(가) 보인다</li>
+    <li>carvedAdverb>정성껏</li>
+    <li>carvedAdverb>빠르게</li>
+    <li>carvedAdverb>거칠게</li>
+    <li>carvedAdverb>세밀하게</li>
+    <li>carvedAdverb>정교하게</li>
+    <li>carvedVerb>조각</li>
+    <li>carvedVerb>조형</li>
+    <li>carvedVerb>새김</li>
+    <li>statueAdj>실물 이상</li>
+    <li>statueAdj>우뚝 솟은</li>
+    <li>statueAdj>웅장한</li>
+    <li>statueAdj>커다란</li>
+    <li>statueAdj>실물 같은</li>
+    <li>statueAdj>엄숙한</li>
+    <li>statueAdj>위엄 있는</li>
+    <li>statueAdj>장중한</li>
+    <li>statueAdj>고귀한</li>
+    <li>statueAdj>평온한</li>
+    <li>statueAdj>붕괴된</li>
+    <li>statueAdj>소박한</li>
+    <li>statueAdj>노출된</li>
+    <li>statueAdj>조잡한</li>
+    <li>statueAdj>자극적인</li>
+    <li>statueAdj>도발적인</li>
+    <li>statueAdj>암시적인</li>
+    <li>statueAdj>기괴한</li>
+    <li>statueAdj>섬뜩한</li>
+    <li>statueAdj>위풍당당한</li>
+    <li>statueDepicts>묘사한다</li>
+    <li>statueDepicts>보여준다</li>
+    <li>statueDepicts>그려낸다</li>
+    <li>side_position_statue>받침대 위에</li>
+    <li>side_position_statue>[SUBJECT_indefinite] 옆의 받침대 위에</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 뒤꿈치 아래에</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 팔에 안겨</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 머리 위에</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 어깨 위에</li>
+    <li>side_position_statue>중앙 조각상 뒤에</li>
+    <li>side_position_statue>조각상의 [statueBodyPart]에 파인 공간 안에</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 손바닥에</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 [statueBodyPart]에서 터져 나오는 모습으로</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 입에서 나오는 모습으로</li>
+    <li>side_position_statue>[SUBJECT_indefinite]의 등 위에</li>
+    <li>statueBodyPart>가슴</li>
+    <li>statueBodyPart>배</li>
+    <li>statueBodyPart>등</li>
+    <li>statueBodyPart>머리</li>
+    <li>statueBodyPart>눈</li>
+    <li>prop>책</li>
+    <li>prop>검</li>
+    <li>prop>창</li>
+    <li>prop>총</li>
+    <li>prop>사이킥 유물</li>
+    <li>prop>인간의 심장</li>
+  </ArtDescription_Statue.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]'s statue</li>
+    <li>r_statue_name->Study of [SUBJECT_indefinite]</li>
+    <li>r_statue_name->A Study in [statueIdea]</li>
+    <li>r_statue_name->[statueAdj] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], the [statueAdj]</li>
+    <li>r_statue_name->The [statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->[statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->Figure of [statueIdea]</li>
+    <li>r_statue_name->[statueIdea] and [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]'s [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], the [subjectNoun]</li>
+    <li>r_statue_name->The [subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun] of [statueIdea]</li>
+    <li>statueAdj->Sculpted</li>
+    <li>statueAdj->Silent</li>
+    <li>statueAdj->Eternal</li>
+    <li>statueAdj->Perfect</li>
+    <li>statueAdj->Chiseled</li>
+    <li>statueAdj->Timeless</li>
+    <li>statueAdj->Unbroken</li>
+    <li>statueAdj->Echoing</li>
+    <li>statueAdj->Ideal</li>
+    <li>statueAdj->Human</li>
+    <li>statueAdj->Flawed</li>
+    <li>statueAdj->Watchful</li>
+    <li>statueAdj->Echoing</li>
+    <li>statueAdj->Mournful</li>
+    <li>statueAdj->Frozen</li>
+    <li>statueAdj->Crumbling</li>
+    <li>subjectNoun->Watcher</li>
+    <li>subjectNoun->Hero</li>
+    <li>subjectNoun->Legend</li>
+    <li>subjectNoun->Defender</li>
+    <li>subjectNoun->Sentinel</li>
+    <li>subjectNoun->Adonis</li>
+    <li>subjectNoun->Spirit</li>
+    <li>subjectNoun->Figure</li>
+    <li>subjectNoun->Image</li>
+    <li>subjectNoun->Soul</li>
+    <li>subjectNoun->Body</li>
+    <li>subjectNoun->Visage</li>
+    <li>subjectNoun->Contemplation</li>
+    <li>subjectNoun->Form</li>
+    <li>subjectNoun->Angel</li>
+    <li>subjectNoun->Statue</li>
+    <li>subjectNoun->Mirage</li>
+    <li>statueIdea->Strength</li>
+    <li>statueIdea->Wisdom</li>
+    <li>statueIdea->Cunning</li>
+    <li>statueIdea->Heroism</li>
+    <li>statueIdea->Power</li>
+    <li>statueIdea->Memory</li>
+    <li>statueIdea->Spirit</li>
+    <li>statueIdea->Light</li>
+    <li>statueIdea->Patriotism</li>
+    <li>statueIdea->Morning Light</li>
+    <li>statueIdea->Night Sky</li>
+    <li>statueIdea->Sunrise</li>
+    <li>statueIdea->Drifting Sand</li>
+    <li>statueIdea->Everlasting Love</li>
+    <li>statueIdea->Passion</li>
+  -->
+  <NamerStatue.rulePack.rulesStrings>
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]의 조각상</li>
+    <li>r_statue_name->[SUBJECT_indefinite] 연구</li>
+    <li>r_statue_name->[statueIdea]에 대한 연구</li>
+    <li>r_statue_name->[statueAdj] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], [statueAdj]한 자</li>
+    <li>r_statue_name>그 [statueAdj] [subjectNoun]</li>
+    <li>r_statue_name>[statueAdj] [subjectNoun]</li>
+    <li>r_statue_name>[statueIdea]의 형상</li>
+    <li>r_statue_name>[statueIdea]와 [subjectNoun]</li>
+    <li>r_statue_name>[SUBJECT_indefinite]의 [subjectNoun]</li>
+    <li>r_statue_name>[SUBJECT_indefinite], [subjectNoun]</li>
+    <li>r_statue_name>그 [subjectNoun]</li>
+    <li>r_statue_name>[statueIdea]의 [subjectNoun]</li>
+    <li>statueAdj>조각된</li>
+    <li>statueAdj>고요한</li>
+    <li>statueAdj>영원한</li>
+    <li>statueAdj>완벽한</li>
+    <li>statueAdj>새겨진</li>
+    <li>statueAdj>시간을 초월한</li>
+    <li>statueAdj>깨지지 않은</li>
+    <li>statueAdj>울려 퍼지는</li>
+    <li>statueAdj>이상적인</li>
+    <li>statueAdj>인간적인</li>
+    <li>statueAdj>결함 있는</li>
+    <li>statueAdj>예리하게 보는</li>
+    <li>statueAdj>메아리치는</li>
+    <li>statueAdj>슬픈</li>
+    <li>statueAdj>얼어붙은</li>
+    <li>statueAdj>부서진</li>
+    <li>subjectNoun>감시자</li>
+    <li>subjectNoun>영웅</li>
+    <li>subjectNoun>전설</li>
+    <li>subjectNoun>수호자</li>
+    <li>subjectNoun>파수꾼</li>
+    <li>subjectNoun>아도니스</li>
+    <li>subjectNoun>정령</li>
+    <li>subjectNoun>형상</li>
+    <li>subjectNoun>이미지</li>
+    <li>subjectNoun>영혼</li>
+    <li>subjectNoun>신체</li>
+    <li>subjectNoun>얼굴</li>
+    <li>subjectNoun>사색</li>
+    <li>subjectNoun>형상</li>
+    <li>subjectNoun>천사</li>
+    <li>subjectNoun>조각상</li>
+    <li>subjectNoun>환영</li>
+    <li>statueIdea>힘</li>
+    <li>statueIdea>지혜</li>
+    <li>statueIdea>기지</li>
+    <li>statueIdea>영웅심</li>
+    <li>statueIdea>권력</li>
+    <li>statueIdea>기억</li>
+    <li>statueIdea>정령</li>
+    <li>statueIdea>빛</li>
+    <li>statueIdea>애국심</li>
+    <li>statueIdea>아침 햇살</li>
+    <li>statueIdea>밤하늘</li>
+    <li>statueIdea>일출</li>
+    <li>statueIdea>흩날리는 모래</li>
+    <li>statueIdea>영원한 사랑</li>
+    <li>statueIdea>열정</li>
+  </NamerStatue.rulePack.rulesStrings>
+  
+</LanguageData>

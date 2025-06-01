@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] (으)로 [itemStashContentsValue] 상당의 귀중품이 있는 위치를 찾았습니다. 이 모음에는 다음이 포함되어 있습니다:\n\n[itemStashContents]\n\n[allSitePartsDescriptionsExceptFirst] (이)라고 보입니다</li>
+  </OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[stash] of [treasure]</li>
+    <li>stash->Stash</li>
+    <li>stash->Cache</li>
+    <li>stash->Collection</li>
+    <li>stash->Shack</li>
+    <li>treasure->Treasure</li>
+    <li>treasure->Valuables</li>
+    <li>treasure->Fortune</li>
+    <li>treasure->Goodies</li>
+    <li>treasure->Supplies</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
+    <li>questName->[treasure]의 [stash]</li>
+    <li>stash->은닉처</li>
+    <li>stash->비축물</li>
+    <li>stash->수집품</li>
+    <li>stash->판잣집</li>
+    <li>treasure->보물</li>
+    <li>treasure->귀중품</li>
+    <li>treasure->행운</li>
+    <li>treasure->좋은 것들</li>
+    <li>treasure->보급품</li>
+  </OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->loot stashes</li>
+    <li>subject->secret treasures</li>
+    <li>subject->valuables</li>
+    <li>questMapFeature->drawing of a treasure chest</li>
+    <li>questMapFeature->supply shack</li>
+    <li>questMapText->secret item stash</li>
+    <li>questMapText->loot here</li>
+    <li>questMapText->hidden valuables</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
+    <li>subject->전리품 은닉처</li>
+    <li>subject->비밀 보물</li>
+    <li>subject->귀중품</li>
+    <li>questMapFeature->보물상자 그림</li>
+    <li>questMapFeature->보급 판잣집</li>
+    <li>questMapText->비밀 아이템 은닉처</li>
+    <li>questMapText->여기에 전리품 있음</li>
+    <li>questMapText->숨겨진 귀중품</li>
+  </OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_ItemStash_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]<!-- EN: Quest expired: [resolvedQuestName] --></OpportunitySite_ItemStash_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_ItemStash_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>가로챈 통신문에 따르면 아이템 은닉처가 다른 사람이 차지한 것으로 보입니다. 퀘스트 [resolvedQuestName] 이(가) 만료되었습니다.<!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. --></OpportunitySite_ItemStash_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

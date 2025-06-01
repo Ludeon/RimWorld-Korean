@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an infamous company of mercenaries. These ancient soldiers are from a long-forgotten era in the planet's history. They have recently awoken from cryptosleep and are causing trouble in the area.\n\nThe company is led by [LEADER_nameDef], who possesses a unique [WEAPON_quality] weapon. The group contains:\n\n[mercenaryList]\n\nIf you're able to capture or kill the leader, you can take the unique weapon.\n\n[location]</li>
+    <li>location(atLandmark==true)->The soldiers are hiding out in an ancient structure at [landmarkName].</li>
+    <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] 악명 높은 용병 집단의 위치를 발견했습니다. 이 고대 병사들은 행성 역사의 오래전에 잊혀진 시대에서 온 자들입니다. 이들은 최근 크립토슬립에서 깨어나 근처에서 문제를 일으키고 있습니다.\n\n이 집단은 독특한 [WEAPON_quality] 무기를 지닌 [LEADER_nameDef]이(가) 이끌고 있습니다. 집단의 구성원:\n\n[mercenaryList]\n\n지도자를 사로잡거나 처치하면 해당 유니크 무기를 획득할 수 있습니다.\n\n[location]</li>
+    <li>location(atLandmark==true)->병사들은 [landmarkName]의 고대 구조물에 숨어 있습니다.</li>
+    <li>location(atLandmark==false)->병사들은 고대 구조물에 숨어 있습니다.</li>
+  </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->Ancient</li>
+    <li>ancient->Awoken</li>
+    <li>ancient->Cryptosleep</li>
+    <li>mercenaries->Mercenaries</li>
+    <li>mercenaries->Soldiers</li>
+    <li>mercenaries->Warriors</li>
+    <li>mercenaries->Fighters</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+    <li>questName->고대 [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->고대</li>
+    <li>ancient->깨어난</li>
+    <li>ancient->크립토슬립</li>
+    <li>mercenaries->용병들</li>
+    <li>mercenaries->병사들</li>
+    <li>mercenaries->전사들</li>
+    <li>mercenaries->투사들</li>
+  </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient mercenaries</li>
+    <li>subject->ancient soldiers</li>
+    <li>subject->ancients</li>
+    <li>questMapFeature->military garrison</li>
+    <li>questMapFeature->drawing of an ancient soldier</li>
+    <li>questMapFeature->sketch of a man from another time</li>
+    <li>questMapText->they're awake</li>
+    <li>questMapText->dangerous ancients</li>
+    <li>questMapText->ancient weapons</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+    <li>subject->고대 용병들</li>
+    <li>subject->고대 병사들</li>
+    <li>subject->고대인들</li>
+    <li>questMapFeature->군사 주둔지</li>
+    <li>questMapFeature->고대 병사의 그림</li>
+    <li>questMapFeature->다른 시대의 남자 스케치</li>
+    <li>questMapText->그들이 깨어났다</li>
+    <li>questMapText->위험한 고대인들</li>
+    <li>questMapText->고대 무기들</li>
+  </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of a camp controlled by [siteFaction_name]. The camp contains hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] [siteFaction_name]이(가) 지배하는 캠프의 위치를 알아냈습니다. 그 캠프에는 적대적인 [siteFaction_pawnsPlural]이(가) 있지만, 어떤 방어 수단을 갖추고 있는지는 알 수 없습니다.</li>
+  </OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+    <li>questName->그 [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef]와(과) [camp]</li>
+    <li>camp->캠프</li>
+    <li>camp->전초기지</li>
+    <li>camp->은신처</li>
+    <li>camp->야영지</li>
+    <li>bandit->도적</li>
+    <li>bandit->침입자</li>
+    <li>bandit->무법자</li>
+    <li>bandit->데스페라도</li>
+    <li>bandit->도망자</li>
+    <li>bandit->약탈자</li>
+    <li>bandit->강도</li>
+    <li>bandit->노상강도</li>
+  </OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->bandit camps</li>
+    <li>subject->outlaws</li>
+    <li>subject->raider sightings</li>
+    <li>questMapFeature->small camp</li>
+    <li>questMapFeature->bandit outpost</li>
+    <li>questMapFeature->raider encampment</li>
+    <li>questMapText->dangerous folk</li>
+    <li>questMapText->camp loot</li>
+    <li>questMapText->trespassers get skinned</li>
+    <li>questMapText->traders beware - outlaws</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+    <li>subject->도적 캠프</li>
+    <li>subject->무법자</li>
+    <li>subject->침입자 목격담</li>
+    <li>questMapFeature->작은 캠프</li>
+    <li>questMapFeature->도적 전초기지</li>
+    <li>questMapFeature->침입자 야영지</li>
+    <li>questMapText->위험한 인물들</li>
+    <li>questMapText->캠프 전리품</li>
+    <li>questMapText->침입자는 가죽이 벗겨집니다</li>
+    <li>questMapText->상인 주의 - 무법자 있음</li>
+  </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료됨: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_BanditCamp_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>도적 캠프가 짐을 싸서 떠났습니다. 퀘스트 [resolvedQuestName]이(가) 만료되었습니다.</OpportunitySite_BanditCamp_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp_Giver.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>밝혀진 후, 도적 캠프가 흩어졌습니다. 퀘스트 [resolvedQuestName]이(가) 종료되었습니다.</OpportunitySite_BanditCamp_Giver.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
