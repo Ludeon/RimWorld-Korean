@@ -90,37 +90,15 @@
   <!-- EN: Pit gate collapsing -->
   <PitGateCollapsing>지하 통로 붕괴 중</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
-  <PitGateSettling>지하 통로 내려앉는 중</PitGateSettling> 
-  <!-- EN: View undercave -->
-  <ViewUndercave>지하동굴 보기</ViewUndercave> 
-  <!-- EN: View the connected undercave map. -->
-  <ViewUndercaveDesc>연결된 지하동굴 지도를 봅니다.</ViewUndercaveDesc>
-  <!-- EN: View surface -->
-  <ViewSurface>표면 보기</ViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <ViewSurfaceDesc>연결된 표면 지도를 봅니다.</ViewSurfaceDesc>
+  <PitGateSettling>지하 통로 내려앉는 중</PitGateSettling>
   <!-- EN: Pit rumbles -->
   <EmergenceWarningLabel>웅웅거리는 구덩이</EmergenceWarningLabel>
   <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
   <EmergenceWarningText>땅이 발밑에서 흔들리며 구덩이 속에서 들리는 인간이 아닌 것들의 비명이 가까워지는 것 같습니다. 뭔가 곧 나타날 것 같습니다.</EmergenceWarningText>
 
-  <!-- Pit Burrow -->
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>메우기</DesignatorFillIn>
-  <!-- EN: Fill in this pit burrow. -->
-  <DesignatorFillInDesc>구덩이를 메웁니다.</DesignatorFillInDesc>
-
     <!-- Undercave -->
-  <!-- EN: Enter pit gate -->
-  <EnterPitGate>지하 통로로 들어가기</EnterPitGate> 
-  <!-- EN: Climb to surface -->
-  <ExitPitGate>표면으로 올라가기</ExitPitGate>
-  <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>살짐승의 둥지</LetterLabelGateEntered> 
-  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>지하 통로 깊숙한 곳에서 살짐승으로 가득한 거대한 동굴을 발견했습니다.\n\n동굴 속은 사방이 살아있는 살덩어리로 막혀있어 앞으로 나아갈 수 없습니다. 살덩이를 공격해 파괴하세요.\n\n동굴의 구조는 불안정해 보입니다. 살덩이 뒤에 무엇이 있는지 알아내면, 굴을 붕괴시키고 지하 통로를 닫을 수 있을지도 모릅니다.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>꿈틀거리는 소리</LetterLabelDreadmeldWarning> 
+  <LetterLabelDreadmeldWarning>꿈틀거리는 소리</LetterLabelDreadmeldWarning>
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
   <LetterDreadmeldWarning>{PAWN_nameDef}(이)가 살덩이 근처로 다가가자, 따뜻한 표면 아래에서 무언가가 심하게 몸부림치고 고동치는 것을 느낍니다. 살아있는 어떤 거대한 실체가 살로 된 벽 뒤에 숨어있습니다.</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
@@ -274,8 +252,6 @@
   <Resisted>저항</Resisted>
   <!-- EN: Damaged -->
   <HealthFactor>피해</HealthFactor>
-  <!-- EN: Deactivated. -->
-  <Deactivated>비활성화됨.</Deactivated> <!-- -->
 
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>{PAWN_labelShort}(이)가 보내졌습니다.</CommandSent>
@@ -732,7 +708,7 @@
   <VoidMonolithViewResearch>이상 현상 연구 보기</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>현재 모노리스 단계</CurrentMonolithLevel>
-  <!-- EN: Investigate to learn more. -->
+  <!-- EN: Send a colonist to investigate this. -->
   <VoidMonolithUndiscovered>조사하여 더 알아보세요.</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
   <VoidMonolithRequiredEntityCategory>모노리스를 다음 단계로 발전시키려면 {0}개의 {1} 등급 실체를 발견해야 합니다.</VoidMonolithRequiredEntityCategory>
@@ -779,7 +755,7 @@
   <MonolithAutoActivatingText>공포의 물결이 정착민을 훑고 지나갑니다. 쓰러진 모노리스가 동요하기 시작했습니다. 천천히 모노리스는 뒤틀리고 저절로 바뀌기 시작해, 뭔가 새로운 것으로 변합니다.\n\n며칠 안에 이 과정이 완료될 것입니다. 다음에 일어날 일에 대비하세요.</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>공허 모노리스</MonolithAutoActivatedLabel>
-  <!-- EN: The monolith’s transformation is almost complete... -->
+  <!-- EN: The monolith's transformation is almost complete... -->
   <MonolithAutoActivatedText>모노리스의 변화가 거의 끝났습니다...</MonolithAutoActivatedText>
 
   <!-- EN: Gray pall -->
@@ -890,4 +866,14 @@
   <!-- EN: Security doors only -->
   <SecurityDoorsOnly>보안문만 해당됨</SecurityDoorsOnly>
   
+  <!-- UNUSED -->
+  <ViewUndercave>지하동굴 보기</ViewUndercave>
+  <ViewUndercaveDesc>연결된 지하동굴 지도를 봅니다.</ViewUndercaveDesc>
+  <ViewSurface>표면 보기</ViewSurface>
+  <ViewSurfaceDesc>연결된 표면 지도를 봅니다.</ViewSurfaceDesc>
+  <EnterPitGate>지하 통로로 들어가기</EnterPitGate>
+  <ExitPitGate>표면으로 올라가기</ExitPitGate>
+  <LetterLabelGateEntered>살짐승의 둥지</LetterLabelGateEntered>
+  <LetterGateEntered>지하 통로 깊숙한 곳에서 살짐승으로 가득한 거대한 동굴을 발견했습니다.\n\n동굴 속은 사방이 살아있는 살덩어리로 막혀있어 앞으로 나아갈 수 없습니다. 살덩이를 공격해 파괴하세요.\n\n동굴의 구조는 불안정해 보입니다. 살덩이 뒤에 무엇이 있는지 알아내면, 굴을 붕괴시키고 지하 통로를 닫을 수 있을지도 모릅니다.</LetterGateEntered>
+
 </LanguageData>

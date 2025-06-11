@@ -107,8 +107,6 @@
   <PassionModAdd>{0_label}의 열정을 한 단계 증가시킵니다.</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
   <PassionModDrop>{0_label}의 모든 열정을 제거합니다.</PassionModDrop>
-  <!-- EN: Causes need -->
-  <CausesNeed>욕구 생성</CausesNeed>
   <!-- EN: Gives ability -->
   <GivesAbility>다음 능력을 제공</GivesAbility>
   <!-- EN: Gives abilities -->
@@ -117,10 +115,6 @@
   <ResourceLossPerDay>{RESOURCE}: 매일 {OFFSET}</ResourceLossPerDay>
   <!-- EN: Removes -->
   <Removes>다음을 제거</Removes>
-  <!-- EN: Disables need -->
-  <DisablesNeed>다음 욕구를 비활성화</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>다음 욕구들을 비활성화</DisablesNeeds>
   <!-- EN: Baby -->
   <DevelopmentStage_Baby>아기</DevelopmentStage_Baby>
   <!-- EN: Child -->
@@ -139,5 +133,8 @@
   <GeneOverdoseImmune>보유자는 {0_label}(을)를 과다 복용할 수 없습니다.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
   <GeneOverdoseFactor>보유자는 {0_label}(을)를 과다 복용할 가능성이 {1}입니다.</GeneOverdoseFactor>
+
+  <!-- UNUSED -->
+  <CausesNeed>욕구 생성</CausesNeed>
 
 </LanguageData>

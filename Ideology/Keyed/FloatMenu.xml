@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>{0}만 건설 가능</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>이미 {0}(을)를 진행하고 있습니다.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>TODO</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>극단적인 온도로 인해 한 명 이상의 참여자가 참석할 수 없습니다.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
@@ -36,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>이 세력에 사용할 수 없음</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>제거</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>규율 제거</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -101,17 +101,6 @@
   <IdeoAlreadyHasAltar>오직 하나의 제단/상징문양만 보유 가능</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>의류 염색</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>{0} 해킹</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>{0}(을)를 해킹할 수 없음</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>이미 해킹함</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>해킹 불가능</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>보급품 낙하를 위해</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>{0} 설치</InstallRelic>

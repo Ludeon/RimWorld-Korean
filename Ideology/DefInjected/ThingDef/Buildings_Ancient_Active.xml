@@ -5,21 +5,17 @@
   <AncientCommsConsole.label>고대 통신기</AncientCommsConsole.label>
   <!-- EN: An ancient console with an attached communications dish. Valuable parts are missing, and everything else is degraded to uselessness. -->
   <AncientCommsConsole.description>통신 안테나가 부착되어있는 고대의 기계장치입니다. 귀중한 부품들은 없어졌으며, 그 외의 것들도 모두 삭아 쓸모없어졌습니다.</AncientCommsConsole.description>
+  <!-- EN: Hack to access ancient supply satellite. -->
+  <AncientCommsConsole.comps.CompHackable.notHackedInspectString>TODO</AncientCommsConsole.comps.CompHackable.notHackedInspectString>
   
   <!-- EN: ancient enemy terminal -->
   <AncientEnemyTerminal.label>고대 경비 호출기</AncientEnemyTerminal.label>
   <!-- EN: An ancient computer terminal. It can be hacked to call nearby enemies. -->
   <AncientEnemyTerminal.description>고대의 단말기입니다. 해킹이 완료되면 근처의 적들이 깨어날 것입니다.</AncientEnemyTerminal.description>
-  
-  <!-- EN: ancient unstable fuel node -->
-  <AncientFuelNode.label>고대 불안정한 연료 주입구</AncientFuelNode.label>
-  <!-- EN: An ancient, unstable fuel node once used to charge machines with fuel. It has become unstable over the years due to lack of maintenance. -->
-  <AncientFuelNode.description>기계에 연료를 충전할 때 사용하던 불안정한 고대의 연료 주입구입니다. 오랫동안 방치되어 불안정해졌습니다.</AncientFuelNode.description>
-  
-  <!-- EN: hermetic crate -->
-  <AncientHermeticCrate.label>밀폐 보관기</AncientHermeticCrate.label>
-  <!-- EN: A self-powered hermetically-sealed crate for preserving valuable items. These can preserve their contents for a long time. -->
-  <AncientHermeticCrate.description>자체 동력으로 귀중품을 밀폐 보관하는 장치입니다. 내용물은 오랜 시간 동안 상태를 유지합니다.</AncientHermeticCrate.description>
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. -->
+  <AncientEnemyTerminal.comps.CompHackable.autohackWarningString>TODO</AncientEnemyTerminal.comps.CompHackable.autohackWarningString>
+  <!-- EN: Hack to call nearby enemies. -->
+  <AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>TODO</AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>
   
   <!-- EN: security crate -->
   <AncientSecurityCrate.label>보안 밀폐 보관기</AncientSecurityCrate.label>

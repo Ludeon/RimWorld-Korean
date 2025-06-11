@@ -70,11 +70,6 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>사망한 정착민이 매장되지 않은 채 방치되어 있습니다.\n\n방치된 시신은 다른 정착민들의 기분을 망칠 것입니다.</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks suitable weapon -->
-  <HunterLacksWeapon>사냥용 무기 필요</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
-  <HunterLacksWeaponDesc>사냥꾼으로 지정된 정착민이 적합한 원거리 무기를 가지고 있지 않습니다.\n\n적합한 원거리 무기를 주기 전까지는 사냥을 하지 않을 것입니다.\n\n무기가 필요한 사냥꾼은 다음과 같습니다</HunterLacksWeaponDesc>
-
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>낡은 옷</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
@@ -152,6 +147,8 @@
   <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
   <NeedResearchProjectDesc>연구 설비가 있지만 진행할 연구 과제를 선택하지 않았습니다.\n\n(클릭해서 연구 메뉴를 여세요.)</NeedResearchProjectDesc>
 
+  <!-- EN: 1 colonist idle -->
+  <ColonistIdle>TODO</ColonistIdle>
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0}명의 정착민 대기 중</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
@@ -334,4 +331,8 @@
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
   <NeedResearchBenchDesc>{0}(을)를 연구 프로젝트로 지정했습니다. 진행하려면 {1}(을)를 건설해야 합니다.</NeedResearchBenchDesc>
   
+  <!-- UNUSED -->
+  <HunterLacksWeapon>사냥용 무기 필요</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>사냥꾼으로 지정된 정착민이 적합한 원거리 무기를 가지고 있지 않습니다.\n\n적합한 원거리 무기를 주기 전까지는 사냥을 하지 않을 것입니다.\n\n무기가 필요한 사냥꾼은 다음과 같습니다</HunterLacksWeaponDesc>
+
 </LanguageData>

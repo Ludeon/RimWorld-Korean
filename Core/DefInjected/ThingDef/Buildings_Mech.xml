@@ -1,9 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: mini-slug -->
+  <Bullet_MiniSlug.label>소형 저격포</Bullet_MiniSlug.label>
+  
   <!-- EN: burning power cell -->
   <BurningPowerCell.label>불타는 발전기</BurningPowerCell.label>
   <!-- EN: A damaged mechanoid power generation unit. The cell has been destabilized by the death of the mechanoid, and is burning down in seconds. When critically damaged, this cell will explode. -->
   <BurningPowerCell.description>손상된 메카노이드 전력 공급 장치입니다. 메카노이드의 죽음 때문에 불안정해졌으며 몇 초 내로 불타 파괴됩니다. 치명적으로 손상되면 폭발합니다.</BurningPowerCell.description>
+  
+  <!-- EN: mech node -->
+  <Gloomlight.label>조명 장치</Gloomlight.label>
+  <!-- EN: A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage. -->
+  <Gloomlight.description>용도를 알 수 없는 자가동력 메카노이드 장치입니다. 온전한 상태로 남아있으면 분해해서 귀중한 자원을 얻을 수 있습니다. 큰 피해를 입으면 내부의 극소 발전기가 손상돼 장치가 망가지고, 아무것도 얻을 수 없습니다.</Gloomlight.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <Gloomlight.comps.CompInspectString.inspectString>TODO</Gloomlight.comps.CompInspectString.inspectString>
+  
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.label>타격포</Gun_MiniTurretMech.label>
+  <!-- EN: An automatic turret-mounted slug-thrower. -->
+  <Gun_MiniTurretMech.description>지원 포탑에 설치된 무장입니다.</Gun_MiniTurretMech.description>
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.verbs.Verb_Shoot.label>타격포</Gun_MiniTurretMech.verbs.Verb_Shoot.label>
+  
+  <!-- EN: mini-slugger turret -->
+  <Turret_AutoMiniTurret.label>지원 포탑</Turret_AutoMiniTurret.label>
+  <!-- EN: A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged. -->
+  <Turret_AutoMiniTurret.description>약하지만 멀리 발사할 수 있는 투사체 가속기를 탑재한 자가 발전 방어 포탑입니다. 손상되면 폭발할 수 있습니다.</Turret_AutoMiniTurret.description>
   
 </LanguageData>

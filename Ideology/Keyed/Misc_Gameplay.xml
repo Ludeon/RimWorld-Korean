@@ -91,7 +91,7 @@
   <Styles>양식</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>규율을 포함할 가능성</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>{PAWN_labelShort}(이)가 좋아하는 색입니다. 입은 옷의 {PERCENTAGE} 이상을 이 색{ORIDEO}으로 맞추면 기분이 약간 좋아질 것입니다.\n\n화장대에서 염료를 사용해 옷의 색을 바꿀 수 있습니다.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>이나 {PAWN_possessive} 사상 상징색</OrIdeoColor>
@@ -99,9 +99,9 @@
   <SetIdeoColor>사상 색 설정</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>좋아하는 색 설정</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>{PAWN_nameDef}(이)가 좋아하는 색입니다. 입은 옷의 60% 이상을 이 색이나 {PAWN_pronoun}가 가진 사상의 상징색으로 맞추면 기분이 약간 좋아질 것입니다.</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>{PAWN_nameDef}의 사상 색상입니다. 이 상징색이나 {PAWN_pronoun}가 좋아하는 색상의 60% 이상을 맞추면 기분이 약간 좋아질 것입니다.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>정착지의 사상 설정</ConfigureIdeoligion>
@@ -382,18 +382,6 @@
   <!-- EN: Slave -->
   <OutfitSlave>노예</OutfitSlave>
 
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>해킹 진행률</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>해킹 속도</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}의</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>해킹함</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>해킹한 단말기</TerminalsHacked>
-
   <!-- EN: Relic info found -->
   <RelicInfoFound>발견한 유물 정보</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
@@ -666,5 +654,7 @@
   <ChangeStyleDesc>만들 때 사용할 양식을 바꿉니다. 외관에만 영향을 주며 게임플레이의 차이는 없습니다.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>사용 가능한 양식이 없습니다.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>{0} 후 우주드론 자폭</SpacedroneSelfDestructsIn>
 
 </LanguageData>

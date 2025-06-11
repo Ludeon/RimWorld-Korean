@@ -51,6 +51,13 @@
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>이 생물이 얼마나 많은 오물을 생성하는지 표시합니다.\n\n오물이 문제가 되지 않는 야외 또는 멍석에 두는 것이 좋습니다.</FilthRate.description>
   
+  <!-- EN: flight cooldown -->
+  <FlightCooldown.label>TODO</FlightCooldown.label>
+  <!-- EN: The rest time needed before this creature can fly again. -->
+  <FlightCooldown.description>TODO</FlightCooldown.description>
+  <!-- EN: {0}s -->
+  <FlightCooldown.formatString>TODO</FlightCooldown.formatString>
+  
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>식량 채집량</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
@@ -85,6 +92,13 @@
   <LifespanFactor.label>수명 계수</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
   <LifespanFactor.description>이 생물이 노화 관련 질병을 얻기까지 걸리는 시간에 곱해지는 값입니다. 따라서 간접적으로 생물의 기대 수명을 결정합니다. 100%를 초과하는 수명 계수는 노화 질환을 늦춰 기대 수명을 높이고, 100% 미만의 수명 계수는 노화 질환을 앞당겨서 기대 수명을 낮춥니다.</LifespanFactor.description>
+  
+  <!-- EN: max flight time -->
+  <MaxFlightTime.label>TODO</MaxFlightTime.label>
+  <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
+  <MaxFlightTime.description>TODO</MaxFlightTime.description>
+  <!-- EN: {0}s -->
+  <MaxFlightTime.formatString>TODO</MaxFlightTime.formatString>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>최대 열량</MaxNutrition.label>
@@ -163,5 +177,10 @@
   <ToxicResistance.label>독성 저항</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>중독에 저항하는 정도입니다.</ToxicResistance.description>
+  
+  <!-- EN: wildness -->
+  <Wildness.label>TODO</Wildness.label>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <Wildness.description>TODO</Wildness.description>
   
 </LanguageData>
