@@ -8,6 +8,7 @@ import * as zip from 'jsr:@zip-js/zip-js'
 import { prepare } from './prepare.mjs'
 
 import { AVAILABLE_DLCS } from './consts.mjs'
+import { upload } from './upload.mjs'
 
 const getRimworldBasePath = () => {
   const rimworldPath = Deno.env.get('RIMWORLD_PATH')
@@ -368,6 +369,8 @@ const main = async () => {
     await buildWorker()
   } else if (command === 'prepare') {
     await prepare()
+  } else if (command === 'upload') {
+    await upload()
   } else {
     console.log('Available commands: credit, clear, download, pull, push, worker, prepare')
   }

@@ -368,11 +368,11 @@
   <!-- EN: Threat scale -->
   <Difficulty_ThreatScale_Label>위협 규모</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
-  <Difficulty_ThreatScale_Info>습격과 곤충군락과 같은 위협의 규모와 임무의 난이도를 조정합니다.</Difficulty_ThreatScale_Info>
+  <Difficulty_ThreatScale_Info>습격이나 곤충 군락과 같은 위협의 규모와 임무의 난이도를 조정합니다.</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
   <Difficulty_AllowBigThreats_Label>심각한 위협</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
-  <Difficulty_AllowBigThreats_Info>습격, 곤충군락, 인간사냥, 메카노이드 함선 등과 같은 주요 위협을 허용합니다.</Difficulty_AllowBigThreats_Info>
+  <Difficulty_AllowBigThreats_Info>습격, 곤충 군락, 인간 사냥, 메카노이드 함선 등과 같은 주요 위협을 허용합니다.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
   <Difficulty_AllowViolentQuests_Label>임무 위협</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
@@ -466,7 +466,7 @@
   <!-- EN: Insect spawning rate -->
   <Difficulty_EnemyReproductionRateFactor_Label>곤충 생성률</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>곤충 군락이 새로운 곤충을 생성하는 속도를 조정합니다. 값이 낮을수록 생성되기까지 더 많은 시간이 걸립니다.\n\n이는 곤충군락 생성여부에 영향을 주지 않으며 군락에서 곤충이 생성되는 속도에만 영향을 미칩니다.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>곤충 군락이 새로운 곤충을 생성하는 속도를 조정합니다. 값이 낮을수록 생성되기까지 더 많은 시간이 걸립니다.\n\n이 값은 곤충 군락 생성여부에는 영향을 주지 않으며 군락에서 곤충이 생성되는 속도만 조정합니다.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
   <Difficulty_DeepDrillInfestationChanceFactor_Label>굴착으로 인한 곤충 자극</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
@@ -478,7 +478,7 @@
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>지도 자연동굴 생성</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>휴면 중인 곤충군락이 자연동굴에서 생성될 수 있습니다.\n\n이 설정은 지도 생성 시에만 적용되며 내산지 플레이로 생긴 터널 같은 곳에는 영향을 주지 않습니다.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>휴면 중인 곤충 군락이 자연동굴에 나타날 수 있습니다.\n\n이 설정은 지도 생성 시에만 적용되며 내산지 플레이로 생긴 터널 등에는 영향을 주지 않습니다.</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
   <Difficulty_UnwaveringPrisoners_Label>확고한 수감자 추가</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->

@@ -5,10 +5,14 @@ import { ensureDir } from 'jsr:@std/fs'
 import { AVAILABLE_DLCS } from './consts.mjs'
 
 /**
- * XML 파일에서 <!-- EN: ... --> 주석의 내용을 바로 아래 XML 노드에 적용
+ * Move <!-- EN: ... --> content into node's and remove <!-- UNUSED --> content
  */
 const processXMLContent = (content) => {
-  const result = content.replace(
+  // First, remove everything after <!-- UNUSED --> comment, including preceding whitespace
+  let result = content.replace(/\s*<!--\s*UNUSED\s*-->\s*[\s\S]*?(<\/LanguageData>)/, '\n\n$1')
+
+  // Then process EN comments
+  result = result.replace(
     /<!--\s*EN:\s*([\s\S]*?)\s*-->\s*\n(\s*)(<[^>\s]+(?:\s[^>]*)?>)([\s\S]*?)(<\/[^>]+>)/g,
     (_, enContent, indent, openTag, __, closeTag) => {
       const trimmedEnContent = enContent.trim()
@@ -33,21 +37,28 @@ const processXMLContent = (content) => {
   return result
 }
 
-const processDLCXMLFiles = async (dlcName, outputDir) => {
-  const dlcPath = path.join(Deno.cwd(), dlcName)
+/**
+ * Process a single DLC
+ */
+const processDLCXMLFiles = async (dlcName, outputDir, basePath) => {
+  const dlcPath = path.join(basePath, dlcName)
   const outputDlcPath = path.join(outputDir, dlcName)
+  const startTime = Date.now()
 
   try {
     await Deno.stat(dlcPath)
   } catch (error) {
     if (error instanceof Deno.errors.NotFound) {
-      console.warn(`DLC folder not found, skipping: ${dlcName}`)
-      return
+      console.warn(`${dlcName}⚠️: DLC folder not found, skipping`)
+      return { dlc: dlcName, processed: 0, skipped: true, duration: 0 }
     }
     throw error
   }
 
   await ensureDir(outputDlcPath)
+  let processedCount = 0
+
+  console.log(`${dlcName}: Starting processing...`)
 
   for await (const entry of fs.walk(dlcPath, { includeFiles: true, includeDirs: false })) {
     if (!entry.path.endsWith('.xml')) {
@@ -55,6 +66,13 @@ const processDLCXMLFiles = async (dlcName, outputDir) => {
     }
 
     const relativePath = path.relative(dlcPath, entry.path)
+    
+    // Skip XML files directly in the root folder (like LanguageInfo.xml)
+    // Only files with no directory separator (directly in root)
+    if (!relativePath.includes('/') && !relativePath.includes('\\')) {
+      continue
+    }
+    
     const outputFilePath = path.join(outputDlcPath, relativePath)
 
     await ensureDir(path.dirname(outputFilePath))
@@ -63,17 +81,41 @@ const processDLCXMLFiles = async (dlcName, outputDir) => {
       const content = await Deno.readTextFile(entry.path)
       const processedContent = processXMLContent(content)
       await Deno.writeTextFile(outputFilePath, processedContent)
+      processedCount++
 
-      console.log(`Processed: ${relativePath}`)
+      if (processedCount % 100 === 0) {
+        console.log(`${dlcName}📄: Processed ${processedCount} files...`)
+      }
     } catch (error) {
-      console.error(`Error processing ${entry.path}:`, error)
+      console.error(`${dlcName}❌: Error processing ${entry.path}:`, error)
     }
   }
+
+  const stringsPath = path.join(dlcPath, 'Strings')
+  const outputStringsPath = path.join(outputDlcPath, 'Strings')
+
+  try {
+    const stringsStats = await Deno.stat(stringsPath)
+    if (stringsStats.isDirectory) {
+      await fs.copy(stringsPath, outputStringsPath, { overwrite: true })
+    }
+  } catch {
+    //
+  }
+
+  const endTime = Date.now()
+  const duration = endTime - startTime
+
+  console.log(`${dlcName}✅: Completed - ${processedCount} files processed in ${duration}ms`)
+
+  return { dlc: dlcName, processed: processedCount, skipped: false, duration }
 }
 
 export const prepare = async () => {
   const outputDir = path.join(Deno.cwd(), 'out')
+  const basePath = Deno.cwd()
 
+  // Clean and prepare output directory
   try {
     await Deno.remove(outputDir, { recursive: true })
   } catch (error) {
@@ -83,8 +125,23 @@ export const prepare = async () => {
   }
   await ensureDir(outputDir)
 
-  for (const dlc of AVAILABLE_DLCS) {
-    console.log(`Processing DLC: ${dlc}`)
-    await processDLCXMLFiles(dlc, outputDir)
+  try {
+    const processingPromises = AVAILABLE_DLCS.map((dlc) => processDLCXMLFiles(dlc, outputDir, basePath))
+
+    const results = await Promise.all(processingPromises)
+
+    const totalProcessed = results.reduce((sum, result) => sum + result.processed, 0)
+
+    console.log(`Total files processed: ${totalProcessed}`)
+    results.forEach((result) => {
+      if (result.skipped) {
+        console.log(`  ${result.dlc}: Skipped`)
+      } else {
+        console.log(`  ${result.dlc}: ${result.processed} files`)
+      }
+    })
+  } catch (error) {
+    console.error('Error during processing:', error)
+    throw error
   }
 }
