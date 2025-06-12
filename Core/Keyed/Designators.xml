@@ -17,9 +17,9 @@
   <DesignatorDeconstructDesc>이 물건을 해체하고 자원의 일부를 회수합니다.</DesignatorDeconstructDesc>
 
   <!-- EN: Deconstruct conduit -->
-  <DesignatorDeconstructConduit>TODO</DesignatorDeconstructConduit>
+  <DesignatorDeconstructConduit>전선 해체</DesignatorDeconstructConduit>
   <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
-  <DesignatorDeconstructConduitDesc>TODO</DesignatorDeconstructConduitDesc>
+  <DesignatorDeconstructConduitDesc>전선을 해체하고 자원의 일부를 회수합니다.</DesignatorDeconstructConduitDesc>
 
   <!-- EN: Uninstall -->
   <DesignatorUninstall>포장</DesignatorUninstall>
@@ -51,7 +51,7 @@
   <!-- EN: Hunt -->
   <DesignatorHunt>사냥</DesignatorHunt>
   <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
-  <DesignatorHuntDesc>동물에 표시를 남겨 사냥하도록 지시합니다.</DesignatorHuntDesc>
+  <DesignatorHuntDesc>사냥꾼들이 사냥할 동물들을 표시합니다.\n\n적합한 원거리 무기를 장착한 사냥꾼만 사냥할 수 있습니다.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>채굴</DesignatorMine>
@@ -79,22 +79,22 @@
   <!-- EN: Plan -->
   <DesignatorPlan>계획</DesignatorPlan>
   <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
-  <DesignatorPlanDesc>지시할 공간을 미리 계획해둡니다. 정착지 정착민들과 상호 작용이 일어나지 않으며, 공간 구상을 하거나 건설을 할 때 도움이 됩니다.</DesignatorPlanDesc>
+  <DesignatorPlanDesc>공간 계획을 그립니다. 미리 위치를 표시해둘 수 있는 것 외에는 아무 상호작용도 없습니다.\n\n오른쪽 클릭으로 모든 공간 계획을 숨기거나 표시할 수 있습니다.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>계획 지우기</DesignatorPlanRemove>
   <!-- EN: Remove planning designations. -->
-  <DesignatorPlanRemoveDesc>계획해 두었던 공간을 지웁니다.</DesignatorPlanRemoveDesc>
+  <DesignatorPlanRemoveDesc>계획을 지웁니다.</DesignatorPlanRemoveDesc>
 
   <!-- EN: Forbid -->
   <DesignatorForbid>취급 금지</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
-  <DesignatorForbidDesc>물품의 상호작용을 금지합니다.</DesignatorForbidDesc>
+  <DesignatorForbidDesc>정착민들이 물품과 상호작용하지 못하게 금지합니다.</DesignatorForbidDesc>
 
   <!-- EN: Allow -->
   <DesignatorUnforbid>취급 허용</DesignatorUnforbid>
   <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
-  <DesignatorUnforbidDesc>물품의 상호작용을 허용합니다.</DesignatorUnforbidDesc>
+  <DesignatorUnforbidDesc>정착민들이 물품과 상호작용할 수 있게 허가합니다.</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
   <DesignatorAreaHomeExpand>주거구역 설정</DesignatorAreaHomeExpand>
@@ -174,7 +174,7 @@
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>다리 제거</DesignatorRemoveBridge>
   <!-- EN: Deconstruct bridges to reclaim partial resources. -->
-  <DesignatorRemoveBridgeDesc>다리를 제거해 아래의 지형이 드러나게 합니다.</DesignatorRemoveBridgeDesc>
+  <DesignatorRemoveBridgeDesc>다리를 해체하고 자원의 일부를 회수합니다.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>벗기기</DesignatorStrip>
@@ -187,9 +187,9 @@
   <DesignatorOpenDesc>상자 등을 엽니다.</DesignatorOpenDesc>
   
   <!-- EN: Eject fuel -->
-  <DesignatorEjectFuel>TODO</DesignatorEjectFuel>
+  <DesignatorEjectFuel>연료 꺼내기</DesignatorEjectFuel>
   <!-- EN: Eject all contained fuel onto the ground. -->
-  <DesignatorEjectFuelDesc>TODO</DesignatorEjectFuelDesc>
+  <DesignatorEjectFuelDesc>적재된 모든 연료를 바닥으로 꺼냅니다.</DesignatorEjectFuelDesc>
 
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>도축</DesignatorSlaughter>
@@ -201,7 +201,7 @@
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>야생 동물을 길들입니다.</DesignatorTameDesc>
   <!-- EN: Scaria infected animals can't be tamed. -->
-  <CantTameScaria>TODO</CantTameScaria>
+  <CantTameScaria>스카리아에 감염된 동물은 길들일 수 없습니다.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>야생으로 돌려보내기</DesignatorReleaseAnimalToWild>
@@ -253,14 +253,14 @@
   <GrabbedColor>선택한 색상</GrabbedColor>
 
   <!-- EN: Expand plan -->
-  <DesignatorExpandPlan>TODO</DesignatorExpandPlan>
+  <DesignatorExpandPlan>계획 확장</DesignatorExpandPlan>
   <!-- EN: New plan -->
-  <NewPlan>TODO</NewPlan>
+  <NewPlan>새 계획</NewPlan>
   
   <!-- EN: Shrink plan -->
-  <DesignatorPlanShrinkSingular>TODO</DesignatorPlanShrinkSingular>
+  <DesignatorPlanShrinkSingular>계획 제거</DesignatorPlanShrinkSingular>
   <!-- EN: Remove plans. -->
-  <DesignatorPlanShrinkDesc>TODO</DesignatorPlanShrinkDesc>
+  <DesignatorPlanShrinkDesc>계획 지우기.</DesignatorPlanShrinkDesc>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
@@ -282,9 +282,9 @@
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>이 곳은 이미 {0}입니다.</TerrainIsAlready>
   <!-- EN: There is already foundation here. -->
-  <FoundationAlreadyExists>TODO</FoundationAlreadyExists>
+  <FoundationAlreadyExists>There is already foundation here.</FoundationAlreadyExists>
   <!-- EN: The existing terrain here cannot be removed. -->
-  <TerrainUnremovable>TODO</TerrainUnremovable>
+  <TerrainUnremovable>The existing terrain here cannot be removed.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>해당 위치에 이미 다듬기로 지정되었습니다.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -327,9 +327,9 @@
   <CreateNewZone>새로운 {0} 생성</CreateNewZone>
   
   <!-- EN: Expand {0} or\nCreate new plan -->
-  <ExpandOrCreatePlan>TODO</ExpandOrCreatePlan>
+  <ExpandOrCreatePlan>{0} 확장\n또는 새로운 계획 생성</ExpandOrCreatePlan>
   <!-- EN: Create new plan -->
-  <CreateNewPlan>TODO</CreateNewPlan>
+  <CreateNewPlan>새로운 계획 생성</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

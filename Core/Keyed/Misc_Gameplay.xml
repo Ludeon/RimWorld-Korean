@@ -277,7 +277,7 @@
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>적이 도착할 때까지 {0}</CaravanDetectedRaidCountdown>
   <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
-  <CaravanDetectedRaidCountdownTip>적 증원군이 이 지역에 도착하기까지 {0}.</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>적이 당신의 위치를 파악했습니다. {0} 후에 도착합니다.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>방</Room>
   <!-- EN: Beauty here -->
@@ -285,7 +285,7 @@
   <!-- EN: no power -->
   <NoPower>전력 없음</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>TODO</NotInRoomRole>
+  <NotInRoomRole>not in {0}</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>작업 속도</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -299,13 +299,13 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>연료공급 포트 없음</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>연료 없음</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
+  <LaunchableInGroupHasSomethingLeftToLoad>적재 중</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>최대 범위 벗어남</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: No path to {LAYER_label} -->
-  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
+  <TransportPodDestinationNoPath>{LAYER_label}(으)로의 경로 없음</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>연료 부족</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -351,7 +351,7 @@
   <!-- EN: Requires -->
   <Requires>필요</Requires>
   <!-- EN: Replaces -->
-  <Replaces>TODO</Replaces>
+  <Replaces>대체</Replaces>
   <!-- EN: {0}x any of -->
   <NumAnyOf>아무 {0}x</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -375,13 +375,13 @@
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>탑승한 동물로 인한 계수</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
+  <MultiplierFromMoveSpeedBonus>Multiplier from bonuses</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>운반 중량 계수: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>탑승할 수 있는 동물입니다. 상단 구성원은 탑승할 수 있는 동물 중 가장 빠른 것에 탑승해서 상단의 전체 속도를 높입니다.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>TODO</CaravanBonusTip>
+  <CaravanBonusTip>This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>짐이 너무 무거워서 움직일 수 없습니다.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -579,7 +579,7 @@
   <!-- EN: size -->
   <Size>크기</Size>
   <!-- EN: Total planning area -->
-  <TotalPlanningArea>TODO</TotalPlanningArea>
+  <TotalPlanningArea>Total planning area</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>비용</Cost>
   <!-- EN: Stunned by EMP -->
@@ -599,7 +599,7 @@
   <!-- EN: Activate -->
   <Activate>활성화</Activate> 
   <!-- EN: Deactivate -->
-  <Deactivate>TODO</Deactivate> <!-- text_todo -->
+  <Deactivate>비활성화</Deactivate> <!-- text_todo -->
   <!-- EN: Activation -->
   <Activation>활성화</Activation>
   <!-- EN: complete -->
@@ -627,20 +627,20 @@
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>침대로 기어가는 중</ReportStringCrawlingToBed>
   <!-- EN: flying -->
-  <Flying>TODO</Flying>
+  <Flying>비행 중</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>TODO</PreventCutting>
+  <PreventCutting>제초/벌목 방지</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+  <PreventCuttingDesc>When on, colonists won't cut this plant.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
-  <ComesFromTrait>TODO</ComesFromTrait>
+  <ComesFromTrait>Resulting from trait</ComesFromTrait>
   <!-- EN: Resulting from condition -->
-  <ComesFromHediff>TODO</ComesFromHediff>
+  <ComesFromHediff>Resulting from condition</ComesFromHediff>
   <!-- EN: Adds need -->
-  <AddsNeed>TODO</AddsNeed>
+  <AddsNeed>Adds need</AddsNeed>
   <!-- EN: Adds needs -->
-  <AddsNeeds>TODO</AddsNeeds>
+  <AddsNeeds>Adds needs</AddsNeeds>
   <!-- EN: Disables need -->
   <DisablesNeed>다음 욕구를 비활성화</DisablesNeed>
   <!-- EN: Disables needs -->
@@ -814,7 +814,7 @@
   <Filth_Label>오물</Filth_Label>
   
   <!-- EN: Features -->
-  <Features_Label>TODO</Features_Label>
+  <Features_Label>특징</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>세력</Faction_Label>
   <!-- EN: Relationship -->
@@ -841,7 +841,7 @@
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>{0}에서는 사용할 수 없음</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
+  <WeatherMaxRangeCap>사정거리 저하됨</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1105,7 +1105,7 @@
   <!-- EN: low -->
   <PowerConsumptionLow>낮음</PowerConsumptionLow>
   <!-- EN: off -->
-  <PowerConsumptionOff>TODO</PowerConsumptionOff>
+  <PowerConsumptionOff>끄기</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1165,9 +1165,9 @@
   <!-- EN: resting -->
   <PlantResting>휴식 중</PlantResting>
   <!-- EN: temperature growth multiplier {0}% -->
-  <OutOfIdealTemperatureRange>부적합한 온도로 인한 성장 계수: {0}%</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>성장 온도 계수 {0}%</OutOfIdealTemperatureRange>
   <!-- EN: out of temperature growth range -->
-  <OutOfIdealTemperatureRangeNotGrowing>부적합한 온도. 성장 불가</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>성장 온도 범위 벗어남</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>수확 가능</ReadyToHarvest>
   <!-- EN: Mature. -->
@@ -1191,7 +1191,7 @@
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>빛 때문에 죽어가는 중</DyingBecauseExposedToLight>
   <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
+  <DyingBecauseOfTerrain>부적합한 지형 때문에 죽어가는 중</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>지금 제초</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1209,11 +1209,11 @@
   <!-- EN: Growing zone -->
   <GrowingZone>재배구역</GrowingZone>
   <!-- EN: growing -->
-  <GrowingGroup>TODO</GrowingGroup>
+  <GrowingGroup>재배</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>저장구역</Stockpile>
   <!-- EN: stockpile -->
-  <StockpileGroup>TODO</StockpileGroup>
+  <StockpileGroup>저장</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>처리구역</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1285,9 +1285,9 @@
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>낮/밤 광원 모드를 설정합니다.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>Toggle displaying expanding icons for settlements belonging to other factions.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>지명을 표시합니다.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1487,9 +1487,9 @@
   <!-- EN: No colony -->
   <NoColony>정착지 없음</NoColony>
   <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>TODO</NoWandererDestination>
+  <NoWandererDestination>cannot reach any destination</NoWandererDestination>
   <!-- EN: must wait {0}h -->
-  <GameOverCreateNewWanderersWait>새로운 방랑자 생성 ({0}시간 기다려야 함)</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>must wait {0}h</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1635,7 +1635,7 @@
   <!-- EN: Nudist -->
   <OutfitNudist>알몸</OutfitNudist>
   <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>TODO</OutfitSpacefarer>
+  <OutfitSpacefarer>우주</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1681,9 +1681,9 @@
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_age}세의 {0_title}, {0_nameDef}(이)가 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
-  <Reward_Items>다음 물품을 포함하는 수송 포드가 도착합니다.\n\n{0} (총 가치 {1})</Reward_Items>
+  <Reward_Items>transport pods with the following resources will arrive (total value {1}):\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):\n{0} -->
-  <Reward_Items_Caravan>다음 자원을 받습니다.\n\n{0} (총 가치 {1})</Reward_Items_Caravan>
+  <Reward_Items_Caravan>you will receive (total value {1}):\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>{0_name}(와)과의 우호도가 {1} 만큼 향상됩니다</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -1745,11 +1745,11 @@
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1}. -->
-  <InterceptsProjectilesEvery>{1} 마다 {0} 요격</InterceptsProjectilesEvery>
+  <InterceptsProjectilesEvery>{1} 마다 {0} 요격.</InterceptsProjectilesEvery>
   <!-- EN: Intercepts {0}. -->
-  <InterceptsProjectiles>{0} 요격</InterceptsProjectiles>
+  <InterceptsProjectiles>{0} 요격.</InterceptsProjectiles>
   <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
+  <InterceptsProjectiles_BothProjectiles>직사 및 곡사 투사체</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>직사 투사체</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -2076,7 +2076,7 @@
   <!-- EN: About to explode -->
   <AboutToExplode>곧 폭발함</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject> <!-- text_todo -->
+  <RefuelableNoFuelToEject>꺼낼 연료 없음</RefuelableNoFuelToEject> <!-- text_todo -->
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>새로운 아노말리 확장팩을 지금 만나보세요!</MainScreen_AnomalyAvailableNow>
@@ -2105,33 +2105,33 @@
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>해킹한 단말기</TerminalsHacked>
   <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <IntellectualSkillPrerequisite>Intellectual needed</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
-  <AutoHack>TODO</AutoHack>
+  <AutoHack>자동 해킹</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>TODO</AutoHackDesc>
+  <AutoHackDesc>When enabled, researchers will automatically hack this.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
-  <WorldSelectLayer>TODO</WorldSelectLayer>
+  <WorldSelectLayer>{LAYER_label} 보기</WorldSelectLayer>
   <!-- EN: Jump to location -->
-  <WorldJumpTo>TODO</WorldJumpTo>
+  <WorldJumpTo>위치로 이동</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <WorldJumpToDesc>세계 지도의 정착지, 상단, 임무 위치로 이동합니다.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
-  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <NothingToJumpTo>이동할 곳이 없습니다.</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
-  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
+  <CannotFunctionOnLayer>{0}에서 사용할 수 없음</CannotFunctionOnLayer>
   <!-- EN: New settlement -->
-  <NewSettlement>TODO</NewSettlement>
+  <NewSettlement>새 정착지</NewSettlement>
   <!-- EN: Settled -->
-  <Settled>TODO</Settled>
+  <Settled>정착함</Settled>
   <!-- EN: Abandoned -->
-  <Abandoned>TODO</Abandoned>
+  <Abandoned>버려짐</Abandoned>
   <!-- EN: Cannot perform in {0} -->
-  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <CannotPerformPlanetLayer>{0}에서 수행할 수 없음</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
-  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
+  <ThisWillNotAffectLayer>{LAYER} {GERUND}에서는 아무 영향도 없습니다.</ThisWillNotAffectLayer>
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
@@ -2143,11 +2143,11 @@
   <!-- EN: Cancel entering -->
   <CommandCancelEnterPortal>입장 및 적재 취소</CommandCancelEnterPortal>
   <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <CommandCancelExitPortal>이탈 취소</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
   <CommandCancelEnterPortalDesc>사용자와 물품의 입장 및 적재를 취소합니다.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
-  <ExitPortal>TODO</ExitPortal>
+  <ExitPortal>{0} 이탈</ExitPortal>
 
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
@@ -2155,36 +2155,30 @@
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>회복 시간</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
-  <ShieldDuration>TODO</ShieldDuration>
+  <ShieldDuration>보호막 지속시간</ShieldDuration>
   <!-- EN: On cooldown -->
-  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <ShieldOnCooldown>재사용 대기 중</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <ShieldBelowMinHitpoints>최소 에너지 미만</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>외부로부터의 원거리 공격을 막아주는 저각 보호막입니다. EMP 공격을 받으면 즉시 해제됩니다.</ProjectileInterceptorTip>
 
   <!-- EN: max {0} -->
-  <MaxOf>TODO</MaxOf>
+  <MaxOf>최대 {0}개</MaxOf>
 
   <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+  <CannotUseDueToHediff>Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}.</CannotUseDueToHediff>
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed> <!-- text_todo -->
+  <CannotUseScannerRoofed>지붕에 의해 막힘</CannotUseScannerRoofed> <!-- text_todo -->
   <!-- EN: Does not function in this biome -->
-  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock> <!-- text_todo -->
+  <CannotUseScannerNoBedrock>이 생물군계에서 작동할 수 없음</CannotUseScannerNoBedrock> <!-- text_todo -->
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <CannotAcceptQuestFromLayer>이 임무를 {LAYER} {GERUND}에서 수락할 수 없음.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
+  <CannotAcceptQuestNoMap>이 임무를 영구 정착지 없이 수락할 수 없음.</CannotAcceptQuestNoMap>
   
-  <!-- UNUSED -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>연료 없음</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
-  <TransportPodInGroupHasSomethingLeftToLoad>적재 중</TransportPodInGroupHasSomethingLeftToLoad>
-  <ShowExpandingIconsToggleButton>멀리 있는 지역 아이콘을 확대합니다.</ShowExpandingIconsToggleButton>
-  <RitualPredictedOutcomeDescParticipantCount>참여자</RitualPredictedOutcomeDescParticipantCount>
-
 </LanguageData>

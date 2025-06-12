@@ -23,7 +23,7 @@
   <NotAllowed>허용되지 않음</NotAllowed>
   
   <!-- EN: Attack {1_labelShort} -->
-  <Attack>TODO</Attack>
+  <Attack>{1_labelShort} 공격</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>{1_labelShort}에게 사격</FireAt>
   <!-- EN: Remove -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>대상에게는 명령을 내릴 수 없음</CannotOrderNonControlledLower>
   <!-- EN: cannot attack -->
-  <CannotAttack>TODO</CannotAttack>
+  <CannotAttack>공격할 수 없음</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>자신을 공격할 수 없음</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -95,7 +95,7 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>야외에 도달할 수 없음</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
-  <CannotExitMap>TODO</CannotExitMap>
+  <CannotExitMap>지역 이탈 불가</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>부족한 기술 수준</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -237,7 +237,7 @@
   <!-- EN: Cannot rescue -->
   <CannotRescue>구조 불가</CannotRescue>
   <!-- EN: Cannot rescue {PAWN_labelShort} -->
-  <CannotRescuePawn>TODO</CannotRescuePawn>
+  <CannotRescuePawn>{PAWN_labelShort}(을)를 구출할 수 없음</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>{1_labelShort}(을)를 동면장치로 운반</CarryToCryptosleepCasket>
@@ -300,19 +300,19 @@
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>{1_labelShort} 강제 착용</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>TODO</ForceTargetToWear>
+  <ForceTargetToWear>{1_labelShort}에게 강제 착용...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>{1_label} 착용 불가</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
+  <CannotForceTargetToWear>{1_label}에게 강제 착용 불가</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>{1_labelShort} 강제 착용</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>{1_labelShort}에게 강제 착용...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>{1_label} 착용 불가</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>{1_label}에게 강제 착용 불가</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>신체 결손</CannotWearBecauseOfMissingBodyParts>
   
@@ -416,7 +416,7 @@
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>노예 의료용 침대가 없음</NotForSlaves>
   <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>TODO</MedicalCareDisabled>
+  <MedicalCareDisabled>치료 금지됨</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>{0}(이)가 사용 중</SomeoneElseSleeping>
   
@@ -468,7 +468,7 @@
   <CannotGenericWorkCustom>{0} 불가</CannotGenericWorkCustom>
 
   <!-- EN: Incapable of {0} -->
-  <CannotMissingHealthActivities>우선시 불가: {0} 불가능</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>{0} 불가능</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -477,27 +477,27 @@
   <CannotGenericAlreadyAmCustom>이미 {0} 중</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>우선시 불가: 절대 {0} 작업하지 않음</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>{0} 불가</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>필요 작위 부족</MissingTitleAbility>
 
   <!-- EN: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>우선시 불가: 절대 {0} 하지 않음</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>{0} 불가</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>{0} 불가</WillNever>
 
   <!-- EN: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>우선시 불가: {0} 할당되지 않음</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>{0}에 할당되지 않음</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>할당되지 않음</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>{0}에 할당되지 않음</NotAssignedToWorkType>
 
   <!-- EN: Research is a long-term task -->
-  <CannotPrioritizeResearch>우선시 불가: 연구는 장기적인 작업임</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>연구는 장기 작업임</CannotPrioritizeResearch>
 
   <!-- EN: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>우선시 불가: {1_label}의 상호작용 금지됨</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>{1_label}(와)과의 상호작용 금지됨</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>우선시 불가: 상호작용 금지됨</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
@@ -509,12 +509,12 @@
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>우선 {1}{0}</PrioritizeGeneric>
   <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+  <PrioritizeGenericSimple>우선 {0}</PrioritizeGenericSimple>
 
   <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>TODO</LaunchTo>
+  <LaunchTo>{LOCATION_label}(으)로 발사</LaunchTo>
   <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  <LaunchToConfirmation>정말 발사하시겠습니까?</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>가장자리에 낙하</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -644,19 +644,16 @@
   <!-- EN: Hack {0} -->
   <Hack>{0} 해킹</Hack>
   <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>TODO</HackDesc>
+  <HackDesc>해킹할 정착민을 선택하세요.</HackDesc>
   <!-- EN: Cannot hack {0} -->
   <CannotHack>{0}(을)를 해킹할 수 없음</CannotHack>
   <!-- EN: Locked out -->
-  <LockedOut>TODO</LockedOut>
+  <LockedOut>접근 잠김</LockedOut>
   <!-- EN: Already hacked -->
   <AlreadyHacked>이미 해킹함</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
   <IncapableOfHacking>해킹 불가능</IncapableOfHacking>
   <!-- EN: to drop supplies -->
   <ToDropSupplies>보급품 낙하를 위해</ToDropSupplies>
-
-  <!-- UNUSED -->
-  <CommandEnterPortal>{0} 탑승</CommandEnterPortal>
 
 </LanguageData>

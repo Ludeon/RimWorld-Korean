@@ -10,7 +10,6 @@ import { AVAILABLE_DLCS } from './consts.mjs'
 const processXMLContent = (content) => {
   // First, remove everything after <!-- UNUSED --> comment, including preceding whitespace
   let result = content.replace(/\s*<!--\s*UNUSED\s*-->\s*[\s\S]*?(<\/LanguageData>)/, '\n\n$1')
-
   // Then process EN comments
   result = result.replace(
     /<!--\s*EN:\s*([\s\S]*?)\s*-->\s*\n(\s*)(<[^>\s]+(?:\s[^>]*)?>)([\s\S]*?)(<\/[^>]+>)/g,
@@ -23,14 +22,17 @@ const processXMLContent = (content) => {
         const processedLines = lines.map((line) => {
           const trimmedLine = line.trim()
           if (!trimmedLine) return ''
-          return `${indent}  ${trimmedLine}`
+
+          const escapedLine = trimmedLine.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          return `${indent}  ${escapedLine}`
         })
         const indentedEnContent = processedLines.join('\n')
 
         return `<!-- EN: ${enContent.trim()} -->\n${indent}${openTag}\n${indentedEnContent}\n${indent}${closeTag}`
       }
 
-      return `<!-- EN: ${trimmedEnContent} -->\n${indent}${openTag}${trimmedEnContent}${closeTag}`
+      const escapedContent = trimmedEnContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      return `<!-- EN: ${trimmedEnContent} -->\n${indent}${openTag}${escapedContent}${closeTag}`
     }
   )
 
@@ -66,13 +68,13 @@ const processDLCXMLFiles = async (dlcName, outputDir, basePath) => {
     }
 
     const relativePath = path.relative(dlcPath, entry.path)
-    
+
     // Skip XML files directly in the root folder (like LanguageInfo.xml)
     // Only files with no directory separator (directly in root)
     if (!relativePath.includes('/') && !relativePath.includes('\\')) {
       continue
     }
-    
+
     const outputFilePath = path.join(outputDlcPath, relativePath)
 
     await ensureDir(path.dirname(outputFilePath))

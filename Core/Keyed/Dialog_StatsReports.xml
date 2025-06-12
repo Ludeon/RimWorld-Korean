@@ -247,13 +247,13 @@
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>약품을 섭취할 때 채워지는 오락 수치를 나타냅니다.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The weight of this creature and their equipment. -->
-  <Stat_Mass_Desc>TODO</Stat_Mass_Desc>
+  <Stat_Mass_Desc>The weight of this creature and their equipment.</Stat_Mass_Desc>
   <!-- EN: Base mass -->
-  <Stat_Mass_Base>TODO</Stat_Mass_Base>
+  <Stat_Mass_Base>Base mass</Stat_Mass_Base>
   <!-- EN: Mass from equipment -->
-  <Stat_Mass_Equipment>TODO</Stat_Mass_Equipment>
+  <Stat_Mass_Equipment>Mass from equipment</Stat_Mass_Equipment>
   <!-- EN: Total mass -->
-  <Stat_Mass_Total>TODO</Stat_Mass_Total>
+  <Stat_Mass_Total>Total mass</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>동물의 크기를 평균적인 성인 인간과 비교한 수치입니다.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -269,11 +269,11 @@
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>원거리 무기의 최대 사거리입니다.</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: Range multiplier -->
-  <Stat_Thing_Weapon_Range_Multiplier>TODO</Stat_Thing_Weapon_Range_Multiplier>
+  <Stat_Thing_Weapon_Range_Multiplier>Range multiplier</Stat_Thing_Weapon_Range_Multiplier>
   <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
-  <Stat_Thing_Weapon_Range_Clamped>TODO</Stat_Thing_Weapon_Range_Clamped>
+  <Stat_Thing_Weapon_Range_Clamped>Reduced from {ORIGINAL} to {CAP} by weather.</Stat_Thing_Weapon_Range_Clamped>
   <!-- EN: Aiming time multiplier -->
-  <Stat_Thing_Weapon_WarmupTime_Multiplier>TODO</Stat_Thing_Weapon_WarmupTime_Multiplier>
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>Aiming time multiplier</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>원거리 무기의 발사체가 목표 주변으로 얼마나 확산되는지에 대한 수치입니다.\n\n값이 높아질수록 발사체가 빗나갈 가능성이 높아집니다.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -341,7 +341,7 @@
   <!-- EN: This can only be placed on terrain of these types. -->
   <Stat_Thing_TerrainRequirement_Desc>해당 유형의 지형에만 배치할 수 있습니다.</Stat_Thing_TerrainRequirement_Desc>
   <!-- EN: Considered -->
-  <Stat_Thing_Terrain_Fine_Name>존경</Stat_Thing_Terrain_Fine_Name>
+  <Stat_Thing_Terrain_Fine_Name>취급</Stat_Thing_Terrain_Fine_Name>
   <!-- EN: Fine -->
   <Stat_Thing_Terrain_Fine_Value>좋음</Stat_Thing_Terrain_Fine_Value>
   <!-- EN: This floor is considered fine and suitable for royalty. -->
@@ -570,13 +570,13 @@
   <Stat_Thing_HackingProgress>해당 대상의 해킹 진행 상황률입니다.</Stat_Thing_HackingProgress>
 
   <!-- EN: Multiplier for {0} terrain -->
-  <StatsReport_TerrainSpeedMultiplier>TODO</StatsReport_TerrainSpeedMultiplier>
+  <StatsReport_TerrainSpeedMultiplier>Multiplier for {0} terrain</StatsReport_TerrainSpeedMultiplier>
 
   <!-- EN: {0} trained -->
-  <StatsReport_Trainable>TODO</StatsReport_Trainable>
+  <StatsReport_Trainable>{0} trained</StatsReport_Trainable>
   <!-- EN: Available training -->
-  <StatsReport_AvailableTraining>TODO</StatsReport_AvailableTraining>
+  <StatsReport_AvailableTraining>Available training</StatsReport_AvailableTraining>
   <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
-  <StatsReport_AvailableTraining_Desc>TODO</StatsReport_AvailableTraining_Desc>
+  <StatsReport_AvailableTraining_Desc>The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species.</StatsReport_AvailableTraining_Desc>
   
 </LanguageData>

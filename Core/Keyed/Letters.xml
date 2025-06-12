@@ -296,7 +296,7 @@
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>적의 전초기지 {0}(이)가 파괴되었습니다.\n\n지금 상단을 재구성해서 떠나지 않으면 {1} 후에 적이 병력을 보내 상단을 공격할 것입니다.</LetterFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed. -->
-  <LetterFactionBaseDefeatedNoRaids>TODO</LetterFactionBaseDefeatedNoRaids>
+  <LetterFactionBaseDefeatedNoRaids>The enemy settlement {0} has been destroyed.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>마지막 기지 파괴로 인해 {0} 세력은 이제 존재하지 않습니다.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -418,7 +418,7 @@
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>{PAWN_nameDef}(을)를 구조하였고 {PAWN_pronoun}가 정착지에 합류했습니다.\n\n세계지도에서 이 지역을 선택하고 "상단 재구성" 옵션을 선택하면 {PAWN_nameDef}(와)과 함께 갈 수 있습니다.</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>TODO</LetterRescueQuestFinishedCaravanExtra>
+  <LetterRescueQuestFinishedCaravanExtra>\n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command.</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -436,27 +436,27 @@
 
   <!-- Quests -->
   <!-- EN: Quest available: {0} -->
-  <LetterLabelQuestAvailableTitle>TODO</LetterLabelQuestAvailableTitle>
+  <LetterLabelQuestAvailableTitle>임무 가능함: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterLabelQuestAutomaticallyAcceptedTitle>TODO</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>임무 활성화: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
   <!-- EN: {DISCOVEREDFROM} a new quest. -->
-  <LetterNewQuest>TODO</LetterNewQuest> <!-- text_todo -->
+  <LetterNewQuest>{DISCOVEREDFROM} 새로운 임무를 발견했습니다.</LetterNewQuest> <!-- text_todo -->
   <!-- EN: A new quest is available. -->
-  <LetterNewQuestFromUnknown>TODO</LetterNewQuestFromUnknown>
+  <LetterNewQuestFromUnknown>새로운 임무를 수락할 수 있습니다.</LetterNewQuestFromUnknown>
   <!-- EN: The quest is called '{0}'. -->
-  <LetterQuestIsNamed>TODO</LetterQuestIsNamed>
+  <LetterQuestIsNamed>임무의 이름은 '{0}'입니다.</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>{0} 후에 만료됩니다.</LetterQuestActiveNowTime>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>{0} 내에 수락하지 않으면 만료됩니다.</LetterQuestRequiresAcceptance>
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
-  <QuestDiscoveredFromBook>TODO</QuestDiscoveredFromBook>
+  <QuestDiscoveredFromBook>{READER_nameDef}(이)가 {BOOK_labelNoParenthesis}(을)를 읽던 중에 뭔가 발견했습니다.</QuestDiscoveredFromBook>
   <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
-  <QuestDiscoveredFromTrader>TODO</QuestDiscoveredFromTrader>
+  <QuestDiscoveredFromTrader>{NEGOTIATOR_nameDef}(이)가 {TRADER_nameDef}(와)과 대화하던 중에 뭔가 알아냈습니다.</QuestDiscoveredFromTrader>
   <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
-  <QuestDiscoveredFromBeggar>TODO</QuestDiscoveredFromBeggar> <!-- text_todo -->
+  <QuestDiscoveredFromBeggar>{RECEIVER_nameDef}(이)가 환대에 보답하기 위해 {GIVER_nameDef}에게 뭔가 알려줬습니다.</QuestDiscoveredFromBeggar> <!-- text_todo -->
   <!-- EN: You have discovered -->
-  <QuestDiscoveredFromDebug>TODO</QuestDiscoveredFromDebug>
+  <QuestDiscoveredFromDebug>뭔가 찾아냈습니다.</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
@@ -603,10 +603,5 @@
   <LetterSpeechCancelled>{0}의 연설이 준비한 것의 반도 넘기지 못하고 취소되었습니다. 아무 효과도 없었습니다.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>연설 취소됨</LetterLabelSpeechCancelled>
-
-  <!-- UNUSED -->
-  <LetterQuestBecameAvailable>새로운 '{0}' 임무 진행이 가능합니다.</LetterQuestBecameAvailable>
-  <LetterQuestBecameActive>새로운 임무가 활성화되었습니다. 이름은 '{0}'입니다.</LetterQuestBecameActive>
-  <LetterQuestAutomaticallyAcceptedTitle>임무 활성화: {0}</LetterQuestAutomaticallyAcceptedTitle>
 
 </LanguageData>

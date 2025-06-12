@@ -250,7 +250,7 @@
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
-  <MapWinterWarning>TODO</MapWinterWarning>
+  <MapWinterWarning>경고: 겨울에 착륙하게 됩니다. 생존이 매우 힘들거나 불가능할 수 있습니다. 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 계절을 선택하세요.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>림월드는 중형 지도를 기준으로 설계됐습니다. 중형 크기도 공간이 충분합니다!\n\n대형 지도는 성능을 저하할 뿐만 아니라 게임의 경험도 손상시킵니다. AI는 바보 같은 결정을 내리게 되고, 게임의 균형은 다양한 방식으로 나쁜 영향을 받게 됩니다. 대형 지도는 관례상, 그리고 실험 목적을 위해서 포함된 것이므로 특별한 이유 없이는 사용하지 말아주십시오.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -701,7 +701,7 @@
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{NEGOTIATOR_nameDef}에게 적절한 {TITLE} 작위가 없기 때문에 {FACTION_name}(은)는 상단을 보내지 않으려고 합니다.</TradeCaravanRequestDeniedDueTitle>
   <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <OrbitalTradeRequestDeniedDueTitle>TODO</OrbitalTradeRequestDeniedDueTitle>
+  <OrbitalTradeRequestDeniedDueTitle>{NEGOTIATOR_nameDef}에게 적절한 {TITLE} 작위가 없기 때문에 {FACTION_name}(은)는 궤도 상선을 보내지 않으려고 합니다.</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -731,9 +731,9 @@
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>정착지가 상단에 줄 수 있는 물품의 숫자를 보여줍니다.</FormCaravanColonyThingCountTip>
   <!-- EN: Number available to transport. -->
-  <TransporterColonyThingCountTip>TODO</TransporterColonyThingCountTip> <!-- text_todo -->
+  <TransporterColonyThingCountTip>정착지가 수송할 수 있는 물품의 숫자를 보여줍니다.</TransporterColonyThingCountTip> <!-- text_todo -->
   <!-- EN: Number available to transfer. -->
-  <TransferMapPortalColonyThingCountTip>TODO</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
+  <TransferMapPortalColonyThingCountTip>Number available to transfer.</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>사람과 동물들</PawnsTab>
   <!-- EN: Items -->
@@ -955,7 +955,7 @@
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>정책의 이름을 변경합니다.</RenamePolicyTip>
   <!-- EN: Make this policy the default policy given to new colonists. -->
-  <DefaultPolicyTip>TODO</DefaultPolicyTip>
+  <DefaultPolicyTip>이 정책을 새로운 정착민들에게 적용할 기본 정책으로 설정합니다.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>{0} 정책을 삭제하시겠습니까?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1068,7 +1068,7 @@
   <!-- EN: Novels -->
   <NovelPolicy>소설</NovelPolicy>
   <!-- EN: Maps -->
-  <MapPolicy>TODO</MapPolicy>
+  <MapPolicy>Maps</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1149,9 +1149,9 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: The following still need to be loaded -->
-  <ConfirmSendNotCompletelyLoadedLaunchable>TODO</ConfirmSendNotCompletelyLoadedLaunchable>
+  <ConfirmSendNotCompletelyLoadedLaunchable>다음 항목이 아직 적재되지 않았습니다</ConfirmSendNotCompletelyLoadedLaunchable>
   <!-- EN: Launch anyway? -->
-  <ConfirmSendLaunchAnyway>TODO</ConfirmSendLaunchAnyway>
+  <ConfirmSendLaunchAnyway>그래도 발사하시겠습니까?</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1426,18 +1426,14 @@
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>현재 지역의 물품, 건물, 사람, 동물, 식물 등을 검색합니다.</SearchTheMapDesc>
   <!-- EN: Search the world -->
-  <SearchTheWorld>TODO</SearchTheWorld>
+  <SearchTheWorld>셰계 검색</SearchTheWorld>
   <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
-  <SearchTheWorldDesc>TODO</SearchTheWorldDesc>
+  <SearchTheWorldDesc>세계의 랜드마크, 임무, 정착지, 특징을 검색합니다.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0}개 발견</MapSearchResults>
   <!-- EN: 1 result found -->
   <MapSearchResultSingular>1개 발견</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>검색 중</Searching>
-
-  <!-- UNUSED -->
-  <MapTemperatureDangerWarning>경고: 얼어붙은 환경에 착륙하게 됩니다. 생존이 매우 힘들거나 불가능할 수 있습니다. 극도로 어려운 도전을 하고 싶은 것이 아니라면 다른 지역이나 계절을 선택하세요.</MapTemperatureDangerWarning>
-  <ConfirmSendNotCompletelyLoadedPods>수송 포드에 대한 적재가 아직 완전히 끝나지 않았습니다. 발사하시겠습니까?</ConfirmSendNotCompletelyLoadedPods>
 
 </LanguageData>

@@ -109,49 +109,49 @@
   <CommandDetonateDesc>폭파 카운트다운을 시작합니다.</CommandDetonateDesc>
   
   <!-- EN: Hide -->
-  <CommandHideLabel>TODO</CommandHideLabel>
+  <CommandHideLabel>숨기기</CommandHideLabel>
   <!-- EN: Unhide -->
-  <CommandUnhideLabel>TODO</CommandUnhideLabel>
+  <CommandUnhideLabel>보이기</CommandUnhideLabel>
   
   <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
-  <CommandHidePlanDesc>TODO</CommandHidePlanDesc>
+  <CommandHidePlanDesc>Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones.</CommandHidePlanDesc>
   <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
-  <CommandHideZoneDesc>구역을 지도에서 숨기거나 표시합니다.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>Hide/unhide this zone.\n\nRight-click to hide or unhide all zones.</CommandHideZoneDesc>
   
   <!-- EN: Show all zones -->
-  <ShowAllZones>TODO</ShowAllZones>
+  <ShowAllZones>모든 구역 보이기</ShowAllZones>
   <!-- EN: Hide all zones -->
-  <HideAllZones>TODO</HideAllZones>
+  <HideAllZones>모든 구역 숨기기</HideAllZones>
   <!-- EN: Show all {0} zones -->
-  <ShowAllZoneTypes>TODO</ShowAllZoneTypes>
+  <ShowAllZoneTypes>모든 {0} 구역 보이기</ShowAllZoneTypes>
   <!-- EN: Hide all {0} zones -->
-  <HideAllZoneTypes>TODO</HideAllZoneTypes>
+  <HideAllZoneTypes>모든 {0} 구역 숨기기</HideAllZoneTypes>
   <!-- EN: planning -->
-  <Planning>TODO</Planning>
+  <Planning>계획</Planning>
   
   <!-- EN: Change color -->
-  <CommandChangeColorPlanLabel>TODO</CommandChangeColorPlanLabel>
+  <CommandChangeColorPlanLabel>색상 변경</CommandChangeColorPlanLabel>
   <!-- EN: Change the color of this plan. -->
-  <CommandChangeColorPlanDesc>TODO</CommandChangeColorPlanDesc>
+  <CommandChangeColorPlanDesc>계획의 색을 바꿉니다.</CommandChangeColorPlanDesc>
   
   <!-- EN: Delete -->
-  <CommandDeletePlanLabel>TODO</CommandDeletePlanLabel>
+  <CommandDeletePlanLabel>제거</CommandDeletePlanLabel>
   <!-- EN: Delete this plan. -->
-  <CommandDeletePlanDesc>TODO</CommandDeletePlanDesc>
+  <CommandDeletePlanDesc>계획을 제거합니다.</CommandDeletePlanDesc>
   
   <!-- EN: Copy -->
-  <CommandCopyPlanLabel>TODO</CommandCopyPlanLabel>
+  <CommandCopyPlanLabel>복사</CommandCopyPlanLabel>
   <!-- EN: Copy this plan. -->
-  <CommandCopyPlanDesc>TODO</CommandCopyPlanDesc>
+  <CommandCopyPlanDesc>계획을 복사합니다.</CommandCopyPlanDesc>
   
   <!-- EN: Copy selection... -->
-  <CommandCopyPlanSelectionLabel>TODO</CommandCopyPlanSelectionLabel>
+  <CommandCopyPlanSelectionLabel>범위 복사...</CommandCopyPlanSelectionLabel>
   <!-- EN: Copy all plans within a selected area. -->
-  <CommandCopyPlanSelectionDesc>TODO</CommandCopyPlanSelectionDesc>
+  <CommandCopyPlanSelectionDesc>선택한 영역 내의 모든 계획을 복사합니다.</CommandCopyPlanSelectionDesc>
   <!-- EN: Select area to copy -->
-  <CommandCopyPlanSelectionMouse>TODO</CommandCopyPlanSelectionMouse> <!-- text_todo -->
+  <CommandCopyPlanSelectionMouse>복사할 영역 선택</CommandCopyPlanSelectionMouse> <!-- text_todo -->
   <!-- EN: Paste selected area -->
-  <CommandCopyPlanSelectionPasteMouse>TODO</CommandCopyPlanSelectionPasteMouse> <!-- text_todo -->
+  <CommandCopyPlanSelectionPasteMouse>선택한 영역 붙여넣기</CommandCopyPlanSelectionPasteMouse> <!-- text_todo -->
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>제거</CommandDeleteZoneLabel>
@@ -395,15 +395,15 @@
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>그 지역에 적이 존재합니다.</CommandSettleFailEnemies>
   <!-- EN: Cannot settle here. -->
-  <CommandSettleFailGeneric>TODO</CommandSettleFailGeneric>
+  <CommandSettleFailGeneric>여기에 정착할 수 없습니다.</CommandSettleFailGeneric>
 
   <!-- Camp -->
   <!-- EN: Camp -->
-  <CommandCamp>TODO</CommandCamp>
+  <CommandCamp>야영지</CommandCamp>
   <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
-  <CommandCampDesc>TODO</CommandCampDesc>
+  <CommandCampDesc>Set up a temporary camp that can quickly be abandoned.</CommandCampDesc>
   <!-- EN: Cannot camp here. -->
-  <CommandCampFailExistingWorldObject>TODO</CommandCampFailExistingWorldObject>
+  <CommandCampFailExistingWorldObject>여기에서 야영할 수 없습니다.</CommandCampFailExistingWorldObject>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -433,17 +433,17 @@
   
   <!-- Force caravan depart -->
   <!-- EN: Force caravan departure -->
-  <CommandForceCaravanDepart>TODO</CommandForceCaravanDepart>
+  <CommandForceCaravanDepart>상단 강제 출발</CommandForceCaravanDepart>
   <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
-  <CommandForceCaravanDepartDesc>TODO</CommandForceCaravanDepartDesc>
+  <CommandForceCaravanDepartDesc>상단이 현재 적재된 물품만을 가지고 즉시 출발하도록 명령합니다. 이동할 수 없는 사람과 동물은 남겨집니다.</CommandForceCaravanDepartDesc>
   <!-- EN: Are you sure you want to depart? -->
-  <ConfirmForceDepartIntro>TODO</ConfirmForceDepartIntro>
+  <ConfirmForceDepartIntro>정말 출발하시겠습니까?</ConfirmForceDepartIntro>
   <!-- EN: The following items are still being loaded and will be left behind: -->
-  <ConfirmForceDepartItemsStillLoading>TODO</ConfirmForceDepartItemsStillLoading>
+  <ConfirmForceDepartItemsStillLoading>다음 물품이 아직 적재 중이며 버려질 것입니다.</ConfirmForceDepartItemsStillLoading>
   <!-- EN: The following people won't be a part of the caravan: -->
-  <ConfirmForceDepartPawnsNotLeaving>TODO</ConfirmForceDepartPawnsNotLeaving>
+  <ConfirmForceDepartPawnsNotLeaving>다음 인원이 상단에 합류하지 못할 것입니다.</ConfirmForceDepartPawnsNotLeaving>
   <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
-  <ConfirmForceDepartItemsOnPawnsNotLeaving>TODO</ConfirmForceDepartItemsOnPawnsNotLeaving>
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>다음 물품은 상단에 합류하지 못할 동물에 적재되었으므로 버려질 것입니다.</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -495,9 +495,9 @@
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>자동 보급</CommandToggleAllowAutoRefuel>
   <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDesc>자동 보급 여부를 설정합니다.</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
   <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDescMult>TODO</CommandToggleAllowAutoRefuelDescMult>
+  <CommandToggleAllowAutoRefuelDescMult>This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
 
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -505,9 +505,9 @@
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>진행 중인 적재 명령을 취소하고 이미 적재된 모든 것을 밖으로 꺼냅니다.</CommandCancelLoadDesc>
   <!-- EN: Unload all -->
-  <CommandUnload>TODO</CommandUnload>
+  <CommandUnload>Unload all</CommandUnload>
   <!-- EN: Eject all contents from the {0}. -->
-  <CommandUnloadDesc>TODO</CommandUnloadDesc>
+  <CommandUnloadDesc>Eject all contents from the {0}.</CommandUnloadDesc>
 
   <!-- Launch group -->
   <!-- EN: Launch -->
@@ -515,19 +515,19 @@
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>이륙해서 목적지로 날아갑니다.</CommandLaunchGroupDesc>
   <!-- EN: Must be loaded first. -->
-  <CommandLaunchGroupFailNotLoaded>TODO</CommandLaunchGroupFailNotLoaded>
+  <CommandLaunchGroupFailNotLoaded>우선 적재돼야 함.</CommandLaunchGroupFailNotLoaded>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>그룹에 속한 수송 포드 일부가 연료 주입기에 연결되지 않았습니다.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Roof blocking launch. -->
-  <CommandLaunchGroupFailUnderRoof>일부 발사대가 지붕 아래에 위치합니다.</CommandLaunchGroupFailUnderRoof>
+  <CommandLaunchGroupFailUnderRoof>지붕에 막힘.</CommandLaunchGroupFailUnderRoof>
   <!-- EN: Not enough fuel to launch. -->
-  <CommandLaunchGroupFailNoFuel>그룹에 속한 수송 포드 일부에 연료가 부족합니다.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailNoFuel>연료 부족.</CommandLaunchGroupFailNoFuel>
   <!-- EN: Over mass capacity. -->
-  <CommandLaunchGroupFailOverMassCapacity>TODO</CommandLaunchGroupFailOverMassCapacity>
+  <CommandLaunchGroupFailOverMassCapacity>최대 무게 초과.</CommandLaunchGroupFailOverMassCapacity>
   <!-- EN: On cooldown. -->
-  <CommandLaunchGroupCooldown>TODO</CommandLaunchGroupCooldown>
+  <CommandLaunchGroupCooldown>재사용 대기 중.</CommandLaunchGroupCooldown>
   <!-- EN: {0} / {1} kg -->
-  <MassUsageString>TODO</MassUsageString>
+  <MassUsageString>{0} / {1} kg</MassUsageString>
 
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
@@ -743,30 +743,26 @@
 
   <!-- Map Portal -->
   <!-- EN: View {0} -->
-  <CommandViewPocketMapLabel>TODO</CommandViewPocketMapLabel>
+  <CommandViewPocketMapLabel>{0} 보기</CommandViewPocketMapLabel>
   <!-- EN: View the connected {0} map. -->
-  <CommandViewPocketMapDesc>TODO</CommandViewPocketMapDesc>
+  <CommandViewPocketMapDesc>연결된 {0} 지역을 봅니다.</CommandViewPocketMapDesc>
   <!-- EN: View surface -->
-  <CommandViewSurface>TODO</CommandViewSurface>
+  <CommandViewSurface>지표면 보기</CommandViewSurface>
   <!-- EN: View the connected surface map. -->
-  <CommandViewSurfaceDesc>TODO</CommandViewSurfaceDesc>
+  <CommandViewSurfaceDesc>연결된 지표면 지역을 봅니다.</CommandViewSurfaceDesc>
 
   <!-- Auto-build pod -->
   <!-- EN: Auto build transport pod -->
-  <AutoBuildTransportPod>TODO</AutoBuildTransportPod>
+  <AutoBuildTransportPod>수송 포드 자동 건설</AutoBuildTransportPod>
   <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
-  <AutoBuildTransportPodDesc>TODO</AutoBuildTransportPodDesc>
+  <AutoBuildTransportPodDesc>가능한 경우 정착민들이 수송 포드를 자동으로 건설합니다.</AutoBuildTransportPodDesc>
   
   <!-- Hacking gizmo -->
   <!-- EN: Hack... -->
-  <HackGizmo>TODO</HackGizmo>
+  <HackGizmo>해킹...</HackGizmo>
   <!-- EN: Cannot hack -->
-  <CannotChooseHacker>TODO</CannotChooseHacker>
+  <CannotChooseHacker>해킹할 수 없음</CannotChooseHacker>
   <!-- EN: Choose hacker -->
-  <CommandChooseHacker>TODO</CommandChooseHacker>
+  <CommandChooseHacker>해커 선택</CommandChooseHacker>
   
-  <!-- UNUSED -->
-  <CommandHideZoneLabel>숨기기</CommandHideZoneLabel>
-  <CommandUnhideZoneLabel>보이기</CommandUnhideZoneLabel>
-
 </LanguageData>
