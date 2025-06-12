@@ -1,6 +1,7 @@
 {
   "version": "5",
   "specifiers": {
+    "jsr:@libs/xml@*": "7.0.0",
     "jsr:@std/cli@*": "1.0.20",
     "jsr:@std/dotenv@*": "0.225.5",
     "jsr:@std/fs@*": "1.0.18",
@@ -10,6 +11,9 @@
     "npm:steam-game-path@^1.0.3": "1.1.1"
   },
   "jsr": {
+    "@libs/xml@7.0.0": {
+      "integrity": "4fe581ec16d4a58fdc085c89f721e024f06afe7303d62ed4c24c12b6dec98ece"
+    },
     "@std/cli@1.0.20": {
       "integrity": "a8c384a2c98cec6ec6a2055c273a916e2772485eb784af0db004c5ab8ba52333"
     },

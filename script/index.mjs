@@ -5,8 +5,9 @@ import * as fs from 'jsr:@std/fs'
 import { ensureDir } from 'jsr:@std/fs'
 import * as path from 'jsr:@std/path'
 import * as zip from 'jsr:@zip-js/zip-js'
+import { prepare } from './prepare.mjs'
 
-const AVAILABLE_DLCS = ['Core', 'Royalty', 'Ideology', 'Biotech', 'Anomaly']
+import { AVAILABLE_DLCS } from './consts.mjs'
 
 const getRimworldBasePath = () => {
   const rimworldPath = Deno.env.get('RIMWORLD_PATH')
@@ -365,8 +366,10 @@ const main = async () => {
     )
   } else if (command === 'worker') {
     await buildWorker()
+  } else if (command === 'prepare') {
+    await prepare()
   } else {
-    console.log('Available commands: credit, clear, download, pull, push, worker')
+    console.log('Available commands: credit, clear, download, pull, push, worker, prepare')
   }
 }
 
