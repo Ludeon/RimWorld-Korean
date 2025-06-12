@@ -1,115 +1,45 @@
-#!/usr/bin/node
-import { createRequire } from 'node:module'
-import path from 'node:path'
-import { pipeline } from 'node:stream/promises'
+import 'jsr:@std/dotenv/load'
 
-import { execa } from 'execa'
-import fs from 'fs-extra'
-import got from 'got'
-import { rimraf } from 'rimraf'
-import { getGamePath } from 'steam-game-path'
-import unzipper from 'unzipper'
-import yargs from 'yargs'
-import { hideBin } from 'yargs/helpers'
+import { parseArgs } from 'jsr:@std/cli'
+import * as fs from 'jsr:@std/fs'
+import { ensureDir } from 'jsr:@std/fs'
+import * as path from 'jsr:@std/path'
+import * as zip from 'jsr:@zip-js/zip-js'
 
 const AVAILABLE_DLCS = ['Core', 'Royalty', 'Ideology', 'Biotech', 'Anomaly']
 
+const getRimworldBasePath = () => {
+  const rimworldPath = Deno.env.get('RIMWORLD_PATH')
+  if (!rimworldPath) {
+    console.error(
+      'Error: Could not determine RimWorld game path. Please ensure Steam is running and RimWorld is installed, or set the RIMWORLD_PATH environment variable to your RimWorld installation directory (e.g., C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\RimWorld).'
+    )
+    Deno.exit(1)
+  }
+
+  return rimworldPath
+}
+
 const timeout = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
-const clearTranslations = async () => {
-  const gamePath = path.join(getGamePath(294100).game.path, 'Data')
+const clearTranslations = () => {
+  const rimworldBasePath = getRimworldBasePath()
+  const gameDataPath = path.join(rimworldBasePath, 'Data')
 
   return Promise.all(
-    AVAILABLE_DLCS.map((dlc) => {
-      const dlcLangPath = path.join(gamePath, dlc, 'Languages')
+    AVAILABLE_DLCS.map(async (dlc) => {
+      const dlcLangPath = path.join(gameDataPath, dlc, 'Languages')
 
-      return rimraf(`${dlcLangPath}/*.tar`, { glob: true })
+      for await (const dirEntry of Deno.readDir(dlcLangPath)) {
+        if (dirEntry.name === 'Korean (한국어)' || dirEntry.isFile) {
+          await Deno.remove(path.join(dlcLangPath, dirEntry.name), { recursive: true })
+        }
+      }
     })
   )
 }
 
-yargs(hideBin(process.argv))
-  .scriptName('cli')
-  .command(
-    'credit',
-    'automatically populate CREDITS and LanguageInfo.xml',
-    (ins) =>
-      ins
-        .option('report', {
-          boolean: true,
-          default: true,
-          description: 'Generate a new report. Set this to false to use existing CREDITS.',
-        })
-        .help(),
-    async (argv) => {
-      const require = createRequire(import.meta.url)
-      const { host, token } = require(path.join(process.cwd(), '.crowdin.json'))
-
-      if (argv.report) {
-        console.log('Requesting report generation...')
-
-        const identifier = await got
-          .post(`${host}/api/v2/projects/2/reports`, {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-            json: {
-              name: 'top-members',
-              schema: {
-                languageId: 'ko',
-                format: 'json',
-              },
-            },
-          })
-          .json()
-          .then((res) => res.data.identifier)
-
-        console.log(`Waiting for report ${identifier} to generate...`)
-
-        while ((await timeout(1000), true)) {
-          const status = await got
-            .get(`${host}/api/v2/projects/2/reports/${identifier}`, {
-              headers: {
-                Authorization: `Bearer ${token}`,
-              },
-            })
-            .json()
-            .then((res) => res.data.status)
-
-          if (status === 'finished') {
-            break
-          }
-
-          console.log('retrying...')
-        }
-
-        console.log(`Downloading report ${identifier}...`)
-
-        const downloadURL = await got
-          .get(`${host}/api/v2/projects/2/reports/${identifier}/download`, {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          })
-          .json()
-          .then((res) => res.data.url)
-
-        const names = await got
-          .get(downloadURL)
-          .json()
-          // Holy Moly (holymoly) => Holy Moly
-          .then((res) => res.data.map((data) => data.user.fullName.replace(/\s\(.+\)/, '')))
-
-        console.log('Writing CREDITS...')
-
-        await fs.writeFile(path.join(process.cwd(), 'CREDITS'), names.join('\n'))
-      }
-
-      console.log('Writing LanguageInfo.xml...')
-
-      const names = await fs.readFile(path.join(process.cwd(), 'CREDITS'), 'utf-8').then((res) => res.split('\n'))
-
-      const buildLanguageInfo = (credits) => `<?xml version="1.0" encoding="utf-8"?>
+const buildLanguageInfo = (credits) => `<?xml version="1.0" encoding="utf-8"?>
 <LanguageInfo>
   <friendlyNameNative>한국어</friendlyNameNative>
   <friendlyNameEnglish>Korean</friendlyNameEnglish>
@@ -120,181 +50,327 @@ yargs(hideBin(process.argv))
 </LanguageInfo>
 `
 
-      const buildCredit = (name) => `
+const buildCredit = (name) => `
     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
       <creditee>${name}</creditee>
     </li>`
 
-      const creditEntries = names.map(buildCredit).join('')
-      const builtLanguageInfo = buildLanguageInfo(creditEntries)
+const writeCredits = async (names) => {
+  await Deno.writeTextFile(path.join(Deno.cwd(), 'CREDITS'), names.join('\n'))
+}
 
-      return fs.writeFile(path.join(process.cwd(), 'Core/LanguageInfo.xml'), builtLanguageInfo)
+const writeLanguageInfo = async (names) => {
+  const creditEntries = names.map(buildCredit).join('')
+  const builtLanguageInfo = buildLanguageInfo(creditEntries)
+  await ensureDir(path.dirname(path.join(Deno.cwd(), 'Core/LanguageInfo.xml')))
+  await Deno.writeTextFile(path.join(Deno.cwd(), 'Core/LanguageInfo.xml'), builtLanguageInfo)
+}
+
+const downloadReport = async (host, token, identifier) => {
+  const response = await fetch(`${host}/api/v2/projects/2/reports/${identifier}/download`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  })
+  const data = await response.json()
+  return data.data.url
+}
+
+const fetchReportStatus = async (host, token, identifier) => {
+  const response = await fetch(`${host}/api/v2/projects/2/reports/${identifier}`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  })
+  const data = await response.json()
+  return data.data.status
+}
+
+const generateReport = async (host, token) => {
+  const response = await fetch(`${host}/api/v2/projects/2/reports`, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      name: 'top-members',
+      schema: {
+        languageId: 'ko',
+        format: 'json',
+      },
+    }),
+  })
+  const data = await response.json()
+  return data.data.identifier
+}
+
+const downloadBuild = async (host, token, buildID) => {
+  const response = await fetch(`${host}/api/v2/projects/2/translations/builds/${buildID}/download`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  })
+  const data = await response.json()
+  return data.data.url
+}
+
+const fetchBuildStatus = async (host, token, buildID) => {
+  const response = await fetch(`${host}/api/v2/projects/2/translations/builds/${buildID}`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  })
+  const data = await response.json()
+  return data.data.status
+}
+
+const requestBuild = async (host, token) => {
+  const response = await fetch(`${host}/api/v2/projects/2/translations/builds`, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      targetLanguageIds: ['ko'],
+    }),
+  })
+  const data = await response.json()
+  return data.data.id
+}
+
+const pullLanguageData = async (dlc) => {
+  const rimworldBasePath = getRimworldBasePath()
+  const gameDataPath = path.join(rimworldBasePath, 'Data')
+  const sourcePath = path.join(gameDataPath, dlc, 'Languages/Korean (한국어)')
+  const translationPath = path.join(Deno.cwd(), dlc)
+
+  await Deno.remove(translationPath, { recursive: true }).catch((e) => {
+    if (!(e instanceof Deno.errors.NotFound)) throw e
+  })
+  await Deno.mkdir(translationPath, { recursive: true })
+
+  const entries = []
+  try {
+    for await (const dirEntry of Deno.readDir(sourcePath)) {
+      entries.push(dirEntry.name)
     }
+  } catch (error) {
+    if (error instanceof Deno.errors.NotFound) {
+      console.warn(`Source directory not found, skipping pull for DLC ${dlc}: ${sourcePath}`)
+      return
+    }
+    throw error
+  }
+
+  return Promise.all(
+    entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(translationPath, name), { overwrite: true }))
   )
-  .command('clear', 'clear all language files from RimWorld', (ins) => ins.help(), clearTranslations)
-  .command(
-    'download',
-    'download Crowdin build',
-    (ins) =>
-      ins
-        .option('build', {
-          boolean: true,
-          default: true,
-          description: 'Generate a new build. Set this to false to use existing builds.',
-        })
-        .help(),
-    async (argv) => {
-      const require = createRequire(import.meta.url)
-      const { host, token } = require(path.join(process.cwd(), '.crowdin.json'))
+}
 
-      let needNewBuild = argv.build
-      let lastBuildID
+const pushLanguageData = async (dlc) => {
+  const rimworldBasePath = getRimworldBasePath()
+  const gameDataPath = path.join(rimworldBasePath, 'Data')
+  const sourcePath = path.join(Deno.cwd(), dlc)
+  const dlcLangPath = path.join(gameDataPath, dlc, 'Languages/Korean (한국어)')
 
-      while (true) {
-        if (needNewBuild) {
-          console.log('Requesting build...')
+  await Deno.remove(dlcLangPath, { recursive: true }).catch((e) => {
+    if (!(e instanceof Deno.errors.NotFound)) throw e
+  })
+  await Deno.mkdir(dlcLangPath, { recursive: true })
 
-          lastBuildID = await got
-            .post(`${host}/api/v2/projects/2/translations/builds`, {
-              headers: {
-                Authorization: `Bearer ${token}`,
-              },
-              json: {
-                targetLanguageIds: ['ko'],
-              },
-            })
-            .json()
-            .then((res) => res.data.id)
-          break
-        }
+  const entries = []
+  try {
+    for await (const dirEntry of Deno.readDir(sourcePath)) {
+      entries.push(dirEntry.name)
+    }
+  } catch (error) {
+    if (error instanceof Deno.errors.NotFound) {
+      console.warn(`Source directory not found, skipping push for DLC ${dlc}: ${sourcePath}`)
+      return
+    }
+    throw error
+  }
 
-        const maybeLastBuildID = await got
-          .get(`${host}/api/v2/projects/2/translations/builds`, {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          })
-          .json()
-          .then((res) => res.data.find((build) => build.data.attributes.targetLanguageIds.length === 1)?.data.id)
+  return Promise.all(
+    entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(dlcLangPath, name), { overwrite: true }))
+  )
+}
 
-        if (maybeLastBuildID) {
-          lastBuildID = maybeLastBuildID
-          break
-        }
+const buildWorker = async () => {
+  const command = new Deno.Command('dotnet', {
+    args: ['build', 'LanguageWorker'],
+    stdout: 'inherit',
+    stderr: 'inherit',
+  })
+  const { code } = await command.output()
+  if (code !== 0) {
+    throw new Error(`dotnet build failed with code ${code}`)
+  }
 
-        console.log('No previous build found.')
-        needNewBuild = true
-      }
+  const src = path.join(Deno.cwd(), 'LanguageWorker/bin/Debug/net472/LanguageWorker.dll')
+  const dest = path.join(Deno.cwd(), 'LanguageWorker.dll')
+  await Deno.copyFile(src, dest)
+}
 
-      console.log(`Build ID was ${lastBuildID}.`)
+const main = async () => {
+  const crowdinHost = Deno.env.get('CROWDIN_HOST')
+  const crowdinToken = Deno.env.get('CROWDIN_TOKEN')
+  if (!crowdinHost || !crowdinToken) {
+    console.error('Error: CROWDIN_HOST and CROWDIN_TOKEN environment variables must be set.')
+    Deno.exit(1)
+  }
+
+  const args = parseArgs(Deno.args)
+
+  const command = args._[0]
+
+  if (command === 'credit') {
+    if (args.report) {
+      const identifier = await generateReport(crowdinHost, crowdinToken)
+
+      console.log(`Waiting for report ${identifier} to generate...`)
 
       while ((await timeout(1000), true)) {
-        const response = await got.get(`${host}/api/v2/projects/2/translations/builds/${lastBuildID}/download`, {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        })
+        const status = await fetchReportStatus(crowdinHost, crowdinToken, identifier)
+        if (status === 'finished') break
+      }
 
-        const body = JSON.parse(response.body)
+      console.log(`Downloading report ${identifier}...`)
 
-        if (response.statusCode === 202) {
-          const progress = body.data.progress
-          console.log(`${progress}%...`)
-          continue
-        }
+      const downloadURL = await downloadReport(crowdinHost, crowdinToken, identifier)
+      const reportResponse = await fetch(downloadURL)
+      const reportData = await reportResponse.json()
+      const names = reportData.data.map((data) => data.user.fullName.replace(/\s\(.+\)/, ''))
 
-        const downloadURL = body.data.url
+      await writeCredits(names)
+    }
 
-        console.log('Clearing existing files...')
-        await Promise.all([
-          rimraf(path.join(process.cwd(), 'Core'), {
-            filter: (p) => !p.endsWith('LanguageInfo.xml') && !p.endsWith('LangIcon.png'),
-          }),
-          ...AVAILABLE_DLCS.slice(1).map((dlc) => rimraf(path.join(process.cwd(), dlc))),
-        ])
+    const creditsContent = await Deno.readTextFile(path.join(Deno.cwd(), 'CREDITS'))
+    const namesFromCredits = creditsContent.split('\n')
+    await writeLanguageInfo(namesFromCredits)
+  } else if (command === 'clear') {
+    await clearTranslations()
+  } else if (command === 'download') {
+    let lastBuildID
 
-        console.log('Extracting...')
-
-        // unzipper.Extract is broken (at least on Windows), need to Parse and write manually
-        const stream = got.stream(downloadURL).pipe(unzipper.Parse({ forceStream: true }))
-        for await (const entry of stream) {
-          const fileName = entry.path
-          const type = entry.type
-
-          if (type === 'Directory') {
-            await fs.ensureDir(path.join(process.cwd(), fileName))
-            continue
-          }
-
-          await pipeline(entry, fs.createWriteStream(path.join(process.cwd(), fileName)))
-        }
-
-        break
+    if (args.build) {
+      console.log('Requesting new build...')
+      lastBuildID = await requestBuild(crowdinHost, crowdinToken)
+    } else {
+      console.log('Fetching existing builds...')
+      const buildsResponse = await fetch(`${crowdinHost}/api/v2/projects/2/translations/builds`, {
+        headers: { Authorization: `Bearer ${crowdinToken}` },
+      })
+      const buildsData = await buildsResponse.json()
+      const latestBuild = buildsData.data.find((build) => build.data.attributes.targetLanguageIds.length === 1)
+      if (latestBuild) {
+        lastBuildID = latestBuild.data.id
+      } else {
+        console.log('No previous build found. Requesting a new build...')
+        lastBuildID = await requestBuild(crowdinHost, crowdinToken)
       }
     }
-  )
-  .command(
-    'pull',
-    'pull language data from RimWorld installation path',
-    (ins) => ins.help(),
-    () => {
-      const gamePath = path.join(getGamePath(294100).game.path, 'Data')
 
-      return Promise.all(
-        AVAILABLE_DLCS.map(async (dlc) => {
-          const sourcePath = path.join(gamePath, dlc, 'Languages/Korean (한국어)')
-          const translationPath = path.join(process.cwd(), dlc)
+    console.log(`Using build ID: ${lastBuildID}. Waiting for build to finish...`)
 
-          await fs.remove(translationPath)
-          await fs.ensureDir(translationPath)
-
-          // get all files and directories of sourcePath
-          const entries = fs.readdirSync(sourcePath)
-
-          // copy them under translationPath
-          return Promise.all(
-            entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(translationPath, name)))
-          )
-        })
+    let downloadURL
+    while (true) {
+      await timeout(2000)
+      const buildStatusResponse = await fetch(
+        `${crowdinHost}/api/v2/projects/2/translations/builds/${lastBuildID}/download`,
+        {
+          headers: { Authorization: `Bearer ${crowdinToken}` },
+        }
       )
+      const statusData = await buildStatusResponse.json()
+
+      if (buildStatusResponse.status === 202 || (statusData.data && statusData.data.progress < 100)) {
+        console.log(`Build progress: ${statusData.data.progress}%...`)
+        continue
+      }
+
+      if (buildStatusResponse.status === 200 && statusData.data && statusData.data.url) {
+        downloadURL = statusData.data.url
+        break
+      }
+
+      console.log('Unexpected build status response:', statusData)
+      throw new Error('Failed to get download URL for the build.')
     }
-  )
-  .command(
-    'push',
-    'push language data to RimWorld installation path',
-    (ins) => ins.help(),
-    async () => {
-      await clearTranslations()
 
-      const gamePath = path.join(getGamePath(294100).game.path, 'Data')
-
-      return Promise.all(
-        AVAILABLE_DLCS.map(async (dlc) => {
-          const sourcePath = path.join(process.cwd(), dlc)
-          const dlcLangPath = path.join(gamePath, dlc, 'Languages/Korean (한국어)')
-
-          await fs.remove(dlcLangPath)
-          await fs.ensureDir(dlcLangPath)
-
-          // get all files and directories of sourcePath
-          const entries = fs.readdirSync(sourcePath)
-
-          // copy them under dlcLangPath
-          return Promise.all(entries.map((name) => fs.copy(path.join(sourcePath, name), path.join(dlcLangPath, name))))
-        })
-      )
+    const corePath = path.join(Deno.cwd(), 'Core')
+    for await (const entry of Deno.readDir(corePath)) {
+      const entryPath = path.join(corePath, entry.name)
+      if (entry.name !== 'LangIcon.png' && entry.name !== 'LanguageInfo.xml') {
+        await Deno.remove(entryPath, { recursive: true })
+      }
     }
-  )
-  .command(
-    'worker',
-    'build LanguageWorker_Korean',
-    (ins) => ins.help(),
-    async () => {
-      await execa('dotnet', ['build', 'LanguageWorker'], { stdio: 'inherit' })
 
-      const src = path.join(process.cwd(), 'LanguageWorker/bin/Debug/net472/LanguageWorker.dll')
-      const dest = path.join(process.cwd(), 'LanguageWorker.dll')
-      fs.copyFileSync(src, dest)
+    await Promise.all(
+      AVAILABLE_DLCS.slice(1).map(async (dlc) => {
+        try {
+          await Deno.remove(path.join(Deno.cwd(), dlc), { recursive: true })
+        } catch (e) {
+          if (!(e instanceof Deno.errors.NotFound)) throw e
+        }
+      })
+    )
+
+    console.log('Downloading and extracting archive...')
+    const zipResponse = await fetch(downloadURL)
+    if (!zipResponse.body) {
+      throw new Error('Failed to get readable stream from download URL')
     }
-  ).argv
+
+    const tempZipFilePath = await Deno.makeTempFile({ prefix: 'rimworld_translation_', suffix: '.zip' })
+    const tempZipFile = await Deno.open(tempZipFilePath, { write: true, create: true })
+    await zipResponse.body.pipeTo(tempZipFile.writable)
+
+    const zipFileData = await Deno.readFile(tempZipFilePath)
+    const blobReader = new zip.BlobReader(new Blob([zipFileData]))
+    const zipReader = new zip.ZipReader(blobReader)
+    const entries = await zipReader.getEntries()
+    const destinationPath = Deno.cwd()
+
+    for (const entry of entries) {
+      const entryPath = path.join(destinationPath, entry.filename)
+      if (entry.directory) {
+        await ensureDir(entryPath)
+      } else {
+        await ensureDir(path.dirname(entryPath))
+        const writer = new zip.Uint8ArrayWriter()
+        const data = await entry.getData(writer)
+        await Deno.writeFile(entryPath, data)
+      }
+    }
+    await zipReader.close()
+    await Deno.remove(tempZipFilePath)
+  } else if (command === 'pull') {
+    await Promise.all(
+      AVAILABLE_DLCS.map(async (dlc) => {
+        console.log(`Pulling for ${dlc}`)
+        await pullLanguageData(dlc)
+      })
+    )
+  } else if (command === 'push') {
+    await clearTranslations()
+    await Promise.all(
+      AVAILABLE_DLCS.map(async (dlc) => {
+        console.log(`Pushing for ${dlc}`)
+        await pushLanguageData(dlc)
+      })
+    )
+  } else if (command === 'worker') {
+    await buildWorker()
+  } else {
+    console.log('Available commands: credit, clear, download, pull, push, worker')
+  }
+}
+
+main().catch((err) => {
+  console.error('Script failed:', err)
+  Deno.exit(1)
+})

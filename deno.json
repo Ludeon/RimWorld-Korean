@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "cli": {
+      "command": "deno run --allow-all ./script/index.mjs",
+      "desc": "Run the CLI application"
+    }
+  },
+  "nodeModulesDir": "auto"
+}
