@@ -7,13 +7,13 @@ import { AVAILABLE_DLCS } from './consts.mjs'
 /**
  * Move <!-- EN: ... --> content into node's and remove <!-- UNUSED --> content
  */
-const processXMLContent = (content) => {
+const processXMLContent = (content, isKeyedFile = false) => {
   // First, remove everything after <!-- UNUSED --> comment, including preceding whitespace
   let result = content.replace(/\s*<!--\s*UNUSED\s*-->\s*[\s\S]*?(<\/LanguageData>)/, '\n\n$1')
   // Then process EN comments
   result = result.replace(
-    /<!--\s*EN:\s*([\s\S]*?)\s*-->\s*\n(\s*)(<[^>\s]+(?:\s[^>]*)?>)([\s\S]*?)(<\/[^>]+>)/g,
-    (_, enContent, indent, openTag, __, closeTag) => {
+    /<!--\s*EN:\s*([\s\S]*?)\s*-->\s*\n(\s*)(<([^>\s]+)(?:\s[^>]*)?>)([\s\S]*?)(<\/\4>)/g,
+    (_, enContent, indent, openTag, _tagName, __, closeTag) => {
       const trimmedEnContent = enContent.trim()
 
       // If EN contains XML tags (<li>s)
@@ -23,16 +23,18 @@ const processXMLContent = (content) => {
           const trimmedLine = line.trim()
           if (!trimmedLine) return ''
 
-          const escapedLine = trimmedLine.replace(/</g, '&lt;').replace(/>/g, '&gt;')
-          return `${indent}  ${escapedLine}`
+          // Only escape XML characters if this is a Keyed file
+          const finalLine = isKeyedFile ? trimmedLine.replace(/</g, '&lt;').replace(/>/g, '&gt;') : trimmedLine
+          return `${indent}  ${finalLine}`
         })
         const indentedEnContent = processedLines.join('\n')
 
         return `<!-- EN: ${enContent.trim()} -->\n${indent}${openTag}\n${indentedEnContent}\n${indent}${closeTag}`
       }
 
-      const escapedContent = trimmedEnContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
-      return `<!-- EN: ${trimmedEnContent} -->\n${indent}${openTag}${escapedContent}${closeTag}`
+      // Only escape XML characters for simple content if this is a Keyed file
+      const finalContent = isKeyedFile ? trimmedEnContent.replace(/</g, '&lt;').replace(/>/g, '&gt;') : trimmedEnContent
+      return `<!-- EN: ${trimmedEnContent} -->\n${indent}${openTag}${finalContent}${closeTag}`
     }
   )
 
@@ -81,7 +83,9 @@ const processDLCXMLFiles = async (dlcName, outputDir, basePath) => {
 
     try {
       const content = await Deno.readTextFile(entry.path)
-      const processedContent = processXMLContent(content)
+      // Check if this is a Keyed file
+      const isKeyedFile = relativePath.includes('Keyed')
+      const processedContent = processXMLContent(content, isKeyedFile)
       await Deno.writeTextFile(outputFilePath, processedContent)
       processedCount++
 
