@@ -20,11 +20,11 @@
     <li>animistProphecy(tag=meme_FemaleSupremacy) ->[itIsSaid] that a powerful spirit of destruction will end the universe, but that a woman will wield the spirit of the [relic0_name] recreate the universe anew.</li>
   -->
   <FemaleSupremacy.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_FemaleSupremacy)       ->[deity0_name]께서 여자에게 지혜를 주었으니 쉽게 흥분하는 남자와 아이들을 인도하기 위함이라 이를 어긴 자들을 꾸짖으시더라.</li>
-    <li>episode(uses=1,tag=meme_FemaleSupremacy) ->타락한 남자들에게 고통받은 여신도들이 맞서 싸우니 [deity0_name]께서 신성한 도움을 주시어 마침내 여성이 마땅한 자리를 되찾았느니라.</li>
-    <li>setup(tag=meme_FemaleSupremacy)          ->이기적이고 폭력적인 남성이 온 인류를 자신들의 이익을 위해 착취하는 세계에 대항하여, [founderName]께서 강한 여성을 모아 모두를 위한 신세계의 건설을 시작하셨다.</li>
-    <li>story(uses=1,tag=meme_FemaleSupremacy)   ->남자들이 이에 반해 대항하매, [founderName](이)가 그들을 지도자의 의회에서 내쫓으셨다.</li>
-    <li>lessonIntro(tag=meme_FemaleSupremacy)         ->이번에도 그 남자는 내가 한 일을 어떻게 해야 하는지 다시 설명하기 시작했다. 덕분에 나의 평소 생각이 한층 견고해지는 계기가 됐다.</li>
+    <li>creation(tag=meme_FemaleSupremacy)       ->[deity0_name]께서 여자에게 지혜를 주시니 이는 조급한 남자와 아이들을 인도케 하려 하심이요 이 정도를 어기는 자들을 책망하시니라.</li>
+    <li>episode(uses=1,tag=meme_FemaleSupremacy) ->타락한 남자들에게 핍박받던 여신도들이 일어나 맞서 싸우매 [deity0_name]께서 신령한 도움을 베푸시니 마침내 여성이 마땅한 지위를 회복하였더라.</li>
+    <li>setup(tag=meme_FemaleSupremacy)          ->이기심과 폭력이 가득한 남성들이 온 인류를 자기 욕심을 위해 억압하는 세상에서 [founderName]께서 현명한 여성들을 모으사 만민을 위한 새 세계 건설을 시작하시니라.</li>
+    <li>story(uses=1,tag=meme_FemaleSupremacy)   ->남자들이 교만하여 자랑하고 다투거늘 [founderName]께서 그들을 지도자의 회의에서 축출하시니라.</li>
+    <li>lessonIntro(tag=meme_FemaleSupremacy)         ->이번에도 그 남자는 내가 방금 끝낸 일을 다시 설명하기 시작했다. 덕분에 나의 평소 생각이 한층 견고해지는 계기가 됐다.</li>
     <li>lesson(tag=meme_FemaleSupremacy)              ->여자만이 지배자의 지혜와 힘을 가지고 있다는 것을</li>
     <li>lessonReinforcement(tag=meme_FemaleSupremacy) ->현명한 여성으로서 저 불평하는 남자들보다 훨씬 먼저 깨닫게 된 것이다.</li>
     <li>archistBasis(tag=meme_FemaleSupremacy)    ->초월공학을 낳고 기른 것은 인류이나 이제 자식이 어머니를 뛰어넘었다.</li>
@@ -58,13 +58,13 @@
     <li>memeLeaderNoun->여성</li>
   </FemaleSupremacy.generalRules.rulesStrings>
   <!-- EN: gynist -->
-  <FemaleSupremacy.symbolPacks.0.adjective>남성 혐오주의적</FemaleSupremacy.symbolPacks.0.adjective>
+  <FemaleSupremacy.symbolPacks.0.adjective>남성혐오적</FemaleSupremacy.symbolPacks.0.adjective>
   <!-- EN: Gynism -->
-  <FemaleSupremacy.symbolPacks.0.ideoName>남성 혐오주의</FemaleSupremacy.symbolPacks.0.ideoName>
+  <FemaleSupremacy.symbolPacks.0.ideoName>남성혐오주의</FemaleSupremacy.symbolPacks.0.ideoName>
   <!-- EN: gynist -->
-  <FemaleSupremacy.symbolPacks.0.member>남성 혐오주의자</FemaleSupremacy.symbolPacks.0.member>
+  <FemaleSupremacy.symbolPacks.0.member>남성혐오자</FemaleSupremacy.symbolPacks.0.member>
   <!-- EN: gynism -->
-  <FemaleSupremacy.symbolPacks.0.theme>남성 혐오주의</FemaleSupremacy.symbolPacks.0.theme>
+  <FemaleSupremacy.symbolPacks.0.theme>남성혐오주의</FemaleSupremacy.symbolPacks.0.theme>
   <!-- EN: femist -->
   <FemaleSupremacy.symbolPacks.1.adjective>여성주의적</FemaleSupremacy.symbolPacks.1.adjective>
   <!-- EN: Femism -->
@@ -109,10 +109,10 @@
     <li>animistProphecy(tag=meme_MaleSupremacy) ->[itIsSaid] that a powerful spirit of destruction will seek to end the universe, but that a man will wield the spirit of the [relic0_name] and destroy the destroyer.</li>
   -->
   <MaleSupremacy.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_MaleSupremacy)        ->[deity0_name]께서 남자에게 힘을 주셨으니 이는 연약한 여성과 아이들의 부양을 위함이었고, 이 신성한 질서를 어지럽히고 인정하지 않는 자들을 꾸짖으시니라.</li>
-    <li>episode(uses=1,tag=meme_MaleSupremacy)  ->[deity0_name]께서 이르시되 남자의 힘은 여자를 보호하고 부양하기 위함이며, 여자는 결코 남자의 힘을 빼앗지 못하리라 하시니라.</li>
-    <li>setup(tag=meme_MaleSupremacy)           ->약하고 비굴한 남자들이 여자에게 빌던 세계, [founderName]께서 남성의 힘을 되찾아 혁명을 일으키셨다.</li>
-    <li>story(uses=1,tag=meme_MaleSupremacy)    ->이에 여성들이 달콤한 말을 속삭이고 구슬피 울었으나 [founderName](은)는 그들을 지도자의 의회에서 내쫓으셨다.</li>
+    <li>creation(tag=meme_MaleSupremacy)        ->[deity0_name]께서 남자에게 힘을 주시니 이는 연약한 여성과 아이들을 보호하고 부양케 하려 하심이요 이 신성한 질서를 어지럽히는 자들을 책망하시니라.</li>
+    <li>episode(uses=1,tag=meme_MaleSupremacy)  ->[deity0_name]께서 모든 자에게 이르시되 남자의 힘은 여자를 보호하고 부양하기 위하여 주어진 것이니 여자는 결단코 그 권세를 빼앗지 못하리라 하시니라.</li>
+    <li>setup(tag=meme_MaleSupremacy)           ->나약하고 비굴한 남자들이 여자의 인정을 구걸하는 세상에서 [founderName]께서 남성의 권능을 회복하사 새로운 운동을 일으키시니라.</li>
+    <li>story(uses=1,tag=meme_MaleSupremacy)    ->여자들이 교언영색으로 애원하고 울부짖거늘 [founderName]께서 그들을 지도자의 회의에서 축출하시니라.</li>
     <li>lessonIntro(tag=meme_MaleSupremacy)         ->그 여자는 설명을 아무리 간단하게 해도 알아듣질 못했다. 진실을 거부하던 그 모습 속에서 나는 깨닫고 말았다.</li>
     <li>lesson(tag=meme_MaleSupremacy)              ->남자만이 지배자의 힘과 지혜를 가지고 있다는 것을</li>
     <li>lessonReinforcement(tag=meme_MaleSupremacy) ->내 아내는 이걸로도 논쟁을 하려 했다. 믿을 수 있나? 입 닥치게 하는 건 그렇게 어렵지 않았지만.</li>

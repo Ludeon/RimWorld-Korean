@@ -4,7 +4,7 @@
   <!-- EN: bloodfeeding -->
   <Bloodfeeding.label>흡혈</Bloodfeeding.label>
   <!-- EN: Drinking blood is sacred. Bloodfeeders should be worshipped. -->
-  <Bloodfeeding.description>피를 마시는 것은 신성하다. 흡혈자는 숭배되어야만 한다.</Bloodfeeding.description>
+  <Bloodfeeding.description>피를 마시는 것은 신성하다. 흡혈자를 숭배하라.</Bloodfeeding.description>
   <!-- EN:
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] drank the blood of the stars, turning them from red to white.</li>
     <li>episode(uses=1,tag=meme_Bloodfeeding)  ->The [deity0_type] [deity0_name] gave to [deity0_possessive] chosen followers the gift of red hunger, so that they might know true strength.</li>
@@ -29,15 +29,15 @@
     <li>bloodDrinkingAnimal->blood cobra</li>
   -->
   <Bloodfeeding.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name](은)는 별의 피를 마셔서, 별을 빨간색에서 흰색으로 바꾸었다.</li>
-    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name](은)는 선택된 [deity0_possessive] 추종자들에게 핏빛갈증의 선물을 주어, 그들이 진정한 힘을 알 수 있도록 했도다.</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->[place_summary] [place_name]에 [deity0_name](이)라는 이름의 인간이 있었다. [deity0_possessive] 죄에 대한 처벌로 [deity0_possessive] 아버지는 [deity0_possessive] 영혼을 [bloodDrinkingAnimal]의 영혼에 바쳐서 [deity0_name](을)를 처벌하였도다.</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->[place_summary] [place_name]에서 [ritualName] 중에 [deity0_name](이)가 [altarRoomLabel]로 내려와 거대한 [bloodDrinkingAnimal]의 형태로 변했도다. [deity0_name](은)는 [deity0_possessive] [memberNamePlural]들의 피를 마셨느니라.</li>
-    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader](은)는 피를 마시는 모든 사람들을 저주스러운 존재라고 선언하고, [memberNamePlural]들을 토벌하기 위해 [foeSoldiers](을)를 보냈나니.</li>
-    <li>founderJoin(tag=meme_Bloodfeeding)     ->[founderName](이)라는 이름의 [place_job](이)가 [foeLeader]의 [foeSoldiers] 중 한 명에게 공격을 받았음에. [founderName](은)는 [place_personalWeapon](으)로 [foeLeader_objective] 죽이고 [foeLeader_possessive] 피를 마셔서 [deity0_name]의 힘을 얻었도다.</li>
-    <li>victory(tag=meme_Bloodfeeding)         ->[founderName](은)는 [memberNamePlural](을)를 [place_powerCenter](으)로 이끌었고 [foeLeader]의 피를 마시며 [foeLeader_possessive] 살을 태웠노라. [deity0_name](은)는 [founderName]님을 새로운 [foeLeader](으)로 만들었음에 이는 [founderName]님이 자신의 힘을 증명했기 때문이니라.</li>
-    <li>setup(tag=meme_Bloodfeeding)           ->[founderName](은)는 초지능 초월공학을 통제하려고 했다. 하지만 초월공학의 힘이 너무 커서 도리어 [founderName](이)가 변형되었다.</li>
-    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName](은)는 [founder_possessive] 추종자들에게 갈증이라는 선물을 주어 그들이 강해질 수 있도록 했다.</li>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name]께서 별들의 핏물을 마시사 그것들을 붉은빛에서 흰빛으로 바꾸시니라.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name]께서 택하신 그분의 추종자들에게 핏빛갈증의 선물을 내리사 저희로 하여금 참된 힘을 알게 하시니라.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->[place_summary] [place_name]에 [deity0_name]이라 하는 사람이 있었는데 그분의 죄에 대한 형벌로 그분의 아버지께서 그분의 혼을 [bloodDrinkingAnimal]의 혼과 합하사 [deity0_name](을)를 벌하시니라.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->[place_summary] [place_name]에서 [ritualName] 중에 [deity0_name]께서 [altarRoomLabel](으)로 강림하사 거대한 [bloodDrinkingAnimal]의 형상을 취하시니라. [deity0_name]께서 그분의 [memberName]들의 핏물을 마시시니라.</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader](은)는 핏물을 마시는 모든 자를 가증한 것이라 선포하고 [memberNamePlural]들을 핍박하고자 [foeSoldiers](을)를 보내니라.</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->[founderName]이라 하는 [place_job](이)가 [foeLeader]의 [foeSoldiers] 중 하나에게 습격을 당하매 [founderName](은)는 [place_personalWeapon](으)로 그를 죽이고 그의 핏물을 마시어 [deity0_name]의 힘을 얻으시니라.</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->[founderName]께서 [memberName]들을 이끌고 [place_powerCenter](으)로 들어가사 [foeLeader]의 핏물을 마시고 그의 살을 불사르시니라. [deity0_name]께서 [founderName](을)를 새로운 [foeLeader](으)로 세우시니 이는 그분께서 자신의 힘을 증명하셨음이라.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName]께서 초지능 초월공학을 다스리고자 하셨으나 초월공학의 권능이 너무 크매 도리어 그분께서 변화되시니라.</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->그분께서 추종자들에게 갈증이라는 선물을 내리사 저희로 하여금 강하게 되도록 하시니라.</li>
     <li>lessonIntro(tag=meme_Bloodfeeding)     ->내가 처음 피를 마셨을 때 그것은 확실해졌다. 내가 분명히 보았음에.</li>
     <li>lesson(tag=meme_Bloodfeeding)          ->사람은 약자와 강자 두 부류 뿐이니.</li>
     <li>lessonReinforcement(tag=meme_Bloodfeeding) ->피를 마시는 것은 강해지는 것이며, 이것을 분명한 진실이다.</li>
@@ -73,7 +73,7 @@
     <li>memeCreed->지하실</li>
     <li>memeCreed->은신처</li>
     <li>memeCreed->집회</li>
-    <li>memeHyphenPrefix->헤모글로빈</li>
+    <li>memeHyphenPrefix->헤모</li>
     <li>memeConcept->피</li>
     <li>memeConcept->갈증</li>
     <li>memeLeaderNoun->장로</li>

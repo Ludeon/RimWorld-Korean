@@ -65,8 +65,8 @@
     <li>r_memberName->[keyDeity]교인</li>
     <li>r_memberName->[keyDeity] 숭배자</li>
     <li>r_ideoName(p=6)->[packIdeoName]</li>
-    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix] [packIdeoName]</li>
-    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix] [packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoNameStructure]</li>
     <li>r_ideoName(p=2)->[memeAdjective] [creed]</li>
     <li>r_ideoName(p=1)->[packTheme]의 [creed]</li>
     <li>r_ideoName(p=1)->[place_adjective] [creed]</li>

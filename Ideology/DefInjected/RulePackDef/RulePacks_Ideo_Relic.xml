@@ -69,10 +69,10 @@
     <li>r_ideoRelicName(p=2)->[first][second]</li>
     <li>r_ideoRelicName->[memeConcept]의 [thingLabel]</li>
     <li>r_ideoRelicName->[memeAdjective] [thingLabel]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix] [thingLabel]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix][thingLabel]</li>
     <li>r_ideoRelicName->[memeAdjective] [relic]</li>
     <li>r_ideoRelicName->[memeConcept]의 [relic]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix] [relic]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix]의 [relic]</li>
     <li>relic->유물</li>
     <li>relic->성물</li>
     <li>relic->보물</li>
@@ -88,7 +88,7 @@
     <li>first->미래</li>
     <li>first->죽음</li>
     <li>first->생명</li>
-    <li>first->빛</li>
+    <li>first->광휘</li>
     <li>first->어둠</li>
     <li>first->종말</li>
     <li>first->공포</li>
@@ -96,7 +96,7 @@
     <li>first->시간</li>
     <li>first->혼령</li>
     <li>first->영혼</li>
-    <li>first->불</li>
+    <li>first->화염</li>
     <li>first->흐름</li>
     <li>first->물</li>
     <li>first->폭풍</li>
@@ -104,13 +104,13 @@
     <li>first->세월</li>
     <li>first->천상</li>
     <li>first->위치</li>
-    <li>first->극성</li>
+    <li>first->극지</li>
     <li>first->과업</li>
     <li>second->지휘자</li>
     <li>second->인도자</li>
     <li>second->대변자</li>
     <li>second->실현자</li>
-    <li>second->연결</li>
+    <li>second->가르침</li>
     <li>second->결합체</li>
     <li>second->고리</li>
     <li>second->연결체</li>
@@ -118,16 +118,16 @@
     <li>second->십자가</li>
     <li>second->집합체</li>
     <li>second->신체</li>
-    <li>second->초점</li>
-    <li>second->렌즈</li>
-    <li>second->빛</li>
+    <li>second->의 초점</li>
+    <li>second->의 렌즈</li>
+    <li>second->의 빛</li>
     <li>second->그림자</li>
-    <li>second->체</li>
+    <li>second->의 몸</li>
     <li>second->결정체</li>
     <li>second->형체</li>
     <li>second->손가락</li>
-    <li>second->채찍</li>
-    <li>second->한</li>
+    <li>second->부름</li>
+    <li>second->노래</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
   
 </LanguageData>

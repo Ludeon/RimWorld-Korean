@@ -35,15 +35,15 @@
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name]께서 인간과 [sacredAnimalList](을)를 창조하시어 모두 형제자매로 기르셨니라.</li>
-    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name]께서 동물과 [place_summary] [place_name]의 인간을 한데 모으시니 모두가 한데 모여 화합을 이뤘느니라.</li>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name]께서 [place_summary] [place_name]에 [sacredAnimalList](와)과 인간을 창조하시어 형제자매로 기르시니라.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name]께서 [place_summary] [place_name]의 동물과 인간을 한데 모아 큰 회의를 여시니라.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name]께서 [place_summary] [place_name](을)를 [sacredAnimalListEnd](으)로 축복하시고 사람들에게 동물을 존중하라 가르치시니</li>
-    <li>conflict(tag=meme_AnimalPersonhood)        ->[foeLeader](이)가 사악하니 야생의 짐승들을 사냥하라 명령을 하니라. [foeLeader_possessive] [foeSoldiers](이)가 명령을 받으니 잔혹함이 [place_personalWeapon]의 뒤를 따르더라.</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[founderName](이)라는 자가 [place_job]이었는데 [deity0_name]께서 [revelationAdverb] [founder_pronoun]에게 [veneratedAnimal]에 대해 말씀하시더라. 그런데 [founderName](이)가 [veneratedAnimal]이고 [veneratedAnimal](이)가 [founderName]이니 마침내 [founder_pronoun](이)가 [deity0_name]의 계획을 알게 되더라.</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->이름이 [founderName]이요 [place_job]인 자 많은 동물을 풀어주고 주인의 폭정에서 해방하여 [deity0_name]의 [altarRoomLabel](으)로 피하게 하니라.</li>
-    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName](이)가 자신의 목소리로 [memberName]들을 모으고 [deity0_name]의 목소리로 동물들을 모으니 발과 발굽의 위대한 질주가 [foeLeader]와 [foeSoldiers](을)를 짓밟더라.</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]께서는 숲 속에서 동물과 교감하고 그들을 공부하며 이십 년간 사셨다. [founderName]께서는 참된 도덕성을 깨달으시곤 이 이념을 창시하셨다.</li>
-    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]께서는 숲 속과 들판의 동물과 교감을 하셨으니 그들과 동등한 연결을 이뤄내셨다.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->악한 [foeLeader](이)가 야생 짐승을 사냥하라 명하니 [foeLeader_possessive] [foeSoldiers](이)가 잔혹한 [place_personalWeapon](으)로 사냥하니라.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name]께서 [place_job] [founderName]에게 [revelationAdverb] [veneratedAnimal]에 대해 이르시니라. 그런데 [founderName]께서 곧 [veneratedAnimal]이요 [veneratedAnimal](이)가 곧 [founderName]께서니 [founder_pronoun]께서 [deity0_name]의 계획을 깨달으시니라.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[place_job] [founderName]께서 잔혹한 주인에게 노예 된 많은 동물을 풀어주시고 [deity0_name]의 [altarRoomLabel]로 피하게 하시니라.</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]께서 [memberNamePlural](와)과 동물들을 [deity0_name]의 음성으로 부르시니 발과 발굽과 족발의 위대한 질주가 [foeLeader](와)과 [foeLeader_possessive] [foeSoldiers](을)를 짓밟으니라.</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]께서 숲에서 이십 년간 거하시며 동물을 연구하시고 교감하시니라. [founder_pronoun]께서 그들의 참된 도덕성을 깨달으시고 우리 운동을 세우시니라.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]께서 들과 숲의 동물과 교감하러 가시어 그들과 동등하게 연결되시니라.</li>
     <li>lessonIntro(tag=meme_AnimalPersonhood)         ->매일 [veneratedOrAnyAnimal](을)를 보러 갔을 때 진정 그들의 목소리를 듣는 법을 깨달았다. 그들은 자신들의 방법으로 계속해서 하나의 진실을 내게 반복해서 말하고 있었다.</li>
     <li>lesson(tag=meme_AnimalPersonhood)              ->동물은 이 세계에서 우리의 동업자니, 응당 그에 맞는 대우를 해줘야 한다는 것을</li>
     <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->[veneratedOrAnyAnimal](이)가 내게 속삭이기 전엔 믿지 않았었다.</li>
@@ -133,15 +133,15 @@
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Blindsight)        ->[deity0_name]께서 공허에서 무한히 티끌을 찾으나 그것이 어디에도 없으매 [deity0_name]께서 스스로 눈을 뽑아 생각하시니 그 마음 속에서 우주가 피어났니라.</li>
-    <li>episode(uses=1,tag=meme_Blindsight)  ->눈 먼 걸인이 [deity0_name]께 이르되 왜 저를 버리셨나이까 당신이 만드신 것도 볼 수 없지 않사옵니까 하니 [deity0_name]께서 이르시되 나의 진리는 마음 속에 있나니 너는 더 적은 것이 아니라 더 많은 것을 보고 있느니라 하셨느니라.</li>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name]께서 공허의 티끌을 무한히 보시되 아무것도 없으매 [deity0_pronoun]께서 스스로 눈을 뽑으시니 그 마음 속에서 우주가 이루어지니라.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->한 맹인 걸인이 [deity0_name]께 여짜오되 어찌하여 저를 버리셨나이까 당신께서 지으신 것조차 보지 못하겠나이다 하니 [deity0_name]께서 이르시되 내 진리는 마음에 있나니 네가 보는 것이 적지 아니하고 오히려 많으니라 하시니라.</li>
     <li>intro(tag=meme_Blindsight)           ->[deity0_type] [deity0_name]께서 [place_summary] [place_name]에 병을 퍼트리시어 모든 이의 눈을 멀게 하시니 이는 시각이 신성한 지식을 가로막는 장벽에 불과함을 깨닫도록 하심이니라.</li>
-    <li>conflict(tag=meme_Blindsight)        ->[foeLeader](이)가 [memberName]들에게 너희는 나의 선전을 매일 볼 지어다 하니 많은 맹인이 시위하니라.</li>
-    <li>founderJoin(tag=meme_Blindsight)     ->한 [place_job]의 이름이 [founderName]인데 [foeLeader]의 [foeSoldiers]에게서 [memberName](을)를 구하니 과정에 눈을 잃었으매 [founderName](이)가 진정 [foeLeader]의 폭정을 볼 수 있게 됨이라.</li>
-    <li>victory(tag=meme_Blindsight)         ->곧 [founderName](이)가 [place_powerCenter](으)로 가서 [foeLeader](을)를 기습하고 눈을 숟가락으로 파내어 [foeSoldiers]에게 죽임을 당하노라. 그제서야 [foeLeader](은)는 [deity0_name]의 신성함을 볼 수 있더라.</li>
-    <li>setup(tag=meme_Blindsight)           ->[founderName]께서는 가난한 자들을 돌보시는 자였다. 나날이 고통받는 그들을 보며 [founder_pronoun]께서는 더이상 버티실 수 없었다. [founder_pronoun]께서는 칼날로 눈알을 파내고 어둠 속에서 평정을 찾으셨다. [founder_pronoun]께서는 볼 수 있는 자들에게 깨달음을 퍼뜨리기 시작하셨다.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]께서 어느 눈먼 치유사에게 가르침을 주고자 찾아가셨으나, 가르치기는 커녕 가르침을 받는 자신을 발견하셨으니 이때가 [founderName]께서 육신의 시야가 진정한 가치를 모호하게 할 뿐이라는 것을 이해하신 때다.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]께서는 눈먼 자셨고 눈멂으로부터 지혜를 찾으셨다. 한 번은 [founderName]께서 어느 가족의 눈을 모두 적출하셨으니 이는 모두가 [founder_pronoun]께서 보시는 것처럼 볼 수 있도록 함이다.</li>
+    <li>conflict(tag=meme_Blindsight)        ->[foeLeader](이)가 모든 [memberName]들로 하여금 날마다 자신의 선전을 보라 명하니 많은 자가 항거하여 스스로 눈을 멀게 하니라.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->[place_job] [founderName]께서 [foeLeader]의 [foeSoldiers]에게서 한 [memberName](을)를 구하려 하시다가 눈을 잃으시니 그제서야 [foeLeader]의 폭정을 참으로 보시게 되니라.</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName]께서 [place_powerCenter]에 가시어 [foeLeader](을)를 발견하시고 숟가락으로 그 눈을 파내시니 [foeSoldiers]에게 죽임을 당하시니라. 그제서야 [foeLeader](이)가 [deity0_name]의 신성함을 보게 되니라.</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName]께서 가난한 자들을 고치시는 자이셨느니라. 날마다 고통받는 그들을 보시매 더 이상 견디실 수 없으시어 칼날로 자신의 눈을 파내시고 어둠 속에서 평안을 찾으시니라. 그분께서 볼 수 있는 자들에게 깨달음을 전하기 시작하시니라.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]께서 한 맹인 치유사를 찾아가시어 가르치려 하시되 도리어 가르침을 받으시니 이때 육신의 시야가 참된 시각을 가림을 깨달으시니라.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]께서는 맹인이셨으되 눈멂에서 지혜를 얻으시니라. 한 때 그분께서 친히 한 가족의 눈을 모두 뽑으시니 이는 그들도 그분께서 보시는 바와 같이 보게 하려 하심이라.</li>
     <li>lessonIntro(tag=meme_Blindsight)         ->내 발걸음은 당당했지만 내 영혼은 모든 걸음마다 넘어지고 있었다. 너무 많은 것이 보였으니까. 내 눈에 쏟아진 산성 용액 덕분에 그제서야 알 수 있었다.</li>
     <li>lesson(tag=meme_Blindsight)              ->눈이 멀어야만 진정 볼 수 있다는 것을</li>
     <li>lesson(tag=meme_Blindsight)              ->눈은 방해이며 지식은 안에서 나온다는 것을</li>
@@ -177,7 +177,7 @@
     <li>memeAdjective->천리안의</li>
     <li>memeCreed->본보기</li>
     <li>memeCreed->숭배자</li>
-    <li>memeHyphenPrefix->눈먼</li>
+    <li>memeHyphenPrefix->심안</li>
     <li>memeConcept->맹목</li>
     <li>memeConcept->환상</li>
     <li>memeConcept->시야</li>
@@ -213,15 +213,15 @@
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
   <Cannibal.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Cannibal)        ->[deity0_name]께서 형제의 피와 살을 먹어 모든 힘을 흡수하여 신들의 신이 되었으니</li>
-    <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type] [deity0_name]께서 적의 몸을 모두 먹어버리셨느니라.</li>
-    <li>intro(tag=meme_Cannibal)           ->[place_summary] [place_name]에 인간이 있었으니 [deity0_possessive] 아버지가 죽어 그 살점을 취해 [deity0_type](이)가 되었느니라.</li>
-    <li>intro(tag=meme_Cannibal)           ->[place_summary] [place_name]의 [ritualName]에 [deity0_name]께서 [altarRoomLabel](으)로 내려오시어 [memberName]들의 앞에서 사람의 살점을 드셨느니라.</li>
-    <li>conflict(tag=meme_Cannibal)        ->[foeLeader](이)가 인육 먹음이 범죄라 하더니 [foeSoldiers](을)를 보내어 [memberName]들을 추격하게 하더라.</li>
-    <li>founderJoin(tag=meme_Cannibal)     ->어느 [place_job](이)가 [founderName]인데 [foeLeader]의 [foeSoldiers](이)가 공격하니 [place_personalWeapon](으)로 모두 죽이고 [foeLeader]의 살과 피를 취하여 [deity0_name]의 힘을 얻었느니라.</li>
-    <li>victory(tag=meme_Cannibal)         ->[founderName](이)가 [memberName]들 한 무리를 이끌어 [place_powerCenter](으)로 들어가 [foeLeader](을)를 죽이고 살점을 취하니 [deity0_name]께서 [founderName](을)를 새로운 [foeLeader](으)로 임명하시더라.</li>
-    <li>setup(tag=meme_Cannibal)           ->[founderName]께서는 외딴 이곳에 불시착하셨다. 굶주림과 죽은 동료에 둘러싸인 [founder_labelShort]께서는 모두 먹어치우셨으니 마침내 강해지셨다.</li>
-    <li>story(uses=1,tag=meme_Cannibal)    ->신자들은 매주 한 번은 인간의 살을 씹어 그들의 의지를 축성했으니, 이는 [founderName](이)가 그렇게 일렀음이라.</li>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name]께서 그분의 형제를 죽이시고 그 살과 피를 취하시어 모든 힘을 흡수하사 신들 중에 첫째가 되시니라.</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type] [deity0_name]께서 그분의 원수들의 시체를 모두 잡수시니라.</li>
+    <li>intro(tag=meme_Cannibal)           ->[place_summary] [place_name]에 [deity0_name](이)라 하는 한 사람이 있었느니라. [deity0_possessive] 아버지가 죽으매 그 살을 취하여 [deity0_type](이)가 되니라.</li>
+    <li>intro(tag=meme_Cannibal)           ->[place_summary] [place_name]의 [ritualName] 때에 [deity0_name]께서 [altarRoomLabel](으)로 내려오시어 [memberName]들 앞에서 인간의 살을 잡수시니라.</li>
+    <li>conflict(tag=meme_Cannibal)        ->[foeLeader](이)가 인육을 먹는 자를 모두 죄인이라 하며 [foeSoldiers](을)를 보내어 [memberName]들을 핍박하니라.</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->[place_job] [founderName]께서 [foeLeader]의 [foeSoldiers]에게 공격을 받으시매 [place_personalWeapon](으)로 그들을 죽이시고 [foeLeader_possessive] 살과 피를 취하시어 [deity0_name]의 힘을 얻으시니라.</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName]께서 [memberName] 한 무리를 이끄시고 [place_powerCenter](으)로 들어가시어 [foeLeader](을)를 죽이시고 그 살을 취하시니 [deity0_name]께서 그분을 새로운 [foeLeader](으)로 세우시니라.</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName]께서 외딴 세상에 불시착하시니라. 굶주림과 죽은 동료들에 둘러싸이신 그분께서 모든 것을 잡수시고 마침내 강해지시니라.</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->신자들의 헌신을 드러내고자 [founderName]께서 그들로 하여금 매주 한 번은 인간의 살을 함께 잡수라 명하시니라.</li>
     <li>lessonIntro(tag=meme_Cannibal)         ->푸짐한 인축 식사를 통해서야 사람들에게 진실을 보여줄 수 있었다.</li>
     <li>lesson(tag=meme_Cannibal)              ->그 사람을 진정 알고자 한다면 그의 살점까지 취해야 한다는 점을</li>
     <li>lessonReinforcement(tag=meme_Cannibal) ->적의 시체를 새로운 친구와 함께 할 때는 그 친구에게도 이 사실을 가르쳐주려고 노력한다.</li>
@@ -257,7 +257,7 @@
     <li>memeCreed->이빨</li>
     <li>memeCreed->도살장</li>
     <li>memeCreed->숭배자</li>
-    <li>memeHyphenPrefix->피의</li>
+    <li>memeHyphenPrefix->핏빛</li>
     <li>memeConcept->피</li>
     <li>memeConcept->육체</li>
     <li>memeConcept->살인자</li>
@@ -318,14 +318,14 @@
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
   <Darkness.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Darkness)        ->[deity0_name]께서 우주를 어둠으로 덮으시되 그 안에 인류를 놓으시니 우리와 어둠을 공유하시니라.</li>
-    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]께서 빛을 만드셨으니 이는 빛이 있어야 그림자가 있으매 온 인류가 그림자 속에서 [deity0_name](을)를 볼 수 있게 하심이라.</li>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name]께서 우주를 어둠으로 덮으시고 그 안에 인류를 두시니 [deity0_pronoun]께서 우리와 어둠을 함께 나누려 하시니라.</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]께서 빛을 지으시니 이는 빛이 있어야 그림자가 있고 온 인류가 그림자 속에서 [deity0_name](을)를 알 수 있게 하심이라.</li>
     <li>intro(tag=meme_Darkness)           ->[deity0_type] [deity0_name]께서 일식으로써 [place_summary] [place_name]의 태양을 십 년간 막으시니 이는 [deity0_name]의 진리가 어둠 속에 있음을 모두가 깨닫도록 하심이니라.</li>
-    <li>conflict(tag=meme_Darkness)        ->[foeLeader](이)가 어둠이 두려우니 태양 거울을 설치하여 하늘에서 빛이 쏟아지니 [place_name](을)를 항상 비추더라.</li>
-    <li>founderJoin(tag=meme_Darkness)     ->[founderName](이)가 예언자니 [place_name]의 그림자에서 태어나 일생을 어둠 속에서 사니라. [deity0_name]께서 그 모습 보시고 [founder_pronoun]에게 지혜를 속삭이셨느니라.</li>
-    <li>victory(tag=meme_Darkness)         ->최후의 순간이 다가오니 [memberName]들이 [place_powerCenter]의 전기를 끊으매 [founderName](이)가 [foeSoldiers]에게 보이지 않더라. [founderName](이)가 어둠에 가려진 [foeLeader](을)를 보아 [founder_possessive] [place_personalWeapon](으)로 [foeLeader]에게 무한한 칠흑을 선사하니라.</li>
-    <li>setup(tag=meme_Darkness)           ->[founderName]께서는 번화계의 혼란스러운 삶과 가혹한 불빛 속에서 사셨다. 흑점 폭발 이후 긴 어둠 속에서 [founder_pronoun]께서는 평화와 사색을 찾으셨다. 그리곤 우리 이념의 시초가 되는 논문을 녹음하셨다.</li>
-    <li>story(uses=1,tag=meme_Darkness)    ->[founderName]께서 암실로만 구성된 스튜디오를 구성하시니 그곳의 예술가들이 수많은 걸작을 만들었다.</li>
+    <li>conflict(tag=meme_Darkness)        ->[foeLeader](이)가 항상 어둠을 두려워하며 태양 거울을 세워 [place_name](을)를 항상 태양 빛으로 비추니라.</li>
+    <li>founderJoin(tag=meme_Darkness)     ->선지자 [founderName]께서 [place_name]의 어둠 속에서 나시어 평생을 어둠 속에서 사시니 그분의 음성이 [deity0_name]의 지혜로 말씀하시니라.</li>
+    <li>victory(tag=meme_Darkness)         ->마지막 때에 [memberName]들이 [place_powerCenter]의 전력을 끊으니 [founderName]께서 [foeSoldiers]에게 보이지 않으시니라. [founderName]께서 어둠에 가려진 [foeLeader](을)를 찾으시고 그분의 [place_personalWeapon](으)로 영원한 흑암을 선사하시니라.</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName]께서 번화계의 혹독한 빛 속에서 혼란스런 삶을 사시니라. 태양 폭발 후에 긴 어둠이 있을 때에 [founder_pronoun]께서 평화와 명상을 찾으시고 우리 정신의 기초가 되는 논문을 기록하시니라.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName]께서 작업실을 지으시되 예술가들이 어둠 속에서 작업하게 하시니 많은 걸작이 나오니라.</li>
     <li>lessonIntro(tag=meme_Darkness)         ->내 어린 시절은 모두 너무나도 강력한 빛 아래에서 찡그린 눈을 뜨고 있던 기억뿐이다. 그러니 이해하는 것도 오래 걸린 거지.</li>
     <li>lesson(tag=meme_Darkness)              ->빛은 태우지만 어둠은 양분을 준다는 것을</li>
     <li>lessonReinforcement(tag=meme_Darkness) ->스위치를 켜는 듯한 경험이었다고 농담하곤 한다.</li>
@@ -352,8 +352,8 @@
   <Darkness.generalRules.rulesStrings>
     <li>memeAdjective->어둠의</li>
     <li>memeAdjective->어두운</li>
-    <li>memeHyphenPrefix->어둠의</li>
-    <li>memeHyphenPrefix->어둑한</li>
+    <li>memeHyphenPrefix->어둠</li>
+    <li>memeHyphenPrefix->어둑</li>
     <li>memeConcept->어둠</li>
     <li>memeConcept->어두움</li>
     <li>memeConcept->검은색</li>
@@ -388,14 +388,14 @@
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
   <FleshPurity.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_FleshPurity)        ->[deity0_name]께서 연무의 시대의 오염과 기계를 치우시고 낙원을 창조하시어 순수한 첫 인간 선조를 그곳으로 인도하셨느니라.</li>
-    <li>episode(uses=1,tag=meme_FleshPurity)  ->[deity0_name]께서 불결한 자와 문신한 자와 몸에 장식을 박은 자와 몸을 바꾼 자를 모두 바다로 던져버리셨느니라.</li>
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name]께서 연기 시대의 오염과 기계를 쓸어버리시고 동산을 창조하시어 순수한 첫 인간 조상들을 그곳에 두시니라.</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->[deity0_name]께서 더러운 자와 문신한 자와 뚫은 자와 개조한 자를 모두 바다에 던지시니라.</li>
     <li>intro(tag=meme_FleshPurity)           ->[place_summary] [place_name]에 [deity0_name]의 [altarRoomLabel]이 있으니 그 [altarName]에서 [deity0_type]께서 순수한 육체를 가진 자를 축복하니라.</li>
-    <li>conflict(tag=meme_FleshPurity)        ->악한 자 [foeLeader](이)가 모든 이가 위치를 알리라 하니 [foeSoldiers](으)로 하여금 불결한 추적 장치를 달게 하더라.</li>
-    <li>founderJoin(tag=meme_FleshPurity)     ->[founderName](이)가 [place_job]인데 [place_powerCenter]에 홀로 나타나 [foeLeader]의 앞에 무릎 꿇고 시위하니 [founder_possessive] 몸에서 모든 기술을 맨손으로 뜯어내더라.</li>
-    <li>victory(tag=meme_FleshPurity)         ->마침내 [foeLeader](이)가 [foeSoldiers](을)를 보내 [memberName]들을 죽이려 하니 그들의 순수한 육체에서 [deity0_name]의 신성한 힘을 발산하매 [foeSoldiers]의 장치가 재가 되어 모두 죽었더라.</li>
-    <li>setup(tag=meme_FleshPurity)           ->[founderName]께서는 그 깨달음을 얻기 전까지 이식물과 약물로 몸이 망가지셨다. [founder_pronoun]께서는 스스로 몸에서 쇠붙이을 뜯어내시고 스스로를 구원하셨다.</li>
-    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName](은)는 [founder_possessive] 모든 신도들에게 육신에서 더러운 기계들을 떼어내 버리라고 지시했다.</li>
+    <li>conflict(tag=meme_FleshPurity)        ->악한 [foeLeader](이)가 [foeSoldiers](을)를 보내어 모든 사람에게 추적 장치를 주입하게 하니라.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->[place_job] [founderName]께서 [foeLeader]에게 항거하시어 [place_powerCenter] 앞에 무릎 꿇고 시위하시며 그분의 몸에서 모든 기계를 맨손으로 뜯어내시니라.</li>
+    <li>victory(tag=meme_FleshPurity)         ->마침내 [foeLeader](이)가 [foeSoldiers](을)를 보내어 [memberName]들을 죽이려 하되 그들의 순수한 육체에서 [deity0_name]의 능력이 나아가니 [foeSoldiers] 몸의 장치가 재가 되어 모두 죽으니라.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName]께서 깨달음을 얻기 전까지 이식물과 약물로 몸이 망가지셨느니라. 그분께서 친히 몸에서 쇠를 뜯어내시고 스스로를 구원하시니라.</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName]께서 모든 추종자들에게 명하시되 육신에서 더러운 장치들을 뜯어버리라 하시니라.</li>
     <li>lessonIntro(tag=meme_FleshPurity)         ->나를 따르는 이들 중 첫 열명이 그 장치를 맨손으로 찢어버렸을 때, 그 손에서 나온 피가 바닥을 적셨을 때, 나는 우리 모두가 잊고 있던 진실을 깨닫게 됐다.</li>
     <li>lesson(tag=meme_FleshPurity)              ->오염된 몸에서의 삶은 인간의 삶이 아니라는 것을</li>
     <li>lessonReinforcement(tag=meme_FleshPurity) ->내 몸에서 더러운 금속과 문신에 오염된 피부를 벗겨내니 너무나도 명확해졌다.</li>
@@ -478,14 +478,14 @@
     <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
   -->
   <HighLife.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_HighLife)           ->우주는 연기였으니 태초의 연기가 모여 [deity0_name]께서 되었느니라.</li>
-    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type] [deity0_name]께서 진리를 현실의 틈에 숨기셨으니 이는 평소의 마음으로는 감히 볼 수 없도록 하기 위함이니라.</li>
+    <li>creation(tag=meme_HighLife)           ->우주가 연기였느니라. [deity0_name]께서 연기 속에서 응결하시어 깨어나시니라.</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type] [deity0_name]께서 그분의 진리를 현실의 주름에 감추시니 평상시 마음으로는 볼 수 없게 하시니라.</li>
     <li>intro(tag=meme_HighLife)              ->우주선의 선장이 취하니 [deity0_name]께서 은총을 내리시어 추락을 막고 [place_summary] [place_name](으)로 인도하시매 이는 [place_name]의 첫 발견이니라.</li>
-    <li>conflict(tag=meme_HighLife)           ->청렴하다 주장하는 [foeLeader](이)가 있으니 [memberName]들을 박해하고자 마음을 통하게 하는 물질이 악이라 하는 법을 제정하더라.</li>
-    <li>founderJoin(tag=meme_HighLife)        ->우리가 길을 잃었으매 [deity0_name]께서 불쌍히 여기시어 마약의 안개 속에서 선지자 [founderName](을)를 내리셨으니 이는 [founder_pronoun]에게 독특한 투시력을 주시어 [foeSoldiers](을)를 물리치기 위함이라.</li>
-    <li>victory(tag=meme_HighLife)            ->[foeLeader]의 [foeSoldiers](이)가 [place_personalWeapon](을)를 들고 [memberName]들의 [place_community](을)를 습격하매 [founderName](이)가 담뱃대를 내미니 이는 평화의 상징이라 [foeSoldiers](은)는 무기를 내려놓고 함께 하더라.</li>
-    <li>setup(tag=meme_HighLife)              ->사회에서 쫓겨나신 우리 창시자 [founderName]께서는 정글을 탐험하시며 이국적인 열대 약초들을 삼키셨고 그 변화된 의식 속에서 진실을 찾으셨다.</li>
-    <li>story(uses=1,tag=meme_HighLife)       ->[founderName]께서는 따르는 자들이 진리에 더 다가갈 수 있도록 매주 화합물을 통한 새로운 고양감을 알려주셨다.</li>
+    <li>conflict(tag=meme_HighLife)           ->청교도 [foeLeader](이)가 [memberName]들을 미워하며 그들의 특별함을 지우고자 정신을 바꾸는 물질의 사용을 금하니라.</li>
+    <li>founderJoin(tag=meme_HighLife)        ->모든 것이 잃어버린 것 같을 때에 [deity0_name]께서 마약의 환상 중에 선지자 [founderName]께 나타나시어 그분에게 특별한 통찰력을 주사 [foeSoldiers](을)를 물리치게 하시니라.</li>
+    <li>victory(tag=meme_HighLife)            ->[foeLeader]의 [foeSoldiers](이)가 [place_personalWeapon](을)를 가지고 [memberName]들의 [place_community](을)를 습격하니 [founderName]께서 그들에게 평화의 담뱃대를 내미시니라. [foeSoldiers](이)가 무기를 내려놓고 함께 하니라.</li>
+    <li>setup(tag=meme_HighLife)              ->사회에서 쫓겨나신 우리 창시자 [founderName]께서 정글로 여행하시어 그곳의 이국적인 약초들을 잡수시니 변화된 의식 속에서 진리를 찾으시니라.</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->깨달음을 깊게 하고자 [founderName]께서 추종자들을 매주 한데 모으시어 새로운 화학적 정신 상태를 나누게 하시니라.</li>
     <li>lessonIntro(tag=meme_HighLife)         ->한 번 취하는 건 부족하단 말이야, 모르겠나? 천 번을 한 그 순간에야 내 터질듯한 뇌 속에서 모든 조각이 맞춰지면서 마치 집이 무너지듯, 거꾸로 무너지듯, 진실이 보인단 말이다. 바로</li>
     <li>lesson(tag=meme_HighLife)              ->함께 취해 마음 속을 들여다 보기 전에는 진정한 친구라고 할 수 없다는 것을</li>
     <li>lessonReinforcement(tag=meme_HighLife) ->그리고 친구, 끝내주는 경험이었어. 아직 느낌을 정리하고 있지만 해보길 잘했다. 함께 할 수 있도록 넘겨주지.</li>
@@ -521,7 +521,7 @@
     <li>memeConcept->약물</li>
     <li>memeConcept->다시 없는 기쁨</li>
     <li>memeConcept->꿈들</li>
-    <li>memeHyphenPrefix->마약성</li>
+    <li>memeHyphenPrefix->환상</li>
     <li>memeHyphenPrefix->마약</li>
     <li>memeLeaderNoun->잠자는자</li>
     <li>memeLeaderNoun->도퍼</li>
@@ -587,14 +587,14 @@
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
   <Nudism.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Nudism)           ->순수하고 깨끗한 공허가 있었으니 [deity0_name]께서 공허를 보시고는 자기 형상대로 자유로운 몸을 가진 종족을 창조하시니 그것이 인류이니라.</li>
-    <li>episode(uses=1,tag=meme_Nudism)     ->사람들이 모두 모여 옷으로 몸을 싸고 [deity0_name]께 이르되 왜 옷을 입지 않으십니까 부끄러운 것이 아닙니까 이르니 [deity0_type](이)가 이르시되 너희의 형체와 나의 형체는 모두 천상에서 만들어진 것이니 어찌 가리겠느냐 이 형체를 숨기는 것이 진정 부끄러운 것이 아니겠느냐 하시니라.</li>
-    <li>intro(tag=meme_Nudism)              ->[place_summary] [place_name]의 사람들이 [deity0_name]의 [altarRoomLabel]에서 벌거벗고 춤을 추니 이는 전통의 시작이라 [deity0_type] 보시기에 좋았더라.</li>
-    <li>conflict(tag=meme_Nudism)           ->한 [foeLeader](이)가 권력에 오르매 스스로 청렴하다 주장하니 모두가 옷으로 몸을 감싸라 하더라.</li>
-    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]의 진실된 신자가 [founderName]이니 [place_powerCenter] 앞에 서서 모든 옷가지를 찢어버리고 흠잡을 데 없이 당당히 서니라.</li>
-    <li>victory(tag=meme_Nudism)            ->[founderName](이)가 [deity0_name]께 기도를 드리니 [place_name](이)가 폭염에 휩싸이니라. [foeSoldiers](이)가 죽지 않고자 옷을 찢어버리니 [foeLeader](은)는 수치심에 도망하더라.</li>
-    <li>setup(tag=meme_Nudism)              ->[founderName]께서는 체제 아래 노예가 되셨고 다른 이들과 같은 옷을 입고 같은 행동을 하며 획일적으로 통제를 받으셨다. 어느 날 [founder_pronoun]께서는 옷을 찢어발기고 알몸으로 달아나셨으니 우리의 이념이 만들어졌다.</li>
-    <li>story(uses=1,tag=meme_Nudism)       ->[founderName]께서는 신자들이 물질적인 겉치레보다 진정한 목적를 위해 옷을 입지 않도록 하셨다.</li>
+    <li>creation(tag=meme_Nudism)           ->순수하고 깨끗한 공허 중에 [deity0_name]께서 보시고는 자기 형상을 따라 자유로운 육체를 가진 족속을 원하사 인류를 지으시니라.</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->백성이 옷을 입고 [deity0_name]께 우러러 보며 말하되 어찌하여 옷을 입지 아니하시나이까 보기에 부끄럽지 아니하니이까 하니 [deity0_type](이)가 대답하시되 너희 형체와 내 형체는 다 하늘에서 창조된 것이라 이를 가리는 것이 참으로 부끄러운 것이 아니겠느냐 하시니라.</li>
+    <li>intro(tag=meme_Nudism)              ->[place_summary] [place_name]에서 [deity0_name]의 [altarRoomLabel]에 전통이 시작되니 백성이 알몸으로 기도하매 [deity0_type] 보시기에 좋았더라.</li>
+    <li>conflict(tag=meme_Nudism)           ->한 수치스러워하는 [foeLeader](이)가 권력을 잡고 모든 사람이 억압하는 옷을 입으라 명하니라.</li>
+    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]의 가장 참된 신자 [founderName]께서 [place_powerCenter] 앞에 서시어 그분의 옷을 찢어버리시고 그들의 명령을 거역하여 스스로 드러내시니라.</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName]께서 [deity0_name]께 기도하시니 [deity0_name]께서 [place_name](을)를 열기로 덮으시니라. [foeSoldiers](이)가 죽지 않으려 하여 옷을 벗으니 [foeLeader](이)가 수치하여 도망하니라.</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName]께서 제도에 얽매이사 다른 이들과 같은 제복을 입고 통제 받으셨느니라. 하루는 그분께서 모든 옷을 찢으시고 알몸으로 달리시니 우리 운동이 시작되니라.</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName]께서 신자들이 물질적인 겉모습 대신 참된 목표에 집중하도록 옷을 입지 않는 규칙을 세우시니라.</li>
     <li>lessonIntro(tag=meme_Nudism)         ->처음 몇 년 간은 알몸으로 공원에 나가는 것이 부끄러웠지만 나중에는 자유를 느꼈다. 내 옆을 지나치는 사람들을 보며 여러 가지를 배웠지. 예를 들어</li>
     <li>lesson(tag=meme_Nudism)              ->모든 인류의 악은 옷을 입은 채 자행됐고, 선은 벗은 채 이뤄졌다는 것을</li>
     <li>lessonReinforcement(tag=meme_Nudism) ->거리에서 우리를 마주치면 이 자유로운 모습을 보고 생각해라. 진실을 받아들인 자구나, 하고.</li>
@@ -621,7 +621,7 @@
     <li>memeAdjective->전라의</li>
     <li>memeAdjective->자유로운</li>
     <li>memeAdjective->자연의</li>
-    <li>memeHyphenPrefix->피부</li>
+    <li>memeHyphenPrefix->나체</li>
     <li>memeConcept->나체</li>
     <li>memeConcept->피부</li>
     <li>memeLeaderNoun->자유로운 자</li>
@@ -673,16 +673,16 @@
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
   <PainIsVirtue.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_PainIsVirtue)        ->시간과 공간의 깊은 곳에서 [deity0_name]께서 영원한 잠에서 깨어나 고통의 비명을 지르시니 그 소리에서 온 세상이 창조되었느니라.</li>
-    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]께서는 불타는 장작더미 위에 일만년 동안 오르시어 고통으로 그 혼을 정화하셨느니라.</li>
-    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name]이 이미 살기 좋은 곳이 아니었더라. [deity0_type]께서 [place_name]의 삶에 거대한 고통을 더해 진정 가치있는 자를 찾아내시려 하시더라.</li>
-    <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader](이)가 [memberName]들의 고통을 덜어주고자 신체적 쾌락을 제공하니 [memberName]들이 고통을 잊더라. 그들 모두가 [foeLeader_pronoun]에게 의존하매 [foeLeader](이)가 그들의 위로 올랐더라.</li>
-    <li>founderJoin(tag=meme_PainIsVirtue)     ->특별한 [place_job]의 이름이 [founderName]인데 고통스러운 암이 발병했더라. 고통으로 말미암아 [deity0_name]께서 모습을 보이시니 [founder_pronoun]가 다른 [memberName]들을 일으킬 방법을 깨닫게 되더라.</li>
-    <li>victory(tag=meme_PainIsVirtue)         ->[founderName](이)가 일백 명의 [memberName]들을 [place_powerCenter]의 앞에 서게 하여 스스로의 살을 천천히 찢게 하니 그들 모두 [deity0_name]의 미소 아래에서 죽더라. 그들의 고통이 의로움을 증명하니 모두가 [memberName]들이 되어 [foeLeader](이)가 몰락하더라.</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->창시자인 [founderName]께서는 마을 광장에서 삼백 일 동안 돌기둥에 몸을 묶으신 채 굶주리시며 의로움을 증명하셨다.</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->우리 이념의 창시자이신 [founderName]께서는 며칠 동안 스스로에게 채찍을 휘두르시며 헌신을 증명했고 첫 추종자들이 [founder_objective]님을 따르기 시작했다.</li>
-    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]의 추종자들은 자신의 살을 찢고 불사름으로써 그 헌신을 증거했다.</li>
-    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]의 추종자들은 고통이 저들 믿음의 깊이를 증명함을 알고, 그를 줄이는 약물을 쓰지 않았다.</li>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name]께서 시간과 공간의 깊은 곳에서 영원토록 타시니 그분의 부르짖는 소리가 우리 현실을 가져오니라.</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]께서 장작더미에 일만 년을 매이시어 고통으로 영을 정결케 하시니라.</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name](이)가 이미 살기 좋은 곳이 아니었더라. [deity0_type]께서 [place_name]의 삶에 거대한 고통을 더해 진정 가치있는 자를 찾아내시려 하시더라.</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader](이)가 [memberName]들에게 육체의 안락함을 제공하여 그들의 일상 고통을 달래려 하니라. 그러나 그들이 안락함에 빠져 [foeLeader]에게 의존하매 그가 그들을 다스리게 되니라.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->특별한 [place_job] [founderName]께서 고통스러운 종양을 얻으시니 고통을 통하여 그분께서 [deity0_name](와)과 직접 연결되시고 다른 [memberName]들을 격려하는 법을 배우시니라.</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName]께서 백 명의 [memberName](을)를 [place_powerCenter] 앞에 데려오시니라. 그곳에서 그들이 천천히 자신의 살을 찢고 해하여 [deity0_name]의 미소하는 눈길 아래에서 죽으니라. 그들의 고통이 의로움을 증명하니 [foeLeader](이)가 넘어지고 모든 자가 [memberName](이)가 되니라.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->우리 운동을 세우실 때에 창시자 [founderName]께서 마을 광장의 돌에 몸을 결박하시고 삼백 일을 굶으시며 고난을 받으사 그 의로움을 보이시니라.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->우리 운동의 창시자 [founderName]께서 헌신을 보이시려 며칠 동안 스스로에게 채찍을 가하시어 첫 추종자들을 얻으시니라.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]의 추종자들이 자신의 살을 베고 태워 그 헌신을 드러내니라.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]의 추종자들이 고통이 그들 믿음의 깊이를 증명함을 알고 고통을 줄이는 약물을 취하지 아니하니라.</li>
     <li>lessonIntro(tag=meme_PainIsVirtue)         ->내가 배부른 돼지일 땐 모든 것이 행복했으니 아무것도 진정 알 길이 없었다. 진리는 나의 배가 고프고 나의 살이 다쳤을 때 찾아왔다.</li>
     <li>lesson(tag=meme_PainIsVirtue)              ->지옥의 구덩이에서 소리를 질러본 적이 없다면 아무것도 알지 못하는 것이라고</li>
     <li>lessonReinforcement(tag=meme_PainIsVirtue) ->왜 이걸 깨닫는 것이 이토록 오래 걸렸는가? 쾌락이 진실로 향하는 길을 방해했기 때문이다. 내 살을 베어내는 법을 배우고 난 후에야 나는 진정한 길을 받아들일 수 있었다.</li>
@@ -723,7 +723,7 @@
     <li>memeCreed->집</li>
     <li>memeCreed->방</li>
     <li>memeCreed->칸</li>
-    <li>memeHyphenPrefix->아픔의</li>
+    <li>memeHyphenPrefix->고뇌</li>
     <li>memeHyphenPrefix->고통</li>
     <li>memeConcept->고통</li>
     <li>memeConcept->고행</li>
@@ -803,14 +803,14 @@
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Proselytizer)        ->[deity0_name]께서 몇 명의 필멸자를 골라 [deity0_possessive] 말씀을 전하도록 하시니</li>
-    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]께서 모든 [memberName]들에게 이르시되 가서 내 말을 온 우주에 전하라 하시니라.</li>
-    <li>intro(tag=meme_Proselytizer)           ->[memberName]들이 [place_summary] [place_name]에 위대한 [altarName](을)를 지었으니 [deity0_name]의 성스러운 말씀을 널리 퍼뜨리기 위함이니라.</li>
-    <li>conflict(tag=meme_Proselytizer)        ->끔찍한 [foeLeader](이)가 [deity0_name]의 세계를 부정하려 하니 [foeLeader_possessive] [foeSoldiers]에게 [deity0_type]의 이름을 입에 담는 자의 혀를 뽑으라 하더라.</li>
-    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name]께서 [place_job]인 [founderName]에 남을 이끄는 축복 주시니 [founder_pronoun](이)가 말할 때 아무도 돌아서지 못하더라.</li>
-    <li>victory(tag=meme_Proselytizer)         ->[founderName](이)가 [foeSoldiers](을)를 훈계하여 [deity0_name]의 힘을 다시금 일깨우니 그들이 [place_personalWeapon](을)를 내려놓더라.</li>
-    <li>setup(tag=meme_Proselytizer)           ->우리의 창시자이신 [founderName]께서는 도시들을 순회하시며 위대한 웅변으로 수천 명을 교화하셨다.</li>
-    <li>story(uses=1,tag=meme_Proselytizer)    ->믿는 자들은 도시와 기관을 갈마들며 새로운 가르침을 널리 퍼뜨렸다.</li>
+    <li>creation(tag=meme_Proselytizer)        ->태초에 [deity0_name]께서 몇몇 필멸자를 택하시어 그분의 거룩하신 말씀을 세상에 전하라 하시니라</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]께서 모든 [memberName]에게 명하시되 가서 내 말씀을 온 우주 끝까지 전파하라 하시니라</li>
+    <li>intro(tag=meme_Proselytizer)           ->[memberName]들이 [place_summary] [place_name]에 위대한 [altarName](을)를 세우니 이는 [deity0_name]의 성스러운 말씀을 만민에게 전하고자 함이니라</li>
+    <li>conflict(tag=meme_Proselytizer)        ->가증한 [foeLeader](이)가 [deity0_name]의 진리를 부정하고자 하여 그의 [foeSoldiers]에게 명하되 [deity0_type]의 이름을 일컫는 자의 혀를 베어내라 하니라</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name]께서 [place_job] [founderName]에게 무리를 이끄는 축복을 내리시니 창시자께서 말씀하실 때 아무도 감히 등을 돌리지 못하더라</li>
+    <li>victory(tag=meme_Proselytizer)         ->창시자 [founderName]께서 [foeSoldiers](을)를 권면하시어 [deity0_name]의 권능을 깨우치시니 그들이 [place_personalWeapon](을)를 땅에 던지고 엎드리니라</li>
+    <li>setup(tag=meme_Proselytizer)           ->[founderName]께서 각 성읍을 두루 다니시며 거룩한 말씀으로 수많은 영혼을 교화하시니라</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->신도들이 각처로 흩어져 성읍과 관청을 두루 다니며 새로운 교훈을 널리 전파하니라</li>
     <li>lessonIntro(tag=meme_Proselytizer)         ->우리의 진실을 전파하는 것에 내 평생을 바쳤으니 다양한 것을 배울 수 있었다. 하지만 그 중에서도 제일 와닿는 것이 있다.</li>
     <li>lesson(tag=meme_Proselytizer)              ->좋은 소식을 우리만 알고 있는 것은 악이라는 것을</li>
     <li>lessonReinforcement(tag=meme_Proselytizer) ->이게 바로 모든 사람에게 널리 전파하고, 전파하고, 전파할 바로 그 사실이다. 모든 사람이 기뻐할 수 있기를!</li>
@@ -831,7 +831,7 @@
   <Proselytizer.generalRules.rulesStrings>
     <li>memeAdjective->참된</li>
     <li>memeAdjective->참된</li>
-    <li>memeHyphenPrefix->진실의</li>
+    <li>memeHyphenPrefix->진실</li>
     <li>memeConcept->진실</li>
     <li>memeLeaderNoun->말하는 자</li>
     <li>memeMoralist->개종시키는 자</li>
@@ -887,14 +887,14 @@
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
   <Raider.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Raider)        ->태초에 신들이 무한한 전쟁을 벌였으니 [deity0_name]께서 그 위로 올라 파괴와 박해로 군림하시어 약한 혼령이 공포에 떨었더라.</li>
-    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name]께서 주위를 살펴보시어 약한 자와 음산한 자와 모멸스러운 자의 모습을 보시니 그들 모두를 직접 빛나는 영광으로 베어 넘기셨느니라.</li>
-    <li>intro(tag=meme_Raider)           ->[place_summary] [place_name](은)는 본디 습격자들의 은둔처였으니 [deity0_name]께서 지켜보시어 그들을 보호하셨니라.</li>
-    <li>conflict(tag=meme_Raider)        ->[foeLeader](이)가 모두의 절도와 약탈을 막고자 하니 스스로 [deity0_name]의 적이라 칭하니라.</li>
-    <li>founderJoin(tag=meme_Raider)     ->위대한 약탈자 [founderName](이)가 일어서니 [founder_possessive] 약탈단이 [foeSoldiers]의 야영지를 쉼 없이 약탈했느니라.</li>
-    <li>victory(tag=meme_Raider)         ->[founderName](와)과 [memberName]들이 [foeSoldiers]의 막사에 수년간 습격을 하니 [foeLeader](은)는 달리 항복할 수밖에 없더라.</li>
-    <li>setup(tag=meme_Raider)           ->창시자 [founderName]께서는 온갖 박해와 수난을 받으셨으니 마땅히 분노하셨다. 그리하여 창시자께서 도망하셨으나 따르는 이들과 함께 다시 돌아가셨으니 [founder_possessive] 많은 것을 빼앗은 나약한 자들을 파멸케 하셨다.</li>
-    <li>story(uses=1,tag=meme_Raider)    ->어느 날, 더러운 걸인 무리가 [founderName](을)를 둘러싸고 구걸했으나, 창시자께서는 그 모두를 때려눕히시고는 돈을 취하셨으니 이는 나약하고 쓸모없는 이들보다 창시자께서 더 유용한 곳에 돈을 사용하실 수 있기 때문이다.</li>
+    <li>creation(tag=meme_Raider)        ->태초에 신들 사이에 무한한 전쟁이 있었으니 [deity0_name]께서 그 모든 것 위에 올라 파괴와 박해의 권능으로 다스리시니 약한 혼령들이 두려워 떨었더라</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name]께서 사방을 두루 살피시니 약한 자와 음침한 자와 가증한 자들이 보이거늘 그들을 하나하나 빛나는 영광으로 베어 멸하시니라</li>
+    <li>intro(tag=meme_Raider)           ->[place_summary] [place_name](은)는 본디 습격자들의 은신처였으니 [deity0_name]께서 친히 지켜보시며 그들을 보호하시니라</li>
+    <li>conflict(tag=meme_Raider)        ->가증한 [foeLeader](이)가 모든 절도와 약탈을 금하고자 하여 스스로 [deity0_name]의 원수라 칭하니라</li>
+    <li>founderJoin(tag=meme_Raider)     ->위대한 약탈자 [founderName]께서 일어나시니 그분의 무리가 [foeSoldiers]의 진영을 쉬지 않고 노략하니라</li>
+    <li>victory(tag=meme_Raider)         ->그분의 [memberName]들이 여러 해 동안 [foeSoldiers]의 진을 치시니 마침내 [foeLeader](이)가 항복하지 않을 수 없더라</li>
+    <li>setup(tag=meme_Raider)           ->창시자 [founderName]께서 온갖 핍박과 고난을 받으시매 의로운 분노가 일어나시니라 그리하여 피하여 나가셨다가 무리와 함께 다시 돌아오시어 그분께 많은 것을 빼앗은 나약한 자들을 멸망시키시니라</li>
+    <li>story(uses=1,tag=meme_Raider)    ->어느 날 더러운 걸인 떼가 창시자 [founderName](을)를 에워싸고 구걸하거늘 창시자께서 그들을 모두 치시고 그 돈을 취하시니 이는 무능하고 쓸모없는 자들보다 창시자께서 더 유익한 곳에 쓰실 수 있음이니라</li>
     <li>lessonIntro(tag=meme_Raider)         ->네 칼에 쓰러진 사냥감에게서도 배울 점은 있다. 내가 한 할망구한테 깨달은 것처럼 말이다. 바로</li>
     <li>lesson(tag=meme_Raider)              ->나약한 자가 맞이하게 될 최후를</li>
     <li>lesson(tag=meme_Raider)              ->무언가를 지킬 능력이 없다면, 그것을 소유할 자격도 없다는 것을</li>
@@ -924,8 +924,8 @@
   -->
   <Raider.generalRules.rulesStrings>
     <li>memeAdjective->무법자</li>
-    <li>memeHyphenPrefix->무법자</li>
-    <li>memeHyphenPrefix->약탈자</li>
+    <li>memeHyphenPrefix->무법</li>
+    <li>memeHyphenPrefix->약탈</li>
     <li>memeConcept->약탈</li>
     <li>memeConcept->도둑질</li>
     <li>memeConcept->해적</li>
@@ -1000,14 +1000,14 @@
     <li>rancherParent2->butcher</li>
   -->
   <Rancher.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Rancher)        ->[deity0_name]께서 동물과 사람을 만드시고 동물을 사람에게 주시되 아끼고 기르고 먹도록 하시니 그것이 모두 [deity0_name](을)를 향한 존경이니라.</li>
-    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]께서 이 땅의 모든 고귀한 가축과 맹수를 창조하시어 이르시되 이 짐승들을 데리고 가라 그로 하여금 나의 명예로 너희 스스로를 풍요롭게 하라 하시니라.</li>
-    <li>intro(tag=meme_Rancher)           ->초기의 [ranchingAnimal] 목축업자들이 [place_summary] [place_name]에 [deity0_name]의 위대한 [altarName](을)를 지었으니</li>
-    <li>conflict(tag=meme_Rancher)        ->강력한 [foeLeader](이)가 [memberName]들의 길을 부정하니 모든 땅을 사들이고는 [Vegetable](을)를 기르더라.</li>
-    <li>founderJoin(tag=meme_Rancher)     ->[memberName]의 구원자가 봄날 햇빛의 축복을 받으며 검소한 외양간의 [ranchingAnimal]들 사이에서 태어났으니 [rancherParent1](와)과 [rancherParent2](이)가 [founder_possessive] 부모요 [founder_possessive] 이름이 [founderName]이니라.</li>
-    <li>victory(tag=meme_Rancher)  ->[founderName](이)가 좋은 말을 타고 달리매 [place_community]에 도착하였으니 이는 [foeLeader](와)과 [place_personalWeapon](을)를 사용한 결투에 임하기 위함이라. [foeLeader](은)는 [foeSoldiers]에게 무시받을까 두려워 거절하지 못하니 이에 [founderName](이)가 [foeLeader](을)를 죽였느니라.</li>
-    <li>setup(tag=meme_Rancher)           ->사회가 농부와 목축업자를 박해했으니 곧 그들이 교외로 도망쳐 훌륭한 목축 사회를 건설하고자 했다.</li>
-    <li>story(uses=1,tag=meme_Rancher)    ->곧 추종자들이 땅으로 퍼져나가 목장과 농장에서 평화로이 지내니 그 수가 나날이 늘어났다.</li>
+    <li>creation(tag=meme_Rancher)        ->태초에 [deity0_name]께서 모든 짐승과 사람을 지으시고 짐승을 사람에게 맡기시되 기르고 돌보며 잡아먹어 그분께 경배하는 제물로 삼으라 하시니라.</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]께서 땅의 모든 고귀한 가축과 들짐승을 창조하시고 명하시되 이 고귀한 짐승들을 취하여 내 영광을 위해 너희를 풍성케 하라 하시니라.</li>
+    <li>intro(tag=meme_Rancher)           ->옛적에 [ranchingAnimal] 목축하는 자들이 [place_summary] [place_name]에 [deity0_name]께 바치는 위대한 [altarName](을)를 세우니라.</li>
+    <li>conflict(tag=meme_Rancher)        ->권세 있는 [foeLeader](이)가 [memberName](과)와 그 길을 미워하여 모든 초장을 사들이고 [Vegetable](을)를 심으니라.</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName]의 구원자가 되실 [founderName]께서 봄날 아침에 겸손한 외양간에서 [ranchingAnimal] 가운데 나시니 그 부모는 [rancherParent1](와)과 [rancherParent2](이)더라.</li>
+    <li>victory(tag=meme_Rancher)         ->창시자 [founderName]께서 준마를 타고 [place_community]에 이르러 [foeLeader]에게 정오에 [place_personalWeapon](으)로 결투하자 하시니 [foeLeader](이)가 [foeSoldiers]의 신뢰를 잃을까 두려워 거절하지 못하더라 이에 창시자께서 그를 죽이시니라.</li>
+    <li>setup(tag=meme_Rancher)           ->농부와 목축하는 자들이 핍박을 받아 들로 피하여 선한 목축 사회를 세우고자 하니라.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->신도들이 각지로 흩어져 목장과 농장에서 평안히 거하니 그 수가 날로 번성하니라.</li>
     <li>lessonIntro(tag=meme_Rancher)         ->친구여, 목장에 나가면 말이야, 옛 구절 중에 이런 말이 있다네.</li>
     <li>lesson(tag=meme_Rancher)              ->좋은 행복은 목장에서 찾을 수 있다고</li>
     <li>lessonReinforcement(tag=meme_Rancher) ->나중이 되면 다 받아들이게 되는 것이지. 홀로 목장 중앙에 앉아, 옆에 불을 두고, 동물들이 자는 소리를 들으면서.</li>
@@ -1039,7 +1039,7 @@
     <li>memeAdjective->목장 주인</li>
     <li>memeAdjective->시골뜨기</li>
     <li>memeAdjective->국가의</li>
-    <li>memeHyphenPrefix->농장</li>
+    <li>memeHyphenPrefix->목축</li>
     <li>memeConcept->목장</li>
     <li>memeLeaderNoun->목장 주인</li>
     <li>memeLeaderNoun->조련사</li>
@@ -1097,14 +1097,14 @@
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
   <Transhumanist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Transhumanist)        ->[deity0_name]께서 우리에게 기술을 주셨으니 우리가 그것을 사용하매 스스로를 [deity0_name]의 완벽한 형태로 개선하리라.</li>
-    <li>episode(uses=1,tag=meme_Transhumanist)  ->생체연구자들이 [deity0_name]께서 하신 일을 연구하니 [deity0_name]께서 보기에 좋으시더라.</li>
-    <li>intro(tag=meme_Transhumanist)           ->[place_summary] [place_name]의 [memberName]들이 기계 사이에서 [deity0_name]의 말씀을 들었나니</li>
-    <li>conflict(tag=meme_Transhumanist)        ->제 밥그릇만 챙기는 [foeLeader](이)가 [memberName]들의 진보를 질투하니 [foeLeader_possessive] [foeSoldiers](와)과 그들의 [place_personalWeapon](이)가 [memberName]들의 작업장을 파괴하더라.</li>
-    <li>founderJoin(tag=meme_Transhumanist)     ->[place_job]의 이름이 [founderName]이니 총명하여 [foeSoldiers]의 다가옴을 감지할 신경 부착물을 설계하니 [memberName]들에게 나눠줘 미리 피하게 함이라.</li>
-    <li>victory(tag=meme_Transhumanist)         ->[deity0_name]께서 [founderName]에게 신성한 기술의 지식을 수여하시니 [memberName]들의 몸과 마음을 증강하여 [foeSoldiers](을)를 물리쳤느니라.</li>
-    <li>setup(tag=meme_Transhumanist)           ->[founderName]께서는 인류의 행성 식민지화 초기에 생물학자로 계셨다.  [founderName]께서는 공동 정착지의 관료주의적인 제약을 보시고, 작은 함선으로 이 혁명을 시작하셨다.</li>
-    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName](은)는 인간성을 재정의하기 위해 대단한 과학자들과 발명가들을 모았습니다.</li>
+    <li>creation(tag=meme_Transhumanist)        ->태초에 [deity0_name]께서 우리에게 기술의 지혜를 허락하시니 이를 사용하여 스스로를 그분의 완전한 형상으로 개선하며 재창조하라 하시니라.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->생체연구자들이 [deity0_name]의 업적을 연구하니 그분께서 보시기에 기뻐하시니라.</li>
+    <li>intro(tag=meme_Transhumanist)           ->[place_summary] [place_name]에서 [memberName]이 기계들 사이로 속삭이시는 [deity0_name]의 말씀을 들으니라.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->기계를 거부하는 [foeLeader](이)가 [memberName]의 진보를 시기하여 그의 [foeSoldiers](으)로 하여금 [place_personalWeapon](으)로 그들의 작업장을 파괴케 하니라.</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->지혜로운 [place_job] [founderName]께서 [foeSoldiers]의 접근을 경고할 감지 부착물을 만드시어 [memberName]에게 주시니라.</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName]께서 [deity0_name](으)로부터 거룩한 기술의 지식을 받으시어 [memberName]의 몸과 마음을 증강하시니 [foeSoldiers](을)를 물리치니라.</li>
+    <li>setup(tag=meme_Transhumanist)           ->창시자 [founderName]께서는 인류의 행성 정착 초기에 생물학자로 계시니라 공동 정착지의 관료적 제약을 보시고 작은 함선을 취하여 새로운 운동을 시작하시니라.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->창시자께서 위대한 과학자들과 발명가들을 모으시어 인류를 새롭게 정의하려 하시니라.</li>
     <li>lessonIntro(tag=meme_Transhumanist)         ->우리 부서에서 제일 오래 산 과학자는 내게 원시 기술부터 초월공학까지 기술의 역사를 가르쳐줬지만, 이건 그의 진정한 가르침이 아니었다. 그는 사실 내가 하나의 진리에 도달하길 바란 것이다.</li>
     <li>lesson(tag=meme_Transhumanist)              ->인류의 진정한 미래는 살과 뼈가 아니라 실리콘과 크롬이라고</li>
     <li>lessonReinforcement(tag=meme_Transhumanist) ->시뮬레이션을 개발해서 확인까지 해봤다.</li>
@@ -1153,8 +1153,8 @@
     <li>memeCreed->철학</li>
     <li>memeHyphenPrefix->테크노</li>
     <li>memeHyphenPrefix->사이버</li>
-    <li>memeHyphenPrefix->연결된</li>
-    <li>memeHyphenPrefix->유선</li>
+    <li>memeHyphenPrefix->증강</li>
+    <li>memeHyphenPrefix->강화</li>
     <li>memeConcept->기술</li>
     <li>memeConcept->반도체</li>
     <li>memeConcept->기교</li>
@@ -1244,14 +1244,14 @@
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
   <TreeConnection.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_TreeConnection)        ->[deity0_name]께서 나무를 땅에 깊게 심으시되 나무가 천상으로 자라도록 하시니 이것이 [deity0_name]의 첫 가르침이니라.</li>
-    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]의 숲은 [deity0_name]의 사람들이 마시는 공기이며 그늘 아래에서 쉴 수 있는 쉼터이며 먹을 것을 찾는 창고이니라.</li>
-    <li>intro(tag=meme_TreeConnection)           ->[place_summary] [place_name]에 첫 재배자들이 도착하니 곧 작은 [TreeType] 숲을 만들어 [deity0_type] [deity0_name](을)를 섬기더라.</li>
-    <li>conflict(tag=meme_TreeConnection)        ->탐욕스러운 [foeLeader](이)가 많은 숲을 베었으니 이는 농장과 공장을 짓기 위함이라 [memberName]들(이)가 죽은 나무를 보고 슬피 울더라.</li>
-    <li>founderJoin(tag=meme_TreeConnection)     ->[founderName](이)가 예언자니 [place_name]의 나무에서 기적으로 태어나 [founder_possessive] 부모 될 사람이 큰 [TreeType]에서 찾아 데려갔니라.</li>
-    <li>victory(tag=meme_TreeConnection)         ->[founderName](이)가 [foeLeader](을)를 [place_powerCenter]에서 발견하니 마침 잠에 빠져 있더라. [founder_pronoun]가 [foeLeader]의 가슴에 도토리를 놓으매 [deity0_name]의 맹렬한 힘으로 뿌리를 내리니 [foeLeader]의 몸을 양분으로 삼았니라.</li>
-    <li>setup(tag=meme_TreeConnection)           ->[founderName]께서는 깊이와 의미가 없던 세상을 피해 숲 속에서 명상하시어 가지와 뿌리와 잎사귀와 교감하시어 이 혁명을 시작하셨다.</li>
-    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName]께서 지친 자들을 숲으로 인도하니 그늘에서 쉬고 공기를 마시며 마침내 모두 새로워질 수 있었다.</li>
+    <li>creation(tag=meme_TreeConnection)        ->태초에 [deity0_name]께서 나무를 땅에 깊게 심으시되 하늘을 향해 자라도록 하시니 이것이 그분을 알아가는 첫 가르침이니라.</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]의 숲은 그분의 백성이 마시는 공기를 새롭게 하며 그늘 아래에서 쉴 곳을 주고 먹을 것을 찾는 창고가 되니라.</li>
+    <li>intro(tag=meme_TreeConnection)           ->처음 수목학자들이 [place_summary] [place_name]에 이르러 [TreeType]의 성스러운 숲을 만들어 [deity0_type] [deity0_name](을)를 경배하니라.</li>
+    <li>conflict(tag=meme_TreeConnection)        ->탐욕스러운 [foeLeader](이)가 자신의 농장과 공장을 위해 많은 숲을 베어내니 [memberName]들이 죽임당한 나무들을 보고 통곡하니라.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->예언자 [founderName]께서 [place_name]의 한 나무에서 기적으로 태어나 늙은 [TreeType] 나무 가지에서 그분의 부모에게 발견되니라.</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName]께서 [place_powerCenter]에서 잠든 [foeLeader](을)를 발견하고 그의 가슴에 도토리를 놓으니 [deity0_name]의 맹렬한 권능으로 뿌리를 내려 그의 몸을 뚫고 자라 나무 죽인 자에게 복수하니라.</li>
+    <li>setup(tag=meme_TreeConnection)           ->깊이와 의미가 없는 세상에서 창시자 [founderName]께서 숲 속에서 명상하시며 가지와 뿌리와 잎사귀와 교감하시어 우리 운동을 창시하시니라.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->창시자께서 지친 자들을 숲으로 인도하시니 그들이 그늘에서 쉬고 맑은 공기를 마시며 새로워지니라.</li>
     <li>lessonIntro(tag=meme_TreeConnection)         ->농담처럼 들릴 수도 있겠지만, 나는 나무 아래 앉아 나뭇잎의 속삭임을 듣고 깨달았다.</li>
     <li>lesson(tag=meme_TreeConnection)              ->그 어떤 것도 나무보다 많은 것을 알지 못한다는 것을</li>
     <li>lessonReinforcement(tag=meme_TreeConnection) ->이 진실의 씨앗이 네 안에 뿌리내려, 그 마음에 열매를 맺을 수 있기를.</li>
@@ -1296,7 +1296,7 @@
     <li>memeAdjective->나무껍질</li>
     <li>memeHyphenPrefix->나무</li>
     <li>memeHyphenPrefix->수목</li>
-    <li>memeHyphenPrefix->작은 가지</li>
+    <li>memeHyphenPrefix->자연</li>
     <li>memeLeaderNoun->나무 수호자</li>
     <li>memeLeaderNoun->수목 재배자</li>
     <li>memeLeaderNoun->네오 드루이드</li>
@@ -1333,17 +1333,17 @@
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
   <Tunneler.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Tunneler)        ->[deity0_name]께서 태어나시니 그곳이 바위 아래라 세상의 중심이니 계곡과 동굴이 가장 가까우매 [deity0_name]께서 계곡과 동굴에 축복을 내리시니라.</li>
-    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]께서 바위의 안을 풍족한 자원으로 채우셨으니 이는 [deity0_name]께 다가가기 위해 땅을 파는 지혜로운 자에게 주는 선물이니라.</li>
-    <li>intro(tag=meme_Tunneler)           ->[place_summary] [place_name]에 첫 정착민이 도착하니 [deity0_type] [deity0_name]께서 강렬한 태양으로 모두를 지하로 숨게 하시어 [deity0_possessive] 속삭이는 지혜를 굴 속의 고요에서 귀 기울여 들을 수 있도록 하시더라.</li>
-    <li>conflict(tag=meme_Tunneler)        ->[foeLeader](이)가 좁은 공간을 싫어하매 [dangerousMining](으)로 채굴하라 하니 깊은 곳 [memberName]들의 집이 위험하더라.</li>
-    <li>founderJoin(tag=meme_Tunneler)     ->[founderName](이)가 예언자니 [place_name]의 돌에서 기적으로 태어나 [founder_possessive] 부모 될 사람이 정족을 깨 그 안에서 발견했니라.</li>
-    <li>victory(tag=meme_Tunneler)         ->[memberName]들(이)가 [foeLeader]의 [place_powerCenter] 아래에 땅굴을 파니 [founderName](이)가 거대한 곤충을 불러들이니라. [foeLeader]의 [foeSoldiers](이)가 당해낼 길 없으니 [founderName](이)가 [foeLeader](을)를 끌어내 깊은 지하 감옥에 가두더라.</li>
+    <li>creation(tag=meme_Tunneler)        ->태초에 [deity0_name]께서 세상의 중심 깊은 땅속에서 나시니 그분께 가까운 깊은 골짜기와 동굴에 거하는 자들에게 축복을 내리시니라.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]께서 바위 속을 귀한 광물과 풍성한 자원으로 채우시니 이는 그분께 가까이 나아가려 땅을 파고드는 지혜로운 자들에게 주시는 선물이니라.</li>
+    <li>intro(tag=meme_Tunneler)           ->처음 정착민들이 [place_summary] [place_name]에 이르렀을 때 [deity0_type] [deity0_name]께서 맹렬한 태양 불길로 그들을 지하로 피하게 하시니 굴속의 고요함 가운데서 그분의 지혜로운 속삭임을 들을 수 있게 하심이니라.</li>
+    <li>conflict(tag=meme_Tunneler)        ->좁은 곳을 두려워하는 [foeLeader](이)가 [dangerousMining](으)로 채굴하자 제안하니 지하 깊은 곳 [memberName]들의 거처가 위험에 처하니라.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->예언자 [founderName]께서 [place_name]의 돌에서 기적으로 나시니 그분의 부모 될 이들이 버섯 덮인 정동석을 깨뜨려 그 안에서 발견하니라.</li>
+    <li>victory(tag=meme_Tunneler)         ->[memberName]들이 [foeLeader]의 [place_powerCenter] 아래 땅굴을 파니 [founderName]께서 페로몬으로 거대한 곤충 떼를 불러 [foeLeader]의 [foeSoldiers](을)를 압도하시니라 이에 창시자께서 [foeLeader](을)를 사로잡아 깊은 지하 감옥에 가두시니라.</li>
     <li>dangerousMining->노천 채굴</li>
     <li>dangerousMining->마이크로 칩을 심은 곤충들</li>
     <li>dangerousMining->핵폭발</li>
-    <li>setup(tag=meme_Tunneler)           ->[founderName]께서는 이 얕고 의미없는 세상을 뒤로한 채 깊은 동굴에서 명상하시다 깨달음을 얻으시고 이 혁명을 시작하셨다.</li>
-    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName]께서 보물을 깊은 동굴에 숨기셨으니 [memberName]들이 땅을 파며 [founder_pronoun]의 뜻을 알고 배우기를 바라신 것이다.</li>
+    <li>setup(tag=meme_Tunneler)           ->이 얕고 헛된 세상에서 창시자 [founderName]께서 깊은 동굴에서 명상하시어 참된 깨달음을 얻으시고 우리 운동을 창시하시니라.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName]께서 보물을 깊은 동굴에 감추시니 [memberName]들(이)가 그것들을 찾아 깊이 파는 법을 배우게 하심이니라.</li>
     <li>lessonIntro(tag=meme_Tunneler)         ->내가 지하 도시에서 찾은 법전은 내게 무엇보다 중요한 교훈을 알려주었다.</li>
     <li>lesson(tag=meme_Tunneler)              ->태양이 내리쬐는 바깥은 인간이 번성할 곳이 아니라 인간이 죽을 곳임을</li>
     <li>lessonReinforcement(tag=meme_Tunneler) ->그러니 삽을 들어라. 나와 함께 땅을 파라. 우리가 멈출 곳은 우리의 무덤 뿐이다.</li>
@@ -1384,8 +1384,8 @@
     <li>memeHyphenPrefix->돌</li>
     <li>memeHyphenPrefix->동굴</li>
     <li>memeHyphenPrefix->깊은</li>
-    <li>memeHyphenPrefix->순종의</li>
-    <li>memeHyphenPrefix->아래의</li>
+    <li>memeHyphenPrefix->바위</li>
+    <li>memeHyphenPrefix->지하</li>
     <li>memeConcept->땅</li>
     <li>memeConcept->돌</li>
     <li>memeConcept->깊음</li>

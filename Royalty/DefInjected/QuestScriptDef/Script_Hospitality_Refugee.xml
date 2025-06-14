@@ -95,22 +95,27 @@
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->임무 실패</li>
     <li>lodgersAllArrestedLetterText->[whoAskedToStay] [lastOrNot][faction_pawnSingular], {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
-    <li>letterIntroViolated->[oneOfThe] {SUBJECT_definite}(은)는 수술로 유린당했습니다.</li>
+    <li>letterIntroLeftBehind->[oneOfThe]인 {SUBJECT_definite}(이)가 버려졌습니다.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel->[lodgersLabel] 버려짐: 분노</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel->[lodgersLabel] 버려짐: 이탈</li>
+    <li>lodgerLeftBehindLeaveMapLetterText->[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated->[oneOfThe]인 {SUBJECT_definite}(이)가 수술로 유린당했습니다.</li>
     <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] 유린: 분노</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
     <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 유린: 복수</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 위반: 이탈</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 더럽혀짐: 이탈</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
-    <li>letterIntroPsychicRitualTarget->[oneOfThe] {SUBJECT_definite}(은)는 초정신 의식 대상자입니다.</li>
-    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] 위반: 분노</li>
+    <li>letterIntroPsychicRitualTarget->[oneOfThe]인 {SUBJECT_definite}(이)가 초정신 의식의 대상자가 됐습니다.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] 더럽혀짐: 분노</li>
     <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
-    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] 위반: 복수</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] 더럽혀짐: 복수</li>
     <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
-    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] 위반: 이탈</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] 더럽혀짐: 이탈</li>
     <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->배신</li>
-    <li>mutinyLetterText->[whoAskedToStay] [lodgersSingularOrPluralDef](이)가 당신을 배신했습니다!\n\n[lodgersPronoun](은)는 처음부터 배신할 생각이었던 것 같습니다.</li>
+    <li>mutinyLetterText->[whoAskedToStay] [lodgersSingularOrPluralDef](이)가 당신을 배신했습니다!\n\n[lodgersSingularOrPluralDef](은)는 처음부터 배신할 생각이었던 것 같습니다.</li>
     <li>areIs(lodgerCount==1)-></li>
     <li>areIs(lodgerCount>=2)-></li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural](이)가 떠나는 중</li>
