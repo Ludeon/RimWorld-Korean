@@ -14,7 +14,8 @@
   
   <!-- EN: blood loss -->
   <BloodLoss.label>혈액 손실</BloodLoss.label>
-  <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
+  <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.
+\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
   <BloodLoss.description>혈액량이 정상 수준보다 적습니다. 경미한 혈액 손실은 비교적 가벼운 영향만 주지만, 손실량이 커지면 산소 공급력이 심각하게 저하되고 이동능력을 상실합니다. 극심한 혈액 손실은 사망으로 이어집니다.\n\n혈액 손실은 시간에 지나면서 점차 회복됩니다.</BloodLoss.description>
   <!-- EN: minor -->
   <BloodLoss.stages.minor-0.label>가벼움</BloodLoss.stages.minor-0.label>
@@ -146,7 +147,9 @@
   
   <!-- EN: toxic buildup -->
   <ToxicBuildup.label>중독</ToxicBuildup.label>
-  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
+  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.
+\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.
+\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
   <ToxicBuildup.description>혈액에 독성 물질이 유입됐습니다. 오염된 환경, 독니, 독이 발린 무기 등 다양한 원인에 의해 발생할 수 있습니다.\n\n고농도로 중독되면 치명적이고, 적은 양으로도 암을 유발할 수 있습니다.\n\n중독된 생물이 사망하면 그 시체는 섭취가 불가능할 수도 있습니다. 중독 수치가 높으면 섭취 불가능 확률도 올라갑니다.</ToxicBuildup.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of toxic buildup. Keep {PAWN_objective} away from sources of toxins. -->
   <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}(이)가 중독 초기 증세를 보이고 있습니다. 독성 원인에서 멀리 떨어트려놓으세요.</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>

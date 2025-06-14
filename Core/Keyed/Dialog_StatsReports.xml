@@ -247,13 +247,13 @@
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>약품을 섭취할 때 채워지는 오락 수치를 나타냅니다.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The weight of this creature and their equipment. -->
-  <Stat_Mass_Desc>The weight of this creature and their equipment.</Stat_Mass_Desc>
+  <Stat_Mass_Desc>이 생물과 장착한 장비의 무게입니다.</Stat_Mass_Desc>
   <!-- EN: Base mass -->
-  <Stat_Mass_Base>Base mass</Stat_Mass_Base>
+  <Stat_Mass_Base>기본 무게</Stat_Mass_Base>
   <!-- EN: Mass from equipment -->
-  <Stat_Mass_Equipment>Mass from equipment</Stat_Mass_Equipment>
+  <Stat_Mass_Equipment>장비 무게</Stat_Mass_Equipment>
   <!-- EN: Total mass -->
-  <Stat_Mass_Total>Total mass</Stat_Mass_Total>
+  <Stat_Mass_Total>총 무게</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>동물의 크기를 평균적인 성인 인간과 비교한 수치입니다.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -269,11 +269,11 @@
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>원거리 무기의 최대 사거리입니다.</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: Range multiplier -->
-  <Stat_Thing_Weapon_Range_Multiplier>Range multiplier</Stat_Thing_Weapon_Range_Multiplier>
+  <Stat_Thing_Weapon_Range_Multiplier>사거리 계수</Stat_Thing_Weapon_Range_Multiplier>
   <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
-  <Stat_Thing_Weapon_Range_Clamped>Reduced from {ORIGINAL} to {CAP} by weather.</Stat_Thing_Weapon_Range_Clamped>
+  <Stat_Thing_Weapon_Range_Clamped>날씨로 인해 {ORIGINAL}에서 {CAP}로 감소</Stat_Thing_Weapon_Range_Clamped>
   <!-- EN: Aiming time multiplier -->
-  <Stat_Thing_Weapon_WarmupTime_Multiplier>Aiming time multiplier</Stat_Thing_Weapon_WarmupTime_Multiplier>
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>조준 시간 계수</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>원거리 무기의 발사체가 목표 주변으로 얼마나 확산되는지에 대한 수치입니다.\n\n값이 높아질수록 발사체가 빗나갈 가능성이 높아집니다.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->

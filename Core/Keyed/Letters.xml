@@ -296,9 +296,9 @@
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>적의 전초기지 {0}(이)가 파괴되었습니다.\n\n지금 상단을 재구성해서 떠나지 않으면 {1} 후에 적이 병력을 보내 상단을 공격할 것입니다.</LetterFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed. -->
-  <LetterFactionBaseDefeatedNoRaids>The enemy settlement {0} has been destroyed.</LetterFactionBaseDefeatedNoRaids>
+  <LetterFactionBaseDefeatedNoRaids>적의 기지 {0}(이)가 파괴되었습니다.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>마지막 기지 파괴로 인해 {0} 세력은 이제 존재하지 않습니다.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>마지막 기지가 파괴됐습니다. {0}(은)는 멸망했습니다.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
@@ -416,9 +416,9 @@
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>구조자 합류</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
-  <LetterRescueQuestFinished>{PAWN_nameDef}(을)를 구조하였고 {PAWN_pronoun}가 정착지에 합류했습니다.\n\n세계지도에서 이 지역을 선택하고 "상단 재구성" 옵션을 선택하면 {PAWN_nameDef}(와)과 함께 갈 수 있습니다.</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>{PAWN_nameDef}(을)를 구조했습니다. {PAWN_pronoun}가 세력에 합류했습니다.</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>\n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command.</LetterRescueQuestFinishedCaravanExtra>
+  <LetterRescueQuestFinishedCaravanExtra>\n\n세계지도에서 이 지역을 선택하고 "상단 재구성" 명령을 내리면 {PAWN_nameDef}(와)과 함께 갈 수 있습니다.</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->

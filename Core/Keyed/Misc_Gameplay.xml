@@ -13,7 +13,7 @@
   <!-- EN: For prisoner use -->
   <ForPrisonerUse>수감자용</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>감옥내: 수감자용</InPrisonCell>
+  <InPrisonCell>감옥 내: 수감자용</InPrisonCell>
   <!-- EN: For colonist use -->
   <ForColonistUse>정착민용</ForColonistUse>
   <!-- EN: Medical -->
@@ -285,7 +285,7 @@
   <!-- EN: no power -->
   <NoPower>전력 없음</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>not in {0}</NotInRoomRole>
+  <NotInRoomRole>{0}에 없음</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>작업 속도</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -634,13 +634,13 @@
   <PreventCuttingDesc>When on, colonists won't cut this plant.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
-  <ComesFromTrait>Resulting from trait</ComesFromTrait>
+  <ComesFromTrait>특성에서 유래됨</ComesFromTrait>
   <!-- EN: Resulting from condition -->
-  <ComesFromHediff>Resulting from condition</ComesFromHediff>
+  <ComesFromHediff>상태에서 유래됨</ComesFromHediff>
   <!-- EN: Adds need -->
-  <AddsNeed>Adds need</AddsNeed>
+  <AddsNeed>욕구 추가</AddsNeed>
   <!-- EN: Adds needs -->
-  <AddsNeeds>Adds needs</AddsNeeds>
+  <AddsNeeds>욕구 추가</AddsNeeds>
   <!-- EN: Disables need -->
   <DisablesNeed>다음 욕구를 비활성화</DisablesNeed>
   <!-- EN: Disables needs -->
@@ -1681,9 +1681,9 @@
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_age}세의 {0_title}, {0_nameDef}(이)가 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
-  <Reward_Items>transport pods with the following resources will arrive (total value {1}):\n{0}</Reward_Items>
+  <Reward_Items>다음 자원을 가진 수송포드가 도착합니다. (총 가치 {1})\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):\n{0} -->
-  <Reward_Items_Caravan>you will receive (total value {1}):\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>다음 항목을 받게 됩니다. (총 가치 {1})\n{0} </Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>{0_name}(와)과의 우호도가 {1} 만큼 향상됩니다</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -2105,7 +2105,7 @@
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>해킹한 단말기</TerminalsHacked>
   <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>Intellectual needed</IntellectualSkillPrerequisite>
+  <IntellectualSkillPrerequisite>지적노동 필요</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
   <AutoHack>자동 해킹</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
@@ -2153,7 +2153,7 @@
   <!-- EN: Shield energy -->
   <ShieldEnergy>보호막 용량</ShieldEnergy>
   <!-- EN: Shield cooldown -->
-  <ShieldTimeToRecovery>회복 시간</ShieldTimeToRecovery>
+  <ShieldTimeToRecovery>보호막 재사용 대기시간</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
   <ShieldDuration>보호막 지속시간</ShieldDuration>
   <!-- EN: On cooldown -->
@@ -2167,7 +2167,7 @@
   <MaxOf>최대 {0}개</MaxOf>
 
   <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}.</CannotUseDueToHediff>
+  <CannotUseDueToHediff>{TARGETABLE_label}(을)를 사용할 수 없음: {TARGET_nameDef}(이)가 이미 {2}(을)를 보유하고 있습니다.</CannotUseDueToHediff>
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
