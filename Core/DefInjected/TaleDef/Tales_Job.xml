@@ -141,11 +141,11 @@
     <li>tale_noun->[PAWN_nameDef]의 [OBJECT_label] 완성</li>
     <li>image->[circumstance_group] 복잡한 [OBJECT_label](을)를 건설하는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [OBJECT_label]의 표면을 광 내는 [PAWN_nameFull]</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [OBJECT_label]의 표면을 다듬는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [OBJECT_label]에 이름을 새기는 장면</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [OBJECT_label]의 표면을 다듬는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [OBJECT_label]에 이름을 새기는 장면</li>
     <li>circumstance_phrase->눈을 반짝이며</li>
     <li>circumstance_phrase->이마의 땀을 닦으며</li>
-    <li>circumstance_phrase->땀을 닦으며</li>
+    <li>circumstance_phrase->먼지를 뒤집어쓴 채</li>
     <li>circumstance_phrase->자랑스럽게 웃으며</li>
     <li>circumstance_phrase->얼굴에 미소를 떠올리며</li>
     <li>desc_sentence->[PAWN_nameDef] 위에 [OBJECT_label]의 모습이 보입니다.</li>
@@ -177,12 +177,12 @@
   <CompletedLongCraftingProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]의 [OBJECT_label] 제작 완성</li>
     <li>image->[circumstance_group] 복잡한 [OBJECT_label](을)를 완성하는 [PAWN_nameFull]</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [OBJECT_label]의 표면을 다듬는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [OBJECT_label]의 표면을 다듬는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [OBJECT_label]에 이름을 새기는 장면</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [OBJECT_label](을)를 마무리하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [OBJECT_label]의 표면을 다듬는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [OBJECT_label]에 이름을 새기는 장면</li>
     <li>circumstance_phrase->눈을 반짝이며</li>
     <li>circumstance_phrase->이마의 땀을 닦으며</li>
-    <li>circumstance_phrase->땀을 닦으며</li>
+    <li>circumstance_phrase->먼지를 뒤집어쓴 채</li>
     <li>circumstance_phrase->자랑스럽게 웃으며</li>
     <li>circumstance_phrase->얼굴에 미소를 떠올리며</li>
     <li>desc_sentence->[Color](으)로 빛나는 [OBJECT_label]의 모습이 보입니다.</li>
@@ -253,8 +253,8 @@
     <li>tale_noun->[PAWN_nameDef](이)가 [SKILL_label] 기술의 대가가 된 이야기</li>
     <li>image->[circumstance_group] [SKILL_label] 기술을 연습하는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [SKILL_label]에 관한 책을 읽는 [PAWN_nameFull]</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [SKILL_label] 기술 훈련을 받는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 열정적으로 일하는 장면</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [SKILL_label] 기술 훈련을 받는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 열정적으로 일하는 장면</li>
     <li>image->[circumstance_group] 작업을 끝내는 [PAWN_nameFull]</li>
     <li>circumstance_phrase->땀을 흘리며</li>
     <li>circumstance_phrase->피로에 찌든 채</li>
@@ -294,8 +294,8 @@
     <li>tale_noun->[PAWN_nameDef](이)가 [SKILL_label] 기술의 대가가 된 이야기</li>
     <li>image->[circumstance_group] [SKILL_label] 기술을 연습하는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [SKILL_label]에 관한 책을 읽는 [PAWN_nameFull]</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [SKILL_label] 기술 훈련을 받는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 열정적으로 일하는 장면</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [SKILL_label] 기술 훈련을 받는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 열정적으로 일하는 장면</li>
     <li>image->[circumstance_group] 작업을 끝내는 [PAWN_nameFull]</li>
     <li>circumstance_phrase->[AdjectiveFriendly] 표정을 지으며</li>
     <li>circumstance_phrase->기쁜 얼굴로</li>
@@ -409,8 +409,8 @@
     <li>image->[circumstance_group] 채굴 장비로 [MATERIAL_label] 벽을 두드리는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [MATERIAL_label] 덩어리를 들고 있는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [MATERIAL_label] 벽을 등지고 휴식하는 [PAWN_nameFull]</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [MATERIAL_label] 광맥의 채굴 팀을 조직하는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 조심스럽게 [MATERIAL_label] 광맥을 조사하는 광경</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [MATERIAL_label] 광맥의 채굴 팀을 조직하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 조심스럽게 [circumstance_group] [MATERIAL_label] 광맥을 조사하는 광경</li>
     <li>circumstance_phrase->무척 땀에 젖은 채</li>
     <li>circumstance_phrase->[AdjectiveFriendly] 표정을 지으며</li>
     <li>circumstance_phrase->[AdjectiveFriendly] 표정을 지으며</li>
@@ -459,10 +459,10 @@
     <li>image->[circumstance_group] 의자에 앉아 있는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [OBJECT_label](을)를 배경으로 포즈를 취하는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] [OBJECT_label]의 곁에 앉아 있는 [PAWN_nameFull]</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [OBJECT_label]에서 이기는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 [OBJECT_label]에서 지는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [OBJECT_label]에서 이기는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] [OBJECT_label]에서 지는 모습</li>
     <li>circumstance_phrase->약간 긴장하며</li>
-    <li>circumstance_phrase->몸과 정신을 이완하며</li>
+    <li>circumstance_phrase->긴장을 풀고</li>
     <li>circumstance_phrase->다음 움직임을 생각하며</li>
     <li>circumstance_phrase->부드럽게 자신의 손목을 마사지하며</li>
     <li>circumstance_phrase->[AdjectiveAngsty] 표정으로</li>
@@ -503,8 +503,8 @@
     <li>tale_noun->[PAWN_nameDef](이)가 신에게 기도</li>
     <li>image->[circumstance_group] 먼 곳을 응시하며 기도하는 [PAWN_nameFull]</li>
     <li>image->[circumstance_group] 눈을 감고 기도하는 [PAWN_nameFull]</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 손을 모으고 기도하는 모습</li>
-    <li>image->[circumstance_group] [PAWN_nameFull](이)가 하늘을 보며 기도하는 장면</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 손을 모으고 기도하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 하늘을 보며 기도하는 장면</li>
     <li>circumstance_phrase->평온한 표정으로</li>
     <li>circumstance_phrase->조용히 속삭이며</li>
     <li>circumstance_phrase->희망적인 표정으로</li>

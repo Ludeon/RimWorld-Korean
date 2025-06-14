@@ -401,7 +401,7 @@
   <!-- EN: Camp -->
   <CommandCamp>야영지</CommandCamp>
   <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
-  <CommandCampDesc>Set up a temporary camp that can quickly be abandoned.</CommandCampDesc>
+  <CommandCampDesc>빠르게 버릴 수 있는 임시 야영지를 마련하세요.</CommandCampDesc>
   <!-- EN: Cannot camp here. -->
   <CommandCampFailExistingWorldObject>여기에서 야영할 수 없습니다.</CommandCampFailExistingWorldObject>
   
@@ -495,9 +495,9 @@
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>자동 보급</CommandToggleAllowAutoRefuel>
   <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDesc>This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>이 설정은 정착지 주민들이 연료를 자동으로 보급할지 여부를 결정합니다. 이 설정을 활성화하면 정착지 주민들이 연료를 최대 {0}까지 보급합니다.\n\n현재 자동 보급 기능은 {ONOFF} 상태입니다.</CommandToggleAllowAutoRefuelDesc>
   <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDescMult>This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
+  <CommandToggleAllowAutoRefuelDescMult>이는 정착지 주민들이 건물에 자동으로 연료를 공급할지 여부를 결정합니다.\n\n현재 자동 연료 공급은 {ONOFF} 상태입니다.</CommandToggleAllowAutoRefuelDescMult>
 
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -505,9 +505,9 @@
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>진행 중인 적재 명령을 취소하고 이미 적재된 모든 것을 밖으로 꺼냅니다.</CommandCancelLoadDesc>
   <!-- EN: Unload all -->
-  <CommandUnload>Unload all</CommandUnload>
+  <CommandUnload>모두 하역</CommandUnload>
   <!-- EN: Eject all contents from the {0}. -->
-  <CommandUnloadDesc>Eject all contents from the {0}.</CommandUnloadDesc>
+  <CommandUnloadDesc>{0}에서 내용물을 모두 꺼냅니다.</CommandUnloadDesc>
 
   <!-- Launch group -->
   <!-- EN: Launch -->

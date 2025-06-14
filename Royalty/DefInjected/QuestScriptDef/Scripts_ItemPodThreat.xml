@@ -84,7 +84,7 @@
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
     <li>manhuntingBeastIndef(animalCount==1)->(*Threat)식인 [animalKind_label] 한 마리(/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->(*Threat)[animalCount]마리의 식인 [animalKind_label](/Threat) 무리</li>
-    <li>endSection->[helpersParagraph] 수락을 하면 [manhuntersDelayTicks_duration]이 지난 후 [map_definite]에 [animalKindLabelCorrect](이)가 도착합니다.</li>
+    <li>endSection->[helpersParagraph] 수락하면 [manhuntersDelayTicks_duration]이 지난 후 [map_definite]에 [animalKindLabelCorrect](이)가 도착합니다.</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->(*Threat)야생 [animalKind_label](/Threat)에게 쫓기고 있는 한 상인에게 호출받았습니다! 이 짐승들로부터 벗어나고 싶어합니다. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label](이)가 근처에서 상인을 쫓고 있습니다.</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->(*Threat)[animalCount] 마리의 야생 [animalKind_labelPlural](/Threat)에게 쫓기고 있는 한 상인에게 호출받았습니다! 이 짐승들로부터 벗어나고 싶어합니다. [endSection]</li>

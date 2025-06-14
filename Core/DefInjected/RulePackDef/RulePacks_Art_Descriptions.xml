@@ -13,9 +13,9 @@
     <li>r_art_description->[physical_description_root]\n\n[context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->[DATE]에 일어난, [tale_noun](을)를 표현하고 있습니다.</li>
-    <li>context_sentence->[DATE]에 일어난, [tale_noun]입니다.</li>
-    <li>context_sentence->[DATE]에 일어난, [tale_noun](을)를 묘사하고 있습니다.</li>
+    <li>context_sentence->[DATE]에 일어난, [tale_noun](을)를 표현한 것입니다.</li>
+    <li>context_sentence->[DATE]에 일어난, [tale_noun]에 대한 작품입니다.</li>
+    <li>context_sentence->[DATE]에 일어난, [tale_noun](을)를 묘사한 것입니다.</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -272,12 +272,12 @@
     <li>idles->웃고 있습니다</li>
     <li>idles->누워 있습니다</li>
     <li>idles->포즈를 취하고 있습니다</li>
-    <li>idles->표현되어 있습니다</li>
-    <li>idles->보입니다</li>
-    <li>idles->양각되어 있습니다</li>
-    <li>idles->음각되어 있습니다</li>
+    <li>idles->나타나고 있습니다</li>
+    <li>idles->기다리고 있습니다</li>
+    <li>idles->사라지고 있습니다</li>
+    <li>idles->부유하고 있습니다</li>
     <li>side_position->한 쪽</li>
-    <li>side_position->배경</li>
+    <li>side_position->뒤</li>
     <li>side_position->먼 곳</li>
     <li>side_position->아래쪽</li>
     <li>side_position->위쪽</li>
