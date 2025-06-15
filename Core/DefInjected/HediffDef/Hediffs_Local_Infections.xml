@@ -106,15 +106,15 @@
   <Plague.stages.extreme-1.label>극심함</Plague.stages.extreme-1.label>
   
   <!-- EN: scaria infection -->
-  <ScariaInfection.label>scaria infection</ScariaInfection.label>
+  <ScariaInfection.label>스카리아 감염</ScariaInfection.label>
   <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
-  <ScariaInfection.description>An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage.</ScariaInfection.description>
+  <ScariaInfection.description>스카리아균 감염입니다. 치료하지 않으면 결국 숙주를 광란의 분노에 빠지게 합니다.</ScariaInfection.description>
   <!-- EN: Scaria: {PAWN_nameDef} -->
-  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>Scaria: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>스카리아: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
   <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
-  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef}(은)는 감염 때문에 스카리아가 발병하여 광분하였습니다. 스카리아는 특수 수술로 치료할 수 있지만, 먼저 {PAWN_nameDef}(을)를 쓰러뜨려야 합니다.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
   <!-- EN: a scaria infection -->
-  <ScariaInfection.labelNoun>a scaria infection</ScariaInfection.labelNoun>
+  <ScariaInfection.labelNoun>스카리아 감염</ScariaInfection.labelNoun>
   <!-- EN: minor -->
   <ScariaInfection.stages.minor.label>약간</ScariaInfection.stages.minor.label>
   <!-- EN: major -->
@@ -148,8 +148,7 @@
   
   <!-- EN: infection -->
   <WoundInfection.label>감염</WoundInfection.label>
-  <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.
-\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
+  <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
   <WoundInfection.description>상처에 세균이 침투했습니다. 치료를 하지 않으면 세균이 번식해 국소 조직을 죽이고, 결국 혈액을 오염시켜 사망으로 이어집니다.\n\n영겁의 세월 동안, 부상 자체보다 그로 인한 감염이 더 많은 목숨을 앗아갔습니다.</WoundInfection.description>
   <!-- EN: an infection -->
   <WoundInfection.labelNoun>감염</WoundInfection.labelNoun>

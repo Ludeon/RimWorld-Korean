@@ -294,7 +294,7 @@
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>상단 구성이 완료되었습니다.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>No colonist capable of forming caravan. The caravan formation process has been terminated.</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
+  <MessageForceSendingCaravan_AllLost>상단을 구성할 수 있는 정착민이 없습니다. 상단 구성 과정이 종료되었습니다.</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>상단 구성은 모든 구성원이 정신이상에서 회복하면 진행됩니다.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -357,7 +357,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>정착민들이 지정된 물품들을 수송 포드에 적재하기 시작합니다.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
-  <MessageTransporterSingleLoadingProcessStarted>Assigned items and people will now be loaded into the transport pod.</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>이제 지정된 물품과 사람을 수송 포드에 실을 수 있습니다.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
   <MessageShuttleLoadingProcessStarted>정착민들이 지정된 물품들을 왕복선에 적재하기 시작합니다.</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
 
@@ -376,18 +376,18 @@
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>일부 대상에 접근할 수 없어 {1}(이)가 수송 포드 적재를 완료할 수 없습니다. ({2_labelShort})</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}).</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
+  <MessageCantLoadMoreIntoShuttle>일부 물품 또는 인원을 사용할 수 없게 되어 {1}(이)가 왕복선에 짐을 싣는 것을 완료할 수 없습니다. ({2_labelShort})</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>일부 대상에 접근할 수 없어 {1}(이)가 {0}에 들어갈 수 없습니다. ({2_labelShort})</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>선택한 목적지를 인식할 수 없습니다.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: Destination is reserved by {0}. -->
-  <MessageTransportPodsDestinationReservedBy>Destination is reserved by {0}.</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
+  <MessageTransportPodsDestinationReservedBy>{0}(이)가 목적지를 예약했습니다.</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
   <!-- EN: Destination is reserved. -->
-  <MessageTransportPodsDestinationReserved>Destination is reserved.</MessageTransportPodsDestinationReserved> <!-- text_todo -->
+  <MessageTransportPodsDestinationReserved>목적지가 예약되었습니다.</MessageTransportPodsDestinationReserved> <!-- text_todo -->
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} is not a valid destination.</MessageWorldObjectIsInvalid> <!-- text_todo -->
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap}(은)는 유효한 목적지가 아닙니다.</MessageWorldObjectIsInvalid> <!-- text_todo -->
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>목적지까지 수송 포드를 보내려면, 각 발사대마다 최소 {0}개의 화학 연료를 필요로 합니다.</MessageTransportPodsDestinationIsTooFar>
   
@@ -811,9 +811,9 @@
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>더 비옥한 땅이 필요합니다.</MessageWarningNotEnoughFertility>
   <!-- EN: Temperature too extreme. -->
-  <CannotPlantExtremeTemp>Temperature too extreme.</CannotPlantExtremeTemp>
+  <CannotPlantExtremeTemp>적정온도를 크게 벗어났습니다.</CannotPlantExtremeTemp>
   <!-- EN: Plants cannot grow on this terrain. -->
-  <CannotPlantMissingTerrainTag>Plants cannot grow on this terrain.</CannotPlantMissingTerrainTag>
+  <CannotPlantMissingTerrainTag>이 지형에서는 식물이 자랄 수 없습니다.</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>{0_label}에 막힘</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -823,7 +823,7 @@
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>{0}(을)를 심을 위치가 너무 가깝습니다.</TooCloseToOtherSeedPlantCell>
   <!-- EN: Cannot be placed on {0}. -->
-  <MessageCannotBePlacedOn>Cannot be placed on {0}.</MessageCannotBePlacedOn>
+  <MessageCannotBePlacedOn>{0}에 배치할 수 없습니다.</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>경고: {0}(이)가 제초될 예정입니다.</MessageWarningCutImportantPlant>
@@ -857,11 +857,11 @@
   <MessageLodgersCantFarskip>도약 불가: 난민</MessageLodgersCantFarskip>
   
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>{HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}.</MessageHackerLockedOut>
+  <MessageHackerLockedOut>{HACKER_nameDef}의 해킹이 감지되었습니다. {HACKER_pronoun}는 {DURATION} 동안 차단되었습니다.</MessageHackerLockedOut>
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>{HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently.</MessageHackerLockedOutPermanently>
+  <MessageHackerLockedOutPermanently>{HACKER_nameDef}의 해킹이 감지되었습니다. {HACKER_pronoun}는 영구적으로 차단되었습니다.</MessageHackerLockedOutPermanently>
   <!-- EN: {0_labelShort} can be hacked again. -->
-  <MessageHackableUnlocked>{0_labelShort} can be hacked again.</MessageHackableUnlocked>
+  <MessageHackableUnlocked>{0_labelShort}(을)를 다시 해킹할 수 있습니다.</MessageHackableUnlocked>
 
   <!-- EN: Cannot call shuttle -->
   <CannotCallShuttle>왕복선 호출 불가</CannotCallShuttle>
@@ -869,6 +869,6 @@
   <MessageShuttleArrived>왕복선이 도착했습니다.</MessageShuttleArrived>
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>Warning: {THING_labelCap} will not function in this biome</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
+  <MessageGroundPenetratingScannerNoBedrock>경고: {THING_labelCap}(은)는 이 지형에서는 작동하지 않습니다.</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
 
 </LanguageData>

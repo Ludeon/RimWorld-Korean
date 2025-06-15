@@ -3,57 +3,21 @@
   
   <!-- EN: Armor - Blunt -->
   <ArmorRating_Blunt.label>방어도 - 둔탁함</ArmorRating_Blunt.label>
-  <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.
-\n
-\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.
-\n
-\nThe remaining armor rating is then compared against a random number from 0 to 100.
-\n
-\n    - If the random number is under half the armor rating, the damage deflects harmlessly.
-\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.
-\n    - If the random number is greater than the armor rating, the armor has no effect.
-\n
-\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.
-\n
-\nEach layer of armor is applied separately, from the outside in. -->
+  <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
   <ArmorRating_Blunt.description>주먹과 둔기, 낙석과 같은 둔탁한 원인에 의한 손상을 방지합니다.\n\n공격을 받았을 때 방어력은 공격하는 무기의 관통값만큼 감소합니다.\n\n남은 방어력은 0~100 사이의 무작위로 생성된 숫자와 비교를 합니다.\n\n    - 난수가 방어력 수치의 절반 이하일 경우, 공격은 무효화 됩니다.\n    - 난수가 방어력 수치의 절반보다 높거나, 방어력 수치보다 낮으면 피해는 감소합니다. 이것은 절반의 피해를 입는다는 뜻입니다.\n    - 난수가 방어력 수치보다 높은 경우, 방어는 아무런 효과가 없습니다.\n\n예를 들어, 90%의 방어구가 10%의 관통값에 공격을 받으면, 40%의 확률로 무효화 하거나 40%의 확률로 피해가 완화됩니다.\n\n의복의 방어력은 껴입은 옷에 따라 겉옷부터 공격이 따로 적용됩니다.</ArmorRating_Blunt.description>
   <!-- EN: Armor - Blunt (armor stat) -->
   <ArmorRating_Blunt.labelForFullStatList>방어도 - 둔탁함 (방어도 통계)</ArmorRating_Blunt.labelForFullStatList>
   
   <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>방어도 - 열기</ArmorRating_Heat.label>
-  <!-- EN: The protection given against temperature-related damage like burns.
-\n
-\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.
-\n
-\nThe remaining armor rating is then compared against a random number from 0 to 100.
-\n
-\n    - If the random number is under half the armor rating, the damage deflects harmlessly.
-\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.
-\n    - If the random number is greater than the armor rating, the armor has no effect.
-\n
-\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.
-\n
-\nEach layer of armor is applied separately, from the outside in. -->
+  <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
   <ArmorRating_Heat.description>화상과 같은 온도에 의한 손상을 방지합니다.\n\n공격을 받았을 때 방어력은 공격하는 무기의 관통값만큼 감소합니다.\n\n남은 방어력은 0~100 사이의 무작위로 생성된 숫자와 비교를 합니다.\n\n    - 난수가 방어력 수치의 절반 이하일 경우 공격은 무효화 됩니다.\n    - 난수가 방어력 수치의 절반보다 높거나, 방어력 수치보다 낮으면 피해는 감소합니다. 이것은 절반의 피해를 입는다는 뜻입니다.\n    - 난수가 방어력 수치보다 높은 경우, 방어는 아무런 효과가 없습니다.\n\n예를 들어, 90%의 방어구가 10%의 관통값에 공격을 받으면, 40%의 확률로 무효화 하거나 40%의 확률로 피해가 완화됩니다.\n\n의복의 방어력은 껴입은 옷에 따라 겉옷부터 공격이 따로 적용됩니다.</ArmorRating_Heat.description>
   <!-- EN: Armor - Heat (armor stat) -->
   <ArmorRating_Heat.labelForFullStatList>방어도 - 열기 (방어도 통계)</ArmorRating_Heat.labelForFullStatList>
   
   <!-- EN: Armor - Sharp -->
   <ArmorRating_Sharp.label>방어도 - 날카로움</ArmorRating_Sharp.label>
-  <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.
-\n
-\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.
-\n
-\nThe remaining armor rating is then compared against a random number from 0 to 100.
-\n
-\n    - If the random number is under half the armor rating, the damage deflects harmlessly.
-\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.
-\n    - If the random number is greater than the armor rating, the armor has no effect.
-\n
-\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.
-\n
-\nEach layer of armor is applied separately, from the outside in. -->
+  <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
   <ArmorRating_Sharp.description>총상, 자상이나 동물에게 물리는 것과 같은 날카로운 원인에 의한 손상을 방지합니다.\n\n공격을 받았을 때 방어력은 공격하는 무기의 관통값만큼 감소합니다.\n\n남은 방어력은 0~100 사이의 무작위로 생성된 숫자와 비교를 합니다.\n\n    - 난수가 방어력 수치의 절반 이하일 경우 공격은 무효화 됩니다.\n    - 난수가 방어력 수치의 절반보다 높거나, 방어력 수치보다 낮으면 피해는 감소합니다. 이것은 둔탁함 피해로 변환된 뒤 절반의 피해를 입는다는 뜻입니다.\n    - 난수가 방어력 수치보다 높은 경우, 방어는 아무런 효과가 없습니다.\n\n예를 들어, 90%의 방어구가 10%의 관통값에 공격을 받으면, 40%의 확률로 무효화 하거나 40%의 확률로 피해가 완화됩니다.\n\n의복의 방어력은 껴입은 옷에 따라 겉옷부터 공격이 따로 적용됩니다.</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
   <ArmorRating_Sharp.labelForFullStatList>방어도 - 날카로움 (방어도 통계)</ArmorRating_Sharp.labelForFullStatList>

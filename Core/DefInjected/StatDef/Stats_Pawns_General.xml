@@ -52,9 +52,9 @@
   <FilthRate.description>이 생물이 얼마나 많은 오물을 생성하는지 표시합니다.\n\n오물이 문제가 되지 않는 야외 또는 멍석에 두는 것이 좋습니다.</FilthRate.description>
   
   <!-- EN: flight cooldown -->
-  <FlightCooldown.label>flight cooldown</FlightCooldown.label>
+  <FlightCooldown.label>비행 재사용 시간</FlightCooldown.label>
   <!-- EN: The rest time needed before this creature can fly again. -->
-  <FlightCooldown.description>The rest time needed before this creature can fly again.</FlightCooldown.description>
+  <FlightCooldown.description>이 생물체가 다시 날 수 있기까지 필요한 휴식 시간입니다.</FlightCooldown.description>
   <!-- EN: {0}s -->
   <FlightCooldown.formatString>{0}초</FlightCooldown.formatString>
   
@@ -94,9 +94,9 @@
   <LifespanFactor.description>이 생물이 노화 관련 질병을 얻기까지 걸리는 시간에 곱해지는 값입니다. 따라서 간접적으로 생물의 기대 수명을 결정합니다. 100%를 초과하는 수명 계수는 노화 질환을 늦춰 기대 수명을 높이고, 100% 미만의 수명 계수는 노화 질환을 앞당겨서 기대 수명을 낮춥니다.</LifespanFactor.description>
   
   <!-- EN: max flight time -->
-  <MaxFlightTime.label>max flight time</MaxFlightTime.label>
+  <MaxFlightTime.label>최대 비행 시간</MaxFlightTime.label>
   <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
-  <MaxFlightTime.description>The maximum amount of time this creature can stay in flight before landing.</MaxFlightTime.description>
+  <MaxFlightTime.description>이 생물체가 날 수 있는 최대 시간입니다.</MaxFlightTime.description>
   <!-- EN: {0}s -->
   <MaxFlightTime.formatString>{0}초</MaxFlightTime.formatString>
   

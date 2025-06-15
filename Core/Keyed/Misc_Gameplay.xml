@@ -375,13 +375,13 @@
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>탑승한 동물로 인한 계수</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>Multiplier from bonuses</MultiplierFromMoveSpeedBonus>
+  <MultiplierFromMoveSpeedBonus>추가 계수</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>운반 중량 계수: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>탑승할 수 있는 동물입니다. 상단 구성원은 탑승할 수 있는 동물 중 가장 빠른 것에 탑승해서 상단의 전체 속도를 높입니다.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members.</CaravanBonusTip>
+  <CaravanBonusTip>이 사람은 상단 속도를 추가로 증가시킵니다. 속도 증가량은 상단 구성원 전체 평균으로 적용됩니다.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>짐이 너무 무거워서 움직일 수 없습니다.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -579,7 +579,7 @@
   <!-- EN: size -->
   <Size>크기</Size>
   <!-- EN: Total planning area -->
-  <TotalPlanningArea>Total planning area</TotalPlanningArea>
+  <TotalPlanningArea>전체 계획 구역</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>비용</Cost>
   <!-- EN: Stunned by EMP -->
@@ -631,7 +631,7 @@
   <!-- EN: Prevent cutting -->
   <PreventCutting>제초/벌목 방지</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>When on, colonists won't cut this plant.</PreventCuttingDesc>
+  <PreventCuttingDesc>켜면 정착지 주민들이 이 식물을 제거하지 않습니다.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
   <ComesFromTrait>특성에서 유래됨</ComesFromTrait>
@@ -1285,9 +1285,9 @@
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>낮/밤 광원 모드를 설정합니다.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>Toggle displaying expanding icons for settlements belonging to other factions.</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>다른 세력에 속한 정착지의 확장 아이콘을 표시합니다.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps.</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>정착지, 임무 위치, 활성화된 지도 등 중요한 위치의 확장 아이콘을 표시합니다.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>지명을 표시합니다.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1487,9 +1487,9 @@
   <!-- EN: No colony -->
   <NoColony>정착지 없음</NoColony>
   <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>cannot reach any destination</NoWandererDestination>
+  <NoWandererDestination>어떤 목적지에도 도달할 수 없습니다</NoWandererDestination>
   <!-- EN: must wait {0}h -->
-  <GameOverCreateNewWanderersWait>must wait {0}h</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>{0}시간을 기다려야 합니다</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -2109,7 +2109,7 @@
   <!-- EN: Auto hack -->
   <AutoHack>자동 해킹</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>When enabled, researchers will automatically hack this.</AutoHackDesc>
+  <AutoHackDesc>활성화하면 연구자들이 자동으로 해킹하게 됩니다.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
