@@ -199,13 +199,11 @@
   <NamerLake.rulePack.rulesStrings>
     <li>r_name->[narrative_name] 호수</li>
     <li>terrain_word(p=6)->호수</li>
-    <li>terrain_word->해</li>
+    <li>terrain_word->연못</li>
     <li>terrain_word->못</li>
     <li>terrain_word->유역</li>
     <li>terrain_word->저수지</li>
-    <li>terrain_word(p=0.3)->물 웅덩이</li>
-    <li>terrain_word(p=0.3)->석호</li>
-    <li>terrain_word(p=0.3)->호수</li>
+    <li>terrain_word(p=0.6)->웅덩이</li>
   </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
@@ -219,9 +217,9 @@
   <NamerMountainRange.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[narrative_name] 산맥</li>
     <li>terrain_word(p=5)->산</li>
-    <li>terrain_word(p=2)->산악지대</li>
+    <li>terrain_word(p=2)->산맥</li>
     <li>terrain_word->봉우리</li>
-    <li>terrain_word->언덕지대</li>
+    <li>terrain_word->언덕</li>
     <li>terrain_word->절벽</li>
   </NamerMountainRange.rulePack.rulesStrings>
   
@@ -289,10 +287,9 @@
     <li>terrain_word->ocean</li>
   -->
   <NamerSea.rulePack.rulesStrings>
-    <li>r_name(p=0.1)->[narrative_name] 호수</li>
     <li>terrain_word(p=6)->해</li>
+    <li>terrain_word->석호</li>
     <li>terrain_word->대양</li>
-    <li>terrain_word->해</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:

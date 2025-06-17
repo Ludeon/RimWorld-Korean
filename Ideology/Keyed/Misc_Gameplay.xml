@@ -92,7 +92,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>규율을 포함할 가능성</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}(이)가 좋아하는 색입니다. 입은 옷의 {PERCENTAGE} 이상을 이 색{ORIDEO}으로 맞추면 기분이 약간 좋아질 것입니다.\n\n화장대에서 염료를 사용해 옷의 색을 바꿀 수 있습니다.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}(이)가 좋아하는 색입니다: {COLOR}\n입은 옷의 {PERCENTAGE} 이상을 이 색{ORIDEO}으로 맞추면 기분이 약간 좋아질 것입니다.\n\n화장대에서 염료를 사용해 옷의 색을 바꿀 수 있습니다.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>이나 {PAWN_possessive} 사상 상징색</OrIdeoColor>
   <!-- EN: Set ideo color -->
@@ -102,7 +102,7 @@
   <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>{PAWN_nameDef}(이)가 좋아하는 색입니다. 입은 옷의 60% 이상을 이 색이나 {PAWN_pronoun}가 가진 사상의 상징색으로 맞추면 기분이 약간 좋아질 것입니다.</FavoriteColorPickerTip>
   <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
-  <IdeoColorPickerTip>{PAWN_nameDef}의 사상 색상입니다. 이 상징색이나 {PAWN_pronoun}가 좋아하는 색상의 60% 이상을 맞추면 기분이 약간 좋아질 것입니다.</IdeoColorPickerTip>
+  <IdeoColorPickerTip>{PAWN_nameDef}의 사상 색상입니다. 입은 옷의 60% 이상을 이 색이나 {PAWN_pronoun}가 좋아하는 색으로 맞추면 기분이 약간 좋아질 것입니다.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>정착지의 사상 설정</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
