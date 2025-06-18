@@ -108,26 +108,6 @@ const generateReport = async (host, token) => {
   return data.data.identifier
 }
 
-const downloadBuild = async (host, token, buildID) => {
-  const response = await fetch(`${host}/api/v2/projects/2/translations/builds/${buildID}/download`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  })
-  const data = await response.json()
-  return data.data.url
-}
-
-const fetchBuildStatus = async (host, token, buildID) => {
-  const response = await fetch(`${host}/api/v2/projects/2/translations/builds/${buildID}`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  })
-  const data = await response.json()
-  return data.data.status
-}
-
 const requestBuild = async (host, token) => {
   const response = await fetch(`${host}/api/v2/projects/2/translations/builds`, {
     method: 'POST',
