@@ -353,7 +353,7 @@
   <!-- EN: Replaces -->
   <Replaces>대체</Replaces>
   <!-- EN: missing {0} -->
-  <MissingPartWithLabel>TODO</MissingPartWithLabel> <!-- text_todo -->
+  <MissingPartWithLabel>{0} 없음</MissingPartWithLabel> <!-- text_todo -->
   <!-- EN: {0}x any of -->
   <NumAnyOf>아무 {0}x</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -490,10 +490,10 @@
   <MechCluster>메카노이드 전초기지</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>{0} 후 생성</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>{1} 후 {0} 조립 완료됨</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
-  <MechAssemblyNextType>조립</MechAssemblyNextType>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>{1} 후 {0} 배양 완료</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>다음 배양</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>생산량</ThingsProduced>
   <!-- EN: harvested -->
@@ -1682,10 +1682,10 @@
   <Reward_Pawn_WalkIn>{0_age}세의 {0_title}, {0_nameDef}(이)가 나타나 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_age}세의 {0_title}, {0_nameDef}(이)가 {0_relationInfoInParentheses}에 합류합니다.</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
-  <Reward_Items>다음 자원을 가진 수송포드가 도착합니다. (총 가치 {1})\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
-  <Reward_Items_Caravan>다음 항목을 받게 됩니다. (총 가치 {1})\n{0} </Reward_Items_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <Reward_Items>다음 자원을 가진 수송포드가 도착합니다. (총 가치 {1})\n\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <Reward_Items_Caravan>다음 항목을 받게 됩니다. (총 가치 {1})\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>{0_name}(와)과의 우호도가 {1} 만큼 향상됩니다</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -2021,9 +2021,9 @@
   <!-- EN: {BOOK_labelShort} is not readable -->
   <BookNotReadable>{BOOK_labelShort}(을)를 읽을 수 없음</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
-  <BookCantRead>{PAWN_nameDef}을(를) 읽을 수 없음</BookCantRead>
+  <BookCantRead>{PAWN_nameDef}(은)는 읽을 수 없음</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>{PAWN_nameDef}(은)는 {STAGES}이어야 함</BookCantBeStage>
+  <BookCantBeStage>{PAWN_nameDef}(은)는 {STAGES}(이)어야 함</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
   <BookBlind>{PAWN_nameDef}(은)는 앞이 보이지 않음</BookBlind>
   
@@ -2163,7 +2163,7 @@
   <!-- EN: Below minimum energy -->
   <ShieldBelowMinHitpoints>최소 에너지 미만</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>외부로부터의 원거리 공격을 막아주는 저각 보호막입니다. EMP 공격을 받으면 즉시 해제됩니다.</ProjectileInterceptorTip>
+  <ProjectileInterceptorTip>외부로부터의 원거리 공격을 막아주는 저각 보호막입니다. 전자기 공격을 받으면 즉시 해제됩니다.</ProjectileInterceptorTip>
 
   <!-- EN: max {0} -->
   <MaxOf>최대 {0}개</MaxOf>
