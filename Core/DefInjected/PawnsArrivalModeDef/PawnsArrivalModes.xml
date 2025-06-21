@@ -54,10 +54,17 @@
   <MechClusterDrop.textWillArrive>메카노이드 전초기지는 낙하기로 접근할 것입니다.</MechClusterDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textEnemy>{1}의 {0} 무리가 수송 포드로 도착했지만 낙하기가 이상이 생겨 지역 전체에 흩어지고 있습니다!</RandomDrop.textEnemy>
+  <RandomDrop.textEnemy>{1}의 {0} 무리가 수송 포드로 낙하하고 있습니다. 하지만 포드에 문제가 발생하여, 착륙 지점을 벗어나 지역 전체에 흩어져 착륙하고 있습니다!</RandomDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textFriendly>우호적인 {1}의 {0} 무리가 수송 포드로 도착했지만 낙하기가 이상이 생겨 지역 전체에 흩어지고 있습니다!</RandomDrop.textFriendly>
+  <RandomDrop.textFriendly>우호적인 {1}의 {0} 무리가 수송 포드로 낙하하고 있습니다. 하지만 포드에 문제가 발생하여, 착륙 지점을 벗어나 지역 전체에 흩어져 착륙하고 있습니다!</RandomDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
   <RandomDrop.textWillArrive>{0_pawnsPluralDef}(은)는 수송 포드로 접근할 것입니다.</RandomDrop.textWillArrive>
+  
+  <!-- EN: A group of {0} from {1} have arrived in transport pods nearby. -->
+  <SpecificDropDebug.textEnemy>{1}의 {0} 무리가 수송 포드로 근처에 도착했습니다.</SpecificDropDebug.textEnemy>
+  <!-- EN: A group of friendly {0} from {1} have arrived in transport pods nearby. -->
+  <SpecificDropDebug.textFriendly>우호적인 {1}의 {0} 무리가 수송 포드로 근처에 도착했습니다.</SpecificDropDebug.textFriendly>
+  <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
+  <SpecificDropDebug.textWillArrive>{0_pawnsPluralDef}(은)는 수송 포드로 접근할 것입니다.</SpecificDropDebug.textWillArrive>
   
 </LanguageData>
