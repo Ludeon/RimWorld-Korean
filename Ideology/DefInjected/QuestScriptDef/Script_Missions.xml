@@ -45,7 +45,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameDef](은)는 멀리 떨어진 고대 유적지를 발견했습니다. [asker_pronoun]는 그곳에 [relic_name](으)로 알려진 유물에 대한 정보가 있다고 확신합니다.\n\n[asker_nameDef](은)는 탐사할 인력이 없지만, 탐사를 진행하기 위해 당신이 [colonistCount]명의 [colonistsSingularOrPlural](을)를 보내줄 수 있다고 생각합니다.\n\n유적에는 알려지지 않은 위험이 있으며, [asker_nameDef]의 적인 [enemyFaction_name] 또한 [relic_name](을)를 노리고 있습니다.\n\n[asker_pronoun]는 당신의 정착민들을 데려갈 왕복선을 보내고, 유적 탐사가 끝나면 다시 정착지로 돌려보낼 것이며, 이동 중에는 식사와 치료를 제공할 것입니다.\n\n착륙 후에는 [timeoutTicks_duration] 안에 유적 안의 모든 단말기를 해킹해야 합니다.</li>
+    <li>questDescription->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameDef](이)가 먼 곳에서 고대 시설을 발견했으며, 그곳에 [relic_name](으)로 알려진 유물에 대한 정보가 있다고 확신합니다.\n\n[asker_nameDef](은)는 직접 시설을 탐사할 인원이 부족합니다. 대신, 당신이 [colonistCount]명의 [colonistsSingularOrPlural](을)를 파견해 조사를 진행해주길 바라고 있습니다.\n\n이 시설에는 미지의 위험이 도사리고 있으며, [asker_nameDef]의 적인 [enemyFaction_name] 또한 그곳을 노리고 있습니다.\n\n수락하면, [asker_nameDef](은)는 정착민들을 수송할 왕복선을 보낼 것입니다. 임무 완료 후에는 귀환할 왕복선도 제공하며, 이동 중 필요한 식량과 치료도 모두 제공됩니다.\n\n착륙 후에는 [timeoutTicks_duration] 안에 유적 안의 모든 단말기를 해킹해야 합니다.</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->정착민</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->정착민들</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
