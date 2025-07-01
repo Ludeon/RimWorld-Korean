@@ -690,14 +690,14 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>{RITUAL_label} 떠나기</CommandLeaveRitual>
-  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
   <CommandLeaveRitualDesc>{RITUAL_labelDef}에 참여하는 것을 그만둡니다. 한 명의 참여자라도 남아있으면 행사는 계속됩니다.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>{RITUAL_labelDef}의 마지막 참여자입니다.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>{RITUAL_label} 취소</CommandCancelRitual>
-  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
   <CommandCancelRitualDesc>{RITUAL_labelDef}(을)를 즉시 끝냅니다. 의식의 의무는 남아있으며 나중에 다시 시작할 수 있습니다.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>정말 {RITUAL_labelDef}(을)를 취소하시겠습니까?</CommandCancelRitualConfirm>
