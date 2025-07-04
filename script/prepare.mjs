@@ -16,14 +16,14 @@ const processXMLContent = (content, isKeyedFile = false) => {
     (_, enContent, indent, openTag, _tagName, __, closeTag) => {
       const trimmedEnContent = enContent.trim()
 
-      // If EN contains XML tags (<li>s)
-      if (trimmedEnContent.includes('\n')) {
-        const lines = trimmedEnContent.split('\n')
-        const processedLines = lines.map((line) => {
+      const lines = trimmedEnContent.split('\n').map((l) => l.trim()).filter((l) => l)
+      const isList = lines.length > 0 && lines.every((line) => line.startsWith('<li>') && line.endsWith('</li>'))
+
+      if (isList) {
+        const processedLines = trimmedEnContent.split('\n').map((line) => {
           const trimmedLine = line.trim()
           if (!trimmedLine) return ''
 
-          // Only escape XML characters if this is a Keyed file
           const finalLine = isKeyedFile ? trimmedLine.replace(/</g, '&lt;').replace(/>/g, '&gt;') : trimmedLine
           return `${indent}  ${finalLine}`
         })
@@ -32,8 +32,9 @@ const processXMLContent = (content, isKeyedFile = false) => {
         return `<!-- EN: ${enContent.trim()} -->\n${indent}${openTag}\n${indentedEnContent}\n${indent}${closeTag}`
       }
 
-      // Only escape XML characters for simple content if this is a Keyed file
-      const finalContent = isKeyedFile ? trimmedEnContent.replace(/</g, '&lt;').replace(/>/g, '&gt;') : trimmedEnContent
+      // For non-list content, collapse newlines into spaces and then apply XML escaping.
+      const singleLineContent = trimmedEnContent.replace(/\s*\n\s*/g, ' ').trim()
+      const finalContent = isKeyedFile ? singleLineContent.replace(/</g, '&lt;').replace(/>/g, '&gt;') : singleLineContent
       return `<!-- EN: ${trimmedEnContent} -->\n${indent}${openTag}${finalContent}${closeTag}`
     }
   )
