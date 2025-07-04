@@ -17,7 +17,7 @@ const processXMLContent = (content, isKeyedFile = false) => {
       const trimmedEnContent = enContent.trim()
 
       // If EN contains XML tags (<li>s)
-      if (trimmedEnContent.includes('<') && trimmedEnContent.includes('>')) {
+      if (trimmedEnContent.includes('\n')) {
         const lines = trimmedEnContent.split('\n')
         const processedLines = lines.map((line) => {
           const trimmedLine = line.trim()
