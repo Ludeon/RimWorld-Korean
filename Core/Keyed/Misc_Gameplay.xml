@@ -2059,7 +2059,7 @@
 
   <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>{0}에 들어갈 수 없음, 대상이 차단됨</UnableToEnterPortal>
+  <UnableToEnterPortal>{0}에 들어갈 수 없음, 목적지 막힘</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
   <ResearchNotDiscovered>해당 범주의 연구는 발견되지 않았습니다.</ResearchNotDiscovered>
@@ -2139,17 +2139,17 @@
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
-  <EnterPortal>{0} 탑승</EnterPortal>
+  <EnterPortal>{0} 진입</EnterPortal>
   <!-- EN: Entering {0} -->
   <EnteringPortal>{0} 진입 중</EnteringPortal>
   <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>{0}에 입장 및 적재할 사용자 또는 물품을 선택하십시오.</CommandEnterPortalDesc>
+  <CommandEnterPortalDesc>{0}에 진입할 사람과 물품을 선택하세요.</CommandEnterPortalDesc>
   <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>입장 및 적재 취소</CommandCancelEnterPortal>
+  <CommandCancelEnterPortal>진입 취소</CommandCancelEnterPortal>
   <!-- EN: Cancel exiting -->
   <CommandCancelExitPortal>이탈 취소</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>사용자와 물품의 입장 및 적재를 취소합니다.</CommandCancelEnterPortalDesc>
+  <CommandCancelEnterPortalDesc>사람과 물품 진입을 취소합니다.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
   <ExitPortal>{0} 이탈</ExitPortal>
 
@@ -2176,7 +2176,7 @@
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
   <CannotUseScannerRoofed>지붕에 의해 막힘</CannotUseScannerRoofed> <!-- text_todo -->
-  <!-- EN: Does not function in this biome -->
+  <!-- EN: Biome does not contain drillable resources -->
   <CannotUseScannerNoBedrock>이 생물군계에서 작동할 수 없음</CannotUseScannerNoBedrock> <!-- text_todo -->
   
   <!-- Quests -->
