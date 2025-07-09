@@ -11,7 +11,6 @@
   <TradeRequest.questDescriptionRules.rulesStrings>
     <li>questDescription->근처의 정착지 [settlement_label]에서 특별한 거래 요청을 보냈습니다. 다음 물품의 구매를 원한다고 합니다.\n\n  [qualityInfo][requestedThing_label] x[requestedThingCount] (가치: [requestedThingMarketValue_money])\n\n거래를 원한다면 상단을 요청된 물건과 함께 보내세요.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->평범 품질 이상의 </li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->평범 품질 이상의 </li>
     <li>qualityInfo-></li>
     <li>travelTime(canCaravan==True,priority=1)-> 예상 이동 시간은 [estimatedTravelTime_duration]입니다.</li>
     <li>travelTime-></li>
