@@ -421,6 +421,8 @@
     <li>r_statue_name->[SUBJECT_indefinite], [subjectNoun]</li>
     <li>r_statue_name->[subjectNoun]</li>
     <li>r_statue_name->[statueIdea]의 [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite](와)과 [talktopicheavyfile]</li>
+    <li>statueAdj(p=5)->[AdjectiveAny]</li>
     <li>statueAdj->조각된</li>
     <li>statueAdj->고요한</li>
     <li>statueAdj->영원한</li>
@@ -437,6 +439,10 @@
     <li>statueAdj->슬픈</li>
     <li>statueAdj->얼어붙은</li>
     <li>statueAdj->부서진</li>
+    <li>subjectNoun(p=2)->[PersonJob]</li>
+    <li>subjectNoun(p=2)->[PersonFamily]</li>
+    <li>subjectNoun(p=2)->[PersonAlly]</li>
+    <li>subjectNoun(p=2)->[PersonBadass]</li>
     <li>subjectNoun->감시자</li>
     <li>subjectNoun->영웅</li>
     <li>subjectNoun->전설</li>
@@ -454,6 +460,10 @@
     <li>subjectNoun->천사</li>
     <li>subjectNoun->조각상</li>
     <li>subjectNoun->환영</li>
+    <li>statueIdea(p=3)->[ConceptPositive]</li>
+    <li>statueIdea(p=3)->[ConceptBadass]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
     <li>statueIdea->힘</li>
     <li>statueIdea->지혜</li>
     <li>statueIdea->기지</li>
