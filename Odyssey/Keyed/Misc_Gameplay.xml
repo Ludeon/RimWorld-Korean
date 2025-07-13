@@ -55,27 +55,27 @@
   <!-- EN: Confirm landing area -->
   <ConfirmLandingArea>착륙 지점 확정</ConfirmLandingArea>
   <!-- EN: Blocked by {0_label} -->
-  <GravshipBlockedBy>{0_label}에 의해 차단됨</GravshipBlockedBy>
+  <GravshipBlockedBy>{0_label}에 의해 막힘</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
-  <GravshipBlockedByFog>발견하지 않은 곳에는 설치할 수 없음</GravshipBlockedByFog>
+  <GravshipBlockedByFog>발견하지 않은 곳에는 착륙할 수 없음</GravshipBlockedByFog>
   <!-- EN: Blocked by roof -->
   <GravshipBlockedByRoof>지붕에 막힘</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
-  <GravshipOutOfBounds>지역 경계 밖에는 설치할 수 없음</GravshipOutOfBounds>
+  <GravshipOutOfBounds>지역 경계 밖에는 착륙할 수 없음</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
-  <GravshipInNoBuildArea>지역 경계 근처에는 설치할 수 없음</GravshipInNoBuildArea>
+  <GravshipInNoBuildArea>지역 경계 근처에는 착륙할 수 없음</GravshipInNoBuildArea>
   <!-- EN: Can't place in blocked area -->
-  <GravshipInBlockedArea>막힌 지역에는 설치할 수 없음</GravshipInBlockedArea>
+  <GravshipInBlockedArea>막힌 지역에는 착륙할 수 없음</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
-  <GravshipBlockedByTerrain>{0_label} 위에는 설치할 수 없음</GravshipBlockedByTerrain>
+  <GravshipBlockedByTerrain>{0_label} 위에는 착륙할 수 없음</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
   <GravshipMustBeConnectedToLand>단단한 지면에 연결되어야 함</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
-  <ConfirmLandingToContinue>계속하려면 착륙 구역을 확인하세요</ConfirmLandingToContinue>
+  <ConfirmLandingToContinue>계속하려면 착륙 구역을 확정하세요</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
   <RitualTargetPilotConsole>유효한 조종석 콘솔</RitualTargetPilotConsole>
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
-  <GravshipOutcomeChanceLetterExtra>중력부양선의 발진에 따라 부정적인 결과가 발생할 확률이 {0_percentage}였습니다.</GravshipOutcomeChanceLetterExtra>
+  <GravshipOutcomeChanceLetterExtra>중력부양선의 발진 품질로 부정적인 결과가 발생할 확률은 {0_percentage}였습니다.</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
   <ThrustersBrokeDown>다음 추진기들이 영향을 받았습니다</ThrustersBrokeDown>
   <!-- EN: No path to gravship -->
@@ -87,9 +87,9 @@
   <!-- EN: Launch date -->
   <LaunchDate>발진 날짜</LaunchDate>
   <!-- EN: Warning: {0} will be blocked by {1}. -->
-  <WarningThrusterBlocked>경고: {0}(이)가 {1}에 의해 차단될 예정입니다.</WarningThrusterBlocked>
+  <WarningThrusterBlocked>경고: {0}(이)가 {1}에 의해 막히게 됩니다.</WarningThrusterBlocked>
   <!-- EN: Warning: {0} will be blocked due to being indoors. -->
-  <WarningThrusterInside>경고: {0}(이)가 실내에 있어 차단될 예정입니다.</WarningThrusterInside>
+  <WarningThrusterInside>경고: {0}(이)가 실내에 배치돼 막히게 됩니다.</WarningThrusterInside>
   <!-- EN: Max per gravship -->
   <GravFacilityMaxSimultaneousConnections>중력부양선당 최대 설치 수</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
@@ -173,7 +173,7 @@
   <!-- EN: frozen -->
   <FishingSpotFrozen>얼어붙음</FishingSpotFrozen>
   <!-- EN: below minimum fish population -->
-  <FishingSpotUnderTargetPopulation>최소 어류 개체수 미만</FishingSpotUnderTargetPopulation>
+  <FishingSpotUnderTargetPopulation>최소 어류 개체 수 미만</FishingSpotUnderTargetPopulation>
   <!-- EN: stored fish exceed fishing zone settings -->
   <FishingSpotOverTargetResourceCount>물고기 재고가 낚시구역 설정 초과</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->

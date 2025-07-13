@@ -27,7 +27,7 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 [dutyRoyalDescription](을)를 도와줄 사람이 필요하다고 합니다.\n\n[asker_pronoun]는 [colonistCountToLend]을 [lendForDays]일 동안 빌려달라고 요청합니다.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1명의[minAgeOrOlder] 정착민</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount]명의[minAgeOrOlder] 정착민</li>
-    <li>willSendShuttle->[asker_pronoun]는 [colonists]을 데려가기 위해 왕복선을 보냅니다.</li>
+    <li>willSendShuttle->[asker_pronoun]는 [colonists](을)를 데려갈 왕복선을 보낼 것입니다.</li>
     <li>colonists(colonistsToLendCount==1)->정착민</li>
     <li>colonists(colonistsToLendCount>1)->정착민들</li>
     <li>minAgeOrOlder(minAge==0)-></li>
