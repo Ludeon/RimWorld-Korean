@@ -1013,9 +1013,9 @@
   <!-- EN: How often the colonists should try to take this drug. -->
   <FrequencyColumnDesc>약물 사용 빈도입니다.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>정착민의 기분이 본 수치 아래로 떨어져야 약물을 사용합니다.</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>정착민의 기분이 이 수치 아래로 떨어져야 약물을 사용합니다.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>정착민의 재미가 본 수치 아래로 떨어져야 약물을 사용합니다.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>정착민의 재미가 이 수치 아래로 떨어져야 약물을 사용합니다.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>약물을 집을 때 추가로 소지품에 넣어, 다음 사용 때 저장구역까지 오지 않도록 합니다.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
@@ -1107,7 +1107,7 @@
   <!-- EN: Hostile faction members -->
   <MedGroupHostileFaction>적대 세력 구성원</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>정착지에 적대적(우호도 -75 이하)인 세력에 속하는 인간 또는 동물입니다.</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>정착지에 적대적(우호도 -75 미만)인 세력에 속하는 인간 또는 동물입니다.</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
   <MedGroupNoFaction>기타 인간</MedGroupNoFaction>

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: Gravcore detected: Ancient reactor -->
-  <Gravcore_AncientReactor.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_AncientReactor.questAvailableLetterLabel>
+  <Gravcore_AncientReactor.questAvailableLetterLabel>중력 코어 감지됨: 고대 원자로</Gravcore_AncientReactor.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal originates from an ancient decaying reactor. The location is marked on the world map.\n\nCracks in the reactor's shielding are leaking harmful material, bathing the nearby area in toxic fallout. The reactor itself will be heavily guarded by ancient security systems.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
@@ -17,7 +17,7 @@
   </Gravcore_AncientReactor.questNameRules.rulesStrings>
   
   <!-- EN: Gravcore detected: Ancient stockpile -->
-  <Gravcore_AncientStockpile.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_AncientStockpile.questAvailableLetterLabel>
+  <Gravcore_AncientStockpile.questAvailableLetterLabel>중력 코어 감지됨: 고대 저장고</Gravcore_AncientStockpile.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal originates from an ancient underground stockpile. The location is marked on the world map.\n\nUnderground stockpiles must be hacked to enter. This process can take days to complete.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
@@ -32,12 +32,12 @@
   </Gravcore_AncientStockpile.questNameRules.rulesStrings>
   
   <!-- EN: Gravcore detected: Crash site -->
-  <Gravcore_CrashedMechanoidPlatform.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_CrashedMechanoidPlatform.questAvailableLetterLabel>
+  <Gravcore_CrashedMechanoidPlatform.questAvailableLetterLabel>중력 코어 감지됨: 추락 지점</Gravcore_CrashedMechanoidPlatform.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from the wreckage of a crashed orbital platform.\n\nScans reveal a heavy mechanoid presence.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
   <Gravcore_CrashedMechanoidPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->추락한 궤도 플랫폼에서 발생하는 중력 코어 에너지 반응을 감지했습니다.\n\n스캔 결과, 많은 수의 메카노이드가 예상됩니다.\n\n중력 코어와 중력감응판을 확보해 중력부양선의 크기를 확장하세요.</li>
+    <li>questDescription->추락한 궤도 플랫폼에서 발생하는 중력 코어 에너지 반응을 감지했습니다.\n\n탐색 결과, 많은 수의 메카노이드가 예상됩니다.\n\n중력 코어와 중력감응판을 확보해 중력부양선의 크기를 확장하세요.</li>
   </Gravcore_CrashedMechanoidPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->crashed mechanoid platform</li>
@@ -47,7 +47,7 @@
   </Gravcore_CrashedMechanoidPlatform.questNameRules.rulesStrings>
   
   <!-- EN: Gravcore detected: Frozen terraformer -->
-  <Gravcore_FrozenTerraformer.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_FrozenTerraformer.questAvailableLetterLabel>
+  <Gravcore_FrozenTerraformer.questAvailableLetterLabel>중력 코어 감지됨: 얼어붙은 테라포머</Gravcore_FrozenTerraformer.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The gravcore is powering a malfunctioning ancient terraformer. Its location is marked on the world map.\n\nThe terraformer is cooling the local region to dangerously low temperatures. Be prepared for cold weather and a long stay.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
@@ -58,11 +58,11 @@
     <li>questName->frozen terraformer</li>
   -->
   <Gravcore_FrozenTerraformer.questNameRules.rulesStrings>
-    <li>questName->혹한의 테라포머</li>
+    <li>questName->얼어붙은 테라포머</li>
   </Gravcore_FrozenTerraformer.questNameRules.rulesStrings>
   
   <!-- EN: Gravcore detected: Cave entrance -->
-  <Gravcore_InsectLair.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_InsectLair.questAvailableLetterLabel>
+  <Gravcore_InsectLair.questAvailableLetterLabel>중력 코어 감지됨: 동굴 입구</Gravcore_InsectLair.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal emanates from a cave system deep underground. The entrance to the cave system is marked on the world map.\n\nSubterranean caves can be extremely dangerous and may take days to explore.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
@@ -77,7 +77,7 @@
   </Gravcore_InsectLair.questNameRules.rulesStrings>
   
   <!-- EN: Gravcore detected: Mechanoid relay -->
-  <Gravcore_MechanoidRelay.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_MechanoidRelay.questAvailableLetterLabel>
+  <Gravcore_MechanoidRelay.questAvailableLetterLabel>중력 코어 감지됨: 메카노이드 중계기</Gravcore_MechanoidRelay.questAvailableLetterLabel>
   <!-- EN:
     <li>letterLabelMapGenerated->Mechanoid relay</li>
     <li>letterTextMapGenerated->A mechanoid relay is nearby, powered by a gravcore.\n\nThe relay is currently protected by nearby stabilizers. Extract the relay's gravcore by first hacking or destroying all the stabilizers.\n\nBe careful, destroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option.</li>
@@ -90,7 +90,7 @@
     <li>questDescription->You have detected the energy signature of a gravcore. It is powering a relay that is part of a huge mechanoid communication net.\n\nYou can disassemble the relay, but the process will take days to complete. The relay itself will be heavily defended by mechanoids.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
   <Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>
-    <li>questDescription->거대한 메카노이드 통신망의 중계기에서 발생하는 중력 코어 에너지 반응을 감지했습니다.\n\n중계기를 분해하면 코어를 꺼낼 수 있지만, 분해에는 며칠이 걸립니다. 또한 중계기는 메카노이드들의 철저한 방어를 받고 있습니다.\n\n중력 코어와 중력감응판을 확보해 중력부양선의 크기를 확장하세요.</li>
+    <li>questDescription->거대한 메카노이드 통신망의 중계기에서 발생하는 중력 코어 에너지 반응을 감지했습니다.\n\n중계기를 분해하면 코어를 꺼낼 수 있지만, 분해에는 며칠이 걸립니다. 또한 중계기는 메카노이드들의 철저한 보호를 받고 있습니다.\n\n중력 코어와 중력감응판을 확보해 중력부양선의 크기를 확장하세요.</li>
   </Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->mechanoid relay</li>
@@ -100,7 +100,7 @@
   </Gravcore_MechanoidRelay.questNameRules.rulesStrings>
   
   <!-- EN: Mechhive detected -->
-  <Gravcore_Mechhive.questAvailableLetterLabel>메카노이드 군락 감지됨</Gravcore_Mechhive.questAvailableLetterLabel>
+  <Gravcore_Mechhive.questAvailableLetterLabel>메카노이드 군락 감지</Gravcore_Mechhive.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected a huge gravtech energy spike originating from a mechhive in orbit. Its location is marked on the world map.\n\nThis mechhive is the center of mechanoid intelligence on this planet. Shutting it down will disable all murderous mechanoids planet-wide. Alternatively, you may be able to use the mechhive for your own purposes.\n\nThe mechhive is defended with anti-ship weapons. Build a signal jammer before approaching it.\n\nBe warned, mechhives are extremely dangerous. Finish exploring other locations first and ensure you're prepared for a long stay in orbit.</li>
   -->
@@ -115,7 +115,7 @@
   </Gravcore_Mechhive.questNameRules.rulesStrings>
   
   <!-- EN: Gravcore detected: Orbital platform -->
-  <Gravcore_OrbitalAncientPlatform.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_OrbitalAncientPlatform.questAvailableLetterLabel>
+  <Gravcore_OrbitalAncientPlatform.questAvailableLetterLabel>중력 코어 감지됨: 궤도 플랫폼</Gravcore_OrbitalAncientPlatform.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from an abandoned orbital platform.\n\nYou can travel to orbital platforms using gravships, shuttles, or transport pods.\n\nBe careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult.</li>
   -->
@@ -130,12 +130,12 @@
   </Gravcore_OrbitalAncientPlatform.questNameRules.rulesStrings>
   
   <!-- EN: Gravcore detected: Mechanoid platform -->
-  <Gravcore_OrbitalMechanoidPlatform.questAvailableLetterLabel>중력 코어 감지됨</Gravcore_OrbitalMechanoidPlatform.questAvailableLetterLabel>
+  <Gravcore_OrbitalMechanoidPlatform.questAvailableLetterLabel>중력 코어 감지됨: 메카노이드 플랫폼</Gravcore_OrbitalMechanoidPlatform.questAvailableLetterLabel>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from an orbital mechanoid platform. Scans reveal a heavy defensive presence.\n\nYou can travel to orbital platforms using gravships, shuttles, or transport pods.\n\nBe careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult.</li>
   -->
   <Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->궤도 메카노이드 플랫폼에서 발생하는 중력 코어 에너지 반응을 감지했습니다. 스캔 결과, 강력한 방어가 예상됩니다.\n\n궤도 플랫폼은 중력부양선, 왕복선, 또는 수송 포드를 이용해 이동할 수 있습니다.\n\n조심하세요. 궤도 지역은 매우 위험합니다. 정착민들이 진공 방호복을 착용했는지 확인하세요. 귀환 계획을 세우세요. 오랜 시간 궤도에서 생활하는 것은 매우 어렵습니다.</li>
+    <li>questDescription->궤도 메카노이드 플랫폼에서 발생하는 중력 코어 에너지 반응을 감지했습니다. 탐색 결과, 강력한 방어가 예상됩니다.\n\n궤도 플랫폼은 중력부양선, 왕복선, 또는 수송 포드를 이용해 이동할 수 있습니다.\n\n조심하세요. 궤도 지역은 매우 위험합니다. 정착민들이 진공 방호복을 착용했는지 확인하세요. 귀환 계획을 세우세요. 오랜 시간 궤도에서 생활하는 것은 매우 어렵습니다.</li>
   </Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mechanoid platform</li>
@@ -148,7 +148,7 @@
     <li>questDescription->You've discovered a mechanoid grav engine! You can use this to build a gravship to quickly move around the planet.\n\nThe engine includes tech that passively scans for nearby gravship technology. If you obtain this gravship tech, you can upgrade your gravship over time.</li>
   -->
   <GravEngine.questDescriptionRules.rulesStrings>
-    <li>questDescription->메카노이드 중력구동기를 발견했습니다! 중력부양선을 건설해 행성 곳곳으로 빠르게 이동할 수 있습니다.\n\n중력구동기에는 인근의 중력기술을 자동으로 탐지하는 기술이 내장되어 있습니다. 탐지한 중력기술을 확보하면 점차 중력부양선을 업그레이드할 수 있습니다.</li>
+    <li>questDescription->메카노이드 중력구동기를 발견했습니다! 중력구동기 주위로 중력부양선을 건설해 행성 곳곳으로 빠르게 이동할 수 있습니다.\n\n중력구동기에는 가까운 중력기술을 자동으로 탐지하는 기술이 내장되어 있습니다. 탐지한 중력기술을 확보하면 점차 중력부양선을 업그레이드할 수 있습니다.</li>
   </GravEngine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the gravship</li>

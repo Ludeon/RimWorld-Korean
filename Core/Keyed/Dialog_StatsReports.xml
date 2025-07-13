@@ -37,7 +37,7 @@
   <!-- EN: {0} max -->
   <HealthFactorMaxImpact>최대 {0}</HealthFactorMaxImpact>
   <!-- EN: if below {0} -->
-  <HealthFactorAllowedDefect>{0} 이하일 경우</HealthFactorAllowedDefect>
+  <HealthFactorAllowedDefect>{0} 미만일 경우</HealthFactorAllowedDefect>
   <!-- EN: Post-process curve -->
   <StatsReport_PostProcessed>후처리 커브</StatsReport_PostProcessed>
   <!-- EN: The chances to hit at increasing distances are -->
@@ -431,7 +431,7 @@
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
   <Stat_Thing_Drug_ToleranceFallPerDay_Desc>화학물질에 대한 내성이 하루에 얼마나 떨어지는지 나타냅니다.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>이 약물에 중독되는 데 필요한 최소 내성입니다.\n\n사용자가 이 내성보다 낮다면 약물 복용으로 말미암은 중독은 없습니다.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>이 약물에 중독될 수 있는 최소 내성입니다.\n\n사용자의 내성이 이보다 낮을 경우, 약물을 복용해도 중독으로 이어지지 않습니다.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
   <Stat_Thing_Drug_SafeDoseInterval_Desc>성인은 약물을 이보다 자주 복용해야 중독됩니다.\n\n이 값은 약물의 중독성 최소 내성, 복용당 내성량, 내성 하락률로부터 계산됩니다. 일부 약물에는 복용 적절 간격이 없으며, 매 복용마다 중독의 위험이 있습니다.\n\n복용자의 신체 크기에 따라 복용 적절 간격이 다를 수 있습니다.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->

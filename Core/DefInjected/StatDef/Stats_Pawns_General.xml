@@ -22,12 +22,12 @@
   <!-- EN: max comfortable temperature -->
   <ComfyTemperatureMax.label>최대 적정 온도</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>이 온도보다 덥다면 불쾌해집니다. 더 뜨거워지면 열사병으로 죽을 수 있습니다.</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>이 온도보다 높으면 불쾌함을 느낍니다.\n\n온도가 적정 범위를 크게 벗어나면 열사병에 걸리고, 결국 사망할 수 있습니다.</ComfyTemperatureMax.description>
   
   <!-- EN: min comfortable temperature -->
   <ComfyTemperatureMin.label>최소 적정 온도</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>이 온도보다 춥다면 불쾌해집니다. 더 차가워지면 저체온증으로 죽을 수 있습니다.</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>이 온도보다 낮으면 불쾌함을 느낍니다.\n\n온도가 적정 범위를 크게 벗어나면 동상과 저체온증에 걸리고, 결국 사망할 수 있습니다.</ComfyTemperatureMin.description>
   
   <!-- EN: crawl speed -->
   <CrawlSpeed.label>기어가는 속도</CrawlSpeed.label>
@@ -44,7 +44,7 @@
   <!-- EN: EMP resistance -->
   <EMPResistance.label>EMP 저항력</EMPResistance.label>
   <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
-  <EMPResistance.description>이 메카노이드는 전자기 펄스 피해를 완화하는 특수 차폐 처리가 되어있고 충격 분산 필라멘트가 설치돼 있습니다. EMP로 말미암은 기절 시간이 이 수치만큼 감소합니다.</EMPResistance.description>
+  <EMPResistance.description>이 메카노이드는 특수 보호막과 충격 분산 필라멘트를 통해 전자기 피해 효과를 이 수치만큼 감소시킵니다. 전자기 펄스로 인한 기절 지속시간이 줄어듭니다.</EMPResistance.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>오물 생산량</FilthRate.label>
@@ -52,7 +52,7 @@
   <FilthRate.description>이 생물이 얼마나 많은 오물을 생성하는지 표시합니다.\n\n오물이 문제가 되지 않는 야외 또는 멍석에 두는 것이 좋습니다.</FilthRate.description>
   
   <!-- EN: flight cooldown -->
-  <FlightCooldown.label>비행 재사용 시간</FlightCooldown.label>
+  <FlightCooldown.label>비행 재사용 대기시간</FlightCooldown.label>
   <!-- EN: The rest time needed before this creature can fly again. -->
   <FlightCooldown.description>이 생물체가 다시 날 수 있기까지 필요한 휴식 시간입니다.</FlightCooldown.description>
   <!-- EN: {0}s -->
