@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: drop pod -->
-  <ActiveDropPodAncient.label>TODO</ActiveDropPodAncient.label>
+  <ActiveDropPodAncient.label>낙하기</ActiveDropPodAncient.label>
   
   <!-- EN: ancient blast door -->
   <AncientBlastDoor.label>고대 방폭문</AncientBlastDoor.label>
@@ -18,7 +18,7 @@
   <!-- EN: ancient explosives crate -->
   <AncientExplosivesCrate.label>고대 폭발물 상자</AncientExplosivesCrate.label>
   <!-- EN: A container of ancient mining charges. It will explode if damaged. -->
-  <AncientExplosivesCrate.description>고대의 채광용 폭약이 보관된 용기입니다. 손상되면 폭발합니다.\n\n폭발력이 강해 벽을 관통할 수 있습니다.</AncientExplosivesCrate.description>
+  <AncientExplosivesCrate.description>고대의 채광용 폭약이 보관된 용기입니다. 손상되면 폭발합니다.</AncientExplosivesCrate.description>
   
   <!-- EN: fortified wall -->
   <AncientFortifiedWall.label>강화벽</AncientFortifiedWall.label>
@@ -70,7 +70,7 @@
   <!-- EN: ancient mining charge -->
   <AncientMiningCharge.label>고대 채광 폭약</AncientMiningCharge.label>
   <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate. -->
-  <AncientMiningCharge.description>암석을 빠르게 폭파하는 데 사용되는 폭발 장치입니다. 정제된 화학연료로 제작되었으며, 오래되었지만 여전히 폭발 가능한 상태입니다.\n\n폭발력이 강해 벽을 관통할 수 있습니다.</AncientMiningCharge.description>
+  <AncientMiningCharge.description>암석을 빠르게 폭파하는 데 사용되는 폭발 장치입니다. 정제된 화학연료로 제작되었으며, 오래되었지만 여전히 폭발 가능한 상태입니다.</AncientMiningCharge.description>
   
   <!-- EN: ancient security terminal -->
   <AncientSecurityTerminal.label>고대 보안 단말기</AncientSecurityTerminal.label>
@@ -237,10 +237,10 @@
   <PassengerShuttle.comps.CompRefuelable.fuelLabel>화학연료</PassengerShuttle.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: surveying scanner -->
-  <SurveyScanner.label>측량 탐지기</SurveyScanner.label>
+  <SurveyScanner.label>측량기</SurveyScanner.label>
   <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
   <SurveyScanner.description>지역 내 다양한 지형과 특징을 탐지하고 지도로 작성할 수 있는 광대역 센서 장치입니다.</SurveyScanner.description>
   <!-- EN: Scanning local area: {DURATION} -->
-  <SurveyScanner.comps.CompCountdown.label>지역 탐지 중: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+  <SurveyScanner.comps.CompCountdown.label>지역 측량 중: {DURATION}</SurveyScanner.comps.CompCountdown.label>
   
 </LanguageData>

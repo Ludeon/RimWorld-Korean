@@ -137,15 +137,15 @@
   
   <!-- Survey Scanner -->
   <!-- EN: Surveying scanner -->
-  <LetterLabelSurveyScannerArrived>측량 탐지기</LetterLabelSurveyScannerArrived>
+  <LetterLabelSurveyScannerArrived>측량기</LetterLabelSurveyScannerArrived>
   <!-- EN: Protect the scanner until it's finished surveying the area. This will take {DURATION}. -->
-  <LetterSurveyScannerArrived>탐지기가 지역 조사를 완료할 때까지 보호하세요. {DURATION}(이)가 소요됩니다.</LetterSurveyScannerArrived>
+  <LetterSurveyScannerArrived>측량기가 지역 조사를 완료할 때까지 보호하세요. {DURATION}(이)가 소요됩니다.</LetterSurveyScannerArrived>
   
   <!-- Psilocaps -->
   <!-- EN: Due to ingesting psilocaps, [PAWN_nameIndef] has experienced an inspiration! -->
-  <LetterInspirationBeginPsilocap>TODO</LetterInspirationBeginPsilocap> <!-- text_todo -->
+  <LetterInspirationBeginPsilocap>{PAWN_nameIndef}(은)는 환각버섯을 섭취한 후 영감을 받았습니다!</LetterInspirationBeginPsilocap> <!-- text_todo -->
   <!-- EN: This happened due to ingesting psilocaps. -->
-  <MentalBreakReason_Psilocap>TODO</MentalBreakReason_Psilocap> <!-- text_todo -->
+  <MentalBreakReason_Psilocap>이는 환각버섯 섭취 때문에 발생했습니다.</MentalBreakReason_Psilocap> <!-- text_todo -->
 
   <!-- EN: Insect lair -->
   <EnteredMegahiveLabel>곤충 둥지</EnteredMegahiveLabel>

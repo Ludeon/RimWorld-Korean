@@ -10,12 +10,12 @@
     <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
   -->
   <SurveySite.questContentRules.rulesStrings>
-    <li>attackReason->측량 탐지기가 자신들의 비밀 의식을 염탐하기 위한 장치라고 주장합니다</li>
+    <li>attackReason->측량기가 자신들의 비밀 의식을 염탐하기 위한 장치라고 주장합니다</li>
     <li>attackReason->측량 장소가 영토를 침범했다고 말합니다</li>
-    <li>attackReason->복수를 위해 탐지기를 파괴하라는 명령을 받았다고 말합니다</li>
-    <li>attackReason->측량 탐지기가 숨겨진 은닉처 중 하나에 너무 가깝다고 주장합니다</li>
+    <li>attackReason->복수를 위해 측량기를 파괴하라는 명령을 받았다고 말합니다</li>
+    <li>attackReason->측량기가 숨겨진 은닉처 중 하나에 너무 가깝다고 주장합니다</li>
     <li>attackReason->부품을 얻기 위해 측량 장비를 해체하고 싶어 합니다</li>
-    <li>attackReason->측량 탐지기는 사실 위장한 비밀 무기고, 활성화 후 정신적 교란이 발생했다고 주장합니다</li>
+    <li>attackReason->측량기는 사실 위장한 비밀 무기고, 활성화 후 정신적 교란이 발생했다고 주장합니다</li>
   </SurveySite.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
@@ -23,9 +23,9 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
   -->
   <SurveySite.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->익명의 인공지능이 외곽 지역의 측량 장비를 방어해 달라고 요청했습니다.\n\n측량 작업은 10일에서 15일이 소요되며 멀리 떨어진 목적지까지 이동해야 합니다.\n\n인공지능은 도움의 대가로 귀중한 중력기술 장치를 제안했습니다.</li>
+    <li>questDescription(askerIsNull==true)->익명의 인공지능이 외딴 지역의 측량 장비를 방어해 달라고 요청했습니다.\n\n측량 작업은 10일에서 15일이 소요되며 멀리 떨어진 목적지까지 이동해야 합니다.\n\n인공지능은 도움의 대가로 귀중한 중력기술 장치를 제안했습니다.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 중력부양선에 대한 소문을 들었습니다. [asker_nameDef](은)는 먼 지역을 측량하고 싶어 하며, 당신이 측량 장비를 지켜주길 요청합니다.\n\n측량 작업은 10일에서 15일이 소요되며 멀리 떨어진 목적지까지 이동해야 합니다.\n\n[asker_nameDef](은)는 도움의 대가로 귀중한 중력기술 장치를 제안했습니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction]인 [asker_nameFull](이)가 당신이 [asker_possessive] 측량 작업을 지켜주길 요청합니다. 그렇게 하면 [asker_pronoun](은)는 훌륭한 보상을 약속합니다.\n\n측량 작업은 10일에서 15일이 소요되며 멀리 떨어진 목적지까지 이동해야 합니다.\n\n[asker_nameDef](은)는 도움의 대가로 귀중한 중력기술 장치를 제안했습니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction]인 [asker_nameFull](이)가 자신의 측량기를 보호해주길 요청하며 훌륭한 보상을 약속했습니다.\n\n측량 작업은 10일에서 15일이 소요되며 멀리 떨어진 목적지까지 이동해야 합니다.\n\n[asker_nameDef](은)는 도움의 대가로 귀중한 중력기술 장치를 제안했습니다.</li>
   </SurveySite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Surveying [site]</li>
@@ -43,7 +43,7 @@
   <SurveySite.questNameRules.rulesStrings>
     <li>questName->측량[site]</li>
     <li>questName->[remote] 측량</li>
-    <li>questName(p=0.5)->탐지기 방어</li>
+    <li>questName(p=0.5)->측량기 방어</li>
     <li>questName(p=0.5)->원거리 방호</li>
     <li>site->지</li>
     <li>site->기지</li>
@@ -51,7 +51,7 @@
     <li>site-> 작전</li>
     <li>remote->원거리</li>
     <li>remote->광역</li>
-    <li>remote->외곽</li>
+    <li>remote->먼 곳에서의</li>
   </SurveySite.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <SurveySite.LetterLabelQuestExpired.slateRef>임무 만료: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
