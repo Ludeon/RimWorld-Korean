@@ -45,7 +45,7 @@
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>방랑자 합류: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>{PAWN_nameDef}(이)라는 이름의 {PAWN_title}(이)가 도착하여 정착지에 합류하고자 합니다.\n\n[PAWN_pronoun]는 정착지에 이바지하고자 하며, 갈 곳이 없다고 주장하고 있으므로 스스로 떠나지는 않을 것입니다. {PAWN_objective} 돌려보낼 수는 있지만, 도움이 필요한 사람을 거절해서 정착민들이 불편해할 것입니다.</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_nameDef}(이)라는 이름의 {PAWN_title}(이)가 도착하여 정착지에 합류하고자 합니다.\n\n[PAWN_pronoun]는 정착지에 이바지하고자 하며, 갈 곳이 없다고 주장하고 있으므로 스스로 떠나지는 않을 것입니다. {PAWN_objective} 돌려보낼 수는 있지만, 도움이 필요한 사람의 요청을 거절해서 정착민들이 불편해할 것입니다.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>화물 낙하기</LetterLabelCargoPodCrash>
@@ -57,7 +57,7 @@
   <!-- EN: A fault in {0} has caused a short circuit. -->
   <ShortCircuit>{0} 결함으로 누전이 발생했습니다.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>{0} 결함으로 인한 누전이 화재를 유발합니다.</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>{0} 결함으로 생긴 누전이 화재를 유발합니다.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
   <ShortCircuitDischargedEnergy>연결된 모든 축전지의 전력 {0}W가 방전되며 폭발이 발생했습니다.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
@@ -199,7 +199,7 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>상단 요청</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>주변 정착지 {0}에서 특별 거래를 요청했으며 다음 물품을 구매하고 싶어합니다.\n\n{1} ({2})\n\n이에 대한 보답으로 다음 혜택을 받을 수 있습니다.\n\n{3} ({4})\n\n이 요청은 {5}후에 만료됩니다.\n\n거래를 하고 싶으면 요청한 물품과 함께 상단을 구성해서 목적지로 보내세요. 예상 소요시간은 {6} 입니다. 세계지도에서 {0}(을)를 선택해서 요청을 다시 확인할 수 있습니다.</LetterCaravanRequest>
+  <LetterCaravanRequest>주변 정착지 {0}에서 특별 거래를 요청했으며 다음 물품을 구매하고 싶어합니다.\n\n{1} ({2})\n\n이에 대한 보답으로 다음 혜택을 받을 수 있습니다.\n\n{3} ({4})\n\n이 요청은 {5}후에 만료됩니다.\n\n거래를 하고 싶으면 요청한 물품과 함께 상단을 구성해서 목적지로 보내세요. 예상 소요시간은 {6} 입니다. 세계 지도에서 {0}(을)를 선택해서 요청을 다시 확인할 수 있습니다.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
   <CaravanRequestInfo>요청 중: {0} ({2}) ({1} 남음)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->

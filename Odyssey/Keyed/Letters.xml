@@ -137,9 +137,15 @@
   
   <!-- Survey Scanner -->
   <!-- EN: Surveying scanner -->
-  <LetterLabelSurveyScannerArrived>측량 스캐너</LetterLabelSurveyScannerArrived>
+  <LetterLabelSurveyScannerArrived>측량 탐지기</LetterLabelSurveyScannerArrived>
   <!-- EN: Protect the scanner until it's finished surveying the area. This will take {DURATION}. -->
-  <LetterSurveyScannerArrived>스캐너가 지역 조사를 완료할 때까지 보호하세요. {DURATION}(이)가 소요됩니다.</LetterSurveyScannerArrived>
+  <LetterSurveyScannerArrived>탐지기가 지역 조사를 완료할 때까지 보호하세요. {DURATION}(이)가 소요됩니다.</LetterSurveyScannerArrived>
+  
+  <!-- Psilocaps -->
+  <!-- EN: Due to ingesting psilocaps, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginPsilocap>TODO</LetterInspirationBeginPsilocap> <!-- text_todo -->
+  <!-- EN: This happened due to ingesting psilocaps. -->
+  <MentalBreakReason_Psilocap>TODO</MentalBreakReason_Psilocap> <!-- text_todo -->
 
   <!-- EN: Insect lair -->
   <EnteredMegahiveLabel>곤충 둥지</EnteredMegahiveLabel>

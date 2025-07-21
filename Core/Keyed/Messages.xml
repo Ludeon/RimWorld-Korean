@@ -186,7 +186,7 @@
   <MessageNoLongerDowned>{1_label}(이)가 다시 걸을 수 있습니다.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_labelShort}(이)가 엄청난 피로로 인해 쓰러졌습니다.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_labelShort}(이)가 엄청난 피로로 쓰러졌습니다.</MessageInvoluntarySleep>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>이 수술은 {0} 세력을 분노하게 할 것입니다.</MessageMedicalOperationWillAngerFaction>
@@ -196,16 +196,16 @@
   <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0}(이)가 굶주림으로 유산했습니다.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0}(이)가 건강의 문제로 인해 유산했습니다.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>{0}(이)가 건강의 문제로 유산했습니다.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0}(이)가 출산했습니다.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsylinkNoSensitivity>{PAWN_labelShort}(은)는 정신 감응력이 없어서 정신력 증폭기를 사용할 수 없습니다.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{2}(으)로 인해 {PAWN_labelShort}(이)가 {1} 이식물 단계를 잃었습니다.</MessageLostImplantLevelFromHediff>
+  <MessageLostImplantLevelFromHediff>{2} 때문에 {PAWN_labelShort}(이)가 {1} 이식물 단계를 잃었습니다.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
-  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort}(이)가 {2}(으)로 인해 {1}의 뇌손상을 입었습니다.</MessageReceivedBrainDamageFromHediff>
+  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort}(이)가 {2} 때문에 {1}의 뇌손상을 입었습니다.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}(이)가 정상적인 신경열 한도를 초과했습니다.</MessageWentOverPsychicEntropyLimit>
 
@@ -266,7 +266,7 @@
   <MessageShipChunkDrop>우주선의 일부가 추락해 근처에 떨어졌습니다. 해체하여 자원을 얻을 수 있습니다.</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>다음 이유로 인해 일부 물품을 거래할 수 없습니다: </MessageCannotSellItemsReason>
+  <MessageCannotSellItemsReason>다음 이유로 일부 물품을 거래할 수 없습니다: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{WORKER_labelShort}(이)가 {0} 건설 중 실수했습니다. 일부 자원이 낭비되었습니다.</MessageConstructionFailed>
@@ -287,7 +287,7 @@
   <MessageRottedAwayInStorage>{1_label}(이)가 완전히 상해서 없어졌습니다.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort}(이)가 {FOOD_labelShort}(으)로 인해 식중독에 걸렸습니다. (원인: {2})</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{PAWN_labelShort}(이)가 {FOOD_labelShort} 때문에 식중독에 걸렸습니다. (원인: {2})</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0}(이)가 상단에서 제외되었습니다.</MessagePawnLostWhileFormingCaravan>
@@ -307,7 +307,7 @@
   <MessageMaxPlanetCoveragePerformanceWarning>경고: 행성 전체를 생성하면 상당한 시간이 걸릴 수 있습니다.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>{0}(이)가 추위로 인해 죽었습니다.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfCold>{0}(이)가 추위로 죽었습니다.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
   <MessagePlantDiedOfRot_LeftUnharvested>{0}(이)가 긴 시간 방치되어 죽었습니다.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
@@ -317,7 +317,7 @@
   <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0}(이)가 독에 오염되어 죽었습니다.</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
-  <MessagePlantDiedOfBlight>{1_label}(이)가 병충해로 인해 죽었습니다.</MessagePlantDiedOfBlight>
+  <MessagePlantDiedOfBlight>{1_label}(이)가 병충해로 죽었습니다.</MessagePlantDiedOfBlight>
 
   <!-- EN: {1_labelShort} is being burned by superheated air! -->
   <MessagePawnBeingBurned>엄청난 열기가 {1_labelShort}(을)를 산채로 불태우고 있습니다!</MessagePawnBeingBurned>

@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: drop pod -->
+  <ActiveDropPodAncient.label>TODO</ActiveDropPodAncient.label>
+  
   <!-- EN: ancient blast door -->
   <AncientBlastDoor.label>고대 방폭문</AncientBlastDoor.label>
   <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
@@ -14,7 +17,7 @@
   
   <!-- EN: ancient explosives crate -->
   <AncientExplosivesCrate.label>고대 폭발물 상자</AncientExplosivesCrate.label>
-  <!-- EN: A container of ancient mining charges. It will explode if damaged.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <!-- EN: A container of ancient mining charges. It will explode if damaged. -->
   <AncientExplosivesCrate.description>고대의 채광용 폭약이 보관된 용기입니다. 손상되면 폭발합니다.\n\n폭발력이 강해 벽을 관통할 수 있습니다.</AncientExplosivesCrate.description>
   
   <!-- EN: fortified wall -->
@@ -66,7 +69,7 @@
   
   <!-- EN: ancient mining charge -->
   <AncientMiningCharge.label>고대 채광 폭약</AncientMiningCharge.label>
-  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate. -->
   <AncientMiningCharge.description>암석을 빠르게 폭파하는 데 사용되는 폭발 장치입니다. 정제된 화학연료로 제작되었으며, 오래되었지만 여전히 폭발 가능한 상태입니다.\n\n폭발력이 강해 벽을 관통할 수 있습니다.</AncientMiningCharge.description>
   
   <!-- EN: ancient security terminal -->
@@ -91,7 +94,7 @@
   <!-- EN: ancient terraformer -->
   <AncientTerraformer.label>고대 테라포머</AncientTerraformer.label>
   <!-- EN: An ancient terraforming device powered by a gravcore. It has begun to malfunction, causing temperatures to plummet.\n\nDestroy the terraformer to obtain a gravcore. -->
-  <AncientTerraformer.description>중력 코어로 구동되는 고대 테라포밍 장치입니다. 오작동으로 인해 기온이 급강하했습니다.\n\n테라포머를 파괴하여 중력 코어를 획득하세요.</AncientTerraformer.description>
+  <AncientTerraformer.description>중력 코어로 구동되는 고대 테라포밍 장치입니다. 오작동으로 기온이 급강하했습니다.\n\n테라포머를 파괴하여 중력 코어를 획득하세요.</AncientTerraformer.description>
   <!-- EN: Contains: Gravcore -->
   <AncientTerraformer.comps.CompInspectString.inspectString>내용물: 중력 코어</AncientTerraformer.comps.CompInspectString.inspectString>
   <!-- EN: Ancient terraformer -->
@@ -234,10 +237,10 @@
   <PassengerShuttle.comps.CompRefuelable.fuelLabel>화학연료</PassengerShuttle.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: surveying scanner -->
-  <SurveyScanner.label>측량 스캐너</SurveyScanner.label>
+  <SurveyScanner.label>측량 탐지기</SurveyScanner.label>
   <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
   <SurveyScanner.description>지역 내 다양한 지형과 특징을 탐지하고 지도로 작성할 수 있는 광대역 센서 장치입니다.</SurveyScanner.description>
   <!-- EN: Scanning local area: {DURATION} -->
-  <SurveyScanner.comps.CompCountdown.label>지역 스캔 중: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+  <SurveyScanner.comps.CompCountdown.label>지역 탐지 중: {DURATION}</SurveyScanner.comps.CompCountdown.label>
   
 </LanguageData>

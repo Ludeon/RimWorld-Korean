@@ -46,7 +46,7 @@
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
-  <RecoveredFromErrorsDialogTitle>호환되지 않거나 손상된 모드로 인한 오류에서 복구됨</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsDialogTitle>호환되지 않거나 손상된 모드의 오류에서 복구됨</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
   <RecoveredFromErrorsText>활성화된 모드 일부에서 오류가 발생한 것 같습니다.\n\n서로 호환되지 않았거나, 다른 버전의 림월드를 위해 개발됐거나, 손상됐을 수 있습니다.\n\n모든 모드를 비활성화했습니다. 모드 설정에서 다시 활성화할 수 있습니다.</RecoveredFromErrorsText>
   
@@ -247,6 +247,8 @@
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
   <SelectedCharactersMustInclude>반드시 {SUMMARY}(을)를 포함해야 함</SelectedCharactersMustInclude>
+  <!-- EN: All colonists must be {0} -->
+  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>모든 정착민이 {0}(이)어야 합니다.</SelectedCharactersMustBeOfAllowedDevelopmentalStages> <!-- text_todo -->
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
@@ -303,7 +305,7 @@
   <Unlimited>제한 없음</Unlimited>
   
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
-  <RecipeCannotHaveTargetCount>(이 제조법은 여러 혹은 예측 불가능한 결과로 인해 목표 수량을 지정할 수 없습니다.)</RecipeCannotHaveTargetCount>
+  <RecipeCannotHaveTargetCount>(이 제조법은 여러 혹은 예측 불가능한 결과 때문에 목표 수량을 지정할 수 없습니다.)</RecipeCannotHaveTargetCount>
   <!-- EN: Work amount -->
   <WorkAmount>작업량</WorkAmount>
   <!-- EN: Minimum skills: -->
@@ -1419,14 +1421,14 @@
   <ColorTemperatureTooltip>색온도로 조명의 색을 선택합니다. 참고: 조명의 색만 바뀌고 발산하는 열은 바뀌지 않습니다.</ColorTemperatureTooltip>
 
   <!-- EN: {0_labelShort} is psychically deaf. -->
-  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort}(은)는 정신적으로 무감각합니다.</CannotShootPawnIsPsychicallyDeaf>
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort}(은)는 정신적으로 무감합니다.</CannotShootPawnIsPsychicallyDeaf>
 
   <!-- EN: Search the current map. -->
   <SearchTheMap>현재 지역을 검색합니다.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>현재 지역의 물품, 건물, 사람, 동물, 식물 등을 검색합니다.</SearchTheMapDesc>
   <!-- EN: Search the world -->
-  <SearchTheWorld>셰계 검색</SearchTheWorld>
+  <SearchTheWorld>세계 검색</SearchTheWorld>
   <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
   <SearchTheWorldDesc>세계의 랜드마크, 임무, 정착지, 특징을 검색합니다.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->

@@ -81,7 +81,7 @@
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
   <LetterBirthdayBiological>{0_nameFull}(이)가 생물학적으로 {1}살이 됐습니다.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
-  <BirthdayBiologicalAgeInjuries>불행하게도 {0_nameFull}(은)는 노화로 인해 다음 질병을 앓게 됐습니다</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>불행하게도 {0_nameFull}(은)는 노화 때문에 다음 질병을 앓게 됐습니다</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>질병</LetterLabelNewDisease>
@@ -410,7 +410,7 @@
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>상단 전투 승리</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>상단이 전투에서 승리했습니다.\n\n세계지도에서 해당 지역을 선택한 뒤 "상단 재구성"을 할 수 있습니다.\n\n상단 재구성 화면에서 즉시 물품을 수집할 수 있으므로 직접 수집할 필요는 없습니다.\n\n{0} 후부터 적이 추가 공격을 시작합니다. 이 공격은 상단을 재구성해서 지역을 떠나기 전까지 지속됩니다.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>상단이 전투에서 승리했습니다.\n\n세계 지도에서 해당 지역을 선택한 뒤 "상단 재구성"을 할 수 있습니다.\n\n상단 재구성 화면에서 즉시 물품을 수집할 수 있으므로 직접 수집할 필요는 없습니다.\n\n{0} 후부터 적이 추가 공격을 시작합니다. 이 공격은 상단을 재구성해서 지역을 떠나기 전까지 지속됩니다.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
@@ -418,7 +418,7 @@
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>{PAWN_nameDef}(을)를 구조했습니다. {PAWN_pronoun}가 세력에 합류했습니다.</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>\n\n세계지도에서 이 지역을 선택하고 "상단 재구성" 명령을 내리면 {PAWN_nameDef}(와)과 함께 갈 수 있습니다.</LetterRescueQuestFinishedCaravanExtra>
+  <LetterRescueQuestFinishedCaravanExtra>\n\n세계 지도에서 이 지역을 선택하고 "상단 재구성" 명령을 내리면 {PAWN_nameDef}(와)과 함께 갈 수 있습니다.</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->

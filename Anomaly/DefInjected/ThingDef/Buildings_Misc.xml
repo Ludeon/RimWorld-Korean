@@ -228,7 +228,7 @@
   <!-- EN: IED deadlife trap -->
   <TrapIED_Deadlife.label>모조생명 지뢰</TrapIED_Deadlife.label>
   <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
-  <TrapIED_Deadlife.description>접촉 또는 탄환으로 인한 충격 시 폭발하는 방아쇠에 연결된 모조생명탄 한쌍입니다. 주변 지형에 숨겨야 하므로 다른 함정 옆에 배치할 수 없습니다. 광란에 빠지지 않은 동물들은 함정을 알아차리고 피해다닙니다.\n\n휘청이는 자로 일으킬 시체가 지뢰 근처에 존재해야 합니다.</TrapIED_Deadlife.description>
+  <TrapIED_Deadlife.description>접촉 또는 탄환으로 충격 시 폭발하는 방아쇠에 연결된 모조생명탄 한쌍입니다. 주변 지형에 숨겨야 하므로 다른 함정 옆에 배치할 수 없습니다. 광란에 빠지지 않은 동물들은 함정을 알아차리고 피해다닙니다.\n\n휘청이는 자로 일으킬 시체가 지뢰 근처에 존재해야 합니다.</TrapIED_Deadlife.description>
   
   <!-- EN: tactical turret -->
   <Turret_TacticalTurret.label>전술 포탑</Turret_TacticalTurret.label>
@@ -237,6 +237,6 @@
   <!-- EN: Battery power -->
   <Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>동력원</Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>
   <!-- EN: This turret has a limited battery life. Once it runs out, it will stop working entirely. -->
-  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>이 포탑의 동력원 수명은 제한되어 있습니다. 수명이 다 되면 완전히 작동을 멈춥니다.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
+  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>이 포탑의 동력원은 제한되어 있습니다. 모두 소모되면 완전히 작동을 멈춥니다.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
   
 </LanguageData>
