@@ -98,8 +98,8 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun](으)로 인해 [SUBJECT_definite](이)가 [die].</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty](으)로 인해 [SUBJECT_definite](이)가 [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun](으)로 [SUBJECT_definite](이)가 [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty](으)로 [SUBJECT_definite](이)가 [die].</li>
     <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNoun] 때문에 [flavorsuffix] [died].</li>
     <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNounPretty] 때문에 [flavorsuffix] [died].</li>
     <li>r_logentry->[SUBJECT_definite](이)가 [died].</li>
@@ -137,10 +137,10 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun](으)로 인해 [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty](으)로 인해 [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun](으)로 인해 [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty](으)로 인해 [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun](으)로 [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty](으)로 [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun](으)로 [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty](으)로 [collapsemeta].</li>
     <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun] [duetoa] [collapsedmeta].</li>
     <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty] [duetoa] [collapsedmeta].</li>
     <li>r_logentry(p=0.1)->[SUBJECT_definite][collapsedmeta].</li>
@@ -158,7 +158,7 @@
     <li>collapsed(SUBJECT_flesh==Mechanoid)->동력을 잃음</li>
     <li>helplessly->속수무책으로</li>
     <li>helplessly(SUBJECT_flesh!=Mechanoid)->의식을 잃고</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->기운없이</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->기운 없이</li>
     <li>helplessly(SUBJECT_flesh!=Mechanoid)->힘없이</li>
     <li>helplessly(SUBJECT_flesh==Mechanoid)->통제에서 벗어나</li>
     <li>collapsemeta->[collapse]</li>
