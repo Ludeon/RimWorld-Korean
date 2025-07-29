@@ -860,9 +860,9 @@
     <li>maybeThe-></li>
     <li>maybeThe-></li>
     <li>map->[mapNoun]</li>
-    <li>map(p=2)->[place][mapNoun]</li>
-    <li>map->[mapSubject][mapNoun]</li>
-    <li>map->[mapSubjectAdj] [mapSubject][mapNoun]</li>
+    <li>map(p=2)->[place] [mapNoun]</li>
+    <li>map->[mapSubject] [mapNoun]</li>
+    <li>map->[mapSubjectAdj] [mapSubject] [mapNoun]</li>
     <li>mapNoun(p=5)->지도</li>
     <li>mapNoun(p=2)->지도책</li>
     <li>mapNoun->연감</li>

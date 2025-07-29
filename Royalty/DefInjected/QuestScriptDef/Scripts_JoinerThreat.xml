@@ -37,7 +37,7 @@
     <li>hidingFrom(gameCondition==WeatherController)->오작동 중인 기후 관제 위성</li>
     <li>condDesc(gameCondition==WeatherController)->[joiner_nameDef](이)가 합류한다면 [gameConditionDuration_duration] 후 위성이 재설정될 때까지 동안 날씨가 [forcedWeather_label](으)로 고정됩니다.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->얼마 전 무례를 범해 화가 난 인공 인격체</li>
-    <li>condDesc(gameCondition==PsychicDrone)->[joiner_nameDef](이)가 합류한다면 인공 인격체가 [gameConditionDuration_duration] 동안 [psychicDroneGender]에게 맞춰진 [psychicDroneLevel] 수준의 정신파동으로 [map_definite](을)를 강타해 모든 [psychicDroneGender]들의 기분이 나빠집니다.</li>
+    <li>condDesc(gameCondition==PsychicDrone)->[joiner_nameDef](이)가 합류한다면 인공 인격체가 [gameConditionDuration_duration] 동안 [psychicDroneGender]에게 맞춰진 [psychicDroneLevel] 수준의 정신 파동으로 [map_definite](을)를 강타해 모든 [psychicDroneGender]들의 기분이 나빠집니다.</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->얼마 전 깨워버린 적대적 인공 인격체</li>
     <li>condDesc(gameCondition==PsychicSuppression)->[joiner_nameDef](이)가 합류한다면 인공 인격체가 [gameConditionDuration_duration] 동안 정신력 억제장이 [map_definite](을)를 강타해 모든 [psychicSuppressorGender]들의 의식이 감소합니다.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]살의 아이</li>

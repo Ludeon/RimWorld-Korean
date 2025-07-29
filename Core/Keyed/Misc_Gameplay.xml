@@ -1003,7 +1003,7 @@
   <!-- EN: Expires in: {0} -->
   <ThoughtExpiresIn>{0} 후에 만료</ThoughtExpiresIn>
   <!-- EN: thought disabled by -->
-  <ThoughtNullifiedBy>비활성화된 생각</ThoughtNullifiedBy>
+  <ThoughtNullifiedBy>이 특성으로 생각이 비활성화됨</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
   <ThoughtStartsExpiringIn>{0} 후에 만료됨</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
@@ -2184,5 +2184,8 @@
   <CannotAcceptQuestFromLayer>이 임무를 {LAYER} {GERUND}에서 수락할 수 없습니다.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
   <CannotAcceptQuestNoMap>이 임무를 영구 정착지 없이 수락할 수 없습니다.</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>{1} {0}</GuildTradeShipName> <!-- text_todo -->
   
 </LanguageData>
