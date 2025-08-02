@@ -272,7 +272,7 @@
     <li>mapContents_sentence->[mapSubjectAdj] [mapSubject]의 좌표 여러 개가 기록되어 있습니다</li>
     <li>mapContents_sentence->주변 영토의 개략도와 안전한 피난처, 숨겨진 보급고를 나타내는 간단한 기호들이 그려져 있습니다</li>
     <li>mapContents_sentence->특별히 중요한 것은 없어 보이는 내용이 담겨 있습니다</li>
-    <li>mapContents_sentence->[Quantity_adjphrase] [mapSubject]를 [artstyle_adj] 화풍으로 묘사한 그림들이 있으며, 각각 아래에는 [AdjectiveAny] [Animal] 삽화가 그려져 있습니다</li>
+    <li>mapContents_sentence->[Quantity_adjphrase] [mapSubject](을)를 [artstyle_adj] 화풍으로 묘사한 그림들이 있으며, 각각의 [mapSubject] 아래에는 [AdjectiveAny] [Animal]의 삽화가 그려져 있습니다</li>
     <li>maybe_specialFact-></li>
     <li>maybe_specialFact->[specialFact]</li>
     <li>specialFact->지도의 표식들은 평소에는 보이지 않지만, 완전한 어둠에서는 창백한 은빛으로 빛나며 나타납니다.</li>
@@ -348,7 +348,7 @@
     <li>smell->벌레 젤리</li>
     <li>smell->향수</li>
     <li>smell->기름과 화약</li>
-    <li>smell->썩은 톡시포테이토</li>
+    <li>smell->썩은 독감자</li>
     <li>smell->아몬드</li>
     <li>smell->표백제</li>
     <li>smell->[Animal] 배설물</li>

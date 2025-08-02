@@ -43,10 +43,10 @@
   <Downed.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [wound_name_present] 모습</li>
     <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [WEAPON_label](으)로 [wound_name_present] 모습</li>
-    <li>tale_noun->[KILLER_nameDef]에 의해 [wound_name_past] [VICTIM_nameDef]의 모습</li>
+    <li>tale_noun->[KILLER_nameDef]에게 [wound_name_past] [VICTIM_nameDef]의 모습</li>
     <li>tale_noun->[VICTIM_nameDef](이)가 [WEAPON_label](으)로 [wound_name_past] 모습</li>
     <li>tale_noun->[VICTIM_nameDef](이)가 [wound_name_past] 모습</li>
-    <li>image->[VICTIM_nameFull](이)가 [KILLER_nameFull]에 의해 [wound_name_past] 모습</li>
+    <li>image->[VICTIM_nameFull](이)가 [KILLER_nameFull]에게 [wound_name_past] 모습</li>
     <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 [wound_name_present] 모습</li>
     <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 [wound_name_present] 모습</li>
     <li>image->[VICTIM_nameFull](이)가 [wound_name_past] 모습</li>
@@ -349,7 +349,7 @@
   </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
-  <KilledLongRange.label>원거리 무기에 의해 살해당함</KilledLongRange.label>
+  <KilledLongRange.label>원거리 무기로 살해당함</KilledLongRange.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance with a [WEAPON_label]</li>
@@ -464,7 +464,7 @@
   <KilledMajorThreat.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [wound_name_present]</li>
     <li>tale_noun->[KILLER_nameDef](이)가 [VICTIM_nameDef](을)를 [WEAPON_label](으)로 [wound_name_present]</li>
-    <li>tale_noun->[KILLER_nameDef]에 의해 [VICTIM_nameDef](이)가 [wound_name_past]</li>
+    <li>tale_noun->[KILLER_nameDef]에게 [VICTIM_nameDef](이)가 [wound_name_past]</li>
     <li>tale_noun->[KILLER_nameDef]의 [WEAPON_label]에 의해 [VICTIM_nameDef](이)가 [wound_name_past]</li>
     <li>image->[VICTIM_nameFull](이)가 [KILLER_nameFull]의 [with_weapon_optional] [wound_name_past]</li>
     <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 [wound_name_present]</li>
@@ -501,7 +501,7 @@
   </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
-  <KilledMelee.label>근접 무기에 의해 살해당함</KilledMelee.label>
+  <KilledMelee.label>근접 무기로 살해당함</KilledMelee.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in close combat</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]</li>
@@ -543,7 +543,7 @@
   <KilledMelee.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef](이)가 근접전에서 [VICTIM_nameDef](을)를 [wound_name_present]</li>
     <li>tale_noun->[KILLER_nameDef](이)가 근접전에서 [WEAPON_label](으)로 [VICTIM_nameDef](을)를 [wound_name_present]</li>
-    <li>tale_noun->[KILLER_nameDef]에 의해 [VICTIM_nameDef](이)가 [wound_name_past]</li>
+    <li>tale_noun->[KILLER_nameDef]에게 [VICTIM_nameDef](이)가 [wound_name_past]</li>
     <li>tale_noun->[VICTIM_nameDef](이)가 근접전에서 [KILLER_nameDef]의 [WEAPON_label]에 의해 [wound_name_past]</li>
     <li>image->[VICTIM_nameFull](이)가 [KILLER_nameFull]의 [with_weapon_optional] [wound_name_past]</li>
     <li>image->[KILLER_nameFull](이)가 [with_weapon_optional] [VICTIM_nameFull](을)를 [wound_name_present]</li>
@@ -580,7 +580,7 @@
   </KilledMelee.rulePack.rulesStrings>
   
   <!-- EN: killed with mortar -->
-  <KilledMortar.label>박격포에 의해 살해당함</KilledMortar.label>
+  <KilledMortar.label>박격포로 살해당함</KilledMortar.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a mortar</li>
     <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]'s artillery</li>

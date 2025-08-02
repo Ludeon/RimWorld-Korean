@@ -32,12 +32,12 @@
   <Burden.description>대상의 뇌 기능을 잠시 억제하여 느려지게 합니다.</Burden.description>
   
   <!-- EN: chaos skip -->
-  <ChaosSkip.label>혼돈의 도약</ChaosSkip.label>
+  <ChaosSkip.label>혼돈의 공간도약</ChaosSkip.label>
   <!-- EN: Teleport the target to a random position near where it started. Objects above a certain size cannot be teleported. -->
   <ChaosSkip.description>대상을 근처의 무작위 위치로 순간이동시킵니다. 일정 크기 이상의 물체는 지정할 수 없습니다.</ChaosSkip.description>
   
   <!-- EN: chunk skip -->
-  <Chunkskip.label>엄폐물 도약</Chunkskip.label>
+  <Chunkskip.label>엄폐물 소환</Chunkskip.label>
   <!-- EN: Skip the closest 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
   <Chunkskip.description>돌덩어리나 고철덩어리 5개를 목표지점 근처에 흩뿌립니다. 전투 중 엄폐물을 만들 때 유용합니다.</Chunkskip.description>
   
@@ -47,9 +47,9 @@
   <EntropyDump.description>쌓인 신경열을 다른 사람에게 떠넘겨 해소합니다. 부작용으로 대상은 약 하루 동안 부작용 없는 혼수 상태에 빠질 것입니다. 이 작업은 정신적 공명이 필요하기 때문에 의식이 있는 아군만을 대상으로 할 수 있습니다.</EntropyDump.description>
   
   <!-- EN: farskip -->
-  <Farskip.label>장거리 도약</Farskip.label>
+  <Farskip.label>장거리 공간도약</Farskip.label>
   <!-- EN: Skip the caster, along with anyone standing near them, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
-  <Farskip.description>시전자 본인과 근처의 동료들을 먼 지역의 아군 근처로 도약시킵니다. 행성 전체를 가로지를 수 있지만 아군이 있는 곳으로만 갈 수 있습니다. 동료들은 항상 시전자 근처 무작위 위치에 나타납니다.</Farskip.description>
+  <Farskip.description>시전자 본인과 근처의 동료들을 먼 지역의 아군 근처로 공간도약시킵니다. 행성 전체를 가로지를 수 있지만 아군이 있는 곳으로만 갈 수 있습니다. 동료들은 항상 시전자 근처 무작위 위치에 나타납니다.</Farskip.description>
   
   <!-- EN: flashstorm -->
   <Flashstorm.label>섬광폭풍</Flashstorm.label>
@@ -72,7 +72,7 @@
   <ManhunterPulse.description>근처 동물들에게 분노를 유발하여 인간을 사냥하게끔 합니다.</ManhunterPulse.description>
   
   <!-- EN: mass chaos skip -->
-  <MassChaosSkip.label>집단 혼돈의 도약</MassChaosSkip.label>
+  <MassChaosSkip.label>집단 혼돈의 공간도약</MassChaosSkip.label>
   <!-- EN: Skip everyone in an area to random positions nearby. Objects which are too large cannot be teleported. -->
   <MassChaosSkip.description>범위 내의 모두를 근처 무작위 위치로 순간이동시킵니다. 일정 크기 이상의 물체는 이동하지 않습니다.</MassChaosSkip.description>
   
@@ -89,7 +89,7 @@
   <Painblock.description>대상의 뇌의 통증 전달 기능을 잠시 차단합니다. 이를 통해 대상은 일반적으로 무력화될 정도로 심하게 다친 상태에서도 행동할 수 있게 됩니다.</Painblock.description>
   
   <!-- EN: skip -->
-  <Skip.label>도약</Skip.label>
+  <Skip.label>공간도약</Skip.label>
   <!-- EN: Teleport the target to a desired position not too far from its starting point. Objects which are too large cannot be teleported. -->
   <Skip.description>대상을 너무 멀지 않은 곳으로 순간이동시킵니다. 일정 크기 이상의 물체는 지정할 수 없습니다.</Skip.description>
   

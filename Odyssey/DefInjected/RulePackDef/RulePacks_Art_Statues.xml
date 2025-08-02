@@ -167,58 +167,58 @@
     <li>prop->human heart</li>
   -->
   <ArtDescription_Statue.rulePack.rulesStrings>
-    <li>r_statue_description->이 조각상(은)는 [SUBJECT_nameFull](이)가 [statueSubjectDesc] 모습을 [statueDepicts]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->[statueAdj] 조각상으로, [SUBJECT_nameFull](이)가 [statueSubjectDesc] 모습을 조각했습니다. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->[carvedAdverb] [carvedVerb]된 [SUBJECT_nameFull]의 조각상입니다. [statueSubjectDesc] 모습으로 표현되어 있습니다. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->[SUBJECT_nameFull](이)가 [statueSubjectDesc] 모습으로 묘사된 조각상입니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->이 조각상은 {replace: [statueSubjectDesc]; "고!"-"는"} 모습의 [SUBJECT_nameFull](을)를 [statueDepicts]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->[statueAdj] 조각상으로, [SUBJECT_nameFull](이)가 {replace: [statueSubjectDesc]; "고!"-"는"} 모양을 하고 있습니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->[carvedAdverb] [carvedVerb] [SUBJECT_nameFull] 조각상입니다. {replace: [statueSubjectDesc]; "고!"-"는"} 모습을 하고 있습니다. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->[SUBJECT_nameFull](이)가 {replace: [statueSubjectDesc]; "고!"-"는"} 모습으로 묘사된 조각상입니다. [statueFaceDesc] [style_group_statue]</li>
     <li>r_statue_description->[statueAdj] [SUBJECT_nameFull]의 조각상입니다. [statueFaceDesc] [style_group_statue]</li>
     <li>statueSubjectDesc->두 손으로 [prop](을)를 들고 똑바로 서 있는</li>
-    <li>statueSubjectDesc->우뚝 서서 고귀하게 먼 곳을 응시하는</li>
-    <li>statueSubjectDesc->주먹을 하늘을 향해 내뻗고 있는</li>
-    <li>statueSubjectDesc->위로 손을 뻗으며 보이지 않는 무언가를 잡으려 하는</li>
-    <li>statueSubjectDesc->옆으로 기울어져 곧 쓰러질 듯한[maybeInsult]</li>
-    <li>statueSubjectDesc->한 발만으로 서 있는[maybeInsult]</li>
-    <li>statueSubjectDesc->정중히 절을 하고 있는</li>
+    <li>statueSubjectDesc->고고하게 서서 먼 곳을 응시하는</li>
+    <li>statueSubjectDesc->하늘을 향해 주먹을 내지르는</li>
+    <li>statueSubjectDesc->보이지 않는 무언가를 잡으려 위로 손을 뻗은</li>
+    <li>statueSubjectDesc->옆으로 쓰러질 듯한[maybeInsult]</li>
+    <li>statueSubjectDesc->한 발로 서 있는[maybeInsult]</li>
+    <li>statueSubjectDesc->정중히 인사하는</li>
     <li>statueSubjectDesc->바람을 견디며 서 있는</li>
-    <li>statueSubjectDesc->무릎을 꿇고 기도하고 있는</li>
-    <li>statueSubjectDesc->기도하듯 손을 들어 올리고 있는</li>
-    <li>statueSubjectDesc->감사를 표하며 두 손을 모으고 있는</li>
-    <li>statueSubjectDesc->빠르게 달리고 있는</li>
-    <li>statueSubjectDesc->팔을 벌린 채 하늘을 바라보고 있는</li>
-    <li>statueSubjectDesc->양손을 허리에 얹고 있는</li>
+    <li>statueSubjectDesc->무릎을 꿇고 기도하는</li>
+    <li>statueSubjectDesc->기도하듯 손을 들어 올린</li>
+    <li>statueSubjectDesc->감사를 표하며 두 손을 모은</li>
+    <li>statueSubjectDesc->질주하는</li>
+    <li>statueSubjectDesc->팔을 벌린 채 하늘을 바라보는</li>
+    <li>statueSubjectDesc->양손을 허리에 얹은</li>
     <li>statueSubjectDesc->두 팔을 들어올려 승리의 포즈를 취하고 있는</li>
-    <li>statueSubjectDesc->한 손에 [prop](을)를 들고 있는[maybeOtherHand]</li>
-    <li>statueSubjectDesc->한 손으로 경례하고 있는[maybeOtherHand]</li>
-    <li>statueSubjectDesc->수평선을 가리키고 있는[maybeOtherHand]</li>
-    <li>statueSubjectDesc->환영하듯 한 손을 내밀고 있는[maybeOtherHand]</li>
-    <li>statueSubjectDesc->한 손으로 수평선을 가리키고 있는[maybeOtherHand]</li>
-    <li>statueSubjectDesc->유혹적으로 춤추고 있는</li>
+    <li>statueSubjectDesc->한 손에 [prop](을)를 들고 있고[maybeOtherHand]</li>
+    <li>statueSubjectDesc->한 손으로 경례하고 있고[maybeOtherHand]</li>
+    <li>statueSubjectDesc->한 손으로 수평선을 가리키고 있고[maybeOtherHand]</li>
+    <li>statueSubjectDesc->환영하듯 한 손을 내밀고 있고[maybeOtherHand]</li>
+    <li>statueSubjectDesc->한 손으로 수평선을 가리키고 있고[maybeOtherHand]</li>
+    <li>statueSubjectDesc->유혹적으로 춤추는</li>
     <li>statueSubjectDesc->매혹적으로 쉬고 있는</li>
-    <li>statueSubjectDesc->싸움을 준비하고 있는</li>
-    <li>statueSubjectDesc->공중에서 점프한 채 정지되어 있는</li>
+    <li>statueSubjectDesc->싸움을 준비하는</li>
+    <li>statueSubjectDesc->공중에 뛰어오른 채 정지된</li>
     <li>statueSubjectDesc->보이지 않는 물에 그물을 던지고 있는</li>
     <li>statueSubjectDesc->호화로운 식사를 하고 있는</li>
-    <li>statueSubjectDesc->사슬에서 벗어나려고 몸부림치고 있는</li>
+    <li>statueSubjectDesc->사슬에서 벗어나려고 몸부림치는</li>
     <li>statueSubjectDesc->조용히 속삭이고 있는</li>
-    <li>statueSubjectDesc->경이로 가득 찬 눈으로 별을 올려보고 있는</li>
-    <li>statueSubjectDesc->보이지 않는 창을 던지고 있는</li>
+    <li>statueSubjectDesc->경이로 가득 찬 눈으로 별을 올려보는</li>
+    <li>statueSubjectDesc->보이지 않는 창을 던지는</li>
     <li>statueSubjectDesc->반항적으로 종이를 찢고 있는</li>
-    <li>statueSubjectDesc->깊은 물을 헤치고 나아가고 있는</li>
+    <li>statueSubjectDesc->깊은 물을 헤치고 나아가는</li>
     <li>statueSubjectDesc->두 손으로 커다란 [prop](을)를 들고 있는</li>
     <li>statueSubjectDesc->치아가 없이 웃고 있는[maybeInsult]</li>
-    <li>statueSubjectDesc->햇빛을 찡그리며 바라보고 있는[maybeInsult]</li>
-    <li>statueSubjectDesc->꽃다발 냄새를 맡고 있는[maybeNoNose]</li>
-    <li>maybeOtherHand->. [otherHand]</li>
-    <li>maybeOtherHand-></li>
-    <li>otherHand->조각상의 다른 손은 [prop](을)를 들고 있습니다</li>
-    <li>otherHand->조각상의 다른 손은 허리에 얹혀 있습니다</li>
-    <li>otherHand->조각상의 다른 손은 음란한 제스처를 하고 있습니다</li>
-    <li>otherHand->조각상의 다른 손이 없습니다[maybeInsult]</li>
+    <li>statueSubjectDesc->잔뜩 찌푸린 눈으로 태양을 바라보는[maybeInsult]</li>
+    <li>statueSubjectDesc->꽃다발의 향을 맡는[maybeNoNose]</li>
+    <li>maybeOtherHand->, [otherHand]</li>
+    <li>maybeOtherHand->!</li>
+    <li>otherHand->다른 손은 [prop](을)를 들고 있는</li>
+    <li>otherHand->다른 손은 허리에 얹은</li>
+    <li>otherHand->다른 손은 음란한 제스처를 하고 있는</li>
+    <li>otherHand->다른 손이 없는[maybeInsult]</li>
     <li>maybeNoNose->, 코가 없는</li>
     <li>maybeNoNose-></li>
-    <li>maybeInsult->, 모욕적으로 보이는</li>
-    <li>maybeInsult->, 예술가의 조롱인지 실수인지 모호한</li>
-    <li>maybeInsult->, 의도적으로 비하하는 듯한</li>
+    <li>maybeInsult-> 모욕적인</li>
+    <li>maybeInsult-> 초라한</li>
+    <li>maybeInsult-> 우스꽝스러운</li>
     <li>maybeInsult(p=3)-></li>
     <li>statueFaceDesc(p=2)->조각상의 얼굴에는 [facialLook](이)가 드러납니다.</li>
     <li>statueFaceDesc(p=2)->얼굴에서 [facialLook](을)를 볼 수 있습니다.</li>
@@ -263,7 +263,7 @@
     <li>artextra_clause_statue->조각 주인공의 피부에 [subimageplural](이)가 새겨져 있습니다</li>
     <li>artextra_clause_statue->여러 개의 작은 조각품들이 조각상 주변에 있습니다. 각각은 [subimagesingle](을)를 닮았습니다</li>
     <li>artextra_clause_statue->조각상의 다리가 [subimageplural]에 가려져 있습니다</li>
-    <li>artextra_clause_statue->조각상의 얼굴에는 [carvedVerb]된 [subimageany]의 이미지가 새겨져 있습니다</li>
+    <li>artextra_clause_statue->조각상의 얼굴에는 [carvedVerb] [subimageany]의 이미지가 새겨져 있습니다</li>
     <li>artextra_clause_statue->조각상 속 인물은 [Community]의 한가운데에 서 있는 모습입니다</li>
     <li>artextra_clause_statue->조각상의 받침대는 [TerrainFeature]처럼 보입니다</li>
     <li>artextra_clause_statue->조각상이 [TerrainFeature]에서 솟아오르는 모습입니다</li>
@@ -276,14 +276,14 @@
     <li>artextra_clause_statue->조각상이 한 쪽 팔 아래로 [Animal](을)를 안고 있습니다</li>
     <li>artextra_clause_statue->조각상이 [Quantity_adjphrase] [pawn_adj] [Character](을)를 들고 있습니다</li>
     <li>artextra_clause_statue->조각상의 [statueBodyPart](이)가 깨져 있습니다. 안에는 [subimageplural](이)가 보입니다</li>
-    <li>carvedAdverb->정성껏</li>
+    <li>carvedAdverb->정성스럽게</li>
     <li>carvedAdverb->빠르게</li>
     <li>carvedAdverb->거칠게</li>
-    <li>carvedAdverb->세밀하게</li>
+    <li>carvedAdverb->섬세하게</li>
     <li>carvedAdverb->정교하게</li>
-    <li>carvedVerb->조각</li>
-    <li>carvedVerb->조형</li>
-    <li>carvedVerb->새김</li>
+    <li>carvedVerb->조각된</li>
+    <li>carvedVerb->다듬어진</li>
+    <li>carvedVerb->깎아낸</li>
     <li>statueAdj->실물보다 큰</li>
     <li>statueAdj->높이 솟은</li>
     <li>statueAdj->웅장한</li>
@@ -294,7 +294,7 @@
     <li>statueAdj->장중한</li>
     <li>statueAdj->고귀한</li>
     <li>statueAdj->평온한</li>
-    <li>statueAdj->붕괴된</li>
+    <li>statueAdj->부실한</li>
     <li>statueAdj->소박한</li>
     <li>statueAdj->노출된</li>
     <li>statueAdj->조잡한</li>
@@ -313,12 +313,12 @@
     <li>side_position_statue->[SUBJECT_indefinite]의 팔에 안겨</li>
     <li>side_position_statue->[SUBJECT_indefinite]의 머리 위에</li>
     <li>side_position_statue->[SUBJECT_indefinite]의 어깨 위에</li>
-    <li>side_position_statue->중앙 조각상 뒤에</li>
-    <li>side_position_statue->조각상의 [statueBodyPart]에 파인 공간 안에</li>
+    <li>side_position_statue->중앙의 조각상 뒤에</li>
+    <li>side_position_statue->조각상의 [statueBodyPart] 속에</li>
     <li>side_position_statue->[SUBJECT_indefinite]의 손바닥에</li>
     <li>side_position_statue->[SUBJECT_indefinite]의 [statueBodyPart]에서 터져 나오는 모습으로</li>
     <li>side_position_statue->[SUBJECT_indefinite]의 입에서 나오는 모습으로</li>
-    <li>side_position_statue->[SUBJECT_indefinite]의 등 위에</li>
+    <li>side_position_statue->[SUBJECT_indefinite]의 뒤에</li>
     <li>statueBodyPart->가슴</li>
     <li>statueBodyPart->배</li>
     <li>statueBodyPart->등</li>

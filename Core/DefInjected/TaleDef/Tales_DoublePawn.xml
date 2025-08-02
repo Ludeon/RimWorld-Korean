@@ -30,7 +30,7 @@
   -->
   <Captured.rulePack.rulesStrings>
     <li>tale_noun->[CAPTURER_nameDef](이)가 [PRISONER_nameDef](을)를 포획하는 이야기</li>
-    <li>tale_noun->[PRISONER_nameDef](이)가 [CAPTURER_nameDef]에 의해 포획당하는 이야기</li>
+    <li>tale_noun->[PRISONER_nameDef](이)가 [CAPTURER_nameDef]에게 포획당하는 이야기</li>
     <li>tale_noun->[PRISONER_nameDef]의 포획</li>
     <li>image->[CAPTURER_nameFull](이)가 [circumstance_group] [PRISONER_nameFull](을)를 포획하는 광경</li>
     <li>image->[CAPTURER_nameFull](이)가 [circumstance_group] [PRISONER_nameFull]의 손목을 묶는 모습</li>
@@ -125,7 +125,7 @@
   -->
   <ExecutedPrisoner.rulePack.rulesStrings>
     <li>tale_noun->[EXECUTIONER_nameDef](이)가 [PRISONER_nameDef](을)를 처형한 목격담</li>
-    <li>tale_noun->[PRISONER_nameDef](이)가 [EXECUTIONER_nameDef]에 의해 처형당한 이야기</li>
+    <li>tale_noun->[PRISONER_nameDef](이)가 [EXECUTIONER_nameDef]에게 처형당한 이야기</li>
     <li>tale_noun->[PRISONER_nameDef]의 처형</li>
     <li>image->[EXECUTIONER_nameFull](이)가 [circumstance_group] [PRISONER_nameFull](을)를 처형하는 모습</li>
     <li>image->[EXECUTIONER_nameFull](이)가 [circumstance_group] [PRISONER_nameFull]에게 죽음을 선사하는 광경</li>
@@ -315,7 +315,7 @@
   -->
   <Recruited.rulePack.rulesStrings>
     <li>tale_noun->[RECRUITER_nameDef](이)가 [JOINER_nameDef](을)를 포섭한 목격담</li>
-    <li>tale_noun->[JOINER_nameDef](이)가 [RECRUITER_nameDef]에 의해 포섭당한 이야기</li>
+    <li>tale_noun->[JOINER_nameDef](이)가 [RECRUITER_nameDef]에게 포섭당한 이야기</li>
     <li>tale_noun->[JOINER_nameDef]의 합류</li>
     <li>image-> [circumstance_group] [RECRUITER_nameFull](이)가 [JOINER_nameFull](을)를 설득하는 모습</li>
     <li>image-> [circumstance_group] [JOINER_nameFull]의 정착지 합류 결정을 환영하는 [RECRUITER_nameFull]</li>
@@ -358,7 +358,7 @@
   <SoldPrisoner.rulePack.rulesStrings>
     <li>tale_noun->상인에게 [PRISONER_nameDef](이)가 팔린 목격담</li>
     <li>tale_noun->[SELLER_nameDef](이)가 [PRISONER_nameDef](을)를 노예로 판 이야기</li>
-    <li>tale_noun->[PRISONER_nameDef](이)가 [SELLER_nameDef]에 의해 노예로 팔린 이야기</li>
+    <li>tale_noun->[PRISONER_nameDef](이)가 [SELLER_nameDef] 때문에 노예로 팔린 이야기</li>
     <li>image->[circumstance_group] [TRADER_nameFull](이)가 [PRISONER_nameFull](을)를 [SELLER_nameFull]에게서 데려가는 광경</li>
     <li>image->[circumstance_group] [SELLER_nameFull](이)가 [PRISONER_nameFull](을)를 [TRADER_nameFull]에게 파는 장면</li>
     <li>circumstance_phrase->다른 정착민들이 고개를 젓는 가운데</li>
@@ -398,7 +398,7 @@
     <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
   -->
   <TamedAnimal.rulePack.rulesStrings>
-    <li>tale_noun->[ANIMAL_nameDef](이)가 [TAMER_nameDef]에 의해 길들여진 이야기</li>
+    <li>tale_noun->[ANIMAL_nameDef](이)가 [TAMER_nameDef]에게 길들여진 이야기</li>
     <li>tale_noun->[TAMER_nameDef](이)가 [ANIMAL_nameDef](을)를 길들인 목격담</li>
     <li>image->[TAMER_nameFull](이)가 [ANIMAL_nameFull](을)를 [circumstance_group] 길들이는 모습</li>
     <li>image->[ANIMAL_nameFull]에게 [circumstance_group] 먹이 약간을 내어주는 [TAMER_nameFull]</li>
