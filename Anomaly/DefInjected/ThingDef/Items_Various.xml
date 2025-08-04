@@ -91,15 +91,15 @@
   <MonolithFragment.description>분리된 공허 모노리스 조각입니다. 조사하여 공허 현상에 대해 더 알 수 있습니다.</MonolithFragment.description>
   
   <!-- EN: revenant flesh chunk -->
-  <RevenantFleshChunk.label>망령 살 덩어리</RevenantFleshChunk.label>
+  <RevenantFleshChunk.label>망령 살점</RevenantFleshChunk.label>
   <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
   <RevenantFleshChunk.description>가죽 같은, 건조한 살 조각으로 망령이 해를 입었을 때 벗겨져 나온 것입니다. 조직에서 어둡고, 기름진 액체가 나옵니다.</RevenantFleshChunk.description>
   <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>망령 살 덩어리를 분석하세요. 이 조직 샘플을 분석하면 망령을 추적하고 드러낼 수 있는 도구를 줄 것입니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>망령 살점을 분석하세요. 이 조직 샘플을 분석하면 망령을 추적하고 드러낼 수 있는 도구를 줄 것입니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>분석...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}(이)가 {BIOSIGNATURE} 생체신호의 망령 살 덩어리를 분석하는 일을 끝냈습니다.\n\n{PAWN_pronoun}는 이 특정 망령의 생명 작용과 그 숨는 방법에 대해 더 많이 배웠습니다. 정착민은 이제 이 망령이 근처에 있으면 볼 수 있습니다.\n\n어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}(이)가 생체신호 {BIOSIGNATURE}(으)로 분류된 망령의 살점을 분석했습니다.\n\n{PAWN_pronoun}는 이 특정 망령의 생명 작용과 그 숨는 방법에 대해 더 많이 배웠습니다. 정착민은 이제 이 망령이 근처에 있으면 볼 수 있습니다.\n\n어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>분석 진행</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -107,15 +107,15 @@
   <!-- EN: Can be analyzed by a colonist. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>정착민에게 분석될 수 있습니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze revenant flesh chunk -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>망령 살 덩어리 분석</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>망령 살점 분석</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>분석 진행</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 망령의 살덩어리를 {BIOSIGNATURE} 생체신호로 분석을 마쳤습니다.\n\n{PAWN_pronoun}는 이 특정 망령의 생명 활동과 뒤에 남긴 액체에 대해 더 많이 이해하게 되었습니다.\n\n이제 이 망령은 도망갈 때 더 긴 흔적을 남길 것입니다.\n\n아마도 망령이 잠든 사이에 찾아내어 처치할 수 있을지도 모릅니다. 숨어 있는 망령은 얼룩을 통해 추적할 수 있으며, 교란용 조명탄, 폭발성 무기, 펄스 무기, 소방 거품, 불을 사용하여 드러내는 것이 가능합니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}(이)가 생체신호 {BIOSIGNATURE}(으)로 분류된 망령의 살점을 분석했습니다.\n\n{PAWN_pronoun}는 이 특정 망령의 생명 활동과 뒤에 남긴 액체에 대해 더 많이 이해하게 되었습니다.\n\n이제 이 망령은 도망갈 때 더 긴 흔적을 남길 것입니다.\n\n아마도 망령이 잠든 사이에 찾아내어 처치할 수 있을지도 모릅니다. 숨어 있는 망령은 얼룩을 통해 추적할 수 있으며, 교란용 조명탄, 폭발성 무기, 펄스 무기, 소방 거품, 불을 사용하여 드러내는 것이 가능합니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}(이)가 망령의 살덩어리를 {BIOSIGNATURE} 생체신호로 분석을 마쳤습니다.\n\n{PAWN_pronoun}는 이 특정 망령의 생명 활동과 발생하는 소리에 대해 더 많이 이해하게 되었습니다. 이제 정착민은 망령이 근처에 있을 때 그 소리를 들을 수 있습니다. 망령을 사냥하러 가서 가까워지면, 어떤 정착민이 소리를 들을 수 있는지 알림을 받게 됩니다.\n\n아마도 망령이 잠든 사이에 찾아내어 처치할 수 있을지도 모릅니다. 숨어 있는 망령은 얼룩을 통해 추적할 수 있으며, 교란용 조명탄, 폭발성 무기, 펄스 무기, 소방 거품, 불을 사용하여 드러내는 것이 가능합니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}(이)가 생체신호 {BIOSIGNATURE}(으)로 분류된 망령의 살점을 분석했습니다.\n\n{PAWN_pronoun}는 이 특정 망령의 생명 활동과 발생하는 소리에 대해 더 많이 이해하게 되었습니다. 이제 정착민은 망령이 근처에 있을 때 그 소리를 들을 수 있습니다. 망령을 사냥하러 가서 가까워지면, 어떤 정착민이 소리를 들을 수 있는지 알림을 받게 됩니다.\n\n아마도 망령이 잠든 사이에 찾아내어 처치할 수 있을지도 모릅니다. 숨어 있는 망령은 얼룩을 통해 추적할 수 있으며, 교란용 조명탄, 폭발성 무기, 펄스 무기, 소방 거품, 불을 사용하여 드러내는 것이 가능합니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 이전에 조사된 {BIOSIGNATURE} 생체신호의  망령 살 덩어리를 분석하는 일을 끝냈습니다.\n\n정착민은 이제 이 망령이 근처에 있으면 볼 수 있습니다.어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}(이)가 생체신호 {BIOSIGNATURE}(으)로 분류된 망령의 살점을 추가로 분석했습니다.\n\n정착민은 이제 이 망령이 근처에 있으면 볼 수 있습니다.어쩌면 망령이 자는 동안 찾아서 죽일 수 있을지도 모릅니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>분석 완료</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   

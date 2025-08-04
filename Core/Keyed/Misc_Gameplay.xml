@@ -87,7 +87,7 @@
   <!-- EN: Equipment -->
   <Equipment>장비</Equipment>
   <!-- EN: Apparel -->
-  <Apparel>의복</Apparel>
+  <Apparel>의류</Apparel>
   <!-- EN: Inventory -->
   <Inventory>소지품</Inventory>
   <!-- EN: Information -->
@@ -429,7 +429,7 @@
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>어떤 위협이 존재할 수도 있습니다</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>탐색기가 지하에서 적대적 활동을 감지했습니다.</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>탐색기가 광물 주위에서 적대적 활동을 감지했습니다.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>{0}의 덩어리</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -1077,7 +1077,7 @@
 
   <!-- like 'Blood of John' -->
   <!-- EN: of -->
-  <OfLower>:</OfLower>
+  <OfLower>총</OfLower>
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
@@ -1663,7 +1663,7 @@
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
   <PawnTooltipPsychicEntropyStats>하락률: {0} / 초 (0까지 {1}초)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>초능력을 시전한 이후 신경열이 증가합니다. 정상적인 한계를 넘어서면 정신이상이 나타날 수 있습니다.\n\n신경열은 시간이 지남에 따라 사라집니다. 이 과정은 엘텍스 의복을 착용하거나 고통을 겪으면서 가속화될 수 있습니다.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>초능력을 시전한 이후 신경열이 증가합니다. 정상적인 한계를 넘어서면 정신이상이 나타날 수 있습니다.\n\n신경열은 시간이 지남에 따라 사라집니다. 이 과정은 엘텍스 의류를 착용하거나 고통을 겪으면서 가속화될 수 있습니다.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>물리적 고통은 잡념을 제거하여 신경열을 빠르게 안정시킵니다.\n\n고통 수준: {0}\n신경열 회복 보너스: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
