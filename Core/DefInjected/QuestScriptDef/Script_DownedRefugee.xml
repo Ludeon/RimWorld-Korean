@@ -9,7 +9,7 @@
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->[refugee_nameDef](이)가 연락하여 도움을 요청합니다. [refugee_pronoun]는 부상으로 움직일 수 없습니다.\n\n[refugee_nameDef](은)는 [refugee_age]살 [refugee_title] 입니다. [refugee_pronoun]는 자신을 구해준다면 정착지에 합류하겠다고 약속합니다.\n\n[refugee_nameDef]에 의하면 {replace: [allSitePartsDescriptionsExceptFirst]; "."-""}(이)가 존재합니다.[pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameDef](은)는 여행하는 동안 [asker_possessive] 친구가 부상을 당했다고 연락하고 있습니다. 피해자는 [refugee_age]살 [refugee_title], [refugee_nameIndef]입니다.\n\n[asker_nameDef](은)는 [refugee_nameDef](을)를 구출 할 수 있는 방법이 없지만, 당신이라면 [refugee_pronoun]를 구할 수 있을 것이라 말하며, 구출에 성공한다면 [refugee_pronoun]는 당신의 정착지에 합류하여 도움을 줄 것이라 말합니다.\n\n[asker_nameDef]에 의하면 {replace: [allSitePartsDescriptionsExceptFirst]; "."-""}(이)가 존재합니다.[pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameDef](은)는 여행하는 동안 [asker_possessive] 친구가 부상을 당했다고 연락하고 있습니다. 피해자는 [refugee_age]살 [refugee_title], [refugee_nameIndef]입니다.\n\n[asker_nameDef](은)는 [refugee_nameDef](을)를 구출할 방법이 없지만, 당신이라면 [refugee_pronoun]를 구할 수 있을 것이라 말하며, 구출에 성공한다면 [refugee_pronoun]는 당신의 정착지에 합류하여 도움을 줄 것이라 말합니다.\n\n[asker_nameDef]에 의하면 {replace: [allSitePartsDescriptionsExceptFirst]; "."-""}(이)가 존재합니다.[pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
