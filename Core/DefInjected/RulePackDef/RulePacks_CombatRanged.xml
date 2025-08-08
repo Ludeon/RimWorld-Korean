@@ -170,7 +170,7 @@
     <li>destroyed_suffix->완전히</li>
     <li>destroyed_suffix->산산히</li>
     <li>destroyed_suffix(p=0.5)->엉망진창으로</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->간 고기처럼</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->간 고기처럼</li>
     <li>damaged_past->부상 입힘</li>
     <li>damaged_past->상처 입힘</li>
     <li>damaged_past->관통함</li>
@@ -182,8 +182,8 @@
     <li>damaged_present->손상됨</li>
     <li>damaged_present->타격됨</li>
     <li>damaged_suffix->꼴사납게 만들며</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->선명한 피를 뿌리게 하며</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->살점이 흩날리게 하며</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->선명한 피를 뿌리게 하며</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->살점이 흩날리게 하며</li>
     <li>to-></li>
     <li>to-></li>
     <li>missed->지나쳐</li>
@@ -341,14 +341,14 @@
     <li>adverb_threw->빠르게</li>
     <li>adverb_threw->정확하게</li>
     <li>adverb_threw->신중하게</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->조심스럽게</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->조심스럽게</li>
     <li>adverb_threw->정확하게</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->경계하며</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->경계하며</li>
     <li>adjective_threw->신중히</li>
     <li>adjective_threw->빨리</li>
     <li>adjective_threw->조심히</li>
     <li>adjective_threw->천천히</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->조심하며</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->조심하며</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:

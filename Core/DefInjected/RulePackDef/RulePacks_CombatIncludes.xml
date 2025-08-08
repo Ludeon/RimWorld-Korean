@@ -84,9 +84,9 @@
     <li>strikeAdv->끔찍하게</li>
     <li>strikeAdv->잔인하게</li>
     <li>strikeAdv->난폭하게</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 고통스러운 상처가 남게 됨</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]에게 고통스러운 상처가 남게 됨</li>
     <li>flavortext_consequence->[RECIPIENT_definite]에게 끔찍한 상처가 남게 됨</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite](이)가 [painevent] [wince] 함</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite](이)가 [painevent] [wince] 함</li>
     <li>flavortext_consequence(p=0.2)->[RECIPIENT_definite](이)가 균형을 잃음</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
@@ -151,20 +151,20 @@
     <li>destroyed(p=0.5)->붕괴시켜버림</li>
     <li>destroyed(p=0.5)->파괴함</li>
     <li>destroyed(p=0.5)->망가뜨림</li>
-    <li>wince(recipient_flesh==Normal)->움찔하게</li>
-    <li>wince(recipient_flesh==Normal)->얼굴을 구기도록</li>
-    <li>wince(recipient_flesh==Normal)->움츠리게</li>
-    <li>wince(recipient_flesh==Normal)->신음하도록</li>
-    <li>wince(recipient_flesh!=Mechanoid)->비명을 지르도록</li>
-    <li>wince(recipient_flesh!=Mechanoid)->큰 소리를 내뱉도록</li>
+    <li>wince(RECIPIENT_flesh==Normal)->움찔하게</li>
+    <li>wince(RECIPIENT_flesh==Normal)->얼굴을 구기도록</li>
+    <li>wince(RECIPIENT_flesh==Normal)->움츠리게</li>
+    <li>wince(RECIPIENT_flesh==Normal)->신음하도록</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->비명을 지르도록</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->큰 소리를 내뱉도록</li>
     <li>wince->움찔하게</li>
     <li>wince->주춤하게</li>
     <li>painstate-></li>
     <li>painstate-></li>
     <li>painstate-></li>
-    <li>painevent(recipient_flesh!=Mechanoid)->고통으로</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->격통으로</li>
-    <li>painevent(recipient_flesh==Normal)->부상 때문에</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->고통으로</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->격통으로</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->부상 때문에</li>
     <li>painevent->부상 때문에</li>
     <li>painevent->상처 때문에</li>
     <li>to-></li>
@@ -267,9 +267,9 @@
     <li>skillAdv(INITIATOR_skill>=14)->능수능란하게</li>
     <li>skillAdv(INITIATOR_skill>=16)->예술적으로</li>
     <li>skillAdv(INITIATOR_skill>=16)->우아하게</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->기계적으로</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->기계적으로</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->직접적으로</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->기계적으로</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->기계적으로</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->직접적으로</li>
   </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:
