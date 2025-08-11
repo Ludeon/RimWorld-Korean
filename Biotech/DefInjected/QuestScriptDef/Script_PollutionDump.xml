@@ -15,9 +15,9 @@
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
   -->
   <PollutionDump.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==True)->궤도 우주선 속의 기계 자아가 특별한 요청을 했습니다. 그녀는 선내의 과잉 독성 폐기물을 배출하고자 하는데, 당신이 그 폐기물을 책임감 있게 보관해 주길 바라고 있습니다.\n\n임무를 수락하면 [wastepackCount]개의 독성 폐기물이 수송 포드로 도착합니다.\n\n독성 폐기물은 냉동보관 하지 않으면 서서히 녹아 주변 지형을 오염시킵니다.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 특별한 요청을 했습니다. 독성 폐기물이 많이 쌓였는데 보관하기는 싫다고 합니다.\n\n임무를 수락하면 [wastepackCount]개의 독성 폐기물이 수송 포드로 도착합니다.\n\n독성 폐기물은 냉동보관 하지 않으면 서서히 녹아 주변 지형을 오염시킵니다.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 특별한 요청을 했습니다. 누군가 자신의 정착지 주변에 독성 폐기물을 무단으로 투기했는데, 자신들은 안전하게 보관할 기술이 없다고 합니다.\n\n임무를 수락하면 [wastepackCount]개의 독성 폐기물이 수송 포드로 도착합니다.\n\n독성 폐기물은 냉동보관 하지 않으면 서서히 녹아 주변 지형을 오염시킵니다.</li>
+    <li>questDescription(askerIsNull==True)->궤도 우주선 속의 기계 자아가 특별한 요청을 했습니다. 그녀는 선내의 과잉 독성 폐기물을 배출하고자 하는데, 당신이 그 폐기물을 책임감 있게 보관해 주길 바라고 있습니다.\n\n임무를 수락하면 [wastepackCount]개의 독성 폐기물이 수송 포드로 도착합니다.\n\n독성 폐기물은 냉동하지 않으면 점점 용해되어 인근 지형을 오염시킵니다.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 특별한 요청을 했습니다. 독성 폐기물이 많이 쌓였는데 보관하기는 싫다고 합니다.\n\n임무를 수락하면 [wastepackCount]개의 독성 폐기물이 수송 포드로 도착합니다.\n\n독성 폐기물은 냉동하지 않으면 점점 용해되어 인근 지형을 오염시킵니다.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 특별한 요청을 했습니다. 누군가 자신의 정착지 주변에 독성 폐기물을 무단으로 투기했는데, 자신들은 안전하게 보관할 기술이 없다고 합니다.\n\n임무를 수락하면 [wastepackCount]개의 독성 폐기물이 수송 포드로 도착합니다.\n\n독성 폐기물은 냉동하지 않으면 점점 용해되어 인근 지형을 오염시킵니다.</li>
   </PollutionDump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[waste] [dump]</li>

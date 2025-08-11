@@ -13,9 +13,9 @@
     <li>retaliationLetterLabel->폐기물 보복</li>
     <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] 독성 폐기물 보복</li>
     <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]의 독성 폐기물 보복</li>
-    <li>retaliationLetterText(senderIsNull==True)->당신은 지도 밖에 독성 폐기물을 투기한 사실을 숨겼었습니다. 이를 알게 된 분노한 이웃들이 독성 폐기물로 가득 찬 수송 포드를 정착지에 퍼부어 보복하고 있습니다.\n\n냉동하지 않으면 독성 폐기물이 시간이 지남에 따라 용해되어 인근 지형을 오염시킬 것입니다.</li>
-    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_faction_name]의 [sender_nameFull](은)는 당신의 무분별한 외부 지역 독성 폐기물 투기가 [sender_possessive] 세력에 해를 끼쳤다고 주장합니다. 보복으로 [sender_pronoun]는 수송 포드를 사용하여 독성 폐기물을 당신에게 퍼붓고 있습니다.\n\n냉동하지 않으면 독성 폐기물이 시간이 지남에 따라 용해되어 인근 지형을 오염시킬 것입니다.</li>
-    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name]의 [sender_faction_leaderTitle] [sender_nameFull](은)는 당신의 무모한 외부 지역 독성 폐기물 투기가 [sender_possessive] 진영에 해를 끼쳤다고 주장하며, 명예를 위해 보복하려고 합니다. [sender_pronoun]는 수송 포드를 사용하여 독성 폐기물을 당신에게 퍼붓고 있습니다.\n\n냉동하지 않으면 독성 폐기물이 시간이 지남에 따라 용해되어 인근 지형을 오염시킬 것입니다.</li>
+    <li>retaliationLetterText(senderIsNull==True)->당신의 독성 폐기물 투기가 발각됐습니다. 이를 알게 된 인근 거주자들이 분노하여 독성 폐기물로 가득 찬 수송 포드를 정착지에 퍼부어 보복하고 있습니다.\n\n독성 폐기물은 냉동하지 않으면 점점 용해되어 인근 지형을 오염시킵니다.</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_faction_name]의 [sender_nameFull](은)는 당신의 무분별한 외부 지역 독성 폐기물 투기가 [sender_possessive] 세력에 해를 끼쳤다고 주장합니다. 보복으로 [sender_pronoun]는 수송 포드를 사용하여 독성 폐기물을 당신에게 퍼붓고 있습니다.\n\n독성 폐기물은 냉동하지 않으면 점점 용해되어 인근 지형을 오염시킵니다.</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name]의 [sender_faction_leaderTitle] [sender_nameFull](은)는 당신의 무모한 외부 지역 독성 폐기물 투기가 [sender_possessive] 진영에 해를 끼쳤다고 주장하며, 명예를 위해 보복하려고 합니다. [sender_pronoun]는 수송 포드를 사용하여 독성 폐기물을 당신에게 퍼붓고 있습니다.\n\n독성 폐기물은 냉동하지 않으면 점점 용해되어 인근 지형을 오염시킵니다.</li>
   </PollutionRetaliation.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->pollutionretaliation</li>

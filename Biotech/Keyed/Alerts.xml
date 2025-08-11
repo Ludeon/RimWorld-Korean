@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Uncontrolled mechs -->
-  <AlertMechLacksOverseer>통제를 벗어난 메카노이드</AlertMechLacksOverseer>
+  <AlertMechLacksOverseer>메카노이드 통제 필요</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
   <AlertMechLacksOverseerDesc>하나 이상의 메카노이드가 통제되고 있지 않습니다. 메카노이드를 대역폭이 충분한 메카나이터와 연결하세요.\n\n하루 이상 제어되지 않으면 메카노이드가 제어 불가에 빠질 수 있습니다. 제어 불가 메카노이드는 {0}에 합류하여 적대적으로 돌아서며, 주위 메카노이드들도 영향을 받아 함께 적대적이 될 수 있습니다.\n\n제어 불가에 빠진 메카노이드는 파괴되면 배양기에서 부활할 수 없습니다.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
@@ -82,14 +82,14 @@
   <AlertPollutedTerrainDesc>독성이 축적된 정착민이나 동물이 오염된 지형 위에 있습니다. 오염된 지형 위에 있는 모든 이는 독성축적을 겪으며 결국 사망에 이릅니다.\n\n영향을 받고있는 가축 및 사람들:\n\n{0}\n\n이들을 오염된 지형에서 떨어트려 놓거나 영향을 방어 할 방법을 찾으십시오. 특정 장비나 삽입물, 혹은 유전자 변형이 독성 축적으로부터 보호를 제공합니다. 오염된 지형은 바닥으로 덮을 수 없지만, 직접 치우는 등의 여러 방법으로 정화 할 수 있습니다.</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
-  <AlertMechMissingBodyPart>메카노이드 부품 부족</AlertMechMissingBodyPart>
+  <AlertMechMissingBodyPart>메카노이드 손상</AlertMechMissingBodyPart>
   <!-- EN: Mechanoids missing parts -->
-  <AlertMechsMissingBodyPart>메카노이드 다수 부품 부족</AlertMechsMissingBodyPart>
+  <AlertMechsMissingBodyPart>메카노이드 다수 손상</AlertMechsMissingBodyPart>
   <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
   <AlertMechMissingBodyPartDesc>신체 부속품이 누락된 메카노이드가 있습니다. 메카나이터가 수리할 수 있습니다.\n\n부속품이 누락된 메카노이드</AlertMechMissingBodyPartDesc>
 
   <!-- EN: Mechanoid repair needed -->
-  <AlertMechNeedsRepair>수리가 필요한 메카노이드</AlertMechNeedsRepair>
+  <AlertMechNeedsRepair>메카노이드 수리 필요</AlertMechNeedsRepair>
   <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>이 메카노이드들은 손상되었고, 수리가 필요합니다</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->

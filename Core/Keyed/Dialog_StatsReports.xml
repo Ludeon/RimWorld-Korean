@@ -225,7 +225,7 @@
   <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
   <Stat_Thing_Plant_LifeSpan_Desc>식물의 수명입니다.\n\n식물은 수확하지 않더라도 특정 연령에 도달하면 자연스럽게 죽습니다.</Stat_Thing_Plant_LifeSpan_Desc>
   <!-- EN: The amount of product this plant will yield when harvested. -->
-  <Stat_Thing_Plant_HarvestYield_Desc>식물을 수확할 때 생산되는 자원의 양을 나타냅니다.</Stat_Thing_Plant_HarvestYield_Desc>
+  <Stat_Thing_Plant_HarvestYield_Desc>식물을 수확할 때 얻을 수 있는 자원의 양입니다.</Stat_Thing_Plant_HarvestYield_Desc>
   <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
   <Stat_Thing_Plant_MinGrowthTemperature_Desc>식물이 생존 가능한 최저 온도입니다.\n\n적정 온도에서 벗어난 식물은 천천히 죽어갑니다.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
   <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
@@ -247,7 +247,7 @@
   <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
   <Stat_Race_RoamInterval_Desc>길들인 동물이 떠돌다가 지역 밖으로 나가는 주기입니다.\n\n동물은 지역 경계로 통하는 경로가 있어야 떠돌아다닐 수 있습니다. 울타리, 엄폐물, 벽, 문을 사용해서 가둬놓으세요.\n\n배회 중인 동물은 조련사가 우리로 데려갑니다.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
-  <Stat_Thing_Ingestible_Joy_Desc>약품을 섭취할 때 채워지는 오락 수치를 나타냅니다.</Stat_Thing_Ingestible_Joy_Desc>
+  <Stat_Thing_Ingestible_Joy_Desc>약품을 섭취할 때 채워지는 오락 수치입니다.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The weight of this creature and their equipment. -->
   <Stat_Mass_Desc>이 생물과 장착한 장비의 무게입니다.</Stat_Mass_Desc>
   <!-- EN: Base mass -->
@@ -297,15 +297,15 @@
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_Desc>수술이 성공할 확률입니다.\n\n의사의 기술, 시설의 청결도, 약품의 수준에 따라 큰 차이가 납니다.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>손쉬운 수술</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>실패하지 않음</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>이 수술은 환자에게 매우 안전합니다.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>수술이 실패할 경우 환자가 사망할 확률입니다.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: Total bleed factor -->
-  <Stat_Hediff_TotalBleedFactor_Name>총 출혈계수</Stat_Hediff_TotalBleedFactor_Name>
+  <Stat_Hediff_TotalBleedFactor_Name>총 출혈 계수</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
-  <Stat_Hediff_TotalBleedFactor_Desc>혈액이 얼마나 손실되었는지를 나타냅니다.</Stat_Hediff_TotalBleedFactor_Desc>
+  <Stat_Hediff_TotalBleedFactor_Desc>출혈에 의한 혈액 손실량에 곱해지는 수입니다.</Stat_Hediff_TotalBleedFactor_Desc>
   <!-- EN: Natural healing factor -->
   <Stat_Hediff_NaturalHealingFactor_Name>자연치유력</Stat_Hediff_NaturalHealingFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
@@ -325,9 +325,9 @@
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>효과가 정신에 영향을 미치는 정도입니다.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
-  <Stat_Hediff_HungerRateOffset_Name>굶주림</Stat_Hediff_HungerRateOffset_Name>
+  <Stat_Hediff_HungerRateOffset_Name>굶주림 속도 영향</Stat_Hediff_HungerRateOffset_Name>
   <!-- EN: A multiplier on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateFactor_Desc>포만감 상실 계수입니다.</Stat_Hediff_HungerRateFactor_Desc>
+  <Stat_Hediff_HungerRateFactor_Desc>포만감 상실 속도에 곱해지는 수입니다.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>포만감이 상실되는 기본 속도입니다.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Sleep fall rate -->
@@ -337,7 +337,7 @@
   <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessFactor_Desc>생명체가 수면을 필요로 하는 비율에 적용되는 계수입니다.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
-  <Stat_Hediff_PreventsInfection_Desc>감염 예방 확률입니다.</Stat_Hediff_PreventsInfection_Desc>
+  <Stat_Hediff_PreventsInfection_Desc>이 상태가 감염을 방지하는지 나타냅니다.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
   <Stat_Thing_Terrain_Supports_Desc>지형이 지탱할 수 있는 무게입니다.</Stat_Thing_Terrain_Supports_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
@@ -369,7 +369,7 @@
   <!-- EN: Vanish on exhaust -->
   <Stat_Thing_ReloadDestroyOnEmpty_Name>소진 시 파괴됨</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Desc>이 품목은 마지막 {CHARGENOUN}(을)를 사용하면 사라집니다.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>이 물건은 마지막 {CHARGENOUN}(을)를 사용하면 사라집니다.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>신체부위의 전반적인 효율성을 나타냅니다.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Install sites -->

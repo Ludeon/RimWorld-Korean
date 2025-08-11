@@ -8,7 +8,7 @@
   <!-- EN: Select a psychic ritual to perform -->
   <CastPsychicRitualDesc>초정신 의식을 선택하여 행하기</CastPsychicRitualDesc>
   <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
-  <CannotCastPsychicRitual>{2} 때문에 {0_labelShort}(이)가 {1} 초정신 의식을 행할 수 없습니다.</CannotCastPsychicRitual>
+  <CannotCastPsychicRitual>{2}. {0_labelShort}(이)가 {1} 초정신 의식을 행할 수 없습니다.</CannotCastPsychicRitual>
   <!-- EN: The {0} psychic ritual has begun. -->
   <PsychicRitualBegun>{0} 초정신 의식이 시작되었습니다.</PsychicRitualBegun>
   <!-- EN: The {0} psychic ritual has been completed. -->
@@ -60,11 +60,11 @@
   <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>{0_labelShort}(이)가 {1} 초정신 의식을 떠났습니다.</PsychicRitualLeft>
   <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
-  <PsychicRitualLeftBecause>{2} 때문에 {0_labelShort}(이)가 {1} 초정신 의식을 떠났습니다.</PsychicRitualLeftBecause>
+  <PsychicRitualLeftBecause>{2}. {0_labelShort}(이)가 {1} 초정신 의식을 떠났습니다.</PsychicRitualLeftBecause>
   <!-- EN: The {0} psychic ritual has been canceled. -->
   <PsychicRitualCanceled>{0} 초정신 의식이 취소됐습니다.</PsychicRitualCanceled>
   <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
-  <PsychicRitualCanceledBecause>{1} 때문에 {0} 초정신 의식이 취소됐습니다.</PsychicRitualCanceledBecause>
+  <PsychicRitualCanceledBecause>{1}. {0} 초정신 의식이 취소됐습니다.</PsychicRitualCanceledBecause>
 
   <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>{0}(이)가 필요하지만 {1}만 사용 가능합니다</PsychicRitualOfferingsInsufficient>
@@ -84,25 +84,25 @@
   <CommandCancelPsychicRitualConfirm>정말 {0} 초정신 의식을 취소하시겠습니까?</CommandCancelPsychicRitualConfirm>
 
   <!-- EN: {PAWN_labelShort} vanished -->
-  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} 사라짐</PsychicRitualLeaveReason_Vanished>
+  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort}(이)가 사라졌습니다</PsychicRitualLeaveReason_Vanished>
   <!-- EN: {PAWN_labelShort} is incapacitated -->
-  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} 무력화됨</PsychicRitualLeaveReason_Incapped>
+  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort}(이)가 무력화됐습니다</PsychicRitualLeaveReason_Incapped>
   <!-- EN: {PAWN_labelShort} is dead -->
-  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} 사망</PsychicRitualLeaveReason_Killed>
+  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort}(이)가 죽었습니다</PsychicRitualLeaveReason_Killed>
   <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
   <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort}(은)는 {FACTION_name} 소속이 아닙니다</PsychicRitualLeaveReason_WrongFaction>
   <!-- EN: {PAWN_labelShort} is no longer on the map -->
-  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort}(이)가 더 이상 지도에 없습니다</PsychicRitualLeaveReason_ExitedMap>
+  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort}(이)가 지역 밖으로 나갔습니다</PsychicRitualLeaveReason_ExitedMap>
   <!-- EN: {PAWN_labelShort} had better things to do -->
   <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort}(은)는 할 일이 있습니다</PsychicRitualLeaveReason_LeftVoluntarily>
   <!-- EN: {PAWN_labelShort} is drafted -->
-  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort}(은)는 소집되었습니다</PsychicRitualLeaveReason_Drafted>
+  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort}(을)를 소집했습니다</PsychicRitualLeaveReason_Drafted>
   <!-- EN: {PAWN_labelShort} is in a mental state -->
   <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort}(은)는 정신 이상 상태입니다</PsychicRitualLeaveReason_InMentalState>
   <!-- EN: {PAWN_labelShort} is bleeding -->
   <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort}(은)는 출혈 중입니다</PsychicRitualLeaveReason_Bleeding>
   <!-- EN: {PAWN_labelShort} is on fire -->
-  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort}(은) 는 불에 타고 있습니다</PsychicRitualLeaveReason_Burning>
+  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort}(은)는 불에 타고 있습니다</PsychicRitualLeaveReason_Burning>
   <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
   <PsychicRitualLeaveReason_ExtremeTemperature>대상 근처의 온도가 {PAWN_labelShort}에게 안전하지 않습니다</PsychicRitualLeaveReason_ExtremeTemperature>
   <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
@@ -126,7 +126,7 @@
   <!-- EN: {PAWN_labelShort} is not a human -->
   <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort}(은)는 인간이 아닙니다</PsychicRitualLeaveReason_Mutant>
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
-  <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}의 {IDEO_name}에 대한 믿음이 참여를 막습니다</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}의 {IDEO_name}에 대한 믿음이 의식 참여를 막았습니다</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
   <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort}(은)는 민감한 정신을 가지지 않았습니다</PsychicRitualLeaveReason_NoPsychicSensitivity>
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
@@ -179,7 +179,7 @@
   <!-- EN: These objects help focus the psychic power of the ritual. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>이 물체는 의식의 초능력을 집중하는 것을 도와줍니다.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
   <!-- EN: Ideoligion offset -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>사상 오프셋</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>사상 영향</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
   <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>초정신 의식이 사상적 믿음에 영향받는 정도입니다.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 
