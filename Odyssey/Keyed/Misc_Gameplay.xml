@@ -108,6 +108,14 @@
   <MustBeOutside>야외에 있어야 함</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>하부구조에 막힘</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>{PAWN_nameDef}(은)는 {1}에 탑승할 수 없습니다.</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>{PAWN_nameDef}(은)는 {1}에서 내릴 수 없습니다.</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>비행 범위 보기</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>세계 지도에서 중력부양선의 현재 비행 범위를 확인합니다.</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -328,14 +336,6 @@
   <!-- EN: Allow digging -->
   <DigEnabled>채굴 허용</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>고대 저장고 입구를 영원히 봉인하게 됩니다. 아래 남겨진 모든 것은 영원히 사라집니다.{0}\n\n계속하시겠습니까?</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>봉인할 수 없음</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>봉인됨</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>영구적으로 봉인됨</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>해제됨</HatchUnlocked>
 

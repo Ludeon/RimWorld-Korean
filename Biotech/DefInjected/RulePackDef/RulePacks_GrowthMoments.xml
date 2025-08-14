@@ -181,7 +181,7 @@
     <li>firstSentence(tierSection==3)->[PAWN_nameDef](은)는 뛰어난 [nounGrowth](을)를 보여줬습니다.</li>
     <li>secondSentence(tierSection==3)->[PAWN_nameDef](은)는 [feelingBad](을)를 거의 느끼지 않은 것에 감사하며, [situationFun]에 더 많은 시간을 보내고 싶어합니다.</li>
     <li>secondSentence(tierSection==3)->[PAWN_nameDef](은)는 [situationLearning](을)를 좋아하지만 [situationFun](을)를 할 때 가장 행복해 합니다.</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef](은)는 성인이 되면 {replace: [taskWork]하; "돕하"-"도우"}며 시간을 보내고 싶어합니다.</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef](은)는 성인이 되면 [taskWork](을)를 하며 시간을 보내고 싶어합니다.</li>
     <li>secondSentence(tierSection==3)->무엇보다, [PAWN_nameDef](은)는 [situationFun](을)를 정말 좋아합니다.</li>
     <li>firstSentence(tierSection==2)->[PAWN_nameDef](은)는 [nounGrowth](을)를 보였으며, [situationLearning](을)를 고집합니다.</li>
     <li>firstSentence(tierSection==2)->[PAWN_nameDef](은)는 더 배우는 것에 [nounAttitudeGood](을)를 느낍니다.</li>
@@ -189,7 +189,7 @@
     <li>firstSentence(tierSection==2)->[PAWN_nameDef](은)는 [situationLearning]에 대해 새로운 열정을 키웠습니다.</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef](은)는 [situationFun](을)를 즐깁니다.</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef](은)는 [situationFun](을)를 더 하고 싶어 합니다.</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef](은)는 {replace: [taskWork]하; "돕하"-"돕"}는 일이 지루하다고 생각합니다.</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef](은)는 [taskWork](이)가 지루하다고 생각합니다.</li>
     <li>secondSentence(tierSection==2)->특히, [PAWN_nameDef](은)는 [situationLearning]에 집중하고 싶어 합니다.</li>
     <li>firstSentence(tierSection==1)->[PAWN_nameDef](은)는 [nounGrowth](을)를 별로 보여주지 못했고, [nounFuture]에 대해 별 기대를 하지 않고 있습니다.</li>
     <li>firstSentence(tierSection==1)->[nounFuture]에는 다를 거라고 보이지만, [PAWN_nameDef](은)는 [nounGrowth](을)를 거의 보여주지 못했습니다.</li>
@@ -279,26 +279,26 @@
     <li>topicLearning->과학</li>
     <li>topicLearning->여러 문화</li>
     <li>topicLearning->초월공학</li>
-    <li>topicLearning->행성경제학</li>
+    <li>topicLearning->행성 경제학</li>
     <li>topicLearning->심리학</li>
-    <li>topicLearning->곤충생물학</li>
+    <li>topicLearning->곤충 생물학</li>
     <li>topicLearning->메카노이드 배양</li>
     <li>topicLearning->유전자 편집</li>
     <li>topicLearning->로켓 과학</li>
     <li>topicLearning->광석 채광</li>
     <li>taskWork->요리</li>
-    <li>taskWork->동물을 훈련</li>
-    <li>taskWork->아픈 사람들을 간병</li>
-    <li>taskWork->[friendNamePlural](을)를 돕</li>
-    <li>taskWork->머팔로를 사냥</li>
-    <li>taskWork->작물을 재배</li>
-    <li>taskWork->옷을 수선</li>
+    <li>taskWork->동물 훈련</li>
+    <li>taskWork->아픈 이들 간병</li>
+    <li>taskWork->[friendNamePlural]처럼 돕는 일</li>
+    <li>taskWork->머팔로 사냥</li>
+    <li>taskWork->작물 재배</li>
+    <li>taskWork->옷 수선</li>
     <li>friendNamePlural->친구들</li>
     <li>friendNamePlural->사랑하는 사람들</li>
     <li>friendNamePlural->[friendAdj] 동물들</li>
     <li>friendNamePlural->[friendAdj] 메카노이드들</li>
     <li>friendNamePlural->[friendAdj] 아이들</li>
-    <li>friendNamePlural->상상속 친구들</li>
+    <li>friendNamePlural->상상 속 친구들</li>
     <li>friendNameSingular->친구</li>
     <li>friendNameSingular->개</li>
     <li>friendNameSingular->[friendAdj] 고양이</li>

@@ -45,6 +45,14 @@
   <InsectLairEntrance.label>동굴 입구</InsectLairEntrance.label>
   <!-- EN: The entrance to a cave network. It is possible to climb down into the caves below. -->
   <InsectLairEntrance.description>동굴망으로 통하는 입구입니다. 아래로 내려갈 수 있습니다.</InsectLairEntrance.description>
+  <!-- EN: Cannot collapse -->
+  <InsectLairEntrance.comps.CompSealable.cannotSealLabel>봉인할 수 없음</InsectLairEntrance.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Collapsing the cave entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <InsectLairEntrance.comps.CompSealable.confirmSealText>동굴 입구를 영원히 봉인하게 됩니다. 아래 남겨진 모든 것은 영원히 사라집니다.{0}\n\n계속하시겠습니까?</InsectLairEntrance.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently collapse the entrance. Anything or anyone left below will be lost forever. -->
+  <InsectLairEntrance.comps.CompSealable.sealCommandDesc>입구를 영구적으로 봉인합니다. 안에 남겨진 모든 사람과 물건은 영원히 사라집니다.</InsectLairEntrance.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Collapse cave entrance -->
+  <InsectLairEntrance.comps.CompSealable.sealCommandLabel>동굴 입구 봉인</InsectLairEntrance.comps.CompSealable.sealCommandLabel>
   
   <!-- EN: life support unit -->
   <LifeSupportUnit.label>생명 유지 장치</LifeSupportUnit.label>
