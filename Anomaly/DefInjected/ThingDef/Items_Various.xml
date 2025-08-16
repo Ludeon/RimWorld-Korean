@@ -6,7 +6,7 @@
   <!-- EN: A clump of fleshmass nervous tissue and fibres. You can analyze it to find a way to kill the fleshmass heart itself. -->
   <FleshmassNeuralLump.description>살덩이 신경 조직 및 섬유 무더기입니다. 분석하여 살덩이 심장 그 자체를 죽이는 방법을 알아낼 수 있습니다.</FleshmassNeuralLump.description>
   <!-- EN: Analyze the fleshmass neural sample. Once enough neural samples are collected and analyzed, you should be able to figure out a way to kill the heart. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>살덩이 신경 샘플을 분석하세요. 충분한 신경 샘플을 수집하고 분석하면, 심장을 죽이는 방법을 알아낼 수 있습니다.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>살덩이 신경 샘플을 분석합니다. 충분한 신경 샘플을 수집하고 분석하면 심장을 죽이는 방법을 알아낼 수 있습니다.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>분석...</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: While analyzing the fleshmass neural tissue, {PAWN_nameDef} made a breakthrough!\n\nThis biosignature responds strongly when stimulated by a specific electric pulse. If used on the fleshmass heart itself, an electric signal could cause a tachycardiac overload and kill the heart.\n\nYou can now destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly. -->
@@ -14,9 +14,9 @@
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>분석 완료</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>분석할 사람을 선택합니다</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>분석할 사람 선택</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>정착민에게 분석될 수 있습니다.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>정착민이 분석할 수 있음</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze neural lump -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>신경 혹 분석</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
@@ -49,7 +49,7 @@
   <!-- EN: deactivating {0} -->
   <GoldenCube.comps.CompGoldenCube.activatingStringPending>{0} 비활성화 중</GoldenCube.comps.CompGoldenCube.activatingStringPending>
   <!-- EN: Choose who should deactivate this. -->
-  <GoldenCube.comps.CompGoldenCube.guiLabelString>비활성화할 사람을 선택합니다.</GoldenCube.comps.CompGoldenCube.guiLabelString>
+  <GoldenCube.comps.CompGoldenCube.guiLabelString>비활성화할 사람 선택</GoldenCube.comps.CompGoldenCube.guiLabelString>
   <!-- EN: deactivate -->
   <GoldenCube.comps.CompGoldenCube.jobString>비활성화</GoldenCube.comps.CompGoldenCube.jobString>
   
@@ -66,9 +66,9 @@
   <!-- EN: Analysis complete -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>분석 완료</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>분석할 사람을 선택합니다</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>분석할 사람 선택</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>정착민에게 분석될 수 있습니다.</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>정착민이 분석할 수 있음</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze gray flesh sample -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>회색 살점 샘플 분석</GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
@@ -93,9 +93,9 @@
   <!-- EN: revenant flesh chunk -->
   <RevenantFleshChunk.label>망령 살점</RevenantFleshChunk.label>
   <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
-  <RevenantFleshChunk.description>가죽 같은, 건조한 살 조각으로 망령이 해를 입었을 때 벗겨져 나온 것입니다. 조직에서 어둡고, 기름진 액체가 나옵니다.</RevenantFleshChunk.description>
+  <RevenantFleshChunk.description>망령이 해를 입었을 때 떨어져 나온 가죽 질감의 건조한 살 조각입니다. 어둡고 기름진 액체가 나옵니다.</RevenantFleshChunk.description>
   <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>망령 살점을 분석하세요. 이 조직 샘플을 분석하면 망령을 추적하고 드러낼 수 있는 도구를 줄 것입니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>망령 살점을 분석합니다. 조직 샘플을 분석하면 망령을 추적하고 드러낼 수 있는 도구를 얻을 수 있습니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>분석...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
@@ -103,9 +103,9 @@
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>분석 진행</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>분석할 사람을 선택합니다</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>분석할 사람 선택</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>정착민에게 분석될 수 있습니다.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>정착민이 분석할 수 있음</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze revenant flesh chunk -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>망령 살점 분석</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
@@ -122,23 +122,23 @@
   <!-- EN: revenant spine -->
   <RevenantSpine.label>망령 척추</RevenantSpine.label>
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
-  <RevenantSpine.description>죽은 망령에서 나온, 연결된 척추 같은 물체입니다. 뾰족한 금속 막대의 그물망으로, 휘어진 우리 안에 뒤틀려 있습니다. 이 물체는 거친 주물로 된 검은 철이 어둡고 미끄러운 액채로 더럽혀진 것 같아 보입니다. 그 들쭉날쭉한 모양을 너무 자세히 보는 누구든 머리가 쪼개지는 두통을 앓게 될 것입니다.\n\n척추를 파괴하여 망령을 영구적으로 죽일 수 있습니다.\n\n대신 척추를 구속대에 확보하여 망령이 다시 나타나는 것을 기다리고, 포획된 실체를 조사할 수 있습니다.</RevenantSpine.description>
+  <RevenantSpine.description>죽은 망령에게서 나온 척추 모양의 분절 구조체입니다. 거칠지만 날카로운 무쇠 가시들이 제멋대로 얽혀 뒤틀린 우리 같은 형상을 하고 있습니다. 정체불명의 검고 미끈한 액체가 묻어 있습니다. 들쭉날쭉한 틈새 안을 너무 가까이 들여다보면 머리가 깨질 듯한 고통을 느끼게 됩니다.\n\n척추를 파괴하여 망령을 영원히 죽일 수 있습니다.\n\n파괴하는 대신 구속대에 배치하면 망령이 다시 나타납니다. 이렇게 포획된 개체는 연구에 활용할 수 있습니다.</RevenantSpine.description>
   <!-- EN: Revenant reformed -->
   <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>망령 재형성</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
-  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>{PAWN_nameDef}(이)가 망령 척추를 구속대에 묶은 뒤, 망령이 다시 출현했습니다.\n\n망령을 죽이면 녹아서 초월공학적 척추만을 남길 것입니다. 이 매끄러운 철제 골격은 새로운 몸을 가질 기회를 기다립니다.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>{PAWN_nameDef}(이)가 망령 척추를 구속대에 묶자 망령이 다시 출현했습니다.\n\n망령을 죽이면 육체는 녹아내려 초월공학 척추만을 남깁니다. 이 미끈거리는 금속 우리는 새로운 육체를 만들어낼 기회를 노리고 있습니다.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
   <!-- EN: Smash {0_label} -->
   <RevenantSpine.comps.CompUsable.useLabel>{0_label} 부수기</RevenantSpine.comps.CompUsable.useLabel>
   <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->
   <RevenantSpine.comps.CompUsable.useMessage>{PAWN_nameDef}(이)가 망령 척추를 부쉈습니다. 척추는 어둠의 초월공학 파편을 드러내며 녹아내립니다.</RevenantSpine.comps.CompUsable.useMessage>
   <!-- EN: Smash the revenant spine to prevent it reforming into a new revenant. -->
-  <RevenantSpine.comps.CompRevenantSpine.activateDescString>망령 척추를 부숴 새로운 망령으로 재형성되는 것을 막으세요.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
+  <RevenantSpine.comps.CompRevenantSpine.activateDescString>망령 척추를 부숴 새로운 망령으로 재형성되는 것을 막습니다.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
   <!-- EN: Smash... -->
   <RevenantSpine.comps.CompRevenantSpine.activateLabelString>부수기...</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
   <!-- EN: smashing revenant spine -->
   <RevenantSpine.comps.CompRevenantSpine.activatingStringPending>망령 척추 부수는 중</RevenantSpine.comps.CompRevenantSpine.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <RevenantSpine.comps.CompRevenantSpine.guiLabelString>이것을 할 사람을 선택하세요</RevenantSpine.comps.CompRevenantSpine.guiLabelString>
+  <RevenantSpine.comps.CompRevenantSpine.guiLabelString>수행할 사람 선택</RevenantSpine.comps.CompRevenantSpine.guiLabelString>
   
   <!-- EN: shard -->
   <Shard.label>파편</Shard.label>
