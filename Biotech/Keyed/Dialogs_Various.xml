@@ -31,7 +31,7 @@
   <!-- EN: Any mechlord apparel -->
   <ApparelRequirementAnyMechlordApparel>모든 기계군주 의류</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>또는 모든 초능력자 의류, 모든 장교 갑옷, 모든 기계군주 의류</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>또는 모든 초능력자 의류, 장교 갑옷, 기계군주 의류</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
@@ -97,23 +97,23 @@
   <!-- EN: Creating xenogerm -->
   <CreatingXenogerm>변형이식체 생성 중</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
-  <GenepackUnusableGenebankUnpowered>이 유전자묶음은 전원이 공급되지 않은 유전자저장고에 들어있습니다. 이 유전자묶음을 선택하면 변형이식체를 생성할때 유전자저장고에 전력이 보급될때까지 생산이 정지됩니다.</GenepackUnusableGenebankUnpowered>
+  <GenepackUnusableGenebankUnpowered>이 유전자묶음은 전원이 공급되지 않은 유전자저장고에 들어있습니다. 이 유전자묶음을 선택하면 변형이식체를 생성할 때 유전자저장고에 전력이 보급될 때까지 생산이 정지됩니다.</GenepackUnusableGenebankUnpowered>
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
-  <GeneProcessorUnpowered>이 변형이식체는 이 유전자 조합기와 여기에 연결된 유전자 처리기가 지원하는 것 보다 높은 유전적 복잡성을 필요로 합니다. </GeneProcessorUnpowered>
+  <GeneProcessorUnpowered>이 변형이식체는 이 유전자 조합기와 여기에 연결된 유전자 처리기가 지원하는 것 보다 높은 유전적 복잡성을 필요로 합니다.</GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
   <RecombineDuration>예상 조합 시간</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a xenogerm. Recombination time increases with the total complexity of the genes in the xenogerm. -->
-  <RecombineDurationDesc>선택된 유전자를 변형이식체로 만드는데 소요되는 평균 시간입니다. 유전자 재조합 시간은 변형이식체에 포함된 유전자의 복잡도 총 합에 따라 증가합니다.</RecombineDurationDesc>
+  <RecombineDurationDesc>선택된 유전자를 변형이식체로 만드는데 소요되는 평균 시간입니다. 유전자 재조합 시간은 변형이식체에 포함된 유전자의 복잡도 총합에 따라 증가합니다.</RecombineDurationDesc>
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
-  <MustResearchProject>초월인자 캡슐를 사용하는 변형이식체를 조합하려면 {0_label}(을)를 먼저 연구해야 합니다.</MustResearchProject>
+  <MustResearchProject>초월입자 캡슐을 사용하는 변형이식체를 조합하려면 {0_label}(을)를 먼저 연구해야 합니다.</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
-  <AssemblingRequiresResearch>초월인자 유전자가 포함된 변형이식체를 조합하려면 {0_label}(을)를 연구해야 합니다.</AssemblingRequiresResearch>
+  <AssemblingRequiresResearch>초월입자 유전자가 포함된 변형이식체를 조합하려면 {0_label}(을)를 연구해야 합니다.</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
   <ConfirmStartNewXenogerm>현재 {XENOGERMNAME}(을)를 조합 중입니다. 새로운 변형이식체를 조합하면 현재 진행 중인 작업을 취소합니다.\n\n계속하시겠습니까?</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
-  <SelectAGeneToRandomizeName>이 인종형의 이름을 무작위로 바꾸려면 선택하십시오.</SelectAGeneToRandomizeName>
+  <SelectAGeneToRandomizeName>한 개 이상의 유전자를 선택해야 인종형의 이름을 무작위로 바꿀 수 있습니다.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
-  <SelectAGeneToChooseAName>인종형의 이름을 지으려면 적어도 하나의 유전자를 선택해야 합니다.</SelectAGeneToChooseAName>
+  <SelectAGeneToChooseAName>한 개 이상의 유전자를 선택해야 인종형의 이름을 지을 수 있습니다.</SelectAGeneToChooseAName>
 
   <!-- View genes -->
   <!-- EN: Inspect genes -->
@@ -155,13 +155,13 @@
   <!-- EN: All genes in this xenotype can be passed on to children. -->
   <GenesAreInheritableDesc>이 인종형의 모든 유전자가 다음 세대로 전달될 수 있습니다.</GenesAreInheritableDesc>
   <!-- EN: For each individual, one of the following genes will be randomly selected to be active -->
-  <GeneWillBeRandomChosen>개인마다 다음 중 하나의 유전자가 무작위로 선택되어 활성화됩니다.</GeneWillBeRandomChosen>
+  <GeneWillBeRandomChosen>다음 중 하나의 유전자가 개인마다 무작위로 선택되어 활성화됩니다.</GeneWillBeRandomChosen>
   <!-- EN: This gene is incompatible with other genes in this xenotype. Only one of these genes will be active -->
-  <GeneIncompatibleDesc>이 유전자는 현재 인종형의 다른 유전자와 호환되지 않습니다. 다음 중 하나의 유전자만 활성화 됩니다.</GeneIncompatibleDesc>
+  <GeneIncompatibleDesc>이 유전자는 현재 인종형의 다른 유전자와 호환되지 않습니다. 다음 중 하나의 유전자만 활성화됩니다.</GeneIncompatibleDesc>
   <!-- EN: Of the following genes, the left-most one will always apply and the others are suppressed -->
-  <GeneLeftmostActive>다음 유전자중, 가장 왼쪽에 있는 유전자만 적용되고 나머지는 억제됩니다.</GeneLeftmostActive>
+  <GeneLeftmostActive>다음 유전자 중 가장 왼쪽 유전자만 적용되고 나머지는 억제됩니다.</GeneLeftmostActive>
   <!-- EN: Of the following genes, only one will apply and the others will be suppressed -->
-  <GeneOneActive>다음 유전자중, 단 하나의 유전자만 적용되고 나머지는 억제됩니다.</GeneOneActive>
+  <GeneOneActive>다음 유전자 중 하나의 유전자만 적용되고 나머지는 억제됩니다.</GeneOneActive>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
   <WarnChangingXenotypeWillRandomizePawn>인종형을 변경하면 이 정착민을 무작위로 설정합니다.\n\n계속하시겠습니까?</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Delete this xenotype. -->
@@ -223,7 +223,7 @@
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
-  <NumWoundsTended>{0} 상처 치료됨</NumWoundsTended>
+  <NumWoundsTended>상처 {0}개 치료됨</NumWoundsTended>
 
   <!-- Mechs -->
   <!-- EN: Weight class -->
@@ -239,7 +239,7 @@
   <!-- EN: Recharge settings -->
   <MechRechargeSettingsTitle>충전 설정</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
-  <MechRechargeSettingsExplanation>메카노이드가 충전을 시작하고 중단하는 시점을 변경합니다.\n\n전력이 설정한 범위 아래로 떨어지면 자동으로 충전기를 찾아서, 설정한 범위의 상한까지 충전합니다. 충전 설정은 작업 모드에서만 따릅니다.</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>메카노이드가 충전을 시작하고 중단하는 시점을 변경합니다.\n\n전력이 설정한 범위 아래로 떨어지면 스스로 충전기로 이동해 설정한 범위의 상한까지 충전합니다. 충전 설정은 작업 모드에서만 유효합니다.</MechRechargeSettingsExplanation>
   <!-- EN: Work skill -->
   <MechWorkSkill>작업 기술</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
@@ -356,7 +356,7 @@
   <WarningPawnWillDieFromBloodfeeding>{PAWN_nameDef}(을)를 흡혈하면 {PAWN_objective} 죽일 수 있습니다.\n\n계속하시겠습니까?</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
-  <AbilityMustHaveTendableWound>{0_labelShort}(은)는 치료할 수 있는 부상이 있어야 합니다.</AbilityMustHaveTendableWound>
+  <AbilityMustHaveTendableWound>{0_labelShort}(이)가 치료할 수 있는 부상을 입은 상태여야 합니다.</AbilityMustHaveTendableWound>
 
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
