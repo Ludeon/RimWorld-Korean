@@ -4,6 +4,54 @@ import { ensureDir } from 'jsr:@std/fs'
 
 import { AVAILABLE_DLCS } from './consts.mjs'
 
+// Get RimWorld base path from environment (mirrors index.mjs behavior).
+const getRimworldBasePath = () => {
+  const rimworldPath = Deno.env.get('RIMWORLD_PATH')
+  if (!rimworldPath) {
+    console.warn(
+      'RIMWORLD_PATH not set: skipping copy of English Strings from RimWorld installation. Set RIMWORLD_PATH to your RimWorld install directory if you want English sources copied.'
+    )
+    return null
+  }
+
+  return rimworldPath
+}
+
+/**
+ * Copy English Strings from a real RimWorld installation into the prepared output
+ * so out/<DLC>/Strings/English contains the original English files.
+ */
+const copyEnglishStringsForDLC = async (dlcName, outputDlcPath) => {
+  const rimworldBase = getRimworldBasePath()
+  if (!rimworldBase) return
+
+  const gameDataPath = path.join(rimworldBase, 'Data')
+  const englishStringsPath = path.join(gameDataPath, dlcName, 'Languages', 'English', 'Strings')
+  const destPath = path.join(outputDlcPath, 'Strings')
+
+  try {
+    const stat = await Deno.stat(englishStringsPath)
+    if (!stat.isDirectory) {
+      console.warn(`${dlcName}: English Strings path exists but is not a directory: ${englishStringsPath}`)
+      return
+    }
+  } catch (e) {
+    if (e instanceof Deno.errors.NotFound) {
+      console.warn(`${dlcName}: English Strings not found at RimWorld install, skipping: ${englishStringsPath}`)
+      return
+    }
+    throw e
+  }
+
+  try {
+    await ensureDir(path.dirname(destPath))
+    await fs.copy(englishStringsPath, destPath, { overwrite: true })
+    console.log(`${dlcName}📥: Copied English Strings from game into ${path.relative(Deno.cwd(), destPath)}`)
+  } catch (error) {
+    console.error(`${dlcName}❌: Failed to copy English Strings:`, error)
+  }
+}
+
 /**
  * Move <!-- EN: ... --> content into node's and remove <!-- UNUSED --> content
  */
@@ -117,6 +165,8 @@ const processDLCXMLFiles = async (dlcName, outputDir, basePath) => {
     const stringsStats = await Deno.stat(stringsPath)
     if (stringsStats.isDirectory) {
       await fs.copy(stringsPath, outputStringsPath, { overwrite: true })
+      // Also try to copy the game's English Strings into the output (if RIMWORLD_PATH is set)
+      await copyEnglishStringsForDLC(dlcName, outputDlcPath)
     }
   } catch {
     //
