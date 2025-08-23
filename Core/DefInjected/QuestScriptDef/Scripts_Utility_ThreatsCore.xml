@@ -5,7 +5,7 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->온도를 [temperatureOffset] 조정하는 (*Threat)기후 조정기(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->[affectedGender]에 영향을 주는 (*Threat)정신 조종장치(/Threat)</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->[affectedGender]에 영향을 주는 (*Threat)정신 파동 방출기(/Threat)</li>
       <li>root(priority=1,sitePart==PsychicSuppressor)->[affectedGender]에 영향을 주는 (*Threat)정신 억제기(/Threat)</li>
       <li>root(priority=1,sitePart==WeatherController)->날씨를 [weather_label](으)로 강제 지정하는 (*Threat)날씨 조정장치(/Threat)</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->연기를 뿜어내는 (*Threat)연기 발생장치(/Threat)</li>

@@ -30,21 +30,21 @@
   <!-- EN: Unfortunately, your call has been left unanswered. -->
   <VoidProvocationFailed>유감스럽게도, 당신의 부름은 응답받지 못했습니다.</VoidProvocationFailed>
   <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
-  <VoidProvocationDarkPsychicShock>의식 도중에, {INVOKER_nameDef}(은)는 이해의 경계를 넘어서는 공포를 목도했고, 그 정신을 잠식하는 어둠에 휩쓸려 잠시 정신을 잃고 말았습니다.</VoidProvocationDarkPsychicShock>
+  <VoidProvocationDarkPsychicShock>의식 도중에, {INVOKER_nameDef}(은)는 이해의 경계를 넘어서는 공포를 목도했고 정신을 잠식하는 어둠에 휩쓸려 잠시 정신을 잃고 말았습니다.</VoidProvocationDarkPsychicShock>
   <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
-  <PhilophagyCompleteText>{INVOKER_nameDef}(이)가 {TARGET_nameDef}의 기술과 기억을 흡수하는 {RITUAL_definite} 의식을 완료했습니다.</PhilophagyCompleteText>
+  <PhilophagyCompleteText>{INVOKER_nameDef}(이)가 {RITUAL_definite}(을)를 완료해 {TARGET_nameDef}의 기술과 기억을 흡수했습니다.</PhilophagyCompleteText>
   <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
-  <PawnGainedXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1} 경험치를 얻었습니다</PawnGainedXPInSkill>
+  <PawnGainedXPInSkill>{0_nameDef}(이)가 {2_label} 경험치 {1}을 얻었고</PawnGainedXPInSkill>
   <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
-  <PawnLostXPInSkill>{0_nameDef}(이)가 {2_label}에서 {1} 경험치를 잃었습니다</PawnLostXPInSkill>
+  <PawnLostXPInSkill>{0_nameDef}(이)가 {2_label} 경험치 {1}을 잃었고</PawnLostXPInSkill>
   <!-- EN: rising from skill level {0} to {1}. -->
-  <PhilophagySkillLevelGained>기술 등급 {0}에서 {1}로 상승 중.</PhilophagySkillLevelGained>
+  <PhilophagySkillLevelGained>기술 등급이 {0}에서 {1}로 상승했습니다.</PhilophagySkillLevelGained>
   <!-- EN: falling from skill level {0} to {1}. -->
-  <PhilophagySkillLevelLost>기술 등급 {0}에서 {1}로 하락 중.</PhilophagySkillLevelLost>
+  <PhilophagySkillLevelLost>기술 등급이 {0}에서 {1}로 하락했습니다.</PhilophagySkillLevelLost>
   <!-- EN: remaining at skill level {0}. -->
-  <PhilophagySkillLevelRemains>기술 등급 {0}에서 머무름.</PhilophagySkillLevelRemains>
+  <PhilophagySkillLevelRemains>기술 등급은 {0}에 머물렀습니다.</PhilophagySkillLevelRemains>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PhilophagyDamagedTarget>그 과정은 {TARGET_nameDef}의 뇌를 손상시켜, {TARGET_objective}(을)를 혼수 상태에 빠지게 만들었습니다.</PhilophagyDamagedTarget>
+  <PhilophagyDamagedTarget>{TARGET_nameDef}(은)는 의식으로 뇌가 손상돼 혼수상태에 빠졌습니다.</PhilophagyDamagedTarget>
 
   <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
   <ImbueDeathRefuralCompleteText>{0_nameDef}(이)가 죽음 거부권을 부여받았습니다. {0_pronoun}(은)는 이제 죽은 후 스스로 부활할 수 있습니다.\n\n죽음 거부권을 사용하면 {0_nameDef}의 뇌가 위축되어, {0_possessive} 기술에서 총 {1} 경험치를 상실할 것입니다.</ImbueDeathRefuralCompleteText>
@@ -154,7 +154,7 @@
 
   <!-- Void node -->
   <!-- EN: {PAWN_nameDef} returns -->
-  <VoidNodeReturnedLabel>{PAWN_nameDef}(이)가 돌아옵니다</VoidNodeReturnedLabel>
+  <VoidNodeReturnedLabel>{PAWN_nameDef}의 귀환</VoidNodeReturnedLabel>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
   <VoidNodeReturnedMessage>{PAWN_nameDef}(이)가 다시 나타났습니다.</VoidNodeReturnedMessage>
   <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
