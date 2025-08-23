@@ -73,10 +73,10 @@
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef](은)는 아무런 일도 하지 않을 것입니다.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->대략 다음 규모의 (*Threat)습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->대략 다음 규모의 [threatSize]배 강력한 (*Threat)습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->대략 다음 규모의 (*Threat)[threatCount]갈래 습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->대략 다음 규모의 [threatSize]배 강력한 (*Threat)[threatCount]갈래 습격(/Threat)이 있을 것으로 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->다음과 비슷한 규모의 (*Threat)습격(/Threat)이 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->평소보다 [threatSize]배 강력한, 다음과 비슷한 규모의 (*Threat)습격(/Threat)이 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->각각 다음과 비슷한 규모의 (*Threat)[threatCount]회 습격(/Threat)이 예상됩니다.\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->각각 평소보다 [threatSize]배 강력한, 다음과 비슷한 규모의 (*Threat)[threatCount]회 습격(/Threat)이 예상됩니다.\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)메카노이드 전초기지(/Threat)가 근처에 배치될 것입니다.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)메카노이드 전초기지 2개(/Threat)가 근처에 배치될 것입니다.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->[threatSize]배 크기의 (*Threat)메카노이드 전초기지(/Threat)가 근처에 배치될 것입니다.</li>

@@ -82,7 +82,7 @@
     <li>lodgersWasWere(lodgersCount>=2)-></li>
     <li>appreciateAppreciates(lodgersCount==1)->양질</li>
     <li>appreciateAppreciates(lodgersCount>=2)->양질</li>
-    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef]에게 [appreciateAppreciates]의 시설을 제공하여, [theirHisHer] 기분을 평균 50% 이상 유지하면 [asker_faction_name](와)과의 관계가 향상됩니다.</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef](은)는 좋은 대우를 반깁니다. [lodgersLabelSingOrPluralDef]의 기분을 평균 50% 이상으로 유지하면 [asker_faction_name](와)과의 관계가 향상됩니다.</li>
     <li>goodwillForMood-></li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->[lodgers0_title], [lodgers0_nameFull](은)는 [map_definite]에서 [shuttleDelayTicks_duration] 동안 보호받길 원합니다. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef](은)는 최근에 [wrongAct]. [lodgers0_pronoun](와)과 함께 있는 동안, [enemyFaction_pawnsPlural](이)가 보복하러 찾아옵니다. [enemyGroupsParagraph]</li>
@@ -117,13 +117,13 @@
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]의 적들은 [asker_objective] 사냥하기 위해 메카노이드를 도발하였습니다. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]의 적들은 어떻게 해서든 [asker_objective] 사냥하기 위해 메카노이드를 도발했습니다. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 정당원 [allyAllies] [lodgersCountMinusOne]명과 [shuttleDelayTicks_duration] 동안 [map_definite]에 머물고 싶어합니다. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef](와)과 [asker_possessive] [allyAllies](은)는 청부 대상이 되었으며, 그들의 정적들이 제거될 때까지 안전하게 머물 장소를 필요로 합니다. 그러나 [asker_nameDef]의 적들은 [asker_objective] 사냥하기 위해 [enemyFaction_name](을)를 고용했습니다.\n\n[enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef](와)과 [asker_possessive] [allyAllies](은)는 청부 대상이 되었으며, 그들의 정적들이 제거될 때까지 안전하게 머물 장소를 필요로 합니다. 그러나 [asker_nameDef]의 적들은 [asker_objective] 사냥하기 위해 [enemyFaction_name](을)를 도발하였습니다.\n\n[enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef](와)과 [asker_possessive] [allyAllies](은)는 청부 대상이 되었으며, 그들의 정적들이 제거될 때까지 안전하게 머물 장소를 필요로 합니다. 그러나 [asker_nameDef]의 적들은 어떻게든 [asker_objective] 사냥하기 위해 메카노이드를 유도했습니다.\n\n[enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 궁정의 측근 [lodgersCountMinusOne]명과 함께 [shuttleDelayTicks_duration] 동안 [map_definite]에 머물고 싶어합니다. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef](와)과 [asker_possessive] [allyAllies](은)는 목숨을 위협받고 있으며, 궁정을 숙청할 때까지 안전하게 머물 장소가 필요합니다. 그러나 적들은 [enemyFaction_name](을)를 고용해 [asker_nameDef]의 뒤를 쫓고 있습니다.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef](와)과 [asker_possessive] [allyAllies](은)는 목숨을 위협받고 있으며, 궁정을 숙청할 때까지 안전하게 머물 장소가 필요합니다. 그러나 적들은 [enemyFaction_name](을)를 도발해 [asker_nameDef]의 뒤를 쫓게 만들었습니다.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef](와)과 [asker_possessive] [allyAllies](은)는 목숨을 위협받고 있으며, 궁정을 숙청할 때까지 안전하게 머물 장소가 필요합니다. 그러나 적들은 메카노이드들을 도발해 [asker_nameDef]의 뒤를 쫓게 만들었습니다.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
-    <li>allyAllies(lodgersCountMinusOne==1)->동맹</li>
-    <li>allyAllies(lodgersCountMinusOne>=2)->동맹들</li>
+    <li>allyAllies(lodgersCountMinusOne==1)->측근</li>
+    <li>allyAllies(lodgersCountMinusOne>=2)->측근들</li>
   </Hospitality_Joiners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->shelter for [lodgerIndef]</li>
@@ -156,17 +156,17 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
   -->
   <Hospitality_Joiners.questNameRules.rulesStrings>
-    <li>questName->[lodgerIndef] 피난처</li>
-    <li>questName->[lodgerIndef] 방문객</li>
-    <li>questName->[lodgerIndef] 주인</li>
+    <li>questName->[lodgerIndef]의 피난처</li>
+    <li>questName->[lodgerIndef] 접대</li>
+    <li>questName->[lodgerIndef] 대접하기</li>
     <li>questName->도움이 필요한 [lodgerIndef]</li>
     <li>questName(generateThreats==true,priority=1)->[lodgerIndef] 보호</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] 보호</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] 경비</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef]의 위협</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef]의 위험</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef](와)과 적들</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef]의 십자선</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] 경호</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] 지키기</li>
+    <li>questName(generateThreats==true,priority=1)->위협받는 [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->위험에 처한 [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef]의 적들</li>
+    <li>questName(generateThreats==true,priority=1)->사냥당하는 [lodgerIndef]</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_title]</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->여행자</li>

@@ -30,15 +30,15 @@
     <li>placeNameCore->[SylI][SylI][SylI]</li>
     <li>placeNameCore->[SylI][placeEnd]</li>
     <li>placeNameCore->[SylI][SylI][placeEnd]</li>
-    <li>placeEnd->아크</li>
+    <li>placeEnd->악</li>
     <li>placeEnd->아즈</li>
-    <li>placeEnd->에트</li>
+    <li>placeEnd->에스</li>
     <li>placeEnd->조즈</li>
     <li>placeEnd->오크</li>
     <li>placeEnd->오즈</li>
     <li>placeEnd->에츠</li>
     <li>placeEnd->에스</li>
-    <li>placeEnd->온쓰</li>
+    <li>placeEnd->온스</li>
     <li>placeEnd->인</li>
     <li>placeEnd->익스</li>
     <li>placeEnd->이즈</li>
@@ -147,16 +147,16 @@
   -->
   <NamerFactionPirateYttakin.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
-    <li>faction->포효가문</li>
-    <li>faction-> 부족</li>
-    <li>faction->조직</li>
+    <li>r_name->[placeNameCore][faction]</li>
+    <li>r_name->[placeNameCore][faction]</li>
+    <li>faction->의 포효</li>
+    <li>faction->족</li>
+    <li>faction-> 씨족</li>
     <li>faction->함성</li>
     <li>faction->무리</li>
-    <li>faction->가족</li>
-    <li>faction->털</li>
-    <li>faction->족함성</li>
+    <li>faction->의 가족</li>
+    <li>faction->의 털</li>
+    <li>faction->의 자손</li>
   </NamerFactionPirateYttakin.rulePack.rulesStrings>
   
   <!-- EN:
@@ -172,14 +172,14 @@
   -->
   <NamerFactionTribalImpid.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
-    <li>faction->조직</li>
-    <li>faction->연합</li>
-    <li>faction->구역</li>
-    <li>faction->대구역</li>
-    <li>faction->화염구멍</li>
-    <li>faction->불구멍</li>
+    <li>r_name->[placeNameCore][faction]</li>
+    <li>r_name->[placeNameCore][faction]</li>
+    <li>faction-> 연합</li>
+    <li>faction-> 연맹</li>
+    <li>faction-> 질주자</li>
+    <li>faction-> 약탈자</li>
+    <li>faction->의 화염</li>
+    <li>faction->의 불꽃</li>
   </NamerFactionTribalImpid.rulePack.rulesStrings>
   
   <!-- EN:
@@ -408,12 +408,12 @@
     <li>poison->독성</li>
     <li>poison->독소</li>
     <li>poison->독성</li>
-    <li>poison->호흡곤란</li>
+    <li>poison->질식</li>
     <li>poison->가스</li>
     <li>poison->약물</li>
     <li>poison->광이</li>
     <li>poison->바이러스</li>
-    <li>poison->독액</li>
+    <li>poison->맹독</li>
     <li>poison->종양</li>
     <li>poison->독약</li>
     <li>poison->황폐한</li>
@@ -466,13 +466,13 @@
     <li>placeEnd->버쉬</li>
     <li>placeEnd->버그</li>
     <li>placeEnd->비트</li>
-    <li>placeEnd->바이온</li>
+    <li>placeEnd->비온</li>
     <li>placeEnd->덴</li>
     <li>placeEnd->젠</li>
     <li>placeEnd->율</li>
     <li>placeEnd->야</li>
     <li>placeEnd->이쉬</li>
-    <li>placeEnd->잇트</li>
+    <li>placeEnd->잇</li>
     <li>placeEnd->이스</li>
     <li>placeEnd->인</li>
   </YttakinUtility.rulePack.rulesStrings>
