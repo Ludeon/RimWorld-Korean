@@ -325,7 +325,8 @@ const main = async () => {
         await ensureDir(path.dirname(entryPath))
         const writer = new zip.Uint8ArrayWriter()
         const data = await entry.getData(writer)
-        await Deno.writeFile(entryPath, data)
+        const text = new TextDecoder().decode(data)
+        await Deno.writeTextFile(entryPath, '\uFEFF' + text.trim())
       }
     }
     await zipReader.close()
