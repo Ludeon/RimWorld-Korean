@@ -113,17 +113,17 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_suffix] [destroyed_past].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past].</li>
     <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [damaged_past].</li>
-    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [skillAdv] [damaged_past].</li>
-    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_targets](을)를 [destroyed_past]</li>
-    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_targets](을)를 [damaged_past]</li>
-    <li>result(p=1)->[destroyed_targets](을)를 [destroyed_past]. [RECIPIENT_possessive] [damaged_targets]도 [damaged_past]</li>
-    <li>action(p=1.0)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [damaged_inf]서</li>
-    <li>action(p=0.3)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [damaged_inf]서</li>
-    <li>action(p=0.3)->[INITIATOR_definite](이)가 [skillDescMelee] [RECIPIENT_definite](을)를 [damaged_inf]서</li>
-    <li>action(p=0.3)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [damaged_inf]버려</li>
-    <li>action(p=0.3)->[INITIATOR_definite](이)가 [skillDescMelee] [RECIPIENT_definite](을)를 [damaged_inf]버려</li>
-    <li>action(p=0.3)->[INITIATOR_definite](이)가 [implement](을)를 사용해 [RECIPIENT_definite](을)를 [damaged_inf]서</li>
-    <li>action(p=0.3)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [skillAdv] [damaged_inf]버려</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite](이)가 [skillAdv] [implement](으)로 [RECIPIENT_definite](을)를 [damaged_past].</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_targets](이)가 [destroyed_present]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_targets](이)가 [damaged_present]</li>
+    <li>result(p=1)->[destroyed_targets](이)가 [destroyed_present]. [damaged_targets]도 [damaged_present]</li>
+    <li>action(p=1.0)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [damaged_inf]버림.</li>
+    <li>action(p=0.3)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [damaged_inf]버림.</li>
+    <li>action(p=0.3)->[INITIATOR_definite](이)가 [skillDescMelee] [RECIPIENT_definite](을)를 [damaged_inf]버림.</li>
+    <li>action(p=0.3)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [damaged_inf]버림.</li>
+    <li>action(p=0.3)->[INITIATOR_definite](이)가 [skillDescMelee] [RECIPIENT_definite](을)를 [damaged_inf]버림.</li>
+    <li>action(p=0.3)->[INITIATOR_definite](이)가 [implement](을)를 사용해 [RECIPIENT_definite](을)를 [damaged_inf]버림.</li>
+    <li>action(p=0.3)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 [skillAdv] [damaged_inf]버림.</li>
   </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
@@ -146,8 +146,8 @@
     <li>result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [WEAPON_label](으)로 [damaged_inf] 버리려고 했지만 회피함.</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [implement](으)로 [damaged_inf] 버리려고 했지만 빗맞춤.</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite](이)가 [INITIATOR_definite]의 [WEAPON_label](을)를 [skillAdvMaybe] 회피함.</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite](이)가 [implement](으)로 [RECIPIENT_definite](을)를 공격했지만 빗맞힘.</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [implement](으)로 [damaged_inf] 버리려고 했지만 [failtype].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [damaged_inf] 버리려고 했지만 [failtype].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [skillAdvMaybe] [damaged_inf] 버리려고 했지만 [failtype].</li>
@@ -155,8 +155,8 @@
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>failtype(p=5)->실패함</li>
     <li>failtype->발을 헛디딤</li>
-    <li>failtype->실수함</li>
-    <li>failtype->빗나감</li>
+    <li>failtype->움직임이 엉킴</li>
+    <li>failtype->몸이 꼬임</li>
     <li>failtype->허둥대다 실패함</li>
     <li>result(p=4)->빗나감</li>
     <li>result->허공만 때림</li>

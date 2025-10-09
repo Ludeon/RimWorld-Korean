@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: spark slave rebellion -->
-  <SparkSlaveRebellion.label>노예 반란을 일으킴</SparkSlaveRebellion.label>
+  <SparkSlaveRebellion.label>노예 반란 모의</SparkSlaveRebellion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] suggested they make a break for it.</li>
     <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to take back [RECIPIENT_possessive] freedom.</li>
@@ -12,10 +12,10 @@
   -->
   <SparkSlaveRebellion.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef](이)가 탈출을 하자고 제안함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [RECIPIENT_possessive] 자유를 되찾자고 부추김.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 노예 생활을 끝내고 탈출하자고 말함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 해방된 이후의 삶에 대해 말해주며 탈출을 부추김.</li>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 경비가 느슨하니 탈출하기 좋은 시간이라고 속삭임.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 자유를 되찾자고 부추김.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 노예 생활을 끝내고 탈출하자고 말함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 해방 이후의 삶을 말하며 탈출을 부추김.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 느슨한 경비를 틈타 지금이 탈출할 기회라고 속삭임.</li>
   </SparkSlaveRebellion.logRulesInitiator.rulesStrings>
   
   <!-- EN: suppress -->
@@ -27,10 +27,10 @@
     <li>r_logentry->[INITIATOR_nameDef] suggested that [RECIPIENT_nameDef] follow orders and not ask questions.</li>
   -->
   <Suppress.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 반란을 일으킬 시 처벌이 뒤따를 것이라고 말함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 복종하지 않으면 처벌 받을 것이라고 위협함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 반란을 일으키면 처벌이 뒤따를 것이라고 말함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 복종하지 않으면 처벌받을 것이라고 위협함.</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 어떤 종류의 위반도 저지르지 말라고 경고함.</li>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 명령은 따르되 질문은 삼가는 것이 좋다고 제안함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 명령은 따르되 질문은 삼가는 것이 좋다고 충고함.</li>
   </Suppress.logRulesInitiator.rulesStrings>
   
 </LanguageData>

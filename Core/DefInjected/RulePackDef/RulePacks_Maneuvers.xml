@@ -38,25 +38,25 @@
     <li>damaged_inf->씹어</li>
     <li>damaged_inf(p=0.5)->깨물어</li>
     <li>damaged_past->물어뜯음</li>
-    <li>damaged_past->씹어댐</li>
-    <li>damaged_past->살짝 물음</li>
+    <li>damaged_past->씹어버림</li>
+    <li>damaged_past->묾</li>
     <li>damaged_past->깨물음</li>
     <li>damaged_past(deflected!=True)->찢음</li>
     <li>damaged_present->물어뜯김</li>
     <li>damaged_present->씹힘</li>
-    <li>damaged_present->살짝 물림</li>
+    <li>damaged_present->물림</li>
     <li>damaged_present->깨물림</li>
     <li>damaged_present(deflected!=True)->찢김</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 피부가 끔찍하게 까짐</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->[RECIPIENT_definite]의 금속 표면이 끔찍하게 까짐</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]의 피부가 끔찍하게 까짐</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->[RECIPIENT_definite]의 금속 표면이 끔찍하게 까짐</li>
     <li>destroyed_past->찢어버림</li>
     <li>destroyed_past->뜯어버림</li>
-    <li>destroyed_past->뜯어버림</li>
+    <li>destroyed_past->잘라버림</li>
     <li>destroyed_present->찢겨나감</li>
     <li>destroyed_present->뜯겨나감</li>
-    <li>destroyed_present->뜯겨나감</li>
+    <li>destroyed_present->잘려나감</li>
     <li>destroyed_suffix->조각조각으로</li>
     <li>destroyed_suffix->산산조각으로</li>
     <li>destroyed_suffix->산산히</li>
@@ -71,8 +71,8 @@
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 눈에 [TOOL_label](을)를 발로 차 뿌리려고 했지만 [RECIPIENT_definite](이)가 피해버림.</li>
-    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 눈에 [TOOL_label](을)를 발로 차 뿌리려고 했지만 [RECIPIENT_definite](이)가 막아버림.</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 눈에 [TOOL_label](을)를 발로 차 뿌리려고 했지만 [RECIPIENT_definite](은)는 회피함.</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite]의 눈에 [TOOL_label](을)를 발로 차 뿌리려고 했지만 [RECIPIENT_definite](은)는 방어함.</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -128,21 +128,21 @@
   -->
   <Maneuver_Poke.rulePack.rulesStrings>
     <li>damaged_inf(p=2)->찔러</li>
-    <li>damaged_inf(p=2)->내질러</li>
-    <li>damaged_inf->콱 찔러</li>
-    <li>damaged_inf->힘껏 찔러</li>
-    <li>damaged_inf->찔러</li>
+    <li>damaged_inf(p=2)->때려</li>
+    <li>damaged_inf->찍어</li>
+    <li>damaged_inf->쳐</li>
+    <li>damaged_inf->가격해</li>
     <li>damaged_past(p=2)->찌름</li>
-    <li>damaged_past(p=2)->푹 찌름</li>
-    <li>damaged_past->콱 찌름</li>
-    <li>damaged_past->힘껏 찌름</li>
-    <li>damaged_past->찌름</li>
+    <li>damaged_past(p=2)->때림</li>
+    <li>damaged_past->내려찍음</li>
+    <li>damaged_past->침</li>
+    <li>damaged_past->가격함</li>
     <li>damaged_present(p=2)->찔림</li>
-    <li>damaged_present(p=2)->찔림</li>
-    <li>damaged_present->푹 찔림</li>
-    <li>damaged_present->힘껏 찔림</li>
-    <li>damaged_present->찔림</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 몸에 거대한 멍이 생김</li>
+    <li>damaged_present(p=2)->맞음</li>
+    <li>damaged_present->찍힘</li>
+    <li>damaged_present->맞음</li>
+    <li>damaged_present->가격당함</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]의 몸에 거대한 멍이 생김</li>
     <li>flavortext_consequence->타격한 부위가 눈에 띄게 변형됨</li>
     <li>flavortext_consequence->[RECIPIENT_definite](이)가 균형을 잃음</li>
     <li>flavortext_consequence->[RECIPIENT_definite](이)가 옆으로 밀쳐짐</li>
@@ -158,7 +158,7 @@
     <li>destroyed_present->뭉개짐</li>
     <li>destroyed_suffix->조각조각으로</li>
     <li>destroyed_suffix->산산조각으로</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->알아볼 수 없게</li>
+    <li>destroyed_suffix->알아볼 수 없게</li>
     <li>destroyed_suffix->산산히</li>
   </Maneuver_Poke.rulePack.rulesStrings>
   
@@ -178,15 +178,15 @@
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->자상</li>
     <li>woundname(p=0.3)->찢어지고 할퀸 상처</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 [woundname](을)를 남김</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->너저분하게</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]에게 [woundname](을)를 남김</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->너저분하게</li>
     <li>destroyed_suffix->갈기갈기</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->너저분하게</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->너저분하게</li>
     <li>destroyed_suffix->조각조각으로</li>
     <li>destroyed_suffix->산산히</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->살점 덩어리로</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->살점 덩어리로</li>
   </Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
@@ -215,17 +215,17 @@
   -->
   <Maneuver_Scratch_Damage.rulePack.rulesStrings>
     <li>damaged_inf(p=4)->긁어</li>
-    <li>damaged_inf(deflected!=True)->할퀴어</li>
+    <li>damaged_inf->할퀴어</li>
     <li>damaged_inf(deflected!=True)->찢어</li>
     <li>damaged_inf->베어</li>
     <li>damaged_past(p=4)->긁음</li>
-    <li>damaged_past(deflected!=True)->할큄</li>
+    <li>damaged_past->할큄</li>
     <li>damaged_past(deflected!=True)->찢음</li>
-    <li>damaged_past->베어버림</li>
+    <li>damaged_past(deflected!=True)->벰</li>
     <li>damaged_present->긁힘</li>
-    <li>damaged_present(deflected!=True)->할퀴어짐</li>
+    <li>damaged_present->할퀴임</li>
     <li>damaged_present(deflected!=True)->찢김</li>
-    <li>damaged_present->베임</li>
+    <li>damaged_present(deflected!=True)->베임</li>
     <li>destroyed_past->찢어버림</li>
     <li>destroyed_past->갈라버림</li>
     <li>destroyed_past->조각내버림</li>
@@ -279,41 +279,41 @@
   -->
   <Maneuver_Slash.rulePack.rulesStrings>
     <li>damaged_inf(p=4)->베어</li>
-    <li>damaged_inf->베어</li>
-    <li>damaged_inf->쪼개</li>
-    <li>damaged_inf->내려쳐</li>
+    <li>damaged_inf->갈라</li>
+    <li>damaged_inf->찍어</li>
+    <li>damaged_inf->후려쳐</li>
     <li>damaged_inf->잘라</li>
-    <li>damaged_inf(deflected!=True)->깊이 베어</li>
-    <li>damaged_past(p=4)->베어버림</li>
-    <li>damaged_past->베어버림</li>
+    <li>damaged_inf(deflected!=True)->찢어</li>
+    <li>damaged_past(p=4)->벰</li>
+    <li>damaged_past->가름</li>
+    <li>damaged_past->내려찍음</li>
+    <li>damaged_past->후려침</li>
     <li>damaged_past->자름</li>
-    <li>damaged_past->내려침</li>
-    <li>damaged_past->썰어버림</li>
-    <li>damaged_past(deflected!=True)->깊게 베어버림</li>
+    <li>damaged_past(deflected!=True)->찢음</li>
     <li>damaged_present->베임</li>
-    <li>damaged_present->베임</li>
-    <li>damaged_present->썰려버림</li>
-    <li>damaged_present(deflected!=True)->깊게 베임</li>
+    <li>damaged_present(RECIPIENT_flesh==Mechanoid,deflected!=True)->갈라짐</li>
+    <li>damaged_present(deflected!=True)->썰림</li>
+    <li>damaged_present->후려쳐짐</li>
+    <li>damaged_present(deflected!=True)->잘라짐</li>
     <li>damaged_present(deflected!=True)->찢김</li>
-    <li>damaged_present(deflected!=True)->할켜짐</li>
     <li>woundname->자상</li>
     <li>woundname(p=0.3)->찢어지고 할퀸 상처</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 [woundname](을)를 남김</li>
-    <li>destroyed_past->반으로 자름</li>
-    <li>destroyed_past->잘라버림</li>
-    <li>destroyed_past->반으로 갈라버림</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]의 안쪽 살이 드러남</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->[RECIPIENT_definite]의 내부 부품이 드러남</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]에게 [woundname](을)를 남김</li>
+    <li>destroyed_past->두 동강 냄</li>
+    <li>destroyed_past->잘라냄</li>
+    <li>destroyed_past->토막냄</li>
     <li>destroyed_past->절단함</li>
-    <li>destroyed_past->분리해버림</li>
-    <li>destroyed_present->반으로 잘림</li>
-    <li>destroyed_present->잘려버림</li>
-    <li>destroyed_present->반으로 갈려버림</li>
+    <li>destroyed_past->쪼갬</li>
+    <li>destroyed_present->두 동강 남</li>
+    <li>destroyed_present->잘려나감</li>
+    <li>destroyed_present->토막남</li>
     <li>destroyed_present->절단됨</li>
-    <li>destroyed_present->분리됨</li>
+    <li>destroyed_present->쪼개짐</li>
     <li>destroyed_suffix->깔끔한 조각으로</li>
     <li>destroyed_suffix->깔끔하게</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->안쪽 장기를 드러내도록</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->내부가 드러나도록</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->양쪽으로 나뉘게</li>
   </Maneuver_Slash.rulePack.rulesStrings>
   
@@ -328,7 +328,7 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 몸에 거대한 멍이 생김</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]의 몸에 거대한 멍이 생김</li>
     <li>flavortext_consequence->타격한 부위가 눈에 띄게 변형됨</li>
     <li>flavortext_consequence->[RECIPIENT_definite](이)가 균형을 잃음</li>
     <li>flavortext_consequence->[RECIPIENT_definite](이)가 옆으로 밀쳐짐</li>
@@ -366,23 +366,23 @@
     <li>damaged_inf->후려쳐</li>
     <li>damaged_inf->내리쳐</li>
     <li>damaged_inf->강타해</li>
-    <li>damaged_inf->타격해</li>
-    <li>damaged_inf->두들겨 패</li>
-    <li>damaged_past->부상입힘</li>
-    <li>damaged_past->후려쳐 때림</li>
-    <li>damaged_past->내려쳤음</li>
+    <li>damaged_inf->찍어</li>
+    <li>damaged_inf->가격해</li>
+    <li>damaged_past->때림</li>
+    <li>damaged_past->후려침</li>
+    <li>damaged_past->내려침</li>
     <li>damaged_past->강타함</li>
-    <li>damaged_past->타격함</li>
-    <li>damaged_past->두들겨 때림</li>
-    <li>damaged_present->으스러짐</li>
-    <li>damaged_present->타격당함</li>
+    <li>damaged_past->내려찍음</li>
+    <li>damaged_past->가격함</li>
+    <li>damaged_present->맞음</li>
+    <li>damaged_present->내려찍힘</li>
     <li>damaged_present(deflected!=True)->멍듦</li>
     <li>destroyed_past->박살냄</li>
     <li>destroyed_past->짓이김</li>
-    <li>destroyed_past->부서뜨림</li>
+    <li>destroyed_past->으스러뜨림</li>
     <li>destroyed_present->박살남</li>
     <li>destroyed_present->짓이겨짐</li>
-    <li>destroyed_present->뭉개짐</li>
+    <li>destroyed_present->으스러짐</li>
   </Maneuver_Smash_Damage.rulePack.rulesStrings>
   
   <!-- EN:
@@ -419,34 +419,34 @@
   -->
   <Maneuver_Stab.rulePack.rulesStrings>
     <li>damaged_inf(p=4)->찔러</li>
-    <li>damaged_inf->내질러</li>
+    <li>damaged_inf->박아 넣어</li>
     <li>damaged_inf(deflected!=True)->뚫어</li>
-    <li>damaged_inf(deflected!=True)->구멍내</li>
+    <li>damaged_inf(deflected!=True)->후벼파</li>
     <li>damaged_inf(deflected!=True)->꿰어</li>
-    <li>damaged_past(p=4)->관통함</li>
-    <li>damaged_past->부상입힘</li>
-    <li>damaged_past(deflected!=True)->뚫어버림</li>
-    <li>damaged_past(deflected!=True)->구멍냄</li>
-    <li>damaged_past(deflected!=True)->꿰매버림</li>
-    <li>damaged_present(deflected!=True)->뚫려버림</li>
-    <li>damaged_present(deflected!=True)->구멍남</li>
+    <li>damaged_past(p=4)->찌름</li>
+    <li>damaged_past->박아 넣음</li>
+    <li>damaged_past(deflected!=True)->뚫음</li>
+    <li>damaged_past(deflected!=True)->후벼팜</li>
+    <li>damaged_past(deflected!=True)->관통함</li>
+    <li>damaged_present->찔림</li>
+    <li>damaged_present(deflected!=True)->뚫림</li>
     <li>damaged_present(deflected!=True)->관통됨</li>
-    <li>damaged_present(deflected!=True)->꿰여버림</li>
+    <li>damaged_present(deflected!=True)->후벼파임</li>
     <li>woundname->구멍</li>
     <li>woundname->자상</li>
     <li>woundname->틈</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 피나는 [woundname](을)를 남김</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]의 몸체에 뚫린 [woundname](이)가 남음</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_definite]에게 피 흐르는 [woundname](이)가 남음</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]에게 피나는 [woundname](을)를 남김</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]의 몸에 뚫린 [woundname](이)가 남음</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]에게 피 흐르는 [woundname](이)가 남음</li>
     <li>destroyed_past->꿰뚫음</li>
-    <li>destroyed_past->분해함</li>
+    <li>destroyed_past->관통함</li>
     <li>destroyed_past->뚫어버림</li>
     <li>destroyed_present->꿰뚫림</li>
-    <li>destroyed_present->분해됨</li>
+    <li>destroyed_present->관통됨</li>
     <li>destroyed_present->뚫려버림</li>
     <li>destroyed_suffix->직선으로</li>
     <li>destroyed_suffix->깨끗한 구멍을 남기며</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->흥건한 피를 남기며</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->흥건한 피를 남기며</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->정체불명의 액체를 흘리게 만들며</li>
   </Maneuver_Stab.rulePack.rulesStrings>
   

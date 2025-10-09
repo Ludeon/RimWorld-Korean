@@ -60,33 +60,33 @@
     <li>everywhere->far and wide</li>
   -->
   <Transition_DiedExplosive.rulePack.rulesStrings>
-    <li>die(p=3)->[flavor] 폭사함</li>
-    <li>die(p=3)->[flavorsuffix] 폭사함</li>
-    <li>die->[flavor] 폭사함</li>
-    <li>die->[flavorsuffix] 폭사함</li>
-    <li>die->[flavor] 터져버림</li>
-    <li>die->[flavorsuffix] 터져버림</li>
-    <li>died(p=3)->[flavor] 폭사함</li>
+    <li>died->[flavor] 폭발함</li>
+    <li>died->[flavorsuffix] 폭발함</li>
+    <li>died->폭발함</li>
     <li>died->[flavor] 터져버림</li>
-    <li>died->[flavor] 터져버림</li>
-    <li>flavor(p=0.2)->[fireball]</li>
+    <li>died->[flavorsuffix] 터져버림</li>
+    <li>died->터져버림</li>
+    <li>died->[flavor] 산산조각남</li>
+    <li>died->[flavorsuffix] 산산조각남</li>
+    <li>died->산산조각남</li>
+    <li>die->폭발함</li>
     <li>flavor->[Color] [fireball]</li>
     <li>flavor->[AdjectiveLarge] [fireball]</li>
     <li>flavor(p=4)->[fireball]</li>
     <li>flavor(p=4)-></li>
     <li>flavorsuffix->[pieces](을)를 [everywhere] 날리며</li>
     <li>flavorsuffix(subject_flesh!=Mechanoid,p=2)-> [Gore](을)를 [everywhere] 날리며</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid)->작은 [Gore]를 남기고</li>
-    <li>flavorsuffix-> 조그만 구덩이를 남기며</li>
+    <li>flavorsuffix(subject_flesh!=Mechanoid)->작은 [Gore]만 남기고</li>
+    <li>flavorsuffix->조그만 구덩이를 남기고</li>
     <li>flavorsuffix(p=4)-></li>
-    <li>fireball(p=3)->불덩어리와 함께</li>
+    <li>fireball(p=3)->폭발과 함께</li>
     <li>fireball->화염과 함께</li>
     <li>fireball->충격파와 함께</li>
     <li>fireball->불꽃 속에서</li>
     <li>pieces->조각</li>
     <li>pieces->파편</li>
     <li>everywhere->사방에</li>
-    <li>everywhere->이리저리</li>
+    <li>everywhere->주변에</li>
   </Transition_DiedExplosive.rulePack.rulesStrings>
   
   <!-- EN:
@@ -98,8 +98,8 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun](으)로 [SUBJECT_definite](이)가 [die].</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty](으)로 [SUBJECT_definite](이)가 [die].</li>
+    <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNoun](으)로 [died].</li>
+    <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNounPretty](으)로 [died].</li>
     <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNoun] 때문에 [flavorsuffix] [died].</li>
     <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNounPretty] 때문에 [flavorsuffix] [died].</li>
     <li>r_logentry->[SUBJECT_definite](이)가 [died].</li>
@@ -137,28 +137,28 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun](으)로 [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty](으)로 [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun](으)로 [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty](으)로 [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNoun] [duetoa] [collapsedmeta].</li>
-    <li>r_logentry->[SUBJECT_definite](은)는 [CULPRITHEDIFF_labelNounPretty] [duetoa] [collapsedmeta].</li>
-    <li>r_logentry(p=0.1)->[SUBJECT_definite][collapsedmeta].</li>
+    <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNoun]의 충격으로 [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNounPretty](으)로 [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNoun] 때문에 [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite](이)가 [CULPRITHEDIFF_labelNounPretty] 때문에 [collapsemeta].</li>
+    <li>__unused__-></li>
+    <li>__unused__-></li>
+    <li>r_logentry(p=0.1)->[SUBJECT_definite](이)가 [collapsemeta].</li>
     <li>collapse->쓰러짐</li>
-    <li>collapse->넘어짐</li>
-    <li>collapse(SUBJECT_flesh!=Mechanoid)->실신함</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->오작동함</li>
+    <li>collapse->고꾸라짐</li>
+    <li>__unused__-></li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->정지함</li>
     <li>collapse(SUBJECT_flesh==Mechanoid)->멈춤</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->동력을 잃음</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->동력을 상실함</li>
     <li>collapsed->쓰러짐</li>
-    <li>collapsed->넘어짐</li>
-    <li>collapsed(SUBJECT_flesh!=Mechanoid)->실신함</li>
-    <li>collapsed(SUBJECT_flesh==Mechanoid)->오작동함</li>
+    <li>collapsed->고꾸라짐</li>
+    <li>__unused__-></li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->정지함</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->멈춤</li>
-    <li>collapsed(SUBJECT_flesh==Mechanoid)->동력을 잃음</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->동력을 상실함</li>
     <li>helplessly->속수무책으로</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->의식을 잃고</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->기운 없이</li>
+    <li>helplessly->맥없이</li>
+    <li>helplessly->기운 없이</li>
     <li>helplessly(SUBJECT_flesh!=Mechanoid)->힘없이</li>
     <li>helplessly(SUBJECT_flesh==Mechanoid)->통제에서 벗어나</li>
     <li>collapsemeta->[collapse]</li>
@@ -174,8 +174,8 @@
   -->
   <Transition_Include.rulePack.rulesStrings>
     <li>duetoa->때문에</li>
-    <li>duetoa(p=0.5)->때문에</li>
-    <li>duetoa(p=0.5)->때문에</li>
+    <li>__unused__-></li>
+    <li>__unused__-></li>
   </Transition_Include.rulePack.rulesStrings>
   
 </LanguageData>

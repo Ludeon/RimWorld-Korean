@@ -30,27 +30,27 @@
     <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
   -->
   <Speech_AcceptRole.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
-    <li>speechtopic->[INITIATOR_possessive] 새로운 지위</li>
-    <li>speechtopic->[INITIATOR_possessive] 새로운 지위가 지닌 책임</li>
-    <li>speechtopic->[INITIATOR_possessive] 새로운 지위의 중요성</li>
-    <li>speechtopic->[INITIATOR_possessive] 뛰어난 자질</li>
-    <li>speechtopic->[INITIATOR_possessive] 강점과 활용도</li>
-    <li>speechtopic->[INITIATOR_possessive] 단점</li>
-    <li>speechtopic->[INITIATOR_possessive] 약점과 극복 방법</li>
-    <li>speechtopic->[INITIATOR_pronoun]가 공동체에 바치고자 하는 열망</li>
-    <li>speechtopic->[INITIATOR_possessive] 믿음에 대한 헌신</li>
-    <li>speechtopic->[INITIATOR_possessive] 미래에 대한 확신</li>
-    <li>speechtopic->[INITIATOR_possessive] 대의에 대한 열망</li>
-    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic](이)가 얼마나 지위에 적합한지</li>
-    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic](이)가 [INITIATOR_objective] 해결하는 방법</li>
-    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic](을)를 활용하여 어려움을 극복하는 방법</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
+    <li>speechtopic->자신의 새로운 지위</li>
+    <li>speechtopic->새로운 지위가 지닌 책임</li>
+    <li>speechtopic->새로운 지위의 중요성</li>
+    <li>speechtopic->자신이 가진 뛰어난 자질</li>
+    <li>speechtopic->자신의 강점과 활용도</li>
+    <li>speechtopic->자신의 단점</li>
+    <li>speechtopic->자신의 약점과 극복 방법</li>
+    <li>speechtopic->공동체를 섬기고자 하는 열망</li>
+    <li>speechtopic->믿음에 대한 헌신</li>
+    <li>speechtopic->미래에 대한 확신</li>
+    <li>speechtopic->대의에 대한 열망</li>
+    <li>speechtopic->자신의 [PersonalCharacteristic](와)과 지위의 관계</li>
+    <li>speechtopic->자신의 [PersonalCharacteristic](이)가 지위에 얼마나 적합한지</li>
+    <li>speechtopic->자신의 [PersonalCharacteristic](을)를 활용하여 어려움을 극복하려는 계획</li>
     <li>speechtopic->고마움</li>
-    <li>speechtopic->감사의 표현</li>
+    <li>speechtopic->감사</li>
     <li>speechtopic->인생의 목적</li>
     <li>speechtopic->정착지의 미래</li>
     <li>speechtopic->정착지 개선방안</li>
-    <li>speechtopic->어려운 의사결정 과정</li>
+    <li>speechtopic->의사결정의 어려움</li>
     <li>speechtopic->공동체의 사회적 구조</li>
     <li>speechtopic->책임지는 자세</li>
     <li>speechtopic->욕망보다 의무를 우선시하겠다는 각오</li>
@@ -75,17 +75,17 @@
     <li>speechtopic->psychic connections</li>
   -->
   <Speech_Blinding.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>speechtopic->실명</li>
     <li>speechtopic->실명의 순수성</li>
     <li>speechtopic->눈이 먼다는 것의 영적인 의미</li>
     <li>speechtopic->시야 밖의 숨겨진 세상</li>
     <li>speechtopic->거짓된 시각적 현실</li>
-    <li>speechtopic->실명 기술</li>
+    <li>speechtopic->실명의 기술</li>
     <li>speechtopic->시야의 저주</li>
     <li>speechtopic->눈알 속의 젤리</li>
-    <li>speechtopic->성장을 목격</li>
-    <li>speechtopic->맹인으로의 성장</li>
+    <li>speechtopic->아직 앞이 보이던 시절</li>
+    <li>speechtopic->맹인으로서의 성장</li>
     <li>speechtopic->보거나 움직이지 않고 탐색하는 방법</li>
     <li>speechtopic->시야 밖의 진실</li>
     <li>speechtopic->초집중 연결</li>
@@ -112,7 +112,7 @@
     <li>speechtopic->progress towards the future</li>
   -->
   <Speech_Conversion.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>speechtopic->대의를 위한 통합</li>
     <li>speechtopic->변절자의 비겁함</li>
     <li>speechtopic->제대로 된 믿음</li>
@@ -125,7 +125,7 @@
     <li>speechtopic->사랑과 증오</li>
     <li>speechtopic->공포와 안전</li>
     <li>speechtopic->소속의 정당성</li>
-    <li>speechtopic->가입과 소속</li>
+    <li>speechtopic->합류와 속함</li>
     <li>speechtopic->거짓된 사상</li>
     <li>speechtopic->미래를 향한 진보</li>
   </Speech_Conversion.logRulesInitiator.rulesStrings>
@@ -144,15 +144,15 @@
     <li>praisetopic->[INITIATOR_possessive] own group</li>
   -->
   <Speech_DateRitual.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [praisetopic][praised].</li>
-    <li>praisetopic->사상적 기념의 기쁨</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [praisetopic][praised].</li>
+    <li>praisetopic->사상 기념의 기쁨</li>
     <li>praisetopic->올바른 생각</li>
     <li>praisetopic->우주의 도덕적 구조</li>
-    <li>praisetopic->[INITIATOR_possessive] 믿음</li>
+    <li>praisetopic->자신의 믿음</li>
     <li>praisetopic->단란함</li>
     <li>praisetopic->함께 하는 것</li>
     <li>praisetopic->생각을 나누는 것</li>
-    <li>praisetopic->[INITIATOR_possessive] 무리</li>
+    <li>praisetopic->공동체</li>
   </Speech_DateRitual.logRulesInitiator.rulesStrings>
   
   <!-- EN: duel speech -->
@@ -176,8 +176,8 @@
     <li>praisetopic->rage and strength</li>
   -->
   <Speech_Duel.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [praisetopic][praised].</li>
-    <li>praisetopic->검에 베여 죽음</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [praisetopic][praised].</li>
+    <li>praisetopic->검에 베여 죽는 것</li>
     <li>praisetopic->고통스러운 죽음</li>
     <li>praisetopic->명예로운 죽음</li>
     <li>praisetopic->명예로운 전투</li>
@@ -194,7 +194,7 @@
     <li>praisetopic->분노와 힘</li>
   </Speech_Duel.logRulesInitiator.rulesStrings>
   
-  <!-- EN: exceution speech -->
+  <!-- EN: execution speech -->
   <Speech_Execution.label>공개 처형 연설</Speech_Execution.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
@@ -209,14 +209,14 @@
     <li>speechtopic->the reasons for the execution</li>
   -->
   <Speech_Execution.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>speechtopic->삶과 죽음</li>
     <li>speechtopic->정의의 필요성</li>
     <li>speechtopic->처형 방법</li>
     <li>speechtopic->죽음과 잔혹성</li>
     <li>speechtopic->자비로운 죽음</li>
-    <li>speechtopic->죽음의 명분과 자비로움</li>
-    <li>speechtopic->죽음의 상징화</li>
+    <li>speechtopic->올바른 처형의 자비로움</li>
+    <li>speechtopic->죽음의 상징</li>
     <li>speechtopic->사형과 그 역사</li>
     <li>speechtopic->처형하는 이유</li>
   </Speech_Execution.logRulesInitiator.rulesStrings>
@@ -239,19 +239,19 @@
     <li>speechtopic->carrying forward unfinished work</li>
   -->
   <Speech_Funeral.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>speechtopic->희생의 고결함</li>
     <li>speechtopic->죽음</li>
-    <li>speechtopic->삶과 죽음</li>
+    <li>speechtopic->죽음 이후의 삶</li>
     <li>speechtopic->죽음과 가족</li>
-    <li>speechtopic->좋은 삶에 대한 개념</li>
-    <li>speechtopic->존엄성의 길로서의 죽음</li>
+    <li>speechtopic->좋은 삶이라는 개념</li>
+    <li>speechtopic->존엄으로 향하는 길로서의 죽음</li>
     <li>speechtopic->시작과 끝</li>
     <li>speechtopic->사후 세계</li>
     <li>speechtopic->다음 단계를 축하하는 것</li>
     <li>speechtopic->친구의 빈자리</li>
     <li>speechtopic->삶과 기쁨</li>
-    <li>speechtopic->못다한 일을 끝마치는 것</li>
+    <li>speechtopic->못다 한 일을 끝마치는 것</li>
   </Speech_Funeral.logRulesInitiator.rulesStrings>
   
   <!-- EN: leader speech -->
@@ -293,17 +293,17 @@
     <li>speechtopic(p=0.25)->the right to survive</li>
   -->
   <Speech_Leader.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>speechtopic->[Vegetable](을)를 찾는 법</li>
     <li>speechtopic->[AdjectiveFriendly] 사람이 되는 법</li>
     <li>speechtopic->[AnimalBadass](을)를 피하는 법</li>
-    <li>speechtopic->어떻게 삶이 [Game](와)과 같은지</li>
-    <li>speechtopic->[Weapon](으)로써의 마음</li>
+    <li>speechtopic->삶과 [Game]의 유사성</li>
+    <li>speechtopic->[Weapon](으)로서의 마음</li>
     <li>speechtopic->[TerrainFeature](와)과 [TerrainFeature](을)를 헤치며 탐험하는 법</li>
     <li>speechtopic->[Direction]쪽에 대한 약속</li>
-    <li>speechtopic->[Animal](을)를 닮아가는 방법</li>
-    <li>speechtopic->[NaturalObject](와)과 [NaturalObject]에 관한 상징성</li>
-    <li>speechtopic->우리 모두 [PersonFamily]이자 [PersonFamily]임</li>
+    <li>speechtopic->[Animal](을)를 닮는 방법</li>
+    <li>speechtopic->[NaturalObject](와)과 [NaturalObject]의 상징성</li>
+    <li>speechtopic->우리 모두 [PersonFamily]이자 [PersonFamily](이)라는 사실</li>
     <li>speechtopic->어떻게 하면 좋은 [PersonAlly](이)가 될 수 있는가</li>
     <li>speechtopic->[PersonJob]의 필요성</li>
     <li>speechtopic->[PersonBadass](을)를 피하는 법</li>
@@ -318,7 +318,7 @@
     <li>speechtopic->정착지의 [AdjectiveLarge] 가능성</li>
     <li>speechtopic->모든 정착민의 [PersonalCharacteristic]</li>
     <li>speechtopic->적들의 끔찍한 [PersonalCharacteristic]</li>
-    <li>speechtopic(p=0.25)->집단으로써 모두 뭉치는 것</li>
+    <li>speechtopic(p=0.25)->집단으로서 뭉치는 것</li>
     <li>speechtopic(p=0.25)->비극을 딛고 나아가는 길</li>
     <li>speechtopic(p=0.25)->공동체와 그 중요성</li>
     <li>speechtopic(p=0.25)->생존 대 사치</li>
@@ -353,19 +353,19 @@
     <li>speechtopic->putting community goals above [INITIATOR_possessive] personal ambitions</li>
   -->
   <Speech_RemoveRole.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
-    <li>speechtopic->[INITIATOR_pronoun]가 과거 맡았던 역할</li>
-    <li>speechtopic->[INITIATOR_possessive] 옛 지위가 지닌 책임</li>
-    <li>speechtopic->[INITIATOR_possessive] 옛 지위가 지닌 어려움</li>
-    <li>speechtopic->[INITIATOR_possessive] 단점</li>
-    <li>speechtopic->[INITIATOR_possessive] 약점과 극복 방법</li>
-    <li>speechtopic->[INITIATOR_possessive] 공동체에 대한 불만</li>
-    <li>speechtopic->[INITIATOR_possessive] 믿음에 대한 헌신</li>
-    <li>speechtopic->[INITIATOR_possessive] 미래에 대한 확신</li>
-    <li>speechtopic->[INITIATOR_possessive] 목표에 대한 갈망</li>
-    <li>speechtopic->[INITIATOR_possessive] 부족한 [PersonalCharacteristic]</li>
-    <li>speechtopic->[INITIATOR_possessive] 과거</li>
-    <li>speechtopic->겸손한 언사</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
+    <li>speechtopic->자신의 이전 지위</li>
+    <li>speechtopic->옛 지위의 책임</li>
+    <li>speechtopic->옛 지위의 어려움</li>
+    <li>speechtopic->자신의 단점</li>
+    <li>speechtopic->자신의 약점과 극복 방법</li>
+    <li>speechtopic->공동체에 대한 불만</li>
+    <li>speechtopic->믿음에 대한 헌신</li>
+    <li>speechtopic->미래에 대한 확신</li>
+    <li>speechtopic->목표에 대한 갈망</li>
+    <li>speechtopic->자신이 부족한 [PersonalCharacteristic]</li>
+    <li>speechtopic->자신의 과거</li>
+    <li>speechtopic->겸손</li>
     <li>speechtopic->인생의 목적</li>
     <li>speechtopic->정착지의 미래</li>
     <li>speechtopic->정착지 개선방안</li>
@@ -400,7 +400,7 @@
     <li>crazy->muttered repetitively</li>
   -->
   <Speech_Sacrifice.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef][crazy].</li>
     <li>speechtopic->죽음의 의미와 진정한 가치</li>
     <li>speechtopic->고통의 표출</li>
@@ -414,9 +414,9 @@
     <li>speechtopic->피의 유혹</li>
     <li>speechtopic->비명의 교향곡</li>
     <li>speechtopic->바닥의 내장</li>
-    <li>crazy->(이)가 미친 사람처럼 비명 지름</li>
+    <li>crazy->(이)가 미친 사람처럼 비명을 지름</li>
     <li>crazy->(이)가 갑자기 성가를 부름</li>
-    <li>crazy->(이)가 하늘에 닿을 정도로 찌렁찌렁 성가를 부름</li>
+    <li>crazy->(이)가 하늘을 향해 성가를 부름</li>
     <li>crazy->(이)가 희생자의 눈에 침을 뱉음</li>
     <li>crazy->(이)가 낄낄거림</li>
     <li>crazy->(이)가 칼을 휘두름</li>
@@ -447,7 +447,7 @@
     <li>crazy->muttered repetitively</li>
   -->
   <Speech_Scarification.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef][crazy].</li>
     <li>speechtopic->몸에 고통을 새기는 것</li>
     <li>speechtopic->고통의 표출</li>
@@ -460,16 +460,16 @@
     <li>speechtopic->베는 기술</li>
     <li>speechtopic->피의 유혹</li>
     <li>speechtopic->비명의 교향곡</li>
-    <li>crazy->(이)가 미친 사람처럼 비명 지름</li>
+    <li>crazy->(이)가 미친 사람처럼 비명을 지름</li>
     <li>crazy->(이)가 갑자기 성가를 부름</li>
-    <li>crazy->(이)가 하늘에 닿을 정도로 찌렁찌렁 성가를 부름</li>
+    <li>crazy->(이)가 하늘을 향해 성가를 부름</li>
     <li>crazy->(이)가 낄낄거림</li>
     <li>crazy->(이)가 칼을 휘두름</li>
     <li>crazy->(이)가 쉴 새 없이 중얼거림</li>
   </Speech_Scarification.logRulesInitiator.rulesStrings>
   
   <!-- EN: tree connection speech -->
-  <Speech_TreeConnection.label>나무와의 교감에 대한 연설</Speech_TreeConnection.label>
+  <Speech_TreeConnection.label>나무 교감 연설</Speech_TreeConnection.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the trees and the people</li>
@@ -486,17 +486,17 @@
     <li>speechtopic->connecting with nature</li>
   -->
   <Speech_TreeConnection.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](은)는 [speechtopic][spokeof].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [speechtopic][spokeof].</li>
     <li>speechtopic->나무와 사람</li>
-    <li>speechtopic->나무와 초능력</li>
+    <li>speechtopic->나무와 초정신 능력</li>
     <li>speechtopic->나무지기</li>
     <li>speechtopic->요정나무의 생애</li>
     <li>speechtopic->요정나무의 영적 존재감</li>
-    <li>speechtopic->초능력 교감</li>
-    <li>speechtopic->나무지기들이 얼마나 귀여운지</li>
+    <li>speechtopic->나무와의 초정신 교감</li>
+    <li>speechtopic->나무지기들의 귀여움</li>
     <li>speechtopic->나무지기들의 고결함</li>
     <li>speechtopic->나무의 수명</li>
-    <li>speechtopic->인류의 나무 아래서의 역할</li>
+    <li>speechtopic->나무 아래서의 인류의 역할</li>
     <li>speechtopic->생명을 심는 것과 영원</li>
     <li>speechtopic->자연과의 교감</li>
   </Speech_TreeConnection.logRulesInitiator.rulesStrings>

@@ -77,16 +77,16 @@
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
-    <li>result(p=1)->[RECIPIENT_possessive] [targetlist](이)가 [damaged_present]</li>
-    <li>result(p=0.2)->[RECIPIENT_possessive] [targetlist](이)가 [damaged_present]. [flavortext_consequence]</li>
-    <li>result(p=0.1)->[RECIPIENT_possessive] [targetlist](이)가 [strikeAdv] [damaged_present]</li>
+    <li>result(p=1)->[RECIPIENT_definite]의 [targetlist](이)가 [damaged_present]</li>
+    <li>result(p=0.2)->[RECIPIENT_definite]의 [targetlist](이)가 [damaged_present]. [flavortext_consequence]</li>
+    <li>result(p=0.1)->[RECIPIENT_definite]의 [targetlist](이)가 [strikeAdv] [damaged_present]</li>
     <li>strikeAdv->고통스럽게</li>
     <li>strikeAdv->끔찍하게</li>
     <li>strikeAdv->잔인하게</li>
     <li>strikeAdv->난폭하게</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]에게 고통스러운 상처가 남게 됨</li>
-    <li>flavortext_consequence->[RECIPIENT_definite]에게 끔찍한 상처가 남게 됨</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite](이)가 [painevent] [wince] 함</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite]에게 끔찍한 상처가 남음</li>
+    <li>flavortext_consequence->[RECIPIENT_definite]에게 끔찍한 흔적이 남음</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_definite](이)가 [painevent] [wince] 만듬</li>
     <li>flavortext_consequence(p=0.2)->[RECIPIENT_definite](이)가 균형을 잃음</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
@@ -148,15 +148,15 @@
     <li>damaged_present(deflected!=True)->상처 입음</li>
     <li>damaged_present(deflected!=True)->부상 입음</li>
     <li>destroyed(p=0.5)->부숴버림</li>
-    <li>destroyed(p=0.5)->붕괴시켜버림</li>
+    <li>destroyed(p=0.5)->부숴버림</li>
     <li>destroyed(p=0.5)->파괴함</li>
     <li>destroyed(p=0.5)->망가뜨림</li>
     <li>wince(RECIPIENT_flesh==Normal)->움찔하게</li>
-    <li>wince(RECIPIENT_flesh==Normal)->얼굴을 구기도록</li>
+    <li>wince(RECIPIENT_flesh==Normal)->얼굴을 구기게</li>
     <li>wince(RECIPIENT_flesh==Normal)->움츠리게</li>
-    <li>wince(RECIPIENT_flesh==Normal)->신음하도록</li>
-    <li>wince(RECIPIENT_flesh!=Mechanoid)->비명을 지르도록</li>
-    <li>wince(RECIPIENT_flesh!=Mechanoid)->큰 소리를 내뱉도록</li>
+    <li>wince(RECIPIENT_flesh==Normal)->신음하게</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->비명을 지르게</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->소리를 지르게</li>
     <li>wince->움찔하게</li>
     <li>wince->주춤하게</li>
     <li>painstate-></li>
@@ -227,7 +227,7 @@
     <li>wielding(p=4)->휘둘러</li>
     <li>wielding(p=3)->사용해</li>
     <li>wielding(p=2)->쥐고</li>
-    <li>wielding->휘둘러</li>
+    <li>wielding->잡고</li>
     <li>wielding->다뤄</li>
     <li>using(p=4)->사용해</li>
     <li>using->휘둘러</li>
@@ -269,7 +269,7 @@
     <li>skillAdv(INITIATOR_skill>=16)->우아하게</li>
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->기계적으로</li>
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->기계적으로</li>
-    <li>skillAdv(INITIATOR_flesh==Mechanoid)->직접적으로</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->군더더기 없이</li>
   </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:

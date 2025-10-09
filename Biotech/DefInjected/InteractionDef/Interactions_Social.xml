@@ -36,25 +36,25 @@
     <li>babyGame->fingerpuppets</li>
   -->
   <BabyPlay.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 [reaction] 함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef][reaction] 함.</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef][interaction].</li>
     <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](와)과 함께 [babyGame](을)를 하며 놂.</li>
-    <li>reaction->킥킥 웃게</li>
-    <li>reaction->웃음 짓게</li>
-    <li>reaction->신나게</li>
-    <li>reaction->웃게</li>
-    <li>reaction->장난으로 침을 흘리게</li>
-    <li>reaction->꺄르르 웃게</li>
-    <li>reaction->재밌어서 소리를 지르게</li>
-    <li>reaction->트림을 하게</li>
-    <li>reaction->마음을 사로잡아 집중하게</li>
+    <li>reaction->(을)를 킥킥 웃게</li>
+    <li>reaction->(을)를 웃음 짓게</li>
+    <li>reaction->(을)를 신나게</li>
+    <li>reaction->(을)를 웃게</li>
+    <li>reaction->(을)를 웃으며 침흘리게</li>
+    <li>reaction->(을)를 꺄르르 웃게</li>
+    <li>reaction->(을)를 재밌어서 소리 지르게</li>
+    <li>reaction->(을)를 트림하게</li>
+    <li>reaction->의 마음을 사로잡아서 집중하게</li>
     <li>interaction->(와)과 즐겁게 놂</li>
     <li>interaction->(와)과 같이 놂</li>
     <li>interaction->(와)과 신나게 놂</li>
     <li>interaction->(와)과 재밌게 놂</li>
     <li>interaction->(을)를 간지럼 태우면서 놂</li>
     <li>interaction->의 볼에 뽀뽀함</li>
-    <li>interaction->에게 배방구를 함</li>
+    <li>interaction->(을)를 안아 냄새 맡는 시늉을 함</li>
     <li>interaction->(을)를 껴안음</li>
     <li>interaction->(을)를 비행기 태움</li>
     <li>interaction->에게 노래를 불러줌</li>
@@ -774,7 +774,7 @@
     <li>planType->영향력을 행사할</li>
     <li>planType->혈액정수를 수급할</li>
     <li>planType->기술을 숙달할</li>
-    <li>planType->다른 세계로 이주할</li>
+    <li>planType->다른 행성들로 퍼져나가는</li>
     <li>planType->인간을 지배할</li>
     <li>planType->생귀오파지 사냥꾼을 절멸시킬</li>
     <li>planType->무한한 삶을 즐길</li>

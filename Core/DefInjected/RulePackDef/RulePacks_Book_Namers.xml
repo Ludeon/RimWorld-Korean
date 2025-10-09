@@ -295,7 +295,7 @@
     <li>place->동물원</li>
     <li>story->모험</li>
     <li>story->모험들</li>
-    <li>story->알레고리</li>
+    <li>story->모험담</li>
     <li>story->일화</li>
     <li>story->연대기</li>
     <li>story->발라드</li>
@@ -345,11 +345,11 @@
     <li>story->신화</li>
     <li>story->신화록</li>
     <li>story->신화들</li>
-    <li>story->내레이션</li>
+    <li>story->독백</li>
     <li>story->이야기</li>
     <li>story->소설</li>
     <li>story->관측</li>
-    <li>story->소견</li>
+    <li>story->민화</li>
     <li>story->페이지</li>
     <li>story->장</li>
     <li>story->우화</li>
@@ -366,7 +366,7 @@
     <li>story->대본</li>
     <li>story->스케치</li>
     <li>story->끄적임</li>
-    <li>story->이야기</li>
+    <li>story->책</li>
     <li>story->이야기</li>
     <li>story->이야기들</li>
     <li>story->성약</li>
@@ -374,7 +374,7 @@
     <li>story->비극</li>
     <li>story->찬사</li>
     <li>story->시</li>
-    <li>story->책</li>
+    <li>story->시집</li>
     <li>story->변덕</li>
   </Namer_Novel.rulePack.rulesStrings>
   
@@ -506,7 +506,7 @@
     <li>randTheme->ethics</li>
   -->
   <Namer_Schematic.rulePack.rulesStrings>
-    <li>title->[subject_primary]의 디자인</li>
+    <li>title->[subject_primary] 디자인</li>
     <li>title->[subject_primary]에 대한 소고</li>
     <li>title->차세대 [subject_primary] 탐구</li>
     <li>title->[subject_primary] 개발 분석</li>
@@ -519,7 +519,7 @@
     <li>title->[randAdjective] [subject_primary]</li>
     <li>title->[randAdjective] [subject_primary] Vol. [volNumeral]</li>
     <li>title->[maybe_authored_title]</li>
-    <li>title(has_subject_secondary==true)->[subject_secondary] 분야에서의 [subject_primary] [studiesStart]</li>
+    <li>title(has_subject_secondary==true)->[subject_secondary] [studiesStart]의 관점에서 본 [subject_primary] [studiesStart]</li>
     <li>title(has_subject_secondary==true)->[subject_secondary] 기반 [subject_primary]의 응용</li>
     <li>title->[subject_primary] [studiesStart][anecdotes]</li>
     <li>title->[randAdjective] [subject_primary] [studiesStart]: [discussionNoun]</li>
@@ -533,7 +533,7 @@
     <li>studiesStart->관리</li>
     <li>studiesStart->역사</li>
     <li>studiesStart->작업</li>
-    <li>studiesStart->표현</li>
+    <li>studiesStart->연구</li>
     <li>studiesStart->활용</li>
     <li>studiesStart->발전</li>
     <li>studiesStart->응용</li>
@@ -552,7 +552,7 @@
     <li>anecdotes-> 고찰</li>
     <li>anecdotes-> 논의</li>
     <li>anecdotes->: 민간 설화 중심</li>
-    <li>anecdotes->: 소문 추적</li>
+    <li>anecdotes->: 추적조사</li>
     <li>anecdotes->: 통합적 접근</li>
     <li>anecdotes->: 보편적 접근</li>
     <li>discussionNoun->토론</li>
@@ -569,7 +569,7 @@
     <li>lifeEvent->분리</li>
     <li>lifeEvent->착륙</li>
     <li>lifeEvent->혁명</li>
-    <li>lifeEvent->초월공학 발동</li>
+    <li>lifeEvent->초월공학 부름</li>
     <li>lifeEvent->호락스</li>
     <li>lifeEvent->탄생</li>
     <li>lifeEvent->사고</li>
@@ -866,7 +866,7 @@
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]의 [subjectsTuple] 분석</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]의 [subjectsTuple] 접근</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]의 [subjectsTuple] 재발견</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]의 [subjectsTuple](을)를 논하다</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef](이)가 [subjectsTuple](을)를 논하다</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]의 [subjectsTuple] 탐구</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]의 [subjectsTuple] 조사기록</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]의 [subjectsTuple] 연구</li>

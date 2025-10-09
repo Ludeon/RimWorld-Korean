@@ -60,16 +60,16 @@
     <li>fire(p=3)->불에 탐</li>
     <li>fire(p=3)->불에 탐</li>
     <li>fire(p=3)->불에 탐</li>
-    <li>fire->열기의 피해를 받음</li>
+    <li>fire->고열에 휩싸임</li>
     <li>fire->화재로 타오름</li>
     <li>fire->화염에 휩싸임</li>
-    <li>damaged_present->데어버림</li>
+    <li>damaged_present->데었음</li>
     <li>damaged_present->그슬림</li>
     <li>damaged_present->화상을 입음</li>
     <li>damaged_present->익어버림</li>
-    <li>destroyed_present->그을림</li>
-    <li>destroyed_present->구워짐</li>
-    <li>destroyed_present->삶아짐</li>
+    <li>destroyed_present->숯덩이가 됨</li>
+    <li>destroyed_present->잿더미가 됨</li>
+    <li>destroyed_present->바싹 타버림</li>
     <li>destroyed_present->불타 없어짐</li>
   </DamageEvent_Fire.rulePack.rulesStrings>
   
@@ -81,7 +81,7 @@
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
     <li>r_logentry->[RECIPIENT_nameDef][damage_source]. [destroyed_targets](이)가 [destroyed_present].</li>
-    <li>r_logentry->[RECIPIENT_nameDef][damage_source]. [destroyed_targets](이)가 [destroyed_present]. 동시에 [damaged_targets]도 [damaged_present].</li>
+    <li>r_logentry->[RECIPIENT_nameDef][damage_source]. [destroyed_targets](이)가 [destroyed_present]. [damaged_targets]도 [damaged_present].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_nameDef][damage_source]. [damaged_targets](이)가 [damaged_present].</li>
     <li>r_logentry(p=0.1)->[RECIPIENT_nameDef][damage_source].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
@@ -159,22 +159,22 @@
     <li>destroyed_present->exploding</li>
   -->
   <DamageEvent_TrapSpike.rulePack.rulesStrings>
-    <li>damage_source->(은)는 [spiketrap]에 찔림</li>
-    <li>damage_source->(은)는 [spiketrap]에 가격당함</li>
-    <li>damage_source->(은)는 [spiketrap]에 쏘임</li>
+    <li>damage_source->(이)가 [spiketrap]에 찔림</li>
+    <li>damage_source->(이)가 [spiketrap]에 공격당함</li>
+    <li>damage_source->(이)가 [spiketrap]에 쏘임</li>
     <li>spiketrap(p=3)->가시 함정</li>
     <li>spiketrap(p=3)->가시 함정</li>
     <li>spiketrap->가시</li>
     <li>spiketrap->날카로운 함정</li>
     <li>spiketrap->뾰족한 함정</li>
-    <li>damaged_present->구멍 뚫림</li>
+    <li>damaged_present->구멍남</li>
     <li>damaged_present->찔림</li>
-    <li>damaged_present->관통됨</li>
+    <li>damaged_present->뚫림</li>
     <li>damaged_present->찔림</li>
-    <li>destroyed_present->갈갈이 찢겨짐</li>
+    <li>destroyed_present->갈갈이 찢김</li>
     <li>destroyed_present->잘게 찢겨나감</li>
     <li>destroyed_present->조각남</li>
-    <li>destroyed_present->폭발함</li>
+    <li>destroyed_present->터져버림</li>
   </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

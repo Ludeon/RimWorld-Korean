@@ -34,7 +34,7 @@
     <li>fromof->of</li>
   -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->[INITIATOR_definite]의 [projectile] [blast]</li>
+    <li>fromof-></li>
     <li>prefix->[INITIATOR_definite]의 [WEAPON_label] [blast]</li>
     <li>prefix->[INITIATOR_definite]의 [projectile] [blast]</li>
     <li>prefix->[INITIATOR_definite]의 [WEAPON_label] [blast]</li>
@@ -47,13 +47,13 @@
     <li>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past].</li>
     <li>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [strikeAdv] [destroyed_past].</li>
     <li>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [strikeAdv] [destroyed_past].</li>
-    <li>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past]. [damaged_targets]도 [damaged_past].</li>
+    <li>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past]. [damaged_targets]도 [damaged_present].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_past].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_past].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [strikeAdv] [damaged_past].</li>
-    <li>r_logentry->[RECIPIENT_definite](을)를 [INITIATOR_definite](이)가 [damaged_past].</li>
-    <li>r_logentry->[RECIPIENT_definite](을)를 [INITIATOR_definite](이)가 [strikeAdv] [damaged_past].</li>
-    <li>r_logentry->[RECIPIENT_definite](을)를 [damaged_past].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [damaged_past].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [strikeAdv] [damaged_past].</li>
+    <li>r_logentry->[RECIPIENT_definite](이)가 [damaged_present].</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite](이)가 폭발에 휘말림.</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite](은)는 폭발에 적중당함.</li>
     <li>blast->폭발</li>
@@ -62,8 +62,8 @@
     <li>blast->폭발</li>
     <li>blast->폭발</li>
     <li>blast->충격파</li>
-    <li>fromof-></li>
-    <li>fromof-></li>
+    <li>damaged_present(p=0.001)->피해를 받음</li>
+    <li>destroyed_present(p=0.001)->파괴됨</li>
   </Combat_ExplosionImpact.rulePack.rulesStrings>
   
   <!-- EN:
@@ -136,51 +136,51 @@
     <li>r_logentry->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past].</li>
     <li>r_logentry->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_suffix] [destroyed_past].</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite]의 [destroyed_targets](이)가 대신 맞고 [destroyed_present].</li>
-    <li>r_logentry->[RECIPIENT_definite]의 [destroyed_targets](을)를 [INITIATOR_definite]의 [projectile](이)가 [destroyed_past].</li>
-    <li>r_logentry->[RECIPIENT_definite]의 [destroyed_targets](을)를 [INITIATOR_definite]의 [projectile](이)가 [destroyed_suffix] [destroyed_past].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite](을)를 맞힘. [destroyed_targets](이)가 [destroyed_present].</li>
+    <li>r_logentry->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past].</li>
+    <li>r_logentry->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_suffix] [destroyed_past].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_past].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_past].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite]의 [damaged_targets](이)가 대신 맞고 [damaged_present].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]의 [damaged_targets](을)를 [INITIATOR_definite]의 [projectile](이)가 [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite](을)를 맞힘. [damaged_targets](이)가 [damaged_present].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_past].</li>
     <li>r_logentry(p=3)->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_past]. [damaged_targets]도 [damaged_past].</li>
-    <li>r_logentry(p=6)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite]의 [destroyed_targets](이)가 대신 맞고 [destroyed_present]. [damaged_targets]도 [damaged_present].</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite](을)를 맞힘. [destroyed_targets](이)가 [destroyed_present]. [damaged_targets]도 [damaged_present].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [projectile](으)로 맞춤.</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]에 적중함.</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [projectile](으)로 [ORIGINALTARGET_definite](을)를 노렸으나 [RECIPIENT_definite](이)가 맞음.</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite](이)가 맞음.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [projectile](으)로 [ORIGINALTARGET_definite](을)를 노렸으나, [RECIPIENT_definite](을)를 대신 맞춤.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [ORIGINALTARGET_definite](을)를 노리고 발사한 [projectile](이)가 [RECIPIENT_definite](을)를 맞힘.</li>
     <li>projectile(p=0.05)->사격</li>
     <li>destroyed_past->박살냄</li>
     <li>destroyed_past->짓이김</li>
-    <li>destroyed_past->뭉개버림</li>
+    <li>destroyed_past->파괴함</li>
     <li>destroyed_past->파괴함</li>
     <li>destroyed_past->관통함</li>
-    <li>destroyed_past->관통함</li>
+    <li>destroyed_past->꿰뚫음</li>
     <li>destroyed_past->뚫어버림</li>
     <li>destroyed_present->박살남</li>
     <li>destroyed_present->짓이겨짐</li>
     <li>destroyed_present->파괴됨</li>
     <li>destroyed_present->파괴됨</li>
     <li>destroyed_present->관통됨</li>
-    <li>destroyed_present->관통됨</li>
+    <li>destroyed_present->꿰뚫림</li>
     <li>destroyed_present->뚫려버림</li>
     <li>destroyed_suffix->조각조각으로</li>
     <li>destroyed_suffix->산산조각으로</li>
     <li>destroyed_suffix->완전히</li>
-    <li>destroyed_suffix->산산히</li>
-    <li>destroyed_suffix(p=0.5)->엉망진창으로</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->간 고기처럼</li>
-    <li>damaged_past->부상 입힘</li>
-    <li>damaged_past->상처 입힘</li>
+    <li>destroyed_suffix->완벽히</li>
+    <li>destroyed_suffix->엉망진창으로</li>
+    <li>destroyed_suffix->끔찍하게</li>
+    <li>damaged_past(RECIPIENT_flesh!=Mechanoid)->상처 입힘</li>
+    <li>damaged_past(RECIPIENT_flesh!=Mechanoid)->부상 입힘</li>
     <li>damaged_past->관통함</li>
-    <li>damaged_past->상처 냄</li>
+    <li>damaged_past(RECIPIENT_flesh==Mechanoid)->훼손함</li>
     <li>damaged_past->타격함</li>
-    <li>damaged_present->상처 입음</li>
-    <li>damaged_present->부상 당함</li>
+    <li>damaged_present(RECIPIENT_flesh!=Mechanoid)->상처 입음</li>
+    <li>damaged_present(RECIPIENT_flesh!=Mechanoid)->부상 당함</li>
     <li>damaged_present->관통됨</li>
-    <li>damaged_present->손상됨</li>
-    <li>damaged_present->타격됨</li>
+    <li>damaged_present(RECIPIENT_flesh==Mechanoid)->손상됨</li>
+    <li>damaged_present->피해를 입음</li>
     <li>damaged_suffix->꼴사납게 만들며</li>
     <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->선명한 피를 뿌리게 하며</li>
     <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->살점이 흩날리게 하며</li>
@@ -218,10 +218,10 @@
   <Combat_RangedDeflect.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite]의 [damaged_target](을)를 [damaged_past]. [deflected_result].</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite][damaged_target_possessive_opt](을)를 [damaged_past]. [deflected_result].</li>
-    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt](을)를 [INITIATOR_definite]의 [projectile](이)가 [damaged_past]. [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [RECIPIENT_definite][damaged_target_possessive_opt](을)를 [projectile](으)로 맞춤. [deflected_result].</li>
+    <li>r_logentry->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite][damaged_target_possessive_opt](을)를 [damaged_past]. [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [RECIPIENT_definite][damaged_target_possessive_opt](을)를 [projectile](으)로 맞힘. [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]의 [projectile](이)가 [RECIPIENT_definite][damaged_target_possessive_opt]에 적중함. [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [projectile](으)로 [ORIGINALTARGET_definite](을)를 노렸으나 [RECIPIENT_definite][damaged_target_possessive_opt](을)를 대신 맞춤. [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [projectile](으)로 [ORIGINALTARGET_definite](을)를 노렸으나 [RECIPIENT_definite][damaged_target_possessive_opt](을)를 맞힘. [deflected_result].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]의 [projectile](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite][damaged_target_possessive_opt]에 적중함. [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [ORIGINALTARGET_definite](을)를 노리고 [projectile](을)를 발사했지만 [RECIPIENT_definite][damaged_target_possessive_opt](이)가 맞음. [deflected_result].</li>
     <li>projectile(p=0.05)->사격</li>
@@ -271,33 +271,33 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite](이)가 [WEAPON_label](으)로 [RECIPIENT_definite](을)를 향해 [shotat].</li>
-    <li>r_logentry->[INITIATOR_definite](이)가 [WEAPON_label](을)를 [RECIPIENT_definite]에 조준하고 [shot].</li>
-    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite]에게 [shotat].</li>
-    <li>r_logentry->[INITIATOR_definite](이)가 [projectile](을)를 [RECIPIENT_definite]에게 [burst] [shot].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [WEAPON_label](으)로 [RECIPIENT_definite][aim_towards] [shot].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [WEAPON_label](을)를 [RECIPIENT_definite][aim] [shot].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite][aim_towards] [shot].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [RECIPIENT_definite][aim_towards] [projectile](을)를 [shot].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite](이)가 [projectile](을)를 [shot].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite](이)가 [WEAPON_label](을)를 [shot].</li>
-    <li>shot_a(p=2)->[verb_shot]</li>
-    <li>shot_a->[skillAdv] [verb_shot]</li>
-    <li>shot(p=2)->[verb_shot]</li>
+    <li>shot_a->[verb_shot]</li>
+    <li>shotat->[verb_shot]</li>
+    <li>shot->[verb_shot]</li>
     <li>shot->[skillAdv] [verb_shot]</li>
-    <li>shotat->[aburst] 사격함</li>
-    <li>shotat->[skillAdv] [aburst] 사격함</li>
-    <li>shotat(p=0.5)->[aburst] 사격을 시도함</li>
-    <li>shotat(p=0.3)->사격을 시도함</li>
-    <li>shotat(p=0.2)->[skillAdv] 사격함</li>
-    <li>shotat->[aburst] 발사함</li>
-    <li>shotat->[skillAdv] [aburst] 발사함</li>
-    <li>shotat(p=0.5)->조준하고 [aburst] 발사함</li>
-    <li>shotat(p=0.5)->[skillAdv] 조준하여 [aburst] 발사함</li>
-    <li>shotat(p=0.3)->사격을 개시함</li>
+    <li>aim->(을)를</li>
+    <li>aim->(을)를 겨누고</li>
+    <li>aim->(을)를 조준하고</li>
+    <li>aim_towards->(을)를</li>
+    <li>aim_towards-> 쪽을</li>
+    <li>aim_towards->(을)를 향해</li>
+    <li>__unused__-></li>
+    <li>__unused__-></li>
+    <li>__unused__-></li>
+    <li>__unused__-></li>
     <li>aburst-></li>
-    <li>aburst(BURST==True,p=3)->연속해서</li>
     <li>burst-></li>
-    <li>burst(BURST==True,p=3)->연속해서</li>
+    <li>verb_shot(BURST==True,p=2)->연사함</li>
+    <li>verb_shot(BURST==True,p=0.5)->난사함</li>
     <li>verb_shot->사격함</li>
     <li>verb_shot->발사함</li>
-    <li>verb_shot(p=0.2)->갈겨버림</li>
+    <li>verb_shot(p=0.2)->갈김</li>
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -330,12 +330,12 @@
     <li>r_logentry->[INITIATOR_definite](이)가 [projectile](을)를 [RECIPIENT_definite]에게 [threw].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite](이)가 [projectile](을)를 [threw].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite](이)가 [projectile](을)를 [threw].</li>
-    <li>threw_a->[adverb_threw] [verb_threw]</li>
-    <li>threw_a(p=2)->[verb_threw]</li>
+    <li>threw_a->[verb_threw]</li>
+    <li>__unused__-></li>
     <li>threw(p=2)->[verb_threw]</li>
     <li>threw->[adverb_threw] [verb_threw]</li>
     <li>verb_threw->던짐</li>
-    <li>verb_threw->내던짐</li>
+    <li>verb_threw->날림</li>
     <li>verb_threw->투척함</li>
     <li>adverb_threw->주의 깊게</li>
     <li>adverb_threw->빠르게</li>
@@ -397,21 +397,21 @@
   -->
   <Combat_RangedMiss.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite]의 [projectile](이)가 [missed].</li>
-    <li>r_logentry->[INITIATOR_definite](이)가 [ORIGINALTARGET_definite](을)를 빗맞춤.</li>
-    <li>r_logentry->[ORIGINALTARGET_definite](이)가 [avoidance], [INITIATOR_definite]의 [projectile](이)가 [missing].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [ORIGINALTARGET_definite](을)를 맞추지 못함.</li>
+    <li>r_logentry->[ORIGINALTARGET_definite](이)가 [INITIATOR_definite]의 [projectile](을)를 피해 [avoidance]. [projectile](은)는 [missed].</li>
     <li>missed(p=4)->빗나감</li>
     <li>missed(p=2)->간발의 차이로 빗나감</li>
-    <li>missed(p=2)->상당한 차이로 빗나감</li>
-    <li>missed->옆으로 날아감</li>
-    <li>missed->하늘로 날아가 버림</li>
-    <li>missed->하늘 높이 날아가 버림</li>
-    <li>missed->땅을 뚫고 들어가 버림</li>
-    <li>missed->땅에 튕겨 사라져 버림</li>
-    <li>missed->땅에 웅덩이를 만들어 버림</li>
+    <li>missed(p=2)->크게 빗나감</li>
+    <li>missed->아무것도 맞추지 못함</li>
+    <li>missed->허공으로 날아감</li>
+    <li>missed->하늘 높이 날아감</li>
+    <li>missed->땅에 박힘</li>
+    <li>missed->땅에 튕겨 사라짐</li>
+    <li>missed->땅을 파고 사라짐</li>
     <li>missed(p=0.2)->[ORIGINALTARGET_definite]에서 밀리미터 차이로 빗나감</li>
-    <li>missed->[ORIGINALTARGET_definite]에서 센티미터 차이로 빗나감</li>
-    <li>missed->[ORIGINALTARGET_definite]에서 1미터 정도 빗나감</li>
-    <li>missed->멀리 날아가 버림</li>
+    <li>missed->[ORIGINALTARGET_definite](을)를 몇 센티미터 차이로 빗나감</li>
+    <li>missed->[ORIGINALTARGET_definite](을)를 1미터 정도 빗나감</li>
+    <li>missed->멀리 날아감</li>
     <li>missing->빗나감</li>
     <li>missing->간발의 차이로 빗나감</li>
     <li>missing->상당한 차이로 빗나감</li>
@@ -426,18 +426,18 @@
     <li>missing->[ORIGINALTARGET_definite]에서 1미터 정도 빗나감</li>
     <li>missing->멀리 날아가 버림</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moment] [moved]</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite]의 [ducked]</li>
-    <li>moved->움직여서</li>
-    <li>moved->몸을 낮춰서</li>
-    <li>moved->수그려서</li>
-    <li>moved->엎드려서</li>
-    <li>moment->간신히</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite] [ducked]</li>
+    <li>moved->회피함</li>
+    <li>moved->몸을 낮춤</li>
+    <li>moved->수그림</li>
+    <li>moved->엎드림</li>
+    <li>moment->가까스로</li>
     <li>moment->아슬아슬하게</li>
-    <li>moment->간발의 차이로</li>
-    <li>ducked->뒤에 엎드려서</li>
-    <li>ducked->뒤에 기대서</li>
-    <li>ducked->뒤로 몸을 낮춰서</li>
-    <li>ducked->뒤로 숨어서</li>
+    <li>moment->순간적으로</li>
+    <li>ducked->뒤에 엎드림</li>
+    <li>ducked->뒤에 엄폐함</li>
+    <li>ducked->뒤로 몸을 낮춤</li>
+    <li>ducked->뒤로 숨음</li>
   </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>
