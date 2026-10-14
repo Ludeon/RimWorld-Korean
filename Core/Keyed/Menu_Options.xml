@@ -43,9 +43,9 @@
   <!-- EN: Pause on load -->
   <PauseOnLoad>시작 시 일시 정지</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
-  <PauseOnUrgentLetter>사건 발생시 일시정지</PauseOnUrgentLetter>
+  <PauseOnUrgentLetter>사건 발생 시 일시 정지</PauseOnUrgentLetter>
   <!-- EN: Pause on letter -->
-  <AutomaticPauseModeSetting>편지 도착 시 일시정지</AutomaticPauseModeSetting>
+  <AutomaticPauseModeSetting>편지 도착 시 일시 정지</AutomaticPauseModeSetting>
   <!-- EN: Disable game-specific cursor -->
   <CustomCursor>맞춤 커서 비활성화</CustomCursor>
   <!-- EN: Hide hats on UI -->
@@ -138,6 +138,8 @@
   <TextureCompression>텍스처 압축</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>텍스처 압축 기능을 비활성화하면 비디오 메모리가 더 많이 필요하지만 텍스처 품질이 약간 개선됩니다. 비디오 메모리가 충분할 때만 비활성화하세요.\n\n어떤 모드는 비디오 메모리를 훨씬 많이 사용할 수 있으므로, 그때는 텍스처 압축을 다시 활성화해야 할 수도 있습니다.</TextureCompression_Tooltip>
+  <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
+  <TextureCompressionAlwaysOn_Tooltip>Waylith 엔진의 텍스처 압축은 더 높은 품질을 제공하며 항상 활성화됩니다.</TextureCompressionAlwaysOn_Tooltip>
   <!-- EN: Smooth camera jumps -->
   <SmoothCameraJumps>부드러운 카메라 점프</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
@@ -153,9 +155,15 @@
   <!-- EN: Fullscreen -->
   <Fullscreen>전체화면</Fullscreen>
   <!-- EN: Borderless fullscreen -->
-  <BorderlessFullscreen>테두리 없는 전체화면</BorderlessFullscreen>
+  <BorderlessFullscreen>테두리 없는 전체 창 화면</BorderlessFullscreen>
+  <!-- EN: Display mode -->
+  <DisplayMode>화면 모드</DisplayMode>
+  <!-- EN: Windowed -->
+  <DisplayMode_Windowed>창 화면</DisplayMode_Windowed>
+  <!-- EN: Exclusive fullscreen -->
+  <DisplayMode_ExclusiveFullscreen>전체 화면</DisplayMode_ExclusiveFullscreen>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
-  <BorderlessFullscreenInstructions>림월드를 테두리 없는 전체화면으로 플레이하시려면,\n\n1) 스팀을 여세요.\n2) "라이브러리" 탭으로 이동하세요.\n3) 림월드를 찾아 오른쪽 클릭하세요.\n4) "속성..."을 클릭하세요.\n5) "일반" 탭의 "시작 옵션"에 "-popupwindow"를 추가하세요(따옴표 제외).\n6) 게임을 껐다 켜세요.\n7) 위 과정이 올바르게 끝났으면 이 창이 다시 보이지 않습니다.\n\n힌트: 멀티 모니터에서는 Windows 키 + Shift + 왼쪽/오른쪽 화살표 키로 게임 창을 옮길 수 있습니다.</BorderlessFullscreenInstructions>
+  <BorderlessFullscreenInstructions>림월드를 테두리 없는 전체 창 화면으로 플레이하시려면,\n\n1) 스팀을 여세요.\n2) "라이브러리" 탭으로 이동하세요.\n3) 림월드를 찾아 오른쪽 클릭하세요.\n4) "속성..."을 클릭하세요.\n5) "일반" 탭의 "시작 옵션"에 "-popupwindow"를 추가하세요(따옴표 제외).\n6) 게임을 껐다 켜세요.\n7) 위 과정이 올바르게 끝났으면 이 창이 다시 보이지 않습니다.\n\n힌트: 멀티 모니터에서는 Windows 키 + Shift + 왼쪽/오른쪽 화살표 키로 게임 창을 옮길 수 있습니다.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->

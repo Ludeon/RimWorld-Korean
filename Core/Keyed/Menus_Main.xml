@@ -336,8 +336,22 @@
   <Incompatible>호환되지 않음</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>번역 태그로 지정</TagAsTranslation>
+  <!-- EN: Build asset pack -->
+  <UploadBuildAssetPack>에셋 팩 빌드</UploadBuildAssetPack>
+  <!-- EN: Packs textures and sounds into an asset pack in each load folder before uploading, to improve download and load times. Untick this to upload the mod folder as it is. -->
+  <UploadBuildAssetPackTip>업로드 전 각 로드 폴더의 텍스처와 사운드를 에셋 팩으로 압축하여 다운로드 및 불러오는 시간을 단축합니다. 모드 폴더를 있는 그대로 업로드하려면 이 설정을 비활성화하세요.</UploadBuildAssetPackTip>
+  <!-- EN: Don't upload source textures -->
+  <UploadSkipSourceTextures>원본 텍스처 업로드 금지</UploadSkipSourceTextures>
+  <!-- EN: Skips uploading the original image and sound files that were included in asset packs. Leave this unticked if you need compatibility with RimWorld 1.6 or earlier. -->
+  <UploadSkipSourceTexturesTip>에셋 팩에 포함된 원본 이미지 및 사운드 파일을 업로드하지 않습니다. RimWorld 1.6 이하 버전과의 호환성이 필요한 경우 이 항목을 비활성화하세요.</UploadSkipSourceTexturesTip>
+  <!-- EN: Baking asset packs -->
+  <BakingModAssetPacks>에셋 팩 생성</BakingModAssetPacks>
+  <!-- EN: Baking asset packs for {0} -->
+  <BakingModAssetPacksFor>{0} 에셋 팩 생성 중</BakingModAssetPacksFor>
+  <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
+  <ModAssetPackBakeFailed>{0} 에셋 팩 생성에 실패하여 모드를 업로드하지 못함:</ModAssetPackBakeFailed>
   <!-- EN: Too many (max {0}):  -->
-  <TooMany>너무 많음 (최대 {0}): </TooMany>
+  <TooMany>너무 많음 (최대 {0}):</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>제작자 본인인 경우에만 창작마당 업데이트가 가능합니다.</CanBeUpdatedOnWorkshop>
   <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
