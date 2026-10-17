@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>KoreanTranslationCleaner</AssemblyName>
+    <RimWorldPath Condition="'$(RimWorldPath)' == ''">$(RIMWORLD_PATH)</RimWorldPath>
+    <OutputPath>Mod/Assemblies</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="netstandard" />
+    <Reference Include="$(RimWorldPath)\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="$(RimWorldPath)\UnityStubs.dll" Private="false" />
+  </ItemGroup>
+</Project>

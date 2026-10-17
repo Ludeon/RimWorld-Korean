@@ -5,6 +5,7 @@ import * as fs from 'jsr:@std/fs'
 import { ensureDir } from 'jsr:@std/fs'
 import * as path from 'jsr:@std/path'
 import * as zip from 'jsr:@zip-js/zip-js'
+import { cleanup } from './cleanup.mjs'
 import { prepare } from './prepare.mjs'
 
 import { AVAILABLE_DLCS } from './consts.mjs'
@@ -346,6 +347,13 @@ const main = async () => {
         await pushLanguageData(dlc)
       })
     )
+  } else if (command === 'cleanup') {
+    await cleanup(getRimworldBasePath())
+  } else if (command === 'sync') {
+    await clearTranslations()
+    await Promise.all(AVAILABLE_DLCS.map(pushLanguageData))
+    await cleanup(getRimworldBasePath())
+    await Promise.all(AVAILABLE_DLCS.map(pullLanguageData))
   } else if (command === 'worker') {
     await buildWorker()
   } else if (command === 'prepare') {
@@ -353,7 +361,7 @@ const main = async () => {
   } else if (command === 'upload') {
     await upload()
   } else {
-    console.log('Available commands: credit, clear, download, pull, push, worker, prepare')
+    console.log('Available commands: credit, clear, download, pull, push, cleanup, sync, worker, prepare')
   }
 }
 

@@ -1,12 +1,12 @@
 ﻿# RimWorld-Korean
 
-See this page for license info: http://ludeon.com/forums/index.php?topic=2933.0
+See this page for license info: <http://ludeon.com/forums/index.php?topic=2933.0>
 
 See [CREDITS](./CREDITS) for list of current contributors. Contact [@alattalatta](https://github.com/alattalatta) for any inquiries.
 
 ## Discord
 
-https://discord.gg/6PyAxGU
+<https://discord.gg/6PyAxGU>
 
 ## Deno 스크립트
 
@@ -17,13 +17,11 @@ https://discord.gg/6PyAxGU
 ### 번역 업데이트
 
 1. `deno task cli download [--no-build]`로 다운로드
-1. `deno task cli push`로 설치
-1. RimWorld 실행 후 번역 파일 정리
-1. `deno task cli pull`로 정리된 파일 가져오기
+1. `deno task cli sync`로 정리
 
 ### 크레딧 업데이트
 
-1. Crowdin 액세스 토큰 발급 (Reports 권한 필요, https://support.crowdin.com/enterprise/personal-access-tokens/)
+1. Crowdin 액세스 토큰 발급 (Reports 권한 필요, <https://support.crowdin.com/enterprise/personal-access-tokens/>)
 1. `.crowdin.json`: `{ "host": "Crowdin 호스트 (마지막 슬래시 제외)", "token": "액세스 토큰" }`
 1. `deno task cli credit [--no-report]`
 
