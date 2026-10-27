@@ -357,7 +357,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>관통력</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>관통력은 이 무기가 대상에 적중할 때 무시할 방어도의 양입니다.\n\n관통력이 목표물의 방어도보다 높다면 알몸의 대상을 공격한 것과 같은 결과를 냅니다. 반대로, 관통력이 목표물의 방어도보다 작다면 방어도 상쇄 후 남은 양을 기준으로 피해를 계산합니다.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>관통력은 이 무기가 대상에 적중할 때 무시할 방어도의 양입니다.\n\n관통력이 목표물의 방어도보다 높다면 알몸의 대상을 공격한 것과 같은 결과를 냅니다. 반대로 관통력이 목표물의 방어도보다 낮다면 방어도 상쇄 후 남은 양을 기준으로 피해를 계산합니다.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
   <BuildingDamageFactor>건물 피해 계수</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
