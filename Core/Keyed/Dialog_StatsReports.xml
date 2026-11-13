@@ -467,17 +467,17 @@
   <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
   <Stat_Animal_LitterSizeDesc>매 출산 또는 부화에서 태어나는 새끼의 수입니다. 범위로 된 값일 경우 해당 범위 안의 무작위 수만큼 태어납니다.</Stat_Animal_LitterSizeDesc>
   <!-- EN: Adult meat amount -->
-  <Stat_Animal_AdultMeatAmount>성체 고기량</Stat_Animal_AdultMeatAmount>
+  <Stat_Animal_AdultMeatAmount>성체 고기양</Stat_Animal_AdultMeatAmount>
   <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
-  <Stat_Animal_AdultMeatAmountDesc>이 동물종의 성체를 도축했을 때 얻을 수 있는 기본 고기량입니다. 실제로 얻는 고기의 양은 신체 피해량과 도축 기술 등의 영향을 받습니다.</Stat_Animal_AdultMeatAmountDesc>
+  <Stat_Animal_AdultMeatAmountDesc>이 동물종의 성체를 도축했을 때 얻을 수 있는 기본 고기양입니다. 실제로 얻는 고기의 양은 신체 손상 정도와 도축 기술 등의 영향을 받습니다.</Stat_Animal_AdultMeatAmountDesc>
   <!-- EN: Growth time -->
   <Stat_Animal_GrowthTime>성장 기간</Stat_Animal_GrowthTime>
   <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
   <Stat_Animal_GrowthTimeDesc>동물이 성체가 되기까지 일반적으로 걸리는 시간입니다. 굶주린 동물이 성체가 되려면 더 오랜 시간이 필요합니다.</Stat_Animal_GrowthTimeDesc>
   <!-- EN: Meat per day during growth -->
-  <Stat_Animal_MeatPerDayDuringGrowth>성장 중 일간 고기량</Stat_Animal_MeatPerDayDuringGrowth>
+  <Stat_Animal_MeatPerDayDuringGrowth>성장 중 일간 고기양</Stat_Animal_MeatPerDayDuringGrowth>
   <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
-  <Stat_Animal_MeatPerDayDuringGrowthDesc>동물이 성체가 되기까지 자라면서 매일 증가하는 고기의 양입니다.\n\n이 값은 고기량과 성장에 필요한 기간을 통해 계산합니다.</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>동물이 성체가 되기까지 자라면서 매일 증가하는 고기의 양입니다.\n\n이 값은 고기양과 성장에 필요한 기간으로 계산합니다.</Stat_Animal_MeatPerDayDuringGrowthDesc>
   <!-- EN: Grass to maintain -->
   <Stat_Animal_GrassToMaintain>유지에 필요한 잡초</Stat_Animal_GrassToMaintain>
   <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->

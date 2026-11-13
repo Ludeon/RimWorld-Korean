@@ -391,13 +391,13 @@
   <!-- EN: Shut down -->
   <ShutDown>정지</ShutDown>
   <!-- EN: Fire rate -->
-  <BurstShotFireRate>발사속도</BurstShotFireRate>
+  <BurstShotFireRate>발사 속도</BurstShotFireRate>
   <!-- EN: Range -->
   <Range>사거리</Range>
   <!-- EN: Stopping power -->
   <StoppingPower>저지력</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>이 무기에 적중한 대상은 몇 초간 이동속도가 느려집니다.\n\n저지력보다 신체 크기가 큰 대상은 영향을 받지 않습니다.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>이 무기에 적중한 대상은 몇 초간 이동 속도가 느려집니다.\n\n저지력보다 신체 크기가 큰 대상은 영향을 받지 않습니다.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>직접 명중률</DirectHitChance>
   <!-- EN: Miss radius -->
@@ -761,7 +761,7 @@
   <!-- EN: The caravan can't carry that much. -->
   <TooBigCaravanMassUsage>상단이 그렇게 많은 양을 운반할 수 없습니다.</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
-  <CaravanMassUsageTooltip>상단의 물품과 정착민들의 현재 장비들을 포함합니다. 최대 적재량보다 적으면 이동속도가 추가로 증가합니다.</CaravanMassUsageTooltip>
+  <CaravanMassUsageTooltip>상단의 물품과 정착민들의 현재 장비들을 포함합니다. 최대 적재량보다 적으면 이동 속도가 추가로 증가합니다.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
   <CaravanVisibilityTip>식별률은 상단이 얼마나 눈에 잘 띄는지를 보여줍니다.\n\n상단이 적들에게 습격 될 확률을 증가시킵니다.\n\n원하는 것을 찾는 능력에는 영향이 없습니다.\n\n식별률은 상단의 모든 사람과 동물의 신체 크기 총합에 좌우됩니다.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
@@ -851,7 +851,7 @@
   <!-- EN: None -->
   <TilesPerDayImmobileShort>없음</TilesPerDayImmobileShort>
   <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
-  <CaravanMovementSpeedTip>이동속도는 모든 구성원과 동물, 운반 중량, 지형의 험악함에 따라 달라집니다.</CaravanMovementSpeedTip>
+  <CaravanMovementSpeedTip>이동 속도는 모든 구성원과 동물, 운반 중량, 지형의 험악함에 따라 달라집니다.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
   <AnimalsWillBeAbleToGraze>모든 동물 방목 가능</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
@@ -1027,7 +1027,7 @@
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
   <DrugUsageTipForJoy>재미\n\n스트레스 해소와 사교 활동으로 사용합니다.\n\n금지되더라도 특정 특성을 가졌거나 정신이상을 겪는 중인 정착민은 정책을 지키지 않을 수 있습니다.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
-  <DrugUsageTipScheduled>시간 엄수\n\n조건을 만족할 경우 지정된 일정에 따라 사용합니다.</DrugUsageTipScheduled>
+  <DrugUsageTipScheduled>조건 엄수\n\n조건을 만족할 경우 지정된 일정에 따라 사용합니다.</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
   <!-- EN: Food policies -->

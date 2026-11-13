@@ -350,6 +350,10 @@
   <BakingModAssetPacksFor>{0} 에셋 팩 생성 중</BakingModAssetPacksFor>
   <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
   <ModAssetPackBakeFailed>{0} 에셋 팩 생성에 실패하여 모드를 업로드하지 못함:</ModAssetPackBakeFailed>
+  <!-- EN: Preparing upload -->
+  <PreparingWorkshopUpload>업로드 준비 중</PreparingWorkshopUpload>
+  <!-- EN: Preparing {0} for upload failed, the mod was not uploaded: -->
+  <WorkshopUploadStagingFailed>{0} 업로드 준비에 실패하여 모드를 업로드하지 못함:</WorkshopUploadStagingFailed>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>너무 많음 (최대 {0}):</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
@@ -381,9 +385,9 @@
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
-  <DifficultyCustomSectionLabel>사용자 지정 플레이 유형 설정</DifficultyCustomSectionLabel>
+  <DifficultyCustomSectionLabel>사용자 지정 진행 방식 설정</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>표준 플레이 유형으로 설정..</DifficultyReset>
+  <DifficultyReset>표준 진행 방식으로 설정...</DifficultyReset>
   
   <!-- EN: Threats -->
   <DifficultyThreatSection>위협</DifficultyThreatSection>
@@ -546,7 +550,7 @@
   <!-- EN: Years until maximum threat -->
   <Difficulty_FixedWealthTimeFactor_Label>최대 위협까지 (연수)</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
-  <Difficulty_FixedWealthTimeFactor_Info>재산 독립모드가 최대 위협 수준에 도달할 때까지의 게임 연수입니다.\n\n이야기꾼은 정착민 수와 기타 요인에 따라 위협 규모를 계속 확장합니다.</Difficulty_FixedWealthTimeFactor_Info>
+  <Difficulty_FixedWealthTimeFactor_Info>재산 배제 진행 방식에서 최대 위협 수준에 도달할 때까지의 게임 연수입니다.\n\n이야기꾼은 여전히 정착민 수와 기타 요인에 따라 위협 규모를 계속 조정합니다.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
   <DifficultyIdeologySection>사상</DifficultyIdeologySection>

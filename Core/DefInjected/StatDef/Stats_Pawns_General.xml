@@ -12,7 +12,7 @@
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>상단 승마 속도</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
-  <CaravanRidingSpeedFactor.description>동물이 상단 이동속도에 주는 영향입니다. 동물은 상단에서만 탈 수 있습니다.</CaravanRidingSpeedFactor.description>
+  <CaravanRidingSpeedFactor.description>동물이 상단 이동 속도에 주는 영향입니다. 동물은 상단에서만 탈 수 있습니다.</CaravanRidingSpeedFactor.description>
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>운반 수량</CarryingCapacity.label>
@@ -106,9 +106,9 @@
   <MaxNutrition.description>배를 가득 채우는 데 필요한 총 열량입니다.</MaxNutrition.description>
   
   <!-- EN: meat amount -->
-  <MeatAmount.label>고기량</MeatAmount.label>
+  <MeatAmount.label>고기양</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <MeatAmount.description>도축해서 얻을 수 있는 고기의 양입니다.</MeatAmount.description>
+  <MeatAmount.description>도축해서 얻을 수 있는 고기의 양입니다. 깔끔하게 도축하지 못했거나, 죽을 당시 부상을 입은 상태라면 획득량이 줄어듭니다.</MeatAmount.description>
   
   <!-- EN: meditation psyfocus gain -->
   <MeditationFocusGain.label>집중명상 획득</MeditationFocusGain.label>
@@ -130,7 +130,7 @@
   <MinimumHandlingSkill.description>조련기술이 이 수치보다 낮다면 조련, 훈련, 명령할 수 없습니다.</MinimumHandlingSkill.description>
   
   <!-- EN: move speed -->
-  <MoveSpeed.label>이동속도</MoveSpeed.label>
+  <MoveSpeed.label>이동 속도</MoveSpeed.label>
   <!-- EN: Speed of movement in cells per second. -->
   <MoveSpeed.description>1초에 몇 칸을 움직일 수 있는지에 대한 값입니다.</MoveSpeed.description>
   <!-- EN: {0} c/s -->
